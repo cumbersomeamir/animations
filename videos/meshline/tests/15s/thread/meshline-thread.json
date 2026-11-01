@@ -1,0 +1,78 @@
+{
+  "contact": "Sam",
+  "fps": 30,
+  "durationMs": 15000,
+  "note": "Script-first data model from text-message-animation (from/text/typingMs/delayMs/status/reaction). Meshline adaptations: 'fail' (Not delivered while offline), 'system' divider, 'end' card. 'history' = four prior messages already on screen at frame 0 (context, not revealed).",
+  "thread": [
+    {
+      "from": "me",
+      "text": "Almost at the gates",
+      "history": true
+    },
+    {
+      "from": "them",
+      "text": "Doors just opened. It's packed",
+      "history": true
+    },
+    {
+      "from": "them",
+      "text": "Text me when you're in",
+      "history": true
+    },
+    {
+      "from": "me",
+      "text": "Inside! Lost you in the crowd",
+      "history": true
+    },
+    {
+      "from": "me",
+      "text": "Where are you?",
+      "delayMs": 300,
+      "fail": true
+    },
+    {
+      "from": "me",
+      "text": "Hello??",
+      "delayMs": 700,
+      "fail": true
+    },
+    {
+      "system": "Now messaging nearby",
+      "delayMs": 750
+    },
+    {
+      "from": "them",
+      "text": "Right behind you. Blue jacket.",
+      "typingMs": 900,
+      "delayMs": 650
+    },
+    {
+      "from": "me",
+      "text": "No signal here at all",
+      "delayMs": 800
+    },
+    {
+      "from": "them",
+      "text": "Same. Still getting yours.",
+      "typingMs": 800,
+      "delayMs": 450
+    },
+    {
+      "from": "me",
+      "text": "Meet by the stage?",
+      "delayMs": 900,
+      "status": "read"
+    },
+    {
+      "from": "them",
+      "text": "On my way",
+      "typingMs": 700,
+      "delayMs": 450,
+      "reaction": "heart"
+    },
+    {
+      "end": true,
+      "delayMs": 900
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+ "duration": 15,
+ "fps": 30,
+ "switchAt": 2.25,
+ "endAt": 10.3,
+ "endParts": {
+  "icon": 10.350000000000001,
+  "title": 10.700000000000001,
+  "sub": 11.05,
+  "cta": 11.450000000000001
+ },
+ "events": [
+  {
+   "t": 0.3,
+   "type": "send",
+   "gain": 0.9
+  },
+  {
+   "t": 0.85,
+   "type": "fail",
+   "gain": 0.8
+  },
+  {
+   "t": 1.25,
+   "type": "send",
+   "gain": 0.9
+  },
+  {
+   "t": 1.8,
+   "type": "fail",
+   "gain": 0.8
+  },
+  {
+   "t": 2.25,
+   "type": "switch",
+   "gain": 0.9
+  },
+  {
+   "t": 2.3,
+   "type": "sweep",
+   "gain": 0.8,
+   "dur": 0.75
+  },
+  {
+   "t": 2.7333,
+   "type": "refill",
+   "gain": 0.7
+  },
+  {
+   "t": 2.7667,
+   "type": "refill",
+   "gain": 0.7
+  },
+  {
+   "t": 3.15,
+   "type": "typing",
+   "gain": 0.5,
+   "dur": 0.9
+  },
+  {
+   "t": 4.05,
+   "type": "receive",
+   "gain": 0.85
+  },
+  {
+   "t": 5.1,
+   "type": "send",
+   "gain": 0.9
+  },
+  {
+   "t": 5.8,
+   "type": "typing",
+   "gain": 0.5,
+   "dur": 0.8
+  },
+  {
+   "t": 6.6,
+   "type": "receive",
+   "gain": 0.85
+  },
+  {
+   "t": 7.75,
+   "type": "send",
+   "gain": 0.9
+  },
+  {
+   "t": 8.45,
+   "type": "read",
+   "gain": 0.35
+  },
+  {
+   "t": 8.45,
+   "type": "typing",
+   "gain": 0.5,
+   "dur": 0.7
+  },
+  {
+   "t": 9.15,
+   "type": "receive",
+   "gain": 0.85
+  },
+  {
+   "t": 9.55,
+   "type": "tapback",
+   "gain": 0.7
+  },
+  {
+   "t": 10.3,
+   "type": "cardWhoosh",
+   "gain": 0.6
+  },
+  {
+   "t": 10.35,
+   "type": "pop",
+   "gain": 0.8
+  },
+  {
+   "t": 10.7,
+   "type": "pop",
+   "gain": 0.6
+  },
+  {
+   "t": 11.05,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 11.45,
+   "type": "ctaPop",
+   "gain": 0.85
+  },
+  {
+   "t": 12.35,
+   "type": "shimmer",
+   "gain": 0.4
+  },
+  {
+   "t": 13.55,
+   "type": "shimmer",
+   "gain": 0.35
+  }
+ ],
+ "messages": [
+  {
+   "i": 0,
+   "from": "me",
+   "text": "Almost at the gates",
+   "typingStart": -2,
+   "enter": -2
+  },
+  {
+   "i": 1,
+   "from": "them",
+   "text": "Doors just opened. It's packed",
+   "typingStart": -2,
+   "enter": -2
+  },
+  {
+   "i": 2,
+   "from": "them",
+   "text": "Text me when you're in",
+   "typingStart": -2,
+   "enter": -2
+  },
+  {
+   "i": 3,
+   "from": "me",
+   "text": "Inside! Lost you in the crowd",
+   "typingStart": -2,
+   "enter": -2
+  },
+  {
+   "i": 4,
+   "from": "me",
+   "text": "Where are you?",
+   "typingStart": 0.3,
+   "enter": 0.3
+  },
+  {
+   "i": 5,
+   "from": "me",
+   "text": "Hello??",
+   "typingStart": 1.25,
+   "enter": 1.25
+  },
+  {
+   "i": 6,
+   "system": "Now messaging nearby",
+   "typingStart": 2.25,
+   "enter": 2.25
+  },
+  {
+   "i": 7,
+   "from": "them",
+   "text": "Right behind you. Blue jacket.",
+   "typingStart": 3.15,
+   "enter": 4.05
+  },
+  {
+   "i": 8,
+   "from": "me",
+   "text": "No signal here at all",
+   "typingStart": 5.1,
+   "enter": 5.1
+  },
+  {
+   "i": 9,
+   "from": "them",
+   "text": "Same. Still getting yours.",
+   "typingStart": 5.8,
+   "enter": 6.6
+  },
+  {
+   "i": 10,
+   "from": "me",
+   "text": "Meet by the stage?",
+   "typingStart": 7.75,
+   "enter": 7.75
+  },
+  {
+   "i": 11,
+   "from": "them",
+   "text": "On my way",
+   "typingStart": 8.45,
+   "enter": 9.15
+  },
+  {
+   "i": 12,
+   "end": true,
+   "typingStart": 10.3,
+   "enter": 10.3
+  }
+ ]
+}

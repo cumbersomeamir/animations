@@ -1,0 +1,21 @@
+{
+  "voice": "af_heart",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.95,
+      "text": "No internet?",
+      "file": "n1.wav",
+      "sr": 24000,
+      "duration": 0.905
+    },
+    {
+      "id": "n2",
+      "start": 10.7,
+      "text": "Meshline. Private, nearby messaging. Explore on Google Play.",
+      "file": "n2.wav",
+      "sr": 24000,
+      "duration": 3.889
+    }
+  ]
+}

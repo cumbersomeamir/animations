@@ -1,0 +1,16 @@
+codec_name=h264
+profile=High
+width=1080
+height=1920
+pix_fmt=yuv420p
+r_frame_rate=30/1
+duration=15.000000
+codec_name=aac
+profile=LC
+sample_rate=48000
+channels=2
+r_frame_rate=0/0
+duration=15.000000
+duration=15.000000
+size=3080016
+bit_rate=1642675

@@ -8,3 +8,4 @@
 | Narration WAVs | Generated locally with Kokoro-82M (onnx-community/Kokoro-82M-v1.0-ONNX, voice `af_heart`) via `kokoro-onnx` | Apache-2.0 (model and voices) |
 | Fonts | Inter / Inter Display (rsms/inter, Debian `fonts-inter`) | OFL-1.1, see `project/fonts/LICENSE-Inter-debian-copyright.txt` |
 | Renderer | `@napi-rs/canvas` 1.0.11 (npm) + FFmpeg 6.1 (system) | MIT / LGPL-GPL (system tool, not redistributed) |
+| text-message-animation skill (15s test) | iart-ai/text-message-video-skills, read as reference only and reimplemented in original code (`tests/15s/SKILL-NOTES.md`) | MIT |
