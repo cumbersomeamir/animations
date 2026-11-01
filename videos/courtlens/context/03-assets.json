@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/courtlens/assets/listing.json",
+      "sha256": "88ac98b06719b73d751cffc584fef37e764a18ffa491d952c2b706f5af5516c9",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/courtlens/assets/icon.png",
+      "sha256": "f5855b89824f91e97ea5826c6dca18e6df3ace3ae5df9fdb19a9f3dcd7702a04",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

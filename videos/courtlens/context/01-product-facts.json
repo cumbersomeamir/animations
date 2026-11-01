@@ -1,0 +1,72 @@
+{
+  "app": "Courtlens",
+  "package": "courtlens.tensorblue.app",
+  "play_url": "https://play.google.com/store/apps/details?id=courtlens.tensorblue.app",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Courtlens",
+      "url": "https://play.google.com/store/apps/details/Courtlens?id=courtlens.tensorblue.app&hl=en",
+      "description": "Court records, case tracking and an AI assistant for advocates.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "BUSINESS",
+      "image": "https://play-lh.googleusercontent.com/hV8n8Y0nQPl6-qQqtl0TvLov79wcY87MPZJ1dHgqjgloo2FhLlrYAuqV6erYxxqvEvO5Y0da6ds8gF1RzN3M",
+      "contentRating": "Rated for 12+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://fioricet-call-processors-toddler.trycloudflare.com"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Courtlens",
+    "package": "courtlens.tensorblue.app",
+    "status": "live",
+    "color": "#85BBDB",
+    "kind": "law",
+    "captions": [
+      "Another tab. Another case.",
+      "Bring court records together",
+      "Track the case",
+      "Keep your place"
+    ],
+    "narration": [
+      "Another tab. Another case.",
+      "Courtlens. Bring court records together.",
+      "Track the case. Keep your place.",
+      "Courtlens. Verify information with official court records."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Courtlens/Campaign Video",
+    "chat_url": "https://claude.ai/chat/b39a982e-7078-44c3-98b4-0d1ef16bb76a",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Courtlens/Campaign Video/Courtlens-Campaign-30s.mp4",
+    "sha256": "29dcb5e9294bf737464df0af3ed7fe020ccf7ebc4955c191e451e1f1924c66ad",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [
+      "/Users/rajeevkumar/Downloads/Video Master/Courtlens/Editorial Video/Courtlens-Editorial-30s.mp4"
+    ],
+    "chat_title": "Courtlens \u2014 Campaign Video",
+    "claude_account": "info@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
