@@ -1,0 +1,15 @@
+{
+  "name": "werbens-15s-threejs-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 15s style test: deterministic Three.js scene rendered offline in headless Chromium (threejs-animation skill workflow).",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "qa": "bash qa.sh"
+  },
+  "dependencies": {
+    "kokoro-js": "1.2.1",
+    "three": "0.180.0"
+  }
+}
