@@ -1,0 +1,70 @@
+{
+  "app": "Mello",
+  "package": "mello.tensorblue.com",
+  "play_url": "https://play.google.com/store/apps/details?id=mello.tensorblue.com",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mello",
+      "url": "https://play.google.com/store/apps/details/Mello?id=mello.tensorblue.com&hl=en",
+      "description": "Guided relaxation, calming exercises, wellness challenges and progress tools.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "HEALTH_AND_FITNESS",
+      "image": "https://play-lh.googleusercontent.com/CIsPAicbjAux-2Exb6BCxHr8_F_tx4Km5iYuCF0MUjsWboCX3jOCumVQoKdWXXZkzGOUNhBT1e_U0Jv8FHNoHMA",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "about:invalid#navigation"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Mello",
+    "package": "mello.tensorblue.com",
+    "status": "live",
+    "color": "#B6D7C2",
+    "kind": "breath",
+    "captions": [
+      "Your mind has too many tabs.",
+      "Take a soft pause",
+      "Follow a calming exercise",
+      "Make room for a calmer moment"
+    ],
+    "narration": [
+      "Your mind has too many tabs.",
+      "Mello. Take a soft pause.",
+      "Follow a calming exercise. Make room for a calmer moment.",
+      "Mello. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Mello/Campaign Video",
+    "chat_url": "https://claude.ai/chat/a20bdab4-1703-426e-820c-7a1a9acf761a",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Mello/Campaign Video/Mello-Campaign-30s.mp4",
+    "sha256": "4554f56cfbd50296e069cbb937f943eeb98e58a12832f8b5b200138e9aebf10a",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Mello \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}

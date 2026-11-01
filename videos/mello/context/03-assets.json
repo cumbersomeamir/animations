@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/mello/assets/listing.json",
+      "sha256": "1e16a600e4ebd84b57f571ce16343e450ef5615b129ac43c4e3a280986bc9c71",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/mello/assets/icon.png",
+      "sha256": "3182c61f095b50e9c313c9af2dd34227f394d218840c2dc569d684621952ae81",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
