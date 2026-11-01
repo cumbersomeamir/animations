@@ -1,0 +1,70 @@
+{
+  "app": "Werbens",
+  "package": "com.werbens.app",
+  "play_url": "https://play.google.com/store/apps/details?id=com.werbens.app",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Werbens",
+      "url": "https://play.google.com/store/apps/details/Werbens?id=com.werbens.app&hl=en",
+      "description": "Discover creators and manage brand campaigns, briefs and conversations.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "BUSINESS",
+      "image": "https://play-lh.googleusercontent.com/vpoOKo4NnjqPnG4st8h51c1GB5X41ZnsMJmZBUbZ82WVvPoTWr1fC3Bu0jRXzH06wk06w8sRE1wDs1hRFv8TT1A",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://werbens.57-154-240-179.sslip.io"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Werbens",
+    "package": "com.werbens.app",
+    "status": "live",
+    "color": "#D2A5F0",
+    "kind": "campaign",
+    "captions": [
+      "Your campaign is everywhere.",
+      "Bring the brief together",
+      "Connect brands and creators",
+      "Keep the next step clear"
+    ],
+    "narration": [
+      "Your campaign is everywhere.",
+      "Werbens. Bring the brief together.",
+      "Connect brands and creators. Keep the next step clear.",
+      "Werbens. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Werbens/Campaign Video",
+    "chat_url": "https://claude.ai/chat/735dd808-e7ba-4aec-93e4-6d7378633532",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Werbens/Campaign Video/Werbens-Campaign-30s.mp4",
+    "sha256": "ce4f53d820f68453c50940bda44dc1aaa058cb4ce18a1f879a3aa5dc20e2fc63",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Werbens \u2014 Campaign Video",
+    "claude_account": "info@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
