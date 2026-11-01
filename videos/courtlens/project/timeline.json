@@ -1,0 +1,79 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 30.0,
+  "voice": {
+    "engine": "Kokoro-82M v1.0 ONNX (Apache-2.0)",
+    "id": "af_heart",
+    "speed": 1.0
+  },
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.3,
+      "text": "Another hearing. Another mountain of paper.",
+      "accent": [
+        "mountain",
+        "paper."
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 4.15,
+      "text": "Dates, orders, records... scattered everywhere.",
+      "accent": [
+        "scattered",
+        "everywhere."
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 9.4,
+      "text": "Courtlens puts court records in one place.",
+      "say": "Court lens puts court records in one place.",
+      "accent": [
+        "Courtlens",
+        "one",
+        "place."
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 14.0,
+      "text": "Track each case, step by step.",
+      "accent": [
+        "step",
+        "by",
+        "step."
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 18.3,
+      "text": "Got a question? Ask the AI assistant.",
+      "accent": [
+        "AI",
+        "assistant."
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 21.3,
+      "text": "Then verify it with official court records.",
+      "accent": [
+        "official",
+        "court",
+        "records."
+      ]
+    },
+    {
+      "id": "n7",
+      "start": 25.75,
+      "text": "Courtlens. Built for advocates. Explore it on Google Play.",
+      "say": "Court lens. Built for advocates. Explore it on Google Play.",
+      "accent": [],
+      "hideCaption": true
+    }
+  ]
+}

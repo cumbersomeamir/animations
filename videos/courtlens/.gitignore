@@ -1,0 +1,6 @@
+# local caches / heavy intermediates (reproducible from source)
+**/node_modules/
+**/.venv/
+**/.cache/
+project/build/
+tests/15s/build/
