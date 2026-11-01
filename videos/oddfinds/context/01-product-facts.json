@@ -1,0 +1,70 @@
+{
+  "app": "OddFinds",
+  "package": "com.oddfinds.mobile",
+  "play_url": "https://play.google.com/store/apps/details?id=com.oddfinds.mobile",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OddFinds",
+      "url": "https://play.google.com/store/apps/details/OddFinds?id=com.oddfinds.mobile&hl=en",
+      "description": "Unexpected finds, useful oddities and playful gifts\u2014all in one shopping app.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "SHOPPING",
+      "image": "https://play-lh.googleusercontent.com/QNOd3gYk8-W9jruWrS7HeAJLqNeDCDGkMcLtCPv8GLw9m_tH8egAVotznVAcYO5ol6egoUB_N9IGwOc7Nr9COQ",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://57-154-240-179.sslip.io"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "OddFinds",
+    "package": "com.oddfinds.mobile",
+    "status": "live",
+    "color": "#F3A2BE",
+    "kind": "gift",
+    "captions": [
+      "Another ordinary gift?",
+      "Find something unexpected",
+      "Useful meets unusual",
+      "Give a little personality"
+    ],
+    "narration": [
+      "Another ordinary gift?",
+      "OddFinds. Find something unexpected.",
+      "Useful meets unusual. Give a little personality.",
+      "OddFinds. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/OddFinds/Campaign Video",
+    "chat_url": "https://claude.ai/chat/eda4b141-7445-4b39-b8cb-e29fe8cbe4e4",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/OddFinds/Campaign Video/OddFinds-Campaign-30s.mp4",
+    "sha256": "e559bc183874aafa3c4ed161a8b662e372421af184157764ce79d3ab357ee671",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "OddFinds \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}

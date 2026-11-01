@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "OddFinds",
+    "url": "https://play.google.com/store/apps/details/OddFinds?id=com.oddfinds.mobile&hl=en",
+    "description": "Unexpected finds, useful oddities and playful gifts\u2014all in one shopping app.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "SHOPPING",
+    "image": "https://play-lh.googleusercontent.com/QNOd3gYk8-W9jruWrS7HeAJLqNeDCDGkMcLtCPv8GLw9m_tH8egAVotznVAcYO5ol6egoUB_N9IGwOc7Nr9COQ",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "https://57-154-240-179.sslip.io"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

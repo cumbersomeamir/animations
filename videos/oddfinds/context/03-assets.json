@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/oddfinds/assets/listing.json",
+      "sha256": "cceffdc7d04eec60ae92ec8ec132eceb2f88973006ec34ecaf7bb8206fdc723c",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/oddfinds/assets/icon.png",
+      "sha256": "734c2b96d85bc6d5b0eb723d68fa0872e5b37a9a51bd934f20b79ef2867c054e",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
