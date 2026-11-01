@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/wastepaisa/assets/listing.json",
+      "sha256": "bfaa2fca52136cffe047618edad79c5de9c39e8420b44404e5042a77a51408ff",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/wastepaisa/assets/icon.png",
+      "sha256": "4bd8f9d606b0d668b0858e98f1ec5921ab3c62d6da7a346c5f5364d62efb8e24",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

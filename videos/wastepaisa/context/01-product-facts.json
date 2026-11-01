@@ -1,0 +1,70 @@
+{
+  "app": "WastePaisa",
+  "package": "com.wastepaisa",
+  "play_url": "https://play.google.com/store/apps/details?id=com.wastepaisa",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "WastePaisa",
+      "url": "https://play.google.com/store/apps/details/WastePaisa?id=com.wastepaisa&hl=en",
+      "description": "Check recycling prices, sort waste, book pickups and track every payout.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "LIFESTYLE",
+      "image": "https://play-lh.googleusercontent.com/QC_NdgvTcep-BKJjIwupY_dFWSKw0Zl0i1jHrhOrf38J3wavzRZq2LvdzsLF4AHs8z72UJdpqTOPylZRNFlw",
+      "contentRating": "Rated for 18+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://wastepaisa.57-154-240-179.sslip.io"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "WastePaisa",
+    "package": "com.wastepaisa",
+    "status": "live",
+    "color": "#8EC596",
+    "kind": "recycle",
+    "captions": [
+      "This pile has a next chapter.",
+      "Sort your recyclables",
+      "Check local material prices",
+      "Arrange collection. Track payouts."
+    ],
+    "narration": [
+      "This pile has a next chapter.",
+      "WastePaisa. Sort your recyclables.",
+      "Check local material prices. Arrange collection. Track payouts..",
+      "WastePaisa. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/WastePaisa/Campaign Video",
+    "chat_url": "https://claude.ai/chat/73ef428d-0d04-4be3-a38b-2c6c4c35ee46",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/WastePaisa/Campaign Video/WastePaisa-Campaign-30s.mp4",
+    "sha256": "9b2520644cb0e33250bc5276eb704fedcd1147ef058ae28a0fa3db894aaff140",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "WastePaisa \u2014 Campaign Video",
+    "claude_account": "info@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
