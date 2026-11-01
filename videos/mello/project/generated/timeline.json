@@ -1,0 +1,78 @@
+{
+  "voice": "af_heart",
+  "speed": 0.9,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Thoughts stuck on a loop?",
+      "start": 0.2,
+      "end": 1.427
+    },
+    {
+      "id": "tangle",
+      "text": "When your mind won't stop spinning, everything gets tangled.",
+      "start": 2.4,
+      "end": 5.698
+    },
+    {
+      "id": "pause",
+      "text": "Take a soft pause with Mello.",
+      "start": 8.55,
+      "end": 10.24
+    },
+    {
+      "id": "in1",
+      "text": "Breathe in...",
+      "start": 11.4,
+      "end": 12.234
+    },
+    {
+      "id": "out1",
+      "text": "and slowly, let it go.",
+      "start": 13.9,
+      "end": 15.411
+    },
+    {
+      "id": "in2",
+      "text": "Follow a calming exercise,",
+      "start": 16.35,
+      "end": 18.066
+    },
+    {
+      "id": "out2",
+      "text": "one breath at a time.",
+      "start": 18.8,
+      "end": 20.146
+    },
+    {
+      "id": "f1",
+      "text": "Guided relaxation.",
+      "start": 21.45,
+      "end": 22.821
+    },
+    {
+      "id": "f2",
+      "text": "Wellness challenges.",
+      "start": 22.98,
+      "end": 24.233
+    },
+    {
+      "id": "f3",
+      "text": "And progress tools.",
+      "start": 24.36,
+      "end": 25.542
+    },
+    {
+      "id": "brand",
+      "text": "Mello.",
+      "start": 26.05,
+      "end": 26.679
+    },
+    {
+      "id": "cta",
+      "text": "Explore on Google Play.",
+      "start": 26.95,
+      "end": 28.379
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "pre_gain_lufs": -16.2,
+  "applied_gain_db": 0.2,
+  "integrated_lufs": -16.0,
+  "true_peak_dbfs": -1.7,
+  "sample_peak": 0.8204,
+  "limited_samples": 247,
+  "samples_at_or_above_0dbfs": 0
+}

@@ -1,0 +1,8 @@
+.venv/
+.cache/
+__pycache__/
+generated/stills/
+generated/video_silent.mp4
+generated/mix.wav
+generated/music_sfx.wav
+generated/_*.wav

@@ -1,0 +1,3 @@
+command: ffmpeg -v error -xerror -i output/mello-30s.mp4 -f null -
+return code: 0
+stderr: (empty: no decode errors)

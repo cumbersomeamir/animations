@@ -1,0 +1,340 @@
+{
+  "model": "faster-whisper base.en (int8, CPU)",
+  "script_words": 48,
+  "heard_words": 49,
+  "matched_words": 48,
+  "word_recall": 1.0,
+  "lines": [
+    {
+      "id": "hook",
+      "script": "Thoughts stuck on a loop?",
+      "heard": "Thoughts stuck on a loop.",
+      "vo_start": 0.2,
+      "vo_end": 1.427
+    },
+    {
+      "id": "tangle",
+      "script": "When your mind won't stop spinning, everything gets tangled.",
+      "heard": "When your mind won't stop spinning, everything gets tangled.",
+      "vo_start": 2.4,
+      "vo_end": 5.698
+    },
+    {
+      "id": "pause",
+      "script": "Take a soft pause with Mello.",
+      "heard": "a soft pause with Mellow.",
+      "vo_start": 8.55,
+      "vo_end": 10.24
+    },
+    {
+      "id": "in1",
+      "script": "Breathe in...",
+      "heard": "Breathe in.",
+      "vo_start": 11.4,
+      "vo_end": 12.234
+    },
+    {
+      "id": "out1",
+      "script": "and slowly, let it go.",
+      "heard": "slowly let it go.",
+      "vo_start": 13.9,
+      "vo_end": 15.411
+    },
+    {
+      "id": "in2",
+      "script": "Follow a calming exercise,",
+      "heard": "Follow a calming exercise.",
+      "vo_start": 16.35,
+      "vo_end": 18.066
+    },
+    {
+      "id": "out2",
+      "script": "one breath at a time.",
+      "heard": "One breath at a time.",
+      "vo_start": 18.8,
+      "vo_end": 20.146
+    },
+    {
+      "id": "f1",
+      "script": "Guided relaxation.",
+      "heard": "Guided relaxation, wellness",
+      "vo_start": 21.45,
+      "vo_end": 22.821
+    },
+    {
+      "id": "f2",
+      "script": "Wellness challenges.",
+      "heard": "wellness challenges, and progress",
+      "vo_start": 22.98,
+      "vo_end": 24.233
+    },
+    {
+      "id": "f3",
+      "script": "And progress tools.",
+      "heard": "and progress tools. In",
+      "vo_start": 24.36,
+      "vo_end": 25.542
+    },
+    {
+      "id": "brand",
+      "script": "Mello.",
+      "heard": "Mellow, explore",
+      "vo_start": 26.05,
+      "vo_end": 26.679
+    },
+    {
+      "id": "cta",
+      "script": "Explore on Google Play.",
+      "heard": "explore on Google Play.",
+      "vo_start": 26.95,
+      "vo_end": 28.379
+    }
+  ],
+  "words": [
+    {
+      "w": "Thoughts",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "w": "stuck",
+      "start": 0.44,
+      "end": 0.76
+    },
+    {
+      "w": "on",
+      "start": 0.76,
+      "end": 0.96
+    },
+    {
+      "w": "a",
+      "start": 0.96,
+      "end": 1.0
+    },
+    {
+      "w": "loop.",
+      "start": 1.0,
+      "end": 1.2
+    },
+    {
+      "w": "When",
+      "start": 2.22,
+      "end": 2.48
+    },
+    {
+      "w": "your",
+      "start": 2.48,
+      "end": 2.6
+    },
+    {
+      "w": "mind",
+      "start": 2.6,
+      "end": 2.9
+    },
+    {
+      "w": "won't",
+      "start": 2.9,
+      "end": 3.2
+    },
+    {
+      "w": "stop",
+      "start": 3.2,
+      "end": 3.48
+    },
+    {
+      "w": "spinning,",
+      "start": 3.48,
+      "end": 3.82
+    },
+    {
+      "w": "everything",
+      "start": 4.36,
+      "end": 4.66
+    },
+    {
+      "w": "gets",
+      "start": 4.66,
+      "end": 4.96
+    },
+    {
+      "w": "tangled.",
+      "start": 4.96,
+      "end": 5.36
+    },
+    {
+      "w": "Take",
+      "start": 8.04,
+      "end": 8.68
+    },
+    {
+      "w": "a",
+      "start": 8.68,
+      "end": 8.82
+    },
+    {
+      "w": "soft",
+      "start": 8.82,
+      "end": 9.08
+    },
+    {
+      "w": "pause",
+      "start": 9.08,
+      "end": 9.4
+    },
+    {
+      "w": "with",
+      "start": 9.4,
+      "end": 9.72
+    },
+    {
+      "w": "Mellow.",
+      "start": 9.72,
+      "end": 9.96
+    },
+    {
+      "w": "Breathe",
+      "start": 11.42,
+      "end": 11.78
+    },
+    {
+      "w": "in.",
+      "start": 11.78,
+      "end": 11.98
+    },
+    {
+      "w": "And",
+      "start": 13.56,
+      "end": 14.0
+    },
+    {
+      "w": "slowly",
+      "start": 14.0,
+      "end": 14.3
+    },
+    {
+      "w": "let",
+      "start": 14.3,
+      "end": 14.86
+    },
+    {
+      "w": "it",
+      "start": 14.86,
+      "end": 14.94
+    },
+    {
+      "w": "go.",
+      "start": 14.94,
+      "end": 15.16
+    },
+    {
+      "w": "Follow",
+      "start": 16.62,
+      "end": 16.64
+    },
+    {
+      "w": "a",
+      "start": 16.64,
+      "end": 16.8
+    },
+    {
+      "w": "calming",
+      "start": 16.8,
+      "end": 17.04
+    },
+    {
+      "w": "exercise.",
+      "start": 17.04,
+      "end": 17.68
+    },
+    {
+      "w": "One",
+      "start": 18.82,
+      "end": 18.96
+    },
+    {
+      "w": "breath",
+      "start": 18.96,
+      "end": 19.22
+    },
+    {
+      "w": "at",
+      "start": 19.22,
+      "end": 19.5
+    },
+    {
+      "w": "a",
+      "start": 19.5,
+      "end": 19.58
+    },
+    {
+      "w": "time.",
+      "start": 19.58,
+      "end": 19.9
+    },
+    {
+      "w": "Guided",
+      "start": 21.46,
+      "end": 21.78
+    },
+    {
+      "w": "relaxation,",
+      "start": 21.78,
+      "end": 22.12
+    },
+    {
+      "w": "wellness",
+      "start": 22.94,
+      "end": 23.22
+    },
+    {
+      "w": "challenges,",
+      "start": 23.22,
+      "end": 23.82
+    },
+    {
+      "w": "and",
+      "start": 24.34,
+      "end": 24.46
+    },
+    {
+      "w": "progress",
+      "start": 24.46,
+      "end": 24.78
+    },
+    {
+      "w": "tools.",
+      "start": 24.78,
+      "end": 25.16
+    },
+    {
+      "w": "In",
+      "start": 25.16,
+      "end": 26.12
+    },
+    {
+      "w": "Mellow,",
+      "start": 26.12,
+      "end": 26.36
+    },
+    {
+      "w": "explore",
+      "start": 26.94,
+      "end": 27.28
+    },
+    {
+      "w": "on",
+      "start": 27.28,
+      "end": 27.52
+    },
+    {
+      "w": "Google",
+      "start": 27.52,
+      "end": 27.74
+    },
+    {
+      "w": "Play.",
+      "start": 27.74,
+      "end": 28.12
+    }
+  ]
+}

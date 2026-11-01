@@ -1,0 +1,9 @@
+# Top-level pins (full transitive lock: requirements.lock.txt). Python 3.13.
+skia-python==138.0
+numpy==2.2.6
+scipy==1.16.2
+soundfile==0.13.1
+pillow==11.3.0
+fonttools==4.60.1
+brotli==1.1.0
+kokoro-onnx==0.4.9
