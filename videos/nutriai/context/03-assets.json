@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/nutriai/assets/listing.json",
+      "sha256": "c68f13841f31503894d66b2f11f397c94b4068b38346a4c2bcd9dd12cc32d0d0",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/nutriai/assets/icon.png",
+      "sha256": "9ee75def46fc93acc70928d219ba16f8371f34494e9e22add5659b3b2e146fbb",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

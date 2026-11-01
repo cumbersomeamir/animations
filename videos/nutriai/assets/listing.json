@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "NutriAI: Calorie Tracker",
+    "url": "https://play.google.com/store/apps/details/NutriAI_Calorie_Tracker?id=com.nutriaimobile&hl=en",
+    "description": "Track meals, water, weight and fasting privately on your Android device.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "HEALTH_AND_FITNESS",
+    "image": "https://play-lh.googleusercontent.com/m1pMsBG_x1UbauBUPCFR3PkB08SRw2DPmr0t_XFEeOWYsq5RSj84UvBbR2pGy40ESc9Vip_3jjEwyBGB6PySOw",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "http://nutriai-api-eight.vercel.app"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]
