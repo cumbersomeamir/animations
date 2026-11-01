@@ -1,0 +1,22 @@
+{
+  "name": "courtlens-15s-diagram-test",
+  "version": "1.0.0",
+  "description": "Courtlens 15 s diagram-animation style test (inline SVG + GSAP master timeline, Playwright frame capture, FFmpeg)",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tools/build.sh",
+    "qa": "tools/qa.sh",
+    "preview": "echo open src/diagram.html in a browser (add ?t=N to freeze)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/jetbrains-mono": "5.2.8",
+    "gsap": "3.15.0"
+  },
+  "private": true
+}

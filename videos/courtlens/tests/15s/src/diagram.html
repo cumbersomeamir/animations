@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Courtlens case trail diagram</title>
+<!-- Courtlens 15 s diagram-animation test.
+     Applies the diagram-animation skill grammar: containers -> nodes -> edges -> labels,
+     pathLength-normalised dash draw-on, marching-dash connectors with travelling packets,
+     active path highlighted / context dimmed to 0.35, one GSAP master timeline, ?t=N freeze.
+     Every element is original; the only product asset is the verified store icon. -->
+<style>
+  @font-face { font-family: "JBM"; font-weight: 500; src: url("../node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2") format("woff2"); }
+  @font-face { font-family: "JBM"; font-weight: 700; src: url("../node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "JBM"; font-weight: 800; src: url("../node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-800-normal.woff2") format("woff2"); }
+  @font-face { font-family: "InterT"; font-weight: 500; src: url("../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2") format("woff2"); }
+  @font-face { font-family: "InterT"; font-weight: 700; src: url("../node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "InterT"; font-weight: 800; src: url("../node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2") format("woff2"); }
+  html, body { margin: 0; padding: 0; background: #021C3F; overflow: hidden; }
+  svg { display: block; }
+  text { font-family: "JBM", monospace; }
+  .sans { font-family: "InterT", sans-serif; }
+</style>
+<script src="../node_modules/gsap/dist/gsap.min.js"></script>
+</head>
+<body>
+<svg id="stage" width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="540" cy="900" r="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E3E70" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#062754" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#021C3F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.7" fill="#10497A"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="iconClip"><rect x="-85" y="-85" width="170" height="170" rx="36"/></clipPath>
+    <clipPath id="wordClip"><rect id="wordClipRect" x="0" y="900" width="0" height="160"/></clipPath>
+  </defs>
+  <rect width="1080" height="1920" fill="#021C3F"/>
+  <rect width="1080" height="1920" fill="url(#bgGlow)"/>
+  <rect id="grid" width="1080" height="1920" fill="url(#dots)" opacity="0.55"/>
+  <g id="world"></g>
+  <g id="hud"></g>
+</svg>
+<script>
+"use strict";
+// ------------------------------------------------------------------ palette (sampled from assets/icon.png)
+const PAL = {
+  navyDeep: "#021C3F", navyMid: "#10497A", navyFill: "#0A2E5C", ivory: "#F5EDDF",
+  gold: "#E0AD59", cyan: "#2EE4F9", dimInk: "#4F79A6",
+};
+// Colour grammar (fixed for the whole piece):
+//   ivory = court records / case trail (content), cyan = AI assistant, gold = official record & verified,
+//   navy-mid = inactive structure (containers, idle edges).
+const NS = "http://www.w3.org/2000/svg";
+const world = document.getElementById("world");
+const hud = document.getElementById("hud");
+function el(tag, attrs, parent) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  (parent || world).appendChild(e);
+  return e;
+}
+const CUES = [];
+const cue = (t, type, o = {}) => CUES.push(Object.assign({ t: +t.toFixed(3), type }, o));
+
+// ------------------------------------------------------------------ primitives (state objects tweened by GSAP)
+const NODES = {}, EDGES = {}, PACKETS = [];
+function docGlyph(g, x, y, s, color) {
+  el("path", { d: `M${x} ${y} h${14 * s} l${8 * s} ${8 * s} v${22 * s} h${-22 * s} z`, fill: "none", stroke: color, "stroke-width": 2.5 * s, "stroke-linejoin": "round" }, g);
+  el("path", { d: `M${x + 4 * s} ${y + 14 * s} h${12 * s} M${x + 4 * s} ${y + 20 * s} h${9 * s}`, stroke: color, "stroke-width": 2 * s, "stroke-linecap": "round" }, g);
+}
+function sealGlyph(g, x, y, r) {
+  el("circle", { cx: x, cy: y, r, fill: PAL.gold }, g);
+  el("path", { d: `M${x - r * 0.6} ${y - r * 0.15} L${x} ${y - r * 0.55} L${x + r * 0.6} ${y - r * 0.15} Z`, fill: PAL.navyDeep }, g);
+  for (let i = -1; i <= 1; i++) el("rect", { x: x + i * r * 0.36 - r * 0.08, y: y - r * 0.1, width: r * 0.16, height: r * 0.45, fill: PAL.navyDeep }, g);
+  el("rect", { x: x - r * 0.62, y: y + r * 0.38, width: r * 1.24, height: r * 0.14, fill: PAL.navyDeep }, g);
+}
+function sparkleGlyph(g, x, y, r, color) {
+  el("path", { d: `M${x} ${y - r} Q${x} ${y} ${x + r} ${y} Q${x} ${y} ${x} ${y + r} Q${x} ${y} ${x - r} ${y} Q${x} ${y} ${x} ${y - r} Z`, fill: color }, g);
+}
+
+// kind: record | recordSmall | hub | step | ai | gate | official | chip | cta
+function node(id, kind, x, y, label, opts = {}) {
+  const g = el("g", {}, opts.parent || world);
+  const body = el("g", {}, g);
+  const labelG = el("g", {}, g);
+  const st = { id, kind, g, body, labelG, x, y, s: 0.8, o: 0, lbl: 0, dim: 1, fill: 0, ring: 0, gold: 0, check: 0, pend: 0, jitter: 0, hit: 0, w: opts.w, h: opts.h };
+  if (kind === "record" || kind === "recordSmall") {
+    const w = opts.w, h = opts.h, sm = kind === "recordSmall";
+    st.rect = el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: sm ? 14 : 20, fill: PAL.navyFill, stroke: PAL.ivory, "stroke-width": sm ? 2.5 : 3.5 }, body);
+    docGlyph(body, -w / 2 + (sm ? 16 : 24), -(sm ? 12 : 16), sm ? 0.8 : 1.1, PAL.ivory);
+    st.text = el("text", { x: -w / 2 + (sm ? 46 : 70), y: sm ? 8 : 12, fill: PAL.ivory, "font-size": sm ? 22 : 34, "font-weight": 700, "letter-spacing": sm ? 1 : 2 }, labelG);
+    st.text.textContent = label;
+  } else if (kind === "hub") {
+    st.halo = el("circle", { r: 150, fill: PAL.cyan, opacity: 0, filter: "url(#softGlow)" }, body);
+    st.ringDash = el("circle", { r: 134, fill: "none", stroke: PAL.ivory, "stroke-width": 2.5, "stroke-dasharray": "6 12", opacity: 0.55 }, body);
+    st.circle = el("circle", { r: 116, fill: PAL.navyDeep, stroke: PAL.ivory, "stroke-width": 4 }, body);
+    const ig = el("g", { "clip-path": "url(#iconClip)" }, body);
+    el("image", { href: "../../../assets/icon.png", x: -85, y: -85, width: 170, height: 170 }, ig);
+    st.text = el("text", { x: 0, y: -192, fill: PAL.ivory, "font-size": 34, "font-weight": 800, "letter-spacing": 4, "text-anchor": "middle" }, labelG);
+    st.text.textContent = label;
+    st.sub = el("text", { x: 0, y: -158, fill: PAL.ivory, "font-size": 24, "font-weight": 500, "text-anchor": "middle", opacity: 0 }, labelG);
+    st.sub.textContent = "court records · case tracking";
+  } else if (kind === "step") {
+    st.ringC = el("circle", { r: 26, fill: "none", stroke: PAL.ivory, "stroke-width": 3, opacity: 0 }, body);
+    st.goldRing = el("circle", { r: 40, fill: "none", stroke: PAL.gold, "stroke-width": 5, opacity: 0 }, body);
+    st.circle = el("circle", { r: 24, fill: PAL.navyDeep, stroke: PAL.ivory, "stroke-width": 4 }, body);
+    st.checkP = el("path", { d: "M-10 1 L-3 8 L11 -8", fill: "none", stroke: PAL.navyDeep, "stroke-width": 5, "stroke-linecap": "round", "stroke-linejoin": "round", pathLength: 1, "stroke-dasharray": "1 1", "stroke-dashoffset": 1 }, body);
+    st.text = el("text", { x: 48, y: 12, fill: PAL.ivory, "font-size": 34, "font-weight": 700, "letter-spacing": 1 }, labelG);
+    st.text.textContent = label;
+  } else if (kind === "ai") {
+    const w = opts.w, h = opts.h;
+    st.rect = el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: 26, fill: "#05284A", stroke: PAL.cyan, "stroke-width": 4 }, body);
+    sparkleGlyph(body, -w / 2 + 44, 0, 22, PAL.cyan);
+    st.dots = [0, 1, 2].map((i) => el("circle", { cx: w / 2 - 70 + i * 22, cy: -h / 2 - 30, r: 7, fill: PAL.cyan, opacity: 0 }, body));
+    st.bubble = el("rect", { x: w / 2 - 98, y: -h / 2 - 52, width: 100, height: 44, rx: 22, fill: "none", stroke: PAL.cyan, "stroke-width": 2.5, opacity: 0 }, body);
+    st.text = el("text", { x: -w / 2 + 84, y: 12, fill: PAL.cyan, "font-size": 32, "font-weight": 700, "letter-spacing": 1 }, labelG);
+    st.text.textContent = label;
+  } else if (kind === "gate") {
+    st.pendRing = el("rect", { x: -62, y: -62, width: 124, height: 124, rx: 10, fill: "none", stroke: PAL.cyan, "stroke-width": 3, transform: "rotate(45)", opacity: 0 }, body);
+    st.rect = el("rect", { x: -46, y: -46, width: 92, height: 92, rx: 10, fill: PAL.navyFill, stroke: PAL.ivory, "stroke-width": 4, transform: "rotate(45)" }, body);
+    st.q = el("text", { x: 0, y: 13, fill: PAL.ivory, "font-size": 40, "font-weight": 800, "text-anchor": "middle" }, body);
+    st.q.textContent = "?";
+    st.checkP = el("path", { d: "M-20 2 L-6 16 L22 -14", fill: "none", stroke: PAL.navyDeep, "stroke-width": 9, "stroke-linecap": "round", "stroke-linejoin": "round", pathLength: 1, "stroke-dasharray": "1 1", "stroke-dashoffset": 1 }, body);
+    st.text = el("text", { x: -82, y: 12, fill: PAL.ivory, "font-size": 30, "font-weight": 700, "letter-spacing": 2, "text-anchor": "end" }, labelG);
+    st.text.textContent = label;
+  } else if (kind === "official") {
+    const w = opts.w, h = opts.h;
+    st.rect = el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: 20, fill: PAL.navyFill, stroke: PAL.gold, "stroke-width": 4 }, body);
+    sealGlyph(body, -w / 2 + 50, 0, 30);
+    st.text = el("text", { x: -w / 2 + 96, y: -6, fill: PAL.gold, "font-size": 26, "font-weight": 800, "letter-spacing": 1.5 }, labelG);
+    st.text.textContent = "OFFICIAL";
+    const t2 = el("text", { x: -w / 2 + 96, y: 26, fill: PAL.gold, "font-size": 26, "font-weight": 800, "letter-spacing": 1.5 }, labelG);
+    t2.textContent = "COURT RECORD";
+  } else if (kind === "chip") {
+    const w = opts.w;
+    st.rect = el("rect", { x: -w / 2, y: -28, width: w, height: 56, rx: 28, fill: PAL.navyFill, stroke: opts.color || PAL.ivory, "stroke-width": 2.5 }, body);
+    st.text = el("text", { x: 0, y: 9, fill: opts.color || PAL.ivory, "font-size": 25, "font-weight": 700, "letter-spacing": 1, "text-anchor": "middle" }, labelG);
+    st.text.textContent = label;
+  } else if (kind === "cta") {
+    const w = opts.w, h = opts.h;
+    st.pulse = el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: h / 2, fill: "none", stroke: PAL.ivory, "stroke-width": 4, opacity: 0 }, body);
+    st.rect = el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: h / 2, fill: PAL.navyFill, stroke: PAL.ivory, "stroke-width": 4 }, body);
+    st.text = el("text", { x: 0, y: 16, fill: PAL.ivory, "font-size": 46, "font-weight": 800, "text-anchor": "middle", class: "sans" }, labelG);
+    st.text.textContent = label;
+  }
+  NODES[id] = st;
+  return st;
+}
+
+// Edges use pathLength=1 so one dash value drives any length (skill: "Edge connect").
+function edge(id, d, color, opts = {}) {
+  const g = el("g", {}, opts.parent || world);
+  const base = el("path", { d, fill: "none", stroke: color, "stroke-width": opts.w || 4, "stroke-linecap": "round", pathLength: 1, "stroke-dasharray": "1 1", "stroke-dashoffset": 1 }, g);
+  const glowP = el("path", { d, fill: "none", stroke: color, "stroke-width": (opts.w || 4) + 6, "stroke-linecap": "round", pathLength: 1, "stroke-dasharray": "1 1", "stroke-dashoffset": 1, opacity: 0, filter: "url(#glow)" }, g);
+  const flowP = el("path", { d, fill: "none", stroke: opts.flowColor || color, "stroke-width": (opts.w || 4) + 1.5, "stroke-linecap": "round", "stroke-dasharray": "14 18", opacity: 0 }, g);
+  const st = { id, g, base, glowP, flowP, draw: 0, o: 1, dim: 1, flow: 0, glow: 0, speed: opts.speed || 90, dir: opts.dir || 1, len: base.getTotalLength(), dashed: !!opts.dashed };
+  if (opts.dashed) base.setAttribute("stroke-dasharray", "0.02 0.015");
+  EDGES[id] = st;
+  return st;
+}
+function packet(edgeId, t0, dur, color, opts = {}) {
+  const g = el("g", { opacity: 0 }, opts.parent || world);
+  el("circle", { r: opts.r || 13, fill: color, filter: "url(#glow)" }, g);
+  if (opts.glyph) { const tx = el("text", { x: 0, y: 8, "font-size": 22, "font-weight": 800, fill: PAL.navyDeep, "text-anchor": "middle" }, g); tx.textContent = opts.glyph; }
+  const st = { edgeId, g, u: 0, o: 0, rev: !!opts.rev };
+  PACKETS.push(st);
+  tl.to(st, { o: 1, duration: 0.08 }, t0);
+  tl.fromTo(st, { u: 0 }, { u: 1, duration: dur, ease: opts.ease || "power1.inOut" }, t0);
+  tl.to(st, { o: 0, duration: 0.1 }, t0 + dur);
+  cue(t0, "travel", { dur, pitch: opts.pitch || 1, kind: color === PAL.gold ? "gold" : color === PAL.cyan ? "ai" : "data" });
+  cue(t0 + dur, "arrive", { pitch: opts.pitch || 1, kind: color === PAL.gold ? "gold" : color === PAL.cyan ? "ai" : "data" });
+  return st;
+}
+
+// ------------------------------------------------------------------ master timeline (one driver)
+const tl = gsap.timeline({ paused: true, defaults: { ease: "power2.out" } });
+const pop = (n, t, dur = 0.42) => { tl.fromTo(n, { s: 0.8, o: 0 }, { s: 1, o: 1, duration: dur, ease: "back.out(1.6)", immediateRender: false }, t); cue(t, "pop", { kind: n.kind }); };
+const draw = (e, t, dur = 0.5, ease = "power1.inOut") => { tl.fromTo(e, { draw: 0 }, { draw: 1, duration: dur, ease, immediateRender: false }, t); cue(t, "draw", { dur }); };
+const undraw = (e, t, dur = 0.3) => tl.to(e, { draw: 0, duration: dur, ease: "power2.in" }, t);
+const label = (n, t, dur = 0.35) => tl.fromTo(n, { lbl: 0 }, { lbl: 1, duration: dur, ease: "power1.out", immediateRender: false }, t);
+
+// ---------------- containers (faint regions first)
+const regionRecords = el("g", { opacity: 0 });
+el("rect", { x: 60, y: 450, width: 410, height: 490, rx: 28, fill: "none", stroke: PAL.navyMid, "stroke-width": 3, "stroke-dasharray": "10 10" }, regionRecords);
+const rr = el("text", { x: 88, y: 494, fill: "#9DB7D3", "font-size": 25, "font-weight": 700, "letter-spacing": 3 }, regionRecords); rr.textContent = "COURT RECORDS";
+const regionTrail = el("g", { opacity: 0 });
+const rt = el("text", { x: 604, y: 1505, fill: "#9DB7D3", "font-size": 25, "font-weight": 700, "letter-spacing": 3 }, regionTrail); rt.textContent = "CASE TRAIL · ILLUSTRATIVE";
+const RG = { rec: { o: 0, dim: 1 }, trail: { o: 0, dim: 1 } };
+
+// ---------------- HOOK: one case, records everywhere (tangle)
+const SC = [
+  ["ORDER", 210, 560], ["CAUSE LIST", 820, 520], ["HEARING", 170, 1180], ["NOTICE", 880, 1290], ["ORDER", 760, 1530],
+  ["REPLY", 300, 1460], ["CAUSE LIST", 330, 820], ["PETITION", 820, 790], ["ORDER", 560, 640], ["HEARING", 600, 1330], ["NOTICE", 180, 1010],
+];
+const scattered = SC.map(([lbl, x, y], i) => {
+  const n = node("sc" + i, "recordSmall", x, y, lbl, { w: 40 + lbl.length * 13.5 + 40, h: 62 });
+  n.lbl = 1;
+  return n;
+});
+// tangle edges between random pairs (behind nodes)
+const tangleLayer = el("g", {});
+world.insertBefore(tangleLayer, world.firstChild);
+const pairs = [[0, 8], [8, 1], [1, 7], [7, 3], [3, 4], [4, 9], [9, 5], [5, 2], [2, 10], [10, 6], [6, 0], [8, 9], [1, 10], [7, 5], [6, 3], [2, 8]];
+const tangle = pairs.map(([a, b], j) => {
+  const A = SC[a], B = SC[b];
+  const mx = (A[1] + B[1]) / 2 + (j % 2 ? 160 : -160), my = (A[2] + B[2]) / 2 + (j % 3 ? -120 : 140);
+  return edge("tg" + j, `M${A[1]} ${A[2]} Q${mx} ${my} ${B[1]} ${B[2]}`, PAL.navyMid, { parent: tangleLayer, w: 3, speed: 260 });
+});
+const caseN = node("case", "record", 540, 960, "CASE", { w: 330, h: 96 });
+caseN.lbl = 1;
+
+// ---------------- STRUCTURE: records region + hub
+const REC = [["case", 265, 570], ["cause", 265, 705, "CAUSE LIST"], ["order", 265, 840, "ORDER"]];
+const causeN = node("cause", "record", 265, 705, "CAUSE LIST", { w: 330, h: 96 });
+const orderN = node("order", "record", 265, 840, "ORDER", { w: 330, h: 96 });
+const HUB = { x: 800, y: 720 };
+const hub = node("hub", "hub", HUB.x, HUB.y, "COURTLENS");
+const eRec = [
+  edge("r0", `M430 570 C560 570 600 690 684 712`, PAL.ivory, { flowColor: PAL.ivory }),
+  edge("r1", `M430 705 C540 705 590 720 684 720`, PAL.ivory, { flowColor: PAL.ivory }),
+  edge("r2", `M430 840 C560 840 600 750 686 730`, PAL.ivory, { flowColor: PAL.ivory }),
+];
+
+// ---------------- TRAIL
+const TR = [["CASE FILED", 1010], ["ON CAUSE LIST", 1150], ["ORDER", 1290], ["NEXT HEARING", 1430]];
+const steps = TR.map(([lbl, y], i) => node("st" + i, "step", 640, y, lbl));
+const eTrail = [
+  edge("t0", `M${HUB.x - 40} ${HUB.y + 110} C${HUB.x - 70} 900 640 900 640 986`, PAL.ivory),
+  edge("t1", `M640 1034 L640 1126`, PAL.ivory),
+  edge("t2", `M640 1174 L640 1266`, PAL.ivory),
+  edge("t3", `M640 1314 L640 1406`, PAL.ivory),
+];
+
+// ---------------- AI + VERIFY loop
+const aiN = node("ai", "ai", 300, 1120, "AI ASSISTANT", { w: 340, h: 100 });
+const gateN = node("gate", "gate", 245, 1320, "VERIFY");
+const offN = node("off", "official", 300, 1515, "", { w: 360, h: 112 });
+const eAsk = edge("ask", `M616 1418 C540 1380 540 1190 472 1150`, PAL.cyan, { dashed: true });
+const eAns = edge("ans", `M245 1172 L245 1254`, PAL.cyan, { dashed: true });
+const eOff = edge("offE", `M245 1458 L245 1386`, PAL.gold, { w: 5 });
+const eVer = edge("ver", `M311 1320 C440 1320 510 1440 614 1434`, PAL.gold, { w: 5 });
+
+// ---------------- END: icon, wordmark, chips, CTA
+const endLayer = el("g", {}, world);
+const word = el("text", { x: 540, y: 1032, fill: PAL.ivory, "font-size": 118, "font-weight": 800, "text-anchor": "middle", class: "sans", "clip-path": "url(#wordClip)", "letter-spacing": -1 }, endLayer);
+word.textContent = "Courtlens";
+const chipDefs = [["COURT RECORDS", 268], ["CASE TRACKING", 540], ["AI ASSISTANT", 812]];
+const chips = chipDefs.map(([l, x], i) => node("chip" + i, "chip", x, 1112, l, { w: 254, parent: endLayer, color: i === 2 ? PAL.cyan : PAL.ivory }));
+const eChip = [edge("c0", "M395 1112 L413 1112", PAL.navyMid, { parent: endLayer, w: 3 }), edge("c1", "M667 1112 L685 1112", PAL.navyMid, { parent: endLayer, w: 3 })];
+const adv = el("text", { x: 540, y: 1206, fill: PAL.ivory, "font-size": 40, "font-weight": 700, "text-anchor": "middle", class: "sans", opacity: 0 }, endLayer);
+adv.textContent = "for advocates";
+const cta = node("cta", "cta", 540, 1350, "Explore on Google Play", { w: 640, h: 120, parent: endLayer });
+const eCta = edge("ctaE", `M690 760 C1010 790 1030 1350 862 1350`, PAL.ivory, { parent: endLayer, w: 4, speed: 120 });
+const foot = el("g", { opacity: 0 }, endLayer);
+const f1 = el("text", { x: 540, y: 1490, fill: PAL.ivory, "font-size": 25, "font-weight": 500, "text-anchor": "middle", class: "sans", opacity: 0.75 }, foot); f1.textContent = "Illustrative diagram, not app screens.";
+const f2 = el("text", { x: 540, y: 1526, fill: PAL.ivory, "font-size": 25, "font-weight": 500, "text-anchor": "middle", class: "sans", opacity: 0.75 }, foot); f2.textContent = "Verify information with official court records.";
+const END = { word: 0, adv: 0, foot: 0 };
+
+// move hub + case node to the top layer so packets/edges sit beneath them
+for (const n of [hub, caseN, causeN, orderN, ...steps, aiN, gateN, offN]) world.appendChild(n.g);
+
+// ------------------------------------------------------------------ captions (diagram-label style: box draws on, text types)
+const CAP = { box: el("rect", { x: 60, y: 168, width: 960, height: 96, rx: 22, fill: "#031634", stroke: PAL.navyMid, "stroke-width": 3, pathLength: 1, "stroke-dasharray": "1 1", "stroke-dashoffset": 1, opacity: 0 }, hud) };
+CAP.l1 = el("text", { x: 92, y: 230, fill: PAL.ivory, "font-size": 42, "font-weight": 700 }, hud);
+CAP.l2 = el("text", { x: 92, y: 286, fill: PAL.ivory, "font-size": 42, "font-weight": 700 }, hud);
+CAP.cursor = el("rect", { x: 0, y: 198, width: 22, height: 42, fill: PAL.ivory, opacity: 0 }, hud);
+let CAPLINES = [];
+
+// ------------------------------------------------------------------ choreography
+function build(captions) {
+  CAPLINES = captions || [];
+  // HOOK 0.0–2.0 -----------------------------------------------------------
+  tl.fromTo(caseN, { s: 1.22, o: 0.9 }, { s: 1.45, o: 1, duration: 0.3, ease: "back.out(1.8)", immediateRender: false }, 0);
+  cue(0, "pop", { kind: "record", pitch: 0.8 });
+  tl.fromTo(caseN, { ring: 0.08 }, { ring: 1, duration: 0.9, ease: "power1.out", immediateRender: false }, 0);
+  scattered.forEach((n, i) => pop(n, 0.08 + i * 0.07, 0.36));
+  tangle.forEach((e, j) => draw(e, 0.42 + j * 0.045, 0.32, "power2.out"));
+  tl.to(caseN, { jitter: 1, duration: 0.5 }, 1.1);
+  tl.to(scattered, { jitter: 1, duration: 0.5 }, 1.1);
+  tangle.forEach((e) => tl.to(e, { flow: 1, duration: 0.3 }, 1.0));
+  cue(1.05, "tangle", { dur: 0.95 });
+  // STRUCTURE 2.0–5.3 -------------------------------------------------------
+  tl.to(RG.rec, { o: 1, duration: 0.4 }, 1.95);                                   // container first
+  tangle.forEach((e, j) => { tl.to(e, { flow: 0, duration: 0.15 }, 1.95); undraw(e, 1.97 + j * 0.012, 0.22); });
+  tl.to(caseN, { jitter: 0, duration: 0.2 }, 1.95);
+  tl.to(scattered, { jitter: 0, duration: 0.2 }, 1.95);
+  const dest = { "ORDER": orderN, "CAUSE LIST": causeN, "HEARING": causeN, "NOTICE": caseN, "REPLY": caseN, "PETITION": caseN };
+  scattered.forEach((n, i) => {
+    const d = dest[SC[i][0]];
+    const tgt = d === caseN ? { x: 265, y: 570 } : { x: d.x, y: d.y };
+    tl.to(n, { x: tgt.x, y: tgt.y, duration: 0.42, ease: "power3.inOut" }, 2.0 + i * 0.02);
+    tl.to(n, { o: 0, s: 0.6, duration: 0.14, ease: "power1.in" }, 2.34 + i * 0.02);
+  });
+  cue(2.0, "sort", { dur: 0.5 });
+  tl.to(caseN, { x: 265, y: 570, s: 1, duration: 0.45, ease: "power3.inOut" }, 2.0);
+  pop(causeN, 2.36); pop(orderN, 2.44);
+  pop(hub, 2.2, 0.5);
+  tl.fromTo(hub, { ring: 0 }, { ring: 1, duration: 0.9, immediateRender: false }, 2.25);
+  eRec.forEach((e, i) => draw(e, 2.62 + i * 0.14, 0.5));
+  label(causeN, 3.15); label(orderN, 3.22); label(hub, 3.0, 0.4);
+  tl.to(hub.sub, { opacity: 0.8, duration: 0.4 }, 3.7);
+  eRec.forEach((e) => tl.to(e, { flow: 1, duration: 0.3 }, 3.3));
+  [3.35, 3.6, 3.85, 4.2, 4.45, 4.7].forEach((t0, k) => packet("r" + (k % 3), t0, 0.62, PAL.ivory, { pitch: 1 + (k % 3) * 0.12, r: 11 }));
+  [3.35, 3.6, 3.85, 4.2, 4.45, 4.7].forEach((t0) => tl.fromTo(hub, { hit: 1 }, { hit: 0, duration: 0.3, ease: "power2.out", immediateRender: false }, t0 + 0.62));
+  // TRAIL 5.2–8.2 ------------------------------------------------------------
+  tl.to(RG.trail, { o: 1, duration: 0.4 }, 5.15);
+  eRec.forEach((e) => tl.to(e, { flow: 0, dim: 0.35, duration: 0.4 }, 5.2));
+  tl.to([caseN, causeN, orderN], { dim: 0.35, duration: 0.4 }, 5.2);
+  tl.to(RG.rec, { dim: 0.35, duration: 0.4 }, 5.2);
+  steps.forEach((n, i) => pop(n, 5.25 + i * 0.1, 0.36));
+  tl.to(steps, { dim: 0.45, duration: 0.01 }, 5.2);
+  draw(eTrail[0], 5.5, 0.32); draw(eTrail[1], 5.72, 0.22); draw(eTrail[2], 5.88, 0.22); draw(eTrail[3], 6.04, 0.22);
+  eTrail.forEach((e) => tl.to(e, { dim: 0.4, duration: 0.01 }, 5.45));
+  steps.forEach((n, i) => label(n, 5.95 + i * 0.07, 0.3));
+  // travelling signal along the active path; each arrival highlights the step, earlier context dims
+  const arrive = [6.35, 6.85, 7.3, 7.75];
+  arrive.forEach((ta, i) => {
+    const t0 = i === 0 ? 6.05 : arrive[i - 1];
+    packet("t" + i, t0, ta - t0, PAL.ivory, { pitch: 1 + i * 0.18, r: 12, ease: "power1.inOut" });
+    tl.to(eTrail[i], { dim: 1, glow: 1, duration: ta - t0, ease: "none" }, t0);
+    tl.to(steps[i], { dim: 1, fill: 1, check: 1, ring: 1, duration: 0.25 }, ta);
+    cue(ta, "step", { i });
+    if (i > 0) { tl.to(steps[i - 1], { dim: 0.55, ring: 0, duration: 0.3 }, ta); tl.to(eTrail[i - 1], { glow: 0, dim: 0.55, duration: 0.3 }, ta); }
+  });
+  tl.to(hub, { dim: 0.5, duration: 0.4 }, 6.2);
+  // AI + VERIFY 8.25–12.0 -----------------------------------------------------
+  tl.to(steps.slice(0, 3), { dim: 0.35, duration: 0.3 }, 8.2);
+  tl.to(eTrail, { dim: 0.3, glow: 0, duration: 0.3 }, 8.2);
+  pop(aiN, 8.45);
+  draw(eAsk, 8.62, 0.4);
+  label(aiN, 8.75);
+  packet("ask", 8.95, 0.5, PAL.cyan, { glyph: "?", r: 20, pitch: 1.3 });
+  tl.to(aiN, { pend: 1, duration: 0.2 }, 9.45);              // typing dots
+  cue(9.45, "typing", { dur: 0.5 });
+  tl.to(aiN, { pend: 0, duration: 0.15 }, 9.95);
+  pop(gateN, 9.7);
+  draw(eAns, 9.92, 0.22);
+  label(gateN, 9.95);
+  packet("ans", 10.0, 0.3, PAL.cyan, { r: 13, pitch: 1.5 });
+  tl.to(gateN, { pend: 1, duration: 0.2 }, 10.3);
+  pop(offN, 10.5);
+  label(offN, 10.75);
+  draw(eOff, 10.7, 0.25);
+  packet("offE", 10.95, 0.35, PAL.gold, { r: 14, pitch: 1.0 });
+  tl.to(gateN, { pend: 0, gold: 1, check: 1, duration: 0.3 }, 11.3);
+  cue(11.3, "verified");
+  tl.to(aiN, { dim: 0.45, duration: 0.3 }, 11.3);
+  tl.to(eAsk, { dim: 0.35, duration: 0.3 }, 11.3); tl.to(eAns, { dim: 0.35, duration: 0.3 }, 11.3);
+  draw(eVer, 11.36, 0.3);
+  tl.to(eOff, { glow: 1, duration: 0.3 }, 11.3);
+  packet("ver", 11.45, 0.33, PAL.gold, { r: 14, pitch: 1.25 });
+  tl.to(eVer, { glow: 1, duration: 0.3 }, 11.45);
+  tl.to(steps[3], { gold: 1, duration: 0.3 }, 11.78);
+  cue(11.78, "stepVerified");
+  // END 12.0–15.0 --------------------------------------------------------------
+  const all = [caseN, causeN, orderN, ...steps, aiN, gateN, offN];
+  const allE = [...eRec, ...eTrail, eAsk, eAns, eOff, eVer];
+  allE.forEach((e, i) => { tl.to(e, { glow: 0, flow: 0, duration: 0.1 }, 12.0); undraw(e, 12.0 + i * 0.012, 0.26); });
+  all.forEach((n, i) => {
+    tl.to(n, { x: HUB.x, y: HUB.y, s: 0.2, duration: 0.42, ease: "power3.in" }, 12.05 + i * 0.02);
+    tl.to(n, { o: 0, duration: 0.12 }, 12.38 + i * 0.02);
+  });
+  tl.to(RG.rec, { o: 0, duration: 0.25 }, 12.05); tl.to(RG.trail, { o: 0, duration: 0.25 }, 12.05);
+  cue(12.05, "converge", { dur: 0.6 });
+  tl.to(hub, { lbl: 0, duration: 0.2 }, 12.05);
+  tl.to(hub.sub, { opacity: 0, duration: 0.2 }, 12.05);
+  tl.to(hub, { x: 540, y: 760, dim: 1, duration: 0.6, ease: "power3.inOut" }, 12.3);
+  tl.to(hub, { s: 1.32, duration: 0.6, ease: "back.out(1.4)" }, 12.4);
+  tl.fromTo(hub, { ring: 0 }, { ring: 1, duration: 0.9, immediateRender: false }, 12.75);
+  cue(12.75, "logo");
+  tl.to(END, { word: 1, duration: 0.45, ease: "power2.inOut" }, 12.8);
+  chips.forEach((n, i) => { pop(n, 13.0 + i * 0.1, 0.34); label(n, 13.2 + i * 0.08, 0.25); });
+  eChip.forEach((e, i) => draw(e, 13.15 + i * 0.1, 0.15));
+  tl.to(END, { adv: 1, duration: 0.35 }, 13.25);
+  pop(cta, 13.35, 0.4); label(cta, 13.45, 0.3);
+  draw(eCta, 13.45, 0.42);
+  packet("ctaE", 13.6, 0.36, PAL.ivory, { r: 13, pitch: 1.6 });
+  tl.to(cta, { fill: 1, duration: 0.2 }, 13.96);
+  tl.fromTo(cta, { ring: 0 }, { ring: 1, duration: 0.7, immediateRender: false }, 13.96);
+  cue(13.96, "cta");
+  tl.to(eCta, { flow: 1, duration: 0.3 }, 14.0);
+  tl.to(END, { foot: 1, duration: 0.4 }, 13.7);
+  tl.to({}, { duration: 0.001 }, 15.0); // pad to exactly 15 s
+}
+
+// ------------------------------------------------------------------ paint (deterministic, from tweened state + time)
+const lerp = (a, b, k) => a + (b - a) * k;
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+function noise(x, s) { return Math.sin(x * 12.9898 + s * 78.233) * Math.sin(x * 3.1 + s); }
+function paint(t) {
+  regionRecords.setAttribute("opacity", RG.rec.o * RG.rec.dim);
+  regionTrail.setAttribute("opacity", RG.trail.o * RG.trail.dim);
+  for (const id in NODES) {
+    const n = NODES[id];
+    const jx = n.jitter ? noise(t * 9, n.x) * 6 * n.jitter : 0, jy = n.jitter ? noise(t * 8, n.y) * 5 * n.jitter : 0;
+    n.g.setAttribute("transform", `translate(${(n.x + jx).toFixed(2)} ${(n.y + jy).toFixed(2)}) scale(${n.s.toFixed(4)})`);
+    n.g.setAttribute("opacity", clamp(n.o * n.dim).toFixed(3));
+    n.labelG.setAttribute("opacity", n.lbl.toFixed(3));
+    if (n.rect && (n.kind === "record") && n.w) {
+      n.rect.setAttribute("x", -n.w / 2); n.rect.setAttribute("y", -n.h / 2); n.rect.setAttribute("width", n.w); n.rect.setAttribute("height", n.h);
+    }
+    if (n.kind === "record" && n.ring > 0 && n.ring < 1) {
+      if (!n.pulse) n.pulse = el("rect", { fill: "none", stroke: PAL.ivory, "stroke-width": 3, rx: 26 }, n.body);
+      const k = n.ring, pad = 10 + k * 46;
+      n.pulse.setAttribute("x", -n.w / 2 - pad); n.pulse.setAttribute("y", -n.h / 2 - pad);
+      n.pulse.setAttribute("width", n.w + pad * 2); n.pulse.setAttribute("height", n.h + pad * 2);
+      n.pulse.setAttribute("opacity", (1 - k) * 0.8);
+    } else if (n.pulse) n.pulse.setAttribute("opacity", 0);
+    if (n.kind === "hub") {
+      n.ringDash.setAttribute("stroke-dashoffset", (-t * 22).toFixed(2));
+      const k = n.ring;
+      n.halo.setAttribute("opacity", (k > 0 && k < 1 ? (1 - k) * 0.55 : 0) + 0.12 * (0.5 + 0.5 * Math.sin(t * 3)));
+      n.circle.setAttribute("stroke-width", 4 + (k > 0 && k < 1 ? (1 - k) * 6 : 0) + n.hit * 7);
+      n.circle.setAttribute("stroke", n.hit > 0.05 ? PAL.ivory : PAL.ivory);
+    }
+    if (n.kind === "step") {
+      n.circle.setAttribute("fill", n.fill > 0.5 ? PAL.ivory : PAL.navyDeep);
+      n.checkP.setAttribute("stroke-dashoffset", (1 - n.check).toFixed(3));
+      const pr = n.ring > 0.01 ? (t * 1.4) % 1 : 0;
+      n.ringC.setAttribute("r", 26 + pr * 26); n.ringC.setAttribute("opacity", n.ring > 0.01 ? (1 - pr) * n.ring : 0);
+      n.goldRing.setAttribute("opacity", n.gold);
+      n.goldRing.setAttribute("r", 40 + (1 - n.gold) * 30);
+      if (n.gold > 0) n.circle.setAttribute("stroke", PAL.gold);
+    }
+    if (n.kind === "ai") {
+      n.bubble.setAttribute("opacity", n.pend);
+      n.dots.forEach((d, i) => { d.setAttribute("opacity", n.pend); d.setAttribute("cy", -n.h / 2 - 30 - Math.max(0, Math.sin(t * 14 - i * 0.9)) * 7); });
+    }
+    if (n.kind === "gate") {
+      const pr = (t * 2.2) % 1;
+      n.pendRing.setAttribute("opacity", n.pend * (1 - pr));
+      n.pendRing.setAttribute("transform", `rotate(45) scale(${1 + pr * 0.35})`);
+      n.rect.setAttribute("fill", n.gold > 0.5 ? PAL.gold : PAL.navyFill);
+      n.rect.setAttribute("stroke", n.gold > 0.5 ? PAL.gold : n.pend > 0.5 ? PAL.cyan : PAL.ivory);
+      n.q.setAttribute("opacity", 1 - n.gold);
+      n.checkP.setAttribute("stroke-dashoffset", (1 - n.check).toFixed(3));
+      n.text.setAttribute("fill", n.gold > 0.5 ? PAL.gold : PAL.ivory);
+    }
+    if (n.kind === "cta") {
+      n.rect.setAttribute("fill", n.fill > 0.5 ? PAL.ivory : PAL.navyFill);
+      n.text.setAttribute("fill", n.fill > 0.5 ? PAL.navyDeep : PAL.ivory);
+      const k = n.ring;
+      n.pulse.setAttribute("opacity", k > 0 && k < 1 ? 1 - k : 0);
+      n.pulse.setAttribute("transform", `scale(${1 + k * 0.18} ${1 + k * 0.5})`);
+    }
+  }
+  for (const id in EDGES) {
+    const e = EDGES[id];
+    const op = clamp(e.o * e.dim);
+    if (e.dashed) {
+      // dashed connectors reveal with a clip-style draw: show dashes only up to `draw`
+      e.base.setAttribute("stroke-dasharray", `0.02 0.015`);
+      e.base.setAttribute("stroke-dashoffset", (-t * 0.08).toFixed(4));
+      e.base.style.clipPath = "";
+      e.base.setAttribute("opacity", e.draw > 0.001 ? op : 0);
+      if (!e.mask) {
+        const m = el("mask", { id: "m_" + id, maskUnits: "userSpaceOnUse" }, document.querySelector("defs"));
+        e.maskPath = el("path", { d: e.base.getAttribute("d"), fill: "none", stroke: "#fff", "stroke-width": 20, pathLength: 1, "stroke-dasharray": "1 1" }, m);
+        e.base.setAttribute("mask", `url(#m_${id})`);
+        e.mask = m;
+      }
+      e.maskPath.setAttribute("stroke-dashoffset", (1 - e.draw).toFixed(4));
+    } else {
+      e.base.setAttribute("stroke-dashoffset", (1 - e.draw).toFixed(4));
+      e.base.setAttribute("opacity", op);
+    }
+    e.glowP.setAttribute("stroke-dashoffset", (1 - e.draw).toFixed(4));
+    e.glowP.setAttribute("opacity", (e.glow * 0.6 * clamp(e.o)).toFixed(3));
+    e.flowP.setAttribute("stroke-dashoffset", (-(t * e.speed) % 32).toFixed(2));
+    e.flowP.setAttribute("opacity", (e.flow * (e.draw > 0.98 ? 1 : 0) * 0.85 * e.dim).toFixed(3));
+  }
+  for (const p of PACKETS) {
+    const e = EDGES[p.edgeId];
+    const L = e.len;
+    const pt = e.base.getPointAtLength((p.rev ? 1 - p.u : p.u) * L);
+    p.g.setAttribute("transform", `translate(${pt.x.toFixed(2)} ${pt.y.toFixed(2)})`);
+    p.g.setAttribute("opacity", p.o.toFixed(3));
+  }
+  // end typography
+  document.getElementById("wordClipRect").setAttribute("width", (END.word * 1080).toFixed(1));
+  adv.setAttribute("opacity", END.adv);
+  adv.setAttribute("transform", `translate(0 ${(1 - END.adv) * 14})`);
+  foot.setAttribute("opacity", END.foot);
+  paintCaption(t);
+}
+
+function paintCaption(t) {
+  const line = CAPLINES.find((c) => t >= c.start - 0.12 && t <= c.end + 0.5);
+  if (!line || line.hide) {
+    CAP.box.setAttribute("opacity", 0); CAP.l1.textContent = ""; CAP.l2.textContent = ""; CAP.cursor.setAttribute("opacity", 0);
+    return;
+  }
+  const out = clamp((t - (line.end + 0.3)) / 0.2);
+  const inK = clamp((t - (line.start - 0.12)) / 0.22);
+  // characters revealed in sync with spoken word onsets
+  let n = 0;
+  for (const w of line.words) { if (t >= w.start - 0.04) n = w.endChar; else { const k = clamp((t - (w.start - 0.12)) / 0.08); n = Math.max(n, Math.round(w.startChar + k * (w.endChar - w.startChar))); break; } }
+  const shown = line.text.slice(0, n);
+  const l1 = line.split ? line.text.slice(0, line.split) : line.text;
+  const s1 = shown.slice(0, l1.length), s2 = line.split ? shown.slice(line.split).replace(/^\s/, "") : "";
+  CAP.l1.textContent = s1; CAP.l2.textContent = s2;
+  const twoRows = !!line.split;
+  const h = twoRows ? 152 : 96;
+  CAP.box.setAttribute("height", h);
+  CAP.box.setAttribute("stroke-dashoffset", (1 - inK).toFixed(3));
+  CAP.box.setAttribute("opacity", 1 - out);
+  CAP.l1.setAttribute("opacity", 1 - out); CAP.l2.setAttribute("opacity", 1 - out);
+  // block cursor after the last typed character
+  const cw = 25.2;
+  const onL2 = twoRows && shown.length > line.split;
+  const cx = 92 + (onL2 ? s2.length : s1.length) * cw + 4;
+  CAP.cursor.setAttribute("x", cx); CAP.cursor.setAttribute("y", onL2 ? 254 : 198);
+  const typing = n < line.text.length;
+  CAP.cursor.setAttribute("opacity", (1 - out) * (typing ? 0.9 : (Math.floor(t * 3) % 2 ? 0.0 : 0.8)));
+}
+
+// ------------------------------------------------------------------ boot + freeze API (?t=N, window.seek)
+window.seek = (t) => { tl.seek(Math.max(t, 0.0005), true); paint(t); };
+window.boot = async (captions) => {
+  build(captions);
+  await document.fonts.ready;
+  await Promise.all([...document.images].map((i) => (i.decode ? i.decode().catch(() => {}) : null)));
+  const t = new URLSearchParams(location.search).get("t");
+  window.seek(t !== null ? parseFloat(t) : 0);
+  window.__ready = true;
+  return { duration: tl.duration(), cues: CUES };
+};
+// standalone browser preview: boot without captions and play
+if (!new URLSearchParams(location.search).has("render")) {
+  window.boot([]).then(({ duration }) => {
+    console.log("duration", duration);
+    if (new URLSearchParams(location.search).get("t") === null) {
+      const t0 = performance.now();
+      const loop = () => { const t = ((performance.now() - t0) / 1000) % 15; window.seek(t); requestAnimationFrame(loop); };
+      requestAnimationFrame(loop);
+    }
+  });
+}
+</script>
+</body>
+</html>

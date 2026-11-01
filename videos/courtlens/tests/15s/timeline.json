@@ -1,0 +1,42 @@
+{
+ "duration": 15.0,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "bpm": 120,
+ "voice": {
+  "engine": "Kokoro-82M v1.0 ONNX (Apache-2.0), local",
+  "id": "bf_emma",
+  "speed": 1.0
+ },
+ "narration": [
+  {
+   "id": "v1",
+   "start": 0.25,
+   "text": "One case. Records everywhere."
+  },
+  {
+   "id": "v2",
+   "start": 2.2,
+   "text": "Courtlens: court records and case tracking, in one place.",
+   "say": "Court lens: court records and case tracking, in one place."
+  },
+  {
+   "id": "v3",
+   "start": 5.4,
+   "text": "Follow the case trail, step by step."
+  },
+  {
+   "id": "v4",
+   "start": 8.3,
+   "text": "Ask the AI assistant, then verify with official court records.",
+   "speed": 1.06
+  },
+  {
+   "id": "v5",
+   "start": 12.4,
+   "text": "Explore Courtlens on Google Play.",
+   "say": "Explore Court lens on Google Play."
+  }
+ ]
+}

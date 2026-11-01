@@ -1,0 +1,25 @@
+Key action -> SFX onset check (onset = first 5 ms window above 4x the preceding 60 ms mean)
+sort          cue  2.000s  onset masked by preceding sound
+arrive        cue  3.970s  onset +1.1 ms
+arrive        cue  4.220s  onset +2.5 ms
+arrive        cue  4.470s  onset +1.9 ms
+arrive        cue  4.820s  onset +1.5 ms
+arrive        cue  5.070s  onset +2.2 ms
+arrive        cue  5.320s  onset masked by preceding sound
+arrive        cue  6.350s  onset +0.0 ms
+step          cue  6.350s  onset +0.0 ms
+arrive        cue  6.850s  onset masked by preceding sound
+step          cue  6.850s  onset masked by preceding sound
+arrive        cue  7.300s  onset masked by preceding sound
+step          cue  7.300s  onset masked by preceding sound
+arrive        cue  7.750s  onset masked by preceding sound
+step          cue  7.750s  onset masked by preceding sound
+arrive        cue  9.450s  onset +0.0 ms
+arrive        cue 10.300s  onset +0.0 ms
+arrive        cue 11.300s  onset +0.0 ms
+verified      cue 11.300s  onset +0.0 ms
+arrive        cue 11.780s  onset masked by preceding sound
+stepVerified  cue 11.780s  onset masked by preceding sound
+logo          cue 12.750s  onset +0.0 ms
+arrive        cue 13.960s  onset +62.8 ms
+cta           cue 13.960s  onset +62.8 ms
