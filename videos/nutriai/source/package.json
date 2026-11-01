@@ -1,0 +1,14 @@
+{
+  "name": "nutriai-30s-video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original 30s portrait promo for NutriAI (com.nutriaimobile), rendered locally with a self-contained canvas renderer + FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "frames": "node render.mjs",
+    "still": "node render.mjs --still"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}
