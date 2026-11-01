@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Media Diet",
+    "url": "https://play.google.com/store/apps/details/Media_Diet?id=com.mediadiet&hl=en",
+    "description": "Current tech, science and finance news, clearly sourced and concise.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "NEWS_AND_MAGAZINES",
+    "image": "https://play-lh.googleusercontent.com/vV7Ka7LBbbBeQ73AGCNl0mCV_PtKRcEYb2LKWHfJAYiJ1O-ED4Y4O51uvDAAJhvkrsWUiTTE2h5g5PYDdnNC9A",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "https://media-diet-news.vercel.app/support"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

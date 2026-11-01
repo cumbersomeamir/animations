@@ -1,0 +1,70 @@
+{
+  "app": "Media Diet",
+  "package": "com.mediadiet",
+  "play_url": "https://play.google.com/store/apps/details?id=com.mediadiet",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Media Diet",
+      "url": "https://play.google.com/store/apps/details/Media_Diet?id=com.mediadiet&hl=en",
+      "description": "Current tech, science and finance news, clearly sourced and concise.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "NEWS_AND_MAGAZINES",
+      "image": "https://play-lh.googleusercontent.com/vV7Ka7LBbbBeQ73AGCNl0mCV_PtKRcEYb2LKWHfJAYiJ1O-ED4Y4O51uvDAAJhvkrsWUiTTE2h5g5PYDdnNC9A",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://media-diet-news.vercel.app/support"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Media Diet",
+    "package": "com.mediadiet",
+    "status": "live",
+    "color": "#F1CD54",
+    "kind": "news",
+    "captions": [
+      "A hundred headlines. One brain.",
+      "Read a concise briefing",
+      "Check the original source",
+      "Stay curious with context"
+    ],
+    "narration": [
+      "A hundred headlines. One brain.",
+      "Media Diet. Read a concise briefing.",
+      "Check the original source. Stay curious with context.",
+      "Media Diet. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Media Diet/Campaign Video",
+    "chat_url": "https://claude.ai/chat/13cc7d2a-376c-4e17-ba03-7854da6d52af",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Media Diet/Campaign Video/Media-Diet-Campaign-30s.mp4",
+    "sha256": "fa39a2b85142c8ea1774fe415fb39a2f6e4cd33883cffc6e9b697d2b3f398f71",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Media Diet \u2014 Campaign Video",
+    "claude_account": "info@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}

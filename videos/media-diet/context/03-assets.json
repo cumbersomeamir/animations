@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/media-diet/assets/listing.json",
+      "sha256": "ab024a8a208401748a8ae4d6a28206227a6a469ab8f4e08a72a147c7800cab78",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/media-diet/assets/icon.png",
+      "sha256": "fc55d915364d9a035b46169c7deb92a9aec212216981f38589a98df1edb20878",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
