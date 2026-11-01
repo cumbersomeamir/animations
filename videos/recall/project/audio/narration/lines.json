@@ -1,0 +1,94 @@
+{
+  "voice": "af_heart",
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community)",
+  "lines": [
+    {
+      "id": "n1a",
+      "start": 0.22,
+      "text": "Read it.",
+      "file": "audio/narration/n1a.wav",
+      "duration": 0.59,
+      "sr": 24000
+    },
+    {
+      "id": "n1b",
+      "start": 0.92,
+      "text": "Forgot it.",
+      "file": "audio/narration/n1b.wav",
+      "duration": 0.714,
+      "sr": 24000
+    },
+    {
+      "id": "n1c",
+      "start": 1.78,
+      "text": "Again?",
+      "file": "audio/narration/n1c.wav",
+      "duration": 0.556,
+      "sr": 24000
+    },
+    {
+      "id": "n2",
+      "start": 4.75,
+      "text": "Notes everywhere. Facts, nowhere.",
+      "file": "audio/narration/n2.wav",
+      "duration": 2.086,
+      "sr": 24000
+    },
+    {
+      "id": "n3",
+      "start": 7.75,
+      "text": "Meet Recall. Bring your study material.",
+      "file": "audio/narration/n3.wav",
+      "duration": 2.184,
+      "sr": 24000
+    },
+    {
+      "id": "n4",
+      "start": 12.85,
+      "text": "Turn it into lessons and practice.",
+      "file": "audio/narration/n4.wav",
+      "duration": 1.946,
+      "sr": 24000
+    },
+    {
+      "id": "n5",
+      "start": 18.45,
+      "text": "Then come back for spaced reviews.",
+      "file": "audio/narration/n5.wav",
+      "duration": 1.815,
+      "sr": 24000
+    },
+    {
+      "id": "n6a",
+      "start": 24.35,
+      "text": "Lessons.",
+      "file": "audio/narration/n6a.wav",
+      "duration": 0.661,
+      "sr": 24000
+    },
+    {
+      "id": "n6b",
+      "start": 25.05,
+      "text": "Practice.",
+      "file": "audio/narration/n6b.wav",
+      "duration": 0.717,
+      "sr": 24000
+    },
+    {
+      "id": "n6c",
+      "start": 25.75,
+      "text": "Reviews.",
+      "file": "audio/narration/n6c.wav",
+      "duration": 0.678,
+      "sr": 24000
+    },
+    {
+      "id": "n7",
+      "start": 27.25,
+      "text": "Recall. Explore on Google Play.",
+      "file": "audio/narration/n7.wav",
+      "duration": 1.912,
+      "sr": 24000
+    }
+  ]
+}

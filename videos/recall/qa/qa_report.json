@@ -1,0 +1,151 @@
+{
+ "video": {
+  "codec": "h264",
+  "profile": "High",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "pix_fmt": "yuv420p",
+  "frames": 900,
+  "duration": 30.0
+ },
+ "audio": {
+  "codec": "aac",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration": 30.0
+ },
+ "container_duration": 30.0,
+ "size_bytes": 7351798,
+ "full_decode_errors": "none",
+ "loudness": {
+  "integrated": "-16.2 LUFS",
+  "lra": "2.9 LU",
+  "true_peak": "-1.7 dBFS"
+ },
+ "audio_sample_peak": 0.8226609230041504,
+ "clipped_samples_ge_0.999": 0,
+ "rms_dbfs_per_second": [
+  -17.0,
+  -17.3,
+  -19.6,
+  -17.9,
+  -16.5,
+  -22.6,
+  -21.5,
+  -16.7,
+  -18.8,
+  -18.9,
+  -18.3,
+  -18.1,
+  -18.5,
+  -16.4,
+  -21.8,
+  -18.3,
+  -18.9,
+  -18.7,
+  -16.7,
+  -19.5,
+  -21.5,
+  -20.5,
+  -18.3,
+  -21.0,
+  -18.2,
+  -16.7,
+  -18.4,
+  -17.4,
+  -19.5,
+  -33.1
+ ],
+ "asr_transcript": "Read it, forgot it, again. Notes everywhere, facts nowhere. Meet Recall, bring your study material. Turn it into lessons and practice. Then come back for spaced reviews. Lessons, practice, reviews. Recall, explore on Google Play. . . . . .",
+ "narration_sync": [
+  {
+   "id": "n1a",
+   "script": "Read it.",
+   "heard": "Read it.",
+   "planned_start": 0.22,
+   "heard_start": 0.0,
+   "words_match": true
+  },
+  {
+   "id": "n1b",
+   "script": "Forgot it.",
+   "heard": "or got it.",
+   "planned_start": 0.92,
+   "heard_start": 0.67,
+   "words_match": false
+  },
+  {
+   "id": "n1c",
+   "script": "Again?",
+   "heard": "Again.",
+   "planned_start": 1.78,
+   "heard_start": 1.53,
+   "words_match": true
+  },
+  {
+   "id": "n2",
+   "script": "Notes everywhere. Facts, nowhere.",
+   "heard": "Notes everywhere, facts nowhere.",
+   "planned_start": 4.75,
+   "heard_start": 4.5,
+   "words_match": true
+  },
+  {
+   "id": "n3",
+   "script": "Meet Recall. Bring your study material.",
+   "heard": "Meet Recall. Bring your study material.",
+   "planned_start": 7.75,
+   "heard_start": 7.5,
+   "words_match": true
+  },
+  {
+   "id": "n4",
+   "script": "Turn it into lessons and practice.",
+   "heard": "Turn it into lessons and practice",
+   "planned_start": 12.85,
+   "heard_start": 12.6,
+   "words_match": true
+  },
+  {
+   "id": "n5",
+   "script": "Then come back for spaced reviews.",
+   "heard": "Then come back for spaced reviews.",
+   "planned_start": 18.45,
+   "heard_start": 18.2,
+   "words_match": true
+  },
+  {
+   "id": "n6a",
+   "script": "Lessons.",
+   "heard": "Lessons pro -",
+   "planned_start": 24.35,
+   "heard_start": 24.1,
+   "words_match": false
+  },
+  {
+   "id": "n6b",
+   "script": "Practice.",
+   "heard": "Practice, review.",
+   "planned_start": 25.05,
+   "heard_start": 24.8,
+   "words_match": false
+  },
+  {
+   "id": "n6c",
+   "script": "Reviews.",
+   "heard": "reviews.",
+   "planned_start": 25.75,
+   "heard_start": 25.5,
+   "words_match": true
+  },
+  {
+   "id": "n7",
+   "script": "Recall. Explore on Google Play.",
+   "heard": "Recall, Explore on Google Play.",
+   "planned_start": 27.25,
+   "heard_start": 27.0,
+   "words_match": true
+  }
+ ]
+}
