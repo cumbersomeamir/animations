@@ -1,0 +1,21 @@
+{
+  "source_url": "https://play.google.com/store/apps/details?id=com.tensorblue.planmywedding&hl=en_US&gl=US",
+  "retrieved": "2026-11-01",
+  "retrieved_in": "Claude Code session (public HTTP GET of this app's own listing)",
+  "title": "Plan My Wedding",
+  "package": "com.tensorblue.planmywedding",
+  "developer_link_text": "Tensorblue AI",
+  "description": "Plan My Wedding brings your venue search, vendor bookings, budget, checklist, guest list, invitations and inspiration together in one calm, beautiful workspace.\n\nDISCOVER THE RIGHT VENDORS\n\nBrowse venues, photographers, makeup artists, decorators, caterers, DJs, mehendi artists and more. Compare details, save favourites, request quotes and keep booking information organised.\n\nKEEP EVERY DETAIL ON TRACK\n\nBuild a personalised checklist, monitor your budget and track the decisions that turn a wedding idea into a real plan. Your dashboard keeps the next important tasks easy to find.\n\nMANAGE GUESTS AND INVITATIONS\n\nCreate digital invitations, organise guest details and follow RSVPs from one place. Share a polished invitation experience with family and friends.\n\nPLAN WITH AI ASSISTANCE\n\nUse the planning assistant for ideas grounded in your wedding profile, budget and preferences. AI suggestions are planning aids and can always be reviewed before you act.\n\nPRIVATE BY DESIGN\n\nChoose when to share location, control notifications, update your details, and permanently delete your account from Settings.\n\nSome vendor services, payments and availability are provided by independent third parties. Internet access is required for account sync and live features.",
+  "claims_used_in_video": [
+    "Vendors: browse venues, photographers, makeup artists, decorators, caterers, DJs, mehendi artists; save favourites; request quotes",
+    "Personalised checklist; monitor your budget; keep every detail on track",
+    "Digital invitations; organise guest details; follow RSVPs from one place",
+    "Brings venue search, vendor bookings, budget, checklist, guest list, invitations and inspiration together in one workspace"
+  ],
+  "claims_not_used": [
+    "AI planning assistant (not depicted)",
+    "Privacy/settings controls (not depicted)",
+    "No pricing, ratings, download counts or outcome guarantees"
+  ],
+  "caveat_from_listing": "Some vendor services, payments and availability are provided by independent third parties."
+}

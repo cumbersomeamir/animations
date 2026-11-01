@@ -1,0 +1,21 @@
+{
+  "name": "plan-my-wedding-video",
+  "private": true,
+  "type": "module",
+  "description": "Original 30s portrait promo for Plan My Wedding (com.tensorblue.planmywedding), rendered locally with @napi-rs/canvas + FFmpeg.",
+  "scripts": {
+    "tts": "node src/tts.mjs",
+    "audio": "node src/audio.mjs",
+    "video": "node src/render.mjs",
+    "mux": "node src/mux.mjs",
+    "verify": "node src/verify.mjs",
+    "build": "npm run tts && npm run audio && npm run video && npm run mux && npm run verify"
+  },
+  "dependencies": {
+    "@expo-google-fonts/caveat": "0.4.2",
+    "@expo-google-fonts/dm-sans": "0.4.2",
+    "@expo-google-fonts/fraunces": "0.4.1",
+    "@napi-rs/canvas": "1.1.0",
+    "kokoro-js": "1.2.1"
+  }
+}
