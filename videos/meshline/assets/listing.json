@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Meshline",
+    "url": "https://play.google.com/store/apps/details/Meshline?id=com.cumbersomeamir.meshline&hl=en",
+    "description": "Private nearby messaging that keeps moving, even when the internet does not.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "COMMUNICATION",
+    "image": "https://play-lh.googleusercontent.com/FAQ4wblMZBVTEAFEW4797Ifr4eXlDTWi80boP7KaS2duyc7PVucs93PVGCUT-bM7BavZF55hK6gevPvRRAay8w",
+    "contentRating": "Rated for 12+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "http://tensorblue.com"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

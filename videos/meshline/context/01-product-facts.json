@@ -1,0 +1,70 @@
+{
+  "app": "Meshline",
+  "package": "com.cumbersomeamir.meshline",
+  "play_url": "https://play.google.com/store/apps/details?id=com.cumbersomeamir.meshline",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Meshline",
+      "url": "https://play.google.com/store/apps/details/Meshline?id=com.cumbersomeamir.meshline&hl=en",
+      "description": "Private nearby messaging that keeps moving, even when the internet does not.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "COMMUNICATION",
+      "image": "https://play-lh.googleusercontent.com/FAQ4wblMZBVTEAFEW4797Ifr4eXlDTWi80boP7KaS2duyc7PVucs93PVGCUT-bM7BavZF55hK6gevPvRRAay8w",
+      "contentRating": "Rated for 12+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "http://tensorblue.com"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Meshline",
+    "package": "com.cumbersomeamir.meshline",
+    "status": "live",
+    "color": "#69C4F1",
+    "kind": "network",
+    "captions": [
+      "No internet. Still nearby.",
+      "Find nearby connections",
+      "Send a private message",
+      "Keep the conversation moving"
+    ],
+    "narration": [
+      "No internet. Still nearby.",
+      "Meshline. Find nearby connections.",
+      "Send a private message. Keep the conversation moving.",
+      "Meshline. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Meshline/Campaign Video",
+    "chat_url": "https://claude.ai/chat/382fc8a3-bab2-47af-9129-74eff801e05b",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Meshline/Campaign Video/Meshline-Campaign-30s.mp4",
+    "sha256": "4241fc62dce7538e817e2dc3d993f51e1748ca08e8391ea8f996fe32177cd083",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Meshline \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/meshline/assets/listing.json",
+      "sha256": "b3df472650c8a362d136081a693a9186c5f714db2c05b14c651ca7621c25f55f",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/meshline/assets/icon.png",
+      "sha256": "c80e7c2036b24c9e2927248559b41a56f5711702e981ea7ac8ae89a7ce6023ef",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
