@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/ideaverse/assets/listing.json",
+      "sha256": "6046aa27c68c16e053d88ee3f3f6826b2766dc9f9017f6b6b1cb857930841c9a",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/ideaverse/assets/icon.png",
+      "sha256": "71309d833e1c915551ab4ca1a14c25a2fe12620cbbb4fbe63146c14425b61da1",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

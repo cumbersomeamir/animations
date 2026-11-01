@@ -1,0 +1,31 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Ideaverse - All in One AI App",
+    "url": "https://play.google.com/store/apps/details/Ideaverse_All_in_One_AI_App?id=com.ideaverseai&hl=en",
+    "description": "Ideaverse is a platform for creating Images for Instagram and a lot more!",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "SOCIAL",
+    "image": "https://play-lh.googleusercontent.com/LdcCSHr-Bt3Q0cZ7XtAgf2CS0vEZuPX0v-JROryV8KmNezZE_abmP-L9zJL6i-muRBuSQNeE0jwa5PQQYVQ3",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "https://www.ideaverse.ai/"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "3.8275861740112305",
+      "ratingCount": "77"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

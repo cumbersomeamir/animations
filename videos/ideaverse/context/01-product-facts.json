@@ -1,0 +1,75 @@
+{
+  "app": "Ideaverse",
+  "package": "com.ideaverseai",
+  "play_url": "https://play.google.com/store/apps/details?id=com.ideaverseai",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Ideaverse - All in One AI App",
+      "url": "https://play.google.com/store/apps/details/Ideaverse_All_in_One_AI_App?id=com.ideaverseai&hl=en",
+      "description": "Ideaverse is a platform for creating Images for Instagram and a lot more!",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "SOCIAL",
+      "image": "https://play-lh.googleusercontent.com/LdcCSHr-Bt3Q0cZ7XtAgf2CS0vEZuPX0v-JROryV8KmNezZE_abmP-L9zJL6i-muRBuSQNeE0jwa5PQQYVQ3",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://www.ideaverse.ai/"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.8275861740112305",
+        "ratingCount": "77"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Ideaverse",
+    "package": "com.ideaverseai",
+    "status": "live",
+    "color": "mint",
+    "kind": "idea",
+    "captions": [
+      "Too many apps. One idea.",
+      "Create an image",
+      "Bring it to life",
+      "Share your creation"
+    ],
+    "narration": [
+      "Too many apps. One idea.",
+      "Ideaverse. Create an image.",
+      "Bring it to life. Share your creation.",
+      "Ideaverse. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Ideaverse/Campaign Video",
+    "chat_url": "https://claude.ai/chat/bf000577-5a88-421b-b67d-113af9ec7de1",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Ideaverse/Stickman Video/Ideaverse-Stickman-30s.mp4",
+    "sha256": "781b41d16b02442f736adab9e29b15cc0d8112255df8d310aed6b809cb7ff31d",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Ideaverse \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
