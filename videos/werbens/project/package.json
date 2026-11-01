@@ -1,0 +1,21 @@
+{
+  "name": "werbens-promo-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens (com.werbens.app) 30s portrait promo: original stickman/editorial animation rendered locally.",
+  "type": "module",
+  "scripts": {
+    "tts": "node src/tts.mjs",
+    "audio": "node src/audio.mjs",
+    "video": "node src/render.mjs",
+    "build": "bash build.sh",
+    "qa": "bash qa.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0",
+    "kokoro-js": "1.2.1"
+  }
+}

@@ -1,0 +1,21 @@
+// Restrained Werbens palette. VIOLET is sampled from the approved icon (assets/icon.png).
+export const C = {
+  violet: "#6234FB",
+  violetDeep: "#4A1FD6",
+  violetLight: "#8F6CFF",
+  lilac: "#D2A5F0",
+  lilacPale: "#EEDDFB",
+  ink: "#1B1433",
+  inkSoft: "#3B3352",
+  inkFar: "#4A4262",
+  paper: "#F4EFE6",
+  paperDark: "#E7DECF",
+  paperShade: "#D9CDB9",
+  white: "#FFFDF8",
+  pureWhite: "#FFFFFF",
+  coral: "#FF6B5A",
+  yellow: "#FFC94D",
+  screenBg: "#F7F4FF",
+  gray: "#B9B2C9",
+  grayLight: "#DDD7E8",
+};
