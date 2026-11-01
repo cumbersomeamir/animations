@@ -1,0 +1,15 @@
+{
+  "name": "meshline-30s-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original procedural stickman promo for Meshline (com.cumbersomeamir.meshline). Frame renderer: @napi-rs/canvas -> ffmpeg.",
+  "type": "module",
+  "scripts": {
+    "frame": "node src/render.mjs --still",
+    "render": "node src/render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.11"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,10 @@
+# Asset sources and licenses (Meshline videos)
+
+| Item | Source | License |
+|---|---|---|
+| `assets/icon.png`, `assets/listing.json` | Approved app assets (saved public Play listing, Oct 2026), sha256 in `context/03-assets.json` | App owner's assets |
+| All animation, characters, backgrounds, UI glyphs | Original, code-drawn in `project/src` (and `tests/*/src`) | Original work for this app |
+| Music and SFX | Synthesised from scratch with numpy/scipy oscillators, noise and filters (`project/audio/mix.py`, `tests/15s/audio`). No samples. | Original work |
+| Narration WAVs | Generated locally with Kokoro-82M (onnx-community/Kokoro-82M-v1.0-ONNX, voice `af_heart`) via `kokoro-onnx` | Apache-2.0 (model and voices) |
+| Fonts | Inter / Inter Display (rsms/inter, Debian `fonts-inter`) | OFL-1.1, see `project/fonts/LICENSE-Inter-debian-copyright.txt` |
+| Renderer | `@napi-rs/canvas` 1.0.11 (npm) + FFmpeg 6.1 (system) | MIT / LGPL-GPL (system tool, not redistributed) |

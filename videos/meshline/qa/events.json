@@ -1,0 +1,876 @@
+{
+ "duration": 30,
+ "fps": 30,
+ "events": [
+  {
+   "t": 0.12,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 0.26,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 0.3,
+   "type": "buzz",
+   "gain": 0.7,
+   "pan": -0.4
+  },
+  {
+   "t": 0.4,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 0.55,
+   "type": "crack",
+   "gain": 0.9,
+   "pan": -0.5
+  },
+  {
+   "t": 0.6,
+   "type": "error",
+   "gain": 0.8,
+   "pan": 0
+  },
+  {
+   "t": 0.68,
+   "type": "crack",
+   "gain": 0.8,
+   "pan": -0.5
+  },
+  {
+   "t": 0.81,
+   "type": "crack",
+   "gain": 0.7,
+   "pan": -0.5
+  },
+  {
+   "t": 1.1206,
+   "type": "clunk",
+   "gain": 1,
+   "pan": -0.45,
+   "i": 0
+  },
+  {
+   "t": 1.14,
+   "type": "boing",
+   "gain": 0.55,
+   "pan": 0
+  },
+  {
+   "t": 1.2672,
+   "type": "clunk",
+   "gain": 1,
+   "pan": -0.45,
+   "i": 1
+  },
+  {
+   "t": 1.4134,
+   "type": "clunk",
+   "gain": 1,
+   "pan": -0.45,
+   "i": 2
+  },
+  {
+   "t": 1.439,
+   "type": "clunk",
+   "gain": 0.3,
+   "pan": -0.45,
+   "i": 0
+  },
+  {
+   "t": 1.529,
+   "type": "tink",
+   "gain": 0.6,
+   "pan": -0.45,
+   "i": 3
+  },
+  {
+   "t": 1.5345,
+   "type": "clunk",
+   "gain": 0.1,
+   "pan": -0.45,
+   "i": 0
+  },
+  {
+   "t": 1.5956,
+   "type": "clunk",
+   "gain": 0.3,
+   "pan": -0.45,
+   "i": 1
+  },
+  {
+   "t": 1.65,
+   "type": "rattle",
+   "gain": 0.7,
+   "pan": -0.1
+  },
+  {
+   "t": 1.6941,
+   "type": "clunk",
+   "gain": 0.1,
+   "pan": -0.45,
+   "i": 1
+  },
+  {
+   "t": 1.7514,
+   "type": "clunk",
+   "gain": 0.3,
+   "pan": -0.45,
+   "i": 2
+  },
+  {
+   "t": 1.8528,
+   "type": "clunk",
+   "gain": 0.1,
+   "pan": -0.45,
+   "i": 2
+  },
+  {
+   "t": 2.0154,
+   "type": "tink",
+   "gain": 0.25,
+   "pan": -0.45,
+   "i": 3
+  },
+  {
+   "t": 2.2197,
+   "type": "tink",
+   "gain": 0.1,
+   "pan": -0.45,
+   "i": 3
+  },
+  {
+   "t": 2.3055,
+   "type": "tink",
+   "gain": 0.05,
+   "pan": -0.45,
+   "i": 3
+  },
+  {
+   "t": 2.62,
+   "type": "whooshUp",
+   "gain": 0.45,
+   "pan": -0.1
+  },
+  {
+   "t": 2.95,
+   "type": "hop",
+   "gain": 0.5,
+   "pan": -0.2
+  },
+  {
+   "t": 3.18,
+   "type": "hop",
+   "gain": 0.4,
+   "pan": 0.4
+  },
+  {
+   "t": 3.42,
+   "type": "hop",
+   "gain": 0.5,
+   "pan": -0.2
+  },
+  {
+   "t": 3.5,
+   "type": "whoosh",
+   "gain": 0.55,
+   "pan": 0.3
+  },
+  {
+   "t": 3.62,
+   "type": "hop",
+   "gain": 0.4,
+   "pan": 0.4
+  },
+  {
+   "t": 4.25,
+   "type": "hop",
+   "gain": 0.4,
+   "pan": 0.4
+  },
+  {
+   "t": 5,
+   "type": "sigh",
+   "gain": 0.5,
+   "pan": 0
+  },
+  {
+   "t": 5.55,
+   "type": "notice",
+   "gain": 0.6,
+   "pan": 0
+  },
+  {
+   "t": 5.9,
+   "type": "wave",
+   "gain": 0.4,
+   "pan": 0.4
+  },
+  {
+   "t": 6.4,
+   "type": "idea",
+   "gain": 0.7,
+   "pan": -0.2
+  },
+  {
+   "t": 6.58,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 6.7,
+   "type": "appOpen",
+   "gain": 0.85,
+   "pan": -0.2
+  },
+  {
+   "t": 7.65,
+   "type": "ping",
+   "gain": 0.62,
+   "pan": -0.2
+  },
+  {
+   "t": 8,
+   "type": "appOpen",
+   "gain": 0.7,
+   "pan": 0.35
+  },
+  {
+   "t": 8.15,
+   "type": "ping",
+   "gain": 0.52,
+   "pan": -0.2
+  },
+  {
+   "t": 8.65,
+   "type": "ping",
+   "gain": 0.42,
+   "pan": -0.2
+  },
+  {
+   "t": 10.45,
+   "type": "stretch",
+   "gain": 0.6,
+   "pan": -0.2
+  },
+  {
+   "t": 10.95,
+   "type": "zip",
+   "gain": 0.95,
+   "pan": 0
+  },
+  {
+   "t": 11.5,
+   "type": "snap",
+   "gain": 1,
+   "pan": 0.25
+  },
+  {
+   "t": 12.6,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 12.8,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 13,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 13.25,
+   "type": "pop",
+   "gain": 0.6,
+   "pan": -0.25
+  },
+  {
+   "t": 13.45,
+   "type": "slide",
+   "gain": 0.38,
+   "pan": -0.25,
+   "dur": 1,
+   "dir": 1
+  },
+  {
+   "t": 14.45,
+   "type": "chime",
+   "gain": 0.75,
+   "pan": 0.25,
+   "hi": true
+  },
+  {
+   "t": 15,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": 0.25
+  },
+  {
+   "t": 15.15,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": 0.25
+  },
+  {
+   "t": 15.3,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": 0.25
+  },
+  {
+   "t": 15.45,
+   "type": "pop",
+   "gain": 0.6,
+   "pan": 0.25
+  },
+  {
+   "t": 15.6,
+   "type": "slide",
+   "gain": 0.38,
+   "pan": 0.25,
+   "dur": 0.9000000000000004,
+   "dir": -1
+  },
+  {
+   "t": 16.5,
+   "type": "chime",
+   "gain": 0.75,
+   "pan": -0.25,
+   "hi": false
+  },
+  {
+   "t": 16.72,
+   "type": "pop",
+   "gain": 0.48,
+   "pan": -0.25
+  },
+  {
+   "t": 16.85,
+   "type": "slide",
+   "gain": 0.304,
+   "pan": -0.25,
+   "dur": 0.5,
+   "dir": 1
+  },
+  {
+   "t": 17.32,
+   "type": "pop",
+   "gain": 0.48,
+   "pan": 0.25
+  },
+  {
+   "t": 17.35,
+   "type": "chime",
+   "gain": 0.6,
+   "pan": 0.25,
+   "hi": true
+  },
+  {
+   "t": 17.45,
+   "type": "slide",
+   "gain": 0.304,
+   "pan": 0.25,
+   "dur": 0.5,
+   "dir": -1
+  },
+  {
+   "t": 17.95,
+   "type": "chime",
+   "gain": 0.6,
+   "pan": -0.25,
+   "hi": false
+  },
+  {
+   "t": 18,
+   "type": "swish",
+   "gain": 0.4,
+   "pan": 0.3
+  },
+  {
+   "t": 18.7467,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 18.9,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 18.9167,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 19,
+   "type": "pop",
+   "gain": 0.51,
+   "pan": -0.25
+  },
+  {
+   "t": 19.0883,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 19.12,
+   "type": "slide",
+   "gain": 0.323,
+   "pan": -0.25,
+   "dur": 0.8000000000000007,
+   "dir": 1
+  },
+  {
+   "t": 19.2583,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 19.4283,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 19.5983,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 19.77,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 19.92,
+   "type": "chime",
+   "gain": 0.637,
+   "pan": 0.25,
+   "hi": true
+  },
+  {
+   "t": 19.94,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 20,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": 0.25
+  },
+  {
+   "t": 20.1,
+   "type": "pop",
+   "gain": 0.51,
+   "pan": 0.25
+  },
+  {
+   "t": 20.11,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 20.22,
+   "type": "slide",
+   "gain": 0.323,
+   "pan": 0.25,
+   "dur": 0.8000000000000007,
+   "dir": -1
+  },
+  {
+   "t": 20.28,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 20.45,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 20.6217,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 20.7917,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 20.9617,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 21.02,
+   "type": "chime",
+   "gain": 0.637,
+   "pan": -0.25,
+   "hi": false
+  },
+  {
+   "t": 21.05,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": -0.2
+  },
+  {
+   "t": 21.1317,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 21.15,
+   "type": "pop",
+   "gain": 0.51,
+   "pan": -0.25
+  },
+  {
+   "t": 21.27,
+   "type": "slide",
+   "gain": 0.323,
+   "pan": -0.25,
+   "dur": 0.7300000000000004,
+   "dir": 1
+  },
+  {
+   "t": 21.3033,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 21.4733,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 21.6433,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 21.8133,
+   "type": "step",
+   "gain": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 21.9,
+   "type": "tap",
+   "gain": 0.45,
+   "pan": 0.25
+  },
+  {
+   "t": 21.99,
+   "type": "step",
+   "gain": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 22,
+   "type": "chime",
+   "gain": 0.637,
+   "pan": 0.25,
+   "hi": true
+  },
+  {
+   "t": 22.3,
+   "type": "swish",
+   "gain": 0.4,
+   "pan": 0.2
+  },
+  {
+   "t": 22.5,
+   "type": "step",
+   "gain": 0.35,
+   "pan": -0.2
+  },
+  {
+   "t": 22.54,
+   "type": "step",
+   "gain": 0.35,
+   "pan": 0.2
+  },
+  {
+   "t": 22.72,
+   "type": "step",
+   "gain": 0.35,
+   "pan": -0.2
+  },
+  {
+   "t": 22.76,
+   "type": "step",
+   "gain": 0.35,
+   "pan": 0.2
+  },
+  {
+   "t": 22.88,
+   "type": "stretch",
+   "gain": 0.5,
+   "pan": 0
+  },
+  {
+   "t": 23.15,
+   "type": "clap",
+   "gain": 1,
+   "pan": 0
+  },
+  {
+   "t": 23.35,
+   "type": "riser",
+   "gain": 0.8,
+   "pan": 0
+  },
+  {
+   "t": 24,
+   "type": "impact",
+   "gain": 0.9,
+   "pan": 0
+  },
+  {
+   "t": 24.35,
+   "type": "logoSweep",
+   "gain": 0.7,
+   "pan": 0
+  },
+  {
+   "t": 25.2,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": 0
+  },
+  {
+   "t": 26,
+   "type": "pop",
+   "gain": 0.7,
+   "pan": 0
+  },
+  {
+   "t": 26.4,
+   "type": "pop",
+   "gain": 0.4,
+   "pan": 0
+  },
+  {
+   "t": 27,
+   "type": "shimmer",
+   "gain": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 28.2,
+   "type": "shimmer",
+   "gain": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 29.2,
+   "type": "shimmer",
+   "gain": 0.35,
+   "pan": 0
+  }
+ ],
+ "captions": [
+  {
+   "text": "No internet.",
+   "in": 1.45,
+   "out": 3.55,
+   "col": "#FF6A5C"
+  },
+  {
+   "text": "Still nearby.",
+   "in": 4.3,
+   "out": 7.45,
+   "col": "#FF6A5C"
+  },
+  {
+   "text": "Private nearby messaging",
+   "in": 8.1,
+   "out": 12.2,
+   "col": "#3157FF"
+  },
+  {
+   "text": "Send a private message",
+   "in": 12.55,
+   "out": 17.95,
+   "col": "#3157FF"
+  },
+  {
+   "text": "Keep the conversation moving",
+   "in": 18.6,
+   "out": 23.1,
+   "col": "#3157FF"
+  }
+ ],
+ "keyTimes": {
+  "flicker": 0.3,
+  "cracks": [
+   0.55,
+   0.68,
+   0.81
+  ],
+  "dotFall": 0.95,
+  "cam1": [
+   3.5,
+   4.6
+  ],
+  "idea": 6.4,
+  "appOpen": 6.7,
+  "ripples": [
+   7.65,
+   8.15,
+   8.65
+  ],
+  "bFlip": 8,
+  "windup": 10.45,
+  "launch": 10.95,
+  "snap": 11.5,
+  "taps1": [
+   12.6,
+   12.8,
+   13
+  ],
+  "taps2": [
+   15,
+   15.15,
+   15.3
+  ],
+  "bubbles": [
+   {
+    "from": "A",
+    "pop": 13.25,
+    "ride": [
+     13.45,
+     14.45
+    ],
+    "s": 1
+   },
+   {
+    "from": "B",
+    "pop": 15.45,
+    "ride": [
+     15.6,
+     16.5
+    ],
+    "s": 1
+   },
+   {
+    "from": "A",
+    "pop": 16.72,
+    "ride": [
+     16.85,
+     17.35
+    ],
+    "s": 0.8
+   },
+   {
+    "from": "B",
+    "pop": 17.32,
+    "ride": [
+     17.45,
+     17.95
+    ],
+    "s": 0.8
+   },
+   {
+    "from": "A",
+    "pop": 19,
+    "ride": [
+     19.12,
+     19.92
+    ],
+    "s": 0.85
+   },
+   {
+    "from": "B",
+    "pop": 20.1,
+    "ride": [
+     20.22,
+     21.02
+    ],
+    "s": 0.85
+   },
+   {
+    "from": "A",
+    "pop": 21.15,
+    "ride": [
+     21.27,
+     22
+    ],
+    "s": 0.85
+   }
+  ],
+  "bTurn": [
+   18,
+   18.35
+  ],
+  "walk": [
+   18.35,
+   22.3
+  ],
+  "bTurnBack": [
+   22.3,
+   22.55
+  ],
+  "stepIn": [
+   22.38,
+   22.88
+  ],
+  "fiveWind": 22.88,
+  "five": 23.15,
+  "dive": [
+   23.25,
+   23.97
+  ],
+  "end": 24,
+  "wave": [
+   24.35,
+   24.95
+  ],
+  "tile": [
+   24.9,
+   25.3
+  ],
+  "iconFade": [
+   25.2,
+   25.5
+  ],
+  "word": 25.2,
+  "sub": 25.65,
+  "cta": 26,
+  "mini": 26.4
+ }
+}

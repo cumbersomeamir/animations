@@ -1,0 +1,8 @@
+qa/frames/
+qa/boundaries/
+tests/*/qa/frames/
+tests/*/qa/boundaries/
+**/node_modules/
+**/.cache/
+**/build/
+__pycache__/

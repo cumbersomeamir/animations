@@ -1,13 +1,30 @@
 # Progress
 
 ## Verified facts
-App identity and branch specified. Saved public app listing included when available.
+- App: Meshline, `com.cumbersomeamir.meshline`, Android, Communication, free (0 INR), rated 12+, by Tensorblue AI (`assets/listing.json`).
+- Listing description (the only feature source): "Private nearby messaging that keeps moving, even when the internet does not."
+- Asset hashes match `03-assets.json`: icon `c80e7c20…23ef`, listing `b3df4726…f55f`.
+- Icon palette (sampled pixels): background `#111714`, wave `#3157FF`, node `#F7F7F2`. Wave stroke width is 56/512 and node radius 21/512.
+- Unknown and not claimed: transport tech, relay/multi-hop, encryption standard, metrics, pricing beyond free, testimonials.
 
-## Creative decisions
-Brief is a proposed direction; refine within this app context.
+## Creative decisions (30s production video)
+- Stickman story: a Wi‑Fi sign physically breaks → two nearby people → short-range discovery rings → a thrown mesh line (icon geometry) → bubbles ride it → they walk while still linked → a high-five node becomes the logo → end card with the real icon and the CTA "Explore on Google Play".
+- Coral only for offline. Blue only for Meshline.
+- Phones are stylised glyph screens (no product UI claimed).
+- Narration: local Kokoro-82M `af_heart` (Apache-2.0). Music and SFX are synthesised originals.
+- Renderer: Node 22 + `@napi-rs/canvas` 1.0.11 → raw RGBA → FFmpeg libx264 (CRF 17). Remotion was avoided to sidestep company-license ambiguity.
 
-## Completed
-Isolated context scaffold prepared. No new video has been rendered yet.
+## Completed (30s)
+- Output: `videos/meshline/output/meshline-30s.mp4`, 30.000 s, 1080x1920, 30 fps, H.264 + AAC. sha256 `dbffaa2f8fb6dfe8e5f87f59a378b4964b41bf1933631c2ee81cfabe69c415e8`.
+- Source: `videos/meshline/project/`. Docs: `storyboard.md`, `QA.md`, `LICENSES.md`. Evidence: `qa/`.
+- Commands (from `videos/meshline/project`):
+  - `scripts/setup.sh` (npm ci, venv, Kokoro download with sha256 check)
+  - `PY=.cache/venv/bin/python scripts/build.sh`
+  - `PY=python3 scripts/qa.sh`
+- Checks: 900 frames, full decode clean, −15.7 LUFS, −1.6 dBTP, speech-band voice/bed ≥ +11 dB. Contact and boundary sheets inspected. 9 defects fixed (see `QA.md`).
+
+## Unresolved
+- Narration was not listened to by a human. It was verified by phonemes and level metrics only.
 
 ## Next
-Read context in numbered order, storyboard, implement, render, inspect, fix and deliver.
+- 30s is delivered. The 15s text-message style test is tracked separately in `07-test-progress.md`.

@@ -1,0 +1,53 @@
+{
+  "voice": "af_heart",
+  "lines": [
+    {
+      "id": "v1",
+      "start": 1.55,
+      "text": "No internet?",
+      "file": "v1.wav",
+      "sr": 24000,
+      "duration": 0.905
+    },
+    {
+      "id": "v2",
+      "start": 4.35,
+      "text": "Still nearby.",
+      "file": "v2.wav",
+      "sr": 24000,
+      "duration": 0.877
+    },
+    {
+      "id": "v3",
+      "start": 8.1,
+      "text": "Meshline. Private, nearby messaging.",
+      "file": "v3.wav",
+      "sr": 24000,
+      "duration": 2.249
+    },
+    {
+      "id": "v4",
+      "start": 13.1,
+      "text": "Send a private message.",
+      "file": "v4.wav",
+      "sr": 24000,
+      "duration": 1.278
+    },
+    {
+      "id": "v5",
+      "start": 18.6,
+      "text": "Keep the conversation moving, even when the internet doesn't.",
+      "file": "v5.wav",
+      "sr": 24000,
+      "duration": 3.333
+    },
+    {
+      "id": "v6",
+      "start": 25.2,
+      "text": "Meshline. Explore on Google Play.",
+      "file": "v6.wav",
+      "sr": 24000,
+      "duration": 2.014
+    }
+  ]
+}
