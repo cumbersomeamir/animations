@@ -1,0 +1,14 @@
+{
+  "name": "ideaverse-promo-30s",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original stickman promo for Ideaverse (com.ideaverseai), rendered locally with @napi-rs/canvas + FFmpeg",
+  "type": "module",
+  "scripts": {
+    "frames": "node render.mjs",
+    "still": "node render.mjs --still"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.11"
+  }
+}
