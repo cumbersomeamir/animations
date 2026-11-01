@@ -1,0 +1,47 @@
+{
+  "app": "Plan My Wedding",
+  "package": "com.tensorblue.planmywedding",
+  "play_url": "https://play.google.com/store/apps/details?id=com.tensorblue.planmywedding",
+  "evidence": null,
+  "previous_brief_reference": {
+    "name": "Plan My Wedding",
+    "package": "com.tensorblue.planmywedding",
+    "status": "live",
+    "color": "#DDA4AD",
+    "kind": "plan",
+    "captions": [
+      "One wedding. A thousand details.",
+      "Give your plans a home",
+      "Budget. Guests. Vendors.",
+      "Back to the celebration"
+    ],
+    "narration": [
+      "One wedding. A thousand details.",
+      "Plan My Wedding. Give your plans a home.",
+      "Budget. Guests. Vendors.. Back to the celebration.",
+      "Plan My Wedding. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Plan My Wedding/Campaign Video",
+    "chat_url": "https://claude.ai/chat/93aaf8b7-9400-43a5-a3d9-c9691acab222",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Plan My Wedding/Campaign Video/Plan-My-Wedding-Campaign-30s.mp4",
+    "sha256": "c61b9da295a4b7abd1942e6596f6601c7ac6b219f7b9bead06ee10dab0ad0f1d",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [
+      "/Users/rajeevkumar/Downloads/Video Master/Plan My Wedding/Editorial Video/Plan-My-Wedding-Editorial-30s.mp4"
+    ],
+    "chat_title": "Plan My Wedding \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
