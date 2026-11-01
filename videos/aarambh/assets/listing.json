@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Aarambh",
+    "url": "https://play.google.com/store/apps/details/Aarambh?id=in.aarambh.app&hl=en",
+    "description": "Fund verified livelihood tools and follow their impact.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "LIFESTYLE",
+    "image": "https://play-lh.googleusercontent.com/5foZl3_QwwFzuRED1Dlyp_JdspdrzT01Vy5hbtIIzJJz4JNcwfHvJntoIYD4y7bAcyLqPddN0Lym3ONn1Hs9",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "http://aarambh-api.20-115-41-13.sslip.io"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

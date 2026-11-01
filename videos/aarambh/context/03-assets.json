@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/aarambh/assets/listing.json",
+      "sha256": "850735cd9b760d828ae096483ca2aae1d8edd3090c6a57bc104d9b95ca412293",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/aarambh/assets/icon.png",
+      "sha256": "bfd11449e0737f2dd6b6b3979307c3f069b17c33b8a5302bd7924ebc2772e37e",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

@@ -1,0 +1,70 @@
+{
+  "app": "Aarambh",
+  "package": "in.aarambh.app",
+  "play_url": "https://play.google.com/store/apps/details?id=in.aarambh.app",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Aarambh",
+      "url": "https://play.google.com/store/apps/details/Aarambh?id=in.aarambh.app&hl=en",
+      "description": "Fund verified livelihood tools and follow their impact.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "LIFESTYLE",
+      "image": "https://play-lh.googleusercontent.com/5foZl3_QwwFzuRED1Dlyp_JdspdrzT01Vy5hbtIIzJJz4JNcwfHvJntoIYD4y7bAcyLqPddN0Lym3ONn1Hs9",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "http://aarambh-api.20-115-41-13.sslip.io"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Aarambh",
+    "package": "in.aarambh.app",
+    "status": "live",
+    "color": "#EF8F43",
+    "kind": "tool",
+    "captions": [
+      "A beginning can be a tool.",
+      "Find a livelihood need",
+      "Support verified equipment",
+      "Follow the journey"
+    ],
+    "narration": [
+      "A beginning can be a tool.",
+      "Aarambh. Find a livelihood need.",
+      "Support verified equipment. Follow the journey.",
+      "Aarambh. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Aarambh/Campaign Video",
+    "chat_url": "https://claude.ai/chat/954479d0-61ff-423b-a61f-06a59f394a5a",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Aarambh/Campaign Video/Aarambh-Campaign-30s.mp4",
+    "sha256": "bbb7fc60e8465f1715a6291de8312a4e1416779e40659f5e854b065451993cc9",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "Aarambh \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
