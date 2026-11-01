@@ -1,0 +1,70 @@
+{
+  "app": "TableVerse",
+  "package": "com.tensorblue.tableverse",
+  "play_url": "https://play.google.com/store/apps/details?id=com.tensorblue.tableverse",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TableVerse",
+      "url": "https://play.google.com/store/apps/details/TableVerse?id=com.tensorblue.tableverse&hl=en",
+      "description": "Learn multiplication tables through stories, practice and fun challenges.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "EDUCATION",
+      "image": "https://play-lh.googleusercontent.com/eFx1p_8kkymlH1sjGHZ03TgQLyuzg8BLc7Fqg-ChPZk8xmvjKQaX0tu1EmbeXF_RTRHHjhZliJYjhctO3E9phA",
+      "contentRating": "Rated for 3+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "http://tensorblue.com"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "TableVerse",
+    "package": "com.tensorblue.tableverse",
+    "status": "live",
+    "color": "#F6C555",
+    "kind": "numbers",
+    "captions": [
+      "Seven times eight. Freeze?",
+      "Give numbers a story",
+      "Try a fun challenge",
+      "Keep practising your tables"
+    ],
+    "narration": [
+      "Seven times eight. Freeze?",
+      "TableVerse. Give numbers a story.",
+      "Try a fun challenge. Keep practising your tables.",
+      "TableVerse. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/TableVerse/Campaign Video",
+    "chat_url": "https://claude.ai/chat/66ae6768-5f70-4e7c-965a-914f826f2231",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/TableVerse/Campaign Video/TableVerse-Campaign-30s.mp4",
+    "sha256": "89b6c0943cdcc9d207702e64fbdd51f0e1d0bc54f31eeb6c1aa0f657777fc0f7",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [],
+    "chat_title": "TableVerse \u2014 Campaign Video",
+    "claude_account": "info@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/tableverse/assets/listing.json",
+      "sha256": "e2f9f0dabf24cd13cfced89329cc03123d886e8b5ee104361567a37c7fad26db",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/tableverse/assets/icon.png",
+      "sha256": "0ad7f267411e602c472d84c64ce826a89847b9065308c70d62d359e906889561",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
