@@ -1,0 +1,26 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Help",
+    "url": "https://play.google.com/store/apps/details/Help?id=com.tensorblue.help&hl=en",
+    "description": "Donate essentials in Lucknow with next-day delivery and verified proof.",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "LIFESTYLE",
+    "image": "https://play-lh.googleusercontent.com/1YgJmXYq6xcvrxO1jKeH_jvSB9iSdPlVxDOYEt3vU6lIadnwZ3fJtCGIWOBi1o0ElPBwSw154mRLPMwRfvG1",
+    "contentRating": "Rated for 3+",
+    "author": {
+      "@type": "Person",
+      "name": "Tensorblue AI",
+      "url": "http://admin.20-115-41-13.sslip.io"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+]

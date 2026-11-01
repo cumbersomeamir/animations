@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/help/assets/listing.json",
+      "sha256": "d93ed0b7b340acd0b8ebf6ddd5a3e676f53ca55949c929aee484711e20374ca7",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/help/assets/icon.png",
+      "sha256": "0646d82d780747d92a963aa74f5a1f453696fb99cd5230629db25577840eebd4",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}
