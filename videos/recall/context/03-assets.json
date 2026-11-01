@@ -1,0 +1,15 @@
+{
+  "approved_assets": [
+    {
+      "path": "videos/recall/assets/listing.json",
+      "sha256": "1f92917f19e8560246f3cd66e0ca37e9e3fe9fc835e88248000e435830f4b039",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/recall/assets/icon.png",
+      "sha256": "c059d0e0d1ce44a82bc846b451bc53b448fe9fd406abbaf3611ff9d81bd72962",
+      "source": "Saved public Google Play listing snapshot, October 2026"
+    }
+  ],
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+}

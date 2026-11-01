@@ -1,0 +1,72 @@
+{
+  "app": "Recall",
+  "package": "com.recallmobile",
+  "play_url": "https://play.google.com/store/apps/details?id=com.recallmobile",
+  "evidence": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Recall",
+      "url": "https://play.google.com/store/apps/details/Recall?id=com.recallmobile&hl=en",
+      "description": "Turn your study material into lessons, practice and spaced reviews.",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "EDUCATION",
+      "image": "https://play-lh.googleusercontent.com/-TNiSX_qngMiINpxLOYalN2RFNiXibAWZnqUXMSzmcMdYAtJchzRIYgk7CKVkQa2lGfERPcwMkWFKjf_QtiglA",
+      "contentRating": "Rated for 12+",
+      "author": {
+        "@type": "Person",
+        "name": "Tensorblue AI",
+        "url": "https://recall-api.20.115.41.13.sslip.io"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  ],
+  "previous_brief_reference": {
+    "name": "Recall",
+    "package": "com.recallmobile",
+    "status": "live",
+    "color": "#B597E7",
+    "kind": "cards",
+    "captions": [
+      "Read it. Forgot it. Again?",
+      "Bring your study material",
+      "Turn it into practice",
+      "Come back for a review"
+    ],
+    "narration": [
+      "Read it. Forgot it. Again?",
+      "Recall. Bring your study material.",
+      "Turn it into practice. Come back for a review.",
+      "Recall. Explore on Google Play."
+    ],
+    "folder": "/Users/rajeevkumar/Downloads/Video Master/Recall/Campaign Video",
+    "chat_url": "https://claude.ai/chat/677c97c4-4c02-4960-918b-2a45d72ef9a2",
+    "video": "/Users/rajeevkumar/Downloads/Video Master/Recall/Campaign Video/Recall-Campaign-30s.mp4",
+    "sha256": "787975526685b98a294cde4f375a098f8af8db3fd9fb9c33404d5c1dfd8592e7",
+    "verified": {
+      "duration": 30,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "full_decode": true
+    },
+    "editorial_videos": [
+      "/Users/rajeevkumar/Downloads/Video Master/Recall/Editorial Video/Recall-Editorial-30s.mp4"
+    ],
+    "chat_title": "Recall \u2014 Campaign Video",
+    "claude_account": "amir@tensorblue.com",
+    "chat_video_verified": true
+  },
+  "source_note": "Public listing snapshots saved October 2026; verify any unclear claims. This is app-only context, not a guaranteed current feature list.",
+  "unknowns": [
+    "No sales, health, learning or financial outcome guarantees",
+    "No invented pricing, customer metrics, endorsements or availability claims"
+  ]
+}
