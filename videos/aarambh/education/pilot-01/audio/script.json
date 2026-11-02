@@ -1,0 +1,35 @@
+{
+  "voice": "Piper en_US-ljspeech-medium (public domain dataset), processed into Bindu's voice",
+  "lines": [
+    {
+      "id": "L1",
+      "tts_text": "A needle only dips down and up.",
+      "length_scale": 1.0
+    },
+    {
+      "id": "L1b",
+      "tts_text": "So what locks the thread?",
+      "length_scale": 1.0
+    },
+    {
+      "id": "L2",
+      "tts_text": "Underneath, a loop forms.",
+      "length_scale": 1.0
+    },
+    {
+      "id": "L3",
+      "tts_text": "A hook carries that loop around the bobbin.",
+      "length_scale": 1.0
+    },
+    {
+      "id": "L4",
+      "tts_text": "Pull tight: two threads lock inside the cloth.",
+      "length_scale": 1.0
+    },
+    {
+      "id": "L5",
+      "tts_text": "That's a lockstitch!",
+      "length_scale": 1.0
+    }
+  ]
+}
