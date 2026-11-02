@@ -35,6 +35,11 @@
   redirected; narrow portrait lens → FOV 44 + wider shots; drawer reveal occluded → dedicated insert shot + hand
   moves away; chain too small → enlarged; stamp text overprinted → amber sticker; ticker read as caption → removed.
 
+## Render / QA state (2026-11-02) — DELIVERED
+- Final: education/pilot-01/ideaverse-education-pilot-01.mp4 (sha256 2886236d…f69460): 15.000 s, H.264 1080x1920 30 fps,
+  450 frames, AAC 48 kHz stereo; full decode OK; −12.7 LUFS / −1.4 dBFS; all 6 narration lines ASR-correct from the MP4.
+- QA.md lists 10 defects fixed and 3 accepted minor issues. Render: 450 frames in 11m49s (3 SwiftShader workers).
+
 ## Next action
-Full 450-frame render (running) → encode with mix_master → qa.sh → inspect contact sheets/boundaries/transitions →
-fix + rerender if needed → QA.md → commit/push → share MP4 path.
+Pilot 01 complete. Next: user review of pilot + DOCKET design; if approved, script episode 2 from the 10-title plan
+(context/08) reusing src/character/docket.js with a new situation/camera. Do not overwrite pilot-01.

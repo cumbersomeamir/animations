@@ -239,8 +239,9 @@ const DK = poseKeys([
   { t: 8.08, p: { drawer: 1 } },
   { t: 8.62, p: { drawer: 0, headPitch: 22 } },
   { t: 10.05, p: { headPitch: 18 } },
-  { t: 10.3, e: 'inOutCubic', p: { notes: 1, headPitch: 6, aFwd: 16, aBend: 20, bFwd: 40, bBend: 60, bOut: 14 } },
+  { t: 10.3, e: 'inOutCubic', p: { notes: 1, drawer: 1, headPitch: 6, aFwd: 16, aBend: 20, bFwd: 40, bBend: 60, bOut: 14 } },
   { t: 10.55, p: { notes: 0 } },
+  { t: 10.64, p: { drawer: 0 } },
   { t: 10.95, e: 'inOutCubic', p: { ...STAGE_B, headYaw: 14, headPitch: 2 } },
   { t: 11.28, e: 'outCubic', p: { bFwd: 168, bBend: 34, bOut: 8, lean: -12, crouch: 0.04, headPitch: -8 } },
   { t: 11.5, e: 'inQuart', p: { bFwd: 72, bBend: 12, lean: 14, crouch: 0.3, headPitch: 10 } },
@@ -401,14 +402,14 @@ function layoutRibbon(t) {
   ribbonTex.offset.x = -t * 0.35; ribbonTex.repeat.x = 0.6 * Math.max(0.05, grow);
 }
 function layoutBook(t, p, hA, hB) {
-  const vis = t >= Hh.bookOut - 0.1 && t < 10.75;
+  const vis = t >= Hh.bookOut - 0.1 && t < 10.58;
   book.visible = vis; beam.visible = false; if (!vis) return;
   const yaw = p.rotY * Math.PI / 180, drawerPos = V(); docket.sources.getWorldPosition(drawerPos);
   const held = bookHeldAt(p);
   let pos;
   if (t < Hh.bookOut + 0.15) pos = drawerPos.clone().lerp(held, E.outCubic(inv(Hh.bookOut - 0.1, Hh.bookOut + 0.15, t)));
   else if (t < 10.35) pos = held;
-  else pos = held.clone().lerp(drawerPos, E.inQuad(inv(10.35, 10.7, t)));
+  else pos = held.clone().lerp(drawerPos.add(V(0, 0.02, 0)), E.inQuad(inv(10.33, 10.56, t)));
   book.position.copy(pos).add(V(-Math.cos(yaw) * 0.12, 0, Math.sin(yaw) * 0.12));
   book.rotation.set(0.62, yaw, 0, 'YXZ');
   const open = t < Hh.bookOpen ? 0 : t < Hh.bookClose ? E.outBack(inv(Hh.bookOpen, Hh.bookOpen + 0.3, t)) : 1 - E.inOutCubic(inv(Hh.bookClose, Hh.bookClose + 0.2, t));

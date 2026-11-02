@@ -91,11 +91,11 @@ slide(H.ownDrawer - 0.05, 0.13, 0.7); clunk(H.ownDrawer + 0.08, 0.7);
 paper(H.bookOut, 0.2, 0.5); paper(H.bookOpen, 0.25, 0.9); clunk(H.bookOpen + 0.05, 0.3);
 add(SFX, H.scan[0], H.scan[1] - H.scan[0], (lt) => { const len = H.scan[1] - H.scan[0]; return 0.09 * Math.min(1, lt / 0.05) * Math.min(1, (len - lt) / 0.05) * (Math.sin(TAU * 620 * lt) + 0.5 * Math.sin(TAU * 1240 * lt)) * (0.7 + 0.3 * Math.sin(TAU * 12 * lt)); }, { gain: 0.6, pan: -0.1 });
 for (let k = 0; k < 8; k++) tick(SFX, H.scan[0] + 0.1 + k * 0.11, 0.5, 2200, -0.2);
-glideTone(SFX, H.noMatch, 0.12, 196, 196, 0.8, 'sq'); glideTone(SFX, H.noMatch + 0.16, 0.16, 175, 165, 0.8, 'sq');   // "nope"
+glideTone(SFX, H.noMatch, 0.1, 196, 196, 0.7, 'sq'); glideTone(SFX, H.noMatch + 0.12, 0.1, 175, 165, 0.7, 'sq');   // "nope"
 clunk(H.notesOpen, 0.5); add(SFX, H.stampInHand, 0.08, (lt) => 0.4 * Math.sin(TAU * (500 + 1500 * lt) * lt) * Math.exp(-lt * 30), { gain: 0.6 });
-glideTone(SFX, H.windUp, 0.3, 400, 1100, 0.45);
-thwack(H.slam, 1);
-glideTone(SFX, H.droop, 0.55, 700, 260, 0.6);           // confidence deflates
+glideTone(SFX, H.windUp, 0.3, 400, 1100, 0.25);
+thwack(H.slam, 0.7);
+glideTone(SFX, H.droop, 0.55, 420, 170, 0.32);          // confidence deflates (kept under the voice)
 paper(H.stampLift, 0.08, 0.6);
 thump(H.turn, 0.3);
 
@@ -122,8 +122,9 @@ function reverb(x, offs) {
 }
 const RV = [reverb(SEND[0], 0), reverb(SEND[1], 23)];
 const L = new Float32Array(N), R = new Float32Array(N);
+if (process.env.STEM === 'vox') for (const b of [MUS, SFX, RV]) { b[0].fill(0); b[1].fill(0); }   // QA: voice-only stem
 for (let i = 0; i < N; i++) {
-  const t = i / SR, dm = 1 - (t > 12.6 ? 0.8 : 0.68) * venv[i], ds = 1 - 0.35 * venv[i];
+  const t = i / SR, dm = 1 - (t > 12.6 ? 0.8 : 0.68) * venv[i], ds = 1 - (t > 10.2 && t < 12.4 ? 0.55 : 0.35) * venv[i];
   const fade = t > 14.3 ? Math.max(0, 1 - (t - 14.3) / 0.68) : 1, fin = Math.min(1, i / 96);
   for (const [o, ch] of [[L, 0], [R, 1]]) o[i] = Math.tanh(((MUS[ch][i] * 0.75 + RV[ch][i] * 0.3) * dm * fade + SFX[ch][i] * ds) * fin * 1.0 + VOX[ch][i]) ;
 }
@@ -132,5 +133,5 @@ const g = 0.89 / pk, buf = Buffer.alloc(44 + N * 4);
 buf.write('RIFF', 0); buf.writeUInt32LE(36 + N * 4, 4); buf.write('WAVE', 8); buf.write('fmt ', 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(2, 22);
 buf.writeUInt32LE(SR, 24); buf.writeUInt32LE(SR * 4, 28); buf.writeUInt16LE(4, 32); buf.writeUInt16LE(16, 34); buf.write('data', 36); buf.writeUInt32LE(N * 4, 40);
 for (let i = 0; i < N; i++) { buf.writeInt16LE(Math.round(Math.max(-1, Math.min(1, L[i] * g)) * 32767), 44 + i * 4); buf.writeInt16LE(Math.round(Math.max(-1, Math.min(1, R[i] * g)) * 32767), 46 + i * 4); }
-const outFile = path.resolve(HERE, '../../build/mix.wav'); fs.mkdirSync(path.dirname(outFile), { recursive: true }); fs.writeFileSync(outFile, buf);
+const outFile = path.resolve(HERE, process.env.STEM === 'vox' ? '../../build/vox.wav' : '../../build/mix.wav'); fs.mkdirSync(path.dirname(outFile), { recursive: true }); fs.writeFileSync(outFile, buf);
 console.log('mix ->', outFile, (N / SR).toFixed(3) + 's', 'gain', g.toFixed(3));

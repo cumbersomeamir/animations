@@ -81,11 +81,12 @@ try {
     fs.writeFileSync(f, await page.screenshot({ type: 'png', clip })); console.log('sheet ->', f);
   }
   if (arg('frames')) {
-    const dir = path.join(BUILD, 'frames'); fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
-    const n = Math.round(C.dur * C.fps), workers = +arg('workers', 3), t0 = Date.now();
+    const dir = path.join(BUILD, 'frames'); const from = +arg('from', 0), to = +arg('to', Math.round(C.dur * C.fps));
+    if (!arg('from')) fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
+    const n = to, workers = +arg('workers', 3), t0 = Date.now();
     await Promise.all(Array.from({ length: workers }, async (_, w) => {
       const page = await openPage(browser, port);
-      for (let f = w; f < n; f += workers) { await shot(page, f / C.fps, path.join(dir, `f${String(f).padStart(4, '0')}.png`)); if (f % 60 === 0) console.log(`frame ${f}/${n} ${((Date.now() - t0) / 1000).toFixed(0)}s`); }
+      for (let f = from + w; f < n; f += workers) { await shot(page, f / C.fps, path.join(dir, `f${String(f).padStart(4, '0')}.png`)); if (f % 60 === 0) console.log(`frame ${f}/${n} ${((Date.now() - t0) / 1000).toFixed(0)}s`); }
     }));
     console.log('frames done', n, ((Date.now() - t0) / 1000).toFixed(1) + 's');
   }
