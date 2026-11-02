@@ -25,6 +25,9 @@ open(os.path.join(QA, 'decode.log'), 'w').write(
 # 3. decoded audio sample count, loudness, black/freeze detection
 pcm = subprocess.run(['ffmpeg', '-v', 'error', '-nostdin', '-i', mp4, '-map', '0:a', '-f', 's16le', '-ac', '2', '-ar', '48000', '-'], capture_output=True).stdout
 samples = len(pcm) // 4
+import array
+tail = array.array('h', pcm[720000 * 4:])
+tail_peak = max((abs(x) for x in tail), default=0) / 32768
 loud = run(['ffmpeg', '-hide_banner', '-nostdin', '-i', mp4, '-map', '0:a', '-af', 'ebur128=peak=true', '-f', 'null', '-'])
 summ = ' '.join(loud.stderr[loud.stderr.rfind('Summary:'):].split())
 black = run(['ffmpeg', '-hide_banner', '-nostdin', '-i', mp4, '-map', '0:v', '-vf', 'blackdetect=d=0.1:pix_th=0.06', '-f', 'null', '-'])
@@ -36,7 +39,11 @@ checks = {
               'r_frame_rate': v['r_frame_rate'], 'avg_frame_rate': v['avg_frame_rate'], 'nb_read_frames': int(v['nb_read_frames']),
               'duration_s': float(v['duration'])},
     'audio': {'codec': a['codec_name'], 'profile': a.get('profile'), 'sample_rate': int(a['sample_rate']), 'channels': a['channels'],
-              'duration_s': float(a['duration']), 'decoded_samples': samples, 'decoded_seconds': samples / 48000},
+              'duration_s': float(a['duration']), 'duration_ts': int(a['duration_ts']), 'time_base': a['time_base'],
+              'start_time': a['start_time'], 'decoded_samples': samples, 'decoded_seconds': samples / 48000,
+              'decoded_overhang_samples': samples - 720000, 'overhang_peak_abs': round(tail_peak, 6),
+              'note': 'AAC decodes whole 1024-sample frames; the stream declares 720000 samples (15.000 s) and the '
+                      'encoder priming (1024) is offset by a negative first pts. Samples beyond 720000 are end padding.'},
     'full_decode': {'exit_code': d.returncode, 'errors': d.stderr.strip()[:500]},
     'loudness_ebur128': summ,
     'blackdetect': re.findall(r'black_start:\S+ black_end:\S+ black_duration:\S+', black.stderr),
@@ -47,7 +54,8 @@ checks['pass'] = {
     'exactly_450_frames': int(v['nb_read_frames']) == 450,
     'video_15.000s': abs(float(v['duration']) - 15.0) < 1e-6,
     'aac_audio_present': a['codec_name'] == 'aac',
-    'audio_15.000s_decoded': abs(samples / 48000 - 15.0) < 0.0011,
+    'audio_declared_720000_samples': int(a['duration_ts']) == 720000 and a['time_base'] == '1/48000',
+    'audio_decoded_covers_15s_overhang_silent': samples >= 720000 and tail_peak < 0.001,
     'container_15.000s': abs(float(probe['format']['duration']) - 15.0) < 0.0011,
     'full_decode_clean': d.returncode == 0 and not d.stderr.strip(),
     'no_black_segments': not checks['blackdetect'],

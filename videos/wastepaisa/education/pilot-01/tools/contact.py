@@ -48,11 +48,12 @@ def main():
         tmp = tempfile.mkdtemp()
         paths, labels = [], []
         for t in times:
-            p = os.path.join(tmp, f'{t}.png')
-            # accurate seek: -ss after -i decodes from the start to the exact frame
-            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', video, '-ss', t, '-frames:v', '1', p], check=True)
             frame = round(float(t) * 30)
-            paths.append(p); labels.append(f't={float(t):.3f}s  f{frame}')
+            p = os.path.join(tmp, f'f{frame:03d}.png')
+            # frame-exact: decode and select frame index n (frame n covers [n/30, (n+1)/30))
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', video, '-vf', f'select=eq(n\\,{frame})', '-fps_mode', 'passthrough',
+                            '-frames:v', '1', p], check=True)
+            paths.append(p); labels.append(f'f{frame}  t={frame / 30:.3f}s')
         sheet(paths, labels, out, cols)
 
 

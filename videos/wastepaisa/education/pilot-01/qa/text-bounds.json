@@ -1,0 +1,11 @@
+{
+ "safe_margin_px": 40,
+ "frames_checked": 450,
+ "violations": [],
+ "max_extent": {
+  "x0": 44,
+  "y0": 54,
+  "x1": 1034,
+  "y1": 1786
+ }
+}
