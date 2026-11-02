@@ -30,3 +30,8 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - New 30.000 s production rendered, verified and committed: production/30s/2026-11-02-batch-02/media-diet-30s-production-02.mp4
   (SHA-256 f077ae0bfb37b1ac84905cec0b2379421404183c5a584b42f641effd2d7a69d8). Brief/feedback/script/sources/storyboard/QA: context/13-production-30s-02.md; format updates: context/11.
 - Production 01 and the education pilot preserved unchanged. No automation created.
+
+## Checkpoint 2026-11-02 — feedback round (Layered Tech Cutaway)
+- New 30.000 s episode rendered, verified and committed: production/30s/2026-11-02-feedback-round/media-diet-30s-feedback-01.mp4
+  (SHA-256 2b713067274a19f9822075edf627c992938686cd849d69ca162fd7a35a7b57e5). Style upgrade + new caption/audio rules: context/11 "FORMAT UPGRADE"; brief/script/sources/storyboard/QA:
+  context/14-production-30s-feedback-01.md. Previous MP4s preserved. No automation created.

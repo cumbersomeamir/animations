@@ -1,0 +1,543 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-base.en (int8, CPU)",
+ "word_recall_lcs": 1.0,
+ "script_words": 74,
+ "heard_words": 74,
+ "transcript": "GPS struggles inside a warehouse, so how does a robot know where it is? A LiDAR -equipped robot sends out laser pulses and times their reflections. Those distances outline nearby walls and shelves. It builds a map, then matches fresh measurements to that map to estimate its position, mapping and locating, working together. Move a crate and new measurements reveal it, so the robot can plan around it. Follow media diet for technology explained.",
+ "lines": [
+  {
+   "id": "V1",
+   "script": "GPS struggles inside a warehouse.",
+   "window": [
+    0.25,
+    2.35
+   ],
+   "heard": "GPS struggles inside a warehouse,",
+   "first_word_s": 0.0,
+   "last_word_e": 1.94
+  },
+  {
+   "id": "V2",
+   "script": "So how does a robot know where it is?",
+   "window": [
+    2.65,
+    4.4
+   ],
+   "heard": "so how does a robot know where it is?",
+   "first_word_s": 2.54,
+   "last_word_e": 4.2
+  },
+  {
+   "id": "V3",
+   "script": "A lidar-equipped robot sends out laser pulses and times their reflections.",
+   "window": [
+    4.75,
+    9.39
+   ],
+   "heard": "A LiDAR -equipped robot sends out laser pulses and times their reflections.",
+   "first_word_s": 4.76,
+   "last_word_e": 8.96
+  },
+  {
+   "id": "V4",
+   "script": "Those distances outline nearby walls and shelves.",
+   "window": [
+    9.7,
+    12.58
+   ],
+   "heard": "Those distances outline nearby walls and shelves.",
+   "first_word_s": 9.64,
+   "last_word_e": 12.16
+  },
+  {
+   "id": "V5",
+   "script": "It builds a map, then matches fresh measurements to that map to estimate its position.",
+   "window": [
+    12.9,
+    17.65
+   ],
+   "heard": "It builds a map, then matches fresh measurements to that map to estimate its position,",
+   "first_word_s": 12.94,
+   "last_word_e": 17.42
+  },
+  {
+   "id": "V6",
+   "script": "Mapping and locating, working together.",
+   "window": [
+    17.95,
+    20.16
+   ],
+   "heard": "mapping and locating, working together.",
+   "first_word_s": 17.94,
+   "last_word_e": 19.84
+  },
+  {
+   "id": "V7",
+   "script": "Move a crate, and new measurements reveal it, so the robot can plan around it.",
+   "window": [
+    20.5,
+    24.68
+   ],
+   "heard": "Move a crate and new measurements reveal it, so the robot can plan around it.",
+   "first_word_s": 20.64,
+   "last_word_e": 24.54
+  },
+  {
+   "id": "V8",
+   "script": "Follow Media Diet for technology explained.",
+   "window": [
+    26.6,
+    29.23
+   ],
+   "heard": "media diet for technology explained.",
+   "first_word_s": 26.83,
+   "last_word_e": 28.73
+  }
+ ],
+ "words": [
+  {
+   "w": "GPS",
+   "s": 0.0,
+   "e": 0.54,
+   "p": 0.99
+  },
+  {
+   "w": "struggles",
+   "s": 0.54,
+   "e": 1.06,
+   "p": 1.0
+  },
+  {
+   "w": "inside",
+   "s": 1.06,
+   "e": 1.54,
+   "p": 1.0
+  },
+  {
+   "w": "a",
+   "s": 1.54,
+   "e": 1.72,
+   "p": 0.99
+  },
+  {
+   "w": "warehouse,",
+   "s": 1.72,
+   "e": 1.94,
+   "p": 1.0
+  },
+  {
+   "w": "so",
+   "s": 2.54,
+   "e": 2.78,
+   "p": 0.99
+  },
+  {
+   "w": "how",
+   "s": 2.78,
+   "e": 2.92,
+   "p": 0.99
+  },
+  {
+   "w": "does",
+   "s": 2.92,
+   "e": 3.04,
+   "p": 1.0
+  },
+  {
+   "w": "a",
+   "s": 3.04,
+   "e": 3.12,
+   "p": 0.99
+  },
+  {
+   "w": "robot",
+   "s": 3.12,
+   "e": 3.4,
+   "p": 1.0
+  },
+  {
+   "w": "know",
+   "s": 3.4,
+   "e": 3.72,
+   "p": 1.0
+  },
+  {
+   "w": "where",
+   "s": 3.72,
+   "e": 3.9,
+   "p": 1.0
+  },
+  {
+   "w": "it",
+   "s": 3.9,
+   "e": 3.98,
+   "p": 1.0
+  },
+  {
+   "w": "is?",
+   "s": 3.98,
+   "e": 4.2,
+   "p": 1.0
+  },
+  {
+   "w": "A",
+   "s": 4.76,
+   "e": 4.8,
+   "p": 0.95
+  },
+  {
+   "w": "LiDAR",
+   "s": 4.8,
+   "e": 5.26,
+   "p": 0.77
+  },
+  {
+   "w": "-equipped",
+   "s": 5.26,
+   "e": 5.42,
+   "p": 0.83
+  },
+  {
+   "w": "robot",
+   "s": 5.42,
+   "e": 5.94,
+   "p": 1.0
+  },
+  {
+   "w": "sends",
+   "s": 5.94,
+   "e": 6.32,
+   "p": 0.99
+  },
+  {
+   "w": "out",
+   "s": 6.32,
+   "e": 6.56,
+   "p": 1.0
+  },
+  {
+   "w": "laser",
+   "s": 6.56,
+   "e": 6.78,
+   "p": 1.0
+  },
+  {
+   "w": "pulses",
+   "s": 6.78,
+   "e": 7.24,
+   "p": 1.0
+  },
+  {
+   "w": "and",
+   "s": 7.24,
+   "e": 8.0,
+   "p": 0.84
+  },
+  {
+   "w": "times",
+   "s": 8.0,
+   "e": 8.2,
+   "p": 0.97
+  },
+  {
+   "w": "their",
+   "s": 8.2,
+   "e": 8.5,
+   "p": 0.99
+  },
+  {
+   "w": "reflections.",
+   "s": 8.5,
+   "e": 8.96,
+   "p": 0.99
+  },
+  {
+   "w": "Those",
+   "s": 9.64,
+   "e": 9.78,
+   "p": 0.99
+  },
+  {
+   "w": "distances",
+   "s": 9.78,
+   "e": 10.22,
+   "p": 1.0
+  },
+  {
+   "w": "outline",
+   "s": 10.22,
+   "e": 10.8,
+   "p": 0.97
+  },
+  {
+   "w": "nearby",
+   "s": 10.8,
+   "e": 11.2,
+   "p": 1.0
+  },
+  {
+   "w": "walls",
+   "s": 11.2,
+   "e": 11.74,
+   "p": 1.0
+  },
+  {
+   "w": "and",
+   "s": 11.74,
+   "e": 11.98,
+   "p": 1.0
+  },
+  {
+   "w": "shelves.",
+   "s": 11.98,
+   "e": 12.16,
+   "p": 1.0
+  },
+  {
+   "w": "It",
+   "s": 12.94,
+   "e": 12.96,
+   "p": 0.95
+  },
+  {
+   "w": "builds",
+   "s": 12.96,
+   "e": 13.14,
+   "p": 0.98
+  },
+  {
+   "w": "a",
+   "s": 13.14,
+   "e": 13.34,
+   "p": 0.95
+  },
+  {
+   "w": "map,",
+   "s": 13.34,
+   "e": 13.54,
+   "p": 1.0
+  },
+  {
+   "w": "then",
+   "s": 14.04,
+   "e": 14.24,
+   "p": 1.0
+  },
+  {
+   "w": "matches",
+   "s": 14.24,
+   "e": 14.58,
+   "p": 0.99
+  },
+  {
+   "w": "fresh",
+   "s": 14.58,
+   "e": 14.88,
+   "p": 0.95
+  },
+  {
+   "w": "measurements",
+   "s": 14.88,
+   "e": 15.4,
+   "p": 1.0
+  },
+  {
+   "w": "to",
+   "s": 15.4,
+   "e": 15.7,
+   "p": 1.0
+  },
+  {
+   "w": "that",
+   "s": 15.7,
+   "e": 15.82,
+   "p": 0.99
+  },
+  {
+   "w": "map",
+   "s": 15.82,
+   "e": 16.02,
+   "p": 1.0
+  },
+  {
+   "w": "to",
+   "s": 16.02,
+   "e": 16.34,
+   "p": 0.99
+  },
+  {
+   "w": "estimate",
+   "s": 16.34,
+   "e": 16.6,
+   "p": 1.0
+  },
+  {
+   "w": "its",
+   "s": 16.6,
+   "e": 16.96,
+   "p": 0.97
+  },
+  {
+   "w": "position,",
+   "s": 16.96,
+   "e": 17.42,
+   "p": 1.0
+  },
+  {
+   "w": "mapping",
+   "s": 17.94,
+   "e": 18.12,
+   "p": 0.99
+  },
+  {
+   "w": "and",
+   "s": 18.12,
+   "e": 18.42,
+   "p": 0.99
+  },
+  {
+   "w": "locating,",
+   "s": 18.42,
+   "e": 18.7,
+   "p": 1.0
+  },
+  {
+   "w": "working",
+   "s": 19.34,
+   "e": 19.5,
+   "p": 1.0
+  },
+  {
+   "w": "together.",
+   "s": 19.5,
+   "e": 19.84,
+   "p": 1.0
+  },
+  {
+   "w": "Move",
+   "s": 20.64,
+   "e": 20.64,
+   "p": 0.99
+  },
+  {
+   "w": "a",
+   "s": 20.64,
+   "e": 20.74,
+   "p": 1.0
+  },
+  {
+   "w": "crate",
+   "s": 20.74,
+   "e": 20.98,
+   "p": 0.89
+  },
+  {
+   "w": "and",
+   "s": 20.98,
+   "e": 21.42,
+   "p": 0.81
+  },
+  {
+   "w": "new",
+   "s": 21.42,
+   "e": 21.58,
+   "p": 1.0
+  },
+  {
+   "w": "measurements",
+   "s": 21.58,
+   "e": 21.9,
+   "p": 1.0
+  },
+  {
+   "w": "reveal",
+   "s": 21.9,
+   "e": 22.36,
+   "p": 0.99
+  },
+  {
+   "w": "it,",
+   "s": 22.36,
+   "e": 22.66,
+   "p": 1.0
+  },
+  {
+   "w": "so",
+   "s": 22.94,
+   "e": 23.1,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 23.1,
+   "e": 23.22,
+   "p": 1.0
+  },
+  {
+   "w": "robot",
+   "s": 23.22,
+   "e": 23.42,
+   "p": 1.0
+  },
+  {
+   "w": "can",
+   "s": 23.42,
+   "e": 23.8,
+   "p": 1.0
+  },
+  {
+   "w": "plan",
+   "s": 23.8,
+   "e": 24.02,
+   "p": 0.99
+  },
+  {
+   "w": "around",
+   "s": 24.02,
+   "e": 24.32,
+   "p": 1.0
+  },
+  {
+   "w": "it.",
+   "s": 24.32,
+   "e": 24.54,
+   "p": 1.0
+  },
+  {
+   "w": "Follow",
+   "s": 26.29,
+   "e": 26.83,
+   "p": 0.99
+  },
+  {
+   "w": "media",
+   "s": 26.83,
+   "e": 27.09,
+   "p": 0.63
+  },
+  {
+   "w": "diet",
+   "s": 27.09,
+   "e": 27.41,
+   "p": 0.94
+  },
+  {
+   "w": "for",
+   "s": 27.41,
+   "e": 27.85,
+   "p": 0.75
+  },
+  {
+   "w": "technology",
+   "s": 27.85,
+   "e": 28.23,
+   "p": 0.87
+  },
+  {
+   "w": "explained.",
+   "s": 28.23,
+   "e": 28.73,
+   "p": 0.99
+  }
+ ]
+}

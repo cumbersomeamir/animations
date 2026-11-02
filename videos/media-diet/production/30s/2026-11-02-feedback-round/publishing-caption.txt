@@ -1,0 +1,12 @@
+How does a warehouse robot know where it is when GPS struggles indoors?
+
+A lidar-equipped robot sends out laser pulses and times their reflections. Those distances outline the walls and shelves around it. It builds a map, then matches fresh measurements to that map to estimate its position: mapping and locating working together. Move a crate into its way, and new measurements reveal it, so the robot can plan a route around it. (Some robots use other sensors, too.)
+
+Sources:
+GPS.gov, GPS accuracy (indoor use and building blockage degrade GPS): https://archive.gps.gov/systems/gps/performance/accuracy/
+NOAA, What is LIDAR?: https://geodesy.noaa.gov/INFO/facts/lidar.shtml
+USGS Open-File Report 2025-1017 (lidar records the return time of reflected pulses): https://pubs.usgs.gov/publication/ofr20251017/full
+Durrant-Whyte & Bailey, SLAM tutorial Part I (IEEE RAM 2006): https://doi.org/10.1109/MRA.2006.1638022
+Nav2 AMCL (localisation in a known map with a 2D laser scanner): https://index.ros.org/p/nav2_amcl/
+
+#Robotics #Lidar #TechExplained #MediaDiet

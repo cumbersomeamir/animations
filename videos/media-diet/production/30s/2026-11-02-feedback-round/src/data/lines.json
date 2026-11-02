@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "GPS struggles inside a warehouse.",
+  "duration": 2.103,
+  "words": 5
+ },
+ {
+  "id": "V2",
+  "say": "So how does a robot know where it is?",
+  "duration": 1.755,
+  "words": 9
+ },
+ {
+  "id": "V3",
+  "say": "A lidar-equipped robot sends out laser pulses and times their reflections.",
+  "duration": 4.639,
+  "words": 11
+ },
+ {
+  "id": "V4",
+  "say": "Those distances outline nearby walls and shelves.",
+  "duration": 2.879,
+  "words": 7
+ },
+ {
+  "id": "V5",
+  "say": "It builds a map, then matches fresh measurements to that map to estimate its position.",
+  "duration": 4.75,
+  "words": 15
+ },
+ {
+  "id": "V6",
+  "say": "Mapping and locating, working together.",
+  "duration": 2.205,
+  "words": 5
+ },
+ {
+  "id": "V7",
+  "say": "Move a crate, and new measurements reveal it, so the robot can plan around it.",
+  "duration": 4.185,
+  "words": 15
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for technology explained.",
+  "duration": 2.633,
+  "words": 6
+ }
+]

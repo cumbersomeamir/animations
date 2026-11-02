@@ -1,0 +1,210 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.25,
+   "say": "GPS struggles inside a warehouse.",
+   "cues": [
+    [
+     "GPS struggles",
+     "inside a warehouse."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 2.65,
+   "say": "So how does a robot know where it is?",
+   "cues": [
+    [
+     "So how does a robot",
+     "know where it is?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 4.75,
+   "say": "A lidar-equipped robot sends out laser pulses and times their reflections.",
+   "cues": [
+    [
+     "A lidar-equipped robot",
+     "sends out laser pulses"
+    ],
+    [
+     "and times",
+     "their reflections."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 9.7,
+   "say": "Those distances outline nearby walls and shelves.",
+   "cues": [
+    [
+     "Those distances outline",
+     "nearby walls and shelves."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 12.9,
+   "say": "It builds a map, then matches fresh measurements to that map to estimate its position.",
+   "cues": [
+    [
+     "It builds a map,"
+    ],
+    [
+     "then matches fresh",
+     "measurements to that map"
+    ],
+    [
+     "to estimate",
+     "its position."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 17.95,
+   "say": "Mapping and locating, working together.",
+   "cues": [
+    [
+     "Mapping and locating,",
+     "working together."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 20.5,
+   "say": "Move a crate, and new measurements reveal it, so the robot can plan around it.",
+   "cues": [
+    [
+     "Move a crate, and new",
+     "measurements reveal it,"
+    ],
+    [
+     "so the robot can",
+     "plan around it."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.6,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 4.6,
+   "name": "exterior, low angle: GPS signal fades at the roof; roof lifts"
+  },
+  {
+   "id": "S2",
+   "in": 4.6,
+   "out": 9.6,
+   "name": "interior, low angle at robot: one pulse out and back, then one 360\u00b0 scan"
+  },
+  {
+   "id": "S3",
+   "in": 9.6,
+   "out": 12.8,
+   "name": "overhead: scan points outline walls and shelves"
+  },
+  {
+   "id": "S4",
+   "in": 12.8,
+   "out": 17.9,
+   "name": "high 3/4: map sheet unfolds; fresh scan; shelf corners matched; position pin"
+  },
+  {
+   "id": "S5",
+   "in": 17.9,
+   "out": 20.3,
+   "name": "closer on sheet + robot: robot moves, pin follows (mapping + locating)"
+  },
+  {
+   "id": "S6",
+   "in": 20.3,
+   "out": 22.6,
+   "name": "low angle along aisle: crate slides into the route; scan hits it"
+  },
+  {
+   "id": "S7",
+   "in": 22.6,
+   "out": 26.4,
+   "name": "overhead: path re-routes around the crate; robot drives"
+  },
+  {
+   "id": "S8",
+   "in": 26.4,
+   "out": 30.0,
+   "name": "hero pull-back: robot at the flag; Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "signal": 0.3,
+  "signalFade": 1.4,
+  "roofLift": 2.85,
+  "roofGone": 4.3,
+  "query": 3.6,
+  "pulseOut": 6.55,
+  "pulseHit": 7.05,
+  "pulseBack": 7.55,
+  "sweep": 8.05,
+  "sweepEnd": 9.45,
+  "outline": 10.0,
+  "outlineEnd": 12.2,
+  "unfold": 12.95,
+  "unfoldEnd": 14.3,
+  "move1": 14.4,
+  "move1End": 15.2,
+  "sweep2": 15.25,
+  "sweep2End": 16.05,
+  "match": 16.15,
+  "pin": 16.7,
+  "move2": 18.3,
+  "move2End": 19.6,
+  "path": 20.35,
+  "crate": 20.6,
+  "crateEnd": 21.35,
+  "sweep3": 21.6,
+  "sweep3End": 22.4,
+  "reroute": 22.75,
+  "rerouteEnd": 23.5,
+  "drive": 23.6,
+  "driveEnd": 26.2,
+  "sign": 26.5
+ }
+}

@@ -1,0 +1,109 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "GPS struggles",
+   "inside a warehouse."
+  ],
+  "in": 0.17,
+  "out": 2.55
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "So how does a robot",
+   "know where it is?"
+  ],
+  "in": 2.57,
+  "out": 4.65
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "A lidar-equipped robot",
+   "sends out laser pulses"
+  ],
+  "in": 4.67,
+  "out": 7.725
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "and times",
+   "their reflections."
+  ],
+  "in": 7.745,
+  "out": 9.6
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Those distances outline",
+   "nearby walls and shelves."
+  ],
+  "in": 9.62,
+  "out": 12.8
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "It builds a map,"
+  ],
+  "in": 12.82,
+  "out": 13.85
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "then matches fresh",
+   "measurements to that map"
+  ],
+  "in": 13.87,
+  "out": 16.21
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "to estimate",
+   "its position."
+  ],
+  "in": 16.23,
+  "out": 17.85
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Mapping and locating,",
+   "working together."
+  ],
+  "in": 17.87,
+  "out": 20.4
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Move a crate, and new",
+   "measurements reveal it,"
+  ],
+  "in": 20.42,
+  "out": 22.85
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "so the robot can",
+   "plan around it."
+  ],
+  "in": 22.87,
+  "out": 24.985
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 26.52,
+  "out": 29.533
+ }
+]
