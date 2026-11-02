@@ -1,0 +1,66 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.1,
+        6.24
+      ],
+      "script": "Volkswagen's 1959 campaign put a tiny car above two words: Think small.",
+      "heard": "Volkswagen's 1959 campaign put a tiny car above two words. Think small.",
+      "words": "11/11"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        6.3,
+        10.44
+      ],
+      "script": "Instead of pretending the car was bigger, it made smallness the point.",
+      "heard": "Instead of pretending the car was bigger, it made smallness the point.",
+      "words": "12/12"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        10.5,
+        16.4
+      ],
+      "script": "White space, plain words and a modest photo stood out when most cars were bigger and flashier.",
+      "heard": "White space, plain words, and a modest photo stood out when most cars were bigger and flashier.",
+      "words": "17/17"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        16.5,
+        19.02
+      ],
+      "script": "The lesson is not to copy that layout.",
+      "heard": "The lesson is not to copy that layout.",
+      "words": "8/8"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        19.05,
+        24.66
+      ],
+      "script": "Find a real trade-off your product makes, then show why the right customer might prefer it.",
+      "heard": "Find a real trade-off your product makes. Then show why the right customer might prefer it.",
+      "words": "17/17"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        25.15,
+        28.23
+      ],
+      "script": "A limitation can become a reason to choose.",
+      "heard": "A limitation can become a reason to choose.",
+      "words": "8/8"
+    }
+  ],
+  "full": "Volkswagen's 1959 campaign put a tiny car above two words. Think small. Instead of pretending the car was bigger, it made smallness the point. White space, plain words, and a modest photo stood out when most cars were bigger and flashier. The lesson is not to copy that layout. Find a real trade-off your product makes, then show why the right customer might prefer it. A limitation can become a reason to choose."
+}

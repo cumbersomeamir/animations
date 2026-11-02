@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080,height=1920">
+<title>Werbens 30s Production 02</title>
+<style>
+  @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf); }
+  @font-face { font-family: "IDBlack"; src: url(/fonts/InterDisplay-Black.otf); }
+  @font-face { font-family: "ISB"; src: url(/fonts/Inter-SemiBold.otf); }
+  @font-face { font-family: "IB"; src: url(/fonts/Inter-Bold.otf); }
+  :root { --violet: #6234FB; --violet2: #4A1FD6; --lav: #CCC0F7; --pale: #F0EAFC; --ink: #1B1433; --line: #E3DCF8; }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #24116E; }
+  * { box-sizing: border-box; }
+  #film { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; }
+  #world { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 0 0; }
+  #wall { position: absolute; inset: 0; background:
+      radial-gradient(900px 700px at 85% 20%, rgba(204,192,247,0.5), rgba(204,192,247,0) 70%),
+      radial-gradient(800px 900px at 10% 85%, rgba(240,234,252,0.32), rgba(240,234,252,0) 70%),
+      linear-gradient(190deg, #2A137A 0%, #4A1FD6 40%, #6234FB 64%, #8C6CFB 100%); }
+  #win { position: absolute; left: 60px; top: 500px; width: 960px; height: 960px; border-radius: 22px; background: #FBFAFF;
+         box-shadow: 0 40px 90px rgba(10,4,40,0.55), 0 8px 24px rgba(10,4,40,0.35), 0 0 0 1px rgba(255,255,255,0.5); overflow: hidden; }
+  .titlebar { position: absolute; left: 0; right: 0; top: 0; height: 46px; background: #F3EFFD; border-bottom: 1px solid var(--line); }
+  .titlebar .dots { position: absolute; left: 20px; top: 16px; display: flex; gap: 9px; }
+  .titlebar .dots i { width: 14px; height: 14px; border-radius: 50%; background: #D8CFF6; display: block; }
+  .titlebar .dots i:first-child { background: #B9A8F5; }
+  .titlebar .title { position: absolute; left: 0; right: 0; top: 13px; text-align: center; font: 17px/20px "ISB"; color: #4C4470; }
+  .titlebar .tag { position: absolute; right: 16px; top: 11px; padding: 3px 10px 4px; border-radius: 10px; background: #E9E2FD; font: 13px/17px "IB"; color: #5A4E8E; letter-spacing: 0.3px; }
+  .toolbar { position: absolute; left: 0; right: 0; top: 46px; height: 52px; border-bottom: 1px solid var(--line); background: #FBFAFF; display: flex; align-items: center; gap: 9px; padding-left: 20px; }
+  .step { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px 1px 9px; border-radius: 16px; background: #F1ECFE; font: 15px/1 "ISB"; color: #6E6790; white-space: nowrap; }
+  .step b { display: inline-flex; width: 21px; height: 21px; border-radius: 50%; align-items: center; justify-content: center; background: #DCD3FA; font: 11px/1 "IB"; color: #4A1FD6; }
+  .step.on { background: var(--violet); color: #fff; } .step.on b { background: #fff; color: var(--violet); } .step.done b { background: #4A1FD6; color: #fff; }
+  #cmp { position: absolute; right: 16px; top: 10px; height: 32px; padding: 0 12px; border-radius: 9px; border: 1.5px solid #D6CDF6; font: 15px/29px "IB"; color: #6E6790; background: #fff; }
+  #cmp.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  #tabs { position: absolute; left: 24px; right: 24px; top: 108px; height: 36px; display: flex; gap: 8px; }
+  .tab { height: 36px; padding: 0 14px; border-radius: 10px 10px 0 0; background: #EEE9FC; font: 15px/36px "ISB"; color: #7B739F; white-space: nowrap; }
+  .tab.on { background: #fff; color: var(--ink); box-shadow: 0 -1px 0 var(--line) inset; border: 1px solid var(--line); border-bottom: none; }
+  #pages { position: absolute; left: 24px; top: 152px; width: 912px; height: 752px; }
+  .page { position: absolute; left: 0; top: 0; width: 568px; height: 744px; background: #FFFFFF; border: 1px solid #E5DFF7; box-shadow: 0 10px 30px rgba(60,30,160,0.12); transform-origin: 0 0; overflow: hidden; }
+  .plabel { position: absolute; left: 14px; right: 14px; top: 12px; font: 12px/14px "IB"; letter-spacing: 0.9px; color: #A49CC6; }
+  /* reconstruction */
+  #car { position: absolute; left: 150px; top: 150px; width: 110px; height: 52px; transform-origin: 0 0; }
+  #handle { position: absolute; width: 16px; height: 16px; border-radius: 4px; background: #fff; border: 3px solid var(--violet); }
+  #selbox { position: absolute; border: 2px solid var(--violet); }
+  #headA { position: absolute; left: 0; right: 0; top: 540px; text-align: center; font: 44px/52px "IDBlack"; letter-spacing: -0.5px; color: #1B1433; white-space: nowrap; }
+  .copyA { position: absolute; top: 612px; width: 150px; }
+  .copyA i { display: block; height: 7px; border-radius: 4px; background: #CFCADC; margin-bottom: 9px; }
+  #logoA { position: absolute; left: 446px; top: 664px; width: 34px; height: 34px; border-radius: 50%; border: 3px solid #CFCADC; }
+  .ann { position: absolute; border: 2.5px dashed var(--violet); border-radius: 10px; background: rgba(98,52,251,0.05); }
+  .atag { position: absolute; height: 34px; padding: 0 12px; border-radius: 10px; background: var(--violet); color: #fff; font: 15px/34px "IB"; letter-spacing: 0.8px; white-space: nowrap; box-shadow: 0 6px 16px rgba(60,30,160,0.3); }
+  #ring { position: absolute; border-radius: 50%; border: 4px solid var(--violet); box-shadow: 0 0 0 8px rgba(98,52,251,0.15); }
+  /* generic loud layout */
+  #pageB { background: linear-gradient(160deg, #3A18B8, #6234FB 55%, #8C6CFB); }
+  #pageB .plabel { color: rgba(255,255,255,0.75); }
+  #loudHead { position: absolute; left: 22px; right: 18px; top: 46px; font: 64px/62px "IDBlack"; color: #fff; letter-spacing: -1px; transform: skewX(-8deg); text-shadow: 4px 4px 0 #1B1433; }
+  #loudHead span { display: block; }
+  #loudCar { position: absolute; left: 20px; top: 300px; transform-origin: 50% 100%; }
+  .burst { position: absolute; }
+  #loudBadges { position: absolute; left: 24px; right: 24px; top: 560px; display: flex; flex-wrap: wrap; gap: 10px; }
+  #loudBadges b { padding: 8px 14px; border-radius: 20px; background: #fff; color: #4A1FD6; font: 20px/24px "IDBlack"; transform: rotate(-3deg); }
+  #loudBadges b:nth-child(2n) { background: #1B1433; color: #fff; transform: rotate(4deg); }
+  /* your product / compact tool */
+  #pageC .blank { position: absolute; inset: 60px 30px 30px; border: 3px dashed #DCD4F7; border-radius: 14px; display: flex; align-items: center; justify-content: center; font: 24px/30px "ISB"; color: #B3AAD8; }
+  #tool { position: absolute; left: 134px; top: 110px; transform-origin: 50% 50%; }
+  #tagLim { position: absolute; left: 40px; top: 382px; height: 40px; padding: 0 14px; border-radius: 12px; font: 16px/40px "IB"; letter-spacing: 0.6px; white-space: nowrap; transform-origin: 50% 50%; }
+  #headC { position: absolute; left: 36px; right: 30px; top: 432px; min-height: 110px; padding: 6px 8px; border-radius: 10px; border: 2px solid transparent; font: 44px/50px "IDXB"; letter-spacing: -0.8px; color: var(--ink); }
+  #headC.sel { border-color: var(--violet); }
+  #subC { position: absolute; left: 44px; right: 30px; top: 560px; font: 19px/26px "ISB"; color: #6E6790; }
+  #brandC { position: absolute; left: 44px; right: 30px; top: 646px; border-top: 1px solid var(--line); padding-top: 14px; }
+  #brandC .wm { font: 26px/30px "IDBlack"; letter-spacing: 2px; color: var(--ink); } #brandC .fic { font: 14px/18px "ISB"; color: #8A82AE; margin-top: 4px; }
+  #ghost { position: absolute; width: 180px; height: 236px; border: 2.5px dashed var(--violet); border-radius: 8px; background: rgba(255,255,255,0.85); transform-origin: 50% 50%; z-index: 30; }
+  #ghost i { position: absolute; display: block; border-radius: 3px; background: #CFCADC; }
+  /* inspector */
+  #insp { position: absolute; left: 616px; top: 152px; width: 320px; height: 744px; }
+  #insp .ph { font: 14px/18px "IB"; letter-spacing: 1.4px; color: #9A92BD; margin: 2px 0 10px 2px; }
+  .icard { position: relative; border-radius: 14px; background: #fff; border: 1px solid var(--line); box-shadow: 0 6px 18px rgba(60,30,160,0.08); padding: 12px 14px; margin-bottom: 12px; }
+  .icard .tg { display: inline-block; padding: 4px 9px 5px; border-radius: 8px; font: 12px/13px "IB"; letter-spacing: 1.1px; color: #fff; background: var(--violet); }
+  .icard .tg.alt { background: #1B1433; } .icard .tg.soft { background: #E3DBFD; color: #4A1FD6; }
+  .icard .t { margin-top: 7px; font: 20px/25px "IDXB"; color: var(--ink); }
+  .icard .s { margin-top: 3px; font: 14px/18px "ISB"; color: #8A82AE; }
+  .icard.empty { background: transparent; border: 2px dashed #CFC5F4; box-shadow: none; } .icard.empty .t { color: #B9B0DA; }
+  .asset { height: 86px; display: flex; align-items: center; gap: 12px; }
+  .layer { display: flex; align-items: center; gap: 10px; height: 38px; font: 17px/21px "ISB"; color: #4C4470; }
+  .layer i { width: 22px; height: 22px; border-radius: 6px; border: 2px solid #CFC5F4; display: inline-flex; align-items: center; justify-content: center; font: 15px/1 "IB"; color: #fff; font-style: normal; }
+  .layer.ok i { background: var(--violet); border-color: var(--violet); }
+  .statusbar { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; border-top: 1px solid var(--line); background: #F6F2FE; }
+  .statusbar .sig { position: absolute; left: 18px; top: 9px; display: flex; align-items: center; gap: 9px; font: 15px/22px "ISB"; color: #6E6790; }
+  .statusbar .sig img { width: 22px; height: 22px; border-radius: 6px; }
+  .statusbar .rt { position: absolute; right: 18px; top: 10px; font: 14px/20px "ISB"; color: #9A92BD; }
+  svg#links { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; pointer-events: none; z-index: 30; }
+  #dragCar { position: absolute; z-index: 45; }
+  canvas#mascot { position: absolute; image-rendering: pixelated; image-rendering: crisp-edges; z-index: 40; }
+  #props { position: absolute; left: 0; top: 0; z-index: 41; } #props canvas { position: absolute; image-rendering: pixelated; }
+  #cursor { position: absolute; width: 34px; height: 44px; z-index: 50; transform-origin: 3px 3px; }
+  #ripple { position: absolute; width: 60px; height: 60px; margin: -30px 0 0 -30px; border-radius: 50%; border: 3px solid rgba(98,52,251,0.7); z-index: 49; }
+  #vign { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(520px 360px at 50% 51%, rgba(10,4,40,0) 55%, rgba(10,4,40,0.62) 100%); }
+  #dim { position: absolute; inset: 0; pointer-events: none; background: #0A0428; }
+  #cap { position: absolute; left: 80px; right: 80px; top: 330px; height: 160px; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+  #cap .pill { padding: 10px 30px 12px; border-radius: 30px; background: rgba(251,249,255,0.86); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+               border: 1.5px solid rgba(98,52,251,0.22); box-shadow: 0 14px 40px rgba(10,4,40,0.28); text-align: center; max-width: 920px; }
+  #cap .ln { display: block; font: 50px/58px "IDXB"; letter-spacing: -0.8px; color: var(--ink); white-space: nowrap; }
+  #cap .w { display: inline-block; margin: 0 0.11em; } #cap .w.hi { color: var(--violet); }
+  #keys { position: absolute; left: 50%; top: 1494px; transform: translateX(-50%); height: 58px; padding: 0 12px; border-radius: 16px; background: rgba(20,10,52,0.78);
+          backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+  #keys .k { min-width: 40px; height: 40px; padding: 0 10px; border-radius: 9px; background: #F0EAFC; color: var(--ink); font: 22px/40px "IB"; text-align: center; box-shadow: inset 0 -3px 0 #CFC5F4; }
+  #keys .txt { font: 24px/40px "IB"; color: #fff; padding: 0 6px; }
+</style>
+<svg width="0" height="0" style="position:absolute"><filter id="mb" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur id="mbBlur" stdDeviation="0 0"/></filter></svg>
+</head>
+<body>
+<div id="film"><div id="world">
+  <div id="wall"></div>
+  <div id="win">
+    <div class="titlebar"><div class="dots"><i></i><i></i><i></i></div><div class="title">Campaign Board — The ad that admits a weakness</div><div class="tag">ILLUSTRATIVE MOCK-UP</div></div>
+    <div class="toolbar"><div class="step" id="st1"><b>01</b>Reconstruct</div><div class="step" id="st2"><b>02</b>Anatomy</div><div class="step" id="st3"><b>03</b>Contrast</div><div class="step" id="st4"><b>04</b>Trade-off</div><div id="cmp">Compare</div></div>
+    <div id="tabs"><div class="tab" id="tabA">1959 layout · reconstruction</div><div class="tab" id="tabB">Generic loud layout</div><div class="tab" id="tabC">Your product</div></div>
+    <div id="pages">
+      <div class="page" id="pageA">
+        <div class="plabel">ANALYTICAL RECONSTRUCTION OF THE 1959 LAYOUT · NOT THE ORIGINAL AD</div>
+        <div id="car"></div>
+        <div id="headA"></div>
+        <div class="copyA" style="left:70px"></div><div class="copyA" style="left:238px"></div><div class="copyA" style="left:406px"></div>
+        <div id="logoA"></div>
+        <div class="ann" id="anWS" style="left:30px;top:230px;width:508px;height:290px"></div><div class="atag" id="tWS" style="left:200px;top:358px">WHITE SPACE</div>
+        <div class="ann" id="anPW" style="left:52px;top:530px;width:464px;height:186px"></div><div class="atag" id="tPW" style="left:56px;top:488px">PLAIN WORDS</div>
+        <div class="ann" id="anMP" style="left:136px;top:136px;width:138px;height:80px"></div><div class="atag" id="tMP" style="left:300px;top:156px">MODEST PHOTO</div>
+        <div id="ring"></div><div id="selbox"></div><div id="handle"></div>
+      </div>
+      <div class="page" id="pageB">
+        <div class="plabel">GENERIC COMPARISON LAYOUT · ILLUSTRATIVE · NOT A REAL AD</div>
+        <div id="loudHead"><span>BIGGER!</span><span>BOLDER!</span><span>FLASHIER!</span></div>
+        <div id="loudCar"></div>
+        <div class="burst" id="b1" style="left:392px;top:40px"></div><div class="burst" id="b2" style="left:30px;top:430px"></div>
+        <div id="loudBadges"><b>NEW!</b><b>★★★★★</b><b>MORE CHROME</b><b>LONGER!</b><b>WOW!</b></div>
+      </div>
+      <div class="page" id="pageC">
+        <div class="plabel" id="pcLabel">YOUR PRODUCT</div>
+        <div class="blank" id="pcBlank">Blank page</div>
+        <div id="tool"></div>
+        <div id="tagLim"></div>
+        <div id="headC"></div>
+        <div id="subC">Mini Driver · a deliberately small kit for quick fixes</div>
+        <div id="brandC"><div class="wm">DEMO TOOLS</div><div class="fic">Fictional brand · original illustrative example, not a real product</div></div>
+      </div>
+      <div id="insp">
+        <div id="inspA">
+          <div class="ph">ASSETS</div>
+          <div class="icard asset" id="assetCar"><div id="assetCarSvg"></div><div><div class="t" style="font-size:17px;line-height:21px;margin:0">Car silhouette</div><div class="s">drawn · not a photo</div></div></div>
+          <div class="ph" style="margin-top:16px">LAYOUT ANALYSIS</div>
+          <div class="icard">
+            <div class="layer" id="ly1"><i>✓</i>White space</div>
+            <div class="layer" id="ly2"><i>✓</i>Plain words</div>
+            <div class="layer" id="ly3"><i>✓</i>Modest photo</div>
+          </div>
+          <div class="icard" style="background:#F6F2FF"><div class="s" style="margin:0">Reconstruction for analysis only. Copy is greeked; no figures from the original ad are shown.</div></div>
+        </div>
+        <div id="inspC">
+          <div class="ph">CARDS</div>
+          <div class="icard asset" id="assetTool"><div id="assetToolSvg"></div><div><div class="t" style="font-size:17px;line-height:21px;margin:0">Tool illustration</div><div class="s">drawn · fictional</div></div></div>
+          <div class="icard" id="cTrade"><span class="tg">TRADE-OFF</span><div class="t">Fewer bits than a full kit</div><div class="s">A real limitation</div></div>
+          <div class="icard" id="cCust"><span class="tg alt">RIGHT CUSTOMER</span><div class="t">Bike commuters fixing on the go</div><div class="s">Who might prefer it</div></div>
+          <div class="icard empty" id="cReason"><span class="tg soft">REASON TO CHOOSE</span><div class="t" id="reasonT">—</div></div>
+          <div class="icard"><div class="layer" id="ck1"><i>✓</i>Real trade-off named</div><div class="layer" id="ck2"><i>✓</i>Right customer shown</div><div class="layer" id="ck3"><i>✓</i>No exaggeration</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="statusbar"><div class="sig"><img src="/assets/icon.png" alt="">Werbens · Marketing craft</div><div class="rt" id="saved">Draft</div></div>
+  </div>
+  <div id="ghost"><i style="left:56px;top:40px;width:40px;height:18px;background:#26213A"></i><i style="left:30px;top:168px;width:120px;height:10px;background:#8E88A6"></i><i style="left:20px;top:190px;width:40px;height:5px"></i><i style="left:70px;top:190px;width:40px;height:5px"></i><i style="left:120px;top:190px;width:40px;height:5px"></i></div>
+  <div id="dragCar"></div>
+  <svg id="links"><path id="link" d="" fill="none" stroke="#6234FB" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/></svg>
+  <canvas id="mascot" width="16" height="20"></canvas>
+  <div id="props"></div>
+  <div id="ripple"></div>
+  <svg id="cursor" viewBox="0 0 34 44"><path d="M3 3 L3 34 L11 27 L16.5 39 L22 36.5 L16.6 25 L27 25 Z" fill="#FFFFFF" stroke="#1B1433" stroke-width="2.6" stroke-linejoin="round"/></svg>
+</div></div>
+<div id="vign"></div><div id="dim"></div><div id="cap"></div><div id="keys"></div>
+<script type="module" src="/src/scene.js"></script>
+</body>
+</html>

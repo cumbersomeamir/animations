@@ -1,0 +1,13 @@
+{
+  "name": "werbens-production-30s-02",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 30 s production episode 02 — 'The ad that admits a weakness'. Living Screencast grammar: redrawn 2D HTML/SVG workspace + pixel mascot, rendered offline in headless Chromium.",
+  "type": "module",
+  "scripts": { "build": "bash build.sh", "qa": "bash qa.sh" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "kokoro-js": "1.2.1"
+  }
+}

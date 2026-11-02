@@ -65,3 +65,29 @@ UI greys are lavender-tinted (`#E3DCF8` lines, `#8A82AE` secondary text). Wallpa
 decode, loudness/true peak, 1-fps contact sheet, transition sheet, frames, spectrogram) → `qa_dom.mjs` → `asr_mix.mjs`.
 Inspect transitions + full contact sheet, caption bounds, factual accuracy (claim map), provenance/licensing, audio.
 Publishing: `publishing-caption.txt` — concise English caption + checked source links, no engagement bait.
+
+## Update — batch-02 (2026-11-02): latest user feedback (overrides earlier style details)
+- Keep the approved **violet Living Screencast performer + workspace** (Campaign Board window, Pixel Pip, cursor). Do not
+  introduce new characters; keep the accepted app identity (subtle status-bar signature only).
+- **Historical / real-brand ads:** show only an *original analytical reconstruction*, clearly labelled on screen
+  ("ANALYTICAL RECONSTRUCTION … NOT THE ORIGINAL AD"): drawn silhouettes, layout proportions and greeked copy; never the
+  brand's photo, logo or body copy, and **no performance statistics** (even if the original ad printed some). Short quoted
+  headlines are fine for commentary. Comparisons use a *generic* layout labelled "illustrative, not a real ad".
+- **Verify dates and attributions** against institutional/primary sources before scripting (e.g. German Historical
+  Institute, museum collection records such as The Henry Ford); record exact quotes in the episode file. Fix draft errors
+  (batch-02: the car sits *above* the headline, not beneath it; 1959 is the campaign/account date).
+- Scene language per episode: blank canvas → structure/hierarchy → contrast → original worked example → takeaway freeze →
+  pull-back → mascot sleeps. Transitions are UI-native (asset drag, resize handle, tabs, Compare split view, page swap,
+  rack focus, template ghost) — whip blur only when a cut-across-panes is really needed; slow moves stay sharp.
+- End every lesson with an **original fictional example** (labelled) that applies the idea, not a copy of the case study.
+- Script length: about 65–80 words for 30 s (batch-02: 73 words, 24.7 s of speech); tighten for accuracy before timing.
+
+## Episode log (do not repeat topics)
+| # | Folder | Topic | Case / example |
+|---|---|---|---|
+| 01 | `production/30s/2026-11-02/` | A feature is not yet a benefit | fictional backpack (water-resistant ≠ waterproof) |
+| 02 | `production/30s/2026-11-02-batch-02/` | The ad that admits a weakness | VW "Think small." (1959, DDB) reconstruction → fictional compact tool |
+
+## Pronunciation overrides learned (Kokoro, en-us)
+- `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
+- `tə kˈɑːpi → tˈuː kˈɑːpi` (weak "to" before "copy" was heard as "a copy").

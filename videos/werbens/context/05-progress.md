@@ -32,3 +32,5 @@
 - A separate approved round, production-30s-2026-11-02, delivered a NEW 30 s educational video at
   `production/30s/2026-11-02/werbens-30s-production-01.mp4` (see context/11 and 12). The 30 s promo WIP above remains
   unfinished and was not reused.
+- Batch production-30s-2026-11-02-batch-02 delivered `production/30s/2026-11-02-batch-02/werbens-30s-production-02.mp4`
+  ("The ad that admits a weakness"; see context/11 and 13).
