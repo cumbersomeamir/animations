@@ -1,92 +1,76 @@
-# 11 — Production format: Recall knowledge challenges (durable; for future rounds)
+# 11 — Production format: Recall (durable; current direction for every new Recall video)
 
-Set 2026-11-02 by the user-approved production round `production-30s-2026-11-02`; updated by batch 02
-(`production-30s-2026-11-02-batch-02`). Applies to Recall production
-videos from now on unless a newer brief overrides it. **No automation has been created** (the user said not to yet).
-Relationship to earlier context: 08 (educational strategy, Kip) still holds; this file fixes the production format.
+**Current direction set 2026-11-02 by the user's feedback round (`2026-11-02-feedback-round`). It supersedes all earlier
+format directions.** No automation has been created.
 
-## Channel genre (locked)
-Knowledge challenges and educational questions viewers can try answering. Passive video (not an executable game):
-pose a question, give a real ~2 s prediction pause, then reveal the mechanism with a physical demonstration and a
-short, accurate takeaway. No fake testimonials (e.g. no "perfect-memory child"), no invented health/legal/income claims.
+## Genre (locked)
+**Useful educational stories about technology or how the world works.** Each video follows an everyday problem to the
+mechanism behind it and ends with a clear, practical takeaway a general viewer can use. It is a story, not a quiz.
 
-## Exact skill (read-only art direction)
-- **Microgame Frenzy**: https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microgame/STYLE.md
-  (module `styles/microgame/STYLE.md`; read in full 2026-11-02; DEMO.md and repo code NOT fetched or run).
-- Adopted: command word slams in (~3-frame overshoot), holds, shrinks to a corner tag before the action, and never
-  piles up; fuse timer with one knot per beat; ✓/✗ result stamps; frame-within-the-frame (the challenge tank cabinet);
-  stage badge; tempo grid + cue table first, with picture hits on cues; host tick on the beat; silence before the biggest
-  hit; no fades or blank frames; hard-shadow cards; heavy display face for commands; hero silhouette marks kept;
-  instant replay.
-- Adapted: one medium (tactile clay) instead of a new art style per game, because the brief requires a continuous,
-  coherent scene; the app palette (lime/paper/ink) replaces the skill's saturated party palette; portrait layout
-  instead of a 40%-width game screen; passive question format instead of lives/failure rounds; the hero (Kip) does not
-  speak, and the narrator is the off-screen host; −14.5 LUFS (inside the brief's −14 to −16) instead of exactly −14.
-  Details: `production/30s/2026-11-02/docs/STYLE-ADAPTATION.md`.
+**Retired, do not use again:** the quiz/game-show direction (rounds 01 and 02) — no GUESS/REPLAY/command slams, no
+answer chips, countdowns or fuses, no "grade-N" tests, no lives/stamps game UI, and no Microgame Frenzy home stage. The
+Microgame Frenzy module and its rules in `production/30s/2026-11-02*/docs/STYLE-ADAPTATION.md` are historical only.
 
-## Recurring format (30 s)
-| segment | time | rule |
+## Style
+**Low-poly Everyday Discovery**: the full recipe is in `context/15-style-low-poly-everyday-discovery.md` (the style,
+not a rendering library). In short: a cinematic, flat-shaded low-poly real-world set with warm directional light and real
+depth; one original everyday human, only when the story needs one, acting through reactions (no talking head); hard cuts
+between the person's problem, a readable physical screen and an oversized 3D "mechanism" object; comedic timing; Recall
+lime/off-white accents.
+
+## Every episode (30.000 s)
+| beat | time | rule |
 |---|---|---|
-| hook | 0–3 s | command already slamming (e.g. WATCH!), physical puzzle happens, ✓/✗ stamps |
-| setup | 3–8 s | state what is the same and what is asked; GUESS! command; 2–3 answer chips; **visible think beat: 3.0 s fuse (6 knots on beats) — latest feedback (batch 02); round 01 used 2.0 s** |
-| mechanism | 8–23 s | ANSWER! stab after the silence; one demonstrated mechanism with markers and forces; one twist (e.g. FILL IT!) |
-| takeaway | 23–29 s | restate in one sentence; REPLAY! of the key state if useful; TAKEAWAY chip |
-| end | 29–30 s | button chord, settled frame, small Recall signature; no fade to black |
+| strong opening | 0–3 s | the everyday problem plus the question in one line; something visibly happens |
+| mechanism | 3–14 s | distinct scenes that show the mechanism as it is narrated; a mechanism diagram in 3D |
+| limit / failure | 14–23 s | what breaks it, shown physically, with a reaction beat |
+| takeaway | 23–26 s | the practical rule, shown (not a text slide) |
+| CTA | final 3–4 s | short and natural, e.g. "Follow Recall for …", with a small Recall mark; truthful, no app-capability claims |
+- Narration 55–75 words, concise, no filler or empty motivational claims. Material qualifications go briefly inside the
+  relevant sentence ("some", "may"). No long disclaimers, no fixed percentages unless a source states them exactly,
+  and no universal-behaviour claims.
+- Claims are researched from reliable original sources (inventor, standards body, institutional or textbook pages),
+  recorded in `docs/SOURCES.md` and the publishing copy. Demonstrations that viewers could test (codes, numbers) must
+  be real and verified (e.g. decode a generated QR code with a real decoder). No invented machine-readable result.
+- No invented app capability, guarantee, statistic, income or testimonial.
 
-## Scene language
-- Physical clay miniature on a tabletop; lime cabinet frame around the experiment (frame-within-the-frame); sunburst
-  home-stage backdrop in ink tones with a soft lime glow (rotates slowly, pulses on the beat).
-- Kip (08, model sheet in `education/pilot-01/docs/`) is the silent performer: does the experiment, reacts, ticks on
-  the beat. Not a talking mascot.
-- Forces: directionally correct; magnitudes from cited values; never show an unbalanced pair on a resting object
-  (for resting objects show weight alone, or include the support force).
-- Locked frontal camera with beat-locked push-ins ≤ 6 %; safe areas verified per frame.
-
-## Audio configuration
-- Narration: Kokoro-82M v1.0 ONNX (Apache-2.0) via kokoro-onnx 0.6.1, the agreed channel voice config the user
-  calls "Meshline": blend **af_bella 0.7 + am_puck 0.3**, **speed 0.98**, lang **en-us**. The cached model is reused:
-  model.onnx sha256 8fbea51e…34cb, af_bella.bin f69d8362…5c8b, am_puck.bin fcf73c98…74a0. No Piper, no imitation
-  of named characters.
-- Music: original, synthesised in code, quiet groove (120 BPM in round 01) with brass stabs on commands.
-- Mix: voice up front; music ducked ~11 dB and foley ~6 dB under the voice; integrated −14.5 LUFS (accept −16…−14);
-  true peak ≤ −1 dBTP (4×-oversampled limiter at −1.6 dBTP).
-- One ASR + timing pass (faster-whisper base.en) on the lines and on the final mix; no repeated broad rework.
-
-## Palette (sampled from `assets/icon.png`) and functional colours
-lime `#C7F36B` · paper `#F8FAF3` · ink `#20251B` (icon) · hard-shadow `#0E120B` · sunburst rays `#262E1E`/`#2C3623` ·
-water `#8ED6C4` · steel `#AEB5BA` · tank backing `#23352F`. Success = lime ✓, fail = ink ✗.
+## Delivery spec
+1080×1920, 30 fps, exactly 30.000 s / 900 frames, H.264 yuv420p + AAC 48 kHz stereo.
+Output path: `videos/recall/production/30s/<date-or-round>/recall-30s-<name>.mp4`. Source, notes and QA stay in the repo;
+only finished MP4s go to a local review folder. Re-render if text is small, obstructed or a scene is static. A contact
+sheet, a static page or a page with camera bobbing is never the deliverable.
 
 ## Safe areas (1080×1920)
-| zone | y (px) | content |
-|---|---|---|
-| top clear | 0–300 | backdrop only; no text, UI or bursts (slam burst radius capped) |
-| caption | text ink 350–470 (pill ≈ 324–492) | upper-centre, ≤ 2 short lines, side margins ≥ 80 px, Fredoka 600 auto-fit 54→40 px, key words lime; split word groups at ASR word times |
-| UI row | 500–612 | stage badge / TAKEAWAY chip (left), command tag / signature (right); answer chips + fuse during the guess |
-| subject | 612–1500 | Kip + experiment; verified per frame (Kip's helmet top ≥ 612, tank floor ≤ 1500) |
-| bottom | 1500–1920 | non-essential table only (platform UI overlays) |
-Fonts: Fredoka (OFL) for captions and labels, Titan One (OFL) for command words.
+| zone | rule |
+|---|---|
+| y < 300 | no meaningful text (platform account overlays) |
+| captions | text ink about y 340–520, x 90–990, max 2 readable lines (Fredoka 600 ≥ 46 px), no overlaps |
+| diagrams / screens | crucial diagrams and screen text in the central region (x ≈ 120–960, y ≈ 560–1450), away from side/bottom UI |
+| y > 1500 | nothing essential |
 
-## Production pipeline
-Three.js (npm, pinned) + preinstalled Playwright/Chromium (SwiftShader, ≈2 s/frame); 3 workers; PNG frames → x264
-CRF 17 yuv420p + AAC 192k 48 kHz stereo, `-t` exact duration. Per-frame overlay boxes and safe anchors are logged;
-QA checks ffprobe, frame count, full decode, loudness/true peak, ASR, caption ink bounds, top-clear, subject zone and
-contact/boundary sheets. Deterministic frames allow patching a frame range rather than a full rerender.
+## Audio
+- Narration: Kokoro-82M v1.0 ONNX (Apache-2.0) via kokoro-onnx 0.6.1, the established "Meshline"/Recall voice:
+  **af_bella 0.7 + am_puck 0.3, en-us, speed 0.98**. The cached model is reused (model.onnx sha256 8fbea51e…34cb).
+- Music: subtle, original, no repetitive or distracting loops (evolving pads with sparse, varied notes). Voice is
+  clearly on top. Foley follows the on-screen action.
+- Loudness −14 to −16 LUFS, true peak ≤ −1 dBTP. One ASR + timing pass.
 
-## User feedback log (latest overrides earlier details)
-- **Batch 02 (2026-11-02):** "Keep Microgame Frenzy style" with: a physical, labelled measuring prop (kilogram-labelled
-  balance); a **three-second visible choose/think beat**; a clear physical payoff (equal balance); a second round that
-  flips the condition (same-volume boxes); the video must play independently (no interactive app assumed); word the
-  question precisely (**MASS**, not "heavier"/weight) and avoid side effects that distract (no buoyancy in air);
-  explanations scientifically precise; fresh storyboard with purposeful transitions — never trim or recolour old output;
-  reuse the accepted identity (Kip, palette, stage), no random new characters; research every claim against
-  primary/institutional sources and tighten wording where a term cannot be sourced (e.g. "bulk density" → "as a pile,
-  their density"); 65–80 words narrated naturally in 30 s.
-- **Round 01 (2026-11-02):** knowledge-game show, physical miniature, 2 s prediction pause, displacement markers,
-  physically correct forces, no fake testimonial, verify the core principle.
+## Palette and brand
+Recall accents from `assets/icon.png`: lime `#C7F36B`, paper `#F8FAF3`, ink `#20251B`. The environment uses warm real-world
+neutrals; lime marks the mechanism and the brand. The Recall icon may appear in-world (e.g. as a logo) and in the CTA.
+
+## Pipeline (implementation, not style)
+Three.js (npm, pinned) flat-shaded meshes in preinstalled Playwright/Chromium (SwiftShader), 3 workers; PNG frames → x264
+CRF 17 + AAC 192k with exact `-t`. Per-frame overlay boxes and safe anchors are logged; QA checks ffprobe, frames, full
+decode, loudness, ASR, caption bounds and representative/transition frames.
+
+## History
+- 2026-11-02 round 01 (12) and batch 02 (13): quiz/game-show direction with Microgame Frenzy; retired by this file.
+- 2026-11-02 feedback round 01 (14): first Low-poly Everyday Discovery episode (QR codes and logos).
 
 ## Episodes produced (do not repeat topics)
 | # | topic | output | context |
 |---|---|---|---|
-| 01 | Can you beat this fifth-grade science question? (steel ball sinks, steel ship floats) | `production/30s/2026-11-02/recall-30s-production-01.mp4` | 12 |
-| 02 | Which is heavier: a kilo of steel or feathers? (mass vs volume) | `production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` | 13 |
-
+| 01 | Steel ball sinks, steel ship floats (quiz format, retired) | `production/30s/2026-11-02/recall-30s-production-01.mp4` | 12 |
+| 02 | A kilo of steel vs feathers (quiz format, retired) | `production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` | 13 |
+| F01 | Why QR codes can still scan with a logo in the middle | `production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4` | 14 |

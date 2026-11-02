@@ -1,4 +1,8 @@
-# 08 — Educational channel strategy (active direction)
+# 08 — Educational channel strategy (historical)
+
+> **Superseded for production (2026-11-02 feedback round):** the current direction is context 11 (useful educational
+> stories) with style recipe 15 (Low-poly Everyday Discovery). Kip is no longer the default performer; quiz formats are retired.
+
 
 Received 2026-11-02 (user-approved). **Active direction for Recall short-form video.** Earlier campaign-style
 requirements (02, 04, 06) do not govern educational pilots. Existing work is preserved: the 30 s ad
