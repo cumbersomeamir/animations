@@ -2,3 +2,4 @@ node_modules/
 frames/
 *.tmp.*
 build/
+__pycache__/

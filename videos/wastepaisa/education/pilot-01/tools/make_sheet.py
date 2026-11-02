@@ -42,7 +42,7 @@ pal = [('tin body', '#C4C9CF'), ('label cream', '#F4E7D2'), ('icon orange', '#E8
        ('cardboard', '#A8743F'), ('copper wire', '#C47A42'), ('glove orange', '#EE7A1E'), ('brass loupe', '#C9A14A'), ('ink', '#1D130E')]
 for i, (n, hexv) in enumerate(pal):
     x = 60 + i * 238
-    d.rounded_rectangle((x, y, x + 60, y + 60), 10, fill=hexv)
+    d.rounded_rectangle((x, y, x + 60, y + 60), 10, fill=hexv, outline=(120, 100, 85), width=2)
     d.text((x + 72, y + 6), n, font=f_l, fill=(255, 243, 224)); d.text((x + 72, y + 34), hexv, font=f_s, fill=(200, 180, 160))
 y += 100
 notes = ['Silhouette keys: flipped-up can lid crest · cardboard ear flaps · bead antenna · brass loupe on the right eye · bottle-cap feet.',
