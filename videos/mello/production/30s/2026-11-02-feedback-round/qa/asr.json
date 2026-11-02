@@ -1,0 +1,414 @@
+{
+  "model": "base.en",
+  "transcript": "A thought can sound like a fact. I'll mess this up. Try adding one phrase. I'm noticing the thought that. I'll mess this up. The thought is still there. But now you're observing it, instead of treating it as a prediction. This is a cognitive diffusion technique. You don't have to argue with the thought. Notice it, then choose one small, useful action. Take a mindful break with mellow.",
+  "ref_words": 69,
+  "matched_words": 68,
+  "recall": 0.986,
+  "missing": [
+    "defusion"
+  ],
+  "line_starts": [
+    {
+      "id": "fact",
+      "planned": 0.35,
+      "asr_first_word": 0.0
+    },
+    {
+      "id": "thought",
+      "planned": 2.2,
+      "asr_first_word": 2.3
+    },
+    {
+      "id": "try",
+      "planned": 4.1,
+      "asr_first_word": 3.86
+    },
+    {
+      "id": "notice",
+      "planned": 5.8,
+      "asr_first_word": 5.84
+    },
+    {
+      "id": "thought2",
+      "planned": 7.6,
+      "asr_first_word": 7.46
+    },
+    {
+      "id": "still",
+      "planned": 10.3,
+      "asr_first_word": 9.88
+    },
+    {
+      "id": "observe",
+      "planned": 11.65,
+      "asr_first_word": 11.62
+    },
+    {
+      "id": "name",
+      "planned": 15.95,
+      "asr_first_word": 15.96
+    },
+    {
+      "id": "argue",
+      "planned": 18.95,
+      "asr_first_word": 18.82
+    },
+    {
+      "id": "action",
+      "planned": 21.05,
+      "asr_first_word": 21.06
+    },
+    {
+      "id": "cta",
+      "planned": 26.2,
+      "asr_first_word": 25.84
+    }
+  ],
+  "words": [
+    {
+      "w": "A",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "w": "thought",
+      "start": 0.42,
+      "end": 0.64
+    },
+    {
+      "w": "can",
+      "start": 0.64,
+      "end": 0.82
+    },
+    {
+      "w": "sound",
+      "start": 0.82,
+      "end": 1.06
+    },
+    {
+      "w": "like",
+      "start": 1.06,
+      "end": 1.26
+    },
+    {
+      "w": "a",
+      "start": 1.26,
+      "end": 1.32
+    },
+    {
+      "w": "fact.",
+      "start": 1.32,
+      "end": 1.48
+    },
+    {
+      "w": "I'll",
+      "start": 2.3,
+      "end": 2.32
+    },
+    {
+      "w": "mess",
+      "start": 2.32,
+      "end": 2.48
+    },
+    {
+      "w": "this",
+      "start": 2.48,
+      "end": 2.72
+    },
+    {
+      "w": "up.",
+      "start": 2.72,
+      "end": 2.94
+    },
+    {
+      "w": "Try",
+      "start": 3.86,
+      "end": 4.2
+    },
+    {
+      "w": "adding",
+      "start": 4.2,
+      "end": 4.5
+    },
+    {
+      "w": "one",
+      "start": 4.5,
+      "end": 4.7
+    },
+    {
+      "w": "phrase.",
+      "start": 4.7,
+      "end": 5.02
+    },
+    {
+      "w": "I'm",
+      "start": 5.84,
+      "end": 5.92
+    },
+    {
+      "w": "noticing",
+      "start": 5.92,
+      "end": 6.16
+    },
+    {
+      "w": "the",
+      "start": 6.16,
+      "end": 6.4
+    },
+    {
+      "w": "thought",
+      "start": 6.4,
+      "end": 6.66
+    },
+    {
+      "w": "that.",
+      "start": 6.66,
+      "end": 6.86
+    },
+    {
+      "w": "I'll",
+      "start": 7.46,
+      "end": 7.66
+    },
+    {
+      "w": "mess",
+      "start": 7.66,
+      "end": 7.88
+    },
+    {
+      "w": "this",
+      "start": 7.88,
+      "end": 8.1
+    },
+    {
+      "w": "up.",
+      "start": 8.1,
+      "end": 8.34
+    },
+    {
+      "w": "The",
+      "start": 9.88,
+      "end": 10.34
+    },
+    {
+      "w": "thought",
+      "start": 10.34,
+      "end": 10.6
+    },
+    {
+      "w": "is",
+      "start": 10.6,
+      "end": 10.74
+    },
+    {
+      "w": "still",
+      "start": 10.74,
+      "end": 10.94
+    },
+    {
+      "w": "there.",
+      "start": 10.94,
+      "end": 11.18
+    },
+    {
+      "w": "But",
+      "start": 11.62,
+      "end": 11.7
+    },
+    {
+      "w": "now",
+      "start": 11.7,
+      "end": 11.9
+    },
+    {
+      "w": "you're",
+      "start": 11.9,
+      "end": 12.3
+    },
+    {
+      "w": "observing",
+      "start": 12.3,
+      "end": 12.58
+    },
+    {
+      "w": "it,",
+      "start": 12.58,
+      "end": 12.94
+    },
+    {
+      "w": "instead",
+      "start": 13.22,
+      "end": 13.44
+    },
+    {
+      "w": "of",
+      "start": 13.44,
+      "end": 13.68
+    },
+    {
+      "w": "treating",
+      "start": 13.68,
+      "end": 13.94
+    },
+    {
+      "w": "it",
+      "start": 13.94,
+      "end": 14.22
+    },
+    {
+      "w": "as",
+      "start": 14.22,
+      "end": 14.38
+    },
+    {
+      "w": "a",
+      "start": 14.38,
+      "end": 14.44
+    },
+    {
+      "w": "prediction.",
+      "start": 14.44,
+      "end": 14.7
+    },
+    {
+      "w": "This",
+      "start": 15.96,
+      "end": 16.12
+    },
+    {
+      "w": "is",
+      "start": 16.12,
+      "end": 16.24
+    },
+    {
+      "w": "a",
+      "start": 16.24,
+      "end": 16.34
+    },
+    {
+      "w": "cognitive",
+      "start": 16.34,
+      "end": 16.78
+    },
+    {
+      "w": "diffusion",
+      "start": 16.78,
+      "end": 17.18
+    },
+    {
+      "w": "technique.",
+      "start": 17.18,
+      "end": 17.84
+    },
+    {
+      "w": "You",
+      "start": 18.82,
+      "end": 19.02
+    },
+    {
+      "w": "don't",
+      "start": 19.02,
+      "end": 19.2
+    },
+    {
+      "w": "have",
+      "start": 19.2,
+      "end": 19.34
+    },
+    {
+      "w": "to",
+      "start": 19.34,
+      "end": 19.46
+    },
+    {
+      "w": "argue",
+      "start": 19.46,
+      "end": 19.72
+    },
+    {
+      "w": "with",
+      "start": 19.72,
+      "end": 19.96
+    },
+    {
+      "w": "the",
+      "start": 19.96,
+      "end": 20.04
+    },
+    {
+      "w": "thought.",
+      "start": 20.04,
+      "end": 20.36
+    },
+    {
+      "w": "Notice",
+      "start": 21.06,
+      "end": 21.28
+    },
+    {
+      "w": "it,",
+      "start": 21.28,
+      "end": 21.52
+    },
+    {
+      "w": "then",
+      "start": 21.82,
+      "end": 21.9
+    },
+    {
+      "w": "choose",
+      "start": 21.9,
+      "end": 22.12
+    },
+    {
+      "w": "one",
+      "start": 22.12,
+      "end": 22.36
+    },
+    {
+      "w": "small,",
+      "start": 22.36,
+      "end": 22.76
+    },
+    {
+      "w": "useful",
+      "start": 22.78,
+      "end": 23.16
+    },
+    {
+      "w": "action.",
+      "start": 23.16,
+      "end": 23.5
+    },
+    {
+      "w": "Take",
+      "start": 25.84,
+      "end": 26.32
+    },
+    {
+      "w": "a",
+      "start": 26.32,
+      "end": 26.44
+    },
+    {
+      "w": "mindful",
+      "start": 26.44,
+      "end": 26.7
+    },
+    {
+      "w": "break",
+      "start": 26.7,
+      "end": 27.2
+    },
+    {
+      "w": "with",
+      "start": 27.2,
+      "end": 27.42
+    },
+    {
+      "w": "mellow.",
+      "start": 27.42,
+      "end": 27.82
+    }
+  ]
+}

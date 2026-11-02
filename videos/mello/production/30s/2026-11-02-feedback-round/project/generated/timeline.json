@@ -1,0 +1,133 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "fact",
+      "text": "A thought can sound like a fact:",
+      "start": 0.35,
+      "end": 1.856,
+      "pauses": [
+        [
+          1.672,
+          1.788
+        ]
+      ]
+    },
+    {
+      "id": "thought",
+      "text": "I'll mess this up.",
+      "start": 2.2,
+      "end": 3.11,
+      "pauses": [
+        [
+          2.976,
+          3.052
+        ]
+      ]
+    },
+    {
+      "id": "try",
+      "text": "Try adding one phrase:",
+      "start": 4.1,
+      "end": 5.355,
+      "pauses": []
+    },
+    {
+      "id": "notice",
+      "text": "I'm noticing the thought that,",
+      "start": 5.8,
+      "end": 7.131,
+      "pauses": [
+        [
+          6.719,
+          6.821
+        ]
+      ]
+    },
+    {
+      "id": "thought2",
+      "text": "I'll mess this up.",
+      "start": 7.6,
+      "end": 8.51,
+      "pauses": [
+        [
+          8.376,
+          8.452
+        ]
+      ]
+    },
+    {
+      "id": "still",
+      "text": "The thought is still there,",
+      "start": 10.3,
+      "end": 11.361,
+      "pauses": [
+        [
+          10.404,
+          10.476
+        ]
+      ]
+    },
+    {
+      "id": "observe",
+      "text": "but now you're observing it, instead of treating it as a prediction.",
+      "start": 11.65,
+      "end": 15.127,
+      "pauses": [
+        [
+          13.012,
+          13.315
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "This is a cognitive defusion technique.",
+      "start": 15.95,
+      "end": 18.14,
+      "pauses": [
+        [
+          17.765,
+          17.853
+        ]
+      ]
+    },
+    {
+      "id": "argue",
+      "text": "You don't have to argue with the thought.",
+      "start": 18.95,
+      "end": 20.544,
+      "pauses": []
+    },
+    {
+      "id": "action",
+      "text": "Notice it, then choose one small, useful action.",
+      "start": 21.05,
+      "end": 23.835,
+      "pauses": [
+        [
+          21.574,
+          21.829
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.2,
+      "end": 27.92,
+      "pauses": []
+    }
+  ]
+}

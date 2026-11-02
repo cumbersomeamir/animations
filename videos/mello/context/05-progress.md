@@ -27,3 +27,47 @@
 
 ## Next
 - 30 s production video is done. A separate 15 s geomotion style test is tracked in `07-test-progress.md`.
+
+---
+
+# Feedback round 2026-11-02: episode feedback-01 "A thought is not automatically a fact"
+New isolated Mello Code chat. Durable rules: `10-format-and-style-rules.md`. Episode brief, research and script: `11-episode-thought-is-not-a-fact.md`.
+
+## Verified facts (this round)
+- `assets/listing.json` and `assets/icon.png` hashes match `03-assets.json`. The verified brand accent is lavender #D9BCF5, sampled from the icon. The mint #B6D7C2 comes from an older brief.
+- Technique sources:
+  - Luoma & Hayes, "Cognitive Defusion" (Wiley chapter; lists "I'm having the thought that" and "Just noticing");
+  - NHS Northern Cancer Alliance ACT slides (2023): "I notice that I'm having the thought that…", "We don't argue with the thought";
+  - TherapistAid defusion sheet hosted by Homerton NHS FT.
+- No statistics or outcome claims are used.
+
+## Creative decisions (this round)
+- Style "Thoughts in a Quiet Room": a real 3D miniature (three.js 0.170.0, headless Chromium SwiftShader). Faceless capsule figure, white sweep stage, soft VSM + blob contact shadows, Instrument Serif headlines, lavender only on the thought frame.
+- Five shots: S1 0–3.8, S2 3.8–9.7, S3 9.7–18.6, S4 18.6–24.3, S5 24.3–30.
+- Script: the user's draft, except "This technique is called cognitive defusion" became "This is a cognitive defusion technique". Defusion is the process; this wording is one technique within it.
+- Voice: Kokoro 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98. "defusion" phonemes are forced to /diːˈfjuːʒən/.
+- Music: synthesized pad following story beats, no loops. Bed about 12 dB under the voice; master −16 LUFS.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-02-feedback-round/mello-30s-feedback-01.mp4`
+  - sha256 `e3865266f62d422b9134aa69fd1c96dcd34a43dbf54b652bedd31ea896476f46`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz stereo, 30.000 s.
+- QA (`production/.../qa/QA.md`):
+  - 16/16 automated checks passed: full decode clean; −16.1 LUFS; −1.6 dBTP; cuts on plan; 0 safe-zone issues in 300 samples; ASR recall 98.6 %.
+  - Contact sheet, transition frames and beat frames inspected.
+- Previous MP4 `output/mello-30s.mp4` untouched.
+- Commands:
+  - `cd videos/mello/project && ./setup.sh` (shared venv + Kokoro model, hash-checked)
+  - `cd videos/mello/production/30s/2026-11-02-feedback-round/project && npm ci && ./build.sh`
+  - Optional ASR: `ASR_PY=<venv with faster-whisper==1.1.1>/bin/python ./build.sh`
+  - Preview: `node render.mjs --stills 0,8.6,23.1 --out generated/stills --guides`
+  - Audit only: `node render.mjs --layout ../qa/layout.json`
+- Fix loop: 13 items in `production/.../notes/production-notes.md`. Two full renders: the first failed the layout audit, the second passed.
+
+## Unresolved
+- Nobody has listened to the audio yet; it was checked by measurements, spectrogram and ASR only. ASR spells "defusion" as "diffusion" (its vocabulary prefers the common word) even with the corrected phonemes.
+- "Mello" is pronounced like "mellow"; the official pronunciation is unknown.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for user review before any new episode, and do not start another one unprompted.

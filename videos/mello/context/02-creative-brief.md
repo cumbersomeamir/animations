@@ -1,3 +1,5 @@
+> **Superseded in part (2026-11-02 feedback round):** for format, genre, caption-safe zones, voice/audio and style recipe follow `10-format-and-style-rules.md`; the current episode brief is `11-episode-thought-is-not-a-fact.md`. The stickman direction below is kept as history.
+
 # Creative direction: stickman
 
 Suggested story: A character tangles in looping thought threads, then follows a gently paced breathing guide; calm is shown through relaxed posture.
