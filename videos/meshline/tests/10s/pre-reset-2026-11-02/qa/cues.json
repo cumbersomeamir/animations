@@ -1,0 +1,185 @@
+{
+ "duration": 10,
+ "events": [
+  {
+   "t": 0.25,
+   "type": "pen",
+   "gain": 0.8
+  },
+  {
+   "t": 0.35,
+   "type": "bar0",
+   "gain": 0.5
+  },
+  {
+   "t": 0.5,
+   "type": "bar1",
+   "gain": 0.5
+  },
+  {
+   "t": 0.65,
+   "type": "bar2",
+   "gain": 0.5
+  },
+  {
+   "t": 0.8,
+   "type": "bar3",
+   "gain": 0.5
+  },
+  {
+   "t": 1.85,
+   "type": "stop",
+   "gain": 0.7
+  },
+  {
+   "t": 3,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 3.15,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 3.35,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 3.5,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 3.7,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 3.85,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 4,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 4.15,
+   "type": "pen",
+   "gain": 0.35
+  },
+  {
+   "t": 4.2,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 4.2,
+   "type": "land",
+   "gain": 0.9
+  },
+  {
+   "t": 4.35,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 4.45,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 4.6,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 4.9,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 5,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 5.05,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 5.15,
+   "type": "stop",
+   "gain": 0.3
+  },
+  {
+   "t": 5.2,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 5.62,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 6.04,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 6.46,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 6.88,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 7.3,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 7.72,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 8,
+   "type": "sig",
+   "gain": 0.3
+  },
+  {
+   "t": 8.14,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 8.56,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 8.98,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 9.4,
+   "type": "gate",
+   "gain": 0.35
+  },
+  {
+   "t": 9.82,
+   "type": "gate",
+   "gain": 0.35
+  }
+ ]
+}

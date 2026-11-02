@@ -40,3 +40,10 @@
 ## Next action
 - Await user feedback on Pilot 01: the character, pacing and accuracy framing.
 - Then pick episode 2 from the 10-title list in `08-educational-strategy.md` and reuse `src/cast.mjs`, `src/core.mjs` and the build/QA scripts in a new `education/pilot-02/`.
+
+## Batch 2026-11-02-pre-reset: 10s style test (S14 Transit Map). Done.
+- Output: `videos/meshline/tests/10s/pre-reset-2026-11-02/meshline-10s-test.mp4`, sha256 in `qa/sha256.txt`.
+- Format: 10.000 s, 300 frames, 1080x1920, 30 fps, H.264 + AAC. Full decode OK. −14.0 LUFS / −3.3 dBTP.
+- Voice: Meshline Kokoro blend (0.7 af_bella + 0.3 am_puck, 0.98, en-us). Claim reused from pilot 01 (T-Mobile source).
+- Unresolved: no ASR or listening check; caption plate sits slightly outside the 350–460 band; beat-1 labels are small; no depth of field. See the folder's `QA.md`.
+- Earlier 15s, 30s and pilot-01 work was untouched.
