@@ -1,0 +1,352 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.25
+  },
+  {
+   "id": "l02",
+   "start": 4.1
+  },
+  {
+   "id": "l03",
+   "start": 10.05
+  },
+  {
+   "id": "l04",
+   "start": 14.65
+  },
+  {
+   "id": "l05",
+   "start": 20.1
+  },
+  {
+   "id": "l06",
+   "start": 26.15
+  }
+ ],
+ "shots": [
+  {
+   "id": "card_cu",
+   "t0": 0.0,
+   "t1": 0.85
+  },
+  {
+   "id": "person_cu",
+   "t0": 0.85,
+   "t1": 1.7
+  },
+  {
+   "id": "phone_scan",
+   "t0": 1.7,
+   "t1": 3.3
+  },
+  {
+   "id": "react",
+   "t0": 3.3,
+   "t1": 4.05
+  },
+  {
+   "id": "giant_ec",
+   "t0": 4.05,
+   "t1": 9.4
+  },
+  {
+   "id": "giant_finders",
+   "t0": 9.4,
+   "t1": 12.2
+  },
+  {
+   "id": "phone_orient",
+   "t0": 12.2,
+   "t1": 14.4
+  },
+  {
+   "id": "thumb_ots",
+   "t0": 14.4,
+   "t1": 16.2
+  },
+  {
+   "id": "giant_covered",
+   "t0": 16.2,
+   "t1": 17.9
+  },
+  {
+   "id": "frustrated",
+   "t0": 17.9,
+   "t1": 19.0
+  },
+  {
+   "id": "sticker_ots",
+   "t0": 19.0,
+   "t1": 20.05
+  },
+  {
+   "id": "giant_big",
+   "t0": 20.05,
+   "t1": 21.3
+  },
+  {
+   "id": "deadpan",
+   "t0": 21.3,
+   "t1": 22.7
+  },
+  {
+   "id": "peel_ots",
+   "t0": 22.7,
+   "t1": 24.2
+  },
+  {
+   "id": "phone_success",
+   "t0": 24.2,
+   "t1": 25.3
+  },
+  {
+   "id": "smile",
+   "t0": 25.3,
+   "t1": 26.05
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.05,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "raise": 1.6,
+  "decode1": 2.85,
+  "ecGlow": 4.4,
+  "lift": 6.8,
+  "rebuild0": 7.3,
+  "rebuild1": 8.6,
+  "finder0": 10.25,
+  "finder1": 10.75,
+  "finder2": 11.2,
+  "lockGiant": 11.85,
+  "lockPhone": 12.35,
+  "rotate": 12.9,
+  "thumb": 14.55,
+  "lockFail": 15.4,
+  "shake": 18.1,
+  "slap": 19.25,
+  "bigSlam": 20.15,
+  "peel": 22.9,
+  "decode2": 24.55,
+  "sip": 26.9,
+  "cta": 26.15,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.2,
+   "end": 3.55,
+   "lines": [
+    [
+     [
+      "How can a QR code still work",
+      0
+     ]
+    ],
+    [
+     [
+      "with a ",
+      0
+     ],
+     [
+      "logo in the middle?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.0,
+   "end": 6.75,
+   "lines": [
+    [
+     [
+      "It stores extra",
+      0
+     ]
+    ],
+    [
+     [
+      "error-correction",
+      1
+     ],
+     [
+      " information,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.75,
+   "end": 9.5,
+   "lines": [
+    [
+     [
+      "so a scanner can ",
+      0
+     ],
+     [
+      "rebuild",
+      1
+     ]
+    ],
+    [
+     [
+      "some missing data.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.95,
+   "end": 12.15,
+   "lines": [
+    [
+     [
+      "Those three large",
+      0
+     ]
+    ],
+    [
+     [
+      "corner squares",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.15,
+   "end": 14.4,
+   "lines": [
+    [
+     [
+      "help it ",
+      0
+     ],
+     [
+      "find",
+      1
+     ],
+     [
+      " and ",
+      0
+     ],
+     [
+      "orient",
+      1
+     ]
+    ],
+    [
+     [
+      "the code.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.55,
+   "end": 16.4,
+   "lines": [
+    [
+     [
+      "Cover too much,",
+      0
+     ]
+    ],
+    [
+     [
+      "especially ",
+      0
+     ],
+     [
+      "those markers,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.4,
+   "end": 18.4,
+   "lines": [
+    [
+     [
+      "and it ",
+      0
+     ],
+     [
+      "may fail.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.0,
+   "end": 22.7,
+   "lines": [
+    [
+     [
+      "A bigger logo",
+      0
+     ]
+    ],
+    [
+     [
+      "isn't always better.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.85,
+   "end": 25.95,
+   "lines": [
+    [
+     [
+      "Small logo, ",
+      1
+     ],
+     [
+      "clear corners.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.05,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Follow Recall",
+      1
+     ],
+     [
+      " for the technology",
+      0
+     ]
+    ],
+    [
+     [
+      "hiding in everyday life.",
+      0
+     ]
+    ]
+   ]
+  }
+ ]
+}

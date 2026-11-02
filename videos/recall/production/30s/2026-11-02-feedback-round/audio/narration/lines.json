@@ -1,0 +1,55 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "How can a QR code still work with a logo in the middle?",
+      "file": "l01.wav",
+      "duration": 2.987,
+      "sr": 24000,
+      "words_per_s": 4.35
+    },
+    {
+      "id": "l02",
+      "text": "It stores extra error-correction information, so a scanner can rebuild some missing data.",
+      "file": "l02.wav",
+      "duration": 5.011,
+      "sr": 24000,
+      "words_per_s": 2.59
+    },
+    {
+      "id": "l03",
+      "text": "Those three large corner squares help it find and orient the code.",
+      "file": "l03.wav",
+      "duration": 3.73,
+      "sr": 24000,
+      "words_per_s": 3.22
+    },
+    {
+      "id": "l04",
+      "text": "Cover too much, especially those markers, and it may fail.",
+      "file": "l04.wav",
+      "duration": 3.148,
+      "sr": 24000,
+      "words_per_s": 3.18
+    },
+    {
+      "id": "l05",
+      "text": "A bigger logo isn't always better.",
+      "file": "l05.wav",
+      "duration": 1.936,
+      "sr": 24000,
+      "words_per_s": 3.1
+    },
+    {
+      "id": "l06",
+      "text": "Follow Recall for the technology hiding in everyday life.",
+      "file": "l06.wav",
+      "duration": 3.663,
+      "sr": 24000,
+      "words_per_s": 2.46
+    }
+  ]
+}

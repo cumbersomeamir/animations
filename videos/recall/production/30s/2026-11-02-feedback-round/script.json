@@ -1,0 +1,13 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {"id": "l01", "text": "How can a QR code still work with a logo in the middle?"},
+    {"id": "l02", "text": "It stores extra error-correction information, so a scanner can rebuild some missing data."},
+    {"id": "l03", "text": "Those three large corner squares help it find and orient the code."},
+    {"id": "l04", "text": "Cover too much, especially those markers, and it may fail."},
+    {"id": "l05", "text": "A bigger logo isn't always better."},
+    {"id": "l06", "text": "Follow Recall for the technology hiding in everyday life."}
+  ]
+}

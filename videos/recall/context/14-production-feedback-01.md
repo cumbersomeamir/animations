@@ -35,7 +35,7 @@ Per-line ASR matched every word. Start times are in `timeline.json`.
 Version 2, level H, mask from segno; alphanumeric text **"HELLO FROM RECALL"**. Single Reed–Solomon block: 16 data +
 28 EC codewords. The module-role map (finder/timing/alignment/format/data/EC) is verified by reading back the mode header
 and recomputing all 28 EC codewords. zxing-cpp decode tests: clean ✓; 7×7 centre logo (10 codewords) ✓;
-15×15 centre logo (25 codewords) ✗; top-left finder covered (no data codewords touched) ✗. The phone shows
+15×15 centre logo (25 codewords) ✗; top-right finder covered (no data codewords touched) ✗. The phone shows
 "HELLO FROM RECALL" only where the code really decodes.
 
 ## Sources (details in `production/30s/2026-11-02-feedback-round/docs/SOURCES.md`)

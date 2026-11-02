@@ -1,0 +1,20 @@
+{
+  "name": "recall-30s-feedback-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Recall feedback round 01 - Low-poly Everyday Discovery: why QR codes still scan with a logo. Three.js low-poly scene rendered frame-by-frame in headless Chromium.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "@fontsource/fredoka": "5.3.0",
+    "@fontsource/titan-one": "5.3.0"
+  },
+  "x-system-requirements": {
+    "playwright": "1.63.0 (preinstalled globally with its Chromium; not installed here)",
+    "ffmpeg": "6.1.1"
+  }
+}

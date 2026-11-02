@@ -1,0 +1,373 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "How can a QR code still work with a logo in the middle?",
+   "asr": "How can a QR code still work with a logo in the middle?",
+   "duration": 2.987,
+   "words": [
+    {
+     "w": "How",
+     "start": 0.0,
+     "end": 0.12
+    },
+    {
+     "w": "can",
+     "start": 0.12,
+     "end": 0.26
+    },
+    {
+     "w": "a",
+     "start": 0.26,
+     "end": 0.34
+    },
+    {
+     "w": "QR",
+     "start": 0.34,
+     "end": 0.54
+    },
+    {
+     "w": "code",
+     "start": 0.54,
+     "end": 1.12
+    },
+    {
+     "w": "still",
+     "start": 1.12,
+     "end": 1.42
+    },
+    {
+     "w": "work",
+     "start": 1.42,
+     "end": 1.74
+    },
+    {
+     "w": "with",
+     "start": 1.74,
+     "end": 1.9
+    },
+    {
+     "w": "a",
+     "start": 1.9,
+     "end": 1.98
+    },
+    {
+     "w": "logo",
+     "start": 1.98,
+     "end": 2.24
+    },
+    {
+     "w": "in",
+     "start": 2.24,
+     "end": 2.52
+    },
+    {
+     "w": "the",
+     "start": 2.52,
+     "end": 2.6
+    },
+    {
+     "w": "middle?",
+     "start": 2.6,
+     "end": 2.8
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "It stores extra error-correction information, so a scanner can rebuild some missing data.",
+   "asr": "It stores extra error correction information, so a scanner can rebuild some missing data.",
+   "duration": 5.011,
+   "words": [
+    {
+     "w": "It",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "stores",
+     "start": 0.08,
+     "end": 0.32
+    },
+    {
+     "w": "extra",
+     "start": 0.32,
+     "end": 0.76
+    },
+    {
+     "w": "error",
+     "start": 0.76,
+     "end": 1.12
+    },
+    {
+     "w": "correction",
+     "start": 1.12,
+     "end": 1.5
+    },
+    {
+     "w": "information,",
+     "start": 1.5,
+     "end": 2.04
+    },
+    {
+     "w": "so",
+     "start": 2.7,
+     "end": 2.86
+    },
+    {
+     "w": "a",
+     "start": 2.86,
+     "end": 2.94
+    },
+    {
+     "w": "scanner",
+     "start": 2.94,
+     "end": 3.24
+    },
+    {
+     "w": "can",
+     "start": 3.24,
+     "end": 3.56
+    },
+    {
+     "w": "rebuild",
+     "start": 3.56,
+     "end": 3.8
+    },
+    {
+     "w": "some",
+     "start": 3.8,
+     "end": 4.16
+    },
+    {
+     "w": "missing",
+     "start": 4.16,
+     "end": 4.36
+    },
+    {
+     "w": "data.",
+     "start": 4.36,
+     "end": 4.74
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "Those three large corner squares help it find and orient the code.",
+   "asr": "Those three large corner squares help it find and orient the code.",
+   "duration": 3.73,
+   "words": [
+    {
+     "w": "Those",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "w": "three",
+     "start": 0.22,
+     "end": 0.48
+    },
+    {
+     "w": "large",
+     "start": 0.48,
+     "end": 0.74
+    },
+    {
+     "w": "corner",
+     "start": 0.74,
+     "end": 1.12
+    },
+    {
+     "w": "squares",
+     "start": 1.12,
+     "end": 1.5
+    },
+    {
+     "w": "help",
+     "start": 1.5,
+     "end": 2.06
+    },
+    {
+     "w": "it",
+     "start": 2.06,
+     "end": 2.18
+    },
+    {
+     "w": "find",
+     "start": 2.18,
+     "end": 2.48
+    },
+    {
+     "w": "and",
+     "start": 2.48,
+     "end": 2.76
+    },
+    {
+     "w": "orient",
+     "start": 2.76,
+     "end": 2.96
+    },
+    {
+     "w": "the",
+     "start": 2.96,
+     "end": 3.24
+    },
+    {
+     "w": "code.",
+     "start": 3.24,
+     "end": 3.46
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "Cover too much, especially those markers, and it may fail.",
+   "asr": "Cover too much, especially those markers, and it may fail.",
+   "duration": 3.148,
+   "words": [
+    {
+     "w": "Cover",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "too",
+     "start": 0.14,
+     "end": 0.36
+    },
+    {
+     "w": "much,",
+     "start": 0.36,
+     "end": 0.56
+    },
+    {
+     "w": "especially",
+     "start": 0.86,
+     "end": 1.1
+    },
+    {
+     "w": "those",
+     "start": 1.1,
+     "end": 1.52
+    },
+    {
+     "w": "markers,",
+     "start": 1.52,
+     "end": 1.86
+    },
+    {
+     "w": "and",
+     "start": 2.3,
+     "end": 2.38
+    },
+    {
+     "w": "it",
+     "start": 2.38,
+     "end": 2.46
+    },
+    {
+     "w": "may",
+     "start": 2.46,
+     "end": 2.56
+    },
+    {
+     "w": "fail.",
+     "start": 2.56,
+     "end": 2.84
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "A bigger logo isn't always better.",
+   "asr": "A bigger logo isn't always better.",
+   "duration": 1.936,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.0,
+     "end": 0.06
+    },
+    {
+     "w": "bigger",
+     "start": 0.06,
+     "end": 0.22
+    },
+    {
+     "w": "logo",
+     "start": 0.22,
+     "end": 0.58
+    },
+    {
+     "w": "isn't",
+     "start": 0.58,
+     "end": 1.14
+    },
+    {
+     "w": "always",
+     "start": 1.14,
+     "end": 1.38
+    },
+    {
+     "w": "better.",
+     "start": 1.38,
+     "end": 1.68
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "Follow Recall for the technology hiding in everyday life.",
+   "asr": "Follow Recall for the technology hiding in everyday life.",
+   "duration": 3.663,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "w": "Recall",
+     "start": 0.26,
+     "end": 0.62
+    },
+    {
+     "w": "for",
+     "start": 0.62,
+     "end": 1.12
+    },
+    {
+     "w": "the",
+     "start": 1.12,
+     "end": 1.2
+    },
+    {
+     "w": "technology",
+     "start": 1.2,
+     "end": 1.82
+    },
+    {
+     "w": "hiding",
+     "start": 1.82,
+     "end": 2.32
+    },
+    {
+     "w": "in",
+     "start": 2.32,
+     "end": 2.64
+    },
+    {
+     "w": "everyday",
+     "start": 2.64,
+     "end": 2.92
+    },
+    {
+     "w": "life.",
+     "start": 2.92,
+     "end": 3.4
+    }
+   ]
+  }
+ ]
+}

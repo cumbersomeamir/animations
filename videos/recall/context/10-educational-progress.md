@@ -89,3 +89,9 @@ config af_bella 0.7 + am_puck 0.3). Round record + QA: context/12-production-30s
 Episode 02 "Which is heavier: a kilo of steel or feathers?" (mass vs volume): context 13; deliverable
 `videos/recall/production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` (30.000 s, verified). Format 11 updated
 with the user's batch-02 feedback (3 s think beat, MASS wording, no buoyancy distraction, labelled measuring prop).
+
+## Update 2026-11-02 — feedback round (supersedes the quiz direction)
+User feedback retired the knowledge-challenge/quiz format. Genre: useful educational stories about technology or how the
+world works, in the "Low-poly Everyday Discovery" style (context 15); format rules in 11 (rewritten). Episode F01
+"Why can a QR code still scan with a logo in the middle?": brief, sources, QA and progress in context 14; deliverable
+`videos/recall/production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4`. Earlier MP4s untouched.

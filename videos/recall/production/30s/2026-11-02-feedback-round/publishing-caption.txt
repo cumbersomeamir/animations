@@ -1,0 +1,15 @@
+Why can a QR code still scan with a logo in the middle?
+
+QR codes carry extra error-correction data (a Reed–Solomon code), so a scanner can rebuild some damaged or hidden parts. How much depends on the error-correction level: from about 7% to about 30% of the codewords. The three big corner squares let the scanner find the code and work out which way it's turned. Hide too much, or cover one of those corner markers, and the scan can fail. So: small logo, clear corners, and test it before you print.
+
+The code in this video is real. It encodes "HELLO FROM RECALL", and we checked each version with an open-source decoder (zxing-cpp). The small logo scans. The big logo and the covered corner don't. Other scanners may behave differently.
+
+Sources (DENSO WAVE, inventor of the QR Code):
+Error correction: https://www.qrcode.com/en/about/error_correction.html
+Error-correction levels: https://www.qrcode.com/en/about/standards.html
+Position-detection marks and 360° reading: https://www.qrcode.com/en/history/
+Caution about overlaying illustrations: https://www.qrcode.com/en/faq.html
+
+QR Code is a registered trademark of DENSO WAVE INCORPORATED.
+
+#technology #howitworks #qrcode

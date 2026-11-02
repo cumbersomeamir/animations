@@ -41,3 +41,6 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   challenge; format in 11, record + QA in 12).
 - Production batch-02 2026-11-02: `videos/recall/production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4`
   (30.000 s knowledge challenge "kilo of steel vs feathers"; record + QA in 13).
+- Feedback round 2026-11-02 (quiz direction retired; new durable format 11 + style recipe 15 "Low-poly Everyday
+  Discovery"): `videos/recall/production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4` (30.000 s, QR code
+  with a logo; record, sources + QA in 14).
