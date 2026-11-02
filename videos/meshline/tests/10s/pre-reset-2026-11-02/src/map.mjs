@@ -38,7 +38,7 @@ function queueTokens(t) {
   return tokens;
 }
 
-function paper(ctx) {
+function paper(ctx, t = 0) {
   ctx.fillStyle = '#0B0F0D'; ctx.fillRect(-2000, -2000, 6000, 6000);              // table
   const sx = 0, sy = 0, sw = 18 * G, sh = 28 * G;
   ctx.fillStyle = 'rgba(0,0,0,0.6)'; roundRect(ctx, sx + 14, sy + 18, sw, sh, 10); ctx.fill();   // sheet shadow
@@ -49,9 +49,9 @@ function paper(ctx) {
   for (let x = 1; x < 18; x++) { ctx.beginPath(); ctx.moveTo(x * G, 0); ctx.lineTo(x * G, sh); ctx.stroke(); }
   for (let y = 1; y < 28; y++) { ctx.beginPath(); ctx.moveTo(0, y * G); ctx.lineTo(sw, y * G); ctx.stroke(); }
   // printed cartouche
-  ctx.fillStyle = C.blue; ctx.fillRect(0.6 * G, 26.2 * G, 0.12 * G, 1.1 * G);
-  ctx.fillStyle = C.ink; ctx.font = '30px EBold'; ctx.textAlign = 'left'; ctx.fillText('Cell capacity, one tower', 0.95 * G, 26.75 * G);
-  ctx.fillStyle = C.muted; ctx.font = '22px EMed'; ctx.fillText('Illustrative map · not real network data', 0.95 * G, 27.2 * G);
+  ctx.save(); ctx.globalAlpha = 1 - env(t, 4.6, 5.1); // cartouche fades before the push carries it onto the bottom note
+  ctx.fillStyle = C.blue; ctx.fillRect(0.6 * G, 25.05 * G, 0.12 * G, 0.75 * G);
+  ctx.fillStyle = C.ink; ctx.font = '30px EBold'; ctx.textAlign = 'left'; ctx.fillText('Cell capacity, one tower', 0.95 * G, 25.6 * G); ctx.restore();
 }
 
 function drawRoute(ctx, r, t) {
@@ -104,7 +104,7 @@ function youStation(ctx, t) {
   const [x, y] = YOU;
   ctx.fillStyle = C.ink; ctx.font = `${0.62 * G}px EBold`; ctx.textAlign = 'left'; ctx.fillText('YOUR PHONE', x * G + 0.5 * G, y * G + 0.2 * G);
   // printed signal bars next to the station: all four inked = full bars
-  const lit = clamp(inv(0.2, 0.9, t) * 4);
+  const lit = clamp(inv(0.2, 0.9, t) * 4, 0, 4); // all four bars bright once 'signal: full' shows
   for (let i = 0; i < 4; i++) { const bh = (0.3 + i * 0.24) * G; ctx.fillStyle = lit > i ? C.ink : hexA(C.ink, 0.15); roundRect(ctx, x * G + 0.55 * G + i * 0.42 * G, y * G + 1.55 * G - bh, 0.3 * G, bh, 4); ctx.fill(); }
   ctx.fillStyle = C.blueSoft; ctx.font = `${0.5 * G}px ESemi`; ctx.fillText('signal: full', x * G + 2.4 * G, y * G + 1.45 * G);
 }
@@ -152,7 +152,7 @@ export function drawFrame(ctx, t, assets) {
   ctx.fillStyle = '#0B0F0D'; ctx.fillRect(0, 0, W, H);
   const sc = 0.98 * cam.z;
   ctx.setTransform(sc, 0, cam.tilt * sc, sc, 540 - cam.cx * G * sc - cam.tilt * sc * cam.cy * G, 1080 - cam.cy * G * sc);
-  paper(ctx);
+  paper(ctx, t);
   for (const r of ROUTES) if (!r.you) drawRoute(ctx, r, t);
   drawRoute(ctx, ROUTES[0], t);
   tokens(ctx, t);
@@ -161,6 +161,7 @@ export function drawFrame(ctx, t, assets) {
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   const vg = ctx.createRadialGradient(540, 1000, 560, 540, 1000, 1250); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.42)'); ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
   captions(ctx, t);
+  ctx.fillStyle = hexA(C.ink, 0.55); ctx.font = '24px EMed'; ctx.textAlign = 'left'; ctx.fillText('Illustrative map · not real network data', 48, 1858); // screen-space: always fully in frame
   if (assets.icon && t > 8.0) { const a = env(t, 8.0, 8.5) * 0.6; ctx.save(); ctx.globalAlpha = a; roundRect(ctx, 790, 1820, 42, 42, 10); ctx.save(); ctx.clip(); ctx.drawImage(assets.icon, 790, 1820, 42, 42); ctx.restore(); ctx.fillStyle = C.ink; ctx.font = '28px ESemi'; ctx.textAlign = 'left'; ctx.fillText('Meshline', 842, 1851); ctx.restore(); }
 }
 

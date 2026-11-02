@@ -47,3 +47,4 @@
 - Voice: Meshline Kokoro blend (0.7 af_bella + 0.3 am_puck, 0.98, en-us). Claim reused from pilot 01 (T-Mobile source).
 - Unresolved: no ASR or listening check; caption plate sits slightly outside the 350–460 band; beat-1 labels are small; no depth of field. See the folder's `QA.md`.
 - Earlier 15s, 30s and pilot-01 work was untouched.
+- QA fix pass: all four signal bars are now bright with "signal: full", and the illustrative note is kept in frame. New sha256 `fd3f2a4dc62332c67a03692d2aab20c1b8e43a8d4059938fb799fd3728332e00`.

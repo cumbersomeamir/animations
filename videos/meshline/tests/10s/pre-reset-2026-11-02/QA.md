@@ -31,3 +31,9 @@ The only claim is that "signal strength isn't spare capacity; many phones share 
 - The caption plate extends about 20–40 px beyond the suggested 350–460 band.
 - Station labels and printed bars at YOUR PHONE are small in beat 1, before the push. Paper texture is a light speckle, not full paper tooth.
 - No depth of field or tilt beyond a slight shear during the push.
+
+## QA fix pass (same test; not regenerated)
+- **Signal bars:** `clamp()` defaults to the range 0–1, so only the shortest bar ever lit. Now `clamp(…, 0, 4)`: all four bars are bright whenever "signal: full" shows (checked at 1.5 s and 6.0 s). The bars still mean signal strength only. The shared-capacity queue and "busy · shared capacity" label are unchanged.
+- **Bottom note:** "Illustrative map · not real network data" is now drawn in screen space at (48, 1858), fully in frame for all 10 s. The sheet's "Cell capacity, one tower" cartouche moved up and fades out at 4.6–5.1 s, before the push would carry it onto the note.
+- **Unchanged:** voice/mix WAV, captions, style, timing, 10.000 s, 300 frames, −14.0 LUFS / −3.3 dBTP. Full decode OK.
+- **New sha256:** `fd3f2a4dc62332c67a03692d2aab20c1b8e43a8d4059938fb799fd3728332e00`
