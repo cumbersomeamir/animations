@@ -82,6 +82,16 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - Durable format: `context/11-production-format.md`. Round record: `context/12-production-30s-01.md`. No automation created.
 - Limits: no human listening test; sprite-swap posing; some board items briefly occluded when not narrated.
 
+## Production batch production-30s-2026-11-02-batch-02: COMPLETE
+- Topic: Why one aluminium can can become another can (new topic; 30s-01 preserved, its topic not reused).
+- Output: `videos/wastepaisa/production/30s/2026-11-02-batch-02/wastepaisa-30s-production-02.mp4`,
+  SHA-256 `263fa6beaf8b7e924d055c840a26eebd3cad8df22309e27b0ea5327f7f3c7a66`
+- 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · caption ink y 354–466, x 157–924 · ASR: every script word recognised (mean 0.933; homophone + SFX insertions)
+- User feedback applied and saved in `context/11-production-format.md` (simplified mascot: cylinder, lid, eyes, two arms;
+  distinct scene changes; no earnings promises). Round record: `context/13-production-30s-02.md`. No automation created.
+- Limits: no human listening test; simplified illustrative machinery; 2D procedurally posed mascot.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

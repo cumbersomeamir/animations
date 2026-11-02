@@ -1,0 +1,344 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa production 30s-02 "Why one aluminium can can become another can" (paper-cut motion).
+// Six paper-cut scenes with in-medium transitions; stepped 12 fps; every frame is a pure function of t.
+const W = 1080, H = 1920, STEP = 12, BASE = '/production/30s/2026-11-02-batch-02';
+const main = document.getElementById('c'); let g = main.getContext('2d');
+const off = document.createElement('canvas'); off.width = W; off.height = H; const offG = off.getContext('2d');
+const C = { cream: '#f6ead6', paper: '#f3e5cc', ink: '#2a1a10', orange: '#e8741c', orangeInk: '#c95a0c', green: '#1f6b3a',
+  card: '#a8743f', cardDark: '#7a5129', wall: '#4a3121', kraft: '#6e4a2c', cork: '#b98b55', tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4',
+  alu: '#cfd4da', aluDark: '#8f969e', copper: '#c47a42', glove: '#ee7a1e', melt: '#ffb547', meltHot: '#ffe08a', flame: '#e8741c', brick: '#8a4b2e', steel: '#6d7680' };
+const SH = { x: 6, y: 9, blur: 8, col: 'rgba(0,0,0,0.36)' }; // one light, upper-left
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const hash = (s) => { let h = 2166136261; for (const ch of String(s)) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return h >>> 0; };
+function boil(id, step, amp = 1.0, rot = 0.003) { const r = rng(hash(id) + step * 7919); return [(r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * rot]; }
+function torn(seed, w, h, jag = 5) {
+  const r = rng(hash(seed)), pts = [], n = Math.max(6, Math.round((w + h) / 26));
+  const edge = (x0, y0, x1, y1, k) => { for (let i = 0; i < k; i++) { const u = i / k; pts.push([x0 + (x1 - x0) * u + (r() - 0.5) * jag * (y0 === y1 ? 0.4 : 1), y0 + (y1 - y0) * u + (r() - 0.5) * jag * (x0 === x1 ? 0.4 : 1)]); } };
+  edge(-w / 2, -h / 2, w / 2, -h / 2, n); edge(w / 2, -h / 2, w / 2, h / 2, n); edge(w / 2, h / 2, -w / 2, h / 2, n); edge(-w / 2, h / 2, -w / 2, -h / 2, n);
+  return pts;
+}
+function poly(pts) { g.beginPath(); pts.forEach(([x, y], i) => (i ? g.lineTo(x, y) : g.moveTo(x, y))); g.closePath(); }
+function piece(id, step, x, y, rot, draw, o = {}) {
+  const [bx, by, br] = o.still ? [0, 0, 0] : boil(id, step, o.amp ?? 1.0, o.brot ?? 0.003);
+  g.save(); g.translate(x + bx, y + by); g.rotate(rot + br);
+  if (!o.noShadow) { const l = o.lift ?? 1; g.shadowColor = SH.col; g.shadowOffsetX = SH.x * l; g.shadowOffsetY = SH.y * l; g.shadowBlur = SH.blur * l; }
+  draw(); g.restore();
+}
+const noSh = () => { g.shadowColor = 'transparent'; };
+function pinHead(x, y, col) { g.save(); g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowOffsetX = 3; g.shadowOffsetY = 4; g.shadowBlur = 3;
+  g.beginPath(); g.arc(x, y, 9, 0, 7); g.fillStyle = col; g.fill(); noSh(); g.beginPath(); g.arc(x - 3, y - 3, 3, 0, 7); g.fillStyle = 'rgba(255,255,255,0.6)'; g.fill(); g.restore(); }
+function tape(x, y, rot, w = 70) { g.save(); g.translate(x, y); g.rotate(rot); g.fillStyle = 'rgba(236,222,178,0.8)'; poly(torn('tape' + x + y, w, 22, 3)); g.fill(); g.restore(); }
+function label(id, step, x, y, rot, lines, bg, fg, size, o = {}) {
+  g.font = `800 ${size}px "Baloo 2"`; const w = Math.max(...lines.map((l) => g.measureText(l).width)) + 34, lh = size * 1.05, h = lines.length * lh + 16;
+  piece(id, step, x, y, rot, () => { poly(torn(id, w, h, 4)); g.fillStyle = bg; g.fill(); noSh(); g.fillStyle = fg; g.textAlign = 'center'; g.textBaseline = 'middle';
+    lines.forEach((l, i) => g.fillText(l, 0, -h / 2 + 8 + lh * (i + 0.5) + 2)); if (o.pin) pinHead(0, -h / 2 + 7, o.pin); if (o.tape) tape(0, -h / 2, -0.06, w * 0.5); }, o);
+}
+function stamp(id, x, y, rot, text, col, size = 40) { // one-frame snap, tilt within -3..+5 deg
+  g.save(); g.translate(x, y); g.rotate(rot); g.globalAlpha = 0.92; g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 40, h = size + 26;
+  g.strokeStyle = col; g.lineWidth = 6; g.strokeRect(-w / 2, -h / 2, w, h); g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 0, 3);
+  const r = rng(hash(id)); g.globalCompositeOperation = 'destination-out'; for (let i = 0; i < 60; i++) g.fillRect((r() - 0.5) * w, (r() - 0.5) * h, 3 + r() * 5, 2);
+  g.restore();
+}
+function mk(w, h, fn) { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; }
+const prog = (t, a, b) => Math.max(0, Math.min(1, (t - a) / (b - a)));
+const stepsIn = (t, a, n) => Math.max(0, Math.min(n, Math.floor((t - a) * STEP + 1e-6))); // integer steps since a
+
+// ---------- cached textures ----------
+const grain = mk(540, 960, (x, w, h) => { const r = rng(3); for (let i = 0; i < 26000; i++) { x.fillStyle = r() < 0.5 ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.06)'; x.fillRect(r() * w, r() * h, 1.5, 1.5); } });
+const pegWall = mk(W, H, (x) => { x.fillStyle = C.wall; x.fillRect(0, 0, W, H); x.fillStyle = 'rgba(0,0,0,0.28)'; for (let yy = 20; yy < 1500; yy += 44) for (let xx = 20; xx < W; xx += 44) { x.beginPath(); x.arc(xx, yy, 4, 0, 7); x.fill(); } });
+const plantWall = mk(W, H, (x) => { x.fillStyle = '#3d2a1d'; x.fillRect(0, 0, W, H); x.strokeStyle = 'rgba(0,0,0,0.25)'; x.lineWidth = 3; for (let yy = 40; yy < H; yy += 120) { x.beginPath(); x.moveTo(0, yy); x.lineTo(W, yy); x.stroke(); } });
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 56px "Baloo 2"'); await document.fonts.load('700 26px "Baloo 2"');
+
+// ---------- simplified open-lid can mascot: one cylinder, lid, two eyes, two arms ----------
+// p: { armL:[angle,len], armR:[angle,len], look:[dx,dy], blink:0..1, hop:px, lid:radians }
+function mascot(id, step, x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, [bx, by] = boil(id, step, 1.1);
+  const X = x + bx, Y = base - (p.hop || 0) + by, top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : C.copper; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  g.save(); g.shadowColor = SH.col; g.shadowOffsetX = SH.x * 1.5; g.shadowOffsetY = SH.y * 1.5; g.shadowBlur = SH.blur * 1.5;
+  // white paper edge (silhouette) then pieces
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { noSh(); g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.3, bw * 0.3, 0, 0, 7); g.strokeStyle = 'rgba(149,156,164,0.6)'; g.lineWidth = 3 * s; g.stroke(); } g.restore(); };
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true);
+  g.beginPath(); g.roundRect(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  noSh(); drawLid(false);
+  g.beginPath(); g.roundRect(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.orange; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill(); g.strokeStyle = 'rgba(42,26,16,0.35)'; g.lineWidth = 2; g.stroke();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+const REST = { armL: [1.15, 70], armR: [1.15, 70], look: [0, 0] };
+
+// ---------- props ----------
+function aluCan(x, base, s = 1, o = {}) { // simple paper-cut drinks can (aluminium)
+  const w = 74 * s, h = 132 * s; g.save(); g.translate(x, base - h / 2); g.rotate(o.rot || 0);
+  if (!o.noShadow) { g.shadowColor = SH.col; g.shadowOffsetX = SH.x * (o.lift || 1); g.shadowOffsetY = SH.y * (o.lift || 1); g.shadowBlur = SH.blur; }
+  g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, 10 * s); g.fillStyle = C.alu; g.fill(); noSh();
+  g.fillStyle = 'rgba(255,255,255,0.55)'; g.fillRect(-w / 2 + 8 * s, -h / 2 + 10 * s, 9 * s, h - 20 * s);
+  g.fillStyle = o.band || C.orange; g.fillRect(-w / 2, -h * 0.12, w, h * 0.26); g.fillStyle = C.green; g.fillRect(-w / 2, h * 0.14, w, 5 * s);
+  g.beginPath(); g.ellipse(0, -h / 2 + 4 * s, w / 2 - 4 * s, 8 * s, 0, 0, 7); g.fillStyle = C.aluDark; g.fill(); g.restore();
+}
+function steelCan(x, base, s = 1) { const w = 82 * s, h = 104 * s; g.save(); g.translate(x, base - h / 2); g.shadowColor = SH.col; g.shadowOffsetX = SH.x; g.shadowOffsetY = SH.y; g.shadowBlur = SH.blur;
+  g.fillStyle = C.steel; g.fillRect(-w / 2, -h / 2, w, h); noSh(); g.fillStyle = 'rgba(0,0,0,0.25)'; for (let i = -2; i <= 2; i++) g.fillRect(-w / 2, i * 16 * s, w, 3 * s); g.fillStyle = '#d9c9a8'; g.fillRect(-w / 2, -h * 0.2, w, h * 0.35); g.restore(); }
+function bottle(x, base, s = 1) { g.save(); g.translate(x, base); g.shadowColor = SH.col; g.shadowOffsetX = SH.x; g.shadowOffsetY = SH.y; g.shadowBlur = SH.blur;
+  g.fillStyle = 'rgba(200,232,240,0.95)'; g.beginPath(); g.roundRect(-30 * s, -120 * s, 60 * s, 120 * s, 14 * s); g.fill(); g.fillRect(-12 * s, -150 * s, 24 * s, 34 * s); noSh(); g.fillStyle = '#2c8a4e'; g.fillRect(-14 * s, -160 * s, 28 * s, 14 * s); g.restore(); }
+function bin(id, step, x, base, w, h, text, col) { piece(id, step, x, base - h / 2, 0, () => { poly(torn(id, w, h, 5)); g.fillStyle = col; g.fill(); noSh(); g.fillStyle = 'rgba(0,0,0,0.18)'; g.fillRect(-w / 2, -h / 2, w, 14);
+  g.fillStyle = C.cream; g.font = '800 24px "Baloo 2"'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 0, 12); }, { amp: 0.6 }); }
+function flake(x, y, r, painted, seed) { const rr = rng(seed); g.beginPath(); for (let i = 0; i < 5; i++) { const a = i / 5 * 6.283 + rr(); const d = r * (0.6 + rr() * 0.5); i ? g.lineTo(x + Math.cos(a) * d, y + Math.sin(a) * d) : g.moveTo(x + Math.cos(a) * d, y + Math.sin(a) * d); } g.closePath();
+  g.fillStyle = C.alu; g.fill(); if (painted) { g.fillStyle = [C.orange, C.green, '#3b6fb6'][seed % 3]; g.fillRect(x - r * 0.4, y - r * 0.3, r * 0.8, r * 0.45); } }
+
+// ---------- shop set (scenes 1 and 7) ----------
+function shopSet(step) {
+  g.drawImage(pegWall, 0, 0);
+  piece('kraft', 0, W / 2, 1010, 0.01, () => { poly(torn('kraft', 1010, 820, 14)); g.fillStyle = C.kraft; g.fill(); }, { still: true });
+  piece('counter', 0, W / 2, 1405 + 260, 0, () => { g.fillStyle = C.cardDark; g.fillRect(-W / 2 - 20, -250, W + 40, 560); noSh();
+    poly(torn('counter-top', W + 60, 44, 6).map(([x, y]) => [x, y - 250])); g.fillStyle = C.card; g.fill(); g.fillStyle = 'rgba(0,0,0,0.16)'; for (let i = 0; i < 7; i++) g.fillRect(-W / 2, -170 + i * 64, W, 3); }, { still: true });
+  piece('crate', step, 250, 1354, 0, () => { poly(torn('crate', 330, 104, 5)); g.fillStyle = C.card; g.fill(); noSh(); g.strokeStyle = C.cardDark; g.lineWidth = 4; g.strokeRect(-151, -38, 302, 76);
+    g.globalAlpha = 0.85; g.drawImage(icon, -92, -17, 34, 34); g.globalAlpha = 1; g.fillStyle = C.cardDark; g.font = '700 26px "Baloo 2"'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('WastePaisa', -50, 2); }, { amp: 0.5 });
+}
+// scene 1: hook (0 - 3.33)
+function scene1(t, step) {
+  shopSet(step);
+  label('shelf-tag', step, 820, 640, 0.05, ['SORTED METALS'], '#e9e2d4', C.ink, 26, { pin: C.green });
+  const can = t >= 0.17;
+  if (can) aluCan(700, 1405, 1.25, { lift: t < 0.25 ? 2 : 1 });
+  if (t >= 1.17) label('alu-tag', step, 700, 1150, -0.04, ['ALUMINIUM'], C.cream, C.ink, 30, { pin: C.orange });
+  const tap = (t >= 0.92 && t < 1.08) || (t >= 1.33 && t < 1.5);
+  mascot('m1', step, 470, 1405, 1.2, { armL: tap ? [0.25, 120] : [0.9, 95], armR: [1.2, 70], look: [0.7, 0.3], lid: -0.5, blink: (t >= 2.5 && t < 2.6) ? 1 : 0 });
+  if (t >= 2.17) stamp('useful', 700, 980, 0.06, 'USEFUL METAL', C.orangeInk, 40);
+}
+// scene 2: sorting line (MRF)
+function scene2(t, step) {
+  g.drawImage(plantWall, 0, 0);
+  label('s2-title', step, 540, 610, -0.02, ['SORTING LINE'], C.cream, C.ink, 32, { tape: true });
+  piece('belt', 0, 430, 1140, 0, () => { g.fillStyle = '#2f2a26'; g.beginPath(); g.roundRect(-360, -26, 720, 52, 26); g.fill(); noSh(); g.fillStyle = 'rgba(255,255,255,0.08)'; for (let i = 0; i < 18; i++) g.fillRect(-340 + ((i * 40 + stepsIn(t, 3, 999) * 10) % 700), -20, 4, 40);
+    g.fillStyle = '#5a5049'; for (const xx of [-330, 330]) { g.beginPath(); g.arc(xx, 0, 30, 0, 7); g.fill(); } }, { still: true });
+  // eddy-current roller at the belt end, magnet over the belt
+  piece('eddy', step, 790, 1140, 0, () => { g.beginPath(); g.arc(0, 0, 52, 0, 7); g.fillStyle = '#e8741c'; g.fill(); noSh(); const a = stepsIn(t, 3, 999) * 0.7;
+    g.strokeStyle = C.cream; g.lineWidth = 5; for (let i = 0; i < 3; i++) { g.beginPath(); g.arc(0, 0, 34, a + i * 2.09, a + i * 2.09 + 1.2); g.stroke(); } });
+  label('eddy-tag', step, 820, 1250, 0.03, ['EDDY CURRENT'], C.cream, C.ink, 24, { pin: C.orange });
+  piece('magnet-arm', 0, 400, 760, 0, () => { g.fillStyle = C.cardDark; g.fillRect(-8, -60, 16, 120); }, { still: true });
+  const lift = t >= 4.58 && t < 5.58, lifted = stepsIn(t, 4.58, 4);
+  const magY = 860 - (lift ? lifted * 40 : 0);
+  piece('magnet', step, 400, magY, 0, () => { g.fillStyle = '#b8323a'; g.beginPath(); g.moveTo(-60, -30); g.lineTo(60, -30); g.lineTo(60, 30); g.lineTo(28, 30); g.lineTo(28, 0); g.lineTo(-28, 0); g.lineTo(-28, 30); g.lineTo(-60, 30); g.closePath(); g.fill();
+    noSh(); g.fillStyle = C.alu; g.fillRect(-60, 18, 32, 14); g.fillRect(28, 18, 32, 14); });
+  label('mag-tag', step, 560, 820, -0.03, ['MAGNET'], C.cream, C.ink, 24, { pin: C.green });
+  bin('bin-steel', step, 150, 1420, 190, 150, 'STEEL', '#5c6168');
+  bin('bin-other', step, 560, 1420, 190, 150, 'OTHER', C.cardDark);
+  bin('bin-alu', step, 900, 1420, 200, 150, 'ALUMINIUM', C.orange);
+  // items travel in steps along the belt
+  const items = [['alu', 0], ['steel', 1], ['bottle', 2], ['alu', 3], ['alu', 4]];
+  const travel = stepsIn(t, 3.25, 999) * 30;
+  for (const [kind, i] of items) {
+    let x = 60 + travel - i * 150, y = 1114;
+    if (x < 40) continue;
+    if (kind === 'steel' && x >= 400) { // magnet picks the steel can and drops it in the STEEL bin
+      const k = stepsIn(t, 4.58, 12); x = 400 - k * 20; y = 1114 - Math.min(4, k) * 40 + Math.max(0, k - 8) * 70; if (k >= 12) { x = 150; y = 1380; }
+      steelCan(x, y, 0.9); continue;
+    }
+    if (x >= 760) { const k = Math.floor((x - 760) / 30); // past the roller: aluminium is flung forward, others drop
+      if (kind === 'alu') { x = 790 + k * 26; y = 1060 - k * 20 + k * k * 9; if (y > 1360) { y = 1360; x = 880 + i * 12; } aluCan(x, y, 0.9, { rot: k * 0.4 }); }
+      else { x = 600; y = Math.min(1360, 1114 + k * 60); bottle(x, y, 0.85); }
+      continue;
+    }
+    if (kind === 'alu') aluCan(x, y, 0.9); else if (kind === 'steel') steelCan(x, y, 0.9); else bottle(x, y, 0.85);
+  }
+  label('s2-note', step, 540, 668, 0.01, ['Illustrative · sorting equipment varies'], '#efe4cf', C.ink, 22, { noShadow: true });
+}
+// scene 3: shredder + de-coating kiln
+function scene3(t, step) {
+  g.drawImage(plantWall, 0, 0);
+  piece('hopper', 0, 300, 660, 0, () => { g.scale(1.3, 1.3); g.fillStyle = C.cardDark; g.beginPath(); g.moveTo(-150, -80); g.lineTo(150, -80); g.lineTo(80, 60); g.lineTo(-80, 60); g.closePath(); g.fill(); }, { still: true });
+  piece('shredder', step, 300, 880, 0, () => { g.scale(1.3, 1.3); poly(torn('shred', 260, 240, 5)); g.fillStyle = '#7d8790'; g.fill(); noSh();
+    const a = stepsIn(t, 6, 999) * 0.5; for (const sx of [-48, 48]) { g.save(); g.translate(sx, -10); g.rotate(sx > 0 ? -a : a); g.fillStyle = '#4a5058'; g.beginPath(); for (let i = 0; i < 16; i++) { const r = i % 2 ? 40 : 52; const aa = i / 16 * 6.283; i ? g.lineTo(Math.cos(aa) * r, Math.sin(aa) * r) : g.moveTo(Math.cos(aa) * r, Math.sin(aa) * r); } g.closePath(); g.fill(); g.restore(); }
+    g.fillStyle = C.cream; g.font = '800 30px "Baloo 2"'; g.textAlign = 'center'; g.fillText('SHREDDER', 0, 92); }, { amp: 0.6 });
+  // cans drop into the hopper
+  for (let i = 0; i < 3; i++) { const k = stepsIn(t, 6.25 + i * 0.25, 4); if (k < 4) aluCan(250 + i * 50, 540 + k * 45, 1.0, { rot: i * 0.5 }); }
+  // belt to the kiln, flakes travel in steps
+  piece('belt3', 0, 600, 1160, 0, () => { g.fillStyle = '#2f2a26'; g.beginPath(); g.roundRect(-430, -20, 860, 40, 20); g.fill(); }, { still: true });
+  piece('kiln', step, 820, 1000, 0, () => { g.scale(1.2, 1.2); poly(torn('kiln', 300, 300, 5)); g.fillStyle = '#9c4f2d'; g.fill(); noSh(); g.fillStyle = '#5a2c18'; g.fillRect(-110, 10, 220, 130);
+    g.fillStyle = C.melt; for (let i = 0; i < 4; i++) { g.beginPath(); g.moveTo(-90 + i * 60, 130); g.quadraticCurveTo(-75 + i * 60, 60 + ((step + i) % 3) * 12, -60 + i * 60, 130); g.fill(); }
+    g.fillStyle = C.cream; g.font = '800 30px "Baloo 2"'; g.textAlign = 'center'; g.fillText('DE-COATING', 0, -95); g.font = '700 22px "Baloo 2"'; g.fillText('heat removes paint', 0, -62); g.fillText('& coatings', 0, -38); }, { amp: 0.6 });
+  const n = stepsIn(t, 6.4, 999);
+  for (let i = 0; i < 14; i++) { const x = 300 + (n - i * 2) * 28; if (x < 300 || x > 900) continue; const y = 1132 - (i % 3) * 6; flake(x, y, 21, x < 700, 40 + i); }
+  for (let i = 0; i < 8; i++) { const x = 300 + ((n + i * 3) % 6) * 8 - 20; flake(x, 1050 + ((n + i) % 5) * 18, 15, true, 80 + i); } // falling out of the shredder
+  if (t >= 7.0) { const k = stepsIn(t, 7.0, 10); const r = rng(5); for (let i = 0; i < 12; i++) { g.fillStyle = [C.orange, C.green, '#3b6fb6'][i % 3]; g.globalAlpha = Math.max(0, 1 - k / 10); g.fillRect(760 + r() * 150, 900 - k * 18 - r() * 60, 10, 6); } g.globalAlpha = 1; }
+}
+// scene 4: furnace cross-section + casting
+function scene4(t, step) {
+  g.drawImage(plantWall, 0, 0);
+  piece('furnace', 0, 470, 1000, 0, () => {
+    poly(torn('furn', 620, 640, 6)); g.fillStyle = C.brick; g.fill(); noSh();
+    g.strokeStyle = 'rgba(0,0,0,0.25)'; g.lineWidth = 3; for (let y = -300; y < 320; y += 40) { g.beginPath(); g.moveTo(-300, y); g.lineTo(300, y); g.stroke(); for (let x = -300 + ((y / 40) % 2) * 40; x < 300; x += 80) { g.beginPath(); g.moveTo(x, y); g.lineTo(x, y + 40); g.stroke(); } }
+    g.fillStyle = '#2a1610'; g.beginPath(); g.roundRect(-230, -230, 460, 420, 30); g.fill();
+  }, { still: true });
+  const pool = Math.min(1, 0.45 + stepsIn(t, 7.9, 10) * 0.05);
+  g.save(); g.beginPath(); g.roundRect(240, 770, 460, 420, 30); g.clip();
+  const py = 1190 - 300 * pool; g.fillStyle = C.melt; g.fillRect(240, py, 460, 420); g.fillStyle = C.meltHot; g.beginPath(); g.ellipse(470, py + 6, 210, 18, 0, 0, 7); g.fill();
+  for (let i = 0; i < 5; i++) { g.fillStyle = 'rgba(255,240,180,0.7)'; g.beginPath(); g.ellipse(300 + i * 90 + ((step + i) % 3) * 6, py + 40 + (i % 2) * 30, 14, 6, 0, 0, 7); g.fill(); }
+  g.restore();
+  for (let i = 0; i < 6; i++) { g.fillStyle = i % 2 ? C.flame : '#ffcc4d'; const fx = 270 + i * 80, fh = 50 + ((step + i * 2) % 4) * 14; g.beginPath(); g.moveTo(fx - 26, 1300); g.quadraticCurveTo(fx, 1300 - fh * 2, fx + 26, 1300); g.fill(); }
+  label('melt-tag', step, 470, 690, -0.03, ['MELTED & PURIFIED'], C.cream, C.ink, 30, { pin: C.orange });
+  if (t < 8.6) for (let i = 0; i < 6; i++) { const k = stepsIn(t, 7.83 + i * 0.07, 6); if (k < 6) flake(400 + i * 30, 760 + k * 50, 14, false, 120 + i); }
+  // pour into an ingot mould ("cast")
+  piece('mould', step, 860, 1330, 0, () => { g.fillStyle = '#4a5058'; g.fillRect(-120, -40, 240, 80); noSh(); g.fillStyle = '#2b2f34'; g.fillRect(-100, -30, 200, 50); });
+  const fill = stepsIn(t, 8.9, 6) / 6;
+  if (t >= 8.75 && t < 9.5) { g.strokeStyle = C.melt; g.lineWidth = 16; g.lineCap = 'round'; g.beginPath(); g.moveTo(700, 1060); g.quadraticCurveTo(820, 1080, 860, 1300); g.stroke(); }
+  if (fill > 0) { g.fillStyle = t >= 9.5 ? C.alu : C.melt; g.fillRect(760, 1350 - 50 * fill, 200, 50 * fill); }
+  if (t >= 9.42) label('cast-tag', step, 860, 1230, 0.04, ['CAST'], C.cream, C.ink, 30, { pin: C.green });
+}
+// scene 5: rolling mill -> sheet -> new can
+function scene5(t, step) {
+  g.drawImage(plantWall, 0, 0);
+  label('s5-title', step, 540, 600, -0.02, ['ROLLING MILL'], C.cream, C.ink, 32, { tape: true });
+  const rollA = stepsIn(t, 9.7, 999) * 0.45;
+  const roll = (y, dir) => piece('roll' + y, step, 420, y, 0, () => { g.beginPath(); g.arc(0, 0, 140, 0, 7); g.fillStyle = '#7d8790'; g.fill(); noSh(); g.strokeStyle = '#4a5058'; g.lineWidth = 10; g.beginPath(); g.moveTo(0, 0); g.lineTo(Math.cos(rollA * dir) * 125, Math.sin(rollA * dir) * 125); g.stroke(); g.beginPath(); g.arc(0, 0, 24, 0, 7); g.fillStyle = '#4a5058'; g.fill(); });
+  const passes = stepsIn(t, 9.92, 16);
+  const slabX = 150 + Math.min(passes, 4) * 60;
+  if (passes < 4) piece('slab', step, slabX, 1000, 0, () => { g.fillStyle = C.alu; g.fillRect(-130, -60, 260, 120); noSh(); g.fillStyle = 'rgba(255,255,255,0.45)'; g.fillRect(-118, -50, 236, 14); });
+  if (passes >= 3) { const len = Math.min(580, (passes - 3) * 64); piece('sheet', step, 420 + len / 2, 1000, 0, () => { g.fillStyle = C.alu; g.fillRect(-len / 2, -14, len, 28); noSh(); g.fillStyle = 'rgba(255,255,255,0.6)'; g.fillRect(-len / 2, -14, len, 6); }); }
+  roll(855, 1); roll(1145, -1);
+  if (t >= 10.5) label('sheet-tag', step, 800, 900, -0.03, ['ROLLED INTO SHEET'], C.cream, C.ink, 32, { pin: C.orange });
+  if (t >= 11.67) { const k = stepsIn(t, 11.67, 9);
+    if (k < 3) { g.fillStyle = C.alu; g.beginPath(); g.ellipse(840, 1100 + k * 70, 80, 18, 0, 0, 7); g.fill(); }
+    else if (k < 6) aluCan(840, 1380, 1.05, { band: C.alu });
+    else aluCan(840, 1380, 1.6, { band: C.orange }); }
+  if (t >= 12.33) label('newcan-tag', step, 640, 1330, -0.04, ['NEW CAN'], C.cream, C.ink, 32, { pin: C.green });
+  if (t >= 11.17) label('products', step, 190, 1290, -0.04, ['SHEET FOR', 'NEW PRODUCTS'], '#efe4cf', C.ink, 28, { tape: true });
+}
+// scene 6: can wall cross-section
+function scene6(t, step) {
+  g.drawImage(pegWall, 0, 0);
+  piece('kraft6', 0, W / 2, 1010, -0.01, () => { poly(torn('kraft6', 1010, 820, 14)); g.fillStyle = C.kraft; g.fill(); }, { still: true });
+  label('s6-title', step, 540, 600, -0.02, ['INSIDE A CAN WALL'], C.cream, C.ink, 32, { tape: true });
+  const peel = t >= 17.58 ? stepsIn(t, 17.58, 4) : 0;
+  piece('wall', step, 470, 900, -0.02, () => {
+    poly(torn('w-paint', 680, 46, 5).map(([x, y]) => [x, y - 150])); g.fillStyle = C.orange; g.fill(); noSh(); g.fillStyle = C.green; g.fillRect(-338, -136, 676, 10); // outer paint & ink
+    poly(torn('w-alu', 680, 190, 5).map(([x, y]) => [x, y - 25])); g.fillStyle = C.alu; g.fill(); g.fillStyle = 'rgba(255,255,255,0.4)'; g.fillRect(-330, -104, 660, 14); // aluminium alloy
+    poly(torn('w-inner', 680, 34, 5).map(([x, y]) => [x, y + 88])); g.fillStyle = '#efe2a6'; g.fill(); // inner coating
+  });
+  if (peel) piece('peel', step, 470 + 300, 760 - peel * 12, -0.12 * peel, () => { g.fillStyle = C.orange; g.fillRect(-60, -10, 120, 30); g.fillStyle = C.green; g.fillRect(-60, 14, 120, 6); }, { lift: 1.6 });
+  if (t >= 13.83) label('l-alloy', step, 470, 880, 0.02, ['ALUMINIUM ALLOY'], C.cream, C.ink, 28, { pin: C.orange });
+  if (t >= 15.33) label('l-paint', step, 300, 700, -0.04, ['PAINT & INK'], '#fde2c8', C.ink, 28, { pin: C.orange });
+  if (t >= 15.92) label('l-inner', step, 600, 1070, 0.03, ['INNER COATING'], '#f7efc8', C.ink, 28, { pin: C.green });
+  // the lid is a different alloy
+  if (t >= 16.58) { piece('lid6', step, 840, 1260, 0.1, () => { g.beginPath(); g.ellipse(0, 0, 90, 34, 0, 0, 7); g.fillStyle = C.alu; g.fill(); noSh(); g.strokeStyle = C.aluDark; g.lineWidth = 6; g.stroke(); g.beginPath(); g.ellipse(18, -2, 22, 10, 0, 0, 7); g.strokeStyle = C.aluDark; g.lineWidth = 5; g.stroke(); });
+    label('l-lid', step, 840, 1350, -0.03, ['LID & TAB:', 'ANOTHER ALLOY'], C.cream, C.ink, 24, { pin: C.green }); }
+  mascot('m6', step, 250, 1440, 0.95, { armL: peel ? [-0.75, 115] : [0.6, 95], armR: [1.1, 70], look: [0.6, -0.4], lid: -0.55 });
+  if (t >= 17.92) stamp('heat', 470, 1200, -0.05, 'PROCESSED BY HEAT', C.orangeInk, 34);
+}
+// scene 7: shop takeaway + end
+function scene7(t, step) {
+  shopSet(step);
+  if (t >= 20.75) label('rules', step, 760, 700, 0.03, ['LOCAL SORTING', 'RULES'], '#fbf4e6', C.ink, 28, { pin: C.orange });
+  if (t >= 22.83) label('collector', step, 300, 700, -0.04, ['ASK YOUR', 'SCRAP COLLECTOR'], C.cream, C.ink, 26, { pin: C.green });
+  // map card with routes, then price tag "varies"
+  if (t >= 24.58) { piece('map', step, 560, 980, -0.02, () => { poly(torn('map', 380, 220, 5)); g.fillStyle = '#e9e2cf'; g.fill(); noSh(); g.strokeStyle = 'rgba(42,26,16,0.25)'; g.lineWidth = 3;
+      for (let i = 0; i < 5; i++) { g.beginPath(); g.moveTo(-180, -90 + i * 45); g.lineTo(180, -80 + i * 42); g.stroke(); }
+      const k = stepsIn(t, 24.75, 8); g.setLineDash([10, 9]); g.strokeStyle = C.orangeInk; g.lineWidth = 5; g.beginPath(); g.moveTo(-140, 60); g.lineTo(-140 + Math.min(k, 8) * 18, 60 - Math.min(k, 8) * 14); g.stroke();
+      g.beginPath(); g.moveTo(-140, 60); g.lineTo(-140 + Math.min(k, 8) * 32, 60 - Math.min(k, 8) * 4); g.stroke(); g.setLineDash([]); }, { amp: 0.6 });
+    pinHead(420, 1040, C.orange); if (t >= 25.0) pinHead(600, 920, C.green); if (t >= 25.17) pinHead(700, 1020, C.green);
+    label('routes', step, 560, 850, 0.03, ['ROUTES'], C.cream, C.ink, 24, { pin: C.orange }); }
+  if (t >= 26.33) { label('price', step, 860, 1060, 0.06, ['PRICE'], '#fbf4e6', C.ink, 30, { pin: C.orange }); if (t >= 26.58) stamp('varies', 850, 1150, 0.07, 'VARIES', C.orangeInk, 34); }
+  bin('bin7', step, 860, 1405, 200, 130, 'ALUMINIUM', C.orange);
+  // mascot: keep it empty (tip the can), then drop it in the aluminium bin
+  const tipping = t >= 19.25 && t < 20.5, dropped = t >= 21.42;
+  const m = mascot('m7', step, 420, 1405, 1.15, { armL: tipping ? [-0.95, 110] : (t >= 20.5 && t < 21.42 ? [-0.2, 150] : (t >= 27.6 ? [-0.6, 110] : [0.9, 90])), armR: [1.15, 70], look: tipping ? [0.5, -0.6] : [0.6, 0.2], lid: -0.5 });
+  if (t < 21.42) { const [hx, hy] = m.hand(1); aluCan(hx + 10, hy + 70, 0.95, { rot: tipping ? Math.PI * 0.85 : 0, lift: 1.6 });
+    if (tipping) for (let i = 0; i < 3; i++) { const k = (stepsIn(t, 19.5 + i * 0.25, 6)); if (k > 0 && k < 6) { g.fillStyle = '#7a4a26'; g.beginPath(); g.ellipse(hx + 14, hy + 60 + k * 26, 6, 9, 0, 0, 7); g.fill(); } } }
+  if (dropped) aluCan(860, 1320, 0.9, { rot: 0.5 });
+  // end: a new can arrives - can to can
+  if (t >= 27.75) { aluCan(620, 1405, 1.2, { lift: t < 27.84 ? 2 : 1 }); label('cantocan', step, 620, 1150, -0.04, ['CAN → CAN'], C.cream, C.ink, 30, { pin: C.green }); }
+}
+
+// ---------- scene timeline and in-medium transitions ----------
+const SCENES = [
+  { f: scene1, a: 0, b: 3.33 }, { f: scene2, a: 3.0, b: 6.5 }, { f: scene3, a: 6.17, b: 7.92 },
+  { f: scene4, a: 7.75, b: 10.0 }, { f: scene5, a: 9.67, b: 13.5 }, { f: scene6, a: 13.17, b: 19.33 }, { f: scene7, a: 19.0, b: 30.1 },
+];
+const TRANS = [ // [start, kind] each lasts 4 steps (0.33 s): outgoing -> incoming
+  [3.0, 'fold'], [6.17, 'slide'], [7.75, 'drop'], [9.67, 'slide'], [13.17, 'iris'], [19.0, 'unfold'],
+];
+function drawSceneAt(i, t, step, ctx) { const prev = g; g = ctx; g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; noSh(); g.globalCompositeOperation = 'source-over'; SCENES[i].f(t, step); g = prev; }
+
+// ---------- captions: word groups, max 2 lines, ink inside y 350-470 ----------
+const GROUPS = {
+  L1: ['An empty aluminium can|is still [useful metal.]'],
+  L2: ['At recycling facilities,|cans are [sorted] and [shredded,]'],
+  L3: ['then [cleaned] and [melted.]'],
+  L4: ['The metal is [cast]|and [rolled into sheet]', 'for new products,|[including cans.]'],
+  L5: ['But a can is not|[pure aluminium:]', '[coatings] and other materials|need processing too.'],
+  L6: ['[Keep it empty,]', 'follow your local|[sorting rules,]', 'and check with your|[scrap collector.]'],
+  L7: ['Recycling routes and prices|[vary by location.]'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id], tot = gs.reduce((a, s) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach((s, gi) => { const a = gi === 0 ? L.start - 0.1 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 1.0)) : 29.33; });
+function caption(c, step) {
+  g = main.getContext('2d'); g.setTransform(1, 0, 0, 1, 0, 0); g.font = '800 56px "Baloo 2"';
+  const lines = c.text.split('|'), lh = 60, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 410 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  piece('cap' + c.id, step, W / 2, top + inkH / 2, -0.005, () => { poly(torn('strip' + c.id, wMax + 64, inkH + 34, 6)); g.fillStyle = C.cream; g.fill(); }, { amp: 0.5, brot: 0.001 });
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.orangeInk : C.ink; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (tRaw) => {
+  const step = Math.floor(tRaw * STEP + 1e-6), t = step / STEP;
+  const mg = main.getContext('2d'); mg.setTransform(1, 0, 0, 1, 0, 0);
+  let tr = null; for (const [ts, kind] of TRANS) if (t >= ts && t < ts + 0.33) tr = [ts, kind];
+  let scene = 0; for (let i = 0; i < SCENES.length; i++) if (t >= SCENES[i].a) scene = i;
+  if (!tr) drawSceneAt(scene, t, step, mg);
+  else {
+    const [ts, kind] = tr, k = (stepsIn(t, ts, 4) + 1) / 5; // 4 stepped stages
+    const inI = SCENES.findIndex((s) => s.a === ts), outI = inI - 1;
+    drawSceneAt(outI, t, step, offG); drawSceneAt(inI, t, step, mg);
+    mg.save();
+    if (kind === 'fold') { // outgoing page folds down onto the counter line
+      const h = H * Math.cos(k * Math.PI / 2); mg.drawImage(off, 0, 0, W, H, 0, H - h, W, h); mg.fillStyle = `rgba(0,0,0,${0.45 * k})`; mg.fillRect(0, H - h, W, h);
+    } else if (kind === 'unfold') { // incoming page unfolds up from the counter line over the outgoing scene
+      mg.drawImage(main, 0, 0); const img = mk(W, H, (x) => x.drawImage(main, 0, 0)); mg.drawImage(off, 0, 0); const h = H * Math.sin(k * Math.PI / 2);
+      mg.drawImage(img, 0, 0, W, H, 0, H - h, W, h); mg.fillStyle = `rgba(0,0,0,${0.4 * (1 - k)})`; mg.fillRect(0, H - h, W, h);
+    } else if (kind === 'slide') { // outgoing slides left, incoming paper panel slides in from the right with a shadowed edge
+      const img = mk(W, H, (x) => x.drawImage(main, 0, 0)); mg.drawImage(off, -W * k, 0); mg.shadowColor = 'rgba(0,0,0,0.5)'; mg.shadowOffsetX = -12; mg.shadowBlur = 18; mg.drawImage(img, W * (1 - k), 0);
+    } else if (kind === 'drop') { // incoming panel drops in two hard steps
+      const img = mk(W, H, (x) => x.drawImage(main, 0, 0)); mg.drawImage(off, 0, 0); const dy = k < 0.5 ? -H * 0.35 : (k < 0.8 ? -60 : 0);
+      mg.shadowColor = 'rgba(0,0,0,0.55)'; mg.shadowOffsetY = 24; mg.shadowBlur = 24; mg.drawImage(img, 0, dy);
+    } else if (kind === 'iris') { // paper magnifier opens on the new can
+      const img = mk(W, H, (x) => x.drawImage(main, 0, 0)); mg.drawImage(off, 0, 0); const r = 60 + k * 1350;
+      mg.save(); mg.beginPath(); mg.arc(820, 1240, r, 0, 7); mg.clip(); mg.drawImage(img, 0, 0); mg.restore();
+      mg.beginPath(); mg.arc(820, 1240, r, 0, 7); mg.strokeStyle = C.cream; mg.lineWidth = 22; mg.stroke(); mg.strokeStyle = 'rgba(0,0,0,0.3)'; mg.lineWidth = 4; mg.stroke();
+    }
+    mg.restore();
+  }
+  g = mg; g.setTransform(1, 0, 0, 1, 0, 0); noSh(); g.globalAlpha = 0.5; g.drawImage(grain, 0, 0, W, H); g.globalAlpha = 1;
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, step);
+  return { cap, scene: scene + 1, transition: tr ? tr[1] : null };
+};
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,58 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 24.0,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "An empty aluminium can is still useful metal.",
+      "start": 0.3,
+      "duration": 2.658,
+      "end": 2.958
+    },
+    {
+      "id": "L2",
+      "text": "At recycling facilities, cans are sorted and shredded,",
+      "start": 3.3,
+      "duration": 3.076,
+      "end": 6.376
+    },
+    {
+      "id": "L3",
+      "text": "then cleaned and melted.",
+      "start": 6.85,
+      "duration": 1.191,
+      "end": 8.041
+    },
+    {
+      "id": "L4",
+      "text": "The metal is cast and rolled into sheet for new products, including cans.",
+      "start": 8.65,
+      "duration": 4.175,
+      "end": 12.825
+    },
+    {
+      "id": "L5",
+      "text": "But a can is not pure aluminium: coatings and other materials need processing too.",
+      "start": 13.45,
+      "duration": 5.173,
+      "end": 18.623
+    },
+    {
+      "id": "L6",
+      "text": "Keep it empty, follow your local sorting rules, and check with your scrap collector.",
+      "start": 19.25,
+      "duration": 4.608,
+      "end": 23.858
+    },
+    {
+      "id": "L7",
+      "text": "Recycling routes and prices vary by location.",
+      "start": 24.45,
+      "duration": 3.119,
+      "end": 27.569
+    }
+  ]
+}

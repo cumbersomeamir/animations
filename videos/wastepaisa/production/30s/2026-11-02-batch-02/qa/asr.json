@@ -1,0 +1,100 @@
+[
+ {
+  "id": "L1",
+  "script": "An empty aluminium can is still useful metal.",
+  "asr": "in an empty aluminium can is still useful metal",
+  "word_accuracy": 0.889,
+  "planned": [
+   0.3,
+   2.958
+  ],
+  "heard": [
+   0.15,
+   2.94
+  ]
+ },
+ {
+  "id": "L2",
+  "script": "At recycling facilities, cans are sorted and shredded,",
+  "asr": "at recycling facilities cans are sorted and shredded",
+  "word_accuracy": 1.0,
+  "planned": [
+   3.3,
+   6.376
+  ],
+  "heard": [
+   3.33,
+   6.33
+  ]
+ },
+ {
+  "id": "L3",
+  "script": "then cleaned and melted.",
+  "asr": "then cleaned and melted",
+  "word_accuracy": 1.0,
+  "planned": [
+   6.85,
+   8.041
+  ],
+  "heard": [
+   6.85,
+   8.02
+  ]
+ },
+ {
+  "id": "L4",
+  "script": "The metal is cast and rolled into sheet for new products, including cans.",
+  "asr": "the metal is cast and rolled into sheet for new products including cans",
+  "word_accuracy": 1.0,
+  "planned": [
+   8.65,
+   12.825
+  ],
+  "heard": [
+   8.62,
+   12.79
+  ]
+ },
+ {
+  "id": "L5",
+  "script": "But a can is not pure aluminium: coatings and other materials need processing too.",
+  "asr": "but a can is not pure aluminium coatings and other materials need processing to",
+  "word_accuracy": 0.929,
+  "planned": [
+   13.45,
+   18.623
+  ],
+  "heard": [
+   13.45,
+   18.61
+  ]
+ },
+ {
+  "id": "L6",
+  "script": "Keep it empty, follow your local sorting rules, and check with your scrap collector.",
+  "asr": "we keep it empty follow your local sorting rules and check with your scrap collector",
+  "word_accuracy": 0.933,
+  "planned": [
+   19.25,
+   23.858
+  ],
+  "heard": [
+   19.1,
+   23.81
+  ]
+ },
+ {
+  "id": "L7",
+  "script": "Recycling routes and prices vary by location.",
+  "asr": "recycling routes and prices vary by location i i",
+  "word_accuracy": 0.778,
+  "planned": [
+   24.45,
+   27.569
+  ],
+  "heard": [
+   24.42,
+   27.69
+  ]
+ }
+]

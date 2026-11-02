@@ -1,0 +1,209 @@
+{
+ "sfx_cues": [
+  [
+   0.17,
+   "can drops on counter"
+  ],
+  [
+   0.92,
+   "tap can"
+  ],
+  [
+   1.33,
+   "tap can"
+  ],
+  [
+   1.17,
+   "pin ALUMINIUM tag"
+  ],
+  [
+   2.17,
+   "stamp USEFUL METAL"
+  ],
+  [
+   3.0,
+   "page folds down (transition)"
+  ],
+  [
+   4.58,
+   "magnet grabs steel can"
+  ],
+  [
+   5.42,
+   "steel can into bin"
+  ],
+  [
+   5.2,
+   "eddy current flick"
+  ],
+  [
+   5.58,
+   "aluminium can lands in bin"
+  ],
+  [
+   6.17,
+   "panel slides (transition)"
+  ],
+  [
+   6.33,
+   "can into hopper"
+  ],
+  [
+   6.58,
+   "can into hopper"
+  ],
+  [
+   6.4,
+   "shredder grind (kept low under speech)"
+  ],
+  [
+   7.0,
+   "de-coating heat hiss"
+  ],
+  [
+   7.83,
+   "furnace panel drops (transition)"
+  ],
+  [
+   8.0,
+   "flakes into melt"
+  ],
+  [
+   8.25,
+   "flakes into melt"
+  ],
+  [
+   8.8,
+   "pour into mould"
+  ],
+  [
+   9.42,
+   "pin CAST tag"
+  ],
+  [
+   9.67,
+   "panel slides (transition)"
+  ],
+  [
+   10.0,
+   "roll pass"
+  ],
+  [
+   10.25,
+   "roll pass"
+  ],
+  [
+   10.5,
+   "pin SHEET tag"
+  ],
+  [
+   11.67,
+   "press cuts disc"
+  ],
+  [
+   12.17,
+   "can formed"
+  ],
+  [
+   12.33,
+   "pin NEW CAN tag"
+  ],
+  [
+   13.17,
+   "magnifier iris (transition)"
+  ],
+  [
+   13.83,
+   "pin ALLOY label"
+  ],
+  [
+   15.33,
+   "pin PAINT label"
+  ],
+  [
+   15.92,
+   "pin INNER label"
+  ],
+  [
+   16.58,
+   "lid lands"
+  ],
+  [
+   17.58,
+   "paint peeled"
+  ],
+  [
+   17.92,
+   "stamp PROCESSED BY HEAT"
+  ],
+  [
+   19.0,
+   "page unfolds (transition)"
+  ],
+  [
+   19.58,
+   "drip"
+  ],
+  [
+   19.83,
+   "drip"
+  ],
+  [
+   20.08,
+   "drip"
+  ],
+  [
+   20.75,
+   "pin LOCAL RULES"
+  ],
+  [
+   21.42,
+   "can into ALUMINIUM bin"
+  ],
+  [
+   22.83,
+   "pin SCRAP COLLECTOR"
+  ],
+  [
+   24.58,
+   "map card placed"
+  ],
+  [
+   25.0,
+   "pin route"
+  ],
+  [
+   25.17,
+   "pin route"
+  ],
+  [
+   26.33,
+   "pin PRICE tag"
+  ],
+  [
+   26.58,
+   "stamp VARIES"
+  ],
+  [
+   27.75,
+   "new can lands"
+  ],
+  [
+   27.92,
+   "pin CAN -> CAN tag"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-18.21",
+  "input_tp": "-3.09",
+  "input_lra": "6.60",
+  "input_thresh": "-29.37",
+  "output_i": "-15.10",
+  "output_tp": "-1.50",
+  "output_lra": "4.30",
+  "output_thresh": "-25.97",
+  "normalization_type": "dynamic",
+  "target_offset": "0.10"
+ }
+}

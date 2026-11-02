@@ -1,12 +1,12 @@
 # 11 · Production format (durable rules for WastePaisa production videos)
 
-Recorded 2026-11-02 for production round `production-30s-2026-11-02`. This is durable context for
+Recorded 2026-11-02 for production round `production-30s-2026-11-02`; **updated for batch-02** (`production-30s-2026-11-02-batch-02`) with the user's latest feedback, which overrides earlier style details. This is durable context for
 future rounds. **No automation has been created.**
 
 ## Channel genre (locked)
 Recycling explainers: material composition, sorting and potential scrap value. Each video teaches one
-material fact that is useful without the app. Never claim payouts, prices, rates, "guaranteed profit"
-or a monthly allowance; any value talk needs a checked, dated source and must stay non-promissory.
+material fact that is useful without the app. Never claim payouts, prices, rates, "guaranteed profit",
+earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or promises is not); any value talk needs a checked, dated source and must stay non-promissory.
 
 ## Art-direction skill (exact)
 - Skill: **Paper-cut Motion**, https://github.com/imMamdouhaboammar/motion-graphics-skills/blob/main/skills/paper-cut-motion/SKILL.md
@@ -21,10 +21,22 @@ or a monthly allowance; any value talk needs a checked, dated source and must st
   limited to stepped 12 fps pushes in the hook and takeaway (the skill gives no camera rule and warns
   against smooth moves). A quiet music bed is added under contact SFX, as the brief requires.
 
+## User feedback log (latest overrides earlier)
+- **batch-02 (2026-11-02):** "Keep the open-lid can mascot, simplified to one clear cylinder, lid, eyes and two
+  limbs; no bolts or complicated rig." "Paper-cut scrap shop unfolds into sorting tray, shredder, furnace
+  cross-section and new sheet." "Distinct scene changes; no earnings promises." "Make hook and payoff useful,
+  visibly explain mechanism with scene changes."
+
 ## Recurring scene and performer
-- **Tinku**, the approved tin-can creature with an open lid, from `education/pilot-01/src/rig/tinku.js`,
-  rendered as transparent pose sprites (look, tap, wow, point, pull, pin, shrug) with a white paper-cut
-  edge and lifted shadow. Never redesign him. Add poses only from the same rig.
+- **Tinku (simplified, current):** a flat paper-cut mascot drawn procedurally in Canvas2D (`mascot()` in
+  `production/30s/2026-11-02-batch-02/src/scene.html`). It has exactly **one tin cylinder** (cream label band with
+  orange and green stripes), a **flipped-up open lid**, **two eyes** and **two copper-wire arms** with orange glove hands,
+  plus a white paper edge. **No** bolts, ribs, antenna, ear flaps, loupe, legs or 3D rig. Pose with arm angles,
+  eye direction and blinks. Use the same palette.
+- (Superseded in 30s-02: the 3D-rig sprites used in 30s-01. Keep them only for that archived episode.)
+- **Distinct scene changes** are now standard. Each mechanism stage gets its own paper-cut scene, joined by
+  in-medium transitions lasting 4 steps (0.33 s): page **fold** down, panel **slide**, hard **drop**, paper
+  **magnifier iris**, page **unfold**. Scenes start and end in Tinku's scrap shop.
 - **Tinku's scrap shop**: dark cardboard pegboard wall, kraft backing sheet, cork **sorting board**,
   counter, "sorted scrap" crate (carries the subtle app signature), copper coil, printed material tags.
 - Evidence hierarchy per episode: 1 anchor object, 3–6 evidence pieces, at most about 4 connectors,
@@ -36,6 +48,8 @@ High yuv420p (`-preset veryfast -crf 16`) · AAC-LC 48 kHz stereo 192 kb/s · ex
 900 frames) · `-movflags +faststart`.
 
 ## Story structure (30 s)
+Hook = a useful, surprising material fact. Payoff = a practical, non-promissory action plus a callback visual
+(30s-02: "CAN → CAN").
 Hook 0–3 s · visible setup 3–8 s · mechanism/story 8–23 s · takeaway 23–29 s · quiet end 29–30 s
 (caption off, resolution piece held, music resolves).
 
@@ -60,7 +74,8 @@ copper #C47A42 · coffee #5B3420.
   Never substitute Piper. No celebrity or character imitation.
 - Music: quiet original numpy cue (96 BPM, D major) reusing `education/pilot-01/audio/synth.py` instruments.
   SFX play only on contact (pins, taps, tears, tape, landings, drops, stamps).
-- Mix: voice upfront (×1.3), music ducked 12 dB and SFX 7 dB under speech. Two-pass loudnorm to
+- Mix: voice upfront (×1.3), music ducked 12 dB and SFX 7 dB under speech. Paper transitions get a short paper-slide
+  sound (contact). Two-pass loudnorm to
   **−15 LUFS, −1.5 dBTP** (the accepted window is −14 to −16 LUFS with true peak ≤ −1 dBTP).
 
 ## QA checklist (every production round)
