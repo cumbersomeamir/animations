@@ -1,0 +1,410 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "A steel ball sinks.",
+   "asr": "A steel ball sinks.",
+   "duration": 1.111,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.0,
+     "end": 0.06
+    },
+    {
+     "w": "steel",
+     "start": 0.06,
+     "end": 0.26
+    },
+    {
+     "w": "ball",
+     "start": 0.26,
+     "end": 0.52
+    },
+    {
+     "w": "sinks.",
+     "start": 0.52,
+     "end": 0.8
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "A steel ship floats.",
+   "asr": "A steel ship floats.",
+   "duration": 1.147,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "steel",
+     "start": 0.08,
+     "end": 0.26
+    },
+    {
+     "w": "ship",
+     "start": 0.26,
+     "end": 0.58
+    },
+    {
+     "w": "floats.",
+     "start": 0.58,
+     "end": 0.84
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "Same material. So what changes?",
+   "asr": "Same material, so what changes?",
+   "duration": 2.11,
+   "words": [
+    {
+     "w": "Same",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "w": "material,",
+     "start": 0.22,
+     "end": 0.56
+    },
+    {
+     "w": "so",
+     "start": 1.02,
+     "end": 1.2
+    },
+    {
+     "w": "what",
+     "start": 1.2,
+     "end": 1.34
+    },
+    {
+     "w": "changes?",
+     "start": 1.34,
+     "end": 1.66
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "Make your guess.",
+   "asr": "Make your guess.",
+   "duration": 0.785,
+   "words": [
+    {
+     "w": "Make",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "your",
+     "start": 0.14,
+     "end": 0.3
+    },
+    {
+     "w": "guess.",
+     "start": 0.3,
+     "end": 0.5
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "Here's the answer: the ship's hollow shape displaces much more water for its weight.",
+   "asr": "Here's the answer. The ship's hollow shape displaces much more water for its weight.",
+   "duration": 4.761,
+   "words": [
+    {
+     "w": "Here's",
+     "start": 0.0,
+     "end": 0.28
+    },
+    {
+     "w": "the",
+     "start": 0.28,
+     "end": 0.38
+    },
+    {
+     "w": "answer.",
+     "start": 0.38,
+     "end": 0.72
+    },
+    {
+     "w": "The",
+     "start": 1.44,
+     "end": 1.44
+    },
+    {
+     "w": "ship's",
+     "start": 1.44,
+     "end": 1.76
+    },
+    {
+     "w": "hollow",
+     "start": 1.76,
+     "end": 1.96
+    },
+    {
+     "w": "shape",
+     "start": 1.96,
+     "end": 2.4
+    },
+    {
+     "w": "displaces",
+     "start": 2.4,
+     "end": 3.0
+    },
+    {
+     "w": "much",
+     "start": 3.0,
+     "end": 3.32
+    },
+    {
+     "w": "more",
+     "start": 3.32,
+     "end": 3.62
+    },
+    {
+     "w": "water",
+     "start": 3.62,
+     "end": 3.88
+    },
+    {
+     "w": "for",
+     "start": 3.88,
+     "end": 4.16
+    },
+    {
+     "w": "its",
+     "start": 4.16,
+     "end": 4.3
+    },
+    {
+     "w": "weight.",
+     "start": 4.3,
+     "end": 4.5
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "The water pushes upward.",
+   "asr": "The water pushes upward.",
+   "duration": 1.218,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.0,
+     "end": 0.06
+    },
+    {
+     "w": "water",
+     "start": 0.06,
+     "end": 0.24
+    },
+    {
+     "w": "pushes",
+     "start": 0.24,
+     "end": 0.58
+    },
+    {
+     "w": "upward.",
+     "start": 0.58,
+     "end": 0.96
+    }
+   ]
+  },
+  {
+   "id": "l07",
+   "text": "When that buoyant force balances the ship's weight, it floats.",
+   "asr": "When that buoyant force balances the ship's weight, it floats.",
+   "duration": 3.112,
+   "words": [
+    {
+     "w": "When",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "w": "that",
+     "start": 0.1,
+     "end": 0.22
+    },
+    {
+     "w": "buoyant",
+     "start": 0.22,
+     "end": 0.62
+    },
+    {
+     "w": "force",
+     "start": 0.62,
+     "end": 0.8
+    },
+    {
+     "w": "balances",
+     "start": 0.8,
+     "end": 1.3
+    },
+    {
+     "w": "the",
+     "start": 1.3,
+     "end": 1.56
+    },
+    {
+     "w": "ship's",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "weight,",
+     "start": 1.88,
+     "end": 2.08
+    },
+    {
+     "w": "it",
+     "start": 2.4,
+     "end": 2.52
+    },
+    {
+     "w": "floats.",
+     "start": 2.52,
+     "end": 2.72
+    }
+   ]
+  },
+  {
+   "id": "l08",
+   "text": "Fill the hull with water, and the situation changes.",
+   "asr": "Fill the hull with water and the situation changes.",
+   "duration": 3.116,
+   "words": [
+    {
+     "w": "Fill",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "w": "the",
+     "start": 0.16,
+     "end": 0.32
+    },
+    {
+     "w": "hull",
+     "start": 0.32,
+     "end": 0.52
+    },
+    {
+     "w": "with",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "water",
+     "start": 0.76,
+     "end": 1.12
+    },
+    {
+     "w": "and",
+     "start": 1.12,
+     "end": 1.62
+    },
+    {
+     "w": "the",
+     "start": 1.62,
+     "end": 1.7
+    },
+    {
+     "w": "situation",
+     "start": 1.7,
+     "end": 2.02
+    },
+    {
+     "w": "changes.",
+     "start": 2.02,
+     "end": 2.7
+    }
+   ]
+  },
+  {
+   "id": "l09",
+   "text": "It's not that the steel became lighter.",
+   "asr": "It's not that the steel became lighter.",
+   "duration": 1.753,
+   "words": [
+    {
+     "w": "It's",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "not",
+     "start": 0.14,
+     "end": 0.3
+    },
+    {
+     "w": "that",
+     "start": 0.3,
+     "end": 0.46
+    },
+    {
+     "w": "the",
+     "start": 0.46,
+     "end": 0.58
+    },
+    {
+     "w": "steel",
+     "start": 0.58,
+     "end": 0.82
+    },
+    {
+     "w": "became",
+     "start": 0.82,
+     "end": 1.18
+    },
+    {
+     "w": "lighter.",
+     "start": 1.18,
+     "end": 1.46
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "The shape changed the balance.",
+   "asr": "The shape changed the balance.",
+   "duration": 1.327,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "shape",
+     "start": 0.08,
+     "end": 0.24
+    },
+    {
+     "w": "changed",
+     "start": 0.24,
+     "end": 0.52
+    },
+    {
+     "w": "the",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "balance.",
+     "start": 0.76,
+     "end": 1.0
+    }
+   ]
+  }
+ ]
+}

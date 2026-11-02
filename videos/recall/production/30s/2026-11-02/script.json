@@ -1,0 +1,17 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {"id": "l01", "text": "A steel ball sinks."},
+    {"id": "l02", "text": "A steel ship floats."},
+    {"id": "l03", "text": "Same material. So what changes?"},
+    {"id": "l04", "text": "Make your guess."},
+    {"id": "l05", "text": "Here's the answer: the ship's hollow shape displaces much more water for its weight."},
+    {"id": "l06", "text": "The water pushes upward."},
+    {"id": "l07", "text": "When that buoyant force balances the ship's weight, it floats."},
+    {"id": "l08", "text": "Fill the hull with water, and the situation changes."},
+    {"id": "l09", "text": "It's not that the steel became lighter."},
+    {"id": "l10", "text": "The shape changed the balance."}
+  ]
+}
