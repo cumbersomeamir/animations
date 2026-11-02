@@ -69,3 +69,44 @@ QA (`render.mjs --capbounds`, ffprobe, full decode, contact sheets, ebur128). Re
 - Script length for 30 s with Kokoro Meshline at 0.98: ~65–80 words (≈ 25–26 s of speech max); reword phrases that ASR
   mishears on key words (e.g. "do not all need" → "not every family needs") rather than speeding up.
 - Captions: word groups chosen per sentence (src: `tools_captions.py` GROUPS); one line preferred, 56–64 px.
+
+## Update 2026-11-02 — feedback round (SUPERSEDES conflicting earlier rules)
+**Channel purpose:** Help = helping people in poverty through donations. Not general productivity, mentalism, or a disaster-news
+channel. Episodes are concrete educational stories a general viewer can understand and share — no weak generic donation speeches,
+no filler, no empty motivational lines, no long disclaimers (put any material qualification briefly inside the relevant sentence).
+
+**Recurring format: "Hands That Reveal the Hidden Cost"** (first used in `production/30s/2026-11-02-feedback-round/`).
+Inspiration reviewed by the user: https://www.instagram.com/p/DfOqfiFtzCm/ — take only its craft (textured high-contrast stage,
+cut-out hands physically revealing an explanation, short bold captions, close-ups, dramatic prop changes). Its mentalism subject is
+NOT Help content. Not accessed by Claude; the user's review is the reference.
+
+### Exact style recipe (the look — a rendering library is not the style)
+1. Stage: warm cream cotton shadow screen with visible weave, dark wood frame that never moves, ink surround; brown (not grey)
+   vignette, light grain. High contrast: deep dyed pieces against a lamp-lit centre.
+2. Light: two oil-lamp lobes with independent flicker; scene changes = a quick lamp dip, or one warm-white flash on a dramatic
+   prop change; ending = lamps dim.
+3. Pieces: translucent dyed hide (Help palette) multiplied with hide texture, dark carved outline on every piece, carved
+   lattice/coin openwork inside larger shapes, rivets at joints, thin grey rods running to the bottom edge, soft offset cast shadow.
+4. Hands: large cut-out hands on long sleeves (helper = green sleeve + yellow cuff; neighbour = light-green sleeve + orange cuff)
+   that rise from below to lift, flip, tap, carry, lay planks — the hands do the explaining.
+5. Props: few, big, readable: one idea per prop (small packet, bulk sack, budget envelope, coins without currency symbols,
+   carved word-plaques, comparative bars). Prop changes are swaps/slides, never morphs.
+6. Diagrams: large comparative bars without invented numbers or prices; labels are 1–3 word pills ("per kilo", "paid today",
+   "left today"); keep them centred, above y≈1560, away from side UI.
+7. Camera: push through the frame on close-ups (frame stays fixed), purposeful scene changes every 3–6 s (8 scenes in 30 s);
+   no static page with camera bobbing.
+8. People: the recurring yellow-hat helper silhouette + dignified same-size neighbour(s); no caricature of poverty, no pity montage;
+   the person states the need and acts (takes what they asked for).
+9. Motion: puppets step at 15 fps (each pose held 2 frames), arrivals snap from blur, small overshoot on reveals, hand tremor.
+10. Type: Inter ExtraBold (app font), cream on ink for captions; glowing cut letters on dark hide plaques for in-scene words.
+11. Palette: green `#2DB37D`/`#1F8A5E`, yellow `#F2C230`/`#C99A12`, cream `#F7F5EF`, ink `#0B0D12`, hide `#D9B98A`,
+    sack kraft `#C9A06A`, neighbour orange `#E8A23A`.
+12. Sound: Kokoro Meshline voice upfront; music = soft sustained pad per scene + one bass note and a two-note reveal motif at
+    scene changes only (NO repeating arpeggio/loop); SFX tied to actions (cards, coins, gate, planks, tick); −15 LUFS, ≤ −1.5 dBTP.
+
+### Structure + safe areas (feedback round)
+Strong opening question; distinct scenes that show the mechanism as it is narrated; clear takeaway; short natural CTA in the final
+3–4 s that fits Help's donation purpose (e.g. "Help someone meet a real need. Explore Help."). Never claim every donation is
+tracked, never invent app capabilities, statistics, prices, savings, income or testimonials.
+Captions: y < 300 empty; caption ink y 340–520, x 90–990, max two readable lines, one word group per card, no overlaps.
+Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-round/help-30s-feedback-01.mp4`.

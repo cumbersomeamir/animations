@@ -1,0 +1,86 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "duration": 30.0,
+  "voiceStarts": [
+    0.3,
+    3.75,
+    7.45,
+    10.05,
+    16.2,
+    19.35,
+    26.3,
+    28.25
+  ],
+  "scenes": {
+    "A_hook_hands_reveal": [
+      0.0,
+      3.45
+    ],
+    "B_cost_per_kilo": [
+      3.45,
+      7.2
+    ],
+    "C_paid_today": [
+      7.2,
+      9.85
+    ],
+    "D_budget_envelope": [
+      9.85,
+      15.95
+    ],
+    "E_poverty_premium": [
+      15.95,
+      19.05
+    ],
+    "F_ask_the_need": [
+      19.05,
+      22.15
+    ],
+    "G_bridge": [
+      22.15,
+      26.15
+    ],
+    "H_cta": [
+      26.15,
+      30.0
+    ]
+  },
+  "cues": {
+    "handsUp": 0.0,
+    "packetIn": 0.0,
+    "sackIn": 0.4,
+    "helperIn": 1.6,
+    "cardKilo": 4.0,
+    "barsKilo": 4.4,
+    "tapPacket": 5.2,
+    "tapSack": 6.1,
+    "flash": 7.2,
+    "cardToday": 7.4,
+    "barsToday": 7.8,
+    "sackSlam": 8.6,
+    "envOpen": 10.2,
+    "tokensOut": 10.6,
+    "rentIn": 11.3,
+    "billsIn": 11.9,
+    "tokRent": 12.3,
+    "tokBills": 12.9,
+    "leftBar": 13.5,
+    "sackBar": 13.9,
+    "gate": 14.6,
+    "sackAway": 14.9,
+    "premium": 15.85,
+    "premiumGlow": 17.6,
+    "ask": 19.6,
+    "needPlaque": 20.6,
+    "plank1": 22.5,
+    "plank2": 23.1,
+    "plank3": 23.7,
+    "reach": 24.3,
+    "take": 25.1,
+    "tick": 25.6,
+    "cta": 26.3,
+    "logo": 27.9,
+    "dimEnd": 29.2
+  }
+}

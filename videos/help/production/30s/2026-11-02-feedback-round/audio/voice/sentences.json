@@ -1,0 +1,64 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Why can having less money make groceries cost more?",
+   "dur": 2.928,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "A small packet may cost more per kilo than a bulk bag.",
+   "dur": 3.147,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "But the bulk bag needs more money today.",
+   "dur": 1.957,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "When rent and other essentials use that cash, the cheaper-per-kilo option can stay out of reach.",
+   "dur": 5.48,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "This is one example of the poverty premium.",
+   "dur": 2.467,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Before helping, ask what someone actually needs.",
+   "dur": 2.733,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Help someone meet a real need.",
+   "dur": 1.513,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Explore Help.",
+   "dur": 0.788,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

@@ -90,3 +90,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-02 — production batch production-30s-2026-11-02-batch-02 — DONE
 - Output `videos/help/production/30s/2026-11-02-batch-02/help-30s-production-02.mp4`, SHA-256 `6461ba4980129694d1bbff8cc6d634dd11df900208c2e9d6a2e11e2a729c7c12`.
 - Topic: why a flood survivor may need cash rather than another box. Record: `13-production-30s-02.md`; format/feedback update appended to `11-production-format.md`. No automation created.
+
+## 2026-11-02 — feedback round 30 s #01 (poverty premium, "Hands That Reveal the Hidden Cost") — DONE
+- Output `videos/help/production/30s/2026-11-02-feedback-round/help-30s-feedback-01.mp4`, SHA-256 `2d8c0afee3b1233d3586732bfd77e95aca7e9daccedc72af8b34a6ee27e2d1dc`.
+- Brief/script/claims/storyboard: `14-production-30s-feedback-01.md`; format + exact style recipe update in `11-production-format.md`. No automation created.

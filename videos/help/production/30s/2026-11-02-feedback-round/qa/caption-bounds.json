@@ -1,0 +1,166 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 34,
+ "extent": {
+  "x0": 100,
+  "x1": 980,
+  "y0": 379,
+  "y1": 495
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Why can having less money",
+   "fs": 63,
+   "x0": 106,
+   "x1": 974,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 24
+  },
+  {
+   "text": "make groceries cost more?",
+   "fs": 65,
+   "x0": 106,
+   "x1": 974,
+   "y0": 405,
+   "y1": 471,
+   "firstFrame": 76
+  },
+  {
+   "text": "A small packet may cost",
+   "fs": 66,
+   "x0": 145,
+   "x1": 935,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 129
+  },
+  {
+   "text": "more per kilo",
+   "fs": 66,
+   "x0": 328,
+   "x1": 752,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 163
+  },
+  {
+   "text": "than a bulk bag.",
+   "fs": 66,
+   "x0": 280,
+   "x1": 800,
+   "y0": 407,
+   "y1": 471,
+   "firstFrame": 197
+  },
+  {
+   "text": "But the bulk bag",
+   "fs": 66,
+   "x0": 277,
+   "x1": 803,
+   "y0": 407,
+   "y1": 471,
+   "firstFrame": 232
+  },
+  {
+   "text": "needs more money today.",
+   "fs": 66,
+   "x0": 119,
+   "x1": 961,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 269
+  },
+  {
+   "text": "When rent and other essentials",
+   "fs": 57,
+   "x0": 100,
+   "x1": 980,
+   "y0": 411,
+   "y1": 457,
+   "firstFrame": 321
+  },
+  {
+   "text": "use that cash,",
+   "fs": 66,
+   "x0": 309,
+   "x1": 771,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 364
+  },
+  {
+   "text": "the cheaper-per-kilo option",
+   "fs": 64,
+   "x0": 104,
+   "x1": 976,
+   "y0": 406,
+   "y1": 470,
+   "firstFrame": 404
+  },
+  {
+   "text": "can stay out of reach.",
+   "fs": 66,
+   "x0": 187,
+   "x1": 893,
+   "y0": 405,
+   "y1": 470,
+   "firstFrame": 451
+  },
+  {
+   "text": "This is one example",
+   "fs": 66,
+   "x0": 218,
+   "x1": 862,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 500
+  },
+  {
+   "text": "of the poverty premium.",
+   "fs": 66,
+   "x0": 145,
+   "x1": 935,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 545
+  },
+  {
+   "text": "Before helping,",
+   "fs": 66,
+   "x0": 291,
+   "x1": 789,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 590
+  },
+  {
+   "text": "ask what someone / actually needs.",
+   "fs": 56,
+   "x0": 281,
+   "x1": 799,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 640
+  },
+  {
+   "text": "Help someone meet a real need.",
+   "fs": 55,
+   "x0": 107,
+   "x1": 973,
+   "y0": 415,
+   "y1": 468,
+   "firstFrame": 813
+  },
+  {
+   "text": "Explore Help.",
+   "fs": 66,
+   "x0": 323,
+   "x1": 757,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 862
+  }
+ ]
+}
