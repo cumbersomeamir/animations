@@ -1,0 +1,55 @@
+{
+  "_doc": "NutriAI 15 s shader test. Frames at 30 fps (450 total). Shared by web/state.js (uniforms) and audio/build_audio.py (SFX + narration), so every sound sits on its visual frame.",
+  "fps": 30,
+  "frames": 450,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {"id": "A", "start": 0,   "end": 78,  "name": "Drop: a single leaf-green droplet falls, hits, and blooms into domain-warped fluid", "caption": "Every bite. Every sip."},
+    {"id": "B", "start": 78,  "end": 204, "name": "Meals: the fluid condenses into a plate ring with a fork; three liquid blobs spiral in and fill the ring segment by segment", "caption": "Track every meal."},
+    {"id": "C", "start": 204, "end": 330, "name": "Water: the ring melts under a displacement wave, pools into a glass; four refractive droplets fall and raise the level, lighting tally ticks", "caption": "Log every glass of water."},
+    {"id": "D", "start": 330, "end": 450, "name": "Resolve: the water vortexes up into the icon's ring + leaf, noise-dissolves into the real icon; NutriAI end card and Google Play button", "caption": "NutriAI / Explore on Google Play"}
+  ],
+  "narration": [
+    {"id": "v1", "text": "Every bite. Every sip.", "at": 18},
+    {"id": "v2", "text": "Track every meal.", "at": 104},
+    {"id": "v3", "text": "Log every glass of water.", "at": 222},
+    {"id": "v4", "text": "NutriAI. Explore on Google Play.", "split": [0.95], "at": [366, 396]}
+  ],
+  "events": {
+    "dropHit": 12,
+    "capA_in": 20, "capA_out": 72,
+    "condense": 78, "ringSnap": 104, "forkIn": 100,
+    "capB_in": 98, "capB_out": 196,
+    "meal1": 128, "meal2": 154, "meal3": 180,
+    "melt": 204, "glassIn": 214, "pool": 232,
+    "capC_in": 216, "capC_out": 322,
+    "drop1": 252, "drop2": 272, "drop3": 292, "drop4": 312,
+    "vortex": 330, "logo": 344, "logoSnap": 364, "iconDissolve": 368,
+    "word": 372, "sub": 382, "feat": 390, "button": 398, "press": 424
+  },
+  "sfx": [
+    {"ev": "dropHit", "off": -12, "type": "fall", "gain": -16},
+    {"ev": "dropHit", "type": "impact", "gain": -4},
+    {"ev": "dropHit", "type": "splash", "gain": -10},
+    {"ev": "dropHit", "off": 4, "type": "bubbles", "gain": -20, "dur": 2.0},
+    {"ev": "condense", "type": "suck", "gain": -13, "dur": 0.85},
+    {"ev": "ringSnap", "type": "tock", "gain": -8},
+    {"ev": "meal1", "type": "plop", "gain": -9},
+    {"ev": "meal1", "type": "chime", "gain": -15, "pitch": 1.0},
+    {"ev": "meal2", "type": "plop", "gain": -9, "pitch": 1.1},
+    {"ev": "meal2", "type": "chime", "gain": -15, "pitch": 1.26},
+    {"ev": "meal3", "type": "plop", "gain": -9, "pitch": 1.2},
+    {"ev": "meal3", "type": "chime", "gain": -14, "pitch": 1.5},
+    {"ev": "melt", "type": "melt", "gain": -12, "dur": 1.1},
+    {"ev": "pool", "type": "pour", "gain": -16, "dur": 0.8},
+    {"ev": "drop1", "type": "plink", "gain": -9, "pitch": 1.0},
+    {"ev": "drop2", "type": "plink", "gain": -9, "pitch": 1.12},
+    {"ev": "drop3", "type": "plink", "gain": -9, "pitch": 1.26},
+    {"ev": "drop4", "type": "plink", "gain": -9, "pitch": 1.5},
+    {"ev": "vortex", "type": "swirl", "gain": -12, "dur": 1.2},
+    {"ev": "logoSnap", "type": "bloom", "gain": -8},
+    {"ev": "button", "type": "pop", "gain": -14},
+    {"ev": "press", "type": "click", "gain": -10}
+  ]
+}

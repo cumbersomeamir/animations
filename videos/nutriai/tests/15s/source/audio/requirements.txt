@@ -1,0 +1,7 @@
+# Python venv for narration + audio synthesis (outside the repo; not committed)
+piper-tts==1.8.0
+numpy==2.5.4
+scipy==1.18.1
+onnxruntime==1.31.1
+# QA only (speech-intelligibility check of the narration stem)
+faster-whisper==1.2.1

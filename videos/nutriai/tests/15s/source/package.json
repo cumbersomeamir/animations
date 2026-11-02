@@ -1,0 +1,14 @@
+{
+  "name": "nutriai-15s-shader-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NutriAI 15s style test: GLSL fragment shaders (Three.js ShaderMaterial) rendered frame-by-frame in headless Chromium and encoded with FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "stills": "node render.mjs --still 0,12,40,75,120,200,260,330,400,449"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

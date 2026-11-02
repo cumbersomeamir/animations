@@ -34,4 +34,4 @@ App NutriAI, package com.nutriaimobile, context branch claude-video/nutriai, out
 - None yet.
 
 ## 7. Next step
-Write storyboard + timeline.json, implement renderer and audio, render, inspect, fix, deliver.
+PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone illustration, timeline, canvas renderer; 8 hook stills rendered); no audio, no final MP4. Committed as WIP (d79dede). Superseded in priority by the 15 s style test (06/07) and the educational direction (08–10). Do not relabel as finished.
