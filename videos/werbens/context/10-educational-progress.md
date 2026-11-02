@@ -57,7 +57,18 @@ node src/render.mjs --sheet && bash character/make-sheet.sh
   under captions (S3), hand covering Pip's face (S5), lids occluding faces (luxe lid now pops off; plain lid hinged sideways),
   X-ray beam washing Quibble (elliptical beam), "=" badge over Quibble's mouth, check mark off-screen, weak frame 0 (box now
   already falling, question caption + chip on frame 0). Model sheet: fixed a visibility bug (22/26 empty panels) and labels.
-- Full render: IN PROGRESS (see QA.md once done).
+- Full render pass 1 (20.6 min, 2.7 s/frame): technically clean; visual review found note-over-stripe legibility, unclear
+  S1 point, small X-ray reveal with "=" over the cookies, beam washing Quibble → fixed.
+- Full render pass 2 (19.2 min) = FINAL. Verified: h264 High 1080×1920 yuv420p 30/1, 450 frames, video/audio/format 15.000000 s,
+  AAC-LC 48 kHz stereo, full decode 0 errors, −14.0 LUFS / −1.0 dBTP / LRA 2.1, ASR on final mix 30/30 words, no page errors.
+  sha256 d40419b7f8a220a09f77447e09b0bd6955e6c7e328d58d6dee2eb8912ca7de0b. Details: education/pilot-01/QA.md.
+- Evidence: qa/contact-sheet.png (every 0.5 s), qa/boundary-sheet.png (cut frames), qa/frames/*.jpg, qa/ffprobe.json,
+  qa/loudness.txt, qa/astats.txt, qa/audio-spectrogram.png, qa/asr-mix.json; character/model-sheet.png.
+
+## Unresolved / open
+- None blocking. Limitations listed in QA.md §5 (synthetic voice, bright beam on Quibble, S1 point reads as hand-over-box,
+  Becker 2011 secondary-sourced, Instagram refs not viewable).
 
 ## Next action
-Mux → qa.sh → inspect contact + boundary sheets and frames → ASR on mix → fix/rerender if needed → QA.md → commit + push → send MP4.
+Pilot 01 delivered. Next: wait for user feedback on the pilot; if approved, pick episode 2 from 08's list, research + claim map
+first, reuse `education/pilot-01/src/rig` + pipeline in a new `education/episode-02/` folder (do not modify pilot 01).

@@ -171,7 +171,7 @@ function quibPose(t) {
     p.expr = exprAt(t, [[0, EXPR.sceptic], [T.landLuxe, EXPR.curious], [T.quibSquint[0], EXPR.squint], [T.quibPoint - 0.1, EXPR.smug]], 0.14);
     const pt = ramp(t, 1.72, T.quibPoint, E.outBack);
     p.hand.r = crossR;
-    p.hand.l = crossL.clone().lerp(V(-0.23, 1.38, -0.16), pt).add(V(0, wobble(t, T.quibPoint, 0.03, 3, 6), 0));
+    p.hand.l = crossL.clone().lerp(V(-0.36, 1.32, -0.12), pt).add(V(0, wobble(t, T.quibPoint, 0.03, 3, 6), 0));
     p.point.l = pt;
     p.elbowBack.l = lerp(-0.1, -0.3, pt); p.elbowUp = { l: 0.75 * pt, r: 0 };
   } else if (t < 5.9) {
@@ -245,8 +245,10 @@ function cameraAt(t) {
     const u = ramp(t, 5.9, 9.3, E.sine);
     pos = V(-0.28, 1.74, 3.1).lerp(V(-0.24, 1.75, 2.9), u); tgt = V(0.04, 1.26, -0.4); fov = 38;
   } else if (t < 11.6) { // S4 high wide, whip-in, slow crane down
-    const u = ramp(t, 9.3, 11.6, E.sine), whip = 1 - ramp(t, 9.3, 9.46, E.out);
-    pos = V(-0.42, 2.42, 4.35).lerp(V(-0.38, 2.24, 4.12), u); tgt = V(-0.56, 1.12, -0.35); fov = 40;
+    // wide for the cord pull + "Same cookies" gesture, then push in on the evidence and Quibble's reaction
+    const u1 = ramp(t, 9.3, 10.45, E.sine), u2 = ramp(t, 10.45, 11.6, E.inOut), whip = 1 - ramp(t, 9.3, 9.46, E.out);
+    pos = V(-0.42, 2.42, 4.35).lerp(V(-0.4, 2.32, 4.22), u1).lerp(V(-0.05, 1.9, 3.1), u2);
+    tgt = V(-0.56, 1.12, -0.35).lerp(V(-0.02, 1.12, -0.25), u2); fov = 40;
     tgt.x += whip * 1.2; blur = whip * 14;
   } else { // S5 medium on Pip with the box
     const u = ramp(t, 11.6, 15, E.sine);
@@ -319,7 +321,7 @@ function hudTags(t) {
 function hudBadges(t) {
   const eq = $("eq");
   if (t >= T.equal && t < 11.55) {
-    const m = toScreen(LUXE_AT.clone().lerp(PLAIN_AT, 0.5).add(V(0, 0.06, 0.26)));
+    const m = toScreen(LUXE_AT.clone().lerp(PLAIN_AT, 0.5).add(V(0, 0.22, 0.2)));
     const u = ramp(t, T.equal, T.equal + 0.25, E.outBack), o = 1 - ramp(t, 11.4, 11.55);
     eq.style.display = "block"; eq.style.left = `${m[0]}px`; eq.style.top = `${m[1]}px`; eq.style.transform = `scale(${u})`; eq.style.opacity = String(o);
   } else eq.style.display = "none";
@@ -381,8 +383,8 @@ function crumbBurst(t, tb, origin, from, n, seed) {
 // ------------------------------------------------------------------ frame
 function setBoxXray(box, u) {
   const [body, ...rest] = box.mats;
-  for (const m of box.mats) { m.opacity = lerp(1, m === box.label.material ? 0.12 : 0.15, u); m.depthWrite = u < 0.02; }
-  box.edges.material.opacity = 0.95 * u;
+  for (const m of box.mats) { m.opacity = lerp(1, m === box.label.material ? 0.18 : 0.26, u); m.depthWrite = u < 0.02; }
+  box.edges.material.opacity = u;
 }
 function placeBox(box, s) { box.group.position.copy(s.p); box.group.rotation.set(s.rx, 0, s.rz); box.group.scale.set(1 + (1 - s.sy) * 0.5, s.sy, 1 + (1 - s.sy) * 0.5); }
 function holdCookie(c, hand, toward, t, visible, bitten) {
@@ -417,7 +419,7 @@ function frame(t) {
   const xr = inShot(t, 3) ? ramp(t, T.xray[0], T.xray[1]) : 0;
   setBoxXray(boxes.luxe, xr); setBoxXray(boxes.plain, xr);
   const on = inShot(t, 3) ? ramp(t, T.lampOn, T.lampOn + 0.06) * (1 - 0.06 * Math.sin(t * 60) * ramp(t, T.lampOn, T.lampOn + 0.15) * (1 - ramp(t, T.lampOn + 0.15, T.lampOn + 0.3))) : 0;
-  lamp.beamMat.opacity = 0.2 * on; lamp.light.intensity = 9 * on; lamp.lensMat.color.set(on > 0.5 ? "#FFFFFF" : "#3C2F6E");
+  lamp.beamMat.opacity = 0.13 * on; lamp.light.intensity = 9 * on; lamp.lensMat.color.set(on > 0.5 ? "#FFFFFF" : "#3C2F6E");
   if (!inShot(t, 3)) lamp.setCord(0, 0);
 
   // characters

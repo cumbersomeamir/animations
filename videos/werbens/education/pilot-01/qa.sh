@@ -18,6 +18,6 @@ ffmpeg -v error -y -i "$OUT" -vf "fps=2:start_time=0.25,scale=216:384,drawtext=f
 B="0 77 78 176 177 278 279 347 348 449"
 SEL=$(for f in $B; do printf "eq(n\\,%s)+" "$f"; done); SEL=${SEL%+}
 ffmpeg -v error -y -i "$OUT" -vf "select='$SEL',scale=270:480,drawtext=fontfile=$FONT:text='f%{n} %{pts\:hms}':x=6:y=6:fontsize=18:fontcolor=white:box=1:boxcolor=black@0.55,tile=10x1:padding=4:color=white" -vsync vfr -frames:v 1 qa/boundary-sheet.png
-for f in $B 21 60 130 210 240 300 330 400; do ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,$f)" -vsync vfr -frames:v 1 "qa/frames/f$(printf %03d $f).png"; done
+for f in $B 21 60 130 210 240 300 330 400; do ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,$f)" -vsync vfr -frames:v 1 -q:v 3 "qa/frames/f$(printf %03d $f).jpg"; done
 ffmpeg -v error -y -i "$OUT" -filter_complex "[0:a]showspectrumpic=s=1500x300:legend=0:scale=log[s];[0:a]showwavespic=s=1500x160:colors=#6234FB[w];[s][w]vstack=inputs=2" -frames:v 1 qa/audio-spectrogram.png
 cat qa/video-stream.txt qa/audio-stream.txt qa/format.txt; tail -1 qa/decode.log; grep -E "I:|Peak:" qa/loudness.txt

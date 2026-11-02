@@ -146,7 +146,7 @@ export function buildBoxes(scene) {
   const pLabelM = new THREE.Mesh(new THREE.PlaneGeometry(0.28, 0.0875), new THREE.MeshStandardMaterial({ map: plainLabel, roughness: 0.9, transparent: true })); pLabelM.position.set(-0.01, ph * 0.5, pd / 2 + 0.002); pLabelM.rotation.z = 0.035; plain.add(pLabelM);
   const pLid = mkLid(new RoundedBoxGeometry(pw + 0.01, 0.04, pd + 0.01, 3, 0.018), pMat);
   pLid.pivot.position.set(pw / 2, ph, 0); pLid.m.position.set(-pw / 2, 0.012, 0); plain.add(pLid.pivot); // hinge on the right edge
-  const pEdges = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(pw, ph, pd)), new THREE.LineBasicMaterial({ color: PALETTE.lavender, transparent: true, opacity: 0 }));
+  const pEdges = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(pw, ph, pd)), new THREE.LineBasicMaterial({ color: "#FFFFFF", transparent: true, opacity: 0 }));
   pEdges.position.y = ph / 2; plain.add(pEdges);
 
   // luxe (hexagonal prism, flat face toward +z)
@@ -163,7 +163,7 @@ export function buildBoxes(scene) {
   lLid.m.position.set(0, 0.022, 0); scene.add(lLid.pivot); // not parented: the lid pops off and lands on the table
   const knob = new THREE.Mesh(new THREE.OctahedronGeometry(0.035), foil); knob.position.set(0, 0.06, 0); lLid.pivot.add(knob);
   const lEdgeGeo = new THREE.EdgesGeometry(new THREE.CylinderGeometry(lr, lr, lh, 6, 1)); lEdgeGeo.rotateY(Math.PI / 6);
-  const lEdges = new THREE.LineSegments(lEdgeGeo, new THREE.LineBasicMaterial({ color: PALETTE.lavender, transparent: true, opacity: 0 })); lEdges.position.y = lh / 2; luxe.add(lEdges);
+  const lEdges = new THREE.LineSegments(lEdgeGeo, new THREE.LineBasicMaterial({ color: "#FFFFFF", transparent: true, opacity: 0 })); lEdges.position.y = lh / 2; luxe.add(lEdges);
 
   // identical stacks of 3 cookies inside each box
   const stacks = {};

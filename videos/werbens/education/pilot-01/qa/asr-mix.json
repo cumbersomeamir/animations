@@ -1,0 +1,56 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.42
+      ],
+      "script": "Which box holds the better cookies?",
+      "heard": "Which box holds the better cookies?",
+      "words": "6/6"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.7,
+        6.08
+      ],
+      "script": "Packaging is a clue. It sets an expectation,",
+      "heard": "Packaging is a clue. It sets an expectation.",
+      "words": "8/8"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        5.85,
+        8.32
+      ],
+      "script": "and expectations can tilt the taste.",
+      "heard": "And expectations can tilt the taste.",
+      "words": "6/6"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        9.85,
+        11.2
+      ],
+      "script": "Same cookies.",
+      "heard": "Same cookies.",
+      "words": "2/2"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        11.65,
+        14.63
+      ],
+      "script": "So make the box promise what's really inside.",
+      "heard": "So make the box promise what's really inside.",
+      "words": "8/8"
+    }
+  ],
+  "full": "Which box holds the better cookies? Packaging is a clue. It sets an expectation. And expectations can tilt the taste. Same cookies. So make the box promise what's really inside."
+}
