@@ -34,6 +34,5 @@
   unfinished and was not reused.
 - Batch production-30s-2026-11-02-batch-02 delivered `production/30s/2026-11-02-batch-02/werbens-30s-production-02.mp4`
   ("The ad that admits a weakness"; see context/11 and 13).
-- Feedback round (2026-11-02) IN PROGRESS (sources, narration, audio and docs committed; final 900-frame render running) →
-  `production/30s/2026-11-02-feedback-round/werbens-30s-feedback-01.mp4`
+- Feedback round (2026-11-02) delivered `production/30s/2026-11-02-feedback-round/werbens-30s-feedback-01.mp4`
   ("The decoy effect", new "Satisfying Product Theatre" style; see context/11 "Update — feedback round" and context/14).

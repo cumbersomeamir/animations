@@ -79,4 +79,20 @@ other words verbatim. Pronunciation: brand override `wˈɜːbənz → wˈɜɹbɛ
 | Takeaway | 20.8–25.85 s | wide | small + large become glass; "Need 150 ml?" + dashed line at the large's 150 ml; the extra 150 ml glows; ring tightens and snaps; slice lifted and set down, "+150 ml for +Rs70" | shimmer, tick, glow, zip + snap, settle |
 | CTA | 25.85–30 s | push-in | cut large + slice slide off, small turns back into a cup with its lid, Werbens icon tile drops beside it, "Werbens · Decoding how brands sell", caption "Follow Werbens to decode how brands sell." | slide, tile thud, D-major piano spread |
 
-## 6. QA — see section 7 (filled after the final render) and the output folder's `QA.md`
+## 6. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+900 frames; video/audio/format 30.000000 s; H.264 High yuv420p 30/1 bt709; AAC-LC 48 kHz stereo; full decode 0 errors;
+−15.0 LUFS, TP −1.4 dBTP, LRA 6.2 LU, flat factor 0; narration on air L1 0.33–2.06 · L2 3.13–8.03 · L3 9.33–11.87 ·
+L4 13.23–17.41 · L5 20.63–23.58 · L6 26.54–28.79 s; final-mix ASR 61/62 (only "Werbens" → "Warbins"); every-frame DOM check:
+caption ink y 367–491, x 202–878, ≤ 2 lines; no label in y 0–300, none under the caption, 0 overlaps (4 frames of a fading
+tag exiting past x 38–77 during a camera push noted); no page errors. Contact sheet (1 fps) + 31-beat transition sheet inspected.
+sha256 `fc9cda2ae0888146335eaf60695d689ea66d5748dfa3e71f5e4d21788b424516` (4,569,824 bytes).
+
+## 7. Progress / provenance log (this round)
+- Reread CLAUDE.md, START_HERE, context 00–05 (+ 11–13 for the series format), the animation-direction skill and the brief.
+- Narration: `src/tts.mjs` with cached Kokoro weights (education/pilot-01 cache), blend af_bella 0.7 + am_puck 0.3, speed 0.98;
+  Whisper base.en word timing `src/words.mjs` → `src/words.json`.
+- Scene: `src/scene.html`, `src/scene.js`, `src/cup.js`, `src/timeline.js` (Three.js 0.180.0, deterministic `frame(t)`);
+  five stills passes (`node src/render.mjs --stills … --scale 0.5`) and DOM QA passes drove the fixes listed in `QA.md` §5.
+- Audio: `node src/audio.mjs` → build/audio/mix.wav (−15 LUFS). Render: `node src/render.mjs --video` (1305 s, ~1.45 s/frame,
+  SwiftShader); mux with ffmpeg (`build.sh`); `bash qa.sh`; `node src/qa_dom.mjs 1`; `node src/asr_mix.mjs`.
+- Next step: none for this episode (do not start another episode without a new brief).

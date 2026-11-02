@@ -26,7 +26,13 @@
   in the caption and the wordmark. Intelligibility measured by ASR; no human listening pass was possible here.
 
 ## 3. Captions, labels and safe areas (`qa/dom-bounds.json`, live DOM, every frame)
-DOM_RESULTS
+- 900 samples (every frame). Caption line boxes y 367–491 (inside 340–520), x 202–878 (inside 90–990), max 2 lines;
+  pill y 355–505. PASS.
+- Labels (tags, notes, chip, wordmark): y 560–1496, x ≤ 991; **nothing in y 0–300**, **no label ever under the caption
+  pill**, **0 label/label overlaps**. PASS.
+- 4 frames flagged (f121–f124, 4.03–4.13 s): the SMALL tag, already fading out (opacity 0.4 → 0), slides past x 38–77 as the
+  camera pushes in to the two-cup shot. It is a transitional exit, not a held label; accepted and noted here (every held label
+  stays inside x 80–1000).
 
 ## 4. Visual review (`qa/contact-sheet.png` 1 fps, `qa/transition-sheet.png` 31 beats, `qa/frames/*.jpg`)
 - Every second shows a physical change tied to the line being spoken (landings → guide line → price connector → glass

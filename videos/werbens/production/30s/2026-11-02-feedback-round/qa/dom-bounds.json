@@ -9,23 +9,47 @@
     "pillBottom": 505
   },
   "labels": {
-    "minLeft": 78,
-    "maxRight": 986,
+    "minLeft": 38,
+    "maxRight": 991,
     "minTop": 560,
     "maxBottom": 1496
   },
   "labelInTop300": [],
   "labelOutsideSafe": [
     [
-      13,
+      4.033,
       "tagS",
-      78,
-      1213,
-      302,
-      1373
+      77,
+      1198,
+      301,
+      1358
+    ],
+    [
+      4.067,
+      "tagS",
+      67,
+      1201,
+      291,
+      1361
+    ],
+    [
+      4.1,
+      "tagS",
+      54,
+      1204,
+      278,
+      1364
+    ],
+    [
+      4.133,
+      "tagS",
+      38,
+      1208,
+      262,
+      1368
     ]
   ],
   "labelUnderCaption": [],
   "labelOverlaps": [],
-  "samples": 90
+  "samples": 900
 }
