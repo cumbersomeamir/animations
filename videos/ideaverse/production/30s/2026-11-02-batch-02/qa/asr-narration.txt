@@ -1,0 +1,6 @@
+ 0.10- 3.80 [ 0.10.. 3.50] Imagine asking an AI assistant to summarize a webpage.
+ 3.80- 9.70 [ 3.80.. 9.30] Hidden in that page is a sentence telling it to ignore your request and reveal private information.
+ 9.70-14.70 [ 9.70..14.36] That's a prompt injection attempt, outside content trying to act like an instruction.
+14.70-19.80 [14.70..19.40] The lesson? Treat web pages and uploaded documents as data, not as authority.
+19.80-23.80 [19.80..23.38] Review sensitive actions before they happen, and limit tool permissions.
+23.80-28.00 [23.80..27.04] A confident summary is not proof that the source was safe.

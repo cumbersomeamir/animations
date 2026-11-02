@@ -43,3 +43,17 @@ CONTEXT=navy, OUTPUT=amber.
 - Music: original synthesized, quiet; voice upfront (music ducked ~8 dB, SFX ~4 dB under speech); event-linked SFX.
 - Master: two-pass loudnorm to **−15 LUFS**, **TP −1.5 dBTP** (spec −14…−16 LUFS, TP ≤ −1).
 - QA: one ASR (faster-whisper base.en) + timing pass on the final MP4.
+
+## Update — batch production-30s-2026-11-02-batch-02 (user feedback, overrides earlier details)
+- Keep the approved **Riso navy/mint Prompt Press** as the recurring app identity; restage it per topic (new slots,
+  levers, gates, documents). Do not introduce new characters/mascots.
+- Each episode needs **visible scene changes that explain the mechanism** (e.g. loupe window → plate swap → lanes →
+  gate → output), not a static diagram; purposeful riso transitions (circle window with rough rim, plate slides,
+  stamps, registration jolt on impacts).
+- Topic-specific sourcing: cite the primary/institutional guidance for that topic (ep. 02: OWASP LLM01:2025 and
+  Anthropic prompt-injection material), not generic prompting advice. Fictional, harmless examples only; never show
+  a working attack or private data.
+- Script length: about **65–80 words**, fitted to ~24 s of speech with ~0.45 s gaps; minimal edits for accuracy/timing.
+- Do not repeat a previous topic. Episodes so far: #01 "A useful prompt has three layers" (2026-11-02),
+  #02 "The instruction hidden inside an AI webpage" (2026-11-02-batch-02).
+- Lesson for later episodes: avoid leaving the central stage empty for more than ~2 s while action happens elsewhere.

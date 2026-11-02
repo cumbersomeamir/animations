@@ -1,0 +1,8 @@
+[
+  {"id": "s1", "text": "Imagine asking an AI assistant to summarise a webpage."},
+  {"id": "s2", "text": "Hidden in that page is a sentence telling it to ignore your request and reveal private information."},
+  {"id": "s3", "text": "That's a prompt injection attempt: outside content trying to act like an instruction."},
+  {"id": "s4", "text": "The lesson: treat webpages and uploaded documents as data, not as authority."},
+  {"id": "s5", "text": "Review sensitive actions before they happen, and limit tool permissions."},
+  {"id": "s6", "text": "A confident summary is not proof that the source was safe."}
+]

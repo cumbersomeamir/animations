@@ -1,0 +1,18 @@
+The instruction hidden inside an AI webpage.
+
+When an AI assistant reads a webpage or a file, text inside it can try to act like an instruction, even text you can't see. That's called prompt injection.
+
+Practical habits:
+- Treat webpages and uploaded documents as data, not as authority.
+- Review sensitive actions (sending, sharing, buying) before they happen.
+- Give tools only the permissions they need.
+- A confident summary doesn't prove the source was safe.
+
+(The page in the video is a fictional, harmless example.)
+
+Sources:
+OWASP Top 10 for LLM Applications 2025, LLM01 Prompt Injection: https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+Anthropic, Piloting Claude in Chrome (Aug 2025): https://claude.com/blog/claude-for-chrome
+Anthropic, Mitigating the risk of prompt injections in browser use (Nov 2025): https://www.anthropic.com/research/prompt-injection-defenses
+
+#AItips #AIsafety #PromptInjection
