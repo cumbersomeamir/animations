@@ -1,0 +1,32 @@
+{
+  "engine": "kokoro-onnx (Kokoro-82M v1.0 ONNX)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "L1",
+      "text": "This cup looks like paper.",
+      "start": 0.3,
+      "duration": 1.395,
+      "end": 1.695,
+      "sr": 24000
+    },
+    {
+      "id": "L2",
+      "text": "Many have a plastic lining.",
+      "start": 3.05,
+      "duration": 1.464,
+      "end": 4.514,
+      "sr": 24000
+    },
+    {
+      "id": "L3",
+      "text": "Check whether your local recycler accepts them.",
+      "start": 6.05,
+      "duration": 2.325,
+      "end": 8.375,
+      "sr": 24000
+    }
+  ]
+}

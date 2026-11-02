@@ -1,0 +1,205 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// S11 paper-cut motion test: Tinku in his scrap shop pulls a cup's paper and plastic layers
+// apart and pins them to a sorting board. Stepped 12 fps; every frame is a pure function of t.
+const W = 1080, H = 1920, FPS_STEP = 12;
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const C = { cream: '#f6ead6', paper: '#f3e5cc', ink: '#2a1a10', orange: '#e8741c', orangeInk: '#c95a0c', green: '#1f6b3a',
+  card: '#a8743f', cardDark: '#7a5129', wall: '#4a3121', kraft: '#6e4a2c', cork: '#b98b55', film: '#dff1f6', copper: '#c47a42' };
+const SH = { x: 9, y: 11, blur: 10, col: 'rgba(0,0,0,0.38)' }; // one light source: upper-left
+const timing = await (await fetch('/tests/10s/pre-reset-2026-11-02/audio/narration/timing.json')).json();
+const meta = await (await fetch('/tests/10s/pre-reset-2026-11-02/sprites/sprites.json')).json();
+
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const hash = (s) => { let h = 2166136261; for (const ch of String(s)) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return h >>> 0; };
+// stop-motion "boil": each piece gets a tiny seeded offset per 12 fps step
+function boil(id, step, amp = 1.2, rot = 0.004) { const r = rng(hash(id) + step * 7919); return [(r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * rot]; }
+function torn(seed, w, h, jag = 5) { // jagged rectangle polygon around (0,0)
+  const r = rng(hash(seed)), pts = [], n = Math.max(6, Math.round((w + h) / 26));
+  const edge = (x0, y0, x1, y1, k) => { for (let i = 0; i < k; i++) { const u = i / k; pts.push([x0 + (x1 - x0) * u + (r() - 0.5) * jag * (y0 === y1 ? 0.4 : 1), y0 + (y1 - y0) * u + (r() - 0.5) * jag * (x0 === x1 ? 0.4 : 1)]); } };
+  edge(-w / 2, -h / 2, w / 2, -h / 2, n); edge(w / 2, -h / 2, w / 2, h / 2, n); edge(w / 2, h / 2, -w / 2, h / 2, n); edge(-w / 2, h / 2, -w / 2, -h / 2, n);
+  return pts;
+}
+function poly(pts) { g.beginPath(); pts.forEach(([x, y], i) => (i ? g.lineTo(x, y) : g.moveTo(x, y))); g.closePath(); }
+function piece(id, step, x, y, rot, draw, opts = {}) {
+  const [bx, by, br] = opts.still ? [0, 0, 0] : boil(id, step, opts.amp ?? 1.2, opts.brot ?? 0.004);
+  g.save(); g.translate(x + bx, y + by); g.rotate(rot + br);
+  if (!opts.noShadow) { g.shadowColor = SH.col; g.shadowOffsetX = SH.x * (opts.lift ?? 1); g.shadowOffsetY = SH.y * (opts.lift ?? 1); g.shadowBlur = SH.blur * (opts.lift ?? 1); }
+  draw(); g.restore();
+}
+function tag(id, step, x, y, rot, text, bg, fg, size = 30, pin = C.orange) {
+  g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 34, h = size + 22;
+  piece(id, step, x, y, rot, () => { poly(torn(id, w, h, 4)); g.fillStyle = bg; g.fill(); g.shadowColor = 'transparent';
+    g.fillStyle = fg; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 0, 3); pinHead(0, -h / 2 + 6, pin); });
+}
+function pinHead(x, y, col) { g.save(); g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowOffsetX = 3; g.shadowOffsetY = 4; g.shadowBlur = 3;
+  g.beginPath(); g.arc(x, y, 9, 0, 7); g.fillStyle = col; g.fill(); g.shadowColor = 'transparent';
+  g.beginPath(); g.arc(x - 3, y - 3, 3, 0, 7); g.fillStyle = 'rgba(255,255,255,0.6)'; g.fill(); g.restore(); }
+
+// ---------- static textures (built once) ----------
+function mk(w, h, fn) { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; }
+const grain = mk(540, 960, (x, w, h) => { const r = rng(3); for (let i = 0; i < 26000; i++) { x.fillStyle = r() < 0.5 ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.06)'; x.fillRect(r() * w, r() * h, 1.5, 1.5); } });
+const wallTex = mk(W, H, (x) => {
+  x.fillStyle = C.wall; x.fillRect(0, 0, W, H);
+  x.fillStyle = 'rgba(0,0,0,0.28)'; for (let yy = 30; yy < 1380; yy += 44) for (let xx = 30; xx < W; xx += 44) { x.beginPath(); x.arc(xx, yy, 4, 0, 7); x.fill(); }
+});
+// paper-cut outline + shadow for each Tinku sprite
+const sprites = {};
+for (const n of Object.keys(meta)) {
+  const img = new Image(); img.src = `/tests/10s/pre-reset-2026-11-02/sprites/tinku-${n}.png`; await img.decode();
+  const sil = mk(img.width, img.height, (x) => { x.drawImage(img, 0, 0); x.globalCompositeOperation = 'source-in'; x.fillStyle = '#fff6e8'; x.fillRect(0, 0, img.width, img.height); });
+  sprites[n] = mk(img.width, img.height, (x) => { for (let a = 0; a < 16; a++) x.drawImage(sil, Math.cos(a / 16 * 6.283) * 9, Math.sin(a / 16 * 6.283) * 9); x.drawImage(img, 0, 0); });
+}
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 56px "Baloo 2"'); await document.fonts.load('700 26px "Baloo 2"');
+
+// ---------- layout ----------
+const COUNTER_Y = 1405, CRATE = { x: 100, y: 1300, w: 380, h: 108 };
+const CUP = { x: 868, base: 1405, h: 360, top: 252, bot: 182 };
+const BOARD = { x: 530, y: 840, w: 470, h: 470, rot: -0.02 };
+const COL = { paper: [420, 830], film: [640, 840] };
+const cupEdgeX = (y) => CUP.x - (CUP.bot / 2 + (CUP.top - CUP.bot) / 2 * (CUP.base - y) / CUP.h);
+const TEAR = [cupEdgeX(1190) + 52, 1190];
+
+// Tinku schedule (stepped): [t, pose, feetX, feetY]
+const TINKU = [
+  [0.0, 'look', 478, COUNTER_Y], [0.92, 'tap', 478, COUNTER_Y], [1.5, 'look', 478, COUNTER_Y],
+  [3.0, 'pull', 512, COUNTER_Y],
+  [4.42, 'pull', 360, 1250], [4.5, 'pin', 168, CRATE.y], // hop up onto the crate
+  [5.17, 'pin', 290, 1270], [5.25, 'pin', 388, CRATE.y],  // step along the crate
+  [6.0, 'point', 388, CRATE.y],
+];
+function tinkuAt(t) { let cur = TINKU[0]; for (const k of TINKU) if (t >= k[0]) cur = k; return cur; }
+
+function caption(text, step) {
+  g.font = '800 56px "Baloo 2"'; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  const words = text.split(' '), lines = [];
+  let line = '';
+  for (const w of words) { const test = line ? line + ' ' + w : w; if (g.measureText(test.replace(/[\[\]]/g, '')).width > 860 && line) { lines.push(line); line = w; } else line = test; }
+  lines.push(line);
+  const lh = 60, top = lines.length === 1 ? 375 : 350;
+  const stripH = lines.length * lh + 26, stripW = Math.max(...lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')).width)) + 70;
+  piece('cap-' + text, step, W / 2, top - 13 + stripH / 2, -0.006, () => { poly(torn('strip' + text, stripW, stripH, 6)); g.fillStyle = C.cream; g.fill(); }, { amp: 0.6, brot: 0.001 });
+  g.save(); g.fillStyle = C.ink;
+  lines.forEach((l, i) => {
+    // draw word by word so [bracketed] words take the highlight colour
+    const parts = l.split(/(\[[^\]]+\])/).filter(Boolean);
+    const full = g.measureText(l.replace(/[\[\]]/g, '')).width; let x = W / 2 - full / 2; const y = top + 44 + i * lh;
+    g.textAlign = 'left';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.orangeInk : C.ink; g.fillText(s, x, y); x += g.measureText(s).width; }
+  });
+  g.restore();
+  return { top: top, bottom: top + lines.length * lh - 4, lines: lines.length, x0: W / 2 - stripW / 2, x1: W / 2 + stripW / 2 };
+}
+const CAPS = [['L1', 'This cup looks like [paper.]', 0.22, 2.92], ['L2', 'Many have a [plastic] [lining.]', 2.97, 5.96], ['L3', 'Check whether your [local] [recycler] accepts them.', 6.0, 10.01]];
+
+function drawCup(step, torn2) {
+  piece('cup', step, CUP.x, CUP.base - CUP.h / 2, 0.0, () => {
+    const h = CUP.h, tw = CUP.top / 2, bw = CUP.bot / 2;
+    g.beginPath(); g.moveTo(-tw, -h / 2); g.lineTo(tw, -h / 2); g.lineTo(bw, h / 2); g.lineTo(-bw, h / 2); g.closePath(); g.fillStyle = C.paper; g.fill();
+    g.shadowColor = 'transparent';
+    g.fillStyle = C.orange; g.beginPath(); g.moveTo(-tw * 0.97, -h / 2 + 46); g.lineTo(tw * 0.97, -h / 2 + 46); g.lineTo(tw * 0.95, -h / 2 + 62); g.lineTo(-tw * 0.95, -h / 2 + 62); g.fill();
+    g.fillStyle = C.green; g.fillRect(-tw * 0.94, -h / 2 + 68, tw * 1.88, 5);
+    g.beginPath(); g.ellipse(0, -h / 2, tw, 16, 0, 0, 7); g.fillStyle = '#fbf3e4'; g.fill(); g.strokeStyle = '#e2d0b0'; g.lineWidth = 3; g.stroke();
+    g.beginPath(); g.ellipse(0, -h / 2 + 2, tw - 12, 10, 0, 0, 7); g.fillStyle = '#5a3a24'; g.fill();
+    // torn cutaway window: dark inside, a separate thin glossy plastic lining, then the paper edge
+    const cx = TEAR[0] - CUP.x, cy = TEAR[1] - (CUP.base - CUP.h / 2), ww = torn2 ? 128 : 96, hh = torn2 ? 170 : 130;
+    poly(torn('tear-out' + (torn2 ? 2 : 1), ww + 18, hh + 18, 12).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = '#efe0c4'; g.fill();
+    poly(torn('tear-film' + (torn2 ? 2 : 1), ww + 4, hh + 4, 8).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = 'rgba(178,222,238,0.98)'; g.fill();
+    g.strokeStyle = 'rgba(255,255,255,0.95)'; g.lineWidth = 4; g.stroke();
+    poly(torn('tear-in' + (torn2 ? 2 : 1), ww - 30, hh - 30, 8).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = '#3a2416'; g.fill();
+  });
+}
+function drawStrip(kind, x, y, rot, step, lifted) { // the two separated layers
+  const isFilm = kind === 'film';
+  piece('layer-' + kind, step, x, y, rot, () => {
+    poly(torn('lay' + kind, 118, 168, isFilm ? 5 : 9));
+    g.fillStyle = isFilm ? 'rgba(223,241,246,0.88)' : C.paper; g.fill(); g.shadowColor = 'transparent';
+    if (isFilm) { g.strokeStyle = 'rgba(255,255,255,0.95)'; g.lineWidth = 3; g.stroke(); g.fillStyle = 'rgba(255,255,255,0.7)'; g.fillRect(-40, -70, 12, 130); g.fillRect(-18, -60, 5, 110); }
+    else { g.fillStyle = C.orange; g.fillRect(-59, -60, 118, 14); g.fillStyle = C.green; g.fillRect(-59, -42, 118, 4); }
+  }, { lift: lifted ? 1.8 : 1 });
+}
+function wire(x0, y0, x1, y1, k, sag = 60) { // copper wire connector drawn on progressively
+  g.save(); g.strokeStyle = C.copper; g.lineWidth = 5; g.lineCap = 'round'; g.shadowColor = 'rgba(0,0,0,0.35)'; g.shadowOffsetX = 4; g.shadowOffsetY = 5; g.shadowBlur = 3;
+  g.beginPath(); const N = 24; for (let i = 0; i <= N * k; i++) { const u = i / N; const x = x0 + (x1 - x0) * u, y = y0 + (y1 - y0) * u + Math.sin(u * Math.PI) * sag; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); g.restore();
+}
+
+window.renderAt = (tRaw) => {
+  const step = Math.floor(tRaw * FPS_STEP + 1e-6), t = step / FPS_STEP; // stepped 12 fps
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  g.drawImage(wallTex, 0, 0);
+  // kraft backing sheet + shop wall labels (pinned paper material labels)
+  piece('kraft', 0, W / 2, 1040, 0.01, () => { poly(torn('kraft', 1000, 760, 14)); g.fillStyle = C.kraft; g.fill(); }, { still: true });
+  tag('tag-tin', step, 880, 640, -0.08, 'TIN', '#e9e2d4', C.ink, 26, C.green);
+  tag('tag-card', step, 985, 705, 0.06, 'CARD', '#e9d3ad', C.ink, 26, C.orange);
+  tag('tag-copper', step, 900, 790, 0.05, 'COPPER', '#f0c9a4', C.ink, 26, C.green);
+  // sorting board
+  piece('board', step, BOARD.x, BOARD.y, BOARD.rot, () => {
+    poly(torn('board', BOARD.w + 26, BOARD.h + 26, 6)); g.fillStyle = C.cardDark; g.fill(); g.shadowColor = 'transparent';
+    poly(torn('cork', BOARD.w, BOARD.h, 4)); g.fillStyle = C.cork; g.fill();
+    const r = rng(9); g.fillStyle = 'rgba(90,55,25,0.35)'; for (let i = 0; i < 260; i++) g.fillRect((r() - 0.5) * BOARD.w, (r() - 0.5) * BOARD.h, 3, 3);
+  }, { amp: 0.5, brot: 0.001 });
+  tag('tag-paper', step, COL.paper[0], 655, -0.04, 'PAPER', C.cream, C.ink, 32, C.orange);
+  tag('tag-film', step, COL.film[0], 662, 0.035, 'PLASTIC LINING', C.film, '#12323b', 30, C.green);
+  // counter + crate + wire bits
+  piece('counter', 0, W / 2, COUNTER_Y + 260, 0, () => {
+    g.fillStyle = C.cardDark; g.fillRect(-W / 2 - 20, -250, W + 40, 540); g.shadowColor = 'transparent';
+    poly(torn('counter-top', W + 60, 44, 6).map(([x, y]) => [x, y - 250])); g.fillStyle = C.card; g.fill();
+    g.fillStyle = 'rgba(0,0,0,0.16)'; for (let i = 0; i < 7; i++) g.fillRect(-W / 2, -170 + i * 64, W, 3);
+  }, { still: true });
+  piece('crate', step, CRATE.x + CRATE.w / 2, CRATE.y + CRATE.h / 2, 0.0, () => {
+    poly(torn('crate', CRATE.w, CRATE.h, 5)); g.fillStyle = C.card; g.fill(); g.shadowColor = 'transparent';
+    g.strokeStyle = C.cardDark; g.lineWidth = 4; g.strokeRect(-CRATE.w / 2 + 14, -CRATE.h / 2 + 14, CRATE.w - 28, CRATE.h - 28);
+    g.fillStyle = C.cardDark; g.font = '700 26px "Baloo 2"'; g.textAlign = 'center'; g.fillText('SORTED SCRAP', 0, 10);
+  }, { amp: 0.6 });
+  piece('coil', step, 70, COUNTER_Y + 30, 0.1, () => { g.strokeStyle = C.copper; g.lineWidth = 5; for (let i = 0; i < 4; i++) { g.beginPath(); g.ellipse(i * 9, 0, 34, 13, 0, 0, 7); g.stroke(); } });
+  tag('tag-front', step, 300, 1560, -0.03, 'MIXED MATERIAL?', '#efe4cf', C.ink, 30, C.orange);
+
+  // layers: stuck inside the cup -> pulled apart -> pinned
+  const pulled = t >= 3.0;
+  drawCup(step, pulled);
+  const [tk, pose, fx, fy] = tinkuAt(t);
+  const m = meta[pose];
+  const hand = (h) => [fx + (m[h][0] - m.feet[0]), fy + (m[h][1] - m.feet[1])];
+  let paperPos = null, filmPos = null, pinnedPaper = t >= 4.92, pinnedFilm = t >= 5.5;
+  if (pulled && !pinnedPaper) {
+    const sep = Math.min(1, Math.floor((t - 3.0) * FPS_STEP) / 7); // 7 steps to separate
+    const hl = hand('handL'), hr = hand('handR');
+    if (pose === 'pull') { filmPos = [hl[0] - 10, hl[1] + 70]; paperPos = [hl[0] + (hr[0] - hl[0]) * sep + 10, hl[1] + (hr[1] - hl[1]) * sep + 76]; }
+    else { paperPos = [hl[0], hl[1] + 70]; filmPos = [Math.max(hr[0], 78), hr[1] + 60]; }
+  }
+  if (pinnedPaper && !pinnedFilm && pose === 'pin') filmPos = [hand('handL')[0], hand('handL')[1] + 70];
+  if (pinnedPaper) { wire(TEAR[0] - 40, TEAR[1] - 10, COL.paper[0], COL.paper[1] - 70, Math.min(1, (step - 59) / 4), 90); }
+  if (pinnedFilm) { wire(TEAR[0] - 30, TEAR[1] + 10, COL.film[0], COL.film[1] - 70, Math.min(1, (step - 66) / 4), 70); }
+  if (pinnedPaper) { drawStrip('paper', COL.paper[0], COL.paper[1], -0.06, step, false); g.save(); pinHead(COL.paper[0], COL.paper[1] - 70, C.orange); g.restore(); }
+  if (pinnedFilm) { drawStrip('film', COL.film[0], COL.film[1], 0.05, step, false); g.save(); pinHead(COL.film[0], COL.film[1] - 72, C.green); g.restore(); }
+  // stamp impact on the board (B3)
+  if (t >= 6.41) {
+    const land = t < 6.49 ? 1.25 : 1.0;
+    piece('stamp', step, 640, 1700, -0.05, () => { g.scale(land, land); g.strokeStyle = C.orangeInk; g.lineWidth = 7; g.strokeRect(-210, -46, 420, 92);
+      g.shadowColor = 'transparent'; g.fillStyle = C.orangeInk; g.font = '800 48px "Baloo 2"'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('CHECK LOCALLY', 0, 4); }, { noShadow: true, amp: 0.3 });
+  }
+  // Tinku (paper-cut sprite with white edge + drop shadow); small squash on landing steps
+  const landing = (t >= 4.5 && t < 4.59) || (t >= 5.25 && t < 5.34);
+  const spr = sprites[pose]; const [bx, by] = boil('tinku', step, 1.4);
+  g.save(); g.shadowColor = SH.col; g.shadowOffsetX = SH.x * 1.4; g.shadowOffsetY = SH.y * 1.4; g.shadowBlur = SH.blur * 1.4;
+  g.translate(fx + bx, fy + by); g.scale(landing ? 1.04 : 1, landing ? 0.95 : 1); g.drawImage(spr, -m.feet[0], -m.feet[1]); g.restore();
+  // layers held in hand draw over Tinku
+  if (paperPos) drawStrip('paper', paperPos[0], paperPos[1], -0.18, step, true);
+  if (filmPos) drawStrip('film', filmPos[0], filmPos[1], 0.14, step, true);
+  // grain (subordinate), signature, note, caption
+  g.globalAlpha = 0.5; g.drawImage(grain, 0, 0, W, H); g.globalAlpha = 1;
+  g.globalAlpha = 0.8; g.drawImage(icon, 48, 58, 44, 44); g.fillStyle = C.cream; g.font = '700 27px "Baloo 2"'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('WastePaisa', 104, 82); g.globalAlpha = 1;
+  g.font = '700 25px "Baloo 2"'; g.textAlign = 'center'; g.fillStyle = 'rgba(246,234,214,0.85)'; g.fillText('Illustration · many cups, not all · acceptance varies by area', W / 2, 1836);
+  let cap = null;
+  for (const [id, text, a, b] of CAPS) if (t >= a && t < b) cap = caption(text, step);
+  window.__cap = cap;
+  return cap;
+};
+window.__ready = true;
+</script></body></html>

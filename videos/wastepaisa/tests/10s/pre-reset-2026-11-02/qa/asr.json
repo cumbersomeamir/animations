@@ -1,0 +1,5 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "script": "This cup looks like paper. Many have a plastic lining. Check whether your local recycler accepts them.",
+ "asr": "this cup looks like paper and many have a plastic lining check whether your local recycler accepts them"
+}

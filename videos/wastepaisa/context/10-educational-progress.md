@@ -64,6 +64,15 @@ v3 passes every automated check, and its boundary, representative and dense moti
 No human listening test (cloud session); intelligibility comes from two ASR models. The beaker prop is
 partly in frame at the bottom-right during the bond beat. English only. The Instagram references were not viewed.
 
+## 10 s style test, batch 2026-11-02-pre-reset: COMPLETE
+S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pilot is untouched).
+- Output: `videos/wastepaisa/tests/10s/pre-reset-2026-11-02/wastepaisa-10s-test.mp4`, SHA-256 `a7faf0e5e63745f93ca957908c9f62ee96fc85ab82e272f00f52d3e0bc590267`
+- 10.000 s · 1080×1920 · H.264 30/1 · 300 frames (120 unique stepped 12 fps frames) · AAC-LC 48 kHz stereo 480000 samples · full decode clean
+- Voice: Kokoro-82M ONNX, Meshline blend af_bella 0.7 + am_puck 0.3, speed 0.98, en-us (not Piper). Narration unshortened.
+- Captions y 350–466 / x 172–908, no overlaps; one ASR pass shows all words present (one inserted "and").
+- QA: `tests/10s/pre-reset-2026-11-02/qa/QA.md`. Limits: no human listening test; stylised lining band; sprite-swap posing.
+- Fact facts reused: pilot-01 S1–S5. Labelled illustration. No payout or allowance claims.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

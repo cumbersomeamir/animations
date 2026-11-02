@@ -1,0 +1,57 @@
+{
+ "sfx_cues": [
+  [
+   1.0,
+   "tap cup"
+  ],
+  [
+   1.25,
+   "tap cup"
+  ],
+  [
+   3.0,
+   "paper tear"
+  ],
+  [
+   3.02,
+   "paper flutter"
+  ],
+  [
+   3.25,
+   "film crinkle"
+  ],
+  [
+   4.42,
+   "hop"
+  ],
+  [
+   4.5,
+   "land on crate"
+  ],
+  [
+   4.92,
+   "pin click (paper)"
+  ],
+  [
+   4.95,
+   "copper wire"
+  ],
+  [
+   5.25,
+   "step on crate"
+  ],
+  [
+   5.5,
+   "pin click (film)"
+  ],
+  [
+   5.53,
+   "copper wire"
+  ],
+  [
+   6.42,
+   "stamp impact"
+  ]
+ ],
+ "samples": 480000
+}
