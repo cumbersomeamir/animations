@@ -1,0 +1,10 @@
+{
+  "name": "nutriai-education-pilot-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NutriAI education pilot 01: what's inside 100 g of raw mango flesh. Browser Three.js scene rendered frame-by-frame in headless Chromium, encoded with FFmpeg.",
+  "type": "module",
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+ "fdcId": 169910,
+ "description": "Mangos, raw",
+ "dataType": "SR Legacy",
+ "ndbNumber": 9176,
+ "publicationDate": "4/1/2019",
+ "per": "100 g edible portion",
+ "nutrients": [
+  [
+   "Total lipid (fat)",
+   0.38,
+   "g"
+  ],
+  [
+   "Protein",
+   0.82,
+   "g"
+  ],
+  [
+   "Ash",
+   0.36,
+   "g"
+  ],
+  [
+   "Vitamin C, total ascorbic acid",
+   36.4,
+   "mg"
+  ],
+  [
+   "Fiber, total dietary",
+   1.6,
+   "g"
+  ],
+  [
+   "Water",
+   83.5,
+   "g"
+  ],
+  [
+   "Carbohydrate, by difference",
+   15.0,
+   "g"
+  ],
+  [
+   "Energy",
+   60.0,
+   "kcal"
+  ],
+  [
+   "Sugars, total including NLEA",
+   13.7,
+   "g"
+  ],
+  [
+   "Energy",
+   250,
+   "kJ"
+  ]
+ ],
+ "portions": [
+  [
+   "fruit without refuse",
+   336.0
+  ],
+  [
+   "cup pieces",
+   165.0
+  ]
+ ],
+ "calorieConversionFactors": {
+  "type": ".CalorieConversionFactor",
+  "proteinValue": 3.36,
+  "fatValue": 8.37,
+  "carbohydrateValue": 3.6
+ }
+}

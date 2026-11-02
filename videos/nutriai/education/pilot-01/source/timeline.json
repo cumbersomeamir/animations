@@ -1,0 +1,257 @@
+{
+ "_doc": "NutriAI Education Pilot 01, 'What's inside 100 g of raw mango flesh?'. 30 fps, 450 frames (15.000 s). Shared by web/director.js (animation) and audio/build_audio.py (voice, music, SFX).",
+ "fps": 30,
+ "frames": 450,
+ "width": 1080,
+ "height": 1920,
+ "beats": [
+  {
+   "id": "B1",
+   "start": 0,
+   "end": 78,
+   "name": "Puzzle",
+   "action": "Gram stands on the left pan (100 g side down). A whole mango slams onto the right pan; the beam flips and launches Gram; he lands and asks the question."
+  },
+  {
+   "id": "B2",
+   "start": 78,
+   "end": 160,
+   "name": "Measure the edible part",
+   "action": "Gram leaps to the pivot, chops the mango: cheeks open, the seed slab and the skins fly off (not counted), flesh pops into cubes on the pan; he hops back and the beam levels: 100 g of flesh."
+  },
+  {
+   "id": "B3",
+   "start": 160,
+   "end": 390,
+   "name": "Open the 100 g into layers",
+   "action": "Gram locks the beam and climbs to the pivot; the cubes melt into a true-proportion column: water 83.5 g fills, a 15.0 g carb block drops in with fibre threads, a 1.6 g sliver of protein/fat/minerals caps it; Gram stamps 60 kcal on the carb layer and inspects the invisible 36 mg of vitamin C with a magnifier."
+  },
+  {
+   "id": "B4",
+   "start": 390,
+   "end": 450,
+   "name": "Takeaway",
+   "action": "The column re-forms as cubes in a measuring cup: just over the half-cup line; Gram thumbs-up."
+  }
+ ],
+ "narration": [
+  {
+   "id": "L1",
+   "text": "What's inside a hundred grams of mango?",
+   "at": [
+    24
+   ]
+  },
+  {
+   "id": "L2",
+   "text": "Just the flesh.",
+   "at": [
+    104
+   ]
+  },
+  {
+   "id": "L3",
+   "text": "Mostly water. Fifteen grams of carbs, with some fibre.",
+   "split": "auto1",
+   "at": [
+    166,
+    200
+   ]
+  },
+  {
+   "id": "L4",
+   "text": "Sixty calories. Thirty-six milligrams of vitamin C.",
+   "split": "auto1",
+   "at": [
+    280,
+    322
+   ]
+  },
+  {
+   "id": "L5",
+   "text": "Just over half a cup.",
+   "at": [
+    396
+   ]
+  }
+ ],
+ "events": {
+  "mangoLand": 14,
+  "gramLand1": 36,
+  "capQ_in": 4,
+  "capQ_out": 80,
+  "leap1": 78,
+  "leap1Land": 90,
+  "chop": 96,
+  "split": 98,
+  "seedFly": 100,
+  "burst": 108,
+  "shellsFly": 120,
+  "leap2": 128,
+  "leap2Land": 140,
+  "level": 156,
+  "capM_in": 104,
+  "capM_out": 150,
+  "melt": 162,
+  "waterLabel": 188,
+  "carbsDrop": 200,
+  "carbsLand": 212,
+  "fibre": 234,
+  "fibreLabel": 242,
+  "topLand": 252,
+  "glow": 280,
+  "stamp": 290,
+  "magnify": 318,
+  "vitc": 334,
+  "cup": 392,
+  "cupLand": 404,
+  "takeaway": 404,
+  "thumb": 414,
+  "sign": 400
+ },
+ "sfx": [
+  {
+   "ev": "mangoLand",
+   "off": -10,
+   "type": "whoosh",
+   "gain": -14,
+   "dur": 0.35
+  },
+  {
+   "ev": "mangoLand",
+   "type": "thud",
+   "gain": -4
+  },
+  {
+   "ev": "mangoLand",
+   "type": "clang",
+   "gain": -12
+  },
+  {
+   "ev": "mangoLand",
+   "off": 1,
+   "type": "boing",
+   "gain": -12
+  },
+  {
+   "ev": "gramLand1",
+   "type": "clank",
+   "gain": -9
+  },
+  {
+   "ev": "leap1",
+   "type": "hop",
+   "gain": -15
+  },
+  {
+   "ev": "leap1Land",
+   "type": "tick",
+   "gain": -14
+  },
+  {
+   "ev": "chop",
+   "off": -3,
+   "type": "swish",
+   "gain": -10
+  },
+  {
+   "ev": "chop",
+   "type": "slice",
+   "gain": -7
+  },
+  {
+   "ev": "seedFly",
+   "type": "whoosh",
+   "gain": -15,
+   "dur": 0.4
+  },
+  {
+   "ev": "burst",
+   "type": "patter",
+   "gain": -9,
+   "dur": 0.8
+  },
+  {
+   "ev": "shellsFly",
+   "type": "whoosh",
+   "gain": -16,
+   "dur": 0.35
+  },
+  {
+   "ev": "leap2",
+   "type": "hop",
+   "gain": -15
+  },
+  {
+   "ev": "leap2Land",
+   "type": "clank",
+   "gain": -10
+  },
+  {
+   "ev": "leap2Land",
+   "off": 2,
+   "type": "creak",
+   "gain": -16,
+   "dur": 0.5
+  },
+  {
+   "ev": "level",
+   "type": "ding",
+   "gain": -9
+  },
+  {
+   "ev": "melt",
+   "type": "pour",
+   "gain": -12,
+   "dur": 1.1
+  },
+  {
+   "ev": "carbsLand",
+   "type": "thunk",
+   "gain": -8
+  },
+  {
+   "ev": "fibre",
+   "type": "zip",
+   "gain": -15
+  },
+  {
+   "ev": "topLand",
+   "type": "tick",
+   "gain": -13
+  },
+  {
+   "ev": "glow",
+   "type": "rise",
+   "gain": -15,
+   "dur": 0.35
+  },
+  {
+   "ev": "stamp",
+   "type": "stamp",
+   "gain": -6
+  },
+  {
+   "ev": "vitc",
+   "type": "sparkle",
+   "gain": -12
+  },
+  {
+   "ev": "cup",
+   "type": "patter",
+   "gain": -12,
+   "dur": 0.45
+  },
+  {
+   "ev": "cupLand",
+   "type": "ding",
+   "gain": -11,
+   "pitch": 1.5
+  },
+  {
+   "ev": "thumb",
+   "type": "pop",
+   "gain": -15
+  }
+ ]
+}
