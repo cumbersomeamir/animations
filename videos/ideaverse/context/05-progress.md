@@ -22,3 +22,20 @@
 
 ## Commands
 - cd videos/ideaverse/src && npm ci && node render.mjs --events ../build/events.json --video ../build/video.mp4
+
+---
+# CURRENT — production 30s feedback round (2026-11-02) — supersedes the stale notes above
+## Facts (verified)
+- Style correction recorded in context/11 ("STYLE CORRECTION"): pilot-01 DOCKET newsroom is the default; Riso banned.
+- Episode brief + claim/source map: context/15-production-30s-feedback-01.md.
+- Narration: cached Kokoro af_bella 0.7 + am_puck 0.3, en-us, speed 0.98; 6 lines, ASR-verified (src/narration).
+## Creative decisions
+- Pilot engine reused unchanged (renderer, lights, stage, DOCKET rig, IK, camera system, caption pill style).
+- New props: MAIL SORTER cabinet (SPAM SCORE gauge, INBOX/SPAM drawers, reader on top), 3 big example envelopes,
+  18 mini examples in two clusters, magnifier with live zoom lens, missing-letter ghost, NOT SPAM sticker.
+- Captions: pill y 344–520, x 92–988 (exact geometry exported by `node render.mjs --caplog`); nothing drawn above y 340.
+- Music: quiet pad progression, event-linked notes/SFX only, no loops.
+## Status / next
+- Stills inspected in 9 rounds (framing under captions, drawer visibility, insert angles, IK reach, ghost placement).
+- Full render running: `cd production/30s/2026-11-02-feedback-round/src && node render.mjs --frames --workers=3`.
+- Next: encode, score (`node music/score.mjs`), loudnorm −15 LUFS/TP −1.5, mux, `./qa.sh` (ASRPY=…), QA.md, commit, push.

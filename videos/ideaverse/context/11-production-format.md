@@ -73,3 +73,48 @@ CONTEXT=navy, OUTPUT=amber.
   margins ≥ 80, ≤ 2 lines, top 0–300 clear) unchanged.
 - Episodes: #01 three-layer prompt · #02 hidden instruction in a webpage (style not to be reused) ·
   #03 messy voice note → clear to-do list (2026-11-02-episode-03).
+
+## STYLE CORRECTION — feedback round 2026-11-02 (user feedback; SUPERSEDES every style rule above) — CURRENT DEFAULT
+- The approved "previous style" is the **15-second educational pilot**
+  `videos/ideaverse/education/pilot-01/ideaverse-education-pilot-01.mp4` (source `education/pilot-01/src/`), NOT any
+  30-second production episode. **Riso is banned for all future episodes**: no Prompt Press, no printer, no paper,
+  no halftone/plates/misregistration, no episode-02 stamp/lever look. Do not reuse `production/30s/*/src/riso.mjs`
+  or the #01–#03 scene files. Earlier Riso sections above are historical only.
+- A rendering library is not the style. The style is this exact recipe (copy the pilot engine, don't re-imagine it):
+  - **Character DOCKET** (`education/pilot-01/src/character/docket.js`, unchanged geometry): white/cream filing-cabinet
+    robot (shell #E9EFF2, roughness 0.38), dark square screen face (#0E1424 visor, unlit canvas face with mint
+    #6CDA7E glow + scanlines), mint ears/antenna-mic/toe caps/drawer handles/cuffs, slim navy #1B2333 tube limbs,
+    navy boots, chest drawers NOTES + SOURCES, PRESS tag. 8 expressions (neutral happy wow skeptic puzzled focus
+    determined proud), mouth bar lip-synced to narration RMS, blinks, springy antenna kicks on impacts.
+  - **Stage**: dark navy-black newsroom — background/fog #0E1424 (fog 4.5→9), floor #141B2B with faint mint grid
+    (rgba(108,218,126,0.10), 64 px cells, 4×4 repeat), back wall #1B2333 at z −2.4 with deep #121826 panels, mint neon
+    "NEWSROOM" sign, two steel wall monitors with mint labels. Props are rounded boxes (RoundedBoxGeometry) in
+    shell/navy/mint/steel; amber #FFC24B only as the warning/"wrong" accent.
+  - **Light**: ACES filmic, exposure 1.05; PMREM env (navy room #2A3550, white ×4 top panel, mint ×2.5 side, white
+    ×1.5 front; envIntensity 0.55); hemisphere #9FB4D9/#0E1424 0.55; warm key spot #FFF4E6 38 at (1.8,3.6,2.6) with
+    PCF-soft shadows; mint rim directional 1.4 from (−2.5,2.5,−2.5); blue fill point #6C8FD9 3 at (−1.6,1.4,2);
+    radial vignette 0→0.35 black.
+  - **Camera**: PerspectiveCamera fov 44, eased (inOutCubic) keyframed moves between close/medium/insert setups at
+    ~1.1–1.4 m height, 2–3.3 m distance; tiny drift + decaying shake kicks on impacts. Motion is character acting
+    and physical prop cause-and-effect (anticipation → action → impact → recovery), hands on props via numeric IK.
+  - **Captions**: Space Grotesk 700, white with mint/amber key words, on a dark pill rgba(11,16,32,0.72) with a
+    2 px mint stroke rgba(108,218,126,0.35), radius 28, pop-in outBack.
+- Reference frames to compare before every render: pilot at 1 s, 6 s, 11 s.
+
+## Format rules — feedback round (supersede conflicting rules above)
+- Exactly 30.000 s, 1080x1920, 30 fps, H.264 yuv420p + AAC. Strong opening, distinct scenes that show the mechanism
+  while it is narrated, clear takeaway, short natural brand/action CTA in the final 3–4 s.
+- Captions in the upper safe region below platform account overlays: **y < 300 clear of meaningful text** (no
+  signature/badge there), caption ink within **y 340–520, x 90–990**, max two readable lines, no overlaps.
+  Nothing meaningful in the bottom/side UI zones (no bottom labels); crucial diagrams centred.
+- Not deliverables: contact/source sheets, a static page with camera bob. Re-render if text is small, obstructed or
+  a scene is static.
+- Topics: broad, relatable "AI you use daily"; no LLM-prompting tutorials or jargon. Research claims in reliable
+  original sources; record them in the episode doc and publishing copy; qualifications brief and inside the
+  relevant sentence; no filler, empty motivation, long disclaimers, invented app capabilities, guarantees,
+  statistics, income or testimonials. Never imply Ideaverse performs the everyday function being explained.
+- Voice: cached Kokoro af_bella 0.7 + am_puck 0.3, en-us, speed 0.98. Music subtle, voice clear, no repetitive
+  ticking/looping figures; event-linked SFX only. Master −15 LUFS, TP −1.5.
+- No paid APIs, no Blender. Preserve previous MP4s.
+- Episodes in this style: feedback-01 "AI you use daily — how spam filters learn to sort email"
+  (production/30s/2026-11-02-feedback-round/, see context/15).
