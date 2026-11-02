@@ -1,0 +1,5 @@
+{ "voiceStarts": [0.35, 1.95, 4.0],
+  "captions": [
+    { "a": 0.25, "b": 1.80, "lines": ["Donating a coat?"] },
+    { "a": 1.85, "b": 3.85, "lines": ["Ask the size first."] },
+    { "a": 3.90, "b": 10.01, "lines": ["Useful help starts with what", "the person actually needs."] } ] }

@@ -75,3 +75,10 @@ node tools/render.mjs --sheet    # character sheet
 Pilot 01 is complete and pushed. Await user feedback on Pilot 01 (tone, pace, Tally design, caption style). Then, only with
 approval, research + storyboard episode 02 from the list in `08` (suggested: "Receipt vs delivery photo"), reusing the rig,
 `audio/mix.py` and `tools/` from this folder in a new `education/pilot-02/` (copy, don't edit pilot-01 sources).
+
+## 2026-11-02 — 10 s style test, batch 2026-11-02-pre-reset (S03 Shadow Puppetry) — DONE
+- Output: `videos/help/tests/10s/pre-reset-2026-11-02/help-10s-test.mp4`, SHA-256 `6cd2db7e489e7f40373334335036d5044a9d543fd5d0d938edf24eded1c6bc1d`.
+- Verified: 10.000000 s container/video/audio; H.264 High 1080×1920 30/1, 300 frames; AAC-LC 48 kHz stereo; full decode exit 0 / 0 errors; −16.3 LUFS, −1.9 dBTP; ASR 14/15 words.
+- Voice: Kokoro-82M ONNX (kokoro-onnx 0.6.1, model-files-v1.0), Meshline blend af_bella 0.7 + am_puck 0.3, speed 0.98, en-us. Not Piper.
+- Canvas2D original renderer (~76 s for 150 unique frames ×2). Pilot-01 15 s work untouched.
+- Unresolved: 2-line caption bottom y≈492 (asked ~460); light carving density; no human listening pass. Details: that folder's README.md.

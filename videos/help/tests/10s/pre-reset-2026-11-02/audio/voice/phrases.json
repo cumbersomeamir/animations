@@ -1,0 +1,28 @@
+{
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "phrases": [
+  {
+   "i": 0,
+   "text": "Donating a coat?",
+   "dur": 0.912,
+   "sr": 24000,
+   "file": "audio/voice/p0.wav"
+  },
+  {
+   "i": 1,
+   "text": "Ask the size first.",
+   "dur": 1.134,
+   "sr": 24000,
+   "file": "audio/voice/p1.wav"
+  },
+  {
+   "i": 2,
+   "text": "Useful help starts with what the person actually needs.",
+   "dur": 2.992,
+   "sr": 24000,
+   "file": "audio/voice/p2.wav"
+  }
+ ]
+}

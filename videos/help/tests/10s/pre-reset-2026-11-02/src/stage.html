@@ -1,0 +1,192 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Help 10s — shadow puppetry</title>
+<style>
+@font-face { font-family: 'Inter'; font-weight: 800; src: url('/education/pilot-01/fonts/Inter-ExtraBold.otf'); }
+@font-face { font-family: 'Inter'; font-weight: 600; src: url('/education/pilot-01/fonts/Inter-SemiBold.otf'); }
+html,body{margin:0;background:#0B0D12}
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// Original Canvas2D shadow-puppet stage for Help (illustrative). Deterministic: draw(frame).
+const W = 1080, H = 1920, FPS = 30;
+const P = { cream: '#F7F5EF', ink: '#0B0D12', green: '#2DB37D', greenDk: '#1F8A5E', yellow: '#F2C230', yellowDk: '#C99A12' };
+const T = await (await fetch('./timing.json')).json();
+await document.fonts.load('800 60px Inter'); await document.fonts.load('600 30px Inter');
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+const c = document.getElementById('c'); const g = c.getContext('2d');
+const SCR = { x: 70, y: 560, w: 940, h: 1090 };          // cloth screen (action lives here, below captions)
+const GROUND = SCR.y + SCR.h - 120;
+
+// --- helpers ---
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const io = (u) => u < .5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+const ob = (u) => { const k = 1.9; return 1 + (k + 1) * Math.pow(u - 1, 3) + k * Math.pow(u - 1, 2); };
+const lerp = (a, b, u) => a + (b - a) * u;
+function rnd(i) { const s = Math.sin(i * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); }
+
+// cloth weave texture (precomputed)
+const weave = document.createElement('canvas'); weave.width = SCR.w; weave.height = SCR.h;
+{ const w = weave.getContext('2d'); w.fillStyle = '#F4E9D2'; w.fillRect(0, 0, SCR.w, SCR.h);
+  for (let y = 0; y < SCR.h; y += 3) { w.fillStyle = `rgba(150,110,60,${0.035 + 0.03 * rnd(y)})`; w.fillRect(0, y, SCR.w, 1); }
+  for (let x = 0; x < SCR.w; x += 3) { w.fillStyle = `rgba(150,110,60,${0.03 + 0.03 * rnd(x + 9)})`; w.fillRect(x, 0, 1, SCR.h); }
+  for (let i = 0; i < 2500; i++) { w.fillStyle = `rgba(120,80,40,${0.05 * rnd(i)})`; w.fillRect(rnd(i * 3) * SCR.w, rnd(i * 7) * SCR.h, 2, 1); } }
+
+// puppet piece: translucent dyed paper with dark carved outline + soft cast shadow on the cloth
+function piece(path, fill, alpha = 0.82, outline = '#123F2C') {
+  g.save(); g.globalAlpha = 0.18; g.translate(10, 12); g.filter = 'blur(6px)'; g.fillStyle = '#3A2410'; g.fill(path); g.restore();
+  g.save(); g.globalCompositeOperation = 'multiply'; g.globalAlpha = alpha; g.fillStyle = fill; g.fill(path); g.restore();
+  g.save(); g.lineWidth = 5; g.strokeStyle = outline; g.globalAlpha = 0.9; g.lineJoin = 'round'; g.stroke(path); g.restore();
+}
+function holes(pts, r) { g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = 'rgba(255,240,200,0.75)';
+  for (const [x, y, s] of pts) { g.beginPath(); g.ellipse(x, y, r * (s || 1), r * 0.55 * (s || 1), 0, 0, Math.PI * 2); g.fill(); } g.restore(); }
+function rivet(x, y) { g.fillStyle = P.yellowDk; g.beginPath(); g.arc(x, y, 7, 0, Math.PI * 2); g.fill(); g.fillStyle = '#FFE9A0'; g.beginPath(); g.arc(x - 2, y - 2, 2.5, 0, Math.PI * 2); g.fill(); }
+function rod(x, y) { g.save(); g.strokeStyle = 'rgba(70,60,50,0.38)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (x - W / 2) * 0.08, SCR.y + SCR.h + 40); g.stroke(); g.restore(); }
+function ik(sx, sy, tx, ty, l1, l2, bend) {
+  let dx = tx - sx, dy = ty - sy, d = Math.hypot(dx, dy); const m = (l1 + l2) * 0.999; if (d > m) { tx = sx + dx / d * m; ty = sy + dy / d * m; d = m; }
+  const a = Math.atan2(ty - sy, tx - sx), cA = clamp((l1 * l1 + d * d - l2 * l2) / (2 * l1 * d), -1, 1), ang = a + bend * Math.acos(cA);
+  return [sx + Math.cos(ang) * l1, sy + Math.sin(ang) * l1, tx, ty];
+}
+function limb(x0, y0, x1, y1, w0, w1) { const a = Math.atan2(y1 - y0, x1 - x0), nx = -Math.sin(a), ny = Math.cos(a), p = new Path2D();
+  p.moveTo(x0 + nx * w0, y0 + ny * w0); p.lineTo(x1 + nx * w1, y1 + ny * w1); p.arc(x1, y1, w1, a + Math.PI / 2, a - Math.PI / 2, true); p.lineTo(x0 - nx * w0, y0 - ny * w0); p.arc(x0, y0, w0, a - Math.PI / 2, a + Math.PI / 2, true); return p; }
+
+// figure in profile. f = {x, dir(+1 faces right), tilt, head, hand:[x,y] (front), back:[x,y], body, sleeve, hat}
+function figure(f, t) {
+  const s = f.dir, sh = { x: f.x + 10 * s, y: GROUND - 430 };
+  const trem = Math.sin(t * 7.3 + f.x) * 1.6;
+  g.save(); g.translate(f.x, GROUND); g.rotate(f.tilt || 0); g.translate(-f.x, -GROUND);
+  // fuller lower body robe
+  const body = new Path2D(); body.moveTo(f.x - 120, GROUND); body.bezierCurveTo(f.x - 110, GROUND - 260, f.x - 80, GROUND - 420, f.x - 20, GROUND - 450);
+  body.lineTo(f.x + 35, GROUND - 450); body.bezierCurveTo(f.x + 85, GROUND - 420, f.x + 110, GROUND - 260, f.x + 120, GROUND); body.closePath();
+  piece(body, f.body);
+  holes([[f.x - 40, GROUND - 120], [f.x + 10, GROUND - 160, 1.2], [f.x + 55, GROUND - 110], [f.x - 5, GROUND - 260, 0.8], [f.x - 60, GROUND - 220, 0.7], [f.x + 50, GROUND - 230, 0.7]], 13);
+  // back arm
+  const [bex, bey, bhx, bhy] = ik(sh.x - 12 * s, sh.y + 6, f.back[0], f.back[1] + trem, 118, 112, -s);
+  piece(limb(sh.x - 12 * s, sh.y + 6, bex, bey, 24, 20), f.sleeve, 0.7); piece(limb(bex, bey, bhx, bhy, 20, 16), f.sleeve, 0.7); rivet(bex, bey);
+  // head (1.2x) with open-cut face + headwear
+  const hx = f.x + 18 * s, hy = GROUND - 540;
+  g.save(); g.translate(hx, hy + 40); g.rotate(f.head || 0); g.translate(-hx, -(hy + 40));
+  const head = new Path2D(); head.ellipse(hx, hy, 74, 82, 0, 0, Math.PI * 2);
+  const neck = limb(hx, hy + 60, f.x + 10 * s, GROUND - 440, 22, 26);
+  piece(neck, f.body, 0.75);
+  piece(head, '#D9B98A', 0.55, '#5A3A1A');
+  holes([[hx + 34 * s, hy - 8, 0.9]], 12);                         // open-cut eye
+  g.save(); g.strokeStyle = 'rgba(90,58,26,0.9)'; g.lineWidth = 5; g.beginPath(); g.arc(hx + 30 * s, hy + 30, 16, s > 0 ? 0.2 : Math.PI - 1.4, s > 0 ? 1.4 : Math.PI - 0.2); g.stroke(); g.restore(); // calm smile
+  piece(f.hat(hx, hy), f.hatFill, 0.85, '#5A3A10');
+  g.restore();
+  rivet(f.x + 10 * s, GROUND - 445);
+  // front arm (to hand target)
+  const [ex, ey, hx2, hy2] = ik(sh.x, sh.y, f.hand[0], f.hand[1] + trem, 122, 116, s);
+  piece(limb(sh.x, sh.y, ex, ey, 26, 21), f.sleeve, 0.78); piece(limb(ex, ey, hx2, hy2, 21, 17), f.sleeve, 0.78);
+  const hand = new Path2D(); hand.ellipse(hx2 + 8 * s, hy2, 22, 17, 0, 0, Math.PI * 2); piece(hand, '#D9B98A', 0.6, '#5A3A1A');
+  rivet(sh.x, sh.y); rivet(ex, ey);
+  g.restore();
+  rod(hx2, hy2); rod(f.x + 10 * s, GROUND - 445);
+  return [hx2, hy2];
+}
+const capHat = (x, y) => { const p = new Path2D(); p.ellipse(x - 4, y - 46, 80, 46, 0, Math.PI, 0); p.rect(x - 84, y - 52, 168, 16); return p; };
+const scarf = (x, y) => { const p = new Path2D(); p.ellipse(x - 6, y - 10, 86, 92, 0, Math.PI * 0.95, Math.PI * 0.05); p.lineTo(x + 70, y + 30); p.lineTo(x - 90, y + 50); p.closePath(); return p; };
+
+// coat piece: centred at (x,y) top-collar, scale s
+function coat(x, y, s, a = 1) {
+  const p = new Path2D(); const k = (v) => v * s;
+  p.moveTo(x - k(40), y); p.lineTo(x + k(40), y); p.lineTo(x + k(95), y + k(35)); p.lineTo(x + k(150), y + k(210)); p.lineTo(x + k(110), y + k(228));
+  p.lineTo(x + k(78), y + k(130)); p.lineTo(x + k(88), y + k(380)); p.lineTo(x - k(88), y + k(380)); p.lineTo(x - k(78), y + k(130));
+  p.lineTo(x - k(110), y + k(228)); p.lineTo(x - k(150), y + k(210)); p.lineTo(x - k(95), y + k(35)); p.closePath();
+  g.save(); g.globalAlpha = a; piece(p, P.yellow, 0.8, '#6B4A08');
+  holes([[x, y + k(110)], [x, y + k(190)], [x, y + k(270)]], k(10));
+  g.strokeStyle = 'rgba(107,74,8,0.8)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y + k(20)); g.lineTo(x, y + k(375)); g.stroke(); g.restore();
+  rod(x + k(60), y + k(200));
+}
+function plaque(x, y, w, h, text, sc, fill = P.ink, color = P.yellow) {
+  if (sc <= 0.01) return;
+  g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.roundRect(-w / 2, -h / 2, w, h, 22); piece(p, fill, 0.86, '#000');
+  g.fillStyle = color; g.font = `800 ${h * 0.56}px Inter`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 0, 4);
+  g.restore(); rod(x, y + h / 2 * sc);
+}
+function tick(x, y, sc) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.arc(0, 0, 62, 0, Math.PI * 2); piece(p, P.green, 0.9, '#0E4D33');
+  g.strokeStyle = P.yellow; g.lineWidth = 16; g.lineCap = 'round'; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-28, 2); g.lineTo(-8, 24); g.lineTo(30, -22); g.stroke(); g.restore(); rod(x, y + 62 * sc); }
+
+function draw(f) {
+  const t = Math.floor(f / 2) * 2 / FPS;      // puppets step at 15 fps (stop-motion), delivery stays 30 fps
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'source-over'; g.globalAlpha = 1; g.filter = 'none';
+  g.fillStyle = P.ink; g.fillRect(0, 0, W, H);
+  // stage frame
+  g.fillStyle = '#2A1A10'; g.fillRect(SCR.x - 28, SCR.y - 28, SCR.w + 56, SCR.h + 56);
+  g.fillStyle = '#3B2616'; g.fillRect(SCR.x - 16, SCR.y - 16, SCR.w + 32, SCR.h + 32);
+  // cloth + lamp light (two lamps, independent flicker)
+  g.save(); g.beginPath(); g.rect(SCR.x, SCR.y, SCR.w, SCR.h); g.clip();
+  g.drawImage(weave, SCR.x, SCR.y);
+  const l1 = 0.92 + 0.05 * Math.sin(t * 9.1) + 0.03 * Math.sin(t * 23.7), l2 = 0.9 + 0.06 * Math.sin(t * 7.3 + 1) + 0.03 * Math.sin(t * 19.1);
+  for (const [lx, ly, r, k] of [[SCR.x + 330, SCR.y + 560, 620, l1], [SCR.x + 650, SCR.y + 520, 560, l2]]) {
+    const rg = g.createRadialGradient(lx, ly, 20, lx, ly, r); rg.addColorStop(0, `rgba(255,236,190,${0.55 * k})`); rg.addColorStop(0.35, `rgba(255,214,140,${0.25 * k})`); rg.addColorStop(1, 'rgba(255,200,120,0)');
+    g.globalCompositeOperation = 'screen'; g.fillStyle = rg; g.fillRect(SCR.x, SCR.y, SCR.w, SCR.h); }
+  g.globalCompositeOperation = 'source-over';
+  // ground strip (carved)
+  const grd = new Path2D(); grd.rect(SCR.x, GROUND, SCR.w, 26); piece(grd, P.greenDk, 0.7, '#0E4D33');
+
+  // ---------- performance ----------
+  // donor (left, faces right) / neighbour (right, faces left) — same size, upright
+  const dx = 300, nx = 780;
+  // beat timings
+  const offer1 = io(seg(t, 0.15, 0.75)), place1 = io(seg(t, 0.75, 1.15)), back1 = io(seg(t, 1.95, 2.35));
+  const ask = ob(seg(t, 2.15, 2.45)), askOff = seg(t, 3.75, 3.95);
+  const raise = io(seg(t, 2.6, 3.1)) * (1 - io(seg(t, 3.6, 4.0)));
+  const sizeTag = ob(seg(t, 2.95, 3.25)) * (1 - seg(t, 3.75, 3.95));
+  const rise2 = ob(seg(t, 4.05, 4.45)), offer2 = io(seg(t, 4.6, 5.3)), place2 = io(seg(t, 5.3, 5.9));
+  const fit = ob(seg(t, 6.0, 6.35));
+  // donor hand path (holds coat by rod)
+  let dh = [dx + 90, GROUND - 330];
+  dh = [lerp(dh[0], nx - 150, offer1 * (1 - back1)), lerp(dh[1], GROUND - 390, offer1 * (1 - back1))];
+  if (t > 4.0) dh = [lerp(dx + 90, nx - 150, offer2), lerp(GROUND - 300, GROUND - 380, offer2)];
+  const nod = Math.sin(seg(t, 3.35, 3.75) * Math.PI) * 0.12 + Math.sin(seg(t, 6.4, 6.9) * Math.PI) * 0.1;
+  figure({ x: dx, dir: 1, tilt: -0.02 * offer1 + 0.03 * Math.sin(seg(t, 1.2, 1.9) * Math.PI), head: 0.05 + nod + 0.08 * Math.sin(seg(t, 2.15, 2.9) * Math.PI),
+    hand: dh, back: [dx - 40 + 70 * ask * (1 - askOff), GROUND - 250 - 150 * ask * (1 - askOff)], body: P.green, sleeve: P.greenDk, hat: capHat, hatFill: P.yellow }, t);
+  // neighbour
+  const look = 0.18 * io(seg(t, 1.1, 1.4)) * (1 - io(seg(t, 1.9, 2.2))) - 0.1 * fit;
+  const shrug = Math.sin(seg(t, 1.25, 1.9) * Math.PI);
+  figure({ x: nx, dir: -1, tilt: 0.01, head: look, hand: [nx - 110, GROUND - 270 - 40 * shrug - 330 * raise], back: [nx + 70, GROUND - 230 - 40 * shrug],
+    body: '#58C495', sleeve: P.greenDk, hat: scarf, hatFill: '#E8A23A' }, t);
+  // small coat: offered, held against neighbour -> too small, then withdrawn
+  if (t < 2.5) {
+    const cx = lerp(dh[0] + 40, nx - 10, place1 * (1 - back1)), cy = lerp(dh[1] - 60, GROUND - 450, place1 * (1 - back1)) + 30 * back1 + 600 * io(seg(t, 2.2, 2.5));
+    const wob = place1 > 0.99 ? Math.sin((t - 1.15) * 18) * Math.exp(-(t - 1.15) * 4) * 0.06 : 0;
+    g.save(); g.translate(cx, cy); g.rotate(wob); g.translate(-cx, -cy); coat(cx, cy, 0.62); g.restore();
+  }
+  // ask: "?" plaque on a rod near donor
+  plaque(dx + 120, GROUND - 720, 130, 130, '?', ask * (1 - askOff));
+  plaque(nx + 40, GROUND - 840, 190, 110, 'L', sizeTag, P.cream, P.ink);
+  // bigger coat rises, offered, settles onto neighbour: fits
+  if (t >= 4.05) {
+    const sx = dh[0] + 40, sy = dh[1] - 70 + (1 - rise2) * 500;
+    const cx = lerp(sx, nx - 10, place2), cy = lerp(sy, GROUND - 450, place2);
+    coat(cx, cy, 1.0);
+  }
+  tick(545, GROUND - 700, fit);
+  g.restore();
+  // warm brown vignette on cloth + grain
+  const vg = g.createRadialGradient(W / 2, SCR.y + SCR.h / 2, 300, W / 2, SCR.y + SCR.h / 2, 820); vg.addColorStop(0, 'rgba(60,30,10,0)'); vg.addColorStop(1, 'rgba(60,30,10,0.42)');
+  g.fillStyle = vg; g.fillRect(SCR.x, SCR.y, SCR.w, SCR.h);
+
+  // ---------- captions (upper centre, on dark, no overlap) ----------
+  const cap = T.captions.find((k) => t >= k.a && t < k.b);
+  if (cap) {
+    const a = clamp(Math.min(seg(t, cap.a, cap.a + 0.12), 1 - seg(t, cap.b - 0.1, cap.b)));
+    g.save(); g.globalAlpha = a; g.fillStyle = P.cream; g.textAlign = 'center'; g.textBaseline = 'top';
+    g.font = '800 64px Inter'; const mw = Math.max(...cap.lines.map((l) => g.measureText(l).width)); const fs = Math.min(64, Math.floor(64 * 900 / mw));
+    g.font = `800 ${fs}px Inter`; const lh = Math.round(fs * 1.2);
+    cap.lines.forEach((ln, i) => g.fillText(ln, W / 2, 352 + i * lh));
+    g.fillStyle = P.yellow; g.fillRect(W / 2 - 50, 352 + cap.lines.length * lh + 6, 100, 6);
+    window.__capBox = { fs, top: 352, bottom: 352 + cap.lines.length * lh + 12, width: Math.round(Math.max(...cap.lines.map((l) => g.measureText(l).width))) };
+    g.restore();
+  }
+  // illustrative tag + tiny signature
+  g.save(); g.font = '600 30px Inter'; g.fillStyle = 'rgba(247,245,239,0.72)'; g.textAlign = 'center'; g.fillText('Illustrative scene', W / 2, 200); g.restore();
+  const sa = seg(t, 8.5, 8.9);
+  if (sa > 0) { g.save(); g.globalAlpha = sa; g.drawImage(icon, W / 2 - 92, 1712, 48, 48); g.font = '700 38px Inter'; g.fillStyle = P.cream; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('Help', W / 2 - 34, 1737); g.restore(); }
+}
+window.__draw = (f) => { draw(f); return c.toDataURL('image/png'); };
+window.__ready = true;
+</script></body></html>
