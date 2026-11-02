@@ -82,12 +82,61 @@ Publishing: `publishing-caption.txt` — concise English caption + checked sourc
 - End every lesson with an **original fictional example** (labelled) that applies the idea, not a copy of the case study.
 - Script length: about 65–80 words for 30 s (batch-02: 73 words, 24.7 s of speech); tighten for accuracy before timing.
 
+## Update — feedback round (2026-11-02): latest user feedback (SUPERSEDES conflicting rules above)
+Applies from episode 03 on. Where this section conflicts with "Art-direction skill", "Recurring format", "Caption + safe
+areas" or "Update — batch-02" above, this section wins. Living Screencast / Pixel Pip are no longer required.
+
+### Format rules (current)
+- Exactly 30.000 s · 1080×1920 · 30 fps · H.264 yuv420p + AAC · English voiceover. Strong opening (motion in the first
+  frames), distinct scenes that show the mechanism *as it is narrated*, a clear takeaway, and a short natural brand/action
+  CTA in the **final 3–4 s** (e.g. "Follow Werbens to decode how brands sell." with the icon tile + wordmark).
+- Captions: upper safe region below platform account overlays — **y < 300 kept clear of meaningful text; caption ink
+  ≈ y 340–520; x 90–990; ≤ 2 readable lines; never overlapping labels or hero objects**. Crucial diagrams/labels stay in
+  x 80–1000 and y 300–1560 (clear of side buttons and the bottom caption/UI band). A static page with camera bobbing, a source
+  or contact sheet is not a deliverable; re-render if text is small, obstructed or a scene is static.
+- Content: research claims against reliable original sources (papers/textbooks/institutions); record them in the episode file
+  and `publishing-caption.txt`. Useful and easy for a general viewer; no filler, empty motivational lines or long generic
+  disclaimers — put any material qualification briefly inside the relevant sentence ("can", "illustrative menu"). No invented
+  app capability, guarantee, statistic, income or testimonial. Example prices/products are invented and labelled once.
+- Audio: subtle music, clear voice, **no repetitive distracting loops** (no constant hats/arpeggios/bass patterns); the
+  cached Meshline/Recall voice (Kokoro af_bella 0.7 + am_puck 0.3, en-us, speed 0.98) and cached weights; no paid API.
+- Delivery: MP4 attached in chat + pushed to `production/30s/<round>/<app-slug>-30s-<name>.mp4`; production notes, source and
+  QA stay in the repo. Verify duration/codecs, full FFmpeg decode, narration timing and representative transition frames.
+
+### Style recipe — "Satisfying Product Theatre" (the style is these rules, not the renderer)
+1. **Stage:** one seamless light studio sweep (floor curving into a backdrop, `#F4F2F8` on `#F1EFF6`), lots of white/light
+   neutral negative space. No presenter, mascot, UI window or busy background.
+2. **Hero objects:** 1–3 uncluttered physical objects per shot, built from original procedural geometry (lathe/rounded
+   boxes), smooth clearcoat materials; Werbens violet `#6234FB` / deep `#4A1FD6` as the hero accent, lavender `#CCC0F7` and
+   white as secondary. Objects that represent quantities are geometrically honest (e.g. cup scale ∝ ∛volume).
+3. **Light + shadow:** soft key from upper left, cool rim from behind, hemisphere fill; soft shadow-map shadows **plus** a
+   radial contact-shadow decal under every object that tightens and darkens as it nears the floor (anticipation cue); objects
+   in the air cast only the decal (no stray far-off shadow blobs).
+4. **Motion grammar (tactile):** drops with near-impact slow motion (fast fall → slow hover just above the floor → snap),
+   landing squash-and-stretch + a small dust ring; pops (lids lift and fade), hops, slides with friction; suspense holds
+   before an impact (a suspended ball hovering, music thinning to a fifth); impacts that crush/flatten; slicing progressions
+   (a ring tightens, snaps, the piece lifts off on an arc and is set down with a squash); a simple object that breaks the
+   pattern. Never keep the viewer waiting for an undelivered payoff — every anticipation resolves within ~1 s.
+5. **Deliberate shape/scale changes timed to words:** each spoken idea gets exactly one physical change (land, lift,
+   transform to measuring glass, grey-out, hop, crush, cut). Change lands on or just before the key word.
+6. **Camera:** slow dolly between 3–4 hero framings (wide → close two-object comparison → wide → push-in for the CTA); no
+   bobbing, no shake, no whip pans; framing keeps objects in x 90–990 and below the caption band.
+7. **Labels:** few, large, object-anchored labels (white cards 220 px: name 25 px, ml 40 px, price 50 px; violet/ink notes
+   36 px); appear with a back-out pop; one "illustrative" label per invented example.
+8. **Sound:** foley matched to each physical action (thud by object size, lid pop, glass shimmer, pour, coin clink, creak,
+   whoosh, squash, slide, zip + snap, tile thud); music = one held, evolving pad chord per scene + a few event-tied piano
+   notes, no grid; voice ducks music −10 dB / SFX −4 dB; −15 LUFS, TP ≤ −1.5 dBTP; foley kept off word onsets where possible.
+9. **Pipeline (low-cost, offline):** Three.js 0.180.0 in headless Chromium (SwiftShader WebGL2, deterministic `frame(t)`),
+   PNG frames piped to FFmpeg libx264 crf 16; no Blender, no GPU, no paid services. DOM QA of captions/labels every 1/3 s.
+
 ## Episode log (do not repeat topics)
 | # | Folder | Topic | Case / example |
 |---|---|---|---|
 | 01 | `production/30s/2026-11-02/` | A feature is not yet a benefit | fictional backpack (water-resistant ≠ waterproof) |
 | 02 | `production/30s/2026-11-02-batch-02/` | The ad that admits a weakness | VW "Think small." (1959, DDB) reconstruction → fictional compact tool |
+| 03 | `production/30s/2026-11-02-feedback-round/` | The decoy effect (Satisfying Product Theatre) | illustrative coffee menu: small 150 ml Rs90 · medium 280 ml Rs155 (decoy) · large 300 ml Rs160 |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
 - `tə kˈɑːpi → tˈuː kˈɑːpi` (weak "to" before "copy" was heard as "a copy").
+- `wˈɜːbənz → wˈɜɹbɛnz` ("Werbens"; Whisper base.en still writes "Warbins"/"Wurbins" — vocabulary limit; spelling shown on screen).

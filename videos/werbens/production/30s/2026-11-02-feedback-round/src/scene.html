@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080,height=1920">
+<title>Werbens 30s Feedback 01</title>
+<style>
+  @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf); }
+  @font-face { font-family: "IDBlack"; src: url(/fonts/InterDisplay-Black.otf); }
+  @font-face { font-family: "ISB"; src: url(/fonts/Inter-SemiBold.otf); }
+  @font-face { font-family: "IB"; src: url(/fonts/Inter-Bold.otf); }
+  :root { --violet: #6234FB; --deep: #2A1678; --lav: #CCC0F7; --pale: #F0EAFC; --ink: #1B1433; }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #F3F1F7; }
+  canvas#gl { position: absolute; left: 0; top: 0; display: block; }
+  #hud { position: absolute; inset: 0; pointer-events: none; }
+  #cap { position: absolute; left: 90px; right: 90px; top: 340px; height: 180px; display: flex; align-items: center; justify-content: center; }
+  #cap .pill { padding: 12px 32px 14px; border-radius: 30px; background: rgba(42,22,120,0.92); box-shadow: 0 14px 36px rgba(27,20,51,0.22); text-align: center; max-width: 900px; }
+  #cap .ln { display: block; font: 54px/62px "IDXB"; letter-spacing: -0.8px; color: #FFFFFF; white-space: nowrap; }
+  #cap .w { display: inline-block; margin: 0 0.11em; } #cap .w.hi { color: var(--lav); }
+  #chip { position: absolute; left: 50%; top: 560px; transform: translateX(-50%); padding: 10px 24px 12px; border-radius: 26px; background: #FFFFFF; border: 2px solid #DCD3FA;
+          font: 32px/38px "IB"; color: var(--deep); letter-spacing: 0.3px; white-space: nowrap; box-shadow: 0 8px 20px rgba(27,20,51,0.08); }
+  .tag { position: absolute; width: 220px; margin-left: -110px; padding: 12px 0 14px; border-radius: 22px; background: #FFFFFF; text-align: center;
+         box-shadow: 0 10px 26px rgba(27,20,51,0.14); border: 2px solid #E4DEF6; transform-origin: 50% 0; }
+  .tag .n { font: 25px/30px "IB"; letter-spacing: 2px; color: #7A6FB0; }
+  .tag .ml { font: 40px/46px "IDXB"; color: var(--ink); letter-spacing: -0.5px; }
+  .tag .p { font: 50px/54px "IDBlack"; color: var(--violet); letter-spacing: -0.5px; }
+  .tag.decoy { background: var(--deep); border-color: var(--deep); }
+  .tag.decoy .n, .tag.decoy .ml { color: #CFC4F5; } .tag.decoy .p { color: #FFFFFF; }
+  .tag .dc { position: absolute; left: 50%; top: -30px; transform: translateX(-50%); padding: 6px 16px 8px; border-radius: 16px; background: var(--violet); color: #fff; font: 26px/30px "IDBlack"; letter-spacing: 2px; white-space: nowrap; }
+  .note { position: absolute; padding: 8px 18px 10px; border-radius: 18px; background: var(--violet); color: #fff; font: 36px/42px "IDXB"; white-space: nowrap; box-shadow: 0 10px 24px rgba(98,52,251,0.3); transform-origin: 50% 50%; }
+  .note.ink { background: var(--ink); }
+  .note.light { background: #FFFFFF; color: var(--deep); border: 2px solid #DCD3FA; box-shadow: 0 8px 20px rgba(27,20,51,0.1); }
+  svg#ov { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+  #word { position: absolute; left: 540px; top: 1330px; white-space: nowrap; text-align: center; font: 72px/80px "IDBlack"; letter-spacing: -1.5px; color: var(--deep); }
+  #word small { display: block; font: 30px/38px "ISB"; letter-spacing: 0; color: #6E6790; }
+</style>
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
+</head>
+<body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<div id="hud">
+  <svg id="ov"></svg>
+  <div id="chip">Illustrative menu</div>
+  <div class="tag" id="tagS"><div class="n">SMALL</div><div class="ml">150 ml</div><div class="p">Rs90</div></div>
+  <div class="tag" id="tagL"><div class="n">LARGE</div><div class="ml">300 ml</div><div class="p">Rs160</div></div>
+  <div class="tag" id="tagM"><div class="n">MEDIUM</div><div class="ml">280 ml</div><div class="p">Rs155</div><div class="dc" id="dc">DECOY</div></div>
+  <div class="note" id="nExtra">+20 ml</div>
+  <div class="note ink" id="nRs5">+Rs5</div>
+  <div class="note" id="nNeed">Need 150 ml?</div>
+  <div class="note ink" id="nSlice">+150 ml for +Rs70</div>
+  <div id="word">Werbens<small>Decoding how brands sell</small></div>
+  <div id="cap"></div>
+</div>
+<script type="module" src="/src/scene.js"></script>
+</body>
+</html>

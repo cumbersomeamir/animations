@@ -1,0 +1,66 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.39
+      ],
+      "script": "Why would a menu include a bad deal?",
+      "heard": "Why would a menu include a bad deal?",
+      "words": "8/8"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.95,
+        8.36
+      ],
+      "script": "A medium drink sits just below the large in size, but almost at the same price.",
+      "heard": "A medium drink sits just below the large in size, but almost at the same price.",
+      "words": "16/16"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        9.15,
+        12.2
+      ],
+      "script": "Now the large can feel like the obvious upgrade.",
+      "heard": "Now the large can feel like the obvious upgrade.",
+      "words": "9/9"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        13.05,
+        17.74
+      ],
+      "script": "That's a decoy: an option that can make another look better by comparison.",
+      "heard": "That's a decoy, an option that can make another look better by comparison.",
+      "words": "13/13"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        20.45,
+        23.91
+      ],
+      "script": "Before paying extra, ask how much you actually want.",
+      "heard": "Before paying extra, ask how much you actually want.",
+      "words": "9/9"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        26.35,
+        29.12
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why would a menu include a bad deal? A medium drink sits just below the large in size, but almost at the same price. Now the large can feel like the obvious upgrade. That's a decoy, an option that can make another look better by comparison. Before paying extra, ask how much you actually want. Follow Wurbins to decode how brands sell."
+}

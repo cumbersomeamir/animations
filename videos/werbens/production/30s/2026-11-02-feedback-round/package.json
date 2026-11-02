@@ -1,0 +1,10 @@
+{
+  "name": "werbens-30s-feedback-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 30 s feedback-round episode: the decoy effect. 'Satisfying Product Theatre' style: procedural 3D hero objects in a clean light studio, rendered offline with three.js in headless Chromium.",
+  "type": "module",
+  "scripts": { "build": "bash build.sh", "qa": "bash qa.sh" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "@huggingface/transformers": "3.7.6", "kokoro-js": "1.2.1", "three": "0.180.0" }
+}
