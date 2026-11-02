@@ -1,0 +1,239 @@
+{
+ "_doc": "NutriAI production 30s #01 'What is actually in 100 grams of mango?'. 30 fps, 900 frames. Voice chunk starts (s) and word-synced events (frames) from the ASR timing pass (qa/asr-takes.txt). Read by render.mjs and audio/mix.py.",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "S1",
+   "at": 0.3
+  },
+  {
+   "id": "S2",
+   "at": 3.1
+  },
+  {
+   "id": "S3",
+   "at": 7.7
+  },
+  {
+   "id": "S4",
+   "at": 15.4
+  },
+  {
+   "id": "S5",
+   "at": 20.0
+  },
+  {
+   "id": "S6",
+   "at": 25.4
+  }
+ ],
+ "captions": [
+  {
+   "in": 6,
+   "out": 86,
+   "lines": [
+    [
+     "What's inside",
+     6
+    ],
+    [
+     "100 g of mango?",
+     24
+    ]
+   ]
+  },
+  {
+   "in": 94,
+   "out": 226,
+   "lines": [
+    [
+     "Raw edible flesh",
+     96
+    ],
+    [
+     "skin & stone removed",
+     147
+    ]
+   ]
+  },
+  {
+   "in": 234,
+   "out": 446,
+   "lines": [
+    [
+     "60 kcal",
+     260
+    ],
+    [
+     " · 15 g carbs",
+     306,
+     0
+    ],
+    [
+     "1.6 g fibre",
+     368
+    ]
+   ]
+  },
+  {
+   "in": 462,
+   "out": 590,
+   "lines": [
+    [
+     "About 36 mg",
+     494
+    ],
+    [
+     "vitamin C",
+     542
+    ]
+   ]
+  },
+  {
+   "in": 600,
+   "out": 752,
+   "lines": [
+    [
+     "Food-database averages",
+     609
+    ],
+    [
+     "not every mango",
+     669
+    ]
+   ]
+  },
+  {
+   "in": 762,
+   "out": 899,
+   "lines": [
+    [
+     "Start with the portion,",
+     762
+    ],
+    [
+     "then the nutrients",
+     797
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "outline": 0,
+  "hatch1": 10,
+  "hatch2": 30,
+  "hatch3": 46,
+  "leaf": 18,
+  "title": 30,
+  "washWhole": 56,
+  "cut": 96,
+  "burnish": 108,
+  "section": 118,
+  "skinLabel": 148,
+  "stoneLabel": 163,
+  "washFlesh": 176,
+  "balance": 186,
+  "balanceLevel": 214,
+  "portionFly": 236,
+  "kcal": 258,
+  "carbs": 304,
+  "fibre": 366,
+  "vitc": 492,
+  "averages": 608,
+  "legend": 640,
+  "portionGlow": 762,
+  "pullback": 790,
+  "credits": 866
+ },
+ "sfx": [
+  {
+   "ev": "outline",
+   "type": "burin",
+   "dur": 2.4,
+   "gain": -20
+  },
+  {
+   "ev": "washWhole",
+   "type": "plip",
+   "gain": -18
+  },
+  {
+   "ev": "cut",
+   "type": "scrape",
+   "gain": -14
+  },
+  {
+   "ev": "burnish",
+   "type": "rub",
+   "dur": 0.6,
+   "gain": -20
+  },
+  {
+   "ev": "section",
+   "type": "burin",
+   "dur": 1.8,
+   "gain": -21
+  },
+  {
+   "ev": "washFlesh",
+   "type": "plip",
+   "gain": -17
+  },
+  {
+   "ev": "balance",
+   "type": "ting",
+   "gain": -19
+  },
+  {
+   "ev": "balanceLevel",
+   "type": "clink",
+   "gain": -14
+  },
+  {
+   "ev": "portionFly",
+   "type": "sheet",
+   "gain": -20
+  },
+  {
+   "ev": "kcal",
+   "type": "ting",
+   "gain": -15
+  },
+  {
+   "ev": "carbs",
+   "type": "ting",
+   "gain": -15,
+   "pitch": 1.12
+  },
+  {
+   "ev": "fibre",
+   "type": "ting",
+   "gain": -15,
+   "pitch": 1.26
+  },
+  {
+   "ev": "vitc",
+   "type": "ting",
+   "gain": -15,
+   "pitch": 1.5
+  },
+  {
+   "ev": "legend",
+   "type": "letters",
+   "dur": 0.8,
+   "gain": -21
+  },
+  {
+   "ev": "portionGlow",
+   "type": "plip",
+   "gain": -17
+  },
+  {
+   "ev": "credits",
+   "type": "letters",
+   "dur": 0.6,
+   "gain": -22
+  }
+ ]
+}
