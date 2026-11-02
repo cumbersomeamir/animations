@@ -35,7 +35,9 @@
   18 mini examples in two clusters, magnifier with live zoom lens, missing-letter ghost, NOT SPAM sticker.
 - Captions: pill y 344–520, x 92–988 (exact geometry exported by `node render.mjs --caplog`); nothing drawn above y 340.
 - Music: quiet pad progression, event-linked notes/SFX only, no loops.
-## Status / next
-- Stills inspected in 9 rounds (framing under captions, drawer visibility, insert angles, IK reach, ghost placement).
-- Full render running: `cd production/30s/2026-11-02-feedback-round/src && node render.mjs --frames --workers=3`.
-- Next: encode, score (`node music/score.mjs`), loudnorm −15 LUFS/TP −1.5, mux, `./qa.sh` (ASRPY=…), QA.md, commit, push.
+## Status — DELIVERED
+- ideaverse-30s-feedback-01.mp4 rendered (900 frames, 3 SwiftShader workers, ~27 min + 4 targeted re-renders),
+  encoded, mastered (−14.7 LUFS / −1.8 dBTP), muxed; QA in feedback-round/QA.md + qa/.
+- Commands: see feedback-round/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
+- Unresolved: none blocking. Minor accepted items listed in QA.md.
+- Next: await user review. Do not start another episode or create automation unless asked.

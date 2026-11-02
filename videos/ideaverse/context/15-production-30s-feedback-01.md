@@ -45,5 +45,9 @@ Style: pilot-01 DOCKET newsroom (context/11 "STYLE CORRECTION"). Riso banned.
 6. 20–25.6 recovery: INBOX empty of it → DOCKET opens SPAM, pulls it out, NOT SPAM sticker, files it in INBOX.
 7. 25.9–30 CTA: DOCKET to camera; "Explore more everyday AI with Ideaverse" + icon chip.
 
-## QA / status
-- (filled in after render — see the round's qa/QA.md)
+## QA / status — DELIVERED 2026-11-02
+- Output: production/30s/2026-11-02-feedback-round/ideaverse-30s-feedback-01.mp4 (see that folder's QA.md).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean.
+- −14.7 LUFS, TP −1.8 dBFS. ASR: all 6 lines match; every word inside a caption that shows it.
+- Caption pill x 92..988, y 344..520 (exact geometry, all frames); top band y<300 text-free.
+- Style compared with pilot-01 at 1/6/11 s (qa/style-vs-pilot.png).

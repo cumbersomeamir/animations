@@ -305,8 +305,8 @@ const DK = poseKeys([
   { t: 13.8, e: 'inOutCubic', p: { crouch: 0.45, lean: 16, headPitch: 18 } },
   { t: 14.1, e: 'outBack', p: { crouch: 0.12, lean: 2, headPitch: -6 } },
   // E3 into INBOX
-  { t: 14.95, e: 'inOutCubic', p: { crouch: 0.22, lean: 10, headPitch: 12 } },
-  { t: 15.3, e: 'outBack', p: { crouch: 0.05, lean: 0, headPitch: 0 } },
+  { t: 15.02, e: 'inOutCubic', p: { crouch: 0.22, lean: 10, headPitch: 12 } },
+  { t: 15.37, e: 'outBack', p: { crouch: 0.05, lean: 0, headPitch: 0 } },
   { t: 16.3, p: { headPitch: -10, headYaw: 4 } },
   { t: 17.55, p: { headPitch: -6 } },
   { t: 17.98, e: 'inOutCubic', p: { crouch: 0.45, lean: 16, headPitch: 18 } },
@@ -338,12 +338,12 @@ const DK = poseKeys([
 const IKW = {
   0: [[0.3, 0], [0.47, 1], [2.4, 1], [2.58, 0], [22.8, 0], [22.95, 1], [23.85, 1], [24.0, 0]],
   1: [[0.3, 0], [0.47, 1], [2.55, 1], [2.68, 0], [5.9, 0], [6.05, 1], [10.25, 1], [10.45, 0],
-      [13.18, 0], [13.32, 1], [13.82, 1], [13.95, 0], [14.45, 0], [14.57, 1], [15.0, 1], [15.12, 0],
+      [13.18, 0], [13.32, 1], [13.82, 1], [13.95, 0], [14.55, 0], [14.67, 1], [15.07, 1], [15.2, 0],
       [17.45, 0], [17.57, 1], [18.0, 1], [18.12, 0], [20.0, 0], [20.15, 1], [21.5, 1], [21.62, 0],
       [21.72, 0], [21.88, 1], [24.47, 1], [24.62, 0]],
 };
 const EXPR = [[-9, 'wow'], [0.62, 'happy'], [1.2, 'skeptic'], [2.3, 'neutral'], [3.2, 'focus'], [5.15, 'happy'], [5.95, 'focus'], [6.35, 'skeptic'], [7.4, 'focus'], [8.95, 'skeptic'], [10.6, 'neutral'],
-  [10.95, 'focus'], [11.9, 'wow'], [12.6, 'neutral'], [13.3, 'determined'], [14.4, 'happy'], [15.6, 'neutral'], [17.3, 'focus'], [17.6, 'determined'], [18.3, 'puzzled'],
+  [10.95, 'focus'], [11.9, 'wow'], [12.6, 'neutral'], [13.3, 'determined'], [14.5, 'happy'], [15.6, 'neutral'], [17.3, 'focus'], [17.6, 'determined'], [18.3, 'puzzled'],
   [20.15, 'focus'], [21.15, 'puzzled'], [21.85, 'determined'], [22.7, 'wow'], [23.5, 'happy'], [24.9, 'proud'], [25.6, 'happy'], [28.3, 'proud']];
 const BLINKS = [2.2, 4.6, 7.0, 9.6, 12.9, 15.8, 19.3, 21.6, 24.2, 27.1, 29.2];
 let VOICE = null;
@@ -387,7 +387,7 @@ function spamOpenAt(t) {
     [22.0, 0], [22.3, 1, 'outCubic'], [23.85, 1], [24.1, 0, 'inOutCubic']], t);
 }
 function inboxOpenAt(t) {
-  return track([[14.5, 0], [14.72, 1, 'outBack'], [15.4, 1], [15.65, 0, 'inOutCubic'], [20.25, 0], [20.55, 1, 'outCubic'], [21.45, 1], [21.72, 0, 'inOutCubic'],
+  return track([[14.6, 0], [14.82, 1, 'outBack'], [15.45, 1], [15.7, 0, 'inOutCubic'], [20.25, 0], [20.55, 1, 'outCubic'], [21.45, 1], [21.72, 0, 'inOutCubic'],
     [24.0, 0], [24.25, 1, 'outBack'], [25.3, 1], [25.58, 0, 'inOutCubic']], t);
 }
 const pulse = (t, a, b) => (t < a || t > b ? 0 : Math.min(inv(a, a + 0.12, t), 1 - inv(b - 0.2, b, t)) * (0.75 + 0.25 * Math.sin((t - a) * 14)));
@@ -525,7 +525,7 @@ function stageAt(t) {
   if (t < 2.6) { tA = grip(env1, -0.235, -0.03); tB = t < Hh.carry ? grip(env1, 0.235, -0.03) : grip(env1, -0.2, -0.04); }
   else if (t >= 5.9 && t < 10.45 && magGrip) tB = magGrip;
   else if (t >= 13.15 && t < 14.0) tB = grip(env1, -0.2, -0.02);
-  else if (t >= 14.4 && t < 15.15) tB = grip(env3, -0.2, -0.02);
+  else if (t >= 14.5 && t < 15.22) tB = grip(env3, -0.2, -0.02);
   else if (t >= 17.4 && t < 18.15) tB = grip(env4, -0.2, -0.02);
   else if (t >= 20.0 && t < 21.65) tB = inboxDr.localToWorld(V(-0.08, 0.075, 0.075));
   else if (t >= 21.7 && t < 22.36) tB = spamDr.localToWorld(V(0, 0.075, 0.075));
@@ -541,7 +541,7 @@ function stageAt(t) {
   gaugeGlowHi.material.opacity = pulse(t, Hh.scoreHigh + 0.2, 13.9) + pulse(t, Hh.scoreHigh2 + 0.25, 18.6);
   gaugeGlowLo.material.opacity = pulse(t, Hh.scoreLow + 0.2, 15.3);
   spamGlow.material.opacity = 0.8 * (pulse(t, 13.05, 14.2) + pulse(t, 17.35, 18.55));
-  inboxGlow.material.opacity = 0.8 * (pulse(t, 14.4, 15.45) + pulse(t, Hh.stickerSlap + 0.3, 25.35));
+  inboxGlow.material.opacity = 0.8 * (pulse(t, 14.5, 15.5) + pulse(t, Hh.stickerSlap + 0.3, 25.35));
   inboxDr.userData.lab.scale.setScalar(1 + 0.1 * inboxGlow.material.opacity); spamDr.userData.lab.scale.setScalar(1 + 0.1 * spamGlow.material.opacity);
   // scan bar over E1 / E4 while the score is computed
   const scanE = t >= Hh.scan[0] && t < Hh.scan[1] ? [env1, inv(Hh.scan[0], Hh.scan[1], t)] : t >= 16.55 && t < 17.2 ? [env4, inv(16.55, 17.2, t)] : null;
