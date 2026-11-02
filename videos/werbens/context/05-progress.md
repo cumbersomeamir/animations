@@ -22,3 +22,8 @@
 
 ## Next (30s)
 - Write render.mjs + audio.mjs, render, inspect stills/contact sheet, QA, fix, deliver videos/werbens/output/werbens-30s.mp4.
+
+## Checkpoint 2026-11-02 (new Code session, educational brief)
+- Honest status: UNFINISHED. No 30 s MP4 exists in the repository; render.mjs/audio.mjs were never written. Sources stay
+  exactly as committed in 3090eba. Not resumed in this session: the user-approved next brief is the educational pilot
+  (see context/08–10). Nothing here was overwritten, trimmed or relabelled.

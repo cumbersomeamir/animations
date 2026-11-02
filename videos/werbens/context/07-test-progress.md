@@ -50,3 +50,10 @@
 
 ## Next
 - Mux, run qa.sh + ASR-on-mix, inspect boundary frames/contact sheet, fix, write QA.md, commit + push, send MP4.
+
+## Checkpoint 2026-11-02 (new Code session, educational brief)
+- Honest status: UNFINISHED / NOT DELIVERED. The full frame render was "in progress" in an earlier container that was
+  reclaimed; `build/` (frames, narration, mix) was gitignored and is gone. `tests/15s/werbens-15s-test.mp4` was never
+  committed and does not exist. No QA.md, contact sheet or ffprobe output exist for this test.
+- Sources are preserved exactly as committed in d6ea7b4 (`build.sh` would regenerate it). Not resumed in this session:
+  the user-approved next brief is the educational pilot (context/08–10). Not overwritten, trimmed or relabelled.
