@@ -1,0 +1,108 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_heart",
+  "clips": {
+    "q1": {
+      "text": "Seven times eight?",
+      "speed": 1.0,
+      "sr": 24000,
+      "seconds": 1.102
+    },
+    "freeze": {
+      "text": "Brain freeze!",
+      "speed": 1.0,
+      "sr": 24000,
+      "seconds": 0.874
+    },
+    "story": {
+      "text": "In Table Verse, times tables become stories.",
+      "speed": 1.05,
+      "sr": 24000,
+      "seconds": 2.745
+    },
+    "sleepy": {
+      "text": "Eight rows of seven sleepy stars.",
+      "speed": 1.05,
+      "sr": 24000,
+      "seconds": 1.916
+    },
+    "n7": {
+      "text": "Seven!",
+      "speed": 1.1,
+      "sr": 24000,
+      "seconds": 0.508
+    },
+    "n14": {
+      "text": "Fourteen!",
+      "speed": 1.1,
+      "sr": 24000,
+      "seconds": 0.628
+    },
+    "n21": {
+      "text": "Twenty-one!",
+      "speed": 1.15,
+      "sr": 24000,
+      "seconds": 0.616
+    },
+    "n28": {
+      "text": "Twenty-eight!",
+      "speed": 1.15,
+      "sr": 24000,
+      "seconds": 0.647
+    },
+    "n35": {
+      "text": "Thirty-five!",
+      "speed": 1.15,
+      "sr": 24000,
+      "seconds": 0.674
+    },
+    "n42": {
+      "text": "Forty-two!",
+      "speed": 1.15,
+      "sr": 24000,
+      "seconds": 0.668
+    },
+    "n49": {
+      "text": "Forty-nine!",
+      "speed": 1.15,
+      "sr": 24000,
+      "seconds": 0.725
+    },
+    "n56": {
+      "text": "Fifty-six!",
+      "speed": 1.1,
+      "sr": 24000,
+      "seconds": 0.781
+    },
+    "challenge": {
+      "text": "A fun challenge!",
+      "speed": 1.05,
+      "sr": 24000,
+      "seconds": 0.958
+    },
+    "q2": {
+      "text": "Seven times eight?",
+      "speed": 1.05,
+      "sr": 24000,
+      "seconds": 1.091
+    },
+    "a56": {
+      "text": "Fifty-six!",
+      "speed": 0.95,
+      "sr": 24000,
+      "seconds": 0.894
+    },
+    "keep": {
+      "text": "Keep practising your tables.",
+      "speed": 1.0,
+      "sr": 24000,
+      "seconds": 1.49
+    },
+    "cta": {
+      "text": "Table Verse. Explore on Google Play.",
+      "speed": 1.0,
+      "sr": 24000,
+      "seconds": 2.272
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tableverse-30s-feedback-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TableVerse 'Four Groups of Three' - Pop-up Counting Storybook style, 30 s portrait. Own vector/paper renderer piping frames to FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "timeline": "node src/render.mjs --timeline",
+    "stills": "node src/render.mjs --still 0,30,120,222,360,420,540,600,680,760,840,899",
+    "video": "node src/render.mjs --video --workers 3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "5.2.10",
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

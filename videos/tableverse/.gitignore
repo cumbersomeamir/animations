@@ -1,0 +1,5 @@
+# dependencies and intermediate renders (reproducible from source)
+node_modules/
+source/build/
+tests/15s/build/
+qa/stills/

@@ -1,0 +1,19 @@
+{
+  "name": "tableverse-promo-30s",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original 30s portrait promo for TableVerse (com.tensorblue.tableverse): self-contained vector animation renderer piping frames to FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "frames": "node src/render.mjs --frames",
+    "render": "node src/render.mjs",
+    "still": "node src/render.mjs --still"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "5.2.10",
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

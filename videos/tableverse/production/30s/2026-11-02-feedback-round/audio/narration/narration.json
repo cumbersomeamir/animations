@@ -1,0 +1,78 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "l01": {
+      "text": "Our baker has four baskets.",
+      "seconds": 1.447,
+      "frames": 43.4
+    },
+    "l02": {
+      "text": "Each basket needs three apples.",
+      "seconds": 1.565,
+      "frames": 47.0
+    },
+    "l03": {
+      "text": "Let's fill them:",
+      "seconds": 0.772,
+      "frames": 23.2
+    },
+    "c03": {
+      "text": "three,",
+      "seconds": 0.498,
+      "frames": 14.9
+    },
+    "c06": {
+      "text": "six,",
+      "seconds": 0.508,
+      "frames": 15.2
+    },
+    "c09": {
+      "text": "nine,",
+      "seconds": 0.538,
+      "frames": 16.1
+    },
+    "c12": {
+      "text": "twelve.",
+      "seconds": 0.523,
+      "frames": 15.7
+    },
+    "l04": {
+      "text": "Four equal groups of three make twelve.",
+      "seconds": 2.038,
+      "frames": 61.1
+    },
+    "l05": {
+      "text": "That is what four times three means.",
+      "seconds": 1.74,
+      "frames": 52.2
+    },
+    "l06": {
+      "text": "Now watch the same apples move:",
+      "seconds": 1.719,
+      "frames": 51.6
+    },
+    "l07": {
+      "text": "three groups of four still make twelve.",
+      "seconds": 1.756,
+      "frames": 52.7
+    },
+    "l08": {
+      "text": "The arrangement changed; the number of apples did not.",
+      "seconds": 2.997,
+      "frames": 89.9
+    },
+    "l09": {
+      "text": "Try drawing equal groups together.",
+      "seconds": 1.766,
+      "frames": 53.0
+    },
+    "l10": {
+      "text": "Play and learn tables together with Table Verse.",
+      "seconds": 2.548,
+      "frames": 76.4
+    }
+  }
+}
