@@ -1,0 +1,14 @@
+Should retrying a payment charge you twice?
+
+If the connection drops after you tap Pay, the app may not know whether the payment went through. A well-designed checkout sends each purchase with one unique "idempotency key". If a retry arrives with the same key, the server returns the saved result instead of charging again. A new key is treated as a new request — so keep the same key for retries of one purchase.
+
+One purchase, one key, one receipt. (The checkout, keys and receipt numbers in the video are an illustrative demo, not a specific app or bank.)
+
+Sources (Stripe official documentation):
+- Idempotent requests: https://docs.stripe.com/api/idempotent_requests
+- Low-level error handling (retries and idempotency keys): https://docs.stripe.com/error-low-level
+- Stripe engineering blog, Designing robust and predictable APIs with idempotency: https://stripe.com/blog/idempotency
+
+Follow Tensorblue for software explained simply.
+
+#SystemDesign #APIs #Payments #Idempotency

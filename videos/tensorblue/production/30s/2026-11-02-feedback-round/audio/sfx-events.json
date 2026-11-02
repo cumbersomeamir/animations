@@ -1,0 +1,218 @@
+{
+ "sfx": [
+  {
+   "t": 0.628,
+   "type": "tap"
+  },
+  {
+   "t": 0.758,
+   "type": "clack"
+  },
+  {
+   "t": 1.758,
+   "type": "drop"
+  },
+  {
+   "t": 1.283,
+   "type": "type"
+  },
+  {
+   "t": 1.858,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 2.206,
+   "type": "wipe"
+  },
+  {
+   "t": 4.343,
+   "type": "wipe"
+  },
+  {
+   "t": 8.22,
+   "type": "wipe"
+  },
+  {
+   "t": 14.713,
+   "type": "wipe"
+  },
+  {
+   "t": 16.62,
+   "type": "wipe"
+  },
+  {
+   "t": 19.377,
+   "type": "wipe"
+  },
+  {
+   "t": 21.269,
+   "type": "wipe"
+  },
+  {
+   "t": 25.6,
+   "type": "wipe"
+  },
+  {
+   "t": 2.406,
+   "type": "paper"
+  },
+  {
+   "t": 3.353,
+   "type": "paper"
+  },
+  {
+   "t": 3.733,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 6.176,
+   "type": "clack"
+  },
+  {
+   "t": 7.439,
+   "type": "carve"
+  },
+  {
+   "t": 7.827,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 8.934,
+   "type": "slide"
+  },
+  {
+   "t": 10.226,
+   "type": "slot"
+  },
+  {
+   "t": 10.346,
+   "type": "match"
+  },
+  {
+   "t": 11.784,
+   "type": "paper"
+  },
+  {
+   "t": 13.634,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 14.071,
+   "type": "strike"
+  },
+  {
+   "t": 15.766,
+   "type": "type"
+  },
+  {
+   "t": 16.236,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 17.34,
+   "type": "match"
+  },
+  {
+   "t": 18.04,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 19.866,
+   "type": "clack"
+  },
+  {
+   "t": 20.678,
+   "type": "paper"
+  },
+  {
+   "t": 20.778,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 21.75,
+   "type": "blip"
+  },
+  {
+   "t": 22.545,
+   "type": "blip"
+  },
+  {
+   "t": 22.958,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 23.879,
+   "type": "chime"
+  },
+  {
+   "t": 25.9,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.382,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.15,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "pay": 0.658,
+  "connection": 1.283,
+  "drops": 1.808,
+  "retrying": 3.033,
+  "charge": 3.433,
+  "twice": 3.783,
+  "checkout": 5.676,
+  "sends": 6.226,
+  "unique": 7.539,
+  "key3": 7.927,
+  "retry": 8.984,
+  "arrives": 9.484,
+  "same4": 10.246,
+  "server": 11.421,
+  "returns": 11.834,
+  "saved": 12.509,
+  "instead": 13.684,
+  "charging": 14.121,
+  "called": 15.586,
+  "idem": 15.886,
+  "keep": 17.14,
+  "same6": 17.39,
+  "retries": 18.09,
+  "purchase6": 18.89,
+  "newKey": 19.916,
+  "request": 20.828,
+  "one1": 21.8,
+  "one2": 22.595,
+  "one3": 23.008,
+  "receipt": 23.183,
+  "follow": 26.2,
+  "tb": 26.482,
+  "simply": 28.27,
+  "chime": 23.878999999999998,
+  "scenes": [
+   0,
+   2.456,
+   4.593,
+   8.47,
+   14.963,
+   16.869999999999997,
+   19.627000000000002,
+   21.519000000000002,
+   25.849999999999998,
+   30.01
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "You tap Pay."
+   ],
+   "t0": 0.24,
+   "tEnd": 1.18,
+   "frame": 25,
+   "box": {
+    "x0": 380,
+    "x1": 696,
+    "y0": 405,
+    "y1": 454,
+    "n": 5104
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The connection drops."
+   ],
+   "t0": 1.12,
+   "tEnd": 2.85,
+   "frame": 52,
+   "box": {
+    "x0": 248,
+    "x1": 829,
+    "y0": 404,
+    "y1": 456,
+    "n": 9101
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Should a retry",
+    "charge you twice?"
+   ],
+   "t0": 2.79,
+   "tEnd": 5,
+   "frame": 102,
+   "box": {
+    "x0": 303,
+    "x1": 776,
+    "y0": 374,
+    "y1": 488,
+    "n": 13831
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A well-designed checkout",
+    "sends that purchase"
+   ],
+   "t0": 4.94,
+   "tEnd": 7.14,
+   "frame": 166,
+   "box": {
+    "x0": 201,
+    "x1": 879,
+    "y0": 371,
+    "y1": 487,
+    "n": 20394
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "with one unique key."
+   ],
+   "t0": 7.08,
+   "tEnd": 8.8,
+   "frame": 230,
+   "box": {
+    "x0": 272,
+    "x1": 803,
+    "y0": 404,
+    "y1": 456,
+    "n": 8507
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "If a retry arrives",
+    "with the same key,"
+   ],
+   "t0": 8.74,
+   "tEnd": 11.28,
+   "frame": 280,
+   "box": {
+    "x0": 298,
+    "x1": 777,
+    "y0": 372,
+    "y1": 488,
+    "n": 14349
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the server returns",
+    "the saved result,"
+   ],
+   "t0": 11.22,
+   "tEnd": 13.68,
+   "frame": 355,
+   "box": {
+    "x0": 306,
+    "x1": 771,
+    "y0": 374,
+    "y1": 486,
+    "n": 14186
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "instead of charging again."
+   ],
+   "t0": 13.62,
+   "tEnd": 15.31,
+   "frame": 427,
+   "box": {
+    "x0": 204,
+    "x1": 874,
+    "y0": 403,
+    "y1": 456,
+    "n": 11729
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "This is called idempotency."
+   ],
+   "t0": 15.25,
+   "tEnd": 17.14,
+   "frame": 476,
+   "box": {
+    "x0": 187,
+    "x1": 890,
+    "y0": 404,
+    "y1": 456,
+    "n": 11651
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Keep the same key",
+    "for retries of one purchase."
+   ],
+   "t0": 17.08,
+   "tEnd": 19.86,
+   "frame": 530,
+   "box": {
+    "x0": 185,
+    "x1": 890,
+    "y0": 375,
+    "y1": 488,
+    "n": 19272
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A new key means",
+    "a new request."
+   ],
+   "t0": 19.8,
+   "tEnd": 21.8,
+   "frame": 612,
+   "box": {
+    "x0": 313,
+    "x1": 766,
+    "y0": 373,
+    "y1": 486,
+    "n": 13207
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "One purchase, one key,",
+    "one receipt."
+   ],
+   "t0": 21.74,
+   "tEnd": 24.63,
+   "frame": 670,
+   "box": {
+    "x0": 235,
+    "x1": 842,
+    "y0": 375,
+    "y1": 488,
+    "n": 14599
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.14,
+   "tEnd": 29.6,
+   "frame": 802,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

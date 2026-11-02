@@ -1,0 +1,464 @@
+{
+ "model": "base.en",
+ "transcript": "You tap pay, the connection drops. Should a retry charge you twice? A well-designed checkout sends that purchase with one unique key. If a retry arrives with the same key, the server returns the saved result instead of charging again. This is called idempotency. Keep the same key for retries of one purchase. A new key means a new request. One purchase, one key, one receipt. Follow TensorBlue for software explained simply.",
+ "reference": "You tap Pay. The connection drops. Should a retry charge you twice? A well-designed checkout sends that purchase with one unique key. If a retry arrives with the same key, the server returns the saved result, instead of charging again. This is called idempotency. Keep the same key for retries of one purchase. A new key means a new request. One purchase, one key, one receipt. Follow Tensorblue for software explained simply.",
+ "wer": 0.0,
+ "matched_words": 71,
+ "scripted_words": 72,
+ "mean_abs_start_drift_s": 0.1,
+ "max_abs_start_drift_s": 0.464,
+ "low_confidence_words": [
+  {
+   "w": "You",
+   "t0": 0.0,
+   "t1": 0.38,
+   "p": 0.363
+  },
+  {
+   "w": "pay,",
+   "t0": 0.56,
+   "t1": 0.8,
+   "p": 0.381
+  }
+ ],
+ "words": [
+  {
+   "w": "You",
+   "t0": 0.0,
+   "t1": 0.38,
+   "p": 0.363
+  },
+  {
+   "w": "tap",
+   "t0": 0.38,
+   "t1": 0.56,
+   "p": 0.956
+  },
+  {
+   "w": "pay,",
+   "t0": 0.56,
+   "t1": 0.8,
+   "p": 0.381
+  },
+  {
+   "w": "the",
+   "t0": 1.2,
+   "t1": 1.3,
+   "p": 0.993
+  },
+  {
+   "w": "connection",
+   "t0": 1.3,
+   "t1": 1.52,
+   "p": 0.99
+  },
+  {
+   "w": "drops.",
+   "t0": 1.52,
+   "t1": 2.04,
+   "p": 0.999
+  },
+  {
+   "w": "Should",
+   "t0": 2.94,
+   "t1": 2.98,
+   "p": 0.976
+  },
+  {
+   "w": "a",
+   "t0": 2.98,
+   "t1": 3.04,
+   "p": 0.991
+  },
+  {
+   "w": "retry",
+   "t0": 3.04,
+   "t1": 3.34,
+   "p": 0.935
+  },
+  {
+   "w": "charge",
+   "t0": 3.34,
+   "t1": 3.56,
+   "p": 0.996
+  },
+  {
+   "w": "you",
+   "t0": 3.56,
+   "t1": 3.78,
+   "p": 0.999
+  },
+  {
+   "w": "twice?",
+   "t0": 3.78,
+   "t1": 3.96,
+   "p": 0.999
+  },
+  {
+   "w": "A",
+   "t0": 5.04,
+   "t1": 5.06,
+   "p": 0.985
+  },
+  {
+   "w": "well",
+   "t0": 5.06,
+   "t1": 5.2,
+   "p": 0.984
+  },
+  {
+   "w": "-designed",
+   "t0": 5.2,
+   "t1": 5.56,
+   "p": 0.932
+  },
+  {
+   "w": "checkout",
+   "t0": 5.56,
+   "t1": 5.86,
+   "p": 0.846
+  },
+  {
+   "w": "sends",
+   "t0": 5.86,
+   "t1": 6.38,
+   "p": 0.996
+  },
+  {
+   "w": "that",
+   "t0": 6.38,
+   "t1": 6.6,
+   "p": 0.998
+  },
+  {
+   "w": "purchase",
+   "t0": 6.6,
+   "t1": 6.92,
+   "p": 0.994
+  },
+  {
+   "w": "with",
+   "t0": 6.92,
+   "t1": 7.24,
+   "p": 0.997
+  },
+  {
+   "w": "one",
+   "t0": 7.24,
+   "t1": 7.46,
+   "p": 0.979
+  },
+  {
+   "w": "unique",
+   "t0": 7.46,
+   "t1": 7.74,
+   "p": 0.996
+  },
+  {
+   "w": "key.",
+   "t0": 7.74,
+   "t1": 8.08,
+   "p": 0.995
+  },
+  {
+   "w": "If",
+   "t0": 8.82,
+   "t1": 8.88,
+   "p": 0.997
+  },
+  {
+   "w": "a",
+   "t0": 8.88,
+   "t1": 8.96,
+   "p": 0.999
+  },
+  {
+   "w": "retry",
+   "t0": 8.96,
+   "t1": 9.32,
+   "p": 0.99
+  },
+  {
+   "w": "arrives",
+   "t0": 9.32,
+   "t1": 9.96,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "t0": 9.96,
+   "t1": 10.1,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 10.1,
+   "t1": 10.22,
+   "p": 0.996
+  },
+  {
+   "w": "same",
+   "t0": 10.22,
+   "t1": 10.46,
+   "p": 1.0
+  },
+  {
+   "w": "key,",
+   "t0": 10.46,
+   "t1": 10.76,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 11.28,
+   "t1": 11.4,
+   "p": 0.996
+  },
+  {
+   "w": "server",
+   "t0": 11.4,
+   "t1": 11.64,
+   "p": 0.992
+  },
+  {
+   "w": "returns",
+   "t0": 11.64,
+   "t1": 12.08,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 12.08,
+   "t1": 12.46,
+   "p": 0.997
+  },
+  {
+   "w": "saved",
+   "t0": 12.46,
+   "t1": 12.82,
+   "p": 0.942
+  },
+  {
+   "w": "result",
+   "t0": 12.82,
+   "t1": 13.22,
+   "p": 0.997
+  },
+  {
+   "w": "instead",
+   "t0": 13.22,
+   "t1": 13.8,
+   "p": 0.671
+  },
+  {
+   "w": "of",
+   "t0": 13.8,
+   "t1": 14.08,
+   "p": 0.999
+  },
+  {
+   "w": "charging",
+   "t0": 14.08,
+   "t1": 14.34,
+   "p": 0.999
+  },
+  {
+   "w": "again.",
+   "t0": 14.34,
+   "t1": 14.7,
+   "p": 0.996
+  },
+  {
+   "w": "This",
+   "t0": 15.4,
+   "t1": 15.42,
+   "p": 0.993
+  },
+  {
+   "w": "is",
+   "t0": 15.42,
+   "t1": 15.54,
+   "p": 0.999
+  },
+  {
+   "w": "called",
+   "t0": 15.54,
+   "t1": 15.74,
+   "p": 1.0
+  },
+  {
+   "w": "idempotency.",
+   "t0": 15.74,
+   "t1": 16.44,
+   "p": 0.751
+  },
+  {
+   "w": "Keep",
+   "t0": 17.2,
+   "t1": 17.26,
+   "p": 0.989
+  },
+  {
+   "w": "the",
+   "t0": 17.26,
+   "t1": 17.4,
+   "p": 0.999
+  },
+  {
+   "w": "same",
+   "t0": 17.4,
+   "t1": 17.56,
+   "p": 0.999
+  },
+  {
+   "w": "key",
+   "t0": 17.56,
+   "t1": 17.84,
+   "p": 0.999
+  },
+  {
+   "w": "for",
+   "t0": 17.84,
+   "t1": 18.06,
+   "p": 0.998
+  },
+  {
+   "w": "retries",
+   "t0": 18.06,
+   "t1": 18.48,
+   "p": 0.958
+  },
+  {
+   "w": "of",
+   "t0": 18.48,
+   "t1": 18.66,
+   "p": 0.994
+  },
+  {
+   "w": "one",
+   "t0": 18.66,
+   "t1": 18.8,
+   "p": 0.989
+  },
+  {
+   "w": "purchase.",
+   "t0": 18.8,
+   "t1": 19.2,
+   "p": 0.999
+  },
+  {
+   "w": "A",
+   "t0": 19.92,
+   "t1": 19.92,
+   "p": 0.986
+  },
+  {
+   "w": "new",
+   "t0": 19.92,
+   "t1": 20.04,
+   "p": 0.998
+  },
+  {
+   "w": "key",
+   "t0": 20.04,
+   "t1": 20.28,
+   "p": 0.997
+  },
+  {
+   "w": "means",
+   "t0": 20.28,
+   "t1": 20.54,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "t0": 20.54,
+   "t1": 20.68,
+   "p": 0.998
+  },
+  {
+   "w": "new",
+   "t0": 20.68,
+   "t1": 20.8,
+   "p": 0.999
+  },
+  {
+   "w": "request.",
+   "t0": 20.8,
+   "t1": 21.0,
+   "p": 0.999
+  },
+  {
+   "w": "One",
+   "t0": 21.96,
+   "t1": 21.96,
+   "p": 0.975
+  },
+  {
+   "w": "purchase,",
+   "t0": 21.96,
+   "t1": 22.22,
+   "p": 0.989
+  },
+  {
+   "w": "one",
+   "t0": 22.66,
+   "t1": 22.74,
+   "p": 0.991
+  },
+  {
+   "w": "key,",
+   "t0": 22.74,
+   "t1": 22.94,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "t0": 22.94,
+   "t1": 23.16,
+   "p": 0.994
+  },
+  {
+   "w": "receipt.",
+   "t0": 23.16,
+   "t1": 23.42,
+   "p": 0.941
+  },
+  {
+   "w": "Follow",
+   "t0": 25.9,
+   "t1": 26.42,
+   "p": 0.94
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 26.42,
+   "t1": 26.94,
+   "p": 0.804
+  },
+  {
+   "w": "for",
+   "t0": 26.94,
+   "t1": 27.2,
+   "p": 0.993
+  },
+  {
+   "w": "software",
+   "t0": 27.2,
+   "t1": 27.38,
+   "p": 0.968
+  },
+  {
+   "w": "explained",
+   "t0": 27.38,
+   "t1": 28.0,
+   "p": 0.988
+  },
+  {
+   "w": "simply.",
+   "t0": 28.0,
+   "t1": 28.48,
+   "p": 0.983
+  }
+ ]
+}

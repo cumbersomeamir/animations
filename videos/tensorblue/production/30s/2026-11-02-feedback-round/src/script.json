@@ -1,0 +1,55 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "You tap Pay. The connection drops."
+  },
+  {
+   "id": "L2",
+   "at": 2.85,
+   "text": "Should a retry charge you twice?"
+  },
+  {
+   "id": "L3",
+   "at": 5.0,
+   "text": "A well-designed checkout sends that purchase with one unique key."
+  },
+  {
+   "id": "L4",
+   "at": 8.8,
+   "text": "If a retry arrives with the same key, the server returns the saved result, instead of charging again."
+  },
+  {
+   "id": "L5",
+   "at": 14.6,
+   "text": "This is called idempotency."
+  },
+  {
+   "id": "L6",
+   "at": 16.6,
+   "text": "Keep the same key for retries of one purchase."
+  },
+  {
+   "id": "L7",
+   "at": 19.4,
+   "text": "A new key means a new request."
+  },
+  {
+   "id": "L8",
+   "at": 21.8,
+   "text": "One purchase, one key, one receipt."
+  },
+  {
+   "id": "L9",
+   "at": 26.2,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply."
+  }
+ ],
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon)"
+ },
+ "notes": "L2 was \"Should retrying charge you twice?\"; misaki stressed retrying on the first syllable (ASR heard \"retrain\"), and with a stress override ASR heard \"retry and\". Reworded to \"Should a retry charge you twice?\" (dictionary pronunciation, same meaning, matches L4)."
+}
