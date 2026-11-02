@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.25,
+  "measured_start": 0.25,
+  "error_ms": 0.0,
+  "corr": 0.836,
+  "end": 3.237,
+  "shot_at_start": "card_cu",
+  "shot_at_end": "phone_scan"
+ },
+ {
+  "id": "l02",
+  "planned_start": 4.1,
+  "measured_start": 4.1,
+  "error_ms": 0.0,
+  "corr": 0.843,
+  "end": 9.111,
+  "shot_at_start": "giant_ec",
+  "shot_at_end": "giant_ec"
+ },
+ {
+  "id": "l03",
+  "planned_start": 10.05,
+  "measured_start": 10.05,
+  "error_ms": 0.0,
+  "corr": 0.835,
+  "end": 13.78,
+  "shot_at_start": "giant_finders",
+  "shot_at_end": "phone_orient"
+ },
+ {
+  "id": "l04",
+  "planned_start": 14.65,
+  "measured_start": 14.65,
+  "error_ms": 0.0,
+  "corr": 0.823,
+  "end": 17.798,
+  "shot_at_start": "thumb_ots",
+  "shot_at_end": "giant_covered"
+ },
+ {
+  "id": "l05",
+  "planned_start": 20.1,
+  "measured_start": 20.1,
+  "error_ms": -0.1,
+  "corr": 0.832,
+  "end": 22.036,
+  "shot_at_start": "giant_big",
+  "shot_at_end": "deadpan"
+ },
+ {
+  "id": "l06",
+  "planned_start": 26.15,
+  "measured_start": 26.15,
+  "error_ms": -0.0,
+  "corr": 0.832,
+  "end": 29.813,
+  "shot_at_start": "cafe_wide",
+  "shot_at_end": "cafe_wide"
+ }
+]

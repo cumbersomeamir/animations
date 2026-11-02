@@ -1,0 +1,301 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.67,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.25,
+      "end": 3.237,
+      "text": "How can a QR code still work with a logo in the middle?",
+      "words": 13,
+      "words_per_s": 4.35,
+      "voice_over_bed_db": 16.0
+    },
+    {
+      "id": "l02",
+      "start": 4.1,
+      "end": 9.111,
+      "text": "It stores extra error-correction information, so a scanner can rebuild some missing data.",
+      "words": 13,
+      "words_per_s": 2.59,
+      "voice_over_bed_db": 16.1
+    },
+    {
+      "id": "l03",
+      "start": 10.05,
+      "end": 13.78,
+      "text": "Those three large corner squares help it find and orient the code.",
+      "words": 12,
+      "words_per_s": 3.22,
+      "voice_over_bed_db": 16.1
+    },
+    {
+      "id": "l04",
+      "start": 14.65,
+      "end": 17.798,
+      "text": "Cover too much, especially those markers, and it may fail.",
+      "words": 10,
+      "words_per_s": 3.18,
+      "voice_over_bed_db": 17.3
+    },
+    {
+      "id": "l05",
+      "start": 20.1,
+      "end": 22.036,
+      "text": "A bigger logo isn't always better.",
+      "words": 6,
+      "words_per_s": 3.1,
+      "voice_over_bed_db": 14.1
+    },
+    {
+      "id": "l06",
+      "start": 26.15,
+      "end": 29.813,
+      "text": "Follow Recall for the technology hiding in everyday life.",
+      "words": 9,
+      "words_per_s": 2.46,
+      "voice_over_bed_db": 16.0
+    }
+  ],
+  "narration_words": 63,
+  "speech_s": 20.47,
+  "overall_words_per_s": 2.1,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "card on the counter (open)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 1.95,
+      "beat": 3.9,
+      "sfx": "camera app tap"
+    },
+    {
+      "t": 2.85,
+      "beat": 5.7,
+      "sfx": "scan success chime"
+    },
+    {
+      "t": 4.0,
+      "beat": 8.0,
+      "sfx": "cut into the giant code"
+    },
+    {
+      "t": 4.4,
+      "beat": 8.8,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 4.51,
+      "beat": 9.02,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 4.62,
+      "beat": 9.24,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 4.73,
+      "beat": 9.46,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 4.84,
+      "beat": 9.68,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 4.95,
+      "beat": 9.9,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 5.06,
+      "beat": 10.12,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 5.17,
+      "beat": 10.34,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 5.28,
+      "beat": 10.56,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 5.39,
+      "beat": 10.78,
+      "sfx": "error-correction tiles light"
+    },
+    {
+      "t": 6.8,
+      "beat": 13.6,
+      "sfx": "logo plate lifts"
+    },
+    {
+      "t": 7.3,
+      "beat": 14.6,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.39,
+      "beat": 14.78,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.48,
+      "beat": 14.96,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.57,
+      "beat": 15.14,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.66,
+      "beat": 15.32,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.75,
+      "beat": 15.5,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.84,
+      "beat": 15.68,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 7.93,
+      "beat": 15.86,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.02,
+      "beat": 16.04,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.11,
+      "beat": 16.22,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.2,
+      "beat": 16.4,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.29,
+      "beat": 16.58,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.38,
+      "beat": 16.76,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 8.4,
+      "beat": 16.8,
+      "sfx": "rebuilt shimmer"
+    },
+    {
+      "t": 8.47,
+      "beat": 16.94,
+      "sfx": "tile rebuilt"
+    },
+    {
+      "t": 10.25,
+      "beat": 20.5,
+      "sfx": "position marker 1"
+    },
+    {
+      "t": 10.75,
+      "beat": 21.5,
+      "sfx": "position marker 2"
+    },
+    {
+      "t": 11.2,
+      "beat": 22.4,
+      "sfx": "position marker 3"
+    },
+    {
+      "t": 11.85,
+      "beat": 23.7,
+      "sfx": "lock lines"
+    },
+    {
+      "t": 12.8,
+      "beat": 25.6,
+      "sfx": "phone lock"
+    },
+    {
+      "t": 12.9,
+      "beat": 25.8,
+      "sfx": "phone turned sideways"
+    },
+    {
+      "t": 14.55,
+      "beat": 29.1,
+      "sfx": "thumb on the card"
+    },
+    {
+      "t": 15.75,
+      "beat": 31.5,
+      "sfx": "scan can't lock"
+    },
+    {
+      "t": 18.1,
+      "beat": 36.2,
+      "sfx": "phone shake"
+    },
+    {
+      "t": 19.25,
+      "beat": 38.5,
+      "sfx": "sticker slap"
+    },
+    {
+      "t": 20.15,
+      "beat": 40.3,
+      "sfx": "big logo slams down"
+    },
+    {
+      "t": 20.4,
+      "beat": 40.8,
+      "sfx": "repair fizzles"
+    },
+    {
+      "t": 22.9,
+      "beat": 45.8,
+      "sfx": "sticker peeled off"
+    },
+    {
+      "t": 24.55,
+      "beat": 49.1,
+      "sfx": "scan success chime"
+    },
+    {
+      "t": 26.85,
+      "beat": 53.7,
+      "sfx": "cup lifted"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.66,
+  "voice_gain": 1.0
+}

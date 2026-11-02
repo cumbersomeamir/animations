@@ -1,0 +1,416 @@
+{
+  "file": "production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "4803594"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "191515"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 18766196,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.7,
+    "lra_lu": 4.9,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.842626690864563,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "How can a QR code still work with a logo in the middle? It stores extra error correction information, so a scanner can rebuild some missing data. Those three large corner squares help it find and orient the code. Cover too much, especially those markers, and it may fail. A bigger logo isn't always better. Follow Recall for the technology hiding in everyday life.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "How",
+        "t": 0.0
+      },
+      {
+        "w": "can",
+        "t": 0.38
+      },
+      {
+        "w": "a",
+        "t": 0.52
+      },
+      {
+        "w": "QR",
+        "t": 0.58
+      },
+      {
+        "w": "code",
+        "t": 0.78
+      },
+      {
+        "w": "still",
+        "t": 1.34
+      },
+      {
+        "w": "work",
+        "t": 1.72
+      },
+      {
+        "w": "with",
+        "t": 1.98
+      },
+      {
+        "w": "a",
+        "t": 2.16
+      },
+      {
+        "w": "logo",
+        "t": 2.24
+      },
+      {
+        "w": "in",
+        "t": 2.46
+      },
+      {
+        "w": "the",
+        "t": 2.78
+      },
+      {
+        "w": "middle?",
+        "t": 2.84
+      },
+      {
+        "w": "It",
+        "t": 4.1
+      },
+      {
+        "w": "stores",
+        "t": 4.18
+      },
+      {
+        "w": "extra",
+        "t": 4.4
+      },
+      {
+        "w": "error",
+        "t": 5.0
+      },
+      {
+        "w": "correction",
+        "t": 5.22
+      },
+      {
+        "w": "information,",
+        "t": 5.46
+      },
+      {
+        "w": "so",
+        "t": 6.7
+      },
+      {
+        "w": "a",
+        "t": 6.96
+      },
+      {
+        "w": "scanner",
+        "t": 7.04
+      },
+      {
+        "w": "can",
+        "t": 7.38
+      },
+      {
+        "w": "rebuild",
+        "t": 7.66
+      },
+      {
+        "w": "some",
+        "t": 7.88
+      },
+      {
+        "w": "missing",
+        "t": 8.26
+      },
+      {
+        "w": "data.",
+        "t": 8.46
+      },
+      {
+        "w": "Those",
+        "t": 9.8
+      },
+      {
+        "w": "three",
+        "t": 10.22
+      },
+      {
+        "w": "large",
+        "t": 10.52
+      },
+      {
+        "w": "corner",
+        "t": 10.78
+      },
+      {
+        "w": "squares",
+        "t": 11.2
+      },
+      {
+        "w": "help",
+        "t": 11.56
+      },
+      {
+        "w": "it",
+        "t": 12.08
+      },
+      {
+        "w": "find",
+        "t": 12.24
+      },
+      {
+        "w": "and",
+        "t": 12.5
+      },
+      {
+        "w": "orient",
+        "t": 12.8
+      },
+      {
+        "w": "the",
+        "t": 13.04
+      },
+      {
+        "w": "code.",
+        "t": 13.28
+      },
+      {
+        "w": "Cover",
+        "t": 14.56
+      },
+      {
+        "w": "too",
+        "t": 14.76
+      },
+      {
+        "w": "much,",
+        "t": 15.02
+      },
+      {
+        "w": "especially",
+        "t": 15.22
+      },
+      {
+        "w": "those",
+        "t": 15.76
+      },
+      {
+        "w": "markers,",
+        "t": 16.16
+      },
+      {
+        "w": "and",
+        "t": 16.94
+      },
+      {
+        "w": "it",
+        "t": 17.02
+      },
+      {
+        "w": "may",
+        "t": 17.12
+      },
+      {
+        "w": "fail.",
+        "t": 17.22
+      },
+      {
+        "w": "A",
+        "t": 19.6
+      },
+      {
+        "w": "bigger",
+        "t": 20.16
+      },
+      {
+        "w": "logo",
+        "t": 20.32
+      },
+      {
+        "w": "isn't",
+        "t": 20.66
+      },
+      {
+        "w": "always",
+        "t": 21.2
+      },
+      {
+        "w": "better.",
+        "t": 21.48
+      },
+      {
+        "w": "Follow",
+        "t": 25.5
+      },
+      {
+        "w": "Recall",
+        "t": 26.4
+      },
+      {
+        "w": "for",
+        "t": 26.7
+      },
+      {
+        "w": "the",
+        "t": 27.26
+      },
+      {
+        "w": "technology",
+        "t": 27.34
+      },
+      {
+        "w": "hiding",
+        "t": 27.92
+      },
+      {
+        "w": "in",
+        "t": 28.48
+      },
+      {
+        "w": "everyday",
+        "t": 28.8
+      },
+      {
+        "w": "life.",
+        "t": 29.08
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_ink_px": {
+    "left": 132.44400024414062,
+    "right": 949.2519836425781,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "qr_decode": {
+    "cards": {
+      "small": {
+        "decoded": "HELLO FROM RECALL",
+        "expected_to_decode": true,
+        "as_expected": true
+      },
+      "big": {
+        "decoded": null,
+        "expected_to_decode": false,
+        "as_expected": true
+      },
+      "thumb": {
+        "decoded": null,
+        "expected_to_decode": false,
+        "as_expected": true
+      }
+    },
+    "video_frames": {
+      "3.0": "HELLO FROM RECALL",
+      "24.9": "HELLO FROM RECALL"
+    },
+    "flat_tests": {
+      "clean": {
+        "decoded": "HELLO FROM RECALL",
+        "ok": true,
+        "cover_modules": null,
+        "codewords_touched": 0,
+        "ec_capacity_errors": 14
+      },
+      "small_logo": {
+        "decoded": "HELLO FROM RECALL",
+        "ok": true,
+        "cover_modules": [
+          9,
+          9,
+          16,
+          16
+        ],
+        "codewords_touched": 10,
+        "ec_capacity_errors": 14
+      },
+      "big_logo": {
+        "decoded": null,
+        "ok": false,
+        "cover_modules": [
+          5,
+          5,
+          20,
+          20
+        ],
+        "codewords_touched": 25,
+        "ec_capacity_errors": 14
+      },
+      "finder_covered": {
+        "decoded": null,
+        "ok": false,
+        "cover_modules": [
+          0,
+          17,
+          8,
+          25
+        ],
+        "codewords_touched": 0,
+        "ec_capacity_errors": 14
+      }
+    }
+  },
+  "motion": {
+    "mean_frame_diff": 7.151,
+    "min_frame_diff": 0.0634,
+    "longest_static_run_frames": 3,
+    "max_frame_diff": 95.39,
+    "max_diff_at_s": 21.3
+  },
+  "luma_min_mean_max": [
+    84.6,
+    120.8,
+    154.6
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "qr_cards_decode_as_shown": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

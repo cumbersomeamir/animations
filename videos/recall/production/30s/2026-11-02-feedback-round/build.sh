@@ -26,3 +26,4 @@ n=$(ls build/frames/f*.png | wc -l)
 node render.mjs --cards build/cards > build/cards.log 2>&1
 ./mux.sh
 $PY qa/qa.py
+$PY qa/narration_sync.py

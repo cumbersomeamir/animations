@@ -28,7 +28,7 @@ function caption(g, tl, t, cache) {
   if (!cap) return null;
   const L = cache[cap.start] || (cache[cap.start] = layout(g, cap));
   const a = clamp((t - cap.start) / 0.12) * (cap.end >= 29.99 ? 1 : clamp((cap.end - t) / 0.12));
-  const top = 400 - L.inkH / 2;           // ink block centred at y 400 (inside 340–520, clear of the 300 px overlay band)
+  const top = 403 - L.inkH / 2;           // ink block centred at y 403 (2-line ink 341.5–464.5: inside 340–520, clear of the 300 px band)
   g.save(); g.globalAlpha = a; g.font = `600 ${L.size}px ${FONT}`; g.textBaseline = 'alphabetic';
   let ink = { left: 1e9, right: -1e9, top: 1e9, bottom: -1e9 };
   const rows = L.lines.map((ln, i) => {
@@ -51,7 +51,7 @@ function tag(g, text, x, y, a, { color = LIME, size = 38, pointTo = null } = {})
   if (a <= 0.01 || !x) return null;
   g.save(); g.globalAlpha = a; g.font = `700 ${size}px ${FONT}`;
   const w = g.measureText(text).width + 34, h = size + 22;
-  x = clamp(x, 110 + w / 2, 970 - w / 2); y = clamp(y, 600, 1440);
+  x = clamp(x, 110 + w / 2, 970 - w / 2); y = clamp(y, 600, 1420);
   if (pointTo) { g.strokeStyle = INK; g.lineWidth = 8; g.lineCap = 'round'; g.beginPath(); g.moveTo(x, y); g.lineTo(pointTo.x, pointTo.y); g.stroke();
     g.strokeStyle = color; g.lineWidth = 4; g.stroke(); g.beginPath(); g.arc(pointTo.x, pointTo.y, 8, 0, Math.PI * 2); g.fillStyle = color; g.fill(); }
   rr(g, x - w / 2 + 4, y - h / 2 + 5, w, h, h / 2); g.fillStyle = SHADE; g.fill();
