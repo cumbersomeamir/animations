@@ -1,0 +1,50 @@
+{
+  "sample_rate": 48000,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Is this paper cup just paper?",
+      "start": 0.3,
+      "duration": 1.937,
+      "end": 2.237,
+      "asr_transcript": "is this paper cup just paper",
+      "asr_word_accuracy": 1.0
+    },
+    {
+      "id": "L2",
+      "text": "Many have a thin plastic lining.",
+      "start": 2.55,
+      "duration": 2.187,
+      "end": 4.737,
+      "asr_transcript": "many have a thin plastic lining",
+      "asr_word_accuracy": 1.0
+    },
+    {
+      "id": "L3",
+      "text": "It stops liquid soaking into the paper.",
+      "start": 5.05,
+      "duration": 2.205,
+      "end": 7.255,
+      "asr_transcript": "it stops liquid soaking into the paper",
+      "asr_word_accuracy": 1.0
+    },
+    {
+      "id": "L4",
+      "text": "But, bonded layers are hard to separate,",
+      "start": 7.55,
+      "duration": 2.787,
+      "end": 10.337,
+      "asr_transcript": "but bonded laser hard to separate",
+      "asr_word_accuracy": 0.714
+    },
+    {
+      "id": "L5",
+      "text": "so recycling depends on local facilities.",
+      "start": 10.65,
+      "duration": 2.885,
+      "end": 13.535,
+      "asr_transcript": "so recycling depends on local facilities",
+      "asr_word_accuracy": 1.0
+    }
+  ]
+}

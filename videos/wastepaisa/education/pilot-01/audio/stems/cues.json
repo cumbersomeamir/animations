@@ -1,0 +1,231 @@
+{
+ "sample_rate": 48000,
+ "duration": 15.0,
+ "bpm": 96,
+ "sfx_cues": [
+  [
+   0.0,
+   "cup slides in"
+  ],
+  [
+   0.53,
+   "cup settles"
+  ],
+  [
+   0.06,
+   "Tinku hop"
+  ],
+  [
+   0.36,
+   "hop land"
+  ],
+  [
+   0.48,
+   "Tinku hop"
+  ],
+  [
+   0.75,
+   "hop land"
+  ],
+  [
+   1.02,
+   "tap cup"
+  ],
+  [
+   1.22,
+   "tap cup"
+  ],
+  [
+   1.5,
+   "loupe flips down"
+  ],
+  [
+   2.27,
+   "cut down the seam"
+  ],
+  [
+   2.45,
+   "halves open"
+  ],
+  [
+   2.47,
+   "paper flutter"
+  ],
+  [
+   2.52,
+   "Tinku startled hop"
+  ],
+  [
+   2.85,
+   "land"
+  ],
+  [
+   2.95,
+   "film glint"
+  ],
+  [
+   3.05,
+   "chip PAPER"
+  ],
+  [
+   3.4,
+   "chip LINING"
+  ],
+  [
+   4.86,
+   "pick up beaker"
+  ],
+  [
+   5.2,
+   "pour (kept low under L3)"
+  ],
+  [
+   6.2,
+   "drop hits bare paper"
+  ],
+  [
+   6.23,
+   "paper soaks it up"
+  ],
+  [
+   6.32,
+   "drop beads on film"
+  ],
+  [
+   6.42,
+   "chip SOAKS"
+  ],
+  [
+   6.58,
+   "chip BLOCKS"
+  ],
+  [
+   6.62,
+   "beaker set down"
+  ],
+  [
+   7.17,
+   "halves swing shut"
+  ],
+  [
+   7.42,
+   "CLACK + cut (in the L3/L4 gap)"
+  ],
+  [
+   7.72,
+   "BONDED lock"
+  ],
+  [
+   7.95,
+   "grab the lip"
+  ],
+  [
+   8.15,
+   "film stretches (rubber squeak)"
+  ],
+  [
+   9.52,
+   "grip slips, film snaps back"
+  ],
+  [
+   9.55,
+   "tumble"
+  ],
+  [
+   9.88,
+   "lands on his bottom"
+  ],
+  [
+   10.0,
+   "dazed"
+  ],
+  [
+   10.8,
+   "hop up"
+  ],
+  [
+   10.98,
+   "land"
+  ],
+  [
+   10.95,
+   "facility pops up"
+  ],
+  [
+   11.03,
+   "sign: accepts"
+  ],
+  [
+   11.2,
+   "facility pops up"
+  ],
+  [
+   11.28,
+   "sign: does not"
+  ],
+  [
+   11.45,
+   "facility pops up"
+  ],
+  [
+   11.53,
+   "sign: accepts"
+  ],
+  [
+   12.48,
+   "shrug"
+  ],
+  [
+   13.75,
+   "point to takeaway"
+  ],
+  [
+   10.8,
+   "route tick"
+  ],
+  [
+   10.87,
+   "route tick"
+  ],
+  [
+   10.94,
+   "route tick"
+  ],
+  [
+   11.01,
+   "route tick"
+  ],
+  [
+   11.08,
+   "route tick"
+  ],
+  [
+   11.15,
+   "route tick"
+  ],
+  [
+   11.22,
+   "route tick"
+  ],
+  [
+   11.29,
+   "route tick"
+  ],
+  [
+   11.36,
+   "route tick"
+  ],
+  [
+   11.43,
+   "route tick"
+  ],
+  [
+   11.5,
+   "route tick"
+  ],
+  [
+   11.57,
+   "route tick"
+  ]
+ ]
+}
