@@ -1,0 +1,204 @@
+{
+  "duration_s": 15.0,
+  "sample_rate": 48000,
+  "integrated_lufs": -16.06,
+  "sample_peak_dbfs": -1.5,
+  "narration_words": 38,
+  "overall_words_per_s": 2.53,
+  "speech_seconds": 12.07,
+  "lines": [
+    {
+      "id": "n1a",
+      "start": 0.35,
+      "end": 1.672,
+      "text": "A steel ball sinks.",
+      "words": 4,
+      "words_per_s": 3.03,
+      "voice_over_bed_db": 9.9
+    },
+    {
+      "id": "n1b",
+      "start": 1.92,
+      "end": 3.675,
+      "text": "So how do steel ships float?",
+      "words": 6,
+      "words_per_s": 3.42,
+      "voice_over_bed_db": 11.3
+    },
+    {
+      "id": "n2",
+      "start": 4.2,
+      "end": 6.292,
+      "text": "It pushes aside only a little water.",
+      "words": 7,
+      "words_per_s": 3.35,
+      "voice_over_bed_db": 13.3
+    },
+    {
+      "id": "n3a",
+      "start": 6.85,
+      "end": 8.703,
+      "text": "Same steel, as a hollow hull,",
+      "words": 6,
+      "words_per_s": 3.24,
+      "voice_over_bed_db": 10.9
+    },
+    {
+      "id": "n3b",
+      "start": 9.05,
+      "end": 10.824,
+      "text": "pushes aside much more water.",
+      "words": 5,
+      "words_per_s": 2.82,
+      "voice_over_bed_db": 10.3
+    },
+    {
+      "id": "n4",
+      "start": 11.1,
+      "end": 14.37,
+      "text": "Steel plus air is, on average, less dense than water.",
+      "words": 10,
+      "words_per_s": 3.06,
+      "voice_over_bed_db": 13.0
+    }
+  ],
+  "sfx_events": [
+    {
+      "t": 0.02,
+      "sfx": "lift whoosh"
+    },
+    {
+      "t": 0.45,
+      "sfx": "drop whoosh"
+    },
+    {
+      "t": 0.74,
+      "sfx": "plop"
+    },
+    {
+      "t": 0.75,
+      "sfx": "splash"
+    },
+    {
+      "t": 0.86,
+      "sfx": "bubbles"
+    },
+    {
+      "t": 1.12,
+      "sfx": "clunk on tank floor"
+    },
+    {
+      "t": 2.55,
+      "sfx": "toy ship toot"
+    },
+    {
+      "t": 3.68,
+      "sfx": "rewind zip"
+    },
+    {
+      "t": 3.85,
+      "sfx": "reversed bubbles"
+    },
+    {
+      "t": 4.18,
+      "sfx": "pause click"
+    },
+    {
+      "t": 4.18,
+      "sfx": "freeze shimmer"
+    },
+    {
+      "t": 4.5,
+      "sfx": "ghost bloop"
+    },
+    {
+      "t": 5.05,
+      "sfx": "arrow tick"
+    },
+    {
+      "t": 5.3,
+      "sfx": "gauge tick"
+    },
+    {
+      "t": 6.1,
+      "sfx": "rewind zip 2"
+    },
+    {
+      "t": 6.11,
+      "sfx": "reversed splash"
+    },
+    {
+      "t": 6.82,
+      "sfx": "catch"
+    },
+    {
+      "t": 7.2,
+      "sfx": "clay squish 1"
+    },
+    {
+      "t": 7.62,
+      "sfx": "clay squish 2"
+    },
+    {
+      "t": 8.05,
+      "sfx": "clay squish 3"
+    },
+    {
+      "t": 8.45,
+      "sfx": "steel ting"
+    },
+    {
+      "t": 8.82,
+      "sfx": "lower whoosh"
+    },
+    {
+      "t": 9.18,
+      "sfx": "hull water slap"
+    },
+    {
+      "t": 9.23,
+      "sfx": "slosh"
+    },
+    {
+      "t": 9.5,
+      "sfx": "displaced-water shimmer"
+    },
+    {
+      "t": 9.65,
+      "sfx": "arrow tick"
+    },
+    {
+      "t": 10.1,
+      "sfx": "gauge tick"
+    },
+    {
+      "t": 10.5,
+      "sfx": "balance ding"
+    },
+    {
+      "t": 10.85,
+      "sfx": "camera whoosh"
+    },
+    {
+      "t": 11.2,
+      "sfx": "label tick"
+    },
+    {
+      "t": 11.62,
+      "sfx": "air puff"
+    },
+    {
+      "t": 12.07,
+      "sfx": "flag pop"
+    },
+    {
+      "t": 12.55,
+      "sfx": "flag plant"
+    },
+    {
+      "t": 13.17,
+      "sfx": "hop boing"
+    }
+  ],
+  "music": "original: D-major pluck/pad loop at 104 BPM synthesised in mix.py; muffled during the pause; ducked under voice"
+}

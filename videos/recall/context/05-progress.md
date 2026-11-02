@@ -32,3 +32,9 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
 
 ## Next
 30 s complete. Separate 15 s style test tracked in 06-style-test.md / 07-test-progress.md.
+
+## Update 2026-11-02: educational direction (newer brief)
+- Active direction moved to educational pilots: see 08 (strategy), 09 (pilot 01 brief/storyboard), 10 (progress).
+- Pilot 01 delivered: `videos/recall/education/pilot-01/recall-education-pilot-01.mp4` (15.000 s, verified; QA in
+  `education/pilot-01/qa/QA.md`). The 30 s ad above is untouched. The 06 15 s style test is not started (07).
+

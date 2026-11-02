@@ -51,13 +51,31 @@ WORKERS=3 ./build.sh                         # mix -> render -> mux -> qa
 node render.mjs --sheet build/sheet && audio/.venv/bin/python docs/make_sheet.py
 ```
 
-## Render / QA state
+## Render / QA state (verified)
 - Iteration 1 stills: fixed step showing through tank (opaque backing), Kip too small (scale 1.2), ghost read as a
   solid ball (translucent + dashed outline), label collisions, helmet under captions (camera reframes), pointing
   direction, dark steam puff.
 - Iteration 2 stills: fixed hull hiding Kip's mouth (hold lower), shot D framing.
-- Full render 1: in progress (see QA.md once complete).
+- Render 1 (20 min, 3 workers; superseded, kept only in ignored build/): all technical checks passed, but visual review
+  found the mouth invisible (inside the body), a jagged helmet band, a hand plunging into the water at 6.4 s, and the helmet
+  under the 2-line caption in shot B. All fixed.
+- Render 2 + patch of frames 8–55 (round "O" mouth fix): **FINAL**.
+  `videos/recall/education/pilot-01/recall-education-pilot-01.mp4`, sha256 a2bdbc23…5d45, 7 566 681 bytes.
+  H.264 High 1080×1920 30/1, 450 frames, video/audio/container 15.000000 s, AAC LC 48 kHz stereo, full decode clean,
+  −16.1 LUFS, true peak −1.5 dBFS, 0 clipped samples, ASR WER 0.0, captions y 250–454, no static run, 19/19 checks.
+  Evidence: `pilot-01/qa/QA.md`, `qa_report.json`, `ffprobe.json`, `contact_sheet.png`, `boundaries.png`,
+  `physics.json`, `audio_report.json`; model sheet `pilot-01/docs/kip-model-sheet.png`.
+- Exact final commands: `WORKERS=3 ./build.sh`; then `node render.mjs --pngdir build/patch --from 8 --to 31` and
+  `--from 32 --to 55`, copy into build/frames, re-run the ffmpeg mux line from build.sh, then `audio/.venv/bin/python qa/qa.py`.
+  (A clean `./build.sh` now reproduces the final in one pass, because the fix is in the source.)
+
+## Unresolved / limits
+- Audio judged by measurement and ASR only (cannot listen).
+- Instagram references not viewed; only the user's description was used.
+- Render speed: SwiftShader ≈ 7 s/frame per worker (≈ 20 min per full render with 3 workers).
+- 06 15 s style test remains not started (07).
 
 ## Next action
-Finish full render → run qa/qa.py → inspect contact + boundary sheets and full-res frames → fix → rerender if needed →
-model sheet → QA.md → commit + push → deliver MP4 path.
+Pilot 01 is complete. Next, on user request: pick one of the 10 titles in 08, write its brief + sources (new 11-*.md),
+and reuse `web/character.js`, `clay.js`, `anim.js`, `render.mjs`, `audio/mix.py` and the Kip voice blend in a new
+`education/episode-NN/` folder. Do not overwrite pilot-01.

@@ -10,7 +10,7 @@
     "avg_frame_rate": "30/1",
     "duration": "15.000000",
     "nb_read_frames": "450",
-    "bit_rate": "3830301"
+    "bit_rate": "3832694"
   },
   "audio": {
     "codec_name": "aac",
@@ -21,7 +21,7 @@
     "bit_rate": "193074"
   },
   "container_duration": "15.000000",
-  "size_bytes": 7562171,
+  "size_bytes": 7566681,
   "full_decode_stderr": "",
   "loudness": {
     "integrated_lufs": -16.1,
@@ -193,21 +193,21 @@
     "left": 67.39010620117188,
     "right": 1012.6098937988281,
     "top": 250,
-    "bottom": 470
+    "bottom": 454
   },
   "signature_bottom_px": 1754,
   "layout_frames_logged": 450,
   "motion": {
-    "mean_frame_diff": 2.405,
-    "min_frame_diff": 0.2165,
+    "mean_frame_diff": 2.389,
+    "min_frame_diff": 0.2324,
     "longest_static_run_frames": 0,
-    "max_frame_diff": 19.11,
+    "max_frame_diff": 15.91,
     "max_diff_at_s": 6.667
   },
   "luma_min_mean_max": [
-    89.0,
-    103.6,
-    120.6
+    88.3,
+    101.8,
+    110.8
   ],
   "checks": {
     "h264": true,
