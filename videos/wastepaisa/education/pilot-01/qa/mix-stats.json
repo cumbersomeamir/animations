@@ -1,0 +1,6 @@
+{
+  "samples": 720000,
+  "seconds": 15.0,
+  "peak_dbfs": -1.81,
+  "ebur128_summary": "Summary: Integrated loudness: I: -16.0 LUFS Threshold: -26.4 LUFS Loudness range: LRA: 2.9 LU Threshold: -36.2 LUFS LRA low: -17.8 LUFS LRA high: -14.9 LUFS True peak: Peak: -1.5 dBFS"
+}

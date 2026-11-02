@@ -1,21 +1,70 @@
 # 10 · Educational progress
 
-Session: Claude Code, branch `claude-video/wastepaisa`, 2026-11-02. App WastePaisa
-(`com.wastepaisa`). Workspace: `videos/wastepaisa/` only.
+Session: Claude Code, branch `claude-video/wastepaisa`, 2026-11-02. App: WastePaisa
+(`com.wastepaisa`), repo `cumbersomeamir/animations`. Workspace: `videos/wastepaisa/` only. No other
+branches, apps, chats or private assets were opened.
 
-## State: IN PROGRESS (checkpoint)
-Pilot 01 source, audio and docs are complete. The v2 full render is running; QA is pending.
+## Status
+**Pilot 01 "Why a paper cup is not just paper": COMPLETE (render v3, QA passed).**
+- Deliverable: `videos/wastepaisa/education/pilot-01/wastepaisa-education-pilot-01.mp4`
+  (SHA-256 `5121f1a42feccc7cd98238e0ea8a0a5bb616f903a67209eb92c794cec5304a0b`, 11.6 MB)
+- 15.000 s · 1080×1920 · H.264 High 30/1 fps, 450 frames · AAC-LC 48 kHz stereo (720000 samples declared)
+- QA report: `education/pilot-01/qa/QA.md`
 
-## Verified facts (evidence-backed)
-- Prior state: no earlier 30 s render, 15 s test or educational pilot existed on this branch
-  (context 05 said so and the file tree confirmed it).
-- Context files 06 and 07 do not exist.
-- Listing facts (assets/listing.json): "Check recycling prices, sort waste, book pickups and
-  track every payout." Lifestyle category, free, made by Tensorblue AI. Asset hashes match 03.
-- Subject claims C1–C6 are mapped to dated public sources in `education/pilot-01/sources.md`.
+## Prior work (verified at session start)
+No earlier 30 s campaign render, 15 s skill test or educational pilot existed on this branch.
+Context 05 said "No new video has been rendered yet" and the file tree confirmed it. Nothing
+needed checkpointing or preserving. Context files 06 and 07 do not exist. The campaign deliverable in 04
+remains **not started**, deliberately: the user's latest brief said not to make another campaign ad.
+
+## Verified facts (evidence)
+| Fact | Evidence |
+|---|---|
+| Listing: "Check recycling prices, sort waste, book pickups and track every payout." Lifestyle, free, Tensorblue AI | `assets/listing.json` (sha256 matches 03) |
+| Subject claims C1–C6 (linings, other coatings, waterproofing, bonded separation, local facilities) | Dated public sources S1–S5, mapped in `education/pilot-01/sources.md` |
+| User-described allowance | **Unverified**: never shown, never implied |
+| Video/audio spec, decode, bounds, intelligibility | `qa/checks.json`, `qa/ffprobe.json`, `qa/decode.log`, `qa/text-bounds.json` (0/450 violations), `qa/asr-intelligibility.json` (100 %) |
 
 ## Creative choices (not facts)
-See `context/09-educational-pilot-01.md` → "Creative choices".
+Tinku (original performer), the material-dissection lab, the "Hidden materials · 01" series tag,
+the cut stroke, exploded view, stretchy-arm pour, tug-of-war metaphor and facility ✓/✗ cut-outs
+(labelled illustration). Palette: cream/brown/metallic with icon orange #E8741C and green #1F6B3A.
+Original 96 BPM synthesized cue. Voice: Piper `en_US-kristin-medium` (public-domain LibriVox
+data), +7 % pitch/formant with tin resonance. Details in context 08/09.
+
+## Provenance and adaptations
+- Skill `.claude/skills/animation-direction/SKILL.md` was read and followed: storyboard first, a reusable rig
+  in this workspace, anticipation/impact/recovery, props explaining cause and effect, a full render,
+  boundary and contact-sheet inspection, ffprobe and a full decode. **Adapted**: a browser Three.js 3D
+  character replaced the stickman for the dimensional lab look, and editorial labelled diagrams became
+  3D-anchored chips. The skill's reference repositories were not fetched or run.
+- Dependencies come only from official registries: three 0.186.1, @fontsource/baloo-2 5.3.0 (npm); piper-tts 1.8.0
+  and vosk 0.3.45 (PyPI, in a scratch venv). Voice and ASR models were downloaded from Hugging Face and alphacephei
+  and are not committed. No Blender, paid APIs, secrets or third-party scripts.
+- Narration adaptation: L3 changed from "drinks" to "liquid" after ASR showed the TTS blurred
+  "drinks soaking". L4 got a comma after "But" for a clearer onset.
+
+## Exact commands (from `education/pilot-01/`)
+```bash
+npm ci
+python3 audio/tts.py                      # re-treat committed takes (REGEN: --regen [--only L3], needs PIPER_BIN, PIPER_VOICE_DIR, VOSK_MODEL)
+python3 audio/synth.py && python3 audio/mix.py build
+node src/render.js video build/video-only-v3.mp4      # 688 s for 450 frames
+ffmpeg -i build/video-only-v3.mp4 -i build/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -ar 48000 -ac 2 -t 15 -movflags +faststart wastepaisa-education-pilot-01.mp4
+VOSK_PY=<venv python> VOSK_MODEL=<vosk-model-en-us-0.22-lgraph> python3 tools/qa.py wastepaisa-education-pilot-01.mp4
+node src/render.js sheet build/sheet && python3 tools/make_sheet.py build/sheet character/tinku-model-sheet.png
+```
+Or simply run `./build.sh`.
+
+## Render and QA state
+v1 → v2 → v3 full renders. Each review fixed real defects (see the iteration log in `qa/QA.md`).
+v3 passes every automated check, and its boundary, representative and dense motion sheets were reviewed.
+
+## Unresolved / limitations
+No human listening test (cloud session); intelligibility comes from two ASR models. The beaker prop is
+partly in frame at the bottom-right during the bond beat. English only. The Instagram references were not viewed.
 
 ## Next action
-Finish the v2 render → mux → `tools/qa.py` → review the contact sheets → write `qa/QA.md` → commit/push.
+User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
+from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
+until the user asks for one.

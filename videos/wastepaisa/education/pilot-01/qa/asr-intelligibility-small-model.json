@@ -1,0 +1,56 @@
+{
+  "media": "wastepaisa-education-pilot-01.mp4",
+  "mean_word_accuracy": 0.943,
+  "lines": [
+    {
+      "id": "L1",
+      "window": [
+        0.15,
+        2.44
+      ],
+      "script": "Is this paper cup just paper?",
+      "asr": "is this paper cup just paper",
+      "word_accuracy": 1.0
+    },
+    {
+      "id": "L2",
+      "window": [
+        2.4,
+        4.94
+      ],
+      "script": "Many have a thin plastic lining.",
+      "asr": "many have a thin plastic lining",
+      "word_accuracy": 1.0
+    },
+    {
+      "id": "L3",
+      "window": [
+        4.9,
+        7.46
+      ],
+      "script": "It stops liquid soaking into the paper.",
+      "asr": "it stops liquid soaking into the paper",
+      "word_accuracy": 1.0
+    },
+    {
+      "id": "L4",
+      "window": [
+        7.4,
+        10.54
+      ],
+      "script": "But, bonded layers are hard to separate,",
+      "asr": "that bonded layers are hard to separate",
+      "word_accuracy": 0.857
+    },
+    {
+      "id": "L5",
+      "window": [
+        10.5,
+        13.73
+      ],
+      "script": "so recycling depends on local facilities.",
+      "asr": "the so recycling depends on local facilities",
+      "word_accuracy": 0.857
+    }
+  ]
+}
