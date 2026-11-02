@@ -14,17 +14,18 @@ Brief received 2026-11-02 (user-approved). Governs this pilot only; strategy in 
 - Deliverables: source, reproducible build, storyboard, character sheet, sources with dates + claim map,
   license notes, representative + boundary contact sheets, ffprobe metadata, QA.md; full decode; commit/push.
 
-## Script (one concept; ~37 words / 15 s ≈ 2.5 words/s)
-| id | text | role |
-|---|---|---|
-| n1a | "Steel sinks." | puzzle (said as the ball sinks) |
-| n1b | "So how do steel ships float?" | question |
-| n2 | "A ball pushes aside only a little water." | displacement, small |
-| n3a | "Same steel, as a hollow hull," | reshaping, same material |
-| n3b | "pushes aside much more water." | displacement, large → bigger upward push |
-| n4 | "Steel plus air is, on average, less dense than water." | takeaway: average density |
+## Script (one concept; 38 words / 15 s = 2.53 words/s; final, measured)
+| id | text | start–end (s) | words/s | role |
+|---|---|---|---|---|
+| n1a | "A steel ball sinks." | 0.35–1.67 | 3.03 | puzzle (said as the ball sinks) |
+| n1b | "So how do steel ships float?" | 1.92–3.68 | 3.42 | question |
+| n2 | "It pushes aside only a little water." | 4.20–6.29 | 3.35 | displacement, small |
+| n3a | "Same steel, as a hollow hull," | 6.85–8.70 | 3.24 | reshaping, same material |
+| n3b | "pushes aside much more water." | 9.05–10.82 | 2.82 | displacement, large → bigger upward push |
+| n4 | "Steel plus air is, on average, less dense than water." | 11.10–14.37 | 3.06 | takeaway: average density |
 
-Final measured timings are in `education/pilot-01/timeline.json` (generated from TTS durations) and in 10.
+Earlier draft lines "Steel sinks." and "A ball pushes aside…" were replaced after ASR misheard the isolated
+"Steel sinks." (→ "Istil sinks") and to avoid repeating "ball". Cues: `education/pilot-01/timeline.json`.
 
 ## Physical model used for the illustration (computed, see docs/SOURCES.md)
 - Steel ρ ≈ 7.8 × 10³ kg/m³, water ρ ≈ 1.000 × 10³ kg/m³ (OpenStax Table 11.1) → ratio 7.8.
@@ -36,14 +37,14 @@ Final measured timings are in `education/pilot-01/timeline.json` (generated from
 - The ball is shown in a brief "rewind + pause" while fully submerged so that only weight and water's push act
   (no floor support arrow needed). Hull wall thickness and Kip's scale are illustrative.
 
-## Storyboard (provisional beats; final cue times in timeline.json)
+## Storyboard (final; cue times from timeline.json, camera keys from web/choreo.js)
 | time (s) | shot / camera | action (verbs) | caption | SFX |
 |---|---|---|---|---|
-| 0.0–3.2 | A. Medium: Kip behind glass tank on clay table; toy steel ship bobs on clay-wave diorama behind; slow push-in | Kip **holds** ball high, **drops** it; splash, ball **sinks**, clunks on floor; Kip **startles**, then **turns and points** at the floating toy ship | "Steel sinks." → "So how do steel ships float?" | whoosh, plop+splash, bubbles, clunk, tiny horn toot |
-| 3.2–6.6 | B. Push in to tank; Kip leans in with magnifier | Kip **twirls finger** → **rewind**: ball rises to mid-water and **pauses**; lime ghost of the displaced water **lifts out** beside it; arrows: long weight ↓, tiny push ↑; gauge +1 tick; **unpause**: ball drops, clunk | "A ball pushes aside only a little water" | rewind zip, pause tick, pop, clunk |
-| 6.6–9.4 | C. Rise to Kip's hands | Kip **reaches in**, **lifts** dripping ball, **presses thumbs** in and **pinches** it into a hollow hull (same steel colour/material) | "Same steel → a hollow hull…" | splash, drips, clay squish ×3, stretch creak |
-| 9.4–11.6 | D. Pull back to tank | Kip **lowers** hull; it **dips, bobs, settles**; water rises 7.8 ticks; submerged volume glows lime; push arrow **grows** to equal weight | "…pushes aside much more water" | water slap, slosh, balance ding |
-| 11.6–15.0 | E. Orbit to ¾ high angle into hull | "air" revealed inside hull; Kip **plants** lime flag on the rim, **thumbs up**; small Recall signature fades in bottom | TAKEAWAY: "Steel + air: less dense than water, on average" | flag pop, soft chime |
+| 0.0–3.55 (push-in) | A. Medium: Kip behind glass tank on clay table; toy steel ship bobs on clay-wave diorama behind; slow push-in | Kip **holds** ball high, **drops** it; splash, ball **sinks**, clunks on floor; Kip **startles**, then **turns and points** at the floating toy ship | "A steel ball **sinks.**" → "So how do steel ships **float?**" | lift + drop whoosh, plop + splash, bubbles, clunk, toy-ship toot |
+| 3.55–4.35 move, hold to 6.3 | B. Push in to tank; Kip leans in with magnifier | Kip **twirls finger** → **rewind**: ball rises to mid-water and **pauses**; lime ghost of the displaced water **lifts out** beside it; arrows: long weight ↓, tiny push ↑ (1/7.8); gauge "ball" mark +1 tick; second twirl **rewinds** the ball up out of the water | "It pushes aside only **a little water.**" | rewind zip, reversed bubbles, pause click + freeze shimmer (music muffled), ghost bloop, arrow tick, gauge tick |
+| 6.3–7.0 move, hold to 8.75 | C. Rise to Kip's hands; ball rewinds out of the water into his hands (no reaching in) | Kip **catches** the rewinding ball, **presses thumbs** in and **pinches** it into a hollow hull (same steel colour/material) | "Same steel, as a **hollow hull,**" | rewind zip, reversed splash, catch thunk, clay squish ×3, steel ting |
+| 8.75–9.6 move, hold to 10.85 | D. Pull back to tank | Kip **lowers** hull; it **dips, bobs, settles**; water rises 7.8 ticks; submerged volume glows lime; push arrow **grows** to equal weight | "pushes aside **much more water.**" | lower whoosh, water slap, slosh at bob rate, shimmer, arrow tick, gauge tick, balance ding |
+| 10.85–12.0 move, hold to 15.0 | E. Orbit to ¾ high angle into hull | "air" revealed inside hull; Kip **plants** lime flag on the rim, **thumbs up**; small Recall signature fades in bottom | TAKEAWAY: "Steel + air is, on average, **less dense than water.**" | camera whoosh, label tick, air puff, flag pop + plant, hop boing, music sparkle |
 
 ## Isolation and sources
 Only Recall's own context, icon and listing; public physics sources cited in `pilot-01/docs/SOURCES.md`.

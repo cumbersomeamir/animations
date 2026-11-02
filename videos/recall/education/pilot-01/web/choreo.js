@@ -67,14 +67,14 @@ export function makeChoreo(tl) {
   function camera(t) {
     const pos = key(t, [
       [0, [0.06, 1.36, 4.5]], [3.55, [0.03, 1.3, 4.2], E.io],
-      [4.35, [0.1, 0.86, 3.85], E.io3], [6.3, [0.08, 0.85, 3.75], E.lin],
+      [4.35, [0.1, 0.97, 3.85], E.io3], [6.3, [0.08, 0.96, 3.75], E.lin],
       [7.0, [0.04, 1.34, 4.05], E.io3], [8.75, [0.02, 1.3, 3.95], E.lin],
       [9.6, [0.02, 1.36, 4.45], E.io3], [10.85, [0.06, 1.36, 4.35], E.lin],
       [12.0, [0.58, 1.7, 4.15], E.io3], [15, [0.48, 1.66, 4.0], E.lin],
     ]);
     const target = key(t, [
       [0, [0.0, 0.98, 0]], [3.55, [0.0, 0.96, 0], E.io],
-      [4.35, [0.05, 0.69, 0], E.io3], [6.3, [0.05, 0.69, 0], E.lin],
+      [4.35, [0.05, 0.8, 0], E.io3], [6.3, [0.05, 0.8, 0], E.lin],
       [7.0, [0.03, 1.04, 0], E.io3], [8.75, [0.02, 1.0, 0], E.lin],
       [9.6, [0.0, 0.9, 0], E.io3], [10.85, [0.0, 0.88, 0], E.lin],
       [12.0, [0.0, 0.98, 0.0], E.io3], [15, [0.0, 0.98, 0.0], E.lin],
@@ -154,6 +154,8 @@ export function makeChoreo(tl) {
     const press = 0.018 * (pulse(t, C.squish1, C.squish1 + 0.26) + pulse(t, C.squish2, C.squish2 + 0.26) + pulse(t, C.squish3, C.squish3 + 0.26));
     const holdL = [ball[0] - spread - 0.032 + press, ball[1] + 0.01 - press * 0.6, ball[2] + 0.015];
     const holdR = [ball[0] + spread + 0.032 - press, ball[1] + 0.01 - press * 0.6, ball[2] + 0.015];
+    const catchL = [HOLD[0] - BALL_R - 0.032, HOLD[1] + 0.01, HOLD[2] + 0.015];
+    const catchR = [HOLD[0] + BALL_R + 0.032, HOLD[1] + 0.01, HOLD[2] + 0.015];
     const rimL = [-HULL.a - 0.02, ball[1] + HULL.D / 2 - 0.01, 0.0];
     const rimR = [HULL.a + 0.02, ball[1] + HULL.D / 2 - 0.01, 0.0];
     const shipPoint = k => {
@@ -169,7 +171,7 @@ export function makeChoreo(tl) {
     L.push([0, holdL], [C.drop, holdL], [C.drop + 0.12, kipLocal(-0.3, 0.52, 0.2), E.out3], [C.splash + 0.02, kipLocal(-0.28, 0.5, 0.2)],
       [C.splash + 0.2, bodyLocal(-0.13, 0.36, 0.2), E.out3], [C.splash + 0.5, tankBackL, E.io], [C.lookShip - 0.05, tankBackL],
       [C.lookShip + 0.3, shipPoint, E.out3], [C.chin - 0.05, shipPoint], [C.chin + 0.25, kipLocal(-0.26, 0.22, 0.08)],
-      [C.pause, tankBackL], [6.25, tankBackL], [C.catch - 0.12, holdL], [C.lowerStart, holdL],
+      [C.pause, tankBackL], [6.25, tankBackL], [C.catch - 0.12, catchL], [C.catch, holdL, E.lin], [C.lowerStart, holdL],
       [C.lowerStart + 0.12, rimL], [C.touch, rimL], [C.touch + 0.25, kipLocal(-0.3, 0.55, 0.25), E.out3],
       [10.15, kipLocal(-0.3, 0.5, 0.22)], [10.6, tankBackL], [11.85, tankBackL], [C.flagGrab + 0.2, flagHold],
       [C.flagPlant - 0.05, sternRim, E.io], [C.flagPlant + 0.2, sternRim], [C.thumbs, kipLocal(-0.28, 0.24, 0.1)], [15, kipLocal(-0.28, 0.24, 0.1)]);
@@ -177,7 +179,7 @@ export function makeChoreo(tl) {
       [C.splash + 0.2, bodyLocal(0.13, 0.36, 0.2), E.out3], [C.splash + 0.5, tankBackR, E.io], [C.lookShip + 0.3, tankBackR],
       [C.chin - 0.1, tankBackR], [C.chin + 0.2, bodyLocal(0.04, 0.27, 0.235), E.out3], [C.twirl - 0.02, bodyLocal(0.04, 0.27, 0.235)],
       [C.twirl + 0.12, twirlR, E.out3], [C.pause - 0.02, twirlR], [C.pause + 0.25, 'MAG', E.io], [C.twirl2 - 0.1, 'MAG'],
-      [C.twirl2 + 0.1, twirl2R, E.io], [C.unpause + 0.1, twirl2R], [C.catch - 0.12, holdR, E.io], [C.lowerStart, holdR],
+      [C.twirl2 + 0.1, twirl2R, E.io], [C.unpause + 0.1, twirl2R], [C.catch - 0.12, catchR, E.io], [C.catch, holdR, E.lin], [C.lowerStart, holdR],
       [C.lowerStart + 0.12, rimR], [C.touch, rimR], [C.touch + 0.25, kipLocal(0.3, 0.55, 0.25), E.out3],
       [10.15, kipLocal(0.3, 0.5, 0.22)], [10.6, tankBackR], [10.95, tankBackR], [11.4, kipLocal(0.2, 0.42, 0.34), E.io],
       [C.flagPlant - 0.1, kipLocal(0.26, 0.3, 0.16)], [C.thumbs - 0.15, kipLocal(0.26, 0.3, 0.16)],

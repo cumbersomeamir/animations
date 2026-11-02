@@ -1,0 +1,234 @@
+{
+  "file": "recall/education/pilot-01/recall-education-pilot-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "15.000000",
+    "nb_read_frames": "450",
+    "bit_rate": "3830301"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "15.000000",
+    "bit_rate": "193074"
+  },
+  "container_duration": "15.000000",
+  "size_bytes": 7562171,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -16.1,
+    "lra_lu": 1.4,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8387894630432129,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "A steel ball sinks, so how do steel ships float? It pushes aside only a little water. Same steel as a hollow hull. Pushes aside much more water. Steel plus air is, on average, less dense than water.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "A",
+        "t": 0.0
+      },
+      {
+        "w": "steel",
+        "t": 0.44
+      },
+      {
+        "w": "ball",
+        "t": 0.66
+      },
+      {
+        "w": "sinks,",
+        "t": 1.0
+      },
+      {
+        "w": "so",
+        "t": 1.86
+      },
+      {
+        "w": "how",
+        "t": 2.08
+      },
+      {
+        "w": "do",
+        "t": 2.24
+      },
+      {
+        "w": "steel",
+        "t": 2.42
+      },
+      {
+        "w": "ships",
+        "t": 2.64
+      },
+      {
+        "w": "float?",
+        "t": 3.1
+      },
+      {
+        "w": "It",
+        "t": 4.26
+      },
+      {
+        "w": "pushes",
+        "t": 4.28
+      },
+      {
+        "w": "aside",
+        "t": 4.48
+      },
+      {
+        "w": "only",
+        "t": 5.0
+      },
+      {
+        "w": "a",
+        "t": 5.44
+      },
+      {
+        "w": "little",
+        "t": 5.66
+      },
+      {
+        "w": "water.",
+        "t": 5.8
+      },
+      {
+        "w": "Same",
+        "t": 6.92
+      },
+      {
+        "w": "steel",
+        "t": 7.04
+      },
+      {
+        "w": "as",
+        "t": 7.34
+      },
+      {
+        "w": "a",
+        "t": 7.84
+      },
+      {
+        "w": "hollow",
+        "t": 7.9
+      },
+      {
+        "w": "hull.",
+        "t": 8.12
+      },
+      {
+        "w": "Pushes",
+        "t": 9.08
+      },
+      {
+        "w": "aside",
+        "t": 9.26
+      },
+      {
+        "w": "much",
+        "t": 9.62
+      },
+      {
+        "w": "more",
+        "t": 10.02
+      },
+      {
+        "w": "water.",
+        "t": 10.3
+      },
+      {
+        "w": "Steel",
+        "t": 11.32
+      },
+      {
+        "w": "plus",
+        "t": 11.32
+      },
+      {
+        "w": "air",
+        "t": 11.6
+      },
+      {
+        "w": "is,",
+        "t": 11.86
+      },
+      {
+        "w": "on",
+        "t": 12.38
+      },
+      {
+        "w": "average,",
+        "t": 12.52
+      },
+      {
+        "w": "less",
+        "t": 13.22
+      },
+      {
+        "w": "dense",
+        "t": 13.32
+      },
+      {
+        "w": "than",
+        "t": 13.52
+      },
+      {
+        "w": "water.",
+        "t": 13.84
+      }
+    ]
+  },
+  "caption_extent_px": {
+    "left": 67.39010620117188,
+    "right": 1012.6098937988281,
+    "top": 250,
+    "bottom": 470
+  },
+  "signature_bottom_px": 1754,
+  "layout_frames_logged": 450,
+  "motion": {
+    "mean_frame_diff": 2.405,
+    "min_frame_diff": 0.2165,
+    "longest_static_run_frames": 0,
+    "max_frame_diff": 19.11,
+    "max_diff_at_s": 6.667
+  },
+  "luma_min_mean_max": [
+    89.0,
+    103.6,
+    120.6
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "450_frames": true,
+    "video_15.000s": true,
+    "audio_15.000s": true,
+    "container_15.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16\u00b11": true,
+    "true_peak_below_-1": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_inside_safe_area": true,
+    "signature_above_bottom_ui": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

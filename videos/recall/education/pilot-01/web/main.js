@@ -186,7 +186,7 @@ window.__renderSheetPose = async (name) => {
   if (name === 'curious') p.handR = k => k.bodyPoint(0.04, 0.27, 0.235);
   S.kip.apply(p);
   const cam = S.cam;
-  cam.position.set(0, 0.55, 2.55); cam.lookAt(0, 0.43, 0.5); cam.fov = 30; cam.aspect = S.W / S.H; cam.updateProjectionMatrix();
+  cam.position.set(0, 0.66, 4.2); cam.lookAt(0, 0.56, 0.5); cam.fov = 30; cam.aspect = S.W / S.H; cam.updateProjectionMatrix();
   S.R.render(S.scene, cam);
   S.octx.clearRect(0, 0, S.W, S.H);
   await new Promise(r => requestAnimationFrame(() => r()));

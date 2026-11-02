@@ -26,11 +26,17 @@ def run(cmd, **kw):
     return subprocess.run(cmd, capture_output=True, text=True, **kw)
 
 
+_FRAMES = {}
+
+
 def frame_at(t, w=270, h=480):
-    """Decode one frame from the final MP4 at time t (seconds)."""
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t:.4f}", "-i", MP4, "-frames:v", "1", "-f", "rawvideo",
-                          "-pix_fmt", "rgb24", "-s", f"{w}x{h}", "-"], capture_output=True).stdout
-    return Image.frombytes("RGB", (w, h), raw)
+    """Frame of the final MP4 at time t, by frame index (n = round(t*30)), from one full decode."""
+    if (w, h) not in _FRAMES:
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", MP4, "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{w}x{h}", "-"],
+                             capture_output=True).stdout
+        _FRAMES[(w, h)] = np.frombuffer(raw, dtype=np.uint8).reshape(-1, h, w, 3)
+    fr = _FRAMES[(w, h)]
+    return Image.fromarray(fr[min(len(fr) - 1, int(round(t * 30)))])
 
 
 def sheet(times, labels, path, cols, w=270, h=480, title=""):
@@ -163,6 +169,7 @@ def main():
     bounds.sort(key=lambda b: b[1])
     sheet([b[1] for b in bounds], [f"{b[1]:.2f}s {b[0]}" for b in bounds], os.path.join(HERE, "boundaries.png"), 6,
           title="Scene / caption boundaries and key actions (decoded from the final MP4)")
+    checks = {k: bool(v) for k, v in checks.items()}
     rep["checks"] = checks
     rep["all_checks_pass"] = all(checks.values())
     json.dump(rep, open(os.path.join(HERE, "qa_report.json"), "w"), indent=2)

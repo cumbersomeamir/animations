@@ -79,10 +79,10 @@ export class Kip {
       face.add(bg);
       this.brows.push({ m: b, side: s });
     }
-    this.mouthMat = new THREE.MeshStandardMaterial({ color: '#2A1E1A', roughness: 0.5, side: THREE.DoubleSide });
+    this.mouthMat = new THREE.MeshStandardMaterial({ color: '#2A1E1A', roughness: 0.5, side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 });
     this.mouth = new THREE.Mesh(new THREE.BufferGeometry(), this.mouthMat);
-    this.mouth.position.set(0, 0.318, 0.19);
-    this.mouth.rotation.x = -0.18;
+    this.mouth.position.set(0, 0.318, 0.2045);
+    this.mouth.rotation.x = -0.15;
     face.add(this.mouth);
 
     // pith helmet (lime) with ink band
@@ -91,8 +91,8 @@ export class Kip {
     dome.scale.set(1, 0.78, 1.04);
     const brim = new THREE.Mesh(new THREE.CylinderGeometry(0.245, 0.25, 0.018, 56), lime);
     brim.scale.set(1, 1, 1.08); brim.position.y = -0.004;
-    const band = new THREE.Mesh(new THREE.CylinderGeometry(0.163, 0.166, 0.036, 48, 1, true), ink);
-    band.position.y = 0.022;
+    const band = new THREE.Mesh(new THREE.CylinderGeometry(0.1655, 0.1685, 0.036, 64, 1, true), ink);
+    band.position.y = 0.02; band.scale.set(1, 1, 1.04);
     const nub = new THREE.Mesh(new THREE.SphereGeometry(0.024, 16, 12), lime); nub.position.y = 0.13;
     for (const m of [dome, brim, band, nub]) { m.castShadow = true; hat.add(m); }
     this.head.add(hat);
@@ -206,13 +206,20 @@ export class Kip {
 
 function mouthGeom(smile, open, round) {
   // Flat "D" mouth: top lip curve follows the smile, bottom curve drops with openness.
-  const w = 0.04 * (1 - 0.35 * round) + 0.006 * smile;
+  const w = 0.046 * (1 - 0.3 * round) + 0.007 * smile * (1 - round);
   const s = new THREE.Shape();
   const topDip = -0.014 * smile;
-  const bot = -(0.007 + 0.055 * open + 0.012 * Math.max(0, smile)) * (1 + 0.3 * round);
-  s.moveTo(-w, 0.004 * smile);
-  s.quadraticCurveTo(0, topDip * 2, w, 0.004 * smile);
-  s.quadraticCurveTo(w * 0.9, bot, 0, bot);
-  s.quadraticCurveTo(-w * 0.9, bot, -w, 0.004 * smile);
-  return new THREE.ShapeGeometry(s, 12);
+  const bot = -(0.008 + 0.062 * open + 0.012 * Math.max(0, smile)) * (1 + 0.3 * round);
+  // round > 0 lifts the top lip into an arch so the D-shape becomes an "O"
+  const topCtl = topDip * 2 * (1 - round) + round * Math.abs(bot) * 0.75;
+  const yc = 0.004 * smile * (1 - round) + round * bot * 0.35;
+  s.moveTo(-w, yc);
+  s.bezierCurveTo(-w * (1 - 0.4 * round), topCtl, w * (1 - 0.4 * round), topCtl, w, yc);
+  s.bezierCurveTo(w * (0.95 - 0.1 * round), bot * (0.9 + 0.2 * round), w * 0.45, bot * 1.05, 0, bot * 1.05);
+  s.bezierCurveTo(-w * 0.45, bot * 1.05, -w * (0.95 - 0.1 * round), bot * (0.9 + 0.2 * round), -w, yc);
+  const g = new THREE.ShapeGeometry(s, 16);
+  const p = g.attributes.position.array, R = 0.2;
+  for (let i = 0; i < p.length; i += 3) p[i + 2] = Math.sqrt(Math.max(0, R * R - p[i] * p[i])) - R;
+  g.computeVertexNormals();
+  return g;
 }

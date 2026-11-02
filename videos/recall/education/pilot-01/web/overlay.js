@@ -54,11 +54,11 @@ export function drawCaption(ctx, W, tl, t) {
   const cap = tl.captions.find(c => t >= c.start - 0.001 && t < c.end);
   if (!cap) return null;
   const a = clamp((t - cap.start) / 0.14) * clamp((cap.end - t) / 0.12 + (cap.end >= 14.99 ? 1 : 0));
-  const size = 66, lh = 80;
+  const size = 66, lh = 76;
   ctx.save();
   ctx.font = `600 ${size}px ${FONT}`;
   const lines = wrapParts(ctx, cap.parts, 880);
-  const bw = Math.max(...lines.map(l => l.w)) + 76, bh = lines.length * lh + 44;
+  const bw = Math.max(...lines.map(l => l.w)) + 76, bh = lines.length * lh + 36;
   const cx = W / 2, top = 250 + (1 - clamp((t - cap.start) / 0.18)) * 16;
   ctx.globalAlpha = a;
   if (cap.chip) {
@@ -72,7 +72,7 @@ export function drawCaption(ctx, W, tl, t) {
   ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(199,243,107,0.35)'; ctx.stroke();
   ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
   lines.forEach((l, i) => {
-    let x = cx - l.w / 2; const y = top + 22 + lh * i + lh / 2 + 2;
+    let x = cx - l.w / 2; const y = top + 18 + lh * i + lh / 2 + 2;
     for (const [w, hl, ww] of l.segs) { ctx.fillStyle = hl ? LIME : PAPER; ctx.fillText(w, x, y); x += ww; }
   });
   ctx.restore();

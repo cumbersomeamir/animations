@@ -31,7 +31,7 @@ def main():
         src = Image.open(os.path.join(SRC, f"{name}.png")).convert("RGB")
         w, h = src.size
         # crop the central region around Kip (camera framing in __renderSheetPose)
-        crop = src.crop((int(w * 0.14), int(h * 0.26), int(w * 0.86), int(h * 0.76))).resize((tw, th))
+        crop = src.crop((0, int(h * 0.125), w, int(h * 0.875))).resize((tw, th))
         x = 20 + (i % cols) * (tw + 20)
         y = 150 + (i // cols) * (th + 50)
         im.paste(crop, (x, y))
