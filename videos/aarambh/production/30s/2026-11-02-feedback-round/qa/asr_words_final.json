@@ -1,0 +1,366 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "In",
+   "start": 0.0,
+   "end": 0.54
+  },
+  {
+   "w": "1941,",
+   "start": 0.54,
+   "end": 1.34
+  },
+  {
+   "w": "Burr's",
+   "start": 1.92,
+   "end": 2.34
+  },
+  {
+   "w": "stuck",
+   "start": 2.34,
+   "end": 2.54
+  },
+  {
+   "w": "to",
+   "start": 2.54,
+   "end": 2.76
+  },
+  {
+   "w": "Swiss",
+   "start": 2.76,
+   "end": 2.98
+  },
+  {
+   "w": "engineer",
+   "start": 2.98,
+   "end": 3.48
+  },
+  {
+   "w": "George",
+   "start": 3.48,
+   "end": 3.88
+  },
+  {
+   "w": "de",
+   "start": 3.88,
+   "end": 4.04
+  },
+  {
+   "w": "Mistral's",
+   "start": 4.04,
+   "end": 4.56
+  },
+  {
+   "w": "clothes.",
+   "start": 4.56,
+   "end": 5.04
+  },
+  {
+   "w": "Under",
+   "start": 5.66,
+   "end": 5.74
+  },
+  {
+   "w": "a",
+   "start": 5.74,
+   "end": 6.04
+  },
+  {
+   "w": "microscope,",
+   "start": 6.04,
+   "end": 6.38
+  },
+  {
+   "w": "he",
+   "start": 6.82,
+   "end": 6.94
+  },
+  {
+   "w": "saw",
+   "start": 6.94,
+   "end": 7.18
+  },
+  {
+   "w": "tiny",
+   "start": 7.18,
+   "end": 7.4
+  },
+  {
+   "w": "hooks",
+   "start": 7.4,
+   "end": 7.68
+  },
+  {
+   "w": "catching",
+   "start": 7.68,
+   "end": 8.18
+  },
+  {
+   "w": "looped",
+   "start": 8.18,
+   "end": 8.58
+  },
+  {
+   "w": "threads.",
+   "start": 8.58,
+   "end": 8.92
+  },
+  {
+   "w": "With",
+   "start": 9.46,
+   "end": 9.6
+  },
+  {
+   "w": "a",
+   "start": 9.6,
+   "end": 9.76
+  },
+  {
+   "w": "French",
+   "start": 9.76,
+   "end": 10.04
+  },
+  {
+   "w": "weaver,",
+   "start": 10.04,
+   "end": 10.34
+  },
+  {
+   "w": "he",
+   "start": 10.66,
+   "end": 10.78
+  },
+  {
+   "w": "spent",
+   "start": 10.78,
+   "end": 11.02
+  },
+  {
+   "w": "years",
+   "start": 11.02,
+   "end": 11.36
+  },
+  {
+   "w": "copying",
+   "start": 11.36,
+   "end": 11.68
+  },
+  {
+   "w": "that",
+   "start": 11.68,
+   "end": 12.12
+  },
+  {
+   "w": "structure,",
+   "start": 12.12,
+   "end": 12.58
+  },
+  {
+   "w": "one",
+   "start": 13.12,
+   "end": 13.38
+  },
+  {
+   "w": "strip",
+   "start": 13.38,
+   "end": 13.52
+  },
+  {
+   "w": "of",
+   "start": 13.52,
+   "end": 13.72
+  },
+  {
+   "w": "hooks,",
+   "start": 13.72,
+   "end": 13.98
+  },
+  {
+   "w": "one",
+   "start": 14.12,
+   "end": 14.16
+  },
+  {
+   "w": "of",
+   "start": 14.16,
+   "end": 14.32
+  },
+  {
+   "w": "loops.",
+   "start": 14.32,
+   "end": 14.76
+  },
+  {
+   "w": "Press",
+   "start": 15.38,
+   "end": 15.58
+  },
+  {
+   "w": "them",
+   "start": 15.58,
+   "end": 15.78
+  },
+  {
+   "w": "together",
+   "start": 15.78,
+   "end": 16.14
+  },
+  {
+   "w": "and",
+   "start": 16.14,
+   "end": 16.34
+  },
+  {
+   "w": "they",
+   "start": 16.34,
+   "end": 16.56
+  },
+  {
+   "w": "grip,",
+   "start": 16.56,
+   "end": 16.9
+  },
+  {
+   "w": "pull,",
+   "start": 17.26,
+   "end": 17.74
+  },
+  {
+   "w": "and",
+   "start": 17.8,
+   "end": 17.94
+  },
+  {
+   "w": "the",
+   "start": 17.94,
+   "end": 18.54
+  },
+  {
+   "w": "flexible",
+   "start": 18.54,
+   "end": 18.54
+  },
+  {
+   "w": "hooks",
+   "start": 18.54,
+   "end": 18.82
+  },
+  {
+   "w": "let",
+   "start": 18.82,
+   "end": 19.06
+  },
+  {
+   "w": "go.",
+   "start": 19.06,
+   "end": 19.56
+  },
+  {
+   "w": "The",
+   "start": 19.98,
+   "end": 20.14
+  },
+  {
+   "w": "lesson,",
+   "start": 20.14,
+   "end": 20.5
+  },
+  {
+   "w": "study",
+   "start": 20.88,
+   "end": 21.12
+  },
+  {
+   "w": "how",
+   "start": 21.12,
+   "end": 21.36
+  },
+  {
+   "w": "nature",
+   "start": 21.36,
+   "end": 21.66
+  },
+  {
+   "w": "solves",
+   "start": 21.66,
+   "end": 22.04
+  },
+  {
+   "w": "a",
+   "start": 22.04,
+   "end": 22.3
+  },
+  {
+   "w": "problem,",
+   "start": 22.3,
+   "end": 22.66
+  },
+  {
+   "w": "then",
+   "start": 22.94,
+   "end": 23.2
+  },
+  {
+   "w": "test",
+   "start": 23.2,
+   "end": 23.46
+  },
+  {
+   "w": "the",
+   "start": 23.46,
+   "end": 23.68
+  },
+  {
+   "w": "mechanism.",
+   "start": 23.68,
+   "end": 24.08
+  },
+  {
+   "w": "Follow",
+   "start": 25.92,
+   "end": 26.62
+  },
+  {
+   "w": "our",
+   "start": 26.62,
+   "end": 26.92
+  },
+  {
+   "w": "ramp",
+   "start": 26.92,
+   "end": 27.14
+  },
+  {
+   "w": "for",
+   "start": 27.14,
+   "end": 27.56
+  },
+  {
+   "w": "the",
+   "start": 27.56,
+   "end": 27.8
+  },
+  {
+   "w": "ideas",
+   "start": 27.8,
+   "end": 28.1
+  },
+  {
+   "w": "behind",
+   "start": 28.1,
+   "end": 28.46
+  },
+  {
+   "w": "great",
+   "start": 28.46,
+   "end": 28.8
+  },
+  {
+   "w": "inventions.",
+   "start": 28.8,
+   "end": 29.38
+  }
+ ],
+ "text": "In 1941, Burr's stuck to Swiss engineer George de Mistral's clothes. Under a microscope, he saw tiny hooks catching looped threads. With a French weaver, he spent years copying that structure, one strip of hooks, one of loops. Press them together and they grip, pull, and the flexible hooks let go. The lesson, study how nature solves a problem, then test the mechanism. Follow our ramp for the ideas behind great inventions."
+}

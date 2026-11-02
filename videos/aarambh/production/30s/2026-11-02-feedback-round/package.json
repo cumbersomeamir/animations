@@ -1,0 +1,18 @@
+{
+  "name": "aarambh-30s-feedback-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aarambh feedback round 30 s #01: George de Mestral and hook-and-loop fasteners.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "frames:check": "node src/render.mjs --stills qa/stills",
+    "sheet": "node src/character-sheet.mjs",
+    "render": "node src/render.mjs --out build/video.mp4"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@napi-rs/canvas": "1.0.11"
+  }
+}

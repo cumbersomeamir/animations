@@ -1,0 +1,41 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "In 1941, burrs stuck to Swiss engineer George de Mestral's clothes.",
+      "tts": "In nineteen forty-one, burrs stuck to Swiss engineer George de Mestral's clothes.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "Under a microscope, he saw tiny hooks catching looped threads.",
+      "tts": "Under a microscope, he saw tiny hooks catching looped threads.",
+      "start": 5.45
+    },
+    {
+      "id": "S3",
+      "text": "With a French weaver, he spent years copying that structure: one strip of hooks, one of loops.",
+      "tts": "With a French weaver, he spent years copying that structure: one strip of hooks, one of loops.",
+      "start": 9.4
+    },
+    {
+      "id": "S4",
+      "text": "Press them together and they grip. Pull, and the flexible hooks let go.",
+      "tts": "Press them together, and they grip. Pull, and the flexible hooks let go.",
+      "start": 15.3
+    },
+    {
+      "id": "S5",
+      "text": "The lesson: study how nature solves a problem, then test the mechanism.",
+      "tts": "The lesson: study how nature solves a problem, then test the mechanism.",
+      "start": 19.9
+    },
+    {
+      "id": "S6",
+      "text": "Follow Aarambh for the ideas behind great inventions.",
+      "tts": "Follow Aarambh, for the ideas behind great inventions.",
+      "start": 26.2
+    }
+  ]
+}

@@ -102,3 +102,61 @@ This supersedes 08 (tools and livelihoods niche). That lesson and the Pilot 01 o
 ## Episode log
 - 01 (2026-11-02): Marie Curie, two sciences, two Nobel Prizes. Record: `12-production-30s-01.md`
 - 02 (2026-11-02, batch-02): Ada Lovelace, Note G and the first published computer algorithm. Record: `13-production-30s-02.md`
+
+
+## FEEDBACK ROUND 2026-11-02 — current rules (supersede any conflicting rule above)
+**Genre (final):** famous people, achievements and life stories. Each episode teaches **one mechanism or idea** a general viewer can use or retell.
+
+### Exact style recipe: Archive Light Table, Aarambh variant
+The style is this recipe; a rendering library is not the style. Canvas2D is only the tool.
+1. **Stage:** one cream/green glowing light table seen from above. The frame is icon green `#05473A` on a desk of `#011E18`, with a faint catalogue grid and diffuser grain.
+2. **Objects:** paper pages (900x1000, cream `#FFFDF6`, thin green inner border, warm edge glow), drawn at 0.94 scale so their tops sit below the caption plate. Each page has:
+   - a mono kicker (gold-deep `#C98A22`, e.g. "UNDER THE MICROSCOPE")
+   - a Fraunces title
+   - a short mono source footer, ≤ ~40 characters
+3. **Content is real or honestly original:** public-domain or permissively licensed scans with on-page credit, OR original illustrations labelled "ILLUSTRATION". Never invented archive scans, letters, certificates or quotes. If no free portrait exists, use a typeset name plate rather than a fake likeness.
+4. **At least five distinct pages per episode,** changed by at least three complete page changes from this set:
+   - page turn (fold sweeps right to left; the flap shows the paper back)
+   - slide swap (the next page pushes the current one off)
+   - hard cut on a spoken word (light-table click and a small flash)
+   - a CTA card sliding in
+5. **The magnifier is used once,** to explain one detail. It is never bobbed over a static sheet.
+6. **Objects move to explain the mechanism as it is narrated:** things stick, catch, weave, press, flex and release. No decorative rays and no static page with camera bobbing.
+7. **Marks:** gold `#F1B444` leaders and dots, dark label pills (Inter 800, 32 px), and gold-deep rubber-stamp boxes for dates and outcomes (Mono 34/28 px).
+8. **Camera:** gentle push (zoom 1.0–1.06) per page, a reset on each change, no wobble.
+9. **End:** a brand/action CTA card in the final 3–4 s. Deep-green card, the real app icon (`assets/icon.png`), "Follow Aarambh" plus a one-line reason, and a short source line.
+
+### Safe areas (1080x1920)
+- **Top band:** y < 300 has no meaningful text.
+- **Captions:** upper centre, plate y 350–510, text ink about y 377–492, Inter 800 54 px, at most two lines. Plate width ≤ 900, so x stays within 90–990. Word groups are split by ASR timing, and each caption ends 0.06 s before the next starts.
+- **Page content:** crucial diagrams stay within x 140–900 and y 540–1500, away from the side and bottom platform UI.
+
+### Education and CTA rules
+- **Structure:**
+  - a strong opening, a real moment or observation (0–5 s)
+  - the mechanism shown step by step as narrated (5–20 s)
+  - a practical takeaway the viewer can reuse (20–25 s)
+  - a short natural CTA (final 3–4 s, e.g. "Follow Aarambh for the ideas behind great inventions.")
+- **Wording:** no filler, empty motivation or long disclaimers. Put a material qualification briefly inside the relevant sentence (e.g. "With a French weaver, he spent years…").
+- **Sources:** use reliable original or institutional sources (e.g. National Inventors Hall of Fame, WIPO, museums, NobelPrize.org), recorded in the episode note and in `publishing-caption.txt`. Keep dates only if verified and needed.
+- **Never** invent app capabilities, guarantees, statistics, income claims or testimonials.
+
+### Audio (current)
+- **Voice:** the cached Meshline/Recall Kokoro-82M ONNX v1.0, `0.7·af_bella + 0.3·am_puck`, en-us, speed 0.98. Synthesised per sentence and placed with about 0.4 s gaps.
+- **Music:** subtle and NON-repetitive. Long pads plus a few sparse, non-periodic notes; no looping arpeggios. Ducked under the voice.
+- **SFX:** one per on-screen action (stick, turn, swap, cut, loupe land, catch, weave, stamp, press, rip on pull, strap, ticks, CTA chime).
+- **Loudness:** −15 LUFS integrated, true peak ≤ −1.5 dBTP (two-pass linear loudnorm).
+
+### Delivery checks
+- **Spec:** 30.000 s, 900 frames, H.264 High yuv420p, AAC LC 48 kHz stereo.
+- **Checks:**
+  - full FFmpeg decode
+  - ffprobe streams and decoded frame count
+  - loudness
+  - one ASR timing pass, plus an ASR check on the export
+  - word-to-event sync table
+  - representative and transition contact sheets
+  - caption bounds
+- **Re-render** if any text is small (< ~26 px on screen for supporting facts), obstructed or overlapping, or a scene is static.
+
+- 03 (2026-11-02, feedback round): George de Mestral, burrs and hook-and-loop fasteners. Record: `14-production-30s-feedback-01.md`

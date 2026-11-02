@@ -103,3 +103,8 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 ## 2026-11-02: production batch-02 (COMPLETE)
 - **Output:** `videos/aarambh/production/30s/2026-11-02-batch-02/aarambh-30s-production-02.mp4`, sha256 `4ec3350b32b03ed58c50bea8f6e90192e862734c7d4848be3fe676c24ef67171`. Ada Lovelace / Note G. 30.000 s, 900 frames, −15.2 LUFS, −1.5 dBTP, full decode OK.
 - **Record:** `context/13-production-30s-02.md`. The user's five-page/scene-change feedback is saved in `context/11` (feedback log). No automation has been created.
+
+## 2026-11-02: feedback round (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-02-feedback-round/aarambh-30s-feedback-01.mp4`, sha256 `97ba7e3b63d505d7a89afefd481f6ee3af1e2c2695fb0976468944ebd501d66a`. George de Mestral / hook-and-loop. 30.000 s, 900 frames, −15.0 LUFS, full decode OK.
+- **New durable rules** (style recipe, five or more pages, magnifier once, mechanism motion, CTA, safe areas, non-repetitive music): `context/11` "FEEDBACK ROUND". **Record:** `context/14`.
+- No automation was created and no other episode was started.

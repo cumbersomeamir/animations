@@ -27,3 +27,6 @@
 
 ## 2026-11-02: production 30 s #02
 - `videos/aarambh/production/30s/2026-11-02-batch-02/aarambh-30s-production-02.mp4` (sha256 `4ec3350b32b03ed58c50bea8f6e90192e862734c7d4848be3fe676c24ef67171`): Ada Lovelace and Note G. See 13-production-30s-02.md; format and feedback in 11.
+
+## 2026-11-02: feedback round
+- `videos/aarambh/production/30s/2026-11-02-feedback-round/aarambh-30s-feedback-01.mp4` (sha256 `97ba7e3b63d505d7a89afefd481f6ee3af1e2c2695fb0976468944ebd501d66a`): George de Mestral, burrs → hook-and-loop. Read 11 (FEEDBACK ROUND rules) and 14 before the next episode.
