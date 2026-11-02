@@ -1,0 +1,93 @@
+{
+  "file": "production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2889085"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "197456"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 11609489,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.3,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.844524621963501,
+  "clipped_samples": 0,
+  "asr": {
+    "error": "IndexError('boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1')"
+  },
+  "caption_ink_px": {
+    "left": 207.95465087890625,
+    "right": 871.327392578125,
+    "top": 352,
+    "bottom": 468
+  },
+  "caption_pill_px": {
+    "top": 324,
+    "bottom": 492
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "scene_safe_px": {
+    "kipTop_min": 737.3459993079002,
+    "tankFloor_max": 1540.8591704487544,
+    "tankLeft_min": 83.92835374570956,
+    "tankRight_max": 1024.1375937160929
+  },
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 1.328,
+    "min_frame_diff": 0.1223,
+    "longest_static_run_frames": 6,
+    "max_frame_diff": 22.02,
+    "max_diff_at_s": 16.0
+  },
+  "luma_min_mean_max": [
+    116.6,
+    120.4,
+    136.2
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_350_470": true,
+    "caption_margins_ge_80": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear_of_overlays": true,
+    "subject_below_ui_row": true,
+    "subject_above_bottom_overlay": false,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": false
+}

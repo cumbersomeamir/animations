@@ -39,7 +39,7 @@ export function makeChoreo(tl) {
     return settle(t - C.tog3, MT);
   }
 
-  const BASE = { pos: [0, 0.98, 5.35], target: [0, 0.8, 0] };
+  const BASE = { pos: [0, 0.815, 5.05], target: [0, 0.635, 0] };   // reframed: subject 660–1470 px
   function camera(t) {
     const zoom = key(t, [[0, 0.05], [0.5, 0, E.out3], [8.0, 0], [8.1, 0.015, E.out], [8.8, 0, E.io], [16.0, 0], [16.1, 0.02, E.out],
       [16.7, 0, E.io], [19.3, 0], [19.4, 0.02, E.out], [20.1, 0, E.io], [29.0, 0], [30.0, -0.02, E.io]]);

@@ -178,7 +178,7 @@ export function drawOverlay(ctx, W, H, s, P, tl, icon, cache) {
   ctx.clearRect(0, 0, W, H);
   const fx = s.fx, t = s.t, boxes = [];
   ctx.save(); ctx.scale(W / 1080, H / 1920);
-  const push = b => { if (b) boxes.push(b); };
+  const push = b => { if (b) boxes.push({ kind: "annotation", ...b }); };
 
   // lock (balance held level until WEIGH!)
   lockGlyph(ctx, P.pivot.x - 70, P.pivot.y - 6, fx.locked);
@@ -187,7 +187,10 @@ export function drawOverlay(ctx, W, H, s, P, tl, icon, cache) {
     push(pill(ctx, '1 kg', P.cubeTop.x, P.cubeTop.y - 34, fx.kgTags));
   }
   if (fx.sameMass > 0.01) {
-    label(ctx, '=', P.pivot.x, (P.cubeTop ? P.cubeTop.y : P.pivot.y) + 30, { size: 72, color: LIME, align: 'center', alpha: fx.sameMass, weight: 700 });
+    { const y = (P.cubeTop ? P.cubeTop.y : P.pivot.y) + 34, a = fx.sameMass;
+      ctx.save(); ctx.globalAlpha = a; ctx.beginPath(); ctx.arc(P.pivot.x + 4, y + 5, 30, 0, Math.PI * 2); ctx.fillStyle = SHADE; ctx.fill();
+      ctx.beginPath(); ctx.arc(P.pivot.x, y, 30, 0, Math.PI * 2); ctx.fillStyle = INK; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = LIME; ctx.stroke();
+      ctx.fillStyle = LIME; rr(ctx, P.pivot.x - 15, y - 10, 30, 7, 3); ctx.fill(); rr(ctx, P.pivot.x - 15, y + 3, 30, 7, 3); ctx.fill(); ctx.restore(); }
     label(ctx, 'same mass', P.pivot.x, P.base.y - 60, { size: 36, color: LIME, align: 'center', alpha: fx.sameMass, weight: 700 });
   }
   // volumes: dashed 3D boxes around the cube and the sack

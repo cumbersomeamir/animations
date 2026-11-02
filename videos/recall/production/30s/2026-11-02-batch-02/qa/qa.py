@@ -105,8 +105,13 @@ def main():
         a16 = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", MP4, "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
                                            capture_output=True).stdout, dtype=np.float32)
         m = WhisperModel("base.en", device="cpu", compute_type="int8")
-        segs, _ = m.transcribe(a16, beam_size=5, language="en", word_timestamps=True)
-        segs = list(segs)
+        segs = list(m.transcribe(a16, beam_size=5, language="en")[0])   # transcript for WER (no word alignment)
+        try:   # word times are a bonus; faster-whisper's aligner can fail on some mixes (IndexError in find_alignment)
+            wsegs = list(m.transcribe(a16, beam_size=5, language="en", word_timestamps=True)[0])
+        except Exception as e:  # noqa: BLE001
+            wsegs, word_err = [], repr(e)
+        else:
+            word_err = None
         hyp = " ".join(s.text.strip() for s in segs)
         norm = lambda s: re.sub(r"[^a-z0-9 ]", "", s.lower().replace("-", " ")).split()
         ref = norm(" ".join(l["text"] for l in SCRIPT["lines"]))
@@ -118,7 +123,8 @@ def main():
             for j in range(1, len(h) + 1):
                 D[i, j] = min(D[i - 1, j] + 1, D[i, j - 1] + 1, D[i - 1, j - 1] + (ref[i - 1] != h[j - 1]))
         rep["asr"] = {"model": "faster-whisper base.en (int8, CPU)", "transcript": hyp, "wer": round(D[-1, -1] / len(ref), 3),
-                      "words": [{"w": w.word.strip(), "t": round(w.start, 2)} for s in segs for w in (s.words or [])]}
+                      "words": [{"w": w.word.strip(), "t": round(w.start, 2)} for s in wsegs for w in (s.words or [])],
+                      "word_timestamps_error": word_err}
         checks["asr_wer_le_0.1"] = rep["asr"]["wer"] <= 0.1
     except Exception as e:  # noqa: BLE001
         rep["asr"] = {"error": repr(e)}
@@ -133,7 +139,7 @@ def main():
     ui_overlap = []
     for e in logs:
         for b in e.get("boxes", []):
-            if b["kind"] == "caption":
+            if b.get("kind", "annotation") == "caption":
                 for k, fn in (("left", min), ("top", min), ("right", max), ("bottom", max)):
                     ink[k] = fn(ink[k], b["ink"][k])
                 pill["top"] = min(pill["top"], b["pill"]["top"]); pill["bottom"] = max(pill["bottom"], b["pill"]["bottom"])
@@ -141,7 +147,7 @@ def main():
                 if b["pill"]["top"] < 300:
                     top_violations.append((e["f"], "caption"))
             elif b["top"] < 300:
-                top_violations.append((e["f"], b["kind"]))
+                top_violations.append((e["f"], b.get("kind", "annotation")))
         sf_ = e["safe"]
         safe["kipTop_min"] = min(safe["kipTop_min"], sf_["kipTop"]); safe["tankFloor_max"] = max(safe["tankFloor_max"], sf_["tankFloor"])
         safe["tankLeft_min"] = min(safe["tankLeft_min"], sf_["tankLeft"]); safe["tankRight_max"] = max(safe["tankRight_max"], sf_["tankRight"])
