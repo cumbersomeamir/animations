@@ -1,0 +1,65 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 23.005,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "This looks like a paper cup.",
+      "start": 0.4,
+      "duration": 1.358,
+      "end": 1.758
+    },
+    {
+      "id": "L2",
+      "text": "But look inside.",
+      "start": 3.1,
+      "duration": 0.946,
+      "end": 4.046
+    },
+    {
+      "id": "L3",
+      "text": "Many disposable cups have a thin plastic lining that helps stop liquid soaking through the paper.",
+      "start": 4.4,
+      "duration": 5.872,
+      "end": 10.272
+    },
+    {
+      "id": "L4",
+      "text": "That mixed construction can make recycling more complicated.",
+      "start": 10.9,
+      "duration": 3.388,
+      "end": 14.288
+    },
+    {
+      "id": "L5",
+      "text": "Some facilities can process certain cups; others cannot.",
+      "start": 14.9,
+      "duration": 3.257,
+      "end": 18.157
+    },
+    {
+      "id": "L6",
+      "text": "Before adding one to your recycling, check your local recycler's rules.",
+      "start": 18.75,
+      "duration": 4.027,
+      "end": 22.777
+    },
+    {
+      "id": "L7",
+      "text": "The useful question is not only what it looks like.",
+      "start": 23.4,
+      "duration": 2.869,
+      "end": 26.269
+    },
+    {
+      "id": "L8",
+      "text": "It is what it is made of.",
+      "start": 26.65,
+      "duration": 1.288,
+      "end": 27.938
+    }
+  ]
+}

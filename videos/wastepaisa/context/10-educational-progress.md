@@ -73,6 +73,15 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - QA: `tests/10s/pre-reset-2026-11-02/qa/QA.md`. Limits: no human listening test; stylised lining band; sprite-swap posing.
 - Facts reused from pilot-01 sources S1–S5. Labelled illustration. No payout or allowance claims.
 
+## Production round production-30s-2026-11-02: COMPLETE
+- Output: `videos/wastepaisa/production/30s/2026-11-02/wastepaisa-30s-production-01.mp4`,
+  SHA-256 `8269dd290355f045dbdef61077a0a1c158b8e97bf375ef8e20d43eff7bdf8057`
+- 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.1 LUFS / −1.5 dBTP · caption ink y 354–466, x 196–884 · ASR: all script words recognised (mean 0.919, insertions only)
+- Final script = approved draft verbatim. Kokoro Meshline blend. Paper-cut Motion (read-only).
+- Durable format: `context/11-production-format.md`. Round record: `context/12-production-30s-01.md`. No automation created.
+- Limits: no human listening test; sprite-swap posing; some board items briefly occluded when not narrated.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

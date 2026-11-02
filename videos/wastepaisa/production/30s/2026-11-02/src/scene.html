@@ -1,0 +1,281 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa production 30s-01 "Why a paper cup is not just paper" (paper-cut motion, Tinku's scrap shop).
+// Stepped 12 fps; every frame is a pure function of t (seeded paper imperfections, no runtime state).
+const W = 1080, H = 1920, STEP = 12;
+const BASE = '/production/30s/2026-11-02';
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const C = { cream: '#f6ead6', paper: '#f3e5cc', ink: '#2a1a10', orange: '#e8741c', orangeInk: '#c95a0c', green: '#1f6b3a', greenInk: '#1f6b3a',
+  card: '#a8743f', cardDark: '#7a5129', wall: '#4a3121', kraft: '#6e4a2c', cork: '#b98b55', film: '#dff1f6', filmInk: '#12323b', copper: '#c47a42', coffee: '#5b3420' };
+const SH = { x: 6, y: 9, blur: 8, col: 'rgba(0,0,0,0.36)' }; // single light from upper-left
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const meta = await (await fetch(`${BASE}/sprites/sprites.json`)).json();
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const hash = (s) => { let h = 2166136261; for (const ch of String(s)) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return h >>> 0; };
+function boil(id, step, amp = 1.0, rot = 0.003) { const r = rng(hash(id) + step * 7919); return [(r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * amp, (r() - 0.5) * 2 * rot]; }
+function torn(seed, w, h, jag = 5) {
+  const r = rng(hash(seed)), pts = [], n = Math.max(6, Math.round((w + h) / 26));
+  const edge = (x0, y0, x1, y1, k) => { for (let i = 0; i < k; i++) { const u = i / k; pts.push([x0 + (x1 - x0) * u + (r() - 0.5) * jag * (y0 === y1 ? 0.4 : 1), y0 + (y1 - y0) * u + (r() - 0.5) * jag * (x0 === x1 ? 0.4 : 1)]); } };
+  edge(-w / 2, -h / 2, w / 2, -h / 2, n); edge(w / 2, -h / 2, w / 2, h / 2, n); edge(w / 2, h / 2, -w / 2, h / 2, n); edge(-w / 2, h / 2, -w / 2, -h / 2, n);
+  return pts;
+}
+function poly(pts) { g.beginPath(); pts.forEach(([x, y], i) => (i ? g.lineTo(x, y) : g.moveTo(x, y))); g.closePath(); }
+function piece(id, step, x, y, rot, draw, o = {}) {
+  const [bx, by, br] = o.still ? [0, 0, 0] : boil(id, step, o.amp ?? 1.0, o.brot ?? 0.003);
+  g.save(); g.translate(x + bx, y + by); g.rotate(rot + br);
+  if (!o.noShadow) { const l = o.lift ?? 1; g.shadowColor = SH.col; g.shadowOffsetX = SH.x * l; g.shadowOffsetY = SH.y * l; g.shadowBlur = SH.blur * l; }
+  draw(); g.restore();
+}
+function pinHead(x, y, col) { g.save(); g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowOffsetX = 3; g.shadowOffsetY = 4; g.shadowBlur = 3;
+  g.beginPath(); g.arc(x, y, 9, 0, 7); g.fillStyle = col; g.fill(); g.shadowColor = 'transparent';
+  g.beginPath(); g.arc(x - 3, y - 3, 3, 0, 7); g.fillStyle = 'rgba(255,255,255,0.6)'; g.fill(); g.restore(); }
+function tape(x, y, rot, w = 70) { g.save(); g.translate(x, y); g.rotate(rot); g.fillStyle = 'rgba(236,222,178,0.78)'; poly(torn('tape' + x + y, w, 22, 3)); g.fill(); g.restore(); }
+function label(id, step, x, y, rot, lines, bg, fg, size, o = {}) { // printed label strip; lines: array of strings
+  g.font = `800 ${size}px "Baloo 2"`; const w = Math.max(...lines.map((l) => g.measureText(l).width)) + 36, lh = size * 1.05, h = lines.length * lh + 18;
+  piece(id, step, x, y, rot, () => { poly(torn(id, w, h, 4)); g.fillStyle = bg; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = fg; g.textAlign = 'center'; g.textBaseline = 'middle';
+    lines.forEach((l, i) => g.fillText(l, 0, -h / 2 + 9 + lh * (i + 0.5) + 2)); if (o.pin) pinHead(0, -h / 2 + 7, o.pin); if (o.tape) tape(0, -h / 2, -0.06, w * 0.5); }, o);
+  return { w, h };
+}
+function stamp(id, x, y, rot, text, col, size = 40) { // stamps snap in one frame, tilted -3..+5 deg
+  g.save(); g.translate(x, y); g.rotate(rot); g.globalAlpha = 0.9; g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 40, h = size + 26;
+  g.strokeStyle = col; g.lineWidth = 6; g.strokeRect(-w / 2, -h / 2, w, h); g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 0, 3);
+  const r = rng(hash(id)); g.globalCompositeOperation = 'destination-out'; for (let i = 0; i < 70; i++) { g.fillRect((r() - 0.5) * w, (r() - 0.5) * h, 3 + r() * 5, 2); } // worn ink
+  g.restore();
+}
+function mk(w, h, fn) { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; }
+
+// ---------- cached textures and sprites ----------
+const grain = mk(540, 960, (x, w, h) => { const r = rng(3); for (let i = 0; i < 26000; i++) { x.fillStyle = r() < 0.5 ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.06)'; x.fillRect(r() * w, r() * h, 1.5, 1.5); } });
+const wallTex = mk(W + 200, H + 200, (x, w, h) => { x.fillStyle = C.wall; x.fillRect(0, 0, w, h); x.fillStyle = 'rgba(0,0,0,0.28)'; for (let yy = 20; yy < 1520; yy += 44) for (let xx = 20; xx < w; xx += 44) { x.beginPath(); x.arc(xx, yy, 4, 0, 7); x.fill(); } });
+const sprites = {};
+for (const n of Object.keys(meta)) {
+  const img = new Image(); img.src = `${BASE}/sprites/tinku-${n}.png`; await img.decode();
+  const sil = mk(img.width, img.height, (x) => { x.drawImage(img, 0, 0); x.globalCompositeOperation = 'source-in'; x.fillStyle = '#fff6e8'; x.fillRect(0, 0, img.width, img.height); });
+  sprites[n] = mk(img.width, img.height, (x) => { for (let a = 0; a < 16; a++) x.drawImage(sil, Math.cos(a / 16 * 6.283) * 9, Math.sin(a / 16 * 6.283) * 9); x.drawImage(img, 0, 0); });
+}
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 56px "Baloo 2"'); await document.fonts.load('700 26px "Baloo 2"');
+
+// ---------- layout ----------
+const COUNTER_Y = 1405, CRATE = { x: 100, y: 1300, w: 380, h: 108 };
+const CUP = { x: 868, base: 1405, h: 360, top: 252, bot: 182 };
+const BOARD = { x: 530, y: 845, w: 470, h: 480, rot: -0.02 };
+const COL = { paper: [420, 820], film: [640, 830] };
+const SW = { bare: [420, 990], lined: [640, 990] };
+const cupEdgeX = (y) => CUP.x - (CUP.bot / 2 + (CUP.top - CUP.bot) / 2 * (CUP.base - y) / CUP.h);
+const TEAR = [cupEdgeX(1190) + 58, 1190];
+const T = { tag1: 0.42, taps: [1.0, 1.25], tear: 3.25, tagPaper: 5.0, tagFilm: 6.08, note: 6.58, swatch: [7.5, 7.67], dropB: [7.92, 8.17], dropA: [9.17, 9.33],
+  pinPaper: 12.42, pinFilm: 13.08, mixed: 13.83, cardA: 15.17, okA: 16.42, cardB: 17.0, noB: 17.58, rules: 19.5, check: 21.58, looks: 25.58, madeOf: 27.42, capOff: 29.33 };
+// Tinku schedule (stepped): [t, pose, feetX, feetY]
+const TINKU = [
+  [0.0, 'look', 478, COUNTER_Y], [0.92, 'tap', 478, COUNTER_Y], [1.5, 'look', 478, COUNTER_Y],
+  [3.0, 'tap', 478, COUNTER_Y], [3.5, 'wow', 478, COUNTER_Y], [4.58, 'point', 478, COUNTER_Y],
+  [7.25, 'pull', 330, 1285], [7.33, 'pin', 388, CRATE.y], [8.83, 'pin', 280, 1268], [8.92, 'pin', 168, CRATE.y],
+  [10.42, 'pull', 440, 1325], [10.5, 'pull', 512, COUNTER_Y],
+  [11.83, 'pull', 360, 1250], [11.92, 'pin', 168, CRATE.y], [12.67, 'pin', 280, 1268], [12.75, 'pin', 388, CRATE.y],
+  [14.42, 'point', 388, CRATE.y], [17.5, 'shrug', 388, CRATE.y], [19.42, 'pull', 300, 1340], [19.5, 'point', 232, COUNTER_Y],
+  [23.08, 'pull', 440, 1330], [23.17, 'look', 478, COUNTER_Y], [27.25, 'point', 478, COUNTER_Y],
+];
+const tinkuAt = (t) => { let c = TINKU[0]; for (const k of TINKU) if (t >= k[0]) c = k; return c; };
+// stepped camera: [t, zoom, fx, fy]; screen = (p - f) * zoom + f
+const CAM = [[0, 1.1, 690, 1200], [2.67, 1.1, 690, 1200], [3.17, 1.0, 690, 1200], [23.0, 1.0, 690, 1200], [23.75, 1.1, 760, 1180], [30, 1.12, 760, 1180]];
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const a = CAM[i - 1], b = CAM[i], k = (t - a[0]) / (b[0] - a[0]), s = k * k * (3 - 2 * k); return [a[1] + (b[1] - a[1]) * s, a[2] + (b[2] - a[2]) * s, a[3] + (b[3] - a[3]) * s]; } return CAM[CAM.length - 1].slice(1); }
+
+// ---------- captions: short word groups, max 2 lines, ink inside y 350-470 ----------
+const GROUPS = {
+  L1: ['This looks like|a [paper cup.]'], L2: ['But look [inside.]'],
+  L3: ['Many disposable cups|have a [thin plastic lining]', 'that helps stop liquid|[soaking through] the paper.'],
+  L4: ['That [mixed construction]', 'can make recycling|[more complicated.]'],
+  L5: ['[Some facilities] can|process certain cups;', '[others cannot.]'],
+  L6: ['Before adding one|to your recycling,', 'check your [local]|[recycler\'s rules.]'],
+  L7: ['The useful question|is not only', 'what it [looks like.]'], L8: ['It is what|it is [made of.]'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L, li) => {
+  const gs = GROUPS[L.id], tot = gs.reduce((a, s) => a + plain(s).length, 0), next = timing.lines[li + 1];
+  let acc = 0;
+  gs.forEach((s, gi) => {
+    const a = gi === 0 ? L.start - 0.1 : L.start + L.duration * (acc / tot) - 0.06;
+    acc += plain(s).length;
+    CAPS.push({ id: `${L.id}.${gi}`, text: s, a });
+  });
+});
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; const L = timing.lines.find((x) => c.id.startsWith(x.id + '.')); c.b = n ? (n.id.split('.')[0] === c.id.split('.')[0] ? n.a : Math.min(n.a - 0.08, L.end + 1.0)) : T.capOff; });
+function caption(c, step) {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.font = '800 56px "Baloo 2"';
+  const lines = c.text.split('|'), lh = 60;
+  const ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 410 - inkH / 2; // centred on y=410 -> stays within 350-470
+  const base0 = top + asc, wMax = Math.max(...ms.map((m) => m.width));
+  piece('cap' + c.id, step, W / 2, top + inkH / 2, -0.005, () => { poly(torn('strip' + c.id, wMax + 64, inkH + 34, 6)); g.fillStyle = C.cream; g.fill(); }, { amp: 0.5, brot: 0.001 });
+  lines.forEach((l, i) => {
+    const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = base0 + i * lh;
+    g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.orangeInk : C.ink; g.fillText(s, x, y); x += g.measureText(s).width; }
+  });
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+// ---------- props ----------
+function drawCup(step, torn2) {
+  piece('cup', step, CUP.x, CUP.base - CUP.h / 2, 0, () => {
+    const h = CUP.h, tw = CUP.top / 2, bw = CUP.bot / 2;
+    g.beginPath(); g.moveTo(-tw, -h / 2); g.lineTo(tw, -h / 2); g.lineTo(bw, h / 2); g.lineTo(-bw, h / 2); g.closePath(); g.fillStyle = C.paper; g.fill();
+    g.shadowColor = 'transparent';
+    g.fillStyle = C.orange; g.beginPath(); g.moveTo(-tw * 0.97, -h / 2 + 46); g.lineTo(tw * 0.97, -h / 2 + 46); g.lineTo(tw * 0.95, -h / 2 + 62); g.lineTo(-tw * 0.95, -h / 2 + 62); g.fill();
+    g.fillStyle = C.green; g.fillRect(-tw * 0.94, -h / 2 + 68, tw * 1.88, 5);
+    g.beginPath(); g.ellipse(0, -h / 2, tw, 16, 0, 0, 7); g.fillStyle = '#fbf3e4'; g.fill(); g.strokeStyle = '#e2d0b0'; g.lineWidth = 3; g.stroke();
+    g.beginPath(); g.ellipse(0, -h / 2 + 2, tw - 12, 10, 0, 0, 7); g.fillStyle = '#5a3a24'; g.fill();
+    if (torn2) { // torn cutaway: paper edge, a separate thin plastic lining band, then the dark inside
+      const cx = TEAR[0] - CUP.x, cy = TEAR[1] - (CUP.base - CUP.h / 2), ww = 132, hh = 176;
+      poly(torn('tear-out', ww + 18, hh + 18, 12).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = '#efe0c4'; g.fill();
+      poly(torn('tear-film', ww + 2, hh + 2, 8).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = 'rgba(178,222,238,0.98)'; g.fill();
+      g.strokeStyle = 'rgba(255,255,255,0.95)'; g.lineWidth = 4; g.stroke();
+      poly(torn('tear-in', ww - 30, hh - 30, 8).map(([x, y]) => [x + cx, y + cy])); g.fillStyle = '#3a2416'; g.fill();
+    }
+  });
+}
+function drawLayer(kind, x, y, rot, step, lifted) {
+  const film = kind === 'film';
+  piece('layer-' + kind, step, x, y, rot, () => {
+    poly(torn('lay' + kind, 118, 168, film ? 5 : 9)); g.fillStyle = film ? 'rgba(223,241,246,0.9)' : C.paper; g.fill(); g.shadowColor = 'transparent';
+    if (film) { g.strokeStyle = 'rgba(255,255,255,0.95)'; g.lineWidth = 3; g.stroke(); g.fillStyle = 'rgba(255,255,255,0.7)'; g.fillRect(-40, -70, 12, 130); g.fillRect(-18, -60, 5, 110); }
+    else { g.fillStyle = C.orange; g.fillRect(-59, -60, 118, 14); g.fillStyle = C.green; g.fillRect(-59, -42, 118, 4); }
+  }, { lift: lifted ? 1.8 : 1 });
+}
+function wire(id, x0, y0, x1, y1, k, sag = 60) {
+  if (k <= 0) return; g.save(); g.strokeStyle = C.copper; g.lineWidth = 5; g.lineCap = 'round'; g.shadowColor = 'rgba(0,0,0,0.35)'; g.shadowOffsetX = 3; g.shadowOffsetY = 5; g.shadowBlur = 3;
+  g.beginPath(); const N = 24; for (let i = 0; i <= N * Math.min(1, k); i++) { const u = i / N; const x = x0 + (x1 - x0) * u, y = y0 + (y1 - y0) * u + Math.sin(u * Math.PI) * sag; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); g.restore();
+}
+function swatch(kind, step, t) {
+  const [x, y] = SW[kind];
+  piece('sw-' + kind, step, x, y, kind === 'bare' ? -0.04 : 0.03, () => {
+    poly(torn('sw' + kind, 176, 104, 5)); g.fillStyle = C.paper; g.fill(); g.shadowColor = 'transparent';
+    if (kind === 'lined') { poly(torn('swf', 150, 70, 4)); g.fillStyle = 'rgba(178,222,238,0.75)'; g.fill(); g.strokeStyle = 'rgba(255,255,255,0.9)'; g.lineWidth = 2; g.stroke(); }
+    g.fillStyle = C.ink; g.font = '800 21px "Baloo 2"'; g.textAlign = 'center'; g.fillText(kind === 'bare' ? 'BARE PAPER' : 'PAPER + LINING', 0, 42);
+    if (kind === 'bare' && t >= T.dropA[1]) { // soaked stain spreads in steps
+      const k = Math.min(1, Math.floor((t - T.dropA[1]) * STEP) / 8), r = rng(5);
+      for (let i = 0; i < 14; i++) { const a = r() * 6.28, d = r() * 18 * k; g.beginPath(); g.arc(Math.cos(a) * d, -8 + Math.sin(a) * d * 0.7, 10 + 24 * k * (0.6 + r() * 0.4), 0, 7); g.fillStyle = 'rgba(96,58,32,0.16)'; g.fill(); }
+    }
+    if (kind === 'lined' && t >= T.dropB[1]) { // bead sits on the film
+      g.beginPath(); g.ellipse(0, -8, 15, 12, 0, 0, 7); g.fillStyle = C.coffee; g.fill(); g.beginPath(); g.arc(-5, -12, 4, 0, 7); g.fillStyle = 'rgba(255,255,255,0.75)'; g.fill();
+    }
+    pinHead(0, -44, kind === 'bare' ? C.orange : C.green);
+  }, { amp: 0.6 });
+}
+function pipette(x, y) { g.save(); g.translate(x, y + 18); g.shadowColor = SH.col; g.shadowOffsetX = 5; g.shadowOffsetY = 7; g.shadowBlur = 5;
+  g.fillStyle = 'rgba(223,241,246,0.9)'; g.fillRect(-8, 0, 16, 74); g.beginPath(); g.moveTo(-8, 74); g.lineTo(0, 96); g.lineTo(8, 74); g.fill();
+  g.shadowColor = 'transparent'; g.fillStyle = C.coffee; g.fillRect(-6, 40, 12, 34); g.beginPath(); g.ellipse(0, -10, 15, 20, 0, 0, 7); g.fillStyle = C.orange; g.fill(); g.restore(); }
+function facilityCard(id, step, x, y, rot, text) {
+  piece(id, step, x, y, rot, () => {
+    poly(torn(id, 236, 178, 5)); g.fillStyle = '#e9dcc4'; g.fill(); g.shadowColor = 'transparent';
+    g.fillStyle = C.cardDark; g.beginPath(); // factory cut-out pictogram
+    g.moveTo(-80, 20); g.lineTo(-80, -20); g.lineTo(-50, -40); g.lineTo(-50, -20); g.lineTo(-20, -40); g.lineTo(-20, -20); g.lineTo(10, -40); g.lineTo(10, -60); g.lineTo(26, -60); g.lineTo(26, 20); g.closePath(); g.fill();
+    g.fillStyle = C.ink; g.font = '800 26px "Baloo 2"'; g.textAlign = 'center'; g.fillText(text, 0, 58);
+    g.font = '700 16px "Baloo 2"'; g.fillStyle = 'rgba(42,26,16,0.7)'; g.fillText('ILLUSTRATIVE', 52, -62);
+    tape(-78, -88, -0.2, 60); tape(78, -88, 0.25, 60);
+  });
+}
+function hangTag(id, step, lines, bg, fg, size) { // tag hung from the cup rim on a string
+  const ax = CUP.x - 100, ay = CUP.base - CUP.h + 8, tx = 768, ty = 1340; // left of the cup, clear of the right-side UI column
+  g.save(); g.strokeStyle = 'rgba(240,226,200,0.9)'; g.lineWidth = 2.5; g.beginPath(); g.moveTo(ax, ay); g.quadraticCurveTo(tx - 40, (ay + ty) / 2, tx, ty - 34); g.stroke(); g.restore();
+  return label(id, step, tx, ty, 0.05, lines, bg, fg, size, { pin: C.orange });
+}
+
+window.renderAt = (tRaw) => {
+  const step = Math.floor(tRaw * STEP + 1e-6), t = step / STEP;
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; g.globalCompositeOperation = 'source-over';
+  const [z, fx0, fy0] = camAt(t);
+  g.setTransform(z, 0, 0, z, fx0 - fx0 * z, fy0 - fy0 * z);
+  g.drawImage(wallTex, -100, -100);
+  piece('kraft', 0, W / 2, 1040, 0.01, () => { poly(torn('kraft', 1010, 780, 14)); g.fillStyle = C.kraft; g.fill(); }, { still: true });
+  // right wall: material labels, later covered by facility cards
+  if (t < T.cardA) label('tag-tin', step, 880, 650, -0.06, ['TIN'], '#e9e2d4', C.ink, 26, { pin: C.green });
+  if (t < T.cardA) label('tag-card', step, 985, 712, 0.06, ['CARD'], '#e9d3ad', C.ink, 26, { pin: C.orange });
+  
+  // sorting board
+  piece('board', step, BOARD.x, BOARD.y, BOARD.rot, () => {
+    poly(torn('board', BOARD.w + 26, BOARD.h + 26, 6)); g.fillStyle = C.cardDark; g.fill(); g.shadowColor = 'transparent';
+    poly(torn('cork', BOARD.w, BOARD.h, 4)); g.fillStyle = C.cork; g.fill();
+    const r = rng(9); g.fillStyle = 'rgba(90,55,25,0.35)'; for (let i = 0; i < 260; i++) g.fillRect((r() - 0.5) * BOARD.w, (r() - 0.5) * BOARD.h, 3, 3);
+  }, { amp: 0.4, brot: 0.001 });
+  if (t >= T.tagPaper) label('tag-paper', step, COL.paper[0], 660, -0.04, ['PAPER'], C.cream, C.ink, 32, { pin: C.orange });
+  if (t >= T.tagFilm) label('tag-film', step, COL.film[0], 666, 0.035, ['PLASTIC LINING'], C.film, C.filmInk, 30, { pin: C.green });
+  if (t >= T.note && t < T.cardB) label('note', step, 905, 850, 0.03, ['Many cups, not all.', 'Some use other', 'barrier coatings.'], '#efe4cf', C.ink, 23, { tape: true });
+  if (t >= T.swatch[0] && t < T.rules) swatch('bare', step, t);
+  if (t >= T.swatch[1] && t < T.rules) swatch('lined', step, t);
+  if (t >= T.rules) { // local rules sheet covers the swatches
+    label('rules', step, 642, 992, -0.02, ['YOUR LOCAL', 'RECYCLER:', 'CUPS?  ____'], '#fbf4e6', C.ink, 28, { pin: C.orange });
+    if (t >= T.check) stamp('check', 590, 1074, 0.05, 'CHECK LOCALLY', C.orangeInk, 30);
+  }
+  // facility cards (some can process certain cups; others cannot)
+  if (t >= T.cardA) { facilityCard('cardA', step, 905, 700, -0.03, 'SOME CAN'); if (t >= T.okA) stamp('okA', 960, 690, 0.08, '✓', C.greenInk, 44); }
+  if (t >= T.cardB) { facilityCard('cardB', step, 912, 900, 0.035, "OTHERS CAN'T"); if (t >= T.noB) stamp('noB', 966, 892, -0.05, '✗', C.orangeInk, 44); }
+  // counter, crate (with subtle app signature), coil
+  piece('counter', 0, W / 2, COUNTER_Y + 260, 0, () => {
+    g.fillStyle = C.cardDark; g.fillRect(-W / 2 - 120, -250, W + 240, 640); g.shadowColor = 'transparent';
+    poly(torn('counter-top', W + 200, 44, 6).map(([x, y]) => [x, y - 250])); g.fillStyle = C.card; g.fill();
+    g.fillStyle = 'rgba(0,0,0,0.16)'; for (let i = 0; i < 9; i++) g.fillRect(-W / 2 - 100, -170 + i * 64, W + 200, 3);
+  }, { still: true });
+  piece('crate', step, CRATE.x + CRATE.w / 2, CRATE.y + CRATE.h / 2, 0, () => {
+    poly(torn('crate', CRATE.w, CRATE.h, 5)); g.fillStyle = C.card; g.fill(); g.shadowColor = 'transparent';
+    g.strokeStyle = C.cardDark; g.lineWidth = 4; g.strokeRect(-CRATE.w / 2 + 14, -CRATE.h / 2 + 14, CRATE.w - 28, CRATE.h - 28);
+    g.globalAlpha = 0.85; g.drawImage(icon, -96, -17, 34, 34); g.globalAlpha = 1; g.fillStyle = C.cardDark; g.font = '700 26px "Baloo 2"'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('WastePaisa', -54, 2);
+  }, { amp: 0.5 });
+  piece('coil', step, 60, COUNTER_Y + 30, 0.1, () => { g.strokeStyle = C.copper; g.lineWidth = 5; for (let i = 0; i < 4; i++) { g.beginPath(); g.ellipse(i * 9, 0, 34, 13, 0, 0, 7); g.stroke(); } });
+  // cup + torn flap
+  const torn2 = t >= T.tear;
+  drawCup(step, torn2);
+  if (t >= T.tear && t < T.tear + 0.09) piece('flap', step, TEAR[0] - 20, TEAR[1] + 40, 0.5, () => { poly(torn('flap', 120, 150, 10)); g.fillStyle = C.paper; g.fill(); }, { lift: 1.8 });
+  if (t >= T.tear + 0.09) piece('flap', step, 588, COUNTER_Y - 6, 1.35, () => { poly(torn('flap', 120, 150, 10)); g.fillStyle = C.paper; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = C.orange; g.fillRect(-60, -70, 120, 12); }, { amp: 0.5 });
+  // hanging tags on the cup: replaced by covering (skill rule)
+  if (t >= T.tag1 && t < T.looks) { hangTag('tag1', step, ['PAPER CUP?'], C.cream, C.ink, 28); if (t >= T.mixed) stamp('mixed', 768, 1344, -0.04, 'MIXED', C.orangeInk, 30); }
+  if (t >= T.looks && t < T.madeOf) hangTag('tag2', step, ['LOOKS LIKE:', 'PAPER'], C.cream, C.ink, 28);
+  if (t >= T.madeOf) { hangTag('tag3', step, ['MADE OF:', 'PAPER +', 'PLASTIC LINING'], '#fbf4e6', C.ink, 27); }
+  // connectors (copper wire): board tags -> torn edge; cup -> facility cards
+  wire('w1', COL.paper[0] + 30, 690, TEAR[0] - 62, TEAR[1] - 40, Math.floor((t - T.tagPaper) * STEP) / 4, 70);
+  wire('w2', COL.film[0] + 30, 696, TEAR[0] - 50, TEAR[1] + 10, Math.floor((t - T.tagFilm) * STEP) / 4, 50);
+  wire('w3', CUP.x + 40, CUP.base - CUP.h + 20, 820, 760, Math.floor((t - T.cardA) * STEP) / 4, -30);
+  wire('w4', CUP.x + 60, CUP.base - CUP.h + 24, 830, 960, Math.floor((t - T.cardB) * STEP) / 4, -20);
+  // separated layers: held, then pinned under their labels
+  const [, pose, fx, fy] = tinkuAt(t); const m = meta[pose];
+  const hand = (h) => [fx + (m[h][0] - m.feet[0]), fy + (m[h][1] - m.feet[1])];
+  const pinnedPaper = t >= T.pinPaper, pinnedFilm = t >= T.pinFilm;
+  let paperPos = null, filmPos = null;
+  if (t >= 10.5 && !pinnedPaper) {
+    const hl = hand('handL'), hr = hand('handR');
+    if (pose === 'pull') { const sep = Math.min(1, Math.floor((t - 10.92) * STEP) / 7); filmPos = [hl[0] - 10, hl[1] + 70]; paperPos = sep <= 0 ? [hl[0] + 6, hl[1] + 76] : [hl[0] + (hr[0] - hl[0]) * sep + 10, hl[1] + (hr[1] - hl[1]) * sep + 76]; }
+    else { paperPos = [hl[0], hl[1] + 70]; filmPos = [Math.max(hr[0], 78), hr[1] + 60]; }
+  }
+  if (pinnedPaper && !pinnedFilm && pose === 'pin') filmPos = [hand('handL')[0], hand('handL')[1] + 70];
+  if (pinnedPaper) { drawLayer('paper', COL.paper[0], COL.paper[1], -0.06, step, false); pinHead(COL.paper[0], COL.paper[1] - 72, C.orange); }
+  if (pinnedFilm) { drawLayer('film', COL.film[0], COL.film[1], 0.05, step, false); pinHead(COL.film[0], COL.film[1] - 74, C.green); }
+  // drops from the pipette (stepped fall)
+  const dropDraw = (a, b, sw) => { if (t >= a && t < b) { const hl = hand('handL'); const k = (t - a) / (b - a); const x = hl[0], y = hl[1] + 120 + (SW[sw][1] - 8 - hl[1] - 120) * k; g.beginPath(); g.ellipse(x, y, 8, 11, 0, 0, 7); g.fillStyle = C.coffee; g.fill(); } };
+  dropDraw(T.dropA[0], T.dropA[1], 'bare'); dropDraw(T.dropB[0], T.dropB[1], 'lined');
+  // Tinku (paper-cut sprite, white edge, lifted shadow); squash on landing steps
+  const landing = [7.33, 8.92, 10.5, 11.92, 12.75, 19.5, 23.17].some((x) => t >= x && t < x + 0.09);
+  const [bx, by] = boil('tinku', step, 1.2);
+  g.save(); g.shadowColor = SH.col; g.shadowOffsetX = SH.x * 1.6; g.shadowOffsetY = SH.y * 1.6; g.shadowBlur = SH.blur * 1.6;
+  g.translate(fx + bx, fy + by); g.scale(landing ? 1.04 : 1, landing ? 0.95 : 1); g.drawImage(sprites[pose], -m.feet[0], -m.feet[1]); g.restore();
+  if (t >= 7.33 && t < 10.42) pipette(...hand('handL'));
+  if (paperPos) drawLayer('paper', paperPos[0], paperPos[1], -0.18, step, true);
+  if (filmPos) drawLayer('film', filmPos[0], filmPos[1], 0.14, step, true);
+  // overlay (not affected by camera): grain + caption
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  g.globalAlpha = 0.5; g.drawImage(grain, 0, 0, W, H); g.globalAlpha = 1;
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, step);
+  return { cap, zoom: +z.toFixed(3) };
+};
+window.CAPS = CAPS;
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,114 @@
+[
+ {
+  "id": "L1",
+  "script": "This looks like a paper cup.",
+  "asr": "this looks like a paper cup",
+  "word_accuracy": 1.0,
+  "planned": [
+   0.4,
+   1.758
+  ],
+  "asr_speech": [
+   0.43,
+   1.75
+  ]
+ },
+ {
+  "id": "L2",
+  "script": "But look inside.",
+  "asr": "but look inside and",
+  "word_accuracy": 0.75,
+  "planned": [
+   3.1,
+   4.046
+  ],
+  "asr_speech": [
+   3.07,
+   4.21
+  ]
+ },
+ {
+  "id": "L3",
+  "script": "Many disposable cups have a thin plastic lining that helps stop liquid soaking through the paper.",
+  "asr": "many disposable cups have a thin plastic lining that help stop liquid soaking through the paper",
+  "word_accuracy": 0.938,
+  "planned": [
+   4.4,
+   10.272
+  ],
+  "asr_speech": [
+   4.37,
+   10.25
+  ]
+ },
+ {
+  "id": "L4",
+  "script": "That mixed construction can make recycling more complicated.",
+  "asr": "that mixed construction can make recycling more complicated",
+  "word_accuracy": 1.0,
+  "planned": [
+   10.9,
+   14.288
+  ],
+  "asr_speech": [
+   10.9,
+   14.29
+  ]
+ },
+ {
+  "id": "L5",
+  "script": "Some facilities can process certain cups; others cannot.",
+  "asr": "some facilities can process certain cups others cannot",
+  "word_accuracy": 1.0,
+  "planned": [
+   14.9,
+   18.157
+  ],
+  "asr_speech": [
+   14.9,
+   18.17
+  ]
+ },
+ {
+  "id": "L6",
+  "script": "Before adding one to your recycling, check your local recycler's rules.",
+  "asr": "before adding one to your recycling check your local recyclers rules and",
+  "word_accuracy": 0.833,
+  "planned": [
+   18.75,
+   22.777
+  ],
+  "asr_speech": [
+   18.75,
+   22.95
+  ]
+ },
+ {
+  "id": "L7",
+  "script": "The useful question is not only what it looks like.",
+  "asr": "the useful question is not only what it looks like i i",
+  "word_accuracy": 0.833,
+  "planned": [
+   23.4,
+   26.269
+  ],
+  "asr_speech": [
+   23.37,
+   26.43
+  ]
+ },
+ {
+  "id": "L8",
+  "script": "It is what it is made of.",
+  "asr": "it is what it is made of",
+  "word_accuracy": 1.0,
+  "planned": [
+   26.65,
+   27.938
+  ],
+  "asr_speech": [
+   26.65,
+   27.91
+  ]
+ }
+]

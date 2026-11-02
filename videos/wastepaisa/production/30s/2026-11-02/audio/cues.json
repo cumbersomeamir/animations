@@ -1,0 +1,165 @@
+{
+ "sfx_cues": [
+  [
+   0.42,
+   "pin tag on cup"
+  ],
+  [
+   1.0,
+   "tap cup"
+  ],
+  [
+   1.25,
+   "tap cup"
+  ],
+  [
+   3.25,
+   "paper tear"
+  ],
+  [
+   3.27,
+   "flutter"
+  ],
+  [
+   3.33,
+   "flap lands"
+  ],
+  [
+   5.0,
+   "pin PAPER tag"
+  ],
+  [
+   5.05,
+   "wire"
+  ],
+  [
+   6.08,
+   "pin LINING tag"
+  ],
+  [
+   6.12,
+   "wire"
+  ],
+  [
+   6.58,
+   "tape note"
+  ],
+  [
+   7.33,
+   "land on crate"
+  ],
+  [
+   7.5,
+   "pin swatch"
+  ],
+  [
+   7.67,
+   "pin swatch"
+  ],
+  [
+   8.17,
+   "drop beads on lined swatch"
+  ],
+  [
+   8.92,
+   "step"
+  ],
+  [
+   9.33,
+   "drop hits bare paper"
+  ],
+  [
+   9.36,
+   "soaks in"
+  ],
+  [
+   10.5,
+   "land on counter"
+  ],
+  [
+   10.92,
+   "layers peel apart"
+  ],
+  [
+   11.92,
+   "land on crate"
+  ],
+  [
+   12.42,
+   "pin paper layer"
+  ],
+  [
+   12.75,
+   "step"
+  ],
+  [
+   13.08,
+   "pin lining layer"
+  ],
+  [
+   13.83,
+   "stamp MIXED"
+  ],
+  [
+   15.17,
+   "facility card drops"
+  ],
+  [
+   15.2,
+   "wire"
+  ],
+  [
+   16.42,
+   "stamp \u2713"
+  ],
+  [
+   17.0,
+   "facility card drops"
+  ],
+  [
+   17.05,
+   "wire"
+  ],
+  [
+   17.58,
+   "stamp \u2717"
+  ],
+  [
+   19.5,
+   "land on counter"
+  ],
+  [
+   19.55,
+   "pin rules sheet"
+  ],
+  [
+   21.58,
+   "stamp CHECK LOCALLY"
+  ],
+  [
+   23.17,
+   "land on counter"
+  ],
+  [
+   25.58,
+   "tag replaced (looks like)"
+  ],
+  [
+   27.42,
+   "tag replaced (made of)"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.58",
+  "input_tp": "-3.06",
+  "input_lra": "7.40",
+  "input_thresh": "-29.08",
+  "output_i": "-15.68",
+  "output_tp": "-1.50",
+  "output_lra": "5.10",
+  "output_thresh": "-26.93",
+  "normalization_type": "dynamic",
+  "target_offset": "0.68"
+ }
+}
