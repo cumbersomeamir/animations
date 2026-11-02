@@ -1,0 +1,50 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "After a flood, not every family needs the same things.",
+   "dur": 3.172,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "One may need medicine; another, transport or temporary rent.",
+   "dur": 3.766,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "When local shops are working and essentials are available, well-run cash assistance lets people choose what they need.",
+   "dur": 6.777,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "If markets are disrupted, supplies may be more useful.",
+   "dur": 3.154,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Before giving, check what a trusted local organisation requests.",
+   "dur": 3.953,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Effective help starts with actual needs, not with what is easiest for us to donate.",
+   "dur": 4.8,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  }
+ ]
+}

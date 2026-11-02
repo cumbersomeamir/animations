@@ -1,0 +1,14 @@
+{
+  "fps": 30, "frames": 900, "duration": 30.0,
+  "voiceStarts": [0.30, 3.80, 8.00, 15.25, 18.95, 23.40],
+  "beats": { "hook": [0, 3.0], "setup": [3.0, 8.0], "mechanism": [8.0, 23.0], "takeaway": [23.0, 29.0], "end": [29.0, 30.0] },
+  "cues": {
+    "flood": 0.0, "recede": 1.4, "giverIn": 0.5, "house1": 1.2, "house2": 1.6, "house3": 2.0, "sameBoxes": 2.3,
+    "need1": 4.15, "need2": 5.55, "need3": 6.6,
+    "marketOpen": 8.2, "goods": 8.7, "boxOpen": 10.6, "tokens": 11.0, "tokensLand": 11.7,
+    "toMarket": 12.4, "atMarket": 13.2, "back": 13.5, "home": 14.3, "tick1": 14.35, "tick2": 14.5, "tick3": 14.65,
+    "shutter": 15.45, "shutLock": 15.9, "lampDim": 15.6, "supplies": 16.9, "suppliesLand": 17.8,
+    "board": 19.4, "read": 19.9, "req1": 21.1, "req2": 21.6, "req3": 22.1,
+    "glow": 24.6, "pileAside": 26.2, "push": 23.3, "nod": 27.6, "signature": 28.4, "dimEnd": 28.9
+  }
+}

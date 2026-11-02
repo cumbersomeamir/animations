@@ -1,0 +1,164 @@
+{
+ "cards": [
+  {
+   "a": 0.18,
+   "lines": [
+    "After a flood,"
+   ],
+   "timing": "asr",
+   "b": 1.1
+  },
+  {
+   "a": 1.17,
+   "lines": [
+    "not every family needs"
+   ],
+   "timing": "asr",
+   "b": 2.36
+  },
+  {
+   "a": 2.43,
+   "lines": [
+    "the same things."
+   ],
+   "timing": "asr",
+   "b": 3.59
+  },
+  {
+   "a": 3.66,
+   "lines": [
+    "One may need medicine;"
+   ],
+   "timing": "asr",
+   "b": 5.12
+  },
+  {
+   "a": 5.19,
+   "lines": [
+    "another, transport"
+   ],
+   "timing": "asr",
+   "b": 6.35
+  },
+  {
+   "a": 6.42,
+   "lines": [
+    "or temporary rent."
+   ],
+   "timing": "asr",
+   "b": 7.86
+  },
+  {
+   "a": 7.93,
+   "lines": [
+    "When local shops are working"
+   ],
+   "timing": "proportional (asr 19 vs 18 words)",
+   "b": 9.487
+  },
+  {
+   "a": 9.557,
+   "lines": [
+    "and essentials are available,"
+   ],
+   "timing": "proportional (asr 19 vs 18 words)",
+   "b": 11.17
+  },
+  {
+   "a": 11.24,
+   "lines": [
+    "well-run cash assistance"
+   ],
+   "timing": "proportional (asr 19 vs 18 words)",
+   "b": 12.573
+  },
+  {
+   "a": 12.643,
+   "lines": [
+    "lets people choose"
+   ],
+   "timing": "proportional (asr 19 vs 18 words)",
+   "b": 13.639
+  },
+  {
+   "a": 13.709,
+   "lines": [
+    "what they need."
+   ],
+   "timing": "proportional (asr 19 vs 18 words)",
+   "b": 15.05
+  },
+  {
+   "a": 15.12,
+   "lines": [
+    "If markets are disrupted,"
+   ],
+   "timing": "asr",
+   "b": 16.67
+  },
+  {
+   "a": 16.74,
+   "lines": [
+    "supplies may be more useful."
+   ],
+   "timing": "asr",
+   "b": 18.754
+  },
+  {
+   "a": 18.84,
+   "lines": [
+    "Before giving, check what"
+   ],
+   "timing": "asr",
+   "b": 20.27
+  },
+  {
+   "a": 20.34,
+   "lines": [
+    "a trusted local"
+   ],
+   "timing": "asr",
+   "b": 21.23
+  },
+  {
+   "a": 21.3,
+   "lines": [
+    "organisation requests."
+   ],
+   "timing": "asr",
+   "b": 23.21
+  },
+  {
+   "a": 23.28,
+   "lines": [
+    "Effective help starts"
+   ],
+   "timing": "asr",
+   "b": 24.35
+  },
+  {
+   "a": 24.42,
+   "lines": [
+    "with actual needs,"
+   ],
+   "timing": "asr",
+   "b": 25.7
+  },
+  {
+   "a": 25.77,
+   "lines": [
+    "not with what is easiest"
+   ],
+   "timing": "asr",
+   "b": 27.02
+  },
+  {
+   "a": 27.09,
+   "lines": [
+    "for us to donate."
+   ],
+   "timing": "asr",
+   "b": 28.55
+  }
+ ]
+}

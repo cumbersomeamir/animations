@@ -1,0 +1,304 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Help — Why a flood survivor may need cash rather than another box</title>
+<style>
+@font-face { font-family: 'Inter'; font-weight: 800; src: url('/education/pilot-01/fonts/Inter-ExtraBold.otf'); }
+@font-face { font-family: 'Inter'; font-weight: 600; src: url('/education/pilot-01/fonts/Inter-SemiBold.otf'); }
+html,body{margin:0;background:#0B0D12}
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// Help production 30s-02 (batch-02) — original Canvas2D shadow-puppet theatre (art direction: lemo-opuscar styles/shadow-puppet/STYLE.md,
+// read-only). Deterministic: window.__draw(frame) -> PNG. Puppets step at 15 fps, snow/effects at 12 fps, delivery 30 fps.
+const W = 1080, H = 1920;
+const P = { cream: '#F7F5EF', ink: '#0B0D12', green: '#2DB37D', greenDk: '#1F8A5E', yellow: '#F2C230', yellowDk: '#C99A12', glow: '#FFE7A8' };
+const CUE = await (await fetch('./cues.json')).json(); const C = CUE.cues;
+const CAP = await (await fetch('./captions.json')).json();
+await document.fonts.load('800 60px Inter'); await document.fonts.load('600 30px Inter');
+const icon_img = new Image(); icon_img.src = '/assets/icon.png'; await icon_img.decode();
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const SCR = { x: 64, y: 560, w: 952, h: 1080 }, GROUND = 1500, CX = 540, CY = 1100;
+
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const io = (u) => u < .5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+const ob = (u) => { const k = 1.9; return 1 + (k + 1) * Math.pow(u - 1, 3) + k * Math.pow(u - 1, 2); };
+const lerp = (a, b, u) => a + (b - a) * u;
+const rnd = (i) => { const s = Math.sin(i * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); };
+const mk = (w, h, fn) => { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; };
+
+// ---------- cached textures (built once) ----------
+const weave = mk(SCR.w, SCR.h, (w, cw, ch) => { w.fillStyle = '#F4E8CF'; w.fillRect(0, 0, cw, ch);
+  for (let y = 0; y < ch; y += 3) { w.fillStyle = `rgba(150,110,60,${0.035 + 0.03 * rnd(y)})`; w.fillRect(0, y, cw, 1); }
+  for (let x = 0; x < cw; x += 3) { w.fillStyle = `rgba(150,110,60,${0.03 + 0.03 * rnd(x + 9)})`; w.fillRect(x, 0, 1, ch); }
+  for (let i = 0; i < 3000; i++) { w.fillStyle = `rgba(120,80,40,${0.05 * rnd(i)})`; w.fillRect(rnd(i * 3) * cw, rnd(i * 7) * ch, 2, 1); }
+  const e = w.createRadialGradient(cw / 2, ch / 2, ch * 0.3, cw / 2, ch / 2, ch * 0.75); e.addColorStop(0, 'rgba(90,50,20,0)'); e.addColorStop(1, 'rgba(90,50,20,0.28)'); w.fillStyle = e; w.fillRect(0, 0, cw, ch); });
+const hide = g.createPattern(mk(128, 128, (w) => { w.fillStyle = '#fff'; w.fillRect(0, 0, 128, 128);
+  for (let i = 0; i < 260; i++) { w.fillStyle = `rgba(110,70,30,${0.06 + 0.1 * rnd(i + 3)})`; w.beginPath(); w.ellipse(rnd(i) * 128, rnd(i + 50) * 128, 2 + 9 * rnd(i + 7), 1 + 4 * rnd(i + 9), rnd(i + 11) * 3, 0, 7); w.fill(); }
+  for (let i = 0; i < 60; i++) { w.strokeStyle = `rgba(90,55,20,${0.08 * rnd(i + 40)})`; w.beginPath(); const x = rnd(i + 70) * 128, y = rnd(i + 90) * 128; w.moveTo(x, y); w.lineTo(x + 20 * rnd(i + 2), y + 6 * rnd(i + 4)); w.stroke(); } }), 'repeat');
+const lattice = g.createPattern(mk(44, 44, (w) => { w.fillStyle = 'rgba(255,240,200,0.9)';
+  w.beginPath(); w.moveTo(22, 6); w.lineTo(34, 22); w.lineTo(22, 38); w.lineTo(10, 22); w.closePath(); w.fill();
+  w.beginPath(); w.arc(0, 0, 5, 0, 7); w.arc(44, 0, 5, 0, 7); w.arc(0, 44, 5, 0, 7); w.arc(44, 44, 5, 0, 7); w.fill();
+  w.fillStyle = 'rgba(40,25,10,1)'; w.fillRect(19, 19, 6, 6); }), 'repeat');
+const grains = [0, 1, 2].map((k) => mk(W, H, (w) => { for (let i = 0; i < 9000; i++) { w.fillStyle = rnd(i + k * 9999) > 0.5 ? 'rgba(255,240,210,0.05)' : 'rgba(40,20,0,0.05)'; w.fillRect(rnd(i * 1.3 + k) * W, rnd(i * 2.7 + k) * H, 2, 2); } }));
+
+// ---------- puppet primitives ----------
+function piece(path, fill, alpha = 0.84, outline = '#123F2C', carve = false, blur = 0) {
+  g.save(); if (blur) g.filter = `blur(${blur}px)`;
+  g.save(); g.globalAlpha = 0.16; g.translate(9, 11); g.filter = `blur(${6 + blur}px)`; g.fillStyle = '#3A2410'; g.fill(path); g.restore();
+  g.save(); g.globalCompositeOperation = 'multiply'; g.globalAlpha = alpha; g.fillStyle = fill; g.fill(path);
+  g.globalAlpha = 0.55; g.fillStyle = hide; g.fill(path); g.restore();
+  if (carve) { g.save(); g.clip(path); g.globalCompositeOperation = 'screen'; g.globalAlpha = 0.55; g.fillStyle = lattice; g.fillRect(carve[0], carve[1], carve[2], carve[3]); g.restore(); }
+  g.save(); g.lineWidth = 5; g.strokeStyle = outline; g.globalAlpha = 0.92; g.lineJoin = 'round'; g.stroke(path); g.restore();
+  g.restore();
+}
+function rivet(x, y) { g.fillStyle = P.yellowDk; g.beginPath(); g.arc(x, y, 7, 0, 7); g.fill(); g.fillStyle = '#FFE9A0'; g.beginPath(); g.arc(x - 2, y - 2, 2.5, 0, 7); g.fill(); }
+let ROD_END = SCR.y + SCR.h + 60;
+function rod(x, y) { g.save(); g.strokeStyle = 'rgba(70,60,50,0.36)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (x - W / 2) * 0.07, ROD_END); g.stroke(); g.restore(); }
+function ik(sx, sy, tx, ty, l1, l2, bend) { let dx = tx - sx, dy = ty - sy, d = Math.hypot(dx, dy); const m = (l1 + l2) * 0.999; if (d > m) { tx = sx + dx / d * m; ty = sy + dy / d * m; d = m; }
+  const a = Math.atan2(ty - sy, tx - sx), cA = clamp((l1 * l1 + d * d - l2 * l2) / (2 * l1 * d), -1, 1), ang = a + bend * Math.acos(cA); return [sx + Math.cos(ang) * l1, sy + Math.sin(ang) * l1, tx, ty]; }
+function limb(x0, y0, x1, y1, w0, w1) { const a = Math.atan2(y1 - y0, x1 - x0), nx = -Math.sin(a), ny = Math.cos(a), p = new Path2D();
+  p.moveTo(x0 + nx * w0, y0 + ny * w0); p.lineTo(x1 + nx * w1, y1 + ny * w1); p.arc(x1, y1, w1, a + Math.PI / 2, a - Math.PI / 2, true); p.lineTo(x0 - nx * w0, y0 - ny * w0); p.arc(x0, y0, w0, a - Math.PI / 2, a + Math.PI / 2, true); return p; }
+
+// profile head with open-cut face (sympathetic figures)
+function head(x, y, s, wear, wearFill, tilt) {
+  g.save(); g.translate(x, y + 50); g.rotate(tilt); g.translate(-x, -(y + 50));
+  const p = new Path2D(); p.ellipse(x, y, 70, 80, 0, 0, Math.PI * 2);
+  p.moveTo(x + 62 * s, y - 6); p.lineTo(x + 92 * s, y + 14); p.lineTo(x + 66 * s, y + 24);   // nose
+  piece(p, '#D9B98A', 0.5, '#5A3A1A');
+  g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = 'rgba(255,240,200,0.85)';
+  g.beginPath(); g.ellipse(x + 34 * s, y - 6, 15, 6, 0.15 * s, 0, 7); g.fill(); g.restore();          // almond eye cut
+  g.strokeStyle = 'rgba(90,58,26,0.9)'; g.lineWidth = 5; g.lineCap = 'round';
+  g.beginPath(); g.moveTo(x + 18 * s, y - 24); g.quadraticCurveTo(x + 36 * s, y - 32, x + 52 * s, y - 24); g.stroke();   // brow
+  g.beginPath(); g.moveTo(x + 46 * s, y + 42); g.quadraticCurveTo(x + 58 * s, y + 48, x + 66 * s, y + 40); g.stroke();   // calm mouth
+  piece(wear(x, y, s), wearFill, 0.88, '#5A3A10', [x - 120, y - 140, 240, 70]);
+  g.restore();
+}
+const hat = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 2 * s, y - 52, 76, 40, 0, Math.PI, 0); p.moveTo(x - 125, y - 50); p.quadraticCurveTo(x, y - 74, x + 125, y - 50); p.quadraticCurveTo(x, y - 34, x - 125, y - 50); return p; };
+const scarf = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 8 * s, y - 8, 84, 92, 0, Math.PI * 0.92, Math.PI * 0.08); p.lineTo(x - 30 * s, y + 70); p.lineTo(x - 95 * s, y + 55); p.closePath(); return p; };
+
+// figure in profile: { x, dir, tilt, head, hand, back, body, sleeve, wear, wearFill, tassel, blur }
+function figure(f, t) {
+  const s = f.dir, sh = { x: f.x + 10 * s, y: GROUND - 430 }, trem = Math.sin(t * 6.1 + f.x) * 1.8 + Math.sin(t * 2.3 + f.x) * 1.2;
+  g.save(); g.translate(f.x, GROUND); g.rotate(f.tilt || 0); g.translate(-f.x, -GROUND);
+  const robe = new Path2D(); robe.moveTo(f.x - 125, GROUND); robe.bezierCurveTo(f.x - 118, GROUND - 250, f.x - 82, GROUND - 420, f.x - 24, GROUND - 452);
+  robe.lineTo(f.x + 38, GROUND - 452); robe.bezierCurveTo(f.x + 88, GROUND - 420, f.x + 115, GROUND - 250, f.x + 125, GROUND); robe.closePath();
+  piece(robe, f.body, 0.84, '#123F2C', [f.x - 80, GROUND - 330, 160, 260], f.blur);
+  const hem = new Path2D(); hem.moveTo(f.x - 125, GROUND); hem.quadraticCurveTo(f.x, GROUND - 46, f.x + 125, GROUND); hem.lineTo(f.x + 122, GROUND - 22); hem.quadraticCurveTo(f.x, GROUND - 70, f.x - 122, GROUND - 22); hem.closePath();
+  piece(hem, P.greenDk, 0.8);
+  // back arm
+  const [bex, bey, bhx, bhy] = ik(sh.x - 12 * s, sh.y + 6, f.back[0], f.back[1] + trem, 118, 112, -s);
+  piece(limb(sh.x - 12 * s, sh.y + 6, bex, bey, 24, 20), f.sleeve, 0.72); piece(limb(bex, bey, bhx, bhy, 20, 16), f.sleeve, 0.72); rivet(bex, bey);
+  const hx = f.x + 18 * s, hy = GROUND - 548;
+  piece(limb(hx, hy + 60, f.x + 10 * s, GROUND - 440, 22, 28), f.body, 0.78);
+  const collar = new Path2D(); for (let i = 0; i < 5; i++) collar.arc(f.x - 40 + i * 20 + 6 * s, GROUND - 452, 14, Math.PI, 0); piece(collar, f.collar || P.yellow, 0.8, '#5A3A10');
+  head(hx, hy, s, f.wear, f.wearFill, f.head || 0);
+  if (f.tassel !== undefined) { const ax = hx - 60 * s, ay = hy + 40, tl = new Path2D(); const ex = ax + Math.sin(f.tassel) * 70, ey = ay + Math.cos(f.tassel) * 70;
+    tl.moveTo(ax, ay); tl.lineTo(ex - 10, ey); tl.lineTo(ex + 10, ey); tl.closePath(); piece(tl, f.wearFill, 0.85, '#5A3A10'); rivet(ax, ay); }
+  rivet(f.x + 10 * s, GROUND - 445);
+  const [ex, ey, hx2, hy2] = ik(sh.x, sh.y, f.hand[0], f.hand[1] + trem, 122, 116, s);
+  piece(limb(sh.x, sh.y, ex, ey, 26, 21), f.sleeve, 0.8); piece(limb(ex, ey, hx2, hy2, 21, 17), f.sleeve, 0.8);
+  const hand = new Path2D(); hand.ellipse(hx2 + 8 * s, hy2, 22, 17, 0, 0, Math.PI * 2); piece(hand, '#D9B98A', 0.6, '#5A3A1A');
+  rivet(sh.x, sh.y); rivet(ex, ey);
+  g.restore();
+  rod(hx2, hy2); rod(f.x + 10 * s, GROUND - 445);
+  return { hand: [hx2, hy2], back: [bhx, bhy] };
+}
+function coat(x, y, sc, crisp = true, blur = 0) {
+  const k = (v) => v * sc, p = new Path2D();
+  p.moveTo(x - k(40), y); p.lineTo(x + k(40), y); p.lineTo(x + k(95), y + k(35)); p.lineTo(x + k(150), y + k(210)); p.lineTo(x + k(110), y + k(228));
+  p.lineTo(x + k(78), y + k(130)); p.lineTo(x + k(88), y + k(380)); p.lineTo(x - k(88), y + k(380)); p.lineTo(x - k(78), y + k(130));
+  p.lineTo(x - k(110), y + k(228)); p.lineTo(x - k(150), y + k(210)); p.lineTo(x - k(95), y + k(35)); p.closePath();
+  piece(p, P.yellow, crisp ? 0.82 : 0.6, '#6B4A08', [x - k(70), y + k(150), k(140), k(200)], blur);
+  g.save(); g.strokeStyle = 'rgba(107,74,8,0.85)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y + k(20)); g.lineTo(x, y + k(375)); g.stroke(); g.restore();
+  for (const yy of [110, 190, 270]) rivet(x + k(12), y + k(yy));
+  rod(x + k(60), y + k(200));
+}
+function bag(x, y, dim, blur = 0) {
+  const p = new Path2D(); p.moveTo(x - 110, y); p.bezierCurveTo(x - 150, y - 120, x - 90, y - 230, x - 30, y - 220); p.lineTo(x + 40, y - 225);
+  p.bezierCurveTo(x + 100, y - 230, x + 150, y - 120, x + 110, y); p.closePath();
+  // odd leftovers poking out: a lone sock, a tiny sweater sleeve, a sandal
+  const sock = new Path2D(); sock.moveTo(x - 60, y - 210); sock.lineTo(x - 70, y - 300); sock.lineTo(x - 40, y - 300); sock.lineTo(x - 30, y - 250); sock.lineTo(x - 5, y - 245); sock.lineTo(x - 10, y - 215); sock.closePath();
+  const slv = limb(x + 20, y - 215, x + 70, y - 300, 16, 12);
+  const sandal = new Path2D(); sandal.ellipse(x + 95, y - 230, 40, 14, -0.6, 0, 7);
+  g.save(); g.globalAlpha = 1 - 0.45 * dim;
+  piece(sock, '#B9A27E', 0.7, '#4A3A20', false, blur); piece(slv, '#8FB7A3', 0.7, '#2E4A3A', false, blur); piece(sandal, '#A0805A', 0.7, '#4A3A20', false, blur);
+  piece(p, '#9A8F7A', 0.85, '#3A3020', false, blur);
+  g.restore(); rod(x, y - 100);
+}
+function plaque(x, y, w, h, label, sc, flip = 1, num = '') {
+  if (sc <= 0.01) return;
+  g.save(); g.translate(x, y); g.scale(sc * flip, sc);
+  const p = new Path2D(); p.roundRect(-w / 2, -h / 2, w, h, 20); piece(p, '#2A1A10', 0.9, '#000');
+  g.fillStyle = P.glow; g.textAlign = 'center'; g.textBaseline = 'middle';
+  if (label) { g.font = `800 ${Math.round(h * 0.36)}px Inter`; g.fillText(label, 0, 4); }
+  else { g.font = `800 ${Math.round(h * 0.55)}px Inter`; g.fillText(num, 0, 6); }
+  g.restore(); rod(x, y + h / 2 * sc);
+}
+function tickBadge(x, y, sc) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.arc(0, 0, 34, 0, 7); piece(p, P.green, 0.92, '#0E4D33');
+  g.strokeStyle = P.yellow; g.lineWidth = 10; g.lineCap = 'round'; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-15, 1); g.lineTo(-4, 13); g.lineTo(16, -12); g.stroke(); g.restore(); }
+function ruler(x, top, sc) { if (sc <= 0.01) return; const h = (GROUND - top) * sc, y0 = GROUND - h, p = new Path2D(); p.rect(x - 18, y0, 36, h);
+  piece(p, P.yellow, 0.75, '#6B4A08'); g.save(); g.strokeStyle = 'rgba(80,50,10,0.9)'; g.lineWidth = 3;
+  for (let yy = GROUND - 40; yy > y0 + 10; yy -= 40) { g.beginPath(); g.moveTo(x - 18, yy); g.lineTo(x + (yy % 80 === 0 ? 4 : -6), yy); g.stroke(); } g.restore(); rod(x, GROUND - 200); }
+function flake(x, y, r, rot) { const p = new Path2D(); for (let i = 0; i < 6; i++) { const a = rot + i * Math.PI / 3; p.moveTo(x, y); p.lineTo(x + Math.cos(a) * r, y + Math.sin(a) * r); }
+  g.save(); g.strokeStyle = 'rgba(40,60,70,0.55)'; g.lineWidth = 5; g.lineCap = 'round'; g.stroke(p); g.strokeStyle = 'rgba(255,248,230,0.9)'; g.lineWidth = 2; g.stroke(p); g.restore(); }
+
+// ---------- scene (batch-02: flood, three households, market open/closed, box -> choices) ----------
+const cap = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 4 * s, y - 40, 80, 50, 0, Math.PI, 0); p.moveTo(x + 10 * s, y - 44); p.lineTo(x + 110 * s, y - 40); p.lineTo(x + 70 * s, y - 28); p.lineTo(x, y - 30); p.closePath(); return p; };
+const bun = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 10 * s, y - 30, 76, 58, 0, Math.PI * 1.05, Math.PI * 1.95); p.moveTo(x - 50 * s, y - 70); p.arc(x - 62 * s, y - 70, 30, 0, Math.PI * 2); return p; };
+function scaled(x, s, fn) { g.save(); g.translate(x, GROUND); g.scale(s, s); g.translate(-x, -GROUND); const old = ROD_END; ROD_END = GROUND + (SCR.y + SCR.h + 60 - GROUND) / s; const r = fn(); ROD_END = old; g.restore();
+  const map = (p) => [x + (p[0] - x) * s, GROUND + (p[1] - GROUND) * s]; return { hand: map(r.hand), back: map(r.back) }; }
+function box(x, y, w, h, open = 0, blur = 0, dim = 0) {
+  g.save(); g.globalAlpha = 1 - 0.45 * dim;
+  const p = new Path2D(); p.rect(x - w / 2, y - h, w, h); piece(p, '#C9A06A', 0.85, '#4A3216', false, blur);
+  g.save(); g.strokeStyle = 'rgba(31,138,94,0.9)'; g.lineWidth = 8; g.beginPath(); g.moveTo(x, y - h); g.lineTo(x, y); g.stroke(); g.restore();
+  for (const sd of [-1, 1]) { g.save(); g.translate(x + sd * w / 2, y - h); g.rotate(-sd * open * 2.0); const f = new Path2D(); f.rect(sd > 0 ? -w / 2 : 0, -8, w / 2, 14); piece(f, '#B88E58', 0.85, '#4A3216', false, blur); g.restore(); }
+  g.restore(); rod(x, y - h / 2);
+}
+function token(x, y, sc, a = 1) { if (sc <= 0.01) return; g.save(); g.globalAlpha = a; g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.roundRect(-46, -30, 92, 60, 8); piece(p, P.cream, 0.95, '#3A2410');
+  g.strokeStyle = 'rgba(58,36,16,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(-46, -30); g.lineTo(0, 4); g.lineTo(46, -30); g.stroke();
+  const c = new Path2D(); c.arc(0, 8, 15, 0, 7); piece(c, P.yellow, 0.95, '#6B4A08'); g.restore(); }
+function icon(kind, x, y, s, col = P.glow) {
+  g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.fillStyle = col; g.lineWidth = 7; g.lineCap = 'round'; g.lineJoin = 'round';
+  if (kind === 'med') { g.save(); g.rotate(-0.7); g.beginPath(); g.roundRect(-30, -13, 60, 26, 13); g.stroke(); g.beginPath(); g.roundRect(-30, -13, 30, 26, [13, 0, 0, 13]); g.fill(); g.restore(); }
+  if (kind === 'bus') { g.beginPath(); g.arc(0, 0, 24, 0, 7); g.stroke(); for (let i = 0; i < 6; i++) { const a = i * Math.PI / 3; g.beginPath(); g.moveTo(0, 0); g.lineTo(Math.cos(a) * 24, Math.sin(a) * 24); g.stroke(); } g.beginPath(); g.arc(0, 0, 5, 0, 7); g.fill(); }
+  if (kind === 'rent') { g.beginPath(); g.moveTo(-26, 2); g.lineTo(0, -24); g.lineTo(26, 2); g.stroke(); g.beginPath(); g.rect(-19, 2, 38, 24); g.stroke(); g.beginPath(); g.rect(-5, 12, 10, 14); g.fill(); }
+  g.restore();
+}
+function needPlaque(x, y, kind, label, sc, glow = 0) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  if (glow > 0.01) { g.save(); g.shadowColor = 'rgba(255,220,120,0.95)'; g.shadowBlur = 30 * glow; g.fillStyle = `rgba(255,220,120,${0.35 * glow})`; g.beginPath(); g.roundRect(-82, -64, 164, 128, 18); g.fill(); g.restore(); }
+  const p = new Path2D(); p.roundRect(-78, -60, 156, 120, 16); piece(p, '#2A1A10', 0.9, '#000');
+  icon(kind, 0, -14, 1.05); g.fillStyle = P.glow; g.font = '800 23px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, 0, 36);
+  g.restore(); rod(x, y + 60 * sc); }
+function item(kind, x, y, sc, a = 1, blur = 0) { if (sc <= 0.01 || a <= 0.01) return; g.save(); g.globalAlpha = a; if (blur) g.filter = `blur(${blur}px)`; g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.arc(0, 0, 34, 0, 7); piece(p, P.yellow, 0.9, '#6B4A08'); icon(kind, 0, 0, 0.85, '#3A2410'); g.restore(); }
+function waves(level, te) {   // flood water: carved translucent bands sliding at 12 fps
+  if (level <= 0.01) return;
+  for (let k = 0; k < 3; k++) { const top = GROUND + 30 - level * (300 - k * 70), ph = te * (1.3 + k * 0.4) + k * 2;
+    const p = new Path2D(); p.moveTo(SCR.x, SCR.y + SCR.h); p.lineTo(SCR.x, top);
+    for (let x = SCR.x; x <= SCR.x + SCR.w + 40; x += 40) p.quadraticCurveTo(x + 20, top - 16 * Math.sin(ph + x * 0.03), x + 40, top + 4 * Math.cos(ph + x * 0.02));
+    p.lineTo(SCR.x + SCR.w, SCR.y + SCR.h); p.closePath();
+    piece(p, k === 1 ? '#3E9A7C' : P.greenDk, 0.55 - k * 0.08, '#0E4D33', [SCR.x, top + 20, SCR.w, 300]); }
+}
+function stall(t, shut, closedTag) {
+  const x0 = 110, x1 = 545, y0 = 612, y1 = 930;
+  const back = new Path2D(); back.rect(x0 + 18, y0 + 70, x1 - x0 - 36, y1 - y0 - 70); piece(back, '#B88E58', 0.45, '#4A3216');
+  for (const [sx, sy] of [[0, 0], [1, 0]]) { const post = new Path2D(); post.rect(sx ? x1 - 22 : x0, y0 + 60, 22, y1 - y0 - 60); piece(post, '#5A3A1A', 0.85, '#2A1A08'); }
+  // goods on shelves: jars, sacks, bottles
+  const shelf = new Path2D(); shelf.rect(x0 + 22, 812, x1 - x0 - 44, 12); shelf.rect(x0 + 22, 905, x1 - x0 - 44, 12); piece(shelf, '#5A3A1A', 0.85, '#2A1A08');
+  for (let i = 0; i < 7; i++) { const gx = x0 + 60 + i * 56; const jar = new Path2D(); jar.roundRect(gx - 16, 760 - (i % 2) * 8, 32, 52 + (i % 2) * 8, 8); piece(jar, i % 3 === 0 ? P.green : (i % 3 === 1 ? P.yellow : '#E8A23A'), 0.8, '#3A2410'); }
+  for (let i = 0; i < 5; i++) { const gx = x0 + 75 + i * 78; const sack = new Path2D(); sack.moveTo(gx - 28, 905); sack.quadraticCurveTo(gx - 34, 850, gx - 10, 842); sack.lineTo(gx + 10, 842); sack.quadraticCurveTo(gx + 34, 850, gx + 28, 905); sack.closePath(); piece(sack, '#C9A06A', 0.8, '#4A3216'); }
+  // shutter (corrugated, slides on rods from the awning) — the market condition
+  if (shut > 0.005) { const h = (y1 - (y0 + 72)) * shut, s = new Path2D(); s.rect(x0 + 6, y0 + 72, x1 - x0 - 12, h); piece(s, '#6E6658', 0.92, '#2A2418');
+    g.save(); g.strokeStyle = 'rgba(30,25,15,0.55)'; g.lineWidth = 3; for (let yy = y0 + 86; yy < y0 + 72 + h; yy += 16) { g.beginPath(); g.moveTo(x0 + 8, yy); g.lineTo(x1 - 8, yy); g.stroke(); } g.restore();
+    rod(x0 + 60, y0 + 72 + h); rod(x1 - 60, y0 + 72 + h); }
+  // awning with scallops + carved sign
+  const aw = new Path2D(); aw.rect(x0 - 10, y0, x1 - x0 + 20, 58); for (let i = 0; i < 9; i++) { aw.moveTo(x0 + 39 + i * 50, y0 + 58); aw.arc(x0 + 14 + i * 50, y0 + 58, 25, 0, Math.PI); }
+  piece(aw, P.yellow, 0.82, '#6B4A08', [x0, y0, x1 - x0, 58]);
+  g.save(); g.fillStyle = '#3A2410'; g.font = '800 34px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('MARKET', (x0 + x1) / 2, y0 + 30); g.restore();
+  // hanging OPEN/CLOSED tag (swapped piece, swings on a rivet)
+  const sw = Math.sin(t * 2.2) * 0.05 + (t > C.shutter ? Math.exp(-(t - C.shutter - 0.4) * 3) * Math.sin((t - C.shutter) * 14) * 0.25 * (t > C.shutter + 0.4 ? 1 : 0) : 0);
+  g.save(); g.translate(x1 - 70, y0 + 64); g.rotate(sw); const tg = new Path2D(); tg.roundRect(-62, 14, 124, 46, 10); piece(tg, closedTag ? '#2A1A10' : P.green, 0.92, '#0B0D12');
+  g.fillStyle = closedTag ? P.glow : P.cream; g.font = '800 24px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(closedTag ? 'CLOSED' : 'OPEN', 0, 38); g.restore(); rivet(x1 - 70, y0 + 64);
+  return { counter: [(x0 + x1) / 2, 880] };
+}
+function board(sc, blur, reqs) { if (sc <= 0.01) return; const cx = 800, cy = 772; g.save(); g.translate(cx, cy); g.scale(sc, sc); if (blur) g.filter = `blur(${blur}px)`;
+  const p = new Path2D(); p.roundRect(-170, -150, 340, 300, 18); piece(p, '#2A1A10', 0.92, '#000');
+  g.fillStyle = P.glow; g.font = '800 30px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('LOCAL GROUP', 0, -118); g.font = '800 24px Inter'; g.fillText('REQUESTS', 0, -84);
+  const rows = [['med', 'medicine'], ['bus', 'transport'], ['rent', 'rent']];
+  rows.forEach(([k, lab], i) => { const yy = -32 + i * 64; g.save(); g.fillStyle = 'rgba(247,245,239,0.10)'; g.fillRect(-150, yy - 26, 300, 52); g.restore(); icon(k, -108, yy, 0.62);
+    g.fillStyle = P.glow; g.font = '800 26px Inter'; g.textAlign = 'left'; g.fillText(lab, -66, yy + 2);
+    if (reqs[i] > 0.01) { g.save(); g.translate(118, yy); g.scale(reqs[i], reqs[i]); const c = new Path2D(); c.arc(0, 0, 20, 0, 7); g.fillStyle = P.green; g.fill(c); g.strokeStyle = P.yellow; g.lineWidth = 6; g.beginPath(); g.moveTo(-9, 1); g.lineTo(-2, 8); g.lineTo(10, -7); g.stroke(); g.restore(); } });
+  g.restore(); rod(cx - 120, cy + 150 * sc); rod(cx + 120, cy + 150 * sc); }
+
+function snap(t, at, dur = 0.2) { const u = seg(t, at, at + dur); return { sc: ob(u), blur: (1 - u) * 10 }; }
+const arc = (a, b, u, h) => [lerp(a[0], b[0], u), lerp(a[1], b[1], u) - Math.sin(u * Math.PI) * h];
+function draw(fr) {
+  const t = Math.floor(fr / 2) * 2 / 30, te = Math.floor(fr / 2.5) * 2.5 / 30;
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'source-over'; g.globalAlpha = 1; g.filter = 'none';
+  g.fillStyle = P.ink; g.fillRect(0, 0, W, H);
+  const cam = 1 + 0.04 * io(seg(t, 8.0, 12.0)) * (1 - io(seg(t, 14.4, 15.6))) + 0.06 * io(seg(t, C.push, 29.6));
+  g.setTransform(cam, 0, 0, cam, CX * (1 - cam), CY * (1 - cam));
+  g.fillStyle = '#2A1A10'; g.fillRect(SCR.x - 30, SCR.y - 30, SCR.w + 60, SCR.h + 60);
+  g.fillStyle = '#3B2616'; g.fillRect(SCR.x - 16, SCR.y - 16, SCR.w + 32, SCR.h + 32);
+  g.save(); g.beginPath(); g.rect(SCR.x, SCR.y, SCR.w, SCR.h); g.clip();
+  g.drawImage(weave, SCR.x, SCR.y);
+  const up = io(seg(t, 0, 0.6)), dimB = 1 - 0.5 * io(seg(t, C.lampDim, C.lampDim + 0.6)) * (1 - io(seg(t, 18.9, 19.8))), endDim = 1 - 0.55 * io(seg(t, C.dimEnd, 30));
+  const L = [[SCR.x + 280, SCR.y + 470, 640, (0.92 + 0.05 * Math.sin(t * 9.1) + 0.03 * Math.sin(t * 23.7)) * up * dimB * endDim],
+             [SCR.x + 690, SCR.y + 520, 600, (0.9 + 0.06 * Math.sin(t * 7.3 + 1) + 0.03 * Math.sin(t * 19.1)) * up * endDim]];
+  for (const [lx, ly, r, k] of L) { const rg = g.createRadialGradient(lx, ly, 15, lx, ly, r); rg.addColorStop(0, `rgba(255,236,190,${0.6 * k})`); rg.addColorStop(0.12, `rgba(255,226,170,${0.42 * k})`); rg.addColorStop(0.45, `rgba(255,210,140,${0.2 * k})`); rg.addColorStop(1, 'rgba(255,200,120,0)');
+    g.globalCompositeOperation = 'screen'; g.fillStyle = rg; g.fillRect(SCR.x, SCR.y, SCR.w, SCR.h); }
+  g.globalCompositeOperation = 'source-over';
+  g.fillStyle = `rgba(30,18,8,${(1 - up) * 0.7 + (1 - endDim) * 0.5})`; g.fillRect(SCR.x, SCR.y, SCR.w, SCR.h);
+  const grd = new Path2D(); grd.rect(SCR.x, GROUND, SCR.w, 26); piece(grd, P.greenDk, 0.7, '#0E4D33');
+
+  // market stall (open on the mechanism, shutter slams on "disrupted")
+  const shut = t < 8.2 ? 0.55 : (t < C.shutter ? 0.55 * (1 - io(seg(t, C.marketOpen, C.marketOpen + 0.5))) : io(seg(t, C.shutter, C.shutter + 0.38)) + Math.exp(-(t - C.shutter - 0.38) * 9) * Math.sin(Math.max(0, t - C.shutter - 0.38) * 30) * 0.03 * (t > C.shutter + 0.38 ? 1 : 0));
+  const S = stall(t, clamp(shut, 0, 1.03), t >= C.shutter + 0.3 || t < C.marketOpen + 0.3);
+  // requests board (check with a trusted local organisation)
+  const bs = snap(t, C.board, 0.25); board(t >= C.board ? bs.sc : 0, bs.blur, [ob(seg(t, C.req1, C.req1 + 0.25)), ob(seg(t, C.req2, C.req2 + 0.25)), ob(seg(t, C.req3, C.req3 + 0.25))]);
+
+  // ---- people: the giver (accepted identity: yellow wide hat) + three dignified households ----
+  const SC = 0.6, gx = lerp(-60, 205, io(seg(t, C.giverIn, C.giverIn + 0.6)));
+  const HX = [530, 700, 870], HW = [scarf, cap, bun], HF = ['#E8A23A', P.yellow, '#2A1C14'], HB = ['#5FC79A', '#4FB78A', '#6ACB9F'];
+  const look = t > C.board - 0.2 && t < 23.2 ? 0.1 * io(seg(t, C.read, C.read + 0.4)) : 0;
+  const nod = 0.1 * Math.sin(seg(t, C.nod, C.nod + 0.7) * Math.PI);
+  // giver hand: holds one box; box opens -> choice tokens; later points to the board, then sets the identical pile aside
+  const boxOpen = io(seg(t, C.boxOpen, C.boxOpen + 0.35));
+  let gh = [gx + 110, GROUND - 255];
+  if (t > C.board && t < 23.0) gh = [gx + 150, GROUND - 330 - 30 * Math.sin(seg(t, C.read, 22.6) * Math.PI)];
+  const G = scaled(gx, SC, () => figure({ x: gx, dir: 1, tilt: 0, head: 0.04 - 0.25 * look + nod, hand: [gx + (gh[0] - gx) / SC, GROUND + (gh[1] - GROUND) / SC], back: [gx - 40, GROUND - 260], body: P.green, sleeve: P.greenDk, wear: hat, wearFill: P.yellow, collar: P.yellow, blur: (1 - seg(t, C.giverIn, C.giverIn + 0.25)) * 8 }, t));
+  // identical pile of boxes at the giver's feet ("easiest to donate"): visible on the hook, slid aside + dimmed on the payoff
+  const pileX = lerp(gx + 40, 120, io(seg(t, C.pileAside, C.pileAside + 0.7))), pileDim = io(seg(t, C.pileAside + 0.3, C.pileAside + 1.0));
+  if (t > C.sameBoxes - 0.2) { const ps = snap(t, C.sameBoxes, 0.2); g.save(); g.translate(pileX, GROUND); g.scale(ps.sc, ps.sc); g.translate(-pileX, -GROUND);
+    box(pileX - 38, GROUND, 74, 62, 0, ps.blur, pileDim); box(pileX + 38, GROUND, 74, 62, 0, ps.blur, pileDim); box(pileX, GROUND - 62, 74, 62, 0, ps.blur, pileDim); g.restore(); }
+  const HH = HX.map((x, i) => { const s = snap(t, C['house' + (i + 1)], 0.25); const relax = io(seg(t, C['tick' + (i + 1)], C['tick' + (i + 1)] + 0.4));
+    return scaled(x, SC * s.sc, () => figure({ x, dir: -1, tilt: 0.01, head: -0.05 + 0.08 * relax - 0.05 * Math.sin(seg(t, C['need' + (i + 1)], C['need' + (i + 1)] + 0.6) * Math.PI) + nod,
+      hand: [x - 110, GROUND - 300 - 60 * io(seg(t, C.tokensLand - 0.2, C.tokensLand)) * (1 - io(seg(t, C.toMarket, C.toMarket + 0.3)))], back: [x + 60, GROUND - 240],
+      body: HB[i], sleeve: P.greenDk, wear: HW[i], wearFill: HF[i], collar: '#E8A23A', blur: s.blur }, t)); });
+  // giver's single box -> opens -> becomes three choice tokens
+  if (t < C.tokens) { const b = t < C.boxOpen ? 0 : boxOpen; box(G.hand[0] + 20, G.hand[1] + 60, 92, 76, b); }
+  // flood waters recede on the hook
+  waves(1 - io(seg(t, C.recede, C.recede + 1.2)), te);
+  // need plaques above each household
+  const NK = [['med', 'MEDICINE'], ['bus', 'TRANSPORT'], ['rent', 'RENT']];
+  const glow = io(seg(t, C.glow, C.glow + 0.5)) * (1 - io(seg(t, 28.6, 29.4)));
+  HX.forEach((x, i) => { const s = snap(t, C['need' + (i + 1)], 0.22); needPlaque(x - 8, 1004, NK[i][0], NK[i][1], t >= C['need' + (i + 1)] ? s.sc : 0, glow);
+    const tk = ob(seg(t, C['tick' + (i + 1)], C['tick' + (i + 1)] + 0.25)) * (1 - io(seg(t, C.shutter - 0.15, C.shutter + 0.1))); tickBadge(x + 62, 950, tk); });
+  // tokens: out of the box -> households' hands -> into the open market -> back as each household's own choice
+  if (t >= C.tokens && t < C.atMarket) HX.forEach((x, i) => { const from = [G.hand[0] + 20, G.hand[1] + 20], hand = HH[i].hand;
+    let p = t < C.tokensLand ? arc(from, hand, io(seg(t, C.tokens, C.tokensLand)), 160 + 40 * i) : (t < C.toMarket ? hand : arc(hand, [S.counter[0] - 60 + 60 * i, S.counter[1]], io(seg(t, C.toMarket, C.atMarket)), 120));
+    token(p[0], p[1] - 20, ob(seg(t, C.tokens, C.tokens + 0.2)) * (t > C.atMarket - 0.15 ? 1 - seg(t, C.atMarket - 0.15, C.atMarket) : 1)); });
+  if (t >= C.back) HX.forEach((x, i) => { const hand = HH[i].hand; const p = arc([S.counter[0] - 60 + 60 * i, S.counter[1]], [hand[0] - 10, hand[1] - 40], io(seg(t, C.back, C.home + 0.1 * i)), 140);
+    const out = seg(t, C.shutter - 0.25, C.shutter + 0.25); item(NK[i][0], p[0], p[1], ob(seg(t, C.back, C.back + 0.2)), 1 - out, out * 10); });
+  // supplies arrive when the market is shut (in-kind may be more useful there)
+  if (t >= C.supplies && t < 23.2) HX.forEach((x, i) => { const u = io(seg(t, C.supplies + 0.12 * i, C.suppliesLand + 0.12 * i)); const bx = lerp(SCR.x + SCR.w + 80, x - 40, u);
+    const a = 1 - seg(t, 22.6, 23.2); g.save(); g.globalAlpha = a; box(bx, GROUND, 70, 58, 0, (1 - u) * 6); g.restore(); });
+  g.restore();
+  g.save(); g.font = '600 26px Inter'; g.fillStyle = 'rgba(60,35,15,0.75)'; g.textAlign = 'left'; g.fillText('Illustrative scene', SCR.x + 26, GROUND + 92); g.restore();
+  const sa = seg(t, C.signature, C.signature + 0.5);
+  if (sa > 0) { g.save(); g.globalAlpha = sa * 0.95; g.drawImage(icon_img, SCR.x + SCR.w - 170, GROUND + 58, 44, 44); g.font = '700 34px Inter'; g.fillStyle = 'rgba(40,25,10,0.9)'; g.textBaseline = 'middle'; g.fillText('Help', SCR.x + SCR.w - 116, GROUND + 81); g.restore(); }
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  g.drawImage(grains[Math.floor(fr / 2) % 3], 0, 0);
+  drawCaption(fr);
+}
+function drawCaption(fr) {
+  const tt = fr / 30, cp = CAP.cards.find((k) => tt >= k.a && tt < k.b);
+  window.__cap = null; if (!cp) return;
+  const a = clamp(Math.min(seg(tt, cp.a, cp.a + 0.1), 1 - seg(tt, cp.b - 0.08, cp.b)));
+  g.save(); g.globalAlpha = a; g.fillStyle = P.cream; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  let fs = cp.lines.length === 1 ? 64 : 54; g.font = `800 ${fs}px Inter`;
+  const mw = Math.max(...cp.lines.map((l) => g.measureText(l).width)); if (mw > 900) { fs = Math.floor(fs * 900 / mw); g.font = `800 ${fs}px Inter`; }
+  const lh = Math.round(fs * 1.1), base0 = cp.lines.length === 1 ? 438 : 400;
+  cp.lines.forEach((ln, i) => g.fillText(ln, W / 2, base0 + i * lh));
+  const m = cp.lines.map((l) => g.measureText(l)); const wmax = Math.max(...m.map((x) => x.width));
+  window.__cap = { fs, x0: Math.round(W / 2 - wmax / 2), x1: Math.round(W / 2 + wmax / 2), y0: Math.round(base0 - m[0].actualBoundingBoxAscent), y1: Math.round(base0 + (cp.lines.length - 1) * lh + m[m.length - 1].actualBoundingBoxDescent), text: cp.lines.join(' / ') };
+  g.restore();
+}
+window.__draw = (f) => { draw(f); return cv.toDataURL('image/png'); };
+window.__capAt = (f) => { draw(f); return window.__cap; };
+window.__sig = (f) => { const tt = f / 30; const cp = CAP.cards.find((k) => tt >= k.a && tt < k.b);
+  const a = cp ? clamp(Math.min(seg(tt, cp.a, cp.a + 0.1), 1 - seg(tt, cp.b - 0.08, cp.b))) : 0; return `${Math.floor(f / 2)}|${Math.floor(f / 2.5)}|${cp ? cp.a : '-'}|${a.toFixed(3)}`; };
+window.__ready = true;
+</script></body></html>

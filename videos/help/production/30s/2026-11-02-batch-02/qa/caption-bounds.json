@@ -1,0 +1,193 @@
+{
+ "rule": "ink y 350-470, x >= 80 from each edge",
+ "framesChecked": 40,
+ "extent": {
+  "x0": 91,
+  "x1": 989,
+  "y0": 388,
+  "y1": 452
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "After a flood,",
+   "fs": 64,
+   "x0": 333,
+   "x1": 747,
+   "y0": 389,
+   "y1": 451,
+   "firstFrame": 19
+  },
+  {
+   "text": "not every family needs",
+   "fs": 64,
+   "x0": 179,
+   "x1": 901,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 53
+  },
+  {
+   "text": "the same things.",
+   "fs": 64,
+   "x0": 276,
+   "x1": 804,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 90
+  },
+  {
+   "text": "One may need medicine;",
+   "fs": 64,
+   "x0": 150,
+   "x1": 930,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 132
+  },
+  {
+   "text": "another, transport",
+   "fs": 64,
+   "x0": 250,
+   "x1": 830,
+   "y0": 391,
+   "y1": 452,
+   "firstFrame": 173
+  },
+  {
+   "text": "or temporary rent.",
+   "fs": 64,
+   "x0": 251,
+   "x1": 829,
+   "y0": 394,
+   "y1": 452,
+   "firstFrame": 214
+  },
+  {
+   "text": "When local shops are working",
+   "fs": 60,
+   "x0": 94,
+   "x1": 986,
+   "y0": 391,
+   "y1": 451,
+   "firstFrame": 261
+  },
+  {
+   "text": "and essentials are available,",
+   "fs": 64,
+   "x0": 93,
+   "x1": 987,
+   "y0": 388,
+   "y1": 451,
+   "firstFrame": 311
+  },
+  {
+   "text": "well-run cash assistance",
+   "fs": 64,
+   "x0": 143,
+   "x1": 937,
+   "y0": 388,
+   "y1": 439,
+   "firstFrame": 357
+  },
+  {
+   "text": "lets people choose",
+   "fs": 64,
+   "x0": 243,
+   "x1": 837,
+   "y0": 391,
+   "y1": 452,
+   "firstFrame": 394
+  },
+  {
+   "text": "what they need.",
+   "fs": 64,
+   "x0": 285,
+   "x1": 795,
+   "y0": 391,
+   "y1": 452,
+   "firstFrame": 431
+  },
+  {
+   "text": "If markets are disrupted,",
+   "fs": 64,
+   "x0": 151,
+   "x1": 929,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 477
+  },
+  {
+   "text": "supplies may be more useful.",
+   "fs": 62,
+   "x0": 91,
+   "x1": 989,
+   "y0": 390,
+   "y1": 451,
+   "firstFrame": 532
+  },
+  {
+   "text": "Before giving, check what",
+   "fs": 64,
+   "x0": 128,
+   "x1": 952,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 587
+  },
+  {
+   "text": "a trusted local",
+   "fs": 64,
+   "x0": 315,
+   "x1": 765,
+   "y0": 391,
+   "y1": 439,
+   "firstFrame": 624
+  },
+  {
+   "text": "organisation requests.",
+   "fs": 64,
+   "x0": 182,
+   "x1": 898,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 668
+  },
+  {
+   "text": "Effective help starts",
+   "fs": 64,
+   "x0": 221,
+   "x1": 859,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 714
+  },
+  {
+   "text": "with actual needs,",
+   "fs": 64,
+   "x0": 250,
+   "x1": 830,
+   "y0": 388,
+   "y1": 451,
+   "firstFrame": 752
+  },
+  {
+   "text": "not with what is easiest",
+   "fs": 64,
+   "x0": 168,
+   "x1": 912,
+   "y0": 388,
+   "y1": 439,
+   "firstFrame": 792
+  },
+  {
+   "text": "for us to donate.",
+   "fs": 64,
+   "x0": 281,
+   "x1": 799,
+   "y0": 389,
+   "y1": 439,
+   "firstFrame": 835
+  }
+ ]
+}

@@ -86,3 +86,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-02 — production round production-30s-2026-11-02 — DONE
 - Output `videos/help/production/30s/2026-11-02/help-30s-production-01.mp4`, SHA-256 `470743a39e6d7ec540699ee26cd98df33dafae8c2483c2304a41d1da2a2ec80b`.
 - Format spec: `11-production-format.md`; brief/script/claims/storyboard/QA: `12-production-30s-01.md`. No automation created.
+
+## 2026-11-02 — production batch production-30s-2026-11-02-batch-02 — DONE
+- Output `videos/help/production/30s/2026-11-02-batch-02/help-30s-production-02.mp4`, SHA-256 `6461ba4980129694d1bbff8cc6d634dd11df900208c2e9d6a2e11e2a729c7c12`.
+- Topic: why a flood survivor may need cash rather than another box. Record: `13-production-30s-02.md`; format/feedback update appended to `11-production-format.md`. No automation created.

@@ -53,3 +53,19 @@ y ≈ 1530; bottom strip only for non-essential labels/signature.
 `audio/voice_kokoro.py` → `audio/mix30.py` (soundtrack + `build/voice_track.wav`) → one Vosk ASR pass → `tools_captions.py`
 (`src/captions.json`) → `node render.mjs` (Canvas2D → PNG → libx264 fast, reuses identical stop-motion frames) → ffmpeg mux →
 QA (`render.mjs --capbounds`, ffprobe, full decode, contact sheets, ebur128). Reference implementation: `videos/help/production/30s/2026-11-02/`.
+
+## Update 2026-11-02 — batch-02 (latest user feedback; overrides older details where they conflict)
+- Rounds so far: 30s-01 "Before donating clothes, ask these three questions" (reviewed; do not regenerate the topic);
+  30s-02 "Why a flood survivor may need cash rather than another box" (batch-02).
+- Each new episode = genuinely new topic + fresh storyboard with purposeful transitions; never trim/recolour old output.
+- Keep the accepted identity: the giver puppet (yellow wide-brim hat, green robe) is recurring; other figures are dignified
+  households/neighbours built on the same rig (scaled 0.6 when a scene needs several people). No random new mascots.
+- Scene vocabulary added in batch-02: carved flood-wave bands (12 fps), market stall with corrugated shutter + swappable
+  OPEN/CLOSED tag (practical market condition), carved need plaques with icons (MEDICINE / TRANSPORT / RENT), choice tokens
+  (envelope + coin hole; no currency symbols), supply boxes, "LOCAL GROUP — REQUESTS" board with tick rows, an identical
+  pile of boxes that slides aside and dims on the payoff ("what is easiest to donate").
+- Claims discipline (user): source humanitarian-method claims from IFRC / Red Cross Red Crescent guidance; show conditions
+  (markets working or disrupted) instead of blanket rules — never "cash is always best". No invented recipients/testimonials.
+- Script length for 30 s with Kokoro Meshline at 0.98: ~65–80 words (≈ 25–26 s of speech max); reword phrases that ASR
+  mishears on key words (e.g. "do not all need" → "not every family needs") rather than speeding up.
+- Captions: word groups chosen per sentence (src: `tools_captions.py` GROUPS); one line preferred, 56–64 px.
