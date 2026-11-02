@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.1,
+        2.8
+      ],
+      "script": "A feature tells people what a product has.",
+      "heard": "A feature tells people what a product has.",
+      "words": "8/8"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.8,
+        5.15
+      ],
+      "script": "A benefit tells them why it matters.",
+      "heard": "A benefit tells them why it matters.",
+      "words": "7/7"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        5.15,
+        6.85
+      ],
+      "script": "Take a fictional backpack.",
+      "heard": "Take a fictional backpack.",
+      "words": "4/4"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        7.1,
+        9.59
+      ],
+      "script": "Water-resistant fabric is the feature.",
+      "heard": "Water-resistant fabric is the feature.",
+      "words": "6/6"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        9.6,
+        13.53
+      ],
+      "script": "Keeping your notebook dry on a drizzly commute is the benefit.",
+      "heard": "Keeping your notebook dry on a drizzly commute is the benefit.",
+      "words": "11/11"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        13.9,
+        19.81
+      ],
+      "script": "In an ad, show the situation, connect the feature to a useful outcome, and support the claim.",
+      "heard": "In an ad, show the situation. Connect the feature to a useful outcome and support the claim.",
+      "words": "17/17"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        20.95,
+        26.23
+      ],
+      "script": "Do not promise waterproof protection when the material is only water-resistant.",
+      "heard": "Do not promise waterproof protection when the material is only water resistant.",
+      "words": "12/12"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.4,
+        29.01
+      ],
+      "script": "Clear marketing makes the difference visible.",
+      "heard": "Clear marketing makes the difference visible.",
+      "words": "6/6"
+    }
+  ],
+  "full": "A feature tells people what a product has. A benefit tells them why it matters. Take a fictional backpack. Water-resistant fabric is the feature. Keeping your notebook dry on a drizzly commute is the benefit. In an ad, show the situation. Connect the feature to a useful outcome and support the claim. Do not promise waterproof protection when the material is only water resistant. Clear marketing makes the difference visible."
+}

@@ -27,3 +27,8 @@
 - Honest status: UNFINISHED. No 30 s MP4 exists in the repository; render.mjs/audio.mjs were never written. Sources stay
   exactly as committed in 3090eba. Not resumed in this session: the user-approved next brief is the educational pilot
   (see context/08–10). Nothing here was overwritten, trimmed or relabelled.
+
+## Pointer 2026-11-02
+- A separate approved round, production-30s-2026-11-02, delivered a NEW 30 s educational video at
+  `production/30s/2026-11-02/werbens-30s-production-01.mp4` (see context/11 and 12). The 30 s promo WIP above remains
+  unfinished and was not reused.

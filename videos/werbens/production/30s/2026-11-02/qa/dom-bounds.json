@@ -1,0 +1,21 @@
+{
+  "caption": {
+    "minTop": 351,
+    "maxBottom": 467,
+    "minLeft": 215,
+    "maxRight": 865,
+    "maxLines": 2,
+    "pillTop": 340,
+    "pillBottom": 480
+  },
+  "mascotUnderCaption": [],
+  "mascotInTop300": [],
+  "mascotPartlyOffFrame": [
+    3.17,
+    13,
+    13.17,
+    13.33,
+    13.5
+  ],
+  "samples": 180
+}

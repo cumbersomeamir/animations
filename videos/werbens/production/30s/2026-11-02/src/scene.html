@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080,height=1920">
+<title>Werbens 30s Production 01</title>
+<style>
+  @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf); }
+  @font-face { font-family: "IDBlack"; src: url(/fonts/InterDisplay-Black.otf); }
+  @font-face { font-family: "ISB"; src: url(/fonts/Inter-SemiBold.otf); }
+  @font-face { font-family: "IB"; src: url(/fonts/Inter-Bold.otf); }
+  :root { --violet: #6234FB; --violet2: #4A1FD6; --lav: #CCC0F7; --pale: #F0EAFC; --ink: #1B1433; --muted: #6E6790; --line: #E3DCF8; }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #24116E; }
+  * { box-sizing: border-box; }
+  /* film wrapper is never transformed: whip motion blur is applied here (skill: blur an untransformed wrapper) */
+  #film { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; }
+  #world { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 0 0; }
+  #wall { position: absolute; inset: 0; background:
+      radial-gradient(900px 700px at 15% 22%, rgba(204,192,247,0.55), rgba(204,192,247,0) 70%),
+      radial-gradient(800px 900px at 95% 80%, rgba(240,234,252,0.35), rgba(240,234,252,0) 70%),
+      linear-gradient(170deg, #2A137A 0%, #4A1FD6 38%, #6234FB 62%, #8C6CFB 100%); }
+  #wall .blob { position: absolute; border-radius: 50%; filter: blur(40px); opacity: 0.35; }
+  /* ---------------- window ---------------- */
+  #win { position: absolute; left: 60px; top: 500px; width: 960px; height: 960px; border-radius: 22px; background: #FBFAFF;
+         box-shadow: 0 40px 90px rgba(10,4,40,0.55), 0 8px 24px rgba(10,4,40,0.35), 0 0 0 1px rgba(255,255,255,0.5); overflow: hidden; }
+  .titlebar { position: absolute; left: 0; right: 0; top: 0; height: 46px; background: #F3EFFD; border-bottom: 1px solid var(--line); }
+  .titlebar .dots { position: absolute; left: 20px; top: 16px; display: flex; gap: 9px; }
+  .titlebar .dots i { width: 14px; height: 14px; border-radius: 50%; background: #D8CFF6; display: block; }
+  .titlebar .dots i:first-child { background: #B9A8F5; }
+  .titlebar .title { position: absolute; left: 0; right: 0; top: 13px; text-align: center; font: 17px/20px "ISB"; color: #4C4470; }
+  .titlebar .tag { position: absolute; right: 16px; top: 11px; padding: 3px 10px 4px; border-radius: 10px; background: #E9E2FD; font: 13px/17px "IB"; color: #5A4E8E; letter-spacing: 0.3px; }
+  .toolbar { position: absolute; left: 0; right: 0; top: 46px; height: 52px; border-bottom: 1px solid var(--line); background: #FBFAFF; display: flex; align-items: center; gap: 10px; padding-left: 22px; }
+  .step { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 13px 1px 9px; border-radius: 16px; background: #F1ECFE; font: 15px/1 "ISB"; color: #6E6790; }
+  .step b { display: inline-flex; width: 21px; height: 21px; border-radius: 50%; align-items: center; justify-content: center; background: #DCD3FA; font: 11px/1 "IB"; color: #4A1FD6; }
+  .step.on { background: var(--violet); color: #fff; }
+  .step.on b { background: #fff; color: var(--violet); }
+  .step.done b { background: #4A1FD6; color: #fff; }
+  /* artboard (the ad being designed) */
+  #art { position: absolute; left: 24px; top: 116px; width: 476px; height: 790px; border-radius: 16px; background: #FFFFFF; border: 1px solid var(--line); box-shadow: 0 6px 20px rgba(60,30,160,0.08); }
+  #art .lbl { position: absolute; left: 18px; top: 12px; font: 12px/14px "IB"; letter-spacing: 1.2px; color: #9A92BD; }
+  #head { position: absolute; left: 16px; right: 16px; top: 36px; height: 150px; border-radius: 12px; border: 2px solid transparent; padding: 10px 14px; }
+  #head.sel { border-color: var(--violet); background: rgba(98,52,251,0.05); }
+  #headText { font: 40px/44px "IDXB"; letter-spacing: -0.8px; color: var(--ink); white-space: normal; }
+  #headText .ph { color: #C2BBDD; }
+  #headText.ben { font-size: 34px; line-height: 40px; letter-spacing: -0.5px; }
+  #headText .w { display: inline-block; }
+  #headText .hl { background: rgba(98,52,251,0.18); border-radius: 6px; }
+  #caret { display: inline-block; width: 3px; height: 40px; background: var(--violet); vertical-align: -6px; margin-left: 2px; }
+  #photo { position: absolute; left: 16px; top: 196px; width: 444px; height: 400px; border-radius: 12px; overflow: hidden; background: #EEE8FD; }
+  #photo svg { position: absolute; left: 0; top: 0; }
+  #wipe { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(11, 1fr); }
+  #wipe i { display: block; background: #6234FB; }
+  #badge { position: absolute; left: 16px; top: 40px; height: 44px; padding: 0 14px; border-radius: 22px; background: #FFFFFF; box-shadow: 0 6px 18px rgba(30,10,90,0.25);
+           font: 20px/44px "IDXB"; color: var(--ink); white-space: nowrap; transform-origin: 20% 50%; }
+  #badge .strike { position: absolute; left: 12px; right: 12px; top: 21px; height: 4px; border-radius: 2px; background: var(--ink); transform-origin: 0 50%; }
+  #sitchip { position: absolute; right: 14px; bottom: 14px; height: 34px; padding: 0 12px; border-radius: 17px; background: rgba(27,20,51,0.78); color: #fff; font: 15px/34px "IB"; white-space: nowrap; }
+  #support { position: absolute; left: 16px; right: 16px; top: 606px; height: 72px; border-radius: 12px; border: 2px dashed #D6CDF6; padding: 10px 14px; font: 18px/24px "ISB"; color: #A79FCB; }
+  #support.filled { border: 2px solid transparent; background: #F6F2FF; color: var(--ink); }
+  #support .k { font-family: "IB"; color: var(--violet); }
+  #brand { position: absolute; left: 18px; right: 18px; top: 690px; height: 84px; border-top: 1px solid var(--line); }
+  #brand .wm { position: absolute; left: 0; top: 18px; font: 26px/30px "IDBlack"; letter-spacing: 2px; color: var(--ink); }
+  #brand .fic { position: absolute; left: 0; top: 54px; font: 14px/16px "ISB"; color: #8A82AE; }
+  /* cards panel */
+  #panel { position: absolute; left: 520px; top: 116px; width: 416px; height: 790px; }
+  #panel .ph { position: absolute; left: 4px; top: 0; font: 15px/18px "IB"; letter-spacing: 1.4px; color: #9A92BD; }
+  .card { position: absolute; left: 0; width: 416px; border-radius: 16px; background: #FFFFFF; border: 1px solid var(--line); box-shadow: 0 6px 18px rgba(60,30,160,0.08); padding: 14px 16px; }
+  .card .tg { display: inline-block; padding: 4px 9px 5px; border-radius: 8px; font: 12px/13px "IB"; letter-spacing: 1.1px; color: #fff; background: var(--violet); }
+  .card .tg.alt { background: #1B1433; }
+  .card .tg.soft { background: #E3DBFD; color: #4A1FD6; }
+  .card .t { margin-top: 8px; font: 23px/28px "IDXB"; color: var(--ink); letter-spacing: -0.3px; }
+  .card .s { margin-top: 4px; font: 15px/19px "ISB"; color: #8A82AE; }
+  .card.empty { background: transparent; border: 2px dashed #CFC5F4; box-shadow: none; }
+  .card.empty .t { color: #B9B0DA; }
+  .slot { position: absolute; left: 0; width: 416px; border-radius: 16px; border: 2px dashed #DCD4F7; }
+  #cProduct { top: 30px; height: 132px; }
+  #cProduct svg { position: absolute; right: 14px; top: 14px; }
+  #cFeature { top: 178px; height: 108px; z-index: 5; }
+  #cBenefit { top: 302px; height: 124px; }
+  #cSupport { top: 442px; height: 108px; z-index: 5; }
+  #cCheck { top: 566px; height: 224px; }
+  .chk { display: flex; align-items: center; gap: 10px; margin-top: 9px; font: 17px/21px "ISB"; color: #4C4470; }
+  .chk i { width: 22px; height: 22px; border-radius: 6px; border: 2px solid #CFC5F4; display: inline-flex; align-items: center; justify-content: center; font: 15px/1 "IB"; color: #fff; font-style: normal; }
+  .chk.ok i { background: var(--violet); border-color: var(--violet); }
+  .statusbar { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; border-top: 1px solid var(--line); background: #F6F2FE; }
+  .statusbar .sig { position: absolute; left: 18px; top: 9px; display: flex; align-items: center; gap: 9px; font: 15px/22px "ISB"; color: #6E6790; }
+  .statusbar .sig img { width: 22px; height: 22px; border-radius: 6px; }
+  .statusbar .rt { position: absolute; right: 18px; top: 10px; font: 14px/20px "ISB"; color: #9A92BD; }
+  /* feature chip (what the mascot carries) */
+  #chip { position: absolute; height: 40px; padding: 0 14px; border-radius: 12px; background: #FFFFFF; border: 2px solid var(--violet); box-shadow: 0 6px 16px rgba(60,30,160,0.25);
+          font: 17px/36px "IB"; color: var(--ink); white-space: nowrap; transform-origin: 50% 100%; z-index: 20; }
+  #chip b { color: var(--violet); font-family: "IB"; letter-spacing: 0.8px; margin-right: 6px; font-size: 13px; }
+  svg#links { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; pointer-events: none; z-index: 30; }
+  canvas#mascot { position: absolute; image-rendering: pixelated; image-rendering: crisp-edges; z-index: 40; }
+  #props { position: absolute; left: 0; top: 0; z-index: 41; }
+  #props canvas { position: absolute; image-rendering: pixelated; }
+  #rainAll { position: absolute; inset: 0; z-index: 35; pointer-events: none; }
+  #cursor { position: absolute; width: 34px; height: 44px; z-index: 50; transform-origin: 3px 3px; }
+  #ripple { position: absolute; width: 60px; height: 60px; margin: -30px 0 0 -30px; border-radius: 50%; border: 3px solid rgba(98,52,251,0.7); z-index: 49; }
+  /* ---------------- screen-space information layers ---------------- */
+  #vign { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(520px 360px at 50% 51%, rgba(10,4,40,0) 55%, rgba(10,4,40,0.62) 100%); }
+  #dim { position: absolute; inset: 0; pointer-events: none; background: #0A0428; }
+  #cap { position: absolute; left: 80px; right: 80px; top: 330px; height: 160px; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+  #cap .pill { padding: 10px 30px 12px; border-radius: 30px; background: rgba(251,249,255,0.86); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+               border: 1.5px solid rgba(98,52,251,0.22); box-shadow: 0 14px 40px rgba(10,4,40,0.28); text-align: center; max-width: 920px; }
+  #cap .ln { display: block; font: 50px/58px "IDXB"; letter-spacing: -0.8px; color: var(--ink); white-space: nowrap; }
+  #cap .w { display: inline-block; margin: 0 0.11em; }
+  #cap .w.hi { color: var(--violet); }
+  #keys { position: absolute; left: 50%; top: 1494px; transform: translateX(-50%); height: 58px; padding: 0 12px; border-radius: 16px; background: rgba(20,10,52,0.78);
+          backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+  #keys .k { min-width: 40px; height: 40px; padding: 0 10px; border-radius: 9px; background: #F0EAFC; color: var(--ink); font: 22px/40px "IB"; text-align: center; box-shadow: inset 0 -3px 0 #CFC5F4; }
+  #keys .txt { font: 24px/40px "IB"; color: #fff; padding: 0 6px; }
+</style>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="mb" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur id="mbBlur" stdDeviation="0 0"/></filter>
+</svg>
+</head>
+<body>
+<div id="film">
+  <div id="world">
+    <div id="wall"><div class="blob" style="left:-120px;top:120px;width:520px;height:520px;background:#CCC0F7"></div><div class="blob" style="left:640px;top:1500px;width:560px;height:560px;background:#F0EAFC"></div></div>
+    <div id="win">
+      <div class="titlebar"><div class="dots"><i></i><i></i><i></i></div><div class="title">Campaign Board — A feature is not yet a benefit</div><div class="tag">ILLUSTRATIVE MOCK-UP</div></div>
+      <div class="toolbar">
+        <div class="step" id="st1"><b>01</b>Feature</div><div class="step" id="st2"><b>02</b>Benefit</div><div class="step" id="st3"><b>03</b>Proof</div><div class="step" id="st4"><b>04</b>Claim check</div>
+      </div>
+      <div id="art">
+        <div class="lbl">AD DRAFT · FICTIONAL BRAND</div>
+        <div id="head"><div id="headText"></div></div>
+        <div id="photo"><div id="photoSvg"></div><div id="wipe"></div><div id="badge"><span id="badgeText"></span><span id="bcaret"></span><div class="strike"></div></div><div id="sitchip">✓ Situation shown</div></div>
+        <div id="support"></div>
+        <div id="brand"><div class="wm">DEMO PACK</div><div class="fic">Fictional brand · illustrative ad, not a real product</div></div>
+      </div>
+      <div id="panel">
+        <div class="ph">CARDS</div>
+        <div class="slot" id="slotFeature" style="top:178px;height:108px"></div>
+        <div class="slot" id="slotSupport" style="top:442px;height:108px"></div>
+        <div class="card" id="cProduct"><span class="tg alt">PRODUCT</span><div class="t">Demo Pack</div><div class="s">Commuter backpack · fictional</div><div id="prodIcon"></div></div>
+        <div class="card" id="cFeature"><span class="tg">FEATURE</span><div class="t">Water-resistant fabric</div><div class="s">What it has</div></div>
+        <div class="card empty" id="cBenefit"><span class="tg soft">BENEFIT</span><div class="t" id="benT">Why does it matter?</div><div class="s" id="benS">—</div></div>
+        <div class="card" id="cSupport"><span class="tg alt">SUPPORT</span><div class="t">Fabric spec sheet</div><div class="s">Evidence for the claim · fictional demo</div></div>
+        <div class="card" id="cCheck"><span class="tg soft">AD CHECK</span>
+          <div class="chk" id="k1"><i>✓</i>Show the situation</div>
+          <div class="chk" id="k2"><i>✓</i>Connect feature → outcome</div>
+          <div class="chk" id="k3"><i>✓</i>Support the claim</div>
+          <div class="chk" id="k4"><i>✓</i>No overclaim</div>
+        </div>
+      </div>
+      <div class="statusbar"><div class="sig"><img src="/assets/icon.png" alt="">Werbens · Marketing craft</div><div class="rt" id="saved">Draft</div></div>
+    </div>
+    <div id="chip"><b>FEATURE</b>Water-resistant fabric</div>
+    <svg id="links"><path id="link" d="" fill="none" stroke="#6234FB" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/><circle id="linkA" r="7" fill="#6234FB"/><circle id="linkB" r="7" fill="#6234FB"/></svg>
+    <canvas id="rainAll" width="1080" height="1920"></canvas>
+    <canvas id="mascot" width="16" height="20"></canvas>
+    <div id="props"></div>
+    <div id="ripple"></div>
+    <svg id="cursor" viewBox="0 0 34 44"><path d="M3 3 L3 34 L11 27 L16.5 39 L22 36.5 L16.6 25 L27 25 Z" fill="#FFFFFF" stroke="#1B1433" stroke-width="2.6" stroke-linejoin="round"/></svg>
+  </div>
+</div>
+<div id="vign"></div>
+<div id="dim"></div>
+<div id="cap"></div>
+<div id="keys"></div>
+<script type="module" src="/src/scene.js"></script>
+</body>
+</html>

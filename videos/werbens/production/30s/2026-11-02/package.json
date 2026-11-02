@@ -1,0 +1,13 @@
+{
+  "name": "werbens-production-30s-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 30 s production episode 01 — 'A feature is not yet a benefit'. Living Screencast grammar: redrawn 2D HTML/SVG workspace + pixel mascot, rendered offline in headless Chromium.",
+  "type": "module",
+  "scripts": { "build": "bash build.sh", "qa": "bash qa.sh" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "kokoro-js": "1.2.1"
+  }
+}
