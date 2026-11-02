@@ -60,10 +60,19 @@ size. The steel box has far more mass." (shorter and definite; follows from ρ =
 | 23.0–29.0 | takeaway | recap chips SAME MASS → TIE / SAME SIZE → STEEL; Kip slaps the button on "mass" (level), "volume" (tips) and again at 28 s (level); thumbs-up | flips, clunk/creak per toggle, hop |
 | 29.0–30.0 | end | button chord; level balance with "same mass"; small Recall signature under the UI row | chord rings out |
 
-## QA
-Filled from the final exported file in `production/30s/2026-11-02-batch-02/qa/QA.md` (see progress below).
+## QA (final exported file — details in `production/30s/2026-11-02-batch-02/qa/QA.md`)
+- `videos/recall/production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4`,
+  sha256 5fe71d5694460f7f2c1df9df6d07582af60f6126844051a6d4f2b42803637b0d, 11 413 451 bytes; H.264 High yuv420p
+  1080×1920 30/1, **900 frames**, video/audio/container **30.000000 s**, AAC LC 48 kHz stereo; full decode clean;
+  **−14.6 LUFS**, **true peak −1.5 dBTP**, 0 clipped samples; 24/24 automated checks pass.
+- ASR on the final mix: all 71 words in order + one hallucinated trailing "You" (WER 0.014); per-line ASR exact.
+- Caption ink y 352–468, x 208–871, ≤ 2 lines; top 300 px clear; helmet ≥ 617 px, balance/pans ≤ 1451 px.
+- Fixes: label placement, duplicate tag, camera reframe out of the bottom region (full rerender), "=" badge, ASR fallback.
+- Limits: cannot listen; full-mix word alignment failed (aligner bug); 0.25 s tag/recap-chip overlap at 23.0 s accepted.
 
 ## Progress / state
 - 2026-11-02: verified repo/branch and that batch-02 did not exist; research (2 web-fetch passes); narration + ASR;
-  balance scene, choreography, overlay, mix; stills reviewed and fixed (label placement, duplicate tag); full render 1
-  started with 3 workers.
+  balance scene, choreography, overlay, mix; stills reviewed and fixed; render 1 (17 min) → QA found the subject too low
+  + ASR crash → reframed and fixed → render 2 (19 min) → final export verified; committed and pushed to `claude-video/recall`.
+- Commands: `cd videos/recall/production/30s/2026-11-02-batch-02 && WORKERS=3 ./build.sh` (reproduces the final).
+- Next: on request, a new topic in the format of 11 (do not repeat episodes 01–02). No automation created.

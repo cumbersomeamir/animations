@@ -39,4 +39,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   `education/pilot-01/qa/QA.md`). The 30 s ad above is untouched. The 06 15 s style test is not started (07).
 - Production round 2026-11-02: `videos/recall/production/30s/2026-11-02/recall-30s-production-01.mp4` (30.000 s knowledge
   challenge; format in 11, record + QA in 12).
-
+- Production batch-02 2026-11-02: `videos/recall/production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4`
+  (30.000 s knowledge challenge "kilo of steel vs feathers"; record + QA in 13).

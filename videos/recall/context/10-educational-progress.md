@@ -85,3 +85,7 @@ Newer format: context/11-production-format.md (knowledge challenges, Microgame F
 config af_bella 0.7 + am_puck 0.3). Round record + QA: context/12-production-30s-01.md. Deliverable:
 `videos/recall/production/30s/2026-11-02/recall-30s-production-01.mp4` (30.000 s, verified). Pilot 01 untouched.
 
+## Update 2026-11-02 — production batch `production-30s-2026-11-02-batch-02`
+Episode 02 "Which is heavier: a kilo of steel or feathers?" (mass vs volume): context 13; deliverable
+`videos/recall/production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` (30.000 s, verified). Format 11 updated
+with the user's batch-02 feedback (3 s think beat, MASS wording, no buoyancy distraction, labelled measuring prop).

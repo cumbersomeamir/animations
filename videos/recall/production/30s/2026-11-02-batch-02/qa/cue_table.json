@@ -1,0 +1,91 @@
+{
+  "bpm": 120,
+  "beat_s": 0.5,
+  "cues": {
+    "cubePlace": 2.25,
+    "sackPlace": 3.55,
+    "lockShow": 3.7,
+    "guess": 4.5,
+    "fuseStart": 5.0,
+    "answer": 8.0,
+    "pinOut1": 8.12,
+    "sameMass": 8.5,
+    "volume": 12.0,
+    "pile": 13.5,
+    "pinIn": 15.85,
+    "flip": 16.0,
+    "swap1": 16.12,
+    "sameSize": 17.6,
+    "weigh2": 19.0,
+    "pinOut2": 19.12,
+    "slam": 19.4,
+    "stampSteel": 19.5,
+    "recap": 23.0,
+    "tog1": 25.5,
+    "tog2": 26.0,
+    "tog3": 28.0,
+    "thumbs": 28.5,
+    "end": 29.0
+  },
+  "commands": [
+    {
+      "word": "LOAD!",
+      "t": 0.0,
+      "tag": 0.42
+    },
+    {
+      "word": "GUESS!",
+      "t": 4.5,
+      "tag": 4.95
+    },
+    {
+      "word": "WEIGH!",
+      "t": 8.0,
+      "tag": 8.45
+    },
+    {
+      "word": "FLIP!",
+      "t": 16.0,
+      "tag": 16.45
+    },
+    {
+      "word": "WEIGH!",
+      "t": 19.0,
+      "tag": 19.4
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.35
+    },
+    {
+      "id": "l02",
+      "start": 4.6
+    },
+    {
+      "id": "l03",
+      "start": 8.45
+    },
+    {
+      "id": "l04",
+      "start": 10.85
+    },
+    {
+      "id": "l05",
+      "start": 16.15
+    },
+    {
+      "id": "l06",
+      "start": 19.45
+    },
+    {
+      "id": "l07",
+      "start": 23.05
+    },
+    {
+      "id": "l08",
+      "start": 27.15
+    }
+  ]
+}
