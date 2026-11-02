@@ -1,0 +1,12 @@
+T0.wav | What's inside 100 grams of raw guava?
+    [("What's", 0.0, 0.22), ('inside', 0.22, 0.52), ('100', 0.52, 0.94), ('grams', 0.94, 1.28), ('of', 1.28, 1.58), ('raw', 1.58, 1.76), ('guava?', 1.76, 2.16)]
+T1.wav | About 68 calories, 5 .4 grams of fiber, and 228 milligrams of vitamin C.
+    [('About', 0.0, 0.18), ('68', 0.18, 0.7), ('calories,', 0.7, 1.18), ('5', 1.88, 2.24), ('.4', 2.24, 2.86), ('grams', 2.86, 3.18), ('of', 3.18, 3.38), ('fiber,', 3.38, 3.64), ('and', 4.16, 4.22), ('228', 4.22, 4.88), ('milligrams', 4.88, 5.72), ('of', 5.72, 5.88), ('vitamin', 5.88, 6.08), ('C.', 6.08, 6.6)]
+T2.wav | Fiber Aids Digestion and Vitamin C helps the body make collagen.
+    [('Fiber', 0.0, 0.28), ('Aids', 0.28, 0.72), ('Digestion', 0.72, 1.46), ('and', 1.46, 1.92), ('Vitamin', 1.92, 2.16), ('C', 2.16, 2.74), ('helps', 2.74, 3.04), ('the', 3.04, 3.28), ('body', 3.28, 3.46), ('make', 3.46, 3.8), ('collagen.', 3.8, 4.14)]
+T3.wav | These are reference values. Other guava types and individual fruits can differ.
+    [('These', 0.0, 0.2), ('are', 0.2, 0.36), ('reference', 0.36, 0.6), ('values.', 0.6, 1.2), ('Other', 2.0, 2.0), ('guava', 2.0, 2.3), ('types', 2.3, 2.68), ('and', 2.68, 2.98), ('individual', 2.98, 3.32), ('fruits', 3.32, 3.7), ('can', 3.7, 4.02), ('differ.', 4.02, 4.32)]
+T4.wav | Guava is a useful food, not a cure.
+    [('Guava', 0.0, 0.26), ('is', 0.26, 0.4), ('a', 0.4, 0.48), ('useful', 0.48, 0.72), ('food,', 0.72, 1.1), ('not', 1.44, 1.62), ('a', 1.62, 1.7), ('cure.', 1.7, 1.9)]
+T5.wav | Way the portion you actually eat. One fruit is not automatically a hundred grams.
+    [('Way', 0.0, 0.14), ('the', 0.14, 0.28), ('portion', 0.28, 0.54), ('you', 0.54, 0.86), ('actually', 0.86, 1.16), ('eat.', 1.16, 1.64), ('One', 2.22, 2.28), ('fruit', 2.28, 2.58), ('is', 2.58, 2.8), ('not', 2.8, 3.0), ('automatically', 3.0, 3.58), ('a', 3.58, 3.98), ('hundred', 3.98, 4.26), ('grams.', 4.26, 4.58)]

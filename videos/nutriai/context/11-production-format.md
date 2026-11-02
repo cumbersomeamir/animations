@@ -1,5 +1,7 @@
 # 11 — Production format (durable; NutriAI)
 
+Episodes: #01 mango (`12-production-30s-01.md`), #02 guava (`13-production-30s-02.md`).
+
 Durable context for future production rounds. No automation is created by this file.
 
 ## Channel genre (locked)
@@ -33,3 +35,11 @@ Ink `#151E16` · leaf `#5AB626` · green `#86DA3F` · lime `#A6E955` · leaf-dar
 - Captions screen-fixed, upper centre, **ink inside y 350–470**, x margins ≥ 80 px (x 80–1000), max 2 short lines (58 px Inter Display Black; line baselines 404 and 458), word groups appear in step with speech; caption blocks never overlap (out before the next block's in).
 - Top 0–300 px unobstructed. Plate content starts below y ≈ 490 at every camera position; essential facts stay above y ≈ 1550 (bottom overlay region kept for the source line / signature only).
 - QA: every drawn text run is logged with device-space bounds (`build/textlog.json`) and checked.
+
+## Latest user feedback (batch-02, 2026-11-02): this overrides earlier style details above
+- **Ground and contrast:** ivory paper (`#F4EEDC`) with deep-ink engraving and labels (`#16201A`), higher contrast. The dark-plate look of #01 is retired for new episodes.
+- **Colour:** washes multiply under the ink and are clipped to their own region (rings via even-odd clip, never flooding the whole section): clear leaf green for skin/leaves (`#7DC043` / `#5AB626`), the food's true flesh colour bright (guava coral `#F0705B`, light coral `#F9B6A3`); caption line 1 deep ink, line 2 leaf-dark `#2F7A1C`.
+- **Larger cutaway:** the section is the hero (about 600 px across), with roundels underneath; whole fruit + leaf open the film.
+- **Sound (replaces the old music completely):** voice-forward; very quiet original warm ambient bed (slow cross-fading chords + air, no beat, no repeating figure); subtle fruit-slice, juice and page/pencil foley on events; no reused track.
+- **Script:** 65–80 words, about 30 s natural delivery, hook question first; every public claim mapped to a primary/institutional source (USDA FDC record + SR28 refuse/portion; NIH MedlinePlus for nutrient functions); use specific, sourced function statements (e.g. "fibre aids digestion", "vitamin C helps the body make collagen"), never cures; end with a practical portion payoff (USDA single-fruit weight vs 100 g on the balance).
+- **Mechanism must be visible:** each spoken function gets a scene change (roundel enlarges and its engraved motif animates the idea).

@@ -1,0 +1,80 @@
+{
+ "fdcId": 173044,
+ "description": "Guavas, common, raw",
+ "dataType": "SR Legacy",
+ "ndbNumber": 9139,
+ "publicationDate": "4/1/2019",
+ "per": "100 g edible portion",
+ "nutrients": [
+  [
+   "Energy",
+   285,
+   "kJ",
+   0
+  ],
+  [
+   "Carbohydrate, by difference",
+   14.3,
+   "g",
+   0
+  ],
+  [
+   "Energy",
+   68.0,
+   "kcal",
+   0
+  ],
+  [
+   "Sugars, total including NLEA",
+   8.92,
+   "g",
+   0
+  ],
+  [
+   "Fiber, total dietary",
+   5.4,
+   "g",
+   0
+  ],
+  [
+   "Vitamin C, total ascorbic acid",
+   228,
+   "mg",
+   2
+  ],
+  [
+   "Protein",
+   2.55,
+   "g",
+   2
+  ],
+  [
+   "Ash",
+   1.39,
+   "g",
+   2
+  ],
+  [
+   "Total lipid (fat)",
+   0.95,
+   "g",
+   2
+  ],
+  [
+   "Water",
+   80.8,
+   "g",
+   2
+  ]
+ ],
+ "portions": [
+  [
+   "fruit, without refuse",
+   55.0
+  ],
+  [
+   "cup",
+   165.0
+  ]
+ ]
+}
