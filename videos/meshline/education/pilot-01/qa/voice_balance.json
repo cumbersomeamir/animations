@@ -1,0 +1,30 @@
+[
+ {
+  "id": "n1",
+  "start": 0.35,
+  "end": 2.263,
+  "text": "Full bars... so why won't it load?",
+  "speech_band_db": 9.1
+ },
+ {
+  "id": "n2",
+  "start": 2.75,
+  "end": 6.223,
+  "text": "Bars measure signal strength, not how busy the tower is.",
+  "speech_band_db": 14.2
+ },
+ {
+  "id": "n3",
+  "start": 6.55,
+  "end": 11.052,
+  "text": "Thousands of phones share this tower's capacity, so your data waits its turn.",
+  "speech_band_db": 11.7
+ },
+ {
+  "id": "n4",
+  "start": 11.4,
+  "end": 14.477,
+  "text": "Full bars mean strong signal, not spare capacity.",
+  "speech_band_db": 10.0
+ }
+]

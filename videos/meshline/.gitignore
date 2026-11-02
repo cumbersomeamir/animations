@@ -6,3 +6,5 @@ tests/*/qa/boundaries/
 **/.cache/
 **/build/
 __pycache__/
+education/*/qa/frames/
+education/*/qa/boundaries/

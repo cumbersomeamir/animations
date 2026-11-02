@@ -1,0 +1,42 @@
+# 10: Educational progress (Pilot 01)
+
+## Status of earlier work (checked 2026-11-02 before starting)
+- 30s production video: complete and committed (`750aeed`), `videos/meshline/output/meshline-30s.mp4`.
+- 15s text-message test: complete and committed (`f5eb10f`), `videos/meshline/tests/15s/meshline-15s-test.mp4`.
+- The working tree was clean, so nothing needed checkpointing. Neither item was touched or relabelled.
+
+## Verified facts (sources: `education/pilot-01/research/claims.md`)
+- T-Mobile (2026-03-26): bars show signal strength, not how busy the network is or how much capacity is available. Full bars can still mean slow speeds in crowded places like stadiums, and high demand can slow speeds even with strong signal.
+- Three UK and Vodafone UK (2026): temporary masts (COWs) add capacity where thousands of people use their phones at once.
+- Wikipedia, "Mobile cell sites": COWs provide capacity for short-term demand at special events.
+- The Guardian (2023) is recorded only as an unverified secondary source (404); no claim relies on it.
+
+## Creative choices
+- Cast: Bix (sphere body, four-bar crest = signal) and Dot (packet cube).
+- World: a transparent glass city concert, hand-projected 3D on canvas.
+- Radio paths converge on one tower. A FIFO queue spirals the mast with four gate lanes; μ = 4/s is illustrative.
+- Bars vs throughput: the handheld meter and the city board.
+- Camera: A (medium) → B (low angle along the radio path) → C (crane reveal) → D (return, takeaway plaque).
+- Voice: Kokoro blend 0.7 `af_bella` + 0.3 `am_puck`, speed 0.98.
+- Score: D-dorian marimba and pad. SFX are tied to cues.
+
+## Provenance / adaptations
+- `animation-direction` (local skill), applied: storyboard with action verbs first; a rig with clear silhouette, poses and facial cues; anticipation → action → impact → recovery; props for cause and effect; the verify loop (stills → boundary frames → contact sheet → ffprobe → full decode).
+  - Adaptation: an original sphere/crest performer instead of a stickman, as the brief asked.
+- `text-message-animation`: not used (wrong medium). Only the frame-driven loading-indicator idea carries over.
+- Rendering: original Node code on `@napi-rs/canvas`. No Three.js, Blender or paid APIs. 3D is a hand-written pinhole projection (`src/core.mjs`).
+- Instagram references: not viewed; the user's description was used only as a quality bar.
+
+## Render / QA state: complete
+- Output: `videos/meshline/education/pilot-01/meshline-education-pilot-01.mp4`, sha256 `a5bdbb97de1241d5adc470bb6eaac352f6c788ae69d1e4d28e339d76b1021256`.
+- Format: 15.000 s, 450 frames, 1080x1920, 30 fps, H.264 High + AAC LC 48 kHz.
+- Full decode clean. No black or freeze. −15.0 LUFS, −3.0 dBTP. Voice/bed (speech band) +9.1 / +14.2 / +11.7 / +10.0 dB.
+- Contact sheet (31 frames) and boundary sheet (22 frames) inspected. 10 defects fixed (see `education/pilot-01/QA.md`).
+- Commands (from `education/pilot-01`):
+  - `npm ci`
+  - `PY=<py with numpy+scipy> scripts/build.sh`
+  - `scripts/qa.sh`
+
+## Next action
+- Await user feedback on Pilot 01: the character, pacing and accuracy framing.
+- Then pick episode 2 from the 10-title list in `08-educational-strategy.md` and reuse `src/cast.mjs`, `src/core.mjs` and the build/QA scripts in a new `education/pilot-02/`.

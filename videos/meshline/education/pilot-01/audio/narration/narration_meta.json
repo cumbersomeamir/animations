@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Bix",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "note": "Original character voice: linear style-vector blend of two Apache-2.0 Kokoro-82M voices. Not modelled on any real person or existing character."
+  },
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.35,
+      "text": "Full bars... so why won't it load?",
+      "file": "n1.wav",
+      "sr": 24000,
+      "duration": 1.913,
+      "end": 2.263
+    },
+    {
+      "id": "n2",
+      "start": 2.75,
+      "text": "Bars measure signal strength, not how busy the tower is.",
+      "file": "n2.wav",
+      "sr": 24000,
+      "duration": 3.473,
+      "end": 6.223
+    },
+    {
+      "id": "n3",
+      "start": 6.55,
+      "text": "Thousands of phones share this tower's capacity, so your data waits its turn.",
+      "file": "n3.wav",
+      "sr": 24000,
+      "duration": 4.502,
+      "end": 11.052
+    },
+    {
+      "id": "n4",
+      "start": 11.4,
+      "text": "Full bars mean strong signal, not spare capacity.",
+      "file": "n4.wav",
+      "sr": 24000,
+      "duration": 3.077,
+      "end": 14.477
+    }
+  ]
+}
