@@ -94,3 +94,8 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **ASR (tiny.en):** exact match with the script.
 - **Limits:** −18.5 LUFS (below the −14 target); the caption plate partly covers the portrait during the card beat; QA was within the time budget only (details in that folder's README.md).
 - **Next:** user review of the style. If approved, re-master loudness to −14 LUFS and run a fresh full contact-sheet pass.
+
+## 2026-11-02: production round production-30s-2026-11-02 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-02/aarambh-30s-production-01.mp4`, sha256 `83cdfef3825d7cb19241a0f02fb117bfeadc5413af33def2129cb5ea825fb986`. 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Format rules:** `context/11-production-format.md`. **Episode record** (script, sources, storyboard, QA): `context/12-production-30s-01.md`.
+- **Next:** user review. Future rounds follow 11; no automation has been created.

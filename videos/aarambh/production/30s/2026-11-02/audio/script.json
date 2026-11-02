@@ -1,0 +1,35 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "Marie Curie did something no one had done before: she won Nobel Prizes in two different sciences.",
+      "tts": "Marie Curie did something no one had done before: she won Nobel Prizes in two different sciences.",
+      "start": 0.4
+    },
+    {
+      "id": "S2",
+      "text": "In 1903, she shared the Physics prize with Pierre Curie and Henri Becquerel, for research on radiation.",
+      "tts": "In nineteen oh three, she shared the Physics prize with Pierre Curie and Henri Becquerel, for research on radiation.",
+      "start": 7.5
+    },
+    {
+      "id": "S3",
+      "text": "In 1911, she won Chemistry, for her work on radium and polonium.",
+      "tts": "In nineteen eleven, she won Chemistry, for her work on radium and polonium.",
+      "start": 15.2
+    },
+    {
+      "id": "S4",
+      "text": "The lesson is not a motivational slogan.",
+      "tts": "The lesson is not a motivational slogan.",
+      "start": 20.8
+    },
+    {
+      "id": "S5",
+      "text": "Look at how one line of research led her across the boundaries between subjects.",
+      "tts": "Look at how one line of research led her across the boundaries between subjects.",
+      "start": 23.9
+    }
+  ]
+}

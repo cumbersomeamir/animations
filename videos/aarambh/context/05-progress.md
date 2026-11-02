@@ -20,3 +20,7 @@
 ## 2026-11-02 update: genre changed
 - New approved genre: famous people, achievements and life stories. The sewing/livelihood topic was rejected and is not continued.
 - 10 s style test (S01 Archive Light Table, Marie Curie's two Nobel Prizes) rendered at `videos/aarambh/tests/10s/pre-reset-2026-11-02/aarambh-10s-test.mp4` (sha256 `949f7989c0c73638b975911ab276d91a0be4bdd54cda917e1afb4149bd56345e`). See 10-educational-progress.md and that folder's README.md.
+
+## 2026-11-02: first 30 s production episode
+- `videos/aarambh/production/30s/2026-11-02/aarambh-30s-production-01.mp4` (sha256 `83cdfef3825d7cb19241a0f02fb117bfeadc5413af33def2129cb5ea825fb986`): Marie Curie, two sciences, two Nobel Prizes (Archive Light Table).
+- **Read first next time:** 11-production-format.md (durable format) and 12-production-30s-01.md.
