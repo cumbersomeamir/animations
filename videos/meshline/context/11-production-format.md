@@ -1,4 +1,4 @@
-# 11: Production format (durable; for future production rounds)
+# 11: Production format (durable; for future production rounds). Updated for batch 02
 
 This is reference for later rounds. **No automation has been created.** Each round is started by the user.
 
@@ -50,3 +50,18 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - 30.000 s, 1080x1920, 30 fps, 900 frames, H.264 yuv420p, AAC 48 kHz stereo.
 - Storyboard: hook 0–3 s, setup 3–8 s, mechanism 8–23 s, takeaway 23–29 s, end 29–30 s.
 - Output folder: `videos/meshline/production/<len>/<date>/`, containing the MP4, sources, `publishing-caption.txt`, QA evidence and claims.
+
+## User feedback and rules added in batch 02 (production-30s-2026-11-02-batch-02)
+- **Latest user feedback overrides earlier style details.** Keep the Transit Map world. Each new episode needs a fresh storyboard with purposeful scene changes, not a trim or recolour of an earlier output.
+- **Don't regenerate reviewed topics.** Episode 01 ("Why full bars can still mean slow data") is reviewed and closed.
+- **Scripts:** 65–80 words of natural delivery in 30 s. Research every claim against primary or institutional sources first, then tighten the draft minimally. Record every edit and its reason.
+- **Keep app identity, add no characters.** Don't introduce random new characters. The network itself performs (stations, routes, tokens).
+- **Distinguish other technologies from Meshline.** When explaining radios, repeaters or offline messaging generally, never claim which radio Meshline uses or that its range is unlimited. Use generic wording ("offline messaging apps may use different radios and rules, so check their limits").
+- **Veil rule (implementation):** any element that has stopped mattering is faded with a paper veil before the camera moves its position under the caption band. Text helpers must *multiply* the current alpha, not overwrite it.
+- **Batch hygiene:** check that the batch ID and output path don't already exist before starting. Output filenames follow `meshline-30s-production-NN.mp4` in `production/30s/<date>[-batch-NN]/`.
+
+## Episode log
+| # | Batch | Topic | Output |
+|---|---|---|---|
+| 01 | production-30s-2026-11-02 | Why full bars can still mean slow data | `production/30s/2026-11-02/meshline-30s-production-01.mp4` |
+| 02 | production-30s-2026-11-02-batch-02 | Why a walkie-talkie can work when the internet is down | `production/30s/2026-11-02-batch-02/meshline-30s-production-02.mp4` |

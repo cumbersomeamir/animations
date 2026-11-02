@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.3,
+  "end": 5.438,
+  "text": "Internet down? A walkie-talkie sends your voice by radio, straight to another radio.",
+  "speech_band_db": 13.7
+ },
+ {
+  "id": "l2",
+  "start": 5.79,
+  "end": 9.057,
+  "text": "No website, mobile data or internet router needed.",
+  "speech_band_db": 19.7
+ },
+ {
+  "id": "l3",
+  "start": 9.41,
+  "end": 13.851,
+  "text": "Both radios need compatible settings and must be within usable range.",
+  "speech_band_db": 17.1
+ },
+ {
+  "id": "l4",
+  "start": 14.15,
+  "end": 17.147,
+  "text": "Buildings, hills and interference can weaken the signal.",
+  "speech_band_db": 17.0
+ },
+ {
+  "id": "l5",
+  "start": 17.47,
+  "end": 20.615,
+  "text": "Some radio systems use repeaters to reach farther.",
+  "speech_band_db": 11.7
+ },
+ {
+  "id": "l6",
+  "start": 20.91,
+  "end": 25.666,
+  "text": "Offline messaging apps may use different radios and rules, so check their limits.",
+  "speech_band_db": 15.9
+ },
+ {
+  "id": "l7",
+  "start": 25.97,
+  "end": 28.985,
+  "text": "No internet doesn't mean unlimited communication.",
+  "speech_band_db": 16.7
+ }
+]

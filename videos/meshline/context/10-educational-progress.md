@@ -51,3 +51,6 @@
 
 ## Production round production-30s-2026-11-02: complete
 - See `11-production-format.md` (durable format) and `12-production-30s-01.md` (brief, script, storyboard, QA). Output sha256 `99ac6725f731772bc74b3d3717ba21c965af3f939715f2fd15f9048a5edd8578`.
+
+## Production batch production-30s-2026-11-02-batch-02: complete
+- See `13-production-30s-02.md`; output sha256 `1fb50fb7bc2a554f9c710a28a8ed45cb377bdbbdb1b26bde92e42afa753ea47c`. Format and feedback updated in `11-production-format.md`.

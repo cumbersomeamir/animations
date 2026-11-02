@@ -1,0 +1,42 @@
+{
+ "reference": "Internet down? A walkie-talkie sends your voice by radio, straight to another radio. No website, mobile data or internet router needed. Both radios need compatible settings and must be within usable range. Buildings, hills and interference can weaken the signal. Some radio systems use repeaters to reach farther. Offline messaging apps may use different radios and rules, so check their limits. No internet doesn't mean unlimited communication.",
+ "asr": "Internet down, a walkie-talkie sends your voice by radio straight to another radio. No website, mobile data, or internet router needed. Both radios need compatible settings and must be within usable range. Buildings, hills, and interference can weaken the signal. Some radio systems use repeaters to reach farther. Offline messaging apps may use different radios and rules, so check their limits. No internet doesn't mean unlimited communication.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   5.1,
+   "Internet down, a walkie-talkie sends your voice by radio straight to another radio."
+  ],
+  [
+   5.84,
+   8.74,
+   "No website, mobile data, or internet router needed."
+  ],
+  [
+   9.4,
+   13.52,
+   "Both radios need compatible settings and must be within usable range."
+  ],
+  [
+   14.32,
+   16.8,
+   "Buildings, hills, and interference can weaken the signal."
+  ],
+  [
+   17.64,
+   20.2,
+   "Some radio systems use repeaters to reach farther."
+  ],
+  [
+   21.28,
+   25.3,
+   "Offline messaging apps may use different radios and rules, so check their limits."
+  ],
+  [
+   25.3,
+   28.5,
+   "No internet doesn't mean unlimited communication."
+  ]
+ ]
+}

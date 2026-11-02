@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline voice: local Kokoro-82M ONNX (Apache-2.0). Not Piper; no imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.3,
+      "text": "Internet down? A walkie-talkie sends your voice by radio, straight to another radio."
+    },
+    {
+      "id": "l2",
+      "start": 5.79,
+      "text": "No website, mobile data or internet router needed."
+    },
+    {
+      "id": "l3",
+      "start": 9.41,
+      "text": "Both radios need compatible settings and must be within usable range."
+    },
+    {
+      "id": "l4",
+      "start": 14.15,
+      "text": "Buildings, hills and interference can weaken the signal."
+    },
+    {
+      "id": "l5",
+      "start": 17.47,
+      "text": "Some radio systems use repeaters to reach farther."
+    },
+    {
+      "id": "l6",
+      "start": 20.91,
+      "text": "Offline messaging apps may use different radios and rules, so check their limits."
+    },
+    {
+      "id": "l7",
+      "start": 25.97,
+      "text": "No internet doesn't mean unlimited communication."
+    }
+  ]
+}
