@@ -1,0 +1,513 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-base.en (int8, CPU)",
+ "word_recall_lcs": 0.986,
+ "script_words": 69,
+ "heard_words": 69,
+ "transcript": "Noise -canceling headphones don't just wall off your ears. Microphones listen to the noise, and electronics create an opposing wave. When the waves meet, part of the noise is reduced. This works best on steady low rumbles, like an engine. Voices and sudden, sharp sounds are harder to cancel. Ear cushions also block sound physically. So the quiet comes from two mechanisms working together. A snug fit helps both.",
+ "lines": [
+  {
+   "id": "V1",
+   "script": "Noise cancelling headphones don't just wall off your ears.",
+   "window": [
+    0.25,
+    3.5
+   ],
+   "heard": "Noise -canceling headphones don't just wall off your ears.",
+   "first_word_s": 0.0,
+   "last_word_e": 3.22
+  },
+  {
+   "id": "V2",
+   "script": "Microphones listen to the noise, and electronics create an opposing wave.",
+   "window": [
+    3.85,
+    8.25
+   ],
+   "heard": "Microphones listen to the noise, and electronics create an opposing wave.",
+   "first_word_s": 4.0,
+   "last_word_e": 7.92
+  },
+  {
+   "id": "V3",
+   "script": "When the waves meet, part of the noise is reduced.",
+   "window": [
+    8.7,
+    11.33
+   ],
+   "heard": "When the waves meet, part of the noise is reduced.",
+   "first_word_s": 8.74,
+   "last_word_e": 10.86
+  },
+  {
+   "id": "V4",
+   "script": "This works best on steady, low rumbles, like an engine.",
+   "window": [
+    11.8,
+    14.9
+   ],
+   "heard": "This works best on steady low rumbles, like an engine.",
+   "first_word_s": 11.84,
+   "last_word_e": 14.56
+  },
+  {
+   "id": "V5",
+   "script": "Voices and sudden, sharp sounds are harder to cancel.",
+   "window": [
+    15.35,
+    18.44
+   ],
+   "heard": "Voices and sudden, sharp sounds are harder to cancel.",
+   "first_word_s": 15.62,
+   "last_word_e": 18.14
+  },
+  {
+   "id": "V6",
+   "script": "Ear cushions also block sound physically.",
+   "window": [
+    18.95,
+    21.11
+   ],
+   "heard": "Ear cushions also block sound physically.",
+   "first_word_s": 19.02,
+   "last_word_e": 20.68
+  },
+  {
+   "id": "V7",
+   "script": "So the quiet comes from two mechanisms working together.",
+   "window": [
+    23.05,
+    26.03
+   ],
+   "heard": "So the quiet comes from two mechanisms working together.",
+   "first_word_s": 23.03,
+   "last_word_e": 25.71
+  },
+  {
+   "id": "V8",
+   "script": "A snug fit helps both.",
+   "window": [
+    26.5,
+    27.76
+   ],
+   "heard": "A snug fit helps both.",
+   "first_word_s": 26.51,
+   "last_word_e": 27.45
+  }
+ ],
+ "words": [
+  {
+   "w": "Noise",
+   "s": 0.0,
+   "e": 0.48,
+   "p": 0.83
+  },
+  {
+   "w": "-canceling",
+   "s": 0.48,
+   "e": 1.02,
+   "p": 0.79
+  },
+  {
+   "w": "headphones",
+   "s": 1.02,
+   "e": 1.24,
+   "p": 1.0
+  },
+  {
+   "w": "don't",
+   "s": 1.24,
+   "e": 2.16,
+   "p": 0.98
+  },
+  {
+   "w": "just",
+   "s": 2.16,
+   "e": 2.3,
+   "p": 1.0
+  },
+  {
+   "w": "wall",
+   "s": 2.3,
+   "e": 2.54,
+   "p": 0.99
+  },
+  {
+   "w": "off",
+   "s": 2.54,
+   "e": 2.82,
+   "p": 0.84
+  },
+  {
+   "w": "your",
+   "s": 2.82,
+   "e": 2.98,
+   "p": 0.99
+  },
+  {
+   "w": "ears.",
+   "s": 2.98,
+   "e": 3.22,
+   "p": 1.0
+  },
+  {
+   "w": "Microphones",
+   "s": 4.0,
+   "e": 4.4,
+   "p": 0.92
+  },
+  {
+   "w": "listen",
+   "s": 4.4,
+   "e": 4.7,
+   "p": 0.99
+  },
+  {
+   "w": "to",
+   "s": 4.7,
+   "e": 5.02,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 5.02,
+   "e": 5.1,
+   "p": 1.0
+  },
+  {
+   "w": "noise,",
+   "s": 5.1,
+   "e": 5.34,
+   "p": 0.91
+  },
+  {
+   "w": "and",
+   "s": 5.88,
+   "e": 6.06,
+   "p": 0.99
+  },
+  {
+   "w": "electronics",
+   "s": 6.06,
+   "e": 6.38,
+   "p": 0.99
+  },
+  {
+   "w": "create",
+   "s": 6.38,
+   "e": 6.96,
+   "p": 1.0
+  },
+  {
+   "w": "an",
+   "s": 6.96,
+   "e": 7.18,
+   "p": 1.0
+  },
+  {
+   "w": "opposing",
+   "s": 7.18,
+   "e": 7.28,
+   "p": 0.99
+  },
+  {
+   "w": "wave.",
+   "s": 7.28,
+   "e": 7.92,
+   "p": 1.0
+  },
+  {
+   "w": "When",
+   "s": 8.74,
+   "e": 8.76,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 8.76,
+   "e": 8.86,
+   "p": 1.0
+  },
+  {
+   "w": "waves",
+   "s": 8.86,
+   "e": 9.02,
+   "p": 0.99
+  },
+  {
+   "w": "meet,",
+   "s": 9.02,
+   "e": 9.38,
+   "p": 1.0
+  },
+  {
+   "w": "part",
+   "s": 9.8,
+   "e": 9.9,
+   "p": 0.99
+  },
+  {
+   "w": "of",
+   "s": 9.9,
+   "e": 10.04,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 10.04,
+   "e": 10.12,
+   "p": 1.0
+  },
+  {
+   "w": "noise",
+   "s": 10.12,
+   "e": 10.4,
+   "p": 0.99
+  },
+  {
+   "w": "is",
+   "s": 10.4,
+   "e": 10.6,
+   "p": 1.0
+  },
+  {
+   "w": "reduced.",
+   "s": 10.6,
+   "e": 10.86,
+   "p": 1.0
+  },
+  {
+   "w": "This",
+   "s": 11.84,
+   "e": 11.88,
+   "p": 1.0
+  },
+  {
+   "w": "works",
+   "s": 11.88,
+   "e": 12.1,
+   "p": 0.99
+  },
+  {
+   "w": "best",
+   "s": 12.1,
+   "e": 12.34,
+   "p": 1.0
+  },
+  {
+   "w": "on",
+   "s": 12.34,
+   "e": 12.58,
+   "p": 1.0
+  },
+  {
+   "w": "steady",
+   "s": 12.58,
+   "e": 12.86,
+   "p": 1.0
+  },
+  {
+   "w": "low",
+   "s": 12.86,
+   "e": 13.24,
+   "p": 0.63
+  },
+  {
+   "w": "rumbles,",
+   "s": 13.24,
+   "e": 13.62,
+   "p": 0.92
+  },
+  {
+   "w": "like",
+   "s": 13.62,
+   "e": 14.26,
+   "p": 1.0
+  },
+  {
+   "w": "an",
+   "s": 14.26,
+   "e": 14.36,
+   "p": 0.98
+  },
+  {
+   "w": "engine.",
+   "s": 14.36,
+   "e": 14.56,
+   "p": 1.0
+  },
+  {
+   "w": "Voices",
+   "s": 15.62,
+   "e": 15.62,
+   "p": 0.96
+  },
+  {
+   "w": "and",
+   "s": 15.62,
+   "e": 15.94,
+   "p": 0.97
+  },
+  {
+   "w": "sudden,",
+   "s": 15.94,
+   "e": 16.14,
+   "p": 0.99
+  },
+  {
+   "w": "sharp",
+   "s": 16.62,
+   "e": 16.84,
+   "p": 1.0
+  },
+  {
+   "w": "sounds",
+   "s": 16.84,
+   "e": 17.16,
+   "p": 0.99
+  },
+  {
+   "w": "are",
+   "s": 17.16,
+   "e": 17.44,
+   "p": 1.0
+  },
+  {
+   "w": "harder",
+   "s": 17.44,
+   "e": 17.64,
+   "p": 0.99
+  },
+  {
+   "w": "to",
+   "s": 17.64,
+   "e": 17.86,
+   "p": 1.0
+  },
+  {
+   "w": "cancel.",
+   "s": 17.86,
+   "e": 18.14,
+   "p": 1.0
+  },
+  {
+   "w": "Ear",
+   "s": 19.02,
+   "e": 19.04,
+   "p": 0.91
+  },
+  {
+   "w": "cushions",
+   "s": 19.04,
+   "e": 19.48,
+   "p": 0.97
+  },
+  {
+   "w": "also",
+   "s": 19.48,
+   "e": 19.82,
+   "p": 1.0
+  },
+  {
+   "w": "block",
+   "s": 19.82,
+   "e": 20.04,
+   "p": 0.99
+  },
+  {
+   "w": "sound",
+   "s": 20.04,
+   "e": 20.32,
+   "p": 0.99
+  },
+  {
+   "w": "physically.",
+   "s": 20.32,
+   "e": 20.68,
+   "p": 1.0
+  },
+  {
+   "w": "So",
+   "s": 23.03,
+   "e": 23.15,
+   "p": 0.99
+  },
+  {
+   "w": "the",
+   "s": 23.15,
+   "e": 23.25,
+   "p": 0.93
+  },
+  {
+   "w": "quiet",
+   "s": 23.25,
+   "e": 23.49,
+   "p": 0.99
+  },
+  {
+   "w": "comes",
+   "s": 23.49,
+   "e": 23.87,
+   "p": 1.0
+  },
+  {
+   "w": "from",
+   "s": 23.87,
+   "e": 24.13,
+   "p": 1.0
+  },
+  {
+   "w": "two",
+   "s": 24.13,
+   "e": 24.37,
+   "p": 0.98
+  },
+  {
+   "w": "mechanisms",
+   "s": 24.37,
+   "e": 24.69,
+   "p": 0.99
+  },
+  {
+   "w": "working",
+   "s": 24.69,
+   "e": 25.29,
+   "p": 0.98
+  },
+  {
+   "w": "together.",
+   "s": 25.29,
+   "e": 25.71,
+   "p": 1.0
+  },
+  {
+   "w": "A",
+   "s": 26.51,
+   "e": 26.57,
+   "p": 1.0
+  },
+  {
+   "w": "snug",
+   "s": 26.57,
+   "e": 26.75,
+   "p": 0.98
+  },
+  {
+   "w": "fit",
+   "s": 26.75,
+   "e": 26.99,
+   "p": 0.82
+  },
+  {
+   "w": "helps",
+   "s": 26.99,
+   "e": 27.19,
+   "p": 1.0
+  },
+  {
+   "w": "both.",
+   "s": 27.19,
+   "e": 27.45,
+   "p": 1.0
+  }
+ ]
+}

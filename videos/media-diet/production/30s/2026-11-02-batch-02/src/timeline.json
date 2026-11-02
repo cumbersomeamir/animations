@@ -1,0 +1,200 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (kokoro-v1.0.onnx, voices-v1.0.bin)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.25,
+   "say": "Noise cancelling headphones don't just wall off your ears.",
+   "cues": [
+    [
+     "Noise cancelling headphones",
+     "don\u2019t just wall off your ears."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.85,
+   "say": "Microphones listen to the noise, and electronics create an opposing wave.",
+   "cues": [
+    [
+     "Microphones listen",
+     "to the noise,"
+    ],
+    [
+     "and electronics create",
+     "an opposing wave."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 8.7,
+   "say": "When the waves meet, part of the noise is reduced.",
+   "cues": [
+    [
+     "When the waves meet,",
+     "part of the noise is reduced."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 11.8,
+   "say": "This works best on steady, low rumbles, like an engine.",
+   "cues": [
+    [
+     "This works best on steady,",
+     "low rumbles, like an engine."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 15.35,
+   "say": "Voices and sudden, sharp sounds are harder to cancel.",
+   "cues": [
+    [
+     "Voices and sudden, sharp sounds",
+     "are harder to cancel."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 18.95,
+   "say": "Ear cushions also block sound physically.",
+   "cues": [
+    [
+     "Ear cushions also",
+     "block sound physically."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 23.05,
+   "say": "So the quiet comes from two mechanisms working together.",
+   "cues": [
+    [
+     "So the quiet comes from",
+     "two mechanisms working together."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.5,
+   "say": "A snug fit helps both.",
+   "cues": [
+    [
+     "A snug fit helps both."
+    ]
+   ]
+  }
+ ],
+ "layouts": [
+  {
+   "id": "L1",
+   "in": 0.0,
+   "out": 3.5,
+   "name": "evidence case opens"
+  },
+  {
+   "id": "L2",
+   "in": 3.5,
+   "out": 8.5,
+   "name": "cutaway: mics, electronics, driver"
+  },
+  {
+   "id": "L3",
+   "in": 8.5,
+   "out": 11.5,
+   "name": "chart: waves meet, reduced not zero"
+  },
+  {
+   "id": "L4",
+   "in": 11.5,
+   "out": 15.0,
+   "name": "chart: steady low engine rumble"
+  },
+  {
+   "id": "L5",
+   "in": 15.0,
+   "out": 18.5,
+   "name": "chart: voice / sudden sound gets through"
+  },
+  {
+   "id": "L6",
+   "in": 18.5,
+   "out": 21.5,
+   "name": "cutaway: cushion blocks physically"
+  },
+  {
+   "id": "L7",
+   "in": 21.5,
+   "out": 26.0,
+   "name": "board: active + passive"
+  },
+  {
+   "id": "L8",
+   "in": 26.0,
+   "out": 28.0,
+   "name": "fit: seal closes the leak"
+  },
+  {
+   "id": "L9",
+   "in": 28.0,
+   "out": 30.0,
+   "name": "evidence map + signature"
+  }
+ ],
+ "events": {
+  "latch": 0.45,
+  "lidOpen": 0.55,
+  "wallGhost": 1.75,
+  "micHint": 2.75,
+  "noiseIn": 3.6,
+  "micOut": 3.95,
+  "micIn": 4.45,
+  "chip": 5.9,
+  "antiOut": 6.9,
+  "playA": 8.6,
+  "sumA": 9.2,
+  "ringA": 10.55,
+  "playB": 11.6,
+  "checkB": 14.1,
+  "playC": 15.1,
+  "ringC1": 16.9,
+  "ringC2": 17.35,
+  "waveP": 18.6,
+  "ringCushion": 19.45,
+  "passiveTag": 20.4,
+  "colA": 21.52,
+  "colB": 22.15,
+  "itemA3": 22.6,
+  "brace": 24.35,
+  "leak": 26.05,
+  "seal": 26.75,
+  "fitChecks": 27.35,
+  "map": 28.05
+ }
+}

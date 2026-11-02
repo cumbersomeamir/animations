@@ -80,3 +80,25 @@ Speech ≈ 24 s max (≈ 67 words at Kokoro speed 0.98), ≥ 0.3 s air between l
 `videos/media-diet/production/30s/<date>/media-diet-30s-production-NN.mp4` + publishing-caption.txt, SOURCES.md (facts
 file), LICENSES.md, QA.md, qa/ evidence; brief/script/storyboard/QA summary in context/12-… per production.
 H.264 High yuv420p 1080×1920 30/1 fps, AAC-LC 48 kHz stereo 192 kb/s, exactly 30.000 s, faststart.
+
+## Updates from the user's feedback (batch-02, 2026-11-02) — latest feedback overrides earlier style details
+- 30s-01 (airplane mode) was reviewed and accepted; keep its identity (bench, palette, type, captions, signature) and
+  never regenerate a used topic. Each new episode gets a **fresh storyboard with purposeful transitions** — no trims,
+  recolours or re-cuts of old output.
+- **No decorative motion disconnected from narration.** Every animated element must be triggered by, or illustrate, the
+  line being spoken (e.g. waves only travel when the voice talks about them; ambient dust/particles are not used).
+- Show the mechanism through scene changes (object → cutaway → chart → contrast → verdict → practical check → map),
+  one finding per layout, cuts on the 0.5 s grid at narration boundaries.
+- Word budget 65–80 words for a natural 30 s at speed 0.98 (≈ 22.5–25 s of speech); tighten the draft only for accuracy and timing.
+- Sound may **demonstrate** the mechanism (event-linked, always under the voice), e.g. a rumble that drops when anti-noise
+  engages, a leak hiss that stops when a seal closes.
+- Keep the accepted app identity; no new characters or mascots in this production format.
+- Caches to reuse (not committed): `production/30s/2026-11-02/.cache/{venv,models}` (Kokoro model/voices, faster-whisper
+  base.en) and `production/30s/2026-11-02/node_modules` — later batches symlink them (`.cache/venv`, `.cache/models`,
+  `node_modules`) so no re-download or re-install is needed; build/QA scripts are copied per episode.
+
+## Episode log
+| # | folder | topic | status |
+|---|---|---|---|
+| 01 | production/30s/2026-11-02/ | What airplane mode actually switches off | delivered, reviewed |
+| 02 | production/30s/2026-11-02-batch-02/ | How noise cancelling headphones create quiet | delivered (context/13-production-30s-02.md) |

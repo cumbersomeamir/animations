@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "Noise cancelling headphones don't just wall off your ears.",
+  "duration": 3.255,
+  "words": 9
+ },
+ {
+  "id": "V2",
+  "say": "Microphones listen to the noise, and electronics create an opposing wave.",
+  "duration": 4.397,
+  "words": 11
+ },
+ {
+  "id": "V3",
+  "say": "When the waves meet, part of the noise is reduced.",
+  "duration": 2.626,
+  "words": 10
+ },
+ {
+  "id": "V4",
+  "say": "This works best on steady, low rumbles, like an engine.",
+  "duration": 3.1,
+  "words": 10
+ },
+ {
+  "id": "V5",
+  "say": "Voices and sudden, sharp sounds are harder to cancel.",
+  "duration": 3.092,
+  "words": 9
+ },
+ {
+  "id": "V6",
+  "say": "Ear cushions also block sound physically.",
+  "duration": 2.157,
+  "words": 6
+ },
+ {
+  "id": "V7",
+  "say": "So the quiet comes from two mechanisms working together.",
+  "duration": 2.978,
+  "words": 9
+ },
+ {
+  "id": "V8",
+  "say": "A snug fit helps both.",
+  "duration": 1.258,
+  "words": 5
+ }
+]
