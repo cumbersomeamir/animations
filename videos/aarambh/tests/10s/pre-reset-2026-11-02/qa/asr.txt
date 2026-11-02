@@ -1,0 +1,2 @@
+ASR(tiny.en): Marie Curie won Nobel Prizes in Physics and Chemistry. One person, two different sciences.
+timings: [('Marie', np.float64(0.0)), ('Curie', np.float64(1.0)), ('won', np.float64(1.4)), ('Nobel', np.float64(1.68)), ('Prizes', np.float64(2.02)), ('in', np.float64(2.66)), ('Physics', np.float64(2.92)), ('and', np.float64(3.2)), ('Chemistry.', np.float64(3.58)), ('One', np.float64(4.64)), ('person,', np.float64(4.9)), ('two', np.float64(5.6)), ('different', np.float64(5.84)), ('sciences.', np.float64(6.12))]

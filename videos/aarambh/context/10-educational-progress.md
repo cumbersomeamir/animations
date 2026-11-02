@@ -83,3 +83,14 @@ node src/render.mjs --stills build/stills --times 3.3,7.6   # quick stills for r
 - `videos/aarambh/education/pilot-01/aarambh-education-pilot-01.mp4`
 - sha256 `a513250845432be73d1113707ae497f0dc4cc1f1db72d93299dabbc1a1477fc3`
 - 13,285,577 bytes
+
+## 2026-11-02: 10 s style test, batch "2026-11-02-pre-reset" (S01 Archive Light Table)
+The user changed direction: Aarambh's content is now **famous people, achievements and life stories**. The sewing-machine/livelihood topic was rejected and is not continued. Pilot 01 above is preserved as is.
+- **Output:** `videos/aarambh/tests/10s/pre-reset-2026-11-02/aarambh-10s-test.mp4`, sha256 `949f7989c0c73638b975911ab276d91a0be4bdd54cda917e1afb4149bd56345e`
+- **Spec:** 10.000 s, 1080x1920, 30 fps, 300 frames, H.264 + AAC 48 kHz stereo. Full decode OK.
+- **Topic:** Marie Curie, Nobel Physics 1903 (shared, 1/4) and Nobel Chemistry 1911 (1/1). Verified on the nobelprize.org facts pages 2026-11-02.
+- **Portrait:** Wikimedia Commons, Henri Manuel c. 1920, public domain.
+- **Voice:** Kokoro-82M ONNX with the Meshline blend af_bella 0.7 + am_puck 0.3, speed 0.98, en-us. Not Piper.
+- **ASR (tiny.en):** exact match with the script.
+- **Limits:** −18.5 LUFS (below the −14 target); the caption plate partly covers the portrait during the card beat; QA was within the time budget only (details in that folder's README.md).
+- **Next:** user review of the style. If approved, re-master loudness to −14 LUFS and run a fresh full contact-sheet pass.

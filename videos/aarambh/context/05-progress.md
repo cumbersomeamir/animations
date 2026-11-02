@@ -16,3 +16,7 @@
 
 ## Next
 - Get user feedback on Pilot 01, then episode 02 (list in 08). Read 10-educational-progress.md first when resuming.
+
+## 2026-11-02 update: genre changed
+- New approved genre: famous people, achievements and life stories. The sewing/livelihood topic was rejected and is not continued.
+- 10 s style test (S01 Archive Light Table, Marie Curie's two Nobel Prizes) rendered at `videos/aarambh/tests/10s/pre-reset-2026-11-02/aarambh-10s-test.mp4` (sha256 `949f7989c0c73638b975911ab276d91a0be4bdd54cda917e1afb4149bd56345e`). See 10-educational-progress.md and that folder's README.md.
