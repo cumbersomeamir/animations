@@ -84,3 +84,21 @@ This supersedes 08 (tools and livelihoods niche). That lesson and the Pilot 01 o
   - fact table against official sources
   - licences for every archive object
 - **Output:** `videos/aarambh/production/30s/<date>/aarambh-30s-production-NN.mp4`, plus `publishing-caption.txt`, `README.md` (facts, licences, QA) and source.
+
+
+## User feedback log (latest overrides earlier rules)
+- **2026-11-02, batch-02 brief (applies to all future episodes):** every episode must change across at least FIVE distinct full pages or scenes on the light table, using actual page turns, slide swaps and cuts.
+  - No loupe bobbing on a single page. The loupe is optional, used for at most one deliberate landing that tracks along a line.
+  - Verify facts against institutional and primary sources (e.g. Science Museum, Bodleian, NobelPrize.org), and qualify contested "first" attributions on screen and in narration.
+  - Script length about 65–80 words, fitted naturally into 30 s.
+
+## Scene-change vocabulary (implemented in production/30s/2026-11-02-batch-02/src/render.mjs)
+- **Page turn:** a vertical fold sweeps right to left. The flap shows the paper back with faint mirrored show-through and casts a shadow on the next page. About 0.7 s, with a paper swish.
+- **Slide swap:** the next glass slide slides in from the right and pushes the current page off to the left. About 0.55 s, with a glass scrape and a clack.
+- **Hard cut:** an instant change on a spoken word, with a light-table click and a 0.1 s white flash at ≤ 35%.
+- **Index pull-back:** all pages shrink into a 3+2 grid on the table and a gold thread joins them in story order (the takeaway).
+- **Page layout:** each page is a cached 900x1000 canvas drawn at 0.94 scale. The camera keeps the page top at screen y ≥ ~530 and the bottom at ≤ ~1510, so captions never cover page content.
+
+## Episode log
+- 01 (2026-11-02): Marie Curie, two sciences, two Nobel Prizes. Record: `12-production-30s-01.md`
+- 02 (2026-11-02, batch-02): Ada Lovelace, Note G and the first published computer algorithm. Record: `13-production-30s-02.md`

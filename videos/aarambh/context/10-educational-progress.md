@@ -99,3 +99,7 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Output:** `videos/aarambh/production/30s/2026-11-02/aarambh-30s-production-01.mp4`, sha256 `83cdfef3825d7cb19241a0f02fb117bfeadc5413af33def2129cb5ea825fb986`. 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
 - **Format rules:** `context/11-production-format.md`. **Episode record** (script, sources, storyboard, QA): `context/12-production-30s-01.md`.
 - **Next:** user review. Future rounds follow 11; no automation has been created.
+
+## 2026-11-02: production batch-02 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-02-batch-02/aarambh-30s-production-02.mp4`, sha256 `4ec3350b32b03ed58c50bea8f6e90192e862734c7d4848be3fe676c24ef67171`. Ada Lovelace / Note G. 30.000 s, 900 frames, −15.2 LUFS, −1.5 dBTP, full decode OK.
+- **Record:** `context/13-production-30s-02.md`. The user's five-page/scene-change feedback is saved in `context/11` (feedback log). No automation has been created.

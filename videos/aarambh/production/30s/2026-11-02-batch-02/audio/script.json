@@ -1,0 +1,35 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "In 1843, Ada Lovelace published notes on Babbage's proposed Analytical Engine.",
+      "tts": "In eighteen forty-three, Ada Lovelace published notes on Babbage's proposed Analytical Engine.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "Her Note G laid out steps for calculating Bernoulli numbers, often called the first published computer algorithm.",
+      "tts": "Her Note G laid out steps for calculating Bernoulli numbers, often called the first published computer algorithm.",
+      "start": 6.55
+    },
+    {
+      "id": "S3",
+      "text": "The engine was never completed in her lifetime.",
+      "tts": "The engine was never completed in her lifetime.",
+      "start": 14.1
+    },
+    {
+      "id": "S4",
+      "text": "She also imagined it handling symbols beyond numbers, even music.",
+      "tts": "She also imagined it handling symbols beyond numbers, even music.",
+      "start": 17.25
+    },
+    {
+      "id": "S5",
+      "text": "Her story isn't only about predicting computers. It's about seeing possibilities in a machine that didn't yet exist.",
+      "tts": "Her story isn't only about predicting computers. It's about seeing possibilities in a machine that didn't yet exist.",
+      "start": 21.95
+    }
+  ]
+}

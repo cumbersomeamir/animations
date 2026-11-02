@@ -24,3 +24,6 @@
 ## 2026-11-02: first 30 s production episode
 - `videos/aarambh/production/30s/2026-11-02/aarambh-30s-production-01.mp4` (sha256 `83cdfef3825d7cb19241a0f02fb117bfeadc5413af33def2129cb5ea825fb986`): Marie Curie, two sciences, two Nobel Prizes (Archive Light Table).
 - **Read first next time:** 11-production-format.md (durable format) and 12-production-30s-01.md.
+
+## 2026-11-02: production 30 s #02
+- `videos/aarambh/production/30s/2026-11-02-batch-02/aarambh-30s-production-02.mp4` (sha256 `4ec3350b32b03ed58c50bea8f6e90192e862734c7d4848be3fe676c24ef67171`): Ada Lovelace and Note G. See 13-production-30s-02.md; format and feedback in 11.
