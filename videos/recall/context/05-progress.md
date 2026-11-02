@@ -37,4 +37,6 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
 - Active direction moved to educational pilots: see 08 (strategy), 09 (pilot 01 brief/storyboard), 10 (progress).
 - Pilot 01 delivered: `videos/recall/education/pilot-01/recall-education-pilot-01.mp4` (15.000 s, verified; QA in
   `education/pilot-01/qa/QA.md`). The 30 s ad above is untouched. The 06 15 s style test is not started (07).
+- Production round 2026-11-02: `videos/recall/production/30s/2026-11-02/recall-30s-production-01.mp4` (30.000 s knowledge
+  challenge; format in 11, record + QA in 12).
 

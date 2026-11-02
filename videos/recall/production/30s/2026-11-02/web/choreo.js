@@ -68,7 +68,7 @@ export function makeChoreo(tl) {
   // ---------------- camera: locked frontal home frame with beat-locked push-ins (safe-area preserving)
   const BASE = { pos: [0, 0.98, 5.35], target: [0, 0.745, 0] };
   function camera(t) {
-    const zoom = key(t, [[0, 0.06], [0.5, 0, E.out3], [8.5, 0], [8.6, 0.035, E.out], [9.2, 0, E.io],
+    const zoom = key(t, [[0, 0.06], [0.5, 0, E.out3], [8.5, 0], [8.6, 0.012, E.out], [9.2, 0, E.io],
       [18.5, 0], [19.0, 0.05, E.io3], [21.4, 0.05], [21.55, 0, E.out3], [26.5, 0], [26.7, 0.03, E.out], [27.5, 0, E.io],
       [29.0, 0], [30.0, -0.025, E.io]]);
     const shiftX = key(t, [[0, 0], [18.5, 0], [19.0, 0.06, E.io3], [21.4, 0.06], [21.55, 0, E.out3], [30, 0]]);
@@ -81,8 +81,8 @@ export function makeChoreo(tl) {
   function kip(t, b, s) {
     const p = {};
     const idle = (t > C.fuseStart && t < C.answer) ? 0.03 * onBeat(t) : 0.012 * onBeat(t);
-    const hop = 0.06 * pulse(t, C.stampShip - 0.05, C.stampShip + 0.3) + 0.08 * pulse(t, C.answer, C.answer + 0.35)
-      + 0.07 * pulse(t, C.thumbs, C.thumbs + 0.34);
+    const hop = 0.06 * pulse(t, C.stampShip - 0.05, C.stampShip + 0.3) + 0.012 * pulse(t, C.answer, C.answer + 0.35)
+      + 0.035 * pulse(t, C.thumbs, C.thumbs + 0.34);   // small hops keep the helmet below the UI row (y >= 612)
     p.root = [KR[0], KR[1] + hop, KR[2]];
     p.yaw = key(t, [[0, 0], [C.drop, -0.15], [C.shipLower, 0.2], [C.stampShip, 0.1], [C.sameTags, 0], [C.markers, 0.12],
       [C.push, 0], [C.fill, 0.25], [C.sunk, 0.2], [C.weights, -0.1], [C.notLighter, 0.1], [C.shape, 0], [30, 0]]);

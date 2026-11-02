@@ -79,3 +79,9 @@ node render.mjs --sheet build/sheet && audio/.venv/bin/python docs/make_sheet.py
 Pilot 01 is complete. Next, on user request: pick one of the 10 titles in 08, write its brief + sources (new 11-*.md),
 and reuse `web/character.js`, `clay.js`, `anim.js`, `render.mjs`, `audio/mix.py` and the Kip voice blend in a new
 `education/episode-NN/` folder. Do not overwrite pilot-01.
+
+## Update 2026-11-02 — production round `production-30s-2026-11-02`
+Newer format: context/11-production-format.md (knowledge challenges, Microgame Frenzy adaptation, "Meshline" voice
+config af_bella 0.7 + am_puck 0.3). Round record + QA: context/12-production-30s-01.md. Deliverable:
+`videos/recall/production/30s/2026-11-02/recall-30s-production-01.mp4` (30.000 s, verified). Pilot 01 untouched.
+

@@ -54,9 +54,24 @@ ship displaces 7.8× the ball's water; computed level rise 0.00695 vs 0.0542 (ra
 | 26.5–29.0 | takeaway (replay) | REPLAY! rewind: ship refloats; final ✗ SINKS / ✓ FLOATS, ≈8× mark; TAKEAWAY chip; Kip thumbs-up | rewind zip, stamps, hop |
 | 29.0–30.0 | end | button chord; small Recall signature (icon + name) in the UI row; held frame | button chord rings out |
 
-## QA
-See `production/30s/2026-11-02/qa/QA.md` (filled from the final file) and the progress block below.
+## QA (final exported file — details in `production/30s/2026-11-02/qa/QA.md`)
+- `videos/recall/production/30s/2026-11-02/recall-30s-production-01.mp4`, sha256 d0261d676523589dbb9d577b19a7e02d47d092a2a380d77001081383a36c0077,
+  10 590 379 bytes; H.264 High yuv420p 1080×1920 30/1, **900 frames**, video/audio/container **30.000000 s**,
+  AAC LC 48 kHz stereo; full decode clean; **−14.6 LUFS**, **true peak −1.5 dBTP**, 0 clipped samples.
+- One ASR pass on the final mix = script (WER 0.0). Caption ink y 353.5–466.5, x 221–859, ≤ 2 lines; top 300 px clear
+  in all frames; Kip's helmet ≥ 618 px and tank floor ≤ 1490 px under camera moves. 24/24 automated checks pass.
+- Fixes: weight arrows above resting pieces; stamps and labels; slam burst capped; l08 foley lowered; helmet tip under
+  the UI row in 10 frames → hops/push-in reduced and frames 254–277 + 839–852 re-rendered (seams verified); GUESS! tag
+  fly-out hidden behind chips.
+- Limits: audio judged by measurement + ASR only (cannot listen); social UI not simulated; the grade-5 framing rests
+  on Texas TEKS only.
 
 ## Progress / state
 - 2026-11-02: verified repo/branch; read the skill doc (read-only) and the sources; narration + word timings;
-  scene/overlay/physics/mix built; first representative stills checked; render 1 started (3 workers ≈ 28 frames/min).
+  scene/overlay/physics/mix built; stills checked; render 1 (28 min, 3 workers) → QA found 10 frames over the UI-row
+  limit → patched → final export verified; committed and pushed to `claude-video/recall`.
+- Exact commands: `cd videos/recall/production/30s/2026-11-02 && WORKERS=3 ./build.sh`; patch:
+  `node render.mjs --pngdir build/patch --from 254 --to 277` and `--from 839 --to 852`, copy PNGs + merge layout
+  entries into build/frames, `./mux.sh`, `audio/.venv/bin/python qa/qa.py`. A clean `./build.sh` now reproduces the
+  final in one pass because the fixes are in the source.
+- Next: on request, the next knowledge challenge in the same format (11); no automation created.

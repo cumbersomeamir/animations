@@ -1,0 +1,18 @@
+{
+  "steel_volume": 0.0014367550402417323,
+  "displaced_floating": 0.011206689313885512,
+  "ratio": 7.8,
+  "chamber_area": 0.20672000000000001,
+  "rise_ball": 0.006950246905194138,
+  "rise_ship": 0.05421192586051428,
+  "rise_sunk": 0.006950246905194138,
+  "ship_draft": 0.10992644808211402,
+  "hull_depth": 0.2,
+  "freeboard": 0.09007355191788599,
+  "envelope_total": 0.020723131049987322,
+  "reserve_ratio": 1.8491751193914674,
+  "inside_water_to_founder": 0.00951644173610181,
+  "level0": 0.36,
+  "level_ship": 0.41421192586051425,
+  "level_sunk": 0.3669502469051941
+}

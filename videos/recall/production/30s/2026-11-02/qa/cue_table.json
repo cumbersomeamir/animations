@@ -1,0 +1,108 @@
+{
+  "bpm": 120,
+  "beat_s": 0.5,
+  "cues": {
+    "drop": 0.4,
+    "splash": 0.66,
+    "ballFloor": 1.0,
+    "stampBall": 1.5,
+    "shipLower": 1.15,
+    "shipTouch": 1.85,
+    "stampShip": 2.5,
+    "stampsOut": 3.0,
+    "sameTags": 3.3,
+    "shrug": 4.3,
+    "guess": 5.5,
+    "fuseStart": 6.5,
+    "answer": 8.5,
+    "ghost": 10.05,
+    "markers": 11.05,
+    "weightTags": 12.5,
+    "push": 13.75,
+    "shipWeight": 15.8,
+    "balanced": 16.1,
+    "floatsTick": 17.7,
+    "fill": 18.5,
+    "plugPull": 19.0,
+    "founder": 20.55,
+    "sunk": 21.4,
+    "stampSunk": 21.5,
+    "weights": 22.6,
+    "notLighter": 23.5,
+    "shape": 24.85,
+    "replay": 26.5,
+    "replayEnd": 27.5,
+    "stampFinal": 27.5,
+    "thumbs": 28.0,
+    "end": 29.0
+  },
+  "commands": [
+    {
+      "word": "WATCH!",
+      "t": 0.0,
+      "tag": 0.42
+    },
+    {
+      "word": "GUESS!",
+      "t": 5.5,
+      "tag": 6.2
+    },
+    {
+      "word": "ANSWER!",
+      "t": 8.5,
+      "tag": 9.15
+    },
+    {
+      "word": "FILL IT!",
+      "t": 18.5,
+      "tag": 18.95
+    },
+    {
+      "word": "REPLAY!",
+      "t": 26.5,
+      "tag": 26.95
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.4
+    },
+    {
+      "id": "l02",
+      "start": 1.85
+    },
+    {
+      "id": "l03",
+      "start": 3.3
+    },
+    {
+      "id": "l04",
+      "start": 5.6
+    },
+    {
+      "id": "l05",
+      "start": 8.65
+    },
+    {
+      "id": "l06",
+      "start": 13.75
+    },
+    {
+      "id": "l07",
+      "start": 15.3
+    },
+    {
+      "id": "l08",
+      "start": 18.65
+    },
+    {
+      "id": "l09",
+      "start": 22.6
+    },
+    {
+      "id": "l10",
+      "start": 24.85
+    }
+  ]
+}

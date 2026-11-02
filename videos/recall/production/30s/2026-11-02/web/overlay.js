@@ -105,7 +105,7 @@ function drawCommands(ctx, tl, t, fx, boxes) {
   // previous tag flies out when a new command slams (no pile-up)
   if (cur > 0 && x < 0.25) {
     const p = cmds[cur - 1], u = E.in(clamp(x / 0.25));
-    commandWord(ctx, p.word, TAG.x + 700 * u, TAG.y, TAG.s, 0, 1 - u, false);
+    if (1 - fx.chips > 0.01) commandWord(ctx, p.word, TAG.x + 700 * u, TAG.y, TAG.s, 0, (1 - u) * (1 - fx.chips), false);
   }
   const hideForChips = fx.chips;
   if (t < c.tag) {
