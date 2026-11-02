@@ -1,0 +1,132 @@
+{
+ "cards": [
+  {
+   "a": 0.28,
+   "lines": [
+    "Before donating clothes,"
+   ],
+   "timing": "proportional (asr 8 vs 7 words)",
+   "b": 1.593
+  },
+  {
+   "a": 1.663,
+   "lines": [
+    "ask three simple questions."
+   ],
+   "timing": "proportional (asr 8 vs 7 words)",
+   "b": 3.53
+  },
+  {
+   "a": 3.6,
+   "lines": [
+    "What does the person need?"
+   ],
+   "timing": "asr",
+   "b": 5.12
+  },
+  {
+   "a": 5.19,
+   "lines": [
+    "What size fits?"
+   ],
+   "timing": "asr",
+   "b": 6.5
+  },
+  {
+   "a": 6.57,
+   "lines": [
+    "And can they use it"
+   ],
+   "timing": "asr",
+   "b": 7.46
+  },
+  {
+   "a": 7.53,
+   "lines": [
+    "in the weather where they live?"
+   ],
+   "timing": "asr",
+   "b": 9.317
+  },
+  {
+   "a": 9.48,
+   "lines": [
+    "A coat that is too small"
+   ],
+   "timing": "asr",
+   "b": 10.64
+  },
+  {
+   "a": 10.71,
+   "lines": [
+    "cannot do its job."
+   ],
+   "timing": "asr",
+   "b": 12.328
+  },
+  {
+   "a": 12.69,
+   "lines": [
+    "A clean, wearable item"
+   ],
+   "timing": "asr",
+   "b": 14.24
+  },
+  {
+   "a": 14.31,
+   "lines": [
+    "in the right size"
+   ],
+   "timing": "asr",
+   "b": 15.56
+  },
+  {
+   "a": 15.63,
+   "lines": [
+    "can be far more useful"
+   ],
+   "timing": "asr",
+   "b": 16.73
+  },
+  {
+   "a": 16.8,
+   "lines": [
+    "than a bag of random leftovers."
+   ],
+   "timing": "asr",
+   "b": 19.205
+  },
+  {
+   "a": 23.07,
+   "lines": [
+    "Start by asking,"
+   ],
+   "timing": "asr",
+   "b": 23.9
+  },
+  {
+   "a": 23.97,
+   "lines": [
+    "then choose."
+   ],
+   "timing": "asr",
+   "b": 25.151
+  },
+  {
+   "a": 25.47,
+   "lines": [
+    "Useful help begins"
+   ],
+   "timing": "asr",
+   "b": 26.66
+  },
+  {
+   "a": 26.73,
+   "lines": [
+    "with the person receiving it."
+   ],
+   "timing": "asr",
+   "b": 28.611
+  }
+ ]
+}

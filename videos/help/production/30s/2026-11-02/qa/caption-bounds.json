@@ -1,0 +1,157 @@
+{
+ "rule": "ink y 350-470, x >= 80 from each edge",
+ "framesChecked": 32,
+ "extent": {
+  "x0": 93,
+  "x1": 987,
+  "y0": 388,
+  "y1": 452
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Before donating clothes,",
+   "fs": 64,
+   "x0": 151,
+   "x1": 929,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 28
+  },
+  {
+   "text": "ask three simple questions.",
+   "fs": 64,
+   "x0": 104,
+   "x1": 976,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 78
+  },
+  {
+   "text": "What does the person need?",
+   "fs": 63,
+   "x0": 95,
+   "x1": 985,
+   "y0": 391,
+   "y1": 451,
+   "firstFrame": 131
+  },
+  {
+   "text": "What size fits?",
+   "fs": 64,
+   "x0": 305,
+   "x1": 775,
+   "y0": 388,
+   "y1": 439,
+   "firstFrame": 175
+  },
+  {
+   "text": "And can they use it",
+   "fs": 64,
+   "x0": 238,
+   "x1": 842,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 210
+  },
+  {
+   "text": "in the weather where they live?",
+   "fs": 58,
+   "x0": 94,
+   "x1": 986,
+   "y0": 393,
+   "y1": 451,
+   "firstFrame": 253
+  },
+  {
+   "text": "A coat that is too small",
+   "fs": 64,
+   "x0": 183,
+   "x1": 897,
+   "y0": 388,
+   "y1": 439,
+   "firstFrame": 302
+  },
+  {
+   "text": "cannot do its job.",
+   "fs": 64,
+   "x0": 268,
+   "x1": 812,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 346
+  },
+  {
+   "text": "A clean, wearable item",
+   "fs": 64,
+   "x0": 181,
+   "x1": 899,
+   "y0": 388,
+   "y1": 451,
+   "firstFrame": 404
+  },
+  {
+   "text": "in the right size",
+   "fs": 64,
+   "x0": 298,
+   "x1": 782,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 448
+  },
+  {
+   "text": "can be far more useful",
+   "fs": 64,
+   "x0": 188,
+   "x1": 892,
+   "y0": 389,
+   "y1": 439,
+   "firstFrame": 485
+  },
+  {
+   "text": "than a bag of random leftovers.",
+   "fs": 58,
+   "x0": 93,
+   "x1": 987,
+   "y0": 393,
+   "y1": 451,
+   "firstFrame": 540
+  },
+  {
+   "text": "Start by asking,",
+   "fs": 64,
+   "x0": 290,
+   "x1": 790,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 705
+  },
+  {
+   "text": "then choose.",
+   "fs": 64,
+   "x0": 333,
+   "x1": 747,
+   "y0": 391,
+   "y1": 439,
+   "firstFrame": 737
+  },
+  {
+   "text": "Useful help begins",
+   "fs": 64,
+   "x0": 246,
+   "x1": 834,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 782
+  },
+  {
+   "text": "with the person receiving it.",
+   "fs": 64,
+   "x0": 98,
+   "x1": 982,
+   "y0": 388,
+   "y1": 452,
+   "firstFrame": 830
+  }
+ ]
+}

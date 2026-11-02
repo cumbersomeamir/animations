@@ -82,3 +82,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Voice: Kokoro-82M ONNX (kokoro-onnx 0.6.1, model-files-v1.0), Meshline blend af_bella 0.7 + am_puck 0.3, speed 0.98, en-us. Not Piper.
 - Canvas2D original renderer (~76 s for 150 unique frames ×2). Pilot-01 15 s work untouched.
 - Unresolved: 2-line caption bottom y≈492 (asked ~460); light carving density; no human listening pass. Details: that folder's README.md.
+
+## 2026-11-02 — production round production-30s-2026-11-02 — DONE
+- Output `videos/help/production/30s/2026-11-02/help-30s-production-01.mp4`, SHA-256 `470743a39e6d7ec540699ee26cd98df33dafae8c2483c2304a41d1da2a2ec80b`.
+- Format spec: `11-production-format.md`; brief/script/claims/storyboard/QA: `12-production-30s-01.md`. No automation created.

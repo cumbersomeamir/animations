@@ -1,0 +1,64 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Before donating clothes, ask three simple questions.",
+   "dur": 3.033,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "What does the person need?",
+   "dur": 1.19,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "What size fits?",
+   "dur": 0.941,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "And can they use it in the weather where they live?",
+   "dur": 2.267,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "A coat that is too small cannot do its job.",
+   "dur": 2.378,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "A clean, wearable item in the right size can be far more useful than a bag of random leftovers.",
+   "dur": 6.055,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Start by asking, then choose.",
+   "dur": 1.601,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Useful help begins with the person receiving it.",
+   "dur": 2.661,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

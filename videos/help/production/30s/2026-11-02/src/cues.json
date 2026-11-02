@@ -1,0 +1,15 @@
+{
+  "fps": 30, "frames": 900, "duration": 30.0,
+  "voiceStarts": [0.35, 3.75, 5.35, 6.70, 9.60, 12.80, 23.20, 25.60],
+  "beats": { "hook": [0, 3.0], "setup": [3.0, 8.0], "mechanism": [8.0, 23.0], "takeaway": [23.0, 29.0], "end": [29.0, 30.0] },
+  "cues": {
+    "lampsUp": 0.0, "donorIn": 0.25, "plaque1": 2.15, "plaque2": 2.45, "plaque3": 2.75,
+    "need": 3.85, "hug": 4.1, "size": 5.45, "ruler": 5.6, "tagL": 6.15,
+    "weather": 6.95, "snow": 7.1, "lampDim": 7.3,
+    "smallOut": 9.55, "smallOffer": 10.0, "smallOn": 10.55, "tooSmall": 10.75, "smallBack": 12.2,
+    "bagDown": 13.0, "coatRise": 13.8, "coatLift": 15.0, "coatOffer": 16.2, "coatOn": 17.2, "bagDim": 17.6,
+    "tick1": 19.4, "tick2": 20.2, "tick3": 21.0, "lampUp": 19.2, "relax": 19.6, "bow": 21.8,
+    "askPlaque": 23.55, "choose": 24.35, "push": 25.4, "nod": 27.0,
+    "dimEnd": 28.9, "signature": 28.4
+  }
+}
