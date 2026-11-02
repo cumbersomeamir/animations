@@ -1,0 +1,16 @@
+# Render scratch and dependencies (never commit)
+node_modules/
+**/node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+**/frames/
+**/.cache/
+**/tmp/
+*.raw
+.DS_Store
+# regenerable audio stems (deterministic from voice.wav + src/mix.py)
+videos/**/audio/music.wav
+videos/**/audio/sfx.wav
+videos/**/audio/mix.wav

@@ -1,0 +1,9 @@
+{"duration": 30.0, "lead": 0.30, "lines": [
+ {"id": "L1", "at": 0.30,  "text": "Why can the same website load faster in one city than another?"},
+ {"id": "L2", "at": 3.95,  "text": "One reason is distance."},
+ {"id": "L3", "at": 5.55,  "text": "A content delivery network keeps copies of selected files, like images and scripts, closer to users."},
+ {"id": "L4", "at": 12.00, "text": "Your request can reach a nearby copy, instead of the distant original server."},
+ {"id": "L5", "at": 16.90, "text": "But not everything can be cached forever."},
+ {"id": "L6", "at": 19.25, "text": "When content changes, those copies need rules for updating."},
+ {"id": "L7", "at": 23.30, "text": "Faster delivery also means keeping copies correct."}
+]}

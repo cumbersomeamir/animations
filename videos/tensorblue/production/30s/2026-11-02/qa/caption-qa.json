@@ -1,0 +1,187 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Why can the same website load",
+    "faster in one city than another?"
+   ],
+   "t0": 0.24,
+   "tEnd": 3.97,
+   "frame": 25,
+   "box": {
+    "x0": 219,
+    "x1": 861,
+    "y0": 352,
+    "y1": 466,
+    "n": 16892
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "One reason is distance."
+   ],
+   "t0": 3.91,
+   "tEnd": 5.62,
+   "frame": 135,
+   "box": {
+    "x0": 309,
+    "x1": 769,
+    "y0": 389,
+    "y1": 430,
+    "n": 6094
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A content delivery network",
+    "keeps copies of selected files,"
+   ],
+   "t0": 5.56,
+   "tEnd": 9.34,
+   "frame": 185,
+   "box": {
+    "x0": 247,
+    "x1": 832,
+    "y0": 353,
+    "y1": 468,
+    "n": 15684
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "like images and scripts,",
+    "closer to users."
+   ],
+   "t0": 9.28,
+   "tEnd": 12.34,
+   "frame": 297,
+   "box": {
+    "x0": 304,
+    "x1": 774,
+    "y0": 353,
+    "y1": 449,
+    "n": 10332
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Your request can reach",
+    "a nearby copy,"
+   ],
+   "t0": 12.28,
+   "tEnd": 14.9,
+   "frame": 386,
+   "box": {
+    "x0": 308,
+    "x1": 770,
+    "y0": 353,
+    "y1": 466,
+    "n": 9982
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "instead of the distant",
+    "original server."
+   ],
+   "t0": 14.84,
+   "tEnd": 17.19,
+   "frame": 463,
+   "box": {
+    "x0": 326,
+    "x1": 756,
+    "y0": 352,
+    "y1": 466,
+    "n": 10111
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "But not everything",
+    "can be cached forever."
+   ],
+   "t0": 17.13,
+   "tEnd": 19.55,
+   "frame": 532,
+   "box": {
+    "x0": 316,
+    "x1": 762,
+    "y0": 353,
+    "y1": 451,
+    "n": 11322
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "When content changes,"
+   ],
+   "t0": 19.49,
+   "tEnd": 20.99,
+   "frame": 603,
+   "box": {
+    "x0": 312,
+    "x1": 767,
+    "y0": 381,
+    "y1": 439,
+    "n": 6426
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "those copies need",
+    "rules for updating."
+   ],
+   "t0": 20.93,
+   "tEnd": 23.4,
+   "frame": 646,
+   "box": {
+    "x0": 354,
+    "x1": 725,
+    "y0": 353,
+    "y1": 466,
+    "n": 10226
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Faster delivery also means",
+    "keeping copies correct."
+   ],
+   "t0": 23.34,
+   "tEnd": 28.55,
+   "frame": 718,
+   "box": {
+    "x0": 271,
+    "x1": 807,
+    "y0": 353,
+    "y1": 466,
+    "n": 13818
+   },
+   "pass": true
+  }
+ ],
+ "signature": {
+  "frame": 899,
+  "box": {
+   "x0": 411,
+   "x1": 709,
+   "y0": 386,
+   "y1": 449,
+   "n": 5422
+  },
+  "pass": true
+ },
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

@@ -1,0 +1,262 @@
+{
+ "sfx": [
+  {
+   "t": 0.02,
+   "type": "paper"
+  },
+  {
+   "t": 0.08,
+   "type": "scratch",
+   "d": 0.7
+  },
+  {
+   "t": 1.891,
+   "type": "scratch",
+   "d": 0.45
+  },
+  {
+   "t": 2.591,
+   "type": "tick"
+  },
+  {
+   "t": 3.568,
+   "type": "erase",
+   "d": 0.4
+  },
+  {
+   "t": 4.145,
+   "type": "scratch",
+   "d": 0.45,
+   "red": true
+  },
+  {
+   "t": 4.445,
+   "type": "swish"
+  },
+  {
+   "t": 4.995,
+   "type": "pop"
+  },
+  {
+   "t": 5.695,
+   "type": "pop",
+   "lo": true
+  },
+  {
+   "t": 5.744,
+   "type": "scratch",
+   "d": 0.6
+  },
+  {
+   "t": 6.494,
+   "type": "scratch",
+   "d": 0.8
+  },
+  {
+   "t": 7.369,
+   "type": "scratch",
+   "d": 0.4,
+   "red": true
+  },
+  {
+   "t": 8.019,
+   "type": "tick"
+  },
+  {
+   "t": 8.519,
+   "type": "swish"
+  },
+  {
+   "t": 9.469,
+   "type": "stamp"
+  },
+  {
+   "t": 9.319,
+   "type": "clock"
+  },
+  {
+   "t": 10.669,
+   "type": "pop"
+  },
+  {
+   "t": 12.473,
+   "type": "pop",
+   "hi": true
+  },
+  {
+   "t": 12.623,
+   "type": "scratch",
+   "d": 0.55,
+   "red": true
+  },
+  {
+   "t": 13.348,
+   "type": "scribble",
+   "d": 0.3
+  },
+  {
+   "t": 13.698,
+   "type": "swish",
+   "hero": true
+  },
+  {
+   "t": 14.248,
+   "type": "pop"
+  },
+  {
+   "t": 14.948,
+   "type": "pop",
+   "hi": true
+  },
+  {
+   "t": 17.223,
+   "type": "clock"
+  },
+  {
+   "t": 17.423,
+   "type": "erase",
+   "d": 0.35
+  },
+  {
+   "t": 17.823,
+   "type": "scratch",
+   "d": 0.4
+  },
+  {
+   "t": 18.11,
+   "type": "swish",
+   "hero": true
+  },
+  {
+   "t": 19.01,
+   "type": "pop",
+   "lo": true
+  },
+  {
+   "t": 19.894,
+   "type": "clock"
+  },
+  {
+   "t": 20.344,
+   "type": "erase",
+   "d": 0.4
+  },
+  {
+   "t": 20.794,
+   "type": "swish"
+  },
+  {
+   "t": 21.294,
+   "type": "pop",
+   "lo": true
+  },
+  {
+   "t": 21.794,
+   "type": "stamp"
+  },
+  {
+   "t": 21.944,
+   "type": "scratch",
+   "d": 0.35
+  },
+  {
+   "t": 23.044,
+   "type": "pop",
+   "hi": true
+  },
+  {
+   "t": 23.202,
+   "type": "swish"
+  },
+  {
+   "t": 24.052,
+   "type": "stamp"
+  },
+  {
+   "t": 25.073,
+   "type": "tick"
+  },
+  {
+   "t": 25.373,
+   "type": "tick"
+  },
+  {
+   "t": 25.673,
+   "type": "tick"
+  },
+  {
+   "t": 26.49,
+   "type": "chime"
+  },
+  {
+   "t": 28.75,
+   "type": "scratch",
+   "d": 0.7
+  }
+ ],
+ "cues": {
+  "cardsIn": 0,
+  "same": 0.741,
+  "faster": 1.841,
+  "city": 2.741,
+  "another": 3.154,
+  "l1end": 3.618,
+  "eraseCards": 3.568,
+  "reason": 4.195,
+  "distance": 4.67,
+  "cdn": 5.694,
+  "network": 6.644,
+  "copies": 7.419,
+  "selected": 7.969,
+  "images": 9.569,
+  "scripts": 10.207,
+  "closer": 10.919,
+  "l3end": 11.987,
+  "request": 12.473,
+  "nearby": 13.648,
+  "instead": 14.898,
+  "distant": 15.41,
+  "l4end": 16.839,
+  "notEv": 17.273,
+  "cached": 18.26,
+  "forever": 18.673,
+  "l5end": 19.199,
+  "changes": 20.144,
+  "those": 20.994,
+  "rules": 21.894,
+  "updating": 22.394,
+  "l6end": 23.052,
+  "faster2": 23.402,
+  "keeping": 25.023,
+  "correct": 25.848,
+  "l7end": 26.39,
+  "shelfIn": 5.744,
+  "edgesIn": 6.494,
+  "planCopy": 7.369,
+  "pick": 8.019,
+  "copyGo": 8.519,
+  "copyDur": 0.95,
+  "copyLand": 9.469,
+  "clockIn": 9.219,
+  "usersIn": 10.669,
+  "longPlan": 12.623000000000001,
+  "strike": 13.347999999999999,
+  "hop": 13.698,
+  "hopDur": 0.55,
+  "cHop": 14.098,
+  "t0905": 17.223,
+  "originUpd": 17.423,
+  "staleReq": 18.110000000000003,
+  "t0910": 19.894,
+  "reqExp": 19.793999999999997,
+  "eraseE1": 20.343999999999998,
+  "fetch": 20.794,
+  "fetchDur": 0.5,
+  "newCopy": 21.844,
+  "backToB": 22.494,
+  "e2Refresh": 23.201999999999998,
+  "checks": 25.023,
+  "chime": 26.490000000000002,
+  "sign": 28.75
+ }
+}

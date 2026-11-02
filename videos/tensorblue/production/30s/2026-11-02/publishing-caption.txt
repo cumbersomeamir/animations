@@ -1,0 +1,17 @@
+Why can the same website load faster in one city than another? One reason is distance.
+
+A content delivery network (CDN) keeps copies of selected files, like images and scripts, on servers closer to users. A request can then be answered by a nearby copy instead of the distant original server.
+
+The copies need rules. Each one is kept for a set time (a TTL, e.g. Cache-Control max-age). After that, the edge checks with the origin before serving it again. Site owners can also purge or invalidate copies when content changes. Fast delivery is also about keeping copies correct.
+
+Note: real load times depend on many factors (network path, server, page size, cache settings). The clock times in the animation are illustrative, not measurements.
+
+Sources (official documentation):
+- Cloudflare Cache overview: https://developers.cloudflare.com/cache/
+- Cloudflare default cache behavior (what is and isn't cached by default): https://developers.cloudflare.com/cache/concepts/default-cache-behavior/
+- Cloudflare purge cache: https://developers.cloudflare.com/cache/how-to/purge-cache/
+- AWS, What is a CDN?: https://aws.amazon.com/what-is/cdn/
+- Amazon CloudFront, how CloudFront delivers content: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html
+- Amazon CloudFront, cache expiration: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html
+
+#SystemDesign #CDN #Caching #WebPerformance
