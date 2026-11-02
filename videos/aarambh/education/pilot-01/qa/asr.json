@@ -1,0 +1,188 @@
+{
+ "model": "faster-whisper tiny.en (int8, CPU)",
+ "reference": "a needle only dips down and up so what locks the thread a loop forms underneath a hook carries that loop around the bobbin pulled tight two threads lock inside the cloth that's a lockstitch",
+ "hypothesis": "a needle only dips down and up so what locks the thread a loop forms underneath a hook carries that loop around the bobbin pulled tight two threads lock inside the cloth that's a lockstitch",
+ "wer": 0.0,
+ "words": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.5
+  },
+  {
+   "w": "needle",
+   "start": 0.5,
+   "end": 0.8
+  },
+  {
+   "w": "only",
+   "start": 0.8,
+   "end": 1.24
+  },
+  {
+   "w": "dips",
+   "start": 1.24,
+   "end": 1.52
+  },
+  {
+   "w": "down",
+   "start": 1.52,
+   "end": 1.96
+  },
+  {
+   "w": "and",
+   "start": 1.96,
+   "end": 2.16
+  },
+  {
+   "w": "up,",
+   "start": 2.16,
+   "end": 2.68
+  },
+  {
+   "w": "so",
+   "start": 2.84,
+   "end": 2.96
+  },
+  {
+   "w": "what",
+   "start": 2.96,
+   "end": 3.16
+  },
+  {
+   "w": "locks",
+   "start": 3.16,
+   "end": 3.44
+  },
+  {
+   "w": "the",
+   "start": 3.44,
+   "end": 3.76
+  },
+  {
+   "w": "thread?",
+   "start": 3.76,
+   "end": 4.16
+  },
+  {
+   "w": "A",
+   "start": 4.6,
+   "end": 4.72
+  },
+  {
+   "w": "loop",
+   "start": 4.72,
+   "end": 4.96
+  },
+  {
+   "w": "forms",
+   "start": 4.96,
+   "end": 5.4
+  },
+  {
+   "w": "underneath.",
+   "start": 5.4,
+   "end": 5.9
+  },
+  {
+   "w": "A",
+   "start": 6.36,
+   "end": 6.54
+  },
+  {
+   "w": "hook",
+   "start": 6.54,
+   "end": 6.82
+  },
+  {
+   "w": "carries",
+   "start": 6.82,
+   "end": 7.26
+  },
+  {
+   "w": "that",
+   "start": 7.26,
+   "end": 7.6
+  },
+  {
+   "w": "loop",
+   "start": 7.6,
+   "end": 7.82
+  },
+  {
+   "w": "around",
+   "start": 7.82,
+   "end": 8.2
+  },
+  {
+   "w": "the",
+   "start": 8.2,
+   "end": 8.5
+  },
+  {
+   "w": "bobbin,",
+   "start": 8.5,
+   "end": 8.92
+  },
+  {
+   "w": "pulled",
+   "start": 9.2,
+   "end": 9.44
+  },
+  {
+   "w": "tight,",
+   "start": 9.44,
+   "end": 9.94
+  },
+  {
+   "w": "two",
+   "start": 10.44,
+   "end": 10.56
+  },
+  {
+   "w": "threads",
+   "start": 10.56,
+   "end": 10.94
+  },
+  {
+   "w": "lock",
+   "start": 10.94,
+   "end": 11.3
+  },
+  {
+   "w": "inside",
+   "start": 11.3,
+   "end": 11.72
+  },
+  {
+   "w": "the",
+   "start": 11.72,
+   "end": 11.98
+  },
+  {
+   "w": "cloth.",
+   "start": 11.98,
+   "end": 12.32
+  },
+  {
+   "w": "That's",
+   "start": 12.86,
+   "end": 13.24
+  },
+  {
+   "w": "a",
+   "start": 13.24,
+   "end": 13.34
+  },
+  {
+   "w": "lock",
+   "start": 13.34,
+   "end": 13.58
+  },
+  {
+   "w": "stitch.",
+   "start": 13.58,
+   "end": 13.9
+  }
+ ]
+}

@@ -27,19 +27,25 @@ The cutaway is labelled "simplified cutaway".
 | L4 | Pulled tight, two threads lock inside the cloth. | 8 |
 | L5 | That's a lockstitch! | 3 |
 
-That is 35 words and about 11.3 s of speech, leaving about 3.7 s of breathing room. Exact start times are in `timeline.json`.
+That is 35 words and about 11.8 s of speech (measured after processing), with gaps of 0.21–0.53 s between lines.
 
-## Storyboard (planned; final timings in timeline.json)
-| time | scene | camera | Bindu action | mechanism / caption | SFX |
+## Storyboard (as rendered, 2026-11-02; source of truth: src/timeline.json)
+| time (s) | scene | camera | Bindu action | mechanism / caption | SFX |
 |---|---|---|---|---|---|
-| 0.0–2.2 | S1 Workshop | wide on a painted workshop, slow push-in | grips the hand-crank, leans back (anticipation), cranks two strokes | the needle dips into the cloth twice. Caption: "A needle only dips down and up." | crank ratchet, needle thunks |
-| 2.2–3.6 | S1 Puzzle | pans left/in toward the needle | hops along the bed, lifts the cloth corner, sees *cream* stitches underneath, puzzled brow, "?" pops | the cloth top shows gold stitches, the underside cream. Caption: "So what locks the thread?" | hop taps, cloth flap |
-| 3.6–4.4 | T1 Dive | push into the needle hole, circular cutaway iris opens | dives into the hole, shrinks | the cutaway reveals the hook and bobbin below. Tag: "simplified cutaway" | whoosh, shrink pop |
-| 4.4–6.2 | S2 Loop | cross-section, steady | lands on the cloth (squash), points down with the pencil | the needle carries gold thread through the cloth. As it rises a little, a loop forms. Labels: needle thread, bobbin thread. Caption: "A loop forms underneath." | needle push, soft loop pluck |
-| 6.2–9.1 | S3 Hook | slight push toward the hook | leans back as the hook sweeps by, eyes track the loop, traces a circle with a finger | the hook beak catches the loop and carries it around the bobbin case. Labels: hook, bobbin. Caption: "A hook carries that loop around the bobbin." | catch tick, rotating swish |
-| 9.1–12.3 | S4 Lock | push toward the cloth, then a magnifier | grabs the gold thread and is lifted by the take-up pull (dangles), drops and bounces, then holds a magnifier over the lock | the loop slips off and the take-up lever pulls it up. The loop shrinks around the bobbin thread and the lock settles mid-cloth (gold star). Caption: "Pulled tight, two threads lock inside the cloth." | thread zip, lock "tock", sparkle |
-| 12.3–12.8 | T2 Exit | the iris closes back to the needle hole, the workshop zooms out | pops back to normal size | — | reverse whoosh |
-| 12.8–15.0 | S5 Takeaway | workshop, medium | tugs a thread and a cream lesson banner unrolls. Bindu lifts the cloth corner again (top gold, underside cream), then winks | banner: "Lockstitch" + mini cross-section + "needle thread + bobbin thread, locked inside the cloth". Small "✦ Aarambh" signature. Caption: "That's a lockstitch!" | banner unroll, chime, music button |
+| 0.0–2.2 | S1 Workshop | wide on the painted workshop, slow push-in | stands on a big spool, leans back (anticipation), cranks the hand-wheel two turns | the needle dips into the cloth twice. L1 "A needle only dips down and up." | ratchet clicks, needle thunks |
+| 2.2–3.5 | S1 Puzzle | pans to the needle and swatch (zoom 1.42) | hops down twice to the table, picks up a stitched swatch and flips it: gold stitches on top, cream underneath. Puzzled brow, "?" pops | L1b "So what locks the thread?" | hop thumps, cloth flip, pop |
+| 3.5–4.4 | T1 Dive | pushes into the needle hole (zoom 11); circular cutaway iris opens from the hole | leaps and shrinks into the needle hole (gone by 3.88), sparkle | the cutaway reveals the hook and bobbin; "simplified cutaway" tag | whoosh, shrink "pew", hole "plip" |
+| 4.4–6.2 | S2 Loop | cross-section | drops onto the cloth (squash), points down with the pencil | the needle carries gold thread through two plies to the bottom (4.95) and rises a little, so a loop forms. Labels: needle thread, bobbin thread, loop. L2 "A loop forms underneath." | pierce click, loop pluck |
+| 5.75 | catch | — | startled (wide eyes) | the hook beak seizes the loop | "tink" |
+| 6.2–9.0 | S3 Hook | slight push | eyes track the beak, finger traces the circle | the hook carries the loop around the bobbin case (fully round by 8.55), then releases it. Labels: hook, bobbin. L3 "A hook carries that loop around the bobbin." | rotating whirr and hum, slip |
+| 9.0–10.9 | S4 Pull | push toward the cloth | scurries left, grabs the take-up lever eye and is lifted off the cloth as the lever rises | the lever pulls the loop up; it shrinks around the bobbin thread. "take-up lever" label. L4 "Pulled tight, two threads lock inside the cloth." | thread zip with accelerating grains |
+| 10.88 | lock | — | flung off, lands right of the foot (11.2) | the interlock snaps into the middle of the plies, with a gold sparkle | woodblock "tock" + sparkles |
+| 11.2–12.25 | S4 Lens | slight push | holds a magnifier | lens ×2.3 on the lock; "the lock" label | lens "ting" |
+| 12.08–12.32 | feed | — | rides the cloth | the cloth advances one stitch | shuffle |
+| 12.2–12.75 | T2 Exit | the iris closes on the cloth while the workshop zooms out | hops out of the cutaway | — | reverse whoosh |
+| 12.68–15.0 | S5 Takeaway | workshop medium, slow push | pops back to full size (sparkle), presents the banner, flips the swatch to the cream side and back (13.45 / 13.95), winks (14.2) | banner: "Lockstitch", cross-section with three locks, "Two threads, locked inside the cloth." L5 "That's a lockstitch!" | pop, paper flutter, flips, twinkle, music button (14.45) |
+
+Narration line starts: L1 0.25, L1b 2.55, L2 4.45, L3 6.30, L4 9.05, L5 12.80. Ends are in audio/build/narration_timing.json.
 
 ## Accuracy guardrails
 - **Two threads:** gold from the needle, cream from the bobbin.

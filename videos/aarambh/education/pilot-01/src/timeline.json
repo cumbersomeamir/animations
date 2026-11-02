@@ -1,0 +1,47 @@
+{
+  "_note": "Single source of truth for timing (seconds). Read by src/render.mjs and audio/build_audio.py.",
+  "fps": 30,
+  "duration": 15.0,
+  "width": 1080,
+  "height": 1920,
+  "vo": [
+    {"id": "L1",  "start": 0.25, "caption": "A needle only dips down and up."},
+    {"id": "L1b", "start": 2.55, "caption": "So what locks the thread?"},
+    {"id": "L2",  "start": 4.45, "caption": "A loop forms underneath."},
+    {"id": "L3",  "start": 6.3, "caption": "A hook carries that loop around the bobbin."},
+    {"id": "L4",  "start": 9.05, "caption": "Pulled tight, two threads lock inside the cloth."},
+    {"id": "L5",  "start": 12.80, "caption": "That's a lockstitch!"}
+  ],
+  "captionHighlight": {
+    "L1": ["down", "up."],
+    "L1b": ["locks"],
+    "L2": ["loop"],
+    "L3": ["hook", "bobbin."],
+    "L4": ["lock", "inside"],
+    "L5": ["lockstitch!"]
+  },
+  "scenes": {
+    "S1": [0.0, 3.6],
+    "T1": [3.55, 4.4],
+    "S2": [4.4, 6.2],
+    "S3": [6.2, 9.0],
+    "S4": [9.0, 12.25],
+    "T2": [12.2, 12.75],
+    "S5": [12.7, 15.0]
+  },
+  "crank": {"start": 0.3, "rev1": [0.35, 1.2], "rev2": [1.25, 2.1]},
+  "mech": {
+    "needleDown": [4.4, 4.95],
+    "loopForm": [4.95, 5.55],
+    "hookApproach": [4.4, 5.75],
+    "hookCarry": [5.75, 8.55],
+    "needleUp": [5.55, 7.7],
+    "castOff": [8.55, 8.9],
+    "takeUp": [9.3, 10.88],
+    "lockSnap": 10.88,
+    "drop": [10.95, 11.2],
+    "lens": [11.18, 12.25],
+    "feed": [12.08, 12.32]
+  },
+  "s5": {"banner": [12.78, 13.35], "flap": [13.45, 13.95], "wink": 14.2}
+}

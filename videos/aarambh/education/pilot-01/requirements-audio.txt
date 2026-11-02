@@ -1,0 +1,9 @@
+# audio build (procedural music/SFX + voice processing)
+numpy==2.5.4
+scipy==1.16.3
+# optional: regenerate narration takes (audio/tts.py); needs the public-domain voice model
+# en_US-ljspeech-medium.onnx (sha256 6f52a751e2349abe7a76735eb09dc1875298c77ea2342ffd2fef79ff81b87f22)
+piper-tts==1.8.0
+# optional QA only (tools/asr_check.py)
+faster-whisper==1.1.1
+requests

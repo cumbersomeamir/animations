@@ -1,7 +1,7 @@
 """Synthesize Bindu's narration lines with Piper TTS (public-domain LJSpeech voice).
 
 Usage (from pilot-01/):
-  python audio/tts.py --model /path/to/en_US-ljspeech-medium.onnx --out audio/narration
+  python audio/tts.py --model /path/to/en_US-ljspeech-medium.onnx --out audio/narration/raw
 
 Raw TTS is then turned into Bindu's character voice by audio/voice.sh
 (rubberband pitch/formant shift + EQ + compression). The processed WAVs are
@@ -16,7 +16,7 @@ LINES = json.loads((Path(__file__).parent / "script.json").read_text())
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
-    ap.add_argument("--out", default="audio/narration")
+    ap.add_argument("--out", default="audio/narration/raw")
     ap.add_argument("--only", default=None)
     a = ap.parse_args()
     voice = PiperVoice.load(a.model)
@@ -26,7 +26,7 @@ def main():
             continue
         cfg = SynthesisConfig(length_scale=ln.get("length_scale", 1.0),
                               noise_scale=0.6, noise_w_scale=0.7)
-        p = out / f"{ln['id']}_raw.wav"
+        p = out / f"{ln['id']}.wav"
         with wave.open(str(p), "wb") as w:
             voice.synthesize_wav(ln["tts_text"], w, syn_config=cfg)
         with wave.open(str(p)) as w:
