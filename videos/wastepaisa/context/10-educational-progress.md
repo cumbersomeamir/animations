@@ -71,7 +71,7 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - Voice: Kokoro-82M ONNX, Meshline blend af_bella 0.7 + am_puck 0.3, speed 0.98, en-us (not Piper). Narration unshortened.
 - Captions y 350–466 / x 172–908, no overlaps; one ASR pass shows all words present (one inserted "and").
 - QA: `tests/10s/pre-reset-2026-11-02/qa/QA.md`. Limits: no human listening test; stylised lining band; sprite-swap posing.
-- Fact facts reused: pilot-01 S1–S5. Labelled illustration. No payout or allowance claims.
+- Facts reused from pilot-01 sources S1–S5. Labelled illustration. No payout or allowance claims.
 
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
