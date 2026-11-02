@@ -1,0 +1,91 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Airplane mode doesn't turn",
+   "your phone into a brick."
+  ],
+  "in": 0.22,
+  "out": 3.15
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "It switches off",
+   "cellular connectivity."
+  ],
+  "in": 3.17,
+  "out": 5.522
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Wi-Fi and Bluetooth",
+   "may go off too."
+  ],
+  "in": 5.77,
+  "out": 8.405
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Depending on the device,"
+  ],
+  "in": 8.425,
+  "out": 9.98
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "each can be turned",
+   "back on separately."
+  ],
+  "in": 10.0,
+  "out": 12.213
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "So wireless headphones,",
+   "or an airline\u2019s Wi-Fi,"
+  ],
+  "in": 12.47,
+  "out": 15.64
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "can still work,",
+   "if the airline allows it."
+  ],
+  "in": 15.66,
+  "out": 18.422
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "The icons are different radios,",
+   "not one internet switch."
+  ],
+  "in": 18.67,
+  "out": 22.475
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Follow the airline\u2019s",
+   "instructions,"
+  ],
+  "in": 23.02,
+  "out": 25.035
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "and check which connections",
+   "are actually on."
+  ],
+  "in": 25.055,
+  "out": 27.762
+ }
+]

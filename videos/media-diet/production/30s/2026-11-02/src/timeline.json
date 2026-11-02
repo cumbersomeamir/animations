@@ -1,0 +1,180 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (kokoro-v1.0.onnx, voices-v1.0.bin)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.3,
+   "say": "Airplane mode doesn't turn your phone into a brick.",
+   "cues": [
+    [
+     "Airplane mode doesn't turn",
+     "your phone into a brick."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.25,
+   "say": "It switches off cellular connectivity.",
+   "cues": [
+    [
+     "It switches off",
+     "cellular connectivity."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.85,
+   "say": "Wi-Fi and Bluetooth may go off too. Depending on the device, each can be turned back on separately.",
+   "cues": [
+    [
+     "Wi-Fi and Bluetooth",
+     "may go off too."
+    ],
+    [
+     "Depending on the device,"
+    ],
+    [
+     "each can be turned",
+     "back on separately."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 12.55,
+   "say": "So wireless headphones, or an airline's Wi-Fi, can still work, if the airline allows it.",
+   "cues": [
+    [
+     "So wireless headphones,",
+     "or an airline\u2019s Wi-Fi,"
+    ],
+    [
+     "can still work,",
+     "if the airline allows it."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 18.75,
+   "say": "The icons are different radios, not one internet switch.",
+   "cues": [
+    [
+     "The icons are different radios,",
+     "not one internet switch."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 23.1,
+   "say": "Follow the airline's instructions, and check which connections are actually on.",
+   "cues": [
+    [
+     "Follow the airline\u2019s",
+     "instructions,"
+    ],
+    [
+     "and check which connections",
+     "are actually on."
+    ]
+   ]
+  }
+ ],
+ "layouts": [
+  {
+   "id": "L1",
+   "in": 0.0,
+   "out": 5.5,
+   "name": "bench: switch-on"
+  },
+  {
+   "id": "L2",
+   "in": 5.5,
+   "out": 9.5,
+   "name": "two sources at T+00.0"
+  },
+  {
+   "id": "L3",
+   "in": 9.5,
+   "out": 12.5,
+   "name": "bench: radios back on separately"
+  },
+  {
+   "id": "L4",
+   "in": 12.5,
+   "out": 18.5,
+   "name": "props: headphones + cabin Wi-Fi, if allowed"
+  },
+  {
+   "id": "L5",
+   "in": 18.5,
+   "out": 23.0,
+   "name": "freeze + magnify: icons are radios"
+  },
+  {
+   "id": "L6",
+   "in": 23.0,
+   "out": 27.5,
+   "name": "known / depends board"
+  },
+  {
+   "id": "L7",
+   "in": 27.5,
+   "out": 30.0,
+   "name": "evidence map + signature"
+  }
+ ],
+ "clock": {
+  "t0": 0.6,
+  "note": "event clock T+ = film time - 0.60 s; frozen at T+00.0 in L2"
+ },
+ "events": {
+  "airplaneOn": 0.6,
+  "brickGhost": 1.35,
+  "brickStrike": 2.45,
+  "circleCell": 3.95,
+  "srcA": 5.55,
+  "srcB": 6.35,
+  "diffBracket": 8.45,
+  "wifiOn": 10.25,
+  "btOn": 11.15,
+  "freezeCompare": 11.75,
+  "phonesLink": 13.25,
+  "apLink": 14.75,
+  "works": 15.9,
+  "allowGate": 16.75,
+  "leaderCell": 19.2,
+  "leaderWifi": 19.6,
+  "leaderBt": 20.0,
+  "leaderPlane": 20.35,
+  "ghostSwitch": 20.75,
+  "strikeSwitch": 21.65,
+  "known1": 23.05,
+  "known2": 23.5,
+  "dep1": 23.95,
+  "dep2": 24.35,
+  "checkRing": 25.6,
+  "checkChips": 26.15
+ }
+}

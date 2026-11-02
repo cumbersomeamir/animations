@@ -20,3 +20,8 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   01-product-facts.json (`previous_brief_reference.video`) lives outside this repo and was neither imported nor relabelled.
 - The user then approved a new educational direction (context/08). Active work and its progress are tracked in
   context/10-educational-progress.md; campaign requirements do not govern educational pilots.
+
+## Checkpoint 2026-11-02 — production round production-30s-2026-11-02
+- New 30.000 s educational production rendered, verified and committed: production/30s/2026-11-02/media-diet-30s-production-01.mp4
+  (SHA-256 b3bbbf4c2e9b2ed6f40de763479e95178ec0f53d9ab9f5909d98f685c14c9763). Format rules: context/11-production-format.md; brief/script/storyboard/QA: context/12-production-30s-01.md.
+- Earlier outputs preserved unchanged (education/pilot-01/…). No automation created.

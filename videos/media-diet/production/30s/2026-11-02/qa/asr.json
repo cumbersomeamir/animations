@@ -1,0 +1,491 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-base.en (int8, CPU)",
+ "word_recall_lcs": 1.0,
+ "script_words": 69,
+ "heard_words": 69,
+ "transcript": "Airplane mode doesn't turn your phone into a brick. It switches off cellular connectivity. Wi -Fi and Bluetooth may go off too. Depending on the device, each can be turned back on separately. So wireless headphones or an airline's Wi -Fi can still work if the airline allows it. The icons are different radios, not one internet switch. Follow the airline's instructions and check which connections are actually on.",
+ "lines": [
+  {
+   "id": "V1",
+   "script": "Airplane mode doesn't turn your phone into a brick.",
+   "window": [
+    0.3,
+    2.91
+   ],
+   "heard": "Airplane mode doesn't turn your phone into a brick.",
+   "first_word_s": 0.0,
+   "last_word_e": 2.62
+  },
+  {
+   "id": "V2",
+   "script": "It switches off cellular connectivity.",
+   "window": [
+    3.25,
+    5.22
+   ],
+   "heard": "It switches off cellular connectivity.",
+   "first_word_s": 3.32,
+   "last_word_e": 4.76
+  },
+  {
+   "id": "V3",
+   "script": "Wi-Fi and Bluetooth may go off too. Depending on the device, each can be turned back on separately.",
+   "window": [
+    5.85,
+    11.91
+   ],
+   "heard": "Wi -Fi and Bluetooth may go off too. Depending on the device, each can be turned back on separately.",
+   "first_word_s": 5.88,
+   "last_word_e": 11.46
+  },
+  {
+   "id": "V4",
+   "script": "So wireless headphones, or an airline's Wi-Fi, can still work, if the airline allows it.",
+   "window": [
+    12.55,
+    18.12
+   ],
+   "heard": "So wireless headphones or an airline's Wi -Fi can still work if the airline allows it.",
+   "first_word_s": 12.68,
+   "last_word_e": 17.98
+  },
+  {
+   "id": "V5",
+   "script": "The icons are different radios, not one internet switch.",
+   "window": [
+    18.75,
+    22.18
+   ],
+   "heard": "The icons are different radios, not one internet switch.",
+   "first_word_s": 18.78,
+   "last_word_e": 21.8
+  },
+  {
+   "id": "V6",
+   "script": "Follow the airline's instructions, and check which connections are actually on.",
+   "window": [
+    23.1,
+    27.46
+   ],
+   "heard": "Follow the airline's instructions and check which connections are actually on.",
+   "first_word_s": 23.08,
+   "last_word_e": 27.22
+  }
+ ],
+ "words": [
+  {
+   "w": "Airplane",
+   "s": 0.0,
+   "e": 0.66,
+   "p": 0.95
+  },
+  {
+   "w": "mode",
+   "s": 0.66,
+   "e": 0.94,
+   "p": 0.66
+  },
+  {
+   "w": "doesn't",
+   "s": 0.94,
+   "e": 1.54,
+   "p": 0.99
+  },
+  {
+   "w": "turn",
+   "s": 1.54,
+   "e": 1.72,
+   "p": 1.0
+  },
+  {
+   "w": "your",
+   "s": 1.72,
+   "e": 1.86,
+   "p": 1.0
+  },
+  {
+   "w": "phone",
+   "s": 1.86,
+   "e": 2.1,
+   "p": 1.0
+  },
+  {
+   "w": "into",
+   "s": 2.1,
+   "e": 2.34,
+   "p": 0.99
+  },
+  {
+   "w": "a",
+   "s": 2.34,
+   "e": 2.46,
+   "p": 1.0
+  },
+  {
+   "w": "brick.",
+   "s": 2.46,
+   "e": 2.62,
+   "p": 0.96
+  },
+  {
+   "w": "It",
+   "s": 3.32,
+   "e": 3.32,
+   "p": 0.99
+  },
+  {
+   "w": "switches",
+   "s": 3.32,
+   "e": 3.5,
+   "p": 1.0
+  },
+  {
+   "w": "off",
+   "s": 3.5,
+   "e": 3.86,
+   "p": 1.0
+  },
+  {
+   "w": "cellular",
+   "s": 3.86,
+   "e": 4.24,
+   "p": 1.0
+  },
+  {
+   "w": "connectivity.",
+   "s": 4.24,
+   "e": 4.76,
+   "p": 0.99
+  },
+  {
+   "w": "Wi",
+   "s": 5.88,
+   "e": 5.98,
+   "p": 0.6
+  },
+  {
+   "w": "-Fi",
+   "s": 5.98,
+   "e": 6.28,
+   "p": 0.95
+  },
+  {
+   "w": "and",
+   "s": 6.28,
+   "e": 6.6,
+   "p": 1.0
+  },
+  {
+   "w": "Bluetooth",
+   "s": 6.6,
+   "e": 6.82,
+   "p": 0.95
+  },
+  {
+   "w": "may",
+   "s": 6.82,
+   "e": 7.28,
+   "p": 1.0
+  },
+  {
+   "w": "go",
+   "s": 7.28,
+   "e": 7.46,
+   "p": 1.0
+  },
+  {
+   "w": "off",
+   "s": 7.46,
+   "e": 7.66,
+   "p": 1.0
+  },
+  {
+   "w": "too.",
+   "s": 7.66,
+   "e": 7.92,
+   "p": 0.6
+  },
+  {
+   "w": "Depending",
+   "s": 8.78,
+   "e": 8.8,
+   "p": 1.0
+  },
+  {
+   "w": "on",
+   "s": 8.8,
+   "e": 9.2,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 9.2,
+   "e": 9.32,
+   "p": 1.0
+  },
+  {
+   "w": "device,",
+   "s": 9.32,
+   "e": 9.68,
+   "p": 1.0
+  },
+  {
+   "w": "each",
+   "s": 10.04,
+   "e": 10.12,
+   "p": 1.0
+  },
+  {
+   "w": "can",
+   "s": 10.12,
+   "e": 10.38,
+   "p": 1.0
+  },
+  {
+   "w": "be",
+   "s": 10.38,
+   "e": 10.46,
+   "p": 1.0
+  },
+  {
+   "w": "turned",
+   "s": 10.46,
+   "e": 10.7,
+   "p": 0.99
+  },
+  {
+   "w": "back",
+   "s": 10.7,
+   "e": 10.96,
+   "p": 1.0
+  },
+  {
+   "w": "on",
+   "s": 10.96,
+   "e": 11.18,
+   "p": 0.99
+  },
+  {
+   "w": "separately.",
+   "s": 11.18,
+   "e": 11.46,
+   "p": 1.0
+  },
+  {
+   "w": "So",
+   "s": 12.68,
+   "e": 12.68,
+   "p": 0.99
+  },
+  {
+   "w": "wireless",
+   "s": 12.68,
+   "e": 12.92,
+   "p": 0.92
+  },
+  {
+   "w": "headphones",
+   "s": 12.92,
+   "e": 13.54,
+   "p": 1.0
+  },
+  {
+   "w": "or",
+   "s": 13.54,
+   "e": 14.22,
+   "p": 0.55
+  },
+  {
+   "w": "an",
+   "s": 14.22,
+   "e": 14.32,
+   "p": 0.98
+  },
+  {
+   "w": "airline's",
+   "s": 14.32,
+   "e": 14.86,
+   "p": 0.88
+  },
+  {
+   "w": "Wi",
+   "s": 14.86,
+   "e": 15.0,
+   "p": 0.95
+  },
+  {
+   "w": "-Fi",
+   "s": 15.0,
+   "e": 15.34,
+   "p": 0.99
+  },
+  {
+   "w": "can",
+   "s": 15.34,
+   "e": 15.86,
+   "p": 0.96
+  },
+  {
+   "w": "still",
+   "s": 15.86,
+   "e": 16.08,
+   "p": 1.0
+  },
+  {
+   "w": "work",
+   "s": 16.08,
+   "e": 16.38,
+   "p": 1.0
+  },
+  {
+   "w": "if",
+   "s": 16.38,
+   "e": 16.84,
+   "p": 0.97
+  },
+  {
+   "w": "the",
+   "s": 16.84,
+   "e": 16.96,
+   "p": 1.0
+  },
+  {
+   "w": "airline",
+   "s": 16.96,
+   "e": 17.18,
+   "p": 0.99
+  },
+  {
+   "w": "allows",
+   "s": 17.18,
+   "e": 17.7,
+   "p": 1.0
+  },
+  {
+   "w": "it.",
+   "s": 17.7,
+   "e": 17.98,
+   "p": 1.0
+  },
+  {
+   "w": "The",
+   "s": 18.78,
+   "e": 18.82,
+   "p": 1.0
+  },
+  {
+   "w": "icons",
+   "s": 18.82,
+   "e": 19.02,
+   "p": 0.99
+  },
+  {
+   "w": "are",
+   "s": 19.02,
+   "e": 19.48,
+   "p": 1.0
+  },
+  {
+   "w": "different",
+   "s": 19.48,
+   "e": 19.7,
+   "p": 1.0
+  },
+  {
+   "w": "radios,",
+   "s": 19.7,
+   "e": 20.16,
+   "p": 0.99
+  },
+  {
+   "w": "not",
+   "s": 20.7,
+   "e": 20.88,
+   "p": 1.0
+  },
+  {
+   "w": "one",
+   "s": 20.88,
+   "e": 21.1,
+   "p": 1.0
+  },
+  {
+   "w": "internet",
+   "s": 21.1,
+   "e": 21.4,
+   "p": 0.68
+  },
+  {
+   "w": "switch.",
+   "s": 21.4,
+   "e": 21.8,
+   "p": 0.99
+  },
+  {
+   "w": "Follow",
+   "s": 23.08,
+   "e": 23.36,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 23.36,
+   "e": 23.52,
+   "p": 1.0
+  },
+  {
+   "w": "airline's",
+   "s": 23.52,
+   "e": 24.08,
+   "p": 0.95
+  },
+  {
+   "w": "instructions",
+   "s": 24.08,
+   "e": 24.34,
+   "p": 1.0
+  },
+  {
+   "w": "and",
+   "s": 24.34,
+   "e": 25.28,
+   "p": 0.77
+  },
+  {
+   "w": "check",
+   "s": 25.28,
+   "e": 25.5,
+   "p": 1.0
+  },
+  {
+   "w": "which",
+   "s": 25.5,
+   "e": 25.76,
+   "p": 1.0
+  },
+  {
+   "w": "connections",
+   "s": 25.76,
+   "e": 26.08,
+   "p": 0.99
+  },
+  {
+   "w": "are",
+   "s": 26.08,
+   "e": 26.52,
+   "p": 1.0
+  },
+  {
+   "w": "actually",
+   "s": 26.52,
+   "e": 26.94,
+   "p": 1.0
+  },
+  {
+   "w": "on.",
+   "s": 26.94,
+   "e": 27.22,
+   "p": 1.0
+  }
+ ]
+}

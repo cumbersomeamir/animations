@@ -1,0 +1,15 @@
+{
+  "name": "media-diet-30s-production-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 30 s educational production 01: what airplane mode actually switches off (Visual Investigation grammar, Canvas 2D).",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": { "build": "bash build/build.sh" },
+  "dependencies": {
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7",
+    "@fontsource/source-serif-4": "5.2.9"
+  }
+}

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "V1",
+  "say": "Airplane mode doesn't turn your phone into a brick.",
+  "duration": 2.606,
+  "words": 9
+ },
+ {
+  "id": "V2",
+  "say": "It switches off cellular connectivity.",
+  "duration": 1.972,
+  "words": 5
+ },
+ {
+  "id": "V3",
+  "say": "Wi-Fi and Bluetooth may go off too. Depending on the device, each can be turned back on separately.",
+  "duration": 6.063,
+  "words": 18
+ },
+ {
+  "id": "V4",
+  "say": "So wireless headphones, or an airline's Wi-Fi, can still work, if the airline allows it.",
+  "duration": 5.572,
+  "words": 15
+ },
+ {
+  "id": "V5",
+  "say": "The icons are different radios, not one internet switch.",
+  "duration": 3.425,
+  "words": 9
+ },
+ {
+  "id": "V6",
+  "say": "Follow the airline's instructions, and check which connections are actually on.",
+  "duration": 4.362,
+  "words": 11
+ }
+]
