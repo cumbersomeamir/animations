@@ -1,0 +1,9 @@
+[
+ {"id": "T0", "text": "What's inside a hundred grams of pomegranate arils, the juicy seeds?"},
+ {"id": "T1", "text": "Set the peel and pale membranes aside, then weigh the arils."},
+ {"id": "T2", "text": "That's about eighty-three calories, four grams of fibre and sixteen micrograms of vitamin K."},
+ {"id": "T3", "text": "Fibre aids digestion, and vitamin K helps your blood clot."},
+ {"id": "T4", "text": "Bottled juice is different: it has almost no fibre."},
+ {"id": "T5", "text": "So weigh the edible portion, not the whole fruit."},
+ {"id": "T6", "text": "Track your food and nutrition with CalMeter.", "phonemes": "tɹˈæk jʊɹ fˈuːd ænd njuːtɹˈɪʃən wɪð kˈælmˌiːtɚ.", "_note": "default phonemes 'kˈæl mˈiːɾɚ' are heard as 'cow meter' by ASR; brand stress CAL-meter with a clear t (verified 2026-11-02 by ASR)"}
+]

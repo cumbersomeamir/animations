@@ -1,6 +1,8 @@
 # 11 — Production format (durable; NutriAI)
 
-Episodes: #01 mango (`12-production-30s-01.md`), #02 guava (`13-production-30s-02.md`).
+Episodes: #01 mango (`12-production-30s-01.md`), #02 guava (`13-production-30s-02.md`), #03 pomegranate (`14-production-30s-pomegranate.md`, 2026-11-03).
+
+Public app name from 2026-11-03: **CalMeter** (user request). Spoken end line "Track your food and nutrition with CalMeter." (Kokoro phoneme override `kˈælmˌiːtɚ` for the brand word). Style, typography, audio and caption rules below are unchanged.
 
 Durable context for future production rounds. No automation is created by this file.
 

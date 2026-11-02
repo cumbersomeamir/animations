@@ -1,0 +1,103 @@
+{
+ "fdcId": 169134,
+ "ndbNumber": 9286,
+ "description": "Pomegranates, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g edible portion",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 1.67,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 4.0,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Vitamin C, total ascorbic acid",
+   "amount": 10.2,
+   "unit": "mg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Folate, total",
+   "amount": 38.0,
+   "unit": "µg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Vitamin K (phylloquinone)",
+   "amount": 16.4,
+   "unit": "µg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Water",
+   "amount": 77.9,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 13.7,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 236,
+   "unit": "mg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 1.17,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Energy",
+   "amount": 346,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 18.7,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 83.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "measure": "pomegranate (4\" dia)",
+   "gramWeight": 282.0,
+   "raw": {
+    "amount": null,
+    "modifier": "pomegranate (4\" dia)",
+    "portionDescription": null
+   }
+  },
+  {
+   "measure": "cup arils (seed/juice sacs)",
+   "gramWeight": 87.0,
+   "raw": {
+    "amount": null,
+    "modifier": "cup arils (seed/juice sacs)",
+    "portionDescription": null
+   }
+  }
+ ]
+}

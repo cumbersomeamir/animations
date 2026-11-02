@@ -35,3 +35,10 @@ App NutriAI, package com.nutriaimobile, context branch claude-video/nutriai, out
 
 ## 7. Next step
 PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone illustration, timeline, canvas renderer; 8 hook stills rendered); no audio, no final MP4. Committed as WIP (d79dede). Superseded in priority by the 15 s style test (06/07) and the educational direction (08–10). Do not relabel as finished.
+
+## 8. Production 30 s #03, pomegranate (2026-11-03; public app name CalMeter)
+- Facts: USDA FDC 169134 "Pomegranates, raw" per 100 g arils: 83 kcal, 4.0 g fibre, 16.4 µg vitamin K; SR28 refuse "Skin and membrane" 44 %; FDC 167787 bottled juice 0.1 g fibre; MedlinePlus fibre / vitamin K functions. Details: `context/14-production-30s-pomegranate.md`, `production/30s/2026-11-03/SOURCES.md`.
+- Decisions: batch-02 renderer and mix reused with food geometry swapped (no redesign); 68-word script; CalMeter phoneme override; the cancelled oats round is not used.
+- Commands (from `production/30s/2026-11-03/source/`): `python audio/voice_kokoro.py <kokoro-v1.0.onnx> <voices-v1.0.bin> script.json audio/voice-takes` → `node render.mjs` → `python audio/mix.py` → two-pass FFmpeg loudnorm (I −15, TP −1.5, linear) → mux AAC 192k 48 kHz `-t 30` to `../calMeter-30s-pomegranate-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.3 dBTP; captions 0 outside the safe band; one sync fix (vitamin K line). See `production/30s/2026-11-03/QA.md`.
+- Unresolved: none blocking (limits listed in QA.md). Next step: none requested.

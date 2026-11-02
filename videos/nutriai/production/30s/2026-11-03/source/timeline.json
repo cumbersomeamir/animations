@@ -1,0 +1,45 @@
+{
+ "_doc": "CalMeter production 30 s 'What is inside 100 grams of raw pomegranate arils?' (2026-11-03). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single ASR timing pass (qa/asr-takes.txt).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.25}, {"id": "T1", "at": 5.10}, {"id": "T2", "at": 9.15}, {"id": "T3", "at": 15.60}, {"id": "T4", "at": 20.00}, {"id": "T5", "at": 23.60}, {"id": "T6", "at": 26.80}],
+ "captions": [
+  {"in": 6, "out": 140, "lines": [["What's inside 100 g", 6], ["of pomegranate arils?", 56]]},
+  {"in": 152, "out": 262, "lines": [["Peel & membrane aside,", 160], ["weigh the arils", 228]]},
+  {"in": 274, "out": 452, "lines": [["83 kcal", 285], [" · 4 g fibre", 340, 0], ["16 µg vitamin K", 378]]},
+  {"in": 464, "out": 588, "lines": [["Fibre aids digestion", 468], ["vitamin K helps blood clot", 524]]},
+  {"in": 598, "out": 696, "lines": [["Bottled juice:", 600], ["almost no fibre", 656]]},
+  {"in": 706, "out": 792, "lines": [["Weigh the edible portion,", 710], ["not the whole fruit", 754]]},
+  {"in": 802, "out": 899, "lines": [["Track your food & nutrition", 804], ["with CalMeter", 850]]}
+ ],
+ "events": {
+  "outline": 0, "leaf": 14, "title": 24, "washWhole": 40,
+  "cut": 76, "burnish": 84, "section": 88, "washSection": 108,
+  "peel": 160, "peelNote": 166, "arilNote": 196,
+  "balance": 204, "arilsFly": 216, "balanceOut": 262,
+  "kcal": 285, "legend": 300, "fibre": 340, "vitk": 380,
+  "digest": 468, "clot": 524,
+  "juice": 598, "vs": 618, "noFibre": 656,
+  "takeOut": 698, "balance2": 708, "fruitDrop": 724, "arils2": 732, "tip": 754, "labels": 760,
+  "credits": 806
+ },
+ "sfx": [
+  {"ev": "outline", "type": "pencil", "dur": 2.2, "gain": -26},
+  {"ev": "cut", "type": "slice", "gain": -13},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "section", "type": "pencil", "dur": 1.6, "gain": -27},
+  {"ev": "washSection", "type": "juice", "gain": -22},
+  {"ev": "peel", "type": "tear", "gain": -20},
+  {"ev": "arilsFly", "type": "patter", "dur": 1.0, "gain": -23},
+  {"ev": "balanceOut", "type": "page", "gain": -21},
+  {"ev": "kcal", "type": "tick", "gain": -24},
+  {"ev": "fibre", "type": "tick", "gain": -24},
+  {"ev": "vitk", "type": "tick", "gain": -24},
+  {"ev": "digest", "type": "page", "gain": -23},
+  {"ev": "juice", "type": "clink", "gain": -24},
+  {"ev": "takeOut", "type": "page", "gain": -21},
+  {"ev": "fruitDrop", "type": "thud", "gain": -18},
+  {"ev": "arils2", "type": "patter", "dur": 0.7, "gain": -24},
+  {"ev": "tip", "type": "creak", "gain": -24},
+  {"ev": "credits", "type": "pencil", "dur": 0.7, "gain": -28}
+ ]
+}

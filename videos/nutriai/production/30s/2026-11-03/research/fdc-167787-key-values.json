@@ -1,0 +1,103 @@
+{
+ "fdcId": 167787,
+ "ndbNumber": 9442,
+ "description": "Pomegranate juice, bottled",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g edible portion",
+ "nutrients": [
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.29,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 13.1,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 54.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 86.0,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 12.6,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 214,
+   "unit": "mg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Protein",
+   "amount": 0.15,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Energy",
+   "amount": 228,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.1,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Vitamin C, total ascorbic acid",
+   "amount": 0.1,
+   "unit": "mg",
+   "dataPoints": 3
+  },
+  {
+   "name": "Folate, total",
+   "amount": 24.0,
+   "unit": "µg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Vitamin K (phylloquinone)",
+   "amount": 10.4,
+   "unit": "µg",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "measure": "cup",
+   "gramWeight": 249.0,
+   "raw": {
+    "amount": null,
+    "modifier": "cup",
+    "portionDescription": null
+   }
+  },
+  {
+   "measure": "fl oz",
+   "gramWeight": 31.4,
+   "raw": {
+    "amount": null,
+    "modifier": "fl oz",
+    "portionDescription": null
+   }
+  }
+ ]
+}
