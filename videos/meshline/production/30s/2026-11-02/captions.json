@@ -1,0 +1,92 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.35,
+  "b": 3.28,
+  "l": [
+   "Full signal bars,",
+   "but your message won't send?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 3.35,
+  "b": 5.74,
+  "l": [
+   "Those bars mainly describe",
+   "the radio signal"
+  ]
+ },
+ {
+  "id": "l2b",
+  "a": 5.78,
+  "b": 8.28,
+  "l": [
+   "between your phone",
+   "and the network"
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 8.35,
+  "b": 11.373,
+  "l": [
+   "They don't show how much",
+   "spare capacity is available"
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 11.95,
+  "b": 14.38,
+  "l": [
+   "At a busy concert,",
+   "many phones can compete"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 14.42,
+  "b": 16.757,
+  "l": [
+   "for the same",
+   "shared resources"
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 17.55,
+  "b": 20.753,
+  "l": [
+   "Think of a clear road",
+   "leading to a crowded station"
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 22.85,
+  "b": 25.68,
+  "l": [
+   "Strong signal and fast service",
+   "are different things"
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 25.75,
+  "b": 27.58,
+  "l": [
+   "Keep an offline way",
+   "to coordinate"
+  ]
+ },
+ {
+  "id": "l7b",
+  "a": 27.62,
+  "b": 29.77,
+  "l": [
+   "when connectivity",
+   "matters"
+  ]
+ }
+]

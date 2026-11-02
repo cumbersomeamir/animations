@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.4,
+  "end": 3.005,
+  "text": "Full signal bars, but your message won't send?",
+  "speech_band_db": 18.4
+ },
+ {
+  "id": "l2",
+  "start": 3.4,
+  "end": 8.106,
+  "text": "Those bars mainly describe the radio signal between your phone and the network.",
+  "speech_band_db": 12.6
+ },
+ {
+  "id": "l3",
+  "start": 8.4,
+  "end": 11.023,
+  "text": "They don't show how much spare capacity is available.",
+  "speech_band_db": 18.1
+ },
+ {
+  "id": "l4",
+  "start": 12.0,
+  "end": 16.407,
+  "text": "At a busy concert, many phones can compete for the same shared resources.",
+  "speech_band_db": 15.7
+ },
+ {
+  "id": "l5",
+  "start": 17.6,
+  "end": 20.403,
+  "text": "Think of a clear road leading to a crowded station.",
+  "speech_band_db": 17.2
+ },
+ {
+  "id": "l6",
+  "start": 22.9,
+  "end": 25.475,
+  "text": "Strong signal and fast service are different things.",
+  "speech_band_db": 19.6
+ },
+ {
+  "id": "l7",
+  "start": 25.8,
+  "end": 29.42,
+  "text": "Keep an offline way to coordinate when connectivity matters.",
+  "speech_band_db": 16.0
+ }
+]

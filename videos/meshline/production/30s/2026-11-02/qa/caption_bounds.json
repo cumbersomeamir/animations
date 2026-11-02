@@ -1,0 +1,167 @@
+{
+ "rule": "ink y in [350,470], x in [80,1000]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.35,
+   "b": 3.28,
+   "lines": [
+    "Full signal bars,",
+    "but your message won't send?"
+   ],
+   "ink": {
+    "x0": 176,
+    "x1": 904,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 3.35,
+   "b": 5.74,
+   "lines": [
+    "Those bars mainly describe",
+    "the radio signal"
+   ],
+   "ink": {
+    "x0": 211,
+    "x1": 868,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 5.78,
+   "b": 8.28,
+   "lines": [
+    "between your phone",
+    "and the network"
+   ],
+   "ink": {
+    "x0": 296,
+    "x1": 785,
+    "y0": 360,
+    "y1": 457
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.35,
+   "b": 11.373,
+   "lines": [
+    "They don't show how much",
+    "spare capacity is available"
+   ],
+   "ink": {
+    "x0": 213,
+    "x1": 865,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 11.95,
+   "b": 14.38,
+   "lines": [
+    "At a busy concert,",
+    "many phones can compete"
+   ],
+   "ink": {
+    "x0": 219,
+    "x1": 861,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 14.42,
+   "b": 16.757,
+   "lines": [
+    "for the same",
+    "shared resources"
+   ],
+   "ink": {
+    "x0": 332,
+    "x1": 747,
+    "y0": 360,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 17.55,
+   "b": 20.753,
+   "lines": [
+    "Think of a clear road",
+    "leading to a crowded station"
+   ],
+   "ink": {
+    "x0": 203,
+    "x1": 876,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 22.85,
+   "b": 25.68,
+   "lines": [
+    "Strong signal and fast service",
+    "are different things"
+   ],
+   "ink": {
+    "x0": 186,
+    "x1": 894,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.75,
+   "b": 27.58,
+   "lines": [
+    "Keep an offline way",
+    "to coordinate"
+   ],
+   "ink": {
+    "x0": 310,
+    "x1": 772,
+    "y0": 360,
+    "y1": 457
+   },
+   "pass": true
+  },
+  {
+   "id": "l7b",
+   "a": 27.62,
+   "b": 29.77,
+   "lines": [
+    "when connectivity",
+    "matters"
+   ],
+   "ink": {
+    "x0": 317,
+    "x1": 762,
+    "y0": 360,
+    "y1": 458
+   },
+   "pass": true
+  }
+ ]
+}

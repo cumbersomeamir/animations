@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline voice: local Kokoro-82M ONNX (Apache-2.0), linear style blend. Not Piper; no imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.4,
+      "text": "Full signal bars, but your message won't send?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 2.605,
+      "end": 3.005
+    },
+    {
+      "id": "l2",
+      "start": 3.4,
+      "text": "Those bars mainly describe the radio signal between your phone and the network.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 4.706,
+      "end": 8.106
+    },
+    {
+      "id": "l3",
+      "start": 8.4,
+      "text": "They don't show how much spare capacity is available.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 2.623,
+      "end": 11.023
+    },
+    {
+      "id": "l4",
+      "start": 12.0,
+      "text": "At a busy concert, many phones can compete for the same shared resources.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 4.407,
+      "end": 16.407
+    },
+    {
+      "id": "l5",
+      "start": 17.6,
+      "text": "Think of a clear road leading to a crowded station.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 2.803,
+      "end": 20.403
+    },
+    {
+      "id": "l6",
+      "start": 22.9,
+      "text": "Strong signal and fast service are different things.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 2.575,
+      "end": 25.475
+    },
+    {
+      "id": "l7",
+      "start": 25.8,
+      "text": "Keep an offline way to coordinate when connectivity matters.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.62,
+      "end": 29.42
+    }
+  ]
+}

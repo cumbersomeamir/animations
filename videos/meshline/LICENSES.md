@@ -10,3 +10,4 @@
 | Renderer | `@napi-rs/canvas` 1.0.11 (npm) + FFmpeg 6.1 (system) | MIT / LGPL-GPL (system tool, not redistributed) |
 | text-message-animation skill (15s test) | iart-ai/text-message-video-skills, read as reference only and reimplemented in original code (`tests/15s/SKILL-NOTES.md`) | MIT |
 | Educational pilot 01 (cast, score, voice blend) | Original code in `education/pilot-01/` — see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s #01 (transit map) | Original code in `production/30s/2026-11-02/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

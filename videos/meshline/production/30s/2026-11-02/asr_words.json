@@ -1,0 +1,366 @@
+{
+ "l1": [
+  {
+   "w": "Full",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "w": "signal",
+   "start": 0.14,
+   "end": 0.4
+  },
+  {
+   "w": "bars,",
+   "start": 0.4,
+   "end": 0.78
+  },
+  {
+   "w": "but",
+   "start": 1.16,
+   "end": 1.3
+  },
+  {
+   "w": "your",
+   "start": 1.3,
+   "end": 1.4
+  },
+  {
+   "w": "message",
+   "start": 1.4,
+   "end": 1.66
+  },
+  {
+   "w": "won't",
+   "start": 1.66,
+   "end": 2.1
+  },
+  {
+   "w": "send.",
+   "start": 2.1,
+   "end": 2.34
+  }
+ ],
+ "l2": [
+  {
+   "w": "Those",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "bars",
+   "start": 0.16,
+   "end": 0.4
+  },
+  {
+   "w": "mainly",
+   "start": 0.4,
+   "end": 0.9
+  },
+  {
+   "w": "describe",
+   "start": 0.9,
+   "end": 1.34
+  },
+  {
+   "w": "the",
+   "start": 1.34,
+   "end": 1.7
+  },
+  {
+   "w": "radio",
+   "start": 1.7,
+   "end": 1.92
+  },
+  {
+   "w": "signal",
+   "start": 1.92,
+   "end": 2.44
+  },
+  {
+   "w": "between",
+   "start": 2.44,
+   "end": 2.92
+  },
+  {
+   "w": "your",
+   "start": 2.92,
+   "end": 3.12
+  },
+  {
+   "w": "phone",
+   "start": 3.12,
+   "end": 3.48
+  },
+  {
+   "w": "and",
+   "start": 3.48,
+   "end": 3.98
+  },
+  {
+   "w": "the",
+   "start": 3.98,
+   "end": 4.08
+  },
+  {
+   "w": "network.",
+   "start": 4.08,
+   "end": 4.36
+  }
+ ],
+ "l3": [
+  {
+   "w": "They",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "don't",
+   "start": 0.08,
+   "end": 0.24
+  },
+  {
+   "w": "show",
+   "start": 0.24,
+   "end": 0.4
+  },
+  {
+   "w": "how",
+   "start": 0.4,
+   "end": 0.62
+  },
+  {
+   "w": "much",
+   "start": 0.62,
+   "end": 0.76
+  },
+  {
+   "w": "spare",
+   "start": 0.76,
+   "end": 1.02
+  },
+  {
+   "w": "capacity",
+   "start": 1.02,
+   "end": 1.6
+  },
+  {
+   "w": "is",
+   "start": 1.6,
+   "end": 1.94
+  },
+  {
+   "w": "available.",
+   "start": 1.94,
+   "end": 2.24
+  }
+ ],
+ "l4": [
+  {
+   "w": "At",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "a",
+   "start": 0.08,
+   "end": 0.14
+  },
+  {
+   "w": "busy",
+   "start": 0.14,
+   "end": 0.3
+  },
+  {
+   "w": "concert,",
+   "start": 0.3,
+   "end": 0.86
+  },
+  {
+   "w": "many",
+   "start": 1.26,
+   "end": 1.44
+  },
+  {
+   "w": "phones",
+   "start": 1.44,
+   "end": 1.9
+  },
+  {
+   "w": "can",
+   "start": 1.9,
+   "end": 2.16
+  },
+  {
+   "w": "compete",
+   "start": 2.16,
+   "end": 2.48
+  },
+  {
+   "w": "for",
+   "start": 2.48,
+   "end": 2.76
+  },
+  {
+   "w": "the",
+   "start": 2.76,
+   "end": 2.88
+  },
+  {
+   "w": "same",
+   "start": 2.88,
+   "end": 3.12
+  },
+  {
+   "w": "shared",
+   "start": 3.12,
+   "end": 3.4
+  },
+  {
+   "w": "resources.",
+   "start": 3.4,
+   "end": 3.84
+  }
+ ],
+ "l5": [
+  {
+   "w": "Think",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "of",
+   "start": 0.1,
+   "end": 0.18
+  },
+  {
+   "w": "a",
+   "start": 0.18,
+   "end": 0.24
+  },
+  {
+   "w": "clear",
+   "start": 0.24,
+   "end": 0.46
+  },
+  {
+   "w": "road",
+   "start": 0.46,
+   "end": 0.9
+  },
+  {
+   "w": "leading",
+   "start": 0.9,
+   "end": 1.4
+  },
+  {
+   "w": "to",
+   "start": 1.4,
+   "end": 1.64
+  },
+  {
+   "w": "a",
+   "start": 1.64,
+   "end": 1.72
+  },
+  {
+   "w": "crowded",
+   "start": 1.72,
+   "end": 1.94
+  },
+  {
+   "w": "station.",
+   "start": 1.94,
+   "end": 2.46
+  }
+ ],
+ "l6": [
+  {
+   "w": "Strong",
+   "start": 0.0,
+   "end": 0.2
+  },
+  {
+   "w": "signal",
+   "start": 0.2,
+   "end": 0.54
+  },
+  {
+   "w": "and",
+   "start": 0.54,
+   "end": 0.82
+  },
+  {
+   "w": "fast",
+   "start": 0.82,
+   "end": 1.02
+  },
+  {
+   "w": "service",
+   "start": 1.02,
+   "end": 1.44
+  },
+  {
+   "w": "are",
+   "start": 1.44,
+   "end": 1.72
+  },
+  {
+   "w": "different",
+   "start": 1.72,
+   "end": 1.96
+  },
+  {
+   "w": "things.",
+   "start": 1.96,
+   "end": 2.22
+  }
+ ],
+ "l7": [
+  {
+   "w": "Keep",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "an",
+   "start": 0.16,
+   "end": 0.3
+  },
+  {
+   "w": "offline",
+   "start": 0.3,
+   "end": 0.54
+  },
+  {
+   "w": "way",
+   "start": 0.54,
+   "end": 1.1
+  },
+  {
+   "w": "to",
+   "start": 1.1,
+   "end": 1.44
+  },
+  {
+   "w": "coordinate",
+   "start": 1.44,
+   "end": 1.88
+  },
+  {
+   "w": "when",
+   "start": 1.88,
+   "end": 2.34
+  },
+  {
+   "w": "connectivity",
+   "start": 2.34,
+   "end": 2.66
+  },
+  {
+   "w": "matters.",
+   "start": 2.66,
+   "end": 3.24
+  }
+ ]
+}

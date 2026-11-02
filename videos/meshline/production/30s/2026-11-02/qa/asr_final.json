@@ -1,0 +1,42 @@
+{
+ "reference": "Full signal bars, but your message won't send? Those bars mainly describe the radio signal between your phone and the network. They don't show how much spare capacity is available. At a busy concert, many phones can compete for the same shared resources. Think of a clear road leading to a crowded station. Strong signal and fast service are different things. Keep an offline way to coordinate when connectivity matters.",
+ "asr": "Full signal bars, but your message won't send. Those bars mainly describe the radio signal between your phone and the network. They don't show how much spare capacity is available. At a busy concert, many phones can compete for the same shared resources. Think of a clear road leading to a crowded station. Strong signal and fast service are different things. Keep an offline way to coordinate when connectivity matters.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   2.72,
+   "Full signal bars, but your message won't send."
+  ],
+  [
+   3.56,
+   7.76,
+   "Those bars mainly describe the radio signal between your phone and the network."
+  ],
+  [
+   8.36,
+   10.62,
+   "They don't show how much spare capacity is available."
+  ],
+  [
+   11.62,
+   15.84,
+   "At a busy concert, many phones can compete for the same shared resources."
+  ],
+  [
+   17.28,
+   20.14,
+   "Think of a clear road leading to a crowded station."
+  ],
+  [
+   22.42,
+   25.22,
+   "Strong signal and fast service are different things."
+  ],
+  [
+   25.88,
+   29.06,
+   "Keep an offline way to coordinate when connectivity matters."
+  ]
+ ]
+}
