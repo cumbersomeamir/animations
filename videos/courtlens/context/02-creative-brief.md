@@ -1,3 +1,8 @@
+> **Superseded in part (2026-11-02 feedback round):** the user's newer directions in `08-series-format.md`
+> (locked genre "Is this legal in India?", style recipe "Tiny Clause, Big Consequence", approved voice, palette,
+> safe-caption rules, delivery path) override anything below that conflicts. Episode briefs live in `episodes/`.
+> The original brief is kept below for history.
+
 # Creative direction: editorial
 
 Suggested story: Trace a maze of case papers into an organized case trail: cause list, order and tracking; show official verification.

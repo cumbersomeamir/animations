@@ -11,5 +11,32 @@
       "source": "Saved public Google Play listing snapshot, October 2026"
     }
   ],
-  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos.",
+  "production_dependencies_2026_11_02": [
+    {
+      "item": "Inter font (Medium, SemiBold, Bold, ExtraBold, Black, MediumItalic)",
+      "path": "videos/courtlens/production/30s/2026-11-02-feedback-round/src/fonts/",
+      "license": "SIL OFL 1.1 (copy of Debian fonts-inter copyright file included)",
+      "source": "Debian package fonts-inter (system fonts in build container)"
+    },
+    {
+      "item": "Kokoro v1.0 TTS model + voices (not committed, ~350 MB)",
+      "license": "Apache-2.0 weights; kokoro-onnx MIT",
+      "source": "https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0",
+      "sha256": {
+        "kokoro-v1.0.onnx": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+        "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+      }
+    },
+    {
+      "item": "Music bed and SFX",
+      "license": "original, synthesized in src/audio_mix.py (no samples)",
+      "source": "this session"
+    },
+    {
+      "item": "All illustrations (mug, cards, banner, envelope)",
+      "license": "original vector drawing in src/scene.js",
+      "source": "this session"
+    }
+  ]
 }

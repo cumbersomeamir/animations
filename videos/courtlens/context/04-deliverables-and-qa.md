@@ -1,3 +1,7 @@
+> **Updated 2026-11-02:** finished episodes now go to
+> `videos/courtlens/production/30s/<date>-<round>/courtlens-30s-<round>-NN.mp4` with `src/`, `notes/`, `qa/` beside it
+> (see `08-series-format.md` §5–6). Exactly 30.000 s, 1080x1920, 30 fps, H.264 yuv420p + AAC. The QA list below still applies.
+
 # Deliverables
 - videos/courtlens/output/courtlens-30s.mp4, new rendered final, H.264, AAC audio, 1080x1920, 30fps, approximately 30 seconds.
 - Source project with pinned dependencies and reproducible render command.

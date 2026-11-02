@@ -1,0 +1,41 @@
+{
+  "fps": 30,
+  "duration": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "narration": [
+    {"id": "l1", "start": 0.30},
+    {"id": "l2", "start": 3.45},
+    {"id": "l3", "start": 5.62},
+    {"id": "l4", "start": 11.65},
+    {"id": "l5", "start": 15.50},
+    {"id": "l6", "start": 21.95},
+    {"id": "l7", "start": 26.62}
+  ],
+  "captions": [
+    {"start": 0.00, "end": 1.50, "text": "You ordered online.", "hl": []},
+    {"start": 1.50, "end": 3.32, "text": "The item arrived broken.", "hl": ["broken."]},
+    {"start": 3.32, "end": 5.55, "text": "Can a seller just say “no refunds”?", "hl": ["“no", "refunds”?"]},
+    {"start": 5.55, "end": 8.45, "text": "In India, e-commerce rules protect buyers", "hl": ["India,"]},
+    {"start": 8.45, "end": 11.55, "text": "when goods are defective or not as described.", "hl": ["defective", "not", "as", "described."]},
+    {"start": 11.55, "end": 13.05, "text": "A “no refunds” label", "hl": []},
+    {"start": 13.05, "end": 15.25, "text": "does not erase those obligations.", "hl": ["does", "not", "erase"]},
+    {"start": 15.25, "end": 18.35, "text": "Changing your mind is a different situation;", "hl": ["Changing", "your", "mind"]},
+    {"start": 18.35, "end": 21.65, "text": "there is no automatic right to return every purchase.", "hl": ["no", "automatic", "right"]},
+    {"start": 21.75, "end": 23.05, "text": "Keep the invoice,", "hl": ["invoice,"]},
+    {"start": 23.05, "end": 24.45, "text": "photograph the problem,", "hl": ["photograph"]},
+    {"start": 24.45, "end": 26.40, "text": "and request a refund in writing.", "hl": ["in", "writing."]},
+    {"start": 26.45, "end": 30.00, "text": "Follow Courtlens for everyday Indian law, explained.", "hl": ["Courtlens"]}
+  ],
+  "events": {
+    "cardIn": -0.18, "track1": 0.55, "track2": 0.85, "track3": 1.15,
+    "mugDrop": 1.55, "mugLand": 1.90, "crack": 2.50, "split": 2.62,
+    "toS2": 3.30, "bannerDrop": 4.05, "bannerLand": 4.45, "refuseLine": 4.75,
+    "ruleIn": 5.75, "ruleBump": 6.20, "chipDefective": 9.05, "chipDescribed": 10.20,
+    "bannerTug": 11.80, "tagFlip": 13.20,
+    "toS4": 15.15, "rightMug": 15.95, "bubble": 16.55, "rightResult": 18.45, "sticker": 19.30,
+    "toS5": 21.65, "invoice": 22.15, "tick1": 22.85, "photo": 23.30, "tick2": 24.10,
+    "flap": 24.55, "seal": 24.95, "write": 25.00, "tick3": 26.00,
+    "toS6": 26.25, "ctaIn": 26.72, "ctaText": 26.86
+  }
+}
