@@ -34,3 +34,8 @@ Active direction: `08-educational-strategy.md`. Pilot 01 brief + storyboard: `09
 
 ## 6. Next action
 Pilot 01 delivered. Next (only when asked): episode 2 from the list in 08. Research one FDC entry first, then storyboard, reuse Gram rig + balance, and change the situation, camera and choreography.
+
+## 7. 10 s style test, batch 2026-11-02-pre-reset (S02 Copperplate Engraving)
+- Output: `videos/nutriai/tests/10s/pre-reset-2026-11-02/nutriai-10s-test.mp4` (10.000 s, 300 frames, H.264 High 1080×1920 30 fps, AAC 48 kHz stereo; decode clean). Hash and QA: `tests/10s/pre-reset-2026-11-02/QA.md`.
+- Facts reused from FDC 169910 (60 kcal; vitamin C 36.4 mg ≈ 36 mg; per 100 g edible portion). Voice: Kokoro-82M ONNX, Meshline blend af_bella 0.7 + am_puck 0.3 at speed 0.98 (en-us); take cached at `source/audio/voice-take.wav`; one ASR check verbatim.
+- Limits: caption top at y 330 (target ~350); no cross-hatch family in the flesh; 3D mango still not composited. Earlier 30 s WIP, 15 s test and pilot 01 untouched.
