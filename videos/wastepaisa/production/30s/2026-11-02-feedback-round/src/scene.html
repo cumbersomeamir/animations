@@ -1,0 +1,267 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa feedback-round 01 "What's inside an old cable" in the 'Scrap Shop X-ray' variation:
+// dark point-cloud scrap shop (static, world-anchored dots, parallax via smooth camera travel),
+// solid readable mascot + objects in the foreground, X-ray reveal, large colour-coded cross-section,
+// buyer trays + scale, no-burn sign, takeaway and WastePaisa CTA. Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-02-feedback-round';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.0, [0, 1.6, 2.4]], [8.6, [0.25, 1.5, 2.0]], [12.7, [0, 1.85, 3.1]], [18.3, [-0.3, 1.7, 2.6]], [22.9, [0, 2.35, 3.7]], [25.9, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]];
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- cables (solid foreground objects) with X-ray reveal ----------
+// kind: 'cu' copper power cable, 'al' aluminium power cable, 'data' thin multi-pair data cable with connector
+function cable(kind, x0, x1, y, th, reveal) {
+  const body = () => { rr(x0, y - th / 2, x1 - x0, th, th / 2); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 10; g.shadowBlur = 18; body(); g.fillStyle = kind === 'data' ? '#3d6fa8' : '#2b3036'; g.fill(); g.restore();
+  g.fillStyle = 'rgba(255,255,255,0.12)'; rr(x0 + 10, y - th / 2 + 6, x1 - x0 - 20, th * 0.18, th * 0.09); g.fill();
+  if (kind === 'data') { // connector plug on the right end
+    g.fillStyle = '#d9dde2'; rr(x1 - 14, y - th * 0.75, 90, th * 1.5, 8); g.fill(); g.fillStyle = '#a9b0b8'; g.fillRect(x1 + 40, y - th * 0.55, 30, th * 1.1);
+    g.fillStyle = '#c99a2e'; for (let i = 0; i < 6; i++) g.fillRect(x1 + 46 + i * 4, y - th * 0.5, 2, th * 0.3); }
+  if (reveal > 0) { // X-ray: insulation turns translucent where the scan has passed, showing the conductor inside
+    const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0 - 4, y - th, rx - x0 + 4, th * 2); g.clip();
+    body(); g.fillStyle = 'rgba(160,220,235,0.18)'; g.fill(); g.strokeStyle = 'rgba(143,211,224,0.9)'; g.lineWidth = 3; g.stroke();
+    if (kind === 'data') { const cols = ['#e8741c', '#2c8a4e', '#3b6fb6', '#8a5a3c']; cols.forEach((c, i) => { g.strokeStyle = c; g.lineWidth = th * 0.13; g.beginPath(); for (let x = x0 + 12; x < x1 - 12; x += 8) { const yy = y + (i - 1.5) * th * 0.17 + Math.sin(x * 0.05 + i) * th * 0.06; x === x0 + 12 ? g.moveTo(x, yy) : g.lineTo(x, yy); } g.stroke(); }); }
+    else { const col = kind === 'cu' ? C.copper : C.alu, dark = kind === 'cu' ? C.copperDark : C.aluDark; rr(x0 + 14, y - th * 0.26, x1 - x0 - 28, th * 0.52, th * 0.26); g.fillStyle = col; g.fill();
+      g.strokeStyle = dark; g.lineWidth = 2; for (let i = -2; i <= 2; i++) { g.beginPath(); g.moveTo(x0 + 18, y + i * th * 0.09); g.lineTo(x1 - 18, y + i * th * 0.09); g.stroke(); } }
+    g.restore();
+    if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y - th * 0.95, 20, th * 1.9); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y - th * 0.95, 4, th * 1.9); }
+  }
+}
+function crossSection(cx, cy, R, t, hi) { // large colour-coded cross-section of a 3-core copper power cable
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 40; g.beginPath(); g.arc(cx, cy, R, 0, 7); g.fillStyle = C.sheath; g.fill(); g.restore();
+  g.beginPath(); g.arc(cx, cy, R * 0.87, 0, 7); g.fillStyle = '#1b1f24'; g.fill();
+  const cores = [[-90, '#8a5a3c'], [30, '#3b6fb6'], [150, '#2c8a4e']];
+  cores.forEach(([deg, col], i) => { const a = deg * Math.PI / 180, x = cx + Math.cos(a) * R * 0.42, y = cy + Math.sin(a) * R * 0.42, r = R * 0.36;
+    g.beginPath(); g.arc(x, y, r, 0, 7); g.fillStyle = col; g.fill(); if (i === 2) { g.strokeStyle = '#e7c94a'; g.lineWidth = r * 0.22; g.setLineDash([r * 0.5, r * 0.5]); g.stroke(); g.setLineDash([]); }
+    const sr = r * 0.62, n = [[0, 0]]; for (let k = 0; k < 6; k++) n.push([Math.cos(k / 6 * 6.283) * sr * 0.42, Math.sin(k / 6 * 6.283) * sr * 0.42]); for (let k = 0; k < 12; k++) n.push([Math.cos((k + 0.5) / 12 * 6.283) * sr * 0.8, Math.sin((k + 0.5) / 12 * 6.283) * sr * 0.8]);
+    for (const [dx, dy] of n) { g.beginPath(); g.arc(x + dx, y + dy, sr * 0.2, 0, 7); g.fillStyle = C.copper; g.fill(); g.beginPath(); g.arc(x + dx - sr * 0.05, y + dy - sr * 0.06, sr * 0.07, 0, 7); g.fillStyle = 'rgba(255,230,190,0.8)'; g.fill(); } });
+  if (hi === 'ins') { g.strokeStyle = C.warm; g.lineWidth = 10; g.beginPath(); g.arc(cx, cy, R - 4, 0, 7); g.stroke(); }
+  if (hi === 'metal') cores.forEach(([deg]) => { const a = deg * Math.PI / 180; g.strokeStyle = C.warm; g.lineWidth = 7; g.beginPath(); g.arc(cx + Math.cos(a) * R * 0.42, cy + Math.sin(a) * R * 0.42, R * 0.25, 0, 7); g.stroke(); });
+}
+function tray(x, y, w, text, fill, a = 1) { g.save(); g.globalAlpha = a; g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  g.beginPath(); g.moveTo(x - w / 2, y - 40); g.lineTo(x + w / 2, y - 40); g.lineTo(x + w / 2 - 18, y + 46); g.lineTo(x - w / 2 + 18, y + 46); g.closePath(); g.fillStyle = '#59616b'; g.fill(); g.shadowColor = 'transparent';
+  g.fillStyle = '#7d8790'; g.fillRect(x - w / 2, y - 46, w, 12); if (fill) fill(); textC(text, x, y + 16, 36, C.cream, 800); g.restore(); }
+function cableBit(kind, x, y, s = 1) { g.save(); g.translate(x, y); g.rotate(-0.08); const th = (kind === 'data' ? 26 : 40) * s; rr(-90 * s, -th / 2, 180 * s, th, th / 2); g.fillStyle = kind === 'data' ? '#3d6fa8' : '#2b3036'; g.fill();
+  g.beginPath(); g.ellipse(90 * s, 0, th * 0.18, th / 2, 0, 0, 7); g.fillStyle = kind === 'cu' ? C.copper : kind === 'al' ? C.alu : '#e8741c'; g.fill(); g.restore(); }
+function scale(x, y, needle, a = 1) { g.save(); g.globalAlpha = a; g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  rr(x - 170, y - 20, 340, 40, 12); g.fillStyle = '#7d8790'; g.fill(); rr(x - 120, y + 20, 240, 150, 24); g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent';
+  g.beginPath(); g.arc(x, y + 96, 58, 0, 7); g.fillStyle = C.cream; g.fill(); g.strokeStyle = '#1b1f24'; g.lineWidth = 3; for (let i = 0; i <= 8; i++) { const a = Math.PI * (0.8 + i * 0.175); g.beginPath(); g.moveTo(x + Math.cos(a) * 46, y + 96 + Math.sin(a) * 46); g.lineTo(x + Math.cos(a) * 54, y + 96 + Math.sin(a) * 54); g.stroke(); }
+  const na = Math.PI * (0.8 + needle * 1.4); g.strokeStyle = C.warm; g.lineWidth = 5; g.beginPath(); g.moveTo(x, y + 96); g.lineTo(x + Math.cos(na) * 44, y + 96 + Math.sin(na) * 44); g.stroke(); textC('kg', x, y + 124, 22, C.ink, 800); g.restore(); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.0: mascot holds an old cable; X-ray scan reveals copper inside
+  g.save(); g.globalAlpha = a;
+  const m = mascot(300, 1430, 1.25, { armL: [-0.15, 115], armR: [1.15, 70], look: [0.8, 0.1], lid: -0.5, blink: (t > 2.4 && t < 2.5) ? 1 : 0 });
+  const [hx, hy] = m.hand(1); cable('cu', hx - 10, 990, hy, 74, easeOut(prog(t, 0.9, 2.0)));
+  g.restore();
+}
+function sObjects(t, a) { // 3.0 - 8.6: three honest objects, scanned in sync with the narration
+  g.save(); g.globalAlpha = a;
+  const rows = [['cu', 'COPPER', 760, 4.15], ['al', 'ALUMINIUM', 990, 4.95], ['data', 'DATA CABLE', 1220, 6.05]];
+  rows.forEach(([k, name, y, ts], i) => { const enter = easeOut(prog(t, 3.0 + i * 0.18, 3.5 + i * 0.18)); const x0 = lerp(-760, 150, enter);
+    cable(k, x0, x0 + (k === 'data' ? 680 : 760), y, k === 'data' ? 44 : 70, easeOut(prog(t, ts, ts + 0.7)));
+    label(name, 300, y - 88, prog(t, ts + 0.35, ts + 0.6), { size: 40, warm: k === 'cu' }); });
+  if (t > 6.9) { const k = prog(t, 6.9, 7.3); g.save(); g.globalAlpha = a * k; g.strokeStyle = C.warm; g.lineWidth = 4; g.beginPath(); g.moveTo(960, 760); g.quadraticCurveTo(1010, 875, 960, 990); g.stroke(); g.restore();
+    label('DIFFERENT VALUE', 700, 875, k * a, { size: 40, warm: true }); }
+  mascot(870, 1440, 0.72, { armL: [-0.5, 90], armR: [1.2, 60], look: [-0.7, -0.6], lid: -0.5 });
+  g.restore();
+}
+function sSection(t, a) { // 8.6 - 12.7: dive into the copper cable end -> large colour-coded cross-section
+  g.save(); g.globalAlpha = a;
+  const k = back(clamp((t - 8.6) / 0.6)), R = lerp(40, 300, clamp(k, 0, 1.1)), cx = lerp(910, 540, ease(prog(t, 8.6, 9.2))), cy = lerp(760, 960, ease(prog(t, 8.6, 9.2)));
+  const hi = t >= 11.35 ? null : t >= 10.75 ? 'metal' : t >= 10.1 ? 'ins' : null;
+  crossSection(cx, cy, R, t, hi);
+  label('INSULATION', 290, 640, prog(t, 10.1, 10.35), { size: 42, to: [cx - R * 0.72, cy - R * 0.68], warm: hi === 'ins' });
+  label('COPPER STRANDS', 760, 640, prog(t, 10.75, 11.0), { size: 42, to: [cx + R * 0.2, cy - R * 0.58], warm: hi === 'metal' });
+  if (t > 10.75) { const kk = prog(t, 10.75, 11.3); g.save(); g.globalAlpha = a * kk; const bx = 190, by = 1340, bw = 700;  // metal-vs-insulation share bar = what "grade" is about
+    rr(bx, by, bw, 34, 17); g.fillStyle = '#3a4048'; g.fill(); rr(bx, by, bw * 0.55 * kk, 34, 17); g.fillStyle = C.copper; g.fill();
+    textC('how much is metal?', 540, by - 40, 40, C.cream, 700); g.restore(); }
+  if (t > 11.35) label('+ WEIGHT', 540, 1430, prog(t, 11.35, 11.6), { size: 42, warm: true });
+  g.restore();
+}
+function sTrays(t, a) { // 12.7 - 18.3: separate buyer trays, weigh, ask how each is priced
+  g.save(); g.globalAlpha = a;
+  const slots = [['cu', 'COPPER', 230, 13.05], ['al', 'ALUMINIUM', 540, 13.55], ['data', 'DATA', 850, 14.05]];
+  const onScale = t >= 15.0;
+  slots.forEach(([k, name, x, td], i) => {
+    const ty = i === 0 && onScale ? lerp(900, 1180, ease(prog(t, 15.0, 15.4))) : 900, tx = i === 0 && onScale ? lerp(230, 500, ease(prog(t, 15.0, 15.4))) : x;
+    tray(tx, ty, 260, name, () => { const d = prog(t, td, td + 0.35); if (d > 0) cableBit(k, tx, ty - 46 - 140 * (1 - easeOut(d)) + 6, 0.95); });
+  });
+  if (t >= 15.0) { const settle = prog(t, 15.35, 16.1); const n = 0.55 + Math.sin(settle * 14) * 0.35 * (1 - settle); scale(500, 1290, settle > 0 ? n : 0); }
+  else scale(500, 1290, 0, prog(t, 12.7, 13.0));
+  if (t >= 16.1) { const k = back(prog(t, 16.1, 16.45)) * 1.15; g.save(); g.translate(822, 1075); g.scale(k, k); g.rotate(0.04);
+    rr(-150, -70, 300, 140, 16); g.fillStyle = C.cream; g.fill(); textC('ASK FIRST', 0, -32, 30, C.warm, 800); textC('metal type?', 0, 8, 26, C.ink, 700); textC('insulated or clean?', 0, 42, 26, C.ink, 700); g.restore(); }
+  mascot(200, 1450, 0.8, { armL: t < 15.6 ? [-0.3, 120] : [0.1, 130], armR: [1.2, 60], look: t < 15.6 ? [0.6, -0.3] : [0.9, 0.3], lid: -0.5 });
+  g.restore();
+}
+function sNoBurn(t, a) { // 18.3 - 22.9: never burn insulation; the smoke is toxic
+  g.save(); g.globalAlpha = a;
+  const cx = 600, cy = 960, k = easeOut(prog(t, 18.3, 18.8));
+  // smoke: deterministic dots rising (no shimmer: fixed seeds, smooth paths)
+  const r = rng(77); for (let i = 0; i < 70; i++) { const ph = r(), sp = 0.5 + r() * 0.5, life = ((t * sp * 0.35 + ph) % 1); const x = cx - 60 + r() * 120 + Math.sin(life * 6 + i) * 30 * life, y = cy + 80 - life * 520;
+    g.fillStyle = `rgba(170,175,180,${0.35 * (1 - life) * k})`; g.beginPath(); g.arc(x, y, 6 + life * 22, 0, 7); g.fill(); }
+  g.save(); g.translate(cx, cy + 40); g.scale(k, k);
+  g.fillStyle = C.warm; g.beginPath(); g.moveTo(-90, 120); g.quadraticCurveTo(-120, 10, -30, -120); g.quadraticCurveTo(-20, -40, 10, -60); g.quadraticCurveTo(30, -150, 60, -170); g.quadraticCurveTo(140, -30, 90, 120); g.closePath(); g.fill();
+  g.fillStyle = '#ffb547'; g.beginPath(); g.moveTo(-40, 120); g.quadraticCurveTo(-50, 40, 0, -20); g.quadraticCurveTo(50, 40, 40, 120); g.closePath(); g.fill(); g.restore();
+  cable('cu', cx - 260, cx + 260, cy + 170, 60, 0);
+  if (t >= 19.4) { const s = back(prog(t, 19.4, 19.7)); g.save(); g.translate(cx, cy + 40); g.scale(s, s); g.strokeStyle = '#e23b2e'; g.lineWidth = 34; g.beginPath(); g.arc(0, 0, 250, 0, 7); g.stroke(); g.beginPath(); g.moveTo(-176, 176); g.lineTo(176, -176); g.stroke(); g.restore(); }
+  label('NEVER BURN', 600, 640, prog(t, 19.4, 19.65), { size: 46, warm: true });
+  if (t >= 21.35) label('TOXIC SMOKE', 600, 1340, prog(t, 21.35, 21.6), { size: 44 });
+  mascot(210, 1450, 0.85, { armL: [-1.95, 70], armR: [-1.95, 70], look: [0.4, -0.2], lid: -0.5, stern: true });
+  g.restore();
+}
+function sRecap(t, a) { // 22.9 - 25.9: the takeaway in three short words
+  g.save(); g.globalAlpha = a;
+  const items = [['SORT', 23.1], ['ASK', 23.75], ["DON'T BURN", 24.4]];
+  items.forEach(([s, ts], i) => { const k = back(prog(t, ts, ts + 0.35)); if (k <= 0) return; const y = 760 + i * 210; g.save(); g.translate(540, y); g.scale(k, k);
+    rr(-300, -78, 600, 156, 30); g.fillStyle = i === 2 ? 'rgba(244,109,18,0.95)' : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = i === 2 ? C.warm : 'rgba(254,247,238,0.4)'; g.lineWidth = 3; g.stroke();
+    textC(s, 40, 4, 70, i === 2 ? '#1d130e' : C.cream, 800);
+    g.translate(-210, 0); if (i === 0) { for (let j = 0; j < 3; j++) { g.fillStyle = ['#d9822b', '#cfd4da', '#3d6fa8'][j]; rr(-50 + j * 34, -30, 26, 60, 6); g.fill(); } }
+    else if (i === 1) { rr(-46, -34, 92, 68, 10); g.fillStyle = C.cream; g.fill(); textC('?', 0, 2, 48, C.warm, 800); }
+    else { g.strokeStyle = '#1d130e'; g.lineWidth = 8; g.beginPath(); g.arc(0, 0, 36, 0, 7); g.stroke(); g.beginPath(); g.moveTo(-26, 26); g.lineTo(26, -26); g.stroke(); }
+    g.restore(); });
+  mascot(880, 1450, 0.72, { armL: [-0.6, 90], armR: [1.2, 60], look: [-0.6, -0.5], lid: -0.5, blink: (t > 25.0 && t < 25.1) ? 1 : 0 });
+  g.restore();
+}
+function sCTA(t, a) { // 25.9 - 30: short natural brand/action CTA
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 26.0, 26.45));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 26) * 5)) * 8 * (t > 26 && t < 27.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.0], [sObjects, 3.0, 8.6], [sSection, 8.6, 12.7], [sTrays, 12.7, 18.3], [sNoBurn, 18.3, 22.9], [sRecap, 22.9, 25.9], [sCTA, 25.9, 30.1]];
+const XF = 0.3; // short dissolve between scenes (camera travel carries the move)
+
+// ---------- captions: upper safe region, ink y ~340-520, x 90-990, max 2 lines ----------
+const GROUPS = {
+  L1: ['That old cable|[isn\'t just plastic.]'],
+  L2: ['Inside may be|[copper] or [aluminium],', 'and the material changes|its [scrap value.]'],
+  L3: ['A buyer also checks the|[insulation, grade] and [weight.]'],
+  L4: ['Keep different cable types|[separate]', 'and ask how they\'re priced|[before selling.]'],
+  L5: ['[Never burn] insulation|to expose the metal.', 'The smoke is [toxic.]'],
+  L6: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id], tot = gs.reduce((a, s) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach((s, gi) => { const a = gi === 0 ? L.start - 0.1 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  g.font = '800 62px "Baloo 2"'; const lines = c.text.split('|'), lh = 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(W / 2 - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 25.9 ? (t >= 8.6 && t < 12.7 ? 0.45 : 1) : lerp(1, 0.5, prog(t, 25.9, 26.6));
+  pointCloud(t, t >= 8.6 && t < 12.7 ? lerp(1, 0.45, prog(t, 8.6, 9.0)) * (t > 12.4 ? lerp(1, 1 / 0.45, prog(t, 12.4, 12.7)) : 1) : dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { f(t, al); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

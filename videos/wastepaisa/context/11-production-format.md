@@ -27,6 +27,56 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   cross-section and new sheet." "Distinct scene changes; no earnings promises." "Make hook and payoff useful,
   visibly explain mechanism with scene changes."
 
+## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
+- **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),
+  not disposal lectures. One practical value check per episode. No made-up rupee rates, guaranteed earnings,
+  statistics, testimonials or app capabilities. Material qualifications go briefly *inside* the relevant sentence;
+  no long generic disclaimers, filler or empty motivational lines.
+- **Spec:** exactly 30.000 s, 1080×1920, 30 fps, H.264 yuv420p + AAC 48 kHz stereo.
+- **Structure:** strong opening (first frame already shows subject + object) → distinct scenes that show the mechanism
+  *while* it is narrated → clear takeaway → **short natural brand/action CTA in the final 3–4 s**
+  (for example "Join WastePaisa and put your scrap to use." over the app icon and wordmark).
+- **Captions:** upper safe region below account overlays: nothing meaningful at y < 300. Caption ink at y ≈ 340–520,
+  x 90–990, at most 2 readable lines (62 px Baloo 2 ExtraBold, cream with orange highlight words, on a soft dark panel),
+  no overlapping handoffs. Labels ≥ 40 px. Crucial diagrams stay out of the side and bottom UI areas
+  (x 90–990, y ≤ ~1460). Re-render if text is small or obstructed, or if scenes are static. A contact sheet or a
+  static page with camera bobbing is never the deliverable.
+- **Audio:** the established Kokoro voice (af_bella 0.7 + am_puck 0.3, en-us, speed 0.98). Voice clear and upfront. Music is a
+  subtle evolving pad with slow chord changes: **no repetitive rhythmic loops** (no marimba arpeggios or shakers).
+  SFX tied to on-screen events. −15 LUFS, true peak ≤ −1 dBTP.
+- **Character:** keep the accepted simplified open-lid can (one cylinder, one lid, two eyes, two simple arms). No
+  gears, bolts, intricate mechanisms or extra characters. Physical objects (cross-sections, trays, scale) teach the
+  lesson, and the mascot reacts and points.
+- **Deliverable path:** `videos/wastepaisa/production/30s/<date-or-round>/wastepaisa-30s-<name>.mp4`. Notes, source and QA
+  stay in the repo. Only finished MP4s go to the user's local review folder (not reachable from cloud sessions,
+  so they're delivered as chat attachments).
+
+## STYLE RECIPES (a rendering library is not a style)
+### A. Accepted can format: "Paper-cut scrap shop" (30s-01, 30s-02)
+Paper-cut Motion art direction (above): stepped 12 fps, torn paper pieces with one-light shadows, pins, stamps, copper-wire
+connectors, scenes joined by fold, slide, drop, iris and unfold transitions.
+### B. "Scrap Shop X-ray" (feedback-01; design-variation reference https://www.instagram.com/p/DfA9A6ZBRrJ/ by mindsetvibrations,
+only the user's description of it was used, the post was not viewed)
+1. **Ground:** near-black (#07090B) with a faint cool radial falloff, so the room reads as a dark architectural space.
+2. **Secondary layer:** a sparse **point-cloud scrap shop** (floor-plan grid, back-wall outline, two shelving units with
+   coils and boxes, the X-ray counter). Dots sampled every ~7.5 cm along 3D edges, radius 1.2–2.7 px, cream-white at 24–85 %
+   alpha falling off with depth, a few cool cyan accents on scrap items, and **one small warm accent** (#F46D12: counter top
+   edge and scan lamp). Dots are fixed in world space and seeded once: **no shimmer, no per-frame noise**.
+3. **Camera:** disciplined smooth travel. One eased dolly, pan or rise per scene (push in to the counter, dive toward the
+   object, pull back, rise, final pull-back). Parallax comes from the 3D dots. No bobbing or shake.
+4. **Foreground:** solid, readable subjects drawn as filled shapes with a soft drop shadow: the can mascot (paper edge
+   kept) and real objects (cables, trays, scale). The primary object is always the clearest thing on screen.
+5. **X-ray reveal:** a cyan scan bar sweeps across an object. Behind it the outer layer turns translucent (cyan outline)
+   to expose the inside (for example a copper core). The reveal persists as a cutaway.
+6. **Hero diagram:** zoom from the object into one large, simple, colour-coded cross-section, and dim the point cloud to
+   ~45 % while it is on screen. Use at most two leader-line labels plus one simple bar.
+7. **Text:** short highlighted words. Captions are cream with orange highlights on a dark panel; labels are rounded dark
+   chips (warm chip = the word being spoken).
+8. **Transitions:** camera travel plus a 0.3 s dissolve between foreground scenes. The point-cloud room persists for continuity.
+9. **Ending:** recap of 2–3 words with icons, then the app icon, the wordmark "WastePaisa" and a short action line; the
+   mascot waves.
+Implementation for reference: `production/30s/2026-11-02-feedback-round/src/scene.html` (Canvas2D, original code).
+
 ## Recurring scene and performer
 - **Tinku (simplified, current):** a flat paper-cut mascot drawn procedurally in Canvas2D (`mascot()` in
   `production/30s/2026-11-02-batch-02/src/scene.html`). It has exactly **one tin cylinder** (cream label band with

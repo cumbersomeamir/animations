@@ -1,0 +1,137 @@
+{
+ "sfx_cues": [
+  [
+   0.9,
+   "X-ray scan over the cable"
+  ],
+  [
+   3.0,
+   "cables slide onto the counter"
+  ],
+  [
+   3.18,
+   "slide"
+  ],
+  [
+   3.36,
+   "slide"
+  ],
+  [
+   4.15,
+   "scan copper"
+  ],
+  [
+   4.5,
+   "copper revealed"
+  ],
+  [
+   4.95,
+   "scan aluminium"
+  ],
+  [
+   5.3,
+   "aluminium revealed"
+  ],
+  [
+   6.05,
+   "scan data cable"
+  ],
+  [
+   6.4,
+   "data cable revealed"
+  ],
+  [
+   6.9,
+   "value bracket"
+  ],
+  [
+   8.6,
+   "zoom into cross-section"
+  ],
+  [
+   10.1,
+   "insulation label"
+  ],
+  [
+   10.75,
+   "copper label"
+  ],
+  [
+   11.35,
+   "weight label"
+  ],
+  [
+   13.05,
+   "copper cable into tray"
+  ],
+  [
+   13.55,
+   "aluminium cable into tray"
+  ],
+  [
+   14.05,
+   "data cable into tray"
+  ],
+  [
+   15.0,
+   "tray slides onto scale"
+  ],
+  [
+   15.35,
+   "tray lands on scale"
+  ],
+  [
+   15.45,
+   "needle"
+  ],
+  [
+   15.7,
+   "needle"
+  ],
+  [
+   16.1,
+   "ASK FIRST ticket"
+  ],
+  [
+   18.3,
+   "flame shown"
+  ],
+  [
+   19.4,
+   "NEVER BURN strike"
+  ],
+  [
+   21.35,
+   "toxic smoke label"
+  ],
+  [
+   23.1,
+   "SORT"
+  ],
+  [
+   23.75,
+   "ASK"
+  ],
+  [
+   24.4,
+   "DON'T BURN"
+  ],
+  [
+   26.0,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.57",
+  "input_tp": "-3.10",
+  "input_lra": "7.30",
+  "input_thresh": "-29.28",
+  "output_i": "-15.27",
+  "output_tp": "-1.50",
+  "output_lra": "5.00",
+  "output_thresh": "-26.93",
+  "normalization_type": "dynamic",
+  "target_offset": "0.27"
+ }
+}

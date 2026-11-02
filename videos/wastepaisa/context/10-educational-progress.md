@@ -92,6 +92,16 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   distinct scene changes; no earnings promises). Round record: `context/13-production-30s-02.md`. No automation created.
 - Limits: no human listening test; simplified illustrative machinery; 2D procedurally posed mascot.
 
+## Feedback round 2026-11-02-feedback-round: COMPLETE
+- Topic: what's inside an old cable and why sorting changes a buyer's assessment (value and selling focus). Style: "Scrap Shop X-ray".
+- Output: `videos/wastepaisa/production/30s/2026-11-02-feedback-round/wastepaisa-30s-feedback-01.mp4`,
+  SHA-256 `5ba25a0e08aab5da58b37e919736d0ca08c5a6a1beba8e179c68ccc7cf7d85a4`
+- 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo · clean decode · −15.0 LUFS / −1.5 dBTP ·
+  caption ink y 366–494, x 130–950 · timing within ±0.03 s · ASR misses are homophones or brand name only
+- New rules and the exact style recipe are saved in `context/11-production-format.md`; episode record in `context/14-feedback-round-01.md`.
+  The old batch-02 draft was not resubmitted. No automation.
+- Limits: no human listening test; brief double-exposure in 0.3 s dissolves; the local review folder isn't reachable from cloud (delivered as an attachment).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
