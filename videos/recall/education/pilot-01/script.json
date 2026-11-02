@@ -1,0 +1,30 @@
+{
+  "voice": "af_heart:0.6+bf_emma:0.4",
+  "speed": 0.92,
+  "lines": [
+    {
+      "id": "n1a",
+      "text": "A steel ball sinks."
+    },
+    {
+      "id": "n1b",
+      "text": "So how do steel ships float?"
+    },
+    {
+      "id": "n2",
+      "text": "It pushes aside only a little water."
+    },
+    {
+      "id": "n3a",
+      "text": "Same steel, as a hollow hull,"
+    },
+    {
+      "id": "n3b",
+      "text": "pushes aside much more water."
+    },
+    {
+      "id": "n4",
+      "text": "Steel plus air is, on average, less dense than water."
+    }
+  ]
+}

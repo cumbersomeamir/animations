@@ -1,0 +1,55 @@
+{
+  "voice": "af_heart:0.6+bf_emma:0.4",
+  "speed": 0.92,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "n1a",
+      "text": "A steel ball sinks.",
+      "file": "n1a.wav",
+      "duration": 1.322,
+      "sr": 24000,
+      "words_per_s": 3.03
+    },
+    {
+      "id": "n1b",
+      "text": "So how do steel ships float?",
+      "file": "n1b.wav",
+      "duration": 1.755,
+      "sr": 24000,
+      "words_per_s": 3.42
+    },
+    {
+      "id": "n2",
+      "text": "It pushes aside only a little water.",
+      "file": "n2.wav",
+      "duration": 2.092,
+      "sr": 24000,
+      "words_per_s": 3.35
+    },
+    {
+      "id": "n3a",
+      "text": "Same steel, as a hollow hull,",
+      "file": "n3a.wav",
+      "duration": 1.853,
+      "sr": 24000,
+      "words_per_s": 3.24
+    },
+    {
+      "id": "n3b",
+      "text": "pushes aside much more water.",
+      "file": "n3b.wav",
+      "duration": 1.774,
+      "sr": 24000,
+      "words_per_s": 2.82
+    },
+    {
+      "id": "n4",
+      "text": "Steel plus air is, on average, less dense than water.",
+      "file": "n4.wav",
+      "duration": 3.27,
+      "sr": 24000,
+      "words_per_s": 3.06
+    }
+  ]
+}

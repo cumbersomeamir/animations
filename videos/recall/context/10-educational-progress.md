@@ -1,0 +1,63 @@
+# 10 — Educational progress (active; reread with CLAUDE.md on every resume)
+
+Brief: 08 (strategy) + 09 (pilot 01 brief/storyboard). Pilot folder: `videos/recall/education/pilot-01/`.
+Prior deliverables preserved: `output/recall-30s.mp4` untouched; 06 15 s test = not started (honest status in 07).
+
+## Verified facts (evidence, not opinion)
+- Repo `cumbersomeamir/animations`, branch `claude-video/recall` (only branch used), workspace `videos/recall/`.
+- `assets/icon.png` sha256 c059d0e0…2962 and `assets/listing.json` sha256 1f92917f…f039 match 03-assets.json.
+- Icon palette measured from pixels: lime #C7F36B (169 260 px), paper #F8FAF3, ink #20251B.
+- Physics sources (accessed 2026-11-02): OpenStax College Physics 2e §11.7 + Table 11.1 (steel 7.8, water 1.000,
+  sea water 1.025 ×10³ kg/m³); OpenStax University Physics 1 §14.4 (average density decides; clay boat vs lump;
+  "The same is true of steel ships."); Gard Insights 2012 (ship interior mostly air; floating object displaces its own
+  weight). Claim map: `pilot-01/docs/SOURCES.md`. Britannica returned 403 (not used). Instagram references not viewed.
+- Physics model (from `web/physics.js`, printed by the renderer): ball r 0.10 → V 0.004189; floating hull displaces
+  7.8 V = 0.032673; tank area 0.52; level rise ball 0.00806 vs hull 0.06283 (ratio 7.80); hull draft 0.173 of 0.28
+  depth (freeboard 0.107); hull could displace 1.64× what it needs before swamping.
+- Narration (Kokoro, blend 0.6 af_heart + 0.4 bf_emma, speed 0.92): 38 words, 12.07 s of speech, 2.53 words/s
+  overall; per-line ASR on the WAVs matched the script exactly (faster-whisper base.en).
+- Mix (audio/mix.py): −16.06 LUFS integrated (BS.1770 in-script), sample peak −1.5 dBFS, voice over bed
+  +9.9 … +13.3 dB per line.
+
+## Creative decisions (choices, not facts)
+- Performer: **Kip, the clay explorer** (original). Lime helmet + scarf, gumdrop clay body, ink brows; see
+  `pilot-01/docs/CHARACTER.md`. Rendered at scale 1.2.
+- Medium: Three.js 0.186.1 clay diorama rendered in headless Chromium (SwiftShader) via Playwright 1.63, PNG frames →
+  FFmpeg x264 CRF 16. Fredoka 600 captions (ink pill, lime key words), Inter only for QA sheets.
+- Story devices: "rewind + pause" (finger twirl) to inspect the submerged ball with only weight and water's push
+  acting; same steel morphs ball → hollow hull (pinch-pot squish); lime glow = water pushed aside; gauge shows
+  "ball" vs "hull" level marks (computed 1 : 7.8); "=" when arrows balance; flag marks the finding.
+- Functional colours outside the icon palette: water #8ED6C4, steel #AEB5BA, tank backing #23352F, sea strips.
+- Music/SFX: original numpy synthesis; music muffled during the pause; ducked under voice.
+- Signature: small ink pill with icon + "Recall" from 12.9 s. No CTA, no product claims.
+
+## Skill provenance / adaptations
+- Local `.claude/skills/animation-direction/SKILL.md` (read): used storyboard-first with action verbs, anticipation →
+  action → impact → recovery, props for cause and effect, full render + boundary frames + contact sheet + ffprobe +
+  full decode, record commands. Adapted: stickman/editorial 2D → tactile 3D clay (brief requires clay explorer);
+  pycairo not used.
+- `nispa/stickman-video` SKILL.md (read-only via web fetch; no scripts run): adopted cue-anchored timing, 2.4–2.7
+  words/s with voice, per-line speed check (<~3.3 w/s; ours 2.8–3.4, n1b 3.42 and n2 3.35 slightly above — kept
+  because ASR is exact and overall pace is 2.53 w/s), SFX on the same cues as actions, music ducking, contact sheet
+  before full render, no stillness > 2 s. Not adopted: Remotion, line-art rig, stickman grounding helper.
+
+## Commands
+```bash
+cd videos/recall/education/pilot-01
+npm install                    # three 0.186.1, @fontsource/fredoka 5.3.0
+(cd audio && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt -r requirements-qa.txt && ./fetch_models.sh)
+audio/.venv/bin/python audio/tts.py          # narration WAVs (committed)
+WORKERS=3 ./build.sh                         # mix -> render -> mux -> qa
+node render.mjs --sheet build/sheet && audio/.venv/bin/python docs/make_sheet.py
+```
+
+## Render / QA state
+- Iteration 1 stills: fixed step showing through tank (opaque backing), Kip too small (scale 1.2), ghost read as a
+  solid ball (translucent + dashed outline), label collisions, helmet under captions (camera reframes), pointing
+  direction, dark steam puff.
+- Iteration 2 stills: fixed hull hiding Kip's mouth (hold lower), shot D framing.
+- Full render 1: in progress (see QA.md once complete).
+
+## Next action
+Finish full render → run qa/qa.py → inspect contact + boundary sheets and full-res frames → fix → rerender if needed →
+model sheet → QA.md → commit + push → deliver MP4 path.

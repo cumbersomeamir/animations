@@ -1,0 +1,31 @@
+{
+  "fps": 30,
+  "duration": 15.0,
+  "narration": [
+    {"id": "n1a", "start": 0.35},
+    {"id": "n1b", "start": 1.92},
+    {"id": "n2", "start": 4.20},
+    {"id": "n3a", "start": 6.85},
+    {"id": "n3b", "start": 9.05},
+    {"id": "n4", "start": 11.10}
+  ],
+  "cues": {
+    "drop": 0.45, "splash": 0.74, "floor": 1.12,
+    "lookShip": 2.0, "toot": 2.55, "chin": 3.15,
+    "twirl": 3.68, "rewind": 3.85, "pause": 4.18, "ghostOut": 4.5, "arrowsBall": 5.05, "markBall": 5.3,
+    "twirl2": 6.1, "unpause": 6.32, "rewindSplash": 6.56, "catch": 6.82,
+    "squish1": 7.2, "squish2": 7.62, "squish3": 8.05, "morphEnd": 8.45,
+    "present": 8.6, "lowerStart": 8.82, "touch": 9.18,
+    "ghostHull": 9.5, "arrowsHull": 9.65, "markHull": 10.1, "balanced": 10.5,
+    "declutter": 10.85, "labelSteel": 11.2, "labelAir": 11.62,
+    "flagGrab": 11.95, "flagPlant": 12.55, "sig": 12.9, "thumbs": 13.25
+  },
+  "captions": [
+    {"start": 0.30, "end": 1.85, "parts": [["A steel ball ", 0], ["sinks.", 1]]},
+    {"start": 1.85, "end": 3.95, "parts": [["So how do steel ships ", 0], ["float?", 1]]},
+    {"start": 4.10, "end": 6.55, "parts": [["It pushes aside only ", 0], ["a little water.", 1]]},
+    {"start": 6.70, "end": 8.95, "parts": [["Same steel, as a ", 0], ["hollow hull,", 1]]},
+    {"start": 8.95, "end": 10.95, "parts": [["pushes aside ", 0], ["much more water.", 1]]},
+    {"start": 11.00, "end": 15.0, "parts": [["Steel + air is, on average, ", 0], ["less dense than water.", 1]], "chip": "TAKEAWAY"}
+  ]
+}
