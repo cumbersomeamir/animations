@@ -1,0 +1,39 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Which has more mass: a kilogram of steel, or a kilogram of feathers?"
+    },
+    {
+      "id": "l02",
+      "text": "Take a moment."
+    },
+    {
+      "id": "l03",
+      "text": "Same mass: one kilogram each."
+    },
+    {
+      "id": "l04",
+      "text": "The feathers just take up far more space. As a pile, their density is much lower."
+    },
+    {
+      "id": "l05",
+      "text": "Now flip it: two boxes of the same size."
+    },
+    {
+      "id": "l06",
+      "text": "The steel box has far more mass."
+    },
+    {
+      "id": "l07",
+      "text": "The trick: notice what the question keeps equal, mass or volume."
+    },
+    {
+      "id": "l08",
+      "text": "Change that, and you change the answer."
+    }
+  ]
+}

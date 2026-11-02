@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Which has more mass: a kilogram of steel, or a kilogram of feathers?",
+      "file": "l01.wav",
+      "duration": 3.942,
+      "sr": 24000,
+      "words_per_s": 3.3
+    },
+    {
+      "id": "l02",
+      "text": "Take a moment.",
+      "file": "l02.wav",
+      "duration": 0.784,
+      "sr": 24000,
+      "words_per_s": 3.83
+    },
+    {
+      "id": "l03",
+      "text": "Same mass: one kilogram each.",
+      "file": "l03.wav",
+      "duration": 2.046,
+      "sr": 24000,
+      "words_per_s": 2.44
+    },
+    {
+      "id": "l04",
+      "text": "The feathers just take up far more space. As a pile, their density is much lower.",
+      "file": "l04.wav",
+      "duration": 5.006,
+      "sr": 24000,
+      "words_per_s": 3.2
+    },
+    {
+      "id": "l05",
+      "text": "Now flip it: two boxes of the same size.",
+      "file": "l05.wav",
+      "duration": 2.506,
+      "sr": 24000,
+      "words_per_s": 3.59
+    },
+    {
+      "id": "l06",
+      "text": "The steel box has far more mass.",
+      "file": "l06.wav",
+      "duration": 1.7,
+      "sr": 24000,
+      "words_per_s": 4.12
+    },
+    {
+      "id": "l07",
+      "text": "The trick: notice what the question keeps equal, mass or volume.",
+      "file": "l07.wav",
+      "duration": 3.755,
+      "sr": 24000,
+      "words_per_s": 2.93
+    },
+    {
+      "id": "l08",
+      "text": "Change that, and you change the answer.",
+      "file": "l08.wav",
+      "duration": 1.927,
+      "sr": 24000,
+      "words_per_s": 3.63
+    }
+  ]
+}

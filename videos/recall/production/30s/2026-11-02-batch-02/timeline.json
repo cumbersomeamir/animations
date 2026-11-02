@@ -1,0 +1,42 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "duration": 30.0,
+  "bpm": 120,
+  "narration": [
+    {"id": "l01", "start": 0.35},
+    {"id": "l02", "start": 4.60},
+    {"id": "l03", "start": 8.45},
+    {"id": "l04", "start": 10.85},
+    {"id": "l05", "start": 16.15},
+    {"id": "l06", "start": 19.45},
+    {"id": "l07", "start": 23.05},
+    {"id": "l08", "start": 27.15}
+  ],
+  "commands": [
+    {"word": "LOAD!", "t": 0.0, "tag": 0.42},
+    {"word": "GUESS!", "t": 4.5, "tag": 4.95},
+    {"word": "WEIGH!", "t": 8.0, "tag": 8.45},
+    {"word": "FLIP!", "t": 16.0, "tag": 16.45},
+    {"word": "WEIGH!", "t": 19.0, "tag": 19.4}
+  ],
+  "cues": {
+    "cubePlace": 2.25, "sackPlace": 3.55, "lockShow": 3.7, "guess": 4.5, "fuseStart": 5.0, "answer": 8.0, "pinOut1": 8.12,
+    "sameMass": 8.5, "volume": 12.0, "pile": 13.5, "pinIn": 15.85, "flip": 16.0, "swap1": 16.12, "sameSize": 17.6,
+    "weigh2": 19.0, "pinOut2": 19.12, "slam": 19.4, "stampSteel": 19.5, "recap": 23.0,
+    "tog1": 25.5, "tog2": 26.0, "tog3": 28.0, "thumbs": 28.5, "end": 29.0
+  },
+  "captions": [
+    {"start": 0.30, "end": 1.55, "lines": [[["Which has ", 0], ["more mass:", 1]]]},
+    {"start": 1.55, "end": 4.45, "lines": [[["a kilogram of ", 0], ["steel,", 1]], [["or a kilogram of ", 0], ["feathers?", 1]]]},
+    {"start": 4.45, "end": 8.00, "lines": [[["Take a ", 0], ["moment.", 1]]]},
+    {"start": 8.00, "end": 10.70, "lines": [[["Same mass:", 1]], [["one kilogram each.", 0]]]},
+    {"start": 10.70, "end": 13.35, "lines": [[["The feathers just take up", 0]], [["far more space.", 1]]]},
+    {"start": 13.35, "end": 16.00, "lines": [[["As a pile, their density", 0]], [["is ", 0], ["much lower.", 1]]]},
+    {"start": 16.00, "end": 19.35, "lines": [[["Now flip it:", 0]], [["two boxes of the ", 0], ["same size.", 1]]]},
+    {"start": 19.35, "end": 23.00, "lines": [[["The steel box", 0]], [["has ", 0], ["far more mass.", 1]]]},
+    {"start": 23.00, "end": 25.45, "lines": [[["The trick: notice what", 0]], [["the question ", 0], ["keeps equal,", 1]]]},
+    {"start": 25.45, "end": 27.05, "lines": [[["mass", 1], [" or ", 0], ["volume.", 1]]]},
+    {"start": 27.05, "end": 30.00, "lines": [[["Change that, and you", 0]], [["change the answer.", 1]]]}
+  ]
+}

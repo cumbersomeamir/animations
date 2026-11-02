@@ -1,6 +1,7 @@
 # 11 — Production format: Recall knowledge challenges (durable; for future rounds)
 
-Set 2026-11-02 by the user-approved production round `production-30s-2026-11-02`. Applies to Recall production
+Set 2026-11-02 by the user-approved production round `production-30s-2026-11-02`; updated by batch 02
+(`production-30s-2026-11-02-batch-02`). Applies to Recall production
 videos from now on unless a newer brief overrides it. **No automation has been created** (the user said not to yet).
 Relationship to earlier context: 08 (educational strategy, Kip) still holds; this file fixes the production format.
 
@@ -27,7 +28,7 @@ short, accurate takeaway. No fake testimonials (e.g. no "perfect-memory child"),
 | segment | time | rule |
 |---|---|---|
 | hook | 0–3 s | command already slamming (e.g. WATCH!), physical puzzle happens, ✓/✗ stamps |
-| setup | 3–8 s | state what is the same and what is asked; GUESS! command; 2 answer chips; **2.0 s fuse pause** (4 knots on beats) |
+| setup | 3–8 s | state what is the same and what is asked; GUESS! command; 2–3 answer chips; **visible think beat: 3.0 s fuse (6 knots on beats) — latest feedback (batch 02); round 01 used 2.0 s** |
 | mechanism | 8–23 s | ANSWER! stab after the silence; one demonstrated mechanism with markers and forces; one twist (e.g. FILL IT!) |
 | takeaway | 23–29 s | restate in one sentence; REPLAY! of the key state if useful; TAKEAWAY chip |
 | end | 29–30 s | button chord, settled frame, small Recall signature; no fade to black |
@@ -70,3 +71,22 @@ Three.js (npm, pinned) + preinstalled Playwright/Chromium (SwiftShader, ≈2 s/f
 CRF 17 yuv420p + AAC 192k 48 kHz stereo, `-t` exact duration. Per-frame overlay boxes and safe anchors are logged;
 QA checks ffprobe, frame count, full decode, loudness/true peak, ASR, caption ink bounds, top-clear, subject zone and
 contact/boundary sheets. Deterministic frames allow patching a frame range rather than a full rerender.
+
+## User feedback log (latest overrides earlier details)
+- **Batch 02 (2026-11-02):** "Keep Microgame Frenzy style" with: a physical, labelled measuring prop (kilogram-labelled
+  balance); a **three-second visible choose/think beat**; a clear physical payoff (equal balance); a second round that
+  flips the condition (same-volume boxes); the video must play independently (no interactive app assumed); word the
+  question precisely (**MASS**, not "heavier"/weight) and avoid side effects that distract (no buoyancy in air);
+  explanations scientifically precise; fresh storyboard with purposeful transitions — never trim or recolour old output;
+  reuse the accepted identity (Kip, palette, stage), no random new characters; research every claim against
+  primary/institutional sources and tighten wording where a term cannot be sourced (e.g. "bulk density" → "as a pile,
+  their density"); 65–80 words narrated naturally in 30 s.
+- **Round 01 (2026-11-02):** knowledge-game show, physical miniature, 2 s prediction pause, displacement markers,
+  physically correct forces, no fake testimonial, verify the core principle.
+
+## Episodes produced (do not repeat topics)
+| # | topic | output | context |
+|---|---|---|---|
+| 01 | Can you beat this fifth-grade science question? (steel ball sinks, steel ship floats) | `production/30s/2026-11-02/recall-30s-production-01.mp4` | 12 |
+| 02 | Which is heavier: a kilo of steel or feathers? (mass vs volume) | `production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` | 13 |
+
