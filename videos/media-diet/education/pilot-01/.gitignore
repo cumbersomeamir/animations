@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+frames/
+# regenerable audio stems (build/audio.py); narration takes in audio/narration/ ARE committed build inputs
+audio/*.wav

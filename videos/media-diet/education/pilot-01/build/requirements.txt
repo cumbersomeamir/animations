@@ -1,0 +1,4 @@
+piper-tts==1.8.0
+numpy==2.5.3
+pillow==12.3.0
+vosk==0.3.45

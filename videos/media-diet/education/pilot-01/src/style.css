@@ -1,0 +1,9 @@
+@font-face { font-family: 'Space Grotesk'; font-weight: 700; src: url('../node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Space Grotesk'; font-weight: 500; src: url('../node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 500; src: url('../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 600; src: url('../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 700; src: url('../node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2') format('woff2'); }
+html, body { margin: 0; padding: 0; background: #030622; overflow: hidden; }
+#stage, #overlay { position: absolute; left: 0; top: 0; }
+#overlay { pointer-events: none; font-family: 'Space Grotesk', sans-serif; color: #f4f6ff; }
+canvas { display: block; }

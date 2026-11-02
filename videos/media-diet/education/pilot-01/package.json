@@ -1,0 +1,16 @@
+{
+  "name": "media-diet-education-pilot-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet educational pilot 01: what happens when you send a message across the internet (15 s portrait).",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8"
+  }
+}
