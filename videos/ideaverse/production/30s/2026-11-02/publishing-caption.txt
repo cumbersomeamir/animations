@@ -1,0 +1,19 @@
+A useful AI prompt has three layers:
+
+1. Goal: what you want done
+2. Context: who it's for and what matters
+3. Output: the shape you need, such as a short table
+
+Example: "Explain this electricity bill to a first-time renter, identify the charges, and return a short table."
+
+Then check important numbers against the original document. A better prompt helps direct the answer; it doesn't make every claim true.
+
+(The bill in the video is a fictional example.)
+
+Sources:
+Google, Prompt design strategies: https://ai.google.dev/gemini-api/docs/prompting-strategies
+Anthropic, Prompting best practices: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+OpenAI, Prompt engineering: https://developers.openai.com/api/docs/guides/prompt-engineering
+NIST AI 600-1, Generative AI Profile (2024): https://doi.org/10.6028/NIST.AI.600-1
+
+#AItips #PromptEngineering #AIliteracy

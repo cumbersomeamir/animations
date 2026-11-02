@@ -1,0 +1,12 @@
+{
+  "name": "ideaverse-30s-production-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ideaverse AI tips 30s: 'A useful prompt has three layers' — riso print renderer (Canvas 2D + per-pixel halftone/overprint), FFmpeg encode",
+  "type": "module",
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.11",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0"
+  }
+}

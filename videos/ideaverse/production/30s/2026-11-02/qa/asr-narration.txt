@@ -1,0 +1,6 @@
+ 0.20- 2.80 [ 0.20.. 1.82] Want a more useful AI answer?
+ 2.80- 8.20 [ 2.80.. 7.52] Give it three things. A goal, relevant context, and the shape of the answer you need.
+ 8.20-17.90 [ 8.20..17.06] Instead of saying, explain this, try. Explain this electricity bill to a first -time renter, identify the charges, and return a short table.
+17.90-22.50 [17.90..20.46] Then check important numbers against the bill itself.
+23.00-25.30 [23.00..24.88] A better prompt helps direct the answer.
+25.30-28.60 [25.30..27.72] It doesn't make every claim automatically true.

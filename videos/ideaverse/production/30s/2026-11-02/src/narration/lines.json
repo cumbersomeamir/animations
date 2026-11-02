@@ -1,0 +1,8 @@
+[
+  {"id": "s1", "text": "Want a more useful AI answer?"},
+  {"id": "s2", "text": "Give it three things: a goal, relevant context, and the shape of the answer you need."},
+  {"id": "s3", "text": "Instead of saying, explain this, try: explain this electricity bill to a first-time renter, identify the charges, and return a short table."},
+  {"id": "s4", "text": "Then check important numbers against the bill itself."},
+  {"id": "s5", "text": "A better prompt helps direct the answer."},
+  {"id": "s6", "text": "It doesn't make every claim automatically true."}
+]
