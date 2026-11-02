@@ -75,7 +75,7 @@ def sfx(name, pitch=1.0):
     if name == 'stomp':
         n = int(0.22 * SR); t = t_axis(n)
         s = sweep(n, 140, 45) * env_ad(n, 0.002, 0.07) + 0.6 * bandnoise(n, 1500, 6000) * env_ad(n, 0.001, 0.008)
-        return 0.6 * s
+        return 0.4 * s
     if name in ('whooshUp', 'whoosh'):
         n = int((0.45 if name == 'whooshUp' else 0.38) * SR); t = t_axis(n); T = n / SR
         s = bandnoise(n, 400, 3000) * np.sin(np.pi * t / T) ** 2

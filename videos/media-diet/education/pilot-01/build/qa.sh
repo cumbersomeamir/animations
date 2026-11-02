@@ -55,4 +55,7 @@ ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,449)" -vsync 0 -frames:v 1 qa/las
 if [ -d .cache/vosk-model-small-en-us-0.15 ]; then
   "$VENV/bin/python" build/asr_check.py "$OUT" .cache/vosk-model-small-en-us-0.15 qa/asr-transcript.json
 fi
+# audio stem/timing plot (narration windows, SFX cue ticks, picture cuts)
+ffmpeg -v error -y -i "$OUT" -map 0:a -ar 48000 -ac 2 -c:a pcm_s16le .cache/delivered_audio.wav
+"$VENV/bin/python" build/audio_plot.py qa/audio-timeline.png .cache/delivered_audio.wav
 echo "QA complete"

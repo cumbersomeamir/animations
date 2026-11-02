@@ -1,0 +1,20 @@
+{
+ "checks": {
+  "video codec h264": true,
+  "pix_fmt yuv420p": true,
+  "size 1080x1920": true,
+  "fps 30/1": true,
+  "frames 450": true,
+  "video duration 15.000": true,
+  "audio codec aac": true,
+  "audio 48 kHz stereo": true,
+  "audio duration 15.000 (+/-1 AAC frame)": true,
+  "container duration 15.0x": true
+ },
+ "video_duration": "15.000000",
+ "audio_duration": "15.000000",
+ "format_duration": "15.000000",
+ "nb_frames": "450",
+ "bit_rate": "7136538",
+ "size_bytes": "13381009"
+}

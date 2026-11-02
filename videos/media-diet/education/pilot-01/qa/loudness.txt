@@ -1,0 +1,22 @@
+[Parsed_ebur128_0 @ 0x5637b8fffa00] Summary:
+
+  Integrated loudness:
+    I:         -16.0 LUFS
+    Threshold: -26.1 LUFS
+
+  Loudness range:
+    LRA:         1.8 LU
+    Threshold: -36.0 LUFS
+    LRA low:   -16.9 LUFS
+    LRA high:  -15.1 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS
+[Parsed_astats_0 @ 0x55951d6a3a00] Peak level dB: -1.549295
+[Parsed_astats_0 @ 0x55951d6a3a00] RMS level dB: -18.668155
+[Parsed_astats_0 @ 0x55951d6a3a00] Flat factor: 0.000000
+[Parsed_astats_0 @ 0x55951d6a3a00] Peak count: 2
+[Parsed_astats_0 @ 0x55951d6a3a00] Abs Peak count: 1
+[Parsed_astats_0 @ 0x55951d6a3a00] Peak level dB: -1.623540
+[Parsed_astats_0 @ 0x55951d6a3a00] RMS level dB: -18.705344
+[Parsed_astats_0 @ 0x55951d6a3a00] Flat factor: 0.000000

@@ -1,0 +1,245 @@
+{
+ "engine": "vosk 0.3.45 + vosk-model-small-en-us-0.15 (offline)",
+ "script_words": 35,
+ "heard_words": 33,
+ "word_recall_lcs": 0.8,
+ "transcript": "does your message fly straight to your friend know it travels as packets eat with an address letters pass them along by hop usually via the app servers not one jump many handouts",
+ "lines": [
+  {
+   "id": "L1",
+   "start": 0.4,
+   "script": "Does your message fly straight to your friend?",
+   "heard_in_window": "does your message fly straight to your friend know"
+  },
+  {
+   "id": "L2a",
+   "start": 2.75,
+   "script": "Nope.",
+   "heard_in_window": "know it travels as packets eat with an address"
+  },
+  {
+   "id": "L2b",
+   "start": 3.55,
+   "script": "It travels as packets, each with an address.",
+   "heard_in_window": "it travels as packets eat with an address"
+  },
+  {
+   "id": "L3",
+   "start": 6.45,
+   "script": "Routers pass them along, hop by hop,",
+   "heard_in_window": "letters pass them along by hop usually"
+  },
+  {
+   "id": "L4",
+   "start": 9.05,
+   "script": "usually via the app's servers.",
+   "heard_in_window": "usually via the app servers"
+  },
+  {
+   "id": "L5",
+   "start": 12.25,
+   "script": "Not one jump. Many hand-offs.",
+   "heard_in_window": "not one jump many handouts"
+  }
+ ],
+ "words": [
+  {
+   "conf": 1.0,
+   "end": 0.57,
+   "start": 0.42,
+   "word": "does"
+  },
+  {
+   "conf": 1.0,
+   "end": 0.66,
+   "start": 0.57,
+   "word": "your"
+  },
+  {
+   "conf": 1.0,
+   "end": 1.02,
+   "start": 0.66,
+   "word": "message"
+  },
+  {
+   "conf": 1.0,
+   "end": 1.26,
+   "start": 1.02,
+   "word": "fly"
+  },
+  {
+   "conf": 1.0,
+   "end": 1.59,
+   "start": 1.26,
+   "word": "straight"
+  },
+  {
+   "conf": 1.0,
+   "end": 1.68,
+   "start": 1.59,
+   "word": "to"
+  },
+  {
+   "conf": 1.0,
+   "end": 1.8,
+   "start": 1.68,
+   "word": "your"
+  },
+  {
+   "conf": 1.0,
+   "end": 2.22,
+   "start": 1.8,
+   "word": "friend"
+  },
+  {
+   "conf": 0.85775,
+   "end": 3.03,
+   "start": 2.76,
+   "word": "know"
+  },
+  {
+   "conf": 0.501025,
+   "end": 3.687316,
+   "start": 3.57,
+   "word": "it"
+  },
+  {
+   "conf": 1.0,
+   "end": 4.11,
+   "start": 3.687316,
+   "word": "travels"
+  },
+  {
+   "conf": 0.236163,
+   "end": 4.23,
+   "start": 4.11,
+   "word": "as"
+  },
+  {
+   "conf": 1.0,
+   "end": 4.86,
+   "start": 4.235676,
+   "word": "packets"
+  },
+  {
+   "conf": 0.776155,
+   "end": 5.16,
+   "start": 4.95,
+   "word": "eat"
+  },
+  {
+   "conf": 1.0,
+   "end": 5.31,
+   "start": 5.16,
+   "word": "with"
+  },
+  {
+   "conf": 1.0,
+   "end": 5.4,
+   "start": 5.31,
+   "word": "an"
+  },
+  {
+   "conf": 1.0,
+   "end": 5.88,
+   "start": 5.4,
+   "word": "address"
+  },
+  {
+   "conf": 1.0,
+   "end": 6.87,
+   "start": 6.48,
+   "word": "letters"
+  },
+  {
+   "conf": 1.0,
+   "end": 7.26,
+   "start": 6.87,
+   "word": "pass"
+  },
+  {
+   "conf": 1.0,
+   "end": 7.41,
+   "start": 7.26,
+   "word": "them"
+  },
+  {
+   "conf": 1.0,
+   "end": 7.8,
+   "start": 7.41,
+   "word": "along"
+  },
+  {
+   "conf": 1.0,
+   "end": 8.28,
+   "start": 8.13,
+   "word": "by"
+  },
+  {
+   "conf": 1.0,
+   "end": 8.64,
+   "start": 8.28,
+   "word": "hop"
+  },
+  {
+   "conf": 1.0,
+   "end": 9.45,
+   "start": 9.06,
+   "word": "usually"
+  },
+  {
+   "conf": 1.0,
+   "end": 9.72,
+   "start": 9.45,
+   "word": "via"
+  },
+  {
+   "conf": 1.0,
+   "end": 9.84,
+   "start": 9.72,
+   "word": "the"
+  },
+  {
+   "conf": 0.593895,
+   "end": 10.05,
+   "start": 9.84,
+   "word": "app"
+  },
+  {
+   "conf": 1.0,
+   "end": 10.62,
+   "start": 10.05319,
+   "word": "servers"
+  },
+  {
+   "conf": 1.0,
+   "end": 12.54,
+   "start": 12.27,
+   "word": "not"
+  },
+  {
+   "conf": 1.0,
+   "end": 12.72,
+   "start": 12.54,
+   "word": "one"
+  },
+  {
+   "conf": 0.782952,
+   "end": 13.02,
+   "start": 12.72,
+   "word": "jump"
+  },
+  {
+   "conf": 1.0,
+   "end": 13.53,
+   "start": 13.26,
+   "word": "many"
+  },
+  {
+   "conf": 1.0,
+   "end": 14.19,
+   "start": 13.53,
+   "word": "handouts"
+  }
+ ]
+}

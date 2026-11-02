@@ -66,12 +66,12 @@ cross.renderOrder = 20; scene.add(cross);
 // labels (constant on-screen size)
 const L = (text, pos, h0, extra = {}) => { const s = makeLabel(text, { ...extra }); s.material.sizeAttenuation = false; const a = s.scale.x / s.scale.y; s.userData.aspect = a; s.userData.h = h0 * 0.72; s.position.copy(pos); scene.add(s); return s; };
 const labels = {
-  you: L('YOUR PHONE', new THREE.Vector3(-0.95, 0.75, 2.2), 0.05),
+  you: L('YOUR PHONE', new THREE.Vector3(2.0, 0.6, 2.4), 0.05),
   friend: L("FRIEND'S PHONE", new THREE.Vector3(0.2, 2.2, PB_Z), 0.05),
-  wifi: L('Wi-Fi ROUTER', N.wifi.clone().add(new THREE.Vector3(1.4, 2.6, -0.6)), 0.05),
-  routers: L('ROUTERS', new THREE.Vector3(0.0, 4.1, -13.4), 0.05),
-  server: L("APP'S SERVERS", new THREE.Vector3(3.0, 4.3, -24.0), 0.055, { border: PAL.magenta }),
-  friend2: L("FRIEND'S PHONE", new THREE.Vector3(1.0, 0.6, PB_Z - 2.0), 0.045),
+  wifi: L('Wi-Fi ROUTER', N.wifi.clone().add(new THREE.Vector3(-1.35, -0.6, 1.2)), 0.05),
+  routers: L('ROUTERS', new THREE.Vector3(0.4, 4.9, -15.0), 0.05),
+  server: L("APP'S SERVERS", new THREE.Vector3(3.0, 4.3, -24.0), 0.055, { border: PAL.magenta, depthTest: false }),
+  friend2: L("FRIEND'S PHONE", new THREE.Vector3(0.2, 0.6, PB_Z - 2.3), 0.045),
 };
 const badgeNodes = [N.wifi, N.r1, N.r2, N.r3, N.r4];
 const badges = badgeNodes.map((n, i) => { const b = makeBadge(i + 1); b.material.sizeAttenuation = false; b.position.copy(n).add(new THREE.Vector3(0, 1.05, 0)); scene.add(b); return b; });
@@ -174,8 +174,8 @@ function packetState(i, t) {
 const POSE_KEYS = [
   [0.0, { ...POSES.idle, headX: -0.45, headY: -0.5, twist: -0.25, lookY: 0.9, lookX: -0.4, browL: 0.6, browR: 0.6, smile: 0.2 }],
   [0.9, { ...POSES.idle, headX: -0.45, headY: -0.45, twist: -0.25, lookY: 0.9, lookX: -0.4, browL: 0.7, browR: 0.7, smile: 0.2 }],
-  [1.25, { ...POSES.pointUp, shRx: -2.2, shRz: -0.55, shRy: -0.4, headY: 0.1, headX: -0.15, lookY: 0.2, lookX: 0 }, 'outBack'],
-  [1.75, { ...POSES.pointUp, shRx: -2.25, shRz: -0.5, shRy: -0.4, headY: 0.12, headX: -0.1, lookY: 0.1, lookX: 0 }],
+  [1.25, mirror({ ...POSES.pointUp, shRx: -2.35, shRz: -0.75, shRy: 0.2, headY: 0.25, headX: -0.2, lookY: 0.35, lookX: 0.5 }), 'outBack'],
+  [1.75, mirror({ ...POSES.pointUp, shRx: -2.4, shRz: -0.7, shRy: 0.2, headY: 0.1, headX: -0.1, lookY: 0.1, lookX: 0.1 })],
   [2.1, POSES.puzzled],
   [2.7, POSES.puzzled],
   [2.82, POSES.nope, 'out'],
@@ -310,20 +310,22 @@ function camAt(t) {
   } else if (t < 8.75) {
     c.shot = 3;
     // follow the averaged lead-packet position (pure function of t)
+    // follows the packets' progress in depth (z, y) but keeps x steady so the left/right hops read as a zigzag
     const avg = new THREE.Vector3(); let n = 0;
-    for (let k = 0; k <= 10; k++) { avg.add(packetState(0, Math.max(6.32, t - 0.35 + k * 0.035)).pos); n++; }
+    for (let k = 0; k <= 8; k++) { avg.add(packetState(0, Math.max(6.32, t - 0.24 + k * 0.03)).pos); n++; }
     avg.multiplyScalar(1 / n);
-    c.pos.copy(avg).add(new THREE.Vector3(2.6, 4.4, 6.6)); c.look.copy(avg).add(new THREE.Vector3(-0.5, 0.2, -5.5)); c.fov = 52;
+    c.pos.set(1.2, avg.y + 6.3, avg.z + 12.2); c.look.set(0.1, avg.y + 0.5, avg.z - 4.0); c.fov = 52;
   } else if (t < 10.7) {
     c.shot = 4;
     const u = prog(t, 8.75, 10.3, ease.out); const up = prog(t, 10.3, 10.7, ease.inOut);
     c.pos.set(lerp(9.6, 9.0, u), lerp(2.6, 2.9, u) + 0.8 * up, lerp(-18.2, -18.9, u));
-    c.look.set(lerp(2.3, 2.4, u), lerp(2.7, 2.9, u) + 1.6 * up, lerp(-25.2, -25.6, u)); c.fov = 52;
+    const follow = prog(t, 8.75, 9.25, ease.inOut);   // short pan that follows Nodo's jump into the shot
+    c.look.set(lerp(-0.2, 2.4, follow), lerp(2.7, 2.9, u) + 1.6 * up, lerp(-23.6, -25.6, follow)); c.fov = 52;
   } else {
     c.shot = 5;
     const u = prog(t, 12.2, 14.4, ease.inOut);
-    c.pos.set(lerp(-1.2, -1.0, u), lerp(2.7, 12.0, u), lerp(PB_Z - 7.6, PB_Z - 13.0, u));
-    c.look.set(lerp(0.6, 0.5, u), lerp(2.0, 0.0, u), lerp(PB_Z + 3.5, -21.5, u)); c.fov = lerp(50, 56, u);
+    c.pos.set(lerp(-1.2, -5.0, u), lerp(2.7, 13.0, u), lerp(PB_Z - 7.6, PB_Z - 13.0, u));
+    c.look.set(lerp(0.6, 0.4, u), lerp(2.0, 0.0, u), lerp(PB_Z + 3.5, -20.5, u)); c.fov = lerp(50, 56, u);
     c.pos.x += 0.15 * Math.sin((t - 14.3) * 0.8) * prog(t, 14.0, 15);
   }
   // subtle deterministic handheld drift
@@ -354,7 +356,7 @@ css(sig, { position: 'absolute', right: '70px', top: '1512px', display: 'flex', 
 sig.innerHTML = `<img src="../../../assets/icon.png" style="width:44px;height:44px;border-radius:11px"> ${TL.signature.text}`;
 const tagCallout = document.createElement('div'); overlay.appendChild(tagCallout);
 css(tagCallout, { position: 'absolute', font: '700 46px "Space Grotesk"', color: '#07092a', background: '#ff6fa8', padding: '10px 22px', borderRadius: '18px', whiteSpace: 'nowrap' });
-tagCallout.textContent = 'address label';
+tagCallout.textContent = 'address label ↘';
 const flash = document.createElement('div'); overlay.appendChild(flash);
 css(flash, { position: 'absolute', left: 0, top: 0, width: W + 'px', height: H + 'px', background: '#2addfa', opacity: 0 });
 
@@ -376,8 +378,8 @@ function updateOverlay(t) {
   const co = fadeInOut(t, 5.05, 6.1, 0.15, 0.12);
   tagCallout.style.opacity = co;
   if (co > 0) {
-    const p = packets[0].grp.position.clone().add(new THREE.Vector3(0, -0.5, 0)).project(camera);
-    const px = clamp((p.x * 0.5 + 0.5) * W - 150, 60, W - 420), py = clamp((-p.y * 0.5 + 0.5) * H + 10, 560, 1380);
+    const p = packets[0].grp.position.clone().add(new THREE.Vector3(-0.36, 0.3, 0)).project(camera);
+    const px = clamp((p.x * 0.5 + 0.5) * W - 330, 50, W - 420), py = clamp((-p.y * 0.5 + 0.5) * H - 140, 560, 1380);
     tagCallout.style.left = `${px}px`; tagCallout.style.top = `${py}px`;
     tagCallout.style.transform = `scale(${0.85 + 0.15 * ease.outBack(clamp((t - 5.05) / 0.25))})`;
   }
@@ -420,7 +422,7 @@ function update(t) {
     p.grp.scale.setScalar(Math.max(0.001, s.scale));
     p.grp.rotation.set(0.12 * Math.sin(t * 2 + p.idx), (p.idx === 0 && t < 6.32 ? nodoState(t).rotY : -0.5) + s.spin, 0.1 * Math.sin(t * 1.7 + p.idx));
     p.tagMat.map = s.tag === 'b' ? p.tags.b : p.tags.a;
-    p.glow.material.opacity = 0.45 + 0.25 * Math.sin(t * 8 + p.idx);
+    p.glow.material.opacity = (t > 4.4 && t < 6.32 ? 0.22 : 0.45) + 0.2 * Math.sin(t * 8 + p.idx);
     p.trail.forEach((tr, k) => { const ps = packetState(p.idx, t - 0.025 * (k + 1)); tr.position.copy(ps.pos); tr.visible = s.visible && ps.moving && t > 6.32; tr.material.opacity = 0.5 * (1 - k / p.trail.length); });
   }
 
@@ -456,16 +458,17 @@ function update(t) {
       else { d.position.copy(d.userData.base); d.position.y -= 9 * x * x; d.position.x += (r(1) - 0.5) * 2 * x; d.rotation.set(r(2) * 9 * x, r(3) * 9 * x, 0); d.material.opacity = 1 - x / 0.9; }
     } else { d.visible = true; d.position.copy(d.userData.base); d.quaternion.copy(d.userData.q); d.material.color.set('#ff6fa8'); d.material.opacity = 0.45 * prog(t, 12.3, 12.7) * (u <= prog(t, 12.3, 12.9) ? 1 : 0); d.scale.setScalar(0.85); }
   });
-  const apex = beam.curve.getPointAt(0.66);
+  const apex = beam.curve.getPointAt(0.74);
   cross.position.copy(apex); cross.visible = t > 12.55; const cs = ease.outBack(prog(t, 12.55, 12.8, ease.linear)); cross.scale.set(0.062 * cs, 0.062 * cs, 1);
 
   // labels visibility per shot
   const lab = (s, on) => { s.material.opacity = on; s.visible = on > 0.01; s.scale.set(s.userData.h * s.userData.aspect, s.userData.h, 1); };
   lab(labels.you, fadeInOut(t, 0.5, 2.62, 0.25, 0.01));
   lab(labels.friend, fadeInOut(t, 0.9, 2.62, 0.25, 0.01));
-  lab(labels.wifi, fadeInOut(t, 6.6, 7.5, 0.15, 0.2));
-  lab(labels.routers, fadeInOut(t, 7.25, 8.75, 0.15, 0.01));
-  lab(labels.server, fadeInOut(t, 8.9, 10.7, 0.2, 0.01) + fadeInOut(t, 12.7, 15, 0.3, 0.01) * 0.95);
+  lab(labels.wifi, fadeInOut(t, 6.55, 7.2, 0.15, 0.15));
+  lab(labels.routers, fadeInOut(t, 7.2, 8.1, 0.15, 0.15));
+  lab(labels.server, fadeInOut(t, 9.2, 10.7, 0.2, 0.01) + fadeInOut(t, 14.0, 15, 0.3, 0.01) * 0.95);
+  if (t > 12) labels.server.position.set(2.0, 7.6, -26.0); else labels.server.position.set(3.0, 4.3, -24.0);
   lab(labels.friend2, fadeInOut(t, 11.0, 12.3, 0.2, 0.2));
 
   // bubble B: the received message pops up above the friend's phone and stays readable

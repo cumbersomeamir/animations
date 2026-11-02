@@ -46,10 +46,17 @@ if (isSheet) {
     if (f % 30 === 0) console.log(`frame ${f}/${end}  ${((Date.now() - t0) / 1000).toFixed(1)}s`);
   }
   // text-bounds QA: every visible text element must sit inside the frame with a 36 px margin
-  const M = 36, viol = [];
-  for (const b of bounds) for (const it of b.items) if (it.x0 < M || it.y0 < M || it.x1 > vw - M || it.y1 > vh - M) viol.push({ f: b.f, ...it });
+  // partial re-renders merge into the existing per-frame report
+  const M = 36, qaFile = path.join(ROOT, 'qa', 'text-bounds.json');
+  let all = bounds;
+  if (fs.existsSync(qaFile) && (start > 0 || end < total - 1)) {
+    const prev = JSON.parse(fs.readFileSync(qaFile, 'utf8')).per_frame.filter((b) => !bounds.some((n) => n.f === b.f));
+    all = [...prev, ...bounds].sort((x, y) => x.f - y.f);
+  }
+  const viol = [];
+  for (const b of all) for (const it of b.items) if (it.x0 < M || it.y0 < M || it.x1 > vw - M || it.y1 > vh - M) viol.push({ f: b.f, ...it });
   fs.mkdirSync(path.join(ROOT, 'qa'), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, 'qa', 'text-bounds.json'), JSON.stringify({ margin_px: M, frames: bounds.length, violations: viol, per_frame: bounds }, null, 0));
+  fs.writeFileSync(qaFile, JSON.stringify({ margin_px: M, frames: all.length, violations: viol, per_frame: all }, null, 0));
   console.log(`text-bounds: ${viol.length} violations (margin ${M}px)`);
 } else if (mode === 'stills') {
   fs.mkdirSync(out, { recursive: true });
