@@ -1,0 +1,17 @@
+{
+  "name": "werbens-education-pilot-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens educational pilot 01 (15 s): why identical products can feel different in different packaging. Deterministic browser Three.js scene rendered offline in headless Chromium.",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "qa": "bash qa.sh"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "kokoro-js": "1.2.1",
+    "three": "0.180.0"
+  }
+}
