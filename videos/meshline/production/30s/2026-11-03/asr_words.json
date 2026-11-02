@@ -1,0 +1,381 @@
+{
+ "l1": [
+  {
+   "w": "No",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "w": "connection",
+   "start": 0.14,
+   "end": 0.44
+  },
+  {
+   "w": "all",
+   "start": 0.44,
+   "end": 0.9
+  },
+  {
+   "w": "the",
+   "start": 0.9,
+   "end": 1.04
+  },
+  {
+   "w": "way",
+   "start": 1.04,
+   "end": 1.18
+  },
+  {
+   "w": "to",
+   "start": 1.18,
+   "end": 1.34
+  },
+  {
+   "w": "your",
+   "start": 1.34,
+   "end": 1.46
+  },
+  {
+   "w": "friend.",
+   "start": 1.46,
+   "end": 1.76
+  },
+  {
+   "w": "A",
+   "start": 2.32,
+   "end": 2.4
+  },
+  {
+   "w": "message",
+   "start": 2.4,
+   "end": 2.64
+  },
+  {
+   "w": "can",
+   "start": 2.64,
+   "end": 3.0
+  },
+  {
+   "w": "still",
+   "start": 3.0,
+   "end": 3.26
+  },
+  {
+   "w": "move.",
+   "start": 3.26,
+   "end": 3.48
+  }
+ ],
+ "l2": [
+  {
+   "w": "Station",
+   "start": 0.0,
+   "end": 0.3
+  },
+  {
+   "w": "holds",
+   "start": 0.3,
+   "end": 0.6
+  },
+  {
+   "w": "the",
+   "start": 0.6,
+   "end": 0.94
+  },
+  {
+   "w": "message",
+   "start": 0.94,
+   "end": 1.34
+  },
+  {
+   "w": "and",
+   "start": 1.34,
+   "end": 1.72
+  },
+  {
+   "w": "waits",
+   "start": 1.72,
+   "end": 1.9
+  },
+  {
+   "w": "for",
+   "start": 1.9,
+   "end": 2.2
+  },
+  {
+   "w": "a",
+   "start": 2.2,
+   "end": 2.3
+  },
+  {
+   "w": "contact.",
+   "start": 2.3,
+   "end": 2.64
+  }
+ ],
+ "l3": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.06
+  },
+  {
+   "w": "traveling",
+   "start": 0.06,
+   "end": 0.38
+  },
+  {
+   "w": "relay",
+   "start": 0.38,
+   "end": 0.7
+  },
+  {
+   "w": "passes",
+   "start": 0.7,
+   "end": 1.18
+  },
+  {
+   "w": "by",
+   "start": 1.18,
+   "end": 1.5
+  },
+  {
+   "w": "and",
+   "start": 1.5,
+   "end": 1.96
+  },
+  {
+   "w": "accepts",
+   "start": 1.96,
+   "end": 2.22
+  },
+  {
+   "w": "the",
+   "start": 2.22,
+   "end": 2.52
+  },
+  {
+   "w": "message.",
+   "start": 2.52,
+   "end": 2.78
+  }
+ ],
+ "l4": [
+  {
+   "w": "Later,",
+   "start": 0.0,
+   "end": 0.22
+  },
+  {
+   "w": "the",
+   "start": 0.4,
+   "end": 0.48
+  },
+  {
+   "w": "relay",
+   "start": 0.48,
+   "end": 0.62
+  },
+  {
+   "w": "meets",
+   "start": 0.62,
+   "end": 0.96
+  },
+  {
+   "w": "station",
+   "start": 0.96,
+   "end": 1.24
+  },
+  {
+   "w": "B",
+   "start": 1.24,
+   "end": 1.66
+  },
+  {
+   "w": "and",
+   "start": 1.66,
+   "end": 2.2
+  },
+  {
+   "w": "hands",
+   "start": 2.2,
+   "end": 2.34
+  },
+  {
+   "w": "it",
+   "start": 2.34,
+   "end": 2.6
+  },
+  {
+   "w": "over.",
+   "start": 2.6,
+   "end": 2.82
+  }
+ ],
+ "l5": [
+  {
+   "w": "This",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "is",
+   "start": 0.12,
+   "end": 0.24
+  },
+  {
+   "w": "called",
+   "start": 0.24,
+   "end": 0.5
+  },
+  {
+   "w": "store",
+   "start": 0.5,
+   "end": 0.86
+  },
+  {
+   "w": "and",
+   "start": 0.86,
+   "end": 1.1
+  },
+  {
+   "w": "forward.",
+   "start": 1.1,
+   "end": 1.44
+  },
+  {
+   "w": "Delivery",
+   "start": 2.06,
+   "end": 2.32
+  },
+  {
+   "w": "is",
+   "start": 2.32,
+   "end": 2.68
+  },
+  {
+   "w": "delayed",
+   "start": 2.68,
+   "end": 2.98
+  },
+  {
+   "w": "and",
+   "start": 2.98,
+   "end": 3.38
+  },
+  {
+   "w": "not",
+   "start": 3.38,
+   "end": 3.58
+  },
+  {
+   "w": "guaranteed.",
+   "start": 3.58,
+   "end": 3.96
+  }
+ ],
+ "l6": [
+  {
+   "w": "But",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "with",
+   "start": 0.08,
+   "end": 0.18
+  },
+  {
+   "w": "compatible",
+   "start": 0.18,
+   "end": 0.56
+  },
+  {
+   "w": "systems,",
+   "start": 0.56,
+   "end": 1.28
+  },
+  {
+   "w": "a",
+   "start": 1.86,
+   "end": 1.98
+  },
+  {
+   "w": "missing",
+   "start": 1.98,
+   "end": 2.22
+  },
+  {
+   "w": "live",
+   "start": 2.22,
+   "end": 2.54
+  },
+  {
+   "w": "route",
+   "start": 2.54,
+   "end": 2.86
+  },
+  {
+   "w": "doesn't",
+   "start": 2.86,
+   "end": 3.28
+  },
+  {
+   "w": "always",
+   "start": 3.28,
+   "end": 3.58
+  },
+  {
+   "w": "mean",
+   "start": 3.58,
+   "end": 3.88
+  },
+  {
+   "w": "the",
+   "start": 3.88,
+   "end": 4.02
+  },
+  {
+   "w": "message",
+   "start": 4.02,
+   "end": 4.3
+  },
+  {
+   "w": "is",
+   "start": 4.3,
+   "end": 4.58
+  },
+  {
+   "w": "lost.",
+   "start": 4.58,
+   "end": 4.84
+  }
+ ],
+ "l7": [
+  {
+   "w": "Explore",
+   "start": 0.0,
+   "end": 0.34
+  },
+  {
+   "w": "offline",
+   "start": 0.34,
+   "end": 0.7
+  },
+  {
+   "w": "communication",
+   "start": 0.7,
+   "end": 1.34
+  },
+  {
+   "w": "with",
+   "start": 1.34,
+   "end": 1.9
+  },
+  {
+   "w": "Meshline.",
+   "start": 1.9,
+   "end": 2.4
+  }
+ ]
+}

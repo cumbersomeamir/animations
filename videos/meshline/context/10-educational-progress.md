@@ -54,3 +54,6 @@
 
 ## Production batch production-30s-2026-11-02-batch-02: complete
 - See `13-production-30s-02.md`; output sha256 `1fb50fb7bc2a554f9c710a28a8ed45cb377bdbbdb1b26bde92e42afa753ea47c`. Format and feedback updated in `11-production-format.md`.
+
+## Production 2026-11-03 store-and-forward: complete
+- See `14-production-30s-store-forward-01.md`; output sha256 `9ed0380683c235e840ee61e025a0444fe7b60d3cdc8b82ca43abe0a5a35e05a5`. Style recipe re-confirmed in `11-production-format.md`.

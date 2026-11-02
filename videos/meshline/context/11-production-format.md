@@ -1,4 +1,4 @@
-# 11: Production format (durable; for future production rounds). Updated for batch 02
+# 11: Production format (durable; for future production rounds). Updated 2026-11-03
 
 This is reference for later rounds. **No automation has been created.** Each round is started by the user.
 
@@ -65,3 +65,35 @@ This is reference for later rounds. **No automation has been created.** Each rou
 |---|---|---|---|
 | 01 | production-30s-2026-11-02 | Why full bars can still mean slow data | `production/30s/2026-11-02/meshline-30s-production-01.mp4` |
 | 02 | production-30s-2026-11-02-batch-02 | Why a walkie-talkie can work when the internet is down | `production/30s/2026-11-02-batch-02/meshline-30s-production-02.mp4` |
+
+## Retained style recipe: "exact batch-02 Transit Map world" (re-confirmed 2026-11-03)
+- **Sheet:** cached 2x bitmap of charcoal `#111714` stock, with 9000 tooth specks, 900 fibres, a 1-G blue grid at 5 % and a raking-light gradient. The sheet sits on a `#080B0A` table with a contact shadow.
+- **Ink:**
+  - Main routes are solid `#3157FF`, 0.24–0.26 G wide, with a paper shadow (3, 5 px).
+  - Second-mode lines (relay rail and similar) are thin `#8EA2FF`, printed dashed until travelled.
+  - Problems are coral `#FF6A5C` (gap ×, fizz sparks, "no contact yet").
+- **Marks:**
+  - Pen tips: white core, blue ring, soft halo.
+  - Stops and stations pop with an overshoot plus a ring.
+  - Interchanges and key stations land with weight.
+  - Tokens: voice tokens with wave glyphs, or envelopes for messages. Vehicles are white capsules with windows in the line colour.
+- **Type:** Inter Display ExtraBold / Bold and Inter SemiBold / Medium. Sheet labels have a paper halo stroke. The `label()` helper multiplies the outer alpha, so veils work.
+- **Grammar:**
+  - The cartouche title is printed for the hook.
+  - Paper veils fade anything that has stopped mattering.
+  - Printed callout blocks have a coloured spine.
+  - Screen space is reserved for captions plus one instrument (the timeline/clock plate at y 1418–1574).
+  - Grades cover the top 0–320 px and bottom 1640–1920 px.
+  - The disclaimer sits at y ≈ 1612. The CTA signature (icon + wordmark) appears in the safe area at y ≈ 1460–1530 in the last 3 s, never in the bottom zone.
+- **Camera:** 2D sheet camera (centre in G, zoom). One purposeful move per beat (push, ride a moving token with clamps so key rows stay below the caption band, pull back). No idle bobbing. Takeaway holds keep something moving, so a 2 s freeze detector stays clean.
+- **Sound:** felt-tip glide under drawing, plucks and stops, a pop plus low thump on landings, the two-note station chime, rail clacks in pairs for vehicles, soft ticks for waiting clocks.
+- **Bed:** a *quiet sustained pad with sparse glints and no repetitive beat* (user request 2026-11-03). Voice upfront (speech-band +17 dB or more).
+- **Captions:** 52 px Inter Display Bold on a dark plate, ink measured inside y 350–470 and **x 90–990** (tightened 2026-11-03), at most 2 lines, word-group splits from ASR word timings. Single-letter anchors match exactly.
+- **Right sidebar and bottom:** keep essential visuals at x ≤ 960 in the y 1000–1700 band, and above y 1640.
+
+## User feedback 2026-11-03
+- Same accepted style and design, new topic each time. Never restyle and never add a mascot.
+- A natural CTA is allowed in the last 3 s ("Explore offline communication with Meshline."). Never imply the app implements a specific protocol or guarantees delivery.
+- Teach an everyday visual mechanism rather than a jargon lecture. Show waiting, handoff and later arrival with a clock or timeline.
+
+| 03 | 2026-11-03 | How a message can travel without a complete connection (store-and-forward) | `production/30s/2026-11-03/meshline-30s-store-forward-01.mp4` |

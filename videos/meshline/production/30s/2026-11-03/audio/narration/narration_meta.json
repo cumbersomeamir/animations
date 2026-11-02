@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline voice: local Kokoro-82M ONNX (Apache-2.0). Not Piper; no imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.3,
+      "text": "No connection all the way to your friend? A message can still move.",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.883,
+      "end": 4.183
+    },
+    {
+      "id": "l2",
+      "start": 4.63,
+      "text": "Station A holds the message and waits for a contact.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.076,
+      "end": 7.706
+    },
+    {
+      "id": "l3",
+      "start": 8.41,
+      "text": "A travelling relay passes by and accepts the message.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.151,
+      "end": 11.561
+    },
+    {
+      "id": "l4",
+      "start": 12.36,
+      "text": "Later, the relay meets station B and hands it over.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.053,
+      "end": 15.413
+    },
+    {
+      "id": "l5",
+      "start": 16.11,
+      "text": "This is called store and forward. Delivery is delayed, and not guaranteed.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.478,
+      "end": 20.588
+    },
+    {
+      "id": "l6",
+      "start": 21.14,
+      "text": "But with compatible systems, a missing live route doesn't always mean the message is lost.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 5.26,
+      "end": 26.4
+    },
+    {
+      "id": "l7",
+      "start": 27.0,
+      "text": "Explore offline communication with Meshline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 2.629,
+      "end": 29.629
+    }
+  ]
+}

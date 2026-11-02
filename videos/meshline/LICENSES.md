@@ -12,3 +12,4 @@
 | Educational pilot 01 (cast, score, voice blend) | Original code in `education/pilot-01/` — see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s #01 (transit map) | Original code in `production/30s/2026-11-02/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s #02 (transit map, walkie-talkie) | Original code in `production/30s/2026-11-02-batch-02/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s store-and-forward (2026-11-03) | Original code in `production/30s/2026-11-03/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

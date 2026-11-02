@@ -1,0 +1,85 @@
+{
+ "l1": [
+  [
+   [
+    "No connection all the way",
+    "to your friend?"
+   ],
+   "No"
+  ],
+  [
+   [
+    "A message can still move"
+   ],
+   "A"
+  ]
+ ],
+ "l2": [
+  [
+   [
+    "Station A holds the message",
+    "and waits for a contact"
+   ],
+   "Station"
+  ]
+ ],
+ "l3": [
+  [
+   [
+    "A travelling relay passes by",
+    "and accepts the message"
+   ],
+   "A"
+  ]
+ ],
+ "l4": [
+  [
+   [
+    "Later, the relay meets station B",
+    "and hands it over"
+   ],
+   "Later"
+  ]
+ ],
+ "l5": [
+  [
+   [
+    "This is called",
+    "store and forward"
+   ],
+   "This"
+  ],
+  [
+   [
+    "Delivery is delayed,",
+    "and not guaranteed"
+   ],
+   "Delivery"
+  ]
+ ],
+ "l6": [
+  [
+   [
+    "But with compatible systems,",
+    "a missing live route"
+   ],
+   "But"
+  ],
+  [
+   [
+    "doesn't always mean",
+    "the message is lost"
+   ],
+   "doesn"
+  ]
+ ],
+ "l7": [
+  [
+   [
+    "Explore offline communication",
+    "with Meshline"
+   ],
+   "Explore"
+  ]
+ ]
+}

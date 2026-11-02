@@ -1,0 +1,57 @@
+{
+ "reference": "No connection all the way to your friend? A message can still move. Station A holds the message and waits for a contact. A travelling relay passes by and accepts the message. Later, the relay meets station B and hands it over. This is called store and forward. Delivery is delayed, and not guaranteed. But with compatible systems, a missing live route doesn't always mean the message is lost. Explore offline communication with Meshline.",
+ "asr": "No connection all the way to your friend. A message can still move. Station holds the message and waits for a contact. A traveling relay passes by and accepts the message. Later, the relay meets station B and hands it over. This is called store and forward. Delivery is delayed and not guaranteed. But with compatible systems, a missing live route doesn't always mean the message is lost. Explore offline communication with Meshline.",
+ "wer": 0.027,
+ "segments": [
+  [
+   0.0,
+   2.04,
+   "No connection all the way to your friend."
+  ],
+  [
+   2.68,
+   3.9,
+   "A message can still move."
+  ],
+  [
+   4.56,
+   7.32,
+   "Station holds the message and waits for a contact."
+  ],
+  [
+   8.42,
+   11.32,
+   "A traveling relay passes by and accepts the message."
+  ],
+  [
+   12.32,
+   15.18,
+   "Later, the relay meets station B and hands it over."
+  ],
+  [
+   16.08,
+   17.52,
+   "This is called store and forward."
+  ],
+  [
+   18.18,
+   20.08,
+   "Delivery is delayed and not guaranteed."
+  ],
+  [
+   21.18,
+   22.38,
+   "But with compatible systems,"
+  ],
+  [
+   23.0,
+   26.02,
+   "a missing live route doesn't always mean the message is lost."
+  ],
+  [
+   26.02,
+   29.42,
+   "Explore offline communication with Meshline."
+  ]
+ ]
+}

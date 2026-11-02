@@ -1,0 +1,14 @@
+No connection all the way to your friend? A message can still move ✉️
+
+Store-and-forward networking (delay-tolerant networking) keeps a message when no complete route exists right now. One node holds it, a travelling relay picks it up during a later contact, and hands it on when it meets the next node. Delivery is delayed and not guaranteed, but with compatible systems a missing live route doesn't always mean the message is lost.
+
+Illustrative animation of a generic networking principle; not a product feature.
+
+Explore offline communication with Meshline.
+
+Sources:
+• IETF RFC 9171, Bundle Protocol Version 7: https://www.rfc-editor.org/rfc/rfc9171
+• IRTF RFC 4838, Delay-Tolerant Networking Architecture: https://www.rfc-editor.org/rfc/rfc4838
+• NASA, Delay/Disruption Tolerant Networking: https://www.nasa.gov/communicating-with-missions/delay-disruption-tolerant-networking/
+
+#networking #offlinecommunication #delaytolerantnetworking #wireless

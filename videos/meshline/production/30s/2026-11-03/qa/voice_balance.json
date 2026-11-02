@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.3,
+  "end": 4.183,
+  "text": "No connection all the way to your friend? A message can still move.",
+  "speech_band_db": 18.4
+ },
+ {
+  "id": "l2",
+  "start": 4.63,
+  "end": 7.706,
+  "text": "Station A holds the message and waits for a contact.",
+  "speech_band_db": 24.0
+ },
+ {
+  "id": "l3",
+  "start": 8.41,
+  "end": 11.561,
+  "text": "A travelling relay passes by and accepts the message.",
+  "speech_band_db": 18.3
+ },
+ {
+  "id": "l4",
+  "start": 12.36,
+  "end": 15.413,
+  "text": "Later, the relay meets station B and hands it over.",
+  "speech_band_db": 19.3
+ },
+ {
+  "id": "l5",
+  "start": 16.11,
+  "end": 20.588,
+  "text": "This is called store and forward. Delivery is delayed, and not guaranteed.",
+  "speech_band_db": 25.4
+ },
+ {
+  "id": "l6",
+  "start": 21.14,
+  "end": 26.4,
+  "text": "But with compatible systems, a missing live route doesn't always mean the message is lost.",
+  "speech_band_db": 19.1
+ },
+ {
+  "id": "l7",
+  "start": 27.0,
+  "end": 29.629,
+  "text": "Explore offline communication with Meshline.",
+  "speech_band_db": 17.3
+ }
+]
