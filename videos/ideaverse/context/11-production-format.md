@@ -57,3 +57,19 @@ CONTEXT=navy, OUTPUT=amber.
 - Do not repeat a previous topic. Episodes so far: #01 "A useful prompt has three layers" (2026-11-02),
   #02 "The instruction hidden inside an AI webpage" (2026-11-02-batch-02).
 - Lesson for later episodes: avoid leaving the central stage empty for more than ~2 s while action happens elsewhere.
+
+## Update — episode 03 (user-approved style reversion + content correction) — CURRENT DEFAULT
+- **Default from episode 03: "practical everyday AI, previous production01 riso press restored".**
+- Visual: revert to the **production-01 Riso Prompt Press** (videos/ideaverse/production/30s/2026-11-02/): same press,
+  warm paper, GOAL/CONTEXT/OUTPUT overprinted plates (may flip to episode-specific labels), strong large readable
+  objects, satisfying print/reveal motion. Do NOT use episode-02's hostile stamp / permission lever / security lesson
+  or its sparse central scene. Central action large; no tiny labels (≥ 26 px for anything that matters).
+- Content: everyday useful AI for ordinary viewers — no jargon, no technical AI concepts, no security lectures.
+  Show an immediately usable workflow: **input → exact prompt (printed, readable) → clear result → one practical
+  safeguard**. Say "a tool that supports …" rather than implying every app has a feature.
+- Sources go in publishing-caption.txt and context, not as technical disclaimers on screen.
+- Skill module unchanged: Riso STYLE.md (cth9191/animate …/styles/riso/STYLE.md), art direction only.
+- Palette, audio (Kokoro af_bella 0.7 + am_puck 0.3, speed 0.98, en-us; −15 LUFS, TP −1.5), captions (ink y 350–470,
+  margins ≥ 80, ≤ 2 lines, top 0–300 clear) unchanged.
+- Episodes: #01 three-layer prompt · #02 hidden instruction in a webpage (style not to be reused) ·
+  #03 messy voice note → clear to-do list (2026-11-02-episode-03).

@@ -1,0 +1,4 @@
+frames decoded: 900
+caption ink rows over all captioned frames: y 356..467  (spec 350..470)
+caption ink columns over all captioned frames: x 89..990  (spec >= 80 and <= 1000)
+top band 0..300: max dark (luma<150) pixels in any frame: 1193 of 324000 (field dots only)
