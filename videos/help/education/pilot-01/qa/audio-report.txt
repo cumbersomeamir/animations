@@ -1,0 +1,28 @@
+# Audio QA — help-education-pilot-01.mp4 — 2026-11-02T07:33Z
+## EBU R128 (ffmpeg ebur128, true peak)
+[Parsed_ebur128_0 @ 0x55c505fd6ec0] Summary:
+
+  Integrated loudness:
+    I:         -16.0 LUFS
+    Threshold: -26.2 LUFS
+
+  Loudness range:
+    LRA:         1.2 LU
+    Threshold: -36.2 LUFS
+    LRA low:   -16.7 LUFS
+    LRA high:  -15.5 LUFS
+
+  True peak:
+    Peak:       -2.1 dBFS
+## astats (overall)
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] Peak level dB: -2.112189
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] RMS level dB: -19.263975
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] Flat factor: 0.000000
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] Peak count: 2.000000
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] Abs Peak count: 1.000000
+[Parsed_astats_0 @ 0x55c8a6dd8ec0] Number of samples: 720896
+## silence > 0.6 s below -45 dB (expected: none inside narration)
+none
+## Offline ASR (Vosk small-en-us-0.15) on the final mix
+a.wav -> does a delivery video prove you helped it can show one hand off in one frame check when and where it was filmed after the clip good can't say one piece of evidence not the whole story
+   timed: does@0.19 a@0.54 delivery@0.60 video@1.17 prove@1.59 you@1.95 helped@2.22 it@3.06 can@3.21 show@3.42 one@3.69 hand@3.93 off@4.20 in@4.50 one@4.68 frame@4.95 check@5.94 when@6.27 and@6.54 where@6.69 it@6.90 was@6.99 filmed@7.20 after@8.43 the@8.85 clip@8.94 good@9.33 can't@9.54 say@9.90 one@11.28 piece@11.52 of@11.85 evidence@12.00 not@12.72 the@12.99 whole@13.08 story@13.35

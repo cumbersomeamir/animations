@@ -18,12 +18,12 @@ audio/voice.py              Piper narration takes -> audio/generated/voice (comm
 audio/mix.py                voice processing, original music + SFX, ducking, loudness, lip-sync
 tools/render.mjs            headless Chromium frame capture -> ffmpeg (no frame files on disk)
 tools/contact_sheet.py      QA contact sheets from the encoded MP4
-qa/                         ffprobe.json, full-decode.log, contact sheets, asr-check.txt
+qa/                         ffprobe.json, full-decode.log, audio-report.txt (loudness + ASR), text-bounds.json, contact sheets
 ```
 
 ## Build
 Requirements: Node 22, Python 3 + numpy, FFmpeg (libx264, aac, rubberband), Playwright with Chromium (pre-installed here).
 ```bash
-./build.sh            # uses committed voice takes; ~22 min on 4 vCPU (SwiftShader software WebGL, ~2.9 s/frame)
+./build.sh            # uses committed voice takes; ~20 min on 4 vCPU (SwiftShader software WebGL, ~2.9 s/frame)
 REVOICE=1 ./build.sh  # also re-synthesizes narration with Piper (downloads the 63.5 MB public-domain voice)
 ```

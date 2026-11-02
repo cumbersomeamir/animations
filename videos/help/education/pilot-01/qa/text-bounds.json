@@ -1,0 +1,283 @@
+{
+ "safeZone": {
+  "x": [
+   40,
+   1040
+  ],
+  "y": [
+   100,
+   1700
+  ]
+ },
+ "outOfSafeZone": [],
+ "rows": [
+  {
+   "frame": 0,
+   "t": 0,
+   "caption": null,
+   "captionLines": [],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 45,
+   "t": 1.5,
+   "caption": {
+    "x0": 70,
+    "y0": 1346,
+    "x1": 1013,
+    "y1": 1522,
+    "opacity": 1,
+    "text": "Does a delivery video prove you helped?"
+   },
+   "captionLines": [
+    {
+     "x0": 70,
+     "y0": 1346,
+     "x1": 1013,
+     "y1": 1440
+    },
+    {
+     "x0": 318,
+     "y0": 1428,
+     "x1": 762,
+     "y1": 1522
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 129,
+   "t": 4.3,
+   "caption": {
+    "x0": 71,
+    "y0": 1346,
+    "x1": 987,
+    "y1": 1522,
+    "opacity": 1,
+    "text": "It can show one handoff, in one frame."
+   },
+   "captionLines": [
+    {
+     "x0": 71,
+     "y0": 1346,
+     "x1": 987,
+     "y1": 1440
+    },
+    {
+     "x0": 341,
+     "y0": 1428,
+     "x1": 739,
+     "y1": 1522
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 205,
+   "t": 6.833,
+   "caption": {
+    "x0": 109,
+    "y0": 1346,
+    "x1": 971,
+    "y1": 1522,
+    "opacity": 1,
+    "text": "Check when and where it was filmed."
+   },
+   "captionLines": [
+    {
+     "x0": 109,
+     "y0": 1346,
+     "x1": 971,
+     "y1": 1440
+    },
+    {
+     "x0": 328,
+     "y0": 1428,
+     "x1": 752,
+     "y1": 1522
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 282,
+   "t": 9.4,
+   "caption": {
+    "x0": 92,
+    "y0": 1346,
+    "x1": 988,
+    "y1": 1440,
+    "opacity": 1,
+    "text": "After the clip? It can't say."
+   },
+   "captionLines": [
+    {
+     "x0": 92,
+     "y0": 1346,
+     "x1": 988,
+     "y1": 1440
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 375,
+   "t": 12.5,
+   "caption": {
+    "x0": 81,
+    "y0": 1346,
+    "x1": 999,
+    "y1": 1522,
+    "opacity": 1,
+    "text": "One piece of evidence. Not the whole story."
+   },
+   "captionLines": [
+    {
+     "x0": 81,
+     "y0": 1346,
+     "x1": 999,
+     "y1": 1440
+    },
+    {
+     "x0": 254,
+     "y0": 1428,
+     "x1": 826,
+     "y1": 1522
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1624,
+    "x1": 759,
+    "y1": 1682,
+    "opacity": 0,
+    "text": "Help· giving, explained"
+   }
+  },
+  {
+   "frame": 447,
+   "t": 14.9,
+   "caption": {
+    "x0": 81,
+    "y0": 1346,
+    "x1": 999,
+    "y1": 1522,
+    "opacity": 1,
+    "text": "One piece of evidence. Not the whole story."
+   },
+   "captionLines": [
+    {
+     "x0": 81,
+     "y0": 1346,
+     "x1": 999,
+     "y1": 1440
+    },
+    {
+     "x0": 254,
+     "y0": 1428,
+     "x1": 826,
+     "y1": 1522
+    }
+   ],
+   "chip": {
+    "x0": 64,
+    "y0": 112,
+    "x1": 778,
+    "y1": 177,
+    "opacity": 1,
+    "text": "Illustrative sceneLesson 01"
+   },
+   "signature": {
+    "x0": 321,
+    "y0": 1610,
+    "x1": 759,
+    "y1": 1668,
+    "opacity": 1,
+    "text": "Help· giving, explained"
+   }
+  }
+ ]
+}

@@ -6,7 +6,7 @@
     chord changes land on the shot boundaries from src/timeline.json.
   * SFX: synthesized from noise/sine primitives, placed on the same cue times the
     3D scene uses (src/timeline.json "cues").
-  * Ducking, two-pass EBU R128 loudness normalisation (-16 LUFS, -1.5 dBTP).
+  * Ducking, two-pass EBU R128 loudness normalisation (-16 LUFS, -2 dBTP target for AAC headroom).
   * Writes src/generated/lipsync.json (mouth openness per video frame).
 
 Usage: python3 audio/mix.py   (numpy + ffmpeg)
@@ -348,12 +348,12 @@ def main():
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.7
     write_wav(pre, mix)
     # two-pass loudnorm to -16 LUFS / -1.5 dBTP, then hard-trim to exactly N samples
-    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(pre), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(pre), "-af", "loudnorm=I=-16:TP=-2.0:LRA=11:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True)
     js = json.loads(r.stderr[r.stderr.rindex("{"):r.stderr.rindex("}") + 1])
-    af = (f"loudnorm=I=-16:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
+    af = (f"loudnorm=I=-16:TP=-2.0:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
           f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true,"
-          f"aresample=48000,alimiter=limit=0.84:attack=3:release=50:level=false,atrim=end_sample={N},apad=whole_len={N}")
+          f"aresample=48000,alimiter=limit=0.79:attack=3:release=50:level=false,atrim=end_sample={N},apad=whole_len={N}")
     final = OUT / "mix.wav"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(pre), "-af", af, "-ar", str(SR), "-ac", "2", "-c:a", "pcm_s16le", str(final)], check=True)
     x, _ = read_wav(final)

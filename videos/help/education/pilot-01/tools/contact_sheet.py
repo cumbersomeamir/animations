@@ -52,9 +52,10 @@ def main():
             items = []
             for i, t in enumerate(times):
                 p = Path(td) / f"{i:03d}.png"
-                # accurate seek: decode from start of GOP to exact frame
-                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-ss", f"{t:.4f}", "-frames:v", "1", str(p)], check=True)
-                items.append((p, f"{t:.3f}s  f{round(t * FPS)}"))
+                # exact frame: select by decoded frame index n = round(t * fps)
+                n = round(t * FPS)
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-vf", f"select=eq(n\\,{n})", "-fps_mode", "passthrough", "-frames:v", "1", str(p)], check=True)
+                items.append((p, f"f{n}  {n / FPS:.3f}s"))
             tile(items, out, cols, title=title)
 
 

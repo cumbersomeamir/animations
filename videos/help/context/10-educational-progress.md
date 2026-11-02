@@ -58,7 +58,13 @@ node tools/render.mjs --sheet    # character sheet
   + 2×rAF before capture); A reveal camera clipped through the frame → restaged Tally as presenter facing camera; C cropped
   tag/pin → new C angle, tag tossed onto frame; D cropped "?"/cards → wider crane; E Tally off-centre → camera centred on Tally;
   WHERE card occluded/cropped → raised; E pointing arm crossed face → angled out.
-- Full render v1: in progress at time of writing (see QA.md for final results).
+- Full render v1 (07:04 UTC): QA found 2 boundary defects — B→C overlay carry-over (f169) and D→E "?"/card leak (f329).
+  Fixed in `src/main.js`; audio true-peak headroom raised (loudnorm TP −2, limiter 0.79). Full render v2 (07:33 UTC, 1154 s).
+- **Final v2 verified** (`education/pilot-01/QA.md`): 15.000000 s container/video/audio; H.264 High L4.1 1080×1920 yuv420p 30/1,
+  450 frames decoded; AAC-LC 48 kHz stereo; full decode exit 0 with zero errors; −16.0 LUFS, −2.1 dBTP; captions/chip/signature
+  0 boxes outside safe zone; offline ASR 35/36 words (key words all correct). SHA-256 `57842cda…f75080`.
+- QA artefacts: `qa/ffprobe.json`, `qa/full-decode.log`, `qa/audio-report.txt`, `qa/text-bounds.json`, `qa/contact-sheet.png`,
+  `qa/boundary-sheet.png`; model sheet re-rendered (header spacing).
 
 ## Unresolved / notes
 - `CLAUDE.md` (root) still says "produce a 30-second MP4"; the user's latest brief explicitly makes this educational 15 s
@@ -66,4 +72,6 @@ node tools/render.mjs --sheet    # character sheet
 - Satchel strap nit (see `character/TALLY.md`).
 
 ## Next action
-Finish QA of v1 → fix/re-render if needed → commit + push → plan episode 02 (titles in `08`), only after user approval.
+Pilot 01 is complete and pushed. Await user feedback on Pilot 01 (tone, pace, Tally design, caption style). Then, only with
+approval, research + storyboard episode 02 from the list in `08` (suggested: "Receipt vs delivery photo"), reusing the rig,
+`audio/mix.py` and `tools/` from this folder in a new `education/pilot-02/` (copy, don't edit pilot-01 sources).

@@ -529,7 +529,7 @@ function applyState(t, f) {
 
   // ---- question mark + floating date cards (shot D) ----
   const qU = seg(t, C.questionPop - 0.25, C.questionPop + 0.35);
-  question.visible = t >= C.questionPop - 0.25 && t < Es[0] + 0.05;
+  question.visible = t >= C.questionPop - 0.25 && t < Es[0];
   const qy = lerp(1.9, 3.2, E.outBack(qU));
   question.position.set(-0.45, qy + Math.sin(t * 2.5) * 0.03, -1.3);
   question.rotation.set(0, Math.sin(t * 1.4) * 0.35, Math.sin(t * 2.0) * 0.06);
@@ -538,7 +538,7 @@ function applyState(t, f) {
   cards.forEach((c, i) => {
     const st = C.cardsFloat + i * 0.25;
     const u = seg(t, st, st + 0.6);
-    c.visible = t >= st && t < Es[0] + 0.05;
+    c.visible = t >= st && t < Es[0];
     const side = i === 0 ? -1 : 1;
     c.position.set(-0.32 + side * 0.82, lerp(2.0, 2.8 + i * 0.12, E.out(u)) + Math.sin(t * 2 + i) * 0.04, -0.85);
     c.lookAt(CAM_D1);
@@ -600,8 +600,8 @@ function drawOverlay(t) {
   ovDrawn = false;
   // Shot B dim: everything outside the clip frame recedes
   const dimIn = E.inOut(seg(t, C.dimOn, C.dimOn + 0.45));
-  const dimOut = 1 - E.inOut(seg(t, B[1] - 0.05, B[1] + 0.3));
-  const dim = t >= B[0] && t < Cs[0] + 0.3 ? dimIn * dimOut : 0;
+  const dimOut = 1 - E.inOut(seg(t, B[1] - 0.32, B[1] - 0.04));
+  const dim = t >= B[0] && t < B[1] ? dimIn * dimOut : 0;
   if (dim > 0.001 && clip.visible) {
     const ud = clip.userData;
     const cs = [[-1, -1], [1, -1], [1, 1], [-1, 1]].map(([sx, sy]) => project(clip.localToWorld(new THREE.Vector3(sx * (ud.W / 2 - 0.03), sy * (ud.H / 2 - 0.03), 0))));
@@ -627,7 +627,7 @@ function drawOverlay(t) {
     octx.restore();
   }
   // in-frame tick badge (shot B)
-  const tb = t >= C.inFrameTick && t < B[1] + 0.25 ? E.outBack(seg(t, C.inFrameTick, C.inFrameTick + 0.3)) * (1 - seg(t, B[1] - 0.1, B[1] + 0.25)) : 0;
+  const tb = t >= C.inFrameTick && t < B[1] ? E.outBack(seg(t, C.inFrameTick, C.inFrameTick + 0.3)) * (1 - E.inOut(seg(t, B[1] - 0.32, B[1] - 0.04))) : 0;
   if (tb > 0.01) {
     const ud = clip.userData;
     const [x, y] = project(clip.localToWorld(new THREE.Vector3(ud.W / 2 - 0.02, -ud.H / 2 + 0.02, 0.02)));
