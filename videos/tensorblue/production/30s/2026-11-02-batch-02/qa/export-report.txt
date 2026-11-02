@@ -1,0 +1,51 @@
+== ffprobe streams
+index=0
+codec_name=h264
+profile=High
+codec_type=video
+width=1080
+height=1920
+pix_fmt=yuv420p
+r_frame_rate=30/1
+avg_frame_rate=30/1
+duration=30.000000
+bit_rate=3251369
+nb_frames=900
+index=1
+codec_name=aac
+profile=LC
+codec_type=audio
+sample_rate=48000
+channels=2
+channel_layout=stereo
+r_frame_rate=0/0
+avg_frame_rate=0/0
+duration=30.000000
+bit_rate=194263
+nb_frames=1408
+== container
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+duration=30.000000
+size=12954180
+bit_rate=3454448
+== counted video frames
+nb_read_frames=900
+== full decode errors (empty = none)
+== decode exit ok
+== loudness (ebur128, exported AAC)
+[Parsed_ebur128_0 @ 0x55aac5880b80] Summary:
+
+  Integrated loudness:
+    I:         -15.5 LUFS
+    Threshold: -26.0 LUFS
+
+  Loudness range:
+    LRA:         3.6 LU
+    Threshold: -35.9 LUFS
+    LRA low:   -18.0 LUFS
+    LRA high:  -14.3 LUFS
+
+  True peak:
+    Peak:       -1.8 dBFS
+== sha256
+542bae53caa94c17193740c78b93dd91631d1615f59484bcdc617974087fa969  /home/user/animations/videos/tensorblue/production/30s/2026-11-02-batch-02/tensorblue-30s-production-02.mp4

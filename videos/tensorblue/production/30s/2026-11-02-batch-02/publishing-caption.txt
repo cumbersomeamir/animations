@@ -1,0 +1,14 @@
+Why do apps sometimes undo a like you just tapped?
+
+Some apps use an optimistic update: the screen shows the result (the heart turns on) before the server has confirmed the change. It feels instant while the request is still in flight. If the server rejects the request, the app can roll the UI back to its previous state and show an error.
+
+That trade-off works well for small, easy-to-undo actions like a like. Where people act on a success message (a payment, for example), showing success before it is confirmed can mislead. Fast feedback and confirmed success are different things.
+
+Sources (official documentation):
+- TanStack Query, Optimistic Updates: https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates
+- React, useOptimistic: https://react.dev/reference/react/useOptimistic
+- Apollo Client, Optimistic mutation results: https://www.apollographql.com/docs/react/performance/optimistic-ui
+
+Note: the like counts, error message and payment screen in the animation are illustrative, not a specific app.
+
+#SystemDesign #Frontend #React #UX

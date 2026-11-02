@@ -1,0 +1,9 @@
+{"duration": 30.0, "lead": 0.30, "lines": [
+ {"id": "L1", "at": 0.30,  "text": "You tap like, and the heart lights up instantly."},
+ {"id": "L2", "at": 3.30,  "text": "Some apps update the screen before the server confirms the change."},
+ {"id": "L3", "at": 7.00,  "text": "That's called an optimistic update."},
+ {"id": "L4", "at": 9.20,  "text": "It feels fast, while the request travels in the background."},
+ {"id": "L5", "at": 12.70, "text": "If the server rejects it, the app can roll the heart back and show an error."},
+ {"id": "L6", "at": 17.80, "text": "It suits reversible actions, but it's risky where a false success matters."},
+ {"id": "L7", "at": 23.30, "text": "Fast feedback and confirmed success are different things."}
+]}

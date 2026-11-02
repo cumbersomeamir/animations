@@ -19,8 +19,8 @@ Out of scope: product ads for the Tensorblue app, current-news claims, invented 
 
 ## Asset rules
 - Use only: (a) code-drawn graphics written for this channel, (b) licensed assets stored under `videos/tensorblue/assets/` **with their licence file**, (c) assets the user explicitly approves for Tensorblue.
-- **Brand colours:** no approved Tensorblue brand file, logo or palette exists in this branch (checked 2026-11-02). Until the user supplies one, use the **neutral ink/cream fallback** from the Crosshatch style (see `11-production-format.md`) and say so in each round's notes. Do not sample colours from unapproved sources and do not invent a logo; the channel signature is the hand-lettered word "Tensorblue".
-- Fonts: `assets/fonts/patrick-hand/PatrickHand-Regular.ttf` (SIL OFL 1.1, from the official `google/fonts` repo; `OFL.txt` alongside).
+- **Brand colours:** the Tensorblue website palette supplied by the user on 2026-11-02 (batch 02) is the approved palette: background `#030610`, navy `#0D1628`/`#0A172D`, brand blue `#0A6CFF`, white `#FFFFFF`, secondary `#D8E3F5`, hero gradient `#E8F3FF`/`#91BBFF`/`#85ECED`/`#EDF9FF` (details in `11-production-format.md`). The round-01 cream/brown fallback is retired. Do not invent a logo; the channel signature is the word "Tensorblue" with a brand-blue dot.
+- Fonts: `assets/fonts/inter/` Inter 4.0 Medium/SemiBold/Bold (SIL OFL 1.1, from the Debian `fonts-inter` package of rsms/inter; `OFL.txt` + `debian-copyright.txt` alongside) — current format. `assets/fonts/patrick-hand/` (SIL OFL 1.1) — round-01 look only.
 - Voice model: Kokoro-82M (Apache-2.0) downloaded from the official Hugging Face repo `hexgrad/Kokoro-82M`; not committed (large binary) — re-download or reuse a local cache.
 - Music and SFX: synthesized in code per round (original, no third-party samples).
 - Never use other apps' assets or the old `abbu-kbc-gift` repository.

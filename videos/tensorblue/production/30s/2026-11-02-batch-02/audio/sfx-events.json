@@ -1,0 +1,206 @@
+{
+ "sfx": [
+  {
+   "t": 0.05,
+   "type": "swish",
+   "soft": true
+  },
+  {
+   "t": 0.7,
+   "type": "tap"
+  },
+  {
+   "t": 0.73,
+   "type": "pop",
+   "hi": true
+  },
+  {
+   "t": 0.75,
+   "type": "sparkle"
+  },
+  {
+   "t": 2.802,
+   "type": "swish"
+  },
+  {
+   "t": 4.899,
+   "type": "blip"
+  },
+  {
+   "t": 4.936,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 7.432,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 10.686,
+   "type": "swish",
+   "long": true
+  },
+  {
+   "t": 12.436,
+   "type": "knock"
+  },
+  {
+   "t": 12.971,
+   "type": "tick"
+  },
+  {
+   "t": 13.538,
+   "type": "reject"
+  },
+  {
+   "t": 14.5,
+   "type": "swish",
+   "rev": true
+  },
+  {
+   "t": 15.338,
+   "type": "unpop"
+  },
+  {
+   "t": 15.738,
+   "type": "tick"
+  },
+  {
+   "t": 16.213,
+   "type": "toast"
+  },
+  {
+   "t": 17.204,
+   "type": "swish"
+  },
+  {
+   "t": 18.464,
+   "type": "swish",
+   "soft": true
+  },
+  {
+   "t": 19.689,
+   "type": "tap"
+  },
+  {
+   "t": 19.739,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 20.652,
+   "type": "warn"
+  },
+  {
+   "t": 21.489,
+   "type": "tick"
+  },
+  {
+   "t": 22.202,
+   "type": "swish"
+  },
+  {
+   "t": 22.952,
+   "type": "tap"
+  },
+  {
+   "t": 22.982,
+   "type": "pop",
+   "hi": true
+  },
+  {
+   "t": 23.002,
+   "type": "sparkle"
+  },
+  {
+   "t": 23.559,
+   "type": "draw"
+  },
+  {
+   "t": 24.159,
+   "type": "draw"
+  },
+  {
+   "t": 24.784,
+   "type": "confirm"
+  },
+  {
+   "t": 25.534,
+   "type": "draw"
+  },
+  {
+   "t": 26.54,
+   "type": "chime"
+  },
+  {
+   "t": 28.75,
+   "type": "sparkle",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "tap": 0.7,
+  "l1end": 2.652,
+  "lights": 1.582,
+  "apps": 3.549,
+  "screen": 4.311,
+  "before": 4.899,
+  "server": 5.286,
+  "confirms": 5.674,
+  "called": 7.532,
+  "optimistic": 7.882,
+  "fast": 9.836,
+  "request": 10.736,
+  "background": 11.786,
+  "l4end": 12.521,
+  "ifS": 12.871,
+  "rejects": 13.538,
+  "app": 14.6,
+  "roll": 15.013,
+  "heart": 15.388,
+  "back": 15.663,
+  "error": 16.413,
+  "l5end": 16.854,
+  "suits": 17.952,
+  "reversible": 18.264,
+  "but": 19.839,
+  "risky": 20.139,
+  "falseS": 20.752,
+  "matters": 21.489,
+  "l6end": 22.052,
+  "feedback": 23.609,
+  "confirmed": 24.209,
+  "success": 24.734,
+  "different": 25.584,
+  "l7end": 26.42,
+  "toMini": 2.802,
+  "emerge": 4.849,
+  "serverIn": 4.936,
+  "chip": 7.432,
+  "depart": 10.686,
+  "travel": 1.75,
+  "arrive": 12.436,
+  "forkIn": 12.971,
+  "decide": 13.538,
+  "returnGo": 14.5,
+  "returnDur": 0.75,
+  "drain": 15.338,
+  "drainDur": 0.45,
+  "toast": 16.213,
+  "toTiles": 17.204,
+  "payIn": 18.464,
+  "sent": 19.738999999999997,
+  "doubt": 20.651999999999997,
+  "wait": 21.489,
+  "toLanes": 22.201999999999998,
+  "tap2": 22.951999999999998,
+  "lane1": 23.559,
+  "lane2": 24.159,
+  "confirm": 24.784000000000002,
+  "gap": 25.534,
+  "chime": 26.540000000000003,
+  "capEnd": 28.55,
+  "sign": 28.75
+ }
+}
