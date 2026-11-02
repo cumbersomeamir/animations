@@ -1,0 +1,30 @@
+{
+  "length_scale": 1.0,
+  "lines": [
+    {
+      "id": "L1",
+      "say": "Does a delivery video prove you helped?",
+      "caption": "Does a delivery video prove you helped?"
+    },
+    {
+      "id": "L2",
+      "say": "It can show one handoff, in one frame.",
+      "caption": "It can show one handoff, in one frame."
+    },
+    {
+      "id": "L3",
+      "say": "Check when and where it was filmed.",
+      "caption": "Check when and where it was filmed."
+    },
+    {
+      "id": "L4",
+      "say": "After the clip? It can't say.",
+      "caption": "After the clip? It can't say."
+    },
+    {
+      "id": "L5",
+      "say": "One piece of evidence. Not the whole story.",
+      "caption": "One piece of evidence. Not the whole story."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "L1",
+    "say": "Does a delivery video prove you helped?",
+    "file": "audio/generated/voice/line_00.wav",
+    "dur": 2.529,
+    "sr": 22050,
+    "start": 0.2,
+    "end": 2.729
+  },
+  {
+    "id": "L2",
+    "say": "It can show one handoff, in one frame.",
+    "file": "audio/generated/voice/line_01.wav",
+    "dur": 2.468,
+    "sr": 22050,
+    "start": 3.05,
+    "end": 5.518
+  },
+  {
+    "id": "L3",
+    "say": "Check when and where it was filmed.",
+    "file": "audio/generated/voice/line_02.wav",
+    "dur": 1.799,
+    "sr": 22050,
+    "start": 5.95,
+    "end": 7.749
+  },
+  {
+    "id": "L4",
+    "say": "After the clip? It can't say.",
+    "file": "audio/generated/voice/line_03.wav",
+    "dur": 1.893,
+    "sr": 22050,
+    "note": "take 4 of 8 re-takes; selected because offline ASR recognised \"clip\"",
+    "start": 8.45,
+    "end": 10.343
+  },
+  {
+    "id": "L5",
+    "say": "One piece of evidence. Not the whole story.",
+    "file": "audio/generated/voice/line_04.wav",
+    "dur": 2.615,
+    "sr": 22050,
+    "start": 11.25,
+    "end": 13.865
+  }
+]

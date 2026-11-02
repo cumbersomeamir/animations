@@ -1,0 +1,68 @@
+{
+  "fps": 30,
+  "duration": 15.0,
+  "bpm": 96,
+  "shots": {
+    "A_hook_through_frame": [
+      0.0,
+      2.8125
+    ],
+    "B_inside_the_frame": [
+      2.8125,
+      5.625
+    ],
+    "C_when_and_where": [
+      5.625,
+      8.125
+    ],
+    "D_after_the_clip": [
+      8.125,
+      10.9375
+    ],
+    "E_one_piece": [
+      10.9375,
+      15.0
+    ]
+  },
+  "lines": {
+    "L1": 0.2,
+    "L2": 3.05,
+    "L3": 5.95,
+    "L4": 8.45,
+    "L5": 11.25
+  },
+  "cues": {
+    "courierStep1": 0.32,
+    "courierStep2": 0.62,
+    "camWhooshA": 0.75,
+    "transferStart": 2.95,
+    "transferEnd": 3.9,
+    "dimOn": 3.1,
+    "inFrameTick": 4.15,
+    "release": 5.68,
+    "turnStart": 5.7,
+    "turnEnd": 6.02,
+    "satchel": 6.05,
+    "tagSnap": 6.42,
+    "tagFlip": 6.5,
+    "tagTick": 6.82,
+    "pinDrop": 6.62,
+    "pinLand": 6.98,
+    "pinTick": 7.18,
+    "recOff": 8.18,
+    "shutterDown": 8.22,
+    "craneWhoosh": 8.3,
+    "doorClose": 8.95,
+    "questionPop": 9.45,
+    "cardsFloat": 9.85,
+    "headScratch": 9.6,
+    "stripWhoosh": 11.0,
+    "clipSlot": 11.6,
+    "tapClip": 12.0,
+    "sweep": 12.85,
+    "wobble": 13.0,
+    "nod": 13.85,
+    "signature": 13.8,
+    "musicResolve": 13.75
+  }
+}

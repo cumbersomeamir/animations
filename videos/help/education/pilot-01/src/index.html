@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Help — Education Pilot 01</title>
+<style>
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url('../fonts/Inter-SemiBold.otf') format('opentype'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url('../fonts/Inter-ExtraBold.otf') format('opentype'); }
+  @font-face { font-family: 'Inter Display'; font-weight: 700; src: url('../fonts/InterDisplay-Bold.otf') format('opentype'); }
+  :root { --cream: #F7F5EF; --ink: #0B0D12; --green: #2DB37D; --yellow: #F2C230; }
+  html, body { margin: 0; padding: 0; background: var(--ink); overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  canvas { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+  #chip { position: absolute; left: 64px; top: 112px; display: flex; gap: 14px; align-items: center;
+    font: 600 34px/1 Inter, sans-serif; letter-spacing: 0.06em; text-transform: uppercase; color: var(--cream); }
+  #chip .tag { background: rgba(247,245,239,0.14); border: 2px solid rgba(247,245,239,0.55); border-radius: 40px; padding: 14px 24px 13px; }
+  #chip .ep { color: var(--ink); background: var(--yellow); border-radius: 40px; padding: 15px 24px 14px; font-weight: 800; }
+  #cap { position: absolute; left: 50%; top: 1352px; width: 940px; transform: translateX(-50%); text-align: center; opacity: 0; }
+  #cap span { display: inline; font: 800 66px/1.24 Inter, sans-serif; color: var(--ink); background: var(--cream);
+    box-decoration-break: clone; -webkit-box-decoration-break: clone; padding: 6px 22px 8px; border-radius: 22px; }
+  #cap em { font-style: normal; color: #0E7A50; background: linear-gradient(transparent 62%, rgba(242,194,48,0.85) 62%, rgba(242,194,48,0.85) 92%, transparent 92%); }
+  #sig { position: absolute; left: 50%; top: 1610px; transform: translateX(-50%); display: flex; align-items: center; gap: 16px; opacity: 0;
+    font: 700 40px/1 'Inter Display', Inter, sans-serif; color: var(--cream); white-space: nowrap; }
+  #sig img { width: 58px; height: 58px; border-radius: 15px; }
+  #sig small { font: 600 30px/1 Inter, sans-serif; color: rgba(247,245,239,0.72); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <canvas id="ov" width="1080" height="1920"></canvas>
+  <div id="chip"><span class="tag">Illustrative scene</span><span class="ep">Lesson 01</span></div>
+  <div id="cap"></div>
+  <div id="sig"><img src="../../../assets/icon.png" alt=""><span>Help</span><small>· giving, explained</small></div>
+</div>
+<script type="importmap">
+{ "imports": { "three": "../node_modules/three/build/three.module.js", "three/addons/": "../node_modules/three/examples/jsm/" } }
+</script>
+<script type="module">
+  import('./main.js').catch((e) => { window.__error = String(e && e.stack || e); });
+</script>
+</body>
+</html>

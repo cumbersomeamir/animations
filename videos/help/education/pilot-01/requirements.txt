@@ -1,0 +1,3 @@
+# Python deps for narration synthesis (installed into ./.venv by build.sh, with system site packages for numpy)
+piper-tts==1.3.0
+numpy>=1.26

@@ -1,0 +1,14 @@
+{
+  "name": "help-education-pilot-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Help educational pilot 01: what delivery video evidence proves and what it does not. Original Three.js miniature diorama rendered frame-by-frame in headless Chromium.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "frames": "node tools/render.mjs",
+    "sheet": "node tools/character_sheet.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  }
+}

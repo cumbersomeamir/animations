@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tally — model sheet</title>
+<style>
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url('../fonts/Inter-SemiBold.otf') format('opentype'); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url('../fonts/Inter-ExtraBold.otf') format('opentype'); }
+  html, body { margin: 0; background: #0B0D12; }
+  #stage { position: relative; width: 2400px; height: 1500px; overflow: hidden; background: #0B0D12; font-family: Inter, sans-serif; color: #F7F5EF; }
+  canvas { position: absolute; left: 0; top: 0; width: 2400px; height: 1500px; }
+  h1 { position: absolute; left: 40px; top: 22px; margin: 0; font: 800 54px/1 Inter; letter-spacing: -0.01em; }
+  h1 span { color: #F2C230; }
+  .sub { position: absolute; left: 40px; top: 90px; font: 600 26px/1.3 Inter; color: rgba(247,245,239,0.75); }
+  .sec { position: absolute; font: 800 24px/1 Inter; letter-spacing: 0.08em; text-transform: uppercase; color: #F2C230; }
+  .lab { position: absolute; font: 600 24px/1.2 Inter; color: #F7F5EF; }
+  .lab.in { color: #0B0D12; background: rgba(247,245,239,0.9); padding: 4px 10px; border-radius: 10px; margin-left: 10px; }
+  #pal { position: absolute; left: 1270px; top: 724px; display: flex; gap: 10px; }
+  #pal div { width: 120px; height: 40px; border-radius: 10px; font: 600 16px/40px Inter; text-align: center; color: #0B0D12; }
+  #notes { position: absolute; right: 40px; top: 22px; width: 880px; font: 600 21px/1.35 Inter; color: rgba(247,245,239,0.85); text-align: right; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="2400" height="1500"></canvas>
+  <h1>Tally <span>· recurring host, Help lessons</span></h1>
+  <div class="sub">Original miniature fact-checker. Procedural three.js rig (src/rig/figure.js) — same rig as the film.</div>
+  <div id="notes">Silhouette rules: wide yellow bucket hat + round ink glasses + bell-shaped green coat + yellow satchel.<br>Proportions: 1.45 units tall incl. hat · head ⌀0.40 · legs 0.34. Voice: Piper LJSpeech (public-domain data) −1 semitone, formants kept.</div>
+  <div class="sec" style="left:40px;top:124px">Turnaround</div>
+  <div class="sec" style="left:1270px;top:124px">Expressions</div>
+  <div class="sec" style="left:40px;top:764px">Action poses</div>
+  <div id="pal">
+    <div style="background:#F7F5EF">#F7F5EF</div><div style="background:#2DB37D">#2DB37D</div><div style="background:#F2C230">#F2C230</div>
+    <div style="background:#0B0D12;color:#F7F5EF;border:1px solid #444">#0B0D12</div><div style="background:#8E5A3E;color:#F7F5EF">skin</div><div style="background:#1F8A5E;color:#F7F5EF">#1F8A5E</div>
+  </div>
+  <div id="labels"></div>
+</div>
+<script type="importmap">
+{ "imports": { "three": "../node_modules/three/build/three.module.js", "three/addons/": "../node_modules/three/examples/jsm/" } }
+</script>
+<script type="module">import('./sheet.js').catch((e) => { window.__error = String(e && e.stack || e); });</script>
+</body>
+</html>
