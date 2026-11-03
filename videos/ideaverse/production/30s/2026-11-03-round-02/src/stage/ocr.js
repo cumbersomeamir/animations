@@ -249,7 +249,7 @@ function drawScreen(t) {
   const q = (v) => Math.round(clamp(v) * 20) / 20;
   const k = {
     boxes: q(inv(Hh.boxes0, Hh.boxes0 + 1.4, t)), ret: q(inv(Hh.tileHome, Hh.tileHome + 0.6, t)), real: q(inv(Hh.realText, Hh.realText + 0.7, t)),
-    sel: q(inv(Hh.tap - 0.1, Hh.tap + 0.1, t)), bubble: q(inv(Hh.tap + 0.12, Hh.tap + 0.3, t)), copied: q(inv(Hh.copied, Hh.copied + 0.15, t)),
+    sweep: q(inv(13.0, 13.85, t)) * (1 - q(inv(14.05, 14.3, t))), sel: q(inv(Hh.tap - 0.1, Hh.tap + 0.1, t)), bubble: q(inv(Hh.tap + 0.12, Hh.tap + 0.3, t)), copied: q(inv(Hh.copied, Hh.copied + 0.15, t)),
     tr: [0, 1, 2].map((i) => q(inv(Hh.trans[i], Hh.trans[i] + 0.3, t))), mis: q(inv(Hh.misShow, Hh.misShow + 0.3, t)), fix: q(inv(Hh.fixTime, Hh.fixTime + 0.3, t)), fare: q(inv(Hh.fixFare, Hh.fixFare + 0.3, t)),
     flash: q(1 - inv(Hh.snap, Hh.snap + 0.35, t)), hole: t >= Hh.tileOut && t < Hh.tileHome + 0.6 ? 1 : 0,
   };
@@ -289,6 +289,7 @@ function drawScreen(t) {
       if (k.real < 0.05) { g.font = '700 54px "Space Grotesk"'; g.fillStyle = '#F4F7FB'; g.fillText('BUS 42 · 08:15'.slice(0, Math.max(2, Math.round(14 * k.ret))), 50, py + 70); }
       else lines.slice(0, n).forEach(([s, sz, col], i) => {
         const yy = py + 70 + i * 104;
+        if (k.sweep > 0) { const g0 = clamp(k.sweep * lines.length - i); if (g0 > 0) { g.fillStyle = 'rgba(108,218,126,0.28)'; g.font = `700 ${sz}px "Space Grotesk"`; rr(g, 40, yy - sz * 0.72, (g.measureText(s).width + 20) * g0, sz * 1.44, 10); g.fill(); } }
         if (i === 2 && k.sel > 0) { g.fillStyle = `rgba(108,218,126,${0.35 * k.sel})`; rr(g, 40, yy - 44, 196, 88, 12); g.fill(); g.fillStyle = P.mint; for (const xh of [40, 236]) { g.fillRect(xh - 3, yy - 44, 6, 88); g.beginPath(); g.arc(xh, xh === 40 ? yy - 50 : yy + 50, 10, 0, 7); g.fill(); } }
         g.font = `700 ${sz}px "Space Grotesk"`; g.fillStyle = col; g.fillText(s, 50, yy);
       });
