@@ -7,10 +7,11 @@ import sys, re, json, subprocess, wave, difflib, unicodedata, numpy as np
 from faster_whisper import WhisperModel
 mp4, lines_f, cues_f = sys.argv[1:4]
 LOAN = {'google': 'गूगल', 'photos': 'फोटोज', 'photo': 'फोटो', 'magic': 'मैजिक', 'eraser': 'इरेजर', 'ai': 'एआई', 'ideaverse': 'आइडियावर्स',
-        'idea': 'आइडिया', 'verse': 'वर्स', 'app': 'ऐप', 'download': 'डाउनलोड', 'subscription': 'सब्सक्रिप्शन', 'phone': 'फोन', 'zoom': 'जूम', 'list': 'लिस्ट', '50': 'पचास', '20': 'बीस', '600': 'छह सौ', 'kg': 'किलो'}
+        'idea': 'आइडिया', 'verse': 'वर्स', 'app': 'ऐप', 'download': 'डाउनलोड', 'subscription': 'सब्सक्रिप्शन', 'phone': 'फोन', 'zoom': 'जूम', 'list': 'लिस्ट', '50': 'पचास', '20': 'बीस', '600': 'छह सौ', 'kg': 'किलो', '2': 'दो', '3': 'तीन', 'रुप्ये': 'रुपये', 'रूपये': 'रुपये'}
 def norm(s):
     s = unicodedata.normalize('NFD', s.lower()).replace('़', '')          # drop nukta
     s = s.replace('ँ', 'ं')                                          # chandrabindu → anusvara
+    s = re.sub(r'₹\s*(\d+)', r'\1 रुपये', s)                                 # ₹600 → 600 रुपये
     s = ' '.join(LOAN.get(w, w) for w in re.findall(r"[\wऀ-ॿ]+", s))
     return unicodedata.normalize('NFC', s)
 def cer(a, b):
