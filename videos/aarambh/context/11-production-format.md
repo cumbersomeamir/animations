@@ -124,7 +124,7 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 6. **Objects move to explain the mechanism as it is narrated:** things stick, catch, weave, press, flex and release. No decorative rays and no static page with camera bobbing.
 7. **Marks:** gold `#F1B444` leaders and dots, dark label pills (Inter 800, 32 px), and gold-deep rubber-stamp boxes for dates and outcomes (Mono 34/28 px).
 8. **Camera:** gentle push (zoom 1.0–1.06) per page, a reset on each change, no wobble.
-9. **End:** a brand/action CTA card in the final 3–4 s. Deep-green card, the real app icon (`assets/icon.png`), "Follow Aarambh" plus a one-line reason, and a short source line.
+9. **End:** a brand/action CTA card in the final 3–4 s. Deep-green card, the real app icon (`assets/icon.png`), **"Download Aarambh" / "to support livelihood tools"**, and the official listing line "Fund verified livelihood tools and follow their impact." No source line on the card: sources belong in the repo and the publishing copy. *(Corrected 2026-11-03; see the CTA correction below.)*
 
 ### Safe areas (1080x1920)
 - **Top band:** y < 300 has no meaningful text.
@@ -136,7 +136,7 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
   - a strong opening, a real moment or observation (0–5 s)
   - the mechanism shown step by step as narrated (5–20 s)
   - a practical takeaway the viewer can reuse (20–25 s)
-  - a short natural CTA (final 3–4 s, e.g. "Follow Aarambh for the ideas behind great inventions.")
+  - a short natural CTA (final 3–4 s): **"Download Aarambh to support livelihood tools."** (corrected 2026-11-03; the earlier "Follow Aarambh for the ideas behind great inventions" was WRONG)
 - **Wording:** no filler, empty motivation or long disclaimers. Put a material qualification briefly inside the relevant sentence (e.g. "With a French weaver, he spent years…").
 - **Sources:** use reliable original or institutional sources (e.g. National Inventors Hall of Fame, WIPO, museums, NobelPrize.org), recorded in the episode note and in `publishing-caption.txt`. Keep dates only if verified and needed.
 - **Never** invent app capabilities, guarantees, statistics, income claims or testimonials.
@@ -160,3 +160,15 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Re-render** if any text is small (< ~26 px on screen for supporting facts), obstructed or overlapping, or a scene is static.
 
 - 03 (2026-11-02, feedback round): George de Mestral, burrs and hook-and-loop fasteners. Record: `14-production-30s-feedback-01.md`
+
+
+## CTA correction, 2026-11-03 (user sheet feedback; applies to all future episodes)
+- **Verified against the live Google Play listing** (https://play.google.com/store/apps/details?id=in.aarambh.app, fetched 2026-11-03):
+  - "Fund verified livelihood tools and follow their impact."
+  - "Aarambh helps supporters fund verified tools and equipment that can help people start, continue, or grow their livelihoods …"
+- **CTA narration and card:** "Download Aarambh to support livelihood tools." The card may add the listing line "Fund verified livelihood tools and follow their impact."
+- **Never** describe Aarambh as a biography, learning or education app. Never invent app features or screens.
+- Biography episodes stay in the approved format and genre; only the CTA changed.
+- Everything else in this file (renderer recipe, captions, voice, pacing, transitions) remains accepted and unchanged.
+
+- 04 (2026-11-03, round-02): Hedy Lamarr & George Antheil, frequency hopping. Record: `15-production-30s-round02-01.md`

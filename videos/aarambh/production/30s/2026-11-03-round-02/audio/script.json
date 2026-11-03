@@ -1,0 +1,41 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "Actress Hedy Lamarr and composer George Antheil patented an anti-jamming idea.",
+      "tts": "Actress Hedy Lamarr and composer George Antheil patented an anti-jamming idea.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "A torpedo steered on one fixed radio frequency could be blocked.",
+      "tts": "A torpedo steered on one fixed radio frequency could be blocked.",
+      "start": 6.25
+    },
+    {
+      "id": "S3",
+      "text": "Their fix: matching piano-style rolls made sender and receiver hop frequencies together.",
+      "tts": "Their fix: matching piano-style rolls made sender and receiver hop frequencies together.",
+      "start": 10.4
+    },
+    {
+      "id": "S4",
+      "text": "The Navy rejected it, but frequency hopping later became common in wireless systems.",
+      "tts": "The Navy rejected it, but frequency hopping later became common in wireless systems.",
+      "start": 16.3
+    },
+    {
+      "id": "S5",
+      "text": "Takeaway: a tool from one field can solve a problem in another.",
+      "tts": "Takeaway: a tool from one field can solve a problem in another.",
+      "start": 22.0
+    },
+    {
+      "id": "S6",
+      "text": "Download Aarambh to support livelihood tools.",
+      "tts": "Download Aarambh, to support livelihood tools.",
+      "start": 26.35
+    }
+  ]
+}

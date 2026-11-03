@@ -30,3 +30,6 @@
 
 ## 2026-11-02: feedback round
 - `videos/aarambh/production/30s/2026-11-02-feedback-round/aarambh-30s-feedback-01.mp4` (sha256 `97ba7e3b63d505d7a89afefd481f6ee3af1e2c2695fb0976468944ebd501d66a`): George de Mestral, burrs → hook-and-loop. Read 11 (FEEDBACK ROUND rules) and 14 before the next episode.
+
+## 2026-11-03: round-02 #01
+- `videos/aarambh/production/30s/2026-11-03-round-02/aarambh-30s-round02-01.mp4` (sha256 `7a3f6da5aa13e91425570956991a585e4efa5d61167a47989dc6dca0bd53b54f`): Hedy Lamarr & George Antheil. **The CTA is now "Download Aarambh to support livelihood tools."** Read 11 (incl. CTA correction) and 15 first.
