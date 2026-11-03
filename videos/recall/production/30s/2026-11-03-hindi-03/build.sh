@@ -27,3 +27,4 @@ n=$(ls build/frames/f*.png | wc -l)
 ./mux.sh
 $PY qa/qa.py
 $PY qa/narration_sync.py
+$PY qa/caption_sync.py

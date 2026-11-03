@@ -1,0 +1,134 @@
+{
+  "cues": {
+    "grab": 0.15,
+    "lift": 0.55,
+    "draw1": 1.05,
+    "ghost1": 1.5,
+    "confused": 2.6,
+    "glassTag": 4.3,
+    "gridTag": 5.4,
+    "field": 6.55,
+    "fingerIn": 8.5,
+    "press": 10.6,
+    "change": 11.0,
+    "signal": 11.6,
+    "locate": 13.5,
+    "drops": 15.4,
+    "dropChange": 16.3,
+    "fake": 17.6,
+    "film": 19.5,
+    "lost": 20.1,
+    "deadpanBlink": 21.5,
+    "wipe": 22.05,
+    "dryFingers": 22.75,
+    "wipeGiant": 23.25,
+    "cleanTouch": 23.75,
+    "draw2": 24.45,
+    "smile": 25.35,
+    "cta": 25.8,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "glass_cu",
+      "t0": 0.0,
+      "t1": 0.95
+    },
+    {
+      "id": "phone_wet",
+      "t0": 0.95,
+      "t1": 2.45
+    },
+    {
+      "id": "react",
+      "t0": 2.45,
+      "t1": 3.85
+    },
+    {
+      "id": "giant_layers",
+      "t0": 3.85,
+      "t1": 6.35
+    },
+    {
+      "id": "giant_field",
+      "t0": 6.35,
+      "t1": 8.4
+    },
+    {
+      "id": "giant_finger",
+      "t0": 8.4,
+      "t1": 11.4
+    },
+    {
+      "id": "giant_locate",
+      "t0": 11.4,
+      "t1": 15.1
+    },
+    {
+      "id": "giant_drops",
+      "t0": 15.1,
+      "t1": 17.4
+    },
+    {
+      "id": "giant_fake",
+      "t0": 17.4,
+      "t1": 19.4
+    },
+    {
+      "id": "giant_masked",
+      "t0": 19.4,
+      "t1": 21.2
+    },
+    {
+      "id": "deadpan",
+      "t0": 21.2,
+      "t1": 21.95
+    },
+    {
+      "id": "wipe_cu",
+      "t0": 21.95,
+      "t1": 23.15
+    },
+    {
+      "id": "giant_clean",
+      "t0": 23.15,
+      "t1": 24.35
+    },
+    {
+      "id": "phone_clean",
+      "t0": 24.35,
+      "t1": 25.8
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 25.8,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.2
+    },
+    {
+      "id": "l02",
+      "start": 3.9
+    },
+    {
+      "id": "l03",
+      "start": 8.45
+    },
+    {
+      "id": "l04",
+      "start": 15.15
+    },
+    {
+      "id": "l05",
+      "start": 21.95
+    },
+    {
+      "id": "l06",
+      "start": 25.8
+    }
+  ]
+}

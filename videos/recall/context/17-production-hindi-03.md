@@ -71,4 +71,27 @@ This is the same evidence as context 16, checked the same day. The approved list
 - **Audio:** the accepted score engine, retimed. The bed is +4 dB because the Hindi voice packs render hotter, which keeps the accepted voice-over-bed of about +15–18 dB. Foley follows each action.
 
 ## Progress
-- 2026-11-03: context reread; nothing active; topic new; Hindi tools checked; voices fetched and verified; research done; Hindi narration generated and ASR-checked; scene built from F01/R02 tooling; preview stills reviewed and fixed (glass grab, POV palm occlusion, water look, wipe orientation, cloth timing, CTA pill clearance); mix −14.55 LUFS, −1.6 dBTP, voice +15.4…+17.6 dB over bed. Full render started.
+- 2026-11-03: context reread; nothing active; topic new; Hindi tools checked; voices fetched and verified; research done; Hindi narration generated and ASR-checked; scene built from F01/R02 tooling; preview stills reviewed and fixed (glass grab, POV palm occlusion, water look, wipe orientation, cloth timing, CTA pill clearance); mix −14.55 LUFS, −1.6 dBTP, voice +15.4…+17.6 dB over bed.
+- 2026-11-03: render run 1 — 24/25 checks (Devanagari caption ink top 331 < 340); captions re-centred at y 413; run 2
+  (`WORKERS=3 ./build.sh`, 16 m 36 s): all 25 checks + narration sync + caption sync pass. Committed, pushed and attached.
+  No further episode; no automation.
+
+## QA summary (verification results; details in the output folder's qa/QA.md)
+- Final MP4 sha256 `1f7e882fc5719bbea9bbeeed6866426783a68bd8c5dfc911ce32f981462127dd` (10,988,644 bytes).
+- H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; video/audio/container 30.000000 s; full
+  FFmpeg decode clean.
+- Hindi ASR on the final mix (Whisper medium, `hi`): CER 0.092; narration lines within 0.1 ms of plan; all 11 spoken
+  caption groups appear 0.00–0.11 s before their first word (one 0.01 s after) and stay past their last word.
+- −14.6 LUFS, −1.6 dBTP, 0 clipped samples; voice +15.4…+17.6 dB over bed.
+- Captions all Devanagari (no Latin words), ink x 164–907, y 341–485, ≤ 2 lines; font coverage check true; nothing above
+  y 300; labels central; no overlaps.
+- Limits: no native-listener review (I cannot listen); CTA occupies the final 4.2 s; "with AI" is the user's wording;
+  visuals are illustrative.
+
+## Exact commands
+`cd videos/recall/production/30s/2026-11-03-hindi-03 && WORKERS=3 ./build.sh` (mix → 900 frames → mux → qa/qa.py →
+qa/narration_sync.py → qa/caption_sync.py); `audio/fetch_models.sh` fetches/verifies the Hindi voice packs; `TTS=1`
+regenerates narration and runs the Hindi ASR check (`audio/asr_words.py`).
+
+## Next
+Only on user request: the next episode (Hindi or English as the user specifies) in the Low-poly Everyday Discovery format.

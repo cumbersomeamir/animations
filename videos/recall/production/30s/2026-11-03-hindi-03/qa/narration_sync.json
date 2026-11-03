@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.2,
+  "measured_start": 0.2,
+  "error_ms": -0.1,
+  "corr": 0.845,
+  "end": 3.626,
+  "shot_at_start": "glass_cu",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l02",
+  "planned_start": 3.9,
+  "measured_start": 3.9,
+  "error_ms": -0.1,
+  "corr": 0.835,
+  "end": 8.206,
+  "shot_at_start": "giant_layers",
+  "shot_at_end": "giant_field"
+ },
+ {
+  "id": "l03",
+  "planned_start": 8.45,
+  "measured_start": 8.45,
+  "error_ms": -0.1,
+  "corr": 0.853,
+  "end": 14.944,
+  "shot_at_start": "giant_finger",
+  "shot_at_end": "giant_locate"
+ },
+ {
+  "id": "l04",
+  "planned_start": 15.15,
+  "measured_start": 15.15,
+  "error_ms": -0.1,
+  "corr": 0.845,
+  "end": 21.189,
+  "shot_at_start": "giant_drops",
+  "shot_at_end": "giant_masked"
+ },
+ {
+  "id": "l05",
+  "planned_start": 21.95,
+  "measured_start": 21.95,
+  "error_ms": -0.1,
+  "corr": 0.851,
+  "end": 24.351,
+  "shot_at_start": "deadpan",
+  "shot_at_end": "giant_clean"
+ },
+ {
+  "id": "l06",
+  "planned_start": 25.8,
+  "measured_start": 25.8,
+  "error_ms": -0.1,
+  "corr": 0.841,
+  "end": 29.796,
+  "shot_at_start": "phone_clean",
+  "shot_at_end": "cafe_wide"
+ }
+]

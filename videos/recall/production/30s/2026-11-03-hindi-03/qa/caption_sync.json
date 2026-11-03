@@ -1,0 +1,121 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "caption": "गीली उंगलियों से स्क्रीन / अजीब हरकतें क्यों करती है?",
+   "start": 0.15,
+   "end": 3.85,
+   "first_word_s": 0.2,
+   "last_word_s": 3.37,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "शीशे के नीचे बारीक / इलेक्ट्रोड का जाल",
+   "start": 3.85,
+   "end": 6.7,
+   "first_word_s": 3.9,
+   "last_word_s": 6.24,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "विद्युत क्षेत्र बनाता है।",
+   "start": 6.7,
+   "end": 8.4,
+   "first_word_s": 6.69,
+   "last_word_s": 7.9,
+   "caption_lead_s": -0.01,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "उंगली बिजली की / सुचालक है;",
+   "start": 8.4,
+   "end": 10.5,
+   "first_word_s": 8.45,
+   "last_word_s": 10.07,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "स्पर्श होते ही वहां / क्षेत्र बदलता है,",
+   "start": 10.5,
+   "end": 12.85,
+   "first_word_s": 10.54,
+   "last_word_s": 12.69,
+   "caption_lead_s": 0.04,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "और फ़ोन जगह / पहचान लेता है।",
+   "start": 12.85,
+   "end": 15.1,
+   "first_word_s": 12.93,
+   "last_word_s": 14.81,
+   "caption_lead_s": 0.08,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "पर पानी भी / क्षेत्र बदलता है;",
+   "start": 15.1,
+   "end": 17.3,
+   "first_word_s": 15.15,
+   "last_word_s": 16.87,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "बूंदें नकली टच / बना सकती हैं,",
+   "start": 17.3,
+   "end": 19.4,
+   "first_word_s": 17.3,
+   "last_word_s": 19.05,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "या असली टच / छिपा सकती हैं।",
+   "start": 19.4,
+   "end": 21.3,
+   "first_word_s": 19.51,
+   "last_word_s": 21.05,
+   "caption_lead_s": 0.11,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "तो पहले स्क्रीन और / उंगलियां सुखा लें।",
+   "start": 21.9,
+   "end": 24.35,
+   "first_word_s": 21.95,
+   "last_word_s": 24.04,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "सूखी स्क्रीन, सही टच।",
+   "start": 24.35,
+   "end": 25.75,
+   "spoken": false
+  },
+  {
+   "caption": "कोई भी नया विषय एआई से / सीखने के लिए रिकॉल डाउनलोड करें।",
+   "start": 25.75,
+   "end": 30.0,
+   "first_word_s": 25.8,
+   "last_word_s": 29.42,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}
