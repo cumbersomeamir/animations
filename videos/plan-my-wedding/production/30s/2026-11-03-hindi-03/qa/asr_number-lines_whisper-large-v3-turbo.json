@@ -1,0 +1,8 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/h3.wav": "सौ मेहमान एक लाख बीस हजार.",
+    "build/vo/h4.wav": "एक सो पचास एक लाख असी हजार.",
+    "build/vo/h5.wav": "यानी साथ हजार ज्यादा सजावट की बचित का बारे गुना."
+  }
+}

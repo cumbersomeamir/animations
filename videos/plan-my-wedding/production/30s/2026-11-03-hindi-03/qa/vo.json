@@ -1,0 +1,87 @@
+{
+  "variant": "final",
+  "mix": [
+    [
+      "hf_alpha",
+      0.7
+    ],
+    [
+      "hm_omega",
+      0.3
+    ]
+  ],
+  "speed": 1.04,
+  "lines": [
+    {
+      "id": "h1",
+      "duration": 4.26,
+      "onsets": [
+        0,
+        0.95,
+        2.34
+      ],
+      "missing": []
+    },
+    {
+      "id": "h2",
+      "duration": 4.66,
+      "onsets": [
+        0,
+        1.22,
+        2.28,
+        3.17,
+        3.82,
+        4.4
+      ],
+      "missing": []
+    },
+    {
+      "id": "h3",
+      "duration": 2.646,
+      "onsets": [
+        0,
+        1.13
+      ],
+      "missing": []
+    },
+    {
+      "id": "h4",
+      "duration": 2.807,
+      "onsets": [
+        0,
+        1.29
+      ],
+      "missing": []
+    },
+    {
+      "id": "h5",
+      "duration": 4.288,
+      "onsets": [
+        0,
+        2.09
+      ],
+      "missing": []
+    },
+    {
+      "id": "h6",
+      "duration": 5.583,
+      "onsets": [
+        0,
+        1.9,
+        3.67,
+        4.94
+      ],
+      "missing": []
+    },
+    {
+      "id": "h7",
+      "duration": 3.945,
+      "onsets": [
+        0,
+        1.8,
+        2.5
+      ],
+      "missing": []
+    }
+  ]
+}
