@@ -1,0 +1,8 @@
+sentence | placed start | first ASR word start (export) 
+S1 | 0.30 | nearest ASR word 'उन्नीस्व्श्व्बास्ध्छ' at 0.00
+S2 | 6.35 | nearest ASR word 'उस' at 6.56
+S3 | 10.66 | nearest ASR word 'के' at 11.00
+S4 | 17.50 | nearest ASR word 'के' at 17.92
+S5 | 20.36 | nearest ASR word 'जरूरी' at 20.78
+S6 | 25.43 | nearest ASR word 'आरंभ' at 25.02
+events: turn1 [6.02, 6.35] swap [10.3, 10.66] cut 14.66 loupe [15.59, 16.93] turn2 [17.16, 17.5] swap2 [20, 20.36] cta [24.93, 25.43]

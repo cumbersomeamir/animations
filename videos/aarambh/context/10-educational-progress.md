@@ -113,3 +113,12 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Output:** `videos/aarambh/production/30s/2026-11-03-round-02/aarambh-30s-round02-01.mp4`, sha256 `7a3f6da5aa13e91425570956991a585e4efa5d61167a47989dc6dca0bd53b54f`. Hedy Lamarr & George Antheil, frequency hopping. 30.000 s, 900 frames, −15.0 LUFS, −1.2 dBTP, full decode OK.
 - **CTA corrected** to "Download Aarambh to support livelihood tools." (verified against the Play listing); see `11` "CTA correction". **Record:** `context/15`.
 - No automation; no other episode started.
+
+## 2026-11-03: hindi-03 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-03-hindi-03/aarambh-30s-hindi03-01.mp4`, sha256 `86011cfc47afec81facec81b1fc356d19535a70ad9089dea0780b4cb74c1a383`. Katherine Johnson hand-checks the Friendship 7 equations (1962). Hindi narration and captions. 30.000 s, 900 frames, −15.0 LUFS, −3.0 dBTP, full decode OK.
+- **Verified facts:** NASA biography (Shetterly, 2016) and NASA image records (see `16`). The photos are real NASA photographs of Johnson (1966, Dec 1962, 1971; NASA/Bob Nye), plus the Friendship 7 launch and decal photos.
+- **Creative:** the accepted recipe with 7 pages; the magnifier lands on her desk calculating machine.
+- **Voice:** Kokoro `hf_alpha`, a Hindi voice. Rules are in `11` (Hindi-language note). **Record:** `context/16`.
+- **Verification:** Hindi ASR recognises every sentence in order, with spelling-level mis-hearings. There was no human listening.
+- **Final fixes:** two credit overlaps (P4 leader line, P6 check badge) were found on the contact sheets, fixed, and the video re-rendered.
+- No automation; no other episode started.

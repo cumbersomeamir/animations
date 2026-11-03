@@ -33,3 +33,8 @@
 
 ## 2026-11-03: round-02 #01
 - `videos/aarambh/production/30s/2026-11-03-round-02/aarambh-30s-round02-01.mp4` (sha256 `7a3f6da5aa13e91425570956991a585e4efa5d61167a47989dc6dca0bd53b54f`): Hedy Lamarr & George Antheil. **The CTA is now "Download Aarambh to support livelihood tools."** Read 11 (incl. CTA correction) and 15 first.
+
+## 2026-11-03: hindi-03 #01 (Hindi)
+- `videos/aarambh/production/30s/2026-11-03-hindi-03/aarambh-30s-hindi03-01.mp4` (sha256 `86011cfc47afec81facec81b1fc356d19535a70ad9089dea0780b4cb74c1a383`): Katherine Johnson and the hand-check of John Glenn's orbital numbers. All narration and captions are Hindi; the voice is Kokoro Hindi `hf_alpha`; real NASA photos are credited.
+- **Read first next time:** 11 (incl. the CTA correction and the Hindi-language note) and 16.
+- **Open:** a native-speaker listen before posting (only ASR-verified here).

@@ -172,3 +172,16 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - Everything else in this file (renderer recipe, captions, voice, pacing, transitions) remains accepted and unchanged.
 
 - 04 (2026-11-03, round-02): Hedy Lamarr & George Antheil, frequency hopping. Record: `15-production-30s-round02-01.md`
+
+## Hindi-language note, 2026-11-03 (user correction; applies when an episode is Hindi)
+- **Hindi throughout:** all spoken narration and all captions are natural Hindi in Devanagari. No English narration.
+- **Voice:** use a genuinely Hindi-trained local voice. Never feed Hindi to an English-only voice (the af_bella + am_puck blend is English-only).
+  - Current choice: Kokoro-82M ONNX v1.0 `hf_alpha`, `lang="hi"`, speed 0.98. It was chosen by Hindi ASR CER (see `16`).
+  - Rejected: Piper `hi_IN` pratham and priyamvada (CC BY-NC-SA 4.0) and rohan (IITM IndicTTS licence).
+  - No cloning or imitation of any real person's voice; no paid APIs.
+- **Fonts:** Noto Sans Devanagari 700/800 and Noto Serif Devanagari 800 (`@fontsource` 5.3.0, OFL). Register each font's **Latin subset as a fallback family** so digits, punctuation and Latin words render without tofu. Captions use Noto Sans Devanagari 800 at 52 px inside the existing caption plate (y 350–510, at most 2 lines).
+- **Hindi CTA:** "आरंभ डाउनलोड करें, आजीविका के औज़ारों का साथ दें।" Optional listing line: "सत्यापित आजीविका औज़ारों के लिए योगदान दें और उनका असर देखें।"
+- **QA:** add a Hindi ASR pass (faster-whisper small, `language="hi"`) on the export, plus an espeak-ng phoneme check of names, dates and numbers. Spell out years in the TTS text (उन्नीस सौ बासठ) while the caption shows digits.
+- Everything else in this file (renderer recipe, pacing, transitions, magnifier once, safe areas, CTA meaning) is unchanged.
+
+- 05 (2026-11-03, hindi-03): Katherine Johnson and the hand-check behind John Glenn's orbital flight (Hindi). Record: `16-production-30s-hindi03-01.md`
