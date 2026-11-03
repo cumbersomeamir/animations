@@ -28,7 +28,7 @@ function caption(g, tl, t, cache) {
   if (!cap) return null;
   const L = cache[cap.start] || (cache[cap.start] = layout(g, cap));
   const a = clamp((t - cap.start) / 0.12) * (cap.end >= 29.99 ? 1 : clamp((cap.end - t) / 0.12));
-  const top = 403 - L.inkH / 2;           // ink block centred at y 403 (2-line ink 341.5–464.5: inside 340–520, clear of the 300 px band)
+  const top = 413 - L.inkH / 2;           // ink block centred at y 413: 2-line Devanagari ink (taller matras) stays inside 340–520
   g.save(); g.globalAlpha = a; g.font = `600 ${L.size}px ${FONT}`; g.textBaseline = 'alphabetic';
   let ink = { left: 1e9, right: -1e9, top: 1e9, bottom: -1e9 };
   const rows = L.lines.map((ln, i) => {
