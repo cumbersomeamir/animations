@@ -465,8 +465,8 @@ function drawOverlay(t, shot) {
   og.clearRect(0, 0, W, H); TEXTLOG = [];
   { const v = og.createRadialGradient(540, 1060, 520, 540, 1060, 1250); v.addColorStop(0, 'rgba(4,5,26,0)'); v.addColorStop(1, 'rgba(4,5,26,0.45)'); og.fillStyle = v; og.fillRect(0, 0, W, H); }   // miniature vignette
   // the one timing readout: a small stopwatch at the phone while the reply is on its way (no numbers: times vary)
-  if (t >= E.reply && t < E.replyIn + 0.6) {
-    const [x0, y0] = project(PTOP); const x = clamp(x0 + 170, 200, 880), y = clamp(y0 - 40, 700, 1500); const a = clamp((t - E.reply) / 0.15) * (1 - clamp((t - E.replyIn - 0.4) / 0.2));
+  if (t >= E.reply && t < 22.85) {   // S7 only: fades out as the reply lands, before the cut
+    const [x0, y0] = project(PTOP); const x = clamp(x0 + 170, 200, 880), y = clamp(y0 - 40, 700, 1500); const a = clamp((t - E.reply) / 0.15) * (1 - clamp((t - E.replyIn) / 0.15));
     const u = clamp((t - E.reply) / (E.replyIn - E.reply)); og.save(); og.globalAlpha = a; og.translate(x, y);
     og.fillStyle = 'rgba(236,232,255,0.96)'; og.beginPath(); og.arc(0, 0, 54, 0, Math.PI * 2); og.fill(); og.strokeStyle = '#14163a'; og.lineWidth = 6; og.stroke();
     og.fillStyle = '#14163a'; og.fillRect(-10, -72, 20, 14); og.strokeStyle = '#fe4092'; og.lineWidth = 7; og.lineCap = 'round';

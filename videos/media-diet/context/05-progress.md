@@ -43,3 +43,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   context/15-production-30s-round02-01.md; one episode-log row in context/11.
 - Running: full 900-frame render (`node build/render.mjs film frames 0 449` + `… 450 899`), then
   `SKIP_FRAMES=1 bash build/build.sh` (audio, encode, QA). Next: inspect QA, fix defects, commit MP4 + QA, push, attach.
+
+## Checkpoint 2026-11-03 — round 02 delivered
+- New 30.000 s episode rendered, verified and committed: production/30s/2026-11-03-round-02/media-diet-30s-round02-01.mp4
+  (SHA-256 51db6af0eb83efeadb335a2779200e0f1210816ad31fc5fd346440ee44f47e0e). Accepted Layered Tech Cutaway recipe kept unchanged;
+  brief/feedback handling/script/sources/storyboard/QA: context/15-production-30s-round02-01.md; context/11 got one log row only.
+- Commands: render `node build/render.mjs film frames 0 449` + `… 450 899` (parallel), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz; full decode clean;
+  −15.2 LUFS / −2.0 dBTP; captions y 378–488, 0 safe-area violations; ASR recall 0.961, all lines in window.
+- Fixed: V3 heard as "Unsupported phones" → re-worded ("With a supported phone and country, it goes via satellite.");
+  stopwatch carry-over into S8. Previous MP4s preserved. No automation created. Unresolved: none known (listen once before posting).

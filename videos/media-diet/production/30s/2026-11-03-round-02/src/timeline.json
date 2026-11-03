@@ -44,14 +44,14 @@
   {
    "id": "V3",
    "start": 4.85,
-   "say": "On supported phones and countries, it can go via satellite.",
+   "say": "With a supported phone and country, it goes via satellite.",
    "cues": [
     [
-     "On supported phones",
-     "and countries,"
+     "With a supported phone",
+     "and country,"
     ],
     [
-     "it can go",
+     "it goes",
      "via satellite."
     ]
    ]

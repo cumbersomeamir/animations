@@ -27,14 +27,17 @@ announcement. 65–75 natural words, strong hook, concrete mechanism, meaningful
   so the proposed topic was used as given.
 - **No context rewrite**: context/11 received only an episode-log row; this file is the new episode record.
 
-## Draft → final narration (Kokoro af_bella 0.7 + am_puck 0.3, speed 0.98, en-us) — 75 words, 24.5 s of speech
-Draft (76 words): identical except V5 "…then **on** to a response centre." → "on" removed to stay within 75 words.
+## Draft → final narration (Kokoro af_bella 0.7 + am_puck 0.3, speed 0.98, en-us) — 75 words, 24.1 s of speech
+Draft (76 words): V5 "…then **on** to a response centre." → "on" removed to stay within 75 words.
+QA fix: V3 was "On supported phones and countries, it can go via satellite." — the ASR pass heard "**Unsupported** phones"
+(the synthetic voice runs "On sup-" together), which would invert the qualifier. Re-worded to "With a supported phone and
+country, it goes via satellite." (10 words; only V3 re-synthesised; ASR then heard it exactly; its caption frames re-rendered).
 
 | id | start | end | final line | why |
 |---|---|---|---|---|
 | V1 | 0.25 | 2.32 | No mobile signal, and you need help. | hook: the situation, in 7 words |
 | V2 | 2.70 | 4.47 | How can a text still reach rescuers? | the question the film answers |
-| V3 | 4.85 | 8.44 | On supported phones and countries, it can go via satellite. | the one required qualifier, in its sentence (A1, G1) |
+| V3 | 4.85 | 8.07 | With a supported phone and country, it goes via satellite. | the one required qualifier, in its sentence (A1, G1) |
 | V4 | 8.90 | 11.32 | Your phone sends a short text up to a satellite, | mechanism step 1 (A1, A3) |
 | V5 | 11.65 | 15.60 | which passes it down to a ground station, then to a response centre. | steps 2–3 (A3; A1 "Emergency Relay Center") |
 | V6 | 16.20 | 22.46 | Unlike a nearby tower, the satellite is far away: aim at open sky, expect slower replies. | practical difference + what to do (A2, G1) |
@@ -56,7 +59,7 @@ Draft (76 words): identical except V5 "…then **on** to a response centre." →
 | time | shot | action tied to narration |
 |---|---|---|
 | 0.0–4.8 | S1 valley, low | phone on a paper rock shows no bars, slash pops; the distant lattice tower's signal rings head for it and die at the paper ridge ("No mobile signal"); "?" tag pops; camera tilts up toward the empty sky ("How can a text…"). |
-| 4.8–8.8 | S2 low, wide | paper satellite glides in along its arc; the phone's screen switches to a satellite-aim glyph ("supported phones…") and the phone leans to aim ("via satellite"). |
+| 4.8–8.8 | S2 low, wide | paper satellite glides in along its arc; the phone's screen switches to a satellite-aim glyph ("With a supported phone…") and the phone leans to aim ("via satellite"). |
 | 8.8–11.6 | S3 close, follow tilt | a bubble appears on screen, a paper speech bubble lifts off and climbs the cyan uplink thread; camera tilts up with it to the satellite ("sends a short text up to a satellite"). |
 | 11.6–13.9 | S4 follow tilt down | ground-station dish turns to the satellite; the bubble descends the downlink to the dish ("passes it down to a ground station"). |
 | 13.9–16.1 | S5 high 3/4 | bubble runs the paper route dashes (lighting them) to the response centre; windows light, SOS placard flips up ("then to a response centre"). |
@@ -66,7 +69,12 @@ Draft (76 words): identical except V5 "…then **on** to a response centre." →
 | 26.4–30.0 | S9 hero pull-back | whole route visible (phone → satellite → dish → centre); paper Media Diet sign hinges up (CTA); music resolves, fade 29.3–30.0. |
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+- SHA-256 `51db6af0eb83efeadb335a2779200e0f1210816ad31fc5fd346440ee44f47e0e` · 18,736,680 bytes.
+- 900 frames · video 30.000000 s · audio 30.000000 s · container 30.000000 s · H.264 High yuv420p 1080×1920 30/1 · AAC 48 kHz stereo.
+- Full decode clean · −15.2 LUFS / −2.0 dBTP · caption ink y 378–488, x 196–882 · 0 safe-area violations in 900 frames.
+- ASR + timing: word recall 0.961 (spelling/weak-word noise only), every line inside its scripted window; V3 fixed after
+  the first pass heard "Unsupported" (see narration section).
+- Representative and cut-boundary contact sheets inspected; the stopwatch carry-over into S8 was fixed (frames 678–700 re-rendered).
 
 ## Limits
 - Meshline/Recall voice cache not present here → same cached Kokoro-82M v1.0 + agreed config reused (as in earlier rounds).
