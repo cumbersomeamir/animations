@@ -338,8 +338,10 @@ const BSIDE = { x: -0.2, z: 0.24, rotY: -12 };
 const CTA = { x: -0.06, z: 0.62, rotY: 6 };
 const REST_ARMS = { aFwd: 6, aOut: 10, aBend: 12, bFwd: 6, bOut: 10, bBend: 12 };
 const DK = poseKeys([
-  { t: -1, p: { ...SHOOT, crouch: 0.08, lean: -2, headPitch: 6, headYaw: 0 } },
-  { t: 1.3, p: { lean: 2, headPitch: 8 } },
+  { t: -1, p: { ...SHOOT, x: 0.2, z: 0.48, crouch: 0.02, lean: -2, headPitch: 16, headYaw: 8 } },
+  { t: 0.05, p: {} },
+  { t: 0.85, e: 'outBack', p: { x: 0.1, z: 0.4, crouch: 0.12, lean: 8, headPitch: 6, headYaw: 0 } },     // steps in, raises the phone
+  { t: 1.3, p: { lean: 4, headPitch: 8 } },
   { t: 1.45, e: 'outQuad', p: { lean: -6, headPitch: 2 } },
   { t: 1.75, e: 'outBack', p: { lean: 2, headPitch: 18 } },              // looks down at the shot
   { t: 2.25, p: {} },
@@ -387,7 +389,7 @@ function docketAt(t) {
   const p = poseAt(DK, t);
   p.lean += 1.2 * Math.sin(t * 2.2);
   p.headRoll += 1.5 * Math.sin(t * 1.3);
-  const hops = [[2.25, 2.8], [18.3, 18.85], [24.8, 25.4]];
+  const hops = [[0.05, 0.85], [2.25, 2.8], [18.3, 18.85], [24.8, 25.4]];
   for (const [a, b] of hops) if (t > a && t < b) p.hop += 0.03 * Math.abs(Math.sin(((t - a) / (b - a)) * Math.PI * 2));
   p.antenna = kick(t, Hh.snap, 18) + kick(t, Hh.crisp, 14) + kick(t, Hh.tap, 10) + kick(t, Hh.fixTime, 14) + kick(t, 23.3, 12) + 6 * Math.sin(t * 3.1);
   if (t > 26.2) { p.headPitch += 3 * Math.sin((t - 26.2) * 5) * Math.exp(-(t - 26.2) * 1.2); p.bFwd += 7 * Math.sin((t - 26.2) * 6.2) * Math.exp(-(t - 26.2) * 0.8); }
@@ -427,7 +429,7 @@ function phoneSpotAt(t) {           // held positions in DOCKET space
   const RIGHT = spot(p, V(0.2, 1.02, 0.33), -0.06, -0.1);                           // beside the menu card
   const SIDE = spot(p, V(0.21, 0.86, 0.28), -0.1, 0.12);                             // next to the board
   const LOW = spot(p, V(-0.12, 0.62, 0.25), -0.4, 0.2);                             // at the side during the CTA
-  const segs = [[-1, AIM], [2.25, AIM], [2.8, SHOW], [5.2, SHOW], [5.6, WAIST], [10.75, WAIST], [11.1, SHOW], [13.9, SHOW], [14.2, WAIST], [15.0, WAIST], [15.35, RIGHT], [18.3, RIGHT], [18.85, SIDE], [24.8, SIDE], [25.4, LOW]];
+  const segs = [[-1, WAIST], [0.05, WAIST], [0.85, AIM], [2.25, AIM], [2.8, SHOW], [5.2, SHOW], [5.6, WAIST], [10.75, WAIST], [11.1, SHOW], [13.9, SHOW], [14.2, WAIST], [15.0, WAIST], [15.35, RIGHT], [18.3, RIGHT], [18.85, SIDE], [24.8, SIDE], [25.4, LOW]];
   let i = 1; while (i < segs.length - 1 && t > segs[i][0]) i++;
   const [t0, A] = segs[i - 1], [t1, B] = segs[i], k = E.inOutCubic(inv(t0, t1, t));
   return { p: A.p.clone().lerp(B.p, k), q: A.q.clone().slerp(B.q, k) };
@@ -551,7 +553,7 @@ function stageAt(t) {
 
 // ------------------------------------------------------------------ camera (fov 44, eased keyframes, pilot system; near-duplicate keys = cuts)
 const CAM = [
-  [0.0, [0.05, 1.26, 2.9], [-0.32, 1.02, 0.0]], [2.81, [0.02, 1.25, 2.68], [-0.28, 1.02, 0.05]],
+  [0.0, [0.12, 1.3, 3.2], [-0.3, 1.03, 0.0]], [1.45, [0.03, 1.26, 2.8], [-0.31, 1.02, 0.0]], [2.81, [0.02, 1.25, 2.68], [-0.28, 1.02, 0.05]],
   [2.82, [-0.03, 1.15, 1.95], [-0.03, 1.12, 0.88]], [5.4, [-0.03, 1.15, 1.9], [-0.03, 1.12, 0.88]],
   [5.401, [0.2, 1.2, 2.75], [0.18, 0.86, 0.25]], [6.95, [0.2, 1.2, 2.7], [0.18, 0.86, 0.25]],
   [6.951, [0.08, 0.9, 1.85], [0.36, 0.78, 0.5]], [10.95, [0.09, 0.9, 1.8], [0.36, 0.78, 0.5]],
