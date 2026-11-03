@@ -318,10 +318,10 @@ const DK = poseKeys([
   { t: 14.6, p: { headPitch: 2 } },
   { t: 15.2, e: 'outBack', p: { lean: -4 } },
   { t: 18.6, p: { headPitch: 12, lean: 6 } },
-  { t: 21.0, e: 'inOutCubic', p: { ...HOME2, headPitch: 14, headYaw: 0, lean: 0 } },
-  { t: 25.55, p: {} },
-  { t: 25.6, p: { headPitch: -2 } },
-  { t: 26.3, e: 'outBack', p: { bFwd: 128, bOut: 16, bBend: 6 } },
+  { t: 21.0, e: 'inOutCubic', p: { headPitch: 14, headYaw: 0, lean: 0 } },                       // stays beside the photo (out of the close-up's view)
+  { t: 25.6, p: {} },
+  { t: 26.15, e: 'inOutCubic', p: { ...HOME2, headPitch: -2 } },                                 // walks to the CTA spot in the wide shot
+  { t: 26.5, e: 'outBack', p: { bFwd: 128, bOut: 16, bBend: 6 } },
   { t: 28.3, p: { bFwd: 120 } },
   { t: 29.0, e: 'inOutCubic', p: { bFwd: 40, bOut: 14, bBend: 40 } },
   { t: 30.5, p: {} },
@@ -336,10 +336,10 @@ function docketAt(t) {
   const p = poseAt(DK, t);
   p.lean += 1.2 * Math.sin(t * 2.2);
   p.headRoll += 1.5 * Math.sin(t * 1.3);
-  const hops = [[0.05, 0.8], [8.9, 9.3], [20.5, 21.0]];
+  const hops = [[0.05, 0.8], [8.9, 9.3], [25.6, 26.15]];
   for (const [a, b] of hops) if (t > a && t < b) p.hop += 0.03 * Math.abs(Math.sin(((t - a) / (b - a)) * Math.PI * 2));
   p.antenna = kick(t, Hh.point, 14) + kick(t, Hh.lift, 16) + kick(t, Hh.fill1, 12) + kick(t, Hh.shadowFix, 14) + 6 * Math.sin(t * 3.1);
-  if (t > 26.3) { p.headPitch += 3 * Math.sin((t - 26.3) * 5) * Math.exp(-(t - 26.3) * 1.2); p.bFwd += 7 * Math.sin((t - 26.3) * 6.2) * Math.exp(-(t - 26.3) * 0.8); }
+  if (t > 26.5) { p.headPitch += 3 * Math.sin((t - 26.5) * 5) * Math.exp(-(t - 26.5) * 1.2); p.bFwd += 7 * Math.sin((t - 26.5) * 6.2) * Math.exp(-(t - 26.5) * 0.8); }
   return p;
 }
 function exprAt(t) { let e = 'neutral'; for (const [t0, x] of EXPR) if (t >= t0) e = x; return e; }
@@ -433,7 +433,7 @@ const CAM = [
   [3.45, [-0.571, 1.15, 1.63], [-0.069, 1.12, 0.678]], [9.29, [-0.56, 1.15, 1.57], [-0.069, 1.12, 0.678]],
   [9.3, [-0.12, 1.15, 1.18], [-0.64, 1.13, -0.32]], [15.49, [-0.14, 1.15, 1.1], [-0.64, 1.13, -0.32]],
   [15.5, [-0.17, 0.87, 0.6], [-0.517, 0.84, -0.363]], [21.04, [-0.19, 0.87, 0.52], [-0.517, 0.84, -0.363]],
-  [21.05, [0.09, 1.15, 1.97], [-0.022, 1.12, 0.908]], [25.59, [0.09, 1.15, 1.92], [-0.022, 1.12, 0.908]],
+  [21.05, [-0.95, 1.15, 1.0], [-0.045, 1.12, 0.431]], [25.59, [-0.9, 1.15, 0.97], [-0.045, 1.12, 0.431]],
   [25.6, [0.02, 1.26, 2.6], [-0.02, 1.08, 0.5]], [30.0, [0.02, 1.25, 2.4], [-0.03, 1.09, 0.5]],
 ];
 function cameraAt(t) {
