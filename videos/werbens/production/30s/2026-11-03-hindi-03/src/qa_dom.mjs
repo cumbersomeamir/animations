@@ -7,7 +7,7 @@ import { createRequire } from "node:module"; import { fileURLToPath } from "node
 const require = createRequire(import.meta.url); const { chromium } = require("playwright");
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MOUNTS = { "/assets/": path.resolve(ROOT, "../../../assets"), "/": ROOT };
-const TYPES = { ".js": "text/javascript", ".html": "text/html", ".otf": "font/otf", ".png": "image/png", ".json": "application/json", ".woff2": "font/woff2" };
+const TYPES = { ".js": "text/javascript", ".html": "text/html", ".otf": "font/otf", ".png": "image/png", ".json": "application/json", ".woff2": "font/woff2", ".svg": "image/svg+xml" };
 const srv = http.createServer((q, r) => { const u = decodeURIComponent(q.url.split("?")[0]); const m = Object.keys(MOUNTS).find((k) => u.startsWith(k)); const f = path.join(MOUNTS[m], u.slice(m.length)); if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) { r.writeHead(404); return r.end(); } r.writeHead(200, { "content-type": TYPES[path.extname(f)] || "application/octet-stream" }); fs.createReadStream(f).pipe(r); });
 await new Promise((r) => srv.listen(0, "127.0.0.1", r));
 const b = await chromium.launch({ args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"] });

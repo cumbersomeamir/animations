@@ -15,7 +15,7 @@ const { chromium } = require("playwright"); // pre-installed system Playwright (
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MOUNTS = { "/assets/": path.resolve(ROOT, "../../../assets"), "/": ROOT };
-const TYPES = { ".html": "text/html", ".js": "text/javascript", ".mjs": "text/javascript", ".otf": "font/otf", ".png": "image/png", ".json": "application/json", ".woff2": "font/woff2" };
+const TYPES = { ".html": "text/html", ".js": "text/javascript", ".mjs": "text/javascript", ".otf": "font/otf", ".png": "image/png", ".json": "application/json", ".woff2": "font/woff2", ".svg": "image/svg+xml" };
 const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d; };
 

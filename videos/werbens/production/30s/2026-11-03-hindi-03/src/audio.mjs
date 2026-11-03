@@ -1,4 +1,4 @@
-// Original procedural score + foley for round-02 30 s #01 ("One shape, everywhere"; accepted Satisfying Product Theatre audio recipe).
+// Original procedural score + foley for Hindi episode 03 (accepted Satisfying Product Theatre audio recipe; Hindi narration).
 // Everything is synthesised here from oscillators/noise (no samples, no third-party audio) → no licensing constraints.
 // Music is deliberately NON-looping: one held, slowly evolving pad chord per scene + a handful of piano notes tied to object
 // events (landings, lift, hop, cut, tile). No beat grid, no hats, no arpeggio or bass pattern that repeats.
@@ -81,22 +81,19 @@ function metal(freq, dur = 0.5, dec = 9) { // inharmonic coin partials
 }
 
 // ------------------------------------------------------------------ score (accepted recipe: one held chord per scene, no grid)
-const PADS = [ // [t0, t1, notes, root]  overlapping so chords crossfade
-  [0.0, 3.1, [62, 66, 69, 76], 50], [2.9, 7.4, [59, 62, 66, 69], 47], [7.2, 11.1, [55, 59, 62, 66], 43], [10.9, 15.9, [57, 61, 64, 71], 45],
-  [15.7, 19.75, [55, 58, 62, 64], 43], // contrast: borrowed minor colour while the shapes stop matching
-  [19.55, 22.7, [62, 66, 69, 74], 50], [22.5, 26.0, [59, 62, 66, 73], 47], [25.8, 30.0, [62, 66, 69, 76, 78], 50],
+const PADS = [ // [t0, t1, notes, root] — overlapping so chords crossfade; D major colour as accepted
+  [0.0, 3.5, [62, 66, 69, 76], 50], [3.3, 7.0, [59, 62, 66, 69], 47], // words pile up
+  [6.8, 9.8, [55, 59, 62, 66], 43], [9.6, 14.4, [57, 61, 64, 71], 45], // reveal → demo
+  [14.2, 17.8, [62, 66, 69, 74], 50], [17.6, 23.1, [59, 62, 66, 73], 47], [22.9, 25.6, [55, 59, 62, 69], 43], [25.4, 30.0, [62, 66, 69, 76, 78], 50],
 ];
 for (const [t0, t1, notes, root] of PADS) { add(music, t0, pad(notes.map(mtof), t1 - t0), 0.05, 0); add(music, t0, softBass(mtof(root - 12), t1 - t0), 0.05, 0); }
-// event-tied piano notes. The three-note "stamp" figure (74-78-81) returns only when the one asset is stamped again
-// (5.3–6.4 s and 21.1–22.0 s): a musical echo of the lesson, not a loop. Swaps get out-of-key notes; the snap gets none.
+// event-tied piano notes (each once; the plate landing gets the brightest figure, the replay echoes it)
 const KEYS = [
-  [T.heroDrop[1], 78, 0.5], [T.repeat1, 81, 0.4], [T.repeat2, 83, 0.4], [T.repeat3, 86, 0.4],
-  [T.stamp.logo, 74, 0.4], [T.stamp.bag, 78, 0.4], [T.stamp.sign, 81, 0.4],
-  [T.recall[0] + 0.1, 83, 0.35], [T.recall[0] + 0.22, 86, 0.3], [T.assetNote, 76, 0.35], [T.link[0] + 0.3, 81, 0.35],
-  [T.swap.logo, 75, 0.3], [T.swap.bag, 72, 0.3], [T.swap.sign, 70, 0.3],
-  [T.pick[1], 74, 0.4], [T.restamp.logo, 74, 0.4], [T.restamp.bag, 78, 0.4], [T.restamp.sign, 81, 0.4],
-  [T.testLines[0] + 0.1, 78, 0.3], [T.testLines[0] + 0.25, 83, 0.28],
-  [T.tile[1], 74, 0.45], [T.tile[1] + 0.08, 78, 0.4], [T.tile[1] + 0.16, 81, 0.4], [T.tile[1] + 0.24, 86, 0.4], [29.0, 81, 0.3], [29.1, 86, 0.25],
+  [T.adjDrop[0][1], 78, 0.45], [T.adjDrop[1][1], 74, 0.35], [T.adjDrop[2][1], 71, 0.35],
+  [T.hoodOff[1] - 0.1, 81, 0.4], [T.plateIn[1], 86, 0.3], [T.cook[1], 76, 0.3],
+  [T.drop[1], 81, 0.45], [T.drop[1] + 0.09, 85, 0.4], [T.drop[1] + 0.18, 88, 0.35],
+  [T.glow, 81, 0.3], [T.frame[0] + 0.1, 78, 0.3], [T.replayDrop[1], 81, 0.4], [T.replayDrop[1] + 0.09, 85, 0.35],
+  [T.realNote, 83, 0.35], [T.tile[1], 74, 0.45], [T.tile[1] + 0.08, 78, 0.4], [T.tile[1] + 0.16, 81, 0.4], [T.tile[1] + 0.24, 86, 0.4], [29.0, 81, 0.3], [29.1, 86, 0.25],
 ];
 for (const [t, m, v] of KEYS) add(music, t, piano(mtof(m), 2.4, v), 0.11, ((m % 5) - 2) * 0.12);
 
@@ -132,6 +129,15 @@ function synth(c) {
     case "peel": return sweep(c.dur, 2600, 5200, 2.4, (u) => Math.min(1, u * 4) * (1 - u) ** 0.5);
     case "zip": return sweep(c.dur, 900, 3400, 3.0, (u) => 0.4 + 0.6 * Math.sin(Math.PI * u));
     case "snap": return mixInto(mixInto(click(2200, 300, 0.04), knock(900, 60, 0.08), 0.5), noiseBurst(0.06, 3200, 1.2, 70), 0.4);
+    case "hollow": return mixInto(knock(260, 14, 0.35), knock(410, 18, 0.25), 0.5, 0.02);
+    case "clatter": { const o = buf(0.6); [[0, 1], [0.09, 0.7], [0.16, 0.5], [0.24, 0.3]].forEach(([dt, g]) => mixInto(o, mixInto(knock(240 + dt * 300, 30, 0.15), click(2600, 600, 0.02), 0.4), g, dt)); return o; }
+    case "clink": return mixInto(metal(2900, 0.5, 10), metal(4100, 0.3, 14), 0.4, 0.01);
+    case "sizzle": { const o = buf(c.dur); for (let i = 0; i < o.length; i++) { const t = i / SR; o[i] = noise() * (0.6 + 0.4 * Math.sin(2 * Math.PI * 7.3 * t) ** 2) * Math.min(1, t / 0.15) * Math.min(1, (c.dur - t) / 0.4); } biquad(o, "hp", 3500); for (let k = 0; k < c.dur * 18; k++) mixInto(o, click(4500, 1200, 0.006), 0.25 * rnd(), rnd() * c.dur); return o; }
+    case "plop": return mixInto(knock(140, 24, 0.22), noiseBurst(0.06, 600, 0.8, 50), 0.5);
+    case "clank": return mixInto(knock(180, 22, 0.25), metal(1600, 0.35, 12), 0.3, 0.005);
+    case "shutter": return mixInto(mixInto(click(3000, 900, 0.015), click(2200, 700, 0.02), 0.8, 0.06), noiseBurst(0.05, 1800, 1.0, 60), 0.3);
+    case "beep": return glide(0.12, 1760, 1760, { att: 0.005, rel: 0.04 }).map((v) => v * 0.6);
+    case "flap": return mixInto(knock(120, 16, 0.3), noiseBurst(0.12, 900, 0.7, 25), 0.7);
     case "tileLand": return mixInto(mixInto(knock(92, 20, 0.4), noiseBurst(0.06, 700, 0.9, 60), 0.6), click(3000, 800, 0.012), 0.3);
   }
   throw new Error("unknown sfx " + c.type);
@@ -171,7 +177,7 @@ const duck = new Float32Array(N);
 const [mL, mR] = reverb(music[0], music[1], 0.25), [sL, sR] = reverb(sfx[0], sfx[1], 0.1);
 const out = bus();
 for (let i = 0; i < N; i++) {
-  const md = 1 - 0.68 * duck[i], sd = 1 - 0.37 * duck[i], fo = Math.min(1, (N - i) / (0.6 * SR)), v = voice[i] * 1.4;
+  const md = 1 - 0.68 * duck[i], sd = 1 - 0.37 * duck[i], fo = Math.min(1, (N - i) / (0.6 * SR)), v = voice[i] * 0.82; // Hindi stem is -16.3 LUFS vs the accepted English -20.9: 1.4 x 10^(-4.6/20) keeps the accepted voice/music/foley ratios
   out[0][i] = (mL[i] * md * 0.8 + sL[i] * sd + v) * fo;
   out[1][i] = (mR[i] * md * 0.8 + sR[i] * sd + v) * fo;
 }
