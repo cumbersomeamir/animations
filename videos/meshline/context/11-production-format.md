@@ -97,3 +97,9 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - Teach an everyday visual mechanism rather than a jargon lecture. Show waiting, handoff and later arrival with a clock or timeline.
 
 | 03 | 2026-11-03 | How a message can travel without a complete connection (store-and-forward) | `production/30s/2026-11-03/meshline-30s-store-forward-01.mp4` |
+| 04 | 2026-11-03-round-02 | Why nearby phones can talk directly while a far-away friend needs a route (Bluetooth direct radio vs internet routing) | `production/30s/2026-11-03-round-02/meshline-30s-round02-01.mp4` |
+
+## User feedback 2026-11-03, round 02 (specific corrections only)
+- The CTA may read "Download Meshline for offline communication." It is supported by the listing (free, InStock on Google Play; "keeps moving, even when the internet does not"). It must never imply a radio, a range, or unlimited or guaranteed connectivity.
+- State finite radio reach in the relevant sentence only. No long warnings or repeated disclaimers, and the single bottom note stays.
+- Source links belong in the repo and publishing copy, never in the video.

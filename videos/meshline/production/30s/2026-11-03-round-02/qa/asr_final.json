@@ -1,0 +1,42 @@
+{
+ "reference": "Why can phones in one room talk directly, but not to a friend in another city? Nearby, Bluetooth radios can link devices directly, without the internet. But that radio reach is limited by distance, walls and interference. A friend in another city is far beyond that range. Their messages need a route across the internet, hopping between routers. Close by: a direct link. Far away: a network route. Download Meshline for offline communication.",
+ "asr": "Why can phones in one room talk directly, but not to a friend in another city? Nearby, Bluetooth radios can link devices directly without the internet. But that radio reach is limited by distance, walls and interference. A friend in another city is far beyond that range. Their messages need a route across the internet, hopping between routers. Close by a direct link, far away a network route. Download Meshline for offline communication.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   4.56,
+   "Why can phones in one room talk directly, but not to a friend in another city?"
+  ],
+  [
+   5.2,
+   9.62,
+   "Nearby, Bluetooth radios can link devices directly without the internet."
+  ],
+  [
+   10.44,
+   14.12,
+   "But that radio reach is limited by distance, walls and interference."
+  ],
+  [
+   15.14,
+   17.66,
+   "A friend in another city is far beyond that range."
+  ],
+  [
+   18.5,
+   22.06,
+   "Their messages need a route across the internet, hopping between routers."
+  ],
+  [
+   23.08,
+   26.12,
+   "Close by a direct link, far away a network route."
+  ],
+  [
+   26.12,
+   29.0,
+   "Download Meshline for offline communication."
+  ]
+ ]
+}

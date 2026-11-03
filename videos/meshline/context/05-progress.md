@@ -28,3 +28,6 @@
 
 ## Next
 - 30s is delivered. The 15s text-message style test is tracked separately in `07-test-progress.md`.
+
+## Production round 2026-11-03-round-02 (direct radio vs network route)
+- Done. Output `production/30s/2026-11-03-round-02/meshline-30s-round02-01.mp4`, sha256 `365aa20e…f64c`. Details, sources, QA and next step are in `15-production-30s-round02-01.md`.

@@ -57,3 +57,6 @@
 
 ## Production 2026-11-03 store-and-forward: complete
 - See `14-production-30s-store-forward-01.md`; output sha256 `9ed0380683c235e840ee61e025a0444fe7b60d3cdc8b82ca43abe0a5a35e05a5`. Style recipe re-confirmed in `11-production-format.md`.
+
+## Production 2026-11-03 round 02 (direct radio vs network route): complete
+- See `15-production-30s-round02-01.md`; output sha256 `365aa20ed90fa09179b06c15957f16873a613322014cd3ce98de4674b950f64c`. The episode log and the CTA feedback are recorded in `11-production-format.md`.

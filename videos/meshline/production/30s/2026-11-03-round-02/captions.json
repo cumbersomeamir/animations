@@ -1,0 +1,105 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 2.86,
+  "l": [
+   "Why can phones in one room",
+   "talk directly,"
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 2.9,
+  "b": 5.167,
+  "l": [
+   "but not to a friend",
+   "in another city?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 5.24,
+  "b": 8.42,
+  "l": [
+   "Nearby, Bluetooth radios",
+   "can link devices directly,"
+  ]
+ },
+ {
+  "id": "l2b",
+  "a": 8.46,
+  "b": 10.308,
+  "l": [
+   "without the internet"
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 10.38,
+  "b": 13.0,
+  "l": [
+   "But that radio reach",
+   "is limited by distance,"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 13.04,
+  "b": 15.03,
+  "l": [
+   "walls and interference"
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 15.08,
+  "b": 18.324,
+  "l": [
+   "A friend in another city",
+   "is far beyond that range"
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 18.39,
+  "b": 21.19,
+  "l": [
+   "Their messages need a route",
+   "across the internet,"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 21.23,
+  "b": 22.85,
+  "l": [
+   "hopping between routers"
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 22.92,
+  "b": 24.56,
+  "l": [
+   "Close by: a direct link."
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 24.6,
+  "b": 26.725,
+  "l": [
+   "Far away: a network route."
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.83,
+  "b": 29.768,
+  "l": [
+   "Download Meshline",
+   "for offline communication"
+  ]
+ }
+]

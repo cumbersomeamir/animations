@@ -1,0 +1,381 @@
+{
+ "l1": [
+  {
+   "w": "Why",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "can",
+   "start": 0.16,
+   "end": 0.34
+  },
+  {
+   "w": "phones",
+   "start": 0.34,
+   "end": 0.64
+  },
+  {
+   "w": "in",
+   "start": 0.64,
+   "end": 1.04
+  },
+  {
+   "w": "one",
+   "start": 1.04,
+   "end": 1.2
+  },
+  {
+   "w": "room",
+   "start": 1.2,
+   "end": 1.44
+  },
+  {
+   "w": "talk",
+   "start": 1.44,
+   "end": 1.72
+  },
+  {
+   "w": "directly,",
+   "start": 1.72,
+   "end": 2.08
+  },
+  {
+   "w": "but",
+   "start": 2.7,
+   "end": 2.86
+  },
+  {
+   "w": "not",
+   "start": 2.86,
+   "end": 3.04
+  },
+  {
+   "w": "to",
+   "start": 3.04,
+   "end": 3.24
+  },
+  {
+   "w": "a",
+   "start": 3.24,
+   "end": 3.36
+  },
+  {
+   "w": "friend",
+   "start": 3.36,
+   "end": 3.62
+  },
+  {
+   "w": "in",
+   "start": 3.62,
+   "end": 3.8
+  },
+  {
+   "w": "another",
+   "start": 3.8,
+   "end": 4.0
+  },
+  {
+   "w": "city?",
+   "start": 4.0,
+   "end": 4.32
+  }
+ ],
+ "l2": [
+  {
+   "w": "Nearby,",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "Bluetooth",
+   "start": 0.7,
+   "end": 0.94
+  },
+  {
+   "w": "radios",
+   "start": 0.94,
+   "end": 1.46
+  },
+  {
+   "w": "can",
+   "start": 1.46,
+   "end": 1.92
+  },
+  {
+   "w": "link",
+   "start": 1.92,
+   "end": 2.1
+  },
+  {
+   "w": "devices",
+   "start": 2.1,
+   "end": 2.52
+  },
+  {
+   "w": "directly",
+   "start": 2.52,
+   "end": 3.22
+  },
+  {
+   "w": "without",
+   "start": 3.22,
+   "end": 3.84
+  },
+  {
+   "w": "the",
+   "start": 3.84,
+   "end": 4.08
+  },
+  {
+   "w": "internet.",
+   "start": 4.08,
+   "end": 4.34
+  }
+ ],
+ "l3": [
+  {
+   "w": "But",
+   "start": 0.0,
+   "end": 0.06
+  },
+  {
+   "w": "that",
+   "start": 0.06,
+   "end": 0.22
+  },
+  {
+   "w": "radio",
+   "start": 0.22,
+   "end": 0.62
+  },
+  {
+   "w": "reach",
+   "start": 0.62,
+   "end": 0.94
+  },
+  {
+   "w": "is",
+   "start": 0.94,
+   "end": 1.22
+  },
+  {
+   "w": "limited",
+   "start": 1.22,
+   "end": 1.44
+  },
+  {
+   "w": "by",
+   "start": 1.44,
+   "end": 1.78
+  },
+  {
+   "w": "distance,",
+   "start": 1.78,
+   "end": 2.08
+  },
+  {
+   "w": "walls",
+   "start": 2.66,
+   "end": 3.02
+  },
+  {
+   "w": "and",
+   "start": 3.02,
+   "end": 3.42
+  },
+  {
+   "w": "interference.",
+   "start": 3.42,
+   "end": 3.8
+  }
+ ],
+ "l4": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.04
+  },
+  {
+   "w": "friend",
+   "start": 0.04,
+   "end": 0.28
+  },
+  {
+   "w": "in",
+   "start": 0.28,
+   "end": 0.42
+  },
+  {
+   "w": "another",
+   "start": 0.42,
+   "end": 0.64
+  },
+  {
+   "w": "city",
+   "start": 0.64,
+   "end": 1.0
+  },
+  {
+   "w": "is",
+   "start": 1.0,
+   "end": 1.4
+  },
+  {
+   "w": "far",
+   "start": 1.4,
+   "end": 1.66
+  },
+  {
+   "w": "beyond",
+   "start": 1.66,
+   "end": 2.08
+  },
+  {
+   "w": "that",
+   "start": 2.08,
+   "end": 2.26
+  },
+  {
+   "w": "range.",
+   "start": 2.26,
+   "end": 2.54
+  }
+ ],
+ "l5": [
+  {
+   "w": "Their",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "messages",
+   "start": 0.08,
+   "end": 0.44
+  },
+  {
+   "w": "need",
+   "start": 0.44,
+   "end": 0.88
+  },
+  {
+   "w": "a",
+   "start": 0.88,
+   "end": 1.0
+  },
+  {
+   "w": "route",
+   "start": 1.0,
+   "end": 1.22
+  },
+  {
+   "w": "across",
+   "start": 1.22,
+   "end": 1.58
+  },
+  {
+   "w": "the",
+   "start": 1.58,
+   "end": 1.84
+  },
+  {
+   "w": "internet,",
+   "start": 1.84,
+   "end": 2.14
+  },
+  {
+   "w": "hopping",
+   "start": 2.84,
+   "end": 2.94
+  },
+  {
+   "w": "between",
+   "start": 2.94,
+   "end": 3.34
+  },
+  {
+   "w": "routers.",
+   "start": 3.34,
+   "end": 3.64
+  }
+ ],
+ "l6": [
+  {
+   "w": "Close",
+   "start": 0.0,
+   "end": 0.2
+  },
+  {
+   "w": "by",
+   "start": 0.2,
+   "end": 0.44
+  },
+  {
+   "w": "a",
+   "start": 0.44,
+   "end": 0.7
+  },
+  {
+   "w": "direct",
+   "start": 0.7,
+   "end": 0.88
+  },
+  {
+   "w": "link,",
+   "start": 0.88,
+   "end": 1.26
+  },
+  {
+   "w": "far",
+   "start": 1.68,
+   "end": 1.9
+  },
+  {
+   "w": "away",
+   "start": 1.9,
+   "end": 2.22
+  },
+  {
+   "w": "a",
+   "start": 2.22,
+   "end": 2.54
+  },
+  {
+   "w": "network",
+   "start": 2.54,
+   "end": 2.74
+  },
+  {
+   "w": "route.",
+   "start": 2.74,
+   "end": 3.16
+  }
+ ],
+ "l7": [
+  {
+   "w": "Download",
+   "start": 0.0,
+   "end": 0.3
+  },
+  {
+   "w": "Meshline",
+   "start": 0.3,
+   "end": 0.88
+  },
+  {
+   "w": "for",
+   "start": 0.88,
+   "end": 1.14
+  },
+  {
+   "w": "offline",
+   "start": 1.14,
+   "end": 1.38
+  },
+  {
+   "w": "communication.",
+   "start": 1.38,
+   "end": 2.02
+  }
+ ]
+}

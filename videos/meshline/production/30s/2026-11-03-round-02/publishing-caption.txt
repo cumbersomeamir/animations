@@ -1,0 +1,17 @@
+Why can phones in one room talk directly, but not to a friend in another city? 📡
+
+Nearby, Bluetooth radios can link devices directly, without the internet. But radio reach is limited by distance, walls and interference, so a friend in another city is far beyond it. Their messages need a route across the internet, hopping between routers.
+
+Close by: a direct link. Far away: a network route.
+
+Illustrative animation of general networking principles; not to scale and not a product feature.
+
+Download Meshline for offline communication.
+
+Sources:
+• Bluetooth SIG, Understanding Bluetooth range: https://www.bluetooth.com/learn-about-bluetooth/key-attributes/range/
+• Bluetooth SIG, Bluetooth technology overview: https://www.bluetooth.com/learn-about-bluetooth/tech-overview/
+• IETF RFC 791, Internet Protocol: https://www.rfc-editor.org/rfc/rfc791
+• IETF RFC 1812, Requirements for IP Version 4 Routers: https://www.rfc-editor.org/rfc/rfc1812
+
+#bluetooth #networking #offlinecommunication #wireless

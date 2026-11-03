@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline voice: local Kokoro-82M ONNX (Apache-2.0). Not Piper; no imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Why can phones in one room talk directly, but not to a friend in another city?"
+    },
+    {
+      "id": "l2",
+      "start": 5.29,
+      "text": "Nearby, Bluetooth radios can link devices directly, without the internet."
+    },
+    {
+      "id": "l3",
+      "start": 10.43,
+      "text": "But that radio reach is limited by distance, walls and interference."
+    },
+    {
+      "id": "l4",
+      "start": 15.13,
+      "text": "A friend in another city is far beyond that range."
+    },
+    {
+      "id": "l5",
+      "start": 18.44,
+      "text": "Their messages need a route across the internet, hopping between routers."
+    },
+    {
+      "id": "l6",
+      "start": 22.97,
+      "text": "Close by: a direct link. Far away: a network route."
+    },
+    {
+      "id": "l7",
+      "start": 26.88,
+      "text": "Download Meshline for offline communication."
+    }
+  ]
+}
