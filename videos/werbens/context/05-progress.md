@@ -38,3 +38,5 @@
   ("The decoy effect", new "Satisfying Product Theatre" style; see context/11 "Update — feedback round" and context/14).
 - Round 02 (2026-11-03) delivered `production/30s/2026-11-03-round-02/werbens-30s-round02-01.mp4` ("One shape,
   everywhere"; context/16). Brand colours/logo corrected from official sources: context/15.
+- Hindi 03 (2026-11-03) delivered `production/30s/2026-11-03-hindi-03/werbens-30s-hindi03-01.mp4` (Hindi narration
+  via Kokoro hf_alpha + eSpeak NG hi; context/18). Colours/logo from app.werbens.com: context/17.
