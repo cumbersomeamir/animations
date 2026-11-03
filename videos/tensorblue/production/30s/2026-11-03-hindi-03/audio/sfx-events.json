@@ -1,0 +1,168 @@
+{
+ "sfx": [
+  {
+   "t": 3.396,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 4.242,
+   "type": "type"
+  },
+  {
+   "t": 4.588,
+   "type": "wipe"
+  },
+  {
+   "t": 9.072,
+   "type": "wipe"
+  },
+  {
+   "t": 12.433,
+   "type": "wipe"
+  },
+  {
+   "t": 15.601,
+   "type": "wipe"
+  },
+  {
+   "t": 20.283,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 4.888,
+   "type": "carve"
+  },
+  {
+   "t": 6.589,
+   "type": "blip"
+  },
+  {
+   "t": 8.041,
+   "type": "clack"
+  },
+  {
+   "t": 8.141,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 10.766,
+   "type": "slot"
+  },
+  {
+   "t": 11.634,
+   "type": "slide"
+  },
+  {
+   "t": 12.733,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.667,
+   "type": "blip"
+  },
+  {
+   "t": 14.987,
+   "type": "strike"
+  },
+  {
+   "t": 16.928,
+   "type": "carve"
+  },
+  {
+   "t": 17.744,
+   "type": "clack"
+  },
+  {
+   "t": 18.46,
+   "type": "match"
+  },
+  {
+   "t": 19.659,
+   "type": "slot"
+  },
+  {
+   "t": 19.759,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 20.633,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 21.617,
+   "type": "strike"
+  },
+  {
+   "t": 22.255,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 23.676,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 24.84,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.05,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.897,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "nahin1": 3.496,
+  "kaise": 4.322,
+  "device": 6.689,
+  "chaabi2": 8.241,
+  "banaate": 8.566,
+  "vault3": 10.39,
+  "lock3": 10.866,
+  "sync": 11.684,
+  "server": 12.853,
+  "lock4": 13.767,
+  "chaabi4": 15.087,
+  "daalte": 17.228,
+  "chaabi5": 17.844,
+  "banti": 18.46,
+  "vault5": 19.383,
+  "khulta": 19.809,
+  "bhoolne": 21.617,
+  "company": 22.405,
+  "lauta": 23.776,
+  "tb": 26.15,
+  "follow": 26.947,
+  "aasaan": 28.626,
+  "chime": 24.84,
+  "scenes": [
+   0,
+   4.838,
+   9.322,
+   12.683,
+   15.850999999999999,
+   20.533,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

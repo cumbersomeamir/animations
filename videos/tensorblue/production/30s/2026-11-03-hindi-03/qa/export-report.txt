@@ -1,0 +1,51 @@
+== ffprobe streams
+index=0
+codec_name=h264
+profile=High
+codec_type=video
+width=1080
+height=1920
+pix_fmt=yuv420p
+r_frame_rate=30/1
+avg_frame_rate=30/1
+duration=30.000000
+bit_rate=529963
+nb_frames=900
+index=1
+codec_name=aac
+profile=LC
+codec_type=audio
+sample_rate=48000
+channels=2
+channel_layout=stereo
+r_frame_rate=0/0
+avg_frame_rate=0/0
+duration=30.000000
+bit_rate=193001
+nb_frames=1408
+== container
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+duration=30.000000
+size=2743937
+bit_rate=731716
+== counted video frames
+nb_read_frames=900
+== full decode errors (empty = none)
+== decode exit ok
+== loudness (ebur128, exported AAC)
+[Parsed_ebur128_0 @ 0x55883fa2d640] Summary:
+
+  Integrated loudness:
+    I:         -15.0 LUFS
+    Threshold: -25.2 LUFS
+
+  Loudness range:
+    LRA:         1.9 LU
+    Threshold: -35.2 LUFS
+    LRA low:   -16.2 LUFS
+    LRA high:  -14.4 LUFS
+
+  True peak:
+    Peak:       -1.8 dBFS
+== sha256
+ff8af8525f3a2cdaa3fdaf9a5796adacde41636da8538f2c3babb4acc552bed4  /home/user/animations/videos/tensorblue/production/30s/2026-11-03-hindi-03/tensorblue-30s-hindi03-01.mp4

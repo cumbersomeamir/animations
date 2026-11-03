@@ -23,6 +23,8 @@ Practical system design · useful new GitHub tools · research explained through
 ### Feedback log (append-only)
 - **2026-11-03 round 02:** "Current style is fine." Keep the Blue Receipt Theatre grammar, official palette/logo, accepted caption treatment, voice, pacing and the accepted CTA ("Follow Tensorblue for software explained simply."). Use simpler content and readable everyday examples (e.g. one photo, one logo), not abstract moving-line research diagrams. Captions may also use the tighter accepted band y 350–470. Update context only with requested corrections plus the episode record.
 
+- **2026-11-03 Hindi batch 03:** latest correction — narration and captions in natural **Hindi (Devanagari)** for this batch. Done with the same model's Hindi pipeline (Kokoro-82M `lang_code='h'`, official voices `hf_alpha`×0.7 + `hm_omega`×0.3, speed ~1.12), never the English voices; Devanagari set in **Mukta** (OFL) with zero letter-spacing; Hindi ASR with faster-whisper `medium`, `language='hi'`, sentence by sentence. Brand wordmark "Tensorblue" stays Latin; CTA spoken/captioned as "टेंसरब्लू फ़ॉलो करें, सॉफ़्टवेयर आसान भाषा में।" (TTS spelling "टेन्सर ब्लू"). Details: `16-production-30s-hindi03-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/
