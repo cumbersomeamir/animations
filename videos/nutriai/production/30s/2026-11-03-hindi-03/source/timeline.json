@@ -1,0 +1,43 @@
+{
+ "_doc": "CalMeter Hindi 30 s #03 (2026-11-03): 'सौ ग्राम संतरे में असल में क्या है?' (orange, 100 g raw edible segments). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single Hindi ASR timing pass (qa/asr-takes.txt, faster-whisper medium, language hi).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.25}, {"id": "T1", "at": 3.05}, {"id": "T2", "at": 10.60}, {"id": "T3", "at": 14.93}, {"id": "T4", "at": 19.30}, {"id": "T5", "at": 26.00}],
+ "captions": [
+  {"in": 6, "out": 80, "lines": [["100 ग्राम संतरे में", 8], ["असल में क्या है?", 49]]},
+  {"in": 88, "out": 138, "lines": [["छिलका और बीज", 91], ["हटाकर:", 121]]},
+  {"in": 142, "out": 306, "lines": [["47 कैलोरी", 142], [" · 2.4 ग्राम फ़ाइबर", 184, 0], ["53 मि.ग्रा. विटामिन सी", 245]]},
+  {"in": 314, "out": 436, "lines": [["87% पानी,", 318], ["और पानी में कैलोरी नहीं", 366]]},
+  {"in": 444, "out": 568, "lines": [["फ़ाइबर पाचन में मददगार,", 447], ["विटामिन सी घाव भरने में", 511]]},
+  {"in": 574, "out": 768, "lines": [["1 मध्यम छिला संतरा", 579], [" ≈ 131 ग्राम", 650, 0], ["≈ 70 मि.ग्रा. विटामिन सी", 712]]},
+  {"in": 776, "out": 899, "lines": [["CalMeter के साथ अपने खाने", 780], ["और पोषण को ट्रैक करें", 842]]}
+ ],
+ "events": {
+  "outline": 0, "leaf": 10, "washWhole": 18, "title": 20, "cut": 58, "burnish": 64, "section": 66, "washSection": 80,
+  "peelOff": 92, "peelNote": 100, "seedsOut": 112, "seedNote": 128, "segNote": 136, "notesOut": 316,
+  "kcal": 142, "legend": 158, "fibre": 184, "vitc": 245, "roundelsOut": 312,
+  "bar": 318, "water": 320, "waterLabel": 349, "zero": 399, "barOut": 440,
+  "fibre2": 446, "digest": 452, "vitc2": 507, "heal": 536, "roundels2Out": 566,
+  "balance": 572, "fruitDrop": 600, "weight": 646, "label70": 712, "balanceOut": 768,
+  "cta": 772, "ctaWord": 782
+ },
+ "sfx": [
+  {"ev": "outline", "type": "pencil", "dur": 1.6, "gain": -26},
+  {"ev": "cut", "type": "slice", "gain": -13},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "section", "type": "pencil", "dur": 1.2, "gain": -27},
+  {"ev": "washSection", "type": "juice", "gain": -22},
+  {"ev": "peelOff", "type": "tear", "gain": -20},
+  {"ev": "seedsOut", "type": "patter", "dur": 0.9, "gain": -24},
+  {"ev": "kcal", "type": "tick", "gain": -24},
+  {"ev": "fibre", "type": "tick", "gain": -24},
+  {"ev": "vitc", "type": "tick", "gain": -24},
+  {"ev": "roundelsOut", "type": "page", "gain": -21},
+  {"ev": "water", "type": "juice", "gain": -23},
+  {"ev": "barOut", "type": "page", "gain": -22},
+  {"ev": "roundels2Out", "type": "page", "gain": -21},
+  {"ev": "fruitDrop", "type": "thud", "gain": -19},
+  {"ev": "weight", "type": "clink", "gain": -25},
+  {"ev": "balanceOut", "type": "page", "gain": -21},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

@@ -1,6 +1,6 @@
 # 11 — Production format (durable; NutriAI)
 
-Episodes: #01 mango (`12-production-30s-01.md`), #02 guava (`13-production-30s-02.md`), #03 pomegranate (`14-production-30s-pomegranate.md`, 2026-11-03), round-02 #01 papaya (`15-production-30s-round02-papaya.md`, 2026-11-03).
+Episodes: #01 mango (`12-production-30s-01.md`), #02 guava (`13-production-30s-02.md`), #03 pomegranate (`14-production-30s-pomegranate.md`, 2026-11-03), round-02 #01 papaya (`15-production-30s-round02-papaya.md`, 2026-11-03), Hindi #03 orange (`16-production-30s-hindi03-orange.md`, 2026-11-03; Hindi narration/captions, Kokoro Hindi voice hf_beta, Noto Sans Devanagari).
 
 Public app name from 2026-11-03: **CalMeter** (user request). Spoken end line "Track your food and nutrition with CalMeter." (Kokoro phoneme override `kˈælmˌiːtɚ` for the brand word). Style, typography, audio and caption rules below are unchanged.
 

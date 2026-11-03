@@ -1,0 +1,25 @@
+Bounds below are measured from rendered ink pixels (Devanagari vowel signs included).
+caption runs: 698; outside x 90-990 / y 340-520: 0; ink x 175-909, y 361-501
+max caption lines on screen at once: 2
+line 1 ink y 361-422; line 2 ink y 437-501 (no overlap: True)
+caption blocks overlapping in time: []
+any text ink above y 300: 0
+plate/other runs: 3337; above y 480: 0; off-frame: 0; right of x 950: 0; lowest plate text y 1537
+
+Narration vs caption line sync (Hindi ASR word start on the final MP4 vs caption line appearance):
+  ग्राम      spoken   0.54s  caption   0.27s  offset -0.27s
+  असल        spoken   1.58s  caption   1.63s  offset +0.05s
+  चिल्का     spoken   3.08s  caption   3.03s  offset -0.05s
+  हटा        spoken   4.02s  caption   4.03s  offset +0.01s
+  47         spoken   4.84s  caption   4.73s  offset -0.11s
+  2          spoken   6.24s  caption   6.13s  offset -0.11s
+  53         spoken   8.24s  caption   8.17s  offset -0.07s
+  87         spoken  10.64s  caption  10.60s  offset -0.04s
+  और         spoken  12.30s  caption  12.20s  offset -0.10s
+  फाइबर      spoken  15.02s  caption  14.90s  offset -0.12s
+  विटामिन    spoken  17.08s  caption  17.03s  offset -0.05s
+  1          spoken  19.20s  caption  19.30s  offset +0.10s
+  131        spoken  21.70s  caption  21.67s  offset -0.03s
+  70         spoken  23.66s  caption  23.73s  offset +0.07s
+  कैल        spoken  26.04s  caption  26.00s  offset -0.04s
+  और         spoken  28.04s  caption  28.07s  offset +0.03s

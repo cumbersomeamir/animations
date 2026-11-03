@@ -49,3 +49,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 8, from `production/30s/2026-11-03-round-02/source/`, output `../nutriai-30s-round02-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.1 LUFS, −1.5 dBTP; captions 0 outside x 90–990 / y 350–470; freeze defect fixed (0 events). See `production/30s/2026-11-03-round-02/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 10. Hindi #03, orange (2026-11-03; CalMeter; Hindi narration and captions)
+- Pre-check: no active generation. Proposed guava topic was already covered by #02, so orange (same genre and nutrients) was used; reason recorded in `context/16-production-30s-hindi03-orange.md`.
+- Facts: USDA FDC 169097 "Oranges, raw, all commercial varieties" per 100 g: 47 kcal, 2.4 g fibre, 53.2 mg vitamin C, 86.8 g water; refuse "Peel and seeds" 27 %; portion fruit (2-5/8" dia) = 131 g edible; MedlinePlus fibre / vitamin C (wound healing).
+- Decisions: Kokoro's own Hindi voice hf_beta (lang hi, speed 1.0), not the English blend; Noto Sans Devanagari (OFL) vendored in the episode; papaya renderer + mix reused with orange geometry.
+- Commands (from `production/30s/2026-11-03-hindi-03/source/`): `python audio/voice_kokoro_hi.py <onnx> <voices.bin> script.json audio/voice-takes` → `python audio/asr_hi.py medium audio/voice-takes/*.wav` → `node render.mjs` → `python audio/mix.py` → two-pass loudnorm → mux to `../nutriai-30s-hindi03-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number; sync ±0.3 s; freeze defect fixed. See `production/30s/2026-11-03-hindi-03/QA.md`.
+- Unresolved: Hindi intelligibility judged by ASR, not a native listener. Next step: none requested.

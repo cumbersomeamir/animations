@@ -1,0 +1,91 @@
+{
+ "fdcId": 169098,
+ "ndbNumber": 9206,
+ "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g edible portion",
+ "nutrients": [
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 8.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Vitamin C, total ascorbic acid",
+   "amount": 50.0,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 0.7,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Folate, total",
+   "amount": 30.0,
+   "unit": "µg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 10.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 45.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 88.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 200,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 188,
+   "unit": "kJ",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "measure": "fl oz",
+   "gramWeight": 31.0
+  },
+  {
+   "measure": "fruit yields",
+   "gramWeight": 86.0
+  },
+  {
+   "measure": "cup",
+   "gramWeight": 248.0
+  }
+ ]
+}

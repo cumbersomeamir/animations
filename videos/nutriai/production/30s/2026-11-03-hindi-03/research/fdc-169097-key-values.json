@@ -1,0 +1,95 @@
+{
+ "fdcId": 169097,
+ "ndbNumber": 9200,
+ "description": "Oranges, raw, all commercial varieties",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g edible portion",
+ "nutrients": [
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 9.35,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 181,
+   "unit": "mg",
+   "dataPoints": 180
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.12,
+   "unit": "g",
+   "dataPoints": 4
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 11.8,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 47.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 86.8,
+   "unit": "g",
+   "dataPoints": 88
+  },
+  {
+   "name": "Vitamin C, total ascorbic acid",
+   "amount": 53.2,
+   "unit": "mg",
+   "dataPoints": 145
+  },
+  {
+   "name": "Folate, total",
+   "amount": 30.0,
+   "unit": "µg",
+   "dataPoints": 154
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 2.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 0.94,
+   "unit": "g",
+   "dataPoints": 69
+  },
+  {
+   "name": "Energy",
+   "amount": 197,
+   "unit": "kJ",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "measure": "small (2-3/8\" dia)",
+   "gramWeight": 96.0
+  },
+  {
+   "measure": "large (3-1/16\" dia)",
+   "gramWeight": 184.0
+  },
+  {
+   "measure": "cup, sections",
+   "gramWeight": 180.0
+  },
+  {
+   "measure": "fruit (2-5/8\" dia)",
+   "gramWeight": 131.0
+  }
+ ]
+}
