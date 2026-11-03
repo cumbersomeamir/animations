@@ -140,3 +140,18 @@ CONTEXT=navy, OUTPUT=amber.
   Devanagari renders with real glyphs. CTA spoken + visible: "आइडियावर्स ऐप डाउनलोड कीजिए" with the icon chip.
 - Icon: re-fetched from Google Play on 2026-11-03 — unchanged, no replacement (03-assets.json "checks").
 - Episode: hindi03-01 "remove a background distraction from a photo" (2026-11-03-hindi-03, see context/17).
+
+## Experimental MEME format (2026-11-03 meme-01) — reusable recipe, separate from the channel's lesson format
+Use only when a meme episode is requested; the established lesson style above stays the default.
+- Performer/stage unchanged: DOCKET + newsroom, accepted renderer (copied src from hindi-03), Ideaverse palette + icon.
+- Structure (30 s): readable Hindi hook in 0–2 s → punchline at ~4 s with **freeze-frame** → escalation in 3 quick
+  beats (each one prop + one short caption) → second freeze-frame on DOCKET's **deadpan** (half-lidded eyes, no blink)
+  → payoff/confession → useful visual fix → result + "check it" → spoken + visible CTA (last ~6 s).
+- Freeze-frame: picture time holds while voice continues; zoom punch 1.18–1.3× toward a focal point (DOCKET's face
+  projected from 3D), slight rotation, saturation 0.55 / contrast 1.12, 0.12 s white flash, micro-shake, synthesized
+  boom + sting (no samples).
+- Meme captions: Noto Sans Devanagari / Space Grotesk 800, white with mint/amber keywords, thick black outline
+  (stroke = 0.2 × size), no pill; outBack pop; single lines centred in the band; still y 344–520, x 90–990, ≤ 2 lines.
+- Reaction vocabulary: double take (head snaps camera → prop → camera in 0.4 s), clipboard knocked from DOCKET's hand,
+  deadpan stare to camera. Original only — no celebrity likeness/voice, no stock or copyrighted reaction clips.
+- Mute test: every beat must read from captions + props alone.

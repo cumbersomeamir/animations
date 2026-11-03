@@ -1,34 +1,36 @@
 // cues.js — one timeline for picture, lip-sync and score (seconds). Hindi narration placements from the ASR-measured
-// clips (narration/words.json, faster-whisper medium, language hi); action hits are placed against those words.
+// clips (narration/words.json, faster-whisper medium, language hi); meme beats placed on those words.
 const CUES = {
   fps: 30, dur: 30,
   hits: {
-    // A · hook ("कचरे का डिब्बा" 2.27)
-    point: 2.2,
-    // B · select ("टैप" 6.67, "गोला बनाकर चुनें" 7.79–9.0)
-    tap: 6.62, circle0: 7.75, circle1: 8.85,
-    // C · AI fills ("फिर एआई" 9.35, "अनुमान" 9.99, "वहाँ क्या दिखता" 12.61, "भर देता है" 14.51)
-    lift: 9.55, fill0: 11.3, fill1: 14.7,
-    // D · check ("ज़ूम" 18.21, "किनारे" 18.87, "परछाइयाँ" 19.77, "जाँचें" 20.43)
-    edges: 18.85, shadowRing: 19.75, shadowFix: 20.45,
-    // E · free / paid ("सब्सक्रिप्शन नहीं लगता" 21.79–23.2, "फ़ोन" 24.57)
-    freeShow: 21.05, subOk: 22.7, devOk: 24.6,
+    // hook + punchline ("मोहल्ला बुला लिया!" 3.88–4.89): groceries rain into the cart, then freeze-frame
+    rain0: 2.85,
+    // escalation ("आटा" 6.42, "तेल" 8.14, "तरबूज़" 9.49) + clipboard knocked away
+    atta: 6.45, oil: [7.55, 7.75, 7.95, 8.15], mel: [9.05, 9.3, 9.5], clipHit: 9.72,
+    // freeze-frames: [start, end, focal x, focal y] (px) — punchline wide, then DOCKET's deadpan stare
+    freeze: [[4.4, 5.38, 620, 1040], [10.2, 10.98, -1, -1]],
+    // payoff ("गलती मेरी थी… मैंने बस लिखा था, राशन की लिस्ट" 11.05–14.36): the vague prompt + what it never said
+    vagueIns: 11.0, qs: [12.15, 12.6, 13.05, 13.5],
+    // fix ("दो लोग" 15.99, "तीन दिन" 16.49, "छह सौ रुपये" 17.33, "घर में चावल-दाल" 18.17)
+    empty0: 14.6, fixType: 15.85, chips: [15.99, 16.49, 17.33, 18.17], send2: 19.3, listRows: [19.6, 19.85, 20.1, 20.35], total: 20.7,
+    // result + check ("दाम खुद जाँचिए" 22.05–22.7)
+    modest0: 21.8, tags0: 22.0, check0: 22.5,
   },
   narration: [
-    { id: 'h1', t: 0.25 }, { id: 'h2', t: 3.55 }, { id: 'h3', t: 9.35 }, { id: 'h4', t: 15.65 }, { id: 'h5', t: 21.15 }, { id: 'h6', t: 26.3 },
+    { id: 'm1', t: 0.15 }, { id: 'm2', t: 2.6 }, { id: 'm3', t: 5.5 }, { id: 'm4', t: 7.1 }, { id: 'm5', t: 8.75 },
+    { id: 'm6', t: 11.05 }, { id: 'm7', t: 14.65 }, { id: 'm8', t: 19.55 }, { id: 'm9', t: 23.45 },
   ],
-  // Hindi captions (Devanagari), word-aligned with the narration; parts: [text, colour] 0 white · 1 mint · 2 amber
+  // meme captions (Hindi, Devanagari; "AI" kept as the user wrote it); parts: [text, colour] 0 white · 1 mint · 2 amber
   captions: [
-    { t0: 0.2, t1: 3.45, lines: [[['फ़ोटो अच्छी है, पर', 0]], [['पीछे ', 0], ['कचरे का डिब्बा?', 2]]] },
-    { t0: 3.5, t1: 6.2, lines: [[['गूगल फ़ोटोज़ के', 0]], [['मैजिक इरेज़र', 1], [' में', 0]]] },
-    { t0: 6.2, t1: 9.3, lines: [[['उस पर ', 0], ['टैप', 1], [' करें, या', 0]], [['गोला बनाकर ', 1], ['चुनें।', 0]]] },
-    { t0: 9.3, t1: 12.6, lines: [[['फिर ', 0], ['एआई अनुमान', 1], [' लगाता है', 0]], [['कि वह न होता तो', 0]]] },
-    { t0: 12.6, t1: 15.5, lines: [[['वहाँ क्या दिखता,', 0]], [['और जगह ', 0], ['भर देता है।', 1]]] },
-    { t0: 15.6, t1: 17.8, lines: [[['भरा हिस्सा', 0]], [['बस ', 0], ['अनुमान', 2], [' है,', 0]]] },
-    { t0: 17.8, t1: 21.0, lines: [[['इसलिए ', 0], ['ज़ूम', 1], [' करके', 0]], [['किनारे और परछाइयाँ जाँचें।', 0]]] },
-    { t0: 21.05, t1: 23.7, lines: [[['इसके लिए', 0]], [['सब्सक्रिप्शन नहीं लगता,', 1]]] },
-    { t0: 23.7, t1: 26.0, lines: [[['बस आपका फ़ोन', 0]], [['इसे चला सके।', 0]]] },
-    { t0: 26.1, t1: 30.2, lines: [[['@icon', 0], ['आइडियावर्स ऐप', 1]], [['डाउनलोड कीजिए', 0]]], cta: true },
+    { t0: 0.1, t1: 2.55, lines: [[['दो लोगों का राशन', 0]], [['माँगा था…', 0]]] },
+    { t0: 2.55, t1: 5.45, lines: [[['AI ने ', 0], ['पूरा मोहल्ला', 2]], [['बुला लिया!', 2]]] },
+    { t0: 5.45, t1: 7.05, lines: [[['50 किलो आटा…', 0]]] },
+    { t0: 7.05, t1: 8.7, lines: [[['और 20 लीटर तेल…', 0]]] },
+    { t0: 8.7, t1: 10.95, lines: [[['तीन-तीन ', 0], ['तरबूज़!', 2]]] },
+    { t0: 10.95, t1: 14.6, lines: [[['गलती मेरी थी…', 0]], [['मैंने बस लिखा था, “राशन की लिस्ट”', 0]]] },
+    { t0: 14.6, t1: 19.45, lines: [[['अब साफ़ लिखिए: ', 0], ['2 लोग, 3 दिन,', 1]], [['₹600, घर में चावल-दाल', 1]]] },
+    { t0: 19.45, t1: 23.4, lines: [[['लिस्ट छोटी और काम की बनी,', 0]], [['फिर भी ', 0], ['दाम खुद जाँचिए', 2]]] },
+    { t0: 23.4, t1: 30.2, lines: [[['ऐसे काम के AI तरीके सीखने के लिए', 0]], [['@icon', 0], ['आइडियावर्स ऐप', 1], [' डाउनलोड कीजिए', 0]]], cta: true },
   ],
 };
 export default CUES;

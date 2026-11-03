@@ -7,7 +7,7 @@ import sys, re, json, subprocess, wave, difflib, unicodedata, numpy as np
 from faster_whisper import WhisperModel
 mp4, lines_f, cues_f = sys.argv[1:4]
 LOAN = {'google': 'गूगल', 'photos': 'फोटोज', 'photo': 'फोटो', 'magic': 'मैजिक', 'eraser': 'इरेजर', 'ai': 'एआई', 'ideaverse': 'आइडियावर्स',
-        'idea': 'आइडिया', 'verse': 'वर्स', 'app': 'ऐप', 'download': 'डाउनलोड', 'subscription': 'सब्सक्रिप्शन', 'phone': 'फोन', 'zoom': 'जूम'}
+        'idea': 'आइडिया', 'verse': 'वर्स', 'app': 'ऐप', 'download': 'डाउनलोड', 'subscription': 'सब्सक्रिप्शन', 'phone': 'फोन', 'zoom': 'जूम', 'list': 'लिस्ट', '50': 'पचास', '20': 'बीस', '600': 'छह सौ', 'kg': 'किलो'}
 def norm(s):
     s = unicodedata.normalize('NFD', s.lower()).replace('़', '')          # drop nukta
     s = s.replace('ँ', 'ं')                                          # chandrabindu → anusvara
@@ -22,7 +22,7 @@ def cer(a, b):
     return d[len(b)] / max(1, len(a))
 lines = {l['id']: l['text'] for l in json.load(open(lines_f))}
 cues = open(cues_f).read()
-narr = [(m.group(1), float(m.group(2))) for m in re.finditer(r"\{ id: '(h\d)', t: ([\d.]+) \}", cues)]
+narr = [(m.group(1), float(m.group(2))) for m in re.finditer(r"\{ id: '(m\d)', t: ([\d.]+) \}", cues)]
 caps = []
 for m in re.finditer(r"\{ t0: ([\d.]+), t1: ([\d.]+), lines: (\[.*?\]\]\]),?", cues):
     caps.append((float(m.group(1)), float(m.group(2)), norm(' '.join(re.findall(r"\['([^']*)', \d\]", m.group(3))).replace('@icon', ''))))

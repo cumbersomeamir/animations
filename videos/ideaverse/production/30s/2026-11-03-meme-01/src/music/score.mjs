@@ -1,5 +1,5 @@
-// score.mjs — original synthesized music + action SFX + DOCKET's narration for production 30s hindi-03 #01
-// (engine from education pilot-01; no samples, no deps). node music/score.mjs -> ../../build/mix.wav (48 kHz, 30.000 s); hindi-03 #01 events
+// score.mjs — original synthesized music + action SFX + DOCKET's narration for production 30s meme-01
+// (engine from education pilot-01; no samples, no deps). node music/score.mjs -> ../../build/mix.wav (48 kHz, 30.000 s); meme-01 events
 // Every SFX time comes from ../stage/cues.js (the same file that drives the picture).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -60,26 +60,28 @@ PROG.forEach(([ch, t]) => pizz(t + 0.02, CHD[ch][0], 0.35));
 bell(MUS, 0.02, 74, 0.35, -0.2, 1.6);                                                                        // opening shimmer
 bell(MUS, 26.0, 77, 0.35, -0.2, 1.8); bell(MUS, 26.3, 81, 0.3, 0.2, 1.8); bell(MUS, 27.7, 84, 0.32, 0, 2.2);   // CTA lift
 
-// ---------------- action SFX (all from cues)
+// ---------------- action SFX (all from cues) — meme timing: original synthesized stings, no samples
 const whoosh = (t, len, v = 1) => noise(SFX, t, len, (lt) => v * 0.2 * Math.sin(Math.PI * Math.min(1, lt / len)) ** 1.5, (lt) => 500 + 2200 * (lt / len), { gain: 0.5, q: 1.4, pan: 0.3 });
 const tick2 = (t, f = 2400, v = 0.6) => add(SFX, t, 0.05, (lt) => v * 0.25 * Math.sin(TAU * f * lt) * Math.exp(-lt * 120), { gain: 0.6, pan: 0.2 });
-// A · hook: the dustbin gets noticed
-marimba(H.point, 62, 0.55, -0.2); marimba(H.point + 0.16, 61, 0.5, -0.2);                                   // "hmm"
-// B · select: tap, then the circle is drawn (soft rising brush)
-tick2(H.tap, 3000, 0.9); add(SFX, H.tap, 0.04, (lt) => 0.4 * Math.sin(TAU * 180 * lt) * Math.exp(-lt * 80), { gain: 0.6 });
-noise(SFX, H.circle0, H.circle1 - H.circle0, (lt) => 0.12 * Math.sin(Math.PI * Math.min(1, lt / (H.circle1 - H.circle0))), (lt) => 1800 + 1400 * lt, { gain: 0.45, q: 1.6, pan: 0.2 });
-bell(SFX, H.circle1, 79, 0.45, 0.2, 1.0);
-// C · the dustbin lifts out into the drawer, the gap, then patches land (rising pitches as the fill completes)
-whoosh(H.lift, 0.9, 0.7); slide(H.lift - 0.25, 0.2, 0.6); clunk(H.lift + 0.95, 0.6); slide(H.lift + 1.1, 0.25, 0.5); clunk(H.lift + 1.38, 0.5);
-glideTone(SFX, H.lift + 1.0, 0.6, 330, 260, 0.25);                                                            // the empty gap
-for (let i = 0; i < 24; i++) { const t = H.fill0 + (i / 24) * (H.fill1 - H.fill0) + 0.4; if (i % 3 === 0) marimba(t, [60, 62, 64, 65, 67, 69, 71, 72][i / 3], 0.32, (i % 2 ? 0.25 : -0.25)); else paper(t, 0.05, 0.22); }
-bell(SFX, H.fill1 + 0.05, 84, 0.45, 0.1, 1.2);
-// D · check: edge box, amber ring on the leftover shadow, re-select, fixed
-tick2(H.edges, 2200, 0.6); marimba(H.shadowRing, 62, 0.55); marimba(H.shadowRing + 0.18, 61, 0.5);
-noise(SFX, H.shadowFix - 0.4, 0.4, (lt) => 0.1 * Math.sin(Math.PI * lt / 0.4), () => 2600, { gain: 0.4, q: 1.6 }); bell(SFX, H.shadowFix + 0.1, 81, 0.5, 0.2, 1.0); bell(SFX, H.shadowFix + 0.2, 84, 0.4, 0.2, 1.0);
-// E · free checklist ticks
-tick2(H.subOk, 2600, 0.7); bell(SFX, H.subOk + 0.05, 79, 0.4, 0.2, 1.0); tick2(H.devOk, 2600, 0.7); bell(SFX, H.devOk + 0.05, 83, 0.4, 0.2, 1.0);
-thump(25.6, 0.25);
+const freezeHit = (t) => { add(SFX, t, 0.5, (lt) => 0.5 * Math.sin(TAU * (90 * lt + 40 * (1 - Math.exp(-lt * 20)))) * Math.exp(-lt * 7), { gain: 0.8 }); noise(SFX, t, 0.18, (lt) => 0.35 * Math.exp(-lt * 25), () => 5200, { type: 'hp', gain: 0.5 }); };
+const bonk = (t, f = 300, v = 1) => add(SFX, t, 0.25, (lt) => v * 0.45 * Math.sin(TAU * f * (1 - 0.35 * Math.min(1, lt * 6)) * lt) * Math.exp(-lt * 14), { gain: 0.7, pan: 0.15 });
+// hook: typing + send
+for (let i = 0; i < 9; i++) tick2(0.3 + i * 0.13, 2000 + (i % 3) * 250, 0.4); bell(SFX, 1.6, 84, 0.4, 0.2, 0.7);
+// groceries rain in (rising whooshes, soft thuds)
+for (let i = 0; i < 5; i++) { whoosh(H.rain0 + i * 0.28 - 0.4, 0.4, 0.45); thump(H.rain0 + i * 0.28, 0.35); }
+freezeHit(H.freeze[0][0]); marimba(H.freeze[0][0] + 0.15, 74, 0.5, -0.2); marimba(H.freeze[0][0] + 0.32, 70, 0.5, 0.2);   // punchline sting
+// escalation: 50 kg slam, four oil cans clink, three melon bonks
+whoosh(H.atta - 0.45, 0.45, 0.7); thwack(H.atta, 0.55);
+H.oil.forEach((t, i) => { clink(t, 0.6, 2400 + i * 260); thump(t, 0.2); });
+H.mel.forEach((t, i) => bonk(t, 260 - i * 30, 0.9)); bonk(H.clipHit, 420, 0.7); clunk(H.clipHit + 0.42, 0.9); paper(H.clipHit + 0.45, 0.2, 0.6);
+freezeHit(H.freeze[1][0]); glideTone(SFX, H.freeze[1][0] + 0.05, 0.6, 520, 260, 0.35);                                    // deadpan "womp"
+// payoff: the vague prompt + the four questions it never answered
+glideTone(SFX, H.vagueIns, 0.3, 300, 600, 0.25); H.qs.forEach((t, i) => marimba(t, [62, 64, 65, 67][i], 0.45, i % 2 ? 0.25 : -0.25));
+// fix: cart empties, constraint chips pop in, modest list, items land, prices checked
+whoosh(H.empty0, 0.7, 0.55); H.chips.forEach((t, i) => { tick2(t, 2600, 0.7); marimba(t + 0.02, [69, 72, 74, 77][i], 0.4, 0.15); });
+tick2(H.send2, 3000, 0.8); H.listRows.forEach((t) => paper(t, 0.06, 0.3)); bell(SFX, H.total, 81, 0.45, 0.1, 1.1);
+for (let i = 0; i < 4; i++) thump(H.modest0 + i * 0.18, 0.25); for (let i = 0; i < 4; i++) tick2(H.check0 + i * 0.16, 2800, 0.6); bell(SFX, H.check0 + 0.65, 84, 0.4, 0.2, 1.0);
+thump(23.4, 0.25);
 
 // ---------------- narration (DOCKET) + ducking
 function readWav(file) {
