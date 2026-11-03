@@ -48,5 +48,8 @@ No dates, numbers or currency are spoken. The phone screen shows "3 GB RAM · An
 - Wording changes for clarity: कूड़ेदान → कचरे का डिब्बा; "फ़ोन सपोर्टेड हो" → "आपका फ़ोन इसे चला सके"; "डाउनलोड करें" → "डाउनलोड कीजिए".
 - Known limit: Kokoro's Hindi voices are early (model card grade C); ASR sometimes softens aspirates (e.g. "दिकता").
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-03
+- Output: production/30s/2026-11-03-hindi-03/ideaverse-30s-hindi03-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS.
+- Hindi ASR on the final MP4: all lines recognised (CER 0.04–0.13), every word inside its caption; captions in spec;
+  Devanagari glyphs verified; top band text-free. Recommend a native-speaker listen (voice grade C, soft aspirates).
