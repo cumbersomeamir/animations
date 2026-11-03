@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-round02-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original crosshatch-ink canvas renderer for Tensorblue 30s round 02 episode 01 (raster vs vector).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

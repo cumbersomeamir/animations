@@ -1,0 +1,463 @@
+{
+ "model": "base.en",
+ "transcript": "Why does a photo get blurry when you zoom in? It's usually a raster image. A fixed grid of tiny colored squares called pixels. Zoom in and each pixel just gets bigger, so edges turn into steps. Many apps smooth those blocks, which looks blurry. A vector logo stores shapes as points and curves, so it's redrawn sharply at any size. Zooming can't add detail a photo never captured. Follow TensorBlue for software explained simply.",
+ "reference": "Why does a photo get blurry when you zoom in? It's usually a raster image: a fixed grid of tiny coloured squares called pixels. Zoom in, and each pixel just gets bigger, so edges turn into steps. Many apps smooth those blocks, which looks blurry. A vector logo stores shapes as points and curves, so it's redrawn sharply at any size. Zooming can't add detail a photo never captured. Follow Tensorblue for software explained simply.",
+ "wer": 0.0133,
+ "matched_words": 74,
+ "scripted_words": 75,
+ "mean_abs_start_drift_s": 0.112,
+ "max_abs_start_drift_s": 0.38,
+ "low_confidence_words": [],
+ "words": [
+  {
+   "w": "Why",
+   "t0": 0.0,
+   "t1": 0.42,
+   "p": 0.89
+  },
+  {
+   "w": "does",
+   "t0": 0.42,
+   "t1": 0.5,
+   "p": 0.993
+  },
+  {
+   "w": "a",
+   "t0": 0.5,
+   "t1": 0.58,
+   "p": 0.995
+  },
+  {
+   "w": "photo",
+   "t0": 0.58,
+   "t1": 0.8,
+   "p": 0.997
+  },
+  {
+   "w": "get",
+   "t0": 0.8,
+   "t1": 1.14,
+   "p": 0.993
+  },
+  {
+   "w": "blurry",
+   "t0": 1.14,
+   "t1": 1.32,
+   "p": 0.998
+  },
+  {
+   "w": "when",
+   "t0": 1.32,
+   "t1": 1.64,
+   "p": 0.997
+  },
+  {
+   "w": "you",
+   "t0": 1.64,
+   "t1": 1.72,
+   "p": 0.999
+  },
+  {
+   "w": "zoom",
+   "t0": 1.72,
+   "t1": 1.88,
+   "p": 0.987
+  },
+  {
+   "w": "in?",
+   "t0": 1.88,
+   "t1": 2.14,
+   "p": 0.996
+  },
+  {
+   "w": "It's",
+   "t0": 3.06,
+   "t1": 3.26,
+   "p": 0.988
+  },
+  {
+   "w": "usually",
+   "t0": 3.26,
+   "t1": 3.54,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "t0": 3.54,
+   "t1": 3.72,
+   "p": 0.999
+  },
+  {
+   "w": "raster",
+   "t0": 3.72,
+   "t1": 4.06,
+   "p": 0.979
+  },
+  {
+   "w": "image.",
+   "t0": 4.06,
+   "t1": 4.36,
+   "p": 0.998
+  },
+  {
+   "w": "A",
+   "t0": 5.08,
+   "t1": 5.1,
+   "p": 0.997
+  },
+  {
+   "w": "fixed",
+   "t0": 5.1,
+   "t1": 5.3,
+   "p": 0.995
+  },
+  {
+   "w": "grid",
+   "t0": 5.3,
+   "t1": 5.62,
+   "p": 0.992
+  },
+  {
+   "w": "of",
+   "t0": 5.62,
+   "t1": 5.78,
+   "p": 0.999
+  },
+  {
+   "w": "tiny",
+   "t0": 5.78,
+   "t1": 6.04,
+   "p": 0.991
+  },
+  {
+   "w": "colored",
+   "t0": 6.04,
+   "t1": 6.44,
+   "p": 0.74
+  },
+  {
+   "w": "squares",
+   "t0": 6.44,
+   "t1": 6.78,
+   "p": 0.995
+  },
+  {
+   "w": "called",
+   "t0": 6.78,
+   "t1": 7.24,
+   "p": 0.967
+  },
+  {
+   "w": "pixels.",
+   "t0": 7.24,
+   "t1": 7.52,
+   "p": 0.95
+  },
+  {
+   "w": "Zoom",
+   "t0": 8.68,
+   "t1": 8.68,
+   "p": 0.955
+  },
+  {
+   "w": "in",
+   "t0": 8.68,
+   "t1": 8.92,
+   "p": 0.708
+  },
+  {
+   "w": "and",
+   "t0": 8.92,
+   "t1": 9.18,
+   "p": 0.627
+  },
+  {
+   "w": "each",
+   "t0": 9.18,
+   "t1": 9.4,
+   "p": 0.999
+  },
+  {
+   "w": "pixel",
+   "t0": 9.4,
+   "t1": 9.74,
+   "p": 0.998
+  },
+  {
+   "w": "just",
+   "t0": 9.74,
+   "t1": 10.02,
+   "p": 0.991
+  },
+  {
+   "w": "gets",
+   "t0": 10.02,
+   "t1": 10.2,
+   "p": 0.996
+  },
+  {
+   "w": "bigger,",
+   "t0": 10.2,
+   "t1": 10.48,
+   "p": 0.999
+  },
+  {
+   "w": "so",
+   "t0": 10.98,
+   "t1": 11.12,
+   "p": 0.997
+  },
+  {
+   "w": "edges",
+   "t0": 11.12,
+   "t1": 11.36,
+   "p": 0.993
+  },
+  {
+   "w": "turn",
+   "t0": 11.36,
+   "t1": 11.7,
+   "p": 0.997
+  },
+  {
+   "w": "into",
+   "t0": 11.7,
+   "t1": 11.92,
+   "p": 0.995
+  },
+  {
+   "w": "steps.",
+   "t0": 11.92,
+   "t1": 12.24,
+   "p": 0.997
+  },
+  {
+   "w": "Many",
+   "t0": 13.04,
+   "t1": 13.04,
+   "p": 0.976
+  },
+  {
+   "w": "apps",
+   "t0": 13.04,
+   "t1": 13.24,
+   "p": 0.993
+  },
+  {
+   "w": "smooth",
+   "t0": 13.24,
+   "t1": 13.52,
+   "p": 0.875
+  },
+  {
+   "w": "those",
+   "t0": 13.52,
+   "t1": 13.78,
+   "p": 0.996
+  },
+  {
+   "w": "blocks,",
+   "t0": 13.78,
+   "t1": 14.08,
+   "p": 0.999
+  },
+  {
+   "w": "which",
+   "t0": 14.18,
+   "t1": 14.44,
+   "p": 0.999
+  },
+  {
+   "w": "looks",
+   "t0": 14.44,
+   "t1": 14.64,
+   "p": 0.873
+  },
+  {
+   "w": "blurry.",
+   "t0": 14.64,
+   "t1": 14.92,
+   "p": 0.999
+  },
+  {
+   "w": "A",
+   "t0": 15.68,
+   "t1": 15.68,
+   "p": 0.983
+  },
+  {
+   "w": "vector",
+   "t0": 15.68,
+   "t1": 15.86,
+   "p": 0.85
+  },
+  {
+   "w": "logo",
+   "t0": 15.86,
+   "t1": 16.22,
+   "p": 0.998
+  },
+  {
+   "w": "stores",
+   "t0": 16.22,
+   "t1": 16.64,
+   "p": 0.989
+  },
+  {
+   "w": "shapes",
+   "t0": 16.64,
+   "t1": 17.16,
+   "p": 0.997
+  },
+  {
+   "w": "as",
+   "t0": 17.16,
+   "t1": 17.42,
+   "p": 0.991
+  },
+  {
+   "w": "points",
+   "t0": 17.42,
+   "t1": 17.7,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "t0": 17.7,
+   "t1": 17.94,
+   "p": 0.99
+  },
+  {
+   "w": "curves,",
+   "t0": 17.94,
+   "t1": 18.2,
+   "p": 0.999
+  },
+  {
+   "w": "so",
+   "t0": 18.7,
+   "t1": 18.98,
+   "p": 0.994
+  },
+  {
+   "w": "it's",
+   "t0": 18.98,
+   "t1": 19.12,
+   "p": 0.994
+  },
+  {
+   "w": "redrawn",
+   "t0": 19.12,
+   "t1": 19.5,
+   "p": 0.896
+  },
+  {
+   "w": "sharply",
+   "t0": 19.5,
+   "t1": 20.0,
+   "p": 0.982
+  },
+  {
+   "w": "at",
+   "t0": 20.0,
+   "t1": 20.26,
+   "p": 0.996
+  },
+  {
+   "w": "any",
+   "t0": 20.26,
+   "t1": 20.36,
+   "p": 1.0
+  },
+  {
+   "w": "size.",
+   "t0": 20.36,
+   "t1": 20.76,
+   "p": 1.0
+  },
+  {
+   "w": "Zooming",
+   "t0": 21.5,
+   "t1": 21.64,
+   "p": 0.773
+  },
+  {
+   "w": "can't",
+   "t0": 21.64,
+   "t1": 22.02,
+   "p": 0.999
+  },
+  {
+   "w": "add",
+   "t0": 22.02,
+   "t1": 22.16,
+   "p": 0.954
+  },
+  {
+   "w": "detail",
+   "t0": 22.16,
+   "t1": 22.36,
+   "p": 0.984
+  },
+  {
+   "w": "a",
+   "t0": 22.36,
+   "t1": 22.64,
+   "p": 0.733
+  },
+  {
+   "w": "photo",
+   "t0": 22.64,
+   "t1": 22.86,
+   "p": 0.999
+  },
+  {
+   "w": "never",
+   "t0": 22.86,
+   "t1": 23.16,
+   "p": 0.995
+  },
+  {
+   "w": "captured.",
+   "t0": 23.16,
+   "t1": 23.46,
+   "p": 0.999
+  },
+  {
+   "w": "Follow",
+   "t0": 25.82,
+   "t1": 26.38,
+   "p": 0.837
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 26.38,
+   "t1": 26.94,
+   "p": 0.813
+  },
+  {
+   "w": "for",
+   "t0": 26.94,
+   "t1": 27.2,
+   "p": 0.987
+  },
+  {
+   "w": "software",
+   "t0": 27.2,
+   "t1": 27.38,
+   "p": 0.926
+  },
+  {
+   "w": "explained",
+   "t0": 27.38,
+   "t1": 28.0,
+   "p": 0.978
+  },
+  {
+   "w": "simply.",
+   "t0": 28.0,
+   "t1": 28.52,
+   "p": 0.974
+  }
+ ]
+}

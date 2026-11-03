@@ -1,0 +1,185 @@
+{
+ "sfx": [
+  {
+   "t": 0.85,
+   "type": "slide"
+  },
+  {
+   "t": 1.119,
+   "type": "type"
+  },
+  {
+   "t": 1.269,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 2.461,
+   "type": "wipe"
+  },
+  {
+   "t": 8.026,
+   "type": "wipe"
+  },
+  {
+   "t": 15.182,
+   "type": "wipe"
+  },
+  {
+   "t": 20.966,
+   "type": "wipe"
+  },
+  {
+   "t": 25.6,
+   "type": "wipe"
+  },
+  {
+   "t": 3.684,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 5.071,
+   "type": "carve"
+  },
+  {
+   "t": 6.484,
+   "type": "clack"
+  },
+  {
+   "t": 6.934,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 7.309,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 8.533,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 11.145,
+   "type": "type"
+  },
+  {
+   "t": 11.858,
+   "type": "carve"
+  },
+  {
+   "t": 13.288,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 14.713,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 15.482,
+   "type": "clack"
+  },
+  {
+   "t": 17.387,
+   "type": "carve"
+  },
+  {
+   "t": 17.937,
+   "type": "blip"
+  },
+  {
+   "t": 18.824,
+   "type": "slide"
+  },
+  {
+   "t": 19.549,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 20.199,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 20.199,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 21.266,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 21.433,
+   "type": "type"
+  },
+  {
+   "t": 22.158,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 24.001,
+   "type": "chime"
+  },
+  {
+   "t": 25.9,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.382,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.15,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "blurry1": 1.169,
+  "zoom1": 1.744,
+  "raster": 3.734,
+  "fixed": 5.121,
+  "grid": 5.459,
+  "squares": 6.584,
+  "pixels": 7.359,
+  "zoom3": 8.533,
+  "bigger": 10.308,
+  "edges": 11.195,
+  "steps": 12.008,
+  "smooth": 13.338,
+  "blocks": 13.863,
+  "blurry4": 14.763,
+  "vector": 15.674,
+  "logo": 16.049,
+  "points": 17.487,
+  "curves": 17.987,
+  "redrawn": 19.124,
+  "sharply": 19.649,
+  "any": 20.249,
+  "size": 20.487,
+  "zooming": 21.433,
+  "detail": 22.208,
+  "captured": 23.258,
+  "follow": 26.2,
+  "tb": 26.482,
+  "chime": 24.000999999999998,
+  "scenes": [
+   0,
+   2.711,
+   8.276,
+   15.432,
+   21.216,
+   25.849999999999998,
+   30.01
+  ]
+ }
+}

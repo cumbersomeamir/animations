@@ -1,0 +1,17 @@
+Why does a photo get blurry when you zoom in?
+
+Most photos are raster images: a fixed grid of tiny coloured squares called pixels. Zoom in and each pixel just gets bigger, so edges turn into steps; many apps smooth those blocks, which looks blurry. A vector logo (like an SVG) stores shapes as points and curves, so it is redrawn sharply at any size. Zooming can't add detail a photo never captured — which is why the vector format is the better choice for logos.
+
+The landscape "photo" in the video is a small image generated for the demo; the logo is Tensorblue's own SVG.
+
+Sources:
+- MDN, Raster image: https://developer.mozilla.org/en-US/docs/Glossary/Raster_image
+- MDN, SVG (Scalable Vector Graphics): https://developer.mozilla.org/en-US/docs/Web/SVG
+- MDN, image-rendering (how browsers scale images): https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering
+- Adobe, Raster vs vector: https://www.adobe.com/creativecloud/file-types/image/comparison/raster-vs-vector.html
+- Adobe, Raster files: https://www.adobe.com/creativecloud/file-types/image/raster.html
+- Adobe, Vector files: https://www.adobe.com/creativecloud/file-types/image/vector.html
+
+Follow Tensorblue for software explained simply.
+
+#Design #Pixels #SVG #SoftwareExplained

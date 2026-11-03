@@ -20,6 +20,9 @@ Practical system design · useful new GitHub tools · research explained through
 
 **Never:** moving-line networks, drifting particles, decorative rings, wandering connector lines, persistent fine-grid motion, camera bobbing over a static page, mascots/random characters, brown/orange/cream-dominant looks, research-paper diagram slides, contact-sheet-as-video.
 
+### Feedback log (append-only)
+- **2026-11-03 round 02:** "Current style is fine." Keep the Blue Receipt Theatre grammar, official palette/logo, accepted caption treatment, voice, pacing and the accepted CTA ("Follow Tensorblue for software explained simply."). Use simpler content and readable everyday examples (e.g. one photo, one logo), not abstract moving-line research diagrams. Captions may also use the tighter accepted band y 350–470. Update context only with requested corrections plus the episode record.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

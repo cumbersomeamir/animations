@@ -1,0 +1,11 @@
+{"duration": 30.0, "lead": 0.30, "lines": [
+ {"id": "L1", "at": 0.30,  "text": "Why does a photo get blurry when you zoom in?"},
+ {"id": "L2", "at": 3.10,  "text": "It's usually a raster image: a fixed grid of tiny coloured squares called pixels."},
+ {"id": "L3", "at": 8.10,  "text": "Zoom in, and each pixel just gets bigger, so edges turn into steps."},
+ {"id": "L4", "at": 12.00, "text": "Many apps smooth those blocks, which looks blurry."},
+ {"id": "L5", "at": 14.70, "text": "A vector logo stores shapes as points and curves, so it's redrawn sharply at any size."},
+ {"id": "L6", "at": 21.40, "text": "Zooming can't add detail a photo never captured."},
+ {"id": "L7", "at": 26.20, "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply."}
+],
+ "pronunciation_overrides": {"Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"}
+}

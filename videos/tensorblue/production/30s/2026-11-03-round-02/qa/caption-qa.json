@@ -1,0 +1,177 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Why does a photo get blurry",
+    "when you zoom in?"
+   ],
+   "t0": 0.24,
+   "tEnd": 3.1,
+   "frame": 25,
+   "box": {
+    "x0": 171,
+    "x1": 908,
+    "y0": 374,
+    "y1": 487,
+    "n": 19924
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "It's usually a raster image:"
+   ],
+   "t0": 3.04,
+   "tEnd": 5,
+   "frame": 109,
+   "box": {
+    "x0": 201,
+    "x1": 877,
+    "y0": 403,
+    "y1": 456,
+    "n": 10979
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "a fixed grid of tiny coloured",
+    "squares called pixels."
+   ],
+   "t0": 4.94,
+   "tEnd": 8.48,
+   "frame": 166,
+   "box": {
+    "x0": 184,
+    "x1": 893,
+    "y0": 371,
+    "y1": 487,
+    "n": 21087
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Zoom in, and each pixel",
+    "just gets bigger,"
+   ],
+   "t0": 8.42,
+   "tEnd": 10.97,
+   "frame": 270,
+   "box": {
+    "x0": 234,
+    "x1": 845,
+    "y0": 371,
+    "y1": 488,
+    "n": 17250
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "so edges turn into steps."
+   ],
+   "t0": 10.91,
+   "tEnd": 12.88,
+   "frame": 345,
+   "box": {
+    "x0": 220,
+    "x1": 857,
+    "y0": 403,
+    "y1": 456,
+    "n": 10282
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Many apps smooth those blocks,",
+    "which looks blurry."
+   ],
+   "t0": 12.82,
+   "tEnd": 15.61,
+   "frame": 403,
+   "box": {
+    "x0": 113,
+    "x1": 965,
+    "y0": 375,
+    "y1": 488,
+    "n": 22551
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A vector logo stores shapes",
+    "as points and curves,"
+   ],
+   "t0": 15.55,
+   "tEnd": 18.85,
+   "frame": 485,
+   "box": {
+    "x0": 178,
+    "x1": 900,
+    "y0": 374,
+    "y1": 487,
+    "n": 20616
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "so it's redrawn sharply",
+    "at any size."
+   ],
+   "t0": 18.79,
+   "tEnd": 21.4,
+   "frame": 582,
+   "box": {
+    "x0": 244,
+    "x1": 836,
+    "y0": 372,
+    "y1": 488,
+    "n": 14123
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Zooming can't add detail",
+    "a photo never captured."
+   ],
+   "t0": 21.34,
+   "tEnd": 24.75,
+   "frame": 658,
+   "box": {
+    "x0": 220,
+    "x1": 859,
+    "y0": 371,
+    "y1": 487,
+    "n": 20853
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.14,
+   "tEnd": 29.6,
+   "frame": 802,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
