@@ -1,0 +1,72 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "duration": 30.0,
+  "voiceStarts": [
+    0.2,
+    4.55,
+    8.75,
+    14.0,
+    18.45,
+    25.85
+  ],
+  "scenes": {
+    "A_hook_unrequested_heap": [
+      0.0,
+      4.4
+    ],
+    "B_store_and_deliver": [
+      4.4,
+      8.6
+    ],
+    "C_same_resources": [
+      8.6,
+      13.85
+    ],
+    "D_org_says_what_now": [
+      13.85,
+      18.3
+    ],
+    "E_checklist": [
+      18.3,
+      25.7
+    ],
+    "F_cta": [
+      25.7,
+      30.0
+    ]
+  },
+  "cues": {
+    "drop1": 0.15,
+    "drop2": 0.55,
+    "drop3": 0.95,
+    "drop4": 1.35,
+    "heapTag": 2.4,
+    "warehouse": 4.6,
+    "intoStore": 5.2,
+    "storeFill": 5.4,
+    "truckIn": 6.6,
+    "loadTruck": 7.3,
+    "full": 8.95,
+    "busy": 9.6,
+    "sortHands": 10.2,
+    "essentials": 11.0,
+    "waitClock": 12.0,
+    "board": 13.9,
+    "verified": 14.4,
+    "rowWhat": 15.5,
+    "rowHow": 16.3,
+    "rowWhen": 17.1,
+    "c1": 19.55,
+    "c1tick": 20.2,
+    "c2": 21.3,
+    "c2tick": 21.8,
+    "c3": 22.5,
+    "c3tick": 23.1,
+    "loadRight": 23.8,
+    "drive": 24.3,
+    "arrive": 25.2,
+    "logo": 26.05,
+    "dimEnd": 29.2
+  }
+}

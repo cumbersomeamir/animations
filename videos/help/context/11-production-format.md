@@ -126,3 +126,16 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - **Script:** natural 65–75 words; strong useful hook, concrete mechanism, meaningful scene changes, clear takeaway, CTA in the
   final 3–4 s; qualifications only inside the relevant sentence; source links only in repo notes / publishing copy.
 - **Captions:** upper safe zone y 340–520 (accepted treatment lands ≈ 379–495), x 90–990, ≤ 2 lines, y < 300 clear.
+
+## Update 2026-11-03 — hindi-03 (latest user correction: Hindi episodes)
+- When a batch asks for Hindi: ALL narration and captions in natural Hindi (Devanagari); in-scene words in Hindi too
+  (the app's brand logo plaque keeps the real icon + "Help").
+- Hindi voice (never feed Hindi to an English voice): Kokoro-82M native Hindi voices, blend `hf_alpha`×0.7 + `hm_omega`×0.3
+  (female-led, mirroring the accepted Meshline proportions), speed 0.98, lang `hi` (espeak-ng Hindi G2P bundled with
+  kokoro-onnx). Same cached model files as the English episodes.
+- Hindi font: Noto Sans Devanagari (OFL, npm `@fontsource/noto-sans-devanagari@5.2.8`, woff2 600/700/800 copied into the
+  episode `fonts/`); font stack `Inter, "Noto Sans Devanagari"` keeps the accepted caption size/colour/position.
+- Hindi intelligibility check: offline Vosk `vosk-model-small-hi-0.22` on the voice track + final mix (QA-only, not committed);
+  replace words the ASR mishears (e.g. ढोना→"धोना", बाँटना, जाँचें) with clearer equivalents.
+- Hindi pacing: the native voice is slower, so a 30 s Hindi episode carries ~55–60 words (≈25 s of speech); narrow the script,
+  never speed it up. CTA in Hindi: "हेल्प ऐप डाउनलोड करें, ज़रूरी सामान दान करें।"
