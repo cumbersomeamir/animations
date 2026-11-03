@@ -1,0 +1,118 @@
+{
+  "file": "plan-my-wedding-30s-round02-01.mp4",
+  "size_bytes": 5185942,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 194286
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.25,
+      "end": 2.25,
+      "say": "The cheaper venue quote can cost more."
+    },
+    {
+      "id": "n2",
+      "start": 2.55,
+      "end": 6.15,
+      "say": "Two made-up quotes: four thousand versus eighty-five hundred."
+    },
+    {
+      "id": "n3",
+      "start": 6.42,
+      "end": 9.56,
+      "say": "Quote A assumes eighty guests, not your hundred and twenty."
+    },
+    {
+      "id": "n4",
+      "start": 9.82,
+      "end": 14.25,
+      "say": "Food, extra hours, decor, tax and a cleaning fee sit outside it."
+    },
+    {
+      "id": "n5",
+      "start": 14.5,
+      "end": 16.2,
+      "say": "Quote B includes most of that."
+    },
+    {
+      "id": "n6",
+      "start": 16.45,
+      "end": 20.15,
+      "say": "Totals: ten thousand one hundred versus eight thousand eight hundred."
+    },
+    {
+      "id": "n7",
+      "start": 20.42,
+      "end": 26.19,
+      "say": "Fees vary, so get written, itemised quotes and compare identical inclusions before paying."
+    },
+    {
+      "id": "n8",
+      "start": 26.75,
+      "end": 29.29,
+      "say": "Download Plan My Wedding to plan your wedding."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    26.75,
+    29.29
+  ],
+  "caption_windows": [
+    [
+      0.25,
+      2.3
+    ],
+    [
+      2.55,
+      6.2
+    ],
+    [
+      6.42,
+      9.6
+    ],
+    [
+      9.82,
+      14.3
+    ],
+    [
+      14.5,
+      16.25
+    ],
+    [
+      16.45,
+      20.2
+    ],
+    [
+      20.42,
+      22.5
+    ],
+    [
+      22.55,
+      26.15
+    ]
+  ],
+  "words": 74
+}

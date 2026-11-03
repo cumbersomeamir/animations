@@ -1,0 +1,20 @@
+{
+  "name": "plan-my-wedding-30s-round02-01",
+  "private": true,
+  "type": "module",
+  "description": "Plan My Wedding 30 s educational episode (venue quotes): accepted origami-world renderer from tests/15s (commit 33e410b), @napi-rs/canvas + FFmpeg.",
+  "scripts": {
+    "tts": "node src/tts.mjs",
+    "audio": "node src/audio.mjs",
+    "video": "node src/render.mjs",
+    "mux": "node src/mux.mjs",
+    "verify": "node src/verify.mjs",
+    "build": "npm run tts && npm run audio && npm run video && npm run mux && npm run verify"
+  },
+  "dependencies": {
+    "@expo-google-fonts/cormorant-garamond": "0.4.1",
+    "@expo-google-fonts/jost": "0.4.2",
+    "@napi-rs/canvas": "1.1.0",
+    "kokoro-js": "1.2.1"
+  }
+}
