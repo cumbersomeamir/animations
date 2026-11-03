@@ -26,13 +26,13 @@ rendered with the accepted rig. No celebrity likeness or voice, no stock footage
 | m2 | 2.60 | एआई ने पूरा मोहल्ला बुला लिया! | AI invited the whole neighbourhood! |
 | m3 | 5.50 | पचास किलो आटा… | 50 kg of flour… |
 | m4 | 7.10 | और बीस लीटर तेल… | and 20 litres of oil… |
-| m5 | 8.75 | तीन-तीन तरबूज़! | three whole watermelons! |
+| m5 | 8.75 | और तीन तरबूज़! | and three watermelons! |
 | m6 | 11.05 | गलती मेरी थी… मैंने बस लिखा था, राशन की लिस्ट। | My mistake… I only wrote "grocery list". |
 | m7 | 14.65 | अब साफ़ लिखिए: दो लोग, तीन दिन, छह सौ रुपये, घर में चावल-दाल। | Now be specific: 2 people, 3 days, ₹600, rice and dal already at home. |
 | m8 | 19.55 | लिस्ट छोटी और काम की बनी, फिर भी दाम खुद जाँचिए। | The list came out short and useful — still check prices yourself. |
 | m9 | 23.45 | ऐसे काम के एआई तरीके सीखने के लिए आइडियावर्स ऐप डाउनलोड कीजिए। | To learn useful AI tricks like this, download the Ideaverse app. |
 Numbers are spoken as words (पचास, बीस, छह सौ रुपये) and shown as digits on screen (50, 20, ₹600) for readability.
-Pronunciation: tested variants; "बीस लीटर" alone was heard "बीज", so "और बीस लीटर तेल" was used; "तीन तरबूज़" → "तीन-तीन तरबूज़".
+Pronunciation: tested variants; "बीस लीटर" alone was heard "बीज", so "और बीस लीटर तेल" was used; "तीन-तीन तरबूज़" (heard "तिन तिन") → "और तीन तरबूज़!" after the first full QA pass.
 
 ## Meme storyboard (mutes cleanly: captions + props carry every beat)
 1. 0–2.55 hook: DOCKET types "राशन की लिस्ट बना दो" ("make a grocery list"); caption "दो लोगों का राशन माँगा था…" ("I asked for groceries for two…").
@@ -48,5 +48,8 @@ Pronunciation: tested variants; "बीस लीटर" alone was heard "बी
 8. 21.6–23.4 cart: four small items land; price tags tick ✓ one by one ("दाम खुद जाँचिए", "check prices yourself").
 9. 23.4–30 CTA: DOCKET waves; caption with icon "ऐसे काम के AI तरीके सीखने के लिए / [icon] आइडियावर्स ऐप डाउनलोड कीजिए" ("To learn useful AI tricks like this / download the Ideaverse app").
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-03
+- Output: production/30s/2026-11-03-meme-01/ideaverse-30s-meme-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS.
+- Hindi ASR on the final MP4: all 9 lines recognised; captions in spec (outline included); top band caption-free.
+  Native-speaker listen recommended (voice grade C; तरबूज़/छह सौ slightly soft).

@@ -1,0 +1,29 @@
+m1 placed  0.15s heard [ 0.00.. 2.32] CER 0.05
+   script: दो लोगों का राशन माँगा था…
+   heard : दो लोगों का राशण मांगा था
+m2 placed  2.60s heard [ 2.45.. 5.11] CER 0.12
+   script: एआई ने पूरा मोहल्ला बुला लिया!
+   heard : एआई ने पूरा मुहल्ला बोला लिया।
+m3 placed  5.50s heard [ 5.35.. 6.97] CER 0.00
+   script: पचास किलो आटा…
+   heard : पचास किलो आटा
+m4 placed  7.10s heard [ 6.95.. 8.97] CER 0.50
+   script: और बीस लीटर तेल…
+   heard : और 20 l तेल और
+m5 placed  8.75s heard [ 8.60..10.02] CER 0.20
+   script: और तीन तरबूज़!
+   heard : और तीन तर्बूस
+m6 placed 11.05s heard [10.90..14.62] CER 0.09
+   script: गलती मेरी थी… मैंने बस लिखा था, राशन की लिस्ट।
+   heard : गल्ती मेरी थी मैंने बस लिखा था राशन की लिस।
+m7 placed 14.65s heard [14.50..19.34] CER 0.19
+   script: अब साफ़ लिखिए: दो लोग, तीन दिन, छह सौ रुपये, घर में चावल-दाल।
+   heard : अब साफ लिखिये दो लोग तीन दिन चेहसाओ रुप्ये घर में चावल डाल
+m8 placed 19.55s heard [19.40..23.12] CER 0.08
+   script: लिस्ट छोटी और काम की बनी, फिर भी दाम खुद जाँचिए।
+   heard : लिस्ट चोटी और काम की बनी, फिर भी दाम खुद जांचिये.
+m9 placed 23.45s heard [23.30..28.64] CER 0.04
+   script: ऐसे काम के एआई तरीके सीखने के लिए आइडियावर्स ऐप डाउनलोड कीजिए।
+   heard : ऐसे काम के AI तरीके सीखने के लिए ideaverse app download कीजिये.
+worst line CER: 0.50  (spelling-normalised; ASR proxy for intelligibility)
+words outside a caption that shows them: [(np.float64(7.84), 'l', 'और बीस लीटर तेल'), (np.float64(17.44), 'चेहसाओ', 'अब साफ लिखिए दो लोग तीन दिन छह सौ रुपये घर में चावल दाल')]
