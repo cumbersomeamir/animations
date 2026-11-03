@@ -118,3 +118,13 @@ CONTEXT=navy, OUTPUT=amber.
 - No paid APIs, no Blender. Preserve previous MP4s.
 - Episodes in this style: feedback-01 "AI you use daily — how spam filters learn to sort email"
   (production/30s/2026-11-02-feedback-round/, see context/15).
+
+## Round 2026-11-03 (round-02) — requested corrections only (everything above in "STYLE CORRECTION" stays as is)
+- CTA changed, spoken and visible: **"Download the Ideaverse app."** (replaces "Explore more everyday AI with Ideaverse"),
+  in the final 3–4 s, caption with the app icon chip.
+- App icon replaced with the current official Google Play icon (fetched 2026-11-03; provenance + old hash in
+  context/03-assets.json). Only the icon file changed; palette, renderer, DOCKET, caption treatment, voice, pacing kept.
+- Script length for this round: natural 65–75 words. Accepted renderer for reuse: production/30s/2026-11-02-feedback-round/src
+  (copied, props/choreography changed per episode).
+- Episodes in this style: feedback-01 spam filters (2026-11-02-feedback-round) · round02-01 phone reads text from a photo
+  (2026-11-03-round-02, see context/16).

@@ -1,0 +1,18 @@
+How does your phone read the words in a photo? 📸
+
+First it finds where the text is, then it recognizes each letter and word by matching their shapes to patterns it learned from many examples. That's what lets you copy a bus time or translate a menu straight from a picture. A blurry photo can be misread, so double-check times and prices.
+
+Download the Ideaverse app.
+
+(The timetable, menu and phone screen in the video are invented examples, not a real app's interface.)
+
+Sources:
+• Google Lens: https://lens.google/
+• Google Photos Help, "Get info about your photos & surroundings": https://support.google.com/photos/answer/7539151
+• Apple Support, "Copy and translate text from photos on your iPhone or iPad": https://support.apple.com/en-us/120004
+• Apple Developer, "Recognizing Text in Images": https://developer.apple.com/documentation/vision/recognizing-text-in-images
+• Google ML Kit, "Text recognition v2": https://developers.google.com/ml-kit/vision/text-recognition/v2
+• Google ML Kit, "Recognize text in images with ML Kit on Android": https://developers.google.com/ml-kit/vision/text-recognition/v2/android
+• Tesseract docs, "How to train LSTM/neural net Tesseract": https://tesseract-ocr.github.io/tessdoc/tess5/TrainingTesseract-5.html
+
+#EverydayAI #AI #Phone #Translate #TechTips #Ideaverse

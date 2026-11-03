@@ -7,8 +7,12 @@
     },
     {
       "path": "videos/ideaverse/assets/icon.png",
-      "sha256": "71309d833e1c915551ab4ca1a14c25a2fe12620cbbb4fbe63146c14425b61da1",
-      "source": "Saved public Google Play listing snapshot, October 2026"
+      "sha256": "3406cac05413c13395be1ad9d9993f766b4b61bd0b7ebc3973e1bccb3ac09c52",
+      "source": "Official Google Play listing icon, fetched 2026-11-03 from https://play.google.com/store/apps/details?id=com.ideaverseai (og:image play-lh.googleusercontent.com/5TopfIwTqBayxNJTQRaQrFFjaulJgAEsHCe-QQNT8j55EUsKV0wKTbyO5UoVqAhCm2SeLfiTHR0BzYhjj5ITiSs, =s512), 512x512 PNG; listing \"Updated on Oct 26, 2026\"",
+      "replaces": {
+        "sha256": "71309d833e1c915551ab4ca1a14c25a2fe12620cbbb4fbe63146c14425b61da1",
+        "note": "stale October 2026 lightbulb/planet icon (kept in git history; earlier MP4s unchanged)"
+      }
     }
   ],
   "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."

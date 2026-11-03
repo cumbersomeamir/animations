@@ -41,3 +41,16 @@
 - Commands: see feedback-round/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
 - Unresolved: none blocking. Minor accepted items listed in QA.md.
 - Next: await user review. Do not start another episode or create automation unless asked.
+
+---
+# CURRENT — production 30s round-02 (2026-11-03) — supersedes the feedback-round status above
+## Facts
+- Brief: user-approved round 02; topic "How your phone reads text from a photo" (new; history checked). Record: context/16.
+- Icon replaced with the current Play icon (03-assets.json); CTA now "Download the Ideaverse app" (context/11 round-02 note).
+## Decisions
+- Renderer/style/voice/caption treatment reused unchanged from the feedback round; new props: bus timetable board, phone
+  (EXAMPLE screen), pattern cabinet (LETTERS/NUMBERS, MATCH meter), candidate + variant cards, menu card.
+## Status / next
+- Narration synthesized + ASR-verified (66 words). Stills inspected in 4 rounds. Full 900-frame render running:
+  `cd production/30s/2026-11-03-round-02/src && node render.mjs --frames --workers=3`.
+- Next: encode, score, loudnorm, mux to ideaverse-30s-round02-01.mp4, ./qa.sh, QA.md, commit, push, attach.
