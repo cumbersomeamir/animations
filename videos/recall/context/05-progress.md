@@ -47,3 +47,6 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
 - Round 02 2026-11-03 (same F01 performer/set/caption/voice; CTA corrected to "Download Recall for learning any new
   subject with AI."): `videos/recall/production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4` (30.000 s, microwave
   cold patches; record, sources, product-fact check + QA in 16).
+- Hindi 03 2026-11-03 (latest user correction: Hindi narration + Devanagari captions; same performer/set/phone; Kokoro
+  official Hindi voices): `videos/recall/production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4` (30.000 s, wet
+  touchscreen; record, Hindi voice/ASR checks, sources + QA in 17).

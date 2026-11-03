@@ -69,6 +69,10 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 - 2026-11-02 feedback round 01 (14): first Low-poly Everyday Discovery episode (QR codes and logos).
 - 2026-11-03 round 02 (16): second Low-poly Everyday Discovery episode (microwave cold patches); same performer/set/caption/voice;
   CTA corrected to the user's wording ("with AI" is the user's statement; not found in the saved listing or public site text, see 16).
+- 2026-11-03 Hindi 03 (17): **language correction (user)**: when a round asks for Hindi, ALL narration and captions are natural
+  Hindi in Devanagari, spoken by a genuinely Hindi-capable local voice (Kokoro v1.0 official Hindi voices hf_beta 0.7 +
+  hm_omega 0.3, lang hi, speed 0.98; never the English blend), checked with multilingual ASR; captions use Baloo 2 (OFL,
+  Devanagari) in the same pill treatment; CTA in Hindi ("कोई भी नया विषय एआई से सीखने के लिए रिकॉल डाउनलोड करें।").
 
 ## Episodes produced (do not repeat topics)
 | # | topic | output | context |
@@ -77,3 +81,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | 02 | A kilo of steel vs feathers (quiz format, retired) | `production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` | 13 |
 | F01 | Why QR codes can still scan with a logo in the middle | `production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4` | 14 |
 | R02 | Why a microwave leaves cold patches in food | `production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4` | 16 |
+| H03 | गीली स्क्रीन अजीब क्यों चलती है? (wet touchscreen; Hindi) | `production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4` | 17 |

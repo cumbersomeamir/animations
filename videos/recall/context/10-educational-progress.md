@@ -99,3 +99,7 @@ world works, in the "Low-poly Everyday Discovery" style (context 15); format rul
 ## Update 2026-11-03 — round 02
 Episode R02 "Why a microwave leaves cold patches in food" (Low-poly Everyday Discovery; format 11 with the user's CTA
 correction): record in context 16; deliverable `videos/recall/production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4`.
+
+## Update 2026-11-03 — Hindi 03
+Episode H03 "गीली स्क्रीन अजीब क्यों चलती है?" (wet touchscreen), fully Hindi (Devanagari captions, Kokoro Hindi voices):
+record in context 17; deliverable `videos/recall/production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4`.

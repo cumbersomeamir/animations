@@ -1,0 +1,14 @@
+गीली स्क्रीन अजीब क्यों चलती है?
+
+फ़ोन की टच स्क्रीन में शीशे के नीचे बारीक इलेक्ट्रोड की पंक्तियों और स्तंभों का जाल होता है। उंगली छूने पर उस जगह की धारिता (कैपेसिटेंस) बदलती है, और फ़ोन उसी बदलाव से टच की जगह पहचानता है। पानी भी यह धारिता बदल देता है, इसलिए बूंदें नकली टच बना सकती हैं, और पानी की परत असली टच को छिपा सकती है। तो स्क्रीन और उंगलियां पहले सुखा लें।
+
+यह एनीमेशन इन बातों का चित्रण है, किसी खास फ़ोन का इंजीनियरिंग नक्शा नहीं।
+
+स्रोत (Sources):
+NXP AN11122 – Water and condensation safe touch sensing: https://www.nxp.com/docs/en/application-note/AN11122.pdf
+NXP/Freescale AN4781 – Water tolerance in touch sensing: https://www.nxp.com/docs/en/application-note/AN4781.pdf
+US10754438B2 – False touch and water detection for touch-sensitive displays: https://patents.google.com/patent/US10754438B2/en
+Sony Help Guide – wet fingertips and droplets: https://helpguide.sony.net/ev/xav-95/v1/en/contents/TP1000431077.html
+Huawei Support – using a phone with wet hands: https://consumer.huawei.com/en/support/content/en-us00414591
+
+#टेक्नोलॉजी #विज्ञान #howitworks
