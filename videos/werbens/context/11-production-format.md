@@ -138,6 +138,7 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 | 01 | `production/30s/2026-11-02/` | A feature is not yet a benefit | fictional backpack (water-resistant ≠ waterproof) |
 | 02 | `production/30s/2026-11-02-batch-02/` | The ad that admits a weakness | VW "Think small." (1959, DDB) reconstruction → fictional compact tool |
 | 03 | `production/30s/2026-11-02-feedback-round/` | The decoy effect (Satisfying Product Theatre) | illustrative coffee menu: small 150 ml Rs90 · medium 280 ml Rs155 (decoy) · large 300 ml Rs160 |
+| 04 | `production/30s/2026-11-03-round-02/` | One shape, everywhere — distinctive brand assets (accepted style; brand colours/logo corrected, context/15) | fictional "Plimm Bakery" arch on logo tile, bag and sign |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
