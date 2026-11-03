@@ -35,3 +35,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - New 30.000 s episode rendered, verified and committed: production/30s/2026-11-02-feedback-round/media-diet-30s-feedback-01.mp4
   (SHA-256 2b713067274a19f9822075edf627c992938686cd849d69ca162fd7a35a7b57e5). Style upgrade + new caption/audio rules: context/11 "FORMAT UPGRADE"; brief/script/sources/storyboard/QA:
   context/14-production-30s-feedback-01.md. Previous MP4s preserved. No automation created.
+
+## Checkpoint 2026-11-03 — round 02 (in progress)
+- No generation was active at the start (clean at c61ea19, remote equal). Topic (emergency satellite messaging) not covered before.
+- Committed: production/30s/2026-11-03-round-02/ sources (src/film.js on the accepted renderer, timeline, cues, Kokoro narration),
+  build/QA scripts, SOURCES.md (Apple 101573/105097, Apple Newsroom 2022, Google Pixel 15254448), caption, licences, README;
+  context/15-production-30s-round02-01.md; one episode-log row in context/11.
+- Running: full 900-frame render (`node build/render.mjs film frames 0 449` + `… 450 899`), then
+  `SKIP_FRAMES=1 bash build/build.sh` (audio, encode, QA). Next: inspect QA, fix defects, commit MP4 + QA, push, attach.

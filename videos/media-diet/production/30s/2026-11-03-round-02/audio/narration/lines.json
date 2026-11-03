@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "No mobile signal, and you need help.",
+  "duration": 2.07,
+  "words": 7
+ },
+ {
+  "id": "V2",
+  "say": "How can a text still reach rescuers?",
+  "duration": 1.765,
+  "words": 7
+ },
+ {
+  "id": "V3",
+  "say": "On supported phones and countries, it can go via satellite.",
+  "duration": 3.588,
+  "words": 10
+ },
+ {
+  "id": "V4",
+  "say": "Your phone sends a short text up to a satellite,",
+  "duration": 2.417,
+  "words": 10
+ },
+ {
+  "id": "V5",
+  "say": "which passes it down to a ground station, then to a response centre.",
+  "duration": 3.949,
+  "words": 13
+ },
+ {
+  "id": "V6",
+  "say": "Unlike a nearby tower, the satellite is far away: aim at open sky, expect slower replies.",
+  "duration": 6.259,
+  "words": 16
+ },
+ {
+  "id": "V7",
+  "say": "Try the demo before going off-grid.",
+  "duration": 1.823,
+  "words": 6
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for technology explained.",
+  "duration": 2.633,
+  "words": 6
+ }
+]

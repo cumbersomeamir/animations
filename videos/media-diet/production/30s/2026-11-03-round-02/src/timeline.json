@@ -1,0 +1,219 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.25,
+   "say": "No mobile signal, and you need help.",
+   "cues": [
+    [
+     "No mobile signal,",
+     "and you need help."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 2.7,
+   "say": "How can a text still reach rescuers?",
+   "cues": [
+    [
+     "How can a text",
+     "still reach rescuers?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 4.85,
+   "say": "On supported phones and countries, it can go via satellite.",
+   "cues": [
+    [
+     "On supported phones",
+     "and countries,"
+    ],
+    [
+     "it can go",
+     "via satellite."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.9,
+   "say": "Your phone sends a short text up to a satellite,",
+   "cues": [
+    [
+     "Your phone sends",
+     "a short text up to a satellite,"
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 11.65,
+   "say": "which passes it down to a ground station, then to a response centre.",
+   "cues": [
+    [
+     "which passes it down",
+     "to a ground station,"
+    ],
+    [
+     "then to",
+     "a response centre."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 16.2,
+   "say": "Unlike a nearby tower, the satellite is far away: aim at open sky, expect slower replies.",
+   "cues": [
+    [
+     "Unlike a nearby tower,",
+     "the satellite is far away:"
+    ],
+    [
+     "aim at open sky,",
+     "expect slower replies."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 22.95,
+   "say": "Try the demo before going off-grid.",
+   "cues": [
+    [
+     "Try the demo",
+     "before going off-grid."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.5,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 4.8,
+   "name": "valley, low: tower signal rings stop at the ridge; phone shows no signal; question tag; tilt up to the empty sky"
+  },
+  {
+   "id": "S2",
+   "in": 4.8,
+   "out": 8.8,
+   "name": "3/4 medium: paper satellite glides in along its arc; phone switches to satellite mode and leans to aim"
+  },
+  {
+   "id": "S3",
+   "in": 8.8,
+   "out": 11.6,
+   "name": "low at the phone: the short text (paper bubble) lifts off and rises along the uplink to the satellite"
+  },
+  {
+   "id": "S4",
+   "in": 11.6,
+   "out": 13.9,
+   "name": "low at the ground station: dish turns to the satellite; the text comes down to it"
+  },
+  {
+   "id": "S5",
+   "in": 13.9,
+   "out": 16.1,
+   "name": "high 3/4: the text runs along the route to the response centre; windows light, SOS placard flips up"
+  },
+  {
+   "id": "S6",
+   "in": 16.1,
+   "out": 19.2,
+   "name": "crane: nearby tower's small coverage circle, then up the long thread to the distant satellite"
+  },
+  {
+   "id": "S7",
+   "in": 19.2,
+   "out": 22.85,
+   "name": "medium: under the tree the link is blocked; phone moves to open sky; slow reply descends (stopwatch)"
+  },
+  {
+   "id": "S8",
+   "in": 22.85,
+   "out": 26.4,
+   "name": "trailhead close: practice demo on the phone completes with a check; off-grid signpost swings up"
+  },
+  {
+   "id": "S9",
+   "in": 26.4,
+   "out": 30.0,
+   "name": "hero pull-back over the whole route + Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "rings": 0.3,
+  "slash": 1.0,
+  "query": 2.75,
+  "queryOff": 4.55,
+  "tilt": 2.8,
+  "tiltEnd": 4.7,
+  "satIn": 4.85,
+  "satArrive": 7.3,
+  "phoneMode": 5.35,
+  "aim": 7.35,
+  "aimEnd": 8.4,
+  "compose": 8.95,
+  "msgUp": 9.5,
+  "msgAtSat": 11.05,
+  "dishTurn": 11.65,
+  "dishTurnEnd": 12.45,
+  "msgDown": 12.4,
+  "msgAtDish": 13.5,
+  "route": 14.05,
+  "routeEnd": 15.2,
+  "centreLit": 15.25,
+  "placard": 15.35,
+  "ring": 16.25,
+  "ringEnd": 17.3,
+  "far": 17.55,
+  "farEnd": 19.05,
+  "tree": 19.3,
+  "treeHit": 19.7,
+  "slide": 19.95,
+  "slideEnd": 20.75,
+  "relink": 20.8,
+  "relinkEnd": 21.25,
+  "reply": 21.35,
+  "replyIn": 22.65,
+  "demo": 23.25,
+  "demoOk": 24.45,
+  "post": 25.05,
+  "sign": 26.5
+ }
+}

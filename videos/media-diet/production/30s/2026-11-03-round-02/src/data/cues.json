@@ -1,0 +1,101 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "No mobile signal,",
+   "and you need help."
+  ],
+  "in": 0.17,
+  "out": 2.6
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "How can a text",
+   "still reach rescuers?"
+  ],
+  "in": 2.62,
+  "out": 4.75
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "On supported phones",
+   "and countries,"
+  ],
+  "in": 4.77,
+  "out": 6.855
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "it can go",
+   "via satellite."
+  ],
+  "in": 6.875,
+  "out": 8.738
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Your phone sends",
+   "a short text up to a satellite,"
+  ],
+  "in": 8.82,
+  "out": 11.55
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "which passes it down",
+   "to a ground station,"
+  ],
+  "in": 11.57,
+  "out": 13.915
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "then to",
+   "a response centre."
+  ],
+  "in": 13.935,
+  "out": 15.899
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Unlike a nearby tower,",
+   "the satellite is far away:"
+  ],
+  "in": 16.12,
+  "out": 19.15
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "aim at open sky,",
+   "expect slower replies."
+  ],
+  "in": 19.17,
+  "out": 22.759
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Try the demo",
+   "before going off-grid."
+  ],
+  "in": 22.87,
+  "out": 25.073
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 26.42,
+  "out": 29.433
+ }
+]
