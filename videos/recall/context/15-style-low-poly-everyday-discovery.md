@@ -44,7 +44,7 @@ Three.js. Built 2026-11-02 from the user's description of a reference they watch
 ## 5. Narrative template (30 s)
 0–3 s question plus visible everyday problem → 3–14 s mechanism in 2 distinct scenes (giant object + screen) → 14–23 s the
 limit or failure case, shown physically, with a reaction beat → 23–26 s takeaway shown in action → 26–30 s short CTA
-("Follow Recall for …") with a small Recall mark.
+("Download Recall for learning any new subject with AI." — user correction 2026-11-03) with a small Recall mark.
 
 ## 6. Sound
 Narrator up front (Meshline/Recall Kokoro voice). Subtle warm music that evolves, with no short repeating loop. Foley

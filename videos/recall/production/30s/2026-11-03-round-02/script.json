@@ -1,0 +1,27 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Why are microwaved leftovers hot at the edge, cold in the middle?"
+    },
+    {
+      "id": "l02",
+      "text": "Waves bounce off the metal walls and overlap, leaving strong and weak spots."
+    },
+    {
+      "id": "l03",
+      "text": "The turntable carries food through them, but in thick food the waves mostly heat the outer layers; the middle waits for heat to spread inward."
+    },
+    {
+      "id": "l04",
+      "text": "So stir halfway, spread food evenly, and let it stand so the heat evens out."
+    },
+    {
+      "id": "l05",
+      "text": "Download Recall for learning any new subject with AI."
+    }
+  ]
+}

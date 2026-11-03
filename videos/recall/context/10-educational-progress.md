@@ -95,3 +95,7 @@ User feedback retired the knowledge-challenge/quiz format. Genre: useful educati
 world works, in the "Low-poly Everyday Discovery" style (context 15); format rules in 11 (rewritten). Episode F01
 "Why can a QR code still scan with a logo in the middle?": brief, sources, QA and progress in context 14; deliverable
 `videos/recall/production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4`. Earlier MP4s untouched.
+
+## Update 2026-11-03 — round 02
+Episode R02 "Why a microwave leaves cold patches in food" (Low-poly Everyday Discovery; format 11 with the user's CTA
+correction): record in context 16; deliverable `videos/recall/production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4`.

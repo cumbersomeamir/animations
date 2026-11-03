@@ -25,7 +25,7 @@ lime/off-white accents.
 | mechanism | 3–14 s | distinct scenes that show the mechanism as it is narrated; a mechanism diagram in 3D |
 | limit / failure | 14–23 s | what breaks it, shown physically, with a reaction beat |
 | takeaway | 23–26 s | the practical rule, shown (not a text slide) |
-| CTA | final 3–4 s | short and natural, e.g. "Follow Recall for …", with a small Recall mark; truthful, no app-capability claims |
+| CTA | final 3–4 s | spoken + visible: **"Download Recall for learning any new subject with AI."** (user's sheet feedback, 2026-11-03; replaces "Follow Recall for …"), with the small Recall mark; no learning guarantee or outcome claim |
 - Narration 55–75 words, concise, no filler or empty motivational claims. Material qualifications go briefly inside the
   relevant sentence ("some", "may"). No long disclaimers, no fixed percentages unless a source states them exactly,
   and no universal-behaviour claims.
@@ -67,6 +67,8 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 ## History
 - 2026-11-02 round 01 (12) and batch 02 (13): quiz/game-show direction with Microgame Frenzy; retired by this file.
 - 2026-11-02 feedback round 01 (14): first Low-poly Everyday Discovery episode (QR codes and logos).
+- 2026-11-03 round 02 (16): second Low-poly Everyday Discovery episode (microwave cold patches); same performer/set/caption/voice;
+  CTA corrected to the user's wording ("with AI" is the user's statement; not found in the saved listing or public site text, see 16).
 
 ## Episodes produced (do not repeat topics)
 | # | topic | output | context |
@@ -74,3 +76,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | 01 | Steel ball sinks, steel ship floats (quiz format, retired) | `production/30s/2026-11-02/recall-30s-production-01.mp4` | 12 |
 | 02 | A kilo of steel vs feathers (quiz format, retired) | `production/30s/2026-11-02-batch-02/recall-30s-production-02.mp4` | 13 |
 | F01 | Why QR codes can still scan with a logo in the middle | `production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4` | 14 |
+| R02 | Why a microwave leaves cold patches in food | `production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4` | 16 |

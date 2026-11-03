@@ -44,3 +44,6 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
 - Feedback round 2026-11-02 (quiz direction retired; new durable format 11 + style recipe 15 "Low-poly Everyday
   Discovery"): `videos/recall/production/30s/2026-11-02-feedback-round/recall-30s-feedback-01.mp4` (30.000 s, QR code
   with a logo; record, sources + QA in 14).
+- Round 02 2026-11-03 (same F01 performer/set/caption/voice; CTA corrected to "Download Recall for learning any new
+  subject with AI."): `videos/recall/production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4` (30.000 s, microwave
+  cold patches; record, sources, product-fact check + QA in 16).

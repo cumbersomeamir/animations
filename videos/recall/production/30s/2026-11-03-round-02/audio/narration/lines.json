@@ -1,0 +1,47 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Why are microwaved leftovers hot at the edge, cold in the middle?",
+      "file": "l01.wav",
+      "duration": 3.831,
+      "sr": 24000,
+      "words_per_s": 3.13
+    },
+    {
+      "id": "l02",
+      "text": "Waves bounce off the metal walls and overlap, leaving strong and weak spots.",
+      "file": "l02.wav",
+      "duration": 4.545,
+      "sr": 24000,
+      "words_per_s": 2.86
+    },
+    {
+      "id": "l03",
+      "text": "The turntable carries food through them, but in thick food the waves mostly heat the outer layers; the middle waits for heat to spread inward.",
+      "file": "l03.wav",
+      "duration": 8.004,
+      "sr": 24000,
+      "words_per_s": 3.12
+    },
+    {
+      "id": "l04",
+      "text": "So stir halfway, spread food evenly, and let it stand so the heat evens out.",
+      "file": "l04.wav",
+      "duration": 4.779,
+      "sr": 24000,
+      "words_per_s": 3.14
+    },
+    {
+      "id": "l05",
+      "text": "Download Recall for learning any new subject with AI.",
+      "file": "l05.wav",
+      "duration": 3.289,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

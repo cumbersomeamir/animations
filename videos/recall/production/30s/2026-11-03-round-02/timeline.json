@@ -1,0 +1,443 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.25
+  },
+  {
+   "id": "l02",
+   "start": 4.35
+  },
+  {
+   "id": "l03",
+   "start": 9.15
+  },
+  {
+   "id": "l04",
+   "start": 18.3
+  },
+  {
+   "id": "l05",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "mw_open",
+   "t0": 0.0,
+   "t1": 1.1
+  },
+  {
+   "id": "bowl_edge",
+   "t0": 1.1,
+   "t1": 2.55
+  },
+  {
+   "id": "taste_cold",
+   "t0": 2.55,
+   "t1": 4.2
+  },
+  {
+   "id": "giant_waves",
+   "t0": 4.2,
+   "t1": 6.6
+  },
+  {
+   "id": "giant_pattern",
+   "t0": 6.6,
+   "t1": 8.95
+  },
+  {
+   "id": "giant_turn",
+   "t0": 8.95,
+   "t1": 11.25
+  },
+  {
+   "id": "giant_section",
+   "t0": 11.25,
+   "t1": 14.95
+  },
+  {
+   "id": "giant_core",
+   "t0": 14.95,
+   "t1": 17.15
+  },
+  {
+   "id": "deadpan",
+   "t0": 17.15,
+   "t1": 18.2
+  },
+  {
+   "id": "panel_pause",
+   "t0": 18.2,
+   "t1": 18.9
+  },
+  {
+   "id": "stir_spread",
+   "t0": 18.9,
+   "t1": 20.75
+  },
+  {
+   "id": "giant_stand",
+   "t0": 20.75,
+   "t1": 23.1
+  },
+  {
+   "id": "bowl_steam",
+   "t0": 23.1,
+   "t1": 24.45
+  },
+  {
+   "id": "taste_smile",
+   "t0": 24.45,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "endBeep": 0.02,
+  "doorOpen": 0.38,
+  "dipEdge": 1.55,
+  "liftEdge": 1.95,
+  "taste1": 2.85,
+  "cold": 3.25,
+  "waves": 4.45,
+  "pattern": 6.25,
+  "turn": 8.95,
+  "shell0": 11.4,
+  "shell1": 13.9,
+  "core0": 14.95,
+  "core1": 17.1,
+  "deadpanBlink": 17.7,
+  "pause": 18.25,
+  "stir0": 18.95,
+  "stir1": 19.6,
+  "spread1": 20.45,
+  "mix": 20.75,
+  "stand0": 21.05,
+  "stand1": 22.95,
+  "dipMid": 23.7,
+  "taste2": 24.8,
+  "smile": 25.15,
+  "cta": 26.35,
+  "bite": 27.4,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.2,
+   "end": 3.0,
+   "lines": [
+    [
+     [
+      "Why are microwaved leftovers",
+      0
+     ]
+    ],
+    [
+     [
+      "hot at the edge,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 3.0,
+   "end": 4.2,
+   "lines": [
+    [
+     [
+      "cold in the middle?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.25,
+   "end": 6.95,
+   "lines": [
+    [
+     [
+      "Waves ",
+      0
+     ],
+     [
+      "bounce",
+      1
+     ],
+     [
+      " off",
+      0
+     ]
+    ],
+    [
+     [
+      "the metal walls and overlap,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.95,
+   "end": 9.05,
+   "lines": [
+    [
+     [
+      "leaving ",
+      0
+     ],
+     [
+      "strong",
+      1
+     ]
+    ],
+    [
+     [
+      "and ",
+      0
+     ],
+     [
+      "weak spots.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.05,
+   "end": 11.3,
+   "lines": [
+    [
+     [
+      "The ",
+      0
+     ],
+     [
+      "turntable",
+      1
+     ],
+     [
+      " carries",
+      0
+     ]
+    ],
+    [
+     [
+      "food through them,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 11.3,
+   "end": 14.95,
+   "lines": [
+    [
+     [
+      "but in thick food, the waves",
+      0
+     ]
+    ],
+    [
+     [
+      "mostly heat the ",
+      0
+     ],
+     [
+      "outer layers.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.95,
+   "end": 17.25,
+   "lines": [
+    [
+     [
+      "The ",
+      0
+     ],
+     [
+      "middle",
+      1
+     ],
+     [
+      " waits for heat",
+      0
+     ]
+    ],
+    [
+     [
+      "to spread inward.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.2,
+   "end": 20.95,
+   "lines": [
+    [
+     [
+      "So ",
+      0
+     ],
+     [
+      "stir halfway,",
+      1
+     ]
+    ],
+    [
+     [
+      "spread food evenly,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.95,
+   "end": 23.1,
+   "lines": [
+    [
+     [
+      "and ",
+      0
+     ],
+     [
+      "let it stand",
+      1
+     ]
+    ],
+    [
+     [
+      "so the heat evens out.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.15,
+   "end": 26.3,
+   "lines": [
+    [
+     [
+      "Stir, spread, let it stand.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.35,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download Recall",
+      1
+     ],
+     [
+      " for learning",
+      0
+     ]
+    ],
+    [
+     [
+      "any new subject with AI.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.2,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.2,
+   8.95,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   8.95,
+   14.95,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   14.95,
+   18.2,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   18.2,
+   23.1,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   23.1,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}
