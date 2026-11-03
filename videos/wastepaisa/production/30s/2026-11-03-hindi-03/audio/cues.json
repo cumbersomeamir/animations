@@ -1,0 +1,157 @@
+{
+ "sfx_cues": [
+  [
+   0.55,
+   "X-ray scan over the old pot"
+  ],
+  [
+   0.8,
+   "ALUMINIUM label"
+  ],
+  [
+   2.0,
+   "SMALL BUSINESS chip"
+  ],
+  [
+   3.5,
+   "sorting tray slides in"
+  ],
+  [
+   3.7,
+   "pot placed"
+  ],
+  [
+   4.1,
+   "frame offcut placed"
+  ],
+  [
+   5.1,
+   "steel screws pulled out"
+  ],
+  [
+   5.6,
+   "plastic gasket pulled"
+  ],
+  [
+   6.25,
+   "dirt brushed off"
+  ],
+  [
+   6.85,
+   "CLEAN ALUMINIUM tag"
+  ],
+  [
+   7.85,
+   "slab 1 stacks"
+  ],
+  [
+   8.05,
+   "slab 2 stacks"
+  ],
+  [
+   8.25,
+   "slab 3 stacks"
+  ],
+  [
+   8.1,
+   "CLEAN BULK label"
+  ],
+  [
+   8.6,
+   "recycler slides in"
+  ],
+  [
+   9.1,
+   "buy-rate bar"
+  ],
+  [
+   9.4,
+   "better-rate bar"
+  ],
+  [
+   11.1,
+   "GAP = EARNING"
+  ],
+  [
+   12.25,
+   "EXAMPLE tag"
+  ],
+  [
+   12.9,
+   "100 kg"
+  ],
+  [
+   13.35,
+   "purchase ticket"
+  ],
+  [
+   14.15,
+   "waste falls out"
+  ],
+  [
+   14.55,
+   "bale on scale"
+  ],
+  [
+   14.9,
+   "90 kg"
+  ],
+  [
+   15.4,
+   "sale ticket"
+  ],
+  [
+   16.9,
+   "SOLD stamp"
+  ],
+  [
+   17.6,
+   "turnover bar rises"
+  ],
+  [
+   18.3,
+   "purchase cost covers the bar"
+  ],
+  [
+   19.25,
+   "transport"
+  ],
+  [
+   19.64,
+   "labour"
+  ],
+  [
+   20.6,
+   "PROFIT 500"
+  ],
+  [
+   21.68,
+   "BILL card"
+  ],
+  [
+   22.22,
+   "VERIFIED SCALE card"
+  ],
+  [
+   24.29,
+   "GST REGISTRATION card"
+  ],
+  [
+   26.0,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.39",
+  "input_tp": "-3.09",
+  "input_lra": "2.40",
+  "input_thresh": "-27.98",
+  "output_i": "-15.58",
+  "output_tp": "-1.50",
+  "output_lra": "1.90",
+  "output_thresh": "-26.10",
+  "normalization_type": "dynamic",
+  "target_offset": "0.58"
+ }
+}

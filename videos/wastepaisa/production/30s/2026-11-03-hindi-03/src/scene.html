@@ -1,0 +1,319 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa hindi-03 episode 01 "पुराने एल्युमिनियम से छोटा कारोबार" (a small aluminium scrap aggregation business), Hindi.
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-03-round-02/src/scene.html, kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel, recap and CTA layout). New: aluminium props and scene functions, Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-03-hindi-03';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.5, [0, 1.6, 2.4]], [7.65, [0.25, 1.5, 2.0]], [12.1, [0, 1.85, 3.1]], [17.45, [-0.3, 1.7, 2.6]], [21.5, [0, 2.35, 3.7]], [25.9, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode's scenes
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- aluminium-business props (solid foreground objects) with X-ray reveal ----------
+const AL = { alu: '#cfd4da', aluHi: '#eef1f4', aluDark: '#8f969e', grime: '#5f584b', iron: '#6b6f74', ironDark: '#3c4045', plastic: '#2b2f36', dirt: '#6e4b2a', dirtHi: '#8a6238', jute: '#a8814f', juteDark: '#7a5a33' };
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function potShape(x, y, s, col, hi, dent) { // an old aluminium cooking pot (degchi): rim, tapered body, two side handles, a dent
+  g.save(); g.translate(x, y); g.scale(s, s); g.fillStyle = col; g.strokeStyle = col; g.lineWidth = 16; g.lineCap = 'round';
+  g.beginPath(); g.arc(-122, -28, 24, Math.PI * 0.5, Math.PI * 1.5); g.stroke(); g.beginPath(); g.arc(122, -28, 24, -Math.PI * 0.5, Math.PI * 0.5); g.stroke();
+  g.beginPath(); g.moveTo(-108, -58); g.lineTo(108, -58); g.quadraticCurveTo(116, 46, 86, 84); g.lineTo(-86, 84); g.quadraticCurveTo(-116, 46, -108, -58); g.closePath(); g.fill();
+  rr(-124, -78, 248, 28, 14); g.fill();
+  g.fillStyle = hi; g.fillRect(-80, -44, 16, 106); g.fillRect(-112, -74, 120, 7);
+  g.fillStyle = dent; g.beginPath(); g.ellipse(42, 14, 30, 15, 0.35, 0, 7); g.fill(); g.restore();
+}
+function pot(x, y, s, clean = 0, reveal = 0) { // grimy pot; `clean` fades the grime, `reveal` is an X-ray scan to bright metal
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; potShape(x, y, s, AL.grime, 'rgba(255,255,255,0.10)', 'rgba(0,0,0,0.25)'); g.restore();
+  if (clean > 0) { g.save(); g.globalAlpha *= clean; potShape(x, y, s, AL.alu, AL.aluHi, 'rgba(0,0,0,0.16)'); g.restore(); }
+  xrayClip(x - 150 * s, y - 90 * s, x + 150 * s, y + 92 * s, reveal, () => potShape(x, y, s, AL.alu, AL.aluHi, 'rgba(0,0,0,0.16)'));
+}
+function frameShape(x, y, s, gasket = 1, screws = 1) { // a window-frame corner offcut: L-shaped extrusion, rubber/plastic gasket, steel screws
+  g.save(); g.translate(x, y); g.scale(s, s); g.fillStyle = AL.alu; rr(-120, -20, 240, 40, 6); g.fill(); rr(-120, -20, 40, 190, 6); g.fill();
+  g.fillStyle = AL.aluDark; g.fillRect(-108, -4, 224, 6); g.fillRect(-104, 0, 6, 160); g.fillStyle = AL.aluHi; g.fillRect(-114, -16, 228, 5);
+  if (gasket > 0) { g.globalAlpha *= gasket; g.fillStyle = AL.plastic; rr(-80, 14, 196, 14, 7); g.fill(); rr(-86, 14, 14, 150, 7); g.fill(); g.globalAlpha /= gasket; }
+  if (screws > 0) for (const [dx, dy] of [[-100, 0], [40, 0]]) { g.globalAlpha *= screws; g.beginPath(); g.arc(dx, dy, 12, 0, 7); g.fillStyle = AL.iron; g.fill(); g.strokeStyle = AL.ironDark; g.lineWidth = 4; g.beginPath(); g.moveTo(dx - 7, dy); g.lineTo(dx + 7, dy); g.stroke(); g.globalAlpha /= screws; }
+  g.restore();
+}
+function screwsIcon(x, y, s = 1) { g.save(); g.translate(x, y); g.scale(s, s); for (const [dx, r] of [[-22, 0.4], [22, -0.3]]) { g.save(); g.translate(dx, 0); g.rotate(r);
+  g.fillStyle = AL.iron; g.fillRect(-5, -6, 10, 44); g.beginPath(); g.arc(0, -10, 14, 0, 7); g.fill(); g.strokeStyle = AL.ironDark; g.lineWidth = 4; g.beginPath(); g.moveTo(-8, -10); g.lineTo(8, -10); g.stroke(); g.restore(); } g.restore(); }
+function gasketIcon(x, y, s = 1) { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = AL.plastic; g.lineWidth = 14; g.lineCap = 'round'; g.beginPath(); g.moveTo(-50, -14); g.quadraticCurveTo(0, 26, 50, -10); g.stroke();
+  g.strokeStyle = 'rgba(255,255,255,0.18)'; g.lineWidth = 3; g.beginPath(); g.moveTo(-44, -16); g.quadraticCurveTo(0, 20, 44, -12); g.stroke(); g.restore(); }
+function dirtIcon(x, y, s = 1) { g.save(); g.translate(x, y); g.scale(s, s); g.fillStyle = AL.dirt; g.beginPath(); g.ellipse(0, 10, 54, 22, 0, 0, 7); g.fill(); g.beginPath(); g.ellipse(-8, -2, 30, 18, 0, 0, 7); g.fill();
+  g.fillStyle = AL.dirtHi; const r = rng(31); for (let i = 0; i < 9; i++) { g.beginPath(); g.arc(-40 + r() * 80, -4 + r() * 24, 3 + r() * 3, 0, 7); g.fill(); } g.restore(); }
+function sack(x, y, s = 1) { // jute sack of mixed scrap with a frame corner and a pot handle poking out
+  g.save(); g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  g.fillStyle = AL.alu; g.fillRect(-30, -140, 18, 70); g.fillStyle = AL.grime; g.beginPath(); g.arc(40, -96, 34, Math.PI, 0); g.fill();
+  g.fillStyle = AL.jute; g.beginPath(); g.moveTo(-96, -96); g.quadraticCurveTo(0, -126, 96, -96); g.quadraticCurveTo(126, 20, 92, 96); g.lineTo(-92, 96); g.quadraticCurveTo(-126, 20, -96, -96); g.closePath(); g.fill(); g.shadowColor = 'transparent';
+  g.strokeStyle = AL.juteDark; g.lineWidth = 3; for (let i = -70; i <= 70; i += 20) { g.beginPath(); g.moveTo(i, -100); g.lineTo(i * 1.12, 92); g.stroke(); } g.restore(); }
+function bale(x, y, w, h, n = 3) { // a strapped stack of clean, sorted aluminium (n slabs visible)
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; const sh = h / 3;
+  for (let i = 0; i < n; i++) { const yy = y - (i + 1) * sh; rr(x - w / 2, yy, w, sh - 4, 8); g.fillStyle = i % 2 ? AL.alu : '#c3c9d0'; g.fill(); if (i === 0) g.shadowColor = 'transparent';
+    g.fillStyle = AL.aluHi; g.fillRect(x - w / 2 + 10, yy + 6, w - 20, 5); g.fillStyle = 'rgba(0,0,0,0.12)'; for (let k = -2; k <= 2; k++) g.fillRect(x + k * w / 6 - 2, yy + 14, 4, sh - 22); }
+  if (n >= 3) { g.fillStyle = C.warm; g.fillRect(x - w / 2 - 4, y - h * 0.72, w + 8, 9); g.fillRect(x - w / 2 - 4, y - h * 0.3, w + 8, 9); }
+  g.restore(); }
+function scaleBase(x, y, w) { g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(x - w / 2, y, w, 34, 8); g.fillStyle = '#59616b'; g.fill(); g.shadowColor = 'transparent';
+  g.fillStyle = '#7d8790'; g.fillRect(x - w / 2, y, w, 8); g.restore(); }
+function factory(x, y, s = 1) { // recycler: simple shed with sawtooth roof
+  g.save(); g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; g.fillStyle = '#3a4048';
+  g.beginPath(); g.moveTo(-120, 70); g.lineTo(-120, -40); for (let i = 0; i < 3; i++) { const x0 = -120 + i * 80; g.lineTo(x0 + 60, -90); g.lineTo(x0 + 80, -90); g.lineTo(x0 + 80, -40); } g.lineTo(120, 70); g.closePath(); g.fill();
+  g.shadowColor = 'transparent'; g.fillStyle = '#2a2f35'; rr(-34, 10, 68, 60, 6); g.fill(); g.fillStyle = 'rgba(143,211,224,0.55)'; for (const dx of [-90, 62]) rr(dx, -20, 28, 22, 4), g.fill(); g.restore(); }
+function arrow(x0, y0, x1, y1, k, col = C.warm) { if (k <= 0) return; const xe = lerp(x0, x1, k), ye = lerp(y0, y1, k); g.save(); g.strokeStyle = col; g.lineWidth = 6; g.setLineDash([16, 12]); g.beginPath(); g.moveTo(x0, y0); g.lineTo(xe, ye); g.stroke(); g.setLineDash([]);
+  const an = Math.atan2(y1 - y0, x1 - x0); g.fillStyle = col; g.beginPath(); g.moveTo(xe + Math.cos(an) * 14, ye + Math.sin(an) * 14); g.lineTo(xe + Math.cos(an + 2.4) * 22, ye + Math.sin(an + 2.4) * 22); g.lineTo(xe + Math.cos(an - 2.4) * 22, ye + Math.sin(an - 2.4) * 22); g.closePath(); g.fill(); g.restore(); }
+function ticket(x, y, rot, title, value, a) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-150, -96, 300, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 40, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function tray(x, y, w, fill, a = 1) { g.save(); g.globalAlpha *= a; g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  g.beginPath(); g.moveTo(x - w / 2, y - 40); g.lineTo(x + w / 2, y - 40); g.lineTo(x + w / 2 - 18, y + 46); g.lineTo(x - w / 2 + 18, y + 46); g.closePath(); g.fillStyle = '#59616b'; g.fill(); g.shadowColor = 'transparent';
+  g.fillStyle = '#7d8790'; g.fillRect(x - w / 2, y - 46, w, 12); if (fill) fill(); g.restore(); }
+const fly = (x0, y0, x1, y1, k) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * 120]; // arc path for parts being pulled out
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.5: mascot holds an old grimy pot; X-ray shows clean aluminium; "small business"
+  g.save(); g.globalAlpha = a;
+  const m = mascot(300, 1430, 1.25, { armL: [-0.15, 115], armR: [1.15, 70], look: [0.8, 0.1], lid: -0.5, blink: (t > 2.9 && t < 3.0) ? 1 : 0 });
+  const [hx, hy] = m.hand(1); pot(hx + 200, hy + 6, 1.25, 0, easeOut(prog(t, 0.55, 1.6)));
+  label('एल्युमिनियम', 770, 1010, prog(t, 0.8, 1.05), { size: 44, warm: t < 2.0, to: [770, 1200] });
+  if (t > 2.0) { const k = back(prog(t, 2.0, 2.35)); g.save(); g.translate(600, 780); g.scale(k, k); rr(-190, -46, 380, 92, 46); g.fillStyle = C.warm; g.fill(); textC('छोटा कारोबार', 0, 4, 50, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sSort(t, a) { // 3.5 - 7.65: buy pots and frame offcuts, pull out iron, plastic and dirt
+  g.save(); g.globalAlpha = a;
+  const k = easeOut(prog(t, 3.5, 3.95)), ty = lerp(1700, 1240, k), pX = 320, fX = 720, iy = ty + 74;
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(110, ty - 50, 860, 240, 26); g.fillStyle = '#3a4048'; g.fill(); g.restore();
+  rr(130, ty - 32, 820, 206, 20); g.fillStyle = '#2a2f35'; g.fill();
+  const dP = back(prog(t, 3.7, 4.0)), dF = back(prog(t, 4.1, 4.4)), ironK = prog(t, 5.1, 5.6), plasK = prog(t, 5.6, 6.1), dirtK = prog(t, 6.25, 6.75);
+  if (dP > 0) { g.save(); g.translate(pX, iy); g.scale(dP, dP); g.translate(-pX, -iy); pot(pX, iy, 0.8, ease(dirtK)); g.restore(); }
+  if (dF > 0) { g.save(); g.translate(fX, iy); g.scale(dF, dF); g.translate(-fX, -iy); frameShape(fX, iy - 52, 0.9, 1 - (plasK > 0 ? 1 : 0), 1 - (ironK > 0 ? 1 : 0)); g.restore(); }
+  const cleanTag = prog(t, 6.85, 7.1), itemOut = 1 - prog(t, 6.45, 6.7);
+  label('बर्तन', pX, ty - 104, prog(t, 3.75, 4.0) * itemOut, { size: 44, warm: t < 4.1 });
+  label('फ्रेम', fX, ty - 104, prog(t, 4.15, 4.4) * itemOut, { size: 44, warm: t > 4.1 && t < 5.1 });
+  // contaminants fly out to three piles above the tray
+  const piles = [['लोहा', 820, 740, ironK, (x, y) => screwsIcon(x, y, 1.6), [fX - 90, iy - 52], 5.1], ['प्लास्टिक', 540, 700, plasK, (x, y) => gasketIcon(x, y, 1.6), [fX + 10, iy - 30], 5.6], ['गंदगी', 260, 740, dirtK, (x, y) => dirtIcon(x, y, 1.4), [pX, iy], 6.25]];
+  for (const [name, x, y, kk, draw, from, ts] of piles) { if (kk <= 0) continue; const [px, py] = fly(from[0], from[1], x, y + 130, easeOut(kk)); draw(px, py);
+    label(name, x, y, prog(t, ts + 0.05, ts + 0.3), { size: 44, warm: t < ts + 0.55 }); }
+  if (cleanTag > 0) label('साफ़ एल्युमिनियम', 540, ty - 104, cleanTag, { size: 44, warm: true });
+  g.restore();
+}
+function sValue(t, a) { // 7.65 - 12.1: clean bulk lots sell at a better rate; the gap is the earning
+  g.save(); g.globalAlpha = a;
+  const base = 1360, bx = 540, buyX = 230, sellX = 850, barW = 150, bot = 1095, hBuy = 300, hSell = 384;
+  sack(buyX, base - 96, 0.8);
+  scaleBase(bx, base - 20, 300);
+  const nSl = t < 7.85 ? 0 : t < 8.05 ? 1 : t < 8.25 ? 2 : 3; if (nSl) bale(bx, base - 20, 240, 170, nSl);
+  if (t > 7.75 && t < 8.35) { const kk = ((t - 7.75) % 0.2) / 0.2; const [px, py] = fly(buyX + 30, base - 150, bx, base - 120, easeOut(kk)); g.fillStyle = AL.alu; rr(px - 30, py - 12, 60, 24, 6); g.fill(); }
+  label('साफ़ थोक माल', bx, base - 250, prog(t, 8.1, 8.35), { size: 42, warm: t < 9.3 });
+  const fk = easeOut(prog(t, 8.6, 9.0)); g.save(); g.globalAlpha *= fk; factory(lerp(1100, sellX, fk), base - 60, 0.95); g.restore();
+  arrow(bx + 150, base - 90, sellX - 130, base - 90, prog(t, 8.9, 9.25));
+  label('रीसाइक्लर', sellX, base + 46, prog(t, 9.0, 9.25), { size: 40 });
+  const b1 = easeOut(prog(t, 9.1, 9.5)), b2 = easeOut(prog(t, 9.4, 9.85));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16;
+  if (b1 > 0) { rr(buyX - barW / 2, bot - hBuy * b1, barW, hBuy * b1, 10); g.fillStyle = '#8f969e'; g.fill(); }
+  if (b2 > 0) { rr(sellX - barW / 2, bot - hSell * b2, barW, hSell * b2, 10); g.fillStyle = C.cream; g.fill(); }
+  g.restore();
+  label('खरीद भाव', buyX, bot - hBuy - 46, prog(t, 9.35, 9.6), { size: 40 });
+  label('बेहतर भाव', sellX, bot - hSell - 46, prog(t, 9.7, 9.95), { size: 40, warm: t < 10.8 });
+  const gk = prog(t, 10.85, 11.2); if (gk > 0) { g.save(); g.globalAlpha *= gk; g.strokeStyle = 'rgba(254,247,238,0.6)'; g.lineWidth = 3; g.setLineDash([10, 10]); g.beginPath(); g.moveTo(buyX + barW / 2, bot - hBuy); g.lineTo(sellX - barW / 2 - 10, bot - hBuy); g.stroke(); g.setLineDash([]);
+    g.fillStyle = C.warm; g.fillRect(sellX - barW / 2 - 26, bot - hSell, 14, hSell - hBuy); g.restore(); }
+  label('फ़र्क = कमाई', 520, 880, prog(t, 11.1, 11.35), { size: 46, warm: true, to: [sellX - barW / 2 - 26, bot - (hSell + hBuy) / 2] });
+  g.restore();
+}
+function sExample(t, a) { // 12.1 - 17.45: illustrative numbers: buy 100 kg for 10,000; 90 kg clean sells for 11,500
+  g.save(); g.globalAlpha = a;
+  const y = 1230, L = 270, R = 810;
+  const tagK = back(prog(t, 12.25, 12.6)); if (tagK > 0) { g.save(); g.translate(540, 640); g.scale(tagK, tagK); rr(-130, -40, 260, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('उदाहरण', 0, 4, 46, C.warm, 800); g.restore(); }
+  const sk = easeOut(prog(t, 12.2, 12.6)); g.save(); g.globalAlpha *= sk; sack(L, y - 10, 0.95); g.restore();
+  label('100 किलो', L, y + 140, prog(t, 12.9, 13.15), { size: 44, warm: t < 14.5 });
+  ticket(L, 860, -0.05, 'खरीद', '₹10,000', back(prog(t, 13.35, 13.65)));
+  arrow(L + 130, y, R - 150, y, prog(t, 14.0, 14.5));
+  const dk = prog(t, 14.1, 14.7); if (dk > 0) { const yy = lerp(y + 10, 1350, easeOut(dk)); dirtIcon(540, yy, 0.7); screwsIcon(500, yy - 10, 0.6); }
+  label('−10 किलो', 540, 1430, prog(t, 14.35, 14.6), { size: 40 });
+  const bk = back(prog(t, 14.55, 14.9)); if (bk > 0) { g.save(); g.translate(R, y + 100); g.scale(bk, bk); g.translate(-R, -(y + 100)); scaleBase(R, y + 70, 270); bale(R, y + 70, 220, 160, 3); g.restore(); }
+  label('90 किलो', R, y + 160, prog(t, 14.9, 15.15), { size: 44, warm: t > 14.8 });
+  ticket(R, 860, 0.05, 'बिक्री', '₹11,500', back(prog(t, 15.4, 15.7)));
+  if (t > 16.9) { const k = back(prog(t, 16.9, 17.2)); g.save(); g.translate(R + 70, 760); g.rotate(-0.12); g.scale(k, k); rr(-70, -32, 140, 64, 12); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC('बिका', 0, 3, 40, C.warm, 800); g.restore(); }
+  g.restore();
+}
+function sProfit(t, a) { // 17.45 - 21.5: turnover is not profit: subtract purchase, transport, labour; ~500 left
+  g.save(); g.globalAlpha = a;
+  const x0 = 360, w = 180, top = 720, H = 680, px = H / 11500, yP = top + 10000 * px, yT = yP + 500 * px, yL = yT + 500 * px, bottom = top + H;
+  const tagA = prog(t, 17.55, 17.8); label('उदाहरण · भाव रोज़ बदलते हैं', 540, 630, tagA, { size: 40 });
+  const rise = easeOut(prog(t, 17.6, 17.95));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bottom - H * rise, w, H * rise, 12); g.fillStyle = C.cream; g.fill(); g.restore();
+  const seg = (y0, y1, col, k) => { if (k <= 0) return; g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = col; g.fillRect(x0, y0, w, (y1 - y0) * k); g.restore(); };
+  seg(top, yP, '#59616b', easeOut(prog(t, 18.3, 18.8)));
+  seg(yP, yT, '#a85a1c', prog(t, 19.25, 19.45));
+  seg(yT, yL, '#7a5129', prog(t, 19.64, 19.84));
+  const pk = prog(t, 20.5, 20.8); seg(yL, bottom, C.warm, pk);
+  label('बिक्री ₹11,500', 220, top - 10, prog(t, 17.75, 18.0), { size: 40, warm: t < 18.3, to: [x0 + 6, top + 14] });
+  label('खरीद −₹10,000', 760, 960, prog(t, 18.4, 18.65), { size: 40, warm: t > 18.3 && t < 19.2, to: [x0 + w - 6, top + 260] });
+  label('ढुलाई −₹500', 760, 1150, prog(t, 19.25, 19.5), { size: 40, warm: t > 19.2 && t < 19.6, to: [x0 + w - 6, (yP + yT) / 2] });
+  label('मज़दूरी −₹500', 760, 1250, prog(t, 19.64, 19.9), { size: 40, warm: t > 19.6 && t < 20.5, to: [x0 + w - 6, (yT + yL) / 2] });
+  if (pk > 0) { const k = back(prog(t, 20.6, 20.95)); g.save(); g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(x0 + w, (yL + bottom) / 2); g.lineTo(620, 1372); g.stroke(); g.translate(790, 1372); g.scale(k, k);
+    rr(-170, -42, 340, 84, 42); g.fillStyle = C.warm; g.fill(); textC('मुनाफ़ा ₹500', 0, 4, 48, '#1d130e', 800); g.restore(); }
+  mascot(190, 1460, 0.62, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, stern: t > 19.1 && t < 20.5 ? 1 : 0, hop: t > 20.6 && t < 21.1 ? Math.sin((t - 20.6) * 6.28) * 8 : 0 });
+  g.restore();
+}
+function billIcon() { rr(-40, -48, 80, 96, 8); g.fillStyle = C.cream; g.fill(); g.fillStyle = 'rgba(29,19,14,0.55)'; for (let i = 0; i < 3; i++) g.fillRect(-26, -30 + i * 18, 52, 6); textC('₹', 0, 30, 34, C.warm, 800); }
+function scaleIcon() { g.fillStyle = '#7d8790'; rr(-50, 16, 100, 22, 6); g.fill(); g.fillRect(-6, -20, 12, 40); g.fillStyle = C.cream; rr(-40, -44, 80, 30, 6); g.fill();
+  g.beginPath(); g.arc(30, 14, 18, 0, 7); g.fillStyle = C.warm; g.fill(); g.strokeStyle = '#1d130e'; g.lineWidth = 4; g.beginPath(); g.moveTo(22, 14); g.lineTo(28, 20); g.lineTo(39, 7); g.stroke(); }
+function regIcon() { rr(-44, -36, 88, 72, 10); g.fillStyle = C.cream; g.fill(); g.beginPath(); g.arc(-18, -6, 14, 0, 7); g.fillStyle = '#8f969e'; g.fill(); g.fillStyle = 'rgba(29,19,14,0.55)'; g.fillRect(4, -16, 30, 6); g.fillRect(4, -2, 30, 6); g.fillRect(-30, 16, 64, 6); }
+function sRecap(t, a) { // 21.5 - 25.9: do it properly: proper bill, verified scale, GST registration as turnover grows
+  g.save(); g.globalAlpha = a;
+  const items = [['पक्का बिल', 21.68, billIcon], ['सत्यापित तराज़ू', 22.22, scaleIcon], ['जीएसटी पंजीकरण', 24.29, regIcon]];
+  items.forEach(([s, ts, icon], i) => { const k = back(prog(t, ts, ts + 0.35)); if (k <= 0) return; const y = 730 + i * 180, warm = i === 2; g.save(); g.translate(500, y); g.scale(k, k);
+    rr(-300, -70, 600, 140, 30); g.fillStyle = warm ? 'rgba(244,109,18,0.95)' : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = warm ? C.warm : 'rgba(254,247,238,0.4)'; g.lineWidth = 3; g.stroke();
+    textC(s, 50, 6, 58, warm ? '#1d130e' : C.cream, 800); g.translate(-225, 0); icon(); g.restore(); });
+  label('सीमा: ज़्यादातर राज्यों में ₹40 लाख/साल', 470, 1250, prog(t, 24.8, 25.05), { size: 40 });
+  mascot(900, 1450, 0.72, { armL: [-0.6, 90], armR: [1.2, 60], look: [-0.6, -0.5], lid: -0.5, blink: (t > 23.0 && t < 23.1) ? 1 : 0 });
+  g.restore();
+}
+function sCTA(t, a) { // 25.9 - 30: short natural brand/action CTA (accepted layout; Hindi action line)
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 26.0, 26.45));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('अपना कबाड़ काम में लाइए', 540, 1192, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 26) * 5)) * 8 * (t > 26 && t < 27.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.5], [sSort, 3.5, 7.65], [sValue, 7.65, 12.1], [sExample, 12.1, 17.45], [sProfit, 17.45, 21.5], [sRecap, 21.5, 25.9], [sCTA, 25.9, 30.1]];
+const XF = 0.3; // short dissolve between scenes (camera travel carries the move)
+
+// ---------- captions (Hindi, Devanagari): upper safe region, ink y ~340-520, x 90-990, max 2 lines ----------
+// A group is 'text' (onset by character share, as before) or ['text', onset-in-seconds-from-line-start] where the
+// proportional estimate drifts (digits are short on screen but long when spoken); onsets come from Hindi ASR word times.
+const GROUPS = {
+  L1: ['पुराना [एल्युमिनियम]|छोटा [कारोबार] बन सकता है।'],
+  L2: ['[बर्तन-फ्रेम] खरीदिए,', ['लोहा, प्लास्टिक और गंदगी|[अलग कीजिए।]', 1.41]],
+  L3: ['[साफ़ थोक माल] का अक्सर|[बेहतर भाव] मिलता है;', ['यही [फ़र्क कमाई] है।', 3.0]],
+  L4: ['मान लीजिए [100 किलो]|[₹10,000] में लिया,', ['साफ़ [90 किलो]|[₹11,500] में बिका।', 2.28]],
+  L5: ['ये [बिक्री] है,|[मुनाफ़ा नहीं;]', ['ढुलाई-मज़दूरी के बाद|बचे [₹500।]', 1.59]],
+  L6: ['पक्का [बिल,]|सत्यापित [तराज़ू;]', ['बिक्री बढ़े तो|[जीएसटी पंजीकरण।]', 1.80]],
+  L7: ['[वेस्टपैसा] से जुड़िए और|अपना कबाड़ काम में लाइए!'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  g.font = '800 62px "Baloo 2"'; const lines = c.text.split('|'), lh = 84, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(W / 2 - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 25.9 ? 1 : lerp(1, 0.5, prog(t, 25.9, 26.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { f(t, al); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

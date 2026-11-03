@@ -110,6 +110,33 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   caption ink y 366–494, x 144–936 · timing within ±0.03 s · ASR mean 0.952 (brand OOV + "an/and")
 - Feedback saved as the round-02 editorial emphasis update in `context/11-production-format.md`; episode record `context/15-round-02-01.md`. No automation.
 
+## hindi-03 (2026-11-03-hindi-03) episode 01: COMPLETE (Hindi)
+- **Topic:** a small aluminium scrap business (buy → sort → clean → aggregate → sell to a recycler; turnover vs profit).
+  New topic, history checked. Style: accepted Scrap Shop X-ray, unchanged.
+- **Language (latest user correction):** all narration and captions are natural Hindi in Devanagari.
+  - Voice: Kokoro-82M native Hindi voices **hf_beta 0.7 + hm_omega 0.3**, `lang='hi'`, speed 1.15. The English-only
+    voices were not used.
+  - Font: Baloo 2 Devanagari faces; caption line spacing 84 px.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-03-hindi-03/wastepaisa-30s-hindi03-01.mp4`,
+  SHA-256 `95e28ec88b4c94e0fee5e331ec3a37d8e1a0b5b2e2e6022edc1dddd8f13e22ec`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.5 dBTP.
+- **Checks:**
+  - Caption ink y 348–512, x 212–868.
+  - Hindi ASR on the export (Vosk small-hi): mean 0.933. Near-homophone and window-start misses were resolved by shifted
+    and constrained decoding; faster-whisper small was a second check.
+- **Research:** prices are illustrative (मान लीजिए / उदाहरण) because dated rates conflict.
+  - Sources: Kabadiwala Online, ScrapC and National Recycling (prices); CBIC 10/2019-CT and the 2024/2026 metal-scrap GST
+    notifications (GST); Legal Metrology Act 2009.
+  - Episode record: `context/16-hindi-03-01.md`. A Hindi-language note was added to context 11. No automation.
+- **Exact commands:** see the output folder `README.md`.
+- **Unresolved:**
+  - No human listening test.
+  - The 1 Nov 2026 GST changes come from secondary sources.
+  - The Desktop review folder isn't reachable from the cloud (delivered as an attachment).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

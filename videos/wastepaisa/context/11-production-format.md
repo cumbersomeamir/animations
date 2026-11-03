@@ -36,6 +36,18 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   mascot, palette, caption treatment, the Kokoro voice and voice-forward subtle-pad audio, pacing, and the CTA
   "Join WastePaisa and put your scrap to use."
 
+## Language note: hindi-03 (2026-11-03, latest user correction)
+- When an episode is Hindi, **all narration and captions are natural Hindi in Devanagari**. Never feed Hindi to the
+  English-only voices.
+- Voice: Kokoro-82M native Hindi voices **hf_beta 0.7 + hm_omega 0.3**, `lang='hi'`, speed 1.15. Check every line
+  with a Hindi ASR.
+- Fonts: Baloo 2 Devanagari faces (OFL, same family); caption line spacing 84 px. Numbers may appear as digits with ₹
+  in captions while spoken as Hindi words.
+- Kept unchanged: the brand wordmark "WastePaisa" and the icon. The CTA in Hindi is
+  "वेस्टपैसा से जुड़िए और अपना कबाड़ काम में लाइए!"
+- Business or value maths needs dated sources, or explicitly illustrative numbers ("मान लीजिए" + on-screen "उदाहरण"),
+  with turnover and profit always separated. Reference implementation: `production/30s/2026-11-03-hindi-03/src/scene.html`.
+
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),
   not disposal lectures. One practical value check per episode. No made-up rupee rates, guaranteed earnings,

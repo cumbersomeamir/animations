@@ -1,0 +1,27 @@
+Hindi intelligibility and timing evidence: wastepaisa-30s-hindi03-01.mp4 (all passes run on the exported AAC audio)
+
+1) Vosk vosk-model-small-hi-0.22 (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.30 heard 0.30 | offset plan 3.38 heard 3.36 | heard: पुराना एल्यूमिनियम छोटा कारोबार बन सकता है
+   L2 word acc 1.00 | onset plan 3.68 heard 3.71 | offset plan 7.49 heard 7.46 | heard: बरतन फ्रेम खरीदिए लोहा प्लास्टिक और गंदगी अलग कीजिए
+   L3 word acc 0.92 | onset plan 7.80 heard 8.12 | offset plan 11.98 heard 11.97 | heard: थोक माल का अक्सर बेहतर भाव मिलता है यही फर्क कमाई है
+   L4 word acc 1.00 | onset plan 12.25 heard 12.25 | offset plan 17.27 heard 17.26 | heard: मान लीजिए सौ किलो दस हजार में लिया साफ नब्बे किलो साढ़े ग्यारह हजार में बिका
+   L5 word acc 0.92 | onset plan 17.60 heard 17.75 | offset plan 21.34 heard 21.32 | heard: बिक्री है मुनाफा नहीं ढुलाई मजदूरी के बाद बचे पाँच सौ
+   L6 word acc 0.89 | onset plan 21.68 heard 21.68 | offset plan 25.37 heard 25.31 | heard: पक्का बिल सत्यापित तराजू बिक्री बढ़ी तो जीएसटी पंजीकरण
+   L7 word acc 0.80 | onset plan 26.20 heard 26.23 | offset plan 29.37 heard 29.31 | heard: वेस्ट पैसा से जुड़ी है और अपना कबाड़ काम में लाई
+   mean word accuracy 0.933 (normalisation: nukta removed, chandrabindu->anusvara, punctuation/hyphens removed, यह=ये, बरतन=बर्तन, एल्यूमिनियम=एल्युमिनियम (spelling variants only))
+
+2) First-word misses in L3 and L5 depend on the analysis window, not on the audio:
+   L3 window from 7.75 s: 'साफ थोक माल का अक्सर बेहतर भाव मिलता है यही फर्क कमाई है' (all words)
+   L5 window from 17.00 s: '... यह बिक्री है मुनाफा नहीं ढुलाई मजदूरी के बाद बचे पाँच सौ' (all words; यह = ये)
+
+3) Constrained decoding (Vosk grammar = intended sentence vs its near-homophone) on the export:
+   L6 -> 'पक्का बिल सत्यापित तराजू बिक्री बढ़े तो जीएसटी पंजीकरण' (all word confidences 1.0; free decoding wrote बढ़ी)
+   L7 -> 'वेस्ट पैसा से जुड़िए और अपना कबाड़ काम में लाइए' (confidences 1.0 ... 0.94; free decoding wrote 'जुड़ी है' / 'लाई', a known near-homophone of the polite imperative)
+
+4) Second engine, faster-whisper 'small' multilingual (MIT code, OpenAI Whisper weights), whole export, language=hi:
+   पुराना एल्युमिन्यम छोटा कारोबार बन सकता है बर्टंप्रेम कहरी दिये, लोहा प्लास्टिक और गन्दगी अलग की जिये साफ थोख माल का अकसर बहतर भाव मिलता है यही फर्क कमाई है मान लीजे सो किलो दस हजार में लिया साफ नभी किलो सारहे ग्यार है हाजार में भिका ये भिक्री है मुनाफा नहीं दूलाई मस्दूरी के बाद बचे पाज्सो पक्का बिल सत्यापित तराजो भिक्री बरहे तो जीएस्ती पंजी करां वेस्त पैसा से जुडिये और अपना कबार काम में लाये
+   Every content word is present in phonetic spelling. Whisper-small is weak at Hindi orthography (e.g. भिक्री for बिक्री), so it is a
+   corroborating listen, not a word-accuracy score. Its distinct slips: हज़ार -> 'हाजार', पाँच सौ -> 'पाज्सो', पंजीकरण -> 'पंजी करां'.
+
+5) Narration-only takes (before mixing), Vosk Hindi: L1-L6 transcribed word for word (spelling variants only); see PRODUCTION-NOTES.md.
+No human listening test was possible in this cloud session.
