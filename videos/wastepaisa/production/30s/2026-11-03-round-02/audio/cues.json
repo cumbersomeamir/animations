@@ -1,0 +1,133 @@
+{
+ "sfx_cues": [
+  [
+   0.9,
+   "X-ray scan over the tap"
+  ],
+  [
+   2.0,
+   "BRASS label"
+  ],
+  [
+   3.0,
+   "tray slides in"
+  ],
+  [
+   3.55,
+   "tap placed"
+  ],
+  [
+   4.15,
+   "door handle placed"
+  ],
+  [
+   4.75,
+   "fitting placed"
+  ],
+  [
+   6.3,
+   "composition disc"
+  ],
+  [
+   6.85,
+   "COPPER label"
+  ],
+  [
+   7.25,
+   "ZINC label"
+  ],
+  [
+   8.5,
+   "magnet descends"
+  ],
+  [
+   9.75,
+   "NO PULL"
+  ],
+  [
+   11.05,
+   "plated handle snaps to magnet"
+  ],
+  [
+   11.35,
+   "X-ray steel core"
+  ],
+  [
+   11.45,
+   "STEEL CORE label"
+  ],
+  [
+   13.2,
+   "fitting into clean tray"
+  ],
+  [
+   13.4,
+   "steel screws marked"
+  ],
+  [
+   13.9,
+   "SEPARATE GRADES"
+  ],
+  [
+   14.4,
+   "handle with screws into brass + steel tray"
+  ],
+  [
+   15.6,
+   "valve into clean tray"
+  ],
+  [
+   16.9,
+   "SORTED"
+  ],
+  [
+   19.05,
+   "buyer 1 ticket"
+  ],
+  [
+   19.45,
+   "buyer 2 ticket"
+  ],
+  [
+   19.85,
+   "buyer 3 ticket"
+  ],
+  [
+   20.2,
+   "COMPARE"
+  ],
+  [
+   21.55,
+   "PRICES CHANGE"
+  ],
+  [
+   23.2,
+   "IDENTIFY"
+  ],
+  [
+   23.85,
+   "SORT"
+  ],
+  [
+   24.5,
+   "COMPARE"
+  ],
+  [
+   26.0,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-18.61",
+  "input_tp": "-2.86",
+  "input_lra": "7.70",
+  "input_thresh": "-29.85",
+  "output_i": "-14.85",
+  "output_tp": "-1.50",
+  "output_lra": "5.80",
+  "output_thresh": "-26.00",
+  "normalization_type": "dynamic",
+  "target_offset": "-0.15"
+ }
+}

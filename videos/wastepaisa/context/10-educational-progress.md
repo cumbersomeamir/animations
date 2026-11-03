@@ -102,6 +102,14 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   The old batch-02 draft was not resubmitted. No automation.
 - Limits: no human listening test; brief double-exposure in 0.3 s dissolves; the local review folder isn't reachable from cloud (delivered as an attachment).
 
+## Round 02 (2026-11-03-round-02) episode 01: COMPLETE
+- Topic: brass scrap in old taps and door handles (new topic; history checked). Style: accepted Scrap Shop X-ray, unchanged.
+- Output: `videos/wastepaisa/production/30s/2026-11-03-round-02/wastepaisa-30s-round02-01.mp4`,
+  SHA-256 `d887246283134860a03b6f167b5acb59e82eacc72d460e197af73fca515f5e4d`
+- 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo · clean decode · −15.0 LUFS / −1.4 dBTP ·
+  caption ink y 366–494, x 144–936 · timing within ±0.03 s · ASR mean 0.952 (brand OOV + "an/and")
+- Feedback saved as the round-02 editorial emphasis update in `context/11-production-format.md`; episode record `context/15-round-02-01.md`. No automation.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

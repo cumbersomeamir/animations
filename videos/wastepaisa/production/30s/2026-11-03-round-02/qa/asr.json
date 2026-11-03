@@ -1,0 +1,86 @@
+[
+ {
+  "id": "L1",
+  "script": "That old tap could be hiding valuable metal.",
+  "asr": "that old tap could be hiding valuable metal",
+  "word_accuracy": 1.0,
+  "planned": [
+   0.3,
+   2.681
+  ],
+  "heard": [
+   0.27,
+   2.67
+  ]
+ },
+ {
+  "id": "L2",
+  "script": "Many old taps, door handles and fittings are brass, an alloy of copper and zinc.",
+  "asr": "many old taps door handles and fittings are brass and alloy of copper and zinc",
+  "word_accuracy": 0.933,
+  "planned": [
+   3.05,
+   7.886
+  ],
+  "heard": [
+   3.02,
+   7.88
+  ]
+ },
+ {
+  "id": "L3",
+  "script": "A magnet helps: brass won't stick, but brass-plated steel will.",
+  "asr": "a magnet helps brass won't stick but brass plated steel will",
+  "word_accuracy": 1.0,
+  "planned": [
+   8.35,
+   12.095
+  ],
+  "heard": [
+   8.38,
+   12.1
+  ]
+ },
+ {
+  "id": "L4",
+  "script": "Clean brass is graded separately from brass with steel parts attached, so sort them apart.",
+  "asr": "clean brass is graded separately from brass with steel parts attached so sort them apart",
+  "word_accuracy": 1.0,
+  "planned": [
+   12.7,
+   18.109
+  ],
+  "heard": [
+   12.67,
+   18.1
+  ]
+ },
+ {
+  "id": "L5",
+  "script": "Then compare quotes from a few local buyers, because prices change.",
+  "asr": "then compare quotes from a few local buyers because prices change",
+  "word_accuracy": 1.0,
+  "planned": [
+   18.65,
+   22.532
+  ],
+  "heard": [
+   18.62,
+   22.52
+  ]
+ },
+ {
+  "id": "L6",
+  "script": "Join WastePaisa and put your scrap to use.",
+  "asr": "join waste python and put your scrap to use",
+  "word_accuracy": 0.778,
+  "planned": [
+   26.2,
+   28.685
+  ],
+  "heard": [
+   26.2,
+   28.66
+  ]
+ }
+]

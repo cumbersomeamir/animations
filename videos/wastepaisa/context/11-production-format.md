@@ -27,6 +27,15 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   cross-section and new sheet." "Distinct scene changes; no earnings promises." "Make hook and payoff useful,
   visibly explain mechanism with scene changes."
 
+## Editorial emphasis update: round 02 (2026-11-03, user sheet feedback)
+- Emphasis is **scrap value and earning opportunities**: help viewers identify what is worth selling and how buyers
+  assess it, honestly and without financial promises (no rupee rates, income, allowances or guaranteed payouts).
+- **Clean scripts:** omit generic "do not burn" lines, disposal instructions and repeated safety warnings when the topic
+  needs no hazardous procedure. Put any required accuracy qualifier inside the relevant sentence only.
+- Everything else stays exactly as accepted: the Scrap Shop X-ray renderer and recipe (B), the simplified open-can
+  mascot, palette, caption treatment, the Kokoro voice and voice-forward subtle-pad audio, pacing, and the CTA
+  "Join WastePaisa and put your scrap to use."
+
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),
   not disposal lectures. One practical value check per episode. No made-up rupee rates, guaranteed earnings,
