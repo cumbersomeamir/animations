@@ -128,3 +128,15 @@ CONTEXT=navy, OUTPUT=amber.
   (copied, props/choreography changed per episode).
 - Episodes in this style: feedback-01 spam filters (2026-11-02-feedback-round) · round02-01 phone reads text from a photo
   (2026-11-03-round-02, see context/16).
+
+## Round 2026-11-03 hindi-03 — requested corrections only (style recipe above unchanged)
+- **Language: all narration and captions in natural Hindi (Devanagari)** for this batch (latest user correction).
+  Voice: Kokoro-82M's own Hindi-trained voices (Apache-2.0), blend **hm_omega 0.7 + hf_alpha 0.3**, lang `hi`
+  (espeak-ng Hindi phonemes), speed 1.07 — NOT the English af_bella/am_puck voice. Narration text fully Devanagari
+  (Latin words make the phonemizer speak a language-switch tag). Piper hi_IN voices rejected: pratham/priyamvada
+  CC BY-NC-SA 4.0 (non-commercial), rohan IIT-M IndicTTS licence. Verification: faster-whisper `medium` (hi) ASR on
+  every clip and on the final MP4 (spelling-normalised CER) + phoneme review; no celebrity voice, no paid API.
+- Captions: same pill/band/style; font stack "Space Grotesk", "Noto Sans Devanagari" (@fontsource 5.3.0, OFL) so
+  Devanagari renders with real glyphs. CTA spoken + visible: "आइडियावर्स ऐप डाउनलोड कीजिए" with the icon chip.
+- Icon: re-fetched from Google Play on 2026-11-03 — unchanged, no replacement (03-assets.json "checks").
+- Episode: hindi03-01 "remove a background distraction from a photo" (2026-11-03-hindi-03, see context/17).

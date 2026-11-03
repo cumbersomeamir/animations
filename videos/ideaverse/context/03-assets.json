@@ -12,7 +12,13 @@
       "replaces": {
         "sha256": "71309d833e1c915551ab4ca1a14c25a2fe12620cbbb4fbe63146c14425b61da1",
         "note": "stale October 2026 lightbulb/planet icon (kept in git history; earlier MP4s unchanged)"
-      }
+      },
+      "checks": [
+        {
+          "date": "2026-11-03 (hindi-03 round)",
+          "result": "Play listing og:image unchanged (5TopfIwT…); fetched =s512 PNG sha256 3406cac0… identical to assets/icon.png — no replacement needed"
+        }
+      ]
     }
   ],
   "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."

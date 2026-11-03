@@ -55,3 +55,16 @@
   555–570), encoded, mastered (−15.0 LUFS / −1.5 dBTP), muxed; QA in 2026-11-03-round-02/QA.md + qa/.
 - Commands: 2026-11-03-round-02/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s hindi-03 (2026-11-03) — supersedes round-02 status above
+## Facts
+- Brief: one new Hindi video (all narration + captions Devanagari); topic: remove a background distraction (Google
+  Photos Magic Eraser; free/paid per context/17). Icon re-checked: unchanged.
+## Decisions
+- Voice: Kokoro Hindi voices hm_omega 0.7 + hf_alpha 0.3 (Apache-2.0), speed 1.07; Piper hi_IN rejected (licences).
+- Font: Noto Sans Devanagari via @fontsource 5.3.0. Renderer/style unchanged.
+## Status / next
+- Narration synthesized + Hindi-ASR checked (67 words, 26.6 s). Stills inspected (2 rounds). Full render running:
+  `cd production/30s/2026-11-03-hindi-03/src && node render.mjs --frames --workers=3`.
+- Next: encode, score, loudnorm, mux to ideaverse-30s-hindi03-01.mp4, ./qa.sh (Hindi ASR), QA.md, commit, push, attach.
