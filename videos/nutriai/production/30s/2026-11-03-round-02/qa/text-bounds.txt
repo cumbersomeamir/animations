@@ -1,0 +1,21 @@
+caption runs: 671; outside x 90-990 / y 350-470: 0; ink x 131-949, y 359-468
+max caption lines on screen at once: 2
+caption blocks overlapping in time: []
+any text ink above y 300: 0
+plate/other runs: 3571; above y 480: 0; off-frame: 0; right of x 950: 0; lowest plate text y 1538
+CTA wordmark bounds: x 440-782, y 1323-1380
+
+Narration vs caption line sync (ASR word start on the final MP4 vs caption line appearance):
+  Seeds    spoken   0.00s  caption   0.27s  offset +0.27s
+  100      spoken   2.10s  caption   1.90s  offset -0.20s
+  43       spoken   4.80s  caption   4.80s  offset +0.00s
+  1        spoken   6.30s  caption   6.33s  offset +0.03s
+  61       spoken   8.58s  caption   8.60s  offset +0.02s
+  88       spoken  11.90s  caption  11.90s  offset +0.00s
+  and      spoken  13.38s  caption  13.40s  offset +0.02s
+  Fiber    spoken  15.94s  caption  15.67s  offset -0.27s
+  vitamin  spoken  17.52s  caption  17.50s  offset -0.02s
+  cup      spoken  21.06s  caption  21.07s  offset +0.01s
+  62       spoken  24.74s  caption  24.70s  offset -0.04s
+  Track    spoken  25.76s  caption  26.77s  offset +1.01s
+  with     spoken  28.02s  caption  28.37s  offset +0.35s

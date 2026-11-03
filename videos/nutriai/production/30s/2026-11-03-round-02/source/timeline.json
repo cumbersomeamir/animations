@@ -1,0 +1,255 @@
+{
+ "_doc": "CalMeter round-02 30 s 'What is inside 100 grams of raw papaya flesh?' (2026-11-03). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single ASR timing pass (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.25
+  },
+  {
+   "id": "T1",
+   "at": 4.8
+  },
+  {
+   "id": "T2",
+   "at": 11.75
+  },
+  {
+   "id": "T3",
+   "at": 15.65
+  },
+  {
+   "id": "T4",
+   "at": 21.0
+  },
+  {
+   "id": "T5",
+   "at": 26.75
+  }
+ ],
+ "captions": [
+  {
+   "in": 6,
+   "out": 130,
+   "lines": [
+    [
+     "Seeds out, skin off:",
+     8
+    ],
+    [
+     "100 g of papaya flesh?",
+     57
+    ]
+   ]
+  },
+  {
+   "in": 140,
+   "out": 340,
+   "lines": [
+    [
+     "43 kcal",
+     144
+    ],
+    [
+     " · 1.7 g fibre",
+     190,
+     0
+    ],
+    [
+     "61 mg vitamin C",
+     258
+    ]
+   ]
+  },
+  {
+   "in": 350,
+   "out": 456,
+   "lines": [
+    [
+     "88 % water,",
+     357
+    ],
+    [
+     "and water has 0 kcal",
+     402
+    ]
+   ]
+  },
+  {
+   "in": 466,
+   "out": 616,
+   "lines": [
+    [
+     "Fibre aids digestion,",
+     470
+    ],
+    [
+     "vitamin C helps absorb iron",
+     525
+    ]
+   ]
+  },
+  {
+   "in": 626,
+   "out": 788,
+   "lines": [
+    [
+     "1 cup of cubes ≈ 145 g",
+     632
+    ],
+    [
+     "≈ 62 kcal",
+     741
+    ]
+   ]
+  },
+  {
+   "in": 798,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     803
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "outline": 0,
+  "washWhole": 8,
+  "title": 16,
+  "cut": 20,
+  "burnish": 28,
+  "section": 30,
+  "washSection": 46,
+  "seedsOut": 72,
+  "seedNote": 92,
+  "skinOff": 104,
+  "skinNote": 114,
+  "fleshNote": 122,
+  "notesOut": 344,
+  "kcal": 144,
+  "legend": 160,
+  "fibre": 190,
+  "vitc": 258,
+  "roundelsOut": 342,
+  "bar": 350,
+  "water": 357,
+  "waterLabel": 381,
+  "zero": 402,
+  "barOut": 456,
+  "fibre2": 466,
+  "digest": 474,
+  "vitc2": 521,
+  "iron": 548,
+  "roundels2Out": 614,
+  "balance": 624,
+  "cupDrop": 652,
+  "weight": 690,
+  "label62": 741,
+  "balanceOut": 790,
+  "cta": 796,
+  "ctaWord": 806
+ },
+ "sfx": [
+  {
+   "ev": "outline",
+   "type": "pencil",
+   "dur": 1.0,
+   "gain": -26
+  },
+  {
+   "ev": "cut",
+   "type": "slice",
+   "gain": -13
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -20
+  },
+  {
+   "ev": "section",
+   "type": "pencil",
+   "dur": 1.4,
+   "gain": -27
+  },
+  {
+   "ev": "washSection",
+   "type": "juice",
+   "gain": -22
+  },
+  {
+   "ev": "seedsOut",
+   "type": "patter",
+   "dur": 1.1,
+   "gain": -23
+  },
+  {
+   "ev": "skinOff",
+   "type": "tear",
+   "gain": -20
+  },
+  {
+   "ev": "kcal",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "fibre",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "vitc",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "roundelsOut",
+   "type": "page",
+   "gain": -21
+  },
+  {
+   "ev": "water",
+   "type": "juice",
+   "gain": -23
+  },
+  {
+   "ev": "barOut",
+   "type": "page",
+   "gain": -22
+  },
+  {
+   "ev": "roundels2Out",
+   "type": "page",
+   "gain": -21
+  },
+  {
+   "ev": "cupDrop",
+   "type": "thud",
+   "gain": -19
+  },
+  {
+   "ev": "weight",
+   "type": "clink",
+   "gain": -25
+  },
+  {
+   "ev": "balanceOut",
+   "type": "page",
+   "gain": -21
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

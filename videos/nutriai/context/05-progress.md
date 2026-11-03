@@ -42,3 +42,10 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands (from `production/30s/2026-11-03/source/`): `python audio/voice_kokoro.py <kokoro-v1.0.onnx> <voices-v1.0.bin> script.json audio/voice-takes` → `node render.mjs` → `python audio/mix.py` → two-pass FFmpeg loudnorm (I −15, TP −1.5, linear) → mux AAC 192k 48 kHz `-t 30` to `../calMeter-30s-pomegranate-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.3 dBTP; captions 0 outside the safe band; one sync fix (vitamin K line). See `production/30s/2026-11-03/QA.md`.
 - Unresolved: none blocking (limits listed in QA.md). Next step: none requested.
+
+## 9. Round 02 #01, papaya (2026-11-03; CalMeter)
+- Pre-check: no active generation; papaya not covered before. Facts: USDA FDC 169926 "Papayas, raw" per 100 g: 43 kcal, 1.7 g fibre, 60.9 mg vitamin C, 88.1 g water; refuse "Seeds and skin" 38 %; portion 1 cup 1" pieces = 145 g; MedlinePlus fibre / vitamin C (iron absorption). Details: `context/15-production-30s-round02-papaya.md`.
+- Decisions: pomegranate renderer + mix reused (food geometry swapped); sheet feedback applied (no generic disclaimers, one basis line, spoken + visible CTA via in-plate CalMeter seal, no bottom signature).
+- Commands: as in section 8, from `production/30s/2026-11-03-round-02/source/`, output `../nutriai-30s-round02-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.1 LUFS, −1.5 dBTP; captions 0 outside x 90–990 / y 350–470; freeze defect fixed (0 events). See `production/30s/2026-11-03-round-02/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

@@ -1,0 +1,107 @@
+{
+ "fdcId": 169926,
+ "ndbNumber": 9226,
+ "description": "Papayas, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g edible portion",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 0.47,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Ash",
+   "amount": 0.39,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 1.7,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Vitamin C, total ascorbic acid",
+   "amount": 60.9,
+   "unit": "mg",
+   "dataPoints": 73
+  },
+  {
+   "name": "Folate, total",
+   "amount": 37.0,
+   "unit": "µg",
+   "dataPoints": 8
+  },
+  {
+   "name": "Vitamin A, RAE",
+   "amount": 47.0,
+   "unit": "µg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.26,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Water",
+   "amount": 88.1,
+   "unit": "g",
+   "dataPoints": 72
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 7.82,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 182,
+   "unit": "mg",
+   "dataPoints": 70
+  },
+  {
+   "name": "Energy",
+   "amount": 179,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 10.8,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 43.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "measure": "fruit, small",
+   "gramWeight": 157.0
+  },
+  {
+   "measure": "fruit, large",
+   "gramWeight": 781.0
+  },
+  {
+   "measure": "cup, mashed",
+   "gramWeight": 230.0
+  },
+  {
+   "measure": "cup 1\" pieces",
+   "gramWeight": 145.0
+  }
+ ]
+}
