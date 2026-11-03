@@ -110,3 +110,19 @@ Strong opening question; distinct scenes that show the mechanism as it is narrat
 tracked, never invent app capabilities, statistics, prices, savings, income or testimonials.
 Captions: y < 300 empty; caption ink y 340–520, x 90–990, max two readable lines, one word group per card, no overlaps.
 Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-round/help-30s-feedback-01.mp4`.
+
+## Update 2026-11-03 — round 02 (specific corrections only; accepted renderer/style/voice/captions unchanged)
+- **Editorial scope (corrected):** broad, informative education about poverty, unmet essentials, access barriers and how aid
+  systems work, always ending in a useful takeaway — not narrow app ads and not a recycled small-pack-price lesson.
+- **Keep exactly:** the accepted "Hands That Reveal the Hidden Cost" renderer/style recipe (reference implementation:
+  `production/30s/2026-11-02-feedback-round/src/stage.html` — its primitives are copied unchanged into each new episode),
+  caption treatment, Kokoro af_bella 0.7 + am_puck 0.3 / en-us / 0.98 voice, quiet voice-forward mix, pacing and the
+  yellow-hat helper. No unsolicited redesigns.
+- **CTA (corrected):** "Download Help to donate essentials." — matches the verified Play listing ("Donate essentials in Lucknow
+  with next-day delivery and verified proof", re-checked 2026-11-03). Never imply Help collects food surplus or runs services
+  the listing does not document.
+- **Icon:** use the latest official Play Store icon. Re-fetched 2026-11-03 from the listing (=s512): byte-identical to
+  `assets/icon.png` (SHA-256 0646d82d…eebd4), so the approved asset is current. No fabricated screenshots or features.
+- **Script:** natural 65–75 words; strong useful hook, concrete mechanism, meaningful scene changes, clear takeaway, CTA in the
+  final 3–4 s; qualifications only inside the relevant sentence; source links only in repo notes / publishing copy.
+- **Captions:** upper safe zone y 340–520 (accepted treatment lands ≈ 379–495), x 90–990, ≤ 2 lines, y < 300 clear.

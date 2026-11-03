@@ -94,3 +94,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-02 — feedback round 30 s #01 (poverty premium, "Hands That Reveal the Hidden Cost") — DONE
 - Output `videos/help/production/30s/2026-11-02-feedback-round/help-30s-feedback-01.mp4`, SHA-256 `2d8c0afee3b1233d3586732bfd77e95aca7e9daccedc72af8b34a6ee27e2d1dc`.
 - Brief/script/claims/storyboard: `14-production-30s-feedback-01.md`; format + exact style recipe update in `11-production-format.md`. No automation created.
+
+## 2026-11-03 — round 02, 30 s #01 (food surplus vs unmet need) — DONE
+- Output `videos/help/production/30s/2026-11-03-round-02/help-30s-round02-01.mp4`, SHA-256 `029e11a7f43ef31fd02a61c3599c1777b80b03d19e32543408dd1365ec184e11`.
+- Record: `15-production-30s-round02-01.md`; specific corrections appended to `11-production-format.md`. No automation created.

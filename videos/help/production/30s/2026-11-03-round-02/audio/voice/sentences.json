@@ -1,0 +1,57 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Why is good food wasted while families nearby miss meals?",
+   "dur": 3.544,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Often, timing, storage and transport break the link.",
+   "dur": 3.171,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "A shop's surplus crate is ready tonight.",
+   "dur": 1.993,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "But the kitchen has no cold space, and no van is free before it spoils.",
+   "dur": 4.305,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Food-rescue groups can bridge it with timely pickups, safe storage and planned routes.",
+   "dur": 5.021,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Before donating food, ask a verified local group what it accepts, and when.",
+   "dur": 4.603,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  }
+ ]
+}

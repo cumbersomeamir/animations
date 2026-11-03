@@ -1,0 +1,16 @@
+{
+  "fps": 30, "frames": 900, "duration": 30.0,
+  "voiceStarts": [0.25, 4.15, 7.65, 10.05, 14.75, 20.25, 26.40],
+  "scenes": {
+    "A_hook_surplus_vs_empty_bowl": [0.0, 4.0], "B_link_breaks": [4.0, 7.45], "C_surplus_tonight": [7.45, 9.85],
+    "D_storage_transport_bottleneck": [9.85, 14.55], "E_coordinated_route": [14.55, 20.05], "F_ask_first": [20.05, 26.2], "G_cta": [26.2, 30.0]
+  },
+  "cues": {
+    "linkDraw": 1.4, "plTiming": 4.75, "plStorage": 5.35, "plTransport": 6.05, "snap": 6.4,
+    "shopIn": 7.5, "crateOn": 7.9, "moon": 8.6, "clockSpin": 8.9,
+    "fridge": 10.6, "full": 11.3, "van": 12.2, "busy": 12.6, "vanAway": 13.0, "fresh": 10.4,
+    "route1": 15.4, "pickup": 15.9, "route2": 16.6, "cold": 17.1, "route3": 17.8, "vanGo": 18.3, "arrive": 19.3, "tickRoute": 19.5,
+    "ask": 20.6, "board": 21.3, "rowWhat": 22.6, "rowWhen": 23.9, "nod": 24.9,
+    "cta": 26.3, "logo": 26.5, "dimEnd": 29.2
+  }
+}

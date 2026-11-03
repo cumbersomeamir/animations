@@ -1,0 +1,166 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 34,
+ "extent": {
+  "x0": 102,
+  "x1": 978,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Why is good food wasted",
+   "fs": 66,
+   "x0": 130,
+   "x1": 950,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 29
+  },
+  {
+   "text": "while families / nearby miss meals?",
+   "fs": 56,
+   "x0": 264,
+   "x1": 816,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 88
+  },
+  {
+   "text": "Often, timing, storage and",
+   "fs": 66,
+   "x0": 114,
+   "x1": 966,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 147
+  },
+  {
+   "text": "transport break the link.",
+   "fs": 66,
+   "x0": 147,
+   "x1": 933,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 200
+  },
+  {
+   "text": "A shop's surplus crate",
+   "fs": 66,
+   "x0": 174,
+   "x1": 906,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 243
+  },
+  {
+   "text": "is ready tonight.",
+   "fs": 66,
+   "x0": 274,
+   "x1": 806,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 278
+  },
+  {
+   "text": "But the kitchen has",
+   "fs": 66,
+   "x0": 227,
+   "x1": 853,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 309
+  },
+  {
+   "text": "no cold space,",
+   "fs": 66,
+   "x0": 303,
+   "x1": 777,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 343
+  },
+  {
+   "text": "and no van is free",
+   "fs": 66,
+   "x0": 254,
+   "x1": 826,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 380
+  },
+  {
+   "text": "before it spoils.",
+   "fs": 66,
+   "x0": 287,
+   "x1": 793,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 416
+  },
+  {
+   "text": "Food-rescue / groups can bridge it",
+   "fs": 56,
+   "x0": 264,
+   "x1": 816,
+   "y0": 379,
+   "y1": 496,
+   "firstFrame": 462
+  },
+  {
+   "text": "with timely pickups,",
+   "fs": 66,
+   "x0": 209,
+   "x1": 871,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 508
+  },
+  {
+   "text": "safe storage and / planned routes.",
+   "fs": 56,
+   "x0": 309,
+   "x1": 771,
+   "y0": 377,
+   "y1": 495,
+   "firstFrame": 566
+  },
+  {
+   "text": "Before donating food,",
+   "fs": 66,
+   "x0": 185,
+   "x1": 895,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 626
+  },
+  {
+   "text": "ask a verified local group",
+   "fs": 66,
+   "x0": 132,
+   "x1": 948,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 675
+  },
+  {
+   "text": "what it accepts, and when.",
+   "fs": 66,
+   "x0": 102,
+   "x1": 978,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 728
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 823
+  }
+ ]
+}
