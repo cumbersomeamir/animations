@@ -1,0 +1,40 @@
+{
+  "fps": 30,
+  "duration": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "narration": [
+    {"id": "l1", "start": 0.25},
+    {"id": "l2", "start": 5.83},
+    {"id": "l3", "start": 7.42},
+    {"id": "l4", "start": 13.15},
+    {"id": "l5", "start": 15.89},
+    {"id": "l6", "start": 19.12},
+    {"id": "l7", "start": 26.62}
+  ],
+  "captions": [
+    {"start": 0.00, "end": 2.62, "text": "The bottle says MRP ₹20.", "hl": ["MRP", "₹20."]},
+    {"start": 2.62, "end": 5.60, "text": "The shop wants ₹25, because it’s chilled.", "hl": ["₹25,"]},
+    {"start": 5.60, "end": 7.25, "text": "Is that legal in India?", "hl": ["India?"]},
+    {"start": 7.25, "end": 10.70, "text": "Packaged goods must carry a maximum retail price,", "hl": ["maximum", "retail", "price,"]},
+    {"start": 10.70, "end": 13.05, "text": "and it already includes all taxes.", "hl": ["all", "taxes."]},
+    {"start": 13.05, "end": 15.65, "text": "A shop can’t sell above it, chilled or not.", "hl": ["can’t", "sell", "above", "it,"]},
+    {"start": 15.65, "end": 18.90, "text": "Restaurants and hotels serving you are a different case.", "hl": ["different", "case."]},
+    {"start": 18.95, "end": 21.50, "text": "Overcharged? Keep the bill,", "hl": ["bill,"]},
+    {"start": 21.50, "end": 22.65, "text": "snap the label,", "hl": ["label,"]},
+    {"start": 22.65, "end": 24.75, "text": "and contact the National Consumer Helpline:", "hl": ["National", "Consumer", "Helpline:"]},
+    {"start": 24.75, "end": 26.45, "text": "1915", "hl": ["1915"]},
+    {"start": 26.45, "end": 30.00, "text": "Follow Courtlens for everyday Indian law, explained.", "hl": ["Courtlens"]}
+  ],
+  "events": {
+    "cardIn": -0.18, "mrpMark": 1.15,
+    "itemDrop": 1.45, "itemLand": 1.80,
+    "toS2": 2.62, "bannerDrop": 3.25, "bannerLand": 3.62, "chill": 4.85, "refuseLine": 5.75,
+    "ruleIn": 7.30, "ruleBump": 7.75, "chip1": 9.35, "chip2": 11.55,
+    "tagFlip": 13.55, "bannerTug": 14.62,
+    "toS4": 15.62, "rightItem": 16.25, "bubble": 16.95, "rightResult": 17.85, "sticker": 18.25,
+    "toS5": 18.95, "bill": 20.35, "tick1": 21.05, "photo": 21.50, "tick2": 22.20,
+    "flap": 22.70, "seal": 23.10, "write": 23.45, "digits": 24.85, "digitsEnd": 26.15, "tick3": 26.20,
+    "toS6": 26.32, "ctaIn": 26.72, "ctaText": 26.86
+  }
+}

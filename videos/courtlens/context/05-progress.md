@@ -4,6 +4,55 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs).
 
+## Round 2026-11-03 (round-02): "Is this legal in India?" episode 02, MRP on a packaged water bottle
+
+### Status
+- No generation was active at start (clean tree, no running jobs, remote not ahead); nothing to checkpoint.
+- DELIVERED: `production/30s/2026-11-03-round-02/courtlens-30s-round02-01.mp4`
+  (sha256 f12d786e3a8824a87d788891dee6e0e0a697b5ed4f0c47d7f860fb59583291bb). Earlier MP4s untouched.
+- Episode record (topic-history check, script, citations, sheet feedback applied):
+  `context/episodes/2026-11-03-mrp-packaged-water.md`.
+
+### Verified facts (details: production/30s/2026-11-03-round-02/notes/LEGAL-SOURCES.md)
+- Legal Metrology (Packaged Commodities) Rules, 2011:
+  - Rule 18(2), read in the Gazette scan from consumeraffairs.gov.in.
+  - Rule 2(m), MRP inclusive of all taxes (G.S.R. 629(E), 2017).
+  - Rule 6(1)(e), MRP must be printed (as amended 2017/2021).
+  - No amendment through G.S.R. 826(E) of 21 Sep 2026 changes these rules.
+- Supreme Court, CA 21790/2017, 12 Dec 2017, para 17 (hotels/restaurants: a different case). NCH contact page:
+  1915 / 1800-11-4000, WhatsApp 8800001915.
+- consumeraffairs.gov.in (new DoCA domain) and api.sci.gov.in are reachable from the container. `*.nic.in` and the
+  NCH FAQ page are not.
+
+### Creative decisions (sheet feedback: Satisfied = Yes)
+- Reused the accepted feedback-01 renderer, palette, captions, voice, pacing, motion and CTA unchanged. Copied
+  `src/` and swapped only episode performers and copy. `08-series-format.md` is not rewritten.
+- Script: 74 words, 27.01 s speech; "1 9 1 5" is spelled as digits for correct reading.
+- Audio: same pad voicings and SFX palette; chord changes now follow the episode's scene events (`CHORD_EVENTS`).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-03-round-02/src
+$S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build2 ./build.sh          # SKIP_FRAMES=1 re-muxes audio only
+$S/tts/venv/bin/python qa.py ../courtlens-30s-round02-01.mp4 timeline.json ../audio/lines ../qa
+```
+
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −15.9 LUFS / −2.0 dBTP; narration 7/7 lines at +3 ms; CTA final 3.38 s; y<300 clear; captions ≤2 lines in y 340–520.
+- Fixed: bottle scale (stills re-checked); true peak −1.2 → −2.0 dBTP (audio re-mux). See `qa/QA.md`.
+
+### Unresolved / checkpoints
+- A: NCH Legal Metrology FAQ wording seen only via search snippet (page returns 403 to the container).
+- B: no national circular specifically on "cooling charges"; "chilled or not" rests on the Rule 18(2) text.
+- Episode-01 checkpoint B can now be re-checked: DoCA hosts the E-Commerce Amendment Rules 2026 PDF on
+  consumeraffairs.gov.in (not done in this round; outside its scope).
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
+### Next
+Await review of courtlens-30s-round02-01.mp4. No further episode or automation unless asked.
+
 ## Round 2026-11-02 (feedback round): "Is this legal in India?" no refunds vs defective item
 
 ### Verified facts
