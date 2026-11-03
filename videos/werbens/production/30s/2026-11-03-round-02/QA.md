@@ -27,7 +27,10 @@
   spelled in the caption and the lockup. No human listening pass was possible here.
 
 ## 3. Captions, labels and safe areas (`qa/dom-bounds.json`, live DOM, every frame)
-DOM_RESULTS
+- 900 samples (every frame). Caption line boxes y 367–491 (inside 340–520), x 186–894 (inside 90–990), max 2 lines;
+  pill y 355–505. PASS.
+- Labels (tags, notes, chip, lockup, tagline): x 85–989, y 560–1483; nothing in y 0–300; 0 labels under the caption pill;
+  0 label/label overlaps; 0 frames outside x 80–1000 / y ≤ 1560. PASS.
 
 ## 4. Brand correction checks (context/15)
 - Play icon downloaded 2026-11-03 is byte-identical to `assets/icon.png` (sha256 b9709c1f…); used unchanged on the CTA tile

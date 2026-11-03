@@ -9,8 +9,8 @@
     "pillBottom": 505
   },
   "labels": {
-    "minLeft": 101,
-    "maxRight": 973,
+    "minLeft": 85,
+    "maxRight": 989,
     "minTop": 560,
     "maxBottom": 1483
   },
@@ -18,5 +18,5 @@
   "labelOutsideSafe": [],
   "labelUnderCaption": [],
   "labelOverlaps": [],
-  "samples": 150
+  "samples": 900
 }
