@@ -118,3 +118,50 @@ cd videos/mello/production/30s/2026-11-03-round-02/project && npm ci && ./build.
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# Hindi-03, 2026-11-03: episode hindi03-01 "स्पॉटलाइट इफ़ेक्ट" (spotlight effect, Hindi)
+Episode record (script, gloss, storyboard, citations, voice choice, adjustments): `13-episode-spotlight-effect-hindi.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The spotlight effect is a new topic for this app.
+- Primary source read: Gilovich, Medvec & Savitsky (2000), JPSP 78(2), 211–222.
+  - Study 1: 46% estimated vs 23% actual ("exactly twice as high").
+  - Mechanism: anchoring on one's own experience with insufficient adjustment.
+- Hindi voices available locally:
+  - Kokoro v1.0 has hf_alpha, hf_beta, hm_omega and hm_psi, plus espeak-ng Hindi data.
+  - Piper hi_IN priyamvada and pratham were also tested.
+
+## Creative decisions (this round)
+- The latest user correction applies: all narration and captions in Hindi (Devanagari).
+- Voice is Kokoro hf_beta, lang hi, speed 1.05, chosen by Whisper turbo Hindi CER. The English blend is not used.
+- Font: Tiro Devanagari Hindi as a fallback after Instrument Serif.
+- CTA in Hindi: "मेलो के साथ एक माइंडफुल ब्रेक लीजिए।". Lock-up line: "Google Play पर".
+- Scene:
+  - four seated room-mates at a long table, as in the study's setup; the back wall moved to z −4.2;
+  - imagined: spotlight, lavender tint and halos;
+  - actual: heads down on their tasks;
+  - Hindi labels for what each is busy with.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-03-hindi-03/mello-30s-hindi03-01.mp4`
+  - sha256 `010a3d64c0bd8280b5d784cf2cf0b7894d60318cba5b3b51a54599660fb064d6`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/.../qa/QA.md`).
+  - Full decode clean; −16.0 LUFS; −1.9 dBTP.
+  - Cuts are local peaks; every second moves.
+  - 0 safe-zone issues in 300 samples.
+  - Hindi ASR on the final file: CER 0.023, WER 0.06.
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-03-hindi-03/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the Hindi audio by ear; it was checked by ASR round-trip, phoneme review and loudness. A native Hindi speaker should give it a listen.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
