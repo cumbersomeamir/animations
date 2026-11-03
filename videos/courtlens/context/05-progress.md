@@ -2,7 +2,66 @@
 
 Rounds are listed newest first. Earlier rounds are preserved verbatim from previous Courtlens chats.
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
-series format from 2026-11-02, newest direction), episodes/ (per-episode briefs).
+series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
+
+## Round 2026-11-03 (hindi-03): Hindi episode 03, recording a call you are part of
+
+### Status
+- No generation was active at start (clean tree, no jobs, remote not ahead).
+- The session's worker restarted mid-round and the user's usage limit was hit once. All state was intact in the repo
+  and scratchpad (Hindi lines, word times, cached models). Work resumed without duplicate generation.
+- DELIVERED: `production/30s/2026-11-03-hindi-03/courtlens-30s-hindi03-01.mp4`
+  (sha256 5035fbf9220c0246d9fbe06456eab891cce0ea8accceeed224ffac39f2949e37). Earlier MP4s untouched.
+- Episode record (topic check, Hindi script, citations, user corrections): `context/episodes/2026-11-03-hindi-call-recording.md`.
+
+### Verified facts (details: production/30s/2026-11-03-hindi-03/notes/LEGAL-SOURCES.md)
+- Vibhor Garg v. Neha, 2025 INSC 829 (SC, 14 Jul 2025), para 9.5, official PDF: three-fold test (relevance,
+  identification, accuracy); recording without consent or knowledge doesn't bar admissibility.
+- R.M. Malkani (1973), official PDF.
+- R. Rajagopal (1994) para 26(1), publishing private matters without consent can bring damages (via Indian Kanoon).
+- Narrowed claim: no blanket legal/illegal answer. Evidence and posting are treated separately.
+
+### Creative decisions
+- **Language:** all narration and captions in Hindi (Devanagari); on-screen labels Hindi; "Courtlens" in Latin only on
+  the icon CTA card.
+- **Voice:** Kokoro v1.0 native Hindi voices hf_alpha 0.7 + hm_psi 0.3 (keeps the accepted 0.7/0.3 female-lead
+  character), lang hi, speed 1.05 (Hindi pace; tested for clarity). English voices not used for Hindi.
+- **Glyphs:** Noto Sans Devanagari 5.3.0 (OFL, npm @fontsource) as Devanagari fallback; no letter-spacing on Hindi.
+- **Engine:** the accepted engine reused via the round-02 copy. Changes:
+  - phone performer
+  - call card with the landlord's quote
+  - landlord's sign
+  - SC rule card with three chips
+  - evidence vs posting split
+  - audio file + call log in the envelope
+  - Hindi action card and CTA
+- **New tools:** `src/align.py` (word times + ASR per line) and `src/asr_check.py` (ASR on the final mix + caption alignment).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-03-hindi-03/src
+$S/tts/venv/bin/pip install faster-whisper            # local ASR, model 'medium' cached in $S/asr
+$S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+$S/tts/venv/bin/python -I align.py ../audio/lines narration.json $S/asr
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build3 ./build.sh          # SKIP_FRAMES=1 re-muxes audio only
+$S/tts/venv/bin/python qa.py ../courtlens-30s-hindi03-01.mp4 timeline.json ../audio/lines ../qa
+$S/tts/venv/bin/python -I asr_check.py ../courtlens-30s-hindi03-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean; −15.9 LUFS / −2.5 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.33 s; y<300 clear; captions ≤2 lines in y 340–520.
+- Hindi ASR on the final mix: CER 0.097, every word recognised, all words inside caption windows. Glyphs verified at
+  full resolution. Six defects fixed (see `qa/QA.md`).
+
+### Unresolved / checkpoints
+- A: R. Rajagopal official PDF (digiscr.sci.gov.in) returned 502; text read via Indian Kanoon.
+- B: BSA 2023 s.63 (electronic records) not verified from India Code; not used in the video.
+- The ASR proxy can't judge accent naturalness; a native-speaker listen is recommended before posting.
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
+### Next
+Await review of courtlens-30s-hindi03-01.mp4. No further episode or automation unless asked.
 
 ## Round 2026-11-03 (round-02): "Is this legal in India?" episode 02, MRP on a packaged water bottle
 
