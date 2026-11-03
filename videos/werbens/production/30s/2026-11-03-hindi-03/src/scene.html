@@ -1,40 +1,42 @@
 <!doctype html>
-<html>
+<html lang="hi">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=1080,height=1920">
-<title>Werbens 30s Round-02 01</title>
+<title>Werbens 30s Hindi-03 01</title>
 <style>
-  @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf); }
-  @font-face { font-family: "IDBlack"; src: url(/fonts/InterDisplay-Black.otf); }
-  @font-face { font-family: "ISB"; src: url(/fonts/Inter-SemiBold.otf); }
-  @font-face { font-family: "IB"; src: url(/fonts/Inter-Bold.otf); }
-  @font-face { font-family: "Fahkwang"; font-weight: 700; src: url(/fonts/Fahkwang-Bold-latin.woff2) format("woff2"); }
-  /* brand tokens measured from the official listing + site (context/15-brand-correction-2026-11-03.md) */
-  :root { --primary: #573EEC; --light: #AEA2F4; --bg: #F7F8FA; --line: #E4E7EB; --ink: #101114; --grey: #8C93A1; --icon: #6435FC; }
-  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+  /* Devanagari: Noto Sans Devanagari (OFL, @fontsource 5.3.0); wordmark: Space Grotesk 700 (as on app.werbens.com) */
+  @font-face { font-family: "NSD"; font-weight: 800; src: url(/fonts/NotoSansDevanagari-800.woff2) format("woff2"); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+  @font-face { font-family: "NSD"; font-weight: 800; src: url(/fonts/NotoSansDevanagari-latin-800.woff2) format("woff2"); unicode-range: U+0000-00FF, U+2018-201F, U+2026, U+2212; }
+  @font-face { font-family: "NSD"; font-weight: 700; src: url(/fonts/NotoSansDevanagari-700.woff2) format("woff2"); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF; }
+  @font-face { font-family: "NSD"; font-weight: 700; src: url(/fonts/NotoSansDevanagari-latin-800.woff2) format("woff2"); unicode-range: U+0000-00FF, U+2018-201F, U+2026, U+2212; }
+  @font-face { font-family: "SG"; font-weight: 700; src: url(/fonts/SpaceGrotesk-700-latin.woff2) format("woff2"); }
+  /* brand tokens measured on app.werbens.com (context/17) */
+  :root { --teal: #316879; --mint: #7FE7DC; --teal2: #5CE0D2; --ink: #0F172A; --mintw: #F0FDFA; --navy: #0B1120; --slate: #64748B; --line: rgba(49,104,121,0.16); }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--mintw); }
   canvas#gl { position: absolute; left: 0; top: 0; display: block; }
   #hud { position: absolute; inset: 0; pointer-events: none; }
-  /* accepted caption treatment (pill, 54/62 px Inter Display ExtraBold, word groups); colour corrected to the app ink */
+  /* accepted caption treatment (pill, word groups, brighten as spoken); Devanagari face + taller line box for matras */
   #cap { position: absolute; left: 90px; right: 90px; top: 340px; height: 180px; display: flex; align-items: center; justify-content: center; }
-  #cap .pill { padding: 12px 32px 14px; border-radius: 30px; background: rgba(16,17,20,0.92); box-shadow: 0 14px 36px rgba(16,17,20,0.2); text-align: center; max-width: 900px; }
-  #cap .ln { display: block; font: 54px/62px "IDXB"; letter-spacing: -0.8px; color: #FFFFFF; white-space: nowrap; }
-  #cap .w { display: inline-block; margin: 0 0.11em; } #cap .w.hi { color: var(--light); }
-  #chip { position: absolute; left: 50%; top: 560px; transform: translateX(-50%); padding: 10px 24px 12px; border-radius: 26px; background: #FFFFFF; border: 2px solid var(--line);
-          font: 32px/38px "IB"; color: var(--ink); letter-spacing: 0.3px; white-space: nowrap; box-shadow: 0 8px 20px rgba(16,17,20,0.06); }
-  .tag { position: absolute; padding: 10px 22px 12px; border-radius: 20px; background: #FFFFFF; text-align: center; white-space: nowrap;
-         box-shadow: 0 10px 26px rgba(16,17,20,0.1); border: 2px solid var(--line); font: 32px/38px "IB"; letter-spacing: 2px; color: var(--ink); }
-  .note { position: absolute; padding: 8px 20px 10px; border-radius: 18px; background: var(--primary); color: #fff; font: 38px/44px "IDXB"; white-space: nowrap; box-shadow: 0 10px 24px rgba(87,62,236,0.28); transform-origin: 50% 50%; }
-  .note.ink { background: var(--ink); box-shadow: 0 10px 24px rgba(16,17,20,0.25); }
-  .note.light { background: #FFFFFF; color: var(--ink); border: 2px solid var(--line); box-shadow: 0 8px 20px rgba(16,17,20,0.08); }
-  #nQ { font: 60px/64px "IDBlack"; min-width: 56px; padding: 6px 22px 10px; }
-  .note .sub { font: 26px/30px "IB"; letter-spacing: 1.5px; color: var(--grey); display: block; }
+  #cap .pill { padding: 8px 32px 12px; border-radius: 30px; background: rgba(15,23,42,0.92); box-shadow: 0 14px 36px rgba(15,23,42,0.2); text-align: center; max-width: 900px; }
+  #cap .ln { display: block; font: 800 52px/74px "NSD"; letter-spacing: 0; color: #FFFFFF; white-space: nowrap; }
+  #cap .w { display: inline-block; margin: 0 0.12em; } #cap .w.hi { color: var(--mint); }
+  #chip { position: absolute; left: 50%; top: 562px; transform: translateX(-50%); padding: 6px 26px 10px; border-radius: 26px; background: #FFFFFF; border: 2px solid var(--line);
+          font: 700 34px/48px "NSD"; color: var(--ink); white-space: nowrap; box-shadow: 0 8px 20px rgba(15,23,42,0.06); }
+  .tag { position: absolute; padding: 6px 24px 10px; border-radius: 20px; background: #FFFFFF; text-align: center; white-space: nowrap;
+         box-shadow: 0 10px 26px rgba(15,23,42,0.1); border: 2px solid var(--line); font: 700 36px/50px "NSD"; color: var(--ink); }
+  .note { position: absolute; padding: 4px 22px 10px; border-radius: 18px; background: var(--teal); color: #fff; font: 800 40px/56px "NSD"; white-space: nowrap; box-shadow: 0 10px 24px rgba(49,104,121,0.28); transform-origin: 50% 50%; }
+  .note.ink { background: var(--ink); box-shadow: 0 10px 24px rgba(15,23,42,0.25); }
+  .note.mint { background: var(--mint); color: var(--ink); box-shadow: 0 10px 24px rgba(92,224,210,0.35); }
+  .note.light { background: #FFFFFF; color: var(--ink); border: 2px solid var(--line); box-shadow: 0 8px 20px rgba(15,23,42,0.08); }
+  #nQ { font: 800 64px/72px "NSD"; padding: 0 26px 6px; }
   svg#ov { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
-  /* official lockup: werbens.com header mark (assets/brand/werbens-site-logo-mark.svg) + "Werbens" in Fahkwang Bold, black */
-  #lockup { position: absolute; left: 540px; top: 1290px; display: flex; align-items: center; gap: 22px; white-space: nowrap; }
-  #lockup svg { width: 104px; height: 70px; display: block; }
-  #lockup .wm { font: 700 76px/84px "Fahkwang"; color: #000000; letter-spacing: 0; }
-  #tagline { position: absolute; left: 540px; top: 1392px; font: 30px/38px "ISB"; color: var(--grey); white-space: nowrap; }
+  #rec { position: absolute; font: 700 30px/40px "NSD"; color: var(--ink); white-space: nowrap; }
+  #rec i { display: inline-block; width: 22px; height: 22px; border-radius: 11px; background: #E5484D; margin-right: 10px; vertical-align: -2px; }
+  /* official lockup from app.werbens.com: wordmark Space Grotesk 700, −0.04em, 135° #7FE7DC→#316879 gradient text */
+  #lockup { position: absolute; left: 540px; top: 1270px; white-space: nowrap; font: 700 104px/118px "SG"; letter-spacing: -0.04em;
+            background: linear-gradient(135deg, #7FE7DC, #316879); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #tagline { position: absolute; left: 540px; top: 1400px; font: 700 34px/48px "NSD"; color: var(--slate); white-space: nowrap; }
 </style>
 <script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
 </head>
@@ -42,17 +44,16 @@
 <canvas id="gl" width="1080" height="1920"></canvas>
 <div id="hud">
   <svg id="ov"></svg>
-  <div id="chip">Fictional brand</div>
-  <div class="tag" id="tag_logo">LOGO</div>
-  <div class="tag" id="tag_bag">BAG</div>
-  <div class="tag" id="tag_sign">SIGN</div>
-  <div class="note light" id="nRecall">Plimm Bakery</div>
-  <div class="note" id="nAsset">Distinctive brand asset</div>
-  <div class="note ink" id="nInc">Inconsistent</div>
+  <div id="chip">काल्पनिक प्रोडक्ट</div>
+  <div class="tag" id="tagTawa">नॉन-स्टिक तवा</div>
   <div class="note light" id="nQ">?</div>
-  <div class="note ink" id="nTest">Test: hide the name</div>
-  <div id="lockup"><svg viewBox="23 48.667 155.017 103.333" aria-label="Werbens"><path fill="#000002" d="M23 100.334c0-28.535 23.132-51.667 51.667-51.667 28.534 0 51.666 23.132 51.666 51.667S103.201 152 74.667 152C46.132 152 23 128.869 23 100.334Z"/><path fill="#000002" d="M126.333 48.667a51.666 51.666 0 1 1 0 103.333V48.667Z"/></svg><span class="wm">Werbens</span></div>
-  <div id="tagline">Decoding how brands sell</div>
+  <div class="note ink" id="nOil">बिना तेल</div>
+  <div class="note light" id="nCam">कैमरे पर कैसे दिखाऊँ?</div>
+  <div id="rec"><i></i>रिकॉर्ड</div>
+  <div class="note ink" id="nFake">नकली</div>
+  <div class="note mint" id="nReal">असली टेस्ट</div>
+  <div id="lockup">Werbens</div>
+  <div id="tagline">ब्रांड्स कैसे बेचते हैं, समझिए</div>
   <div id="cap"></div>
 </div>
 <script type="module" src="/src/scene.js"></script>

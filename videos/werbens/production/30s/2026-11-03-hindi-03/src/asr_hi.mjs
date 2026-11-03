@@ -8,7 +8,7 @@ const args = process.argv.slice(2), src = args[0], opt = (k, d) => { const i = a
 const MODEL = "onnx-community/whisper-large-v3-turbo";
 const asr = await pipeline("automatic-speech-recognition", MODEL, { dtype: { encoder_model: "q4", decoder_model_merged: "q4" }, device: "cpu" });
 const load = (f, a = 0, b = null) => { const o = ["-loglevel", "error", "-i", f]; if (b !== null) o.push("-ss", String(a), "-to", String(b)); const raw = execFileSync("ffmpeg", [...o, "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], { maxBuffer: 1 << 28 }); return new Float32Array(raw.buffer, raw.byteOffset, raw.length / 4); };
-const norm = (s) => s.replace(/[‘’“”"'.,।?!:;—\-]/g, " ").replace(/़/g, "").replace(/\s+/g, " ").trim(); // drop nukta for fair matching
+const norm = (s) => s.replace(/[‘’“”"'.,।?!:;—\-]/g, " ").replace(/़/g, "").replace(/ँ/g, "ं").replace(/[ङञणनम]्(?=[क-ह])/g, "ं").replace(/\s+/g, " ").trim(); // spelling-equivalent forms: nukta dropped, chandrabindu≈anusvara, nasal+halant≈anusvara
 const out = [];
 const man = fs.existsSync(path.join(src, "manifest.json")) ? JSON.parse(fs.readFileSync(path.join(src, "manifest.json"))) : null;
 for (const l of NARRATION) {
