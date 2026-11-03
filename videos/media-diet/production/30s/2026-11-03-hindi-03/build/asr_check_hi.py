@@ -1,7 +1,7 @@
 """Hindi intelligibility + timing pass on the ENCODED file: faster-whisper (multilingual 'medium', int8, CPU, language=hi)
 back-transcribes the mix; brand names that Whisper writes in Latin script (Apple, iOS, iPhone, Google, AI, Media Diet …)
 and digits are mapped to the spoken Devanagari forms before scoring. Reports overall and per-line character error rate
-(CER, Devanagari-normalised: nukta and chandrabindu folded) and whether each line is heard inside its scripted window.
+(CER, Devanagari-normalised: nukta and chandrabindu folded) and whether each line is heard inside its scripted window (words split at pause centres; ±0.5 s timestamp tolerance).
 Usage: python build/asr_check_hi.py <mp4> <out.json>   (model cached in .cache/models)"""
 import json, os, re, sys, subprocess, unicodedata
 import numpy as np
@@ -35,12 +35,15 @@ words = [(w.start, w.end, w.word) for s in segs for w in s.words]
 hyp = ''.join(w for _, _, w in words).strip()
 ref = ' '.join(n['say'] for n in TL['narration'])
 rep = {'engine': 'faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=hi', 'transcript': hyp, 'cer_overall': cer(ref, hyp), 'lines': []}
-for n in TL['narration']:
-    s0, s1 = n['start'], n['start'] + DUR[n['id']]
-    ws = [w for w in words if s0 - 0.35 <= (w[0] + w[1]) / 2 <= s1 + 0.35]
+NAR = TL['narration']; WIN = [(n['start'], n['start'] + DUR[n['id']]) for n in NAR]
+CUT = [0.0] + [(WIN[i][1] + WIN[i + 1][0]) / 2 for i in range(len(WIN) - 1)] + [TL['duration']]   # split at the centre of each pause
+TOL = 0.5   # Whisper word-timestamp precision
+for i, n in enumerate(NAR):
+    s0, s1 = WIN[i]
+    ws = [w for w in words if CUT[i] <= (w[0] + w[1]) / 2 < CUT[i + 1]]
     heard = ''.join(w[2] for w in ws).strip()
-    rep['lines'].append({'id': n['id'], 'window': [round(s0, 2), round(s1, 2)], 'heard': [round(ws[0][0], 2), round(ws[-1][1], 2)] if ws else None,
-                         'transcript': heard, 'cer': cer(n['say'], heard), 'inside_window': bool(ws) and ws[0][0] >= s0 - 0.35 and ws[-1][1] <= s1 + 0.35})
+    rep['lines'].append({'id': n['id'], 'window': [round(s0, 2), round(s1, 2)], 'heard': [round(float(ws[0][0]), 2), round(float(ws[-1][1]), 2)] if ws else None,
+                         'transcript': heard, 'cer': cer(n['say'], heard), 'inside_window': bool(ws and ws[0][0] >= s0 - TOL and ws[-1][1] <= s1 + TOL)})
 json.dump(rep, open(out, 'w'), ensure_ascii=False, indent=1)
 print('ASR (hi):', hyp); print('CER overall (Devanagari-normalised, brand names mapped):', rep['cer_overall'])
 for l in rep['lines']: print(f"  {l['id']} window {l['window']} heard {l['heard']} CER {l['cer']}: {l['transcript']}")

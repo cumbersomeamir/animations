@@ -73,7 +73,11 @@ updated 29 Oct 2026) · Google DeepMind *SynthID* page. Secondary (context only)
 | 26.05–30.0 | S8 hero | pull-back over the desk; paper Media Diet sign hinges up (CTA). |
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+- SHA-256 `a4848025f89e51dd97853bedabeba47b0f1457c7ffbbeb0c716721702b0dea19` · 16,342,177 bytes · audio stream tagged `hin`.
+- 900 frames · video 30.000000 s · audio 30.000000 s · container 30.000000 s · H.264 High yuv420p 1080×1920 30/1 · AAC 48 kHz stereo.
+- Full decode clean · −15.0 LUFS / −2.0 dBTP · Devanagari caption ink y 362–494, x 265–816 · 0 safe-area violations in 900 frames.
+- Hindi Whisper-medium pass on the encoded file: overall CER 0.055, all 8 lines heard inside their windows; dates/numbers exact.
+- Full-resolution caption crops: no missing glyphs. Representative and cut-boundary contact sheets inspected: no defects found.
 
 ## Limits
 - I cannot listen to audio in this environment. Hindi intelligibility, pronunciation and timing were checked by phoneme

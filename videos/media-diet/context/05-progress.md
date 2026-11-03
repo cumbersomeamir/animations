@@ -63,3 +63,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Committed: production/30s/2026-11-03-hindi-03/ sources, narration, cues, build/QA scripts (incl. asr_check_hi.py), SOURCES.md,
   caption, licences, README; context/16-production-30s-hindi03-01.md; one context/11 log row.
 - Running: `node build/render.mjs film frames 0 449` + `… 450 899`; next `SKIP_FRAMES=1 bash build/build.sh`, inspect, fix, commit MP4.
+
+## Checkpoint 2026-11-03 — hindi-03 delivered
+- New 30.000 s Hindi episode rendered, verified and committed: production/30s/2026-11-03-hindi-03/media-diet-30s-hindi03-01.mp4
+  (SHA-256 a4848025f89e51dd97853bedabeba47b0f1457c7ffbbeb0c716721702b0dea19). Record: context/16-production-30s-hindi03-01.md; context/11 got one log row.
+- Commands: `node build/render.mjs film frames 0 449` + `… 450 899` (parallel, ~42 min), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (hin); decode clean; −15.0 LUFS /
+  −2.0 dBTP; Devanagari captions y 362–494, 0 violations; Whisper-medium (hi) CER 0.055, all lines in window.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

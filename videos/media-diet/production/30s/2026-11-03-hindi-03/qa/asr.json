@@ -1,0 +1,119 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=hi",
+ "transcript": "यह तस्वीर असली है या AI की? 26 अक्टूबर के Apple Update iOS 27.2 में सुराग है iPhone के AI तूल से बनी या बदली तस्वीरों में Google का अद्रिश्य सीन्थ ID Watermark जुरता है 15 Pro और बाद के iPhone पर Google के मुताबिक सीन्थ ID डिटेक्टर इसे पहचानता है निशान ना मिलना असली होने का सबूत नहीं टेक्नोलजी समझनी हो तो Media Diet फालो करे",
+ "cer_overall": 0.055,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    2.55
+   ],
+   "heard": [
+    0.0,
+    2.58
+   ],
+   "transcript": "यह तस्वीर असली है या AI की?",
+   "cer": 0.0,
+   "inside_window": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    2.82,
+    7.77
+   ],
+   "heard": [
+    2.84,
+    7.82
+   ],
+   "transcript": "26 अक्टूबर के Apple Update iOS 27.2 में सुराग है",
+   "cer": 0.0,
+   "inside_window": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    8.04,
+    11.64
+   ],
+   "heard": [
+    7.82,
+    11.66
+   ],
+   "transcript": "iPhone के AI तूल से बनी या बदली तस्वीरों",
+   "cer": 0.114,
+   "inside_window": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    11.91,
+    15.71
+   ],
+   "heard": [
+    11.66,
+    15.88
+   ],
+   "transcript": "में Google का अद्रिश्य सीन्थ ID Watermark जुरता है",
+   "cer": 0.278,
+   "inside_window": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    15.98,
+    18.3
+   ],
+   "heard": [
+    15.88,
+    18.52
+   ],
+   "transcript": "15 Pro और बाद के iPhone पर",
+   "cer": 0.0,
+   "inside_window": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    18.58,
+    22.66
+   ],
+   "heard": [
+    18.52,
+    22.82
+   ],
+   "transcript": "Google के मुताबिक सीन्थ ID डिटेक्टर इसे पहचानता है",
+   "cer": 0.073,
+   "inside_window": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    22.94,
+    25.86
+   ],
+   "heard": [
+    22.82,
+    26.12
+   ],
+   "transcript": "निशान ना मिलना असली होने का सबूत नहीं",
+   "cer": 0.034,
+   "inside_window": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.13,
+    29.39
+   ],
+   "heard": [
+    26.12,
+    29.36
+   ],
+   "transcript": "टेक्नोलजी समझनी हो तो Media Diet फालो करे",
+   "cer": 0.081,
+   "inside_window": true
+  }
+ ]
+}
