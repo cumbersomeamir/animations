@@ -1,0 +1,195 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "hi-IN",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached) — native Hindi voices, espeak-ng 'hi' phonemes",
+  "blend": [
+   [
+    "hf_alpha",
+    0.7
+   ],
+   [
+    "hm_omega",
+    0.3
+   ]
+  ],
+  "speed": 1.08,
+  "lang": "hi"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "यह तस्वीर असली है, या एआई की?",
+   "cues": [
+    [
+     "यह तस्वीर असली है,",
+     "या एआई की?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 2.82,
+   "say": "छब्बीस अक्टूबर के ऐपल अपडेट, आईओएस सत्ताईस पॉइंट दो में सुराग है।",
+   "cues": [
+    [
+     "26 अक्टूबर के ऐपल अपडेट,",
+     "आईओएस 27.2 में सुराग है।"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 8.04,
+   "say": "आईफ़ोन के एआई टूल से बनी या बदली तस्वीरों में,",
+   "cues": [
+    [
+     "आईफ़ोन के एआई टूल से",
+     "बनी या बदली तस्वीरों में,"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 11.91,
+   "say": "गूगल का अदृश्य सिंथ आई डी वॉटरमार्क जुड़ता है,",
+   "cues": [
+    [
+     "गूगल का अदृश्य सिंथआईडी",
+     "वॉटरमार्क जुड़ता है,"
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 15.98,
+   "say": "पंद्रह प्रो और बाद के आईफ़ोन पर।",
+   "cues": [
+    [
+     "15 प्रो और बाद के",
+     "आईफ़ोन पर।"
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 18.58,
+   "say": "गूगल के मुताबिक़, सिंथ आई डी डिटेक्टर इसे पहचानता है।",
+   "cues": [
+    [
+     "गूगल के मुताबिक़, सिंथआईडी",
+     "डिटेक्टर इसे पहचानता है।"
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 22.94,
+   "say": "निशान न मिलना, असली होने का सबूत नहीं।",
+   "cues": [
+    [
+     "निशान न मिलना,",
+     "असली होने का सबूत नहीं।"
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.13,
+   "say": "टेक्नोलॉजी समझनी हो, तो मीडिया डाइट फ़ॉलो करें।",
+   "cues": [
+    [
+     "टेक्नोलॉजी समझनी हो, तो",
+     "मीडिया डाइट फ़ॉलो करें।"
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.75,
+   "name": "mystery photo on a paper easel; '?' tag pops (is it real or AI?)"
+  },
+  {
+   "id": "S2",
+   "in": 2.75,
+   "out": 7.95,
+   "name": "desk calendar flips to 26 अक्टूबर; paper phone installs the update (ring fills, 27.2, check)"
+  },
+  {
+   "id": "S3",
+   "in": 7.95,
+   "out": 11.8,
+   "name": "phone's AI tool: a new picture materialises (made); a photo's edges unfold outward (changed)"
+  },
+  {
+   "id": "S4",
+   "in": 11.8,
+   "out": 15.9,
+   "name": "close on the AI picture: a stamp presses, nothing visible changes; magnifier reveals the hidden pattern"
+  },
+  {
+   "id": "S5",
+   "in": 15.9,
+   "out": 18.5,
+   "name": "row of paper phones: 15 Pro and later stand up and light; older ones stay down"
+  },
+  {
+   "id": "S6",
+   "in": 18.5,
+   "out": 22.85,
+   "name": "paper laptop detector: the AI picture slides in, scan line, mark found (check)"
+  },
+  {
+   "id": "S7",
+   "in": 22.85,
+   "out": 26.05,
+   "name": "the mystery photo is scanned: no mark found, the '?' stays (not proof it is real)"
+  },
+  {
+   "id": "S8",
+   "in": 26.05,
+   "out": 30.0,
+   "name": "hero pull-back over the desk + Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "query": 0.85,
+  "queryOff": 2.45,
+  "calFlip": 2.95,
+  "calFlipEnd": 3.95,
+  "update": 4.55,
+  "updateEnd": 6.9,
+  "updateOk": 7.0,
+  "spark": 8.2,
+  "gen": 8.9,
+  "genEnd": 9.8,
+  "extend": 10.15,
+  "extendEnd": 11.1,
+  "stamp": 12.35,
+  "stampUp": 12.95,
+  "lens": 13.45,
+  "lensEnd": 14.3,
+  "reveal": 14.1,
+  "phones": 16.1,
+  "phonesEnd": 17.7,
+  "scanIn": 18.85,
+  "scanInEnd": 19.55,
+  "scan": 19.7,
+  "scanEnd": 21.0,
+  "found": 21.15,
+  "scanIn2": 23.0,
+  "scanIn2End": 23.6,
+  "scan2": 23.75,
+  "scan2End": 24.8,
+  "none": 24.95,
+  "query2": 25.25,
+  "sign": 26.15
+ }
+}

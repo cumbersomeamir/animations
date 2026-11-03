@@ -53,3 +53,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   −15.2 LUFS / −2.0 dBTP; captions y 378–488, 0 safe-area violations; ASR recall 0.961, all lines in window.
 - Fixed: V3 heard as "Unsupported phones" → re-worded ("With a supported phone and country, it goes via satellite.");
   stopwatch carry-over into S8. Previous MP4s preserved. No automation created. Unresolved: none known (listen once before posting).
+
+## Checkpoint 2026-11-03 — hindi-03 (in progress)
+- Start state: clean at 3704e6a (= remote), no active generation. Topic: current tech news — Apple iOS 27.2 (26 Oct 2026) adds Google's
+  SynthID invisible watermark to images made/changed with iPhone generative tools; Google's SynthID Detector checks it (Google blog
+  updated 29 Oct). Not covered before. Language override: Hindi narration + Devanagari captions.
+- Voice: cached Kokoro-82M v1.0 native Hindi voices hf_alpha 0.7 + hm_omega 0.3, lang hi, speed 1.08 (0.98 overran 30 s); ASR-driven
+  wording fixes ("नए"→"बाद के", "सिंथ आई डी" spoken). Captions: Noto Sans Devanagari 700 (@fontsource 5.3.0).
+- Committed: production/30s/2026-11-03-hindi-03/ sources, narration, cues, build/QA scripts (incl. asr_check_hi.py), SOURCES.md,
+  caption, licences, README; context/16-production-30s-hindi03-01.md; one context/11 log row.
+- Running: `node build/render.mjs film frames 0 449` + `… 450 899`; next `SKIP_FRAMES=1 bash build/build.sh`, inspect, fix, commit MP4.
