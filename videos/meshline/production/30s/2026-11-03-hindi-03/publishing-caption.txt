@@ -1,0 +1,17 @@
+एयरप्लेन मोड ऑन, फिर भी ईयरबड्स चल रहे हैं? ✈️🎧
+
+एयरप्लेन मोड फ़ोन का मोबाइल नेटवर्क वाला रेडियो बंद करता है, इसलिए टावर से जुड़ाव कट जाता है। शुरू में वाई-फ़ाई और ब्लूटूथ भी बंद होते हैं, पर इन्हें दोबारा चालू किया जा सकता है (कई Android फ़ोन यह सेटिंग याद रखते हैं; मेन्यू फ़ोन के हिसाब से अलग हो सकते हैं)। तब ईयरबड्स या पास का फ़ोन सीधे रेडियो से जुड़ सकता है, पर यह लिंक सीमित दूरी तक ही चलता है, और इंटरनेट के लिए वाई-फ़ाई नेटवर्क चाहिए।
+
+यानी एयरप्लेन मोड मोबाइल नेटवर्क काटता है, हर रेडियो नहीं। उड़ान में वाई-फ़ाई/ब्लूटूथ तभी चालू करें जब एयरलाइन अनुमति दे।
+
+सामान्य फ़ोन व्यवहार का सांकेतिक एनिमेशन; पैमाने पर नहीं, ऐप की सुविधा नहीं।
+
+ऑफ़लाइन संचार के लिए मेशलाइन डाउनलोड करें।
+
+स्रोत / Sources:
+• Android Developers, Settings.Global (AIRPLANE_MODE_RADIOS, RADIO_CELL): https://developer.android.com/reference/android/provider/Settings.Global
+• Google Pixel Phone Help, Keep your Android's wireless connections on in Airplane mode: https://support.google.com/pixelphone/answer/12639358
+• Apple Support, Use Airplane Mode: https://support.apple.com/en-us/HT204234
+• Bluetooth SIG, Understanding Bluetooth range: https://www.bluetooth.com/learn-about-bluetooth/key-attributes/range/
+
+#एयरप्लेनमोड #ब्लूटूथ #ऑफ़लाइन #टेकटिप्स #airplanemode

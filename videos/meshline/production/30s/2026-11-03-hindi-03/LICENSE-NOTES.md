@@ -1,0 +1,19 @@
+# Licence notes: Hindi batch 03 (2026-11-03)
+- **Visuals:** original Canvas2D code (`src/am.mjs`). Art direction comes from the Transit Map STYLE.md (lemomo-ai/lemo-opuscar), which was read only; nothing from it was copied or executed.
+  - Phones, earbuds, tower, router, airplane glyph and toggles are generic code-drawn shapes. There is no OS or app UI and no trademark artwork.
+- **Palette and signature icon:** `videos/meshline/assets/icon.png` (an approved app asset). The Latin "Meshline" wordmark is set in Inter, as in earlier episodes.
+- **Fonts:**
+  - Noto Sans Devanagari Bold/SemiBold/Medium (OFL-1.1, notofonts). The files and `OFL.txt` are in `fonts/`.
+  - Inter / Inter Display (OFL-1.1) is used for Latin fallback, from `videos/meshline/project/fonts`.
+- **Voice:** Kokoro-82M ONNX (Apache-2.0) with its Hindi-trained voice `hf_beta` (onnx-community/Kokoro-82M-v1.0-ONNX `voices/hf_beta.bin`), run locally with kokoro-onnx 0.6.1.
+  - Phonemes come from espeak-ng (`hi`), via espeakng-loader (GPL-3.0), used as a local tool and not redistributed.
+  - The voice does not imitate any person. The English Meshline blend (af_bella/am_puck) was not used for Hindi.
+- **Rejected voices (licensing):**
+  - Piper hi_IN voices: CC BY-NC-SA, or the IndicTTS licence.
+  - facebook/mms-tts-hin: CC BY-NC.
+  - AI4Bharat Indic Parler-TTS and IndicF5: gated downloads that need an account token.
+  - XTTS: non-commercial licence, and voice cloning.
+- **Music and SFX:** synthesised from scratch (`audio/mix_h3.py` plus `education/pilot-01/audio/mix.py` helpers). No samples.
+- **ASR checks:** faster-whisper 1.1.1 (MIT) with the Systran faster-whisper-small and -medium models (MIT), run locally for QA only.
+- **Tools:** `@napi-rs/canvas` 1.0.11 (MIT), FFmpeg 6.1, numpy, scipy.
+- **Research pages:** Android Developers, Google and Apple support pages, and Bluetooth SIG. Only short attributed quotes appear in `research/claims.md`.

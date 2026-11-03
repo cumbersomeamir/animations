@@ -14,3 +14,4 @@
 | Production 30s #02 (transit map, walkie-talkie) | Original code in `production/30s/2026-11-02-batch-02/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s store-and-forward (2026-11-03) | Original code in `production/30s/2026-11-03/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s round 02 (2026-11-03, direct radio vs network route) | Original code in `production/30s/2026-11-03-round-02/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s Hindi batch 03 (2026-11-03, airplane mode) | Original code in `production/30s/2026-11-03-hindi-03/`; Noto Sans Devanagari (OFL-1.1) in its `fonts/`; Kokoro Hindi voice hf_beta; see its `LICENSE-NOTES.md` | Original work / OFL-1.1 font / Apache-2.0 voice model |

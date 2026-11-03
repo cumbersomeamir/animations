@@ -60,3 +60,6 @@
 
 ## Production 2026-11-03 round 02 (direct radio vs network route): complete
 - See `15-production-30s-round02-01.md`; output sha256 `365aa20ed90fa09179b06c15957f16873a613322014cd3ce98de4674b950f64c`. The episode log and the CTA feedback are recorded in `11-production-format.md`.
+
+## Production 2026-11-03 Hindi batch 03 (airplane mode, Hindi): complete
+- See `16-production-30s-hindi03-01.md`; output sha256 `3fcc05cb73dfe1cc81e11edb270b6870ffb780331d081179bc57ea813207650a`. The topic swap (concert/full bars was already covered) and the Hindi rules are recorded in `11-production-format.md`.

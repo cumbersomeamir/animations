@@ -1,0 +1,76 @@
+{
+  "voice": {
+    "name": "Meshline Hindi voice",
+    "blend": {
+      "hf_beta": 1.0
+    },
+    "speed": 1.0,
+    "lang": "hi",
+    "note": "Local Kokoro-82M ONNX (Apache-2.0) Hindi-trained voice hf_beta, phonemized by espeak-ng 'hi'. The English Meshline blend (af_bella/am_puck) is not used for Hindi. No imitation of any person."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "एयरप्लेन मोड ऑन, फिर भी ईयरबड्स चल रहे हैं?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.049,
+      "end": 3.299
+    },
+    {
+      "id": "l2",
+      "start": 3.7,
+      "text": "यह मोबाइल नेटवर्क वाला रेडियो बंद करके टावर से जुड़ाव काटता है।",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 4.801,
+      "end": 8.501
+    },
+    {
+      "id": "l3",
+      "start": 8.9,
+      "text": "वाई-फ़ाई, ब्लूटूथ भी बंद होते हैं, पर दोबारा चालू हो सकते हैं।",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 4.026,
+      "end": 12.926
+    },
+    {
+      "id": "l4",
+      "start": 13.33,
+      "text": "तब ईयरबड्स या पास का फ़ोन सीधे रेडियो से जुड़ सकता है।",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.822,
+      "end": 17.152
+    },
+    {
+      "id": "l5",
+      "start": 17.55,
+      "text": "पर यह लिंक सीमित दूरी तक ही चलता है; इंटरनेट के लिए वाई-फ़ाई चाहिए।",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.576,
+      "end": 22.126
+    },
+    {
+      "id": "l6",
+      "start": 22.53,
+      "text": "यानी यह मोबाइल नेटवर्क काटता है, हर रेडियो नहीं।",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.288,
+      "end": 25.818
+    },
+    {
+      "id": "l7",
+      "start": 26.25,
+      "text": "ऑफ़लाइन संचार के लिए मेशलाइन डाउनलोड करें।",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.163,
+      "end": 29.413
+    }
+  ]
+}

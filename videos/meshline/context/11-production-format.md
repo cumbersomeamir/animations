@@ -103,3 +103,16 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - The CTA may read "Download Meshline for offline communication." It is supported by the listing (free, InStock on Google Play; "keeps moving, even when the internet does not"). It must never imply a radio, a range, or unlimited or guaranteed connectivity.
 - State finite radio reach in the relevant sentence only. No long warnings or repeated disclaimers, and the single bottom note stays.
 - Source links belong in the repo and publishing copy, never in the video.
+| 05 | 2026-11-03-hindi-03 | एयरप्लेन मोड असल में क्या बंद करता है? (What airplane mode actually switches off), **Hindi** | `production/30s/2026-11-03-hindi-03/meshline-30s-hindi03-01.mp4` |
+
+## User feedback 2026-11-03, Hindi batch 03 (specific corrections only)
+- **Topic rule applied:** "full bars at a crowded concert" is already covered (01, pilot 01, 10s test). A proposed topic that repeats a covered one is swapped for an unused planned title, and the reason is recorded.
+- **Hindi episodes:**
+  - **Voice and text:**
+    - All narration and captions are natural Hindi in Devanagari.
+    - Voice: Kokoro-82M's Hindi-trained voice `hf_beta` (speed 1.0, espeak-ng `hi`), never the English af_bella/am_puck blend.
+    - Check Hindi intelligibility with a multilingual ASR (faster-whisper medium, language=hi; map Latin-script loanwords back before scoring), and state that no human listening was possible.
+  - **Fonts:** Noto Sans Devanagari (OFL) with an Inter fallback list (`'HBold, EBold'`). Draw symbols such as × as strokes.
+  - **Captions:** 50 px Devanagari, baselines 398/468, in the brief's upper safe band **y 340–520** (two Devanagari lines don't fit in 350–470 without touching), x 90–990, ≥ 4 px between lines (checked by `captions_check.mjs`).
+  - **On-screen text:** map labels and the bottom note are Hindi too. The brand is spoken and captioned as मेशलाइन, and the official icon plus the Latin wordmark stay unchanged.
+  - **Licensing:** non-commercial or gated Hindi TTS (Piper hi_IN, MMS, Indic Parler, IndicF5, XTTS) is not used.

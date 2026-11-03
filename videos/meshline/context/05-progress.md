@@ -31,3 +31,6 @@
 
 ## Production round 2026-11-03-round-02 (direct radio vs network route)
 - Done. Output `production/30s/2026-11-03-round-02/meshline-30s-round02-01.mp4`, sha256 `365aa20e…f64c`. Details, sources, QA and next step are in `15-production-30s-round02-01.md`.
+
+## Production 2026-11-03 Hindi batch 03 (airplane mode, Hindi)
+- Done. Output `production/30s/2026-11-03-hindi-03/meshline-30s-hindi03-01.mp4`, sha256 `3fcc05cb…650a`. Details, the topic-swap reason, the Hindi voice decision, sources, QA and next step are in `16-production-30s-hindi03-01.md`.
