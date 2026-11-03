@@ -68,4 +68,22 @@ The CTA wording "with AI" is the user's own instruction for their product. It is
 - **Audio:** the accepted score engine and chord sequence from F01, retimed (`music_sections` in timeline.json). Foley follows each action (beeps, door latch, steam, spoon, hum, wave pings, turntable motor).
 
 ## Progress
-- 2026-11-03: context reread; no generation was active; topic history clear; research done (above); narration generated (74 words, ASR exact); scene/choreography/audio built from F01 tooling in `production/30s/2026-11-03-round-02/`; preview stills reviewed and fixed (hook framing, display insert size, steam look, giant framing, wave visibility, spot opacity, CTA framing). Mix −14.6 LUFS, −1.6 dBTP, voice +14.9…+16.9 dB over bed. Full render started.
+- 2026-11-03: context reread; no generation was active; topic history clear; research done (above); narration generated (74 words, ASR exact); scene/choreography/audio built from F01 tooling in `production/30s/2026-11-03-round-02/`; preview stills reviewed and fixed (hook framing, display insert size, steam look, giant framing, wave visibility, spot opacity, CTA framing). Mix −14.6 LUFS, −1.6 dBTP, voice +14.9…+16.9 dB over bed.
+- 2026-11-03: full render run 1 (`WORKERS=3 ./build.sh`, 12 m 07 s): all 24 QA checks + narration sync pass; contact and
+  boundary sheets reviewed, no defects needing a re-render. Committed, pushed and attached. No further episode; no automation.
+
+## QA summary (verification results; details in the output folder's qa/QA.md)
+- Final MP4 sha256 `462a6a1161df7e8b4f5ad56eab8647ce0ff11d7a7c319d0192296606fbe09807` (22,882,838 bytes).
+- H.264 High 1080x1920 yuv420p 30 fps, 900 frames (full-decode count); AAC-LC 48 kHz stereo; video/audio/container all
+  30.000000 s; full FFmpeg decode clean.
+- −14.6 LUFS, −1.6 dBTP, LRA 4.3 LU, 0 clipped samples; ASR WER 0.0; narration lines within 0.2 ms of plan (corr ≈ 0.84).
+- Caption ink x 157–922, y 341.5–464.5, ≤ 2 lines; nothing above y 300; labels central; no overlaps; longest static run 1 frame.
+- Limits: audio judged by measurement + ASR (cannot listen); giant visuals are illustrative; "with AI" is the user's
+  wording, not found in public text; USDA/FoodSafety.gov not fetchable.
+
+## Exact commands
+`cd videos/recall/production/30s/2026-11-03-round-02 && WORKERS=3 ./build.sh` (mix → 900 frames → mux → qa/qa.py →
+qa/narration_sync.py); `TTS=1` also regenerates narration from the cached Kokoro model.
+
+## Next
+Only on user request: a new episode in the Low-poly Everyday Discovery format (11 + 15) in a new round folder.

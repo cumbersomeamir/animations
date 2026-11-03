@@ -1,0 +1,130 @@
+{
+  "cues": {
+    "endBeep": 0.02,
+    "doorOpen": 0.38,
+    "dipEdge": 1.55,
+    "liftEdge": 1.95,
+    "taste1": 2.85,
+    "cold": 3.25,
+    "waves": 4.45,
+    "pattern": 6.25,
+    "turn": 8.95,
+    "shell0": 11.4,
+    "shell1": 13.9,
+    "core0": 14.95,
+    "core1": 17.1,
+    "deadpanBlink": 17.7,
+    "pause": 18.25,
+    "stir0": 18.95,
+    "stir1": 19.6,
+    "spread1": 20.45,
+    "mix": 20.75,
+    "stand0": 21.05,
+    "stand1": 22.95,
+    "dipMid": 23.7,
+    "taste2": 24.8,
+    "smile": 25.15,
+    "cta": 26.35,
+    "bite": 27.4,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "mw_open",
+      "t0": 0.0,
+      "t1": 1.1
+    },
+    {
+      "id": "bowl_edge",
+      "t0": 1.1,
+      "t1": 2.55
+    },
+    {
+      "id": "taste_cold",
+      "t0": 2.55,
+      "t1": 4.2
+    },
+    {
+      "id": "giant_waves",
+      "t0": 4.2,
+      "t1": 6.6
+    },
+    {
+      "id": "giant_pattern",
+      "t0": 6.6,
+      "t1": 8.95
+    },
+    {
+      "id": "giant_turn",
+      "t0": 8.95,
+      "t1": 11.25
+    },
+    {
+      "id": "giant_section",
+      "t0": 11.25,
+      "t1": 14.95
+    },
+    {
+      "id": "giant_core",
+      "t0": 14.95,
+      "t1": 17.15
+    },
+    {
+      "id": "deadpan",
+      "t0": 17.15,
+      "t1": 18.2
+    },
+    {
+      "id": "panel_pause",
+      "t0": 18.2,
+      "t1": 18.9
+    },
+    {
+      "id": "stir_spread",
+      "t0": 18.9,
+      "t1": 20.75
+    },
+    {
+      "id": "giant_stand",
+      "t0": 20.75,
+      "t1": 23.1
+    },
+    {
+      "id": "bowl_steam",
+      "t0": 23.1,
+      "t1": 24.45
+    },
+    {
+      "id": "taste_smile",
+      "t0": 24.45,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.25
+    },
+    {
+      "id": "l02",
+      "start": 4.35
+    },
+    {
+      "id": "l03",
+      "start": 9.15
+    },
+    {
+      "id": "l04",
+      "start": 18.3
+    },
+    {
+      "id": "l05",
+      "start": 26.45
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "file": "production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "5902891"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "190577"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 22882838,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 4.3,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.8319064974784851,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Why are microwaved leftovers hot at the edge, cold in the middle? Waves bounce off the metal walls and overlap, leaving strong and weak spots. The turntable carries food through them, but in thick food, the waves mostly heat the outer layers. The middle waits for heat to spread inward. So stir halfway, spread food evenly, and let it stand so the heat evens out. Download Recall for learning any new subject with AI.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "Why",
+        "t": 0.0
+      },
+      {
+        "w": "are",
+        "t": 0.42
+      },
+      {
+        "w": "microwaved",
+        "t": 0.6
+      },
+      {
+        "w": "leftovers",
+        "t": 1.32
+      },
+      {
+        "w": "hot",
+        "t": 1.88
+      },
+      {
+        "w": "at",
+        "t": 2.2
+      },
+      {
+        "w": "the",
+        "t": 2.34
+      },
+      {
+        "w": "edge,",
+        "t": 2.44
+      },
+      {
+        "w": "cold",
+        "t": 3.14
+      },
+      {
+        "w": "in",
+        "t": 3.36
+      },
+      {
+        "w": "the",
+        "t": 3.6
+      },
+      {
+        "w": "middle?",
+        "t": 3.68
+      },
+      {
+        "w": "Waves",
+        "t": 4.58
+      },
+      {
+        "w": "bounce",
+        "t": 4.58
+      },
+      {
+        "w": "off",
+        "t": 4.9
+      },
+      {
+        "w": "the",
+        "t": 5.26
+      },
+      {
+        "w": "metal",
+        "t": 5.4
+      },
+      {
+        "w": "walls",
+        "t": 5.62
+      },
+      {
+        "w": "and",
+        "t": 5.86
+      },
+      {
+        "w": "overlap,",
+        "t": 6.18
+      },
+      {
+        "w": "leaving",
+        "t": 7.04
+      },
+      {
+        "w": "strong",
+        "t": 7.28
+      },
+      {
+        "w": "and",
+        "t": 7.74
+      },
+      {
+        "w": "weak",
+        "t": 7.98
+      },
+      {
+        "w": "spots.",
+        "t": 8.14
+      },
+      {
+        "w": "The",
+        "t": 9.2
+      },
+      {
+        "w": "turntable",
+        "t": 9.22
+      },
+      {
+        "w": "carries",
+        "t": 9.62
+      },
+      {
+        "w": "food",
+        "t": 10.04
+      },
+      {
+        "w": "through",
+        "t": 10.38
+      },
+      {
+        "w": "them,",
+        "t": 10.66
+      },
+      {
+        "w": "but",
+        "t": 11.22
+      },
+      {
+        "w": "in",
+        "t": 11.46
+      },
+      {
+        "w": "thick",
+        "t": 11.58
+      },
+      {
+        "w": "food,",
+        "t": 11.82
+      },
+      {
+        "w": "the",
+        "t": 12.44
+      },
+      {
+        "w": "waves",
+        "t": 12.46
+      },
+      {
+        "w": "mostly",
+        "t": 12.72
+      },
+      {
+        "w": "heat",
+        "t": 13.2
+      },
+      {
+        "w": "the",
+        "t": 13.6
+      },
+      {
+        "w": "outer",
+        "t": 13.82
+      },
+      {
+        "w": "layers.",
+        "t": 14.0
+      },
+      {
+        "w": "The",
+        "t": 14.94
+      },
+      {
+        "w": "middle",
+        "t": 15.06
+      },
+      {
+        "w": "waits",
+        "t": 15.24
+      },
+      {
+        "w": "for",
+        "t": 15.46
+      },
+      {
+        "w": "heat",
+        "t": 15.76
+      },
+      {
+        "w": "to",
+        "t": 16.02
+      },
+      {
+        "w": "spread",
+        "t": 16.24
+      },
+      {
+        "w": "inward.",
+        "t": 16.48
+      },
+      {
+        "w": "So",
+        "t": 18.38
+      },
+      {
+        "w": "stir",
+        "t": 18.44
+      },
+      {
+        "w": "halfway,",
+        "t": 18.64
+      },
+      {
+        "w": "spread",
+        "t": 19.5
+      },
+      {
+        "w": "food",
+        "t": 19.72
+      },
+      {
+        "w": "evenly,",
+        "t": 20.06
+      },
+      {
+        "w": "and",
+        "t": 21.02
+      },
+      {
+        "w": "let",
+        "t": 21.1
+      },
+      {
+        "w": "it",
+        "t": 21.24
+      },
+      {
+        "w": "stand",
+        "t": 21.32
+      },
+      {
+        "w": "so",
+        "t": 21.58
+      },
+      {
+        "w": "the",
+        "t": 21.92
+      },
+      {
+        "w": "heat",
+        "t": 22.02
+      },
+      {
+        "w": "evens",
+        "t": 22.28
+      },
+      {
+        "w": "out.",
+        "t": 22.7
+      },
+      {
+        "w": "Download",
+        "t": 26.18
+      },
+      {
+        "w": "Recall",
+        "t": 26.7
+      },
+      {
+        "w": "for",
+        "t": 27.14
+      },
+      {
+        "w": "learning",
+        "t": 27.74
+      },
+      {
+        "w": "any",
+        "t": 27.92
+      },
+      {
+        "w": "new",
+        "t": 28.2
+      },
+      {
+        "w": "subject",
+        "t": 28.42
+      },
+      {
+        "w": "with",
+        "t": 28.74
+      },
+      {
+        "w": "AI.",
+        "t": 29.08
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_ink_px": {
+    "left": 157.4639892578125,
+    "right": 921.8880004882812,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 4.734,
+    "min_frame_diff": 0.1038,
+    "longest_static_run_frames": 1,
+    "max_frame_diff": 97.49,
+    "max_diff_at_s": 18.9
+  },
+  "luma_min_mean_max": [
+    70.5,
+    122.2,
+    162.7
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

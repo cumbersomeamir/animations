@@ -1,0 +1,217 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.61,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.25,
+      "end": 4.081,
+      "text": "Why are microwaved leftovers hot at the edge, cold in the middle?",
+      "words": 12,
+      "words_per_s": 3.13,
+      "voice_over_bed_db": 15.9
+    },
+    {
+      "id": "l02",
+      "start": 4.35,
+      "end": 8.895,
+      "text": "Waves bounce off the metal walls and overlap, leaving strong and weak spots.",
+      "words": 13,
+      "words_per_s": 2.86,
+      "voice_over_bed_db": 14.9
+    },
+    {
+      "id": "l03",
+      "start": 9.15,
+      "end": 17.154,
+      "text": "The turntable carries food through them, but in thick food the waves mostly heat the outer layers; the middle waits for heat to spread inward.",
+      "words": 25,
+      "words_per_s": 3.12,
+      "voice_over_bed_db": 15.4
+    },
+    {
+      "id": "l04",
+      "start": 18.3,
+      "end": 23.079,
+      "text": "So stir halfway, spread food evenly, and let it stand so the heat evens out.",
+      "words": 15,
+      "words_per_s": 3.14,
+      "voice_over_bed_db": 16.9
+    },
+    {
+      "id": "l05",
+      "start": 26.45,
+      "end": 29.739,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.8
+    }
+  ],
+  "narration_words": 74,
+  "speech_s": 24.45,
+  "overall_words_per_s": 2.47,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "microwave END beep"
+    },
+    {
+      "t": 0.38,
+      "beat": 0.76,
+      "sfx": "door latch"
+    },
+    {
+      "t": 0.41,
+      "beat": 0.82,
+      "sfx": "door swings open"
+    },
+    {
+      "t": 0.43,
+      "beat": 0.86,
+      "sfx": "steam escapes"
+    },
+    {
+      "t": 1.55,
+      "beat": 3.1,
+      "sfx": "spoon dips at the hot edge"
+    },
+    {
+      "t": 2.05,
+      "beat": 4.1,
+      "sfx": "spoon in the middle"
+    },
+    {
+      "t": 2.8,
+      "beat": 5.6,
+      "sfx": "taste"
+    },
+    {
+      "t": 3.3,
+      "beat": 6.6,
+      "sfx": "cold shiver"
+    },
+    {
+      "t": 4.15,
+      "beat": 8.3,
+      "sfx": "cut into the giant oven"
+    },
+    {
+      "t": 4.35,
+      "beat": 8.7,
+      "sfx": "microwave hum (inlet)"
+    },
+    {
+      "t": 4.45,
+      "beat": 8.9,
+      "sfx": "wave launches"
+    },
+    {
+      "t": 5.05,
+      "beat": 10.1,
+      "sfx": "wave bounces off a wall"
+    },
+    {
+      "t": 6.25,
+      "beat": 12.5,
+      "sfx": "standing pattern forms"
+    },
+    {
+      "t": 7.27,
+      "beat": 14.54,
+      "sfx": "strong spot"
+    },
+    {
+      "t": 7.99,
+      "beat": 15.98,
+      "sfx": "weak spot"
+    },
+    {
+      "t": 8.95,
+      "beat": 17.9,
+      "sfx": "turntable starts"
+    },
+    {
+      "t": 8.95,
+      "beat": 17.9,
+      "sfx": "turntable motor"
+    },
+    {
+      "t": 11.2,
+      "beat": 22.4,
+      "sfx": "cutaway slice"
+    },
+    {
+      "t": 11.7,
+      "beat": 23.4,
+      "sfx": "outer layers warm"
+    },
+    {
+      "t": 18.25,
+      "beat": 36.5,
+      "sfx": "pause button"
+    },
+    {
+      "t": 18.45,
+      "beat": 36.9,
+      "sfx": "door latch"
+    },
+    {
+      "t": 18.95,
+      "beat": 37.9,
+      "sfx": "spoon stirs"
+    },
+    {
+      "t": 19.6,
+      "beat": 39.2,
+      "sfx": "spoon spreads"
+    },
+    {
+      "t": 20.7,
+      "beat": 41.4,
+      "sfx": "cut into the giant oven"
+    },
+    {
+      "t": 21.25,
+      "beat": 42.5,
+      "sfx": "heat evens out"
+    },
+    {
+      "t": 23.12,
+      "beat": 46.24,
+      "sfx": "steam from the whole bowl"
+    },
+    {
+      "t": 23.7,
+      "beat": 47.4,
+      "sfx": "spoon in the middle"
+    },
+    {
+      "t": 24.75,
+      "beat": 49.5,
+      "sfx": "taste"
+    },
+    {
+      "t": 25.25,
+      "beat": 50.5,
+      "sfx": "satisfied ding"
+    },
+    {
+      "t": 27.15,
+      "beat": 54.3,
+      "sfx": "spoon clink"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.524,
+  "voice_gain": 1.0
+}
