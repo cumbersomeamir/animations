@@ -71,3 +71,50 @@ New isolated Mello Code chat. Durable rules: `10-format-and-style-rules.md`. Epi
 
 ## Next
 - This round's single episode is done. Wait for user review before any new episode, and do not start another one unprompted.
+
+---
+
+# Round 02, 2026-11-03: episode round02-01 "A short sensory grounding break"
+Episode record (script, storyboard, citations, adjustments): `12-episode-grounding-break.md`. The established format (`10-format-and-style-rules.md`) is unchanged.
+
+## Verified facts (this round)
+- Topic history: breathing (stickman) and cognitive defusion (feedback-01) were covered before. Sensory grounding is new.
+- Sources:
+  - NHS inform, "Grounding exercises" (5,4,3,2,1 method; "Grounding aims to take your mind off of uncomfortable symptoms or thoughts").
+  - Cwm Taf psychological therapies grounding pack (hosted by NHS Forth Valley): "bringing you back to the present moment"; a one-see / one-hear / one-feel exercise.
+  - Hull NHS 5-4-3-2-1 leaflet ("a clock ticking").
+
+## Creative decisions (this round)
+- Sheet feedback: Satisfied = Yes. The accepted room, performer, lavender/ivory identity, typography, staging, caption treatment, voice, audio chain and the "Take a mindful break with Mello" CTA were kept.
+- The source was copied from the feedback-01 project; only episode code is new.
+- 3-see / 2-hear / 1-feel is presented as a short grounding break: a shortened sense count of the NHS 5,4,3,2,1 method, not a named protocol.
+- Additions:
+  - a desk clock (a wall clock would have sat in the caption zone);
+  - three navy thought chips that settle and remain;
+  - lavender rings and number tabs;
+  - a low under-desk feet shot plus a 4 s crane.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-03-round-02/mello-30s-round02-01.mp4`
+  - sha256 `8d3c94bd3d8e58e7a6adaf98f6ac250423b86c1d2c15af5b6c1c461f9b67d0d4`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/.../qa/QA.md`).
+  - Full decode clean; −16.0 LUFS; −1.6 dBTP.
+  - Cuts are the four largest frame changes; every second moves.
+  - 0 safe-zone issues in 300 samples; ASR recovered 69/69 words.
+- Commands:
+
+```bash
+cd videos/mello/production/30s/2026-11-03-round-02/project && npm ci && ./build.sh
+```
+
+  Optional ASR: `ASR_PY=<venv with faster-whisper==1.1.1>/bin/python`.
+- Three full renders: render 1 had a static S4 hold, render 2 a whip-fast crane, render 3 is final.
+
+## Unresolved
+- Nobody has listened to the audio yet; it was checked by measurements, spectrogram and ASR only.
+- "Mello" is pronounced like "mellow".
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.

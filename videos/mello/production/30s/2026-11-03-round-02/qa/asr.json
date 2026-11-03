@@ -1,0 +1,443 @@
+{
+  "model": "base.en",
+  "word_level_timestamps": false,
+  "transcript": "Mind racing try a short grounding break name three things you can see a lamp a mug your notebook Two sounds you can hear a clock ticking your own breath One physical sensation your feet on the floor It won't solve what's worrying you, but it brings your attention back to the present Three two one then return to what you were doing Take a mindful break with mellow You",
+  "ref_words": 69,
+  "matched_words": 69,
+  "recall": 1.0,
+  "missing": [],
+  "line_starts": [
+    {
+      "id": "hook",
+      "planned": 0.3,
+      "asr_first_word": 0.0
+    },
+    {
+      "id": "see",
+      "planned": 3.25,
+      "asr_first_word": null
+    },
+    {
+      "id": "lamp",
+      "planned": 4.95,
+      "asr_first_word": null
+    },
+    {
+      "id": "mug",
+      "planned": 5.85,
+      "asr_first_word": null
+    },
+    {
+      "id": "nb",
+      "planned": 6.7,
+      "asr_first_word": null
+    },
+    {
+      "id": "hear",
+      "planned": 8.2,
+      "asr_first_word": 7.88
+    },
+    {
+      "id": "clock",
+      "planned": 9.65,
+      "asr_first_word": null
+    },
+    {
+      "id": "breath",
+      "planned": 11.25,
+      "asr_first_word": null
+    },
+    {
+      "id": "feel",
+      "planned": 12.95,
+      "asr_first_word": 12.64
+    },
+    {
+      "id": "feet",
+      "planned": 14.55,
+      "asr_first_word": null
+    },
+    {
+      "id": "qual",
+      "planned": 16.35,
+      "asr_first_word": 15.92
+    },
+    {
+      "id": "three",
+      "planned": 21.05,
+      "asr_first_word": 20.84
+    },
+    {
+      "id": "two",
+      "planned": 21.75,
+      "asr_first_word": 20.84
+    },
+    {
+      "id": "one",
+      "planned": 22.45,
+      "asr_first_word": null
+    },
+    {
+      "id": "back",
+      "planned": 23.35,
+      "asr_first_word": null
+    },
+    {
+      "id": "cta",
+      "planned": 26.3,
+      "asr_first_word": 25.96
+    }
+  ],
+  "words": [
+    {
+      "w": "Mind",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "racing",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "try",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "a",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "short",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "grounding",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "break",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "name",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "three",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "things",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "you",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "can",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "see",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "a",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "lamp",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "a",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "mug",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "your",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "notebook",
+      "start": 0.0,
+      "end": 7.32
+    },
+    {
+      "w": "Two",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "sounds",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "you",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "can",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "hear",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "a",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "clock",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "ticking",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "your",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "own",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "breath",
+      "start": 7.88,
+      "end": 11.86
+    },
+    {
+      "w": "One",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "physical",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "sensation",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "your",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "feet",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "on",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "the",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "floor",
+      "start": 12.64,
+      "end": 15.44
+    },
+    {
+      "w": "It",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "won't",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "solve",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "what's",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "worrying",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "you,",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "but",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "it",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "brings",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "your",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "attention",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "back",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "to",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "the",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "present",
+      "start": 15.92,
+      "end": 20.4
+    },
+    {
+      "w": "Three",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "two",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "one",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "then",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "return",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "to",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "what",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "you",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "were",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "doing",
+      "start": 20.84,
+      "end": 24.8
+    },
+    {
+      "w": "Take",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "a",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "mindful",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "break",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "with",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "mellow",
+      "start": 25.96,
+      "end": 27.96
+    },
+    {
+      "w": "You",
+      "start": 30.0,
+      "end": 32.0
+    }
+  ]
+}
