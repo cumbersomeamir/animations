@@ -1,0 +1,76 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.87
+      ],
+      "script": "Why do brands repeat one shape everywhere?",
+      "heard": "Why do brands repeat one shape everywhere?",
+      "words": "7/7"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.85,
+        7.15
+      ],
+      "script": "Take a fictional bakery: one arch on its logo, bag and sign.",
+      "heard": "Take a fictional bakery. One arch on its logo, bag and sign.",
+      "words": "12/12"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        7.25,
+        10.76
+      ],
+      "script": "Cover the name, and the arch can still point to the bakery.",
+      "heard": "Cover the name, and the arch can still point to the bakery.",
+      "words": "12/12"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.15,
+        15.81
+      ],
+      "script": "Researchers call it a distinctive brand asset, once buyers learn the link.",
+      "heard": "Researchers call it a distinctive brand asset. Once buyers learn the link.",
+      "words": "12/12"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        15.85,
+        19.43
+      ],
+      "script": "Swap shapes on every item, and there's no link to learn.",
+      "heard": "swap shapes on every item, and there's no link to learn.",
+      "words": "11/11"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19.65,
+        24.72
+      ],
+      "script": "Pick one asset, use it consistently, and test whether people link it to you.",
+      "heard": "Pick one asset, use it consistently, and test whether people link it to you.",
+      "words": "14/14"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        26.15,
+        28.92
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why do brands repeat one shape everywhere? Take a fictional bakery, one arch on its logo, bag and sign. Cover the name and the arch can still point to the bakery. Researchers call it a distinctive brand asset once buyers learn the link. Swap shapes on every item and there's no link to learn. Pick one asset, use it consistently and test whether people link it to you. Follow Wirbins to decode how brands sell."
+}

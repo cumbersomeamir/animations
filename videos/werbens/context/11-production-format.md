@@ -39,6 +39,9 @@ one usable idea; the app appears only as a subtle signature.
 - Fictional products/brands only, labelled on screen; no real-brand UI, no untested product claims, no invented data.
 
 ## Palette (from `assets/icon.png`)
+> **Corrected 2026-11-03 — see `context/15-brand-correction-2026-11-03.md`:** measured app primary #573EEC, light #AEA2F4,
+> background #F7F8FA, card border #E4E7EB, text #101114, grey #8C93A1, icon #6435FC; official logo = Play icon + werbens.com
+> lockup. The palette lines below are historical.
 Violet `#6234FB`, deep violet `#4A1FD6`, lavender `#CCC0F7`, pale `#F0EAFC`, white `#FEFEFD`; ink `#1B1433` (derived);
 UI greys are lavender-tinted (`#E3DCF8` lines, `#8A82AE` secondary text). Wallpaper: violet gradient `#2A137A → #6234FB → #8C6CFB`.
 

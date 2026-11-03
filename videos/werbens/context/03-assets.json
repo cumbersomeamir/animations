@@ -9,7 +9,13 @@
       "path": "videos/werbens/assets/icon.png",
       "sha256": "b9709c1f51e713ad75317bbdd5d68535758fdbbf4456cccccea5302c5b0872fc",
       "source": "Saved public Google Play listing snapshot, October 2026"
+    },
+    {
+      "path": "videos/werbens/assets/brand/werbens-site-logo-mark.svg",
+      "sha256": "bfeb95587227d34ebceead07f2d1149d1e23a37f17911e5a7326e006e80519f9",
+      "source": "Inline SVG logo mark in the header of https://www.werbens.com/ (loaded 2026-11-03); used with the word Werbens in Fahkwang Bold as the official lockup. See context/15."
     }
   ],
-  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos."
+  "policy": "Use only this app assets. Draw original graphics when no verified asset exists. Do not import other app posters or finished videos.",
+  "brand_check_2026_11_03": "Play icon re-downloaded 2026-11-03 is byte-identical to assets/icon.png (b9709c1f...). Palette measured from official listing screenshots: see context/15."
 }
