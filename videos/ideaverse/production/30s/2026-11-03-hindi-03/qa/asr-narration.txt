@@ -1,0 +1,20 @@
+h1 placed  0.25s heard [ 0.10.. 3.20] CER 0.07
+   script: फ़ोटो अच्छी है, पर पीछे कचरे का डिब्बा?
+   heard : फोटो अच्छी है पर पीछे कच्रे का दिब्बा
+h2 placed  3.55s heard [ 3.40.. 9.32] CER 0.04
+   script: गूगल फ़ोटोज़ के मैजिक इरेज़र में उस पर टैप करें, या गोला बनाकर चुनें।
+   heard : Google Photos के Magic Eraser में उस पर टैब करें या गोला बनाकर चुने।
+h3 placed  9.35s heard [ 9.20..15.68] CER 0.04
+   script: फिर एआई अनुमान लगाता है कि वह न होता तो वहाँ क्या दिखता, और जगह भर देता है।
+   heard : फिर AI अनुमान लगाता है कि वह नहोता तो वहां क्या दिकता और जगह बर देता है।
+h4 placed 15.65s heard [15.50..20.94] CER 0.06
+   script: भरा हिस्सा बस अनुमान है, इसलिए ज़ूम करके किनारे और परछाइयाँ जाँचें।
+   heard : भरा हिस्सा बस अनुमान है, इसलिए जूम करके किनारे और परचाइयां जानचे।
+h5 placed 21.15s heard [21.00..25.88] CER 0.13
+   script: इसके लिए सब्सक्रिप्शन नहीं लगता, बस आपका फ़ोन इसे चला सके।
+   heard : इसके लिये सब्सक्रिप्षण नहीं लगता, बस आपका फून इसे चला सके.
+h6 placed 26.30s heard [26.15..28.59] CER 0.08
+   script: आइडियावर्स ऐप डाउनलोड कीजिए।
+   heard : ideaverse app download कीजिये
+worst line CER: 0.13  (spelling-normalised; ASR proxy for intelligibility)
+words outside a caption that shows them: none

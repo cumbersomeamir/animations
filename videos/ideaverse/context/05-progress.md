@@ -64,7 +64,7 @@
 ## Decisions
 - Voice: Kokoro Hindi voices hm_omega 0.7 + hf_alpha 0.3 (Apache-2.0), speed 1.07; Piper hi_IN rejected (licences).
 - Font: Noto Sans Devanagari via @fontsource 5.3.0. Renderer/style unchanged.
-## Status / next
-- Narration synthesized + Hindi-ASR checked (67 words, 26.6 s). Stills inspected (2 rounds). Full render running:
-  `cd production/30s/2026-11-03-hindi-03/src && node render.mjs --frames --workers=3`.
-- Next: encode, score, loudnorm, mux to ideaverse-30s-hindi03-01.mp4, ./qa.sh (Hindi ASR), QA.md, commit, push, attach.
+## Status — DELIVERED
+- ideaverse-30s-hindi03-01.mp4 rendered (900 frames ~49 min + re-renders 184–191, 375–380, 555–900), encoded, mastered
+  (−14.9 LUFS), muxed; QA in 2026-11-03-hindi-03/QA.md + qa/ (Hindi ASR via faster-whisper medium).
+- Next: await user review (native-speaker listen suggested). No further episode, no automation.
