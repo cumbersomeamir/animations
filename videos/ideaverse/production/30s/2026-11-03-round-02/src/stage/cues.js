@@ -16,7 +16,7 @@ const CUES = {
     // E · translate ("translate" 16.07, "menu" 16.65, "language" 17.29)
     menuOut: 15.9, menuShow: 16.15, trans: [16.4, 16.75, 17.1],
     // F · misread + double-check ("misreads" 20.02, "double-check" 21.22, "times" 21.74, "prices" 22.38)
-    blurShow: 18.5, misShow: 19.6, boardTime: 21.6, fixTime: 21.9, boardFare: 22.35, fixFare: 22.6,
+    blurShow: 18.52, misShow: 19.6, boardTime: 21.6, fixTime: 21.9, boardFare: 22.35, fixFare: 22.6,
   },
   narration: [
     { id: 's1', t: 0.30 }, { id: 's2', t: 3.00 }, { id: 's3', t: 12.15 }, { id: 's4', t: 19.00 }, { id: 's5', t: 26.40 },

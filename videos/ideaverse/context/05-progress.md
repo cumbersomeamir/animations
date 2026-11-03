@@ -50,7 +50,8 @@
 ## Decisions
 - Renderer/style/voice/caption treatment reused unchanged from the feedback round; new props: bus timetable board, phone
   (EXAMPLE screen), pattern cabinet (LETTERS/NUMBERS, MATCH meter), candidate + variant cards, menu card.
-## Status / next
-- Narration synthesized + ASR-verified (66 words). Stills inspected in 4 rounds. Full 900-frame render running:
-  `cd production/30s/2026-11-03-round-02/src && node render.mjs --frames --workers=3`.
-- Next: encode, score, loudnorm, mux to ideaverse-30s-round02-01.mp4, ./qa.sh, QA.md, commit, push, attach.
+## Status — DELIVERED
+- ideaverse-30s-round02-01.mp4 rendered (900 frames ~51 min, 3 SwiftShader workers, + targeted re-renders 0–85, 388–430,
+  555–570), encoded, mastered (−15.0 LUFS / −1.5 dBTP), muxed; QA in 2026-11-03-round-02/QA.md + qa/.
+- Commands: 2026-11-03-round-02/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
+- Next: await user review. No further episode, no automation.

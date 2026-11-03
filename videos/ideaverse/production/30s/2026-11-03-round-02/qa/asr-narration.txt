@@ -1,0 +1,7 @@
+s1 placed  0.30s  heard [ 0.15.. 2.01]  MATCH: How does your phone read the words in a photo?
+s2 placed  3.00s  heard [ 2.85..11.03]  MATCH: First, it finds where the text is, then it recognizes each letter and word, matching their shapes to patterns it learned from many examples.
+s3 placed 12.15s  heard [12.00..17.58]  MATCH: The photo becomes real text. Tap to copy a bus time or translate a menu into your language.
+s4 placed 19.00s  heard [18.85..22.69]  MATCH: Poor focus can cause misreads, so double check times and prices.
+s5 placed 26.40s  heard [26.25..27.57]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

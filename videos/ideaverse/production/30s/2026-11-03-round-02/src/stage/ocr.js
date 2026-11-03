@@ -509,7 +509,7 @@ function layoutChip(t) {
   chip.quaternion.copy(phone.quaternion); chip.scale.setScalar(1 - 0.5 * k);
 }
 function layoutMenu(t, p) {
-  menuCard.visible = t >= Hh.menuOut && t < 18.9; if (!menuCard.visible) return;
+  menuCard.visible = t >= Hh.menuOut && t < 18.5; if (!menuCard.visible) return;   // gone at the cut to the board
   const src = V(); docket.sources.getWorldPosition(src); src.add(V(0, 0, 0.12));
   const held = local(p, V(-0.25, 1.0, 0.33)), q = Q(-0.06, p.rotY * D2R + 0.14);
   const k = E.outBack(inv(Hh.menuOut, Hh.menuOut + 0.35, t)), away = E.inQuad(inv(18.4, 18.85, t));

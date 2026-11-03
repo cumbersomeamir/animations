@@ -44,5 +44,8 @@ note to-do list, spam filters).
    flips to 08:15 ✓, then FARE 2.20 ✓ ("times and prices").
 8. 25.6–30 CTA: DOCKET to camera, wave; "Download the Ideaverse app" + icon chip.
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-03
+- Output: production/30s/2026-11-03-round-02/ideaverse-30s-round02-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean.
+- −15.0 LUFS, TP −1.5 dBFS. ASR: all 5 lines match; every word inside its caption. Caption pill x 118..962, y 344..520;
+  top band text-free.
