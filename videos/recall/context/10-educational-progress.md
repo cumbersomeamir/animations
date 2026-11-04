@@ -103,3 +103,8 @@ correction): record in context 16; deliverable `videos/recall/production/30s/202
 ## Update 2026-11-03 — Hindi 03
 Episode H03 "गीली स्क्रीन अजीब क्यों चलती है?" (wet touchscreen), fully Hindi (Devanagari captions, Kokoro Hindi voices):
 record in context 17; deliverable `videos/recall/production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4`.
+
+## Update 2026-11-04 — Hindi 04
+Episode H04 "इंडक्शन पर बर्तन गर्म कैसे होता है?" (induction cooktop; Hindi). The requested microwave-turntable topic
+was already R02, so a distinct topic was chosen (reason in context 18); deliverable
+`videos/recall/production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4`.

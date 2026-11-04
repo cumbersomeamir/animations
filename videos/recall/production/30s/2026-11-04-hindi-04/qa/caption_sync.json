@@ -1,0 +1,101 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "caption": "इंडक्शन पर आग नहीं दिखती, / फिर बर्तन गर्म कैसे होता है?",
+   "start": 0.15,
+   "end": 4.35,
+   "first_word_s": 0.2,
+   "last_word_s": 3.98,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "नीचे लगी / तांबे की कुंडली",
+   "start": 4.35,
+   "end": 6.3,
+   "first_word_s": 4.45,
+   "last_word_s": 5.93,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "तेज़ी से बदलता / चुंबक-क्षेत्र बनाती है।",
+   "start": 6.3,
+   "end": 9.15,
+   "first_word_s": 6.37,
+   "last_word_s": 8.65,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "यह क्षेत्र लोहे वाले तले में / भंवर धाराएं बनाता है,",
+   "start": 9.15,
+   "end": 12.85,
+   "first_word_s": 9.2,
+   "last_word_s": 12.81,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "जिससे तला खुद गर्म होता है।",
+   "start": 12.85,
+   "end": 15.25,
+   "first_word_s": 13.3,
+   "last_word_s": 14.86,
+   "caption_lead_s": 0.45,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "एल्युमिनियम या शीशे के बर्तन / अक्सर गर्म नहीं होते।",
+   "start": 15.25,
+   "end": 19.15,
+   "first_word_s": 15.35,
+   "last_word_s": 18.75,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "तो तले पर / चुंबक लगाएं;",
+   "start": 19.9,
+   "end": 21.8,
+   "first_word_s": 19.95,
+   "last_word_s": 21.09,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "चिपक जाए, तो बर्तन / गर्म हो सकता है।",
+   "start": 21.8,
+   "end": 24.3,
+   "first_word_s": 21.85,
+   "last_word_s": 23.96,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "चुंबक से जांचें, फिर पकाएं।",
+   "start": 24.3,
+   "end": 25.75,
+   "spoken": false
+  },
+  {
+   "caption": "कोई भी नया विषय एआई से / सीखने के लिए रिकॉल डाउनलोड करें।",
+   "start": 25.75,
+   "end": 30.0,
+   "first_word_s": 25.8,
+   "last_word_s": 29.56,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

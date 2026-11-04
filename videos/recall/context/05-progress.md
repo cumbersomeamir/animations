@@ -50,3 +50,6 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
 - Hindi 03 2026-11-03 (latest user correction: Hindi narration + Devanagari captions; same performer/set/phone; Kokoro
   official Hindi voices): `videos/recall/production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4` (30.000 s, wet
   touchscreen; record, Hindi voice/ASR checks, sources + QA in 17).
+- Hindi 04 2026-11-04 (requested microwave-turntable topic already covered by R02 → distinct topic per user rule):
+  `videos/recall/production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4` (30.000 s, induction cooktop; Hindi;
+  record, topic-change reason, sources, Hindi checks + QA in 18).
