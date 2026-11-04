@@ -1,0 +1,12 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/h1.wav": "800 या 1000 प्रती प्लेट सस्ता कौन?",
+    "build/vo/h2.wav": "मान लीजिये मेहमान 200 पर पहले में न्यूनतम 250 प्लेट.",
+    "build/vo/h3.wav": "उपर से live counter, staff और tax अलग.",
+    "build/vo/h4.wav": "दूसरे quotation में ये सब शामिल.",
+    "build/vo/h5.wav": "कुल पहला 2,50,000 से ज्यादा, दूसरा 2,00,",
+    "build/vo/h6.wav": "हर कोटेशन में प्लेट, लाइव काउंटर, स्टाफ, टेक्स और नियूनतम मेहमान मिलाए.",
+    "build/vo/h7.wav": "Quotation और budget के लिए Plan My Wedding डाउनलोड करें."
+  }
+}
