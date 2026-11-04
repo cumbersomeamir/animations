@@ -79,3 +79,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Voice: Kokoro Hindi hf_alpha 0.7 + hm_omega 0.3, speed 1.08; ASR-driven spoken spellings (ऐंड्रॉइड, मीडिआ, गये). 74 words, 27.0 s.
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/17, log row.
 - Running: `node build/render.mjs film frames 0 449` + `… 450 899` (started 07:46); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-04 — hindi-04 delivered
+- New 30.000 s Hindi episode rendered, verified and committed: production/30s/2026-11-04-hindi-04/media-diet-30s-hindi04-01.mp4
+  (SHA-256 aa815eb04ce787cd2513904d0be77b02ad5307e66720fd28740b30ff350c38d2). Record: context/17-production-30s-hindi04-01.md; context/11 got one log row.
+- Commands: `node build/render.mjs film frames 0 449` + `… 450 899` (parallel, ~43 min), hero fix `… 779 838` + `… 839 899`, then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (hin); decode clean; −14.9 LUFS /
+  −2.0 dBTP; captions y 362–494, 0 violations; caption↔speech 9/9; Whisper-medium (hi) per-line CER 0.065.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

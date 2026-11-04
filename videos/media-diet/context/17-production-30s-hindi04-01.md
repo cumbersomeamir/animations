@@ -66,10 +66,18 @@ to help keep your apps safe & your data private* (what it does; on by default; "
   misreads: "ऐंड्रॉइड" (not एंड्रॉयड), "मीडिआ" (not मीडिया — the medial ड gets flapped), "गये" (not गए), "सिंथ आई डी"; avoid
   "नए" before मॉडल (heard as "नहीं"). Check every take with Whisper medium (hi) before rendering.
 - Pick news from official dated pages (release notes, newsroom/blog RSS), not search snippets; state the date in speech.
-- Keep floating props (e.g. "?" tag) below the caption band (y > 560) and inside x 90–990.
+- Keep floating props (e.g. "?" tag) below the caption band (y > 560) and inside x 90–990; in hero shots keep the 2.6-unit
+  sign ≥ 5.9 units from the camera so it fits the portrait frame.
+- Hindi QA: score Whisper on per-line slices of the final mix (`asr_check_hi.py`) and check captions against the narration stem
+  (`caption_sync.py`); a single full-length Whisper pass can stall on these mixes.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+- SHA-256 `aa815eb04ce787cd2513904d0be77b02ad5307e66720fd28740b30ff350c38d2` · 20,023,902 bytes · audio stream tagged `hin`.
+- 900 frames · video 30.000000 s · audio 30.000000 s · container 30.000000 s · H.264 High yuv420p 1080×1920 30/1 · AAC 48 kHz stereo.
+- Full decode clean · −14.9 LUFS / −2.0 dBTP · Devanagari caption ink y 362–494, x 202–875 · 0 safe-area violations in 900 frames.
+- Caption ↔ speech (narration stem): 9/9 cues OK. Hindi Whisper medium on per-line slices of the final mix: CER 0.065, every line
+  heard (a single full pass stalls after ~16 s — recogniser drift, not missing audio; speech is 14–27 dB above music/foley).
+- Contact sheets inspected; the only visual defect (CTA sign clipped in the hero) fixed once by re-rendering frames 779–899.
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked only by phoneme inspection and

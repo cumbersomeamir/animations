@@ -252,7 +252,7 @@ const sign = new THREE.Group(); scene.add(sign);
   const face = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.76, 0.03), [paper(P.white), paper(P.white), paper(P.white), paper(P.white), new THREE.MeshStandardMaterial({ map: tex, roughness: 0.95 }), paper('#cfc8ff')]);
   face.position.y = 0.38; face.castShadow = true; const hinge = new THREE.Group(); hinge.add(face); sign.add(hinge); sign.userData.hinge = hinge;
   const foot = card(2.6, 0.03, 0.5, '#cfc8ff', P.white); foot.position.set(0, 0.015, 0.2); sign.add(foot); }
-sign.position.set(0.3, DESK, 3.7);
+sign.position.set(0.6, DESK, 3.9);
 
 // ------------------------------------------------------------------ camera shots (one set-up per beat; eased moves, no bobbing)
 const SH = (pos, look, fov, focus) => ({ pos, look, fov, focus: focus ?? pos.distanceTo(look) });
@@ -264,7 +264,7 @@ const SHOTS = {
   S4: (t) => { const u = prog(t, E.radar - 0.5, E.radar + 0.2); return SH(L3([3.7, 2.3, 3.3], [0.25, 4.6, 2.4], u), L3([2.0, 0.3, 0.5], [0.0, TOP, 0.05], u), lerp(48, 50, u)); },
   S5: (t) => { const u = prog(t, 16.64, 22.12); return SH(L3([-1.1, 3.6, 3.45], [-1.2, 3.45, 3.15], u), V3(-0.75, TOP, 0.6), 52); },
   S6: (t) => { const u = prog(t, 22.12, 25.96); return SH(L3([0.2, 4.4, 3.4], [0.2, 4.1, 3.1], u), V3(0.15, TOP, 0.75), 48); },
-  S7: (t) => { const u = prog(t, 25.96, 29.6); return SH(L3([0.7, 2.9, 7.3], [0.9, 3.9, 8.7], u), L3([0.0, 0.5, 0.6], [0.0, 0.55, 0.35], u), 48, lerp(3.8, 5.3, u)); },
+  S7: (t) => { const u = prog(t, 25.96, 29.6); return SH(L3([0.75, 3.3, 9.0], [0.85, 4.3, 10.3], u), L3([0.5, 0.5, 0.8], [0.5, 0.55, 0.5], u), 48, lerp(5.7, 7.0, u)); },
 };
 
 // ------------------------------------------------------------------ per-frame update

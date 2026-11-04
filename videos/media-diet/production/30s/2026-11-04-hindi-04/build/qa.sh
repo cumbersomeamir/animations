@@ -34,5 +34,6 @@ for c in 2.72 6.18 10.79 16.64 22.12 25.96; do f=$(python3 -c "print(round($c*30
 "$VENV/bin/python" build/contact.py qa/contact-sheet-boundaries.png 5 230 $(ls .cache/qa_frames/cut*.png | sort -V)
 ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,0)" -vsync 0 -frames:v 1 qa/first-frame.png
 ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,899)" -vsync 0 -frames:v 1 qa/last-frame.png
+"$VENV/bin/python" build/caption_sync.py
 "$VENV/bin/python" build/asr_check_hi.py "$OUT" qa/asr.json
 echo "QA complete"
