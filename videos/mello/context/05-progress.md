@@ -165,3 +165,47 @@ cd videos/mello/production/30s/2026-11-03-hindi-03/project && npm ci && ASR_PY=<
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# Hindi-04, 2026-11-04: episode hindi04-01 "अगर… तो…" (implementation intentions, Hindi)
+Episode record (script, gloss, storyboard, citations, voice, adjustments): `14-episode-implementation-intentions-hindi.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- Implementation intentions are a new topic for this app.
+- Primary sources:
+  - Gollwitzer (1999), full text via KOPS: "Whenever situation x arises, I will initiate the goal-directed response y!"; control is delegated to anticipated situational cues.
+  - Gollwitzer & Sheeran (2006) meta-analysis abstract: 94 tests, medium-to-large effect (d = .65).
+- Voice: the same Kokoro hf_beta Hindi voice verified in hindi03-01.
+
+## Creative decisions (this round)
+- Psychology hack, not guided meditation. The vague "मैं स्क्रॉल करना बंद करूँगी" becomes "रात के खाने के बाद, मैं फ़ोन दस मिनट के लिए शेल्फ़ पर रख दूँगी".
+- 73-word Hindi script; one qualification ("हालाँकि हर बार नहीं"); no numbers spoken; accepted Hindi CTA.
+- Room at the accepted depth. New props: plate and fork, phone with a scrolling feed and buzz, birch side shelf.
+- In-scene text: intention card, if-then plan card, "संकेत" / "काम" rings, "10 मिनट" timer ring. All face the camera.
+- Five shots: S1 over the right shoulder, S2 rear-left, S3 rear-right pan, S4 high right three-quarter, S5 accepted wide.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-04-hindi-04/mello-30s-hindi04-01.mp4`
+  - sha256 `ccd34a3ffa97157753bfa314da4e11b28d63146530bfd6bd00c7249cc7a3709c`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-04-hindi-04/qa/QA.md`).
+  - Full decode clean; −16.0 LUFS; −2.2 dBTP; voice 12.6 dB over the bed.
+  - The four cuts are the only detected cuts; every second moves.
+  - 0 safe-zone issues in 300 samples; no head or in-scene text behind caption text.
+  - Hindi ASR on the final file: CER 0.033, WER 0.095.
+- One full render (about 37 min). Defects were fixed earlier on stills and the layout audit.
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-04-hindi-04/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the Hindi audio by ear. It was checked by ASR round-trip and loudness measurements. A native Hindi speaker should give it a listen.
+- In S4 the head is out of frame, so the buzz glance reads through the phone light and the pen pause.
+- The plan card's bottom-right border sits behind the head from about 9.7 s. The text is unaffected.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
