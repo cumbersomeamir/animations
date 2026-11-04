@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.2,
+  "measured_start": 0.2,
+  "error_ms": -0.1,
+  "corr": 0.834,
+  "end": 4.193,
+  "shot_at_start": "stove_cu",
+  "shot_at_end": "pot_steam"
+ },
+ {
+  "id": "l02",
+  "planned_start": 4.45,
+  "measured_start": 4.45,
+  "error_ms": -0.1,
+  "corr": 0.836,
+  "end": 8.943,
+  "shot_at_start": "giant_coil",
+  "shot_at_end": "giant_field"
+ },
+ {
+  "id": "l03",
+  "planned_start": 9.2,
+  "measured_start": 9.2,
+  "error_ms": -0.1,
+  "corr": 0.83,
+  "end": 15.073,
+  "shot_at_start": "giant_eddy",
+  "shot_at_end": "giant_heat"
+ },
+ {
+  "id": "l04",
+  "planned_start": 15.35,
+  "measured_start": 15.35,
+  "error_ms": -0.1,
+  "corr": 0.841,
+  "end": 19.048,
+  "shot_at_start": "giant_alu",
+  "shot_at_end": "alu_real"
+ },
+ {
+  "id": "l05",
+  "planned_start": 19.95,
+  "measured_start": 19.95,
+  "error_ms": -0.1,
+  "corr": 0.844,
+  "end": 24.226,
+  "shot_at_start": "deadpan",
+  "shot_at_end": "pot_back"
+ },
+ {
+  "id": "l06",
+  "planned_start": 25.8,
+  "measured_start": 25.8,
+  "error_ms": -0.1,
+  "corr": 0.841,
+  "end": 29.796,
+  "shot_at_start": "smile",
+  "shot_at_end": "cafe_wide"
+ }
+]

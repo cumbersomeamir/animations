@@ -1,0 +1,128 @@
+{
+  "file": "production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "3482698"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "193674"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 13821221,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 2.6,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8387218117713928,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper medium (multilingual, int8, CPU), language=hi",
+    "transcript": "\u0907\u0902\u0921\u0915\u094d\u0937\u0928 \u092a\u0930 \u0906\u0917 \u0928\u0939\u0940\u0902 \u0926\u093f\u0915\u0924\u0940, \u092b\u093f\u0930 \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0915\u0948\u0938\u0947 \u0939\u094b\u0924\u093e \u0939\u0948? \u0928\u0940\u091a\u0947 \u0932\u0917\u0940 \u0924\u093e\u092e\u0947 \u0915\u0940 \u0915\u0941\u0928\u094d\u0921\u0932\u0940 \u0924\u0947\u091c\u0940 \u0938\u0947 \u092c\u0926\u0932\u0924\u093e \u091a\u0941\u092e\u094d\u092c\u0915 \u0936\u0947\u0924\u094d\u0930 \u092c\u0928\u093e\u0924\u0940 \u0939\u0948 \u092f\u0939\u0915 \u0936\u0947\u0924\u094d\u0930 \u0932\u094b\u0939\u0947 \u0935\u093e\u0932\u0947 \u0924\u0932\u0947 \u092e\u0947\u0902 \u092d\u0923\u0935\u0930 \u0927\u093e\u0930\u093e\u090f\u0902 \u092c\u0928\u093e\u0924\u093e \u0939\u0948 \u091c\u093f\u0938\u0938\u0947 \u0924\u0932\u093e \u0916\u0941\u0926 \u0917\u0930\u094d\u092e \u0939\u094b\u0924\u093e \u0939\u0948 \u0905\u0932\u094d\u092f\u0942\u092e\u093f\u0928\u093f\u092f\u092e \u092f\u093e \u0936\u0940\u0937\u0947 \u0915\u0947 \u092c\u0930\u094d\u0924\u0928 \u0905\u0915\u0938\u0930 \u0917\u0930\u094d\u092e \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u0947 \u0924\u094b \u0924\u0932\u0947 \u092a\u0930 \u091a\u0941\u092e\u094d\u092c\u0915 \u0932\u0917\u093e\u090f\u0902, \u091a\u093f\u092a\u0915 \u091c\u093e\u090f\u0902 \u0924\u094b \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0939\u094b \u0938\u0915\u0924\u093e \u0939\u0948 \u0915\u094b\u0908 \u092d\u0940 \u0928\u092f\u093e \u0935\u093f\u0936\u093e\u0907 AI \u0938\u0947 \u0938\u0940\u0916\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f RECALL \u0921\u093e\u0909\u0928\u094d\u0932\u094b\u0921 \u0915\u0930\u0947",
+    "cer": 0.109,
+    "segments": [
+      {
+        "t0": 0.0,
+        "t1": 4.24,
+        "text": "\u0907\u0902\u0921\u0915\u094d\u0937\u0928 \u092a\u0930 \u0906\u0917 \u0928\u0939\u0940\u0902 \u0926\u093f\u0915\u0924\u0940, \u092b\u093f\u0930 \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0915\u0948\u0938\u0947 \u0939\u094b\u0924\u093e \u0939\u0948?"
+      },
+      {
+        "t0": 4.24,
+        "t1": 9.0,
+        "text": "\u0928\u0940\u091a\u0947 \u0932\u0917\u0940 \u0924\u093e\u092e\u0947 \u0915\u0940 \u0915\u0941\u0928\u094d\u0921\u0932\u0940 \u0924\u0947\u091c\u0940 \u0938\u0947 \u092c\u0926\u0932\u0924\u093e \u091a\u0941\u092e\u094d\u092c\u0915 \u0936\u0947\u0924\u094d\u0930 \u092c\u0928\u093e\u0924\u0940 \u0939\u0948"
+      },
+      {
+        "t0": 9.0,
+        "t1": 13.0,
+        "text": "\u092f\u0939\u0915 \u0936\u0947\u0924\u094d\u0930 \u0932\u094b\u0939\u0947 \u0935\u093e\u0932\u0947 \u0924\u0932\u0947 \u092e\u0947\u0902 \u092d\u0923\u0935\u0930 \u0927\u093e\u0930\u093e\u090f\u0902 \u092c\u0928\u093e\u0924\u093e \u0939\u0948"
+      },
+      {
+        "t0": 13.0,
+        "t1": 15.24,
+        "text": "\u091c\u093f\u0938\u0938\u0947 \u0924\u0932\u093e \u0916\u0941\u0926 \u0917\u0930\u094d\u092e \u0939\u094b\u0924\u093e \u0939\u0948"
+      },
+      {
+        "t0": 15.24,
+        "t1": 19.24,
+        "text": "\u0905\u0932\u094d\u092f\u0942\u092e\u093f\u0928\u093f\u092f\u092e \u092f\u093e \u0936\u0940\u0937\u0947 \u0915\u0947 \u092c\u0930\u094d\u0924\u0928 \u0905\u0915\u0938\u0930 \u0917\u0930\u094d\u092e \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u0947"
+      },
+      {
+        "t0": 19.24,
+        "t1": 24.24,
+        "text": "\u0924\u094b \u0924\u0932\u0947 \u092a\u0930 \u091a\u0941\u092e\u094d\u092c\u0915 \u0932\u0917\u093e\u090f\u0902, \u091a\u093f\u092a\u0915 \u091c\u093e\u090f\u0902 \u0924\u094b \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0939\u094b \u0938\u0915\u0924\u093e \u0939\u0948"
+      },
+      {
+        "t0": 24.24,
+        "t1": 29.24,
+        "text": "\u0915\u094b\u0908 \u092d\u0940 \u0928\u092f\u093e \u0935\u093f\u0936\u093e\u0907 AI \u0938\u0947 \u0938\u0940\u0916\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f RECALL \u0921\u093e\u0909\u0928\u094d\u0932\u094b\u0921 \u0915\u0930\u0947"
+      }
+    ],
+    "note": "CER on Devanagari after unifying nukta/chandrabindu and mapping Latin-script loanwords (AI, Recall, download) back"
+  },
+  "caption_latin_words": [],
+  "caption_ink_px": {
+    "left": 164.03201293945312,
+    "right": 907.2400207519531,
+    "top": 342,
+    "bottom": 484
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.728,
+    "min_frame_diff": 0.0439,
+    "longest_static_run_frames": 3,
+    "max_frame_diff": 94.48,
+    "max_diff_at_s": 4.367
+  },
+  "luma_min_mean_max": [
+    43.3,
+    88.6,
+    136.9
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_cer_le_0.15": true,
+    "captions_devanagari_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

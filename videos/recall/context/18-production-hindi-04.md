@@ -84,4 +84,23 @@ Same as contexts 16/17: "with AI" is the user's wording and is not confirmed in 
   - Sources researched; Hindi narration generated and ASR-checked (three wording fixes).
   - Scene built from H03 tooling; preview stills reviewed and fixed (steel too dark, opening framing, loop/ring layering, bubbles, aluminium-shot framing, magnet-test framing).
   - Mix −14.56 LUFS, −1.6 dBTP, voice +14.3…+17.7 dB over the bed; pre-render caption sync fixed.
-  - Full render started.
+- 2026-11-04: full render run 1 (`WORKERS=3 ./build.sh`, 11 m 23 s): all 25 checks + narration sync + caption sync pass;
+  contact/boundary sheets reviewed, no re-render needed. Committed, pushed and attached. No further episode; no automation.
+
+## QA summary (verification results; details in the output folder's qa/QA.md)
+- Final MP4 sha256 `2f6396271dc4eef54901c407fb0a272867b7faeb1a4a1977fc77bee01f5ffd88` (13,821,221 bytes).
+- H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; video/audio/container 30.000000 s; full decode clean.
+- Hindi ASR on the final mix (Whisper medium, `hi`): CER 0.109 (spelling-level differences only); narration lines within
+  0.1 ms of plan; 9 spoken caption groups appear 0.05–0.45 s before their first word and stay past their last.
+- −14.6 LUFS, −1.5 dBTP, 0 clipped samples; voice +14.3…+17.7 dB over bed.
+- Captions all Devanagari, ink x 164–907, y 342–484, ≤ 2 lines; font coverage true; labels central; no overlaps.
+- Limits: ASR-only Hindi check (no native listener; I cannot listen); topic replaced because it duplicated R02;
+  "with AI" is the user's wording; cutaway illustrative.
+
+## Exact commands
+`cd videos/recall/production/30s/2026-11-04-hindi-04 && WORKERS=3 ./build.sh` (mix → 900 frames → mux → qa/qa.py →
+qa/narration_sync.py → qa/caption_sync.py); `audio/fetch_models.sh` verifies the Hindi voice packs; `TTS=1` regenerates
+narration and the Hindi ASR check.
+
+## Next
+Only on user request. If the user still wants the microwave-turntable topic in Hindi, it would be a Hindi remake of R02.

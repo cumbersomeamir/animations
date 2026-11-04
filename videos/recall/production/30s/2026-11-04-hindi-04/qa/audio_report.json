@@ -1,0 +1,196 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.56,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.2,
+      "end": 4.193,
+      "text": "\u0907\u0902\u0921\u0915\u094d\u0936\u0928 \u092a\u0930 \u0906\u0917 \u0928\u0939\u0940\u0902 \u0926\u093f\u0916\u0924\u0940, \u092b\u093f\u0930 \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0915\u0948\u0938\u0947 \u0939\u094b\u0924\u093e \u0939\u0948?",
+      "words": 11,
+      "words_per_s": 2.75,
+      "voice_over_bed_db": 14.7
+    },
+    {
+      "id": "l02",
+      "start": 4.45,
+      "end": 8.943,
+      "text": "\u0928\u0940\u091a\u0947 \u0932\u0917\u0940 \u0924\u093e\u0902\u092c\u0947 \u0915\u0940 \u0915\u0941\u0902\u0921\u0932\u0940 \u0924\u0947\u091c\u093c\u0940 \u0938\u0947 \u092c\u0926\u0932\u0924\u093e \u091a\u0941\u0902\u092c\u0915-\u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092c\u0928\u093e\u0924\u0940 \u0939\u0948\u0964",
+      "words": 11,
+      "words_per_s": 2.45,
+      "voice_over_bed_db": 17.0
+    },
+    {
+      "id": "l03",
+      "start": 9.2,
+      "end": 15.073,
+      "text": "\u092f\u0939 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0932\u094b\u0939\u0947 \u0935\u093e\u0932\u0947 \u0924\u0932\u0947 \u092e\u0947\u0902 \u092d\u0902\u0935\u0930 \u0927\u093e\u0930\u093e\u090f\u0902 \u092c\u0928\u093e\u0924\u093e \u0939\u0948, \u091c\u093f\u0938\u0938\u0947 \u0924\u0932\u093e \u0916\u0941\u0926 \u0917\u0930\u094d\u092e \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
+      "words": 16,
+      "words_per_s": 2.72,
+      "voice_over_bed_db": 14.3
+    },
+    {
+      "id": "l04",
+      "start": 15.35,
+      "end": 19.048,
+      "text": "\u090f\u0932\u094d\u092f\u0941\u092e\u093f\u0928\u093f\u092f\u092e \u092f\u093e \u0936\u0940\u0936\u0947 \u0915\u0947 \u092c\u0930\u094d\u0924\u0928 \u0905\u0915\u094d\u0938\u0930 \u0917\u0930\u094d\u092e \u0928\u0939\u0940\u0902 \u0939\u094b\u0924\u0947\u0964",
+      "words": 9,
+      "words_per_s": 2.43,
+      "voice_over_bed_db": 17.1
+    },
+    {
+      "id": "l05",
+      "start": 19.95,
+      "end": 24.226,
+      "text": "\u0924\u094b \u0924\u0932\u0947 \u092a\u0930 \u091a\u0941\u0902\u092c\u0915 \u0932\u0917\u093e\u090f\u0902; \u091a\u093f\u092a\u0915 \u091c\u093e\u090f, \u0924\u094b \u092c\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u092e \u0939\u094b \u0938\u0915\u0924\u093e \u0939\u0948\u0964",
+      "words": 13,
+      "words_per_s": 3.04,
+      "voice_over_bed_db": 15.4
+    },
+    {
+      "id": "l06",
+      "start": 25.8,
+      "end": 29.796,
+      "text": "\u0915\u094b\u0908 \u092d\u0940 \u0928\u092f\u093e \u0935\u093f\u0937\u092f \u090f\u0906\u0908 \u0938\u0947 \u0938\u0940\u0916\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0930\u093f\u0915\u0949\u0932 \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0915\u0930\u0947\u0902\u0964",
+      "words": 12,
+      "words_per_s": 3.0,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 72,
+  "speech_s": 26.33,
+  "overall_words_per_s": 2.4,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "induction plate hum"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.3,
+      "beat": 0.6,
+      "sfx": "chai simmering"
+    },
+    {
+      "t": 0.4,
+      "beat": 0.8,
+      "sfx": "steam"
+    },
+    {
+      "t": 4.3,
+      "beat": 8.6,
+      "sfx": "cut into the giant cutaway"
+    },
+    {
+      "t": 5.6,
+      "beat": 11.2,
+      "sfx": "copper coil glows"
+    },
+    {
+      "t": 6.4,
+      "beat": 12.8,
+      "sfx": "alternating field hum (pulses with each flip)"
+    },
+    {
+      "t": 9.65,
+      "beat": 19.3,
+      "sfx": "giant pot lands"
+    },
+    {
+      "t": 11.4,
+      "beat": 22.8,
+      "sfx": "eddy currents swirl"
+    },
+    {
+      "t": 13.3,
+      "beat": 26.6,
+      "sfx": "base heats (sizzle)"
+    },
+    {
+      "t": 13.8,
+      "beat": 27.6,
+      "sfx": "bubbles"
+    },
+    {
+      "t": 15.25,
+      "beat": 30.5,
+      "sfx": "pot slides out"
+    },
+    {
+      "t": 15.35,
+      "beat": 30.7,
+      "sfx": "aluminium pan slides in"
+    },
+    {
+      "t": 15.75,
+      "beat": 31.5,
+      "sfx": "pan lands"
+    },
+    {
+      "t": 15.8,
+      "beat": 31.6,
+      "sfx": "weak flicker"
+    },
+    {
+      "t": 17.35,
+      "beat": 34.7,
+      "sfx": "plate on, pan stays cold"
+    },
+    {
+      "t": 18.0,
+      "beat": 36.0,
+      "sfx": "impatient finger taps"
+    },
+    {
+      "t": 20.6,
+      "beat": 41.2,
+      "sfx": "magnet touches the aluminium"
+    },
+    {
+      "t": 21.05,
+      "beat": 42.1,
+      "sfx": "magnet slides off"
+    },
+    {
+      "t": 21.4,
+      "beat": 42.8,
+      "sfx": "magnet drops"
+    },
+    {
+      "t": 21.9,
+      "beat": 43.8,
+      "sfx": "magnet snaps onto the steel pot"
+    },
+    {
+      "t": 22.7,
+      "beat": 45.4,
+      "sfx": "pot back on the plate"
+    },
+    {
+      "t": 23.3,
+      "beat": 46.6,
+      "sfx": "chai simmering again"
+    },
+    {
+      "t": 24.6,
+      "beat": 49.2,
+      "sfx": "satisfied ding"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "cup lifted"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.02,
+  "voice_gain": 1.0
+}
