@@ -155,3 +155,10 @@ Use only when a meme episode is requested; the established lesson style above st
 - Reaction vocabulary: double take (head snaps camera → prop → camera in 0.4 s), clipboard knocked from DOCKET's hand,
   deadpan stare to camera. Original only — no celebrity likeness/voice, no stock or copyrighted reaction clips.
 - Mute test: every beat must read from captions + props alone.
+
+## Round 2026-11-04 hindi-04 — channel style confirmed (no new corrections)
+- Lessons use the accepted DOCKET 15 s-pilot newsroom style via the feedback-round renderer (hindi-03 src as the latest
+  Hindi base). The meme episode (2026-11-03-meme-01) is a separate experiment; its freeze-frames/outlined captions are NOT
+  the default. Three.js is only the engine; the style is the recipe in "STYLE CORRECTION" above.
+- Hindi voice unchanged (Kokoro hm_omega 0.7 + hf_alpha 0.3, lang hi); speed 1.1 for this 62-word script.
+- Episode: hindi04-01 care-label symbols (2026-11-04-hindi-04, see context/19).
