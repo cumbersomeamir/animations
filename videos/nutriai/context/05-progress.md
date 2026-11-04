@@ -57,3 +57,10 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands (from `production/30s/2026-11-03-hindi-03/source/`): `python audio/voice_kokoro_hi.py <onnx> <voices.bin> script.json audio/voice-takes` → `python audio/asr_hi.py medium audio/voice-takes/*.wav` → `node render.mjs` → `python audio/mix.py` → two-pass loudnorm → mux to `../nutriai-30s-hindi03-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number; sync ±0.3 s; freeze defect fixed. See `production/30s/2026-11-03-hindi-03/QA.md`.
 - Unresolved: Hindi intelligibility judged by ASR, not a native listener. Next step: none requested.
+
+## 11. Hindi #04, cooked chickpeas / chana (2026-11-04; CalMeter; Hindi narration and captions)
+- Pre-check: no active generation; chana not covered before. Facts: USDA FDC 173757 cooked, boiled, without salt, per 100 g: 164 kcal, 8.86 g protein, 7.6 g fibre; 1 cup = 164 g (≈ 270 kcal, 14.5 g protein per cup); MedlinePlus protein (repair cells) and fibre. Details: `context/17-production-30s-hindi04-chana.md`.
+- Decisions: Hindi #03 renderer, voice (Kokoro hf_beta) and mix reused; chickpea geometry, protein "repair" motif and a cup-vs-weights balance (100 g, then + 64 g) added; cutaway contrast raised.
+- Commands: as in section 10, from `production/30s/2026-11-04-hindi-04/source/`, output `../nutriai-30s-hindi04-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number (ASR-only, no listening); CTA freeze fixed. See `production/30s/2026-11-04-hindi-04/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

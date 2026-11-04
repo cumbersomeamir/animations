@@ -1,0 +1,38 @@
+{
+ "_doc": "CalMeter Hindi 30 s #04 (2026-11-04): 'सौ ग्राम उबले हुए चने में क्या है?' (cooked chickpeas: per 100 g, then 1 cup = 164 g). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single Hindi ASR timing pass (qa/asr-takes.txt, faster-whisper medium, language hi).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.30}, {"id": "T1", "at": 3.25}, {"id": "T2", "at": 9.80}, {"id": "T3", "at": 14.65}, {"id": "T4", "at": 20.20}, {"id": "T5", "at": 26.05}],
+ "captions": [
+  {"in": 6, "out": 84, "lines": [["100 ग्राम उबले चने में", 9], ["क्या है?", 57]]},
+  {"in": 92, "out": 278, "lines": [["164 कैलोरी", 98], [" · ≈ 9 ग्राम प्रोटीन", 168, 0], ["7.6 ग्राम फ़ाइबर", 212]]},
+  {"in": 288, "out": 420, "lines": [["प्रोटीन कोशिकाओं की मरम्मत में,", 294], ["फ़ाइबर पाचन में मददगार", 385]]},
+  {"in": 436, "out": 590, "lines": [["1 कप उबले चने:", 446], ["100 नहीं, ≈ 164 ग्राम", 493]]},
+  {"in": 600, "out": 748, "lines": [["यानी ≈ 270 कैलोरी", 606], ["और ≈ 14.5 ग्राम प्रोटीन", 685]]},
+  {"in": 776, "out": 899, "lines": [["CalMeter के साथ अपने खाने", 782], ["और पोषण को ट्रैक करें", 844]]}
+ ],
+ "events": {
+  "outline": 0, "sprig": 8, "washWhole": 16, "title": 18, "cut": 66, "burnish": 72, "section": 74, "washSection": 86,
+  "kcal": 98, "legend": 112, "protein": 168, "fibre": 212, "roundelsOut": 282,
+  "protein2": 296, "repair": 314, "fibre2": 383, "digest": 392, "roundels2Out": 424,
+  "balance": 434, "cupDrop": 452, "fill": 456, "w100": 492, "w64": 528, "total": 556,
+  "count": 610, "countKcal": 637, "countProt": 698, "balanceOut": 762,
+  "cta": 768, "ctaWord": 782
+ },
+ "sfx": [
+  {"ev": "outline", "type": "pencil", "dur": 1.8, "gain": -26},
+  {"ev": "cut", "type": "slice", "gain": -14},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "section", "type": "pencil", "dur": 1.2, "gain": -27},
+  {"ev": "kcal", "type": "tick", "gain": -24},
+  {"ev": "protein", "type": "tick", "gain": -24},
+  {"ev": "fibre", "type": "tick", "gain": -24},
+  {"ev": "roundelsOut", "type": "page", "gain": -21},
+  {"ev": "roundels2Out", "type": "page", "gain": -21},
+  {"ev": "cupDrop", "type": "thud", "gain": -19},
+  {"ev": "fill", "type": "patter", "dur": 0.8, "gain": -23},
+  {"ev": "w100", "type": "clink", "gain": -24},
+  {"ev": "w64", "type": "clink", "gain": -24},
+  {"ev": "balanceOut", "type": "page", "gain": -21},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

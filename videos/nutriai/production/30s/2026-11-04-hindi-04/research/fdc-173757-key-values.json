@@ -1,0 +1,77 @@
+{
+ "fdcId": 173757,
+ "ndbNumber": 16057,
+ "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Fiber, total dietary",
+   "amount": 7.6,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 4.8,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 686,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 27.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 164,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 2.59,
+   "unit": "g",
+   "dataPoints": 24
+  },
+  {
+   "name": "Water",
+   "amount": 60.2,
+   "unit": "g",
+   "dataPoints": 23
+  },
+  {
+   "name": "Iron, Fe",
+   "amount": 2.89,
+   "unit": "mg",
+   "dataPoints": 21
+  },
+  {
+   "name": "Protein",
+   "amount": 8.86,
+   "unit": "g",
+   "dataPoints": 23
+  },
+  {
+   "name": "Folate, total",
+   "amount": 172,
+   "unit": "µg",
+   "dataPoints": 8
+  }
+ ],
+ "portions": [
+  {
+   "measure": "cup",
+   "gramWeight": 164.0
+  }
+ ]
+}
