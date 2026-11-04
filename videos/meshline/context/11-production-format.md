@@ -116,3 +116,14 @@ This is reference for later rounds. **No automation has been created.** Each rou
   - **Captions:** 50 px Devanagari, baselines 398/468, in the brief's upper safe band **y 340–520** (two Devanagari lines don't fit in 350–470 without touching), x 90–990, ≥ 4 px between lines (checked by `captions_check.mjs`).
   - **On-screen text:** map labels and the bottom note are Hindi too. The brand is spoken and captioned as मेशलाइन, and the official icon plus the Latin wordmark stay unchanged.
   - **Licensing:** non-commercial or gated Hindi TTS (Piper hi_IN, MMS, Indic Parler, IndicF5, XTTS) is not used.
+| 06 | 2026-11-04-hindi-04 | बिना मोबाइल डेटा जीपीएस, और ऑफ़लाइन नक्शा (GPS location without mobile data; map tiles need downloading), **Hindi** | `production/30s/2026-11-04-hindi-04/meshline-30s-hindi04-01.mp4` |
+
+## User feedback 2026-11-04, Hindi batch 04 (specific corrections and skill adjustments)
+- **CTA with real limits:**
+  - When the brief asks for the app's actual supported limitations, put the scope in the CTA itself: "पास वालों से ऑफ़लाइन बात के लिए मेशलाइन डाउनलोड करें" (nearby, from the listing's "Private nearby messaging…").
+  - No long-range, guaranteed, map or GPS claims for Meshline.
+- **Practical tips:** keep the one sourced, actionable step in the narration ("पूरे रास्ते का इलाका… सेव करके जाँच लें"). Secondary caveats (expiry, regions, no traffic/transit offline) go in the publishing caption, not in the video.
+- **Hindi recipe re-confirmed:**
+  - Kokoro `hf_beta` at speed 1.0, Noto Sans Devanagari with an Inter fallback, captions in the y 340–520 band, Hindi map labels.
+  - About 70–73 Hindi words fit 30 s with ~0.4 s pauses. CTA at ~26.0 s.
+- **Caption anchors (implementation):** short Hindi words must match ASR words exactly ('से' ≠ 'सेव'); longer words use a 3-letter prefix or similarity ≥ 0.6 (`scripts_captions.py`). Map Latin-script loanwords (GPS, satellite, map, data, save) back to Devanagari before matching or scoring.

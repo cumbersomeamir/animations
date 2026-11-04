@@ -63,3 +63,6 @@
 
 ## Production 2026-11-03 Hindi batch 03 (airplane mode, Hindi): complete
 - See `16-production-30s-hindi03-01.md`; output sha256 `3fcc05cb73dfe1cc81e11edb270b6870ffb780331d081179bc57ea813207650a`. The topic swap (concert/full bars was already covered) and the Hindi rules are recorded in `11-production-format.md`.
+
+## Production 2026-11-04 Hindi batch 04 (GPS without mobile data, offline maps): complete
+- See `17-production-30s-hindi04-01.md`; output sha256 `5239f66af914a1454115cdd74cae91c6a0f5e3a4e9f2ceea2c81f79006326a25`. The episode log and skill adjustments are in `11-production-format.md`.

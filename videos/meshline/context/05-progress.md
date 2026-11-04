@@ -34,3 +34,6 @@
 
 ## Production 2026-11-03 Hindi batch 03 (airplane mode, Hindi)
 - Done. Output `production/30s/2026-11-03-hindi-03/meshline-30s-hindi03-01.mp4`, sha256 `3fcc05cb…650a`. Details, the topic-swap reason, the Hindi voice decision, sources, QA and next step are in `16-production-30s-hindi03-01.md`.
+
+## Production 2026-11-04 Hindi batch 04 (GPS without mobile data, offline maps)
+- Done. Output `production/30s/2026-11-04-hindi-04/meshline-30s-hindi04-01.mp4`, sha256 `5239f66a…6a25`. Details, sources, QA and next step are in `17-production-30s-hindi04-01.md`.

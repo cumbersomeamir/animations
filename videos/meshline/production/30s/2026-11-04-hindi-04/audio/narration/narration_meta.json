@@ -1,0 +1,76 @@
+{
+  "voice": {
+    "name": "Meshline Hindi voice",
+    "blend": {
+      "hf_beta": 1.0
+    },
+    "speed": 1.0,
+    "lang": "hi",
+    "note": "Local Kokoro-82M ONNX (Apache-2.0) Hindi-trained voice hf_beta (accepted in Hindi batch 03), phonemized by espeak-ng 'hi'. Not the English af_bella/am_puck blend. No imitation of any person."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.2,
+      "text": "मोबाइल डेटा बंद, फिर भी मैप पर आपकी जगह दिख रही है?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.686,
+      "end": 3.886
+    },
+    {
+      "id": "l2",
+      "start": 4.29,
+      "text": "जीपीएस सैटेलाइट एकतरफ़ा सिग्नल भेजते हैं; फ़ोन उन्हें सुनकर जगह निकालता है।",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 5.416,
+      "end": 9.706
+    },
+    {
+      "id": "l3",
+      "start": 10.11,
+      "text": "इसके लिए मोबाइल डेटा ज़रूरी नहीं।",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 2.205,
+      "end": 12.315
+    },
+    {
+      "id": "l4",
+      "start": 12.71,
+      "text": "पर सड़कों वाला नक्शा अलग है; नया नक्शा अक्सर इंटरनेट से आता है।",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 4.387,
+      "end": 17.097
+    },
+    {
+      "id": "l5",
+      "start": 17.5,
+      "text": "सफ़र से पहले वाई-फ़ाई पर पूरे रास्ते का इलाका सेव करके जाँच लें।",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.402,
+      "end": 21.902
+    },
+    {
+      "id": "l6",
+      "start": 22.3,
+      "text": "सैटेलाइट जगह बताते हैं, सेव नक्शा सड़कें।",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.02,
+      "end": 25.32
+    },
+    {
+      "id": "l7",
+      "start": 26.0,
+      "text": "पास वालों से ऑफ़लाइन बात के लिए मेशलाइन डाउनलोड करें।",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.732,
+      "end": 29.732
+    }
+  ]
+}
