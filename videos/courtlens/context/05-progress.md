@@ -4,6 +4,62 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-04 (hindi-04): Hindi episode 04, shop bill says "रिफ़ंड नहीं" on a defective product
+
+### Status
+- No generation active at start (clean tree, no jobs, remote not ahead). Caches intact.
+- DELIVERED: `production/30s/2026-11-04-hindi-04/courtlens-30s-hindi04-01.mp4`
+  (sha256 3e2b194f1725f8c0165d1ce7ca4ebc3c3f92cfcfac9bcd1860bf203054ac4f57). Earlier MP4s untouched.
+- Episode record (topic-overlap decision vs episode 01, Hindi script, citations, reusable Hindi adjustments):
+  `context/episodes/2026-11-04-hindi-bill-no-refund.md`.
+
+### Verified facts (details: production/30s/2026-11-04-hindi-04/notes/LEGAL-SOURCES.md)
+- Consumer Protection Act 2019 (official DoCA PDF):
+  - s.2(47)(viii): refusing to take back defective goods and refund, within the bill's stated period or else 30
+    days, is an unfair trade practice
+  - s.2(10) defect
+  - s.35 complaint
+  - s.39(1)(a)–(c) repair, replacement, refund
+- Change of mind: no statutory right; shop policy decides.
+- NCH contact re-checked 2026-11-04 (1915 / 1800-11-4000).
+- DoCA (consumeraffairs.gov.in) also hosts the official E-Commerce Rules 2020 and E-Commerce Amendment Rules 2026 PDFs.
+  These could close episode-01 checkpoints A/B if a revision is ever requested (not done; out of scope).
+
+### Creative decisions
+- Topic kept despite overlap with episode 01: different setting (physical shop vs online), different provision
+  (CPA s.2(47)(viii) vs E-Commerce Rules), new lesson (bill period / 30 days; bill as evidence), Hindi audience.
+- Same accepted engine, Hindi voice, font, caption band and pacing as hindi-03. Changes:
+  - performer: a leaking kettle
+  - shop-bill card with the "रिफ़ंड नहीं · बिका माल वापस नहीं होगा" clause
+  - shopkeeper's sign
+  - CPA rule card with two time-window chips
+  - defective vs change-of-mind split, with the shop's sign as a sticker on the change-of-mind side
+  - bill + leak photo in the envelope, then the CTA
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-04-hindi-04/src
+$S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+$S/tts/venv/bin/python -I align.py ../audio/lines narration.json $S/asr
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build4 ./build.sh
+$S/tts/venv/bin/python qa.py ../courtlens-30s-hindi04-01.mp4 timeline.json ../audio/lines ../qa
+$S/tts/venv/bin/python -I asr_check.py ../courtlens-30s-hindi04-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean; −15.8 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.25 s; y<300 clear; captions ≤2 lines in y 340–520.
+- Hindi ASR on the final mix: CER 0.063, every word recognised, all inside caption windows.
+- One full render. Two wording defects were fixed before it (see `qa/QA.md`).
+
+### Unresolved / checkpoints
+- ASR-only listening: no direct audio listening in this environment; a native-speaker listen is recommended.
+- Ernakulam order (secondary) and e-Daakhil URL not used on screen; see LEGAL-SOURCES.md.
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
+### Next
+Await review of courtlens-30s-hindi04-01.mp4. No further episode or automation unless asked.
+
 ## Round 2026-11-03 (hindi-03): Hindi episode 03, recording a call you are part of
 
 ### Status
