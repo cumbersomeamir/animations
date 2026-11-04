@@ -140,6 +140,7 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 | 03 | `production/30s/2026-11-02-feedback-round/` | The decoy effect (Satisfying Product Theatre) | illustrative coffee menu: small 150 ml Rs90 · medium 280 ml Rs155 (decoy) · large 300 ml Rs160 |
 | 04 | `production/30s/2026-11-03-round-02/` | One shape, everywhere — distinctive brand assets (accepted style; brand colours/logo corrected, context/15) | fictional "Plimm Bakery" arch on logo tile, bag and sign |
 | 05 | `production/30s/2026-11-03-hindi-03/` | विशेषण नहीं, सबूत दिखाइए — show it working, not adjectives (**Hindi**, Devanagari captions; app.werbens.com palette/logo, context/17) | fictional non-stick tawa + oil-free dosa demo |
+| 06 | `production/30s/2026-11-04-hindi-04/` | एक ईमानदार पहले/बाद का शॉट — a fair before/after (same frame, same light, no filter) beats "premium quality" (**Hindi**; app.werbens.com palette) | fictional lint roller, one pass over half a sweater |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").

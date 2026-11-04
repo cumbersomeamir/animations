@@ -41,3 +41,7 @@ the Play listing / werbens.com inspection. Renderer, style recipe, motion, capti
   the Devanagari captions use Noto Sans Devanagari 800 (Inter has no Devanagari glyphs).
 - CTA: the app.werbens.com logo (SVG unchanged) on the accepted landing tile + the wordmark (Space Grotesk 700, −0.04 em,
   135° #7FE7DC→#316879 gradient). Amber is not used.
+
+## Re-check 2026-11-04 (hindi-04)
+app.werbens.com re-loaded: computed palette, wordmark styling and `werbens-logo.svg` (byte-identical, sha256 816c1761…)
+unchanged. No token changes.

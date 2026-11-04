@@ -40,3 +40,5 @@
   everywhere"; context/16). Brand colours/logo corrected from official sources: context/15.
 - Hindi 03 (2026-11-03) delivered `production/30s/2026-11-03-hindi-03/werbens-30s-hindi03-01.mp4` (Hindi narration
   via Kokoro hf_alpha + eSpeak NG hi; context/18). Colours/logo from app.werbens.com: context/17.
+- Hindi 04 (2026-11-04) IN PROGRESS → `production/30s/2026-11-04-hindi-04/werbens-30s-hindi04-01.mp4` (fair before/after;
+  context/19).
