@@ -1,0 +1,12 @@
+{
+  "name": "mello-30s-hindi04-01",
+  "private": true,
+  "type": "module",
+  "description": "Mello 30 s episode 'A thought is not automatically a fact' - three.js scene rendered headless in Chromium, frames piped to ffmpeg",
+  "dependencies": {
+    "@fontsource/instrument-serif": "5.2.7",
+    "@fontsource/inter": "5.2.5",
+    "@fontsource/tiro-devanagari-hindi": "5.2.7",
+    "three": "0.170.0"
+  }
+}
