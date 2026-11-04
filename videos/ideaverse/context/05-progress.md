@@ -74,3 +74,9 @@
 - Experimental Hindi meme episode (shopping-list fail; photo-editing premise rejected as a repeat of hindi03-01).
 - DELIVERED: production/30s/2026-11-03-meme-01/ideaverse-30s-meme-01.mp4 (QA.md + qa/). Recipe saved in context/11
   "Experimental MEME format"; record context/18. Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s hindi-04 (2026-11-04) — supersedes meme-01 status above
+- Hindi lesson (accepted DOCKET style): photograph a care label, ask an AI app in Hindi, cross-check label + brand site.
+- DELIVERED: production/30s/2026-11-04-hindi-04/ideaverse-30s-hindi04-01.mp4 (QA.md + qa/); record context/19.
+- Next: await user review. No further episode, no automation.

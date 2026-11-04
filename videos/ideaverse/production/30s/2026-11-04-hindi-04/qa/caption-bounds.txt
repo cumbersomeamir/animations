@@ -1,0 +1,7 @@
+frames: 900, captioned: 873, frames with overlapping captions: 0
+caption pill (all frames): x 139..941  y 344..520   (spec x 90..990, y 340..520)
+caption ink  (all frames): x 175..906  y 362..501
+per caption (start s: font px, lines): 0.2: 60px/2, 3.7: 60px/2, 7.4: 60px/1, 9.75: 60px/2, 12.45: 60px/2, 15.5: 60px/2, 18.35: 60px/2, 21.9: 60px/2, 25.9: 60px/2
+overlay draws nothing above y 340 (signature + bottom label removed)
+SPEC PASS
+top-band montage (every 15th frame, y 0..300) -> qa/top-band-strips.png

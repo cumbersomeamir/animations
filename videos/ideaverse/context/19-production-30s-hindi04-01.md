@@ -37,5 +37,8 @@ Wording changes after Hindi ASR: "केयर लेबल" (heard "केर")
 7. 25.3–30 CTA: DOCKET waves; "[icon] आइडियावर्स ऐप / डाउनलोड कीजिए" ("download the Ideaverse app").
 All screens/labels are examples (उदाहरण); no real brand or app UI.
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-04
+- Output: production/30s/2026-11-04-hindi-04/ideaverse-30s-hindi04-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS.
+- Hindi ASR: all lines recognised (CER ≤ 0.20), every word inside its caption; captions in spec; top band text-free.
+- ASR-only limitation recorded (no listening); native-speaker listen recommended.

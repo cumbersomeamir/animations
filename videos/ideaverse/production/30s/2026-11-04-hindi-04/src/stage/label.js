@@ -259,7 +259,7 @@ const DK = poseKeys([
   { t: 3.62, p: { ...HOME2, crouch: 0, lean: 0, headPitch: 12, headRoll: 0 } },                 // (cut) holding the phone up
   { t: 12.29, p: {} },
   { t: 12.3, p: { x: 0.3, z: 0.5 } },                                                          // (cut) clear of the label close-up
-  { t: 18.15, p: {} },
+  { t: 18.29, p: {} },
   { t: 18.3, p: { ...SIDE, headPitch: 4, headYaw: -18 } },                                       // (cut) beside the label
   { t: 19.2, p: { headYaw: -30, headPitch: 0 } },
   { t: 20.6, p: { headYaw: 8, headPitch: 14 } },
