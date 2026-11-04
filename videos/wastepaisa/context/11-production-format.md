@@ -47,6 +47,18 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   "वेस्टपैसा से जुड़िए और अपना कबाड़ काम में लाइए!"
 - Business or value maths needs dated sources, or explicitly illustrative numbers ("मान लीजिए" + on-screen "उदाहरण"),
   with turnover and profit always separated. Reference implementation: `production/30s/2026-11-03-hindi-03/src/scene.html`.
+- Hindi pronunciation and mix notes (hindi-04, 2026-11-04). Check each draft line with Vosk small-hi before the final take.
+  - **Avoid:**
+    - **छाँटिए:** ASR heard a vulgar near-homophone.
+    - **नग:** not recognised; use पीस.
+    - **रीसाइक्लर:** misheard; name the recycler on screen instead.
+    - **English loanwords at the start of a sentence:** पैलेट read as पहले there; mid-sentence is fine.
+  - **Prefer clear line-final forms:** बिक गए, बदल दीजिए, and end the CTA with "!".
+  - **Keep SFX quiet under a line's first and last words;** masking showed up in ASR on the export in hindi-03 and hindi-04.
+  - **Business arithmetic:** when only marketplace asking prices exist, use an illustrative batch whose figures sit inside the dated
+    asking ranges, and cite them as asking prices.
+  - Latest reference implementation: `production/30s/2026-11-04-hindi-04/src/scene.html` (pallet props, three-pile grading,
+    dismantle-and-repair, to-scale profit bar, silent recap).
 
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),

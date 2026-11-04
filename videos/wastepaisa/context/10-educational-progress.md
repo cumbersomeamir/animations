@@ -137,6 +137,30 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - The 1 Nov 2026 GST changes come from secondary sources.
   - The Desktop review folder isn't reachable from the cloud (delivered as an attachment).
 
+## hindi-04 (2026-11-04-hindi-04) episode 01: COMPLETE (Hindi)
+- **Topic:** collect, grade and repair discarded wooden pallets for resale instead of selling broken timber by weight. New material and
+  business model; history checked. Style: accepted Scrap Shop X-ray (hindi-03 renderer), unchanged.
+- **Voice:** same cached Kokoro Hindi blend (hf_beta 0.7 + hm_omega 0.3, `hi`, speed 1.15).
+  - Draft wording changed after ASR: छाँटिए dropped, नग → पीस, sentence-initial पैलेट avoided, and clearer line-final verbs.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-04-hindi-04/wastepaisa-30s-hindi04-01.mp4`,
+  SHA-256 `f77fc826c997c0444791421e009e48698eb79c5f0e531214a0677e577e080446`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.1 LUFS / −1.5 dBTP.
+- **Checks:**
+  - Caption ink y 347–513, x 220–860.
+  - Timing within ±0.07 s.
+  - Vosk mean 0.912, with near-homophone misses confirmed by constrained decoding and Whisper. ASR-only: no listening possible in the cloud.
+- **Research:**
+  - Illustrative batch: 20 pallets ₹3,000 → turnover ₹6,000 → profit ₹500.
+  - Prices: IndiaMART asking ranges for used pallets (per piece) and pallet scrap (per kg).
+  - Repair method: USDA FPL/NWPCA 2022 LCA; ISO 18613:2014.
+  - Rules: ISPM 15 (export re-treatment by authorised providers); CHEP notice (pooled pallets are not for sale).
+  - Episode record: `context/17-hindi-04-01.md`. Pronunciation/SFX notes added to context 11. No automation.
+- **One defect fixed after the first export:** SFX masking L3's last word were lowered (remix only).
+- **Exact commands:** see the output folder `README.md`.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

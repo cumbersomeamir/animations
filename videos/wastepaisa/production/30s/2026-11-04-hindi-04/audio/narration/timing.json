@@ -1,0 +1,59 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "hf_beta*0.7 + hm_omega*0.3 (native Hindi voices)",
+  "speed": 1.15,
+  "lang": "hi",
+  "speech_seconds": 25.385,
+  "words": 71,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "टूटा पैलेट किलो के भाव बिकता है, ठीक किया पैलेट पीस के भाव।",
+      "start": 0.25,
+      "phonemes": "ʈˈuːʈaː pɛːlˈeːʈ kˈɪloː keː bʰˈaːʋ bˈɪktˌaː hɛː, ʈʰˈiːk kˈɪjaː pɛːlˈeːʈ pˈiːs keː bʰˈaːʋ",
+      "duration": 3.955,
+      "end": 4.205
+    },
+    {
+      "id": "L2",
+      "text": "जमा किए हुए पैलेट के तीन ढेर बनाइए: ठीक, मरम्मत लायक, बेकार।",
+      "start": 4.5,
+      "phonemes": "ɟˈʌmaː kˈɪeː hˈʊeː pɛːlˈeːʈ keː tˈiːn ɖʰˈeːɾ bənˈaːɪˌeː: ʈʰˈiːk, məɾˈʌmmət lˈaːjək, beːkˈaːɾ",
+      "duration": 4.138,
+      "end": 8.638
+    },
+    {
+      "id": "L3",
+      "text": "बेकार पैलेट के अच्छे तख्ते निकालकर, टूटे तख्ते बदल दीजिए।",
+      "start": 8.94,
+      "phonemes": "beːkˈaːɾ pɛːlˈeːʈ keː ˈʌcʰcʰeː tˈʌkʰteː nɪkˈaːləkˌəɾ, ʈˈuːʈeː tˈʌkʰteː bˈʌdəl dˈiːɟɪˌeː",
+      "duration": 4.091,
+      "end": 13.031
+    },
+    {
+      "id": "L4",
+      "text": "मान लीजिए बीस पैलेट तीन हज़ार में लिए; बारह ठीक होकर बिक गए।",
+      "start": 13.33,
+      "phonemes": "mˈaːn lˈiːɟɪˌeː bˈiːs pɛːlˈeːʈ tˈiːn həzˈaːɾ mẽː lˈɪeː; bˈaːɾəh ʈʰˈiːk hˈoːkəɾ bˈɪk ɡˈʌeː",
+      "duration": 4.061,
+      "end": 17.391
+    },
+    {
+      "id": "L5",
+      "text": "बाकी लकड़ी मिलाकर बिक्री छह हज़ार; खरीद, ढुलाई, मज़दूरी, कीलें घटाकर मुनाफ़ा पाँच सौ।",
+      "start": 17.7,
+      "phonemes": "bˈaːki lˈʌkr.ˌi mɪlˈaːkəɾ bˈɪkɾi cʰˈʌh həzˈaːɾ; kʰəɾˈiːd, ɖʰʊlˈaːi, mˌəzdˈuːɾi, kˈiːlẽː ɡʰəʈˈaːkəɾ mʊnˈaːfaː pˈãnc sˈɔː",
+      "duration": 5.966,
+      "end": 23.666
+    },
+    {
+      "id": "L6",
+      "text": "वेस्टपैसा से जुड़िए और अपना कबाड़ काम में लाइए!",
+      "tts": "वेस्ट पैसा से जुड़िए और अपना कबाड़ काम में लाइए!",
+      "start": 26.2,
+      "phonemes": "ʋˈeːsʈ pˈɛːsaː seː ɟˈʊr.ɪˌeː ɔːɾ ˈʌpnˌaː kəbˈaːr. kˈaːm mẽː lˈaːɪˌeː!",
+      "duration": 3.174,
+      "end": 29.374
+    }
+  ]
+}

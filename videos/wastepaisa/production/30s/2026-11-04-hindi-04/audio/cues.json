@@ -1,0 +1,189 @@
+{
+ "sfx_cues": [
+  [
+   0.45,
+   "X-ray scan over the broken pallet"
+  ],
+  [
+   1.0,
+   "PER KILO chip"
+  ],
+  [
+   2.6,
+   "new board 1 drops in"
+  ],
+  [
+   2.8,
+   "new board 2 drops in"
+  ],
+  [
+   3.4,
+   "PER PIECE chip"
+  ],
+  [
+   4.45,
+   "hand-cart rolls in"
+  ],
+  [
+   5.85,
+   "three pile zones"
+  ],
+  [
+   6.9,
+   "OK pile chip"
+  ],
+  [
+   7.35,
+   "pallets land on OK pile"
+  ],
+  [
+   7.32,
+   "REPAIRABLE chip"
+  ],
+  [
+   7.77,
+   "pallets land on repairable pile"
+  ],
+  [
+   8.19,
+   "SCRAP chip"
+  ],
+  [
+   8.62,
+   "pallet lands on scrap pile"
+  ],
+  [
+   9.3,
+   "X-ray marks good boards"
+  ],
+  [
+   10.35,
+   "good board 1 pried off"
+  ],
+  [
+   10.6,
+   "good board 2 pried off"
+  ],
+  [
+   10.85,
+   "board 1 on staging"
+  ],
+  [
+   11.1,
+   "board 2 on staging"
+  ],
+  [
+   11.95,
+   "broken board 1 falls"
+  ],
+  [
+   12.1,
+   "broken board 2 falls"
+  ],
+  [
+   12.65,
+   "reclaimed board 1 in"
+  ],
+  [
+   12.85,
+   "reclaimed board 2 in"
+  ],
+  [
+   12.75,
+   "nail 1"
+  ],
+  [
+   12.92,
+   "nail 2"
+  ],
+  [
+   13.08,
+   "nail 3 (after the last word)"
+  ],
+  [
+   13.4,
+   "EXAMPLE tag"
+  ],
+  [
+   13.95,
+   "20 pallets appear"
+  ],
+  [
+   14.55,
+   "purchase ticket"
+  ],
+  [
+   15.9,
+   "12 repaired"
+  ],
+  [
+   16.93,
+   "12 SOLD stamp"
+  ],
+  [
+   17.05,
+   "leftover wood pile"
+  ],
+  [
+   17.8,
+   "turnover bar rises"
+  ],
+  [
+   18.0,
+   "turnover split chip"
+  ],
+  [
+   18.75,
+   "TURNOVER 6,000"
+  ],
+  [
+   19.9,
+   "purchase covers the bar"
+  ],
+  [
+   20.52,
+   "transport"
+  ],
+  [
+   21.09,
+   "labour"
+  ],
+  [
+   21.87,
+   "nails"
+  ],
+  [
+   22.8,
+   "PROFIT 500"
+  ],
+  [
+   23.95,
+   "GRADE card"
+  ],
+  [
+   24.4,
+   "REPLACE BOARDS card"
+  ],
+  [
+   24.85,
+   "FULL ACCOUNT card"
+  ],
+  [
+   26.0,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.44",
+  "input_tp": "-3.10",
+  "input_lra": "4.30",
+  "input_thresh": "-28.20",
+  "output_i": "-16.23",
+  "output_tp": "-1.50",
+  "output_lra": "3.10",
+  "output_thresh": "-26.93",
+  "normalization_type": "dynamic",
+  "target_offset": "1.23"
+ }
+}

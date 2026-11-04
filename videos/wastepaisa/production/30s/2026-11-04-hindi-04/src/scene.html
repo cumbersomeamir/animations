@@ -1,0 +1,325 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa hindi-04 episode 01 "टूटे पैलेट की मरम्मत का कारोबार" (collect, grade and repair wooden pallets for resale), Hindi.
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-03-hindi-03/src/scene.html (itself round-02's), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel, recap and CTA layout). New: wooden-pallet props and scene functions; Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-04-hindi-04';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [4.4, [0, 1.6, 2.4]], [8.8, [0.25, 1.5, 2.0]], [13.2, [0, 1.85, 3.1]], [17.55, [-0.3, 1.7, 2.6]], [23.85, [0, 2.35, 3.7]], [25.9, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode's scenes
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- wooden-pallet props (solid foreground objects) with X-ray reveal ----------
+const WD = { top: '#c9a063', topOld: '#a98b5e', face: '#8f6b3d', dark: '#5e4428', grain: 'rgba(94,68,40,0.35)', fresh: '#e2c38b', nail: '#cfd4da', crack: '#f46d12' };
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+// Face-on (top-deck) pallet: 5 deck boards over 3 stringers. b[i] = 'ok' | 'crack' | 'split' | 'gone' | number (0..1 = new board dropping in).
+// xray: draw translucent cyan with nails and cracks showing. lift: {i: [dx, dy, rot]} moves a board off the pallet (dismantling).
+function palletTop(x, y, w, h, b = [], o = {}) {
+  const n = 5, bh = h / n * 0.74, gap = (h - n * bh) / (n - 1), x0 = x - w / 2, y0 = y - h / 2, sw = w * 0.12, sx = [x0 + w * 0.04, x - sw / 2, x0 + w * 0.96 - sw];
+  g.save();
+  if (!o.xray) { g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 14; g.shadowBlur = 24; }
+  // stringers (under the deck) + 3D thickness strip
+  g.fillStyle = o.xray ? 'rgba(143,211,224,0.18)' : WD.dark; for (const s of sx) { rr(s, y0 - 6, sw, h + 12, 6); g.fill(); }
+  if (!o.xray) { g.shadowColor = 'transparent'; g.fillStyle = WD.face; for (const s of sx) g.fillRect(s, y0 + h + 2, sw, 14); }
+  for (let i = 0; i < n; i++) {
+    const st = b[i] ?? 'ok', by = y0 + i * (bh + gap); if (st === 'gone') continue;
+    const L = o.lift && o.lift[i]; g.save(); if (L) { g.translate(x + L[0], by + bh / 2 + L[1]); g.rotate(L[2] || 0); g.translate(-x, -(by + bh / 2)); }
+    let drop = 0, col = o.old ? WD.topOld : WD.top;
+    if (typeof st === 'number') { if (st <= 0) { g.restore(); continue; } drop = (1 - easeOut(st)) * -140; col = WD.fresh; g.globalAlpha *= Math.min(1, st * 1.6); }
+    const draw = (xa, xb) => { rr(xa, by + drop, xb - xa, bh, 5); g.fillStyle = o.xray ? 'rgba(143,211,224,0.28)' : col; g.fill(); g.strokeStyle = o.xray ? 'rgba(200,240,250,0.9)' : 'rgba(0,0,0,0.25)'; g.lineWidth = o.xray ? 2 : 1.5; g.stroke();
+      if (!o.xray) { g.fillStyle = WD.face; g.fillRect(xa + 2, by + drop + bh - 7, xb - xa - 4, 7); g.strokeStyle = WD.grain; g.lineWidth = 2; for (let k = 1; k < 3; k++) { g.beginPath(); g.moveTo(xa + 8, by + drop + k * bh / 3.2); g.lineTo(xb - 8, by + drop + k * bh / 3.2 + 2); g.stroke(); } } };
+    if (st === 'split') { draw(x0, x - w * 0.12); g.save(); g.translate(x + w * 0.2, by + bh / 2); g.rotate(0.12); g.translate(-(x + w * 0.2), -(by + bh / 2)); draw(x + w * 0.02, x0 + w); g.restore(); }
+    else draw(x0, x0 + w);
+    if (st === 'crack' || st === 'split') { g.strokeStyle = o.xray ? WD.crack : 'rgba(40,26,14,0.85)'; g.lineWidth = o.xray ? 5 : 3; g.beginPath(); const cx = st === 'split' ? x - w * 0.05 : x + w * 0.18 * (i % 2 ? -1 : 1);
+      g.moveTo(cx - 6, by + drop); g.lineTo(cx + 8, by + drop + bh * 0.35); g.lineTo(cx - 4, by + drop + bh * 0.62); g.lineTo(cx + 6, by + drop + bh); g.stroke(); }
+    for (const s of sx) for (const dy of [0.32, 0.68]) { g.beginPath(); g.arc(s + sw / 2 + (dy < 0.5 ? -7 : 7), by + drop + bh * dy, o.xray ? 5 : 3.2, 0, 7); g.fillStyle = o.xray ? '#e9f6f8' : 'rgba(60,64,70,0.9)'; g.fill(); }
+    g.restore();
+  }
+  g.restore();
+}
+// small 3/4 pallet for stacks (oblique), state: 'ok' | 'repair' | 'scrap'
+function palletIso(x, y, s, state = 'ok', a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s);
+  const W = 240, D = 150, ox = 0.45, oy = -0.32, H = 38; g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 8; g.shadowBlur = 14;
+  g.fillStyle = WD.dark; for (const bx of [-W / 2, -20, W / 2 - 40]) g.fillRect(bx, -H + 10, 40, H - 10); g.fillStyle = WD.face; g.fillRect(-W / 2, -10, W, 10); g.shadowColor = 'transparent';
+  for (let i = 4; i >= 0; i--) { if (state === 'scrap' && (i === 1 || i === 3)) continue; const d0 = i * D / 5, d1 = d0 + D / 5 * 0.72, yT = -H - 8;
+    const tilt = state === 'scrap' && i === 2 ? 10 : 0;
+    g.beginPath(); g.moveTo(-W / 2 + ox * d0, yT + oy * d0 + tilt); g.lineTo(W / 2 + ox * d0, yT + oy * d0); g.lineTo(W / 2 + ox * d1, yT + oy * d1); g.lineTo(-W / 2 + ox * d1, yT + oy * d1 + tilt); g.closePath();
+    g.fillStyle = state === 'scrap' ? '#8e7450' : WD.top; g.fill(); g.fillStyle = WD.face; g.fillRect(-W / 2 + ox * d0, yT + oy * d0, W, 8);
+    if (state === 'repair' && i === 2) { g.strokeStyle = 'rgba(40,26,14,0.9)'; g.lineWidth = 4; g.beginPath(); g.moveTo(10 + ox * d0, yT + oy * d0); g.lineTo(22 + ox * d1, yT + oy * d1); g.stroke(); } }
+  g.restore(); }
+function miniPallet(x, y, k, fresh) { g.save(); g.translate(x, y); g.fillStyle = WD.dark; for (const sx of [-44, -8, 28]) g.fillRect(sx, -34, 16, 68); // tiny face-on icon for the batch grid
+  for (let i = 0; i < 4; i++) { rr(-52, -34 + i * 18, 104, 13, 3); g.fillStyle = fresh ? WD.fresh : WD.topOld; g.fill(); } if (k === 'scrap') { g.strokeStyle = 'rgba(40,26,14,0.9)'; g.lineWidth = 4; g.beginPath(); g.moveTo(-10, -34); g.lineTo(6, 0); g.lineTo(-4, 34); g.stroke(); }
+  g.restore(); }
+function woodPile(x, y, s = 1, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 8; g.shadowBlur = 12; const r = rng(77);
+  for (let i = 0; i < 9; i++) { const w = 70 + r() * 70, xx = -90 + r() * 100, yy = -12 - (i % 4) * 16, rot = (r() - 0.5) * 0.5; g.save(); g.translate(xx + w / 2, yy); g.rotate(rot); rr(-w / 2, -7, w, 14, 3); g.fillStyle = i % 2 ? '#8e7450' : '#a7865a'; g.fill(); g.restore(); }
+  g.restore(); }
+function hammer(x, y, rot, s = 1) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.fillStyle = '#7a5129'; rr(-6, -8, 12, 90, 5); g.fill(); g.fillStyle = '#9aa2aa'; rr(-30, -26, 60, 24, 6); g.fill(); g.fillStyle = '#c4c9cf'; g.fillRect(-30, -26, 60, 6); g.restore(); }
+function impact(x, y, k) { if (k <= 0 || k >= 1) return; g.save(); g.globalAlpha *= 1 - k; g.strokeStyle = C.warm; g.lineWidth = 4; for (let i = 0; i < 6; i++) { const an = i / 6 * 6.283; g.beginPath(); g.moveTo(x + Math.cos(an) * (10 + 26 * k), y + Math.sin(an) * (10 + 26 * k)); g.lineTo(x + Math.cos(an) * (22 + 34 * k), y + Math.sin(an) * (22 + 34 * k)); g.stroke(); } g.restore(); }
+function ticket(x, y, rot, title, value, a) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-150, -96, 300, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 40, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 4.4: mascot holds a broken pallet; X-ray shows cracked boards and nails; boards replaced -> sold per piece
+  g.save(); g.globalAlpha = a;
+  const m = mascot(280, 1440, 1.2, { armL: [-0.1, 110], armR: [1.15, 70], look: [0.8, 0.0], lid: -0.5, blink: (t > 3.9 && t < 4.0) ? 1 : 0 });
+  const px = 715, py = 1130, pw = 400, ph = 300, fix = (ts) => prog(t, ts, ts + 0.45);
+  const b = ['ok', t < 2.55 ? 'crack' : fix(2.55), 'ok', t < 2.75 ? 'split' : fix(2.75), 'ok'];
+  palletTop(px, py, pw, ph, b, { old: true });
+  if (t < 2.55) xrayClip(px - pw / 2 - 10, py - ph / 2 - 20, px + pw / 2 + 10, py + ph / 2 + 24, easeOut(prog(t, 0.45, 1.3)), () => palletTop(px, py, pw, ph, ['ok', 'crack', 'ok', 'split', 'ok'], { xray: true }));
+  label('किलो के भाव', 700, 830, prog(t, 1.0, 1.25) * (1 - prog(t, 2.4, 2.6)), { size: 44, warm: true, to: [px + 40, py - 60] });
+  if (t > 3.4) { const k = back(prog(t, 3.4, 3.75)); g.save(); g.translate(715, 860); g.scale(k, k); rr(-170, -46, 340, 92, 46); g.fillStyle = C.warm; g.fill(); textC('पीस के भाव', 0, 4, 50, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sGrade(t, a) { // 4.4 - 8.8: collected pallets are graded into three stacks: ok, repairable, scrap
+  g.save(); g.globalAlpha = a;
+  const heapK = easeOut(prog(t, 4.45, 4.95)), hx = lerp(1250, 540, heapK), hy = 930;
+  const piles = [['ठीक', 240, 6.9, 'ok'], ['मरम्मत लायक', 540, 7.32, 'repair'], ['बेकार', 840, 8.19, 'scrap']];
+  const zoneK = prog(t, 5.8, 6.2);
+  piles.forEach(([name, x], i) => { if (zoneK <= 0) return; g.save(); g.globalAlpha *= zoneK; g.setLineDash([14, 10]); g.strokeStyle = 'rgba(254,247,238,0.45)'; g.lineWidth = 3; rr(x - 140, 1190, 280, 170, 18); g.stroke(); g.setLineDash([]); g.restore(); });
+  // the heap: pallets leave it as each pile is called
+  const left = [0, 1, 2].map((i) => prog(t, piles[i][2] - 0.05, piles[i][2] + 0.45));
+  if (heapK > 0) { g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(hx - 190, hy + 72, 380, 26, 8); g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent';
+    g.fillStyle = '#7d8790'; g.fillRect(hx - 190, hy + 72, 380, 7); g.strokeStyle = '#7d8790'; g.lineWidth = 8; g.lineCap = 'round'; g.beginPath(); g.moveTo(hx + 190, hy + 80); g.lineTo(hx + 230, hy - 30); g.stroke();
+    for (const wx of [-130, 130]) { g.beginPath(); g.arc(hx + wx, hy + 112, 18, 0, 7); g.fillStyle = '#1d2126'; g.fill(); g.beginPath(); g.arc(hx + wx, hy + 112, 7, 0, 7); g.fillStyle = '#9aa2aa'; g.fill(); } g.restore(); } // hand-cart
+  const heap = [[0, 'ok', -60, 0.06], [2, 'scrap', 50, -0.08], [1, 'repair', -10, 0.03], [0, 'ok', 30, -0.05], [1, 'repair', -40, 0.1]];
+  heap.forEach(([pi, st, dx, rot], j) => { const gone = left[pi]; if (gone >= 1) return; const yy = hy + 60 - j * 34;
+    if (gone > 0) { const tx = piles[pi][1], ty = 1330 - (pi === 0 ? (j === 0 ? 0 : 40) : pi === 1 ? (j === 2 ? 0 : 40) : 0); const [fx, fy] = fly(hx + dx, yy, tx, ty, easeOut(gone), 160); palletIso(fx, fy, 0.62, st); }
+    else { g.save(); g.translate(hx + dx, yy); g.rotate(rot); palletIso(0, 0, 0.62, st, heapK); g.restore(); } });
+  piles.forEach(([name, x, ts, st], i) => { const k = left[i]; if (k >= 1) { palletIso(x, 1330, 0.62, st); if (i < 2) palletIso(x, 1290, 0.62, st); }
+    label(name, x, 1130, prog(t, ts, ts + 0.25), { size: 44, warm: t > ts - 0.05 && t < (piles[i + 1] ? piles[i + 1][2] : 8.9) }); });
+  label('जमा', 540, 700, prog(t, 4.55, 4.8) * (1 - prog(t, 5.7, 5.95)), { size: 44, warm: true });
+  g.restore();
+}
+function sRepair(t, a) { // 8.8 - 13.2: dismantle a scrap pallet for good boards; replace the broken boards of a repairable one; nail
+  g.save(); g.globalAlpha = a;
+  const Lx = 290, Rx = 770, Y = 1060, w = 330, h = 250;
+  // left: scrap pallet, two good boards are taken off
+  const take = [prog(t, 10.35, 10.85), prog(t, 10.6, 11.1)], boardY = (bi) => Y - h / 2 + bi * (h / 5 * 0.74 + (h - h * 0.74) / 4) + h / 10 * 0.74;
+  const sLift = {}; [1, 3].forEach((bi, j) => { const k = easeOut(take[j]); if (k > 0 && k < 1) sLift[bi] = [(540 - Lx) * k, (1370 - j * 22 - boardY(bi)) * k - Math.sin(Math.PI * k) * 90, -0.04 * k]; });
+  const lb = ['split', 'ok', 'gone', 'ok', 'crack'];
+  palletTop(Lx, Y, w, h, lb.map((s, i) => ((i === 1 && take[0] >= 1) || (i === 3 && take[1] >= 1) ? 'gone' : s)), { old: true, lift: sLift });
+  xrayClip(Lx - w / 2 - 8, Y - h / 2 - 16, Lx + w / 2 + 8, Y + h / 2 + 22, easeOut(prog(t, 9.3, 9.95)) * (1 - prog(t, 10.3, 10.4)), () => palletTop(Lx, Y, w, h, lb, { xray: true }));
+  if (t > 9.95 && t < 10.4) { g.save(); g.strokeStyle = 'rgba(143,211,224,0.95)'; g.lineWidth = 5; for (const bi of [1, 3]) { const by = Y - h / 2 + bi * (h / 5 * 0.74 + (h - 5 * h / 5 * 0.74) / 4); rr(Lx - w / 2 - 6, by - 6, w + 12, h / 5 * 0.74 + 12, 8); g.stroke(); } g.restore(); }
+  // staging: the two reclaimed boards wait between the pallets, then go into the right pallet
+  const put = [prog(t, 12.3, 12.7), prog(t, 12.5, 12.9)];
+  // right: repairable pallet; broken boards pop off and fall, reclaimed boards drop in, nails hammered
+  const pop = [prog(t, 11.9, 12.25), prog(t, 12.0, 12.35)];
+  const rb = ['ok', pop[0] <= 0 ? 'crack' : put[0] > 0 ? put[0] : 'gone', 'ok', pop[1] <= 0 ? 'crack' : put[1] > 0 ? put[1] : 'gone', 'ok'];
+  palletTop(Rx, Y, w, h, rb, { old: true });
+  if (t > 11.6 && t < 11.95) { g.save(); g.strokeStyle = C.warm; g.lineWidth = 5; for (const bi of [1, 3]) { const by = Y - h / 2 + bi * (h / 5 * 0.74 + (h - 5 * h / 5 * 0.74) / 4); rr(Rx - w / 2 - 6, by - 6, w + 12, h / 5 * 0.74 + 12, 8); g.stroke(); } g.restore(); }
+  [0, 1].forEach((j) => { const k = pop[j]; if (k <= 0 || k >= 1) return; const bi = j ? 3 : 1, by = Y - h / 2 + bi * (h / 5 * 0.74 + (h - 5 * h / 5 * 0.74) / 4); g.save(); g.globalAlpha *= 1 - k; g.translate(Rx + 120 * k, by + 300 * k * k); g.rotate(0.6 * k); rr(-w / 2, 0, w, h / 5 * 0.74, 5); g.fillStyle = '#8e7450'; g.fill(); g.restore(); });
+  // reclaimed boards resting at the staging point (after leaving the left pallet, before going right)
+  [0, 1].forEach((j) => { if (take[j] >= 1 && put[j] <= 0) { g.save(); g.translate(540, 1370 - j * 22); g.rotate(-0.04); rr(-150, -12, 300, 24, 5); g.fillStyle = WD.top; g.fill(); g.restore(); } });
+  // hammer + nail impacts on the right pallet
+  const hits = [12.75, 12.92, 13.08]; let hrot = -0.9; for (const hT of hits) { const d = t - hT; if (d > -0.12 && d < 0.1) hrot = d < 0 ? lerp(-0.9, 0.25, (d + 0.12) / 0.12) : lerp(0.25, -0.9, d / 0.1); }
+  if (t > 12.55) { hammer(Rx + 110, Y - 70, hrot, 1.4); hits.forEach((hT, i) => impact(Rx + 70 - i * 60, Y - 25 + (i % 2) * 50, prog(t, hT, hT + 0.25))); }
+  label('बेकार', Lx, Y - h / 2 - 70, prog(t, 8.95, 9.2), { size: 42, warm: t < 9.9 });
+  label('मरम्मत लायक', Rx, Y - h / 2 - 70, prog(t, 9.05, 9.3), { size: 42 });
+  label('अच्छे तख्ते', 540, 1450, prog(t, 9.95, 10.2) * (1 - prog(t, 12.4, 12.6)), { size: 42, warm: t > 9.9 && t < 11.6 });
+  label('टूटे तख्ते', Rx, Y + h / 2 + 64, prog(t, 11.6, 11.85) * (1 - prog(t, 12.3, 12.5)), { size: 42, warm: true });
+  if (t > 12.95) stamp(Rx, Y + h / 2 + 64, 'मरम्मत पूरी', prog(t, 12.95, 13.2), -0.06, 42);
+  g.restore();
+}
+function sBatch(t, a) { // 13.2 - 17.55: illustrative batch: 20 pallets for 3,000; 12 repaired and sold, 8 go to firewood
+  g.save(); g.globalAlpha = a;
+  const tagK = back(prog(t, 13.35, 13.7)); if (tagK > 0) { g.save(); g.translate(540, 625); g.scale(tagK, tagK); rr(-130, -40, 260, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('उदाहरण', 0, 4, 46, C.warm, 800); g.restore(); }
+  ticket(540, 795, -0.03, 'खरीद', '₹3,000', back(prog(t, 14.55, 14.85)));
+  const cols = [260, 400, 540, 680, 820], rows = [985, 1080, 1175, 1270];
+  for (let i = 0; i < 20; i++) { const k = back(prog(t, 13.95 + i * 0.02, 14.25 + i * 0.02)); if (k <= 0) continue; const x = cols[i % 5], y = rows[Math.floor(i / 5)], good = i < 12;
+    const fixK = good ? prog(t, 15.88 + i * 0.03, 16.1 + i * 0.03) : 0, gone = good ? 0 : prog(t, 16.95, 17.25);
+    g.save(); g.translate(x, y); g.scale(k, k); g.globalAlpha *= 1 - gone; miniPallet(0, 0, good ? 'ok' : 'scrap', fixK > 0.5); g.restore();
+    if (fixK > 0.5 && t < 16.9) { g.save(); g.strokeStyle = C.warm; g.lineWidth = 4; rr(x - 60, y - 42, 120, 84, 10); g.stroke(); g.restore(); } }
+  label('20 पैलेट', 835, 800, prog(t, 14.0, 14.25) * (1 - prog(t, 15.8, 16.0)), { size: 40, warm: t < 14.55 });
+  if (t > 16.9) { woodPile(700, 1310, 0.9, prog(t, 17.0, 17.25)); stamp(540, 1080, '12 बिके', prog(t, 16.93, 17.2), -0.08, 52); label('8 → लकड़ी', 380, 1290, prog(t, 17.05, 17.3), { size: 40 }); }
+  g.restore();
+}
+function sProfit(t, a) { // 17.55 - 23.85: to-scale bar: turnover 6,000 minus purchase, transport, labour, nails = 500 profit
+  g.save(); g.globalAlpha = a;
+  const x0 = 350, w = 180, top = 800, H = 620, px = H / 6000, yP = top + 3000 * px, yT = yP + 800 * px, yL = yT + 1400 * px, yN = yL + 300 * px, bottom = top + H;
+  label('उदाहरण · भाव बदलते रहते हैं', 540, 625, prog(t, 17.65, 17.9), { size: 40 });
+  label('₹5,400 (12 पैलेट) + ₹600 (लकड़ी)', 540, 712, prog(t, 18.0, 18.25), { size: 40, warm: t > 17.95 && t < 18.75 });
+  const rise = easeOut(prog(t, 17.75, 18.6));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bottom - H * rise, w, H * rise, 12); g.fillStyle = C.cream; g.fill(); g.restore();
+  if (rise > 0.9) { g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = 'rgba(169,139,94,0.55)'; g.fillRect(x0, top, w, 600 * px); g.restore(); } // the firewood share of turnover
+  const seg = (y0, y1, col, k) => { if (k <= 0) return; g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = col; g.fillRect(x0, y0, w, (y1 - y0) * k); g.restore(); };
+  seg(top, yP, '#59616b', easeOut(prog(t, 19.89, 20.3)));
+  seg(yP, yT, '#a85a1c', prog(t, 20.52, 20.75));
+  seg(yT, yL, '#7a5129', prog(t, 21.09, 21.4));
+  seg(yL, yN, '#3a4048', prog(t, 21.87, 22.05));
+  const pk = prog(t, 22.74, 23.0); seg(yN, bottom, C.warm, pk);
+  label('बिक्री ₹6,000', 212, top - 6, prog(t, 18.75, 19.0), { size: 40, warm: t > 18.7 && t < 19.9, to: [x0 + 6, top + 14] });
+  label('खरीद −₹3,000', 770, 945, prog(t, 19.95, 20.2), { size: 40, warm: t > 19.85 && t < 20.5, to: [x0 + w - 6, (top + yP) / 2] });
+  label('ढुलाई −₹800', 770, 1095, prog(t, 20.52, 20.75), { size: 40, warm: t > 20.5 && t < 21.05, to: [x0 + w - 6, (yP + yT) / 2] });
+  label('मज़दूरी −₹1,400', 770, 1210, prog(t, 21.09, 21.33), { size: 40, warm: t > 21.05 && t < 21.85, to: [x0 + w - 6, (yT + yL) / 2] });
+  label('कीलें −₹300', 770, 1302, prog(t, 21.87, 22.1), { size: 40, warm: t > 21.85 && t < 22.7, to: [x0 + w - 6, (yL + yN) / 2] });
+  if (pk > 0) { const k = back(prog(t, 22.8, 23.15)); g.save(); g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(x0 + w, (yN + bottom) / 2); g.lineTo(610, 1398); g.stroke(); g.translate(780, 1398); g.scale(k, k);
+    rr(-170, -42, 340, 84, 42); g.fillStyle = C.warm; g.fill(); textC('मुनाफ़ा ₹500', 0, 4, 48, '#1d130e', 800); g.restore(); }
+  mascot(180, 1462, 0.6, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, stern: t > 19.8 && t < 22.7 ? 1 : 0, hop: t > 22.85 && t < 23.35 ? Math.sin((t - 22.85) * 6.28) * 8 : 0 });
+  g.restore();
+}
+function iconStacks() { for (const [dx, st] of [[-22, 'ok'], [0, 'repair'], [22, 'scrap']]) palletIso(dx * 1.6, 20 - (dx + 22) * 0.2, 0.22, st); }
+function iconBoard() { g.save(); g.rotate(-0.15); rr(-44, -12, 88, 24, 5); g.fillStyle = WD.fresh; g.fill(); g.restore(); hammer(26, 2, -0.7, 0.55); }
+function iconLedger() { rr(-40, -46, 80, 92, 8); g.fillStyle = C.cream; g.fill(); g.fillStyle = 'rgba(29,19,14,0.55)'; for (let i = 0; i < 3; i++) g.fillRect(-26, -30 + i * 18, 52, 6); textC('₹', 0, 30, 34, C.warm, 800); }
+function sRecap(t, a) { // 23.85 - 25.9: grade, replace boards, count every cost (silent recap, accepted pacing)
+  g.save(); g.globalAlpha = a;
+  const items = [['ढेर बनाइए', 23.95, iconStacks], ['तख्ते बदलिए', 24.4, iconBoard], ['पूरा हिसाब', 24.85, iconLedger]];
+  items.forEach(([s, ts, icon], i) => { const k = back(prog(t, ts, ts + 0.35)); if (k <= 0) return; const y = 760 + i * 200, warm = i === 2; g.save(); g.translate(500, y); g.scale(k, k);
+    rr(-300, -76, 600, 152, 30); g.fillStyle = warm ? 'rgba(244,109,18,0.95)' : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = warm ? C.warm : 'rgba(254,247,238,0.4)'; g.lineWidth = 3; g.stroke();
+    textC(s, 50, 6, 62, warm ? '#1d130e' : C.cream, 800); g.translate(-220, 0); icon(); g.restore(); });
+  mascot(900, 1450, 0.72, { armL: [-0.6, 90], armR: [1.2, 60], look: [-0.6, -0.5], lid: -0.5, blink: (t > 25.3 && t < 25.4) ? 1 : 0 });
+  g.restore();
+}
+function sCTA(t, a) { // 25.9 - 30: short natural brand/action CTA (accepted layout; Hindi action line)
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 26.0, 26.45));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('अपना कबाड़ काम में लाइए', 540, 1192, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 26) * 5)) * 8 * (t > 26 && t < 27.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 4.4], [sGrade, 4.4, 8.8], [sRepair, 8.8, 13.2], [sBatch, 13.2, 17.55], [sProfit, 17.55, 23.85], [sRecap, 23.85, 25.9], [sCTA, 25.9, 30.1]];
+const XF = 0.3; // short dissolve between scenes (camera travel carries the move)
+
+// ---------- captions (Hindi, Devanagari): upper safe region, ink y ~340-520, x 90-990, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from Hindi ASR word times.
+const GROUPS = {
+  L1: ['टूटा पैलेट|[किलो के भाव] बिकता है,', ['ठीक किया पैलेट|[पीस के भाव।]', 2.25]],
+  L2: ['जमा किए हुए पैलेट के|[तीन ढेर] बनाइए:', ['ठीक, [मरम्मत लायक,]|बेकार।', 2.40]],
+  L3: ['बेकार पैलेट के|[अच्छे तख्ते] निकालकर,', ['[टूटे तख्ते]|बदल दीजिए।', 2.67]],
+  L4: ['मान लीजिए [20 पैलेट]|[₹3,000] में लिए;', ['[12] ठीक होकर|[बिक गए।]', 2.55]],
+  L5: ['बाकी लकड़ी मिलाकर|[बिक्री ₹6,000;]', ['खरीद, ढुलाई, मज़दूरी, कीलें|घटाकर [मुनाफ़ा ₹500।]', 2.19]],
+  L6: ['[वेस्टपैसा] से जुड़िए और|अपना कबाड़ काम में लाइए!'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  g.font = '800 62px "Baloo 2"'; const lines = c.text.split('|'), lh = 84, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(W / 2 - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 25.9 ? 1 : lerp(1, 0.5, prog(t, 25.9, 26.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { f(t, al); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,26 @@
+Hindi intelligibility and timing evidence: wastepaisa-30s-hindi04-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines plus constrained decoding.
+
+1) Vosk vosk-model-small-hi-0.22 (Apache-2.0), one free-decoding pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.25 | offset plan 4.21 heard 4.18 | heard: टूटा पैलेट किलो के भाव बिकता है ठीक किया पैलेट पीस के भाव
+   L2 word acc 0.75 | onset plan 4.50 heard 4.50 | offset plan 8.64 heard 8.64 | heard: जमा किए हुए पैलेट की टीम ढेर बनाएं ठीक मरम्मत लायक बेकार
+   L3 word acc 1.00 | onset plan 8.94 heard 8.94 | offset plan 13.03 heard 12.96 | heard: बेकार पैलेट के अच्छे तख्ते निकालकर टूटे तख्ते बदल दीजिए
+   L4 word acc 0.92 | onset plan 13.33 heard 13.33 | offset plan 17.39 heard 17.35 | heard: मान लीजिए बीस पहले तीन हजार में लिए बारह ठीक होकर बिक गए
+   L5 word acc 1.00 | onset plan 17.70 heard 17.70 | offset plan 23.67 heard 23.64 | heard: बाकी लकड़ी मिलाकर बिक्री छः हजार खरीद ढुलाई मजदूरी कीलें घटाकर मुनाफा पाँच सौ
+   L6 word acc 0.80 | onset plan 26.20 heard 26.23 | offset plan 29.37 heard 29.31 | heard: वेस्ट पैसा से जुड़ी है और अपना कबाड़ काम में लाई
+   mean word accuracy 0.912 (normalisation: nukta removed, chandrabindu->anusvara, punctuation/hyphens removed, यह=ये, बरतन=बर्तन, एल्यूमिनियम=एल्युमिनियम, छः=छह (spelling variants only))
+
+2) Constrained decoding (Vosk grammar = intended sentence vs the free-decoding confusion) on the export:
+   L1 -> intended sentence incl. 'पैलेट' x2 and 'पीस' (confidences 0.96-1.0)
+   L3 -> '... टूटे तख्ते बदल दीजिए' (before the SFX fix the free pass heard 'दी थी'; after lowering the nail/board SFX under the last word it is word-perfect)
+   L4 -> 'मान लीजिए बीस पैलेट तीन हज़ार में लिए बारह ठीक होकर बिक गए' (all 1.0; free decoding wrote the frequent word पहले for पैलेट)
+   L6 -> 'वेस्ट पैसा से जुड़िए और अपना कबाड़ काम में लाइए' (1.0 ... 0.96; free decoding writes the near-homophone 'जुड़ी है' / 'लाई')
+   L2 -> Vosk prefers 'टीम ढेर बनाएं' over 'तीन ढेर बनाइए' (0.94); Whisper (below) hears 'तीं देर' = तीन ढेर. बनाइए/बनाएं are both polite imperatives.
+
+3) Second engine, faster-whisper 'small' multilingual, whole export, language=hi:
+   तूटा पेलेड किलो के बाव बिखता है, त्हीक किया पेलेड फीऽ के बाव? जमाकिई हो एप पेलेड के तीं देर बनाए, त्फीक मरम्मत लायक पिकार। बिकार पेलेड के अच्चे तकतें निकाल कर तूटे तकते बधल दीजिं. मान लीजे बीस पहले तीन हजार मेलिए, बारा ठीक होकर भिख कै, पाकी लक्री मिलाकर भिक्री चहेजार, खरीद, दूलाई, मस्दूरी, कीले गठाकर मुनाफा पाईच्सो. वेस्त पैसा से जुडिये और अपना कबार काम मिलाए.
+   Every content word is present in phonetic spelling (पैलेट is consistently 'पेलेड'; तीन ढेर = 'तीं देर'). Whisper-small is weak at Hindi
+   orthography (aspiration and retroflex marks), so it corroborates the Vosk results rather than scoring them.
+
+4) Draft-stage ASR led to wording changes before the final take (see PRODUCTION-NOTES.md): 'छाँटिए' was dropped (heard as a vulgar near-homophone),
+   'नग' -> 'पीस', sentence-initial 'पैलेट' avoided, 'बिके' -> 'बिक गए', 'बची' -> 'बाकी', 'बदलिए' -> 'बदल दीजिए'.
