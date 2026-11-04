@@ -1,0 +1,16 @@
+पासकी से लॉगिन में पासवर्ड टाइप क्यों नहीं करना पड़ता?
+
+पासकी बनाते समय आपका फ़ोन (या पासकी मैनेजर) दो जुड़ी चाबियाँ बनाता है: प्राइवेट चाबी आपके पास रहती है और पब्लिक चाबी वेबसाइट के पास। लॉगिन पर वेबसाइट एक चुनौती भेजती है, आप रोज़ की तरह फ़िंगरप्रिंट, चेहरे या पिन से फ़ोन अनलॉक करते हैं, फ़ोन प्राइवेट चाबी से साइन करता है और वेबसाइट पब्लिक चाबी से उसे जाँच लेती है। आपका फ़िंगरप्रिंट या चेहरा फ़ोन में ही रहता है, वेबसाइट तक नहीं जाता।
+
+वीडियो की स्क्रीन समझाने के लिए बनाए गए उदाहरण हैं, किसी असली ऐप की नहीं।
+
+स्रोत:
+- FIDO Alliance – Passkeys: https://fidoalliance.org/passkeys/
+- Apple – About the security of passkeys: https://support.apple.com/en-us/102195
+- Google for Developers – Passkeys: https://developers.google.com/identity/passkeys
+- Google Account Help – Sign in with a passkey: https://support.google.com/accounts/answer/13548313
+- W3C – Web Authentication Level 3: https://www.w3.org/TR/webauthn-3/
+
+टेंसरब्लू फ़ॉलो करें — सॉफ़्टवेयर, आसान भाषा में।
+
+#पासकी #साइबरसुरक्षा #लॉगिन #SoftwareExplained

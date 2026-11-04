@@ -25,6 +25,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-03 Hindi batch 03:** latest correction — narration and captions in natural **Hindi (Devanagari)** for this batch. Done with the same model's Hindi pipeline (Kokoro-82M `lang_code='h'`, official voices `hf_alpha`×0.7 + `hm_omega`×0.3, speed ~1.12), never the English voices; Devanagari set in **Mukta** (OFL) with zero letter-spacing; Hindi ASR with faster-whisper `medium`, `language='hi'`, sentence by sentence. Brand wordmark "Tensorblue" stays Latin; CTA spoken/captioned as "टेंसरब्लू फ़ॉलो करें, सॉफ़्टवेयर आसान भाषा में।" (TTS spelling "टेन्सर ब्लू"). Details: `16-production-30s-hindi03-01.md`.
 
+- **2026-11-04 Hindi batch 04:** keep the satisfied design exactly; the renderer is the original Node + `@napi-rs/canvas` code (`brt.mjs` + per-episode `scene.mjs`) — **not Three.js**; the *style* is the Blue Receipt Theatre recipe. Re-fetch tensorblue.com colours each round (unchanged on 2026-11-04). Hindi wording rule: prefer native "चाबी" over the loanword "की" (espeak-hi makes "की" = postposition /ki/). Listening is not supported in the build container: record ASR-only verification. Details: `17-production-30s-hindi04-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

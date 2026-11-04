@@ -1,0 +1,153 @@
+{
+ "sfx": [
+  {
+   "t": 1.621,
+   "type": "strike"
+  },
+  {
+   "t": 1.971,
+   "type": "blip"
+  },
+  {
+   "t": 2.798,
+   "type": "type"
+  },
+  {
+   "t": 3.091,
+   "type": "wipe"
+  },
+  {
+   "t": 6.882,
+   "type": "wipe"
+  },
+  {
+   "t": 11,
+   "type": "wipe"
+  },
+  {
+   "t": 16.725,
+   "type": "wipe"
+  },
+  {
+   "t": 21.808,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 5.252,
+   "type": "clack"
+  },
+  {
+   "t": 5.854,
+   "type": "match"
+  },
+  {
+   "t": 7.182,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 8.967,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 9.96,
+   "type": "blip"
+  },
+  {
+   "t": 12.823,
+   "type": "paper"
+  },
+  {
+   "t": 14.604,
+   "type": "carve"
+  },
+  {
+   "t": 15.656,
+   "type": "slot"
+  },
+  {
+   "t": 18.5,
+   "type": "clack"
+  },
+  {
+   "t": 19.548,
+   "type": "slide"
+  },
+  {
+   "t": 21.261,
+   "type": "match"
+  },
+  {
+   "t": 21.561,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 22.108,
+   "type": "blip"
+  },
+  {
+   "t": 24.62,
+   "type": "strike"
+  },
+  {
+   "t": 25.419,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.05,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.891,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "type1": 1.721,
+  "kaise": 2.878,
+  "banaate": 4.064,
+  "do2": 5.352,
+  "chaabiyan": 5.904,
+  "private3": 7.282,
+  "public3": 9.067,
+  "website3": 9.96,
+  "chunauti": 12.973,
+  "bhejti": 13.453,
+  "roz": 14.654,
+  "unlock": 15.806,
+  "private6": 17.434,
+  "sign": 18.6,
+  "website6": 19.648,
+  "public6": 20.314,
+  "jaanchti": 21.361,
+  "finger": 22.208,
+  "chehra": 23.238,
+  "nahin7": 24.72,
+  "tb": 26.15,
+  "follow": 26.941,
+  "aasaan": 28.608,
+  "chime": 25.419,
+  "scenes": [
+   0,
+   3.341,
+   7.132000000000001,
+   11.25,
+   16.974999999999998,
+   22.058,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}
