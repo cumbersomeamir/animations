@@ -1,0 +1,182 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "hi-IN",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached) — native Hindi voices, espeak-ng 'hi' phonemes",
+  "blend": [
+   [
+    "hf_alpha",
+    0.7
+   ],
+   [
+    "hm_omega",
+    0.3
+   ]
+  ],
+  "speed": 1.08,
+  "lang": "hi"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.2,
+   "say": "प्ले प्रोटेक्ट बंद करके भूल गये?",
+   "cues": [
+    [
+     "प्ले प्रोटेक्ट",
+     "बंद करके भूल गए?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 2.81,
+   "say": "दो नवंबर के गूगल प्ले स्टोर अपडेट के बाद,",
+   "cues": [
+    [
+     "2 नवंबर के गूगल",
+     "प्ले स्टोर अपडेट के बाद,"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.27,
+   "say": "यह कुछ समय बंद रहा, तो ऐंड्रॉइड फ़ोन पर याद दिलाया जाएगा।",
+   "cues": [
+    [
+     "यह कुछ समय बंद रहा, तो",
+     "एंड्रॉयड फ़ोन पर याद दिलाया जाएगा।"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 10.88,
+   "say": "प्ले प्रोटेक्ट ऐप को इंस्टॉल पर जाँचता है, और फ़ोन को समय-समय पर स्कैन करता है।",
+   "cues": [
+    [
+     "प्ले प्रोटेक्ट ऐप को",
+     "इंस्टॉल पर जाँचता है,"
+    ],
+    [
+     "और फ़ोन को समय-समय पर",
+     "स्कैन करता है।"
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 16.73,
+   "say": "ख़तरनाक ऐप मिले, तो चेतावनी देता है, और उसे बंद या हटा भी सकता है।",
+   "cues": [
+    [
+     "ख़तरनाक ऐप मिले,",
+     "तो चेतावनी देता है,"
+    ],
+    [
+     "और उसे बंद या",
+     "हटा भी सकता है।"
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 22.21,
+   "say": "चालू रखें: प्ले स्टोर, प्रोफ़ाइल, प्ले प्रोटेक्ट, सेटिंग्स।",
+   "cues": [
+    [
+     "चालू रखें: प्ले स्टोर,",
+     "प्रोफ़ाइल, प्ले प्रोटेक्ट, सेटिंग्स।"
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.05,
+   "say": "टेक्नोलॉजी समझनी हो, तो मीडिआ डाइट फ़ॉलो करें।",
+   "cues": [
+    [
+     "टेक्नोलॉजी समझनी हो, तो",
+     "मीडिया डाइट फ़ॉलो करें।"
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.72,
+   "name": "big paper phone on the desk: the physical Play Protect switch slides OFF, shield greys; '?' tag pops"
+  },
+  {
+   "id": "S2",
+   "in": 2.72,
+   "out": 6.18,
+   "name": "calendar flips 31 अक्टूबर → 1 → 2 नवंबर; pan to the phone: update ring fills around 53.9, check"
+  },
+  {
+   "id": "S3",
+   "in": 6.18,
+   "out": 10.79,
+   "name": "clock hands race while the switch stays off; a reminder card (bell + shield-off) drops onto the screen and wiggles"
+  },
+  {
+   "id": "S4",
+   "in": 10.79,
+   "out": 16.64,
+   "name": "new apps ride a conveyor through a shield gate (scan curtain) into the grid; camera rises; radar sweeps the grid twice"
+  },
+  {
+   "id": "S5",
+   "in": 16.64,
+   "out": 22.12,
+   "name": "one app turns magenta (bug), warning tag pops, app greys/locks, then lifts into the paper bin"
+  },
+  {
+   "id": "S6",
+   "in": 22.12,
+   "out": 25.96,
+   "name": "settings sheet slides up: store → profile → shield → gear light in order; the switch slides back ON"
+  },
+  {
+   "id": "S7",
+   "in": 25.96,
+   "out": 30.0,
+   "name": "hero pull-back over the desk + Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "toggleOff": 0.95,
+  "query": 1.55,
+  "queryOff": 2.5,
+  "calFlip": 3.0,
+  "update": 4.25,
+  "updateEnd": 5.6,
+  "updateOk": 5.7,
+  "clockSpin": 6.4,
+  "clockSpinEnd": 8.3,
+  "notify": 8.75,
+  "belt": 11.0,
+  "radar": 13.9,
+  "radarEnd": 16.4,
+  "bad": 16.95,
+  "warn": 18.35,
+  "disable": 19.95,
+  "remove": 20.85,
+  "removeEnd": 21.65,
+  "sheet": 22.25,
+  "steps": [
+   22.95,
+   23.55,
+   24.2,
+   24.95
+  ],
+  "toggleOn": 25.35,
+  "sign": 26.1
+ }
+}

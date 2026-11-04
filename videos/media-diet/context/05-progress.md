@@ -71,3 +71,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (hin); decode clean; −15.0 LUFS /
   −2.0 dBTP; Devanagari captions y 362–494, 0 violations; Whisper-medium (hi) CER 0.055, all lines in window.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-04 — hindi-04 (in progress)
+- Start state: clean at 3b1093c (= remote), no active jobs. Topic (official, dated 2026-11-02): Google Play Store v53.9 reminds you
+  if Play Protect stays off; Play Help gives what it does + the path to keep it on. Not covered before; other candidates and why
+  they were not chosen are in production/30s/2026-11-04-hindi-04/SOURCES.md.
+- Voice: Kokoro Hindi hf_alpha 0.7 + hm_omega 0.3, speed 1.08; ASR-driven spoken spellings (ऐंड्रॉइड, मीडिआ, गये). 74 words, 27.0 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/17, log row.
+- Running: `node build/render.mjs film frames 0 449` + `… 450 899` (started 07:46); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
