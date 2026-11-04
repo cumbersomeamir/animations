@@ -1,0 +1,23 @@
+word (script) | narration-pass ASR start | export ASR nearest | event | event time
+छह | 2.42 (चे) | 2.40 (चे) | P1 six dots start rising | 2.37
+लिपि | 3.86 (लिपि) | 3.84 (लिपी) | 1824 / age-15 stamp | 3.76
+उनके | 5.20 (उनकी) | 5.20 (उनकी) | page turn -> 1829 raised-letter book | 5.20
+उभरे | 6.36 (उभरे) | 6.40 (अभ्रे) | "उभरे अक्षर" label | 6.21
+छूकर | 7.22 (चूकर) | 7.22 (चूकर) | fingertip starts tracing | 6.77
+मुश्किल | 8.44 (मуш्किल) | 8.44 (मुष्किल) | "पढ़ना मुश्किल" stamp | 8.39
+बार्बिए | 9.76 (बार्भिये) | 9.76 (बार) | slide swap -> Barbier grid | 9.70
+बारह | 11.10 (बारहा) | 11.10 (बारहा) | 12 positions fill | 11.00
+आधा | 13.18 (आदा) | 13.18 (आदा) | lower half drops away | 13.03
+बिंदुओं | 13.88 (बिन्दों) | 13.88 (बिन्दों) | page turn -> six positions | 14.50
+जगह | 15.18 (जगासे) | 15.18 (जगासे) | numbers 1-6 appear | 14.88
+अक्षर | 15.84 (अख्षर) | 15.84 (अक्षर) | stylus press, dot 1 rises | 15.79
+बदलता | 16.30 (बडलता) | 16.30 (बडलता) | dot 2 rises | 16.25
+ऊपर | 16.98 (उपर) | 17.00 (उपर) | HARD CUT -> 1829 table, b dots rise; loupe lands on sign 2 | 16.90
+बी | 18.64 (बी) | 18.62 (भी) | "बी (b)" label | 18.52
+अगल | 18.82 (अगल) | 18.82 (अगल) | loupe moves to sign 3; c dots | 18.67
+सी | 19.54 (सी) | 19.54 (सी) | "सी (c)" label | 19.42
+सीख | 19.88 (सीख) | 19.88 (सीख) | slide swap -> takeaway | 20.50
+चीज़ें | 20.92 (चीजे) | 20.92 (चीजे) | fingertip lands on cell | 20.72
+नाप | 23.32 (नाप) | 23.32 (नाप) | measure bracket + check | 23.07
+आरंभ | 24.60 (आरंभ) | 24.54 (आरंभ) | CTA card (slide in 25.00-25.50) | 25.50
+note: sentence-initial ASR stamps run early on S4/S5/S6 (13.88/19.88/24.54-24.60); placed starts are S4 14.50, S5 20.50, S6 25.50 (audio/script.json).

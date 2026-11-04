@@ -38,3 +38,8 @@
 - `videos/aarambh/production/30s/2026-11-03-hindi-03/aarambh-30s-hindi03-01.mp4` (sha256 `86011cfc47afec81facec81b1fc356d19535a70ad9089dea0780b4cb74c1a383`): Katherine Johnson and the hand-check of John Glenn's orbital numbers. All narration and captions are Hindi; the voice is Kokoro Hindi `hf_alpha`; real NASA photos are credited.
 - **Read first next time:** 11 (incl. the CTA correction and the Hindi-language note) and 16.
 - **Open:** a native-speaker listen before posting (only ASR-verified here).
+
+## 2026-11-04: hindi-04 #01 (Hindi)
+- `videos/aarambh/production/30s/2026-11-04-hindi-04/aarambh-30s-hindi04-01.mp4` (sha256 `3319c7ebf55a0d391e5fcd0852dd5c43d287267a804f67bff7854fd3d32d8feb`): Louis Braille, six raised dots, and the rule that position distinguishes symbols. Hindi narration and captions; Kokoro Hindi `hf_alpha`; public-domain Thiriat portrait; real 1829 book scans.
+- **Read first next time:** 11 (incl. the CTA correction, the Hindi-language note and the 2026-11-04 Hindi skill adjustments) and 17.
+- **Open:** a native-speaker listen before posting (only ASR-verified here).

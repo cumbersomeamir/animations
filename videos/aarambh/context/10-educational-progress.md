@@ -122,3 +122,13 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Verification:** Hindi ASR recognises every sentence in order, with spelling-level mis-hearings. There was no human listening.
 - **Final fixes:** two credit overlaps (P4 leader line, P6 check badge) were found on the contact sheets, fixed, and the video re-rendered.
 - No automation; no other episode started.
+
+## 2026-11-04: hindi-04 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-04-hindi-04/aarambh-30s-hindi04-01.mp4`, sha256 `3319c7ebf55a0d391e5fcd0852dd5c43d287267a804f67bff7854fd3d32d8feb`. Louis Braille and why six raised dots read by touch (Hindi). 30.000 s, 900 frames, −15.0 LUFS, −3.8 dBTP, full decode OK.
+- **Verified facts:** AFB (What Is Braille? and the Louis Braille Online Museum), RNIB, and Braille's own 1829 *Procédé* (Internet Archive scan, "No Copyright").
+- **Portrait:** Thiriat engraving, 1887, public domain (Wikimedia Commons).
+- **Principle taught:** dot position in the six-dot cell distinguishes symbols (b = 1-2, c = 1-4; 1829 definitions).
+- **Creative:** 7 pages; the magnifier lands on the real 1829 sign table; a slate-and-stylus cross-section shows how a dot is raised.
+- **Voice:** Kokoro `hf_alpha` (Hindi), speed 1.02. New Hindi TTS rules are in `11`. **Record:** `context/17`.
+- **Verification:** Hindi ASR recognises all sentences in order; there was no human listening. Six layout defects were fixed (one full re-render).
+- No automation; no other episode started; earlier outputs untouched.

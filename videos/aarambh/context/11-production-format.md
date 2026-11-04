@@ -185,3 +185,15 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - Everything else in this file (renderer recipe, pacing, transitions, magnifier once, safe areas, CTA meaning) is unchanged.
 
 - 05 (2026-11-03, hindi-03): Katherine Johnson and the hand-check behind John Glenn's orbital flight (Hindi). Record: `16-production-30s-hindi03-01.md`
+
+## Hindi skill adjustments, 2026-11-04 (from hindi-04; add to the Hindi-language note)
+- **TTS text vs caption text:** the caption keeps standard spelling; the TTS text may use the spoken form. Before synthesis, check espeak-ng phonemes for every number, name and key word.
+  - "छह" → TTS "छे" (cʰeː; espeak reads छह as cʰʌh, which ASR hears as "च्या").
+  - Split hyphenated compounds with a space in the TTS text (ऊपर नीचे, अगल बगल); espeak drops the schwa across a hyphen.
+  - Prefer words without ढ़/ड़ when an equal word exists (पढ़ना → पहचानना); espeak renders them as r.h.
+- **Pacing:** about 60 Hindi words at speed 1.02 with about 0.5 s gaps gives ~26 s of speech, leaving the CTA sentence (~4.2 s) to start at ~25.5 s.
+- **Real primary documents** (scans of a person's own book or patent) make strong archival pages and magnifier targets. Crop the relevant table or figure, and credit it on the print.
+- **Wikimedia Commons access when its API returns 429:** read licence metadata through `en.wikipedia.org/w/api.php` (`prop=imageinfo&iiprop=extmetadata`, retry with backoff). Download a standard-width rendition (`…/thumb/…/1280px-<file>`), which is served from cache when the original URL is rate-limited.
+- **Glyphs:** "→" is not in the Devanagari or Latin subsets used here, so write "से" instead. Curly quotes ‘ ’ render.
+
+- 06 (2026-11-04, hindi-04): Louis Braille and the six-dot cell, position distinguishes symbols (Hindi). Record: `17-production-30s-hindi04-01.md`
