@@ -1,0 +1,2 @@
+{ "name": "help-30s-hindi04", "private": true, "description": "Hindi Devanagari font (OFL) for captions/labels", "license": "UNLICENSED",
+  "dependencies": { "@fontsource/noto-sans-devanagari": "5.2.8" } }

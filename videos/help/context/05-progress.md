@@ -17,3 +17,4 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - State found: no prior 30 s or 15 s render existed on this branch; nothing to checkpoint.
 - Pilot 01 brief/storyboard: 09-educational-pilot-01.md. Detailed progress, provenance, commands and QA state: 10-educational-progress.md.
 - Output: videos/help/education/pilot-01/help-education-pilot-01.mp4 (15 s portrait).
+- 2026-11-04 hindi-04: videos/help/production/30s/2026-11-04-hindi-04/help-30s-hindi04-01.mp4 (30 s, Hindi) — record 17-production-30s-hindi04-01.md; progress in 10.

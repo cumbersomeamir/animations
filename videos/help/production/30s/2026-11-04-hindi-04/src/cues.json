@@ -1,0 +1,77 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "duration": 30.0,
+  "voiceStarts": [
+    0.2,
+    4.3,
+    9.35,
+    14.1,
+    17.3,
+    25.95
+  ],
+  "scenes": {
+    "A_hook_fee_waived_empty_desk": [
+      0.0,
+      4.1
+    ],
+    "B_fictional_family_far_school": [
+      4.1,
+      9.2
+    ],
+    "C_hidden_costs_budget": [
+      9.2,
+      14.0
+    ],
+    "D_attendance_blocked": [
+      14.0,
+      17.1
+    ],
+    "E_ask_school_or_family": [
+      17.1,
+      23.0
+    ],
+    "G_fund_the_confirmed_need": [
+      23.0,
+      25.8
+    ],
+    "F_cta": [
+      25.8,
+      30.0
+    ]
+  },
+  "cues": {
+    "receipt": 0.1,
+    "stamp": 1.0,
+    "desk": 2.0,
+    "deskQ": 2.6,
+    "label": 4.35,
+    "home": 4.7,
+    "school": 5.3,
+    "road": 6.0,
+    "far": 7.6,
+    "envelope": 9.4,
+    "envOpen": 9.8,
+    "bus": 10.2,
+    "uniform": 11.2,
+    "coinsBus": 12.0,
+    "coinsUni": 12.6,
+    "broke": 13.3,
+    "gate": 14.4,
+    "bagStays": 15.2,
+    "deskQ2": 15.9,
+    "helper": 17.2,
+    "ask": 17.8,
+    "askSchool": 18.6,
+    "board": 19.6,
+    "point": 21.2,
+    "confirm": 22.3,
+    "pass": 23.2,
+    "gateUp": 23.9,
+    "bagGo": 24.2,
+    "bagDesk": 25.1,
+    "tick": 25.3,
+    "logo": 26.2,
+    "dimEnd": 29.2
+  }
+}

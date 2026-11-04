@@ -139,3 +139,16 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
   replace words the ASR mishears (e.g. ढोना→"धोना", बाँटना, जाँचें) with clearer equivalents.
 - Hindi pacing: the native voice is slower, so a 30 s Hindi episode carries ~55–60 words (≈25 s of speech); narrow the script,
   never speed it up. CTA in Hindi: "हेल्प ऐप डाउनलोड करें, ज़रूरी सामान दान करें।"
+
+## Update 2026-11-04 — hindi-04 (skill adjustments learned this episode)
+- Children: never draw or "film" a child. Represent a child's schooling with objects only (empty desk, school bag reaching
+  the desk); adults/households are the recurring same-size puppets (keep helper and family at the SAME scale in every scene).
+- A fictional family example must be labelled on screen ("काल्पनिक उदाहरण") and spoken as fictional; fictional names only.
+- Captions: `tools_captions.py` now asserts every spoken word is in exactly one caption card (a Hindi word-count slip had
+  dropped "है/हैं" from three cards before the assert was added).
+- Indian government hosts (mospi.gov.in, indiacode.nic.in, education.gov.in) often refuse automated fetches; record them as
+  unverified pointers and rely on verifiable primary research / official reproductions — never quote unverified figures.
+- `piece()` multiplies its fill: a coloured meter fill drawn on a dark trough reads black. Draw meter troughs as light hide
+  (e.g. `#D9C9A8`) so green → amber → empty stays legible.
+- Scene entry: a scene's anchor props (house, figure) must slide in with the scene, not pop at a later cue, or the A→B hand-off
+  leaves an empty stage. Pace: 67 Hindi words fit 30 s when sentences 1–5 run with ~0.35 s pauses and the CTA keeps ~3.7 s.
