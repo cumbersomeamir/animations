@@ -1,0 +1,23 @@
+Bounds measured from rendered ink pixels (Devanagari vowel signs included).
+caption runs: 597; outside x 90-990 / y 340-520: 0; ink x 175-903, y 361-501
+max caption lines on screen at once: 2
+line 1 ink y 361-424; line 2 ink y 437-501 (no overlap: True)
+caption blocks overlapping in time: []
+any text ink above y 300: 0
+plate/other runs: 3430; above y 480: 0; off-frame: 0; right of x 950: 0; lowest plate text y 1540
+
+Narration vs caption line sync (Hindi ASR word start on the final MP4 vs caption line appearance):
+  पनीर       spoken   0.86s  caption   0.30s  offset -0.56s
+  कितना      spoken   1.50s  caption   1.57s  offset +0.07s
+  एक         spoken   3.20s  caption   3.20s  offset +0.00s
+  26         spoken   4.76s  caption   4.77s  offset +0.01s
+  सारह       spoken   6.38s  caption   6.47s  offset +0.09s
+  325        spoken   8.12s  caption   8.27s  offset +0.15s
+  इसकी       spoken  10.28s  caption  10.20s  offset -0.08s
+  फैट        spoken  11.72s  caption  11.70s  offset -0.02s
+  हर         spoken  13.42s  caption  13.40s  offset -0.02s
+  इसलिए      spoken  16.22s  caption  16.57s  offset +0.35s
+  पैक        spoken  19.92s  caption  20.50s  offset +0.58s
+  और         spoken  23.10s  caption  23.30s  offset +0.20s
+  कैल        spoken  26.10s  caption  26.07s  offset -0.03s
+  और         spoken  28.08s  caption  28.13s  offset +0.05s

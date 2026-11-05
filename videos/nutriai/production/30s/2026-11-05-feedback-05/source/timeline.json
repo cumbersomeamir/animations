@@ -1,0 +1,38 @@
+{
+ "_doc": "CalMeter Hindi 30 s feedback-05 (2026-11-05): 'सौ ग्राम पनीर में कितना प्रोटीन है?' (plain paneer; reference food Matvaretabellen 01.301 'Cheese, paneer', values from UK CoFID). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single Hindi ASR timing pass (qa/asr-takes.txt).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.30}, {"id": "T1", "at": 3.20}, {"id": "T2", "at": 10.20}, {"id": "T3", "at": 13.40}, {"id": "T4", "at": 20.50}, {"id": "T5", "at": 26.05}],
+ "captions": [
+  {"in": 6, "out": 84, "lines": [["100 ग्राम पनीर में", 9], ["कितना प्रोटीन?", 47]]},
+  {"in": 92, "out": 138, "lines": [["एक मानक तालिका में:", 96]]},
+  {"in": 142, "out": 294, "lines": [["26 ग्राम प्रोटीन", 143], [" · 24.5 ग्राम फ़ैट", 194, 0], ["325 कैलोरी", 248]]},
+  {"in": 302, "out": 392, "lines": [["दो-तिहाई कैलोरी", 306], ["फ़ैट से आती है", 351]]},
+  {"in": 398, "out": 590, "lines": [["1 ग्राम फ़ैट ≈ 9 कैलोरी,", 402], ["कम फ़ैट = कम कैलोरी", 497]]},
+  {"in": 606, "out": 748, "lines": [["पैक का प्रति 100 ग्राम लेबल पढ़ें,", 615], ["अपना हिस्सा तौलें", 699]]},
+  {"in": 776, "out": 899, "lines": [["CalMeter के साथ अपने खाने", 782], ["और पोषण को ट्रैक करें", 844]]}
+ ],
+ "events": {
+  "outline": 0, "washWhole": 4, "title": 14, "knife": 22, "slice": 34, "split": 40, "burnish": 54, "section": 56, "washSection": 66,
+  "protein": 143, "proteinNote": 150, "legend": 160, "fat": 196, "fatNote": 212, "kcal": 248, "notesOut": 292, "roundelsOut": 290,
+  "bar": 300, "barFat": 317, "fatLabel": 351, "protLabel": 365, "glow": 351, "barOut": 392,
+  "gram": 418, "moveGram": 486, "compare": 494, "lowFat": 524, "compareOut": 596,
+  "label": 604, "labelLine": 642, "balance": 668, "halfDrop": 696, "weight": 712, "portion": 724, "takeOut": 758,
+  "cta": 770, "ctaWord": 782
+ },
+ "sfx": [
+  {"ev": "outline", "type": "pencil", "dur": 1.0, "gain": -26},
+  {"ev": "slice", "type": "slice", "gain": -13},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "section", "type": "pencil", "dur": 1.2, "gain": -27},
+  {"ev": "protein", "type": "tick", "gain": -24},
+  {"ev": "fat", "type": "tick", "gain": -24},
+  {"ev": "kcal", "type": "tick", "gain": -24},
+  {"ev": "roundelsOut", "type": "page", "gain": -21},
+  {"ev": "barOut", "type": "page", "gain": -22},
+  {"ev": "compareOut", "type": "page", "gain": -21},
+  {"ev": "halfDrop", "type": "thud", "gain": -19},
+  {"ev": "weight", "type": "clink", "gain": -24},
+  {"ev": "takeOut", "type": "page", "gain": -21},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

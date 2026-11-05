@@ -64,3 +64,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 10, from `production/30s/2026-11-04-hindi-04/source/`, output `../nutriai-30s-hindi04-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number (ASR-only, no listening); CTA freeze fixed. See `production/30s/2026-11-04-hindi-04/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 12. Batch 2026-11-05-feedback-05, plain paneer (CalMeter; Hindi narration and captions)
+- Pre-check: repo/branch confirmed, origin at a728357, no active job; paneer not covered before.
+- Facts: reference food Matvaretabellen "Cheese, paneer" 01.301 (values from UK CoFID via FDNC 2021): 325 kcal, 26 g protein, 24.5 g fat per 100 g, 67 % of energy from fat; FAO FNP 77 Atwater factors (fat 9, protein 4 kcal/g). USDA FNDDS paneer (FDC 2705740) checked and not used (recipe-derived, implausible 22.5 g carbohydrate). Details: `context/18-production-30s-feedback05-paneer.md`.
+- Decisions: performance snapshot treated as a controlled topic/opening test (knife cuts the block within ~1.3 s); approved style, renderer, Hindi voice (Kokoro hf_beta; the Meshline blend is English-only), mix, captions and CTA unchanged; no invented brand values (qualitative comparison; read your pack's per-100 g label).
+- Commands: as in section 10, from `production/30s/2026-11-05-feedback-05/source/`, output `../nutriai-30s-feedback05-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number (ASR-only, no listening); one note moved inside x 950. See `production/30s/2026-11-05-feedback-05/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

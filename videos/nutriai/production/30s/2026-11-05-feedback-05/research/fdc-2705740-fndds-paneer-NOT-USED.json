@@ -1,0 +1,57 @@
+{
+ "fdcId": 2705740,
+ "foodCode": "14110050",
+ "description": "Cheese, paneer",
+ "dataType": "Survey (FNDDS)",
+ "publicationDate": "10/31/2024",
+ "source": "FoodData_Central_survey_food_json_2024-10-31.zip (official USDA FNDDS bulk download, sha256 dfb06ae7...f3eb)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 15.9,
+   "unit": "g"
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 15.5,
+   "unit": "g"
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 22.5,
+   "unit": "g"
+  },
+  {
+   "name": "Energy",
+   "amount": 299,
+   "unit": "kcal"
+  },
+  {
+   "name": "Water",
+   "amount": 41.5,
+   "unit": "g"
+  },
+  {
+   "name": "Calcium, Ca",
+   "amount": 597,
+   "unit": "mg"
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 9.02,
+   "unit": "g"
+  }
+ ],
+ "inputFoods": [
+  {
+   "ingredient": "Milk, whole, 3.25% milkfat, with added vitamin D",
+   "weight_g": 97
+  },
+  {
+   "ingredient": "Vinegar, distilled",
+   "weight_g": 3
+  }
+ ],
+ "note": "Recipe-derived (whole milk + vinegar). Not used on screen: the 22.5 g carbohydrate is implausible for drained paneer; kept here as the evidence for that decision."
+}
