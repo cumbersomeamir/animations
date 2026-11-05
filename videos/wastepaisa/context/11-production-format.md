@@ -70,6 +70,17 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   - **Publishing caption:** must match the final transcript, use only the WastePaisa identity, and carry no editing notes.
   - **Reference implementation:** `production/30s/2026-11-05-feedback-05/src/scene.html` (paper/cardboard props, moisture-meter and
     grade-tag mechanisms, sorted-vs-unsorted net margin).
+- English episodes after the Hindi rounds (english-06, 2026-11-06):
+  - **Language and voice:** English narration and captions only, using the Meshline voice (af_bella 0.7 + am_puck 0.3, en-us, speed
+    0.98) synthesised fresh. Never reuse Hindi audio or text.
+  - **Captions:** the accepted English line spacing (70 px; ink ≈ y 366–494). Keep the English CTA card "Put your scrap to use" and the
+    spoken CTA "Join WastePaisa and put your scrap to use."
+  - **Numbers:** write them as words in the TTS text, with digits and ₹ in captions. Spoken English numbers are slow, so budget about
+    60–65 words. When time is short, drop the silent recap rather than a mechanism step.
+  - **Hazardous processes** (carbonisation, kilns): show the equipment and the principle only, never a how-to. Record the
+    pollution-board categorisation in notes.
+  - **Reference implementation:** `production/30s/2026-11-06-english-06/src/scene.html` (coconut/charcoal props, drum kiln with
+    closing air holes, crusher, starch, press, net bar with an input-price warning).
 
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),

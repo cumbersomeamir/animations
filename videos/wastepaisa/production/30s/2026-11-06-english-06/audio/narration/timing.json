@@ -1,0 +1,61 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.887,
+  "words": 63,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Coconut shells into charcoal briquettes: where's the money?",
+      "start": 0.25,
+      "phonemes": "kˈoʊkənˌʌt ʃˈɛlz ˌɪntʊ tʃˈɑːɹkoʊl bɹɪkˈɛts: wˌɛɹz ðə mˈʌni?",
+      "duration": 3.264,
+      "end": 3.514
+    },
+    {
+      "id": "L2",
+      "text": "Collect discarded shells and dry them; wet loads waste fuel.",
+      "start": 3.83,
+      "phonemes": "kəlˈɛkt dɪskˈɑːɹdᵻd ʃˈɛlz ænd dɹˈaɪ ðˌɛm; wˈɛt lˈoʊdz wˈeɪst fjˈuːəl.",
+      "duration": 3.744,
+      "end": 7.574
+    },
+    {
+      "id": "L3",
+      "text": "A drum kiln chars them with little air, then crush, bind with starch and press.",
+      "tts": "A drum kiln chars them with little air, then crush, bind with starch, and press.",
+      "start": 7.89,
+      "phonemes": "ɐ dɹˈʌm kˈɪln tʃˈɑːɹz ðˌɛm wɪð lˈɪɾəl ˈɛɹ, ðˈɛn kɹˈʌʃ, bˈaɪnd wɪð stˈɑːɹtʃ, ænd pɹˈɛs.",
+      "duration": 5.075,
+      "end": 12.965
+    },
+    {
+      "id": "L4",
+      "text": "Say one batch makes 350 kilos: ₹10,500 in sales.",
+      "tts": "Say one batch makes three hundred fifty kilos: ten thousand five hundred rupees in sales.",
+      "start": 13.28,
+      "phonemes": "sˈeɪ wˈʌn bˈætʃ mˌeɪks θɹˈiː hˈʌndɹɪd fˈɪfti kˈiːloʊz: tˈɛn θˈaʊzənd fˈaɪv hˈʌndɹɪd ɹˈuːpiːz ɪn sˈeɪlz.",
+      "duration": 5.76,
+      "end": 19.04
+    },
+    {
+      "id": "L5",
+      "text": "Shells, labour, energy, transport and equipment leave about ₹1,500, if shells come cheap.",
+      "tts": "Shells, labour, energy, transport, and equipment leave about fifteen hundred rupees, if shells come cheap.",
+      "start": 19.36,
+      "phonemes": "ʃˈɛlz, lˈeɪbɚ, ˈɛnɚdʒi, tɹˈænspɔːɹt, ænd ɪkwˈɪpmənt lˈiːv ɐbˌaʊt fˈɪftiːn hˈʌndɹɪd ɹˈuːpiːz, ɪf ʃˈɛlz kˈʌm tʃˈiːp.",
+      "duration": 6.559,
+      "end": 25.919
+    },
+    {
+      "id": "L6",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.3,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.785
+    }
+  ]
+}

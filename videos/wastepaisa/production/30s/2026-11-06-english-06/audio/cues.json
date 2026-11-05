@@ -1,0 +1,177 @@
+{
+ "sfx_cues": [
+  [
+   0.3,
+   "X-ray turns the shell to charcoal"
+  ],
+  [
+   0.75,
+   "SHELLS chip"
+  ],
+  [
+   1.6,
+   "arrow to briquettes"
+  ],
+  [
+   2.7,
+   "WHERE'S THE MONEY chip"
+  ],
+  [
+   3.85,
+   "sack appears"
+  ],
+  [
+   4.45,
+   "shell into sack"
+  ],
+  [
+   4.61,
+   "shell into sack"
+  ],
+  [
+   4.77,
+   "shell into sack"
+  ],
+  [
+   4.93,
+   "shell into sack"
+  ],
+  [
+   5.62,
+   "shells land on drying mat"
+  ],
+  [
+   5.8,
+   "shells land on drying mat"
+  ],
+  [
+   6.1,
+   "wet-load inset"
+  ],
+  [
+   6.2,
+   "fire under a wet load"
+  ],
+  [
+   6.75,
+   "WET = MORE FUEL"
+  ],
+  [
+   8.0,
+   "DRUM KILN"
+  ],
+  [
+   8.3,
+   "X-ray into the drum"
+  ],
+  [
+   9.3,
+   "air holes row 1 closed"
+  ],
+  [
+   9.55,
+   "air holes row 2 closed"
+  ],
+  [
+   9.8,
+   "air holes row 3 closed"
+  ],
+  [
+   10.2,
+   "charcoal to crusher"
+  ],
+  [
+   10.45,
+   "crusher"
+  ],
+  [
+   11.3,
+   "starch poured"
+  ],
+  [
+   12.42,
+   "press stroke"
+  ],
+  [
+   12.85,
+   "briquettes out"
+  ],
+  [
+   13.32,
+   "EXAMPLE tag"
+  ],
+  [
+   13.8,
+   "10,000 shells"
+  ],
+  [
+   14.5,
+   "sacks"
+  ],
+  [
+   14.86,
+   "sacks"
+  ],
+  [
+   15.22,
+   "sacks"
+  ],
+  [
+   15.45,
+   "350 kg"
+  ],
+  [
+   15.9,
+   "buyer ticket"
+  ],
+  [
+   16.4,
+   "sales ticket"
+  ],
+  [
+   19.22,
+   "sales bar rises"
+  ],
+  [
+   19.87,
+   "labour"
+  ],
+  [
+   20.56,
+   "energy"
+  ],
+  [
+   21.25,
+   "transport"
+  ],
+  [
+   22.06,
+   "equipment"
+  ],
+  [
+   22.85,
+   "LEFT 1,500"
+  ],
+  [
+   24.66,
+   "market-price warning"
+  ],
+  [
+   26.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.97",
+  "input_tp": "-3.10",
+  "input_lra": "3.80",
+  "input_thresh": "-28.63",
+  "output_i": "-15.37",
+  "output_tp": "-1.50",
+  "output_lra": "3.10",
+  "output_thresh": "-25.93",
+  "normalization_type": "dynamic",
+  "target_offset": "0.37"
+ }
+}

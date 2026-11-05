@@ -1,0 +1,35 @@
+[
+ {
+  "id": "L1",
+  "text": "Coconut shells into charcoal briquettes: where's the money?",
+  "start": 0.25
+ },
+ {
+  "id": "L2",
+  "text": "Collect discarded shells and dry them; wet loads waste fuel.",
+  "start": 3.83
+ },
+ {
+  "id": "L3",
+  "text": "A drum kiln chars them with little air, then crush, bind with starch and press.",
+  "tts": "A drum kiln chars them with little air, then crush, bind with starch, and press.",
+  "start": 7.89
+ },
+ {
+  "id": "L4",
+  "text": "Say one batch makes 350 kilos: ₹10,500 in sales.",
+  "tts": "Say one batch makes three hundred fifty kilos: ten thousand five hundred rupees in sales.",
+  "start": 13.28
+ },
+ {
+  "id": "L5",
+  "text": "Shells, labour, energy, transport and equipment leave about ₹1,500, if shells come cheap.",
+  "tts": "Shells, labour, energy, transport, and equipment leave about fifteen hundred rupees, if shells come cheap.",
+  "start": 19.36
+ },
+ {
+  "id": "L6",
+  "text": "Join WastePaisa and put your scrap to use.",
+  "start": 26.3
+ }
+]

@@ -1,0 +1,20 @@
+English intelligibility and timing evidence: wastepaisa-30s-english06-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.22 | offset plan 3.51 heard 3.52 | heard: coconut shells into charcoal briquettes where's the money
+   L2 word acc 1.00 | onset plan 3.83 heard 3.83 | offset plan 7.57 heard 7.58 | heard: collect discarded shells and dry them wet loads waste fuel
+   L3 word acc 0.87 | onset plan 7.89 heard 7.92 | offset plan 12.96 heard 12.93 | heard: a drum kiln charge them with little air than crush bind with starch and press
+   L4 word acc 1.00 | onset plan 13.28 heard 13.28 | offset plan 19.04 heard 19.04 | heard: say one batch makes three hundred fifty kilos ten thousand five hundred rupees in sales
+   L5 word acc 0.93 | onset plan 19.36 heard 19.36 | offset plan 25.92 heard 25.93 | heard: shell's labor energy transport and equipment leave about fifteen hundred rupees if shells come cheap
+   L6 word acc 0.89 | onset plan 26.30 heard 26.30 | offset plan 28.79 heard 28.79 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.948 (normalisation: lowercase, punctuation removed, labour=labor (US spelling), WastePaisa compared as 'waste paisa')
+   Misses are homophones (chars->'charge', then->'than', shells->"shell's") and the brand, which is outside the ASR vocabulary
+   ('waste python'); Kokoro's phonemes for the brand are /wˈeɪst pˈaɪsɑː/ (as in every English episode).
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Coconut shells into charcoal briquettes. Where's the money? Collect discarded shells and dry them. Wet loads waste fuel. A drum kiln chars them with little air. Then crush, bind with starch and press. Say one batch makes 350 kilos. 10,500 rupees in sales. Shells, labor, energy, transport and equipment leave about 1,500 rupees. If shells come cheap. Join Waste Pisa and put your scrap to use. You
+   Matches the final script word for word, including the numbers; brand written 'Waste Pisa'; the trailing 'You' is a known Whisper
+   hallucination on the silent tail after the CTA.
+
+3) Draft-stage ASR: 'thirty rupees a kilo' was heard as 'aquila', so L4 states the sales total instead ('ten thousand five hundred rupees in sales').

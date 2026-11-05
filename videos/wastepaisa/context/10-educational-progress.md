@@ -188,6 +188,29 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - SFX under L2's last word were lowered.
 - **Exact commands:** see the output folder `README.md`.
 
+## english-06 (2026-11-06-english-06) episode 01: COMPLETE (English)
+- **Topic:** discarded coconut shells into charcoal briquettes: collect, dry, drum kiln, crush/starch/press, buyer, net margin. Fresh topic,
+  history checked. Style: accepted Scrap Shop X-ray, unchanged.
+- **Language override:** English narration and captions. Meshline voice (Kokoro af_bella 0.7 + am_puck 0.3, en-us, 0.98), fresh takes,
+  no Hindi reuse. Captions use the accepted English 70 px line spacing.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-06-english-06/wastepaisa-30s-english06-01.mp4`,
+  SHA-256 `e908962990b43c91a26982dc6577f186def28cd465f851c6d258c4a3ca9c8e25`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.4 dBTP.
+- **Checks:**
+  - Caption ink y 366–494, x 146–934.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.948 (homophones and brand OOV); Whisper matches the script. ASR-only: no listening in the cloud.
+- **Research:**
+  - Process: Coconut Development Board shell-charcoal note (limited air, drum kiln, briquettes, 35 kg per 1,000 shells, 50 kg sacks,
+    ₹10 lakh plant); FAO moisture guidance.
+  - Prices: IndiaMART briquette asking ₹30/kg; Deccan Herald Aug 2026 Kerala shells up to ₹38/kg.
+  - Illustrative batch: 10,000 shells → 350 kg → ₹10,500 → ≈₹1,500 left, "if shells come cheap" (break-even ≈₹2.8/kg).
+  - Episode record: `context/19-english-06-01.md`. No automation.
+- **Note:** no silent recap; English number phrases needed the time. The net result and spoken takeaway hold until the CTA.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

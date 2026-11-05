@@ -1,0 +1,87 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor (US spelling), WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Coconut shells into charcoal briquettes: where's the money?",
+   "heard": "coconut shells into charcoal briquettes where's the money",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 3.514,
+   "heard_off": 3.52,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Collect discarded shells and dry them; wet loads waste fuel.",
+   "heard": "collect discarded shells and dry them wet loads waste fuel",
+   "word_acc": 1.0,
+   "plan_on": 3.83,
+   "heard_on": 3.83,
+   "plan_off": 7.574,
+   "heard_off": 7.58,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "A drum kiln chars them with little air, then crush, bind with starch, and press.",
+   "heard": "a drum kiln charge them with little air than crush bind with starch and press",
+   "word_acc": 0.867,
+   "plan_on": 7.89,
+   "heard_on": 7.92,
+   "plan_off": 12.965,
+   "heard_off": 12.93,
+   "missed": [
+    [
+     "chars"
+    ],
+    [
+     "then"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Say one batch makes three hundred fifty kilos: ten thousand five hundred rupees in sales.",
+   "heard": "say one batch makes three hundred fifty kilos ten thousand five hundred rupees in sales",
+   "word_acc": 1.0,
+   "plan_on": 13.28,
+   "heard_on": 13.28,
+   "plan_off": 19.04,
+   "heard_off": 19.04,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Shells, labour, energy, transport, and equipment leave about fifteen hundred rupees, if shells come cheap.",
+   "heard": "shell's labor energy transport and equipment leave about fifteen hundred rupees if shells come cheap",
+   "word_acc": 0.933,
+   "plan_on": 19.36,
+   "heard_on": 19.36,
+   "plan_off": 25.919,
+   "heard_off": 25.93,
+   "missed": [
+    [
+     "shells"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.3,
+   "heard_on": 26.3,
+   "plan_off": 28.785,
+   "heard_off": 28.79,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}
