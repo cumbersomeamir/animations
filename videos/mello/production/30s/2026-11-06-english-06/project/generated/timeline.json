@@ -1,0 +1,119 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "You hit send to the whole team... then you spot the mistake.",
+      "start": 0.3,
+      "end": 3.304,
+      "pauses": [
+        [
+          1.75,
+          2.085
+        ],
+        [
+          3.145,
+          3.22
+        ]
+      ]
+    },
+    {
+      "id": "fear",
+      "text": "Owning it feels like proof that you're careless.",
+      "start": 4.0,
+      "end": 6.081,
+      "pauses": [
+        [
+          4.844,
+          4.961
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "But in studies, people judged someone else admitting a mistake more kindly than themselves.",
+      "start": 6.75,
+      "end": 11.895,
+      "pauses": [
+        [
+          7.565,
+          7.927
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "Researchers call it the beautiful mess effect.",
+      "start": 12.6,
+      "end": 14.867,
+      "pauses": [
+        [
+          14.691,
+          14.811
+        ]
+      ]
+    },
+    {
+      "id": "own",
+      "text": "So own it in one plain line, and send the fix.",
+      "start": 15.5,
+      "end": 18.249,
+      "pauses": [
+        [
+          17.099,
+          17.353
+        ],
+        [
+          17.98,
+          18.071
+        ]
+      ]
+    },
+    {
+      "id": "ask",
+      "text": "Still feels huge? Ask:",
+      "start": 18.75,
+      "end": 20.317,
+      "pauses": [
+        [
+          19.673,
+          19.905
+        ]
+      ]
+    },
+    {
+      "id": "question",
+      "text": "If a colleague owned this mistake, what would I think of them?",
+      "start": 20.8,
+      "end": 23.889,
+      "pauses": [
+        [
+          22.53,
+          22.868
+        ],
+        [
+          23.275,
+          23.346
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}
