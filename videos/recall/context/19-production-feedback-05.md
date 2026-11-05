@@ -79,3 +79,27 @@ The CTA is the same as in 16–18. "with AI" is the user's wording, not confirme
   - Mix −14.58 LUFS, −1.6 dBTP, voice +15.9…+17.7 dB.
   - Pre-render caption sync fixed one late caption (boundary moved to 7.95 s).
   - Full render started.
+- 2026-11-05: full render run 1 (`WORKERS=3 ./build.sh`, 9 m 49 s): all 25 checks + narration sync + caption sync pass;
+  contact/boundary sheets reviewed; no re-render needed. Committed, pushed and attached. No further episode; no automation.
+
+## QA summary (verification results; details in the output folder's qa/QA.md)
+- Final MP4 sha256 `db4bbc78bcfe680f90b30fe308501c80010e0623e923e45518668aa301cf22e9` (8,330,597 bytes).
+- H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; video/audio/container 30.000000 s; full decode clean.
+- Hindi ASR on the final mix (Whisper medium, `hi`): CER 0.076; narration within 0.1 ms of plan; 10 spoken caption groups
+  appear 0.03–0.13 s before their first word and stay past their last.
+- −14.6 LUFS, −1.5 dBTP, 0 clipped samples; voice +15.9…+17.7 dB over bed; hook drone drops ~15 dB at ANC-on.
+- Captions all Devanagari, ink x 164–907, y 342–484, ≤ 2 lines; font coverage true; labels/bubble central; no overlaps.
+- Limits: ASR-only Hindi check (no native listener; I cannot listen); waves illustrative (one sourced reason isolated);
+  "with AI" is the user's wording.
+
+## Publishing caption
+`production/30s/2026-11-05-feedback-05/publishing-caption.txt` is generated from `script.json`: the exact final spoken
+transcript (l01–l05) + one illustration note + 2 sources + hashtags. App identity: Recall (रिकॉल); no other app names;
+no editing instructions.
+
+## Exact commands
+`cd videos/recall/production/30s/2026-11-05-feedback-05 && WORKERS=3 ./build.sh` (mix → 900 frames → mux → qa/qa.py →
+qa/narration_sync.py → qa/caption_sync.py).
+
+## Next
+Only on user request.
