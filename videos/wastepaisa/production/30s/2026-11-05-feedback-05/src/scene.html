@@ -1,0 +1,320 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa feedback-05 episode 01 "गत्ता अलग, मुनाफ़ा अलग" (grade clean corrugated cardboard apart from mixed/wet paper), Hindi.
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-04-hindi-04/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel, recap and CTA layout). New: cardboard/paper props and scene functions; Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-05-feedback-05';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.85, [0, 1.6, 2.4]], [8.35, [0.25, 1.5, 2.0]], [12.9, [0, 1.85, 3.1]], [17.65, [-0.3, 1.7, 2.6]], [22.95, [0, 2.35, 3.7]], [25.9, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode's scenes
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- paper and cardboard props (solid foreground objects) with X-ray reveal ----------
+const PP = { kraft: '#b98b55', kraftHi: '#d2a66c', kraftDark: '#8a6234', flute: '#9c7340', paper: '#e9e4d8', paperDark: '#b9b3a6', ink: 'rgba(60,60,64,0.55)', wet: '#6f7f8c', wetDark: '#4f5d68', tape: 'rgba(236,222,170,0.95)', film: 'rgba(170,215,235,0.55)' };
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function sheetCard(x, y, w, h, o = {}) { // a flattened corrugated box panel; o.xray shows the fluting between the liners; o.tape draws packing tape
+  g.save(); if (!o.xray && !o.noShadow) { g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16; }
+  rr(x - w / 2, y - h / 2, w, h, 6); g.fillStyle = o.xray ? 'rgba(143,211,224,0.16)' : (o.wet ? PP.wet : PP.kraft); g.fill(); g.shadowColor = 'transparent';
+  if (o.xray) { g.strokeStyle = 'rgba(200,240,250,0.9)'; g.lineWidth = 2; g.stroke(); g.strokeStyle = 'rgba(143,211,224,0.95)'; g.lineWidth = 3; g.beginPath();
+    for (let xx = x - w / 2 + 4; xx <= x + w / 2 - 4; xx += 3) { const yy = y + Math.sin((xx - x) / 9) * (h * 0.32); xx === x - w / 2 + 4 ? g.moveTo(xx, yy) : g.lineTo(xx, yy); } g.stroke();
+    g.fillStyle = 'rgba(200,240,250,0.9)'; g.fillRect(x - w / 2, y - h / 2 + 2, w, 3); g.fillRect(x - w / 2, y + h / 2 - 5, w, 3); }
+  else { g.fillStyle = o.wet ? PP.wetDark : PP.kraftDark; g.fillRect(x - w / 2, y + h / 2 - 6, w, 6); g.fillStyle = PP.kraftHi; if (!o.wet) g.fillRect(x - w / 2 + 6, y - h / 2 + 5, w - 12, 4);
+    g.strokeStyle = 'rgba(90,60,30,0.35)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x - w * 0.18, y - h / 2 + 8); g.lineTo(x - w * 0.18, y + h / 2 - 8); g.moveTo(x + w * 0.22, y - h / 2 + 8); g.lineTo(x + w * 0.22, y + h / 2 - 8); g.stroke(); }
+  if (o.tape) { g.globalAlpha *= o.tape; g.fillStyle = PP.tape; g.fillRect(x - w / 2 - 4, y - 9, w + 8, 18); g.globalAlpha /= o.tape; }
+  g.restore(); }
+function cardStack(x, y, w, n, a = 1) { if (a <= 0 || n <= 0) return; g.save(); g.globalAlpha *= a; for (let i = 0; i < n; i++) sheetCard(x + ((i * 37) % 9 - 4), y - i * 20, w, 22, { noShadow: i > 0 }); g.restore(); }
+function paperBundle(x, y, s = 1, a = 1, xray = false) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s); if (!xray) { g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 12; }
+  const cols = [PP.paper, '#d9cfa8', '#c9d6dd', PP.paper]; for (let i = 0; i < 4; i++) { g.save(); g.rotate((i - 1.5) * 0.06); rr(-70, -20 - i * 12, 140, 26, 4); g.fillStyle = xray ? 'rgba(143,211,224,0.12)' : cols[i]; g.fill(); if (xray) { g.strokeStyle = 'rgba(200,240,250,0.8)'; g.lineWidth = 2; g.stroke(); } g.restore(); g.shadowColor = 'transparent'; }
+  if (!xray) { g.fillStyle = PP.ink; for (let k = 0; k < 3; k++) g.fillRect(-52, -50 + k * 7, 70 + (k % 2) * 20, 3); }
+  g.restore(); }
+function wetPaper(x, y, s = 1, a = 1, xray = false, t = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s); if (!xray) { g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 12; }
+  g.beginPath(); g.moveTo(-70, 10); g.quadraticCurveTo(-60, -34, -10, -30); g.quadraticCurveTo(40, -44, 68, -8); g.quadraticCurveTo(80, 18, 40, 24); g.lineTo(-56, 26); g.closePath(); g.fillStyle = xray ? 'rgba(143,211,224,0.14)' : PP.wet; g.fill(); g.shadowColor = 'transparent';
+  if (xray) { g.strokeStyle = 'rgba(200,240,250,0.85)'; g.lineWidth = 2; g.stroke(); g.fillStyle = 'rgba(90,170,255,0.85)'; for (const [dx, dy] of [[-30, -6], [0, 4], [28, -10], [-8, -18], [44, 6]]) { g.beginPath(); g.arc(dx, dy, 7, 0, 7); g.fill(); } }
+  else { g.fillStyle = PP.wetDark; g.beginPath(); g.ellipse(-6, 6, 40, 12, 0, 0, 7); g.fill(); }
+  for (let i = 0; i < 2; i++) { const k = ((t * 1.3 + i * 0.5) % 1); g.globalAlpha *= 1 - k; g.beginPath(); g.ellipse(-30 + i * 50, 30 + k * 40, 5, 8, 0, 0, 7); g.fillStyle = 'rgba(120,190,240,0.9)'; g.fill(); g.globalAlpha /= Math.max(0.001, 1 - k); }
+  g.restore(); }
+function filmBits(x, y, s = 1, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s); g.fillStyle = PP.film; g.strokeStyle = 'rgba(220,240,250,0.9)'; g.lineWidth = 2;
+  g.beginPath(); g.moveTo(-50, -10); g.quadraticCurveTo(-10, -40, 40, -20); g.quadraticCurveTo(60, 10, 20, 22); g.quadraticCurveTo(-30, 30, -50, -10); g.closePath(); g.fill(); g.stroke(); g.restore(); }
+function tapeStrip(x, y, rot, s = 1, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.scale(s, s); g.fillStyle = PP.tape; g.beginPath(); g.moveTo(-60, -9); g.lineTo(60, -9); g.lineTo(54, 0); g.lineTo(60, 9); g.lineTo(-60, 9); g.closePath(); g.fill(); g.restore(); }
+function bin(x, y, w, a = 1) { g.save(); g.globalAlpha *= a; g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; g.beginPath(); g.moveTo(x - w / 2, y - 60); g.lineTo(x + w / 2, y - 60); g.lineTo(x + w / 2 - 20, y + 50); g.lineTo(x - w / 2 + 20, y + 50); g.closePath();
+  g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = '#59616b'; g.fillRect(x - w / 2, y - 66, w, 12); g.restore(); }
+function bale(x, y, w, h, o = {}) { // strapped bale of flattened cardboard; o.wet adds a dark wet patch, o.dirt adds plastic and tape flecks
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x - w / 2, y - h, w, h, 8); g.fillStyle = PP.kraft; g.fill(); g.shadowColor = 'transparent';
+  g.strokeStyle = 'rgba(90,60,30,0.45)'; g.lineWidth = 2; for (let i = 1; i < 9; i++) { g.beginPath(); g.moveTo(x - w / 2 + 6, y - h + i * h / 9); g.lineTo(x + w / 2 - 6, y - h + i * h / 9 + ((i % 2) ? 2 : -2)); g.stroke(); }
+  if (o.wet) { g.globalAlpha *= o.wet; g.fillStyle = 'rgba(80,120,150,0.55)'; g.beginPath(); const cx = x - w * 0.08, cy = y - h * 0.5; for (let i = 0; i <= 12; i++) { const an = i / 12 * 6.283, r = (i % 2 ? 0.8 : 1) * w * 0.3; const px = cx + Math.cos(an) * r, py = cy + Math.sin(an) * r * 0.9; i ? g.lineTo(px, py) : g.moveTo(px, py); } g.closePath(); g.fill();
+    for (const dx of [-0.2, 0.05]) { rr(cx + dx * w, cy + w * 0.2, 10, h * 0.28, 5); g.fill(); } g.globalAlpha /= o.wet; }
+  if (o.dirt) { g.globalAlpha *= o.dirt; for (const [dx, dy, r] of [[-0.3, 0.3, 0.2], [0.15, 0.55, -0.3], [0.3, 0.25, 0.5]]) { g.save(); g.translate(x + dx * w, y - dy * h); g.rotate(r); g.fillStyle = PP.film; rr(-26, -10, 52, 20, 6); g.fill(); g.restore(); }
+    tapeStrip(x - w * 0.05, y - h * 0.75, 0.15, 0.8); g.globalAlpha /= o.dirt; }
+  g.fillStyle = '#3a4048'; g.fillRect(x - w * 0.3, y - h - 2, 12, h + 4); g.fillRect(x + w * 0.3 - 12, y - h - 2, 12, h + 4); g.restore(); }
+function scaleBase(x, y, w) { g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(x - w / 2, y, w, 34, 8); g.fillStyle = '#59616b'; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = '#7d8790'; g.fillRect(x - w / 2, y, w, 8); g.restore(); }
+function probe(x, y, needle) { // moisture meter with probe; needle 0..1 (green -> red)
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(x - 70, y - 60, 140, 110, 14); g.fillStyle = '#2a2f35'; g.fill(); g.shadowColor = 'transparent';
+  g.lineWidth = 12; for (const [a0, a1, c] of [[Math.PI, Math.PI * 1.45, '#3fa34d'], [Math.PI * 1.45, Math.PI * 1.7, '#e0b030'], [Math.PI * 1.7, Math.PI * 2, '#d0402a']]) { g.strokeStyle = c; g.beginPath(); g.arc(x, y + 10, 46, a0, a1); g.stroke(); }
+  const an = Math.PI + Math.PI * needle; g.strokeStyle = C.cream; g.lineWidth = 5; g.beginPath(); g.moveTo(x, y + 10); g.lineTo(x + Math.cos(an) * 40, y + 10 + Math.sin(an) * 40); g.stroke();
+  g.strokeStyle = '#9aa2aa'; g.lineWidth = 6; g.beginPath(); g.moveTo(x, y + 50); g.lineTo(x, y + 140); g.stroke(); g.restore(); }
+function gradeTag(x, y, text, warmT, a = 1, flip = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(1, Math.abs(Math.cos(flip * Math.PI)) || 0.02); g.font = '800 40px "Baloo 2"'; const w = g.measureText(text).width + 50;
+  g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 12; g.beginPath(); g.moveTo(-w / 2 + 22, -34); g.lineTo(w / 2, -34); g.lineTo(w / 2, 34); g.lineTo(-w / 2 + 22, 34); g.lineTo(-w / 2, 0); g.closePath(); g.fillStyle = warmT ? C.warm : C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.beginPath(); g.arc(-w / 2 + 22, 0, 6, 0, 7); g.fillStyle = '#07090b'; g.fill(); textC(text, 12, 3, 40, C.ink, 800); g.restore(); }
+function ticket(x, y, rot, title, value, a) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-150, -96, 300, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 40, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.strokeStyle = 'rgba(254,247,238,0.6)'; g.lineWidth = 3; g.beginPath(); g.moveTo(0, -150); g.lineTo(0, -70); g.stroke();
+  g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -70, 240, 140, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -26, 38, C.ink, 800); textC(line2, 0, 32, 58, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+function heap(x, y, s, t, o = {}) { // mixed lot: corrugated panels, newspaper bundle, wet paper and plastic film
+  g.save(); g.translate(x, y); g.scale(s, s);
+  if (!o.noCards) { sheetCard(-60, -30, 220, 24, { tape: o.tape ?? 1 }); sheetCard(30, -62, 200, 24, {}); sheetCard(-20, -94, 180, 24, { tape: o.tape ?? 1 }); }
+  if (!o.noPaper) paperBundle(110, -10, 0.9); if (!o.noWet) wetPaper(-130, -8, 0.9, 1, false, t); if (!o.noFilm) filmBits(90, -120, 0.9);
+  g.restore(); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.85: a mixed paper lot and two buyer prices; X-ray shows flutes vs water; profit sits in the buyer's grade
+  g.save(); g.globalAlpha = a;
+  mascot(230, 1450, 1.1, { armL: [-0.35, 110], armR: [1.15, 70], look: [0.8, -0.2], lid: -0.5, blink: (t > 3.4 && t < 3.5) ? 1 : 0 });
+  const hx = 680, hy = 1360, hs = 1.5;
+  heap(hx, hy, hs, t);
+  xrayClip(hx - 320, hy - 260, hx + 320, hy + 60, easeOut(prog(t, 0.35, 1.3)), () => { g.save(); g.translate(hx, hy); g.scale(hs, hs);
+    sheetCard(-60, -30, 220, 24, { xray: true }); sheetCard(30, -62, 200, 24, { xray: true }); sheetCard(-20, -94, 180, 24, { xray: true }); paperBundle(110, -10, 0.9, 1, true); wetPaper(-130, -8, 0.9, 1, true, t); g.restore(); });
+  priceTag(560, 900, 'साफ़ गत्ता', '₹ ?', 1, Math.sin(t * 2) * 0.03);
+  priceTag(830, 900, 'मिला-गीला', '₹ ?', 1, Math.sin(t * 2 + 1) * 0.03);
+  label('मुनाफ़ा?', 700, 660, prog(t, 1.4, 1.65) * (1 - prog(t, 3.0, 3.2)), { size: 46, warm: true });
+  if (t > 3.15) { const k = back(prog(t, 3.15, 3.5)); g.save(); g.translate(700, 660); g.scale(k, k); rr(-200, -46, 400, 92, 46); g.fillStyle = C.warm; g.fill(); textC('खरीदार का ग्रेड', 0, 4, 50, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sSort(t, a) { // 3.85 - 8.35: grading demo: dry corrugated / mixed paper / out (tape, plastic, wet)
+  g.save(); g.globalAlpha = a;
+  const k = easeOut(prog(t, 3.85, 4.3)), hx = 540, hy = lerp(1500, 990, k);
+  const cardK = [prog(t, 4.34, 4.8), prog(t, 4.6, 5.06), prog(t, 4.86, 5.3)], paperK = prog(t, 5.4, 5.85), tapeK = prog(t, 6.05, 6.5), filmK = prog(t, 6.47, 6.9), wetK = prog(t, 7.13, 7.6);
+  const binY = 1330, X = [240, 540, 840];
+  X.forEach((x) => bin(x, binY, 250, prog(t, 3.9, 4.2)));
+  // what is left on the heap
+  g.save(); g.translate(hx, hy); g.scale(1.1, 1.1);
+  [[-60, -30, 220], [30, -62, 200], [-20, -94, 180]].forEach(([dx, dy, w], i) => { if (cardK[i] <= 0) sheetCard(dx, dy, w, 24, { tape: 1 }); });
+  if (paperK <= 0) paperBundle(110, -10, 0.9); if (wetK <= 0) wetPaper(-130, -8, 0.9, 1, false, t); if (filmK <= 0) filmBits(90, -120, 0.9);
+  g.restore();
+  // flights to the bins
+  [[-60, -30, 220], [30, -62, 200], [-20, -94, 180]].forEach(([dx, dy, w], i) => { const kk = cardK[i]; if (kk <= 0) return; const [fx, fy] = fly(hx + dx * 1.1, hy + dy * 1.1, X[0], binY - 70 - i * 20, easeOut(kk), 140);
+    sheetCard(fx, fy, w * 0.9, 22, { tape: kk < 1 ? 1 - prog(t, 6.05, 6.3) : 0 }); });
+  if (paperK > 0) { const [fx, fy] = fly(hx + 121, hy - 11, X[1], binY - 80, easeOut(paperK), 140); paperBundle(fx, fy, 0.9); }
+  if (tapeK > 0) { const [fx, fy] = fly(X[0], binY - 110, X[2] - 40, binY - 80, easeOut(tapeK), 180); tapeStrip(fx, fy, -0.3 + tapeK, 1.0); }
+  if (filmK > 0) { const [fx, fy] = fly(hx + 99, hy - 132, X[2] + 20, binY - 90, easeOut(filmK), 120); filmBits(fx, fy, 0.8); }
+  if (wetK > 0) { const [fx, fy] = fly(hx - 143, hy - 9, X[2] - 10, binY - 70, easeOut(wetK), 120); wetPaper(fx, fy, 0.8, 1, false, t); }
+  label('सूखा गत्ता', X[0], 1170, prog(t, 4.4, 4.65), { size: 42, warm: t > 4.3 && t < 5.4 });
+  label('मिला कागज़', X[1], 1170, prog(t, 5.45, 5.7), { size: 42 });
+  const outName = t < 6.47 ? 'टेप' : t < 7.13 ? 'प्लास्टिक' : t < 7.82 ? 'गीला कागज़' : 'बाहर';
+  label(outName, X[2], 1170, prog(t, 6.05, 6.3), { size: 42, warm: true });
+  g.restore();
+}
+function sBuyer(t, a) { // 8.35 - 12.9: how a buyer grades: too much moisture -> weight claimed back; contamination -> lower grade
+  g.save(); g.globalAlpha = a;
+  const Lx = 300, Rx = 790, base = 1330;
+  scaleBase(Lx, base - 24, 320); bale(Lx, base - 24, 260, 300, { wet: 1 });
+  const pin = easeOut(prog(t, 9.0, 9.45)); probe(Lx + 30, lerp(700, 860, pin), clamp(prog(t, 9.45, 10.0) * 0.85));
+  if (t > 9.6) { for (let i = 0; i < 5; i++) { const k = ((t - 9.6) * 0.9 + i * 0.2) % 1; g.save(); g.globalAlpha *= (1 - k) * prog(t, 9.6, 9.9); g.beginPath(); g.ellipse(Lx - 80 + i * 40, base - 200 - k * 160, 6, 9, 0, 0, 7); g.fillStyle = 'rgba(120,190,240,0.95)'; g.fill(); g.restore(); } }
+  label('नमी ज़्यादा', Lx, 640, prog(t, 9.1, 9.35), { size: 42, warm: t > 9.0 && t < 9.95 });
+  if (t > 9.95) stamp(Lx, 1430, 'वज़न कटौती', prog(t, 9.95, 10.25), -0.05, 42);
+  bale(Rx, base - 24, 260, 300, { dirt: prog(t, 10.9, 11.2) > 0 ? 1 : 0.6 });
+  if (t > 11.05 && t < 11.75) { g.save(); g.strokeStyle = C.warm; g.lineWidth = 5; for (const [dx, dy] of [[-0.3, 0.3], [0.15, 0.55], [0.3, 0.25], [-0.05, 0.75]]) { g.beginPath(); g.arc(Rx + dx * 260, base - 24 - dy * 300, 34, 0, 7); g.stroke(); } g.restore(); }
+  label('मिलावट', Rx, 640, prog(t, 11.08, 11.33), { size: 42, warm: t > 11.0 && t < 11.75 });
+  const fl = prog(t, 11.75, 12.15); gradeTag(Rx, 900, fl < 0.5 ? 'गत्ता ग्रेड' : 'हल्का ग्रेड', fl >= 0.5, prog(t, 8.6, 8.9), fl);
+  g.restore();
+}
+function sBatch(t, a) { // 12.9 - 17.65: illustrative batch: 300 kg bought for 1,800; sorted into grades; sales 3,000
+  g.save(); g.globalAlpha = a;
+  const tagK = back(prog(t, 13.05, 13.4)); if (tagK > 0) { g.save(); g.translate(540, 625); g.scale(tagK, tagK); rr(-130, -40, 260, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('उदाहरण', 0, 4, 46, C.warm, 800); g.restore(); }
+  ticket(290, 820, -0.04, 'खरीद', '₹1,800', back(prog(t, 14.5, 14.8)));
+  const split = easeOut(prog(t, 15.85, 16.35)), y = 1290;
+  if (split < 1) { g.save(); g.globalAlpha *= 1 - split; heap(540, y, 1.05, t); g.restore(); label('300 किलो', 540, 1420, prog(t, 13.72, 13.97) * (1 - split), { size: 44, warm: t < 14.5 }); }
+  if (split > 0) { const P = [[240, (x, yy) => cardStack(x, yy, 200, 6)], [540, (x, yy) => paperBundle(x, yy, 1.0)], [840, (x, yy) => { wetPaper(x - 30, yy, 0.7, 1, false, t); filmBits(x + 40, yy - 30, 0.6); }]];
+    P.forEach(([x, draw]) => { g.save(); g.globalAlpha *= split; draw(lerp(540, x, split), y); g.restore(); });
+    label('210 किलो गत्ता', 240, 1420, prog(t, 16.0, 16.25), { size: 40 }); label('60 किलो मिला', 540, 1420, prog(t, 16.1, 16.35), { size: 40 }); label('30 किलो बाहर', 840, 1420, prog(t, 16.2, 16.45), { size: 40 });
+    label('₹12/किलो', 240, 1130, prog(t, 16.2, 16.45), { size: 42, warm: true }); label('₹8/किलो', 540, 1130, prog(t, 16.3, 16.55), { size: 42 }); label('₹0', 840, 1130, prog(t, 16.4, 16.65), { size: 42 }); }
+  ticket(790, 820, 0.04, 'बिक्री', '₹3,000', back(prog(t, 16.6, 16.9)));
+  g.restore();
+}
+function sNet(t, a) { // 17.65 - 22.95: to-scale bar: sales 3,000 - purchase 1,800 - transport 600 - labour 400 = net 200; unsorted = loss (cues at L5 word onsets)
+  g.save(); g.globalAlpha = a;
+  const x0 = 340, w = 170, top = 790, H = 600, px = H / 3000, yP = top + 1800 * px, yT = yP + 600 * px, yL = yT + 400 * px, bottom = top + H;
+  label('उदाहरण · भाव बदलते रहते हैं', 540, 625, prog(t, 17.75, 18.0), { size: 40 });
+  const rise = easeOut(prog(t, 17.65, 17.95));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bottom - H * rise, w, H * rise, 12); g.fillStyle = C.cream; g.fill(); g.restore();
+  const seg = (y0, y1, col, k) => { if (k <= 0) return; g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = col; g.fillRect(x0, y0, w, (y1 - y0) * k); g.restore(); };
+  seg(top, yP, '#59616b', easeOut(prog(t, 17.95, 18.3)));
+  seg(yP, yT, '#a85a1c', prog(t, 18.26, 18.5));
+  seg(yT, yL, '#7a5129', prog(t, 18.89, 19.15));
+  const pk = prog(t, 19.91, 20.2); seg(yL, bottom, C.warm, pk);
+  label('बिक्री ₹3,000', 205, top - 6, prog(t, 17.7, 17.95), { size: 40, warm: t < 17.84, to: [x0 + 6, top + 14] });
+  label('खरीद −₹1,800', 770, 960, prog(t, 17.95, 18.2), { size: 40, warm: t > 17.84 && t < 18.26, to: [x0 + w - 6, (top + yP) / 2] });
+  label('ढुलाई −₹600', 770, 1150, prog(t, 18.26, 18.5), { size: 40, warm: t > 18.26 && t < 18.89, to: [x0 + w - 6, (yP + yT) / 2] });
+  label('मज़दूरी −₹400', 770, 1250, prog(t, 18.89, 19.12), { size: 40, warm: t > 18.89 && t < 19.9, to: [x0 + w - 6, (yT + yL) / 2] });
+  if (pk > 0) { const k = back(prog(t, 19.95, 20.3)); g.save(); g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(x0 + w, (yL + bottom) / 2); g.lineTo(560, 1372); g.stroke(); g.translate(770, 1372); g.scale(k, k);
+    rr(-215, -42, 430, 84, 42); g.fillStyle = C.warm; g.fill(); textC('शुद्ध मुनाफ़ा ₹200', 0, 4, 46, '#1d130e', 800); g.restore(); }
+  if (t > 21.35) { const k = back(prog(t, 21.35, 21.7)); g.save(); g.translate(745, 722); g.scale(k, k); g.font = '800 40px "Baloo 2"'; const s = 'बिना अलग किए: घाटा −₹240', ww = g.measureText(s).width + 40;
+    rr(-ww / 2, -34, ww, 68, 34); g.fillStyle = 'rgba(18,22,26,0.94)'; g.fill(); g.strokeStyle = t > 22.1 ? C.warm : 'rgba(254,247,238,0.5)'; g.lineWidth = 4; g.stroke(); textC(s, 0, 3, 40, t > 22.1 ? C.warm : C.cream, 800); g.restore(); }
+  mascot(180, 1462, 0.6, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, stern: t > 21.7 ? 1 : 0, hop: t > 19.95 && t < 20.45 ? Math.sin((t - 19.95) * 6.28) * 8 : 0 });
+  g.restore();
+}
+function iconBox() { sheetCard(0, 6, 90, 22, { noShadow: true }); sheetCard(-4, -16, 90, 22, { noShadow: true }); }
+function iconWet() { wetPaper(0, 4, 0.55, 1, false, 0); g.strokeStyle = C.warm; g.lineWidth = 6; g.beginPath(); g.moveTo(-34, -30); g.lineTo(34, 34); g.moveTo(34, -30); g.lineTo(-34, 34); g.stroke(); }
+function iconLedger() { rr(-40, -46, 80, 92, 8); g.fillStyle = C.cream; g.fill(); g.fillStyle = 'rgba(29,19,14,0.55)'; for (let i = 0; i < 3; i++) g.fillRect(-26, -30 + i * 18, 52, 6); textC('₹', 0, 30, 34, C.warm, 800); }
+function sRecap(t, a) { // 22.95 - 25.9: silent recap (accepted pacing): keep dry corrugated apart, keep wet/contaminants out, count net margin
+  g.save(); g.globalAlpha = a;
+  const items = [['गत्ता अलग', 23.1, iconBox], ['गीला बाहर', 23.6, iconWet], ['शुद्ध हिसाब', 24.1, iconLedger]];
+  items.forEach(([s, ts, icon], i) => { const k = back(prog(t, ts, ts + 0.35)); if (k <= 0) return; const y = 760 + i * 200, warm = i === 2; g.save(); g.translate(500, y); g.scale(k, k);
+    rr(-300, -76, 600, 152, 30); g.fillStyle = warm ? 'rgba(244,109,18,0.95)' : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = warm ? C.warm : 'rgba(254,247,238,0.4)'; g.lineWidth = 3; g.stroke();
+    textC(s, 50, 6, 62, warm ? '#1d130e' : C.cream, 800); g.translate(-220, 0); icon(); g.restore(); });
+  mascot(900, 1450, 0.72, { armL: [-0.6, 90], armR: [1.2, 60], look: [-0.6, -0.5], lid: -0.5, blink: (t > 25.2 && t < 25.3) ? 1 : 0 });
+  g.restore();
+}
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+function sCTA(t, a) { // 25.9 - 30: short natural brand/action CTA (accepted layout; Hindi action line)
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 26.0, 26.45));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('अपना कबाड़ काम में लाइए', 540, 1192, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 26) * 5)) * 8 * (t > 26 && t < 27.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.85], [sSort, 3.85, 8.35], [sBuyer, 8.35, 12.9], [sBatch, 12.9, 17.65], [sNet, 17.65, 22.95], [sRecap, 22.95, 25.9], [sCTA, 25.9, 30.1]];
+const XF = 0.3; // short dissolve between scenes (camera travel carries the move)
+
+// ---------- captions (Hindi, Devanagari): upper safe region, ink y ~340-520, x 90-990, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from Hindi ASR word times.
+const GROUPS = {
+  L1: ['कागज़ के कबाड़ में|[मुनाफ़ा कहाँ है?]', ['[खरीदार के ग्रेड में।]', 2.25]],
+  L2: ['[सूखे गत्ते के डिब्बे]|अलग कीजिए;', ['टेप, प्लास्टिक और|[गीला कागज़ बाहर।]', 2.07]],
+  L3: ['खरीदार [गीलेपन का वज़न]|काटता है,', ['और [मिलावट] पर|भाव गिराता है।', 2.37]],
+  L4: ['मान लीजिए [300 किलो]|[₹1,800] में लिया;', ['अलग करके|[बिक्री ₹3,000।]', 2.82]],
+  L5: ['खरीद, ढुलाई और मज़दूरी|घटाकर [शुद्ध मुनाफ़ा ₹200;]', ['बिना अलग किए,|[घाटा।]', 3.54]],
+  L6: ['[वेस्टपैसा] से जुड़िए और|अपना कबाड़ काम में लाइए!'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  g.font = '800 62px "Baloo 2"'; const lines = c.text.split('|'), lh = 84, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(W / 2 - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 25.9 ? 1 : lerp(1, 0.5, prog(t, 25.9, 26.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { f(t, al); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,59 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "hf_beta*0.7 + hm_omega*0.3 (native Hindi voices)",
+  "speed": 1.15,
+  "lang": "hi",
+  "speech_seconds": 24.307,
+  "words": 71,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "कागज़ के कबाड़ में मुनाफ़ा कहाँ है? खरीदार के ग्रेड में।",
+      "start": 0.25,
+      "phonemes": "kˈaːɡəz keː kəbˈaːr. mẽː mʊnˈaːfaː kˈʌhã hɛː? kʰˌəɾidˈaːɾ keː ɡɾˈeːɖ mˈẽː",
+      "duration": 3.429,
+      "end": 3.679
+    },
+    {
+      "id": "L2",
+      "text": "सूखे गत्ते के डिब्बे अलग कीजिए; टेप, प्लास्टिक और गीला कागज़ बाहर।",
+      "start": 3.98,
+      "phonemes": "sˈuːkʰeː ɡˈʌtːeː keː ɖˈɪbbeː ˈʌləɡ kˈiːɟɪˌeː; ʈˈeːp, plˈaːsʈɪk ɔːɾ ɡˈiːlaː kˈaːɡəz bˈaːhəɾ",
+      "duration": 4.223,
+      "end": 8.203
+    },
+    {
+      "id": "L3",
+      "text": "खरीदार गीलेपन का वज़न काटता है, और मिलावट पर भाव गिराता है।",
+      "start": 8.5,
+      "phonemes": "kʰˌəɾidˈaːɾ ɡilˈeːpən kaː ʋˈʌzən kˈaːʈtˌaː hɛː, ɔːɾ mɪlˈaːʋəʈ pˈʌɾ bʰˈaːʋ ɡɪɾˈaːtaː hɛː",
+      "duration": 4.232,
+      "end": 12.732
+    },
+    {
+      "id": "L4",
+      "text": "मान लीजिए तीन सौ किलो अठारह सौ में लिया; अलग करके बिक्री तीन हज़ार।",
+      "start": 13.03,
+      "phonemes": "mˈaːn lˈiːɟɪˌeː tˈiːn sˈɔː kˈɪloː ʌʈʰˈaːɾəh sˈɔː mẽː lˈɪjaː; ˈʌləɡ kˈʌɾkˌeː bˈɪkɾi tˈiːn həzˈaːɾ",
+      "duration": 4.477,
+      "end": 17.507
+    },
+    {
+      "id": "L5",
+      "text": "खरीद, ढुलाई और मज़दूरी घटाकर शुद्ध मुनाफ़ा दो सौ; बिना अलग किए, घाटा।",
+      "start": 17.81,
+      "phonemes": "kʰəɾˈiːd, ɖʰʊlˈaːi ɔːɾ mˌəzdˈuːɾi ɡʰəʈˈaːkəɾ ʃˈʊdʰː mʊnˈaːfaː dˈoː sˈɔː; bˌɪnaː ˈʌləɡ kˈɪeː, ɡʰˈaːʈaː",
+      "duration": 4.772,
+      "end": 22.582
+    },
+    {
+      "id": "L6",
+      "text": "वेस्टपैसा से जुड़िए और अपना कबाड़ काम में लाइए!",
+      "tts": "वेस्ट पैसा से जुड़िए और अपना कबाड़ काम में लाइए!",
+      "start": 26.2,
+      "phonemes": "ʋˈeːsʈ pˈɛːsaː seː ɟˈʊr.ɪˌeː ɔːɾ ˈʌpnˌaː kəbˈaːr. kˈaːm mẽː lˈaːɪˌeː!",
+      "duration": 3.174,
+      "end": 29.374
+    }
+  ]
+}

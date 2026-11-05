@@ -161,6 +161,33 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **One defect fixed after the first export:** SFX masking L3's last word were lowered (remix only).
 - **Exact commands:** see the output folder `README.md`.
 
+## feedback-05 (2026-11-05-feedback-05) episode 01: COMPLETE (Hindi)
+- **Topic:** separate clean, dry corrugated cardboard from mixed and wet paper before sale (fresh topic, history checked).
+  - Style: accepted Scrap Shop X-ray (hindi-04 renderer), unchanged.
+  - Controlled opening test: buyer/margin question with the subject and two "₹ ?" buyer tags on screen from frame 0. The performance
+    snapshot is treated as non-causal.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-05-feedback-05/wastepaisa-30s-feedback05-01.mp4`,
+  SHA-256 `6d230558752620ed84a453bc52e2b3fbe477681d47d4ea244965b92e543aaff3`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.1 LUFS / −1.4 dBTP.
+- **Checks:**
+  - Caption ink y 347–513, x 220–860.
+  - Timing within ±0.06 s.
+  - Vosk mean 0.899, confirmed by constrained decoding and Whisper; L2's final "बाहर" is an ASR ambiguity. ASR-only: no listening
+    possible in the cloud.
+- **Research:**
+  - Illustrative batch: 300 kg ₹1,800 → sales ₹3,000 → net ₹200; unsorted −₹240.
+  - Grading rules: ReMA paper-stock guideline (12 % moisture; outthrows/prohibitives); CEPI EN 643 guideline (moisture above 10 % claimed
+    back).
+  - Prices: Indian indicative rates; US Oct 2026 OCC vs mixed-paper prices as context only.
+  - Episode record: `context/18-feedback-05-01.md`. No automation.
+- **Fixed:**
+  - L5's spoken arithmetic omitted the purchase cost; it was rewritten, re-timed and re-rendered once.
+  - SFX under L2's last word were lowered.
+- **Exact commands:** see the output folder `README.md`.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

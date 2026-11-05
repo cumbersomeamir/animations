@@ -59,6 +59,17 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
     asking ranges, and cite them as asking prices.
   - Latest reference implementation: `production/30s/2026-11-04-hindi-04/src/scene.html` (pallet props, three-pile grading,
     dismantle-and-repair, to-scale profit bar, silent recap).
+- Approved improvements from the Instagram App Performance sheet (feedback-05, 2026-11-05). The style is unchanged; these are
+  opening/topic choices.
+  - **Opening:** subject on screen from frame 0, with the hook visible in the first 1–2 s. A buyer/margin question opens the script,
+    then the demonstration.
+  - **Performance snapshots** (e.g. 1,502 observed plays across 16 reels, median 118) are non-causal across unequal post ages. Change one
+    variable per episode and record it in the episode notes.
+  - **Spoken arithmetic:** must be complete on its own. Name every cost the result subtracts (purchase included), not only the
+    on-screen bar.
+  - **Publishing caption:** must match the final transcript, use only the WastePaisa identity, and carry no editing notes.
+  - **Reference implementation:** `production/30s/2026-11-05-feedback-05/src/scene.html` (paper/cardboard props, moisture-meter and
+    grade-tag mechanisms, sorted-vs-unsorted net margin).
 
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),

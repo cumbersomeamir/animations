@@ -1,0 +1,26 @@
+Hindi intelligibility and timing evidence: wastepaisa-30s-feedback05-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines plus constrained decoding.
+
+1) Vosk vosk-model-small-hi-0.22 (Apache-2.0), one free-decoding pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.82 | onset plan 0.25 heard 0.25 | offset plan 3.68 heard 3.64 | heard: कागज की कबाड़ में मुनाफा कहा है खरीदार के ग्रेड में
+   L2 word acc 0.92 | onset plan 3.98 heard 3.83 | offset plan 8.20 heard 8.18 | heard: सूखे गत्ते के डिब्बे अलग कीजिए टेप प्लास्टिक और गीला कागज बा है
+   L3 word acc 1.00 | onset plan 8.50 heard 8.50 | offset plan 12.73 heard 12.73 | heard: खरीदार गीलेपन का वजन काटता है और मिलावट पर भाव गिराता है
+   L4 word acc 0.86 | onset plan 13.03 heard 13.06 | offset plan 17.51 heard 17.50 | heard: मान लीजिए तीन सौ किलो अट्ठारह में लिया अलग करके बिक्री तीन हजार
+   L5 word acc 1.00 | onset plan 17.81 heard 17.84 | offset plan 22.58 heard 22.58 | heard: खरीद ढुलाई और मजदूरी घटाकर शुद्ध मुनाफा दो सौ बिना अलग किए घाटा
+   L6 word acc 0.80 | onset plan 26.20 heard 26.23 | offset plan 29.37 heard 29.31 | heard: वेस्ट पैसा से जुड़ी है और अपना कबाड़ काम में लाई
+   mean word accuracy 0.899 (normalisation: nukta removed, chandrabindu->anusvara, punctuation/hyphens removed, यह=ये, बरतन=बर्तन, एल्यूमिनियम=एल्युमिनियम, छः=छह (spelling variants only))
+   L1 misses are spelling/near variants (की for के, कहा for कहाँ). L2 onset 'heard' 0.15 s early = window start.
+
+2) Constrained decoding (Vosk grammar = intended sentence vs the free-decoding confusion) on the export:
+   L4 -> 'मान लीजिए तीन सौ किलो अठारह सौ में लिया अलग करके बिक्री तीन हज़ार' (0.85-1.0; free decoding dropped सौ after अठारह)
+   L6 -> 'वेस्ट पैसा से जुड़िए और अपना कबाड़ काम में लाइए' (0.95-1.0; free decoding writes the near-homophone 'जुड़ी है' / 'लाई')
+   L2 -> Vosk prefers 'बा है' over 'बाहर' even on the clean take (Kokoro's final r is soft). Whisper hears 'बाहर' (below); the caption and the
+         on-screen bin label 'बाहर' carry the word. Recorded as an ASR ambiguity, not re-timed.
+
+3) Second engine, faster-whisper 'small' multilingual, whole export, language=hi:
+   कागस के कबार में मुनाफा कहा है? कھरीदार के गरेद में सुखे गत्ते के दिभग अलग की जे तेप, प्लास्टिक और गीला कागस बाहर कھरीदार गीलेपन का वजन काटता है और मिलावत पर भाव गीराता है मान लीजिय तीन सो किलो अथार है सो मिल्या अलक कर के भिक्री तीन हजार खरीद दूलाई और मज्दूरी गटाकर शुद मुनाफा दो सो बिना अलक की एग हाटा वेस्त पैसा से जुडिये और अपना कबार काम में लाये
+   Every content word is present in phonetic spelling (गत्ते, गीला कागज़ बाहर, गीलेपन, मिलावट, अठारह सौ, खरीद ढुलाई मज़दूरी, शुद्ध मुनाफ़ा, घाटा).
+   Whisper-small is weak at Hindi orthography, so it corroborates rather than scores.
+
+4) Fixes driven by these checks: (a) L2-end SFX lowered (no change in Vosk; kept quiet anyway); (b) L5 rewritten so the spoken arithmetic includes
+   the purchase cost ('खरीद, ढुलाई और मज़दूरी घटाकर शुद्ध मुनाफ़ा दो सौ'), scene and cues re-timed to its ASR word onsets, re-rendered; L5 now 1.00.
