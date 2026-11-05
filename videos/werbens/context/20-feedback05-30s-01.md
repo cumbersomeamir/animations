@@ -87,4 +87,16 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + a one
 | Rule | 22.3–25.75 s | front | badges + labels on "एक प्रोडक्ट / एक कीमत / एक काम" | tags + 1-2-3 piano |
 | CTA | 25.75–30 s | push to front | ad + thali slide off; app.werbens.com logo tile lands (26.33 s); wordmark on "वर्बेन्स" | slide, tile thud, D-major spread |
 
-## 9. QA (final export) — filled after the render; details in the output folder's `QA.md`
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+900 frames; video/audio/format 30.000000 s; H.264 High yuv420p 30/1 bt709; AAC-LC 48 kHz stereo; full decode 0 errors;
+−14.9 LUFS, TP −4.4 dBTP, flat factor 0; narration L1 0.33–2.95 … L8 26.13–28.72 s (≤ 0.06 s from plan); final-mix Hindi ASR
+58/72 (price recovered exactly as "250"; spelling/tokenisation variants only; ASR-only, no human listening); Devanagari + ₹
+glyphs correct; every-frame DOM: caption ink y 354–502, x 172–908, ≤ 2 lines; labels x 245–984, y 550–1460; nothing in
+y 0–300; 0 overlaps; no page errors. sha256 `394bfb4ddfc4c9389db7755916af3a8003ce62f2b5c2ceb80d71d4d9f4d24132`.
+
+## 10. Progress / provenance log (this round)
+- Commands: app.werbens.com re-check (headless Chromium) → `node src/tts_hi.mjs` (+ `--only L4` price test) →
+  `node src/words_hi.mjs` → `node src/asr_hi.mjs build/narration` → `node src/audio.mjs` → stills (2 passes) →
+  `node src/qa_dom.mjs 6` → `node src/render.mjs --video` → ffmpeg mux → `bash qa.sh` → `node src/qa_dom.mjs 1` →
+  `node src/asr_hi.mjs <mp4>`. Earlier MP4s verified unchanged (hashes in QA).
+- Next step: none for this batch (one episode only; no automation).

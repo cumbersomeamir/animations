@@ -42,5 +42,5 @@
   via Kokoro hf_alpha + eSpeak NG hi; context/18). Colours/logo from app.werbens.com: context/17.
 - Hindi 04 (2026-11-04) delivered `production/30s/2026-11-04-hindi-04/werbens-30s-hindi04-01.mp4` (fair before/after;
   context/19).
-- Feedback-05 (2026-11-05) IN PROGRESS → `production/30s/2026-11-05-feedback-05/werbens-30s-feedback05-01.mp4` (offer clarity;
+- Feedback-05 (2026-11-05) delivered `production/30s/2026-11-05-feedback-05/werbens-30s-feedback05-01.mp4` (offer clarity;
   context/20).
