@@ -1,0 +1,169 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "hi-IN",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached) — native Hindi voices, espeak-ng 'hi' phonemes",
+  "blend": [
+   [
+    "hf_alpha",
+    0.7
+   ],
+   [
+    "hm_omega",
+    0.3
+   ]
+  ],
+  "speed": 1.08,
+  "lang": "hi"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.2,
+   "say": "स्क्रीन शेयर पर कोई आपका पासवर्ड देख ले?",
+   "cues": [
+    [
+     "स्क्रीन शेयर पर कोई",
+     "आपका पासवर्ड देख ले?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.65,
+   "say": "चौदह अक्टूबर से गूगल ने ऐंड्रॉइड पर नया बचाव शुरू किया।",
+   "cues": [
+    [
+     "14 अक्टूबर से गूगल ने",
+     "एंड्रॉयड पर नया बचाव शुरू किया।"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 8.33,
+   "say": "लाइव स्क्रीन शेयर में, क्रोम के लॉगिन और पेमेंट हिस्से अब अपने-आप छिप जाते हैं।",
+   "cues": [
+    [
+     "लाइव स्क्रीन शेयर में, क्रोम के",
+     "लॉगिन और पेमेंट हिस्से"
+    ],
+    [
+     "अब अपने-आप",
+     "छिप जाते हैं।"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 14.01,
+   "say": "सामने वाले को स्क्रीन दिखती है, पर वहाँ खाली पर्दा।",
+   "cues": [
+    [
+     "सामने वाले को स्क्रीन दिखती है,",
+     "पर वहाँ खाली पर्दा।"
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 17.84,
+   "say": "यह ऐंड्रॉइड पंद्रह और ऊपर के फ़ोनों में आ रहा है।",
+   "cues": [
+    [
+     "यह एंड्रॉयड 15 और ऊपर के",
+     "फ़ोनों में आ रहा है।"
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 21.73,
+   "say": "अपना वर्ज़न देखें: सेटिंग्स, अबाउट फ़ोन, ऐंड्रॉइड वर्ज़न।",
+   "cues": [
+    [
+     "अपना वर्ज़न देखें: सेटिंग्स,",
+     "अबाउट फ़ोन, एंड्रॉयड वर्ज़न।"
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.04,
+   "say": "टेक्नोलॉजी समझनी हो, तो मीडिआ डाइट फ़ॉलो करें।",
+   "cues": [
+    [
+     "टेक्नोलॉजी समझनी हो, तो",
+     "मीडिया डाइट फ़ॉलो करें।"
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.56,
+   "name": "hook: phone screen-shares to a paper monitor; password dots appear on both; a paper eyeball stares at the mirrored password"
+  },
+  {
+   "id": "S2",
+   "in": 3.56,
+   "out": 8.24,
+   "name": "calendar flips 12 → 13 → 14 अक्टूबर; pan to the phone: a paper shield drops onto it (new protection)"
+  },
+  {
+   "id": "S3",
+   "in": 8.24,
+   "out": 13.92,
+   "name": "two-shot phone + monitor: typing a password → paper shutter covers the login fields on the viewer's copy; payment page → whole payment area shuttered"
+  },
+  {
+   "id": "S4",
+   "in": 13.92,
+   "out": 17.75,
+   "name": "closer on the monitor: the eyeball searches the blank panels, half-closes; '?' pops"
+  },
+  {
+   "id": "S5",
+   "in": 17.75,
+   "out": 21.64,
+   "name": "version blocks 13–17: 15, 16, 17 rise and get shields; 13, 14 tip back"
+  },
+  {
+   "id": "S6",
+   "in": 21.64,
+   "out": 25.95,
+   "name": "close on the phone: Settings → About phone → Android version 15 ✓ (generic glyph UI)"
+  },
+  {
+   "id": "S7",
+   "in": 25.95,
+   "out": 30.0,
+   "name": "hero pull-back + Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "type1": 0.6,
+  "type1End": 2.4,
+  "calFlip": 4.0,
+  "shield": 6.55,
+  "login2": 8.45,
+  "type2": 9.9,
+  "pay": 10.95,
+  "auto": 12.3,
+  "search": 14.2,
+  "lid": 15.5,
+  "query": 15.9,
+  "blocks": 18.6,
+  "steps": [
+   22.95,
+   23.75,
+   24.6
+  ],
+  "sign": 26.1
+ }
+}

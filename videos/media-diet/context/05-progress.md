@@ -87,3 +87,10 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (hin); decode clean; −14.9 LUFS /
   −2.0 dBTP; captions y 362–494, 0 violations; caption↔speech 9/9; Whisper-medium (hi) per-line CER 0.065.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-05 — feedback-05 (in progress)
+- Start state: clean at f37d7d1 (= remote), no active jobs. Topic: Android automatic screen-share privacy extends to Chrome/WebView
+  (Google, 14 Oct 2026; rolling out in October to Android 15+) — no in-window item had enough official detail; dated explicitly.
+- Voice: approved Hindi Kokoro setup (hf_alpha 0.7 + hm_omega 0.3, 1.08); ASR-fixed wording ("पंद्रह और ऊपर", "छिप जाते हैं"). 27.0 s speech.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, publishing caption, licences, README, context/18, log row.
+- Running: `node build/render.mjs film frames 0 449` + `… 450 899` (started 08:35); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

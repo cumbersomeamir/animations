@@ -1,0 +1,18 @@
+{
+  "name": "media-diet-30s-feedback05-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 30 s Hindi episode (feedback-05): Android screen-share privacy now blanks login and payment fields in Chrome (rollout from 14 Oct 2026) \u2014 Layered Tech Cutaway paper diorama, Hindi narration + Devanagari captions.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7",
+    "@fontsource/noto-sans-devanagari": "5.3.0"
+  }
+}
