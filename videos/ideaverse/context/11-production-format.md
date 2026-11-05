@@ -162,3 +162,13 @@ Use only when a meme episode is requested; the established lesson style above st
   the default. Three.js is only the engine; the style is the recipe in "STYLE CORRECTION" above.
 - Hindi voice unchanged (Kokoro hm_omega 0.7 + hf_alpha 0.3, lang hi); speed 1.1 for this 62-word script.
 - Episode: hindi04-01 care-label symbols (2026-11-04-hindi-04, see context/19).
+
+## Batch 2026-11-05-feedback-05 — approved improvements (style unchanged)
+- Style: accepted DOCKET 15 s-pilot lesson style via the feedback-round renderer (hindi-04 src as base); meme renderer not used.
+  Three.js = engine only. "Meshline/Recall voice character" for this app = the Kokoro 0.7/0.3 blend; for Hindi the
+  established Hindi-capable equivalent is used (hm_omega 0.7 + hf_alpha 0.3, lang hi) — never the English voice for Hindi.
+- Sheet-driven tweaks: immediate visual hook in 0–2 s (moving scene + readable Hindi caption from 0.15 s), one concrete
+  demonstration, short truthful CTA in the last ~4 s ("आइडियावर्स ऐप डाउनलोड कीजिए", "Download the Ideaverse app"), publishing caption matches the final
+  transcript exactly with the Ideaverse identity only.
+- Performance snapshot supplied by the user (71/72 reels with displayed plays; observed plays 302,810,711; likes 1,734,131;
+  median 1.7 M): recorded as context only — unequal post ages, no causal inference; treated as a controlled topic/opening test.
