@@ -1,0 +1,116 @@
+{
+  "cues": {
+    "swing": 0.15,
+    "follow": 2.25,
+    "puzzled": 3.3,
+    "gps": 4.5,
+    "dotPing": 5.6,
+    "sensor": 7.9,
+    "field": 9.35,
+    "weak": 12.0,
+    "magnetIn": 13.0,
+    "magnetSwing": 13.7,
+    "magnetOut": 14.55,
+    "steelIn": 14.75,
+    "bend": 15.7,
+    "swing2": 16.5,
+    "deadpanBlink": 18.05,
+    "away": 18.75,
+    "awayDone": 20.0,
+    "fig8": 21.0,
+    "fig8End": 22.9,
+    "narrow": 22.9,
+    "smile": 23.6,
+    "cta": 26.35,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_cu",
+      "t0": 0.0,
+      "t1": 2.0
+    },
+    {
+      "id": "react",
+      "t0": 2.0,
+      "t1": 4.35
+    },
+    {
+      "id": "giant_gps",
+      "t0": 4.35,
+      "t1": 6.6
+    },
+    {
+      "id": "giant_sensor",
+      "t0": 6.6,
+      "t1": 9.2
+    },
+    {
+      "id": "giant_field",
+      "t0": 9.2,
+      "t1": 11.5
+    },
+    {
+      "id": "giant_magnet",
+      "t0": 11.5,
+      "t1": 14.6
+    },
+    {
+      "id": "giant_steel",
+      "t0": 14.6,
+      "t1": 17.6
+    },
+    {
+      "id": "deadpan",
+      "t0": 17.6,
+      "t1": 18.6
+    },
+    {
+      "id": "giant_away",
+      "t0": 18.6,
+      "t1": 21.0
+    },
+    {
+      "id": "fig8",
+      "t0": 21.0,
+      "t1": 23.2
+    },
+    {
+      "id": "fixed_cu",
+      "t0": 23.2,
+      "t1": 24.7
+    },
+    {
+      "id": "smile",
+      "t0": 24.7,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.45
+    },
+    {
+      "id": "l02",
+      "start": 4.35
+    },
+    {
+      "id": "l03",
+      "start": 11.55
+    },
+    {
+      "id": "l04",
+      "start": 18.65
+    },
+    {
+      "id": "l05",
+      "start": 26.35
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.57,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.45,
+      "end": 3.821,
+      "text": "The dot is right, so why is the arrow wrong next to a speaker?",
+      "words": 14,
+      "words_per_s": 4.15,
+      "voice_over_bed_db": 14.7
+    },
+    {
+      "id": "l02",
+      "start": 4.35,
+      "end": 11.108,
+      "text": "GPS places the dot. The arrow comes from a tiny compass sensor that feels Earth's magnetic field.",
+      "words": 17,
+      "words_per_s": 2.52,
+      "voice_over_bed_db": 16.7
+    },
+    {
+      "id": "l03",
+      "start": 11.55,
+      "end": 17.575,
+      "text": "That field is weak. Up close, a speaker's magnet or a steel desk can bend it, and the arrow swings.",
+      "words": 20,
+      "words_per_s": 3.32,
+      "voice_over_bed_db": 15.1
+    },
+    {
+      "id": "l04",
+      "start": 18.65,
+      "end": 23.155,
+      "text": "Step away from magnets and steel, then calibrate by waving a figure eight.",
+      "words": 13,
+      "words_per_s": 2.89,
+      "voice_over_bed_db": 16.5
+    },
+    {
+      "id": "l05",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 15.5
+    }
+  ],
+  "narration_words": 73,
+  "speech_s": 23.95,
+  "overall_words_per_s": 2.43,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "counter speaker playing (diegetic)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.12,
+      "beat": 0.24,
+      "sfx": "phone dips toward the speaker"
+    },
+    {
+      "t": 0.4,
+      "beat": 0.8,
+      "sfx": "map arrow swings away"
+    },
+    {
+      "t": 2.25,
+      "beat": 4.5,
+      "sfx": "turns to follow the arrow"
+    },
+    {
+      "t": 4.3,
+      "beat": 8.6,
+      "sfx": "cut to the giant desk"
+    },
+    {
+      "t": 4.5,
+      "beat": 9.0,
+      "sfx": "GPS satellite signals"
+    },
+    {
+      "t": 5.6,
+      "beat": 11.2,
+      "sfx": "dot located"
+    },
+    {
+      "t": 7.55,
+      "beat": 15.1,
+      "sfx": "compass chip lifts out"
+    },
+    {
+      "t": 7.9,
+      "beat": 15.8,
+      "sfx": "chip glows"
+    },
+    {
+      "t": 9.35,
+      "beat": 18.7,
+      "sfx": "Earth's field streaks"
+    },
+    {
+      "t": 12.0,
+      "beat": 24.0,
+      "sfx": "field is weak"
+    },
+    {
+      "t": 13.0,
+      "beat": 26.0,
+      "sfx": "giant speaker slides in"
+    },
+    {
+      "t": 13.55,
+      "beat": 27.1,
+      "sfx": "needles swing toward the magnet"
+    },
+    {
+      "t": 14.55,
+      "beat": 29.1,
+      "sfx": "speaker slides out"
+    },
+    {
+      "t": 14.75,
+      "beat": 29.5,
+      "sfx": "steel plate slides in"
+    },
+    {
+      "t": 15.25,
+      "beat": 30.5,
+      "sfx": "steel lands"
+    },
+    {
+      "t": 15.6,
+      "beat": 31.2,
+      "sfx": "needles bend"
+    },
+    {
+      "t": 16.5,
+      "beat": 33.0,
+      "sfx": "arrow swings"
+    },
+    {
+      "t": 18.75,
+      "beat": 37.5,
+      "sfx": "phone slides away"
+    },
+    {
+      "t": 19.8,
+      "beat": 39.6,
+      "sfx": "needles settle north"
+    },
+    {
+      "t": 21.1,
+      "beat": 42.2,
+      "sfx": "figure-8 swishes"
+    },
+    {
+      "t": 22.9,
+      "beat": 45.8,
+      "sfx": "beam narrows: steady"
+    },
+    {
+      "t": 24.8,
+      "beat": 49.6,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.572,
+  "voice_gain": 1.0
+}
