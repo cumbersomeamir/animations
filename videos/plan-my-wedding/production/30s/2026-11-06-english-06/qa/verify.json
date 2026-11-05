@@ -1,0 +1,98 @@
+{
+  "file": "plan-my-wedding-30s-english06-01.mp4",
+  "size_bytes": 4497389,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 193474
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "end": 4.2,
+      "say": "One hundred fifty RSVPs isn't one hundred fifty meals."
+    },
+    {
+      "id": "n2",
+      "start": 4.38,
+      "end": 9.05,
+      "say": "In this made-up example, that's one hundred thirty-two adults and eighteen children,"
+    },
+    {
+      "id": "n3",
+      "start": 9.75,
+      "end": 13.44,
+      "say": "and the photographer and DJ contracts include eight crew meals."
+    },
+    {
+      "id": "n4",
+      "start": 13.62,
+      "end": 17.46,
+      "say": "So the caterer needs one hundred fifty-eight meals, in three types."
+    },
+    {
+      "id": "n5",
+      "start": 17.64,
+      "end": 25.99,
+      "say": "Before you sign, confirm in writing: adult, child and vendor meal counts, dietary needs, serving time, and the final-count deadline."
+    },
+    {
+      "id": "n6",
+      "start": 26.17,
+      "end": 29.6,
+      "say": "Download Plan My Wedding to follow every RSVP."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    26.17,
+    29.6
+  ],
+  "caption_windows": [
+    [
+      0.18,
+      4.2
+    ],
+    [
+      4.38,
+      9.3
+    ],
+    [
+      9.75,
+      13.44
+    ],
+    [
+      13.62,
+      17.46
+    ],
+    [
+      17.64,
+      21.8
+    ],
+    [
+      21.9,
+      25.99
+    ]
+  ],
+  "words": 70
+}

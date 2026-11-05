@@ -1,0 +1,89 @@
+{
+  "voice": {
+    "mix": [
+      [
+        "af_bella",
+        0.7
+      ],
+      [
+        "am_puck",
+        0.3
+      ]
+    ],
+    "lang": "en-us",
+    "speed": 0.98
+  },
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX (fp32)",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "say": "One hundred fifty RSVPs isn't one hundred fifty meals.",
+      "duration": 4.02,
+      "end": 4.2,
+      "onsets": [
+        0,
+        2.38
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 4.38,
+      "say": "In this made-up example, that's one hundred thirty-two adults and eighteen children,",
+      "duration": 4.67,
+      "end": 9.05,
+      "onsets": [
+        0,
+        1.75,
+        2.54
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 9.75,
+      "say": "and the photographer and DJ contracts include eight crew meals.",
+      "duration": 3.693,
+      "end": 13.443,
+      "onsets": [
+        0,
+        2.98
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 13.62,
+      "say": "So the caterer needs one hundred fifty-eight meals, in three types.",
+      "duration": 3.839,
+      "end": 17.459,
+      "onsets": [
+        0,
+        2.89,
+        3.62
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 17.64,
+      "say": "Before you sign, confirm in writing: adult, child and vendor meal counts, dietary needs, serving time, and the final-count deadline.",
+      "duration": 8.348,
+      "end": 25.988,
+      "onsets": [
+        0,
+        2.4,
+        3.1
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 26.17,
+      "say": "Download Plan My Wedding to follow every RSVP.",
+      "duration": 3.426,
+      "end": 29.596,
+      "onsets": [
+        0,
+        1.61,
+        2.14
+      ]
+    }
+  ]
+}

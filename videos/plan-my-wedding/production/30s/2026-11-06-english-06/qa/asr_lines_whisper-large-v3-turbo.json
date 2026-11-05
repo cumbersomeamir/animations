@@ -1,0 +1,11 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "150 RSVPs isn't 150 meals.",
+    "build/vo/n2.wav": "In this made up example, the Yessies are 132 adults and 18 children.",
+    "build/vo/n3.wav": "and the photographer and DJ contracts include eight crew meals.",
+    "build/vo/n4.wav": "So the caterer needs 158 meals in three types.",
+    "build/vo/n5.wav": "Before you sign, confirm in writing. Adult, child and vendor meal counts, dietary needs, serving time, and the final count deadline.",
+    "build/vo/n6.wav": "Download Plan, My Wedding to follow every RSVP."
+  }
+}
