@@ -1,0 +1,181 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.22
+  },
+  {
+   "id": "l2",
+   "start": 3.76
+  },
+  {
+   "id": "l3",
+   "start": 5.08
+  },
+  {
+   "id": "l4",
+   "start": 10.8
+  },
+  {
+   "id": "l5",
+   "start": 15.73
+  },
+  {
+   "id": "l6",
+   "start": 21.65
+  },
+  {
+   "id": "l7",
+   "start": 26.57
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.02,
+   "text": "Your restaurant bill just added",
+   "hl": [
+    "added"
+   ]
+  },
+  {
+   "start": 2.02,
+   "end": 3.62,
+   "text": "a 10% service charge.",
+   "hl": [
+    "10%",
+    "service",
+    "charge."
+   ]
+  },
+  {
+   "start": 3.62,
+   "end": 4.95,
+   "text": "Can they make you pay it?",
+   "hl": [
+    "pay"
+   ]
+  },
+  {
+   "start": 4.95,
+   "end": 7.3,
+   "text": "CCPA guidelines,",
+   "hl": [
+    "CCPA"
+   ]
+  },
+  {
+   "start": 7.3,
+   "end": 10.66,
+   "text": "upheld by the Delhi High Court in 2025, say",
+   "hl": [
+    "upheld"
+   ]
+  },
+  {
+   "start": 10.66,
+   "end": 13.7,
+   "text": "it can’t be added by default, made compulsory,",
+   "hl": [
+    "default,",
+    "compulsory,"
+   ]
+  },
+  {
+   "start": 13.7,
+   "end": 15.6,
+   "text": "or charged under another name.",
+   "hl": [
+    "another",
+    "name."
+   ]
+  },
+  {
+   "start": 15.6,
+   "end": 18.4,
+   "text": "Like a tip, a service charge is your choice.",
+   "hl": [
+    "your",
+    "choice."
+   ]
+  },
+  {
+   "start": 18.4,
+   "end": 21.5,
+   "text": "GST is a government tax, which you do pay.",
+   "hl": [
+    "government",
+    "tax,"
+   ]
+  },
+  {
+   "start": 21.5,
+   "end": 23.95,
+   "text": "Ask them to remove it. Refused?",
+   "hl": [
+    "remove",
+    "it."
+   ]
+  },
+  {
+   "start": 23.95,
+   "end": 26.42,
+   "text": "Keep the bill and call 1915.",
+   "hl": [
+    "1915."
+   ]
+  },
+  {
+   "start": 26.42,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "cardIn": -0.18,
+  "itemDrop": 0.3,
+  "itemLand": 0.62,
+  "sneakStart": 1.15,
+  "sneak": 1.75,
+  "quoteMark": 2.7,
+  "toS2": 3.42,
+  "bannerDrop": 3.78,
+  "bannerLand": 4.15,
+  "refuseLine": 4.45,
+  "ruleIn": 5.05,
+  "ruleBump": 5.5,
+  "upheld": 7.4,
+  "rule2": 6.3,
+  "rule3": 8.4,
+  "tagFlip": 11.0,
+  "chip1": 11.88,
+  "chip2": 12.82,
+  "chip3": 14.82,
+  "bannerTug": 15.05,
+  "toS4": 15.45,
+  "sticker": 17.41,
+  "rightItem": 18.7,
+  "rightResult": 19.73,
+  "bubble": 20.48,
+  "toS5": 21.38,
+  "tick1": 22.69,
+  "bill": 23.3,
+  "photo": 24.15,
+  "tick2": 24.53,
+  "flap": 24.8,
+  "write": 24.98,
+  "seal": 25.2,
+  "tick3": 25.45,
+  "toS6": 26.27,
+  "ctaIn": 26.6,
+  "ctaText": 26.75
+ }
+}

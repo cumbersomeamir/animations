@@ -4,6 +4,62 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-06 (english-06): English episode 06, restaurant service charge vs tip vs GST
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync with origin),
+  assigned account info@tensorblue.com. No active jobs; Kokoro/whisper caches intact. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-06-english-06/courtlens-30s-english06-01.mp4`.
+- Episode record (brief, script, citations, approved style notes): `context/episodes/2026-11-06-english06-service-charge.md`.
+
+### Verified facts
+- CCPA guidelines on service charge, 4 Jul 2022 (official PDF):
+  - para 7: no adding by default, no other name, no forcing, no entry restriction, no GST on a service-charge total
+  - para 9: ask for removal, NCH 1915, Consumer Commission/e-Daakhil, District Collector
+- Delhi High Court, 28 Mar 2025 (W.P.(C) 10683/2022 and 10867/2022):
+  - guidelines upheld; petitions dismissed with ₹1 lakh costs each
+  - para 174(iii): service charge/tip is voluntary
+- What applies today: CCPA enforcement continued in 2026 (27 restaurants on 10 Jan; LPG-charge advisory on 25 Mar;
+  41 restaurants on 19 Jul).
+- GST: standalone restaurants 5% without ITC (GST Council note); unchanged by the 56th Council FAQs.
+- Details: `production/30s/2026-11-06-english-06/notes/LEGAL-SOURCES.md`.
+
+### Checkpoint (unconfirmed)
+- NRAI/FHRAI Division Bench appeal: filed about Apr 2025, heard May and Aug 2025 per news reports. No ruling or stay
+  found as of 2026-11-05. The court site is unreachable from this environment. The narration says only "upheld … in
+  2025".
+
+### Creative decisions
+- English narration and captions only. The approved English voice (af_bella 0.7 + am_puck 0.3, en-us, 0.98) was
+  freshly synthesised.
+- "C.C.P.A." is spelled with full stops so all four letters are voiced; "C C P A" was heard as "CCP".
+- Changes from the accepted renderer (feedback-05 copy):
+  - performer: a plate onto which a "+10%" table card hops
+  - bill total jumps ₹1,050 → ₹1,155
+  - "Upheld · Delhi HC, 2025" stamp on the rule card
+  - tip/service charge vs GST split
+  - bill + payment slip evidence
+- English caption treatment from round-02 (Inter only; marker offsets 0.74/0.92). Devanagari fonts were removed
+  from this round's src.
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-06-english-06/src
+$S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+$S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st6 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build6 ./build.sh
+$S/tts/venv/bin/python qa.py ../courtlens-30s-english06-01.mp4 timeline.json ../audio/lines ../qa
+$S/tts/venv/bin/python asr_check.py ../courtlens-30s-english06-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render
+- The rule card's "Upheld" stamp overlapped "Hotels & restaurants": it was moved right and shrunk.
+- The card stood half-empty for 6–10 s: the second line and the chips now reveal earlier (6.30 / 8.40).
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-05 (feedback-05): Hindi episode 05, basket sneaking at an online checkout
 
 ### Status
