@@ -172,3 +172,12 @@ Use only when a meme episode is requested; the established lesson style above st
   transcript exactly with the Ideaverse identity only.
 - Performance snapshot supplied by the user (71/72 reels with displayed plays; observed plays 302,810,711; likes 1,734,131;
   median 1.7 M): recorded as context only — unequal post ages, no causal inference; treated as a controlled topic/opening test.
+
+## Batch 2026-11-06-english-06 — language override: ENGLISH (style unchanged)
+- English narration + English captions for this batch. Voice = the approved Meshline/Recall character: Kokoro-82M
+  af_bella 0.7 + am_puck 0.3, lang en-us, speed 0.98 (cached; make_voice.py from the feedback round). No Hindi audio reused.
+- Captions: Space Grotesk 700 in the accepted pill, y 344–520 (same overlay code as the Hindi rounds; font stack falls
+  back to Noto only for Devanagari). English ASR QA: faster-whisper base.en, numbers compared as words.
+- Style: accepted DOCKET 15 s-pilot lesson style via the latest renderer (feedback-05 src as base). Meme renderer not used.
+- Topic rule applied: the suggested care-label subject already existed (hindi04-01), so a fresh everyday-AI topic was
+  chosen (phone live captions); see context/21.
