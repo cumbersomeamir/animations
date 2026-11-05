@@ -19,11 +19,11 @@ const CUES = {
   captions: [
     { t0: 0.2, t1: 3.55, lines: [[['Stuck on a noisy bus with a', 0]], [['voice message ', 0], ['you can’t hear?', 2]]] },
     { t0: 3.6, t1: 8.05, lines: [[['Turn on ', 0], ['Live Caption', 1], [' on Android,', 0]], [['or ', 0], ['Live Captions', 1], [' on iPhone.', 0]]] },
-    { t0: 8.1, t1: 12.4, lines: [[['AI listens to the audio', 0]], [['and ', 0], ['types the words', 1], [' on your screen.', 0]]] },
+    { t0: 8.1, t1: 12.4, lines: [[['AI listens to the audio and', 0]], [['types the words', 1], [' on your screen.', 0]]] },
     { t0: 12.45, t1: 15.9, lines: [[['But it can get it wrong.', 2]], [['Your friend said ', 0], ['3:15.', 1]]] },
     { t0: 15.9, t1: 18.3, lines: [[['The caption says ', 0], ['3:50.', 2]]] },
-    { t0: 18.35, t1: 20.6, lines: [[['So for ', 0], ['times, names', 2]], [['and ', 0], ['numbers', 2], [' that matter,', 0]]] },
-    { t0: 20.6, t1: 23.4, lines: [[['check with the sender', 1]], [['before you act.', 0]]] },
+    { t0: 18.35, t1: 21.0, lines: [[['So for ', 0], ['times, names', 2]], [['and ', 0], ['numbers', 2], [' that matter,', 0]]] },
+    { t0: 21.0, t1: 23.4, lines: [[['check with the sender', 1]], [['before you act.', 0]]] },
     { t0: 26.3, t1: 30.2, lines: [[['Download the', 0]], [['@icon', 0], ['Ideaverse app', 1]]], cta: true },
   ],
 };

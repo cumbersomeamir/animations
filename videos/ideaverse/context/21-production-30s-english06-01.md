@@ -42,5 +42,8 @@ Settings and chat screens are illustrations labelled EXAMPLE, not real Android/i
    the caption's 3:50 turns into "3:15 ✓" — mistake avoided.
 6. 25.5–30 CTA: DOCKET waves; caption "Download the / [icon] Ideaverse app".
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-06
+- Output: production/30s/2026-11-06-english-06/ideaverse-30s-english06-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS.
+- English ASR: all lines match; every word inside its caption; captions in spec; top band text-free.
+- Publishing caption = final transcript (publishing-caption.txt), Ideaverse identity only.
