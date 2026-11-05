@@ -1,0 +1,14 @@
+[Parsed_ebur128_0 @ 0x55c466061180] Summary:
+
+  Integrated loudness:
+    I:         -15.0 LUFS
+    Threshold: -26.0 LUFS
+
+  Loudness range:
+    LRA:         2.9 LU
+    Threshold: -35.9 LUFS
+    LRA low:   -17.4 LUFS
+    LRA high:  -14.5 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS

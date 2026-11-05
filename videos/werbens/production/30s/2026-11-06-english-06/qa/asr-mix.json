@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.8
+      ],
+      "script": "75% lean, or 25% fat?",
+      "heard": "75% lean, or 25% fat.",
+      "words": "3/3"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.85,
+        7.45
+      ],
+      "script": "Same tray. Same numbers. Only the frame changed.",
+      "heard": "Same tray, same numbers, only the frame changed.",
+      "words": "8/8"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        7.5,
+        13.69
+      ],
+      "script": "In a 1988 study, people rated the same meat more favorably when it was labeled lean.",
+      "heard": "In a 1988 study, people rated the same meat more favorably when it was labeled lean.",
+      "words": "15/15"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        13.7,
+        15.91
+      ],
+      "script": "After tasting it, that gap shrank.",
+      "heard": "after tasting it that gap shrank.",
+      "words": "6/6"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        15.95,
+        19.63
+      ],
+      "script": "So lead with the positive side, not the negative one.",
+      "heard": "So lead with the positive side, not the negative one.",
+      "words": "10/10"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19.6,
+        21.25
+      ],
+      "script": "Keep every number true.",
+      "heard": "Keep every number true.",
+      "words": "4/4"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        21.35,
+        25.25
+      ],
+      "script": "The frame shapes first impressions; the product shapes the rest.",
+      "heard": "The frame shapes first impressions. The product shapes the rest.",
+      "words": "10/10"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "75% lean or 25% fat. Same tray, same numbers, only the frame changed. In a 1988 study, people rated the same meat more favorably when it was labeled lean. After tasting it, that gap shrank. So lead with the positive side, not the negative one. Keep every number true. The frame shapes first impressions, the product shapes the rest. Follow Warbins to decode how brands sell."
+}
