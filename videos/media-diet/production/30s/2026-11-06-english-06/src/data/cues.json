@@ -1,0 +1,100 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Digging through email",
+   "for an order number?"
+  ],
+  "in": 0.12,
+  "out": 2.31
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Since October 28,",
+   "Chrome can help."
+  ],
+  "in": 2.33,
+  "out": 4.988
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Enhanced autofill now suggests",
+   "details from your Gmail"
+  ],
+  "in": 5.01,
+  "out": 8.665
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "in online forms,"
+  ],
+  "in": 8.685,
+  "out": 10.336
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "like order numbers,",
+   "tracking info and flight bookings."
+  ],
+  "in": 10.36,
+  "out": 13.784
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Tap the order field,",
+   "and the number"
+  ],
+  "in": 13.81,
+  "out": 15.817
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "from your receipt email",
+   "is suggested."
+  ],
+  "in": 15.837,
+  "out": 18.196
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "It's rolling out",
+   "in the United States,"
+  ],
+  "in": 18.22,
+  "out": 20.425
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "for users of Gemini in Chrome",
+   "with Personal Intelligence on."
+  ],
+  "in": 20.445,
+  "out": 24.66
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "You control it",
+   "in Chrome settings."
+  ],
+  "in": 24.68,
+  "out": 26.65
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 26.67,
+  "out": 29.683
+ }
+]

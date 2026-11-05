@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "Digging through email for an order number?",
+  "duration": 1.813,
+  "words": 7
+ },
+ {
+  "id": "V2",
+  "say": "Since October 28, Chrome can help.",
+  "duration": 2.278,
+  "words": 6
+ },
+ {
+  "id": "V3",
+  "say": "Enhanced autofill now suggests details from your Gmail in online forms,",
+  "duration": 4.946,
+  "words": 11
+ },
+ {
+  "id": "V4",
+  "say": "like order numbers, tracking info and flight bookings.",
+  "duration": 3.045,
+  "words": 8
+ },
+ {
+  "id": "V5",
+  "say": "Tap the order field, and the number from your receipt email is suggested.",
+  "duration": 4.006,
+  "words": 13
+ },
+ {
+  "id": "V6",
+  "say": "It's rolling out in the United States, for users of Gemini in Chrome with Personal Intelligence on.",
+  "duration": 6.063,
+  "words": 17
+ },
+ {
+  "id": "V7",
+  "say": "You control it in Chrome settings.",
+  "duration": 1.592,
+  "words": 6
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for technology explained.",
+  "duration": 2.633,
+  "words": 6
+ }
+]

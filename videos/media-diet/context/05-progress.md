@@ -102,3 +102,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (hin); decode clean; −14.9 LUFS /
   −2.1 dBTP; captions y 362–493, 0 violations; caption↔speech 8/8; Whisper-medium (hi) full CER 0.088 / per-line 0.102.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-06 — english-06 (in progress)
+- Start state: clean at 500fe5d (= remote), no active jobs. Topic (official, 28 Oct 2026): Chrome's enhanced autofill suggests details
+  from Gmail in forms; U.S. rollout for Gemini in Chrome users with Personal Intelligence; control in Chrome settings. New topic.
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); V6 rephrased after Whisper check. 74 words, 26.4 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts (asr_check_en.py, caption_sync.py), SOURCES.md, caption,
+  licences, README, context/19, log row.
+- Running: `node build/render.mjs film frames 0 449` + `… 450 899` (started 19:12); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

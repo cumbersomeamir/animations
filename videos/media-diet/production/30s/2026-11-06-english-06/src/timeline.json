@@ -1,0 +1,194 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.2,
+   "say": "Digging through email for an order number?",
+   "cues": [
+    [
+     "Digging through email",
+     "for an order number?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 2.41,
+   "say": "Since October 28, Chrome can help.",
+   "cues": [
+    [
+     "Since October 28,",
+     "Chrome can help."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.09,
+   "say": "Enhanced autofill now suggests details from your Gmail in online forms,",
+   "cues": [
+    [
+     "Enhanced autofill now suggests",
+     "details from your Gmail"
+    ],
+    [
+     "in online forms,"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 10.44,
+   "say": "like order numbers, tracking info and flight bookings.",
+   "cues": [
+    [
+     "like order numbers,",
+     "tracking info and flight bookings."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 13.89,
+   "say": "Tap the order field, and the number from your receipt email is suggested.",
+   "cues": [
+    [
+     "Tap the order field,",
+     "and the number"
+    ],
+    [
+     "from your receipt email",
+     "is suggested."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 18.3,
+   "say": "It's rolling out in the United States, for users of Gemini in Chrome with Personal Intelligence on.",
+   "cues": [
+    [
+     "It's rolling out",
+     "in the United States,"
+    ],
+    [
+     "for users of Gemini in Chrome",
+     "with Personal Intelligence on."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 24.76,
+   "say": "You control it in Chrome settings.",
+   "cues": [
+    [
+     "You control it",
+     "in Chrome settings."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.75,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.32,
+   "name": "hook from frame 0: envelopes riffle out of an overflowing inbox while a magnifier hunts; the returns form waits with an empty Order number field"
+  },
+  {
+   "id": "S2",
+   "in": 2.32,
+   "out": 5.0,
+   "name": "calendar flips to OCT 28; the SOURCE placard (Google blog · Oct 28, 2026) hinges up"
+  },
+  {
+   "id": "S3",
+   "in": 5.0,
+   "out": 10.35,
+   "name": "an email card lifts from the inbox and rides a cyan rail into the browser form; a suggestion appears under the field"
+  },
+  {
+   "id": "S4",
+   "in": 10.35,
+   "out": 13.8,
+   "name": "three tickets pop out of the inbox on their words: order number (#), tracking (truck), flight booking (plane)"
+  },
+  {
+   "id": "S5",
+   "in": 13.8,
+   "out": 18.21,
+   "name": "demo close-up: pointer taps Order number; the suggestion 'from your receipt email in Gmail' unfolds; tap fills A-48217 with a check"
+  },
+  {
+   "id": "S6",
+   "in": 18.21,
+   "out": 24.67,
+   "name": "paper U.S. map lights; desktop, Android and iPhone props pop up; the Personal Intelligence toggle switches on"
+  },
+  {
+   "id": "S7",
+   "in": 24.67,
+   "out": 26.66,
+   "name": "generic settings card: Enhanced autofill toggle flicks off and back on; Gmail access check; lock (you're in control)"
+  },
+  {
+   "id": "S8",
+   "in": 26.66,
+   "out": 30.0,
+   "name": "hero pull-back over the desk + Media Diet paper sign (CTA)"
+  }
+ ],
+ "events": {
+  "calFlip": 2.45,
+  "source": 3.45,
+  "open": 5.6,
+  "travel": 6.5,
+  "arrive": 8.7,
+  "tickets": [
+   10.55,
+   11.55,
+   12.45
+  ],
+  "tap": 14.3,
+  "suggest": 15.9,
+  "fill": 17.35,
+  "map": 19.2,
+  "devices": 20.6,
+  "pi": 22.9,
+  "ctrlOff": 25.25,
+  "ctrlOn": 25.8,
+  "sign": 26.8
+ }
+}
