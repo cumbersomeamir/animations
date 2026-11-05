@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "rows": [
+  {
+   "caption": "हेडफ़ोन ने एसी की गूंज / दबा दी,",
+   "start": 1.5,
+   "end": 3.8,
+   "first_word_s": 1.55,
+   "last_word_s": 3.41,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "पर दोस्त की आवाज़ / क्यों सुनाई दी?",
+   "start": 3.8,
+   "end": 5.85,
+   "first_word_s": 3.85,
+   "last_word_s": 5.63,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "बाहर का माइक शोर / सुनता है,",
+   "start": 5.95,
+   "end": 7.95,
+   "first_word_s": 6.0,
+   "last_word_s": 7.74,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "और स्पीकर उसकी उल्टी लहर / बजाकर उसे घटाता है।",
+   "start": 7.95,
+   "end": 11.55,
+   "first_word_s": 7.98,
+   "last_word_s": 11.32,
+   "caption_lead_s": 0.03,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "पर उल्टी लहर / ज़रा देर से बनती है;",
+   "start": 11.65,
+   "end": 14.05,
+   "first_word_s": 11.7,
+   "last_word_s": 13.64,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "धीमी गूंज में / चल जाता है,",
+   "start": 14.05,
+   "end": 15.95,
+   "first_word_s": 14.12,
+   "last_word_s": 15.64,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "आवाज़ों की तेज़ लहरों / में नहीं।",
+   "start": 15.95,
+   "end": 17.95,
+   "first_word_s": 16.08,
+   "last_word_s": 17.69,
+   "caption_lead_s": 0.13,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "तो ये प्लेन, ट्रेन या एसी / की गूंज में",
+   "start": 18.75,
+   "end": 21.4,
+   "first_word_s": 18.8,
+   "last_word_s": 21.04,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "सबसे ज़्यादा मदद करते हैं।",
+   "start": 21.4,
+   "end": 23.15,
+   "first_word_s": 21.46,
+   "last_word_s": 22.83,
+   "caption_lead_s": 0.06,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "एक-सी गूंज पर सबसे ज़्यादा असर।",
+   "start": 23.15,
+   "end": 25.75,
+   "spoken": false
+  },
+  {
+   "caption": "कोई भी नया विषय एआई से / सीखने के लिए रिकॉल डाउनलोड करें।",
+   "start": 25.75,
+   "end": 30.0,
+   "first_word_s": 25.8,
+   "last_word_s": 29.42,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

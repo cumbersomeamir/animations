@@ -108,3 +108,7 @@ record in context 17; deliverable `videos/recall/production/30s/2026-11-03-hindi
 Episode H04 "इंडक्शन पर बर्तन गर्म कैसे होता है?" (induction cooktop; Hindi). The requested microwave-turntable topic
 was already R02, so a distinct topic was chosen (reason in context 18); deliverable
 `videos/recall/production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4`.
+
+## Update 2026-11-05 — feedback-05
+Episode F05 "हेडफ़ोन ने एसी की गूंज दबा दी, पर दोस्त की आवाज़ क्यों सुनाई दी?" (noise-cancelling headphones; Hindi):
+record in context 19; deliverable `videos/recall/production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4`.

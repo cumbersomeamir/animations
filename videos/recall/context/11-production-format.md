@@ -83,3 +83,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | R02 | Why a microwave leaves cold patches in food | `production/30s/2026-11-03-round-02/recall-30s-round02-01.mp4` | 16 |
 | H03 | गीली स्क्रीन अजीब क्यों चलती है? (wet touchscreen; Hindi) | `production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4` | 17 |
 | H04 | इंडक्शन पर बर्तन गर्म कैसे होता है? (induction cooktop; Hindi) — requested microwave-turntable topic was already R02 | `production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4` | 18 |
+| F05 | हेडफ़ोन ने एसी की गूंज दबा दी, पर दोस्त की आवाज़ क्यों सुनाई दी? (noise-cancelling headphones; Hindi) | `production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4` | 19 |
