@@ -16,7 +16,7 @@ if [ "${SKIP_TTS:-0}" != "1" ]; then
 fi
 "$PY" audio_mix.py timeline.json ../audio/lines "$WORK/mix_raw.wav"
 ffmpeg -hide_banner -loglevel error -y -i "$WORK/mix_raw.wav" \
-  -af "volume=6.8dB,alimiter=limit=0.75:attack=3:release=60:level=disabled,aresample=48000" -c:a pcm_s16le "$WORK/mix.wav"
+  -af "volume=7.8dB,alimiter=limit=0.75:attack=3:release=60:level=disabled,aresample=48000" -c:a pcm_s16le "$WORK/mix.wav"
 if [ "${SKIP_FRAMES:-0}" != "1" ]; then   # SKIP_FRAMES=1 re-muxes audio onto already rendered frames
   rm -rf "$WORK/frames"
   node render.cjs frames "$WORK/frames" "${WORKERS:-4}"

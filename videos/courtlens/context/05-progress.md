@@ -9,7 +9,8 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 ### Status
 - Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync with origin),
   assigned account info@tensorblue.com. No active jobs; Kokoro/whisper caches intact. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-06-english-06/courtlens-30s-english06-01.mp4`.
+- DELIVERED: `production/30s/2026-11-06-english-06/courtlens-30s-english06-01.mp4`
+  (sha256 b8c88442376ac02c14867226f279f67c6ae20b425a5c9940dc679ba5e8f50aea).
 - Episode record (brief, script, citations, approved style notes): `context/episodes/2026-11-06-english06-service-charge.md`.
 
 ### Verified facts
@@ -53,12 +54,27 @@ $S/tts/venv/bin/python qa.py ../courtlens-30s-english06-01.mp4 timeline.json ../
 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english06-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
 ```
 
-### Fixed before the full render
-- The rule card's "Upheld" stamp overlapped "Hotels & restaurants": it was moved right and shrunk.
-- The card stood half-empty for 6–10 s: the second line and the chips now reveal earlier (6.30 / 8.40).
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.0 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.43 s; y<300 clear; 12 captions, ≤2 lines, in y 340–520.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Details: `production/30s/2026-11-06-english-06/qa/QA.md`.
+
+### Fixed
+- Before the full render: the "Upheld" stamp overlapped "Hotels & restaurants", so it was moved right and shrunk.
+  The rule card's second line and chips now reveal earlier (6.30 / 8.40), so the card is no longer half-empty.
+- After the full render: −16.9 LUFS, so the gain went from 6.8 to 7.8 dB in build.sh. Audio was re-muxed with
+  SKIP_FRAMES=1, giving −16.0 LUFS. QA was re-run.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- The Division Bench appeal status is unconfirmed (see Checkpoint).
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
 
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Await review. No further episode or automation unless asked.
 
 ## Round 2026-11-05 (feedback-05): Hindi episode 05, basket sneaking at an online checkout
 
