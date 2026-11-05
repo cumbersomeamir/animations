@@ -278,12 +278,12 @@ function update(t) {
   envelopes.forEach((m, i) => { const base = V3((i % 2 ? 0.08 : -0.08) + (i - 4.5) * 0.02, 0.1 + i * 0.016, (i - 4.5) * 0.06); let lift = 0, tilt = -1.25;
     if (t < 2.4) { const ph = ((t * 1.6 + i * 0.37) % 1); lift = Math.sin(Math.PI * ph) * (0.45 + 0.05 * (i % 3)); tilt = -1.25 + Math.sin(Math.PI * ph) * 1.0; }
     m.position.copy(base).add(V3(0, lift, 0)); m.rotation.set(tilt, (i % 3 - 1) * 0.15, (i - 4.5) * 0.03); });
-  { lens.visible = t < 2.4; const a = t * 2.1; lens.position.set(INBOX.x + Math.sin(a) * 0.45, DESK + 0.95 + Math.sin(a * 1.7) * 0.08, INBOX.z + 0.15 + Math.cos(a) * 0.2); lens.quaternion.copy(camera.quaternion); }
+  { lens.visible = id === 'S1'; const a = t * 2.1; lens.position.set(INBOX.x + Math.sin(a) * 0.45, DESK + 0.95 + Math.sin(a * 1.7) * 0.08, INBOX.z + 0.15 + Math.cos(a) * 0.2); lens.quaternion.copy(camera.quaternion); }
   // browser form state
   let ws;
   if (id === 'S7' || (t >= 24.67 && t < 26.66)) ws = { mode: 'settings', on: t < E.ctrlOff ? 1 : t < E.ctrlOn ? 1 - prog(t, E.ctrlOff, E.ctrlOff + 0.2) : prog(t, E.ctrlOn, E.ctrlOn + 0.2), chk: 1 };
   else if (t < E.arrive) ws = { mode: 'form', focus: t < 2.4, t, sugg: 0, fill: 0 };
-  else if (t < E.tap) ws = { mode: 'form', focus: true, t, sugg: prog(t, E.arrive, E.arrive + 0.35), fill: 0 };
+  else if (t < E.tap) ws = id === 'S5' ? { mode: 'form', focus: false, t, sugg: 0, fill: 0 } : { mode: 'form', focus: true, t, sugg: prog(t, E.arrive, E.arrive + 0.35), fill: 0 };
   else ws = { mode: 'form', focus: true, t, sugg: t < E.tap + 0.1 ? 0 : prog(t, E.suggest, E.suggest + 0.35), fill: t >= E.fill ? 0.5 + prog(t, E.fill, E.fill + 0.35) * 0.5 : 0 };
   if (t >= 26.66) ws = { mode: 'form', focus: false, t, sugg: 0, fill: 1 };
   drawWindow(ws);

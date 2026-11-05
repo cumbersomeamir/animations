@@ -62,7 +62,11 @@ approved Kokoro English blend is used); quiet pad + event foley that dips under 
 lesson: landscape screens need ~4.5 units of camera distance to be readable edge to edge.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-30s-english06-01.mp4`, SHA-256 `bf60786f9b16a7747c6275a4ed8fd4fc4693056d2a483b65f801b7ae3171161c`, 18,030,257 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 900 frames; video/audio/container 30.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −1.6 dBTP; captions ink y 378–488, x 135–944, 0 safe-area violations in 900 frames; caption↔speech 11/11;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 11–14 dB under speech per line. Fixed once each: V6
+wording (ASR), caption re-splits, S3–S7 framing, lens leaking into S2 + early dropdown at S5 start (frames re-rendered, re-encoded).
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked by Whisper-medium (en) per take

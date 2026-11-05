@@ -110,3 +110,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts (asr_check_en.py, caption_sync.py), SOURCES.md, caption,
   licences, README, context/19, log row.
 - Running: `node build/render.mjs film frames 0 449` + `… 450 899` (started 19:12); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-06 — english-06 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-06-english-06/media-diet-30s-english06-01.mp4
+  (SHA-256 bf60786f9b16a7747c6275a4ed8fd4fc4693056d2a483b65f801b7ae3171161c). Record: context/19-production-30s-english06-01.md; context/11 log row → delivered.
+- Commands: `node build/render.mjs film frames 0 449` + `… 450 899` (parallel), re-render of frames 68–73 and 414–430 after the
+  boundary review (lens limited to S1; S5 starts with an empty field), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −1.6 dBTP; captions y 378–488, x 135–944, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

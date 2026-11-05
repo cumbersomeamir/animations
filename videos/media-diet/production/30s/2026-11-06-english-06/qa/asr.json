@@ -1,0 +1,89 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Digging through email for an order number. Since October 28, Chrome can help. Enhanced autofill now suggests details from your Gmail in online forms. Like order numbers, tracking info and flight bookings. Tap the order field, and the number from your receipt email is suggested. It's rolling out in the United States, for users of Gemini in Chrome with personal intelligence on. You control it in Chrome settings. Follow Media Diet for Technology Explained.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.2,
+    2.01
+   ],
+   "transcript": "Digging through email for an order number.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    2.41,
+    4.69
+   ],
+   "transcript": "Since October 28, Chrome can help.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    5.09,
+    10.04
+   ],
+   "transcript": "Enhanced Autofill now suggests details from your Gmail in online forms.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    10.44,
+    13.48
+   ],
+   "transcript": "Like order numbers, tracking info and flight bookings.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    13.89,
+    17.9
+   ],
+   "transcript": "Tap the Order field, and the number from your receipt email is suggested.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    18.3,
+    24.36
+   ],
+   "transcript": "It's rolling out in the United States for users of Gemini in Chrome with personal intelligence on.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    24.76,
+    26.35
+   ],
+   "transcript": "You control it in Chrome settings.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.75,
+    29.38
+   ],
+   "transcript": "Follow Media Diet for Technology Explained.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Digging through email for an order number. Since October 28, Chrome can help. Enhanced Autofill now suggests details from your Gmail in online forms. Like order numbers, tracking info and flight bookings. Tap the Order field, and the number from your receipt email is suggested. It's rolling out in the United States for users of Gemini in Chrome with personal intelligence on. You control it in Chrome settings. Follow Media Diet for Technology Explained.",
+ "recall_overall": 1.0
+}

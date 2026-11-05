@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "Digging through email / for an order number?",
+  "cue": [
+   0.12,
+   2.31
+  ],
+  "speech": [
+   0.223,
+   1.962
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.348,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Since October 28, / Chrome can help.",
+  "cue": [
+   2.33,
+   4.988
+  ],
+  "speech": [
+   2.434,
+   4.55
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.438,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Enhanced autofill now suggests / details from your Gmail",
+  "cue": [
+   5.01,
+   8.665
+  ],
+  "speech": [
+   5.11,
+   8.583
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.082,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "in online forms,",
+  "cue": [
+   8.685,
+   10.336
+  ],
+  "speech": [
+   8.792,
+   9.991
+  ],
+  "lead_s": 0.107,
+  "tail_s": 0.345,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "like order numbers, / tracking info and flight bookings.",
+  "cue": [
+   10.36,
+   13.784
+  ],
+  "speech": [
+   10.462,
+   13.438
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.346,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Tap the order field, / and the number",
+  "cue": [
+   13.81,
+   15.817
+  ],
+  "speech": [
+   13.912,
+   15.817
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "from your receipt email / is suggested.",
+  "cue": [
+   15.837,
+   18.196
+  ],
+  "speech": [
+   15.837,
+   17.852
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.344,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "It's rolling out / in the United States,",
+  "cue": [
+   18.22,
+   20.425
+  ],
+  "speech": [
+   18.321,
+   20.258
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.167,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "for users of Gemini in Chrome / with Personal Intelligence on.",
+  "cue": [
+   20.445,
+   24.66
+  ],
+  "speech": [
+   20.636,
+   24.317
+  ],
+  "lead_s": 0.191,
+  "tail_s": 0.343,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "You control it / in Chrome settings.",
+  "cue": [
+   24.68,
+   26.65
+  ],
+  "speech": [
+   24.782,
+   26.306
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.344,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Follow Media Diet / for technology explained.",
+  "cue": [
+   26.67,
+   29.683
+  ],
+  "speech": [
+   26.793,
+   29.331
+  ],
+  "lead_s": 0.123,
+  "tail_s": 0.352,
+  "ok": true
+ }
+]
