@@ -209,3 +209,48 @@ cd videos/mello/production/30s/2026-11-04-hindi-04/project && npm ci && ASR_PY=<
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# Feedback-05, 2026-11-05: episode feedback05-01 "प्लानिंग फ़ैलेसी" (planning fallacy, Hindi)
+Episode record (script, gloss, storyboard, citations, performance snapshot, adjustments): `15-episode-planning-fallacy-hindi.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The planning fallacy is a new topic for this app.
+- Sources read:
+  - Buehler (2019, SPSP *Character & Context*), full text: definition; "events usually don't unfold exactly as people imagine"; the outside view bases predictions on prior experiences.
+  - Roy, Christenfeld & McKenzie (2005, *Psychological Bulletin*), PubMed abstract: memories of past durations are underestimates.
+- Not read in full: Kahneman & Tversky (1979) is cited through Buehler. The only open copy of Buehler, Griffin & Ross (1994) failed TLS via the proxy (not bypassed), so no study numbers are used.
+- User-supplied performance snapshot: 13/13 reels show plays, 414 plays, 2 likes (2/13 visible), median 10. Not causal; treated as a topic and opening test only.
+
+## Creative decisions (this round)
+- Psychology hack, not meditation or motivation. Hook: "“बस दस मिनट का काम है…” — और एक घंटा निकल गया।"
+- Fix shown: use the actual time of a similar past task (time log, "पिछली बार: 55 मिनट") instead of a perfect imagined plan.
+- One concrete action: book a full hour in the calendar, then write down the actual time.
+- 74 Hindi words; no guarantee language; accepted Hindi CTA.
+- Visual hook from frame 0: a flat desk clock races through the hour past a "10 मिनट" note.
+- Scene props: thought card (सोचा vs असल with phone/tea/search interruptions acted in the room), notebook time log, calendar card.
+- Music is quieter than in earlier episodes: `BED_GAIN` 0.5, bed 12.9 dB under the voice.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-05-feedback-05/mello-30s-feedback05-01.mp4`
+  - sha256 `856948f5a6dccae982dc33d78ef40049f0b8df1665ee31eb06e46f4d979fb1cd`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-05-feedback-05/qa/QA.md`).
+  - Full decode clean; −16.1 LUFS; −1.6 dBTP.
+  - The four cuts are the detected cuts; every second moves.
+  - 0 safe-zone issues in 300 samples, with the stricter audit (oriented boxes, head and clock-dial checks, no shot exemption).
+  - Hindi ASR on the final file: CER 0.012, WER 0.027 (six of seven lines exact).
+- Two full renders (about 19 min each). Render 2 fixed a small overlap between the S3 note and a log row.
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-05-feedback-05/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the Hindi audio by ear. It was checked by ASR round-trip and loudness measurements. A native Hindi speaker should give it a listen.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
