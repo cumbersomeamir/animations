@@ -1,0 +1,71 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Can a child actually use this school bag?",
+   "dur": 2.167,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Check every zip: open it, close it.",
+   "dur": 2.051,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Tug both straps. They should hold, not fray.",
+   "dur": 2.548,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Match the size: a small child needs a smaller bag.",
+   "dur": 3.066,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Clean it: empty the pockets, wipe it, let it dry.",
+   "dur": 2.657,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Then ask the organisation which bags and ages they need.",
+   "dur": 3.421,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Last test: would you be happy to receive it?",
+   "dur": 2.392,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Then hand it over ready to use: a gift, not a leftover.",
+   "dur": 3.504,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

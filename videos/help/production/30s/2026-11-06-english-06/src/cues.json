@@ -1,0 +1,95 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.25,
+  2.85,
+  5.35,
+  8.4,
+  11.95,
+  15.1,
+  19.0,
+  21.8,
+  26.1
+ ],
+ "scenes": {
+  "A_hook_bag_drop": [
+   0.0,
+   2.6
+  ],
+  "B_check_zips": [
+   2.6,
+   5.15
+  ],
+  "C_check_straps": [
+   5.15,
+   8.3
+  ],
+  "D_check_size": [
+   8.3,
+   11.75
+  ],
+  "E_check_clean": [
+   11.75,
+   14.9
+  ],
+  "F_ask_organisation": [
+   14.9,
+   18.8
+  ],
+  "G_receive_test": [
+   18.8,
+   21.6
+  ],
+  "H_hand_over_gift": [
+   21.6,
+   25.8
+  ],
+  "I_cta": [
+   25.8,
+   30.0
+  ]
+ },
+ "cues": {
+  "drop": 0.0,
+  "land": 0.4,
+  "q": 1.3,
+  "plaque1": 2.75,
+  "zipOpen": 3.8,
+  "zipClose": 4.3,
+  "tick1": 4.95,
+  "plaque2": 5.2,
+  "tug": 5.3,
+  "hold": 6.85,
+  "fray": 7.2,
+  "tick2": 7.92,
+  "plaque3": 8.35,
+  "gauge": 8.4,
+  "bigIn": 8.8,
+  "marker": 9.55,
+  "over": 9.75,
+  "swap": 10.6,
+  "tick3": 11.15,
+  "plaque4": 11.85,
+  "pocket": 12.45,
+  "itemsOut": 12.6,
+  "wipe": 13.35,
+  "dry": 13.9,
+  "tick4": 14.4,
+  "ask": 15.3,
+  "board": 15.75,
+  "rowBags": 16.85,
+  "rowAges": 17.5,
+  "match": 18.15,
+  "testQ": 19.9,
+  "turn": 20.3,
+  "yes": 21.0,
+  "give": 21.95,
+  "ready": 22.65,
+  "gift": 23.9,
+  "leftover": 24.6,
+  "logo": 26.3,
+  "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to English ASR word times of the final voice takes (qa/asr-voice-track.txt). Scene changes on a lamp dip; scene props slide in with the scene; the bag stays put from A through C."
+}

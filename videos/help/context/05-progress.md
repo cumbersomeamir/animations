@@ -19,3 +19,4 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Output: videos/help/education/pilot-01/help-education-pilot-01.mp4 (15 s portrait).
 - 2026-11-04 hindi-04: videos/help/production/30s/2026-11-04-hindi-04/help-30s-hindi04-01.mp4 (30 s, Hindi) — record 17-production-30s-hindi04-01.md; progress in 10.
 - 2026-11-05 feedback-05: videos/help/production/30s/2026-11-05-feedback-05/help-30s-feedback05-01.mp4 (30 s, Hindi) — record 18-production-30s-feedback05-01.md; progress in 10.
+- 2026-11-06 english-06: videos/help/production/30s/2026-11-06-english-06/help-30s-english06-01.mp4 (30 s, English) — record 19-production-30s-english06-01.md; progress in 10.

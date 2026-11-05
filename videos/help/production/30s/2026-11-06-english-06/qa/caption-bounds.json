@@ -1,0 +1,175 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 36,
+ "extent": {
+  "x0": 103,
+  "x1": 977,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Can a child actually",
+   "fs": 66,
+   "x0": 222,
+   "x1": 858,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 19
+  },
+  {
+   "text": "use this school bag?",
+   "fs": 66,
+   "x0": 206,
+   "x1": 874,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 57
+  },
+  {
+   "text": "Check every zip:",
+   "fs": 66,
+   "x0": 266,
+   "x1": 814,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 95
+  },
+  {
+   "text": "open it, close it.",
+   "fs": 66,
+   "x0": 281,
+   "x1": 799,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 133
+  },
+  {
+   "text": "Tug both straps.",
+   "fs": 66,
+   "x0": 273,
+   "x1": 807,
+   "y0": 407,
+   "y1": 471,
+   "firstFrame": 174
+  },
+  {
+   "text": "They should hold, not fray.",
+   "fs": 66,
+   "x0": 103,
+   "x1": 977,
+   "y0": 405,
+   "y1": 470,
+   "firstFrame": 220
+  },
+  {
+   "text": "Match the size:",
+   "fs": 66,
+   "x0": 290,
+   "x1": 790,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 265
+  },
+  {
+   "text": "a small child needs / a smaller bag.",
+   "fs": 56,
+   "x0": 277,
+   "x1": 803,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 318
+  },
+  {
+   "text": "Clean it: empty / the pockets,",
+   "fs": 56,
+   "x0": 330,
+   "x1": 750,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 375
+  },
+  {
+   "text": "wipe it, let it dry.",
+   "fs": 66,
+   "x0": 269,
+   "x1": 811,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 422
+  },
+  {
+   "text": "Then ask the organisation",
+   "fs": 66,
+   "x0": 117,
+   "x1": 963,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 471
+  },
+  {
+   "text": "which bags and / ages they need.",
+   "fs": 56,
+   "x0": 319,
+   "x1": 761,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 530
+  },
+  {
+   "text": "Last test:",
+   "fs": 66,
+   "x0": 388,
+   "x1": 692,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 579
+  },
+  {
+   "text": "would you be / happy to receive it?",
+   "fs": 56,
+   "x0": 269,
+   "x1": 811,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 621
+  },
+  {
+   "text": "Then hand it over",
+   "fs": 66,
+   "x0": 257,
+   "x1": 823,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 662
+  },
+  {
+   "text": "ready to use:",
+   "fs": 66,
+   "x0": 327,
+   "x1": 753,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 693
+  },
+  {
+   "text": "a gift, not a leftover.",
+   "fs": 66,
+   "x0": 215,
+   "x1": 865,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 740
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 835
+  }
+ ]
+}

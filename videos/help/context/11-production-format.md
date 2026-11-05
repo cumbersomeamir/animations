@@ -161,3 +161,12 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - Voice naming: "Meshline" (af_bella + am_puck) is English-only; for Hindi it maps to the approved Kokoro hf_alpha 0.7 + hm_omega 0.3 blend.
   No "Recall" voice is defined in this app's context.
 - Hindi ASR: "टिकती" is heard as "दिखती" (meaning changes) → say "देर तक चले". Keep ~0.3–0.4 s pauses; 68 words fit with a 3.7 s CTA.
+
+## Update 2026-11-06 — english-06 (corrections learned this episode)
+- English batches: narration + captions + in-scene words in English only; voice = Meshline (Kokoro af_bella 0.7 + am_puck 0.3, en-us, 0.98)
+  synthesized fresh per episode; Inter only (drop the Devanagari font faces). ~77 words ≈ 23.7 s of speech fits 30 s with a 1.8 s CTA line.
+- Hook wording: sentence-initial "Would…" was heard as "What…" by ASR → open with a hard consonant ("Can a child…").
+- Hands that reach down from above must be drawn *behind* step plaques (sleeves otherwise cover the plaque text).
+- Check-tick SFX only in the pauses between sentences; ticks that land inside a spoken line are visual only (feedback-05 masking lesson).
+- A "wrong vs right" comparison needs ≥ 0.8 s on screen (the size overshoot first showed for 0.3 s).
+- Post copy never names other apps/platforms (keep e.g. GIVIT in repo notes only); it repeats the final transcript verbatim.
