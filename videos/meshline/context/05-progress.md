@@ -37,3 +37,6 @@
 
 ## Production 2026-11-04 Hindi batch 04 (GPS without mobile data, offline maps)
 - Done. Output `production/30s/2026-11-04-hindi-04/meshline-30s-hindi04-01.mp4`, sha256 `5239f66a…6a25`. Details, sources, QA and next step are in `17-production-30s-hindi04-01.md`.
+
+## Production 2026-11-05-feedback-05 (Hindi, headphones behind a wall)
+- Done. Output `production/30s/2026-11-05-feedback-05/meshline-30s-feedback05-01.mp4`, sha256 `7ba35b64…c5099`. Details in `18-production-30s-feedback05-01.md`.

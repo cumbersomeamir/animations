@@ -66,3 +66,6 @@
 
 ## Production 2026-11-04 Hindi batch 04 (GPS without mobile data, offline maps): complete
 - See `17-production-30s-hindi04-01.md`; output sha256 `5239f66af914a1454115cdd74cae91c6a0f5e3a4e9f2ceea2c81f79006326a25`. The episode log and skill adjustments are in `11-production-format.md`.
+
+## Production 2026-11-05-feedback-05 (Hindi, Bluetooth headphones behind a thick wall): complete
+- See `18-production-30s-feedback05-01.md`; output sha256 `7ba35b646d94a35f6d446cb823f6afa8db338dca3d8e5189ddce6939e43c5099`.

@@ -1,0 +1,48 @@
+{
+  "voice": {
+    "name": "Meshline Hindi voice",
+    "blend": {
+      "hf_beta": 1.0
+    },
+    "speed": 1.0,
+    "lang": "hi",
+    "note": "Local Kokoro-82M ONNX (Apache-2.0) Hindi-trained voice hf_beta (approved Meshline Hindi voice since batch 03), espeak-ng 'hi'. Not an English voice; no imitation of any person."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.2,
+      "text": "दीवार के पीछे गए, हेडफ़ोन की आवाज़ टूटने लगी?"
+    },
+    {
+      "id": "l2",
+      "start": 3.9,
+      "text": "हेडफ़ोन, फ़ोन से ब्लूटूथ रेडियो पर सीधे जुड़ते हैं।"
+    },
+    {
+      "id": "l3",
+      "start": 7.66,
+      "text": "मोटी कंक्रीट या धातु की दीवार सिग्नल कमज़ोर करती है; दूरी और रेडियो-शोर भी।"
+    },
+    {
+      "id": "l4",
+      "start": 13.25,
+      "text": "जाँच: फ़ोन के पास, बिना दीवार आइए; आवाज़ सुधरे, तो वजह दूरी या रुकावट थी।"
+    },
+    {
+      "id": "l5",
+      "start": 18.8,
+      "text": "सिग्नल बार मोबाइल टावर के हैं, हेडफ़ोन लिंक के नहीं।"
+    },
+    {
+      "id": "l6",
+      "start": 22.62,
+      "text": "सीधे लिंक को चाहिए: कम दूरी, साफ़ रास्ता।"
+    },
+    {
+      "id": "l7",
+      "start": 25.99,
+      "text": "पास वालों से ऑफ़लाइन बात के लिए मेशलाइन डाउनलोड करें।"
+    }
+  ]
+}

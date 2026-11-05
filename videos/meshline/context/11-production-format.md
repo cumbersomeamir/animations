@@ -127,3 +127,11 @@ This is reference for later rounds. **No automation has been created.** Each rou
   - Kokoro `hf_beta` at speed 1.0, Noto Sans Devanagari with an Inter fallback, captions in the y 340–520 band, Hindi map labels.
   - About 70–73 Hindi words fit 30 s with ~0.4 s pauses. CTA at ~26.0 s.
 - **Caption anchors (implementation):** short Hindi words must match ASR words exactly ('से' ≠ 'सेव'); longer words use a 3-letter prefix or similarity ≥ 0.6 (`scripts_captions.py`). Map Latin-script loanwords (GPS, satellite, map, data, save) back to Devanagari before matching or scoring.
+| 07 | 2026-11-05-feedback-05 | दीवार के पीछे हेडफ़ोन की आवाज़ क्यों टूटती है? (Bluetooth headphones behind a thick wall), **Hindi** | `production/30s/2026-11-05-feedback-05/meshline-30s-feedback05-01.mp4` |
+
+## User feedback 2026-11-05, batch feedback-05 (from the Instagram App Performance sheet; specific adjustments only)
+- **Performance data:** 8/8 reels show plays (436 observed plays, 19 likes visible on 7/8, median 17). This is not causal evidence: treat each new batch as a controlled topic/opening test and never as permission to change the approved style.
+- **Opening:** the problem must be visible in the first 1–2 s, from frame 1 if possible, with the hook question captioned from 0.15 s. Skip slow establishing shots.
+- **One familiar scene:** each episode has one everyday setting plus one hands-on test the viewer can try. The scene computes its meters from what the map shows (here: distance + wall crossing + noise → bars and waveform), so the instrument never contradicts the picture.
+- **Publishing caption:** the final Hindi transcript verbatim (line by line), then source links and a few hashtags. It contains no editing or production notes and uses only the Meshline name. Other app names (e.g. Recall) are rejected in CTA and copy.
+- **CTA:** "पास वालों से ऑफ़लाइन बात के लिए मेशलाइन डाउनलोड करें", reused unchanged from batch 04 (it carries the documented scope: nearby, offline). No range, emergency or guarantee claims.

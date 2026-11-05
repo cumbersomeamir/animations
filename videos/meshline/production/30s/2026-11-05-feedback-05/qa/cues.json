@@ -1,0 +1,131 @@
+{
+ "duration": 30,
+ "events": [
+  {
+   "t": 0.5,
+   "type": "fizz",
+   "gain": 0.26
+  },
+  {
+   "t": 1.3,
+   "type": "fizz",
+   "gain": 0.26
+  },
+  {
+   "t": 2,
+   "type": "retry",
+   "gain": 0.26
+  },
+  {
+   "t": 2.4,
+   "type": "fizz",
+   "gain": 0.26
+  },
+  {
+   "t": 4,
+   "type": "sweep",
+   "gain": 0.2,
+   "dur": 0.7
+  },
+  {
+   "t": 5,
+   "type": "pen",
+   "gain": 0.4,
+   "dur": 0.5999999999999996
+  },
+  {
+   "t": 7.7,
+   "type": "thunk",
+   "gain": 0.4
+  },
+  {
+   "t": 10.2,
+   "type": "bar",
+   "gain": 0.2,
+   "step": 2
+  },
+  {
+   "t": 10.3,
+   "type": "bar",
+   "gain": 0.2,
+   "step": 1
+  },
+  {
+   "t": 10.4,
+   "type": "bar",
+   "gain": 0.2,
+   "step": 0
+  },
+  {
+   "t": 11,
+   "type": "penShort",
+   "gain": 0.35,
+   "dur": 0.5
+  },
+  {
+   "t": 11.9,
+   "type": "fizz",
+   "gain": 0.32
+  },
+  {
+   "t": 13.6,
+   "type": "dots",
+   "gain": 0.24,
+   "dur": 2.4000000000000004
+  },
+  {
+   "t": 16.2,
+   "type": "chime",
+   "gain": 0.33
+  },
+  {
+   "t": 18.8,
+   "type": "sweep",
+   "gain": 0.24,
+   "dur": 0.9
+  },
+  {
+   "t": 19.1,
+   "type": "pen",
+   "gain": 0.35,
+   "dur": 0.7
+  },
+  {
+   "t": 19.6,
+   "type": "dots",
+   "gain": 0.22,
+   "dur": 1.2999999999999972
+  },
+  {
+   "t": 20.7,
+   "type": "fizz",
+   "gain": 0.26
+  },
+  {
+   "t": 21,
+   "type": "callout",
+   "gain": 0.26
+  },
+  {
+   "t": 22.6,
+   "type": "dots",
+   "gain": 0.22,
+   "dur": 1.5999999999999979
+  },
+  {
+   "t": 24,
+   "type": "stamp",
+   "gain": 0.28
+  },
+  {
+   "t": 24.65,
+   "type": "stamp",
+   "gain": 0.28
+  },
+  {
+   "t": 25.99,
+   "type": "chime",
+   "gain": 0.32
+  }
+ ]
+}
