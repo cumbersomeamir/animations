@@ -1,0 +1,6 @@
+# QR demo only (separate venv, Python 3.12). Official registries only.
+segno==1.6.6
+opencv-python-headless==5.0.0.93
+numpy==2.5.4
+pillow==13.0.0
+# plus Ubuntu 24.04 archive: apt install zbar-tools   (zbar-tools / libzbar0t64 0.23.93-4build3)

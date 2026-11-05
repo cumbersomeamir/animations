@@ -1,0 +1,65 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "pronunciation_checked": "misaki: QR = kjˌuˈɑɹ, L = ˈɛl, H = ˈAʧ, data = dˈATə, use (verb) = jˈuz",
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "This QR code lost a corner, and it still scans.",
+   "after": 0.4
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Every QR code carries extra recovery data: error correction.",
+   "after": 0.25
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "If squares get torn or dirty, the scanner rebuilds the missing data.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Level L recovers about seven percent of its data; level H, about thirty.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "But error correction can't fix the three corner squares scanners look for.",
+   "after": 0.3
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Printing one? Choose a higher level, and keep those corners clear.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 26.15,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.35
+  }
+ ]
+}

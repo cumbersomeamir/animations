@@ -1,0 +1,128 @@
+[
+ {
+  "check": "S1 torn corner, level H",
+  "t": 1.5,
+  "crop": [
+   180,
+   640,
+   720,
+   760
+  ],
+  "zbar": true,
+  "opencv": true,
+  "expected": true,
+  "pass": true
+ },
+ {
+  "check": "S1 torn corner, level H",
+  "t": 2.9,
+  "crop": [
+   180,
+   640,
+   720,
+   760
+  ],
+  "zbar": true,
+  "opencv": true,
+  "expected": true,
+  "pass": true
+ },
+ {
+  "check": "S2 intact, level H (small)",
+  "t": 6.5,
+  "crop": [
+   330,
+   590,
+   420,
+   400
+  ],
+  "zbar": true,
+  "opencv": true,
+  "expected": true,
+  "pass": true
+ },
+ {
+  "check": "S3 not a full code (zoom)",
+  "t": 11.0,
+  "crop": [
+   120,
+   580,
+   840,
+   650
+  ],
+  "zbar": false,
+  "opencv": false,
+  "expected": null,
+  "pass": null
+ },
+ {
+  "check": "S4 same tear, level L",
+  "t": 16.3,
+  "crop": [
+   90,
+   670,
+   395,
+   400
+  ],
+  "zbar": false,
+  "opencv": false,
+  "expected": false,
+  "pass": true
+ },
+ {
+  "check": "S4 same tear, level H",
+  "t": 16.3,
+  "crop": [
+   565,
+   670,
+   400,
+   400
+  ],
+  "zbar": true,
+  "opencv": true,
+  "expected": true,
+  "pass": true
+ },
+ {
+  "check": "S5 small tear on a corner square, H (before outlines)",
+  "t": 18.75,
+  "crop": [
+   240,
+   600,
+   600,
+   600
+  ],
+  "zbar": false,
+  "opencv": false,
+  "expected": false,
+  "pass": true
+ },
+ {
+  "check": "S5 same, with outlines + brackets",
+  "t": 20.8,
+  "crop": [
+   240,
+   600,
+   600,
+   600
+  ],
+  "zbar": false,
+  "opencv": false,
+  "expected": false,
+  "pass": true
+ },
+ {
+  "check": "S6 intact, level H (preview)",
+  "t": 25.0,
+  "crop": [
+   340,
+   1010,
+   400,
+   360
+  ],
+  "zbar": true,
+  "opencv": true,
+  "expected": true,
+  "pass": true
+ }
+]

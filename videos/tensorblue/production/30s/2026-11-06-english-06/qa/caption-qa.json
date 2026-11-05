@@ -1,0 +1,208 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "This QR code lost a corner,",
+    "and it still scans."
+   ],
+   "t0": 0.24,
+   "tEnd": 3.55,
+   "frame": 25,
+   "box": {
+    "x0": 191,
+    "x1": 885,
+    "y0": 372,
+    "y1": 477,
+    "n": 17758
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Every QR code carries",
+    "extra recovery data:"
+   ],
+   "t0": 3.49,
+   "tEnd": 6.48,
+   "frame": 123,
+   "box": {
+    "x0": 253,
+    "x1": 827,
+    "y0": 372,
+    "y1": 488,
+    "n": 17755
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "error correction."
+   ],
+   "t0": 6.42,
+   "tEnd": 7.69,
+   "frame": 210,
+   "box": {
+    "x0": 328,
+    "x1": 749,
+    "y0": 409,
+    "y1": 450,
+    "n": 6516
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "If squares get torn or dirty,"
+   ],
+   "t0": 7.63,
+   "tEnd": 9.68,
+   "frame": 247,
+   "box": {
+    "x0": 195,
+    "x1": 883,
+    "y0": 403,
+    "y1": 456,
+    "n": 11097
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the scanner rebuilds",
+    "the missing data."
+   ],
+   "t0": 9.62,
+   "tEnd": 11.89,
+   "frame": 307,
+   "box": {
+    "x0": 273,
+    "x1": 804,
+    "y0": 371,
+    "y1": 488,
+    "n": 16218
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Level L recovers about",
+    "seven percent of its data;"
+   ],
+   "t0": 11.83,
+   "tEnd": 15.06,
+   "frame": 373,
+   "box": {
+    "x0": 211,
+    "x1": 866,
+    "y0": 375,
+    "y1": 488,
+    "n": 19667
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "level H, about thirty."
+   ],
+   "t0": 15,
+   "tEnd": 17,
+   "frame": 468,
+   "box": {
+    "x0": 280,
+    "x1": 798,
+    "y0": 404,
+    "y1": 456,
+    "n": 8333
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "But error correction"
+   ],
+   "t0": 16.95,
+   "tEnd": 18.14,
+   "frame": 526,
+   "box": {
+    "x0": 287,
+    "x1": 792,
+    "y0": 409,
+    "y1": 450,
+    "n": 8154
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "can't fix the three corner",
+    "squares scanners look for."
+   ],
+   "t0": 18.08,
+   "tEnd": 21.16,
+   "frame": 560,
+   "box": {
+    "x0": 197,
+    "x1": 880,
+    "y0": 372,
+    "y1": 488,
+    "n": 20781
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Printing one?"
+   ],
+   "t0": 21.1,
+   "tEnd": 22.13,
+   "frame": 651,
+   "box": {
+    "x0": 371,
+    "x1": 709,
+    "y0": 403,
+    "y1": 456,
+    "n": 5765
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Choose a higher level,",
+    "and keep those corners clear."
+   ],
+   "t0": 22.07,
+   "tEnd": 25.55,
+   "frame": 680,
+   "box": {
+    "x0": 155,
+    "x1": 921,
+    "y0": 371,
+    "y1": 487,
+    "n": 21681
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.09,
+   "tEnd": 29.6,
+   "frame": 801,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

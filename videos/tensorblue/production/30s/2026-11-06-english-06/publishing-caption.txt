@@ -1,0 +1,18 @@
+This QR code lost a corner, and it still scans.
+
+Every QR code carries extra recovery data: error correction. If squares get torn or dirty, the scanner rebuilds the missing data. Level L recovers about seven percent of its data; level H, about thirty. But error correction can't fix the three corner squares scanners look for.
+
+Printing one? Choose a higher level, and keep those corners clear.
+
+The demo is real: the same tear was applied to a level L and a level H code and read with open-source zbar and OpenCV. Level H still scanned, level L did not, and a small tear on a corner square stopped both. The menu card and example.com address are made up for the demo.
+
+Sources (DENSO WAVE, inventor of QR Code):
+- Error correction feature: https://www.qrcode.com/en/about/error_correction.html
+- QR Code standardization (L 7%, M 15%, Q 25%, H 30%): https://www.qrcode.com/en/about/standards.html
+- What is a QR Code?: https://www.qrcode.com/en/about/
+- Micro QR Code (position detection patterns at three corners): https://www.qrcode.com/en/codes/microqr.html
+- History of QR Code: https://www.qrcode.com/en/history/
+
+Follow Tensorblue for software explained simply.
+
+#QRCode #ErrorCorrection #SoftwareExplained

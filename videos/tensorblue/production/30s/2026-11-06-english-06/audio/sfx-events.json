@@ -1,0 +1,185 @@
+{
+ "sfx": [
+  {
+   "t": 0.12,
+   "type": "paper"
+  },
+  {
+   "t": 0.75,
+   "type": "tap"
+  },
+  {
+   "t": 1.05,
+   "type": "match"
+  },
+  {
+   "t": 2.191,
+   "type": "type"
+  },
+  {
+   "t": 2.453,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 3.102,
+   "type": "wipe"
+  },
+  {
+   "t": 7.31,
+   "type": "wipe"
+  },
+  {
+   "t": 11.512,
+   "type": "wipe"
+  },
+  {
+   "t": 16.891,
+   "type": "wipe"
+  },
+  {
+   "t": 20.764,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 3.402,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 4.488,
+   "type": "carve"
+  },
+  {
+   "t": 4.901,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 6.426,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 8.369,
+   "type": "carve"
+  },
+  {
+   "t": 10.256,
+   "type": "slide"
+  },
+  {
+   "t": 10.856,
+   "type": "match"
+  },
+  {
+   "t": 13.299,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 14.099,
+   "type": "strike"
+  },
+  {
+   "t": 15.411,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 15.861,
+   "type": "match"
+  },
+  {
+   "t": 16.181,
+   "type": "type"
+  },
+  {
+   "t": 17.941,
+   "type": "paper"
+  },
+  {
+   "t": 18.929,
+   "type": "carve"
+  },
+  {
+   "t": 20.516,
+   "type": "strike"
+  },
+  {
+   "t": 19.441,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 22.387,
+   "type": "tap"
+  },
+  {
+   "t": 23.737,
+   "type": "blip"
+  },
+  {
+   "t": 24.766,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.328,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "lost": 1.066,
+  "still": 2.241,
+  "scans": 2.503,
+  "carries": 4.488,
+  "extra": 4.901,
+  "recovery": 5.263,
+  "error2": 6.476,
+  "torn": 8.419,
+  "dirty": 8.931,
+  "rebuilds": 10.256,
+  "missing": 10.856,
+  "levL": 12.236,
+  "seven": 13.299,
+  "levH": 15.411,
+  "thirty": 16.261,
+  "error5": 17.091,
+  "cant": 18.141,
+  "three": 18.929,
+  "corner5": 19.191,
+  "squares5": 19.491,
+  "look": 20.316,
+  "choose": 22.125,
+  "higher": 22.437,
+  "corners6": 23.737,
+  "clear": 24.187,
+  "follow": 26.15,
+  "tb": 26.428,
+  "chime": 24.766000000000002,
+  "scenes": [
+   0,
+   3.3520000000000003,
+   7.5600000000000005,
+   11.761999999999999,
+   17.141000000000002,
+   21.014,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

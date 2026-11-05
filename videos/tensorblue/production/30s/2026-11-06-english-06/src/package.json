@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-english06-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer for Tensorblue 30s english-06 episode 01 (QR code error correction).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

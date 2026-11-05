@@ -1,0 +1,464 @@
+{
+ "model": "base.en",
+ "transcript": "This QR code lost a corner, and it still scans. Every QR code carries extra recovery data, error correction. If squares get torn or dirty, the scanner rebuilds the missing data. Level L recovers about 7% of its data. Level H about 30. But error correction can't fix the three corner squares scanners look for. Printing one, choose a higher level and keep those corners clear. Follow TensorBlue for software explained simply.",
+ "reference": "This QR code lost a corner, and it still scans. Every QR code carries extra recovery data: error correction. If squares get torn or dirty, the scanner rebuilds the missing data. Level L recovers about seven percent of its data; level H, about thirty. But error correction can't fix the three corner squares scanners look for. Printing one? Choose a higher level, and keep those corners clear. Follow Tensorblue for software explained simply.",
+ "wer": 0.0411,
+ "matched_words": 70,
+ "scripted_words": 73,
+ "mean_abs_start_drift_s": 0.125,
+ "max_abs_start_drift_s": 0.501,
+ "low_confidence_words": [
+  {
+   "w": "about",
+   "t0": 15.6,
+   "t1": 16.08,
+   "p": 0.524
+  },
+  {
+   "w": "one,",
+   "t0": 21.36,
+   "t1": 21.64,
+   "p": 0.469
+  }
+ ],
+ "words": [
+  {
+   "w": "This",
+   "t0": 0.0,
+   "t1": 0.4,
+   "p": 0.954
+  },
+  {
+   "w": "QR",
+   "t0": 0.4,
+   "t1": 0.62,
+   "p": 0.994
+  },
+  {
+   "w": "code",
+   "t0": 0.62,
+   "t1": 1.04,
+   "p": 0.98
+  },
+  {
+   "w": "lost",
+   "t0": 1.04,
+   "t1": 1.18,
+   "p": 0.984
+  },
+  {
+   "w": "a",
+   "t0": 1.18,
+   "t1": 1.36,
+   "p": 0.998
+  },
+  {
+   "w": "corner,",
+   "t0": 1.36,
+   "t1": 1.58,
+   "p": 0.992
+  },
+  {
+   "w": "and",
+   "t0": 1.98,
+   "t1": 2.14,
+   "p": 0.998
+  },
+  {
+   "w": "it",
+   "t0": 2.14,
+   "t1": 2.22,
+   "p": 0.996
+  },
+  {
+   "w": "still",
+   "t0": 2.22,
+   "t1": 2.4,
+   "p": 0.998
+  },
+  {
+   "w": "scans.",
+   "t0": 2.4,
+   "t1": 2.7,
+   "p": 0.996
+  },
+  {
+   "w": "Every",
+   "t0": 3.64,
+   "t1": 3.72,
+   "p": 0.994
+  },
+  {
+   "w": "QR",
+   "t0": 3.72,
+   "t1": 3.98,
+   "p": 0.999
+  },
+  {
+   "w": "code",
+   "t0": 3.98,
+   "t1": 4.44,
+   "p": 0.995
+  },
+  {
+   "w": "carries",
+   "t0": 4.44,
+   "t1": 4.78,
+   "p": 0.997
+  },
+  {
+   "w": "extra",
+   "t0": 4.78,
+   "t1": 5.22,
+   "p": 0.989
+  },
+  {
+   "w": "recovery",
+   "t0": 5.22,
+   "t1": 5.54,
+   "p": 0.986
+  },
+  {
+   "w": "data,",
+   "t0": 5.54,
+   "t1": 6.0,
+   "p": 0.999
+  },
+  {
+   "w": "error",
+   "t0": 6.66,
+   "t1": 6.66,
+   "p": 0.974
+  },
+  {
+   "w": "correction.",
+   "t0": 6.66,
+   "t1": 6.94,
+   "p": 0.995
+  },
+  {
+   "w": "If",
+   "t0": 7.74,
+   "t1": 7.78,
+   "p": 0.984
+  },
+  {
+   "w": "squares",
+   "t0": 7.78,
+   "t1": 7.98,
+   "p": 0.991
+  },
+  {
+   "w": "get",
+   "t0": 7.98,
+   "t1": 8.36,
+   "p": 0.993
+  },
+  {
+   "w": "torn",
+   "t0": 8.36,
+   "t1": 8.6,
+   "p": 0.995
+  },
+  {
+   "w": "or",
+   "t0": 8.6,
+   "t1": 8.88,
+   "p": 0.993
+  },
+  {
+   "w": "dirty,",
+   "t0": 8.88,
+   "t1": 9.06,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 9.74,
+   "t1": 9.8,
+   "p": 0.99
+  },
+  {
+   "w": "scanner",
+   "t0": 9.8,
+   "t1": 10.06,
+   "p": 0.988
+  },
+  {
+   "w": "rebuilds",
+   "t0": 10.06,
+   "t1": 10.74,
+   "p": 0.91
+  },
+  {
+   "w": "the",
+   "t0": 10.74,
+   "t1": 10.84,
+   "p": 0.995
+  },
+  {
+   "w": "missing",
+   "t0": 10.84,
+   "t1": 11.06,
+   "p": 0.999
+  },
+  {
+   "w": "data.",
+   "t0": 11.06,
+   "t1": 11.4,
+   "p": 1.0
+  },
+  {
+   "w": "Level",
+   "t0": 12.06,
+   "t1": 12.06,
+   "p": 0.966
+  },
+  {
+   "w": "L",
+   "t0": 12.06,
+   "t1": 12.36,
+   "p": 0.881
+  },
+  {
+   "w": "recovers",
+   "t0": 12.36,
+   "t1": 12.76,
+   "p": 0.996
+  },
+  {
+   "w": "about",
+   "t0": 12.76,
+   "t1": 13.14,
+   "p": 0.988
+  },
+  {
+   "w": "7",
+   "t0": 13.14,
+   "t1": 13.58,
+   "p": 0.885
+  },
+  {
+   "w": "%",
+   "t0": 13.58,
+   "t1": 13.8,
+   "p": 0.858
+  },
+  {
+   "w": "of",
+   "t0": 13.8,
+   "t1": 14.1,
+   "p": 0.991
+  },
+  {
+   "w": "its",
+   "t0": 14.1,
+   "t1": 14.2,
+   "p": 0.95
+  },
+  {
+   "w": "data.",
+   "t0": 14.2,
+   "t1": 14.42,
+   "p": 1.0
+  },
+  {
+   "w": "Level",
+   "t0": 15.26,
+   "t1": 15.26,
+   "p": 0.993
+  },
+  {
+   "w": "H",
+   "t0": 15.26,
+   "t1": 15.6,
+   "p": 0.994
+  },
+  {
+   "w": "about",
+   "t0": 15.6,
+   "t1": 16.08,
+   "p": 0.524
+  },
+  {
+   "w": "30.",
+   "t0": 16.08,
+   "t1": 16.44,
+   "p": 0.994
+  },
+  {
+   "w": "But",
+   "t0": 17.06,
+   "t1": 17.08,
+   "p": 0.991
+  },
+  {
+   "w": "error",
+   "t0": 17.08,
+   "t1": 17.24,
+   "p": 0.979
+  },
+  {
+   "w": "correction",
+   "t0": 17.24,
+   "t1": 17.64,
+   "p": 0.999
+  },
+  {
+   "w": "can't",
+   "t0": 17.64,
+   "t1": 18.48,
+   "p": 0.991
+  },
+  {
+   "w": "fix",
+   "t0": 18.48,
+   "t1": 18.64,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 18.64,
+   "t1": 18.9,
+   "p": 0.998
+  },
+  {
+   "w": "three",
+   "t0": 18.9,
+   "t1": 19.14,
+   "p": 0.825
+  },
+  {
+   "w": "corner",
+   "t0": 19.14,
+   "t1": 19.44,
+   "p": 0.616
+  },
+  {
+   "w": "squares",
+   "t0": 19.44,
+   "t1": 19.7,
+   "p": 0.765
+  },
+  {
+   "w": "scanners",
+   "t0": 19.7,
+   "t1": 20.04,
+   "p": 0.849
+  },
+  {
+   "w": "look",
+   "t0": 20.04,
+   "t1": 20.44,
+   "p": 0.988
+  },
+  {
+   "w": "for.",
+   "t0": 20.44,
+   "t1": 20.68,
+   "p": 0.999
+  },
+  {
+   "w": "Printing",
+   "t0": 21.36,
+   "t1": 21.36,
+   "p": 0.917
+  },
+  {
+   "w": "one,",
+   "t0": 21.36,
+   "t1": 21.64,
+   "p": 0.469
+  },
+  {
+   "w": "choose",
+   "t0": 22.14,
+   "t1": 22.28,
+   "p": 0.994
+  },
+  {
+   "w": "a",
+   "t0": 22.28,
+   "t1": 22.44,
+   "p": 0.995
+  },
+  {
+   "w": "higher",
+   "t0": 22.44,
+   "t1": 22.64,
+   "p": 0.999
+  },
+  {
+   "w": "level",
+   "t0": 22.64,
+   "t1": 22.98,
+   "p": 0.996
+  },
+  {
+   "w": "and",
+   "t0": 22.98,
+   "t1": 23.2,
+   "p": 0.726
+  },
+  {
+   "w": "keep",
+   "t0": 23.2,
+   "t1": 23.4,
+   "p": 0.999
+  },
+  {
+   "w": "those",
+   "t0": 23.4,
+   "t1": 23.64,
+   "p": 0.998
+  },
+  {
+   "w": "corners",
+   "t0": 23.64,
+   "t1": 23.9,
+   "p": 0.994
+  },
+  {
+   "w": "clear.",
+   "t0": 23.9,
+   "t1": 24.4,
+   "p": 0.998
+  },
+  {
+   "w": "Follow",
+   "t0": 25.76,
+   "t1": 26.36,
+   "p": 0.978
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 26.36,
+   "t1": 26.88,
+   "p": 0.791
+  },
+  {
+   "w": "for",
+   "t0": 26.88,
+   "t1": 27.14,
+   "p": 0.992
+  },
+  {
+   "w": "software",
+   "t0": 27.14,
+   "t1": 27.32,
+   "p": 0.96
+  },
+  {
+   "w": "explained",
+   "t0": 27.32,
+   "t1": 27.92,
+   "p": 0.98
+  },
+  {
+   "w": "simply.",
+   "t0": 27.92,
+   "t1": 28.4,
+   "p": 0.987
+  }
+ ]
+}

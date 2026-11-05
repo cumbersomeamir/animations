@@ -29,6 +29,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-05 feedback-05:** keep the satisfied design and Hindi setup; treat the user's performance snapshot as a controlled topic/opening test, not causal evidence or a reason to change style. Open on the working result inside 1–2 s. Real demos must use invented documents only and run the actual tool (here OCRmyPDF + Tesseract on a fictional slip). Hindi TTS: spell acronyms with spaces in `tts` ("ओ सी आर", "पी डी एफ़") — espeak-hi glides unspaced acronyms. Check every "how it works" claim against the tool's actual output (the OCR text layer is *beneath* the image, not on top). Publishing caption = the final transcript verbatim + sources + Tensorblue CTA only. Details: `18-production-30s-feedback05-01.md`.
 
+- **2026-11-06 english-06:** language override back to **English** narration + captions for this batch (Kokoro `af_bella`×0.7 + `am_puck`×0.3, en-us, speed 0.98; Hindi audio never reused). "Approved voice character" = Tensorblue's own voice; other apps named in a brief are not read. Same satisfied design. For tool demos, decode/verify the final MP4's own frames, not just the test images (QR: segno + zbar + OpenCV). English ASR: run `asr.py` on the narration span only (`clip_timestamps`), because Whisper hallucinates on the music-only tail. Details: `19-production-30s-english06-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/
