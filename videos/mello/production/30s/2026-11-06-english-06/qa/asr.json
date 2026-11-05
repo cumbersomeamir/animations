@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "You hit send to the whole team... then you spot the mistake. Owning it feels like proof that you're careless. But in studies, people judged someone else admitting a mistake more kindly than themselves. Researchers call it the beautiful mess effect. So own it in one plain line, and send the fix. Still feels huge? Ask: If a colleague owned this mistake, what would I think of them? Take a mindful break with Mello.",
+  "transcript": "You hit send to the whole team, then you spot the mistake. Owning it feels like proof that you're careless. But in studies, people judged someone else admitting a mistake more kindly than themselves. Researchers call it the beautiful mess effect. So own it in one plain line and send the fix. Still feels huge. Ask. If a colleague owned this mistake, what would I think of them? Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 3.304,
+      "text": "You hit send to the whole team, then you spot the mistake.",
+      "cer": 0.0
+    },
+    {
+      "id": "fear",
+      "start": 4.0,
+      "end": 6.081,
+      "text": "Owning it feels like proof that you're careless.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 6.75,
+      "end": 11.895,
+      "text": "But in studies, people judged someone else admitting a mistake more kindly than themselves.",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 12.6,
+      "end": 14.867,
+      "text": "Researchers call it the beautiful mess effect.",
+      "cer": 0.0
+    },
+    {
+      "id": "own",
+      "start": 15.5,
+      "end": 18.249,
+      "text": "So own it in one plain line and send the fix.",
+      "cer": 0.0
+    },
+    {
+      "id": "ask",
+      "start": 18.75,
+      "end": 20.317,
+      "text": "Still feels huge. Ask.",
+      "cer": 0.0
+    },
+    {
+      "id": "question",
+      "start": 20.8,
+      "end": 23.889,
+      "text": "If a colleague owned this mistake, what would I think of them?",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
