@@ -1,0 +1,22 @@
+{
+  "caption": {
+    "minTop": 354,
+    "maxBottom": 502,
+    "minLeft": 172,
+    "maxRight": 908,
+    "maxLines": 2,
+    "pillTop": 346,
+    "pillBottom": 514
+  },
+  "labels": {
+    "minLeft": 245,
+    "maxRight": 984,
+    "minTop": 550,
+    "maxBottom": 1460
+  },
+  "labelInTop300": [],
+  "labelOutsideSafe": [],
+  "labelUnderCaption": [],
+  "labelOverlaps": [],
+  "samples": 150
+}

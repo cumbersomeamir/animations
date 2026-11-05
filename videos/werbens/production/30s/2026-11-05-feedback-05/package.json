@@ -1,0 +1,21 @@
+{
+  "name": "werbens-30s-feedback05-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 30 s Hindi feedback-05: a restaurant ad with one clear product photo, price and action beats vague premium adjectives. Accepted 'Satisfying Product Theatre' style + Hindi pipeline (Kokoro-82M Hindi voice + eSpeak-NG hi G2P, Devanagari captions); colours/logo from app.werbens.com.",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "qa": "bash qa.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "kokoro-js": "1.2.1",
+    "three": "0.180.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0"
+  }
+}
