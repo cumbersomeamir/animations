@@ -1,0 +1,55 @@
+{
+  "note": "Hindi narration: outdoor-venue rain backup checklist. Fictional venue shown on screen only ('चमेली बाग़ — काल्पनिक'). No legal/rate claims; electrical work left to a qualified electrician (no DIY). 'speak' = G2P-only respelling.",
+  "voice": {
+    "mix": [
+      [
+        "hf_alpha",
+        0.7
+      ],
+      [
+        "hm_omega",
+        0.3
+      ]
+    ],
+    "speed": 1.04,
+    "g2p": "misaki 0.7.4 EspeakG2P(language='hi') via espeak-ng (espeakng-loader 0.2.4)"
+  },
+  "lines": [
+    {
+      "id": "h1",
+      "start": 0.18,
+      "say": "खुले लॉन में शादी, और अचानक बारिश? बैकअप प्लान तैयार रखिए."
+    },
+    {
+      "id": "h2",
+      "start": 5.13,
+      "say": "पहला, सबके बैठने लायक छत वाली जगह."
+    },
+    {
+      "id": "h3",
+      "start": 8.47,
+      "say": "दूसरा, बिजली योग्य इलेक्ट्रीशियन लगाए; बोर्ड ढके, तार पानी से दूर."
+    },
+    {
+      "id": "h4",
+      "start": 13.88,
+      "say": "तीसरा, ढका रास्ता और फिसलन रोकने वाली चटाई."
+    },
+    {
+      "id": "h5",
+      "start": 17.78,
+      "say": "चौथा, टेंट, कैटरर, डेकोर की बारिश वाली शर्तें लिखित में."
+    },
+    {
+      "id": "h6",
+      "start": 22.4,
+      "say": "और पक्का कीजिए, किस समय बैकअप प्लान पर जाएँगे."
+    },
+    {
+      "id": "h7",
+      "start": 26.41,
+      "say": "चेकलिस्ट के लिए प्लान माय वेडिंग डाउनलोड करें.",
+      "speak": "चेकलिस्ट के लिए प्लान माय वैडिंग डाउन लोड करें."
+    }
+  ]
+}
