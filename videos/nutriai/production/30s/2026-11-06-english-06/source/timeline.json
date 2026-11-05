@@ -1,0 +1,41 @@
+{
+ "_doc": "CalMeter English 30 s english-06 (2026-11-06): peanuts vs peanut butter, same 30 g. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single ASR timing pass (qa/asr-takes.txt, faster-whisper base.en).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.25}, {"id": "T1", "at": 5.10}, {"id": "T2", "at": 9.70}, {"id": "T3", "at": 18.30}, {"id": "T4", "at": 26.40}],
+ "captions": [
+  {"in": 6, "out": 90, "lines": [["Same 30 grams:", 8], ["peanuts or peanut butter?", 48]]},
+  {"in": 94, "out": 146, "lines": [["Which has", 96], ["more calories?", 106]]},
+  {"in": 150, "out": 270, "lines": [["Almost a tie: 176 vs 178", 153], ["peanuts are ~half fat", 194]]},
+  {"in": 286, "out": 402, "lines": [["The jar adds sugar,", 293], ["hydrogenated oil and salt", 340]]},
+  {"in": 414, "out": 540, "lines": [["Sodium per 30 g:", 423], ["2 mg → about 140 mg", 443]]},
+  {"in": 546, "out": 636, "lines": [["30 g ≈ 2 level", 549], ["tablespoons (16 g each)", 587]]},
+  {"in": 640, "out": 776, "lines": [["A heaped spoon holds more:", 641], ["weigh one once", 689]]},
+  {"in": 786, "out": 899, "lines": [["Track your food and nutrition", 792], ["with CalMeter", 830]]}
+ ],
+ "events": {
+  "balance": 0, "peanutsIn": 10, "spoonIn": 18, "tags": 26, "title": 12,
+  "burnish": 136, "section": 138, "washSection": 148,
+  "kcalPeanut": 160, "kcalButter": 176, "equal": 186, "halfFat": 232, "legend": 196, "roundelsOut": 272,
+  "jar": 280, "sugar": 311, "oil": 340, "salt": 382, "sodium": 420, "sodiumGrow": 443, "jarOut": 530,
+  "spoons": 540, "levelSpoon": 556, "w16": 588, "levelLabel": 598, "heap": 642, "weighLabel": 690, "spoonsOut": 764,
+  "cta": 772, "ctaWord": 790
+ },
+ "sfx": [
+  {"ev": "balance", "type": "pencil", "dur": 0.8, "gain": -27},
+  {"ev": "peanutsIn", "type": "patter", "dur": 0.6, "gain": -23},
+  {"ev": "spoonIn", "type": "thud", "gain": -22},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "section", "type": "pencil", "dur": 1.0, "gain": -27},
+  {"ev": "kcalPeanut", "type": "tick", "gain": -24},
+  {"ev": "kcalButter", "type": "tick", "gain": -24},
+  {"ev": "roundelsOut", "type": "page", "gain": -21},
+  {"ev": "sugar", "type": "tick", "gain": -26},
+  {"ev": "oil", "type": "tick", "gain": -26},
+  {"ev": "salt", "type": "tick", "gain": -26},
+  {"ev": "jarOut", "type": "page", "gain": -21},
+  {"ev": "w16", "type": "clink", "gain": -24},
+  {"ev": "heap", "type": "thud", "gain": -24},
+  {"ev": "spoonsOut", "type": "page", "gain": -21},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

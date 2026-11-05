@@ -1,0 +1,128 @@
+{
+ "note": "USDA FoodData Central Branded Foods (manufacturer label data), bulk file FoodData_Central_branded_food_json_2024-10-31.zip sha256 1f25a021...4f17. 2674433 = label example used on screen; 2657622 = same product, other GTIN, lists added sugars.",
+ "records": [
+  {
+   "fdcId": 2657622,
+   "brandOwner": "Hormel Foods Corporation ",
+   "brandName": "SKIPPY",
+   "description": "CREAMY  PEANUT BUTTER",
+   "gtinUpc": "0037600106863",
+   "ingredients": "ROASTED PEANUTS, SUGAR, HYDROGENATED VEGETABLE OIL (COTTONSEED, SOYBEAN AND RAPESEED OIL) TO PREVENT SEPARATION, SALT",
+   "servingSize": 32,
+   "servingSizeUnit": "GRM",
+   "householdServingFullText": "2 Tbsp (32g)",
+   "labelNutrients": {
+    "fat": 16.0,
+    "saturatedFat": 3.0,
+    "transFat": 0.0,
+    "cholesterol": 0.0,
+    "sodium": 150,
+    "carbohydrates": 6.02,
+    "fiber": 1.98,
+    "sugars": 3.0,
+    "protein": 7.01,
+    "vitaminD": 0.0,
+    "calcium": 0.0,
+    "iron": 0.4,
+    "potassium": 89.9,
+    "addedSugar": 1.98,
+    "calories": 190
+   },
+   "publicationDate": "10/26/2023",
+   "modifiedDate": "9/6/2023",
+   "dataSource": "LI",
+   "foodNutrients": [
+    {
+     "name": "Protein",
+     "amount": 21.9,
+     "unit": "g"
+    },
+    {
+     "name": "Total lipid (fat)",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "name": "Energy",
+     "amount": 594,
+     "unit": "kcal"
+    },
+    {
+     "name": "Total Sugars",
+     "amount": 9.38,
+     "unit": "g"
+    },
+    {
+     "name": "Sodium, Na",
+     "amount": 469,
+     "unit": "mg"
+    },
+    {
+     "name": "Fatty acids, total saturated",
+     "amount": 9.38,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "fdcId": 2674433,
+   "brandOwner": "Hormel Foods Corporation ",
+   "brandName": "SKIPPY",
+   "description": "CREAMY PEANUT BUTTER",
+   "gtinUpc": "0037600110754",
+   "ingredients": "ROASTED PEANUTS, SUGAR, HYDROGENATED VEGETABLE OIL (COTTONSEED, SOYBEAN AND RAPESEED OIL) TO PREVENT SEPARATION, SALT",
+   "servingSize": 32,
+   "servingSizeUnit": "GRM",
+   "householdServingFullText": "2 Tbsp (32g)",
+   "labelNutrients": {
+    "fat": 16.0,
+    "saturatedFat": 3.0,
+    "transFat": 0.0,
+    "cholesterol": 0.0,
+    "sodium": 150,
+    "carbohydrates": 6.02,
+    "fiber": 1.98,
+    "sugars": 3.0,
+    "protein": 7.01,
+    "calcium": 0.0,
+    "iron": 0.358,
+    "calories": 190
+   },
+   "publicationDate": "11/16/2023",
+   "modifiedDate": "10/23/2023",
+   "dataSource": "LI",
+   "foodNutrients": [
+    {
+     "name": "Protein",
+     "amount": 21.9,
+     "unit": "g"
+    },
+    {
+     "name": "Total lipid (fat)",
+     "amount": 50.0,
+     "unit": "g"
+    },
+    {
+     "name": "Energy",
+     "amount": 594,
+     "unit": "kcal"
+    },
+    {
+     "name": "Total Sugars",
+     "amount": 9.38,
+     "unit": "g"
+    },
+    {
+     "name": "Sodium, Na",
+     "amount": 469,
+     "unit": "mg"
+    },
+    {
+     "name": "Fatty acids, total saturated",
+     "amount": 9.38,
+     "unit": "g"
+    }
+   ]
+  }
+ ]
+}

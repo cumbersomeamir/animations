@@ -1,0 +1,23 @@
+caption runs: 652; outside x 90-990 / y 340-520: 0; ink x 131-949, y 359-468
+max caption lines on screen at once: 2
+caption blocks overlapping in time: []
+any text ink above y 300: 0
+plate/other runs: 3629; above y 480: 0; off-frame: 0; right of x 950: 0; lowest plate text y 1538
+
+Narration vs caption line sync (ASR word start on the final MP4 vs caption line appearance):
+  Same         spoken   0.00s  caption   0.27s  offset +0.27s
+  peanuts      spoken   1.56s  caption   1.60s  offset +0.04s
+  which        spoken   3.22s  caption   3.20s  offset -0.02s
+  more         spoken   3.56s  caption   3.53s  offset -0.03s
+  Almost       spoken   4.76s  caption   5.10s  offset +0.34s
+  because      spoken   6.18s  caption   6.47s  offset +0.29s
+  jar          spoken   9.78s  caption   9.77s  offset -0.01s
+  hydrogenated spoken  11.26s  caption  11.33s  offset +0.07s
+  Sodium       spoken  14.16s  caption  14.10s  offset -0.06s
+  two          spoken  14.76s  caption  14.77s  offset +0.01s
+  30           spoken  18.00s  caption  18.30s  offset +0.30s
+  level        spoken  19.58s  caption  19.57s  offset -0.01s
+  heaped       spoken  21.40s  caption  21.37s  offset -0.03s
+  so           spoken  22.94s  caption  22.97s  offset +0.03s
+  Track        spoken  25.98s  caption  26.40s  offset +0.42s
+  with         spoken  27.68s  caption  27.67s  offset -0.01s

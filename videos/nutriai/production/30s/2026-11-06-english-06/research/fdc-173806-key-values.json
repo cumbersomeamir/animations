@@ -1,0 +1,85 @@
+{
+ "fdcId": 173806,
+ "ndbNumber": 16390,
+ "description": "Peanuts, all types, dry-roasted, without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Energy",
+   "amount": 2460.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 8.4,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 7.72,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 24.4,
+   "unit": "g",
+   "dataPoints": 17
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 21.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 587,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 1.81,
+   "unit": "g",
+   "dataPoints": 17
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 4.9,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 6.0,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 49.7,
+   "unit": "g",
+   "dataPoints": 9
+  }
+ ],
+ "portions": [
+  {
+   "measure": "oz",
+   "gramWeight": 28.35
+  },
+  {
+   "measure": "cup",
+   "gramWeight": 146.0
+  },
+  {
+   "measure": "peanut",
+   "gramWeight": 1.0
+  }
+ ]
+}

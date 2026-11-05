@@ -1,0 +1,7 @@
+[
+ {"id": "T0", "text": "Same thirty grams: peanuts or peanut butter. Which has more calories?"},
+ {"id": "T1", "text": "Almost a tie, because peanuts are already about half fat by weight.", "_note": "first take named both numbers and ran 7.2 s; the numbers (176 vs 178 kcal) stay on screen"},
+ {"id": "T2", "text": "The jar adds sugar, hydrogenated oil and salt; sodium jumps from two milligrams to about one hundred forty."},
+ {"id": "T3", "text": "Thirty grams is about two level tablespoons. A heaped spoon holds more, so weigh one once."},
+ {"id": "T4", "text": "Track your food and nutrition with CalMeter.", "phonemes": "tɹˈæk jʊɹ fˈuːd ænd njuːtɹˈɪʃən wɪð kˈælmˌiːtɚ.", "_note": "default phonemes 'kˈæl mˈiːɾɚ' are heard as 'cow meter' by ASR; brand stress CAL-meter with a clear t (verified 2026-11-02)"}
+]

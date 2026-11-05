@@ -1,0 +1,81 @@
+{
+ "fdcId": 172470,
+ "ndbNumber": 16398,
+ "description": "Peanut butter, smooth style, without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Sodium, Na",
+   "amount": 17.0,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 10.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 22.2,
+   "unit": "g",
+   "dataPoints": 18
+  },
+  {
+   "name": "Energy",
+   "amount": 2500.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 5.0,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 10.5,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 51.4,
+   "unit": "g",
+   "dataPoints": 18
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 22.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 598,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 1.23,
+   "unit": "g",
+   "dataPoints": 22
+  }
+ ],
+ "portions": [
+  {
+   "measure": "cup",
+   "gramWeight": 258.0
+  },
+  {
+   "measure": "tbsp",
+   "gramWeight": 32.0
+  }
+ ]
+}

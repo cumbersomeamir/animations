@@ -1,0 +1,10 @@
+black+freeze events (blackdetect >= 0.25 s, freezedetect default n, >= 0.8 s): 0
+stricter near-static scan (freezedetect n=0.003, >= 0.8 s):
+  freeze_start: 1.8
+  freeze_duration: 1.06667
+  freeze_start: 15.2667
+  freeze_duration: 1.4
+  freeze_start: 23.3333
+  freeze_duration: 1.66667
+  freeze_start: 27.8667
+  freeze_duration: 2

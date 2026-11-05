@@ -72,3 +72,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 10, from `production/30s/2026-11-05-feedback-05/source/`, output `../nutriai-30s-feedback05-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520 (ink-measured); Hindi ASR recovers every number (ASR-only, no listening); one note moved inside x 950. See `production/30s/2026-11-05-feedback-05/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 13. Batch 2026-11-06-english-06, peanuts vs peanut butter (CalMeter; English narration and captions)
+- Pre-check: repo/branch confirmed, origin at 46a58de, no active job; topic not covered before.
+- Facts: USDA FDC 173806 dry-roasted unsalted peanuts (587 kcal, 49.7 g fat, 6 mg sodium per 100 g); real label USDA FDC 2674433 SKIPPY Creamy (Hormel; 32 g: 190 kcal, 16 g fat, 3 g sugars, 150 mg sodium; ingredients peanuts, sugar, hydrogenated vegetable oil, salt); SR28 "2 tbsp = 32 g". Per 30 g: 176 vs 178 kcal; sodium 2 vs ~141 mg. Details: `context/19-production-30s-english06-peanuts.md`.
+- Decisions: English papaya renderer + Meshline voice (af_bella 0.7 + am_puck 0.3, en-us, 0.98) + accepted mix reused; balance hook within 0.5 s; brand named in repo notes only (label text shown, no logo).
+- Commands: as in section 9, from `production/30s/2026-11-06-english-06/source/`, output `../nutriai-30s-english06-01.mp4`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events after two motion fixes; captions 0 outside x 90–990 / y 340–520; ASR verbatim. See `production/30s/2026-11-06-english-06/QA.md`.
+- Unresolved: none blocking. Next step: none requested.
