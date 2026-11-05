@@ -37,5 +37,8 @@ The notice, school, dates (14/21 November), fee (₹350) and screens are fiction
 8. 23.6–25.25 two-shot: DOCKET points at the easel and nods.
 9. 25.25–30 CTA: wave; "[icon] आइडियावर्स ऐप / डाउनलोड कीजिए" ("download the Ideaverse app").
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-05
+- Output: production/30s/2026-11-05-feedback-05/ideaverse-30s-feedback05-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS.
+- Hindi ASR: all lines recognised (CER ≤ 0.24); one caption boundary fixed; captions in spec; top band text-free.
+- ASR-only limitation recorded; native-speaker listen recommended. Publishing caption = final transcript (publishing-caption.txt).

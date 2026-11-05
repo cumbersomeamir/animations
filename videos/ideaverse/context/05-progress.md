@@ -80,3 +80,9 @@
 - Hindi lesson (accepted DOCKET style): photograph a care label, ask an AI app in Hindi, cross-check label + brand site.
 - DELIVERED: production/30s/2026-11-04-hindi-04/ideaverse-30s-hindi04-01.mp4 (QA.md + qa/); record context/19.
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s feedback-05 (2026-11-05) — supersedes hindi-04 status above
+- Hindi lesson (accepted DOCKET style): long school notice → quoted, verified deadline-and-actions checklist.
+- DELIVERED: production/30s/2026-11-05-feedback-05/ideaverse-30s-feedback05-01.mp4 (QA.md + qa/); record context/20.
+- Next: await user review. No further episode, no automation.
