@@ -1,0 +1,51 @@
+== ffprobe streams
+index=0
+codec_name=h264
+profile=High
+codec_type=video
+width=1080
+height=1920
+pix_fmt=yuv420p
+r_frame_rate=30/1
+avg_frame_rate=30/1
+duration=30.000000
+bit_rate=929389
+nb_frames=900
+index=1
+codec_name=aac
+profile=LC
+codec_type=audio
+sample_rate=48000
+channels=2
+channel_layout=stereo
+r_frame_rate=0/0
+avg_frame_rate=0/0
+duration=30.000000
+bit_rate=192164
+nb_frames=1408
+== container
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+duration=30.000000
+size=4238753
+bit_rate=1130334
+== counted video frames
+nb_read_frames=900
+== full decode errors (empty = none)
+== decode exit ok
+== loudness (ebur128, exported AAC)
+[Parsed_ebur128_0 @ 0x55880eb4c0c0] Summary:
+
+  Integrated loudness:
+    I:         -15.0 LUFS
+    Threshold: -25.3 LUFS
+
+  Loudness range:
+    LRA:         2.1 LU
+    Threshold: -35.3 LUFS
+    LRA low:   -16.5 LUFS
+    LRA high:  -14.4 LUFS
+
+  True peak:
+    Peak:       -1.6 dBFS
+== sha256
+bdcf732c7765b418a44c6f4761230c2556538b92c7dc6f4140c46222a98ab928  /home/user/animations/videos/tensorblue/production/30s/2026-11-05-feedback-05/tensorblue-30s-feedback05-01.mp4

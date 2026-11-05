@@ -1,0 +1,152 @@
+{
+ "sfx": [
+  {
+   "t": 0.1,
+   "type": "carve"
+  },
+  {
+   "t": 0.75,
+   "type": "match"
+  },
+  {
+   "t": 3.389,
+   "type": "type"
+  },
+  {
+   "t": 3.669,
+   "type": "wipe"
+  },
+  {
+   "t": 7.772,
+   "type": "wipe"
+  },
+  {
+   "t": 13.475,
+   "type": "wipe"
+  },
+  {
+   "t": 17.252,
+   "type": "wipe"
+  },
+  {
+   "t": 20.106,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 5.665,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 7.04,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 9.319,
+   "type": "carve"
+  },
+  {
+   "t": 12.594,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 10.612,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 15.359,
+   "type": "slide"
+  },
+  {
+   "t": 15.934,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 18.336,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 18.893,
+   "type": "carve"
+  },
+  {
+   "t": 19.393,
+   "type": "match"
+  },
+  {
+   "t": 20.706,
+   "type": "carve"
+  },
+  {
+   "t": 22.72,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 23.964,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 24.518,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.05,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.891,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "mil": 2.82,
+  "kaise": 3.469,
+  "tasveer2": 5.765,
+  "usmen": 6.741,
+  "text2": 7.14,
+  "ocr3": 8.172,
+  "akshar": 9.419,
+  "text3": 10.712,
+  "har": 11.844,
+  "jagah": 12.744,
+  "neeche": 15.359,
+  "adrishya": 15.934,
+  "parat": 16.444,
+  "chune": 18.436,
+  "khoje": 19.093,
+  "khojna": 21.863,
+  "pehle": 22.77,
+  "chalaiye": 23.864,
+  "tb": 26.15,
+  "follow": 26.941,
+  "aasaan": 28.608,
+  "chime": 24.518,
+  "scenes": [
+   0,
+   3.919,
+   8.022,
+   13.725,
+   17.502,
+   20.355999999999998,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+यह स्कैन पीडीएफ़ है, फिर भी शब्द मिल गया। कैसे?
+
+स्कैन अक्सर सिर्फ़ एक तस्वीर होता है, उसमें टेक्स्ट नहीं। ओसीआर तस्वीर के अक्षर पहचानकर टेक्स्ट बनाता है, हर शब्द की जगह के साथ। यह टेक्स्ट तस्वीर के नीचे एक अदृश्य परत बनता है। अब शब्द चुने और खोजे जा सकते हैं।
+
+स्कैन पीडीएफ़ में खोजना है, तो पहले ओसीआर चलाइए।
+
+वीडियो में एक काल्पनिक लाइब्रेरी पर्ची पर ओपन-सोर्स OCRmyPDF (Tesseract इंजन) सच में चलाया गया: पहले पीडीएफ़ में 0 अक्षर, बाद में 23 शब्द। सर्च बार और टर्मिनल समझाने के लिए बनाए गए उदाहरण हैं।
+
+स्रोत:
+- OCRmyPDF documentation: https://ocrmypdf.readthedocs.io/en/latest/
+- OCRmyPDF – Introduction: https://ocrmypdf.readthedocs.io/en/latest/introduction.html
+- OCRmyPDF (GitHub README): https://github.com/ocrmypdf/OCRmyPDF
+- Tesseract documentation: https://tesseract-ocr.github.io/tessdoc/
+- Tesseract – Command-Line Usage: https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html
+
+टेंसरब्लू फ़ॉलो करें, सॉफ़्टवेयर आसान भाषा में।
+
+#ओसीआर #पीडीएफ़ #OpenSource #SoftwareExplained

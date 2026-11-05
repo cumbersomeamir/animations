@@ -27,6 +27,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-04 Hindi batch 04:** keep the satisfied design exactly; the renderer is the original Node + `@napi-rs/canvas` code (`brt.mjs` + per-episode `scene.mjs`) — **not Three.js**; the *style* is the Blue Receipt Theatre recipe. Re-fetch tensorblue.com colours each round (unchanged on 2026-11-04). Hindi wording rule: prefer native "चाबी" over the loanword "की" (espeak-hi makes "की" = postposition /ki/). Listening is not supported in the build container: record ASR-only verification. Details: `17-production-30s-hindi04-01.md`.
 
+- **2026-11-05 feedback-05:** keep the satisfied design and Hindi setup; treat the user's performance snapshot as a controlled topic/opening test, not causal evidence or a reason to change style. Open on the working result inside 1–2 s. Real demos must use invented documents only and run the actual tool (here OCRmyPDF + Tesseract on a fictional slip). Hindi TTS: spell acronyms with spaces in `tts` ("ओ सी आर", "पी डी एफ़") — espeak-hi glides unspaced acronyms. Check every "how it works" claim against the tool's actual output (the OCR text layer is *beneath* the image, not on top). Publishing caption = the final transcript verbatim + sources + Tensorblue CTA only. Details: `18-production-30s-feedback05-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

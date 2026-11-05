@@ -23,6 +23,7 @@ Out of scope: product ads for the Tensorblue app, current-news claims, invented 
 - **Logo:** `assets/brand/tensorblue-logo.svg` (blue `#0A6CFF` drop with a white tensor grid) from the user's own site; provenance in `assets/brand/SOURCE.md`. Preserve the relationship: blue mark + white detail, wordmark "Tensor" white + "blue" electric blue. Do not redraw or alter the mark.
 - Fonts: `assets/fonts/inter/` Inter 4.0 Medium/SemiBold/Bold + Inter Display Bold/ExtraBold (SIL OFL 1.1, Debian `fonts-inter` of rsms/inter; `OFL.txt` + `debian-copyright.txt`) — current format. `assets/fonts/patrick-hand/` (SIL OFL 1.1) — retired round-01 look only.
 - Hindi episodes: Devanagari font `assets/fonts/mukta/` (Mukta SemiBold/Bold/ExtraBold, SIL OFL 1.1, from the official `google/fonts` repo; `OFL.txt` alongside); Kokoro-82M official Hindi voices `hf_alpha`/`hm_omega` (Apache-2.0, cached, not committed).
+- Code/terminal text: `assets/fonts/jetbrains-mono/` (JetBrains Mono Bold/Medium, Apache-2.0 per `debian-copyright.txt`, Debian `fonts-jetbrains-mono` 2.304+ds-4) — first used in feedback-05.
 - Voice model: Kokoro-82M (Apache-2.0) downloaded from the official Hugging Face repo `hexgrad/Kokoro-82M`; not committed (large binary) — re-download or reuse a local cache.
 - Music and SFX: synthesized in code per round (original, no third-party samples).
 - Never use other apps' assets or the old `abbu-kbc-gift` repository.
