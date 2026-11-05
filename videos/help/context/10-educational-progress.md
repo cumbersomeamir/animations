@@ -106,3 +106,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-04 — hindi-04, 30 s #01 (Hindi; free tuition but transport/uniform costs block attendance) — DONE
 - Output `videos/help/production/30s/2026-11-04-hindi-04/help-30s-hindi04-01.mp4`, SHA-256 `c0d370ed547356659260ebc2f2010b73e8051373145fb3b96450073380613caf`.
 - Record: `17-production-30s-hindi04-01.md`; skill adjustments (no child drawn, fictional-family label, caption assert) appended to `11-production-format.md`. No automation created.
+
+## 2026-11-05 — feedback-05, 30 s #01 (Hindi; checks before donating a used phone to a student) — DONE
+- Output `videos/help/production/30s/2026-11-05-feedback-05/help-30s-feedback05-01.mp4`, SHA-256 `2fb84eb716ea60d4d3f806ee43a7e66d3359dec9c898e8c071ace574e51254cd`.
+- Record: `18-production-30s-feedback05-01.md`; corrections appended to `11-production-format.md`. No automation created.

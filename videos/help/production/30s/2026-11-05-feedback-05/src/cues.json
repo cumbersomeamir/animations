@@ -1,0 +1,23 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.20, 4.33, 9.40, 14.36, 18.00, 23.10, 25.95],
+ "scenes": {
+  "A_hook_three_checks": [0.0, 4.15],
+  "B_fictional_student": [4.15, 9.25],
+  "C_check1_need_apps": [9.25, 14.2],
+  "D_check2_battery": [14.2, 17.85],
+  "E_check3_signout_reset": [17.85, 22.95],
+  "G_checked_handover": [22.95, 25.8],
+  "F_cta": [25.8, 30.0]
+ },
+ "cues": {
+  "lift": 0.0, "screenOn": 0.3, "tag": 1.0, "n1": 2.75, "n2": 2.95, "n3": 3.15,
+  "label": 4.3, "student": 6.05, "classBoard": 6.9, "needPhone": 8.25,
+  "plaque1": 9.35, "ask": 9.75, "list": 10.4, "appsIn": 11.15, "runCheck": 12.45, "runOk": 13.4, "tick1": 13.6,
+  "plaque2": 14.3, "battery": 14.75, "clock": 15.2, "holdOk": 16.05, "plug": 16.45, "bolt": 16.95, "tick2": 17.3,
+  "plaque3": 17.95, "account": 18.4, "signOut": 19.1, "reset": 20.65, "wipe": 21.5, "hello": 22.3, "tick3": 22.5,
+  "recap": 23.05, "checkedTag": 23.55, "give": 24.4,
+  "logo": 26.2, "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to Hindi ASR word times of the final voice takes (qa/asr-voice-track-hi.txt). Scene changes on a lamp dip; scene props slide in with the scene."
+}

@@ -1,0 +1,33 @@
+{
+ "language": "hi (Devanagari)",
+ "sentences": [
+  {
+   "say": "पुराना फ़ोन दान करने से पहले, ये तीन बातें देख लें।",
+   "en": "Before donating an old phone, check these three things."
+  },
+  {
+   "say": "काल्पनिक उदाहरण: एक छात्रा को ऑनलाइन क्लास के लिए फ़ोन चाहिए।",
+   "en": "Fictional example: a student needs a phone for online classes."
+  },
+  {
+   "say": "एक: पूछें, कौन-से ऐप चलाने हैं, और क्या फ़ोन उन्हें चला पाएगा।",
+   "en": "One: ask which apps she needs to run, and whether the phone can run them."
+  },
+  {
+   "say": "दो: बैटरी देर तक चले, और चार्जिंग ठीक हो।",
+   "en": "Two: the battery should last, and charging should work."
+  },
+  {
+   "say": "तीन: अकाउंट से साइन आउट करें, फिर रीसेट करके निजी डेटा मिटाएँ।",
+   "en": "Three: sign out of your accounts, then reset to erase personal data."
+  },
+  {
+   "say": "जाँचा हुआ फ़ोन ही दान करें।",
+   "en": "Donate only a phone you have checked."
+  },
+  {
+   "say": "हेल्प ऐप डाउनलोड करें, ज़रूरी सामान दान करें।",
+   "en": "Download the Help app, donate essentials."
+  }
+ ]
+}

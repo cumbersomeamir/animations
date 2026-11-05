@@ -152,3 +152,12 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
   (e.g. `#D9C9A8`) so green → amber → empty stays legible.
 - Scene entry: a scene's anchor props (house, figure) must slide in with the scene, not pop at a later cue, or the A→B hand-off
   leaves an empty stage. Pace: 67 Hindi words fit 30 s when sentences 1–5 run with ~0.35 s pauses and the CTA keeps ~3.7 s.
+
+## Update 2026-11-05 — feedback-05 (corrections learned this episode)
+- Opening test (user's performance snapshot; not a causal finding): the subject is on stage at frame 0 and completes a visible action within
+  0.5 s (lift + screen lights); the episode's checks are pinned onto the object by ~3 s. Style itself unchanged.
+- Device props: draw a lit screen source-over (a multiplied `piece()` screen turns dark); use generic app glyphs only, never third-party app brands.
+- When the topic item is not an "essential" (e.g. a phone), keep the CTA scene on the essentials sack + real icon — never imply Help collects that item.
+- Voice naming: "Meshline" (af_bella + am_puck) is English-only; for Hindi it maps to the approved Kokoro hf_alpha 0.7 + hm_omega 0.3 blend.
+  No "Recall" voice is defined in this app's context.
+- Hindi ASR: "टिकती" is heard as "दिखती" (meaning changes) → say "देर तक चले". Keep ~0.3–0.4 s pauses; 68 words fit with a 3.7 s CTA.
