@@ -106,7 +106,7 @@ H.264 High yuv420p 1080×1920 30/1 fps, AAC-LC 48 kHz stereo 192 kb/s, exactly 3
 | round02-01 | production/30s/2026-11-03-round-02/ | How emergency satellite messaging reaches help when there is no mobile signal (Layered Tech Cutaway, accepted recipe unchanged) | delivered (context/15-production-30s-round02-01.md) |
 | hindi03-01 | production/30s/2026-11-03-hindi-03/ | Hindi news episode: iOS 27.2 adds Google's invisible SynthID watermark to iPhone AI images — how to check (Layered Tech Cutaway; Hindi Kokoro voice + Devanagari captions) | delivered (context/16-production-30s-hindi03-01.md) |
 | hindi04-01 | production/30s/2026-11-04-hindi-04/ | Hindi news episode: Google Play Store (2 Nov 2026) reminds you if Play Protect stays off — what it does, how to keep it on | delivered (context/17-production-30s-hindi04-01.md) |
-| feedback05-01 | production/30s/2026-11-05-feedback-05/ | Hindi news episode: Android screen-share privacy now blanks login/payment fields in Chrome (rollout from 14 Oct 2026, Android 15+) — how to check your version | in progress: sources/script/storyboard committed, frames rendering (context/18-production-30s-feedback05-01.md) |
+| feedback05-01 | production/30s/2026-11-05-feedback-05/ | Hindi news episode: Android screen-share privacy now blanks login/payment fields in Chrome (rollout from 14 Oct 2026, Android 15+) — how to check your version | delivered (context/18-production-30s-feedback05-01.md) |
 
 ## FORMAT UPGRADE (feedback round, 2026-11-02) — supersedes conflicting rules above
 User feedback: the flat Visual Investigation card look was judged too weak/flat. From this round on, every new Media Diet

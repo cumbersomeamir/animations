@@ -71,10 +71,10 @@ place(fx, ping(1318), E['auto'], 0.05, 0.5); place(fx, ping(1760), E['auto'] + 0
 for i in range(4): place(fx, tap(2000 + 150 * i), E['search'] + 0.3 + i * 0.55, 0.06, 0.6 + 0.05 * (i % 2))   # eye darting
 m_ = int(0.45 * SR); place(fx, np.sin(2 * np.pi * 196 * tax(m_)) * env(m_, 0.004, 0.16), E['lid'], 0.08, 0.6); place(fx, pop(), E['query'], 0.16, 0.6)
 for i in range(3): place(fx, tap(1500), E['blocks'] + i * 0.28 + 0.3, 0.14, 0.45 + 0.1 * i); place(fx, ping(1318 + 175 * i), E['blocks'] + 0.55 + i * 0.28, 0.03, 0.45 + 0.1 * i)
-place(fx, thud() * 0.6, E['blocks'] + 0.1, 0.12, 0.3)
 for i, s_ in enumerate(E['steps']): place(fx, tap(1700 + 200 * i), s_, 0.11, 0.45); place(fx, ping(1046 + 150 * i), s_ + 0.05, 0.03, 0.45)
 place(fx, ping(1568), E['steps'][-1] + 0.45, 0.055, 0.45); place(fx, ping(2093), E['steps'][-1] + 0.58, 0.04, 0.45)
 place(fx, rustle(0.45, 900, 5000), E['sign'], 0.2, 0.55)
+fx *= (1 - 0.5 * venv)[:, None]   # voice-forward: foley dips under speech so no effect masks a word (QA fix)
 fx *= fade[:, None]
 mix = np.stack([narr, narr], axis=1) + mus + fx
 mix /= max(1.0, np.max(np.abs(mix)) / 0.97)

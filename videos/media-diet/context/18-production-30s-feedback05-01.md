@@ -66,10 +66,16 @@ table + hills, vignette; Devanagari captions Noto Sans Devanagari 700 48 px, bas
 "?" tag and Media Diet sign; Hindi voice Kokoro hf_alpha 0.7 + hm_omega 0.3, speed 1.08 (the Meshline/Recall cache is not
 present in this container, so the approved Hindi Kokoro setup from hindi-03/04 is used); quiet pad + event foley,
 −15 LUFS / −2 dBTP. New learning: a "watcher" prop must face the camera — perched on the viewer's screen like a webcam,
-gazing down at it, rather than standing in front of it (it otherwise shows only its back).
+gazing down at it, rather than standing in front of it (it otherwise shows only its back). Foley now dips under speech
+(`fx *= 1 − 0.5·voice-envelope` in audio.py) so an effect can never mask a key word such as a number.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+- SHA-256 `ff8d7b8806d0ff9e9cba72cd6ebe27a67ae7db9c4ed9ac40ab27fae299c9cc72` · 16,319,114 bytes · audio stream tagged `hin`.
+- 900 frames · video 30.000000 s · audio 30.000000 s · container 30.000000 s · H.264 High yuv420p 1080×1920 30/1 · AAC 48 kHz stereo.
+- Full decode clean · −14.9 LUFS / −2.1 dBTP · Devanagari caption ink y 362–493, x 232–845 · 0 safe-area violations in 900 frames.
+- Caption ↔ speech 8/8 · Whisper medium (hi) on the final mix: full pass CER 0.088, per-line CER 0.102, all lines heard · music
+  −30…−35 dB under speech at −16 dB.
+- One fix after the first encode (audio only): a block thud masked "पंद्रह" → removed and foley dipped under speech; re-encoded.
 
 ## Limits
 - I cannot listen to audio in this environment: Hindi pronunciation/intelligibility were checked by Whisper-medium (hi)
