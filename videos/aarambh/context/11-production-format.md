@@ -208,3 +208,13 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Image licences:** prefer a scan whose repository states the rights. For example, the Internet Archive item `screenland45unse` (Library of Congress) says "not in copyright", and the cover prints the person's name. Commons file-page wikitext gives the licence template (PD-US-not renewed, PD-US-expired).
 
 - 07 (2026-11-05, feedback-05): Hedy Lamarr & George Antheil, frequency hopping (Hindi re-test of 04 with real portraits and a combining-skills takeaway). Record: `18-production-30s-feedback05-01.md`
+
+## English-06 notes, 2026-11-06 (language override: English episodes)
+- **English episodes:** English narration and English captions only, never Hindi. Use the approved Meshline/Recall English voice (Kokoro 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98), round-02's English typography (Mono kickers, footers and stamps; Fraunces titles; Inter 800 at 54 px for captions) and tiny.en ASR. Do not reuse Hindi audio.
+- **App name in English TTS:** write "Aa-rumbh" in the TTS text (espeak ˈɑːɹˈʌmb); keep "Aarambh" in captions and on the card. ASR still hears "RM"/"RUMB", so the card shows the name.
+- **Hook:** ambient motion from frame 0 (snow in a scene panel) plus the portrait by 0.6 s.
+- **Mechanism pages:** build them from the patent figure itself (pivot location, swept area) and cite the figure on screen ("patent Fig. 2, area a").
+- **Use the right-sized ASR:** if tiny.en garbles a phrase on the full mix but hears it correctly on the isolated segment, cross-check with the small model before changing the audio; record both results.
+- **Patent full text:** the USPTO full-image PDF endpoint (`image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/<7-digit number>`) works when Google Patents returns 503.
+
+- 08 (2026-11-06, english-06): Mary Anderson and the windshield wiper (U.S. Patent 743,801). Record: `19-production-30s-english06-01.md`

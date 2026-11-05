@@ -142,3 +142,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** Kokoro `hf_alpha` (Hindi), speed 1.05.
 - **Verification:** Hindi ASR recognises all sentences in order; there was no human listening. Three layout fixes (one full re-render).
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-06: english-06 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-06-english-06/aarambh-30s-english06-01.mp4`, sha256 `72f3928d01b1cfd605fc2960422635c6f5abeb3eb51e46cb00e158474c03ee42`. Mary Anderson and the windshield wiper (English). 30.000 s, 900 frames, −15.1 LUFS, −1.9 dBTP, full decode OK.
+- **Verified facts:** NIHF inductee page and the full text and drawing of U.S. Patent 743,801 (USPTO PDF).
+- **Portrait:** c. 1910, PD-old on Commons; it is the same photo as NIHF's image.
+- **Voice:** the Meshline blend (English).
+- **Verification:** ASR matches the script; the CTA was cross-checked with the small model. There was no human listening. One pre-render fix (P2 driver and wipe).
+- No automation; no other episode started; earlier renders untouched.

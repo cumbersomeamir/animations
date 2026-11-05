@@ -1,0 +1,26 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+trolley | 1.44 (trolley) | 1.44 (trolley) | trolley rolls into the snowy panel | 1.04
+Mary | 2.84 (Mary) | 2.82 (Mary) | name plate | 2.59
+problem | 3.86 (problem.) | 3.84 (problem.) | "the problem: snow on the glass" | 3.66
+Drivers | 5.06 (Drivers) | 5.06 (Drivers) | page turn -> problem | 4.98
+open | 5.92 (open) | 5.94 (open) | side window opens, head out; label | 5.72
+stopping | 7.76 (stopping) | 7.82 (stopping) | street stops, STOPPED stamp | 7.66
+clear | 8.46 (clear) | 8.46 (clear) | mitten wipes the glass | 8.26
+Her | 9.98 (Her) | 9.98 (Her) | slide swap -> real patent sheet | 9.90
+patent | 10.82 (patent) | 10.82 (patent) | stamp PATENT 743,801 · NOV. 10, 1903 | 10.72
+rubber | 11.82 (rubber) | 11.82 (rubber) | loupe lands on rubber cleaners (T) | 11.97
+Turn | 14.70 (Turn) | 14.64 (Turn) | HARD CUT -> mechanism | 14.52
+handle | 15.00 (handle) | 15.00 (handle) | handle inset lights | 14.75
+handle+ | 15.00 (handle) | 15.00 (handle) | arm starts sweeping | 15.25
+springs | 16.40 (springs) | 16.40 (springs) | side-view spring inset | 16.15
+sweeps | 17.80 (sweeps.) | 17.78 (sweeps.) | "cleared arc" label | 17.60
+A | 18.98 (A) | 18.98 (A) | page turn -> counterweight | 18.83
+counterweight | 19.12 (counterweight) | 19.12 (counterweight) | weight c slides on | 19.02
+balanced | 20.58 (balanced.) | 20.58 (balanced.) | balance bubble centred + chime | 20.68
+Lesson | 21.78 (Lesson,) | 21.78 (Lesson,) | slide swap -> lesson | 21.63
+hassles | 22.58 (hassles) | 22.64 (hassles) | card 1 "everyone accepted" | 22.38
+problems | 24.24 (problems) | 24.22 (problems) | card 2 "a problem worth a tool" | 24.04
+tool | 25.36 (tool.) | 25.34 (tool.) | card 3 "her tool" + check | 25.11
+Download | 25.72 (Download) | 25.74 (Download) | CTA card (slide in 25.90-26.40) | 26.40
+note: placed sentence starts S1 0.30 S2 4.98 S3 9.90 S4 14.58 S5 18.83 S6 21.63 S7 26.40 (audio/script.json); ASR stamps "Download" early (25.72).
+CTA cross-check on the isolated export segment 25.5-30.0 s: tiny.en "Download RM to support livelihood tools." | small(en) "Download RUMB to support livelihood tools."

@@ -1,0 +1,47 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), approved Meshline/Recall blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us (English only; no Hindi audio reused)",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "On a snowy New York trolley ride, Mary Anderson noticed a problem.",
+      "tts": "On a snowy New York trolley ride, Mary Anderson noticed a problem.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "Drivers had to open their windows, sometimes stopping to clear the glass.",
+      "tts": "Drivers had to open their windows, sometimes stopping to clear the glass.",
+      "start": 4.98
+    },
+    {
+      "id": "S3",
+      "text": "Her 1903 patent put rubber blades on an arm outside the glass.",
+      "tts": "Her nineteen-oh-three patent put rubber blades on an arm outside the glass.",
+      "start": 9.9
+    },
+    {
+      "id": "S4",
+      "text": "Turn a handle inside, and springs press the rubber as it sweeps.",
+      "tts": "Turn a handle inside, and springs press the rubber as it sweeps.",
+      "start": 14.58
+    },
+    {
+      "id": "S5",
+      "text": "A counterweight kept the swinging arm balanced.",
+      "tts": "A counterweight kept the swinging arm balanced.",
+      "start": 18.83
+    },
+    {
+      "id": "S6",
+      "text": "Lesson: the hassles everyone accepts are problems waiting for a tool.",
+      "tts": "Lesson: the hassles everyone accepts are problems waiting for a tool.",
+      "start": 21.63
+    },
+    {
+      "id": "S7",
+      "text": "Download Aarambh to support livelihood tools.",
+      "tts": "Download Aa-rumbh, to support livelihood tools.",
+      "start": 26.4
+    }
+  ]
+}

@@ -48,3 +48,7 @@
 - `videos/aarambh/production/30s/2026-11-05-feedback-05/aarambh-30s-feedback05-01.mp4` (sha256 `6b8e384b9d30e5f072fd199b203a6bf26296d103b378650d6b8dab6004ebd7a4`): Hedy Lamarr & George Antheil, frequency hopping. Hindi narration and captions; real portraits of both; patent Fig. 4 under the magnifier; combining-skills takeaway; Aarambh-only CTA.
 - **Read first next time:** 11 (incl. the Hindi notes and the feedback-05 notes) and 18.
 - **Open:** a native-speaker listen before posting (only ASR-verified here).
+
+## 2026-11-06: english-06 #01 (English)
+- `videos/aarambh/production/30s/2026-11-06-english-06/aarambh-30s-english06-01.mp4` (sha256 `72f3928d01b1cfd605fc2960422635c6f5abeb3eb51e46cb00e158474c03ee42`): Mary Anderson, the 1903 window-cleaning device (U.S. 743,801). English narration and captions with the Meshline voice; real portrait; patent Fig. 2 under the magnifier; lesson about noticing accepted hassles; Aarambh-only CTA.
+- **Read first next time:** 11 (incl. the English-06 notes) and 19.
