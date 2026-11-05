@@ -135,3 +135,21 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **One familiar scene:** each episode has one everyday setting plus one hands-on test the viewer can try. The scene computes its meters from what the map shows (here: distance + wall crossing + noise → bars and waveform), so the instrument never contradicts the picture.
 - **Publishing caption:** the final Hindi transcript verbatim (line by line), then source links and a few hashtags. It contains no editing or production notes and uses only the Meshline name. Other app names (e.g. Recall) are rejected in CTA and copy.
 - **CTA:** "पास वालों से ऑफ़लाइन बात के लिए मेशलाइन डाउनलोड करें", reused unchanged from batch 04 (it carries the documented scope: nearby, offline). No range, emergency or guarantee claims.
+| 08 | 2026-11-06-english-06 | One tick, but not two: where is your message? (sent vs delivered, direct nearby link), **English** | `production/30s/2026-11-06-english-06/meshline-30s-english06-01.mp4` |
+
+## User feedback 2026-11-06, batch english-06 (specific adjustments only)
+- **Language per batch:**
+  - Follow each brief's language override. English batches use the approved English blend (0.7 af_bella + 0.3 am_puck, 0.98) and the English caption recipe (52 px, 350–470 band).
+  - Hindi batches use the Hindi recipe from 03–05.
+  - Never reuse audio across languages.
+- **Duplicate check before scripting:** concert/full bars/capacity is taken (01, pilot 01, 10s test). When a suggested subject repeats, swap it for a fresh subject that keeps the brief's angle, and record why in the episode notes.
+- **English pacing:**
+  - The English blend speaks about 3.1 words/s. About 79 words fill 30 s with ~0.75 s pauses; about 71 words leave ~1 s of dead air.
+  - Keep the CTA at about 3.4 s so it lands in the last 3–4 s.
+- **Publishing copy:**
+  - The caption is the final transcript plus hashtags only.
+  - When sources are other services' help pages, keep the links in `research/claims.md` and out of the caption, so no other app name appears in the copy.
+- **Implementation:**
+  - English caption anchors of up to 3 letters match exactly ("the" ≠ "their").
+  - Keep sheet labels inside x ≤ 960 in push-ins; re-frame rather than let labels clip.
+  - Instrument layout swaps run sequentially (out, then in), never crossfaded on top of each other.

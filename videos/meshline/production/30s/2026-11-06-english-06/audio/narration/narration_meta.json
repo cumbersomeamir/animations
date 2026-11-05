@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "One tick, but not two? Your message is stuck halfway.",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 2.972,
+      "end": 3.222
+    },
+    {
+      "id": "l2",
+      "start": 3.99,
+      "text": "In many chat apps, one tick means it left your phone and reached the server.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 4.1,
+      "end": 8.09
+    },
+    {
+      "id": "l3",
+      "start": 8.86,
+      "text": "Two ticks mean it reached their phone.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 1.583,
+      "end": 10.443
+    },
+    {
+      "id": "l4",
+      "start": 11.22,
+      "text": "If their phone is off or offline, the server holds it and keeps trying.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.864,
+      "end": 15.084
+    },
+    {
+      "id": "l5",
+      "start": 15.85,
+      "text": "Seeing a clock? It hasn't left your phone yet; check your connection.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 3.607,
+      "end": 19.457
+    },
+    {
+      "id": "l6",
+      "start": 20.23,
+      "text": "A direct nearby link skips the server entirely, but only works within limited range.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 5.313,
+      "end": 25.543
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.409,
+      "end": 29.549
+    }
+  ]
+}

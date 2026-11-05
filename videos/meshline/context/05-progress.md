@@ -40,3 +40,6 @@
 
 ## Production 2026-11-05-feedback-05 (Hindi, headphones behind a wall)
 - Done. Output `production/30s/2026-11-05-feedback-05/meshline-30s-feedback05-01.mp4`, sha256 `7ba35b64…c5099`. Details in `18-production-30s-feedback05-01.md`.
+
+## Production 2026-11-06-english-06 (English, sent vs delivered)
+- Done. Output `production/30s/2026-11-06-english-06/meshline-30s-english06-01.mp4`, sha256 `336c3ff6…d5b5`. Details in `19-production-30s-english06-01.md`.

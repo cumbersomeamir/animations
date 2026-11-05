@@ -1,0 +1,42 @@
+{
+ "reference": "One tick, but not two? Your message is stuck halfway. In many chat apps, one tick means it left your phone and reached the server. Two ticks mean it reached their phone. If their phone is off or offline, the server holds it and keeps trying. Seeing a clock? It hasn't left your phone yet; check your connection. A direct nearby link skips the server entirely, but only works within limited range. Download Meshline for nearby messaging, even offline.",
+ "asr": "One tick but not two, your message is stuck halfway. In many chat apps, one tick means it left your phone and reached the server. Two ticks mean it reached their phone. If their phone is off or offline, the server holds it and keeps trying. Seeing a clock, it hasn't left your phone yet, check your connection. A direct nearby link skips the server entirely, but only works within limited range. Download Meshline for nearby messaging, even offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   2.78,
+   "One tick but not two, your message is stuck halfway."
+  ],
+  [
+   3.94,
+   7.8,
+   "In many chat apps, one tick means it left your phone and reached the server."
+  ],
+  [
+   8.9,
+   10.2,
+   "Two ticks mean it reached their phone."
+  ],
+  [
+   11.06,
+   14.68,
+   "If their phone is off or offline, the server holds it and keeps trying."
+  ],
+  [
+   16.04,
+   19.08,
+   "Seeing a clock, it hasn't left your phone yet, check your connection."
+  ],
+  [
+   20.2,
+   25.08,
+   "A direct nearby link skips the server entirely, but only works within limited range."
+  ],
+  [
+   25.08,
+   29.08,
+   "Download Meshline for nearby messaging, even offline."
+  ]
+ ]
+}

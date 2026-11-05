@@ -69,3 +69,6 @@
 
 ## Production 2026-11-05-feedback-05 (Hindi, Bluetooth headphones behind a thick wall): complete
 - See `18-production-30s-feedback05-01.md`; output sha256 `7ba35b646d94a35f6d446cb823f6afa8db338dca3d8e5189ddce6939e43c5099`.
+
+## Production 2026-11-06-english-06 (English, sent vs delivered + direct nearby link): complete
+- See `19-production-30s-english06-01.md`; output sha256 `336c3ff6780c930cdb563063aa51c920a632b8d5fddcf725dfee5f643f8ed5b5`.
