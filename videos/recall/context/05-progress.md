@@ -55,3 +55,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   record, topic-change reason, sources, Hindi checks + QA in 18).
 - Feedback-05 2026-11-05 (Hindi; controlled topic/opening test, same style): `videos/recall/production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4`
   (30.000 s, noise-cancelling headphones; record, sources, Hindi checks + QA in 19).
+- English-06 2026-11-06 batch (English narration + captions; language override): `videos/recall/production/30s/2026-11-06-english-06/recall-30s-english06-01.mp4`
+  (30.000 s, phone compass vs magnets/steel; record, sources + QA in 20).

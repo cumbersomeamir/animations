@@ -1,0 +1,16 @@
+The dot is right, so why is the arrow wrong next to a speaker?
+
+GPS places the dot. The arrow comes from a tiny compass sensor that feels Earth's magnetic field. That field is weak. Up close, a speaker's magnet or a steel desk can bend it, and the arrow swings. Step away from magnets and steel, then calibrate by waving a figure eight.
+
+Download Recall for learning any new subject with AI.
+
+The animation illustrates the idea; it is not a measurement of a real phone.
+
+Sources:
+Google Help Center, Find & improve your location's accuracy (Android): https://support.google.com/maps/answer/2839911?hl=en&co=GENIE.Platform%3DAndroid
+Apple Support, compass accuracy and magnets (article 105073): https://support.apple.com/en-us/105073
+Android Developers, Position sensors: https://developer.android.com/develop/sensors-and-location/sensors/sensors_position
+NXP AN4248, Implementing a Tilt-Compensated eCompass: https://www.nxp.com/docs/en/application-note/AN4248.pdf
+NOAA NCEI, Geomagnetism FAQ: https://www.ncei.noaa.gov/products/geomagnetism-frequently-asked-questions
+
+#howitworks #technology #science

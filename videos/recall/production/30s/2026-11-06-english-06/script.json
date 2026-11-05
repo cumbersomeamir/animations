@@ -1,0 +1,27 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The dot is right, so why is the arrow wrong next to a speaker?"
+    },
+    {
+      "id": "l02",
+      "text": "GPS places the dot. The arrow comes from a tiny compass sensor that feels Earth's magnetic field."
+    },
+    {
+      "id": "l03",
+      "text": "That field is weak. Up close, a speaker's magnet or a steel desk can bend it, and the arrow swings."
+    },
+    {
+      "id": "l04",
+      "text": "Step away from magnets and steel, then calibrate by waving a figure eight."
+    },
+    {
+      "id": "l05",
+      "text": "Download Recall for learning any new subject with AI."
+    }
+  ]
+}

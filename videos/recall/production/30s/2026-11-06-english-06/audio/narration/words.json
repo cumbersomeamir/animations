@@ -1,0 +1,410 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "The dot is right, so why is the arrow wrong next to a speaker?",
+   "asr": "The dot is right, so why is the arrow wrong next to a speaker?",
+   "duration": 3.371,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.0,
+     "end": 0.06
+    },
+    {
+     "w": "dot",
+     "start": 0.06,
+     "end": 0.22
+    },
+    {
+     "w": "is",
+     "start": 0.22,
+     "end": 0.42
+    },
+    {
+     "w": "right,",
+     "start": 0.42,
+     "end": 0.66
+    },
+    {
+     "w": "so",
+     "start": 0.96,
+     "end": 1.16
+    },
+    {
+     "w": "why",
+     "start": 1.16,
+     "end": 1.4
+    },
+    {
+     "w": "is",
+     "start": 1.4,
+     "end": 1.58
+    },
+    {
+     "w": "the",
+     "start": 1.58,
+     "end": 1.72
+    },
+    {
+     "w": "arrow",
+     "start": 1.72,
+     "end": 1.94
+    },
+    {
+     "w": "wrong",
+     "start": 1.94,
+     "end": 2.26
+    },
+    {
+     "w": "next",
+     "start": 2.26,
+     "end": 2.58
+    },
+    {
+     "w": "to",
+     "start": 2.58,
+     "end": 2.8
+    },
+    {
+     "w": "a",
+     "start": 2.8,
+     "end": 2.8
+    },
+    {
+     "w": "speaker?",
+     "start": 2.8,
+     "end": 3.02
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "GPS places the dot. The arrow comes from a tiny compass sensor that feels Earth's magnetic field.",
+   "asr": "GPS places the dot. The arrow comes from a tiny compass sensor that feels Earth's magnetic field.",
+   "duration": 6.758,
+   "words": [
+    {
+     "w": "GPS",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "w": "places",
+     "start": 0.26,
+     "end": 0.96
+    },
+    {
+     "w": "the",
+     "start": 0.96,
+     "end": 1.32
+    },
+    {
+     "w": "dot.",
+     "start": 1.32,
+     "end": 1.54
+    },
+    {
+     "w": "The",
+     "start": 2.28,
+     "end": 2.34
+    },
+    {
+     "w": "arrow",
+     "start": 2.34,
+     "end": 2.58
+    },
+    {
+     "w": "comes",
+     "start": 2.58,
+     "end": 2.92
+    },
+    {
+     "w": "from",
+     "start": 2.92,
+     "end": 3.2
+    },
+    {
+     "w": "a",
+     "start": 3.2,
+     "end": 3.28
+    },
+    {
+     "w": "tiny",
+     "start": 3.28,
+     "end": 3.58
+    },
+    {
+     "w": "compass",
+     "start": 3.58,
+     "end": 3.94
+    },
+    {
+     "w": "sensor",
+     "start": 3.94,
+     "end": 4.4
+    },
+    {
+     "w": "that",
+     "start": 4.4,
+     "end": 4.82
+    },
+    {
+     "w": "feels",
+     "start": 4.82,
+     "end": 5.04
+    },
+    {
+     "w": "Earth's",
+     "start": 5.04,
+     "end": 5.66
+    },
+    {
+     "w": "magnetic",
+     "start": 5.66,
+     "end": 5.92
+    },
+    {
+     "w": "field.",
+     "start": 5.92,
+     "end": 6.44
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "That field is weak. Up close, a speaker's magnet or a steel desk can bend it, and the arrow swings.",
+   "asr": "That field is weak. Up close, a speaker's magnet or a steel desk can bend it, and the arrow swings.",
+   "duration": 6.025,
+   "words": [
+    {
+     "w": "That",
+     "start": 0.0,
+     "end": 0.12
+    },
+    {
+     "w": "field",
+     "start": 0.12,
+     "end": 0.32
+    },
+    {
+     "w": "is",
+     "start": 0.32,
+     "end": 0.6
+    },
+    {
+     "w": "weak.",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "w": "Up",
+     "start": 1.56,
+     "end": 1.56
+    },
+    {
+     "w": "close,",
+     "start": 1.56,
+     "end": 1.82
+    },
+    {
+     "w": "a",
+     "start": 2.12,
+     "end": 2.16
+    },
+    {
+     "w": "speaker's",
+     "start": 2.16,
+     "end": 2.66
+    },
+    {
+     "w": "magnet",
+     "start": 2.66,
+     "end": 2.9
+    },
+    {
+     "w": "or",
+     "start": 2.9,
+     "end": 3.28
+    },
+    {
+     "w": "a",
+     "start": 3.28,
+     "end": 3.36
+    },
+    {
+     "w": "steel",
+     "start": 3.36,
+     "end": 3.56
+    },
+    {
+     "w": "desk",
+     "start": 3.56,
+     "end": 3.98
+    },
+    {
+     "w": "can",
+     "start": 3.98,
+     "end": 4.18
+    },
+    {
+     "w": "bend",
+     "start": 4.18,
+     "end": 4.42
+    },
+    {
+     "w": "it,",
+     "start": 4.42,
+     "end": 4.62
+    },
+    {
+     "w": "and",
+     "start": 4.84,
+     "end": 4.92
+    },
+    {
+     "w": "the",
+     "start": 4.92,
+     "end": 5.0
+    },
+    {
+     "w": "arrow",
+     "start": 5.0,
+     "end": 5.22
+    },
+    {
+     "w": "swings.",
+     "start": 5.22,
+     "end": 5.56
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "Step away from magnets and steel, then calibrate by waving a figure eight.",
+   "asr": "Step away from magnets and steel, then calibrate by waving a figure 8.",
+   "duration": 4.505,
+   "words": [
+    {
+     "w": "Step",
+     "start": 0.0,
+     "end": 0.18
+    },
+    {
+     "w": "away",
+     "start": 0.18,
+     "end": 0.44
+    },
+    {
+     "w": "from",
+     "start": 0.44,
+     "end": 0.7
+    },
+    {
+     "w": "magnets",
+     "start": 0.7,
+     "end": 1.02
+    },
+    {
+     "w": "and",
+     "start": 1.02,
+     "end": 1.4
+    },
+    {
+     "w": "steel,",
+     "start": 1.4,
+     "end": 1.7
+    },
+    {
+     "w": "then",
+     "start": 2.36,
+     "end": 2.42
+    },
+    {
+     "w": "calibrate",
+     "start": 2.42,
+     "end": 3.06
+    },
+    {
+     "w": "by",
+     "start": 3.06,
+     "end": 3.2
+    },
+    {
+     "w": "waving",
+     "start": 3.2,
+     "end": 3.5
+    },
+    {
+     "w": "a",
+     "start": 3.5,
+     "end": 3.7
+    },
+    {
+     "w": "figure",
+     "start": 3.7,
+     "end": 3.88
+    },
+    {
+     "w": "8.",
+     "start": 3.88,
+     "end": 4.24
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "Download Recall for learning any new subject with AI.",
+   "asr": "Download Recall for learning any new subject with AI.",
+   "duration": 3.289,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.3
+    },
+    {
+     "w": "Recall",
+     "start": 0.3,
+     "end": 0.62
+    },
+    {
+     "w": "for",
+     "start": 0.62,
+     "end": 1.28
+    },
+    {
+     "w": "learning",
+     "start": 1.28,
+     "end": 1.48
+    },
+    {
+     "w": "any",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "new",
+     "start": 1.76,
+     "end": 1.96
+    },
+    {
+     "w": "subject",
+     "start": 1.96,
+     "end": 2.26
+    },
+    {
+     "w": "with",
+     "start": 2.26,
+     "end": 2.62
+    },
+    {
+     "w": "AI.",
+     "start": 2.62,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

@@ -112,3 +112,7 @@ was already R02, so a distinct topic was chosen (reason in context 18); delivera
 ## Update 2026-11-05 — feedback-05
 Episode F05 "हेडफ़ोन ने एसी की गूंज दबा दी, पर दोस्त की आवाज़ क्यों सुनाई दी?" (noise-cancelling headphones; Hindi):
 record in context 19; deliverable `videos/recall/production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4`.
+
+## Update 2026-11-06 batch — english-06
+Episode E06 "Why your phone compass points the wrong way near a speaker or a steel desk" (English narration and captions):
+record in context 20; deliverable `videos/recall/production/30s/2026-11-06-english-06/recall-30s-english06-01.mp4`.

@@ -74,6 +74,9 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
   hm_omega 0.3, lang hi, speed 0.98; never the English blend), checked with multilingual ASR; captions use Baloo 2 (OFL,
   Devanagari) in the same pill treatment; CTA in Hindi ("कोई भी नया विषय एआई से सीखने के लिए रिकॉल डाउनलोड करें।").
 
+- 2026-11-06 english-06 (20): **language override (user)**: when a round asks for English, ALL narration and captions are English
+  (the accepted English blend af_bella 0.7 + am_puck 0.3, en-us, 0.98; Fredoka captions); never Hindi, and Hindi audio is never recycled.
+
 ## Episodes produced (do not repeat topics)
 | # | topic | output | context |
 |---|---|---|---|
@@ -84,3 +87,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | H03 | गीली स्क्रीन अजीब क्यों चलती है? (wet touchscreen; Hindi) | `production/30s/2026-11-03-hindi-03/recall-30s-hindi03-01.mp4` | 17 |
 | H04 | इंडक्शन पर बर्तन गर्म कैसे होता है? (induction cooktop; Hindi) — requested microwave-turntable topic was already R02 | `production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4` | 18 |
 | F05 | हेडफ़ोन ने एसी की गूंज दबा दी, पर दोस्त की आवाज़ क्यों सुनाई दी? (noise-cancelling headphones; Hindi) | `production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4` | 19 |
+| E06 | Why your phone compass points the wrong way near a speaker or a steel desk (English; magnetic interference vs GPS location) | `production/30s/2026-11-06-english-06/recall-30s-english06-01.mp4` | 20 |
