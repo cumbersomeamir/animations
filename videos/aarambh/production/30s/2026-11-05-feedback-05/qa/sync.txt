@@ -1,0 +1,24 @@
+word (script) | narration-pass ASR start | export ASR nearest | event | event time
+अभिनेत्री | 0.58 (अबहनेत्री) | 0.58 (अबहनेत्री) | Lamarr name plate | 0.43
+और | 1.32 (और) | 1.32 (और) | gold + between plates | 1.22
+संगीतकार | 1.90 (संगित) | 1.88 (संगित) | Antheil name plate | 1.75
+पेटेंट | 3.62 (पेटेंट) | 3.62 (पेटेंट) | patent stamp 2,292,387 | 3.52
+एक | 4.96 (एक) | 5.22 (फ्रिक्वेसी) | page turn -> problem | 4.95
+फ़्रीक्वेंसी | 5.24 (फ्रिक्वेसी) | 5.22 (फ्रिक्वेसी) | single-channel carrier appears | 5.04
+जाम | 7.70 (जाम) | 7.72 (जाम) | jammer floods channel, torpedo veers, "जाम!" | 7.60
+उपाय | 9.46 (उपाई) | 9.88 (भेजने) | slide swap -> solution | 9.45
+भेजने | 9.90 (भेजने) | 9.88 (भेजने) | sender lights | 9.75
+पाने | 10.82 (पाने) | 10.82 (पाने) | receiver lights | 10.67
+साथ | 11.52 (सात) | 11.52 (साथ) | both start hopping together | 11.42
+बदलें | 12.92 (बडले,) | 12.92 (बडले) | "संदेश साफ़" stamp | 12.82
+पियानो | 13.82 (प्यानो) | 14.28 (रोल) | HARD CUT -> patent Fig. 4 + rolls | 13.76
+रोल | 14.28 (रोल) | 14.28 (रोल) | loupe lands on real perforations | 14.43
+पट्टियाँ | 16.08 (पट्याताल) | 16.06 (पत्या) | "एक जैसे छेद = एक ही चैनल" label | 15.93
+नौसेना | 18.34 (नोसेना) | 18.70 (ने) | page turn -> outcome (header + signatures) | 18.10
+नहीं | 19.58 (नहीं) | 19.60 (नहीं) | "नौसेना ने तब नहीं अपनाया" stamp | 19.48
+सीख | 21.02 (सीक,) | 20.98 (सीक,) | slide swap -> takeaway | 21.00
+हेडी | 21.56 (हेडी) | 21.56 (हेडी) | Hedy skill card | 21.41
+जॉर्ज | 22.12 (जोर्ज) | 22.12 (जोर्ज) | George skill card | 21.97
+हुनर | 23.90 (हुनर) | 23.90 (हुनर) | cards join -> "फ़्रीक्वेंसी हॉपिंग" | 23.70
+आरंभ | 25.64 (आरंभ) | 26.16 (डाओन) | CTA card (slide in 25.20-25.70) | 25.70
+note: sentence-initial ASR stamps can run early; placed starts: S1 0.30 S2 4.95 S3 9.45 S4 13.85 S5 18.10 S6 21.00 S7 25.70 (audio/script.json).

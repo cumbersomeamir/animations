@@ -43,3 +43,8 @@
 - `videos/aarambh/production/30s/2026-11-04-hindi-04/aarambh-30s-hindi04-01.mp4` (sha256 `3319c7ebf55a0d391e5fcd0852dd5c43d287267a804f67bff7854fd3d32d8feb`): Louis Braille, six raised dots, and the rule that position distinguishes symbols. Hindi narration and captions; Kokoro Hindi `hf_alpha`; public-domain Thiriat portrait; real 1829 book scans.
 - **Read first next time:** 11 (incl. the CTA correction, the Hindi-language note and the 2026-11-04 Hindi skill adjustments) and 17.
 - **Open:** a native-speaker listen before posting (only ASR-verified here).
+
+## 2026-11-05: feedback-05 #01 (Hindi)
+- `videos/aarambh/production/30s/2026-11-05-feedback-05/aarambh-30s-feedback05-01.mp4` (sha256 `6b8e384b9d30e5f072fd199b203a6bf26296d103b378650d6b8dab6004ebd7a4`): Hedy Lamarr & George Antheil, frequency hopping. Hindi narration and captions; real portraits of both; patent Fig. 4 under the magnifier; combining-skills takeaway; Aarambh-only CTA.
+- **Read first next time:** 11 (incl. the Hindi notes and the feedback-05 notes) and 18.
+- **Open:** a native-speaker listen before posting (only ASR-verified here).

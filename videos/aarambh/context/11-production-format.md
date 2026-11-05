@@ -197,3 +197,14 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Glyphs:** "→" is not in the Devanagari or Latin subsets used here, so write "से" instead. Curly quotes ‘ ’ render.
 
 - 06 (2026-11-04, hindi-04): Louis Braille and the six-dot cell, position distinguishes symbols (Hindi). Record: `17-production-30s-hindi04-01.md`
+
+## Feedback-05 notes, 2026-11-05 (Instagram App Performance sheet; user-approved improvements)
+- **The fixed genre and the accepted style recipe stay.** A performance snapshot is a controlled topic/opening test, not permission to change the style. Post ages differ and totals do not establish causality. Per CLAUDE.md, the numbers are not stored here.
+- **Opening:** an immediate visual hook in the first 1–2 s. The real portrait(s) and name plates are on screen by ~0.8 s, and the first spoken line states the surprising fact.
+- **Combining-skills takeaways** name the people in the takeaway line, and the skill cards cite NIHF-style sources.
+- **CTA and copy are Aarambh-only.** Never use "Help", "TensorBlue" or any other app or company name in the video, CTA or publishing caption.
+- **`publishing-caption.txt` must contain the final transcript sentences verbatim,** plus sources, photo credits and hashtags. It must never contain editing instructions. Check it with a script before committing.
+- **Voice:** the Meshline/Recall blend is English-only; for Hindi narration the approved voice remains Kokoro `hf_alpha` (Hindi-language note above).
+- **Image licences:** prefer a scan whose repository states the rights. For example, the Internet Archive item `screenland45unse` (Library of Congress) says "not in copyright", and the cover prints the person's name. Commons file-page wikitext gives the licence template (PD-US-not renewed, PD-US-expired).
+
+- 07 (2026-11-05, feedback-05): Hedy Lamarr & George Antheil, frequency hopping (Hindi re-test of 04 with real portraits and a combining-skills takeaway). Record: `18-production-30s-feedback05-01.md`

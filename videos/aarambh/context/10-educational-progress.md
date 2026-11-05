@@ -132,3 +132,13 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** Kokoro `hf_alpha` (Hindi), speed 1.02. New Hindi TTS rules are in `11`. **Record:** `context/17`.
 - **Verification:** Hindi ASR recognises all sentences in order; there was no human listening. Six layout defects were fixed (one full re-render).
 - No automation; no other episode started; earlier outputs untouched.
+
+## 2026-11-05: feedback-05 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-05-feedback-05/aarambh-30s-feedback05-01.mp4`, sha256 `6b8e384b9d30e5f072fd199b203a6bf26296d103b378650d6b8dab6004ebd7a4`. Hedy Lamarr & George Antheil, frequency hopping (Hindi). 30.000 s, 900 frames, −15.0 LUFS, −4.1 dBTP, full decode OK.
+- **Verified facts:** NIHF inductee pages (Lamarr, Antheil) and the US 2,292,387 drawing sheet.
+- **Portraits:** *Screenland* Oct 1942 cover (LOC copy, "not in copyright") and Berenice Abbott 1927 (PD-US-expired).
+- **Not claimed:** Wi-Fi or wartime deployment.
+- **Why the topic repeats:** a deliberate Hindi re-test of round-02's topic (see `18`).
+- **Voice:** Kokoro `hf_alpha` (Hindi), speed 1.05.
+- **Verification:** Hindi ASR recognises all sentences in order; there was no human listening. Three layout fixes (one full re-render).
+- No automation; no other episode started; earlier renders untouched.
