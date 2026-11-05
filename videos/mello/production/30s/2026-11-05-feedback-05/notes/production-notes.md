@@ -47,7 +47,8 @@ The source is a copy of `../2026-11-04-hindi-04/project/`. Reused unchanged:
 5. **S4:**
    - The calendar card reached into the caption band and the right rail, and the arm over-stretched to the notebook.
    - Final: the notebook moved nearer, the card was lowered and scaled to 0.8, and the camera az changed to 24→19 so the head stays beside the card.
-6. Final audit before the full render: 300 samples, 0 issues. No head, clock dial or in-scene text is behind caption text.
+6. Audit before the first full render: 300 samples, 0 issues. No head, clock dial or in-scene text is behind caption text.
+7. Full-resolution review of render 1: the "पिछली बार: 55 मिनट" note on the cover touched the first letter of the log's "ईमेल" row. It was scaled 0.36→0.32 and nudged left, then the video was rendered a second and final time.
 
 ## Commands
 One-time setup: shared Mello venv and the hash-checked Kokoro model, which includes the Hindi voices.

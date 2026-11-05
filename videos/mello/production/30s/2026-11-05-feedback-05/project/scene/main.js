@@ -606,7 +606,7 @@ function setEpisode(t) {
   if (thoughtCard.visible) drawThought(t);
   // the past record, lifted off the log page
   const lv = sm(remap(t, T.mark + 0.1, T.mark + 0.45)) * (1 - sm(remap(t, S.s4 - 0.3, S.s4 - 0.05)));
-  setLab(logLab, notebook.localToWorld(V(-0.15, 0.05, 0.09)), lv, 0.36 * (1 + 0.08 * Math.sin(Math.PI * remap(t, T.mark + 0.1, T.mark + 0.6))));
+  setLab(logLab, notebook.localToWorld(V(-0.157, 0.05, 0.09)), lv, 0.32 * (1 + 0.08 * Math.sin(Math.PI * remap(t, T.mark + 0.1, T.mark + 0.6))));
   // calendar card: the hour is booked from the record; afterwards the actual time is written in
   const cv = sm(remap(t, T.calIn, T.calIn + 0.35)) * (1 - sm(remap(t, T.calOut - 0.3, T.calOut)));
   calCard.visible = cv > 0.003; calCard.position.copy(CAL_POS); calCard.rotation.set(0, camYaw(CAL_POS), 0);
