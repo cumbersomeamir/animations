@@ -4,6 +4,56 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-05 (feedback-05): Hindi episode 05, basket sneaking at an online checkout
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync), assigned account
+  info@tensorblue.com. No active jobs; caches intact.
+- DELIVERED: `production/30s/2026-11-05-feedback-05/courtlens-30s-feedback05-01.mp4`
+  (sha256 21365cadb22eb7568e7968319a800478ea77e649ed047752738f419b2e2d7ea4). Earlier MP4s untouched.
+- Episode record (sheet feedback, script, citations, approved style notes): `context/episodes/2026-11-05-feedback05-basket-sneaking.md`.
+
+### Verified facts
+- CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023 (30 Nov 2023; CPA 2019 s.18), official DoCA PDF:
+  - Clause 4: no person, including any platform, shall engage in any dark pattern
+  - Annexure 1(2): basket sneaking means adding items or donations at checkout without consent so the total rises;
+    free samples, complimentary services and disclosed necessary fees are excluded
+- NCH contact re-checked 2026-11-05.
+- Details: `production/30s/2026-11-05-feedback-05/notes/LEGAL-SOURCES.md`.
+
+### Creative decisions
+- The performance snapshot (1546 plays / 52 likes / median 133) is treated as a controlled topic and opening test.
+  Only change: the problem is shown on the object within 2 s.
+- Accepted renderer, Hindi voice, font, caption band and audio kept, via the hindi-04 copy. Changes:
+  - performer: a shopping cart, into which a ₹49 donation parcel sneaks
+  - checkout card whose total jumps
+  - CCPA rule card
+  - sneaked vs opted-in split
+  - receipt + screenshot evidence
+- The publishing caption matches the final transcript and uses only "Courtlens".
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-05-feedback-05/src
+$S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+$S/tts/venv/bin/python -I align.py ../audio/lines narration.json $S/asr
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build5 ./build.sh
+$S/tts/venv/bin/python qa.py ../courtlens-30s-feedback05-01.mp4 timeline.json ../audio/lines ../qa
+$S/tts/venv/bin/python -I asr_check.py ../courtlens-30s-feedback05-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean; −15.9 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.38 s; y<300 clear; captions ≤2 lines in y 340–520.
+- Hindi ASR on the final mix: CER 0.079, all words in caption windows. One full render; one layout defect fixed before it.
+
+### Unresolved
+- ASR-only listening; a native-speaker listen is recommended.
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
+### Next
+Await review. No further episode or automation unless asked.
+
 ## Round 2026-11-04 (hindi-04): Hindi episode 04, shop bill says "रिफ़ंड नहीं" on a defective product
 
 ### Status
