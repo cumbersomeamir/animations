@@ -45,3 +45,6 @@ the Play listing / werbens.com inspection. Renderer, style recipe, motion, capti
 ## Re-check 2026-11-04 (hindi-04)
 app.werbens.com re-loaded: computed palette, wordmark styling and `werbens-logo.svg` (byte-identical, sha256 816c1761…)
 unchanged. No token changes.
+
+## Re-check 2026-11-05 (feedback-05)
+Re-loaded again: palette, wordmark styling and logo SVG (sha256 816c1761…) unchanged. Amber #F59E0B is used only for clutter stickers.

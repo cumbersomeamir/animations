@@ -141,6 +141,7 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 | 04 | `production/30s/2026-11-03-round-02/` | One shape, everywhere — distinctive brand assets (accepted style; brand colours/logo corrected, context/15) | fictional "Plimm Bakery" arch on logo tile, bag and sign |
 | 05 | `production/30s/2026-11-03-hindi-03/` | विशेषण नहीं, सबूत दिखाइए — show it working, not adjectives (**Hindi**, Devanagari captions; app.werbens.com palette/logo, context/17) | fictional non-stick tawa + oil-free dosa demo |
 | 06 | `production/30s/2026-11-04-hindi-04/` | एक ईमानदार पहले/बाद का शॉट — a fair before/after (same frame, same light, no filter) beats "premium quality" (**Hindi**; app.werbens.com palette) | fictional lint roller, one pass over half a sweater |
+| 07 | `production/30s/2026-11-05-feedback-05/` | एक प्रोडक्ट, एक कीमत, एक काम — offer clarity vs adjective clutter (**Hindi**; app.werbens.com palette; batch 2026-11-05-feedback-05) | fictional restaurant ad "काल्पनिक रसोई": thali photo, ₹250, "अभी ऑर्डर करें" |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
