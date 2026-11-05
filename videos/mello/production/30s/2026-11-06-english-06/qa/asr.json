@@ -4,7 +4,7 @@
   "cer": 0.0,
   "wer": 0.0,
   "reference": "You hit send to the whole team... then you spot the mistake. Owning it feels like proof that you're careless. But in studies, people judged someone else admitting a mistake more kindly than themselves. Researchers call it the beautiful mess effect. So own it in one plain line, and send the fix. Still feels huge? Ask: If a colleague owned this mistake, what would I think of them? Take a mindful break with Mello.",
-  "transcript": "You hit send to the whole team, then you spot the mistake. Owning it feels like proof that you're careless. But in studies, people judged someone else admitting a mistake more kindly than themselves. Researchers call it the beautiful mess effect. So own it in one plain line and send the fix. Still feels huge. Ask. If a colleague owned this mistake, what would I think of them? Take a mindful break with Mello.",
+  "transcript": "You hit send to the whole team, then you spot the mistake. Owning it feels like proof that you're careless. But in studies, people judged someone else admitting a mistake more kindly than themselves. Researchers call it the beautiful mess effect. So own it in one plain line and send the fix. Still feels huge? Ask. If a colleague owned this mistake, what would I think of them? Take a mindful break with Mello.",
   "segments": [
     {
       "id": "hook",
@@ -45,7 +45,7 @@
       "id": "ask",
       "start": 18.75,
       "end": 20.317,
-      "text": "Still feels huge. Ask.",
+      "text": "Still feels huge? Ask.",
       "cer": 0.0
     },
     {

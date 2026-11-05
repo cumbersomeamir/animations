@@ -254,3 +254,48 @@ cd videos/mello/production/30s/2026-11-05-feedback-05/project && npm ci && ASR_P
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# English-06, 2026-11-06: episode english06-01 "the beautiful mess effect" (owning a small mistake, English)
+Episode record (topic swap, script, sources, storyboard, adjustments): `16-episode-beautiful-mess-effect.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The suggested spotlight effect already exists in this app (hindi03-01). Per the batch rule, a fresh subject in the same genre was chosen: the beautiful mess effect. It is new for this app.
+- Sources read:
+  - Bruk, Scholl & Bless (2018, JPSP 115(2)), PubMed abstract: seven studies; taking responsibility for a mistake is one example of showing vulnerability.
+  - Bruk, Scholl & Bless (2022, PSPB 48(7)), open-access full text. Study 3 = confessing a mistake to one's boss: others' admissions rated more positively than one's own, 4.92 vs 4.65 on 1–7 (modest).
+- Voice: Mello's accepted English Kokoro blend (0.7 af_bella + 0.3 am_puck, en-us, 0.98), synthesized fresh. No Hindi audio was reused.
+
+## Creative decisions (this round)
+- English narration and captions only, 74 words.
+- Hook: "You hit send to the whole team... then you spot the mistake." (the wrong file to 12 people).
+- One study sentence and the name. Action: "own it in one plain line, and send the fix". Ends on the question "If a colleague owned this mistake, what would I think of them?". No anxiety claims.
+- Scene:
+  - the stylised mail laptop;
+  - the accepted navy thought card turning into schematic harsher↔kinder sliders;
+  - a second desk with one colleague (the hindi-03 room-mate figure) who receives the correction while busy.
+- Music: `BED_GAIN` 0.34, 13.0 dB under the sparser English voice.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-06-english-06/mello-30s-english06-01.mp4`
+  - sha256 `95a6f89abde3649f38945ce0a58d631dc855fd486a1a544d14664884e99e299d`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-06-english-06/qa/QA.md`).
+  - Full decode clean; −16.0 LUFS; −1.5 dBTP.
+  - The four cuts are the detected cuts; every second moves.
+  - 0 safe-zone issues in 300 samples. The audit checks each crucial text object on its own and uses projected-sphere boxes for both heads.
+  - English ASR on the final file: CER 0.000, WER 0.000 (all 8 lines exact).
+- One full render (about 26 min).
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-06-english-06/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the audio by ear. It was checked by ASR round-trip and loudness measurements.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
