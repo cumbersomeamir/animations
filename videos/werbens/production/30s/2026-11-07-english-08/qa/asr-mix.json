@@ -1,0 +1,76 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.48
+      ],
+      "script": "Same cookies. Why do the last two look more tempting?",
+      "heard": "Same cookies. Why do the last two look more tempting?",
+      "words": "10/10"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.45,
+        9.63
+      ],
+      "script": "In a 1975 study, cookies from a nearly empty jar were rated more desirable.",
+      "heard": "In a 1975 study, cookies from a nearly empty jar were rated more desirable.",
+      "words": "13/13"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        9.6,
+        14.13
+      ],
+      "script": "Cookies that ran low because others wanted them were rated higher still.",
+      "heard": "Cookies that ran low, because others wanted them were rated higher still.",
+      "words": "12/12"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        14.1,
+        17.59
+      ],
+      "script": "That's scarcity: what's running out can seem more valuable.",
+      "heard": "That's scarcity. What's running out can seem more valuable.",
+      "words": "9/9"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        17.55,
+        21.59
+      ],
+      "script": "So show real limits: true stock counts and real end dates.",
+      "heard": "So show real limits, true stock counts and real end dates.",
+      "words": "11/11"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        21.55,
+        24.79
+      ],
+      "script": "But a fake 'only 2 left' is a known dark pattern.",
+      "heard": "But a fake only two left is a known dark pattern.",
+      "words": "8/10"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Same cookies. Why do the last two look more tempting? In a 1975 study, cookies from a nearly empty jar were rated more desirable. Cookies that ran low because others wanted them were rated higher still. That's scarcity. What's running out can seem more valuable. So show real limits, true stock counts and real end dates. But a fake only two left is a known dark pattern. Follow Warbins to decode how brands sell."
+}

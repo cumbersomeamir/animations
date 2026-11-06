@@ -48,4 +48,5 @@
   (attribute framing, English narration + captions, Meshline voice; context/21). Suggested backpack topic replaced (duplicate).
 - English-07 (batch 2026-11-06-english-07) delivered `production/30s/2026-11-06-english-07/werbens-30s-english07-01.mp4`
   (anchoring on a fictional café menu; English narration + captions, Meshline voice; context/22).
-- English-08 (batch 2026-11-07-english-08) CHECKPOINT: sources, narration, docs committed; final render running → `production/30s/2026-11-07-english-08/werbens-30s-english08-01.mp4`
+- English-08 (batch 2026-11-07-english-08) delivered `production/30s/2026-11-07-english-08/werbens-30s-english08-01.mp4`
+  (scarcity; suggested "admit a flaw" topic replaced as a duplicate of #02; English narration + captions; context/23).

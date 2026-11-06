@@ -2,7 +2,7 @@
 // Everything is synthesised here from oscillators/noise (no samples, no third-party audio) → no licensing constraints.
 // Music is deliberately NON-looping: one held, slowly evolving pad chord per scene + a handful of piano notes tied to object
 // events (landings, lift, hop, cut, tile). No beat grid, no hats, no arpeggio or bass pattern that repeats.
-// Output: build/audio/mix.wav (48 kHz stereo, two-pass EBU R128 loudnorm to -15 LUFS / -1.5 dBTP) + stems for QA.
+// Output: build/audio/mix.wav (48 kHz stereo, two-pass EBU R128 loudnorm to -15 LUFS / -2 dBTP so the AAC export stays ≤ -1.5 dBTP) + stems for QA.
 import fs from "node:fs";
 import { execFileSync, spawnSync } from "node:child_process";
 import { SFX, DURATION, T } from "./timeline.js";
@@ -195,10 +195,10 @@ writeWavF32("build/audio/mix_raw.wav", out);
 writeWavF32("build/audio/stem_voice.wav", [voice]);
 writeWavF32("build/audio/stem_music.wav", [mL, mR]);
 writeWavF32("build/audio/stem_sfx.wav", [sL, sR]);
-const p1 = spawnSync("ffmpeg", ["-hide_banner", "-i", "build/audio/mix_raw.wav", "-af", "loudnorm=I=-15:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" }).stderr;
+const p1 = spawnSync("ffmpeg", ["-hide_banner", "-i", "build/audio/mix_raw.wav", "-af", "loudnorm=I=-15:TP=-2:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" }).stderr;
 const j = JSON.parse(p1.slice(p1.lastIndexOf("{"), p1.lastIndexOf("}") + 1));
 execFileSync("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", "build/audio/mix_raw.wav", "-af",
-  `loudnorm=I=-15:TP=-1.5:LRA=11:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true,aresample=48000`,
+  `loudnorm=I=-15:TP=-2:LRA=11:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true,aresample=48000`,
   "-t", String(DURATION), "-c:a", "pcm_s16le", "-ar", "48000", "build/audio/mix.wav"]);
 console.log("loudnorm pass1", JSON.stringify({ input_i: j.input_i, input_tp: j.input_tp, lra: j.input_lra }));
 console.log("wrote build/audio/mix.wav");
