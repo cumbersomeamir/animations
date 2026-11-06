@@ -88,3 +88,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | H04 | इंडक्शन पर बर्तन गर्म कैसे होता है? (induction cooktop; Hindi) — requested microwave-turntable topic was already R02 | `production/30s/2026-11-04-hindi-04/recall-30s-hindi04-01.mp4` | 18 |
 | F05 | हेडफ़ोन ने एसी की गूंज दबा दी, पर दोस्त की आवाज़ क्यों सुनाई दी? (noise-cancelling headphones; Hindi) | `production/30s/2026-11-05-feedback-05/recall-30s-feedback05-01.mp4` | 19 |
 | E06 | Why your phone compass points the wrong way near a speaker or a steel desk (English; magnetic interference vs GPS location) | `production/30s/2026-11-06-english-06/recall-30s-english06-01.mp4` | 20 |
+| E07 | Why does your phone rush to 80% then crawl to 100%? (English; constant current → constant voltage, heat pause) — the suggested microwave topic was already R02 | `production/30s/2026-11-06-english-07/recall-30s-english07-01.mp4` | 21 |

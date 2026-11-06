@@ -1,0 +1,425 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.4
+  },
+  {
+   "id": "l02",
+   "start": 4.85
+  },
+  {
+   "id": "l03",
+   "start": 9.2
+  },
+  {
+   "id": "l04",
+   "start": 15.95
+  },
+  {
+   "id": "l05",
+   "start": 26.35
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_cu",
+   "t0": 0.0,
+   "t1": 2.3
+  },
+  {
+   "id": "react",
+   "t0": 2.3,
+   "t1": 4.85
+  },
+  {
+   "id": "giant_cc",
+   "t0": 4.85,
+   "t1": 9.2
+  },
+  {
+   "id": "giant_cv",
+   "t0": 9.2,
+   "t1": 13.1
+  },
+  {
+   "id": "pour_cu",
+   "t0": 13.1,
+   "t1": 15.7
+  },
+  {
+   "id": "giant_ease",
+   "t0": 15.7,
+   "t1": 18.7
+  },
+  {
+   "id": "sun_cu",
+   "t0": 18.7,
+   "t1": 21.0
+  },
+  {
+   "id": "giant_heat",
+   "t0": 21.0,
+   "t1": 23.6
+  },
+  {
+   "id": "shade_cu",
+   "t0": 23.6,
+   "t1": 25.0
+  },
+  {
+   "id": "smile",
+   "t0": 25.0,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "race": 0.1,
+  "hit80": 1.6,
+  "crawl": 2.2,
+  "drum": 2.6,
+  "ccStart": 4.95,
+  "at80": 9.0,
+  "vHold": 10.1,
+  "iShrink": 11.5,
+  "pour": 13.2,
+  "pourSlow": 14.1,
+  "ease": 15.95,
+  "sun": 18.75,
+  "touch": 19.6,
+  "heatStart": 21.05,
+  "pause": 21.9,
+  "slide": 23.7,
+  "slideDone": 24.4,
+  "resume": 24.5,
+  "smile": 25.2,
+  "cta": 26.35,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.33,
+   "end": 2.33,
+   "lines": [
+    [
+     [
+      "Why does your phone",
+      0
+     ]
+    ],
+    [
+     [
+      "rush to 80%",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.33,
+   "end": 4.78,
+   "lines": [
+    [
+     [
+      "then ",
+      0
+     ],
+     [
+      "crawl",
+      1
+     ],
+     [
+      " to 100%?",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.78,
+   "end": 7.74,
+   "lines": [
+    [
+     [
+      "At first, the charger pushes",
+      0
+     ]
+    ],
+    [
+     [
+      "a big, steady current",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.74,
+   "end": 9.13,
+   "lines": [
+    [
+     [
+      "into the battery.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.13,
+   "end": 11.2,
+   "lines": [
+    [
+     [
+      "Near full, it holds the",
+      0
+     ]
+    ],
+    [
+     [
+      "voltage steady",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 11.2,
+   "end": 13.05,
+   "lines": [
+    [
+     [
+      "and lets the ",
+      0
+     ],
+     [
+      "current shrink,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 13.05,
+   "end": 15.85,
+   "lines": [
+    [
+     [
+      "like ",
+      0
+     ],
+     [
+      "pouring slower",
+      1
+     ],
+     [
+      " near",
+      0
+     ]
+    ],
+    [
+     [
+      "the top of a glass.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 15.88,
+   "end": 18.7,
+   "lines": [
+    [
+     [
+      "That ",
+      0
+     ],
+     [
+      "gentler finish",
+      1
+     ]
+    ],
+    [
+     [
+      "helps the battery last.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.73,
+   "end": 20.02,
+   "lines": [
+    [
+     [
+      "Keep it ",
+      0
+     ],
+     [
+      "cool",
+      1
+     ],
+     [
+      ", too:",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.02,
+   "end": 23.7,
+   "lines": [
+    [
+     [
+      "when it's too warm, charging",
+      0
+     ]
+    ],
+    [
+     [
+      "past 80% can ",
+      0
+     ],
+     [
+      "pause.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.75,
+   "end": 26.25,
+   "lines": [
+    [
+     [
+      "Fast to 80%.",
+      0
+     ]
+    ],
+    [
+     [
+      "Keep it ",
+      0
+     ],
+     [
+      "cool.",
+      1
+     ]
+    ]
+   ],
+   "onscreen_only": true
+  },
+  {
+   "start": 26.25,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " for learning",
+      0
+     ]
+    ],
+    [
+     [
+      "any new subject with AI.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.85,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.85,
+   13.1,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   13.1,
+   15.7,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   15.7,
+   18.7,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   18.7,
+   23.6,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   23.6,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

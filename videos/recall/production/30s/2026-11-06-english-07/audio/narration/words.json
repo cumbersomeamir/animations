@@ -1,0 +1,415 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Why does your phone rush to 80% then crawl to 100%?",
+   "asr": "Why does your phone rush to 80%, then crawl to 100%.",
+   "duration": 4.071,
+   "words": [
+    {
+     "w": "Why",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "w": "does",
+     "start": 0.16,
+     "end": 0.26
+    },
+    {
+     "w": "your",
+     "start": 0.26,
+     "end": 0.38
+    },
+    {
+     "w": "phone",
+     "start": 0.38,
+     "end": 0.66
+    },
+    {
+     "w": "rush",
+     "start": 0.66,
+     "end": 0.94
+    },
+    {
+     "w": "to",
+     "start": 0.94,
+     "end": 1.2
+    },
+    {
+     "w": "80%,",
+     "start": 1.2,
+     "end": 2.0
+    },
+    {
+     "w": "then",
+     "start": 2.0,
+     "end": 2.5
+    },
+    {
+     "w": "crawl",
+     "start": 2.5,
+     "end": 2.72
+    },
+    {
+     "w": "to",
+     "start": 2.72,
+     "end": 2.96
+    },
+    {
+     "w": "100%.",
+     "start": 2.96,
+     "end": 3.76
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "At first, the charger pushes a big, steady current into the battery.",
+   "asr": "At first, the charger pushes a big, steady current into the battery.",
+   "duration": 3.911,
+   "words": [
+    {
+     "w": "At",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "w": "first,",
+     "start": 0.1,
+     "end": 0.3
+    },
+    {
+     "w": "the",
+     "start": 0.64,
+     "end": 0.68
+    },
+    {
+     "w": "charger",
+     "start": 0.68,
+     "end": 0.92
+    },
+    {
+     "w": "pushes",
+     "start": 0.92,
+     "end": 1.36
+    },
+    {
+     "w": "a",
+     "start": 1.36,
+     "end": 1.58
+    },
+    {
+     "w": "big,",
+     "start": 1.58,
+     "end": 1.9
+    },
+    {
+     "w": "steady",
+     "start": 2.2,
+     "end": 2.52
+    },
+    {
+     "w": "current",
+     "start": 2.52,
+     "end": 2.94
+    },
+    {
+     "w": "into",
+     "start": 2.94,
+     "end": 3.26
+    },
+    {
+     "w": "the",
+     "start": 3.26,
+     "end": 3.36
+    },
+    {
+     "w": "battery.",
+     "start": 3.36,
+     "end": 3.72
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "Near full, it holds the voltage steady and lets the current shrink, like pouring slower near the top of a glass.",
+   "asr": "Near full, it holds the voltage steady and lets the current shrink, like pouring slower near the top of a glass.",
+   "duration": 6.312,
+   "words": [
+    {
+     "w": "Near",
+     "start": 0.0,
+     "end": 0.18
+    },
+    {
+     "w": "full,",
+     "start": 0.18,
+     "end": 0.48
+    },
+    {
+     "w": "it",
+     "start": 0.84,
+     "end": 0.92
+    },
+    {
+     "w": "holds",
+     "start": 0.92,
+     "end": 1.14
+    },
+    {
+     "w": "the",
+     "start": 1.14,
+     "end": 1.38
+    },
+    {
+     "w": "voltage",
+     "start": 1.38,
+     "end": 1.68
+    },
+    {
+     "w": "steady",
+     "start": 1.68,
+     "end": 2.06
+    },
+    {
+     "w": "and",
+     "start": 2.06,
+     "end": 2.36
+    },
+    {
+     "w": "lets",
+     "start": 2.36,
+     "end": 2.54
+    },
+    {
+     "w": "the",
+     "start": 2.54,
+     "end": 2.76
+    },
+    {
+     "w": "current",
+     "start": 2.76,
+     "end": 3.0
+    },
+    {
+     "w": "shrink,",
+     "start": 3.0,
+     "end": 3.34
+    },
+    {
+     "w": "like",
+     "start": 3.9,
+     "end": 3.98
+    },
+    {
+     "w": "pouring",
+     "start": 3.98,
+     "end": 4.28
+    },
+    {
+     "w": "slower",
+     "start": 4.28,
+     "end": 4.78
+    },
+    {
+     "w": "near",
+     "start": 4.78,
+     "end": 5.14
+    },
+    {
+     "w": "the",
+     "start": 5.14,
+     "end": 5.28
+    },
+    {
+     "w": "top",
+     "start": 5.28,
+     "end": 5.5
+    },
+    {
+     "w": "of",
+     "start": 5.5,
+     "end": 5.64
+    },
+    {
+     "w": "a",
+     "start": 5.64,
+     "end": 5.72
+    },
+    {
+     "w": "glass.",
+     "start": 5.72,
+     "end": 5.92
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "That gentler finish helps the battery last. Keep it cool, too: when it's too warm, charging past 80% can pause.",
+   "asr": "That gentler finish helps the battery last. Keep it cool too, when it's too warm, charging past 80% can pause.",
+   "duration": 7.664,
+   "words": [
+    {
+     "w": "That",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "gentler",
+     "start": 0.14,
+     "end": 0.52
+    },
+    {
+     "w": "finish",
+     "start": 0.52,
+     "end": 0.74
+    },
+    {
+     "w": "helps",
+     "start": 0.74,
+     "end": 1.14
+    },
+    {
+     "w": "the",
+     "start": 1.14,
+     "end": 1.38
+    },
+    {
+     "w": "battery",
+     "start": 1.38,
+     "end": 1.64
+    },
+    {
+     "w": "last.",
+     "start": 1.64,
+     "end": 1.98
+    },
+    {
+     "w": "Keep",
+     "start": 2.86,
+     "end": 2.9
+    },
+    {
+     "w": "it",
+     "start": 2.9,
+     "end": 3.0
+    },
+    {
+     "w": "cool",
+     "start": 3.0,
+     "end": 3.26
+    },
+    {
+     "w": "too,",
+     "start": 3.26,
+     "end": 3.6
+    },
+    {
+     "w": "when",
+     "start": 4.14,
+     "end": 4.3
+    },
+    {
+     "w": "it's",
+     "start": 4.3,
+     "end": 4.48
+    },
+    {
+     "w": "too",
+     "start": 4.48,
+     "end": 4.62
+    },
+    {
+     "w": "warm,",
+     "start": 4.62,
+     "end": 5.0
+    },
+    {
+     "w": "charging",
+     "start": 5.26,
+     "end": 5.52
+    },
+    {
+     "w": "past",
+     "start": 5.52,
+     "end": 5.88
+    },
+    {
+     "w": "80",
+     "start": 5.88,
+     "end": 6.32
+    },
+    {
+     "w": "%",
+     "start": 6.32,
+     "end": 6.78
+    },
+    {
+     "w": "can",
+     "start": 6.78,
+     "end": 7.02
+    },
+    {
+     "w": "pause.",
+     "start": 7.02,
+     "end": 7.26
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "Download Recall for learning any new subject with AI.",
+   "asr": "Download Recall for learning any new subject with AI.",
+   "duration": 3.289,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.3
+    },
+    {
+     "w": "Recall",
+     "start": 0.3,
+     "end": 0.62
+    },
+    {
+     "w": "for",
+     "start": 0.62,
+     "end": 1.28
+    },
+    {
+     "w": "learning",
+     "start": 1.28,
+     "end": 1.48
+    },
+    {
+     "w": "any",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "new",
+     "start": 1.76,
+     "end": 1.96
+    },
+    {
+     "w": "subject",
+     "start": 1.96,
+     "end": 2.26
+    },
+    {
+     "w": "with",
+     "start": 2.26,
+     "end": 2.62
+    },
+    {
+     "w": "AI.",
+     "start": 2.62,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

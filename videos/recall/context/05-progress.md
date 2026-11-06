@@ -57,3 +57,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s, noise-cancelling headphones; record, sources, Hindi checks + QA in 19).
 - English-06 2026-11-06 batch (English narration + captions; language override): `videos/recall/production/30s/2026-11-06-english-06/recall-30s-english06-01.mp4`
   (30.000 s, phone compass vs magnets/steel; record, sources + QA in 20).
+- English-07 2026-11-06 (English; suggested microwave topic already R02 → battery charging): `videos/recall/production/30s/2026-11-06-english-07/recall-30s-english07-01.mp4`
+  (30.000 s, why charging slows after 80%; record, topic-change reason, sources + QA in 21).
