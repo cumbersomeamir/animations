@@ -178,3 +178,10 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
   later cues may add emphasis (pulse/glow), not first appearance.
 - Plaque text must fit its plaque (size the width to the longest label: "FICTIONAL EXAMPLE" at 44 px needs ≥ 560 px).
 - A collector/fundraiser is shown only as a neutral hand with a tin — never a caricatured face; no recipients are shown in safety lessons.
+
+## Update 2026-11-07 — english-08 (corrections learned this episode)
+- Topic gate: cold storage / transport spoilage of donated food is covered (round-02). Food lessons must find a new mechanism (english-08: date labels).
+- Wording must match the source's own examples (GOV.UK names ready-to-eat salads, not yoghurt, for use-by) and policy variety ("often"/"some", not "all").
+- Start the first line ≥ 0.35 s in: ASR (and listeners) lose a clipped first word. ASR-test risky nouns in isolation before the full mix
+  ("tin" after "the" → "ten"; "in date" → "and date"): rephrase rather than accept a misheard key word.
+- Music duck under speech raised from 0.55 to 0.72 for english-08 (hook line had only ~11 dB of margin); keep ≥ 15 dB voice-over-music in hooks.

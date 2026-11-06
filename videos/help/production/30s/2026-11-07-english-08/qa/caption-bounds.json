@@ -1,0 +1,148 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 30,
+ "extent": {
+  "x0": 100,
+  "x1": 980,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "A fresh salad or a tin:",
+   "fs": 66,
+   "x0": 196,
+   "x1": 884,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 29
+  },
+  {
+   "text": "which one can / you donate?",
+   "fs": 56,
+   "x0": 340,
+   "x1": 740,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 76
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 242,
+   "x1": 838,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 120
+  },
+  {
+   "text": "a donor packs a / food bank bag.",
+   "fs": 56,
+   "x0": 323,
+   "x1": 757,
+   "y0": 379,
+   "y1": 496,
+   "firstFrame": 171
+  },
+  {
+   "text": "First, read the label.",
+   "fs": 66,
+   "x0": 215,
+   "x1": 865,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 229
+  },
+  {
+   "text": "Use by is about safety,",
+   "fs": 66,
+   "x0": 170,
+   "x1": 910,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 281
+  },
+  {
+   "text": "on food that spoils quickly.",
+   "fs": 66,
+   "x0": 100,
+   "x1": 980,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 336
+  },
+  {
+   "text": "Best before is / about quality,",
+   "fs": 56,
+   "x0": 348,
+   "x1": 732,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 393
+  },
+  {
+   "text": "on long-life food like tins.",
+   "fs": 66,
+   "x0": 125,
+   "x1": 955,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 454
+  },
+  {
+   "text": "Food banks often / want long-life food,",
+   "fs": 56,
+   "x0": 268,
+   "x1": 812,
+   "y0": 377,
+   "y1": 496,
+   "firstFrame": 528
+  },
+  {
+   "text": "and some ask for months",
+   "fs": 66,
+   "x0": 130,
+   "x1": 950,
+   "y0": 405,
+   "y1": 457,
+   "firstFrame": 585
+  },
+  {
+   "text": "left on the date.",
+   "fs": 66,
+   "x0": 285,
+   "x1": 795,
+   "y0": 405,
+   "y1": 457,
+   "firstFrame": 623
+  },
+  {
+   "text": "So the tinned food goes in:",
+   "fs": 66,
+   "x0": 106,
+   "x1": 974,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 666
+  },
+  {
+   "text": "sealed, and well / within its date.",
+   "fs": 56,
+   "x0": 317,
+   "x1": 763,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 725
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 834
+  }
+ ]
+}

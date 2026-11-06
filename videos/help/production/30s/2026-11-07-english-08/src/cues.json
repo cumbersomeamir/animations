@@ -1,0 +1,75 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.35,
+  3.5,
+  6.95,
+  8.7,
+  12.4,
+  16.45,
+  21.6,
+  26.05
+ ],
+ "scenes": {
+  "A_hook_salad_or_tin": [
+   0.0,
+   3.3
+  ],
+  "B_fictional_donor": [
+   3.3,
+   6.8
+  ],
+  "C_read_label": [
+   6.8,
+   8.5
+  ],
+  "D_use_by_safety": [
+   8.5,
+   12.2
+  ],
+  "E_best_before_quality": [
+   12.2,
+   16.2
+  ],
+  "F_food_bank_needs": [
+   16.2,
+   21.4
+  ],
+  "G_pack_the_tin": [
+   21.4,
+   25.8
+  ],
+  "I_cta": [
+   25.8,
+   30.0
+  ]
+ },
+ "cues": {
+  "doors": 0.0,
+  "items": 0.25,
+  "q": 1.7,
+  "label": 3.45,
+  "bag": 4.85,
+  "lens": 6.95,
+  "useLbl": 7.7,
+  "bbLbl": 8.0,
+  "plaque1": 8.65,
+  "shield": 9.4,
+  "clock": 10.7,
+  "plaque2": 12.35,
+  "star": 13.25,
+  "cal": 14.3,
+  "shelf": 16.4,
+  "needs": 17.65,
+  "timeline": 19.7,
+  "drop": 21.75,
+  "sealed": 23.15,
+  "dated": 24.15,
+  "fridgeBack": 24.6,
+  "done": 25.05,
+  "logo": 26.3,
+  "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to English ASR word times of the final voice takes (qa/asr-voice-track.txt). Tick SFX only in pauses; ticks inside speech are visual only."
+}
