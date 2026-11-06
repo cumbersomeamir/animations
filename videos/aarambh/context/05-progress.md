@@ -56,3 +56,7 @@
 ## 2026-11-06: english-07 #01 (English)
 - `videos/aarambh/production/30s/2026-11-06-english-07/aarambh-30s-english07-01.mp4` (sha256 `3eabf720bfdc3fa01913368adc6933044d2f718c99223a1754aa4525fec5362e`): Garrett Morgan's 1923 traffic-signal improvement, the all-direction stop before switching. English narration and captions with the Meshline voice; real photos and the patent sheet; lesson about adding the missing step; Aarambh-only CTA.
 - **Read first next time:** 11 (incl. the English-06 and English-07 notes) and 20.
+
+## 2026-11-07: english-08 #01 (English)
+- `videos/aarambh/production/30s/2026-11-07-english-08/aarambh-30s-english08-01.mp4` (sha256 `7ae642a952e47114de2e4ebb5256a4a5b1ee0a7696e1f2cc9a0f5d5523f71aec`): Samuel F. B. Morse, a former portrait painter, and his 1840 recording telegraph (U.S. 1,647). This replaces the already-covered Lamarr & Antheil suggestion. English narration and captions with the Meshline voice; real LOC and Brady photos; patent sheets; dot/line demo; lesson about combining fields; Aarambh-only CTA.
+- **Read first next time:** 11 (incl. the English-06/07/08 notes) and 21.

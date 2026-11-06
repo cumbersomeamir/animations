@@ -158,3 +158,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** the Meshline blend.
 - **Verification:** small-model ASR matches the script except the app name; there was no human listening. One pre-render fix (hook near miss); no defects on the final sheets.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-07: english-08 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-07-english-08/aarambh-30s-english08-01.mp4`, sha256 `7ae642a952e47114de2e4ebb5256a4a5b1ee0a7696e1f2cc9a0f5d5523f71aec`. Samuel F. B. Morse (English). 30.000 s, 900 frames, −15.1 LUFS, −1.4 dBTP, full decode OK.
+- **Subject change:** the suggested Lamarr & Antheil topic was already covered twice (04, 07), so a fresh subject was chosen with the same lesson (combining fields) and the same communication theme.
+- **Verified facts:** NIHF and the full text and drawings of U.S. Patent 1,647 (USPTO PDF).
+- **Images:** an LOC Brady portrait and Brady's 1857 photo with the recorder.
+- **Verification:** both ASR models match the script except the app name; there was no human listening. Pre-render layout fixes only; no defects on the final sheets.
+- No automation; no other episode started; earlier renders untouched.

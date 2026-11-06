@@ -1,0 +1,41 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), approved Meshline/Recall blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us (English only; no Hindi audio reused)",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "In 1844, a message flashed by wire between Washington and Baltimore.",
+      "tts": "In eighteen forty-four, a message flashed by wire between Washington and Baltimore.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "It ran on the telegraph of Samuel Morse, a former portrait painter with little electrical training.",
+      "tts": "It ran on the telegraph of Samuel Morse, a former portrait painter with little electrical training.",
+      "start": 5.95
+    },
+    {
+      "id": "S3",
+      "text": "His 1840 patent describes a register: a magnet that presses a pen onto moving paper.",
+      "tts": "His eighteen-forty patent describes a register: a magnet that presses a pen onto moving paper.",
+      "start": 12.41
+    },
+    {
+      "id": "S4",
+      "text": "Short pulses of current leave dots; longer ones leave lines.",
+      "tts": "Short pulses of current leave dots; longer ones leave lines.",
+      "start": 18.76
+    },
+    {
+      "id": "S5",
+      "text": "Lesson: combine what you know with a field you are new to.",
+      "tts": "Lesson: combine what you know, with a field you are new to.",
+      "start": 22.89
+    },
+    {
+      "id": "S6",
+      "text": "Download Aarambh to support livelihood tools.",
+      "tts": "Download Aa-rumbh, to support livelihood tools.",
+      "start": 26.75
+    }
+  ]
+}

@@ -229,3 +229,14 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Second ASR model:** when tiny.en mishears a short word ("let" → "lit"), run faster-whisper small (en) once on the export and save it as `qa/asr_small_crosscheck.txt`, rather than re-synthesising.
 
 - 09 (2026-11-06, english-07): Garrett Morgan's all-stop traffic signal improvement (U.S. Patent 1,475,024). Record: `20-production-30s-english07-01.md`
+
+## English-08 notes, 2026-11-07
+- **Duplicate topics:** before scripting, grep the episode log (the "- NN (" lines above) and `videos/aarambh` for the suggested subject. Lamarr & Antheil is covered (04 English, 07 Hindi). When a brief repeats a covered subject and says to choose a fresh one, keep its requested lesson and theme with a new person, and record why in the episode note.
+- **Real-image sources that work from this container:**
+  - Library of Congress `tile.loc.gov/storage-services/service/pnp/<collection>/<folder>/<id>v.jpg` (for example cwpbh.00853) when Commons is rate-limited;
+  - USPTO full-image PDFs for patents;
+  - Commons thumbnails only at standard widths (250/330/500/960/1280), which may still 429.
+- **ASR-friendly phrasing:** test risky phrases ("once a portrait…") with tiny.en and small before final placement; pick the variant both hear correctly.
+- **Demonstration pages:** draw the mechanism large enough to fill the page (key, magnet, lever, pen, paper), sync each press to a spoken word, and pair it with a real patent strip on the same page.
+
+- 10 (2026-11-07, english-08): Samuel F. B. Morse, painter turned telegraph inventor (U.S. Patent 1,647); replaces a third Lamarr & Antheil episode. Record: `21-production-30s-english08-01.md`

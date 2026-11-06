@@ -1,0 +1,25 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+In | 0.00 (In) | 0.00 (In) | pulses already racing along the wire (hook) | 0.12
+1844 | 0.56 (1844,) | 0.56 (1844,) | MAY 24, 1844 stamp | 0.46
+message | 2.22 (message) | 2.22 (message) | message types out: WHAT HATH GOD WROUGHT! | 2.12
+It | 6.02 (It) | 6.02 (It) | page turn -> the inventor | 5.95
+Samuel | 7.62 (Samuel) | 7.62 (Samuel) | name plate | 7.37
+portrait | 9.38 (portrait) | 9.38 (portrait) | card: former portrait painter | 9.18
+electrical | 10.70 (electrical) | 10.72 (electrical) | card: little training in electricity | 10.50
+His | 12.46 (His) | 12.44 (His) | slide swap -> real patent sheet 3 + 1857 recorder photo | 12.41
+patent | 13.34 (patent) | 13.34 (patent) | PATENT 1,647 · JUNE 20, 1840 stamp | 13.24
+register | 14.76 (register,) | 14.76 (register,) | loupe lands on Fig. 4; "register: records the signs" | 14.91
+magnet | 15.90 (magnet) | 15.90 (magnet) | loupe moves magnet -> pen | 15.85
+pen | 17.04 (pen) | 17.06 (pen) | Fig. 4 caption pill | 16.84
+Short | 19.12 (Short) | 19.16 (pulses) | HARD CUT -> register demo; first short press | 18.70
+pulses | 19.16 (pulses) | 19.16 (pulses) | "short pulse = dot" | 19.01
+dots | 20.28 (dots,) | 20.28 (dots,) | short press -> dot | 20.23
+longer | 21.32 (longer) | 21.42 (longer) | long press -> line | 21.27
+ones | 21.42 (ones) | 21.42 (longer) | "long pulse = line" | 21.27
+lines | 21.98 (lines.) | 21.98 (lines.) | long press -> line | 21.88
+Lesson | 23.12 (Lesson,) | 23.12 (Lesson,) | page turn -> lesson | 22.89
+combine | 23.70 (combine) | 23.70 (combine) | card: what he knew = painting | 23.50
+field | 25.18 (field) | 25.18 (field) | card: a new field = electricity | 24.98
+to | 25.86 (to.) | 25.88 (to.) | result: a recording telegraph + check | 25.61
+Download | 26.42 (Download) | 26.36 (Download) | CTA card (slide in 26.25-26.75) | 26.75
+note: placed sentence starts S1 0.30 S2 5.95 S3 12.41 S4 18.76 S5 22.89 S6 26.75 (audio/script.json); ASR stamps "Download" early (26.42).
