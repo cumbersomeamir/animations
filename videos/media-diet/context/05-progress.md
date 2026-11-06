@@ -128,3 +128,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/20, log row.
 - Running (after a session restart stopped the first workers at ~127 frames): `build/render_chunks.sh 0 60 … 420` + `… 480 … 840`
   (resumable 60-frame chunks); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-06 — english-07 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-06-english-07/media-diet-30s-english07-01.mp4
+  (SHA-256 c89e87bd5047a31a56e14ead15075ab4110fd19b3833a09b67effebcf39f6d27). Record: context/20-production-30s-english07-01.md; context/11 log row → delivered.
+- Commands: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (parallel, resumable), re-render of frames 311–330
+  after the boundary review (page opens at the S4 cut), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −1.9 dBTP; captions y 378–488, x 128–953, 0 violations; caption↔speech 9/9; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

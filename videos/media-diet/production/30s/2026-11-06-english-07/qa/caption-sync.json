@@ -1,0 +1,137 @@
+[
+ {
+  "line": "V1",
+  "text": "Planning a meetup, / but one friend isn't on WhatsApp?",
+  "cue": [
+   0.12,
+   3.234
+  ],
+  "speech": [
+   0.22,
+   2.787
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.447,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "On November 5, / WhatsApp updated Events.",
+  "cue": [
+   3.4,
+   6.291
+  ],
+  "speech": [
+   3.502,
+   5.945
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.346,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Create an event, add a photo, / and share one link with everyone.",
+  "cue": [
+   6.46,
+   10.232
+  ],
+  "speech": [
+   6.562,
+   9.888
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.344,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Your friend opens it and can RSVP / without downloading the app.",
+  "cue": [
+   10.4,
+   14.902
+  ],
+  "speech": [
+   10.502,
+   14.435
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.467,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Replies land in the new / Events Home, with reminders.",
+  "cue": [
+   15.07,
+   18.505
+  ],
+  "speech": [
+   15.171,
+   18.159
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.346,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "One limit: guests / without WhatsApp",
+  "cue": [
+   18.67,
+   20.715
+  ],
+  "speech": [
+   18.771,
+   20.715
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "see the address / only after replying.",
+  "cue": [
+   20.735,
+   23.136
+  ],
+  "speech": [
+   20.78,
+   22.772
+  ],
+  "lead_s": 0.045,
+  "tail_s": 0.364,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "It's rolling out to everyone / over the coming weeks.",
+  "cue": [
+   23.31,
+   26.157
+  ],
+  "speech": [
+   23.412,
+   25.812
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.345,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Follow Media Diet / for technology explained.",
+  "cue": [
+   26.33,
+   29.343
+  ],
+  "speech": [
+   26.453,
+   28.991
+  ],
+  "lead_s": 0.123,
+  "tail_s": 0.352,
+  "ok": true
+ }
+]

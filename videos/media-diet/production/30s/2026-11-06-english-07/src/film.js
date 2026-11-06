@@ -346,7 +346,7 @@ function update(t) {
   else { const going = E.replies.filter((r) => t >= r + 0.4).length; phoneDraw(HOST, { mode: 'home', going, remind: prog(t, E.remind, E.remind + 0.3) }); }
   // the friend's phone (A) and a second guest (B)
   const repA = t >= E.rsvp + 0.1 ? 0.5 + prog(t, E.rsvp + 0.1, E.rsvp + 0.4) * 0.5 : 0;
-  phoneDraw(GA, { mode: 'guest', open: id === 'S4' ? prog(t, E.open, E.open + 0.45) : 1, replied: id === 'S6' || t >= 26.31 ? 1 : repA, press: clamp((t - E.rsvp) / 0.2) });
+  phoneDraw(GA, { mode: 'guest', open: id === 'S4' ? prog(t, E.open, E.open + 0.3) : 1, replied: id === 'S6' || t >= 26.31 ? 1 : repA, press: clamp((t - E.rsvp) / 0.2) });
   GB.grp.visible = t >= 18.65; phoneDraw(GB, { mode: 'guest', open: 1, replied: 0, shake: clamp((t - E.lock) / 0.7) });
   tagA.visible = tagB.visible = t >= 18.65; { const sA = prog(t, 18.75, 19.1, outBack), sB = prog(t, 18.85, 19.2, outBack); tagA.scale.setScalar(Math.max(0.01, t >= 26.31 ? 1 : sA)); tagB.scale.setScalar(Math.max(0.01, t >= 26.31 ? 1 : sB)); }
 

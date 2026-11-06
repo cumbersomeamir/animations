@@ -66,7 +66,11 @@ this episode: tall phone props suit the 9:16 frame — about 3.6–3.9 units of 
 below the caption band; stack secondary props (source placard, friend tokens) in front of / below the hero prop, not beside it.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-30s-english07-01.mp4`, SHA-256 `c89e87bd5047a31a56e14ead15075ab4110fd19b3833a09b67effebcf39f6d27`, 17,572,636 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 900 frames; video/audio/container 30.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −1.9 dBTP; captions ink y 378–488, x 128–953, 0 safe-area violations in 900 frames; caption↔speech 9/9;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 10–15 dB under speech per line. Fixed once each: V6
+wording (ASR), framing of S1–S7 (stills), render restart (resumable chunks), empty page at the S4 cut (frames re-rendered, re-encoded).
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked by Whisper-medium (en) per take
