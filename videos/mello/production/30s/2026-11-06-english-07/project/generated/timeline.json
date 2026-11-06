@@ -1,0 +1,115 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "New rule: this podcast only plays on walks.",
+      "start": 0.3,
+      "end": 3.106,
+      "pauses": [
+        [
+          0.838,
+          1.152
+        ],
+        [
+          2.839,
+          2.924
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "It's called temptation bundling: pair something you want with something you keep putting off.",
+      "start": 3.65,
+      "end": 8.366,
+      "pauses": [
+        [
+          5.403,
+          5.81
+        ],
+        [
+          7.591,
+          7.705
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In a gym study, people who saved page-turner audiobooks for workouts went more often, though the boost faded.",
+      "start": 8.9,
+      "end": 15.479,
+      "pauses": [
+        [
+          9.89,
+          10.191
+        ],
+        [
+          14.033,
+          14.393
+        ]
+      ]
+    },
+    {
+      "id": "pick",
+      "text": "Pick one treat: a show, a playlist, a podcast.",
+      "start": 16.0,
+      "end": 18.762,
+      "pauses": [
+        [
+          16.767,
+          17.075
+        ]
+      ]
+    },
+    {
+      "id": "rule",
+      "text": "Then set the rule: it only plays when your walking shoes are on.",
+      "start": 19.3,
+      "end": 22.776,
+      "pauses": [
+        [
+          19.711,
+          19.788
+        ],
+        [
+          20.244,
+          20.65
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "text": "Want the next episode? Lace up.",
+      "start": 23.35,
+      "end": 25.302,
+      "pauses": [
+        [
+          24.492,
+          24.76
+        ],
+        [
+          25.172,
+          25.249
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}
