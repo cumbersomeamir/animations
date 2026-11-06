@@ -56,7 +56,7 @@ const T = {
   drop: TL.study.start + 2.4,                         // "lower": the rating drops after explaining
   title: TL.name.start + 0.5,                         // "the illusion of explanatory depth"
   cardOut: S.s3 - 0.1,
-  talkA: TL.trick.start - 0.1, bubble: trickSplit + 0.05, talkB: TL.trick.end + 0.2,   // "explain it out loud"
+  talkA: TL.trick.start - 0.1, bubble: TL.trick.start + 0.35, talkB: TL.trick.end + 0.2,   // the attempt types out, then stalls (readable for over 1 s)
   unzipA: S.s4 + 0.05, unzipB: S.s4 + 0.7,            // the slider slides back to the middle
   ring: TL.stuck.start + 0.3, next: TL.stuck.start + 1.2,   // "where you get stuck" / "what to learn next"
   xray: TL.learn.start + 1.3, yLabel: TL.learn.start + 2.5, zip2A: TL.learn.start + 2.5, zip2B: TL.learn.end - 0.05,

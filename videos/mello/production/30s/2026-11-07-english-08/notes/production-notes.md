@@ -47,7 +47,8 @@ The source is a copy of `../2026-11-06-english-07/project/`. Reused unchanged:
 3. **S4 labels:** clipped at the left edge, then in the bottom zone, then too small. Final: anchored in front of the zipper's centre at scale 0.4. The slider's travel was narrowed (0.38 → 0.66) so it stays in frame.
 4. **S3:** the speech bubble was off-screen left, then in the band and past the right edge. Final: right of the head at scale 0.7, with the camera aim shifted right.
 5. **S2:** the taller confidence card touched the band; it was lowered (y 1.32) and scaled to 0.88.
-6. Final audit before the full render: 300 samples, 0 issues.
+6. Audit before the first full render: 300 samples, 0 issues.
+7. Render 1 review: the S3 speech bubble began typing at "explain it out loud" and finished only about 0.2 s before fading at the cut, so the stalled explanation could not be read. It now starts at "So before you say…" and holds for over a second. Rendered a second and final time; render 1 outputs were not committed.
 
 ## Commands
 One-time setup: shared Mello venv and the hash-checked Kokoro model.
