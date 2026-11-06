@@ -1,0 +1,361 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Many",
+   "start": 0.0,
+   "end": 0.62
+  },
+  {
+   "w": "early",
+   "start": 0.62,
+   "end": 0.92
+  },
+  {
+   "w": "traffic",
+   "start": 0.92,
+   "end": 1.26
+  },
+  {
+   "w": "signals",
+   "start": 1.26,
+   "end": 1.58
+  },
+  {
+   "w": "showed",
+   "start": 1.58,
+   "end": 1.92
+  },
+  {
+   "w": "only",
+   "start": 1.92,
+   "end": 2.16
+  },
+  {
+   "w": "two",
+   "start": 2.16,
+   "end": 2.44
+  },
+  {
+   "w": "commands,",
+   "start": 2.44,
+   "end": 2.86
+  },
+  {
+   "w": "stop",
+   "start": 3.4,
+   "end": 3.8
+  },
+  {
+   "w": "and",
+   "start": 3.8,
+   "end": 3.98
+  },
+  {
+   "w": "go.",
+   "start": 3.98,
+   "end": 4.4
+  },
+  {
+   "w": "In",
+   "start": 4.82,
+   "end": 5.04
+  },
+  {
+   "w": "1923,",
+   "start": 5.04,
+   "end": 5.9
+  },
+  {
+   "w": "Cleveland",
+   "start": 6.68,
+   "end": 6.86
+  },
+  {
+   "w": "inventor",
+   "start": 6.86,
+   "end": 7.5
+  },
+  {
+   "w": "Garrett",
+   "start": 7.5,
+   "end": 7.9
+  },
+  {
+   "w": "Morgan",
+   "start": 7.9,
+   "end": 8.34
+  },
+  {
+   "w": "patented",
+   "start": 8.34,
+   "end": 8.76
+  },
+  {
+   "w": "an",
+   "start": 8.76,
+   "end": 9.08
+  },
+  {
+   "w": "improvement.",
+   "start": 9.08,
+   "end": 9.5
+  },
+  {
+   "w": "A",
+   "start": 10.24,
+   "end": 10.36
+  },
+  {
+   "w": "hand",
+   "start": 10.36,
+   "end": 10.6
+  },
+  {
+   "w": "crank",
+   "start": 10.6,
+   "end": 10.84
+  },
+  {
+   "w": "first",
+   "start": 10.84,
+   "end": 11.22
+  },
+  {
+   "w": "raised",
+   "start": 11.22,
+   "end": 11.54
+  },
+  {
+   "w": "the",
+   "start": 11.54,
+   "end": 11.82
+  },
+  {
+   "w": "arms,",
+   "start": 11.82,
+   "end": 12.18
+  },
+  {
+   "w": "stopping",
+   "start": 12.88,
+   "end": 12.88
+  },
+  {
+   "w": "traffic",
+   "start": 12.88,
+   "end": 13.42
+  },
+  {
+   "w": "in",
+   "start": 13.42,
+   "end": 13.7
+  },
+  {
+   "w": "every",
+   "start": 13.7,
+   "end": 13.96
+  },
+  {
+   "w": "direction.",
+   "start": 13.96,
+   "end": 14.52
+  },
+  {
+   "w": "That",
+   "start": 15.14,
+   "end": 15.38
+  },
+  {
+   "w": "pause",
+   "start": 15.38,
+   "end": 15.68
+  },
+  {
+   "w": "lit",
+   "start": 15.68,
+   "end": 15.88
+  },
+  {
+   "w": "cars",
+   "start": 15.88,
+   "end": 16.28
+  },
+  {
+   "w": "already",
+   "start": 16.28,
+   "end": 16.82
+  },
+  {
+   "w": "crossing",
+   "start": 16.82,
+   "end": 17.18
+  },
+  {
+   "w": "clear",
+   "start": 17.18,
+   "end": 17.52
+  },
+  {
+   "w": "the",
+   "start": 17.52,
+   "end": 17.8
+  },
+  {
+   "w": "intersection.",
+   "start": 17.8,
+   "end": 18.12
+  },
+  {
+   "w": "Then",
+   "start": 18.7,
+   "end": 18.88
+  },
+  {
+   "w": "the",
+   "start": 18.88,
+   "end": 19.14
+  },
+  {
+   "w": "signal",
+   "start": 19.14,
+   "end": 19.4
+  },
+  {
+   "w": "turned",
+   "start": 19.4,
+   "end": 19.82
+  },
+  {
+   "w": "and",
+   "start": 19.82,
+   "end": 20.32
+  },
+  {
+   "w": "the",
+   "start": 20.32,
+   "end": 20.54
+  },
+  {
+   "w": "arms",
+   "start": 20.54,
+   "end": 20.88
+  },
+  {
+   "w": "lowered",
+   "start": 20.88,
+   "end": 21.16
+  },
+  {
+   "w": "slowly",
+   "start": 21.16,
+   "end": 21.68
+  },
+  {
+   "w": "for",
+   "start": 21.68,
+   "end": 21.94
+  },
+  {
+   "w": "the",
+   "start": 21.94,
+   "end": 22.1
+  },
+  {
+   "w": "other",
+   "start": 22.1,
+   "end": 22.34
+  },
+  {
+   "w": "street.",
+   "start": 22.34,
+   "end": 22.88
+  },
+  {
+   "w": "Lesson",
+   "start": 23.34,
+   "end": 23.74
+  },
+  {
+   "w": "improved",
+   "start": 23.74,
+   "end": 24.28
+  },
+  {
+   "w": "a",
+   "start": 24.28,
+   "end": 24.56
+  },
+  {
+   "w": "system",
+   "start": 24.56,
+   "end": 24.86
+  },
+  {
+   "w": "by",
+   "start": 24.86,
+   "end": 25.14
+  },
+  {
+   "w": "adding",
+   "start": 25.14,
+   "end": 25.36
+  },
+  {
+   "w": "the",
+   "start": 25.36,
+   "end": 25.6
+  },
+  {
+   "w": "step",
+   "start": 25.6,
+   "end": 25.72
+  },
+  {
+   "w": "it",
+   "start": 25.72,
+   "end": 25.9
+  },
+  {
+   "w": "was",
+   "start": 25.9,
+   "end": 26.12
+  },
+  {
+   "w": "missing.",
+   "start": 26.12,
+   "end": 26.42
+  },
+  {
+   "w": "Download",
+   "start": 26.42,
+   "end": 27.36
+  },
+  {
+   "w": "RM",
+   "start": 27.36,
+   "end": 27.82
+  },
+  {
+   "w": "to",
+   "start": 27.82,
+   "end": 28.28
+  },
+  {
+   "w": "support",
+   "start": 28.28,
+   "end": 28.68
+  },
+  {
+   "w": "livelihood",
+   "start": 28.68,
+   "end": 29.06
+  },
+  {
+   "w": "tools.",
+   "start": 29.06,
+   "end": 29.54
+  }
+ ],
+ "text": "Many early traffic signals showed only two commands, stop and go. In 1923, Cleveland inventor Garrett Morgan patented an improvement. A hand crank first raised the arms, stopping traffic in every direction. That pause lit cars already crossing clear the intersection. Then the signal turned and the arms lowered slowly for the other street. Lesson improved a system by adding the step it was missing. Download RM to support livelihood tools."
+}

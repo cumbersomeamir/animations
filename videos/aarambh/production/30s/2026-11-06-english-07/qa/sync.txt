@@ -1,0 +1,27 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Many | 0.00 (Many) | 0.00 (Many) | traffic moving (hook) from frame 0 | 0.20
+two | 2.16 (two) | 2.16 (two) | "only two commands: STOP · GO" | 2.01
+stop | 3.40 (stop) | 3.40 (stop) | signal flips straight to GO | 3.35
+go | 3.98 (go.) | 3.98 (go.) | near miss: car brakes, ring + stamp | 3.90
+In | 4.82 (In) | 4.82 (In) | page turn -> Morgan | 4.75
+Garrett | 7.50 (Garrett) | 7.50 (Garrett) | name plate | 7.25
+patented | 8.34 (patented) | 8.34 (patented) | PATENT 1,475,024 · NOV. 20, 1923 stamp | 8.24
+improvement | 9.08 (improvement.) | 9.08 (improvement.) | "an improvement, not the first signal" | 8.88
+A | 10.24 (A) | 10.24 (A) | slide swap -> real patent sheet | 10.07
+crank | 10.60 (crank) | 10.58 (crank) | loupe lands on crank 28 (Fig. 1) | 10.75
+raised | 11.22 (raised) | 11.22 (raised) | loupe moves to raised arms (Fig. 2) | 11.17
+every | 13.70 (every) | 13.70 (every) | "Fig. 2: arms raised, STOP every way" | 13.50
+That | 15.14 (That) | 15.14 (That) | HARD CUT -> all-stop demo | 15.01
+pause | 15.38 (pause) | 15.42 (pause) | "ALL STOP" + pause timer | 15.18
+already | 16.28 (already) | 16.28 (already) | "already crossing" label on moving car | 16.13
+clear | 17.18 (clear) | 17.16 (clear) | check + "intersection clear" | 17.08
+Then | 18.70 (Then) | 18.70 (Then) | page turn -> signal elevation | 18.64
+turned | 19.40 (turned) | 19.38 (turned,) | box turns STOP -> GO | 19.25
+lowered | 20.88 (lowered) | 20.84 (lowered) | arms descend slowly (dash-pot) | 20.78
+other | 22.10 (other) | 22.10 (other) | other street starts moving | 21.80
+Lesson | 23.34 (Lesson) | 23.38 (Lesson,) | slide swap -> lesson; two-step row | 23.15
+system | 24.56 (system) | 24.58 (system) | three-step row | 24.36
+adding | 25.14 (adding) | 25.14 (adding) | ALL STOP step slides in | 24.99
+missing | 26.12 (missing.) | 26.12 (missing.) | glow + check | 25.92
+Download | 26.42 (Download) | 26.44 (Download) | CTA card (slide in 26.35-26.85) | 26.85
+note: placed sentence starts S1 0.30 S2 4.75 S3 10.07 S4 15.07 S5 18.64 S6 23.15 S7 26.85 (audio/script.json); ASR stamps "Download" early (26.42).

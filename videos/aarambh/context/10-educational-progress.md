@@ -150,3 +150,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** the Meshline blend (English).
 - **Verification:** ASR matches the script; the CTA was cross-checked with the small model. There was no human listening. One pre-render fix (P2 driver and wipe).
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-06: english-07 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-06-english-07/aarambh-30s-english07-01.mp4`, sha256 `3eabf720bfdc3fa01913368adc6933044d2f718c99223a1754aa4525fec5362e`. Garrett Morgan's all-stop traffic signal improvement (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** the full text and drawings of U.S. Patent 1,475,024 (USPTO PDF) and NIHF. The video presents his patented improvement, not the invention of the traffic light.
+- **Photos:** a portrait (PD-old) and a 1916 newspaper rescue photo (PD-US).
+- **Voice:** the Meshline blend.
+- **Verification:** small-model ASR matches the script except the app name; there was no human listening. One pre-render fix (hook near miss); no defects on the final sheets.
+- No automation; no other episode started; earlier renders untouched.

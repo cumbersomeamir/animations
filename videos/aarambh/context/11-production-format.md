@@ -218,3 +218,14 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Patent full text:** the USPTO full-image PDF endpoint (`image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/<7-digit number>`) works when Google Patents returns 503.
 
 - 08 (2026-11-06, english-06): Mary Anderson and the windshield wiper (U.S. Patent 743,801). Record: `19-production-30s-english06-01.md`
+
+## English-07 notes, 2026-11-06
+- **Inventor-of-an-improvement episodes:**
+  - State what already existed first (with a source), then use the patent's own word ("Improvement").
+  - Add an on-screen line such as "an improvement, not the first signal".
+  - Never write "invented the …" for a category that predates the patent.
+- **Show the before-state as the hook.** Motion from frame 0 that demonstrates the problem (here a two-step signal causing a near miss) beats a static title.
+- **Photograph licences:** prefer a dated publication made before 1931 (for example a 1916 newspaper photo whose caption names the person) over modern reprints. A local English-Wikipedia file with a "government reprint" PD claim is the weakest option; skip it when a Commons alternative exists.
+- **Second ASR model:** when tiny.en mishears a short word ("let" → "lit"), run faster-whisper small (en) once on the export and save it as `qa/asr_small_crosscheck.txt`, rather than re-synthesising.
+
+- 09 (2026-11-06, english-07): Garrett Morgan's all-stop traffic signal improvement (U.S. Patent 1,475,024). Record: `20-production-30s-english07-01.md`

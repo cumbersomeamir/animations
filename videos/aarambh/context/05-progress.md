@@ -52,3 +52,7 @@
 ## 2026-11-06: english-06 #01 (English)
 - `videos/aarambh/production/30s/2026-11-06-english-06/aarambh-30s-english06-01.mp4` (sha256 `72f3928d01b1cfd605fc2960422635c6f5abeb3eb51e46cb00e158474c03ee42`): Mary Anderson, the 1903 window-cleaning device (U.S. 743,801). English narration and captions with the Meshline voice; real portrait; patent Fig. 2 under the magnifier; lesson about noticing accepted hassles; Aarambh-only CTA.
 - **Read first next time:** 11 (incl. the English-06 notes) and 19.
+
+## 2026-11-06: english-07 #01 (English)
+- `videos/aarambh/production/30s/2026-11-06-english-07/aarambh-30s-english07-01.mp4` (sha256 `3eabf720bfdc3fa01913368adc6933044d2f718c99223a1754aa4525fec5362e`): Garrett Morgan's 1923 traffic-signal improvement, the all-direction stop before switching. English narration and captions with the Meshline voice; real photos and the patent sheet; lesson about adding the missing step; Aarambh-only CTA.
+- **Read first next time:** 11 (incl. the English-06 and English-07 notes) and 20.

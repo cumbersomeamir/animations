@@ -1,0 +1,47 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), approved Meshline/Recall blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us (English only; no Hindi audio reused)",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "Many early traffic signals showed only two commands: stop and go.",
+      "tts": "Many early traffic signals showed only two commands: stop, and go.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "In 1923, Cleveland inventor Garrett Morgan patented an improvement.",
+      "tts": "In nineteen twenty-three, Cleveland inventor Garrett Morgan patented an improvement.",
+      "start": 4.75
+    },
+    {
+      "id": "S3",
+      "text": "A hand crank first raised the arms, stopping traffic in every direction.",
+      "tts": "A hand crank first raised the arms, stopping traffic in every direction.",
+      "start": 10.07
+    },
+    {
+      "id": "S4",
+      "text": "That pause let cars already crossing clear the intersection.",
+      "tts": "That pause let cars already crossing clear the intersection.",
+      "start": 15.07
+    },
+    {
+      "id": "S5",
+      "text": "Then the signal turned, and the arms lowered slowly for the other street.",
+      "tts": "Then the signal turned, and the arms lowered slowly for the other street.",
+      "start": 18.64
+    },
+    {
+      "id": "S6",
+      "text": "Lesson: improve a system by adding the step it was missing.",
+      "tts": "Lesson: improve a system by adding the step it was missing.",
+      "start": 23.15
+    },
+    {
+      "id": "S7",
+      "text": "Download Aarambh to support livelihood tools.",
+      "tts": "Download Aa-rumbh, to support livelihood tools.",
+      "start": 26.85
+    }
+  ]
+}
