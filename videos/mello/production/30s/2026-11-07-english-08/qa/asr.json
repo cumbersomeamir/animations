@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.006,
+  "wer": 0.026,
+  "reference": "Quick: how well do you understand a zipper? Most of us feel sure, until we explain it step by step. In studies, people rated their understanding lower after trying to explain. It's called the illusion of explanatory depth. So before you say 'I get it', explain it out loud. Where you get stuck is what to learn next. With a zipper, it's often the hidden part: the slider's Y-shaped channel. Take a mindful break with Mello.",
+  "transcript": "Quick, how well do you understand a zipper? Most of us feel sure until we explain it step by step. In studies, people rated their understanding lower after trying to explain. It's called the illusion of explanatory depth. So before you say I get it, explain it out loud. Where you get stuck is what to learn next. With a zipper, it's often the hidden part, the slider's Y-shaped channel. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 2.353,
+      "text": "Quick, how well do you understand a zipper?",
+      "cer": 0.0
+    },
+    {
+      "id": "sure",
+      "start": 2.85,
+      "end": 6.162,
+      "text": "Most of us feel sure until we explain it step by step.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 6.7,
+      "end": 11.024,
+      "text": "In studies, people rated their understanding lower after trying to explain.",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 11.55,
+      "end": 14.006,
+      "text": "It's called the illusion of explanatory depth.",
+      "cer": 0.0
+    },
+    {
+      "id": "trick",
+      "start": 14.6,
+      "end": 17.288,
+      "text": "So before you say I get it, explain it out loud.",
+      "cer": 0.053
+    },
+    {
+      "id": "stuck",
+      "start": 17.85,
+      "end": 19.841,
+      "text": "Where you get stuck is what to learn next.",
+      "cer": 0.0
+    },
+    {
+      "id": "learn",
+      "start": 20.4,
+      "end": 24.595,
+      "text": "With a zipper, it's often the hidden part, the slider's Y-shaped channel.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
