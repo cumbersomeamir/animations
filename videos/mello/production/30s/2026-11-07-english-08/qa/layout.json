@@ -1,0 +1,15276 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -717,
+    1396,
+    167,
+    2279
+   ],
+   "slider": [
+    611,
+    1275,
+    839,
+    1505
+   ],
+   "zipper": [
+    -68,
+    671,
+    936,
+    1602
+   ],
+   "desk": [
+    -1175,
+    -16,
+    2137,
+    2283
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -719,
+    1396,
+    168,
+    2282
+   ],
+   "slider": [
+    612,
+    1275,
+    840,
+    1506
+   ],
+   "zipper": [
+    -69,
+    671,
+    937,
+    1604
+   ],
+   "desk": [
+    -1179,
+    -16,
+    2139,
+    2284
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -722,
+    1396,
+    169,
+    2286
+   ],
+   "slider": [
+    610,
+    1274,
+    839,
+    1505
+   ],
+   "zipper": [
+    -70,
+    672,
+    938,
+    1605
+   ],
+   "desk": [
+    -1183,
+    -16,
+    2141,
+    2286
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -725,
+    1396,
+    170,
+    2291
+   ],
+   "slider": [
+    605,
+    1270,
+    835,
+    1501
+   ],
+   "zipper": [
+    -71,
+    672,
+    940,
+    1607
+   ],
+   "desk": [
+    -1188,
+    -15,
+    2144,
+    2288
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -728,
+    1397,
+    171,
+    2296
+   ],
+   "slider": [
+    595,
+    1260,
+    825,
+    1492
+   ],
+   "zipper": [
+    -71,
+    674,
+    942,
+    1609
+   ],
+   "desk": [
+    -1194,
+    -15,
+    2146,
+    2290
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -732,
+    1398,
+    173,
+    2303
+   ],
+   "slider": [
+    578,
+    1245,
+    807,
+    1476
+   ],
+   "zipper": [
+    -70,
+    677,
+    944,
+    1611
+   ],
+   "desk": [
+    -1200,
+    -15,
+    2149,
+    2293
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -737,
+    1399,
+    175,
+    2311
+   ],
+   "slider": [
+    551,
+    1221,
+    781,
+    1452
+   ],
+   "zipper": [
+    -67,
+    680,
+    946,
+    1614
+   ],
+   "desk": [
+    -1207,
+    -14,
+    2153,
+    2295
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -741,
+    1402,
+    177,
+    2320
+   ],
+   "slider": [
+    514,
+    1188,
+    743,
+    1418
+   ],
+   "zipper": [
+    -63,
+    686,
+    949,
+    1616
+   ],
+   "desk": [
+    -1216,
+    -14,
+    2157,
+    2299
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -747,
+    1404,
+    179,
+    2330
+   ],
+   "slider": [
+    464,
+    1145,
+    692,
+    1373
+   ],
+   "zipper": [
+    -57,
+    693,
+    952,
+    1620
+   ],
+   "desk": [
+    -1225,
+    -13,
+    2161,
+    2302
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -752,
+    1408,
+    182,
+    2342
+   ],
+   "slider": [
+    399,
+    1089,
+    626,
+    1316
+   ],
+   "zipper": [
+    -48,
+    702,
+    956,
+    1623
+   ],
+   "desk": [
+    -1235,
+    -12,
+    2166,
+    2306
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -758,
+    1412,
+    185,
+    2355
+   ],
+   "slider": [
+    320,
+    1022,
+    546,
+    1245
+   ],
+   "zipper": [
+    -37,
+    713,
+    959,
+    1627
+   ],
+   "desk": [
+    -1246,
+    -12,
+    2171,
+    2311
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -765,
+    1416,
+    188,
+    2369
+   ],
+   "slider": [
+    248,
+    962,
+    474,
+    1183
+   ],
+   "zipper": [
+    -28,
+    724,
+    963,
+    1631
+   ],
+   "desk": [
+    -1257,
+    -11,
+    2176,
+    2315
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -771,
+    1421,
+    191,
+    2383
+   ],
+   "slider": [
+    191,
+    916,
+    417,
+    1135
+   ],
+   "zipper": [
+    -21,
+    732,
+    967,
+    1635
+   ],
+   "desk": [
+    -1269,
+    -10,
+    2182,
+    2320
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -778,
+    1427,
+    194,
+    2399
+   ],
+   "slider": [
+    146,
+    881,
+    373,
+    1100
+   ],
+   "zipper": [
+    -17,
+    739,
+    971,
+    1639
+   ],
+   "desk": [
+    -1282,
+    -9,
+    2187,
+    2324
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -784,
+    1433,
+    198,
+    2415
+   ],
+   "slider": [
+    113,
+    857,
+    339,
+    1075
+   ],
+   "zipper": [
+    -15,
+    745,
+    975,
+    1643
+   ],
+   "desk": [
+    -1294,
+    -9,
+    2193,
+    2329
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -791,
+    1439,
+    201,
+    2431
+   ],
+   "slider": [
+    88,
+    840,
+    316,
+    1058
+   ],
+   "zipper": [
+    -15,
+    749,
+    980,
+    1648
+   ],
+   "desk": [
+    -1307,
+    -8,
+    2199,
+    2334
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -797,
+    1445,
+    205,
+    2447
+   ],
+   "slider": [
+    71,
+    830,
+    300,
+    1049
+   ],
+   "zipper": [
+    -16,
+    752,
+    984,
+    1652
+   ],
+   "desk": [
+    -1319,
+    -7,
+    2204,
+    2339
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -803,
+    1451,
+    208,
+    2463
+   ],
+   "slider": [
+    60,
+    825,
+    290,
+    1044
+   ],
+   "zipper": [
+    -18,
+    754,
+    988,
+    1656
+   ],
+   "desk": [
+    -1331,
+    -6,
+    2209,
+    2343
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -809,
+    1457,
+    212,
+    2478
+   ],
+   "slider": [
+    53,
+    823,
+    284,
+    1044
+   ],
+   "zipper": [
+    -20,
+    756,
+    991,
+    1660
+   ],
+   "desk": [
+    -1342,
+    -6,
+    2214,
+    2348
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -815,
+    1464,
+    215,
+    2493
+   ],
+   "slider": [
+    49,
+    824,
+    282,
+    1045
+   ],
+   "zipper": [
+    -23,
+    757,
+    995,
+    1663
+   ],
+   "desk": [
+    -1353,
+    -5,
+    2219,
+    2352
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -819,
+    1470,
+    218,
+    2506
+   ],
+   "slider": [
+    47,
+    825,
+    280,
+    1047
+   ],
+   "zipper": [
+    -26,
+    758,
+    998,
+    1667
+   ],
+   "desk": [
+    -1362,
+    -4,
+    2223,
+    2355
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -823,
+    1475,
+    220,
+    2519
+   ],
+   "slider": [
+    44,
+    826,
+    279,
+    1049
+   ],
+   "zipper": [
+    -29,
+    758,
+    1001,
+    1669
+   ],
+   "desk": [
+    -1371,
+    -4,
+    2227,
+    2358
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -827,
+    1480,
+    223,
+    2530
+   ],
+   "slider": [
+    42,
+    827,
+    278,
+    1051
+   ],
+   "zipper": [
+    -31,
+    759,
+    1004,
+    1672
+   ],
+   "desk": [
+    -1378,
+    -3,
+    2230,
+    2361
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -830,
+    1485,
+    225,
+    2540
+   ],
+   "slider": [
+    40,
+    828,
+    276,
+    1052
+   ],
+   "zipper": [
+    -33,
+    760,
+    1006,
+    1674
+   ],
+   "desk": [
+    -1385,
+    -3,
+    2233,
+    2364
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -833,
+    1490,
+    227,
+    2549
+   ],
+   "slider": [
+    39,
+    829,
+    276,
+    1053
+   ],
+   "zipper": [
+    -35,
+    760,
+    1008,
+    1676
+   ],
+   "desk": [
+    -1391,
+    -3,
+    2235,
+    2366
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -835,
+    1494,
+    228,
+    2558
+   ],
+   "slider": [
+    37,
+    829,
+    275,
+    1054
+   ],
+   "zipper": [
+    -36,
+    761,
+    1010,
+    1678
+   ],
+   "desk": [
+    -1396,
+    -2,
+    2237,
+    2368
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    729,
+    853,
+    953,
+    1078
+   ],
+   "slider": [
+    522,
+    1208,
+    583,
+    1238
+   ],
+   "zipper": [
+    519,
+    1195,
+    873,
+    1248
+   ],
+   "desk": [
+    51,
+    1126,
+    1243,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    729,
+    853,
+    953,
+    1078
+   ],
+   "slider": [
+    522,
+    1209,
+    583,
+    1238
+   ],
+   "zipper": [
+    519,
+    1196,
+    873,
+    1248
+   ],
+   "desk": [
+    51,
+    1126,
+    1243,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    166,
+    340,
+    914,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     614,
+     677,
+     992
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    732,
+    853,
+    957,
+    1078
+   ],
+   "slider": [
+    522,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    873,
+    1248
+   ],
+   "desk": [
+    51,
+    1126,
+    1243,
+    1376
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     602,
+     692,
+     1003
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    852,
+    964,
+    1078
+   ],
+   "slider": [
+    522,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    873,
+    1248
+   ],
+   "desk": [
+    51,
+    1126,
+    1243,
+    1376
+   ],
+   "caption": [
+    93,
+    341,
+    987,
+    519
+   ],
+   "captionText": [
+    104,
+    350,
+    976,
+    510
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": [
+     134,
+     586,
+     714,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    851,
+    970,
+    1078
+   ],
+   "slider": [
+    522,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1248
+   ],
+   "desk": [
+    51,
+    1126,
+    1244,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     127,
+     581,
+     720,
+     1024
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    851,
+    973,
+    1079
+   ],
+   "slider": [
+    522,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1248
+   ],
+   "desk": [
+    51,
+    1127,
+    1244,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     127,
+     581,
+     720,
+     1024
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    851,
+    973,
+    1079
+   ],
+   "slider": [
+    523,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1244,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     581,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    851,
+    973,
+    1079
+   ],
+   "slider": [
+    523,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1245,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     580,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    850,
+    973,
+    1079
+   ],
+   "slider": [
+    523,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1245,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     580,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    850,
+    973,
+    1078
+   ],
+   "slider": [
+    523,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1245,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     580,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    849,
+    973,
+    1078
+   ],
+   "slider": [
+    523,
+    1209,
+    583,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    874,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1246,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     580,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    849,
+    973,
+    1077
+   ],
+   "slider": [
+    523,
+    1209,
+    584,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    875,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1246,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     125,
+     580,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    848,
+    973,
+    1077
+   ],
+   "slider": [
+    523,
+    1209,
+    584,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    875,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1246,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     125,
+     579,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    745,
+    847,
+    973,
+    1076
+   ],
+   "slider": [
+    523,
+    1209,
+    584,
+    1239
+   ],
+   "zipper": [
+    519,
+    1196,
+    875,
+    1249
+   ],
+   "desk": [
+    51,
+    1127,
+    1247,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": [
+     125,
+     579,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    846,
+    973,
+    1075
+   ],
+   "slider": [
+    523,
+    1209,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1196,
+    875,
+    1249
+   ],
+   "desk": [
+    51,
+    1128,
+    1247,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     125,
+     579,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    846,
+    973,
+    1075
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    875,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1248,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     124,
+     579,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    845,
+    973,
+    1074
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    875,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1248,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     124,
+     578,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    844,
+    974,
+    1073
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    876,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1248,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     124,
+     578,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    843,
+    974,
+    1072
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    876,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1249,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     124,
+     578,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    842,
+    974,
+    1072
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    876,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1249,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     123,
+     578,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    841,
+    974,
+    1071
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    876,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1250,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     123,
+     577,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    841,
+    974,
+    1070
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    876,
+    1250
+   ],
+   "desk": [
+    50,
+    1128,
+    1250,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     123,
+     577,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    840,
+    974,
+    1070
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1240
+   ],
+   "zipper": [
+    519,
+    1197,
+    877,
+    1251
+   ],
+   "desk": [
+    50,
+    1129,
+    1251,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     122,
+     577,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    839,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1210,
+    584,
+    1241
+   ],
+   "zipper": [
+    519,
+    1197,
+    877,
+    1251
+   ],
+   "desk": [
+    50,
+    1129,
+    1251,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": [
+     122,
+     576,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    839,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1210,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1197,
+    877,
+    1251
+   ],
+   "desk": [
+    50,
+    1129,
+    1252,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     122,
+     576,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    838,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1198,
+    877,
+    1251
+   ],
+   "desk": [
+    50,
+    1129,
+    1252,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     121,
+     576,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    838,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1198,
+    877,
+    1251
+   ],
+   "desk": [
+    50,
+    1129,
+    1253,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     121,
+     575,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    838,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1198,
+    878,
+    1252
+   ],
+   "desk": [
+    50,
+    1130,
+    1253,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     121,
+     575,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    744,
+    838,
+    974,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1198,
+    878,
+    1252
+   ],
+   "desk": [
+    49,
+    1130,
+    1254,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     120,
+     575,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    838,
+    975,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1241
+   ],
+   "zipper": [
+    519,
+    1198,
+    878,
+    1252
+   ],
+   "desk": [
+    49,
+    1130,
+    1255,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     120,
+     574,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    838,
+    975,
+    1069
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1242
+   ],
+   "zipper": [
+    519,
+    1198,
+    879,
+    1252
+   ],
+   "desk": [
+    49,
+    1130,
+    1255,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     119,
+     574,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    838,
+    975,
+    1070
+   ],
+   "slider": [
+    523,
+    1211,
+    585,
+    1242
+   ],
+   "zipper": [
+    519,
+    1198,
+    879,
+    1252
+   ],
+   "desk": [
+    49,
+    1130,
+    1256,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     119,
+     574,
+     720,
+     1023
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    839,
+    975,
+    1070
+   ],
+   "slider": [
+    523,
+    1212,
+    585,
+    1242
+   ],
+   "zipper": [
+    519,
+    1198,
+    879,
+    1253
+   ],
+   "desk": [
+    49,
+    1131,
+    1256,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     119,
+     573,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    839,
+    975,
+    1071
+   ],
+   "slider": [
+    523,
+    1212,
+    586,
+    1242
+   ],
+   "zipper": [
+    519,
+    1199,
+    879,
+    1253
+   ],
+   "desk": [
+    49,
+    1131,
+    1257,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     118,
+     573,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    840,
+    975,
+    1072
+   ],
+   "slider": [
+    524,
+    1212,
+    586,
+    1242
+   ],
+   "zipper": [
+    520,
+    1199,
+    880,
+    1253
+   ],
+   "desk": [
+    49,
+    1131,
+    1258,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     118,
+     573,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    840,
+    976,
+    1072
+   ],
+   "slider": [
+    524,
+    1212,
+    586,
+    1242
+   ],
+   "zipper": [
+    520,
+    1199,
+    880,
+    1253
+   ],
+   "desk": [
+    49,
+    1131,
+    1258,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     117,
+     572,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    841,
+    976,
+    1073
+   ],
+   "slider": [
+    524,
+    1212,
+    586,
+    1243
+   ],
+   "zipper": [
+    520,
+    1199,
+    880,
+    1253
+   ],
+   "desk": [
+    49,
+    1131,
+    1259,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     117,
+     572,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    841,
+    976,
+    1074
+   ],
+   "slider": [
+    524,
+    1212,
+    586,
+    1243
+   ],
+   "zipper": [
+    520,
+    1199,
+    881,
+    1254
+   ],
+   "desk": [
+    49,
+    1132,
+    1260,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     116,
+     571,
+     720,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    842,
+    976,
+    1075
+   ],
+   "slider": [
+    524,
+    1212,
+    586,
+    1243
+   ],
+   "zipper": [
+    520,
+    1199,
+    881,
+    1254
+   ],
+   "desk": [
+    48,
+    1132,
+    1261,
+    1381
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     116,
+     571,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    842,
+    976,
+    1075
+   ],
+   "slider": [
+    524,
+    1213,
+    586,
+    1243
+   ],
+   "zipper": [
+    520,
+    1199,
+    881,
+    1254
+   ],
+   "desk": [
+    48,
+    1132,
+    1261,
+    1381
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    101,
+    349,
+    979,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     115,
+     570,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    843,
+    977,
+    1076
+   ],
+   "slider": [
+    524,
+    1213,
+    586,
+    1243
+   ],
+   "zipper": [
+    520,
+    1200,
+    882,
+    1254
+   ],
+   "desk": [
+    48,
+    1132,
+    1262,
+    1381
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     115,
+     570,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    843,
+    977,
+    1077
+   ],
+   "slider": [
+    524,
+    1213,
+    587,
+    1244
+   ],
+   "zipper": [
+    520,
+    1200,
+    882,
+    1255
+   ],
+   "desk": [
+    48,
+    1133,
+    1263,
+    1381
+   ],
+   "caption": [
+    96,
+    341,
+    984,
+    519
+   ],
+   "captionText": [
+    99,
+    343,
+    981,
+    517
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     569,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    977,
+    1078
+   ],
+   "slider": [
+    524,
+    1213,
+    587,
+    1244
+   ],
+   "zipper": [
+    520,
+    1200,
+    882,
+    1255
+   ],
+   "desk": [
+    48,
+    1133,
+    1264,
+    1381
+   ],
+   "caption": [
+    91,
+    340,
+    989,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    985,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     569,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    977,
+    1078
+   ],
+   "slider": [
+    524,
+    1213,
+    587,
+    1244
+   ],
+   "zipper": [
+    520,
+    1200,
+    883,
+    1255
+   ],
+   "desk": [
+    48,
+    1133,
+    1264,
+    1381
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     569,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    977,
+    1079
+   ],
+   "slider": [
+    524,
+    1213,
+    587,
+    1244
+   ],
+   "zipper": [
+    520,
+    1200,
+    883,
+    1255
+   ],
+   "desk": [
+    48,
+    1133,
+    1265,
+    1382
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     568,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    977,
+    1079
+   ],
+   "slider": [
+    524,
+    1214,
+    587,
+    1244
+   ],
+   "zipper": [
+    520,
+    1200,
+    883,
+    1256
+   ],
+   "desk": [
+    48,
+    1134,
+    1266,
+    1382
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     568,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1214,
+    587,
+    1245
+   ],
+   "zipper": [
+    520,
+    1201,
+    884,
+    1256
+   ],
+   "desk": [
+    47,
+    1134,
+    1267,
+    1382
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     567,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1214,
+    587,
+    1245
+   ],
+   "zipper": [
+    520,
+    1201,
+    884,
+    1256
+   ],
+   "desk": [
+    47,
+    1134,
+    1268,
+    1382
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     567,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1214,
+    588,
+    1245
+   ],
+   "zipper": [
+    520,
+    1201,
+    884,
+    1256
+   ],
+   "desk": [
+    47,
+    1134,
+    1268,
+    1382
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     566,
+     721,
+     1022
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    844,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1214,
+    588,
+    1245
+   ],
+   "zipper": [
+    520,
+    1201,
+    885,
+    1257
+   ],
+   "desk": [
+    47,
+    1135,
+    1269,
+    1383
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     566,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    743,
+    843,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1215,
+    588,
+    1245
+   ],
+   "zipper": [
+    520,
+    1201,
+    885,
+    1257
+   ],
+   "desk": [
+    47,
+    1135,
+    1270,
+    1383
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     565,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    843,
+    978,
+    1079
+   ],
+   "slider": [
+    524,
+    1215,
+    588,
+    1246
+   ],
+   "zipper": [
+    520,
+    1201,
+    885,
+    1257
+   ],
+   "desk": [
+    47,
+    1135,
+    1271,
+    1383
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     565,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    842,
+    979,
+    1078
+   ],
+   "slider": [
+    525,
+    1215,
+    588,
+    1246
+   ],
+   "zipper": [
+    520,
+    1202,
+    886,
+    1258
+   ],
+   "desk": [
+    47,
+    1135,
+    1272,
+    1383
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     564,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    841,
+    979,
+    1078
+   ],
+   "slider": [
+    525,
+    1215,
+    588,
+    1246
+   ],
+   "zipper": [
+    520,
+    1202,
+    886,
+    1258
+   ],
+   "desk": [
+    47,
+    1136,
+    1273,
+    1383
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     564,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    840,
+    979,
+    1077
+   ],
+   "slider": [
+    525,
+    1215,
+    589,
+    1246
+   ],
+   "zipper": [
+    520,
+    1202,
+    887,
+    1258
+   ],
+   "desk": [
+    46,
+    1136,
+    1274,
+    1384
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     563,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    839,
+    979,
+    1076
+   ],
+   "slider": [
+    525,
+    1215,
+    589,
+    1247
+   ],
+   "zipper": [
+    520,
+    1202,
+    887,
+    1258
+   ],
+   "desk": [
+    46,
+    1136,
+    1275,
+    1384
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     107,
+     563,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    838,
+    979,
+    1076
+   ],
+   "slider": [
+    525,
+    1216,
+    589,
+    1247
+   ],
+   "zipper": [
+    520,
+    1202,
+    887,
+    1259
+   ],
+   "desk": [
+    46,
+    1137,
+    1275,
+    1384
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     562,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    837,
+    979,
+    1075
+   ],
+   "slider": [
+    525,
+    1216,
+    589,
+    1247
+   ],
+   "zipper": [
+    520,
+    1203,
+    888,
+    1259
+   ],
+   "desk": [
+    46,
+    1137,
+    1276,
+    1384
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     562,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    836,
+    979,
+    1074
+   ],
+   "slider": [
+    525,
+    1216,
+    589,
+    1247
+   ],
+   "zipper": [
+    520,
+    1203,
+    888,
+    1259
+   ],
+   "desk": [
+    46,
+    1137,
+    1277,
+    1385
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     561,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    742,
+    835,
+    980,
+    1073
+   ],
+   "slider": [
+    525,
+    1216,
+    589,
+    1247
+   ],
+   "zipper": [
+    520,
+    1203,
+    888,
+    1260
+   ],
+   "desk": [
+    46,
+    1137,
+    1278,
+    1385
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     561,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    834,
+    980,
+    1072
+   ],
+   "slider": [
+    525,
+    1216,
+    590,
+    1248
+   ],
+   "zipper": [
+    520,
+    1203,
+    889,
+    1260
+   ],
+   "desk": [
+    46,
+    1138,
+    1279,
+    1385
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     560,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    833,
+    980,
+    1072
+   ],
+   "slider": [
+    525,
+    1217,
+    590,
+    1248
+   ],
+   "zipper": [
+    520,
+    1203,
+    889,
+    1260
+   ],
+   "desk": [
+    46,
+    1138,
+    1280,
+    1385
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     560,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    832,
+    980,
+    1071
+   ],
+   "slider": [
+    525,
+    1217,
+    590,
+    1248
+   ],
+   "zipper": [
+    520,
+    1204,
+    890,
+    1260
+   ],
+   "desk": [
+    45,
+    1138,
+    1281,
+    1385
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     559,
+     721,
+     1021
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    831,
+    980,
+    1070
+   ],
+   "slider": [
+    525,
+    1217,
+    590,
+    1248
+   ],
+   "zipper": [
+    520,
+    1204,
+    890,
+    1261
+   ],
+   "desk": [
+    45,
+    1139,
+    1282,
+    1386
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     558,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    830,
+    980,
+    1070
+   ],
+   "slider": [
+    525,
+    1217,
+    590,
+    1249
+   ],
+   "zipper": [
+    520,
+    1204,
+    890,
+    1261
+   ],
+   "desk": [
+    45,
+    1139,
+    1282,
+    1386
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     558,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    830,
+    980,
+    1069
+   ],
+   "slider": [
+    525,
+    1217,
+    590,
+    1249
+   ],
+   "zipper": [
+    521,
+    1204,
+    891,
+    1261
+   ],
+   "desk": [
+    45,
+    1139,
+    1283,
+    1386
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     557,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    829,
+    981,
+    1069
+   ],
+   "slider": [
+    525,
+    1218,
+    591,
+    1249
+   ],
+   "zipper": [
+    521,
+    1204,
+    891,
+    1262
+   ],
+   "desk": [
+    45,
+    1139,
+    1284,
+    1386
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     557,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    741,
+    829,
+    981,
+    1069
+   ],
+   "slider": [
+    526,
+    1218,
+    591,
+    1249
+   ],
+   "zipper": [
+    521,
+    1204,
+    892,
+    1262
+   ],
+   "desk": [
+    45,
+    1140,
+    1285,
+    1387
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    342,
+    986,
+    518
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     100,
+     556,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    981,
+    1069
+   ],
+   "slider": [
+    526,
+    1218,
+    591,
+    1249
+   ],
+   "zipper": [
+    521,
+    1205,
+    892,
+    1262
+   ],
+   "desk": [
+    45,
+    1140,
+    1286,
+    1387
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     100,
+     556,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    981,
+    1069
+   ],
+   "slider": [
+    526,
+    1218,
+    591,
+    1250
+   ],
+   "zipper": [
+    521,
+    1205,
+    892,
+    1262
+   ],
+   "desk": [
+    45,
+    1140,
+    1287,
+    1387
+   ],
+   "caption": [
+    95,
+    341,
+    985,
+    519
+   ],
+   "captionText": [
+    141,
+    380,
+    939,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     99,
+     555,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    981,
+    1069
+   ],
+   "slider": [
+    526,
+    1218,
+    591,
+    1250
+   ],
+   "zipper": [
+    521,
+    1205,
+    893,
+    1263
+   ],
+   "desk": [
+    44,
+    1141,
+    1288,
+    1387
+   ],
+   "caption": [
+    91,
+    340,
+    989,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     99,
+     555,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    981,
+    1069
+   ],
+   "slider": [
+    526,
+    1219,
+    591,
+    1250
+   ],
+   "zipper": [
+    521,
+    1205,
+    893,
+    1263
+   ],
+   "desk": [
+    44,
+    1141,
+    1289,
+    1387
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     98,
+     554,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    982,
+    1069
+   ],
+   "slider": [
+    526,
+    1219,
+    591,
+    1250
+   ],
+   "zipper": [
+    521,
+    1205,
+    894,
+    1263
+   ],
+   "desk": [
+    44,
+    1141,
+    1289,
+    1388
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     98,
+     554,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    982,
+    1070
+   ],
+   "slider": [
+    526,
+    1219,
+    592,
+    1251
+   ],
+   "zipper": [
+    521,
+    1206,
+    894,
+    1264
+   ],
+   "desk": [
+    44,
+    1141,
+    1290,
+    1388
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     97,
+     553,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    828,
+    982,
+    1070
+   ],
+   "slider": [
+    526,
+    1219,
+    592,
+    1251
+   ],
+   "zipper": [
+    521,
+    1206,
+    895,
+    1264
+   ],
+   "desk": [
+    44,
+    1142,
+    1291,
+    1388
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     97,
+     553,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    829,
+    982,
+    1071
+   ],
+   "slider": [
+    526,
+    1219,
+    592,
+    1251
+   ],
+   "zipper": [
+    521,
+    1206,
+    895,
+    1264
+   ],
+   "desk": [
+    44,
+    1142,
+    1292,
+    1388
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     96,
+     552,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    829,
+    982,
+    1072
+   ],
+   "slider": [
+    526,
+    1220,
+    592,
+    1251
+   ],
+   "zipper": [
+    521,
+    1206,
+    895,
+    1264
+   ],
+   "desk": [
+    44,
+    1142,
+    1293,
+    1388
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     95,
+     552,
+     721,
+     1020
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    830,
+    983,
+    1072
+   ],
+   "slider": [
+    526,
+    1220,
+    592,
+    1251
+   ],
+   "zipper": [
+    521,
+    1206,
+    896,
+    1265
+   ],
+   "desk": [
+    44,
+    1142,
+    1294,
+    1389
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     95,
+     551,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    830,
+    983,
+    1073
+   ],
+   "slider": [
+    526,
+    1220,
+    592,
+    1252
+   ],
+   "zipper": [
+    521,
+    1206,
+    896,
+    1265
+   ],
+   "desk": [
+    43,
+    1143,
+    1294,
+    1389
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     94,
+     551,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    831,
+    983,
+    1074
+   ],
+   "slider": [
+    526,
+    1220,
+    592,
+    1252
+   ],
+   "zipper": [
+    521,
+    1207,
+    897,
+    1265
+   ],
+   "desk": [
+    43,
+    1143,
+    1295,
+    1389
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     94,
+     551,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    831,
+    983,
+    1075
+   ],
+   "slider": [
+    526,
+    1220,
+    593,
+    1252
+   ],
+   "zipper": [
+    521,
+    1207,
+    897,
+    1265
+   ],
+   "desk": [
+    43,
+    1143,
+    1296,
+    1389
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     93,
+     550,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    832,
+    983,
+    1076
+   ],
+   "slider": [
+    526,
+    1220,
+    593,
+    1252
+   ],
+   "zipper": [
+    521,
+    1207,
+    897,
+    1266
+   ],
+   "desk": [
+    43,
+    1143,
+    1297,
+    1389
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     93,
+     550,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    833,
+    983,
+    1076
+   ],
+   "slider": [
+    526,
+    1221,
+    593,
+    1252
+   ],
+   "zipper": [
+    521,
+    1207,
+    898,
+    1266
+   ],
+   "desk": [
+    43,
+    1144,
+    1297,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     93,
+     549,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    833,
+    984,
+    1077
+   ],
+   "slider": [
+    526,
+    1221,
+    593,
+    1253
+   ],
+   "zipper": [
+    521,
+    1207,
+    898,
+    1266
+   ],
+   "desk": [
+    43,
+    1144,
+    1298,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     92,
+     549,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    833,
+    984,
+    1078
+   ],
+   "slider": [
+    526,
+    1221,
+    593,
+    1253
+   ],
+   "zipper": [
+    521,
+    1207,
+    899,
+    1266
+   ],
+   "desk": [
+    43,
+    1144,
+    1299,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     92,
+     548,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    740,
+    834,
+    984,
+    1078
+   ],
+   "slider": [
+    527,
+    1221,
+    593,
+    1253
+   ],
+   "zipper": [
+    521,
+    1208,
+    899,
+    1267
+   ],
+   "desk": [
+    43,
+    1144,
+    1300,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     91,
+     548,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    984,
+    1079
+   ],
+   "slider": [
+    527,
+    1221,
+    593,
+    1253
+   ],
+   "zipper": [
+    521,
+    1208,
+    899,
+    1267
+   ],
+   "desk": [
+    43,
+    1145,
+    1300,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     91,
+     548,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    984,
+    1079
+   ],
+   "slider": [
+    527,
+    1221,
+    594,
+    1253
+   ],
+   "zipper": [
+    521,
+    1208,
+    900,
+    1267
+   ],
+   "desk": [
+    43,
+    1145,
+    1301,
+    1390
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     90,
+     547,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    984,
+    1079
+   ],
+   "slider": [
+    527,
+    1221,
+    594,
+    1253
+   ],
+   "zipper": [
+    521,
+    1208,
+    900,
+    1267
+   ],
+   "desk": [
+    42,
+    1145,
+    1302,
+    1391
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    136,
+    379,
+    944,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     90,
+     547,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    985,
+    1080
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1208,
+    900,
+    1267
+   ],
+   "desk": [
+    42,
+    1145,
+    1302,
+    1391
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     90,
+     546,
+     721,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    985,
+    1080
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1208,
+    901,
+    1268
+   ],
+   "desk": [
+    42,
+    1145,
+    1303,
+    1391
+   ],
+   "caption": [
+    93,
+    341,
+    987,
+    519
+   ],
+   "captionText": [
+    98,
+    348,
+    982,
+    512
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     546,
+     722,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    834,
+    985,
+    1079
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1208,
+    901,
+    1268
+   ],
+   "desk": [
+    42,
+    1146,
+    1303,
+    1391
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     546,
+     722,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    833,
+    985,
+    1079
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1209,
+    901,
+    1268
+   ],
+   "desk": [
+    42,
+    1146,
+    1304,
+    1391
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     88,
+     545,
+     722,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    833,
+    985,
+    1079
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1209,
+    902,
+    1268
+   ],
+   "desk": [
+    42,
+    1146,
+    1305,
+    1391
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     88,
+     545,
+     722,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    832,
+    985,
+    1078
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1254
+   ],
+   "zipper": [
+    521,
+    1209,
+    902,
+    1268
+   ],
+   "desk": [
+    42,
+    1146,
+    1305,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     88,
+     545,
+     722,
+     1019
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    831,
+    985,
+    1078
+   ],
+   "slider": [
+    527,
+    1222,
+    594,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    902,
+    1269
+   ],
+   "desk": [
+    42,
+    1146,
+    1306,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     87,
+     544,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    831,
+    985,
+    1077
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    902,
+    1269
+   ],
+   "desk": [
+    42,
+    1146,
+    1306,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     87,
+     544,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    830,
+    985,
+    1076
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    903,
+    1269
+   ],
+   "desk": [
+    42,
+    1147,
+    1307,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     87,
+     544,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    829,
+    985,
+    1076
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    903,
+    1269
+   ],
+   "desk": [
+    42,
+    1147,
+    1307,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     86,
+     543,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    828,
+    985,
+    1075
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    903,
+    1269
+   ],
+   "desk": [
+    42,
+    1147,
+    1308,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     86,
+     543,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    827,
+    985,
+    1074
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1209,
+    903,
+    1270
+   ],
+   "desk": [
+    42,
+    1147,
+    1308,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     86,
+     543,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    826,
+    986,
+    1073
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1210,
+    904,
+    1270
+   ],
+   "desk": [
+    41,
+    1147,
+    1309,
+    1392
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     85,
+     543,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    825,
+    986,
+    1072
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1255
+   ],
+   "zipper": [
+    521,
+    1210,
+    904,
+    1270
+   ],
+   "desk": [
+    41,
+    1147,
+    1309,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     85,
+     542,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    824,
+    986,
+    1072
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    904,
+    1270
+   ],
+   "desk": [
+    41,
+    1148,
+    1310,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     85,
+     542,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    823,
+    986,
+    1071
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    904,
+    1270
+   ],
+   "desk": [
+    41,
+    1148,
+    1310,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     85,
+     542,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    822,
+    986,
+    1070
+   ],
+   "slider": [
+    527,
+    1223,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    905,
+    1270
+   ],
+   "desk": [
+    41,
+    1148,
+    1311,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     84,
+     542,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    822,
+    986,
+    1070
+   ],
+   "slider": [
+    527,
+    1224,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    905,
+    1270
+   ],
+   "desk": [
+    41,
+    1148,
+    1311,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     84,
+     541,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    821,
+    986,
+    1069
+   ],
+   "slider": [
+    527,
+    1224,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    905,
+    1270
+   ],
+   "desk": [
+    41,
+    1148,
+    1311,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     84,
+     541,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    821,
+    986,
+    1069
+   ],
+   "slider": [
+    527,
+    1224,
+    595,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    905,
+    1271
+   ],
+   "desk": [
+    41,
+    1148,
+    1312,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     84,
+     541,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    820,
+    986,
+    1069
+   ],
+   "slider": [
+    527,
+    1224,
+    596,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    905,
+    1271
+   ],
+   "desk": [
+    41,
+    1148,
+    1312,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     83,
+     541,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    820,
+    986,
+    1068
+   ],
+   "slider": [
+    527,
+    1224,
+    596,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1148,
+    1312,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     83,
+     541,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    738,
+    820,
+    986,
+    1068
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1149,
+    1313,
+    1393
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     83,
+     540,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    737,
+    820,
+    986,
+    1069
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1256
+   ],
+   "zipper": [
+    522,
+    1210,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1149,
+    1313,
+    1394
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     83,
+     540,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    737,
+    820,
+    986,
+    1069
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1257
+   ],
+   "zipper": [
+    522,
+    1211,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1149,
+    1313,
+    1394
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": [
+     82,
+     540,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    737,
+    820,
+    986,
+    1069
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1257
+   ],
+   "zipper": [
+    522,
+    1211,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1149,
+    1314,
+    1394
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     82,
+     540,
+     722,
+     1018
+    ],
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    737,
+    821,
+    986,
+    1070
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1257
+   ],
+   "zipper": [
+    522,
+    1211,
+    906,
+    1271
+   ],
+   "desk": [
+    41,
+    1149,
+    1314,
+    1394
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    739,
+    821,
+    988,
+    1070
+   ],
+   "slider": [
+    528,
+    1224,
+    596,
+    1257
+   ],
+   "zipper": [
+    522,
+    1211,
+    907,
+    1272
+   ],
+   "desk": [
+    41,
+    1149,
+    1314,
+    1394
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    252,
+    580,
+    541,
+    869
+   ],
+   "slider": [
+    730,
+    1060,
+    814,
+    1100
+   ],
+   "zipper": [
+    695,
+    1050,
+    993,
+    1182
+   ],
+   "desk": [
+    211,
+    976,
+    1706,
+    1364
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    245,
+    580,
+    535,
+    870
+   ],
+   "slider": [
+    729,
+    1061,
+    813,
+    1100
+   ],
+   "zipper": [
+    695,
+    1050,
+    993,
+    1182
+   ],
+   "desk": [
+    209,
+    977,
+    1706,
+    1365
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    94,
+    347,
+    986,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    243,
+    581,
+    533,
+    871
+   ],
+   "slider": [
+    729,
+    1061,
+    812,
+    1101
+   ],
+   "zipper": [
+    694,
+    1050,
+    993,
+    1183
+   ],
+   "desk": [
+    207,
+    977,
+    1707,
+    1365
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    242,
+    581,
+    533,
+    872
+   ],
+   "slider": [
+    728,
+    1061,
+    811,
+    1101
+   ],
+   "zipper": [
+    693,
+    1050,
+    993,
+    1183
+   ],
+   "desk": [
+    205,
+    977,
+    1707,
+    1365
+   ],
+   "caption": [
+    96,
+    341,
+    984,
+    519
+   ],
+   "captionText": [
+    135,
+    341,
+    945,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    241,
+    581,
+    533,
+    873
+   ],
+   "slider": [
+    727,
+    1061,
+    811,
+    1101
+   ],
+   "zipper": [
+    692,
+    1051,
+    993,
+    1183
+   ],
+   "desk": [
+    203,
+    978,
+    1707,
+    1365
+   ],
+   "caption": [
+    91,
+    340,
+    989,
+    520
+   ],
+   "captionText": [
+    131,
+    340,
+    949,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    240,
+    582,
+    532,
+    874
+   ],
+   "slider": [
+    726,
+    1062,
+    810,
+    1102
+   ],
+   "zipper": [
+    691,
+    1051,
+    993,
+    1184
+   ],
+   "desk": [
+    201,
+    978,
+    1708,
+    1366
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    239,
+    582,
+    532,
+    875
+   ],
+   "slider": [
+    724,
+    1062,
+    809,
+    1102
+   ],
+   "zipper": [
+    689,
+    1051,
+    993,
+    1184
+   ],
+   "desk": [
+    199,
+    978,
+    1708,
+    1366
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    238,
+    582,
+    531,
+    875
+   ],
+   "slider": [
+    723,
+    1062,
+    807,
+    1102
+   ],
+   "zipper": [
+    688,
+    1052,
+    993,
+    1184
+   ],
+   "desk": [
+    196,
+    979,
+    1709,
+    1366
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    237,
+    582,
+    531,
+    876
+   ],
+   "slider": [
+    721,
+    1063,
+    806,
+    1103
+   ],
+   "zipper": [
+    686,
+    1052,
+    993,
+    1185
+   ],
+   "desk": [
+    193,
+    979,
+    1709,
+    1367
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    236,
+    582,
+    530,
+    877
+   ],
+   "slider": [
+    720,
+    1063,
+    805,
+    1103
+   ],
+   "zipper": [
+    684,
+    1052,
+    993,
+    1185
+   ],
+   "desk": [
+    189,
+    980,
+    1710,
+    1367
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    234,
+    582,
+    530,
+    877
+   ],
+   "slider": [
+    718,
+    1064,
+    803,
+    1104
+   ],
+   "zipper": [
+    683,
+    1053,
+    993,
+    1186
+   ],
+   "desk": [
+    186,
+    981,
+    1710,
+    1368
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    233,
+    581,
+    529,
+    878
+   ],
+   "slider": [
+    716,
+    1064,
+    801,
+    1105
+   ],
+   "zipper": [
+    680,
+    1053,
+    993,
+    1186
+   ],
+   "desk": [
+    182,
+    981,
+    1711,
+    1368
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    231,
+    580,
+    529,
+    878
+   ],
+   "slider": [
+    713,
+    1065,
+    800,
+    1105
+   ],
+   "zipper": [
+    678,
+    1054,
+    993,
+    1187
+   ],
+   "desk": [
+    177,
+    982,
+    1712,
+    1369
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    230,
+    579,
+    528,
+    878
+   ],
+   "slider": [
+    711,
+    1065,
+    798,
+    1106
+   ],
+   "zipper": [
+    676,
+    1054,
+    993,
+    1188
+   ],
+   "desk": [
+    173,
+    983,
+    1712,
+    1370
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    228,
+    578,
+    528,
+    878
+   ],
+   "slider": [
+    709,
+    1066,
+    796,
+    1107
+   ],
+   "zipper": [
+    674,
+    1055,
+    993,
+    1188
+   ],
+   "desk": [
+    169,
+    984,
+    1713,
+    1370
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    226,
+    577,
+    527,
+    878
+   ],
+   "slider": [
+    706,
+    1067,
+    794,
+    1107
+   ],
+   "zipper": [
+    671,
+    1056,
+    993,
+    1189
+   ],
+   "desk": [
+    164,
+    984,
+    1713,
+    1371
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    224,
+    576,
+    527,
+    878
+   ],
+   "slider": [
+    704,
+    1067,
+    792,
+    1108
+   ],
+   "zipper": [
+    669,
+    1056,
+    993,
+    1190
+   ],
+   "desk": [
+    159,
+    985,
+    1714,
+    1372
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    223,
+    574,
+    526,
+    877
+   ],
+   "slider": [
+    702,
+    1068,
+    790,
+    1109
+   ],
+   "zipper": [
+    666,
+    1057,
+    993,
+    1190
+   ],
+   "desk": [
+    154,
+    986,
+    1715,
+    1372
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    221,
+    572,
+    525,
+    877
+   ],
+   "slider": [
+    699,
+    1069,
+    788,
+    1110
+   ],
+   "zipper": [
+    663,
+    1057,
+    993,
+    1191
+   ],
+   "desk": [
+    149,
+    987,
+    1715,
+    1373
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     558,
+     643,
+     981,
+     804
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    219,
+    570,
+    525,
+    876
+   ],
+   "slider": [
+    697,
+    1069,
+    786,
+    1110
+   ],
+   "zipper": [
+    661,
+    1058,
+    993,
+    1192
+   ],
+   "desk": [
+    144,
+    988,
+    1716,
+    1374
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     537,
+     634,
+     1003,
+     810
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    217,
+    568,
+    524,
+    875
+   ],
+   "slider": [
+    694,
+    1070,
+    784,
+    1111
+   ],
+   "zipper": [
+    658,
+    1059,
+    993,
+    1193
+   ],
+   "desk": [
+    140,
+    989,
+    1716,
+    1374
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     532,
+     630,
+     1009,
+     811
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    216,
+    566,
+    524,
+    874
+   ],
+   "slider": [
+    692,
+    1071,
+    782,
+    1112
+   ],
+   "zipper": [
+    656,
+    1059,
+    992,
+    1193
+   ],
+   "desk": [
+    135,
+    989,
+    1717,
+    1375
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     532,
+     628,
+     1010,
+     809
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    214,
+    564,
+    523,
+    873
+   ],
+   "slider": [
+    689,
+    1071,
+    780,
+    1113
+   ],
+   "zipper": [
+    654,
+    1060,
+    992,
+    1194
+   ],
+   "desk": [
+    131,
+    990,
+    1717,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     531,
+     626,
+     1011,
+     808
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    213,
+    562,
+    523,
+    872
+   ],
+   "slider": [
+    687,
+    1072,
+    778,
+    1113
+   ],
+   "zipper": [
+    651,
+    1060,
+    992,
+    1195
+   ],
+   "desk": [
+    126,
+    991,
+    1718,
+    1376
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     531,
+     625,
+     1013,
+     807
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    211,
+    560,
+    523,
+    871
+   ],
+   "slider": [
+    685,
+    1072,
+    776,
+    1114
+   ],
+   "zipper": [
+    649,
+    1061,
+    992,
+    1195
+   ],
+   "desk": [
+    122,
+    992,
+    1718,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     531,
+     623,
+     1014,
+     805
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    210,
+    557,
+    522,
+    870
+   ],
+   "slider": [
+    683,
+    1073,
+    774,
+    1115
+   ],
+   "zipper": [
+    647,
+    1061,
+    992,
+    1196
+   ],
+   "desk": [
+    119,
+    992,
+    1719,
+    1377
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     530,
+     621,
+     1015,
+     804
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    209,
+    555,
+    522,
+    869
+   ],
+   "slider": [
+    682,
+    1073,
+    773,
+    1115
+   ],
+   "zipper": [
+    646,
+    1062,
+    992,
+    1196
+   ],
+   "desk": [
+    115,
+    993,
+    1719,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     530,
+     619,
+     1016,
+     803
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    207,
+    553,
+    522,
+    868
+   ],
+   "slider": [
+    680,
+    1074,
+    772,
+    1116
+   ],
+   "zipper": [
+    644,
+    1062,
+    992,
+    1197
+   ],
+   "desk": [
+    112,
+    994,
+    1719,
+    1378
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     530,
+     617,
+     1017,
+     801
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    207,
+    552,
+    521,
+    866
+   ],
+   "slider": [
+    678,
+    1074,
+    770,
+    1116
+   ],
+   "zipper": [
+    642,
+    1063,
+    992,
+    1197
+   ],
+   "desk": [
+    109,
+    994,
+    1719,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     530,
+     616,
+     1017,
+     800
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    206,
+    550,
+    521,
+    865
+   ],
+   "slider": [
+    677,
+    1075,
+    769,
+    1117
+   ],
+   "zipper": [
+    641,
+    1063,
+    992,
+    1198
+   ],
+   "desk": [
+    107,
+    994,
+    1720,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     529,
+     614,
+     1018,
+     799
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    205,
+    548,
+    521,
+    865
+   ],
+   "slider": [
+    676,
+    1075,
+    768,
+    1117
+   ],
+   "zipper": [
+    640,
+    1063,
+    992,
+    1198
+   ],
+   "desk": [
+    105,
+    995,
+    1720,
+    1379
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     532,
+     614,
+     1016,
+     797
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    204,
+    547,
+    521,
+    864
+   ],
+   "slider": [
+    675,
+    1075,
+    767,
+    1117
+   ],
+   "zipper": [
+    639,
+    1064,
+    992,
+    1198
+   ],
+   "desk": [
+    103,
+    995,
+    1720,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     558,
+     623,
+     992,
+     787
+    ],
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    204,
+    546,
+    521,
+    863
+   ],
+   "slider": [
+    674,
+    1076,
+    767,
+    1118
+   ],
+   "zipper": [
+    638,
+    1064,
+    992,
+    1199
+   ],
+   "desk": [
+    101,
+    996,
+    1720,
+    1380
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -711,
+    1671,
+    473,
+    2855
+   ],
+   "slider": [
+    91,
+    802,
+    346,
+    1048
+   ],
+   "zipper": [
+    15,
+    724,
+    1161,
+    1714
+   ],
+   "desk": [
+    -1445,
+    -117,
+    2422,
+    2399
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -712,
+    1671,
+    473,
+    2856
+   ],
+   "slider": [
+    91,
+    803,
+    347,
+    1049
+   ],
+   "zipper": [
+    15,
+    724,
+    1162,
+    1714
+   ],
+   "desk": [
+    -1446,
+    -117,
+    2423,
+    2400
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    130,
+    340,
+    950,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -712,
+    1672,
+    474,
+    2858
+   ],
+   "slider": [
+    111,
+    818,
+    367,
+    1065
+   ],
+   "zipper": [
+    11,
+    721,
+    1162,
+    1715
+   ],
+   "desk": [
+    -1448,
+    -117,
+    2423,
+    2400
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -713,
+    1673,
+    475,
+    2861
+   ],
+   "slider": [
+    189,
+    877,
+    446,
+    1128
+   ],
+   "zipper": [
+    -2,
+    710,
+    1163,
+    1715
+   ],
+   "desk": [
+    -1449,
+    -117,
+    2424,
+    2400
+   ],
+   "caption": [
+    93,
+    341,
+    987,
+    519
+   ],
+   "captionText": [
+    208,
+    340,
+    872,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -713,
+    1674,
+    476,
+    2863
+   ],
+   "slider": [
+    360,
+    1005,
+    621,
+    1263
+   ],
+   "zipper": [
+    -30,
+    686,
+    1163,
+    1715
+   ],
+   "desk": [
+    -1451,
+    -117,
+    2424,
+    2401
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -713,
+    1675,
+    477,
+    2866
+   ],
+   "slider": [
+    489,
+    1102,
+    754,
+    1365
+   ],
+   "zipper": [
+    -51,
+    668,
+    1164,
+    1716
+   ],
+   "desk": [
+    -1452,
+    -117,
+    2425,
+    2401
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1677,
+    478,
+    2869
+   ],
+   "slider": [
+    537,
+    1138,
+    804,
+    1404
+   ],
+   "zipper": [
+    -59,
+    662,
+    1165,
+    1716
+   ],
+   "desk": [
+    -1454,
+    -116,
+    2426,
+    2401
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1679,
+    479,
+    2872
+   ],
+   "slider": [
+    544,
+    1144,
+    811,
+    1410
+   ],
+   "zipper": [
+    -60,
+    661,
+    1165,
+    1717
+   ],
+   "desk": [
+    -1455,
+    -116,
+    2426,
+    2402
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1681,
+    480,
+    2875
+   ],
+   "slider": [
+    544,
+    1144,
+    812,
+    1410
+   ],
+   "zipper": [
+    -61,
+    661,
+    1166,
+    1717
+   ],
+   "desk": [
+    -1457,
+    -116,
+    2427,
+    2402
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1684,
+    481,
+    2879
+   ],
+   "slider": [
+    544,
+    1144,
+    812,
+    1411
+   ],
+   "zipper": [
+    -61,
+    661,
+    1167,
+    1718
+   ],
+   "desk": [
+    -1459,
+    -116,
+    2427,
+    2403
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1687,
+    482,
+    2883
+   ],
+   "slider": [
+    545,
+    1144,
+    812,
+    1411
+   ],
+   "zipper": [
+    -62,
+    661,
+    1167,
+    1719
+   ],
+   "desk": [
+    -1461,
+    -115,
+    2428,
+    2403
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1690,
+    483,
+    2887
+   ],
+   "slider": [
+    545,
+    1145,
+    813,
+    1412
+   ],
+   "zipper": [
+    -62,
+    661,
+    1168,
+    1719
+   ],
+   "desk": [
+    -1462,
+    -115,
+    2429,
+    2404
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1693,
+    484,
+    2891
+   ],
+   "slider": [
+    545,
+    1145,
+    813,
+    1412
+   ],
+   "zipper": [
+    -63,
+    661,
+    1169,
+    1720
+   ],
+   "desk": [
+    -1464,
+    -115,
+    2430,
+    2404
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1696,
+    485,
+    2896
+   ],
+   "slider": [
+    545,
+    1145,
+    814,
+    1413
+   ],
+   "zipper": [
+    -64,
+    661,
+    1170,
+    1720
+   ],
+   "desk": [
+    -1467,
+    -115,
+    2430,
+    2405
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1700,
+    486,
+    2900
+   ],
+   "slider": [
+    545,
+    1146,
+    814,
+    1413
+   ],
+   "zipper": [
+    -64,
+    662,
+    1171,
+    1721
+   ],
+   "desk": [
+    -1469,
+    -114,
+    2431,
+    2405
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     301,
+     1292,
+     700,
+     1363
+    ],
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1703,
+    488,
+    2905
+   ],
+   "slider": [
+    545,
+    1146,
+    814,
+    1414
+   ],
+   "zipper": [
+    -65,
+    662,
+    1172,
+    1722
+   ],
+   "desk": [
+    -1471,
+    -114,
+    2432,
+    2406
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     262,
+     1286,
+     740,
+     1371
+    ],
+    "yLab": null
+   },
+   "head": [
+    -714,
+    1707,
+    489,
+    2910
+   ],
+   "slider": [
+    546,
+    1146,
+    815,
+    1414
+   ],
+   "zipper": [
+    -65,
+    662,
+    1173,
+    1723
+   ],
+   "desk": [
+    -1473,
+    -114,
+    2433,
+    2406
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     222,
+     1280,
+     780,
+     1378
+    ],
+    "yLab": null
+   },
+   "head": [
+    -715,
+    1710,
+    490,
+    2915
+   ],
+   "slider": [
+    546,
+    1147,
+    815,
+    1415
+   ],
+   "zipper": [
+    -66,
+    662,
+    1174,
+    1723
+   ],
+   "desk": [
+    -1476,
+    -114,
+    2434,
+    2407
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1280,
+     783,
+     1380
+    ],
+    "yLab": null
+   },
+   "head": [
+    -715,
+    1713,
+    492,
+    2920
+   ],
+   "slider": [
+    546,
+    1147,
+    816,
+    1416
+   ],
+   "zipper": [
+    -67,
+    662,
+    1175,
+    1724
+   ],
+   "desk": [
+    -1478,
+    -113,
+    2435,
+    2408
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1280,
+     784,
+     1380
+    ],
+    "yLab": null
+   },
+   "head": [
+    -716,
+    1717,
+    494,
+    2926
+   ],
+   "slider": [
+    546,
+    1147,
+    816,
+    1416
+   ],
+   "zipper": [
+    -68,
+    662,
+    1176,
+    1725
+   ],
+   "desk": [
+    -1481,
+    -113,
+    2436,
+    2408
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1281,
+     785,
+     1381
+    ],
+    "yLab": null
+   },
+   "head": [
+    -716,
+    1719,
+    495,
+    2931
+   ],
+   "slider": [
+    546,
+    1148,
+    817,
+    1417
+   ],
+   "zipper": [
+    -68,
+    662,
+    1177,
+    1726
+   ],
+   "desk": [
+    -1484,
+    -113,
+    2437,
+    2409
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1282,
+     785,
+     1382
+    ],
+    "yLab": null
+   },
+   "head": [
+    -717,
+    1722,
+    497,
+    2936
+   ],
+   "slider": [
+    547,
+    1148,
+    818,
+    1418
+   ],
+   "zipper": [
+    -69,
+    663,
+    1178,
+    1727
+   ],
+   "desk": [
+    -1487,
+    -112,
+    2438,
+    2410
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1282,
+     786,
+     1383
+    ],
+    "yLab": null
+   },
+   "head": [
+    -718,
+    1725,
+    499,
+    2942
+   ],
+   "slider": [
+    547,
+    1149,
+    818,
+    1419
+   ],
+   "zipper": [
+    -70,
+    663,
+    1179,
+    1728
+   ],
+   "desk": [
+    -1490,
+    -112,
+    2439,
+    2411
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     219,
+     1283,
+     787,
+     1384
+    ],
+    "yLab": null
+   },
+   "head": [
+    -719,
+    1727,
+    501,
+    2947
+   ],
+   "slider": [
+    547,
+    1149,
+    819,
+    1419
+   ],
+   "zipper": [
+    -71,
+    663,
+    1181,
+    1729
+   ],
+   "desk": [
+    -1493,
+    -111,
+    2440,
+    2411
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1284,
+     787,
+     1385
+    ],
+    "yLab": null
+   },
+   "head": [
+    -720,
+    1729,
+    503,
+    2953
+   ],
+   "slider": [
+    547,
+    1149,
+    819,
+    1420
+   ],
+   "zipper": [
+    -72,
+    663,
+    1182,
+    1730
+   ],
+   "desk": [
+    -1496,
+    -111,
+    2441,
+    2412
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1285,
+     788,
+     1386
+    ],
+    "yLab": null
+   },
+   "head": [
+    -722,
+    1731,
+    506,
+    2958
+   ],
+   "slider": [
+    548,
+    1150,
+    820,
+    1421
+   ],
+   "zipper": [
+    -73,
+    663,
+    1183,
+    1731
+   ],
+   "desk": [
+    -1500,
+    -111,
+    2443,
+    2413
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1285,
+     789,
+     1386
+    ],
+    "yLab": null
+   },
+   "head": [
+    -723,
+    1733,
+    508,
+    2964
+   ],
+   "slider": [
+    548,
+    1150,
+    821,
+    1422
+   ],
+   "zipper": [
+    -74,
+    664,
+    1185,
+    1732
+   ],
+   "desk": [
+    -1503,
+    -110,
+    2444,
+    2414
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    874,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1286,
+     790,
+     1387
+    ],
+    "yLab": null
+   },
+   "head": [
+    -725,
+    1734,
+    510,
+    2970
+   ],
+   "slider": [
+    548,
+    1151,
+    821,
+    1423
+   ],
+   "zipper": [
+    -75,
+    664,
+    1186,
+    1733
+   ],
+   "desk": [
+    -1506,
+    -110,
+    2445,
+    2415
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1287,
+     791,
+     1388
+    ],
+    "yLab": null
+   },
+   "head": [
+    -727,
+    1735,
+    513,
+    2975
+   ],
+   "slider": [
+    548,
+    1151,
+    822,
+    1423
+   ],
+   "zipper": [
+    -76,
+    664,
+    1188,
+    1734
+   ],
+   "desk": [
+    -1510,
+    -109,
+    2447,
+    2416
+   ],
+   "caption": [
+    96,
+    341,
+    984,
+    519
+   ],
+   "captionText": [
+    128,
+    341,
+    952,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1288,
+     791,
+     1389
+    ],
+    "yLab": null
+   },
+   "head": [
+    -729,
+    1736,
+    516,
+    2981
+   ],
+   "slider": [
+    549,
+    1152,
+    823,
+    1424
+   ],
+   "zipper": [
+    -77,
+    664,
+    1189,
+    1735
+   ],
+   "desk": [
+    -1514,
+    -109,
+    2448,
+    2417
+   ],
+   "caption": [
+    91,
+    340,
+    989,
+    520
+   ],
+   "captionText": [
+    124,
+    340,
+    956,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     218,
+     1289,
+     792,
+     1390
+    ],
+    "yLab": null
+   },
+   "head": [
+    -731,
+    1737,
+    518,
+    2987
+   ],
+   "slider": [
+    549,
+    1152,
+    824,
+    1425
+   ],
+   "zipper": [
+    -78,
+    664,
+    1191,
+    1736
+   ],
+   "desk": [
+    -1518,
+    -108,
+    2449,
+    2418
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1290,
+     793,
+     1392
+    ],
+    "yLab": null
+   },
+   "head": [
+    -733,
+    1738,
+    521,
+    2992
+   ],
+   "slider": [
+    549,
+    1153,
+    824,
+    1426
+   ],
+   "zipper": [
+    -79,
+    665,
+    1192,
+    1738
+   ],
+   "desk": [
+    -1521,
+    -108,
+    2451,
+    2418
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1290,
+     794,
+     1393
+    ],
+    "yLab": null
+   },
+   "head": [
+    -736,
+    1738,
+    524,
+    2998
+   ],
+   "slider": [
+    550,
+    1154,
+    825,
+    1427
+   ],
+   "zipper": [
+    -80,
+    665,
+    1194,
+    1739
+   ],
+   "desk": [
+    -1525,
+    -107,
+    2452,
+    2419
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1291,
+     795,
+     1394
+    ],
+    "yLab": null
+   },
+   "head": [
+    -738,
+    1739,
+    527,
+    3004
+   ],
+   "slider": [
+    550,
+    1154,
+    826,
+    1428
+   ],
+   "zipper": [
+    -81,
+    665,
+    1196,
+    1740
+   ],
+   "desk": [
+    -1529,
+    -107,
+    2454,
+    2420
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1292,
+     796,
+     1395
+    ],
+    "yLab": null
+   },
+   "head": [
+    -741,
+    1740,
+    530,
+    3010
+   ],
+   "slider": [
+    550,
+    1155,
+    827,
+    1429
+   ],
+   "zipper": [
+    -82,
+    665,
+    1197,
+    1741
+   ],
+   "desk": [
+    -1533,
+    -107,
+    2455,
+    2421
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1293,
+     797,
+     1396
+    ],
+    "yLab": null
+   },
+   "head": [
+    -743,
+    1740,
+    533,
+    3017
+   ],
+   "slider": [
+    551,
+    1155,
+    828,
+    1430
+   ],
+   "zipper": [
+    -83,
+    666,
+    1199,
+    1743
+   ],
+   "desk": [
+    -1538,
+    -106,
+    2459,
+    2422
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     217,
+     1294,
+     798,
+     1397
+    ],
+    "yLab": null
+   },
+   "head": [
+    -746,
+    1741,
+    537,
+    3023
+   ],
+   "slider": [
+    551,
+    1156,
+    828,
+    1431
+   ],
+   "zipper": [
+    -84,
+    666,
+    1201,
+    1744
+   ],
+   "desk": [
+    -1542,
+    -105,
+    2464,
+    2423
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1295,
+     799,
+     1398
+    ],
+    "yLab": null
+   },
+   "head": [
+    -749,
+    1742,
+    540,
+    3030
+   ],
+   "slider": [
+    551,
+    1156,
+    829,
+    1432
+   ],
+   "zipper": [
+    -86,
+    666,
+    1202,
+    1745
+   ],
+   "desk": [
+    -1546,
+    -105,
+    2470,
+    2424
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1296,
+     800,
+     1399
+    ],
+    "yLab": null
+   },
+   "head": [
+    -751,
+    1743,
+    543,
+    3037
+   ],
+   "slider": [
+    552,
+    1157,
+    830,
+    1433
+   ],
+   "zipper": [
+    -87,
+    666,
+    1204,
+    1747
+   ],
+   "desk": [
+    -1550,
+    -104,
+    2475,
+    2426
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1297,
+     801,
+     1401
+    ],
+    "yLab": null
+   },
+   "head": [
+    -754,
+    1744,
+    546,
+    3044
+   ],
+   "slider": [
+    552,
+    1158,
+    831,
+    1434
+   ],
+   "zipper": [
+    -88,
+    667,
+    1206,
+    1748
+   ],
+   "desk": [
+    -1554,
+    -104,
+    2481,
+    2427
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1298,
+     802,
+     1402
+    ],
+    "yLab": null
+   },
+   "head": [
+    -756,
+    1745,
+    549,
+    3051
+   ],
+   "slider": [
+    552,
+    1158,
+    832,
+    1435
+   ],
+   "zipper": [
+    -89,
+    667,
+    1208,
+    1749
+   ],
+   "desk": [
+    -1559,
+    -103,
+    2487,
+    2428
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1299,
+     803,
+     1403
+    ],
+    "yLab": null
+   },
+   "head": [
+    -759,
+    1747,
+    553,
+    3058
+   ],
+   "slider": [
+    553,
+    1159,
+    833,
+    1436
+   ],
+   "zipper": [
+    -90,
+    667,
+    1209,
+    1751
+   ],
+   "desk": [
+    -1563,
+    -103,
+    2493,
+    2429
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1300,
+     804,
+     1404
+    ],
+    "yLab": null
+   },
+   "head": [
+    -761,
+    1749,
+    556,
+    3066
+   ],
+   "slider": [
+    553,
+    1159,
+    834,
+    1437
+   ],
+   "zipper": [
+    -91,
+    667,
+    1211,
+    1752
+   ],
+   "desk": [
+    -1567,
+    -102,
+    2499,
+    2430
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     216,
+     1301,
+     805,
+     1405
+    ],
+    "yLab": null
+   },
+   "head": [
+    -763,
+    1751,
+    559,
+    3074
+   ],
+   "slider": [
+    553,
+    1160,
+    834,
+    1439
+   ],
+   "zipper": [
+    -93,
+    668,
+    1213,
+    1753
+   ],
+   "desk": [
+    -1572,
+    -102,
+    2505,
+    2431
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1302,
+     806,
+     1406
+    ],
+    "yLab": null
+   },
+   "head": [
+    -765,
+    1754,
+    562,
+    3082
+   ],
+   "slider": [
+    554,
+    1161,
+    835,
+    1440
+   ],
+   "zipper": [
+    -94,
+    668,
+    1215,
+    1755
+   ],
+   "desk": [
+    -1576,
+    -101,
+    2510,
+    2432
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1303,
+     807,
+     1408
+    ],
+    "yLab": null
+   },
+   "head": [
+    -767,
+    1757,
+    566,
+    3090
+   ],
+   "slider": [
+    554,
+    1161,
+    836,
+    1441
+   ],
+   "zipper": [
+    -95,
+    668,
+    1217,
+    1756
+   ],
+   "desk": [
+    -1581,
+    -101,
+    2516,
+    2433
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1304,
+     808,
+     1409
+    ],
+    "yLab": null
+   },
+   "head": [
+    -769,
+    1761,
+    569,
+    3099
+   ],
+   "slider": [
+    554,
+    1162,
+    837,
+    1442
+   ],
+   "zipper": [
+    -96,
+    668,
+    1218,
+    1757
+   ],
+   "desk": [
+    -1585,
+    -100,
+    2522,
+    2434
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1305,
+     809,
+     1410
+    ],
+    "yLab": null
+   },
+   "head": [
+    -771,
+    1765,
+    572,
+    3107
+   ],
+   "slider": [
+    555,
+    1162,
+    838,
+    1443
+   ],
+   "zipper": [
+    -97,
+    669,
+    1220,
+    1759
+   ],
+   "desk": [
+    -1589,
+    -100,
+    2528,
+    2435
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1306,
+     810,
+     1411
+    ],
+    "yLab": null
+   },
+   "head": [
+    -772,
+    1769,
+    575,
+    3116
+   ],
+   "slider": [
+    555,
+    1163,
+    839,
+    1444
+   ],
+   "zipper": [
+    -98,
+    669,
+    1222,
+    1760
+   ],
+   "desk": [
+    -1594,
+    -99,
+    2534,
+    2436
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     215,
+     1307,
+     811,
+     1412
+    ],
+    "yLab": null
+   },
+   "head": [
+    -774,
+    1773,
+    578,
+    3125
+   ],
+   "slider": [
+    556,
+    1164,
+    840,
+    1445
+   ],
+   "zipper": [
+    -100,
+    669,
+    1224,
+    1761
+   ],
+   "desk": [
+    -1598,
+    -99,
+    2539,
+    2437
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     214,
+     1307,
+     812,
+     1414
+    ],
+    "yLab": null
+   },
+   "head": [
+    -775,
+    1778,
+    581,
+    3134
+   ],
+   "slider": [
+    556,
+    1164,
+    840,
+    1446
+   ],
+   "zipper": [
+    -101,
+    669,
+    1225,
+    1763
+   ],
+   "desk": [
+    -1602,
+    -98,
+    2545,
+    2438
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     233,
+     1312,
+     795,
+     1411
+    ],
+    "yLab": null
+   },
+   "head": [
+    -776,
+    1783,
+    584,
+    3143
+   ],
+   "slider": [
+    556,
+    1165,
+    841,
+    1447
+   ],
+   "zipper": [
+    -102,
+    670,
+    1227,
+    1764
+   ],
+   "desk": [
+    -1606,
+    -98,
+    2551,
+    2439
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    123,
+    340,
+    957,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": [
+     286,
+     1322,
+     743,
+     1403
+    ],
+    "yLab": null
+   },
+   "head": [
+    -777,
+    1789,
+    586,
+    3152
+   ],
+   "slider": [
+    557,
+    1165,
+    842,
+    1448
+   ],
+   "zipper": [
+    -103,
+    670,
+    1229,
+    1765
+   ],
+   "desk": [
+    -1610,
+    -97,
+    2556,
+    2440
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    -778,
+    1794,
+    589,
+    3162
+   ],
+   "slider": [
+    557,
+    1166,
+    843,
+    1449
+   ],
+   "zipper": [
+    -104,
+    670,
+    1231,
+    1766
+   ],
+   "desk": [
+    -1615,
+    -97,
+    2562,
+    2441
+   ],
+   "caption": [
+    94,
+    341,
+    986,
+    519
+   ],
+   "captionText": [
+    227,
+    341,
+    853,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     345,
+     1324,
+     685,
+     1405
+    ]
+   },
+   "head": [
+    -779,
+    1799,
+    592,
+    3171
+   ],
+   "slider": [
+    557,
+    1166,
+    843,
+    1450
+   ],
+   "zipper": [
+    -105,
+    670,
+    1232,
+    1768
+   ],
+   "desk": [
+    -1619,
+    -96,
+    2567,
+    2442
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     307,
+     1315,
+     725,
+     1416
+    ]
+   },
+   "head": [
+    -780,
+    1805,
+    594,
+    3180
+   ],
+   "slider": [
+    556,
+    1166,
+    842,
+    1449
+   ],
+   "zipper": [
+    -106,
+    671,
+    1234,
+    1769
+   ],
+   "desk": [
+    -1623,
+    -96,
+    2572,
+    2443
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1313,
+     739,
+     1420
+    ]
+   },
+   "head": [
+    -781,
+    1810,
+    597,
+    3189
+   ],
+   "slider": [
+    551,
+    1163,
+    838,
+    1447
+   ],
+   "zipper": [
+    -106,
+    672,
+    1235,
+    1770
+   ],
+   "desk": [
+    -1626,
+    -95,
+    2577,
+    2444
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1314,
+     740,
+     1421
+    ]
+   },
+   "head": [
+    -782,
+    1816,
+    600,
+    3197
+   ],
+   "slider": [
+    542,
+    1157,
+    830,
+    1441
+   ],
+   "zipper": [
+    -106,
+    673,
+    1237,
+    1771
+   ],
+   "desk": [
+    -1630,
+    -95,
+    2582,
+    2445
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1314,
+     741,
+     1422
+    ]
+   },
+   "head": [
+    -783,
+    1821,
+    602,
+    3206
+   ],
+   "slider": [
+    527,
+    1148,
+    814,
+    1431
+   ],
+   "zipper": [
+    -105,
+    675,
+    1238,
+    1772
+   ],
+   "desk": [
+    -1634,
+    -94,
+    2587,
+    2445
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1315,
+     742,
+     1423
+    ]
+   },
+   "head": [
+    -784,
+    1826,
+    604,
+    3215
+   ],
+   "slider": [
+    505,
+    1133,
+    792,
+    1416
+   ],
+   "zipper": [
+    -102,
+    678,
+    1240,
+    1773
+   ],
+   "desk": [
+    -1637,
+    -94,
+    2592,
+    2446
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1316,
+     743,
+     1424
+    ]
+   },
+   "head": [
+    -785,
+    1831,
+    607,
+    3223
+   ],
+   "slider": [
+    473,
+    1113,
+    760,
+    1395
+   ],
+   "zipper": [
+    -99,
+    683,
+    1241,
+    1775
+   ],
+   "desk": [
+    -1641,
+    -93,
+    2597,
+    2447
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1317,
+     743,
+     1425
+    ]
+   },
+   "head": [
+    -786,
+    1836,
+    609,
+    3231
+   ],
+   "slider": [
+    431,
+    1086,
+    717,
+    1366
+   ],
+   "zipper": [
+    -94,
+    689,
+    1243,
+    1776
+   ],
+   "desk": [
+    -1644,
+    -93,
+    2601,
+    2448
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1318,
+     744,
+     1426
+    ]
+   },
+   "head": [
+    -787,
+    1840,
+    612,
+    3238
+   ],
+   "slider": [
+    385,
+    1056,
+    670,
+    1334
+   ],
+   "zipper": [
+    -88,
+    695,
+    1244,
+    1777
+   ],
+   "desk": [
+    -1648,
+    -93,
+    2606,
+    2449
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1318,
+     745,
+     1427
+    ]
+   },
+   "head": [
+    -788,
+    1844,
+    614,
+    3246
+   ],
+   "slider": [
+    349,
+    1033,
+    633,
+    1310
+   ],
+   "zipper": [
+    -84,
+    700,
+    1245,
+    1778
+   ],
+   "desk": [
+    -1651,
+    -92,
+    2610,
+    2449
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1319,
+     745,
+     1428
+    ]
+   },
+   "head": [
+    -789,
+    1847,
+    616,
+    3253
+   ],
+   "slider": [
+    323,
+    1016,
+    607,
+    1293
+   ],
+   "zipper": [
+    -81,
+    704,
+    1247,
+    1779
+   ],
+   "desk": [
+    -1654,
+    -92,
+    2614,
+    2450
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1320,
+     746,
+     1428
+    ]
+   },
+   "head": [
+    -791,
+    1850,
+    618,
+    3259
+   ],
+   "slider": [
+    305,
+    1005,
+    589,
+    1281
+   ],
+   "zipper": [
+    -79,
+    707,
+    1248,
+    1779
+   ],
+   "desk": [
+    -1657,
+    -92,
+    2618,
+    2451
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1320,
+     746,
+     1429
+    ]
+   },
+   "head": [
+    -792,
+    1853,
+    620,
+    3266
+   ],
+   "slider": [
+    293,
+    998,
+    577,
+    1273
+   ],
+   "zipper": [
+    -78,
+    709,
+    1249,
+    1780
+   ],
+   "desk": [
+    -1660,
+    -91,
+    2622,
+    2451
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1321,
+     747,
+     1430
+    ]
+   },
+   "head": [
+    -794,
+    1855,
+    623,
+    3272
+   ],
+   "slider": [
+    287,
+    994,
+    571,
+    1270
+   ],
+   "zipper": [
+    -78,
+    710,
+    1250,
+    1781
+   ],
+   "desk": [
+    -1663,
+    -91,
+    2626,
+    2452
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1321,
+     748,
+     1431
+    ]
+   },
+   "head": [
+    -796,
+    1857,
+    625,
+    3277
+   ],
+   "slider": [
+    284,
+    992,
+    568,
+    1268
+   ],
+   "zipper": [
+    -78,
+    710,
+    1251,
+    1782
+   ],
+   "desk": [
+    -1665,
+    -91,
+    2629,
+    2453
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1322,
+     748,
+     1431
+    ]
+   },
+   "head": [
+    -797,
+    1858,
+    627,
+    3283
+   ],
+   "slider": [
+    283,
+    992,
+    567,
+    1268
+   ],
+   "zipper": [
+    -78,
+    711,
+    1252,
+    1783
+   ],
+   "desk": [
+    -1668,
+    -90,
+    2632,
+    2453
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1322,
+     749,
+     1432
+    ]
+   },
+   "head": [
+    -799,
+    1859,
+    629,
+    3287
+   ],
+   "slider": [
+    283,
+    993,
+    567,
+    1269
+   ],
+   "zipper": [
+    -79,
+    711,
+    1253,
+    1783
+   ],
+   "desk": [
+    -1670,
+    -90,
+    2636,
+    2454
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1323,
+     749,
+     1433
+    ]
+   },
+   "head": [
+    -801,
+    1860,
+    631,
+    3292
+   ],
+   "slider": [
+    282,
+    993,
+    567,
+    1269
+   ],
+   "zipper": [
+    -80,
+    711,
+    1254,
+    1784
+   ],
+   "desk": [
+    -1673,
+    -90,
+    2639,
+    2454
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1323,
+     750,
+     1433
+    ]
+   },
+   "head": [
+    -803,
+    1860,
+    633,
+    3297
+   ],
+   "slider": [
+    282,
+    993,
+    567,
+    1270
+   ],
+   "zipper": [
+    -80,
+    711,
+    1255,
+    1785
+   ],
+   "desk": [
+    -1675,
+    -89,
+    2642,
+    2455
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1324,
+     750,
+     1434
+    ]
+   },
+   "head": [
+    -806,
+    1860,
+    635,
+    3301
+   ],
+   "slider": [
+    282,
+    994,
+    567,
+    1270
+   ],
+   "zipper": [
+    -81,
+    711,
+    1256,
+    1786
+   ],
+   "desk": [
+    -1677,
+    -89,
+    2645,
+    2455
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1324,
+     751,
+     1434
+    ]
+   },
+   "head": [
+    -808,
+    1860,
+    637,
+    3305
+   ],
+   "slider": [
+    282,
+    994,
+    567,
+    1271
+   ],
+   "zipper": [
+    -81,
+    711,
+    1257,
+    1786
+   ],
+   "desk": [
+    -1679,
+    -89,
+    2647,
+    2456
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1325,
+     751,
+     1435
+    ]
+   },
+   "head": [
+    -810,
+    1860,
+    639,
+    3308
+   ],
+   "slider": [
+    282,
+    994,
+    567,
+    1271
+   ],
+   "zipper": [
+    -82,
+    712,
+    1258,
+    1787
+   ],
+   "desk": [
+    -1681,
+    -89,
+    2650,
+    2456
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1325,
+     751,
+     1435
+    ]
+   },
+   "head": [
+    -812,
+    1859,
+    640,
+    3312
+   ],
+   "slider": [
+    281,
+    994,
+    567,
+    1272
+   ],
+   "zipper": [
+    -82,
+    712,
+    1258,
+    1787
+   ],
+   "desk": [
+    -1683,
+    -88,
+    2653,
+    2457
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1326,
+     752,
+     1436
+    ]
+   },
+   "head": [
+    -814,
+    1859,
+    642,
+    3315
+   ],
+   "slider": [
+    281,
+    995,
+    568,
+    1272
+   ],
+   "zipper": [
+    -83,
+    712,
+    1259,
+    1788
+   ],
+   "desk": [
+    -1685,
+    -88,
+    2655,
+    2457
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     293,
+     1326,
+     752,
+     1436
+    ]
+   },
+   "head": [
+    -816,
+    1858,
+    644,
+    3319
+   ],
+   "slider": [
+    281,
+    995,
+    568,
+    1273
+   ],
+   "zipper": [
+    -83,
+    712,
+    1260,
+    1788
+   ],
+   "desk": [
+    -1687,
+    -88,
+    2657,
+    2458
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     296,
+     1327,
+     750,
+     1436
+    ]
+   },
+   "head": [
+    -819,
+    1858,
+    646,
+    3322
+   ],
+   "slider": [
+    281,
+    995,
+    568,
+    1273
+   ],
+   "zipper": [
+    -84,
+    712,
+    1261,
+    1789
+   ],
+   "desk": [
+    -1689,
+    -88,
+    2660,
+    2458
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     332,
+     1336,
+     714,
+     1428
+    ]
+   },
+   "head": [
+    -821,
+    1857,
+    647,
+    3325
+   ],
+   "slider": [
+    281,
+    995,
+    568,
+    1273
+   ],
+   "zipper": [
+    -84,
+    712,
+    1261,
+    1789
+   ],
+   "desk": [
+    -1690,
+    -88,
+    2662,
+    2458
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": [
+     361,
+     1343,
+     685,
+     1421
+    ]
+   },
+   "head": [
+    -823,
+    1857,
+    649,
+    3329
+   ],
+   "slider": [
+    281,
+    996,
+    568,
+    1274
+   ],
+   "zipper": [
+    -84,
+    712,
+    1262,
+    1790
+   ],
+   "desk": [
+    -1692,
+    -87,
+    2664,
+    2459
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    406,
+    817,
+    596,
+    1007
+   ],
+   "slider": [
+    422,
+    1072,
+    486,
+    1104
+   ],
+   "zipper": [
+    407,
+    1060,
+    711,
+    1148
+   ],
+   "desk": [
+    48,
+    1011,
+    1007,
+    1214
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    406,
+    819,
+    596,
+    1008
+   ],
+   "slider": [
+    423,
+    1072,
+    486,
+    1105
+   ],
+   "zipper": [
+    408,
+    1061,
+    710,
+    1148
+   ],
+   "desk": [
+    50,
+    1012,
+    1005,
+    1215
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    407,
+    821,
+    596,
+    1009
+   ],
+   "slider": [
+    423,
+    1073,
+    486,
+    1105
+   ],
+   "zipper": [
+    409,
+    1061,
+    710,
+    1149
+   ],
+   "desk": [
+    52,
+    1012,
+    1003,
+    1215
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    224,
+    340,
+    856,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    407,
+    823,
+    595,
+    1011
+   ],
+   "slider": [
+    424,
+    1073,
+    487,
+    1106
+   ],
+   "zipper": [
+    409,
+    1062,
+    709,
+    1149
+   ],
+   "desk": [
+    55,
+    1013,
+    1000,
+    1215
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    408,
+    825,
+    595,
+    1012
+   ],
+   "slider": [
+    425,
+    1074,
+    487,
+    1106
+   ],
+   "zipper": [
+    410,
+    1062,
+    708,
+    1150
+   ],
+   "desk": [
+    57,
+    1013,
+    998,
+    1215
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    409,
+    828,
+    594,
+    1013
+   ],
+   "slider": [
+    425,
+    1075,
+    488,
+    1107
+   ],
+   "zipper": [
+    411,
+    1063,
+    708,
+    1150
+   ],
+   "desk": [
+    60,
+    1014,
+    995,
+    1216
+   ],
+   "caption": [
+    94,
+    341,
+    986,
+    519
+   ],
+   "captionText": [
+    199,
+    341,
+    881,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    409,
+    831,
+    594,
+    1015
+   ],
+   "slider": [
+    426,
+    1075,
+    488,
+    1107
+   ],
+   "zipper": [
+    412,
+    1064,
+    707,
+    1151
+   ],
+   "desk": [
+    63,
+    1015,
+    992,
+    1216
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    410,
+    834,
+    593,
+    1017
+   ],
+   "slider": [
+    427,
+    1076,
+    489,
+    1108
+   ],
+   "zipper": [
+    413,
+    1065,
+    706,
+    1151
+   ],
+   "desk": [
+    66,
+    1016,
+    989,
+    1216
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    411,
+    838,
+    593,
+    1019
+   ],
+   "slider": [
+    428,
+    1077,
+    489,
+    1109
+   ],
+   "zipper": [
+    414,
+    1066,
+    705,
+    1152
+   ],
+   "desk": [
+    70,
+    1016,
+    986,
+    1216
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    412,
+    841,
+    592,
+    1022
+   ],
+   "slider": [
+    429,
+    1078,
+    490,
+    1109
+   ],
+   "zipper": [
+    415,
+    1066,
+    704,
+    1153
+   ],
+   "desk": [
+    73,
+    1017,
+    983,
+    1217
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    413,
+    846,
+    591,
+    1024
+   ],
+   "slider": [
+    430,
+    1079,
+    491,
+    1110
+   ],
+   "zipper": [
+    416,
+    1067,
+    703,
+    1153
+   ],
+   "desk": [
+    77,
+    1018,
+    979,
+    1217
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    414,
+    850,
+    591,
+    1027
+   ],
+   "slider": [
+    432,
+    1080,
+    491,
+    1111
+   ],
+   "zipper": [
+    418,
+    1069,
+    701,
+    1154
+   ],
+   "desk": [
+    81,
+    1019,
+    975,
+    1218
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    415,
+    854,
+    590,
+    1030
+   ],
+   "slider": [
+    433,
+    1081,
+    492,
+    1112
+   ],
+   "zipper": [
+    419,
+    1070,
+    700,
+    1155
+   ],
+   "desk": [
+    86,
+    1020,
+    972,
+    1218
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    416,
+    859,
+    589,
+    1033
+   ],
+   "slider": [
+    434,
+    1082,
+    493,
+    1113
+   ],
+   "zipper": [
+    420,
+    1071,
+    699,
+    1156
+   ],
+   "desk": [
+    90,
+    1021,
+    969,
+    1219
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    417,
+    864,
+    589,
+    1036
+   ],
+   "slider": [
+    435,
+    1083,
+    494,
+    1113
+   ],
+   "zipper": [
+    422,
+    1072,
+    698,
+    1156
+   ],
+   "desk": [
+    94,
+    1022,
+    966,
+    1219
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    418,
+    869,
+    588,
+    1039
+   ],
+   "slider": [
+    437,
+    1084,
+    494,
+    1114
+   ],
+   "zipper": [
+    423,
+    1073,
+    696,
+    1157
+   ],
+   "desk": [
+    99,
+    1023,
+    962,
+    1219
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    419,
+    874,
+    587,
+    1042
+   ],
+   "slider": [
+    438,
+    1085,
+    495,
+    1115
+   ],
+   "zipper": [
+    425,
+    1074,
+    695,
+    1158
+   ],
+   "desk": [
+    104,
+    1024,
+    959,
+    1220
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    420,
+    879,
+    586,
+    1045
+   ],
+   "slider": [
+    439,
+    1086,
+    496,
+    1116
+   ],
+   "zipper": [
+    426,
+    1075,
+    693,
+    1159
+   ],
+   "desk": [
+    108,
+    1025,
+    956,
+    1220
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    421,
+    884,
+    585,
+    1048
+   ],
+   "slider": [
+    441,
+    1087,
+    497,
+    1117
+   ],
+   "zipper": [
+    427,
+    1077,
+    692,
+    1160
+   ],
+   "desk": [
+    113,
+    1026,
+    953,
+    1221
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    422,
+    889,
+    585,
+    1051
+   ],
+   "slider": [
+    442,
+    1088,
+    497,
+    1118
+   ],
+   "zipper": [
+    429,
+    1078,
+    691,
+    1160
+   ],
+   "desk": [
+    118,
+    1027,
+    949,
+    1221
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    423,
+    893,
+    584,
+    1054
+   ],
+   "slider": [
+    443,
+    1090,
+    498,
+    1119
+   ],
+   "zipper": [
+    430,
+    1079,
+    689,
+    1161
+   ],
+   "desk": [
+    122,
+    1029,
+    946,
+    1222
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    424,
+    898,
+    583,
+    1057
+   ],
+   "slider": [
+    444,
+    1091,
+    499,
+    1120
+   ],
+   "zipper": [
+    432,
+    1080,
+    688,
+    1162
+   ],
+   "desk": [
+    127,
+    1030,
+    943,
+    1222
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    425,
+    902,
+    582,
+    1060
+   ],
+   "slider": [
+    446,
+    1092,
+    500,
+    1121
+   ],
+   "zipper": [
+    433,
+    1081,
+    686,
+    1163
+   ],
+   "desk": [
+    131,
+    1031,
+    940,
+    1223
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    426,
+    907,
+    581,
+    1062
+   ],
+   "slider": [
+    447,
+    1093,
+    500,
+    1122
+   ],
+   "zipper": [
+    434,
+    1082,
+    685,
+    1164
+   ],
+   "desk": [
+    136,
+    1032,
+    937,
+    1223
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    427,
+    911,
+    581,
+    1065
+   ],
+   "slider": [
+    448,
+    1094,
+    501,
+    1122
+   ],
+   "zipper": [
+    436,
+    1084,
+    684,
+    1164
+   ],
+   "desk": [
+    140,
+    1033,
+    934,
+    1224
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    428,
+    914,
+    580,
+    1067
+   ],
+   "slider": [
+    449,
+    1095,
+    502,
+    1123
+   ],
+   "zipper": [
+    437,
+    1085,
+    683,
+    1165
+   ],
+   "desk": [
+    144,
+    1034,
+    931,
+    1224
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    429,
+    918,
+    579,
+    1069
+   ],
+   "slider": [
+    450,
+    1096,
+    502,
+    1124
+   ],
+   "zipper": [
+    438,
+    1086,
+    681,
+    1166
+   ],
+   "desk": [
+    148,
+    1034,
+    928,
+    1225
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    429,
+    921,
+    579,
+    1071
+   ],
+   "slider": [
+    451,
+    1097,
+    503,
+    1125
+   ],
+   "zipper": [
+    439,
+    1087,
+    680,
+    1166
+   ],
+   "desk": [
+    151,
+    1035,
+    925,
+    1225
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    430,
+    924,
+    578,
+    1072
+   ],
+   "slider": [
+    452,
+    1097,
+    503,
+    1125
+   ],
+   "zipper": [
+    440,
+    1087,
+    679,
+    1167
+   ],
+   "desk": [
+    155,
+    1036,
+    923,
+    1225
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    431,
+    927,
+    578,
+    1074
+   ],
+   "slider": [
+    453,
+    1098,
+    504,
+    1126
+   ],
+   "zipper": [
+    441,
+    1088,
+    678,
+    1168
+   ],
+   "desk": [
+    158,
+    1037,
+    920,
+    1226
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    432,
+    930,
+    577,
+    1075
+   ],
+   "slider": [
+    454,
+    1099,
+    504,
+    1127
+   ],
+   "zipper": [
+    442,
+    1089,
+    677,
+    1168
+   ],
+   "desk": [
+    161,
+    1038,
+    918,
+    1226
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    432,
+    932,
+    577,
+    1076
+   ],
+   "slider": [
+    455,
+    1100,
+    505,
+    1127
+   ],
+   "zipper": [
+    443,
+    1090,
+    676,
+    1169
+   ],
+   "desk": [
+    164,
+    1038,
+    916,
+    1226
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    433,
+    934,
+    576,
+    1077
+   ],
+   "slider": [
+    456,
+    1100,
+    505,
+    1128
+   ],
+   "zipper": [
+    444,
+    1091,
+    675,
+    1169
+   ],
+   "desk": [
+    166,
+    1039,
+    914,
+    1227
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    433,
+    936,
+    576,
+    1078
+   ],
+   "slider": [
+    456,
+    1101,
+    506,
+    1128
+   ],
+   "zipper": [
+    444,
+    1091,
+    675,
+    1170
+   ],
+   "desk": [
+    169,
+    1040,
+    912,
+    1227
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    434,
+    937,
+    575,
+    1079
+   ],
+   "slider": [
+    457,
+    1101,
+    506,
+    1129
+   ],
+   "zipper": [
+    445,
+    1092,
+    674,
+    1170
+   ],
+   "desk": [
+    171,
+    1040,
+    911,
+    1227
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    434,
+    939,
+    575,
+    1080
+   ],
+   "slider": [
+    457,
+    1102,
+    506,
+    1129
+   ],
+   "zipper": [
+    446,
+    1092,
+    673,
+    1170
+   ],
+   "desk": [
+    173,
+    1041,
+    909,
+    1227
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    435,
+    940,
+    575,
+    1080
+   ],
+   "slider": [
+    458,
+    1102,
+    506,
+    1130
+   ],
+   "zipper": [
+    446,
+    1093,
+    673,
+    1171
+   ],
+   "desk": [
+    175,
+    1041,
+    908,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    435,
+    941,
+    574,
+    1081
+   ],
+   "slider": [
+    458,
+    1103,
+    507,
+    1130
+   ],
+   "zipper": [
+    447,
+    1093,
+    672,
+    1171
+   ],
+   "desk": [
+    176,
+    1041,
+    906,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    435,
+    942,
+    574,
+    1081
+   ],
+   "slider": [
+    459,
+    1103,
+    507,
+    1130
+   ],
+   "zipper": [
+    447,
+    1094,
+    672,
+    1171
+   ],
+   "desk": [
+    178,
+    1042,
+    905,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    436,
+    943,
+    574,
+    1081
+   ],
+   "slider": [
+    459,
+    1104,
+    507,
+    1130
+   ],
+   "zipper": [
+    448,
+    1094,
+    671,
+    1172
+   ],
+   "desk": [
+    179,
+    1042,
+    904,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    436,
+    944,
+    574,
+    1082
+   ],
+   "slider": [
+    460,
+    1104,
+    507,
+    1131
+   ],
+   "zipper": [
+    448,
+    1094,
+    671,
+    1172
+   ],
+   "desk": [
+    181,
+    1042,
+    903,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "stuckLab": null,
+    "yLab": null
+   },
+   "head": [
+    436,
+    945,
+    573,
+    1082
+   ],
+   "slider": [
+    460,
+    1104,
+    508,
+    1131
+   ],
+   "zipper": [
+    448,
+    1095,
+    670,
+    1172
+   ],
+   "desk": [
+    182,
+    1043,
+    902,
+    1228
+   ],
+   "caption": [
+    90,
+    340,
+    990,
+    520
+   ],
+   "captionText": [
+    196,
+    340,
+    884,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Quick: how well do you understand a zipper?",
+      "start": 0.3,
+      "end": 2.353,
+      "pauses": [
+        [
+          0.62,
+          0.804
+        ],
+        [
+          2.056,
+          2.127
+        ]
+      ]
+    },
+    {
+      "id": "sure",
+      "text": "Most of us feel sure, until we explain it step by step.",
+      "start": 2.85,
+      "end": 6.162,
+      "pauses": [
+        [
+          4.021,
+          4.326
+        ],
+        [
+          5.483,
+          5.583
+        ],
+        [
+          6.046,
+          6.128
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In studies, people rated their understanding lower after trying to explain.",
+      "start": 6.7,
+      "end": 11.024,
+      "pauses": [
+        [
+          7.408,
+          7.672
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "It's called the illusion of explanatory depth.",
+      "start": 11.55,
+      "end": 14.006,
+      "pauses": []
+    },
+    {
+      "id": "trick",
+      "text": "So before you say 'I get it', explain it out loud.",
+      "start": 14.6,
+      "end": 17.288,
+      "pauses": [
+        [
+          15.854,
+          16.132
+        ]
+      ]
+    },
+    {
+      "id": "stuck",
+      "text": "Where you get stuck is what to learn next.",
+      "start": 17.85,
+      "end": 19.841,
+      "pauses": [
+        [
+          18.514,
+          18.694
+        ]
+      ]
+    },
+    {
+      "id": "learn",
+      "text": "With a zipper, it's often the hidden part: the slider's Y-shaped channel.",
+      "start": 20.4,
+      "end": 24.595,
+      "pauses": [
+        [
+          22.474,
+          22.868
+        ],
+        [
+          24.016,
+          24.121
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}
