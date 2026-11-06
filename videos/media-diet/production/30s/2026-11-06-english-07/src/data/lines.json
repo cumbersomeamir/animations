@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "Planning a meetup, but one friend isn't on WhatsApp?",
+  "duration": 2.734,
+  "words": 9
+ },
+ {
+  "id": "V2",
+  "say": "On November 5, WhatsApp updated Events.",
+  "duration": 2.511,
+  "words": 6
+ },
+ {
+  "id": "V3",
+  "say": "Create an event, add a photo, and share one link with everyone.",
+  "duration": 3.392,
+  "words": 12
+ },
+ {
+  "id": "V4",
+  "say": "Your friend opens it and can RSVP without downloading the app.",
+  "duration": 4.122,
+  "words": 11
+ },
+ {
+  "id": "V5",
+  "say": "Replies land in the new Events Home, with reminders.",
+  "duration": 3.055,
+  "words": 9
+ },
+ {
+  "id": "V6",
+  "say": "One limit: guests without WhatsApp see the address only after replying.",
+  "duration": 4.086,
+  "words": 11
+ },
+ {
+  "id": "V7",
+  "say": "It's rolling out to everyone over the coming weeks.",
+  "duration": 2.467,
+  "words": 9
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for technology explained.",
+  "duration": 2.633,
+  "words": 6
+ }
+]

@@ -119,3 +119,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
   −1.6 dBTP; captions y 378–488, x 135–944, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-06 — english-07 (in progress)
+- Start state: clean at af431c6 (= remote; english-06 delivered), no active jobs. Topic (official, Meta Newsroom, 5 Nov 2026): WhatsApp
+  Events invites reach friends without WhatsApp (RSVP without the app), new Events Home with reminders; limit: guests without
+  WhatsApp see the address only after they RSVP; rolling out to everyone over the following weeks. New topic for this app.
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); V6 says "after replying" after the Whisper check. 73 words, 25.0 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/20, log row.
+- Running (after a session restart stopped the first workers at ~127 frames): `build/render_chunks.sh 0 60 … 420` + `… 480 … 840`
+  (resumable 60-frame chunks); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

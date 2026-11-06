@@ -1,0 +1,83 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Planning a meetup,",
+   "but one friend isn't on WhatsApp?"
+  ],
+  "in": 0.12,
+  "out": 3.234
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "On November 5,",
+   "WhatsApp updated Events."
+  ],
+  "in": 3.4,
+  "out": 6.291
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Create an event, add a photo,",
+   "and share one link with everyone."
+  ],
+  "in": 6.46,
+  "out": 10.232
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Your friend opens it and can RSVP",
+   "without downloading the app."
+  ],
+  "in": 10.4,
+  "out": 14.902
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Replies land in the new",
+   "Events Home, with reminders."
+  ],
+  "in": 15.07,
+  "out": 18.505
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "One limit: guests",
+   "without WhatsApp"
+  ],
+  "in": 18.67,
+  "out": 20.715
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "see the address",
+   "only after replying."
+  ],
+  "in": 20.735,
+  "out": 23.136
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "It's rolling out to everyone",
+   "over the coming weeks."
+  ],
+  "in": 23.31,
+  "out": 26.157
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 26.33,
+  "out": 29.343
+ }
+]

@@ -1,0 +1,206 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.2,
+   "say": "Planning a meetup, but one friend isn't on WhatsApp?",
+   "cues": [
+    [
+     "Planning a meetup,",
+     "but one friend isn't on WhatsApp?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.48,
+   "say": "On November 5, WhatsApp updated Events.",
+   "cues": [
+    [
+     "On November 5,",
+     "WhatsApp updated Events."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.54,
+   "say": "Create an event, add a photo, and share one link with everyone.",
+   "cues": [
+    [
+     "Create an event, add a photo,",
+     "and share one link with everyone."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 10.48,
+   "say": "Your friend opens it and can RSVP without downloading the app.",
+   "cues": [
+    [
+     "Your friend opens it and can RSVP",
+     "without downloading the app."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 15.15,
+   "say": "Replies land in the new Events Home, with reminders.",
+   "cues": [
+    [
+     "Replies land in the new",
+     "Events Home, with reminders."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 18.75,
+   "say": "One limit: guests without WhatsApp see the address only after replying.",
+   "cues": [
+    [
+     "One limit: guests",
+     "without WhatsApp"
+    ],
+    [
+     "see the address",
+     "only after replying."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 23.39,
+   "say": "It's rolling out to everyone over the coming weeks.",
+   "cues": [
+    [
+     "It's rolling out to everyone",
+     "over the coming weeks."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.41,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.38,
+   "what": "hook: invites fly to five friends; the one without WhatsApp bounces back with a '?'"
+  },
+  {
+   "id": "S2",
+   "in": 3.38,
+   "out": 6.44,
+   "what": "date + source: calendar flips to NOV 5; SOURCE placard 'Meta newsroom \u00b7 Nov 5, 2026'"
+  },
+  {
+   "id": "S3",
+   "in": 6.44,
+   "out": 10.38,
+   "what": "create: new event form, cover photo drops in, 'Share link' \u2192 one link fans out to all five friends"
+  },
+  {
+   "id": "S4",
+   "in": 10.38,
+   "out": 15.05,
+   "what": "demo: the friend's phone opens the invite link (plain web page), taps RSVP, address appears; 'Install app?' tile struck out"
+  },
+  {
+   "id": "S5",
+   "in": 15.05,
+   "out": 18.65,
+   "what": "Events Home: replies fly back, Going 0\u21925, reminder toggles on"
+  },
+  {
+   "id": "S6",
+   "in": 18.65,
+   "out": 23.29,
+   "what": "limit: guest not replied yet (address locked, lock shakes) vs replied (address + pin)"
+  },
+  {
+   "id": "S7",
+   "in": 23.29,
+   "out": 26.31,
+   "what": "availability: grid of phones lights up in waves, some still waiting; 'Rolling out to everyone' bar"
+  },
+  {
+   "id": "S8",
+   "in": 26.31,
+   "out": 30.0,
+   "what": "CTA: hero pull-back, Media Diet sign"
+  }
+ ],
+ "events": {
+  "invites": 0.05,
+  "calFlip": 3.5,
+  "source": 4.75,
+  "create": 6.44,
+  "photo": 7.8,
+  "share": 8.5,
+  "fan": 9.0,
+  "land": 9.6,
+  "open": 10.5,
+  "rsvp": 12.3,
+  "nodl": 13.5,
+  "home": 15.05,
+  "replies": [
+   15.35,
+   15.6,
+   15.85,
+   16.1,
+   16.35
+  ],
+  "remind": 17.45,
+  "lock": 20.75,
+  "pin": 22.25,
+  "wave": 23.5,
+  "sign": 26.5,
+  "lit": [
+   0.0,
+   0.55,
+   1.1,
+   1.75,
+   0.25,
+   0.8,
+   1.4,
+   -1,
+   0.45,
+   1.25,
+   -1,
+   2.05
+  ]
+ }
+}
