@@ -1,0 +1,101 @@
+{
+  "cues": {
+    "lookRemote": 2.55,
+    "lookPhone": 3.35,
+    "ir": 5.24,
+    "eyes": 7.9,
+    "code": 9.3,
+    "sensor": 11.8,
+    "screenGlow": 14.6,
+    "press1": 17.15,
+    "press2": 19.2,
+    "coverOff": 20.6,
+    "oldOut": 20.95,
+    "newIn": 21.45,
+    "coverOn": 22.15,
+    "press3": 23.75,
+    "tvPress": 25.15,
+    "smile": 25.5,
+    "cta": 26.35,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_pov",
+      "t0": 0.0,
+      "t1": 2.3
+    },
+    {
+      "id": "react",
+      "t0": 2.3,
+      "t1": 4.6
+    },
+    {
+      "id": "giant_spectrum",
+      "t0": 4.6,
+      "t1": 9.2
+    },
+    {
+      "id": "giant_code",
+      "t0": 9.2,
+      "t1": 11.6
+    },
+    {
+      "id": "giant_sensor",
+      "t0": 11.6,
+      "t1": 16.6
+    },
+    {
+      "id": "tv_fail",
+      "t0": 16.6,
+      "t1": 18.0
+    },
+    {
+      "id": "test_pov",
+      "t0": 18.0,
+      "t1": 20.4
+    },
+    {
+      "id": "battery_cu",
+      "t0": 20.4,
+      "t1": 23.6
+    },
+    {
+      "id": "win_pov",
+      "t0": 23.6,
+      "t1": 25.0
+    },
+    {
+      "id": "tv_ok",
+      "t0": 25.0,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.4
+    },
+    {
+      "id": "l02",
+      "start": 4.6
+    },
+    {
+      "id": "l03",
+      "start": 11.6
+    },
+    {
+      "id": "l04",
+      "start": 16.8
+    },
+    {
+      "id": "l05",
+      "start": 26.35
+    }
+  ]
+}

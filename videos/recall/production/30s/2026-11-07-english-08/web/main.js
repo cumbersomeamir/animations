@@ -56,7 +56,7 @@ function applyFrame(f) {
   const fdir = wrist.clone().sub(elbow).normalize(), palmC = wrist.clone().add(fdir.clone().multiplyScalar(0.04));
   const phonePos = palmC.clone().add(head.clone().sub(palmC).normalize().multiplyScalar(0.03)).add(fdir.clone().multiplyScalar(0.035));
   S.phone.group.position.copy(phonePos); S.phone.group.lookAt(head);
-  const down = seg(t, 20.4, 20.6) * (1 - seg(t, 23.45, 23.6));
+  const down = (t >= 20.4 && t < 23.6) ? 1 : 0;   // the phone is set down exactly for the close-up (cuts at 20.4 / 23.6)
   if (down > 0.5) { S.phone.group.position.set(0.3, 0.9555, -0.12); S.phone.group.rotation.set(-Math.PI / 2, 0, 0.4); }
   S.phone.group.updateMatrixWorld(true);
   drawPreview(S.phone.ctx, 540, 1140, ch.preview(t)); S.phone.tex.needsUpdate = true;
@@ -66,7 +66,7 @@ function applyFrame(f) {
   const tvC = V(TV_POS[0], TV_POS[1] + 0.155, TV_POS[2]);
   const qPhone = lookQuat(palmL, phonePos), qTV = lookQuat(palmL, tvC);
   const qSwap = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, Math.PI / 2 + 0.35, Math.PI));
-  const tvK = clamp(Math.max(seg(t, 16.6, 16.85) * (1 - seg(t, 17.85, 18.0)), seg(t, 25.0, 25.2))), swK = seg(t, 20.4, 20.6) * (1 - seg(t, 23.45, 23.6));
+  const tvK = clamp(Math.max(seg(t, 16.6, 16.85) * (1 - seg(t, 17.85, 18.0)), seg(t, 25.0, 25.2))), swK = seg(t, 20.22, 20.39) * (t < 23.6 ? 1 : 0);
   const rq = qPhone.clone().slerp(qTV, tvK).slerp(qSwap, swK);
   S.remote.group.position.copy(palmL.clone().lerp(V(...REM_DOWN), swK)); S.remote.group.quaternion.copy(rq); S.remote.group.updateMatrixWorld(true);
   S.remote.thumb.visible = swK < 0.5; S.remote.group.children.forEach(m => { if (m.material && m.material.color && m.material.color.getHexString() === 'a8714e' && m !== S.remote.thumb) m.visible = swK < 0.5; });

@@ -1,0 +1,52 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.4,
+  "measured_start": 0.4,
+  "error_ms": 0.0,
+  "corr": 0.849,
+  "end": 4.193,
+  "shot_at_start": "hook_pov",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l02",
+  "planned_start": 4.6,
+  "measured_start": 4.6,
+  "error_ms": 0.0,
+  "corr": 0.84,
+  "end": 11.167,
+  "shot_at_start": "giant_spectrum",
+  "shot_at_end": "giant_code"
+ },
+ {
+  "id": "l03",
+  "planned_start": 11.6,
+  "measured_start": 11.6,
+  "error_ms": 0.0,
+  "corr": 0.846,
+  "end": 16.311,
+  "shot_at_start": "giant_sensor",
+  "shot_at_end": "giant_sensor"
+ },
+ {
+  "id": "l04",
+  "planned_start": 16.8,
+  "measured_start": 16.8,
+  "error_ms": -0.1,
+  "corr": 0.847,
+  "end": 23.544,
+  "shot_at_start": "tv_fail",
+  "shot_at_end": "battery_cu"
+ },
+ {
+  "id": "l05",
+  "planned_start": 26.35,
+  "measured_start": 26.35,
+  "error_ms": -0.2,
+  "corr": 0.844,
+  "end": 29.639,
+  "shot_at_start": "tv_ok",
+  "shot_at_end": "cafe_wide"
+ }
+]

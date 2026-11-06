@@ -1,0 +1,172 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.57,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.4,
+      "end": 4.193,
+      "text": "Your eyes can't see this remote's light. So why can your phone camera?",
+      "words": 13,
+      "words_per_s": 3.43,
+      "voice_over_bed_db": 17.2
+    },
+    {
+      "id": "l02",
+      "start": 4.6,
+      "end": 11.167,
+      "text": "Remotes blink infrared, light just past the red end your eyes detect, in a quick code the TV reads.",
+      "words": 19,
+      "words_per_s": 2.89,
+      "voice_over_bed_db": 17.6
+    },
+    {
+      "id": "l03",
+      "start": 11.6,
+      "end": 16.311,
+      "text": "Many camera sensors respond to that infrared, so the blinks show up on screen.",
+      "words": 14,
+      "words_per_s": 2.97,
+      "voice_over_bed_db": 17.6
+    },
+    {
+      "id": "l04",
+      "start": 16.8,
+      "end": 23.544,
+      "text": "Remote not working? Aim it at the camera and press a button. No flicker? Try new batteries, or another camera.",
+      "words": 20,
+      "words_per_s": 2.97,
+      "voice_over_bed_db": 15.7
+    },
+    {
+      "id": "l05",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.7
+    }
+  ],
+  "narration_words": 75,
+  "speech_s": 25.1,
+  "overall_words_per_s": 2.5,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "button pressed (hook)"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "camera sees the flash"
+    },
+    {
+      "t": 4.55,
+      "beat": 9.1,
+      "sfx": "cut to the giant set"
+    },
+    {
+      "t": 4.62,
+      "beat": 9.24,
+      "sfx": "invisible pulse trains (soft pips)"
+    },
+    {
+      "t": 5.24,
+      "beat": 10.48,
+      "sfx": "infrared band marked"
+    },
+    {
+      "t": 7.9,
+      "beat": 15.8,
+      "sfx": "eye range"
+    },
+    {
+      "t": 9.85,
+      "beat": 19.7,
+      "sfx": "TV reads the code: volume steps"
+    },
+    {
+      "t": 12.2,
+      "beat": 24.4,
+      "sfx": "sensor tiles light up"
+    },
+    {
+      "t": 17.15,
+      "beat": 34.3,
+      "sfx": "button: TV does not respond"
+    },
+    {
+      "t": 17.4,
+      "beat": 34.8,
+      "sfx": "remote shaken"
+    },
+    {
+      "t": 19.2,
+      "beat": 38.4,
+      "sfx": "button: no flicker on camera"
+    },
+    {
+      "t": 19.55,
+      "beat": 39.1,
+      "sfx": "no flicker"
+    },
+    {
+      "t": 20.6,
+      "beat": 41.2,
+      "sfx": "battery cover slides off"
+    },
+    {
+      "t": 21.3,
+      "beat": 42.6,
+      "sfx": "old batteries out"
+    },
+    {
+      "t": 21.9,
+      "beat": 43.8,
+      "sfx": "new batteries in"
+    },
+    {
+      "t": 22.43,
+      "beat": 44.86,
+      "sfx": "cover snaps shut"
+    },
+    {
+      "t": 23.75,
+      "beat": 47.5,
+      "sfx": "button pressed"
+    },
+    {
+      "t": 24.15,
+      "beat": 48.3,
+      "sfx": "flicker on camera: sending"
+    },
+    {
+      "t": 25.15,
+      "beat": 50.3,
+      "sfx": "button at the TV"
+    },
+    {
+      "t": 25.25,
+      "beat": 50.5,
+      "sfx": "TV volume steps"
+    },
+    {
+      "t": 26.0,
+      "beat": 52.0,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.475,
+  "voice_gain": 1.0
+}

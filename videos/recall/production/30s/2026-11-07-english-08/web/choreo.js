@@ -33,7 +33,7 @@ export function makeChoreo(tl) {
   const shotAt = t => { const s = tl.shots.find(x => t >= x.t0 && t < x.t1) || tl.shots[tl.shots.length - 1]; return { ...s, u: (t - s.t0) / (s.t1 - s.t0), lt: t - s.t0 }; };
   const blinks = [1.6, 5.0, 12.4, 18.6, 22.9, 27.6, 29.3];
   const aimTV = t => win(t, 16.6, 18.0, 0.12, 0.15) || win(t, 25.0, 26.35, 0.15, 0.2);
-  const swap = t => win(t, 20.4, 23.6, 0.15, 0.15);
+  const swap = t => win(t, 20.22, 23.6, 0.17, 0.15);
 
   // ---------------- performer: phone in the right hand (screen to the eyes), remote in the left hand
   function person(t) {
@@ -115,7 +115,7 @@ export function makeChoreo(tl) {
     return {
       irTag: win(t, C.ir + 0.1, 9.2, 0.2, 0.05), eyeTag: win(t, C.eyes + 0.2, 9.2, 0.2, 0.05), codeTag: win(t, 9.6, 11.6, 0.2, 0.05),
       camTag: win(t, C.sensor + 0.4, 16.6, 0.2, 0.05), eyeNoTag: win(t, 13.6, 16.6, 0.2, 0.05),
-      deadTag: win(t, C.press2 + 0.4, 20.4, 0.2, 0.05), newTag: win(t, C.newIn + 0.2, 23.6, 0.2, 0.05),
+      deadTag: win(t, C.press2 + 0.4, 20.2, 0.2, 0.08), newTag: win(t, C.newIn + 0.2, 23.6, 0.2, 0.05),
       brand: seg(t, C.cta + 0.25, C.cta + 0.7, E.io),
     };
   }
