@@ -1,0 +1,393 @@
+{
+  "file": "production/30s/2026-11-06-english-07/recall-30s-english07-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2854529"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "191992"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 11459324,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 4.0,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.838085412979126,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Why does your phone rush to 80%? Then crawl to 100%. At first, the charger pushes a big, steady current into the battery. Near full, it holds the voltage steady and lets the current shrink, like pouring slower near the top of a glass. That gentler finish helps the battery last. Keep it cool, too, when it's too warm, charging past 80% can pause. Download Recall for learning any new subject with AI.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "Why",
+        "t": 0.0
+      },
+      {
+        "w": "does",
+        "t": 0.54
+      },
+      {
+        "w": "your",
+        "t": 0.66
+      },
+      {
+        "w": "phone",
+        "t": 0.78
+      },
+      {
+        "w": "rush",
+        "t": 1.06
+      },
+      {
+        "w": "to",
+        "t": 1.34
+      },
+      {
+        "w": "80",
+        "t": 1.6
+      },
+      {
+        "w": "%?",
+        "t": 1.82
+      },
+      {
+        "w": "Then",
+        "t": 2.88
+      },
+      {
+        "w": "crawl",
+        "t": 2.88
+      },
+      {
+        "w": "to",
+        "t": 3.12
+      },
+      {
+        "w": "100%.",
+        "t": 3.36
+      },
+      {
+        "w": "At",
+        "t": 4.44
+      },
+      {
+        "w": "first,",
+        "t": 4.92
+      },
+      {
+        "w": "the",
+        "t": 5.5
+      },
+      {
+        "w": "charger",
+        "t": 5.52
+      },
+      {
+        "w": "pushes",
+        "t": 5.78
+      },
+      {
+        "w": "a",
+        "t": 6.2
+      },
+      {
+        "w": "big,",
+        "t": 6.44
+      },
+      {
+        "w": "steady",
+        "t": 7.02
+      },
+      {
+        "w": "current",
+        "t": 7.38
+      },
+      {
+        "w": "into",
+        "t": 7.76
+      },
+      {
+        "w": "the",
+        "t": 8.1
+      },
+      {
+        "w": "battery.",
+        "t": 8.22
+      },
+      {
+        "w": "Near",
+        "t": 9.32
+      },
+      {
+        "w": "full,",
+        "t": 9.34
+      },
+      {
+        "w": "it",
+        "t": 10.0
+      },
+      {
+        "w": "holds",
+        "t": 10.12
+      },
+      {
+        "w": "the",
+        "t": 10.34
+      },
+      {
+        "w": "voltage",
+        "t": 10.58
+      },
+      {
+        "w": "steady",
+        "t": 10.8
+      },
+      {
+        "w": "and",
+        "t": 11.26
+      },
+      {
+        "w": "lets",
+        "t": 11.56
+      },
+      {
+        "w": "the",
+        "t": 11.74
+      },
+      {
+        "w": "current",
+        "t": 11.96
+      },
+      {
+        "w": "shrink,",
+        "t": 12.2
+      },
+      {
+        "w": "like",
+        "t": 13.02
+      },
+      {
+        "w": "pouring",
+        "t": 13.18
+      },
+      {
+        "w": "slower",
+        "t": 13.48
+      },
+      {
+        "w": "near",
+        "t": 14.02
+      },
+      {
+        "w": "the",
+        "t": 14.34
+      },
+      {
+        "w": "top",
+        "t": 14.48
+      },
+      {
+        "w": "of",
+        "t": 14.7
+      },
+      {
+        "w": "a",
+        "t": 14.84
+      },
+      {
+        "w": "glass.",
+        "t": 14.9
+      },
+      {
+        "w": "That",
+        "t": 15.98
+      },
+      {
+        "w": "gentler",
+        "t": 16.08
+      },
+      {
+        "w": "finish",
+        "t": 16.48
+      },
+      {
+        "w": "helps",
+        "t": 16.72
+      },
+      {
+        "w": "the",
+        "t": 17.08
+      },
+      {
+        "w": "battery",
+        "t": 17.32
+      },
+      {
+        "w": "last.",
+        "t": 17.64
+      },
+      {
+        "w": "Keep",
+        "t": 18.8
+      },
+      {
+        "w": "it",
+        "t": 18.84
+      },
+      {
+        "w": "cool,",
+        "t": 18.96
+      },
+      {
+        "w": "too,",
+        "t": 19.44
+      },
+      {
+        "w": "when",
+        "t": 20.06
+      },
+      {
+        "w": "it's",
+        "t": 20.26
+      },
+      {
+        "w": "too",
+        "t": 20.42
+      },
+      {
+        "w": "warm,",
+        "t": 20.56
+      },
+      {
+        "w": "charging",
+        "t": 21.24
+      },
+      {
+        "w": "past",
+        "t": 21.56
+      },
+      {
+        "w": "80",
+        "t": 21.84
+      },
+      {
+        "w": "%",
+        "t": 22.26
+      },
+      {
+        "w": "can",
+        "t": 22.74
+      },
+      {
+        "w": "pause.",
+        "t": 22.98
+      },
+      {
+        "w": "Download",
+        "t": 26.02
+      },
+      {
+        "w": "Recall",
+        "t": 26.66
+      },
+      {
+        "w": "for",
+        "t": 26.98
+      },
+      {
+        "w": "learning",
+        "t": 27.64
+      },
+      {
+        "w": "any",
+        "t": 27.82
+      },
+      {
+        "w": "new",
+        "t": 28.1
+      },
+      {
+        "w": "subject",
+        "t": 28.32
+      },
+      {
+        "w": "with",
+        "t": 28.66
+      },
+      {
+        "w": "AI.",
+        "t": 28.98
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 175.08798217773438,
+    "right": 905.0000305175781,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 1.955,
+    "min_frame_diff": 0.0246,
+    "longest_static_run_frames": 6,
+    "max_frame_diff": 91.87,
+    "max_diff_at_s": 21.0
+  },
+  "luma_min_mean_max": [
+    63.2,
+    98.1,
+    148.0
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

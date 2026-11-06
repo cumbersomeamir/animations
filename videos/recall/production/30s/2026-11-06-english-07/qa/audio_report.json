@@ -1,0 +1,172 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.56,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.4,
+      "end": 4.471,
+      "text": "Why does your phone rush to 80% then crawl to 100%?",
+      "words": 11,
+      "words_per_s": 2.7,
+      "voice_over_bed_db": 16.2
+    },
+    {
+      "id": "l02",
+      "start": 4.85,
+      "end": 8.761,
+      "text": "At first, the charger pushes a big, steady current into the battery.",
+      "words": 12,
+      "words_per_s": 3.07,
+      "voice_over_bed_db": 15.3
+    },
+    {
+      "id": "l03",
+      "start": 9.2,
+      "end": 15.512,
+      "text": "Near full, it holds the voltage steady and lets the current shrink, like pouring slower near the top of a glass.",
+      "words": 21,
+      "words_per_s": 3.33,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l04",
+      "start": 15.95,
+      "end": 23.614,
+      "text": "That gentler finish helps the battery last. Keep it cool, too: when it's too warm, charging past 80% can pause.",
+      "words": 20,
+      "words_per_s": 2.61,
+      "voice_over_bed_db": 16.3
+    },
+    {
+      "id": "l05",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.7
+    }
+  ],
+  "narration_words": 73,
+  "speech_s": 25.25,
+  "overall_words_per_s": 2.43,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.12,
+      "beat": 0.24,
+      "sfx": "percent ticks race 41 -> 80"
+    },
+    {
+      "t": 1.6,
+      "beat": 3.2,
+      "sfx": "80% reached"
+    },
+    {
+      "t": 2.6,
+      "beat": 5.2,
+      "sfx": "fingers drum on the counter"
+    },
+    {
+      "t": 2.7,
+      "beat": 5.4,
+      "sfx": "slow tick: crawl"
+    },
+    {
+      "t": 3.8,
+      "beat": 7.6,
+      "sfx": "slow tick: crawl"
+    },
+    {
+      "t": 4.8,
+      "beat": 9.6,
+      "sfx": "cut to the giant battery"
+    },
+    {
+      "t": 4.95,
+      "beat": 9.9,
+      "sfx": "charging current hum (fades as the current shrinks)"
+    },
+    {
+      "t": 5.0,
+      "beat": 10.0,
+      "sfx": "beads settle into slots"
+    },
+    {
+      "t": 10.1,
+      "beat": 20.2,
+      "sfx": "voltage needle reaches its limit"
+    },
+    {
+      "t": 13.42,
+      "beat": 26.84,
+      "sfx": "pour: fast, then slower near the top"
+    },
+    {
+      "t": 15.65,
+      "beat": 31.3,
+      "sfx": "cut to the battery top"
+    },
+    {
+      "t": 16.1,
+      "beat": 32.2,
+      "sfx": "gentle trickle"
+    },
+    {
+      "t": 19.0,
+      "beat": 38.0,
+      "sfx": "warm phone in the sun"
+    },
+    {
+      "t": 19.6,
+      "beat": 39.2,
+      "sfx": "fingertip touches the warm phone"
+    },
+    {
+      "t": 19.9,
+      "beat": 39.8,
+      "sfx": "hand shakes it off"
+    },
+    {
+      "t": 20.95,
+      "beat": 41.9,
+      "sfx": "cut to the warm battery"
+    },
+    {
+      "t": 21.4,
+      "beat": 42.8,
+      "sfx": "warm warning"
+    },
+    {
+      "t": 21.9,
+      "beat": 43.8,
+      "sfx": "charging paused"
+    },
+    {
+      "t": 23.7,
+      "beat": 47.4,
+      "sfx": "phone slides into the shade"
+    },
+    {
+      "t": 24.5,
+      "beat": 49.0,
+      "sfx": "charging resumes"
+    },
+    {
+      "t": 25.5,
+      "beat": 51.0,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.522,
+  "voice_gain": 1.0
+}
