@@ -1,0 +1,27 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Your eyes can't see this remote's light. So why can your phone camera?"
+    },
+    {
+      "id": "l02",
+      "text": "Remotes blink infrared, light just past the red end your eyes detect, in a quick code the TV reads."
+    },
+    {
+      "id": "l03",
+      "text": "Many camera sensors respond to that infrared, so the blinks show up on screen."
+    },
+    {
+      "id": "l04",
+      "text": "Remote not working? Aim it at the camera and press a button. No flicker? Try new batteries, or another camera."
+    },
+    {
+      "id": "l05",
+      "text": "Download Recall for learning any new subject with AI."
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.4
+  },
+  {
+   "id": "l02",
+   "start": 4.6
+  },
+  {
+   "id": "l03",
+   "start": 11.6
+  },
+  {
+   "id": "l04",
+   "start": 16.8
+  },
+  {
+   "id": "l05",
+   "start": 26.35
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_pov",
+   "t0": 0.0,
+   "t1": 2.3
+  },
+  {
+   "id": "react",
+   "t0": 2.3,
+   "t1": 4.6
+  },
+  {
+   "id": "giant_spectrum",
+   "t0": 4.6,
+   "t1": 9.2
+  },
+  {
+   "id": "giant_code",
+   "t0": 9.2,
+   "t1": 11.6
+  },
+  {
+   "id": "giant_sensor",
+   "t0": 11.6,
+   "t1": 16.6
+  },
+  {
+   "id": "tv_fail",
+   "t0": 16.6,
+   "t1": 18.0
+  },
+  {
+   "id": "test_pov",
+   "t0": 18.0,
+   "t1": 20.4
+  },
+  {
+   "id": "battery_cu",
+   "t0": 20.4,
+   "t1": 23.6
+  },
+  {
+   "id": "win_pov",
+   "t0": 23.6,
+   "t1": 25.0
+  },
+  {
+   "id": "tv_ok",
+   "t0": 25.0,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "lookRemote": 2.55,
+  "lookPhone": 3.35,
+  "ir": 5.24,
+  "eyes": 7.9,
+  "code": 9.3,
+  "sensor": 11.8,
+  "screenGlow": 14.6,
+  "press1": 17.15,
+  "press2": 19.2,
+  "coverOff": 20.6,
+  "oldOut": 20.95,
+  "newIn": 21.45,
+  "coverOn": 22.15,
+  "press3": 23.75,
+  "tvPress": 25.15,
+  "smile": 25.5,
+  "cta": 26.35,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.33,
+   "end": 2.65,
+   "lines": [
+    [
+     [
+      "Your eyes can't see",
+      0
+     ]
+    ],
+    [
+     [
+      "this remote's ",
+      0
+     ],
+     [
+      "light.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.65,
+   "end": 4.55,
+   "lines": [
+    [
+     [
+      "So why can your ",
+      0
+     ],
+     [
+      "phone camera?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.55,
+   "end": 6.35,
+   "lines": [
+    [
+     [
+      "Remotes blink ",
+      0
+     ],
+     [
+      "infrared,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.35,
+   "end": 9.25,
+   "lines": [
+    [
+     [
+      "light just past the ",
+      0
+     ],
+     [
+      "red end",
+      1
+     ]
+    ],
+    [
+     [
+      "your eyes detect,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.25,
+   "end": 11.55,
+   "lines": [
+    [
+     [
+      "in a ",
+      0
+     ],
+     [
+      "quick code",
+      1
+     ],
+     [
+      " the TV reads.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 11.55,
+   "end": 14.55,
+   "lines": [
+    [
+     [
+      "Many ",
+      0
+     ],
+     [
+      "camera sensors",
+      1
+     ]
+    ],
+    [
+     [
+      "respond to that infrared,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.55,
+   "end": 16.75,
+   "lines": [
+    [
+     [
+      "so the blinks ",
+      0
+     ],
+     [
+      "show up on screen.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.75,
+   "end": 18.05,
+   "lines": [
+    [
+     [
+      "Remote not working?",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.05,
+   "end": 20.45,
+   "lines": [
+    [
+     [
+      "Aim it at the camera",
+      1
+     ]
+    ],
+    [
+     [
+      "and press a button.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.45,
+   "end": 23.65,
+   "lines": [
+    [
+     [
+      "No flicker? Try ",
+      0
+     ],
+     [
+      "new batteries,",
+      1
+     ]
+    ],
+    [
+     [
+      "or another camera.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.7,
+   "end": 26.25,
+   "lines": [
+    [
+     [
+      "Flicker on camera",
+      1
+     ]
+    ],
+    [
+     [
+      "= the remote is sending.",
+      0
+     ]
+    ]
+   ],
+   "onscreen_only": true
+  },
+  {
+   "start": 26.25,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " for learning",
+      0
+     ]
+    ],
+    [
+     [
+      "any new subject with AI.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.6,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.6,
+   11.6,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   11.6,
+   16.6,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   16.6,
+   20.4,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   20.4,
+   23.6,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   23.6,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

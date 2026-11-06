@@ -1,0 +1,125 @@
+{
+ "ok": true,
+ "spoken_groups": 11,
+ "onscreen_only": [
+  "Flicker on camera / = the remote is sending."
+ ],
+ "rows": [
+  {
+   "caption": "Your eyes can't see / this remote's light.",
+   "start": 0.33,
+   "end": 2.65,
+   "first_word_s": 0.4,
+   "last_word_s": 2.12,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So why can your phone camera?",
+   "start": 2.65,
+   "end": 4.55,
+   "first_word_s": 2.7,
+   "last_word_s": 3.58,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Remotes blink infrared,",
+   "start": 4.55,
+   "end": 6.35,
+   "first_word_s": 4.6,
+   "last_word_s": 5.24,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "light just past the red end / your eyes detect,",
+   "start": 6.35,
+   "end": 9.25,
+   "first_word_s": 6.4,
+   "last_word_s": 8.36,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "in a quick code the TV reads.",
+   "start": 9.25,
+   "end": 11.55,
+   "first_word_s": 9.3,
+   "last_word_s": 10.32,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Many camera sensors / respond to that infrared,",
+   "start": 11.55,
+   "end": 14.55,
+   "first_word_s": 11.6,
+   "last_word_s": 13.56,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so the blinks show up on screen.",
+   "start": 14.55,
+   "end": 16.75,
+   "first_word_s": 14.62,
+   "last_word_s": 15.64,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Remote not working?",
+   "start": 16.75,
+   "end": 18.05,
+   "first_word_s": 16.8,
+   "last_word_s": 17.22,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Aim it at the camera / and press a button.",
+   "start": 18.05,
+   "end": 20.45,
+   "first_word_s": 18.1,
+   "last_word_s": 19.6,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "No flicker? Try new batteries, / or another camera.",
+   "start": 20.45,
+   "end": 23.65,
+   "first_word_s": 20.52,
+   "last_word_s": 22.96,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Flicker on camera / = the remote is sending.",
+   "start": 23.7,
+   "end": 26.25,
+   "spoken": false
+  },
+  {
+   "caption": "Download Recall for learning / any new subject with AI.",
+   "start": 26.25,
+   "end": 30.0,
+   "first_word_s": 26.35,
+   "last_word_s": 28.97,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

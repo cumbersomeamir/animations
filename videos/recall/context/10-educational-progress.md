@@ -120,3 +120,7 @@ record in context 20; deliverable `videos/recall/production/30s/2026-11-06-engli
 ## Update 2026-11-06 — english-07
 Episode E07 "Why does your phone rush to 80% then crawl to 100%?" (English). The suggested microwave topic was already R02,
 so a distinct topic was chosen (reason in context 21); deliverable `videos/recall/production/30s/2026-11-06-english-07/recall-30s-english07-01.mp4`.
+
+## Update 2026-11-07 batch — english-08
+Episode E08 "Your eyes can't see this remote's light. So why can your phone camera?" (English). The suggested ANC topic was
+already F05, so a distinct topic was chosen (reason in context 22); deliverable `videos/recall/production/30s/2026-11-07-english-08/recall-30s-english08-01.mp4`.
