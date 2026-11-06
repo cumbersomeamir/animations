@@ -46,3 +46,4 @@
   context/20).
 - English-06 (batch 2026-11-06-english-06) delivered `production/30s/2026-11-06-english-06/werbens-30s-english06-01.mp4`
   (attribute framing, English narration + captions, Meshline voice; context/21). Suggested backpack topic replaced (duplicate).
+- English-07 (batch 2026-11-06-english-07) CHECKPOINT: sources, narration, docs committed; final render running → `production/30s/2026-11-06-english-07/werbens-30s-english07-01.mp4`

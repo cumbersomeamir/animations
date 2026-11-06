@@ -52,3 +52,7 @@ Re-loaded again: palette, wordmark styling and logo SVG (sha256 816c1761…) unc
 ## Re-check for english-06 (batch 2026-11-06; container clock 2026-11-05)
 Re-loaded again: top-40 computed colour list identical, wordmark styling (Space Grotesk 700, −1.216 px, 135° #7FE7DC→#316879)
 and logo SVG (sha256 816c1761…) unchanged. Amber #F59E0B is used only for the "25% FAT" card and the fat block.
+
+## Re-check for english-07 (2026-11-06)
+Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
+Amber #F59E0B is used only for the fake "WAS ₹500" sticker and the "pricey" end of the gauge.
