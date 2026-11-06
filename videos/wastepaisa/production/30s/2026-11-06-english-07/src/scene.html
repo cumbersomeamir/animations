@@ -1,0 +1,297 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-07 episode 01 "Why do recyclers pay more for some bottle loads?" (PET bottles; English narration and captions).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-06-english-06/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). New: PET-bottle props and scene functions; English captions use the
+// accepted English 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph); the ex-Hindi note follows: Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-06-english-07';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.75, [0, 1.6, 2.4]], [7.55, [0.25, 1.5, 2.0]], [12.6, [0, 1.85, 3.1]], [17.1, [-0.3, 1.7, 2.6]], [21.3, [0, 2.35, 3.7]], [25.95, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode's scenes
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- PET bottle props (solid foreground objects) with X-ray reveal ----------
+const PB = { clear: 'rgba(205,236,246,0.42)', clearEdge: 'rgba(225,245,252,0.95)', green: 'rgba(70,165,95,0.85)', brown: 'rgba(150,85,40,0.88)', cap: '#2f7fd1', label: '#e7eef2', can: '#9aa2aa', wrap: '#e0782a', bag: 'rgba(240,240,236,0.8)' };
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function bottle(x, y, s = 1, o = {}) { // PET bottle standing on (x, y); o.kind 'clear' | 'green' | 'brown'; o.crush 0..1 flattens it; o.rot
+  g.save(); g.translate(x, y); g.rotate(o.rot || 0); const c = o.crush || 0; g.scale(s * (1 + c * 0.7), s * (1 - c * 0.72));
+  const body = o.kind === 'green' ? PB.green : o.kind === 'brown' ? PB.brown : PB.clear;
+  if (!o.noShadow) { g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowOffsetY = 8; g.shadowBlur = 12; }
+  g.beginPath(); g.moveTo(-26, 0); g.quadraticCurveTo(-30, -6, -30, -20); g.lineTo(-30, -96); g.quadraticCurveTo(-30, -122, -12, -136); g.lineTo(-10, -150); g.lineTo(10, -150); g.lineTo(12, -136); g.quadraticCurveTo(30, -122, 30, -96); g.lineTo(30, -20); g.quadraticCurveTo(30, -6, 26, 0); g.closePath();
+  g.fillStyle = body; g.fill(); g.shadowColor = 'transparent'; g.strokeStyle = o.kind === 'clear' || !o.kind ? PB.clearEdge : 'rgba(255,255,255,0.5)'; g.lineWidth = 2.5; g.stroke();
+  if (c > 0.2) { g.strokeStyle = 'rgba(255,255,255,0.55)'; g.lineWidth = 2; for (const yy of [-30, -60, -90]) { g.beginPath(); g.moveTo(-28, yy); g.lineTo(-6, yy - 8); g.lineTo(10, yy + 4); g.lineTo(28, yy - 6); g.stroke(); } }
+  if (!o.noLabel) { g.fillStyle = PB.label; g.globalAlpha *= 0.85; g.fillRect(-30, -78, 60, 26); g.globalAlpha /= 0.85; g.fillStyle = C.warm; g.fillRect(-30, -70, 60, 6); }
+  g.fillStyle = 'rgba(255,255,255,0.55)'; g.fillRect(-20, -118, 6, 90);
+  if (!o.noCap) { rr(-12, -166, 24, 18, 4); g.fillStyle = PB.cap; g.fill(); }
+  g.restore(); }
+function canItem(x, y, s = 1, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); rr(-24, -70, 48, 70, 8); g.fillStyle = PB.can; g.fill(); g.fillStyle = '#c0392b'; g.fillRect(-24, -52, 48, 24); g.fillStyle = 'rgba(255,255,255,0.35)'; g.fillRect(-16, -66, 6, 60); g.restore(); }
+function wrapper(x, y, s = 1, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.beginPath(); g.moveTo(-40, -10); g.lineTo(-30, -34); g.lineTo(10, -28); g.lineTo(38, -40); g.lineTo(44, -6); g.lineTo(20, 4); g.lineTo(-26, 6); g.closePath(); g.fillStyle = PB.wrap; g.fill(); g.strokeStyle = 'rgba(255,255,255,0.4)'; g.lineWidth = 2; g.stroke(); g.restore(); }
+function polyBag(x, y, s = 1, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.beginPath(); g.moveTo(-36, 0); g.quadraticCurveTo(-46, -40, -24, -62); g.lineTo(-30, -84); g.lineTo(-12, -70); g.lineTo(12, -70); g.lineTo(30, -84); g.lineTo(24, -62); g.quadraticCurveTo(46, -40, 36, 0); g.closePath(); g.fillStyle = PB.bag; g.fill(); g.restore(); }
+function bigBag(x, y, w, h, contents, t, xray = false) { // open woven bag full of items; contents: array of [kind, dx, dy, rot]
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  if (!xray) { rr(x - w / 2, y - h, w, h, 14); g.fillStyle = '#d9d6cc'; g.fill(); g.shadowColor = 'transparent'; g.strokeStyle = 'rgba(120,115,100,0.35)'; g.lineWidth = 2; for (let i = 1; i < 10; i++) { g.beginPath(); g.moveTo(x - w / 2 + i * w / 10, y - h + 6); g.lineTo(x - w / 2 + i * w / 10, y - 6); g.stroke(); } }
+  else { rr(x - w / 2, y - h, w, h, 14); g.fillStyle = 'rgba(143,211,224,0.10)'; g.fill(); g.strokeStyle = 'rgba(200,240,250,0.9)'; g.lineWidth = 2; g.stroke(); g.shadowColor = 'transparent';
+    for (const [k, dx, dy, r] of contents) { if (k === 'can') canItem(x + dx, y + dy, 0.8, r); else if (k === 'wrap') wrapper(x + dx, y + dy, 0.8, r); else if (k === 'bag') polyBag(x + dx, y + dy, 0.8, r); else bottle(x + dx, y + dy, 0.62, { kind: k, rot: r, noShadow: true }); }
+    for (const [k, dx, dy] of contents) if (k !== 'clear') { g.strokeStyle = C.warm; g.lineWidth = 4; g.beginPath(); g.arc(x + dx, y + dy - 40, 44, 0, 7); g.stroke(); } }
+  if (!xray) { const top4 = contents.filter(([k]) => k === 'clear' || k === 'green' || k === 'brown').slice(0, 4); top4.forEach(([k], i) => bottle(x - w * 0.33 + i * w * 0.22, y - h + 46, 0.72, { kind: k, noShadow: i > 0, rot: (i - 1.5) * 0.12 })); }
+  g.restore(); }
+function bin(x, y, w, a = 1) { g.save(); g.globalAlpha *= a; g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; g.beginPath(); g.moveTo(x - w / 2, y - 60); g.lineTo(x + w / 2, y - 60); g.lineTo(x + w / 2 - 20, y + 50); g.lineTo(x - w / 2 + 20, y + 50); g.closePath();
+  g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = '#59616b'; g.fillRect(x - w / 2, y - 66, w, 12); g.restore(); }
+function bale(x, y, w, h, o = {}) { // strapped bale of crushed clear bottles
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x - w / 2, y - h, w, h, 10); g.fillStyle = 'rgba(190,225,236,0.9)'; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(x - w / 2, y - h, w, h, 10); g.clip(); const r = rng(o.seed || 21); g.strokeStyle = 'rgba(255,255,255,0.75)'; g.lineWidth = 2;
+  for (let i = 0; i < 18; i++) { const px = x - w / 2 + r() * w, py = y - h + r() * h; g.beginPath(); g.moveTo(px - 18, py); g.lineTo(px - 4, py - 8); g.lineTo(px + 8, py + 4); g.lineTo(px + 20, py - 4); g.stroke(); }
+  g.fillStyle = PB.cap; for (let i = 0; i < 5; i++) { g.beginPath(); g.arc(x - w / 2 + r() * w, y - h + r() * h, 5, 0, 7); g.fill(); } g.restore();
+  g.fillStyle = '#3a4048'; g.fillRect(x - w * 0.28, y - h - 2, 10, h + 4); g.fillRect(x + w * 0.28 - 10, y - h - 2, 10, h + 4); g.restore(); }
+function truck(x, y, s, mode, k, t) { // side-view small cargo truck; mode 'loose' (few bottles, mostly air) | 'baled' (dense bales); k = fill progress
+  g.save(); g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16;
+  rr(-230, -190, 340, 170, 10); g.fillStyle = 'rgba(30,36,42,0.95)'; g.fill(); g.shadowColor = 'transparent'; g.strokeStyle = '#7d8790'; g.lineWidth = 4; g.stroke();
+  rr(118, -140, 110, 120, 14); g.fillStyle = C.green; g.fill(); g.fillStyle = 'rgba(143,211,224,0.6)'; rr(150, -128, 62, 46, 6); g.fill(); g.fillStyle = '#2a2f35'; g.fillRect(-240, -22, 470, 18);
+  for (const wx of [-160, 0, 170]) { g.beginPath(); g.arc(wx, 0, 30, 0, 7); g.fillStyle = '#1d2126'; g.fill(); g.beginPath(); g.arc(wx, 0, 11, 0, 7); g.fillStyle = '#9aa2aa'; g.fill(); }
+  g.save(); rr(-226, -186, 332, 162, 8); g.clip();
+  if (mode === 'loose') { const r = rng(8); for (let i = 0; i < 9; i++) { if (i / 9 > k) break; bottle(-200 + r() * 290, -30 - r() * 110, 0.5, { kind: 'clear', rot: (r() - 0.5) * 2.4, noShadow: true }); } }
+  else { for (let i = 0; i < 6; i++) { if (i / 6 > k) break; const col = i % 3, row = Math.floor(i / 3); bale(-170 + col * 108, -28 - row * 78, 100, 74, { seed: 30 + i }); } }
+  g.restore(); g.restore(); }
+function footPress(x, y, s, k) { g.save(); g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16; rr(-90, -14, 180, 28, 8); g.fillStyle = '#59616b'; g.fill(); g.fillRect(-80, -240, 18, 230); g.fillRect(62, -240, 18, 230); rr(-90, -256, 180, 24, 8); g.fill(); g.shadowColor = 'transparent';
+  const py = lerp(-220, -80, k); rr(-62, py, 124, 26, 6); g.fillStyle = '#7d8790'; g.fill(); g.fillRect(-8, -256, 16, py + 256); g.restore(); }
+function pieGauge(x, y, r, frac, col) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowBlur = 24; g.beginPath(); g.arc(x, y, r, 0, 7); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.shadowColor = 'transparent';
+  g.beginPath(); g.moveTo(x, y); g.arc(x, y, r * 0.86, -Math.PI / 2, -Math.PI / 2 + 6.283 * frac); g.closePath(); g.fillStyle = col; g.fill(); g.beginPath(); g.arc(x, y, r * 0.5, 0, 7); g.fillStyle = 'rgba(18,22,26,1)'; g.fill();
+  textC(`${Math.round(frac * 100)}%`, x, y - 6, 54, C.cream, 800); textC('PET', x, y + 40, 32, 'rgba(254,247,238,0.8)', 800); g.restore(); }
+function ticket(x, y, rot, title, value, a) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-160, -96, 320, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.strokeStyle = 'rgba(254,247,238,0.6)'; g.lineWidth = 3; g.beginPath(); g.moveTo(0, -150); g.lineTo(0, -70); g.stroke();
+  g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-125, -70, 250, 140, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -26, 34, C.ink, 800); textC(line2, 0, 32, 58, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+const MIXED = [['clear', -80, -40, -0.2], ['green', 0, -60, 0.15], ['clear', 70, -30, 0.3], ['can', -40, -150, 0.4], ['brown', 50, -150, -0.25], ['wrap', -70, -230, 0.2], ['clear', 30, -240, -0.1], ['bag', 80, -230, 0.1]];
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.75: sorted vs mixed bottle loads, both priced '?'; X-ray shows what hides in the mixed bag
+  g.save(); g.globalAlpha = a;
+  const m = mascot(210, 1450, 1.1, { armL: [-0.5, 105], armR: [1.15, 70], look: [0.8, -0.2], lid: -0.5, blink: (t > 3.3 && t < 3.4) ? 1 : 0 });
+  const [hx, hy] = m.hand(1); bottle(hx + 30, hy + 60, 0.9, { kind: 'clear' });
+  const sorted = [['clear', -70, -40, 0], ['clear', 0, -50, 0], ['clear', 70, -40, 0], ['clear', -40, -150, 0], ['clear', 40, -150, 0]];
+  bigBag(600, 1400, 230, 300, sorted, t); bigBag(860, 1400, 230, 300, MIXED, t);
+  xrayClip(740, 1090, 980, 1410, easeOut(prog(t, 0.35, 1.3)), () => bigBag(860, 1400, 230, 300, MIXED, t, true));
+  priceTag(600, 935, 'SORTED', '₹ ?', 1, Math.sin(t * 2) * 0.03); priceTag(860, 935, 'MIXED', '₹ ?', 1, Math.sin(t * 2 + 1) * 0.03);
+  if (t > 1.39) { const k = back(prog(t, 1.39, 1.75)); g.save(); g.translate(560, 700); g.scale(k, k); rr(-230, -46, 460, 92, 46); g.fillStyle = C.warm; g.fill(); textC('WHICH PAYS MORE?', 0, 4, 48, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sSort(t, a) { // 3.75 - 7.55: clear bottles apart from coloured; coloured often sell for little
+  g.save(); g.globalAlpha = a;
+  const binY = 1340, L = 300, R = 780; bin(L, binY, 300, prog(t, 3.8, 4.1)); bin(R, binY, 300, prog(t, 3.8, 4.1));
+  const items = [['clear', 4.14], ['clear', 4.3], ['clear', 4.46], ['clear', 4.62], ['green', 5.64], ['brown', 5.8], ['green', 5.96]];
+  const heapK = easeOut(prog(t, 3.75, 4.1)), trayY = lerp(1600, 1000, heapK) + 14; g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16; rr(400, trayY, 300, 26, 8); g.fillStyle = '#59616b'; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = '#7d8790'; g.fillRect(400, trayY, 300, 7); g.restore();
+  items.forEach(([k, ts], i) => { const f = prog(t, ts, ts + 0.45); const sx = 480 + (i % 4) * 40, sy = lerp(1600, 1000, heapK) - (i % 2) * 30;
+    if (f <= 0) { bottle(sx, sy, 0.7, { kind: k, rot: (i % 3 - 1) * 0.4 }); return; } const tx = (k === 'clear' ? L : R) + ((i % 3) - 1) * 50, ty = binY - 40;
+    const [fx, fy] = fly(sx, sy, tx, ty, easeOut(f), 140); bottle(fx, fy, 0.7, { kind: k, rot: f < 1 ? f * 4 : (i % 3 - 1) * 0.3 }); });
+  label('CLEAR', L, 1180, prog(t, 4.14, 4.4), { size: 44, warm: t < 5.6 });
+  label('COLOURED', R, 1180, prog(t, 5.64, 5.9), { size: 44, warm: t > 5.6 && t < 6.6 });
+  if (t > 6.6) stamp(R, 1460 - 40, 'LOW PRICE', prog(t, 6.6, 6.9), -0.06, 42);
+  g.restore();
+}
+function sGrade(t, a) { // 7.55 - 12.6: trash out; buyer grades by PET share (APR: Grade A 94 %+, C 73-82 %)
+  g.save(); g.globalAlpha = a;
+  const lx = 330, ly = 1400; bin(830, 1360, 220, prog(t, 7.6, 7.9));
+  const trash = [['can', 7.8], ['wrap', 8.0], ['bag', 8.2]];
+  for (let i = 0; i < 5; i++) bottle(lx - 120 + i * 60, ly - (i % 2) * 20, 0.75, { kind: 'clear', rot: (i - 2) * 0.12 });
+  trash.forEach(([k, ts], i) => { const f = prog(t, ts, ts + 0.5); const sx = lx - 60 + i * 70, sy = ly - 150; const [fx, fy] = f > 0 ? fly(sx, sy, 830 + (i - 1) * 40, 1300, easeOut(f), 160) : [sx, sy];
+    if (k === 'can') canItem(fx, fy, 1.0, f * 3); else if (k === 'wrap') wrapper(fx, fy, 1.0, f * 2); else polyBag(fx, fy, 1.0, f * 2); });
+  label('OTHER TRASH', 830, 1180, prog(t, 8.3, 8.55), { size: 42, warm: t > 8.25 && t < 9.1 });
+  // PET-share gauge: with trash 82 % (Grade C) -> trash out 95 % (Grade A)
+  const gk = easeOut(prog(t, 9.14, 9.6)); if (gk > 0) { const frac = t < 10.5 ? 0.82 * gk : lerp(0.82, 0.95, easeOut(prog(t, 10.5, 11.1))); pieGauge(600, 860, 150 * back(Math.min(1, gk)), frac, t < 10.5 ? '#8f969e' : C.warm);
+    label(t < 10.6 ? 'WITH TRASH: GRADE C' : '94%+ PET: GRADE A', 600, 1070, prog(t, 9.6, 9.85), { size: 42, warm: t > 10.6 }); }
+  if (t > 11.48) stamp(860, 760, 'GRADE A', prog(t, 11.48, 11.8), 0.08, 46);
+  g.restore();
+}
+function sCrush(t, a) { // 12.6 - 17.1: crush; loose bottles are mostly air (EPA: ~20 kg/m3 loose vs ~300 kg/m3 compacted)
+  g.save(); g.globalAlpha = a;
+  const pk = t < 12.93 ? 0 : t < 13.25 ? prog(t, 12.93, 13.15) : 1 - prog(t, 13.4, 13.7);
+  footPress(200, 1430, 1.1, pk); bottle(200, 1430 - 16, 1.0, { kind: 'clear', crush: clamp(prog(t, 13.05, 13.2)) });
+  label('CRUSH', 200, 1080, prog(t, 12.93, 13.15), { size: 42, warm: t < 13.8 });
+  const t1 = easeOut(prog(t, 13.6, 14.0)), t2 = easeOut(prog(t, 15.3, 15.7));
+  if (t1 > 0) { g.save(); g.globalAlpha *= t1; truck(640, 1010, 0.85, 'loose', prog(t, 13.8, 14.6), t); g.restore(); }
+  if (t2 > 0) { g.save(); g.globalAlpha *= t2; truck(640, 1400, 0.85, 'baled', prog(t, 15.5, 16.2), t); g.restore(); }
+  label('LOOSE ≈ 20 kg per m³: MOSTLY AIR', 600, 700, prog(t, 14.6, 14.9), { size: 40, warm: t > 14.6 && t < 15.6 });
+  label('CRUSHED ≈ 300 kg per m³', 600, 1110, prog(t, 15.9, 16.15), { size: 40, warm: t > 15.85 });
+  g.restore();
+}
+function sBatch(t, a) { // 17.1 - 21.3: illustrative: 400 kg crushed clear PET, buyer quote 22/kg -> 8,800 sales
+  g.save(); g.globalAlpha = a;
+  const tagK = back(prog(t, 17.25, 17.6)); if (tagK > 0) { g.save(); g.translate(540, 625); g.scale(tagK, tagK); rr(-130, -40, 260, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('EXAMPLE', 0, 4, 44, C.warm, 800); g.restore(); }
+  for (let i = 0; i < 4; i++) { const k = back(prog(t, 17.6 + i * 0.12, 17.9 + i * 0.12)); if (k <= 0) continue; g.save(); g.translate(260 + (i % 2) * 190, 1400 - Math.floor(i / 2) * 150); g.scale(k, k); bale(0, 0, 170, 140, { seed: 40 + i }); g.restore(); }
+  label('400 kg CLEAR, CRUSHED', 355, 1000, prog(t, 18.15, 18.4), { size: 40, warm: t > 18.1 && t < 18.7 });
+  ticket(780, 860, 0.03, 'BUYER QUOTE', '₹22/kg', back(prog(t, 18.6, 18.9)));
+  ticket(780, 1180, -0.03, 'SALES', '₹8,800', back(prog(t, 19.41, 19.7)));
+  g.restore();
+}
+function sNet(t, a) { // 21.3 - 25.95: to-scale bar: sales 8,800 - bottles 4,800 - transport 1,000 - labour 1,500 = 1,500
+  g.save(); g.globalAlpha = a;
+  const x0 = 300, w = 170, top = 790, H = 600, px = H / 8800;
+  const parts = [['BOTTLES (₹12/kg)', 4800, '#59616b', 21.49], ['TRANSPORT', 1000, '#3a4048', 22.03], ['LABOUR', 1500, '#7a5129', 22.99]];
+  label('EXAMPLE · PRICES VARY', 540, 625, prog(t, 21.4, 21.65), { size: 40 });
+  const rise = easeOut(prog(t, 21.3, 21.6));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, top + H * (1 - rise), w, H * rise, 12); g.fillStyle = C.cream; g.fill(); g.restore();
+  label('SALES ₹8,800', x0 + w / 2, 712, prog(t, 21.35, 21.6), { size: 40, to: [x0 + w / 2, top + 6] });
+  let y = top; const labY = [950, 1150, 1250];
+  parts.forEach(([name, v, col, ts], i) => { const h = v * px, k = prog(t, ts, ts + 0.3); if (k > 0) { g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = col; g.fillRect(x0, y, w, h * k); g.restore(); }
+    label(`${name} −₹${v.toLocaleString('en-IN')}`, 735, labY[i], prog(t, ts, ts + 0.25), { size: 40, warm: t > ts && t < (parts[i + 1] ? parts[i + 1][3] : 23.38), to: [x0 + w - 6, y + h / 2] }); y += h; });
+  const pk = prog(t, 23.62, 23.9); if (pk > 0) { g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = C.warm; g.fillRect(x0, y, w, (top + H - y) * pk); g.restore();
+    const k = back(prog(t, 23.86, 24.2)); g.save(); g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(x0 + w, (y + top + H) / 2); g.lineTo(580, 1365); g.stroke(); g.translate(775, 1365); g.scale(k, k);
+    rr(-195, -42, 390, 84, 42); g.fillStyle = C.warm; g.fill(); textC('LEFT ≈ ₹1,500', 0, 4, 46, '#1d130e', 800); g.restore(); }
+  mascot(170, 1462, 0.6, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, hop: t > 23.9 && t < 24.4 ? Math.sin((t - 23.9) * 6.28) * 8 : 0 });
+  g.restore();
+}
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 26.05, 26.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 26) * 5)) * 8 * (t > 26 && t < 27.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.75], [sSort, 3.75, 7.55], [sGrade, 7.55, 12.6], [sCrush, 12.6, 17.1], [sBatch, 17.1, 21.3], [sNet, 21.3, 25.95], [sCTA, 25.95, 30.1]];
+const XF = 0.3; // short dissolve between scenes (camera travel carries the move)
+
+// ---------- captions (English): upper safe region, ink y ~340-520, x 90-990, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Why do recyclers [pay more]|for some bottle loads', ['[than others?]', 2.73]],
+  L2: ['Keep [clear bottles] apart;', ['[coloured ones] often|sell for little.', 1.74]],
+  L3: ['Leave out [other trash;]', ['buyers [grade loads] by how|much is [really PET.]', 1.44]],
+  L4: ['Then [crush them;]', ['loose bottles are [mostly air,]|and [air costs transport.]', 1.08]],
+  L5: ['Say [400 kilos]|sell for [₹8,800.]'],
+  L6: ['[Buying, transport and labour]|leave about [₹1,500.]'],
+  L7: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  g.font = '800 62px "Baloo 2"'; const lines = c.text.split('|'), lh = 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(W / 2 - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = W / 2 - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(W / 2 - wMax / 2).toFixed(1), x1: +(W / 2 + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 25.9 ? 1 : lerp(1, 0.5, prog(t, 25.9, 26.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { f(t, al); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

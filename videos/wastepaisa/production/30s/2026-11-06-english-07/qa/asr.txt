@@ -1,0 +1,19 @@
+English intelligibility and timing evidence: wastepaisa-30s-english07-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.22 | offset plan 3.60 heard 3.61 | heard: why do recyclers pay more for some bottle loads than others
+   L2 word acc 1.00 | onset plan 3.90 heard 3.90 | offset plan 7.40 heard 7.41 | heard: keep clear bottles apart colored ones often sell for little
+   L3 word acc 1.00 | onset plan 7.70 heard 7.70 | offset plan 12.45 heard 12.44 | heard: leave out other trash buyers grade loads by how much is really p e t
+   L4 word acc 1.00 | onset plan 12.75 heard 12.69 | offset plan 16.94 heard 16.95 | heard: then crush them loose bottles are mostly air and air costs transport
+   L5 word acc 1.00 | onset plan 17.25 heard 17.25 | offset plan 21.13 heard 21.12 | heard: say four hundred kilos sell for eight thousand eight hundred rupees
+   L6 word acc 1.00 | onset plan 21.43 heard 21.40 | offset plan 25.12 heard 25.12 | heard: buying transport and labor leave about fifteen hundred rupees
+   L7 word acc 0.89 | onset plan 26.20 heard 26.20 | offset plan 28.68 heard 28.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.984 (normalisation: lowercase, punctuation removed, labour=labor, coloured=colored (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa')
+   The only miss is the brand, which is outside the ASR vocabulary ('waste python'); Kokoro phonemes are /wˈeɪst pˈaɪsɑː/.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Why do recyclers pay more for some bottle loads than others? Keep clear bottles apart, colored ones often sell for little. Leave out other trash. Buyers grade loads by how much is really PET. Then crush them. Loose bottles are mostly air and air costs transport. Say 400 kilos sell for 8,800 rupees. Buying, transport and labor leave about 1500 rupees. Join Waste Pisa and put your scrap to use.
+   Matches the final script word for word, including 'PET', '400 kilos', '8,800 rupees' and '1500 rupees'; brand written 'Waste Pisa'.
+
+3) Draft-stage ASR: 'buyers grade a load' was heard as 'great a load', so L3 says 'buyers grade loads'; L3 also stopped repeating 'Keep'.

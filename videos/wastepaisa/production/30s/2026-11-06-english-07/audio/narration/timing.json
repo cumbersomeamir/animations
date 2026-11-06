@@ -1,0 +1,69 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 25.848,
+  "words": 67,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Why do recyclers pay more for some bottle loads than others?",
+      "start": 0.25,
+      "phonemes": "wˌaɪ dˈuː ɹᵻsˈaɪklɚz pˈeɪ mˈɔːɹ fɔːɹ sˌʌm bˈɑːɾəl lˈoʊdz ðɐn ˈʌðɚz?",
+      "duration": 3.349,
+      "end": 3.599
+    },
+    {
+      "id": "L2",
+      "text": "Keep clear bottles apart; coloured ones often sell for little.",
+      "start": 3.9,
+      "phonemes": "kˈiːp klˈɪɹ bˈɑːɾəlz ɐpˈɑːɹt; kˈʌlɚd wˈʌnz ˈɔfən sˈɛl fɔːɹ lˈɪɾəl.",
+      "duration": 3.499,
+      "end": 7.399
+    },
+    {
+      "id": "L3",
+      "text": "Leave out other trash; buyers grade loads by how much is really PET.",
+      "tts": "Leave out other trash; buyers grade loads by how much is really P E T.",
+      "start": 7.7,
+      "phonemes": "lˈiːv ˈaʊt ˈʌðɚ tɹˈæʃ; bˈaɪɚz ɡɹˈeɪd lˈoʊdz baɪ hˌaʊ mˈʌtʃ ɪz ɹˈiəli pˈiː ˈiː tˈiː.",
+      "duration": 4.747,
+      "end": 12.447
+    },
+    {
+      "id": "L4",
+      "text": "Then crush them; loose bottles are mostly air, and air costs transport.",
+      "start": 12.75,
+      "phonemes": "ðˈɛn kɹˈʌʃ ðˌɛm; lˈuːs bˈɑːɾəlz ɑːɹ mˈoʊstli ˈɛɹ, ænd ˈɛɹ kˈɔsts tɹˈænspɔːɹt.",
+      "duration": 4.194,
+      "end": 16.944
+    },
+    {
+      "id": "L5",
+      "text": "Say 400 kilos sell for ₹8,800.",
+      "tts": "Say four hundred kilos sell for eight thousand eight hundred rupees.",
+      "start": 17.25,
+      "phonemes": "sˈeɪ fˈɔːɹ hˈʌndɹɪd kˈiːloʊz sˈɛl fɔːɹ ˈeɪt θˈaʊzənd ˈeɪt hˈʌndɹɪd ɹˈuːpiːz.",
+      "duration": 3.883,
+      "end": 21.133
+    },
+    {
+      "id": "L6",
+      "text": "Buying, transport and labour leave about ₹1,500.",
+      "tts": "Buying, transport, and labour leave about fifteen hundred rupees.",
+      "start": 21.43,
+      "phonemes": "bˈaɪɪŋ, tɹˈænspɔːɹt, ænd lˈeɪbɚ lˈiːv ɐbˌaʊt fˈɪftiːn hˈʌndɹɪd ɹˈuːpiːz.",
+      "duration": 3.691,
+      "end": 25.121
+    },
+    {
+      "id": "L7",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.685
+    }
+  ]
+}

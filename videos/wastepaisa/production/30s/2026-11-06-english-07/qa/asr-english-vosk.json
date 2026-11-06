@@ -1,0 +1,87 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Why do recyclers pay more for some bottle loads than others?",
+   "heard": "why do recyclers pay more for some bottle loads than others",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 3.599,
+   "heard_off": 3.61,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Keep clear bottles apart; coloured ones often sell for little.",
+   "heard": "keep clear bottles apart colored ones often sell for little",
+   "word_acc": 1.0,
+   "plan_on": 3.9,
+   "heard_on": 3.9,
+   "plan_off": 7.399,
+   "heard_off": 7.41,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Leave out other trash; buyers grade loads by how much is really P E T.",
+   "heard": "leave out other trash buyers grade loads by how much is really p e t",
+   "word_acc": 1.0,
+   "plan_on": 7.7,
+   "heard_on": 7.7,
+   "plan_off": 12.447,
+   "heard_off": 12.44,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Then crush them; loose bottles are mostly air, and air costs transport.",
+   "heard": "then crush them loose bottles are mostly air and air costs transport",
+   "word_acc": 1.0,
+   "plan_on": 12.75,
+   "heard_on": 12.69,
+   "plan_off": 16.944,
+   "heard_off": 16.95,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Say four hundred kilos sell for eight thousand eight hundred rupees.",
+   "heard": "say four hundred kilos sell for eight thousand eight hundred rupees",
+   "word_acc": 1.0,
+   "plan_on": 17.25,
+   "heard_on": 17.25,
+   "plan_off": 21.133,
+   "heard_off": 21.12,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "Buying, transport, and labour leave about fifteen hundred rupees.",
+   "heard": "buying transport and labor leave about fifteen hundred rupees",
+   "word_acc": 1.0,
+   "plan_on": 21.43,
+   "heard_on": 21.4,
+   "plan_off": 25.121,
+   "heard_off": 25.12,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.2,
+   "heard_on": 26.2,
+   "plan_off": 28.685,
+   "heard_off": 28.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "sfx_cues": [
+  [
+   0.35,
+   "X-ray over the mixed bag"
+  ],
+  [
+   1.39,
+   "WHICH PAYS MORE chip"
+  ],
+  [
+   3.8,
+   "bins appear"
+  ],
+  [
+   4.6,
+   "clear bottle lands"
+  ],
+  [
+   4.76,
+   "clear bottle lands"
+  ],
+  [
+   4.92,
+   "clear bottle lands"
+  ],
+  [
+   5.08,
+   "clear bottle lands"
+  ],
+  [
+   6.1,
+   "coloured bottle lands"
+  ],
+  [
+   6.26,
+   "coloured bottle lands"
+  ],
+  [
+   6.42,
+   "coloured bottle lands"
+  ],
+  [
+   6.62,
+   "LOW PRICE stamp"
+  ],
+  [
+   7.62,
+   "trash bin appears"
+  ],
+  [
+   8.3,
+   "can out"
+  ],
+  [
+   8.5,
+   "wrapper out"
+  ],
+  [
+   8.7,
+   "bag out"
+  ],
+  [
+   9.2,
+   "PET-share gauge"
+  ],
+  [
+   10.5,
+   "gauge rises"
+  ],
+  [
+   12.47,
+   "GRADE A stamp (after the word PET)"
+  ],
+  [
+   13.2,
+   "bottle crushed"
+  ],
+  [
+   13.6,
+   "loose truck"
+  ],
+  [
+   14.62,
+   "LOOSE label"
+  ],
+  [
+   15.3,
+   "baled truck"
+  ],
+  [
+   15.9,
+   "CRUSHED label"
+  ],
+  [
+   17.28,
+   "EXAMPLE tag"
+  ],
+  [
+   17.65,
+   "bale"
+  ],
+  [
+   17.77,
+   "bale"
+  ],
+  [
+   17.89,
+   "bale"
+  ],
+  [
+   18.01,
+   "bale"
+  ],
+  [
+   18.62,
+   "buyer quote ticket"
+  ],
+  [
+   19.42,
+   "sales ticket"
+  ],
+  [
+   21.32,
+   "sales bar rises"
+  ],
+  [
+   22.03,
+   "transport"
+  ],
+  [
+   22.99,
+   "labour"
+  ],
+  [
+   23.9,
+   "LEFT 1,500"
+  ],
+  [
+   26.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-18.72",
+  "input_tp": "-3.10",
+  "input_lra": "3.60",
+  "input_thresh": "-29.43",
+  "output_i": "-15.20",
+  "output_tp": "-1.50",
+  "output_lra": "2.80",
+  "output_thresh": "-25.80",
+  "normalization_type": "dynamic",
+  "target_offset": "0.20"
+ }
+}

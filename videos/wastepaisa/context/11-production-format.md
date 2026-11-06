@@ -81,6 +81,13 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
     pollution-board categorisation in notes.
   - **Reference implementation:** `production/30s/2026-11-06-english-06/src/scene.html` (coconut/charcoal props, drum kiln with
     closing air holes, crusher, starch, press, net bar with an input-price warning).
+- **Topic history rule (english-07, 2026-11-06):** before accepting a suggested subject, check the episode records in context 12–20.
+  If it is covered (cardboard grading already exists in feedback-05), choose a fresh subject in the same genre and record why in the
+  episode notes.
+  - Covered so far: paper cup, aluminium can, cable, brass, aluminium aggregation, pallets, cardboard grading, coconut-shell charcoal,
+    PET bottles.
+  - Latest reference implementation: `production/30s/2026-11-06-english-07/src/scene.html` (PET bottles, PET-share grade gauge,
+    loose-vs-baled trucks).
 
 ## FEEDBACK ROUND RULES (2026-11-02, latest; supersede conflicting directions above)
 - **Focus:** material value and how to sell useful scrap well (sorting, grading, weighing, asking for quotes, safety),

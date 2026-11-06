@@ -211,6 +211,30 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Episode record: `context/19-english-06-01.md`. No automation.
 - **Note:** no silent recap; English number phrases needed the time. The net result and spoken takeaway hold until the CTA.
 
+## english-07 (2026-11-06-english-07) episode 01: COMPLETE (English)
+- **Topic decision:** the suggested subject (collecting and sorting corrugated cardboard; clean dry vs wet mixed) duplicates feedback-05
+  (context 18). Fresh subject chosen in the same genre: **collecting and sorting PET drink bottles for a recycler** (clear vs coloured,
+  trash out / PET-share grade, crush for transport, illustrative batch).
+- **Style and voice:** accepted Scrap Shop X-ray (english-06 renderer), unchanged. Meshline voice, fresh English takes; English captions
+  at 70 px line spacing.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-06-english-07/wastepaisa-30s-english07-01.mp4`,
+  SHA-256 `7b3dacf549d2a6165e5bceb8a35313047636deae3d8d5f7939318a09c3181936`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.4 dBTP.
+- **Checks:**
+  - Caption ink y 366–494, x 133–947.
+  - Timing within ±0.06 s.
+  - Vosk L1–L6 word-perfect (brand OOV only), mean 0.984; Whisper matches the script. ASR-only: no listening in the cloud.
+- **Research:**
+  - Grading: APR PET bale spec (Grade A ≥94 % PET).
+  - Transport: EPA volume-to-weight (loose 30–40 vs compacted 515 lb/yd³).
+  - Clear vs coloured: letsrecycle Oct 2026 (clear £250–350/t vs coloured −£50 to +£10/t).
+  - Indian rates: kabadi ₹10–20/kg; B2B asking ₹25–70/kg.
+  - Illustrative batch: 400 kg → ₹8,800 → ≈₹1,500 left.
+  - Episode record: `context/20-english-07-01.md`. No automation.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
