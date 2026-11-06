@@ -1,0 +1,59 @@
+{
+ "fdcId": 173424,
+ "ndbNumber": 1129,
+ "description": "Egg, whole, cooked, hard-boiled",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Energy",
+   "amount": 649,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 155,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Cholesterol",
+   "amount": 373,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 12.6,
+   "unit": "g",
+   "dataPoints": 14
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 3.27,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 74.6,
+   "unit": "g",
+   "dataPoints": 14
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 10.6,
+   "unit": "g",
+   "dataPoints": 7
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 1.12,
+   "unit": "g",
+   "dataPoints": 0
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "_doc": "CalMeter English 30 s english-07 (2026-11-06): one large boiled egg, then fried with one measured teaspoon of oil. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the single ASR timing pass (qa/asr-takes.txt, faster-whisper base.en).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.30}, {"id": "T1", "at": 6.30}, {"id": "T2", "at": 12.40}, {"id": "T3", "at": 20.00}, {"id": "T4", "at": 26.30}],
+ "captions": [
+  {"in": 6, "out": 58, "lines": [["One large", 9], ["boiled egg:", 23]]},
+  {"in": 62, "out": 176, "lines": [["≈ 78 kcal ·", 66], [" 6 g protein", 109, 0], ["(1 large egg, 50 g)", 72]]},
+  {"in": 186, "out": 356, "lines": [["Fry it with 1 measured tsp", 189], ["of oil: up to +40 kcal", 274]]},
+  {"in": 368, "out": 566, "lines": [["Protein stays ≈ 6 g;", 374], ["the extra energy is the oil", 445]]},
+  {"in": 594, "out": 780, "lines": [["Measure the oil,", 605], ["log it next to the egg", 641]]},
+  {"in": 786, "out": 899, "lines": [["Track your food and nutrition", 789], ["with CalMeter", 827]]}
+ ],
+ "events": {
+  "egg": 0, "title": 10, "knife": 14, "slice": 24, "part": 28, "burnish": 38, "section": 40, "washSection": 48, "yolkRings": 70,
+  "kcal": 66, "protein": 109, "legend": 120, "roundelsOut": 172,
+  "pan": 176, "spoon": 200, "pour": 222, "oil": 236, "tspLabel": 233, "eggIn": 252, "plus40": 304, "sizzle": 252,
+  "bars": 368, "protBar": 374, "protSame": 403, "energyBar": 445, "oilBlock": 488, "barsOut": 584,
+  "ledger": 596, "row1": 605, "row2": 641, "tick": 700, "rule": 728, "ledgerOut": 772,
+  "bookend": 772, "cta": 778, "ctaWord": 790
+ },
+ "sfx": [
+  {"ev": "egg", "type": "pencil", "dur": 0.8, "gain": -27},
+  {"ev": "slice", "type": "slice", "gain": -14},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "kcal", "type": "tick", "gain": -24},
+  {"ev": "protein", "type": "tick", "gain": -24},
+  {"ev": "roundelsOut", "type": "page", "gain": -21},
+  {"ev": "pour", "type": "juice", "gain": -22},
+  {"ev": "sizzle", "type": "patter", "dur": 1.6, "gain": -28},
+  {"ev": "oilBlock", "type": "tick", "gain": -25},
+  {"ev": "barsOut", "type": "page", "gain": -21},
+  {"ev": "row2", "type": "pencil", "dur": 0.8, "gain": -27},
+  {"ev": "tick", "type": "tick", "gain": -24},
+  {"ev": "bookend", "type": "page", "gain": -22},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

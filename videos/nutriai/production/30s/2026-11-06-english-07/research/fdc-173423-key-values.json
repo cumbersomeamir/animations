@@ -1,0 +1,59 @@
+{
+ "fdcId": 173423,
+ "ndbNumber": 1128,
+ "description": "Egg, whole, cooked, fried",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 13.6,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Cholesterol",
+   "amount": 401,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 4.32,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 14.8,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 0.83,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 69.5,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 821,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 196,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ]
+}

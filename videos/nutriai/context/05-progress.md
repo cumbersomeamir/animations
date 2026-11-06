@@ -80,3 +80,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-06-english-06/source/`, output `../nutriai-30s-english06-01.mp4`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events after two motion fixes; captions 0 outside x 90–990 / y 340–520; ASR verbatim. See `production/30s/2026-11-06-english-06/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 14. Batch 2026-11-06-english-07, boiled egg + a measured teaspoon of oil (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at 5c71dff, no active job; egg/oil not covered before.
+- Facts: USDA FDC 173424 hard-boiled egg (155 kcal, 12.58 g protein / 100 g; 1 large = 50 g → ≈ 78 kcal, 6.3 g protein); FDC 171411 soybean oil 884 kcal / 100 g, 1 tsp = 4.5 g → ≈ 40 kcal, 0 g protein; FDC 173423 fried large egg also 6.3 g protein. Details: `context/20-production-30s-english07-egg.md`.
+- Decisions: english-06 renderer + Meshline voice + accepted mix reused; oil shown as an extra ingredient ("up to 40 kcal"), no preparation judged; generic ledger, not an app screen.
+- Commands: as in section 9, from `production/30s/2026-11-06-english-07/source/`, output `../nutriai-30s-english07-01.mp4`; ASR on the final mix needs `vad_filter=True` (scratchpad asr_vad.py) because of a faster-whisper alignment edge case.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520; plate text inside x 950; ASR verbatim. See `production/30s/2026-11-06-english-07/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

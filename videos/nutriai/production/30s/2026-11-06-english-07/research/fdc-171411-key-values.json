@@ -1,0 +1,59 @@
+{
+ "fdcId": 171411,
+ "ndbNumber": 4044,
+ "description": "Oil, soybean, salad or cooking",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Water",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 4
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 15.6,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 3700.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Cholesterol",
+   "amount": 0.0,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 100,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 884,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ]
+}

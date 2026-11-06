@@ -1,0 +1,10 @@
+T0.wav | One large boiled egg, about 78 calories and 6 grams of protein.
+    [('One', 0.0, 0.16), ('large', 0.16, 0.46), ('boiled', 0.46, 0.84), ('egg,', 0.84, 1.26), ('about', 1.78, 1.9), ('78', 1.9, 2.48), ('calories', 2.48, 2.92), ('and', 2.92, 3.32), ('6', 3.32, 3.54), ('grams', 3.54, 3.92), ('of', 3.92, 4.14), ('protein.', 4.14, 4.52)]
+T1.wav | Fry it with one measured teaspoon of oil, and that teaspoon adds up to 40 calories.
+    [('Fry', 0.0, 0.18), ('it', 0.18, 0.42), ('with', 0.42, 0.56), ('one', 0.56, 0.8), ('measured', 0.8, 1.12), ('teaspoon', 1.12, 1.46), ('of', 1.46, 1.82), ('oil,', 1.82, 2.08), ('and', 2.66, 2.72), ('that', 2.72, 2.84), ('teaspoon', 2.84, 3.16), ('adds', 3.16, 3.66), ('up', 3.66, 3.84), ('to', 3.84, 3.94), ('40', 3.94, 4.2), ('calories.', 4.2, 4.5)]
+T2.wav | The protein stays about 6 grams, the extra energy comes from the oil, an ingredient of its own.
+    [('The', 0.0, 0.08), ('protein', 0.08, 0.26), ('stays', 0.26, 0.74), ('about', 0.74, 1.02), ('6', 1.02, 1.38), ('grams,', 1.38, 1.74), ('the', 2.44, 2.5), ('extra', 2.5, 2.78), ('energy', 2.78, 3.18), ('comes', 3.18, 3.62), ('from', 3.62, 3.86), ('the', 3.86, 4.0), ('oil,', 4.0, 4.26), ('an', 4.68, 4.78), ('ingredient', 4.78, 5.04), ('of', 5.04, 5.52), ('its', 5.52, 5.64), ('own.', 5.64, 5.9)]
+T3.wav | So measure the oil and log it next to the egg instead of guessing.
+    [('So', 0.0, 0.16), ('measure', 0.16, 0.36), ('the', 0.36, 0.62), ('oil', 0.62, 0.84), ('and', 0.84, 1.36), ('log', 1.36, 1.6), ('it', 1.6, 1.74), ('next', 1.74, 1.9), ('to', 1.9, 2.12), ('the', 2.12, 2.18), ('egg', 2.18, 2.4), ('instead', 2.4, 2.78), ('of', 2.78, 2.88), ('guessing.', 2.88, 3.1)]
+T4.wav | Track your food and nutrition with calmetre.
+    [('Track', 0.0, 0.16), ('your', 0.16, 0.36), ('food', 0.36, 0.64), ('and', 0.64, 1.0), ('nutrition', 1.0, 1.26), ('with', 1.26, 1.6), ('calmetre.', 1.6, 2.16)]
