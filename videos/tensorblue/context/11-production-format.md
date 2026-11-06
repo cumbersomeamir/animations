@@ -33,6 +33,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-06 english-07:** the suggested topic (Pay twice / idempotency key + retry) duplicated episode 14, so a fresh same-genre topic was chosen per the brief: two buyers, one last seat (race condition, fixed by a one-step conditional UPDATE). Always check `1N-production-*.md` topics before accepting a suggested subject. Same satisfied design, English voice and CTA; real demo with the actual tool (SQLite) driving the on-screen numbers. Details: `20-production-30s-english07-01.md`.
 
+- **2026-11-07 english-08:** "software mystery" framing (why a deleted photo is still on another device). Same satisfied design, English voice and CTA. First second must be visibly intriguing (here: deleted on the phone, still on the laptop by 0.9 s). Fictional systems are fine when backed by a real-tool run (real folders + rsync) whose states drive the on-screen result; say "often" where retention varies by service. Kit note: `rr()` begins a new path, so fill compound shapes separately. Details: `21-production-30s-english08-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

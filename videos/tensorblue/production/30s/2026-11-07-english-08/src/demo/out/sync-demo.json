@@ -1,0 +1,166 @@
+{
+ "rsync": "rsync  version 3.2.7  protocol version 31",
+ "photo": "beach.jpg",
+ "steps": [
+  {
+   "step": "0 start: phone uploads, laptop syncs, Monday backup",
+   "commands": [
+    "rsync -a phone/ cloud/",
+    "rsync -a cloud/ laptop/",
+    "rsync -a cloud/ backup-monday/"
+   ],
+   "state": {
+    "phone": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [],
+    "backup-monday": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ]
+   }
+  },
+  {
+   "step": "1 device-only removal (upload-only sync)",
+   "commands": [
+    "rm phone/beach.jpg",
+    "rsync -a phone/ cloud/",
+    "rsync -a cloud/ laptop/"
+   ],
+   "state": {
+    "phone": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [],
+    "backup-monday": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ]
+   }
+  },
+  {
+   "step": "2 synced delete (deletion propagates, cloud keeps a trash copy)",
+   "commands": [
+    "rm phone/beach.jpg",
+    "rsync -a --delete --backup --backup-dir=cloud-trash phone/ cloud/",
+    "rsync -a --delete cloud/ laptop/"
+   ],
+   "state": {
+    "phone": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [
+     "beach.jpg"
+    ],
+    "backup-monday": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ]
+   }
+  },
+  {
+   "step": "3 the older backup snapshot",
+   "commands": [],
+   "state": {
+    "phone": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [
+     "beach.jpg"
+    ],
+    "backup-monday": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ]
+   }
+  },
+  {
+   "step": "4 empty the trash, then remove the old backup",
+   "commands": [
+    "rm cloud-trash/*",
+    "rm -r backup-monday"
+   ],
+   "state_after_empty_trash": {
+    "phone": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [],
+    "backup-monday": [
+     "beach.jpg",
+     "cake.jpg",
+     "dog.jpg"
+    ]
+   },
+   "state": {
+    "phone": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "laptop": [
+     "cake.jpg",
+     "dog.jpg"
+    ],
+    "cloud-trash": [],
+    "backup-monday": null
+   }
+  }
+ ]
+}

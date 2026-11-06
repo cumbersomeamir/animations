@@ -1,0 +1,64 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "You deleted this photo on your phone. Why is it still on your laptop?",
+   "after": 0.45
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Some deletes only remove this device's copy. The cloud keeps its own.",
+   "after": 0.35
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "A synced delete is different: every device removes its copy.",
+   "after": 0.35
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Even then, it waits in the trash, often for thirty days.",
+   "after": 0.35
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "And older backups can keep a copy until they're removed.",
+   "after": 0.35
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "For permanent removal: sync the delete, empty the trash, check your backups.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 26.15,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.35
+  }
+ ]
+}

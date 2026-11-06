@@ -1,0 +1,18 @@
+You deleted this photo on your phone. Why is it still on your laptop?
+
+Some deletes only remove this device's copy. The cloud keeps its own. A synced delete is different: every device removes its copy. Even then, it waits in the trash, often for thirty days. And older backups can keep a copy until they're removed.
+
+For permanent removal: sync the delete, empty the trash, check your backups.
+
+The demo uses a made-up sync system built from real folders (synced with rsync): a device-only removal left copies in the cloud and on the laptop; a synced delete left one in the trash and one in an older backup; only emptying the trash and removing that backup left no copy.
+
+Sources (official help pages):
+- Set up and use iCloud Photos: https://support.apple.com/en-us/108782
+- Delete & restore photos & videos (Google Photos Help): https://support.google.com/photos/answer/6128858
+- Free up space on your device (Google Photos Help): https://support.google.com/photos/answer/6128843
+- Restore deleted files or folders in OneDrive: https://support.microsoft.com/en-us/office/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f
+- Back up your Mac with Time Machine: https://support.apple.com/en-us/104984
+
+Follow Tensorblue for software explained simply.
+
+#CloudSync #Backups #SoftwareExplained

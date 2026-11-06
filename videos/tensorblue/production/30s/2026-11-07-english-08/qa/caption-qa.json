@@ -1,0 +1,225 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "You deleted this photo",
+    "on your phone."
+   ],
+   "t0": 0.24,
+   "tEnd": 2.43,
+   "frame": 25,
+   "box": {
+    "x0": 249,
+    "x1": 829,
+    "y0": 372,
+    "y1": 488,
+    "n": 15843
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Why is it still",
+    "on your laptop?"
+   ],
+   "t0": 2.37,
+   "tEnd": 4.41,
+   "frame": 89,
+   "box": {
+    "x0": 340,
+    "x1": 739,
+    "y0": 372,
+    "y1": 488,
+    "n": 12182
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Some deletes only remove",
+    "this device's copy."
+   ],
+   "t0": 4.35,
+   "tEnd": 7.24,
+   "frame": 148,
+   "box": {
+    "x0": 198,
+    "x1": 882,
+    "y0": 375,
+    "y1": 488,
+    "n": 19005
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The cloud keeps its own."
+   ],
+   "t0": 7.18,
+   "tEnd": 8.94,
+   "frame": 233,
+   "box": {
+    "x0": 218,
+    "x1": 859,
+    "y0": 404,
+    "y1": 456,
+    "n": 10148
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A synced delete is different:"
+   ],
+   "t0": 8.88,
+   "tEnd": 10.75,
+   "frame": 284,
+   "box": {
+    "x0": 175,
+    "x1": 901,
+    "y0": 404,
+    "y1": 456,
+    "n": 12137
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "every device",
+    "removes its copy."
+   ],
+   "t0": 10.69,
+   "tEnd": 12.96,
+   "frame": 339,
+   "box": {
+    "x0": 314,
+    "x1": 764,
+    "y0": 372,
+    "y1": 488,
+    "n": 12680
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Even then,",
+    "it waits in the trash,"
+   ],
+   "t0": 12.9,
+   "tEnd": 14.71,
+   "frame": 405,
+   "box": {
+    "x0": 288,
+    "x1": 789,
+    "y0": 375,
+    "y1": 487,
+    "n": 12457
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "often for thirty days."
+   ],
+   "t0": 14.65,
+   "tEnd": 16.45,
+   "frame": 458,
+   "box": {
+    "x0": 275,
+    "x1": 802,
+    "y0": 404,
+    "y1": 456,
+    "n": 8600
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "And older backups can keep",
+    "a copy until they're removed."
+   ],
+   "t0": 16.39,
+   "tEnd": 19.57,
+   "frame": 510,
+   "box": {
+    "x0": 162,
+    "x1": 914,
+    "y0": 375,
+    "y1": 488,
+    "n": 24264
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "For permanent removal:"
+   ],
+   "t0": 19.51,
+   "tEnd": 21.07,
+   "frame": 603,
+   "box": {
+    "x0": 232,
+    "x1": 846,
+    "y0": 405,
+    "y1": 454,
+    "n": 9985
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "sync the delete,",
+    "empty the trash,"
+   ],
+   "t0": 21.01,
+   "tEnd": 22.88,
+   "frame": 648,
+   "box": {
+    "x0": 328,
+    "x1": 749,
+    "y0": 373,
+    "y1": 486,
+    "n": 13783
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "check your backups."
+   ],
+   "t0": 22.82,
+   "tEnd": 24.83,
+   "frame": 703,
+   "box": {
+    "x0": 269,
+    "x1": 808,
+    "y0": 405,
+    "y1": 454,
+    "n": 8737
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.09,
+   "tEnd": 29.6,
+   "frame": 801,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-english08-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer for Tensorblue 30s english-08 episode 01 (why a deleted photo is still there).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

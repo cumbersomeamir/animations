@@ -1,0 +1,207 @@
+{
+ "sfx": [
+  {
+   "t": 0.12,
+   "type": "tap"
+  },
+  {
+   "t": 0.3,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 0.85,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 2.817,
+   "type": "type"
+  },
+  {
+   "t": 3.267,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 3.905,
+   "type": "wipe"
+  },
+  {
+   "t": 8.487,
+   "type": "wipe"
+  },
+  {
+   "t": 12.513,
+   "type": "wipe"
+  },
+  {
+   "t": 16.004,
+   "type": "wipe"
+  },
+  {
+   "t": 19.123,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 5.235,
+   "type": "tap"
+  },
+  {
+   "t": 5.335,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 7.685,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 5.91,
+   "type": "type"
+  },
+  {
+   "t": 8.935,
+   "type": "tap"
+  },
+  {
+   "t": 9.897,
+   "type": "slide"
+  },
+  {
+   "t": 10.497,
+   "type": "paper"
+  },
+  {
+   "t": 11.085,
+   "type": "slide"
+  },
+  {
+   "t": 11.735,
+   "type": "paper"
+  },
+  {
+   "t": 10.697,
+   "type": "type"
+  },
+  {
+   "t": 13.3,
+   "type": "paper"
+  },
+  {
+   "t": 13.95,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.712,
+   "type": "carve"
+  },
+  {
+   "t": 15.212,
+   "type": "type"
+  },
+  {
+   "t": 15.525,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 16.513,
+   "type": "type"
+  },
+  {
+   "t": 17.313,
+   "type": "slot"
+  },
+  {
+   "t": 18.125,
+   "type": "blip"
+  },
+  {
+   "t": 21.019,
+   "type": "blip"
+  },
+  {
+   "t": 21.919,
+   "type": "blip"
+  },
+  {
+   "t": 22.832,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 19.644,
+   "type": "type"
+  },
+  {
+   "t": 24.046,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.332,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "deleted": 0.417,
+  "why": 2.429,
+  "still": 2.867,
+  "laptop1": 3.317,
+  "only": 5.035,
+  "remove2": 5.335,
+  "device2": 5.96,
+  "copy2": 6.46,
+  "cloud2": 7.36,
+  "keeps": 7.785,
+  "synced": 9.035,
+  "different": 9.947,
+  "every": 10.747,
+  "device3": 11.06,
+  "removes": 11.535,
+  "waits": 13.55,
+  "trash4": 13.95,
+  "often": 14.712,
+  "thirty": 15.262,
+  "days": 15.575,
+  "older": 16.563,
+  "backups5": 16.863,
+  "keep5": 17.513,
+  "until": 18.175,
+  "removed5": 18.613,
+  "permanent": 19.694,
+  "sync6": 21.069,
+  "empty6": 21.969,
+  "check6": 22.882,
+  "backups6": 23.219,
+  "follow": 26.15,
+  "tb": 26.432,
+  "chime": 24.046,
+  "scenes": [
+   0,
+   4.155,
+   8.737,
+   12.763,
+   16.253999999999998,
+   19.372999999999998,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}
