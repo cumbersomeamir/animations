@@ -1,0 +1,219 @@
+{
+ "sfx": [
+  {
+   "t": 0.874,
+   "type": "tap"
+  },
+  {
+   "t": 0.894,
+   "type": "tap"
+  },
+  {
+   "t": 1.124,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 1.424,
+   "type": "clack"
+  },
+  {
+   "t": 2.186,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 3.211,
+   "type": "type"
+  },
+  {
+   "t": 3.909,
+   "type": "wipe"
+  },
+  {
+   "t": 7.754,
+   "type": "wipe"
+  },
+  {
+   "t": 11.835,
+   "type": "wipe"
+  },
+  {
+   "t": 16.281,
+   "type": "wipe"
+  },
+  {
+   "t": 19.986,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 5.022,
+   "type": "carve"
+  },
+  {
+   "t": 6.259,
+   "type": "blip"
+  },
+  {
+   "t": 6.379,
+   "type": "blip"
+  },
+  {
+   "t": 7.047,
+   "type": "paper"
+  },
+  {
+   "t": 7.167,
+   "type": "paper"
+  },
+  {
+   "t": 7.297,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 9.099,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 9.699,
+   "type": "slide"
+  },
+  {
+   "t": 10.099,
+   "type": "clack"
+  },
+  {
+   "t": 10.561,
+   "type": "carve"
+  },
+  {
+   "t": 11.149,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 13.233,
+   "type": "slot"
+  },
+  {
+   "t": 13.758,
+   "type": "match"
+  },
+  {
+   "t": 14.946,
+   "type": "slot"
+  },
+  {
+   "t": 15.408,
+   "type": "strike"
+  },
+  {
+   "t": 15.808,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 17.672,
+   "type": "paper"
+  },
+  {
+   "t": 19.347,
+   "type": "strike"
+  },
+  {
+   "t": 17.772,
+   "type": "type"
+  },
+  {
+   "t": 20.438,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 21.95,
+   "type": "clack"
+  },
+  {
+   "t": 23.113,
+   "type": "type"
+  },
+  {
+   "t": 23.863,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 24.555,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.332,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "tap": 0.824,
+  "buy": 1.099,
+  "last": 1.524,
+  "same": 2.236,
+  "moment": 2.499,
+  "who": 3.261,
+  "checks": 5.122,
+  "both": 5.822,
+  "free2": 6.409,
+  "sells": 7.047,
+  "twice": 7.347,
+  "claims3": 9.199,
+  "one3": 9.724,
+  "step": 9.949,
+  "only": 10.661,
+  "still": 11.199,
+  "free3": 11.486,
+  "database": 12.358,
+  "claims4": 13.383,
+  "one4": 13.808,
+  "time": 14.133,
+  "second": 15.046,
+  "finds": 15.458,
+  "taken": 15.858,
+  "one5": 16.897,
+  "ticket": 17.822,
+  "other": 18.697,
+  "sold": 19.447,
+  "not": 20.438,
+  "fix": 21.95,
+  "simple": 22.4,
+  "check6": 23.163,
+  "claim6": 23.613,
+  "together": 23.913,
+  "follow": 26.15,
+  "tb": 26.432,
+  "chime": 24.555,
+  "scenes": [
+   0,
+   4.159,
+   8.004,
+   12.085,
+   16.531,
+   20.235999999999997,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

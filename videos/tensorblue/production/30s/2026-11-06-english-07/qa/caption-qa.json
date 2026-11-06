@@ -1,0 +1,224 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Two people tap Buy",
+    "on the last seat"
+   ],
+   "t0": 0.24,
+   "tEnd": 2.06,
+   "frame": 25,
+   "box": {
+    "x0": 285,
+    "x1": 795,
+    "y0": 373,
+    "y1": 475,
+    "n": 15055
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "at the same moment.",
+    "Who gets it?"
+   ],
+   "t0": 2,
+   "tEnd": 4.41,
+   "frame": 78,
+   "box": {
+    "x0": 268,
+    "x1": 809,
+    "y0": 374,
+    "y1": 488,
+    "n": 14197
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A careless app checks first,"
+   ],
+   "t0": 4.35,
+   "tEnd": 5.82,
+   "frame": 148,
+   "box": {
+    "x0": 179,
+    "x1": 897,
+    "y0": 404,
+    "y1": 456,
+    "n": 11596
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "both see it free,",
+    "and it sells twice."
+   ],
+   "t0": 5.76,
+   "tEnd": 8.2,
+   "frame": 191,
+   "box": {
+    "x0": 316,
+    "x1": 761,
+    "y0": 372,
+    "y1": 477,
+    "n": 13638
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A well-built system claims it",
+    "in one step:"
+   ],
+   "t0": 8.14,
+   "tEnd": 10.66,
+   "frame": 262,
+   "box": {
+    "x0": 175,
+    "x1": 904,
+    "y0": 372,
+    "y1": 488,
+    "n": 16661
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "only if it's still free."
+   ],
+   "t0": 10.6,
+   "tEnd": 12.29,
+   "frame": 336,
+   "box": {
+    "x0": 294,
+    "x1": 783,
+    "y0": 404,
+    "y1": 456,
+    "n": 7638
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The database runs the claims",
+    "one at a time;"
+   ],
+   "t0": 12.22,
+   "tEnd": 13.3,
+   "frame": 385,
+   "box": {
+    "x0": 158,
+    "x1": 921,
+    "y0": 372,
+    "y1": 487,
+    "n": 17842
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the second finds it taken."
+   ],
+   "t0": 13.24,
+   "tEnd": 16.73,
+   "frame": 415,
+   "box": {
+    "x0": 211,
+    "x1": 864,
+    "y0": 409,
+    "y1": 450,
+    "n": 10621
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "So one person gets the ticket,"
+   ],
+   "t0": 16.67,
+   "tEnd": 18.5,
+   "frame": 518,
+   "box": {
+    "x0": 154,
+    "x1": 923,
+    "y0": 403,
+    "y1": 456,
+    "n": 12548
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and the other sees \"sold out\"."
+   ],
+   "t0": 18.44,
+   "tEnd": 20.44,
+   "frame": 571,
+   "box": {
+    "x0": 154,
+    "x1": 923,
+    "y0": 411,
+    "y1": 449,
+    "n": 11883
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Not every app does this,"
+   ],
+   "t0": 20.38,
+   "tEnd": 21.69,
+   "frame": 629,
+   "box": {
+    "x0": 226,
+    "x1": 852,
+    "y0": 404,
+    "y1": 456,
+    "n": 10365
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "but the fix is simple:",
+    "check and claim together."
+   ],
+   "t0": 21.63,
+   "tEnd": 25.33,
+   "frame": 667,
+   "box": {
+    "x0": 205,
+    "x1": 872,
+    "y0": 371,
+    "y1": 488,
+    "n": 19547
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.09,
+   "tEnd": 29.6,
+   "frame": 801,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

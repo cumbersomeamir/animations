@@ -1,0 +1,17 @@
+Two people tap Buy on the last seat at the same moment. Who gets it?
+
+A careless app checks first, both see it free, and it sells twice. A well-built system claims it in one step: only if it's still free. The database runs the claims one at a time; the second finds it taken. So one person gets the ticket, and the other sees "sold out".
+
+Not every app does this, but the fix is simple: check and claim together.
+
+The demo is a real SQLite run with a made-up event: check-then-sell gave seat K12 two tickets; the one-step claim (UPDATE … WHERE buyer IS NULL) changed 1 row for the first buyer and 0 for the second.
+
+Sources:
+- PostgreSQL docs, Transaction Isolation (Read Committed): https://www.postgresql.org/docs/current/transaction-iso.html
+- PostgreSQL docs, UPDATE (row count): https://www.postgresql.org/docs/current/sql-update.html
+- SQLite, Isolation: https://www.sqlite.org/isolation.html
+- SQLite, changes(): https://www.sqlite.org/lang_corefunc.html
+
+Follow Tensorblue for software explained simply.
+
+#SystemDesign #Databases #SoftwareExplained

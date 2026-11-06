@@ -1,0 +1,45 @@
+{
+ "sqlite_version": "3.45.1",
+ "python": "3.12.3",
+ "seat": "K12",
+ "interleaved": {
+  "careless": {
+   "check_sql": "SELECT buyer IS NULL FROM seats WHERE id = 'K12'",
+   "sell_sql": "UPDATE seats SET buyer = '<buyer>' WHERE id = 'K12'",
+   "A_sees_free": true,
+   "B_sees_free": true,
+   "tickets": 2,
+   "ticket_buyers": [
+    "A",
+    "B"
+   ]
+  },
+  "one_step": {
+   "claim_sql": "UPDATE seats SET buyer = '<buyer>' WHERE id = 'K12' AND buyer IS NULL",
+   "changes_A": 1,
+   "changes_B": 0,
+   "tickets": 1,
+   "ticket_buyers": [
+    "A"
+   ]
+  }
+ },
+ "stress": {
+  "careless": {
+   "trials": 300,
+   "gap_s": 0.002,
+   "sold_twice": 300,
+   "tickets_per_trial": {
+    "2": 300
+   }
+  },
+  "one_step": {
+   "trials": 300,
+   "gap_s": 0.002,
+   "sold_twice": 0,
+   "tickets_per_trial": {
+    "1": 300
+   }
+  }
+ }
+}

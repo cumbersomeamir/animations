@@ -1,0 +1,64 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "Two people tap Buy on the last seat at the same moment. Who gets it?",
+   "after": 0.45
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "A careless app checks first, both see it free, and it sells twice.",
+   "after": 0.35
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "A well-built system claims it in one step: only if it's still free.",
+   "after": 0.35
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "The database runs the claims one at a time; the second finds it taken.",
+   "after": 0.35
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "So one person gets the ticket, and the other sees \"sold out\".",
+   "after": 0.35
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Not every app does this, but the fix is simple: check and claim together.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 26.15,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.35
+  }
+ ]
+}
