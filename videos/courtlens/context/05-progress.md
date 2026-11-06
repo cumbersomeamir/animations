@@ -9,7 +9,8 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 ### Status
 - Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-06
   delivered at ffe0f5c), assigned account info@tensorblue.com. No active jobs. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-06-english-07/courtlens-30s-english07-01.mp4`.
+- DELIVERED: `production/30s/2026-11-06-english-07/courtlens-30s-english07-01.mp4`
+  (sha256 f89efc47f2468e44e319d8b7f91d5456f76acb3e653626b8aa805e6434d7cab4).
 - Topic: the suggested "above printed MRP" subject duplicates Episode 02, so a fresh subject was chosen (episode
   record: `context/episodes/2026-11-06-english07-failed-atm.md`).
 
@@ -49,12 +50,26 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english0
 PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english07-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
 ```
 
-### Fixed before the full render (stills review)
-- The ATM slip's "Withdrawal" label crowded the amount, so it now reads "Amount".
-- The bubble repeated the ATM's "OTHER BANK" header, so it now reads "Not my bank".
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −15.9 LUFS / −2.3 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.74 s; y<300 clear; 12 captions, ≤2 lines, in y 340–520.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Details: `production/30s/2026-11-06-english-07/qa/QA.md`.
+
+### Fixed
+- Stills review: the ATM slip label is now "Amount"; the bubble now reads "Not my bank" instead of duplicating
+  the header.
+- After the full render: −14.4 LUFS, so the gain went from 7.8 to 6.2 dB. Audio was re-muxed with SKIP_FRAMES=1,
+  giving −15.9 LUFS. QA was re-run.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
 
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Await review. No further episode or automation unless asked.
 
 ## Round 2026-11-06 (english-06): English episode 06, restaurant service charge vs tip vs GST
 
