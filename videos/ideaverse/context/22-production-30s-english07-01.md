@@ -9,16 +9,16 @@ Suggested subject not produced before. Nearest episodes: meme-01 (Hindi shopping
 no photo/handwriting), round02-01 (reading *printed* text from a photo), feedback05-01 (notice → quoted checklist, mark unclear).
 New here: *handwriting*, a crossed-out item, an ambiguous digit, grouping by supermarket aisle, and checking the photo.
 
-## Final transcript (Kokoro af_bella 0.7 + am_puck 0.3, en-us, speed 0.98) — 71 words, 22.0 s speech
+## Final transcript (Kokoro af_bella 0.7 + am_puck 0.3, en-us, speed 0.98) — 72 words, 22.0 s speech
 | id | t (s) | line |
 |---|---|---|
 | s1 | 0.20 | A messy handwritten shopping list? Snap a photo of it. |
 | s2 | 3.70 | Ask an AI app: turn this into a checklist grouped by supermarket aisle. |
 | s3 | 8.65 | Add: skip crossed-out items, and flag anything you can't read. |
-| s4 | 12.60 | Here, bread was crossed out, so it is gone. And is that six eggs or eight? It gets flagged. |
+| s4 | 12.60 | Here, bread was crossed out, so it is gone. And is that a six or an eight? It gets flagged. |
 | s5 | 18.20 | Before you shop, check the list against your photo, and fix anything it got wrong. |
 | s6 | 26.60 | Download the Ideaverse app. |
-Wording change after ASR: "And the eggs say six, or eight? Flagged." (heard with a doubled "Flagged. Blagged.") → current s4.
+Wording changes after ASR: "And the eggs say six, or eight? Flagged." (doubled "Flagged. Blagged.") → "And is that six eggs or eight?" (heard "six eggs are ate" in the mix) → final "And is that a six or an eight?" (exact in base.en and small.en).
 
 ## Sources (accessed 2026-11-06)
 | claim | source |
@@ -41,5 +41,8 @@ The note, items and app screens are fictional examples labelled EXAMPLE.
 7. 21.0–25.4 phone insert: zoom into the photo — "it's a 6" — the row becomes "eggs ×6 ✓".
 8. 25.4–30 CTA: DOCKET waves; caption "Download the / [icon] Ideaverse app".
 
-## QA / status
-- (filled after render — see the round folder's QA.md)
+## QA / status — DELIVERED 2026-11-06
+- Output: production/30s/2026-11-06-english-07/ideaverse-30s-english07-01.mp4 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.8 LUFS.
+- English ASR: all lines match; every word inside its caption; captions in spec; top band text-free.
+- Publishing caption = final transcript (publishing-caption.txt), Ideaverse identity only.

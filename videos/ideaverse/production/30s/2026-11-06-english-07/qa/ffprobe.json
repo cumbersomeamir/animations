@@ -1,0 +1,40 @@
+{
+    "programs": [
+
+    ],
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "duration": "30.000000",
+            "bit_rate": "2606168",
+            "nb_frames": "900"
+        },
+        {
+            "index": 1,
+            "codec_name": "aac",
+            "profile": "LC",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "duration": "30.000000",
+            "bit_rate": "194224",
+            "nb_frames": "1408"
+        }
+    ],
+    "format": {
+        "duration": "30.000000",
+        "size": "10536151",
+        "bit_rate": "2809640"
+    }
+}

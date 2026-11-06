@@ -1,0 +1,8 @@
+s1 placed  0.20s  heard [ 0.05.. 3.17]  MATCH: A messy handwritten shopping list. Snap a photo of it.
+s2 placed  3.70s  heard [ 3.55.. 8.01]  MATCH: Ask an AI app. Turn this into a checklist grouped by supermarket aisle.
+s3 placed  8.65s  heard [ 8.50..11.88]  MATCH: Add, skip crossed -out items and flag anything you can't read.
+s4 placed 12.60s  heard [12.45..17.13]  MATCH: Here, bread was crossed out so it is gone. And is that a 6 or an 8? It gets flagged.
+s5 placed 18.20s  heard [18.05..22.33]  MATCH: Before you shop, check the list against your photo and fix anything it got wrong.
+s6 placed 26.60s  heard [26.45..27.75]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

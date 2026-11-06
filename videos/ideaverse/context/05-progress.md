@@ -93,3 +93,10 @@
   (Suggested care-label topic already existed as hindi04-01 → fresh topic chosen.)
 - DELIVERED: production/30s/2026-11-06-english-06/ideaverse-30s-english06-01.mp4 (QA.md + qa/); record context/21.
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s english-07 (2026-11-06) — supersedes english-06 status above
+- English lesson (accepted DOCKET style): photo of a handwritten shopping list → checklist by aisle (crossed-out item
+  skipped, ambiguous digit flagged), checked against the photo.
+- DELIVERED: production/30s/2026-11-06-english-07/ideaverse-30s-english07-01.mp4 (QA.md + qa/); record context/22.
+- Next: await user review. No further episode, no automation.

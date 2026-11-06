@@ -70,7 +70,7 @@ clunk(H.snap, 0.5); noise(SFX, H.snap + 0.03, 0.06, (lt) => 0.5 * Math.exp(-lt *
 for (let L = 0; L < 7; L += 1) { if (L === 2 || L === 4) continue; const a = H.type[L], b2 = H.type[L + 1]; if (b2 === undefined) break; for (let k = 0; k < 8; k++) tick2(a + k * ((b2 - a) / 8), 2000 + (k % 3) * 220, 0.3); }
 [0, 0.15, 0.3].forEach((d, i) => marimba(H.chips[0] + d, [69, 72, 76][i], 0.4, -0.2 + i * 0.2)); marimba(H.chips[1], 64, 0.42); marimba(H.chips[2], 62, 0.45);
 // D · bread ring + "skipped", eggs ring + "6 or 8?", flip to the checklist, aisle groups
-bell(SFX, H.ringBread, 74, 0.35, -0.2, 0.9); tick2(H.chipBread, 1800, 0.5); marimba(H.ringEggs, 62, 0.5); marimba(H.chipEggs, 61, 0.45);
+bell(SFX, H.ringBread, 74, 0.25, -0.2, 0.9); tick2(H.chipBread, 1800, 0.4); marimba(17.62, 62, 0.45); marimba(17.8, 61, 0.4);   // eggs "6 or 8?" sting moved into the pause after "flagged" so it doesn't mask "or eight"
 paper(H.flip1, 0.2, 0.6); glideTone(SFX, H.flip1, 0.3, 400, 800, 0.2); H.groups.forEach((t, i) => tick2(t, 2400 + i * 200, 0.55)); tick2(H.skip, 1700, 0.4);
 // E · flip back + badges, zoom in, "it's a 6", fixed
 paper(H.flip2, 0.2, 0.6); for (let i = 0; i < 8; i++) tick2(H.match + i * 0.17, 2800, 0.45);
