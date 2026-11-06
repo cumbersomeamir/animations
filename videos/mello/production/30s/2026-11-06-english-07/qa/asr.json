@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "New rule: this podcast only plays on walks. It's called temptation bundling: pair something you want with something you keep putting off. In a gym study, people who saved page-turner audiobooks for workouts went more often, though the boost faded. Pick one treat: a show, a playlist, a podcast. Then set the rule: it only plays when your walking shoes are on. Want the next episode? Lace up. Take a mindful break with Mello.",
+  "transcript": "New Rule, this podcast only plays on walks. It's called temptation bundling. Pair something you want with something you keep putting off. In a gym study, people who saved Page-Turner audiobooks for workouts went more often, though the boost faded. Pick One Treat, a show, a playlist, a podcast. Then set the rule, it only plays when your walking shoes are on. Want the next episode? Lace Up. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 3.106,
+      "text": "New Rule, this podcast only plays on walks.",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 3.65,
+      "end": 8.366,
+      "text": "It's called temptation bundling. Pair something you want with something you keep putting off.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 8.9,
+      "end": 15.479,
+      "text": "In a gym study, people who saved Page-Turner audiobooks for workouts went more often, though the boost faded.",
+      "cer": 0.0
+    },
+    {
+      "id": "pick",
+      "start": 16.0,
+      "end": 18.762,
+      "text": "Pick One Treat, a show, a playlist, a podcast.",
+      "cer": 0.0
+    },
+    {
+      "id": "rule",
+      "start": 19.3,
+      "end": 22.776,
+      "text": "Then set the rule, it only plays when your walking shoes are on.",
+      "cer": 0.0
+    },
+    {
+      "id": "close",
+      "start": 23.35,
+      "end": 25.302,
+      "text": "Want the next episode? Lace Up.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
