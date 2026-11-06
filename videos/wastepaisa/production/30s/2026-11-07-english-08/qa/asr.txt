@@ -1,0 +1,19 @@
+English intelligibility and timing evidence: wastepaisa-30s-english08-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s], on the final file:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.22 | offset plan 3.86 heard 3.85 | heard: why can a few bits of broken mug cost you a whole glass load
+   L2 word acc 1.00 | onset plan 4.16 heard 4.16 | offset plan 8.63 heard 8.63 | heard: keep clear green and brown bottles apart clear allows little other color
+   L3 word acc 1.00 | onset plan 8.93 heard 8.90 | offset plan 13.72 heard 13.70 | heard: pull out caps and ceramics ceramic melts hotter than glass and leaves flaws
+   L4 word acc 0.70 | onset plan 14.00 heard 14.03 | offset plan 17.66 heard 17.66 | heard: a processing plant crushes screens and sorted into call it
+   L5 word acc 1.00 | onset plan 18.00 heard 18.03 | offset plan 20.59 heard 20.58 | heard: say ten tons sell for ninety thousand rupees
+   L6 word acc 1.00 | onset plan 20.74 heard 20.71 | offset plan 25.45 heard 25.45 | heard: collection labor transport and processing leave about ten thousand rupees
+   L7 word acc 0.89 | onset plan 26.20 heard 26.20 | offset plan 28.68 heard 28.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.941 (normalisation: lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa')
+   Misses: the trade term 'cullet' (heard 'call it'; the G2P gives /kˈʌlɪt/, matching the dictionary pronunciation 'KUH-lit'), 'sorts it'
+   run together ('sorted'), and the out-of-vocabulary brand ('waste python', phonemes /wˈeɪst pˈaɪsɑː/).
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en (run on the first export; the re-render changed video only,
+   the audio stream is the same audio/mix.wav):
+   Why can a few bits of broken mug cost you a whole glass load? Keep clear, green, and brown bottles apart. Clear allows little other color. Pull out caps and ceramics. Ceramic melts hotter than glass and leaves flaws. A processing plant crushes, screens, and sorts it into color. Say 10 tons sell for 90,000 rupees. Collection, labor, transport, and processing leave about 10,000 rupees. Join Waste Pisa and put your scrap to use.
+   Matches the script except 'cullet' -> 'color' (rare word) and the brand ('Waste Pisa'). 'cullet' is captioned and shown as a CULLET chip.

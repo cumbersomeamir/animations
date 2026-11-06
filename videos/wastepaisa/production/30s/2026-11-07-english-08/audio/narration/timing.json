@@ -1,0 +1,71 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.327,
+  "words": 71,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Why can a few bits of broken mug cost you a whole glass load?",
+      "start": 0.25,
+      "phonemes": "wˌaɪ kæn ɐ fjˈuː bˈɪts ʌv bɹˈoʊkən mˈʌɡ kˈɔst juː ɐ hˈoʊl ɡlˈæs lˈoʊd?",
+      "duration": 3.607,
+      "end": 3.857
+    },
+    {
+      "id": "L2",
+      "text": "Keep clear, green and brown bottles apart; clear allows little other colour.",
+      "tts": "Keep clear, green, and brown bottles apart; clear allows little other colour.",
+      "start": 4.16,
+      "phonemes": "kˈiːp klˈɪɹ, ɡɹˈiːn, ænd bɹˈaʊn bˈɑːɾəlz ɐpˈɑːɹt; klˈɪɹ ɐlˈaʊz lˈɪɾəl ˈʌðɚ kˈʌlɚ.",
+      "duration": 4.466,
+      "end": 8.626
+    },
+    {
+      "id": "L3",
+      "text": "Pull out caps and ceramics: ceramic melts hotter than glass and leaves flaws.",
+      "tts": "Pull out caps and ceramics: ceramic melts hotter than glass, and leaves flaws.",
+      "start": 8.93,
+      "phonemes": "pˈʊl ˈaʊt kˈæps ænd sᵻɹˈæmɪks: sᵻɹˈæmɪk mˈɛlts hˈɑːɾɚ ðɐn ɡlˈæs, ænd lˈiːvz flˈɔːz.",
+      "duration": 4.795,
+      "end": 13.725
+    },
+    {
+      "id": "L4",
+      "text": "A processing plant crushes, screens and sorts it into cullet.",
+      "tts": "A processing plant crushes, screens, and sorts it into cullet.",
+      "start": 14.0,
+      "phonemes": "ɐ pɹˈɑːsɛsɪŋ plˈænt kɹˈʌʃᵻz, skɹˈiːnz, ænd sˈɔːɹts ɪɾ ˌɪntʊ kˈʌlɪt.",
+      "duration": 3.665,
+      "end": 17.665
+    },
+    {
+      "id": "L5",
+      "text": "Say ten tonnes sell for ₹90,000;",
+      "tts": "Say ten tonnes sell for ninety thousand rupees;",
+      "start": 18.0,
+      "phonemes": "sˈeɪ tˈɛn tˈʌnz sˈɛl fɔːɹ nˈaɪnti θˈaʊzənd ɹˈuːpiːz;",
+      "duration": 2.594,
+      "end": 20.594
+    },
+    {
+      "id": "L6",
+      "text": "collection, labour, transport and processing leave about ₹10,000.",
+      "tts": "collection, labour, transport, and processing leave about ten thousand rupees.",
+      "start": 20.74,
+      "phonemes": "kəlˈɛkʃən, lˈeɪbɚ, tɹˈænspɔːɹt, ænd pɹˈɑːsɛsɪŋ lˈiːv ɐbˌaʊt tˈɛn θˈaʊzənd ɹˈuːpiːz.",
+      "duration": 4.715,
+      "end": 25.455
+    },
+    {
+      "id": "L7",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.685
+    }
+  ]
+}

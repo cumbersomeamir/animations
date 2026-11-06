@@ -85,7 +85,10 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   If it is covered (cardboard grading already exists in feedback-05), choose a fresh subject in the same genre and record why in the
   episode notes.
   - Covered so far: paper cup, aluminium can, cable, brass, aluminium aggregation, pallets, cardboard grading, coconut-shell charcoal,
-    PET bottles.
+    PET bottles, glass cullet (english-08).
+  - **Technical terms ASR can't confirm** (e.g. "cullet"): verify the G2P phonemes against a dictionary pronunciation. Keep the term
+    when it is the correct trade word, and caption it plus show it as a chip.
+  - **Chips that appear in sequence at the same spot** must hand off in one slot, never sit side by side (english-08 overlap fix).
   - Latest reference implementation: `production/30s/2026-11-06-english-07/src/scene.html` (PET bottles, PET-share grade gauge,
     loose-vs-baled trucks).
 

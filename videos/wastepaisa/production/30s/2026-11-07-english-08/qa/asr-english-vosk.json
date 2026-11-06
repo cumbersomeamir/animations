@@ -1,0 +1,95 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Why can a few bits of broken mug cost you a whole glass load?",
+   "heard": "why can a few bits of broken mug cost you a whole glass load",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 3.857,
+   "heard_off": 3.85,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Keep clear, green, and brown bottles apart; clear allows little other colour.",
+   "heard": "keep clear green and brown bottles apart clear allows little other color",
+   "word_acc": 1.0,
+   "plan_on": 4.16,
+   "heard_on": 4.16,
+   "plan_off": 8.626,
+   "heard_off": 8.63,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Pull out caps and ceramics: ceramic melts hotter than glass, and leaves flaws.",
+   "heard": "pull out caps and ceramics ceramic melts hotter than glass and leaves flaws",
+   "word_acc": 1.0,
+   "plan_on": 8.93,
+   "heard_on": 8.9,
+   "plan_off": 13.725,
+   "heard_off": 13.7,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "A processing plant crushes, screens, and sorts it into cullet.",
+   "heard": "a processing plant crushes screens and sorted into call it",
+   "word_acc": 0.7,
+   "plan_on": 14.0,
+   "heard_on": 14.03,
+   "plan_off": 17.665,
+   "heard_off": 17.66,
+   "missed": [
+    [
+     "sorts"
+    ],
+    [
+     "into",
+     "cullet"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Say ten tonnes sell for ninety thousand rupees;",
+   "heard": "say ten tons sell for ninety thousand rupees",
+   "word_acc": 1.0,
+   "plan_on": 18.0,
+   "heard_on": 18.03,
+   "plan_off": 20.594,
+   "heard_off": 20.58,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "collection, labour, transport, and processing leave about ten thousand rupees.",
+   "heard": "collection labor transport and processing leave about ten thousand rupees",
+   "word_acc": 1.0,
+   "plan_on": 20.74,
+   "heard_on": 20.71,
+   "plan_off": 25.455,
+   "heard_off": 25.45,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.2,
+   "heard_on": 26.2,
+   "plan_off": 28.685,
+   "heard_off": 28.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

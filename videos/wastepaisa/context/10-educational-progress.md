@@ -235,6 +235,31 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Illustrative batch: 400 kg → ₹8,800 → ≈₹1,500 left.
   - Episode record: `context/20-english-07-01.md`. No automation.
 
+## english-08 (2026-11-07-english-08) episode 01: COMPLETE (English)
+- **Topic:** waste glass bottles into clean, colour-graded cullet for industrial buyers (fresh; history searched for glass, cullet and
+  ceramics with no hits). Covers collection, colour separation, caps and ceramics out, why ceramics are rejected (they melt hotter and
+  leave flaws), a professional processing plant, and an illustrative bulk batch.
+- **Style and voice:** accepted Scrap Shop X-ray (english-07 renderer), unchanged. Meshline voice, fresh English takes; English
+  captions at 70 px line spacing.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-07-english-08/wastepaisa-30s-english08-01.mp4`,
+  SHA-256 `102a00f512d9614e3059f043b187198d3c2352cb27ebdaad37b22d3428d035a5`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.5 dBTP.
+- **Checks:**
+  - Caption ink y 366–494, x 95–985.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.941: the rare term "cullet" and the brand are missed; everything else is word-perfect; Whisper agrees. ASR-only: no
+    listening in the cloud.
+- **Research:**
+  - Ceramics: GMIC (Feb 2026) — ceramics melt hotter and cause inclusions; up to 5 % production loss.
+  - Colour: PAS 101 (clear Grade A 4 % other colours); ASTM E708.
+  - Prices: IndiaMART cullet ₹6–15/kg (Bengaluru clear ≈₹9/kg, May 2026).
+  - Illustrative batch: 10 t → ₹90,000 → ≈₹10,000 left.
+  - Episode record: `context/21-english-08-01.md`. No automation.
+- **One defect fixed after the first export:** two chips overlapped at ≈10.3 s; they now hand off in one slot (video re-render only).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
