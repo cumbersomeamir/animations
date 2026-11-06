@@ -299,3 +299,48 @@ cd videos/mello/production/30s/2026-11-06-english-06/project && npm ci && ASR_PY
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# English-07, 2026-11-06: episode english07-01 "temptation bundling" (English)
+Episode record (topic swap, script, sources, storyboard, adjustments): `17-episode-temptation-bundling.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The suggested implementation intentions already exist in this app (hindi04-01). Per the batch rule, a fresh subject in the same genre was chosen: temptation bundling. It is new for this app.
+- Sources read:
+  - Milkman, Minson & Volpp (2014, *Management Science* 60(2)), PubMed abstract: gym-only audiobooks initially gave 51% more gym visits, encouragement only gave 29%, and the effects declined over time.
+  - Kirgios et al. (2020, OBHDP 161), abstract: N = 6,792; audiobooks plus encouragement raised the weekly-workout likelihood by 10–14%; the effect of encouragement alone was modest.
+- Voice: Mello's accepted English Kokoro blend, synthesized fresh. No Hindi audio was reused.
+
+## Creative decisions (this round)
+- English narration and captions only, 74 words.
+- Hook: "New rule: this podcast only plays on walks." One study sentence with "though the boost faded". Action: pick one treat, then the rule "it only plays when your walking shoes are on", and "Lace up."
+- Scene, in the accepted room and style:
+  - a phone with a padlock on Play;
+  - the bundle card turning into a schematic chart;
+  - the pick screen;
+  - the performer standing, stepping into the walking shoes, the status flipping to "now playing" with headphones on, lacing up, and walking in the wide CTA shot.
+- Music: `BED_GAIN` 0.48, 13.3 dB under the voice (re-measured for this narration).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-06-english-07/mello-30s-english07-01.mp4`
+  - sha256 `e697e31e41f97619bc8a730397148be5ee08c9f43767c98c98e8586e50703dee`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-06-english-07/qa/QA.md`).
+  - Full decode clean; −16.1 LUFS; −1.7 dBTP.
+  - The detected cuts are exactly the planned cuts; the largest non-cut change is 3.2.
+  - 0 safe-zone issues in 300 samples.
+  - English ASR on the final file: CER 0.000, WER 0.000.
+- Two full renders. Render 2 fixed a 2-frame phone jump before the S3→S4 cut. Render 1 outputs were not committed.
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-06-english-07/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the audio by ear. It was checked by ASR round-trip and loudness measurements.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
