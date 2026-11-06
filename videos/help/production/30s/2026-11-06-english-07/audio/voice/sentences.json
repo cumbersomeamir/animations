@@ -1,0 +1,71 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Cash now, for winter blankets? Pause before you give.",
+   "dur": 3.091,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Fictional example: a donor checks three things first.",
+   "dur": 3.009,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Name: search it with words like scam or complaint.",
+   "dur": 2.813,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Registration: look up its number on the official register.",
+   "dur": 3.663,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Payment: never cash, gift cards or wire transfers.",
+   "dur": 3.152,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Pay by card or cheque, and keep a record.",
+   "dur": 2.186,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Don't let anyone rush you. You can give later, directly.",
+   "dur": 2.965,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Three checks, then give.",
+   "dur": 1.175,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

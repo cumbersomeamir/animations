@@ -170,3 +170,11 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - Check-tick SFX only in the pauses between sentences; ticks that land inside a spoken line are visual only (feedback-05 masking lesson).
 - A "wrong vs right" comparison needs ≥ 0.8 s on screen (the size overshoot first showed for 0.3 s).
 - Post copy never names other apps/platforms (keep e.g. GIVIT in repo notes only); it repeats the final transcript verbatim.
+
+## Update 2026-11-06 — english-07 (corrections learned this episode)
+- Topic gate: "ask the organisation what is needed" is already the takeaway of 30s-01, hindi-03 and english-06 — treat further "ask first /
+  random bundle" proposals as covered and pick a fresh subject in the genre (english-07 → checking that an unknown donation group is genuine).
+- Every scene must carry its anchor props from its first slide-in frame (QA again found an empty hand-off when the ID card/register popped in late);
+  later cues may add emphasis (pulse/glow), not first appearance.
+- Plaque text must fit its plaque (size the width to the longest label: "FICTIONAL EXAMPLE" at 44 px needs ≥ 560 px).
+- A collector/fundraiser is shown only as a neutral hand with a tin — never a caricatured face; no recipients are shown in safety lessons.

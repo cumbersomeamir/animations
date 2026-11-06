@@ -1,0 +1,157 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 32,
+ "extent": {
+  "x0": 112,
+  "x1": 968,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Cash now, for / winter blankets?",
+   "fs": 56,
+   "x0": 309,
+   "x1": 771,
+   "y0": 377,
+   "y1": 484,
+   "firstFrame": 31
+  },
+  {
+   "text": "Pause before you give.",
+   "fs": 66,
+   "x0": 168,
+   "x1": 912,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 83
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 242,
+   "x1": 838,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 126
+  },
+  {
+   "text": "a donor checks / three things first.",
+   "fs": 56,
+   "x0": 298,
+   "x1": 782,
+   "y0": 379,
+   "y1": 496,
+   "firstFrame": 178
+  },
+  {
+   "text": "Name: search it",
+   "fs": 66,
+   "x0": 285,
+   "x1": 795,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 226
+  },
+  {
+   "text": "with words like / scam or complaint.",
+   "fs": 56,
+   "x0": 275,
+   "x1": 805,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 275
+  },
+  {
+   "text": "Registration: look / up its number",
+   "fs": 56,
+   "x0": 296,
+   "x1": 784,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 342
+  },
+  {
+   "text": "on the official register.",
+   "fs": 66,
+   "x0": 172,
+   "x1": 908,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 404
+  },
+  {
+   "text": "Payment: never cash,",
+   "fs": 66,
+   "x0": 185,
+   "x1": 895,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 452
+  },
+  {
+   "text": "gift cards or / wire transfers.",
+   "fs": 56,
+   "x0": 336,
+   "x1": 744,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 505
+  },
+  {
+   "text": "Pay by card or cheque,",
+   "fs": 66,
+   "x0": 169,
+   "x1": 911,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 555
+  },
+  {
+   "text": "and keep a record.",
+   "fs": 66,
+   "x0": 240,
+   "x1": 840,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 594
+  },
+  {
+   "text": "Don't let anyone rush you.",
+   "fs": 66,
+   "x0": 112,
+   "x1": 968,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 638
+  },
+  {
+   "text": "You can give / later, directly.",
+   "fs": 56,
+   "x0": 347,
+   "x1": 733,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 689
+  },
+  {
+   "text": "Three checks, then give.",
+   "fs": 66,
+   "x0": 136,
+   "x1": 944,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 743
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 834
+  }
+ ]
+}

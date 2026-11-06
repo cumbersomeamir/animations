@@ -1,0 +1,132 @@
+{
+ "cards": [
+  {
+   "a": 0.12,
+   "lines": [
+    "Cash now, for winter blankets?"
+   ],
+   "timing": "asr",
+   "b": 1.94
+  },
+  {
+   "a": 2.01,
+   "lines": [
+    "Pause before you give."
+   ],
+   "timing": "asr",
+   "b": 3.53
+  },
+  {
+   "a": 3.6,
+   "lines": [
+    "Fictional example:"
+   ],
+   "timing": "asr",
+   "b": 4.82
+  },
+  {
+   "a": 4.89,
+   "lines": [
+    "a donor checks three things first."
+   ],
+   "timing": "asr",
+   "b": 6.98
+  },
+  {
+   "a": 7.05,
+   "lines": [
+    "Name: search it"
+   ],
+   "timing": "asr",
+   "b": 8.0
+  },
+  {
+   "a": 8.07,
+   "lines": [
+    "with words like scam or complaint."
+   ],
+   "timing": "asr",
+   "b": 10.25
+  },
+  {
+   "a": 10.32,
+   "lines": [
+    "Registration: look up its number"
+   ],
+   "timing": "asr",
+   "b": 12.5
+  },
+  {
+   "a": 12.57,
+   "lines": [
+    "on the official register."
+   ],
+   "timing": "asr",
+   "b": 14.33
+  },
+  {
+   "a": 14.4,
+   "lines": [
+    "Payment: never cash,"
+   ],
+   "timing": "asr",
+   "b": 15.71
+  },
+  {
+   "a": 15.78,
+   "lines": [
+    "gift cards or wire transfers."
+   ],
+   "timing": "asr",
+   "b": 17.91
+  },
+  {
+   "a": 17.98,
+   "lines": [
+    "Pay by card or cheque,"
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 19.052
+  },
+  {
+   "a": 19.122,
+   "lines": [
+    "and keep a record."
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 20.48
+  },
+  {
+   "a": 20.55,
+   "lines": [
+    "Don't let anyone rush you."
+   ],
+   "timing": "asr",
+   "b": 22.01
+  },
+  {
+   "a": 22.08,
+   "lines": [
+    "You can give later, directly."
+   ],
+   "timing": "asr",
+   "b": 23.87
+  },
+  {
+   "a": 23.94,
+   "lines": [
+    "Three checks, then give."
+   ],
+   "timing": "asr",
+   "b": 25.625
+  },
+  {
+   "a": 25.89,
+   "lines": [
+    "Download Help to donate essentials."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}

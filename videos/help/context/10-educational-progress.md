@@ -114,3 +114,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-06 — english-06, 30 s #01 (English; donate a school bag a child can actually use) — DONE
 - Output `videos/help/production/30s/2026-11-06-english-06/help-30s-english06-01.mp4`, SHA-256 `2b6f787b2f737dafd340c33d3ea02ada40fdb64b0d620ea25c7c8f88d397d02d`.
 - Record: `19-production-30s-english06-01.md`; corrections appended to `11-production-format.md`. No automation created.
+
+## 2026-11-06 — english-07, 30 s #01 (English; three checks before giving to an unknown group — subject changed from a covered topic) — DONE
+- Output `videos/help/production/30s/2026-11-06-english-07/help-30s-english07-01.mp4`, SHA-256 `e6038f558780092ef1c0161e5e7a28eb09a205e49c90078642e6d71481110134`.
+- Record: `20-production-30s-english07-01.md`; corrections appended to `11-production-format.md`. No automation created.
