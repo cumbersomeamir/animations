@@ -1,0 +1,35 @@
+{
+ "_doc": "CalMeter English 30 s english-08 (2026-11-07): raisins vs grapes, the same 30 g. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt, faster-whisper base.en). T3b added after the still review to fill a 2.6 s silent gap with the takeaway.",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.30}, {"id": "T1", "at": 5.75}, {"id": "T2", "at": 10.30}, {"id": "T3", "at": 17.55}, {"id": "T3b", "at": 23.45}, {"id": "T4", "at": 26.20}],
+ "captions": [
+  {"in": 6, "out": 96, "lines": [["30 g of grapes,", 9], ["30 g of raisins:", 47]]},
+  {"in": 98, "out": 166, "lines": [["same weight,", 101], ["very different calories", 121]]},
+  {"in": 169, "out": 297, "lines": [["Grapes ≈ 80% water;", 173], ["drying removes most of it", 236]]},
+  {"in": 305, "out": 519, "lines": [["30 g grapes ≈ 21 kcal,", 314], ["raisins ≈ 90, 4× the sugar", 416]]},
+  {"in": 521, "out": 697, "lines": [["Drying adds no sugar:", 527], ["from ≈ 130 g of grapes", 588]]},
+  {"in": 700, "out": 772, "lines": [["Same sugar,", 704], ["just far less water", 731]]},
+  {"in": 780, "out": 899, "lines": [["Track your food and nutrition", 786], ["with CalMeter", 824]]}
+ ],
+ "events": {
+  "balance": 0, "grapesIn": 2, "raisinsIn": 8, "qTags": 20, "tags": 47, "level": 101, "kcalReveal": 125, "title": 12,
+  "burnish": 160, "section": 162, "washSection": 170, "water80": 189, "dry": 236, "dryEnd": 285,
+  "bars": 305, "grapeBar": 314, "grapeKcal": 361, "raisinBar": 416, "raisinKcal": 432, "times4": 462, "barsOut": 512,
+  "bunch": 518, "arrow": 588, "raisinHeap": 612, "g130": 629, "sugarBlocks": 642, "payoff": 704, "blocksOut": 762,
+  "cta": 770, "ctaWord": 786
+ },
+ "sfx": [
+  {"ev": "balance", "type": "pencil", "dur": 0.8, "gain": -27},
+  {"ev": "raisinsIn", "type": "patter", "dur": 0.6, "gain": -24},
+  {"ev": "kcalReveal", "type": "tick", "gain": -24},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "dry", "type": "juice", "gain": -23},
+  {"ev": "grapeKcal", "type": "tick", "gain": -25},
+  {"ev": "raisinKcal", "type": "tick", "gain": -25},
+  {"ev": "barsOut", "type": "page", "gain": -21},
+  {"ev": "arrow", "type": "juice", "gain": -24},
+  {"ev": "raisinHeap", "type": "patter", "dur": 0.6, "gain": -25},
+  {"ev": "blocksOut", "type": "page", "gain": -22},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

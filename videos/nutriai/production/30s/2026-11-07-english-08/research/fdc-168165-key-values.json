@@ -1,0 +1,77 @@
+{
+ "fdcId": 168165,
+ "ndbNumber": 9298,
+ "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Energy",
+   "amount": 1250.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 4.5,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Protein",
+   "amount": 3.3,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Fructose",
+   "amount": 34.7,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 744,
+   "unit": "mg",
+   "dataPoints": 12
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 79.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sucrose",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Glucose",
+   "amount": 30.5,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Water",
+   "amount": 15.5,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 65.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 299,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ]
+}

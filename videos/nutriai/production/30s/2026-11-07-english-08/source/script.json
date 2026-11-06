@@ -1,0 +1,8 @@
+[
+ {"id": "T0", "text": "Thirty grams of grapes, thirty grams of raisins: same weight, very different calories."},
+ {"id": "T1", "text": "Grapes are about eighty percent water; drying removes most of it."},
+ {"id": "T2", "text": "So thirty grams of grapes is about twenty-one calories, raisins about ninety, with four times the sugar."},
+ {"id": "T3", "text": "Drying adds no sugar: those raisins started as about a hundred thirty grams of grapes."},
+ {"id": "T3b", "text": "Same sugar, just far less water."},
+ {"id": "T4", "text": "Track your food and nutrition with CalMeter.", "phonemes": "tɹˈæk jʊɹ fˈuːd ænd njuːtɹˈɪʃən wɪð kˈælmˌiːtɚ.", "_note": "default phonemes 'kˈæl mˈiːɾɚ' are heard as 'cow meter' by ASR; brand stress CAL-meter with a clear t (verified 2026-11-02)"}
+]

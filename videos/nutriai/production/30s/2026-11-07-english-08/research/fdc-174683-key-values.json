@@ -1,0 +1,77 @@
+{
+ "fdcId": 174683,
+ "ndbNumber": 9132,
+ "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Water",
+   "amount": 80.5,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 15.5,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 191,
+   "unit": "mg",
+   "dataPoints": 36
+  },
+  {
+   "name": "Sucrose",
+   "amount": 0.15,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Glucose",
+   "amount": 7.2,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Protein",
+   "amount": 0.72,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Fructose",
+   "amount": 8.13,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.9,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 18.1,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 69.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 288,
+   "unit": "kJ",
+   "dataPoints": 0
+  }
+ ]
+}

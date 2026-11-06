@@ -88,3 +88,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-06-english-07/source/`, output `../nutriai-30s-english07-01.mp4`; ASR on the final mix needs `vad_filter=True` (scratchpad asr_vad.py) because of a faster-whisper alignment edge case.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520; plate text inside x 950; ASR verbatim. See `production/30s/2026-11-06-english-07/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 15. Batch 2026-11-07-english-08, raisins vs grapes, the same 30 g (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin in sync after english-07, no active job; grapes/raisins not covered before.
+- Facts: USDA FDC 174683 grapes (69 kcal, 80.5 g water, 15.5 g sugars / 100 g) and FDC 168165 raisins, seedless (299 kcal, 15.5 g water, 65.2 g sugars / 100 g); per 30 g 20.7 vs 89.7 kcal, sugar 4.65 vs 19.56 g (4.2×); 30 g raisins ← ≈ 130 g grapes (dry-matter balance), same ≈ 20 g sugar and ≈ 90 kcal; SR28 "10 grapes = 49 g", "1 oz (60 raisins)". Details: `context/21-production-30s-english08-raisins.md`.
+- Decisions: english-07 renderer + Meshline voice + accepted mix reused; a takeaway line (T3b "Same sugar, just far less water.") added after the still review to fill a 2.6 s silent gap; sugar granules keep their count as the grape dries (concentrated, not created).
+- Commands: as in section 9, from `production/30s/2026-11-07-english-08/source/`, output `../nutriai-30s-english08-01.mp4`; ASR on the final mix with `vad_filter=True`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; 0 freeze events after two motion fixes; captions 0 outside x 90–990 / y 340–520; plate text inside x 90–950; ASR verbatim except the brand on base.en ("cow meter"; small.en "Cal Meter"; same CTA take as english-06/07). See `production/30s/2026-11-07-english-08/QA.md`.
+- Unresolved: none blocking. Next step: none requested.
