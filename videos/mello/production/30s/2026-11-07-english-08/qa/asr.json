@@ -1,8 +1,8 @@
 {
   "model": "large-v3-turbo",
   "language": "en",
-  "cer": 0.006,
-  "wer": 0.026,
+  "cer": 0.0,
+  "wer": 0.0,
   "reference": "Quick: how well do you understand a zipper? Most of us feel sure, until we explain it step by step. In studies, people rated their understanding lower after trying to explain. It's called the illusion of explanatory depth. So before you say 'I get it', explain it out loud. Where you get stuck is what to learn next. With a zipper, it's often the hidden part: the slider's Y-shaped channel. Take a mindful break with Mello.",
   "transcript": "Quick, how well do you understand a zipper? Most of us feel sure until we explain it step by step. In studies, people rated their understanding lower after trying to explain. It's called the illusion of explanatory depth. So before you say I get it, explain it out loud. Where you get stuck is what to learn next. With a zipper, it's often the hidden part, the slider's Y-shaped channel. Take a mindful break with Mello.",
   "segments": [
@@ -39,7 +39,7 @@
       "start": 14.6,
       "end": 17.288,
       "text": "So before you say I get it, explain it out loud.",
-      "cer": 0.053
+      "cer": 0.0
     },
     {
       "id": "stuck",

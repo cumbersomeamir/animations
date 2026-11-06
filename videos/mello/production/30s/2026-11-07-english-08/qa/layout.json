@@ -7679,7 +7679,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     572,
+     655,
+     959,
+     802
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7727,7 +7732,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     556,
+     650,
+     976,
+     808
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7775,7 +7785,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     540,
+     644,
+     992,
+     815
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7823,7 +7838,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     538,
+     643,
+     994,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7871,7 +7891,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     538,
+     643,
+     995,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7919,7 +7944,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     537,
+     643,
+     996,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -7967,7 +7997,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     537,
+     643,
+     997,
+     817
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8015,7 +8050,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     536,
+     642,
+     998,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8063,7 +8103,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     536,
+     641,
+     999,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8111,7 +8156,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     535,
+     640,
+     1001,
+     816
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8159,7 +8209,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     535,
+     639,
+     1002,
+     815
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8207,7 +8262,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     534,
+     637,
+     1003,
+     815
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8255,7 +8315,12 @@
    "card": null,
    "crucial": {
     "card": null,
-    "bubble": null,
+    "bubble": [
+     534,
+     636,
+     1005,
+     814
+    ],
     "stuckLab": null,
     "yLab": null
    },
@@ -8304,10 +8369,10 @@
    "crucial": {
     "card": null,
     "bubble": [
-     558,
-     643,
-     981,
-     804
+     533,
+     634,
+     1006,
+     813
     ],
     "stuckLab": null,
     "yLab": null
@@ -8357,10 +8422,10 @@
    "crucial": {
     "card": null,
     "bubble": [
-     537,
-     634,
-     1003,
-     810
+     533,
+     632,
+     1007,
+     812
     ],
     "stuckLab": null,
     "yLab": null

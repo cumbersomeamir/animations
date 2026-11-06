@@ -344,3 +344,46 @@ cd videos/mello/production/30s/2026-11-06-english-07/project && npm ci && ASR_PY
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+---
+
+# English-08, 2026-11-07: episode english08-01 "the illusion of explanatory depth" (English)
+Episode record (script, sources, storyboard, adjustments): `18-episode-illusion-of-explanatory-depth.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The illusion of explanatory depth is new for this app (history checked), so the suggested topic was kept.
+- Sources read:
+  - Rozenblit & Keil (2002, *Cognitive Science* 26(5)), PubMed abstract.
+  - Meyers et al. (2023, *Judgment and Decision Making* 18:e24), open-access full text: the standard zipper procedure (rate, try to explain, re-rate) gives lower ratings after explaining; explanation exposes knowledge gaps; people neglect hidden parts.
+  - Sundback, US 1,219,881 (1917): the slider's Y-shaped channel.
+- Voice: Mello's accepted English Kokoro blend, synthesized fresh. No Hindi audio was reused.
+
+## Creative decisions (this round)
+- English narration and captions only, 76 words.
+- Hook: "Quick: how well do you understand a zipper?" over a big brass zipper zipping itself shut from frame 0.
+- Before/after confidence on a 1–7 card with the stalled step-by-step attempt. The trick: "explain it out loud". The payoff: "where you get stuck is what to learn next", shown as the hidden Y-shaped channel in an X-ray slider.
+- Music: `BED_GAIN` 0.45, 13.1 dB under the voice. Each tooth click is generated from the scene's slider curve.
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-07-english-08/mello-30s-english08-01.mp4`
+  - sha256 `e9beb123d8173e4a450e572d2fad000b30e50a2a069aed7a32ec687e4ada30a3`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-07-english-08/qa/QA.md`).
+  - Full decode clean; −16.0 LUFS; −1.6 dBTP.
+  - The detected cuts are exactly the planned cuts; every second moves.
+  - 0 safe-zone issues in 300 samples, including the new zipper-behind-caption check.
+  - English ASR on the final file: CER 0.000, WER 0.000.
+- Two full renders. Render 2 made the S3 speech bubble readable; render 1 outputs were not committed.
+- A container restart came after render 2 had been muxed; only the audit/ASR/QA steps were re-run.
+- Command (needs a faster-whisper venv for `ASR_PY`):
+
+```bash
+cd videos/mello/production/30s/2026-11-07-english-08/project && npm ci && ASR_PY=<faster-whisper venv>/bin/python ./build.sh
+```
+
+## Unresolved
+- Nobody has listened to the audio by ear. It was checked by ASR round-trip and loudness measurements.
+- The local Desktop/video-review folder is not reachable from this cloud session. The MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- This round's single episode is done. Wait for sheet feedback before any new episode.
