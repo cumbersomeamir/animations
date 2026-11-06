@@ -328,7 +328,7 @@ const PHONE_DESK = V(0.13, DESK_Y + 0.0047, 0.2);
 let phoneKey = '';
 function drawPhone(t) {
   const g = phoneC.getContext('2d'), W2 = 600, H2 = 1216;
-  const pickMode = t >= S.s3 - 0.05 && t < S.s4 - 0.05;
+  const pickMode = t >= S.s3 && t < S.s4;
   const locked = t < T.unlock + 0.1;
   const lk = sm(remap(t, T.lock - 0.15, T.lock + 0.1)), jig = Math.sin(Math.PI * 4 * remap(t, T.tapTry, T.tapTry + 0.5)) * (t > T.tapTry && t < T.tapTry + 0.5 ? 1 : 0);
   const op = sm(remap(t, T.unlock, T.unlock + 0.3));
@@ -512,7 +512,8 @@ function placeFigure(t, P) {
   let hL = restL.clone();
   // S3: the phone in the right hand, thumb taps the tiles
   const PH = V(0.12, 0.9, 0.36);
-  const hold = sm(remap(t, S.s3 - 0.4, S.s3 - 0.05)) * (1 - sm(remap(t, S.s4 - 0.1, S.s4)));
+  const hold = sm(remap(t, S.s3 - 0.4, S.s3 - 0.05)) * (t < S.s4 ? 1 : 0);   // the hand stays on the phone until the cut
+  const inHand = t >= S.s3 && t < S.s4;   // the phone changes place only on cuts
   const thumb = [T.tile1, T.tile2, T.tile3, T.choose].reduce((s, a) => s + Math.max(0, Math.sin(Math.PI * remap(t, a - 0.1, a + 0.1))), 0);
   hR = vl(hR, PH.clone().add(V(0.0, -0.035 - 0.006 * thumb, 0.03)), hold);
   // standing: arms hang and swing; lacing: hands to the shoes
@@ -529,7 +530,7 @@ function placeFigure(t, P) {
   setLimb(limbs.uaL, shL, aL.mid); setLimb(limbs.faL, aL.mid, aL.end); setLimb(limbs.uaR, shR, aR.mid); setLimb(limbs.faR, aR.mid, aR.end);
   J.haL.lookAt(aL.mid); J.haR.lookAt(aR.mid);
   // ---- phone: on the desk, in the hand during S3
-  if (hold > 0.5) { phone.position.copy(aR.end).add(V(0.0, 0.085, -0.065)); phone.rotation.set(0.75, -0.25, 0, 'YXZ'); phoneBlob.material.opacity = 0; }
+  if (inHand) { phone.position.copy(aR.end).add(V(0.0, 0.085, -0.065)); phone.rotation.set(0.75, -0.25, 0, 'YXZ'); phoneBlob.material.opacity = 0; }
   else { phone.position.copy(PHONE_DESK); phone.rotation.set(0, 0.25, 0); phoneBlob.position.set(PHONE_DESK.x, DESK_Y + 0.002, PHONE_DESK.z); phoneBlob.material.opacity = 0.4; }
   // ---- shoes: on the floor, then on the feet
   shoes.forEach((s, i) => {

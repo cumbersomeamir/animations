@@ -47,7 +47,8 @@ The source is a copy of `../2026-11-06-english-06/project/` (English page, capti
    - Final: a wider view (d 5.65→5.45, aim 0.9 m) keeps the head below the band and the shoes above the bottom zone. The status card sits beside the head and fades before the lace-up bend.
 6. **S5:** the walker's head overlapped the lock-up; the aim was raised to 1.25–1.32 m.
 7. **Mix:** 0.34 (the english06 value) gave 16.3 dB voice-over-music for this denser narration, so it was set to 0.48 (13.3 dB).
-8. Final audit before the full render: 300 samples, 0 issues.
+8. Audit before the first full render: 300 samples, 0 issues.
+9. Render 1 review: cut detection showed a jump at frame 573, two frames before the S3→S4 cut. There the phone snapped back to the desk and its screen reset to the player. The phone-in-hand state is now tied exactly to the S3 shot (changes only on cuts), and the video was rendered a second and final time.
 
 ## Commands
 One-time setup: shared Mello venv and the hash-checked Kokoro model.
