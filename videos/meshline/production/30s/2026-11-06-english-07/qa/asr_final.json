@@ -1,0 +1,45 @@
+{
+ "reference": "It downloads in seconds; why does sending a video take forever? Many connections have a wide lane down and a narrow lane up. The US broadband benchmark: one hundred megabits down, twenty up. So a hundred-megabyte video downloads in about eight seconds, but uploads in about forty. A text is tiny, so it still slips through. When sending crawls, check your upload speed, not just download. Download Meshline for nearby messaging, even offline.",
+ "asr": "It downloads in seconds, why does sending a video take forever? Many connections have a wide lane down and a narrow lane up. The US broadband benchmark, 100 megabits down, 20 up. So 100 megabyte video downloads in about 8 seconds, but uploads in about 40. A text is tiny, so it still slips through. When sending crawls, check your upload speed, not just download. Download Meshline for nearby messaging, even offline.",
+ "wer": 0.095,
+ "segments": [
+  [
+   0.0,
+   3.64,
+   "It downloads in seconds, why does sending a video take forever?"
+  ],
+  [
+   4.48,
+   7.76,
+   "Many connections have a wide lane down and a narrow lane up."
+  ],
+  [
+   8.42,
+   12.56,
+   "The US broadband benchmark, 100 megabits down, 20 up."
+  ],
+  [
+   13.24,
+   18.36,
+   "So 100 megabyte video downloads in about 8 seconds, but uploads in about 40."
+  ],
+  [
+   19.16,
+   21.22,
+   "A text is tiny, so it still slips through."
+  ],
+  [
+   21.96,
+   25.08,
+   "When sending crawls, check your upload speed, not just download."
+  ],
+  [
+   25.08,
+   29.08,
+   "Download Meshline for nearby messaging, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "digits\u2192words (100\u2192one hundred, 20\u2192twenty, 8\u2192eight, 40\u2192forty), \"a hundred\"\u2192\"one hundred\", \"U.S.\"\u2192\"us\", hyphens\u2192spaces",
+ "remaining_diffs": []
+}

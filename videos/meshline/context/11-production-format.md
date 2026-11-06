@@ -153,3 +153,19 @@ This is reference for later rounds. **No automation has been created.** Each rou
   - English caption anchors of up to 3 letters match exactly ("the" ≠ "their").
   - Keep sheet labels inside x ≤ 960 in push-ins; re-frame rather than let labels clip.
   - Instrument layout swaps run sequentially (out, then in), never crossfaded on top of each other.
+| 09 | 2026-11-06-english-07 | Upload vs download: why sending a video takes longer, **English** | `production/30s/2026-11-06-english-07/meshline-30s-english07-01.mp4` |
+
+## User feedback 2026-11-06, batch english-07 (specific adjustments only)
+- **Taken topics (do not repeat):**
+  - walls/obstacles/interference with Bluetooth, and proximity vs internet (04, 07);
+  - concert capacity (01);
+  - walkie-talkie (02);
+  - store-and-forward (03);
+  - airplane mode (05);
+  - GPS/offline maps (06);
+  - sent vs delivered (08);
+  - upload vs download (09).
+- **Still unused planned titles:** one bar can still send a text; what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower; latency vs bandwidth; signal in a lift (overlaps walls, so avoid); Bluetooth vs Wi-Fi links (overlaps 04, so avoid).
+- **Concrete payoff:** prefer one sourced real figure plus simple arithmetic said with "about" (e.g. 100 MB at 100 vs 20 Mbps → about 8 s vs 40 s). Show it on a labelled sped-up clock rather than pretending real time.
+- **Sources blocked to automated fetch** (fcc.gov pages, speedtest.net): use the official PDF on docs.fcc.gov and extract it locally; prefer open measurement platforms (M-Lab) for speed-test facts.
+- **ASR scoring with numbers:** base.en writes numbers as digits. Report the raw WER and a number-normalised WER (stored in `qa/asr_final.json`).

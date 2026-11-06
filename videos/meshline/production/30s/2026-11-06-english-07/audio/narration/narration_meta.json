@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "It downloads in seconds; why does sending a video take forever?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.778,
+      "end": 4.028
+    },
+    {
+      "id": "l2",
+      "start": 4.45,
+      "text": "Many connections have a wide lane down and a narrow lane up.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.503,
+      "end": 7.953
+    },
+    {
+      "id": "l3",
+      "start": 8.38,
+      "text": "The US broadband benchmark: one hundred megabits down, twenty up.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 4.376,
+      "end": 12.756
+    },
+    {
+      "id": "l4",
+      "start": 13.18,
+      "text": "So a hundred-megabyte video downloads in about eight seconds, but uploads in about forty.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 5.554,
+      "end": 18.734
+    },
+    {
+      "id": "l5",
+      "start": 19.16,
+      "text": "A text is tiny, so it still slips through.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 2.327,
+      "end": 21.487
+    },
+    {
+      "id": "l6",
+      "start": 21.91,
+      "text": "When sending crawls, check your upload speed, not just download.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.628,
+      "end": 25.538
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.409,
+      "end": 29.549
+    }
+  ]
+}

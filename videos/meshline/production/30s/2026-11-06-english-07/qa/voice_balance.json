@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 4.028,
+  "text": "It downloads in seconds; why does sending a video take forever?",
+  "speech_band_db": 21.6
+ },
+ {
+  "id": "l2",
+  "start": 4.45,
+  "end": 7.953,
+  "text": "Many connections have a wide lane down and a narrow lane up.",
+  "speech_band_db": 22.8
+ },
+ {
+  "id": "l3",
+  "start": 8.38,
+  "end": 12.756,
+  "text": "The US broadband benchmark: one hundred megabits down, twenty up.",
+  "speech_band_db": 22.2
+ },
+ {
+  "id": "l4",
+  "start": 13.18,
+  "end": 18.734,
+  "text": "So a hundred-megabyte video downloads in about eight seconds, but uploads in about forty.",
+  "speech_band_db": 19.9
+ },
+ {
+  "id": "l5",
+  "start": 19.16,
+  "end": 21.487,
+  "text": "A text is tiny, so it still slips through.",
+  "speech_band_db": 17.1
+ },
+ {
+  "id": "l6",
+  "start": 21.91,
+  "end": 25.538,
+  "text": "When sending crawls, check your upload speed, not just download.",
+  "speech_band_db": 19.7
+ },
+ {
+  "id": "l7",
+  "start": 26.14,
+  "end": 29.549,
+  "text": "Download Meshline for nearby messaging, even offline.",
+  "speech_band_db": 21.0
+ }
+]

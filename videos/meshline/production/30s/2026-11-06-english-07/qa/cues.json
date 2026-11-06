@@ -1,0 +1,151 @@
+{
+ "duration": 30,
+ "events": [
+  {
+   "t": 0.2,
+   "type": "zip",
+   "gain": 0.3
+  },
+  {
+   "t": 1.2,
+   "type": "chime",
+   "gain": 0.3
+  },
+  {
+   "t": 1.3,
+   "type": "retry",
+   "gain": 0.24
+  },
+  {
+   "t": 1.7,
+   "type": "tick",
+   "gain": 0.13
+  },
+  {
+   "t": 2.2,
+   "type": "tick",
+   "gain": 0.13
+  },
+  {
+   "t": 2.7,
+   "type": "tick",
+   "gain": 0.13
+  },
+  {
+   "t": 3.2,
+   "type": "tick",
+   "gain": 0.13
+  },
+  {
+   "t": 3.7,
+   "type": "tick",
+   "gain": 0.13
+  },
+  {
+   "t": 5.5,
+   "type": "sweep",
+   "gain": 0.22,
+   "dur": 0.7
+  },
+  {
+   "t": 6.9,
+   "type": "turn",
+   "gain": 0.3
+  },
+  {
+   "t": 8.4,
+   "type": "callout",
+   "gain": 0.26
+  },
+  {
+   "t": 10.5,
+   "type": "stamp",
+   "gain": 0.28
+  },
+  {
+   "t": 12.1,
+   "type": "stamp",
+   "gain": 0.28
+  },
+  {
+   "t": 14.2,
+   "type": "zip",
+   "gain": 0.26
+  },
+  {
+   "t": 14.634,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 15.063,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 15.08,
+   "type": "chime",
+   "gain": 0.3
+  },
+  {
+   "t": 15.492,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 15.921,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 16.35,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 16.779,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 17.208,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 17.637,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 18.066,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 18.495,
+   "type": "turn",
+   "gain": 0.18
+  },
+  {
+   "t": 19.6,
+   "type": "zip",
+   "gain": 0.24
+  },
+  {
+   "t": 20.5,
+   "type": "stop",
+   "gain": 0.28
+  },
+  {
+   "t": 22,
+   "type": "callout",
+   "gain": 0.26
+  },
+  {
+   "t": 26.14,
+   "type": "chime",
+   "gain": 0.3
+  }
+ ]
+}

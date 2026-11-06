@@ -1,0 +1,381 @@
+{
+ "l1": [
+  {
+   "w": "It",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "downloads",
+   "start": 0.1,
+   "end": 0.42
+  },
+  {
+   "w": "in",
+   "start": 0.42,
+   "end": 0.8
+  },
+  {
+   "w": "seconds.",
+   "start": 0.8,
+   "end": 1.14
+  },
+  {
+   "w": "Why",
+   "start": 1.88,
+   "end": 1.94
+  },
+  {
+   "w": "does",
+   "start": 1.94,
+   "end": 2.14
+  },
+  {
+   "w": "sending",
+   "start": 2.14,
+   "end": 2.38
+  },
+  {
+   "w": "a",
+   "start": 2.38,
+   "end": 2.62
+  },
+  {
+   "w": "video",
+   "start": 2.62,
+   "end": 2.78
+  },
+  {
+   "w": "take",
+   "start": 2.78,
+   "end": 3.12
+  },
+  {
+   "w": "forever?",
+   "start": 3.12,
+   "end": 3.38
+  }
+ ],
+ "l2": [
+  {
+   "w": "Many",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "connections",
+   "start": 0.16,
+   "end": 0.42
+  },
+  {
+   "w": "have",
+   "start": 0.42,
+   "end": 0.98
+  },
+  {
+   "w": "a",
+   "start": 0.98,
+   "end": 1.06
+  },
+  {
+   "w": "wide",
+   "start": 1.06,
+   "end": 1.32
+  },
+  {
+   "w": "lane",
+   "start": 1.32,
+   "end": 1.62
+  },
+  {
+   "w": "down",
+   "start": 1.62,
+   "end": 1.9
+  },
+  {
+   "w": "and",
+   "start": 1.9,
+   "end": 2.46
+  },
+  {
+   "w": "a",
+   "start": 2.46,
+   "end": 2.54
+  },
+  {
+   "w": "narrow",
+   "start": 2.54,
+   "end": 2.7
+  },
+  {
+   "w": "lane",
+   "start": 2.7,
+   "end": 3.12
+  },
+  {
+   "w": "up.",
+   "start": 3.12,
+   "end": 3.3
+  }
+ ],
+ "l3": [
+  {
+   "w": "The",
+   "start": 0.0,
+   "end": 0.06
+  },
+  {
+   "w": "U",
+   "start": 0.06,
+   "end": 0.24
+  },
+  {
+   "w": ".S.",
+   "start": 0.24,
+   "end": 0.46
+  },
+  {
+   "w": "broadband",
+   "start": 0.86,
+   "end": 0.86
+  },
+  {
+   "w": "benchmark,",
+   "start": 0.86,
+   "end": 1.56
+  },
+  {
+   "w": "100",
+   "start": 2.1,
+   "end": 2.58
+  },
+  {
+   "w": "megabits",
+   "start": 2.58,
+   "end": 3.14
+  },
+  {
+   "w": "down,",
+   "start": 3.14,
+   "end": 3.4
+  },
+  {
+   "w": "20",
+   "start": 3.74,
+   "end": 3.88
+  },
+  {
+   "w": "up.",
+   "start": 3.88,
+   "end": 4.18
+  }
+ ],
+ "l4": [
+  {
+   "w": "So",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "w": "100",
+   "start": 0.14,
+   "end": 0.46
+  },
+  {
+   "w": "megabyte",
+   "start": 0.46,
+   "end": 1.12
+  },
+  {
+   "w": "video",
+   "start": 1.12,
+   "end": 1.56
+  },
+  {
+   "w": "downloads",
+   "start": 1.56,
+   "end": 1.94
+  },
+  {
+   "w": "in",
+   "start": 1.94,
+   "end": 2.36
+  },
+  {
+   "w": "about",
+   "start": 2.36,
+   "end": 2.48
+  },
+  {
+   "w": "8",
+   "start": 2.48,
+   "end": 2.78
+  },
+  {
+   "w": "seconds,",
+   "start": 2.78,
+   "end": 3.2
+  },
+  {
+   "w": "but",
+   "start": 3.74,
+   "end": 3.88
+  },
+  {
+   "w": "uploads",
+   "start": 3.88,
+   "end": 4.5
+  },
+  {
+   "w": "in",
+   "start": 4.5,
+   "end": 4.62
+  },
+  {
+   "w": "about",
+   "start": 4.62,
+   "end": 4.74
+  },
+  {
+   "w": "40.",
+   "start": 4.74,
+   "end": 5.2
+  }
+ ],
+ "l5": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.06
+  },
+  {
+   "w": "text",
+   "start": 0.06,
+   "end": 0.24
+  },
+  {
+   "w": "is",
+   "start": 0.24,
+   "end": 0.44
+  },
+  {
+   "w": "tiny,",
+   "start": 0.44,
+   "end": 0.8
+  },
+  {
+   "w": "so",
+   "start": 1.14,
+   "end": 1.22
+  },
+  {
+   "w": "it",
+   "start": 1.22,
+   "end": 1.32
+  },
+  {
+   "w": "still",
+   "start": 1.32,
+   "end": 1.5
+  },
+  {
+   "w": "slips",
+   "start": 1.5,
+   "end": 1.7
+  },
+  {
+   "w": "through.",
+   "start": 1.7,
+   "end": 2.04
+  }
+ ],
+ "l6": [
+  {
+   "w": "When",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "sending",
+   "start": 0.08,
+   "end": 0.38
+  },
+  {
+   "w": "crawls,",
+   "start": 0.38,
+   "end": 1.0
+  },
+  {
+   "w": "check",
+   "start": 1.2,
+   "end": 1.4
+  },
+  {
+   "w": "your",
+   "start": 1.4,
+   "end": 1.58
+  },
+  {
+   "w": "upload",
+   "start": 1.58,
+   "end": 1.8
+  },
+  {
+   "w": "speed,",
+   "start": 1.8,
+   "end": 2.28
+  },
+  {
+   "w": "not",
+   "start": 2.34,
+   "end": 2.7
+  },
+  {
+   "w": "just",
+   "start": 2.7,
+   "end": 2.88
+  },
+  {
+   "w": "download.",
+   "start": 2.88,
+   "end": 3.16
+  }
+ ],
+ "l7": [
+  {
+   "w": "Download",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "Meshline",
+   "start": 0.32,
+   "end": 0.86
+  },
+  {
+   "w": "for",
+   "start": 0.86,
+   "end": 1.08
+  },
+  {
+   "w": "nearby",
+   "start": 1.08,
+   "end": 1.26
+  },
+  {
+   "w": "messaging,",
+   "start": 1.26,
+   "end": 1.8
+  },
+  {
+   "w": "even",
+   "start": 2.32,
+   "end": 2.62
+  },
+  {
+   "w": "offline.",
+   "start": 2.62,
+   "end": 2.9
+  }
+ ]
+}

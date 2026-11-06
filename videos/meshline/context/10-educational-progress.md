@@ -72,3 +72,6 @@
 
 ## Production 2026-11-06-english-06 (English, sent vs delivered + direct nearby link): complete
 - See `19-production-30s-english06-01.md`; output sha256 `336c3ff6780c930cdb563063aa51c920a632b8d5fddcf725dfee5f643f8ed5b5`.
+
+## Production 2026-11-06-english-07 (English, upload vs download): complete
+- See `20-production-30s-english07-01.md`; output sha256 `6994a0491da964080be466ea06d796521e0d1234ef3afd021025f9cb77ee7e65`.
