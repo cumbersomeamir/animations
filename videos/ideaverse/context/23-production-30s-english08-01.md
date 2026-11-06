@@ -53,5 +53,9 @@ Visual "mistakes" (frizz curls and sunglasses blurred) and the edit-screen UI ar
    down ("turn it down"); Portrait effect OFF → all sharp ("or off"); back ON at low blur, "✓ adjusted after the shot".
 7. 25.4–30 CTA: DOCKET waves; caption "Download the / [icon] Ideaverse app".
 
-## QA / status — IN PROGRESS (see production/30s/2026-11-07-english-08/QA.md when delivered)
-- Pre-render ASR on the mix (base.en): all six lines MATCH; no word outside its caption.
+## QA / status — DELIVERED 2026-11-06 (batch 2026-11-07-english-08)
+- Output: production/30s/2026-11-07-english-08/ideaverse-30s-english08-01.mp4 · sha256 b35eee98…e842 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.5 dBTP.
+- English ASR on the final MP4: all six lines MATCH, no word outside its caption; captions SPEC PASS; top 300 px text-free.
+- Review fixes: hook phone reframed; close-up chips moved in-frame; "?" moved out of the top band; 1-frame caption gap closed.
+- Limitation: ASR-only listening check (no human listen possible here).

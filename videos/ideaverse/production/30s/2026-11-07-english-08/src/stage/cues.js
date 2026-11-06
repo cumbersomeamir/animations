@@ -24,7 +24,7 @@ const CUES = {
     { t0: 3.38, t1: 4.42, lines: [[['So how?', 2]]] },
     { t0: 4.45, t1: 7.32, lines: [[['Portrait mode', 1], [' uses ', 0], ['AI', 1]], [['to find the person,', 0]]] },
     { t0: 7.32, t1: 10.6, lines: [[['then estimates ', 0], ['how far away', 1]], [['everything else is.', 0]]] },
-    { t0: 10.6, t1: 14.22, lines: [[['Then software ', 0], ['adds the blur:', 1]], [['farther means blurrier.', 0]]] },
+    { t0: 10.6, t1: 14.25, lines: [[['Then software ', 0], ['adds the blur:', 1]], [['farther means blurrier.', 0]]] },
     { t0: 14.25, t1: 16.72, lines: [[['Frizzy hair', 2], [' or ', 0], ['sunglasses', 2]], [['can fool it,', 0]]] },
     { t0: 16.72, t1: 18.75, lines: [[['so ', 0], ['check the edges.', 1]]] },
     { t0: 18.8, t1: 20.87, lines: [[['And since the blur', 0]], [['is ', 0], ['added later,', 1]]] },

@@ -385,7 +385,7 @@ function stageAt(t) {
   const lr = t >= Hh.lens && t < Hh.cut2 ? E.outBack(inv(Hh.lens, Hh.lens + 0.3, t)) * (1 - inv(3.1, 3.4, t)) : 0;
   lensRing.material.opacity = clamp(lr); lensRing.scale.setScalar(Math.max(0.01, lr)); lensLabel.scale.setScalar(Math.max(0.01, lr)); lensLabel.visible = lr > 0.02;
   const qm = t >= Hh.how && t < Hh.cut2 ? E.outBack(inv(Hh.how, Hh.how + 0.3, t)) : 0;
-  { const hp = V(); docket.handWorld(1, hp); qMark.position.copy(local(p, V(-0.1, 1.62, 0.05))); qMark.quaternion.copy(cam.quaternion); qMark.scale.setScalar(Math.max(0.01, qm)); qMark.visible = qm > 0.02; }
+  { qMark.position.copy(local(p, V(-0.36, 1.3, 0.22)));  /* beside the head, below the caption band */ qMark.quaternion.copy(cam.quaternion); qMark.scale.setScalar(Math.max(0.01, qm)); qMark.visible = qm > 0.02; }
   const ex = exprAt(t);
   docket.face(ex, { talk: talkAt(t), blink: BLINKS.reduce((a, b) => a + (t >= b && t < b + 0.14 ? Math.sin(((t - b) / 0.14) * Math.PI) : 0), 0), t, look: ex === 'focus' ? Math.sin(t * 4) : 0 });
   updateCard(t); drawScreen(t);

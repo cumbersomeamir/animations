@@ -109,7 +109,9 @@
 ## Decisions
 - Renderer/style/voice/caption treatment from english-07 unchanged; new scene `src/stage/portrait.js`.
 - Line 1 reworded after ASR ("lens" heard as "lends").
-## Status — RENDERING
-- Voice synthesized + ASR word timings (narration/words.json); pre-render mix ASR: all lines MATCH, no words outside captions.
-- Full frame render running: `cd src && node render.mjs --frames --workers=3`; then encode, caplog, score, master, mux, qa.sh.
-- Next: review transition frames, fix defects, deliver.
+## Status — DELIVERED
+- production/30s/2026-11-07-english-08/ideaverse-30s-english08-01.mp4 (sha256 b35eee98…e842): 900 frames (~29 min, 3
+  SwiftShader workers) + re-renders 108–132, 420–428; encoded, mastered (−15.0 LUFS / −1.5 dBTP), muxed; QA.md + qa/.
+- Commands: 2026-11-07-english-08/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
+- Checks: full decode OK; ASR all lines MATCH, no words outside captions; caption SPEC PASS; earlier 13 MP4s unchanged.
+- Unresolved: ASR-only listening limitation. Next: await user review. No further episode, no automation.
