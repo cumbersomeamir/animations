@@ -1,0 +1,104 @@
+{
+  "file": "plan-my-wedding-30s-english07-01.mp4",
+  "size_bytes": 4709911,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 192904
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "end": 4.23,
+      "say": "Outdoor wedding? Build the ceremony timeline backwards from sunset."
+    },
+    {
+      "id": "n2",
+      "start": 5.01,
+      "end": 7.51,
+      "say": "In this example, sunset is six P M."
+    },
+    {
+      "id": "n3",
+      "start": 8.29,
+      "end": 11.39,
+      "say": "Portraits need daylight, so book them from five thirty."
+    },
+    {
+      "id": "n4",
+      "start": 12.17,
+      "end": 16.64,
+      "say": "Before that, add a twenty-minute buffer, so a late start doesn't steal your light."
+    },
+    {
+      "id": "n5",
+      "start": 17.41,
+      "end": 20.81,
+      "say": "The ceremony runs thirty minutes, so it starts at four forty."
+    },
+    {
+      "id": "n6",
+      "start": 21.59,
+      "end": 26.26,
+      "say": "Check the real sunset time for your date and place, and the venue's timing rules."
+    },
+    {
+      "id": "n7",
+      "start": 27.04,
+      "end": 29.72,
+      "say": "Download Plan My Wedding to keep your checklist."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    27.04,
+    29.72
+  ],
+  "caption_windows": [
+    [
+      0.18,
+      4.23
+    ],
+    [
+      5.01,
+      7.51
+    ],
+    [
+      8.29,
+      11.39
+    ],
+    [
+      12.17,
+      16.64
+    ],
+    [
+      17.41,
+      20.81
+    ],
+    [
+      21.59,
+      26.26
+    ]
+  ],
+  "words": 74
+}

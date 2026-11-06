@@ -1,0 +1,12 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "Outdoor wedding, build the ceremony timeline backwards from sunset.",
+    "build/vo/n2.wav": "In this example, sunset is 6:00 PM.",
+    "build/vo/n3.wav": "Portraits need daylight, so book them from 5:30.",
+    "build/vo/n4.wav": "Before that, add a 20-minute buffer so a late start doesn't steal your light.",
+    "build/vo/n5.wav": "The ceremony runs 30 minutes, so it starts at 440.",
+    "build/vo/n6.wav": "Check the real sunset time for your date and place and the venue's timing rules.",
+    "build/vo/n7.wav": "Download Plan, My Wedding to keep your checklist."
+  }
+}

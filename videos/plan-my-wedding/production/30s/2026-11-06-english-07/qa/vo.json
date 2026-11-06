@@ -1,0 +1,99 @@
+{
+  "voice": {
+    "mix": [
+      [
+        "af_bella",
+        0.7
+      ],
+      [
+        "am_puck",
+        0.3
+      ]
+    ],
+    "lang": "en-us",
+    "speed": 0.98
+  },
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX (fp32)",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.2,
+      "say": "Outdoor wedding? Build the ceremony timeline backwards from sunset.",
+      "duration": 4.051,
+      "end": 4.251,
+      "onsets": [
+        0,
+        1.22
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 4.6,
+      "say": "In this example, sunset is six P M.",
+      "duration": 2.5,
+      "end": 7.1,
+      "onsets": [
+        0,
+        1.06
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 7.4,
+      "say": "Portraits need daylight, so book them from five thirty.",
+      "duration": 3.103,
+      "end": 10.503,
+      "onsets": [
+        0,
+        1.39
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 10.9,
+      "say": "Before that, add a twenty-minute buffer, so a late start doesn't steal your light.",
+      "duration": 4.468,
+      "end": 15.368,
+      "onsets": [
+        0,
+        0.7,
+        2.35
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 16,
+      "say": "The ceremony runs thirty minutes, so it starts at four forty.",
+      "duration": 3.399,
+      "end": 19.399,
+      "onsets": [
+        0,
+        1.01,
+        1.88
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 20.2,
+      "say": "Check the real sunset time for your date and place, and the venue's timing rules.",
+      "duration": 4.67,
+      "end": 24.87,
+      "onsets": [
+        0,
+        2.98
+      ]
+    },
+    {
+      "id": "n7",
+      "start": 26.2,
+      "say": "Download Plan My Wedding to keep your checklist.",
+      "duration": 2.68,
+      "end": 28.88,
+      "onsets": [
+        0,
+        0.55,
+        1.07
+      ]
+    }
+  ]
+}

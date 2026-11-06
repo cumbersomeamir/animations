@@ -1,0 +1,6 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/final_audio.wav": "Outdoor wedding. Build the ceremony timeline backwards from sunset. In this example, sunset is 6 p.m. Portraits need daylight, so book them from 5.30. Before that, add a 20-minute buffer, so a late start doesn't steal your light. The ceremony runs 30 minutes, so it starts at 4.40. Check the real sunset time for your date and place, and the venue's timing rules. Download Plan, My Wedding to keep your checklist."
+  }
+}
