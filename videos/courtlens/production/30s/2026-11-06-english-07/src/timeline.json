@@ -1,0 +1,182 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.22
+  },
+  {
+   "id": "l2",
+   "start": 4.71
+  },
+  {
+   "id": "l3",
+   "start": 6.03
+  },
+  {
+   "id": "l4",
+   "start": 11.96
+  },
+  {
+   "id": "l5",
+   "start": 16.46
+  },
+  {
+   "id": "l6",
+   "start": 21.26
+  },
+  {
+   "id": "l7",
+   "start": 26.26
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.3,
+   "text": "The ATM gave no cash,",
+   "hl": [
+    "no",
+    "cash,"
+   ]
+  },
+  {
+   "start": 2.3,
+   "end": 4.58,
+   "text": "but ₹2,000 left your account.",
+   "hl": [
+    "₹2,000"
+   ]
+  },
+  {
+   "start": 4.58,
+   "end": 5.9,
+   "text": "Can the bank keep it?",
+   "hl": [
+    "keep"
+   ]
+  },
+  {
+   "start": 5.9,
+   "end": 9.1,
+   "text": "RBI rules say a failed ATM withdrawal",
+   "hl": [
+    "failed"
+   ]
+  },
+  {
+   "start": 9.1,
+   "end": 11.82,
+   "text": "must be credited back within 5 days.",
+   "hl": [
+    "5",
+    "days."
+   ]
+  },
+  {
+   "start": 11.82,
+   "end": 14.95,
+   "text": "After that, your bank owes you ₹100 a day,",
+   "hl": [
+    "₹100",
+    "a",
+    "day,"
+   ]
+  },
+  {
+   "start": 14.95,
+   "end": 16.32,
+   "text": "without you asking.",
+   "hl": [
+    "asking."
+   ]
+  },
+  {
+   "start": 16.32,
+   "end": 18.9,
+   "text": "Three days late? That’s ₹300,",
+   "hl": [
+    "₹300,"
+   ]
+  },
+  {
+   "start": 18.9,
+   "end": 21.12,
+   "text": "even at another bank’s ATM.",
+   "hl": [
+    "another",
+    "bank’s"
+   ]
+  },
+  {
+   "start": 21.12,
+   "end": 23.3,
+   "text": "Not back? Complain to your bank,",
+   "hl": [
+    "Complain"
+   ]
+  },
+  {
+   "start": 23.3,
+   "end": 26.12,
+   "text": "and after 30 days, to the RBI Ombudsman.",
+   "hl": [
+    "RBI",
+    "Ombudsman."
+   ]
+  },
+  {
+   "start": 26.12,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "cardIn": -0.18,
+  "itemDrop": 0.3,
+  "itemLand": 0.62,
+  "sneakStart": 1.0,
+  "trayOpen": 1.4,
+  "sneak": 1.75,
+  "quoteMark": 2.54,
+  "toS2": 4.36,
+  "bannerDrop": 4.73,
+  "bannerLand": 5.1,
+  "refuseLine": 5.4,
+  "ruleIn": 6.0,
+  "ruleBump": 6.45,
+  "rule2": 7.65,
+  "rule3": 8.6,
+  "tagFlip": 9.97,
+  "chip1": 10.59,
+  "chip2": 13.66,
+  "chip3": 15.2,
+  "bannerTug": 15.72,
+  "toS4": 16.19,
+  "sticker": 16.55,
+  "sticker2": 16.85,
+  "sticker3": 17.15,
+  "rightResult": 18.02,
+  "rightItem": 19.06,
+  "bubble": 19.62,
+  "toS5": 21.0,
+  "bill": 21.55,
+  "photo": 22.2,
+  "tick1": 22.82,
+  "flap": 23.25,
+  "seal": 23.7,
+  "tick2": 23.96,
+  "write": 24.7,
+  "tick3": 25.32,
+  "toS6": 25.98,
+  "ctaIn": 26.3,
+  "ctaText": 26.45
+ }
+}

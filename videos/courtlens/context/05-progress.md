@@ -4,6 +4,58 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-06 (english-07): English episode 07, ATM debited but no cash (RBI failed-transaction rules)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-06
+  delivered at ffe0f5c), assigned account info@tensorblue.com. No active jobs. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-06-english-07/courtlens-30s-english07-01.mp4`.
+- Topic: the suggested "above printed MRP" subject duplicates Episode 02, so a fresh subject was chosen (episode
+  record: `context/episodes/2026-11-06-english07-failed-atm.md`).
+
+### Verified facts
+- RBI DPSS.CO.PD No.629/02.01.014/2019-20 (20 Sep 2019):
+  - for an ATM debit with no cash, the reversal is due within T+5 days
+  - after that, ₹100 per day of delay goes to the account holder
+  - compensation is credited suo moto, without a claim
+- The circular is not in RBI's withdrawn-circular lists (checked 2026-11-06, including the 28 Nov 2025 consolidation).
+  The RBI ATM FAQ (updated 4 Jul 2025, Q20–Q21) restates the rule and puts the payment on the card-issuing bank.
+- RB-IOS 2026 is in force from 1 Jul 2026 and replaces RB-IOS 2021:
+  - approach the bank first
+  - go to the Ombudsman after no reply in 30 days, or after an unsatisfactory reply, within 90 days
+  - complaints at cms.rbi.org.in
+- Details: `production/30s/2026-11-06-english-07/notes/LEGAL-SOURCES.md`.
+
+### Creative decisions
+- Performer: an ATM whose screen fails while the cash tray slides out empty (hook at 1.75 s).
+- Other changes:
+  - alert card: balance ₹12,450 → ₹10,450
+  - "Under review" helpline sign; tag flips from "₹2,000 lost?" to "Back in 5 days"
+  - RBI rule card with three chips
+  - on-time vs 3-days-late split: one "+₹100" chip per late day, "+ ₹300 extra"
+  - ATM slip + SMS evidence; envelope written "cms.rbi.org.in"
+- No status stamp (no litigation).
+- Plain "RBI" in the TTS input is voiced letter by letter and recognised correctly.
+- l3 and l6 were shortened so the CTA has the final 3.74 s.
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-06-english-07/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st7 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build7 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english07-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english07-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The ATM slip's "Withdrawal" label crowded the amount, so it now reads "Amount".
+- The bubble repeated the ATM's "OTHER BANK" header, so it now reads "Not my bank".
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-06 (english-06): English episode 06, restaurant service charge vs tip vs GST
 
 ### Status
