@@ -100,3 +100,16 @@
   skipped, ambiguous digit flagged), checked against the photo.
 - DELIVERED: production/30s/2026-11-06-english-07/ideaverse-30s-english07-01.mp4 (QA.md + qa/); record context/22.
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s english-08 (2026-11-07) — supersedes english-07 status above
+## Facts
+- Brief: one new English lesson, batch 2026-11-07-english-08. Suggested subject (remove a stranger + generated fill) already
+  covered by hindi03-01 → fresh subject: how portrait mode fakes background blur (record context/23, sources there).
+## Decisions
+- Renderer/style/voice/caption treatment from english-07 unchanged; new scene `src/stage/portrait.js`.
+- Line 1 reworded after ASR ("lens" heard as "lends").
+## Status — RENDERING
+- Voice synthesized + ASR word timings (narration/words.json); pre-render mix ASR: all lines MATCH, no words outside captions.
+- Full frame render running: `cd src && node render.mjs --frames --workers=3`; then encode, caplog, score, master, mux, qa.sh.
+- Next: review transition frames, fix defects, deliver.

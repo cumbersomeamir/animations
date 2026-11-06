@@ -186,3 +186,9 @@ Use only when a meme episode is requested; the established lesson style above st
 - Same as english-06: approved English Kokoro voice (af_bella 0.7 + am_puck 0.3, en-us, 0.98), English captions in the
   accepted pill, latest DOCKET lesson renderer (english-06 src as base). Added @fontsource/caveat 5.3.0 (OFL) only for the
   fictional handwritten note prop — captions stay Space Grotesk. Episode: english07-01 (context/22).
+
+## Batch 2026-11-07-english-08 — English (style unchanged)
+- Same voice/captions/renderer as english-07 (english-07 src as base). Suggested object-removal topic repeated hindi03-01,
+  so a fresh everyday-AI-mystery subject was used: portrait-mode background blur (context/23).
+- New canvas technique inside the same style: the fictional photo is built from depth layers and blurred per layer with
+  canvas `filter: blur()`; renderAt now sets the camera before the stage so billboard labels use the same frame's camera.
