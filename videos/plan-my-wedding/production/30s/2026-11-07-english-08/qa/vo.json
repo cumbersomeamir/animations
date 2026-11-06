@@ -1,0 +1,109 @@
+{
+  "voice": {
+    "mix": [
+      [
+        "af_bella",
+        0.7
+      ],
+      [
+        "am_puck",
+        0.3
+      ]
+    ],
+    "lang": "en-us",
+    "speed": 0.98
+  },
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX (fp32)",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.2,
+      "say": "Two hundred photos delivered isn't two hundred edited photos.",
+      "duration": 3.812,
+      "end": 4.012,
+      "onsets": [
+        0,
+        1.31,
+        1.88
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 4,
+      "say": "In this made-up quote, the fine print says fifty are fully retouched; the rest get basic colour correction.",
+      "duration": 6.482,
+      "end": 10.482,
+      "onsets": [
+        0,
+        1.42,
+        4.42,
+        5.5
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 10,
+      "say": "Delivery takes twelve weeks, raw files cost extra, and use is personal only.",
+      "duration": 5.103,
+      "end": 15.103,
+      "onsets": [
+        0,
+        1.85,
+        3.55,
+        4.13
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 15,
+      "say": "So before booking, ask three questions.",
+      "duration": 2.181,
+      "end": 17.181,
+      "onsets": [
+        0,
+        0.96
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 17.2,
+      "say": "How many are fully edited?",
+      "duration": 1.306,
+      "end": 18.506,
+      "onsets": [
+        0
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 19,
+      "say": "When will they arrive?",
+      "duration": 0.995,
+      "end": 19.995,
+      "onsets": [
+        0
+      ]
+    },
+    {
+      "id": "n7",
+      "start": 20.6,
+      "say": "Which files and usage rights are included, in writing?",
+      "duration": 3.159,
+      "end": 23.759,
+      "onsets": [
+        0,
+        2.47
+      ]
+    },
+    {
+      "id": "n8",
+      "start": 26.5,
+      "say": "Download Plan My Wedding to request vendor quotes.",
+      "duration": 2.965,
+      "end": 29.465,
+      "onsets": [
+        0
+      ]
+    }
+  ]
+}

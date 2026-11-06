@@ -1,0 +1,13 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "200 photos delivered isn't 200 edited photos.",
+    "build/vo/n2.wav": "In this made-up quote, the fine prints as 50 are fully retouched. The rest get basic color correction.",
+    "build/vo/n3.wav": "Delivery takes 12 weeks, raw files cost extra, and use is personal only.",
+    "build/vo/n4.wav": "So before booking, ask three questions.",
+    "build/vo/n5.wav": "How many are fully edited?",
+    "build/vo/n6.wav": "When will they arrive?",
+    "build/vo/n7.wav": "which files and usage rights are included in writing.",
+    "build/vo/n8.wav": "Download plan my wedding to request vendor quotes."
+  }
+}

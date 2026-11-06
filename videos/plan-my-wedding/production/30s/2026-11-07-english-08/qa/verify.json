@@ -1,0 +1,114 @@
+{
+  "file": "plan-my-wedding-30s-english08-01.mp4",
+  "size_bytes": 4896132,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 193522
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "end": 3.99,
+      "say": "Two hundred photos delivered isn't two hundred edited photos."
+    },
+    {
+      "id": "n2",
+      "start": 4.44,
+      "end": 10.92,
+      "say": "In this made-up quote, the fine print says fifty are fully retouched; the rest get basic colour correction."
+    },
+    {
+      "id": "n3",
+      "start": 11.37,
+      "end": 16.47,
+      "say": "Delivery takes twelve weeks, raw files cost extra, and use is personal only."
+    },
+    {
+      "id": "n4",
+      "start": 16.98,
+      "end": 19.16,
+      "say": "So before booking, ask three questions."
+    },
+    {
+      "id": "n5",
+      "start": 19.61,
+      "end": 20.92,
+      "say": "How many are fully edited?"
+    },
+    {
+      "id": "n6",
+      "start": 21.36,
+      "end": 22.36,
+      "say": "When will they arrive?"
+    },
+    {
+      "id": "n7",
+      "start": 22.81,
+      "end": 25.97,
+      "say": "Which files and usage rights are included, in writing?"
+    },
+    {
+      "id": "n8",
+      "start": 26.72,
+      "end": 29.68,
+      "say": "Download Plan My Wedding to request vendor quotes."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    26.72,
+    29.68
+  ],
+  "caption_windows": [
+    [
+      0.18,
+      3.99
+    ],
+    [
+      4.44,
+      10.92
+    ],
+    [
+      11.37,
+      16.47
+    ],
+    [
+      16.98,
+      19.16
+    ],
+    [
+      19.61,
+      20.92
+    ],
+    [
+      21.36,
+      22.36
+    ],
+    [
+      22.81,
+      25.97
+    ]
+  ],
+  "words": 72
+}
