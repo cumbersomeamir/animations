@@ -1,0 +1,76 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.33
+      ],
+      "script": "Is a 320-rupee sandwich expensive?",
+      "heard": "is a 320-roopy sandwich expensive.",
+      "words": "4/5"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.3,
+        7.14
+      ],
+      "script": "Beside 150-rupee snacks, it can look pricey.",
+      "heard": "Beside 150 rupee snacks, it can look pricey.",
+      "words": "7/7"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        7.1,
+        11.55
+      ],
+      "script": "Add a 1,200-rupee platter above it, and it can look fair.",
+      "heard": "Add a 1,200 rupee platter above it, and it can look fair.",
+      "words": "11/11"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.5,
+        14.61
+      ],
+      "script": "That's anchoring: the high price sets the reference.",
+      "heard": "That's anchoring. The high price sets the reference.",
+      "words": "8/8"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.55,
+        21.33
+      ],
+      "script": "In a 2006 study, one extreme price in a catalog raised what people would pay for other items.",
+      "heard": "In a 2006 study, one extreme price in a catalog raised what people would pay for other items.",
+      "words": "17/17"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        21.25,
+        25.84
+      ],
+      "script": "So list a real premium item next to it, and never fake a 'was' price.",
+      "heard": "So list a real premium item next to it, and never fake a was price.",
+      "words": "14/15"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "is a 320 rupee sandwich expensive. Beside 150 rupee snacks, it can look pricey. Add a 1,200 rupee platter above it, and it can look fair. That's anchoring. The high price sets the reference. In a 2006 study, one extreme price in a catalog raised what people would pay for other items. So list a real premium item next to it, and never fake a was price. Follow Wurbans to decode how brands sell."
+}
