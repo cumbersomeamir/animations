@@ -144,6 +144,7 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 | 07 | `production/30s/2026-11-05-feedback-05/` | एक प्रोडक्ट, एक कीमत, एक काम — offer clarity vs adjective clutter (**Hindi**; app.werbens.com palette; batch 2026-11-05-feedback-05) | fictional restaurant ad "काल्पनिक रसोई": thali photo, ₹250, "अभी ऑर्डर करें" |
 | 08 | `production/30s/2026-11-06-english-06/` | 75% lean or 25% fat? — attribute framing: same product, same numbers, different frame; tasting narrows the effect (**English** narration + captions, Meshline voice; app.werbens.com palette; batch 2026-11-06-english-06; suggested backpack topic replaced as a duplicate of #01/#05/#06) | two unbranded fictional mince trays, "75% LEAN" vs "25% FAT", Levin & Gaeth (1988) |
 | 09 | `production/30s/2026-11-06-english-07/` | Is a ₹320 sandwich expensive? — anchoring: a real premium item sets the reference price; never fake a "was" price (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-06-english-07; distinct from #03 decoy) | fictional café menu board: club sandwich ₹320, snacks ₹150, chef's platter ₹1,200; Krishna et al. (2006) |
+| 10 | `production/30s/2026-11-07-english-08/` | Same cookies — why do the last two look more tempting? — scarcity: show real limits, a fake "only 2 left" is a dark pattern (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-07-english-08; suggested "admit a flaw" topic replaced as a duplicate of #02/#01) | two fictional cookie jars (ten vs two), Worchel, Lee & Adewole (1975); FTC dark-patterns report (2022) |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
@@ -152,3 +153,4 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 - `fˈɜːst → fˈɜɹst` ("first"; Kokoro G2P returned the non-rhotic vowel for en-us — english-06).
 - `iɹˈuːpiː → i ɹˈuːpiː`, `dɹˈuːpiː → d ɹˈuːpiː` (hyphenated prices "320-rupee" were joined into one word) and
   `ɐ wʌz pɹˈaɪs → ɐ wˈʌz pɹˈaɪs` (stressed "was" in "a 'was' price") — english-07.
+- `wɜː ɹˈeɪɾᵻd → wɜɹ ɹˈeɪɾᵻd` (rhotic "were" before "rated") — english-08.

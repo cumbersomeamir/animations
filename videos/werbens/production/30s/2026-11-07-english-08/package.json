@@ -1,0 +1,21 @@
+{
+  "name": "werbens-30s-english08-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Werbens 30 s English-08: scarcity — cookies from a nearly empty jar are rated more desirable (Worchel, Lee & Adewole 1975); show real limits, never a fake 'only 2 left' (FTC dark-patterns report). Accepted 'Satisfying Product Theatre' style; English Meshline/Recall Kokoro voice + English captions; colours/logo from app.werbens.com.",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "qa": "bash qa.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6",
+    "kokoro-js": "1.2.1",
+    "three": "0.180.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0"
+  }
+}
