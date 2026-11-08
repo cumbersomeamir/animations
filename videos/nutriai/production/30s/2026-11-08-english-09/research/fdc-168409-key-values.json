@@ -1,0 +1,90 @@
+{
+ "fdcId": 168409,
+ "ndbNumber": 11205,
+ "description": "Cucumber, with peel, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 3.63,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 15.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 1.67,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total monounsaturated",
+   "amount": 0.005,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total polyunsaturated",
+   "amount": 0.032,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 65.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 0.037,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.11,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Water",
+   "amount": 95.2,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.5,
+   "unit": "g",
+   "dataPoints": 1
+  },
+  {
+   "name": "Protein",
+   "amount": 0.65,
+   "unit": "g",
+   "dataPoints": 4
+  },
+  {
+   "name": "Ash",
+   "amount": 0.38,
+   "unit": "g",
+   "dataPoints": 4
+  }
+ ],
+ "calorieConversionFactors": [
+  {
+   "proteinValue": 2.44,
+   "fatValue": 8.37,
+   "carbohydrateValue": 3.57
+  }
+ ]
+}

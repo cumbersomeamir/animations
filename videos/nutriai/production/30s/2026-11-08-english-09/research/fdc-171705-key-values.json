@@ -1,0 +1,90 @@
+{
+ "fdcId": 171705,
+ "ndbNumber": 9037,
+ "description": "Avocados, raw, all commercial varieties",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 2.0,
+   "unit": "g",
+   "dataPoints": 34
+  },
+  {
+   "name": "Ash",
+   "amount": 1.58,
+   "unit": "g",
+   "dataPoints": 34
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 6.7,
+   "unit": "g",
+   "dataPoints": 27
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 14.7,
+   "unit": "g",
+   "dataPoints": 35
+  },
+  {
+   "name": "Water",
+   "amount": 73.2,
+   "unit": "g",
+   "dataPoints": 40
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 0.66,
+   "unit": "g",
+   "dataPoints": 12
+  },
+  {
+   "name": "Energy",
+   "amount": 670,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 2.13,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 8.53,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 160,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total monounsaturated",
+   "amount": 9.8,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total polyunsaturated",
+   "amount": 1.82,
+   "unit": "g",
+   "dataPoints": 0
+  }
+ ],
+ "calorieConversionFactors": [
+  {
+   "proteinValue": 3.36,
+   "fatValue": 8.37,
+   "carbohydrateValue": 3.6
+  }
+ ]
+}

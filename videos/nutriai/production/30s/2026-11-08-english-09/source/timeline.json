@@ -1,0 +1,37 @@
+{
+ "_doc": "CalMeter English 30 s english-09 (2026-11-08): avocado vs cucumber, 100 g edible portion each. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt, faster-whisper base.en).",
+ "fps": 30, "frames": 900,
+ "voice": [{"id": "T0", "at": 0.30}, {"id": "T1", "at": 6.30}, {"id": "T2", "at": 11.45}, {"id": "T3", "at": 15.35}, {"id": "T4", "at": 18.75}, {"id": "T5", "at": 26.30}],
+ "captions": [
+  {"in": 6, "out": 102, "lines": [["100 g avocado,", 9], ["100 g cucumber:", 65]]},
+  {"in": 105, "out": 183, "lines": [["same weight,", 109], ["≈ 10× the calories", 136]]},
+  {"in": 186, "out": 337, "lines": [["Avocado ≈ 160 kcal,", 189], ["15 g fat, 7 g fibre", 270]]},
+  {"in": 340, "out": 455, "lines": [["Cucumber ≈ 15 kcal,", 344], ["and 95% water", 408]]},
+  {"in": 458, "out": 556, "lines": [["Fat ≈ 9 kcal a gram;", 461], ["water has none", 532]]},
+  {"in": 560, "out": 638, "lines": [["Neither is bad:", 563], ["calorie for calorie,", 606]]},
+  {"in": 641, "out": 776, "lines": [["100 g avocado", 643], ["≈ 1 kg of cucumber", 704]]},
+  {"in": 782, "out": 899, "lines": [["Track your food and nutrition", 789], ["with CalMeter", 827]]}
+ ],
+ "events": {
+  "balance": 0, "avoIn": 2, "cukeIn": 8, "cukeLand": 20, "qTags": 22, "tags": 52, "level": 109, "kcalReveal": 136, "x10": 138, "title": 12,
+  "burnish": 176, "section": 178, "avoCol": 196, "avoKcal": 221, "avoFat": 270, "avoFibre": 311,
+  "cukeCol": 344, "cukeKcal": 370, "cukeWater": 412,
+  "fat9": 461, "morph": 474, "morphEnd": 512, "water0": 535,
+  "burnish2": 548, "bal2": 552, "avo2In": 566, "cukePile": 606, "tags2": 643, "kg": 718, "blocksOut": 770,
+  "cta": 778, "ctaWord": 789
+ },
+ "sfx": [
+  {"ev": "balance", "type": "pencil", "dur": 0.8, "gain": -27},
+  {"ev": "cukeLand", "type": "thud", "gain": -24},
+  {"ev": "kcalReveal", "type": "tick", "gain": -24},
+  {"ev": "burnish", "type": "page", "gain": -20},
+  {"ev": "avoKcal", "type": "tick", "gain": -25},
+  {"ev": "cukeKcal", "type": "tick", "gain": -25},
+  {"ev": "water0", "type": "juice", "gain": -24},
+  {"ev": "burnish2", "type": "page", "gain": -21},
+  {"ev": "cukePile", "type": "thud", "gain": -24},
+  {"ev": "kg", "type": "tick", "gain": -25},
+  {"ev": "blocksOut", "type": "page", "gain": -22},
+  {"ev": "ctaWord", "type": "pencil", "dur": 0.8, "gain": -28}
+ ]
+}

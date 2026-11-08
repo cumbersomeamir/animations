@@ -96,3 +96,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-07-english-08/source/`, output `../nutriai-30s-english08-01.mp4`; ASR on the final mix with `vad_filter=True`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; 0 freeze events after two motion fixes; captions 0 outside x 90–990 / y 340–520; plate text inside x 90–950; ASR verbatim except the brand on base.en ("cow meter"; small.en "Cal Meter"; same CTA take as english-06/07). See `production/30s/2026-11-07-english-08/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 16. Batch 2026-11-08-english-09, avocado vs cucumber, 100 g edible portion each (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at 4d458c9, no active job; avocado/cucumber only listed as ideas in 08, never produced. The Instagram performance sheet is not in the repo/chat; its approved direction (fast hook, concrete payoff, short CTA) applied as stated, no causal claims.
+- Facts: USDA FDC 171705 avocado (160 kcal, 14.7 g fat, 6.7 g fibre, 73.2 g water / 100 g flesh) and FDC 168409 cucumber with peel (15 kcal, 0.11 g fat, 0.5 g fibre, 95.2 g water); FAO FNP 77 fat 9 kcal/g (USDA factor 8.37 → fat ≈ 123 of 160 kcal); 160 kcal ≈ 1 067 g cucumber ≈ 3½ × 301 g. Details: `context/22-production-30s-english09-avocado.md`.
+- Decisions: english-08 renderer parts + Meshline voice + accepted mix reused; CTA = cached accepted take; 100 g jars that turn from grams into kcal explain energy density; calorie balance for the portion takeaway; first voice pass (28.9 s) tightened to 24.8 s.
+- Commands: as in section 9, from `production/30s/2026-11-08-english-09/source/`, output `../nutriai-30s-english09-01.mp4`; ASR on the final mix with `vad_filter=True`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520; plate text inside x 90–950; ASR verbatim except the brand on base.en ("cow meter"; small.en "Cal Meter"; cached CTA take). See `production/30s/2026-11-08-english-09/QA.md`.
+- Unresolved: none blocking. Next step: none requested.
