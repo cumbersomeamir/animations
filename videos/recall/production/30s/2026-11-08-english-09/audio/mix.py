@@ -261,7 +261,7 @@ def build_sfx():
     place(fx, shimmer(1.0) * 0.6, C["flow"], 0.22, 0.2, "charge rides the conductive thread")
     for k in range(4):
         place(fx, beep(900 + 150 * k, 0.07), C["flow"] + 0.25 + 0.18 * k, 0.12, 0.5, "signal meter rises" if k == 0 else None)
-    place(fx, whoosh(0.35, 400, 1300) * 0.45, 18.9, 0.3, 0, "cut to the resistive screen")
+    place(fx, whoosh(0.3, 400, 1300) * 0.45, 18.62, 0.3, 0, "cut to the resistive screen (ends before the word Resistive)")
     place(fx, squish(0.25, 300, 1500), C["resPress"] - 0.1, 0.25, -0.2, "flexible layer pressed")
     place(fx, click(2400), C["resPress"] + 0.15, 0.25, -0.2, "layers touch: contact")
     place(fx, click(2800), C["stylusPress"], 0.25, 0.2, "stylus press: contact")

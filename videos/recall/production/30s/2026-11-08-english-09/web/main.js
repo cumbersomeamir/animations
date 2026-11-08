@@ -149,7 +149,9 @@ window.__renderFrame = async (f) => {
   const { t, shot, P, safe } = applyFrame(f);
   S.R.render(S.scene, S.cam);
   const boxes = drawOverlay(S.octx, S.W, S.H, t, S.choreo.overlay(t), P, S.d.timeline, S.icon, S.capCache, shot.id);
-  await new Promise(r => requestAnimationFrame(() => r()));
+  // two animation frames: lets the compositor pick up both canvases before the screenshot (one frame was not always enough
+  // under load: a stale overlay was captured once in the first render of this episode)
+  await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(() => r())));
   return { boxes, safe, shot: shot.id };
 };
 window.__sheetPoses = () => [];
