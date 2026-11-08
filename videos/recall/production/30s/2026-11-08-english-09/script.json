@@ -1,0 +1,31 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Why does your phone ignore you once you put on gloves?"
+    },
+    {
+      "id": "l02",
+      "text": "Your phone's screen is capacitive: it senses the electric charge of your fingertip."
+    },
+    {
+      "id": "l03",
+      "text": "Ordinary knit gloves don't conduct, so they isolate your finger and nothing registers."
+    },
+    {
+      "id": "l04",
+      "text": "Touchscreen gloves weave conductive thread into the fingertips to carry your touch through."
+    },
+    {
+      "id": "l05",
+      "text": "Resistive screens respond to pressure instead, so a gloved finger or plain stylus works."
+    },
+    {
+      "id": "l06",
+      "text": "Download Recall for learning any new subject with AI."
+    }
+  ]
+}

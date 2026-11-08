@@ -61,3 +61,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s, why charging slows after 80%; record, topic-change reason, sources + QA in 21).
 - English-08 2026-11-07 batch (English; suggested ANC topic already F05 → infrared remote): `videos/recall/production/30s/2026-11-07-english-08/recall-30s-english08-01.mp4`
   (30.000 s, why a phone camera sees a remote's infrared + remote test; record, topic-change reason, sources + QA in 22).
+- English-09 2026-11-08 batch (English; touchscreens and gloves, capacitive vs resistive): `videos/recall/production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4`
+  (30.000 s; record, topic check vs H03, sources + QA in 23).

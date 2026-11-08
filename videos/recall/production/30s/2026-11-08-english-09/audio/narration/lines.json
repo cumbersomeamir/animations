@@ -1,0 +1,55 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Why does your phone ignore you once you put on gloves?",
+      "file": "l01.wav",
+      "duration": 2.493,
+      "sr": 24000,
+      "words_per_s": 4.41
+    },
+    {
+      "id": "l02",
+      "text": "Your phone's screen is capacitive: it senses the electric charge of your fingertip.",
+      "file": "l02.wav",
+      "duration": 5.011,
+      "sr": 24000,
+      "words_per_s": 2.59
+    },
+    {
+      "id": "l03",
+      "text": "Ordinary knit gloves don't conduct, so they isolate your finger and nothing registers.",
+      "file": "l03.wav",
+      "duration": 5.061,
+      "sr": 24000,
+      "words_per_s": 2.57
+    },
+    {
+      "id": "l04",
+      "text": "Touchscreen gloves weave conductive thread into the fingertips to carry your touch through.",
+      "file": "l04.wav",
+      "duration": 4.618,
+      "sr": 24000,
+      "words_per_s": 2.81
+    },
+    {
+      "id": "l05",
+      "text": "Resistive screens respond to pressure instead, so a gloved finger or plain stylus works.",
+      "file": "l05.wav",
+      "duration": 5.594,
+      "sr": 24000,
+      "words_per_s": 2.5
+    },
+    {
+      "id": "l06",
+      "text": "Download Recall for learning any new subject with AI.",
+      "file": "l06.wav",
+      "duration": 3.289,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

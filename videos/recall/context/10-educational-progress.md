@@ -124,3 +124,7 @@ so a distinct topic was chosen (reason in context 21); deliverable `videos/recal
 ## Update 2026-11-07 batch — english-08
 Episode E08 "Your eyes can't see this remote's light. So why can your phone camera?" (English). The suggested ANC topic was
 already F05, so a distinct topic was chosen (reason in context 22); deliverable `videos/recall/production/30s/2026-11-07-english-08/recall-30s-english08-01.mp4`.
+
+## Update 2026-11-08 batch — english-09
+Episode E09 "Why does your phone ignore you once you put on gloves?" (English); kept as distinct from H03 (wet screens);
+record in context 23; deliverable `videos/recall/production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4`.

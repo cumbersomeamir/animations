@@ -1,0 +1,115 @@
+{
+ "ok": true,
+ "spoken_groups": 10,
+ "onscreen_only": [
+  "Winter tip: gloves with / conductive fingertips."
+ ],
+ "rows": [
+  {
+   "caption": "Why does your phone ignore you / once you put on gloves?",
+   "start": 0.38,
+   "end": 3.2,
+   "first_word_s": 0.45,
+   "last_word_s": 2.35,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Your phone's screen / is capacitive:",
+   "start": 3.2,
+   "end": 5.78,
+   "first_word_s": 3.3,
+   "last_word_s": 4.56,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "it senses the electric charge / of your fingertip.",
+   "start": 5.78,
+   "end": 8.5,
+   "first_word_s": 5.86,
+   "last_word_s": 7.62,
+   "caption_lead_s": 0.08,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Ordinary knit gloves / don't conduct,",
+   "start": 8.53,
+   "end": 10.38,
+   "first_word_s": 8.6,
+   "last_word_s": 10.12,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so they isolate your finger / and nothing registers.",
+   "start": 10.38,
+   "end": 13.95,
+   "first_word_s": 10.42,
+   "last_word_s": 12.8,
+   "caption_lead_s": 0.04,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Touchscreen gloves weave / conductive thread",
+   "start": 13.98,
+   "end": 16.3,
+   "first_word_s": 14.05,
+   "last_word_s": 16.09,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "into the fingertips to / carry your touch through.",
+   "start": 16.3,
+   "end": 18.9,
+   "first_word_s": 16.35,
+   "last_word_s": 18.09,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Resistive screens respond / to pressure instead,",
+   "start": 18.98,
+   "end": 21.85,
+   "first_word_s": 19.05,
+   "last_word_s": 20.77,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so a gloved finger or / plain stylus works.",
+   "start": 21.85,
+   "end": 24.7,
+   "first_word_s": 21.91,
+   "last_word_s": 24.11,
+   "caption_lead_s": 0.06,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Winter tip: gloves with / conductive fingertips.",
+   "start": 24.75,
+   "end": 26.25,
+   "spoken": false
+  },
+  {
+   "caption": "Download Recall for learning / any new subject with AI.",
+   "start": 26.25,
+   "end": 30.0,
+   "first_word_s": 26.35,
+   "last_word_s": 28.97,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}
