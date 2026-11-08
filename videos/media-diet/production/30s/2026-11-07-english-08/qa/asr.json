@@ -1,0 +1,79 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Can a photo of a recipe fill your shopping cart? Since November 6, some Amazon shoppers can text Alexa for shopping. Before, read the recipe, search each ingredient one by one. Now, text a photo of the recipe, and the ingredients land in your cart. One text replaces all those searches. The catch, it's invite-only in the United States, expanding over the coming weeks. Follow Media Diet for Technology Explained.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    2.62
+   ],
+   "transcript": "Can a photo of a recipe fill your shopping cart?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.27,
+    7.75
+   ],
+   "transcript": "Since November 6, some Amazon shoppers can text Alexa for shopping.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    8.39,
+    12.04
+   ],
+   "transcript": "Before, read the recipe, search each ingredient one by one.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    12.68,
+    17.03
+   ],
+   "transcript": "Now, text a photo of the recipe and the ingredients land in your cart.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    17.82,
+    19.9
+   ],
+   "transcript": "One text replaces all those searches.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    20.55,
+    25.39
+   ],
+   "transcript": "The catch? It's invite-only in the United States, expanding over the coming weeks.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    26.03,
+    28.66
+   ],
+   "transcript": "Follow Media Diet for Technology Explained.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Can a photo of a recipe fill your shopping cart? Since November 6, some Amazon shoppers can text Alexa for shopping. Before, read the recipe, search each ingredient one by one. Now, text a photo of the recipe and the ingredients land in your cart. One text replaces all those searches. The catch? It's invite-only in the United States, expanding over the coming weeks. Follow Media Diet for Technology Explained.",
+ "recall_overall": 1.0
+}

@@ -1,0 +1,152 @@
+[
+ {
+  "line": "V1",
+  "text": "Can a photo of a recipe / fill your shopping cart?",
+  "cue": [
+   0.07,
+   2.922
+  ],
+  "speech": [
+   0.17,
+   2.577
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.345,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Since November 6, / some Amazon shoppers",
+  "cue": [
+   3.19,
+   5.832
+  ],
+  "speech": [
+   3.294,
+   5.785
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.047,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "can text Alexa for Shopping.",
+  "cue": [
+   5.852,
+   8.054
+  ],
+  "speech": [
+   5.852,
+   7.708
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.346,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Before: read the recipe, search / each ingredient, one by one.",
+  "cue": [
+   8.31,
+   12.336
+  ],
+  "speech": [
+   8.41,
+   11.99
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.346,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Now: text a photo of the recipe, / and the ingredients",
+  "cue": [
+   12.6,
+   15.889
+  ],
+  "speech": [
+   12.702,
+   15.889
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "land in your cart.",
+  "cue": [
+   15.909,
+   17.327
+  ],
+  "speech": [
+   15.909,
+   16.98
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "One text replaces / all those searches.",
+  "cue": [
+   17.74,
+   20.201
+  ],
+  "speech": [
+   17.841,
+   19.849
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.352,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "The catch: it's invite-only / in the United States,",
+  "cue": [
+   20.47,
+   23.55
+  ],
+  "speech": [
+   20.574,
+   23.409
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.141,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "expanding over the coming weeks.",
+  "cue": [
+   23.57,
+   25.687
+  ],
+  "speech": [
+   23.728,
+   25.335
+  ],
+  "lead_s": 0.158,
+  "tail_s": 0.352,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Follow Media Diet / for technology explained.",
+  "cue": [
+   25.95,
+   28.963
+  ],
+  "speech": [
+   26.073,
+   28.611
+  ],
+  "lead_s": 0.123,
+  "tail_s": 0.352,
+  "ok": true
+ }
+]

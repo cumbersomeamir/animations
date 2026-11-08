@@ -145,3 +145,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 70 words, 24.5 s.
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/21, log row.
 - Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-08 — english-08 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-07-english-08/media-diet-30s-english08-01.mp4
+  (SHA-256 75e35072bda29ae3d2338538fd9f972edc166d11e8a2205f44d4fddfeeb346f0). Record: context/21-production-30s-english08-01.md; context/11 log row → delivered.
+- Commands: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (parallel, resumable), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −2.0 dBTP; captions y 378–488, x 123–958, 0 violations; caption↔speech 10/10; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

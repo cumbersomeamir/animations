@@ -61,7 +61,11 @@ episode: printed cards that glow need their print as the emissive map (a flat wh
 set off the other beats' sight lines (the map moved to the far right after its banner blocked the calendar shot).
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-30s-english08-01.mp4`, SHA-256 `75e35072bda29ae3d2338538fd9f972edc166d11e8a2205f44d4fddfeeb346f0`, 18,820,345 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 900 frames; video/audio/container 30.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −2.0 dBTP; captions ink y 378–488, x 123–958, 0 safe-area violations in 900 frames; caption↔speech 10/10;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 10.8–15.0 dB under speech per line. Fixed once each:
+script length, framing of S1/S4/S5/S6/S7 (stills), washed-out takeaway cards (emissive map).
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked by Whisper-medium (en) per take
