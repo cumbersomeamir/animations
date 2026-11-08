@@ -18,7 +18,7 @@ window.__setup = async (d) => {
   const fontCheck = texts.every(s => document.fonts.check('600 56px Fredoka', s));
   const gl = document.getElementById('gl'), ov = document.getElementById('ov');
   for (const c of [gl, ov]) { c.width = S.W; c.height = S.H; c.style.width = S.W + 'px'; c.style.height = S.H + 'px'; }
-  S.octx = ov.getContext('2d');
+  S.octx = ov.getContext('2d', { willReadFrequently: true });   // software 2D canvas: draws are applied immediately (see __renderFrame)
   const R = new THREE.WebGLRenderer({ canvas: gl, antialias: d.aa !== false, preserveDrawingBuffer: true });
   R.setPixelRatio(1); R.setSize(S.W, S.H, false); R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.05;
   R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFShadowMap; S.R = R;
@@ -149,15 +149,14 @@ window.__renderFrame = async (f) => {
   const { t, shot, P, safe } = applyFrame(f);
   S.R.render(S.scene, S.cam);
   const boxes = drawOverlay(S.octx, S.W, S.H, t, S.choreo.overlay(t), P, S.d.timeline, S.icon, S.capCache, shot.id);
-  // two animation frames: lets the compositor pick up both canvases before the screenshot (one frame was not always enough
-  // under load: a stale overlay was captured once in the first render of this episode)
+  S.octx.getImageData(0, 0, 1, 1);   // force the overlay's pending draws to flush before the frame is captured (an unflushed clear left a
+                                      // previous frame's labels in one captured frame at a scene cut in the first render)
   await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(() => r())));
   return { boxes, safe, shot: shot.id };
 };
 window.__sheetPoses = () => [];
-/** Final frame composed explicitly (3D canvas, then the overlay canvas) and returned as PNG data, so the written frame never
- *  depends on when the browser's compositor picks up each canvas (a page screenshot once paired a new 3D image with an
- *  overlay from two frames earlier at a scene cut). */
+/** Final frame composed explicitly (3D canvas, then the overlay canvas) and returned as PNG data, so the written frame is
+ *  exactly the two canvases' current contents. */
 window.__composite = () => {
   if (!S.comp) { S.comp = document.createElement('canvas'); S.comp.width = S.W; S.comp.height = S.H; S.cctx = S.comp.getContext('2d'); }
   S.cctx.clearRect(0, 0, S.W, S.H);
