@@ -60,3 +60,7 @@ Amber #F59E0B is used only for the fake "WAS ₹500" sticker and the "pricey" en
 ## Re-check for english-08 (batch 2026-11-07; container clock 2026-11-06)
 Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
 Amber #F59E0B is used only for the fake "ONLY 2 LEFT!" tag.
+
+## Re-check for english-09 (2026-11-08)
+Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
+Amber is not used in this episode.
