@@ -1,0 +1,177 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.22
+  },
+  {
+   "id": "l2",
+   "start": 4.39
+  },
+  {
+   "id": "l3",
+   "start": 6.07
+  },
+  {
+   "id": "l4",
+   "start": 11.73
+  },
+  {
+   "id": "l5",
+   "start": 15.58
+  },
+  {
+   "id": "l6",
+   "start": 21.01
+  },
+  {
+   "id": "l7",
+   "start": 26.24
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.1,
+   "text": "Your train is running 4 hours late,",
+   "hl": [
+    "4",
+    "hours",
+    "late,"
+   ]
+  },
+  {
+   "start": 2.1,
+   "end": 4.15,
+   "text": "and the trip no longer works.",
+   "hl": [
+    "no",
+    "longer",
+    "works."
+   ]
+  },
+  {
+   "start": 4.15,
+   "end": 5.8,
+   "text": "Is your ticket money gone?",
+   "hl": [
+    "gone?"
+   ]
+  },
+  {
+   "start": 5.8,
+   "end": 7.9,
+   "text": "Railway refund rules say:",
+   "hl": [
+    "refund",
+    "rules"
+   ]
+  },
+  {
+   "start": 7.9,
+   "end": 11.55,
+   "text": "if a train runs more than 3 hours late and you don’t travel,",
+   "hl": [
+    "3",
+    "hours",
+    "late"
+   ]
+  },
+  {
+   "start": 11.55,
+   "end": 15.3,
+   "text": "you can claim the full fare, with no cancellation charge.",
+   "hl": [
+    "full",
+    "fare,"
+   ]
+  },
+  {
+   "start": 15.3,
+   "end": 17.6,
+   "text": "The catch: don’t just press cancel.",
+   "hl": [
+    "press",
+    "cancel."
+   ]
+  },
+  {
+   "start": 17.6,
+   "end": 20.75,
+   "text": "An hour before departure, that can return nothing.",
+   "hl": [
+    "nothing."
+   ]
+  },
+  {
+   "start": 20.75,
+   "end": 23.1,
+   "text": "Instead, file a TDR online",
+   "hl": [
+    "TDR"
+   ]
+  },
+  {
+   "start": 23.1,
+   "end": 26.1,
+   "text": "for the late train, before it actually leaves.",
+   "hl": [
+    "before",
+    "it",
+    "actually",
+    "leaves."
+   ]
+  },
+  {
+   "start": 26.1,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "cardIn": -0.18,
+  "itemDrop": 0.25,
+  "itemLand": 0.55,
+  "sneakStart": 0.85,
+  "sneak": 1.55,
+  "quoteMark": 1.88,
+  "toS2": 3.85,
+  "bannerDrop": 4.39,
+  "bannerLand": 4.76,
+  "refuseLine": 5.06,
+  "ruleIn": 6.0,
+  "ruleBump": 6.45,
+  "rule1": 7.95,
+  "rule2": 10.6,
+  "rule3": 11.4,
+  "tagFlip": 12.17,
+  "chip1": 12.53,
+  "chip2": 13.49,
+  "bannerTug": 14.45,
+  "toS4": 15.25,
+  "rightItem": 16.6,
+  "bubble": 17.05,
+  "rightResult": 17.84,
+  "sticker": 20.0,
+  "toS5": 20.7,
+  "tick1": 21.15,
+  "bill": 21.5,
+  "photo": 22.1,
+  "tick2": 22.4,
+  "flap": 23.3,
+  "seal": 24.0,
+  "write": 23.55,
+  "tick3": 25.05,
+  "toS6": 25.95,
+  "ctaIn": 26.25,
+  "ctaText": 26.4
+ }
+}

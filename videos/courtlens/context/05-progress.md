@@ -4,6 +4,63 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-07 (english-08): English episode 08, train 3+ hours late (full fare via TDR)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-07
+  delivered at 99c85ca), assigned account info@tensorblue.com. No older job running. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-07-english-08/courtlens-30s-english08-01.mp4`.
+- Topic: the suggested "changed my mind vs defective" e-commerce returns subject duplicates Episode 01, so a fresh
+  subject was chosen (episode record: `context/episodes/2026-11-07-english08-train-late-tdr.md`).
+
+### Verified facts
+- IRCTC Refund Rules and TDR Filing (PDF generated 19 Jan 2026; based on the 2015 Refund Rules):
+  - clause 6: train more than 3 h late and passenger not travelling means full fare, no cancellation charge or
+    clerkage; e-ticket TDR must be filed online before the actual departure
+  - note (5) and TDR table row 2 restate this
+  - clause 1(d): no refund on a confirmed ticket cancelled within 4 h of scheduled departure (8 h for VB Sleeper /
+    Amrit Bharat II)
+- Details: `production/30s/2026-11-07-english-08/notes/LEGAL-SOURCES.md`.
+
+### Checkpoint (unconfirmed)
+- News reports say the 8-hour no-refund cut-off was extended to all trains in April 2026. The official Railway Board
+  2026 circulars returned 404 here. No report says clause 6 changed. The narration ("an hour before departure, that
+  can return nothing") is true under either cut-off.
+- Considered and not used: the DGCA 48-hour flight "look-in" rule (CAR issued 24 Feb 2026, effective 26 Mar 2026).
+  The official DGCA PDF could not be retrieved; recorded for a future episode.
+
+### Creative decisions
+- Performer: a departure board with a split-flap status that scrambles in the first second and settles on "LATE 4H
+  10M" (hook at 0.85–1.55 s).
+- Other changes:
+  - e-ticket card; "Cancel now? Refund: ₹0" sign
+  - tag flips from "₹1,450 gone?" to "Full fare back"
+  - rule card with two chips
+  - split: TDR "₹1,450 back" vs press-cancel "refund ₹0", with a phone and sticker
+  - envelope with e-ticket + running-status screenshot, written "TDR · train late"
+- Plain "TDR" in the TTS input. "T.D.R." made the voice end the sentence (an awkward 1 s break). l6 was reworded to
+  "Instead, file a TDR online for the late train, before it actually leaves."
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-07-english-08/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st8 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build8 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english08-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english08-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The board's "18:00" overlapped "EXPRESS · 3A", so the board now shows "EXPRESS" (class is on the ticket) at a
+  smaller size.
+- The rule card's first line now reveals at 7.95 s, right after "rules say:", instead of 8.55 s.
+- The ticket line "now 22:10" read like the current time; it is now "expected 22:10".
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-06 (english-07): English episode 07, ATM debited but no cash (RBI failed-transaction rules)
 
 ### Status
