@@ -1,0 +1,87 @@
+{
+  "cues": {
+    "tap1": 0.2,
+    "tap2": 0.85,
+    "tapBare": 1.45,
+    "frown": 2.45,
+    "fingerDown": 4.0,
+    "charge": 5.85,
+    "gloveDown": 9.0,
+    "blocked": 10.1,
+    "threadDown": 14.45,
+    "flow": 16.1,
+    "resPress": 20.45,
+    "stylusPress": 22.55,
+    "okTap": 25.0,
+    "cta": 26.35,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_pov",
+      "t0": 0.0,
+      "t1": 2.2
+    },
+    {
+      "id": "react",
+      "t0": 2.2,
+      "t1": 3.25
+    },
+    {
+      "id": "giant_cap",
+      "t0": 3.25,
+      "t1": 8.55
+    },
+    {
+      "id": "giant_glove",
+      "t0": 8.55,
+      "t1": 13.95
+    },
+    {
+      "id": "giant_thread",
+      "t0": 13.95,
+      "t1": 18.95
+    },
+    {
+      "id": "giant_resistive",
+      "t0": 18.95,
+      "t1": 24.7
+    },
+    {
+      "id": "ok_cu",
+      "t0": 24.7,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.45
+    },
+    {
+      "id": "l02",
+      "start": 3.3
+    },
+    {
+      "id": "l03",
+      "start": 8.6
+    },
+    {
+      "id": "l04",
+      "start": 14.05
+    },
+    {
+      "id": "l05",
+      "start": 19.05
+    },
+    {
+      "id": "l06",
+      "start": 26.35
+    }
+  ]
+}

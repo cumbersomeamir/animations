@@ -1,0 +1,191 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.62,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.45,
+      "end": 2.943,
+      "text": "Why does your phone ignore you once you put on gloves?",
+      "words": 11,
+      "words_per_s": 4.41,
+      "voice_over_bed_db": 18.3
+    },
+    {
+      "id": "l02",
+      "start": 3.3,
+      "end": 8.311,
+      "text": "Your phone's screen is capacitive: it senses the electric charge of your fingertip.",
+      "words": 13,
+      "words_per_s": 2.59,
+      "voice_over_bed_db": 17.9
+    },
+    {
+      "id": "l03",
+      "start": 8.6,
+      "end": 13.661,
+      "text": "Ordinary knit gloves don't conduct, so they isolate your finger and nothing registers.",
+      "words": 13,
+      "words_per_s": 2.57,
+      "voice_over_bed_db": 16.9
+    },
+    {
+      "id": "l04",
+      "start": 14.05,
+      "end": 18.668,
+      "text": "Touchscreen gloves weave conductive thread into the fingertips to carry your touch through.",
+      "words": 13,
+      "words_per_s": 2.81,
+      "voice_over_bed_db": 18.1
+    },
+    {
+      "id": "l05",
+      "start": 19.05,
+      "end": 24.644,
+      "text": "Resistive screens respond to pressure instead, so a gloved finger or plain stylus works.",
+      "words": 14,
+      "words_per_s": 2.5,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l06",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.6
+    }
+  ],
+  "narration_words": 73,
+  "speech_s": 26.07,
+  "overall_words_per_s": 2.43,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.2,
+      "beat": 0.4,
+      "sfx": "knit-glove tap: no response"
+    },
+    {
+      "t": 1.45,
+      "beat": 2.9,
+      "sfx": "bare finger tap"
+    },
+    {
+      "t": 1.53,
+      "beat": 3.06,
+      "sfx": "app opens"
+    },
+    {
+      "t": 2.45,
+      "beat": 4.9,
+      "sfx": "puzzled"
+    },
+    {
+      "t": 3.2,
+      "beat": 6.4,
+      "sfx": "cut to the giant screen"
+    },
+    {
+      "t": 4.0,
+      "beat": 8.0,
+      "sfx": "giant finger comes down"
+    },
+    {
+      "t": 4.6,
+      "beat": 9.2,
+      "sfx": "touch"
+    },
+    {
+      "t": 5.85,
+      "beat": 11.7,
+      "sfx": "charge flows to the sensor grid"
+    },
+    {
+      "t": 6.1,
+      "beat": 12.2,
+      "sfx": "signal meter rises"
+    },
+    {
+      "t": 9.0,
+      "beat": 18.0,
+      "sfx": "knit finger comes down"
+    },
+    {
+      "t": 9.6,
+      "beat": 19.2,
+      "sfx": "muffled contact"
+    },
+    {
+      "t": 10.1,
+      "beat": 20.2,
+      "sfx": "charge blocked by the yarn"
+    },
+    {
+      "t": 14.45,
+      "beat": 28.9,
+      "sfx": "touchscreen-glove finger comes down"
+    },
+    {
+      "t": 15.05,
+      "beat": 30.1,
+      "sfx": "touch"
+    },
+    {
+      "t": 16.1,
+      "beat": 32.2,
+      "sfx": "charge rides the conductive thread"
+    },
+    {
+      "t": 16.35,
+      "beat": 32.7,
+      "sfx": "signal meter rises"
+    },
+    {
+      "t": 18.62,
+      "beat": 37.24,
+      "sfx": "cut to the resistive screen (ends before the word Resistive)"
+    },
+    {
+      "t": 20.35,
+      "beat": 40.7,
+      "sfx": "flexible layer pressed"
+    },
+    {
+      "t": 20.6,
+      "beat": 41.2,
+      "sfx": "layers touch: contact"
+    },
+    {
+      "t": 22.55,
+      "beat": 45.1,
+      "sfx": "stylus press: contact"
+    },
+    {
+      "t": 25.0,
+      "beat": 50.0,
+      "sfx": "touchscreen-glove tap"
+    },
+    {
+      "t": 25.08,
+      "beat": 50.16,
+      "sfx": "app opens: it works"
+    },
+    {
+      "t": 27.5,
+      "beat": 55.0,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.464,
+  "voice_gain": 1.0
+}

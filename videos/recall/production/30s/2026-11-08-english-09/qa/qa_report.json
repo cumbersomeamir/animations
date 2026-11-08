@@ -1,0 +1,389 @@
+{
+  "file": "production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2090216"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "192417"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 8594651,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.4,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.8359231948852539,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Why does your phone ignore you once you put on gloves? Your phone's screen is capacitive. It senses the electric charge of your fingertip. Ordinary knit gloves don't conduct, so they isolate your finger and nothing registers. Touch screen gloves weave conductive thread into the fingertips to carry your touch through. Resistive screens respond to pressure instead, so a gloved finger or plain stylus works. Download Recall for learning any new subject with AI.",
+    "wer": 0.027,
+    "words": [
+      {
+        "w": "Why",
+        "t": 0.0
+      },
+      {
+        "w": "does",
+        "t": 0.58
+      },
+      {
+        "w": "your",
+        "t": 0.68
+      },
+      {
+        "w": "phone",
+        "t": 0.8
+      },
+      {
+        "w": "ignore",
+        "t": 1.08
+      },
+      {
+        "w": "you",
+        "t": 1.38
+      },
+      {
+        "w": "once",
+        "t": 1.7
+      },
+      {
+        "w": "you",
+        "t": 1.92
+      },
+      {
+        "w": "put",
+        "t": 2.1
+      },
+      {
+        "w": "on",
+        "t": 2.22
+      },
+      {
+        "w": "gloves?",
+        "t": 2.36
+      },
+      {
+        "w": "Your",
+        "t": 3.32
+      },
+      {
+        "w": "phone's",
+        "t": 3.4
+      },
+      {
+        "w": "screen",
+        "t": 3.92
+      },
+      {
+        "w": "is",
+        "t": 4.18
+      },
+      {
+        "w": "capacitive.",
+        "t": 4.54
+      },
+      {
+        "w": "It",
+        "t": 5.82
+      },
+      {
+        "w": "senses",
+        "t": 5.88
+      },
+      {
+        "w": "the",
+        "t": 6.1
+      },
+      {
+        "w": "electric",
+        "t": 6.48
+      },
+      {
+        "w": "charge",
+        "t": 6.82
+      },
+      {
+        "w": "of",
+        "t": 7.24
+      },
+      {
+        "w": "your",
+        "t": 7.54
+      },
+      {
+        "w": "fingertip.",
+        "t": 7.62
+      },
+      {
+        "w": "Ordinary",
+        "t": 8.6
+      },
+      {
+        "w": "knit",
+        "t": 8.96
+      },
+      {
+        "w": "gloves",
+        "t": 9.34
+      },
+      {
+        "w": "don't",
+        "t": 9.6
+      },
+      {
+        "w": "conduct,",
+        "t": 10.12
+      },
+      {
+        "w": "so",
+        "t": 10.88
+      },
+      {
+        "w": "they",
+        "t": 11.12
+      },
+      {
+        "w": "isolate",
+        "t": 11.22
+      },
+      {
+        "w": "your",
+        "t": 11.52
+      },
+      {
+        "w": "finger",
+        "t": 11.9
+      },
+      {
+        "w": "and",
+        "t": 12.24
+      },
+      {
+        "w": "nothing",
+        "t": 12.5
+      },
+      {
+        "w": "registers.",
+        "t": 12.8
+      },
+      {
+        "w": "Touch",
+        "t": 14.22
+      },
+      {
+        "w": "screen",
+        "t": 14.22
+      },
+      {
+        "w": "gloves",
+        "t": 14.46
+      },
+      {
+        "w": "weave",
+        "t": 14.8
+      },
+      {
+        "w": "conductive",
+        "t": 15.34
+      },
+      {
+        "w": "thread",
+        "t": 16.08
+      },
+      {
+        "w": "into",
+        "t": 16.34
+      },
+      {
+        "w": "the",
+        "t": 16.64
+      },
+      {
+        "w": "fingertips",
+        "t": 16.8
+      },
+      {
+        "w": "to",
+        "t": 17.1
+      },
+      {
+        "w": "carry",
+        "t": 17.5
+      },
+      {
+        "w": "your",
+        "t": 17.7
+      },
+      {
+        "w": "touch",
+        "t": 17.9
+      },
+      {
+        "w": "through.",
+        "t": 18.12
+      },
+      {
+        "w": "Resistive",
+        "t": 19.24
+      },
+      {
+        "w": "screens",
+        "t": 19.46
+      },
+      {
+        "w": "respond",
+        "t": 19.72
+      },
+      {
+        "w": "to",
+        "t": 20.22
+      },
+      {
+        "w": "pressure",
+        "t": 20.54
+      },
+      {
+        "w": "instead,",
+        "t": 20.8
+      },
+      {
+        "w": "so",
+        "t": 21.88
+      },
+      {
+        "w": "a",
+        "t": 21.98
+      },
+      {
+        "w": "gloved",
+        "t": 22.06
+      },
+      {
+        "w": "finger",
+        "t": 22.44
+      },
+      {
+        "w": "or",
+        "t": 22.88
+      },
+      {
+        "w": "plain",
+        "t": 23.16
+      },
+      {
+        "w": "stylus",
+        "t": 23.44
+      },
+      {
+        "w": "works.",
+        "t": 24.12
+      },
+      {
+        "w": "Download",
+        "t": 25.96
+      },
+      {
+        "w": "Recall",
+        "t": 26.56
+      },
+      {
+        "w": "for",
+        "t": 27.04
+      },
+      {
+        "w": "learning",
+        "t": 27.64
+      },
+      {
+        "w": "any",
+        "t": 27.82
+      },
+      {
+        "w": "new",
+        "t": 28.1
+      },
+      {
+        "w": "subject",
+        "t": 28.32
+      },
+      {
+        "w": "with",
+        "t": 28.68
+      },
+      {
+        "w": "AI.",
+        "t": 28.98
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 126.552001953125,
+    "right": 952.0880126953125,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 1.61,
+    "min_frame_diff": 0.0275,
+    "longest_static_run_frames": 16,
+    "max_frame_diff": 74.0,
+    "max_diff_at_s": 2.2
+  },
+  "luma_min_mean_max": [
+    69.1,
+    95.5,
+    159.3
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

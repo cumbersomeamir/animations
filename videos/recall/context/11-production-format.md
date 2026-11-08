@@ -55,6 +55,9 @@ sheet, a static page or a page with camera bobbing is never the deliverable.
   clearly on top. Foley follows the on-screen action.
 - Loudness −14 to −16 LUFS, true peak ≤ −1 dBTP. One ASR + timing pass.
 
+**Renderer note (2026-11-08, E09):** the overlay 2D canvas must be a software canvas (`willReadFrequently`) flushed before
+each capture, and frames are written from an explicit in-page composite of the 3D and overlay canvases; see context 23.
+
 ## Palette and brand
 Recall accents from `assets/icon.png`: lime `#C7F36B`, paper `#F8FAF3`, ink `#20251B`. The environment uses warm real-world
 neutrals; lime marks the mechanism and the brand. The Recall icon may appear in-world (e.g. as a logo) and in the CTA.

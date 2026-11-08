@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.45,
+  "measured_start": 0.45,
+  "error_ms": 0.0,
+  "corr": 0.828,
+  "end": 2.943,
+  "shot_at_start": "hook_pov",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l02",
+  "planned_start": 3.3,
+  "measured_start": 3.3,
+  "error_ms": 0.0,
+  "corr": 0.853,
+  "end": 8.311,
+  "shot_at_start": "giant_cap",
+  "shot_at_end": "giant_cap"
+ },
+ {
+  "id": "l03",
+  "planned_start": 8.6,
+  "measured_start": 8.6,
+  "error_ms": 0.0,
+  "corr": 0.844,
+  "end": 13.661,
+  "shot_at_start": "giant_glove",
+  "shot_at_end": "giant_glove"
+ },
+ {
+  "id": "l04",
+  "planned_start": 14.05,
+  "measured_start": 14.05,
+  "error_ms": 0.0,
+  "corr": 0.837,
+  "end": 18.668,
+  "shot_at_start": "giant_thread",
+  "shot_at_end": "giant_thread"
+ },
+ {
+  "id": "l05",
+  "planned_start": 19.05,
+  "measured_start": 19.05,
+  "error_ms": 0.0,
+  "corr": 0.843,
+  "end": 24.644,
+  "shot_at_start": "giant_resistive",
+  "shot_at_end": "giant_resistive"
+ },
+ {
+  "id": "l06",
+  "planned_start": 26.35,
+  "measured_start": 26.35,
+  "error_ms": -0.2,
+  "corr": 0.843,
+  "end": 29.639,
+  "shot_at_start": "ok_cu",
+  "shot_at_end": "cafe_wide"
+ }
+]
