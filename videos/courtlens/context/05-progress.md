@@ -9,7 +9,8 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 ### Status
 - Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-07
   delivered at 99c85ca), assigned account info@tensorblue.com. No older job running. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-07-english-08/courtlens-30s-english08-01.mp4`.
+- DELIVERED: `production/30s/2026-11-07-english-08/courtlens-30s-english08-01.mp4`
+  (sha256 2cd33c985432adf8f64a678df308691a3a87597de8e9e0807ee20759a4ce7ef9).
 - Topic: the suggested "changed my mind vs defective" e-commerce returns subject duplicates Episode 01, so a fresh
   subject was chosen (episode record: `context/episodes/2026-11-07-english08-train-late-tdr.md`).
 
@@ -58,8 +59,23 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - The rule card's first line now reveals at 7.95 s, right after "rules say:", instead of 8.55 s.
 - The ticket line "now 22:10" read like the current time; it is now "expected 22:10".
 
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.4 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.76 s; y<300 clear; 11 captions, ≤2 lines, in y 340–520.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Details: `production/30s/2026-11-07-english-08/qa/QA.md`.
+- Interruption: a worker restart killed the first render at 596/900 frames. It was re-rendered cleanly in full
+  (deterministic frames) before QA.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- The April 2026 slab change is a checkpoint (see above).
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Delivered. The next request (english-09) follows.
 
 ## Round 2026-11-06 (english-07): English episode 07, ATM debited but no cash (RBI failed-transaction rules)
 
