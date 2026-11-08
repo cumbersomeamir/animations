@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 3.718,
+  "text": "Your message lands instantly; why does the video call lag?",
+  "speech_band_db": 21.7
+ },
+ {
+  "id": "l2",
+  "start": 4.31,
+  "end": 8.021,
+  "text": "That speed number is bandwidth: how many packets travel together.",
+  "speech_band_db": 23.3
+ },
+ {
+  "id": "l3",
+  "start": 8.61,
+  "end": 12.071,
+  "text": "Lag is latency: how long each packet takes to arrive.",
+  "speech_band_db": 21.4
+ },
+ {
+  "id": "l4",
+  "start": 12.66,
+  "end": 17.452,
+  "text": "A high satellite hop adds about a quarter second each way, however wide the pipe.",
+  "speech_band_db": 24.4
+ },
+ {
+  "id": "l5",
+  "start": 18.04,
+  "end": 22.62,
+  "text": "Past about one hundred fifty milliseconds, conversations stop feeling instant.",
+  "speech_band_db": 22.5
+ },
+ {
+  "id": "l6",
+  "start": 23.21,
+  "end": 25.54,
+  "text": "So check ping, not just download speed.",
+  "speech_band_db": 22.6
+ },
+ {
+  "id": "l7",
+  "start": 26.14,
+  "end": 29.549,
+  "text": "Download Meshline for nearby messaging, even offline.",
+  "speech_band_db": 21.1
+ }
+]

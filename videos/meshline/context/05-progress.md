@@ -46,3 +46,6 @@
 
 ## Production 2026-11-06-english-07 (English, upload vs download)
 - Done. Output `production/30s/2026-11-06-english-07/meshline-30s-english07-01.mp4`, sha256 `6994a049…7e65`. Details in `20-production-30s-english07-01.md`.
+
+## Production 2026-11-07-english-08 (English, latency vs bandwidth)
+- Done. Output `production/30s/2026-11-07-english-08/meshline-30s-english08-01.mp4`, sha256 `3a431ac4…3c2a`. Details in `21-production-30s-english08-01.md`.

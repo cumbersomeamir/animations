@@ -1,0 +1,351 @@
+{
+ "l1": [
+  {
+   "w": "Your",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "message",
+   "start": 0.1,
+   "end": 0.34
+  },
+  {
+   "w": "lands",
+   "start": 0.34,
+   "end": 0.74
+  },
+  {
+   "w": "instantly.",
+   "start": 0.74,
+   "end": 1.28
+  },
+  {
+   "w": "Why",
+   "start": 1.94,
+   "end": 2.08
+  },
+  {
+   "w": "does",
+   "start": 2.08,
+   "end": 2.22
+  },
+  {
+   "w": "the",
+   "start": 2.22,
+   "end": 2.38
+  },
+  {
+   "w": "video",
+   "start": 2.38,
+   "end": 2.58
+  },
+  {
+   "w": "call",
+   "start": 2.58,
+   "end": 2.84
+  },
+  {
+   "w": "lag?",
+   "start": 2.84,
+   "end": 3.16
+  }
+ ],
+ "l2": [
+  {
+   "w": "That",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "speed",
+   "start": 0.1,
+   "end": 0.34
+  },
+  {
+   "w": "number",
+   "start": 0.34,
+   "end": 0.7
+  },
+  {
+   "w": "is",
+   "start": 0.7,
+   "end": 0.94
+  },
+  {
+   "w": "bandwidth.",
+   "start": 0.94,
+   "end": 1.26
+  },
+  {
+   "w": "How",
+   "start": 1.96,
+   "end": 2.08
+  },
+  {
+   "w": "many",
+   "start": 2.08,
+   "end": 2.22
+  },
+  {
+   "w": "packets",
+   "start": 2.22,
+   "end": 2.56
+  },
+  {
+   "w": "travel",
+   "start": 2.56,
+   "end": 2.94
+  },
+  {
+   "w": "together?",
+   "start": 2.94,
+   "end": 3.34
+  }
+ ],
+ "l3": [
+  {
+   "w": "Lag",
+   "start": 0.0,
+   "end": 0.2
+  },
+  {
+   "w": "is",
+   "start": 0.2,
+   "end": 0.42
+  },
+  {
+   "w": "latency,",
+   "start": 0.42,
+   "end": 0.78
+  },
+  {
+   "w": "how",
+   "start": 1.4,
+   "end": 1.56
+  },
+  {
+   "w": "long",
+   "start": 1.56,
+   "end": 1.76
+  },
+  {
+   "w": "each",
+   "start": 1.76,
+   "end": 2.0
+  },
+  {
+   "w": "packet",
+   "start": 2.0,
+   "end": 2.24
+  },
+  {
+   "w": "takes",
+   "start": 2.24,
+   "end": 2.56
+  },
+  {
+   "w": "to",
+   "start": 2.56,
+   "end": 2.8
+  },
+  {
+   "w": "arrive.",
+   "start": 2.8,
+   "end": 3.0
+  }
+ ],
+ "l4": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "high",
+   "start": 0.08,
+   "end": 0.32
+  },
+  {
+   "w": "satellite",
+   "start": 0.32,
+   "end": 0.74
+  },
+  {
+   "w": "hop",
+   "start": 0.74,
+   "end": 1.18
+  },
+  {
+   "w": "adds",
+   "start": 1.18,
+   "end": 1.58
+  },
+  {
+   "w": "about",
+   "start": 1.58,
+   "end": 1.8
+  },
+  {
+   "w": "a",
+   "start": 1.8,
+   "end": 1.88
+  },
+  {
+   "w": "quarter",
+   "start": 1.88,
+   "end": 2.1
+  },
+  {
+   "w": "second",
+   "start": 2.1,
+   "end": 2.48
+  },
+  {
+   "w": "each",
+   "start": 2.48,
+   "end": 2.84
+  },
+  {
+   "w": "way,",
+   "start": 2.84,
+   "end": 3.06
+  },
+  {
+   "w": "however",
+   "start": 3.44,
+   "end": 3.72
+  },
+  {
+   "w": "wide",
+   "start": 3.72,
+   "end": 4.12
+  },
+  {
+   "w": "the",
+   "start": 4.12,
+   "end": 4.3
+  },
+  {
+   "w": "pipe.",
+   "start": 4.3,
+   "end": 4.48
+  }
+ ],
+ "l5": [
+  {
+   "w": "Past",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "about",
+   "start": 0.16,
+   "end": 0.46
+  },
+  {
+   "w": "150",
+   "start": 0.46,
+   "end": 0.94
+  },
+  {
+   "w": "milliseconds,",
+   "start": 0.94,
+   "end": 1.7
+  },
+  {
+   "w": "conversations",
+   "start": 2.36,
+   "end": 2.86
+  },
+  {
+   "w": "stop",
+   "start": 2.86,
+   "end": 3.44
+  },
+  {
+   "w": "feeling",
+   "start": 3.44,
+   "end": 3.78
+  },
+  {
+   "w": "instant.",
+   "start": 3.78,
+   "end": 4.16
+  }
+ ],
+ "l6": [
+  {
+   "w": "So",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "check",
+   "start": 0.12,
+   "end": 0.3
+  },
+  {
+   "w": "ping,",
+   "start": 0.3,
+   "end": 0.56
+  },
+  {
+   "w": "not",
+   "start": 0.94,
+   "end": 1.04
+  },
+  {
+   "w": "just",
+   "start": 1.04,
+   "end": 1.18
+  },
+  {
+   "w": "download",
+   "start": 1.18,
+   "end": 1.46
+  },
+  {
+   "w": "speed.",
+   "start": 1.46,
+   "end": 1.94
+  }
+ ],
+ "l7": [
+  {
+   "w": "Download",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "Meshline",
+   "start": 0.32,
+   "end": 0.86
+  },
+  {
+   "w": "for",
+   "start": 0.86,
+   "end": 1.08
+  },
+  {
+   "w": "nearby",
+   "start": 1.08,
+   "end": 1.26
+  },
+  {
+   "w": "messaging,",
+   "start": 1.26,
+   "end": 1.8
+  },
+  {
+   "w": "even",
+   "start": 2.32,
+   "end": 2.62
+  },
+  {
+   "w": "offline.",
+   "start": 2.62,
+   "end": 2.9
+  }
+ ]
+}

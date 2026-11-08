@@ -1,0 +1,11 @@
+Your message lands instantly; why does the video call lag?
+
+That speed number is bandwidth: how many packets travel together. Lag is latency: how long each packet takes to arrive.
+
+A high satellite hop adds about a quarter second each way, however wide the pipe. Past about 150 milliseconds, conversations stop feeling instant.
+
+So check ping, not just download speed.
+
+Download Meshline for nearby messaging, even offline.
+
+#latency #internet #techtips #Meshline

@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Your message lands instantly; why does the video call lag?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.468,
+      "end": 3.718
+    },
+    {
+      "id": "l2",
+      "start": 4.31,
+      "text": "That speed number is bandwidth: how many packets travel together.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.711,
+      "end": 8.021
+    },
+    {
+      "id": "l3",
+      "start": 8.61,
+      "text": "Lag is latency: how long each packet takes to arrive.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.461,
+      "end": 12.071
+    },
+    {
+      "id": "l4",
+      "start": 12.66,
+      "text": "A high satellite hop adds about a quarter second each way, however wide the pipe.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 4.792,
+      "end": 17.452
+    },
+    {
+      "id": "l5",
+      "start": 18.04,
+      "text": "Past about one hundred fifty milliseconds, conversations stop feeling instant.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.58,
+      "end": 22.62
+    },
+    {
+      "id": "l6",
+      "start": 23.21,
+      "text": "So check ping, not just download speed.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 2.33,
+      "end": 25.54
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.409,
+      "end": 29.549
+    }
+  ]
+}

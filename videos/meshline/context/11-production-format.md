@@ -169,3 +169,15 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Concrete payoff:** prefer one sourced real figure plus simple arithmetic said with "about" (e.g. 100 MB at 100 vs 20 Mbps → about 8 s vs 40 s). Show it on a labelled sped-up clock rather than pretending real time.
 - **Sources blocked to automated fetch** (fcc.gov pages, speedtest.net): use the official PDF on docs.fcc.gov and extract it locally; prefer open measurement platforms (M-Lab) for speed-test facts.
 - **ASR scoring with numbers:** base.en writes numbers as digits. Report the raw WER and a number-normalised WER (stored in `qa/asr_final.json`).
+| 10 | 2026-11-07-english-08 | Latency vs bandwidth: why a video call still lags, **English** | `production/30s/2026-11-07-english-08/meshline-30s-english08-01.mp4` |
+
+## User feedback 2026-11-07, batch english-08 (specific adjustments only)
+- **Topics:** latency vs bandwidth is now taken (10). Still unused planned titles: one bar can still send a text; what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
+- **Concrete payoff with a standard:** cite one recognised planning value (here ITU-T G.114: 150 ms one way for transparent interactivity; 260 ms for a 36 000 km satellite; fibre 5 µs/km) and show it on a meter or a labelled slowed/sped-up clock.
+- **First second:** show the contradiction itself (a text lands while call audio is still travelling).
+- **Loudness guard:**
+  - Dense narration can push the AAC true peak above 0 dBTP even when the WAV peak is −2.6.
+  - Always read the true peak from the final MP4.
+  - If it is above −1 dBTP, lower the RMS target (0.135 → 0.12) and the limiter ceiling (0.66 → 0.6). The result stays within −14 to −16 LUFS.
+- **ASR final scoring:** run without word timestamps (a faster-whisper alignment edge case). Report the raw WER plus a number-normalised WER.
+- **Duplicate requests:** if a request arrives repeated in one message, make exactly one episode.

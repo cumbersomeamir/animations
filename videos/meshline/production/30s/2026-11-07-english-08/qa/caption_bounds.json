@@ -1,0 +1,193 @@
+{
+ "rule": "ink y in [350,470], x in [90,990]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 2.1,
+   "lines": [
+    "Your message lands instantly;"
+   ],
+   "ink": {
+    "x0": 182,
+    "x1": 895,
+    "y0": 360,
+    "y1": 408
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 2.14,
+   "b": 4.018,
+   "lines": [
+    "why does the video call lag?"
+   ],
+   "ink": {
+    "x0": 205,
+    "x1": 873,
+    "y0": 360,
+    "y1": 408
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 4.26,
+   "b": 6.18,
+   "lines": [
+    "That speed number is bandwidth:"
+   ],
+   "ink": {
+    "x0": 140,
+    "x1": 938,
+    "y0": 360,
+    "y1": 408
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 6.22,
+   "b": 8.321,
+   "lines": [
+    "how many packets",
+    "travel together"
+   ],
+   "ink": {
+    "x0": 318,
+    "x1": 763,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.56,
+   "b": 9.92,
+   "lines": [
+    "Lag is latency:"
+   ],
+   "ink": {
+    "x0": 372,
+    "x1": 708,
+    "y0": 360,
+    "y1": 408
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 9.96,
+   "b": 12.371,
+   "lines": [
+    "how long each packet",
+    "takes to arrive"
+   ],
+   "ink": {
+    "x0": 281,
+    "x1": 800,
+    "y0": 360,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 12.61,
+   "b": 16.01,
+   "lines": [
+    "A high satellite hop adds about",
+    "a quarter second each way,"
+   ],
+   "ink": {
+    "x0": 171,
+    "x1": 907,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 16.05,
+   "b": 17.752,
+   "lines": [
+    "however wide the pipe"
+   ],
+   "ink": {
+    "x0": 273,
+    "x1": 807,
+    "y0": 360,
+    "y1": 408
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 17.99,
+   "b": 20.31,
+   "lines": [
+    "Past about 150 milliseconds,"
+   ],
+   "ink": {
+    "x0": 203,
+    "x1": 876,
+    "y0": 360,
+    "y1": 405
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 20.35,
+   "b": 22.92,
+   "lines": [
+    "conversations stop",
+    "feeling instant"
+   ],
+   "ink": {
+    "x0": 312,
+    "x1": 768,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 23.16,
+   "b": 25.84,
+   "lines": [
+    "So check ping,",
+    "not just download speed"
+   ],
+   "ink": {
+    "x0": 248,
+    "x1": 831,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 26.09,
+   "b": 29.849,
+   "lines": [
+    "Download Meshline for",
+    "nearby messaging, even offline"
+   ],
+   "ink": {
+    "x0": 171,
+    "x1": 909,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  }
+ ]
+}

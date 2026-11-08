@@ -1,0 +1,104 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 2.1,
+  "l": [
+   "Your message lands instantly;"
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 2.14,
+  "b": 4.018,
+  "l": [
+   "why does the video call lag?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 4.26,
+  "b": 6.18,
+  "l": [
+   "That speed number is bandwidth:"
+  ]
+ },
+ {
+  "id": "l2b",
+  "a": 6.22,
+  "b": 8.321,
+  "l": [
+   "how many packets",
+   "travel together"
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 8.56,
+  "b": 9.92,
+  "l": [
+   "Lag is latency:"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.96,
+  "b": 12.371,
+  "l": [
+   "how long each packet",
+   "takes to arrive"
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 12.61,
+  "b": 16.01,
+  "l": [
+   "A high satellite hop adds about",
+   "a quarter second each way,"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 16.05,
+  "b": 17.752,
+  "l": [
+   "however wide the pipe"
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 17.99,
+  "b": 20.31,
+  "l": [
+   "Past about 150 milliseconds,"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 20.35,
+  "b": 22.92,
+  "l": [
+   "conversations stop",
+   "feeling instant"
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 23.16,
+  "b": 25.84,
+  "l": [
+   "So check ping,",
+   "not just download speed"
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.09,
+  "b": 29.849,
+  "l": [
+   "Download Meshline for",
+   "nearby messaging, even offline"
+  ]
+ }
+]

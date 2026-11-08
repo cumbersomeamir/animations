@@ -19,3 +19,4 @@
 | Production 30s batch 2026-11-05-feedback-05 (Hindi, headphones behind a wall) | Original code in `production/30s/2026-11-05-feedback-05/`; Noto Sans Devanagari (OFL-1.1) in its `fonts/`; Kokoro Hindi voice hf_beta; see its `LICENSE-NOTES.md` | Original work / OFL-1.1 font / Apache-2.0 voice model |
 | Production 30s batch 2026-11-06-english-06 (English, sent vs delivered) | Original code in `production/30s/2026-11-06-english-06/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-06-english-07 (English, upload vs download) | Original code in `production/30s/2026-11-06-english-07/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s batch 2026-11-07-english-08 (English, latency vs bandwidth) | Original code in `production/30s/2026-11-07-english-08/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

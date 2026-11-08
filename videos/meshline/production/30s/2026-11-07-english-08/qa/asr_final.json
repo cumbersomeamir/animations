@@ -1,0 +1,135 @@
+{
+ "reference": "Your message lands instantly; why does the video call lag? That speed number is bandwidth: how many packets travel together. Lag is latency: how long each packet takes to arrive. A high satellite hop adds about a quarter second each way, however wide the pipe. Past about one hundred fifty milliseconds, conversations stop feeling instant. So check ping, not just download speed. Download Meshline for nearby messaging, even offline.",
+ "asr": "Your message lands instantly. Why does the video call lag? That speed number is bandwidth. How many packets travel together? Lag is latency. How long each packet takes to arrive. A high satellite hop adds about a quarter second each way, however wide the pipe. Past about 150 milliseconds, conversations stop feeling instant. So check ping, not just download speed. Download meshline for nearby messaging, even offline. . . . . . . . . . . . . .",
+ "wer": 0.043,
+ "segments": [
+  [
+   0.0,
+   2.0,
+   "Your message lands instantly."
+  ],
+  [
+   2.0,
+   4.0,
+   "Why does the video call lag?"
+  ],
+  [
+   4.0,
+   6.0,
+   "That speed number is bandwidth."
+  ],
+  [
+   6.0,
+   8.0,
+   "How many packets travel together?"
+  ],
+  [
+   8.0,
+   10.0,
+   "Lag is latency."
+  ],
+  [
+   10.0,
+   12.0,
+   "How long each packet takes to arrive."
+  ],
+  [
+   12.0,
+   16.0,
+   "A high satellite hop adds about a quarter second each way,"
+  ],
+  [
+   16.0,
+   18.0,
+   "however wide the pipe."
+  ],
+  [
+   18.0,
+   20.0,
+   "Past about 150 milliseconds,"
+  ],
+  [
+   20.0,
+   23.0,
+   "conversations stop feeling instant."
+  ],
+  [
+   23.0,
+   26.0,
+   "So check ping, not just download speed."
+  ],
+  [
+   26.0,
+   29.0,
+   "Download meshline for nearby messaging, even offline."
+  ],
+  [
+   30.0,
+   32.0,
+   "."
+  ],
+  [
+   32.0,
+   34.0,
+   "."
+  ],
+  [
+   34.0,
+   36.0,
+   "."
+  ],
+  [
+   36.0,
+   38.0,
+   "."
+  ],
+  [
+   38.0,
+   40.0,
+   "."
+  ],
+  [
+   40.0,
+   42.0,
+   "."
+  ],
+  [
+   42.0,
+   44.0,
+   "."
+  ],
+  [
+   44.0,
+   46.0,
+   "."
+  ],
+  [
+   46.0,
+   48.0,
+   "."
+  ],
+  [
+   48.0,
+   50.0,
+   "."
+  ],
+  [
+   50.0,
+   52.0,
+   "."
+  ],
+  [
+   52.0,
+   54.0,
+   "."
+  ],
+  [
+   54.0,
+   56.0,
+   "."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "digits\u2192words (150\u2192one hundred fifty)",
+ "remaining_diffs": []
+}

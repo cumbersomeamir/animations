@@ -75,3 +75,6 @@
 
 ## Production 2026-11-06-english-07 (English, upload vs download): complete
 - See `20-production-30s-english07-01.md`; output sha256 `6994a0491da964080be466ea06d796521e0d1234ef3afd021025f9cb77ee7e65`.
+
+## Production 2026-11-07-english-08 (English, latency vs bandwidth): complete
+- See `21-production-30s-english08-01.md`; output sha256 `3a431ac4f95022444e80d9533c0ea96187cbcf203196d1c766757c0af9923c2a`.
