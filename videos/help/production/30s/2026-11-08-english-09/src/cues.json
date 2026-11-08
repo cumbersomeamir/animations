@@ -1,0 +1,79 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.35,
+  3.65,
+  7.55,
+  11.35,
+  16.35,
+  20.3,
+  26.05
+ ],
+ "scenes": {
+  "A_hook_new_shoe_cracks": [
+   0.0,
+   3.4
+  ],
+  "B_fictional_collection": [
+   3.4,
+   7.3
+  ],
+  "C_check_pair": [
+   7.3,
+   11.1
+  ],
+  "D_check_sole": [
+   11.1,
+   16.05
+  ],
+  "E_check_size": [
+   16.05,
+   20.05
+  ],
+  "F_recap_box": [
+   20.05,
+   25.8
+  ],
+  "I_cta": [
+   25.8,
+   30.0
+  ]
+ },
+ "cues": {
+  "drop": 0.0,
+  "land": 0.35,
+  "bend0": 0.85,
+  "crack0": 1.05,
+  "crumble0": 1.35,
+  "q": 2.3,
+  "label": 3.75,
+  "box": 5.1,
+  "sort": 5.8,
+  "plaque1": 7.6,
+  "both": 8.05,
+  "single": 9.15,
+  "x1": 10.1,
+  "tick1": 10.9,
+  "plaque2": 11.4,
+  "bendGood": 12.4,
+  "old": 13.35,
+  "crack": 14.15,
+  "never": 14.95,
+  "tick2": 15.95,
+  "plaque3": 16.4,
+  "tag": 17.2,
+  "asked": 18.6,
+  "match": 19.25,
+  "tick3": 19.75,
+  "recap": 20.25,
+  "r1": 20.28,
+  "r2": 20.58,
+  "r3": 20.91,
+  "intoBox": 22.8,
+  "done": 24.1,
+  "logo": 26.3,
+  "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to English ASR word times of the final voice takes (qa/asr-voice-track.txt). Tick SFX only in pauses (tick1-3, done); ticks inside speech are visual only."
+}

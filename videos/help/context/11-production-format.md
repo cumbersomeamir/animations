@@ -185,3 +185,8 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - Start the first line ≥ 0.35 s in: ASR (and listeners) lose a clipped first word. ASR-test risky nouns in isolation before the full mix
   ("tin" after "the" → "ten"; "in date" → "and date"): rephrase rather than accept a misheard key word.
 - Music duck under speech raised from 0.55 to 0.72 for english-08 (hook line had only ~11 dB of margin); keep ≥ 15 dB voice-over-music in hooks.
+
+## Update 2026-11-08 — english-09 (corrections learned this episode)
+- "Looks new" props need a saturated palette fill (e.g. P.yellow upper): pale fills under the hide pattern read as grey stone, not new.
+- Side-view objects must carry one unmistakable silhouette cue (shoe: collar opening + toe line) or they read as blocks.
+- ASR traps found: "one shoe alone" → "once you alone", "unworn" → "unborn" — rephrase ("a single shoe", "even if never worn").

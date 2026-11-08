@@ -1,0 +1,139 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 155,
+  "x1": 925,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "It looks brand new.",
+   "fs": 66,
+   "x0": 233,
+   "x1": 847,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 25
+  },
+  {
+   "text": "So why can't / anyone wear it?",
+   "fs": 56,
+   "x0": 321,
+   "x1": 759,
+   "y0": 378,
+   "y1": 495,
+   "firstFrame": 74
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 242,
+   "x1": 838,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 124
+  },
+  {
+   "text": "a shoe collection / sorts donations.",
+   "fs": 56,
+   "x0": 306,
+   "x1": 774,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 182
+  },
+  {
+   "text": "Check one: both shoes.",
+   "fs": 66,
+   "x0": 155,
+   "x1": 925,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 246
+  },
+  {
+   "text": "A single shoe / can't be worn.",
+   "fs": 56,
+   "x0": 341,
+   "x1": 739,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 301
+  },
+  {
+   "text": "Check two: the / sole. Bend it.",
+   "fs": 56,
+   "x0": 331,
+   "x1": 749,
+   "y0": 378,
+   "y1": 484,
+   "firstFrame": 365
+  },
+  {
+   "text": "Old soles can crack,",
+   "fs": 66,
+   "x0": 212,
+   "x1": 868,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 416
+  },
+  {
+   "text": "even if never worn.",
+   "fs": 66,
+   "x0": 227,
+   "x1": 853,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 460
+  },
+  {
+   "text": "Check three: / the size inside,",
+   "fs": 56,
+   "x0": 332,
+   "x1": 748,
+   "y0": 378,
+   "y1": 495,
+   "firstFrame": 513
+  },
+  {
+   "text": "matched to what / they asked for.",
+   "fs": 56,
+   "x0": 309,
+   "x1": 771,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 569
+  },
+  {
+   "text": "Pair, sole, size:",
+   "fs": 66,
+   "x0": 294,
+   "x1": 786,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 625
+  },
+  {
+   "text": "three checks before / shoes go in the box.",
+   "fs": 56,
+   "x0": 263,
+   "x1": 817,
+   "y0": 377,
+   "y1": 496,
+   "firstFrame": 685
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 834
+  }
+ ]
+}

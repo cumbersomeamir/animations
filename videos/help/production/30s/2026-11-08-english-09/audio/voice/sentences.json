@@ -1,0 +1,57 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "It looks brand new. So why can't anyone wear it?",
+   "dur": 2.716,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Fictional example: a shoe collection sorts donations.",
+   "dur": 3.311,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Check one: both shoes. A single shoe can't be worn.",
+   "dur": 3.12,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Check two: the sole. Bend it. Old soles can crack, even if never worn.",
+   "dur": 4.433,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Check three: the size inside, matched to what they asked for.",
+   "dur": 3.178,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Pair, sole, size: three checks before shoes go in the box.",
+   "dur": 3.431,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  }
+ ]
+}

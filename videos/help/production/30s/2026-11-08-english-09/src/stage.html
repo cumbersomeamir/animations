@@ -1,0 +1,470 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Help — Three checks before donating shoes</title>
+<style>
+@font-face { font-family: 'Inter'; font-weight: 800; src: url('/education/pilot-01/fonts/Inter-ExtraBold.otf'); }
+@font-face { font-family: 'Inter'; font-weight: 600; src: url('/education/pilot-01/fonts/Inter-SemiBold.otf'); }
+html,body{margin:0;background:#0B0D12}
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// Help english-09 (2026-11-08) — accepted format 'Hands That Reveal the Hidden Cost'; primitives reused unchanged; English narration/captions (Inter) — original Canvas2D shadow-puppet theatre (art direction: lemo-opuscar styles/shadow-puppet/STYLE.md,
+// read-only). Deterministic: window.__draw(frame) -> PNG. Puppets step at 15 fps, snow/effects at 12 fps, delivery 30 fps.
+const W = 1080, H = 1920;
+const P = { cream: '#F7F5EF', ink: '#0B0D12', green: '#2DB37D', greenDk: '#1F8A5E', yellow: '#F2C230', yellowDk: '#C99A12', glow: '#FFE7A8' };
+const CUE = await (await fetch('./cues.json')).json(); const C = CUE.cues;
+const CAP = await (await fetch('./captions.json')).json();
+await document.fonts.load('800 60px Inter, "Noto Sans Devanagari"'); await document.fonts.load('600 30px Inter, "Noto Sans Devanagari"'); for (const w of [600, 700, 800]) await document.fonts.load(`${w} 60px "Noto Sans Devanagari"`, 'आपदा राहत');
+const icon_img = new Image(); icon_img.src = '/assets/icon.png'; await icon_img.decode();
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const SCR = { x: 64, y: 560, w: 952, h: 1080 }, GROUND = 1500, CX = 540, CY = 1100;
+
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const io = (u) => u < .5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+const ob = (u) => { const k = 1.9; return 1 + (k + 1) * Math.pow(u - 1, 3) + k * Math.pow(u - 1, 2); };
+const lerp = (a, b, u) => a + (b - a) * u;
+const rnd = (i) => { const s = Math.sin(i * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); };
+const mk = (w, h, fn) => { const c = document.createElement('canvas'); c.width = w; c.height = h; fn(c.getContext('2d'), w, h); return c; };
+
+// ---------- cached textures (built once) ----------
+const weave = mk(SCR.w, SCR.h, (w, cw, ch) => { w.fillStyle = '#F4E8CF'; w.fillRect(0, 0, cw, ch);
+  for (let y = 0; y < ch; y += 3) { w.fillStyle = `rgba(150,110,60,${0.035 + 0.03 * rnd(y)})`; w.fillRect(0, y, cw, 1); }
+  for (let x = 0; x < cw; x += 3) { w.fillStyle = `rgba(150,110,60,${0.03 + 0.03 * rnd(x + 9)})`; w.fillRect(x, 0, 1, ch); }
+  for (let i = 0; i < 3000; i++) { w.fillStyle = `rgba(120,80,40,${0.05 * rnd(i)})`; w.fillRect(rnd(i * 3) * cw, rnd(i * 7) * ch, 2, 1); }
+  const e = w.createRadialGradient(cw / 2, ch / 2, ch * 0.3, cw / 2, ch / 2, ch * 0.75); e.addColorStop(0, 'rgba(90,50,20,0)'); e.addColorStop(1, 'rgba(90,50,20,0.28)'); w.fillStyle = e; w.fillRect(0, 0, cw, ch); });
+const hide = g.createPattern(mk(128, 128, (w) => { w.fillStyle = '#fff'; w.fillRect(0, 0, 128, 128);
+  for (let i = 0; i < 260; i++) { w.fillStyle = `rgba(110,70,30,${0.06 + 0.1 * rnd(i + 3)})`; w.beginPath(); w.ellipse(rnd(i) * 128, rnd(i + 50) * 128, 2 + 9 * rnd(i + 7), 1 + 4 * rnd(i + 9), rnd(i + 11) * 3, 0, 7); w.fill(); }
+  for (let i = 0; i < 60; i++) { w.strokeStyle = `rgba(90,55,20,${0.08 * rnd(i + 40)})`; w.beginPath(); const x = rnd(i + 70) * 128, y = rnd(i + 90) * 128; w.moveTo(x, y); w.lineTo(x + 20 * rnd(i + 2), y + 6 * rnd(i + 4)); w.stroke(); } }), 'repeat');
+const lattice = g.createPattern(mk(44, 44, (w) => { w.fillStyle = 'rgba(255,240,200,0.9)';
+  w.beginPath(); w.moveTo(22, 6); w.lineTo(34, 22); w.lineTo(22, 38); w.lineTo(10, 22); w.closePath(); w.fill();
+  w.beginPath(); w.arc(0, 0, 5, 0, 7); w.arc(44, 0, 5, 0, 7); w.arc(0, 44, 5, 0, 7); w.arc(44, 44, 5, 0, 7); w.fill();
+  w.fillStyle = 'rgba(40,25,10,1)'; w.fillRect(19, 19, 6, 6); }), 'repeat');
+const grains = [0, 1, 2].map((k) => mk(W, H, (w) => { for (let i = 0; i < 9000; i++) { w.fillStyle = rnd(i + k * 9999) > 0.5 ? 'rgba(255,240,210,0.05)' : 'rgba(40,20,0,0.05)'; w.fillRect(rnd(i * 1.3 + k) * W, rnd(i * 2.7 + k) * H, 2, 2); } }));
+
+// ---------- puppet primitives ----------
+function piece(path, fill, alpha = 0.84, outline = '#123F2C', carve = false, blur = 0) {
+  g.save(); if (blur) g.filter = `blur(${blur}px)`;
+  g.save(); g.globalAlpha = 0.16; g.translate(9, 11); g.filter = `blur(${6 + blur}px)`; g.fillStyle = '#3A2410'; g.fill(path); g.restore();
+  g.save(); g.globalCompositeOperation = 'multiply'; g.globalAlpha = alpha; g.fillStyle = fill; g.fill(path);
+  g.globalAlpha = 0.55; g.fillStyle = hide; g.fill(path); g.restore();
+  if (carve) { g.save(); g.clip(path); g.globalCompositeOperation = 'screen'; g.globalAlpha = 0.55; g.fillStyle = lattice; g.fillRect(carve[0], carve[1], carve[2], carve[3]); g.restore(); }
+  g.save(); g.lineWidth = 5; g.strokeStyle = outline; g.globalAlpha = 0.92; g.lineJoin = 'round'; g.stroke(path); g.restore();
+  g.restore();
+}
+function rivet(x, y) { g.fillStyle = P.yellowDk; g.beginPath(); g.arc(x, y, 7, 0, 7); g.fill(); g.fillStyle = '#FFE9A0'; g.beginPath(); g.arc(x - 2, y - 2, 2.5, 0, 7); g.fill(); }
+let ROD_END = SCR.y + SCR.h + 60;
+function rod(x, y) { g.save(); g.strokeStyle = 'rgba(70,60,50,0.36)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (x - W / 2) * 0.07, ROD_END); g.stroke(); g.restore(); }
+function ik(sx, sy, tx, ty, l1, l2, bend) { let dx = tx - sx, dy = ty - sy, d = Math.hypot(dx, dy); const m = (l1 + l2) * 0.999; if (d > m) { tx = sx + dx / d * m; ty = sy + dy / d * m; d = m; }
+  const a = Math.atan2(ty - sy, tx - sx), cA = clamp((l1 * l1 + d * d - l2 * l2) / (2 * l1 * d), -1, 1), ang = a + bend * Math.acos(cA); return [sx + Math.cos(ang) * l1, sy + Math.sin(ang) * l1, tx, ty]; }
+function limb(x0, y0, x1, y1, w0, w1) { const a = Math.atan2(y1 - y0, x1 - x0), nx = -Math.sin(a), ny = Math.cos(a), p = new Path2D();
+  p.moveTo(x0 + nx * w0, y0 + ny * w0); p.lineTo(x1 + nx * w1, y1 + ny * w1); p.arc(x1, y1, w1, a + Math.PI / 2, a - Math.PI / 2, true); p.lineTo(x0 - nx * w0, y0 - ny * w0); p.arc(x0, y0, w0, a - Math.PI / 2, a + Math.PI / 2, true); return p; }
+
+// profile head with open-cut face (sympathetic figures)
+function head(x, y, s, wear, wearFill, tilt) {
+  g.save(); g.translate(x, y + 50); g.rotate(tilt); g.translate(-x, -(y + 50));
+  const p = new Path2D(); p.ellipse(x, y, 70, 80, 0, 0, Math.PI * 2);
+  p.moveTo(x + 62 * s, y - 6); p.lineTo(x + 92 * s, y + 14); p.lineTo(x + 66 * s, y + 24);   // nose
+  piece(p, '#D9B98A', 0.5, '#5A3A1A');
+  g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = 'rgba(255,240,200,0.85)';
+  g.beginPath(); g.ellipse(x + 34 * s, y - 6, 15, 6, 0.15 * s, 0, 7); g.fill(); g.restore();          // almond eye cut
+  g.strokeStyle = 'rgba(90,58,26,0.9)'; g.lineWidth = 5; g.lineCap = 'round';
+  g.beginPath(); g.moveTo(x + 18 * s, y - 24); g.quadraticCurveTo(x + 36 * s, y - 32, x + 52 * s, y - 24); g.stroke();   // brow
+  g.beginPath(); g.moveTo(x + 46 * s, y + 42); g.quadraticCurveTo(x + 58 * s, y + 48, x + 66 * s, y + 40); g.stroke();   // calm mouth
+  piece(wear(x, y, s), wearFill, 0.88, '#5A3A10', [x - 120, y - 140, 240, 70]);
+  g.restore();
+}
+const hat = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 2 * s, y - 52, 76, 40, 0, Math.PI, 0); p.moveTo(x - 125, y - 50); p.quadraticCurveTo(x, y - 74, x + 125, y - 50); p.quadraticCurveTo(x, y - 34, x - 125, y - 50); return p; };
+const scarf = (x, y, s) => { const p = new Path2D(); p.ellipse(x - 8 * s, y - 8, 84, 92, 0, Math.PI * 0.92, Math.PI * 0.08); p.lineTo(x - 30 * s, y + 70); p.lineTo(x - 95 * s, y + 55); p.closePath(); return p; };
+
+// figure in profile: { x, dir, tilt, head, hand, back, body, sleeve, wear, wearFill, tassel, blur }
+function figure(f, t) {
+  const s = f.dir, sh = { x: f.x + 10 * s, y: GROUND - 430 }, trem = Math.sin(t * 6.1 + f.x) * 1.8 + Math.sin(t * 2.3 + f.x) * 1.2;
+  g.save(); g.translate(f.x, GROUND); g.rotate(f.tilt || 0); g.translate(-f.x, -GROUND);
+  const robe = new Path2D(); robe.moveTo(f.x - 125, GROUND); robe.bezierCurveTo(f.x - 118, GROUND - 250, f.x - 82, GROUND - 420, f.x - 24, GROUND - 452);
+  robe.lineTo(f.x + 38, GROUND - 452); robe.bezierCurveTo(f.x + 88, GROUND - 420, f.x + 115, GROUND - 250, f.x + 125, GROUND); robe.closePath();
+  piece(robe, f.body, 0.84, '#123F2C', [f.x - 80, GROUND - 330, 160, 260], f.blur);
+  const hem = new Path2D(); hem.moveTo(f.x - 125, GROUND); hem.quadraticCurveTo(f.x, GROUND - 46, f.x + 125, GROUND); hem.lineTo(f.x + 122, GROUND - 22); hem.quadraticCurveTo(f.x, GROUND - 70, f.x - 122, GROUND - 22); hem.closePath();
+  piece(hem, P.greenDk, 0.8);
+  // back arm
+  const [bex, bey, bhx, bhy] = ik(sh.x - 12 * s, sh.y + 6, f.back[0], f.back[1] + trem, 118, 112, -s);
+  piece(limb(sh.x - 12 * s, sh.y + 6, bex, bey, 24, 20), f.sleeve, 0.72); piece(limb(bex, bey, bhx, bhy, 20, 16), f.sleeve, 0.72); rivet(bex, bey);
+  const hx = f.x + 18 * s, hy = GROUND - 548;
+  piece(limb(hx, hy + 60, f.x + 10 * s, GROUND - 440, 22, 28), f.body, 0.78);
+  const collar = new Path2D(); for (let i = 0; i < 5; i++) collar.arc(f.x - 40 + i * 20 + 6 * s, GROUND - 452, 14, Math.PI, 0); piece(collar, f.collar || P.yellow, 0.8, '#5A3A10');
+  head(hx, hy, s, f.wear, f.wearFill, f.head || 0);
+  if (f.tassel !== undefined) { const ax = hx - 60 * s, ay = hy + 40, tl = new Path2D(); const ex = ax + Math.sin(f.tassel) * 70, ey = ay + Math.cos(f.tassel) * 70;
+    tl.moveTo(ax, ay); tl.lineTo(ex - 10, ey); tl.lineTo(ex + 10, ey); tl.closePath(); piece(tl, f.wearFill, 0.85, '#5A3A10'); rivet(ax, ay); }
+  rivet(f.x + 10 * s, GROUND - 445);
+  const [ex, ey, hx2, hy2] = ik(sh.x, sh.y, f.hand[0], f.hand[1] + trem, 122, 116, s);
+  piece(limb(sh.x, sh.y, ex, ey, 26, 21), f.sleeve, 0.8); piece(limb(ex, ey, hx2, hy2, 21, 17), f.sleeve, 0.8);
+  const hand = new Path2D(); hand.ellipse(hx2 + 8 * s, hy2, 22, 17, 0, 0, Math.PI * 2); piece(hand, '#D9B98A', 0.6, '#5A3A1A');
+  rivet(sh.x, sh.y); rivet(ex, ey);
+  g.restore();
+  rod(hx2, hy2); rod(f.x + 10 * s, GROUND - 445);
+  return { hand: [hx2, hy2], back: [bhx, bhy] };
+}
+function coat(x, y, sc, crisp = true, blur = 0) {
+  const k = (v) => v * sc, p = new Path2D();
+  p.moveTo(x - k(40), y); p.lineTo(x + k(40), y); p.lineTo(x + k(95), y + k(35)); p.lineTo(x + k(150), y + k(210)); p.lineTo(x + k(110), y + k(228));
+  p.lineTo(x + k(78), y + k(130)); p.lineTo(x + k(88), y + k(380)); p.lineTo(x - k(88), y + k(380)); p.lineTo(x - k(78), y + k(130));
+  p.lineTo(x - k(110), y + k(228)); p.lineTo(x - k(150), y + k(210)); p.lineTo(x - k(95), y + k(35)); p.closePath();
+  piece(p, P.yellow, crisp ? 0.82 : 0.6, '#6B4A08', [x - k(70), y + k(150), k(140), k(200)], blur);
+  g.save(); g.strokeStyle = 'rgba(107,74,8,0.85)'; g.lineWidth = 4; g.beginPath(); g.moveTo(x, y + k(20)); g.lineTo(x, y + k(375)); g.stroke(); g.restore();
+  for (const yy of [110, 190, 270]) rivet(x + k(12), y + k(yy));
+  rod(x + k(60), y + k(200));
+}
+function bag(x, y, dim, blur = 0) {
+  const p = new Path2D(); p.moveTo(x - 110, y); p.bezierCurveTo(x - 150, y - 120, x - 90, y - 230, x - 30, y - 220); p.lineTo(x + 40, y - 225);
+  p.bezierCurveTo(x + 100, y - 230, x + 150, y - 120, x + 110, y); p.closePath();
+  // odd leftovers poking out: a lone sock, a tiny sweater sleeve, a sandal
+  const sock = new Path2D(); sock.moveTo(x - 60, y - 210); sock.lineTo(x - 70, y - 300); sock.lineTo(x - 40, y - 300); sock.lineTo(x - 30, y - 250); sock.lineTo(x - 5, y - 245); sock.lineTo(x - 10, y - 215); sock.closePath();
+  const slv = limb(x + 20, y - 215, x + 70, y - 300, 16, 12);
+  const sandal = new Path2D(); sandal.ellipse(x + 95, y - 230, 40, 14, -0.6, 0, 7);
+  g.save(); g.globalAlpha = 1 - 0.45 * dim;
+  piece(sock, '#B9A27E', 0.7, '#4A3A20', false, blur); piece(slv, '#8FB7A3', 0.7, '#2E4A3A', false, blur); piece(sandal, '#A0805A', 0.7, '#4A3A20', false, blur);
+  piece(p, '#9A8F7A', 0.85, '#3A3020', false, blur);
+  g.restore(); rod(x, y - 100);
+}
+function plaque(x, y, w, h, label, sc, flip = 1, num = '') {
+  if (sc <= 0.01) return;
+  g.save(); g.translate(x, y); g.scale(sc * flip, sc);
+  const p = new Path2D(); p.roundRect(-w / 2, -h / 2, w, h, 20); piece(p, '#2A1A10', 0.9, '#000');
+  g.fillStyle = P.glow; g.textAlign = 'center'; g.textBaseline = 'middle';
+  if (label) { g.font = `800 ${Math.round(h * 0.36)}px Inter, "Noto Sans Devanagari"`; g.fillText(label, 0, 4); }
+  else { g.font = `800 ${Math.round(h * 0.55)}px Inter, "Noto Sans Devanagari"`; g.fillText(num, 0, 6); }
+  g.restore(); rod(x, y + h / 2 * sc);
+}
+function tickBadge(x, y, sc) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.arc(0, 0, 34, 0, 7); piece(p, P.green, 0.92, '#0E4D33');
+  g.strokeStyle = P.yellow; g.lineWidth = 10; g.lineCap = 'round'; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-15, 1); g.lineTo(-4, 13); g.lineTo(16, -12); g.stroke(); g.restore(); }
+function ruler(x, top, sc) { if (sc <= 0.01) return; const h = (GROUND - top) * sc, y0 = GROUND - h, p = new Path2D(); p.rect(x - 18, y0, 36, h);
+  piece(p, P.yellow, 0.75, '#6B4A08'); g.save(); g.strokeStyle = 'rgba(80,50,10,0.9)'; g.lineWidth = 3;
+  for (let yy = GROUND - 40; yy > y0 + 10; yy -= 40) { g.beginPath(); g.moveTo(x - 18, yy); g.lineTo(x + (yy % 80 === 0 ? 4 : -6), yy); g.stroke(); } g.restore(); rod(x, GROUND - 200); }
+function flake(x, y, r, rot) { const p = new Path2D(); for (let i = 0; i < 6; i++) { const a = rot + i * Math.PI / 3; p.moveTo(x, y); p.lineTo(x + Math.cos(a) * r, y + Math.sin(a) * r); }
+  g.save(); g.strokeStyle = 'rgba(40,60,70,0.55)'; g.lineWidth = 5; g.lineCap = 'round'; g.stroke(p); g.strokeStyle = 'rgba(255,248,230,0.9)'; g.lineWidth = 2; g.stroke(p); g.restore(); }
+
+// ---------- scene: "Hands That Reveal the Hidden Cost" (poverty premium — small pack vs bulk sack) ----------
+const SCN = CUE.scenes, SA = Object.values(SCN);
+const span = (k) => SCN[k];
+function dip(t) { let d = 0; for (const [a] of SA.slice(1)) d = Math.max(d, 1 - Math.min(1, Math.abs(t - a) / 0.22)); return d; }   // lamp dip at each scene change
+const sm = (u) => u * u * (3 - 2 * u);
+const inOut = (t, a, b, f = 0.35) => Math.min(sm(seg(t, a, a + f)), 1 - sm(seg(t, b - f, b)));
+
+// cutout hand on a sleeve (one path => one carved piece); pose: open | grip | point
+function hand(x, y, ang, s, pose, sleeve, cuff, blur = 0) {
+  g.save(); g.translate(x, y); g.rotate(ang); g.scale(s, s);
+  const arm = new Path2D(); arm.moveTo(-34, 40); arm.lineTo(-48, 900); arm.lineTo(48, 900); arm.lineTo(34, 40); arm.closePath();
+  piece(arm, sleeve, 0.82, '#123F2C', [-30, 120, 60, 500], blur);
+  const cf = new Path2D(); cf.roundRect(-44, 26, 88, 34, 10); piece(cf, cuff, 0.9, '#5A3A10', false, blur);
+  const p = new Path2D(); p.roundRect(-40, -46, 80, 86, 24);
+  const fing = pose === 'grip' ? [[-27, 30, -0.1], [-9, 34, -0.02], [9, 33, 0.02], [26, 26, 0.1]] : pose === 'point' ? [[-27, 26, -0.1], [-9, 92, 0], [9, 28, 0.02], [26, 24, 0.1]] : [[-27, 66, -0.14], [-9, 76, -0.04], [9, 72, 0.04], [26, 58, 0.14]];
+  for (const [fx, len, a] of fing) { const ex = fx + Math.sin(a) * len, ey = -40 - Math.cos(a) * len; const f = limb(fx, -38, ex, ey, 10.5, 9.5); p.addPath(f); }
+  p.addPath(limb(-38, 6, pose === 'open' ? -84 : -66, pose === 'open' ? -34 : -26, 12, 10));
+  piece(p, '#D9B98A', 0.62, '#5A3A1A', false, blur);
+  rivet(0, 44); g.restore();
+  rod(x - Math.sin(ang) * -40 * s, y + 40 * s);
+}
+function packet(x, y, s, dim = 0, blur = 0) {   // small grocery packet (bottom-centre at x,y)
+  g.save(); g.globalAlpha = 1 - 0.4 * dim; const w = 96 * s, h = 132 * s;
+  const p = new Path2D(); p.moveTo(x - w / 2, y); p.lineTo(x - w / 2, y - h + 22 * s); p.lineTo(x - w / 2 + 10 * s, y - h); p.lineTo(x + w / 2 - 10 * s, y - h); p.lineTo(x + w / 2, y - h + 22 * s); p.lineTo(x + w / 2, y); p.closePath();
+  piece(p, P.yellow, 0.88, '#6B4A08', false, blur);
+  const lab = new Path2D(); lab.roundRect(x - w * 0.36, y - h * 0.62, w * 0.72, h * 0.42, 8 * s); piece(lab, P.cream, 0.9, '#6B4A08', false, blur);
+  g.fillStyle = '#6B4A08'; for (let i = 0; i < 5; i++) { g.beginPath(); g.ellipse(x - w * 0.18 + (i % 3) * w * 0.18, y - h * 0.47 + Math.floor(i / 3) * h * 0.13, 6 * s, 9 * s, 0.5, 0, 7); g.fill(); }
+  g.restore();
+}
+function sack(x, y, s, dim = 0, blur = 0) {     // bulk sack (bottom-centre at x,y)
+  g.save(); g.globalAlpha = 1 - 0.45 * dim; const w = 230 * s, h = 300 * s;
+  const p = new Path2D(); p.moveTo(x - w / 2, y); p.bezierCurveTo(x - w * 0.62, y - h * 0.45, x - w * 0.42, y - h * 0.86, x - w * 0.16, y - h * 0.9);
+  p.lineTo(x - w * 0.22, y - h); p.lineTo(x + w * 0.22, y - h); p.lineTo(x + w * 0.16, y - h * 0.9);
+  p.bezierCurveTo(x + w * 0.42, y - h * 0.86, x + w * 0.62, y - h * 0.45, x + w / 2, y); p.closePath();
+  piece(p, '#C9A06A', 0.86, '#4A3216', [x - w * 0.34, y - h * 0.7, w * 0.68, h * 0.55], blur);
+  const tie = new Path2D(); tie.roundRect(x - w * 0.2, y - h * 0.93, w * 0.4, 16 * s, 6); piece(tie, P.greenDk, 0.9, '#0E4D33', false, blur);
+  const lab = new Path2D(); lab.roundRect(x - w * 0.26, y - h * 0.5, w * 0.52, h * 0.26, 10 * s); piece(lab, P.cream, 0.92, '#4A3216', false, blur);
+  g.fillStyle = '#4A3216'; for (let i = 0; i < 7; i++) { g.beginPath(); g.ellipse(x - w * 0.15 + (i % 4) * w * 0.1, y - h * 0.41 + Math.floor(i / 4) * h * 0.09, 6 * s, 9 * s, 0.5, 0, 7); g.fill(); }
+  g.restore();
+}
+function bar(x, base, h, col, label, a = 1, w = 170) {
+  if (h < 2 || a <= 0.01) return; g.save(); g.globalAlpha = a;
+  const p = new Path2D(); p.roundRect(x - w / 2, base - h, w, h, [14, 14, 0, 0]); piece(p, col, 0.86, col === P.green ? '#0E4D33' : '#6B4A08', [x - w / 2 + 14, base - h + 14, w - 28, Math.max(0, h - 28)]);
+  g.restore(); rod(x - w * 0.3, base - h * 0.5); rod(x + w * 0.3, base - h * 0.5);
+  if (label) { g.save(); g.globalAlpha = a; g.font = '800 40px Inter, "Noto Sans Devanagari"'; const tw = g.measureText(label).width + 30; g.fillStyle = 'rgba(247,245,239,0.95)'; g.beginPath(); g.roundRect(x - tw / 2, base + 6, tw, 50, 25); g.fill();
+    g.fillStyle = P.ink; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, x, base + 32); g.restore(); }
+}
+function bigPlaque(x, y, w, h, lines, sc, fs = 46, glow = 0) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  if (glow > 0.01) { g.save(); g.shadowColor = 'rgba(255,220,120,0.95)'; g.shadowBlur = 40 * glow; g.fillStyle = `rgba(255,220,120,${0.3 * glow})`; g.beginPath(); g.roundRect(-w / 2 - 6, -h / 2 - 6, w + 12, h + 12, 22); g.fill(); g.restore(); }
+  const p = new Path2D(); p.roundRect(-w / 2, -h / 2, w, h, 20); piece(p, '#2A1A10', 0.93, '#000');
+  g.fillStyle = P.glow; g.textAlign = 'center'; g.textBaseline = 'middle';
+  lines.forEach((ln, i) => { g.font = `800 ${i === 0 ? fs : Math.round(fs * 0.62)}px Inter, "Noto Sans Devanagari"`; g.fillText(ln, 0, (i - (lines.length - 1) / 2) * fs * 1.15 + 3); });
+  g.restore(); rod(x - w * 0.3, y + h / 2 * sc); rod(x + w * 0.3, y + h / 2 * sc); }
+function coin(x, y, s = 1) { const p = new Path2D(); p.arc(x, y, 26 * s, 0, 7); piece(p, P.yellow, 0.92, '#6B4A08'); g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = 'rgba(255,240,200,0.9)'; g.beginPath(); g.arc(x, y, 7 * s, 0, 7); g.fill(); g.restore(); }
+function envelope(x, y, open, sc = 1) { g.save(); g.translate(x, y); g.scale(sc, sc);
+  const b = new Path2D(); b.roundRect(-170, -100, 340, 200, 12); piece(b, P.cream, 0.95, '#3A2410');
+  g.save(); g.translate(0, -100); g.scale(1, 1 - 2 * open); const f = new Path2D(); f.moveTo(-170, 0); f.lineTo(0, 110); f.lineTo(170, 0); f.closePath(); piece(f, '#E8DCC0', 0.95, '#3A2410'); g.restore();
+  g.fillStyle = '#3A2410'; g.font = '800 40px Inter, "Noto Sans Devanagari"'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('BUDGET', 0, 50);
+  g.restore(); rod(x, y + 100 * sc); }
+function block(x, y, label, sc) { if (sc <= 0.01) return; bigPlaque(x, y, 230, 96, [label], sc, 42); }
+
+// ===== round-02 episode props (same carved-hide piece() language) =====
+const BASE = 1480;
+function crate(x, y, s, dim = 0, blur = 0, full = 1, label = 'SURPLUS') {     // surplus crate, bottom-centre at (x,y)
+  g.save(); g.globalAlpha = 1 - 0.45 * dim; const w = 220 * s, h = 150 * s;
+  // produce poking out (fruit + loaves), drawn behind the front slats
+  if (full > 0.01) { const items = [[-0.32, P.green], [-0.12, P.yellow], [0.1, '#E8A23A'], [0.3, P.green]];
+    items.forEach(([fx, col], i) => { const p = new Path2D(); p.ellipse(x + fx * w, y - h + 6 * s - 18 * s * full, 30 * s, 26 * s, 0, 0, 7); piece(p, col, 0.88, '#3A2410', false, blur); });
+    const loaf = new Path2D(); loaf.ellipse(x - 0.02 * w, y - h - 26 * s * full, 54 * s, 22 * s, -0.15, 0, 7); piece(loaf, '#D9A36A', 0.9, '#4A3216', false, blur); }
+  const body = new Path2D(); body.rect(x - w / 2, y - h, w, h); piece(body, '#B98A55', 0.9, '#3A2410', false, blur);
+  g.save(); g.strokeStyle = 'rgba(58,36,16,0.85)'; g.lineWidth = 5 * s; for (let k = 1; k < 3; k++) { g.beginPath(); g.moveTo(x - w / 2, y - h + k * h / 3); g.lineTo(x + w / 2, y - h + k * h / 3); g.stroke(); } g.restore();
+  const tag = new Path2D(); tag.roundRect(x - 70 * s, y - h * 0.62, 140 * s, 40 * s, 8 * s); piece(tag, P.cream, 0.95, '#3A2410', false, blur);
+  g.fillStyle = '#3A2410'; g.font = `800 ${Math.round(26 * s)}px Inter, "Noto Sans Devanagari"`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, x, y - h * 0.62 + 21 * s);
+  g.restore();
+}
+function bowl(x, y, s, fill = 0, steam = 0, t = 0) {        // bowl on a little stand, bottom-centre at (x,y)
+  const st = new Path2D(); st.rect(x - 70 * s, y - 70 * s, 140 * s, 70 * s); piece(st, '#5A3A1A', 0.88, '#2A1A08');
+  if (fill > 0.01) { const f = new Path2D(); f.ellipse(x, y - 132 * s, 92 * s, 22 * s * fill, 0, Math.PI, 0); piece(f, '#E8A23A', 0.9, '#6B4A08'); }
+  const b = new Path2D(); b.moveTo(x - 110 * s, y - 132 * s); b.quadraticCurveTo(x, y - 20 * s, x + 110 * s, y - 132 * s); b.closePath(); piece(b, P.cream, 0.95, '#3A2410');
+  if (steam > 0.01) { g.save(); g.globalAlpha = steam * 0.8; g.strokeStyle = 'rgba(90,60,30,0.6)'; g.lineWidth = 6 * s; g.lineCap = 'round';
+    for (let k = -1; k <= 1; k++) { g.beginPath(); for (let j = 0; j <= 10; j++) { const yy = y - 150 * s - j * 9 * s, xx = x + k * 36 * s + Math.sin(j * 0.8 + t * 4 + k) * 8 * s; j ? g.lineTo(xx, yy) : g.moveTo(xx, yy); } g.stroke(); } g.restore(); }
+}
+function iconClock(x, y, r, ang, col = P.glow, hourAng = 2.0) { g.save(); g.strokeStyle = col; g.lineWidth = r * 0.16; g.lineCap = 'round'; g.beginPath(); g.arc(x, y, r, 0, 7); g.stroke();
+  g.beginPath(); g.moveTo(x, y); g.lineTo(x + Math.sin(ang) * r * 0.75, y - Math.cos(ang) * r * 0.75); g.stroke(); g.lineWidth = r * 0.2; g.beginPath(); g.moveTo(x, y); g.lineTo(x + Math.sin(hourAng) * r * 0.48, y - Math.cos(hourAng) * r * 0.48); g.stroke(); g.restore(); }
+function iconSnow(x, y, r, col = P.glow) { g.save(); g.strokeStyle = col; g.lineWidth = r * 0.16; g.lineCap = 'round'; for (let i = 0; i < 3; i++) { const a = i * Math.PI / 3; g.beginPath(); g.moveTo(x - Math.cos(a) * r, y - Math.sin(a) * r); g.lineTo(x + Math.cos(a) * r, y + Math.sin(a) * r); g.stroke(); } g.restore(); }
+function iconVan(x, y, r, col = P.glow) { g.save(); g.fillStyle = col; g.beginPath(); g.roundRect(x - r * 1.1, y - r * 0.6, r * 1.45, r * 0.95, r * 0.12); g.fill(); g.beginPath(); g.roundRect(x + r * 0.4, y - r * 0.25, r * 0.7, r * 0.6, r * 0.12); g.fill();
+  g.fillStyle = '#2A1A10'; for (const wx of [-0.6, 0.65]) { g.beginPath(); g.arc(x + wx * r, y + r * 0.42, r * 0.24, 0, 7); g.fill(); } g.restore(); }
+function iconPlaque(x, y, kind, label, sc) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.roundRect(-100, -86, 200, 172, 18); piece(p, '#2A1A10', 0.93, '#000');
+  if (kind === 'clock') iconClock(0, -22, 40, 1.2); if (kind === 'snow') iconSnow(0, -22, 42); if (kind === 'van') iconVan(0, -26, 44);
+  g.fillStyle = P.glow; g.font = '800 32px Inter, "Noto Sans Devanagari"'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, 0, 54); g.restore(); rod(x, y + 86 * sc); }
+function van(x, y, s, label, blur = 0) {                    // delivery van, bottom-centre (x,y)
+  const p = new Path2D(); p.roundRect(x - 150 * s, y - 170 * s, 210 * s, 140 * s, 14 * s); p.roundRect(x + 50 * s, y - 120 * s, 100 * s, 90 * s, 14 * s);
+  piece(p, P.green, 0.88, '#0E4D33', [x - 130 * s, y - 150 * s, 170 * s, 100 * s], blur);
+  const win = new Path2D(); win.roundRect(x + 70 * s, y - 108 * s, 56 * s, 36 * s, 6 * s); piece(win, P.cream, 0.9, '#0E4D33', false, blur);
+  for (const wx of [-90, 95]) { const w = new Path2D(); w.arc(x + wx * s, y - 22 * s, 30 * s, 0, 7); piece(w, '#2A1A10', 0.95, '#000', false, blur); rivet(x + wx * s, y - 22 * s); }
+  if (label) { const tg = new Path2D(); tg.roundRect(x - 120 * s, y - 150 * s, 150 * s, 50 * s, 10 * s); piece(tg, '#2A1A10', 0.95, '#000');
+    g.fillStyle = P.glow; g.font = `800 ${Math.round(30 * s)}px Inter, "Noto Sans Devanagari"`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, x - 45 * s, y - 124 * s); }
+  rod(x - 40 * s, y - 60 * s);
+}
+function coldBox(x, y, s, open, label) {                    // cold storage cabinet, bottom-centre (x,y)
+  const w = 230 * s, h = 360 * s; const b = new Path2D(); b.roundRect(x - w / 2, y - h, w, h, 16 * s); piece(b, P.cream, 0.95, '#3A2410');
+  if (open > 0.01) { const inner = new Path2D(); inner.rect(x - w / 2 + 16 * s, y - h + 16 * s, w - 32 * s, h - 32 * s); piece(inner, '#E3EFE8', 0.9, '#3A2410'); }
+  g.save(); g.translate(x - w / 2, y - h); g.scale(1 - 0.85 * open, 1); const d = new Path2D(); d.roundRect(0, 0, w, h, 16 * s); piece(d, '#EFE8DA', 0.95, '#3A2410'); g.restore();
+  iconSnow(x, y - h * 0.72, 34 * s, 'rgba(31,138,94,0.95)');
+  if (label) { const tg = new Path2D(); tg.roundRect(x - 80 * s, y - h * 0.45, 160 * s, 54 * s, 10 * s); piece(tg, '#2A1A10', 0.95, '#000');
+    g.fillStyle = P.glow; g.font = `800 ${Math.round(34 * s)}px Inter, "Noto Sans Devanagari"`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(label, x, y - h * 0.45 + 28 * s); }
+  rod(x, y - h * 0.3);
+}
+function shop(x0, x1, y0, sc = 1) {                         // simple shop stall with awning + counter
+  const y1 = y0 + 320; const back = new Path2D(); back.rect(x0 + 16, y0 + 66, x1 - x0 - 32, 250); piece(back, '#B88E58', 0.42, '#4A3216');
+  for (const xx of [x0, x1 - 22]) { const p = new Path2D(); p.rect(xx, y0 + 56, 22, 264); piece(p, '#5A3A1A', 0.85, '#2A1A08'); }
+  const counter = new Path2D(); counter.rect(x0 - 8, y1 - 30, x1 - x0 + 16, 30); piece(counter, '#5A3A1A', 0.9, '#2A1A08');
+  const aw = new Path2D(); aw.rect(x0 - 10, y0, x1 - x0 + 20, 58); for (let i = 0; i < 8; i++) { aw.moveTo(x0 + 39 + i * 50, y0 + 58); aw.arc(x0 + 14 + i * 50, y0 + 58, 25, 0, Math.PI); }
+  piece(aw, P.yellow, 0.82, '#6B4A08', [x0, y0, x1 - x0, 58]);
+  g.save(); g.fillStyle = '#3A2410'; g.font = '800 36px Inter, "Noto Sans Devanagari"'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('SHOP', (x0 + x1) / 2, y0 + 30); g.restore();
+  return [(x0 + x1) / 2, y1 - 30];
+}
+function routeDots(pts, u, col = P.green) {                // carved dotted route revealed up to fraction u
+  let total = 0; const L = []; for (let i = 0; i < pts.length - 1; i++) { const d = Math.hypot(pts[i + 1][0] - pts[i][0], pts[i + 1][1] - pts[i][1]); L.push(d); total += d; }
+  const upto = total * u; let acc = 0;
+  for (let i = 0; i < L.length; i++) for (let d = 0; d < L[i]; d += 34) { if (acc + d > upto) return; const k = d / L[i]; const x = lerp(pts[i][0], pts[i + 1][0], k), y = lerp(pts[i][1], pts[i + 1][1], k);
+    const p = new Path2D(); p.arc(x, y, 9, 0, 7); piece(p, col, 0.9, '#0E4D33'); }
+  acc += 0;
+}
+function along(pts, u) { let total = 0; const L = []; for (let i = 0; i < pts.length - 1; i++) { const d = Math.hypot(pts[i + 1][0] - pts[i][0], pts[i + 1][1] - pts[i][1]); L.push(d); total += d; }
+  let r = total * clamp(u); for (let i = 0; i < L.length; i++) { if (r <= L[i]) { const k = r / L[i]; return [lerp(pts[i][0], pts[i + 1][0], k), lerp(pts[i][1], pts[i + 1][1], k)]; } r -= L[i]; } return pts[pts.length - 1]; }
+function smallLabel(x, y, text, a = 1) { if (a <= 0.01) return; g.save(); g.globalAlpha = a; g.font = '800 34px Inter, "Noto Sans Devanagari"'; const tw = g.measureText(text).width + 30; g.fillStyle = 'rgba(247,245,239,0.95)'; g.beginPath(); g.roundRect(x - tw / 2, y - 24, tw, 48, 24); g.fill();
+  g.fillStyle = P.ink; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, x, y + 1); g.restore(); }
+
+function kbox(x, y, w, h, dim = 0, blur = 0) {               // kraft box, bottom-centre (x,y)
+  g.save(); g.globalAlpha = 1 - 0.4 * dim; const p = new Path2D(); p.rect(x - w / 2, y - h, w, h); piece(p, '#C9A06A', 0.86, '#4A3216', false, blur);
+  g.strokeStyle = 'rgba(31,138,94,0.9)'; g.lineWidth = 7; g.beginPath(); g.moveTo(x, y - h); g.lineTo(x, y); g.stroke(); g.restore();
+}
+function checkPlaque(x, y, text, sc, tk) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.roundRect(-250, -54, 500, 108, 18); piece(p, '#2A1A10', 0.93, '#000');
+  g.fillStyle = P.glow; g.font = '800 44px Inter, "Noto Sans Devanagari"'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText(text, -200, 4);
+  const c = new Path2D(); c.arc(-226, 0, 0.1, 0, 7); g.restore(); rod(x - 120, y + 54 * sc); rod(x + 120, y + 54 * sc);
+  if (tk > 0.01) tickBadge(x + 215 * sc, y, tk); }
+
+// ===== english-09 episode props (same carved-hide piece() language; shoes, a dignified collection desk — no recipients are shown) =====
+const HF = (w, px) => `${w} ${px}px Inter`;
+const INK = '#1A120A', GREY = '#7C8794', GREYDK = '#3A4048', RED = '#C8472E';
+function crossBadge(x, y, sc) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc); const p = new Path2D(); p.arc(0, 0, 34, 0, 7); piece(p, RED, 0.92, '#5A1A10');
+  g.strokeStyle = P.cream; g.lineWidth = 9; g.lineCap = 'round'; g.beginPath(); g.moveTo(-12, -12); g.lineTo(12, 12); g.moveTo(12, -12); g.lineTo(-12, 12); g.stroke(); g.restore(); }
+function card(x, y, w, h, lines, sc, fill = '#E9DCC0', fs = 34, col = INK) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);       // cream carved card with ink text
+  const p = new Path2D(); p.roundRect(-w / 2, -h / 2, w, h, 16); piece(p, fill, 0.93, '#4A3216');
+  g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; lines.forEach((ln, i) => { g.font = HF(800, i === 0 ? fs : Math.round(fs * 0.7)); g.fillText(ln, 0, (i - (lines.length - 1) / 2) * fs * 1.12 + 2); }); g.restore(); }
+function magnifier(x, y, s) { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = '#2A1A10'; g.lineWidth = 12; g.beginPath(); g.arc(0, 0, 44, 0, 7); g.stroke();
+  g.fillStyle = 'rgba(255,246,222,0.35)'; g.beginPath(); g.arc(0, 0, 38, 0, 7); g.fill(); g.lineCap = 'round'; g.lineWidth = 18; g.beginPath(); g.moveTo(32, 32); g.lineTo(78, 78); g.stroke(); g.restore(); }
+const ROWS = ['PAIR', 'SOLE', 'SIZE'];
+function checkBoard(x, y, sc, rowsIn, ticks, w = 470) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc);
+  const p = new Path2D(); p.roundRect(-w / 2, -150, w, 300, 22); piece(p, '#2A1A10', 0.93, '#000');
+  g.fillStyle = P.glow; g.textAlign = 'center'; g.textBaseline = 'middle'; g.font = HF(800, 40); g.fillText('3 CHECKS', 0, -102);
+  ROWS.forEach((r, i) => { const a = rowsIn[i]; if (a <= 0.01) return; const yy = -30 + i * 72; g.globalAlpha = a; g.strokeStyle = P.glow; g.lineWidth = 4; g.strokeRect(-w / 2 + 34, yy - 20, 40, 40);
+    g.fillStyle = P.glow; g.textAlign = 'left'; g.font = HF(800, 38); g.fillText(r, -w / 2 + 96, yy + 2); g.globalAlpha = 1; if (ticks[i] > 0.01) tickBadge(-w / 2 + 54, yy, ticks[i] * 0.7); });
+  g.restore(); rod(x - w * 0.3, y + 150 * sc); rod(x + w * 0.3, y + 150 * sc); }
+// side-view shoe, sole bottom-centre at (x,y); o: dir (1 faces right), col (upper), crack 0..1, crumble 0..1, bend (rad), tag (size text inside), sparkle
+function shoe(x, y, s, o = {}) { g.save(); g.translate(x, y); g.scale(s * (o.dir || 1), s);
+  const bend = o.bend || 0; g.translate(0, 0);
+  // sole (two halves so it can bend at the ball of the foot)
+  const solePath = (x0, x1, top, bot, rTL, rTR) => { const p = new Path2D(); p.roundRect(x0, top, x1 - x0, bot - top, [rTL, rTR, 12, 12]); return p; };
+  const crumble = o.crumble || 0, crack = o.crack || 0;
+  g.save(); g.rotate(-bend * 0.4);
+  const rear = solePath(-120, 10, -34, 0, 10, 0); piece(rear, '#EDE7DA', 0.92, '#5A4A36');
+  g.restore();
+  g.save(); g.translate(10, 0); g.rotate(bend); g.translate(-10, 0);
+  const front = solePath(10, 130, -34, 0, 0, 22); if (crumble < 0.98) { g.save(); g.globalAlpha = 1 - crumble * 0.85; piece(front, '#EDE7DA', 0.92, '#5A4A36'); g.restore(); }
+  g.restore();
+  if (crack > 0.01) { g.save(); g.strokeStyle = `rgba(60,40,20,${0.9 * clamp(crack * 1.5)})`; g.lineWidth = 3.5; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-100, -20); g.lineTo(-84, -8); g.lineTo(-70, -24); g.lineTo(-52, -6); g.lineTo(-34, -22); g.lineTo(-14, -9); g.lineTo(4, -25); g.lineTo(24, -7); g.lineTo(48, -22); g.lineTo(70, -8); g.lineTo(96, -22); g.stroke();
+    g.beginPath(); g.moveTo(-60, -34); g.lineTo(-56, -16); g.moveTo(30, -34); g.lineTo(34, -14); g.moveTo(88, -34); g.lineTo(84, -12); g.stroke(); g.restore(); }
+  // upper
+  const u = new Path2D(); u.moveTo(-118, -34); u.lineTo(-122, -118); u.quadraticCurveTo(-120, -142, -96, -144); u.lineTo(-40, -138); u.quadraticCurveTo(0, -120, 40, -92); u.quadraticCurveTo(110, -78, 128, -48); u.lineTo(130, -34); u.closePath();
+  g.save(); g.translate(10, 0); g.rotate(bend * 0.55); g.translate(-10, 0); piece(u, o.col || '#F1EEE6', 0.9, '#3A3530');
+  g.fillStyle = '#2A1A10'; g.beginPath(); g.ellipse(-78, -140, 40, 9, -0.05, 0, 7); g.fill();
+  g.strokeStyle = 'rgba(40,30,20,0.55)'; g.lineWidth = 4; g.beginPath(); g.moveTo(70, -82); g.quadraticCurveTo(84, -58, 82, -36); g.stroke();
+  g.strokeStyle = o.stripe || P.green; g.lineWidth = 9; g.lineCap = 'round'; g.beginPath(); g.moveTo(-60, -60); g.quadraticCurveTo(0, -84, 60, -60); g.stroke();
+  g.strokeStyle = '#3A3530'; g.lineWidth = 4; for (let i = 0; i < 3; i++) { g.beginPath(); g.moveTo(-20 + i * 18, -126 + i * 9); g.lineTo(-8 + i * 18, -112 + i * 9); g.stroke(); }
+  if (o.lace) { g.strokeStyle = o.lace; g.lineWidth = 5; g.beginPath(); g.moveTo(-6, -132); g.quadraticCurveTo(-40, -170, -14, -186); g.stroke(); }
+  g.restore();
+  if (o.sparkle > 0.01) { g.save(); g.globalAlpha = o.sparkle; g.fillStyle = '#FFF6C8'; for (const [sx, sy, r] of [[-70, -150, 14], [80, -110, 11], [110, -40, 9]]) { g.beginPath(); for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4, rr = i % 2 ? r * 0.3 : r; i ? g.lineTo(sx + Math.cos(a) * rr, sy + Math.sin(a) * rr) : g.moveTo(sx + Math.cos(a) * rr, sy + Math.sin(a) * rr); } g.closePath(); g.fill(); } g.restore(); }
+  g.restore();
+  if (crumble > 0.01) { g.save(); g.fillStyle = '#E6DCC6'; for (let i = 0; i < 9; i++) { const u2 = clamp(crumble * 1.4 - i * 0.04); const px = x + (20 + i * 12) * s * (o.dir || 1), py = y + 90 * u2 * u2 * s + (i % 3) * 4; g.globalAlpha = 1 - 0.6 * u2; g.beginPath(); g.ellipse(px, py, 7 * s, 5 * s, i, 0, 7); g.fill(); } g.restore(); }
+}
+function sizeTag(x, y, sc, txt) { if (sc <= 0.01) return; g.save(); g.translate(x, y); g.scale(sc, sc); const p = new Path2D(); p.roundRect(-70, -34, 140, 68, 10); piece(p, '#F4EEDF', 0.95, '#4A3216');
+  g.fillStyle = INK; g.font = HF(800, 32); g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(txt, 0, 2); g.restore(); }
+function cubbies(x0, y0, sc, hl = -1, hla = 0) { const sizes = ['3', '4', '5', '6', '7']; for (let i = 0; i < 5; i++) { const x = x0 + i * 112;   // size-labelled cubby row
+  const p = new Path2D(); p.roundRect(x, y0, 104, 100, 8); piece(p, '#8A5A32', 0.9, '#3A2410'); g.fillStyle = '#3A2410'; g.fillRect(x + 10, y0 + 10, 84, 80);
+  if (i === hl && hla > 0.01) { g.save(); g.globalAlpha = hla; g.strokeStyle = P.yellow; g.lineWidth = 6; g.strokeRect(x + 4, y0 + 4, 96, 92); g.restore(); }
+  } }
+function table(x0, x1, top) { for (const lx of [x0 + 30, x1 - 30]) { const l = new Path2D(); l.rect(lx - 12, top + 20, 24, BASE + 60 - top - 20); piece(l, '#6B4423', 0.88, '#3A2410'); }
+  const p = new Path2D(); p.roundRect(x0, top, x1 - x0, 28, 8); piece(p, '#8A5A32', 0.9, '#3A2410'); }
+function handFromAbove(x, y, s, pose, ang = 0) { const old = ROD_END; ROD_END = y - 10; hand(x, y, Math.PI + ang, s, pose, P.greenDk, P.yellow); ROD_END = old; }
+function collectDesk(x0, x1) { const p = new Path2D(); p.roundRect(x0, BASE - 120, x1 - x0, 180, [14, 14, 0, 0]); piece(p, '#8A5A32', 0.9, '#3A2410');
+  bigPlaque((x0 + x1) / 2, BASE - 40, 300, 70, ['SHOE COLLECTION'], 1, 30); }
+function lace(x0, y0, x1, y1, a) { if (a <= 0.01) return; g.save(); g.globalAlpha = a; g.strokeStyle = P.yellowDk; g.lineWidth = 6; g.lineCap = 'round'; g.beginPath(); g.moveTo(x0, y0); g.bezierCurveTo(x0 + 30, y0 - 70, x1 - 30, y1 - 70, x1, y1); g.stroke();
+  g.beginPath(); g.ellipse((x0 + x1) / 2 - 14, Math.min(y0, y1) - 56, 16, 10, -0.5, 0, 7); g.ellipse((x0 + x1) / 2 + 14, Math.min(y0, y1) - 56, 16, 10, 0.5, 0, 7); g.stroke(); g.restore(); }
+
+function draw(fr) {
+  const t = Math.floor(fr / 2) * 2 / 30;
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'source-over'; g.globalAlpha = 1; g.filter = 'none';
+  g.fillStyle = P.ink; g.fillRect(0, 0, W, H);
+  g.fillStyle = '#2A1A10'; g.fillRect(SCR.x - 30, SCR.y - 30, SCR.w + 60, SCR.h + 60);
+  g.fillStyle = '#3B2616'; g.fillRect(SCR.x - 16, SCR.y - 16, SCR.w + 32, SCR.h + 32);
+  g.save(); g.beginPath(); g.rect(SCR.x, SCR.y, SCR.w, SCR.h); g.clip();
+  let cz = 1, cx = 540, cy = 1100; if (t < 3.4) { const u = sm(seg(t, 2.6, 3.4)); cz = lerp(1.12, 1.0, u); cy = lerp(1180, 1100, u); } else if (t > 25.8) { const u = sm(seg(t, 25.8, 30)); cz = lerp(1.0, 1.04, u); cy = lerp(1100, 1070, u); }
+  g.translate(CX, CY); g.scale(cz, cz); g.translate(-cx, -cy);
+  g.drawImage(weave, SCR.x - 120, SCR.y - 160, SCR.w + 240, SCR.h + 320);
+  const up = 0.55 + 0.45 * io(seg(t, 0, 0.5)), dp = dip(t), endDim = 1 - 0.5 * io(seg(t, C.dimEnd, 30));
+  const L = [[SCR.x + 300, SCR.y + 460, 680, (0.95 + 0.04 * Math.sin(t * 9.1) + 0.02 * Math.sin(t * 23.7)) * up * endDim * (1 - 0.6 * dp)],
+             [SCR.x + 680, SCR.y + 500, 620, (0.92 + 0.05 * Math.sin(t * 7.3 + 1) + 0.02 * Math.sin(t * 19.1)) * up * endDim * (1 - 0.6 * dp)]];
+  for (const [lx, ly, r, k] of L) { const rg = g.createRadialGradient(lx, ly, 15, lx, ly, r); rg.addColorStop(0, `rgba(255,236,190,${0.62 * k})`); rg.addColorStop(0.14, `rgba(255,226,170,${0.42 * k})`); rg.addColorStop(0.5, `rgba(255,210,140,${0.18 * k})`); rg.addColorStop(1, 'rgba(255,200,120,0)');
+    g.globalCompositeOperation = 'screen'; g.fillStyle = rg; g.fillRect(SCR.x - 200, SCR.y - 200, SCR.w + 400, SCR.h + 400); }
+  g.globalCompositeOperation = 'source-over';
+  const vg = g.createRadialGradient(540, 1100, 300, 540, 1100, 820); vg.addColorStop(0, 'rgba(50,25,8,0)'); vg.addColorStop(1, 'rgba(50,25,8,0.5)'); g.fillStyle = vg; g.fillRect(SCR.x - 200, SCR.y - 200, SCR.w + 400, SCR.h + 400);
+  const [A0, A1] = span('A_hook_new_shoe_cracks'), [B0, B1] = span('B_fictional_collection'), [C0, C1] = span('C_check_pair'), [D0, D1] = span('D_check_sole'), [E0, E1] = span('E_check_size'),
+        [F0, F1] = span('F_recap_box'), [I0] = span('I_cta');
+  const slide = (a, b) => { const i = io(seg(t, a - 0.4, a + 0.2)), o = io(seg(t, b - 0.35, b + 0.05)); return { i, o, x: 1100 * (1 - i) - 1100 * o }; };
+  const HELPER = { wear: hat, wearFill: P.yellow, body: P.green, sleeve: P.greenDk }, VOL = { wear: scarf, wearFill: '#E8A23A', body: '#5FC79A', sleeve: P.greenDk };
+
+  // ---------- A: hook — a sparkling "brand new" shoe lands; one flex and its sole cracks and crumbles ----------
+  if (t < A1 + 0.1) { const o = io(seg(t, A1 - 0.35, A1 + 0.05)); g.save(); g.translate(-1100 * o, 0);
+    const fall = seg(t, C.drop, C.land), sy = 1312 - 360 * (1 - fall * fall), sq = t > C.land ? Math.exp(-(t - C.land) * 9) * Math.cos((t - C.land) * 26) : 0;
+    table(300, 780, 1312);
+    const bnd = 0.32 * io(seg(t, C.bend0, C.bend0 + 0.3)) * (1 - 0.6 * io(seg(t, C.crumble0 + 0.6, C.crumble0 + 1.0)));
+    g.save(); g.translate(540, sy); g.scale(1 + 0.06 * sq, 1 - 0.08 * sq); g.translate(-540, -sy);
+    shoe(540, sy, 1.55, { col: P.yellow, stripe: P.greenDk, sparkle: (0.6 + 0.4 * Math.sin(t * 12)) * (1 - io(seg(t, C.crack0, C.crack0 + 0.3))), bend: -bnd, crack: io(seg(t, C.crack0, C.crack0 + 0.25)), crumble: io(seg(t, C.crumble0, C.crumble0 + 1.0)) }); g.restore();
+    if (t > C.bend0 - 0.35 && t < C.crumble0 + 1.2) { const din = io(seg(t, C.bend0 - 0.35, C.bend0)) * (1 - io(seg(t, C.crumble0 + 0.8, C.crumble0 + 1.2))); handFromAbove(700, 1150 - 600 * (1 - din) + 40 * bnd, 0.85, 'grip', 0.2); }
+    if (t > C.q) bigPlaque(540, 860, 110, 110, ['?'], ob(seg(t, C.q, C.q + 0.25)), 80);
+    g.restore(); }
+  // ---------- B: labelled fictional collection: size cubbies, a volunteer at the desk, the donor brings a box ----------
+  if (t > B0 - 0.4 && t < B1 + 0.1) { const sl = slide(B0, B1); g.save(); g.translate(sl.x, 0);
+    bigPlaque(540, 690, 580, 96, ['FICTIONAL EXAMPLE'], ob(seg(t, C.label, C.label + 0.3)), 44);
+    cubbies(260, 800, 1); g.save(); g.fillStyle = INK; g.font = HF(800, 24); g.textAlign = 'center'; for (let i = 0; i < 5; i++) g.fillText('SIZE ' + (3 + i), 312 + i * 112, 930); g.restore(); rod(400, 900); rod(680, 900);
+    scaledFig(230, 0.7, { dir: 1, head: 0.04, hand: [360, 1235], back: [150, 1300], ...HELPER }, t);
+    const bx = ob(seg(t, C.box - 0.15, C.box + 0.15)); if (bx > 0.01) { g.save(); g.translate(380, 1235); g.scale(bx, bx); g.translate(-380, -1235); kbox(380, 1300, 120, 80); g.restore(); }
+    scaledFig(800, 0.7, { dir: -1, head: -0.02 + 0.05 * Math.sin(seg(t, C.sort, C.sort + 0.8) * Math.PI), hand: t > C.sort ? [690, 1170] : [680, 1260], back: [880, 1300], ...VOL }, t);
+    if (t > C.sort) shoe(690, 1160, 0.32, { col: '#2F3A48', stripe: '#E8A23A' });
+    collectDesk(640, 960);
+    g.restore(); }
+  // ---------- C: check 1 — both shoes; a single shoe can't be worn ----------
+  if (t > C0 - 0.4 && t < C1 + 0.1) { const sl = slide(C0, C1); g.save(); g.translate(sl.x, 0);
+    table(250, 830, 1312);
+    const pj = io(seg(t, C.both - 0.1, C.both + 0.4)); shoe(lerp(300, 400, pj), 1312, 0.9, { col: '#2F3A48', stripe: '#E8A23A' }); shoe(lerp(560, 470, pj), 1290, 0.9, { col: '#2F3A48', stripe: '#E8A23A' });
+    lace(380, 1185, 480, 1165, io(seg(t, C.both + 0.3, C.both + 0.6))); if (t > C.both + 0.45) tickBadge(440, 1050, ob(seg(t, C.both + 0.45, C.both + 0.7)));
+    const sg = io(seg(t, C.single - 0.1, C.single + 0.3)); if (sg > 0.01) { shoe(700, 1312 - 300 * (1 - sg), 0.9, { col: '#7A4A2A', stripe: P.yellow }); crossBadge(760, 1110, ob(seg(t, C.x1, C.x1 + 0.25))); if (t > C.x1) smallLabel(700, 1390, 'ONE SHOE', ob(seg(t, C.x1, C.x1 + 0.25))); }
+    checkPlaque(540, 690, '1  PAIR', ob(seg(t, C.plaque1, C.plaque1 + 0.3)), ob(seg(t, C.tick1, C.tick1 + 0.25)));
+    g.restore(); }
+  // ---------- D: check 2 — bend the sole: a good one flexes; an old one cracks, even if never worn ----------
+  if (t > D0 - 0.4 && t < D1 + 0.1) { const sl = slide(D0, D1); g.save(); g.translate(sl.x, 0);
+    table(150, 930, 1312);
+    const gb = 0.35 * Math.sin(Math.PI * seg(t, C.bendGood, C.bendGood + 0.9)); shoe(330, 1312, 1.05, { col: P.yellow, stripe: P.greenDk, bend: -gb });
+    if (t > C.bendGood - 0.35 && t < C.bendGood + 1.2) handFromAbove(450, 1170 + 40 * gb - 600 * (1 - io(seg(t, C.bendGood - 0.35, C.bendGood))) - 600 * io(seg(t, C.bendGood + 0.9, C.bendGood + 1.2)), 0.8, 'grip', 0.2);
+    if (t > C.bendGood + 0.9) tickBadge(330, 1080, ob(seg(t, C.bendGood + 0.9, C.bendGood + 1.15)));
+    card(750, 1060, 290, 72, ['YEARS IN A BOX'], 1, '#F1E8D4', 28);
+    const ob2 = 0.3 * io(seg(t, C.old, C.old + 0.35)) * (1 - 0.5 * io(seg(t, C.crack + 0.6, C.crack + 1.0)));
+    shoe(750, 1312, 1.05, { col: P.yellow, stripe: P.greenDk, bend: -ob2, crack: io(seg(t, C.crack - 0.1, C.crack + 0.15)), crumble: io(seg(t, C.crack + 0.2, C.crack + 1.1)) });
+    if (t > C.old - 0.35 && t < C.crack + 1.0) handFromAbove(880, 1170 + 40 * ob2 - 600 * (1 - io(seg(t, C.old - 0.35, C.old))) - 600 * io(seg(t, C.crack + 0.6, C.crack + 1.0)), 0.8, 'grip', 0.2);
+    if (t > C.crack) crossBadge(900, 1150, ob(seg(t, C.crack, C.crack + 0.25)));
+    if (t > C.never) smallLabel(750, 1400, 'EVEN IF NEVER WORN', ob(seg(t, C.never, C.never + 0.25)));
+    checkPlaque(540, 690, '2  SOLE', ob(seg(t, C.plaque2, C.plaque2 + 0.3)), ob(seg(t, C.tick2, C.tick2 + 0.25)));
+    g.restore(); }
+  // ---------- E: check 3 — the size inside, matched to what the collection asked for ----------
+  if (t > E0 - 0.4 && t < E1 + 0.1) { const sl = slide(E0, E1); g.save(); g.translate(sl.x, 0);
+    table(150, 700, 1312); shoe(420, 1312, 1.35, { col: '#2F3A48', stripe: '#E8A23A' });
+    const tg = ob(seg(t, C.tag, C.tag + 0.3)); if (t > C.tag - 0.35) { const din = io(seg(t, C.tag - 0.35, C.tag)); magnifier(330, 1180 + 500 * (1 - din), 1.0); hand(330 + 86, 1180 + 128 + 500 * (1 - din), -0.7, 0.8, 'grip', P.greenDk, P.yellow); }
+    sizeTag(330, 1040, tg, 'SIZE 5'); if (tg > 0.01) { g.save(); g.strokeStyle = 'rgba(60,35,15,0.7)'; g.lineWidth = 3; g.setLineDash([8, 6]); g.beginPath(); g.moveTo(330, 1074); g.lineTo(330, 1140); g.stroke(); g.restore(); }
+    card(800, 1000, 270, 130, ['ASKED FOR', 'SIZE 5'], ob(seg(t, C.asked - 0.2, C.asked + 0.15)), '#F1E8D4', 40); if (t > C.asked) rod(800, 1065);
+    const mt = io(seg(t, C.match, C.match + 0.3)); if (mt > 0.01) { g.save(); g.globalAlpha = mt; g.strokeStyle = P.green; g.lineWidth = 6; g.setLineDash([12, 9]); g.beginPath(); g.moveTo(400, 1030); g.quadraticCurveTo(540, 960, 665, 1000); g.stroke(); g.restore(); tickBadge(800, 1120, ob(seg(t, C.match + 0.1, C.match + 0.35))); }
+    checkPlaque(540, 690, '3  SIZE', ob(seg(t, C.plaque3, C.plaque3 + 0.3)), ob(seg(t, C.tick3, C.tick3 + 0.25)));
+    g.restore(); }
+  // ---------- F: recap — pair, sole, size; the tied pair goes into the donation box ----------
+  if (t > F0 - 0.4 && t < F1 + 0.1) { const sl = slide(F0, F1); g.save(); g.translate(sl.x, 0);
+    checkBoard(600, 900, 0.95, [1, 1, 1], [ob(seg(t, C.r1, C.r1 + 0.25)), ob(seg(t, C.r2, C.r2 + 0.25)), ob(seg(t, C.r3, C.r3 + 0.25))]);
+    scaledFig(200, 0.7, { dir: 1, head: 0.04, hand: t < C.intoBox + 0.3 ? [lerp(330, 420, io(seg(t, C.intoBox - 0.4, C.intoBox))), 1215] : [330, 1240], back: [110, 1300], ...HELPER }, t);
+    const ib = io(seg(t, C.intoBox, C.intoBox + 0.5)); if (ib < 1) { const px = lerp(370, 600, ib), py = lerp(1220, 1430, ib) - Math.sin(ib * Math.PI) * 140; shoe(px - 28, py, 0.42, { col: '#2F3A48', stripe: '#E8A23A' }); shoe(px + 22, py - 8, 0.42, { col: '#2F3A48', stripe: '#E8A23A' }); lace(px - 20, py - 50, px + 30, py - 58, 1); }
+    kbox(600, BASE + 60, 280, 170); g.save(); g.fillStyle = INK; g.font = HF(800, 32); g.textAlign = 'center'; g.fillText('DONATIONS', 600, BASE - 30); g.restore();
+    if (t > C.done) tickBadge(740, 1380, ob(seg(t, C.done, C.done + 0.25)));
+    g.restore(); }
+  // ---------- I: CTA — real app icon + name (listing: donate essentials) ----------
+  if (t > I0 - 0.3) { const hin = io(seg(t, I0 - 0.3, I0 + 0.4));
+    scaledFig(270, 0.8, { dir: 1, head: 0.04 + 0.08 * Math.sin(seg(t, 27.3, 27.9) * Math.PI), hand: [400, 1230], back: [200, 1250], wear: hat, wearFill: P.yellow, body: P.green, sleeve: P.greenDk, blur: (1 - hin) * 8 }, t);
+    scaledFig(810, 0.8, { dir: -1, head: -0.02, hand: [690, 1260], back: [890, 1250], wear: scarf, wearFill: '#E8A23A', body: '#5FC79A', sleeve: P.greenDk, blur: (1 - hin) * 8 }, t);
+    sack(540, BASE + 60, 0.5);
+    const lg = ob(seg(t, C.logo, C.logo + 0.3));
+    if (lg > 0.01) { g.save(); g.translate(540, 860); g.scale(lg, lg); const p = new Path2D(); p.roundRect(-190, -76, 380, 152, 28); piece(p, P.cream, 0.96, '#3A2410');
+      g.drawImage(icon_img, -166, -56, 112, 112); g.fillStyle = P.ink; g.font = '800 76px Inter'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('Help', -36, 6); g.restore(); rod(540, 936); }
+  }
+  const grd = new Path2D(); grd.rect(SCR.x - 200, BASE + 60, SCR.w + 400, 20); piece(grd, P.greenDk, 0.55, '#0E4D33');
+  g.restore();
+  g.save(); g.font = HF(600, 26); g.fillStyle = 'rgba(60,35,15,0.7)'; g.textAlign = 'left'; g.fillText('Illustrative scene', SCR.x + 24, SCR.y + SCR.h - 22); g.restore();
+  g.drawImage(grains[Math.floor(fr / 2) % 3], 0, 0);
+  drawCaption(fr);
+}
+function scaledFig(x, s, o, t) { const GR = BASE + 60; g.save(); g.translate(x, GR); g.scale(s, s); g.translate(-x, -GROUND);
+  const old = ROD_END; ROD_END = GROUND + (SCR.y + SCR.h + 200 - GR) / s;
+  figure({ x, dir: o.dir, tilt: 0, head: o.head, hand: [x + (o.hand[0] - x) / s, GROUND + (o.hand[1] - GR) / s], back: [x + (o.back[0] - x) / s, GROUND + (o.back[1] - GR) / s], body: o.body, sleeve: o.sleeve, wear: o.wear, wearFill: o.wearFill, collar: o.wearFill, blur: o.blur || 0 }, t);
+  ROD_END = old; g.restore(); }
+function drawCaption(fr) {
+  const tt = fr / 30; let cp = CAP.cards.find((k) => tt >= k.a && tt < k.b);
+  window.__cap = null; if (!cp) return;
+  const a = clamp(Math.min(seg(tt, cp.a, cp.a + 0.1), 1 - seg(tt, cp.b - 0.08, cp.b)));
+  g.save(); g.globalAlpha = a; g.fillStyle = P.cream; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  let lines = cp.lines; g.font = `800 66px Inter, "Noto Sans Devanagari"`;
+  if (lines.length === 1 && g.measureText(lines[0]).width > 880) { const ws = lines[0].split(' '); let best = 1, bd = 1e9; for (let k = 1; k < ws.length; k++) { const d = Math.abs(g.measureText(ws.slice(0, k).join(' ')).width - g.measureText(ws.slice(k).join(' ')).width); if (d < bd) { bd = d; best = k; } } lines = [ws.slice(0, best).join(' '), ws.slice(best).join(' ')]; }
+  cp = { ...cp, lines };
+  let fs = cp.lines.length === 1 ? 66 : 56; g.font = `800 ${fs}px Inter, "Noto Sans Devanagari"`;
+  const mw = Math.max(...cp.lines.map((l) => g.measureText(l).width)); if (mw > 880) { fs = Math.floor(fs * 880 / mw); g.font = `800 ${fs}px Inter, "Noto Sans Devanagari"`; }
+  const lh = Math.round(fs * 1.12), base0 = cp.lines.length === 1 ? 456 : 420;
+  cp.lines.forEach((ln, i) => g.fillText(ln, W / 2, base0 + i * lh));
+  const m = cp.lines.map((l) => g.measureText(l)); const wmax = Math.max(...m.map((x) => x.width));
+  window.__cap = { fs, x0: Math.round(W / 2 - wmax / 2), x1: Math.round(W / 2 + wmax / 2), y0: Math.round(base0 - m[0].actualBoundingBoxAscent), y1: Math.round(base0 + (cp.lines.length - 1) * lh + m[m.length - 1].actualBoundingBoxDescent), text: cp.lines.join(' / ') };
+  g.restore();
+}
+window.__draw = (f) => { draw(f); return cv.toDataURL('image/png'); };
+window.__capAt = (f) => { draw(f); return window.__cap; };
+window.__sig = (f) => { const tt = f / 30; const cp = CAP.cards.find((k) => tt >= k.a && tt < k.b);
+  const a = cp ? clamp(Math.min(seg(tt, cp.a, cp.a + 0.1), 1 - seg(tt, cp.b - 0.08, cp.b))) : 0; return `${Math.floor(f / 2)}|${cp ? cp.a : '-'}|${a.toFixed(3)}`; };
+window.__ready = true;
+</script></body></html>
+
+
+
+
+
