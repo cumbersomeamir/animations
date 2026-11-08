@@ -109,6 +109,7 @@ H.264 High yuv420p 1080×1920 30/1 fps, AAC-LC 48 kHz stereo 192 kb/s, exactly 3
 | feedback05-01 | production/30s/2026-11-05-feedback-05/ | Hindi news episode: Android screen-share privacy now blanks login/payment fields in Chrome (rollout from 14 Oct 2026, Android 15+) — how to check your version | delivered (context/18-production-30s-feedback05-01.md) |
 | english06-01 | production/30s/2026-11-06-english-06/ | English news episode: Chrome's enhanced autofill suggests details from Gmail in forms (Google, 28 Oct 2026; U.S., Gemini in Chrome + Personal Intelligence) | delivered (context/19-production-30s-english06-01.md) |
 | english07-01 | production/30s/2026-11-06-english-07/ | English news episode: WhatsApp Events invites now reach friends who aren't on WhatsApp — RSVP without the app, Events Home, address only after replying (Meta, 5 Nov 2026; rolling out over the following weeks) | delivered (context/20-production-30s-english07-01.md) |
+| english08-01 | production/30s/2026-11-07-english-08/ | English news episode: text a recipe photo to Alexa for Shopping and the ingredients land in your cart — before/after, invite-only in the U.S. (Amazon, 6 Nov 2026) | in progress: sources/script/storyboard committed, frames rendering (context/21-production-30s-english08-01.md) |
 
 ## FORMAT UPGRADE (feedback round, 2026-11-02) — supersedes conflicting rules above
 User feedback: the flat Visual Investigation card look was judged too weak/flat. From this round on, every new Media Diet

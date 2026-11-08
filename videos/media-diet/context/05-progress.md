@@ -137,3 +137,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
   −1.9 dBTP; captions y 378–488, x 128–953, 0 violations; caption↔speech 9/9; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-07 — english-08 (in progress)
+- Start state: clean at 249d30a (= remote; english-07 delivered), no active jobs. Topic (official, Amazon News, 6 Nov 2026, newer than
+  WhatsApp Events): text Alexa for Shopping — a photo of a recipe adds all the ingredients to your cart; invite-only for a small group
+  of U.S. customers, expanding over the coming weeks. New topic for this app.
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 70 words, 24.5 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/21, log row.
+- Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

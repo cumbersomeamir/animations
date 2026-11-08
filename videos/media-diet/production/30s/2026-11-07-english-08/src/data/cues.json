@@ -1,0 +1,89 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Can a photo of a recipe",
+   "fill your shopping cart?"
+  ],
+  "in": 0.07,
+  "out": 2.922
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Since November 6,",
+   "some Amazon shoppers"
+  ],
+  "in": 3.19,
+  "out": 5.832
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "can text Alexa for Shopping."
+  ],
+  "in": 5.852,
+  "out": 8.054
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Before: read the recipe, search",
+   "each ingredient, one by one."
+  ],
+  "in": 8.31,
+  "out": 12.336
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Now: text a photo of the recipe,",
+   "and the ingredients"
+  ],
+  "in": 12.6,
+  "out": 15.889
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "land in your cart."
+  ],
+  "in": 15.909,
+  "out": 17.327
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "One text replaces",
+   "all those searches."
+  ],
+  "in": 17.74,
+  "out": 20.201
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "The catch: it's invite-only",
+   "in the United States,"
+  ],
+  "in": 20.47,
+  "out": 23.55
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "expanding over the coming weeks."
+  ],
+  "in": 23.57,
+  "out": 25.687
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 25.95,
+  "out": 28.963
+ }
+]

@@ -1,0 +1,201 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Can a photo of a recipe fill your shopping cart?",
+   "cues": [
+    [
+     "Can a photo of a recipe",
+     "fill your shopping cart?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.27,
+   "say": "Since November 6, some Amazon shoppers can text Alexa for Shopping.",
+   "cues": [
+    [
+     "Since November 6,",
+     "some Amazon shoppers"
+    ],
+    [
+     "can text Alexa for Shopping."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 8.39,
+   "say": "Before: read the recipe, search each ingredient, one by one.",
+   "cues": [
+    [
+     "Before: read the recipe, search",
+     "each ingredient, one by one."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 12.68,
+   "say": "Now: text a photo of the recipe, and the ingredients land in your cart.",
+   "cues": [
+    [
+     "Now: text a photo of the recipe,",
+     "and the ingredients"
+    ],
+    [
+     "land in your cart."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 17.82,
+   "say": "One text replaces all those searches.",
+   "cues": [
+    [
+     "One text replaces",
+     "all those searches."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 20.55,
+   "say": "The catch: it's invite-only in the United States, expanding over the coming weeks.",
+   "cues": [
+    [
+     "The catch: it's invite-only",
+     "in the United States,"
+    ],
+    [
+     "expanding over the coming weeks."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.03,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.17,
+   "what": "hook: the phone snaps a recipe card; its ingredient tiles peel off and fly into a paper shopping cart"
+  },
+  {
+   "id": "S2",
+   "in": 3.17,
+   "out": 5.95,
+   "what": "date + source: calendar flips to NOV 6; SOURCE placard 'Amazon News \u00b7 Nov 6, 2026'"
+  },
+  {
+   "id": "S3",
+   "in": 5.95,
+   "out": 8.29,
+   "what": "the phone's text thread 'Alexa for Shopping': an invitation to shop by text arrives"
+  },
+  {
+   "id": "S4",
+   "in": 8.29,
+   "out": 12.58,
+   "what": "BEFORE: search montage \u2014 seven searches typed one by one, 'Add to cart' each time, recipe lines ticked, counter 1\u21927, clock spinning"
+  },
+  {
+   "id": "S5",
+   "in": 12.58,
+   "out": 17.72,
+   "what": "NOW: the recipe photo flies into the text thread; reply 'Added 7 items to your cart'; all tiles fly into the cart"
+  },
+  {
+   "id": "S6",
+   "in": 17.72,
+   "out": 20.45,
+   "what": "takeaway: 'one text' card pops up while seven search cards fold flat"
+  },
+  {
+   "id": "S7",
+   "in": 20.45,
+   "out": 25.93,
+   "what": "catch: U.S. map \u2014 three invited phones get envelopes; 'Invite only \u00b7 U.S.' banner; more phones light over the coming weeks, some still off"
+  },
+  {
+   "id": "S8",
+   "in": 25.93,
+   "out": 30.0,
+   "what": "CTA: hero pull-back over the set, Media Diet sign"
+  }
+ ],
+ "events": {
+  "flash": 0.12,
+  "peel": 0.4,
+  "calFlip": 3.35,
+  "source": 4.85,
+  "invite": 6.25,
+  "search0": 9.0,
+  "searchDt": 0.5,
+  "searchAt": [
+   9.0,
+   9.5,
+   10.0,
+   10.5,
+   11.0,
+   11.5,
+   12.0
+  ],
+  "snap": 13.3,
+  "sent": 13.95,
+  "reply": 15.25,
+  "fly": 15.55,
+  "oneText": 17.9,
+  "fold": 18.45,
+  "invites": [
+   21.75,
+   21.9,
+   22.05
+  ],
+  "usGlow": 22.7,
+  "wave": 24.0,
+  "lit": [
+   0.0,
+   0.3,
+   0.55,
+   0.85,
+   -1,
+   1.2,
+   -1
+  ],
+  "sign": 26.1
+ }
+}
