@@ -1,0 +1,95 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Why will a factory buy one old shirt as a rag, but not another?",
+   "heard": "why will a factory by one old shirt as a rag but not another",
+   "word_acc": 0.929,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 4.007,
+   "heard_off": 4.0,
+   "missed": [
+    [
+     "buy"
+    ]
+   ]
+  },
+  {
+   "id": "L2",
+   "ref": "Rags must absorb oil: keep cotton, drop all-synthetic.",
+   "heard": "rags must absorb oil keep cotton drop all synthetic",
+   "word_acc": 1.0,
+   "plan_on": 4.31,
+   "heard_on": 4.31,
+   "plan_off": 8.105,
+   "heard_off": 8.12,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Cut off buttons and zips, then grade by colour.",
+   "heard": "cut off buttons and zips then grade by color",
+   "word_acc": 1.0,
+   "plan_on": 8.41,
+   "heard_on": 8.41,
+   "plan_off": 11.077,
+   "heard_off": 11.08,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "A workshop cuts even pieces, and bales them for factories and garages.",
+   "heard": "a workshop cuts even pieces and bales them for factories and garages",
+   "word_acc": 1.0,
+   "plan_on": 11.33,
+   "heard_on": 11.36,
+   "plan_off": 15.874,
+   "heard_off": 15.86,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Say three hundred kilos of rags sell for thirteen thousand five hundred rupees;",
+   "heard": "say three hundred kilos of rag sell for thirteen thousand five hundred rupees per",
+   "word_acc": 0.923,
+   "plan_on": 16.12,
+   "heard_on": 16.12,
+   "plan_off": 21.003,
+   "heard_off": 21.25,
+   "missed": [
+    [
+     "rags"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "purchase, rejects, labour, and transport leave about twenty-five hundred rupees.",
+   "heard": "purchase rejects labor and transport leave about twenty five hundred rupees",
+   "word_acc": 1.0,
+   "plan_on": 21.12,
+   "heard_on": 21.09,
+   "plan_off": 25.856,
+   "heard_off": 25.83,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.2,
+   "heard_on": 26.2,
+   "plan_off": 28.685,
+   "heard_off": 28.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

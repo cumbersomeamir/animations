@@ -1,0 +1,20 @@
+English intelligibility and timing evidence: wastepaisa-30s-english09-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.93 | onset plan 0.25 heard 0.22 | offset plan 4.01 heard 4.00 | heard: why will a factory by one old shirt as a rag but not another
+   L2 word acc 1.00 | onset plan 4.31 heard 4.31 | offset plan 8.11 heard 8.12 | heard: rags must absorb oil keep cotton drop all synthetic
+   L3 word acc 1.00 | onset plan 8.41 heard 8.41 | offset plan 11.08 heard 11.08 | heard: cut off buttons and zips then grade by color
+   L4 word acc 1.00 | onset plan 11.33 heard 11.36 | offset plan 15.87 heard 15.86 | heard: a workshop cuts even pieces and bales them for factories and garages
+   L5 word acc 0.92 | onset plan 16.12 heard 16.12 | offset plan 21.00 heard 21.25 | heard: say three hundred kilos of rag sell for thirteen thousand five hundred rupees per
+   L6 word acc 1.00 | onset plan 21.12 heard 21.09 | offset plan 25.86 heard 25.83 | heard: purchase rejects labor and transport leave about twenty five hundred rupees
+   L7 word acc 0.89 | onset plan 26.20 heard 26.20 | offset plan 28.68 heard 28.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.963 (normalisation: lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa')
+   Misses: buy -> 'by' (homophone), rags -> 'rag', brand out of vocabulary ('waste python'); the trailing 'per' in L5 is the start of L6
+   ('purchase') entering L5's +0.25 s window, because the two clauses are 0.12 s apart.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Why will a factory buy one old shirt as a rag, but not another? Rags must absorb oil. Keep cotton, drop all synthetic. Cut off buttons and zips, then grade by color. A workshop cuts even pieces and bails them for factories and garages. Say 300 kilos of rag cell for 13,500 rupees. Purchase, rejects, labor and transport leave about 2,500 rupees. Join Waste PISAW and put your scrap to use.
+   Matches the script apart from homophones ('bails' for bales, 'cell' for sell), 'rag' for rags and the brand spelling.
+
+3) Draft-stage ASR: 'soak up oil' was heard as 'soca boil', so L2 says 'absorb oil'; L5 was cut from 7.7 s to 4.9 s by moving the purchase figure on screen.

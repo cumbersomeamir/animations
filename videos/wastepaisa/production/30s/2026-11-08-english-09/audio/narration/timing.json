@@ -1,0 +1,69 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.867,
+  "words": 67,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Why will a factory buy one old shirt as a rag, but not another?",
+      "start": 0.25,
+      "phonemes": "wˌaɪ wɪl ɐ fˈæktɚɹi bˈaɪ wˈʌn ˈoʊld ʃˈɜːt æz ɐ ɹˈæɡ, bˌʌt nˌɑːt ɐnˈʌðɚ?",
+      "duration": 3.757,
+      "end": 4.007
+    },
+    {
+      "id": "L2",
+      "text": "Rags must absorb oil: keep cotton, drop all-synthetic.",
+      "start": 4.31,
+      "phonemes": "ɹˈæɡz mˈʌst ɐbsˈɔːɹb ˈɔɪl: kˈiːp kˈɑːʔn, dɹˈɑːp ˈɔːlsɪnθˈɛɾɪk.",
+      "duration": 3.795,
+      "end": 8.105
+    },
+    {
+      "id": "L3",
+      "text": "Cut off buttons and zips, then grade by colour.",
+      "start": 8.41,
+      "phonemes": "kˈʌt ˈɔf bˈʌʔnz ænd zˈɪps, ðˈɛn ɡɹˈeɪd baɪ kˈʌlɚ.",
+      "duration": 2.667,
+      "end": 11.077
+    },
+    {
+      "id": "L4",
+      "text": "A workshop cuts even pieces and bales them for factories and garages.",
+      "tts": "A workshop cuts even pieces, and bales them for factories and garages.",
+      "start": 11.33,
+      "phonemes": "ɐ wˈɜːkʃɑːp kˈʌts ˈiːvən pˈiːsᵻz, ænd bˈeɪlz ðˌɛm fɔːɹ fˈæktɚɹiz ænd ɡɚɹˈɑːʒᵻz.",
+      "duration": 4.544,
+      "end": 15.874
+    },
+    {
+      "id": "L5",
+      "text": "Say 300 kilos of rags sell for ₹13,500;",
+      "tts": "Say three hundred kilos of rags sell for thirteen thousand five hundred rupees;",
+      "start": 16.12,
+      "phonemes": "sˈeɪ θɹˈiː hˈʌndɹɪd kˈiːloʊz ʌv ɹˈæɡz sˈɛl fɔːɹ θˈɜːtiːn θˈaʊzənd fˈaɪv hˈʌndɹɪd ɹˈuːpiːz;",
+      "duration": 4.883,
+      "end": 21.003
+    },
+    {
+      "id": "L6",
+      "text": "purchase, rejects, labour and transport leave about ₹2,500.",
+      "tts": "purchase, rejects, labour, and transport leave about twenty-five hundred rupees.",
+      "start": 21.12,
+      "phonemes": "pˈɜːtʃɪs, ɹᵻdʒˈɛkts, lˈeɪbɚ, ænd tɹˈænspɔːɹt lˈiːv ɐbˌaʊt twˈɛntifˈaɪv hˈʌndɹɪd ɹˈuːpiːz.",
+      "duration": 4.736,
+      "end": 25.856
+    },
+    {
+      "id": "L7",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.685
+    }
+  ]
+}

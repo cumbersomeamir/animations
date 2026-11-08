@@ -1,0 +1,40 @@
+[
+ {
+  "id": "L1",
+  "text": "Why will a factory buy one old shirt as a rag, but not another?",
+  "start": 0.25
+ },
+ {
+  "id": "L2",
+  "text": "Rags must absorb oil: keep cotton, drop all-synthetic.",
+  "start": 4.31
+ },
+ {
+  "id": "L3",
+  "text": "Cut off buttons and zips, then grade by colour.",
+  "start": 8.41
+ },
+ {
+  "id": "L4",
+  "text": "A workshop cuts even pieces and bales them for factories and garages.",
+  "tts": "A workshop cuts even pieces, and bales them for factories and garages.",
+  "start": 11.33
+ },
+ {
+  "id": "L5",
+  "text": "Say 300 kilos of rags sell for ₹13,500;",
+  "tts": "Say three hundred kilos of rags sell for thirteen thousand five hundred rupees;",
+  "start": 16.12
+ },
+ {
+  "id": "L6",
+  "text": "purchase, rejects, labour and transport leave about ₹2,500.",
+  "tts": "purchase, rejects, labour, and transport leave about twenty-five hundred rupees.",
+  "start": 21.12
+ },
+ {
+  "id": "L7",
+  "text": "Join WastePaisa and put your scrap to use.",
+  "start": 26.2
+ }
+]

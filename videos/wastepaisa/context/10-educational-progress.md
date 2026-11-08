@@ -260,6 +260,32 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Episode record: `context/21-english-08-01.md`. No automation.
 - **One defect fixed after the first export:** two chips overlapped at ≈10.3 s; they now hand off in one slot (video re-render only).
 
+## english-09 (2026-11-08-english-09) episode 01: COMPLETE (English)
+- **Topic:** old cotton garments into industrial wiping rags (fresh; history searched for textile, garment, cotton and rag with no
+  hits). Covers an oil-drop absorbency hook, cotton vs all-synthetic, buttons and zips out, white/coloured grades, workshop cutting and
+  baling, factory and garage buyers, and an illustrative batch.
+- **Style and voice:** accepted Scrap Shop X-ray (english-08 renderer), unchanged. Meshline voice, fresh English takes; English
+  captions at 70 px line spacing.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-08-english-09/wastepaisa-30s-english09-01.mp4`,
+  SHA-256 `8eda170ddf097d8a1e907c42900ffd1257b70751f3a4b931d56552ea23598137`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.4 dBTP.
+- **Checks:**
+  - Caption ink y 366–494, x 134–947.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.963 (homophones and brand OOV); Whisper matches apart from homophones. ASR-only: no listening in the cloud.
+- **Research:**
+  - Spec: US A-A-2522A wiping-rag defects (fittings, 100 % synthetic, unwashed); Louisiana statewide rag contract (clean, dry, no
+    buttons or pins).
+  - Grading: SMART (≈30 % of sorted textiles become wiping cloth).
+  - Absorbency: Cotton Inc. (via Sciencing).
+  - Prices: IndiaMART/TradeIndia rag asking prices (white ₹60–100, coloured ₹40–60/kg); used-clothing ₹2–6/kg kabadi, ₹10–35/kg bulk.
+  - Illustrative batch: 500 kg → 300 kg rags → ₹13,500 → ≈₹2,500 left.
+  - Episode record: `context/22-english-09-01.md`. No automation.
+- **Fixed before the full render:** floating heap (tray added), BALES/GARAGES chip overlap, and the missing reject-pile prop.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

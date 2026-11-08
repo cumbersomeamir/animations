@@ -1,0 +1,181 @@
+{
+ "sfx_cues": [
+  [
+   0.45,
+   "oil drop on cotton"
+  ],
+  [
+   0.5,
+   "oil drop on polyester"
+  ],
+  [
+   0.6,
+   "oil soaks in"
+  ],
+  [
+   1.0,
+   "SOAKS IN"
+  ],
+  [
+   1.3,
+   "BEADS UP"
+  ],
+  [
+   1.3,
+   "X-ray shows fibres"
+  ],
+  [
+   4.2,
+   "bins and tray"
+  ],
+  [
+   5.05,
+   "ABSORB OIL chip"
+  ],
+  [
+   6.56,
+   "cotton tee lands"
+  ],
+  [
+   6.7,
+   "cotton tee lands"
+  ],
+  [
+   6.84,
+   "cotton tee lands"
+  ],
+  [
+   7.34,
+   "synthetic tee lands"
+  ],
+  [
+   7.5,
+   "synthetic tee lands"
+  ],
+  [
+   8.15,
+   "DEFECT stamp (after the line)"
+  ],
+  [
+   8.75,
+   "snip"
+  ],
+  [
+   8.95,
+   "snip"
+  ],
+  [
+   9.15,
+   "snip"
+  ],
+  [
+   9.4,
+   "buttons into tray"
+  ],
+  [
+   9.7,
+   "zip into tray"
+  ],
+  [
+   10.1,
+   "white stack"
+  ],
+  [
+   10.35,
+   "coloured stack"
+  ],
+  [
+   11.36,
+   "WORKSHOP"
+  ],
+  [
+   12.0,
+   "band knife"
+  ],
+  [
+   12.6,
+   "pieces drop"
+  ],
+  [
+   12.84,
+   "pieces drop"
+  ],
+  [
+   13.62,
+   "baler stroke"
+  ],
+  [
+   14.3,
+   "buyers appear"
+  ],
+  [
+   16.05,
+   "EXAMPLE tag"
+  ],
+  [
+   16.25,
+   "sacks"
+  ],
+  [
+   16.45,
+   "sacks"
+  ],
+  [
+   17.05,
+   "rag bales"
+  ],
+  [
+   17.29,
+   "rag bales"
+  ],
+  [
+   17.5,
+   "rejects pile"
+  ],
+  [
+   18.02,
+   "buyer quote"
+  ],
+  [
+   18.9,
+   "sales"
+  ],
+  [
+   21.07,
+   "sales bar rises"
+  ],
+  [
+   21.78,
+   "rejects"
+  ],
+  [
+   22.53,
+   "labour"
+  ],
+  [
+   23.25,
+   "transport"
+  ],
+  [
+   24.36,
+   "LEFT 2,500"
+  ],
+  [
+   26.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.23",
+  "input_tp": "-3.10",
+  "input_lra": "2.90",
+  "input_thresh": "-27.92",
+  "output_i": "-14.91",
+  "output_tp": "-1.50",
+  "output_lra": "1.90",
+  "output_thresh": "-25.44",
+  "normalization_type": "dynamic",
+  "target_offset": "-0.09"
+ }
+}
