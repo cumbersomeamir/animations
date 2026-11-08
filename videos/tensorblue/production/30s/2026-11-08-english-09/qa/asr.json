@@ -1,0 +1,488 @@
+{
+ "model": "base.en",
+ "transcript": "It works on your friend's phone, but not on yours. Why? Phones get a site's address from a DNS resolver, which caches it. The site moved servers. Your resolver keeps the old address until it's time to live runs out. Your friend's resolver asked after the move and got the new one. Compare both phones' addresses. Old one on yours, stale cache. Same, look elsewhere. Moving a site, lower the TTL first. Follow TensorBlue for software explained simply.",
+ "reference": "It works on your friend's phone, but not on yours. Why? Phones get a site's address from a DNS resolver, which caches it. The site moved servers. Your resolver keeps the old address until its time-to-live runs out. Your friend's resolver asked after the move and got the new one. Compare both phones' addresses. Old one on yours? Stale cache. Same? Look elsewhere. Moving a site? Lower the TTL first. Follow Tensorblue for software explained simply.",
+ "wer": 0.0128,
+ "matched_words": 34,
+ "scripted_words": 76,
+ "mean_abs_start_drift_s": 0.085,
+ "max_abs_start_drift_s": 0.3,
+ "low_confidence_words": [
+  {
+   "w": "cache.",
+   "t0": 20.32,
+   "t1": 20.6,
+   "p": 0.564
+  }
+ ],
+ "words": [
+  {
+   "w": "It",
+   "t0": 0.0,
+   "t1": 0.38,
+   "p": 0.88
+  },
+  {
+   "w": "works",
+   "t0": 0.38,
+   "t1": 0.52,
+   "p": 0.996
+  },
+  {
+   "w": "on",
+   "t0": 0.52,
+   "t1": 0.72,
+   "p": 0.997
+  },
+  {
+   "w": "your",
+   "t0": 0.72,
+   "t1": 0.82,
+   "p": 0.996
+  },
+  {
+   "w": "friend's",
+   "t0": 0.82,
+   "t1": 1.18,
+   "p": 0.957
+  },
+  {
+   "w": "phone,",
+   "t0": 1.18,
+   "t1": 1.38,
+   "p": 0.998
+  },
+  {
+   "w": "but",
+   "t0": 1.62,
+   "t1": 1.68,
+   "p": 0.999
+  },
+  {
+   "w": "not",
+   "t0": 1.68,
+   "t1": 1.84,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "t0": 1.84,
+   "t1": 1.98,
+   "p": 0.976
+  },
+  {
+   "w": "yours.",
+   "t0": 1.98,
+   "t1": 2.2,
+   "p": 0.99
+  },
+  {
+   "w": "Why?",
+   "t0": 3.02,
+   "t1": 3.1,
+   "p": 0.986
+  },
+  {
+   "w": "Phones",
+   "t0": 3.72,
+   "t1": 4.1,
+   "p": 0.959
+  },
+  {
+   "w": "get",
+   "t0": 4.1,
+   "t1": 4.28,
+   "p": 0.993
+  },
+  {
+   "w": "a",
+   "t0": 4.28,
+   "t1": 4.34,
+   "p": 0.997
+  },
+  {
+   "w": "site's",
+   "t0": 4.34,
+   "t1": 4.7,
+   "p": 0.969
+  },
+  {
+   "w": "address",
+   "t0": 4.7,
+   "t1": 4.94,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "t0": 4.94,
+   "t1": 5.18,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "t0": 5.18,
+   "t1": 5.26,
+   "p": 0.982
+  },
+  {
+   "w": "DNS",
+   "t0": 5.26,
+   "t1": 5.58,
+   "p": 0.988
+  },
+  {
+   "w": "resolver,",
+   "t0": 5.58,
+   "t1": 6.2,
+   "p": 0.92
+  },
+  {
+   "w": "which",
+   "t0": 6.64,
+   "t1": 6.78,
+   "p": 0.997
+  },
+  {
+   "w": "caches",
+   "t0": 6.78,
+   "t1": 7.06,
+   "p": 0.948
+  },
+  {
+   "w": "it.",
+   "t0": 7.06,
+   "t1": 7.42,
+   "p": 0.999
+  },
+  {
+   "w": "The",
+   "t0": 7.86,
+   "t1": 7.86,
+   "p": 0.885
+  },
+  {
+   "w": "site",
+   "t0": 7.86,
+   "t1": 8.08,
+   "p": 0.998
+  },
+  {
+   "w": "moved",
+   "t0": 8.08,
+   "t1": 8.36,
+   "p": 0.96
+  },
+  {
+   "w": "servers.",
+   "t0": 8.36,
+   "t1": 8.78,
+   "p": 0.958
+  },
+  {
+   "w": "Your",
+   "t0": 9.7,
+   "t1": 9.76,
+   "p": 0.995
+  },
+  {
+   "w": "resolver",
+   "t0": 9.76,
+   "t1": 10.14,
+   "p": 0.993
+  },
+  {
+   "w": "keeps",
+   "t0": 10.14,
+   "t1": 10.48,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "t0": 10.48,
+   "t1": 10.72,
+   "p": 0.998
+  },
+  {
+   "w": "old",
+   "t0": 10.72,
+   "t1": 10.88,
+   "p": 0.998
+  },
+  {
+   "w": "address",
+   "t0": 10.88,
+   "t1": 11.18,
+   "p": 0.998
+  },
+  {
+   "w": "until",
+   "t0": 11.18,
+   "t1": 11.48,
+   "p": 0.98
+  },
+  {
+   "w": "it's",
+   "t0": 11.48,
+   "t1": 11.78,
+   "p": 0.805
+  },
+  {
+   "w": "time",
+   "t0": 11.78,
+   "t1": 12.0,
+   "p": 0.991
+  },
+  {
+   "w": "to",
+   "t0": 12.0,
+   "t1": 12.18,
+   "p": 0.992
+  },
+  {
+   "w": "live",
+   "t0": 12.18,
+   "t1": 12.38,
+   "p": 0.95
+  },
+  {
+   "w": "runs",
+   "t0": 12.38,
+   "t1": 12.76,
+   "p": 0.923
+  },
+  {
+   "w": "out.",
+   "t0": 12.76,
+   "t1": 13.06,
+   "p": 0.996
+  },
+  {
+   "w": "Your",
+   "t0": 13.58,
+   "t1": 13.6,
+   "p": 0.995
+  },
+  {
+   "w": "friend's",
+   "t0": 13.6,
+   "t1": 13.96,
+   "p": 0.924
+  },
+  {
+   "w": "resolver",
+   "t0": 13.96,
+   "t1": 14.38,
+   "p": 0.998
+  },
+  {
+   "w": "asked",
+   "t0": 14.38,
+   "t1": 14.68,
+   "p": 0.977
+  },
+  {
+   "w": "after",
+   "t0": 14.68,
+   "t1": 15.02,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "t0": 15.02,
+   "t1": 15.24,
+   "p": 0.995
+  },
+  {
+   "w": "move",
+   "t0": 15.24,
+   "t1": 15.44,
+   "p": 0.996
+  },
+  {
+   "w": "and",
+   "t0": 15.44,
+   "t1": 16.0,
+   "p": 0.735
+  },
+  {
+   "w": "got",
+   "t0": 16.0,
+   "t1": 16.16,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "t0": 16.16,
+   "t1": 16.3,
+   "p": 0.998
+  },
+  {
+   "w": "new",
+   "t0": 16.3,
+   "t1": 16.46,
+   "p": 1.0
+  },
+  {
+   "w": "one.",
+   "t0": 16.46,
+   "t1": 16.68,
+   "p": 0.999
+  },
+  {
+   "w": "Compare",
+   "t0": 17.16,
+   "t1": 17.32,
+   "p": 0.993
+  },
+  {
+   "w": "both",
+   "t0": 17.32,
+   "t1": 17.56,
+   "p": 0.998
+  },
+  {
+   "w": "phones'",
+   "t0": 17.56,
+   "t1": 17.98,
+   "p": 0.908
+  },
+  {
+   "w": "addresses.",
+   "t0": 18.12,
+   "t1": 18.32,
+   "p": 0.995
+  },
+  {
+   "w": "Old",
+   "t0": 19.16,
+   "t1": 19.2,
+   "p": 0.97
+  },
+  {
+   "w": "one",
+   "t0": 19.2,
+   "t1": 19.4,
+   "p": 0.978
+  },
+  {
+   "w": "on",
+   "t0": 19.4,
+   "t1": 19.52,
+   "p": 0.998
+  },
+  {
+   "w": "yours,",
+   "t0": 19.52,
+   "t1": 19.76,
+   "p": 0.985
+  },
+  {
+   "w": "stale",
+   "t0": 20.16,
+   "t1": 20.32,
+   "p": 0.98
+  },
+  {
+   "w": "cache.",
+   "t0": 20.32,
+   "t1": 20.6,
+   "p": 0.564
+  },
+  {
+   "w": "Same,",
+   "t0": 21.3,
+   "t1": 21.34,
+   "p": 0.993
+  },
+  {
+   "w": "look",
+   "t0": 21.74,
+   "t1": 21.82,
+   "p": 0.997
+  },
+  {
+   "w": "elsewhere.",
+   "t0": 21.82,
+   "t1": 22.0,
+   "p": 0.996
+  },
+  {
+   "w": "Moving",
+   "t0": 22.92,
+   "t1": 22.92,
+   "p": 0.989
+  },
+  {
+   "w": "a",
+   "t0": 22.92,
+   "t1": 23.04,
+   "p": 0.961
+  },
+  {
+   "w": "site,",
+   "t0": 23.04,
+   "t1": 23.3,
+   "p": 0.993
+  },
+  {
+   "w": "lower",
+   "t0": 23.68,
+   "t1": 23.86,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "t0": 23.86,
+   "t1": 24.06,
+   "p": 0.999
+  },
+  {
+   "w": "TTL",
+   "t0": 24.06,
+   "t1": 24.3,
+   "p": 0.953
+  },
+  {
+   "w": "first.",
+   "t0": 24.3,
+   "t1": 24.76,
+   "p": 0.987
+  },
+  {
+   "w": "Follow",
+   "t0": 26.12,
+   "t1": 26.36,
+   "p": 0.975
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 26.36,
+   "t1": 26.88,
+   "p": 0.82
+  },
+  {
+   "w": "for",
+   "t0": 26.88,
+   "t1": 27.14,
+   "p": 0.989
+  },
+  {
+   "w": "software",
+   "t0": 27.14,
+   "t1": 27.32,
+   "p": 0.968
+  },
+  {
+   "w": "explained",
+   "t0": 27.32,
+   "t1": 27.9,
+   "p": 0.978
+  },
+  {
+   "w": "simply.",
+   "t0": 27.9,
+   "t1": 28.46,
+   "p": 0.984
+  }
+ ]
+}

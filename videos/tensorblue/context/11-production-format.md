@@ -35,6 +35,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-07 english-08:** "software mystery" framing (why a deleted photo is still on another device). Same satisfied design, English voice and CTA. First second must be visibly intriguing (here: deleted on the phone, still on the laptop by 0.9 s). Fictional systems are fine when backed by a real-tool run (real folders + rsync) whose states drive the on-screen result; say "often" where retention varies by service. Kit note: `rr()` begins a new path, so fill compound shapes separately. Details: `21-production-30s-english08-01.md`.
 
+- **2026-11-08 english-09:** "engineering mystery" framing (works for your friend, fails for you: stale DNS cache). Same satisfied design, English voice and CTA. Real demo on localhost (dnslib + dnsmasq + dig) with reserved names/addresses (.example, RFC 5737). Include one practical tip from the primary source when it fits (RFC 1034: lower the TTL before a move). English pronunciation: check compound terms (misaki read "time-to-live" with the verb "live"). Captions: each phrase once, no repeated words across groups. Details: `22-production-30s-english09-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

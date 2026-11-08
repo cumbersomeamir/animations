@@ -1,0 +1,66 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "time-to-live": "tˈIm tə lˈIv (misaki read 'live' as the verb /lɪv/)",
+  "elsewhere": "ˈɛlswˌɛɹ (misaki gave /ˈɛlshwˌɛɹ/)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "It works on your friend's phone, but not on yours. Why?",
+   "after": 0.4
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Phones get a site's address from a DNS resolver, which caches it.",
+   "after": 0.25
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "The site moved servers. Your resolver keeps the old address until its [time-to-live](/tˈIm tə lˈIv/) runs out.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Your friend's resolver asked after the move and got the new one.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "Compare both phones' addresses. Old one on yours? Stale cache. Same? Look [elsewhere](/ˈɛlswˌɛɹ/).",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Moving a site? Lower the TTL first.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 26.15,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.35
+  }
+ ]
+}

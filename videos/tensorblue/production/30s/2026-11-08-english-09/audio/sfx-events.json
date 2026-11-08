@@ -1,0 +1,185 @@
+{
+ "sfx": [
+  {
+   "t": 0.45,
+   "type": "match"
+  },
+  {
+   "t": 0.6,
+   "type": "strike"
+  },
+  {
+   "t": 1,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 2.885,
+   "type": "type"
+  },
+  {
+   "t": 3.33,
+   "type": "wipe"
+  },
+  {
+   "t": 7.429,
+   "type": "wipe"
+  },
+  {
+   "t": 13.151,
+   "type": "wipe"
+  },
+  {
+   "t": 16.715,
+   "type": "wipe"
+  },
+  {
+   "t": 22.305,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 4.079,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 4.691,
+   "type": "slide"
+  },
+  {
+   "t": 6.816,
+   "type": "slot"
+  },
+  {
+   "t": 5.241,
+   "type": "type"
+  },
+  {
+   "t": 8.123,
+   "type": "slide"
+  },
+  {
+   "t": 8.823,
+   "type": "clack"
+  },
+  {
+   "t": 10.285,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 11.735,
+   "type": "type"
+  },
+  {
+   "t": 14.415,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 15.727,
+   "type": "slide"
+  },
+  {
+   "t": 15.977,
+   "type": "slot"
+  },
+  {
+   "t": 16.502,
+   "type": "match"
+  },
+  {
+   "t": 18.999,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 20.011,
+   "type": "carve"
+  },
+  {
+   "t": 21.074,
+   "type": "clack"
+  },
+  {
+   "t": 21.761,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 23.644,
+   "type": "slide"
+  },
+  {
+   "t": 23.982,
+   "type": "type"
+  },
+  {
+   "t": 25.185,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.329,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "works": 0.385,
+  "not": 1.71,
+  "yours1": 2.01,
+  "why": 2.935,
+  "get": 4.179,
+  "address2": 4.691,
+  "dns": 5.291,
+  "resolver2": 5.829,
+  "caches": 6.866,
+  "moved": 8.223,
+  "servers": 8.635,
+  "keeps": 10.335,
+  "old3": 10.735,
+  "ttl3": 11.785,
+  "out": 12.935,
+  "asked": 14.515,
+  "move4": 15.227,
+  "got": 16.027,
+  "new4": 16.302,
+  "compare": 17.095,
+  "old5": 19.049,
+  "stale": 20.111,
+  "cache5": 20.486,
+  "same": 21.124,
+  "look": 21.686,
+  "elsewhere": 21.861,
+  "moving": 22.685,
+  "lower": 23.694,
+  "ttl6": 24.032,
+  "first": 24.569,
+  "follow": 26.15,
+  "tb": 26.429,
+  "chime": 25.185000000000002,
+  "scenes": [
+   0,
+   3.58,
+   7.679,
+   13.401,
+   16.965,
+   22.555,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

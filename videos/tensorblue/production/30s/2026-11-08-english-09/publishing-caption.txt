@@ -1,0 +1,17 @@
+It works on your friend's phone, but not on yours. Why?
+
+Phones get a site's address from a DNS resolver, which caches it. The site moved servers. Your resolver keeps the old address until its time-to-live runs out. Your friend's resolver asked after the move and got the new one.
+
+Compare both phones' addresses. Old one on yours? Stale cache. Same? Look elsewhere.
+
+Moving a site? Lower the TTL first.
+
+The demo is a real run with a made-up site (shop.example) and two caching resolvers, queried with dig: after the move, one resolver still answered the old address from its cache (TTL 27 s left), while a resolver asking for the first time got the new one.
+
+Sources:
+- RFC 1034, Domain Names: Concepts and Facilities: https://www.rfc-editor.org/rfc/rfc1034
+- RFC 1035, Domain Names: Implementation and Specification: https://www.rfc-editor.org/rfc/rfc1035
+
+Follow Tensorblue for software explained simply.
+
+#DNS #Debugging #SoftwareExplained

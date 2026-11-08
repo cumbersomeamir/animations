@@ -1,0 +1,63 @@
+{
+ "name": "shop.example",
+ "old": "192.0.2.10",
+ "new": "198.51.100.20",
+ "ttl": 30,
+ "tools": {
+  "dnsmasq": "Dnsmasq version 2.91  Copyright (c) 2000-2025 Simon Kelley",
+  "dig": "DiG 9.18.39-0ubuntu0.24.04.9-Ubuntu",
+  "dnslib": "0.9.26"
+ },
+ "log": [
+  {
+   "t": 0.0,
+   "who": "your resolver",
+   "note": "your phone asks before the move",
+   "command": "dig @127.0.0.1 -p 5401 shop.example A +noall +answer",
+   "answer": "shop.example.\t\t30\tIN\tA\t192.0.2.10",
+   "ttl": 30,
+   "address": "192.0.2.10"
+  },
+  {
+   "t": 2.0,
+   "who": "site owner",
+   "note": "the site moves: shop.example now points to 198.51.100.20"
+  },
+  {
+   "t": 2.5,
+   "who": "authoritative server",
+   "note": "the source now says the new address",
+   "command": "dig @127.0.0.1 -p 5300 shop.example A +noall +answer",
+   "answer": "shop.example.\t\t30\tIN\tA\t198.51.100.20",
+   "ttl": 30,
+   "address": "198.51.100.20"
+  },
+  {
+   "t": 2.5,
+   "who": "your resolver",
+   "note": "your phone asks again, answered from cache",
+   "command": "dig @127.0.0.1 -p 5401 shop.example A +noall +answer",
+   "answer": "shop.example.\t\t27\tIN\tA\t192.0.2.10",
+   "ttl": 27,
+   "address": "192.0.2.10"
+  },
+  {
+   "t": 2.6,
+   "who": "friend's resolver",
+   "note": "your friend's phone asks for the first time, after the move",
+   "command": "dig @127.0.0.1 -p 5402 shop.example A +noall +answer",
+   "answer": "shop.example.\t\t30\tIN\tA\t198.51.100.20",
+   "ttl": 30,
+   "address": "198.51.100.20"
+  },
+  {
+   "t": 30.6,
+   "who": "your resolver",
+   "note": "after the 30 s TTL runs out: asks the source again",
+   "command": "dig @127.0.0.1 -p 5401 shop.example A +noall +answer",
+   "answer": "shop.example.\t\t30\tIN\tA\t198.51.100.20",
+   "ttl": 30,
+   "address": "198.51.100.20"
+  }
+ ]
+}
