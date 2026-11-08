@@ -240,3 +240,16 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Demonstration pages:** draw the mechanism large enough to fill the page (key, magnet, lever, pen, paper), sync each press to a spoken word, and pair it with a real patent strip on the same page.
 
 - 10 (2026-11-07, english-08): Samuel F. B. Morse, painter turned telegraph inventor (U.S. Patent 1,647); replaces a third Lamarr & Antheil episode. Record: `21-production-30s-english08-01.md`
+
+## English-09 notes, 2026-11-08
+- **No licensed portrait:** if no openly licensed photo exists (check Commons, the en.wikipedia page image, Smithsonian Open Access and NIHF), use a typeset name plate (name · role · employer · years). Never draw a face. Use the person's real patent drawing or a museum CC0 object photo as the authentic image instead, and state the blocker in the record and the final report.
+- **Anecdote vs record:** spend one sentence on it, not the episode.
+  - Attribute the anecdote ("recalled", stamp "HIS OWN ACCOUNT").
+  - Show how retellings vary as flipping tags.
+  - Stamp the dated primary document ("DOCUMENTED · FILED …").
+- **Concrete payoff from the patent's own numbers:** quote a measured comparison (here 2 vs 36 kW·s for an egg) and draw the bars to scale. Speak plain units ("2 units … instead of 36") and keep the exact units on screen.
+- **ASR-risky fractions:** "one-eighteenth" was heard as "one-eighth" by both models. Say the two numbers instead and put the fraction on screen.
+- **Smithsonian Open Access:** `api.si.edu/openaccess/api/v1.0/search?q=…&api_key=DEMO_KEY` (retry on 429). CC0 media come via `ids.si.edu/ids/deliveryService?id=<idsId>&max=1400`. Quote the record's notes verbatim on screen ("first *microwave* oven designed for home use", not "first oven").
+- **Footers and credits:** keep print credits shorter than the print (Mono 18 px ≈ 10.8 px per character). Cite the exact patent columns that hold the quoted numbers.
+
+- 11 (2026-11-08, english-09): Percy Spencer, radar magnetrons and microwave cooking (U.S. Patent 2,495,429). Record: `22-production-30s-english09-01.md`

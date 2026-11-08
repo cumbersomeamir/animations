@@ -166,3 +166,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Images:** an LOC Brady portrait and Brady's 1857 photo with the recorder.
 - **Verification:** both ASR models match the script except the app name; there was no human listening. Pre-render layout fixes only; no defects on the final sheets.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-08: english-09 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-08-english-09/aarambh-30s-english09-01.mp4`, sha256 `eaf06c952e37f760a356850b3b07af044db2d6bcb5e3e57599fc993cabfb06fc`. Percy Spencer and microwave cooking (English). 30.000 s, 900 frames, −15.0 LUFS, −1.7 dBTP, full decode OK.
+- **Verified facts:** the full text and drawing of U.S. Patent 2,495,429 (USPTO PDF): wave guide, conveyor, 10 cm waves, and the egg at 2 vs 36 kW·s. Also U.S. 2,408,235, NIHF, the Smithsonian NMAH RL-1 record and the Linda Hall Library ("by his own account"). The candy-bar story is attributed, and its varying snacks are shown as retellings.
+- **Portrait:** no openly licensed one was found, so a typeset name plate is used. The real images are the two patents' drawings and the CC0 Tappan RL-1 photo.
+- **Voice:** the Meshline blend.
+- **Verification:** both ASR models match the script except the app name and a "change"/"changed" liaison; there was no human listening. After the first full render, two concrete fixes were made (the P5 credit overflow and NMAH wording, and the P4 column citation); no defects on the final sheets.
+- No automation; no other episode started; earlier renders untouched.

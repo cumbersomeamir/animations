@@ -1,0 +1,25 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Radar | 0.00 (Radar) | 0.00 (Radar) | magnetron waves pulse toward the pocketed candy bar (hook; lights flicker on 0-0.4) | 0.00
+Percy | 1.38 (Percy) | 1.38 (Percy) | name plate: Percy L. Spencer, radar engineer, Raytheon, 1894–1970 | 1.13
+recalled | 2.38 (recalled) | 2.36 (recalled) | HIS OWN ACCOUNT stamp | 2.28
+melting | 3.98 (melting) | 3.96 (melting) | melt sweep; drips lengthen over the pocket (melt runs 0.40–5.18) | 3.88
+Retelling's | 7.08 (Retelling's) | 7.08 (Retelling's) | page turn -> STORY VS RECORD | 6.60
+Retelling's | 7.08 (Retelling's) | 7.08 (Retelling's) | snack tags flip in turn: chocolate / peanut-cluster / Payday (6.88-8.53) | 6.88
+documented | 9.18 (documented) | 9.18 (documented) | THE RECORD: real 2,495,429 patent header slides in | 8.98
+patent | 11.60 (patent.) | 11.60 (patent.) | DOCUMENTED · FILED OCT. 8, 1945 stamp | 11.45
+It | 12.86 (It) | 12.86 (It) | slide swap -> 1945 patent drawing (12.42-12.77) | 12.42
+magnetron | 13.30 (magnetron) | 13.32 (magnetron) | loupe lands on the magnetron oscillator | 13.45
+down | 14.76 (down) | 14.76 (down) | loupe glides magnetron -> wave guide (lands 15.26) | 14.66
+to | 15.48 (to) | 15.50 (to) | loupe glides guide -> food (lands 16.22) | 15.48
+conveyor | 16.64 (conveyor.) | 16.64 (conveyor.) | pill: magnetrons, wave guide, food on a conveyor | 16.39
+His | 17.76 (His) | 17.76 (His) | HARD CUT -> egg measurement page (light flash) | 17.63
+two | 20.06 (two) | 20.06 (two) | 2 kW·s bar grows (microwave test) | 19.91
+instead | 21.04 (instead) | 21.06 (instead) | 36 kW·s bar grows across "instead of 36" (conventional cooking) | 21.30
+36 | 21.90 (36.) | 21.90 (36.) | pill: about 1/18 of the energy | 21.80
+Lesson | 23.10 (Lesson,) | 23.10 (Lesson,) | page turn -> LESSON: test the odd result (22.58-22.93) | 22.58
+odd | 24.10 (odd) | 24.10 (odd) | step 1 ODD RESULT: candy melted | 23.90
+test | 25.06 (test) | 25.04 (test) | step 2 TEST: popcorn, an egg | 24.86
+measure | 25.64 (measure) | 25.64 (measure) | step 3 MEASURE: 2 vs 36 (+ chime 25.64) | 25.44
+Download | 26.40 (Download) | 26.46 (Download) | CTA card slides in (26.10-26.60) | 26.10
+summary: 22 events; event minus word start ranges -0.52 to +0.26 s (negative = event leads the word).
+note: placed sentence starts S1 0.3 S2 6.95 S3 12.77 S4 17.69 S5 22.93 S6 26.6 (audio/script.json); ASR stamps the first word at 0.00 although S1 is placed at 0.30; caption groups start at sentence starts or mid-gap between ASR words; ASR hears the app name as "RM"/"RUMB" (TTS spelling "Aa-rumbh"; the caption and card show Aarambh).

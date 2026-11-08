@@ -60,3 +60,8 @@
 ## 2026-11-07: english-08 #01 (English)
 - `videos/aarambh/production/30s/2026-11-07-english-08/aarambh-30s-english08-01.mp4` (sha256 `7ae642a952e47114de2e4ebb5256a4a5b1ee0a7696e1f2cc9a0f5d5523f71aec`): Samuel F. B. Morse, a former portrait painter, and his 1840 recording telegraph (U.S. 1,647). This replaces the already-covered Lamarr & Antheil suggestion. English narration and captions with the Meshline voice; real LOC and Brady photos; patent sheets; dot/line demo; lesson about combining fields; Aarambh-only CTA.
 - **Read first next time:** 11 (incl. the English-06/07/08 notes) and 21.
+
+## 2026-11-08: english-09 #01 (English)
+- `videos/aarambh/production/30s/2026-11-08-english-09/aarambh-30s-english09-01.mp4` (sha256 `eaf06c952e37f760a356850b3b07af044db2d6bcb5e3e57599fc993cabfb06fc`): Percy Spencer, radar magnetrons and microwave cooking (U.S. 2,495,429). English narration and captions with the Meshline voice; real patent drawings (the magnetron, 2,408,235; the cooking system, 2,495,429, under the magnifier); the patent's egg measurement (2 vs 36 kW·s); the candy-bar story attributed and its retellings contrasted with the dated patent; the CC0 Smithsonian Tappan RL-1 photo; lesson "test it and measure it"; Aarambh-only CTA.
+- **Blocker recorded:** no openly licensed portrait of Spencer was found, so a typeset name plate is used.
+- **Read first next time:** 11 (incl. the English-06/07/08/09 notes) and 22.

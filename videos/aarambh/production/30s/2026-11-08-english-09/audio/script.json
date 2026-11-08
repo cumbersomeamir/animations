@@ -1,0 +1,41 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0 (kokoro-onnx model-files-v1.0), approved Meshline/Recall blend af_bella 0.7 + am_puck 0.3, speed 0.98, lang en-us (English only; no Hindi audio reused)",
+  "sentences": [
+    {
+      "id": "S1",
+      "text": "Radar engineer Percy Spencer recalled a candy bar melting in his pocket near a magnetron.",
+      "tts": "Radar engineer Percy Spencer recalled a candy bar melting in his pocket near a magnetron.",
+      "start": 0.3
+    },
+    {
+      "id": "S2",
+      "text": "Retellings change the snack; the documented record is his 1945 patent.",
+      "tts": "Retellings change the snack; the documented record is his nineteen forty-five patent.",
+      "start": 6.95
+    },
+    {
+      "id": "S3",
+      "text": "It sends magnetron microwaves down a guide to food on a conveyor.",
+      "tts": "It sends magnetron microwaves down a guide, to food on a conveyor.",
+      "start": 12.77
+    },
+    {
+      "id": "S4",
+      "text": "His test: an egg hard-boiled with 2 units of energy, instead of 36.",
+      "tts": "His test: an egg hard-boiled with two units of energy, instead of thirty-six.",
+      "start": 17.69
+    },
+    {
+      "id": "S5",
+      "text": "Lesson: when something odd happens, test it and measure it.",
+      "tts": "Lesson: when something odd happens, test it, and measure it.",
+      "start": 22.93
+    },
+    {
+      "id": "S6",
+      "text": "Download Aarambh to support livelihood tools.",
+      "tts": "Download Aa-rumbh, to support livelihood tools.",
+      "start": 26.6
+    }
+  ]
+}
