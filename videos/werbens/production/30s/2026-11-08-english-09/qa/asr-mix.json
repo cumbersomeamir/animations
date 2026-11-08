@@ -1,0 +1,66 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.86
+      ],
+      "script": "Same reward, same eight washes. Which card gets finished?",
+      "heard": "Same reward, same eight washes, which card gets finished.",
+      "words": "9/9"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.8,
+        8.6
+      ],
+      "script": "In a 2006 car wash study, both cards needed eight washes.",
+      "heard": "In a 2006 car wash study, both cards needed eight washes.",
+      "words": "10/10"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        8.55,
+        13.35
+      ],
+      "script": "The one that started with two free stamps was completed more often, and faster.",
+      "heard": "The one that started with two free stamps was completed more often and faster.",
+      "words": "14/14"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        13.3,
+        18.38
+      ],
+      "script": "That's the endowed progress effect: a head start feels like you've already begun.",
+      "heard": "That's the endowed progress effect. A head start feels like you've already begun.",
+      "words": "13/13"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        18.35,
+        24.49
+      ],
+      "script": "So give customers a real head start: a welcome stamp, or a checklist with the first step done.",
+      "heard": "So give customers a real head start, a welcome stamp, or a checklist with the first step done.",
+      "words": "18/18"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Same reward, same eight washes, which card gets finished. In a 2006 car wash study, both cards needed eight washes. The one that started with two free stamps was completed more often and faster. That's the endowed progress effect. A head start feels like you've already begun. So give customers a real head start, a welcome stamp or a checklist with the first step done. Follow Warbins to decode how brands sell."
+}

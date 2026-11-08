@@ -19,10 +19,10 @@ export const T = {
   freeGlow: 9.85, badgeB: 12.54,
   // effect: the board slides away (13.3 s); segmented progress rows drop in on "endowed progress effect" (right-aligned: eight empty blocks each);
   // B's two filled blocks glow on "head start"; brackets over the eight remaining on "already begun"
-  rowsA: 13.75, rowsB: 14.35, headStart: 15.89, brackets: [17.2, 18.4], rowsOut: [18.35, 18.75],
+  rowsA: 13.5, rowsB: 14.05, headStart: 15.89, brackets: [17.2, 18.4], rowsOut: [18.35, 18.75],
   // lesson: a new card slides in; the stamp gives it a real WELCOME stamp on "welcome stamp"; a checklist slides in on
   // "checklist"; its first step is ticked on "first step done"
-  cardC: [19.0, 19.45], welcome: 21.43, listIn: [22.2, 22.62], tick: 23.61,
+  cardC: [18.5, 18.95], welcome: 21.43, listIn: [22.2, 22.62], tick: 23.61,
   // CTA: board + props slide off; app.werbens.com logo tile lands; wordmark on "Werbens"
   ctaClear: [25.75, 26.2], tile: [25.9, 26.28], lockup: 26.75,
 };
