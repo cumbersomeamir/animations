@@ -64,7 +64,14 @@ console.log('physics', JSON.stringify(phys));
 if (args.physics) fs.writeFileSync(args.physics, JSON.stringify(phys, null, 2));
 
 const SHOT = args.jpeg ? { type: 'jpeg', quality: Number(args.jpeg) } : { type: 'png' };
-async function shot() { return page.screenshot({ ...SHOT, clip: { x: 0, y: 0, width: data.width, height: data.height } }); }
+async function shot() {
+  // prefer the page's explicit composite (3D canvas + overlay canvas) over a compositor screenshot; see web/main.js __composite
+  if (SHOT.type === 'png' && await page.evaluate(() => typeof window.__composite === 'function')) {
+    const url = await page.evaluate(() => window.__composite());
+    return Buffer.from(url.slice(url.indexOf(',') + 1), 'base64');
+  }
+  return page.screenshot({ ...SHOT, clip: { x: 0, y: 0, width: data.width, height: data.height } });
+}
 
 if (args.sheet) {
   fs.mkdirSync(args.sheet, { recursive: true });

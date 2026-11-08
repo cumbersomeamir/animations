@@ -155,3 +155,12 @@ window.__renderFrame = async (f) => {
   return { boxes, safe, shot: shot.id };
 };
 window.__sheetPoses = () => [];
+/** Final frame composed explicitly (3D canvas, then the overlay canvas) and returned as PNG data, so the written frame never
+ *  depends on when the browser's compositor picks up each canvas (a page screenshot once paired a new 3D image with an
+ *  overlay from two frames earlier at a scene cut). */
+window.__composite = () => {
+  if (!S.comp) { S.comp = document.createElement('canvas'); S.comp.width = S.W; S.comp.height = S.H; S.cctx = S.comp.getContext('2d'); }
+  S.cctx.clearRect(0, 0, S.W, S.H);
+  S.cctx.drawImage(document.getElementById('gl'), 0, 0); S.cctx.drawImage(document.getElementById('ov'), 0, 0);
+  return S.comp.toDataURL('image/png');
+};
