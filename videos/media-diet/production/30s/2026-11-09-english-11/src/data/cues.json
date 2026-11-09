@@ -1,0 +1,81 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Your teen signed up with",
+   "a fake adult birthday?"
+  ],
+  "in": 0.07,
+  "out": 2.809
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "On November 9, Instagram's",
+   "teen-detection AI went global."
+  ],
+  "in": 3.08,
+  "out": 7.324
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Before, a fake adult birthday",
+   "could slip right past."
+  ],
+  "in": 7.58,
+  "out": 10.885
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Now, if the AI suspects a teen,",
+   "the account moves"
+  ],
+  "in": 11.15,
+  "out": 14.357
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "into Teen Account protections."
+  ],
+  "in": 14.377,
+  "out": 16.603
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "That limits who can contact them,",
+   "what they see,"
+  ],
+  "in": 16.85,
+  "out": 19.685
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "and their time on the app."
+  ],
+  "in": 19.705,
+  "out": 21.418
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Facebook is still rolling out,",
+   "and Threads comes later this year."
+  ],
+  "in": 21.84,
+  "out": 25.658
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Follow Media Diet",
+   "for technology explained."
+  ],
+  "in": 25.92,
+  "out": 28.933
+ }
+]

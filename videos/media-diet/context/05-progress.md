@@ -188,3 +188,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   −1.8 dBTP; captions y 378–488, x 122–959, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
 - Repeated english-09/english-10 requests received mid-job were the same batches (already delivered / this job) — nothing duplicated.
 - Previous MP4s preserved. No automation created. No analytics used. Unresolved: audio not listened to by a human yet.
+
+## Checkpoint 2026-11-09 — english-11 (in progress)
+- Start state: clean at 1ff91e7 (= remote; english-10 delivered, earlier jobs finished in order), no jobs. Topic (official, Meta Newsroom,
+  9 Nov 2026 12:00 UTC — newest consumer announcement at 16:08 UTC): Instagram's teen-detection AI expands globally; suspected teens get
+  Teen Account protections even with an adult birthday; Facebook rolling out; Threads later this year. New topic and product for this app.
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 72 words, 24.5 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/24, log row.
+- Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

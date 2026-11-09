@@ -1,0 +1,182 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Your teen signed up with a fake adult birthday?",
+   "cues": [
+    [
+     "Your teen signed up with",
+     "a fake adult birthday?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.16,
+   "say": "On November 9, Instagram's teen-detection AI went global.",
+   "cues": [
+    [
+     "On November 9, Instagram's",
+     "teen-detection AI went global."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 7.66,
+   "say": "Before, a fake adult birthday could slip right past.",
+   "cues": [
+    [
+     "Before, a fake adult birthday",
+     "could slip right past."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 11.23,
+   "say": "Now, if the AI suspects a teen, the account moves into Teen Account protections.",
+   "cues": [
+    [
+     "Now, if the AI suspects a teen,",
+     "the account moves"
+    ],
+    [
+     "into Teen Account protections."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 16.93,
+   "say": "That limits who can contact them, what they see, and their time on the app.",
+   "cues": [
+    [
+     "That limits who can contact them,",
+     "what they see,"
+    ],
+    [
+     "and their time on the app."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 21.92,
+   "say": "Facebook is still rolling out, and Threads comes later this year.",
+   "cues": [
+    [
+     "Facebook is still rolling out,",
+     "and Threads comes later this year."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.0,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.06,
+   "what": "hook: a paper sign-up form \u2014 the birth year rolls 2012 \u2192 1999, 'Age 18+' ticks, 'Account created'; the teen token glances aside"
+  },
+  {
+   "id": "S2",
+   "in": 3.06,
+   "out": 5.0,
+   "what": "date + source: calendar flips to NOV 9; SOURCE placard 'Meta Newsroom \u00b7 Nov 9, 2026'"
+  },
+  {
+   "id": "S3",
+   "in": 5.0,
+   "out": 7.56,
+   "what": "a paper globe spins; pins light up around the world (went global)"
+  },
+  {
+   "id": "S4",
+   "in": 7.56,
+   "out": 11.13,
+   "what": "BEFORE: the account card (birthday 1999) leaves the form, the 'Age check' gate arm lifts, it slips through into the 'Adult account' booth"
+  },
+  {
+   "id": "S5",
+   "in": 11.13,
+   "out": 16.83,
+   "what": "NOW: an 'AI' lens sweeps the account, stamp 'Likely a teen', the card hops into the 'Teen Account' booth, which lights up"
+  },
+  {
+   "id": "S6",
+   "in": 16.83,
+   "out": 21.82,
+   "what": "payoff: three protection badges pop above the Teen Account booth \u2014 who can contact them, what they see, time on the app"
+  },
+  {
+   "id": "S7",
+   "in": 21.82,
+   "out": 25.92,
+   "what": "limit: app tiles \u2014 Instagram 'Worldwide now', Facebook 'Rolling out' (bar part-filled), Threads 'Later this year'"
+  },
+  {
+   "id": "S8",
+   "in": 25.92,
+   "out": 30.0,
+   "what": "CTA: hero pull-back over the set, Media Diet sign"
+  }
+ ],
+ "events": {
+  "roll": 0.1,
+  "tick": 1.75,
+  "created": 2.4,
+  "calFlip": 3.25,
+  "source": 4.2,
+  "pins": 5.6,
+  "leave": 7.9,
+  "atGate": 8.9,
+  "lift": 9.2,
+  "inAdult": 10.1,
+  "scan": 11.85,
+  "stampT": 13.1,
+  "move": 13.8,
+  "shield": 14.9,
+  "badges": [
+   17.85,
+   18.85,
+   20.15
+  ],
+  "apps": 21.9,
+  "fbRoll": 22.6,
+  "threads": 24.4,
+  "sign": 26.1
+ }
+}
