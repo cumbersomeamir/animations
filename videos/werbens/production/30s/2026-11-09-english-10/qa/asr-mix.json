@@ -1,0 +1,76 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.06
+      ],
+      "script": "Learn more... about what?",
+      "heard": "Learn more about what.",
+      "words": "4/4"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        1.9,
+        4.96
+      ],
+      "script": "Here are two buttons for a fictional meal kit service.",
+      "heard": "Here are two buttons for a fictional meal kit service.",
+      "words": "10/10"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        4.9,
+        9.88
+      ],
+      "script": "'Learn more' hides what happens next. 'See the 3 plans' says it before you tap.",
+      "heard": "Learn more hides what happens next. See the three plans says it before you tap.",
+      "words": "10/14"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        9.85,
+        16.26
+      ],
+      "script": "Web accessibility guidelines from the W3C say a link's purpose should be clear from its text.",
+      "heard": "Web accessibility guidelines from the W3C say a link's purpose should be clear from its text.",
+      "words": "17/17"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        16.35,
+        22.85
+      ],
+      "script": "So name the next step: a verb plus what they'll get, like 'Compare 3 plans' or 'Book a 15-minute call'.",
+      "heard": "So name the next step. A verb plus what they'll get, like compare three plans or book a 15-minute call.",
+      "words": "15/19"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        23.05,
+        24.94
+      ],
+      "script": "No guessing what comes next.",
+      "heard": "No guessing what comes next.",
+      "words": "5/5"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Learn more about what. Here are two buttons for a fictional meal kit service. Learn more hides what happens next. See the three plans says it before you tap. Web accessibility guidelines from the W3C say a link's purpose should be clear from its text. So name the next step. A verb plus what they'll get like compare three plans or book a 15-minute call. No guessing what comes next. Follow Wurbens to decode how brands sell."
+}
