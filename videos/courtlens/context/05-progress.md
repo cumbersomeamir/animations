@@ -11,7 +11,9 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   info@tensorblue.com.
 - Earlier accepted jobs were finished in order first: english-08 (187508a) and english-09 (2244205) were delivered
   and attached. The repeated english-09 request was not duplicated. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-09-english-10/courtlens-30s-english10-01.mp4`.
+- DELIVERED: `production/30s/2026-11-09-english-10/courtlens-30s-english10-01.mp4`
+  (sha256 8fe29ca85c95242a0ef6375e15f50c888cc142425c1e347a4c4de57d04187464).
+- The english-09 and english-10 requests were re-delivered mid-turn; each was handled once, with no duplicates.
 - Episode record: `context/episodes/2026-11-09-english10-phone-number-bill.md`.
 
 ### Verified facts
@@ -56,8 +58,22 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - The NCH slip was visible for only about 0.3 s before the envelope closed. The flap, label and seal moved to
   24.85 / 25.05 / 25.30 s, after "call 1915".
 
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.0 LUFS / −2.3 dBTP. It was −17.3 at first; the gain went from 6.2 to 7.5 dB and the audio was
+  re-muxed onto the same frames.
+- Narration 7/7 at +3 ms; CTA final 3.85 s; y<300 clear; 10 captions, ≤2 lines, in y 340–520.
+- English ASR on the final mix: WER 0.014 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Details: `production/30s/2026-11-09-english-10/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- The 2023 DoCA mobile-number advisory text is unverified (news-only).
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Await review. No further episode or automation unless asked.
 
 ## Round 2026-11-08 (english-09): English episode 09, can a hotel keep your original Aadhaar?
 
