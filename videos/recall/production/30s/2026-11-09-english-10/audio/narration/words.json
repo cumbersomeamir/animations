@@ -1,0 +1,423 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?",
+   "asr": "Sunglasses on and your phone goes black, turn it and it's back, why?",
+   "duration": 4.093,
+   "words": [
+    {
+     "w": "Sunglasses",
+     "start": 0.0,
+     "end": 0.44
+    },
+    {
+     "w": "on",
+     "start": 0.44,
+     "end": 0.78
+    },
+    {
+     "w": "and",
+     "start": 0.78,
+     "end": 0.98
+    },
+    {
+     "w": "your",
+     "start": 0.98,
+     "end": 1.1
+    },
+    {
+     "w": "phone",
+     "start": 1.1,
+     "end": 1.34
+    },
+    {
+     "w": "goes",
+     "start": 1.34,
+     "end": 1.62
+    },
+    {
+     "w": "black,",
+     "start": 1.62,
+     "end": 1.92
+    },
+    {
+     "w": "turn",
+     "start": 2.32,
+     "end": 2.58
+    },
+    {
+     "w": "it",
+     "start": 2.58,
+     "end": 2.76
+    },
+    {
+     "w": "and",
+     "start": 2.76,
+     "end": 2.86
+    },
+    {
+     "w": "it's",
+     "start": 2.86,
+     "end": 3.02
+    },
+    {
+     "w": "back,",
+     "start": 3.02,
+     "end": 3.22
+    },
+    {
+     "w": "why?",
+     "start": 3.58,
+     "end": 3.8
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "Many screens give off light that vibrates one way, set by a filter.",
+   "asr": "Many screens give off light that vibrates one way, set by a filter.",
+   "duration": 3.931,
+   "words": [
+    {
+     "w": "Many",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "screens",
+     "start": 0.14,
+     "end": 0.42
+    },
+    {
+     "w": "give",
+     "start": 0.42,
+     "end": 0.74
+    },
+    {
+     "w": "off",
+     "start": 0.74,
+     "end": 0.9
+    },
+    {
+     "w": "light",
+     "start": 0.9,
+     "end": 1.16
+    },
+    {
+     "w": "that",
+     "start": 1.16,
+     "end": 1.38
+    },
+    {
+     "w": "vibrates",
+     "start": 1.38,
+     "end": 1.98
+    },
+    {
+     "w": "one",
+     "start": 1.98,
+     "end": 2.18
+    },
+    {
+     "w": "way,",
+     "start": 2.18,
+     "end": 2.44
+    },
+    {
+     "w": "set",
+     "start": 2.86,
+     "end": 3.02
+    },
+    {
+     "w": "by",
+     "start": 3.02,
+     "end": 3.22
+    },
+    {
+     "w": "a",
+     "start": 3.22,
+     "end": 3.32
+    },
+    {
+     "w": "filter.",
+     "start": 3.32,
+     "end": 3.58
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "Polarized sunglasses filter one direction too, cutting glare off water and roads.",
+   "asr": "Polarized sunglasses filter one direction too, cutting glare off water and roads.",
+   "duration": 5.043,
+   "words": [
+    {
+     "w": "Polarized",
+     "start": 0.0,
+     "end": 0.56
+    },
+    {
+     "w": "sunglasses",
+     "start": 0.56,
+     "end": 0.8
+    },
+    {
+     "w": "filter",
+     "start": 0.8,
+     "end": 1.46
+    },
+    {
+     "w": "one",
+     "start": 1.46,
+     "end": 1.84
+    },
+    {
+     "w": "direction",
+     "start": 1.84,
+     "end": 2.14
+    },
+    {
+     "w": "too,",
+     "start": 2.14,
+     "end": 2.58
+    },
+    {
+     "w": "cutting",
+     "start": 3.06,
+     "end": 3.28
+    },
+    {
+     "w": "glare",
+     "start": 3.28,
+     "end": 3.68
+    },
+    {
+     "w": "off",
+     "start": 3.68,
+     "end": 3.98
+    },
+    {
+     "w": "water",
+     "start": 3.98,
+     "end": 4.2
+    },
+    {
+     "w": "and",
+     "start": 4.2,
+     "end": 4.44
+    },
+    {
+     "w": "roads.",
+     "start": 4.44,
+     "end": 4.68
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "When the filters cross, the light is blocked; turn the phone, and it passes.",
+   "asr": "When the filters cross, the light is blocked, turn the phone and it passes.",
+   "duration": 3.96,
+   "words": [
+    {
+     "w": "When",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "the",
+     "start": 0.08,
+     "end": 0.16
+    },
+    {
+     "w": "filters",
+     "start": 0.16,
+     "end": 0.4
+    },
+    {
+     "w": "cross,",
+     "start": 0.4,
+     "end": 0.74
+    },
+    {
+     "w": "the",
+     "start": 1.14,
+     "end": 1.22
+    },
+    {
+     "w": "light",
+     "start": 1.22,
+     "end": 1.4
+    },
+    {
+     "w": "is",
+     "start": 1.4,
+     "end": 1.58
+    },
+    {
+     "w": "blocked,",
+     "start": 1.58,
+     "end": 1.84
+    },
+    {
+     "w": "turn",
+     "start": 2.54,
+     "end": 2.56
+    },
+    {
+     "w": "the",
+     "start": 2.56,
+     "end": 2.74
+    },
+    {
+     "w": "phone",
+     "start": 2.74,
+     "end": 2.98
+    },
+    {
+     "w": "and",
+     "start": 2.98,
+     "end": 3.2
+    },
+    {
+     "w": "it",
+     "start": 3.2,
+     "end": 3.3
+    },
+    {
+     "w": "passes.",
+     "start": 3.3,
+     "end": 3.54
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "So just rotate the phone. And if it darkens, your sunglasses are polarized.",
+   "asr": "So just rotate the phone, and if it darkens, your sunglasses are polarized.",
+   "duration": 4.655,
+   "words": [
+    {
+     "w": "So",
+     "start": 0.0,
+     "end": 0.12
+    },
+    {
+     "w": "just",
+     "start": 0.12,
+     "end": 0.3
+    },
+    {
+     "w": "rotate",
+     "start": 0.3,
+     "end": 0.54
+    },
+    {
+     "w": "the",
+     "start": 0.54,
+     "end": 0.9
+    },
+    {
+     "w": "phone,",
+     "start": 0.9,
+     "end": 1.2
+    },
+    {
+     "w": "and",
+     "start": 1.8,
+     "end": 1.92
+    },
+    {
+     "w": "if",
+     "start": 1.92,
+     "end": 2.02
+    },
+    {
+     "w": "it",
+     "start": 2.02,
+     "end": 2.08
+    },
+    {
+     "w": "darkens,",
+     "start": 2.08,
+     "end": 2.6
+    },
+    {
+     "w": "your",
+     "start": 2.86,
+     "end": 2.92
+    },
+    {
+     "w": "sunglasses",
+     "start": 2.92,
+     "end": 3.3
+    },
+    {
+     "w": "are",
+     "start": 3.3,
+     "end": 3.72
+    },
+    {
+     "w": "polarized.",
+     "start": 3.72,
+     "end": 3.94
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "Download Recall for learning any new subject with AI.",
+   "asr": "Download Recall for learning any new subject with AI.",
+   "duration": 3.289,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.3
+    },
+    {
+     "w": "Recall",
+     "start": 0.3,
+     "end": 0.62
+    },
+    {
+     "w": "for",
+     "start": 0.62,
+     "end": 1.28
+    },
+    {
+     "w": "learning",
+     "start": 1.28,
+     "end": 1.48
+    },
+    {
+     "w": "any",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "new",
+     "start": 1.76,
+     "end": 1.96
+    },
+    {
+     "w": "subject",
+     "start": 1.96,
+     "end": 2.26
+    },
+    {
+     "w": "with",
+     "start": 2.26,
+     "end": 2.62
+    },
+    {
+     "w": "AI.",
+     "start": 2.62,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

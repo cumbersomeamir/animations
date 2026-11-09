@@ -1,0 +1,55 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?",
+      "file": "l01.wav",
+      "duration": 4.093,
+      "sr": 24000,
+      "words_per_s": 3.18
+    },
+    {
+      "id": "l02",
+      "text": "Many screens give off light that vibrates one way, set by a filter.",
+      "file": "l02.wav",
+      "duration": 3.931,
+      "sr": 24000,
+      "words_per_s": 3.31
+    },
+    {
+      "id": "l03",
+      "text": "Polarized sunglasses filter one direction too, cutting glare off water and roads.",
+      "file": "l03.wav",
+      "duration": 5.043,
+      "sr": 24000,
+      "words_per_s": 2.38
+    },
+    {
+      "id": "l04",
+      "text": "When the filters cross, the light is blocked; turn the phone, and it passes.",
+      "file": "l04.wav",
+      "duration": 3.96,
+      "sr": 24000,
+      "words_per_s": 3.54
+    },
+    {
+      "id": "l05",
+      "text": "So just rotate the phone. And if it darkens, your sunglasses are polarized.",
+      "file": "l05.wav",
+      "duration": 4.655,
+      "sr": 24000,
+      "words_per_s": 2.79
+    },
+    {
+      "id": "l06",
+      "text": "Download Recall for learning any new subject with AI.",
+      "file": "l06.wav",
+      "duration": 3.289,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

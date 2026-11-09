@@ -63,3 +63,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s, why a phone camera sees a remote's infrared + remote test; record, topic-change reason, sources + QA in 22).
 - English-09 2026-11-08 batch (English; touchscreens and gloves, capacitive vs resistive): `videos/recall/production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4`
   (30.000 s; record, topic check vs H03, sources + QA in 23).
+- English-10 2026-11-09 batch (English; suggested QR topic already F01 → polarized sunglasses vs phone screens): `videos/recall/production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4`
+  (30.000 s, why a screen goes black through polarized sunglasses + rotate test; record, topic-change reason, sources + QA in 24).

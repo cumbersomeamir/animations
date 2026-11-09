@@ -128,3 +128,7 @@ already F05, so a distinct topic was chosen (reason in context 22); deliverable 
 ## Update 2026-11-08 batch — english-09
 Episode E09 "Why does your phone ignore you once you put on gloves?" (English); kept as distinct from H03 (wet screens);
 record in context 23; deliverable `videos/recall/production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4`.
+
+## Update 2026-11-09 batch — english-10
+Episode E10 "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?" (English). The suggested QR topic was
+already F01, so a distinct topic was chosen (reason in context 24); deliverable `videos/recall/production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4`.

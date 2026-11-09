@@ -1,0 +1,31 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?"
+    },
+    {
+      "id": "l02",
+      "text": "Many screens give off light that vibrates one way, set by a filter."
+    },
+    {
+      "id": "l03",
+      "text": "Polarized sunglasses filter one direction too, cutting glare off water and roads."
+    },
+    {
+      "id": "l04",
+      "text": "When the filters cross, the light is blocked; turn the phone, and it passes."
+    },
+    {
+      "id": "l05",
+      "text": "So just rotate the phone. And if it darkens, your sunglasses are polarized."
+    },
+    {
+      "id": "l06",
+      "text": "Download Recall for learning any new subject with AI."
+    }
+  ]
+}

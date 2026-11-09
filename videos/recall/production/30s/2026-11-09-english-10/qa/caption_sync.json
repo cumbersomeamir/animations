@@ -1,0 +1,125 @@
+{
+ "ok": true,
+ "spoken_groups": 11,
+ "onscreen_only": [
+  "Rotate the phone. / Darkens? Polarized lenses."
+ ],
+ "rows": [
+  {
+   "caption": "Sunglasses on, and your / phone goes black.",
+   "start": 0.38,
+   "end": 2.7,
+   "first_word_s": 0.45,
+   "last_word_s": 2.07,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Turn it, and it's back. Why?",
+   "start": 2.7,
+   "end": 4.88,
+   "first_word_s": 2.77,
+   "last_word_s": 4.03,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Many screens give off light / that vibrates one way,",
+   "start": 4.88,
+   "end": 7.75,
+   "first_word_s": 4.95,
+   "last_word_s": 7.13,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "set by a filter.",
+   "start": 7.75,
+   "end": 9.25,
+   "first_word_s": 7.81,
+   "last_word_s": 8.27,
+   "caption_lead_s": 0.06,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Polarized sunglasses / filter one direction too,",
+   "start": 9.25,
+   "end": 12.3,
+   "first_word_s": 9.3,
+   "last_word_s": 11.44,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "cutting glare off / water and roads.",
+   "start": 12.3,
+   "end": 14.75,
+   "first_word_s": 12.36,
+   "last_word_s": 13.74,
+   "caption_lead_s": 0.06,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "When the filters cross, / the light is blocked;",
+   "start": 14.75,
+   "end": 17.28,
+   "first_word_s": 14.8,
+   "last_word_s": 16.38,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "turn the phone, / and it passes.",
+   "start": 17.28,
+   "end": 19.15,
+   "first_word_s": 17.34,
+   "last_word_s": 18.1,
+   "caption_lead_s": 0.06,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So just rotate the phone.",
+   "start": 19.15,
+   "end": 20.95,
+   "first_word_s": 19.2,
+   "last_word_s": 20.1,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "And if it darkens, your / sunglasses are polarized.",
+   "start": 20.95,
+   "end": 23.9,
+   "first_word_s": 21.0,
+   "last_word_s": 22.92,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Rotate the phone. / Darkens? Polarized lenses.",
+   "start": 23.95,
+   "end": 26.25,
+   "spoken": false
+  },
+  {
+   "caption": "Download Recall for learning / any new subject with AI.",
+   "start": 26.25,
+   "end": 30.0,
+   "first_word_s": 26.35,
+   "last_word_s": 28.97,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

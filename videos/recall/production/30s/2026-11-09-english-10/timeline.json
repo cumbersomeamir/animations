@@ -1,0 +1,418 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.45
+  },
+  {
+   "id": "l02",
+   "start": 4.95
+  },
+  {
+   "id": "l03",
+   "start": 9.3
+  },
+  {
+   "id": "l04",
+   "start": 14.8
+  },
+  {
+   "id": "l05",
+   "start": 19.2
+  },
+  {
+   "id": "l06",
+   "start": 26.35
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_pov",
+   "t0": 0.0,
+   "t1": 3.6
+  },
+  {
+   "id": "react",
+   "t0": 3.6,
+   "t1": 4.9
+  },
+  {
+   "id": "giant_screen",
+   "t0": 4.9,
+   "t1": 9.25
+  },
+  {
+   "id": "giant_glare",
+   "t0": 9.25,
+   "t1": 14.75
+  },
+  {
+   "id": "giant_cross",
+   "t0": 14.75,
+   "t1": 19.15
+  },
+  {
+   "id": "rotate_pov",
+   "t0": 19.15,
+   "t1": 20.95
+  },
+  {
+   "id": "test_cu",
+   "t0": 20.95,
+   "t1": 23.95
+  },
+  {
+   "id": "take_cu",
+   "t0": 23.95,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "glassesOn": 0.35,
+  "rotate1": 2.7,
+  "backlight": 5.0,
+  "filter": 6.2,
+  "sun": 9.4,
+  "glare": 12.35,
+  "blocked": 12.9,
+  "cross": 15.2,
+  "turnGiant": 17.3,
+  "rotate2": 19.3,
+  "testRot": 21.3,
+  "smile": 24.6,
+  "cta": 26.35,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.38,
+   "end": 2.7,
+   "lines": [
+    [
+     [
+      "Sunglasses on, and your",
+      0
+     ]
+    ],
+    [
+     [
+      "phone goes ",
+      0
+     ],
+     [
+      "black.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.7,
+   "end": 4.88,
+   "lines": [
+    [
+     [
+      "Turn it, and it's ",
+      0
+     ],
+     [
+      "back.",
+      1
+     ],
+     [
+      " Why?",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.88,
+   "end": 7.75,
+   "lines": [
+    [
+     [
+      "Many screens give off light",
+      0
+     ]
+    ],
+    [
+     [
+      "that ",
+      0
+     ],
+     [
+      "vibrates one way,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.75,
+   "end": 9.25,
+   "lines": [
+    [
+     [
+      "set by a ",
+      0
+     ],
+     [
+      "filter.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.25,
+   "end": 12.3,
+   "lines": [
+    [
+     [
+      "Polarized sunglasses",
+      1
+     ]
+    ],
+    [
+     [
+      "filter one direction too,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.3,
+   "end": 14.75,
+   "lines": [
+    [
+     [
+      "cutting ",
+      0
+     ],
+     [
+      "glare",
+      1
+     ],
+     [
+      " off",
+      0
+     ]
+    ],
+    [
+     [
+      "water and roads.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.75,
+   "end": 17.28,
+   "lines": [
+    [
+     [
+      "When the ",
+      0
+     ],
+     [
+      "filters cross,",
+      1
+     ]
+    ],
+    [
+     [
+      "the light is blocked;",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 17.28,
+   "end": 19.15,
+   "lines": [
+    [
+     [
+      "turn the phone,",
+      1
+     ]
+    ],
+    [
+     [
+      "and it passes.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 19.15,
+   "end": 20.95,
+   "lines": [
+    [
+     [
+      "So just ",
+      0
+     ],
+     [
+      "rotate the phone.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.95,
+   "end": 23.9,
+   "lines": [
+    [
+     [
+      "And if it darkens, your",
+      0
+     ]
+    ],
+    [
+     [
+      "sunglasses are ",
+      0
+     ],
+     [
+      "polarized.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.95,
+   "end": 26.25,
+   "lines": [
+    [
+     [
+      "Rotate the phone.",
+      1
+     ]
+    ],
+    [
+     [
+      "Darkens? Polarized lenses.",
+      0
+     ]
+    ]
+   ],
+   "onscreen_only": true
+  },
+  {
+   "start": 26.25,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " for learning",
+      0
+     ]
+    ],
+    [
+     [
+      "any new subject with AI.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.9,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.9,
+   9.25,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   9.25,
+   14.75,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   14.75,
+   19.15,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   19.15,
+   23.95,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   23.95,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}
