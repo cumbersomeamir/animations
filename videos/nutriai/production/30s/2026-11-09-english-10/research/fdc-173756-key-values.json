@@ -1,0 +1,65 @@
+{
+ "fdcId": 173756,
+ "ndbNumber": 16056,
+ "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 63.0,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 378,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 7.68,
+   "unit": "g",
+   "dataPoints": 54
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 12.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 1580.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 20.5,
+   "unit": "g",
+   "dataPoints": 54
+  },
+  {
+   "name": "Ash",
+   "amount": 2.85,
+   "unit": "g",
+   "dataPoints": 38
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 24.0,
+   "unit": "mg",
+   "dataPoints": 35
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 6.04,
+   "unit": "g",
+   "dataPoints": 60
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "_doc": "CalMeter English 30 s english-10 (2026-11-09): cooked (boiled, no salt) vs dry-roasted (no oil) chickpeas. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt, faster-whisper base.en).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.3
+  },
+  {
+   "id": "T1",
+   "at": 5.25
+  },
+  {
+   "id": "T2",
+   "at": 9.35
+  },
+  {
+   "id": "T3",
+   "at": 13.65
+  },
+  {
+   "id": "T4",
+   "at": 19.3
+  },
+  {
+   "id": "T5",
+   "at": 26.3
+  }
+ ],
+ "captions": [
+  {
+   "in": 6,
+   "out": 106,
+   "lines": [
+    [
+     "100 g cooked chickpeas,",
+     9
+    ],
+    [
+     "100 g roasted:",
+     72
+    ]
+   ]
+  },
+  {
+   "in": 110,
+   "out": 152,
+   "lines": [
+    [
+     "more than 2× the calories",
+     113
+    ]
+   ]
+  },
+  {
+   "in": 155,
+   "out": 274,
+   "lines": [
+    [
+     "Cooked ≈ 60% water;",
+     158
+    ],
+    [
+     "roasting drives most of it off",
+     222
+    ]
+   ]
+  },
+  {
+   "in": 277,
+   "out": 403,
+   "lines": [
+    [
+     "100 g shrinks to under half,",
+     281
+    ],
+    [
+     "same kcal, same protein",
+     348
+    ]
+   ]
+  },
+  {
+   "in": 406,
+   "out": 572,
+   "lines": [
+    [
+     "Per 100 g roasted:",
+     410
+    ],
+    [
+     "≈ 380 kcal, ≈ 20 g protein",
+     473
+    ]
+   ]
+  },
+  {
+   "in": 575,
+   "out": 776,
+   "lines": [
+    [
+     "Snack tip: 30 g roasted",
+     584
+    ],
+    [
+     "≈ 70 g cooked, ≈ 115 kcal",
+     646
+    ]
+   ]
+  },
+  {
+   "in": 782,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     789
+    ],
+    [
+     "with CalMeter",
+     827
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "balance": 0,
+  "cookedIn": 2,
+  "roastIn": 8,
+  "roastLand": 24,
+  "qTags": 22,
+  "tags": 50,
+  "level": 60,
+  "kcalReveal": 118,
+  "x2": 122,
+  "title": 12,
+  "burnish": 148,
+  "section": 150,
+  "water60": 175,
+  "roast": 222,
+  "roastEnd": 300,
+  "half": 321,
+  "same1": 348,
+  "same2": 381,
+  "burnish2": 400,
+  "bars": 404,
+  "roastKcal": 480,
+  "protRow": 500,
+  "roastProt": 531,
+  "burnish3": 568,
+  "snackIn": 600,
+  "cookedIn2": 646,
+  "kcal115": 698,
+  "cta": 778,
+  "ctaWord": 789,
+  "page2": 392
+ },
+ "sfx": [
+  {
+   "ev": "balance",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "roastLand",
+   "type": "patter",
+   "dur": 0.6,
+   "gain": -24
+  },
+  {
+   "ev": "kcalReveal",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -20
+  },
+  {
+   "ev": "roast",
+   "type": "juice",
+   "gain": -24
+  },
+  {
+   "ev": "same1",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "same2",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "page2",
+   "type": "page",
+   "gain": -25
+  },
+  {
+   "ev": "roastKcal",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "burnish3",
+   "type": "page",
+   "gain": -21
+  },
+  {
+   "ev": "snackIn",
+   "type": "patter",
+   "dur": 0.6,
+   "gain": -25
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

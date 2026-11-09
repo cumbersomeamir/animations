@@ -1,0 +1,47 @@
+{
+ "fdcId": 2644282,
+ "ndbNumber": 100311,
+ "description": "Chickpeas, (garbanzo beans, bengal gram), dry",
+ "dataType": "Foundation",
+ "publicationDate": "10/26/2023",
+ "source": "foundationDownload.json (USDA Foundation Foods bulk download) (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Sodium, Na",
+   "amount": 8.78,
+   "unit": "mg",
+   "dataPoints": 8
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 6.27,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Ash",
+   "amount": 3.32,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Water",
+   "amount": 8.77,
+   "unit": "g",
+   "dataPoints": 8
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 60.4,
+   "unit": "g",
+   "dataPoints": null
+  },
+  {
+   "name": "Protein",
+   "amount": 21.3,
+   "unit": "g",
+   "dataPoints": null
+  }
+ ]
+}

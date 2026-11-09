@@ -1,0 +1,14 @@
+Caption line appear time vs ASR word start on the export (faster-whisper base.en, VAD; qa/asr-final-mp4.txt)
+100 g cooked chickpeas,          caption   0.30s  word   0.00s  diff +0.30  (segment-start drift; take placed at 0.30 s)
+100 g roasted:                   caption   2.40s  word   2.38s  diff +0.02
+more than 2× the calories        caption   3.77s  word   3.72s  diff +0.05
+Cooked ≈ 60% water;              caption   5.27s  word   5.34s  diff -0.07
+roasting drives most of it off   caption   7.40s  word   7.52s  diff -0.12
+100 g shrinks to under half,     caption   9.37s  word   9.38s  diff -0.01
+same kcal, same protein          caption  11.60s  word  11.68s  diff -0.08
+Per 100 g roasted:               caption  13.67s  word  13.72s  diff -0.05
+≈ 380 kcal, ≈ 20 g protein       caption  15.77s  word  15.74s  diff +0.03
+Snack tip: 30 g roasted          caption  19.47s  word  19.48s  diff -0.01
+≈ 70 g cooked, ≈ 115 kcal        caption  21.53s  word  21.52s  diff +0.01
+Track your food and nutrition    caption  26.30s  word  25.84s  diff +0.46  (segment-start drift; take placed at 26.30 s)
+with CalMeter                    caption  27.57s  word  27.56s  diff +0.01
