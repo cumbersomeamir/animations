@@ -1,0 +1,234 @@
+{
+ "_doc": "CalMeter English 30 s english-11 (2026-11-09): a medium baked potato with skin (173 g), then the same potato with butter. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt, faster-whisper base.en).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.3
+  },
+  {
+   "id": "T1",
+   "at": 6.55
+  },
+  {
+   "id": "T2",
+   "at": 13.85
+  },
+  {
+   "id": "T3",
+   "at": 17.75
+  },
+  {
+   "id": "T4",
+   "at": 22.0
+  },
+  {
+   "id": "T5",
+   "at": 26.3
+  }
+ ],
+ "captions": [
+  {
+   "in": 6,
+   "out": 100,
+   "lines": [
+    [
+     "A baked potato,",
+     9
+    ],
+    [
+     "≈ 160 kcal",
+     39
+    ]
+   ]
+  },
+  {
+   "in": 102,
+   "out": 191,
+   "lines": [
+    [
+     "with 1 tbsp of butter,",
+     104
+    ],
+    [
+     "≈ 260 kcal",
+     159
+    ]
+   ]
+  },
+  {
+   "in": 194,
+   "out": 322,
+   "lines": [
+    [
+     "The potato: 37 g carbs,",
+     197
+    ],
+    [
+     "4 g fibre,",
+     288
+    ]
+   ]
+  },
+  {
+   "in": 325,
+   "out": 410,
+   "lines": [
+    [
+     "over 900 mg potassium",
+     327
+    ]
+   ]
+  },
+  {
+   "in": 413,
+   "out": 528,
+   "lines": [
+    [
+     "The butter: ≈ 100 kcal,",
+     416
+    ],
+    [
+     "almost all from fat",
+     483
+    ]
+   ]
+  },
+  {
+   "in": 531,
+   "out": 655,
+   "lines": [
+    [
+     "A pat adds ≈ 35 kcal;",
+     533
+    ],
+    [
+     "2 tbsp ≈ 200",
+     591
+    ]
+   ]
+  },
+  {
+   "in": 658,
+   "out": 778,
+   "lines": [
+    [
+     "The potato stays the same;",
+     660
+    ],
+    [
+     "log the topping too",
+     716
+    ]
+   ]
+  },
+  {
+   "in": 782,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     789
+    ],
+    [
+     "with CalMeter",
+     827
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "title": 12,
+  "split": 2,
+  "kcalQ": 14,
+  "kcal160": 39,
+  "tagW": 26,
+  "spoon": 64,
+  "butterDrop": 118,
+  "melt": 124,
+  "kcal260": 159,
+  "burnish": 186,
+  "section": 188,
+  "potCol": 196,
+  "rowCarb": 222,
+  "rowFibre": 288,
+  "rowK": 327,
+  "butCol": 414,
+  "butE": 442,
+  "fatHi": 483,
+  "burnish2": 524,
+  "bars": 528,
+  "pat": 540,
+  "tbsp1": 566,
+  "tbsp2": 591,
+  "same": 660,
+  "logIt": 716,
+  "cta": 778,
+  "ctaWord": 789
+ },
+ "sfx": [
+  {
+   "ev": "split",
+   "type": "slice",
+   "gain": -24
+  },
+  {
+   "ev": "kcal160",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "butterDrop",
+   "type": "thud",
+   "gain": -27
+  },
+  {
+   "ev": "melt",
+   "type": "juice",
+   "gain": -26
+  },
+  {
+   "ev": "kcal260",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -22
+  },
+  {
+   "ev": "rowK",
+   "type": "tick",
+   "gain": -26
+  },
+  {
+   "ev": "fatHi",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "burnish2",
+   "type": "page",
+   "gain": -23
+  },
+  {
+   "ev": "tbsp2",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "logIt",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

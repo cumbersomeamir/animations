@@ -1,0 +1,10 @@
+--- blackdetect d=0.25, freezedetect default noise d=0.8
+--- strict (informational) n=0.003 d=0.8
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_start: 3.66667
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_duration: 1
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_start: 14.0667
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_duration: 0.8
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_start: 14.8667
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_duration: 1.33333
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_start: 22.5333
+[freezedetect @ 0x5588db9cb000] lavfi.freezedetect.freeze_duration: 1

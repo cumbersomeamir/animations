@@ -1,0 +1,90 @@
+{
+ "fdcId": 170093,
+ "ndbNumber": 11674,
+ "description": "Potatoes, baked, flesh and skin, without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Starch",
+   "amount": 17.3,
+   "unit": "g",
+   "dataPoints": 21
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 2.2,
+   "unit": "g",
+   "dataPoints": 15
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 10.0,
+   "unit": "mg",
+   "dataPoints": 47
+  },
+  {
+   "name": "Protein",
+   "amount": 2.5,
+   "unit": "g",
+   "dataPoints": 21
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 535,
+   "unit": "mg",
+   "dataPoints": 47
+  },
+  {
+   "name": "Water",
+   "amount": 74.9,
+   "unit": "g",
+   "dataPoints": 21
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.13,
+   "unit": "g",
+   "dataPoints": 21
+  },
+  {
+   "name": "Energy",
+   "amount": 390,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 21.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 93.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 1.18,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 0.034,
+   "unit": "g",
+   "dataPoints": 0
+  }
+ ],
+ "calorieConversionFactors": [
+  {
+   "proteinValue": 2.78,
+   "fatValue": 8.37,
+   "carbohydrateValue": 4.03
+  }
+ ]
+}

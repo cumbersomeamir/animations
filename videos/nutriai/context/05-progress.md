@@ -112,3 +112,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-09-english-10/source/`, output `../nutriai-30s-english10-01.mp4`; ASR on the final mix with `vad_filter=True`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.4 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520; plate text inside x 90–950; ASR verbatim except the brand on base.en ("cow meter"; small.en "Cal Meter"); a masking page sound before "Per" fixed. See `production/30s/2026-11-09-english-10/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 18. Batch 2026-11-09-english-11, a medium baked potato with skin, then butter (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at 2beaad2, no active or unfinished job; potato only an idea in 08, never produced. Performance sheet not in repo/chat; its approved direction applied as stated, no analytics quoted.
+- Facts: USDA FDC 170093 potato, baked, flesh and skin, no salt (93 kcal, 21.15 g carbohydrate, 2.2 g fibre, 535 mg potassium / 100 g; medium = 173 g → ≈ 161 kcal, 37 g, 3.8 g, 926 mg); FDC 173410 butter, salted (717 kcal, 81.1 g fat / 100 g; pat 5 g ≈ 36 kcal, tbsp 14.2 g ≈ 102 kcal, 2 tbsp ≈ 204 kcal). Details: `context/24-production-30s-english11-potato.md`.
+- Decisions: english-10 renderer parts + Meshline voice + accepted mix reused; CTA = cached accepted take; hook = potato splitting open + a tablespoon of butter melting in; a potato-vs-butter ledger with per-row bars; stacked bars for three butter portions on the same potato; no good/bad framing.
+- Commands: as in section 9, from `production/30s/2026-11-09-english-11/source/`, output `../nutriai-30s-english11-01.mp4`; ASR on the final mix with `vad_filter=True`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 90–990 / y 340–520; plate text inside x 90–950; ASR verbatim except the brand on base.en ("cow meter"; small.en "Cal Meter"). See `production/30s/2026-11-09-english-11/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

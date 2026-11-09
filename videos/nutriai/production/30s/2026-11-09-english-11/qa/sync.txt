@@ -1,0 +1,16 @@
+Caption line appear time vs ASR word start on the export (faster-whisper base.en, VAD; qa/asr-final-mp4.txt)
+A baked potato,                  caption   0.30s  word   0.00s  diff +0.30  (segment-start drift; take placed at 0.30 s)
+≈ 160 kcal                       caption   1.30s  word   1.30s  diff +0.00
+with 1 tbsp of butter,           caption   3.47s  word   3.44s  diff +0.03
+≈ 260 kcal                       caption   5.30s  word   5.32s  diff -0.02
+The potato: 37 g carbs,          caption   6.57s  word   6.52s  diff +0.05
+4 g fibre,                       caption   9.60s  word   9.62s  diff -0.02
+over 900 mg potassium            caption  10.90s  word  10.84s  diff +0.06
+The butter: ≈ 100 kcal,          caption  13.87s  word  13.84s  diff +0.03
+almost all from fat              caption  16.10s  word  16.04s  diff +0.06
+A pat adds ≈ 35 kcal;            caption  17.77s  word  17.80s  diff -0.03
+2 tbsp ≈ 200                     caption  19.70s  word  19.78s  diff -0.08
+The potato stays the same;       caption  22.00s  word  22.04s  diff -0.04
+log the topping too              caption  23.87s  word  23.90s  diff -0.03
+Track your food and nutrition    caption  26.30s  word  25.80s  diff +0.50  (segment-start drift; take placed at 26.30 s)
+with CalMeter                    caption  27.57s  word  27.56s  diff +0.01

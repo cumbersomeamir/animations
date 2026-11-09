@@ -1,0 +1,84 @@
+{
+ "fdcId": 173410,
+ "ndbNumber": 1001,
+ "description": "Butter, salted",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Potassium, K",
+   "amount": 24.0,
+   "unit": "mg",
+   "dataPoints": 18
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 643,
+   "unit": "mg",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 717,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Fatty acids, total saturated",
+   "amount": 51.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 3000.0,
+   "unit": "kJ",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 81.1,
+   "unit": "g",
+   "dataPoints": 580
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 0.06,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 0.85,
+   "unit": "g",
+   "dataPoints": 16
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 0.06,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 16.2,
+   "unit": "g",
+   "dataPoints": 7
+  }
+ ],
+ "calorieConversionFactors": [
+  {
+   "proteinValue": 4.27,
+   "fatValue": 8.79,
+   "carbohydrateValue": 3.87
+  }
+ ]
+}
