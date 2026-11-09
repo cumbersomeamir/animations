@@ -196,3 +196,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 72 words, 24.5 s.
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/24, log row.
 - Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-09 — english-11 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-09-english-11/media-diet-30s-english11-01.mp4
+  (SHA-256 d8db014cb07bdff26c559c6619d9ec6aa7fa0553059e2803971b3bc075d0c5ad). Record: context/24-production-30s-english11-01.md; context/11 log row → delivered.
+- Commands: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (parallel, resumable), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.0 LUFS /
+  −2.0 dBTP; captions y 378–488, x 126–953, 0 violations; caption↔speech 9/9; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- Remote: the owner pushed a74b9c6 (user-supplied footage assets/user-footage/2026-11-10-chicago-bean.mp4) during this job; rebased onto it,
+  kept intact and unused (no instruction to use it yet).
+- Previous MP4s preserved. No automation created. No analytics used. Unresolved: audio not listened to by a human yet.

@@ -1,0 +1,79 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "your teen signed up with a fake adult birthday. On November 9, Instagram's teen detection AI went global. Before, a fake adult birthday could slip right past. Now, if the AI suspects a teen, the account moves into teen account protections. That limits who can contact them, what they see, and their time on the app. Facebook is still rolling out, and threads comes later this year. Follow Media Diet for Technology Explained.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    2.51
+   ],
+   "transcript": "Your teen signed up with a fake adult birthday.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.16,
+    7.02
+   ],
+   "transcript": "On November 9, Instagram's teen detection AI went global.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    7.66,
+    10.59
+   ],
+   "transcript": "Before, a fake adult birthday could slip right past.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    11.23,
+    16.3
+   ],
+   "transcript": "Now, if the AI suspects a teen, the account moves into teen account protections.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    16.93,
+    21.12
+   ],
+   "transcript": "That limits who can contact them, what they see, and their time on the app.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    21.92,
+    25.36
+   ],
+   "transcript": "Facebook is still rolling out, and threads comes later this year.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    26.0,
+    28.63
+   ],
+   "transcript": "Follow Media Diet for Technology Explained.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Your teen signed up with a fake adult birthday. On November 9, Instagram's teen detection AI went global. Before, a fake adult birthday could slip right past. Now, if the AI suspects a teen, the account moves into teen account protections. That limits who can contact them, what they see, and their time on the app. Facebook is still rolling out, and threads comes later this year. Follow Media Diet for Technology Explained.",
+ "recall_overall": 1.0
+}
