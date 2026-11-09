@@ -1,0 +1,125 @@
+{
+ "sfx_cues": [
+  [
+   0.3,
+   "scale needle"
+  ],
+  [
+   0.35,
+   "X-ray over the shelf box"
+  ],
+  [
+   1.42,
+   "INTACT FLUTES chip"
+  ],
+  [
+   3.3,
+   "stack appears"
+  ],
+  [
+   3.75,
+   "DRY chip"
+  ],
+  [
+   4.45,
+   "DAMP chip"
+  ],
+  [
+   5.3,
+   "damp box sags"
+  ],
+  [
+   6.35,
+   "to scrap bale (after \"scrap\")"
+  ],
+  [
+   7.85,
+   "small stack"
+  ],
+  [
+   8.2,
+   "medium stack"
+  ],
+  [
+   8.55,
+   "large stack"
+  ],
+  [
+   10.05,
+   "old label peeled"
+  ],
+  [
+   12.45,
+   "movers truck"
+  ],
+  [
+   13.0,
+   "online seller"
+  ],
+  [
+   14.1,
+   "repeat arrows"
+  ],
+  [
+   16.1,
+   "EXAMPLE tag"
+  ],
+  [
+   16.32,
+   "resale stacks"
+  ],
+  [
+   17.02,
+   "scrap bale"
+  ],
+  [
+   17.52,
+   "resale ticket"
+  ],
+  [
+   17.72,
+   "scrap ticket"
+  ],
+  [
+   18.1,
+   "SALES chip"
+  ],
+  [
+   19.72,
+   "sales bar rises"
+  ],
+  [
+   20.46,
+   "transport"
+  ],
+  [
+   21.3,
+   "storage"
+  ],
+  [
+   22.05,
+   "labour"
+  ],
+  [
+   22.98,
+   "LEFT 2,500"
+  ],
+  [
+   26.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.23",
+  "input_tp": "-3.10",
+  "input_lra": "7.40",
+  "input_thresh": "-28.09",
+  "output_i": "-15.28",
+  "output_tp": "-1.50",
+  "output_lra": "2.90",
+  "output_thresh": "-26.03",
+  "normalization_type": "dynamic",
+  "target_offset": "0.28"
+ }
+}

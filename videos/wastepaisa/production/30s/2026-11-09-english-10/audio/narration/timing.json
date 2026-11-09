@@ -1,0 +1,69 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 25.266,
+  "words": 68,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Sell a used box by the kilo, or as a box?",
+      "start": 0.25,
+      "phonemes": "sˈɛl ɐ jˈuːzd bˈɑːks baɪ ðə kˈiːloʊ, ɔːɹ æz ɐ bˈɑːks?",
+      "duration": 2.795,
+      "end": 3.045
+    },
+    {
+      "id": "L2",
+      "text": "Keep them dry; damp cardboard loses strength, so it goes to scrap.",
+      "start": 3.34,
+      "phonemes": "kˈiːp ðˌɛm dɹˈaɪ; dˈæmp kˈɑːɹdbɔːɹd lˈuːzᵻz stɹˈɛŋθ, sˌoʊ ɪt ɡoʊz tə skɹˈæp.",
+      "duration": 3.861,
+      "end": 7.201
+    },
+    {
+      "id": "L3",
+      "text": "Stack intact boxes by size, and peel off old labels for resale.",
+      "tts": "Stack intact boxes by size, and peel off old labels for resale.",
+      "start": 7.5,
+      "phonemes": "stˈæk ɪntˈækt bˈɑːksᵻz baɪ sˈaɪz, ænd pˈiːl ˈɔf ˈoʊld lˈeɪbəlz fɔːɹ ɹˈiːseɪl.",
+      "duration": 4.529,
+      "end": 12.029
+    },
+    {
+      "id": "L4",
+      "text": "Movers and online sellers come back for the same sizes.",
+      "start": 12.4,
+      "phonemes": "mˈuːvɚz ænd ˈɑːnlaɪn sˈɛlɚz kˈʌm bˈæk fɚðə sˈeɪm sˈaɪzᵻz.",
+      "duration": 3.385,
+      "end": 15.785
+    },
+    {
+      "id": "L5",
+      "text": "Say resale and scrap bring in ₹9,200;",
+      "tts": "Say resale and scrap bring in ninety-two hundred rupees;",
+      "start": 16.09,
+      "phonemes": "sˈeɪ ɹˈiːseɪl ænd skɹˈæp bɹˈɪŋ ɪn nˈaɪntitˈuː hˈʌndɹɪd ɹˈuːpiːz;",
+      "duration": 3.534,
+      "end": 19.624
+    },
+    {
+      "id": "L6",
+      "text": "boxes, transport, storage and labour leave about ₹2,500.",
+      "tts": "boxes, transport, storage, and labour leave about twenty-five hundred rupees.",
+      "start": 19.77,
+      "phonemes": "bˈɑːksᵻz, tɹˈænspɔːɹt, stˈɔːɹɪdʒ, ænd lˈeɪbɚ lˈiːv ɐbˌaʊt twˈɛntifˈaɪv hˈʌndɹɪd ɹˈuːpiːz.",
+      "duration": 4.677,
+      "end": 24.447
+    },
+    {
+      "id": "L7",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.685
+    }
+  ]
+}

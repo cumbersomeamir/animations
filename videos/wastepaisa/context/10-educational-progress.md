@@ -286,6 +286,35 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Episode record: `context/22-english-09-01.md`. No automation.
 - **Fixed before the full render:** floating heap (tray added), BALES/GARAGES chip overlap, and the missing reject-pile prop.
 
+## english-10 (2026-11-09-english-10) episode 01: COMPLETE (English)
+- **Topic:** collect used cardboard boxes and resell the intact ones as boxes before pulping the damaged ones. Not a duplicate of
+  feedback-05, which graded scrap cardboard for pulping (moisture deduction, contamination downgrade); this episode is reuse before
+  scrap. Covers a kilo-scale vs resale-shelf hook, dry storage (damp boxes lose strength and go to scrap), size grading with old labels
+  and tape removed, repeat buyers (movers, online sellers), and an illustrative resale + scrap batch.
+- **Style and voice:** accepted Scrap Shop X-ray (english-09 renderer), unchanged. Meshline voice, fresh English takes; English
+  captions at 70 px line spacing.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-09-english-10/wastepaisa-30s-english10-01.mp4`,
+  SHA-256 `192b926ebe8f9c97da90381d15409ab2792ee07bd1907fbf1424297ecd2e07bf`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.5 dBTP.
+- **Checks:**
+  - Caption ink y 366–494, x 120–960.
+  - Timing within ±0.06 s.
+  - Vosk mean 0.971 (L1 missed an unstressed "a"; brand OOV); Whisper matches word for word apart from the brand spelling. ASR-only:
+    no listening in the cloud.
+- **Research:**
+  - Reuse: US EPA waste hierarchy (reuse above recycling); UPS packaging guidelines (remove old labels and markings on a reused box);
+    Packaging World / MoveBuddha on the used-box resale model (moving and shipping boxes).
+  - Moisture: Clemson thesis (Brown 2019) and Georgia Tech note: compression strength falls as humidity rises.
+  - Prices: used boxes ₹5–20 per piece (IndiaMART Indore; other traders up to ₹58), marketplace ₹6–10; carton scrap ₹8–14/kg
+    (Delhi household) and ₹14–20/kg (Chennai).
+  - Illustrative batch: 1,000 boxes → 600 resold × ₹12 + 200 kg rejects × ₹10 = ₹9,200 → ≈₹2,500 left.
+  - Episode record: `context/23-english-10-01.md`. No automation.
+- **Fixes:** box stacks merged into blocks (seams added); the truck duplicated the MOVERS chip (now mini boxes); after the first full
+  render the L2 caption reached x 88.7–991.3, so L2 was split into three groups at ASR onsets and the video re-rendered and re-muxed.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

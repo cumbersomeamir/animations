@@ -1,0 +1,22 @@
+English intelligibility and timing evidence: wastepaisa-30s-english10-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.91 | onset plan 0.25 heard 0.25 | offset plan 3.05 heard 3.04 | heard: sell used box by the kilo or as a box
+   L2 word acc 1.00 | onset plan 3.34 heard 3.34 | offset plan 7.20 heard 7.21 | heard: keep them dry damp cardboard loses strength so it goes to scrap
+   L3 word acc 1.00 | onset plan 7.50 heard 7.53 | offset plan 12.03 heard 12.03 | heard: stack intact boxes by size and peel off old labels for resale
+   L4 word acc 1.00 | onset plan 12.40 heard 12.37 | offset plan 15.79 heard 15.79 | heard: movers and online sellers come back for the same sizes
+   L5 word acc 1.00 | onset plan 16.09 heard 16.09 | offset plan 19.62 heard 19.63 | heard: say resale and scrap bring in ninety two hundred rupees
+   L6 word acc 1.00 | onset plan 19.77 heard 19.71 | offset plan 24.45 heard 24.42 | heard: boxes transport storage and labor leave about twenty five hundred rupees
+   L7 word acc 0.89 | onset plan 26.20 heard 26.20 | offset plan 28.69 heard 28.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.971; every onset/offset within 0.06 s of plan (normalisation: lowercase, punctuation removed,
+   labour=labor (US spelling), WastePaisa compared as 'waste paisa'; full record in qa/asr-english-vosk.json)
+   Misses: the unstressed article 'a' in L1 ('sell a used box'); brand out of vocabulary ('waste python').
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Sell a used box by the kilo or as a box keep them dry damp cardboard loses strength So it goes to scrap stack intact boxes by size and peel off old labels for resale Movers and online sellers come back for the same sizes say resale and scrap bring in 9,200 rupees Boxes transport storage and labor leave about 2,500 rupees Join waste Pisa and put your scrap to use You
+   Matches the script word for word, including the 'a' Vosk missed; only the brand spelling differs. The final 'You' is
+   Whisper's known hallucination on the music-only tail after 28.7 s (no speech there; see qa/audio-spectrogram.png).
+
+3) Draft-stage ASR: line 3 began 'Grade intact boxes…' (heard 'great') and then 'Sort…' (heard 'sword'), so it says 'Stack';
+   the first draft ran 30.35 s, so L5 now speaks only the sales total (the resale/scrap split is on screen) and L4 was shortened.

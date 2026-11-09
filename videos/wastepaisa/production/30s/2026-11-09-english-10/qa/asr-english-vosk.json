@@ -1,0 +1,91 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'PET' compared as spoken letters 'p e t', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Sell a used box by the kilo, or as a box?",
+   "heard": "sell used box by the kilo or as a box",
+   "word_acc": 0.909,
+   "plan_on": 0.25,
+   "heard_on": 0.25,
+   "plan_off": 3.045,
+   "heard_off": 3.04,
+   "missed": [
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L2",
+   "ref": "Keep them dry; damp cardboard loses strength, so it goes to scrap.",
+   "heard": "keep them dry damp cardboard loses strength so it goes to scrap",
+   "word_acc": 1.0,
+   "plan_on": 3.34,
+   "heard_on": 3.34,
+   "plan_off": 7.201,
+   "heard_off": 7.21,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Stack intact boxes by size, and peel off old labels for resale.",
+   "heard": "stack intact boxes by size and peel off old labels for resale",
+   "word_acc": 1.0,
+   "plan_on": 7.5,
+   "heard_on": 7.53,
+   "plan_off": 12.029,
+   "heard_off": 12.03,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Movers and online sellers come back for the same sizes.",
+   "heard": "movers and online sellers come back for the same sizes",
+   "word_acc": 1.0,
+   "plan_on": 12.4,
+   "heard_on": 12.37,
+   "plan_off": 15.785,
+   "heard_off": 15.79,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Say resale and scrap bring in ninety-two hundred rupees;",
+   "heard": "say resale and scrap bring in ninety two hundred rupees",
+   "word_acc": 1.0,
+   "plan_on": 16.09,
+   "heard_on": 16.09,
+   "plan_off": 19.624,
+   "heard_off": 19.63,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "boxes, transport, storage, and labour leave about twenty-five hundred rupees.",
+   "heard": "boxes transport storage and labor leave about twenty five hundred rupees",
+   "word_acc": 1.0,
+   "plan_on": 19.77,
+   "heard_on": 19.71,
+   "plan_off": 24.447,
+   "heard_off": 24.42,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.2,
+   "heard_on": 26.2,
+   "plan_off": 28.685,
+   "heard_off": 28.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}
