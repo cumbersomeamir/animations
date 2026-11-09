@@ -1,0 +1,9 @@
+[
+ {"id": "L1", "text": "Who buys old frying oil? Never another kitchen.", "start": 0.25},
+ {"id": "L2", "text": "Let it cool, then pour it into a labelled can.", "tts": "Let it cool, then pour it into a labeled can.", "start": 3.65},
+ {"id": "L3", "text": "Give it only to an authorised collector, and log it.", "tts": "Give it only to an authorized collector, and log it.", "start": 6.65},
+ {"id": "L4", "text": "Say a ₹2,000 van trip picks up one kitchen's 25 litres: ₹80 a litre.", "tts": "Say a two-thousand-rupee van trip picks up one kitchen's twenty-five liters: eighty rupees a liter.", "ph_sub": [["lˈiːɾɚ", "lˈiːtɚ"]], "start": 9.95},
+ {"id": "L5", "text": "Pool 500 litres from twenty kitchens: ₹4 a litre.", "tts": "Pool five hundred liters from twenty kitchens: four rupees a liter.", "ph_sub": [["lˈiːɾɚ", "lˈiːtɚ"]], "start": 16.85},
+ {"id": "L6", "text": "Then a licensed plant turns it into biodiesel.", "start": 21.6},
+ {"id": "L7", "text": "Join WastePaisa and put your scrap to use.", "start": 26.2}
+]

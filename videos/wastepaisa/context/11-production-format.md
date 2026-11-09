@@ -86,7 +86,12 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   episode notes.
   - Covered so far: paper cup, aluminium can, cable, brass, aluminium aggregation, pallets, cardboard grading, coconut-shell charcoal,
     PET bottles, glass cullet (english-08), cotton wiping rags (english-09), cardboard box reuse before
-    scrap (english-10; a reuse angle, distinct from feedback-05's scrap grading).
+    scrap (english-10; a reuse angle, distinct from feedback-05's scrap grading), used cooking oil to licensed biodiesel
+    (english-11).
+  - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
+    in `audio/tts.py` / `lines.json` rather than rewording the line.
+  - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with
+    the same EXAMPLE tag and to-scale bars.
   - **Technical terms ASR can't confirm** (e.g. "cullet"): verify the G2P phonemes against a dictionary pronunciation. Keep the term
     when it is the correct trade word, and caption it plus show it as a chip.
   - **Chips that appear in sequence at the same spot** must hand off in one slot, never sit side by side (english-08 overlap fix).

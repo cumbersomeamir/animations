@@ -1,0 +1,91 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), labelled=labeled, authorised=authorized, litre(s)=liter(s), kitchen's=kitchens, biodiesel compared as 'bio diesel', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Who buys old frying oil? Never another kitchen.",
+   "heard": "who buys old frying oil never another kitchen",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 3.272,
+   "heard_off": 3.25,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Let it cool, then pour it into a labeled can.",
+   "heard": "let it cool then pour it into a labeled can",
+   "word_acc": 1.0,
+   "plan_on": 3.65,
+   "heard_on": 3.65,
+   "plan_off": 6.245,
+   "heard_off": 6.23,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Give it only to an authorized collector, and log it.",
+   "heard": "give it only to an authorized collector and log it",
+   "word_acc": 1.0,
+   "plan_on": 6.65,
+   "heard_on": 6.65,
+   "plan_off": 9.487,
+   "heard_off": 9.47,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Say a two-thousand-rupee van trip picks up one kitchen's twenty-five liters: eighty rupees a liter.",
+   "heard": "say a two thousand rupee van trip picks up one kitchens twenty five liters eighty rupees a liter",
+   "word_acc": 1.0,
+   "plan_on": 9.95,
+   "heard_on": 9.98,
+   "plan_off": 16.419,
+   "heard_off": 16.4,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Pool five hundred liters from twenty kitchens: four rupees a liter.",
+   "heard": "pool five hundred litres from twenty kitchens for rupees a liter",
+   "word_acc": 0.909,
+   "plan_on": 16.85,
+   "heard_on": 16.82,
+   "plan_off": 21.136,
+   "heard_off": 21.14,
+   "missed": [
+    [
+     "four"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Then a licensed plant turns it into biodiesel.",
+   "heard": "then a licensed plant turns it into bio diesel",
+   "word_acc": 1.0,
+   "plan_on": 21.6,
+   "heard_on": 21.6,
+   "plan_off": 24.041,
+   "heard_off": 24.06,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 26.2,
+   "heard_on": 26.2,
+   "plan_off": 28.685,
+   "heard_off": 28.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

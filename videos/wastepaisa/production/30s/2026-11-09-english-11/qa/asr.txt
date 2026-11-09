@@ -1,0 +1,22 @@
+English intelligibility and timing evidence: wastepaisa-30s-english11-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR-only, from two independent engines.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.22 | offset plan 3.27 heard 3.25 | heard: who buys old frying oil never another kitchen
+   L2 word acc 1.00 | onset plan 3.65 heard 3.65 | offset plan 6.25 heard 6.23 | heard: let it cool then pour it into a labeled can
+   L3 word acc 1.00 | onset plan 6.65 heard 6.65 | offset plan 9.49 heard 9.47 | heard: give it only to an authorized collector and log it
+   L4 word acc 1.00 | onset plan 9.95 heard 9.98 | offset plan 16.42 heard 16.40 | heard: say a two thousand rupee van trip picks up one kitchens twenty five liters eighty rupees a liter
+   L5 word acc 0.91 | onset plan 16.85 heard 16.82 | offset plan 21.14 heard 21.14 | heard: pool five hundred litres from twenty kitchens for rupees a liter
+   L6 word acc 1.00 | onset plan 21.60 heard 21.60 | offset plan 24.04 heard 24.06 | heard: then a licensed plant turns it into bio diesel
+   L7 word acc 0.89 | onset plan 26.20 heard 26.20 | offset plan 28.69 heard 28.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.971; every onset/offset within 0.03 s of plan (normalisation: lowercase, punctuation removed, labelled=labeled,
+   authorised=authorized, litre(s)=liter(s), kitchen's=kitchens, biodiesel compared as 'bio diesel', WastePaisa compared as 'waste paisa';
+   full record in qa/asr-english-vosk.json)
+   Misses: 'four' heard as the homophone 'for' in L5; brand out of vocabulary ('waste python').
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Who buys old frying oil? Never another kitchen. Let it cool, then pour it into a labeled can. Give it only to an authorized collector and log it. Say a 2,000 rupee van trip picks up one kitchen's 25 litres, 80 rupees a litre, pool 500 litres from 20 kitchens, 4 rupees a litre. Then a licensed plant turns it into biodiesel. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word (including '4 rupees' and 'litres'); only the brand spelling differs.
+
+3) Draft-stage ASR: 'liters' was heard as 'leaders' because the en-us G2P flaps the t (lˈiːɾɚz). L4 and L5 now pass the phoneme
+   override ph_sub [["lˈiːɾɚ", "lˈiːtɚ"]] (audio/lines.json, audio/tts.py); both engines then heard liters/litres.

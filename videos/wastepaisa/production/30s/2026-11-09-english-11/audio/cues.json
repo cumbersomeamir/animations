@@ -1,0 +1,97 @@
+{
+ "sfx_cues": [
+  [
+   0.0,
+   "spent oil sizzles"
+  ],
+  [
+   0.35,
+   "X-ray over the kadai"
+  ],
+  [
+   1.47,
+   "POLAR COMPOUNDS chip"
+  ],
+  [
+   2.2,
+   "arrow to a street pan (cross is silent: it lands on \"kitchen\")"
+  ],
+  [
+   4.8,
+   "oil poured into the can"
+  ],
+  [
+   6.27,
+   "cap on (after the line)"
+  ],
+  [
+   6.45,
+   "collector card slides in (before \"Give\")"
+  ],
+  [
+   8.02,
+   "AUTHORISED stamp"
+  ],
+  [
+   8.6,
+   "logbook"
+  ],
+  [
+   9.85,
+   "EXAMPLE tag (before \"Say\")"
+  ],
+  [
+   10.3,
+   "VAN TRIP ticket"
+  ],
+  [
+   11.35,
+   "van drives to one kitchen"
+  ],
+  [
+   14.05,
+   "van drives to the plant"
+  ],
+  [
+   16.45,
+   "\u20b980 a litre lands (after the line)"
+  ],
+  [
+   16.9,
+   "van route past twenty kitchens"
+  ],
+  [
+   21.18,
+   "\u20b94 a litre lands (after the line)"
+  ],
+  [
+   21.45,
+   "van arrives at the plant"
+  ],
+  [
+   22.3,
+   "pump into the plant"
+  ],
+  [
+   24.1,
+   "VALUE = POOLING + PROCESSING"
+  ],
+  [
+   26.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.51",
+  "input_tp": "-3.10",
+  "input_lra": "6.90",
+  "input_thresh": "-28.64",
+  "output_i": "-15.22",
+  "output_tp": "-1.50",
+  "output_lra": "2.60",
+  "output_thresh": "-26.26",
+  "normalization_type": "dynamic",
+  "target_offset": "0.22"
+ }
+}

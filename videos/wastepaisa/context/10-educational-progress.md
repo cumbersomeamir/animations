@@ -315,6 +315,34 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixes:** box stacks merged into blocks (seams added); the truck duplicated the MOVERS chip (now mini boxes); after the first full
   render the L2 caption reached x 88.7–991.3, so L2 was split into three groups at ASR onsets and the video re-rendered and re-muxed.
 
+## english-11 (2026-11-09-english-11) episode 01: COMPLETE (English)
+- **Topic:** used cooking oil collected for licensed processing (fresh; history searched for cooking oil, RUCO, biodiesel and frying,
+  with only a hindi-03 GST note as a hit). Covers a polar-compound X-ray hook (never back into food), cool → labelled can with headspace,
+  authorised collector check and pickup log, aggregation (one van trip vs one route for twenty kitchens), and a licensed biodiesel plant.
+- **Style and voice:** accepted Scrap Shop X-ray (english-10 renderer), unchanged. Meshline voice, fresh English takes; English captions
+  at 70 px line spacing. New tool: optional `ph_sub` phoneme replacement in `tts.py` ("liters" with a clear /t/).
+- **Output:** `videos/wastepaisa/production/30s/2026-11-09-english-11/wastepaisa-30s-english11-01.mp4`,
+  SHA-256 `f32b05c2d68d7b2e0c984d9f8b2a5bffd84667368cf7b3682aa51561ed695841`
+- **Specs:**
+  - 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames.
+  - AAC-LC 48 kHz stereo (1,440,000 samples).
+  - Clean decode · −15.0 LUFS / −1.5 dBTP.
+- **Checks:**
+  - Caption ink y 366.5–493.5, x 175.5–904.5.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.971 (homophone "for", brand OOV); Whisper matches word for word apart from the brand spelling. ASR-only: no listening
+    in the cloud.
+- **Research:**
+  - FSSAI Guidance Note 06/2018 (read in full): TPC ≤ 25 %, cool, separate labelled container with headspace, authorised aggregators only,
+    records above 50 L/day, FBOs must not buy UCO.
+  - FSSAI direction of 30 Jan 2019 (via reports); FSSAI-hosted RUCO explainer (plants make biodiesel); PIB 2019 OMC EOI for UCO
+    biodiesel; Goa UCO policy 2026 (traceability).
+  - Costs: Tata Ace hire ₹1,900–2,300 for 5–6 h; ≈₹2,000 per short trip.
+  - Illustrative route: ₹2,000 ÷ 25 L = ₹80/L vs ₹2,000 ÷ 500 L = ₹4/L. No earnings or oil prices stated.
+  - Episode record: `context/24-english-11-01.md`. No automation.
+- **Fixed:** "liters" heard as "leaders" (phoneme override); result tickets too narrow (width option); stamp over the REG. No. line;
+  map under the results not dim enough (darkened, re-rendered and re-muxed).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

@@ -1,0 +1,82 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 24.135,
+  "words": 67,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Who buys old frying oil? Never another kitchen.",
+      "start": 0.25,
+      "phonemes": "hˌuː bˈaɪz ˈoʊld fɹˈaɪɪŋ ˈɔɪl? nˈɛvɚɹ ɐnˈʌðɚ kˈɪtʃən.",
+      "duration": 3.022,
+      "end": 3.272
+    },
+    {
+      "id": "L2",
+      "text": "Let it cool, then pour it into a labelled can.",
+      "tts": "Let it cool, then pour it into a labeled can.",
+      "start": 3.65,
+      "phonemes": "lˈɛt ɪt kˈuːl, ðˈɛn pˈɔːɹ ɪɾ ˌɪntʊ ɐ lˈeɪbəld kˈæn.",
+      "duration": 2.595,
+      "end": 6.245
+    },
+    {
+      "id": "L3",
+      "text": "Give it only to an authorised collector, and log it.",
+      "tts": "Give it only to an authorized collector, and log it.",
+      "start": 6.65,
+      "phonemes": "ɡˈɪv ɪɾ ˈoʊnli tʊ ɐn ˈɔːθɚɹˌaɪzd kəlˈɛktɚ, ænd lˈɔɡ ɪt.",
+      "duration": 2.837,
+      "end": 9.487
+    },
+    {
+      "id": "L4",
+      "text": "Say a ₹2,000 van trip picks up one kitchen's 25 litres: ₹80 a litre.",
+      "tts": "Say a two-thousand-rupee van trip picks up one kitchen's twenty-five liters: eighty rupees a liter.",
+      "ph_sub": [
+        [
+          "lˈiːɾɚ",
+          "lˈiːtɚ"
+        ]
+      ],
+      "start": 9.95,
+      "phonemes": "sˈeɪ ɐ tˈuːθˈaʊzəndɹˈuːpiː vˈæn tɹˈɪp pˈɪks ˌʌp wˈʌn kˈɪtʃənz twˈɛntifˈaɪv lˈiːtɚz: ˈeɪɾi ɹˈuːpiːz ɐ lˈiːtɚ.",
+      "duration": 6.469,
+      "end": 16.419
+    },
+    {
+      "id": "L5",
+      "text": "Pool 500 litres from twenty kitchens: ₹4 a litre.",
+      "tts": "Pool five hundred liters from twenty kitchens: four rupees a liter.",
+      "ph_sub": [
+        [
+          "lˈiːɾɚ",
+          "lˈiːtɚ"
+        ]
+      ],
+      "start": 16.85,
+      "phonemes": "pˈuːl fˈaɪv hˈʌndɹɪd lˈiːtɚz fɹʌm twˈɛnti kˈɪtʃənz: fˈɔːɹ ɹˈuːpiːz ɐ lˈiːtɚ.",
+      "duration": 4.286,
+      "end": 21.136
+    },
+    {
+      "id": "L6",
+      "text": "Then a licensed plant turns it into biodiesel.",
+      "start": 21.6,
+      "phonemes": "ðˈɛn ɐ lˈaɪsənst plˈænt tˈɜːnz ɪɾ ˌɪntʊ bˌaɪoʊdˈiːzəl.",
+      "duration": 2.441,
+      "end": 24.041
+    },
+    {
+      "id": "L7",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 26.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 28.685
+    }
+  ]
+}
