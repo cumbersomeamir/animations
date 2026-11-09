@@ -65,3 +65,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s; record, topic check vs H03, sources + QA in 23).
 - English-10 2026-11-09 batch (English; suggested QR topic already F01 → polarized sunglasses vs phone screens): `videos/recall/production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4`
   (30.000 s, why a screen goes black through polarized sunglasses + rotate test; record, topic-change reason, sources + QA in 24).
+- English-11 2026-11-09 batch (English; microwave food vs plate, kept as distinct from R02's cold patches): `videos/recall/production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4`
+  (30.000 s, dielectric heating vs conduction into the plate, pottery that heats itself, dish test; record, topic check, sources + QA in 25).

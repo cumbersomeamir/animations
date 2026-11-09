@@ -1,0 +1,473 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Why is the food steaming but the plate still cool?",
+   "asr": "Why is the food steaming, but the plate still cool?",
+   "duration": 2.664,
+   "words": [
+    {
+     "w": "Why",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "is",
+     "start": 0.14,
+     "end": 0.32
+    },
+    {
+     "w": "the",
+     "start": 0.32,
+     "end": 0.44
+    },
+    {
+     "w": "food",
+     "start": 0.44,
+     "end": 0.6
+    },
+    {
+     "w": "steaming,",
+     "start": 0.6,
+     "end": 1.08
+    },
+    {
+     "w": "but",
+     "start": 1.36,
+     "end": 1.5
+    },
+    {
+     "w": "the",
+     "start": 1.5,
+     "end": 1.58
+    },
+    {
+     "w": "plate",
+     "start": 1.58,
+     "end": 1.74
+    },
+    {
+     "w": "still",
+     "start": 1.74,
+     "end": 2.08
+    },
+    {
+     "w": "cool?",
+     "start": 2.08,
+     "end": 2.32
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "Microwaves tug the water molecules inside food back and forth, and that makes heat.",
+   "asr": "Microwaves tug the water molecules inside food back and forth, and that makes heat.",
+   "duration": 5.127,
+   "words": [
+    {
+     "w": "Microwaves",
+     "start": 0.0,
+     "end": 0.66
+    },
+    {
+     "w": "tug",
+     "start": 0.66,
+     "end": 0.9
+    },
+    {
+     "w": "the",
+     "start": 0.9,
+     "end": 1.16
+    },
+    {
+     "w": "water",
+     "start": 1.16,
+     "end": 1.4
+    },
+    {
+     "w": "molecules",
+     "start": 1.4,
+     "end": 1.9
+    },
+    {
+     "w": "inside",
+     "start": 1.9,
+     "end": 2.3
+    },
+    {
+     "w": "food",
+     "start": 2.3,
+     "end": 2.88
+    },
+    {
+     "w": "back",
+     "start": 2.88,
+     "end": 3.18
+    },
+    {
+     "w": "and",
+     "start": 3.18,
+     "end": 3.34
+    },
+    {
+     "w": "forth,",
+     "start": 3.34,
+     "end": 3.64
+    },
+    {
+     "w": "and",
+     "start": 4.12,
+     "end": 4.28
+    },
+    {
+     "w": "that",
+     "start": 4.28,
+     "end": 4.42
+    },
+    {
+     "w": "makes",
+     "start": 4.42,
+     "end": 4.58
+    },
+    {
+     "w": "heat.",
+     "start": 4.58,
+     "end": 4.9
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "Glass and microwave-safe ceramics barely absorb them; the hot food warms the plate.",
+   "asr": "Glass and microwave safe ceramics barely absorb them. The hot food warms the plate.",
+   "duration": 5.123,
+   "words": [
+    {
+     "w": "Glass",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "w": "and",
+     "start": 0.16,
+     "end": 0.5
+    },
+    {
+     "w": "microwave",
+     "start": 0.5,
+     "end": 0.74
+    },
+    {
+     "w": "safe",
+     "start": 0.74,
+     "end": 1.32
+    },
+    {
+     "w": "ceramics",
+     "start": 1.32,
+     "end": 1.96
+    },
+    {
+     "w": "barely",
+     "start": 1.96,
+     "end": 2.26
+    },
+    {
+     "w": "absorb",
+     "start": 2.26,
+     "end": 2.6
+    },
+    {
+     "w": "them.",
+     "start": 2.6,
+     "end": 3.04
+    },
+    {
+     "w": "The",
+     "start": 3.6,
+     "end": 3.62
+    },
+    {
+     "w": "hot",
+     "start": 3.62,
+     "end": 3.78
+    },
+    {
+     "w": "food",
+     "start": 3.78,
+     "end": 4.1
+    },
+    {
+     "w": "warms",
+     "start": 4.1,
+     "end": 4.58
+    },
+    {
+     "w": "the",
+     "start": 4.58,
+     "end": 4.68
+    },
+    {
+     "w": "plate.",
+     "start": 4.68,
+     "end": 4.86
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "But water soaked into porous clay or an iron-rich glaze can make pottery heat itself.",
+   "asr": "But water soaked into porous clay, or an iron-rich glaze, can make pottery heat itself.",
+   "duration": 5.351,
+   "words": [
+    {
+     "w": "But",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "w": "water",
+     "start": 0.1,
+     "end": 0.32
+    },
+    {
+     "w": "soaked",
+     "start": 0.32,
+     "end": 0.72
+    },
+    {
+     "w": "into",
+     "start": 0.72,
+     "end": 1.0
+    },
+    {
+     "w": "porous",
+     "start": 1.0,
+     "end": 1.24
+    },
+    {
+     "w": "clay,",
+     "start": 1.24,
+     "end": 1.68
+    },
+    {
+     "w": "or",
+     "start": 2.0,
+     "end": 2.2
+    },
+    {
+     "w": "an",
+     "start": 2.2,
+     "end": 2.3
+    },
+    {
+     "w": "iron",
+     "start": 2.3,
+     "end": 2.54
+    },
+    {
+     "w": "-rich",
+     "start": 2.54,
+     "end": 2.86
+    },
+    {
+     "w": "glaze,",
+     "start": 2.86,
+     "end": 3.44
+    },
+    {
+     "w": "can",
+     "start": 3.64,
+     "end": 3.84
+    },
+    {
+     "w": "make",
+     "start": 3.84,
+     "end": 4.0
+    },
+    {
+     "w": "pottery",
+     "start": 4.0,
+     "end": 4.4
+    },
+    {
+     "w": "heat",
+     "start": 4.4,
+     "end": 4.68
+    },
+    {
+     "w": "itself.",
+     "start": 4.68,
+     "end": 4.92
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "To test a dish, heat it empty beside a cup of water for one minute. If it stays cool, it's safe.",
+   "asr": "To test a dish, heat it empty beside a cup of water for one minute. If it stays cool, it's safe.",
+   "duration": 5.826,
+   "words": [
+    {
+     "w": "To",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "test",
+     "start": 0.08,
+     "end": 0.26
+    },
+    {
+     "w": "a",
+     "start": 0.26,
+     "end": 0.44
+    },
+    {
+     "w": "dish,",
+     "start": 0.44,
+     "end": 0.7
+    },
+    {
+     "w": "heat",
+     "start": 1.04,
+     "end": 1.14
+    },
+    {
+     "w": "it",
+     "start": 1.14,
+     "end": 1.26
+    },
+    {
+     "w": "empty",
+     "start": 1.26,
+     "end": 1.46
+    },
+    {
+     "w": "beside",
+     "start": 1.46,
+     "end": 1.94
+    },
+    {
+     "w": "a",
+     "start": 1.94,
+     "end": 2.12
+    },
+    {
+     "w": "cup",
+     "start": 2.12,
+     "end": 2.28
+    },
+    {
+     "w": "of",
+     "start": 2.28,
+     "end": 2.4
+    },
+    {
+     "w": "water",
+     "start": 2.4,
+     "end": 2.62
+    },
+    {
+     "w": "for",
+     "start": 2.62,
+     "end": 2.86
+    },
+    {
+     "w": "one",
+     "start": 2.86,
+     "end": 3.04
+    },
+    {
+     "w": "minute.",
+     "start": 3.04,
+     "end": 3.3
+    },
+    {
+     "w": "If",
+     "start": 3.86,
+     "end": 4.06
+    },
+    {
+     "w": "it",
+     "start": 4.06,
+     "end": 4.14
+    },
+    {
+     "w": "stays",
+     "start": 4.14,
+     "end": 4.34
+    },
+    {
+     "w": "cool,",
+     "start": 4.34,
+     "end": 4.7
+    },
+    {
+     "w": "it's",
+     "start": 5.16,
+     "end": 5.3
+    },
+    {
+     "w": "safe.",
+     "start": 5.3,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "Download Recall for learning any new subject with AI.",
+   "asr": "Download Recall for learning any new subject with AI.",
+   "duration": 3.289,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.3
+    },
+    {
+     "w": "Recall",
+     "start": 0.3,
+     "end": 0.62
+    },
+    {
+     "w": "for",
+     "start": 0.62,
+     "end": 1.28
+    },
+    {
+     "w": "learning",
+     "start": 1.28,
+     "end": 1.48
+    },
+    {
+     "w": "any",
+     "start": 1.48,
+     "end": 1.76
+    },
+    {
+     "w": "new",
+     "start": 1.76,
+     "end": 1.96
+    },
+    {
+     "w": "subject",
+     "start": 1.96,
+     "end": 2.26
+    },
+    {
+     "w": "with",
+     "start": 2.26,
+     "end": 2.62
+    },
+    {
+     "w": "AI.",
+     "start": 2.62,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

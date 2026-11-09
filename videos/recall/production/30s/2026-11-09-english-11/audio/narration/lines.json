@@ -1,0 +1,55 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Why is the food steaming but the plate still cool?",
+      "file": "l01.wav",
+      "duration": 2.664,
+      "sr": 24000,
+      "words_per_s": 3.75
+    },
+    {
+      "id": "l02",
+      "text": "Microwaves tug the water molecules inside food back and forth, and that makes heat.",
+      "file": "l02.wav",
+      "duration": 5.127,
+      "sr": 24000,
+      "words_per_s": 2.73
+    },
+    {
+      "id": "l03",
+      "text": "Glass and microwave-safe ceramics barely absorb them; the hot food warms the plate.",
+      "file": "l03.wav",
+      "duration": 5.123,
+      "sr": 24000,
+      "words_per_s": 2.54
+    },
+    {
+      "id": "l04",
+      "text": "But water soaked into porous clay or an iron-rich glaze can make pottery heat itself.",
+      "file": "l04.wav",
+      "duration": 5.351,
+      "sr": 24000,
+      "words_per_s": 2.8
+    },
+    {
+      "id": "l05",
+      "text": "To test a dish, heat it empty beside a cup of water for one minute. If it stays cool, it's safe.",
+      "file": "l05.wav",
+      "duration": 5.826,
+      "sr": 24000,
+      "words_per_s": 3.6
+    },
+    {
+      "id": "l06",
+      "text": "Download Recall for learning any new subject with AI.",
+      "file": "l06.wav",
+      "duration": 3.289,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

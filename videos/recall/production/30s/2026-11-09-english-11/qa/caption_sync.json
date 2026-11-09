@@ -1,0 +1,117 @@
+{
+ "ok": true,
+ "spoken_groups": 11,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "Why is the food steaming / but the plate still cool?",
+   "start": 0.23,
+   "end": 3.28,
+   "first_word_s": 0.3,
+   "last_word_s": 2.38,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Microwaves tug the water molecules / inside food back and forth,",
+   "start": 3.28,
+   "end": 7.4,
+   "first_word_s": 3.35,
+   "last_word_s": 6.69,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "and that makes heat.",
+   "start": 7.4,
+   "end": 8.78,
+   "first_word_s": 7.47,
+   "last_word_s": 7.93,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Glass and microwave-safe ceramics / barely absorb them;",
+   "start": 8.78,
+   "end": 12.38,
+   "first_word_s": 8.85,
+   "last_word_s": 11.45,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "the hot food warms the plate.",
+   "start": 12.38,
+   "end": 14.28,
+   "first_word_s": 12.45,
+   "last_word_s": 13.53,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "But water soaked into porous clay / or an iron-rich glaze",
+   "start": 14.28,
+   "end": 17.92,
+   "first_word_s": 14.35,
+   "last_word_s": 17.21,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "can make pottery heat itself.",
+   "start": 17.92,
+   "end": 20.03,
+   "first_word_s": 17.99,
+   "last_word_s": 19.03,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "To test a dish, / heat it empty beside",
+   "start": 20.03,
+   "end": 21.97,
+   "first_word_s": 20.1,
+   "last_word_s": 21.56,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "a cup of water / for one minute.",
+   "start": 21.97,
+   "end": 23.89,
+   "first_word_s": 22.04,
+   "last_word_s": 23.14,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "If it stays cool, / it's safe.",
+   "start": 23.89,
+   "end": 26.25,
+   "first_word_s": 23.96,
+   "last_word_s": 25.4,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall for learning / any new subject with AI.",
+   "start": 26.25,
+   "end": 30.0,
+   "first_word_s": 26.35,
+   "last_word_s": 28.97,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

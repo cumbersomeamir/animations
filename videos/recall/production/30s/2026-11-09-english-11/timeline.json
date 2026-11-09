@@ -1,0 +1,412 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.3
+  },
+  {
+   "id": "l02",
+   "start": 3.35
+  },
+  {
+   "id": "l03",
+   "start": 8.85
+  },
+  {
+   "id": "l04",
+   "start": 14.35
+  },
+  {
+   "id": "l05",
+   "start": 20.1
+  },
+  {
+   "id": "l06",
+   "start": 26.35
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_thermal",
+   "t0": 0,
+   "t1": 2.0
+  },
+  {
+   "id": "react",
+   "t0": 2.0,
+   "t1": 3.28
+  },
+  {
+   "id": "giant_food",
+   "t0": 3.28,
+   "t1": 8.78
+  },
+  {
+   "id": "giant_plate",
+   "t0": 8.78,
+   "t1": 14.28
+  },
+  {
+   "id": "giant_pottery",
+   "t0": 14.28,
+   "t1": 20.03
+  },
+  {
+   "id": "test_in",
+   "t0": 20.03,
+   "t1": 23.45
+  },
+  {
+   "id": "test_out",
+   "t0": 23.45,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "wipe": 0.12,
+  "grab": 2.25,
+  "lift": 2.35,
+  "waves": 3.45,
+  "tug": 3.95,
+  "heat": 6.6,
+  "pass": 9.0,
+  "conduct": 12.3,
+  "soak": 14.5,
+  "iron": 16.6,
+  "potWaves": 17.4,
+  "potGlow": 18.1,
+  "place": 20.1,
+  "doorClose": 22.3,
+  "timer": 22.55,
+  "timerEnd": 23.35,
+  "doorOpen": 23.5,
+  "wipe2": 23.72,
+  "safeTag": 24.0,
+  "warmTag": 24.9,
+  "cta": 26.35,
+  "smile": 27.0,
+  "end": 29.0,
+  "cupIn": 20.1
+ },
+ "captions": [
+  {
+   "start": 0.23,
+   "end": 3.28,
+   "lines": [
+    [
+     [
+      "Why is the food ",
+      0
+     ],
+     [
+      "steaming",
+      1
+     ]
+    ],
+    [
+     [
+      "but the plate still ",
+      0
+     ],
+     [
+      "cool?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 3.28,
+   "end": 7.4,
+   "lines": [
+    [
+     [
+      "Microwaves tug the ",
+      0
+     ],
+     [
+      "water molecules",
+      1
+     ]
+    ],
+    [
+     [
+      "inside food back and forth,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.4,
+   "end": 8.78,
+   "lines": [
+    [
+     [
+      "and that makes ",
+      0
+     ],
+     [
+      "heat.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.78,
+   "end": 12.38,
+   "lines": [
+    [
+     [
+      "Glass and microwave-safe ceramics",
+      0
+     ]
+    ],
+    [
+     [
+      "barely absorb",
+      1
+     ],
+     [
+      " them;",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.38,
+   "end": 14.28,
+   "lines": [
+    [
+     [
+      "the ",
+      0
+     ],
+     [
+      "hot food",
+      1
+     ],
+     [
+      " warms the plate.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.28,
+   "end": 17.92,
+   "lines": [
+    [
+     [
+      "But water soaked into ",
+      0
+     ],
+     [
+      "porous clay",
+      1
+     ]
+    ],
+    [
+     [
+      "or an ",
+      0
+     ],
+     [
+      "iron-rich glaze",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 17.92,
+   "end": 20.03,
+   "lines": [
+    [
+     [
+      "can make pottery ",
+      0
+     ],
+     [
+      "heat itself.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.03,
+   "end": 21.97,
+   "lines": [
+    [
+     [
+      "To ",
+      0
+     ],
+     [
+      "test a dish,",
+      1
+     ]
+    ],
+    [
+     [
+      "heat it empty beside",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 21.97,
+   "end": 23.89,
+   "lines": [
+    [
+     [
+      "a cup of water",
+      0
+     ]
+    ],
+    [
+     [
+      "for one minute.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.89,
+   "end": 26.25,
+   "lines": [
+    [
+     [
+      "If it ",
+      0
+     ],
+     [
+      "stays cool,",
+      1
+     ]
+    ],
+    [
+     [
+      "it's safe.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.25,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " for learning",
+      0
+     ]
+    ],
+    [
+     [
+      "any new subject with AI.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   3.28,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   3.28,
+   8.78,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   8.78,
+   14.28,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   14.28,
+   20.03,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   20.03,
+   23.45,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   23.45,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

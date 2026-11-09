@@ -132,3 +132,7 @@ record in context 23; deliverable `videos/recall/production/30s/2026-11-08-engli
 ## Update 2026-11-09 batch — english-10
 Episode E10 "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?" (English). The suggested QR topic was
 already F01, so a distinct topic was chosen (reason in context 24); deliverable `videos/recall/production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4`.
+
+## Update 2026-11-09 batch — english-11
+Episode E11 "Why is the food steaming but the plate still cool?" (English); kept as distinct from R02 (cold patches); record in
+context 25; deliverable `videos/recall/production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4`.
