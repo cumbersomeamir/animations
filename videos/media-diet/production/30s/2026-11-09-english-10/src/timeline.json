@@ -1,0 +1,188 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Drowning in school emails about your kids' events?",
+   "cues": [
+    [
+     "Drowning in school emails",
+     "about your kids' events?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.15,
+   "say": "On November 6, Meta added spaces to its Muse app.",
+   "cues": [
+    [
+     "On November 6, Meta added",
+     "spaces to its Muse app."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 7.05,
+   "say": "Before, you dug through every email and copied each date by hand.",
+   "cues": [
+    [
+     "Before, you dug through",
+     "every email"
+    ],
+    [
+     "and copied each date by hand."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 11.67,
+   "say": "Now, describe a school dashboard: Muse builds it and adds those events to your calendar.",
+   "cues": [
+    [
+     "Now, describe a school dashboard:",
+     "Muse builds it"
+    ],
+    [
+     "and adds those events",
+     "to your calendar."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 17.36,
+   "say": "Connect your apps, and it keeps itself up to date in the background.",
+   "cues": [
+    [
+     "Connect your apps,",
+     "and it keeps itself"
+    ],
+    [
+     "up to date in the background."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 21.34,
+   "say": "It's live wherever Muse is available, but you can't share spaces yet.",
+   "cues": [
+    [
+     "It's live wherever",
+     "Muse is available,"
+    ],
+    [
+     "but you can't share spaces yet."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.05,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.05,
+   "what": "hook: school envelopes rain down and pile up around a phone whose inbox scrolls \u2014 47 unread"
+  },
+  {
+   "id": "S2",
+   "in": 3.05,
+   "out": 5.0,
+   "what": "date + source: calendar flips to NOV 6; SOURCE placard 'Meta Newsroom \u00b7 Nov 6, 2026'"
+  },
+  {
+   "id": "S3",
+   "in": 5.0,
+   "out": 6.95,
+   "what": "the Muse app: Spaces tab (NEW), example spaces, '+ New space'"
+  },
+  {
+   "id": "S4",
+   "in": 6.95,
+   "out": 11.57,
+   "what": "BEFORE: dates copied by hand from school letters onto a paper wall calendar, one at a time (pointer)"
+  },
+  {
+   "id": "S5",
+   "in": 11.57,
+   "out": 17.26,
+   "what": "NOW: describe a school dashboard; 'Building your space\u2026'; the dashboard lists the events; camera pulls back as every event flies onto the calendar"
+  },
+  {
+   "id": "S6",
+   "in": 17.26,
+   "out": 21.24,
+   "what": "payoff: Mail and Calendar tiles wired to the phone; a new school email arrives and the dashboard + calendar update by themselves"
+  },
+  {
+   "id": "S7",
+   "in": 21.24,
+   "out": 25.95,
+   "what": "availability + limit: the same space on Muse on the web (laptop); a share card bounces off a 'Sharing \u00b7 not yet' gate; phone shows 'Share space \u00b7 not yet'"
+  },
+  {
+   "id": "S8",
+   "in": 25.95,
+   "out": 30.0,
+   "what": "CTA: hero pull-back over the set, Media Diet sign"
+  }
+ ],
+ "events": {
+  "calFlip": 3.2,
+  "source": 4.5,
+  "spaces": 5.1,
+  "newBtn": 5.95,
+  "manual": [
+   7.6,
+   9.4
+  ],
+  "type": 12.05,
+  "build": 13.6,
+  "dash": 14.25,
+  "fly": 15.1,
+  "connect": 17.6,
+  "newMail": 18.9,
+  "fresh": 19.45,
+  "sync": 19.4,
+  "web": 21.5,
+  "gate": 23.5,
+  "notyet": 23.7,
+  "shareGo": 23.8,
+  "bounce": 24.35,
+  "sign": 26.15
+ }
+}

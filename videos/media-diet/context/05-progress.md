@@ -170,3 +170,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   −1.9 dBTP; captions y 378–488, x 158–921, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
 - The repeated english-09 request (same batch ID/path) was treated as this same job — no duplicate render.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-09 — english-10 (in progress)
+- Start state: earlier accepted jobs finished first, in order (english-09 delivered 8886d96 = remote), then clean, no jobs. Topic
+  (official, Meta Newsroom, 6 Nov 2026 — newest consumer launch in the feeds as of 9 Nov 07:48 UTC): Muse spaces; Meta's school-dashboard
+  example; self-updating with connected apps; available wherever Muse is; sharing not yet. New topic for this app.
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 76 words, 24.8 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/23, log row.
+- Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
