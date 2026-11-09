@@ -64,3 +64,7 @@ Amber #F59E0B is used only for the fake "ONLY 2 LEFT!" tag.
 ## Re-check for english-09 (2026-11-08)
 Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
 Amber is not used in this episode.
+
+## Re-check for english-10 (2026-11-09)
+Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
+Amber is not used in this episode.

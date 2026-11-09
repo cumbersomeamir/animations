@@ -146,6 +146,7 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 | 09 | `production/30s/2026-11-06-english-07/` | Is a ₹320 sandwich expensive? — anchoring: a real premium item sets the reference price; never fake a "was" price (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-06-english-07; distinct from #03 decoy) | fictional café menu board: club sandwich ₹320, snacks ₹150, chef's platter ₹1,200; Krishna et al. (2006) |
 | 10 | `production/30s/2026-11-07-english-08/` | Same cookies — why do the last two look more tempting? — scarcity: show real limits, a fake "only 2 left" is a dark pattern (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-07-english-08; suggested "admit a flaw" topic replaced as a duplicate of #02/#01) | two fictional cookie jars (ten vs two), Worchel, Lee & Adewole (1975); FTC dark-patterns report (2022) |
 | 11 | `production/30s/2026-11-08-english-09/` | Same reward, same eight washes — which card gets finished? — the endowed progress effect: give customers a real head start (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-08-english-09; suggested "show the outcome, not the features" topic replaced as a duplicate of #01/#05/#06) | fictional car-wash loyalty cards (8 vs 10 with two free stamps), Nunes & Drèze (2006) |
+| 12 | `production/30s/2026-11-09-english-10/` | Learn more… about what? — make the next action specific: a verb plus what they'll get (**English**, Meshline voice; app.werbens.com palette; batch 2026-11-09-english-10; distinct from #07's "one action") | fictional meal kit: "Learn more" vs "See the 3 plans"; W3C WCAG 2.2 SC 2.4.4 + F84 |
 
 ## Pronunciation overrides learned (Kokoro, en-us)
 - `wˈɔːɾɚɹᵻsˈɪstənt → wˈɔːtɚ ɹɪzˈɪstənt` ("water-resistant", heard as "water-assistant").
@@ -155,3 +156,5 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 - `iɹˈuːpiː → i ɹˈuːpiː`, `dɹˈuːpiː → d ɹˈuːpiː` (hyphenated prices "320-rupee" were joined into one word) and
   `ɐ wʌz pɹˈaɪs → ɐ wˈʌz pɹˈaɪs` (stressed "was" in "a 'was' price") — english-07.
 - `wɜː ɹˈeɪɾᵻd → wɜɹ ɹˈeɪɾᵻd` (rhotic "were" before "rated") — english-08.
+- General `ɜː → ɜɹ` (rhotic "learn", "service", "purpose", "verb"); `fˈɪftiːnmˈɪnɪt → fˈɪftiːn mˈɪnɪt` ("15-minute");
+  avoid "W3C's" (garbled) — say "from the W3C" — english-10.
