@@ -178,3 +178,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - English narration + captions (approved English Kokoro blend, 0.98, en-us); every take heard exactly by Whisper. 76 words, 24.8 s.
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/23, log row.
 - Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-09 — english-10 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-09-english-10/media-diet-30s-english10-01.mp4
+  (SHA-256 9fa46e991efec11aaf15f10dbee1fb6b4d1dcc4ec94191d916327cf7407e5f4e). Record: context/23-production-30s-english10-01.md; context/11 log row → delivered.
+- Commands: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (parallel, resumable), then `SKIP_FRAMES=1 bash build/build.sh`;
+  ASR re-scored with `python build/asr_check_en.py media-diet-30s-english10-01.mp4 qa/asr.json` after the apostrophe fix.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −1.8 dBTP; captions y 378–488, x 122–959, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- Repeated english-09/english-10 requests received mid-job were the same batches (already delivered / this job) — nothing duplicated.
+- Previous MP4s preserved. No automation created. No analytics used. Unresolved: audio not listened to by a human yet.

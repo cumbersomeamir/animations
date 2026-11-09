@@ -60,7 +60,11 @@ approved Kokoro English blend is used); quiet pad + event foley that dips under 
 episode: start the hook's motion before frame 0 (negative start times) so the very first frame is already in action.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-30s-english10-01.mp4`, SHA-256 `9fa46e991efec11aaf15f10dbee1fb6b4d1dcc4ec94191d916327cf7407e5f4e`, 18,801,537 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 900 frames; video/audio/container 30.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −1.8 dBTP; captions ink y 378–488, x 122–959, 0 safe-area violations in 900 frames; caption↔speech 11/11;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 10.0–14.2 dB under speech per line. Fixed once each:
+caption re-split, framing of S1/S4/S5/S6/S7 + hook motion from frame 0 (stills), ASR apostrophe normalisation.
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked by Whisper-medium (en) per take

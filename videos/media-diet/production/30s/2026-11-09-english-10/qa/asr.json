@@ -1,0 +1,79 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "drowning in school emails about your kids' events. On November 6, Meta added spaces to its Muse app. Before, you dug through every email and copied each date by hand. Now, describe a school dashboard. Muse builds it and adds those events to your calendar. Connect your apps, and it keeps itself up to date in the background. It's live wherever Muse is available, but you can't share spaces yet. Follow Media Diet for technology explained.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    2.58
+   ],
+   "transcript": "Drowning in school emails about your kids events.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.15,
+    6.46
+   ],
+   "transcript": "On November 6, Meta added spaces to its Muse app.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    7.05,
+    10.94
+   ],
+   "transcript": "Before, you dug through every email and copied each date by hand.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    11.67,
+    16.77
+   ],
+   "transcript": "Now describe a school dashboard. Muse builds it and adds those events to your calendar.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    17.36,
+    20.75
+   ],
+   "transcript": "Connect your apps and it keeps itself up to date in the background.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    21.34,
+    25.35
+   ],
+   "transcript": "It's live wherever Muse is available, but you can't share spaces yet.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    26.05,
+    28.68
+   ],
+   "transcript": "Follow Media Diet for Technology Explained.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Drowning in school emails about your kids events. On November 6, Meta added spaces to its Muse app. Before, you dug through every email and copied each date by hand. Now describe a school dashboard. Muse builds it and adds those events to your calendar. Connect your apps and it keeps itself up to date in the background. It's live wherever Muse is available, but you can't share spaces yet. Follow Media Diet for Technology Explained.",
+ "recall_overall": 1.0
+}

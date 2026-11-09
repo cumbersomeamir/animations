@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "Drowning in school emails / about your kids' events?",
+  "cue": [
+   0.07,
+   2.877
+  ],
+  "speech": [
+   0.171,
+   2.528
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.349,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "On November 6, Meta added / spaces to its Muse app.",
+  "cue": [
+   3.07,
+   6.756
+  ],
+  "speech": [
+   3.171,
+   6.312
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.444,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Before, you dug through / every email",
+  "cue": [
+   6.97,
+   9.055
+  ],
+  "speech": [
+   7.072,
+   8.907
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.148,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "and copied each date by hand.",
+  "cue": [
+   9.075,
+   11.236
+  ],
+  "speech": [
+   9.242,
+   10.888
+  ],
+  "lead_s": 0.167,
+  "tail_s": 0.348,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Now, describe a school dashboard: / Muse builds it",
+  "cue": [
+   11.59,
+   14.462
+  ],
+  "speech": [
+   11.69,
+   14.462
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "and adds those events / to your calendar.",
+  "cue": [
+   14.482,
+   17.067
+  ],
+  "speech": [
+   14.482,
+   16.714
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.354,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Connect your apps, / and it keeps itself",
+  "cue": [
+   17.28,
+   19.264
+  ],
+  "speech": [
+   17.38,
+   19.264
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "up to date in the background.",
+  "cue": [
+   19.284,
+   21.052
+  ],
+  "speech": [
+   19.284,
+   20.688
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.364,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "It's live wherever / Muse is available,",
+  "cue": [
+   21.26,
+   23.515
+  ],
+  "speech": [
+   21.362,
+   23.35
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.165,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "but you can't share spaces yet.",
+  "cue": [
+   23.535,
+   25.653
+  ],
+  "speech": [
+   23.717,
+   25.308
+  ],
+  "lead_s": 0.182,
+  "tail_s": 0.345,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Follow Media Diet / for technology explained.",
+  "cue": [
+   25.97,
+   28.983
+  ],
+  "speech": [
+   26.093,
+   28.631
+  ],
+  "lead_s": 0.123,
+  "tail_s": 0.352,
+  "ok": true
+ }
+]

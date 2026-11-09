@@ -11,7 +11,7 @@ NUM = {'november sixth': 'november 6', 'november six': 'november 6', '6th': '6',
 def words(s):
     s = s.lower().replace('u.s.', 'us').replace('’', "'")
     for a, b in NUM.items(): s = s.replace(a, b)
-    return re.findall(r"[a-z0-9']+", s)
+    return [w.strip("'") for w in re.findall(r"[a-z0-9']+", s)]
 def recall(ref, hyp):
     a, b = words(ref), words(hyp); d = [[0] * (len(b) + 1) for _ in range(len(a) + 1)]
     for i in range(len(a)):
