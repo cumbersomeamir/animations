@@ -1,0 +1,68 @@
+{
+ "site": "shop.example",
+ "steps": [
+  {
+   "t": 0.89,
+   "window": "normal",
+   "visit": "shop.example/shoes"
+  },
+  {
+   "t": 1.49,
+   "window": "private",
+   "visit": "shop.example/gift",
+   "private_cookies_while_open": [
+    "seen_gift"
+   ]
+  },
+  {
+   "t": 1.55,
+   "window": "private",
+   "note": "closed; a new private window starts with",
+   "cookies": []
+  }
+ ],
+ "website_log": [
+  {
+   "t": 0.46,
+   "request": "GET /shoes",
+   "cookies_sent": ""
+  },
+  {
+   "t": 1.05,
+   "request": "GET /gift",
+   "cookies_sent": ""
+  }
+ ],
+ "network_log": [
+  {
+   "t": 0.46,
+   "host": "shop.example",
+   "path": "/shoes"
+  },
+  {
+   "t": 1.05,
+   "host": "shop.example",
+   "path": "/gift"
+  }
+ ],
+ "proxy_refused_other_hosts": [
+  "clients2.google.com"
+ ],
+ "profile_after_close": {
+  "history_urls": [
+   [
+    "http://shop.example/shoes",
+    1
+   ]
+  ],
+  "cookies": [
+   [
+    "shop.example",
+    "seen_shoes"
+   ]
+  ]
+ },
+ "tools": {
+  "playwright": "1.63.0"
+ }
+}

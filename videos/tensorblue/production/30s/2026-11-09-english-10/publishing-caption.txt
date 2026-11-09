@@ -1,0 +1,17 @@
+This window is private. So who can still see this visit?
+
+Private mode mainly changes what this device keeps. Close the window, and its history and cookies aren't kept. Downloads and bookmarks you save still stay.
+
+But the website still sees the visit, and so can whoever runs your network, like a school, employer or internet provider.
+
+So it helps on a shared device. It doesn't make you invisible online.
+
+The demo is a real Chromium run with a made-up shop site: after closing, the browser's History and Cookies files kept only the normal window's visit, while the site's log and the network log recorded both the normal and the private visit.
+
+Sources:
+- Browse in Incognito mode (Google Chrome Help): https://support.google.com/chrome/answer/9845881
+- Chrome DevTools Protocol, Target.createBrowserContext: https://chromedevtools.github.io/devtools-protocol/tot/Target/
+
+Follow Tensorblue for software explained simply.
+
+#Privacy #WebBrowsers #SoftwareExplained

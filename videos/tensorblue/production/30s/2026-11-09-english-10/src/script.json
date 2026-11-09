@@ -1,0 +1,18 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [["af_bella", 0.7], ["am_puck", 0.3]],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {"Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"},
+ "lines": [
+  {"id": "L1", "at": 0.3, "text": "This window is private. So who can still see this visit?", "after": 0.4},
+  {"id": "L2", "at": 0.0, "text": "Private mode mainly changes what this device keeps.", "after": 0.25},
+  {"id": "L3", "at": 0.0, "text": "Close the window, and its history and cookies aren't kept.", "after": 0.25},
+  {"id": "L4", "at": 0.0, "text": "Downloads and bookmarks you save still stay.", "after": 0.25},
+  {"id": "L5", "at": 0.0, "text": "But the website still sees the visit, and so can whoever runs your network, like a school, employer or internet provider.", "after": 0.25},
+  {"id": "L6", "at": 0.0, "text": "So it helps on a shared device. It doesn't make you invisible online.", "after": 0.35},
+  {"id": "L7", "at": 26.15, "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.", "after": 0.35}
+ ]
+}

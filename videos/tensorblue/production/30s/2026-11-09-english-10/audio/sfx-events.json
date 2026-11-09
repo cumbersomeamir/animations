@@ -1,0 +1,199 @@
+{
+ "sfx": [
+  {
+   "t": 0.15,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 0.45,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.6,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.75,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 2.182,
+   "type": "type"
+  },
+  {
+   "t": 3.353,
+   "type": "wipe"
+  },
+  {
+   "t": 6.325,
+   "type": "wipe"
+  },
+  {
+   "t": 9.462,
+   "type": "wipe"
+  },
+  {
+   "t": 11.86,
+   "type": "wipe"
+  },
+  {
+   "t": 13.908,
+   "type": "wipe"
+  },
+  {
+   "t": 19.125,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 5.187,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 5.499,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 5.949,
+   "type": "type"
+  },
+  {
+   "t": 6.655,
+   "type": "slide"
+  },
+  {
+   "t": 7.794,
+   "type": "paper"
+  },
+  {
+   "t": 8.369,
+   "type": "paper"
+  },
+  {
+   "t": 8.869,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 9.742,
+   "type": "slot"
+  },
+  {
+   "t": 10.349,
+   "type": "blip"
+  },
+  {
+   "t": 11.499,
+   "type": "type"
+  },
+  {
+   "t": 13.09,
+   "type": "carve"
+  },
+  {
+   "t": 13.14,
+   "type": "type"
+  },
+  {
+   "t": 16.478,
+   "type": "blip"
+  },
+  {
+   "t": 17.253,
+   "type": "blip"
+  },
+  {
+   "t": 18.09,
+   "type": "blip"
+  },
+  {
+   "t": 15.553,
+   "type": "type"
+  },
+  {
+   "t": 20.254,
+   "type": "match"
+  },
+  {
+   "t": 22.291,
+   "type": "strike"
+  },
+  {
+   "t": 23.682,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.332,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "private1": 1.007,
+  "who": 1.957,
+  "still1": 2.232,
+  "visit1": 2.932,
+  "mainly": 4.524,
+  "what": 5.287,
+  "device2": 5.599,
+  "keeps": 5.999,
+  "close": 6.705,
+  "history": 7.994,
+  "cookies": 8.519,
+  "arent": 8.919,
+  "kept": 9.132,
+  "downloads": 9.842,
+  "bookmarks": 10.449,
+  "still4": 11.274,
+  "stay": 11.549,
+  "website": 12.403,
+  "still5": 12.903,
+  "sees": 13.19,
+  "visit5": 13.603,
+  "and5": 14.278,
+  "your": 15.49,
+  "network": 15.603,
+  "school": 16.578,
+  "employer": 17.353,
+  "internet": 18.19,
+  "provider": 18.628,
+  "helps": 19.741,
+  "shared": 20.304,
+  "device6": 20.691,
+  "doesnt": 21.729,
+  "invisible": 22.341,
+  "online": 22.916,
+  "follow": 26.15,
+  "tb": 26.432,
+  "chime": 23.682000000000002,
+  "scenes": [
+   0,
+   3.603,
+   6.575,
+   9.712,
+   12.11,
+   14.158000000000001,
+   19.375,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

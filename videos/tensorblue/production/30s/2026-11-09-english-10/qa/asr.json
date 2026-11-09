@@ -1,0 +1,469 @@
+{
+ "model": "base.en",
+ "transcript": "This window is private, so who can still see this visit? Private mode mainly changes what this device keeps. Close the window, and its history and cookies aren't kept. Downloads and bookmarks you save still stay. But the website still sees the visit, and so can whoever runs your network, like a school, employer, or internet provider. So it helps on a shared device. It doesn't make you invisible online. Follow TensorBlue for software explained simply.",
+ "reference": "This window is private. So who can still see this visit? Private mode mainly changes what this device keeps. Close the window, and its history and cookies aren't kept. Downloads and bookmarks you save still stay. But the website still sees the visit, and so can whoever runs your network, like a school, employer or internet provider. So it helps on a shared device. It doesn't make you invisible online. Follow Tensorblue for software explained simply.",
+ "wer": 0.0,
+ "matched_words": 76,
+ "scripted_words": 76,
+ "mean_abs_start_drift_s": 0.098,
+ "max_abs_start_drift_s": 0.336,
+ "low_confidence_words": [],
+ "words": [
+  {
+   "w": "This",
+   "t0": 0.0,
+   "t1": 0.42,
+   "p": 0.938
+  },
+  {
+   "w": "window",
+   "t0": 0.42,
+   "t1": 0.66,
+   "p": 0.97
+  },
+  {
+   "w": "is",
+   "t0": 0.66,
+   "t1": 0.96,
+   "p": 0.998
+  },
+  {
+   "w": "private,",
+   "t0": 0.96,
+   "t1": 1.18,
+   "p": 0.986
+  },
+  {
+   "w": "so",
+   "t0": 1.74,
+   "t1": 1.94,
+   "p": 0.997
+  },
+  {
+   "w": "who",
+   "t0": 1.94,
+   "t1": 2.08,
+   "p": 0.988
+  },
+  {
+   "w": "can",
+   "t0": 2.08,
+   "t1": 2.2,
+   "p": 0.997
+  },
+  {
+   "w": "still",
+   "t0": 2.2,
+   "t1": 2.4,
+   "p": 0.998
+  },
+  {
+   "w": "see",
+   "t0": 2.4,
+   "t1": 2.66,
+   "p": 0.998
+  },
+  {
+   "w": "this",
+   "t0": 2.66,
+   "t1": 2.86,
+   "p": 0.998
+  },
+  {
+   "w": "visit?",
+   "t0": 2.86,
+   "t1": 3.22,
+   "p": 0.987
+  },
+  {
+   "w": "Private",
+   "t0": 3.74,
+   "t1": 4.0,
+   "p": 0.989
+  },
+  {
+   "w": "mode",
+   "t0": 4.0,
+   "t1": 4.28,
+   "p": 0.84
+  },
+  {
+   "w": "mainly",
+   "t0": 4.28,
+   "t1": 4.66,
+   "p": 0.988
+  },
+  {
+   "w": "changes",
+   "t0": 4.66,
+   "t1": 5.16,
+   "p": 0.999
+  },
+  {
+   "w": "what",
+   "t0": 5.16,
+   "t1": 5.4,
+   "p": 0.998
+  },
+  {
+   "w": "this",
+   "t0": 5.4,
+   "t1": 5.54,
+   "p": 0.997
+  },
+  {
+   "w": "device",
+   "t0": 5.54,
+   "t1": 5.82,
+   "p": 0.995
+  },
+  {
+   "w": "keeps.",
+   "t0": 5.82,
+   "t1": 6.18,
+   "p": 0.997
+  },
+  {
+   "w": "Close",
+   "t0": 6.88,
+   "t1": 6.88,
+   "p": 0.96
+  },
+  {
+   "w": "the",
+   "t0": 6.88,
+   "t1": 7.08,
+   "p": 0.999
+  },
+  {
+   "w": "window,",
+   "t0": 7.08,
+   "t1": 7.32,
+   "p": 0.998
+  },
+  {
+   "w": "and",
+   "t0": 7.78,
+   "t1": 7.86,
+   "p": 0.998
+  },
+  {
+   "w": "its",
+   "t0": 7.86,
+   "t1": 7.96,
+   "p": 0.799
+  },
+  {
+   "w": "history",
+   "t0": 7.96,
+   "t1": 8.32,
+   "p": 0.998
+  },
+  {
+   "w": "and",
+   "t0": 8.32,
+   "t1": 8.48,
+   "p": 0.954
+  },
+  {
+   "w": "cookies",
+   "t0": 8.48,
+   "t1": 8.72,
+   "p": 0.997
+  },
+  {
+   "w": "aren't",
+   "t0": 8.72,
+   "t1": 9.12,
+   "p": 0.995
+  },
+  {
+   "w": "kept.",
+   "t0": 9.12,
+   "t1": 9.32,
+   "p": 0.998
+  },
+  {
+   "w": "Downloads",
+   "t0": 9.92,
+   "t1": 10.04,
+   "p": 0.955
+  },
+  {
+   "w": "and",
+   "t0": 10.04,
+   "t1": 10.42,
+   "p": 0.996
+  },
+  {
+   "w": "bookmarks",
+   "t0": 10.42,
+   "t1": 10.76,
+   "p": 0.989
+  },
+  {
+   "w": "you",
+   "t0": 10.76,
+   "t1": 11.02,
+   "p": 0.97
+  },
+  {
+   "w": "save",
+   "t0": 11.02,
+   "t1": 11.18,
+   "p": 0.968
+  },
+  {
+   "w": "still",
+   "t0": 11.18,
+   "t1": 11.46,
+   "p": 0.994
+  },
+  {
+   "w": "stay.",
+   "t0": 11.46,
+   "t1": 11.74,
+   "p": 0.999
+  },
+  {
+   "w": "But",
+   "t0": 12.22,
+   "t1": 12.3,
+   "p": 0.993
+  },
+  {
+   "w": "the",
+   "t0": 12.3,
+   "t1": 12.4,
+   "p": 0.991
+  },
+  {
+   "w": "website",
+   "t0": 12.4,
+   "t1": 12.6,
+   "p": 0.956
+  },
+  {
+   "w": "still",
+   "t0": 12.6,
+   "t1": 13.1,
+   "p": 0.998
+  },
+  {
+   "w": "sees",
+   "t0": 13.1,
+   "t1": 13.36,
+   "p": 0.988
+  },
+  {
+   "w": "the",
+   "t0": 13.36,
+   "t1": 13.6,
+   "p": 0.998
+  },
+  {
+   "w": "visit,",
+   "t0": 13.6,
+   "t1": 13.8,
+   "p": 0.995
+  },
+  {
+   "w": "and",
+   "t0": 14.18,
+   "t1": 14.38,
+   "p": 0.995
+  },
+  {
+   "w": "so",
+   "t0": 14.38,
+   "t1": 14.56,
+   "p": 0.994
+  },
+  {
+   "w": "can",
+   "t0": 14.56,
+   "t1": 14.72,
+   "p": 0.997
+  },
+  {
+   "w": "whoever",
+   "t0": 14.72,
+   "t1": 14.9,
+   "p": 0.982
+  },
+  {
+   "w": "runs",
+   "t0": 14.9,
+   "t1": 15.38,
+   "p": 0.996
+  },
+  {
+   "w": "your",
+   "t0": 15.38,
+   "t1": 15.58,
+   "p": 0.997
+  },
+  {
+   "w": "network,",
+   "t0": 15.58,
+   "t1": 15.84,
+   "p": 0.996
+  },
+  {
+   "w": "like",
+   "t0": 16.26,
+   "t1": 16.42,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "t0": 16.42,
+   "t1": 16.54,
+   "p": 0.999
+  },
+  {
+   "w": "school,",
+   "t0": 16.54,
+   "t1": 16.84,
+   "p": 0.994
+  },
+  {
+   "w": "employer,",
+   "t0": 17.24,
+   "t1": 17.74,
+   "p": 0.998
+  },
+  {
+   "w": "or",
+   "t0": 18.04,
+   "t1": 18.12,
+   "p": 0.998
+  },
+  {
+   "w": "internet",
+   "t0": 18.12,
+   "t1": 18.36,
+   "p": 0.859
+  },
+  {
+   "w": "provider.",
+   "t0": 18.36,
+   "t1": 18.88,
+   "p": 0.999
+  },
+  {
+   "w": "So",
+   "t0": 19.52,
+   "t1": 19.62,
+   "p": 0.993
+  },
+  {
+   "w": "it",
+   "t0": 19.62,
+   "t1": 19.72,
+   "p": 0.932
+  },
+  {
+   "w": "helps",
+   "t0": 19.72,
+   "t1": 19.9,
+   "p": 0.998
+  },
+  {
+   "w": "on",
+   "t0": 19.9,
+   "t1": 20.16,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "t0": 20.16,
+   "t1": 20.24,
+   "p": 0.999
+  },
+  {
+   "w": "shared",
+   "t0": 20.24,
+   "t1": 20.48,
+   "p": 0.998
+  },
+  {
+   "w": "device.",
+   "t0": 20.48,
+   "t1": 20.96,
+   "p": 0.999
+  },
+  {
+   "w": "It",
+   "t0": 21.66,
+   "t1": 21.74,
+   "p": 0.998
+  },
+  {
+   "w": "doesn't",
+   "t0": 21.74,
+   "t1": 21.98,
+   "p": 0.999
+  },
+  {
+   "w": "make",
+   "t0": 21.98,
+   "t1": 22.1,
+   "p": 0.999
+  },
+  {
+   "w": "you",
+   "t0": 22.1,
+   "t1": 22.3,
+   "p": 1.0
+  },
+  {
+   "w": "invisible",
+   "t0": 22.3,
+   "t1": 22.58,
+   "p": 0.995
+  },
+  {
+   "w": "online.",
+   "t0": 22.58,
+   "t1": 23.1,
+   "p": 0.989
+  },
+  {
+   "w": "Follow",
+   "t0": 25.86,
+   "t1": 26.38,
+   "p": 0.941
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 26.38,
+   "t1": 26.9,
+   "p": 0.812
+  },
+  {
+   "w": "for",
+   "t0": 26.9,
+   "t1": 27.14,
+   "p": 0.99
+  },
+  {
+   "w": "software",
+   "t0": 27.14,
+   "t1": 27.34,
+   "p": 0.942
+  },
+  {
+   "w": "explained",
+   "t0": 27.34,
+   "t1": 27.96,
+   "p": 0.961
+  },
+  {
+   "w": "simply.",
+   "t0": 27.96,
+   "t1": 28.44,
+   "p": 0.987
+  }
+ ]
+}
