@@ -11,7 +11,9 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   info@tensorblue.com.
 - Older work finished first: english-08's render had been killed by a worker restart (596/900 frames). It was
   re-rendered in full, QA'd, pushed (187508a) and attached before any english-09 edits. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-08-english-09/courtlens-30s-english09-01.mp4`.
+- DELIVERED: `production/30s/2026-11-08-english-09/courtlens-30s-english09-01.mp4`
+  (sha256 0988a85a9eb70822b47316e41f377f5ff4347ca57917ab0f6bd3e669124dff33).
+- The same english-09 request arrived again mid-turn; it was treated as this one episode, not duplicated.
 - Episode record: `context/episodes/2026-11-08-english09-hotel-aadhaar.md`.
 
 ### Verified facts
@@ -56,8 +58,22 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
   copies".
 - "Room 204 · 1 night" crowded the price, so the title is now "Room 204" with the subtitle "1 night · check-out 11:00".
 
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −15.6 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA final 3.74 s; y<300 clear; 12 captions, ≤2 lines, in y 340–520.
+- English ASR on the final mix: WER 0.012 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Details: `production/30s/2026-11-08-english-09/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- UIDAI hosts were intermittently unreachable (503 / reset). The masked-Aadhaar FAQ wording was read from the search
+  index; the regulations PDF was downloaded and hashed.
+- Desktop/video-review is not reachable from this cloud session; the MP4 is attached in chat and pushed.
+
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Delivered. Next queued request: english-10 (phone number for a bill).
 
 ## Round 2026-11-07 (english-08): English episode 08, train 3+ hours late (full fare via TDR)
 
