@@ -1,0 +1,76 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.51
+      ],
+      "script": "24 jams? Or just 6?",
+      "heard": "24 jams, or just six.",
+      "words": "3/3"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.45,
+        9.26
+      ],
+      "script": "In a 2000 study, shoppers were more likely to buy from a table of 6 jams than from 24.",
+      "heard": "In a 2000 study, shoppers were more likely to buy from a table of six jams than from 24.",
+      "words": "16/16"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        9.2,
+        13.9
+      ],
+      "script": "But a review of 50 experiments found the average effect was nearly zero.",
+      "heard": "But a review of 50 experiments found the average effect was nearly zero.",
+      "words": "12/12"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        13.85,
+        18
+      ],
+      "script": "It depends: overload grows when options are hard to compare.",
+      "heard": "It depends, overload grows when options are hard to compare.",
+      "words": "10/10"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        18,
+        22.55
+      ],
+      "script": "So make choosing easy: group your options, and say who each one is for.",
+      "heard": "So make choosing easy. Group your options and say who each one is for.",
+      "words": "14/14"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        22.5,
+        25.55
+      ],
+      "script": "Like: for kids, for cheese boards, for baking.",
+      "heard": "Like for kids, for cheese boards, for baking.",
+      "words": "8/8"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        25.95,
+        28.72
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "24 jams, or just 6. In a 2000 study, shoppers were more likely to buy from a table of 6 jams than from 24. But a review of 50 experiments found the average effect was nearly zero. It depends, overload grows when options are hard to compare. So make choosing easy. Group your options and say who each one is for. Like for kids, for cheese boards, for baking. Follow Wurbens to decode how brands sell."
+}

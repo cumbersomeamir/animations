@@ -54,4 +54,5 @@
   (endowed progress; suggested "show the outcome" topic replaced as a duplicate of #01; English narration + captions; context/24).
 - English-10 (batch 2026-11-09-english-10) delivered `production/30s/2026-11-09-english-10/werbens-30s-english10-01.mp4`
   (make the next action specific; W3C WCAG 2.2 SC 2.4.4 + F84; English narration + captions; context/25).
-- English-11 (batch 2026-11-09-english-11) CHECKPOINT: sources, narration, docs committed; final render running → `production/30s/2026-11-09-english-11/werbens-30s-english11-01.mp4`
+- English-11 (batch 2026-11-09-english-11) delivered `production/30s/2026-11-09-english-11/werbens-30s-english11-01.mp4`
+  (choice overload; suggested "feature list vs outcome" topic replaced as a duplicate of #01; English narration + captions; context/26).
