@@ -126,3 +126,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-08 — english-09, 30 s #01 (English; "brand new" shoes can be unusable — pair, sole, size) — DONE
 - Output `videos/help/production/30s/2026-11-08-english-09/help-30s-english09-01.mp4`, SHA-256 `62971dbf735d8b15c077fff7cb4b4b82a8ff56b74da28bf3b8fd9e760592b972`.
 - Record: `22-production-30s-english09-01.md`; corrections appended to `11-production-format.md`. No automation created.
+
+## 2026-11-09 — english-10, 30 s #01 (English; food help often stops at food — donate toiletries too; subject changed from a covered topic) — DONE
+- Output `videos/help/production/30s/2026-11-09-english-10/help-30s-english10-01.mp4`, SHA-256 `7accb4f8bbc2f64fee4fe7c8d8926d82d8459ee82b745cc518d89da68c389b26`.
+- Record: `23-production-30s-english10-01.md`; corrections appended to `11-production-format.md`. No automation created.

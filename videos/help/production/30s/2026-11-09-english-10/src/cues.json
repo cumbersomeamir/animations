@@ -1,0 +1,23 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.35, 2.30, 5.45, 10.60, 13.20, 17.10, 21.55, 26.05],
+ "scenes": {
+  "A_hook_rice_yes_soap_no": [0.0, 2.15],
+  "B_snap_food_only": [2.15, 5.3],
+  "C_not_food": [5.3, 10.4],
+  "D_food_bank_list": [10.4, 16.9],
+  "F_fictional_donor": [16.9, 21.4],
+  "G_fill_the_gap": [21.4, 25.8],
+  "I_cta": [25.8, 30.0]
+ },
+ "cues": {
+  "riceOk": 0.75, "soapIn": 0.95, "soapNo": 1.42,
+  "snap": 3.2, "foodItems": 3.6, "foodOnly": 4.55,
+  "soap": 5.4, "paste": 5.85, "pads": 6.65, "notFood": 7.55, "cantBuy": 9.3,
+  "board": 10.55, "toiletries": 11.85, "check": 13.15, "deo": 14.2, "brush": 14.9, "padsRow": 15.6,
+  "label": 17.05, "donor": 18.5, "sealed": 19.15, "brushIn": 19.6, "deoIn": 20.35, "tick": 21.25,
+  "stops": 22.35, "fill": 23.65, "done": 25.45,
+  "logo": 26.3, "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to English ASR word times of the final voice takes (qa/asr-voice-track.txt). Tick SFX only in pauses (tick, done); ticks inside speech are visual only."
+}

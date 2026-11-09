@@ -190,3 +190,10 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - "Looks new" props need a saturated palette fill (e.g. P.yellow upper): pale fills under the hide pattern read as grey stone, not new.
 - Side-view objects must carry one unmistakable silhouette cue (shoe: collar opening + toe line) or they read as blocks.
 - ASR traps found: "one shoe alone" → "once you alone", "unworn" → "unborn" — rephrase ("a single shoe", "even if never worn").
+
+## Update 2026-11-09 — english-10 (corrections learned this episode)
+- Topic gate reaffirmed: "ask what is needed / random bundle" proposals stay covered (english-10 → toiletries gap in food help).
+- SFX that sit on a spoken word must not be broadband (paper rustles masked "Soap" → ASR "so"); keep item-arrival sounds in pauses.
+- Never put a `//` comment mid-line in the stage code: it swallowed `g.save()/translate` and leaked a scene's props into its neighbours.
+  Use `/* … */` or a separate line; always re-check the transition sheet after any code edit.
+- When a gov site refuses automated fetches (USDA FNS 403), use the regulation itself (govinfo CFR) rather than circumventing the block.

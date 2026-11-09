@@ -1,0 +1,139 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 106,
+  "x1": 974,
+  "y0": 376,
+  "y1": 495
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Rice: yes.",
+   "fs": 66,
+   "x0": 380,
+   "x1": 700,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 17
+  },
+  {
+   "text": "Soap: no.",
+   "fs": 66,
+   "x0": 385,
+   "x1": 695,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 47
+  },
+  {
+   "text": "In the US, SNAP",
+   "fs": 66,
+   "x0": 283,
+   "x1": 797,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 80
+  },
+  {
+   "text": "benefits are only for food.",
+   "fs": 66,
+   "x0": 118,
+   "x1": 962,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 127
+  },
+  {
+   "text": "Soap, toothpaste / and period products",
+   "fs": 56,
+   "x0": 261,
+   "x1": 819,
+   "y0": 378,
+   "y1": 495,
+   "firstFrame": 190
+  },
+  {
+   "text": "aren't food, so benefits / can't buy them.",
+   "fs": 56,
+   "x0": 217,
+   "x1": 863,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 267
+  },
+  {
+   "text": "Food banks often / ask for toiletries too.",
+   "fs": 56,
+   "x0": 254,
+   "x1": 826,
+   "y0": 377,
+   "y1": 484,
+   "firstFrame": 351
+  },
+  {
+   "text": "Check their list:",
+   "fs": 66,
+   "x0": 282,
+   "x1": 798,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 406
+  },
+  {
+   "text": "deodorant, toothbrushes, / period products.",
+   "fs": 56,
+   "x0": 183,
+   "x1": 897,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 466
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 242,
+   "x1": 838,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 526
+  },
+  {
+   "text": "a donor adds a sealed / toothbrush and deodorant.",
+   "fs": 56,
+   "x0": 167,
+   "x1": 913,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 592
+  },
+  {
+   "text": "Food help often / stops at food.",
+   "fs": 56,
+   "x0": 326,
+   "x1": 754,
+   "y0": 377,
+   "y1": 495,
+   "firstFrame": 673
+  },
+  {
+   "text": "Toiletries help fill that gap.",
+   "fs": 66,
+   "x0": 106,
+   "x1": 974,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 738
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 834
+  }
+ ]
+}

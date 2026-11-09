@@ -1,0 +1,64 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Rice: yes. Soap: no.",
+   "dur": 1.47,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "In the US, SNAP benefits are only for food.",
+   "dur": 2.761,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Soap, toothpaste and period products aren't food, so benefits can't buy them.",
+   "dur": 4.735,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Food banks often ask for toiletries too.",
+   "dur": 2.189,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Check their list: deodorant, toothbrushes, period products.",
+   "dur": 3.471,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Fictional example: a donor adds a sealed toothbrush and deodorant.",
+   "dur": 4.006,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Food help often stops at food. Toiletries help fill that gap.",
+   "dur": 3.772,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

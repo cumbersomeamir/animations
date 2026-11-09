@@ -1,0 +1,116 @@
+{
+ "cards": [
+  {
+   "a": 0.21,
+   "lines": [
+    "Rice: yes."
+   ],
+   "timing": "asr",
+   "b": 0.92
+  },
+  {
+   "a": 0.99,
+   "lines": [
+    "Soap: no."
+   ],
+   "timing": "asr",
+   "b": 2.16
+  },
+  {
+   "a": 2.23,
+   "lines": [
+    "In the US, SNAP"
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 3.128
+  },
+  {
+   "a": 3.198,
+   "lines": [
+    "benefits are only for food."
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 5.24
+  },
+  {
+   "a": 5.31,
+   "lines": [
+    "Soap, toothpaste and period products"
+   ],
+   "timing": "asr",
+   "b": 7.37
+  },
+  {
+   "a": 7.44,
+   "lines": [
+    "aren't food, so benefits can't buy them."
+   ],
+   "timing": "asr",
+   "b": 10.37
+  },
+  {
+   "a": 10.44,
+   "lines": [
+    "Food banks often ask for toiletries too."
+   ],
+   "timing": "asr",
+   "b": 12.98
+  },
+  {
+   "a": 13.05,
+   "lines": [
+    "Check their list:"
+   ],
+   "timing": "asr",
+   "b": 14.03
+  },
+  {
+   "a": 14.1,
+   "lines": [
+    "deodorant, toothbrushes, period products."
+   ],
+   "timing": "asr",
+   "b": 16.96
+  },
+  {
+   "a": 17.03,
+   "lines": [
+    "Fictional example:"
+   ],
+   "timing": "proportional (asr 11 vs 10 words)",
+   "b": 18.068
+  },
+  {
+   "a": 18.138,
+   "lines": [
+    "a donor adds a sealed toothbrush and deodorant."
+   ],
+   "timing": "proportional (asr 11 vs 10 words)",
+   "b": 21.32
+  },
+  {
+   "a": 21.39,
+   "lines": [
+    "Food help often stops at food."
+   ],
+   "timing": "asr",
+   "b": 23.48
+  },
+  {
+   "a": 23.55,
+   "lines": [
+    "Toiletries help fill that gap."
+   ],
+   "timing": "asr",
+   "b": 25.672
+  },
+  {
+   "a": 25.89,
+   "lines": [
+    "Download Help to donate essentials."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}
