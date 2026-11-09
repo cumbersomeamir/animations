@@ -4,6 +4,61 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-08 (english-09): English episode 09, can a hotel keep your original Aadhaar?
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync), assigned account
+  info@tensorblue.com.
+- Older work finished first: english-08's render had been killed by a worker restart (596/900 frames). It was
+  re-rendered in full, QA'd, pushed (187508a) and attached before any english-09 edits. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-08-english-09/courtlens-30s-english09-01.mp4`.
+- Episode record: `context/episodes/2026-11-08-english09-hotel-aadhaar.md`.
+
+### Verified facts
+- UIDAI Aadhaar (Authentication and Offline Verification) Regulations, 2021 (clean copy updated 15.12.2025):
+  - 2(1)(mb): any entity wanting offline verification is an OVSE
+  - 5(3): no denial of service if you identify through a viable alternative
+  - 6: consent
+  - 14A(1)(b): an OVSE shall not collect, use or store the Aadhaar number except per the Act/regs
+  - 16B/16C: verification through the secure QR code
+  - 20A: logs, but never the Aadhaar number
+  - 2(1)(mc) and 14(1)(mb): masking (first 8 digits)
+- PIB, 10 Jan 2023 (UIDAI guideline to OVSEs): don't store the number; any copy masked and irretrievable; QR
+  verification; alternative ID.
+- Not used: the PIB release of 27 May 2022 claiming an "offence". The underlying release was withdrawn by MeitY on
+  29 May 2022 (PIB 1829162).
+- Details: `production/30s/2026-11-08-english-09/notes/LEGAL-SOURCES.md`.
+
+### Creative decisions
+- Performer: a generic ID card labelled "AADHAAR" (no emblem or official layout; number shown as dots) hops into a
+  front-desk DEPOSIT box and the padlock snaps shut (hook by 1.45 s).
+- Other changes:
+  - check-in card; "Card stays here" sign; tag flips "Leave your card?" → "Scan & return"
+  - UIDAI rule card with three short chips
+  - show vs leave split with a "QR scanned" sticker
+  - hotel-record envelope with a masked copy (XXXX XXXX 4821) and a QR-verified phone
+- "UIDAI" can't be voiced cleanly ("U of I", "UID AI", or a sentence break with full stops), so the narration says
+  "Aadhaar's own rules" and the screen shows UIDAI.
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-08-english-09/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st9 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build9 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english09-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english09-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The third rule chip overflowed the card edge, so the labels were shortened to "scan the QR / no storing / mask
+  copies".
+- "Room 204 · 1 night" crowded the price, so the title is now "Room 204" with the subtitle "1 night · check-out 11:00".
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-07 (english-08): English episode 08, train 3+ hours late (full fare via TDR)
 
 ### Status
