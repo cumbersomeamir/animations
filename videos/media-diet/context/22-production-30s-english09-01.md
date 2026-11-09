@@ -63,7 +63,11 @@ episode: a leaning phone needs its paper strut set further back (it poked throug
 during a close-up so it doesn't compete with the captions; spoken years cost ~1.5 s — show them on screen instead.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-30s-english09-01.mp4`, SHA-256 `344d8d563f4e0ff3c2c79058a48c3ee356bdc4874648fb8c3e6a25cdbed1ab20`, 22,794,318 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 900 frames; video/audio/container 30.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −1.9 dBTP; captions ink y 378–488, x 158–921, 0 safe-area violations in 900 frames; caption↔speech 11/11;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 9.6–14.8 dB under speech per line. Fixed once each:
+"United's" wording + spoken year (ASR/timing), framing of S1/S4/S6 (stills), phone strut through the screen.
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation and intelligibility were checked by Whisper-medium (en) per take

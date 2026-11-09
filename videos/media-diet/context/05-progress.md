@@ -161,3 +161,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - English narration + captions (approved English Kokoro blend, 0.98, en-us); "United's" reworded after the Whisper check. 71 words, 24.8 s.
 - Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/22, log row.
 - Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-09 — english-09 delivered
+- New 30.000 s English episode rendered, verified and committed: production/30s/2026-11-08-english-09/media-diet-30s-english09-01.mp4
+  (SHA-256 344d8d563f4e0ff3c2c79058a48c3ee356bdc4874648fb8c3e6a25cdbed1ab20). Record: context/22-production-30s-english09-01.md; context/11 log row → delivered.
+- Commands: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (parallel, resumable), then `SKIP_FRAMES=1 bash build/build.sh`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −1.9 dBTP; captions y 378–488, x 158–921, 0 violations; caption↔speech 11/11; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
+- The repeated english-09 request (same batch ID/path) was treated as this same job — no duplicate render.
+- Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).

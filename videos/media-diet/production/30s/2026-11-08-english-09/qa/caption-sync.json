@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "Your own playlists, on an / airplane seatback screen?",
+  "cue": [
+   0.07,
+   2.947
+  ],
+  "speech": [
+   0.172,
+   2.603
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.344,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "New on November 5: / your Spotify login",
+  "cue": [
+   3.12,
+   5.916
+  ],
+  "speech": [
+   3.221,
+   5.916
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "on United seatbacks.",
+  "cue": [
+   5.936,
+   7.715
+  ],
+  "speech": [
+   5.936,
+   7.366
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.349,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Join the plane's Wi-Fi, / no pass needed,",
+  "cue": [
+   7.89,
+   10.38
+  ],
+  "speech": [
+   7.991,
+   10.219
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.161,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "then scan the QR code.",
+  "cue": [
+   10.4,
+   12.244
+  ],
+  "speech": [
+   10.58,
+   11.895
+  ],
+  "lead_s": 0.18,
+  "tail_s": 0.349,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Your playlists and podcasts / appear, right where you left off.",
+  "cue": [
+   12.41,
+   16.011
+  ],
+  "speech": [
+   12.512,
+   15.614
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.397,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Your password never / touches the screen;",
+  "cue": [
+   16.18,
+   18.44
+  ],
+  "speech": [
+   16.282,
+   18.281
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.159,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "it logs out after the flight.",
+  "cue": [
+   18.46,
+   20.425
+  ],
+  "speech": [
+   18.637,
+   20.078
+  ],
+  "lead_s": 0.177,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "The catch: only United planes / with Starlink for now,",
+  "cue": [
+   20.59,
+   23.965
+  ],
+  "speech": [
+   20.695,
+   23.807
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.158,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "but more are coming.",
+  "cue": [
+   23.985,
+   25.378
+  ],
+  "speech": [
+   24.17,
+   25.034
+  ],
+  "lead_s": 0.185,
+  "tail_s": 0.344,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Follow Media Diet / for technology explained.",
+  "cue": [
+   25.92,
+   28.933
+  ],
+  "speech": [
+   26.043,
+   28.581
+  ],
+  "lead_s": 0.123,
+  "tail_s": 0.352,
+  "ok": true
+ }
+]
