@@ -1,0 +1,108 @@
+{
+ "cards": [
+  {
+   "a": 0.28,
+   "lines": [
+    "Leftover pills in a donation bag?"
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 2.26
+  },
+  {
+   "a": 2.33,
+   "lines": [
+    "Take them out."
+   ],
+   "timing": "proportional (asr 10 vs 9 words)",
+   "b": 3.59
+  },
+  {
+   "a": 3.66,
+   "lines": [
+    "Food banks often list medicines and vitamins"
+   ],
+   "timing": "asr",
+   "b": 6.62
+  },
+  {
+   "a": 6.69,
+   "lines": [
+    "as things they can't accept."
+   ],
+   "timing": "asr",
+   "b": 8.51
+  },
+  {
+   "a": 8.58,
+   "lines": [
+    "Fictional example:"
+   ],
+   "timing": "asr",
+   "b": 9.83
+  },
+  {
+   "a": 9.9,
+   "lines": [
+    "a donor clears out a cupboard."
+   ],
+   "timing": "asr",
+   "b": 11.78
+  },
+  {
+   "a": 11.85,
+   "lines": [
+    "Unwanted or expired medicines go to a pharmacy,"
+   ],
+   "timing": "asr",
+   "b": 15.29
+  },
+  {
+   "a": 15.36,
+   "lines": [
+    "to be disposed of safely."
+   ],
+   "timing": "asr",
+   "b": 17.24
+  },
+  {
+   "a": 17.31,
+   "lines": [
+    "Sealed essentials, like tins and toiletries,"
+   ],
+   "timing": "asr",
+   "b": 19.97
+  },
+  {
+   "a": 20.04,
+   "lines": [
+    "go in the bag."
+   ],
+   "timing": "asr",
+   "b": 21.14
+  },
+  {
+   "a": 21.21,
+   "lines": [
+    "Medicines to the pharmacy."
+   ],
+   "timing": "asr",
+   "b": 22.91
+  },
+  {
+   "a": 22.98,
+   "lines": [
+    "Essentials to the donation."
+   ],
+   "timing": "asr",
+   "b": 24.98
+  },
+  {
+   "a": 25.89,
+   "lines": [
+    "Download Help to donate essentials."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}

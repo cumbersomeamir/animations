@@ -1,0 +1,57 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Leftover pills in a donation bag? Take them out.",
+   "dur": 3.054,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Food banks often list medicines and vitamins as things they can't accept.",
+   "dur": 4.492,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Fictional example: a donor clears out a cupboard.",
+   "dur": 2.813,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Unwanted or expired medicines go to a pharmacy, to be disposed of safely.",
+   "dur": 5.084,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Sealed essentials, like tins and toiletries, go in the bag.",
+   "dur": 3.478,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Medicines to the pharmacy. Essentials to the donation.",
+   "dur": 3.27,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Download Help to donate essentials.",
+   "dur": 1.842,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  }
+ ]
+}

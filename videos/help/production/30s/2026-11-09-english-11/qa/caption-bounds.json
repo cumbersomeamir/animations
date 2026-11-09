@@ -1,0 +1,130 @@
+{
+ "rule": "ink y 340-520, x 90-990 (feedback round)",
+ "framesChecked": 26,
+ "extent": {
+  "x0": 107,
+  "x1": 973,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Leftover pills in / a donation bag?",
+   "fs": 56,
+   "x0": 319,
+   "x1": 761,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 38
+  },
+  {
+   "text": "Take them out.",
+   "fs": 66,
+   "x0": 298,
+   "x1": 782,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 89
+  },
+  {
+   "text": "Food banks often list / medicines and vitamins",
+   "fs": 56,
+   "x0": 212,
+   "x1": 868,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 154
+  },
+  {
+   "text": "as things they / can't accept.",
+   "fs": 56,
+   "x0": 345,
+   "x1": 735,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 228
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 242,
+   "x1": 838,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 276
+  },
+  {
+   "text": "a donor clears / out a cupboard.",
+   "fs": 56,
+   "x0": 323,
+   "x1": 757,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 325
+  },
+  {
+   "text": "Unwanted or expired / medicines go to a pharmacy,",
+   "fs": 56,
+   "x0": 143,
+   "x1": 937,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 407
+  },
+  {
+   "text": "to be disposed of safely.",
+   "fs": 66,
+   "x0": 141,
+   "x1": 939,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 489
+  },
+  {
+   "text": "Sealed essentials, / like tins and toiletries,",
+   "fs": 56,
+   "x0": 235,
+   "x1": 845,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 559
+  },
+  {
+   "text": "go in the bag.",
+   "fs": 66,
+   "x0": 319,
+   "x1": 761,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 618
+  },
+  {
+   "text": "Medicines to / the pharmacy.",
+   "fs": 56,
+   "x0": 340,
+   "x1": 740,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 662
+  },
+  {
+   "text": "Essentials to the donation.",
+   "fs": 66,
+   "x0": 107,
+   "x1": 973,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 719
+  },
+  {
+   "text": "Download Help to / donate essentials.",
+   "fs": 56,
+   "x0": 285,
+   "x1": 795,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 834
+  }
+ ]
+}

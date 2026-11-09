@@ -1,0 +1,70 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.35,
+  3.82,
+  8.73,
+  11.96,
+  17.46,
+  21.36,
+  26.05
+ ],
+ "scenes": {
+  "A_hook_pills_in_bag": [
+   0.0,
+   3.55
+  ],
+  "B_food_bank_cant_accept": [
+   3.55,
+   8.5
+  ],
+  "C_fictional_cupboard": [
+   8.5,
+   11.8
+  ],
+  "D_pharmacy_returns": [
+   11.8,
+   17.25
+  ],
+  "E_sealed_essentials": [
+   17.25,
+   21.15
+  ],
+  "F_recap_two_routes": [
+   21.15,
+   25.8
+  ],
+  "I_cta": [
+   25.8,
+   30.0
+  ]
+ },
+ "cues": {
+  "drop": 0.0,
+  "inBag": 0.35,
+  "q": 1.4,
+  "out": 2.55,
+  "x0": 3.05,
+  "board": 3.75,
+  "medsRow": 5.05,
+  "vitRow": 5.75,
+  "cant": 7.4,
+  "label": 8.7,
+  "cupOpen": 10.0,
+  "sort": 10.45,
+  "medsGo": 14.2,
+  "safe": 15.65,
+  "tick1": 17.12,
+  "sealed": 17.45,
+  "tins": 18.85,
+  "toil": 19.3,
+  "tick2": 21.05,
+  "routeMed": 21.3,
+  "routeEss": 23.05,
+  "done": 24.75,
+  "logo": 26.3,
+  "dimEnd": 29.2
+ },
+ "notes": "Cues aligned to English ASR word times of the final voice takes (qa/asr-voice-track.txt). Tick SFX only in pauses (tick1, tick2, done); ticks inside speech are visual only; no broadband SFX on spoken words."
+}

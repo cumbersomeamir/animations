@@ -197,3 +197,8 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - Never put a `//` comment mid-line in the stage code: it swallowed `g.save()/translate` and leaked a scene's props into its neighbours.
   Use `/* … */` or a separate line; always re-check the transition sheet after any code edit.
 - When a gov site refuses automated fetches (USDA FNS 403), use the regulation itself (govinfo CFR) rather than circumventing the block.
+
+## Update 2026-11-09 — english-11 (corrections learned this episode)
+- Topic gate: shoe checks (pair / sole / size) are covered (english-09). Next shoe/clothing-condition proposals → pick a new item or mechanism.
+- When a key authority's text can't be read from a primary page (WHO guideline PDF 403, EMRO 502), drop that claim instead of paraphrasing it.
+- Lint before each render: no mid-line `//` with code after it in `src/stage.html` (one-line python check, see english-11 QA).
