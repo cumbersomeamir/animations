@@ -187,12 +187,13 @@ function applyFrame(f) {
   const cam = ch.camera(t, { head, mwLocal });
   S.cam.up.set(0, 1, 0); S.cam.position.copy(cam.pos); S.cam.lookAt(cam.target); S.cam.fov = cam.fov; S.cam.aspect = S.W / S.H; S.cam.updateProjectionMatrix(); S.cam.updateMatrixWorld(true);
   // steam above the food (real shots)
-  const steamOn = !giantShot && !testShot;
+  const cupSteam = shot.id === 'test_out' && t > C.doorOpen;   // the water is hot after its minute: it steams
+  const steamOn = (!giantShot && !testShot) || cupSteam;
   S.steam.visible = steamOn;
   if (steamOn) {
     for (let i = 0; i < S.steam.count; i++) {
       const ph = (t * 0.45 + i * 0.137) % 1, a = i * 2.4, r = 0.035 * ((i * 0.618) % 1);
-      const base = S.plate.group.localToWorld(V(r * Math.cos(a), 0.04, r * Math.sin(a)));
+      const base = cupSteam ? S.cup.group.localToWorld(V(0.7 * r * Math.cos(a), 0.085, 0.7 * r * Math.sin(a))) : S.plate.group.localToWorld(V(r * Math.cos(a), 0.04, r * Math.sin(a)));
       const pos = base.add(V(0.012 * Math.sin(t * 1.3 + i), 0.02 + ph * 0.16, 0.01 * Math.cos(t + i)));
       const w = 0.012 + 0.02 * ph, op = Math.sin(Math.PI * ph);
       s4.set(w * op, w * 1.3 * op, w); m4.compose(pos, S.cam.quaternion, s4); S.steam.setMatrixAt(i, m4);

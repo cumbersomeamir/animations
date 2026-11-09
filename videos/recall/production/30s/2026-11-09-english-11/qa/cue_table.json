@@ -1,0 +1,96 @@
+{
+  "cues": {
+    "wipe": 0.12,
+    "grab": 2.25,
+    "lift": 2.35,
+    "waves": 3.45,
+    "tug": 3.95,
+    "heat": 6.6,
+    "pass": 9.0,
+    "conduct": 12.3,
+    "soak": 14.5,
+    "iron": 16.6,
+    "potWaves": 17.4,
+    "potGlow": 18.1,
+    "place": 20.1,
+    "doorClose": 22.3,
+    "timer": 22.55,
+    "timerEnd": 23.35,
+    "doorOpen": 23.5,
+    "wipe2": 23.72,
+    "safeTag": 24.0,
+    "warmTag": 24.9,
+    "cta": 26.35,
+    "smile": 27.0,
+    "end": 29.0,
+    "cupIn": 20.1
+  },
+  "shots": [
+    {
+      "id": "hook_thermal",
+      "t0": 0,
+      "t1": 2.0
+    },
+    {
+      "id": "react",
+      "t0": 2.0,
+      "t1": 3.28
+    },
+    {
+      "id": "giant_food",
+      "t0": 3.28,
+      "t1": 8.78
+    },
+    {
+      "id": "giant_plate",
+      "t0": 8.78,
+      "t1": 14.28
+    },
+    {
+      "id": "giant_pottery",
+      "t0": 14.28,
+      "t1": 20.03
+    },
+    {
+      "id": "test_in",
+      "t0": 20.03,
+      "t1": 23.45
+    },
+    {
+      "id": "test_out",
+      "t0": 23.45,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.3
+    },
+    {
+      "id": "l02",
+      "start": 3.35
+    },
+    {
+      "id": "l03",
+      "start": 8.85
+    },
+    {
+      "id": "l04",
+      "start": 14.35
+    },
+    {
+      "id": "l05",
+      "start": 20.1
+    },
+    {
+      "id": "l06",
+      "start": 26.35
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.54,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.3,
+      "end": 2.964,
+      "text": "Why is the food steaming but the plate still cool?",
+      "words": 10,
+      "words_per_s": 3.75,
+      "voice_over_bed_db": 17.9
+    },
+    {
+      "id": "l02",
+      "start": 3.35,
+      "end": 8.476,
+      "text": "Microwaves tug the water molecules inside food back and forth, and that makes heat.",
+      "words": 14,
+      "words_per_s": 2.73,
+      "voice_over_bed_db": 17.6
+    },
+    {
+      "id": "l03",
+      "start": 8.85,
+      "end": 13.973,
+      "text": "Glass and microwave-safe ceramics barely absorb them; the hot food warms the plate.",
+      "words": 13,
+      "words_per_s": 2.54,
+      "voice_over_bed_db": 16.2
+    },
+    {
+      "id": "l04",
+      "start": 14.35,
+      "end": 19.701,
+      "text": "But water soaked into porous clay or an iron-rich glaze can make pottery heat itself.",
+      "words": 15,
+      "words_per_s": 2.8,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l05",
+      "start": 20.1,
+      "end": 25.926,
+      "text": "To test a dish, heat it empty beside a cup of water for one minute. If it stays cool, it's safe.",
+      "words": 21,
+      "words_per_s": 3.6,
+      "voice_over_bed_db": 15.9
+    },
+    {
+      "id": "l06",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.6
+    }
+  ],
+  "narration_words": 82,
+  "speech_s": 27.38,
+  "overall_words_per_s": 2.73,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "microwave done beeps"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.12,
+      "beat": 0.24,
+      "sfx": "thermal scan sweeps down"
+    },
+    {
+      "t": 0.62,
+      "beat": 1.24,
+      "sfx": "food: hot"
+    },
+    {
+      "t": 0.92,
+      "beat": 1.84,
+      "sfx": "plate rim: cool"
+    },
+    {
+      "t": 2.25,
+      "beat": 4.5,
+      "sfx": "bare hands take the plate rim"
+    },
+    {
+      "t": 2.35,
+      "beat": 4.7,
+      "sfx": "plate lifted"
+    },
+    {
+      "t": 2.95,
+      "beat": 5.9,
+      "sfx": "cut to the giant food (ends before l02)"
+    },
+    {
+      "t": 3.45,
+      "beat": 6.9,
+      "sfx": "microwave field on"
+    },
+    {
+      "t": 4.0,
+      "beat": 8.0,
+      "sfx": "water molecules tugged back and forth"
+    },
+    {
+      "t": 6.6,
+      "beat": 13.2,
+      "sfx": "jostling becomes heat"
+    },
+    {
+      "t": 8.45,
+      "beat": 16.9,
+      "sfx": "cut to the plate (ends before l03)"
+    },
+    {
+      "t": 9.3,
+      "beat": 18.6,
+      "sfx": "waves pass through the plate"
+    },
+    {
+      "t": 12.3,
+      "beat": 24.6,
+      "sfx": "heat flows from the food into the plate"
+    },
+    {
+      "t": 13.95,
+      "beat": 27.9,
+      "sfx": "cut to the pottery (ends before l04)"
+    },
+    {
+      "t": 14.6,
+      "beat": 29.2,
+      "sfx": "water soaks into the clay"
+    },
+    {
+      "t": 16.6,
+      "beat": 33.2,
+      "sfx": "iron-rich glaze"
+    },
+    {
+      "t": 18.1,
+      "beat": 36.2,
+      "sfx": "pottery heats itself"
+    },
+    {
+      "t": 19.7,
+      "beat": 39.4,
+      "sfx": "cut to the test (ends before l05)"
+    },
+    {
+      "t": 22.55,
+      "beat": 45.1,
+      "sfx": "door closes"
+    },
+    {
+      "t": 22.55,
+      "beat": 45.1,
+      "sfx": "timer: 1 minute"
+    },
+    {
+      "t": 23.35,
+      "beat": 46.7,
+      "sfx": "end beeps"
+    },
+    {
+      "t": 23.5,
+      "beat": 47.0,
+      "sfx": "door opens"
+    },
+    {
+      "t": 23.72,
+      "beat": 47.44,
+      "sfx": "thermal scan"
+    },
+    {
+      "t": 24.05,
+      "beat": 48.1,
+      "sfx": "dish stays cool: safe"
+    },
+    {
+      "t": 26.65,
+      "beat": 53.3,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.45,
+  "voice_gain": 1.0
+}

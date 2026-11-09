@@ -1,0 +1,429 @@
+{
+  "file": "production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2988084"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "192090"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 11960419,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 2.0,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.836400032043457,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Why is the food steaming, but the plate's still cool? Microwaves tug the water molecules inside food back and forth, and that makes heat. Glass and microwave-safe ceramics barely absorb them. The hot food warms the plate, but water soaked into porous clay or an iron-rich glaze can make pottery heat itself. To test a dish, heat it empty beside a cup of water for one minute. If it stays cool, it's safe. Download Recall for learning any new subject with AI.",
+    "wer": 0.012,
+    "words": [
+      {
+        "w": "Why",
+        "t": 0.0
+      },
+      {
+        "w": "is",
+        "t": 0.44
+      },
+      {
+        "w": "the",
+        "t": 0.64
+      },
+      {
+        "w": "food",
+        "t": 0.74
+      },
+      {
+        "w": "steaming,",
+        "t": 0.9
+      },
+      {
+        "w": "but",
+        "t": 1.68
+      },
+      {
+        "w": "the",
+        "t": 1.8
+      },
+      {
+        "w": "plate's",
+        "t": 1.88
+      },
+      {
+        "w": "still",
+        "t": 2.26
+      },
+      {
+        "w": "cool?",
+        "t": 2.42
+      },
+      {
+        "w": "Microwaves",
+        "t": 3.42
+      },
+      {
+        "w": "tug",
+        "t": 3.98
+      },
+      {
+        "w": "the",
+        "t": 4.26
+      },
+      {
+        "w": "water",
+        "t": 4.52
+      },
+      {
+        "w": "molecules",
+        "t": 4.76
+      },
+      {
+        "w": "inside",
+        "t": 5.26
+      },
+      {
+        "w": "food",
+        "t": 5.66
+      },
+      {
+        "w": "back",
+        "t": 6.2
+      },
+      {
+        "w": "and",
+        "t": 6.52
+      },
+      {
+        "w": "forth,",
+        "t": 6.7
+      },
+      {
+        "w": "and",
+        "t": 7.5
+      },
+      {
+        "w": "that",
+        "t": 7.62
+      },
+      {
+        "w": "makes",
+        "t": 7.78
+      },
+      {
+        "w": "heat.",
+        "t": 7.94
+      },
+      {
+        "w": "Glass",
+        "t": 8.86
+      },
+      {
+        "w": "and",
+        "t": 9.04
+      },
+      {
+        "w": "microwave",
+        "t": 9.34
+      },
+      {
+        "w": "-safe",
+        "t": 9.78
+      },
+      {
+        "w": "ceramics",
+        "t": 10.16
+      },
+      {
+        "w": "barely",
+        "t": 10.76
+      },
+      {
+        "w": "absorb",
+        "t": 11.1
+      },
+      {
+        "w": "them.",
+        "t": 11.4
+      },
+      {
+        "w": "The",
+        "t": 12.4
+      },
+      {
+        "w": "hot",
+        "t": 12.46
+      },
+      {
+        "w": "food",
+        "t": 12.62
+      },
+      {
+        "w": "warms",
+        "t": 12.96
+      },
+      {
+        "w": "the",
+        "t": 13.42
+      },
+      {
+        "w": "plate,",
+        "t": 13.54
+      },
+      {
+        "w": "but",
+        "t": 14.24
+      },
+      {
+        "w": "water",
+        "t": 14.42
+      },
+      {
+        "w": "soaked",
+        "t": 14.74
+      },
+      {
+        "w": "into",
+        "t": 15.02
+      },
+      {
+        "w": "porous",
+        "t": 15.34
+      },
+      {
+        "w": "clay",
+        "t": 15.62
+      },
+      {
+        "w": "or",
+        "t": 16.0
+      },
+      {
+        "w": "an",
+        "t": 16.54
+      },
+      {
+        "w": "iron",
+        "t": 16.64
+      },
+      {
+        "w": "-rich",
+        "t": 16.9
+      },
+      {
+        "w": "glaze",
+        "t": 17.18
+      },
+      {
+        "w": "can",
+        "t": 17.64
+      },
+      {
+        "w": "make",
+        "t": 18.18
+      },
+      {
+        "w": "pottery",
+        "t": 18.34
+      },
+      {
+        "w": "heat",
+        "t": 18.72
+      },
+      {
+        "w": "itself.",
+        "t": 19.0
+      },
+      {
+        "w": "To",
+        "t": 20.08
+      },
+      {
+        "w": "test",
+        "t": 20.18
+      },
+      {
+        "w": "a",
+        "t": 20.36
+      },
+      {
+        "w": "dish,",
+        "t": 20.54
+      },
+      {
+        "w": "heat",
+        "t": 21.02
+      },
+      {
+        "w": "it",
+        "t": 21.22
+      },
+      {
+        "w": "empty",
+        "t": 21.36
+      },
+      {
+        "w": "beside",
+        "t": 21.64
+      },
+      {
+        "w": "a",
+        "t": 22.04
+      },
+      {
+        "w": "cup",
+        "t": 22.22
+      },
+      {
+        "w": "of",
+        "t": 22.38
+      },
+      {
+        "w": "water",
+        "t": 22.5
+      },
+      {
+        "w": "for",
+        "t": 22.74
+      },
+      {
+        "w": "one",
+        "t": 22.96
+      },
+      {
+        "w": "minute.",
+        "t": 23.14
+      },
+      {
+        "w": "If",
+        "t": 23.9
+      },
+      {
+        "w": "it",
+        "t": 24.16
+      },
+      {
+        "w": "stays",
+        "t": 24.24
+      },
+      {
+        "w": "cool,",
+        "t": 24.42
+      },
+      {
+        "w": "it's",
+        "t": 25.24
+      },
+      {
+        "w": "safe.",
+        "t": 25.4
+      },
+      {
+        "w": "Download",
+        "t": 25.6
+      },
+      {
+        "w": "Recall",
+        "t": 26.5
+      },
+      {
+        "w": "for",
+        "t": 27.06
+      },
+      {
+        "w": "learning",
+        "t": 27.64
+      },
+      {
+        "w": "any",
+        "t": 27.82
+      },
+      {
+        "w": "new",
+        "t": 28.1
+      },
+      {
+        "w": "subject",
+        "t": 28.3
+      },
+      {
+        "w": "with",
+        "t": 28.66
+      },
+      {
+        "w": "AI.",
+        "t": 28.98
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 113.3375244140625,
+    "right": 967.846435546875,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 3.116,
+    "min_frame_diff": 0.0422,
+    "longest_static_run_frames": 14,
+    "max_frame_diff": 74.05,
+    "max_diff_at_s": 2.0
+  },
+  "luma_min_mean_max": [
+    48.5,
+    94.9,
+    162.3
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

@@ -89,7 +89,8 @@ export function makeChoreo(tl) {
       case 'giant_food': return { pos: L(G.clone().add(V(-0.75, 2.1, 5.2)), G.clone().add(V(-0.9, 2.0, 4.75))), target: G.clone().add(V(-1.4, 1.1, 0.4)), fov: 44 };
       case 'giant_plate': return { pos: L(G.clone().add(V(0.45, 1.35, 4.1)), G.clone().add(V(0.35, 1.3, 3.75))), target: G.clone().add(V(-0.25, 0.78, 0.45)), fov: 50 };
       case 'giant_pottery': return { pos: L(G.clone().add(V(2.9, 2.4, 6.0)), G.clone().add(V(2.75, 2.3, 5.5))), target: G.clone().add(V(2.0, 1.3, 0.0)), fov: 44 };
-      case 'test_in': case 'test_out': return { pos: L(W.mwLocal(0.12, 0.36, 1.08), W.mwLocal(0.1, 0.34, 0.98)), target: W.mwLocal(0.05, 0.12, 0.0), fov: 40 };
+      case 'test_in': return { pos: L(W.mwLocal(0.06, 0.38, 1.2), W.mwLocal(0.05, 0.36, 1.1)), target: W.mwLocal(0.03, 0.12, 0.0), fov: 42 };
+      case 'test_out': return { pos: L(W.mwLocal(0.02, 0.36, 1.05), W.mwLocal(-0.01, 0.3, 0.8)), target: W.mwLocal(-0.02, 0.08, 0.0), fov: 42 };
       case 'cafe_wide': return { pos: L(V(0.0, 1.72, 2.4), V(0.02, 1.82, 2.8)), target: L(V(0.05, 1.34, -0.35), V(0.05, 1.38, -0.42)), fov: 46 };
       default: return { pos: V(0, 1.5, 1.5), target: V(0, 1.2, 0), fov: 35 };
     }
