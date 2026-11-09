@@ -4,6 +4,61 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-09 (english-10): English episode 10, no phone number, no bill?
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync), assigned account
+  info@tensorblue.com.
+- Earlier accepted jobs were finished in order first: english-08 (187508a) and english-09 (2244205) were delivered
+  and attached. The repeated english-09 request was not duplicated. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-09-english-10/courtlens-30s-english10-01.mp4`.
+- Episode record: `context/episodes/2026-11-09-english10-phone-number-bill.md`.
+
+### Verified facts
+- CPA 2019 (DoCA PDF):
+  - s.2(47)(vii): "not issuing bill or cash memo or receipt for the goods sold … in such manner as may be
+    prescribed" is an unfair trade practice
+  - (ix): disclosing personal information given in confidence
+- GST tax invoice particulars (CBIC Invoice Rules page): no phone field; recipient name and address only for
+  unregistered recipients at ₹50,000 or more.
+- NCH 1915 (Lok Sabha USQ 4041, 12.08.2026).
+- Details: `production/30s/2026-11-09-english-10/notes/LEGAL-SOURCES.md`.
+
+### Checkpoint (secondary only, not narrated)
+- The DoCA advisory of May 2023 on mobile numbers is reported in the news, but its text was not found on PIB or DoCA.
+  It is kept as context only. The IT Act "offence" claims in some reports were not used.
+- taxinformation.cbic.gov.in failed TLS verification (not bypassed); the cbic-gst.gov.in invoice-rules page was used.
+
+### Creative decisions
+- Performer: a POS terminal; the receipt prints, then stops half-out with a red ✕, and the screen shows "Mobile no.
+  required" (hook by 1.35 s).
+- Other changes:
+  - "CASHIER · 'Number first'" sign
+  - tag flips "No number, no bill?" → "Bill anyway"
+  - rule card with two chips ("bill is due", "invoice: no phone field")
+  - split: bill vs loyalty/e-bill, with a rewards phone and a "Skip is fine" sticker
+  - envelope: printed bill with "Mobile —" plus the NCH 1915 slip, written "Keep the bill"
+- "GST" was heard as "GSD", so the TTS input uses "G S T" (as in episode 06).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-09-english-10/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st10 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build10 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english10-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english10-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The POS screen's "required" sat on the screen border; it is now one line, "Mobile no. required", above the input.
+- The NCH slip was visible for only about 0.3 s before the envelope closed. The flap, label and seal moved to
+  24.85 / 25.05 / 25.30 s, after "call 1915".
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-08 (english-09): English episode 09, can a hotel keep your original Aadhaar?
 
 ### Status

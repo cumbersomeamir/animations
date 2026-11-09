@@ -1,0 +1,166 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.22
+  },
+  {
+   "id": "l2",
+   "start": 3.15
+  },
+  {
+   "id": "l3",
+   "start": 4.56
+  },
+  {
+   "id": "l4",
+   "start": 10.0
+  },
+  {
+   "id": "l5",
+   "start": 14.26
+  },
+  {
+   "id": "l6",
+   "start": 19.67
+  },
+  {
+   "id": "l7",
+   "start": 26.15
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.95,
+   "text": "The cashier says: no phone number, no bill.",
+   "hl": [
+    "phone",
+    "number,"
+   ]
+  },
+  {
+   "start": 2.95,
+   "end": 4.4,
+   "text": "Can they insist?",
+   "hl": [
+    "insist?"
+   ]
+  },
+  {
+   "start": 4.4,
+   "end": 7.8,
+   "text": "Consumer law lists not issuing a bill for goods sold",
+   "hl": [
+    "not",
+    "issuing",
+    "a",
+    "bill"
+   ]
+  },
+  {
+   "start": 7.8,
+   "end": 9.85,
+   "text": "as an unfair trade practice.",
+   "hl": [
+    "unfair",
+    "trade",
+    "practice."
+   ]
+  },
+  {
+   "start": 9.85,
+   "end": 13.95,
+   "text": "And GST invoice rules don’t ask for your phone number at all.",
+   "hl": [
+    "don’t",
+    "ask"
+   ]
+  },
+  {
+   "start": 13.95,
+   "end": 16.95,
+   "text": "Loyalty points or an e-bill are extras;",
+   "hl": [
+    "extras;"
+   ]
+  },
+  {
+   "start": 16.95,
+   "end": 19.5,
+   "text": "sharing your number for those is your choice.",
+   "hl": [
+    "your",
+    "choice."
+   ]
+  },
+  {
+   "start": 19.5,
+   "end": 22.85,
+   "text": "Say politely: a printed bill without my number, please.",
+   "hl": [
+    "printed",
+    "bill"
+   ]
+  },
+  {
+   "start": 22.85,
+   "end": 26.0,
+   "text": "Still refused? Call 1915.",
+   "hl": [
+    "1915."
+   ]
+  },
+  {
+   "start": 26.0,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "cardIn": -0.18,
+  "itemDrop": 0.22,
+  "itemLand": 0.5,
+  "sneakStart": 0.7,
+  "sneak": 1.35,
+  "quoteMark": 1.66,
+  "toS2": 2.75,
+  "bannerDrop": 3.15,
+  "bannerLand": 3.52,
+  "refuseLine": 3.82,
+  "ruleIn": 4.5,
+  "ruleBump": 4.95,
+  "rule1": 6.0,
+  "rule2": 8.2,
+  "rule3": 8.45,
+  "chip1": 8.6,
+  "tagFlip": 8.9,
+  "chip2": 12.94,
+  "bannerTug": 13.6,
+  "toS4": 13.95,
+  "rightItem": 14.4,
+  "bubble": 16.3,
+  "sticker": 17.3,
+  "rightResult": 18.6,
+  "toS5": 19.4,
+  "bill": 20.2,
+  "tick1": 20.95,
+  "tick2": 21.75,
+  "photo": 23.2,
+  "flap": 24.85,
+  "write": 25.05,
+  "tick3": 24.5,
+  "seal": 25.3,
+  "toS6": 25.85,
+  "ctaIn": 26.2,
+  "ctaText": 26.35
+ }
+}
