@@ -1,0 +1,44 @@
+[
+ {
+  "id": "V1",
+  "say": "Your own playlists, on an airplane seatback screen?",
+  "duration": 2.497,
+  "words": 8
+ },
+ {
+  "id": "V2",
+  "say": "New on November 5: your Spotify login on United seatbacks.",
+  "duration": 4.215,
+  "words": 10
+ },
+ {
+  "id": "V3",
+  "say": "Join the plane's Wi-Fi, no pass needed, then scan the QR code.",
+  "duration": 3.974,
+  "words": 12
+ },
+ {
+  "id": "V4",
+  "say": "Your playlists and podcasts appear, right where you left off.",
+  "duration": 3.221,
+  "words": 10
+ },
+ {
+  "id": "V5",
+  "say": "Your password never touches the screen; it logs out after the flight.",
+  "duration": 3.865,
+  "words": 12
+ },
+ {
+  "id": "V6",
+  "say": "The catch: only United planes with Starlink for now, but more are coming.",
+  "duration": 4.408,
+  "words": 13
+ },
+ {
+  "id": "V7",
+  "say": "Follow Media Diet for technology explained.",
+  "duration": 2.633,
+  "words": 6
+ }
+]

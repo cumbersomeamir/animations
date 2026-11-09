@@ -1,0 +1,17 @@
+{
+  "name": "media-diet-30s-english09-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 30 s English episode (english-09): log in to your own Spotify on United seatback screens by scanning a QR code (Spotify, 5 Nov 2026)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7"
+  }
+}

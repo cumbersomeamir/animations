@@ -153,3 +153,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
   −2.0 dBTP; captions y 378–488, x 123–958, 0 violations; caption↔speech 10/10; Whisper-medium (en) word recall 1.0 full / 1.0 per line.
 - Previous MP4s preserved. No automation created. Unresolved: audio not listened to by a human yet (no listening in this environment).
+
+## Checkpoint 2026-11-08 — english-09 (in progress)
+- Start state: english-08 job finished and delivered first (e6458c9 = remote), then clean, no jobs. Topic (official, Spotify Newsroom,
+  5 Nov 2026): personal Spotify logins on United seatback screens via QR code; Wi-Fi without a pass; login never on the seatback; auto
+  logout after the flight; United Starlink aircraft now, more through 2027. New topic for this app (nothing newer suitable on Nov 6–8).
+- English narration + captions (approved English Kokoro blend, 0.98, en-us); "United's" reworded after the Whisper check. 71 words, 24.8 s.
+- Committed: sources, narration, cues, film.js, audio/build/QA scripts, SOURCES.md, caption, licences, README, context/22, log row.
+- Running: `build/render_chunks.sh 0 60 … 420` + `build/render_chunks.sh 480 … 840` (resumable); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.

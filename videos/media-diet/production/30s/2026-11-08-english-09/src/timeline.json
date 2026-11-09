@@ -1,0 +1,191 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Your own playlists, on an airplane seatback screen?",
+   "cues": [
+    [
+     "Your own playlists, on an",
+     "airplane seatback screen?"
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.2,
+   "say": "New on November 5: your Spotify login on United seatbacks.",
+   "cues": [
+    [
+     "New on November 5:",
+     "your Spotify login"
+    ],
+    [
+     "on United seatbacks."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 7.97,
+   "say": "Join the plane's Wi-Fi, no pass needed, then scan the QR code.",
+   "cues": [
+    [
+     "Join the plane's Wi-Fi,",
+     "no pass needed,"
+    ],
+    [
+     "then scan the QR code."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 12.49,
+   "say": "Your playlists and podcasts appear, right where you left off.",
+   "cues": [
+    [
+     "Your playlists and podcasts",
+     "appear, right where you left off."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 16.26,
+   "say": "Your password never touches the screen; it logs out after the flight.",
+   "cues": [
+    [
+     "Your password never",
+     "touches the screen;"
+    ],
+    [
+     "it logs out after the flight."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 20.67,
+   "say": "The catch: only United planes with Starlink for now, but more are coming.",
+   "cues": [
+    [
+     "The catch: only United planes",
+     "with Starlink for now,"
+    ],
+    [
+     "but more are coming."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 26.0,
+   "say": "Follow Media Diet for technology explained.",
+   "cues": [
+    [
+     "Follow Media Diet",
+     "for technology explained."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.1,
+   "what": "hook: airplane seat cutaway \u2014 the phone on the tray scans the seatback's QR code; 'Connected'; the seatback fills with your own library"
+  },
+  {
+   "id": "S2",
+   "in": 3.1,
+   "out": 5.85,
+   "what": "date + source: calendar flips to NOV 5; SOURCE placard 'Spotify Newsroom \u00b7 Nov 5, 2026'"
+  },
+  {
+   "id": "S3",
+   "in": 5.85,
+   "out": 7.87,
+   "what": "seatback entertainment menu: the Spotify tile lights up"
+  },
+  {
+   "id": "S4",
+   "in": 7.87,
+   "out": 12.39,
+   "what": "demo: phone joins the 'United' Wi-Fi ('No Wi-Fi pass needed'), camera pulls back, the phone scans the seatback QR code, 'Connected'"
+  },
+  {
+   "id": "S5",
+   "in": 12.39,
+   "out": 16.16,
+   "what": "payoff: Your Library on the seatback \u2014 playlists, 'Continue listening: Podcast \u00b7 Ep. 12' resumes; phone becomes a remote"
+  },
+  {
+   "id": "S6",
+   "in": 16.16,
+   "out": 20.57,
+   "what": "privacy: password stays on the phone; seatback shows 'No password typed here'; flight map \u2192 landed \u2192 'Logged out'"
+  },
+  {
+   "id": "S7",
+   "in": 20.57,
+   "out": 25.9,
+   "what": "catch: a fleet of paper planes \u2014 Starlink planes light up first, more follow, two still waiting; banner 'more aircraft through 2027'"
+  },
+  {
+   "id": "S8",
+   "in": 25.9,
+   "out": 30.0,
+   "what": "CTA: hero pull-back over the cabin set, Media Diet sign"
+  }
+ ],
+ "events": {
+  "hookScan": 0.2,
+  "hookOk": 0.75,
+  "calFlip": 3.4,
+  "source": 4.95,
+  "menuHi": 6.3,
+  "wifiTap": 8.85,
+  "noPass": 9.45,
+  "scan": 10.95,
+  "scanOk": 11.6,
+  "resume": 14.25,
+  "stay": 16.6,
+  "nopw": 17.3,
+  "mapAt": 18.55,
+  "land": 19.6,
+  "logout": 19.85,
+  "fleet": 20.75,
+  "lit": [
+   22.93,
+   24.55,
+   23.05,
+   -1,
+   24.4,
+   -1
+  ],
+  "more": 24.3,
+  "sign": 26.1
+ }
+}
