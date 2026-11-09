@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080,height=1920">
+<title>Werbens 30s English-11 01</title>
+<style>
+  /* English captions/labels: Inter / Inter Display (OFL); wordmark: Space Grotesk 700 (as on app.werbens.com) */
+  @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf) format("opentype"); }
+  @font-face { font-family: "IDBK"; src: url(/fonts/InterDisplay-Black.otf) format("opentype"); }
+  @font-face { font-family: "IB"; src: url(/fonts/Inter-Bold.otf) format("opentype"); }
+  @font-face { font-family: "ISB"; src: url(/fonts/Inter-SemiBold.otf) format("opentype"); }
+  @font-face { font-family: "SG"; font-weight: 700; src: url(/fonts/SpaceGrotesk-700-latin.woff2) format("woff2"); }
+  /* brand tokens measured on app.werbens.com (context/17) */
+  :root { --teal: #316879; --mint: #7FE7DC; --teal2: #5CE0D2; --ink: #0F172A; --mintw: #F0FDFA; --navy: #0B1120; --slate: #64748B; --line: rgba(49,104,121,0.16); }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: var(--mintw); }
+  canvas#gl { position: absolute; left: 0; top: 0; display: block; }
+  #hud { position: absolute; inset: 0; pointer-events: none; }
+  /* accepted caption treatment (pill, word groups, brighten as spoken) — English: Inter Display ExtraBold 54/62 */
+  #cap { position: absolute; left: 90px; right: 90px; top: 340px; height: 180px; display: flex; align-items: center; justify-content: center; }
+  #cap .pill { padding: 14px 34px 16px; border-radius: 30px; background: rgba(15,23,42,0.92); box-shadow: 0 14px 36px rgba(15,23,42,0.2); text-align: center; max-width: 900px; }
+  #cap .ln { display: block; font: 54px/62px "IDXB"; letter-spacing: -0.8px; color: #FFFFFF; white-space: nowrap; }
+  #cap .w { display: inline-block; margin: 0 0.11em; } #cap .w.hi { color: var(--mint); }
+  .note { position: absolute; padding: 6px 24px 8px; border-radius: 18px; background: var(--teal); color: #fff; font: 40px/54px "IB"; white-space: nowrap; box-shadow: 0 10px 24px rgba(49,104,121,0.28); transform-origin: 50% 50%; }
+  .note.ink { background: var(--ink); color: var(--mint); box-shadow: 0 10px 24px rgba(15,23,42,0.25); }
+  .note.mint { background: var(--mint); color: var(--ink); box-shadow: 0 10px 24px rgba(92,224,210,0.35); }
+  .note.light { background: #FFFFFF; color: var(--ink); border: 2px solid var(--line); box-shadow: 0 8px 20px rgba(15,23,42,0.08); }
+  #nQ { font: 64px/72px "IDXB"; padding: 0 24px 6px; }
+  #cite1, #cite2, #cite3 { font: 36px/50px "IB"; }
+  svg#ov { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+  /* official lockup from app.werbens.com: wordmark Space Grotesk 700, −0.04em, 135° #7FE7DC→#316879 gradient text */
+  #lockup { position: absolute; left: 540px; top: 1270px; white-space: nowrap; font: 700 104px/118px "SG"; letter-spacing: -0.04em;
+            background: linear-gradient(135deg, #7FE7DC, #316879); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #tagline { position: absolute; left: 540px; top: 1400px; font: 34px/46px "ISB"; color: var(--slate); white-space: nowrap; }
+</style>
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
+</head>
+<body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<div id="hud">
+  <svg id="ov"></svg>
+  <div class="note light" id="nQ">?</div>
+  <div class="note ink" id="cite1">Iyengar &amp; Lepper, 2000</div>
+  <div class="note ink" id="cite2">Scheibehenne et al., 2010 · 50 experiments</div>
+  <div class="note ink" id="cite3">Chernev et al., 2015</div>
+  <div id="lockup">Werbens</div>
+  <div id="tagline">Decoding how brands sell</div>
+  <div id="cap"></div>
+</div>
+<script type="module" src="/src/scene.js"></script>
+</body>
+</html>
