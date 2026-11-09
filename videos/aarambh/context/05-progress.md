@@ -65,3 +65,11 @@
 - `videos/aarambh/production/30s/2026-11-08-english-09/aarambh-30s-english09-01.mp4` (sha256 `eaf06c952e37f760a356850b3b07af044db2d6bcb5e3e57599fc993cabfb06fc`): Percy Spencer, radar magnetrons and microwave cooking (U.S. 2,495,429). English narration and captions with the Meshline voice; real patent drawings (the magnetron, 2,408,235; the cooking system, 2,495,429, under the magnifier); the patent's egg measurement (2 vs 36 kW·s); the candy-bar story attributed and its retellings contrasted with the dated patent; the CC0 Smithsonian Tappan RL-1 photo; lesson "test it and measure it"; Aarambh-only CTA.
 - **Blocker recorded:** no openly licensed portrait of Spencer was found, so a typeset name plate is used.
 - **Read first next time:** 11 (incl. the English-06/07/08/09 notes) and 22.
+
+## 2026-11-09: english-10 #01 (English)
+- `videos/aarambh/production/30s/2026-11-09-english-10/aarambh-30s-english10-01.mp4` (sha256 `f001542cafcba4b5244ab060dac91fc0d369483581f4097ca1021754e7ca8eaf`): Josephine Cochran and her 1886 hand-operated dish-washing machine (U.S. 355,139).
+  - English narration and captions with the Meshline voice.
+  - A public-domain portrait; the real patent sheet and rack figures under the magnifier.
+  - A lever/jets/turning-crate demo with a hot rinse; lesson "notice everyday friction"; Aarambh-only CTA.
+- **Subject change recorded:** Mary Anderson was already episode 08, so it was not repeated.
+- **Read first next time:** 11 (incl. the English-06 to 10 notes) and 23.

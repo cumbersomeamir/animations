@@ -1,0 +1,12 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.30, "text": "Hand-washing was chipping Josephine Cochran's heirloom china.", "tts": "Hand-washing was chipping Josephine Cochran's heirloom china."},
+    {"id": "S2", "start": 3.84, "text": "Her 1886 patent cleaned dishes with water pressure, instead of scrubbing.", "tts": "Her eighteen eighty-six patent cleaned dishes with water pressure, instead of scrubbing."},
+    {"id": "S3", "start": 9.05, "text": "Wire racks held plates, glasses and knives in place inside a crate.", "tts": "Wire racks held plates, glasses and knives in place inside a crate."},
+    {"id": "S4", "start": 13.55, "text": "A hand lever pumped soapy jets while the crate slowly turned; then hot water rinsed, and the dishes dried from their own heat.", "tts": "A hand lever pumped soapy jets while the crate slowly turned; then hot water rinsed, and the dishes dried from their own heat."},
+    {"id": "S5", "start": 21.70, "text": "Lesson: notice everyday friction; it can inspire an invention.", "tts": "Lesson: notice everyday friction; it can inspire an invention."},
+    {"id": "S6", "start": 26.60, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

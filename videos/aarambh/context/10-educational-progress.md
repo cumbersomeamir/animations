@@ -174,3 +174,12 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** the Meshline blend.
 - **Verification:** both ASR models match the script except the app name and a "change"/"changed" liaison; there was no human listening. After the first full render, two concrete fixes were made (the P5 credit overflow and NMAH wording, and the P4 column citation); no defects on the final sheets.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-09: english-10 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-09-english-10/aarambh-30s-english10-01.mp4`, sha256 `f001542cafcba4b5244ab060dac91fc0d369483581f4097ca1021754e7ca8eaf`. Josephine Cochran's 1886 dish-washing machine (English). 30.000 s, 900 frames, −15.1 LUFS, −1.5 dBTP, full decode OK.
+- **Subject change:** the suggested Mary Anderson topic was already episode 08 (english-06), so a fresh subject was chosen with the same everyday-friction lesson.
+- **Verified facts:** the full text and drawings of U.S. Patent 355,139 (USPTO PDF): hand lever 15/handle 17, force-pumps with jet-holes, slowly rotated crate, soap-suds then hot rinse, dishes "dry from their own heat", and the plate/glass/knife racks. Also the USPTO "I'll do it myself" story: chipped heirloom china, water pressure rather than scrubbers, and the 1893 award.
+- **Images:** a public-domain portrait (Commons; the same photo is on the USPTO story page) and four patent crops.
+- **Voice:** the Meshline blend.
+- **Verification:** both ASR models match the script except the app name; there was no human listening. Pre-render layout fixes, plus one post-render label nudge (video only, audio md5 unchanged); no defects on the final sheets.
+- No automation; no other episode started; earlier renders untouched.

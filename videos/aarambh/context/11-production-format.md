@@ -253,3 +253,12 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Footers and credits:** keep print credits shorter than the print (Mono 18 px ≈ 10.8 px per character). Cite the exact patent columns that hold the quoted numbers.
 
 - 11 (2026-11-08, english-09): Percy Spencer, radar magnetrons and microwave cooking (U.S. Patent 2,495,429). Record: `22-production-30s-english09-01.md`
+
+## English-10 notes, 2026-11-09
+- **Repeated suggestions:** briefs can re-suggest covered subjects (Lamarr & Antheil twice; Mary Anderson, episode 08). Grep the "- NN (" log lines first. When it is covered, keep the brief's lesson ("noticing an everyday friction can inspire an invention") and pick a fresh inventor whose patent shows the fix, e.g. Josephine Cochran's dish-washing machine.
+- **USPTO "Journeys of Innovation" stories** (`uspto.gov/learning-and-resources/journeys-innovation/historical-stories/…`) are an official secondary source that opens from this container. They are good for the human problem (here chipped heirloom china) and for identifying portraits. Cross-check every mechanism claim in the patent text itself.
+- **Reading a scanned patent without OCR:** render the text pages with `pdftoppm -r 150`, split each column into three strips about 1000 px wide, and read the strips. This finds the operating sentences ("During the continuous operation of the lever…") quickly.
+- **Commons originals may 429** while standard-width thumbnails (500/250 px) download; take the licence from the file page's raw wikitext (`action=raw`).
+- **Demonstration pages:** one explanation pill in a fixed slot, changing text on each spoken step, keeps a busy mechanism readable. Keep diagram labels clear of moving parts (check the lever's full swing).
+
+- 12 (2026-11-09, english-10): Josephine Cochran's 1886 hand-operated dish-washing machine (U.S. Patent 355,139); replaces a second Mary Anderson episode. Record: `23-production-30s-english10-01.md`

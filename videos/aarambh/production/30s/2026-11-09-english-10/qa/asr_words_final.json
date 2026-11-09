@@ -1,0 +1,351 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Hand",
+   "start": 0.0,
+   "end": 0.66
+  },
+  {
+   "w": "washing",
+   "start": 0.66,
+   "end": 0.94
+  },
+  {
+   "w": "was",
+   "start": 0.94,
+   "end": 1.26
+  },
+  {
+   "w": "chipping",
+   "start": 1.26,
+   "end": 1.58
+  },
+  {
+   "w": "Josephine",
+   "start": 1.58,
+   "end": 2.16
+  },
+  {
+   "w": "Cochran's",
+   "start": 2.16,
+   "end": 2.76
+  },
+  {
+   "w": "heirloom",
+   "start": 2.76,
+   "end": 3.1
+  },
+  {
+   "w": "china.",
+   "start": 3.1,
+   "end": 3.54
+  },
+  {
+   "w": "Her",
+   "start": 3.96,
+   "end": 4.18
+  },
+  {
+   "w": "1886",
+   "start": 4.18,
+   "end": 4.9
+  },
+  {
+   "w": "patent",
+   "start": 4.9,
+   "end": 5.56
+  },
+  {
+   "w": "cleaned",
+   "start": 5.56,
+   "end": 5.98
+  },
+  {
+   "w": "dishes",
+   "start": 5.98,
+   "end": 6.32
+  },
+  {
+   "w": "with",
+   "start": 6.32,
+   "end": 6.64
+  },
+  {
+   "w": "water",
+   "start": 6.64,
+   "end": 6.9
+  },
+  {
+   "w": "pressure,",
+   "start": 6.9,
+   "end": 7.32
+  },
+  {
+   "w": "instead",
+   "start": 7.78,
+   "end": 7.94
+  },
+  {
+   "w": "of",
+   "start": 7.94,
+   "end": 8.16
+  },
+  {
+   "w": "scrubbing.",
+   "start": 8.16,
+   "end": 8.66
+  },
+  {
+   "w": "Wire",
+   "start": 9.22,
+   "end": 9.48
+  },
+  {
+   "w": "racks",
+   "start": 9.48,
+   "end": 9.78
+  },
+  {
+   "w": "held",
+   "start": 9.78,
+   "end": 10.08
+  },
+  {
+   "w": "plates,",
+   "start": 10.08,
+   "end": 10.48
+  },
+  {
+   "w": "glasses",
+   "start": 11.12,
+   "end": 11.24
+  },
+  {
+   "w": "and",
+   "start": 11.24,
+   "end": 11.58
+  },
+  {
+   "w": "knives",
+   "start": 11.58,
+   "end": 11.86
+  },
+  {
+   "w": "in",
+   "start": 11.86,
+   "end": 12.14
+  },
+  {
+   "w": "place",
+   "start": 12.14,
+   "end": 12.4
+  },
+  {
+   "w": "inside",
+   "start": 12.4,
+   "end": 12.74
+  },
+  {
+   "w": "a",
+   "start": 12.74,
+   "end": 12.96
+  },
+  {
+   "w": "crate.",
+   "start": 12.96,
+   "end": 13.22
+  },
+  {
+   "w": "A",
+   "start": 13.66,
+   "end": 13.84
+  },
+  {
+   "w": "hand",
+   "start": 13.84,
+   "end": 14.06
+  },
+  {
+   "w": "lever",
+   "start": 14.06,
+   "end": 14.36
+  },
+  {
+   "w": "pumped",
+   "start": 14.36,
+   "end": 14.76
+  },
+  {
+   "w": "soapy",
+   "start": 14.76,
+   "end": 15.16
+  },
+  {
+   "w": "jets",
+   "start": 15.16,
+   "end": 15.48
+  },
+  {
+   "w": "while",
+   "start": 15.48,
+   "end": 15.68
+  },
+  {
+   "w": "the",
+   "start": 15.68,
+   "end": 15.86
+  },
+  {
+   "w": "crate",
+   "start": 15.86,
+   "end": 16.1
+  },
+  {
+   "w": "slowly",
+   "start": 16.1,
+   "end": 16.6
+  },
+  {
+   "w": "turned.",
+   "start": 16.6,
+   "end": 17.02
+  },
+  {
+   "w": "Then",
+   "start": 17.5,
+   "end": 17.8
+  },
+  {
+   "w": "hot",
+   "start": 17.8,
+   "end": 18.04
+  },
+  {
+   "w": "water",
+   "start": 18.04,
+   "end": 18.4
+  },
+  {
+   "w": "rinsed,",
+   "start": 18.4,
+   "end": 19.04
+  },
+  {
+   "w": "and",
+   "start": 19.1,
+   "end": 19.22
+  },
+  {
+   "w": "the",
+   "start": 19.22,
+   "end": 19.4
+  },
+  {
+   "w": "dishes",
+   "start": 19.4,
+   "end": 19.62
+  },
+  {
+   "w": "dried",
+   "start": 19.62,
+   "end": 20.12
+  },
+  {
+   "w": "from",
+   "start": 20.12,
+   "end": 20.34
+  },
+  {
+   "w": "their",
+   "start": 20.34,
+   "end": 20.56
+  },
+  {
+   "w": "own",
+   "start": 20.56,
+   "end": 20.8
+  },
+  {
+   "w": "heat.",
+   "start": 20.8,
+   "end": 21.28
+  },
+  {
+   "w": "Lesson,",
+   "start": 21.9,
+   "end": 22.38
+  },
+  {
+   "w": "notice",
+   "start": 22.74,
+   "end": 22.74
+  },
+  {
+   "w": "everyday",
+   "start": 22.74,
+   "end": 23.2
+  },
+  {
+   "w": "friction.",
+   "start": 23.2,
+   "end": 23.66
+  },
+  {
+   "w": "It",
+   "start": 24.12,
+   "end": 24.16
+  },
+  {
+   "w": "can",
+   "start": 24.16,
+   "end": 24.42
+  },
+  {
+   "w": "inspire",
+   "start": 24.42,
+   "end": 24.74
+  },
+  {
+   "w": "an",
+   "start": 24.74,
+   "end": 24.98
+  },
+  {
+   "w": "invention.",
+   "start": 24.98,
+   "end": 25.5
+  },
+  {
+   "w": "Download",
+   "start": 25.5,
+   "end": 27.04
+  },
+  {
+   "w": "RM",
+   "start": 27.04,
+   "end": 27.56
+  },
+  {
+   "w": "to",
+   "start": 27.56,
+   "end": 28.04
+  },
+  {
+   "w": "support",
+   "start": 28.04,
+   "end": 28.42
+  },
+  {
+   "w": "livelihood",
+   "start": 28.42,
+   "end": 28.82
+  },
+  {
+   "w": "tools.",
+   "start": 28.82,
+   "end": 29.3
+  }
+ ],
+ "text": "Hand washing was chipping Josephine Cochran's heirloom china. Her 1886 patent cleaned dishes with water pressure, instead of scrubbing. Wire racks held plates, glasses and knives in place inside a crate. A hand lever pumped soapy jets while the crate slowly turned. Then hot water rinsed, and the dishes dried from their own heat. Lesson, notice everyday friction. It can inspire an invention. Download RM to support livelihood tools."
+}

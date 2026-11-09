@@ -1,0 +1,32 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Hand | 0.30 (Hand, placed) | 0.00 (Hand) | brush scrubs the heirloom plate from frame 0; crack starts growing (0.30); lights flicker on 0-0.4 | 0.00
+chipping | 1.26 (chipping) | 1.26 (chipping) | chip breaks off the rim and flies (crack + tink) | 1.21
+chipping | 1.26 (chipping) | 1.26 (chipping) | CHIPPED stamp | 1.31
+Josephine | 1.58 (Josephine) | 1.58 (Josephine) | name plate: Josephine Cochran, inventor, Shelbyville, Illinois, 1839–1913 | 1.33
+heirloom | 2.76 (heirloom) | 2.76 (heirloom) | pill: heirloom china | 2.61
+Her | 3.98 (Her) | 3.96 (Her) | page turn -> THE 1886 PATENT (3.49-3.84); gold underline under "J. G. COCHRAN." | 3.83
+1886 | 4.18 (1886) | 4.18 (1886) | gold underline under "Patented Dec. 28, 1886." | 4.08
+patent | 4.92 (patent) | 4.90 (patent) | stamp: PATENT 355,139 · DEC. 28, 1886 | 4.82
+water | 6.64 (water) | 6.64 (water) | HERS: water pressure card lights; jets spray the plate | 6.39
+pressure | 6.88 (pressure,) | 6.90 (pressure,) | check mark on water pressure | 6.78
+instead | 7.80 (instead) | 7.78 (instead) | EARLIER MACHINES: scrubbers card dims; red X drawn through "scrubbing" (7.75-8.84) | 7.75
+Wire | 9.20 (Wire) | 9.22 (Wire) | slide swap -> THE RACKS (8.70-9.05) | 8.70
+racks | 9.48 (racks) | 9.48 (racks) | loupe lands on Fig. XI plate-rack wires (from 9.28) | 9.63
+plates | 10.08 (plates,) | 10.08 (plates,) | pill: wires hold plates | 9.88
+glasses | 11.12 (glasses) | 11.12 (glasses) | Fig. XIII drops in; pill: springs grip glasses; loupe glides to the springs (10.97-11.42) | 10.82
+knives | 11.58 (knives) | 11.58 (knives) | Fig. IX drops in; pill: clamp bars hold knives | 11.28
+crate | 12.96 (crate.) | 12.96 (crate.) | pill: racks go in the crate | 12.71
+A | 13.68 (A) | 13.66 (A) | HARD CUT -> HOW IT WORKED demo (light flash) | 13.49
+hand | 13.84 (hand) | 13.84 (hand) | hand lever starts pumping; pill: a hand lever works a pump | 13.69
+pumped | 14.36 (pumped) | 14.36 (pumped) | first lever down-stroke (strokes every 0.77 s to 19.32) | 13.93
+soapy | 14.74 (soapy) | 14.76 (soapy) | pill: soap-suds jets from below (jets run from 13.74) | 14.59
+crate | 15.86 (crate) | 15.86 (crate) | rotation arrow + pill: the crate turns slowly | 15.71
+Then | 17.52 (Then) | 17.50 (Then) | selector flips to the hot-water pump; jets turn clear; pill: switch: clear hot-water rinse | 17.47
+dried | 19.62 (dried) | 19.62 (dried) | steam rises (19.32); pill: dishes dry from their own heat; pumping stops 19.62 | 19.47
+Lesson | 21.90 (Lesson,) | 21.90 (Lesson,) | page turn -> LESSON (21.35-21.70) | 21.35
+everyday | 22.74 (everyday) | 22.74 (notice) | card 1 FRICTION: chipped heirloom china | 22.54
+inspire | 24.42 (inspire) | 24.42 (inspire) | card 2 FIX: fitted racks + water jets | 24.22
+invention | 24.98 (invention.) | 24.98 (invention.) | card 3 INVENTION: U.S. Patent 355,139 (1886) + chime 24.98; prompt pill 25.03 | 24.78
+Download | 26.60 (Download, placed) | 27.04 (RM) | CTA card slides in (26.10-26.60) | 26.10
+summary: 29 events; event minus word start ranges -0.55 to +0.15 s (negative = event leads the word).
+note: placed sentence starts S1 0.3 S2 3.84 S3 9.05 S4 13.55 S5 21.7 S6 26.6 (audio/script.json); where ASR stamps a sentence-initial word before its placed start ("Hand" 0.00, "Download" 25.58) the placed start is used; caption groups start at sentence starts or mid-gap between ASR words; ASR hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; the caption and card show Aarambh).
