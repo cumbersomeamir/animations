@@ -1,0 +1,361 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Gideon's",
+   "start": 0.0,
+   "end": 0.88
+  },
+  {
+   "w": "son",
+   "start": 0.88,
+   "end": 1.04
+  },
+  {
+   "w": "back",
+   "start": 1.04,
+   "end": 1.32
+  },
+  {
+   "w": "made",
+   "start": 1.32,
+   "end": 1.66
+  },
+  {
+   "w": "Whitcomb",
+   "start": 1.66,
+   "end": 2.04
+  },
+  {
+   "w": "Judson's",
+   "start": 2.04,
+   "end": 2.82
+  },
+  {
+   "w": "earlier",
+   "start": 2.82,
+   "end": 3.14
+  },
+  {
+   "w": "fastener",
+   "start": 3.14,
+   "end": 3.66
+  },
+  {
+   "w": "reliable.",
+   "start": 3.66,
+   "end": 4.14
+  },
+  {
+   "w": "His",
+   "start": 4.7,
+   "end": 4.82
+  },
+  {
+   "w": "1917",
+   "start": 4.82,
+   "end": 5.68
+  },
+  {
+   "w": "patent",
+   "start": 5.68,
+   "end": 6.42
+  },
+  {
+   "w": "uses",
+   "start": 6.42,
+   "end": 6.78
+  },
+  {
+   "w": "identical,",
+   "start": 6.78,
+   "end": 7.48
+  },
+  {
+   "w": "cup",
+   "start": 7.92,
+   "end": 8.04
+  },
+  {
+   "w": "-shaped",
+   "start": 8.04,
+   "end": 8.34
+  },
+  {
+   "w": "teeth",
+   "start": 8.34,
+   "end": 8.8
+  },
+  {
+   "w": "that",
+   "start": 8.8,
+   "end": 9.16
+  },
+  {
+   "w": "all",
+   "start": 9.16,
+   "end": 9.4
+  },
+  {
+   "w": "turn",
+   "start": 9.4,
+   "end": 9.52
+  },
+  {
+   "w": "it",
+   "start": 9.52,
+   "end": 9.68
+  },
+  {
+   "w": "between",
+   "start": 9.68,
+   "end": 9.98
+  },
+  {
+   "w": "two",
+   "start": 9.98,
+   "end": 10.34
+  },
+  {
+   "w": "tapes.",
+   "start": 10.34,
+   "end": 10.64
+  },
+  {
+   "w": "The",
+   "start": 11.26,
+   "end": 11.44
+  },
+  {
+   "w": "sliders",
+   "start": 11.44,
+   "end": 11.76
+  },
+  {
+   "w": "Y",
+   "start": 11.76,
+   "end": 12.24
+  },
+  {
+   "w": "-shaped",
+   "start": 12.24,
+   "end": 12.52
+  },
+  {
+   "w": "channel",
+   "start": 12.52,
+   "end": 12.96
+  },
+  {
+   "w": "steers",
+   "start": 12.96,
+   "end": 13.26
+  },
+  {
+   "w": "both",
+   "start": 13.26,
+   "end": 13.64
+  },
+  {
+   "w": "rose",
+   "start": 13.64,
+   "end": 13.9
+  },
+  {
+   "w": "together,",
+   "start": 13.9,
+   "end": 14.4
+  },
+  {
+   "w": "so",
+   "start": 14.66,
+   "end": 14.86
+  },
+  {
+   "w": "each",
+   "start": 14.86,
+   "end": 15.18
+  },
+  {
+   "w": "tooth",
+   "start": 15.18,
+   "end": 15.5
+  },
+  {
+   "w": "nests",
+   "start": 15.5,
+   "end": 15.8
+  },
+  {
+   "w": "in",
+   "start": 15.8,
+   "end": 16.0
+  },
+  {
+   "w": "the",
+   "start": 16.0,
+   "end": 16.18
+  },
+  {
+   "w": "next.",
+   "start": 16.18,
+   "end": 16.48
+  },
+  {
+   "w": "Pull",
+   "start": 17.1,
+   "end": 17.22
+  },
+  {
+   "w": "it",
+   "start": 17.22,
+   "end": 17.4
+  },
+  {
+   "w": "back",
+   "start": 17.4,
+   "end": 17.74
+  },
+  {
+   "w": "and",
+   "start": 17.74,
+   "end": 17.9
+  },
+  {
+   "w": "the",
+   "start": 17.9,
+   "end": 18.14
+  },
+  {
+   "w": "diverging",
+   "start": 18.14,
+   "end": 18.58
+  },
+  {
+   "w": "channels",
+   "start": 18.58,
+   "end": 19.0
+  },
+  {
+   "w": "part",
+   "start": 19.0,
+   "end": 19.28
+  },
+  {
+   "w": "them",
+   "start": 19.28,
+   "end": 19.42
+  },
+  {
+   "w": "again,",
+   "start": 19.42,
+   "end": 19.92
+  },
+  {
+   "w": "tooth",
+   "start": 20.38,
+   "end": 20.38
+  },
+  {
+   "w": "by",
+   "start": 20.38,
+   "end": 20.66
+  },
+  {
+   "w": "tooth.",
+   "start": 20.66,
+   "end": 21.1
+  },
+  {
+   "w": "Lesson",
+   "start": 21.6,
+   "end": 22.04
+  },
+  {
+   "w": "design",
+   "start": 22.04,
+   "end": 22.48
+  },
+  {
+   "w": "the",
+   "start": 22.48,
+   "end": 22.88
+  },
+  {
+   "w": "transition",
+   "start": 22.88,
+   "end": 23.2
+  },
+  {
+   "w": "between",
+   "start": 23.2,
+   "end": 23.64
+  },
+  {
+   "w": "states,",
+   "start": 23.64,
+   "end": 24.06
+  },
+  {
+   "w": "not",
+   "start": 24.44,
+   "end": 24.6
+  },
+  {
+   "w": "just",
+   "start": 24.6,
+   "end": 24.84
+  },
+  {
+   "w": "the",
+   "start": 24.84,
+   "end": 25.04
+  },
+  {
+   "w": "two",
+   "start": 25.04,
+   "end": 25.1
+  },
+  {
+   "w": "end",
+   "start": 25.1,
+   "end": 25.32
+  },
+  {
+   "w": "points.",
+   "start": 25.32,
+   "end": 25.8
+  },
+  {
+   "w": "Download",
+   "start": 25.8,
+   "end": 27.12
+  },
+  {
+   "w": "RM",
+   "start": 27.12,
+   "end": 27.58
+  },
+  {
+   "w": "to",
+   "start": 27.58,
+   "end": 28.08
+  },
+  {
+   "w": "support",
+   "start": 28.08,
+   "end": 28.42
+  },
+  {
+   "w": "livelihood",
+   "start": 28.42,
+   "end": 28.8
+  },
+  {
+   "w": "tools.",
+   "start": 28.8,
+   "end": 29.3
+  }
+ ],
+ "text": "Gideon's son back made Whitcomb Judson's earlier fastener reliable. His 1917 patent uses identical, cup -shaped teeth that all turn it between two tapes. The sliders Y -shaped channel steers both rose together, so each tooth nests in the next. Pull it back and the diverging channels part them again, tooth by tooth. Lesson design the transition between states, not just the two end points. Download RM to support livelihood tools."
+}

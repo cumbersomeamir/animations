@@ -262,3 +262,12 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Demonstration pages:** one explanation pill in a fixed slot, changing text on each spoken step, keeps a busy mechanism readable. Keep diagram labels clear of moving parts (check the lever's full swing).
 
 - 12 (2026-11-09, english-10): Josephine Cochran's 1886 hand-operated dish-washing machine (U.S. Patent 355,139); replaces a second Mary Anderson episode. Record: `23-production-30s-english10-01.md`
+
+## English-11 notes, 2026-11-09
+- **Repeated suggestions again:** Garrett Morgan (episode 09) was re-suggested. When replacing a covered subject, keep the brief's lesson and its care about credit. Here a "made it reliable / improved" inventor (Sundback over Judson) mirrors "did not invent all traffic lights".
+- **Lessons about transitions:** pick an invention whose key part is the in-between mechanism (a slider, a revolving door, a signal phase). Show the endpoints dimmed and the transition highlighted in the lesson diagram.
+- **Name pronunciation:** tiny.en lacks many surnames ("Sundback" → "son back"). Accept a name when small (en) hears it exactly in isolation, and record both results. Avoid compound terms that ASR turns into wrong words ("clasp locker" → "class blocker"); keep such terms on screen only.
+- **Commons search API** (`commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6`) still answers when the en.wikipedia API returns 429. Read the licence from `action=raw`, and compare the likeness with the NIHF photo to confirm identity.
+- **Counters make "step by step" concrete** (TEETH PARTED 0 → 48 with a soft tick per step). Label the demo "ILLUSTRATION · after patent Fig. N".
+
+- 13 (2026-11-09, english-11): Gideon Sundback, the 1917 separable fastener and its slider (U.S. Patent 1,219,881); replaces a second Garrett Morgan episode. Record: `24-production-30s-english11-01.md`

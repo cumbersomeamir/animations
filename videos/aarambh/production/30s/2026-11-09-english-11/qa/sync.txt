@@ -1,0 +1,27 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Gideon's | 0.30 (Gideon's, placed) | 0.00 (Gideon's) | zipper closes from frame 0: slider rises 0.00-3.90, teeth snap shut behind it with gold flashes; lights flicker on 0-0.4; portrait lands 0.02-0.5 | 0.00
+Gideon's | 0.30 (Gideon's, placed) | 0.00 (Gideon's) | name plate: Gideon Sundback, engineer, Meadville, Pennsylvania, 1880–1954 | 0.45
+Whitcomb | 1.66 (Whitcomb) | 1.66 (Whitcomb) | card: BEFORE · WHITCOMB JUDSON, clasp locker, 1890s, lacked reliability (NIHF) | 1.46
+reliable | 3.66 (reliable.) | 3.66 (reliable.) | stamp: MADE IT RELIABLE | 3.56
+His | 4.70 (His) | 4.76 (His) | page turn -> THE 1917 PATENT (4.24-4.59); gold underline under "G. SUNDBACK." | 4.55
+1917 | 4.82 (1917) | 4.82 (1917) | gold underline under "Patented Mar. 20, 1917." | 4.72
+patent | 5.68 (patent) | 5.68 (patent) | stamp: PATENT 1,219,881 · MAR. 20, 1917 | 5.58
+identical | 6.78 (identical,) | 6.76 (identical,) | Fig. 4 lights; pill: every tooth alike | 6.48
+cup | 7.92 (cup) | 7.92 (cup) | Fig. 9 lights; pill: each cup nests in the next | 7.62
+all | 9.16 (all) | 9.18 (all) | two tapes slide together, teeth alternate (8.86-9.76); pill: teeth alternate sides | 8.86
+The | 11.26 (The) | 11.22 (The) | slide swap -> THE SLIDER · PATENT FIG. 1 (10.81-11.16) | 10.81
+Y | 11.76 (Y) | 11.94 (Y) | loupe lands on the Y-shaped channel and cap point (from 11.56); pill: Y-shaped channel | 11.61
+steers | 12.96 (steers) | 12.96 (steers) | gold arrows run down both stringer arms into the slider | 12.81
+both | 13.26 (both) | 13.26 (both) | pill: rows steered together | 13.11
+together | 13.90 (together,) | 13.90 (together,) | loupe glides to the throat where the rows meet (13.80-14.10) | 13.80
+nests | 15.50 (nests) | 15.52 (nests) | loupe glides to the nested teeth (15.35-15.75); pill: each tooth nests | 15.35
+Pull | 17.10 (Pull) | 17.08 (Pull) | HARD CUT -> HOW IT OPENS demo (light flash); slider pulled back from 17.05 | 16.93
+diverging | 18.14 (diverging) | 18.16 (diverging) | leader + pill: diverging channels, following the slider | 17.94
+tooth | 20.38 (tooth) | 20.38 (tooth) | TEETH PARTED counter climbs tooth by tooth (0 at 17.05 -> 48 at 20.96), ticks every 0.11 s | 17.05
+Lesson | 21.60 (Lesson) | 21.60 (Lesson) | page turn -> LESSON: Design the transition (21.01-21.36) | 21.01
+design | 22.04 (design) | 22.02 (design) | transition box turns gold (+ chime 22.34) | 21.84
+transition | 22.88 (transition) | 22.88 (transition) | arrows open -> transition -> closed | 22.68
+not | 24.44 (not) | 24.46 (not) | endpoints dim, labelled "endpoint"; prompt pill: Your turn: what is the in-between step? (24.54) | 24.34
+Download | 26.60 (Download, placed) | 27.06 (RM) | CTA card slides in (26.10-26.60) | 26.10
+summary: 24 events; for word-triggered events, event minus word start ranges -0.59 to -0.10 s (negative = event leads the word); the name plate (0.45) lands while 'Gideon Sundback' is spoken (0.30-1.32) and the counter runs through 'tooth by tooth' (20.38-21.10).
+note: placed sentence starts S1 0.3 S2 4.59 S3 11.16 S4 16.99 S5 21.36 S6 26.6 (audio/script.json); where ASR stamps a sentence-initial word before its placed start ("Gideon's" 0.00, "Download" 25.80) the placed start is used; tiny.en splits "Sundback" into "Gideon's son back" (indices 0-2) and hears "rows" as "rose" and "alternate" as "all turn it"; caption groups start at sentence starts or mid-gap between ASR words; ASR hears the app name as "RM"/"RUMB" (TTS spelling "Aa-rumbh"; the caption and card show Aarambh).

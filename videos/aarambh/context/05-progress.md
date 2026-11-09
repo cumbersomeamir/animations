@@ -73,3 +73,11 @@
   - A lever/jets/turning-crate demo with a hot rinse; lesson "notice everyday friction"; Aarambh-only CTA.
 - **Subject change recorded:** Mary Anderson was already episode 08, so it was not repeated.
 - **Read first next time:** 11 (incl. the English-06 to 10 notes) and 23.
+
+## 2026-11-09: english-11 #01 (English)
+- `videos/aarambh/production/30s/2026-11-09-english-11/aarambh-30s-english11-01.mp4` (sha256 `00156882edde88febff20428b144be783d3152faee907f982017d47ad3e9353f`): Gideon Sundback, who made Whitcomb Judson's earlier fastener reliable (U.S. 1,219,881, 1917).
+  - English narration and captions with the Meshline voice.
+  - A public-domain portrait; the real patent sheet and Fig. 1 under the magnifier.
+  - A zipper-closing hook and a pull-back demo with a teeth-parted counter; lesson "design the transition, not just the two endpoints"; Aarambh-only CTA.
+- **Subject change recorded:** Garrett Morgan was already episode 09, so it was not repeated.
+- **Read first next time:** 11 (incl. the English-06 to 11 notes) and 24.

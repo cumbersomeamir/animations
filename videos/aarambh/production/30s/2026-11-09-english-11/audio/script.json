@@ -1,0 +1,12 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.30, "text": "Gideon Sundback made Whitcomb Judson's earlier fastener reliable.", "tts": "Gideon Sundback made Whitcomb Judson's earlier fastener reliable."},
+    {"id": "S2", "start": 4.59, "text": "His 1917 patent uses identical, cup-shaped teeth that alternate between two tapes.", "tts": "His nineteen seventeen patent uses identical, cup-shaped teeth that alternate between two tapes."},
+    {"id": "S3", "start": 11.16, "text": "The slider's Y-shaped channel steers both rows together, so each tooth nests in the next.", "tts": "The slider's Y-shaped channel steers both rows together, so each tooth nests in the next."},
+    {"id": "S4", "start": 16.99, "text": "Pull it back, and the diverging channels part them again, tooth by tooth.", "tts": "Pull it back, and the diverging channels part them again, tooth by tooth."},
+    {"id": "S5", "start": 21.36, "text": "Lesson: design the transition between states, not just the two endpoints.", "tts": "Lesson: design the transition between states, not just the two endpoints."},
+    {"id": "S6", "start": 26.60, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

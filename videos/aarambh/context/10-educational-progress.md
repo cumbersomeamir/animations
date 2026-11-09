@@ -183,3 +183,12 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** the Meshline blend.
 - **Verification:** both ASR models match the script except the app name; there was no human listening. Pre-render layout fixes, plus one post-render label nudge (video only, audio md5 unchanged); no defects on the final sheets.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-09: english-11 #01 (COMPLETE)
+- **Output:** `videos/aarambh/production/30s/2026-11-09-english-11/aarambh-30s-english11-01.mp4`, sha256 `00156882edde88febff20428b144be783d3152faee907f982017d47ad3e9353f`. Gideon Sundback and the zipper slider (English). 30.000 s, 900 frames, −15.0 LUFS, −2.0 dBTP, full decode OK.
+- **Subject change:** the suggested Garrett Morgan topic was already episode 09 (english-07), so a fresh subject was chosen with the requested lesson (design the transition, not just the endpoints) and careful credit (he improved Judson's fastener).
+- **Verified facts:** the full text and drawings of U.S. Patent 1,219,881 (USPTO PDF): identical cup-shaped members that alternate and nest, and the sliding cam device with Y-shaped/diverging channels and a pointed cap. Also NIHF: dates, the Judson credit and the 2006 induction.
+- **Images:** a PD-old Commons portrait (likeness checked against NIHF's photo) and five patent crops.
+- **Voice:** the Meshline blend.
+- **Verification:** small-model ASR matches the script except the name spelling and homophones; there was no human listening. Pre-render fixes only; no defects on the final sheets.
+- No automation; no other episode started; earlier renders untouched.
