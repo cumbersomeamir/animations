@@ -1,0 +1,91 @@
+{
+  "cues": {
+    "glassesOn": 0.35,
+    "rotate1": 2.7,
+    "backlight": 5.0,
+    "filter": 6.2,
+    "sun": 9.4,
+    "glare": 12.35,
+    "blocked": 12.9,
+    "cross": 15.2,
+    "turnGiant": 17.3,
+    "rotate2": 19.3,
+    "testRot": 21.3,
+    "smile": 24.6,
+    "cta": 26.35,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_pov",
+      "t0": 0.0,
+      "t1": 3.6
+    },
+    {
+      "id": "react",
+      "t0": 3.6,
+      "t1": 4.9
+    },
+    {
+      "id": "giant_screen",
+      "t0": 4.9,
+      "t1": 9.25
+    },
+    {
+      "id": "giant_glare",
+      "t0": 9.25,
+      "t1": 14.75
+    },
+    {
+      "id": "giant_cross",
+      "t0": 14.75,
+      "t1": 19.15
+    },
+    {
+      "id": "rotate_pov",
+      "t0": 19.15,
+      "t1": 20.95
+    },
+    {
+      "id": "test_cu",
+      "t0": 20.95,
+      "t1": 23.95
+    },
+    {
+      "id": "take_cu",
+      "t0": 23.95,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.45
+    },
+    {
+      "id": "l02",
+      "start": 4.95
+    },
+    {
+      "id": "l03",
+      "start": 9.3
+    },
+    {
+      "id": "l04",
+      "start": 14.8
+    },
+    {
+      "id": "l05",
+      "start": 19.2
+    },
+    {
+      "id": "l06",
+      "start": 26.35
+    }
+  ]
+}

@@ -22,6 +22,7 @@ export function makeChoreo(tl) {
 
   // phone rotation in the hand (0 = upright, pi/2 = sideways)
   function phoneRot(t) {
+    if (t < C.rotate1) return 0.09 * Math.sin(2 * Math.PI * 2.6 * (t - 1.25)) * win(t, 1.25, 2.35, 0.15, 0.15);   // puzzled little shake
     if (t < 19.15) return (Math.PI / 2) * seg(t, C.rotate1, C.rotate1 + 0.5, E.io);
     if (t < 20.95) return (Math.PI / 2) * seg(t, C.rotate2, C.rotate2 + 1.4, E.io);
     return Math.PI / 2;
@@ -83,8 +84,9 @@ export function makeChoreo(tl) {
     switch (s.id) {
       case 'hook_pov': case 'rotate_pov': {
         const eye = W.head.clone().add(V(-0.01, -0.02, 0.06)), toPhone = W.phone.clone().sub(eye);
-        const side = phoneRot(t) / (Math.PI / 2);
-        return { pos: eye.clone().add(toPhone.clone().multiplyScalar(0.27 - 0.22 * side + 0.03 * u)), target: W.phone.clone(), fov: 44 };
+        const side = clamp(phoneRot(t) / (Math.PI / 2), 0, 1);
+        const k = s.id === 'hook_pov' ? 0.22 + 0.13 * seg(t, 0.4, C.rotate1, E.io) - 0.26 * side : 0.27 - 0.22 * side + 0.03 * u;   // hook: slow push-in
+        return { pos: eye.clone().add(toPhone.clone().multiplyScalar(k)), target: W.phone.clone(), fov: 44 };
       }
       case 'react': return { pos: L(V(0.4, 1.48, 0.95), V(0.34, 1.5, 0.86)), target: L(V(0.06, 1.52, -0.42), V(0.04, 1.54, -0.42)), fov: 46 };
       case 'take_cu': return { pos: L(V(0.3, 1.62, 0.6), V(0.24, 1.62, 0.52)), target: head.clone().add(V(0.02, -0.12, 0)), fov: 40 };

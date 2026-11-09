@@ -1,0 +1,206 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.59,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.45,
+      "end": 4.543,
+      "text": "Sunglasses on, and your phone goes black. Turn it, and it's back. Why?",
+      "words": 13,
+      "words_per_s": 3.18,
+      "voice_over_bed_db": 15.5
+    },
+    {
+      "id": "l02",
+      "start": 4.95,
+      "end": 8.881,
+      "text": "Many screens give off light that vibrates one way, set by a filter.",
+      "words": 13,
+      "words_per_s": 3.31,
+      "voice_over_bed_db": 17.3
+    },
+    {
+      "id": "l03",
+      "start": 9.3,
+      "end": 14.343,
+      "text": "Polarized sunglasses filter one direction too, cutting glare off water and roads.",
+      "words": 12,
+      "words_per_s": 2.38,
+      "voice_over_bed_db": 16.7
+    },
+    {
+      "id": "l04",
+      "start": 14.8,
+      "end": 18.76,
+      "text": "When the filters cross, the light is blocked; turn the phone, and it passes.",
+      "words": 14,
+      "words_per_s": 3.54,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l05",
+      "start": 19.2,
+      "end": 23.855,
+      "text": "So just rotate the phone. And if it darkens, your sunglasses are polarized.",
+      "words": 13,
+      "words_per_s": 2.79,
+      "voice_over_bed_db": 16.5
+    },
+    {
+      "id": "l06",
+      "start": 26.35,
+      "end": 29.639,
+      "text": "Download Recall for learning any new subject with AI.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.7
+    }
+  ],
+  "narration_words": 74,
+  "speech_s": 24.97,
+  "overall_words_per_s": 2.47,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.25,
+      "beat": 0.5,
+      "sfx": "sunglasses slide on"
+    },
+    {
+      "t": 0.65,
+      "beat": 1.3,
+      "sfx": "screen looks black"
+    },
+    {
+      "t": 2.7,
+      "beat": 5.4,
+      "sfx": "phone turned sideways"
+    },
+    {
+      "t": 3.1,
+      "beat": 6.2,
+      "sfx": "screen is back"
+    },
+    {
+      "t": 3.75,
+      "beat": 7.5,
+      "sfx": "puzzled look"
+    },
+    {
+      "t": 4.55,
+      "beat": 9.1,
+      "sfx": "cut to the giant screen (ends before l02)"
+    },
+    {
+      "t": 5.0,
+      "beat": 10.0,
+      "sfx": "light panel on"
+    },
+    {
+      "t": 6.2,
+      "beat": 12.4,
+      "sfx": "screen filter in place"
+    },
+    {
+      "t": 6.35,
+      "beat": 12.7,
+      "sfx": "one direction passes"
+    },
+    {
+      "t": 8.95,
+      "beat": 17.9,
+      "sfx": "cut to the lens and glare (ends before l03)"
+    },
+    {
+      "t": 9.6,
+      "beat": 19.2,
+      "sfx": "sunlight"
+    },
+    {
+      "t": 12.35,
+      "beat": 24.7,
+      "sfx": "glare off the water"
+    },
+    {
+      "t": 12.9,
+      "beat": 25.8,
+      "sfx": "glare blocked by the lens"
+    },
+    {
+      "t": 14.45,
+      "beat": 28.9,
+      "sfx": "cut to the crossed filters (ends before l04)"
+    },
+    {
+      "t": 15.2,
+      "beat": 30.4,
+      "sfx": "crossed: light blocked"
+    },
+    {
+      "t": 17.3,
+      "beat": 34.6,
+      "sfx": "giant phone turns"
+    },
+    {
+      "t": 17.8,
+      "beat": 35.6,
+      "sfx": "light passes the lens"
+    },
+    {
+      "t": 17.9,
+      "beat": 35.8,
+      "sfx": "rising: it passes"
+    },
+    {
+      "t": 18.85,
+      "beat": 37.7,
+      "sfx": "cut back to the POV (ends before l05)"
+    },
+    {
+      "t": 19.3,
+      "beat": 38.6,
+      "sfx": "phone rotates"
+    },
+    {
+      "t": 20.2,
+      "beat": 40.4,
+      "sfx": "screen brightens"
+    },
+    {
+      "t": 21.0,
+      "beat": 42.0,
+      "sfx": "sunglasses held over the phone"
+    },
+    {
+      "t": 21.3,
+      "beat": 42.6,
+      "sfx": "lens turned: screen darkens"
+    },
+    {
+      "t": 24.05,
+      "beat": 48.1,
+      "sfx": "takeaway: rotate test"
+    },
+    {
+      "t": 24.7,
+      "beat": 49.4,
+      "sfx": "smile"
+    },
+    {
+      "t": 26.65,
+      "beat": 53.3,
+      "sfx": "Recall mark"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.492,
+  "voice_gain": 1.0
+}

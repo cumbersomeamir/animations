@@ -1,0 +1,389 @@
+{
+  "file": "production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2281586"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "190719"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 9305894,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.9,
+    "true_peak_dbfs": -1.4
+  },
+  "decoded_audio_peak": 0.8499255180358887,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Sunglasses on and your phone goes black, turn it and it's back. Why? Many screens give off light that vibrates one way, set by a filter. Polarized sunglasses filter one direction two, cutting glare off water and roads. When the filters cross, the light is blocked, turn the phone and it passes. So just rotate the phone. And if it darkens, your sunglasses are polarized. Download Recall for learning any new subject with AI.",
+    "wer": 0.014,
+    "words": [
+      {
+        "w": "Sunglasses",
+        "t": 0.0
+      },
+      {
+        "w": "on",
+        "t": 0.88
+      },
+      {
+        "w": "and",
+        "t": 1.24
+      },
+      {
+        "w": "your",
+        "t": 1.44
+      },
+      {
+        "w": "phone",
+        "t": 1.54
+      },
+      {
+        "w": "goes",
+        "t": 1.8
+      },
+      {
+        "w": "black,",
+        "t": 2.08
+      },
+      {
+        "w": "turn",
+        "t": 2.76
+      },
+      {
+        "w": "it",
+        "t": 3.06
+      },
+      {
+        "w": "and",
+        "t": 3.2
+      },
+      {
+        "w": "it's",
+        "t": 3.3
+      },
+      {
+        "w": "back.",
+        "t": 3.46
+      },
+      {
+        "w": "Why?",
+        "t": 4.24
+      },
+      {
+        "w": "Many",
+        "t": 5.1
+      },
+      {
+        "w": "screens",
+        "t": 5.1
+      },
+      {
+        "w": "give",
+        "t": 5.32
+      },
+      {
+        "w": "off",
+        "t": 5.68
+      },
+      {
+        "w": "light",
+        "t": 5.86
+      },
+      {
+        "w": "that",
+        "t": 6.1
+      },
+      {
+        "w": "vibrates",
+        "t": 6.34
+      },
+      {
+        "w": "one",
+        "t": 6.92
+      },
+      {
+        "w": "way,",
+        "t": 7.12
+      },
+      {
+        "w": "set",
+        "t": 7.76
+      },
+      {
+        "w": "by",
+        "t": 7.96
+      },
+      {
+        "w": "a",
+        "t": 8.18
+      },
+      {
+        "w": "filter.",
+        "t": 8.28
+      },
+      {
+        "w": "Polarized",
+        "t": 9.48
+      },
+      {
+        "w": "sunglasses",
+        "t": 9.82
+      },
+      {
+        "w": "filter",
+        "t": 10.42
+      },
+      {
+        "w": "one",
+        "t": 10.74
+      },
+      {
+        "w": "direction",
+        "t": 11.14
+      },
+      {
+        "w": "two,",
+        "t": 11.42
+      },
+      {
+        "w": "cutting",
+        "t": 12.34
+      },
+      {
+        "w": "glare",
+        "t": 12.62
+      },
+      {
+        "w": "off",
+        "t": 12.94
+      },
+      {
+        "w": "water",
+        "t": 13.28
+      },
+      {
+        "w": "and",
+        "t": 13.52
+      },
+      {
+        "w": "roads.",
+        "t": 13.74
+      },
+      {
+        "w": "When",
+        "t": 14.76
+      },
+      {
+        "w": "the",
+        "t": 14.86
+      },
+      {
+        "w": "filters",
+        "t": 14.96
+      },
+      {
+        "w": "cross,",
+        "t": 15.2
+      },
+      {
+        "w": "the",
+        "t": 15.94
+      },
+      {
+        "w": "light",
+        "t": 16.02
+      },
+      {
+        "w": "is",
+        "t": 16.2
+      },
+      {
+        "w": "blocked,",
+        "t": 16.38
+      },
+      {
+        "w": "turn",
+        "t": 17.16
+      },
+      {
+        "w": "the",
+        "t": 17.38
+      },
+      {
+        "w": "phone",
+        "t": 17.52
+      },
+      {
+        "w": "and",
+        "t": 17.76
+      },
+      {
+        "w": "it",
+        "t": 18.0
+      },
+      {
+        "w": "passes.",
+        "t": 18.08
+      },
+      {
+        "w": "So",
+        "t": 19.32
+      },
+      {
+        "w": "just",
+        "t": 19.32
+      },
+      {
+        "w": "rotate",
+        "t": 19.52
+      },
+      {
+        "w": "the",
+        "t": 19.74
+      },
+      {
+        "w": "phone.",
+        "t": 20.1
+      },
+      {
+        "w": "And",
+        "t": 21.08
+      },
+      {
+        "w": "if",
+        "t": 21.12
+      },
+      {
+        "w": "it",
+        "t": 21.22
+      },
+      {
+        "w": "darkens,",
+        "t": 21.3
+      },
+      {
+        "w": "your",
+        "t": 22.1
+      },
+      {
+        "w": "sunglasses",
+        "t": 22.12
+      },
+      {
+        "w": "are",
+        "t": 22.6
+      },
+      {
+        "w": "polarized.",
+        "t": 22.94
+      },
+      {
+        "w": "Download",
+        "t": 25.84
+      },
+      {
+        "w": "Recall",
+        "t": 26.5
+      },
+      {
+        "w": "for",
+        "t": 26.98
+      },
+      {
+        "w": "learning",
+        "t": 27.64
+      },
+      {
+        "w": "any",
+        "t": 27.84
+      },
+      {
+        "w": "new",
+        "t": 28.1
+      },
+      {
+        "w": "subject",
+        "t": 28.32
+      },
+      {
+        "w": "with",
+        "t": 28.66
+      },
+      {
+        "w": "AI.",
+        "t": 28.98
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 175.08798217773438,
+    "right": 905.0000305175781,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.123,
+    "min_frame_diff": 0.0097,
+    "longest_static_run_frames": 11,
+    "max_frame_diff": 76.38,
+    "max_diff_at_s": 4.9
+  },
+  "luma_min_mean_max": [
+    50.0,
+    98.1,
+    150.9
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_90_990": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

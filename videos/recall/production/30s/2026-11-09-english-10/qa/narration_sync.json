@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.45,
+  "measured_start": 0.45,
+  "error_ms": -0.1,
+  "corr": 0.843,
+  "end": 4.542,
+  "shot_at_start": "hook_pov",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l02",
+  "planned_start": 4.95,
+  "measured_start": 4.95,
+  "error_ms": 0.0,
+  "corr": 0.845,
+  "end": 8.881,
+  "shot_at_start": "giant_screen",
+  "shot_at_end": "giant_screen"
+ },
+ {
+  "id": "l03",
+  "planned_start": 9.3,
+  "measured_start": 9.3,
+  "error_ms": 0.0,
+  "corr": 0.843,
+  "end": 14.343,
+  "shot_at_start": "giant_glare",
+  "shot_at_end": "giant_glare"
+ },
+ {
+  "id": "l04",
+  "planned_start": 14.8,
+  "measured_start": 14.8,
+  "error_ms": -0.1,
+  "corr": 0.852,
+  "end": 18.76,
+  "shot_at_start": "giant_cross",
+  "shot_at_end": "giant_cross"
+ },
+ {
+  "id": "l05",
+  "planned_start": 19.2,
+  "measured_start": 19.2,
+  "error_ms": 0.0,
+  "corr": 0.845,
+  "end": 23.855,
+  "shot_at_start": "rotate_pov",
+  "shot_at_end": "test_cu"
+ },
+ {
+  "id": "l06",
+  "planned_start": 26.35,
+  "measured_start": 26.35,
+  "error_ms": -0.2,
+  "corr": 0.843,
+  "end": 29.639,
+  "shot_at_start": "take_cu",
+  "shot_at_end": "cafe_wide"
+ }
+]

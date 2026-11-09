@@ -68,6 +68,13 @@ export function drawOverlay(g, W, H, t, o, P, tl, icon, cache, shot) {
     const dy = -1920 * (1 - o.lens);
     g.save(); g.translate(0, dy);
     g.fillStyle = 'rgba(30,44,36,0.40)'; g.fillRect(0, 0, 1080, 1920);
+    const sw = clamp((t - 0.55) / 2.0);       // a soft sheen slides across the lens once it is on
+    if (sw > 0 && sw < 1) {
+      g.save(); g.translate(-260 + 1600 * sw, 960); g.rotate(-0.42);
+      const gr = g.createLinearGradient(-110, 0, 110, 0);
+      gr.addColorStop(0, 'rgba(255,250,235,0)'); gr.addColorStop(0.5, 'rgba(255,250,235,0.14)'); gr.addColorStop(1, 'rgba(255,250,235,0)');
+      g.fillStyle = gr; g.fillRect(-110, -1500, 220, 3000); g.restore();
+    }
     g.lineWidth = 120; g.strokeStyle = 'rgba(18,20,16,0.92)'; rr(g, -20, 40, 1120, 1900, 360); g.stroke();
     g.lineWidth = 10; g.strokeStyle = 'rgba(199,243,107,0.35)'; rr(g, 40, 100, 1000, 1780, 320); g.stroke();
     g.restore();
