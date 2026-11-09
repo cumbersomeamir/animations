@@ -1,0 +1,17 @@
+{
+  "name": "media-diet-bean-45s-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 45 s English physics explainer: how many people would actually move Chicago's Bean seven inches? (event: Sunday 8 Nov 2026)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7"
+  }
+}

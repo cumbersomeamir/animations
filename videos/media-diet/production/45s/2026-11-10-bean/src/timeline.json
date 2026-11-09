@@ -1,0 +1,262 @@
+{
+ "fps": 30,
+ "duration": 45.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Chicago tried to move the Bean seven inches. The Bean declined.",
+   "cues": [
+    [
+     "Chicago tried to move",
+     "the Bean seven inches."
+    ],
+    [
+     "The Bean declined."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 4.4,
+   "say": "How many people would it actually take?",
+   "cues": [
+    [
+     "How many people would",
+     "it actually take?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.55,
+   "say": "The real one is structurally supported, so imagine a loose Bean.",
+   "cues": [
+    [
+     "The real one is",
+     "structurally supported,"
+    ],
+    [
+     "so imagine a loose Bean."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 10.85,
+   "say": "Assume friction resists half its weight, and each person pushes three hundred newtons.",
+   "cues": [
+    [
+     "Assume friction resists",
+     "half its weight,"
+    ],
+    [
+     "and each person",
+     "pushes 300 newtons."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 16.2,
+   "say": "That's four hundred ninety thousand newtons: about sixteen hundred perfectly coordinated people.",
+   "cues": [
+    [
+     "That's 490,000 newtons:"
+    ],
+    [
+     "about 1,600 perfectly",
+     "coordinated people."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 22.3,
+   "say": "Perfectly is doing a lot of work.",
+   "cues": [
+    [
+     "Perfectly is doing",
+     "a lot of work."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 24.6,
+   "say": "Opposite pushes cancel. Angled ones only partly help. Most people can't reach it.",
+   "cues": [
+    [
+     "Opposite pushes cancel."
+    ],
+    [
+     "Angled ones only partly help."
+    ],
+    [
+     "Most people can't reach it."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 30.5,
+   "say": "Seven inches is a distance, not the starting force.",
+   "cues": [
+    [
+     "Seven inches is a distance,",
+     "not the starting force."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 34.05,
+   "say": "The real Bean needs an anchoring calculation.",
+   "cues": [
+    [
+     "The real Bean needs",
+     "an anchoring calculation."
+    ]
+   ]
+  },
+  {
+   "id": "V10",
+   "start": 37.35,
+   "say": "Chicago brought the squad. The Bean brought a foundation.",
+   "cues": [
+    [
+     "Chicago brought the squad."
+    ],
+    [
+     "The Bean brought a foundation."
+    ]
+   ]
+  },
+  {
+   "id": "V11",
+   "start": 41.2,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0,
+   "out": 3.5,
+   "what": "REAL FOOTAGE (user video, 6.0\u20139.5 s of the clip): the crowd pressing on the Bean; date pill 'Millennium Park \u00b7 Sunday, Nov 8, 2026'"
+  },
+  {
+   "id": "S2",
+   "in": 3.5,
+   "out": 7.3,
+   "what": "real page: chrome Bean on a paper plaza; ruler '7 in = 0.178 m, not to scale'; weight mg DOWN, ground N UP; 'how many people?'"
+  },
+  {
+   "id": "S3",
+   "in": 7.3,
+   "out": 10.75,
+   "what": "cutaway: shell turns translucent \u2192 schematic rings, posts and foundation slab ('structural supports + foundation, schematic'); then the 'IMAGINARY LOOSE BEAN' sign \u2014 supports drop away"
+  },
+  {
+   "id": "S4",
+   "in": 10.75,
+   "out": 16.15,
+   "what": "MODEL page: graph paper, block with Bean silhouette; mg/N, friction red LEFT, four pushers with 300 N green arrows; chips \u03bcs = 0.5 and 300 N (assumed); m \u2248 99,790 kg, N = mg \u2248 979,000 N"
+  },
+  {
+   "id": "S5",
+   "in": 16.15,
+   "out": 22.2,
+   "what": "crowd tiles of 100: 250-person example (75 kN, not the real crowd) vs friction 490 kN; tiles grow to 16, summed green arrow matches red; F_start \u2248 490,000 N, n \u2248 1,632 \u2192 about 1,600; \u03bcs 0.3\u20130.6 \u2192 ~1,000\u20132,000"
+  },
+  {
+   "id": "S6",
+   "in": 22.2,
+   "out": 24.5,
+   "what": "'perfectly coordinated'?: the tiles drift out of sync, their arrows splay"
+  },
+  {
+   "id": "S7",
+   "in": 24.5,
+   "out": 30.4,
+   "what": "caveats: opposite pushes cancel (\u03a3F \u2248 0); an angled push \u2014 only F\u00b7cos \u03b8 helps; a long queue that can't reach the surface"
+  },
+  {
+   "id": "S8",
+   "in": 30.4,
+   "out": 33.95,
+   "what": "macro: the block slides 0.178 m (shown enlarged) on an inch ruler and stops; 'to start: F > \u03bcs\u00b7N', '7 in is a distance', 'once moving: \u03a3F = m\u00b7a'"
+  },
+  {
+   "id": "S9",
+   "in": 33.95,
+   "out": 37.25,
+   "what": "back to the REAL Bean on its supports: the crowd push is balanced by the support reaction; 'real answer needs anchor strength + contact geometry'; '110 tons \u00f7 300 N \u2260 answer'"
+  },
+  {
+   "id": "S10",
+   "in": 37.25,
+   "out": 41.05,
+   "what": "punchline: the squad gathers around the Bean; the foundation lights up"
+  },
+  {
+   "id": "S11",
+   "in": 41.05,
+   "out": 45.0,
+   "what": "CTA: hero pull-back, Media Diet sign"
+  }
+ ],
+ "events": {
+  "ruler": 3.9,
+  "mg": 4.0,
+  "N": 4.5,
+  "q": 4.8,
+  "cut": 7.45,
+  "loose": 9.1,
+  "fbd": 10.95,
+  "fric": 11.3,
+  "mu": 12.2,
+  "Neq": 12.4,
+  "people": 13.5,
+  "f300": 14.55,
+  "Feq": 16.7,
+  "ex": 17.0,
+  "grow": 18.95,
+  "neq": 19.3,
+  "range": 20.9,
+  "cancel": 24.6,
+  "angled": 26.5,
+  "queue": 28.5,
+  "slide": 31.6,
+  "moving": 32.7,
+  "realPush": 34.1,
+  "react": 34.6,
+  "need": 35.6,
+  "found": 39.2,
+  "sign": 41.3
+ }
+}

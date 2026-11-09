@@ -206,3 +206,10 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Remote: the owner pushed a74b9c6 (user-supplied footage assets/user-footage/2026-11-10-chicago-bean.mp4) during this job; rebased onto it,
   kept intact and unused (no instruction to use it yet).
 - Previous MP4s preserved. No automation created. No analytics used. Unresolved: audio not listened to by a human yet.
+
+## Checkpoint 2026-11-10 — Bean 45 s special (in progress)
+- Start state: english-11 delivered and pushed (57bb5a0 = remote, owner footage commit a74b9c6 integrated earlier by rebase), no jobs.
+- Footage: committed asset assets/user-footage/2026-11-10-chicago-bean.mp4 (SHA-256 0a631a1f…a362 = origin); frames 180–284 → .cache/footage.
+- Sources verified (CBS Chicago, WXRT, PBC, Aerotrope, Stuart Dean); calculations re-computed; VO 108 words / 39.2 s, all lines heard by Whisper.
+- Committed: sources/assumptions/calculations, narration, cues, film.js, audio/build/QA scripts (45 s), caption, licences, README, context/25, log row.
+- Running: three resumable chunk workers (`build/render_chunks.sh 0…420`, `480…900`, `960…1320`); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
