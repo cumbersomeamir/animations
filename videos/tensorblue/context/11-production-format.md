@@ -39,6 +39,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-09 english-10:** private browsing vs being seen online. Same satisfied design, English voice and CTA. Real demo in the pre-installed Chromium via Playwright (use `channel: 'chromium'`: the headless-shell build writes no History file). Draw browser UI ourselves (no real product chrome). When a primary source is a single vendor, keep narration non-universal ("mainly", "can") and say which browser the demo ran. Before each new episode, confirm all accepted earlier jobs are committed/pushed; never invent analytics. Details: `23-production-30s-english10-01.md`.
 
+- **2026-11-09 english-11:** sent photos losing tiny text (lossy re-save vs original file). Same satisfied design, English voice and CTA. Naming a real app: say only what its help pages state, as a quoted card with the URL; never reproduce its UI or logo. Image comparisons must be fair: same crop, same enlargement filter; judge readability by eye as well as OCR, and word the result to match what a viewer sees ("a guess", not "gone"). After rewording a line, recheck caption cues keyed to repeated words (`VW(..., n)`). Details: `24-production-30s-english11-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

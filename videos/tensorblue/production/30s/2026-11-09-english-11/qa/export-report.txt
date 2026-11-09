@@ -1,0 +1,51 @@
+== ffprobe streams
+index=0
+codec_name=h264
+profile=High
+codec_type=video
+width=1080
+height=1920
+pix_fmt=yuv420p
+r_frame_rate=30/1
+avg_frame_rate=30/1
+duration=30.000000
+bit_rate=637297
+nb_frames=900
+index=1
+codec_name=aac
+profile=LC
+codec_type=audio
+sample_rate=48000
+channels=2
+channel_layout=stereo
+r_frame_rate=0/0
+avg_frame_rate=0/0
+duration=30.000000
+bit_rate=189664
+nb_frames=1408
+== container
+format_name=mov,mp4,m4a,3gp,3g2,mj2
+duration=30.000000
+size=3133840
+bit_rate=835690
+== counted video frames
+nb_read_frames=900
+== full decode errors (empty = none)
+== decode exit ok
+== loudness (ebur128, exported AAC)
+[Parsed_ebur128_0 @ 0x555def1728c0] Summary:
+
+  Integrated loudness:
+    I:         -15.1 LUFS
+    Threshold: -25.6 LUFS
+
+  Loudness range:
+    LRA:         2.7 LU
+    Threshold: -35.5 LUFS
+    LRA low:   -16.8 LUFS
+    LRA high:  -14.1 LUFS
+
+  True peak:
+    Peak:       -1.8 dBFS
+== sha256
+9c3c967e949a071607062e3580774d6e3ee9660d8066e6bdb9cd0bbc1310029d  /home/user/animations/videos/tensorblue/production/30s/2026-11-09-english-11/tensorblue-30s-english11-01.mp4

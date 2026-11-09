@@ -1,0 +1,49 @@
+{
+ "code": "7KQ2XM",
+ "tiny_text_px": 20,
+ "original": {
+  "pixels": [
+   3024,
+   4032
+  ],
+  "bytes": 495048,
+  "sha256": "00f2be405ddbadc033fca7c00dd2b8a4f09748857a950474b6e88baee85b8037",
+  "jpeg_quality": 95
+ },
+ "resaved": {
+  "pixels": [
+   960,
+   1280
+  ],
+  "bytes": 32633,
+  "jpeg_quality": 60,
+  "long_edge": 1280
+ },
+ "as_document": {
+  "bytes": 495048,
+  "sha256": "00f2be405ddbadc033fca7c00dd2b8a4f09748857a950474b6e88baee85b8037",
+  "identical_to_original": true
+ },
+ "crop_box_original": [
+  517,
+  1979,
+  689,
+  2065
+ ],
+ "crop_box_resaved": [
+  164,
+  628,
+  219,
+  656
+ ],
+ "ocr": {
+  "original_crop": "Booking code 7KQ2XM",
+  "resaved_crop": "Bookie code 7KO7H",
+  "original_reads_code": true,
+  "resaved_reads_code": false
+ },
+ "tools": {
+  "pillow": "13.0.0",
+  "tesseract": "tesseract 5.3.4"
+ }
+}

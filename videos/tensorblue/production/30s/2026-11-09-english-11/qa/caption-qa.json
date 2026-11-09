@@ -1,0 +1,207 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Same photo, sent twice."
+   ],
+   "t0": 0.24,
+   "tEnd": 2.12,
+   "frame": 25,
+   "box": {
+    "x0": 227,
+    "x1": 850,
+    "y0": 404,
+    "y1": 456,
+    "n": 10031
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Why can't you read this one?"
+   ],
+   "t0": 2.06,
+   "tEnd": 3.74,
+   "frame": 80,
+   "box": {
+    "x0": 163,
+    "x1": 915,
+    "y0": 404,
+    "y1": 456,
+    "n": 11855
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Chat apps often shrink photos",
+    "with lossy compression."
+   ],
+   "t0": 3.68,
+   "tEnd": 6.84,
+   "frame": 128,
+   "box": {
+    "x0": 150,
+    "x1": 929,
+    "y0": 372,
+    "y1": 488,
+    "n": 23500
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Lossy means detail",
+    "is discarded for good."
+   ],
+   "t0": 6.78,
+   "tEnd": 9.57,
+   "frame": 221,
+   "box": {
+    "x0": 258,
+    "x1": 820,
+    "y0": 371,
+    "y1": 488,
+    "n": 17729
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Tiny text suffers most."
+   ],
+   "t0": 9.51,
+   "tEnd": 11.42,
+   "frame": 303,
+   "box": {
+    "x0": 249,
+    "x1": 828,
+    "y0": 404,
+    "y1": 456,
+    "n": 9166
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "WhatsApp's help says shared",
+    "media is usually compressed,"
+   ],
+   "t0": 11.36,
+   "tEnd": 14.61,
+   "frame": 359,
+   "box": {
+    "x0": 154,
+    "x1": 923,
+    "y0": 375,
+    "y1": 488,
+    "n": 26072
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and offers HD."
+   ],
+   "t0": 14.55,
+   "tEnd": 16.04,
+   "frame": 454,
+   "box": {
+    "x0": 355,
+    "x1": 722,
+    "y0": 409,
+    "y1": 450,
+    "n": 6139
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "In our test, the re-saved copy",
+    "turned the code into a guess;"
+   ],
+   "t0": 15.98,
+   "tEnd": 19.71,
+   "frame": 497,
+   "box": {
+    "x0": 160,
+    "x1": 921,
+    "y0": 374,
+    "y1": 488,
+    "n": 23831
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the original kept it."
+   ],
+   "t0": 19.65,
+   "tEnd": 21.05,
+   "frame": 608,
+   "box": {
+    "x0": 298,
+    "x1": 777,
+    "y0": 403,
+    "y1": 456,
+    "n": 8195
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Fine print? Send HD,",
+    "or attach it as a document,"
+   ],
+   "t0": 20.99,
+   "tEnd": 24.31,
+   "frame": 648,
+   "box": {
+    "x0": 196,
+    "x1": 881,
+    "y0": 372,
+    "y1": 487,
+    "n": 19313
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "then check it."
+   ],
+   "t0": 24.25,
+   "tEnd": 25.91,
+   "frame": 746,
+   "box": {
+    "x0": 363,
+    "x1": 712,
+    "y0": 409,
+    "y1": 450,
+    "n": 5395
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.09,
+   "tEnd": 29.6,
+   "frame": 801,
+   "box": {
+    "x0": 193,
+    "x1": 884,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

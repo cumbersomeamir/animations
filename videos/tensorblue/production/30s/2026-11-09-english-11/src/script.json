@@ -1,0 +1,64 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "Same photo, sent twice. Why can't you read this one?",
+   "after": 0.4
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Chat apps often shrink photos with lossy compression.",
+   "after": 0.25
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Lossy means detail is discarded for good. Tiny text suffers most.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "WhatsApp's help says shared media is usually compressed, and offers HD.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "In our test, the re-saved copy turned the code into a guess; the original kept it.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Fine print? Send HD, or attach it as a document, then check it.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 26.15,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.35
+  }
+ ]
+}

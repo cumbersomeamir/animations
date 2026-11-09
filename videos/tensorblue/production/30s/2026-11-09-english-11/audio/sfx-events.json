@@ -1,0 +1,192 @@
+{
+ "sfx": [
+  {
+   "t": 0.25,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 0.37,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 0.75,
+   "type": "strike"
+  },
+  {
+   "t": 0.85,
+   "type": "match"
+  },
+  {
+   "t": 2.542,
+   "type": "type"
+  },
+  {
+   "t": 3.289,
+   "type": "wipe"
+  },
+  {
+   "t": 6.459,
+   "type": "wipe"
+  },
+  {
+   "t": 11.036,
+   "type": "wipe"
+  },
+  {
+   "t": 15.659,
+   "type": "wipe"
+  },
+  {
+   "t": 20.696,
+   "type": "wipe"
+  },
+  {
+   "t": 25.55,
+   "type": "wipe"
+  },
+  {
+   "t": 4.431,
+   "type": "slide"
+  },
+  {
+   "t": 5.468,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 5.894,
+   "type": "type"
+  },
+  {
+   "t": 8.063,
+   "type": "carve"
+  },
+  {
+   "t": 9.375,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 10.138,
+   "type": "clack"
+  },
+  {
+   "t": 10.238,
+   "type": "type",
+   "lo": true
+  },
+  {
+   "t": 13.097,
+   "type": "paper"
+  },
+  {
+   "t": 14.635,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 15.072,
+   "type": "tap"
+  },
+  {
+   "t": 18.837,
+   "type": "strike"
+  },
+  {
+   "t": 19.712,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 20.212,
+   "type": "match"
+  },
+  {
+   "t": 18.887,
+   "type": "type"
+  },
+  {
+   "t": 21.001,
+   "type": "type"
+  },
+  {
+   "t": 22.213,
+   "type": "blip"
+  },
+  {
+   "t": 23.701,
+   "type": "blip"
+  },
+  {
+   "t": 24.213,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 25.131,
+   "type": "chime"
+  },
+  {
+   "t": 25.85,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.329,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.1,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "same": 0.342,
+  "twice": 1.367,
+  "why": 2.117,
+  "read": 2.592,
+  "one1": 3.017,
+  "shrink": 4.531,
+  "lossy2": 5.568,
+  "compression": 5.944,
+  "lossy3": 6.863,
+  "discarded": 8.163,
+  "good": 8.838,
+  "tiny": 9.575,
+  "suffers": 10.288,
+  "most": 10.688,
+  "whatsapps": 11.416,
+  "usually": 13.247,
+  "compressed": 13.66,
+  "offers": 14.735,
+  "hd4": 15.122,
+  "resaved": 16.974,
+  "code": 18.312,
+  "into": 18.624,
+  "guess": 18.937,
+  "original5": 19.862,
+  "kept": 20.312,
+  "fine": 21.051,
+  "hd6": 22.263,
+  "attach": 23.076,
+  "document": 23.751,
+  "then": 24.313,
+  "check": 24.513,
+  "follow": 26.15,
+  "tb": 26.429,
+  "chime": 25.131,
+  "scenes": [
+   0,
+   3.539,
+   6.7090000000000005,
+   11.286,
+   15.908999999999999,
+   20.945999999999998,
+   25.799999999999997,
+   30.01
+  ]
+ }
+}

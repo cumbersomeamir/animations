@@ -1,0 +1,16 @@
+Same photo, sent twice. Why can't you read this one?
+
+Chat apps often shrink photos with lossy compression. Lossy means detail is discarded for good. Tiny text suffers most. WhatsApp's help says shared media is usually compressed, and offers HD. In our test, the re-saved copy turned the code into a guess; the original kept it.
+
+Fine print? Send HD, or attach it as a document, then check it.
+
+Our test used a made-up concert ticket photo: re-saved at 1280 px and JPEG quality 60 (our settings, not any app's), the 20 px booking code was misread by OCR; the original file read correctly.
+
+Sources:
+- MDN Glossary, Lossy compression: https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression
+- WhatsApp Help Center, How to send media, contacts, or location: https://faq.whatsapp.com/iphone/chats/how-to-send-media/
+- WhatsApp Help Center, About HD photos and videos: https://faq.whatsapp.com/759301289012856/
+
+Follow Tensorblue for software explained simply.
+
+#ImageCompression #Photos #SoftwareExplained
