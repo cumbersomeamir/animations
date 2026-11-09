@@ -67,7 +67,11 @@ for the opening (the GL pass is skipped there), captions kept below any baked la
 assumption chips; equations live in lower cards (y 1190–1590), never in the caption band.
 
 ## QA summary (final export; full report in the output folder's QA.md)
-QA_SUMMARY_PENDING
+File `media-diet-bean-45s-01.mp4`, SHA-256 `a7a31eaeefb6a15e513c74889b69925e26f4d9fc8303d876d70ecdc407e532f4`, 26,330,161 bytes.
+H.264 High yuv420p 1080×1920 30/1 fps, 1350 frames; video/audio/container 45.000 s; AAC-LC 48 kHz stereo (`eng`); full decode exit 0,
+no errors; −15.1 LUFS / −1.9 dBTP; captions ink y 378–488, x 155–924, 0 safe-area violations in 1350 frames; caption↔speech 18/18;
+Whisper medium (en) word recall 1.0 full pass and 1.0 on every line; music 10.1–15.7 dB under speech. Fixed once each: VO length,
+label/framing (stills), arrow-scale bug, 45 s pipeline clamps.
 
 ## Limits
 - I cannot listen to audio in this environment: pronunciation/intelligibility checked by Whisper-medium (en) per take and on the

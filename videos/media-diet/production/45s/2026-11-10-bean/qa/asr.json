@@ -1,0 +1,119 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Chicago tried to move the bean seven inches. The bean declined. How many people would it actually take? The real one is structurally supported, so imagine a loose bean. Assume friction resists half its weight, and each person pushes 300 newtons. That's 490,000 newtons, about 1,600 perfectly coordinated people. Perfectly is doing a lot of work. Opposite pushes cancel. Angled ones only partly help. Most people can't reach it. Seven inches is a distance, not the starting force. The real bean needs an anchoring calculation. Chicago brought the squad. The bean brought a foundation. Follow Media Diet for the physics behind the headlines.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    3.98
+   ],
+   "transcript": "Chicago tried to move the bean seven inches. The bean declined.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    4.4,
+    6.12
+   ],
+   "transcript": "How many people would it actually take?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.55,
+    10.31
+   ],
+   "transcript": "The real one is structurally supported, so imagine a loose bean.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    10.85,
+    15.74
+   ],
+   "transcript": "Assume friction resists half its weight and each person pushes 300 Newtons.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    16.2,
+    21.83
+   ],
+   "transcript": "That's 490,000 Newtons, about 1,600 perfectly coordinated people.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    22.3,
+    24.15
+   ],
+   "transcript": "Perfectly is doing a lot of work.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    24.6,
+    29.96
+   ],
+   "transcript": "Opposite pushes cancel. Angled ones only partly help. Most people can't reach it.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    30.5,
+    33.52
+   ],
+   "transcript": "7 inches is a distance, not the starting force.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    34.05,
+    36.82
+   ],
+   "transcript": "The real bean needs an anchoring calculation.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V10",
+   "window": [
+    37.35,
+    40.62
+   ],
+   "transcript": "Chicago brought the squad. The bean brought a foundation.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V11",
+   "window": [
+    41.2,
+    44.32
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Chicago tried to move the bean seven inches. The bean declined. How many people would it actually take? The real one is structurally supported, so imagine a loose bean. Assume friction resists half its weight and each person pushes 300 Newtons. That's 490,000 Newtons, about 1,600 perfectly coordinated people. Perfectly is doing a lot of work. Opposite pushes cancel. Angled ones only partly help. Most people can't reach it. 7 inches is a distance, not the starting force. The real bean needs an anchoring calculation. Chicago brought the squad. The bean brought a foundation. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

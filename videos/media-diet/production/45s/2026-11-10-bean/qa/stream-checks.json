@@ -1,0 +1,19 @@
+{
+ "checks": {
+  "h264 High": true,
+  "yuv420p": true,
+  "1080x1920": true,
+  "30/1 fps": true,
+  "1350 frames": true,
+  "video 45.000 s": true,
+  "aac 48 kHz stereo": true,
+  "audio 45.000 s (\u00b11 AAC frame)": true,
+  "container 45.0 s": true
+ },
+ "video_duration": "45.000000",
+ "audio_duration": "45.000000",
+ "format_duration": "45.000000",
+ "frames": "1350",
+ "bit_rate": "4680917",
+ "size": "26330161"
+}

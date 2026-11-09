@@ -1,0 +1,272 @@
+[
+ {
+  "line": "V1",
+  "text": "Chicago tried to move / the Bean seven inches.",
+  "cue": [
+   0.07,
+   2.68
+  ],
+  "speech": [
+   0.174,
+   2.497
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.183,
+  "ok": true
+ },
+ {
+  "line": "V1",
+  "text": "The Bean declined.",
+  "cue": [
+   2.7,
+   4.276
+  ],
+  "speech": [
+   2.907,
+   3.923
+  ],
+  "lead_s": 0.207,
+  "tail_s": 0.353,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "How many people would / it actually take?",
+  "cue": [
+   4.32,
+   6.42
+  ],
+  "speech": [
+   4.432,
+   6.046
+  ],
+  "lead_s": 0.112,
+  "tail_s": 0.374,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "The real one is / structurally supported,",
+  "cue": [
+   6.47,
+   8.61
+  ],
+  "speech": [
+   6.571,
+   8.46
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.15,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "so imagine a loose Bean.",
+  "cue": [
+   8.63,
+   10.611
+  ],
+  "speech": [
+   8.799,
+   10.262
+  ],
+  "lead_s": 0.169,
+  "tail_s": 0.349,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Assume friction resists / half its weight,",
+  "cue": [
+   10.77,
+   13.155
+  ],
+  "speech": [
+   10.871,
+   12.986
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.169,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "and each person / pushes 300 newtons.",
+  "cue": [
+   13.175,
+   16.045
+  ],
+  "speech": [
+   13.367,
+   15.698
+  ],
+  "lead_s": 0.192,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "That's 490,000 newtons:",
+  "cue": [
+   16.12,
+   18.7
+  ],
+  "speech": [
+   16.225,
+   18.507
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.193,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "about 1,600 perfectly / coordinated people.",
+  "cue": [
+   18.72,
+   22.133
+  ],
+  "speech": [
+   18.925,
+   21.786
+  ],
+  "lead_s": 0.205,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Perfectly is doing / a lot of work.",
+  "cue": [
+   22.22,
+   24.446
+  ],
+  "speech": [
+   22.321,
+   24.081
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.365,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Opposite pushes cancel.",
+  "cue": [
+   24.52,
+   26.185
+  ],
+  "speech": [
+   24.624,
+   25.99
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.195,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Angled ones only partly help.",
+  "cue": [
+   26.205,
+   28.36
+  ],
+  "speech": [
+   26.422,
+   28.222
+  ],
+  "lead_s": 0.217,
+  "tail_s": 0.138,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Most people can't reach it.",
+  "cue": [
+   28.38,
+   30.262
+  ],
+  "speech": [
+   28.536,
+   29.908
+  ],
+  "lead_s": 0.156,
+  "tail_s": 0.354,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Seven inches is a distance, / not the starting force.",
+  "cue": [
+   30.42,
+   33.822
+  ],
+  "speech": [
+   30.523,
+   33.469
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.353,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "The real Bean needs / an anchoring calculation.",
+  "cue": [
+   33.97,
+   37.124
+  ],
+  "speech": [
+   34.073,
+   36.777
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V10",
+  "text": "Chicago brought the squad.",
+  "cue": [
+   37.27,
+   38.89
+  ],
+  "speech": [
+   37.372,
+   38.699
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.191,
+  "ok": true
+ },
+ {
+  "line": "V10",
+  "text": "The Bean brought a foundation.",
+  "cue": [
+   38.91,
+   40.92
+  ],
+  "speech": [
+   39.113,
+   40.577
+  ],
+  "lead_s": 0.203,
+  "tail_s": 0.343,
+  "ok": true
+ },
+ {
+  "line": "V11",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   41.12,
+   44.623
+  ],
+  "speech": [
+   41.253,
+   44.277
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]

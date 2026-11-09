@@ -213,3 +213,8 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Sources verified (CBS Chicago, WXRT, PBC, Aerotrope, Stuart Dean); calculations re-computed; VO 108 words / 39.2 s, all lines heard by Whisper.
 - Committed: sources/assumptions/calculations, narration, cues, film.js, audio/build/QA scripts (45 s), caption, licences, README, context/25, log row.
 - Running: three resumable chunk workers (`build/render_chunks.sh 0…420`, `480…900`, `960…1320`); next `SKIP_FRAMES=1 bash build/build.sh`, QA, commit MP4.
+
+## Checkpoint 2026-11-10 — Bean 45 s special delivered
+- production/45s/2026-11-10-bean/media-diet-bean-45s-01.mp4 (SHA-256 a7a31eaeefb6a15e513c74889b69925e26f4d9fc8303d876d70ecdc407e532f4); record context/25.
+- Checks: 1350 frames, 45.000 s, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −1.9 dBTP; captions y 378–488,
+  0 violations; caption↔speech 18/18; Whisper-medium word recall 1.0 full / 1.0 per line. Earlier episodes untouched. No social publishing.
