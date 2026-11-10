@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mello 30s english09-01 scene</title>
+<style>
+  @font-face { font-family: "Instrument Serif"; font-style: normal; font-weight: 400;
+    src: url("../fonts/instrument-serif-latin-400-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Instrument Serif"; font-style: italic; font-weight: 400;
+    src: url("../fonts/instrument-serif-latin-400-italic.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 500;
+    src: url("../fonts/inter-latin-500-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 600;
+    src: url("../fonts/inter-latin-600-normal.woff2") format("woff2"); }
+  html, body { margin: 0; padding: 0; background: #F2F1F3; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  canvas#gl { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+  /* Caption-safe band: text block lives inside y 340..520, x 90..990. Nothing meaningful above y 300. */
+  #cap { position: absolute; left: 90px; top: 340px; width: 900px; height: 180px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-family: "Instrument Serif", serif; color: #17122E; text-align: center;
+    line-height: 0.94; letter-spacing: -0.003em; will-change: opacity, transform; }
+  #cap .ln { display: block; white-space: nowrap; }
+  #cap .it { font-style: italic; }
+  #cap .hl { background: linear-gradient(transparent 12%, rgba(217,188,245,0.92) 12%, rgba(217,188,245,0.92) 92%, transparent 92%);
+    padding: 0 0.12em; border-radius: 0.08em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  #cap .ln2 { transition: none; }
+  #lock { position: absolute; left: 90px; top: 560px; width: 900px; height: 170px; display: flex;
+    align-items: center; justify-content: center; gap: 28px; opacity: 0; }
+  #lock img { width: 136px; height: 136px; border-radius: 30px; box-shadow: 0 14px 30px rgba(23,18,46,0.22); }
+  #lock .wm { display: flex; flex-direction: column; align-items: flex-start; }
+  #lock .name { font-family: "Instrument Serif", serif; font-size: 118px; line-height: 0.9; color: #17122E; }
+  #lock .sub { font-family: "Inter", sans-serif; font-weight: 500; font-size: 30px; letter-spacing: 0.02em;
+    color: #4A4466; margin-top: 8px; }
+  #guides { position: absolute; inset: 0; pointer-events: none; display: none; }
+  #guides div { position: absolute; border: 2px dashed rgba(255,0,80,0.7); }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "../node_modules/three/build/three.module.js",
+  "three/addons/": "../node_modules/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <div id="cap"></div>
+  <div id="lock">
+    <img id="icon" src="../../../../../assets/icon.png" alt="">
+    <div class="wm"><div class="name">Mello</div><div class="sub">On Google Play</div></div>
+  </div>
+  <div id="guides">
+    <div style="left:0;top:0;width:1076px;height:296px;border-color:rgba(255,120,0,.8)"></div>
+    <div style="left:90px;top:340px;width:896px;height:176px"></div>
+    <div style="left:930px;top:900px;width:146px;height:800px;border-color:rgba(0,120,255,.8)"></div>
+    <div style="left:0;top:1560px;width:1076px;height:356px;border-color:rgba(0,120,255,.8)"></div>
+  </div>
+</div>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

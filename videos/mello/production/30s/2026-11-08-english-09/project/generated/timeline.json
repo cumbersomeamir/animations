@@ -1,0 +1,127 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "A long queue, yet you remember a great day out?",
+      "start": 0.3,
+      "end": 2.927,
+      "pauses": [
+        [
+          1.085,
+          1.378
+        ],
+        [
+          2.293,
+          2.367
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "That's the peak-end rule: we tend to remember the most intense moment and the ending.",
+      "start": 3.4,
+      "end": 8.125,
+      "pauses": [
+        [
+          4.693,
+          5.128
+        ],
+        [
+          7.356,
+          7.428
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In a medical study, gentler final minutes made patients remember the whole procedure as less unpleasant.",
+      "start": 8.6,
+      "end": 14.739,
+      "pauses": [
+        [
+          9.633,
+          10.068
+        ],
+        [
+          11.526,
+          11.597
+        ]
+      ]
+    },
+    {
+      "id": "qual",
+      "text": "It won't decide every memory, but endings carry weight.",
+      "start": 15.2,
+      "end": 18.247,
+      "pauses": [
+        [
+          16.648,
+          16.968
+        ],
+        [
+          18.068,
+          18.156
+        ]
+      ]
+    },
+    {
+      "id": "tip",
+      "text": "So end your workday by finishing one small, meaningful task.",
+      "start": 18.7,
+      "end": 22.126,
+      "pauses": [
+        [
+          19.344,
+          19.44
+        ],
+        [
+          19.613,
+          19.721
+        ],
+        [
+          21.011,
+          21.097
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "text": "Close the loop, then close the laptop.",
+      "start": 22.6,
+      "end": 24.715,
+      "pauses": [
+        [
+          23.256,
+          23.474
+        ],
+        [
+          24.257,
+          24.339
+        ],
+        [
+          24.608,
+          24.681
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}
