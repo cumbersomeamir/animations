@@ -1,0 +1,14 @@
+{
+  "name": "ideaverse-30s-english07-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ideaverse AI-literacy pilot 01 (DOCKET the robot reporter): browser Three.js rendered frame-by-frame in headless Chromium (preinstalled Playwright), FFmpeg encode",
+  "type": "module",
+  "dependencies": {
+    "@fontsource/caveat": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "three": "0.186.1"
+  }
+}
