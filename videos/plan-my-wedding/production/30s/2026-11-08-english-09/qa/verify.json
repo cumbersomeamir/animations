@@ -1,0 +1,114 @@
+{
+  "file": "plan-my-wedding-30s-english09-01.mp4",
+  "size_bytes": 5757151,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 193731
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "end": 2.95,
+      "say": "Beautiful vows, and the back rows heard nothing."
+    },
+    {
+      "id": "n2",
+      "start": 3.37,
+      "end": 6.56,
+      "say": "This made-up sound quote lists two speakers and a playlist."
+    },
+    {
+      "id": "n3",
+      "start": 6.98,
+      "end": 10.94,
+      "say": "No wireless mic, no backup power, and nobody named to run it."
+    },
+    {
+      "id": "n4",
+      "start": 11.36,
+      "end": 14.23,
+      "say": "So before you book, confirm three things in writing."
+    },
+    {
+      "id": "n5",
+      "start": 14.65,
+      "end": 18.27,
+      "say": "Microphones: how many, which are wireless, and spare batteries."
+    },
+    {
+      "id": "n6",
+      "start": 18.69,
+      "end": 22.06,
+      "say": "Power: where it plugs in, and what backs it up if it cuts out."
+    },
+    {
+      "id": "n7",
+      "start": 22.48,
+      "end": 26.02,
+      "say": "Operator: who stays to run it from the vows to the last speech."
+    },
+    {
+      "id": "n8",
+      "start": 26.6,
+      "end": 29.28,
+      "say": "Download Plan My Wedding to keep your checklist."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    26.6,
+    29.28
+  ],
+  "caption_windows": [
+    [
+      0.18,
+      2.95
+    ],
+    [
+      3.37,
+      6.56
+    ],
+    [
+      6.98,
+      10.94
+    ],
+    [
+      11.36,
+      14.23
+    ],
+    [
+      14.65,
+      18.27
+    ],
+    [
+      18.69,
+      22.06
+    ],
+    [
+      22.48,
+      26.02
+    ]
+  ],
+  "words": 83
+}

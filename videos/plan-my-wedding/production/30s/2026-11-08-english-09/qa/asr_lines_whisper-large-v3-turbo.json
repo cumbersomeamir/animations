@@ -1,0 +1,13 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "Beautiful vows, and the back rows heard nothing.",
+    "build/vo/n2.wav": "This made-up sound quote lists two speakers and a playlist.",
+    "build/vo/n3.wav": "No wireless mic, no backup power, and nobody named to run it.",
+    "build/vo/n4.wav": "So before you book, confirm three things in writing.",
+    "build/vo/n5.wav": "Microphones, how many which are wireless and spare batteries.",
+    "build/vo/n6.wav": "Power where it plugs in and what backs it up if it cuts out.",
+    "build/vo/n7.wav": "operator who stays to run it from the vows to the last speech.",
+    "build/vo/n8.wav": "Download Plan, My Wedding to keep your checklist."
+  }
+}
