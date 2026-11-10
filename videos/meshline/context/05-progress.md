@@ -52,3 +52,6 @@
 
 ## Production 2026-11-08-english-09 (English, packet loss and jitter)
 - Done. Output `production/30s/2026-11-08-english-09/meshline-30s-english09-01.mp4`, sha256 `e6e5c16b…a6db`. Details in `22-production-30s-english09-01.md`.
+
+## Production 2026-11-09-english-10 (English, full Wi-Fi bars but no internet)
+- Done. Output `production/30s/2026-11-09-english-10/meshline-30s-english10-01.mp4`, sha256 `cc71097a…f6c9`. Details in `23-production-30s-english10-01.md`.

@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Full Wi-Fi bars, but nothing loads?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 2.032,
+      "end": 2.282
+    },
+    {
+      "id": "l2",
+      "start": 3.01,
+      "text": "Those bars measure only the radio link between your phone and the router.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 4.318,
+      "end": 7.328
+    },
+    {
+      "id": "l3",
+      "start": 8.06,
+      "text": "The internet is a second link, from the router out to your provider.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.595,
+      "end": 11.655
+    },
+    {
+      "id": "l4",
+      "start": 12.38,
+      "text": "When that link is down, the bars stay full and nothing gets through.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.55,
+      "end": 15.93
+    },
+    {
+      "id": "l5",
+      "start": 16.66,
+      "text": "Quick check: if another device can't load either, it's the connection, not your phone.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.666,
+      "end": 21.326
+    },
+    {
+      "id": "l6",
+      "start": 22.06,
+      "text": "Then check the router's cables, or restart the router and modem.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.481,
+      "end": 25.541
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.409,
+      "end": 29.549
+    }
+  ]
+}

@@ -81,3 +81,6 @@
 
 ## Production 2026-11-08-english-09 (English, packet loss and jitter): complete
 - See `22-production-30s-english09-01.md`; output sha256 `e6e5c16bde48cd66a40a4974957ea1b97cc9203328eca8f68e3be4361417a6db`.
+
+## Production 2026-11-09-english-10 (English, full Wi-Fi bars but no internet): complete
+- See `23-production-30s-english10-01.md`; output sha256 `cc71097a9a1e937f5a2530509d2ee6114b2c76f7e54985f4ebd6f185be59f6c9`.

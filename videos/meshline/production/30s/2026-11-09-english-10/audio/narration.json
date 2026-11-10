@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Full Wi-Fi bars, but nothing loads?"
+    },
+    {
+      "id": "l2",
+      "start": 3.01,
+      "text": "Those bars measure only the radio link between your phone and the router."
+    },
+    {
+      "id": "l3",
+      "start": 8.06,
+      "text": "The internet is a second link, from the router out to your provider."
+    },
+    {
+      "id": "l4",
+      "start": 12.38,
+      "text": "When that link is down, the bars stay full and nothing gets through."
+    },
+    {
+      "id": "l5",
+      "start": 16.66,
+      "text": "Quick check: if another device can't load either, it's the connection, not your phone."
+    },
+    {
+      "id": "l6",
+      "start": 22.06,
+      "text": "Then check the router's cables, or restart the router and modem."
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 2.282,
+  "text": "Full Wi-Fi bars, but nothing loads?",
+  "speech_band_db": 28.6
+ },
+ {
+  "id": "l2",
+  "start": 3.01,
+  "end": 7.328,
+  "text": "Those bars measure only the radio link between your phone and the router.",
+  "speech_band_db": 22.4
+ },
+ {
+  "id": "l3",
+  "start": 8.06,
+  "end": 11.655,
+  "text": "The internet is a second link, from the router out to your provider.",
+  "speech_band_db": 19.0
+ },
+ {
+  "id": "l4",
+  "start": 12.38,
+  "end": 15.93,
+  "text": "When that link is down, the bars stay full and nothing gets through.",
+  "speech_band_db": 23.4
+ },
+ {
+  "id": "l5",
+  "start": 16.66,
+  "end": 21.326,
+  "text": "Quick check: if another device can't load either, it's the connection, not your phone.",
+  "speech_band_db": 22.8
+ },
+ {
+  "id": "l6",
+  "start": 22.06,
+  "end": 25.541,
+  "text": "Then check the router's cables, or restart the router and modem.",
+  "speech_band_db": 21.0
+ },
+ {
+  "id": "l7",
+  "start": 26.14,
+  "end": 29.549,
+  "text": "Download Meshline for nearby messaging, even offline.",
+  "speech_band_db": 21.5
+ }
+]

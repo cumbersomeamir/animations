@@ -1,0 +1,181 @@
+{
+ "rule": "ink y in [350,470], x in [90,990]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 2.582,
+   "lines": [
+    "Full Wi-Fi bars,",
+    "but nothing loads?"
+   ],
+   "ink": {
+    "x0": 319,
+    "x1": 761,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 2.96,
+   "b": 5.14,
+   "lines": [
+    "Those bars measure only",
+    "the radio link"
+   ],
+   "ink": {
+    "x0": 239,
+    "x1": 840,
+    "y0": 360,
+    "y1": 457
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 5.18,
+   "b": 7.628,
+   "lines": [
+    "between your phone",
+    "and the router"
+   ],
+   "ink": {
+    "x0": 296,
+    "x1": 785,
+    "y0": 360,
+    "y1": 457
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.01,
+   "b": 9.41,
+   "lines": [
+    "The internet is a second link,"
+   ],
+   "ink": {
+    "x0": 200,
+    "x1": 877,
+    "y0": 360,
+    "y1": 405
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 9.45,
+   "b": 11.955,
+   "lines": [
+    "from the router out",
+    "to your provider"
+   ],
+   "ink": {
+    "x0": 313,
+    "x1": 765,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 12.33,
+   "b": 13.49,
+   "lines": [
+    "When that link is down,"
+   ],
+   "ink": {
+    "x0": 263,
+    "x1": 814,
+    "y0": 360,
+    "y1": 405
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 13.53,
+   "b": 16.23,
+   "lines": [
+    "the bars stay full",
+    "and nothing gets through"
+   ],
+   "ink": {
+    "x0": 238,
+    "x1": 839,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 16.61,
+   "b": 19.47,
+   "lines": [
+    "Quick check: if another",
+    "device can't load either,"
+   ],
+   "ink": {
+    "x0": 258,
+    "x1": 820,
+    "y0": 360,
+    "y1": 465
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 19.51,
+   "b": 21.626,
+   "lines": [
+    "it's the connection,",
+    "not your phone"
+   ],
+   "ink": {
+    "x0": 313,
+    "x1": 765,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 22.01,
+   "b": 25.841,
+   "lines": [
+    "Then check the router's cables,",
+    "or restart the router and modem"
+   ],
+   "ink": {
+    "x0": 157,
+    "x1": 921,
+    "y0": 360,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 26.09,
+   "b": 29.849,
+   "lines": [
+    "Download Meshline for",
+    "nearby messaging, even offline"
+   ],
+   "ink": {
+    "x0": 171,
+    "x1": 909,
+    "y0": 360,
+    "y1": 468
+   },
+   "pass": true
+  }
+ ]
+}

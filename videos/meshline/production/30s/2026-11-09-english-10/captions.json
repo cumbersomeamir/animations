@@ -1,0 +1,99 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 2.582,
+  "l": [
+   "Full Wi-Fi bars,",
+   "but nothing loads?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 2.96,
+  "b": 5.14,
+  "l": [
+   "Those bars measure only",
+   "the radio link"
+  ]
+ },
+ {
+  "id": "l2b",
+  "a": 5.18,
+  "b": 7.628,
+  "l": [
+   "between your phone",
+   "and the router"
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 8.01,
+  "b": 9.41,
+  "l": [
+   "The internet is a second link,"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.45,
+  "b": 11.955,
+  "l": [
+   "from the router out",
+   "to your provider"
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 12.33,
+  "b": 13.49,
+  "l": [
+   "When that link is down,"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 13.53,
+  "b": 16.23,
+  "l": [
+   "the bars stay full",
+   "and nothing gets through"
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 16.61,
+  "b": 19.47,
+  "l": [
+   "Quick check: if another",
+   "device can't load either,"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 19.51,
+  "b": 21.626,
+  "l": [
+   "it's the connection,",
+   "not your phone"
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 22.01,
+  "b": 25.841,
+  "l": [
+   "Then check the router's cables,",
+   "or restart the router and modem"
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.09,
+  "b": 29.849,
+  "l": [
+   "Download Meshline for",
+   "nearby messaging, even offline"
+  ]
+ }
+]

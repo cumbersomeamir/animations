@@ -187,3 +187,8 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Make the hook literally true on screen.** If the narration asks why something freezes, the first seconds must show it frozen, not a random-probability effect that may never trigger. Use a scripted burst.
 - **Drive the picture from the data.** The call screen's motion only advances with packets that actually arrived, so freezes and skips are caused, not decorated.
 - **Queue rule:** when several batches arrive together, finish them strictly in order (09 → 10 → 11), each committed and pushed separately.
+| 12 | 2026-11-09-english-10 | Full Wi-Fi bars, but no internet (radio link vs internet link), **English** | `production/30s/2026-11-09-english-10/meshline-30s-english10-01.mp4` |
+
+## User feedback 2026-11-09, batch english-10 (specific adjustments only)
+- **Hook legibility:** open close enough that the key on-screen evidence (here: the full bars and the spinner) reads at phone size; add a two-word tag if needed.
+- **Video-only rebuilds:** when only framing changes, verify that the decoded audio hash is unchanged instead of re-running ASR.
