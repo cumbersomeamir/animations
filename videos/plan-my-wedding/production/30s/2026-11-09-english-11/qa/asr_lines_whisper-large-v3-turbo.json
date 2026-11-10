@@ -1,0 +1,11 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "The budget adds up. The due dates don't.",
+    "build/vo/n2.wav": "In this made-up plan, the venue, caterer, and photographer each want a deposit, then a balance.",
+    "build/vo/n3.wav": "The deposits are spread out, but all three balances land in the same month, just before the wedding.",
+    "build/vo/n4.wav": "So before you sign, list every payment with its due date and start saving early for that heavy month.",
+    "build/vo/n5.wav": "Ask what's refundable if plans change and get the whole schedule in writing.",
+    "build/vo/n6.wav": "Download Plan, My Wedding to monitor your budget."
+  }
+}

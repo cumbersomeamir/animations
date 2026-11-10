@@ -1,0 +1,93 @@
+{
+  "voice": {
+    "mix": [
+      [
+        "af_bella",
+        0.7
+      ],
+      [
+        "am_puck",
+        0.3
+      ]
+    ],
+    "lang": "en-us",
+    "speed": 0.98
+  },
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX (fp32)",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "say": "The budget adds up. The due dates don't.",
+      "duration": 2.214,
+      "end": 2.394,
+      "onsets": [
+        0,
+        1.25
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 3,
+      "say": "In this made-up plan, the venue, caterer and photographer each want a deposit, then a balance.",
+      "duration": 5.891,
+      "end": 8.891,
+      "onsets": [
+        0,
+        0.87,
+        1.59,
+        2.31,
+        5.09
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 9,
+      "say": "The deposits are spread out, but all three balances land in the same month, just before the wedding.",
+      "duration": 5.736,
+      "end": 14.736,
+      "onsets": [
+        0,
+        1.82,
+        4.33,
+        4.61
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 14.5,
+      "say": "So before you sign, list every payment with its due date, and start saving early for that heavy month.",
+      "duration": 5.881,
+      "end": 20.381,
+      "onsets": [
+        0,
+        1.45,
+        3.6
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 18.5,
+      "say": "Ask what's refundable if plans change, and get the whole schedule in writing.",
+      "duration": 4.585,
+      "end": 23.085,
+      "onsets": [
+        0,
+        1.49,
+        2.75
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 26.6,
+      "say": "Download Plan My Wedding to monitor your budget.",
+      "duration": 2.931,
+      "end": 29.531,
+      "onsets": [
+        0,
+        0.54,
+        1.09
+      ]
+    }
+  ]
+}
