@@ -1,0 +1,190 @@
+{
+ "note": "scroll = grid content scroll (720px source space) from the top state; dy = distance still to travel to the final scrolled state. Tile r4c2 final rect x240-478 y762-1079; tile r2c1 at scroll 0 x0-238 y795-1111.",
+ "frames": [
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.07
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.25
+  },
+  {
+   "scroll": 0,
+   "dy": 671,
+   "err": 5.44
+  },
+  {
+   "scroll": 34,
+   "dy": 637,
+   "err": 6.03
+  },
+  {
+   "scroll": 66,
+   "dy": 605,
+   "err": 6.19
+  },
+  {
+   "scroll": 83,
+   "dy": 588,
+   "err": 6.06
+  },
+  {
+   "scroll": 125,
+   "dy": 546,
+   "err": 5.8
+  },
+  {
+   "scroll": 157,
+   "dy": 514,
+   "err": 5.12
+  },
+  {
+   "scroll": 186,
+   "dy": 485,
+   "err": 5.54
+  },
+  {
+   "scroll": 216,
+   "dy": 455,
+   "err": 5.42
+  },
+  {
+   "scroll": 246,
+   "dy": 425,
+   "err": 5.34
+  },
+  {
+   "scroll": 277,
+   "dy": 394,
+   "err": 4.76
+  },
+  {
+   "scroll": 307,
+   "dy": 364,
+   "err": 4.72
+  },
+  {
+   "scroll": 336,
+   "dy": 335,
+   "err": 5.04
+  },
+  {
+   "scroll": 365,
+   "dy": 306,
+   "err": 4.64
+  },
+  {
+   "scroll": 381,
+   "dy": 290,
+   "err": 4.38
+  },
+  {
+   "scroll": 422,
+   "dy": 249,
+   "err": 3.91
+  },
+  {
+   "scroll": 457,
+   "dy": 214,
+   "err": 3.43
+  },
+  {
+   "scroll": 485,
+   "dy": 186,
+   "err": 3.21
+  },
+  {
+   "scroll": 516,
+   "dy": 155,
+   "err": 3.04
+  },
+  {
+   "scroll": 547,
+   "dy": 124,
+   "err": 2.8
+  },
+  {
+   "scroll": 575,
+   "dy": 96,
+   "err": 2.66
+  },
+  {
+   "scroll": 597,
+   "dy": 74,
+   "err": 2.45
+  },
+  {
+   "scroll": 620,
+   "dy": 51,
+   "err": 2.07
+  },
+  {
+   "scroll": 638,
+   "dy": 33,
+   "err": 1.71
+  },
+  {
+   "scroll": 650,
+   "dy": 21,
+   "err": 1.42
+  },
+  {
+   "scroll": 658,
+   "dy": 13,
+   "err": 1.14
+  },
+  {
+   "scroll": 664,
+   "dy": 7,
+   "err": 1.02
+  },
+  {
+   "scroll": 668,
+   "dy": 3,
+   "err": 1.03
+  },
+  {
+   "scroll": 670,
+   "dy": 1,
+   "err": 1.08
+  }
+ ]
+}

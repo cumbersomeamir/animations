@@ -1,0 +1,19 @@
+{
+  "name": "ideaverse-discover-not-my-life",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Not My Life - 25s vertical film. Three.js scene rendered frame-by-frame in headless Chromium (Playwright), encoded with FFmpeg.",
+  "scripts": {
+    "fetch": "bash scripts/fetch_sources.sh",
+    "assets": "python3 scripts/prepare_assets.py",
+    "render": "node scripts/render.mjs",
+    "audio": "python3 scripts/audio.py",
+    "mux": "bash scripts/mux.sh",
+    "qa": "python3 scripts/qa.py",
+    "all": "npm run assets && npm run render && npm run audio && npm run mux && npm run qa"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  }
+}

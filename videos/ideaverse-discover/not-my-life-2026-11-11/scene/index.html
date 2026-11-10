@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Not My Life - render scene</title>
+<style>
+  @font-face { font-family: 'NMLDisplay'; font-weight: 700; src: url('../assets/fonts/InterDisplay-Bold.otf') format('opentype'); }
+  @font-face { font-family: 'NMLDisplay'; font-weight: 600; src: url('../assets/fonts/InterDisplay-SemiBold.otf') format('opentype'); }
+  html, body { margin: 0; background: #000; }
+  canvas { display: block; }
+  #text { display: none; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "../node_modules/three/build/three.module.js",
+  "three/addons/": "../node_modules/three/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<canvas id="text" width="1080" height="1920"></canvas>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
