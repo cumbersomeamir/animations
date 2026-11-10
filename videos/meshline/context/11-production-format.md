@@ -192,3 +192,12 @@ This is reference for later rounds. **No automation has been created.** Each rou
 ## User feedback 2026-11-09, batch english-10 (specific adjustments only)
 - **Hook legibility:** open close enough that the key on-screen evidence (here: the full bars and the spinner) reads at phone size; add a two-word tag if needed.
 - **Video-only rebuilds:** when only framing changes, verify that the decoded audio hash is unchanged instead of re-running ASR.
+| 13 | 2026-11-09-english-11 | Why a text gets through when a call won't (call needs a held path; text is one tiny burst), **English** | `production/30s/2026-11-09-english-11/meshline-30s-english11-01.mp4` |
+
+## User feedback 2026-11-09, batch english-11 (specific adjustments only)
+- **Topic swap:** "crowded concert, strong signal, network fails" is episode 01 again. It was swapped for the planned title "one bar can still send a text", keeping the brief's busy doorway, meeting point and nearby angle. Still unused planned titles: what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
+- **Glyphs:** Inter has no "✕". Draw marks as strokes (`tag()` helper) and never type ✕ into a label.
+- **Caption anchors:** a long anchor must not match a shorter ASR word by reverse prefix ("then" vs "the"). Reverse-prefix matches need an ASR word of more than 3 letters.
+- **Voice margin:** keep cues under narration quiet enough that every line stays at or above +17 dB speech-band voice/bed. Check `voice_balance.json` before QA.
+- **Emergency wording:** advise texting only for checking in (non-emergency), as the FCC/FEMA tips say. Never suggest texting emergency services.
+

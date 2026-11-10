@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Your call won't connect, but a text still gets through?"
+    },
+    {
+      "id": "l2",
+      "start": 3.49,
+      "text": "A call needs a path held open for every second you talk."
+    },
+    {
+      "id": "l3",
+      "start": 7.47,
+      "text": "A text is one tiny burst, up to 160 characters."
+    },
+    {
+      "id": "l4",
+      "start": 12.02,
+      "text": "It needs less signal, and the network can hold it, then deliver it in a gap."
+    },
+    {
+      "id": "l5",
+      "start": 16.83,
+      "text": "So emergency guides say: to check in, text instead of calling."
+    },
+    {
+      "id": "l6",
+      "start": 21.4,
+      "text": "Before a busy event, agree a meeting point, so one short text is enough."
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline."
+    }
+  ]
+}

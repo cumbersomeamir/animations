@@ -22,3 +22,4 @@
 | Production 30s batch 2026-11-07-english-08 (English, latency vs bandwidth) | Original code in `production/30s/2026-11-07-english-08/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-08-english-09 (English, packet loss and jitter) | Original code in `production/30s/2026-11-08-english-09/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-09-english-10 (English, full Wi-Fi bars but no internet) | Original code in `production/30s/2026-11-09-english-10/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s batch 2026-11-09-english-11 (English, why a text gets through when a call won't) | Original code in `production/30s/2026-11-09-english-11/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

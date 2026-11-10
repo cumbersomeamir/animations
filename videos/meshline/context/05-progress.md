@@ -55,3 +55,6 @@
 
 ## Production 2026-11-09-english-10 (English, full Wi-Fi bars but no internet)
 - Done. Output `production/30s/2026-11-09-english-10/meshline-30s-english10-01.mp4`, sha256 `cc71097a…f6c9`. Details in `23-production-30s-english10-01.md`.
+
+## Production 2026-11-09-english-11 (English, why a text gets through when a call won't)
+- Done. Output `production/30s/2026-11-09-english-11/meshline-30s-english11-01.mp4`, sha256 `13bc1b0b…ac3e`. Details, the topic-swap reason, sources, QA and the empty queue are in `24-production-30s-english11-01.md`.

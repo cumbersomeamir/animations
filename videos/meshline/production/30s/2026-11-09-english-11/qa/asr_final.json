@@ -1,0 +1,46 @@
+{
+ "reference": "Your call won't connect, but a text still gets through? A call needs a path held open for every second you talk. A text is one tiny burst, up to 160 characters. It needs less signal, and the network can hold it, then deliver it in a gap. So emergency guides say: to check in, text instead of calling. Before a busy event, agree a meeting point, so one short text is enough. Download Meshline for nearby messaging, even offline.",
+ "asr": "Your call won't connect, but a text still gets through. A call needs a path held open for every second you talk. A text is one tiny burst, up to 160 characters. It needs less signal, and the network can hold it, then deliver it in a gap. So emergency guides say, to check in text instead of calling. Before a busy event, agree a meeting point, so one short text is enough. Download Meshline for nearby messaging, even offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.0,
+   "Your call won't connect, but a text still gets through."
+  ],
+  [
+   3.0,
+   7.0,
+   "A call needs a path held open for every second you talk."
+  ],
+  [
+   7.0,
+   12.0,
+   "A text is one tiny burst, up to 160 characters."
+  ],
+  [
+   12.0,
+   17.0,
+   "It needs less signal, and the network can hold it, then deliver it in a gap."
+  ],
+  [
+   17.0,
+   21.0,
+   "So emergency guides say, to check in text instead of calling."
+  ],
+  [
+   21.0,
+   26.0,
+   "Before a busy event, agree a meeting point, so one short text is enough."
+  ],
+  [
+   26.0,
+   30.0,
+   "Download Meshline for nearby messaging, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "both sides lower-cased, punctuation stripped; \"160\" is transcribed as the digits 160 in both reference and ASR",
+ "remaining_diffs": [],
+ "audio_pcm_sha256_prefix": "0f8fd8ca45bb7b37"
+}

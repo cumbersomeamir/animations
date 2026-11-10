@@ -84,3 +84,7 @@
 
 ## Production 2026-11-09-english-10 (English, full Wi-Fi bars but no internet): complete
 - See `23-production-30s-english10-01.md`; output sha256 `cc71097a9a1e937f5a2530509d2ee6114b2c76f7e54985f4ebd6f185be59f6c9`.
+
+## Production 2026-11-09-english-11 (English, why a text gets through when a call won't): complete
+- See `24-production-30s-english11-01.md`; output sha256 `13bc1b0b925065d61310751d6bb714ea76a7e5bdaf699f61de8580732e6cac3e`.
+- Topic swap: the suggested crowded-concert topic duplicates episode 01, so the unused planned title "one bar can still send a text" was used, keeping the brief's busy-doorway / meeting-point / nearby angle.

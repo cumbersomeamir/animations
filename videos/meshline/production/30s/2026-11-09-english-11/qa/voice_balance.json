@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 2.845,
+  "text": "Your call won't connect, but a text still gets through?",
+  "speech_band_db": 22.3
+ },
+ {
+  "id": "l2",
+  "start": 3.49,
+  "end": 6.825,
+  "text": "A call needs a path held open for every second you talk.",
+  "speech_band_db": 22.6
+ },
+ {
+  "id": "l3",
+  "start": 7.47,
+  "end": 11.378,
+  "text": "A text is one tiny burst, up to 160 characters.",
+  "speech_band_db": 17.5
+ },
+ {
+  "id": "l4",
+  "start": 12.02,
+  "end": 16.191,
+  "text": "It needs less signal, and the network can hold it, then deliver it in a gap.",
+  "speech_band_db": 24.8
+ },
+ {
+  "id": "l5",
+  "start": 16.83,
+  "end": 20.756,
+  "text": "So emergency guides say: to check in, text instead of calling.",
+  "speech_band_db": 22.1
+ },
+ {
+  "id": "l6",
+  "start": 21.4,
+  "end": 25.537,
+  "text": "Before a busy event, agree a meeting point, so one short text is enough.",
+  "speech_band_db": 20.1
+ },
+ {
+  "id": "l7",
+  "start": 26.14,
+  "end": 29.549,
+  "text": "Download Meshline for nearby messaging, even offline.",
+  "speech_band_db": 21.6
+ }
+]
