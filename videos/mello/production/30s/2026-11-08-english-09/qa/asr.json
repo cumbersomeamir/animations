@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "A long queue, yet you remember a great day out? That's the peak-end rule: we tend to remember the most intense moment and the ending. In a medical study, gentler final minutes made patients remember the whole procedure as less unpleasant. It won't decide every memory, but endings carry weight. So end your workday by finishing one small, meaningful task. Close the loop, then close the laptop. Take a mindful break with Mello.",
+  "transcript": "A long queue, yet you remember a great day out. That's the peak-end rule. We tend to remember the most intense moment and the ending. In a medical study, gentler final minutes made patients remember the whole procedure as less unpleasant. It won't decide every memory, but endings carry weight. So end your workday by finishing one small, meaningful task. Close the loop, then close the laptop. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 2.927,
+      "text": "A long queue, yet you remember a great day out.",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 3.4,
+      "end": 8.125,
+      "text": "That's the peak-end rule. We tend to remember the most intense moment and the ending.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 8.6,
+      "end": 14.739,
+      "text": "In a medical study, gentler final minutes made patients remember the whole procedure as less unpleasant.",
+      "cer": 0.0
+    },
+    {
+      "id": "qual",
+      "start": 15.2,
+      "end": 18.247,
+      "text": "It won't decide every memory, but endings carry weight.",
+      "cer": 0.0
+    },
+    {
+      "id": "tip",
+      "start": 18.7,
+      "end": 22.126,
+      "text": "So end your workday by finishing one small, meaningful task.",
+      "cer": 0.0
+    },
+    {
+      "id": "close",
+      "start": 22.6,
+      "end": 24.715,
+      "text": "Close the loop, then close the laptop.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
