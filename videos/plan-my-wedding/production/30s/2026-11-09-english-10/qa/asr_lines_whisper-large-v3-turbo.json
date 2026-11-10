@@ -1,0 +1,12 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/vo/n1.wav": "Plenty of food, and the buffet line still crawls.",
+    "build/vo/n2.wav": "In this made-up layout, two cues merge at one serving point.",
+    "build/vo/n3.wav": "Everyone waits for the same spoon, and the line backs up.",
+    "build/vo/n4.wav": "Split it into separate stations, each with its own queue and a one-way flow.",
+    "build/vo/n5.wav": "and keep an accessible route. Step free, wide and clear with food within reach.",
+    "build/vo/n6.wav": "On your venue walkthrough, check where each queue starts, where it exits, and the route a wheelchair takes.",
+    "build/vo/n7.wav": "Download Plan, my wedding to build your checklist."
+  }
+}

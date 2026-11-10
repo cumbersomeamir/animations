@@ -1,0 +1,104 @@
+{
+  "file": "plan-my-wedding-30s-english10-01.mp4",
+  "size_bytes": 6469616,
+  "duration_s": 30,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 900,
+    "duration_s": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 30,
+    "bit_rate": 192602
+  },
+  "loudness": {
+    "integrated_lufs": -16,
+    "true_peak_dbfs": -1.5,
+    "max_volume_db": -1.5
+  },
+  "full_decode_errors": "none",
+  "narration": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "end": 2.91,
+      "say": "Plenty of food, and the buffet line still crawls."
+    },
+    {
+      "id": "n2",
+      "start": 3.19,
+      "end": 6.84,
+      "say": "In this made-up layout, two queues merge at one serving point."
+    },
+    {
+      "id": "n3",
+      "start": 7.09,
+      "end": 10.34,
+      "say": "Everyone waits for the same spoon, and the line backs up."
+    },
+    {
+      "id": "n4",
+      "start": 10.61,
+      "end": 14.97,
+      "say": "Split it into separate stations, each with its own queue and a one-way flow."
+    },
+    {
+      "id": "n5",
+      "start": 15.26,
+      "end": 19.99,
+      "say": "And keep an accessible route: step-free, wide and clear, with food within reach."
+    },
+    {
+      "id": "n6",
+      "start": 20.27,
+      "end": 25.93,
+      "say": "On your venue walkthrough, check where each queue starts, where it exits, and the route a wheelchair takes."
+    },
+    {
+      "id": "n7",
+      "start": 26.55,
+      "end": 29.3,
+      "say": "Download Plan My Wedding to build your checklist."
+    }
+  ],
+  "narration_overlaps": [],
+  "cta_window_s": [
+    26.55,
+    29.3
+  ],
+  "caption_windows": [
+    [
+      0.18,
+      2.91
+    ],
+    [
+      3.19,
+      6.84
+    ],
+    [
+      7.09,
+      10.33
+    ],
+    [
+      10.61,
+      14.98
+    ],
+    [
+      15.26,
+      19.99
+    ],
+    [
+      20.27,
+      25.93
+    ]
+  ],
+  "words": 84
+}

@@ -1,0 +1,99 @@
+{
+  "voice": {
+    "mix": [
+      [
+        "af_bella",
+        0.7
+      ],
+      [
+        "am_puck",
+        0.3
+      ]
+    ],
+    "lang": "en-us",
+    "speed": 0.98
+  },
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX (fp32)",
+  "lines": [
+    {
+      "id": "n1",
+      "start": 0.18,
+      "say": "Plenty of food, and the buffet line still crawls.",
+      "duration": 2.725,
+      "end": 2.905,
+      "onsets": [
+        0,
+        1.02
+      ]
+    },
+    {
+      "id": "n2",
+      "start": 3.4,
+      "say": "In this made-up layout, two queues merge at one serving point.",
+      "duration": 3.646,
+      "end": 7.046,
+      "onsets": [
+        0,
+        1.54
+      ]
+    },
+    {
+      "id": "n3",
+      "start": 7.4,
+      "say": "Everyone waits for the same spoon, and the line backs up.",
+      "duration": 3.245,
+      "end": 10.645,
+      "onsets": [
+        0,
+        2.06,
+        3.15
+      ]
+    },
+    {
+      "id": "n4",
+      "start": 9.6,
+      "say": "Split it into separate stations, each with its own queue and a one-way flow.",
+      "duration": 4.365,
+      "end": 13.965,
+      "onsets": [
+        0,
+        1.99
+      ]
+    },
+    {
+      "id": "n5",
+      "start": 13,
+      "say": "And keep an accessible route: step-free, wide and clear, with food within reach.",
+      "duration": 4.726,
+      "end": 17.726,
+      "onsets": [
+        0,
+        1.8
+      ]
+    },
+    {
+      "id": "n6",
+      "start": 18.5,
+      "say": "On your venue walkthrough, check where each queue starts, where it exits, and the route a wheelchair takes.",
+      "duration": 5.66,
+      "end": 24.16,
+      "onsets": [
+        0,
+        1.41,
+        4.03
+      ]
+    },
+    {
+      "id": "n7",
+      "start": 26.6,
+      "say": "Download Plan My Wedding to build your checklist.",
+      "duration": 2.755,
+      "end": 29.355,
+      "onsets": [
+        0,
+        0.55,
+        1.11
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "model": "onnx-community/whisper-large-v3-turbo",
+  "out": {
+    "build/final_audio.wav": "Plenty of food and the buffet line still crawls. In this made-up layout, two queues merge at one serving point. Everyone waits for the same spoon and the line backs up. Split it into separate stations, each with its own queue and a one-way flow. And keep an accessible route. Step free, wide and clear with food within reach. On your venue walkthrough, check where each queue starts, where it exits and and the route a wheelchair takes. Download Plan, My Wedding, to build your checklist."
+  },
+  "segment_recheck_n6_20_1_to_26_1": {
+    "text": "On your venue walkthrough, check where each queue starts, where it exits, and the route a wheelchair takes.",
+    "note": "long-form chunked pass doubled \"and\"; isolated segment of the same final audio is correct"
+  }
+}
