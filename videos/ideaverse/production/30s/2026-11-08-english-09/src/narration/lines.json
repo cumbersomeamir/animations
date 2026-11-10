@@ -1,0 +1,8 @@
+[
+  {"id": "s1", "text": "None of these photos is called dog. So how did search find him?"},
+  {"id": "s2", "text": "Your photos app looks at each picture and tags what it sees: dog, beach, cake."},
+  {"id": "s3", "text": "Search matches your word to those tags, not only file names."},
+  {"id": "s4", "text": "Mistakes happen: this goat got tagged as a dog."},
+  {"id": "s5", "text": "So search for what was in a lost photo: a receipt, a beach, a cake."},
+  {"id": "s6", "text": "Download the Ideaverse app."}
+]

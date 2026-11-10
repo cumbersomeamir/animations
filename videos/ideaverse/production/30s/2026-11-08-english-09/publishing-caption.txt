@@ -1,0 +1,18 @@
+None of these photos is called dog. So how did search find him? 🐶🔍
+
+Your photos app looks at each picture and tags what it sees: dog, beach, cake.
+Search matches your word to those tags, not only file names.
+Mistakes happen: this goat got tagged as a dog.
+So search for what was in a lost photo: a receipt, a beach, a cake.
+
+Download the Ideaverse app.
+
+(The photos and screens in the video are examples.)
+
+Sources:
+• Google Research, Improving Photo Search: A Step Across the Semantic Gap (2013): https://research.google/blog/improving-photo-search-a-step-across-the-semantic-gap/
+• Apple Machine Learning Research, A Multi-Task Neural Architecture for On-Device Scene Analysis: https://machinelearning.apple.com/research/on-device-scene-analysis
+• Apple iPhone User Guide, Search for photos and videos: https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios
+• Google Photos Help, Search by people, things & places in your photos: https://support.google.com/photos/answer/15235862
+
+#EverydayAI #AI #PhotoTips #PhoneTips #Ideaverse

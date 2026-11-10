@@ -192,3 +192,8 @@ Use only when a meme episode is requested; the established lesson style above st
   so a fresh everyday-AI-mystery subject was used: portrait-mode background blur (context/23).
 - New canvas technique inside the same style: the fictional photo is built from depth layers and blurred per layer with
   canvas `filter: blur()`; renderAt now sets the camera before the stage so billboard labels use the same frame's camera.
+
+## Batches 2026-11-08-english-09 → 2026-11-09-english-11 — English (style unchanged)
+- Same voice/captions/renderer (each batch copies the previous src). english-09: photo-library search (context/24).
+- Easel card canvas drawn at 2x (setTransform(2,…)) when the camera pushes into a small part of the card.
+- Queue order kept: english-09 finished first, then english-10, then english-11 (user: finish earlier jobs in order).

@@ -115,3 +115,15 @@
 - Commands: 2026-11-07-english-08/build.sh and qa.sh (ASRPY=<python with faster-whisper> ./qa.sh).
 - Checks: full decode OK; ASR all lines MATCH, no words outside captions; caption SPEC PASS; earlier 13 MP4s unchanged.
 - Unresolved: ASR-only listening limitation. Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — production 30s english-09 (2026-11-08) — supersedes english-08 status above
+## Facts
+- Brief: English lesson, batch 2026-11-08-english-09: photo search finds a dog without file names (fresh; record context/24).
+- Queued after it (user, 2026-11-09): english-10 (suggested live-captions topic = repeat of english-06 → fresh subject needed)
+  and english-11 (suggested passer-by removal = repeat of hindi03-01 → fresh subject needed). Order: 09 → 10 → 11.
+## Decisions
+- Renderer/style/voice/caption treatment from english-08 unchanged; new scene `src/stage/photosearch.js`.
+- s3 reworded twice (accuracy, then ASR) → "not only file names". Query typing clicks removed from under "a beach".
+## Status — RENDERING
+- Full frame render: `cd src && node render.mjs --frames --workers=3`; then encode, caplog, score, master, mux, qa.sh.
