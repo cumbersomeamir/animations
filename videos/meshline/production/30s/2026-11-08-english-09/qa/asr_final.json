@@ -1,0 +1,75 @@
+{
+ "reference": "Your speed test looks fast; why does the video call freeze? Calls send a steady stream of small packets, timed evenly. Missing ones are packet loss: the picture freezes or skips. Uneven arrivals are jitter: the app must wait and buffer. Call networks target at most one lost packet per thousand, and jitter within fifty milliseconds. Bandwidth and latency can look fine; check loss and jitter too. Download Meshline for nearby messaging, even offline.",
+ "asr": "Your speed test looks fast. Why does the video call freeze? Calls send a steady stream of small packets, timed evenly. Missing ones are packet loss. The picture freezes or skips. Uneven arrivals are jitter. The app must wait and buffer. Call networks target at most one lost packet per thousand, and jitter within 50 milliseconds. Bandwidth and latency can look fine. Check loss and jitter too. Download meshline for nearby messaging. Even offline.",
+ "wer": 0.014,
+ "segments": [
+  [
+   0.0,
+   2.0,
+   "Your speed test looks fast."
+  ],
+  [
+   2.0,
+   4.0,
+   "Why does the video call freeze?"
+  ],
+  [
+   4.0,
+   8.0,
+   "Calls send a steady stream of small packets, timed evenly."
+  ],
+  [
+   8.0,
+   10.0,
+   "Missing ones are packet loss."
+  ],
+  [
+   10.0,
+   12.0,
+   "The picture freezes or skips."
+  ],
+  [
+   12.0,
+   14.0,
+   "Uneven arrivals are jitter."
+  ],
+  [
+   14.0,
+   16.0,
+   "The app must wait and buffer."
+  ],
+  [
+   16.0,
+   19.0,
+   "Call networks target at most one lost packet per thousand,"
+  ],
+  [
+   19.0,
+   22.0,
+   "and jitter within 50 milliseconds."
+  ],
+  [
+   22.0,
+   24.0,
+   "Bandwidth and latency can look fine."
+  ],
+  [
+   24.0,
+   26.0,
+   "Check loss and jitter too."
+  ],
+  [
+   26.0,
+   28.0,
+   "Download meshline for nearby messaging."
+  ],
+  [
+   28.0,
+   30.0,
+   "Even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "digits\u2192words (50\u2192fifty)",
+ "remaining_diffs": []
+}

@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Your speed test looks fast; why does the video call freeze?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.56,
+      "end": 3.81
+    },
+    {
+      "id": "l2",
+      "start": 4.19,
+      "text": "Calls send a steady stream of small packets, timed evenly.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.525,
+      "end": 7.715
+    },
+    {
+      "id": "l3",
+      "start": 8.1,
+      "text": "Missing ones are packet loss: the picture freezes or skips.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.462,
+      "end": 11.562
+    },
+    {
+      "id": "l4",
+      "start": 11.95,
+      "text": "Uneven arrivals are jitter: the app must wait and buffer.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.358,
+      "end": 15.308
+    },
+    {
+      "id": "l5",
+      "start": 15.69,
+      "text": "Call networks target at most one lost packet per thousand, and jitter within fifty milliseconds.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 5.761,
+      "end": 21.451
+    },
+    {
+      "id": "l6",
+      "start": 21.84,
+      "text": "Bandwidth and latency can look fine; check loss and jitter too.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.704,
+      "end": 25.544
+    },
+    {
+      "id": "l7",
+      "start": 26.14,
+      "text": "Download Meshline for nearby messaging, even offline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.409,
+      "end": 29.549
+    }
+  ]
+}

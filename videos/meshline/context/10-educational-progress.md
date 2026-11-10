@@ -78,3 +78,6 @@
 
 ## Production 2026-11-07-english-08 (English, latency vs bandwidth): complete
 - See `21-production-30s-english08-01.md`; output sha256 `3a431ac4f95022444e80d9533c0ea96187cbcf203196d1c766757c0af9923c2a`.
+
+## Production 2026-11-08-english-09 (English, packet loss and jitter): complete
+- See `22-production-30s-english09-01.md`; output sha256 `e6e5c16bde48cd66a40a4974957ea1b97cc9203328eca8f68e3be4361417a6db`.

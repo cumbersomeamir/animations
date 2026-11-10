@@ -1,0 +1,103 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 2.02,
+  "l": [
+   "Your speed test looks fast;"
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 2.06,
+  "b": 4.09,
+  "l": [
+   "why does the video call freeze?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 4.14,
+  "b": 8.0,
+  "l": [
+   "Calls send a steady stream",
+   "of small packets, timed evenly"
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 8.05,
+  "b": 9.81,
+  "l": [
+   "Missing ones are packet loss:"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.85,
+  "b": 11.85,
+  "l": [
+   "the picture freezes or skips"
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 11.9,
+  "b": 13.5,
+  "l": [
+   "Uneven arrivals are jitter:"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 13.54,
+  "b": 15.59,
+  "l": [
+   "the app must wait and buffer"
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 15.64,
+  "b": 19.48,
+  "l": [
+   "Call networks target at most",
+   "one lost packet per thousand,"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 19.52,
+  "b": 21.74,
+  "l": [
+   "and jitter within",
+   "50 milliseconds"
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 21.79,
+  "b": 24.07,
+  "l": [
+   "Bandwidth and latency",
+   "can look fine;"
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 24.11,
+  "b": 25.844,
+  "l": [
+   "check loss and jitter too"
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.09,
+  "b": 29.849,
+  "l": [
+   "Download Meshline for",
+   "nearby messaging, even offline"
+  ]
+ }
+]

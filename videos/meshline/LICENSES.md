@@ -20,3 +20,4 @@
 | Production 30s batch 2026-11-06-english-06 (English, sent vs delivered) | Original code in `production/30s/2026-11-06-english-06/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-06-english-07 (English, upload vs download) | Original code in `production/30s/2026-11-06-english-07/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-07-english-08 (English, latency vs bandwidth) | Original code in `production/30s/2026-11-07-english-08/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s batch 2026-11-08-english-09 (English, packet loss and jitter) | Original code in `production/30s/2026-11-08-english-09/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

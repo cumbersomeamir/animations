@@ -181,3 +181,9 @@ This is reference for later rounds. **No automation has been created.** Each rou
   - If it is above −1 dBTP, lower the RMS target (0.135 → 0.12) and the limiter ceiling (0.66 → 0.6). The result stays within −14 to −16 LUFS.
 - **ASR final scoring:** run without word timestamps (a faster-whisper alignment edge case). Report the raw WER plus a number-normalised WER.
 - **Duplicate requests:** if a request arrives repeated in one message, make exactly one episode.
+| 11 | 2026-11-08-english-09 | Packet loss and jitter: why a video call freezes, **English** | `production/30s/2026-11-08-english-09/meshline-30s-english09-01.mp4` |
+
+## User feedback 2026-11-08, batch english-09 (specific adjustments only)
+- **Make the hook literally true on screen.** If the narration asks why something freezes, the first seconds must show it frozen, not a random-probability effect that may never trigger. Use a scripted burst.
+- **Drive the picture from the data.** The call screen's motion only advances with packets that actually arrived, so freezes and skips are caused, not decorated.
+- **Queue rule:** when several batches arrive together, finish them strictly in order (09 → 10 → 11), each committed and pushed separately.

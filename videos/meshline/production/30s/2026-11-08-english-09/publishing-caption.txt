@@ -1,0 +1,11 @@
+Your speed test looks fast; why does the video call freeze?
+
+Calls send a steady stream of small packets, timed evenly. Missing ones are packet loss: the picture freezes or skips. Uneven arrivals are jitter: the app must wait and buffer.
+
+Call networks target at most one lost packet per thousand, and jitter within 50 milliseconds.
+
+Bandwidth and latency can look fine; check loss and jitter too.
+
+Download Meshline for nearby messaging, even offline.
+
+#videocall #internet #techtips #Meshline

@@ -49,3 +49,6 @@
 
 ## Production 2026-11-07-english-08 (English, latency vs bandwidth)
 - Done. Output `production/30s/2026-11-07-english-08/meshline-30s-english08-01.mp4`, sha256 `3a431ac4…3c2a`. Details in `21-production-30s-english08-01.md`.
+
+## Production 2026-11-08-english-09 (English, packet loss and jitter)
+- Done. Output `production/30s/2026-11-08-english-09/meshline-30s-english09-01.mp4`, sha256 `e6e5c16b…a6db`. Details in `22-production-30s-english09-01.md`.

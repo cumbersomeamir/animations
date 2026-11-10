@@ -1,0 +1,93 @@
+{
+ "l1": [
+  [
+   [
+    "Your speed test looks fast;"
+   ],
+   "Your"
+  ],
+  [
+   [
+    "why does the video call freeze?"
+   ],
+   "why"
+  ]
+ ],
+ "l2": [
+  [
+   [
+    "Calls send a steady stream",
+    "of small packets, timed evenly"
+   ],
+   "Calls"
+  ]
+ ],
+ "l3": [
+  [
+   [
+    "Missing ones are packet loss:"
+   ],
+   "Missing"
+  ],
+  [
+   [
+    "the picture freezes or skips"
+   ],
+   "the"
+  ]
+ ],
+ "l4": [
+  [
+   [
+    "Uneven arrivals are jitter:"
+   ],
+   "uneven"
+  ],
+  [
+   [
+    "the app must wait and buffer"
+   ],
+   "the"
+  ]
+ ],
+ "l5": [
+  [
+   [
+    "Call networks target at most",
+    "one lost packet per thousand,"
+   ],
+   "Call"
+  ],
+  [
+   [
+    "and jitter within",
+    "50 milliseconds"
+   ],
+   "and"
+  ]
+ ],
+ "l6": [
+  [
+   [
+    "Bandwidth and latency",
+    "can look fine;"
+   ],
+   "Bandwidth"
+  ],
+  [
+   [
+    "check loss and jitter too"
+   ],
+   "check"
+  ]
+ ],
+ "l7": [
+  [
+   [
+    "Download Meshline for",
+    "nearby messaging, even offline"
+   ],
+   "Download"
+  ]
+ ]
+}
