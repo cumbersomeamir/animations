@@ -62,7 +62,7 @@ Matches (mean abs. error /255): top r1c3 ↔ 3-of-30 image 4.5; top r1c2 ↔ 2-o
 | `reveal-02-tokyo` stand-in | raw idx 1577, tile r4c2 (night street portrait), 238×317 → 720×960 Lanczos ×3.03 + mild unsharp | most "night city" result available; NOT Tokyo. |
 | `reveal-03-space` stand-in | raw idx 1577, tile r4c3 (fire portrait), same upscale | strangest result available; NOT a spaceship. |
 | Payoff phone screen (f480–749) | raw 212.035–219.920 s real time, then held | 6-of-30 playing inside the real viewer UI, then the real close-to-grid at exactly 22.000 s. Includes the two real loop restarts of that video at film 16.245 s and 21.415 s (raw 212.28 / 217.45). |
-| `payoff-spaceship` stand-in world | raw idx 1577, tile r3c3 (dark blue tech room, *brand*) below its badge, 150×267 → 1440×2560, shown depth-blurred (σ 7–11 px) | darkest, most sci-fi-like real result; extremely low resolution, so it is only used as a defocused backdrop. NOT a spaceship. |
+| `payoff-spaceship` stand-in world | raw idx 1577, tile r3c3 (dark blue tech room, *brand*) below its badge, 150×267 → 1440×2560, shown depth-blurred (σ 14–20 px) | darkest, most sci-fi-like real result; extremely low resolution, so it is only used as a defocused backdrop. NOT a spaceship. |
 | Payoff floating cards | slot posters of reveal-01/02/03 + `assets/plates/card-couple.png` (clip frame 600, 3-of-30) | layered environment from real result pixels. |
 | Thumbnail | superhook slot frame 72 (clip frame 867, 28.900 s) | the couple looking at each other — strongest single frame. |
 

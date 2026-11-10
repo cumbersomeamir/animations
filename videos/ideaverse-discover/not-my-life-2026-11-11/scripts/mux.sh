@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 mkdir -p out
 V=build/video.mp4
 [ -f "$V" ] || { echo "missing $V (run: node scripts/render.mjs)"; exit 1; }
-ffmpeg -v error -y -i "$V" -an -c:v libx264 -preset slow -crf "${CRF:-20}" -maxrate 16M -bufsize 32M -profile:v high -level:v 4.1 \
+ffmpeg -v error -y -i "$V" -an -c:v libx264 -preset slow -crf "${CRF:-21}" -maxrate 16M -bufsize 32M -profile:v high -level:v 4.1 \
   -pix_fmt yuv420p -x264-params keyint=60:min-keyint=1:aq-mode=3 -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv \
   -movflags +faststart build/video_delivery.tmp.mp4
 mv build/video_delivery.tmp.mp4 build/video_delivery.mp4

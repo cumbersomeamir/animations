@@ -1,0 +1,299 @@
+{
+ "not-my-life-25s.mp4": {
+  "probe": {
+   "format_duration": 25.0,
+   "size_bytes": 29155581,
+   "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "25.000000",
+    "nb_frames": "750",
+    "nb_read_frames": "750",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709"
+   },
+   "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "25.000000",
+    "bit_rate": "263296"
+   }
+  },
+  "decode_returncode": 0,
+  "decode_errors": "",
+  "decoded_frames": 750,
+  "frame_count_ok": true,
+  "resolution_ok": true,
+  "codecs_ok": true,
+  "fps_ok": true,
+  "black_frames(mean<6)": [],
+  "empty_black_frames(no text)": [],
+  "near_frozen_runs(>=6 frames, diff<0.25)": [
+   [
+    93,
+    98
+   ]
+  ],
+  "frame_diff_stats": {
+   "median": 3.934166669845581,
+   "p95": 37.52256774902344,
+   "max": 83.42884826660156,
+   "argmax_frame": 105
+  },
+  "loop_video_last_to_first_diff": 12.138812065124512,
+  "loop_video_typical_diff_median": 3.934166669845581,
+  "loop_video_diff_745_749": [
+   11.715494155883789,
+   11.790254592895508,
+   11.82929801940918,
+   11.840339660644531,
+   11.983217239379883
+  ],
+  "loop_video_diff_0_4": [
+   12.746674537658691,
+   14.010748863220215,
+   15.252638816833496,
+   16.513896942138672
+  ],
+  "audio_samples": 1200000,
+  "audio_seconds": 25.0,
+  "audio_seam_step": 0.016703210771083832,
+  "audio_typical_step_median": 0.008417140692472458,
+  "integrated_lufs": -14.5,
+  "true_peak_dbtp": -1.4,
+  "silence(-50dB,>=0.25s)": [],
+  "audio_onsets_at_cuts": {
+   "0.000s": {
+    "onset_offset_ms": 5.0,
+    "rise_db": 5.3
+   },
+   "3.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 7.5
+   },
+   "6.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 11.0
+   },
+   "9.500s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 12.2
+   },
+   "12.500s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 18.2
+   },
+   "16.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 15.6
+   }
+  }
+ },
+ "not-my-life-25s-no-music.mp4": {
+  "probe": {
+   "format_duration": 25.0,
+   "size_bytes": 29145975,
+   "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "25.000000",
+    "nb_frames": "750",
+    "nb_read_frames": "750",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709"
+   },
+   "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "25.000000",
+    "bit_rate": "260224"
+   }
+  },
+  "decode_returncode": 0,
+  "decode_errors": "",
+  "decoded_frames": 750,
+  "frame_count_ok": true,
+  "resolution_ok": true,
+  "codecs_ok": true,
+  "fps_ok": true,
+  "black_frames(mean<6)": [],
+  "empty_black_frames(no text)": [],
+  "near_frozen_runs(>=6 frames, diff<0.25)": [
+   [
+    93,
+    98
+   ]
+  ],
+  "frame_diff_stats": {
+   "median": 3.934166669845581,
+   "p95": 37.52256774902344,
+   "max": 83.42884826660156,
+   "argmax_frame": 105
+  },
+  "loop_video_last_to_first_diff": 12.138812065124512,
+  "loop_video_typical_diff_median": 3.934166669845581,
+  "loop_video_diff_745_749": [
+   11.715494155883789,
+   11.790254592895508,
+   11.82929801940918,
+   11.840339660644531,
+   11.983217239379883
+  ],
+  "loop_video_diff_0_4": [
+   12.746674537658691,
+   14.010748863220215,
+   15.252638816833496,
+   16.513896942138672
+  ],
+  "audio_samples": 1200000,
+  "audio_seconds": 25.0,
+  "audio_seam_step": 0.008360467851161957,
+  "audio_typical_step_median": 0.0064538633450865746,
+  "integrated_lufs": -15.6,
+  "true_peak_dbtp": -1.2,
+  "silence(-50dB,>=0.25s)": [],
+  "audio_onsets_at_cuts": {
+   "0.000s": {
+    "onset_offset_ms": 60.0,
+    "rise_db": 3.7
+   },
+   "3.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 7.3
+   },
+   "6.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 9.4
+   },
+   "9.500s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 19.4
+   },
+   "12.500s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 19.2
+   },
+   "16.000s": {
+    "onset_offset_ms": 0.0,
+    "rise_db": 19.5
+   }
+  }
+ },
+ "render_log": {
+  "missing_assets": 0,
+  "page_errors": 0
+ },
+ "picture_identical_between_versions": true,
+ "cuts_on_beat_grid": {
+  "0": {
+   "what": "loop seam",
+   "seconds": 0.0,
+   "beats": 0.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "54": {
+   "what": "dive lands (no cut, overlay)",
+   "seconds": 1.8,
+   "beats": 3.6,
+   "on_beat": false,
+   "on_8th": false
+  },
+  "90": {
+   "what": "black card in",
+   "seconds": 3.0,
+   "beats": 6.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "105": {
+   "what": "superhook",
+   "seconds": 3.5,
+   "beats": 7.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "120": {
+   "what": "motion starts",
+   "seconds": 4.0,
+   "beats": 8.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "180": {
+   "what": "reveal-01 lands",
+   "seconds": 6.0,
+   "beats": 12.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "248": {
+   "what": "feed proof",
+   "seconds": 8.266666666666667,
+   "beats": 16.533333333333335,
+   "on_beat": false,
+   "on_8th": true
+  },
+  "285": {
+   "what": "reveal-02",
+   "seconds": 9.5,
+   "beats": 19.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "375": {
+   "what": "reveal-03",
+   "seconds": 12.5,
+   "beats": 25.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "480": {
+   "what": "payoff",
+   "seconds": 16.0,
+   "beats": 32.0,
+   "on_beat": true,
+   "on_8th": true
+  },
+  "660": {
+   "what": "viewer closes to grid",
+   "seconds": 22.0,
+   "beats": 44.0,
+   "on_beat": true,
+   "on_8th": true
+  }
+ },
+ "text_safe_area": {
+  "measured_union_of_all_title_glyph_boxes": {
+   "x0": 123,
+   "x1": 877,
+   "y0": 293,
+   "y1": 1469
+  },
+  "frames_with_text": 120,
+  "required": {
+   "x0": 100,
+   "x1": 900,
+   "y0": 230,
+   "y1": 1500
+  },
+  "inside": true
+ },
+ "thumbnail_text_box": "centre x 500, width <= 770 -> x ~115..885, y 1114..1486 (scripts/thumbnail.py)"
+}

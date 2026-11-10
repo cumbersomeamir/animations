@@ -546,7 +546,7 @@ function buildR2() {
   const cMat = cardMaterial(cw, ch, { radius: 0.02 }); const cMesh = new THREE.Mesh(new THREE.PlaneGeometry(cw, ch), cMat); card.add(cMesh);
   const glow = shaderPlane(1.9, 2.3, `varying vec2 vUv; void main(){ vec2 p = (vUv - 0.5) * vec2(1.9, 2.3); float d = length(max(abs(p) - vec2(0.32, 0.45), 0.0)); float a = exp(-d * d * 18.0) * 0.12;
       gl_FragColor = vec4(vec3(0.55, 0.12, 0.6) * a, 1.0); }`, {}, { blending: THREE.AdditiveBlending, transparent: true });
-  glow.position.z = -0.08; card.add(glow);
+  glow.position.z = -0.08; glow.visible = false; // removed: floor clipped its lower edge into a hard purple band
   // reflection: mirrored copy below the floor line, faded and softened
   const rMat = cardMaterial(cw, ch, { radius: 0.02 }); const refl = new THREE.Mesh(new THREE.PlaneGeometry(cw, ch), rMat);
   refl.scale.y = -1; rMat.depthTest = false; refl.renderOrder = 2; sc.add(refl);
@@ -615,14 +615,14 @@ function buildR3() {
   function update(t) {
     const lt = t - 12.5;
     const arrive = eout(seg(lt, 0, 0.38));
-    const spin = eio(seg(lt, 0.1, 2.05));
+    const spin = eio(seg(lt, 0.0, 1.95));
     const dz = eio(seg(lt, 0.3, 2.95));
     const thru = ein(seg(lt, 2.95, 3.5));
     const D = lerp(9.2, 2.5, dz) - 0.95 * thru;
     cam.fov = lerp(42, 28, dz) - 2 * thru; cam.updateProjectionMatrix();
     cam.position.set(lerp(-0.6, 0, arrive) * (1 - dz), lerp(0.25, 0.04, dz), D);
     cam.lookAt(lerp(-2.2, 0, arrive), 0.0, 0);
-    card.rotation.set(0.06 * (1 - spin), lerp(1.3, 0, spin), lerp(-0.18, 0, spin));
+    card.rotation.set(0.06 * (1 - spin), lerp(1.02, 0, spin), lerp(-0.14, 0, spin));
     halo.material.uniforms.bright.value = 0.4 + 0.6 * spin;
     stars.mat.uniforms.scale.value = H / (2 * Math.tan((cam.fov * Math.PI) / 360));
     embers.mat.uniforms.scale.value = stars.mat.uniforms.scale.value;
@@ -662,7 +662,7 @@ function drawText(t) {
   if (t >= 78 / 30 && t < 105 / 30) {
     const a = sstep(seg(t, 78 / 30, 82 / 30)); const lines = ['NEVER', 'HAPPENED.'];
     const size = fitSize(lines, 700, 770, 190);
-    drawLines(lines, { size, cy: 960, alpha: a, shadow: t < 3.0 ? 0.55 : 0, scale: lerp(1.035, 1.0, eout(seg(t, 78 / 30, 92 / 30))), tracking: -0.025, lineGap: 0.96 });
+    drawLines(lines, { size, cy: 960, alpha: a, shadow: t < 3.0 ? 0.55 : 0, scale: lerp(1.035, 1.0, eout(seg(t, 78 / 30, 92 / 30))) * (t >= 3.0 ? lerp(1.0, 0.982, seg(t, 3.0, 3.5)) : 1), tracking: -0.025, lineGap: 0.96 });
     on = true;
   }
   // THEN ONE MOVED.  f121-152, lower third (safe y <= 1500)

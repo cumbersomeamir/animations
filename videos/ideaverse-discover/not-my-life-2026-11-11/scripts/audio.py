@@ -356,7 +356,7 @@ def write_wav(p, x):
         b[:, c, 0] = v & 0xFF; b[:, c, 1] = (v >> 8) & 0xFF; b[:, c, 2] = (v >> 16) & 0xFF
     with wave.open(p, 'wb') as w:
         w.setnchannels(2); w.setsampwidth(3); w.setframerate(SR); w.writeframes(b.tobytes())
-def circular_limit(x, ceiling=10 ** (-1.2 / 20), look=0.004, release=0.12):
+def circular_limit(x, ceiling=10 ** (-2.0 / 20), look=0.004, release=0.12):
     """peak limiter evaluated on three loop copies; the middle copy is returned -> exactly periodic."""
     x3 = np.concatenate([x, x, x], axis=1); pk = np.abs(x3).max(axis=0)
     w = int(look * SR); pk = ss.convolve(pk, np.ones(1), mode='same')

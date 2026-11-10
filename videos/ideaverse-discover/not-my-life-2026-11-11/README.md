@@ -9,8 +9,9 @@ No voiceover, no speech. Isolated production; it is not part of the Ideaverse ap
 | `not-my-life-25s.mp4` | picture + original score + sound design |
 | `not-my-life-25s-no-music.mp4` | identical picture + sound design only |
 | `thumbnail.png` / `thumbnail.jpg` | 1080×1920, real 6-of-30 frame + "NOT MY LIFE." |
-| `not-my-life-project.zip` | editable project (this folder without `node_modules/`, `cache/`, `build/`) |
-| `qa/` | verification report and contact sheets from `scripts/qa.py` |
+| `audio/` | lossless FLAC of both mixes + the score stem (48 kHz, exactly 1,200,000 samples, loop-periodic) |
+| `qa/` | `report.json` (ffprobe, decode, frame count, black/frozen, loop seams, loudness, onsets), `textboxes.json`, transition + overview contact sheets, audio waveform/spectrum |
+| `not-my-life-project.zip` | editable project (code, docs, manifest, genuine clip, all slots/UI plates/plates/fonts, thumbnail, QA, FLAC audio); excludes `node_modules/`, `cache/`, `build/`, the MP4s and the 52 MB raw recording (fetched + SHA-256-verified by `scripts/fetch_sources.sh`). Rebuild with `bash scripts/package.sh`. |
 
 Docs: [`source-selection.md`](source-selection.md) (factual source timecodes, stand-ins, music origin/licence) ·
 [`insertion-guide.md`](insertion-guide.md) (replacement slots: timecodes, frames, framing, moves, handles, layers) ·

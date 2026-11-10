@@ -63,8 +63,10 @@ def silence(f, th=-50, d=0.25):
 
 
 def audio_pcm(f):
+    # decoded PCM limited to the stream's declared duration (AAC frames carry up to 1023 padding samples past it)
+    n = int(json.loads(sh(['ffprobe', '-v', 'error', '-select_streams', 'a', '-show_entries', 'stream=duration_ts', '-of', 'json', f]).stdout)['streams'][0]['duration_ts'])
     r = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-map', '0:a', '-f', 'f32le', '-ac', '2', '-ar', '48000', '-'], capture_output=True)
-    return np.frombuffer(r.stdout, np.float32).reshape(-1, 2)
+    return np.frombuffer(r.stdout, np.float32).reshape(-1, 2)[:n]
 
 
 for f in FILES:

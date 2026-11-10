@@ -337,8 +337,8 @@
   },
   "render": {
     "payoffWorldBlurPx": [
-      7.0,
-      11.0
+      14.0,
+      20.0
     ],
     "motionBlurShutter": 0.5,
     "payoffWorldBlurNote": "gaussian sigma in plate pixels (1440 wide): [wide shot, close-up]; interpolated by camera distance",

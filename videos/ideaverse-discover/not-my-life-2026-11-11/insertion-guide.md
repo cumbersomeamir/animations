@@ -83,7 +83,7 @@ Rendering speed in this container (software WebGL): ≈ 2–6 s per frame and wo
 | slot frames | 114 · `slotFrame = 12 + (f − 285)` · head 12, tail 12 |
 | placeholder | 720×960 still: grid tile r4c2 night-street portrait (raw idx 1577), Lanczos ×3.03 — **stand-in, not Tokyo** |
 | replacement spec | 3:4 card ≥ 1080×1440 |
-| layers | card + glow; mirrored reflection (34 % opacity, mip-blurred, fades over 75 % of its height) below floor y −0.58; kept: neon backdrop z −6, 190 bokeh, 950 rain streaks, wet floor |
+| layers | card; mirrored reflection (34 % opacity, mip-blurred, fades over 75 % of its height) below floor y −0.58; kept: neon backdrop z −6, 190 bokeh, 950 rain streaks, wet floor |
 | camera move | starts exactly where the feed push ends (card 1058 px wide, centred, beat 19); continues push 7 % to f295; truck right + pull back to (0.62, 0.07, 3.25), look-at x 0.2, card turns ry 0 → −0.30 (3/4 view) f292–f362; whip-pan right f357–f374 (look-at +3.6) |
 | transitions | **in**: match cut from the real tile r4c2 push (f284 → f285). **out**: whip pan, cut f375 (beat 25) |
 
@@ -96,7 +96,7 @@ Rendering speed in this container (software WebGL): ≈ 2–6 s per frame and wo
 | placeholder | 720×960 still: grid tile r4c3 fire-background portrait (raw idx 1577), Lanczos ×3.03 — **stand-in, not a spaceship** |
 | replacement spec | 3:4 card ≥ 1080×1440 |
 | layers | card + warm additive halo; kept: 1600 stars, nebula z −120, 320 embers |
-| camera move | arrival from the whip (look-at x −2.2 → 0, f375–f386); card spins edge-on → facing (ry 1.3 → 0, f378–f436); dolly-zoom: distance 9.2 → 2.5 and fov 42° → 28° (f384–f463); push-through f463–f479 (distance → 1.55, fov 26°) until the card overfills the frame |
+| camera move | arrival from the whip (look-at x −2.2 → 0, f375–f386); card turns from a steep 3/4 angle to facing (ry 1.02 → 0, f375–f433), visible from the first frame; dolly-zoom: distance 9.2 → 2.5 and fov 42° → 28° (f384–f463); push-through f463–f479 (distance → 1.55, fov 26°) until the card overfills the frame |
 | transitions | **out**: hard cut f480 (beat 32) to the phone screen close-up (graphic match frame-filling → frame-filling) |
 
 ## 6. `payoff-spaceship` — `assets/slots/payoff-spaceship.mp4` (background plate)
@@ -107,7 +107,7 @@ Rendering speed in this container (software WebGL): ≈ 2–6 s per frame and wo
 | slot frames | 348 · `slotFrame = 12 + ((f − 480) mod 750)` → f480 = 12 … f749 = 281, f0 = 282 … f53 = 335 · head 12, tail 12 |
 | placeholder | 1440×2560 still: grid tile r3c3 dark-blue tech room (raw idx 1577, below its UI badge), Lanczos — **stand-in world, not a spaceship** |
 | replacement spec | 9:16 plate ≥ 1440×2560 (moving plates welcome; slot frames 281 → 282 must be continuous for a seamless loop). The phone covers the plate centre — keep the subject out of the middle third |
-| layer | camera-locked backdrop behind everything (depth test off); uv centre/zoom from `manifest.render.payoffWorldCenter` (now [0.5, 0.64]) / `payoffWorldZoom` ([1.40, 1.48]); parallax: centre −0.06 × camera azimuth/elevation (rad); depth blur σ from `payoffWorldBlurPx` ([7, 11] plate px, wide → close); 45 % central falloff behind the phone. **For a sharp Flow spaceship plate set blur [2, 5], centre [0.5, 0.5], zoom [1.15, 1.25].** |
+| layer | camera-locked backdrop behind everything (depth test off); uv centre/zoom from `manifest.render.payoffWorldCenter` (now [0.5, 0.64]) / `payoffWorldZoom` ([1.40, 1.48]); parallax: centre −0.06 × camera azimuth/elevation (rad); depth blur σ from `payoffWorldBlurPx` ([14, 20] plate px, wide → close; the stand-in is deliberately defocused so its subject reads as ambience); 45 % central falloff behind the phone. **For a sharp Flow spaceship plate set blur [2, 5], centre [0.5, 0.5], zoom [1.15, 1.25].** |
 | kept above it | 4 floating result cards (posters of reveal-01/02/03 + real 3-of-30), dust motes, the phone with the **real** screen recording (`phone-screen-payoff.mp4`: 6-of-30 playing in the viewer, real close to the grid at f660), title "Which life would you pick?" f668–f728 |
 | camera move | phone-space monotone spline keyed at loop-time 16 / 19 / 22 / 25 / 26.8 s: distance 2.02 → 4.5 → 4.15 → 2.15 → 0.462; yaw 0 → −0.30 → +0.14 → +0.44 → 0; pitch 0 → 0.09 → 0.04 → 0.12 → 0; roll 0 → 0.02 → −0.01 → −0.04 → 0. Phone float y = 0.035·sin(2πs/12.5), rot y 0 → 0.20 → 0.10 → 0.08. All periodic over 25 s → f749 flows into f0 |
 | transitions | **in**: hard cut f480 from reveal-03; pull-back reveals the world (16.0–19.0 s). Cards fade 23.4–24.4 s. **out**: continuous push into the opening composition (loop) |
