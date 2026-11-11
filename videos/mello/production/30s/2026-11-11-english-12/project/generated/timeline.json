@@ -1,0 +1,126 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Why does one unfinished task follow you into bed?",
+      "start": 0.3,
+      "end": 2.786,
+      "pauses": []
+    },
+    {
+      "id": "intrude",
+      "text": "In studies, unfinished goals kept intruding on other tasks.",
+      "start": 3.25,
+      "end": 6.778,
+      "pauses": [
+        [
+          3.853,
+          4.14
+        ],
+        [
+          5.33,
+          5.41
+        ]
+      ]
+    },
+    {
+      "id": "plan",
+      "text": "Writing a specific plan made those intrusions stop.",
+      "start": 7.25,
+      "end": 10.13,
+      "pauses": [
+        [
+          8.111,
+          8.211
+        ],
+        [
+          8.647,
+          8.78
+        ]
+      ]
+    },
+    {
+      "id": "sleep",
+      "text": "In a sleep lab, people who wrote a to-do list fell asleep faster than those listing finished tasks.",
+      "start": 10.6,
+      "end": 16.336,
+      "pauses": [
+        [
+          11.527,
+          11.866
+        ],
+        [
+          13.267,
+          13.372
+        ],
+        [
+          13.925,
+          14.097
+        ],
+        [
+          15.37,
+          15.444
+        ]
+      ]
+    },
+    {
+      "id": "qual",
+      "text": "Not a cure, but the loop can wait.",
+      "start": 16.8,
+      "end": 18.608,
+      "pauses": [
+        [
+          17.488,
+          17.578
+        ]
+      ]
+    },
+    {
+      "id": "park",
+      "text": "So park it: jot down the next step, and when you'll do it.",
+      "start": 19.1,
+      "end": 21.996,
+      "pauses": [
+        [
+          19.79,
+          20.015
+        ],
+        [
+          21.093,
+          21.178
+        ]
+      ]
+    },
+    {
+      "id": "example",
+      "text": "Email Sam, tomorrow at nine.",
+      "start": 22.4,
+      "end": 24.217,
+      "pauses": [
+        [
+          23.15,
+          23.354
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.8,
+      "end": 28.52,
+      "pauses": []
+    }
+  ]
+}

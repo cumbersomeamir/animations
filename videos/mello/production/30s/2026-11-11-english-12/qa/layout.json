@@ -1,0 +1,10636 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    795,
+    482,
+    1070
+   ],
+   "desk": [
+    -159,
+    1833,
+    3620,
+    5243
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    794,
+    482,
+    1070
+   ],
+   "desk": [
+    -163,
+    1836,
+    3628,
+    5276
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    794,
+    482,
+    1070
+   ],
+   "desk": [
+    -167,
+    1839,
+    3636,
+    5311
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    793,
+    483,
+    1070
+   ],
+   "desk": [
+    -172,
+    1842,
+    3645,
+    5351
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    792,
+    483,
+    1070
+   ],
+   "desk": [
+    -177,
+    1846,
+    3655,
+    5396
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    792,
+    484,
+    1070
+   ],
+   "desk": [
+    -183,
+    1851,
+    3667,
+    5448
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    792,
+    485,
+    1070
+   ],
+   "desk": [
+    -190,
+    1856,
+    3680,
+    5506
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    206,
+    792,
+    486,
+    1071
+   ],
+   "desk": [
+    -198,
+    1861,
+    3696,
+    5574
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    207,
+    792,
+    487,
+    1072
+   ],
+   "desk": [
+    -206,
+    1868,
+    3713,
+    5649
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    207,
+    792,
+    488,
+    1073
+   ],
+   "desk": [
+    -215,
+    1875,
+    3731,
+    5734
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    207,
+    793,
+    489,
+    1075
+   ],
+   "desk": [
+    -225,
+    1882,
+    3752,
+    5828
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    207,
+    794,
+    491,
+    1077
+   ],
+   "desk": [
+    -236,
+    1890,
+    3774,
+    5931
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    795,
+    492,
+    1079
+   ],
+   "desk": [
+    -248,
+    1899,
+    3799,
+    6043
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    796,
+    494,
+    1081
+   ],
+   "desk": [
+    -260,
+    1908,
+    3824,
+    6164
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    797,
+    495,
+    1084
+   ],
+   "desk": [
+    -272,
+    1917,
+    3852,
+    6293
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    799,
+    497,
+    1087
+   ],
+   "desk": [
+    -285,
+    1927,
+    3880,
+    6429
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    800,
+    498,
+    1090
+   ],
+   "desk": [
+    -298,
+    1937,
+    3909,
+    6571
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    802,
+    500,
+    1093
+   ],
+   "desk": [
+    -311,
+    1947,
+    3939,
+    6718
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    804,
+    501,
+    1096
+   ],
+   "desk": [
+    -324,
+    1956,
+    3969,
+    6868
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    806,
+    503,
+    1100
+   ],
+   "desk": [
+    -336,
+    1966,
+    3999,
+    7021
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    808,
+    504,
+    1103
+   ],
+   "desk": [
+    -349,
+    1975,
+    4029,
+    7173
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    810,
+    505,
+    1106
+   ],
+   "desk": [
+    -360,
+    1984,
+    4058,
+    7323
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    812,
+    506,
+    1109
+   ],
+   "desk": [
+    -372,
+    1992,
+    4085,
+    7468
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    814,
+    507,
+    1111
+   ],
+   "desk": [
+    -382,
+    2000,
+    4112,
+    7608
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    815,
+    508,
+    1114
+   ],
+   "desk": [
+    -392,
+    2007,
+    4136,
+    7740
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    817,
+    509,
+    1116
+   ],
+   "desk": [
+    -400,
+    2014,
+    4159,
+    7863
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    818,
+    509,
+    1118
+   ],
+   "desk": [
+    -408,
+    2020,
+    4180,
+    7976
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    819,
+    510,
+    1120
+   ],
+   "desk": [
+    -415,
+    2025,
+    4198,
+    8080
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    209,
+    820,
+    510,
+    1121
+   ],
+   "desk": [
+    -421,
+    2030,
+    4215,
+    8174
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    821,
+    510,
+    1123
+   ],
+   "desk": [
+    -427,
+    2034,
+    4231,
+    8261
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    208,
+    821,
+    511,
+    1123
+   ],
+   "desk": [
+    -432,
+    2038,
+    4245,
+    8342
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    383,
+    593,
+    839,
+    1050
+   ],
+   "desk": [
+    -2624,
+    -35405,
+    52478,
+    3218
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    359,
+    888,
+    501
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    382,
+    593,
+    839,
+    1050
+   ],
+   "desk": [
+    -2630,
+    -34012,
+    50381,
+    3223
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    382,
+    592,
+    839,
+    1050
+   ],
+   "desk": [
+    -2636,
+    -32662,
+    48347,
+    3228
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    381,
+    592,
+    839,
+    1049
+   ],
+   "desk": [
+    -2642,
+    -31327,
+    46335,
+    3233
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    381,
+    591,
+    839,
+    1049
+   ],
+   "desk": [
+    -2649,
+    -29991,
+    44322,
+    3239
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    380,
+    590,
+    838,
+    1048
+   ],
+   "desk": [
+    -2656,
+    -28652,
+    42305,
+    3246
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    379,
+    588,
+    838,
+    1047
+   ],
+   "desk": [
+    -2664,
+    -27314,
+    40288,
+    3254
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    378,
+    587,
+    838,
+    1046
+   ],
+   "desk": [
+    -2673,
+    -25984,
+    38285,
+    3262
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    377,
+    585,
+    838,
+    1045
+   ],
+   "desk": [
+    -2683,
+    -24675,
+    36311,
+    3271
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    376,
+    583,
+    837,
+    1044
+   ],
+   "desk": [
+    -2694,
+    -23397,
+    34384,
+    3280
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    375,
+    581,
+    837,
+    1043
+   ],
+   "desk": [
+    -2706,
+    -22161,
+    32521,
+    3291
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    373,
+    579,
+    837,
+    1042
+   ],
+   "desk": [
+    -2718,
+    -20975,
+    30734,
+    3302
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    372,
+    577,
+    837,
+    1041
+   ],
+   "desk": [
+    -2732,
+    -19848,
+    29033,
+    3314
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    371,
+    574,
+    836,
+    1040
+   ],
+   "desk": [
+    -2746,
+    -18784,
+    27428,
+    3327
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    369,
+    572,
+    836,
+    1039
+   ],
+   "desk": [
+    -2761,
+    -17785,
+    25922,
+    3340
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    368,
+    570,
+    836,
+    1038
+   ],
+   "desk": [
+    -2777,
+    -16854,
+    24516,
+    3355
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    366,
+    568,
+    835,
+    1037
+   ],
+   "desk": [
+    -2793,
+    -15989,
+    23211,
+    3369
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    365,
+    566,
+    835,
+    1037
+   ],
+   "desk": [
+    -2810,
+    -15190,
+    22005,
+    3384
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    363,
+    565,
+    834,
+    1036
+   ],
+   "desk": [
+    -2827,
+    -14454,
+    20893,
+    3400
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    361,
+    563,
+    834,
+    1036
+   ],
+   "desk": [
+    -2845,
+    -13779,
+    19873,
+    3415
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    360,
+    562,
+    834,
+    1036
+   ],
+   "desk": [
+    -2863,
+    -13160,
+    18939,
+    3431
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    358,
+    561,
+    833,
+    1036
+   ],
+   "desk": [
+    -2881,
+    -12596,
+    18086,
+    3447
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    356,
+    560,
+    833,
+    1037
+   ],
+   "desk": [
+    -2900,
+    -12082,
+    17308,
+    3463
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    355,
+    560,
+    832,
+    1037
+   ],
+   "desk": [
+    -2918,
+    -11615,
+    16602,
+    3479
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    353,
+    559,
+    832,
+    1038
+   ],
+   "desk": [
+    -2935,
+    -11192,
+    15962,
+    3495
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    352,
+    559,
+    832,
+    1039
+   ],
+   "desk": [
+    -2953,
+    -10810,
+    15383,
+    3510
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    350,
+    559,
+    831,
+    1040
+   ],
+   "desk": [
+    -2970,
+    -10465,
+    14860,
+    3525
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    349,
+    560,
+    831,
+    1042
+   ],
+   "desk": [
+    -2986,
+    -10154,
+    14390,
+    3539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    348,
+    560,
+    830,
+    1043
+   ],
+   "desk": [
+    -3002,
+    -9876,
+    13968,
+    3553
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    346,
+    561,
+    830,
+    1045
+   ],
+   "desk": [
+    -3017,
+    -9627,
+    13591,
+    3566
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    345,
+    562,
+    830,
+    1047
+   ],
+   "desk": [
+    -3031,
+    -9405,
+    13254,
+    3578
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    344,
+    563,
+    829,
+    1049
+   ],
+   "desk": [
+    -3044,
+    -9207,
+    12954,
+    3589
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    343,
+    564,
+    829,
+    1050
+   ],
+   "desk": [
+    -3057,
+    -9032,
+    12688,
+    3600
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    342,
+    566,
+    829,
+    1052
+   ],
+   "desk": [
+    -3068,
+    -8877,
+    12453,
+    3610
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    341,
+    567,
+    829,
+    1054
+   ],
+   "desk": [
+    -3078,
+    -8739,
+    12244,
+    3619
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    341,
+    568,
+    828,
+    1056
+   ],
+   "desk": [
+    -3088,
+    -8617,
+    12059,
+    3627
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    340,
+    569,
+    828,
+    1058
+   ],
+   "desk": [
+    -3097,
+    -8508,
+    11893,
+    3634
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    339,
+    570,
+    828,
+    1059
+   ],
+   "desk": [
+    -3105,
+    -8410,
+    11744,
+    3641
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    338,
+    571,
+    828,
+    1060
+   ],
+   "desk": [
+    -3113,
+    -8319,
+    11606,
+    3648
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     183,
+     640,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    532,
+    1452,
+    818,
+    1738
+   ],
+   "desk": [
+    -111,
+    2765,
+    4194,
+    9028
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     183,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    532,
+    1452,
+    819,
+    1739
+   ],
+   "desk": [
+    -108,
+    2766,
+    4213,
+    9051
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    357,
+    897,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     183,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    533,
+    1453,
+    820,
+    1739
+   ],
+   "desk": [
+    -105,
+    2767,
+    4233,
+    9074
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     182,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    534,
+    1454,
+    821,
+    1740
+   ],
+   "desk": [
+    -101,
+    2768,
+    4255,
+    9100
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    108,
+    350,
+    892,
+    510
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     182,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    535,
+    1454,
+    822,
+    1741
+   ],
+   "desk": [
+    -97,
+    2769,
+    4278,
+    9128
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     182,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    536,
+    1454,
+    823,
+    1741
+   ],
+   "desk": [
+    -93,
+    2771,
+    4304,
+    9159
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     181,
+     639,
+     902,
+     1175
+    ],
+    "note": null
+   },
+   "head": [
+    537,
+    1454,
+    824,
+    1742
+   ],
+   "desk": [
+    -88,
+    2772,
+    4334,
+    9194
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     181,
+     638,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    538,
+    1455,
+    826,
+    1742
+   ],
+   "desk": [
+    -82,
+    2774,
+    4366,
+    9233
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     180,
+     638,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    540,
+    1455,
+    827,
+    1742
+   ],
+   "desk": [
+    -76,
+    2776,
+    4401,
+    9276
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     180,
+     638,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    541,
+    1455,
+    829,
+    1743
+   ],
+   "desk": [
+    -70,
+    2777,
+    4440,
+    9323
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     179,
+     638,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    543,
+    1454,
+    831,
+    1743
+   ],
+   "desk": [
+    -63,
+    2780,
+    4482,
+    9374
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     178,
+     637,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    545,
+    1454,
+    833,
+    1743
+   ],
+   "desk": [
+    -55,
+    2782,
+    4526,
+    9429
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     178,
+     637,
+     902,
+     1176
+    ],
+    "note": null
+   },
+   "head": [
+    546,
+    1454,
+    836,
+    1743
+   ],
+   "desk": [
+    -47,
+    2784,
+    4574,
+    9487
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     177,
+     637,
+     902,
+     1177
+    ],
+    "note": null
+   },
+   "head": [
+    548,
+    1454,
+    838,
+    1744
+   ],
+   "desk": [
+    -38,
+    2787,
+    4624,
+    9549
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     176,
+     636,
+     902,
+     1177
+    ],
+    "note": null
+   },
+   "head": [
+    550,
+    1454,
+    840,
+    1744
+   ],
+   "desk": [
+    -30,
+    2789,
+    4676,
+    9614
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     175,
+     636,
+     902,
+     1177
+    ],
+    "note": null
+   },
+   "head": [
+    552,
+    1454,
+    843,
+    1744
+   ],
+   "desk": [
+    -20,
+    2792,
+    4729,
+    9681
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     174,
+     636,
+     902,
+     1177
+    ],
+    "note": null
+   },
+   "head": [
+    554,
+    1454,
+    845,
+    1744
+   ],
+   "desk": [
+    -11,
+    2794,
+    4784,
+    9751
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     174,
+     635,
+     902,
+     1178
+    ],
+    "note": null
+   },
+   "head": [
+    557,
+    1454,
+    848,
+    1745
+   ],
+   "desk": [
+    -1,
+    2797,
+    4839,
+    9821
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     635,
+     902,
+     1178
+    ],
+    "note": null
+   },
+   "head": [
+    559,
+    1454,
+    850,
+    1745
+   ],
+   "desk": [
+    9,
+    2800,
+    4895,
+    9893
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     634,
+     902,
+     1178
+    ],
+    "note": null
+   },
+   "head": [
+    561,
+    1454,
+    853,
+    1746
+   ],
+   "desk": [
+    19,
+    2802,
+    4950,
+    9964
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     634,
+     902,
+     1178
+    ],
+    "note": null
+   },
+   "head": [
+    563,
+    1454,
+    855,
+    1746
+   ],
+   "desk": [
+    28,
+    2805,
+    5005,
+    10035
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     634,
+     902,
+     1179
+    ],
+    "note": null
+   },
+   "head": [
+    565,
+    1454,
+    858,
+    1747
+   ],
+   "desk": [
+    38,
+    2807,
+    5058,
+    10105
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     633,
+     902,
+     1179
+    ],
+    "note": null
+   },
+   "head": [
+    567,
+    1454,
+    860,
+    1748
+   ],
+   "desk": [
+    47,
+    2810,
+    5110,
+    10173
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     633,
+     902,
+     1179
+    ],
+    "note": null
+   },
+   "head": [
+    569,
+    1455,
+    863,
+    1749
+   ],
+   "desk": [
+    56,
+    2812,
+    5160,
+    10239
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     633,
+     902,
+     1179
+    ],
+    "note": null
+   },
+   "head": [
+    571,
+    1456,
+    865,
+    1750
+   ],
+   "desk": [
+    64,
+    2814,
+    5207,
+    10302
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     632,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    573,
+    1456,
+    867,
+    1751
+   ],
+   "desk": [
+    73,
+    2816,
+    5251,
+    10362
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     632,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    574,
+    1457,
+    869,
+    1752
+   ],
+   "desk": [
+    80,
+    2818,
+    5293,
+    10418
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     632,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    576,
+    1458,
+    871,
+    1753
+   ],
+   "desk": [
+    87,
+    2820,
+    5331,
+    10470
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     632,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    577,
+    1459,
+    872,
+    1754
+   ],
+   "desk": [
+    94,
+    2822,
+    5366,
+    10518
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     631,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    579,
+    1460,
+    874,
+    1756
+   ],
+   "desk": [
+    99,
+    2823,
+    5398,
+    10562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     631,
+     902,
+     1180
+    ],
+    "note": null
+   },
+   "head": [
+    580,
+    1461,
+    875,
+    1757
+   ],
+   "desk": [
+    105,
+    2825,
+    5427,
+    10601
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     631,
+     902,
+     1181
+    ],
+    "note": null
+   },
+   "head": [
+    581,
+    1462,
+    877,
+    1758
+   ],
+   "desk": [
+    109,
+    2826,
+    5452,
+    10637
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     631,
+     902,
+     1181
+    ],
+    "note": null
+   },
+   "head": [
+    582,
+    1464,
+    878,
+    1760
+   ],
+   "desk": [
+    114,
+    2827,
+    5476,
+    10669
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     631,
+     902,
+     1181
+    ],
+    "note": null
+   },
+   "head": [
+    583,
+    1465,
+    879,
+    1761
+   ],
+   "desk": [
+    118,
+    2828,
+    5497,
+    10699
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     631,
+     902,
+     1181
+    ],
+    "note": null
+   },
+   "head": [
+    584,
+    1466,
+    880,
+    1763
+   ],
+   "desk": [
+    122,
+    2829,
+    5518,
+    10727
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    349,
+    895,
+    511
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     621,
+     888,
+     1160
+    ],
+    "note": null
+   },
+   "head": [
+    33,
+    1492,
+    315,
+    1774
+   ],
+   "desk": [
+    -5261,
+    2623,
+    -680,
+    6520
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     621,
+     888,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    32,
+    1493,
+    314,
+    1776
+   ],
+   "desk": [
+    -5271,
+    2622,
+    -685,
+    6522
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    259,
+    380,
+    741,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     621,
+     889,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    30,
+    1495,
+    313,
+    1777
+   ],
+   "desk": [
+    -5281,
+    2622,
+    -689,
+    6524
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    257,
+    379,
+    743,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     621,
+     889,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    29,
+    1496,
+    312,
+    1779
+   ],
+   "desk": [
+    -5291,
+    2621,
+    -694,
+    6527
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     620,
+     890,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    28,
+    1497,
+    311,
+    1780
+   ],
+   "desk": [
+    -5301,
+    2621,
+    -698,
+    6529
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     620,
+     890,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    26,
+    1498,
+    309,
+    1781
+   ],
+   "desk": [
+    -5311,
+    2620,
+    -703,
+    6531
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     620,
+     890,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    25,
+    1499,
+    308,
+    1783
+   ],
+   "desk": [
+    -5321,
+    2620,
+    -707,
+    6533
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     620,
+     891,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    24,
+    1500,
+    307,
+    1784
+   ],
+   "desk": [
+    -5330,
+    2619,
+    -712,
+    6535
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     619,
+     891,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    22,
+    1501,
+    306,
+    1785
+   ],
+   "desk": [
+    -5340,
+    2619,
+    -716,
+    6537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     619,
+     892,
+     1161
+    ],
+    "note": null
+   },
+   "head": [
+    21,
+    1502,
+    305,
+    1786
+   ],
+   "desk": [
+    -5350,
+    2618,
+    -721,
+    6539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     619,
+     892,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    20,
+    1503,
+    304,
+    1787
+   ],
+   "desk": [
+    -5359,
+    2618,
+    -725,
+    6541
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     619,
+     893,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    18,
+    1503,
+    302,
+    1787
+   ],
+   "desk": [
+    -5369,
+    2617,
+    -730,
+    6542
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     619,
+     893,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    17,
+    1503,
+    301,
+    1788
+   ],
+   "desk": [
+    -5379,
+    2617,
+    -734,
+    6544
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    256,
+    379,
+    744,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     618,
+     893,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    15,
+    1504,
+    300,
+    1788
+   ],
+   "desk": [
+    -5388,
+    2616,
+    -739,
+    6546
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     618,
+     894,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    14,
+    1504,
+    299,
+    1789
+   ],
+   "desk": [
+    -5397,
+    2616,
+    -743,
+    6548
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    114,
+    357,
+    886,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     618,
+     894,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    12,
+    1504,
+    297,
+    1789
+   ],
+   "desk": [
+    -5407,
+    2615,
+    -748,
+    6550
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     618,
+     895,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    11,
+    1504,
+    296,
+    1789
+   ],
+   "desk": [
+    -5416,
+    2615,
+    -752,
+    6551
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     618,
+     895,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    9,
+    1504,
+    295,
+    1789
+   ],
+   "desk": [
+    -5426,
+    2614,
+    -757,
+    6553
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     617,
+     895,
+     1162
+    ],
+    "note": null
+   },
+   "head": [
+    8,
+    1503,
+    293,
+    1789
+   ],
+   "desk": [
+    -5435,
+    2614,
+    -761,
+    6554
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     617,
+     896,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    6,
+    1503,
+    292,
+    1789
+   ],
+   "desk": [
+    -5444,
+    2613,
+    -765,
+    6556
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     617,
+     896,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    4,
+    1503,
+    291,
+    1789
+   ],
+   "desk": [
+    -5453,
+    2613,
+    -770,
+    6557
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     617,
+     897,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    3,
+    1502,
+    289,
+    1789
+   ],
+   "desk": [
+    -5462,
+    2612,
+    -774,
+    6559
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     616,
+     897,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    1,
+    1502,
+    288,
+    1789
+   ],
+   "desk": [
+    -5471,
+    2612,
+    -779,
+    6560
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     616,
+     898,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    0,
+    1502,
+    287,
+    1789
+   ],
+   "desk": [
+    -5480,
+    2611,
+    -783,
+    6562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     616,
+     898,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    -2,
+    1501,
+    285,
+    1789
+   ],
+   "desk": [
+    -5489,
+    2611,
+    -788,
+    6563
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     616,
+     898,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    -3,
+    1501,
+    284,
+    1789
+   ],
+   "desk": [
+    -5498,
+    2610,
+    -792,
+    6564
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     616,
+     899,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    -5,
+    1501,
+    283,
+    1789
+   ],
+   "desk": [
+    -5507,
+    2610,
+    -797,
+    6566
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     615,
+     899,
+     1163
+    ],
+    "note": null
+   },
+   "head": [
+    -6,
+    1501,
+    281,
+    1789
+   ],
+   "desk": [
+    -5516,
+    2609,
+    -801,
+    6567
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     615,
+     900,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -8,
+    1501,
+    280,
+    1789
+   ],
+   "desk": [
+    -5524,
+    2609,
+    -806,
+    6568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     615,
+     900,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -9,
+    1501,
+    279,
+    1789
+   ],
+   "desk": [
+    -5533,
+    2608,
+    -810,
+    6569
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     615,
+     901,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -11,
+    1501,
+    277,
+    1790
+   ],
+   "desk": [
+    -5542,
+    2607,
+    -815,
+    6570
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     615,
+     901,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -12,
+    1502,
+    276,
+    1790
+   ],
+   "desk": [
+    -5550,
+    2607,
+    -819,
+    6571
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     614,
+     901,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -14,
+    1502,
+    275,
+    1791
+   ],
+   "desk": [
+    -5559,
+    2606,
+    -824,
+    6573
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     614,
+     902,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -15,
+    1503,
+    274,
+    1792
+   ],
+   "desk": [
+    -5567,
+    2606,
+    -828,
+    6574
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     614,
+     902,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -17,
+    1503,
+    273,
+    1793
+   ],
+   "desk": [
+    -5576,
+    2605,
+    -833,
+    6574
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    357,
+    890,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     614,
+     903,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -18,
+    1504,
+    271,
+    1793
+   ],
+   "desk": [
+    -5584,
+    2605,
+    -837,
+    6575
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     613,
+     903,
+     1164
+    ],
+    "note": null
+   },
+   "head": [
+    -19,
+    1505,
+    270,
+    1795
+   ],
+   "desk": [
+    -5593,
+    2604,
+    -842,
+    6576
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    226,
+    341,
+    774,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     613,
+     904,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -21,
+    1506,
+    269,
+    1796
+   ],
+   "desk": [
+    -5601,
+    2604,
+    -846,
+    6577
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     613,
+     904,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -22,
+    1507,
+    268,
+    1797
+   ],
+   "desk": [
+    -5609,
+    2603,
+    -850,
+    6578
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     613,
+     905,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -23,
+    1508,
+    267,
+    1798
+   ],
+   "desk": [
+    -5617,
+    2602,
+    -855,
+    6579
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     613,
+     905,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -25,
+    1509,
+    266,
+    1800
+   ],
+   "desk": [
+    -5626,
+    2602,
+    -859,
+    6579
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     612,
+     905,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -26,
+    1511,
+    265,
+    1801
+   ],
+   "desk": [
+    -5634,
+    2601,
+    -864,
+    6580
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     612,
+     906,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -27,
+    1512,
+    264,
+    1802
+   ],
+   "desk": [
+    -5642,
+    2601,
+    -868,
+    6581
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     612,
+     906,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -28,
+    1513,
+    262,
+    1804
+   ],
+   "desk": [
+    -5650,
+    2600,
+    -873,
+    6581
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     612,
+     907,
+     1165
+    ],
+    "note": null
+   },
+   "head": [
+    -30,
+    1514,
+    261,
+    1805
+   ],
+   "desk": [
+    -5658,
+    2599,
+    -877,
+    6582
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     611,
+     907,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -31,
+    1515,
+    260,
+    1806
+   ],
+   "desk": [
+    -5666,
+    2599,
+    -882,
+    6582
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     611,
+     908,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -32,
+    1516,
+    259,
+    1808
+   ],
+   "desk": [
+    -5673,
+    2598,
+    -886,
+    6583
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     611,
+     908,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -33,
+    1517,
+    258,
+    1809
+   ],
+   "desk": [
+    -5681,
+    2598,
+    -891,
+    6583
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     611,
+     908,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -35,
+    1518,
+    257,
+    1810
+   ],
+   "desk": [
+    -5689,
+    2597,
+    -895,
+    6584
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     611,
+     909,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -36,
+    1519,
+    256,
+    1811
+   ],
+   "desk": [
+    -5697,
+    2597,
+    -900,
+    6584
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     610,
+     909,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -37,
+    1520,
+    255,
+    1812
+   ],
+   "desk": [
+    -5704,
+    2596,
+    -904,
+    6584
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     610,
+     910,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -38,
+    1521,
+    254,
+    1813
+   ],
+   "desk": [
+    -5712,
+    2595,
+    -908,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     610,
+     910,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -40,
+    1521,
+    252,
+    1813
+   ],
+   "desk": [
+    -5719,
+    2595,
+    -913,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     610,
+     911,
+     1166
+    ],
+    "note": null
+   },
+   "head": [
+    -41,
+    1521,
+    251,
+    1814
+   ],
+   "desk": [
+    -5727,
+    2594,
+    -917,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     609,
+     911,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -42,
+    1522,
+    250,
+    1814
+   ],
+   "desk": [
+    -5734,
+    2594,
+    -922,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     609,
+     912,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -44,
+    1522,
+    249,
+    1814
+   ],
+   "desk": [
+    -5742,
+    2593,
+    -926,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     609,
+     912,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -45,
+    1522,
+    248,
+    1815
+   ],
+   "desk": [
+    -5749,
+    2592,
+    -931,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     609,
+     912,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -47,
+    1521,
+    247,
+    1815
+   ],
+   "desk": [
+    -5756,
+    2592,
+    -935,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     609,
+     913,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -48,
+    1521,
+    245,
+    1814
+   ],
+   "desk": [
+    -5764,
+    2591,
+    -940,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     608,
+     913,
+     1167
+    ],
+    "note": null
+   },
+   "head": [
+    -50,
+    1521,
+    244,
+    1814
+   ],
+   "desk": [
+    -5771,
+    2590,
+    -944,
+    6585
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     599,
+     916,
+     1158
+    ],
+    "note": null
+   },
+   "head": [
+    -47,
+    1510,
+    247,
+    1804
+   ],
+   "desk": [
+    -5771,
+    2579,
+    -940,
+    6564
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     572,
+     926,
+     1133
+    ],
+    "note": null
+   },
+   "head": [
+    -37,
+    1480,
+    257,
+    1774
+   ],
+   "desk": [
+    -5771,
+    2545,
+    -927,
+    6502
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    222,
+    340,
+    778,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    -22,
+    1432,
+    273,
+    1727
+   ],
+   "desk": [
+    -5771,
+    2491,
+    -907,
+    6401
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    -3,
+    1368,
+    293,
+    1664
+   ],
+   "desk": [
+    -5773,
+    2418,
+    -881,
+    6264
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    147,
+    341,
+    853,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    20,
+    1292,
+    318,
+    1589
+   ],
+   "desk": [
+    -5777,
+    2332,
+    -849,
+    6098
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    45,
+    1207,
+    344,
+    1506
+   ],
+   "desk": [
+    -5782,
+    2235,
+    -815,
+    5910
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    71,
+    1119,
+    372,
+    1420
+   ],
+   "desk": [
+    -5791,
+    2133,
+    -780,
+    5709
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    96,
+    1032,
+    398,
+    1334
+   ],
+   "desk": [
+    -5801,
+    2033,
+    -747,
+    5507
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    119,
+    952,
+    422,
+    1256
+   ],
+   "desk": [
+    -5813,
+    1940,
+    -716,
+    5315
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    138,
+    883,
+    443,
+    1188
+   ],
+   "desk": [
+    -5824,
+    1861,
+    -690,
+    5148
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    152,
+    830,
+    458,
+    1136
+   ],
+   "desk": [
+    -5834,
+    1800,
+    -671,
+    5018
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    161,
+    797,
+    468,
+    1104
+   ],
+   "desk": [
+    -5840,
+    1761,
+    -658,
+    4935
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    164,
+    786,
+    471,
+    1093
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    162,
+    786,
+    469,
+    1092
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    160,
+    785,
+    467,
+    1092
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    158,
+    785,
+    465,
+    1092
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    157,
+    786,
+    463,
+    1092
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    157,
+    786,
+    463,
+    1093
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    157,
+    787,
+    463,
+    1093
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    157,
+    787,
+    463,
+    1094
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    157,
+    788,
+    464,
+    1094
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    158,
+    789,
+    464,
+    1095
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    158,
+    790,
+    465,
+    1096
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    158,
+    791,
+    465,
+    1097
+   ],
+   "desk": [
+    -5843,
+    1748,
+    -654,
+    4906
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    292,
+    1029,
+    606,
+    1344
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    340,
+    858,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    292,
+    1030,
+    606,
+    1345
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1031,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    304,
+    380,
+    696,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     245,
+     589,
+     835,
+     991
+    ]
+   },
+   "head": [
+    291,
+    1032,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     238,
+     584,
+     842,
+     995
+    ]
+   },
+   "head": [
+    291,
+    1033,
+    605,
+    1347
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     226,
+     577,
+     854,
+     1003
+    ]
+   },
+   "head": [
+    291,
+    1034,
+    605,
+    1348
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     220,
+     572,
+     860,
+     1007
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    302,
+    379,
+    698,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    132,
+    341,
+    868,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    128,
+    340,
+    872,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1034,
+    605,
+    1348
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1033,
+    605,
+    1347
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1032,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1031,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1030,
+    606,
+    1345
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1029,
+    606,
+    1344
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1029,
+    606,
+    1343
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1028,
+    606,
+    1342
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1027,
+    606,
+    1341
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1026,
+    606,
+    1340
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1025,
+    606,
+    1339
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1024,
+    606,
+    1339
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1024,
+    607,
+    1338
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1338
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1337
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1337
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1337
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1337
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    127,
+    340,
+    873,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1023,
+    607,
+    1338
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1024,
+    607,
+    1338
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    212,
+    341,
+    788,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1024,
+    606,
+    1339
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1025,
+    606,
+    1339
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1026,
+    606,
+    1340
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1027,
+    606,
+    1341
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1028,
+    606,
+    1342
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1029,
+    606,
+    1343
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1029,
+    606,
+    1344
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    292,
+    1030,
+    606,
+    1345
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1031,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1032,
+    605,
+    1346
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1033,
+    605,
+    1347
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1034,
+    605,
+    1348
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     219,
+     572,
+     861,
+     1008
+    ]
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    208,
+    340,
+    792,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1035,
+    605,
+    1349
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1036,
+    605,
+    1350
+   ],
+   "desk": [
+    176,
+    2229,
+    5960,
+    9290
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1036,
+    604,
+    1349
+   ],
+   "desk": [
+    175,
+    2226,
+    5922,
+    9194
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    291,
+    1035,
+    603,
+    1347
+   ],
+   "desk": [
+    172,
+    2218,
+    5810,
+    8922
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    290,
+    1033,
+    599,
+    1341
+   ],
+   "desk": [
+    168,
+    2204,
+    5634,
+    8511
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    286,
+    1026,
+    590,
+    1331
+   ],
+   "desk": [
+    161,
+    2185,
+    5406,
+    8012
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    276,
+    1017,
+    575,
+    1315
+   ],
+   "desk": [
+    154,
+    2163,
+    5141,
+    7473
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    265,
+    1005,
+    557,
+    1297
+   ],
+   "desk": [
+    146,
+    2137,
+    4854,
+    6934
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    254,
+    995,
+    539,
+    1279
+   ],
+   "desk": [
+    137,
+    2109,
+    4558,
+    6420
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    248,
+    987,
+    525,
+    1264
+   ],
+   "desk": [
+    128,
+    2079,
+    4264,
+    5948
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    246,
+    982,
+    516,
+    1252
+   ],
+   "desk": [
+    119,
+    2048,
+    3980,
+    5523
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    248,
+    977,
+    512,
+    1242
+   ],
+   "desk": [
+    111,
+    2017,
+    3710,
+    5148
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    251,
+    974,
+    509,
+    1232
+   ],
+   "desk": [
+    103,
+    1987,
+    3460,
+    4819
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    254,
+    970,
+    506,
+    1222
+   ],
+   "desk": [
+    95,
+    1957,
+    3230,
+    4533
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    257,
+    966,
+    503,
+    1212
+   ],
+   "desk": [
+    89,
+    1928,
+    3022,
+    4285
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    261,
+    962,
+    500,
+    1202
+   ],
+   "desk": [
+    83,
+    1901,
+    2834,
+    4072
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    264,
+    959,
+    498,
+    1193
+   ],
+   "desk": [
+    78,
+    1875,
+    2667,
+    3887
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    267,
+    955,
+    496,
+    1184
+   ],
+   "desk": [
+    73,
+    1852,
+    2518,
+    3729
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    270,
+    952,
+    494,
+    1176
+   ],
+   "desk": [
+    69,
+    1830,
+    2388,
+    3593
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    272,
+    949,
+    492,
+    1169
+   ],
+   "desk": [
+    66,
+    1810,
+    2274,
+    3477
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    275,
+    946,
+    491,
+    1162
+   ],
+   "desk": [
+    63,
+    1793,
+    2175,
+    3378
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    277,
+    943,
+    490,
+    1156
+   ],
+   "desk": [
+    61,
+    1777,
+    2091,
+    3295
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    279,
+    941,
+    489,
+    1151
+   ],
+   "desk": [
+    59,
+    1764,
+    2020,
+    3226
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    281,
+    939,
+    488,
+    1146
+   ],
+   "desk": [
+    58,
+    1752,
+    1962,
+    3169
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    937,
+    487,
+    1142
+   ],
+   "desk": [
+    56,
+    1743,
+    1915,
+    3124
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    936,
+    487,
+    1139
+   ],
+   "desk": [
+    56,
+    1736,
+    1879,
+    3090
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    935,
+    486,
+    1137
+   ],
+   "desk": [
+    55,
+    1731,
+    1854,
+    3066
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    934,
+    486,
+    1136
+   ],
+   "desk": [
+    55,
+    1728,
+    1839,
+    3051
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    285,
+    934,
+    486,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    934,
+    486,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    934,
+    486,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    934,
+    485,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    935,
+    485,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    935,
+    485,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    935,
+    485,
+    1136
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    284,
+    935,
+    485,
+    1137
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    936,
+    485,
+    1137
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    936,
+    485,
+    1137
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    937,
+    484,
+    1138
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    937,
+    484,
+    1138
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    937,
+    484,
+    1139
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    938,
+    484,
+    1139
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    938,
+    484,
+    1139
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    939,
+    484,
+    1140
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    939,
+    484,
+    1140
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    940,
+    484,
+    1141
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    940,
+    484,
+    1141
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    283,
+    940,
+    483,
+    1141
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null
+   },
+   "head": [
+    282,
+    941,
+    483,
+    1142
+   ],
+   "desk": [
+    55,
+    1727,
+    1834,
+    3047
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  }
+ ]
+}

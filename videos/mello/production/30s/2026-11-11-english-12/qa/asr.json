@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Why does one unfinished task follow you into bed? In studies, unfinished goals kept intruding on other tasks. Writing a specific plan made those intrusions stop. In a sleep lab, people who wrote a to-do list fell asleep faster than those listing finished tasks. Not a cure, but the loop can wait. So park it: jot down the next step, and when you'll do it. Email Sam, tomorrow at nine. Take a mindful break with Mello.",
+  "transcript": "Why does one unfinished task follow you into bed? In studies, unfinished goals kept intruding on other tasks. Writing a specific plan made those intrusions stop. In a sleep lab, people who wrote a to-do list fell asleep faster than those listing finished tasks. Not a cure, but the loop can wait. So park it, jot down the next step, and when you'll do it. Email Sam tomorrow at 9. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 2.786,
+      "text": "Why does one unfinished task follow you into bed?",
+      "cer": 0.0
+    },
+    {
+      "id": "intrude",
+      "start": 3.25,
+      "end": 6.778,
+      "text": "In studies, unfinished goals kept intruding on other tasks.",
+      "cer": 0.0
+    },
+    {
+      "id": "plan",
+      "start": 7.25,
+      "end": 10.13,
+      "text": "Writing a specific plan made those intrusions stop.",
+      "cer": 0.0
+    },
+    {
+      "id": "sleep",
+      "start": 10.6,
+      "end": 16.336,
+      "text": "In a sleep lab, people who wrote a to-do list fell asleep faster than those listing finished tasks.",
+      "cer": 0.0
+    },
+    {
+      "id": "qual",
+      "start": 16.8,
+      "end": 18.608,
+      "text": "Not a cure, but the loop can wait.",
+      "cer": 0.0
+    },
+    {
+      "id": "park",
+      "start": 19.1,
+      "end": 21.996,
+      "text": "So park it, jot down the next step, and when you'll do it.",
+      "cer": 0.0
+    },
+    {
+      "id": "example",
+      "start": 22.4,
+      "end": 24.217,
+      "text": "Email Sam tomorrow at 9.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.8,
+      "end": 28.52,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

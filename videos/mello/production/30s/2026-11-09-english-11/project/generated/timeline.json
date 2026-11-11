@@ -1,0 +1,99 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Your phone is within reach all night. Your book isn't.",
+      "start": 0.3,
+      "end": 3.203,
+      "pauses": [
+        [
+          1.997,
+          2.354
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one study, moving snacks half a metre farther away meant fewer people ate any.",
+      "start": 3.75,
+      "end": 8.459,
+      "pauses": [
+        [
+          4.512,
+          4.847
+        ]
+      ]
+    },
+    {
+      "id": "mech",
+      "text": "They weren't less noticeable; reaching just felt like more effort.",
+      "start": 9.0,
+      "end": 12.445,
+      "pauses": [
+        [
+          10.182,
+          10.524
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "text": "That's friction. It won't break a habit alone, but it changes what's easy.",
+      "start": 13.0,
+      "end": 16.903,
+      "pauses": [
+        [
+          13.701,
+          14.039
+        ]
+      ]
+    },
+    {
+      "id": "tip",
+      "text": "Tonight, charge your phone across the room, and put a book where it used to be.",
+      "start": 17.5,
+      "end": 21.403,
+      "pauses": [
+        [
+          19.583,
+          19.899
+        ],
+        [
+          20.4,
+          20.477
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "text": "Now the easy reach is the book, not the scroll.",
+      "start": 22.1,
+      "end": 24.557,
+      "pauses": [
+        [
+          23.535,
+          23.746
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}

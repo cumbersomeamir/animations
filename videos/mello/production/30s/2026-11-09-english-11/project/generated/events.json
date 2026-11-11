@@ -1,0 +1,40 @@
+{
+  "T": {
+    "reachA": 0.85,
+    "reachB": 1.3,
+    "pickB": 1.85,
+    "bookPill": 2.374,
+    "study": 3.65,
+    "bowl": 4.747000000000001,
+    "slideA": 5.55,
+    "slideB": 6.45,
+    "fewer": 7.1,
+    "notice": 9.4,
+    "effA": 10.574,
+    "effB": 11.75,
+    "friction": 12.95,
+    "swapA": 15.5,
+    "swapB": 16.45,
+    "placeA": 17.75,
+    "placeB": 18.45,
+    "charge": 18.5,
+    "bookA": 19.55,
+    "bookB": 20.1,
+    "putA": 20.4,
+    "putB": 21,
+    "easy": 22.4,
+    "liftA": 24,
+    "liftB": 24.6,
+    "openA": 24.7,
+    "openB": 25.4,
+    "lockA": 26
+  },
+  "S": {
+    "s1": 0,
+    "s2": 3.6,
+    "s3": 8.75,
+    "s4": 17.3,
+    "s5": 20.3,
+    "end": 30
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "T": {
+    "pass1": 3.95,
+    "pass2": 5.25,
+    "pass3": 6.2,
+    "blips": 7.1,
+    "planIn": 7.75,
+    "stop": 9.1,
+    "lab": 10.75,
+    "todo": 12.6,
+    "todoBar": 13.15,
+    "done": 14.9,
+    "doneBar": 15.2,
+    "wait": 17.6,
+    "write1A": 20,
+    "write1B": 21,
+    "write2A": 21.2,
+    "write2B": 21.95,
+    "parkA": 22.45,
+    "parkB": 23.9,
+    "closeA": 24.3,
+    "closeB": 24.9,
+    "lampA": 24.6,
+    "lampB": 26.2,
+    "lockA": 26.5
+  },
+  "S": {
+    "s1": 0,
+    "s2": 3.05,
+    "s3": 7,
+    "s4": 10.45,
+    "s5": 18.85,
+    "end": 30
+  }
+}
