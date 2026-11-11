@@ -1,0 +1,3 @@
+cmd: ffmpeg -v error -xerror -i mello-30s-english09-01.mp4 -f null -
+returncode: 0
+stderr: (empty)

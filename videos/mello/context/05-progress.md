@@ -387,3 +387,26 @@ cd videos/mello/production/30s/2026-11-07-english-08/project && npm ci && ASR_PY
 
 ## Next
 - This round's single episode is done. Wait for sheet feedback before any new episode.
+
+# English-09, 2026-11-08: episode english09-01 "the peak-end rule" (English)
+Episode record (script, sources, storyboard, adjustments): `19-episode-peak-end-rule.md`. The established format is unchanged.
+
+## Verified facts (this round)
+- The peak-end rule is new for this app (history checked), so the suggested topic was kept.
+- Sources read (PubMed abstracts): Redelmeier & Kahneman 1996 (PMID 8857625), Fredrickson & Kahneman 1993 (PMID 8355141), Redelmeier, Katz & Kahneman 2003 (PMID 12855328). The 1993 cold-water paper was not used (abstract withheld).
+
+## Creative decisions (this round)
+- English narration and captions only, 73 words. Hook: "A long queue, yet you remember a great day out?" over a card already drawing at frame 0.
+- Practical tip: end the workday by finishing one small, meaningful task; close the loop, then the laptop. `BED_GAIN` 0.45 (13.7 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-08-english-09/mello-30s-english09-01.mp4`
+  - sha256 `422778a388074bc2042d59466b2a5426079ce5e1eba9a34e60e19c86c6541156`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-08-english-09/qa/QA.md`): full decode clean; −16.0 LUFS; cuts on plan; 0 safe-zone issues in 300 samples; English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- Nobody has listened by ear (ASR-only). The Desktop/video-review folder is not reachable from this cloud session; the MP4 is delivered as a chat attachment and on the branch.
+
+## Next
+- Queued, in order: english-10 (2026-11-09, habit formation time and one missed day; implementation intentions already covered), english-11 (2026-11-09, environmental friction), then the 2026-11-11 episode (unfinished tasks / parking one).
