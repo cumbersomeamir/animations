@@ -1,0 +1,206 @@
+{
+ "sfx": [
+  {
+   "t": 0.25,
+   "type": "slide"
+  },
+  {
+   "t": 0.45,
+   "type": "type"
+  },
+  {
+   "t": 1.199,
+   "type": "tap"
+  },
+  {
+   "t": 1.549,
+   "type": "type"
+  },
+  {
+   "t": 1.837,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 2.661,
+   "type": "wipe"
+  },
+  {
+   "t": 6.095,
+   "type": "wipe"
+  },
+  {
+   "t": 10.628,
+   "type": "wipe"
+  },
+  {
+   "t": 12.284,
+   "type": "wipe"
+  },
+  {
+   "t": 14.84,
+   "type": "wipe"
+  },
+  {
+   "t": 19.711,
+   "type": "wipe"
+  },
+  {
+   "t": 21.003,
+   "type": "wipe"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 3.237,
+   "type": "clack"
+  },
+  {
+   "t": 3.537,
+   "type": "tap"
+  },
+  {
+   "t": 3.687,
+   "type": "tap"
+  },
+  {
+   "t": 5.187,
+   "type": "type"
+  },
+  {
+   "t": 7.183,
+   "type": "slide"
+  },
+  {
+   "t": 7.57,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 7.79,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 9.508,
+   "type": "blip"
+  },
+  {
+   "t": 11.01,
+   "type": "slot"
+  },
+  {
+   "t": 11.26,
+   "type": "slot"
+  },
+  {
+   "t": 12.384,
+   "type": "match"
+  },
+  {
+   "t": 13.612,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 14.512,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 15.486,
+   "type": "clack"
+  },
+  {
+   "t": 18.274,
+   "type": "carve"
+  },
+  {
+   "t": 18.636,
+   "type": "match"
+  },
+  {
+   "t": 19.961,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 21.401,
+   "type": "type"
+  },
+  {
+   "t": 26.503,
+   "type": "chime"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 27.182,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "no": 0.324,
+  "edit": 1.349,
+  "still": 1.599,
+  "saves": 1.887,
+  "now": 2.761,
+  "two": 2.937,
+  "change2": 3.537,
+  "offline": 4.337,
+  "who": 5.237,
+  "wins": 5.399,
+  "apps": 6.295,
+  "keep": 7.283,
+  "copy3": 7.57,
+  "phone3": 8.658,
+  "save3": 9.508,
+  "first": 10.033,
+  "each": 10.828,
+  "change4": 11.01,
+  "waits": 11.31,
+  "queue4": 11.685,
+  "back": 12.384,
+  "online": 12.561,
+  "syncs": 13.612,
+  "server5": 14.236,
+  "additions": 15.04,
+  "merge": 15.586,
+  "same6": 17.474,
+  "item": 17.811,
+  "rule": 18.374,
+  "picks": 18.686,
+  "every": 20.011,
+  "thats": 21.203,
+  "local": 21.451,
+  "main": 22.601,
+  "phone7": 23.763,
+  "servers": 24.438,
+  "sync7": 25.976,
+  "follow": 27,
+  "tb": 27.282,
+  "chime": 26.503,
+  "scenes": [
+   0,
+   2.661,
+   6.095,
+   10.628,
+   12.284,
+   14.84,
+   19.711,
+   21.003,
+   26.6,
+   30.01
+  ]
+ }
+}

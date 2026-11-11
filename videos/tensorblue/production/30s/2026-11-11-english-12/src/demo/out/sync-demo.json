@@ -1,0 +1,59 @@
+{
+ "library": {
+  "name": "@automerge/automerge",
+  "version": "3.5.0"
+ },
+ "start": {
+  "server": [
+   "bread"
+  ],
+  "A": [
+   "bread"
+  ],
+  "B": [
+   "bread"
+  ]
+ },
+ "offline": {
+  "A": [
+   "rye bread",
+   "milk"
+  ],
+  "B": [
+   "brown bread",
+   "eggs"
+  ],
+  "server": [
+   "bread"
+  ]
+ },
+ "queued_changes": {
+  "A": 2,
+  "B": 2
+ },
+ "after_sync": {
+  "server": [
+   "brown bread",
+   "eggs",
+   "milk"
+  ],
+  "A": [
+   "brown bread",
+   "eggs",
+   "milk"
+  ],
+  "B": [
+   "brown bread",
+   "eggs",
+   "milk"
+  ],
+  "all_copies_identical": true
+ },
+ "same_item_conflict": {
+  "winner": "brown bread",
+  "values_kept": [
+   "rye bread",
+   "brown bread"
+  ]
+ }
+}

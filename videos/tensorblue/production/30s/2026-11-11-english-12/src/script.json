@@ -1,0 +1,19 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [["af_bella", 0.7], ["am_puck", 0.3]],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {"Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"},
+ "lines": [
+  {"id": "L1", "at": 0.3, "text": "No internet. The edit still saves.", "after": 0.3},
+  {"id": "L2", "at": 0.0, "text": "Now two phones change the same list offline. Who wins?", "after": 0.35},
+  {"id": "L3", "at": 0.0, "text": "Apps built for this keep a copy of your data on the phone and save there first.", "after": 0.3},
+  {"id": "L4", "at": 0.0, "text": "Each change waits in a queue.", "after": 0.3},
+  {"id": "L5", "at": 0.0, "text": "Back online, the queue syncs through the server.", "after": 0.3},
+  {"id": "L6", "at": 0.0, "text": "Additions merge. If both changed the same item, a rule picks one, the same on every copy.", "after": 0.35},
+  {"id": "L7", "at": 0.0, "text": "That's local-first: the main copy lives on your phone; servers just keep copies in sync.", "after": 0.35},
+  {"id": "L8", "at": 27.0, "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.", "after": 0.3}
+ ]
+}

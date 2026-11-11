@@ -1,0 +1,14 @@
+{
+  "name": "tensorblue-30s-english12-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer for Tensorblue 30s english-12 episode 01 (offline, still working: local-first).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@automerge/automerge": "3.5.0",
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+No internet. The edit still saves. Now two phones change the same list offline. Who wins?
+
+Apps built for this keep a copy of your data on the phone and save there first. Each change waits in a queue. Back online, the queue syncs through the server. Additions merge. If both changed the same item, a rule picks one, the same on every copy.
+
+That's local-first: the main copy lives on your phone; servers just keep copies in sync.
+
+Our demo used the open-source sync library Automerge 3.5.0 with a made-up shopping list: both phones' additions were kept after syncing, both renamed "bread" differently, and every copy ended up with the same one value. Rules differ by tool; for example, Firebase Cloud Firestore documents "last write wins" for multiple changes to the same document.
+
+Sources:
+- Kleppmann, Wiggins, van Hardenberg, McGranaghan, "Local-First Software: You Own Your Data, in spite of the Cloud" (Onward! 2019): https://martin.kleppmann.com/papers/local-first.pdf
+- Firebase docs, Access data offline (Cloud Firestore): https://firebase.google.com/docs/firestore/manage-data/enable-offline
+- Automerge docs, Conflicts: https://automerge.org/docs/reference/documents/conflicts/
+
+Follow Tensorblue for software explained simply.
+
+#LocalFirst #OfflineApps #SoftwareExplained

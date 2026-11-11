@@ -1,0 +1,244 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "No internet.",
+    "The edit still saves."
+   ],
+   "t0": 0.24,
+   "tEnd": 2.75,
+   "frame": 25,
+   "box": {
+    "x0": 251,
+    "x1": 746,
+    "y0": 377,
+    "y1": 482,
+    "n": 13006
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Now two phones change",
+    "the same list offline."
+   ],
+   "t0": 2.69,
+   "tEnd": 5.24,
+   "frame": 99,
+   "box": {
+    "x0": 181,
+    "x1": 820,
+    "y0": 374,
+    "y1": 476,
+    "n": 19456
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Who wins?"
+   ],
+   "t0": 5.18,
+   "tEnd": 6.29,
+   "frame": 173,
+   "box": {
+    "x0": 358,
+    "x1": 640,
+    "y0": 409,
+    "y1": 450,
+    "n": 4806
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Apps built for this keep",
+    "a copy of your data"
+   ],
+   "t0": 6.24,
+   "tEnd": 8.46,
+   "frame": 205,
+   "box": {
+    "x0": 199,
+    "x1": 799,
+    "y0": 372,
+    "y1": 488,
+    "n": 18084
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "on the phone and",
+    "save there first."
+   ],
+   "t0": 8.4,
+   "tEnd": 10.83,
+   "frame": 270,
+   "box": {
+    "x0": 275,
+    "x1": 723,
+    "y0": 375,
+    "y1": 477,
+    "n": 13876
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Each change waits",
+    "in a queue."
+   ],
+   "t0": 10.77,
+   "tEnd": 12.38,
+   "frame": 341,
+   "box": {
+    "x0": 259,
+    "x1": 741,
+    "y0": 371,
+    "y1": 487,
+    "n": 12721
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Back online, the queue",
+    "syncs through the server."
+   ],
+   "t0": 12.32,
+   "tEnd": 15.04,
+   "frame": 388,
+   "box": {
+    "x0": 168,
+    "x1": 829,
+    "y0": 371,
+    "y1": 488,
+    "n": 20223
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Additions merge."
+   ],
+   "t0": 14.98,
+   "tEnd": 16.49,
+   "frame": 467,
+   "box": {
+    "x0": 278,
+    "x1": 718,
+    "y0": 403,
+    "y1": 456,
+    "n": 7749
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "If both changed",
+    "the same item,"
+   ],
+   "t0": 16.43,
+   "tEnd": 18.26,
+   "frame": 511,
+   "box": {
+    "x0": 298,
+    "x1": 701,
+    "y0": 371,
+    "y1": 486,
+    "n": 13203
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "a rule picks one,",
+    "the same on every copy."
+   ],
+   "t0": 18.2,
+   "tEnd": 21.2,
+   "frame": 564,
+   "box": {
+    "x0": 182,
+    "x1": 814,
+    "y0": 372,
+    "y1": 488,
+    "n": 16253
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "That's local-first:"
+   ],
+   "t0": 21.14,
+   "tEnd": 22.5,
+   "frame": 652,
+   "box": {
+    "x0": 276,
+    "x1": 721,
+    "y0": 409,
+    "y1": 450,
+    "n": 7038
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the main copy lives",
+    "on your phone;"
+   ],
+   "t0": 22.44,
+   "tEnd": 24.44,
+   "frame": 691,
+   "box": {
+    "x0": 250,
+    "x1": 748,
+    "y0": 372,
+    "y1": 488,
+    "n": 14220
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "servers just keep",
+    "copies in sync."
+   ],
+   "t0": 24.38,
+   "tEnd": 26.95,
+   "frame": 749,
+   "box": {
+    "x0": 278,
+    "x1": 721,
+    "y0": 372,
+    "y1": 488,
+    "n": 13397
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
