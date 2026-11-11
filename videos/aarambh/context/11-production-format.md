@@ -271,3 +271,19 @@ The style is this recipe; a rendering library is not the style. Canvas2D is only
 - **Counters make "step by step" concrete** (TEETH PARTED 0 → 48 with a soft tick per step). Label the demo "ILLUSTRATION · after patent Fig. N".
 
 - 13 (2026-11-09, english-11): Gideon Sundback, the 1917 separable fastener and its slider (U.S. Patent 1,219,881); replaces a second Garrett Morgan episode. Record: `24-production-30s-english11-01.md`
+
+## "Satisfied?" feedback, 2026-11-11 — CURRENT rules (supersede any conflicting rule above)
+**Full approved text:** `25-feedback-2026-11-11-story-rules.md`. Read it before every episode.
+
+Changes to the recipe above:
+- **Story:** thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+  - **Timing:** hook 0–3 s, escalation 3–5 s, proof and scene changes 5–21 s, payoff 21–27 s, CTA 27–30 s.
+  - **Suspense:** from a real open question only.
+- **Thumbnail:** a separate vertical thumbnail with 2–4 large words, tied to the hook, delivered with the MP4.
+- **Screen:** one visual idea at a time; large, brief labels; no paragraph cards or note lines; no source footers on screen (sources go in notes and the publishing caption).
+  - Never show a caption, diagram labels and an explanation at the same time.
+  - Diagrams reveal sequentially, with depth, lighting and motivated transitions.
+  - No decorative grid lines; no static page with a lens moving up and down.
+- **Captions:** inside x 100–900, y 230–1500, with the plate centred at x = 500 and ≤ 800 px wide.
+- **Feedback addressed:** "too much simultaneous information/text, motion unappealing, weak thumbnail." Keep the genre, the editorial skill and real sourced portraits.
+- **QA wording:** say "ASR-checked", never "listened", unless a human listening was actually done.

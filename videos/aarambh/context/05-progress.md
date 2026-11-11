@@ -81,3 +81,6 @@
   - A zipper-closing hook and a pull-back demo with a teeth-parted counter; lesson "design the transition, not just the two endpoints"; Aarambh-only CTA.
 - **Subject change recorded:** Garrett Morgan was already episode 09, so it was not repeated.
 - **Read first next time:** 11 (incl. the English-06 to 11 notes) and 24.
+
+## 2026-11-11: approved feedback rules persisted
+- The user's "Satisfied?" feedback of 2026-11-11 is stored as `25-feedback-2026-11-11-story-rules.md`, with a superseding section at the end of `11`. **Read 25 first for every future episode.**
