@@ -1,0 +1,8 @@
+s1 placed  0.20s  heard [ 0.05.. 3.79]  MATCH: None of these photos is called Dog, so how did Search find him?
+s2 placed  4.80s  heard [ 4.65.. 9.15]  MATCH: Your Photos app looks at each picture and tags what it sees. Dog Beach Cake.
+s3 placed 10.30s  heard [10.15..13.55]  MATCH: Search matches your word to those tags, not only file names.
+s4 placed 14.75s  heard [14.60..17.30]  MATCH: Mistakes happen. This goat got tagged as a dog.
+s5 placed 18.60s  heard [18.45..22.45]  MATCH: So search for what was in a lost photo. A receipt, a beach, a cake.
+s6 placed 26.60s  heard [26.45..27.75]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

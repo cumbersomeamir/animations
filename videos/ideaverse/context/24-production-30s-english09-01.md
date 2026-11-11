@@ -45,5 +45,8 @@ Photos, file names, results and phone screens are fictional EXAMPLEs drawn in co
    opens full screen + "✓ found it".
 7. 25.4–30 CTA: DOCKET waves; caption "Download the / [icon] Ideaverse app".
 
-## QA / status — IN PROGRESS
-- Pre-render mix ASR: all lines MATCH, no word outside captions (after moving query ticks out of "a beach").
+## QA / status — DELIVERED 2026-11-11
+- Output: production/30s/2026-11-08-english-09/ideaverse-30s-english09-01.mp4 · sha256 3b444783…db93 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS / −2.0 dBTP.
+- English ASR on the final MP4: all six lines MATCH, no word outside its caption; captions SPEC PASS; top 300 px text-free.
+- Limitation: ASR-only listening check.

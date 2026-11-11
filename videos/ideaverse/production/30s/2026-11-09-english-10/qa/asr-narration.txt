@@ -1,0 +1,8 @@
+s1 placed  0.20s  heard [ 0.05.. 3.19]  MATCH: The road ahead looks clear, so why does your map warn of a jam?
+s2 placed  4.50s  heard [ 4.35.. 7.93]  MATCH: Speeds from phones already on that road show the traffic right now.
+s3 placed  9.00s  heard [ 8.85..13.27]  MATCH: Then it adds how that road usually flows at this hour to predict what's coming.
+s4 placed 14.30s  heard [14.15..17.81]  MATCH: It isn't perfect. A sudden crash can still throw the estimate off.
+s5 placed 19.00s  heard [18.85..23.67]  MATCH: For an important trip, set a leave time in advance to see the estimated journey time.
+s6 placed 26.60s  heard [26.45..27.77]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

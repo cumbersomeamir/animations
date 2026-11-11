@@ -125,5 +125,19 @@
 ## Decisions
 - Renderer/style/voice/caption treatment from english-08 unchanged; new scene `src/stage/photosearch.js`.
 - s3 reworded twice (accuracy, then ASR) → "not only file names". Query typing clicks removed from under "a beach".
-## Status — RENDERING
-- Full frame render: `cd src && node render.mjs --frames --workers=3`; then encode, caplog, score, master, mux, qa.sh.
+## Status — DELIVERED (2026-11-11)
+- english-09: production/30s/2026-11-08-english-09/ideaverse-30s-english09-01.mp4 (sha256 3b444783…db93), QA.md + qa/.
+
+---
+# CURRENT — english-10 (2026-11-09) — DELIVERED 2026-11-11
+- Suggested live-captions topic = repeat of english06-01 → fresh: how a maps app predicts a jam (context/25).
+- production/30s/2026-11-09-english-10/ideaverse-30s-english10-01.mp4 (sha256 86ec2506…57aa), QA.md + qa/.
+
+---
+# CURRENT — english-11 (2026-11-09) — RENDERING
+- Suggested passer-by removal = repeat of hindi03-01 → fresh: hum to search (context/26). Scene src/stage/humsearch.js.
+- Full render running; then encode, mix, master, mux, qa.sh, deliver.
+
+# QUEUED — english-12 (requested 2026-11-11, after english-11): voice-cloning scams episode under the NEW feedback rules
+  (context/11 "Approved feedback 2026-11-11") + separate vertical thumbnail "THAT VOICE LIED." Create once.
+- Checks: all earlier MP4s re-hashed unchanged on 2026-11-11 (13 + english08/09/10).

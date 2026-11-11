@@ -197,3 +197,34 @@ Use only when a meme episode is requested; the established lesson style above st
 - Same voice/captions/renderer (each batch copies the previous src). english-09: photo-library search (context/24).
 - Easel card canvas drawn at 2x (setTransform(2,…)) when the camera pushes into a small part of the card.
 - Queue order kept: english-09 finished first, then english-10, then english-11 (user: finish earlier jobs in order).
+
+## Approved feedback 2026-11-11 (Published apps, "Satisfied?" column, read 11 Nov 2026) — applies to all FUTURE episodes
+Episodes 09–11 were already in production before this note and keep the earlier spec; english-12 onward follow this.
+- Channel: educational everyday-AI stories with a surprising mechanism and a useful payoff. Obvious AI-use tips and
+  shallow "good to know" topics are REJECTED. Keep the approved 15 s-pilot DOCKET visual style, narrator and motion skill.
+  No borrowed visuals/voice/CTA/assets from other apps; no unrelated short-film / camera-roll concept.
+- Story ("Theory of Marketing"): thumbnail → hook → optional super hook → build-up + proof → payoff → CTA. Hook = why I
+  care; build-up sustains ONE specific real question; proof makes the answer credible; payoff = useful knowledge; CTA =
+  relevant next step. Suspense only from a real unanswered question, never false claims. Don't repeat the answer in every
+  scene or pad with generic statements.
+- Pacing (adapt naturally, total exactly 30 s): 0–3 s striking image + hook; 3–5 s optional escalation; 5–21 s visual
+  explanation + proof with scene changes; 21–27 s resolve with a concrete takeaway; 27–30 s CTA.
+- CTA exactly: "Download the Ideaverse app." Update the icon from the latest official store listing each episode.
+- Thumbnail: a separate attractive vertical image tied to the hook, 2–4 large words.
+- Screen: one visual idea at a time, no paragraph cards; on-screen labels large and brief (voice carries the detail).
+  Captions readable within x=100..900, y=230..1500, avoiding platform overlays (right-side buttons). Caption, diagram
+  labels and explanatory text must not compete at the same moment. Reveal diagrams sequentially; deliberate depth,
+  lighting and transitions; no decorative distracting lines; motion must explain the topic.
+- Facts: verify from primary/reliable sources before the final script; separate measured facts, estimates and
+  illustrative assumptions; sources go in project notes, not on screen. No invented prices, returns, news, app features or
+  scientific certainty. No boilerplate warning/disclaimer narration; omit risky procedures rather than lecturing; keep
+  essential legal qualifications short and accurate. Unverifiable "fresh news" → pick another verified story.
+- Topics: check previous episodes; if the proposed topic was covered, choose a genuinely different one in the same genre.
+- Delivery/QA: render the MP4, full-decode, check duration/codecs, inspect transitions/frames, check narration, caption
+  sync, clipping and missing assets; attach the MP4 + thumbnail; report limitations honestly (no claimed listening check
+  that wasn't done — here: ASR-only). Production source, citations, prompts and QA stay out of the user's video-review folder.
+- Proposed next topic (2026-11-11): "Why voice-cloning scams can sound like someone you know" — hook "A familiar voice is
+  no longer proof."; ORIGINAL generic voice example (never a real person): short recording → voice characteristics →
+  synthesis says new words → familiarity misleads; capabilities/limits without an unsourced "three seconds" claim; payoff:
+  confirm unexpected urgent requests through a separate, known contact channel; no procedural fraud instructions;
+  thumbnail "THAT VOICE LIED."
