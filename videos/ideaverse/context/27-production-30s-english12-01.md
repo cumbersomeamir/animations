@@ -52,5 +52,9 @@ Not used: the FTC consumer alert (Mar 2023) could not be fetched from this envir
 Thumbnail (separate PNG, 1080x1920): the two-shot at 4.9 s (call + bubble + NEVER SAID) with "THAT / VOICE / LIED." in
 three large lines (LIED. in amber), inside x 100..900.
 
-## QA / status — IN PROGRESS
-- Pre-render mix ASR: all lines MATCH, no word outside captions.
+## QA / status — DELIVERED 2026-11-11
+- Output: production/30s/2026-11-11-english-12/ideaverse-30s-english12-01.mp4 · sha256 31b2a9f6…8e96, plus
+  ideaverse-30s-english12-01-thumbnail.png (1080x1920). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −14.9 LUFS / −1.8 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; captions in the new x 100..900 area.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

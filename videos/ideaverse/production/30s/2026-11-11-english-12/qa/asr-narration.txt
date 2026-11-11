@@ -1,0 +1,9 @@
+s1 placed  0.25s  heard [ 0.10.. 1.98]  MATCH: A familiar voice is no longer proof.
+s2 placed  3.00s  heard [ 2.85.. 5.21]  MATCH: This sounds like Sam. Sam never said it.
+s3 placed  6.00s  heard [ 5.85.. 9.73]  MATCH: From a short clip of Sam talking, software learns how Sam's voice sounds.
+s4 placed 10.70s  heard [10.55..14.83]  MATCH: Then it says brand new words in that voice, and a familiar voice feels believable.
+s5 placed 16.00s  heard [15.85..19.99]  MATCH: But it copies the sound, not what Sam knows like your family codeword.
+s6 placed 21.00s  heard [20.85..25.87]  MATCH: So when a call urgently asks for money, hang up and call back on a number you already know.
+s7 placed 27.30s  heard [27.15..28.45]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

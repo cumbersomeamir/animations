@@ -138,6 +138,7 @@
 - Suggested passer-by removal = repeat of hindi03-01 → fresh: hum to search (context/26).
 - production/30s/2026-11-09-english-11/ideaverse-30s-english11-01.mp4 (sha256 cab458f8…8b59), QA.md + qa/.
 
-# RENDERING — english-12 (requested 2026-11-11, started after english-11; record context/27): voice-cloning scams episode under the NEW feedback rules
-  (context/11 "Approved feedback 2026-11-11") + separate vertical thumbnail "THAT VOICE LIED." Create once.
-- Checks: all earlier MP4s re-hashed unchanged on 2026-11-11 (13 + english08/09/10).
+# CURRENT — english-12 (2026-11-11) — DELIVERED
+- Voice cloning under the 2026-11-11 rules (record context/27): production/30s/2026-11-11-english-12/ideaverse-30s-english12-01.mp4
+  (sha256 31b2a9f6…8e96) + ideaverse-30s-english12-01-thumbnail.png; QA.md + qa/. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.

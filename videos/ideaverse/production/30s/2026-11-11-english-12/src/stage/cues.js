@@ -33,7 +33,8 @@ const CUES = {
     { t0: 15.95, t1: 17.25, lines: [[['But it copies ', 0], ['the sound,', 1]]] },
     { t0: 17.25, t1: 20.5, lines: [[['not ', 0], ['what Sam knows,', 2]], [['like your ', 0], ['family code word.', 1]]] },
     { t0: 20.95, t1: 23.3, lines: [[['So when a call urgently', 0]], [['asks for ', 0], ['money,', 2]]] },
-    { t0: 23.3, t1: 26.5, lines: [[['hang up', 2], [' and ', 0], ['call back', 1]], [['on a number you already know.', 0]]] },
+    { t0: 23.3, t1: 24.56, lines: [[['hang up', 2], [' and ', 0], ['call back', 1]]] },
+    { t0: 24.56, t1: 26.5, lines: [[['on a number', 0]], [['you ', 0], ['already know.', 1]]] },
     { t0: 26.95, t1: 30.2, lines: [[['Download the', 0]], [['@icon', 0], ['Ideaverse app.', 1]]], cta: true },
   ],
 };
