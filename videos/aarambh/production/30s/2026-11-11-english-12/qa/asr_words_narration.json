@@ -1,0 +1,381 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Grace",
+   "start": 0.0,
+   "end": 0.66
+  },
+  {
+   "w": "Hopper",
+   "start": 0.66,
+   "end": 1.14
+  },
+  {
+   "w": "handed",
+   "start": 1.14,
+   "end": 1.52
+  },
+  {
+   "w": "out",
+   "start": 1.52,
+   "end": 1.78
+  },
+  {
+   "w": "a",
+   "start": 1.78,
+   "end": 1.94
+  },
+  {
+   "w": "nanosecond",
+   "start": 1.94,
+   "end": 2.48
+  },
+  {
+   "w": "you",
+   "start": 2.48,
+   "end": 2.66
+  },
+  {
+   "w": "could",
+   "start": 2.66,
+   "end": 2.88
+  },
+  {
+   "w": "hold.",
+   "start": 2.88,
+   "end": 3.26
+  },
+  {
+   "w": "It",
+   "start": 3.52,
+   "end": 3.54
+  },
+  {
+   "w": "was",
+   "start": 3.54,
+   "end": 3.7
+  },
+  {
+   "w": "a",
+   "start": 3.7,
+   "end": 3.86
+  },
+  {
+   "w": "wire",
+   "start": 3.86,
+   "end": 4.2
+  },
+  {
+   "w": "about",
+   "start": 4.2,
+   "end": 4.68
+  },
+  {
+   "w": "30",
+   "start": 4.68,
+   "end": 5.08
+  },
+  {
+   "w": "centimeters",
+   "start": 5.08,
+   "end": 5.42
+  },
+  {
+   "w": "long.",
+   "start": 5.42,
+   "end": 5.88
+  },
+  {
+   "w": "Why",
+   "start": 6.28,
+   "end": 6.46
+  },
+  {
+   "w": "that",
+   "start": 6.46,
+   "end": 6.7
+  },
+  {
+   "w": "length?",
+   "start": 6.7,
+   "end": 7.16
+  },
+  {
+   "w": "Nothing",
+   "start": 7.84,
+   "end": 7.84
+  },
+  {
+   "w": "travels",
+   "start": 7.84,
+   "end": 8.24
+  },
+  {
+   "w": "faster",
+   "start": 8.24,
+   "end": 8.68
+  },
+  {
+   "w": "than",
+   "start": 8.68,
+   "end": 8.92
+  },
+  {
+   "w": "light.",
+   "start": 8.92,
+   "end": 9.28
+  },
+  {
+   "w": "About",
+   "start": 9.62,
+   "end": 9.92
+  },
+  {
+   "w": "300",
+   "start": 9.92,
+   "end": 10.6
+  },
+  {
+   "w": ",000",
+   "start": 10.6,
+   "end": 10.94
+  },
+  {
+   "w": "kilometers",
+   "start": 10.94,
+   "end": 11.36
+  },
+  {
+   "w": "a",
+   "start": 11.36,
+   "end": 11.76
+  },
+  {
+   "w": "second.",
+   "start": 11.76,
+   "end": 12.18
+  },
+  {
+   "w": "In",
+   "start": 12.52,
+   "end": 12.7
+  },
+  {
+   "w": "one",
+   "start": 12.7,
+   "end": 12.98
+  },
+  {
+   "w": "billionth",
+   "start": 12.98,
+   "end": 13.4
+  },
+  {
+   "w": "of",
+   "start": 13.4,
+   "end": 13.4
+  },
+  {
+   "w": "a",
+   "start": 13.4,
+   "end": 13.58
+  },
+  {
+   "w": "second,",
+   "start": 13.58,
+   "end": 14.02
+  },
+  {
+   "w": "even",
+   "start": 14.32,
+   "end": 14.62
+  },
+  {
+   "w": "light",
+   "start": 14.62,
+   "end": 14.96
+  },
+  {
+   "w": "covers",
+   "start": 14.96,
+   "end": 15.2
+  },
+  {
+   "w": "only",
+   "start": 15.2,
+   "end": 15.58
+  },
+  {
+   "w": "30",
+   "start": 15.58,
+   "end": 16.02
+  },
+  {
+   "w": "centimeters.",
+   "start": 16.02,
+   "end": 16.44
+  },
+  {
+   "w": "As",
+   "start": 17.06,
+   "end": 17.32
+  },
+  {
+   "w": "computer",
+   "start": 17.32,
+   "end": 17.58
+  },
+  {
+   "w": "parts",
+   "start": 17.58,
+   "end": 18.06
+  },
+  {
+   "w": "shrank,",
+   "start": 18.06,
+   "end": 18.48
+  },
+  {
+   "w": "she",
+   "start": 18.8,
+   "end": 18.9
+  },
+  {
+   "w": "used",
+   "start": 18.9,
+   "end": 19.12
+  },
+  {
+   "w": "a",
+   "start": 19.12,
+   "end": 19.32
+  },
+  {
+   "w": "grain",
+   "start": 19.32,
+   "end": 19.48
+  },
+  {
+   "w": "of",
+   "start": 19.48,
+   "end": 19.72
+  },
+  {
+   "w": "pepper",
+   "start": 19.72,
+   "end": 19.92
+  },
+  {
+   "w": "for",
+   "start": 19.92,
+   "end": 20.22
+  },
+  {
+   "w": "a",
+   "start": 20.22,
+   "end": 20.36
+  },
+  {
+   "w": "picosecond.",
+   "start": 20.36,
+   "end": 21.06
+  },
+  {
+   "w": "Her",
+   "start": 21.52,
+   "end": 21.72
+  },
+  {
+   "w": "point,",
+   "start": 21.72,
+   "end": 22.26
+  },
+  {
+   "w": "signals",
+   "start": 22.58,
+   "end": 22.8
+  },
+  {
+   "w": "need",
+   "start": 22.8,
+   "end": 23.2
+  },
+  {
+   "w": "time",
+   "start": 23.2,
+   "end": 23.42
+  },
+  {
+   "w": "to",
+   "start": 23.42,
+   "end": 23.64
+  },
+  {
+   "w": "travel,",
+   "start": 23.64,
+   "end": 23.96
+  },
+  {
+   "w": "so",
+   "start": 24.16,
+   "end": 24.4
+  },
+  {
+   "w": "shorter",
+   "start": 24.4,
+   "end": 24.72
+  },
+  {
+   "w": "paths",
+   "start": 24.72,
+   "end": 25.1
+  },
+  {
+   "w": "make",
+   "start": 25.1,
+   "end": 25.4
+  },
+  {
+   "w": "faster",
+   "start": 25.4,
+   "end": 25.78
+  },
+  {
+   "w": "computers.",
+   "start": 25.78,
+   "end": 26.38
+  },
+  {
+   "w": "Download",
+   "start": 26.38,
+   "end": 27.6
+  },
+  {
+   "w": "RM",
+   "start": 27.6,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "Grace Hopper handed out a nanosecond you could hold. It was a wire about 30 centimeters long. Why that length? Nothing travels faster than light. About 300 ,000 kilometers a second. In one billionth of a second, even light covers only 30 centimeters. As computer parts shrank, she used a grain of pepper for a picosecond. Her point, signals need time to travel, so shorter paths make faster computers. Download RM to support livelihood tools."
+}

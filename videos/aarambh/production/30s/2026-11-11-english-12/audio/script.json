@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.25, "text": "Grace Hopper handed out a nanosecond you could hold.", "tts": "Grace Hopper handed out a nanosecond you could hold."},
+    {"id": "S2", "start": 3.40, "text": "It was a wire, about 30 centimeters long.", "tts": "It was a wire, about thirty centimeters long."},
+    {"id": "S3", "start": 6.15, "text": "Why that length? Nothing travels faster than light: about 300,000 kilometers a second.", "tts": "Why that length? Nothing travels faster than light: about three hundred thousand kilometers a second."},
+    {"id": "S4", "start": 12.45, "text": "In one billionth of a second, even light covers only 30 centimeters.", "tts": "In one billionth of a second, even light covers only thirty centimeters."},
+    {"id": "S5", "start": 17.00, "text": "As computer parts shrank, she used a grain of pepper for a picosecond.", "tts": "As computer parts shrank, she used a grain of pepper for a picosecond."},
+    {"id": "S6", "start": 21.45, "text": "Her point: signals need time to travel, so shorter paths make faster computers.", "tts": "Her point: signals need time to travel, so shorter paths make faster computers."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

@@ -84,3 +84,9 @@
 
 ## 2026-11-11: approved feedback rules persisted
 - The user's "Satisfied?" feedback of 2026-11-11 is stored as `25-feedback-2026-11-11-story-rules.md`, with a superseding section at the end of `11`. **Read 25 first for every future episode.**
+
+## 2026-11-11: english-12 #01 (English; first under context/25)
+- `videos/aarambh/production/30s/2026-11-11-english-12/aarambh-30s-english12-01.mp4` (sha256 `2f84eccba3ab1c3c2f48b0a14a4b1c43da027a23da1214cdc0e58ab5c108ed53`) and thumbnail `aarambh-30s-english12-01-thumbnail.png`: Grace Hopper's "nanosecond you could hold".
+  - Hook → wire on a ruler → why 30 cm (light laps the Earth; a ÷1000 time card) → the pepper picosecond → payoff "shorter paths make faster computers" → Aarambh CTA.
+- **Subject change recorded:** Lamarr & Antheil was already episodes 04 and 07.
+- **Read first next time:** 25 (current rules), then 11 and 26.

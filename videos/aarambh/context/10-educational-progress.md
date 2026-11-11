@@ -192,3 +192,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Voice:** the Meshline blend.
 - **Verification:** small-model ASR matches the script except the name spelling and homophones; there was no human listening. Pre-render fixes only; no defects on the final sheets.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-11: english-12 #01 (COMPLETE; first episode under the 2026-11-11 rules, context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-11-english-12/aarambh-30s-english12-01.mp4`, sha256 `2f84eccba3ab1c3c2f48b0a14a4b1c43da027a23da1214cdc0e58ab5c108ed53`, plus the thumbnail `aarambh-30s-english12-01-thumbnail.png` ("HOLD A NANOSECOND"). Grace Hopper's wire nanoseconds (English). 30.000 s, 900 frames, −15.0 LUFS, −2.0 dBTP, full decode OK.
+- **Subject change:** Lamarr & Antheil was proposed a third time (04, 07), so a fresh topic was chosen with the same story criteria.
+- **Verified facts:** the Smithsonian NMAH record (the wires, about 30 cm, late 1960s, purpose, pepper picosecond), the exact speed of light (NIST) and Earth's radius (NASA). Derived numbers are computed and labelled ≈; the visuals are illustrations.
+- **Style:** the new rules applied: one idea per scene, large brief labels, no source footers, a spotlit desk with depth and no grid, six motivated transitions, captions within x 100–900.
+- **Verification:** both ASR models match the script except the app name; there was no human listening. One post-render card-overflow fix (video only).
+- No automation; no other episode started; earlier renders untouched.

@@ -1,0 +1,30 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Grace | 0.25 (Grace, placed) | 0.00 (Grace) | HOOK: spotlight on; official portrait lands with a light sweep (0-1.1); a light pulse runs the wire from 0.05 (again 0.95, 1.85, 2.75) | 0.00
+Grace | 0.25 (Grace, placed) | 0.00 (Grace) | name tag GRACE HOPPER | 0.50
+nanosecond | 1.94 (nanosecond) | 1.92 (nanosecond) | big label "1 nanosecond" | 1.74
+It | 3.52 (It) | 3.54 (was) | HARD CUT (flash) -> the wire scene | 3.34
+wire | 3.86 (wire) | 3.88 (wire) | bundle of wires fans out; SMITHSONIAN tag swings in (proof) | 3.61
+about | 4.20 (about) | 4.22 (about) | one wire laid on a ruler; ticks reveal to 30 | 4.10
+30 | 4.68 (30) | 4.70 (30) | gold measuring bracket grows 0 -> 30 | 4.53
+centimeters | 5.08 (centimeters) | 5.08 (centimeters) | big label "≈ 30 cm" | 4.98
+Why | 6.28 (Why) | 6.26 (Why) | WHIP PAN -> question scene: the wire and a big gold "?" (5.95-6.15; ? at 6.18) | 5.95
+Nothing | 7.84 (Nothing) | 7.84 (Nothing) | the globe rises in; the question fades | 7.59
+travels | 7.84 (travels) | 7.84 (Nothing) | light circles the Earth: lap counter 0 -> 7.5 while a one-second clock fills (time-scaled) | 7.74
+300 | 9.92 (300) | 9.96 (300) | big label "300,000 km" | 9.77
+In | 12.52 (In) | 12.50 (In) | ZOOM THROUGH the globe -> time card "1 SECOND · 300,000 km" (12.15-12.45) | 12.15
+one | 12.70 (one) | 12.70 (one) | card flips: 1 MILLISECOND ≈ 300 km (÷ 1000) | 12.75
+billionth | 12.98 (billionth) | 12.98 (billionth) | card flips: 1 MICROSECOND ≈ 300 m (÷ 1000) | 13.15
+second | 13.58 (second,) | 13.56 (second,) | card flips: 1 NANOSECOND ≈ 30 cm (÷ 1000) | 13.55
+even | 14.32 (even) | 14.32 (even) | card rises; the 30 cm wire appears | 14.02
+light | 14.62 (light) | 14.62 (light) | a light pulse crosses the wire once (14.62-15.92) | 14.62
+As | 17.06 (As) | 17.06 (As) | PUSH -> the wire shrinks toward a point (17.00-18.68) | 16.75
+shrank | 18.06 (shrank,) | 18.04 (shrank,) | the wire becomes a glowing dot | 17.96
+grain | 19.32 (grain) | 19.32 (grain) | macro spotlight opens on a grain of pepper | 18.92
+picosecond | 20.36 (picosecond.) | 20.36 (picosecond.) | big label "1 picosecond" + "≈ 0.3 mm" | 20.11
+Her | 21.52 (Her) | 21.52 (Her) | PAGE TURN -> payoff page (21.10-21.45); portrait appears | 21.10
+signals | 22.58 (signals) | 22.54 (signals) | two paths drawn (22.18); two pulses leave at the same speed | 22.58
+time | 23.20 (time) | 23.20 (time) | short-path pulse arrives first; right chip glows | 23.54
+shorter | 24.40 (shorter) | 24.40 (shorter) | big label "shorter = faster" | 24.25
+Download | 27.10 (Download, placed) | 27.56 (RM) | CTA slides in (26.60-27.10) | 26.60
+summary: 27 events; event minus word start ranges -0.50 to +0.34 s (negative = event leads the word). Pacing: hook 0.25-3.22 (striking image from frame 0), escalation 3.40-5.90, explanation/proof with scene changes at 3.34, 6.15, 12.45, 17.00 (5-21 s window), payoff 21.45-26.57, CTA 27.10-29.87.
+note: placed sentence starts S1 0.25 S2 3.4 S3 6.15 S4 12.45 S5 17.0 S6 21.45 S7 27.1 (audio/script.json); where ASR stamps a sentence-initial word before its placed start ("Grace" 0.00, "Download" 26.38) the placed start is used; ASR hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; the caption and card show Aarambh).

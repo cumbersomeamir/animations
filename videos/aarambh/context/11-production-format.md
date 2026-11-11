@@ -287,3 +287,5 @@ Changes to the recipe above:
 - **Captions:** inside x 100–900, y 230–1500, with the plate centred at x = 500 and ≤ 800 px wide.
 - **Feedback addressed:** "too much simultaneous information/text, motion unappealing, weak thumbnail." Keep the genre, the editorial skill and real sourced portraits.
 - **QA wording:** say "ASR-checked", never "listened", unless a human listening was actually done.
+
+- 14 (2026-11-11, english-12): Grace Hopper's wire "nanoseconds": why ~30 cm, the pepper picosecond, shorter paths = faster computers (Smithsonian NMAH 1985.3088.01); replaces a third Lamarr & Antheil episode; first episode under `25` (thumbnail delivered). Record: `26-production-30s-english12-01.md`
