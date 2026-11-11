@@ -56,3 +56,5 @@
   (make the next action specific; W3C WCAG 2.2 SC 2.4.4 + F84; English narration + captions; context/25).
 - English-11 (batch 2026-11-09-english-11) delivered `production/30s/2026-11-09-english-11/werbens-30s-english11-01.mp4`
   (choice overload; suggested "feature list vs outcome" topic replaced as a duplicate of #01; English narration + captions; context/26).
+- 2026-11-11: approved feedback rules persisted in `context/27-approved-feedback-rules-2026-11-11.md` (pointer in context/11);
+  they govern english-12 onward.

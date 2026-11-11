@@ -132,6 +132,13 @@ areas" or "Update — batch-02" above, this section wins. Living Screencast / Pi
 9. **Pipeline (low-cost, offline):** Three.js 0.180.0 in headless Chromium (SwiftShader WebGL2, deterministic `frame(t)`),
    PNG frames piped to FFmpeg libx264 crf 16; no Blender, no GPU, no paid services. DOM QA of captions/labels every 1/3 s.
 
+## Update — approved feedback rules (2026-11-11) (SUPERSEDES conflicting rules above)
+The current rules are in **`context/27-approved-feedback-rules-2026-11-11.md`** (verbatim brief + derived defaults):
+thumbnail → hook → optional super hook → build-up + proof → payoff → CTA; pacing 0–3 / 3–5 / 5–21 / 21–27 / 27–30 s; a separate
+vertical thumbnail with 2–4 large words; captions inside x 100–900, y 230–1500; one large brief label idea at a time, no
+paragraph cards, no on-screen source chips; sequential diagrams without decorative lines; claims tagged measured /
+estimate / illustrative in the notes; live app.werbens.com palette + current logo in every scene; honest QA (ASR ≠ listening).
+
 ## Episode log (do not repeat topics)
 | # | Folder | Topic | Case / example |
 |---|---|---|---|
