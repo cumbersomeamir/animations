@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "An electric car just / broke 500 km/h.",
+  "cue": [
+   0.07,
+   3.5
+  ],
+  "speech": [
+   0.171,
+   3.288
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.212,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Why is 500 so hard?",
+  "cue": [
+   3.52,
+   5.32
+  ],
+  "speech": [
+   3.622,
+   5.086
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.234,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Air. Drag grows / with speed squared.",
+  "cue": [
+   5.34,
+   7.68
+  ],
+  "speech": [
+   5.441,
+   7.437
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.243,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Power to beat it / grows with speed cubed.",
+  "cue": [
+   7.7,
+   10.08
+  ],
+  "speech": [
+   7.814,
+   9.829
+  ],
+  "lead_s": 0.114,
+  "tail_s": 0.251,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "400 to 500 km/h? / Nearly double the power.",
+  "cue": [
+   10.1,
+   13.35
+  ],
+  "speech": [
+   10.224,
+   13.094
+  ],
+  "lead_s": 0.124,
+  "tail_s": 0.256,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Its answer: four motors, / 2.2 megawatts.",
+  "cue": [
+   13.37,
+   16.5
+  ],
+  "speech": [
+   13.471,
+   16.234
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.266,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "The catch is heat,",
+  "cue": [
+   16.52,
+   17.675
+  ],
+  "speech": [
+   16.623,
+   17.532
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.143,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "so temperatures were set / before every run.",
+  "cue": [
+   17.695,
+   20.2
+  ],
+  "speech": [
+   17.857,
+   19.891
+  ],
+  "lead_s": 0.162,
+  "tail_s": 0.309,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "1% faster costs about / 3% more power.",
+  "cue": [
+   20.22,
+   23.5
+  ],
+  "speech": [
+   20.321,
+   23.191
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.309,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "And it was one way, / not a two-way average.",
+  "cue": [
+   23.52,
+   26.2
+  ],
+  "speech": [
+   23.624,
+   25.948
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.252,
+  "ok": true
+ },
+ {
+  "line": "V10",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.22,
+   29.723
+  ],
+  "speech": [
+   26.354,
+   29.377
+  ],
+  "lead_s": 0.134,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]

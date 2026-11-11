@@ -57,5 +57,10 @@ Layered Tech Cutaway paper diorama (accepted renderer core, paper stock, key lig
 dusk sand/road set added for this story; brand palette for labels and props. Captions: accepted Space Grotesk 700 50 px, baselines
 414/478, auto-fit so every line stays inside x 100–900. No footage, photos, logos or liveries of the car or brands.
 
-## QA / limits
-Filled after render (see the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 743dec9abd92bb95d3edcfbe2d0db23a26bcc3aaf32108ad55d776c0426e4053; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 378–488, x 181–900; labels x 237–845,
+y 1217–1482; 0 safe-area/caption-band/one-label violations in 900 frames; caption↔speech 11/11; Whisper-medium word recall 1.0 full pass,
+0.975 per line (V4 "speed cubed" fused into one token). Thumbnail thumbnail-english12-01.png (SHA-256 10c6f541…60bb), words inside x 193–885.
+Limits: generic paper reconstruction (no authorised footage); cube-law figures are first-principles estimates for air drag only; 2.2 MW is the
+manufacturer motor rating; S4 opens on an empty desk for ≈ 0.13 s; nobody has listened to or watched the final file yet (ASR is the proxy).

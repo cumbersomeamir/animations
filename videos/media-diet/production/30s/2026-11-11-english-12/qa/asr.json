@@ -1,0 +1,109 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "An electric car just broke 500 kilometers an hour. Why is 500 so hard? Air, drag grows with speed squared. Power to beat it grows with speed cubed. 400 to 500, nearly double the power. Its answer, four motors, 2.2 megawatts. The catch is heat, so temperatures were set before every run. One percent faster costs about three percent more power. And it was one way, not a two-way average. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    3.33
+   ],
+   "transcript": "An electric car just broke 500 kilometers an hour.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.6,
+    5.13
+   ],
+   "transcript": "Why is 500 so hard?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    5.42,
+    7.48
+   ],
+   "transcript": "air drag grows with speed squared",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    7.78,
+    9.88
+   ],
+   "transcript": "Power to beat it grows with SpeedCubed.",
+   "recall": 0.75,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    10.18,
+    13.15
+   ],
+   "transcript": "400 to 500, nearly double the power.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    13.45,
+    16.28
+   ],
+   "transcript": "Its answer, four motors, 2.2 megawatts.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    16.6,
+    19.94
+   ],
+   "transcript": "The catch is heat, so temperatures were set before every run.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    20.3,
+    23.24
+   ],
+   "transcript": "1% faster costs, about 3% more power.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    23.6,
+    25.99
+   ],
+   "transcript": "And it was one-way, not a two-way average.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V10",
+   "window": [
+    26.3,
+    29.42
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "An electric car just broke 500 kilometers an hour. Why is 500 so hard? air drag grows with speed squared Power to beat it grows with SpeedCubed. 400 to 500, nearly double the power. Its answer, four motors, 2.2 megawatts. The catch is heat, so temperatures were set before every run. 1% faster costs, about 3% more power. And it was one-way, not a two-way average. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 0.975
+}

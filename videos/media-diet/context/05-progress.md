@@ -233,3 +233,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   x 100–900 / y 230–1500 for all text, no label in the caption band while a caption shows, one large label at a time.
 - Running: `build/render_chunks.sh 0 60 120 180 240` + `300 … 540` + `600 … 840` (three resumable workers); next
   `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english12-01.png`, QA, commit MP4 + thumbnail.
+
+## Checkpoint 2026-11-11 — english-12 delivered
+- production/30s/2026-11-11-english-12/media-diet-30s-english12-01.mp4 (SHA-256 743dec9abd92bb95d3edcfbe2d0db23a26bcc3aaf32108ad55d776c0426e4053)
+  + separate thumbnail thumbnail-english12-01.png ("500 KM/H / WHY HARD?"); record context/27; context/11 log row → delivered.
+- Commands: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840), `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english12-01.png`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 378–488, x 181–900; labels x 237–845, y 1217–1482; 0 violations of the new x 100–900 / y 230–1500 rules; caption↔speech 11/11;
+  Whisper word recall 1.0 full / 0.975 per line (token fusion "SpeedCubed").
+- Unresolved: audio and picture not yet reviewed by a human; no review folder exists in this container (MP4 only in the episode folder).
+  Earlier outputs untouched. No automation, analytics or publishing.
