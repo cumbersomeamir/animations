@@ -458,3 +458,37 @@ Episode record: `21-episode-environmental-friction.md`. The established format (
 
 ## Next
 - english-12 (2026-11-11, unfinished tasks / park one, new rules): final render running.
+
+# English-12, 2026-11-11: episode english12-01 "an unfinished task follows you into bed; park it" (English)
+Episode record: `22-episode-unfinished-task-park-it.md`. First episode under the 2026-11-11 approved feedback rules, persisted in `10-format-and-style-rules.md` section 8.
+
+## Verified facts (this round)
+- Not covered before. Closest earlier episodes: english09 (finish one task at day's end), hindi04 (implementation intentions for acting).
+- Sources (PubMed abstracts):
+  - Masicampo & Baumeister 2011 (PMID 21688924): unfinished goals caused intrusive thoughts during unrelated reading; specific plans eliminated the effects.
+  - Scullin et al. 2018 (PMID 29058942): a 5-minute specific to-do list before bed meant faster sleep onset than a completed-activities list; n = 57.
+- Palette sampled from the current Play icon (identical to `assets/icon.png`) and seven current screenshots: #EDE8FE, #191632, #633BFE, #E6D2FC, #5B45A3, #060513, #FEC357.
+
+## Creative decisions (this round)
+- English only, 70 words. Structure: hook → escalation → proof → payoff → CTA.
+- The open-loop metaphor, the dark in-app card, a note card for the written plan, and the lamp dimming at the resolution.
+- Captions inside x 100–900, key words in violet.
+- An original soothing evening bed (filtered air swells) under the pad; the whole bed sits 13.1 dB under the voice.
+- Thumbnail "STILL IN YOUR HEAD?".
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-11-english-12/mello-30s-english12-01.mp4`
+  - sha256 `4922cce1f6db0ff9deed422eda335d6abe610ebf85881ccf182a0ddd794cff5c`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english12-01-thumbnail.png` (1080x1920).
+- QA: 16/16 checks passed (`production/30s/2026-11-11-english-12/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - cuts on plan;
+  - 0 safe-zone issues in 300 samples with the new x 100–900 caption zone;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- All queued episodes (english-09, -10, -11, -12) are delivered. Wait for the next request or feedback.
