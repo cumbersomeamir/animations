@@ -1,0 +1,166 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.3
+  },
+  {
+   "id": "l2",
+   "start": 2.9
+  },
+  {
+   "id": "l3",
+   "start": 5.3
+  },
+  {
+   "id": "l4",
+   "start": 8.6
+  },
+  {
+   "id": "l5",
+   "start": 13.1
+  },
+  {
+   "id": "l6",
+   "start": 16.2
+  },
+  {
+   "id": "l7",
+   "start": 21.2
+  },
+  {
+   "id": "l8",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.85,
+   "text": "THEIR HOUSE. YOUR HOME?",
+   "hl": [
+    "HOME?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 2.85,
+   "end": 5.2,
+   "text": "Can your landlord just let themselves in?",
+   "hl": [
+    "let",
+    "themselves",
+    "in?"
+   ]
+  },
+  {
+   "start": 5.2,
+   "end": 8.45,
+   "text": "In Tamil Nadu, the tenancy law draws the line.",
+   "hl": [
+    "Tamil",
+    "Nadu,"
+   ]
+  },
+  {
+   "start": 8.45,
+   "end": 10.95,
+   "text": "They may enter for repairs, an inspection,",
+   "hl": [
+    "repairs,"
+   ]
+  },
+  {
+   "start": 10.95,
+   "end": 12.95,
+   "text": "or a reason in your agreement,",
+   "hl": [
+    "agreement,"
+   ]
+  },
+  {
+   "start": 12.95,
+   "end": 16.05,
+   "text": "with written notice at least 24 hours ahead,",
+   "hl": [
+    "24",
+    "hours"
+   ]
+  },
+  {
+   "start": 16.05,
+   "end": 20.95,
+   "text": "saying why, which day, and a time between 7 a.m. and 8 p.m.",
+   "hl": [
+    "7",
+    "a.m.",
+    "and",
+    "8",
+    "p.m."
+   ]
+  },
+  {
+   "start": 20.95,
+   "end": 23.8,
+   "text": "No notice? Ask them to come back with one.",
+   "hl": [
+    "come",
+    "back"
+   ]
+  },
+  {
+   "start": 23.8,
+   "end": 26.75,
+   "text": "If it keeps happening, the Rent Court can hear it.",
+   "hl": [
+    "Rent",
+    "Court"
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "keyIn": 0.15,
+  "keyTurn": 0.62,
+  "doorOpen": 1.0,
+  "v2": 2.75,
+  "look": 3.4,
+  "shadow": 3.7,
+  "qmark": 4.55,
+  "v3": 5.15,
+  "stamp": 5.5,
+  "sub": 6.7,
+  "line": 7.6,
+  "v4": 8.45,
+  "r1": 9.4,
+  "r2": 10.5,
+  "r3": 11.6,
+  "v5": 12.95,
+  "slide": 13.35,
+  "ring": 14.3,
+  "v6": 16.05,
+  "f1": 16.55,
+  "f2": 17.15,
+  "f3": 17.8,
+  "dialIn": 17.95,
+  "arc": 18.3,
+  "v7": 21.0,
+  "noNotice": 21.4,
+  "keyBack": 22.7,
+  "v7b": 23.85,
+  "gavel": 25.25,
+  "v8": 26.75
+ }
+}

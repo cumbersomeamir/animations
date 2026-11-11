@@ -4,6 +4,66 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-11 (english-12): can a landlord enter your rented home whenever they want? (Tamil Nadu)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com.
+- The checkpointed english-11 render was finished first: it was re-rendered after a worker restart killed it at
+  592/900 frames, then QA'd, pushed (04e1f5e) and attached.
+- New approved feedback rules are persisted in `context/09-feedback-rules-2026-11-11.md` (5ad84ce); 08 points to them.
+- IN PROGRESS: full render of `production/30s/2026-11-11-english-12/courtlens-30s-english12-01.mp4`. The thumbnail
+  `courtlens-30s-english12-01-thumbnail.png` is rendered.
+- Episode record: `context/episodes/2026-11-11-english12-landlord-entry-tn.md`.
+
+### Verified facts
+- TN Act 42 of 2017:
+  - s.17(1)(a)–(c): entry only for repairs, an inspection, or a reasonable reason specified in the agreement
+  - s.17(1): written notice at least 24 hours before entry
+  - s.17(2): the notice states the reason, the day and a time between 7 am and 8 pm
+  - TN Act 19 of 2022 would allow notice "in writing or through electronic mode"; commencement unconfirmed
+- Forum: the Rent Court (s.34 as numbered in 2018). The Rent Authority's s.31 powers don't include s.17.
+- Details: `production/30s/2026-11-11-english-12/notes/LEGAL-SOURCES.md`.
+
+### Creative decisions (per the 11 Nov rules)
+- A new engine:
+  - one visual idea per beat; large labels of 1–3 words
+  - depth and lighting: full-width hallway, warm light spill, day/night contrast
+  - push-through and scale crossfades
+  - captions centred at x=500 (max 800); a thumbnail render mode
+- Beats:
+  - key turns and the door opens (hook)
+  - shadow over the tenant (escalation)
+  - TAMIL NADU stamp
+  - three reasons, one by one
+  - notice + 24 h ring
+  - why/day/time + 7–8 dial
+  - day/night contrast
+  - Rent Court
+  - CTA
+- The hook words, thumbnail words and spoken hook are all "Their house. Your home?".
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-11-english-12/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st12 <times>
+node render.cjs thumb .. courtlens-30s-english12-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build12 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english12-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english12-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The hallway wall and floor were partial panels with hard edges; they are now full-width gradients with a vignette.
+- The thumbnail's key floated beside a barely open door; the door is now half-open with warm light and a large
+  foreground key.
+- The "Agreed reason" label was shrinking; it now has more width.
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4 and thumbnail.
+
 ## Round 2026-11-09 (english-11): English episode 11, can a landlord cut the power to force you out? (Tamil Nadu)
 
 ### Status
