@@ -4,6 +4,54 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-09 (english-11): English episode 11, can a landlord cut the power to force you out? (Tamil Nadu)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-10
+  delivered at ff5f4d7), assigned account info@tensorblue.com. No earlier job pending. Earlier MP4s untouched.
+- IN PROGRESS: full render of `production/30s/2026-11-09-english-11/courtlens-30s-english11-01.mp4`.
+- Episode record: `context/episodes/2026-11-09-english11-landlord-power-cut-tn.md`.
+
+### Verified facts
+- Jurisdiction: Tamil Nadu. TN Act 42 of 2017 (Gazette copy, amendments to 2022):
+  - s.20(1): no landlord shall cut off or withhold essential supply or service; the Explanation includes electricity
+  - s.20(2): the Rent Authority may order interim restoration immediately, pending inquiry
+  - s.20(3): inquiry within one month
+  - s.20(4): penalty up to ₹5,000 (Act 39 of 2018)
+  - s.21: eviction only by a Rent Court order on listed grounds
+- Maharashtra (Rent Control Act 1999 s.29) was considered, but no official text was reachable.
+- Details: `production/30s/2026-11-09-english-11/notes/LEGAL-SOURCES.md`.
+
+### Checkpoint
+- Official TN hosts unreachable; the PRS Gazette reproduction was used. No post-2022 amendment found.
+
+### Creative decisions
+- Performer: an apartment block with a meter. The breaker swings OFF and Flat 3B flickers dark (hook by 1.35 s). In
+  the split, the same flat relights when the Rent Authority restores power.
+- Other changes:
+  - "LANDLORD · 'Vacate this week'" sign
+  - tag flips "Power off to evict?" → "Court order only"
+  - rule card with chips: electricity / water / lifts
+  - split: Rent Court vs Rent Authority, with "penalty ≤ ₹5,000" and an "Inquiry: 1 month" sticker
+  - envelope with rent receipt + dated meter photo, written "TN Rent Authority"
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-09-english-11/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st11 <times>
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build11 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english11-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english11-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- On the rent receipt, "November" ran into "₹18,000", so the labels are now "Oct rent" / "Nov rent".
+
+### Next
+Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+
 ## Round 2026-11-09 (english-10): English episode 10, no phone number, no bill?
 
 ### Status
