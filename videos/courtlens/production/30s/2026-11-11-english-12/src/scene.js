@@ -283,7 +283,9 @@
     const w = win(t, -1, E.v2 + 0.45, 0, 0.45);
     if (w.a <= 0) return;
     const zoom = 1 + 1.6 * eio(P(t, E.v2 - 0.1, E.v2 + 0.45));            // push through the doorway into V2
-    ctx.save(); ctx.globalAlpha = w.a; ctx.translate(CX, 1060); ctx.scale(zoom, zoom); ctx.translate(-CX, -1060);
+    ctx.save(); ctx.globalAlpha = w.a;
+    ctx.beginPath(); ctx.rect(0, 560, W, H - 560); ctx.clip();          // keep the push-through below the caption band
+    ctx.translate(CX, 1060); ctx.scale(zoom, zoom); ctx.translate(-CX, -1060);
     hallway(ctx, 1360);
     const open = eio(P(t, E.doorOpen, E.doorOpen + 1.1));
     doorFront(ctx, CX, 1060, 1.0, open);
@@ -297,8 +299,13 @@
   function v2(ctx, t) {
     withScene(ctx, win(t, E.v2, E.v3), () => {
       // room: floor + far wall
-      ctx.fillStyle = 'rgba(246,217,160,0.35)'; ctx.fillRect(0, 640, W, 860);
-      ctx.fillStyle = 'rgba(2,25,59,0.07)'; ctx.fillRect(0, 1300, W, 200);
+      const rg = ctx.createLinearGradient(0, 600, 0, 1560);                 // warm room light with soft edges
+      rg.addColorStop(0, 'rgba(246,217,160,0)'); rg.addColorStop(0.12, 'rgba(246,217,160,0.38)');
+      rg.addColorStop(0.85, 'rgba(246,217,160,0.32)'); rg.addColorStop(1, 'rgba(246,217,160,0)');
+      ctx.fillStyle = rg; ctx.fillRect(0, 600, W, 960);
+      const fl = ctx.createLinearGradient(0, 1290, 0, 1560);
+      fl.addColorStop(0, 'rgba(2,25,59,0.08)'); fl.addColorStop(1, 'rgba(2,25,59,0)');
+      ctx.fillStyle = fl; ctx.fillRect(0, 1290, W, 270);
       tenant(ctx, CX + 70, 1180, 1.2, eio(P(t, E.look, E.look + 0.4)));
       // the door edge at the left, opening, with a long landlord shadow sliding across the floor
       const sp = eio(P(t, E.shadow, E.shadow + 1.0));
