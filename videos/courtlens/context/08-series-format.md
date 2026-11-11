@@ -1,5 +1,7 @@
 # Courtlens series format (durable — supersedes conflicting parts of 02 and 04)
 
+> **Update 2026-11-11:** `09-feedback-rules-2026-11-11.md` holds newer approved feedback rules (story structure, pacing, thumbnail, one-visual-at-a-time, captions within x 100–900 / y 230–1500). Where they conflict with this file, they win.
+
 Set by user feedback on 2026-11-02 ("feedback round"). Read after 00–05. Sections are labelled
 **[USER DIRECTIVE]** (from the user), **[VERIFIED FACT]** (checked evidence) or **[CREATIVE DECISION]**
 (made in production, open to review).
