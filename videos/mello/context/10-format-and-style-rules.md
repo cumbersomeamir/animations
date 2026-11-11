@@ -63,3 +63,41 @@ How feedback-01 implements it (a creative decision that can be revised):
 - **Borrow:** the purposeful demonstration and the pacing.
 - **Do not copy:** its exact yellow figure, its audio or its learning claims.
 - Claude did not open these posts in this session. The descriptions above are the user's review notes.
+
+## 8. Approved feedback rules, 2026-11-11 (user rule; apply from the 2026-11-11 episode on)
+Source: "Published apps, Satisfied? column", read 11 November 2026. These **add to or override** sections 2–6 where they conflict. Episodes requested earlier (english-10, english-11) keep the spec they were requested with.
+
+**Story structure ("Theory of Marketing")**
+- thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+- The hook answers "why do I care"; the build-up sustains one specific question; the proof makes the answer credible; the payoff gives useful knowledge; the CTA gives a relevant next step.
+- Suspense comes only from a real unanswered question, never a false claim. Don't repeat the answer in every scene or pad with generic statements.
+
+**Pacing (adapt naturally, always 30.000 s)**
+- 0–3 s: an immediate striking image and the hook. 3–5 s: optional escalation.
+- 5–21 s: visual explanation and proof, with scene changes.
+- 21–27 s: resolve the question with a concrete takeaway. 27–30 s: a concise, app-relevant CTA.
+
+**Thumbnail**
+- A separate, attractive vertical thumbnail (1080x1920 PNG) tied to the hook, with 2–4 large words. Deliver it with the MP4.
+
+**On-screen text and visuals**
+- One visual idea at a time; no paragraph cards. On-screen labels are large and brief; the voice carries the detail.
+- Captions readable within **x 100–900, y 230–1500**, clear of platform overlays. (Mello keeps its top caption band, now narrowed to x 100–900, so the top ~300 px and the right rail stay clear.)
+- Caption, diagram labels and any explanatory text must not compete at the same moment.
+- Reveal diagrams sequentially. Use deliberate depth, lighting and transitions. No decorative, distracting lines. Motion must explain the topic.
+
+**Facts**
+- Verify every factual claim in primary or reliable sources before the final script. Distinguish measured facts, estimates and illustrative assumptions. Sources go in project notes, not on screen.
+- Don't invent prices, returns, news, app functionality or scientific certainty. No boilerplate warning narration; omit risky procedures instead. Keep essential qualifications concise and accurate.
+- Check earlier episodes for repeats; if the proposed topic was covered, pick a genuinely different topic in the same genre. Never present an unverified fresh-news claim as news.
+
+**Brand and audio (Mello feedback)**
+- **Match the published app colours.** Sample the palette from the *current* Play Store icon and screenshots, not from an older asset or a guessed purple. The sampled values and their source are recorded in the episode record.
+- Prefer a psychology insight with a useful demonstration over guided meditation.
+- Add original, gentle, soothing background sound below speech (synthesized here; no unlicensed samples).
+- Keep the approved format, narrator and motion skill otherwise.
+
+**Delivery and checks**
+- Only finished MP4s go to the user's review folder; source, citations, prompts and QA stay in the repo.
+- Render, full-decode, check duration/codecs, inspect transitions and frames, check narration, caption sync, clipping and missing assets. Attach the MP4 and the thumbnail.
+- Report limitations honestly. Never claim a watched or listened check that wasn't performed (here: the audio check is an ASR round-trip plus measurements).
