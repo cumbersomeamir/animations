@@ -1,0 +1,139 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 122,
+  "x1": 878,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "This fridge has / no cashier,",
+   "fs": 56,
+   "x0": 293,
+   "x1": 707,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 29
+  },
+  {
+   "text": "and it solves / two problems.",
+   "fs": 56,
+   "x0": 301,
+   "x1": 699,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 80
+  },
+  {
+   "text": "Good food / going to waste,",
+   "fs": 56,
+   "x0": 287,
+   "x1": 713,
+   "y0": 377,
+   "y1": 496,
+   "firstFrame": 129
+  },
+  {
+   "text": "and neighbours / who need it.",
+   "fs": 56,
+   "x0": 283,
+   "x1": 717,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 173
+  },
+  {
+   "text": "So how does an open fridge / stay stocked and safe?",
+   "fs": 55,
+   "x0": 125,
+   "x1": 875,
+   "y0": 377,
+   "y1": 494,
+   "firstFrame": 239
+  },
+  {
+   "text": "One real model:",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 298
+  },
+  {
+   "text": "the UK's Community / Fridge Network.",
+   "fs": 56,
+   "x0": 213,
+   "x1": 787,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 350
+  },
+  {
+   "text": "Local businesses and / residents share surplus food.",
+   "fs": 52,
+   "x0": 123,
+   "x1": 877,
+   "y0": 379,
+   "y1": 489,
+   "firstFrame": 435
+  },
+  {
+   "text": "A host gives it a home.",
+   "fs": 66,
+   "x0": 132,
+   "x1": 868,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 505
+  },
+  {
+   "text": "Volunteers run it, with / food-safety rules.",
+   "fs": 56,
+   "x0": 193,
+   "x1": 807,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 574
+  },
+  {
+   "text": "What helps isn't / a big photo.",
+   "fs": 56,
+   "x0": 275,
+   "x1": 725,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 652
+  },
+  {
+   "text": "It's safe, suitable food / that's there again tomorrow.",
+   "fs": 54,
+   "x0": 122,
+   "x1": 878,
+   "y0": 378,
+   "y1": 492,
+   "firstFrame": 732
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

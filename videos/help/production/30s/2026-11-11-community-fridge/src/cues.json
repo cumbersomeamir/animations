@@ -1,0 +1,25 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.25, 3.75, 6.65, 9.55, 13.10, 16.20, 21.00, 27.10],
+ "scenes": {
+  "A_hook_no_cashier": [0.0, 3.6],
+  "B_two_problems": [3.6, 6.5],
+  "C_question": [6.5, 9.4],
+  "D_real_model": [9.4, 12.95],
+  "E_surplus_in": [12.95, 16.0],
+  "F_host_volunteers_rules": [16.0, 20.75],
+  "G_payoff_reliable": [20.75, 26.9],
+  "I_cta": [26.9, 30.0]
+ },
+ "cues": {
+  "doorOpen": 0.0, "noCashier": 1.1, "twoProb": 2.55,
+  "waste": 4.5, "need": 5.4,
+  "q": 6.75, "stocked": 8.1, "safeQ": 8.75,
+  "model": 10.1, "net": 10.9,
+  "shops": 13.4, "residents": 14.1, "surplus": 14.95,
+  "host": 16.3, "volunteers": 17.8, "rules": 19.1, "tick": 20.45,
+  "photo": 21.9, "safe": 23.0, "suitable": 23.45, "tomorrow": 24.6, "done": 26.0,
+  "logo": 27.0, "lucknow": 28.2, "dimEnd": 29.3
+ },
+ "notes": "Story map (2026-11-11 feedback): 0-3.6 hook, 3.6-6.5 escalation, 6.5-20.75 question + proof (5 scene changes), 20.75-26.9 payoff, 26.9-30 CTA. Cues aligned to English ASR word times. Tick SFX only in pauses; no broadband SFX on spoken words."
+}

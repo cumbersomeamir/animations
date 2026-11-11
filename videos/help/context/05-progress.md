@@ -25,3 +25,4 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - 2026-11-08 english-09: videos/help/production/30s/2026-11-08-english-09/help-30s-english09-01.mp4 (30 s, English) — record 22-production-30s-english09-01.md; progress in 10.
 - 2026-11-09 english-10: videos/help/production/30s/2026-11-09-english-10/help-30s-english10-01.mp4 (30 s, English) — record 23-production-30s-english10-01.md; progress in 10.
 - 2026-11-09 english-11: videos/help/production/30s/2026-11-09-english-11/help-30s-english11-01.mp4 (30 s, English) — record 24-production-30s-english11-01.md; progress in 10.
+- 2026-11-11: "Satisfied?" feedback persisted (11-production-format.md, Update 2026-11-11). Episode: videos/help/production/30s/2026-11-11-community-fridge/help-30s-communityfridge-01.mp4 + thumbnail — record 25-production-30s-communityfridge-01.md.

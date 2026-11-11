@@ -202,3 +202,30 @@ Output naming for this round: `videos/help/production/30s/2026-11-02-feedback-ro
 - Topic gate: shoe checks (pair / sole / size) are covered (english-09). Next shoe/clothing-condition proposals → pick a new item or mechanism.
 - When a key authority's text can't be read from a primary page (WHO guideline PDF 403, EMRO 502), drop that claim instead of paraphrasing it.
 - Lint before each render: no mid-line `//` with code after it in `src/stage.html` (one-line python check, see english-11 QA).
+
+## Update 2026-11-11 — "Published apps / Satisfied?" feedback (user-approved; SUPERSEDES conflicting earlier rules)
+**Verdict read 11 Nov 2026:** style good; genre/content still weak; use the latest store icon.
+**Niche (refined):** practical systems that help people in poverty — food access, community initiatives, donation effectiveness and dignity.
+Each episode explains a documented, real model or mechanism (not a vague appeal, not an app tutorial). Retain the accepted style, narrator and assets.
+**Story structure (Theory of Marketing):** thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+- Hook answers "why should I care"; build-up sustains ONE specific open question; proof makes the answer credible (a real, sourced initiative or
+  an accurate editorial diagram); payoff gives useful knowledge; CTA is a relevant next step. Suspense only from a real unanswered question —
+  never false claims. Do not repeat the answer in every scene; no generic padding.
+**Pacing (30.000 s):** 0–3 s striking image + hook · 3–5 s optional escalation · 5–21 s visual explanation and proof with scene changes ·
+  21–27 s resolve the question with a concrete takeaway · 27–30 s concise app-relevant CTA (adapt naturally, total stays 30 s).
+**Thumbnail:** a separate attractive vertical thumbnail (1080×1920) tied to the hook, 2–4 large words; delivered with the MP4.
+**Screen grammar:** one visual idea at a time; no paragraph cards; on-screen labels large and brief — the voice explains the detail. Never show a
+  caption, diagram labels and an explanatory paragraph competing at once. Reveal diagrams sequentially; use deliberate depth, lighting and
+  transitions; avoid decorative distracting lines; motion must explain the topic.
+**Captions (NEW zone, supersedes x 90–990 / y 340–520):** readable inside x = 100..900, y = 230..1500, clear of platform overlays
+  (implemented: centre x = 500, max ink width 760 → x ≈ 120..880; upper position kept, y ≈ 376..500; ≤ 2 lines).
+**Claims:** verify with primary/reliable sources before the final script; label measured facts vs estimates vs illustrative assumptions; sources
+  in project notes, not in the video. Never invent prices, returns, news, app functionality, impact numbers, testimonials or scientific certainty.
+  No boilerplate warning/disclaimer narration — omit risky procedures instead; keep essential legal qualifications concise and accurate.
+  If a fresh-news claim cannot be verified, choose another verified story.
+**CTA:** relates to helping through Help using verified capabilities only (store listing: "Donate essentials in Lucknow with next-day delivery and
+  verified proof"); never imply Help runs a third-party initiative shown in the episode.
+**Icon:** re-verify the current Play/App Store icon each round before rendering.
+**Delivery/QA:** completed MP4 (+ thumbnail) only for the user's video-review folder; source, citations, prompts and QA stay in the repo. Render,
+  full-decode, check duration/codecs, inspect transitions/frames, check caption sync, clipping, missing assets. I cannot listen to audio: report
+  the ASR-based check as such and never claim a listening pass.

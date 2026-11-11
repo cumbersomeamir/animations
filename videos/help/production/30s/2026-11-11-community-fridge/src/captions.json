@@ -1,0 +1,116 @@
+{
+ "cards": [
+  {
+   "a": 0.12,
+   "lines": [
+    "This fridge has no cashier,"
+   ],
+   "timing": "asr",
+   "b": 1.79
+  },
+  {
+   "a": 1.86,
+   "lines": [
+    "and it solves two problems."
+   ],
+   "timing": "asr",
+   "b": 3.5
+  },
+  {
+   "a": 3.57,
+   "lines": [
+    "Good food going to waste,"
+   ],
+   "timing": "asr",
+   "b": 5.03
+  },
+  {
+   "a": 5.1,
+   "lines": [
+    "and neighbours who need it."
+   ],
+   "timing": "asr",
+   "b": 6.44
+  },
+  {
+   "a": 6.51,
+   "lines": [
+    "So how does an open fridge stay stocked and safe?"
+   ],
+   "timing": "asr",
+   "b": 9.41
+  },
+  {
+   "a": 9.48,
+   "lines": [
+    "One real model:"
+   ],
+   "timing": "proportional (asr 9 vs 8 words)",
+   "b": 10.395
+  },
+  {
+   "a": 10.465,
+   "lines": [
+    "the UK's Community Fridge Network."
+   ],
+   "timing": "proportional (asr 9 vs 8 words)",
+   "b": 12.89
+  },
+  {
+   "a": 12.96,
+   "lines": [
+    "Local businesses and residents share surplus food."
+   ],
+   "timing": "asr",
+   "b": 16.06
+  },
+  {
+   "a": 16.13,
+   "lines": [
+    "A host gives it a home."
+   ],
+   "timing": "proportional (asr 14 vs 12 words)",
+   "b": 17.505
+  },
+  {
+   "a": 17.575,
+   "lines": [
+    "Volunteers run it, with food-safety rules."
+   ],
+   "timing": "proportional (asr 14 vs 12 words)",
+   "b": 20.685
+  },
+  {
+   "a": 20.85,
+   "lines": [
+    "What helps isn't a big photo."
+   ],
+   "timing": "asr",
+   "b": 22.64
+  },
+  {
+   "a": 22.71,
+   "lines": [
+    "It's safe, suitable food that's there again tomorrow."
+   ],
+   "timing": "asr",
+   "b": 26.078
+  },
+  {
+   "a": 26.97,
+   "lines": [
+    "To donate essentials in Lucknow,"
+   ],
+   "timing": "asr",
+   "b": 28.67
+  },
+  {
+   "a": 28.74,
+   "lines": [
+    "download Help."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}
