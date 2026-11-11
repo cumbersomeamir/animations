@@ -1,0 +1,98 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), '304' compared as spoken 'three oh four', 'per cent' = 'percent', WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Same weight. Different value.",
+   "heard": "same weight different value",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.25,
+   "plan_off": 1.978,
+   "heard_off": 1.96,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "So what are buyers paying for?",
+   "heard": "so what are buyers paying for",
+   "word_acc": 1.0,
+   "plan_on": 2.72,
+   "heard_on": 2.72,
+   "plan_off": 4.21,
+   "heard_off": 4.22,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "A magnet only catches iron and the cheapest grades.",
+   "heard": "a magnet only catches iron and the cheapest grades",
+   "word_acc": 1.0,
+   "plan_on": 4.55,
+   "heard_on": 4.58,
+   "plan_off": 7.46,
+   "heard_off": 7.46,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "It's nickel: three-oh-four has at least eight percent; cheaper grades, far less.",
+   "heard": "it's nickel three oh four has at least eight percent cheaper grades far less",
+   "word_acc": 1.0,
+   "plan_on": 7.8,
+   "heard_on": 7.8,
+   "plan_off": 12.226,
+   "heard_off": 12.21,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "So collect three-oh-four offcuts, and keep one grade per sack.",
+   "heard": "so collect three oh four offcuts and keep one grade per sack",
+   "word_acc": 1.0,
+   "plan_on": 12.55,
+   "heard_on": 12.55,
+   "plan_off": 16.19,
+   "heard_off": 16.21,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "Say five hundred kilos fetch sixty-nine thousand rupees; buying, sorting and transport leave about seventy-five hundred.",
+   "heard": "say five hundred kilos fetch sixty nine thousand rupees buying sorting and transport leave about seventy five hundred",
+   "word_acc": 1.0,
+   "plan_on": 16.5,
+   "heard_on": 16.53,
+   "plan_off": 24.32,
+   "heard_off": 24.33,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Buyers pay for proven grade and volume.",
+   "heard": "buyers pay for proven grade and volume",
+   "word_acc": 1.0,
+   "plan_on": 24.6,
+   "heard_on": 24.6,
+   "plan_off": 26.883,
+   "heard_off": 26.88,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

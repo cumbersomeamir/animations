@@ -1,0 +1,77 @@
+{
+ "sfx_cues": [
+  [
+   0.05,
+   "sacks settle on the scales (before \"Same\")"
+  ],
+  [
+   0.9,
+   "quote tags start to flip (second flip silent: it lands on \"value\")"
+  ],
+  [
+   2.15,
+   "quotes land (between lines)"
+  ],
+  [
+   2.75,
+   "pieces pour onto trays"
+  ],
+  [
+   4.3,
+   "magnet drops in (between lines)"
+  ],
+  [
+   6.2,
+   "screws snap to the magnet (after \"iron\"; the strip snap is silent)"
+  ],
+  [
+   7.55,
+   "analyser on (before \"It's\")"
+  ],
+  [
+   9.3,
+   "X-ray of 304"
+  ],
+  [
+   10.15,
+   "X-ray of the cheaper grade"
+  ],
+  [
+   12.35,
+   "shear (before \"So\")"
+  ],
+  [
+   16.3,
+   "sacks onto the floor scale (after the line)"
+  ],
+  [
+   19.9,
+   "ticket (between clauses)"
+  ],
+  [
+   24.4,
+   "LEFT lands (after the line)"
+  ],
+  [
+   26.95,
+   "volume sacks (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.07",
+  "input_tp": "-3.10",
+  "input_lra": "4.20",
+  "input_thresh": "-27.62",
+  "output_i": "-15.75",
+  "output_tp": "-1.50",
+  "output_lra": "3.50",
+  "output_thresh": "-26.28",
+  "normalization_type": "dynamic",
+  "target_offset": "0.75"
+ }
+}

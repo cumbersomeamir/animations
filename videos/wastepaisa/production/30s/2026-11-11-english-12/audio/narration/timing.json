@@ -1,0 +1,77 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.782,
+  "words": 67,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Same weight. Different value.",
+      "start": 0.25,
+      "phonemes": "sˈeɪm wˈeɪt. dˈɪfɹənt vˈæljuː.",
+      "duration": 1.728,
+      "end": 1.978
+    },
+    {
+      "id": "L2",
+      "text": "So what are buyers paying for?",
+      "start": 2.72,
+      "phonemes": "sˌoʊ wʌt ɑːɹ bˈaɪɚz pˈeɪɪŋ fɔːɹ?",
+      "duration": 1.49,
+      "end": 4.21
+    },
+    {
+      "id": "L3",
+      "text": "A magnet only catches iron and the cheapest grades.",
+      "start": 4.55,
+      "phonemes": "ɐ mˈæɡnɪt ˈoʊnli kˈætʃᵻz ˈaɪɚn ænd ðə tʃˈiːpɪst ɡɹˈeɪdz.",
+      "duration": 2.91,
+      "end": 7.46
+    },
+    {
+      "id": "L4",
+      "text": "It's nickel: 304 has at least 8%; cheaper grades, far less.",
+      "tts": "It's nickel: three-oh-four has at least eight percent; cheaper grades, far less.",
+      "start": 7.8,
+      "phonemes": "ɪts nˈɪkəl: θɹˈiːˈoʊfˈɔːɹ hɐz æt lˈiːst ˈeɪt pɚsˈɛnt; tʃˈiːpɚ ɡɹˈeɪdz, fˈɑːɹ lˈɛs.",
+      "duration": 4.426,
+      "end": 12.226
+    },
+    {
+      "id": "L5",
+      "text": "So collect 304 offcuts and keep one grade per sack.",
+      "tts": "So collect three-oh-four offcuts, and keep one grade per sack.",
+      "start": 12.55,
+      "phonemes": "sˌoʊ kəlˈɛkt θɹˈiːˈoʊfˈɔːɹ ˈɔfkʌts, ænd kˈiːp wˈʌn ɡɹˈeɪd pɜː sˈæk.",
+      "duration": 3.64,
+      "end": 16.19
+    },
+    {
+      "id": "L6",
+      "text": "Say 500 kilos fetch ₹69,000; buying, sorting and transport leave about ₹7,500.",
+      "tts": "Say five hundred kilos fetch sixty-nine thousand rupees; buying, sorting and transport leave about seventy-five hundred.",
+      "start": 16.5,
+      "phonemes": "sˈeɪ fˈaɪv hˈʌndɹɪd kˈiːloʊz fˈɛtʃ sˈɪkstinˈaɪn θˈaʊzənd ɹˈuːpiːz; bˈaɪɪŋ, sˈɔːɹɾɪŋ ænd tɹˈænspɔːɹt lˈiːv ɐbˌaʊt sˈɛvəntifˈaɪv hˈʌndɹɪd.",
+      "duration": 7.82,
+      "end": 24.32
+    },
+    {
+      "id": "L7",
+      "text": "Buyers pay for proven grade and volume.",
+      "start": 24.6,
+      "phonemes": "bˈaɪɚz pˈeɪ fɔːɹ pɹˈuːvən ɡɹˈeɪd ænd vˈɑːljuːm.",
+      "duration": 2.283,
+      "end": 26.883
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

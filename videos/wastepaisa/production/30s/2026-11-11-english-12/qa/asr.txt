@@ -1,0 +1,26 @@
+English intelligibility and timing evidence: wastepaisa-30s-english12-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.25 | offset plan 1.98 heard 1.96 | heard: same weight different value
+   L2 word acc 1.00 | onset plan 2.72 heard 2.72 | offset plan 4.21 heard 4.22 | heard: so what are buyers paying for
+   L3 word acc 1.00 | onset plan 4.55 heard 4.58 | offset plan 7.46 heard 7.46 | heard: a magnet only catches iron and the cheapest grades
+   L4 word acc 1.00 | onset plan 7.80 heard 7.80 | offset plan 12.23 heard 12.21 | heard: it's nickel three oh four has at least eight percent cheaper grades far less
+   L5 word acc 1.00 | onset plan 12.55 heard 12.55 | offset plan 16.19 heard 16.21 | heard: so collect three oh four offcuts and keep one grade per sack
+   L6 word acc 1.00 | onset plan 16.50 heard 16.53 | offset plan 24.32 heard 24.33 | heard: say five hundred kilos fetch sixty nine thousand rupees buying sorting and transport leave about seventy five hundred
+   L7 word acc 1.00 | onset plan 24.60 heard 24.60 | offset plan 26.88 heard 26.88 | heard: buyers pay for proven grade and volume
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.986; every onset/offset within 0.03 s of plan (normalisation: lowercase, punctuation removed, '304' compared as
+   spoken 'three oh four', 'per cent' = 'percent', WastePaisa compared as 'waste paisa'; full record in qa/asr-english-vosk.json)
+   Only miss: the brand is out of the model's vocabulary ('waste python').
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Same weight different value So what are buyers paying for a magnet only catches iron and the cheapest grades? It's nickel 304 has at least 8% cheaper grades far less So collect 304 offcuts and keep one grade per sack say 500 kilos fetch 69,000 rupees Buying sorting and transport leave about 7500 buyers pay for proven grade and volume Join Waste Pisa and put your scrap to use.
+   Matches the script word for word; only the brand spelling differs.
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.4 dBFS, sample peak -1.35 dBFS, flat factor 0
+   (no clipped runs). SFX that would land on spoken words were removed or moved between lines (audio/cues.json).
+
+4) Draft-stage ASR: the first wording ran 33 s and "buyer" was heard as "by you're"; the script was tightened to 26.8 s of speech
+   and L2 now says "buyers" (heard correctly by both engines).

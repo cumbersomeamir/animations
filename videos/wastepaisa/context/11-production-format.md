@@ -21,6 +21,45 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   limited to stepped 12 fps pushes in the hook and takeaway (the skill gives no camera rule and warns
   against smooth moves). A quiet music bed is added under contact SFX, as the brief requires.
 
+## PUBLISHED-APPS FEEDBACK RULES (2026-11-11, "Satisfied?" column; LATEST — supersede any conflicting rule in this file)
+Approved by the user on 11 Nov 2026 for every following educational episode. Applied first in english-12.
+- **Session and isolation:** this app's existing Claude Code conversation, its mapped account, `cumbersomeamir/animations`, branch
+  `claude-video/wastepaisa` only. Read the approved context, style skill and previous topics first. Never borrow another app's visuals,
+  voice, CTA or assets; never overwrite earlier outputs. App-channel educational episodes are separate from any Discover short-film work.
+- **Deliverable:** an actual 30.000 s 1080×1920 H.264/yuv420p MP4 with AAC, English voiceover and English captions (no Hindi), the
+  established Meshline narrator, no Blender or paid APIs, the existing approved motion skill and assets with only these changes.
+- **Theory of Marketing:** thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+  - Hook answers "why should I care"; build-up sustains one specific question; proof makes the answer credible; payoff gives useful
+    knowledge; CTA gives a relevant next step.
+  - Suspense comes from a real unanswered question, never a false claim. Don't repeat the answer in every scene or pad with generic lines.
+- **Pacing (adapt naturally, always 30 s):** 0–3 s striking image + hook · 3–5 s optional escalation · 5–21 s visual explanation and
+  proof with scene changes · 21–27 s resolve the question with a concrete takeaway · 27–30 s concise app-relevant CTA.
+- **Thumbnail:** an attractive separate vertical image (1080×1920) tied to the hook, with 2–4 large words.
+- **Visual grammar:** one visual idea at a time; no paragraph cards. On-screen labels are large and brief; the voice carries the
+  detail. Caption, diagram labels and explanation must not compete at the same moment. Reveal diagrams sequentially; use deliberate
+  depth, lighting and transitions; no decorative or distracting lines (leader lines only when they point at the thing being named).
+  Motion must explain the topic.
+- **Caption safe area (replaces the earlier x 90–990 / y 340–520 rule):** captions readable inside **x 100–900, y 230–1500**, clear of
+  platform overlays (right-side action rail, bottom caption band, top account row).
+- **Facts:** verify claims from primary or reliable sources before the final script. Keep measured facts, estimates and illustrative
+  assumptions distinct. Sources go in project notes, not on screen. Never invent prices, returns, news, app functionality or scientific
+  certainty. If a fresh-news claim cannot be verified, choose another verified story instead of presenting rumour as news.
+- **Warnings:** no boilerplate warning or disclaimer narration; omit risky procedures instead of building the story around warnings.
+  Keep legal qualifications that are essential to the answer, short and accurate.
+- **Topics:** review previous episodes first; if the proposed topic is covered, choose a genuinely different topic in the same genre
+  with the same story criteria.
+- **Delivery and QA:** only completed MP4s go to the user's review folder (production source, citations, prompts and QA stay outside
+  it). Render, full-decode, check duration and codecs, inspect transitions and frames, check English narration, caption sync, clipping
+  and missing assets. Attach the finished MP4 and thumbnail; report limitations honestly and never claim a watched or listened check
+  that wasn't performed (in this cloud session audio is checked by ASR and level meters, not by ear).
+- **WastePaisa-specific feedback (same date):** keep the simple open-can scrap-shop mascot and the current CTA/style; pivot firmly to
+  the money opportunity (identify → separate grades and contaminants → aggregate a consistent quantity → compare legitimate buyer
+  quotes; buyers pay for reliable quality and volume). No disposal lecture and no obvious warnings (e.g. about burning wire). Show
+  weighed material and buyer quality requirements, not disposal bins. Use dated, located real rates where they can be verified, and
+  show gross revenue against collection, sorting and transport costs; otherwise a clearly labelled illustrative calculation. Never
+  guaranteed profit or "₹10 to lakhs" claims; no hazardous extraction instructions. Improve purposeful motion.
+- **Content references:** use a referenced post only after actually viewing it; if it can't be opened, say so and don't describe it.
+
 ## User feedback log (latest overrides earlier)
 - **batch-02 (2026-11-02):** "Keep the open-lid can mascot, simplified to one clear cylinder, lid, eyes and two
   limbs; no bolts or complicated rig." "Paper-cut scrap shop unfolds into sorting tray, shredder, furnace
@@ -87,7 +126,7 @@ earnings or a monthly allowance (saying prices *vary* is fine; giving numbers or
   - Covered so far: paper cup, aluminium can, cable, brass, aluminium aggregation, pallets, cardboard grading, coconut-shell charcoal,
     PET bottles, glass cullet (english-08), cotton wiping rags (english-09), cardboard box reuse before
     scrap (english-10; a reuse angle, distinct from feedback-05's scrap grading), used cooking oil to licensed biodiesel
-    (english-11).
+    (english-11), stainless steel offcuts by grade (english-12; replaced a proposed aluminium-offcut topic that repeated hindi-03).
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

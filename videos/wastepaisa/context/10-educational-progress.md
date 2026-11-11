@@ -343,6 +343,24 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixed:** "liters" heard as "leaders" (phoneme override); result tickets too narrow (width option); stamp over the REG. No. line;
   map under the results not dim enough (darkened, re-rendered and re-muxed).
 
+## english-12 (2026-11-11-english-12) episode 01: COMPLETE (English) — first episode under the 2026-11-11 Published-apps rules
+- **Topic:** the proposed "sorted aluminium offcuts vs a mixed bag" duplicated hindi-03 (aluminium sort-clean-aggregate, "clean bulk
+  gets a better rate"), so a fresh subject with the same story was made: stainless steel offcuts sorted by grade (same weight,
+  different value; magnet can't separate 200 from 300 series; nickel; one grade per sack; buyers who test pay for proven grade and volume).
+- **Rules applied:** saved in `11-production-format.md` ("PUBLISHED-APPS FEEDBACK RULES (2026-11-11)"). Theory-of-Marketing structure,
+  CTA at 27–30 s, captions centred at x 500 inside x 100–900, large brief labels, key light + depth-push transitions, separate thumbnail.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-11-english-12/wastepaisa-30s-english12-01.mp4`,
+  SHA-256 `43feaae9f472e68ae85e5c25ce7e9dc3ff3ae575729a2e5fe924b01af74f75b6`; thumbnail `wastepaisa-30s-english12-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · no clipping.
+- **Checks:** caption ink x 134–866, y 343–517; timing within ±0.03 s; Vosk 1.00 on every content line (mean 0.986, brand OOV); Whisper
+  word for word apart from the brand. ASR and meters only: no listening in the cloud.
+- **Research:** ASSDA (304 8.0–10.5 % Ni; CrMn grades non-magnetic and hard to tell from 304; offcuts worth less; XRF or drop tests);
+  BigMint 1 May 2026 (304 ₹138,000/t DAP Delhi, utensil scrap ₹71,000/t) and 16 Oct 2026 (304 ₹148,000/t Delhi); Kabadiwala Online
+  household stainless ₹60–90/kg. Illustrative 500 kg lot: ₹69,000 gross − buying ₹55,000 (assumed ₹110/kg) − sorting ₹1,500 − transport
+  ₹5,000 ≈ ₹7,500. Episode record: `context/25-english-12-01.md`. No automation.
+- **Instagram reference:** only page metadata could be read (dexter_zee1, "Make Money ! From Hair ??!!", 5 Nov 2026); the video was not viewed.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
