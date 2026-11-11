@@ -72,3 +72,12 @@ Amber is not used in this episode.
 ## Re-check for english-11 (2026-11-09)
 Re-loaded again: top-40 computed colour list identical, wordmark styling unchanged, logo SVG sha256 816c1761… unchanged.
 Amber is not used in this episode.
+
+## Re-check for english-12 (2026-11-11) + colour-theme change
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to 2026-11-09, wordmark styling unchanged (Space
+Grotesk 700, 30.4 px, −1.216 px, 135° #7FE7DC→#316879), hero headline gradient `linear-gradient(135deg, #7FE7DC, #5CE0D2 50%,
+#FFFFFF)`, logo SVG sha256 816c1761… unchanged. Per the 2026-11-11 feedback ("change color theme and logo to actual
+app.werbens.com … not … guessed light blue") the episode now uses the site's rendered **dark-navy hero theme** in every scene
+(navy #0B1120 stage + fog, ink #0F172A plinths, deep teal #316879 / mint #7FE7DC accents, mint-white #F0FDFA props, dark-glass
+caption pill with mint border, hero-gradient labels) instead of the light #F0FDFA studio; values and rendered measurements in
+context/28 §3. Amber unused.

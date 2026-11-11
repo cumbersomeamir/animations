@@ -58,3 +58,6 @@
   (choice overload; suggested "feature list vs outcome" topic replaced as a duplicate of #01; English narration + captions; context/26).
 - 2026-11-11: approved feedback rules persisted in `context/27-approved-feedback-rules-2026-11-11.md` (pointer in context/11);
   they govern english-12 onward.
+- English-12 (batch 2026-11-11-english-12) IN PROGRESS (checkpoint; final render running) `production/30s/2026-11-11-english-12/werbens-30s-english12-01.mp4` +
+  thumbnail (brand positioning: same product, new perception; Häagen-Dazs + McClure 2004; dark-navy app.werbens.com theme; first
+  episode under context/27; context/28).
