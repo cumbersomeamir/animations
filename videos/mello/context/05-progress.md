@@ -433,3 +433,28 @@ Episode record: `20-episode-habit-formation-time.md`. The established format (se
 
 ## Next
 - english-11 (environmental friction), then the 2026-11-11 episode (english-12, unfinished tasks).
+
+# English-11, 2026-11-09: episode english11-01 "environmental friction" (English)
+Episode record: `21-episode-environmental-friction.md`. The established format (sections 1–7 of `10-format-and-style-rules.md`) is unchanged; a bed and nightstand were added to the room.
+
+## Verified facts (this round)
+- Environmental friction is new for this app. Sources read (PubMed abstracts):
+  - Maas et al. 2012 (PMID 21678172): snacks at 70 or 140 cm vs 20 cm meant lower probability and amount of intake; distance changed perceived effort, not salience.
+  - Background, not spoken: Hollands et al. 2019 Cochrane review (PMID 31482606), low-certainty evidence that food placed farther away is eaten less.
+
+## Creative decisions (this round)
+- English only, 71 words. Hook: "Your phone is within reach all night. Your book isn't."
+- Demonstration: phone to a charger across the room, book into the phone's old spot. `BED_GAIN` 0.40 (13.5 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-09-english-11/mello-30s-english11-01.mp4`
+  - sha256 `5aae62b321037a83dbcedd67b48bfdbfdfd03081a7d8a3c3aab2e88a41d99808`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed on render 2 (`production/30s/2026-11-09-english-11/qa/QA.md`).
+- Render 1 failed `moving_every_second` (static last 3 s); fixed with a camera drift under the lock-up and fully re-rendered.
+
+## Unresolved
+- Nobody has listened by ear (ASR-only). The Desktop/video-review folder is not reachable from this cloud session.
+
+## Next
+- english-12 (2026-11-11, unfinished tasks / park one, new rules): final render running.

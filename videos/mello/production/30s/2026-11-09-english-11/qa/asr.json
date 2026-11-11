@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Your phone is within reach all night. Your book isn't. In one study, moving snacks half a metre farther away meant fewer people ate any. They weren't less noticeable; reaching just felt like more effort. That's friction. It won't break a habit alone, but it changes what's easy. Tonight, charge your phone across the room, and put a book where it used to be. Now the easy reach is the book, not the scroll. Take a mindful break with Mello.",
+  "transcript": "Your phone is within reach all night. Your book isn't. In one study, moving snacks half a meter farther away meant fewer people ate any. They weren't less noticeable. Reaching just felt like more effort. That's friction. It won't break a habit alone, but it changes what's easy. Tonight, charge your phone across the room and put a book where it used to be. Now the easy reach is the book, not the scroll. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 3.203,
+      "text": "Your phone is within reach all night. Your book isn't.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 3.75,
+      "end": 8.459,
+      "text": "In one study, moving snacks half a meter farther away meant fewer people ate any.",
+      "cer": 0.0
+    },
+    {
+      "id": "mech",
+      "start": 9.0,
+      "end": 12.445,
+      "text": "They weren't less noticeable. Reaching just felt like more effort.",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 13.0,
+      "end": 16.903,
+      "text": "That's friction. It won't break a habit alone, but it changes what's easy.",
+      "cer": 0.0
+    },
+    {
+      "id": "tip",
+      "start": 17.5,
+      "end": 21.403,
+      "text": "Tonight, charge your phone across the room and put a book where it used to be.",
+      "cer": 0.0
+    },
+    {
+      "id": "close",
+      "start": 22.1,
+      "end": 24.557,
+      "text": "Now the easy reach is the book, not the scroll.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
