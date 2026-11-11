@@ -3,6 +3,54 @@
 Durable context for future rounds and any later automation. **No automation exists; do not create one unless the user asks.**
 **Latest user feedback overrides older style details.** The current default is **Blue Receipt Theatre** (from the 2026-11-02 feedback round). It supersedes the batch-02 "software cutaway" and the round-01 crosshatch notebook (both kept below as history only).
 
+## Story, pacing and presentation rules (approved 2026-11-11 from the Published apps "Satisfied?" column — these override older storyboard/caption details below)
+**Theory of Marketing — every episode follows:** thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+- **Hook** answers "why should I care?" **Build-up** sustains one specific, real unanswered question. **Proof** makes the answer credible. **Payoff** gives useful knowledge. **CTA** gives a relevant next step.
+- Suspense comes only from a real unanswered question, never from false claims. Do not repeat the answer in every scene or pad with generic statements.
+
+**Pacing (adapt naturally, always exactly 30.000 s):**
+- 0–3 s: an immediate striking image plus the hook.
+- 3–5 s: optional escalation (super hook).
+- 5–21 s: visual explanation and proof, with scene changes.
+- 21–27 s: resolve the question with a concrete takeaway.
+- 27–30 s: a concise, app-relevant CTA.
+
+**Thumbnail:** a separate, attractive vertical thumbnail (1080×1920 PNG) tied to the hook, with 2–4 large words. Deliver it with the MP4.
+
+**One visual idea at a time:**
+- No paragraph cards. On-screen labels are large and brief; the voice explains the detail.
+- Never show the caption, diagram labels and an explanatory paragraph competing at the same time.
+- Reveal diagrams sequentially. Use deliberate depth, lighting and transitions, and meaningful motion that explains the topic. No decorative or distracting lines.
+
+**Captions:** readable inside **x 100–900, y 230–1500**, clear of platform overlays. House setting from english-12 on: band ink y 340–520, centred at x 500, max line width 760 px.
+
+**Facts:**
+- Verify claims from primary or reliable sources before the final script.
+- Distinguish measured facts, estimates and illustrative assumptions.
+- Sources go in the project notes, not on screen as clutter.
+- Never invent prices, returns, news, app functionality or scientific certainty.
+- No boilerplate warning or disclaimer narration: omit risky procedures instead. Essential legal qualifications stay concise and accurate.
+- If a fresh-news claim can't be verified, pick another verified story; never present rumour as news.
+
+**Topics:** review this app's previous episodes. If the proposed topic was covered, choose a genuinely different topic in the same genre using the same story criteria.
+
+**Isolation:**
+- Use only this app's conversation, account, repo and branch.
+- Never borrow another app's visuals, voice, CTA or assets, and never overwrite earlier outputs.
+- Educational episodes are separate from any unrelated short-film requests.
+
+**Delivery and QA honesty:**
+- Only completed MP4s go to the user's video-review folder, when one exists. Source, citations, prompts and QA stay outside it.
+- Render, full-decode, check duration and codecs, inspect transitions and frames, and check caption sync, clipping and missing assets.
+- Never claim a watched or listened check that was not performed. Where listening isn't possible, say verification was ASR plus metering.
+- Attach the finished MP4 **and** the thumbnail.
+
+**Tensorblue-specific (2026-11-11):**
+- Useful app-development / clever app-engineering stories; no dry paper or repository diagrams.
+- Motion needs real 3D depth and fun: tactile miniature 3D objects, parallax, physical layers, purposeful camera changes and cause/effect, not flat node charts.
+- Use the exact current tensorblue.com colours and logo.
+- Ground stories in a documented real example or a clearly generic engineering model; never imply unverified Tensorblue app features.
+
 ## Channel genre (locked)
 Practical system design · useful new GitHub tools · research explained through something viewers can actually understand. Not academic research diagrams, not generic AI news. See `00-channel.md` for scope and claim rules.
 
@@ -41,6 +89,8 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-09 english-11:** sent photos losing tiny text (lossy re-save vs original file). Same satisfied design, English voice and CTA. Naming a real app: say only what its help pages state, as a quoted card with the URL; never reproduce its UI or logo. Image comparisons must be fair: same crop, same enlargement filter; judge readability by eye as well as OCR, and word the result to match what a viewer sees ("a guess", not "gone"). After rewording a line, recheck caption cues keyed to repeated words (`VW(..., n)`). Details: `24-production-30s-english11-01.md`.
 
+- **2026-11-11 rules (Published apps, "Satisfied?" column):** Theory of Marketing story structure, the new pacing, a separate thumbnail, one visual idea at a time, captions inside x 100–900 / y 230–1500, fact discipline, no boilerplate disclaimers, honest QA, MP4 + thumbnail delivery, and real 3D depth for Tensorblue motion. Full text: "Story, pacing and presentation rules" at the top of this file. First applied in english-12: `25-production-30s-english12-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/
@@ -67,14 +117,14 @@ Inter Display ExtraBold/Bold for kinetic type and titles; Inter SemiBold for cap
 Final 3–4 s: logo drop + "Tensorblue" wordmark + one short useful line (round feedback-01: "Follow Tensorblue for software explained simply." spoken, with a blue "Follow" pill). The CTA must say "Tensorblue" explicitly and stay short; no app advert, no invented capability.
 
 ## Storyboard clock (30 s)
-Strong opening (real UI on frame 0) · problem/hook by ~4.5 s · mechanism in distinct scenes as it is narrated · clear takeaway · CTA in the final 3–4 s. Narration is the clock: every visual cue is keyed to a word time from Kokoro.
+Strong opening (real UI on frame 0) · problem/hook by ~4.5 s · mechanism in distinct scenes as it is narrated · clear takeaway · CTA in the final 3–4 s. Narration is the clock: every visual cue is keyed to a word time from Kokoro. **Superseded in detail by the 2026-11-11 pacing (hook 0–3 s, escalation 3–5 s, proof 5–21 s, payoff 21–27 s, CTA 27–30 s).**
 
 ## Technical spec (export gate)
 1080×1920 · 30 fps · exactly 900 frames · H.264 High yuv420p (CRF 18, cap 12 Mb/s) · AAC-LC 48 kHz stereo · exactly 30.000 s · `+faststart`.
 
 ## Caption and safe areas (from the feedback round)
 - **y < 300: no meaningful text** (platform account overlays).
-- Captions in the **upper safe region: text ink inside y 340–520, x 90–990**, max two readable lines, Inter SemiBold 54 px / 64 px leading, split by word groups (renderer rejects lines wider than 880 px). No overlaps with stage content: the stage is clipped to start at y 540.
+- *(2026-11-11: captions must now read inside x 100–900, y 230–1500 — see the rules section; house band y 340–520 centred at x 500, ≤ 760 px lines.)* Earlier rounds: captions in the **upper safe region: text ink inside y 340–520, x 90–990**, max two readable lines, Inter SemiBold 54 px / 64 px leading, split by word groups (renderer rejects lines wider than 880 px). No overlaps with stage content: the stage is clipped to start at y 540.
 - Crucial visuals inside x 90–950, y 540–1480 (keep out of side and bottom platform UI).
 - Verified by `qa.mjs` each round (pixel diff with/without captions; y 0–539 must equal the background except captions, every 10th frame).
 
@@ -93,6 +143,7 @@ Strong opening (real UI on frame 0) · problem/hook by ~4.5 s · mechanism in di
 4. 1-fps contact sheet and a transitions sheet from the exported MP4 viewed; full-resolution crops for small/obstructed text and compression artefacts. Re-render if text is small, obstructed or scenes are static.
 5. ASR (faster-whisper base.en) on the exported audio: WER and word-start drift vs caption timing.
 6. Claims mapped to original/official sources; provenance and licences recorded; MP4 checksum recorded.
+7. (2026-11-11) A separate 1080×1920 thumbnail with 2–4 large words is rendered, viewed and attached with the MP4. Listening checks are reported honestly (ASR + metering when listening is impossible).
 
 ## History (superseded looks — do not reuse unless asked)
 - **Batch 02 (2026-11-02):** brand-aligned software cutaway (dark navy UI panels, static crosshatch texture, match-cut layers, palette `#0A6CFF`-led). Superseded because the feedback round asked for kinetic type + tactile cards + isometric stage and banned connector lines.

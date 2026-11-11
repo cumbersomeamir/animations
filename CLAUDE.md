@@ -10,5 +10,6 @@ Scope: this branch holds ONLY the Tensorblue educational video channel. Start wi
 - Dependencies only from official registries (npm, PyPI, PyTorch CPU index, Hugging Face official model repos). Pin versions in the round's `src/`.
 - Preserve previous outputs: each round gets its own dated folder; never overwrite a published MP4.
 - Narration voice: Kokoro-82M (hexgrad, Apache-2.0), blend `af_bella` 0.7 + `am_puck` 0.3, speed ~0.98, `en-us`. No Piper substitution, no celebrity/character imitation.
-- Spec gates (portrait 1080x1920, 30 fps, H.264 yuv420p, AAC 48 kHz stereo, −14 to −16 LUFS, true peak ≤ −1 dBTP, captions in y 340–520 / x 90–990, nothing meaningful at y < 300) are listed in `11-production-format.md`; a round is not done until the exported MP4 passes them.
+- Spec gates (portrait 1080x1920, 30 fps, H.264 yuv420p, AAC 48 kHz stereo, −14 to −16 LUFS, true peak ≤ −1 dBTP, captions readable inside x 100–900 / y 230–1500 (house band y 340–520, centred x 500), nothing meaningful at y < 300, plus a separate 1080×1920 thumbnail) are listed in `11-production-format.md`; a round is not done until the exported MP4 passes them.
+- Story structure, pacing and presentation follow the 2026-11-11 rules at the top of `11-production-format.md` (thumbnail → hook → super hook → build-up + proof → payoff → CTA; one visual idea at a time; honest QA).
 - Do not create scheduled automations unless the user asks.
