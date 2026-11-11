@@ -58,3 +58,6 @@
 
 ## Production 2026-11-09-english-11 (English, why a text gets through when a call won't)
 - Done. Output `production/30s/2026-11-09-english-11/meshline-30s-english11-01.mp4`, sha256 `13bc1b0b…ac3e`. Details, the topic-swap reason, sources, QA and the empty queue are in `24-production-30s-english11-01.md`.
+
+## Production 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range)
+- Done. Output `production/30s/2026-11-11-english-12/meshline-30s-english12-01.mp4`, sha256 `f5b63c6b…1698`, plus a separate thumbnail. The new standing brief (story structure, pacing, captions x 100–900 / y 230–1500, thumbnail, CTA prerequisites) is persisted in `11-production-format.md` (feedback 2026-11-11). Details are in `25-production-30s-english12-01.md`.

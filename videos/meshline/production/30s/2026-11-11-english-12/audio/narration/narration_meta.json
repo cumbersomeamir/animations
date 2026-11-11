@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Same distance, one concrete wall, and the link drops. Why?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.647,
+      "end": 3.897
+    },
+    {
+      "id": "l2",
+      "start": 4.33,
+      "text": "Through thin drywall, it barely changes.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 2.345,
+      "end": 6.675
+    },
+    {
+      "id": "l3",
+      "start": 7.11,
+      "text": "Bluetooth's two point four gigahertz wave is absorbed and reflected by dense concrete.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 5.707,
+      "end": 12.817
+    },
+    {
+      "id": "l4",
+      "start": 13.24,
+      "text": "Lab tests measured about thirty decibels lost through twenty centimetres.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 4.229,
+      "end": 17.469
+    },
+    {
+      "id": "l5",
+      "start": 17.91,
+      "text": "In open air, that's like thirty times the distance.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 2.881,
+      "end": 20.791
+    },
+    {
+      "id": "l6",
+      "start": 21.22,
+      "text": "So a relay belongs in the doorway: two clear hops beat one through concrete.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 4.472,
+      "end": 25.692
+    },
+    {
+      "id": "l7",
+      "start": 26.29,
+      "text": "Message people nearby, even offline, with Meshline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.265,
+      "end": 29.555
+    }
+  ]
+}

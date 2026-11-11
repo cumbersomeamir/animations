@@ -1,0 +1,60 @@
+{
+ "reference": "Same distance, one concrete wall, and the link drops. Why? Through thin drywall, it barely changes. Bluetooth's two point four gigahertz wave is absorbed and reflected by dense concrete. Lab tests measured about thirty decibels lost through twenty centimetres. In open air, that's like thirty times the distance. So a relay belongs in the doorway: two clear hops beat one through concrete. Message people nearby, even offline, with Meshline.",
+ "asr": "Same distance, one concrete wall and the link drops. Why? Through thin drywall, it barely changes. Bluetooth 2.4 GHz wave is absorbed and reflected by dense concrete. Lab tests measured about 30 decibels lost through 20 centimeters. In open air, that's like 30 times the distance. So a relay belongs in the doorway. Two clear hops beat one through concrete. Message people nearby, even offline with meshline.",
+ "wer": 0.13,
+ "segments": [
+  [
+   0.0,
+   3.32,
+   "Same distance, one concrete wall and the link drops."
+  ],
+  [
+   3.32,
+   4.16,
+   "Why?"
+  ],
+  [
+   4.16,
+   6.92,
+   "Through thin drywall, it barely changes."
+  ],
+  [
+   6.92,
+   13.04,
+   "Bluetooth 2.4 GHz wave is absorbed and reflected by dense concrete."
+  ],
+  [
+   13.04,
+   17.64,
+   "Lab tests measured about 30 decibels lost through 20 centimeters."
+  ],
+  [
+   17.64,
+   21.04,
+   "In open air, that's like 30 times the distance."
+  ],
+  [
+   21.04,
+   23.28,
+   "So a relay belongs in the doorway."
+  ],
+  [
+   23.28,
+   26.04,
+   "Two clear hops beat one through concrete."
+  ],
+  [
+   26.04,
+   29.96,
+   "Message people nearby, even offline with meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.014,
+ "normalization": "digits\u2192words (2.4\u2192two point four, 30\u2192thirty, 20\u2192twenty), GHz\u2192gigahertz, US\u2192UK spelling (centimeters\u2192centimetres)",
+ "remaining_diffs": [
+  [
+   "bluetooth's",
+   "bluetooth"
+  ]
+ ]
+}

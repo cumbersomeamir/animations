@@ -1,0 +1,351 @@
+{
+ "l1": [
+  {
+   "w": "Same",
+   "start": 0.0,
+   "end": 0.22
+  },
+  {
+   "w": "distance,",
+   "start": 0.22,
+   "end": 0.5
+  },
+  {
+   "w": "one",
+   "start": 0.94,
+   "end": 1.08
+  },
+  {
+   "w": "concrete",
+   "start": 1.08,
+   "end": 1.4
+  },
+  {
+   "w": "wall",
+   "start": 1.4,
+   "end": 1.78
+  },
+  {
+   "w": "and",
+   "start": 1.78,
+   "end": 2.0
+  },
+  {
+   "w": "the",
+   "start": 2.0,
+   "end": 2.1
+  },
+  {
+   "w": "link",
+   "start": 2.1,
+   "end": 2.24
+  },
+  {
+   "w": "drops.",
+   "start": 2.24,
+   "end": 2.54
+  }
+ ],
+ "l2": [
+  {
+   "w": "Through",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "w": "thin",
+   "start": 0.14,
+   "end": 0.34
+  },
+  {
+   "w": "drywall,",
+   "start": 0.34,
+   "end": 0.86
+  },
+  {
+   "w": "it",
+   "start": 1.14,
+   "end": 1.24
+  },
+  {
+   "w": "barely",
+   "start": 1.24,
+   "end": 1.44
+  },
+  {
+   "w": "changes.",
+   "start": 1.44,
+   "end": 1.9
+  }
+ ],
+ "l3": [
+  {
+   "w": "Bluetooth",
+   "start": 0.0,
+   "end": 0.18
+  },
+  {
+   "w": "2",
+   "start": 0.18,
+   "end": 0.62
+  },
+  {
+   "w": ".4",
+   "start": 0.62,
+   "end": 1.38
+  },
+  {
+   "w": "GHz",
+   "start": 1.38,
+   "end": 1.62
+  },
+  {
+   "w": "wave",
+   "start": 1.62,
+   "end": 2.16
+  },
+  {
+   "w": "is",
+   "start": 2.16,
+   "end": 2.82
+  },
+  {
+   "w": "absorbed",
+   "start": 2.82,
+   "end": 3.26
+  },
+  {
+   "w": "and",
+   "start": 3.26,
+   "end": 3.84
+  },
+  {
+   "w": "reflected",
+   "start": 3.84,
+   "end": 4.2
+  },
+  {
+   "w": "by",
+   "start": 4.2,
+   "end": 4.56
+  },
+  {
+   "w": "dense",
+   "start": 4.56,
+   "end": 4.76
+  },
+  {
+   "w": "concrete.",
+   "start": 4.76,
+   "end": 5.26
+  }
+ ],
+ "l4": [
+  {
+   "w": "Lab",
+   "start": 0.0,
+   "end": 0.22
+  },
+  {
+   "w": "tests",
+   "start": 0.22,
+   "end": 0.42
+  },
+  {
+   "w": "measured",
+   "start": 0.42,
+   "end": 0.92
+  },
+  {
+   "w": "about",
+   "start": 0.92,
+   "end": 1.26
+  },
+  {
+   "w": "30",
+   "start": 1.26,
+   "end": 1.58
+  },
+  {
+   "w": "decibels",
+   "start": 1.58,
+   "end": 2.18
+  },
+  {
+   "w": "lost",
+   "start": 2.18,
+   "end": 2.74
+  },
+  {
+   "w": "through",
+   "start": 2.74,
+   "end": 3.12
+  },
+  {
+   "w": "20",
+   "start": 3.12,
+   "end": 3.38
+  },
+  {
+   "w": "centimeters.",
+   "start": 3.38,
+   "end": 3.8
+  }
+ ],
+ "l5": [
+  {
+   "w": "In",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "open",
+   "start": 0.08,
+   "end": 0.3
+  },
+  {
+   "w": "air,",
+   "start": 0.3,
+   "end": 0.72
+  },
+  {
+   "w": "that's",
+   "start": 1.06,
+   "end": 1.28
+  },
+  {
+   "w": "like",
+   "start": 1.28,
+   "end": 1.38
+  },
+  {
+   "w": "30",
+   "start": 1.38,
+   "end": 1.66
+  },
+  {
+   "w": "times",
+   "start": 1.66,
+   "end": 2.08
+  },
+  {
+   "w": "the",
+   "start": 2.08,
+   "end": 2.24
+  },
+  {
+   "w": "distance.",
+   "start": 2.24,
+   "end": 2.44
+  }
+ ],
+ "l6": [
+  {
+   "w": "So",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "a",
+   "start": 0.12,
+   "end": 0.22
+  },
+  {
+   "w": "relay",
+   "start": 0.22,
+   "end": 0.42
+  },
+  {
+   "w": "belongs",
+   "start": 0.42,
+   "end": 0.88
+  },
+  {
+   "w": "in",
+   "start": 0.88,
+   "end": 1.2
+  },
+  {
+   "w": "the",
+   "start": 1.2,
+   "end": 1.28
+  },
+  {
+   "w": "doorway.",
+   "start": 1.28,
+   "end": 1.66
+  },
+  {
+   "w": "Two",
+   "start": 2.24,
+   "end": 2.32
+  },
+  {
+   "w": "clear",
+   "start": 2.32,
+   "end": 2.6
+  },
+  {
+   "w": "hops",
+   "start": 2.6,
+   "end": 2.88
+  },
+  {
+   "w": "beat",
+   "start": 2.88,
+   "end": 3.2
+  },
+  {
+   "w": "one",
+   "start": 3.2,
+   "end": 3.48
+  },
+  {
+   "w": "through",
+   "start": 3.48,
+   "end": 3.7
+  },
+  {
+   "w": "concrete.",
+   "start": 3.7,
+   "end": 4.04
+  }
+ ],
+ "l7": [
+  {
+   "w": "Message",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "w": "people",
+   "start": 0.26,
+   "end": 0.58
+  },
+  {
+   "w": "nearby,",
+   "start": 0.58,
+   "end": 0.96
+  },
+  {
+   "w": "even",
+   "start": 1.76,
+   "end": 1.76
+  },
+  {
+   "w": "offline",
+   "start": 1.76,
+   "end": 2.08
+  },
+  {
+   "w": "with",
+   "start": 2.08,
+   "end": 2.54
+  },
+  {
+   "w": "meshline.",
+   "start": 2.54,
+   "end": 2.96
+  }
+ ]
+}

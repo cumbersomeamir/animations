@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Same distance, one concrete wall, and the link drops. Why?"
+    },
+    {
+      "id": "l2",
+      "start": 4.33,
+      "text": "Through thin drywall, it barely changes."
+    },
+    {
+      "id": "l3",
+      "start": 7.11,
+      "text": "Bluetooth's two point four gigahertz wave is absorbed and reflected by dense concrete."
+    },
+    {
+      "id": "l4",
+      "start": 13.24,
+      "text": "Lab tests measured about thirty decibels lost through twenty centimetres."
+    },
+    {
+      "id": "l5",
+      "start": 17.91,
+      "text": "In open air, that's like thirty times the distance."
+    },
+    {
+      "id": "l6",
+      "start": 21.22,
+      "text": "So a relay belongs in the doorway: two clear hops beat one through concrete."
+    },
+    {
+      "id": "l7",
+      "start": 26.29,
+      "text": "Message people nearby, even offline, with Meshline."
+    }
+  ]
+}

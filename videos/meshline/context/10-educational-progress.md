@@ -88,3 +88,7 @@
 ## Production 2026-11-09-english-11 (English, why a text gets through when a call won't): complete
 - See `24-production-30s-english11-01.md`; output sha256 `13bc1b0b925065d61310751d6bb714ea76a7e5bdaf699f61de8580732e6cac3e`.
 - Topic swap: the suggested crowded-concert topic duplicates episode 01, so the unused planned title "one bar can still send a text" was used, keeping the brief's busy-doorway / meeting-point / nearby angle.
+
+## Production 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range): complete
+- See `25-production-30s-english12-01.md`; output sha256 `f5b63c6bee1021aacb4caf36208937c0340fcf4cd4172edc96dea075711e1698`; thumbnail `meshline-30s-english12-01-thumbnail.png`.
+- The topic was the user's explicit override of the stadium proposal. Overlap with Hindi feedback-05 is acknowledged; the new angle is measured loss, dB→distance and relay placement.

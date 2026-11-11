@@ -1,0 +1,99 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 1.94,
+  "l": [
+   "Same distance,",
+   "one concrete wall,"
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 1.98,
+  "b": 4.197,
+  "l": [
+   "and the link drops.",
+   "Why?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 4.28,
+  "b": 6.975,
+  "l": [
+   "Through thin drywall,",
+   "it barely changes."
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 7.06,
+  "b": 9.18,
+  "l": [
+   "Bluetooth's 2.4 GHz wave"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.22,
+  "b": 13.117,
+  "l": [
+   "is absorbed and reflected",
+   "by dense concrete."
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 13.19,
+  "b": 15.89,
+  "l": [
+   "Lab tests measured",
+   "about 30 dB lost"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 15.93,
+  "b": 17.769,
+  "l": [
+   "through 20 centimetres."
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 17.86,
+  "b": 21.091,
+  "l": [
+   "In open air, that's like",
+   "30 times the distance."
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 21.17,
+  "b": 23.37,
+  "l": [
+   "So a relay belongs",
+   "in the doorway:"
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 23.41,
+  "b": 25.992,
+  "l": [
+   "two clear hops beat",
+   "one through concrete."
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.24,
+  "b": 29.855,
+  "l": [
+   "Message people nearby,",
+   "even offline, with Meshline."
+  ]
+ }
+]

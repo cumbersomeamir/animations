@@ -200,4 +200,36 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Caption anchors:** a long anchor must not match a shorter ASR word by reverse prefix ("then" vs "the"). Reverse-prefix matches need an ASR word of more than 3 letters.
 - **Voice margin:** keep cues under narration quiet enough that every line stays at or above +17 dB speech-band voice/bed. Check `voice_balance.json` before QA.
 - **Emergency wording:** advise texting only for checking in (non-emergency), as the FCC/FEMA tips say. Never suggest texting emergency services.
+| 14 | 2026-11-11-english-12 | Why concrete walls shrink Bluetooth range (measured loss, dB→distance, relay placement), **English** + thumbnail | `production/30s/2026-11-11-english-12/meshline-30s-english12-01.mp4` |
+
+## Standing brief from 2026-11-11 (persisted; applies to all later episodes)
+- **Story structure (Theory of Marketing):**
+  - Order: thumbnail → hook → optional super hook → build-up + proof → payoff → CTA.
+  - The hook answers "why care". The build-up sustains one real question, proof makes the answer credible, and the payoff is useful knowledge. The CTA is a relevant next step.
+  - Suspense comes from a real question, never from false claims. Don't repeat the answer in every scene or pad with generic statements.
+- **Pacing (adapt naturally, total 30.000 s):**
+  - 0–3 s: striking image + hook (frame 1 already in motion);
+  - 3–5 s: optional escalation;
+  - 5–21 s: visual explanation + proof with scene changes;
+  - 21–27 s: concrete takeaway;
+  - 27–30 s: concise app-relevant CTA.
+- **Thumbnail:** a separate vertical 1080x1920 PNG tied to the hook, with 2–4 large words. It is rendered by the same scene code (`render.mjs --thumb`) and attached with the MP4.
+- **On-screen text:**
+  - One visual idea at a time, no paragraph cards. Labels are large and brief; the voice carries the detail.
+  - Never let a caption, diagram labels and an explanatory readout compete. The instrument may hide for a beat when the map already shows the number (english-12 hides it during l4–l5).
+  - Reveal diagrams sequentially. No decorative distracting lines.
+- **Captions:** readable within **x 100–900, y 230–1500**, clear of platform overlays. The plate is centred at x 500 and both ink and plate are checked (`captions_check.mjs`). Ink stays in y 350–470, at most 2 lines.
+- **Facts:**
+  - Separate measured facts, estimates and illustrative assumptions in `research/claims.md`.
+  - Sources go in notes, not in the video.
+  - No invented prices, returns, news, app functions or certainty. No boilerplate warning narration.
+- **CTA rule (re-confirmed):**
+  - Check the existing context for supported behaviour, range assumptions and prerequisites before writing it.
+  - The context states only "private nearby messaging that keeps moving, even when the internet does not". So the CTA names no range, transport (Bluetooth/Wi-Fi), relay, emergency reliability or "reach distant people".
+  - Generic relay/mesh teaching is fine, but veil it away under the CTA so it isn't read as an app feature.
+  - Accepted variant: "Message people nearby, even offline, with Meshline."
+- **Topic overrides:** an explicit user TOPIC OVERRIDE wins over the repeat rule. Record any overlap and make the angle genuinely new (here: measured loss, dB→distance and relay placement vs Hindi feedback-05's diagnosis test).
+- **Review:** only finished MP4s go to the user's video-review folder; source, citations, prompts and QA stay in the repo. Don't claim a listen-through: ASR and loudness checks are reported as such.
+- **TTS note:** Kokoro reads "2.4" as "two… four". Spell decimals out in `narration.json` ("two point four") and keep the numerals in captions.
+- **Still unused planned titles:** what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
 
