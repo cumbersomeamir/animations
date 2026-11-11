@@ -9,7 +9,8 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 ### Status
 - Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens (in sync, clean; english-10
   delivered at ff5f4d7), assigned account info@tensorblue.com. No earlier job pending. Earlier MP4s untouched.
-- IN PROGRESS: full render of `production/30s/2026-11-09-english-11/courtlens-30s-english11-01.mp4`.
+- DELIVERED: `production/30s/2026-11-09-english-11/courtlens-30s-english11-01.mp4`
+  (sha256 b3fe05b18d28157b8068a7eb2d30dbf6fc55992299905f6cc49d5b5f61e8a588).
 - Episode record: `context/episodes/2026-11-09-english11-landlord-power-cut-tn.md`.
 
 ### Verified facts
@@ -49,8 +50,23 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 ### Fixed before the full render (stills review)
 - On the rent receipt, "November" ran into "₹18,000", so the labels are now "Oct rent" / "Nov rent".
 
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −15.9 LUFS / −2.4 dBTP. It was −14.5 at first; the gain went from 7.5 to 6.0 dB and the audio was
+  re-muxed onto the same frames.
+- Narration 7/7 at +3 ms; CTA final 3.73 s; y<300 clear; 11 captions, ≤2 lines.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Interruption: a worker restart killed the first render at 592/900 frames; it was re-rendered in full.
+- Details: `production/30s/2026-11-09-english-11/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen is recommended.
+- The official TN hosts were unreachable (Gazette reproduction used).
+
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4.
+Delivered. The next request is english-12 (landlord entry), the first episode under
+`context/09-feedback-rules-2026-11-11.md`.
 
 ## Round 2026-11-09 (english-10): English episode 10, no phone number, no bill?
 
