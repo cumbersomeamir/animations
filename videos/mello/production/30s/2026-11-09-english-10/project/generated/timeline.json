@@ -1,0 +1,115 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Twenty-one days to build a habit? Not quite.",
+      "start": 0.3,
+      "end": 2.979,
+      "pauses": [
+        [
+          1.98,
+          2.327
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one study, people repeated one new daily action in the same context, like after breakfast.",
+      "start": 3.4,
+      "end": 9.315,
+      "pauses": [
+        [
+          4.19,
+          4.468
+        ],
+        [
+          7.592,
+          7.665
+        ],
+        [
+          7.828,
+          8.171
+        ],
+        [
+          8.851,
+          8.992
+        ]
+      ]
+    },
+    {
+      "id": "range",
+      "text": "Reaching near-automatic was estimated at eighteen to two hundred fifty-four days.",
+      "start": 9.75,
+      "end": 14.66,
+      "pauses": [
+        [
+          11.014,
+          11.087
+        ],
+        [
+          11.092,
+          11.373
+        ]
+      ]
+    },
+    {
+      "id": "curve",
+      "text": "It climbs fast at first, then levels off.",
+      "start": 15.05,
+      "end": 17.371,
+      "pauses": [
+        [
+          16.348,
+          16.576
+        ]
+      ]
+    },
+    {
+      "id": "missed",
+      "text": "And missing one day didn't materially derail it.",
+      "start": 17.75,
+      "end": 20.38,
+      "pauses": [
+        [
+          18.669,
+          18.955
+        ]
+      ]
+    },
+    {
+      "id": "tip",
+      "text": "So if you skip one evening walk, just walk the next evening, after the same cue.",
+      "start": 20.75,
+      "end": 25.291,
+      "pauses": [
+        [
+          22.383,
+          22.648
+        ],
+        [
+          24.003,
+          24.213
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.3,
+      "end": 28.02,
+      "pauses": []
+    }
+  ]
+}

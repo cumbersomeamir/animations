@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Twenty-one days to build a habit? Not quite. In one study, people repeated one new daily action in the same context, like after breakfast. Reaching near-automatic was estimated at eighteen to two hundred fifty-four days. It climbs fast at first, then levels off. And missing one day didn't materially derail it. So if you skip one evening walk, just walk the next evening, after the same cue. Take a mindful break with Mello.",
+  "transcript": "21 days to build a habit. Not quite. In one study, people repeated one new daily action in the same context, like after breakfast. Reaching near automatic was estimated at 18 to 254 days. It climbs fast at first, then levels off. And missing one day didn't materially derail it. So if you skip one evening walk, just walk the next evening, after the same cue. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 2.979,
+      "text": "21 days to build a habit. Not quite.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 3.4,
+      "end": 9.315,
+      "text": "In one study, people repeated one new daily action in the same context, like after breakfast.",
+      "cer": 0.0
+    },
+    {
+      "id": "range",
+      "start": 9.75,
+      "end": 14.66,
+      "text": "Reaching near automatic was estimated at 18 to 254 days.",
+      "cer": 0.0
+    },
+    {
+      "id": "curve",
+      "start": 15.05,
+      "end": 17.371,
+      "text": "It climbs fast at first, then levels off.",
+      "cer": 0.0
+    },
+    {
+      "id": "missed",
+      "start": 17.75,
+      "end": 20.38,
+      "text": "And missing one day didn't materially derail it.",
+      "cer": 0.0
+    },
+    {
+      "id": "tip",
+      "start": 20.75,
+      "end": 25.291,
+      "text": "So if you skip one evening walk, just walk the next evening, after the same cue.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.3,
+      "end": 28.02,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

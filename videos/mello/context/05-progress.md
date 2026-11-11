@@ -410,3 +410,26 @@ Episode record (script, sources, storyboard, adjustments): `19-episode-peak-end-
 
 ## Next
 - Queued, in order: english-10 (2026-11-09, habit formation time and one missed day; implementation intentions already covered), english-11 (2026-11-09, environmental friction), then the 2026-11-11 episode (unfinished tasks / parking one).
+
+# English-10, 2026-11-09: episode english10-01 "how long a habit takes, and one missed day" (English)
+Episode record: `20-episode-habit-formation-time.md`. The established format (sections 1–7 of `10-format-and-style-rules.md`) is unchanged.
+
+## Verified facts (this round)
+- Suggested topic (implementation intentions) was already covered (hindi04-01), so a fresh topic in the same genre was chosen.
+- Source read: Lally, van Jaarsveld, Potts & Wardle (2010), *EJSP* 40(6):998–1009, abstract via Crossref (18–254 days to 95% of the automaticity asymptote; one missed opportunity did not materially affect habit formation).
+
+## Creative decisions (this round)
+- English narration and captions only, 73 words. Hook: "Twenty-one days to build a habit? Not quite." over a calendar crossing itself off.
+- The brief's evening cue (work bag down → walk) is the demonstration. `BED_GAIN` 0.40 (13.0 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-09-english-10/mello-30s-english10-01.mp4`
+  - sha256 `2b170188e1cb98343fc0f595157443bdea2c22b197acc8f3902cb7a8be1643a5`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-09-english-10/qa/QA.md`): full decode clean; −16.0 LUFS; cuts on plan; 0 safe-zone issues in 300 samples; English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- Nobody has listened by ear (ASR-only). The Desktop/video-review folder is not reachable from this cloud session.
+
+## Next
+- english-11 (environmental friction), then the 2026-11-11 episode (english-12, unfinished tasks).
