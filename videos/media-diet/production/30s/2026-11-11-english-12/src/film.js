@@ -372,9 +372,9 @@ scene.traverse((o) => { const ms = Array.isArray(o.material) ? o.material : o.ma
 window.render = async (f) => { const t = f / FPS; const shot = update(t); composer.render(); drawOverlay(t, shot); return t; };
 // separate vertical thumbnail tied to the hook: the record car at speed + 4 large words ("500 KM/H" / "WHY HARD?")
 window.renderThumb = async () => { const t = 2.7; update(t);
-  camera.position.set(3.05, 0.42, 2.25); camera.up.set(0, 1, 0); camera.fov = 44; camera.updateProjectionMatrix(); camera.lookAt(V3(0.05, 0.62, -0.05)); bokeh.uniforms.focus.value = camera.position.distanceTo(V3(0, 0.3, 0)); composer.render();
+  camera.position.set(3.55, 0.5, 2.75); camera.up.set(0, 1, 0); camera.fov = 44; camera.updateProjectionMatrix(); camera.lookAt(V3(0.22, 0.72, -0.05)); bokeh.uniforms.focus.value = camera.position.distanceTo(V3(0, 0.3, 0)); composer.render();
   og.clearRect(0, 0, W, H); TEXTLOG = []; const v = og.createLinearGradient(0, 0, 0, H); v.addColorStop(0, 'rgba(4,5,26,0.55)'); v.addColorStop(0.45, 'rgba(4,5,26,0.1)'); v.addColorStop(1, 'rgba(4,5,26,0.35)'); og.fillStyle = v; og.fillRect(0, 0, W, H);
-  const fit = (txt, size) => { og.font = `700 ${size}px "Space Grotesk"`; const w = og.measureText(txt).width; return w > 780 ? Math.floor(size * 780 / w) : size; };
+  const fit = (txt, size) => { og.font = `700 ${size}px "Space Grotesk"`; const w = og.measureText(txt).width; return w > 700 ? Math.floor(size * 700 / w) : size; };
   const f1 = fit('500 KM/H', 200), f2 = fit('WHY HARD?', 170);
   otext('500 KM/H', 540, 560, { font: `700 ${f1}px "Space Grotesk"`, color: '#ffd23f', shadow: 30, kind: 'thumb' });
   otext('WHY HARD?', 540, 560 + f2 * 1.15, { font: `700 ${f2}px "Space Grotesk"`, color: '#f6f4ff', shadow: 30, kind: 'thumb' });
