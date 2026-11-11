@@ -159,8 +159,8 @@ function setTub(tb, t, { x, y, z = 0, dress, name = 0, lidOff = 0, sq = 0, visib
   tb.name.visible = visible && name > 0.001 && tb !== tubB; tb.clipN.constant = x + lerp(-0.075, 0.075, name);
   tb.lidM.color.copy(LID_W).lerp(LID_M, dress);
   // lid: sits on the tub; on "backed" it pops up, tips back and hops off stage left
-  const lu = lidOff, lx = x + lerp(0, -0.3, E.inOut(lu)), ly = y + (TUB_H - 0.004) * sc * (1 + sq) + 0.13 * Math.sin(Math.PI * Math.min(1, lu * 1.1)) - (lu > 0.85 ? (lu - 0.85) * 0.9 : 0);
-  tb.lid.visible = visible && lu < 1; tb.lid.position.set(lx, Math.max(ly, 0), z + lerp(0, 0.03, lu)); tb.lid.rotation.set(-0.5 * Math.sin(Math.PI * lu), 0, 1.4 * E.inOut(lu)); tb.lid.scale.set(sc * (1 - sq * 0.4), sc * (1 + sq), sc * (1 - sq * 0.4));
+  const lu = lidOff, lx = x + lerp(0, -0.3, E.inOut(lu)), ly = y + (TUB_H - 0.004) * sc * (1 + sq) + 0.045 * Math.sin(Math.PI * Math.min(1, lu * 1.1)) // low arc: the lid never enters the caption band - (lu > 0.85 ? (lu - 0.85) * 0.9 : 0);
+  tb.lid.visible = visible && lu < 1; tb.lid.position.set(lx, Math.max(ly, 0), z + lerp(0, 0.03, lu)); tb.lid.rotation.set(-0.35 * Math.sin(Math.PI * lu), 0, 0.6 * E.inOut(lu)); tb.lid.scale.set(sc * (1 - sq * 0.4), sc * (1 + sq), sc * (1 - sq * 0.4));
   placeShadow(tb.sh, x, z, Math.max(0, y - 0.07), 0.1, 0.1, visible ? 1 : 0); placeShadow(tb.lidSh, lx, z, Math.max(0, ly - y - TUB_H), 0.09, 0.09, visible && lu > 0.02 && lu < 1 ? 0.6 : 0);
 }
 

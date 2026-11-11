@@ -1,0 +1,106 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        2.38
+      ],
+      "script": "Same product. New perception.",
+      "heard": "Same product, new perception.",
+      "words": "4/4"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.25,
+        4.41
+      ],
+      "script": "So why does one feel expensive?",
+      "heard": "So why does one feel expensive?",
+      "words": "6/6"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        4.3,
+        10.53
+      ],
+      "script": "In 1960, ice cream makers gave a luxury brand a made-up name: Häagen-Dazs.",
+      "heard": "In 1960, ice cream makers gave a luxury brand a made-up name, Hagen-Daz.",
+      "words": "12/15"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        10.3,
+        12.51
+      ],
+      "script": "Then backed it with a rich recipe.",
+      "heard": "Then backed it with a rich recipe.",
+      "words": "7/7"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        12.35,
+        14.29
+      ],
+      "script": "But can a name change the taste?",
+      "heard": "But can a name change the taste?",
+      "words": "7/7"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        14.15,
+        17.37
+      ],
+      "script": "Coke and Pepsi are chemically nearly identical.",
+      "heard": "Coke and Pepsi are chemically nearly identical.",
+      "words": "7/7"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        17.18,
+        21.28
+      ],
+      "script": "Yet in a study, knowing one drink's brand shifted preferences.",
+      "heard": "Yet in a study, knowing one drink's brand shifted preferences.",
+      "words": "10/10"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        21.15,
+        24.54
+      ],
+      "script": "A brand shapes expectations before the first bite.",
+      "heard": "a brand shapes expectations before the first bite.",
+      "words": "8/8"
+    },
+    {
+      "id": "L9",
+      "window_s": [
+        24.4,
+        27
+      ],
+      "script": "Signal a real strength, then deliver it.",
+      "heard": "Signal a real strength, then deliver it.",
+      "words": "7/7"
+    },
+    {
+      "id": "L10",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Same product, new perception. So why does one feel expensive? In 1960, ice cream makers gave a luxury brand a made-up name, Hagen-Daz, then backed it with a rich recipe. But can a name change the taste? Coke and Pepsi are chemically nearly identical. Yet in a study, knowing one drink's brand shifted preferences. A brand shapes expectations before the first bite. Signal a real strength, then deliver it. Follow Warbins to decode how brands sell."
+}
