@@ -1,0 +1,70 @@
+{
+ "fdcId": 173410,
+ "foodCode": null,
+ "ndbNumber": 1001,
+ "description": "Butter, salted",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.0,
+   "unit": "g"
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 643,
+   "unit": "mg"
+  },
+  {
+   "name": "Energy",
+   "amount": 717,
+   "unit": "kcal"
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 81.1,
+   "unit": "g"
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 0.06,
+   "unit": "g"
+  },
+  {
+   "name": "Protein",
+   "amount": 0.85,
+   "unit": "g"
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 0.06,
+   "unit": "g"
+  },
+  {
+   "name": "Water",
+   "amount": 16.2,
+   "unit": "g"
+  }
+ ],
+ "portions": [
+  {
+   "description": "pat (1\" sq, 1/3\" high)",
+   "gramWeight": 5.0
+  },
+  {
+   "description": "stick",
+   "gramWeight": 113.0
+  },
+  {
+   "description": "cup",
+   "gramWeight": 227.0
+  },
+  {
+   "description": "tbsp",
+   "gramWeight": 14.2
+  }
+ ]
+}

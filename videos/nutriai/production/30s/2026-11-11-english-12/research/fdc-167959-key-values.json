@@ -1,0 +1,62 @@
+{
+ "fdcId": 167959,
+ "foodCode": null,
+ "ndbNumber": 19034,
+ "description": "Snacks, popcorn, air-popped",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Energy",
+   "amount": 387,
+   "unit": "kcal"
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 77.8,
+   "unit": "g"
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 4.54,
+   "unit": "g"
+  },
+  {
+   "name": "Water",
+   "amount": 3.32,
+   "unit": "g"
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 0.87,
+   "unit": "g"
+  },
+  {
+   "name": "Protein",
+   "amount": 12.9,
+   "unit": "g"
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 14.5,
+   "unit": "g"
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 8.0,
+   "unit": "mg"
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "gramWeight": 8.0
+  },
+  {
+   "description": "oz",
+   "gramWeight": 28.35
+  }
+ ]
+}

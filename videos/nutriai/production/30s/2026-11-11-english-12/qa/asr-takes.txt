@@ -1,0 +1,14 @@
+T0.wav | 3 cups of popcorn, just 24 grams.
+    [('3', 0.0, 0.18), ('cups', 0.18, 0.36), ('of', 0.36, 0.54), ('popcorn,', 0.54, 0.9), ('just', 1.32, 1.54), ('24', 1.54, 1.84), ('grams.', 1.84, 2.32)]
+T1.wav | So how does a kernel get so big?
+    [('So', 0.0, 0.12), ('how', 0.12, 0.26), ('does', 0.26, 0.38), ('a', 0.38, 0.46), ('kernel', 0.46, 0.66), ('get', 0.66, 0.92), ('so', 0.92, 1.12), ('big?', 1.12, 1.36)]
+T2.wav | Inside, a drop of water turns to steam, bursts the hull, and puffs the starch into a light foam.
+    [('Inside,', 0.0, 0.38), ('a', 0.66, 0.76), ('drop', 0.76, 0.98), ('of', 0.98, 1.12), ('water', 1.12, 1.36), ('turns', 1.36, 1.76), ('to', 1.76, 1.9), ('steam,', 1.9, 2.24), ('bursts', 2.74, 2.96), ('the', 2.96, 3.28), ('hull,', 3.28, 3.44), ('and', 3.94, 3.96), ('puffs', 3.96, 4.3), ('the', 4.3, 4.42), ('starch', 4.42, 4.7), ('into', 4.7, 5.0), ('a', 5.0, 5.14), ('light', 5.14, 5.3), ('foam.', 5.3, 5.64)]
+T3.wav | So three cups air popped about 90 calories.
+    [('So', 0.0, 0.14), ('three', 0.14, 0.34), ('cups', 0.34, 0.62), ('air', 0.62, 0.96), ('popped', 0.96, 1.28), ('about', 1.28, 1.88), ('90', 1.88, 2.18), ('calories.', 2.18, 2.56)]
+T4.wav | Popped in oil 165, with a tablespoon of butter 265, a tablespoon of sugar over 300.
+    [('Popped', 0.0, 0.3), ('in', 0.3, 0.4), ('oil', 0.4, 0.6), ('165,', 0.6, 1.12), ('with', 2.18, 2.32), ('a', 2.32, 2.38), ('tablespoon', 2.38, 2.7), ('of', 2.7, 3.18), ('butter', 3.18, 3.52), ('265,', 3.52, 3.96), ('a', 5.1, 5.38), ('tablespoon', 5.38, 5.68), ('of', 5.68, 6.14), ('sugar', 6.14, 6.5), ('over', 6.5, 6.78), ('300.', 6.78, 7.14)]
+T5.wav | Same bowl, more than triple. Count the grams and the toppings, not the size.
+    [('Same', 0.0, 0.24), ('bowl,', 0.24, 0.52), ('more', 0.56, 0.96), ('than', 0.96, 1.08), ('triple.', 1.08, 1.32), ('Count', 2.12, 2.12), ('the', 2.12, 2.24), ('grams', 2.24, 2.5), ('and', 2.5, 2.8), ('the', 2.8, 2.88), ('toppings,', 2.88, 3.38), ('not', 3.38, 3.64), ('the', 3.64, 3.76), ('size.', 3.76, 4.02)]
+T6.wav | Track your food and nutrition with calmetre.
+    [('Track', 0.0, 0.16), ('your', 0.16, 0.36), ('food', 0.36, 0.64), ('and', 0.64, 1.0), ('nutrition', 1.0, 1.26), ('with', 1.26, 1.6), ('calmetre.', 1.6, 2.16)]

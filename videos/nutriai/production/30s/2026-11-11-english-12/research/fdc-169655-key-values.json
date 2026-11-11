@@ -1,0 +1,70 @@
+{
+ "fdcId": 169655,
+ "foodCode": null,
+ "ndbNumber": 19335,
+ "description": "Sugars, granulated",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 0.0,
+   "unit": "g"
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 1.0,
+   "unit": "mg"
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.0,
+   "unit": "g"
+  },
+  {
+   "name": "Energy",
+   "amount": 387,
+   "unit": "kcal"
+  },
+  {
+   "name": "Water",
+   "amount": 0.02,
+   "unit": "g"
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 99.8,
+   "unit": "g"
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 100,
+   "unit": "g"
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.0,
+   "unit": "g"
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "gramWeight": 200.0
+  },
+  {
+   "description": "serving 1 cube",
+   "gramWeight": 2.3
+  },
+  {
+   "description": "tsp",
+   "gramWeight": 4.2
+  },
+  {
+   "description": "serving packet",
+   "gramWeight": 2.8
+  }
+ ]
+}

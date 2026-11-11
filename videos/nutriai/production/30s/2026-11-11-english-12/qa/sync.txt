@@ -1,0 +1,22 @@
+Caption line appear time vs ASR word start on the export (faster-whisper base.en, VAD; qa/asr-final-mp4.txt)
+3 cups of popcorn:             caption   0.20s  word   0.00s  diff +0.20
+just 24 g                      caption   1.53s  word   1.54s  diff -0.01
+So how does a kernel           caption   2.97s  word   2.88s  diff +0.09
+get so big?                    caption   3.60s  word   3.60s  diff +0.00
+Inside, a drop of water        caption   4.93s  word   4.76s  diff +0.17
+turns to steam,                caption   6.10s  word   6.10s  diff +0.00
+bursts the hull,               caption   7.50s  word   7.48s  diff +0.02
+and puffs the starch           caption   8.70s  word   8.64s  diff +0.06
+into a light foam              caption   9.47s  word   9.48s  diff -0.01
+So 3 cups, air-popped:         caption  11.07s  word  11.12s  diff -0.05
+≈ 90 kcal                      caption  12.70s  word  12.78s  diff -0.08
+Popped in oil: ≈ 165 kcal      caption  14.17s  word  14.14s  diff +0.03
++ 1 tbsp butter: ≈ 265         caption  16.33s  word  16.24s  diff +0.09
++ 1 tbsp sugar:                caption  19.27s  word  19.38s  diff -0.11
+over 300                       caption  20.67s  word  20.64s  diff +0.03
+Same bowl,                     caption  22.27s  word  22.20s  diff +0.07
+more than triple:              caption  22.80s  word  22.74s  diff +0.06
+count grams + toppings,        caption  24.37s  word  24.30s  diff +0.07
+not the size                   caption  25.63s  word  25.64s  diff -0.01
+Track your food and nutrition  caption  27.10s  word  26.30s  diff +0.80  (segment-start drift; take placed at 27.10 s)
+with CalMeter                  caption  28.37s  word  28.36s  diff +0.01

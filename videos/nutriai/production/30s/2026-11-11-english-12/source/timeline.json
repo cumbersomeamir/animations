@@ -1,0 +1,327 @@
+{
+ "_doc": "CalMeter English 30 s english-12 (2026-11-11): popcorn: big bowl, small kernels. Story per context/25 (hook 0-3 s, super hook 3-5 s, mechanism + proof 5-22 s, payoff 22-27 s, CTA 27-30 s). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.2
+  },
+  {
+   "id": "T1",
+   "at": 2.95
+  },
+  {
+   "id": "T2",
+   "at": 4.75
+  },
+  {
+   "id": "T3",
+   "at": 11.05
+  },
+  {
+   "id": "T4",
+   "at": 14.15
+  },
+  {
+   "id": "T5",
+   "at": 22.25
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 4,
+   "out": 84,
+   "lines": [
+    [
+     "3 cups of popcorn:",
+     6
+    ],
+    [
+     "just 24 g",
+     46
+    ]
+   ]
+  },
+  {
+   "in": 87,
+   "out": 138,
+   "lines": [
+    [
+     "So how does a kernel",
+     89
+    ],
+    [
+     "get so big?",
+     108
+    ]
+   ]
+  },
+  {
+   "in": 141,
+   "out": 220,
+   "lines": [
+    [
+     "Inside, a drop of water",
+     148
+    ],
+    [
+     "turns to steam,",
+     183
+    ]
+   ]
+  },
+  {
+   "in": 222,
+   "out": 280,
+   "lines": [
+    [
+     "bursts the hull,",
+     225
+    ],
+    [
+     "and puffs the starch",
+     261
+    ]
+   ]
+  },
+  {
+   "in": 282,
+   "out": 328,
+   "lines": [
+    [
+     "into a light foam",
+     284
+    ]
+   ]
+  },
+  {
+   "in": 330,
+   "out": 418,
+   "lines": [
+    [
+     "So 3 cups, air-popped:",
+     332
+    ],
+    [
+     "≈ 90 kcal",
+     381
+    ]
+   ]
+  },
+  {
+   "in": 421,
+   "out": 572,
+   "lines": [
+    [
+     "Popped in oil: ≈ 165 kcal",
+     425
+    ],
+    [
+     "+ 1 tbsp butter: ≈ 265",
+     490
+    ]
+   ]
+  },
+  {
+   "in": 575,
+   "out": 662,
+   "lines": [
+    [
+     "+ 1 tbsp sugar:",
+     578
+    ],
+    [
+     "over 300",
+     620
+    ]
+   ]
+  },
+  {
+   "in": 665,
+   "out": 726,
+   "lines": [
+    [
+     "Same bowl,",
+     668
+    ],
+    [
+     "more than triple:",
+     684
+    ]
+   ]
+  },
+  {
+   "in": 729,
+   "out": 806,
+   "lines": [
+    [
+     "count grams + toppings,",
+     731
+    ],
+    [
+     "not the size",
+     769
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "burst1": -4,
+  "rain": 2,
+  "cups": 11,
+  "scale": 26,
+  "g24": 46,
+  "lift": 88,
+  "q": 108,
+  "burnish": 128,
+  "section": 130,
+  "water": 162,
+  "heat": 176,
+  "steam": 183,
+  "burst": 225,
+  "foam": 261,
+  "foamLbl": 284,
+  "dense": 300,
+  "burnish2": 324,
+  "bowl2": 328,
+  "kcal90": 384,
+  "oil": 425,
+  "oilDone": 452,
+  "butter": 490,
+  "butterDone": 532,
+  "sugar": 578,
+  "sugarDone": 615,
+  "over300": 620,
+  "burnish3": 660,
+  "pay": 662,
+  "triple": 684,
+  "grams": 731,
+  "notSize": 769,
+  "cta": 806,
+  "ctaWord": 813,
+  "heatLbl": 200
+ },
+ "sfx": [
+  {
+   "ev": "rain",
+   "type": "popping",
+   "dur": 1.5,
+   "gain": -21
+  },
+  {
+   "ev": "g24",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "lift",
+   "type": "tick",
+   "gain": -27
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -23
+  },
+  {
+   "ev": "water",
+   "type": "juice",
+   "gain": -26
+  },
+  {
+   "ev": "burst",
+   "type": "pop",
+   "gain": -15
+  },
+  {
+   "ev": "foam",
+   "type": "popping",
+   "dur": 0.6,
+   "gain": -25
+  },
+  {
+   "ev": "burnish2",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "kcal90",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "oil",
+   "type": "pour",
+   "dur": 0.7,
+   "gain": -27
+  },
+  {
+   "ev": "oilDone",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "butter",
+   "type": "pour",
+   "dur": 1.1,
+   "gain": -26
+  },
+  {
+   "ev": "butterDone",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "sugar",
+   "type": "sprinkle",
+   "dur": 1.0,
+   "gain": -24
+  },
+  {
+   "ev": "over300",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "burnish3",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "triple",
+   "type": "tick",
+   "gain": -23
+  },
+  {
+   "ev": "grams",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

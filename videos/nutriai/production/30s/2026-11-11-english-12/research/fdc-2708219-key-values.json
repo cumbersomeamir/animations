@@ -1,0 +1,69 @@
+{
+ "fdcId": 2708219,
+ "foodCode": "54403010",
+ "ndbNumber": null,
+ "description": "Popcorn, air-popped, no butter added",
+ "dataType": "Survey (FNDDS)",
+ "publicationDate": "10/31/2024",
+ "source": "FoodData_Central_survey_food_json_2024-10-31.zip (FNDDS 2021-2023, official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 12.9,
+   "unit": "g"
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 4.52,
+   "unit": "g"
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 77.5,
+   "unit": "g"
+  },
+  {
+   "name": "Energy",
+   "amount": 385,
+   "unit": "kcal"
+  },
+  {
+   "name": "Water",
+   "amount": 3.31,
+   "unit": "g"
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 14.4,
+   "unit": "g"
+  },
+  {
+   "name": "Sodium, Na",
+   "amount": 162,
+   "unit": "mg"
+  }
+ ],
+ "portions": [
+  {
+   "description": "1 kernel",
+   "gramWeight": 0.2
+  },
+  {
+   "description": "1 cup, popped",
+   "gramWeight": 8
+  },
+  {
+   "description": "Quantity not specified",
+   "gramWeight": 20
+  },
+  {
+   "description": "1 cup, unpopped, yields",
+   "gramWeight": 135
+  },
+  {
+   "description": "1 oz, unpopped, yields",
+   "gramWeight": 19
+  }
+ ]
+}
