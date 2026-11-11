@@ -48,5 +48,8 @@ Song titles, percentages and screens are fictional EXAMPLEs; the tune is origina
 5. 19.9–25.4 phone results: play #1 → "✕ not it"; play #2 → the hummed tune plays (after the narration) → "✓ that's it".
 6. 25.4–30 CTA: DOCKET waves; caption "Download the / [icon] Ideaverse app".
 
-## QA / status — IN PROGRESS
-- Pre-render mix ASR: all lines MATCH, no word outside captions.
+## QA / status — DELIVERED 2026-11-11
+- Output: production/30s/2026-11-09-english-11/ideaverse-30s-english11-01.mp4 · sha256 cab458f8…8b59 (QA.md in that folder).
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.5 dBTP.
+- English ASR on the final MP4: all six lines MATCH, no word outside its caption; captions SPEC PASS; top 300 px text-free.
+- Limitation: ASR-only listening check.
