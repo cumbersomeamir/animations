@@ -1,0 +1,99 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "An electric car just",
+   "broke 500 km/h."
+  ],
+  "in": 0.07,
+  "out": 3.5
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Why is 500 so hard?"
+  ],
+  "in": 3.52,
+  "out": 5.32
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Air. Drag grows",
+   "with speed squared."
+  ],
+  "in": 5.34,
+  "out": 7.68
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Power to beat it",
+   "grows with speed cubed."
+  ],
+  "in": 7.7,
+  "out": 10.08
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "400 to 500 km/h?",
+   "Nearly double the power."
+  ],
+  "in": 10.1,
+  "out": 13.35
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Its answer: four motors,",
+   "2.2 megawatts."
+  ],
+  "in": 13.37,
+  "out": 16.5
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "The catch is heat,"
+  ],
+  "in": 16.52,
+  "out": 17.675
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "so temperatures were set",
+   "before every run."
+  ],
+  "in": 17.695,
+  "out": 20.2
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "1% faster costs about",
+   "3% more power."
+  ],
+  "in": 20.22,
+  "out": 23.5
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "And it was one way,",
+   "not a two-way average."
+  ],
+  "in": 23.52,
+  "out": 26.2
+ },
+ {
+  "line": "V10",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.22,
+  "out": 29.723
+ }
+]

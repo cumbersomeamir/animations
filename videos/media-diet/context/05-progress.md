@@ -222,3 +222,14 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 ## Checkpoint 2026-11-11 — approved feedback rules persisted
 - New context/26-approved-feedback-rules-2026-11-11.md (from "Published apps → Satisfied?", read 11 Nov 2026); pointer added at the top of
   the rules in context/11. These rules supersede older caption/pacing notes. Next: research the newest verified "how can that work?" tech story.
+
+## Checkpoint 2026-11-11 — english-12 (topic + sources recorded; rendering)
+- Topic (selected after scanning 4–11 Nov 2026): BYD YANGWANG U9 Xtreme, 503.17 km/h single-direction run on 1 Nov 2026, FIA news
+  6 Nov 2026 + Guinness single-direction titles + BYD press release 6 Nov 2026. Status: record by a limited-production model (30 units),
+  customer cars at contract/production-planning stage. Sources/facts/calculations/assumptions: production/30s/2026-11-11-english-12/SOURCES.md;
+  record context/27-production-30s-english12-01.md; log row in context/11.
+- Narration 85 words / 26.5 s (approved Kokoro blend), every take heard exactly by Whisper; cues from pauses; word timestamps drive events.
+- New rules applied in code: captions auto-fit to x 100–900; one large label at a time at y ≈ 1330; bounds_check.py now enforces
+  x 100–900 / y 230–1500 for all text, no label in the caption band while a caption shows, one large label at a time.
+- Running: `build/render_chunks.sh 0 60 120 180 240` + `300 … 540` + `600 … 840` (three resumable workers); next
+  `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english12-01.png`, QA, commit MP4 + thumbnail.

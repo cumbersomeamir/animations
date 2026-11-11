@@ -1,0 +1,228 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "An electric car just broke five hundred kilometers an hour.",
+   "cues": [
+    [
+     "An electric car just",
+     "broke 500 km/h."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.6,
+   "say": "Why is five hundred so hard?",
+   "cues": [
+    [
+     "Why is 500 so hard?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.42,
+   "say": "Air. Drag grows with speed squared.",
+   "cues": [
+    [
+     "Air. Drag grows",
+     "with speed squared."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 7.78,
+   "say": "Power to beat it grows with speed cubed.",
+   "cues": [
+    [
+     "Power to beat it",
+     "grows with speed cubed."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 10.18,
+   "say": "Four hundred to five hundred? Nearly double the power.",
+   "cues": [
+    [
+     "400 to 500 km/h?",
+     "Nearly double the power."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 13.45,
+   "say": "Its answer: four motors, two point two megawatts.",
+   "cues": [
+    [
+     "Its answer: four motors,",
+     "2.2 megawatts."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 16.6,
+   "say": "The catch is heat, so temperatures were set before every run.",
+   "cues": [
+    [
+     "The catch is heat,"
+    ],
+    [
+     "so temperatures were set",
+     "before every run."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 20.3,
+   "say": "One percent faster costs about three percent more power.",
+   "cues": [
+    [
+     "1% faster costs about",
+     "3% more power."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 23.6,
+   "say": "And it was one way, not a two-way average.",
+   "cues": [
+    [
+     "And it was one way,",
+     "not a two-way average."
+    ]
+   ]
+  },
+  {
+   "id": "V10",
+   "start": 26.3,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.5,
+   "beat": "hook: paper reconstruction of the record car at speed, 503.17 km/h readout"
+  },
+  {
+   "id": "S2",
+   "in": 3.5,
+   "out": 5.3,
+   "beat": "super hook: speedometer needle strains at the 500 mark"
+  },
+  {
+   "id": "S3",
+   "in": 5.3,
+   "out": 7.62,
+   "beat": "mechanism: oncoming air over the car, drag arrow grows with speed squared"
+  },
+  {
+   "id": "S4",
+   "in": 7.62,
+   "out": 10.05,
+   "beat": "mechanism: square of blocks (drag) stacked by speed = cube (power)"
+  },
+  {
+   "id": "S5",
+   "in": 10.05,
+   "out": 13.35,
+   "beat": "proof (calculation): 4x4x4 = 64 vs 5x5x5 = 125 -> x1.95"
+  },
+  {
+   "id": "S6",
+   "in": 13.35,
+   "out": 16.5,
+   "beat": "the car's answer: cutaway, four motors light up, 4 x 555 kW = 2.2 MW"
+  },
+  {
+   "id": "S7",
+   "in": 16.5,
+   "out": 20.15,
+   "beat": "constraint: battery heat; temperatures set before each run"
+  },
+  {
+   "id": "S8",
+   "in": 20.15,
+   "out": 23.5,
+   "beat": "takeaway: +1% on each edge of the cube = three thin slabs = +3% power"
+  },
+  {
+   "id": "S9",
+   "in": 23.5,
+   "out": 26.2,
+   "beat": "fine print: one direction, no return run / two-way average"
+  },
+  {
+   "id": "S10",
+   "in": 26.2,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "readout": 0.35,
+  "fia": 1.9,
+  "needle": 3.6,
+  "crawl": 4.1,
+  "air": 5.4,
+  "drag": 6.0,
+  "labV2": 6.95,
+  "sq": 7.7,
+  "ext": 8.6,
+  "labV3": 9.35,
+  "c4": 10.15,
+  "c5": 10.95,
+  "lab195": 12.08,
+  "m1": 13.7,
+  "labKW": 14.37,
+  "labMW": 15.2,
+  "heat": 17.05,
+  "labHeat": 17.28,
+  "cool": 17.95,
+  "ideal": 18.84,
+  "labP1": 20.3,
+  "s1": 21.82,
+  "s2": 22.07,
+  "s3": 22.32,
+  "labP3": 22.62,
+  "one": 23.95,
+  "ghost": 24.8,
+  "sign": 26.3
+ }
+}

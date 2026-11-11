@@ -1,0 +1,17 @@
+{
+  "name": "media-diet-30s-english12-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 30 s English explainer: why is 500 km/h so hard? (BYD YANGWANG U9 Xtreme, 503.17 km/h, FIA-recognised, Nov 2026)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7"
+  }
+}

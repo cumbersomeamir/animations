@@ -1,0 +1,62 @@
+[
+ {
+  "id": "V1",
+  "say": "An electric car just broke five hundred kilometers an hour.",
+  "duration": 3.185,
+  "words": 10
+ },
+ {
+  "id": "V2",
+  "say": "Why is five hundred so hard?",
+  "duration": 1.53,
+  "words": 6
+ },
+ {
+  "id": "V3",
+  "say": "Air. Drag grows with speed squared.",
+  "duration": 2.063,
+  "words": 6
+ },
+ {
+  "id": "V4",
+  "say": "Power to beat it grows with speed cubed.",
+  "duration": 2.097,
+  "words": 8
+ },
+ {
+  "id": "V5",
+  "say": "Four hundred to five hundred? Nearly double the power.",
+  "duration": 2.97,
+  "words": 9
+ },
+ {
+  "id": "V6",
+  "say": "Its answer: four motors, two point two megawatts.",
+  "duration": 2.831,
+  "words": 8
+ },
+ {
+  "id": "V7",
+  "say": "The catch is heat, so temperatures were set before every run.",
+  "duration": 3.337,
+  "words": 11
+ },
+ {
+  "id": "V8",
+  "say": "One percent faster costs about three percent more power.",
+  "duration": 2.942,
+  "words": 9
+ },
+ {
+  "id": "V9",
+  "say": "And it was one way, not a two-way average.",
+  "duration": 2.394,
+  "words": 9
+ },
+ {
+  "id": "V10",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]
