@@ -218,3 +218,7 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - production/45s/2026-11-10-bean/media-diet-bean-45s-01.mp4 (SHA-256 a7a31eaeefb6a15e513c74889b69925e26f4d9fc8303d876d70ecdc407e532f4); record context/25.
 - Checks: 1350 frames, 45.000 s, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −1.9 dBTP; captions y 378–488,
   0 violations; caption↔speech 18/18; Whisper-medium word recall 1.0 full / 1.0 per line. Earlier episodes untouched. No social publishing.
+
+## Checkpoint 2026-11-11 — approved feedback rules persisted
+- New context/26-approved-feedback-rules-2026-11-11.md (from "Published apps → Satisfied?", read 11 Nov 2026); pointer added at the top of
+  the rules in context/11. These rules supersede older caption/pacing notes. Next: research the newest verified "how can that work?" tech story.

@@ -115,6 +115,11 @@ H.264 High yuv420p 1080×1920 30/1 fps, AAC-LC 48 kHz stereo 192 kb/s, exactly 3
 | english11-01 | production/30s/2026-11-09-english-11/ | English news episode: Instagram's teen-detection AI goes global — suspected teens moved into Teen Account protections even with an adult birthday; Facebook rolling out, Threads later this year (Meta, 9 Nov 2026) | delivered (context/24-production-30s-english11-01.md) |
 | bean45-01 | production/45s/2026-11-10-bean/ | Special 45 s physics explainer (user's Chicago Bean event, Sun 8 Nov 2026): how many people would move the Bean seven inches — real footage opening, imaginary loose-Bean model (μs 0.5, 300 N assumed) ≈ 1,600, real answer needs anchor strength | delivered (context/25-production-45s-bean-01.md) |
 
+## APPROVED FEEDBACK RULES (11 Nov 2026) — supersede conflicting rules below
+See context/26-approved-feedback-rules-2026-11-11.md (Theory of Marketing structure, 0–3/3–5/5–21/21–27/27–30 s pacing, separate
+2–4-word thumbnail, captions within x 100–900 / y 230–1500, one visual idea at a time, sequential diagrams, verified sources in notes,
+announcement vs prototype vs shipped, Bean-episode quality benchmark).
+
 ## FORMAT UPGRADE (feedback round, 2026-11-02) — supersedes conflicting rules above
 User feedback: the flat Visual Investigation card look was judged too weak/flat. From this round on, every new Media Diet
 30 s episode uses the **"Layered Tech Cutaway"** style recipe below. Earlier sections stay valid only where they do not
