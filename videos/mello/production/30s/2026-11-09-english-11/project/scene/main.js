@@ -629,7 +629,8 @@ const SHOTS = [
   { a: S.s4, b: S.s5, k0: [V(-0.2, 1.35, 0.3), 70, 18, 3.6, 30], k1: [V(-0.22, 1.35, 0.3), 62, 17, 3.45, 30] },
   // S5 the nightstand (same framing as the opening, now with the book), then pull back: reading on the bed, the phone
   // charging on the desk in the foreground
-  { a: S.s5, b: S.end, m: [T.liftA - 0.2, 27.0], ease: 'sine', k0: [V(-1.35, 1.02, -0.55), 66, 16, 3.0, 30], k1: [V(-0.95, 1.28, -0.25), 60, 18, 5.2, 30] },
+  { a: S.s5, b: S.end, m: [T.liftA - 0.2, 27.0], ease: 'sine', k0: [V(-1.35, 1.02, -0.55), 66, 16, 3.0, 30], k1: [V(-0.95, 1.28, -0.25), 60, 18, 5.2, 30],
+    k2: [V(-0.97, 1.27, -0.27), 63, 17, 4.85, 30] },   // a slow drift under the lock-up so the last seconds keep moving
 ];
 window.__SHOTS = SHOTS;
 

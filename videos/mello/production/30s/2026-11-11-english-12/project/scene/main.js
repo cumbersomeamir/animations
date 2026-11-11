@@ -619,7 +619,8 @@ const SHOTS = [
   // S4 front-left: the sleep-lab card; then the camera settles down to the performer as the loop hangs by the lamp
   { a: S.s4, b: S.s5, m: [TL.qual.start - 0.4, TL.qual.start + 0.9], ease: 'sine', k0: [V(-2.33, 1.6, -0.56), 108, 11, 3.45, 30], kp: [V(-2.33, 1.6, -0.56), 113, 11, 3.32, 30], k1: [V(-1.7, 1.12, -0.62), 112, 12, 2.7, 30] },
   // S5 front-right, lower and closer: writing on the lap, the plan on the note card; then a slow pull back to the room
-  { a: S.s5, b: S.end, m: [T.closeB - 0.2, 27.4], ease: 'sine', k0: [V(-1.6, 1.3, -0.42), 58, 8, 2.6, 30], k1: [V(-1.45, 1.3, -0.45), 66, 13, 3.9, 30] },
+  { a: S.s5, b: S.end, m: [T.closeB - 0.2, 27.4], ease: 'sine', k0: [V(-1.6, 1.3, -0.42), 58, 8, 2.6, 30], k1: [V(-1.45, 1.3, -0.45), 66, 13, 3.9, 30],
+    k2: [V(-1.47, 1.29, -0.46), 70, 13.5, 3.6, 30] },   // a slow drift under the lock-up so the last seconds keep moving
 ];
 window.__SHOTS = SHOTS;
 

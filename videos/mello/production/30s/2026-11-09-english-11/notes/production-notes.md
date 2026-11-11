@@ -23,6 +23,10 @@ The source is a copy of `../2026-11-09-english-10/project/`. Reused unchanged:
 5. S5 opens with the same framing as S1 (bookend), so the book visibly replaces the phone; the head stays below the caption band.
 6. "the easy reach" and "across the room" labels resized and moved inside the margins.
 7. Pre-render audit: 300 samples, 0 issues.
+8. Render 1 failed one QA check, `moving_every_second`: after the S5 pull-back ended at 27.0 s, seconds 27–30 were almost static (mean frame difference 0.005–0.012).
+   - Fix: a slow camera drift (`k2`) under the lock-up from 27.0 s to the end.
+   - A tail-only re-render spliced onto render 1 gave non-monotonic timestamps at the join, so it was discarded.
+   - The final file is a clean full render 2. Render 1 outputs were kept out of the repo.
 
 ## Commands
 ```bash
