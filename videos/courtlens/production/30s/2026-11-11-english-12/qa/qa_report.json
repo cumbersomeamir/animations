@@ -1,0 +1,119 @@
+{
+  "spec": {
+    "format_duration": 30.0,
+    "size_bytes": 19964448,
+    "video": {
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "nb_read_frames": "900",
+      "duration": "30.000000",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "48000",
+      "channels": 2,
+      "duration": "30.000000"
+    },
+    "pass": true
+  },
+  "full_decode": {
+    "returncode": 0,
+    "errors": "",
+    "pass": true
+  },
+  "loudness": {
+    "integrated_lufs": -15.9,
+    "lra_lu": 2.2,
+    "true_peak_dbfs": -2.5
+  },
+  "narration_timing": [
+    {
+      "id": "l1",
+      "planned_start": 0.3,
+      "measured_start": 0.303,
+      "offset_ms": 3.0,
+      "end": 1.492,
+      "similarity": 0.964
+    },
+    {
+      "id": "l2",
+      "planned_start": 2.9,
+      "measured_start": 2.903,
+      "offset_ms": 3.0,
+      "end": 4.912,
+      "similarity": 0.973
+    },
+    {
+      "id": "l3",
+      "planned_start": 5.3,
+      "measured_start": 5.303,
+      "offset_ms": 3.0,
+      "end": 8.21,
+      "similarity": 0.953
+    },
+    {
+      "id": "l4",
+      "planned_start": 8.6,
+      "measured_start": 8.603,
+      "offset_ms": 3.0,
+      "end": 12.699,
+      "similarity": 0.964
+    },
+    {
+      "id": "l5",
+      "planned_start": 13.1,
+      "measured_start": 13.103,
+      "offset_ms": 3.0,
+      "end": 15.762,
+      "similarity": 0.974
+    },
+    {
+      "id": "l6",
+      "planned_start": 16.2,
+      "measured_start": 16.203,
+      "offset_ms": 3.0,
+      "end": 20.666,
+      "similarity": 0.955
+    },
+    {
+      "id": "l7",
+      "planned_start": 21.2,
+      "measured_start": 21.203,
+      "offset_ms": 3.0,
+      "end": 26.265,
+      "similarity": 0.968
+    },
+    {
+      "id": "l8",
+      "planned_start": 26.95,
+      "measured_start": 26.953,
+      "offset_ms": 3.0,
+      "end": 29.901,
+      "similarity": 0.95
+    }
+  ],
+  "narration_pass": true,
+  "cta": {
+    "starts": 26.953,
+    "ends": 29.901,
+    "final_seconds_window": 3.05,
+    "pass": true
+  },
+  "captions": {
+    "count": 10,
+    "non_overlapping": true
+  },
+  "top_safe_zone": {
+    "frames_checked": 180,
+    "darkest_pixel": 204,
+    "pass": true
+  },
+  "all_pass": true
+}

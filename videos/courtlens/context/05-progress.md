@@ -12,8 +12,9 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - The checkpointed english-11 render was finished first: it was re-rendered after a worker restart killed it at
   592/900 frames, then QA'd, pushed (04e1f5e) and attached.
 - New approved feedback rules are persisted in `context/09-feedback-rules-2026-11-11.md` (5ad84ce); 08 points to them.
-- IN PROGRESS: full render of `production/30s/2026-11-11-english-12/courtlens-30s-english12-01.mp4`. The thumbnail
-  `courtlens-30s-english12-01-thumbnail.png` is rendered.
+- DELIVERED: `production/30s/2026-11-11-english-12/courtlens-30s-english12-01.mp4`
+  (sha256 fbedfed53307a8741b8aafd51a87f252006c6bc836699be0ea6f12af8663c6d2) and the thumbnail
+  `courtlens-30s-english12-01-thumbnail.png` (sha256 250436d7efbb611fc7a68844206b79fef7684557272f7524652c86daef6c965b).
 - Episode record: `context/episodes/2026-11-11-english12-landlord-entry-tn.md`.
 
 ### Verified facts
@@ -60,9 +61,26 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - The thumbnail's key floated beside a barely open door; the door is now half-open with warm light and a large
   foreground key.
 - The "Agreed reason" label was shrinking; it now has more width.
+- Frame review of the first full render: the push-through zoom crossed the caption/chip, and the room panel had hard
+  edges. Both were fixed and the episode was re-rendered in full. The superseded render was not committed.
+
+### Verification
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −15.9 LUFS / −2.5 dBTP.
+- Narration 8/8 at +3 ms; CTA 26.95–29.90 s (final 3.05 s); y<300 clear.
+- 10 captions, ≤2 lines, centred inside x 100..900.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in
+  caption windows.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-11-english-12/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- The commencement of TN Act 19 of 2022 (electronic notice) is unconfirmed.
+- Official TN hosts were unreachable (Gazette reproduction used).
 
 ### Next
-Run QA and the ASR check on the final MP4, review frames, commit, push, and attach the MP4 and thumbnail.
+Await review. No further episode or automation unless asked.
 
 ## Round 2026-11-09 (english-11): English episode 11, can a landlord cut the power to force you out? (Tamil Nadu)
 
