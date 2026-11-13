@@ -1,0 +1,11 @@
+{
+  "integrated_lufs": -16.0,
+  "true_peak_dbtp": -1.5,
+  "sample_peak": 0.8367,
+  "limited_samples": 3726,
+  "voice_stem_lufs": -15.4,
+  "bed_stem_lufs": -28.7,
+  "voice_minus_bed_db": 13.3,
+  "music_duck_db": -8,
+  "master_gain_db": 1.2
+}

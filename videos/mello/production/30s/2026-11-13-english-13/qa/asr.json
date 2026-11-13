@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Try not to picture a pink elephant. Too late. Why does fighting a thought bring it back? In one study, people told to avoid a white bear kept ringing a bell for it. One theory: a part of your mind keeps checking for it. Afterwards, it tended to return more: a small, repeated effect. So what actually helps? Don't fight it. Notice it, then give your mind one specific job. Take a mindful break with Mello.",
+  "transcript": "Try not to picture a pink elephant. Too late. Why does fighting a thought bring it back? In one study, people told to avoid a white bear kept ringing a bell for it. One theory, a part of your mind keeps checking for it. Afterwards, it tended to return more, a small, repeated effect. So what actually helps? Don't fight it. Notice it, then give your mind one specific job. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 2.124,
+      "text": "Try not to picture a pink elephant.",
+      "cer": 0.0
+    },
+    {
+      "id": "super",
+      "start": 2.6,
+      "end": 5.039,
+      "text": "Too late. Why does fighting a thought bring it back?",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 5.55,
+      "end": 9.99,
+      "text": "In one study, people told to avoid a white bear kept ringing a bell for it.",
+      "cer": 0.0
+    },
+    {
+      "id": "mech",
+      "start": 10.55,
+      "end": 13.512,
+      "text": "One theory, a part of your mind keeps checking for it.",
+      "cer": 0.0
+    },
+    {
+      "id": "rebound",
+      "start": 14.05,
+      "end": 17.9,
+      "text": "Afterwards, it tended to return more, a small, repeated effect.",
+      "cer": 0.0
+    },
+    {
+      "id": "bridge",
+      "start": 18.55,
+      "end": 19.713,
+      "text": "So what actually helps?",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 20.4,
+      "end": 24.185,
+      "text": "Don't fight it. Notice it, then give your mind one specific job.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.8,
+      "end": 28.52,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

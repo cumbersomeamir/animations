@@ -1,0 +1,11481 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    555,
+    797,
+    865,
+    1107
+   ],
+   "desk": [
+    -61,
+    1379,
+    2158,
+    2205
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    555,
+    796,
+    866,
+    1107
+   ],
+   "desk": [
+    -62,
+    1380,
+    2161,
+    2206
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    556,
+    795,
+    867,
+    1107
+   ],
+   "desk": [
+    -63,
+    1381,
+    2163,
+    2208
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    556,
+    794,
+    869,
+    1107
+   ],
+   "desk": [
+    -64,
+    1382,
+    2166,
+    2210
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    557,
+    794,
+    870,
+    1107
+   ],
+   "desk": [
+    -65,
+    1384,
+    2170,
+    2212
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    558,
+    794,
+    871,
+    1108
+   ],
+   "desk": [
+    -66,
+    1386,
+    2174,
+    2214
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    558,
+    794,
+    872,
+    1109
+   ],
+   "desk": [
+    -68,
+    1388,
+    2179,
+    2217
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    559,
+    795,
+    874,
+    1110
+   ],
+   "desk": [
+    -70,
+    1390,
+    2184,
+    2220
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    559,
+    795,
+    876,
+    1111
+   ],
+   "desk": [
+    -72,
+    1393,
+    2190,
+    2223
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    560,
+    796,
+    877,
+    1113
+   ],
+   "desk": [
+    -74,
+    1395,
+    2196,
+    2227
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    561,
+    797,
+    879,
+    1115
+   ],
+   "desk": [
+    -76,
+    1398,
+    2203,
+    2231
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    562,
+    797,
+    881,
+    1117
+   ],
+   "desk": [
+    -78,
+    1402,
+    2211,
+    2235
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    563,
+    798,
+    883,
+    1119
+   ],
+   "desk": [
+    -80,
+    1405,
+    2218,
+    2239
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    564,
+    799,
+    886,
+    1120
+   ],
+   "desk": [
+    -83,
+    1408,
+    2226,
+    2243
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    565,
+    799,
+    888,
+    1122
+   ],
+   "desk": [
+    -85,
+    1411,
+    2233,
+    2247
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    566,
+    800,
+    890,
+    1124
+   ],
+   "desk": [
+    -87,
+    1415,
+    2241,
+    2252
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    567,
+    799,
+    891,
+    1123
+   ],
+   "desk": [
+    -89,
+    1418,
+    2248,
+    2256
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    556,
+    772,
+    878,
+    1094
+   ],
+   "desk": [
+    -91,
+    1421,
+    2255,
+    2260
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    538,
+    735,
+    853,
+    1051
+   ],
+   "desk": [
+    -93,
+    1424,
+    2262,
+    2263
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    528,
+    719,
+    840,
+    1032
+   ],
+   "desk": [
+    -95,
+    1426,
+    2268,
+    2267
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    529,
+    719,
+    842,
+    1032
+   ],
+   "desk": [
+    -97,
+    1429,
+    2274,
+    2270
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    531,
+    721,
+    844,
+    1034
+   ],
+   "desk": [
+    -98,
+    1431,
+    2278,
+    2273
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    533,
+    722,
+    847,
+    1036
+   ],
+   "desk": [
+    -100,
+    1433,
+    2283,
+    2275
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    535,
+    725,
+    850,
+    1040
+   ],
+   "desk": [
+    -101,
+    1434,
+    2287,
+    2277
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    538,
+    727,
+    854,
+    1043
+   ],
+   "desk": [
+    -102,
+    1436,
+    2290,
+    2279
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    223,
+    340,
+    777,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    541,
+    731,
+    858,
+    1047
+   ],
+   "desk": [
+    -102,
+    1437,
+    2293,
+    2281
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 1
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    471,
+    763,
+    789,
+    1080
+   ],
+   "desk": [
+    -948,
+    1440,
+    1433,
+    2312
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    351,
+    380,
+    649,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    469,
+    765,
+    787,
+    1083
+   ],
+   "desk": [
+    -949,
+    1441,
+    1433,
+    2313
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    349,
+    379,
+    651,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    466,
+    767,
+    785,
+    1085
+   ],
+   "desk": [
+    -951,
+    1441,
+    1434,
+    2314
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    349,
+    379,
+    651,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    465,
+    768,
+    784,
+    1087
+   ],
+   "desk": [
+    -952,
+    1442,
+    1435,
+    2316
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    349,
+    379,
+    651,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    464,
+    768,
+    784,
+    1087
+   ],
+   "desk": [
+    -954,
+    1443,
+    1436,
+    2317
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    349,
+    379,
+    651,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    456,
+    775,
+    777,
+    1096
+   ],
+   "desk": [
+    -956,
+    1444,
+    1438,
+    2318
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    349,
+    379,
+    651,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    427,
+    805,
+    754,
+    1133
+   ],
+   "desk": [
+    -959,
+    1445,
+    1439,
+    2320
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    407,
+    832,
+    739,
+    1164
+   ],
+   "desk": [
+    -961,
+    1446,
+    1440,
+    2322
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    405,
+    833,
+    737,
+    1166
+   ],
+   "desk": [
+    -964,
+    1448,
+    1442,
+    2324
+   ],
+   "caption": [
+    102,
+    340,
+    898,
+    520
+   ],
+   "captionText": [
+    105,
+    351,
+    895,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    404,
+    832,
+    738,
+    1166
+   ],
+   "desk": [
+    -967,
+    1449,
+    1444,
+    2327
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    405,
+    832,
+    740,
+    1166
+   ],
+   "desk": [
+    -970,
+    1451,
+    1446,
+    2329
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    408,
+    831,
+    743,
+    1166
+   ],
+   "desk": [
+    -974,
+    1453,
+    1448,
+    2332
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    411,
+    830,
+    747,
+    1166
+   ],
+   "desk": [
+    -977,
+    1455,
+    1450,
+    2334
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    413,
+    829,
+    750,
+    1166
+   ],
+   "desk": [
+    -981,
+    1456,
+    1452,
+    2337
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    415,
+    828,
+    752,
+    1166
+   ],
+   "desk": [
+    -985,
+    1458,
+    1454,
+    2340
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    414,
+    827,
+    752,
+    1165
+   ],
+   "desk": [
+    -988,
+    1460,
+    1456,
+    2342
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    414,
+    824,
+    752,
+    1163
+   ],
+   "desk": [
+    -992,
+    1462,
+    1458,
+    2345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    427,
+    796,
+    762,
+    1131
+   ],
+   "desk": [
+    -995,
+    1464,
+    1460,
+    2348
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    452,
+    759,
+    780,
+    1087
+   ],
+   "desk": [
+    -999,
+    1466,
+    1462,
+    2350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    465,
+    742,
+    789,
+    1066
+   ],
+   "desk": [
+    -1002,
+    1467,
+    1464,
+    2353
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    464,
+    740,
+    789,
+    1064
+   ],
+   "desk": [
+    -1005,
+    1469,
+    1465,
+    2355
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    462,
+    739,
+    787,
+    1063
+   ],
+   "desk": [
+    -1008,
+    1470,
+    1467,
+    2357
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    461,
+    738,
+    786,
+    1063
+   ],
+   "desk": [
+    -1010,
+    1472,
+    1468,
+    2359
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    460,
+    737,
+    785,
+    1062
+   ],
+   "desk": [
+    -1013,
+    1473,
+    1469,
+    2360
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    459,
+    736,
+    785,
+    1062
+   ],
+   "desk": [
+    -1015,
+    1474,
+    1471,
+    2362
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    458,
+    736,
+    784,
+    1062
+   ],
+   "desk": [
+    -1016,
+    1475,
+    1471,
+    2363
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    457,
+    735,
+    783,
+    1062
+   ],
+   "desk": [
+    -1018,
+    1476,
+    1472,
+    2364
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    456,
+    735,
+    783,
+    1062
+   ],
+   "desk": [
+    -1019,
+    1477,
+    1473,
+    2365
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -140,
+    1185,
+    90,
+    1415
+   ],
+   "desk": [
+    -987,
+    1762,
+    696,
+    2120
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    351,
+    897,
+    509
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -140,
+    1186,
+    89,
+    1415
+   ],
+   "desk": [
+    -987,
+    1762,
+    696,
+    2121
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -140,
+    1186,
+    89,
+    1416
+   ],
+   "desk": [
+    -987,
+    1763,
+    697,
+    2122
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    271,
+    380,
+    729,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1232
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -141,
+    1187,
+    89,
+    1417
+   ],
+   "desk": [
+    -987,
+    1763,
+    698,
+    2123
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -141,
+    1188,
+    88,
+    1418
+   ],
+   "desk": [
+    -988,
+    1763,
+    699,
+    2124
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -142,
+    1189,
+    88,
+    1419
+   ],
+   "desk": [
+    -988,
+    1763,
+    700,
+    2125
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -142,
+    1190,
+    88,
+    1420
+   ],
+   "desk": [
+    -988,
+    1764,
+    701,
+    2126
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -143,
+    1191,
+    87,
+    1421
+   ],
+   "desk": [
+    -989,
+    1764,
+    702,
+    2127
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -144,
+    1192,
+    87,
+    1422
+   ],
+   "desk": [
+    -989,
+    1764,
+    703,
+    2128
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -144,
+    1193,
+    86,
+    1424
+   ],
+   "desk": [
+    -989,
+    1764,
+    704,
+    2130
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     684,
+     909,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -145,
+    1194,
+    86,
+    1425
+   ],
+   "desk": [
+    -990,
+    1765,
+    705,
+    2131
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     684,
+     909,
+     1233
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -146,
+    1195,
+    85,
+    1427
+   ],
+   "desk": [
+    -990,
+    1765,
+    706,
+    2133
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    269,
+    379,
+    731,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -147,
+    1197,
+    85,
+    1428
+   ],
+   "desk": [
+    -991,
+    1766,
+    708,
+    2134
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -148,
+    1198,
+    84,
+    1429
+   ],
+   "desk": [
+    -991,
+    1766,
+    709,
+    2136
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    107,
+    363,
+    893,
+    497
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -149,
+    1199,
+    83,
+    1431
+   ],
+   "desk": [
+    -991,
+    1767,
+    711,
+    2138
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    103,
+    362,
+    897,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -150,
+    1200,
+    83,
+    1432
+   ],
+   "desk": [
+    -992,
+    1767,
+    712,
+    2140
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -151,
+    1201,
+    82,
+    1434
+   ],
+   "desk": [
+    -992,
+    1768,
+    714,
+    2142
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     682,
+     910,
+     1234
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -152,
+    1202,
+    81,
+    1435
+   ],
+   "desk": [
+    -993,
+    1768,
+    716,
+    2144
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     682,
+     910,
+     1235
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -153,
+    1203,
+    80,
+    1436
+   ],
+   "desk": [
+    -994,
+    1769,
+    718,
+    2146
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -154,
+    1204,
+    79,
+    1437
+   ],
+   "desk": [
+    -994,
+    1769,
+    720,
+    2148
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -155,
+    1205,
+    79,
+    1438
+   ],
+   "desk": [
+    -995,
+    1770,
+    722,
+    2151
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -156,
+    1205,
+    78,
+    1439
+   ],
+   "desk": [
+    -995,
+    1770,
+    724,
+    2153
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1235
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -158,
+    1206,
+    77,
+    1440
+   ],
+   "desk": [
+    -996,
+    1771,
+    726,
+    2156
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -159,
+    1206,
+    76,
+    1441
+   ],
+   "desk": [
+    -996,
+    1772,
+    728,
+    2158
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -160,
+    1207,
+    75,
+    1442
+   ],
+   "desk": [
+    -997,
+    1772,
+    730,
+    2161
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -161,
+    1207,
+    74,
+    1442
+   ],
+   "desk": [
+    -998,
+    1773,
+    732,
+    2163
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     681,
+     913,
+     1236
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -162,
+    1207,
+    73,
+    1443
+   ],
+   "desk": [
+    -998,
+    1773,
+    734,
+    2166
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     680,
+     913,
+     1237
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -164,
+    1207,
+    72,
+    1443
+   ],
+   "desk": [
+    -999,
+    1774,
+    736,
+    2168
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     680,
+     913,
+     1237
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -165,
+    1207,
+    71,
+    1443
+   ],
+   "desk": [
+    -999,
+    1775,
+    739,
+    2171
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     680,
+     914,
+     1237
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -166,
+    1207,
+    71,
+    1444
+   ],
+   "desk": [
+    -1000,
+    1775,
+    741,
+    2173
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     680,
+     914,
+     1237
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -167,
+    1207,
+    70,
+    1444
+   ],
+   "desk": [
+    -1000,
+    1776,
+    743,
+    2176
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     679,
+     914,
+     1237
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -169,
+    1207,
+    69,
+    1444
+   ],
+   "desk": [
+    -1001,
+    1776,
+    745,
+    2178
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -170,
+    1207,
+    68,
+    1445
+   ],
+   "desk": [
+    -1001,
+    1777,
+    747,
+    2181
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -171,
+    1207,
+    67,
+    1445
+   ],
+   "desk": [
+    -1002,
+    1778,
+    749,
+    2183
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -172,
+    1207,
+    67,
+    1445
+   ],
+   "desk": [
+    -1002,
+    1778,
+    750,
+    2185
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -173,
+    1207,
+    66,
+    1445
+   ],
+   "desk": [
+    -1003,
+    1779,
+    752,
+    2187
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1238
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -174,
+    1207,
+    65,
+    1446
+   ],
+   "desk": [
+    -1003,
+    1779,
+    754,
+    2189
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -175,
+    1207,
+    65,
+    1446
+   ],
+   "desk": [
+    -1003,
+    1780,
+    755,
+    2191
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -175,
+    1207,
+    64,
+    1446
+   ],
+   "desk": [
+    -1004,
+    1780,
+    757,
+    2193
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -176,
+    1207,
+    63,
+    1447
+   ],
+   "desk": [
+    -1004,
+    1780,
+    758,
+    2195
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -177,
+    1207,
+    63,
+    1447
+   ],
+   "desk": [
+    -1004,
+    1781,
+    760,
+    2197
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     678,
+     917,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -178,
+    1208,
+    62,
+    1448
+   ],
+   "desk": [
+    -1005,
+    1781,
+    761,
+    2198
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -178,
+    1208,
+    62,
+    1448
+   ],
+   "desk": [
+    -1005,
+    1782,
+    762,
+    2200
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1239
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -179,
+    1209,
+    62,
+    1449
+   ],
+   "desk": [
+    -1005,
+    1782,
+    763,
+    2201
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -179,
+    1209,
+    61,
+    1450
+   ],
+   "desk": [
+    -1005,
+    1782,
+    765,
+    2202
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -180,
+    1210,
+    61,
+    1451
+   ],
+   "desk": [
+    -1006,
+    1783,
+    765,
+    2204
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -180,
+    1211,
+    61,
+    1451
+   ],
+   "desk": [
+    -1006,
+    1783,
+    766,
+    2205
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -181,
+    1211,
+    60,
+    1452
+   ],
+   "desk": [
+    -1006,
+    1783,
+    767,
+    2206
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -181,
+    1212,
+    60,
+    1453
+   ],
+   "desk": [
+    -1006,
+    1783,
+    768,
+    2207
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    -181,
+    1213,
+    60,
+    1454
+   ],
+   "desk": [
+    -1006,
+    1784,
+    769,
+    2208
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    675,
+    988,
+    928,
+    1240
+   ],
+   "desk": [
+    302,
+    1158,
+    1588,
+    1564
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    362,
+    898,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    676,
+    988,
+    929,
+    1241
+   ],
+   "desk": [
+    302,
+    1158,
+    1588,
+    1564
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    677,
+    989,
+    930,
+    1242
+   ],
+   "desk": [
+    303,
+    1158,
+    1589,
+    1564
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    290,
+    380,
+    710,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    678,
+    989,
+    931,
+    1242
+   ],
+   "desk": [
+    303,
+    1158,
+    1589,
+    1563
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    679,
+    990,
+    933,
+    1243
+   ],
+   "desk": [
+    303,
+    1158,
+    1590,
+    1563
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    681,
+    990,
+    934,
+    1244
+   ],
+   "desk": [
+    304,
+    1158,
+    1590,
+    1563
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    682,
+    991,
+    936,
+    1244
+   ],
+   "desk": [
+    304,
+    1157,
+    1591,
+    1562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    684,
+    991,
+    937,
+    1244
+   ],
+   "desk": [
+    304,
+    1157,
+    1591,
+    1562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    685,
+    991,
+    939,
+    1245
+   ],
+   "desk": [
+    305,
+    1157,
+    1592,
+    1562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    686,
+    991,
+    940,
+    1245
+   ],
+   "desk": [
+    305,
+    1157,
+    1592,
+    1562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    688,
+    991,
+    941,
+    1245
+   ],
+   "desk": [
+    305,
+    1157,
+    1593,
+    1561
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    379,
+    712,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    689,
+    991,
+    943,
+    1245
+   ],
+   "desk": [
+    306,
+    1157,
+    1594,
+    1561
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    990,
+    944,
+    1244
+   ],
+   "desk": [
+    306,
+    1157,
+    1594,
+    1560
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    153,
+    340,
+    847,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    990,
+    945,
+    1244
+   ],
+   "desk": [
+    307,
+    1157,
+    1595,
+    1560
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     176,
+     680,
+     360,
+     737
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    989,
+    945,
+    1243
+   ],
+   "desk": [
+    307,
+    1157,
+    1596,
+    1560
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     161,
+     676,
+     373,
+     742
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    988,
+    945,
+    1242
+   ],
+   "desk": [
+    308,
+    1157,
+    1597,
+    1559
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     146,
+     671,
+     386,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    986,
+    944,
+    1241
+   ],
+   "desk": [
+    308,
+    1157,
+    1597,
+    1559
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     143,
+     671,
+     386,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    689,
+    985,
+    944,
+    1240
+   ],
+   "desk": [
+    309,
+    1157,
+    1598,
+    1558
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     142,
+     671,
+     385,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    689,
+    984,
+    944,
+    1239
+   ],
+   "desk": [
+    309,
+    1157,
+    1599,
+    1558
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     141,
+     671,
+     384,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    689,
+    982,
+    944,
+    1237
+   ],
+   "desk": [
+    310,
+    1157,
+    1600,
+    1557
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     139,
+     671,
+     383,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    690,
+    981,
+    946,
+    1236
+   ],
+   "desk": [
+    310,
+    1157,
+    1601,
+    1557
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     138,
+     671,
+     381,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    692,
+    979,
+    947,
+    1235
+   ],
+   "desk": [
+    311,
+    1157,
+    1602,
+    1556
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     136,
+     671,
+     380,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    694,
+    978,
+    949,
+    1233
+   ],
+   "desk": [
+    311,
+    1157,
+    1603,
+    1556
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     135,
+     670,
+     379,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    696,
+    976,
+    952,
+    1232
+   ],
+   "desk": [
+    312,
+    1156,
+    1604,
+    1555
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     133,
+     670,
+     377,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    698,
+    975,
+    954,
+    1231
+   ],
+   "desk": [
+    313,
+    1156,
+    1605,
+    1555
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     131,
+     670,
+     376,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    700,
+    973,
+    956,
+    1229
+   ],
+   "desk": [
+    313,
+    1156,
+    1606,
+    1554
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     130,
+     670,
+     374,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    702,
+    971,
+    959,
+    1228
+   ],
+   "desk": [
+    314,
+    1156,
+    1607,
+    1553
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     128,
+     670,
+     373,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    704,
+    970,
+    961,
+    1227
+   ],
+   "desk": [
+    315,
+    1156,
+    1608,
+    1553
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     126,
+     670,
+     371,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    707,
+    969,
+    964,
+    1226
+   ],
+   "desk": [
+    316,
+    1156,
+    1609,
+    1552
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     124,
+     670,
+     369,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    710,
+    967,
+    967,
+    1225
+   ],
+   "desk": [
+    316,
+    1156,
+    1611,
+    1551
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     123,
+     670,
+     368,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    712,
+    966,
+    970,
+    1224
+   ],
+   "desk": [
+    317,
+    1156,
+    1612,
+    1551
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     121,
+     670,
+     366,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    715,
+    965,
+    973,
+    1223
+   ],
+   "desk": [
+    318,
+    1156,
+    1613,
+    1550
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     119,
+     670,
+     364,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    718,
+    964,
+    977,
+    1223
+   ],
+   "desk": [
+    319,
+    1156,
+    1614,
+    1549
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     117,
+     670,
+     363,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    721,
+    963,
+    980,
+    1222
+   ],
+   "desk": [
+    319,
+    1156,
+    1615,
+    1548
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     115,
+     669,
+     361,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    725,
+    963,
+    984,
+    1222
+   ],
+   "desk": [
+    320,
+    1156,
+    1616,
+    1548
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     113,
+     669,
+     359,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    728,
+    962,
+    987,
+    1221
+   ],
+   "desk": [
+    321,
+    1156,
+    1618,
+    1547
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    151,
+    340,
+    849,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     111,
+     669,
+     357,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    731,
+    962,
+    991,
+    1221
+   ],
+   "desk": [
+    322,
+    1155,
+    1619,
+    1546
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     109,
+     669,
+     356,
+     746
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    734,
+    961,
+    994,
+    1221
+   ],
+   "desk": [
+    322,
+    1155,
+    1620,
+    1546
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    164,
+    340,
+    836,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     108,
+     669,
+     353,
+     745
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    738,
+    961,
+    998,
+    1221
+   ],
+   "desk": [
+    323,
+    1155,
+    1621,
+    1545
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     120,
+     674,
+     337,
+     741
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    741,
+    961,
+    1001,
+    1221
+   ],
+   "desk": [
+    324,
+    1155,
+    1623,
+    1544
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": [
+     133,
+     678,
+     320,
+     737
+    ],
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    744,
+    961,
+    1005,
+    1222
+   ],
+   "desk": [
+    325,
+    1155,
+    1624,
+    1543
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    747,
+    961,
+    1008,
+    1222
+   ],
+   "desk": [
+    326,
+    1155,
+    1625,
+    1543
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    750,
+    961,
+    1012,
+    1222
+   ],
+   "desk": [
+    326,
+    1155,
+    1626,
+    1542
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    753,
+    961,
+    1015,
+    1222
+   ],
+   "desk": [
+    327,
+    1155,
+    1627,
+    1541
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    756,
+    961,
+    1018,
+    1223
+   ],
+   "desk": [
+    328,
+    1155,
+    1628,
+    1540
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    758,
+    961,
+    1021,
+    1223
+   ],
+   "desk": [
+    329,
+    1155,
+    1630,
+    1540
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    761,
+    960,
+    1024,
+    1223
+   ],
+   "desk": [
+    330,
+    1155,
+    1631,
+    1539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    764,
+    960,
+    1027,
+    1223
+   ],
+   "desk": [
+    330,
+    1155,
+    1632,
+    1538
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    766,
+    960,
+    1029,
+    1224
+   ],
+   "desk": [
+    331,
+    1154,
+    1633,
+    1537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    768,
+    960,
+    1032,
+    1224
+   ],
+   "desk": [
+    332,
+    1154,
+    1634,
+    1537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    770,
+    960,
+    1034,
+    1223
+   ],
+   "desk": [
+    333,
+    1154,
+    1635,
+    1536
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    773,
+    959,
+    1037,
+    1223
+   ],
+   "desk": [
+    333,
+    1154,
+    1636,
+    1535
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     496,
+     865,
+     741,
+     940
+    ],
+    "noticed": null
+   },
+   "head": [
+    775,
+    958,
+    1039,
+    1223
+   ],
+   "desk": [
+    334,
+    1154,
+    1637,
+    1535
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     478,
+     858,
+     760,
+     945
+    ],
+    "noticed": null
+   },
+   "head": [
+    777,
+    958,
+    1042,
+    1223
+   ],
+   "desk": [
+    335,
+    1154,
+    1638,
+    1534
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     460,
+     852,
+     780,
+     950
+    ],
+    "noticed": null
+   },
+   "head": [
+    779,
+    957,
+    1044,
+    1222
+   ],
+   "desk": [
+    335,
+    1154,
+    1639,
+    1533
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     459,
+     851,
+     782,
+     950
+    ],
+    "noticed": null
+   },
+   "head": [
+    781,
+    956,
+    1046,
+    1221
+   ],
+   "desk": [
+    336,
+    1154,
+    1640,
+    1533
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     460,
+     850,
+     783,
+     950
+    ],
+    "noticed": null
+   },
+   "head": [
+    783,
+    955,
+    1048,
+    1221
+   ],
+   "desk": [
+    337,
+    1154,
+    1641,
+    1532
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     460,
+     850,
+     784,
+     950
+    ],
+    "noticed": null
+   },
+   "head": [
+    785,
+    954,
+    1050,
+    1220
+   ],
+   "desk": [
+    337,
+    1154,
+    1641,
+    1532
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     461,
+     849,
+     785,
+     949
+    ],
+    "noticed": null
+   },
+   "head": [
+    786,
+    953,
+    1052,
+    1219
+   ],
+   "desk": [
+    338,
+    1154,
+    1642,
+    1531
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    161,
+    340,
+    839,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     461,
+     849,
+     786,
+     949
+    ],
+    "noticed": null
+   },
+   "head": [
+    788,
+    951,
+    1055,
+    1218
+   ],
+   "desk": [
+    338,
+    1154,
+    1643,
+    1530
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     462,
+     848,
+     786,
+     948
+    ],
+    "noticed": null
+   },
+   "head": [
+    790,
+    950,
+    1057,
+    1216
+   ],
+   "desk": [
+    339,
+    1154,
+    1644,
+    1530
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    114,
+    385,
+    886,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     462,
+     848,
+     787,
+     948
+    ],
+    "noticed": null
+   },
+   "head": [
+    792,
+    949,
+    1058,
+    1215
+   ],
+   "desk": [
+    339,
+    1154,
+    1645,
+    1529
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    110,
+    385,
+    890,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     463,
+     848,
+     788,
+     948
+    ],
+    "noticed": null
+   },
+   "head": [
+    793,
+    947,
+    1060,
+    1214
+   ],
+   "desk": [
+    340,
+    1154,
+    1645,
+    1529
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     463,
+     847,
+     789,
+     947
+    ],
+    "noticed": null
+   },
+   "head": [
+    795,
+    946,
+    1062,
+    1213
+   ],
+   "desk": [
+    340,
+    1154,
+    1646,
+    1528
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     464,
+     847,
+     789,
+     947
+    ],
+    "noticed": null
+   },
+   "head": [
+    797,
+    944,
+    1064,
+    1211
+   ],
+   "desk": [
+    341,
+    1154,
+    1647,
+    1528
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     464,
+     846,
+     790,
+     947
+    ],
+    "noticed": null
+   },
+   "head": [
+    798,
+    943,
+    1065,
+    1210
+   ],
+   "desk": [
+    341,
+    1153,
+    1648,
+    1527
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     465,
+     846,
+     791,
+     946
+    ],
+    "noticed": null
+   },
+   "head": [
+    799,
+    941,
+    1067,
+    1209
+   ],
+   "desk": [
+    342,
+    1153,
+    1649,
+    1527
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     465,
+     846,
+     791,
+     946
+    ],
+    "noticed": null
+   },
+   "head": [
+    801,
+    940,
+    1069,
+    1208
+   ],
+   "desk": [
+    342,
+    1153,
+    1651,
+    1527
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     465,
+     845,
+     792,
+     946
+    ],
+    "noticed": null
+   },
+   "head": [
+    802,
+    939,
+    1070,
+    1207
+   ],
+   "desk": [
+    343,
+    1153,
+    1652,
+    1526
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     466,
+     845,
+     792,
+     945
+    ],
+    "noticed": null
+   },
+   "head": [
+    803,
+    937,
+    1071,
+    1206
+   ],
+   "desk": [
+    343,
+    1153,
+    1653,
+    1526
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     466,
+     845,
+     793,
+     945
+    ],
+    "noticed": null
+   },
+   "head": [
+    805,
+    936,
+    1073,
+    1205
+   ],
+   "desk": [
+    343,
+    1153,
+    1655,
+    1526
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     466,
+     844,
+     793,
+     945
+    ],
+    "noticed": null
+   },
+   "head": [
+    806,
+    935,
+    1074,
+    1204
+   ],
+   "desk": [
+    344,
+    1153,
+    1656,
+    1525
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     467,
+     844,
+     794,
+     945
+    ],
+    "noticed": null
+   },
+   "head": [
+    807,
+    935,
+    1075,
+    1203
+   ],
+   "desk": [
+    344,
+    1153,
+    1657,
+    1525
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     467,
+     844,
+     794,
+     944
+    ],
+    "noticed": null
+   },
+   "head": [
+    808,
+    934,
+    1076,
+    1203
+   ],
+   "desk": [
+    344,
+    1153,
+    1658,
+    1525
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     467,
+     843,
+     795,
+     944
+    ],
+    "noticed": null
+   },
+   "head": [
+    809,
+    933,
+    1078,
+    1202
+   ],
+   "desk": [
+    345,
+    1153,
+    1659,
+    1524
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     468,
+     843,
+     795,
+     944
+    ],
+    "noticed": null
+   },
+   "head": [
+    810,
+    933,
+    1079,
+    1202
+   ],
+   "desk": [
+    345,
+    1153,
+    1660,
+    1524
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     468,
+     843,
+     795,
+     944
+    ],
+    "noticed": null
+   },
+   "head": [
+    811,
+    933,
+    1080,
+    1202
+   ],
+   "desk": [
+    345,
+    1153,
+    1661,
+    1524
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     478,
+     846,
+     786,
+     940
+    ],
+    "noticed": null
+   },
+   "head": [
+    812,
+    933,
+    1081,
+    1202
+   ],
+   "desk": [
+    345,
+    1153,
+    1662,
+    1523
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": [
+     503,
+     853,
+     761,
+     933
+    ],
+    "noticed": null
+   },
+   "head": [
+    812,
+    933,
+    1082,
+    1202
+   ],
+   "desk": [
+    346,
+    1153,
+    1663,
+    1523
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    224,
+    854,
+    562,
+    1192
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    224,
+    855,
+    561,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    385,
+    891,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    224,
+    856,
+    561,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    856,
+    561,
+    1194
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    111,
+    384,
+    889,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    857,
+    561,
+    1195
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    858,
+    561,
+    1196
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    859,
+    561,
+    1197
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    860,
+    561,
+    1198
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    861,
+    561,
+    1199
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    862,
+    561,
+    1200
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    863,
+    561,
+    1201
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    864,
+    560,
+    1202
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    865,
+    560,
+    1202
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    865,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1204
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1204
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    866,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    108,
+    384,
+    892,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    865,
+    560,
+    1203
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    865,
+    560,
+    1202
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    291,
+    341,
+    709,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    864,
+    560,
+    1202
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    289,
+    340,
+    711,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    863,
+    560,
+    1201
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    862,
+    560,
+    1200
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    861,
+    560,
+    1199
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    223,
+    860,
+    560,
+    1198
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    859,
+    560,
+    1197
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    858,
+    560,
+    1196
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    857,
+    560,
+    1195
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    856,
+    560,
+    1194
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    856,
+    560,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    855,
+    560,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    220,
+    854,
+    558,
+    1192
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    219,
+    854,
+    557,
+    1192
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     567,
+     1230,
+     796,
+     1308
+    ]
+   },
+   "head": [
+    219,
+    853,
+    557,
+    1191
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     546,
+     1223,
+     817,
+     1315
+    ]
+   },
+   "head": [
+    224,
+    853,
+    562,
+    1191
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    288,
+    340,
+    712,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     539,
+     1221,
+     824,
+     1317
+    ]
+   },
+   "head": [
+    231,
+    852,
+    569,
+    1190
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     539,
+     1221,
+     824,
+     1317
+    ]
+   },
+   "head": [
+    233,
+    852,
+    570,
+    1190
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    178,
+    341,
+    822,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     539,
+     1221,
+     824,
+     1317
+    ]
+   },
+   "head": [
+    233,
+    855,
+    572,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     201,
+     550,
+     799,
+     909
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     539,
+     1221,
+     824,
+     1317
+    ]
+   },
+   "head": [
+    237,
+    865,
+    577,
+    1205
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     189,
+     543,
+     811,
+     916
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     546,
+     1223,
+     817,
+     1315
+    ]
+   },
+   "head": [
+    241,
+    882,
+    584,
+    1225
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     180,
+     538,
+     820,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": [
+     567,
+     1230,
+     796,
+     1308
+    ]
+   },
+   "head": [
+    245,
+    895,
+    589,
+    1239
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    898,
+    591,
+    1243
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    899,
+    590,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    900,
+    590,
+    1245
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    901,
+    590,
+    1246
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    902,
+    590,
+    1247
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    903,
+    590,
+    1247
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    904,
+    590,
+    1248
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    905,
+    590,
+    1249
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    905,
+    590,
+    1250
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    906,
+    590,
+    1251
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    907,
+    590,
+    1252
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    590,
+    1252
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    590,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    589,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    909,
+    589,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    909,
+    589,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    909,
+    589,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    589,
+    1253
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    589,
+    1252
+   ],
+   "desk": [
+    -642,
+    1619,
+    1925,
+    2616
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    245,
+    908,
+    588,
+    1252
+   ],
+   "desk": [
+    -637,
+    1617,
+    1921,
+    2613
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    174,
+    340,
+    826,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    244,
+    908,
+    587,
+    1251
+   ],
+   "desk": [
+    -630,
+    1615,
+    1915,
+    2607
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    244,
+    909,
+    585,
+    1250
+   ],
+   "desk": [
+    -620,
+    1612,
+    1907,
+    2600
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    243,
+    909,
+    582,
+    1248
+   ],
+   "desk": [
+    -607,
+    1608,
+    1897,
+    2591
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    242,
+    910,
+    579,
+    1247
+   ],
+   "desk": [
+    -592,
+    1604,
+    1886,
+    2580
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    241,
+    911,
+    576,
+    1245
+   ],
+   "desk": [
+    -575,
+    1599,
+    1873,
+    2567
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    240,
+    912,
+    572,
+    1243
+   ],
+   "desk": [
+    -557,
+    1593,
+    1858,
+    2554
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    239,
+    913,
+    568,
+    1242
+   ],
+   "desk": [
+    -537,
+    1587,
+    1842,
+    2539
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": [
+     179,
+     537,
+     821,
+     922
+    ],
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    237,
+    914,
+    563,
+    1240
+   ],
+   "desk": [
+    -516,
+    1581,
+    1826,
+    2523
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    236,
+    916,
+    559,
+    1238
+   ],
+   "desk": [
+    -495,
+    1574,
+    1809,
+    2507
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    235,
+    917,
+    554,
+    1237
+   ],
+   "desk": [
+    -473,
+    1568,
+    1792,
+    2491
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    233,
+    919,
+    549,
+    1235
+   ],
+   "desk": [
+    -458,
+    1561,
+    1774,
+    2475
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    231,
+    921,
+    544,
+    1234
+   ],
+   "desk": [
+    -450,
+    1555,
+    1757,
+    2459
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    230,
+    923,
+    540,
+    1232
+   ],
+   "desk": [
+    -442,
+    1548,
+    1740,
+    2443
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    228,
+    925,
+    535,
+    1231
+   ],
+   "desk": [
+    -434,
+    1542,
+    1724,
+    2428
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    227,
+    927,
+    530,
+    1230
+   ],
+   "desk": [
+    -426,
+    1536,
+    1708,
+    2413
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    225,
+    929,
+    526,
+    1229
+   ],
+   "desk": [
+    -419,
+    1531,
+    1693,
+    2399
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    224,
+    931,
+    522,
+    1228
+   ],
+   "desk": [
+    -412,
+    1525,
+    1679,
+    2386
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    222,
+    933,
+    518,
+    1228
+   ],
+   "desk": [
+    -405,
+    1521,
+    1666,
+    2374
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    221,
+    935,
+    514,
+    1228
+   ],
+   "desk": [
+    -400,
+    1516,
+    1654,
+    2363
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    220,
+    936,
+    511,
+    1227
+   ],
+   "desk": [
+    -394,
+    1512,
+    1643,
+    2353
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    219,
+    938,
+    508,
+    1227
+   ],
+   "desk": [
+    -390,
+    1509,
+    1634,
+    2345
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    218,
+    940,
+    505,
+    1227
+   ],
+   "desk": [
+    -386,
+    1506,
+    1626,
+    2337
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    217,
+    941,
+    503,
+    1228
+   ],
+   "desk": [
+    -382,
+    1503,
+    1620,
+    2331
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    216,
+    943,
+    501,
+    1228
+   ],
+   "desk": [
+    -380,
+    1502,
+    1614,
+    2327
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    215,
+    944,
+    500,
+    1228
+   ],
+   "desk": [
+    -378,
+    1500,
+    1611,
+    2323
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    215,
+    945,
+    499,
+    1229
+   ],
+   "desk": [
+    -377,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    215,
+    946,
+    498,
+    1229
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2320
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    215,
+    946,
+    498,
+    1230
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    214,
+    947,
+    498,
+    1231
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    214,
+    948,
+    498,
+    1231
+   ],
+   "desk": [
+    -377,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    214,
+    948,
+    497,
+    1232
+   ],
+   "desk": [
+    -377,
+    1499,
+    1609,
+    2322
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    213,
+    949,
+    496,
+    1233
+   ],
+   "desk": [
+    -378,
+    1499,
+    1609,
+    2324
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    212,
+    950,
+    496,
+    1234
+   ],
+   "desk": [
+    -379,
+    1499,
+    1610,
+    2326
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    211,
+    950,
+    495,
+    1234
+   ],
+   "desk": [
+    -380,
+    1499,
+    1611,
+    2329
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    209,
+    951,
+    494,
+    1235
+   ],
+   "desk": [
+    -382,
+    1500,
+    1613,
+    2332
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    207,
+    951,
+    492,
+    1236
+   ],
+   "desk": [
+    -384,
+    1500,
+    1615,
+    2336
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    206,
+    951,
+    491,
+    1237
+   ],
+   "desk": [
+    -386,
+    1500,
+    1617,
+    2341
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    204,
+    952,
+    489,
+    1237
+   ],
+   "desk": [
+    -388,
+    1500,
+    1619,
+    2345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    201,
+    952,
+    488,
+    1238
+   ],
+   "desk": [
+    -390,
+    1500,
+    1621,
+    2351
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    199,
+    952,
+    486,
+    1239
+   ],
+   "desk": [
+    -393,
+    1500,
+    1623,
+    2356
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    197,
+    952,
+    484,
+    1239
+   ],
+   "desk": [
+    -395,
+    1501,
+    1626,
+    2362
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    195,
+    952,
+    483,
+    1240
+   ],
+   "desk": [
+    -398,
+    1501,
+    1628,
+    2367
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    192,
+    951,
+    481,
+    1240
+   ],
+   "desk": [
+    -400,
+    1501,
+    1630,
+    2373
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    190,
+    951,
+    480,
+    1240
+   ],
+   "desk": [
+    -403,
+    1501,
+    1633,
+    2378
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    188,
+    950,
+    478,
+    1240
+   ],
+   "desk": [
+    -405,
+    1501,
+    1635,
+    2383
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    186,
+    950,
+    477,
+    1240
+   ],
+   "desk": [
+    -407,
+    1502,
+    1637,
+    2388
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    185,
+    949,
+    476,
+    1240
+   ],
+   "desk": [
+    -409,
+    1502,
+    1638,
+    2392
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    184,
+    949,
+    475,
+    1240
+   ],
+   "desk": [
+    -411,
+    1502,
+    1640,
+    2395
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    182,
+    948,
+    474,
+    1239
+   ],
+   "desk": [
+    -412,
+    1502,
+    1641,
+    2398
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    182,
+    947,
+    473,
+    1239
+   ],
+   "desk": [
+    -413,
+    1502,
+    1642,
+    2401
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    181,
+    946,
+    473,
+    1238
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2402
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    181,
+    946,
+    473,
+    1238
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2403
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    180,
+    945,
+    473,
+    1237
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2404
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "note": null,
+    "checking": null,
+    "rebound": null,
+    "noticed": null
+   },
+   "head": [
+    180,
+    944,
+    473,
+    1237
+   ],
+   "desk": [
+    -415,
+    1502,
+    1643,
+    2404
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  }
+ ]
+}

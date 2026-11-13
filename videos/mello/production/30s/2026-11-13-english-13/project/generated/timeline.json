@@ -1,0 +1,129 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Try not to picture a pink elephant.",
+      "start": 0.3,
+      "end": 2.124,
+      "pauses": []
+    },
+    {
+      "id": "super",
+      "text": "Too late. Why does fighting a thought bring it back?",
+      "start": 2.6,
+      "end": 5.039,
+      "pauses": [
+        [
+          3.104,
+          3.332
+        ],
+        [
+          4.892,
+          4.973
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one study, people told to avoid a white bear kept ringing a bell for it.",
+      "start": 5.55,
+      "end": 9.99,
+      "pauses": [
+        [
+          6.354,
+          6.695
+        ],
+        [
+          8.156,
+          8.268
+        ],
+        [
+          8.585,
+          8.664
+        ],
+        [
+          8.809,
+          8.894
+        ],
+        [
+          9.844,
+          9.915
+        ]
+      ]
+    },
+    {
+      "id": "mech",
+      "text": "One theory: a part of your mind keeps checking for it.",
+      "start": 10.55,
+      "end": 13.512,
+      "pauses": [
+        [
+          11.265,
+          11.548
+        ]
+      ]
+    },
+    {
+      "id": "rebound",
+      "text": "Afterwards, it tended to return more: a small, repeated effect.",
+      "start": 14.05,
+      "end": 17.9,
+      "pauses": [
+        [
+          15.996,
+          16.402
+        ],
+        [
+          17.708,
+          17.826
+        ]
+      ]
+    },
+    {
+      "id": "bridge",
+      "text": "So what actually helps?",
+      "start": 18.55,
+      "end": 19.713,
+      "pauses": []
+    },
+    {
+      "id": "payoff",
+      "text": "Don't fight it. Notice it, then give your mind one specific job.",
+      "start": 20.4,
+      "end": 24.185,
+      "pauses": [
+        [
+          21.069,
+          21.381
+        ],
+        [
+          21.926,
+          22.09
+        ],
+        [
+          23.605,
+          23.7
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.8,
+      "end": 28.52,
+      "pauses": []
+    }
+  ]
+}
