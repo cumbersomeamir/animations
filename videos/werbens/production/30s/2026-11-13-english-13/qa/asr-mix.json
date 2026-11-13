@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.14
+      ],
+      "script": "Identical boxes. Why pay more for one?",
+      "heard": "Identical boxes. Why pay more for one?",
+      "words": "7/7"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.05,
+        5.09
+      ],
+      "script": "One difference: you built it.",
+      "heard": "One difference, you built it.",
+      "words": "5/5"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        5.1,
+        8.14
+      ],
+      "script": "IKEA's pitch: we do our part, you do yours.",
+      "heard": "IKEA pitch, we do our part, you do yours.",
+      "words": "8/9"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        8.25,
+        14.64
+      ],
+      "script": "In a 2012 study, people who assembled an IKEA box bid more than people handed one ready-made.",
+      "heard": "In a 2012 study, people who assembled an IKEA box bid more than people handed one ready maid.",
+      "words": "16/17"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.85,
+        18.5
+      ],
+      "script": "But when they couldn't finish, or took it apart, the boost vanished.",
+      "heard": "but when they couldn't finish or took it apart, the boost vanished.",
+      "words": "12/12"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19.25,
+        21.86
+      ],
+      "script": "Effort adds value when it ends in success.",
+      "heard": "Effort adds value when it ends in success.",
+      "words": "8/8"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        22.05,
+        26.19
+      ],
+      "script": "So give customers a real step they can finish, not busywork.",
+      "heard": "So give customers a real step they can finish. Not busy work.",
+      "words": "10/11"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Identical boxes. Why pay more for one? One difference, you built it. IKEA pitch. We do our part, you do yours. In a 2012 study, people who assembled an IKEA box bid more than people handed one ready-made. But when they couldn't finish or took it apart, the boost vanished. Effort adds value when it ends in success. So give customers a real step they can finish, not busy work. Follow Wurbens to decode how brands sell."
+}
