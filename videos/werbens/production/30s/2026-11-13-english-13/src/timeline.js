@@ -15,7 +15,7 @@ export const T = {
   replay: [4.12, 4.95], key1: [3.9, 5.2],
   // build-up: IKEA set — a flat pack lands on "IKEA's"; "WE" on "we do our part"; "YOU" on "you do yours": the pack opens into a
   // flat net that folds up into a box
-  toIkea: [4.95, 5.6], pack: [5.2, 5.5], we: [6.34, 7.0], you: [7.04, 7.95], open: [7.06, 7.4], fold: [7.3, 7.95],
+  toIkea: [4.95, 5.6], pack: [5.2, 5.5], we: [6.34, 7.0], you: [7.04, 7.62], open: [7.06, 7.4], fold: [7.3, 7.95],
   // proof: back to the two-box set; coins sink and the left box lies flat; it folds up on "assembled an IKEA box"; tall bid stack
   // on "bid more"; the identical ready-made box is handed in on "handed"; its shorter stack rises
   back: [8.1, 9.2], reset: [8.4, 9.0], build: [10.3, 11.65], key2: [10.1, 11.9], coinsL1: 11.83, hand: [12.95, 13.45], coinsR1: 13.5,
