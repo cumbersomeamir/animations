@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-english13-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer for Tensorblue 30s english-13 episode 01 (how undo brings a mistake back).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

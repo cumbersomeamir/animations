@@ -1,0 +1,63 @@
+{
+ "model": "original minimal undo history (not any app's code)",
+ "before": {
+  "To do": [
+   "Invoice",
+   "Slides"
+  ],
+  "Done": [
+   "Logo"
+  ]
+ },
+ "after_mistake": {
+  "To do": [
+   "Slides"
+  ],
+  "Done": [
+   "Logo",
+   "Invoice"
+  ]
+ },
+ "screen_after_navigation": "Calendar",
+ "entry": {
+  "card": "Invoice",
+  "from": {
+   "col": "To do",
+   "pos": 1
+  },
+  "to": {
+   "col": "Done",
+   "pos": 2
+  }
+ },
+ "history_length_before_undo": 1,
+ "after_undo": {
+  "To do": [
+   "Invoice",
+   "Slides"
+  ],
+  "Done": [
+   "Logo"
+  ]
+ },
+ "restored": true,
+ "limit": {
+  "cap": 100,
+  "changes": 101,
+  "undos_possible": 100,
+  "oldest_dropped": 1,
+  "final_board": {
+   "To do": [],
+   "Done": [
+    "A"
+   ]
+  },
+  "first_change_reverted": false
+ },
+ "send_window": {
+  "window_s": 5,
+  "cancel_at_3s": "cancelled, never sent",
+  "cancel_at_6s": "sent, cannot be cancelled",
+  "in_undo_history": false
+ }
+}

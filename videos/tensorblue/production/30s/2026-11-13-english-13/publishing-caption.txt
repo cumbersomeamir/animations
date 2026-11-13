@@ -1,0 +1,17 @@
+Wrong card. The screen moved on. Undo brings it back. How does the app remember?
+
+Every change saves an entry: which card, where it was, where it went. Undo takes the newest entry and runs it backwards. History is limited: Office keeps the last hundred actions by default. Actions that leave the app are harder: Gmail's Undo Send lasts seconds.
+
+Undo is a short history played in reverse: use it soon, before you hit send.
+
+The tasks board in the video is a generic example. Gmail lets you pick a send cancellation period of 5, 10, 20 or 30 seconds.
+
+Sources:
+- Apple Developer Documentation, UndoManager: https://developer.apple.com/documentation/foundation/undomanager
+- Microsoft Support, Undo, redo, or repeat an action: https://support.microsoft.com/en-us/office/undo-redo-or-repeat-an-action-84bdb9bc-4e23-4f06-ba78-f7b893eb2d28
+- Gmail Help, Send or unsend Gmail messages: https://support.google.com/mail/answer/2819488
+- Redux docs, Implementing Undo History: https://redux.js.org/usage/implementing-undo-history
+
+Follow Tensorblue for software explained simply.
+
+#Undo #AppDesign #SoftwareExplained

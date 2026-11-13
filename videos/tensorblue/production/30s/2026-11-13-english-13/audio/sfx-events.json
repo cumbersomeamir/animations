@@ -1,0 +1,248 @@
+{
+ "sfx": [
+  {
+   "t": 0.386,
+   "type": "slide"
+  },
+  {
+   "t": 0.986,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 1.212,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 2.186,
+   "type": "tap"
+  },
+  {
+   "t": 2.562,
+   "type": "slide"
+  },
+  {
+   "t": 2.912,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 3.508,
+   "type": "wipe"
+  },
+  {
+   "t": 4.97,
+   "type": "wipe"
+  },
+  {
+   "t": 9.008,
+   "type": "wipe"
+  },
+  {
+   "t": 12.121,
+   "type": "wipe"
+  },
+  {
+   "t": 16.657,
+   "type": "wipe"
+  },
+  {
+   "t": 21.092,
+   "type": "wipe"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 3.608,
+   "type": "type"
+  },
+  {
+   "t": 4.266,
+   "type": "type"
+  },
+  {
+   "t": 5.443,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 6.555,
+   "type": "clack"
+  },
+  {
+   "t": 7.03,
+   "type": "blip"
+  },
+  {
+   "t": 7.718,
+   "type": "blip"
+  },
+  {
+   "t": 8.555,
+   "type": "blip"
+  },
+  {
+   "t": 9.517,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 10.167,
+   "type": "match"
+  },
+  {
+   "t": 11.042,
+   "type": "slide"
+  },
+  {
+   "t": 11.792,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 13.364,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.504,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.644,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.784,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.876,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.976,
+   "type": "slide"
+  },
+  {
+   "t": 15.476,
+   "type": "carve"
+  },
+  {
+   "t": 16.807,
+   "type": "tap"
+  },
+  {
+   "t": 17.482,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 18.932,
+   "type": "blip"
+  },
+  {
+   "t": 20.645,
+   "type": "slide"
+  },
+  {
+   "t": 21.195,
+   "type": "clack"
+  },
+  {
+   "t": 22.622,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 23.908,
+   "type": "type"
+  },
+  {
+   "t": 26.017,
+   "type": "chime"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 27.179,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  }
+ ],
+ "cues": {
+  "wrong": 0.311,
+  "card1": 0.586,
+  "screen": 1.262,
+  "moved": 1.586,
+  "undo1": 2.236,
+  "brings": 2.562,
+  "back1": 2.912,
+  "how": 3.658,
+  "remember": 4.316,
+  "every": 5.17,
+  "change3": 5.443,
+  "saves": 5.805,
+  "entry3": 6.18,
+  "which": 7.03,
+  "where1": 7.718,
+  "where2": 8.305,
+  "went": 8.555,
+  "undo4": 9.208,
+  "takes": 9.517,
+  "newest": 9.942,
+  "entry4": 10.267,
+  "runs": 11.042,
+  "backwards": 11.392,
+  "history": 12.321,
+  "limited": 12.964,
+  "office": 13.814,
+  "last": 14.651,
+  "hundred": 14.976,
+  "actions5": 15.276,
+  "dflt": 15.976,
+  "actions6": 16.857,
+  "leave": 17.482,
+  "harder": 18.157,
+  "gmail": 18.932,
+  "send6": 19.707,
+  "lasts": 19.982,
+  "seconds": 20.345,
+  "undo7": 21.292,
+  "short": 21.909,
+  "played": 22.622,
+  "reverse": 22.972,
+  "use": 23.958,
+  "soon": 24.359,
+  "before": 24.796,
+  "send7": 25.458,
+  "follow": 27,
+  "tb": 27.279,
+  "chime": 26.017000000000003,
+  "scenes": [
+   0,
+   3.508,
+   4.97,
+   9.008000000000001,
+   12.121,
+   16.657,
+   21.092000000000002,
+   26.6,
+   30.01
+  ]
+ }
+}

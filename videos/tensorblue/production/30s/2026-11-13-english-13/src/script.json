@@ -1,0 +1,71 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "Gmail's": "ʤˈimˌAlz (not in the misaki lexicon)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "Wrong card. The screen moved on. Undo brings it back.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "How does the app remember?",
+   "after": 0.35
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Every change saves an entry: which card, where it was, where it went.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Undo takes the newest entry and runs it backwards.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "History is limited: Office keeps the last hundred actions by default.",
+   "after": 0.3
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Actions that leave the app are harder: [Gmail's](/ʤˈimˌAlz/) Undo Send lasts seconds.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "Undo is a short history played in reverse: use it soon, before you hit send.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

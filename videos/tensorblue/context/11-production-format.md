@@ -91,6 +91,13 @@ Practical system design · useful new GitHub tools · research explained through
 
 - **2026-11-11 rules (Published apps, "Satisfied?" column):** Theory of Marketing story structure, the new pacing, a separate thumbnail, one visual idea at a time, captions inside x 100–900 / y 230–1500, fact discipline, no boilerplate disclaimers, honest QA, MP4 + thumbnail delivery, and real 3D depth for Tensorblue motion. Full text: "Story, pacing and presentation rules" at the top of this file. First applied in english-12: `25-production-30s-english12-01.md`.
 
+- **2026-11-13 english-13 (Published apps, "Satisfied?" column; latest approved feedback retained):** topic "how an app can undo a mistake after the screen has changed". Same rules and Tensorblue 3D feedback (useful app engineering, real 3D depth and fun, exact palette/logo, no distracting lines). Built as a tactile "time-machine" bench:
+  - each change lands as a physical entry tile on a HISTORY machine;
+  - undo lifts the newest tile, flips it to its reversed side and runs it back into the phone;
+  - the stack has a limit (Office's documented default of 100; the oldest drops off);
+  - an email leaves through an OUT door after Gmail's 5–30 s Undo Send window.
+  Naming real products: state only what their own docs say (Apple UndoManager, Microsoft Support, Gmail Help) and never imitate their UI. Unknown words for misaki (e.g. "Gmail's") get a phoneme override. Notes: `26-production-30s-english13-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

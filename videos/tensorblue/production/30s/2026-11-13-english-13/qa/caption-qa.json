@@ -1,0 +1,228 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Wrong card.",
+    "The screen moved on."
+   ],
+   "t0": 0.24,
+   "tEnd": 2.24,
+   "frame": 25,
+   "box": {
+    "x0": 212,
+    "x1": 785,
+    "y0": 373,
+    "y1": 475,
+    "n": 14075
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Undo brings it back."
+   ],
+   "t0": 2.18,
+   "tEnd": 3.66,
+   "frame": 83,
+   "box": {
+    "x0": 241,
+    "x1": 757,
+    "y0": 403,
+    "y1": 456,
+    "n": 8478
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "How does the app",
+    "remember?"
+   ],
+   "t0": 3.6,
+   "tEnd": 5.17,
+   "frame": 126,
+   "box": {
+    "x0": 269,
+    "x1": 732,
+    "y0": 373,
+    "y1": 475,
+    "n": 12760
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Every change",
+    "saves an entry:"
+   ],
+   "t0": 5.11,
+   "tEnd": 7.03,
+   "frame": 171,
+   "box": {
+    "x0": 303,
+    "x1": 694,
+    "y0": 373,
+    "y1": 486,
+    "n": 12263
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "which card, where it was,",
+    "where it went."
+   ],
+   "t0": 6.97,
+   "tEnd": 9.21,
+   "frame": 227,
+   "box": {
+    "x0": 168,
+    "x1": 827,
+    "y0": 372,
+    "y1": 477,
+    "n": 16009
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Undo takes the newest entry",
+    "and runs it backwards."
+   ],
+   "t0": 9.15,
+   "tEnd": 12.32,
+   "frame": 292,
+   "box": {
+    "x0": 130,
+    "x1": 872,
+    "y0": 375,
+    "y1": 477,
+    "n": 21784
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "History is limited:"
+   ],
+   "t0": 12.26,
+   "tEnd": 13.81,
+   "frame": 386,
+   "box": {
+    "x0": 277,
+    "x1": 722,
+    "y0": 404,
+    "y1": 456,
+    "n": 7608
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Office keeps the last 100",
+    "actions by default."
+   ],
+   "t0": 13.75,
+   "tEnd": 16.85,
+   "frame": 431,
+   "box": {
+    "x0": 181,
+    "x1": 818,
+    "y0": 372,
+    "y1": 488,
+    "n": 18938
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Actions that leave the app",
+    "are harder:"
+   ],
+   "t0": 16.79,
+   "tEnd": 18.93,
+   "frame": 522,
+   "box": {
+    "x0": 162,
+    "x1": 836,
+    "y0": 372,
+    "y1": 477,
+    "n": 15913
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Gmail's Undo Send",
+    "lasts seconds."
+   ],
+   "t0": 18.87,
+   "tEnd": 21.29,
+   "frame": 584,
+   "box": {
+    "x0": 254,
+    "x1": 744,
+    "y0": 377,
+    "y1": 482,
+    "n": 14344
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Undo is a short history",
+    "played in reverse:"
+   ],
+   "t0": 21.23,
+   "tEnd": 23.96,
+   "frame": 655,
+   "box": {
+    "x0": 209,
+    "x1": 792,
+    "y0": 372,
+    "y1": 488,
+    "n": 16887
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "use it soon,",
+    "before you hit send."
+   ],
+   "t0": 23.9,
+   "tEnd": 26.95,
+   "frame": 735,
+   "box": {
+    "x0": 243,
+    "x1": 755,
+    "y0": 372,
+    "y1": 488,
+    "n": 12840
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
