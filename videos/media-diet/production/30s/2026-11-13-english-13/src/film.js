@@ -361,13 +361,13 @@ function drawOverlay(t, shot) {
 scene.traverse((o) => { const ms = Array.isArray(o.material) ? o.material : o.material ? [o.material] : []; ms.forEach((m) => { if (m.isMeshStandardMaterial && m.map && m.map !== grain && !m.emissiveMap && m.emissiveIntensity > 0 && m.emissive.getHex() === 0xffffff) { m.emissiveMap = m.map; m.emissiveIntensity = Math.max(m.emissiveIntensity, 0.25); m.needsUpdate = true; } }); });
 // separate vertical thumbnail tied to the hook: the robot mid-spin on its wheels + 2 large words ("WHY WHEELS?")
 window.renderThumb = async () => { const t = 2.15; update(t);
-  camera.position.set(1.75, 0.75, 2.45); camera.up.set(0, 1, 0); camera.fov = 42; camera.updateProjectionMatrix(); camera.lookAt(V3(0.05, 1.0, 0)); bokeh.uniforms.focus.value = camera.position.distanceTo(V3(0.1, 0.9, 0)); composer.render();
+  camera.position.set(2.75, 0.55, 3.9); camera.up.set(0, 1, 0); camera.fov = 42; camera.updateProjectionMatrix(); camera.lookAt(V3(-0.05, 1.5, 0)); bokeh.uniforms.focus.value = camera.position.distanceTo(V3(0.0, 1.0, 0)); composer.render();
   og.clearRect(0, 0, W, H); TEXTLOG = []; const v = og.createLinearGradient(0, 0, 0, H); v.addColorStop(0, 'rgba(4,5,26,0.55)'); v.addColorStop(0.45, 'rgba(4,5,26,0.08)'); v.addColorStop(1, 'rgba(4,5,26,0.35)'); og.fillStyle = v; og.fillRect(0, 0, W, H);
   const fit = (txt, size) => { og.font = `700 ${size}px "Space Grotesk"`; const w = og.measureText(txt).width; return w > 700 ? Math.floor(size * 700 / w) : size; };
   const f1 = fit('WHY', 230), f2 = fit('WHEELS?', 200);
-  otext('WHY', 540, 520, { font: `700 ${f1}px "Space Grotesk"`, color: '#ffd23f', shadow: 30, kind: 'thumb' });
-  otext('WHEELS?', 540, 520 + f2 * 1.05, { font: `700 ${f2}px "Space Grotesk"`, color: '#f6f4ff', shadow: 30, kind: 'thumb' });
-  chip('editorial reconstruction', 540, 1446, 'rgba(13,18,64,0.7)', { font: '700 26px "Space Grotesk"', h: 46, dy: 9 }); return TEXTLOG; };
+  otext('WHY', 540, 400, { font: `700 ${f1}px "Space Grotesk"`, color: '#ffd23f', shadow: 30, kind: 'thumb' });
+  otext('WHEELS?', 540, 400 + f2 * 1.05, { font: `700 ${f2}px "Space Grotesk"`, color: '#f6f4ff', shadow: 30, kind: 'thumb' });
+  chip('editorial reconstruction', 540, 612, 'rgba(13,18,64,0.7)', { font: '700 26px "Space Grotesk"', h: 46, dy: 9 }); return TEXTLOG; };
 window.render = async (f) => { const t = f / FPS; const shot = update(t); composer.render(); drawOverlay(t, shot); return t; };
 window.TEXTS = () => TEXTLOG;
 window.__ready = true;
