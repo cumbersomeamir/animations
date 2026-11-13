@@ -81,3 +81,8 @@ app.werbens.com … not … guessed light blue") the episode now uses the site's
 (navy #0B1120 stage + fog, ink #0F172A plinths, deep teal #316879 / mint #7FE7DC accents, mint-white #F0FDFA props, dark-glass
 caption pill with mint border, hero-gradient labels) instead of the light #F0FDFA studio; values and rendered measurements in
 context/28 §3. Amber unused.
+
+## Re-check for english-13 (2026-11-13)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to 2026-11-11; wordmark styling and hero-headline
+gradient unchanged; Login button #316879; logo SVG sha256 816c1761… unchanged. The dark-navy hero theme (context/28 §3) is kept
+in every scene; rendered values in context/29 §3. Amber unused.

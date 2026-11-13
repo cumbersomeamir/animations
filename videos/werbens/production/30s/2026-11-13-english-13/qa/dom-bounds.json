@@ -1,0 +1,27 @@
+{
+  "rules": "caption x100-900 y230-1500; labels x100-900 y560-1500; nothing in y<300; one big label at a time",
+  "caption": {
+    "minTop": 369,
+    "maxBottom": 489,
+    "minLeft": 139,
+    "maxRight": 861,
+    "maxLines": 2,
+    "pillTop": 353,
+    "pillBottom": 507,
+    "pillLeft": 109,
+    "pillRight": 891
+  },
+  "captionOutside": [],
+  "labels": {
+    "minLeft": 197,
+    "maxRight": 883,
+    "minTop": 572,
+    "maxBottom": 1453
+  },
+  "labelInTop300": [],
+  "labelOutsideSafe": [],
+  "labelUnderCaption": [],
+  "labelOverlaps": [],
+  "multiBig": [],
+  "samples": 300
+}
