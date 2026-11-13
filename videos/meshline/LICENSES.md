@@ -24,3 +24,4 @@
 | Production 30s batch 2026-11-09-english-10 (English, full Wi-Fi bars but no internet) | Original code in `production/30s/2026-11-09-english-10/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-09-english-11 (English, why a text gets through when a call won't) | Original code in `production/30s/2026-11-09-english-11/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range) + thumbnail | Original code in `production/30s/2026-11-11-english-12/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s batch 2026-11-13-english-13 (English, how two phones talk with no SIM card) + thumbnail | Original code in `production/30s/2026-11-13-english-13/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

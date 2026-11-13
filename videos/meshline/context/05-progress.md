@@ -61,3 +61,6 @@
 
 ## Production 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range)
 - Done. Output `production/30s/2026-11-11-english-12/meshline-30s-english12-01.mp4`, sha256 `f5b63c6b…1698`, plus a separate thumbnail. The new standing brief (story structure, pacing, captions x 100–900 / y 230–1500, thumbnail, CTA prerequisites) is persisted in `11-production-format.md` (feedback 2026-11-11). Details are in `25-production-30s-english12-01.md`.
+
+## Production 2026-11-13-english-13 (English, how two phones talk with no SIM card)
+- Done. Output `production/30s/2026-11-13-english-13/meshline-30s-english13-01.mp4`, sha256 `a4058778…7964`, plus a thumbnail. Details, sources, production notes (ETSI mirror, TTS "sim", no-logo glyph) are in `26-production-30s-english13-01.md`.

@@ -232,4 +232,14 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Review:** only finished MP4s go to the user's video-review folder; source, citations, prompts and QA stay in the repo. Don't claim a listen-through: ASR and loudness checks are reported as such.
 - **TTS note:** Kokoro reads "2.4" as "two… four". Spell decimals out in `narration.json` ("two point four") and keep the numerals in captions.
 - **Still unused planned titles:** what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
+| 15 | 2026-11-13-english-13 | How two phones talk with no SIM card (SIM = carrier ID checked by the network; Bluetooth = separate radio with its own keys; prerequisites), **English** + thumbnail | `production/30s/2026-11-13-english-13/meshline-30s-english13-01.mp4` |
+
+## Production notes 2026-11-13, batch english-13 (specific adjustments only; the 2026-11-11 standing brief still applies)
+- **Topics now taken:** SIM vs Bluetooth (15). Still unused planned titles: what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
+- **Prerequisite lines:** state generic platform prerequisites (e.g. Android 12+ "Nearby devices" permission, Bluetooth on) as facts about Bluetooth apps. Never as Meshline features: the app context states no transport or permission.
+- **TTS pronunciation:**
+  - Kokoro spells all-caps acronyms ("SIM" → "S-I-M"); write them in lower case in `narration.json` and keep the caps in captions.
+  - Avoid contractions where the negation carries the meaning ("isn't" was heard as "is in").
+- **Trademarks:** don't draw third-party logos such as the Bluetooth rune. Use a generic radio-wave glyph; name the technology in words only.
+- **Spec sources:** if 3GPP's FTP shows a bot check, use the identical ETSI deliver PDFs.
 

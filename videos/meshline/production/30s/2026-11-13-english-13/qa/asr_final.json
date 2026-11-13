@@ -1,0 +1,61 @@
+{
+ "reference": "Neither phone has a sim, yet a message hops across. How? A sim is not a radio. It's your carrier ID card. The network checks it before allowing calls or mobile data. Bluetooth is a separate radio, pairing nearby phones directly with their own keys. Its reach is limited, and walls cut it further. Just switch Bluetooth on and allow Nearby devices. No sim needed. Get Meshline while online, then message nearby offline.",
+ "asr": "Neither phone has a SIM, yet a message hops across. How? A SIM is not a radio. It's your carrier ID card. The network checks it before allowing calls or mobile data. Bluetooth is a separate radio, pairing nearby phones directly with their own keys. Its reach is limited, and walls cut it further. Just switch Bluetooth on and allow nearby devices. No SIM needed. Get meshline while online, then message nearby offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.2,
+   "Neither phone has a SIM, yet a message hops across."
+  ],
+  [
+   3.2,
+   4.4,
+   "How?"
+  ],
+  [
+   4.4,
+   6.1,
+   "A SIM is not a radio."
+  ],
+  [
+   6.1,
+   8.3,
+   "It's your carrier ID card."
+  ],
+  [
+   8.3,
+   12.4,
+   "The network checks it before allowing calls or mobile data."
+  ],
+  [
+   12.4,
+   18.0,
+   "Bluetooth is a separate radio, pairing nearby phones directly with their own keys."
+  ],
+  [
+   18.0,
+   21.4,
+   "Its reach is limited, and walls cut it further."
+  ],
+  [
+   21.4,
+   24.4,
+   "Just switch Bluetooth on and allow nearby devices."
+  ],
+  [
+   24.4,
+   26.0,
+   "No SIM needed."
+  ],
+  [
+   26.0,
+   30.0,
+   "Get meshline while online, then message nearby offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "no digits in this script; case and punctuation ignored (\"sim\" in the TTS text = \"SIM\")",
+ "remaining_diffs": [],
+ "audio_pcm_sha256_prefix": "423c67bf3def540c"
+}

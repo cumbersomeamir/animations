@@ -1,0 +1,9 @@
+{
+ "l1": [[["Neither phone has a SIM,"], "Neither"], [["yet a message hops across.", "How?"], "yet"]],
+ "l2": [[["A SIM is not a radio."], "A"], [["It's your carrier ID card."], "it's"]],
+ "l3": [[["The network checks it"], "The"], [["before allowing calls", "or mobile data."], "before"]],
+ "l4": [[["Bluetooth is", "a separate radio,"], "Bluetooth"], [["pairing nearby phones"], "pairing"], [["directly, with", "their own keys."], "directly"]],
+ "l5": [[["Its reach is limited,", "and walls cut it further."], "Its"]],
+ "l6": [[["Just switch Bluetooth on", "and allow Nearby devices."], "Just"], [["No SIM needed."], "No"]],
+ "l7": [[["Get Meshline while online,", "then message nearby offline."], "Get"]]
+}

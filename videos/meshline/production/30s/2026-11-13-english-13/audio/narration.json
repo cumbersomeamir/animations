@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character. \"sim\" is lower-case in the TTS text so Kokoro says the word, not the letters; captions show \"SIM\"."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Neither phone has a sim, yet a message hops across. How?"
+    },
+    {
+      "id": "l2",
+      "start": 4.55,
+      "text": "A sim is not a radio. It's your carrier ID card."
+    },
+    {
+      "id": "l3",
+      "start": 8.51,
+      "text": "The network checks it before allowing calls or mobile data."
+    },
+    {
+      "id": "l4",
+      "start": 12.57,
+      "text": "Bluetooth is a separate radio, pairing nearby phones directly with their own keys."
+    },
+    {
+      "id": "l5",
+      "start": 18.2,
+      "text": "Its reach is limited, and walls cut it further."
+    },
+    {
+      "id": "l6",
+      "start": 21.54,
+      "text": "Just switch Bluetooth on and allow Nearby devices. No sim needed."
+    },
+    {
+      "id": "l7",
+      "start": 26.19,
+      "text": "Get Meshline while online, then message nearby offline."
+    }
+  ]
+}

@@ -92,3 +92,7 @@
 ## Production 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range): complete
 - See `25-production-30s-english12-01.md`; output sha256 `f5b63c6bee1021aacb4caf36208937c0340fcf4cd4172edc96dea075711e1698`; thumbnail `meshline-30s-english12-01-thumbnail.png`.
 - The topic was the user's explicit override of the stadium proposal. Overlap with Hindi feedback-05 is acknowledged; the new angle is measured loss, dB→distance and relay placement.
+
+## Production 2026-11-13-english-13 (English, how two phones talk with no SIM card): complete
+- See `26-production-30s-english13-01.md`; output sha256 `a4058778b427a2b1fa08de07322aa4bb8b90990645107e28bde31272c02d7964`; thumbnail `meshline-30s-english13-01-thumbnail.png`.
+- New topic (not covered): SIM = carrier identity checked by the network vs Bluetooth = separate radio with its own pairing keys; generic prerequisites (Bluetooth on, Android Nearby devices permission); limited reach and walls.

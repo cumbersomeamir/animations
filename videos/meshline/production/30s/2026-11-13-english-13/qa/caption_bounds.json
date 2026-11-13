@@ -1,0 +1,287 @@
+{
+ "rule": "ink y in [350,470], ink and plate x in [100,900], plate y in [230,1500]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 1.52,
+   "lines": [
+    "Neither phone has a SIM,"
+   ],
+   "ink": {
+    "x0": 204,
+    "x1": 795,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 170,
+    "x1": 830,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 1.56,
+   "b": 4.15,
+   "lines": [
+    "yet a message hops across.",
+    "How?"
+   ],
+   "ink": {
+    "x0": 170,
+    "x1": 828,
+    "y0": 360,
+    "y1": 457
+   },
+   "plate": {
+    "x0": 138,
+    "x1": 862,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 4.5,
+   "b": 6.08,
+   "lines": [
+    "A SIM is not a radio."
+   ],
+   "ink": {
+    "x0": 265,
+    "x1": 732,
+    "y0": 360,
+    "y1": 398
+   },
+   "plate": {
+    "x0": 233,
+    "x1": 767,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 6.12,
+   "b": 8.111,
+   "lines": [
+    "It's your carrier ID card."
+   ],
+   "ink": {
+    "x0": 225,
+    "x1": 775,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 191,
+    "x1": 809,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.46,
+   "b": 9.3,
+   "lines": [
+    "The network checks it"
+   ],
+   "ink": {
+    "x0": 235,
+    "x1": 764,
+    "y0": 360,
+    "y1": 398
+   },
+   "plate": {
+    "x0": 202,
+    "x1": 798,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 9.34,
+   "b": 12.171,
+   "lines": [
+    "before allowing calls",
+    "or mobile data."
+   ],
+   "ink": {
+    "x0": 257,
+    "x1": 744,
+    "y0": 360,
+    "y1": 457
+   },
+   "plate": {
+    "x0": 222,
+    "x1": 778,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 12.52,
+   "b": 14.44,
+   "lines": [
+    "Bluetooth is",
+    "a separate radio,"
+   ],
+   "ink": {
+    "x0": 302,
+    "x1": 696,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 269,
+    "x1": 731,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 14.48,
+   "b": 15.6,
+   "lines": [
+    "pairing nearby phones"
+   ],
+   "ink": {
+    "x0": 235,
+    "x1": 765,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 201,
+    "x1": 799,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l4c",
+   "a": 15.64,
+   "b": 17.8,
+   "lines": [
+    "directly, with",
+    "their own keys."
+   ],
+   "ink": {
+    "x0": 320,
+    "x1": 677,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 288,
+    "x1": 712,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 18.15,
+   "b": 21.139,
+   "lines": [
+    "Its reach is limited,",
+    "and walls cut it further."
+   ],
+   "ink": {
+    "x0": 228,
+    "x1": 771,
+    "y0": 360,
+    "y1": 458
+   },
+   "plate": {
+    "x0": 195,
+    "x1": 805,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 21.49,
+   "b": 24.59,
+   "lines": [
+    "Just switch Bluetooth on",
+    "and allow Nearby devices."
+   ],
+   "ink": {
+    "x0": 190,
+    "x1": 809,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 156,
+    "x1": 844,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l6b",
+   "a": 24.63,
+   "b": 25.887,
+   "lines": [
+    "No SIM needed."
+   ],
+   "ink": {
+    "x0": 314,
+    "x1": 686,
+    "y0": 360,
+    "y1": 397
+   },
+   "plate": {
+    "x0": 280,
+    "x1": 720,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 26.14,
+   "b": 29.848,
+   "lines": [
+    "Get Meshline while online,",
+    "then message nearby offline."
+   ],
+   "ink": {
+    "x0": 154,
+    "x1": 843,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 122,
+    "x1": 878,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  }
+ ]
+}
