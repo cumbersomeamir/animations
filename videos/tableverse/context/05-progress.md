@@ -66,5 +66,20 @@ Durable rules + style recipe: 08-format-and-style.md. Episode brief, narration, 
 - Earlier stickman picture+mix muxed for preservation at output/tableverse-30s.mp4 (30.000 s, clean decode; never
   fully QA'd; superseded).
 
+## 2026-11-13 batch english-13 — "The Missing Row Trick" (ACTIVE)
+Brief + script + sources: 10-episode-missing-row-trick.md. Rules updated in 08 (Theory of Marketing, pacing,
+caption window x 100–900 / y 230–1500, thumbnail, depth).
+- Facts: CCSS 3.OA.A.3 (arrays), 3.OA.B.5 (distributive example), 3.OA.C.7 from the official CCSS PDF
+  (retrieved 2026-11-13; HTML site returned a bot check).
+- Creative: cupcake tray (7 × 6) with a real hinge after row 5; perspective hinges for every move, depth of field,
+  parallax at beats, lamp key light; baker operates a pull-tab; flaps "5 × 6 = 30", "2 × 6 = 12", "30 + 12 = 42",
+  tag "7 × 6 = ?" → 42, takeaway "5 × 6 + 2 × 6"; CTA = user's original line.
+- Voice: same narrator (Kokoro af_bella 0.7 + am_puck 0.3, en-us, 0.98; cached model hashes verified).
+- Paths: production/30s/2026-11-13-english-13/ (src/, audio/, qa/, README.md);
+  tableverse-30s-english13-01.mp4 (sha256 dd3b84f5…bed4) + tableverse-30s-english13-01-thumbnail.png.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.0 LUFS, −1.6 dBTP;
+  ASR transcript of the final MP4 matches the script; 42-cupcake count checked across contact sheet + 42 frames.
+  Listening check is machine-only (ASR + meters).
+
 ## Unresolved / next
-- Await user review of feedback-01. No further episode started (per instruction).
+- Await user review of english13-01. No further episode started.

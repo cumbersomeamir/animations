@@ -1,0 +1,19 @@
+{
+  "name": "tableverse-30s-english13-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TableVerse 'The Missing Row Trick' (7 x 6 = 5 rows + 2 rows) - Pop-up Counting Storybook, 30 s portrait. Own cut-paper renderer with perspective hinges, piping frames to FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "timeline": "node src/render.mjs --timeline",
+    "stills": "node src/render.mjs --still 0,30,120,222,360,420,540,600,680,760,840,899",
+    "video": "node src/render.mjs --video --workers 3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "5.2.10",
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

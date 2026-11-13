@@ -1,0 +1,63 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Seven times six feels tricky?",
+      "seconds": 1.677,
+      "frames": 50.3
+    },
+    "v02": {
+      "text": "This tray has a secret hinge.",
+      "seconds": 1.477,
+      "frames": 44.3
+    },
+    "v03": {
+      "text": "Seven rows of six cupcakes.",
+      "seconds": 1.691,
+      "frames": 50.7
+    },
+    "v04": {
+      "text": "Can you find five rows?",
+      "seconds": 1.255,
+      "frames": 37.7
+    },
+    "v05": {
+      "text": "Fold the tray after row five.",
+      "seconds": 1.506,
+      "frames": 45.2
+    },
+    "v06": {
+      "text": "Five rows of six make thirty.",
+      "seconds": 1.563,
+      "frames": 46.9
+    },
+    "v07": {
+      "text": "Two rows are left. Two sixes make twelve.",
+      "seconds": 2.626,
+      "frames": 78.8
+    },
+    "v08": {
+      "text": "Unfold, and add. Thirty plus twelve is forty-two.",
+      "seconds": 3.091,
+      "frames": 92.7
+    },
+    "v09": {
+      "text": "So seven times six is forty-two.",
+      "seconds": 1.901,
+      "frames": 57.0
+    },
+    "v10": {
+      "text": "Stuck on a big fact? Split it into facts you know.",
+      "seconds": 2.698,
+      "frames": 80.9
+    },
+    "v11": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}

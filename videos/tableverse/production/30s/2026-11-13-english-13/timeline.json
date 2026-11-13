@@ -1,0 +1,509 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 62,
+      "name": "Tray springs up on its hinge, cupcakes pop row by row, tag asks 7 × 6 = ?"
+    },
+    {
+      "id": "S2-superhook",
+      "from": 62,
+      "to": 118,
+      "name": "Push in: dashed score line + brass pins = the secret hinge"
+    },
+    {
+      "id": "S3-array",
+      "from": 118,
+      "to": 186,
+      "name": "Row tags 1–7, then 6 across the top"
+    },
+    {
+      "id": "S4-notice",
+      "from": 186,
+      "to": 296,
+      "name": "Can you find five rows? quiet pause, then rows 1–5 light up"
+    },
+    {
+      "id": "S5-fold",
+      "from": 296,
+      "to": 352,
+      "name": "Baker pulls the tab, tray folds after row 5, 2-row panel swings forward and apart"
+    },
+    {
+      "id": "S6-proof",
+      "from": 352,
+      "to": 508,
+      "name": "5 × 6 = 30 flap rises; 2 × 6 = 12 flap drops; each panel glows once"
+    },
+    {
+      "id": "S7-combine",
+      "from": 508,
+      "to": 616,
+      "name": "Unfold, click; 30 travels down; flap flips to 30 + 12 = 42"
+    },
+    {
+      "id": "S8-payoff",
+      "from": 616,
+      "to": 800,
+      "name": "Tag returns, ? flips to 42; takeaway: split into facts you know"
+    },
+    {
+      "id": "S9-cta",
+      "from": 800,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 6,
+    "v02": 62,
+    "v03": 120,
+    "v04": 186,
+    "v05": 296,
+    "v06": 352,
+    "v07": 414,
+    "v08": 508,
+    "v09": 616,
+    "v10": 690,
+    "v11": 820
+  },
+  "captions": [
+    [
+      [
+        "7 × 6 feels tricky?"
+      ],
+      6,
+      60
+    ],
+    [
+      [
+        "This tray has a secret hinge."
+      ],
+      62,
+      116
+    ],
+    [
+      [
+        "7 rows of 6 cupcakes."
+      ],
+      120,
+      182
+    ],
+    [
+      [
+        "Can you find 5 rows?"
+      ],
+      186,
+      292
+    ],
+    [
+      [
+        "Fold the tray after row 5."
+      ],
+      296,
+      348
+    ],
+    [
+      [
+        "5 rows of 6 make 30."
+      ],
+      352,
+      410
+    ],
+    [
+      [
+        "2 rows are left."
+      ],
+      414,
+      452
+    ],
+    [
+      [
+        "2 rows are left.",
+        "2 sixes make 12."
+      ],
+      452,
+      504
+    ],
+    [
+      [
+        "Unfold and add:"
+      ],
+      508,
+      550
+    ],
+    [
+      [
+        "Unfold and add:",
+        "30 + 12 = 42."
+      ],
+      550,
+      612
+    ],
+    [
+      [
+        "So 7 × 6 = ?"
+      ],
+      616,
+      652
+    ],
+    [
+      [
+        "So 7 × 6 = 42."
+      ],
+      652,
+      686
+    ],
+    [
+      [
+        "Stuck on a big fact?"
+      ],
+      690,
+      726
+    ],
+    [
+      [
+        "Stuck on a big fact?",
+        "Split it into facts you know."
+      ],
+      726,
+      798
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      820,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "rise",
+      0,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      0,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      2,
+      {
+        "pitch": 0.96
+      }
+    ],
+    [
+      "pop",
+      4,
+      {
+        "pitch": 1.02
+      }
+    ],
+    [
+      "pop",
+      6,
+      {
+        "pitch": 1.08
+      }
+    ],
+    [
+      "pop",
+      8,
+      {
+        "pitch": 1.1400000000000001
+      }
+    ],
+    [
+      "pop",
+      10,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      12,
+      {
+        "pitch": 1.26
+      }
+    ],
+    [
+      "swing",
+      4,
+      {}
+    ],
+    [
+      "score",
+      74,
+      {
+        "dur": 26
+      }
+    ],
+    [
+      "glint",
+      100,
+      {}
+    ],
+    [
+      "tick",
+      124,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      129,
+      {
+        "pitch": 1.05
+      }
+    ],
+    [
+      "tick",
+      134,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "tick",
+      139,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "tick",
+      144,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      149,
+      {
+        "pitch": 1.25
+      }
+    ],
+    [
+      "tick",
+      154,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "tick",
+      160,
+      {
+        "pitch": 1.5
+      }
+    ],
+    [
+      "swing",
+      140,
+      {
+        "up": true
+      }
+    ],
+    [
+      "light",
+      262,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "light",
+      268,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "light",
+      274,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "light",
+      280,
+      {
+        "step": 3
+      }
+    ],
+    [
+      "light",
+      286,
+      {
+        "step": 4
+      }
+    ],
+    [
+      "slide",
+      300,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "hinge",
+      306,
+      {
+        "dur": 38
+      }
+    ],
+    [
+      "flap",
+      356,
+      {}
+    ],
+    [
+      "chime",
+      386,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "flap",
+      458,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      486,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "hinge",
+      512,
+      {
+        "dur": 28
+      }
+    ],
+    [
+      "click",
+      540,
+      {}
+    ],
+    [
+      "slide",
+      514,
+      {
+        "dur": 20
+      }
+    ],
+    [
+      "whoosh",
+      552,
+      {
+        "dur": 28
+      }
+    ],
+    [
+      "flap",
+      576,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "chime",
+      596,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "swing",
+      604,
+      {}
+    ],
+    [
+      "flap",
+      648,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "sparkle",
+      662,
+      {}
+    ],
+    [
+      "hinge",
+      700,
+      {
+        "dur": 24,
+        "soft": true
+      }
+    ],
+    [
+      "flap",
+      704,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "hinge",
+      770,
+      {
+        "dur": 20,
+        "soft": true
+      }
+    ],
+    [
+      "click",
+      790,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "page",
+      800,
+      {
+        "dur": 24
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    224,
+    262
+  ]
+}

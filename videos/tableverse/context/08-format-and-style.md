@@ -61,3 +61,18 @@ with CLAUDE.md, 05-progress.md and the active episode brief (09-…).
 9. **Typography**: Fredoka (SIL OFL 1.1), dark violet ink on paper labels; numbers large and rounded.
 10. **Sound**: paper foley (fold, pop, slide, page turn), soft wooden "tok" per apple, one gentle chime per
     completed group, a light non-looping accompaniment kept well under the voice.
+
+## Update 2026-11-13 (batch english-13) — supersedes conflicting lines above
+- Story shape ("Theory of Marketing"): thumbnail → hook (why care) → optional super hook → build-up + proof →
+  payoff (useful knowledge) → CTA (relevant next step). Suspense only from a real unanswered question.
+- Pacing: 0–3 s striking image + hook; 3–5 s optional escalation; 5–21 s visual explanation and proof with scene
+  changes; 21–27 s resolve with a concrete takeaway; 27–30 s concise CTA. Total exactly 30.000 s.
+- Captions: English, readable inside **x = 100–900, y = 230–1500**, max two lines, clear of platform overlays;
+  never a paragraph; caption, diagram labels and explanation never compete — on-screen labels large and brief,
+  the voice carries the detail. Reveal diagram parts one at a time.
+- Depth: deliberate depth, lighting and transitions (perspective hinges, depth of field, parallax on motivated
+  camera moves); no decorative distracting lines.
+- Thumbnail: a separate attractive vertical image tied to the hook, 2–4 large words, saved next to the MP4.
+- Facts: primary/reliable sources in project notes; separate measured facts, estimates and illustrative
+  assumptions; no boilerplate warning narration.
+- Delivery: only completed MP4s go to a user review folder; source, citations, prompts and QA stay in the repo.
