@@ -4,6 +4,81 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-13 (english-13): can a bank refuse to exchange your torn note? (India)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at 479fe5b. No older job was pending:
+  english-12 was delivered.
+- The proposed topic ("NO RETURNS" vs a defective product) duplicates Episodes 01 and 04, so a new same-genre topic
+  was chosen. Record: `context/episodes/2026-11-13-english13-torn-note-exchange.md`.
+- The approved rules in `context/09-feedback-rules-2026-11-11.md` were re-sent unchanged on 13 Nov and apply as
+  written.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-13-english-13/notes/LEGAL-SOURCES.md`)
+- **RBI Master Direction – Exchange of Notes and Coins** (RBI/DCM/2026-27/395, updated 16 Oct 2026):
+  - all branches exchange notes for customers and others, without discrimination (1.1/1.3/1.7)
+  - a two-piece note pasted together with nothing missing is "soiled" (3); up to 20 notes / ₹5,000 a day are exchanged
+    free over the counter (6.1.1)
+  - mutilated notes may be presented at any branch and are adjudicated under the NRR (4.1)
+  - complaint to the branch, then the Ombudsman after 30 days or a rejection (9)
+- **NRR 2009 (amended 2018)** r.8(2), for ₹50 and above: full value if the largest piece is > 80%; half value at
+  40–80%; otherwise rejected.
+- **RB-IOS 2026** (from 1 Jul 2026, replacing 2021): first approach the bank with proof; escalate after 30 days or an
+  unsatisfactory reply, within 90 days.
+
+### Creative decisions
+- The english-12 engine is reused with new props:
+  - a stylised ₹500 note (tear / tape / missing-piece clipping)
+  - a teller window and sign
+  - branch fronts with lit exchange boards
+  - people, the complaint letter, a calendar and the Ombudsman building
+- Beats:
+  - the note rips (hook)
+  - the sign "NO ACCOUNT? NO EXCHANGE" and the tray pushed back (escalation)
+  - the RBI RULES stamp
+  - every branch's board lights, customer or not
+  - halves taped → SOILED → FREE SWAP at the counter
+  - a piece falls → ACCEPTED → the "what's left" size morphs through FULL / HALF / NOTHING
+  - REFUSED? → a written complaint
+  - a calendar 1→30 → envelope to the RBI Ombudsman
+  - CTA
+- Hook words = thumbnail words = spoken hook: "Torn note. Worthless?"
+- Mix gain is 6.3 dB (−16.3 LUFS measured at 6.0 dB on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-13-english-13/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st13 <times>
+node render.cjs thumb .. courtlens-30s-english13-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build13 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english13-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english13-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Narration:**
+  - Trimmed from 30.2 s to 26.1 s of speech so the CTA lands in the last 3 s.
+  - "Complain to the branch in writing" was heard as "complained", so it became "Make a written complaint".
+- **Hook:** the torn halves drifted off-frame, so the scale and separation were reduced. Dash-like paper fibres were
+  removed because they read as a decorative line.
+- **Proof 2:**
+  - The side branches' boards were clipped behind the centre branch, so the branches were spaced out.
+  - The "CUSTOMER OR NOT" label overlapped the people, so the people were moved up and the label down.
+- **Free swap:**
+  - A floating navy bar read as a decorative line, so it became a full-width counter that the old note sinks behind.
+  - The swap was faster so the "FREE SWAP" label is not crossed.
+- **Transitions:** the RBI stamp now lands at 5.35, closing a blank gap after the counter scene. The Ombudsman building
+  now enters after the calendar moves aside.
+
+### Next
+- Full render, QA (spec, decode, loudness, narration placement, captions, ASR), QA.md, delivery commit and push, then
+  attach the MP4 and thumbnail.
+
 ## Round 2026-11-11 (english-12): can a landlord enter your rented home whenever they want? (Tamil Nadu)
 
 ### Status

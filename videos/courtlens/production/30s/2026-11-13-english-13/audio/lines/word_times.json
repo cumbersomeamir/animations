@@ -1,0 +1,413 @@
+{
+ "l1": {
+  "script": "Torn note. Worthless?",
+  "heard": "Torn note, worthless.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Torn",
+    0.0,
+    0.34
+   ],
+   [
+    "note,",
+    0.34,
+    0.66
+   ],
+   [
+    "worthless.",
+    0.94,
+    1.2
+   ]
+  ]
+ },
+ "l2": {
+  "script": "The bank says: no account, no exchange.",
+  "heard": "The bank says, no account no exchange.",
+  "wer": 0.0,
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "bank",
+    0.2,
+    0.38
+   ],
+   [
+    "says,",
+    0.38,
+    0.76
+   ],
+   [
+    "no",
+    1.06,
+    1.18
+   ],
+   [
+    "account",
+    1.18,
+    1.52
+   ],
+   [
+    "no",
+    1.52,
+    1.78
+   ],
+   [
+    "exchange.",
+    1.78,
+    2.06
+   ]
+  ]
+ },
+ "l3": {
+  "script": "But RBI rules say every branch must exchange notes, customer or not.",
+  "heard": "But RBI rules say every branch must exchange notes, customer or not.",
+  "wer": 0.0,
+  "words": [
+   [
+    "But",
+    0.0,
+    0.28
+   ],
+   [
+    "RBI",
+    0.28,
+    0.72
+   ],
+   [
+    "rules",
+    0.72,
+    1.02
+   ],
+   [
+    "say",
+    1.02,
+    1.3
+   ],
+   [
+    "every",
+    1.3,
+    1.66
+   ],
+   [
+    "branch",
+    1.66,
+    2.02
+   ],
+   [
+    "must",
+    2.02,
+    2.34
+   ],
+   [
+    "exchange",
+    2.34,
+    2.88
+   ],
+   [
+    "notes,",
+    2.88,
+    3.32
+   ],
+   [
+    "customer",
+    3.78,
+    4.02
+   ],
+   [
+    "or",
+    4.02,
+    4.4
+   ],
+   [
+    "not.",
+    4.4,
+    4.62
+   ]
+  ]
+ },
+ "l4": {
+  "script": "Torn in two, nothing missing? That's soiled: exchanged free at the counter.",
+  "heard": "Torn in two, nothing missing. That's soiled, exchanged free at the counter.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Torn",
+    0.0,
+    0.38
+   ],
+   [
+    "in",
+    0.38,
+    0.62
+   ],
+   [
+    "two,",
+    0.62,
+    0.78
+   ],
+   [
+    "nothing",
+    0.9,
+    1.08
+   ],
+   [
+    "missing.",
+    1.08,
+    1.52
+   ],
+   [
+    "That's",
+    1.92,
+    2.26
+   ],
+   [
+    "soiled,",
+    2.26,
+    2.82
+   ],
+   [
+    "exchanged",
+    3.12,
+    3.46
+   ],
+   [
+    "free",
+    3.46,
+    3.7
+   ],
+   [
+    "at",
+    3.7,
+    3.88
+   ],
+   [
+    "the",
+    3.88,
+    4.04
+   ],
+   [
+    "counter.",
+    4.04,
+    4.32
+   ]
+  ]
+ },
+ "l5": {
+  "script": "A piece gone? It's still accepted, and paid by what's left: full, half, or nothing.",
+  "heard": "A piece gone, it's still accepted and paid by what's left, full, half or nothing.",
+  "wer": 0.0,
+  "words": [
+   [
+    "A",
+    0.0,
+    0.24
+   ],
+   [
+    "piece",
+    0.24,
+    0.4
+   ],
+   [
+    "gone,",
+    0.4,
+    0.76
+   ],
+   [
+    "it's",
+    1.06,
+    1.24
+   ],
+   [
+    "still",
+    1.24,
+    1.38
+   ],
+   [
+    "accepted",
+    1.38,
+    1.82
+   ],
+   [
+    "and",
+    1.82,
+    2.06
+   ],
+   [
+    "paid",
+    2.06,
+    2.22
+   ],
+   [
+    "by",
+    2.22,
+    2.42
+   ],
+   [
+    "what's",
+    2.42,
+    2.78
+   ],
+   [
+    "left,",
+    2.78,
+    3.06
+   ],
+   [
+    "full,",
+    3.56,
+    3.82
+   ],
+   [
+    "half",
+    3.92,
+    4.16
+   ],
+   [
+    "or",
+    4.16,
+    4.4
+   ],
+   [
+    "nothing.",
+    4.4,
+    4.58
+   ]
+  ]
+ },
+ "l6": {
+  "script": "Refused? Make a written complaint.",
+  "heard": "Refused, make a written complaint.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Refused,",
+    0.0,
+    0.72
+   ],
+   [
+    "make",
+    0.92,
+    1.04
+   ],
+   [
+    "a",
+    1.04,
+    1.14
+   ],
+   [
+    "written",
+    1.14,
+    1.32
+   ],
+   [
+    "complaint.",
+    1.32,
+    1.72
+   ]
+  ]
+ },
+ "l7": {
+  "script": "No reply in thirty days? Go to the RBI Ombudsman.",
+  "heard": "No reply in 30 days. Go to the RBI Ombudsman.",
+  "wer": 0.0,
+  "words": [
+   [
+    "No",
+    0.0,
+    0.32
+   ],
+   [
+    "reply",
+    0.32,
+    0.74
+   ],
+   [
+    "in",
+    0.74,
+    1.0
+   ],
+   [
+    "30",
+    1.0,
+    1.22
+   ],
+   [
+    "days.",
+    1.22,
+    1.7
+   ],
+   [
+    "Go",
+    2.06,
+    2.2
+   ],
+   [
+    "to",
+    2.2,
+    2.4
+   ],
+   [
+    "the",
+    2.4,
+    2.6
+   ],
+   [
+    "RBI",
+    2.6,
+    2.98
+   ],
+   [
+    "Ombudsman.",
+    2.98,
+    3.64
+   ]
+  ]
+ },
+ "l8": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}

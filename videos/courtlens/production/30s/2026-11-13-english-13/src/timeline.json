@@ -1,0 +1,180 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.3
+  },
+  {
+   "id": "l2",
+   "start": 2.7
+  },
+  {
+   "id": "l3",
+   "start": 5.25
+  },
+  {
+   "id": "l4",
+   "start": 10.2
+  },
+  {
+   "id": "l5",
+   "start": 14.9
+  },
+  {
+   "id": "l6",
+   "start": 20.6
+  },
+  {
+   "id": "l7",
+   "start": 22.9
+  },
+  {
+   "id": "l8",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.6,
+   "text": "TORN NOTE. WORTHLESS?",
+   "hl": [
+    "WORTHLESS?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 2.6,
+   "end": 5.1,
+   "text": "The bank says: no account, no exchange.",
+   "hl": [
+    "no",
+    "account,",
+    "exchange."
+   ]
+  },
+  {
+   "start": 5.1,
+   "end": 7.22,
+   "text": "But RBI rules say every branch",
+   "hl": [
+    "every",
+    "branch"
+   ]
+  },
+  {
+   "start": 7.22,
+   "end": 10.0,
+   "text": "must exchange notes, customer or not.",
+   "hl": [
+    "customer",
+    "or",
+    "not."
+   ]
+  },
+  {
+   "start": 10.0,
+   "end": 12.0,
+   "text": "Torn in two, nothing missing?",
+   "hl": [
+    "nothing",
+    "missing?"
+   ]
+  },
+  {
+   "start": 12.0,
+   "end": 14.75,
+   "text": "That's soiled: exchanged free at the counter.",
+   "hl": [
+    "soiled:",
+    "free"
+   ]
+  },
+  {
+   "start": 14.75,
+   "end": 16.7,
+   "text": "A piece gone? It's still accepted,",
+   "hl": [
+    "accepted,"
+   ]
+  },
+  {
+   "start": 16.7,
+   "end": 20.45,
+   "text": "and paid by what's left: full, half, or nothing.",
+   "hl": [
+    "what's",
+    "left:"
+   ]
+  },
+  {
+   "start": 20.45,
+   "end": 22.75,
+   "text": "Refused? Make a written complaint.",
+   "hl": [
+    "written",
+    "complaint."
+   ]
+  },
+  {
+   "start": 22.75,
+   "end": 26.75,
+   "text": "No reply in 30 days? Go to the RBI Ombudsman.",
+   "hl": [
+    "RBI",
+    "Ombudsman."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "tear": 0.35,
+  "split": 0.62,
+  "droop": 1.24,
+  "v2": 2.55,
+  "sign": 2.85,
+  "push": 4.45,
+  "v3": 5.05,
+  "stamp": 5.35,
+  "v3b": 6.45,
+  "b1": 6.6,
+  "b2": 6.85,
+  "b3": 7.1,
+  "cust": 9.0,
+  "notc": 9.6,
+  "v4": 10.0,
+  "join": 10.25,
+  "tape": 11.2,
+  "soiled": 12.4,
+  "swap": 13.3,
+  "free": 13.65,
+  "v5": 14.75,
+  "piece": 15.25,
+  "accept": 16.25,
+  "left": 17.3,
+  "full": 18.45,
+  "half": 18.8,
+  "nothing": 19.3,
+  "v6": 20.45,
+  "refused": 20.6,
+  "write": 21.45,
+  "v7": 22.75,
+  "cal": 22.95,
+  "calEnd": 24.15,
+  "go": 24.95,
+  "omb": 25.5,
+  "v8": 26.75
+ }
+}
