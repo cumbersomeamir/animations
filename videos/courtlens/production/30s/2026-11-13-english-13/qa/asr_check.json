@@ -1,0 +1,413 @@
+{
+ "full_wer": 0.014,
+ "heard": "TORN NOTE WORTHLESS The bank says, no account, no exchange. But RBI rules say every branch must exchange notes, customer or not. Torn in two, nothing missing, that's soiled, exchanged free at the counter. A piece gone, it's still accepted and paid by what's left. Full, half, or nothing. Refused, make a written complaint. No reply in 30 days. Go to the RBI Ombudsman. Follow Courtlands for everyday Indian law explained.",
+ "per_line": [
+  {
+   "id": "l1",
+   "script": "Torn note. Worthless?",
+   "heard": "TORN NOTE WORTHLESS",
+   "wer": 0.0
+  },
+  {
+   "id": "l2",
+   "script": "The bank says: no account, no exchange.",
+   "heard": "The bank says, no account, no exchange.",
+   "wer": 0.0
+  },
+  {
+   "id": "l3",
+   "script": "But RBI rules say every branch must exchange notes, customer or not.",
+   "heard": "But RBI rules say every branch must exchange notes, customer or not.",
+   "wer": 0.0
+  },
+  {
+   "id": "l4",
+   "script": "Torn in two, nothing missing? That's soiled: exchanged free at the counter.",
+   "heard": "Torn in two, nothing missing, that's soiled, exchanged free at the counter.",
+   "wer": 0.0
+  },
+  {
+   "id": "l5",
+   "script": "A piece gone? It's still accepted, and paid by what's left: full, half, or nothing.",
+   "heard": "A piece gone, it's still accepted and paid by what's left. Full, half, or nothing.",
+   "wer": 0.0
+  },
+  {
+   "id": "l6",
+   "script": "Refused? Make a written complaint.",
+   "heard": "Refused, make a written complaint.",
+   "wer": 0.0
+  },
+  {
+   "id": "l7",
+   "script": "No reply in thirty days? Go to the RBI Ombudsman.",
+   "heard": "No reply in 30 days. Go to the RBI Ombudsman.",
+   "wer": 0.0
+  },
+  {
+   "id": "l8",
+   "script": "Follow Courtlens for everyday Indian law explained.",
+   "heard": "Follow Courtlands for everyday Indian law explained.",
+   "wer": 0.143
+  }
+ ],
+ "words": [
+  [
+   "TORN",
+   0.1,
+   0.7
+  ],
+  [
+   "NOTE",
+   0.7,
+   1.1
+  ],
+  [
+   "WORTHLESS",
+   1.1,
+   1.78
+  ],
+  [
+   "The",
+   2.5,
+   2.86
+  ],
+  [
+   "bank",
+   2.86,
+   3.08
+  ],
+  [
+   "says,",
+   3.08,
+   3.46
+  ],
+  [
+   "no",
+   3.78,
+   3.9
+  ],
+  [
+   "account,",
+   3.9,
+   4.22
+  ],
+  [
+   "no",
+   4.38,
+   4.52
+  ],
+  [
+   "exchange.",
+   4.52,
+   4.92
+  ],
+  [
+   "But",
+   5.05,
+   5.49
+  ],
+  [
+   "RBI",
+   5.49,
+   5.95
+  ],
+  [
+   "rules",
+   5.95,
+   6.27
+  ],
+  [
+   "say",
+   6.27,
+   6.55
+  ],
+  [
+   "every",
+   6.55,
+   6.93
+  ],
+  [
+   "branch",
+   6.93,
+   7.27
+  ],
+  [
+   "must",
+   7.27,
+   7.59
+  ],
+  [
+   "exchange",
+   7.59,
+   8.15
+  ],
+  [
+   "notes,",
+   8.15,
+   8.57
+  ],
+  [
+   "customer",
+   9.03,
+   9.27
+  ],
+  [
+   "or",
+   9.27,
+   9.67
+  ],
+  [
+   "not.",
+   9.67,
+   9.89
+  ],
+  [
+   "Torn",
+   10.0,
+   10.58
+  ],
+  [
+   "in",
+   10.58,
+   10.82
+  ],
+  [
+   "two,",
+   10.82,
+   10.98
+  ],
+  [
+   "nothing",
+   11.1,
+   11.28
+  ],
+  [
+   "missing,",
+   11.28,
+   11.74
+  ],
+  [
+   "that's",
+   12.16,
+   12.46
+  ],
+  [
+   "soiled,",
+   12.46,
+   13.04
+  ],
+  [
+   "exchanged",
+   13.34,
+   13.68
+  ],
+  [
+   "free",
+   13.68,
+   13.9
+  ],
+  [
+   "at",
+   13.9,
+   14.08
+  ],
+  [
+   "the",
+   14.08,
+   14.24
+  ],
+  [
+   "counter.",
+   14.24,
+   14.56
+  ],
+  [
+   "A",
+   14.7,
+   15.14
+  ],
+  [
+   "piece",
+   15.14,
+   15.32
+  ],
+  [
+   "gone,",
+   15.32,
+   15.66
+  ],
+  [
+   "it's",
+   15.92,
+   16.14
+  ],
+  [
+   "still",
+   16.14,
+   16.28
+  ],
+  [
+   "accepted",
+   16.28,
+   16.72
+  ],
+  [
+   "and",
+   16.72,
+   16.98
+  ],
+  [
+   "paid",
+   16.98,
+   17.12
+  ],
+  [
+   "by",
+   17.12,
+   17.34
+  ],
+  [
+   "what's",
+   17.34,
+   17.68
+  ],
+  [
+   "left.",
+   17.68,
+   17.94
+  ],
+  [
+   "Full,",
+   18.44,
+   18.68
+  ],
+  [
+   "half,",
+   18.92,
+   19.06
+  ],
+  [
+   "or",
+   19.2,
+   19.34
+  ],
+  [
+   "nothing.",
+   19.34,
+   19.52
+  ],
+  [
+   "Refused,",
+   20.4,
+   21.28
+  ],
+  [
+   "make",
+   21.52,
+   21.62
+  ],
+  [
+   "a",
+   21.62,
+   21.74
+  ],
+  [
+   "written",
+   21.74,
+   21.92
+  ],
+  [
+   "complaint.",
+   21.92,
+   22.38
+  ],
+  [
+   "No",
+   22.7,
+   23.22
+  ],
+  [
+   "reply",
+   23.22,
+   23.64
+  ],
+  [
+   "in",
+   23.64,
+   23.9
+  ],
+  [
+   "30",
+   23.9,
+   24.12
+  ],
+  [
+   "days.",
+   24.12,
+   24.62
+  ],
+  [
+   "Go",
+   24.96,
+   25.12
+  ],
+  [
+   "to",
+   25.12,
+   25.3
+  ],
+  [
+   "the",
+   25.3,
+   25.5
+  ],
+  [
+   "RBI",
+   25.5,
+   25.88
+  ],
+  [
+   "Ombudsman.",
+   25.88,
+   26.56
+  ],
+  [
+   "Follow",
+   26.75,
+   27.35
+  ],
+  [
+   "Courtlands",
+   27.35,
+   27.89
+  ],
+  [
+   "for",
+   27.89,
+   28.19
+  ],
+  [
+   "everyday",
+   28.19,
+   28.63
+  ],
+  [
+   "Indian",
+   28.63,
+   28.99
+  ],
+  [
+   "law",
+   28.99,
+   29.27
+  ],
+  [
+   "explained.",
+   29.27,
+   29.85
+  ]
+ ],
+ "words_outside_captions": [],
+ "caption_alignment_pass": true
+}

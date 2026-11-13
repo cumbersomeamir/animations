@@ -14,8 +14,11 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   was chosen. Record: `context/episodes/2026-11-13-english13-torn-note-exchange.md`.
 - The approved rules in `context/09-feedback-rules-2026-11-11.md` were re-sent unchanged on 13 Nov and apply as
   written.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- Checkpoint commit 58a6580 (sources, narration, audio lines, timeline, scene, notes, thumbnail) was made before the
+  full render.
+- DELIVERED: `production/30s/2026-11-13-english-13/courtlens-30s-english13-01.mp4`
+  (sha256 dbc4f175950a4bfe6e3e6618e820002ca6e824ac21f4aea844f4943d568b6913) and the thumbnail
+  `courtlens-30s-english13-01-thumbnail.png` (sha256 60c3a9a030fc79761a8440e7332bab95593607d33a5b04d924aeee90beba67d5).
 
 ### Verified facts (details: `production/30s/2026-11-13-english-13/notes/LEGAL-SOURCES.md`)
 - **RBI Master Direction – Exchange of Notes and Coins** (RBI/DCM/2026-27/395, updated 16 Oct 2026):
@@ -75,9 +78,43 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - **Transitions:** the RBI stamp now lands at 5.35, closing a blank gap after the counter scene. The Ombudsman building
   now enters after the calendar moves aside.
 
+### Render issues and fixes
+- **Two full renders failed** at ~450 frames (Chromium "Unable to capture screenshot", then the browser closed).
+  - Cause: the session disk was full (86 MB free) from eleven old episodes' 900-frame PNG folders in the scratchpad.
+  - Those reproducible intermediate folders were deleted, leaving 26 GB free. The delivered MP4s are in git.
+  - `render.cjs` now retries a failed capture up to 3 times.
+- **Frame review of the first complete render:**
+  - The sign overlapped the chip (~2.9 s), so it now drops from the window top.
+  - A stray shrinking tick appeared (~13.5 s), so it now fades with the swap.
+  - The ✕ and the letter cross-faded (~21.2 s), so they are now sequential, and the ✕ pops at 20.5.
+  - The episode was re-rendered in full.
+- **Frame review of the second complete render:**
+  - The fading "EVERY BRANCH" label sat behind the people (~9.0 s), so it now fades before they step in.
+  - Frames 250–285 were re-rendered (`node render.cjs range $S/build13/frames 250-285`) and re-muxed
+    (`SKIP_FRAMES=1 ./build.sh`).
+  - Determinism evidence: frames 245–249 and 286–290 re-rendered with the new code are bit-identical to the full
+    render.
+- **Disk hygiene for future rounds:** delete `$S/buildNN/frames` after an episode is delivered (use literal paths).
+
+### Verification (final MP4)
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.0 LUFS / −2.4 dBTP.
+- Narration 8/8 at +3 ms; CTA 26.95–29.90 s (final 3.05 s); y<300 clear.
+- Caption ink in decoded frames: x 103..894, y 330..518.
+- English ASR on the final mix: WER 0.014 (the only miss is the ASR spelling "Courtlands"); all words fall in caption
+  windows.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-13-english-13/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- The RB-IOS 2026 scheme PDF was blocked by a human-verification page. Claims rest on the official RBI FAQ and on
+  Master Direction para 9, which still names the 2021 scheme.
+- The Note Refund Rules were read via a fetch summary of the RBI page (partial quotes).
+- The desktop review folder is not reachable from this cloud session, so the MP4 and thumbnail are attached in chat.
+
 ### Next
-- Full render, QA (spec, decode, loudness, narration placement, captions, ASR), QA.md, delivery commit and push, then
-  attach the MP4 and thumbnail.
+- Await the next request. No automation and no further episode unless asked.
 
 ## Round 2026-11-11 (english-12): can a landlord enter your rented home whenever they want? (Tamil Nadu)
 

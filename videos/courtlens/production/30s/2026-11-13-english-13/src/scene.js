@@ -325,7 +325,8 @@
       // the hanging sign swings down
       const sd = spring(t - E.sign, 1.4, 0.45), sw = wobble(t - E.sign, 0.08, 1.2, 1.8);
       if (t >= E.sign) {
-        ctx.save(); ctx.translate(CX, lerp(560, 712, sd)); ctx.rotate(sw);
+        ctx.save(); ctx.beginPath(); ctx.rect(0, 650, W, H - 650); ctx.clip();   // drops from the window top, never over the chip
+        ctx.translate(CX, lerp(560, 712, sd)); ctx.rotate(sw);
         ctx.strokeStyle = C.navySoft; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(-150, -40); ctx.lineTo(-150, 0); ctx.moveTo(150, -40); ctx.lineTo(150, 0); ctx.stroke();
         card(ctx, -250, 0, 500, 200, 18, C.card, { blur: 30, oy: 14, stroke: C.red, lw: 8 });
         txt(ctx, 'NO ACCOUNT?', 0, 84, { f: '900 62px Inter', a: 'center', c: C.red, maxW: 440 });
@@ -366,7 +367,7 @@
       }
       const r = rise(P(t, E.v3b + 0.05, E.v3b + 0.55));
       branch(ctx, CX, 1230 + 40 * (1 - r), 1.12, eo(P(t, E.b2, E.b2 + 0.35)), r * lerp(1, 0.7, pe));
-      label(ctx, 'EVERY BRANCH', CX, 1350, eo(P(t, E.b3 + 0.1, E.b3 + 0.5)) * (1 - pe));
+      label(ctx, 'EVERY BRANCH', CX, 1350, eo(P(t, E.b3 + 0.1, E.b3 + 0.5)) * (1 - P(t, E.cust - 0.5, E.cust - 0.25)));   // gone before the people step in
       // two people: an account holder and a walk-in
       if (t >= E.cust - 0.2) {
         ctx.save(); ctx.globalAlpha *= pe;
@@ -399,7 +400,7 @@
         drawNote(ctx, { fresh: true, shine: P(t, E.swap + 0.6, E.swap + 1.2) }); ctx.restore();
       }
       ctx.restore();
-      badge(ctx, CX + 360, 830, spring(t - E.tape - 0.3, 2, 0.5) * (1 - sw), true, 36);
+      badge(ctx, CX + 360, 830, spring(t - E.tape - 0.3, 2, 0.5) * (1 - eo(P(t, E.swap - 0.3, E.swap))), true, 36);
       // the counter: the old note goes down behind it, a fresh one comes back up
       const ck = eo(P(t, E.swap - 0.45, E.swap - 0.05));
       if (ck > 0) {
@@ -462,15 +463,15 @@
   // V6 — refused? a written complaint
   function v6(ctx, t) {
     withScene(ctx, win(t, E.v6, E.v7), () => {
-      const out = eio(P(t, E.write - 0.35, E.write));
+      const out = eio(P(t, E.write - 0.5, E.write - 0.2));
       if (out < 1) {
         ctx.save(); ctx.globalAlpha *= 1 - out;
         badge(ctx, CX, 1000, spring(t - E.refused, 2, 0.5), false, 120);
         label(ctx, 'REFUSED?', CX, 1240, eo(P(t, E.refused, E.refused + 0.3)), { f: '900 80px Inter', c: C.red });
         ctx.restore();
       }
-      if (t >= E.write - 0.35) {
-        const k = eo(P(t, E.write - 0.35, E.write + 0.1));
+      if (t >= E.write - 0.2) {
+        const k = eo(P(t, E.write - 0.2, E.write + 0.15));
         ctx.save(); ctx.globalAlpha *= k; ctx.translate(0, (1 - k) * 120);
         letter(ctx, CX, 1010, 0.92, P(t, E.write + 0.05, E.write + 1.0), t < E.write + 1.15);
         ctx.restore();

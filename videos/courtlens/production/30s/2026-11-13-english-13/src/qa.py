@@ -82,7 +82,7 @@ rep['top_safe_zone'] = {'frames_checked': int(len(fr)), 'darkest_pixel': int(min
 run(['ffmpeg', '-hide_banner', '-v', 'error', '-y', '-i', mp4, '-vf',
      "select='not(mod(n\\,30))',scale=270:480,drawtext=fontfile=/usr/share/fonts/opentype/inter/Inter-Bold.otf:text='%{eif\\:n\\:d}s':x=8:y=448:fontsize=22:fontcolor=0x02193B:box=1:boxcolor=0xFFFFFF@0.8,tile=6x5:padding=4:color=white",
      '-frames:v', '1', '-q:v', '3', os.path.join(out, 'contact-sheet-1fps.jpg')])
-times = [0.0, 0.7, 1.4, 2.3, 3.0, 4.6, 5.6, 7.9, 9.6, 11.8, 13.6, 15.4, 17.0, 19.6, 21.2, 22.9, 24.4, 26.0, 27.2, 29.94]
+times = [0.0, 0.5, 1.0, 1.8, 2.6, 2.9, 3.6, 4.8, 5.2, 5.8, 6.6, 7.6, 9.8, 10.2, 11.7, 12.8, 13.5, 14.2, 14.9, 15.6, 16.8, 18.6, 19.1, 19.7, 20.6, 21.2, 22.3, 22.9, 24.3, 25.2, 25.8, 26.9, 27.6, 29.94]  # english-13 beats and cuts
 tiles = []
 for t in times:
     f = os.path.join(out, f'_t{t:05.2f}.png')

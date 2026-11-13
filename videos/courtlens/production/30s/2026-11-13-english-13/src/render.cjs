@@ -2,6 +2,7 @@
 // Usage: node render.cjs frames <outDir> [workers]        -> f_0000.png ... f_0899.png
 //        node render.cjs stills <outDir> t1,t2,...         -> still_<t>.png
 //        node render.cjs thumb <outDir> <file.png>         -> separate vertical thumbnail
+//        node render.cjs range <framesDir> <f0>-<f1>       -> re-render frames f0..f1 in place
 const http = require('http'), fs = require('fs'), path = require('path');
 const { chromium } = require('playwright');
 const ROOT = __dirname;
@@ -30,12 +31,21 @@ function serve() {
     const err = await page.evaluate('window.RENDER_ERROR'); if (err) throw new Error(err);
     return page;
   };
-  const shot = async (page, t, file) => { await page.evaluate(t => window.renderAt(t), t); await page.screenshot({ path: file, type: 'png' }); };
+  const shot = async (page, t, file) => {             // retry: headless capture can fail transiently on long runs
+    for (let k = 0; ; k++) {
+      try { await page.evaluate(t => window.renderAt(t), t); await page.screenshot({ path: file, type: 'png' }); return; }
+      catch (e) { if (k >= 3) throw e; console.error(`retry ${k + 1} at t=${t}: ${String(e.message || e).split('\n')[0]}`); await new Promise(r => setTimeout(r, 500)); }
+    }
+  };
   const t0 = Date.now();
   if (mode === 'thumb') {
     const page = await open();
     await page.evaluate(() => window.renderThumb());
     await page.screenshot({ path: path.join(outDir, arg || 'thumbnail.png'), type: 'png' });
+  } else if (mode === 'range') {                     // re-render frames f0..f1 (inclusive) into an existing frames dir
+    const [f0, f1] = arg.split('-').map(Number);
+    const page = await open();
+    for (let f = f0; f <= f1; f++) await shot(page, f / tl.fps, path.join(outDir, `f_${String(f).padStart(4, '0')}.png`));
   } else if (mode === 'stills') {
     const page = await open();
     for (const t of arg.split(',').map(Number)) await shot(page, t, path.join(outDir, `still_${t.toFixed(2)}.png`));
