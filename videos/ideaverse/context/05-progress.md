@@ -142,3 +142,9 @@
 - Voice cloning under the 2026-11-11 rules (record context/27): production/30s/2026-11-11-english-12/ideaverse-30s-english12-01.mp4
   (sha256 31b2a9f6…8e96) + ideaverse-30s-english12-01-thumbnail.png; QA.md + qa/. Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-13 (2026-11-13) — RENDERING
+- Proposed inpainting topic = repeat of hindi03-01 → fresh: how Face ID knows it's you in the dark and why a photo fails
+  (record context/28; Apple KB 102381 + Platform Security). Icon re-checked (unchanged). Scene src/stage/faceid.js.
+- Pre-render mix ASR: all lines MATCH, no word outside captions. Full render running; then encode, thumb, mix, mux, qa.sh.

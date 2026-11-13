@@ -21,6 +21,10 @@
         {
           "date": "2026-11-11 (english-12)",
           "result": "Play listing og:image unchanged (5TopfIwT…, listing 'Updated on Oct 26, 2026'); fetched =s512 PNG differs in bytes (sha256 b238d171…) but is pixel-identical (max abs diff 0) to assets/icon.png (3406cac0…) — no replacement needed"
+        },
+        {
+          "date": "2026-11-13 (english-13)",
+          "result": "Play listing og:image unchanged (5TopfIwT…, 'Updated on Oct 26, 2026'); =s512 PNG pixel-identical (max abs diff 0) to assets/icon.png — no replacement needed"
         }
       ]
     }

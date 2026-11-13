@@ -228,3 +228,11 @@ Episodes 09–11 were already in production before this note and keep the earlie
   synthesis says new words → familiarity misleads; capabilities/limits without an unsourced "three seconds" claim; payoff:
   confirm unexpected urgent requests through a separate, known contact channel; no procedural fraud instructions;
   thumbnail "THAT VOICE LIED."
+
+## Batch 2026-11-13-english-13 — 2026-11-11 rules retained (no new style changes)
+- Latest feedback preserved: approved 15 s DOCKET style; obvious AI-use tips / shallow "good to know" topics rejected; icon
+  re-checked from the store listing; CTA exactly "Download the Ideaverse app."; no short-film / camera-roll concept.
+- Proposed "erased person → where does the background come from (inpainting)" is the 3rd request for the hindi03-01 subject
+  (also swapped in english-08 and english-11) → replaced by Face ID depth dots (context/28).
+- New technique inside the same style: 3D props with raycast dot clouds and per-shot light dimming; one big label at a time
+  pinned to the lower middle of the frame (camera-space), captions in the x 100..900 pill.
