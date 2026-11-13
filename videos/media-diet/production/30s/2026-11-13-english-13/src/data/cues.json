@@ -1,0 +1,107 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Boston Dynamics put scooter",
+   "wheels on its Atlas robot."
+  ],
+  "in": 0.07,
+  "out": 3.65
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Why would a walking",
+   "robot need wheels?"
+  ],
+  "in": 3.67,
+  "out": 5.85
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "It doesn't."
+  ],
+  "in": 5.87,
+  "out": 6.51
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "It's a stress test",
+   "for its motors."
+  ],
+  "in": 6.53,
+  "out": 8.55
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "No motor gives full torque",
+   "at full speed."
+  ],
+  "in": 8.57,
+  "out": 10.95
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Every launch, turn and stop",
+   "pushes that limit."
+  ],
+  "in": 10.97,
+  "out": 13.85
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "It trained in simulation,"
+  ],
+  "in": 13.87,
+  "out": 15.52
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "where perfect motors",
+   "teach impossible moves."
+  ],
+  "in": 15.54,
+  "out": 18.5
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "So the team measured",
+   "the real motors,"
+  ],
+  "in": 18.52,
+  "out": 20.51
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "and simulated those."
+  ],
+  "in": 20.53,
+  "out": 22.1
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "A robot's AI is only",
+   "as good as its motor model."
+  ],
+  "in": 22.12,
+  "out": 25.691
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

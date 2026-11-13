@@ -243,3 +243,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   Whisper word recall 1.0 full / 0.975 per line (token fusion "SpeedCubed").
 - Unresolved: audio and picture not yet reviewed by a human; no review folder exists in this container (MP4 only in the episode folder).
   Earlier outputs untouched. No automation, analytics or publishing.
+
+## Checkpoint 2026-11-13 — english-13 (topic + sources recorded; rendering)
+- Reread CLAUDE.md + this file; start state ee4dd12 = remote, no jobs. Topic (6–13 Nov 2026 window): Boston Dynamics "Atlas on a Roll"
+  (blog + video, 9 Nov 2026 14:50 UTC) — scooter rims on Atlas's ankle actuators as a motor stress test; research testbed, not a product.
+  Corroboration: The Robot Report, Korea JoongAng Daily, Interesting Engineering; motor physics: Northwestern Mechatronics Wiki.
+  Rejected: ApusNeo 100-h flight (unconfirmed), DARPA/Caltech ASTRA (5 Nov), Lift Ocean ONE (undated), CAT R3200 XE (leaks), BYD charger.
+  Record: context/28-production-30s-english13-01.md; sources/facts/illustrations: production/30s/2026-11-13-english-13/SOURCES.md.
+- Narration 81 words / 26.1 s (approved Kokoro blend), every take heard exactly by Whisper; word timestamps drive events.
+- Running: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840); next `SKIP_FRAMES=1 bash build/build.sh`,
+  `node build/thumb.mjs thumbnail-english13-01.png`, QA, commit MP4 + thumbnail.

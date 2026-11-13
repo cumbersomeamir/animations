@@ -1,0 +1,17 @@
+{
+  "name": "media-diet-30s-english13-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Media Diet 30 s English explainer: why would a walking robot need wheels? (Boston Dynamics wheeled Atlas testbed, 9 Nov 2026)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "bash build/build.sh"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/space-grotesk": "5.2.10",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/ibm-plex-mono": "5.2.7"
+  }
+}

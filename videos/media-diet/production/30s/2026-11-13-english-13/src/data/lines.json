@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "Boston Dynamics put scooter wheels on its Atlas robot.",
+  "duration": 3.293,
+  "words": 9
+ },
+ {
+  "id": "V2",
+  "say": "Why would a walking robot need wheels?",
+  "duration": 1.861,
+  "words": 7
+ },
+ {
+  "id": "V3",
+  "say": "It doesn't. It's a stress test for its motors.",
+  "duration": 2.36,
+  "words": 9
+ },
+ {
+  "id": "V4",
+  "say": "No motor gives full torque at full speed.",
+  "duration": 2.063,
+  "words": 8
+ },
+ {
+  "id": "V5",
+  "say": "Every launch, turn and stop pushes that limit.",
+  "duration": 2.593,
+  "words": 8
+ },
+ {
+  "id": "V6",
+  "say": "It trained in simulation, where perfect motors teach impossible moves.",
+  "duration": 4.333,
+  "words": 10
+ },
+ {
+  "id": "V7",
+  "say": "So the team measured the real motors, and simulated those.",
+  "duration": 3.298,
+  "words": 10
+ },
+ {
+  "id": "V8",
+  "say": "A robot's AI is only as good as its motor model.",
+  "duration": 3.191,
+  "words": 11
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]

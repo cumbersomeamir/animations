@@ -1,0 +1,227 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "Boston Dynamics put scooter wheels on its Atlas robot.",
+   "cues": [
+    [
+     "Boston Dynamics put scooter",
+     "wheels on its Atlas robot."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.75,
+   "say": "Why would a walking robot need wheels?",
+   "cues": [
+    [
+     "Why would a walking",
+     "robot need wheels?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.95,
+   "say": "It doesn't. It's a stress test for its motors.",
+   "cues": [
+    [
+     "It doesn't."
+    ],
+    [
+     "It's a stress test",
+     "for its motors."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.65,
+   "say": "No motor gives full torque at full speed.",
+   "cues": [
+    [
+     "No motor gives full torque",
+     "at full speed."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 11.05,
+   "say": "Every launch, turn and stop pushes that limit.",
+   "cues": [
+    [
+     "Every launch, turn and stop",
+     "pushes that limit."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 13.95,
+   "say": "It trained in simulation, where perfect motors teach impossible moves.",
+   "cues": [
+    [
+     "It trained in simulation,"
+    ],
+    [
+     "where perfect motors",
+     "teach impossible moves."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 18.6,
+   "say": "So the team measured the real motors, and simulated those.",
+   "cues": [
+    [
+     "So the team measured",
+     "the real motors,"
+    ],
+    [
+     "and simulated those."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 22.2,
+   "say": "A robot's AI is only as good as its motor model.",
+   "cues": [
+    [
+     "A robot's AI is only",
+     "as good as its motor model."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.66,
+   "beat": "hook: paper humanoid on scooter wheels rolls in and lands a 360 spin jump"
+  },
+  {
+   "id": "S2",
+   "in": 3.66,
+   "out": 5.86,
+   "beat": "super hook: close-up, the foot comes off and a scooter rim + one adapter bolts onto the ankle"
+  },
+  {
+   "id": "S3",
+   "in": 5.86,
+   "out": 8.56,
+   "beat": "answer: shell turns translucent, the actuators glow as it launches hard \u2014 a motor stress test"
+  },
+  {
+   "id": "S4",
+   "in": 8.56,
+   "out": 10.96,
+   "beat": "mechanism: torque-speed chart builds; the full-torque-at-full-speed corner is out of reach"
+  },
+  {
+   "id": "S5",
+   "in": 10.96,
+   "out": 13.86,
+   "beat": "proof: launch, turn and stop each push the operating point onto the limit line"
+  },
+  {
+   "id": "S6",
+   "in": 13.86,
+   "out": 15.53,
+   "beat": "it trained in simulation: a grid of ghost robots rolling"
+  },
+  {
+   "id": "S7",
+   "in": 15.53,
+   "out": 18.51,
+   "beat": "constraint: ideal-motor box vs the real triangle; a move in the corner is impossible"
+  },
+  {
+   "id": "S8",
+   "in": 18.51,
+   "out": 22.11,
+   "beat": "fix: measured points from a motor on a test bench; the simulated envelope snaps onto them"
+  },
+  {
+   "id": "S9",
+   "in": 22.11,
+   "out": 26.0,
+   "beat": "payoff: the robot rolls, dashes sideways and stops cleanly"
+  },
+  {
+   "id": "S10",
+   "in": 26.0,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "crouch": 1.35,
+  "jump": 1.72,
+  "land": 2.62,
+  "footOff": 3.95,
+  "rimOn": 4.45,
+  "labRim": 4.95,
+  "shell": 6.1,
+  "labTest": 6.65,
+  "glow": 7.0,
+  "launch3": 7.35,
+  "axes": 8.65,
+  "line": 8.95,
+  "corner": 10.1,
+  "labNot": 10.2,
+  "launch": 11.39,
+  "turn": 11.97,
+  "stop": 12.45,
+  "limit": 12.75,
+  "sim": 14.0,
+  "labSim": 14.73,
+  "ideal": 15.9,
+  "dotIn": 16.35,
+  "real": 17.05,
+  "labImp": 17.1,
+  "meas": 19.1,
+  "snap": 20.85,
+  "labMatch": 20.9,
+  "dash": 23.0,
+  "stop9": 24.6,
+  "labModel": 24.8,
+  "sign": 26.2
+ }
+}

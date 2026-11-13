@@ -1,0 +1,23 @@
+// Separate vertical thumbnail (1080x1920 PNG) rendered from the same scene: node build/thumb.mjs <out.png>
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { serve } from './serve.mjs';
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const WEBROOT = path.resolve(ROOT, '..', '..', '..');
+const REL = path.relative(WEBROOT, ROOT).split(path.sep).join('/');
+const out = process.argv[2] || 'thumbnail.png';
+const { server, port } = await serve(WEBROOT);
+const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--force-color-profile=srgb'] });
+const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+page.on('pageerror', (e) => { console.log('[pageerror]', e); process.exit(1); });
+await page.goto(`http://127.0.0.1:${port}/${REL}/src/index.html`);
+await page.waitForFunction(() => window.__ready === true, null, { timeout: 120000 });
+const texts = await page.evaluate(() => window.renderThumb());
+await page.screenshot({ path: out });
+fs.writeFileSync(out.replace(/\.png$/, '-text-bounds.json'), JSON.stringify(texts, null, 1));
+console.log('thumbnail', out, JSON.stringify(texts.map((t) => [t.text, t.x0, t.y0, t.x1, t.y1])));
+await browser.close(); server.close();

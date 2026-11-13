@@ -1,0 +1,7 @@
+Boston Dynamics put scooter wheels on its Atlas robot. Why would a walking robot need wheels? It doesn't. It's a stress test for its motors. No motor gives full torque at full speed. Every launch, turn and stop pushes that limit. It trained in simulation, where perfect motors teach impossible moves. So the team measured the real motors, and simulated those. A robot's AI is only as good as its motor model.
+
+Follow Media Diet for the physics behind the headlines.
+
+Demonstration: Boston Dynamics' "Atlas on a Roll" (9 Nov 2026), a research testbed, not a product. The torque–speed chart is a generic illustration, not Atlas data. Visuals: editorial reconstruction.
+
+#Robotics #Engineering #Physics #MediaDiet
