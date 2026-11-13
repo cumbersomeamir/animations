@@ -1,0 +1,442 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.2
+  },
+  {
+   "id": "l02",
+   "start": 5.3
+  },
+  {
+   "id": "l03",
+   "start": 7.65
+  },
+  {
+   "id": "l04",
+   "start": 10.25
+  },
+  {
+   "id": "l05",
+   "start": 13.7
+  },
+  {
+   "id": "l06",
+   "start": 16.95
+  },
+  {
+   "id": "l07",
+   "start": 20.4
+  },
+  {
+   "id": "l08",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_scale",
+   "t0": 0,
+   "t1": 3.4
+  },
+  {
+   "id": "react",
+   "t0": 3.4,
+   "t1": 7.58
+  },
+  {
+   "id": "shaft_up",
+   "t0": 7.58,
+   "t1": 13.63
+  },
+  {
+   "id": "shaft_cruise",
+   "t0": 13.63,
+   "t1": 16.88
+  },
+  {
+   "id": "shaft_slow",
+   "t0": 16.88,
+   "t1": 20.33
+  },
+  {
+   "id": "payoff",
+   "t0": 20.33,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "start": 0.7,
+  "jumpEnd": 1.0,
+  "cruise": 13.58,
+  "slow": 16.83,
+  "stop": 19.9,
+  "doorsOpen": 20.25,
+  "pushArrow": 8.8,
+  "gravArrow": 9.6,
+  "extra": 11.75,
+  "massTag": 20.5,
+  "graph": 22.1,
+  "no": 6.85,
+  "cta": 26.35,
+  "smile": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.13,
+   "end": 2.45,
+   "lines": [
+    [
+     [
+      "The elevator ",
+      0
+     ],
+     [
+      "starts up,",
+      1
+     ]
+    ],
+    [
+     [
+      "and the scale jumps",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.45,
+   "end": 5.23,
+   "lines": [
+    [
+     [
+      "from ",
+      0
+     ],
+     [
+      "75",
+      1
+     ],
+     [
+      " to ",
+      0
+     ],
+     [
+      "84",
+      1
+     ],
+     [
+      " kilos.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 5.23,
+   "end": 7.58,
+   "lines": [
+    [
+     [
+      "Did you gain nine kilos?",
+      0
+     ]
+    ],
+    [
+     [
+      "No.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.58,
+   "end": 10.18,
+   "lines": [
+    [
+     [
+      "A scale reads how hard",
+      0
+     ]
+    ],
+    [
+     [
+      "it ",
+      0
+     ],
+     [
+      "pushes up",
+      1
+     ],
+     [
+      " on you.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 10.18,
+   "end": 12.0,
+   "lines": [
+    [
+     [
+      "To ",
+      0
+     ],
+     [
+      "speed you up,",
+      1
+     ]
+    ],
+    [
+     [
+      "it must push harder",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.0,
+   "end": 13.63,
+   "lines": [
+    [
+     [
+      "than ",
+      0
+     ],
+     [
+      "gravity",
+      1
+     ],
+     [
+      " pulls.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 13.63,
+   "end": 16.88,
+   "lines": [
+    [
+     [
+      "At ",
+      0
+     ],
+     [
+      "steady speed,",
+      1
+     ],
+     [
+      " the push",
+      0
+     ]
+    ],
+    [
+     [
+      "matches gravity again.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.88,
+   "end": 18.86,
+   "lines": [
+    [
+     [
+      "Slowing",
+      1
+     ],
+     [
+      " at the top,",
+      0
+     ]
+    ],
+    [
+     [
+      "it pushes less,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.86,
+   "end": 20.33,
+   "lines": [
+    [
+     [
+      "so you read ",
+      0
+     ],
+     [
+      "lighter.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.33,
+   "end": 21.93,
+   "lines": [
+    [
+     [
+      "Your ",
+      0
+     ],
+     [
+      "mass",
+      1
+     ],
+     [
+      " never changed.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 21.93,
+   "end": 26.35,
+   "lines": [
+    [
+     [
+      "Only the ",
+      0
+     ],
+     [
+      "push",
+      1
+     ],
+     [
+      " did, while",
+      0
+     ]
+    ],
+    [
+     [
+      "your speed was changing.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.35,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   3.4,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   3.4,
+   7.58,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   7.58,
+   13.63,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   13.63,
+   16.88,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   16.88,
+   20.33,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   20.33,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

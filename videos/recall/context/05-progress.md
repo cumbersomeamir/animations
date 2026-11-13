@@ -67,3 +67,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s, why a screen goes black through polarized sunglasses + rotate test; record, topic-change reason, sources + QA in 24).
 - English-11 2026-11-09 batch (English; microwave food vs plate, kept as distinct from R02's cold patches): `videos/recall/production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4`
   (30.000 s, dielectric heating vs conduction into the plate, pottery that heats itself, dish test; record, topic check, sources + QA in 25).
+- English-13 2026-11-13 batch (English; one authorised video after a hold; elevator apparent weight): `videos/recall/production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4`
+  + `recall-30s-english13-01-thumbnail.png` (30.000 s; normal force vs mass; CTA from the verified listing; record, sources + QA in 26).

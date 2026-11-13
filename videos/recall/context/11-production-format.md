@@ -55,6 +55,10 @@ sheet, a static page or a page with camera bobbing is never the deliverable.
   clearly on top. Foley follows the on-screen action.
 - Loudness −14 to −16 LUFS, true peak ≤ −1 dBTP. One ASR + timing pass.
 
+**Batch note (2026-11-13, E13):** captions and labels within x 100–900 (y 230–1500 allowed; captions stay at y 340–520);
+a separate vertical thumbnail with 2–4 large words; marketing structure thumbnail → hook → super hook → build-up + proof →
+payoff → CTA; CTA wording from the verified listing ("Download Recall to turn your study material into lessons."). See 26.
+
 **Renderer note (2026-11-08, E09):** the overlay 2D canvas must be a software canvas (`willReadFrequently`) flushed before
 each capture, and frames are written from an explicit in-page composite of the 3D and overlay canvases; see context 23.
 
@@ -96,3 +100,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | E09 | Why does your phone ignore you once you put on gloves? (English; capacitive vs knit vs conductive-thread gloves; resistive screens) — distinct from H03 (wet screens) | `production/30s/2026-11-08-english-09/recall-30s-english09-01.mp4` | 23 |
 | E10 | Sunglasses on, and your phone goes black. Turn it, and it's back. Why? (English; screen filter vs polarized lenses, glare, rotate test) — the suggested QR topic was already F01 | `production/30s/2026-11-09-english-10/recall-30s-english10-01.mp4` | 24 |
 | E11 | Why is the food steaming but the plate still cool? (English; dielectric heating of water vs conduction into the plate; pottery that heats itself; dish test) — distinct from R02 (cold patches) | `production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4` | 25 |
+| E13 | Why an elevator feels heavier as it starts rising (English; normal force vs mass; scale readings; separate thumbnail; CTA from the verified listing) | `production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4` | 26 |

@@ -1,0 +1,15 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {"id": "l01", "text": "The elevator starts up, and the scale jumps from 75 to 84 kilos."},
+    {"id": "l02", "text": "Did you gain nine kilos? No."},
+    {"id": "l03", "text": "A scale reads how hard it pushes up on you."},
+    {"id": "l04", "text": "To speed you up, it must push harder than gravity pulls."},
+    {"id": "l05", "text": "At steady speed, the push matches gravity again."},
+    {"id": "l06", "text": "Slowing at the top, it pushes less, so you read lighter."},
+    {"id": "l07", "text": "Your mass never changed. Only the push did, while your speed was changing."},
+    {"id": "l08", "text": "Download Recall to turn your study material into lessons."}
+  ]
+}

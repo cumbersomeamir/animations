@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "spoken_groups": 12,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "The elevator starts up, / and the scale jumps",
+   "start": 0.13,
+   "end": 2.45,
+   "first_word_s": 0.2,
+   "last_word_s": 2.16,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "from 75 to 84 kilos.",
+   "start": 2.45,
+   "end": 5.23,
+   "first_word_s": 2.52,
+   "last_word_s": 4.14,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Did you gain nine kilos? / No.",
+   "start": 5.23,
+   "end": 7.58,
+   "first_word_s": 5.3,
+   "last_word_s": 6.92,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "A scale reads how hard / it pushes up on you.",
+   "start": 7.58,
+   "end": 10.18,
+   "first_word_s": 7.65,
+   "last_word_s": 9.61,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "To speed you up, / it must push harder",
+   "start": 10.18,
+   "end": 12.0,
+   "first_word_s": 10.25,
+   "last_word_s": 11.81,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "than gravity pulls.",
+   "start": 12.0,
+   "end": 13.63,
+   "first_word_s": 12.07,
+   "last_word_s": 12.55,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "At steady speed, the push / matches gravity again.",
+   "start": 13.63,
+   "end": 16.88,
+   "first_word_s": 13.7,
+   "last_word_s": 15.82,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Slowing at the top, / it pushes less,",
+   "start": 16.88,
+   "end": 18.86,
+   "first_word_s": 16.95,
+   "last_word_s": 18.13,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so you read lighter.",
+   "start": 18.86,
+   "end": 20.33,
+   "first_word_s": 18.93,
+   "last_word_s": 19.35,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Your mass never changed.",
+   "start": 20.33,
+   "end": 21.93,
+   "first_word_s": 20.4,
+   "last_word_s": 21.08,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Only the push did, while / your speed was changing.",
+   "start": 21.93,
+   "end": 26.35,
+   "first_word_s": 22.0,
+   "last_word_s": 24.06,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.35,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

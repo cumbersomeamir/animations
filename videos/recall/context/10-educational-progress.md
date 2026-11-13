@@ -136,3 +136,8 @@ already F01, so a distinct topic was chosen (reason in context 24); deliverable 
 ## Update 2026-11-09 batch — english-11
 Episode E11 "Why is the food steaming but the plate still cool?" (English); kept as distinct from R02 (cold patches); record in
 context 25; deliverable `videos/recall/production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4`.
+
+## Update 2026-11-13 batch — english-13
+Episode E13 "Why an elevator feels heavier as it starts rising" (English; the app was on hold; the user authorised this one
+video). New batch rules (marketing structure, thumbnail, captions x 100–900, verified CTA) in context 26; deliverable
+`videos/recall/production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4` + thumbnail.

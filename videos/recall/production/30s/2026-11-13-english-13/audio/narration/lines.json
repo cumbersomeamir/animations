@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "The elevator starts up, and the scale jumps from 75 to 84 kilos.",
+      "file": "l01.wav",
+      "duration": 4.835,
+      "sr": 24000,
+      "words_per_s": 2.69
+    },
+    {
+      "id": "l02",
+      "text": "Did you gain nine kilos? No.",
+      "file": "l02.wav",
+      "duration": 2.016,
+      "sr": 24000,
+      "words_per_s": 2.98
+    },
+    {
+      "id": "l03",
+      "text": "A scale reads how hard it pushes up on you.",
+      "file": "l03.wav",
+      "duration": 2.245,
+      "sr": 24000,
+      "words_per_s": 4.45
+    },
+    {
+      "id": "l04",
+      "text": "To speed you up, it must push harder than gravity pulls.",
+      "file": "l04.wav",
+      "duration": 3.07,
+      "sr": 24000,
+      "words_per_s": 3.58
+    },
+    {
+      "id": "l05",
+      "text": "At steady speed, the push matches gravity again.",
+      "file": "l05.wav",
+      "duration": 2.861,
+      "sr": 24000,
+      "words_per_s": 2.8
+    },
+    {
+      "id": "l06",
+      "text": "Slowing at the top, it pushes less, so you read lighter.",
+      "file": "l06.wav",
+      "duration": 2.971,
+      "sr": 24000,
+      "words_per_s": 3.7
+    },
+    {
+      "id": "l07",
+      "text": "Your mass never changed. Only the push did, while your speed was changing.",
+      "file": "l07.wav",
+      "duration": 4.349,
+      "sr": 24000,
+      "words_per_s": 2.99
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}
