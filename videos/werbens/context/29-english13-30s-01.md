@@ -145,7 +145,33 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + one i
 | CTA | 26.4–30 s | pull back | boxes slide off; logo tile lands 26.88 s; wordmark 27.55 s | slide, tile thud, D-major spread |
 
 ## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
-To be filled in after the final render.
+Final export = **render 2**. Render 1, in checkpoint 8957b35, had the "YOU" label touching the rising IKEA box at ≈ 7.8 s;
+this was fixed and the video re-rendered.
+- **Format:** 900 frames; video/audio/format 30.000000 s; H.264 High yuv420p 30/1 bt709; AAC-LC 48 kHz stereo; full decode
+  0 errors.
+- **Audio:** −15.0 LUFS, true peak −1.9 dBTP, flat factor 0.
+- **Narration on air:**
+
+  | Line | Time (s) |
+  |---|---|
+  | L1 | 0.33–2.77 |
+  | L2 | 3.23–4.67 |
+  | L3 | 5.28–7.80 |
+  | L4 | 8.43–14.25 |
+  | L5 | 15.03–18.15 |
+  | L6 | 19.43–21.51 |
+  | L7 | 22.23–25.74 |
+  | L8 | 27.07–29.28 |
+
+- **English ASR on the final mix:** matches the script apart from the spellings "IKEA", "busy work" and "Wurbens". ASR only; no
+  human listening was done.
+- **Every-frame DOM check:**
+  - caption ink x 139–861, y 369–489; pill x 109–891, y 353–507;
+  - labels x 197–883, y 572–1456;
+  - nothing in y 0–300; 0 overlaps; one big label at a time; no page errors.
+- **Transitions:** no empty frames.
+- **Thumbnail:** 1080×1920.
+- **MP4 sha256:** `7be48804cc1d45e437d1628f067d8a9e0159b7110ecc299f5ec2ffcbb0e209d8`. Earlier MP4s verified unchanged.
 
 ## 10. Progress / provenance log (this round)
 1. Repo/branch/account and earlier-jobs check; CLAUDE.md + 05-progress re-read.
@@ -160,5 +186,7 @@ To be filled in after the final render.
 9. `node src/render.mjs --video`. The first attempt was stopped to change the coin ratio to 5 : 3, then the render was
    restarted.
 10. ffmpeg mux → `bash qa.sh` → `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs <mp4>`.
+11. The transition sheet showed "YOU" touching the rising box → earlier fade + eased push → full re-render (render 2) → mux
+    → full QA again.
 
 Next step: none for this batch (one episode only; no automation).

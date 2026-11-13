@@ -61,5 +61,5 @@
 - English-12 (batch 2026-11-11-english-12) delivered `production/30s/2026-11-11-english-12/werbens-30s-english12-01.mp4` +
   thumbnail (brand positioning: same product, new perception; Häagen-Dazs + McClure 2004; dark-navy app.werbens.com theme; first
   episode under context/27; context/28).
-- English-13 (batch 2026-11-13-english-13) IN PROGRESS (final render running) `production/30s/2026-11-13-english-13/werbens-30s-english13-01.mp4`
+- English-13 (batch 2026-11-13-english-13) delivered `production/30s/2026-11-13-english-13/werbens-30s-english13-01.mp4`
   + thumbnail (IKEA effect; Norton, Mochon & Ariely 2012; IKEA concept statement; dark-navy app.werbens.com theme; context/29).
