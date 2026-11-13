@@ -1,0 +1,28 @@
+English intelligibility and timing evidence: wastepaisa-30s-english13-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.25 heard 0.22 | offset plan 3.49 heard 3.46 | heard: why does a mill pay eight rupees more a kilo for some iron
+   L2 word acc 1.00 | onset plan 3.80 heard 3.80 | offset plan 5.52 heard 5.51 | heard: the answer is inside the furnace
+   L3 word acc 0.91 | onset plan 5.85 heard 5.82 | offset plan 10.85 heard 10.86 | heard: then rusty sheet oxidizes away thick clean pieces return more steel
+   L4 word acc 0.90 | onset plan 11.15 heard 11.12 | offset plan 14.73 heard 14.75 | heard: so mills pay by grade punching top light scrap last
+   L5 word acc 1.00 | onset plan 15.05 heard 15.05 | offset plan 17.93 heard 17.90 | heard: keep heavy pieces apart dry and free of dirt
+   L6 word acc 0.93 | onset plan 18.25 heard 18.25 | offset plan 23.53 heard 23.53 | heard: same truck same trip cost but a ton of punching brings eight thousand rupees more
+   L7 word acc 1.00 | onset plan 23.85 heard 23.85 | offset plan 25.66 heard 25.68 | heard: mills pay for the steel they get back
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.954; every onset/offset within 0.03 s of plan (reference = the TTS spelling: oxidizes, ton; full record in
+   qa/asr-english-vosk.json)
+   Misses: "thin" heard as "then" (L3); the plural "punchings" heard as "punching" (L4, L6); brand out of vocabulary.
+   Diagnosis of "thin": the raw narration file L3.wav is heard as "thin"; the mixed export is heard as "then" even in test mixes with
+   the music or the SFX removed, so it is a recogniser reaction to resampling/normalisation, not masking. The engine below hears "Thin".
+   One real masking risk was fixed before this pass: a metallic clank at 5.56 s became a short low thud.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Why does a mill pay 8 rupees more a kilo for some iron? The answer is inside the furnace. Thin, rusty sheet oxidizes away. Thick, clean pieces return more steel. So mills pay by grade. Punching's top light scrap last. Keep heavy pieces apart, dry and free of dirt. Same truck, same trip cost, but a ton of punchings brings 8,000 rupees more. Mill's pay for the steel they get back. Join Waste Pisa and put your scrap to use.
+   Matches the script ("Thin", "punchings" in L6; "Punching's" for L4's "punchings"; "Mill's" for "Mills"), apart from the brand spelling.
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.48 dBFS, flat factor 0
+   (no clipped runs). SFX positions and reasons are in audio/cues.json.
+
+4) Draft stage: the first wording ran 30.9 s of speech against the 27 s CTA start and was tightened to 23.5 s.

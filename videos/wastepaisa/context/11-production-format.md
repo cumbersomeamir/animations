@@ -126,7 +126,9 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
   - Covered so far: paper cup, aluminium can, cable, brass, aluminium aggregation, pallets, cardboard grading, coconut-shell charcoal,
     PET bottles, glass cullet (english-08), cotton wiping rags (english-09), cardboard box reuse before
     scrap (english-10; a reuse angle, distinct from feedback-05's scrap grading), used cooking oil to licensed biodiesel
-    (english-11), stainless steel offcuts by grade (english-12; replaced a proposed aluminium-offcut topic that repeated hindi-03).
+    (english-11), stainless steel offcuts by grade (english-12; replaced a proposed aluminium-offcut topic that repeated hindi-03), steel scrap grades by
+    thickness/rust and furnace yield (english-13; replaced a proposed cardboard 'air in your load' topic that repeated english-07's
+    density lesson and feedback-05's cardboard grading). Density/baling, colour sorting, moisture and alloy content are now all taken.
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

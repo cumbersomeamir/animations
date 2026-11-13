@@ -1,0 +1,110 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (oxidizes, ton), WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Why does a mill pay eight rupees more a kilo for some iron?",
+   "heard": "why does a mill pay eight rupees more a kilo for some iron",
+   "word_acc": 1.0,
+   "plan_on": 0.25,
+   "heard_on": 0.22,
+   "plan_off": 3.49,
+   "heard_off": 3.46,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "The answer is inside the furnace.",
+   "heard": "the answer is inside the furnace",
+   "word_acc": 1.0,
+   "plan_on": 3.8,
+   "heard_on": 3.8,
+   "plan_off": 5.516,
+   "heard_off": 5.51,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Thin, rusty sheet oxidizes away; thick, clean pieces return more steel.",
+   "heard": "then rusty sheet oxidizes away thick clean pieces return more steel",
+   "word_acc": 0.909,
+   "plan_on": 5.85,
+   "heard_on": 5.82,
+   "plan_off": 10.854,
+   "heard_off": 10.86,
+   "missed": [
+    [
+     "thin"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "So mills pay by grade: punchings top, light scrap last.",
+   "heard": "so mills pay by grade punching top light scrap last",
+   "word_acc": 0.9,
+   "plan_on": 11.15,
+   "heard_on": 11.12,
+   "plan_off": 14.734,
+   "heard_off": 14.75,
+   "missed": [
+    [
+     "punchings"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Keep heavy pieces apart, dry and free of dirt.",
+   "heard": "keep heavy pieces apart dry and free of dirt",
+   "word_acc": 1.0,
+   "plan_on": 15.05,
+   "heard_on": 15.05,
+   "plan_off": 17.925,
+   "heard_off": 17.9,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "Same truck, same trip cost, but a ton of punchings brings eight thousand rupees more.",
+   "heard": "same truck same trip cost but a ton of punching brings eight thousand rupees more",
+   "word_acc": 0.933,
+   "plan_on": 18.25,
+   "heard_on": 18.25,
+   "plan_off": 23.526,
+   "heard_off": 23.53,
+   "missed": [
+    [
+     "punchings"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "Mills pay for the steel they get back.",
+   "heard": "mills pay for the steel they get back",
+   "word_acc": 1.0,
+   "plan_on": 23.85,
+   "heard_on": 23.85,
+   "plan_off": 25.661,
+   "heard_off": 25.68,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

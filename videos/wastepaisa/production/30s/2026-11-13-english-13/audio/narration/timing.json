@@ -1,0 +1,77 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 25.991,
+  "words": 77,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Why does a mill pay ₹8 more a kilo for some iron?",
+      "tts": "Why does a mill pay eight rupees more a kilo for some iron?",
+      "start": 0.25,
+      "phonemes": "wˌaɪ dˈʌz ɐ mˈɪl pˈeɪ ˈeɪt ɹˈuːpiːz mˈɔːɹ ɐ kˈiːloʊ fɔːɹ sˌʌm ˈaɪɚn?",
+      "duration": 3.24,
+      "end": 3.49
+    },
+    {
+      "id": "L2",
+      "text": "The answer is inside the furnace.",
+      "start": 3.8,
+      "phonemes": "ðɪ ˈænsɚɹ ɪz ɪnsˈaɪd ðə fˈɜːnɪs.",
+      "duration": 1.716,
+      "end": 5.516
+    },
+    {
+      "id": "L3",
+      "text": "Thin, rusty sheet oxidises away; thick, clean pieces return more steel.",
+      "tts": "Thin, rusty sheet oxidizes away; thick, clean pieces return more steel.",
+      "start": 5.85,
+      "phonemes": "θˈɪn, ɹˈʌsti ʃˈiːt ˈɑːksɪdˌaɪzᵻz ɐwˈeɪ; θˈɪk, klˈiːn pˈiːsᵻz ɹᵻtˈɜːn mˈɔːɹ stˈiːl.",
+      "duration": 5.004,
+      "end": 10.854
+    },
+    {
+      "id": "L4",
+      "text": "So mills pay by grade: punchings top, light scrap last.",
+      "start": 11.15,
+      "phonemes": "sˌoʊ mˈɪlz pˈeɪ baɪ ɡɹˈeɪd: pˈʌntʃɪŋz tˈɑːp, lˈaɪt skɹˈæp lˈæst.",
+      "duration": 3.584,
+      "end": 14.734
+    },
+    {
+      "id": "L5",
+      "text": "Keep heavy pieces apart, dry and free of dirt.",
+      "start": 15.05,
+      "phonemes": "kˈiːp hˈɛvi pˈiːsᵻz ɐpˈɑːɹt, dɹˈaɪ ænd fɹˈiː ʌv dˈɜːt.",
+      "duration": 2.875,
+      "end": 17.925
+    },
+    {
+      "id": "L6",
+      "text": "Same truck, same trip cost, but a tonne of punchings brings ₹8,000 more.",
+      "tts": "Same truck, same trip cost, but a ton of punchings brings eight thousand rupees more.",
+      "start": 18.25,
+      "phonemes": "sˈeɪm tɹˈʌk, sˈeɪm tɹˈɪp kˈɔst, bˌʌt ɐ tˈʌn ʌv pˈʌntʃɪŋz bɹˈɪŋz ˈeɪt θˈaʊzənd ɹˈuːpiːz mˈɔːɹ.",
+      "duration": 5.276,
+      "end": 23.526
+    },
+    {
+      "id": "L7",
+      "text": "Mills pay for the steel they get back.",
+      "start": 23.85,
+      "phonemes": "mˈɪlz pˈeɪ fɚðə stˈiːl ðeɪ ɡɛt bˈæk.",
+      "duration": 1.811,
+      "end": 25.661
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

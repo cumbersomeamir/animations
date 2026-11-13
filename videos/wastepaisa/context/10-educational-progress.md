@@ -361,6 +361,24 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   ₹5,000 ≈ ₹7,500. Episode record: `context/25-english-12-01.md`. No automation.
 - **Instagram reference:** only page metadata could be read (dexter_zee1, "Make Money ! From Hair ??!!", 5 Nov 2026); the video was not viewed.
 
+## english-13 (2026-11-13-english-13) episode 01: COMPLETE (English)
+- **Topic:** the proposed "Why cardboard buyers care about air in your load" was already covered (english-07 taught "loose bottles are
+  mostly air, and air costs transport" with loose-vs-baled trucks; feedback-05 graded clean dry cardboard; english-11 spread trip cost
+  over volume). Replacement with the same story criteria: steel scrap grades (thick, clean pieces vs thin, rusty sheet; furnace yield;
+  same truck and trip cost, different gross). Coir pith, human hair and sort-heavy-from-light iron were checked and set aside (notes).
+- **Rules:** the 2026-11-11 Published-apps rules (context 11) applied unchanged: Theory-of-Marketing structure, CTA 27–30 s, captions
+  centred at x 500 inside x 100–900, large brief labels, key light + depth-push transitions, separate thumbnail ("THICK BEATS THIN.").
+- **Output:** `videos/wastepaisa/production/30s/2026-11-13-english-13/wastepaisa-30s-english13-01.mp4`,
+  SHA-256 `876b9d37d5bfd994f201fd1ea74d5c34408749afe9710f18f72af164767db152`; thumbnail `wastepaisa-30s-english13-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:** caption ink x 135.5–864.5, y 366–494; timing within ±0.03 s; Vosk mean 0.954 ("thin"→"then" on the export only, plural
+  "punchings", brand OOV); Whisper matches the script apart from the brand. ASR and meters only: no listening in the cloud.
+- **Research:** Jalna mill card 13 Nov 2026 (punching ₹39,500/t … light melting ₹31,500/t, ex GST, via Steel Baba); Steel Dynamics
+  scrap inspection spec 20 Aug 2026 (#1 heavy melt ≥ ¼", free of dirt; downgrade rule); Midrex 2020 (low-density and rusty scrap yield
+  less); IspatGuru (punchings clean, high yield). Same-truck example: ₹39,500 vs ₹31,500 gross, same ₹3,700 trip + sorting, ₹8,000/t
+  apart; no buying price or profit assumed. Episode record: `context/26-english-13-01.md`. No automation.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

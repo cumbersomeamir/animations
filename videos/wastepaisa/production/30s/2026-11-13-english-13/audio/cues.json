@@ -1,0 +1,77 @@
+{
+ "sfx_cues": [
+  [
+   0.05,
+   "heaps settle on the scales (before \"Why\")"
+  ],
+  [
+   3.52,
+   "+8/kg lands (after the line)"
+  ],
+  [
+   3.62,
+   "furnace rises (before \"The answer\")"
+  ],
+  [
+   3.7,
+   "furnace hum under scenes 2-3 (below the voice band)"
+  ],
+  [
+   5.53,
+   "pieces land in the furnace: low thud only, so no metallic tail masks \"Thin\" at 5.91 (ASR fix)"
+  ],
+  [
+   7.75,
+   "oxidising sheet crackles (between \"away\" and \"thick\")"
+  ],
+  [
+   10.9,
+   "MORE STEEL (after the line)"
+  ],
+  [
+   11.0,
+   "rate card slides in (before \"So\")"
+  ],
+  [
+   14.78,
+   "card rows settle (after the line)"
+  ],
+  [
+   14.95,
+   "sorting starts (before \"Keep\")"
+  ],
+  [
+   16.42,
+   "roof lands (between \"apart\" and \"dry\")"
+  ],
+  [
+   17.98,
+   "trucks roll in (low)"
+  ],
+  [
+   23.58,
+   "+8,000 per tonne (after the line)"
+  ],
+  [
+   25.72,
+   "tick on the billet (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.56",
+  "input_tp": "-3.10",
+  "input_lra": "3.30",
+  "input_thresh": "-28.24",
+  "output_i": "-14.92",
+  "output_tp": "-1.50",
+  "output_lra": "3.20",
+  "output_thresh": "-25.62",
+  "normalization_type": "dynamic",
+  "target_offset": "-0.08"
+ }
+}

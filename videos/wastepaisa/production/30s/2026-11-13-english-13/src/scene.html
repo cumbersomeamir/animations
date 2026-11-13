@@ -1,0 +1,312 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-13 episode 01 "Why does a mill pay ₹8 more a kilo for some iron?" (steel scrap grades: thick/clean vs thin/rusty; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-11-english-12/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes only: CTA at 27-30 s, captions centred at x 500
+// inside x 100-900, large brief labels, a soft key light behind each subject, depth-push scene transitions and a separate thumbnail.
+// New: steel-scrap props (offcuts, rusty sheet, furnace cross-section, rate card, trucks) and scene functions; English captions use the
+// accepted English 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph); the ex-Hindi note follows: Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-13-english-13';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.6, [0, 1.6, 2.4]], [5.75, [0.25, 1.5, 2.0]], [11.0, [0, 1.85, 3.1]], [14.9, [-0.3, 1.7, 2.6]], [18.1, [0, 2.35, 3.7]], [23.7, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- steel-scrap props (solid foreground objects) ----------
+const FE = { steel: '#6f7d8a', steelHi: '#a9b6c2', steelDark: '#3f4952', edge: '#2a3138', rust: '#9c4a1c', rustHi: '#c96a2a', rustDark: '#6b2f12', melt: '#ffb347', meltHi: '#fff1b8', slag: '#7a3a16', refr: '#3a3f46', coil: '#c47a42' };
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function plate(x, y, w, h, rot, d = 12) { // thick clean steel offcut: face + visible thickness
+  g.save(); g.translate(x, y); g.rotate(rot); g.fillStyle = FE.steelDark; g.beginPath(); g.moveTo(-w / 2, h / 2); g.lineTo(w / 2, h / 2); g.lineTo(w / 2 + d * 0.6, h / 2 - d * 0.5); g.lineTo(w / 2 + d * 0.6, -h / 2 - d * 0.5); g.lineTo(w / 2, -h / 2); g.closePath(); g.fill();
+  const gr = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2); gr.addColorStop(0, FE.steel); gr.addColorStop(0.45, FE.steelHi); gr.addColorStop(1, FE.steel); g.fillStyle = gr; g.fillRect(-w / 2, -h / 2, w, h); g.strokeStyle = FE.edge; g.lineWidth = 2; g.strokeRect(-w / 2, -h / 2, w, h); g.restore(); }
+function disc(x, y, r, rot) { g.save(); g.translate(x, y); g.rotate(rot); g.fillStyle = FE.steelDark; g.beginPath(); g.ellipse(4, 5, r, r * 0.55, 0, 0, 7); g.fill(); const gr = g.createLinearGradient(-r, -r, r, r); gr.addColorStop(0, FE.steel); gr.addColorStop(0.5, FE.steelHi); gr.addColorStop(1, FE.steel); g.fillStyle = gr; g.beginPath(); g.ellipse(0, 0, r, r * 0.55, 0, 0, 7); g.fill(); g.strokeStyle = FE.edge; g.lineWidth = 2; g.stroke(); g.restore(); }
+function rustSheet(x, y, w, h, rot, seed) { // thin, rusty, wavy sheet with holes
+  const R = rng(seed); g.save(); g.translate(x, y); g.rotate(rot); g.beginPath(); g.moveTo(-w / 2, 0); for (let i = 0; i <= 8; i++) g.lineTo(-w / 2 + i * w / 8, -h / 2 + Math.sin(i * 1.3 + seed) * 4); g.lineTo(w / 2, h / 2); for (let i = 8; i >= 0; i--) g.lineTo(-w / 2 + i * w / 8, h / 2 + Math.sin(i * 1.1 + seed) * 4); g.closePath();
+  g.fillStyle = FE.rust; g.fill(); g.save(); g.clip(); for (let i = 0; i < 6; i++) { g.fillStyle = i % 2 ? FE.rustHi : FE.rustDark; g.beginPath(); g.ellipse((R() - 0.5) * w, (R() - 0.5) * h, 10 + R() * 18, 5 + R() * 8, R() * 3, 0, 7); g.fill(); } g.restore();
+  g.fillStyle = 'rgba(7,9,11,0.85)'; for (let i = 0; i < 2; i++) { g.beginPath(); g.arc((R() - 0.5) * w * 0.7, (R() - 0.5) * h * 0.5, 3 + R() * 4, 0, 7); g.fill(); } g.strokeStyle = FE.rustDark; g.lineWidth = 1.5; g.stroke(); g.restore(); }
+function bigHeap(x, y, sc, w, kind, seed, n) { g.save(); g.translate(x, y); g.scale(sc, sc); heap(0, 0, w, kind, seed, n); g.restore(); }
+function heap(x, y, w, kind, seed, n = 14) { const R = rng(seed); for (let i = 0; i < n; i++) { const u = (R() - 0.5) * w * (1 - i / n * 0.55), v = -R() * 30 - i * 3.2, rot = (R() - 0.5) * 1.2;
+  if (kind === 'heavy') { if (R() < 0.35) disc(x + u, y + v, 18 + R() * 8, rot); else plate(x + u, y + v, 60 + R() * 40, 26 + R() * 14, rot, 12); } else rustSheet(x + u, y + v, 90 + R() * 50, 12 + R() * 6, rot * 0.8, seed * 13 + i); } }
+function scale(x, y, w, val, a = 1) { // bench/floor scale with a front LCD; (x, y) = floor contact, load stands at y - 70
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20;
+  rr(x - w / 2, y - 70, w, 70, 10); g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = '#7d8790'; g.fillRect(x - w / 2 + 6, y - 70, w - 12, 10);
+  rr(x - 96, y - 56, 192, 46, 8); g.fillStyle = '#0f2a1b'; g.fill(); textC(val, x, y - 32, 36, '#7dff9e', 800); g.restore(); }
+function furnace(x, y, w, h, t, pool, slag, a = 1) { // induction furnace cross-section; (x, y) = base centre; pool/slag 0..1
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const x0 = x - w / 2, top = y - h;
+  g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(x0, top, w, h, 26); g.fillStyle = FE.refr; g.fill(); g.shadowColor = 'transparent';
+  for (let i = 0; i < 6; i++) { const yy = top + h * 0.2 + i * h * 0.12; g.fillStyle = FE.coil; rr(x0 - 12, yy, 26, h * 0.07, 6); g.fill(); rr(x0 + w - 14, yy, 26, h * 0.07, 6); g.fill(); }
+  const ix = x0 + 34, iw = w - 68, ib = y - 30, ih = h - 60; g.save(); rr(ix, top + 30, iw, ih, 18); g.clip(); g.fillStyle = '#15191d'; g.fillRect(ix, top + 30, iw, ih);
+  const ph = ih * 0.85 * pool, py = ib - ph; if (pool > 0) { const gr = g.createLinearGradient(0, py, 0, ib); gr.addColorStop(0, FE.meltHi); gr.addColorStop(0.4, FE.melt); gr.addColorStop(1, '#e0601a'); g.fillStyle = gr; g.fillRect(ix, py, iw, ph);
+    g.fillStyle = 'rgba(255,255,255,0.35)'; for (let i = 0; i < 4; i++) g.fillRect(ix + 20 + i * iw / 4, py + 10 + Math.sin(t * 3 + i) * 4, iw / 8, 4); }
+  if (slag > 0) { const sh = ih * 0.3 * slag; g.fillStyle = FE.slag; g.fillRect(ix, py - sh, iw, sh); g.fillStyle = 'rgba(40,16,6,0.6)'; const R = rng(3); for (let i = 0; i < 18; i++) { g.beginPath(); g.arc(ix + R() * iw, py - R() * sh, 3 + R() * 5, 0, 7); g.fill(); } }
+  g.restore(); const glow = g.createRadialGradient(x, top + 20, 10, x, top + 20, w * 0.7); glow.addColorStop(0, `rgba(255,170,80,${0.35 * Math.max(pool, 0.3)})`); glow.addColorStop(1, 'rgba(255,170,80,0)'); g.fillStyle = glow; g.fillRect(x - w, top - w * 0.6, 2 * w, w * 1.2);
+  g.restore(); }
+function rateCard(x, y, rows, t, a = 1) { // mill rate card revealed row by row; rows: [name, value, t0, hiT, tone]
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(x - 330, y - 60, 660, 110 + rows.length * 110, 24); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(x - 330, y - 60, 660, 96, 24); g.clip(); g.fillStyle = C.green; g.fillRect(x - 330, y - 60, 660, 96); g.restore(); textC('MILL RATE CARD', x, y - 12, 44, C.cream, 800);
+  rows.forEach(([name, val, t0, hiT, tone], i) => { const k = easeOut(prog(t, t0, t0 + 0.3)); if (k <= 0) return; const ry = y + 90 + i * 110; g.save(); g.globalAlpha *= k; g.translate(30 * (1 - k), 0);
+    const hi = t > hiT; if (hi) { rr(x - 310, ry - 46, 620, 92, 18); g.fillStyle = tone === 'top' ? C.warm : 'rgba(192,57,43,0.18)'; g.fill(); }
+    g.font = '800 46px "Baloo 2"'; g.textBaseline = 'middle'; g.textAlign = 'left'; g.fillStyle = hi && tone === 'top' ? '#1d130e' : C.ink; g.fillText(name, x - 280, ry + 3); g.textAlign = 'right'; g.fillStyle = hi && tone === 'top' ? '#1d130e' : tone === 'low' && hi ? '#c0392b' : C.ink; g.fillText(val, x + 280, ry + 3);
+    if (i < rows.length - 1) { g.fillStyle = 'rgba(29,19,14,0.15)'; g.fillRect(x - 300, ry + 54, 600, 2); } g.restore(); });
+  g.restore(); }
+function roof(x, y, w, k) { if (k <= 0) return; g.save(); g.globalAlpha *= clamp(k * 2); const yy = y - 40 * (1 - k); g.fillStyle = '#59616b'; g.fillRect(x - w / 2 + 10, yy, 14, 260); g.fillRect(x + w / 2 - 24, yy, 14, 260);
+  g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 10; g.shadowBlur = 16; g.beginPath(); g.moveTo(x - w / 2 - 20, yy + 20); g.lineTo(x, yy - 40); g.lineTo(x + w / 2 + 20, yy + 20); g.lineTo(x + w / 2 + 20, yy + 34); g.lineTo(x, yy - 26); g.lineTo(x - w / 2 - 20, yy + 34); g.closePath(); g.fillStyle = '#8f969e'; g.fill(); g.restore(); }
+function truck(x, y, s, kind, seed, a = 1) { // flatbed truck, side view facing right; load heap on the bed
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16;
+  rr(150, -150, 120, 120, 16); g.fillStyle = C.green; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = 'rgba(143,211,224,0.6)'; rr(182, -136, 66, 46, 6); g.fill();
+  g.fillStyle = '#3a4048'; g.fillRect(-250, -46, 410, 22); g.fillStyle = '#59616b'; g.fillRect(-250, -96, 10, 52); g.fillRect(140, -96, 10, 52);
+  g.save(); g.beginPath(); g.rect(-245, -260, 390, 216); g.clip(); heap(-50, -50, 340, kind, seed, kind === 'heavy' ? 12 : 22); g.restore();
+  for (const wx of [-170, 40, 210]) { g.beginPath(); g.arc(wx, -10, 32, 0, 7); g.fillStyle = '#1d2126'; g.fill(); g.beginPath(); g.arc(wx, -10, 12, 0, 7); g.fillStyle = '#9aa2aa'; g.fill(); } g.restore(); }
+function billet(x, y, w, h, glow) { g.save(); g.shadowColor = `rgba(255,150,60,${0.6 * glow})`; g.shadowBlur = 40 * glow; const gr = g.createLinearGradient(x - w / 2, 0, x + w / 2, 0); gr.addColorStop(0, `rgb(${lerp(110, 255, glow)},${lerp(125, 140, glow)},${lerp(138, 60, glow)})`); gr.addColorStop(1, `rgb(${lerp(80, 230, glow)},${lerp(90, 100, glow)},${lerp(100, 40, glow)})`);
+  rr(x - w / 2, y - h, w, h, 10); g.fillStyle = gr; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = 'rgba(255,255,255,0.2)'; g.fillRect(x - w / 2 + 10, y - h + 8, w - 20, 8); g.restore(); }
+function tick(x, y, s, k, col = C.warm) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 14; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(-34, 0); const k1 = clamp(k * 2), k2 = clamp(k * 2 - 1); g.lineTo(-34 + 24 * k1, 26 * k1); if (k2 > 0) g.lineTo(-10 + 54 * k2, 26 - 66 * k2); g.stroke(); g.restore(); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.6: clean offcuts vs thin rusty sheet; the mill's quotes flip from '₹ ?'
+  g.save(); g.globalAlpha = a;
+  spot(540, 1220, 640);
+  for (const [x, kind, name, q, d] of [[290, 'heavy', 'CLEAN OFFCUTS', '₹39.50/kg', 1.4], [790, 'light', 'THIN, RUSTY SHEET', '₹31.50/kg', 2.0]]) {
+    scale(x, 1500, 420, '100 kg'); bigHeap(x, 1426, 1.4, 270, kind, kind === 'heavy' ? 4 : 7, kind === 'heavy' ? 18 : 22);
+    g.save(); g.translate(x, 1580); rr(-170, -30, 340, 60, 14); g.fillStyle = 'rgba(18,22,26,0.9)'; g.fill(); textC(name, 0, 3, 32, C.cream, 800); g.restore();
+    const fl = prog(t, d - 0.12, d + 0.12), sy = Math.abs(Math.cos(fl * Math.PI)); g.save(); g.translate(x, 790); g.scale(1.2, 1.2 * Math.max(0.04, sy)); priceTag(0, 0, 'MILL PAYS', fl < 0.5 ? '₹ ?' : q, 1); g.restore(); }
+  const bk = back(prog(t, 2.25, 2.6)); if (bk > 0) { g.save(); g.translate(540, 940); g.scale(bk, bk); rr(-120, -38, 240, 76, 38); g.fillStyle = C.warm; g.fill(); textC('+₹8 / kg', 0, 4, 44, '#1d130e', 800); g.restore(); }
+  textC('JALNA MILL RATES · 13 NOV 2026', 540, 1030, 30, `rgba(254,247,238,${0.85 * prog(t, 2.6, 2.9)})`, 700);
+  g.restore();
+}
+function sInto(t, a) { // 3.6 - 5.75: both loads head into a glowing furnace
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 620);
+  const fk = easeOut(prog(t, 3.65, 4.3)); furnace(540, 1500 + 200 * (1 - fk), 420, 520, t, 0.25, 0, fk);
+  for (let i = 0; i < 8; i++) { const t0 = 4.4 + i * 0.12, k = prog(t, t0, t0 + 0.55); if (k <= 0 || k >= 1) continue; const fromL = i % 2 === 0; const [fx, fy] = fly(fromL ? 220 : 860, 1250, 540 + (i - 4) * 20, 1010, ease(k), 160);
+    if (fromL) plate(fx, fy, 70, 30, k * 4, 12); else rustSheet(fx, fy, 110, 16, k * 3, 20 + i); }
+  mascot(160, 1560, 0.5, { armL: [-0.7, 110], armR: [1.2, 60], look: [0.8, -0.4], lid: -0.5 });
+  g.restore();
+}
+function sMelt(t, a) { // 5.75 - 11.0: two furnace cross-sections; thin rusty sheet oxidises into slag, thick clean pieces give more steel
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 660);
+  const rk = prog(t, 6.0, 8.0), lk = prog(t, 8.4, 10.4);
+  furnace(300, 1480, 380, 560, t, 0.08 + 0.62 * ease(lk), 0.15 * ease(lk));
+  furnace(780, 1480, 380, 560, t, 0.08 + 0.32 * ease(rk), 0.85 * ease(rk));
+  for (let i = 0; i < 4; i++) { const k = clamp(rk * 2 - i * 0.3); if (k > 0 && k < 1) rustSheet(780 + (i - 1.5) * 50, lerp(990, 1300, ease(k)), 90, 14, i, 40 + i); }
+  for (let i = 0; i < 3; i++) { const k = clamp(lk * 2 - i * 0.3); if (k > 0 && k < 1) plate(300 + (i - 1) * 60, lerp(990, 1320, ease(k)), 80, 34, i * 0.4, 12); }
+  if (rk > 0.2) { const R = rng(9); for (let i = 0; i < 16; i++) { const ph = (t * 0.7 + R()) % 1; g.fillStyle = `rgba(201,106,42,${0.8 * (1 - ph) * a})`; g.beginPath(); g.arc(720 + R() * 120, 1260 - ph * 220, 4 + R() * 4, 0, 7); g.fill(); } }
+  label('OXIDISED', 780, 820, prog(t, 7.02, 7.25), { size: 48, warm: true });
+  label('MORE STEEL', 300, 820, prog(t, 10.08, 10.3), { size: 48, warm: true });
+  g.restore();
+}
+function sCard(t, a) { // 11.0 - 14.9: one mill's dated rate card: punchings at the top, light scrap at the bottom
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 640);
+  rateCard(540, 820, [['PUNCHINGS', '₹39,500/t', 11.35, 12.74, 'top'], ['MELTING', '₹37,500/t', 11.6, 99, 'mid'], ['LIGHT SCRAP', '₹31,500/t', 11.85, 13.58, 'low']], t);
+  textC('JALNA · 13 NOV 2026 · EX GST', 540, 1270, 30, `rgba(254,247,238,${0.85 * prog(t, 12.0, 12.3)})`, 700);
+  mascot(170, 1560, 0.5, { armL: [-0.6, 110], armR: [1.2, 60], look: [0.8, -0.5], lid: -0.5, hop: t > 12.8 && t < 13.3 ? Math.sin((t - 12.8) * 6.28) * 8 : 0 });
+  g.restore();
+}
+function sSort(t, a) { // 14.9 - 18.1: keep heavy pieces apart, under a roof, free of dirt
+  g.save(); g.globalAlpha = a;
+  spot(540, 1200, 640);
+  roof(330, 1130, 380, easeOut(prog(t, 16.5, 16.9)));
+  bigHeap(330, 1460, 1.35, 240, 'heavy', 11, 7 + Math.floor(7 * prog(t, 15.2, 16.2)));
+  bigHeap(800, 1460, 1.35, 230, 'light', 12, 9 + Math.floor(7 * prog(t, 15.4, 16.4)));
+  for (let i = 0; i < 6; i++) { const t0 = 15.15 + i * 0.18, k = prog(t, t0, t0 + 0.45); if (k <= 0 || k >= 1) continue; const heavy = i % 2 === 0; const [fx, fy] = fly(560, 1500, heavy ? 330 : 800, 1380, ease(k), 140); if (heavy) plate(fx, fy, 70, 30, k * 3, 12); else rustSheet(fx, fy, 100, 14, k * 3, 60 + i); }
+  if (t > 17.15) { const R = rng(21); for (let i = 0; i < 10; i++) { const k = clamp((t - 17.15) * 1.5 - R() * 0.4); if (k <= 0 || k >= 1) continue; g.fillStyle = `rgba(110,84,52,${(1 - k) * a})`; g.beginPath(); g.arc(250 + R() * 160, 1380 + k * 90, 3 + R() * 3, 0, 7); g.fill(); } }
+  label('HEAVY APART', 540, 760, prog(t, 15.92, 16.1) * (1 - prog(t, 16.45, 16.58)), { size: 48, warm: true });
+  label('DRY · NO DIRT', 540, 760, prog(t, 16.58, 16.8), { size: 48, warm: true });
+  g.restore();
+}
+function sTruck(t, a) { // 18.1 - 23.7: same truck, same trip cost; a tonne of punchings brings ₹8,000 more (dated mill rates)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 680);
+  const tagK = back(prog(t, 18.3, 18.65)); if (tagK > 0) { g.save(); g.translate(540, 625); g.scale(tagK, tagK); rr(-130, -40, 260, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('EXAMPLE', 0, 4, 44, C.warm, 800); g.restore(); }
+  const k1 = easeOut(prog(t, 18.3, 18.9)), k2 = easeOut(prog(t, 18.6, 19.2));
+  truck(lerp(-240, 340, k1), 1040, 0.95, 'heavy', 31, k1 > 0 ? 1 : 0); truck(lerp(-240, 340, k2), 1450, 0.95, 'light', 32, k2 > 0 ? 1 : 0);
+  label('1 t', 310, 740, prog(t, 18.9, 19.1) * (1 - prog(t, 19.4, 19.5)), { size: 44 }); label('1 t', 310, 1150, prog(t, 19.1, 19.3) * (1 - prog(t, 19.4, 19.5)), { size: 44 });
+  const ck = prog(t, 19.48, 19.75); if (ck > 0) { label('TRIP + SORTING ₹3,700', 330, 740, ck, { size: 38 }); label('TRIP + SORTING ₹3,700', 330, 1150, ck, { size: 38 }); }
+  ticket(810, 880, 0.02, 'PUNCHINGS', '₹39,500', back(prog(t, 21.07, 21.4)), 300);
+  ticket(810, 1300, -0.02, 'LIGHT SCRAP', '₹31,500', back(prog(t, 21.3, 21.6)), 300);
+  const bk = back(prog(t, 21.97, 22.3)); if (bk > 0) { g.save(); g.translate(810, 1090); g.scale(bk, bk); rr(-150, -40, 300, 80, 40); g.fillStyle = C.warm; g.fill(); textC('+₹8,000 / t', 0, 4, 44, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sBack(t, a) { // 23.7 - 27.0: mills pay for the steel they get back
+  g.save(); g.globalAlpha = a;
+  spot(540, 1180, 660);
+  furnace(380, 1420, 360, 460, t, 0.7, 0.12);
+  const bk = easeOut(prog(t, 24.0, 24.7)); if (bk > 0) { g.fillStyle = '#3a4048'; for (let i = 0; i < 5; i++) { g.beginPath(); g.arc(560 + i * 90, 1440, 14, 0, 7); g.fill(); } billet(lerp(560, 760, bk), 1424, 300, 70, 1 - 0.6 * prog(t, 24.8, 26.5)); }
+  const vp = back(prog(t, 24.69, 25.0)); if (vp > 0) { g.save(); g.translate(540, 700); g.scale(vp, vp); rr(-320, -46, 640, 92, 46); g.fillStyle = C.warm; g.fill(); textC('PAID FOR THE STEEL OUT', 0, 4, 46, '#1d130e', 800); g.restore(); }
+  tick(760, 1280, 1.1, prog(t, 25.3, 25.7));
+  mascot(150, 1580, 0.45, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, hop: t > 25.3 && t < 25.8 ? Math.sin((t - 25.3) * 6.28) * 8 : 0 });
+  g.restore();
+}
+// ---------- thumbnail (separate vertical image tied to the hook; 3 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0.6, 0.8); spot(540, 1250, 720);
+  for (const [x, kind, name, q] of [[290, 'heavy', 'CLEAN OFFCUTS', '₹39.50/kg'], [790, 'light', 'THIN, RUSTY SHEET', '₹31.50/kg']]) {
+    scale(x, 1540, 420, '100 kg'); bigHeap(x, 1466, 1.4, 270, kind, kind === 'heavy' ? 4 : 7, kind === 'heavy' ? 18 : 22);
+    g.save(); g.translate(x, 960); g.scale(1.25, 1.25); priceTag(0, 0, 'MILL PAYS', q, 1); g.restore(); }
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('THICK', 540, 470, 130, C.cream, 800); textC('BEATS THIN.', 540, 620, 130, C.warm, 800); g.restore();
+  mascot(540, 1780, 0.55, { armL: [-0.9, 100], armR: [0.9, 100], look: [0, -0.5], lid: -0.5 });
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.6], [sInto, 3.6, 5.75], [sMelt, 5.75, 11.0], [sCard, 11.0, 14.9], [sSort, 14.9, 18.1], [sTruck, 18.1, 23.7], [sBack, 23.7, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Why does a mill pay|[₹8 more a kilo]', ['for [some iron?]', 2.37]],
+  L2: ['The answer is|[inside the furnace.]'],
+  L3: ['[Thin, rusty sheet]|oxidises away;', ['[thick, clean pieces]|return more steel.', 2.58]],
+  L4: ['So mills pay [by grade:]', ['[punchings] top,|[light scrap] last.', 1.59]],
+  L5: ['Keep [heavy pieces] apart,', ['[dry] and [free of dirt.]', 1.53]],
+  L6: ['Same truck,|same trip cost,', ['but a tonne of punchings|brings [₹8,000 more.]', 2.28]],
+  L7: ['Mills pay for|[the steel they get back.]'],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  const big = false, fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>
