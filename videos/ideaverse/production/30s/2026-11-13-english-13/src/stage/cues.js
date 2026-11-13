@@ -23,8 +23,10 @@ const CUES = {
   ],
   // caption safe area: x 100..900, y 230..1500 (pill centred at x 500, max width 800)
   captions: [
-    { t0: 0.7, t1: 3.7, lines: [[['In a ', 0], ['noisy room,', 2]], [['which voice', 1], [' should a hearing aid keep?', 0]]] },
-    { t0: 3.75, t1: 7.3, lines: [[['Some new ones have an ', 0], ['AI chip', 1]], [['that pulls ', 0], ['speech', 1], [' out of ', 0], ['noise.', 2]]] },
+    { t0: 0.7, t1: 1.7, lines: [[['In a ', 0], ['noisy room,', 2]]] },
+    { t0: 1.7, t1: 3.7, lines: [[['which voice', 1], [' should', 0]], [['a hearing aid keep?', 0]]] },
+    { t0: 3.75, t1: 5.55, lines: [[['Some new ones have', 0]], [['an ', 0], ['AI chip', 1]]] },
+    { t0: 5.55, t1: 7.3, lines: [[['that pulls ', 0], ['speech', 1]], [['out of ', 0], ['noise.', 2]]] },
     { t0: 7.55, t1: 11.4, lines: [[['The idea: slice sound into', 0]], [['tiny bits of ', 0], ['pitch and time,', 1]]] },
     { t0: 11.4, t1: 13.9, lines: [[['and keep the bits', 0]], [['that look like ', 0], ['speech.', 1]]] },
     { t0: 13.95, t1: 16.2, lines: [[['Clatter fades.', 2], [' Voices stay.', 1]]] },

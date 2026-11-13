@@ -144,8 +144,7 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-13 (2026-11-13) — RENDERING (topic corrected)
-- Proposed inpainting topic = repeat of hindi03-01 → first replaced by Face ID depth dots; then the USER CORRECTED the topic
-  for this same job: AI hearing aids pull speech out of noise, but overlapping voices stay hard (record context/28).
-  Face ID render stopped, not delivered (git history 3b655d1). Scene now src/stage/hearing.js; icon re-checked (unchanged).
-- Pre-render mix ASR: all lines MATCH, no word outside captions. Full render running; then encode, thumb, mix, mux, qa.sh.
+# CURRENT — english-13 (2026-11-13) — DELIVERED (topic corrected by the user: AI hearing aids)
+- production/30s/2026-11-13-english-13/ideaverse-30s-english13-01.mp4 (sha256 b2970ca5…4d31) + thumbnail "WHICH VOICE?";
+  QA.md + qa/; record context/28. Face ID draft stopped before render (git history 3b655d1), not delivered.
+- Next: await user review. No further episode, no automation.

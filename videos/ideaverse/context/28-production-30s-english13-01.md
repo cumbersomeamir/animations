@@ -51,5 +51,10 @@ algorithm. Illustrative: the room, ear, chip, tile grid, colours and overlap mar
 7. 27.15–30 CTA: DOCKET waves; "Download the / [icon] Ideaverse app."
 Thumbnail: the noisy-room card + "WHICH / VOICE?" (VOICE? in amber).
 
-## QA / status — IN PROGRESS
-- Pre-render mix ASR: all lines MATCH, no word outside captions.
+## QA / status — DELIVERED 2026-11-13
+- Output: production/30s/2026-11-13-english-13/ideaverse-30s-english13-01.mp4 · sha256 b2970ca5…4d31, plus
+  ideaverse-30s-english13-01-thumbnail.png ("WHICH VOICE?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.8 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900.
+- Review fix: two over-long captions split (text had overflowed to x 85..914); checker now tests text, not just the pill.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

@@ -12,7 +12,7 @@ for r in rows:
     for x in b:
         sizes[x['t0']] = (x['size'], x['lines'])
         for i, f in enumerate([min, min, max, max]): ink[i] = f(ink[i], x['ink'][i]); pill[i] = f(pill[i], x['pill'][i])
-ok = pill[0] >= 100 and pill[2] <= 900 and pill[1] >= 300 and pill[3] <= 1500 and multi == 0 and max(l for _, l in sizes.values()) <= 2
+ok = pill[0] >= 100 and pill[2] <= 900 and pill[1] >= 300 and pill[3] <= 1500 and ink[0] >= 100 and ink[2] <= 900 and multi == 0 and max(l for _, l in sizes.values()) <= 2   # text must stay inside the safe area too
 print(f'frames: {len(rows)}, captioned: {cap_frames}, frames with overlapping captions: {multi}')
 print(f'caption pill (all frames): x {pill[0]:.0f}..{pill[2]:.0f}  y {pill[1]:.0f}..{pill[3]:.0f}   (spec 2026-11-11: x 100..900, y 230..1500; top 300 px kept clear)')
 print(f'caption ink  (all frames): x {ink[0]:.0f}..{ink[2]:.0f}  y {ink[1]:.0f}..{ink[3]:.0f}')
