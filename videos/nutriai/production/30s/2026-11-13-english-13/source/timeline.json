@@ -1,0 +1,323 @@
+{
+ "_doc": "CalMeter English 30 s english-13 (2026-11-13): rice: water changed the number. Story per context/25 (hook, super hook, build-up + proof, payoff, CTA). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 4.3
+  },
+  {
+   "id": "T2",
+   "at": 6.05
+  },
+  {
+   "id": "T3",
+   "at": 12.55
+  },
+  {
+   "id": "T4",
+   "at": 17.8
+  },
+  {
+   "id": "T5",
+   "at": 22.4
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 94,
+   "lines": [
+    [
+     "Rice, per 100 g:",
+     5
+    ],
+    [
+     "365 dry,",
+     52
+    ]
+   ]
+  },
+  {
+   "in": 96,
+   "out": 124,
+   "lines": [
+    [
+     "130 cooked",
+     99
+    ]
+   ]
+  },
+  {
+   "in": 127,
+   "out": 176,
+   "lines": [
+    [
+     "Did cooking burn",
+     129
+    ],
+    [
+     "calories off?",
+     148
+    ]
+   ]
+  },
+  {
+   "in": 179,
+   "out": 292,
+   "lines": [
+    [
+     "50 g of dry rice",
+     182
+    ],
+    [
+     "soaks up ≈ 90 g of water,",
+     228
+    ]
+   ]
+  },
+  {
+   "in": 294,
+   "out": 372,
+   "lines": [
+    [
+     "and weighs ≈ 140 g",
+     297
+    ]
+   ]
+  },
+  {
+   "in": 375,
+   "out": 440,
+   "lines": [
+    [
+     "Water adds weight,",
+     377
+    ],
+    [
+     "not energy:",
+     412
+    ]
+   ]
+  },
+  {
+   "in": 443,
+   "out": 529,
+   "lines": [
+    [
+     "still ≈ 180 kcal,",
+     446
+    ],
+    [
+     "spread over more grams",
+     479
+    ]
+   ]
+  },
+  {
+   "in": 532,
+   "out": 598,
+   "lines": [
+    [
+     "Weigh it cooked,",
+     534
+    ],
+    [
+     "log the dry number:",
+     555
+    ]
+   ]
+  },
+  {
+   "in": 601,
+   "out": 667,
+   "lines": [
+    [
+     "and you'd count",
+     603
+    ],
+    [
+     "nearly 3× too much",
+     616
+    ]
+   ]
+  },
+  {
+   "in": 670,
+   "out": 740,
+   "lines": [
+    [
+     "Match the label",
+     672
+    ],
+    [
+     "to the rice on your scale:",
+     691
+    ]
+   ]
+  },
+  {
+   "in": 743,
+   "out": 806,
+   "lines": [
+    [
+     "dry with dry,",
+     745
+    ],
+    [
+     "cooked with cooked",
+     774
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "splash": -6,
+  "n365": 52,
+  "n130": 99,
+  "burnish": 124,
+  "pot": 126,
+  "q": 148,
+  "burnish2": 176,
+  "scale50": 182,
+  "pour": 226,
+  "w90": 236,
+  "swell": 240,
+  "weigh140": 297,
+  "burnish3": 372,
+  "proof": 374,
+  "zeroKcal": 412,
+  "kcal180": 446,
+  "spread": 479,
+  "burnish4": 529,
+  "mistake": 531,
+  "dryTag": 555,
+  "wrong": 572,
+  "x3": 616,
+  "burnish5": 667,
+  "rule": 669,
+  "dryOk": 745,
+  "cookOk": 774,
+  "cta": 806,
+  "ctaWord": 813,
+  "splashSfx": 0
+ },
+ "sfx": [
+  {
+   "ev": "splashSfx",
+   "type": "juice",
+   "gain": -21
+  },
+  {
+   "ev": "n365",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "n130",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "q",
+   "type": "tick",
+   "gain": -26
+  },
+  {
+   "ev": "burnish2",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "scale50",
+   "type": "patter",
+   "dur": 0.6,
+   "gain": -25
+  },
+  {
+   "ev": "pour",
+   "type": "pour",
+   "dur": 1.0,
+   "gain": -25
+  },
+  {
+   "ev": "weigh140",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "burnish3",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "kcal180",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "burnish4",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "wrong",
+   "type": "thud",
+   "gain": -23
+  },
+  {
+   "ev": "x3",
+   "type": "tick",
+   "gain": -23
+  },
+  {
+   "ev": "burnish5",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "dryOk",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "cookOk",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

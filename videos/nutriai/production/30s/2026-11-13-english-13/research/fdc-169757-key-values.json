@@ -1,0 +1,67 @@
+{
+ "fdcId": 169757,
+ "ndbNumber": 20445,
+ "foodCode": null,
+ "description": "Rice, white, long-grain, regular, unenriched, cooked without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.28,
+   "unit": "g",
+   "dataPoints": 6
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 28.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 130,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 68.4,
+   "unit": "g",
+   "dataPoints": 23
+  },
+  {
+   "name": "Protein",
+   "amount": 2.69,
+   "unit": "g",
+   "dataPoints": 20
+  },
+  {
+   "name": "Ash",
+   "amount": 0.41,
+   "unit": "g",
+   "dataPoints": 20
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.4,
+   "unit": "g",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "gramWeight": 158.0
+  }
+ ],
+ "calorieConversionFactors": [
+  {
+   "proteinValue": 3.82,
+   "fatValue": 8.37,
+   "carbohydrateValue": 4.16
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+T0.wav | Rice per 100 grams, 365 dry, 130 cooked.
+    [('Rice', 0.0, 0.2), ('per', 0.2, 0.48), ('100', 0.48, 0.74), ('grams,', 0.74, 1.12), ('365', 1.6, 2.22), ('dry,', 2.22, 2.78), ('130', 3.16, 3.36), ('cooked.', 3.36, 3.86)]
+T1.wav | Did cooking burn calories off?
+    [('Did', 0.0, 0.1), ('cooking', 0.1, 0.3), ('burn', 0.3, 0.64), ('calories', 0.64, 0.96), ('off?', 0.96, 1.4)]
+T2.wav | 50 grams of dry rice soaks up about 90 grams of water and weighs about 140.
+    [('50', 0.0, 0.26), ('grams', 0.26, 0.58), ('of', 0.58, 0.88), ('dry', 0.88, 1.06), ('rice', 1.06, 1.54), ('soaks', 1.54, 2.16), ('up', 2.16, 2.3), ('about', 2.3, 2.52), ('90', 2.52, 2.86), ('grams', 2.86, 3.26), ('of', 3.26, 3.5), ('water', 3.5, 3.84), ('and', 3.84, 4.4), ('weighs', 4.4, 4.58), ('about', 4.58, 4.94), ('140.', 4.94, 5.32)]
+T3.wav | Water adds weight, not energy. Still about 180 calories spread over more grams.
+    [('Water', 0.0, 0.22), ('adds', 0.22, 0.5), ('weight,', 0.5, 0.8), ('not', 1.18, 1.24), ('energy.', 1.24, 1.66), ('Still', 2.3, 2.44), ('about', 2.44, 2.66), ('180', 2.66, 2.96), ('calories', 2.96, 3.4), ('spread', 3.4, 3.94), ('over', 3.94, 4.2), ('more', 4.2, 4.38), ('grams.', 4.38, 4.74)]
+T4.wav | weigh it cooked but log the dry number, and you'd count nearly three times too much.
+    [('weigh', 0.0, 0.14), ('it', 0.14, 0.26), ('cooked', 0.26, 0.46), ('but', 0.46, 0.7), ('log', 0.7, 0.92), ('the', 0.92, 1.22), ('dry', 1.22, 1.38), ('number,', 1.38, 1.82), ('and', 2.3, 2.38), ("you'd", 2.38, 2.56), ('count', 2.56, 2.72), ('nearly', 2.72, 3.0), ('three', 3.0, 3.3), ('times', 3.3, 3.66), ('too', 3.66, 3.86), ('much.', 3.86, 4.12)]
+T5.wav | Match the label to the rice on your scale. Dry with dry, cooked with cooked.
+    [('Match', 0.0, 0.24), ('the', 0.24, 0.4), ('label', 0.4, 0.62), ('to', 0.62, 0.88), ('the', 0.88, 0.96), ('rice', 0.96, 1.16), ('on', 1.16, 1.4), ('your', 1.4, 1.5), ('scale.', 1.5, 1.78), ('Dry', 2.42, 2.48), ('with', 2.48, 2.74), ('dry,', 2.74, 2.96), ('cooked', 3.4, 3.54), ('with', 3.54, 3.76), ('cooked.', 3.76, 4.08)]
+T6.wav | Track your food and nutrition with calmetre.
+    [('Track', 0.0, 0.16), ('your', 0.16, 0.36), ('food', 0.36, 0.64), ('and', 0.64, 1.0), ('nutrition', 1.0, 1.26), ('with', 1.26, 1.6), ('calmetre.', 1.6, 2.16)]

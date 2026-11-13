@@ -1,0 +1,59 @@
+{
+ "fdcId": 2708408,
+ "ndbNumber": null,
+ "foodCode": "56205008",
+ "description": "Rice, white, cooked, no added fat",
+ "dataType": "Survey (FNDDS)",
+ "publicationDate": "10/31/2024",
+ "source": "FoodData_Central_survey_food_json_2024-10-31.zip (FNDDS 2021-2023) (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 2.67,
+   "unit": "g",
+   "dataPoints": null
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.28,
+   "unit": "g",
+   "dataPoints": null
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 28.0,
+   "unit": "g",
+   "dataPoints": null
+  },
+  {
+   "name": "Energy",
+   "amount": 129,
+   "unit": "kcal",
+   "dataPoints": null
+  },
+  {
+   "name": "Water",
+   "amount": 68.0,
+   "unit": "g",
+   "dataPoints": null
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 0.4,
+   "unit": "g",
+   "dataPoints": null
+  }
+ ],
+ "portions": [
+  {
+   "description": "Quantity not specified",
+   "gramWeight": 118
+  },
+  {
+   "description": "1 cup, cooked",
+   "gramWeight": 158
+  }
+ ],
+ "calorieConversionFactors": []
+}

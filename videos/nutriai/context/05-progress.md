@@ -128,3 +128,10 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-11-english-12/source/`, output `../nutriai-30s-english12-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english12-thumbnail.png`; ASR on the final mix with `vad_filter=True`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events; captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980; ASR verbatim (base.en "calmetre", small.en "Cal Meter"). Machine checks only; no human watch/listen. See `production/30s/2026-11-11-english-12/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 20. Batch 2026-11-13, english-13 rice: water changed the number (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at 0718e07, no active or unfinished job; rice only an idea in 08, never produced (related water-removal episodes english-08/10 noted; this is water added by cooking). Latest approved feedback (context/25) applied; prior popcorn subject and narration discarded.
+- Facts: USDA SR Legacy FDC 169756 raw long-grain white rice (365 kcal, 11.6 g water / 100 g) and FDC 169757 cooked without salt (130 kcal, 68.4 g water); calculated 50 g dry → ≈ 140 g cooked, ≈ 182 kcal both, dry label on cooked ≈ 511 kcal (2.8×). Details: `context/27-production-30s-english13-rice.md`.
+- Commands: as in section 9, from `production/30s/2026-11-13-english-13/source/`, output `../nutriai-30s-english13-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english13-thumbnail.png`; ASR on the final mix with `vad_filter=True`.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events (also at the stricter scan); captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980; ASR verbatim apart from the "weigh"/"way" homophone. Machine checks only; no human watch/listen. See `production/30s/2026-11-13-english-13/QA.md`.
+- Unresolved: none blocking. Next step: none requested.
