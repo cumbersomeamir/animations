@@ -90,3 +90,10 @@
   - Hook → wire on a ruler → why 30 cm (light laps the Earth; a ÷1000 time card) → the pepper picosecond → payoff "shorter paths make faster computers" → Aarambh CTA.
 - **Subject change recorded:** Lamarr & Antheil was already episodes 04 and 07.
 - **Read first next time:** 25 (current rules), then 11 and 26.
+
+## 2026-11-13: english-13 #01 (English; second under context/25)
+- `videos/aarambh/production/30s/2026-11-13-english-13/aarambh-30s-english13-01.mp4` (sha256 `108d9fd89ce5f48b373e9b2b5f0d863cd3ab193ad1865cf5bb7aa4bf81fc7b61`) and thumbnail `aarambh-30s-english13-01-thumbnail.png`: Elisha Otis, "cut the cable".
+  - Hook (cable cut, platform holds) → no-brake hoist → real patent drawing → catches/spring/rails demo → 1854 public test, "he didn't invent the elevator" → lesson "a new invention may need a test people can see, before anyone wants it" → Aarambh CTA.
+- **Subject change recorded:** Mary Anderson (proposed) was already episode 08.
+- **Open:** a human listen to confirm "Elisha" (one of two ASR models hears "Alicia").
+- **Read first next time:** 25 (current rules), then 11 and 27.

@@ -200,3 +200,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Style:** the new rules applied: one idea per scene, large brief labels, no source footers, a spotlit desk with depth and no grid, six motivated transitions, captions within x 100–900.
 - **Verification:** both ASR models match the script except the app name; there was no human listening. One post-render card-overflow fix (video only).
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-13: english-13 #01 (COMPLETE; second episode under context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-13-english-13/aarambh-30s-english13-01.mp4`, sha256 `108d9fd89ce5f48b373e9b2b5f0d863cd3ab193ad1865cf5bb7aa4bf81fc7b61`, plus the thumbnail `aarambh-30s-english13-01-thumbnail.png` ("CUT THE CABLE"). Elisha Otis and the elevator safety brake (English). 30.000 s, 900 frames, −14.9 LUFS, −1.5 dBTP, full decode OK.
+- **Subject change:** Mary Anderson was already episode 08, so a fresh topic was chosen with the same three-page structure and the invention-before-demand lesson.
+- **Verified facts:** NIHF (the 1854 demonstration, he didn't invent the elevator, his dates) and the U.S. 31,128 text (pawls, spring, hook-toothed racks, rope tension). The NARA drawing is shown on screen.
+- **Verification:** ASR matches except the first name (one of two models), the brake/break homophone and the app name; there was no human listening. One post-render, video-only fix.
+- No automation; no other episode started; earlier renders untouched.

@@ -1,0 +1,406 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Elisha",
+   "start": 0.0,
+   "end": 0.76
+  },
+  {
+   "w": "Otis",
+   "start": 0.76,
+   "end": 1.08
+  },
+  {
+   "w": "rose",
+   "start": 1.08,
+   "end": 1.4
+  },
+  {
+   "w": "on",
+   "start": 1.4,
+   "end": 1.54
+  },
+  {
+   "w": "a",
+   "start": 1.54,
+   "end": 1.84
+  },
+  {
+   "w": "platform,",
+   "start": 1.84,
+   "end": 2.12
+  },
+  {
+   "w": "then",
+   "start": 2.52,
+   "end": 2.76
+  },
+  {
+   "w": "had",
+   "start": 2.76,
+   "end": 2.88
+  },
+  {
+   "w": "its",
+   "start": 2.88,
+   "end": 3.12
+  },
+  {
+   "w": "cable",
+   "start": 3.12,
+   "end": 3.4
+  },
+  {
+   "w": "cut.",
+   "start": 3.4,
+   "end": 3.86
+  },
+  {
+   "w": "It",
+   "start": 4.34,
+   "end": 4.42
+  },
+  {
+   "w": "held,",
+   "start": 4.42,
+   "end": 4.82
+  },
+  {
+   "w": "hoists",
+   "start": 5.42,
+   "end": 5.72
+  },
+  {
+   "w": "of",
+   "start": 5.72,
+   "end": 5.84
+  },
+  {
+   "w": "his",
+   "start": 5.84,
+   "end": 6.02
+  },
+  {
+   "w": "day",
+   "start": 6.02,
+   "end": 6.22
+  },
+  {
+   "w": "had",
+   "start": 6.22,
+   "end": 6.42
+  },
+  {
+   "w": "a",
+   "start": 6.42,
+   "end": 6.58
+  },
+  {
+   "w": "flaw,",
+   "start": 6.58,
+   "end": 6.86
+  },
+  {
+   "w": "if",
+   "start": 7.18,
+   "end": 7.32
+  },
+  {
+   "w": "the",
+   "start": 7.32,
+   "end": 7.48
+  },
+  {
+   "w": "rope",
+   "start": 7.48,
+   "end": 7.7
+  },
+  {
+   "w": "broke",
+   "start": 7.7,
+   "end": 7.96
+  },
+  {
+   "w": "the",
+   "start": 7.96,
+   "end": 8.16
+  },
+  {
+   "w": "load",
+   "start": 8.16,
+   "end": 8.42
+  },
+  {
+   "w": "fell.",
+   "start": 8.42,
+   "end": 8.7
+  },
+  {
+   "w": "His",
+   "start": 9.22,
+   "end": 9.42
+  },
+  {
+   "w": "break,",
+   "start": 9.42,
+   "end": 9.84
+  },
+  {
+   "w": "rope",
+   "start": 9.92,
+   "end": 10.12
+  },
+  {
+   "w": "tension",
+   "start": 10.12,
+   "end": 10.52
+  },
+  {
+   "w": "held",
+   "start": 10.52,
+   "end": 10.8
+  },
+  {
+   "w": "two",
+   "start": 10.8,
+   "end": 11.14
+  },
+  {
+   "w": "catches",
+   "start": 11.14,
+   "end": 11.46
+  },
+  {
+   "w": "back,",
+   "start": 11.46,
+   "end": 12.0
+  },
+  {
+   "w": "if",
+   "start": 12.26,
+   "end": 12.4
+  },
+  {
+   "w": "it",
+   "start": 12.4,
+   "end": 12.64
+  },
+  {
+   "w": "snapped,",
+   "start": 12.64,
+   "end": 13.02
+  },
+  {
+   "w": "a",
+   "start": 13.36,
+   "end": 13.5
+  },
+  {
+   "w": "spring",
+   "start": 13.5,
+   "end": 13.78
+  },
+  {
+   "w": "through",
+   "start": 13.78,
+   "end": 14.04
+  },
+  {
+   "w": "them",
+   "start": 14.04,
+   "end": 14.22
+  },
+  {
+   "w": "into",
+   "start": 14.22,
+   "end": 14.44
+  },
+  {
+   "w": "two",
+   "start": 14.44,
+   "end": 14.64
+  },
+  {
+   "w": "thrails.",
+   "start": 14.64,
+   "end": 15.22
+  },
+  {
+   "w": "He",
+   "start": 15.84,
+   "end": 15.94
+  },
+  {
+   "w": "didn't",
+   "start": 15.94,
+   "end": 16.28
+  },
+  {
+   "w": "invent",
+   "start": 16.28,
+   "end": 16.56
+  },
+  {
+   "w": "the",
+   "start": 16.56,
+   "end": 16.96
+  },
+  {
+   "w": "elevator.",
+   "start": 16.96,
+   "end": 17.24
+  },
+  {
+   "w": "In",
+   "start": 17.72,
+   "end": 17.96
+  },
+  {
+   "w": "1854,",
+   "start": 17.96,
+   "end": 18.8
+  },
+  {
+   "w": "he",
+   "start": 19.06,
+   "end": 19.32
+  },
+  {
+   "w": "proved",
+   "start": 19.32,
+   "end": 19.56
+  },
+  {
+   "w": "its",
+   "start": 19.56,
+   "end": 19.84
+  },
+  {
+   "w": "safety",
+   "start": 19.84,
+   "end": 20.22
+  },
+  {
+   "w": "break",
+   "start": 20.22,
+   "end": 20.52
+  },
+  {
+   "w": "in",
+   "start": 20.52,
+   "end": 20.74
+  },
+  {
+   "w": "public.",
+   "start": 20.74,
+   "end": 21.22
+  },
+  {
+   "w": "Lesson,",
+   "start": 21.8,
+   "end": 22.22
+  },
+  {
+   "w": "a",
+   "start": 22.36,
+   "end": 22.42
+  },
+  {
+   "w": "new",
+   "start": 22.42,
+   "end": 22.64
+  },
+  {
+   "w": "invention",
+   "start": 22.64,
+   "end": 23.02
+  },
+  {
+   "w": "may",
+   "start": 23.02,
+   "end": 23.34
+  },
+  {
+   "w": "need",
+   "start": 23.34,
+   "end": 23.52
+  },
+  {
+   "w": "a",
+   "start": 23.52,
+   "end": 23.8
+  },
+  {
+   "w": "test",
+   "start": 23.8,
+   "end": 23.92
+  },
+  {
+   "w": "people",
+   "start": 23.92,
+   "end": 24.26
+  },
+  {
+   "w": "can",
+   "start": 24.26,
+   "end": 24.58
+  },
+  {
+   "w": "see",
+   "start": 24.58,
+   "end": 24.98
+  },
+  {
+   "w": "before",
+   "start": 24.98,
+   "end": 25.46
+  },
+  {
+   "w": "anyone",
+   "start": 25.46,
+   "end": 25.84
+  },
+  {
+   "w": "wants",
+   "start": 25.84,
+   "end": 26.18
+  },
+  {
+   "w": "it.",
+   "start": 26.18,
+   "end": 26.78
+  },
+  {
+   "w": "Download",
+   "start": 26.78,
+   "end": 27.62
+  },
+  {
+   "w": "RM",
+   "start": 27.62,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.32
+  },
+  {
+   "w": "tools.",
+   "start": 29.32,
+   "end": 29.78
+  }
+ ],
+ "text": "Elisha Otis rose on a platform, then had its cable cut. It held, hoists of his day had a flaw, if the rope broke the load fell. His break, rope tension held two catches back, if it snapped, a spring through them into two thrails. He didn't invent the elevator. In 1854, he proved its safety break in public. Lesson, a new invention may need a test people can see before anyone wants it. Download RM to support livelihood tools."
+}

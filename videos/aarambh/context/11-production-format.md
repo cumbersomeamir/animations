@@ -289,3 +289,11 @@ Changes to the recipe above:
 - **QA wording:** say "ASR-checked", never "listened", unless a human listening was actually done.
 
 - 14 (2026-11-11, english-12): Grace Hopper's wire "nanoseconds": why ~30 cm, the pepper picosecond, shorter paths = faster computers (Smithsonian NMAH 1985.3088.01); replaces a third Lamarr & Antheil episode; first episode under `25` (thumbnail delivered). Record: `26-production-30s-english12-01.md`
+
+## English-13 notes, 2026-11-13
+- **The 2026-11-13 brief re-proposed a covered subject** (Mary Anderson, episode 08). Keep its structure (three distinct mechanism pages) and its lesson (an invention can come before market demand) with a fresh inventor.
+- **USPTO full-image PDFs returned 403 this session.** `patentimages.storage.googleapis.com/pdfs/US<number>.pdf` and `patents.google.com/patent/US<number>/en` (OCR text; the `A` suffix may 503) worked instead. NARA patent drawings on Commons (Record Group 241) are good period images.
+- **Names:** test first-name spellings for the TTS ("Elisha" → "Alicia"; "Elysha" is heard as "Elisha"); show the name on screen.
+- **Flying debris** (cut ropes, chips) must be clipped to the scene so it never enters the caption or top band.
+
+- 15 (2026-11-13, english-13): Elisha Otis, "cut the cable": the elevator safety brake (U.S. Patent 31,128; NARA drawing); replaces a second Mary Anderson episode. Record: `27-production-30s-english13-01.md`
