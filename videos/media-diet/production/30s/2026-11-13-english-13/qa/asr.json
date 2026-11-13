@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Boston Dynamics put scooter wheels on its Atlas robot. Why would a walking robot need wheels? It doesn't. It's a stress test for its motors. No motor gives full torque at full speed. Every launch, turn and stop pushes that limit. It trained in simulation, where perfect motors teach impossible moves. So the team measured the real motors and simulated those. A robot's AI is only as good as its motor model. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    3.44
+   ],
+   "transcript": "Boston Dynamics put scooter wheels on its Atlas robot.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.75,
+    5.61
+   ],
+   "transcript": "Why would a walking robot need wheels?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    5.95,
+    8.31
+   ],
+   "transcript": "It doesn't, it's a stress test for its motors.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    8.65,
+    10.71
+   ],
+   "transcript": "No motor gives full torque at full speed.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    11.05,
+    13.64
+   ],
+   "transcript": "Every launch, turn and stop pushes that limit.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    13.95,
+    18.28
+   ],
+   "transcript": "It trained in simulation, where perfect motors teach impossible moves.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    18.6,
+    21.9
+   ],
+   "transcript": "So the team measured the real motors and simulated those.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    22.2,
+    25.39
+   ],
+   "transcript": "A robot's AI is only as good as its motor model.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Boston Dynamics put scooter wheels on its Atlas robot. Why would a walking robot need wheels? It doesn't, it's a stress test for its motors. No motor gives full torque at full speed. Every launch, turn and stop pushes that limit. It trained in simulation, where perfect motors teach impossible moves. So the team measured the real motors and simulated those. A robot's AI is only as good as its motor model. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

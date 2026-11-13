@@ -253,3 +253,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 81 words / 26.1 s (approved Kokoro blend), every take heard exactly by Whisper; word timestamps drive events.
 - Running: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840); next `SKIP_FRAMES=1 bash build/build.sh`,
   `node build/thumb.mjs thumbnail-english13-01.png`, QA, commit MP4 + thumbnail.
+
+## Checkpoint 2026-11-13 — english-13 delivered
+- production/30s/2026-11-13-english-13/media-diet-30s-english13-01.mp4 (SHA-256 9abd3e98617372033bb0061ccabfb0723f08a72c0407bd8e2b235e3021ca3f23)
+  + separate thumbnail thumbnail-english13-01.png ("WHY / WHEELS?"); record context/28; context/11 log row → delivered.
+- Commands: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840), `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english13-01.png`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 378–488, x 181–900; labels x 185–895, y 1300–1456; 0 violations (x 100–900 / y 230–1500, caption band, one label);
+  caption↔speech 12/12; Whisper word recall 1.0 full / 1.0 per line.
+- Unresolved: not yet watched or listened to by a human; no review folder exists in this container (MP4 only in the episode folder).
+  Earlier outputs untouched. No automation, analytics or publishing.

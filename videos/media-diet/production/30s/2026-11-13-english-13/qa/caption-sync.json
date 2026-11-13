@@ -1,0 +1,182 @@
+[
+ {
+  "line": "V1",
+  "text": "Boston Dynamics put scooter / wheels on its Atlas robot.",
+  "cue": [
+   0.07,
+   3.65
+  ],
+  "speech": [
+   0.171,
+   3.395
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.255,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Why would a walking / robot need wheels?",
+  "cue": [
+   3.67,
+   5.85
+  ],
+  "speech": [
+   3.772,
+   5.565
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.285,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "It doesn't.",
+  "cue": [
+   5.87,
+   6.51
+  ],
+  "speech": [
+   5.971,
+   6.414
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.096,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "It's a stress test / for its motors.",
+  "cue": [
+   6.53,
+   8.55
+  ],
+  "speech": [
+   6.645,
+   8.266
+  ],
+  "lead_s": 0.115,
+  "tail_s": 0.284,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "No motor gives full torque / at full speed.",
+  "cue": [
+   8.57,
+   10.95
+  ],
+  "speech": [
+   8.67,
+   10.651
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.299,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Every launch, turn and stop / pushes that limit.",
+  "cue": [
+   10.97,
+   13.85
+  ],
+  "speech": [
+   11.072,
+   13.597
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.253,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "It trained in simulation,",
+  "cue": [
+   13.87,
+   15.52
+  ],
+  "speech": [
+   13.972,
+   15.359
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.161,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "where perfect motors / teach impossible moves.",
+  "cue": [
+   15.54,
+   18.5
+  ],
+  "speech": [
+   15.716,
+   18.232
+  ],
+  "lead_s": 0.176,
+  "tail_s": 0.268,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "So the team measured / the real motors,",
+  "cue": [
+   18.52,
+   20.51
+  ],
+  "speech": [
+   18.622,
+   20.373
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.137,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "and simulated those.",
+  "cue": [
+   20.53,
+   22.1
+  ],
+  "speech": [
+   20.691,
+   21.85
+  ],
+  "lead_s": 0.161,
+  "tail_s": 0.25,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "A robot's AI is only / as good as its motor model.",
+  "cue": [
+   22.12,
+   25.691
+  ],
+  "speech": [
+   22.221,
+   25.33
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.361,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.154,
+   29.177
+  ],
+  "lead_s": 0.134,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]

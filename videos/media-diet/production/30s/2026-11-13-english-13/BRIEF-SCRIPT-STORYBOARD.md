@@ -54,5 +54,10 @@ Layered Tech Cutaway paper diorama (accepted renderer core, paper stock, key lig
 a soft front fill light for robot shots; lab floor of paper cards; chart drawn per frame on a paper board. Captions: accepted Space
 Grotesk 700 50 px, baselines 414/478, auto-fit to x 100–900; labels auto-fit to ≤ 720 px. No footage, photos or logos of Boston Dynamics.
 
-## QA / limits
-Filled after render (see the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 9abd3e98617372033bb0061ccabfb0723f08a72c0407bd8e2b235e3021ca3f23; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 378–488, x 181–900; labels x 185–895,
+y 1300–1456; 0 safe-area/caption-band/one-label violations in 900 frames; caption↔speech 12/12; Whisper-medium word recall 1.0 full pass and
+1.0 per line. Thumbnail thumbnail-english13-01.png (SHA-256 4304abcb…0b70f), words inside x 195–883.
+Limits: generic paper reconstruction (no BD footage); chart is a generic motor curve, not Atlas data; takeaway line is an editorial
+summary; three sequential reveals open on a briefly empty element (≤ 0.2 s); nobody has listened to or watched the final file yet.
