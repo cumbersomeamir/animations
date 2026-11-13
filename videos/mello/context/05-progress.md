@@ -492,3 +492,36 @@ Episode record: `22-episode-unfinished-task-park-it.md`. First episode under the
 
 ## Next
 - All queued episodes (english-09, -10, -11, -12) are delivered. Wait for the next request or feedback.
+
+# English-13, 2026-11-13: episode english13-01 "why trying not to think of something can bring it back" (English)
+Episode record: `23-episode-ironic-thought-suppression.md`. The 2026-11-11 rules (`10-format-and-style-rules.md` section 8) and the latest feedback (store palette, soothing sound) are retained.
+
+## Verified facts (this round)
+- Not covered before. Closest is feedback-01 (cognitive defusion); this episode covers suppression backfiring and focused distraction.
+- Sources (PubMed abstracts):
+  - Wegner et al. 1987 (PMID 3612492): white bear, bell rings, rebound; a specific distracter reduced later preoccupation.
+  - Wegner 1994 (PMID 8121959): the monitoring process.
+  - Abramowitz et al. 2001 (PMID 11434226): small to moderate rebound.
+  - Wang et al. 2020 (PMID 32286932): rebound consistently detected.
+
+## Creative decisions (this round)
+- English only, 66 words, fresh narration.
+- A pink elephant pushed off the desk keeps popping back; a "checking" beam; the rebound; noticed and shrunk to the corner; "ONE JOB / Draft the intro".
+- Thumbnail "DON'T PICTURE THIS.". `BED_GAIN` 0.38 (13.3 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-13-english-13/mello-30s-english13-01.mp4`
+  - sha256 `c5b4a1294d2ed78c1111c3ecc8aeb5cadfd24475a88552763e609f47f39431cd`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english13-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-13-english-13/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.4 dBTP;
+  - cuts on plan;
+  - 0 safe-zone issues in 300 samples (captions x 100–900);
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.
