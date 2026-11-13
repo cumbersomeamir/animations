@@ -11,7 +11,7 @@ ffmpeg -nostdin -hide_banner -i "$MP4" -vn -af "ebur128=peak=true" -f null - 2>&
 ffmpeg -nostdin -v error -y -i "$MP4" -lavfi "showspectrumpic=s=1200x400:legend=1" qa/spectrum.png
 python3 src/tools/contact_sheet.py qa/contact-sheet-full.png --video "$MP4" --frames $(python3 -c "print(','.join(str(f) for f in range(0,900,30))+',899')") --cols 8 --width 200
 # scene transitions (frame before / at / after each cut-like camera move) + CTA end
-python3 src/tools/contact_sheet.py qa/contact-sheet-transitions.png --video "$MP4" --frames 0,6,15,30,45,63,75,90,98,99,110,130,150,170,179,180,200,230,255,270,300,330,345,360,380,400,420,440,455,456,470,490,510,530,560,575,576,600,640,680,700,728,729,760,790,808,809,840,870,899 --cols 6 --width 220
+python3 src/tools/contact_sheet.py qa/contact-sheet-transitions.png --video "$MP4" --frames 0,4,10,20,40,57,75,100,110,111,125,145,165,180,195,209,219,220,240,260,285,300,325,345,360,375,400,420,435,450,465,490,505,530,550,570,590,605,620,640,656,657,665,690,700,720,740,760,790,813,814,840,870,899 --cols 6 --width 220
 python3 src/tools/caption_check.py qa/caption-geometry.json "$MP4" qa/top-band-strips.png > qa/caption-bounds.txt
 if [ -n "${ASRPY:-}" ]; then "$ASRPY" src/tools/asr_check.py "$MP4" src/narration/lines.json src/stage/cues.js > qa/asr-narration.txt; fi
 sha256sum "$MP4" > qa/sha256.txt

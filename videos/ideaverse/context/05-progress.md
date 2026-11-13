@@ -144,7 +144,8 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-13 (2026-11-13) — RENDERING
-- Proposed inpainting topic = repeat of hindi03-01 → fresh: how Face ID knows it's you in the dark and why a photo fails
-  (record context/28; Apple KB 102381 + Platform Security). Icon re-checked (unchanged). Scene src/stage/faceid.js.
+# CURRENT — english-13 (2026-11-13) — RENDERING (topic corrected)
+- Proposed inpainting topic = repeat of hindi03-01 → first replaced by Face ID depth dots; then the USER CORRECTED the topic
+  for this same job: AI hearing aids pull speech out of noise, but overlapping voices stay hard (record context/28).
+  Face ID render stopped, not delivered (git history 3b655d1). Scene now src/stage/hearing.js; icon re-checked (unchanged).
 - Pre-render mix ASR: all lines MATCH, no word outside captions. Full render running; then encode, thumb, mix, mux, qa.sh.

@@ -12,7 +12,7 @@ fi
 node render.mjs --frames --workers=3                    # ../build/frames/f0000..f0899.png (~30–50 min, SwiftShader)
 node render.mjs --encode --out=../build/video.mp4       # H.264 High yuv420p, CRF 17
 node render.mjs --caplog=../qa/caption-geometry.json    # exact caption geometry per frame (QA)
-node render.mjs --thumb=../ideaverse-30s-english13-01-thumbnail.png   # separate vertical thumbnail ("DOTS YOU CAN’T SEE")
+node render.mjs --thumb=../ideaverse-30s-english13-01-thumbnail.png   # separate vertical thumbnail ("WHICH VOICE?")
 node music/score.mjs                                    # ../build/mix.wav
 cd ../build
 M=$(ffmpeg -nostdin -hide_banner -i mix.wav -af "loudnorm=I=-15:TP=-1.5:LRA=11:print_format=json" -f null - 2>&1 | sed -n '/^{/,/^}/p')

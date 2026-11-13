@@ -63,21 +63,19 @@ bell(MUS, 27.0, 77, 0.35, -0.2, 1.8); bell(MUS, 27.2, 81, 0.3, 0.2, 1.8); bell(M
 // ---------------- action SFX (all from cues)
 const whoosh = (t, len, v = 1) => noise(SFX, t, len, (lt) => v * 0.2 * Math.sin(Math.PI * Math.min(1, lt / len)) ** 1.5, (lt) => 500 + 2200 * (lt / len), { gain: 0.5, q: 1.4, pan: 0.3 });
 const tick2 = (t, f = 2400, v = 0.6) => add(SFX, t, 0.05, (lt) => v * 0.25 * Math.sin(TAU * f * lt) * Math.exp(-lt * 120), { gain: 0.6, pan: 0.2 });
-// A · dark hook: soft shimmer while the dots sweep, unlock chime after "it's you"
-const buzz = (t, v = 1) => add(SFX, t, 0.22, (lt) => v * 0.12 * Math.sign(Math.sin(TAU * 110 * lt)) * Math.min(1, lt / 0.01) * Math.exp(-lt * 9), { gain: 0.6 });
-glideTone(SFX, H.sweep0[0], H.sweep0[1] - H.sweep0[0], 900, 1500, 0.06); clunk(2.92, 0.25); bell(SFX, 2.95, 79, 0.3, 0.2, 1.0); bell(SFX, 3.05, 84, 0.25, 0.2, 1.0);
-// B · the photo slides in; "NOPE" buzz after "fool it"; question sting after "Why?"
-thump(H.cut1, 0.18); paper(H.print, 0.2, 0.4); buzz(4.8, 0.9); marimba(5.35, 62, 0.38); marimba(5.48, 67, 0.38);
-// C · dots sweep (shimmer), depth colours (glide), orbit (soft whoosh)
-thump(H.cut2, 0.15); glideTone(SFX, H.sweep[0], H.sweep[1] - H.sweep[0], 900, 1600, 0.05); glideTone(SFX, H.depth, 0.6, 500, 900, 0.08); whoosh(H.orbit[0], H.orbit[1] - H.orbit[0], 0.2);
-// D · stored face slides in and lines up; MATCH after "setup"
-whoosh(H.stored, 0.6, 0.25); tick2(H.align[1], 2600, 0.3); bell(SFX, 13.85, 81, 0.3, 0.2, 1.0); bell(SFX, 13.95, 86, 0.25, 0.2, 1.0);
-// E · dots on the flat photo; side view; "NO DEPTH" buzz after "fails"
-thump(H.cut3, 0.15); glideTone(SFX, H.flatDots[0], H.flatDots[1] - H.flatDots[0], 900, 1300, 0.05); whoosh(H.side[0], H.side[1] - H.side[0], 0.2); buzz(17.45, 0.9);
-// F · twin and child busts slide in; amber unlock click after "unlock it"
-thump(H.cut4, 0.15); whoosh(H.twin, 0.5, 0.2); whoosh(H.kid, 0.5, 0.2); clunk(23.92, 0.25); marimba(24.0, 64, 0.35);
-// G · passcode (typed silently under the word), OK chime after "passcode"
-thump(H.cut5, 0.18); bell(SFX, 26.55, 84, 0.3, 0.2, 1.0); bell(SFX, 26.65, 88, 0.25, 0.2, 1.0);
+// A · hook: a short crowd swell (synth murmur + clinks) before the first word, then out of the way
+const murmur = (t, len, v = 1) => { for (let k = 0; k < 4; k++) { const f0 = 300 + k * 170; noise(SFX, t, len, (lt) => v * 0.16 * Math.min(1, lt / 0.08) * Math.min(1, (len - lt) / 0.15) * (0.55 + 0.45 * Math.sin(TAU * (3.5 + k * 1.3) * lt + k)), () => f0, { type: 'bp', q: 2.2, gain: 0.55, pan: -0.5 + k * 0.33 }); } };
+murmur(0.0, 0.72, 1.0); clink(0.12, 0.8, 3400); clink(0.36, 0.7, 2900); clink(0.58, 0.6, 3700); bell(SFX, 3.45, 74, 0.22, -0.2, 0.8);
+// B · the chip appears; speech kept / noise dropped (sting after "noise")
+thump(H.cut1, 0.18); tick2(H.chip, 2600, 0.35); marimba(6.95, 69, 0.38); marimba(7.08, 76, 0.36);
+// C · slicing sweep, axes, keep-speech mask
+thump(H.cut2, 0.15); glideTone(SFX, H.slice[0], H.slice[1] - H.slice[0], 500, 900, 0.07); tick2(H.axes, 2200, 0.25); glideTone(SFX, H.keep[0], H.keep[1] - H.keep[0], 700, 1200, 0.07);
+// D · clatter falls (after "Clatter fades"), voices glow (after "Voices stay")
+clink(14.5, 0.35, 3000); bell(SFX, 15.55, 79, 0.25, 0.2, 0.9);
+// E · second voice, push in, overlap (two clashing notes after "overlap")
+paper(H.second, 0.15, 0.35); whoosh(H.push[0], H.push[1] - H.push[0], 0.2); marimba(20.85, 64, 0.38); marimba(20.85, 65, 0.36);
+// F · take turns: tiles slide apart, one voice then the other (after "one voice at a time")
+whoosh(H.turns[0], H.turns[1] - H.turns[0], 0.22); marimba(25.75, 69, 0.4, -0.3); marimba(26.05, 72, 0.4, 0.3);
 thump(H.cta, 0.25);
 
 // ---------------- narration (DOCKET) + ducking

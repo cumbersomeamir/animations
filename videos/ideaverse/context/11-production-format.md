@@ -233,6 +233,7 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Latest feedback preserved: approved 15 s DOCKET style; obvious AI-use tips / shallow "good to know" topics rejected; icon
   re-checked from the store listing; CTA exactly "Download the Ideaverse app."; no short-film / camera-roll concept.
 - Proposed "erased person → where does the background come from (inpainting)" is the 3rd request for the hindi03-01 subject
-  (also swapped in english-08 and english-11) → replaced by Face ID depth dots (context/28).
+  (also swapped in english-08 and english-11) → first replaced by Face ID depth dots, then the user corrected the topic to
+  AI hearing aids + overlapping voices (context/28). Topic corrections replace the job; they are not extra videos.
 - New technique inside the same style: 3D props with raycast dot clouds and per-shot light dimming; one big label at a time
   pinned to the lower middle of the frame (camera-space), captions in the x 100..900 pill.

@@ -1,17 +1,18 @@
-In total darkness, Face ID still knows it's you. 🔒
+In a noisy room, which voice should a hearing aid keep? 🦻
 
-Yet a photo of you can't fool it. Why?
-Thousands of invisible dots land on your face, mapping its shape in 3D.
-It compares that shape with the face stored at setup.
-A flat photo has no depth, so it fails.
-Twins, look-alike siblings and kids under thirteen are more likely to unlock it. If that worries you, use a passcode.
+Some new ones have an AI chip that pulls speech out of noise.
+The idea: slice sound into tiny bits of pitch and time, and keep the bits that look like speech.
+Clatter fades. Voices stay.
+But a second voice is speech too, and when two people talk at once, their bits overlap.
+So around someone with hearing aids, take turns: one voice at a time.
 
 Download the Ideaverse app.
 
-(The busts, dots and screens in the video are illustrations; the real dots are infrared and invisible.)
+(The room, chip and sound grid in the video are illustrations.)
 
 Sources:
-• Apple Support, About Face ID advanced technology: https://support.apple.com/en-us/102381
-• Apple Platform Security, Face ID and Touch ID security: https://support.apple.com/guide/security/face-id-and-touch-id-security-sec067eb0c9e/web
+• Phonak (Sonova), Audéo Sphere — DEEPSONIC chip "separates speech from noise in real time": https://www.phonak.com/en-us/hearing-devices/hearing-aids/audeo-sphere
+• DeLiang Wang, Deep Learning Reinvents the Hearing Aid, IEEE Spectrum (Dec 2016): https://spectrum.ieee.org/deep-learning-reinvents-the-hearing-aid
+• Healy, Delfarah, Vasko, Carter & Wang, An algorithm to increase intelligibility for hearing-impaired listeners in the presence of a competing talker, J. Acoust. Soc. Am. 141(6), 2017: https://pubmed.ncbi.nlm.nih.gov/28618817/
 
-#EverydayAI #AI #FaceID #PhoneSecurity #Ideaverse
+#EverydayAI #AI #HearingAids #Accessibility #Ideaverse
