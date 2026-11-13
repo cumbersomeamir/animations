@@ -1,0 +1,82 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.2,
+  "measured_start": 0.2,
+  "error_ms": 0.0,
+  "corr": 0.837,
+  "end": 5.035,
+  "shot_at_start": "hook_scale",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l02",
+  "planned_start": 5.3,
+  "measured_start": 5.3,
+  "error_ms": 0.0,
+  "corr": 0.827,
+  "end": 7.316,
+  "shot_at_start": "react",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l03",
+  "planned_start": 7.65,
+  "measured_start": 7.65,
+  "error_ms": 0.0,
+  "corr": 0.869,
+  "end": 9.895,
+  "shot_at_start": "shaft_up",
+  "shot_at_end": "shaft_up"
+ },
+ {
+  "id": "l04",
+  "planned_start": 10.25,
+  "measured_start": 10.25,
+  "error_ms": 0.0,
+  "corr": 0.842,
+  "end": 13.32,
+  "shot_at_start": "shaft_up",
+  "shot_at_end": "shaft_up"
+ },
+ {
+  "id": "l05",
+  "planned_start": 13.7,
+  "measured_start": 13.7,
+  "error_ms": 0.0,
+  "corr": 0.851,
+  "end": 16.561,
+  "shot_at_start": "shaft_cruise",
+  "shot_at_end": "shaft_cruise"
+ },
+ {
+  "id": "l06",
+  "planned_start": 16.95,
+  "measured_start": 16.95,
+  "error_ms": 0.0,
+  "corr": 0.85,
+  "end": 19.921,
+  "shot_at_start": "shaft_slow",
+  "shot_at_end": "shaft_slow"
+ },
+ {
+  "id": "l07",
+  "planned_start": 20.4,
+  "measured_start": 20.4,
+  "error_ms": 0.0,
+  "corr": 0.854,
+  "end": 24.749,
+  "shot_at_start": "payoff",
+  "shot_at_end": "payoff"
+ },
+ {
+  "id": "l08",
+  "planned_start": 26.45,
+  "measured_start": 26.45,
+  "error_ms": 0.0,
+  "corr": 0.842,
+  "end": 29.733,
+  "shot_at_start": "cafe_wide",
+  "shot_at_end": "cafe_wide"
+ }
+]

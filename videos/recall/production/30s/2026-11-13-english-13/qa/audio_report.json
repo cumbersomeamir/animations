@@ -1,0 +1,189 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.61,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.2,
+      "end": 5.035,
+      "text": "The elevator starts up, and the scale jumps from 75 to 84 kilos.",
+      "words": 13,
+      "words_per_s": 2.69,
+      "voice_over_bed_db": 17.0
+    },
+    {
+      "id": "l02",
+      "start": 5.3,
+      "end": 7.316,
+      "text": "Did you gain nine kilos? No.",
+      "words": 6,
+      "words_per_s": 2.98,
+      "voice_over_bed_db": 16.9
+    },
+    {
+      "id": "l03",
+      "start": 7.65,
+      "end": 9.895,
+      "text": "A scale reads how hard it pushes up on you.",
+      "words": 10,
+      "words_per_s": 4.45,
+      "voice_over_bed_db": 18.1
+    },
+    {
+      "id": "l04",
+      "start": 10.25,
+      "end": 13.32,
+      "text": "To speed you up, it must push harder than gravity pulls.",
+      "words": 11,
+      "words_per_s": 3.58,
+      "voice_over_bed_db": 16.1
+    },
+    {
+      "id": "l05",
+      "start": 13.7,
+      "end": 16.561,
+      "text": "At steady speed, the push matches gravity again.",
+      "words": 8,
+      "words_per_s": 2.8,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l06",
+      "start": 16.95,
+      "end": 19.921,
+      "text": "Slowing at the top, it pushes less, so you read lighter.",
+      "words": 11,
+      "words_per_s": 3.7,
+      "voice_over_bed_db": 17.4
+    },
+    {
+      "id": "l07",
+      "start": 20.4,
+      "end": 24.749,
+      "text": "Your mass never changed. Only the push did, while your speed was changing.",
+      "words": 13,
+      "words_per_s": 2.99,
+      "voice_over_bed_db": 17.5
+    },
+    {
+      "id": "l08",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 81,
+  "speech_s": 25.63,
+  "overall_words_per_s": 2.7,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "elevator chime"
+    },
+    {
+      "t": 0.7,
+      "beat": 1.4,
+      "sfx": "car starts: soft jolt"
+    },
+    {
+      "t": 0.7,
+      "beat": 1.4,
+      "sfx": "elevator motor hum through the ride"
+    },
+    {
+      "t": 0.78,
+      "beat": 1.56,
+      "sfx": "scale digits jump"
+    },
+    {
+      "t": 3.15,
+      "beat": 6.3,
+      "sfx": "cut to the rider"
+    },
+    {
+      "t": 5.6,
+      "beat": 11.2,
+      "sfx": "nine kilos?"
+    },
+    {
+      "t": 6.85,
+      "beat": 13.7,
+      "sfx": "No."
+    },
+    {
+      "t": 7.25,
+      "beat": 14.5,
+      "sfx": "cut to the cutaway shaft (ends before l03)"
+    },
+    {
+      "t": 8.8,
+      "beat": 17.6,
+      "sfx": "push arrow"
+    },
+    {
+      "t": 9.6,
+      "beat": 19.2,
+      "sfx": "gravity arrow"
+    },
+    {
+      "t": 11.75,
+      "beat": 23.5,
+      "sfx": "extra push"
+    },
+    {
+      "t": 13.58,
+      "beat": 27.16,
+      "sfx": "reading back to 75.0"
+    },
+    {
+      "t": 16.83,
+      "beat": 33.66,
+      "sfx": "slowing"
+    },
+    {
+      "t": 16.88,
+      "beat": 33.76,
+      "sfx": "reading 65.8"
+    },
+    {
+      "t": 19.9,
+      "beat": 39.8,
+      "sfx": "arrival ding"
+    },
+    {
+      "t": 20.5,
+      "beat": 41.0,
+      "sfx": "mass: 75 kg"
+    },
+    {
+      "t": 22.2,
+      "beat": 44.4,
+      "sfx": "speed graph segments"
+    },
+    {
+      "t": 26.65,
+      "beat": 53.3,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.453,
+  "voice_gain": 1.0
+}
