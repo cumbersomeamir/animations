@@ -13,14 +13,15 @@ function rr(g, x, y, w, h, r) {
 }
 
 function layout(g, cap) {
-  for (let size = 56; size >= 44; size -= 2) {
+  for (let size = 56; size >= 40; size -= 2) {
     g.font = `600 ${size}px ${FONT}`;
     const lines = cap.lines.map(segs => {
       const txt = segs.map(s => s[0]).join(''); const m = g.measureText(txt);
       return { segs, w: m.width, asc: m.actualBoundingBoxAscent, desc: m.actualBoundingBoxDescent, l: m.actualBoundingBoxLeft, r: m.actualBoundingBoxRight };
     });
     const LH = Math.round(size * 1.24), inkH = LH * (lines.length - 1) + lines[0].asc + lines[lines.length - 1].desc;
-    if (inkH <= SAFE.capBottom - SAFE.capTop - 30 && Math.max(...lines.map(l => l.w)) <= SAFE.right - SAFE.left - 40) return { size, lines, LH, inkH };
+    const maxW = 2 * Math.min(540 - SAFE.left, SAFE.right - 540) - 60;   // centred at 540: ink and its pill stay inside x 100..900
+    if (inkH <= SAFE.capBottom - SAFE.capTop - 30 && Math.max(...lines.map(l => l.w)) <= maxW) return { size, lines, LH, inkH };
   }
   throw new Error('caption does not fit');
 }
