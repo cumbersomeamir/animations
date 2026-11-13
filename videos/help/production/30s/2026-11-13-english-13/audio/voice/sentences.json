@@ -1,0 +1,64 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "This food bank looks like a shop, on purpose.",
+   "dur": 2.423,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "No packed bags: people pick their own food.",
+   "dur": 2.553,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Won't people just take too much?",
+   "dur": 1.52,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Pantries found the opposite: people often take too little.",
+   "dur": 3.313,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "They skip what they can't eat, so less is thrown away.",
+   "dur": 2.716,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "In a Connecticut trial, choice plus coaching beat food bags on food security.",
+   "dur": 4.597,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Choice isn't a luxury: food that fits gets eaten, and people feel respected.",
+   "dur": 4.734,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

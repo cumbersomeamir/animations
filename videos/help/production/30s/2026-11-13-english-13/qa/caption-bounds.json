@@ -1,0 +1,166 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 34,
+ "extent": {
+  "x0": 123,
+  "x1": 877,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "This food bank / looks like a shop,",
+   "fs": 56,
+   "x0": 262,
+   "x1": 738,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 31
+  },
+  {
+   "text": "on purpose.",
+   "fs": 66,
+   "x0": 304,
+   "x1": 696,
+   "y0": 419,
+   "y1": 470,
+   "firstFrame": 74
+  },
+  {
+   "text": "No packed bags:",
+   "fs": 66,
+   "x0": 227,
+   "x1": 773,
+   "y0": 407,
+   "y1": 471,
+   "firstFrame": 109
+  },
+  {
+   "text": "people pick / their own food.",
+   "fs": 56,
+   "x0": 290,
+   "x1": 710,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 153
+  },
+  {
+   "text": "Won't people just / take too much?",
+   "fs": 56,
+   "x0": 258,
+   "x1": 742,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 209
+  },
+  {
+   "text": "Pantries found / the opposite:",
+   "fs": 56,
+   "x0": 297,
+   "x1": 703,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 265
+  },
+  {
+   "text": "people often / take too little.",
+   "fs": 56,
+   "x0": 312,
+   "x1": 688,
+   "y0": 377,
+   "y1": 484,
+   "firstFrame": 322
+  },
+  {
+   "text": "They skip what / they can't eat,",
+   "fs": 56,
+   "x0": 290,
+   "x1": 710,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 375
+  },
+  {
+   "text": "so less is thrown away.",
+   "fs": 66,
+   "x0": 123,
+   "x1": 877,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 423
+  },
+  {
+   "text": "In a Connecticut trial,",
+   "fs": 66,
+   "x0": 151,
+   "x1": 849,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 471
+  },
+  {
+   "text": "choice plus coaching",
+   "fs": 66,
+   "x0": 154,
+   "x1": 846,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 510
+  },
+  {
+   "text": "beat food bags / on food security.",
+   "fs": 56,
+   "x0": 265,
+   "x1": 735,
+   "y0": 377,
+   "y1": 495,
+   "firstFrame": 565
+  },
+  {
+   "text": "Choice isn't a luxury:",
+   "fs": 66,
+   "x0": 154,
+   "x1": 846,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 648
+  },
+  {
+   "text": "food that fits / gets eaten,",
+   "fs": 56,
+   "x0": 322,
+   "x1": 678,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 697
+  },
+  {
+   "text": "and people / feel respected.",
+   "fs": 56,
+   "x0": 291,
+   "x1": 709,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 752
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

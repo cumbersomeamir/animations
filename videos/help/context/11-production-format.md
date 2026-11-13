@@ -229,3 +229,15 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
 **Delivery/QA:** completed MP4 (+ thumbnail) only for the user's video-review folder; source, citations, prompts and QA stay in the repo. Render,
   full-decode, check duration/codecs, inspect transitions/frames, check caption sync, clipping, missing assets. I cannot listen to audio: report
   the ASR-based check as such and never claim a listening pass.
+
+## Update 2026-11-13 — english-13 (2026-11-11 feedback retained; corrections learned this episode)
+- Topic gate: food-redistribution chain / transport / last-mile capacity / "your donation solves a bottleneck" proposals are covered (round-02 +
+  english-08 gate + "ask first" gate). english-13 switched to **client-choice pantries** (shop-style food banks; "won't people take too much?") —
+  now covered too; next pantry-model proposals need a different mechanism.
+- Every scene needs an anchor present from its slide-in (english-13 trial scene: pedestals + plaque) — a reveal that starts from an empty stage reads
+  as a blank frame. Badges/ticks must land before the scene's slide-out (≥ 0.4 s before the scene end).
+- Hook label with a diegetic sign under the opening zoom: keep the label ≥ 80 px above the sign (english-13: label y 750, sign below).
+- ASR traps: sentence-initial "But"/"And" are dropped in isolation → start lines without them; "skip food" → "skip through" (use "skip what").
+- Sources: PubMed web pages are cookie-walled for the fetch tool → read the abstract via NCBI E-utilities efetch (official API); a university PDF
+  returned as raw bytes → pdftotext on the saved file. A measured result from one trial must name what was tested ("choice plus coaching").
+
