@@ -150,6 +150,7 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-14 (2026-11-14) — RENDERING
-- Robot vacuum: camera classification vs thin flat cables (record context/29; iRobot support table, eufy support, IEEE
-  Spectrum). Icon re-checked (unchanged). Scene src/stage/vacuum.js. Pre-render mix ASR: all lines MATCH.
+# CURRENT — english-14 (2026-11-14) — DELIVERED
+- Robot vacuum: camera classes vs thin flat cables (record context/29). production/30s/2026-11-14-english-14/
+  ideaverse-30s-english14-01.mp4 (sha256 da6bc6d2…8eae) + thumbnail; QA.md + qa/. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.

@@ -221,7 +221,7 @@ function cardState(t) {
 function updateCard(t) {
   const s = cardState(t), k = JSON.stringify(s); if (k === cardKey) return; cardKey = k;
   const g = cardCanvas.getContext('2d'); g.setTransform(CS, 0, 0, CS, 0, 0); g.globalAlpha = 1; g.letterSpacing = '0px';
-  drawCard(g, s); tag(g, NW - 22, NH - 62, 'EXAMPLE', NAVY, AMBER, 18); cardMesh.material.map.needsUpdate = true;
+  drawCard(g, s); if (s.face !== 'idle') tag(g, NW - 22, NH - 62, 'EXAMPLE', NAVY, AMBER, 18); cardMesh.material.map.needsUpdate = true;   // idle card shows no data: no tag (keeps the top band text-free)
 }
 function labelAt(t) {
   if (t >= Hh.stuck && t < Hh.cut1) return ['STUCK!', RED, '#FFFFFF'];

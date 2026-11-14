@@ -44,5 +44,9 @@ Illustrative (not measured): the vacuum, path, sock/shoe/cable, frustum, boxes, 
 6. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the stuck vacuum (3.4 s) + "SOCK: DODGED / CABLE: EATEN".
 
-## QA / status — IN PROGRESS
-- Pre-render mix ASR: all lines MATCH, no word outside captions.
+## QA / status — DELIVERED 2026-11-14
+- Output: production/30s/2026-11-14-english-14/ideaverse-30s-english14-01.mp4 · sha256 da6bc6d2…8eae, plus
+  ideaverse-30s-english14-01-thumbnail.png ("SOCK: DODGED / CABLE: EATEN"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.4 dBTP.
+- English ASR on the final MP4: all six lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Limitation: ASR-only listening check (no by-ear listen possible here).
