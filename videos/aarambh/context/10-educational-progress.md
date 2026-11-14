@@ -207,3 +207,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Verified facts:** NIHF (the 1854 demonstration, he didn't invent the elevator, his dates) and the U.S. 31,128 text (pawls, spring, hook-toothed racks, rope tension). The NARA drawing is shown on screen.
 - **Verification:** ASR matches except the first name (one of two models), the brake/break homophone and the app name; there was no human listening. One post-render, video-only fix.
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-14: english-14 #01 (COMPLETE; third episode under context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-14-english-14/aarambh-30s-english14-01.mp4`, sha256 `d589c52011444ee698a433bb5c6f67b56efbb2c8c5cbca93e575846273ae9b9e`, plus the thumbnail `aarambh-30s-english14-01-thumbnail.png` ("SHE CARRIED THE PLANS"). Emily Warren Roebling and the Brooklyn Bridge (English). 30.000 s, 900 frames, −14.9 LUFS, −1.5 dBTP, full decode OK.
+- **Topic:** fresh (not covered). The mismatched topic line "bridge collapse" was not used.
+- **Verified facts:** Linda Hall Library (the bends from the caissons, 11 years working from home, dictation and relay to the assistant engineers, learning the engineering, treated like the Chief Engineer).
+- **Images:** Brooklyn Museum portraits (PD-Art), the RPI 1867 caisson drawing and the LOC 1883 print.
+- **Verification:** small ASR matches the script word for word except the name spelling and the app name; there was no human listening. One post-render caption fix (video only).
+- No automation; no other episode started; earlier renders untouched.

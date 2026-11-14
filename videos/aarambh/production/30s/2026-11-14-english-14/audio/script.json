@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.25, "text": "The Brooklyn Bridge's chief engineer couldn't visit it for 11 years.", "tts": "The Brooklyn Bridge's chief engineer couldn't visit it for eleven years."},
+    {"id": "S2", "start": 4.35, "text": "So how did his plans reach the builders?", "tts": "So how did his plans reach the builders?"},
+    {"id": "S3", "start": 6.68, "text": "Washington Roebling got the bends in pressurized caissons under the river.", "tts": "Washington Roebling got the bends in pressurized caissons under the river."},
+    {"id": "S4", "start": 11.25, "text": "He dictated from home; his wife, Emily, wrote it down and carried it to the assistant engineers.", "tts": "He dictated from home; his wife, Emily, wrote it down and carried it to the assistant engineers."},
+    {"id": "S5", "start": 17.60, "text": "She learned the engineering; on site, she was treated like the chief engineer.", "tts": "She learned the engineering; on site, she was treated like the chief engineer."},
+    {"id": "S6", "start": 22.00, "text": "Lesson: to translate expert knowledge, learn enough to answer the next question.", "tts": "Lesson: to translate expert knowledge, learn enough to answer the next question."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

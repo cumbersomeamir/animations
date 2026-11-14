@@ -1,0 +1,32 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+The | 0.25 (The, placed) | 0.00 (The) | HOOK: spotlight on; real 1883 bridge print slides in with a light sweep from frame 0; slow push | 0.00
+Chief | 1.46 (Chief) | 1.46 (chief) | Washington Roebling's real portrait (at his window, bridge behind) drops in | 1.06
+Chief | 1.46 (Chief) | 1.46 (chief) | label CHIEF ENGINEER | 1.36
+11 | 3.22 (11) | 3.22 (11) | big label 11 YEARS + "away from the site" | 3.07
+so | 4.42 (so) | 4.44 (So) | HARD CUT (flash) -> question scene: lit window, then a tower rises | 4.29
+plans | 5.10 (plans) | 5.10 (plans) | gold path draws from the window toward the tower; a note travels along it | 4.80
+builders | 5.92 (builders?) | 5.92 (builders?) | big gold "?" | 5.62
+Washington | 6.80 (Washington) | 6.78 (Washington) | WHIP PAN -> real 1867 caisson section drawing (6.48-6.68); slow push toward the working chamber | 6.48
+bends | 8.54 (bends) | 8.56 (bends) | big label THE BENDS | 8.39
+pressurized | 9.18 (pressurized) | 9.10 (pressurized) | working chamber glows (pressurized) + bubbles rise up the shaft; label "pressurized" | 8.98
+He | 11.38 (He) | 11.38 (He) | PAGE TURN -> relay page (10.90-11.25); Washington portrait | 10.90
+dictated | 11.50 (dictated) | 11.50 (dictated) | dictation waves from his portrait | 11.30
+wife | 13.18 (wife,) | 13.18 (wife,) | Emily's real portrait drops in | 12.83
+Emily | 13.80 (Emily,) | 13.78 (Emily,) | name label EMILY WARREN ROEBLING | 13.70
+rode | 14.36 (rode) | 14.34 (rode) | a note is handwritten line by line | 14.21
+and | 14.92 (and) | 14.92 (and) | tower and (44-45) three assistant-engineer figures appear | 14.52
+carried | 15.14 (carried) | 15.14 (carried) | the note folds and travels along a gold path to the engineers | 14.94
+engineers | 16.24 (engineers.) | 16.24 (engineers.) | note arrives (glow + chime) | 16.24
+She | 17.68 (She) | 17.68 (She) | PUSH -> Emily on site (17.35-17.60); full portrait | 17.35
+learned | 17.84 (learned) | 17.84 (learned) | study pages (real caisson drawing, real bridge print) stack beside her | 17.64
+On | 19.18 (On) | 19.18 (On) | study pages exit; a tower rises: on site | 19.08
+treated | 20.22 (treated) | 20.22 (treated) | title card "treated like the CHIEF ENGINEER" swings in | 20.07
+Lesson | 22.24 (Lesson) | 22.24 (Lesson) | PUSH -> lesson (21.70-22.00): expert, translator, builders | 21.70
+translate | 23.08 (translate) | 23.08 (translate) | labels; knowledge flows expert -> translator | 22.88
+expert | 23.36 (expert) | 23.36 (expert) | flow translator -> builders | 23.46
+enough | 24.94 (enough) | 24.94 (enough) | a "?" travels back from the builders to the translator; the expert dims | 24.84
+answer | 25.42 (answer) | 25.44 (answer) | the translator sends back a check | 25.47
+next | 25.78 (next) | 25.78 (next) | label "answer the next question" (+ chime) | 25.68
+Download | 27.10 (Download, placed) | 26.68 (Download) | CTA slides in (26.70-27.10) | 26.70
+summary: 29 events; event minus word start ranges -0.54 to +0.10 s (negative = event leads the word). Pacing: hook 0.25-4.05 (striking image from frame 0), super hook 4.35-6.38 (the open question), explanation/proof 6.68-21.70 with scene changes at 4.29, 6.68, 11.25, 17.60, payoff 22.00-26.76, CTA 27.10-29.87.
+note: placed sentence starts S1 0.25 S2 4.35 S3 6.68 S4 11.25 S5 17.6 S6 22.0 S7 27.1 (audio/script.json); ASR stamps "Download" early (26.62) and the placed start 27.10 is used; ASR spells Roebling phonetically as "Robling" (ROHB-ling); tiny.en hears "wrote" as "rode" and "caissons" as "casens" (small hears both correctly); ASR hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

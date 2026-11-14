@@ -297,3 +297,11 @@ Changes to the recipe above:
 - **Flying debris** (cut ropes, chips) must be clipped to the scene so it never enters the caption or top band.
 
 - 15 (2026-11-13, english-13): Elisha Otis, "cut the cable": the elevator safety brake (U.S. Patent 31,128; NARA drawing); replaces a second Mary Anderson episode. Record: `27-production-30s-english13-01.md`
+
+## English-14 notes, 2026-11-14
+- **The brief's topic line may not match its detailed brief** ("a bridge collapse made useful" vs Emily Warren Roebling). Follow the detailed, verifiable brief and never adopt an unsupported framing (no collapse, no "inventor" label).
+- **Portraits as artworks:** the Brooklyn Museum's Roebling portraits on Commons are PD-Art. Chartran's Washington Roebling shows the bridge through his window, a real image that carries the story. RPI's 1867 caisson section is a strong "engineering page".
+- **Caption width:** at Inter 800 54 px, keep each caption line ≤ ~700 px (about 26 characters), so the plate keeps ≥ 30 px padding inside the 800 px cap.
+- **`photo()` sets its own globalAlpha,** so pass fades as its `a` argument, never via a parent `globalAlpha`.
+
+- 16 (2026-11-14, english-14): Emily Warren Roebling and the Brooklyn Bridge: she wrote down and carried the bedridden chief engineer's instructions and learned the engineering (Linda Hall Library; Brooklyn Museum portraits; RPI 1867 caisson drawing). Record: `28-production-30s-english14-01.md`
