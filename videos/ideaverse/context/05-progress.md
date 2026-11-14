@@ -148,3 +148,8 @@
 - production/30s/2026-11-13-english-13/ideaverse-30s-english13-01.mp4 (sha256 b2970ca5…4d31) + thumbnail "WHICH VOICE?";
   QA.md + qa/; record context/28. Face ID draft stopped before render (git history 3b655d1), not delivered.
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-14 (2026-11-14) — RENDERING
+- Robot vacuum: camera classification vs thin flat cables (record context/29; iRobot support table, eufy support, IEEE
+  Spectrum). Icon re-checked (unchanged). Scene src/stage/vacuum.js. Pre-render mix ASR: all lines MATCH.

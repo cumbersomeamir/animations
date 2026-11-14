@@ -237,3 +237,8 @@ Episodes 09–11 were already in production before this note and keep the earlie
   AI hearing aids + overlapping voices (context/28). Topic corrections replace the job; they are not extra videos.
 - New technique inside the same style: 3D props with raycast dot clouds and per-shot light dimming; one big label at a time
   pinned to the lower middle of the frame (camera-space), captions in the x 100..900 pill.
+
+## Batch 2026-11-14-english-14 — 2026-11-11 rules retained (no new style changes)
+- Proposed topic (robot vacuum: avoids a sock, still eats a cable) is new → used. Model-specific capabilities are taken only
+  from manufacturers' own support pages; the episode shows one demonstration per beat (camera boxes, laser points).
+- Caption checker (since english-13) fails if caption TEXT leaves x 100..900, not only the pill.
