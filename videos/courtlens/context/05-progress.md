@@ -13,8 +13,30 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - The proposed topic (restaurant service charge) duplicates Episode 06, so a new same-genre topic was chosen. Record:
   `context/episodes/2026-11-14-english14-electricity-disconnection.md`.
 - The approved rules in `context/09-feedback-rules-2026-11-11.md` were re-sent unchanged and apply as written.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- Checkpoint commit 5397727 (sources, narration, audio lines, timeline, scene, notes, thumbnail) was made before the
+  full render.
+- DELIVERED: `production/30s/2026-11-14-english-14/courtlens-30s-english14-01.mp4`
+  (sha256 57cbf3ed137dcb85947a628c652e4606f8054ab4154c5632254aba72c24980ff) and the thumbnail
+  `courtlens-30s-english14-01-thumbnail.png` (sha256 0931017c372a3c34248fc6e5b2bbefe2bf93aa522b317202922ab580b159be2f).
+
+### Verification (final MP4)
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.0 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA 26.95–29.90 s (final 3.05 s); y<300 clear.
+- Caption ink in decoded frames: x 104..891, y 330..518.
+- English ASR on the final mix: WER 0.013 (the only miss is the ASR spelling "Courtlands"); all words fall in caption
+  windows.
+- Render 900/900 with no capture retries.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-14-english-14/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- The official India Code copy of the Act was unreachable (CDN error or 403). s.56 is quoted from the Supreme Court's
+  reproduction (2020).
+- The Electricity (Amendment) Bill 2025: no enactment was found. The PRS bill page shows an unexplained "Passed" label,
+  but the published draft does not amend s.56. Re-check if it is enacted.
+- The desktop review folder is not reachable from this cloud session, so the MP4 and thumbnail are attached in chat.
 
 ### Verified facts (details: `production/30s/2026-11-14-english-14/notes/LEGAL-SOURCES.md`)
 - Electricity Act 2003 s.56(1): disconnection for non-payment only after "not less than fifteen clear days' notice in
@@ -64,7 +86,8 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - **Thumbnail:** the lamp cord showed through the chip, so the cord now starts below it.
 
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build14/frames`.
+- Await the next request. No automation and no further episode unless asked. `$S/build14/frames` was deleted after
+  delivery (disk hygiene).
 
 ## Round 2026-11-13 (english-13): can a bank refuse to exchange your torn note? (India)
 
