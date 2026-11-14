@@ -25,3 +25,4 @@
 | Production 30s batch 2026-11-09-english-11 (English, why a text gets through when a call won't) | Original code in `production/30s/2026-11-09-english-11/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-11-english-12 (English, why concrete walls shrink Bluetooth range) + thumbnail | Original code in `production/30s/2026-11-11-english-12/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
 | Production 30s batch 2026-11-13-english-13 (English, how two phones talk with no SIM card) + thumbnail | Original code in `production/30s/2026-11-13-english-13/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |
+| Production 30s batch 2026-11-14-english-14 (English, why a hand's width can bring the signal back: multipath dead spots) + thumbnail | Original code in `production/30s/2026-11-14-english-14/`; see its `LICENSE-NOTES.md` | Original work / Apache-2.0 voice model |

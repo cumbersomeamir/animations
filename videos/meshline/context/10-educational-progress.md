@@ -96,3 +96,7 @@
 ## Production 2026-11-13-english-13 (English, how two phones talk with no SIM card): complete
 - See `26-production-30s-english13-01.md`; output sha256 `a4058778b427a2b1fa08de07322aa4bb8b90990645107e28bde31272c02d7964`; thumbnail `meshline-30s-english13-01-thumbnail.png`.
 - New topic (not covered): SIM = carrier identity checked by the network vs Bluetooth = separate radio with its own pairing keys; generic prerequisites (Bluetooth on, Android Nearby devices permission); limited reach and walls.
+
+## Production 2026-11-14-english-14 (English, why a hand's width can bring the signal back): complete
+- See `27-production-30s-english14-01.md`; output sha256 `9a9802da9e1ff16183d139faee5bfc43d152eed3ab7fe9081c33c48639c05a31`; thumbnail `meshline-30s-english14-01-thumbnail.png`.
+- Topic change: the proposed obstruction/clearer-path angle repeats 07/14/15, so the episode covers multipath dead spots (echoes add or cancel; strong and weak spots centimetres apart).

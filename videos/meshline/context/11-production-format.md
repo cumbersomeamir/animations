@@ -242,4 +242,12 @@ This is reference for later rounds. **No automation has been created.** Each rou
   - Avoid contractions where the negation carries the meaning ("isn't" was heard as "is in").
 - **Trademarks:** don't draw third-party logos such as the Bluetooth rune. Use a generic radio-wave glyph; name the technology in words only.
 - **Spec sources:** if 3GPP's FTP shows a bot check, use the identical ETSI deliver PDFs.
+| 16 | 2026-11-14-english-14 | Why a hand's width can bring the signal back (multipath dead spots: echoes add or cancel; 2.4 GHz wave ≈ 12 cm), **English** + thumbnail | `production/30s/2026-11-14-english-14/meshline-30s-english14-01.mp4` |
+
+## Production notes 2026-11-14, batch english-14 (specific adjustments only; the 2026-11-11 standing brief still applies)
+- **Topic rule applied:** "move a few steps past an obstruction" repeats 07/14/15. Obstruction, walls and distance are now fully covered; don't propose them again as the main mechanism. Multipath dead spots are taken (16).
+- **Still unused planned titles:** what 5G changes; home Wi-Fi slowing at peak; how a phone picks a tower.
+- **Computed visuals:** when a diagram shows a physical field (here the interference map), compute it from a simple stated model and say in `claims.md` that it is illustrative. Drive the phone's live bars and the instrument from the same model.
+- **Framing guard:** check every camera key numerically against the sheet's edges (0 and SHEET.w). Extend SHEET.h when strips sit below the main plan.
+- **TTS wording:** "copies… out of step" was garbled in ASR; prefer common words ("echoes", "out of sync") for key mechanism lines.
 

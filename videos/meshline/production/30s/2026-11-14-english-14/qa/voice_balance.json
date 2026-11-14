@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 4.153,
+  "text": "Dead spot? Slide the phone a hand's width, and it can come back. Why?",
+  "speech_band_db": 24.4
+ },
+ {
+  "id": "l2",
+  "start": 4.67,
+  "end": 8.513,
+  "text": "The radio wave arrives by several paths, bouncing off walls.",
+  "speech_band_db": 17.4
+ },
+ {
+  "id": "l3",
+  "start": 9.03,
+  "end": 12.549,
+  "text": "The echoes arrive out of sync. Here they add up, there they cancel.",
+  "speech_band_db": 17.8
+ },
+ {
+  "id": "l4",
+  "start": 13.07,
+  "end": 17.686,
+  "text": "At Bluetooth's two point four gigahertz, one wave is about twelve centimetres long.",
+  "speech_band_db": 23.4
+ },
+ {
+  "id": "l5",
+  "start": 18.2,
+  "end": 21.257,
+  "text": "So weak and strong spots can be just centimetres apart.",
+  "speech_band_db": 21.9
+ },
+ {
+  "id": "l6",
+  "start": 21.78,
+  "end": 25.325,
+  "text": "When a nearby link stalls, shift the phone a little before giving up.",
+  "speech_band_db": 21.7
+ },
+ {
+  "id": "l7",
+  "start": 25.92,
+  "end": 29.546,
+  "text": "Try Meshline for private nearby messaging, even offline.",
+  "speech_band_db": 20.3
+ }
+]

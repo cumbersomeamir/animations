@@ -1,0 +1,11 @@
+# Licence notes: batch 2026-11-09-english-14
+- **Visuals:** original Canvas2D code (`src/spots.mjs`). Art direction comes from the Transit Map STYLE.md (lemomo-ai/lemo-opuscar), which was read only; nothing from it was copied or executed.
+  - Phones, envelopes, room walls, ray paths, sine waves, ruler and a computed interference map (code-generated, illustrative) are generic code-drawn shapes. There is no app UI or screenshot, and no third-party logo or trademark artwork.
+- **Palette and signature icon:** `videos/meshline/assets/icon.png` (an approved app asset).
+- **Fonts:** Inter / Inter Display (OFL-1.1), from `videos/meshline/project/fonts`.
+- **Voice:** Kokoro-82M ONNX (Apache-2.0), approved Meshline English blend 0.7 af_bella + 0.3 am_puck, speed 0.98, en-us, run locally. It imitates no person, and no Hindi audio is reused.
+- **Music and SFX:** synthesised from scratch (`audio/mix_e14.py` plus `education/pilot-01/audio/mix.py` helpers). No samples.
+- **ASR check:** faster-whisper 1.1.1 (MIT) with Systran faster-whisper-base.en (MIT), local, QA only.
+- **Tools:** `@napi-rs/canvas` 1.0.11 (MIT), FFmpeg 6.1, numpy, scipy.
+- **Research documents:** ITU-R P.1406-2, ITU-R P.1238-13, NIST CODATA (speed of light) and the Bluetooth SIG range page. Only short attributed quotes appear in `research/claims.md`.
+- **Thumbnail:** `meshline-30s-english14-01-thumbnail.png` (1080x1920) is rendered by the same scene code (`node src/render.mjs --thumb <file>`) with the official icon. No stock art.
