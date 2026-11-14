@@ -525,3 +525,34 @@ Episode record: `23-episode-ironic-thought-suppression.md`. The 2026-11-11 rules
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-14, 2026-11-14: episode english14-01 "why a friend's problem is easier to untangle than your own" (English)
+Episode record: `24-episode-solomons-paradox.md`. The 2026-11-11 rules and the latest feedback (store palette, soothing sound) are retained.
+
+## Verified facts (this round)
+- The proposed topic (Zeigarnik effect + "write the next action and when") overlaps english12-01, so a different same-genre topic was chosen: Solomon's paradox / self-distancing.
+- Sources (PubMed abstracts):
+  - Grossmann & Kross 2014 (PMID 24916084): three experiments, N = 693; wiser reasoning about others' problems; self-distancing eliminated the asymmetry.
+  - Kross et al. 2014 (PMID 24467424): own name / non-first-person self-talk; better rated performance and less distress.
+
+## Creative decisions (this round)
+- English only, 72 words, fresh narration.
+- Two knots (the friend's loosens, yours stays tangled); a Solomon's-paradox card with a wise-reasoning gap that closes as the camera steps back; a self-talk bubble "I" → "Alex"; the note "Alex, what would you tell a friend?" loosens his knot.
+- Thumbnail "EASIER FOR FRIENDS?". `BED_GAIN` 0.42 (13.4 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-14-english-14/mello-30s-english14-01.mp4`
+  - sha256 `079d0bd63228fb6617ce26a7c4350f02ffd0cda9d8e49e92c9dae7cd4675299f`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english14-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-14-english-14/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.
