@@ -272,3 +272,14 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 75 words / 25.6 s (approved Kokoro blend), every take heard exactly by Whisper; word timestamps drive events.
 - Running: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840); next `SKIP_FRAMES=1 bash build/build.sh`,
   `node build/thumb.mjs thumbnail-english14-01.png`, QA, commit MP4 + thumbnail.
+
+## Checkpoint 2026-11-14 — english-14 delivered
+- production/30s/2026-11-14-english-14/media-diet-30s-english14-01.mp4 (SHA-256 f62dab879a12c190b73227a9e446cbf89408c91162baaea4a0545bacc6237cd2)
+  + separate thumbnail thumbnail-english14-01.png ("MESSIER / = TOUGHER?"); record context/29; context/11 log row → delivered.
+- Commands: three `build/render_chunks.sh` workers; after the caption fix `node build/render.mjs film frames <s> <s+59>` for the nine
+  affected chunks; `SKIP_FRAMES=1 bash build/build.sh`; `node build/thumb.mjs thumbnail-english14-01.png`.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 378–488, x 192–887; labels x 187–895; 0 violations; caption↔speech 10/10; Whisper word recall 1.0 full / 1.0 per line.
+- Lesson kept for future builds: captions are centred at x 540 → caption lines auto-fit to ≤ 700 px (english-14 film.js); copy this head forward.
+- Superseded first encode (caption x 913) kept only in the session scratchpad, not committed.
+- Unresolved: not yet watched or listened to by a human; no review folder exists in this container. Earlier outputs untouched.

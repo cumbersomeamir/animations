@@ -52,5 +52,11 @@ Layered Tech Cutaway paper diorama (accepted renderer core, paper stock, key lig
 + soft front fill; samples are instanced paper beams deformed per frame; network generated in code from the published recipe
 (schematic, not the paper's geometry). Captions: accepted Space Grotesk 700 50 px auto-fit to x 100–900; labels auto-fit ≤ 720 px.
 
-## QA / limits
-Filled after render (see the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 f62dab879a12c190b73227a9e446cbf89408c91162baaea4a0545bacc6237cd2; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 378–488, x 192–887; labels x 187–895,
+y 1359–1456; 0 violations; caption↔speech 10/10; Whisper-medium word recall 1.0 full pass and 1.0 per line. Thumbnail
+thumbnail-english14-01.png (SHA-256 2a14daab…c43a3), words inside x 203–884.
+Fix: QA on the first encode flagged two caption lines reaching x 913 (captions are centred at x 540, so lines must be ≤ 720 px); caption
+auto-fit tightened to 700 px for all future builds, nine chunks re-rendered; the superseded encode was not committed.
+Limits: schematic paper reconstruction (not the paper's geometry); lab research, not a product; nobody has listened to or watched it yet.

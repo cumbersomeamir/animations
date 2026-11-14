@@ -1,0 +1,89 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "MIT made a material tougher by making it messier. How can disorder beat a perfect pattern? In a perfect lattice, when one cell buckles, its identical neighbors follow. The constraint, long, thin beams buckle before short, thick ones. So the team drew networks with beams of many sizes. Under dropped weights, they beat lattices and honeycombs. Mixed sizes share the damage, so no single band collapses. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.15,
+    3.25
+   ],
+   "transcript": "MIT made a material tougher by making it messier.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    3.55,
+    5.48
+   ],
+   "transcript": "How can disorder beat a perfect pattern?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    5.85,
+    10.18
+   ],
+   "transcript": "In a perfect lattice, when one cell buckles, its identical neighbors follow.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    10.5,
+    14.33
+   ],
+   "transcript": "The constraint. Long, thin beams buckle before short, thick ones.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    14.65,
+    17.47
+   ],
+   "transcript": "So the team drew networks with beams of many sizes.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    17.8,
+    20.72
+   ],
+   "transcript": "Under dropped weights, they beat lattices and honeycombs.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    21.4,
+    24.93
+   ],
+   "transcript": "Mixed sizes share the damage, so no single band collapses.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "MIT made a material tougher by making it messier. How can disorder beat a perfect pattern? In a perfect lattice, when one cell buckles, its identical neighbors follow. The constraint. Long, thin beams buckle before short, thick ones. So the team drew networks with beams of many sizes. Under dropped weights, they beat lattices and honeycombs. Mixed sizes share the damage, so no single band collapses. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

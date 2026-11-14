@@ -1,0 +1,152 @@
+[
+ {
+  "line": "V1",
+  "text": "MIT made a material tougher / by making it messier.",
+  "cue": [
+   0.07,
+   3.45
+  ],
+  "speech": [
+   0.17,
+   3.198
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.252,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "How can disorder beat / a perfect pattern?",
+  "cue": [
+   3.47,
+   5.75
+  ],
+  "speech": [
+   3.581,
+   5.438
+  ],
+  "lead_s": 0.111,
+  "tail_s": 0.312,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "In a perfect lattice, / when one cell buckles,",
+  "cue": [
+   5.77,
+   8.37
+  ],
+  "speech": [
+   5.871,
+   8.279
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.091,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "its identical neighbors follow.",
+  "cue": [
+   8.39,
+   10.4
+  ],
+  "speech": [
+   8.499,
+   10.132
+  ],
+  "lead_s": 0.109,
+  "tail_s": 0.268,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "The constraint: / long, thin beams buckle",
+  "cue": [
+   10.42,
+   12.814
+  ],
+  "speech": [
+   10.522,
+   12.814
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "before short, thick ones.",
+  "cue": [
+   12.834,
+   14.55
+  ],
+  "speech": [
+   12.834,
+   14.284
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.266,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "So the team drew networks / with beams of many sizes.",
+  "cue": [
+   14.57,
+   17.7
+  ],
+  "speech": [
+   14.672,
+   17.42
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.28,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Under dropped weights, / they beat lattices and honeycombs.",
+  "cue": [
+   17.72,
+   21.021
+  ],
+  "speech": [
+   17.82,
+   20.676
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.345,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Mixed sizes share the damage, / so no single band collapses.",
+  "cue": [
+   21.32,
+   25.229
+  ],
+  "speech": [
+   21.421,
+   24.88
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.349,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.153,
+   29.177
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]
