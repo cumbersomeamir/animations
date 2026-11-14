@@ -1,0 +1,258 @@
+{
+ "sfx": [
+  {
+   "t": 0.35,
+   "type": "slide"
+  },
+  {
+   "t": 1.566,
+   "type": "type"
+  },
+  {
+   "t": 3.141,
+   "type": "wipe"
+  },
+  {
+   "t": 3.341,
+   "type": "type"
+  },
+  {
+   "t": 3.733,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 4.633,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 4.941,
+   "type": "wipe"
+  },
+  {
+   "t": 5.517,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 6.417,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 6.666,
+   "type": "blip"
+  },
+  {
+   "t": 7.3,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 8.116,
+   "type": "blip"
+  },
+  {
+   "t": 8.2,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 8.827,
+   "type": "wipe"
+  },
+  {
+   "t": 9.083,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 10.461,
+   "type": "blip"
+  },
+  {
+   "t": 10.567,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 11.649,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 11.9,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 12.5,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.1,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.234,
+   "type": "wipe"
+  },
+  {
+   "t": 14.282,
+   "type": "slide"
+  },
+  {
+   "t": 14.882,
+   "type": "carve"
+  },
+  {
+   "t": 17.382,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 18.195,
+   "type": "wipe"
+  },
+  {
+   "t": 18.545,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 19.083,
+   "type": "tap"
+  },
+  {
+   "t": 20.833,
+   "type": "blip"
+  },
+  {
+   "t": 21.881,
+   "type": "wipe"
+  },
+  {
+   "t": 22.1,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 22.7,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 23.114,
+   "type": "type"
+  },
+  {
+   "t": 23.3,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 23.9,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 24.5,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 24.526,
+   "type": "type"
+  },
+  {
+   "t": 25.1,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 25.7,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 25.952,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.175,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "ten": 0.3,
+  "posts1": 0.891,
+  "not": 1.616,
+  "rows1": 2.441,
+  "so": 3.291,
+  "where": 3.391,
+  "come": 4.191,
+  "lists": 5.091,
+  "only": 5.966,
+  "rows3": 6.666,
+  "screen": 7.153,
+  "plus": 7.866,
+  "spares": 8.116,
+  "a4": 8.977,
+  "leaves": 9.524,
+  "top": 9.924,
+  "destroyed": 10.461,
+  "its": 11.424,
+  "reused": 11.649,
+  "next": 12.324,
+  "in5": 13.384,
+  "test": 13.632,
+  "a5": 14.207,
+  "plain": 14.282,
+  "ten5": 14.882,
+  "rows5": 15.532,
+  "a5b": 16.344,
+  "recycling": 16.432,
+  "fourteen": 17.382,
+  "android": 18.345,
+  "improves": 19.083,
+  "and6": 20.67,
+  "saves": 20.833,
+  "power": 21.208,
+  "a7": 22.031,
+  "small": 23.164,
+  "loop": 23.501,
+  "refilled": 24.576,
+  "scroll": 25.289,
+  "follow": 27,
+  "tb": 27.275,
+  "chime": 25.952,
+  "scenes": [
+   0,
+   3.141,
+   4.941,
+   8.827,
+   13.234,
+   18.195,
+   21.881,
+   26.6,
+   30.01
+  ]
+ }
+}

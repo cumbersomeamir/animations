@@ -1,0 +1,70 @@
+{
+ "duration": 30.0,
+ "lead": 0.3,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.3,
+   "text": "Ten thousand posts. Not ten thousand rows.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "So where do new posts come from?",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Lists built for this only create the rows on screen, plus spares.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "A row that leaves the top isn't destroyed. It's reused for the next post.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "In our test: a plain list, ten thousand rows. A recycling list, fourteen.",
+   "after": 0.3
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Android says it improves responsiveness and saves power.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "A long feed is just a small loop of rows, refilled as you scroll.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

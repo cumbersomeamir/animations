@@ -98,6 +98,13 @@ Practical system design · useful new GitHub tools · research explained through
   - an email leaves through an OUT door after Gmail's 5–30 s Undo Send window.
   Naming real products: state only what their own docs say (Apple UndoManager, Microsoft Support, Gmail Help) and never imitate their UI. Unknown words for misaki (e.g. "Gmail's") get a phoneme override. Notes: `26-production-30s-english13-01.md`.
 
+- **2026-11-14 english-14 (latest approved feedback retained):** the suggested topic ("why pressing Pay twice should not charge you twice", idempotency keys) duplicated episode 14 (`14-production-30s-feedback-01.md`), as it already had in english-07. Per the brief, a fresh topic in the same genre was chosen: how a long feed scrolls 10,000 posts with a few recycled rows (Android RecyclerView / Compose lazy lists / iOS cell reuse).
+  - Tactile 3D: a phone with a 12-row feed; each row leaving the top flies round the side, spins and returns at the bottom with its next post (14 cards in all).
+  - A 10,000-row tower is the plain list.
+  - Real proof measured in Chromium (row counts only; timings are machine-specific and not narrated).
+  - The idempotency / pay-twice subject must not be proposed again without a genuinely new angle.
+  - Notes: `27-production-30s-english14-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

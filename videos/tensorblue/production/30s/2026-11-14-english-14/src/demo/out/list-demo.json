@@ -1,0 +1,25 @@
+{
+ "browser": "Chromium 153.0.8010.12 (pre-installed, Playwright)",
+ "viewport": "390x844",
+ "row_height_px": 72,
+ "posts": 10000,
+ "plain": {
+  "rows": 10000,
+  "build_and_layout_ms": 83
+ },
+ "recycled": {
+  "pool_size": 14,
+  "rows_in_dom_max": 14,
+  "rows_created": 14,
+  "refills": 10000,
+  "last_post_shown": 10000,
+  "row_node_0_showed_first_posts": [
+   1,
+   15,
+   29,
+   43
+  ],
+  "scroll_whole_feed_ms": 317.6
+ },
+ "note": "timings are from this container only and are not used in the video"
+}

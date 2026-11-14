@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-english14-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer for Tensorblue 30s english-14 episode 01 (how a feed scrolls 10,000 posts with a few recycled rows).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

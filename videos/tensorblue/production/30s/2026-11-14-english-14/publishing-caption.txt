@@ -1,0 +1,16 @@
+Ten thousand posts. Not ten thousand rows. So where do new posts come from?
+
+Lists built for this only create the rows on screen, plus spares. A row that leaves the top isn't destroyed. It's reused for the next post. In our test: a plain list, ten thousand rows. A recycling list, fourteen. Android says it improves responsiveness and saves power.
+
+A long feed is just a small loop of rows, refilled as you scroll.
+
+Our test ran in Chromium on a phone-sized page (390×844) with 10,000 made-up posts: the plain list built one row per post; our recycling list kept 14 rows (12 on screen plus a spare at each end) and refilled them all the way to post 10,000.
+
+Sources:
+- Android Developers, Create dynamic lists with RecyclerView: https://developer.android.com/develop/ui/views/layout/recyclerview
+- Android Developers, Lists and grids (Jetpack Compose): https://developer.android.com/develop/ui/compose/lists
+- Apple Developer Documentation, UITableView (Recycling table view cells): https://developer.apple.com/documentation/uikit/uitableview
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #Android #SoftwareExplained
