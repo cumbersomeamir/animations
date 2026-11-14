@@ -1,0 +1,82 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.2,
+  "measured_start": 0.2,
+  "error_ms": 0.0,
+  "corr": 0.837,
+  "end": 3.825,
+  "shot_at_start": "hook_fridge",
+  "shot_at_end": "hook_fridge"
+ },
+ {
+  "id": "l02",
+  "planned_start": 4.1,
+  "measured_start": 4.1,
+  "error_ms": 0.0,
+  "corr": 0.852,
+  "end": 5.926,
+  "shot_at_start": "react",
+  "shot_at_end": "react"
+ },
+ {
+  "id": "l03",
+  "planned_start": 6.3,
+  "measured_start": 6.3,
+  "error_ms": 0.0,
+  "corr": 0.854,
+  "end": 8.756,
+  "shot_at_start": "giant_pump",
+  "shot_at_end": "giant_pump"
+ },
+ {
+  "id": "l04",
+  "planned_start": 9.15,
+  "measured_start": 9.15,
+  "error_ms": -0.1,
+  "corr": 0.861,
+  "end": 13.41,
+  "shot_at_start": "giant_inside",
+  "shot_at_end": "giant_inside"
+ },
+ {
+  "id": "l05",
+  "planned_start": 13.8,
+  "measured_start": 13.8,
+  "error_ms": 0.0,
+  "corr": 0.846,
+  "end": 18.765,
+  "shot_at_start": "giant_back",
+  "shot_at_end": "giant_back"
+ },
+ {
+  "id": "l06",
+  "planned_start": 19.15,
+  "measured_start": 19.15,
+  "error_ms": 0.0,
+  "corr": 0.857,
+  "end": 22.629,
+  "shot_at_start": "giant_loop",
+  "shot_at_end": "giant_loop"
+ },
+ {
+  "id": "l07",
+  "planned_start": 23.0,
+  "measured_start": 23.0,
+  "error_ms": 0.0,
+  "corr": 0.841,
+  "end": 25.735,
+  "shot_at_start": "giant_ac",
+  "shot_at_end": "giant_ac"
+ },
+ {
+  "id": "l08",
+  "planned_start": 26.45,
+  "measured_start": 26.45,
+  "error_ms": 0.0,
+  "corr": 0.842,
+  "end": 29.733,
+  "shot_at_start": "cafe_wide",
+  "shot_at_end": "cafe_wide"
+ }
+]

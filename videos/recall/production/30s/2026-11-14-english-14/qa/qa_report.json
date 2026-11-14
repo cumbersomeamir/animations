@@ -1,0 +1,437 @@
+{
+  "file": "production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "3096636"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "192960"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 12370821,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.7,
+    "lra_lu": 1.8,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8417917490005493,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Leave the fridge open on a hot day, and the kitchen gets warmer. So how can a cold box heat a room? A fridge doesn't make cold. It pumps heat. Cold fluid in the inside coils evaporates, soaking up your food's heat. A compressor squeezes it hotter than the room, and coils outside the box release that heat. Door open, that heat just circles back plus the motor's own. That's why air conditioners dump their heat outdoors. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "Leave",
+        "t": 0.0
+      },
+      {
+        "w": "the",
+        "t": 0.38
+      },
+      {
+        "w": "fridge",
+        "t": 0.54
+      },
+      {
+        "w": "open",
+        "t": 0.72
+      },
+      {
+        "w": "on",
+        "t": 1.04
+      },
+      {
+        "w": "a",
+        "t": 1.36
+      },
+      {
+        "w": "hot",
+        "t": 1.42
+      },
+      {
+        "w": "day,",
+        "t": 1.58
+      },
+      {
+        "w": "and",
+        "t": 2.3
+      },
+      {
+        "w": "the",
+        "t": 2.46
+      },
+      {
+        "w": "kitchen",
+        "t": 2.54
+      },
+      {
+        "w": "gets",
+        "t": 2.82
+      },
+      {
+        "w": "warmer.",
+        "t": 3.16
+      },
+      {
+        "w": "So",
+        "t": 4.2
+      },
+      {
+        "w": "how",
+        "t": 4.22
+      },
+      {
+        "w": "can",
+        "t": 4.36
+      },
+      {
+        "w": "a",
+        "t": 4.5
+      },
+      {
+        "w": "cold",
+        "t": 4.6
+      },
+      {
+        "w": "box",
+        "t": 4.8
+      },
+      {
+        "w": "heat",
+        "t": 5.1
+      },
+      {
+        "w": "a",
+        "t": 5.42
+      },
+      {
+        "w": "room?",
+        "t": 5.52
+      },
+      {
+        "w": "A",
+        "t": 6.3
+      },
+      {
+        "w": "fridge",
+        "t": 6.36
+      },
+      {
+        "w": "doesn't",
+        "t": 6.54
+      },
+      {
+        "w": "make",
+        "t": 6.98
+      },
+      {
+        "w": "cold.",
+        "t": 7.1
+      },
+      {
+        "w": "It",
+        "t": 7.94
+      },
+      {
+        "w": "pumps",
+        "t": 8.0
+      },
+      {
+        "w": "heat.",
+        "t": 8.16
+      },
+      {
+        "w": "Cold",
+        "t": 9.4
+      },
+      {
+        "w": "fluid",
+        "t": 9.4
+      },
+      {
+        "w": "in",
+        "t": 9.68
+      },
+      {
+        "w": "the",
+        "t": 10.0
+      },
+      {
+        "w": "inside",
+        "t": 10.1
+      },
+      {
+        "w": "coils",
+        "t": 10.44
+      },
+      {
+        "w": "evaporates,",
+        "t": 10.8
+      },
+      {
+        "w": "soaking",
+        "t": 12.24
+      },
+      {
+        "w": "up",
+        "t": 12.24
+      },
+      {
+        "w": "your",
+        "t": 12.54
+      },
+      {
+        "w": "food's",
+        "t": 12.66
+      },
+      {
+        "w": "heat.",
+        "t": 12.84
+      },
+      {
+        "w": "A",
+        "t": 13.84
+      },
+      {
+        "w": "compressor",
+        "t": 13.86
+      },
+      {
+        "w": "squeezes",
+        "t": 14.1
+      },
+      {
+        "w": "it",
+        "t": 14.86
+      },
+      {
+        "w": "hotter",
+        "t": 15.04
+      },
+      {
+        "w": "than",
+        "t": 15.26
+      },
+      {
+        "w": "the",
+        "t": 15.56
+      },
+      {
+        "w": "room,",
+        "t": 15.64
+      },
+      {
+        "w": "and",
+        "t": 16.32
+      },
+      {
+        "w": "coils",
+        "t": 16.44
+      },
+      {
+        "w": "outside",
+        "t": 16.68
+      },
+      {
+        "w": "the",
+        "t": 17.02
+      },
+      {
+        "w": "box",
+        "t": 17.42
+      },
+      {
+        "w": "release",
+        "t": 17.66
+      },
+      {
+        "w": "that",
+        "t": 18.02
+      },
+      {
+        "w": "heat.",
+        "t": 18.34
+      },
+      {
+        "w": "Door",
+        "t": 19.2
+      },
+      {
+        "w": "open,",
+        "t": 19.26
+      },
+      {
+        "w": "that",
+        "t": 20.0
+      },
+      {
+        "w": "heat",
+        "t": 20.16
+      },
+      {
+        "w": "just",
+        "t": 20.38
+      },
+      {
+        "w": "circles",
+        "t": 20.56
+      },
+      {
+        "w": "back",
+        "t": 20.76
+      },
+      {
+        "w": "plus",
+        "t": 21.28
+      },
+      {
+        "w": "the",
+        "t": 21.56
+      },
+      {
+        "w": "motor's",
+        "t": 21.78
+      },
+      {
+        "w": "own.",
+        "t": 22.16
+      },
+      {
+        "w": "That's",
+        "t": 22.96
+      },
+      {
+        "w": "why",
+        "t": 23.2
+      },
+      {
+        "w": "air",
+        "t": 23.34
+      },
+      {
+        "w": "conditioners",
+        "t": 23.56
+      },
+      {
+        "w": "dump",
+        "t": 24.18
+      },
+      {
+        "w": "their",
+        "t": 24.52
+      },
+      {
+        "w": "heat",
+        "t": 24.78
+      },
+      {
+        "w": "outdoors.",
+        "t": 25.0
+      },
+      {
+        "w": "Download",
+        "t": 25.16
+      },
+      {
+        "w": "Recall",
+        "t": 26.58
+      },
+      {
+        "w": "to",
+        "t": 27.1
+      },
+      {
+        "w": "turn",
+        "t": 27.72
+      },
+      {
+        "w": "your",
+        "t": 27.9
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.64
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 211.923583984375,
+    "right": 868.12744140625,
+    "top": 341.5,
+    "bottom": 464.5
+  },
+  "caption_max_lines": 2,
+  "top_300_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 1.805,
+    "min_frame_diff": 0.0316,
+    "longest_static_run_frames": 6,
+    "max_frame_diff": 71.21,
+    "max_diff_at_s": 22.933
+  },
+  "luma_min_mean_max": [
+    96.2,
+    137.7,
+    177.9
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_340_520": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_300_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

@@ -1,0 +1,96 @@
+{
+  "cues": {
+    "doorOpen": 0.25,
+    "mist": 0.5,
+    "thermo": 1.4,
+    "puzzle": 4.3,
+    "heatFlow": 6.6,
+    "evap": 9.4,
+    "squeeze": 14.0,
+    "release": 16.4,
+    "loopDoor": 19.0,
+    "loop": 19.6,
+    "motor": 21.2,
+    "acOn": 23.1,
+    "acOut": 24.1,
+    "cta": 26.35,
+    "smile": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_fridge",
+      "t0": 0,
+      "t1": 4.03
+    },
+    {
+      "id": "react",
+      "t0": 4.03,
+      "t1": 6.23
+    },
+    {
+      "id": "giant_pump",
+      "t0": 6.23,
+      "t1": 9.08
+    },
+    {
+      "id": "giant_inside",
+      "t0": 9.08,
+      "t1": 13.73
+    },
+    {
+      "id": "giant_back",
+      "t0": 13.73,
+      "t1": 19.08
+    },
+    {
+      "id": "giant_loop",
+      "t0": 19.08,
+      "t1": 22.93
+    },
+    {
+      "id": "giant_ac",
+      "t0": 22.93,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.2
+    },
+    {
+      "id": "l02",
+      "start": 4.1
+    },
+    {
+      "id": "l03",
+      "start": 6.3
+    },
+    {
+      "id": "l04",
+      "start": 9.15
+    },
+    {
+      "id": "l05",
+      "start": 13.8
+    },
+    {
+      "id": "l06",
+      "start": 19.15
+    },
+    {
+      "id": "l07",
+      "start": 23.0
+    },
+    {
+      "id": "l08",
+      "start": 26.45
+    }
+  ]
+}
