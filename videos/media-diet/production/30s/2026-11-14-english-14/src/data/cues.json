@@ -1,0 +1,90 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "MIT made a material tougher",
+   "by making it messier."
+  ],
+  "in": 0.07,
+  "out": 3.45
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "How can disorder beat",
+   "a perfect pattern?"
+  ],
+  "in": 3.47,
+  "out": 5.75
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "In a perfect lattice,",
+   "when one cell buckles,"
+  ],
+  "in": 5.77,
+  "out": 8.37
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "its identical neighbors follow."
+  ],
+  "in": 8.39,
+  "out": 10.4
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "The constraint:",
+   "long, thin beams buckle"
+  ],
+  "in": 10.42,
+  "out": 12.814
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "before short, thick ones."
+  ],
+  "in": 12.834,
+  "out": 14.55
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "So the team drew networks",
+   "with beams of many sizes."
+  ],
+  "in": 14.57,
+  "out": 17.7
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Under dropped weights,",
+   "they beat lattices and honeycombs."
+  ],
+  "in": 17.72,
+  "out": 21.021
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Mixed sizes share the damage,",
+   "so no single band collapses."
+  ],
+  "in": 21.32,
+  "out": 25.229
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

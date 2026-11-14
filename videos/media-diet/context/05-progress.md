@@ -263,3 +263,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   caption↔speech 12/12; Whisper word recall 1.0 full / 1.0 per line.
 - Unresolved: not yet watched or listened to by a human; no review folder exists in this container (MP4 only in the episode folder).
   Earlier outputs untouched. No automation, analytics or publishing.
+
+## Checkpoint 2026-11-14 — english-14 (topic + sources recorded; rendering)
+- Reread CLAUDE.md + this file; start state 63f6257 = remote, no jobs running or queued. Topic (7–14 Nov 2026 window): MIT/Northeastern
+  "Scale-rich network-based metamaterials", Nature 11 Nov 2026 + MIT News same day; corroboration arXiv 2511.18108, XenoSpectrum; Euler
+  buckling: Penn State ESM tutorial. Lab research, not a product. Rejected: frog robot (no official source), Starship flight 15
+  (outcome pending), AGIBOT trial (2–3 Nov). Record context/29; sources: production/30s/2026-11-14-english-14/SOURCES.md; log row in context/11.
+- Narration 75 words / 25.6 s (approved Kokoro blend), every take heard exactly by Whisper; word timestamps drive events.
+- Running: three `build/render_chunks.sh` workers (0…240, 300…540, 600…840); next `SKIP_FRAMES=1 bash build/build.sh`,
+  `node build/thumb.mjs thumbnail-english14-01.png`, QA, commit MP4 + thumbnail.

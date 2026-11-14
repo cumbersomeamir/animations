@@ -1,0 +1,192 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.15,
+   "say": "MIT made a material tougher by making it messier.",
+   "cues": [
+    [
+     "MIT made a material tougher",
+     "by making it messier."
+    ]
+   ]
+  },
+  {
+   "id": "V2",
+   "start": 3.55,
+   "say": "How can disorder beat a perfect pattern?",
+   "cues": [
+    [
+     "How can disorder beat",
+     "a perfect pattern?"
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.85,
+   "say": "In a perfect lattice, when one cell buckles, its identical neighbors follow.",
+   "cues": [
+    [
+     "In a perfect lattice,",
+     "when one cell buckles,"
+    ],
+    [
+     "its identical neighbors follow."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 10.5,
+   "say": "The constraint: long, thin beams buckle before short, thick ones.",
+   "cues": [
+    [
+     "The constraint:",
+     "long, thin beams buckle"
+    ],
+    [
+     "before short, thick ones."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 14.65,
+   "say": "So the team drew networks with beams of many sizes.",
+   "cues": [
+    [
+     "So the team drew networks",
+     "with beams of many sizes."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 17.8,
+   "say": "Under dropped weights, they beat lattices and honeycombs.",
+   "cues": [
+    [
+     "Under dropped weights,",
+     "they beat lattices and honeycombs."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 21.4,
+   "say": "Mixed sizes share the damage, so no single band collapses.",
+   "cues": [
+    [
+     "Mixed sizes share the damage,",
+     "so no single band collapses."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.46,
+   "beat": "hook: a weight drops on a paper network-metamaterial sample; it flexes and holds"
+  },
+  {
+   "id": "S2",
+   "in": 3.46,
+   "out": 5.76,
+   "beat": "super hook: perfect lattice vs messy network, side by side"
+  },
+  {
+   "id": "S3",
+   "in": 5.76,
+   "out": 10.41,
+   "beat": "mechanism: press on the lattice; one cell buckles and the band spreads to identical neighbours"
+  },
+  {
+   "id": "S4",
+   "in": 10.41,
+   "out": 14.56,
+   "beat": "constraint: same weight on a long thin column (buckles) and a short thick one (holds)"
+  },
+  {
+   "id": "S5",
+   "in": 14.56,
+   "out": 17.71,
+   "beat": "design: the network is drawn line by line, each line stopping where it meets another, thinner each time"
+  },
+  {
+   "id": "S6",
+   "in": 17.71,
+   "out": 21.3,
+   "beat": "proof: weights dropped on both; lattice collapses in a band, network holds"
+  },
+  {
+   "id": "S7",
+   "in": 21.3,
+   "out": 26.0,
+   "beat": "payoff: load spreads across beams of many sizes, no single band"
+  },
+  {
+   "id": "S8",
+   "in": 26.0,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "drop1": 0.55,
+  "hit1": 1.45,
+  "net2": 4.01,
+  "ord2": 4.79,
+  "press": 6.1,
+  "buckle": 7.79,
+  "spread": 8.77,
+  "lab3": 8.8,
+  "cols": 10.55,
+  "wt4": 11.0,
+  "buckle4": 12.6,
+  "lab4": 12.62,
+  "thick": 13.35,
+  "draw": 14.7,
+  "lab5": 16.7,
+  "drop6": 17.85,
+  "hit6": 18.35,
+  "lab6": 19.18,
+  "share": 22.1,
+  "lab7": 22.4,
+  "band7": 23.7,
+  "sign": 26.3
+ }
+}
