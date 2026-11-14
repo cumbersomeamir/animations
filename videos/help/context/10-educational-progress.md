@@ -142,3 +142,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-13 — english-13, 30 s #01 (English; client-choice pantries; proposed transport topic was covered) — DONE
 - Output `videos/help/production/30s/2026-11-13-english-13/help-30s-english13-01.mp4`, SHA-256 `ec4d5ded9706b9aebb4da1fd34915ce88c68c5a47a02a731fcac9489dcf8b538`; thumbnail `help-30s-english13-thumbnail.png`.
 - Topic + production notes: `26-production-30s-english13-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-13). No automation created.
+
+## 2026-11-14 — english-14, 30 s #01 (English; ration-card portability; proposed cash-vs-clothes topic was covered) — DONE
+- Output `videos/help/production/30s/2026-11-14-english-14/help-30s-english14-01.mp4`, SHA-256 `cbe47f199d217fe837ba1aee14226661ba48250ccff5c5d30d74d41868beccbb`; thumbnail `help-30s-english14-thumbnail.png`.
+- Topic + production notes: `27-production-30s-english14-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-14). No automation created.

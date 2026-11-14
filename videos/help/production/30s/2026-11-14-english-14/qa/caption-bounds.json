@@ -1,0 +1,166 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 34,
+ "extent": {
+  "x0": 128,
+  "x1": 872,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "This ration / card worked",
+   "fs": 56,
+   "x0": 328,
+   "x1": 672,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 25
+  },
+  {
+   "text": "at one shop only.",
+   "fs": 66,
+   "x0": 222,
+   "x1": 778,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 66
+  },
+  {
+   "text": "Move for work,",
+   "fs": 66,
+   "x0": 254,
+   "x1": 746,
+   "y0": 405,
+   "y1": 470,
+   "firstFrame": 104
+  },
+  {
+   "text": "and your subsidised / grain stayed behind.",
+   "fs": 56,
+   "x0": 216,
+   "x1": 784,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 160
+  },
+  {
+   "text": "Getting a new / card took months.",
+   "fs": 56,
+   "x0": 248,
+   "x1": 752,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 226
+  },
+  {
+   "text": "So what changed?",
+   "fs": 66,
+   "x0": 200,
+   "x1": 800,
+   "y0": 407,
+   "y1": 471,
+   "firstFrame": 273
+  },
+  {
+   "text": "India's One Nation / One Ration Card.",
+   "fs": 56,
+   "x0": 247,
+   "x1": 753,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 334
+  },
+  {
+   "text": "Same card,",
+   "fs": 66,
+   "x0": 316,
+   "x1": 684,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 387
+  },
+  {
+   "text": "in ration shops / across India.",
+   "fs": 56,
+   "x0": 296,
+   "x1": 704,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 435
+  },
+  {
+   "text": "One fingerprint check / confirms it's you.",
+   "fs": 56,
+   "x0": 197,
+   "x1": 803,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 506
+  },
+  {
+   "text": "Back home,",
+   "fs": 66,
+   "x0": 309,
+   "x1": 691,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 559
+  },
+  {
+   "text": "the family still / gets their share.",
+   "fs": 56,
+   "x0": 273,
+   "x1": 727,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 600
+  },
+  {
+   "text": "So if someone works / far from home,",
+   "fs": 56,
+   "x0": 212,
+   "x1": 788,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 661
+  },
+  {
+   "text": "tell them:",
+   "fs": 66,
+   "x0": 346,
+   "x1": 654,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 697
+  },
+  {
+   "text": "their ration travels too.",
+   "fs": 66,
+   "x0": 128,
+   "x1": 872,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 741
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

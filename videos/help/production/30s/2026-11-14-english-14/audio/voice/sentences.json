@@ -1,0 +1,71 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "This ration card worked at one shop only.",
+   "dur": 2.357,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Move for work, and your subsidised grain stayed behind.",
+   "dur": 3.23,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Getting a new card took months. So what changed?",
+   "dur": 2.675,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "India's One Nation One Ration Card.",
+   "dur": 2.129,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Same card, in ration shops across India.",
+   "dur": 2.7,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "One fingerprint check confirms it's you.",
+   "dur": 2.025,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Back home, the family still gets their share.",
+   "dur": 2.172,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "So if someone works far from home, tell them: their ration travels too.",
+   "dur": 3.887,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.35,
+  3.15,
+  6.85,
+  10.0,
+  12.6,
+  15.75,
+  18.5,
+  21.45,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_tied": [
+   0.0,
+   3.0
+  ],
+  "B_left_behind": [
+   3.0,
+   6.65
+  ],
+  "C_months": [
+   6.65,
+   9.75
+  ],
+  "D_name_untied": [
+   9.75,
+   12.4
+  ],
+  "E_across_india": [
+   12.4,
+   15.55
+  ],
+  "F_fingerprint": [
+   15.55,
+   18.4
+  ],
+  "G_family_share": [
+   18.4,
+   21.15
+  ],
+  "H_payoff": [
+   21.15,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "tug": 1.15,
+  "oneShop": 1.65,
+  "walk": 3.2,
+  "behind": 5.45,
+  "form": 6.9,
+  "months": 7.85,
+  "q": 8.5,
+  "snap": 9.95,
+  "name": 10.05,
+  "shop1": 13.6,
+  "shop2": 14.05,
+  "shop3": 14.5,
+  "press": 16.3,
+  "ok": 17.85,
+  "split": 19.6,
+  "tell": 22.95,
+  "travels": 23.95,
+  "done": 25.9,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Story map (2026-11-11 feedback retained): 0-3.0 hook, 3.0-6.65 escalation, 6.65-9.75 open question, 9.75-21.15 proof (5 scene changes), 21.15-26.9 payoff, 26.9-30 CTA. Cues aligned to per-sentence English ASR word times. Tick SFX only in pauses; no broadband SFX on spoken words."
+}

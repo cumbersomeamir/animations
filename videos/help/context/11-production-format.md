@@ -241,3 +241,13 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
 - Sources: PubMed web pages are cookie-walled for the fetch tool → read the abstract via NCBI E-utilities efetch (official API); a university PDF
   returned as raw bytes → pdftotext on the saved file. A measured result from one trial must name what was tested ("choice plus coaching").
 
+## Update 2026-11-14 — english-14 (2026-11-11 feedback retained; corrections learned this episode)
+- Topic gate: humanitarian cash vs donated goods / "cash works when local markets work" proposals are covered (batch-02, plus hindi-03 for
+  unrequested disaster goods). english-14 switched to **ration-card portability (One Nation One Ration Card)** — now covered.
+- Government sources: pib.gov.in press pages refuse automated fetches (403), but PIB's static PDF documents (static.pib.gov.in) download with plain
+  curl → pdftotext. Quote the official text; keep counts/dates out of the script when only a dated document is readable.
+- Hands must not cover a prop's key label (hook grip covered "RATION"); check the thumbnail frame for occlusion before the full render.
+- A pressing/pointing arm must not cross the object it explains (fingerprint terminal: hand from the lower right, not from above).
+- Caption timing: one spurious ASR token inside a sentence ("India's as one", "share air") is now dropped automatically in tools_captions.py
+  instead of falling back to proportional timing.
+
