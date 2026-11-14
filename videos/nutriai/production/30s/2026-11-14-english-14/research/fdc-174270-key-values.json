@@ -1,0 +1,60 @@
+{
+ "fdcId": 174270,
+ "ndbNumber": 16108,
+ "description": "Soybeans, mature seeds, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 30.2,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 446,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 7.33,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 36.5,
+   "unit": "g",
+   "dataPoints": 454
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 9.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 19.9,
+   "unit": "g",
+   "dataPoints": 364
+  },
+  {
+   "name": "Water",
+   "amount": 8.54,
+   "unit": "g",
+   "dataPoints": 433
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "amount": null,
+   "gramWeight": 186.0
+  }
+ ]
+}

@@ -135,3 +135,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-13-english-13/source/`, output `../nutriai-30s-english13-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english13-thumbnail.png`; ASR on the final mix with `vad_filter=True`.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events (also at the stricter scan); captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980; ASR verbatim apart from the "weigh"/"way" homophone. Machine checks only; no human watch/listen. See `production/30s/2026-11-13-english-13/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 21. Batch 2026-11-14, english-14 edamame vs green peas (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at 57c1084, no running or unfinished job. Requested "peanuts vs green peas" overlapped english-06 (peanuts, "about half fat") → per the overlap rule, edamame replaced peanuts with the same brief criteria; neither edamame nor peas covered before.
+- Facts: USDA SR Legacy FDC 168411 edamame, frozen, prepared (121 kcal, 11.9 g protein, 5.2 g fat, 72.8 g water / 100 g; cup 155 g) and FDC 170017 green peas, frozen, boiled, no salt (78 kcal, 5.15 g protein, 0.27 g fat, 79.5 g water; 1/2 cup 80 g); mature seeds FDC 174270 / 172428; edamame = immature soybeans (SDSU Extension, ATTRA). Details: `context/28-production-30s-english14-edamame.md`.
+- Decisions: latest approved composition (english-12/13); "edamame" phoneme override /ˌɛdəmˈɑːmeɪ/; masking page sound before "Per" moved and softened.
+- Commands: as in section 9, from `production/30s/2026-11-14-english-14/source/`, output `../nutriai-30s-english14-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english14-thumbnail.png`; ASR on the final mix with base.en (VAD) and small.en.
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events (also strict); captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980 and above y 1500; small.en verbatim on the full mix. Machine checks only; no human watch/listen. See `production/30s/2026-11-14-english-14/QA.md`.
+- Unresolved: none blocking. Next step: none requested.

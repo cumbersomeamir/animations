@@ -1,0 +1,4 @@
+# Edamame = immature (young) soybeans: sources checked 2026-11-14 (web, read-only)
+1. South Dakota State University Extension, "Edamame Harvest and Storage": edamame are harvested when the pods are full-sized and bright green, usually around soybean growth stage R6, the final stage before maturation. https://extension.sdstate.edu/edamame-harvest-and-storage
+2. ATTRA / National Center for Appropriate Technology (USDA-funded), "Edamame: Vegetable Soybean" (archived): harvest when the pods are still green, immature and tight with fully developed immature green seeds, usually at about 85 % pod fill. https://webarchive.library.unt.edu/eot2008/20081204184055/http://attra.ncat.org/attra-pub/edamame.html
+3. Composition cross-check (USDA SR Legacy): "Soybeans, green, cooked, boiled, drained, without salt" FDC 169283 (141 kcal, 12.4 g protein, 6.4 g fat / 100 g) agrees with "Edamame, frozen, prepared" FDC 168411 (121 kcal, 11.9 g protein, 5.2 g fat).

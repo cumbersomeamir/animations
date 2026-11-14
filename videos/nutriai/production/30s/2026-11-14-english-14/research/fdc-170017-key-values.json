@@ -1,0 +1,65 @@
+{
+ "fdcId": 170017,
+ "ndbNumber": 11313,
+ "description": "Peas, green, frozen, cooked, boiled, drained, without salt",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 14.3,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 5.15,
+   "unit": "g",
+   "dataPoints": 11
+  },
+  {
+   "name": "Water",
+   "amount": 79.5,
+   "unit": "g",
+   "dataPoints": 11
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.27,
+   "unit": "g",
+   "dataPoints": 11
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 4.5,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 4.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 78.0,
+   "unit": "kcal",
+   "dataPoints": 0
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "amount": null,
+   "gramWeight": 80.0
+  },
+  {
+   "description": "package (10 oz) yields",
+   "amount": null,
+   "gramWeight": 253.0
+  }
+ ]
+}

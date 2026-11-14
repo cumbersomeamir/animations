@@ -1,0 +1,66 @@
+{
+ "fdcId": 168411,
+ "ndbNumber": 11212,
+ "description": "Edamame, frozen, prepared",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Total lipid (fat)",
+   "amount": 5.2,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Water",
+   "amount": 72.8,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 5.2,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 8.91,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 121,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Starch",
+   "amount": 1.51,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Protein",
+   "amount": 11.9,
+   "unit": "g",
+   "dataPoints": 2
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 2.18,
+   "unit": "g",
+   "dataPoints": 2
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "amount": null,
+   "gramWeight": 155.0
+  }
+ ]
+}

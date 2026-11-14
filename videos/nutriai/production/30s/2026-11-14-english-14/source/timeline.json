@@ -1,0 +1,277 @@
+{
+ "_doc": "CalMeter English 30 s english-14 (2026-11-14): edamame vs green peas (requested peanuts vs green peas overlapped english-06; switched per the overlap rule). Story per context/25. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 4.05
+  },
+  {
+   "id": "T2",
+   "at": 5.55
+  },
+  {
+   "id": "T3",
+   "at": 10.85
+  },
+  {
+   "id": "T4",
+   "at": 17.35
+  },
+  {
+   "id": "T5",
+   "at": 20.2
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 78,
+   "lines": [
+    [
+     "Green peas and edamame",
+     5
+    ],
+    [
+     "look like twins.",
+     41
+    ]
+   ]
+  },
+  {
+   "in": 81,
+   "out": 118,
+   "lines": [
+    [
+     "Their numbers don't.",
+     84
+    ]
+   ]
+  },
+  {
+   "in": 120,
+   "out": 163,
+   "lines": [
+    [
+     "So what's different inside?",
+     122
+    ]
+   ]
+  },
+  {
+   "in": 165,
+   "out": 262,
+   "lines": [
+    [
+     "Edamame: young soybeans,",
+     167
+    ],
+    [
+     "storing protein + oil;",
+     209
+    ]
+   ]
+  },
+  {
+   "in": 265,
+   "out": 322,
+   "lines": [
+    [
+     "peas: mostly carbs",
+     276
+    ]
+   ]
+  },
+  {
+   "in": 324,
+   "out": 416,
+   "lines": [
+    [
+     "Per 100 g, cooked:",
+     326
+    ],
+    [
+     "12 g protein vs 5,",
+     380
+    ]
+   ]
+  },
+  {
+   "in": 419,
+   "out": 516,
+   "lines": [
+    [
+     "5 g fat vs almost none",
+     451
+    ]
+   ]
+  },
+  {
+   "in": 519,
+   "out": 600,
+   "lines": [
+    [
+     "121 kcal vs 78",
+     535
+    ]
+   ]
+  },
+  {
+   "in": 603,
+   "out": 700,
+   "lines": [
+    [
+     "Snack tip: 1 cup of edamame",
+     611
+    ],
+    [
+     "≈ 2× the protein of peas,",
+     670
+    ]
+   ]
+  },
+  {
+   "in": 703,
+   "out": 806,
+   "lines": [
+    [
+     "for ≈ 60 more kcal",
+     727
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "podPop": -6,
+  "podSfx": 0,
+  "names": 41,
+  "neq": 84,
+  "burnish": 118,
+  "zoom": 120,
+  "q": 128,
+  "burnish2": 162,
+  "bean": 165,
+  "beanLbl": 209,
+  "pea": 262,
+  "peaLbl": 276,
+  "burnish3": 320,
+  "dishes": 324,
+  "prot": 380,
+  "fat": 451,
+  "kcal": 535,
+  "burnish4": 600,
+  "cups": 602,
+  "protCup": 670,
+  "kcalCup": 727,
+  "cta": 806,
+  "ctaWord": 813,
+  "page3": 310
+ },
+ "sfx": [
+  {
+   "ev": "podSfx",
+   "type": "tear",
+   "gain": -22
+  },
+  {
+   "ev": "names",
+   "type": "tick",
+   "gain": -26
+  },
+  {
+   "ev": "neq",
+   "type": "tick",
+   "gain": -23
+  },
+  {
+   "ev": "burnish",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "burnish2",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "beanLbl",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pea",
+   "type": "page",
+   "gain": -26
+  },
+  {
+   "ev": "peaLbl",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "page3",
+   "type": "page",
+   "gain": -28
+  },
+  {
+   "ev": "prot",
+   "type": "patter",
+   "dur": 0.5,
+   "gain": -25
+  },
+  {
+   "ev": "fat",
+   "type": "juice",
+   "gain": -25
+  },
+  {
+   "ev": "kcal",
+   "type": "tick",
+   "gain": -23
+  },
+  {
+   "ev": "burnish4",
+   "type": "page",
+   "gain": -24
+  },
+  {
+   "ev": "protCup",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "kcalCup",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

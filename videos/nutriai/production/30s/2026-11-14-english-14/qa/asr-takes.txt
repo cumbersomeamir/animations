@@ -1,0 +1,14 @@
+T0.wav | Green peas and edamame look like twins. Their numbers don't.
+    [('Green', 0.0, 0.2), ('peas', 0.2, 0.48), ('and', 0.48, 0.86), ('edamame', 0.86, 1.2), ('look', 1.2, 1.56), ('like', 1.56, 1.72), ('twins.', 1.72, 1.92), ('Their', 2.66, 2.76), ('numbers', 2.76, 3.04), ("don't.", 3.04, 3.6)]
+T1.wav | So what's different inside?
+    [('So', 0.0, 0.12), ("what's", 0.12, 0.4), ('different', 0.4, 0.54), ('inside?', 0.54, 0.96)]
+T2.wav | Edamame are young side beans which store protein and oil. Peas store mostly carbs.
+    [('Edamame', 0.0, 0.42), ('are', 0.42, 0.68), ('young', 0.68, 0.84), ('side', 0.84, 1.14), ('beans', 1.14, 1.4), ('which', 1.4, 1.76), ('store', 1.76, 1.98), ('protein', 1.98, 2.32), ('and', 2.32, 2.76), ('oil.', 2.76, 3.02), ('Peas', 3.66, 3.88), ('store', 3.88, 4.04), ('mostly', 4.04, 4.44), ('carbs.', 4.44, 4.76)]
+T3.wav | per 100 grams cooked, 12 grams of protein versus 5, 5 of fat versus almost none.
+    [('per', 0.0, 0.1), ('100', 0.1, 0.4), ('grams', 0.4, 0.7), ('cooked,', 0.7, 1.14), ('12', 1.6, 1.98), ('grams', 1.98, 2.3), ('of', 2.3, 2.54), ('protein', 2.54, 2.94), ('versus', 2.94, 3.28), ('5,', 3.28, 3.74), ('5', 4.06, 4.36), ('of', 4.36, 4.52), ('fat', 4.52, 4.76), ('versus', 4.76, 5.08), ('almost', 5.08, 5.46), ('none.', 5.46, 5.86)]
+T4.wav | 121 calories against 78.
+    [('121', 0.0, 0.38), ('calories', 0.38, 1.08), ('against', 1.08, 1.62), ('78.', 1.62, 2.28)]
+T5.wav | Snack tip, a cup of edamame brings about double the protein of peas for about 60 more calories.
+    [('Snack', 0.0, 0.38), ('tip,', 0.38, 0.62), ('a', 1.04, 1.08), ('cup', 1.08, 1.22), ('of', 1.22, 1.36), ('edamame', 1.36, 1.86), ('brings', 1.86, 2.14), ('about', 2.14, 2.44), ('double', 2.44, 2.68), ('the', 2.68, 2.98), ('protein', 2.98, 3.22), ('of', 3.22, 3.44), ('peas', 3.44, 3.68), ('for', 3.68, 4.44), ('about', 4.44, 4.6), ('60', 4.6, 4.96), ('more', 4.96, 5.32), ('calories.', 5.32, 5.68)]
+T6.wav | Track your food and nutrition with calmetre.
+    [('Track', 0.0, 0.16), ('your', 0.16, 0.36), ('food', 0.36, 0.64), ('and', 0.64, 1.0), ('nutrition', 1.0, 1.26), ('with', 1.26, 1.6), ('calmetre.', 1.6, 2.16)]

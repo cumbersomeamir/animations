@@ -1,0 +1,60 @@
+{
+ "fdcId": 172428,
+ "ndbNumber": 16085,
+ "description": "Peas, green, split, mature seeds, raw",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 23.1,
+   "unit": "g",
+   "dataPoints": 105
+  },
+  {
+   "name": "Fiber, total dietary",
+   "amount": 22.2,
+   "unit": "g",
+   "dataPoints": 1
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 3.89,
+   "unit": "g",
+   "dataPoints": 18
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 61.6,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 364,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 8.69,
+   "unit": "g",
+   "dataPoints": 105
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 3.14,
+   "unit": "g",
+   "dataPoints": 14
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "amount": null,
+   "gramWeight": 196.0
+  }
+ ]
+}

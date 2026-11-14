@@ -1,0 +1,17 @@
+Caption line appear time vs ASR word start on the export (faster-whisper base.en, VAD; qa/asr-final-mp4.txt)
+Green peas and edamame         caption   0.17s  word   0.00s  diff +0.17
+look like twins.               caption   1.37s  word   1.34s  diff +0.03
+Their numbers don't.           caption   2.80s  word   2.76s  diff +0.04
+So what's different inside?    caption   4.07s  word   4.10s  diff -0.03
+Edamame: young soybeans,       caption   5.57s  word   5.60s  diff -0.03
+storing protein + oil;         caption   6.97s  word   6.94s  diff +0.03
+peas: mostly carbs             caption   9.20s  word   9.22s  diff -0.02
+Per 100 g, cooked:             caption  10.87s  word  10.94s  diff -0.07
+12 g protein vs 5,             caption  12.67s  word  12.72s  diff -0.05
+5 g fat vs almost none         caption  15.03s  word  15.26s  diff -0.23
+121 kcal vs 78                 caption  17.83s  word  17.86s  diff -0.03
+Snack tip: 1 cup of edamame    caption  20.37s  word  20.40s  diff -0.03
+≈ 2× the protein of peas,      caption  22.33s  word  22.30s  diff +0.03
+for ≈ 60 more kcal             caption  24.23s  word  24.28s  diff -0.05
+Track your food and nutrition  caption  27.10s  word  26.72s  diff +0.38  (segment-start drift; take placed at 27.10 s)
+with CalMeter                  caption  28.37s  word  28.34s  diff +0.03
