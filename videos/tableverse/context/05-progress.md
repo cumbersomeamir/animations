@@ -66,7 +66,7 @@ Durable rules + style recipe: 08-format-and-style.md. Episode brief, narration, 
 - Earlier stickman picture+mix muxed for preservation at output/tableverse-30s.mp4 (30.000 s, clean decode; never
   fully QA'd; superseded).
 
-## 2026-11-13 batch english-13 — "The Missing Row Trick" (ACTIVE)
+## 2026-11-13 batch english-13 — "The Missing Row Trick" (delivered)
 Brief + script + sources: 10-episode-missing-row-trick.md. Rules updated in 08 (Theory of Marketing, pacing,
 caption window x 100–900 / y 230–1500, thumbnail, depth).
 - Facts: CCSS 3.OA.A.3 (arrays), 3.OA.B.5 (distributive example), 3.OA.C.7 from the official CCSS PDF
@@ -81,5 +81,21 @@ caption window x 100–900 / y 230–1500, thumbnail, depth).
   ASR transcript of the final MP4 matches the script; 42-cupcake count checked across contact sheet + 42 frames.
   Listening check is machine-only (ASR + meters).
 
+## 2026-11-14 batch english-14 — "Nine Hides Inside Ten" (ACTIVE)
+Brief, episode history table, script, sources: 11-episode-nine-hides-inside-ten.md.
+- Topic check: new strategy (take one group away from a ten-fact, 9 × 8 = 10 × 8 − 8); prior episodes taught equal
+  groups/rearrangement (feedback-01) and split-and-add (english13-01). Visual variation: cookies, backward fold,
+  flip card, music in F.
+- Facts: CCSS 3.OA.A.3, 3.OA.B.5, 3.NBT.A.3, 3.OA.D.9 (official CCSS PDF, sha256 2d28ded2…).
+- Creative: 10 × 8 cookie sheet (80); flip card 9 × 8 = ? → 10 × 8 = ? → 10 × 8 = 80 → 9 × 8 = ? → 9 × 8 = 72;
+  untimed noticing pause; row 10 drops on a hinge strip and folds back (visible, greyed); flap 80 − 8 → 80 − 8 = 72 →
+  10 × 8 − 8; closing nine-row sweep; CTA = user's line. Same narrator recipe; narration line "leaves seventy-two"
+  replaced by "Seventy-two are left." after a clarity check.
+- Paths: production/30s/2026-11-14-english-14/ — tableverse-30s-english14-01.mp4 (sha256 0797aa41…b74d) +
+  tableverse-30s-english14-01-thumbnail.png; src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.6 LUFS, −1.5 dBTP; ASR
+  transcript of the final MP4 matches the script; 80-cookie count checked on contact sheet + 42 frames. Machine-only
+  listening check.
+
 ## Unresolved / next
-- Await user review of english13-01. No further episode started.
+- Await user review of english14-01. No further episode started.

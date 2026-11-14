@@ -1,0 +1,68 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Where is nine times eight hiding?",
+      "seconds": 1.546,
+      "frames": 46.4
+    },
+    "v02": {
+      "text": "Inside ten times eight!",
+      "seconds": 1.339,
+      "frames": 40.2
+    },
+    "v03": {
+      "text": "Here are ten rows of eight cookies.",
+      "seconds": 1.523,
+      "frames": 45.7
+    },
+    "v04": {
+      "text": "Ten rows of eight make eighty.",
+      "seconds": 1.441,
+      "frames": 43.2
+    },
+    "v05": {
+      "text": "But nine times eight needs only nine rows.",
+      "seconds": 2.394,
+      "frames": 71.8
+    },
+    "v06": {
+      "text": "Can you spot the extra row?",
+      "seconds": 1.399,
+      "frames": 42.0
+    },
+    "v07": {
+      "text": "Fold it away.",
+      "seconds": 0.759,
+      "frames": 22.8
+    },
+    "v08": {
+      "text": "Eighty, take away one row of eight.",
+      "seconds": 1.852,
+      "frames": 55.6
+    },
+    "v09": {
+      "text": "Seventy-two are left.",
+      "seconds": 1.141,
+      "frames": 34.2
+    },
+    "v10": {
+      "text": "So nine times eight is seventy-two.",
+      "seconds": 1.959,
+      "frames": 58.8
+    },
+    "v11": {
+      "text": "For a nine fact, start with ten, then take one group away.",
+      "seconds": 3.413,
+      "frames": 102.4
+    },
+    "v12": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
