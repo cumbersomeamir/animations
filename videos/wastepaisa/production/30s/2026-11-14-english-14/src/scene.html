@@ -1,0 +1,304 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-14 episode 01 "Drop hard plastic in water. What floats sells for more." (hard-plastic polymer sorting; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-13-english-13/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes only: CTA at 27-30 s, captions centred at x 500
+// inside x 100-900, large brief labels, a soft key light behind each subject, depth-push scene transitions and a separate thumbnail.
+// New: hard-plastic props (water tank with float/sink pieces, density ruler, buyer spec, resin codes, rate bars) and scene functions; English captions use the
+// accepted English 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph); the ex-Hindi note follows: Devanagari
+// Baloo 2 faces (same family, OFL), Hindi caption groups and Hindi line spacing (84 px) so matras never collide.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-14-english-14';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha = a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [3.75, [0, 1.6, 2.4]], [5.65, [0.25, 1.5, 2.0]], [11.15, [0, 1.85, 3.1]], [15.05, [-0.3, 1.7, 2.6]], [18.35, [0, 2.35, 3.7]], [23.95, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- hard-plastic props (solid foreground objects): water tank, float/sink pieces, density ruler, buyer spec ----------
+const PL = { hdpe: '#3b82c4', hdpeHi: '#6aa8de', pp: '#2f9e5b', ppHi: '#58c27f', lid: '#e0b030', pvc: '#9aa3ab', pvcHi: '#c3c9cf', pet: 'rgba(214,236,246,0.8)', petEdge: 'rgba(140,185,205,0.95)', metal: '#59616b' };
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function codeTri(x, y, s, n, col = C.cream) { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 5; g.lineJoin = 'round'; g.beginPath(); g.moveTo(0, -30); g.lineTo(28, 20); g.lineTo(-28, 20); g.closePath(); g.stroke();
+  for (const [ax, ay, r] of [[14, -5, 1.05], [0, 20, 3.14], [-14, -5, -1.05]]) { g.save(); g.translate(ax, ay); g.rotate(r); g.fillStyle = col; g.beginPath(); g.moveTo(-6, -4); g.lineTo(6, 0); g.lineTo(-6, 4); g.fill(); g.restore(); }
+  textC(String(n), 0, 6, 28, col, 800); g.restore(); }
+function piece(x, y, kind, s = 1, rot = 0, showCode = false) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.shadowColor = 'rgba(0,0,0,0.35)'; g.shadowOffsetY = 6; g.shadowBlur = 10;
+  if (kind === 'bucket') { g.strokeStyle = PL.hdpe; g.lineWidth = 26; g.lineCap = 'round'; g.beginPath(); g.arc(0, 60, 80, Math.PI * 1.2, Math.PI * 1.8); g.stroke(); g.shadowColor = 'transparent'; g.strokeStyle = PL.hdpeHi; g.lineWidth = 6; g.beginPath(); g.arc(0, 60, 88, Math.PI * 1.25, Math.PI * 1.75); g.stroke(); if (showCode) codeTri(0, -6, 0.62, 2); }
+  else if (kind === 'crate') { rr(-62, -26, 124, 52, 6); g.fillStyle = PL.pp; g.fill(); g.shadowColor = 'transparent'; g.fillStyle = 'rgba(7,9,11,0.55)'; for (let i = 0; i < 4; i++) rr(-52 + i * 28, -16, 18, 32, 3), g.fill(); g.fillStyle = PL.ppHi; g.fillRect(-62, -26, 124, 5); if (showCode) codeTri(0, 0, 0.62, 5); }
+  else if (kind === 'lid') { g.beginPath(); g.ellipse(0, 0, 54, 18, 0, 0, 7); g.fillStyle = PL.lid; g.fill(); g.shadowColor = 'transparent'; g.strokeStyle = 'rgba(120,80,10,0.6)'; g.lineWidth = 3; g.stroke(); if (showCode) codeTri(0, -2, 0.5, 5, '#3a2a08'); }
+  else if (kind === 'pipe') { const gr = g.createLinearGradient(0, -20, 0, 20); gr.addColorStop(0, PL.pvcHi); gr.addColorStop(1, PL.pvc); rr(-60, -20, 120, 40, 8); g.fillStyle = gr; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.ellipse(60, 0, 9, 20, 0, 0, 7); g.fillStyle = '#6b737b'; g.fill(); g.beginPath(); g.ellipse(60, 0, 5, 13, 0, 0, 7); g.fillStyle = '#2a2f35'; g.fill(); if (showCode) codeTri(-10, 0, 0.5, 3, '#2a2f35'); }
+  else if (kind === 'pet') { rr(-50, -22, 100, 44, 18); g.fillStyle = PL.pet; g.fill(); g.shadowColor = 'transparent'; g.strokeStyle = PL.petEdge; g.lineWidth = 3; g.stroke(); g.fillStyle = 'rgba(255,255,255,0.55)'; g.fillRect(-36, -14, 60, 5); }
+  else if (kind === 'handle') { g.strokeStyle = PL.metal; g.lineWidth = 8; g.lineCap = 'round'; g.beginPath(); g.arc(0, 30, 50, Math.PI * 1.1, Math.PI * 1.9); g.stroke(); }
+  g.restore(); }
+const FLOATS = { bucket: true, crate: true, lid: true, pipe: false, pet: false, handle: false };
+function dropY(tt, surface, bottom, floats, i, t) { // falls in, then floats and bobs, or sinks to the floor
+  const y0 = surface - 320, fd = 0.4; if (tt < fd) return y0 + (surface - y0) * Math.pow(tt / fd, 2); const u = tt - fd;
+  if (floats) return surface + 6 + 70 * Math.exp(-3 * u) * Math.sin(Math.min(u * 4.5, Math.PI)) + 4 * Math.sin(t * 2.6 + i);
+  return surface + (bottom - surface) * easeOut(clamp(u / 1.4)); }
+function tank(x, base, w, h, t, items, a = 1) { // glass tank of water; items: [kind, dx, t0, rot]
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const x0 = x - w / 2, top = base - h, surf = top + 80, bot = base - 34;
+  g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(x0 - 10, base - 6, w + 20, 22, 6); g.fillStyle = '#3a4048'; g.fill(); g.shadowColor = 'transparent';
+  rr(x0, top, w, h, 14); g.fillStyle = 'rgba(14,18,22,0.55)'; g.fill();
+  const wg = g.createLinearGradient(0, surf, 0, base); wg.addColorStop(0, 'rgba(110,190,225,0.42)'); wg.addColorStop(1, 'rgba(40,110,150,0.55)'); g.save(); rr(x0, top, w, h, 14); g.clip(); g.fillStyle = wg; g.beginPath(); g.moveTo(x0, surf);
+  for (let i = 0; i <= 24; i++) g.lineTo(x0 + i * w / 24, surf + Math.sin(i * 0.8 + t * 2.2) * 3); g.lineTo(x0 + w, base); g.lineTo(x0, base); g.closePath(); g.fill();
+  for (let i = 0; i < 6; i++) { g.fillStyle = 'rgba(200,240,255,0.08)'; g.beginPath(); g.ellipse(x0 + ((i * 113 + t * 30) % w), surf + 60 + (i * 47) % (h - 160), 40, 8, 0.2, 0, 7); g.fill(); }
+  items.forEach(([kind, dx, t0, rot], i) => { const tt = t - t0; if (tt < 0) return; const fl = FLOATS[kind]; const y = dropY(tt, surf, bot - (kind === 'handle' ? 10 : 18), fl, i, t);
+    const sp = tt > 0.35 && tt < 0.85 ? (tt - 0.35) / 0.5 : 0; if (sp > 0) { g.strokeStyle = `rgba(220,245,255,${0.7 * (1 - sp)})`; g.lineWidth = 3; g.beginPath(); g.ellipse(x + dx, surf + 2, 40 + 60 * sp, 8 + 6 * sp, 0, 0, 7); g.stroke(); }
+    piece(x + dx, y, kind, 1, rot + (fl ? Math.sin(t * 2 + i) * 0.05 : 0.08 * clamp(tt - 0.4)), false); });
+  g.fillStyle = 'rgba(200,240,255,0.35)'; g.fillRect(x0, surf - 1, w, 2); g.restore();
+  g.strokeStyle = 'rgba(220,240,250,0.55)'; g.lineWidth = 4; rr(x0, top, w, h, 14); g.stroke(); g.fillStyle = 'rgba(255,255,255,0.10)'; g.fillRect(x0 + 16, top + 16, 14, h - 32);
+  g.restore(); return { surf, bot }; }
+const HOOK_ITEMS = [['crate', -170, -0.45, -0.1], ['pipe', 120, -0.15, 0.15], ['bucket', 30, 0.2, 0.05], ['pet', -60, 0.5, -0.2], ['lid', 190, 0.8, 0.1]]; // first pieces are already falling/splashing at frame 0
+function bag(x, y, w, h, tag, col, fill = 1) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; g.beginPath(); g.moveTo(x - w * 0.42, y); g.quadraticCurveTo(x - w * 0.55, y - h * 0.5, x - w * 0.45, y - h); g.lineTo(x + w * 0.45, y - h); g.quadraticCurveTo(x + w * 0.55, y - h * 0.5, x + w * 0.42, y); g.closePath(); g.fillStyle = '#d9d0b7'; g.fill(); g.shadowColor = 'transparent';
+  g.fillStyle = col; g.globalAlpha *= 0.85; g.fillRect(x - w * 0.42, y - h * 0.18 * fill - 10, w * 0.84, 10); g.globalAlpha /= 0.85;
+  g.font = '800 40px "Baloo 2"'; const tw = g.measureText(tag).width + 30; rr(x - tw / 2, y - h * 0.6 - 34, tw, 68, 12); g.fillStyle = C.cream; g.fill(); g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(tag, x, y - h * 0.6 + 3); g.restore(); }
+function tick(x, y, s, k, col = C.warm) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 14; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(-34, 0); const k1 = clamp(k * 2), k2 = clamp(k * 2 - 1); g.lineTo(-34 + 24 * k1, 26 * k1); if (k2 > 0) g.lineTo(-10 + 54 * k2, 26 - 66 * k2); g.stroke(); g.restore(); }
+function cross(x, y, s, k) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.scale(kk * s, kk * s); g.strokeStyle = '#c0392b'; g.lineWidth = 12; g.lineCap = 'round'; g.beginPath(); g.moveTo(-18, -18); g.lineTo(18, 18); g.moveTo(18, -18); g.lineTo(-18, 18); g.stroke(); g.restore(); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 3.75: hard plastic dropped into water: some floats, some sinks; floaters sell for more
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 660);
+  tank(540, 1460, 660, 560, t, HOOK_ITEMS);
+  label('FLOAT', 860, 860, prog(t, 2.35, 2.55), { size: 48, warm: true });
+  label('SINK', 860, 1520, prog(t, 2.45, 2.65), { size: 44 });
+  const ck = back(prog(t, 2.68, 3.0)); if (ck > 0) { g.save(); g.translate(250, 860); g.scale(ck, ck); rr(-110, -40, 220, 80, 40); g.fillStyle = C.warm; g.fill(); textC('MORE ₹', 0, 4, 44, '#1d130e', 800); g.restore(); }
+  g.restore();
+}
+function sWhy(t, a) { // 3.75 - 5.65: why would floating change the price?
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 640);
+  tank(540, 1460, 660, 560, t, HOOK_ITEMS.map(([k, dx, t0, r]) => [k, dx, t0 - 10, r]));
+  const q = back(prog(t, 4.2, 4.6)); if (q > 0) { g.save(); g.translate(540, 760); g.scale(q, q); textC('?', 0, 0, 220, C.warm, 800); g.restore(); }
+  mascot(160, 1580, 0.5, { armL: [-0.7, 110], armR: [1.2, 60], look: [0.8, -0.4], lid: -0.5 });
+  g.restore();
+}
+function sDensity(t, a) { // 5.65 - 11.15: density ruler against water (1.00): PE and PP above, PVC below
+  g.save(); g.globalAlpha = a;
+  spot(540, 1120, 660);
+  const yOf = (d) => lerp(760, 1440, (d - 0.85) / 0.6), rx = 200, rk = easeOut(prog(t, 5.7, 6.1));
+  g.save(); g.globalAlpha *= rk; rr(rx - 26, 740, 52, 720, 26); g.fillStyle = 'rgba(14,18,22,0.85)'; g.fill(); g.strokeStyle = 'rgba(254,247,238,0.4)'; g.lineWidth = 3; g.stroke();
+  for (let d = 0.9; d <= 1.41; d += 0.1) { g.fillStyle = 'rgba(254,247,238,0.55)'; g.fillRect(rx - 26, yOf(d) - 1, 22, 2); } g.restore();
+  const wk = easeOut(prog(t, 8.44, 8.8)); if (wk > 0) { g.save(); g.globalAlpha *= wk; const wy = yOf(1.0); g.fillStyle = 'rgba(110,190,225,0.22)'; g.fillRect(rx - 26, wy, 52 + 700 * wk, 1440 - wy + 20); g.fillStyle = 'rgba(160,220,240,0.95)'; g.fillRect(rx - 40, wy - 3, 760 * wk, 6); g.restore(); label('WATER 1.0', 780, yOf(1.0) + 52, prog(t, 8.6, 8.85), { size: 42 }); }
+  for (const [kind, d, t0, txt, warm, ix, ly] of [['bucket', 0.95, 6.46, 'POLYTHENE 0.95', true, 330, 900], ['crate', 0.91, 7.27, 'POLYPROPYLENE 0.91', true, 500, 760], ['pipe', 1.38, 9.67, 'PVC 1.4', false, 360, 1290]]) {
+    const k = easeOut(prog(t, t0, t0 + 0.45)); if (k <= 0) continue; const y = lerp(680, yOf(d), k); piece(ix, y, kind, 0.8, 0, false); label(txt, kind === 'pipe' ? 640 : 760, ly, prog(t, t0 + 0.1, t0 + 0.35), { size: 40, warm, to: [ix + (kind === 'crate' ? 60 : 70), y] }); }
+  g.restore();
+}
+function sSpec(t, a) { // 11.15 - 15.05: the buyer's specification: other plastics capped, no PVC, no metal
+  g.save(); g.globalAlpha = a;
+  spot(540, 1120, 640);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(210, 740, 660, 520, 24); g.fillStyle = C.cream; g.fill(); g.restore();
+  g.save(); rr(210, 740, 660, 96, 24); g.clip(); g.fillStyle = C.green; g.fillRect(210, 740, 660, 96); g.restore(); textC('BUYER SPEC', 540, 790, 46, C.cream, 800);
+  for (const [txt, mark, t0, i] of [['OTHER PLASTICS', 'CAPPED', 11.75, 0], ['PVC', 'NO', 13.64, 1], ['METAL', 'NO', 14.54, 2]]) {
+    const k = easeOut(prog(t, t0, t0 + 0.3)); if (k <= 0) continue; const ry = 900 + i * 120; g.save(); g.globalAlpha *= k; g.translate(30 * (1 - k), 0);
+    g.font = '800 46px "Baloo 2"'; g.textBaseline = 'middle'; g.textAlign = 'left'; g.fillStyle = C.ink; g.fillText(txt, 250, ry + 3); g.textAlign = 'right'; g.fillStyle = mark === 'NO' ? '#c0392b' : C.warm; g.fillText(mark, 830, ry + 3);
+    if (i < 2) { g.fillStyle = 'rgba(29,19,14,0.15)'; g.fillRect(250, ry + 58, 580, 2); } g.restore(); }
+  piece(330, 1360, 'pipe', 0.8, 0.1, true); cross(330, 1360, 1.4, prog(t, 13.7, 14.0)); piece(560, 1370, 'handle', 1, 0, false); cross(560, 1350, 1.4, prog(t, 14.55, 14.85));
+  mascot(800, 1560, 0.5, { armL: [-0.6, 110], armR: [1.2, 60], look: [-0.8, -0.4], lid: -0.5, stern: t > 13.7 ? 1 : 0 });
+  g.restore();
+}
+function sCode(t, a) { // 15.05 - 18.35: sort floaters by the stamped resin code: 2 (HDPE) or 5 (PP)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 660);
+  rr(100, 1090, 460, 30, 8); g.fillStyle = '#59616b'; g.fill(); g.fillStyle = '#3a4048'; g.fillRect(120, 1120, 18, 160); g.fillRect(522, 1120, 18, 160);
+  const items = [['bucket', 190, 2, 15.6], ['crate', 340, 5, 15.95], ['lid', 480, 5, 16.3], ['bucket', 260, 2, 16.65], ['crate', 420, 5, 17.0]];
+  items.forEach(([kind, x0, code, t0], i) => { const k = ease(prog(t, t0 + 0.6, t0 + 1.1)); const toX = code === 2 ? 700 : 890, [fx, fy] = fly(x0, 1060, toX - 20 + (i % 2) * 30, 1300, k, 150); if (k >= 1) return; piece(fx, fy, kind, 0.9, k * 2, k < 0.05); });
+  bag(700, 1500, 190, 230, '2 · HDPE', PL.hdpe, prog(t, 16.3, 18.0)); bag(890, 1500, 190, 230, '5 · PP', PL.pp, prog(t, 16.6, 18.2));
+  const mk = back(prog(t, 16.37, 16.7)); if (mk > 0) { g.save(); g.translate(330, 820); g.scale(mk, mk); g.beginPath(); g.arc(0, 0, 110, 0, 7); g.fillStyle = 'rgba(18,22,26,0.9)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 6; g.stroke(); codeTri(0, -4, 2.2, t > 17.5 ? 5 : 2, C.cream); g.restore(); }
+  label('STAMPED CODE', 330, 980, prog(t, 16.5, 16.75), { size: 42, warm: true });
+  g.restore();
+}
+function sRates(t, a) { // 18.35 - 23.95: sorted HDPE (marketplace asking index, Nov 2026) vs a mixed hard-plastic pile (kabadi rate)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 660);
+  const base = 1420, px = 8.0, w = 220;
+  const hk = easeOut(prog(t, 18.9, 19.7)); /* the HDPE bar rises on 'H D P E'; its ₹70 value lands on 'seventy' */ if (hk > 0) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(300 - w / 2, base - 70.69 * px * hk, w, 70.69 * px * hk, 12); g.fillStyle = PL.hdpe; g.fill(); g.restore(); }
+  textC('₹70/kg', 300, base - 70.69 * px - 46, 52, `rgba(254,247,238,${prog(t, 20.5, 20.8)})`, 800);
+  textC('SORTED HDPE', 300, base + 44, 38, `rgba(254,247,238,${prog(t, 18.6, 18.9)})`, 800);
+  const mk = easeOut(prog(t, 22.4, 23.0)); if (mk > 0) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(760 - w / 2, base - 30 * px * mk, w, 30 * px * mk, 12); g.fillStyle = '#6b6f74'; g.fill(); g.restore();
+    g.save(); g.globalAlpha *= 0.55; g.setLineDash([10, 8]); g.strokeStyle = C.cream; g.lineWidth = 3; g.beginPath(); g.moveTo(760 - w / 2, base - 15 * px); g.lineTo(760 + w / 2, base - 15 * px); g.stroke(); g.setLineDash([]); g.restore(); }
+  textC('₹15–30/kg', 760, base - 30 * px - 46, 52, `rgba(254,247,238,${prog(t, 22.7, 23.0)})`, 800);
+  textC('MIXED HARD', 760, base + 44, 38, `rgba(254,247,238,${prog(t, 22.11, 22.4)})`, 800);
+  textC('HDPE: SCRAPO ASKING INDEX · NOV 2026', 540, 680, 30, `rgba(254,247,238,${0.85 * prog(t, 20.9, 21.2)})`, 700);
+  textC('MIXED: DELHI KABADI RATE · UNDATED', 540, 722, 30, `rgba(254,247,238,${0.85 * prog(t, 23.0, 23.3)})`, 700);
+  g.restore();
+}
+function sGap(t, a) { // 23.95 - 27.0: the gap must pay for sorting, cleaning and transport (illustrative per-kilo costs)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 660);
+  const base = 1420, px = 8.0, w = 220; g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(300 - w / 2, base - 70.69 * px, w, 70.69 * px, 12); g.fillStyle = PL.hdpe; g.fill(); rr(760 - w / 2, base - 30 * px, w, 30 * px, 12); g.fillStyle = '#6b6f74'; g.fill(); g.restore();
+  textC('₹70', 300, base - 70.69 * px - 40, 46, C.cream, 800); textC('₹30', 760, base - 30 * px - 40, 46, C.cream, 800);
+  const gk = easeOut(prog(t, 24.25, 24.6)); if (gk > 0) { g.save(); g.globalAlpha *= gk; g.fillStyle = 'rgba(244,109,18,0.22)'; g.fillRect(420, base - 70.69 * px, 230, (70.69 - 30) * px); g.strokeStyle = C.warm; g.lineWidth = 4; g.setLineDash([12, 8]); g.strokeRect(420, base - 70.69 * px, 230, (70.69 - 30) * px); g.setLineDash([]); g.restore(); label('GAP', 535, base - 70.69 * px - 46, prog(t, 24.25, 24.45), { size: 46, warm: true }); }
+  for (const [txt, t0, i] of [['SORT + CLEAN ≈ ₹6/kg', 24.94, 0], ['TRANSPORT ≈ ₹6/kg', 26.14, 1]]) { const k = back(prog(t, t0, t0 + 0.3)); if (k <= 0) continue; g.save(); g.translate(535, base - 70.69 * px + 70 + i * 80); g.scale(k, k); rr(-215, -32, 430, 64, 32); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); textC(txt, 0, 3, 38, C.cream, 800); g.restore(); }
+  textC('COSTS ARE ILLUSTRATIVE', 540, 690, 30, `rgba(254,247,238,${0.85 * prog(t, 25.0, 25.3)})`, 700);
+  mascot(150, 1590, 0.45, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5, hop: t > 26.2 && t < 26.7 ? Math.sin((t - 26.2) * 6.28) * 8 : 0 });
+  g.restore();
+}
+// ---------- thumbnail (separate vertical image tied to the hook; 3 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0.6, 0.8); spot(540, 1250, 720);
+  tank(540, 1520, 700, 600, 6.0, HOOK_ITEMS.map(([k, dx, t0, r]) => [k, dx, t0 - 10, r]));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('FLOAT', 540, 470, 140, C.cream, 800); textC('OR SINK?', 540, 630, 140, C.warm, 800); g.restore();
+  g.save(); g.translate(250, 860); rr(-120, -42, 240, 84, 42); g.fillStyle = C.warm; g.fill(); textC('MORE ₹', 0, 4, 46, '#1d130e', 800); g.restore();
+  mascot(870, 1760, 0.55, { armL: [-0.9, 100], armR: [0.9, 100], look: [-0.5, -0.5], lid: -0.5 });
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 3.75], [sWhy, 3.75, 5.65], [sDensity, 5.65, 11.15], [sSpec, 11.15, 15.05], [sCode, 15.05, 18.35], [sRates, 18.35, 23.95], [sGap, 23.95, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Drop hard plastic|[in water.]', ['What [floats]|[sells for more.]', 1.89]],
+  L2: ['Why would [floating]|change the price?'],
+  L3: ['Floaters are [polythene]|and [polypropylene,]', ['[lighter than water;]|[PVC sinks.]', 2.64]],
+  L4: ['Buyers [cap]|other plastics,', ['and refuse|[PVC and metal.]', 1.74]],
+  L5: ['So sort floaters by|their [stamped number:]', ['[2 or 5.]', 2.04]],
+  L6: ['Sorted HDPE lists near|[₹70 a kilo;]', ['mixed, [₹15 to ₹30.]', 3.63]],
+  L7: ['That [gap] pays for|sorting, cleaning', ['and [transport.]', 1.95]],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+function caption(c, t) {
+  const big = false, fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

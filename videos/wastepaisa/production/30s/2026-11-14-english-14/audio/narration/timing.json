@@ -1,0 +1,78 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 27.459,
+  "words": 72,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Drop hard plastic in water. What floats sells for more.",
+      "start": 0.25,
+      "phonemes": "dɹˈɑːp hˈɑːɹd plˈæstɪk ɪn wˈɔːɾɚ. wˌʌt flˈoʊts sˈɛlz fɔːɹ mˈɔːɹ.",
+      "duration": 3.379,
+      "end": 3.629
+    },
+    {
+      "id": "L2",
+      "text": "Why would floating change the price?",
+      "start": 3.9,
+      "phonemes": "wˌaɪ wʊd flˈoʊɾɪŋ tʃˈeɪndʒ ðə pɹˈaɪs?",
+      "duration": 1.637,
+      "end": 5.537
+    },
+    {
+      "id": "L3",
+      "text": "Floaters are polythene and polypropylene, lighter than water; PVC sinks.",
+      "tts": "Floaters are polythene and polypropylene, lighter than water; P V C sinks.",
+      "start": 5.8,
+      "phonemes": "flˈoʊɾɚz ɑːɹ pˈɑːlɪθˌiːn ænd pˌɑːlɪpɹˈoʊpəlˌiːn, lˈaɪɾɚ ðɐn wˈɔːɾɚ; pˈiː vˈiː sˈiː sˈɪŋks.",
+      "duration": 5.228,
+      "end": 11.028
+    },
+    {
+      "id": "L4",
+      "text": "Buyers cap other plastics, and refuse PVC and metal.",
+      "tts": "Buyers cap other plastics, and refuse P V C and metal.",
+      "start": 11.3,
+      "phonemes": "bˈaɪɚz kˈæp ˈʌðɚ plˈæstɪks, ænd ɹᵻfjˈuːz pˈiː vˈiː sˈiː ænd mˈɛɾəl.",
+      "duration": 3.64,
+      "end": 14.94
+    },
+    {
+      "id": "L5",
+      "text": "So sort floaters by their stamped number: 2 or 5.",
+      "tts": "So sort floaters by their stamped number: two or five.",
+      "start": 15.2,
+      "phonemes": "sˌoʊ sˈɔːɹt flˈoʊɾɚz baɪ ðɛɹ stˈæmpt nˈʌmbɚ: tˈuː ɔːɹ fˈaɪv.",
+      "duration": 3.006,
+      "end": 18.206
+    },
+    {
+      "id": "L6",
+      "text": "Sorted HDPE lists near ₹70 a kilo; mixed, ₹15 to ₹30.",
+      "tts": "Sorted H D P E lists near seventy rupees a kilo; mixed, fifteen to thirty.",
+      "start": 18.48,
+      "phonemes": "sˈɔːɹɾᵻd ˈeɪtʃ dˈiː pˈiː ˈiː lˈɪsts nˌɪɹ sˈɛvənti ɹˈuːpiːz ɐ kˈiːloʊ; mˈɪkst, fˈɪftiːn tə θˈɜːɾi.",
+      "duration": 5.323,
+      "end": 23.803
+    },
+    {
+      "id": "L7",
+      "text": "That gap pays for sorting, cleaning and transport.",
+      "start": 24.07,
+      "phonemes": "ðæt ɡˈæp pˈeɪz fɔːɹ sˈɔːɹɾɪŋ, klˈiːnɪŋ ænd tɹˈænspɔːɹt.",
+      "duration": 2.761,
+      "end": 26.831
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

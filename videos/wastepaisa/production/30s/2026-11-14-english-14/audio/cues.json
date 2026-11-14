@@ -1,0 +1,57 @@
+{
+ "sfx_cues": [
+  [
+   0.0,
+   "first piece splashes in (before \"Drop\")"
+  ],
+  [
+   0.25,
+   "second splash, very low under speech"
+  ],
+  [
+   3.68,
+   "MORE \u20b9 lands (between lines)"
+  ],
+  [
+   5.58,
+   "density ruler (before \"Floaters\")"
+  ],
+  [
+   11.08,
+   "buyer spec card (before \"Buyers\")"
+  ],
+  [
+   14.97,
+   "spec rows settle (after the line)"
+  ],
+  [
+   15.1,
+   "sorting table (before \"So\")"
+  ],
+  [
+   18.3,
+   "sorted bags settle (between lines)"
+  ],
+  [
+   23.86,
+   "rates in (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.74",
+  "input_tp": "-3.08",
+  "input_lra": "3.20",
+  "input_thresh": "-28.23",
+  "output_i": "-15.16",
+  "output_tp": "-1.50",
+  "output_lra": "3.30",
+  "output_thresh": "-25.63",
+  "normalization_type": "dynamic",
+  "target_offset": "0.16"
+ }
+}

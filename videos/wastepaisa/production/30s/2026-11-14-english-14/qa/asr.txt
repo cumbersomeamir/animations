@@ -1,0 +1,29 @@
+English intelligibility and timing evidence: wastepaisa-30s-english14-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.70 | onset plan 0.25 heard 0.22 | offset plan 3.63 heard 3.61 | heard: drop hard plastic and water what float cells for more
+   L2 word acc 1.00 | onset plan 3.90 heard 3.90 | offset plan 5.54 heard 5.52 | heard: why would floating change the price
+   L3 word acc 1.00 | onset plan 5.80 heard 5.80 | offset plan 11.03 heard 11.02 | heard: floaters are polythene and polypropylene lighter than water p v c sinks
+   L4 word acc 0.91 | onset plan 11.30 heard 11.30 | offset plan 14.94 heard 14.93 | heard: buyers cap other plastics and refused p v c and metal
+   L5 word acc 0.90 | onset plan 15.20 heard 15.23 | offset plan 18.21 heard 18.20 | heard: so sort floaters by their stamp number two or five
+   L6 word acc 1.00 | onset plan 18.48 heard 18.48 | offset plan 23.80 heard 23.79 | heard: sorted h d p e lists near seventy rupees a kilo mixed fifteen to thirty
+   L7 word acc 1.00 | onset plan 24.07 heard 24.07 | offset plan 26.83 heard 26.83 | heard: that gap pays for sorting cleaning and transport
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.69 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.925; every onset/offset within 0.03 s of plan (reference = the TTS spelling: letters P V C and H D P E, numbers as
+   words; full record in qa/asr-english-vosk.json)
+   Misses: L1 "in" -> "and", "floats sells" -> "float cells" (the two s sounds merge); L4 "refuse" -> "refused"; L5 "stamped" -> "stamp";
+   brand out of vocabulary. The raw narration files L1, L4 and L5 give exactly the same Vosk output, so these come from the synthetic
+   pronunciation, not from music or SFX in the mix.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Drop hard plastic in water. What floats sells for more? Why would floating change the price? Floaters are polythene and polypropylene, lighter than water, PVC sinks. Buyers cap other plastics and refuse PVC and metal, so sort floaters by their stamp number two or five. Sorted HDPE lists near 70 rupees a kilo, mixed 15 to 30. That gap pays for sorting, cleaning and transport. Join Waste Pisa and put your scrap to use. You
+   Matches the script ("in water", "floats sells", "refuse") except "stamped number", which it also hears as "stamp number" (the -ed is
+   under-articulated before "number"; the caption shows "stamped"), the brand spelling, and a known hallucinated "You" on the music-only tail.
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.4 dBFS, sample peak -1.42 dBFS, flat factor 0
+   (no clipped runs). Only the first splash (before "Drop") is audible; later splashes and the sorting motion are silent or very low
+   so nothing masks speech (audio/cues.json).
+
+4) Draft stage: the first wording ran 28.5 s of speech against the 27 s CTA start and was tightened to 25.0 s.

@@ -379,6 +379,24 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   less); IspatGuru (punchings clean, high yield). Same-truck example: ₹39,500 vs ₹31,500 gross, same ₹3,700 trip + sorting, ₹8,000/t
   apart; no buying price or profit assumed. Episode record: `context/26-english-13-01.md`. No automation.
 
+## english-14 (2026-11-14-english-14) episode 01: COMPLETE (English)
+- **Topic:** the proposed "Why clear plastic can earn more than a mixed-color pile" was already english-07 (clear vs coloured PET, PET-share
+  grading, crushing, cost example). Replacement with the same story criteria: the household hard-plastic pile, sorted by density in water
+  (PE/PP float; PVC/PET sink) and by stamped resin code (2 = HDPE, 5 = PP); buyer caps and refusals; sorted vs mixed rates; costs.
+- **Rules:** the 2026-11-11 Published-apps rules (context 11) applied unchanged; thumbnail "FLOAT OR SINK?".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-14-english-14/wastepaisa-30s-english14-01.mp4`,
+  SHA-256 `404889204bad3c8859d2ad653c269b8ad875b57ce620d4c87188a888081143dd`; thumbnail `wastepaisa-30s-english14-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · no clipping.
+- **Checks:** caption ink x 135.5–864.5, y 366–494; timing within ±0.03 s; Vosk mean 0.925 (pronunciation merges also on the raw voice,
+  brand OOV); Whisper matches except "stamped" heard as "stamp". ASR and meters only: no listening in the cloud.
+- **Research:** LibreTexts densities (PP 0.90–0.92, HDPE 0.94–0.96, PET 1.35–1.38, PVC 1.32–1.42); Herbold sink-float tanks (PE/PP float,
+  PET/PVC sink); APR model bale specs (PVC excluded, metal not allowed, other plastics capped); Scrapo index Nov 2026 (HDPE ₹70.69, PP
+  ₹63.15, PVC ₹37.70 per kg, median asking); Kabadiwala Online hard plastic ₹15–30/kg. Illustrative costs ≈₹6/kg sorting+cleaning and
+  ≈₹6/kg transport; no profit claimed. Episode record: `context/27-english-14-01.md`. No automation.
+- **Fixed during QA:** empty first frame, overlapping density labels, bags at the right edge, hidden GAP label, a near-empty rates beat,
+  and a bar accidentally disabled by an edit (caught in frame review, re-rendered).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
