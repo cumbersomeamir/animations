@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0.15,
+        3.74
+      ],
+      "script": "£2.30 or £2.80: which mayo is the better buy?",
+      "heard": "230 or 280, which Mayo is the better by.",
+      "words": "6/7"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.6,
+        6.09
+      ],
+      "script": "Same brand. Now switch the unit.",
+      "heard": "Same brand, now switch the unit.",
+      "words": "6/6"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6,
+        11.62
+      ],
+      "script": "Per 100 grams: 107p versus 52p. About double.",
+      "heard": "per 100 grams, 107 p versus 52 p, about double.",
+      "words": "7/7"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.55,
+        14.93
+      ],
+      "script": "Research shows we focus on the number, not the unit.",
+      "heard": "Research shows we focus on the number, not the unit.",
+      "words": "10/10"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.85,
+        20.03
+      ],
+      "script": "Listing snacks in kilojoules, not calories, raised healthy snack choices.",
+      "heard": "listing snacks in kilojoules, not calories, raised healthy snack choices.",
+      "words": "10/10"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        20,
+        23.04
+      ],
+      "script": "Shoppers: compare every option in the same unit.",
+      "heard": "Shoppers compare every option in the same unit.",
+      "words": "8/8"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        22.95,
+        26.13
+      ],
+      "script": "Sellers: show unit prices clearly, in one unit.",
+      "heard": "Sellers show unit prices clearly in one unit.",
+      "words": "8/8"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "230 or 280, which Mayo is the better by. Same brand, now switch the unit. Per 100 grams, 107 P versus 52 P, about double. Research shows we focus on the number, not the unit. Listing snacks in kilojoules, not calories, raised healthy snack choices. Shoppers compare every option in the same unit. Sellers show unit prices clearly in one unit. Follow Wurbins to decode how brands sell."
+}

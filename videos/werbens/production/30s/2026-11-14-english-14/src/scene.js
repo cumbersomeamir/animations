@@ -122,7 +122,7 @@ const HOOKA = [[0, 0.2, 0.95], [0, 0.11, 0.05]], HOOKB = [[0, 0.2, 0.9], [0, 0.1
 const CARD = [[X2, 0.16, 0.8], [X2, 0.105, 0.0]], SNACK = [[X2, 0.24, 0.86], [X2, 0.115, 0.0]], SNACK2 = [[X2, 0.24, 0.84], [X2, 0.115, 0.0]];
 const PAY = [[0, 0.2, 0.9], [0, 0.132, 0.05]], PAY2 = [[0, 0.2, 0.86], [0, 0.132, 0.05]];
 const CTAV = [[0, 0.28, 1.3], [0, 0.098, 0]], CTAV2 = [[0, 0.28, 1.26], [0, 0.098, 0]];
-const CAMS = [[0, ...HOOKA], [3.5, ...HOOKB], [6.1, ...REV], [11.35, ...REV], [12.15, ...CARD], [14.7, ...CARD], [15.4, ...SNACK], [19.5, ...SNACK2], [20.5, ...PAY], [25.95, ...PAY2], [26.8, ...CTAV], [30, ...CTAV2]];
+const CAMS = [[0, ...HOOKA], [3.5, ...HOOKB], [6.1, ...REV], [11.35, ...REV], [12.15, ...CARD], [14.7, ...CARD], [15.4, ...SNACK], [19.5, ...SNACK2], [20.5, ...PAY], [25.75, ...PAY2], [26.6, ...CTAV], [30, ...CTAV2]];
 function cameraAt(t) { if (THUMB) return { pos: v3(0, 0.19, 0.98), tgt: v3(0, 0.125, 0.05) };
   let i = CAMS.findIndex((k) => k[0] > t); if (i < 0) i = CAMS.length; if (i === 0) i = 1;
   const a = CAMS[Math.min(i - 1, CAMS.length - 1)], b = CAMS[Math.min(i, CAMS.length - 1)], u = a === b ? 0 : E.inOut(clamp((t - a[0]) / (b[0] - a[0])));

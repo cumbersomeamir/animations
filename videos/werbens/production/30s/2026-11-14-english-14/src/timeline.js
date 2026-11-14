@@ -23,7 +23,7 @@ export const T = {
   // payoff: back to the bottles; "SAME UNIT" on "same unit"; on "Sellers" the tags become clear shelf labels (pack price + unit price)
   toBottles: [19.6, 20.5], sameUnit: [22.15, 23.05], shelf: [23.25, 23.85],
   // CTA: stage clears; app.werbens.com logo tile lands; wordmark on "Werbens"
-  ctaClear: [26.0, 26.3], tile: [26.17, 26.47], lockup: 27.55,
+  ctaClear: [26.0, 26.32], tile: [26.04, 26.4], lockup: 27.55,
 };
 // caption groups: word index ranges into each line (br = index of the first word of line 2)
 export const CAPTIONS = [
