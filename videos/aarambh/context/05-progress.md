@@ -102,3 +102,4 @@
 - `videos/aarambh/production/30s/2026-11-14-english-14/aarambh-30s-english14-01.mp4` (sha256 `d589c52011444ee698a433bb5c6f67b56efbb2c8c5cbca93e575846273ae9b9e`) and thumbnail `aarambh-30s-english14-01-thumbnail.png`: Emily Warren Roebling and the Brooklyn Bridge.
   - Hook (chief engineer away 11 years) → "how did his plans reach the builders?" → caissons and the bends (real 1867 drawing) → dictation, writing and relay to the assistant engineers → learned the engineering, treated like the chief engineer → lesson "to translate expert knowledge, learn enough to answer the next question" → Aarambh CTA.
 - **Read first next time:** 25 (current rules), then 11 and 28.
+- **Clarification (2026-11-14):** the english-14 topic title ("bridge collapse") was a draft error. The intended topic is Emily Warren Roebling helping complete the Brooklyn Bridge, which the delivered MP4 already follows; it was not re-rendered (record note in 28).

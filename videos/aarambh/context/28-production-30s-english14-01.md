@@ -12,6 +12,9 @@
 ## Topic check
 - **Fresh topic:** Emily Warren Roebling and the Brooklyn Bridge were not covered (grep for roebling/brooklyn bridge over `videos/aarambh` found nothing), so the brief's subject was used.
 - **Topic line not used as a claim:** the brief's topic line, "The inventor who made a bridge collapse useful", does not match the Roebling story (no collapse is involved, and she is not described as an inventor). The detailed brief (Roebling, her documented role carrying technical information while Washington Roebling was ill) was followed, and no collapse or invention is claimed.
+- **User clarification (2026-11-14, after delivery):** the topic title was a draft error. The intended topic is Emily Warren Roebling and how she helped complete the Brooklyn Bridge: no collapse, and no claim that she invented the bridge.
+  - The delivered video already matched this, so no new video was made; this is a record correction only.
+  - Check: none of the script, publishing caption, renderer, README or the two export transcripts contains "collapse" or "invent".
 
 ## Story structure (rule `25`)
 | beat | time (s) | narration | picture |
