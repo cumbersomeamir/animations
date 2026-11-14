@@ -4,6 +4,68 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-14 (english-14): can the electricity company cut your power over a bill you dispute? (India)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at b782fd6. No job was running: english-13
+  was delivered.
+- The proposed topic (restaurant service charge) duplicates Episode 06, so a new same-genre topic was chosen. Record:
+  `context/episodes/2026-11-14-english14-electricity-disconnection.md`.
+- The approved rules in `context/09-feedback-rules-2026-11-11.md` were re-sent unchanged and apply as written.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-14-english-14/notes/LEGAL-SOURCES.md`)
+- Electricity Act 2003 s.56(1): disconnection for non-payment only after "not less than fifteen clear days' notice in
+  writing".
+- Proviso: no cut-off if the consumer deposits under protest the lower of (a) the sum claimed or (b) each month's
+  charge at the preceding six months' average, "pending disposal of any dispute".
+- The text is verbatim from the Supreme Court in *Bihar SEB v. Iceberg Industries* (27 Apr 2020).
+- The Draft Electricity (Amendment) Bill 2025 does not amend s.56. No enactment was found as of 14 Nov 2026
+  (checkpoint).
+
+### Creative decisions
+- Engine: english-13, with new props (bill with a disputed line, pendant lamp, plug/socket, notice envelope, 15-tile
+  strip, bills bar chart with an average line, hourglass, step icons).
+- Beats:
+  - the lights die over a wrong bill (hook)
+  - the "pay all or disconnect" notice and the plug yanked out (escalation)
+  - the ELECTRICITY ACT stamp
+  - notice + 15 clear days
+  - bars → claim tower → UNDER PROTEST → PAY THE LOWER → average line ✓
+  - the plug back in, the light returns, "SUPPLY STAYS ON / WHILE PENDING"
+  - three steps + "PAID UNDER PROTEST"
+  - CTA
+- Hook words = thumbnail words = spoken hook: "Wrong bill. Lights out?"
+- Amounts are illustrative.
+- Mix gain is 5.9 dB (−15.6 LUFS measured at 6.3 dB on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-14-english-14/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st14 <times>
+node render.cjs thumb .. courtlens-30s-english14-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build14 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english14-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english14-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Bill:** "THIS MONTH" collided with the amount, so the rows were resized.
+- **Hook:** the bill stayed bright in the dark room, so the room now dims over the bill while the disputed line glows
+  on top.
+- **Hook → escalation:** the hook's zoom muddied the cut to the plug, so it became a short crossfade.
+- **Notice:** the envelope was enlarged.
+- **Chart:** "CLAIMED ₹9,800" collided with the UNDER PROTEST stamp, so the bar was shortened and the stamp moved.
+- **Payoff:** the hourglass sat on the cable, so it was moved. The steps list was left-heavy, so it was centred.
+- **Thumbnail:** the lamp cord showed through the chip, so the cord now starts below it.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build14/frames`.
+
 ## Round 2026-11-13 (english-13): can a bank refuse to exchange your torn note? (India)
 
 ### Status

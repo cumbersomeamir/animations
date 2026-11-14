@@ -1,0 +1,166 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.3
+  },
+  {
+   "id": "l2",
+   "start": 2.65
+  },
+  {
+   "id": "l3",
+   "start": 5.65
+  },
+  {
+   "id": "l4",
+   "start": 10.1
+  },
+  {
+   "id": "l5",
+   "start": 17.9
+  },
+  {
+   "id": "l6",
+   "start": 21.4
+  },
+  {
+   "id": "l7",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.5,
+   "text": "WRONG BILL. LIGHTS OUT?",
+   "hl": [
+    "OUT?",
+    "LIGHTS"
+   ],
+   "hook": true
+  },
+  {
+   "start": 2.5,
+   "end": 5.5,
+   "text": "The company says: pay it all, or we cut you off.",
+   "hl": [
+    "cut",
+    "you",
+    "off."
+   ]
+  },
+  {
+   "start": 5.5,
+   "end": 9.95,
+   "text": "But the Electricity Act requires 15 clear days' written notice first.",
+   "hl": [
+    "15",
+    "clear",
+    "days'"
+   ]
+  },
+  {
+   "start": 9.95,
+   "end": 12.84,
+   "text": "Disputing the bill? Deposit, under protest,",
+   "hl": [
+    "under",
+    "protest,"
+   ]
+  },
+  {
+   "start": 12.84,
+   "end": 15.04,
+   "text": "the lower amount: what they claim,",
+   "hl": [
+    "lower",
+    "amount:"
+   ]
+  },
+  {
+   "start": 15.04,
+   "end": 17.75,
+   "text": "or your six-month average for each month.",
+   "hl": [
+    "six-month",
+    "average"
+   ]
+  },
+  {
+   "start": 17.75,
+   "end": 21.25,
+   "text": "Then they can't cut you off while the dispute is pending.",
+   "hl": [
+    "can't",
+    "cut",
+    "you",
+    "off"
+   ]
+  },
+  {
+   "start": 21.25,
+   "end": 23.0,
+   "text": "So put your dispute in writing,",
+   "hl": [
+    "writing,"
+   ]
+  },
+  {
+   "start": 23.0,
+   "end": 26.75,
+   "text": "pay the lower amount, and keep the receipt.",
+   "hl": [
+    "receipt."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "billIn": 0.05,
+  "line": 0.55,
+  "flick": 1.15,
+  "v2": 2.5,
+  "notice": 3.1,
+  "unplug": 4.75,
+  "v3": 5.5,
+  "stamp": 5.95,
+  "sub": 6.55,
+  "v3b": 6.9,
+  "env": 6.95,
+  "days": 7.45,
+  "cdays": 8.0,
+  "wr": 8.55,
+  "v4": 9.95,
+  "bars": 10.1,
+  "big": 10.8,
+  "protest": 12.2,
+  "lower": 13.1,
+  "claim": 14.3,
+  "avg": 15.6,
+  "each": 16.7,
+  "v5": 17.75,
+  "plugin": 18.2,
+  "relight": 18.45,
+  "stays": 19.0,
+  "pend": 19.9,
+  "v6": 21.25,
+  "s1": 21.6,
+  "s2": 23.05,
+  "s3": 24.35,
+  "paid": 25.1,
+  "v8": 26.75
+ }
+}
