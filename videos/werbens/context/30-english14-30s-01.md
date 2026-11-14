@@ -148,7 +148,43 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + one i
 | CTA | 26.0–30 s | pull back | bottles part; logo tile pops up 26.47 s; wordmark 27.55 s | slide, tile thud, D-major spread |
 
 ## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
-To be filled in after the final render.
+**Final export: render 2.** Render 1 (in checkpoint ff04e0d) had about 3 near-empty frames before the CTA tile at
+26.1–26.2 s. That was fixed and the video re-rendered.
+
+| Check | Result |
+|---|---|
+| Frames | 900 |
+| Duration (video / audio / format) | 30.000000 s each |
+| Video | H.264 High yuv420p, 30/1, bt709 |
+| Audio | AAC-LC 48 kHz stereo |
+| Full decode | 0 errors |
+| Loudness | −15.0 LUFS, true peak −1.9 dBTP, flat factor 0 |
+| Caption ink | x 131–869 / y 369–489 |
+| Caption pill | x 101–899 / y 353–507 |
+| Labels | x 248–832 / y 564–1456 |
+| Top 300 px | nothing in y 0–300 |
+| Overlaps / big labels | 0 overlaps; one big label at a time |
+| Page errors | none |
+| Transitions | no empty frames |
+| Thumbnail | 1080×1920 |
+
+Narration on air:
+
+| Line | Time (s) |
+|---|---|
+| L1 | 0.33–3.38 |
+| L2 | 3.78–5.74 |
+| L3 | 6.22–11.26 |
+| L4 | 11.73–14.59 |
+| L5 | 15.03–19.68 |
+| L6 | 20.18–22.60 |
+| L7 | 23.14–25.68 |
+| L8 | 27.07–29.28 |
+
+- **Final-mix English ASR:** matches the script apart from the expected spellings ("230", "280", "107 P", "52 P", "by",
+  "Wurbins"). This is an ASR check only; no human listening was done.
+- **MP4 sha256:** `701c071293fdff822bcb746d458a4d0ef7201159b47c8aef47066c60d1ea9c02`.
+- Earlier MP4s verified unchanged.
 
 ## 10. Progress / provenance log (this round)
 1. Repo/branch/account and earlier-jobs check; CLAUDE.md + 05-progress re-read.
@@ -160,5 +196,7 @@ To be filled in after the final render.
 7. Stills (6 passes).
 8. `node src/audio.mjs` → `node src/qa_dom.mjs 3` → `node src/render.mjs --thumb --stills 3.2 --out build/thumb`.
 9. `node src/render.mjs --video` → ffmpeg mux → `bash qa.sh` → `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs <mp4>`.
+10. The transition sheet showed near-empty frames before the CTA tile → earlier tile pop + earlier pull-back → full re-render
+    (render 2) → mux → full QA again.
 
 Next step: none for this batch (one episode only; no automation).

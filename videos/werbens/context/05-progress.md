@@ -63,5 +63,5 @@
   episode under context/27; context/28).
 - English-13 (batch 2026-11-13-english-13) delivered `production/30s/2026-11-13-english-13/werbens-30s-english13-01.mp4`
   + thumbnail (IKEA effect; Norton, Mochon & Ariely 2012; IKEA concept statement; dark-navy app.werbens.com theme; context/29).
-- English-14 (batch 2026-11-14-english-14) IN PROGRESS (final render running) `production/30s/2026-11-14-english-14/werbens-30s-english14-01.mp4`
+- English-14 (batch 2026-11-14-english-14) delivered `production/30s/2026-11-14-english-14/werbens-30s-english14-01.mp4`
   + thumbnail (unit pricing + unit effect; CMA mayo snapshot; Pandelaere et al. 2011; dark-navy app.werbens.com theme; context/30).
