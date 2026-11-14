@@ -69,3 +69,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   (30.000 s, dielectric heating vs conduction into the plate, pottery that heats itself, dish test; record, topic check, sources + QA in 25).
 - English-13 2026-11-13 batch (English; one authorised video after a hold; elevator apparent weight): `videos/recall/production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4`
   + `recall-30s-english13-01-thumbnail.png` (30.000 s; normal force vs mass; CTA from the verified listing; record, sources + QA in 26).
+- English-14 2026-11-14 batch (English; suggested ANC topic already F05 → open fridge warms the kitchen): `videos/recall/production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4`
+  + `recall-30s-english14-01-thumbnail.png` (30.000 s; heat pump, Q_h = Q_c + W, AC hot side outdoors; record, topic-change reason, sources + QA in 27).

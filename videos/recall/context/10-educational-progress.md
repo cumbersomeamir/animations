@@ -141,3 +141,7 @@ context 25; deliverable `videos/recall/production/30s/2026-11-09-english-11/reca
 Episode E13 "Why an elevator feels heavier as it starts rising" (English; the app was on hold; the user authorised this one
 video). New batch rules (marketing structure, thumbnail, captions x 100–900, verified CTA) in context 26; deliverable
 `videos/recall/production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4` + thumbnail.
+
+## Update 2026-11-14 batch — english-14
+Episode E14 "Why an open fridge makes the kitchen warmer" (English). The suggested noise-cancelling topic was already F05, so
+a distinct topic was chosen (reason in context 27); deliverable `videos/recall/production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4` + thumbnail.

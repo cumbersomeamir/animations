@@ -1,0 +1,39 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "lang": "en-us",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Leave the fridge open on a hot day, and the kitchen gets warmer."
+    },
+    {
+      "id": "l02",
+      "text": "So how can a cold box heat a room?"
+    },
+    {
+      "id": "l03",
+      "text": "A fridge doesn't make cold. It pumps heat."
+    },
+    {
+      "id": "l04",
+      "text": "Cold fluid in the inside coils evaporates, soaking up your food's heat."
+    },
+    {
+      "id": "l05",
+      "text": "A compressor squeezes it hotter than the room, and coils outside the box release that heat."
+    },
+    {
+      "id": "l06",
+      "text": "Door open, that heat just circles back, plus the motor's own."
+    },
+    {
+      "id": "l07",
+      "text": "That's why air conditioners dump their heat outdoors."
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons."
+    }
+  ]
+}

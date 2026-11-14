@@ -1,0 +1,442 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.2
+  },
+  {
+   "id": "l02",
+   "start": 4.1
+  },
+  {
+   "id": "l03",
+   "start": 6.3
+  },
+  {
+   "id": "l04",
+   "start": 9.15
+  },
+  {
+   "id": "l05",
+   "start": 13.8
+  },
+  {
+   "id": "l06",
+   "start": 19.15
+  },
+  {
+   "id": "l07",
+   "start": 23.0
+  },
+  {
+   "id": "l08",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_fridge",
+   "t0": 0,
+   "t1": 4.03
+  },
+  {
+   "id": "react",
+   "t0": 4.03,
+   "t1": 6.23
+  },
+  {
+   "id": "giant_pump",
+   "t0": 6.23,
+   "t1": 9.08
+  },
+  {
+   "id": "giant_inside",
+   "t0": 9.08,
+   "t1": 13.73
+  },
+  {
+   "id": "giant_back",
+   "t0": 13.73,
+   "t1": 19.08
+  },
+  {
+   "id": "giant_loop",
+   "t0": 19.08,
+   "t1": 22.93
+  },
+  {
+   "id": "giant_ac",
+   "t0": 22.93,
+   "t1": 26.35
+  },
+  {
+   "id": "cafe_wide",
+   "t0": 26.35,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "doorOpen": 0.25,
+  "mist": 0.5,
+  "thermo": 1.4,
+  "puzzle": 4.3,
+  "heatFlow": 6.6,
+  "evap": 9.4,
+  "squeeze": 14.0,
+  "release": 16.4,
+  "loopDoor": 19.0,
+  "loop": 19.6,
+  "motor": 21.2,
+  "acOn": 23.1,
+  "acOut": 24.1,
+  "cta": 26.35,
+  "smile": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.13,
+   "end": 2.35,
+   "lines": [
+    [
+     [
+      "Leave the fridge ",
+      0
+     ],
+     [
+      "open",
+      1
+     ]
+    ],
+    [
+     [
+      "on a hot day,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.35,
+   "end": 4.03,
+   "lines": [
+    [
+     [
+      "and the kitchen",
+      0
+     ]
+    ],
+    [
+     [
+      "gets ",
+      0
+     ],
+     [
+      "warmer.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.03,
+   "end": 6.23,
+   "lines": [
+    [
+     [
+      "So how can a ",
+      0
+     ],
+     [
+      "cold box",
+      1
+     ]
+    ],
+    [
+     [
+      "heat a room?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.23,
+   "end": 9.08,
+   "lines": [
+    [
+     [
+      "A fridge doesn't make cold.",
+      0
+     ]
+    ],
+    [
+     [
+      "It ",
+      0
+     ],
+     [
+      "pumps heat.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.08,
+   "end": 12.02,
+   "lines": [
+    [
+     [
+      "Cold fluid in the inside",
+      0
+     ]
+    ],
+    [
+     [
+      "coils ",
+      0
+     ],
+     [
+      "evaporates,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.02,
+   "end": 13.73,
+   "lines": [
+    [
+     [
+      "soaking up your",
+      0
+     ]
+    ],
+    [
+     [
+      "food's ",
+      0
+     ],
+     [
+      "heat.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 13.73,
+   "end": 16.33,
+   "lines": [
+    [
+     [
+      "A ",
+      0
+     ],
+     [
+      "compressor",
+      1
+     ],
+     [
+      " squeezes it",
+      0
+     ]
+    ],
+    [
+     [
+      "hotter than the room,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.33,
+   "end": 19.08,
+   "lines": [
+    [
+     [
+      "and coils outside the box",
+      0
+     ]
+    ],
+    [
+     [
+      "release",
+      1
+     ],
+     [
+      " that heat.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 19.08,
+   "end": 21.2,
+   "lines": [
+    [
+     [
+      "Door open, that heat",
+      0
+     ]
+    ],
+    [
+     [
+      "just ",
+      0
+     ],
+     [
+      "circles back,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 21.2,
+   "end": 22.93,
+   "lines": [
+    [
+     [
+      "plus the ",
+      0
+     ],
+     [
+      "motor's own.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.93,
+   "end": 26.35,
+   "lines": [
+    [
+     [
+      "That's why air conditioners",
+      0
+     ]
+    ],
+    [
+     [
+      "dump their heat ",
+      0
+     ],
+     [
+      "outdoors.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.35,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.03,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.03,
+   6.23,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   6.23,
+   13.73,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   13.73,
+   19.08,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   19.08,
+   22.93,
+   [
+    43,
+    46,
+    50,
+    53
+   ]
+  ],
+  [
+   22.93,
+   26.35,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.35,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

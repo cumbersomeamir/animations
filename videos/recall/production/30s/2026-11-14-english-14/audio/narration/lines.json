@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Leave the fridge open on a hot day, and the kitchen gets warmer.",
+      "file": "l01.wav",
+      "duration": 3.625,
+      "sr": 24000,
+      "words_per_s": 3.59
+    },
+    {
+      "id": "l02",
+      "text": "So how can a cold box heat a room?",
+      "file": "l02.wav",
+      "duration": 1.826,
+      "sr": 24000,
+      "words_per_s": 4.93
+    },
+    {
+      "id": "l03",
+      "text": "A fridge doesn't make cold. It pumps heat.",
+      "file": "l03.wav",
+      "duration": 2.456,
+      "sr": 24000,
+      "words_per_s": 3.26
+    },
+    {
+      "id": "l04",
+      "text": "Cold fluid in the inside coils evaporates, soaking up your food's heat.",
+      "file": "l04.wav",
+      "duration": 4.26,
+      "sr": 24000,
+      "words_per_s": 2.82
+    },
+    {
+      "id": "l05",
+      "text": "A compressor squeezes it hotter than the room, and coils outside the box release that heat.",
+      "file": "l05.wav",
+      "duration": 4.965,
+      "sr": 24000,
+      "words_per_s": 3.22
+    },
+    {
+      "id": "l06",
+      "text": "Door open, that heat just circles back, plus the motor's own.",
+      "file": "l06.wav",
+      "duration": 3.479,
+      "sr": 24000,
+      "words_per_s": 3.16
+    },
+    {
+      "id": "l07",
+      "text": "That's why air conditioners dump their heat outdoors.",
+      "file": "l07.wav",
+      "duration": 2.735,
+      "sr": 24000,
+      "words_per_s": 2.93
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}
