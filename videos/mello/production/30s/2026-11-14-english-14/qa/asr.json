@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Why can you untangle a friend's problem faster than your own? Researchers call it Solomon's paradox. Across three experiments, people reasoned more wisely about someone else's conflict than their own. But when they reflected from a distance, the gap disappeared. Self-talk using your own name also led to better speeches and less distress. So when you're stuck, ask yourself by name: Alex, what would you tell a friend? Take a mindful break with Mello.",
+  "transcript": "Why can you untangle a friend's problem faster than your own? Researchers call it Solomon's Paradox. Across three experiments, people reasoned more wisely about someone else's conflict than their own. But when they reflected from a distance, the gap disappeared. Self-talk using your own name also led to better speeches and less distress. So when you're stuck, ask yourself by name. Alex, what would you tell a friend? Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.3,
+      "end": 3.363,
+      "text": "Why can you untangle a friend's problem faster than your own?",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 3.75,
+      "end": 5.922,
+      "text": "Researchers call it Solomon's Paradox.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 6.3,
+      "end": 12.122,
+      "text": "Across three experiments, people reasoned more wisely about someone else's conflict than their own.",
+      "cer": 0.0
+    },
+    {
+      "id": "distance",
+      "start": 12.55,
+      "end": 15.693,
+      "text": "But when they reflected from a distance, the gap disappeared.",
+      "cer": 0.0
+    },
+    {
+      "id": "selftalk",
+      "start": 16.1,
+      "end": 20.753,
+      "text": "Self-talk using your own name also led to better speeches and less distress.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 21.0,
+      "end": 25.013,
+      "text": "So when you're stuck, ask yourself by name. Alex, what would you tell a friend?",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.8,
+      "end": 28.52,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

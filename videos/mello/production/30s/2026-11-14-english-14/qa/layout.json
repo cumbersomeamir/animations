@@ -1,0 +1,12281 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    369,
+    939,
+    660,
+    1230
+   ],
+   "desk": [
+    -426,
+    1621,
+    1770,
+    2202
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     151,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     675,
+     923,
+     881,
+     1006
+    ]
+   },
+   "head": [
+    369,
+    938,
+    660,
+    1229
+   ],
+   "desk": [
+    -428,
+    1622,
+    1770,
+    2202
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     151,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     675,
+     923,
+     881,
+     1006
+    ]
+   },
+   "head": [
+    369,
+    937,
+    660,
+    1228
+   ],
+   "desk": [
+    -431,
+    1623,
+    1771,
+    2203
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     151,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     675,
+     923,
+     882,
+     1006
+    ]
+   },
+   "head": [
+    369,
+    936,
+    661,
+    1227
+   ],
+   "desk": [
+    -433,
+    1624,
+    1772,
+    2204
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     150,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     675,
+     923,
+     882,
+     1006
+    ]
+   },
+   "head": [
+    369,
+    935,
+    661,
+    1227
+   ],
+   "desk": [
+    -436,
+    1625,
+    1772,
+    2205
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     150,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     676,
+     923,
+     883,
+     1006
+    ]
+   },
+   "head": [
+    370,
+    934,
+    662,
+    1226
+   ],
+   "desk": [
+    -439,
+    1626,
+    1773,
+    2206
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     149,
+     932,
+     403,
+     1016
+    ],
+    "yours": [
+     676,
+     923,
+     883,
+     1006
+    ]
+   },
+   "head": [
+    370,
+    934,
+    662,
+    1226
+   ],
+   "desk": [
+    -442,
+    1627,
+    1774,
+    2208
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     149,
+     932,
+     402,
+     1016
+    ],
+    "yours": [
+     676,
+     923,
+     884,
+     1006
+    ]
+   },
+   "head": [
+    370,
+    933,
+    663,
+    1226
+   ],
+   "desk": [
+    -446,
+    1628,
+    1775,
+    2209
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     148,
+     932,
+     402,
+     1016
+    ],
+    "yours": [
+     676,
+     923,
+     884,
+     1006
+    ]
+   },
+   "head": [
+    370,
+    933,
+    663,
+    1226
+   ],
+   "desk": [
+    -450,
+    1630,
+    1776,
+    2211
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     148,
+     932,
+     402,
+     1016
+    ],
+    "yours": [
+     677,
+     923,
+     885,
+     1006
+    ]
+   },
+   "head": [
+    370,
+    933,
+    664,
+    1226
+   ],
+   "desk": [
+    -455,
+    1631,
+    1777,
+    2212
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     147,
+     932,
+     402,
+     1016
+    ],
+    "yours": [
+     677,
+     923,
+     886,
+     1007
+    ]
+   },
+   "head": [
+    371,
+    933,
+    665,
+    1227
+   ],
+   "desk": [
+    -460,
+    1633,
+    1778,
+    2214
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     147,
+     932,
+     402,
+     1016
+    ],
+    "yours": [
+     678,
+     923,
+     887,
+     1007
+    ]
+   },
+   "head": [
+    371,
+    933,
+    665,
+    1227
+   ],
+   "desk": [
+    -465,
+    1635,
+    1779,
+    2216
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     146,
+     931,
+     401,
+     1016
+    ],
+    "yours": [
+     678,
+     923,
+     887,
+     1007
+    ]
+   },
+   "head": [
+    371,
+    933,
+    666,
+    1228
+   ],
+   "desk": [
+    -470,
+    1636,
+    1781,
+    2218
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     145,
+     931,
+     401,
+     1016
+    ],
+    "yours": [
+     678,
+     923,
+     888,
+     1007
+    ]
+   },
+   "head": [
+    371,
+    934,
+    667,
+    1230
+   ],
+   "desk": [
+    -476,
+    1638,
+    1782,
+    2221
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     144,
+     931,
+     401,
+     1016
+    ],
+    "yours": [
+     679,
+     923,
+     889,
+     1007
+    ]
+   },
+   "head": [
+    372,
+    935,
+    668,
+    1231
+   ],
+   "desk": [
+    -482,
+    1640,
+    1783,
+    2223
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     144,
+     931,
+     401,
+     1016
+    ],
+    "yours": [
+     679,
+     923,
+     890,
+     1008
+    ]
+   },
+   "head": [
+    372,
+    936,
+    669,
+    1232
+   ],
+   "desk": [
+    -489,
+    1643,
+    1785,
+    2225
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     143,
+     931,
+     400,
+     1016
+    ],
+    "yours": [
+     680,
+     923,
+     891,
+     1008
+    ]
+   },
+   "head": [
+    372,
+    937,
+    670,
+    1234
+   ],
+   "desk": [
+    -495,
+    1645,
+    1787,
+    2228
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     142,
+     931,
+     400,
+     1016
+    ],
+    "yours": [
+     680,
+     923,
+     892,
+     1008
+    ]
+   },
+   "head": [
+    373,
+    938,
+    670,
+    1235
+   ],
+   "desk": [
+    -502,
+    1647,
+    1788,
+    2230
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     141,
+     930,
+     400,
+     1016
+    ],
+    "yours": [
+     681,
+     923,
+     893,
+     1008
+    ]
+   },
+   "head": [
+    373,
+    939,
+    671,
+    1237
+   ],
+   "desk": [
+    -508,
+    1649,
+    1790,
+    2233
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     140,
+     930,
+     399,
+     1016
+    ],
+    "yours": [
+     681,
+     923,
+     894,
+     1008
+    ]
+   },
+   "head": [
+    373,
+    940,
+    672,
+    1239
+   ],
+   "desk": [
+    -515,
+    1652,
+    1791,
+    2235
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    143,
+    340,
+    857,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     139,
+     930,
+     399,
+     1016
+    ],
+    "yours": [
+     682,
+     923,
+     895,
+     1009
+    ]
+   },
+   "head": [
+    374,
+    941,
+    673,
+    1240
+   ],
+   "desk": [
+    -522,
+    1654,
+    1793,
+    2238
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     139,
+     930,
+     399,
+     1016
+    ],
+    "yours": [
+     682,
+     923,
+     896,
+     1009
+    ]
+   },
+   "head": [
+    373,
+    942,
+    673,
+    1242
+   ],
+   "desk": [
+    -528,
+    1656,
+    1794,
+    2240
+   ],
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    114,
+    382,
+    886,
+    478
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     138,
+     930,
+     399,
+     1016
+    ],
+    "yours": [
+     683,
+     923,
+     897,
+     1009
+    ]
+   },
+   "head": [
+    369,
+    943,
+    670,
+    1244
+   ],
+   "desk": [
+    -535,
+    1658,
+    1796,
+    2243
+   ],
+   "caption": [
+    102,
+    340,
+    898,
+    520
+   ],
+   "captionText": [
+    111,
+    381,
+    889,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     137,
+     930,
+     398,
+     1016
+    ],
+    "yours": [
+     683,
+     924,
+     898,
+     1009
+    ]
+   },
+   "head": [
+    364,
+    944,
+    666,
+    1245
+   ],
+   "desk": [
+    -541,
+    1661,
+    1797,
+    2245
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     136,
+     930,
+     398,
+     1017
+    ],
+    "yours": [
+     684,
+     924,
+     899,
+     1009
+    ]
+   },
+   "head": [
+    361,
+    944,
+    662,
+    1246
+   ],
+   "desk": [
+    -547,
+    1663,
+    1799,
+    2247
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     136,
+     929,
+     398,
+     1017
+    ],
+    "yours": [
+     684,
+     924,
+     900,
+     1010
+    ]
+   },
+   "head": [
+    360,
+    945,
+    662,
+    1247
+   ],
+   "desk": [
+    -552,
+    1665,
+    1800,
+    2249
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     135,
+     929,
+     398,
+     1017
+    ],
+    "yours": [
+     684,
+     924,
+     901,
+     1010
+    ]
+   },
+   "head": [
+    360,
+    945,
+    663,
+    1248
+   ],
+   "desk": [
+    -557,
+    1666,
+    1801,
+    2251
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     134,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     685,
+     924,
+     901,
+     1010
+    ]
+   },
+   "head": [
+    360,
+    945,
+    664,
+    1249
+   ],
+   "desk": [
+    -562,
+    1668,
+    1802,
+    2253
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     134,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     685,
+     924,
+     902,
+     1010
+    ]
+   },
+   "head": [
+    361,
+    945,
+    664,
+    1249
+   ],
+   "desk": [
+    -567,
+    1670,
+    1803,
+    2255
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     133,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     685,
+     924,
+     903,
+     1010
+    ]
+   },
+   "head": [
+    361,
+    945,
+    665,
+    1249
+   ],
+   "desk": [
+    -571,
+    1671,
+    1804,
+    2256
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     133,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     686,
+     924,
+     903,
+     1010
+    ]
+   },
+   "head": [
+    361,
+    944,
+    666,
+    1249
+   ],
+   "desk": [
+    -575,
+    1673,
+    1805,
+    2258
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     133,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     686,
+     924,
+     904,
+     1010
+    ]
+   },
+   "head": [
+    361,
+    944,
+    666,
+    1249
+   ],
+   "desk": [
+    -578,
+    1674,
+    1806,
+    2259
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     132,
+     929,
+     397,
+     1017
+    ],
+    "yours": [
+     686,
+     924,
+     904,
+     1011
+    ]
+   },
+   "head": [
+    361,
+    943,
+    667,
+    1248
+   ],
+   "desk": [
+    -581,
+    1675,
+    1806,
+    2260
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     133,
+     929,
+     395,
+     1016
+    ],
+    "yours": [
+     687,
+     924,
+     903,
+     1010
+    ]
+   },
+   "head": [
+    361,
+    942,
+    667,
+    1248
+   ],
+   "desk": [
+    -584,
+    1676,
+    1807,
+    2261
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     150,
+     935,
+     378,
+     1010
+    ],
+    "yours": [
+     702,
+     930,
+     889,
+     1005
+    ]
+   },
+   "head": [
+    361,
+    941,
+    667,
+    1247
+   ],
+   "desk": [
+    -587,
+    1677,
+    1808,
+    2262
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": [
+     164,
+     939,
+     364,
+     1006
+    ],
+    "yours": [
+     714,
+     934,
+     878,
+     1000
+    ]
+   },
+   "head": [
+    361,
+    940,
+    668,
+    1246
+   ],
+   "desk": [
+    -589,
+    1678,
+    1808,
+    2263
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 1
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -153,
+    1203,
+    79,
+    1435
+   ],
+   "desk": [
+    -987,
+    1762,
+    696,
+    2120
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    109,
+    381,
+    891,
+    479
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -154,
+    1202,
+    78,
+    1435
+   ],
+   "desk": [
+    -987,
+    1762,
+    696,
+    2121
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     173,
+     685,
+     907,
+     1232
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -154,
+    1202,
+    78,
+    1434
+   ],
+   "desk": [
+    -988,
+    1763,
+    697,
+    2122
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    177,
+    340,
+    823,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1232
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -154,
+    1201,
+    78,
+    1433
+   ],
+   "desk": [
+    -988,
+    1763,
+    697,
+    2122
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -155,
+    1201,
+    78,
+    1433
+   ],
+   "desk": [
+    -988,
+    1763,
+    698,
+    2123
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -155,
+    1200,
+    77,
+    1433
+   ],
+   "desk": [
+    -988,
+    1763,
+    698,
+    2123
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -155,
+    1200,
+    77,
+    1432
+   ],
+   "desk": [
+    -989,
+    1763,
+    699,
+    2124
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -156,
+    1200,
+    77,
+    1432
+   ],
+   "desk": [
+    -989,
+    1764,
+    699,
+    2125
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -156,
+    1200,
+    77,
+    1432
+   ],
+   "desk": [
+    -989,
+    1764,
+    700,
+    2126
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -157,
+    1200,
+    76,
+    1433
+   ],
+   "desk": [
+    -990,
+    1764,
+    700,
+    2126
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -157,
+    1200,
+    76,
+    1433
+   ],
+   "desk": [
+    -990,
+    1764,
+    701,
+    2127
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -157,
+    1200,
+    76,
+    1434
+   ],
+   "desk": [
+    -991,
+    1765,
+    701,
+    2128
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     172,
+     684,
+     908,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -158,
+    1201,
+    76,
+    1434
+   ],
+   "desk": [
+    -991,
+    1765,
+    702,
+    2129
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     684,
+     909,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -158,
+    1202,
+    75,
+    1435
+   ],
+   "desk": [
+    -991,
+    1765,
+    702,
+    2130
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     684,
+     909,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -158,
+    1202,
+    75,
+    1436
+   ],
+   "desk": [
+    -992,
+    1765,
+    703,
+    2131
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1233
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -159,
+    1203,
+    75,
+    1437
+   ],
+   "desk": [
+    -992,
+    1766,
+    704,
+    2132
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -159,
+    1204,
+    75,
+    1438
+   ],
+   "desk": [
+    -993,
+    1766,
+    704,
+    2133
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -160,
+    1206,
+    74,
+    1439
+   ],
+   "desk": [
+    -993,
+    1766,
+    705,
+    2134
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     171,
+     683,
+     909,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -160,
+    1207,
+    74,
+    1441
+   ],
+   "desk": [
+    -994,
+    1767,
+    706,
+    2135
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -160,
+    1208,
+    74,
+    1442
+   ],
+   "desk": [
+    -994,
+    1767,
+    707,
+    2136
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -161,
+    1209,
+    73,
+    1443
+   ],
+   "desk": [
+    -995,
+    1767,
+    708,
+    2137
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -161,
+    1210,
+    73,
+    1444
+   ],
+   "desk": [
+    -995,
+    1768,
+    708,
+    2138
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     683,
+     910,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -162,
+    1211,
+    73,
+    1446
+   ],
+   "desk": [
+    -996,
+    1768,
+    709,
+    2139
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     682,
+     910,
+     1234
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -162,
+    1212,
+    72,
+    1447
+   ],
+   "desk": [
+    -997,
+    1768,
+    710,
+    2141
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     170,
+     682,
+     910,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -163,
+    1213,
+    72,
+    1448
+   ],
+   "desk": [
+    -997,
+    1769,
+    711,
+    2142
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -163,
+    1213,
+    72,
+    1448
+   ],
+   "desk": [
+    -998,
+    1769,
+    712,
+    2143
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -164,
+    1214,
+    71,
+    1449
+   ],
+   "desk": [
+    -999,
+    1770,
+    713,
+    2145
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -165,
+    1214,
+    71,
+    1450
+   ],
+   "desk": [
+    -999,
+    1770,
+    714,
+    2146
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    112,
+    387,
+    888,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     682,
+     911,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -165,
+    1215,
+    70,
+    1450
+   ],
+   "desk": [
+    -1000,
+    1771,
+    715,
+    2148
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    108,
+    387,
+    892,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     169,
+     681,
+     911,
+     1235
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -166,
+    1215,
+    70,
+    1450
+   ],
+   "desk": [
+    -1001,
+    1771,
+    716,
+    2149
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -166,
+    1215,
+    70,
+    1451
+   ],
+   "desk": [
+    -1001,
+    1771,
+    717,
+    2151
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -167,
+    1215,
+    69,
+    1451
+   ],
+   "desk": [
+    -1002,
+    1772,
+    718,
+    2152
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -168,
+    1214,
+    69,
+    1451
+   ],
+   "desk": [
+    -1003,
+    1772,
+    720,
+    2154
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     168,
+     681,
+     912,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -168,
+    1214,
+    68,
+    1451
+   ],
+   "desk": [
+    -1004,
+    1773,
+    721,
+    2156
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     681,
+     913,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -169,
+    1214,
+    68,
+    1450
+   ],
+   "desk": [
+    -1004,
+    1773,
+    722,
+    2157
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     680,
+     913,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -170,
+    1213,
+    67,
+    1450
+   ],
+   "desk": [
+    -1005,
+    1774,
+    723,
+    2159
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     680,
+     913,
+     1237
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -170,
+    1213,
+    67,
+    1450
+   ],
+   "desk": [
+    -1006,
+    1774,
+    724,
+    2161
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     167,
+     680,
+     913,
+     1237
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -171,
+    1212,
+    66,
+    1450
+   ],
+   "desk": [
+    -1007,
+    1775,
+    725,
+    2162
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     680,
+     914,
+     1237
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -172,
+    1212,
+    66,
+    1449
+   ],
+   "desk": [
+    -1007,
+    1776,
+    727,
+    2164
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     680,
+     914,
+     1237
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -173,
+    1211,
+    65,
+    1449
+   ],
+   "desk": [
+    -1008,
+    1776,
+    728,
+    2166
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     679,
+     914,
+     1237
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -173,
+    1211,
+    65,
+    1449
+   ],
+   "desk": [
+    -1009,
+    1777,
+    729,
+    2168
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     166,
+     679,
+     914,
+     1238
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -174,
+    1211,
+    65,
+    1449
+   ],
+   "desk": [
+    -1010,
+    1777,
+    730,
+    2170
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -175,
+    1211,
+    64,
+    1449
+   ],
+   "desk": [
+    -1011,
+    1778,
+    732,
+    2171
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -175,
+    1211,
+    64,
+    1450
+   ],
+   "desk": [
+    -1011,
+    1778,
+    733,
+    2173
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    387,
+    893,
+    473
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     679,
+     915,
+     1238
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -176,
+    1211,
+    63,
+    1450
+   ],
+   "desk": [
+    -1012,
+    1779,
+    734,
+    2175
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     165,
+     678,
+     915,
+     1238
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -177,
+    1211,
+    63,
+    1451
+   ],
+   "desk": [
+    -1013,
+    1779,
+    735,
+    2177
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    109,
+    355,
+    891,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -177,
+    1212,
+    62,
+    1451
+   ],
+   "desk": [
+    -1014,
+    1780,
+    737,
+    2179
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -178,
+    1212,
+    62,
+    1452
+   ],
+   "desk": [
+    -1015,
+    1780,
+    738,
+    2181
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     164,
+     678,
+     916,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -179,
+    1213,
+    62,
+    1453
+   ],
+   "desk": [
+    -1016,
+    1781,
+    739,
+    2182
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     678,
+     917,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -179,
+    1214,
+    61,
+    1454
+   ],
+   "desk": [
+    -1016,
+    1782,
+    741,
+    2184
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -180,
+    1215,
+    61,
+    1456
+   ],
+   "desk": [
+    -1017,
+    1782,
+    742,
+    2186
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1239
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -180,
+    1216,
+    61,
+    1457
+   ],
+   "desk": [
+    -1018,
+    1783,
+    743,
+    2188
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     163,
+     677,
+     917,
+     1240
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -181,
+    1217,
+    60,
+    1458
+   ],
+   "desk": [
+    -1019,
+    1783,
+    744,
+    2190
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -181,
+    1219,
+    60,
+    1460
+   ],
+   "desk": [
+    -1019,
+    1784,
+    745,
+    2191
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -182,
+    1220,
+    59,
+    1461
+   ],
+   "desk": [
+    -1020,
+    1784,
+    747,
+    2193
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -182,
+    1221,
+    59,
+    1463
+   ],
+   "desk": [
+    -1021,
+    1785,
+    748,
+    2195
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     676,
+     918,
+     1240
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -183,
+    1222,
+    59,
+    1464
+   ],
+   "desk": [
+    -1022,
+    1785,
+    749,
+    2197
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -184,
+    1223,
+    58,
+    1465
+   ],
+   "desk": [
+    -1022,
+    1786,
+    750,
+    2198
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -184,
+    1225,
+    58,
+    1467
+   ],
+   "desk": [
+    -1023,
+    1786,
+    751,
+    2200
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -185,
+    1226,
+    58,
+    1468
+   ],
+   "desk": [
+    -1024,
+    1787,
+    752,
+    2202
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -185,
+    1226,
+    58,
+    1469
+   ],
+   "desk": [
+    -1025,
+    1787,
+    754,
+    2203
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     675,
+     919,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -185,
+    1227,
+    57,
+    1470
+   ],
+   "desk": [
+    -1025,
+    1788,
+    755,
+    2205
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1241
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -186,
+    1228,
+    57,
+    1471
+   ],
+   "desk": [
+    -1026,
+    1788,
+    756,
+    2206
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -186,
+    1228,
+    57,
+    1471
+   ],
+   "desk": [
+    -1027,
+    1789,
+    757,
+    2208
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -187,
+    1228,
+    57,
+    1472
+   ],
+   "desk": [
+    -1027,
+    1789,
+    758,
+    2209
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -187,
+    1229,
+    56,
+    1472
+   ],
+   "desk": [
+    -1028,
+    1789,
+    759,
+    2211
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     675,
+     921,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -188,
+    1229,
+    56,
+    1472
+   ],
+   "desk": [
+    -1028,
+    1790,
+    760,
+    2212
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     675,
+     921,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -188,
+    1228,
+    56,
+    1472
+   ],
+   "desk": [
+    -1029,
+    1790,
+    761,
+    2214
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -188,
+    1228,
+    56,
+    1472
+   ],
+   "desk": [
+    -1029,
+    1791,
+    761,
+    2215
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1242
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -189,
+    1228,
+    55,
+    1472
+   ],
+   "desk": [
+    -1030,
+    1791,
+    762,
+    2216
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -189,
+    1227,
+    55,
+    1472
+   ],
+   "desk": [
+    -1030,
+    1791,
+    763,
+    2217
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -190,
+    1227,
+    55,
+    1471
+   ],
+   "desk": [
+    -1031,
+    1792,
+    764,
+    2219
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -190,
+    1226,
+    55,
+    1471
+   ],
+   "desk": [
+    -1031,
+    1792,
+    765,
+    2220
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -190,
+    1225,
+    55,
+    1470
+   ],
+   "desk": [
+    -1032,
+    1792,
+    765,
+    2221
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -191,
+    1225,
+    55,
+    1470
+   ],
+   "desk": [
+    -1032,
+    1793,
+    766,
+    2222
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -191,
+    1224,
+    54,
+    1469
+   ],
+   "desk": [
+    -1033,
+    1793,
+    767,
+    2223
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    355,
+    894,
+    505
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     673,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -191,
+    1224,
+    54,
+    1469
+   ],
+   "desk": [
+    -1033,
+    1793,
+    767,
+    2224
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     673,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -191,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1034,
+    1793,
+    768,
+    2225
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    222,
+    380,
+    778,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     673,
+     922,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1034,
+    1794,
+    769,
+    2226
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1243
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1034,
+    1794,
+    769,
+    2227
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1035,
+    1794,
+    770,
+    2228
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1035,
+    1794,
+    770,
+    2228
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1223,
+    54,
+    1469
+   ],
+   "desk": [
+    -1035,
+    1795,
+    771,
+    2229
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -192,
+    1224,
+    54,
+    1470
+   ],
+   "desk": [
+    -1036,
+    1795,
+    771,
+    2230
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -193,
+    1224,
+    54,
+    1470
+   ],
+   "desk": [
+    -1036,
+    1795,
+    772,
+    2231
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -193,
+    1225,
+    54,
+    1471
+   ],
+   "desk": [
+    -1036,
+    1795,
+    772,
+    2231
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -193,
+    1226,
+    54,
+    1472
+   ],
+   "desk": [
+    -1036,
+    1795,
+    773,
+    2232
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    -193,
+    1227,
+    53,
+    1473
+   ],
+   "desk": [
+    -1037,
+    1796,
+    773,
+    2233
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     664,
+     883,
+     1255
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    1002,
+    1246,
+    1261,
+    1505
+   ],
+   "desk": [
+    274,
+    1528,
+    1626,
+    1830
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    220,
+    379,
+    780,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     664,
+     883,
+     1255
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    1002,
+    1247,
+    1261,
+    1506
+   ],
+   "desk": [
+    274,
+    1528,
+    1626,
+    1830
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     664,
+     883,
+     1255
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    1002,
+    1248,
+    1260,
+    1507
+   ],
+   "desk": [
+    274,
+    1528,
+    1626,
+    1830
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    121,
+    340,
+    879,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     89,
+     663,
+     883,
+     1254
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    1001,
+    1248,
+    1259,
+    1506
+   ],
+   "desk": [
+    274,
+    1526,
+    1624,
+    1828
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     91,
+     663,
+     880,
+     1250
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    997,
+    1245,
+    1254,
+    1502
+   ],
+   "desk": [
+    274,
+    1521,
+    1617,
+    1821
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     93,
+     661,
+     876,
+     1244
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    992,
+    1240,
+    1247,
+    1494
+   ],
+   "desk": [
+    273,
+    1513,
+    1607,
+    1811
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     96,
+     660,
+     871,
+     1236
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    985,
+    1232,
+    1237,
+    1484
+   ],
+   "desk": [
+    272,
+    1502,
+    1592,
+    1796
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     100,
+     658,
+     864,
+     1227
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    977,
+    1223,
+    1225,
+    1471
+   ],
+   "desk": [
+    271,
+    1488,
+    1575,
+    1779
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     656,
+     857,
+     1216
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    967,
+    1212,
+    1211,
+    1456
+   ],
+   "desk": [
+    270,
+    1473,
+    1555,
+    1760
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     653,
+     849,
+     1204
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    957,
+    1200,
+    1197,
+    1440
+   ],
+   "desk": [
+    268,
+    1457,
+    1534,
+    1739
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     651,
+     841,
+     1192
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    946,
+    1188,
+    1182,
+    1423
+   ],
+   "desk": [
+    267,
+    1439,
+    1512,
+    1717
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     118,
+     648,
+     833,
+     1180
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    935,
+    1175,
+    1166,
+    1406
+   ],
+   "desk": [
+    265,
+    1422,
+    1490,
+    1695
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     122,
+     646,
+     824,
+     1168
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    925,
+    1162,
+    1152,
+    1389
+   ],
+   "desk": [
+    263,
+    1404,
+    1468,
+    1674
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     126,
+     643,
+     817,
+     1156
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    915,
+    1150,
+    1137,
+    1373
+   ],
+   "desk": [
+    262,
+    1388,
+    1447,
+    1653
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     130,
+     641,
+     810,
+     1146
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    905,
+    1139,
+    1124,
+    1358
+   ],
+   "desk": [
+    260,
+    1372,
+    1428,
+    1635
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     134,
+     639,
+     803,
+     1136
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    897,
+    1128,
+    1112,
+    1344
+   ],
+   "desk": [
+    259,
+    1358,
+    1411,
+    1618
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": [
+     137,
+     637,
+     797,
+     1128
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    890,
+    1119,
+    1102,
+    1332
+   ],
+   "desk": [
+    258,
+    1346,
+    1396,
+    1603
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     139,
+     636,
+     793,
+     1121
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    884,
+    1111,
+    1093,
+    1321
+   ],
+   "desk": [
+    257,
+    1336,
+    1383,
+    1590
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     141,
+     635,
+     789,
+     1116
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    879,
+    1105,
+    1087,
+    1313
+   ],
+   "desk": [
+    256,
+    1328,
+    1373,
+    1581
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     143,
+     634,
+     786,
+     1112
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    875,
+    1100,
+    1081,
+    1306
+   ],
+   "desk": [
+    256,
+    1322,
+    1366,
+    1573
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     785,
+     1109
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    873,
+    1097,
+    1078,
+    1302
+   ],
+   "desk": [
+    255,
+    1318,
+    1362,
+    1569
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    119,
+    340,
+    881,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1095,
+    1077,
+    1300
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1094,
+    1077,
+    1299
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    115,
+    380,
+    885,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1093,
+    1077,
+    1299
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1093,
+    1077,
+    1298
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1092,
+    1077,
+    1298
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1092,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1091,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    871,
+    1091,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    871,
+    1091,
+    1077,
+    1296
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    871,
+    1091,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    871,
+    1091,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1092,
+    1077,
+    1297
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1092,
+    1077,
+    1298
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1093,
+    1077,
+    1298
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     144,
+     633,
+     784,
+     1108
+    ],
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    872,
+    1093,
+    1077,
+    1299
+   ],
+   "desk": [
+    255,
+    1317,
+    1360,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    111,
+    379,
+    889,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    262,
+    1069,
+    604,
+    1412
+   ],
+   "desk": [
+    -483,
+    1801,
+    2087,
+    2910
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    261,
+    1070,
+    604,
+    1413
+   ],
+   "desk": [
+    -483,
+    1802,
+    2087,
+    2911
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    240,
+    341,
+    760,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    261,
+    1072,
+    604,
+    1415
+   ],
+   "desk": [
+    -484,
+    1803,
+    2088,
+    2912
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     300,
+     619,
+     885,
+     846
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    261,
+    1073,
+    604,
+    1416
+   ],
+   "desk": [
+    -485,
+    1803,
+    2088,
+    2913
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     276,
+     611,
+     908,
+     856
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    260,
+    1074,
+    603,
+    1417
+   ],
+   "desk": [
+    -486,
+    1804,
+    2089,
+    2915
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     251,
+     603,
+     932,
+     866
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    260,
+    1074,
+    603,
+    1418
+   ],
+   "desk": [
+    -488,
+    1805,
+    2090,
+    2916
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     249,
+     602,
+     933,
+     867
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    259,
+    1075,
+    602,
+    1418
+   ],
+   "desk": [
+    -489,
+    1806,
+    2091,
+    2918
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     248,
+     602,
+     932,
+     867
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    258,
+    1075,
+    602,
+    1419
+   ],
+   "desk": [
+    -490,
+    1807,
+    2092,
+    2919
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     247,
+     602,
+     932,
+     867
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    257,
+    1075,
+    601,
+    1419
+   ],
+   "desk": [
+    -491,
+    1808,
+    2092,
+    2921
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     246,
+     602,
+     931,
+     867
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    257,
+    1075,
+    600,
+    1418
+   ],
+   "desk": [
+    -493,
+    1809,
+    2093,
+    2923
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     245,
+     601,
+     930,
+     866
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    255,
+    1074,
+    599,
+    1417
+   ],
+   "desk": [
+    -494,
+    1810,
+    2095,
+    2925
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     244,
+     600,
+     929,
+     865
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    254,
+    1073,
+    598,
+    1416
+   ],
+   "desk": [
+    -496,
+    1811,
+    2096,
+    2927
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     242,
+     598,
+     927,
+     864
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    253,
+    1071,
+    597,
+    1415
+   ],
+   "desk": [
+    -498,
+    1812,
+    2097,
+    2930
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     241,
+     597,
+     926,
+     862
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    252,
+    1070,
+    595,
+    1413
+   ],
+   "desk": [
+    -500,
+    1814,
+    2098,
+    2932
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     240,
+     594,
+     925,
+     860
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    250,
+    1068,
+    594,
+    1411
+   ],
+   "desk": [
+    -502,
+    1815,
+    2099,
+    2935
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     238,
+     592,
+     923,
+     857
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    249,
+    1065,
+    593,
+    1409
+   ],
+   "desk": [
+    -504,
+    1817,
+    2101,
+    2937
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     236,
+     589,
+     922,
+     855
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    247,
+    1063,
+    591,
+    1407
+   ],
+   "desk": [
+    -506,
+    1818,
+    2102,
+    2940
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     235,
+     587,
+     921,
+     852
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    246,
+    1060,
+    590,
+    1404
+   ],
+   "desk": [
+    -508,
+    1820,
+    2104,
+    2943
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     233,
+     584,
+     919,
+     849
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    244,
+    1058,
+    588,
+    1402
+   ],
+   "desk": [
+    -511,
+    1822,
+    2105,
+    2946
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    237,
+    340,
+    763,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     231,
+     581,
+     918,
+     846
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    243,
+    1055,
+    587,
+    1399
+   ],
+   "desk": [
+    -513,
+    1823,
+    2107,
+    2949
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     230,
+     578,
+     916,
+     843
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    1052,
+    585,
+    1396
+   ],
+   "desk": [
+    -516,
+    1825,
+    2109,
+    2952
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    110,
+    346,
+    890,
+    514
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     228,
+     575,
+     915,
+     840
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    240,
+    1049,
+    584,
+    1393
+   ],
+   "desk": [
+    -518,
+    1827,
+    2110,
+    2955
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    105,
+    346,
+    895,
+    514
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     227,
+     572,
+     914,
+     838
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    238,
+    1046,
+    583,
+    1391
+   ],
+   "desk": [
+    -521,
+    1829,
+    2112,
+    2959
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     225,
+     569,
+     912,
+     835
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    237,
+    1044,
+    581,
+    1388
+   ],
+   "desk": [
+    -523,
+    1831,
+    2114,
+    2962
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     223,
+     566,
+     911,
+     832
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    235,
+    1041,
+    580,
+    1386
+   ],
+   "desk": [
+    -526,
+    1833,
+    2115,
+    2965
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     222,
+     564,
+     910,
+     830
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    234,
+    1039,
+    579,
+    1384
+   ],
+   "desk": [
+    -528,
+    1835,
+    2117,
+    2969
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     221,
+     562,
+     909,
+     828
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    233,
+    1037,
+    578,
+    1382
+   ],
+   "desk": [
+    -531,
+    1837,
+    2119,
+    2972
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     219,
+     572,
+     907,
+     839
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    232,
+    1047,
+    576,
+    1392
+   ],
+   "desk": [
+    -533,
+    1838,
+    2120,
+    2975
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     218,
+     571,
+     907,
+     838
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    231,
+    1047,
+    575,
+    1392
+   ],
+   "desk": [
+    -536,
+    1840,
+    2122,
+    2978
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     217,
+     571,
+     906,
+     838
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    1047,
+    575,
+    1392
+   ],
+   "desk": [
+    -538,
+    1842,
+    2124,
+    2982
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     216,
+     573,
+     906,
+     840
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    229,
+    1049,
+    574,
+    1394
+   ],
+   "desk": [
+    -541,
+    1844,
+    2125,
+    2985
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     215,
+     575,
+     905,
+     842
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    228,
+    1051,
+    573,
+    1397
+   ],
+   "desk": [
+    -543,
+    1846,
+    2127,
+    2988
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     214,
+     578,
+     905,
+     845
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    227,
+    1054,
+    573,
+    1400
+   ],
+   "desk": [
+    -545,
+    1848,
+    2128,
+    2991
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     214,
+     581,
+     904,
+     849
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    227,
+    1058,
+    572,
+    1403
+   ],
+   "desk": [
+    -547,
+    1849,
+    2130,
+    2994
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     213,
+     584,
+     904,
+     852
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    226,
+    1061,
+    572,
+    1407
+   ],
+   "desk": [
+    -550,
+    1851,
+    2131,
+    2996
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     213,
+     586,
+     904,
+     854
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    226,
+    1063,
+    572,
+    1409
+   ],
+   "desk": [
+    -552,
+    1852,
+    2132,
+    2999
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     212,
+     587,
+     905,
+     855
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1064,
+    572,
+    1410
+   ],
+   "desk": [
+    -555,
+    1854,
+    2134,
+    3001
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     212,
+     586,
+     905,
+     855
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1064,
+    572,
+    1411
+   ],
+   "desk": [
+    -560,
+    1855,
+    2135,
+    3004
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     211,
+     585,
+     905,
+     854
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1063,
+    572,
+    1411
+   ],
+   "desk": [
+    -565,
+    1857,
+    2136,
+    3006
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     211,
+     584,
+     906,
+     853
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1063,
+    572,
+    1410
+   ],
+   "desk": [
+    -570,
+    1858,
+    2137,
+    3008
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     211,
+     584,
+     907,
+     853
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1063,
+    573,
+    1411
+   ],
+   "desk": [
+    -574,
+    1859,
+    2138,
+    3010
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     212,
+     584,
+     908,
+     853
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    225,
+    1063,
+    574,
+    1412
+   ],
+   "desk": [
+    -578,
+    1860,
+    2139,
+    3012
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     212,
+     584,
+     910,
+     854
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    226,
+    1065,
+    575,
+    1414
+   ],
+   "desk": [
+    -582,
+    1861,
+    2140,
+    3014
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     213,
+     585,
+     913,
+     855
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    227,
+    1066,
+    577,
+    1416
+   ],
+   "desk": [
+    -586,
+    1862,
+    2141,
+    3015
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     214,
+     585,
+     915,
+     857
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    228,
+    1068,
+    579,
+    1419
+   ],
+   "desk": [
+    -589,
+    1863,
+    2141,
+    3017
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     215,
+     586,
+     917,
+     858
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    229,
+    1070,
+    580,
+    1421
+   ],
+   "desk": [
+    -592,
+    1864,
+    2142,
+    3018
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     218,
+     588,
+     917,
+     859
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    229,
+    1071,
+    581,
+    1423
+   ],
+   "desk": [
+    -595,
+    1865,
+    2143,
+    3019
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     246,
+     600,
+     890,
+     849
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    1073,
+    582,
+    1425
+   ],
+   "desk": [
+    -598,
+    1865,
+    2143,
+    3021
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": [
+     268,
+     609,
+     868,
+     841
+    ],
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    1073,
+    582,
+    1426
+   ],
+   "desk": [
+    -600,
+    1866,
+    2144,
+    3022
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    345,
+    895,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    847,
+    566,
+    1184
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    849,
+    566,
+    1185
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    142,
+    341,
+    858,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    851,
+    567,
+    1188
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    138,
+    340,
+    862,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    232,
+    856,
+    569,
+    1193
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    233,
+    862,
+    572,
+    1200
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    235,
+    869,
+    575,
+    1209
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    237,
+    877,
+    578,
+    1218
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    239,
+    884,
+    581,
+    1226
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    240,
+    890,
+    583,
+    1233
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     181,
+     559,
+     819,
+     901
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    894,
+    584,
+    1238
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     165,
+     550,
+     835,
+     909
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    897,
+    585,
+    1240
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    898,
+    585,
+    1241
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    899,
+    585,
+    1242
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    899,
+    585,
+    1243
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    900,
+    585,
+    1243
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    900,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    901,
+    585,
+    1244
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    900,
+    585,
+    1243
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    900,
+    585,
+    1243
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    137,
+    340,
+    863,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    899,
+    585,
+    1242
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    898,
+    585,
+    1242
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    148,
+    341,
+    852,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    898,
+    585,
+    1241
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    897,
+    585,
+    1240
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    896,
+    585,
+    1239
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    895,
+    585,
+    1238
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    894,
+    585,
+    1237
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    893,
+    585,
+    1236
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    892,
+    585,
+    1236
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    891,
+    585,
+    1235
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    890,
+    585,
+    1234
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    889,
+    585,
+    1233
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    888,
+    585,
+    1232
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    888,
+    585,
+    1231
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    887,
+    585,
+    1231
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    887,
+    585,
+    1230
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    886,
+    585,
+    1230
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    886,
+    585,
+    1229
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    886,
+    585,
+    1229
+   ],
+   "desk": [
+    -643,
+    1619,
+    1926,
+    2617
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    241,
+    886,
+    584,
+    1229
+   ],
+   "desk": [
+    -641,
+    1618,
+    1924,
+    2615
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    145,
+    340,
+    855,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    240,
+    887,
+    582,
+    1229
+   ],
+   "desk": [
+    -633,
+    1616,
+    1918,
+    2610
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    240,
+    888,
+    580,
+    1228
+   ],
+   "desk": [
+    -620,
+    1612,
+    1908,
+    2600
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    238,
+    890,
+    576,
+    1228
+   ],
+   "desk": [
+    -603,
+    1607,
+    1894,
+    2588
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    237,
+    893,
+    572,
+    1228
+   ],
+   "desk": [
+    -583,
+    1601,
+    1878,
+    2572
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    236,
+    896,
+    567,
+    1228
+   ],
+   "desk": [
+    -559,
+    1594,
+    1859,
+    2555
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    234,
+    900,
+    561,
+    1227
+   ],
+   "desk": [
+    -533,
+    1586,
+    1839,
+    2535
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    232,
+    904,
+    555,
+    1227
+   ],
+   "desk": [
+    -505,
+    1577,
+    1817,
+    2515
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    230,
+    908,
+    549,
+    1227
+   ],
+   "desk": [
+    -476,
+    1569,
+    1794,
+    2493
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": [
+     159,
+     547,
+     841,
+     912
+    ],
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    228,
+    912,
+    542,
+    1227
+   ],
+   "desk": [
+    -457,
+    1560,
+    1771,
+    2472
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    226,
+    917,
+    536,
+    1227
+   ],
+   "desk": [
+    -446,
+    1552,
+    1748,
+    2451
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    223,
+    921,
+    529,
+    1227
+   ],
+   "desk": [
+    -435,
+    1543,
+    1727,
+    2430
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    221,
+    925,
+    523,
+    1227
+   ],
+   "desk": [
+    -425,
+    1535,
+    1706,
+    2411
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    219,
+    929,
+    517,
+    1227
+   ],
+   "desk": [
+    -416,
+    1528,
+    1686,
+    2393
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    217,
+    932,
+    512,
+    1227
+   ],
+   "desk": [
+    -407,
+    1522,
+    1669,
+    2377
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    215,
+    935,
+    507,
+    1227
+   ],
+   "desk": [
+    -399,
+    1516,
+    1653,
+    2362
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    214,
+    938,
+    502,
+    1227
+   ],
+   "desk": [
+    -392,
+    1511,
+    1639,
+    2350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    212,
+    940,
+    499,
+    1227
+   ],
+   "desk": [
+    -387,
+    1507,
+    1628,
+    2339
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    211,
+    942,
+    496,
+    1227
+   ],
+   "desk": [
+    -382,
+    1503,
+    1619,
+    2331
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    210,
+    944,
+    494,
+    1227
+   ],
+   "desk": [
+    -379,
+    1501,
+    1613,
+    2325
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    210,
+    945,
+    493,
+    1227
+   ],
+   "desk": [
+    -377,
+    1500,
+    1609,
+    2322
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    210,
+    945,
+    492,
+    1227
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2320
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    209,
+    945,
+    492,
+    1227
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    209,
+    945,
+    492,
+    1227
+   ],
+   "desk": [
+    -376,
+    1499,
+    1608,
+    2321
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    209,
+    945,
+    492,
+    1227
+   ],
+   "desk": [
+    -377,
+    1499,
+    1608,
+    2322
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    208,
+    945,
+    491,
+    1227
+   ],
+   "desk": [
+    -377,
+    1499,
+    1609,
+    2323
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    208,
+    944,
+    490,
+    1227
+   ],
+   "desk": [
+    -378,
+    1499,
+    1610,
+    2325
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    206,
+    944,
+    490,
+    1227
+   ],
+   "desk": [
+    -379,
+    1499,
+    1611,
+    2327
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    205,
+    944,
+    489,
+    1227
+   ],
+   "desk": [
+    -381,
+    1499,
+    1612,
+    2331
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    203,
+    943,
+    487,
+    1227
+   ],
+   "desk": [
+    -383,
+    1500,
+    1614,
+    2335
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    201,
+    943,
+    486,
+    1227
+   ],
+   "desk": [
+    -385,
+    1500,
+    1616,
+    2339
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    199,
+    942,
+    484,
+    1227
+   ],
+   "desk": [
+    -387,
+    1500,
+    1618,
+    2344
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    197,
+    942,
+    483,
+    1228
+   ],
+   "desk": [
+    -390,
+    1500,
+    1621,
+    2350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    195,
+    941,
+    481,
+    1228
+   ],
+   "desk": [
+    -393,
+    1500,
+    1623,
+    2356
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    192,
+    941,
+    479,
+    1228
+   ],
+   "desk": [
+    -395,
+    1501,
+    1626,
+    2362
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    190,
+    940,
+    477,
+    1228
+   ],
+   "desk": [
+    -398,
+    1501,
+    1628,
+    2368
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    187,
+    940,
+    476,
+    1228
+   ],
+   "desk": [
+    -401,
+    1501,
+    1631,
+    2374
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    185,
+    939,
+    474,
+    1228
+   ],
+   "desk": [
+    -403,
+    1501,
+    1633,
+    2379
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    183,
+    939,
+    472,
+    1228
+   ],
+   "desk": [
+    -406,
+    1501,
+    1635,
+    2385
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    181,
+    938,
+    471,
+    1228
+   ],
+   "desk": [
+    -408,
+    1502,
+    1637,
+    2389
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    179,
+    938,
+    470,
+    1228
+   ],
+   "desk": [
+    -410,
+    1502,
+    1639,
+    2393
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    178,
+    937,
+    469,
+    1228
+   ],
+   "desk": [
+    -411,
+    1502,
+    1640,
+    2397
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    177,
+    937,
+    468,
+    1228
+   ],
+   "desk": [
+    -413,
+    1502,
+    1642,
+    2400
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    176,
+    937,
+    467,
+    1228
+   ],
+   "desk": [
+    -413,
+    1502,
+    1642,
+    2402
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    176,
+    936,
+    467,
+    1228
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2403
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    175,
+    936,
+    467,
+    1228
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2404
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "bubble": null,
+    "note": null,
+    "a friend’s": null,
+    "yours": null
+   },
+   "head": [
+    175,
+    936,
+    467,
+    1228
+   ],
+   "desk": [
+    -414,
+    1502,
+    1643,
+    2404
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  }
+ ]
+}

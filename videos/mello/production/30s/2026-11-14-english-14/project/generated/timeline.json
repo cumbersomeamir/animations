@@ -1,0 +1,110 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Why can you untangle a friend's problem faster than your own?",
+      "start": 0.3,
+      "end": 3.363,
+      "pauses": []
+    },
+    {
+      "id": "name",
+      "text": "Researchers call it Solomon's paradox.",
+      "start": 3.75,
+      "end": 5.922,
+      "pauses": [
+        [
+          5.723,
+          5.794
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "Across three experiments, people reasoned more wisely about someone else's conflict than their own.",
+      "start": 6.3,
+      "end": 12.122,
+      "pauses": [
+        [
+          7.725,
+          8.06
+        ],
+        [
+          11.255,
+          11.339
+        ]
+      ]
+    },
+    {
+      "id": "distance",
+      "text": "But when they reflected from a distance, the gap disappeared.",
+      "start": 12.55,
+      "end": 15.693,
+      "pauses": [
+        [
+          13.326,
+          13.401
+        ],
+        [
+          14.294,
+          14.577
+        ],
+        [
+          14.907,
+          15.006
+        ]
+      ]
+    },
+    {
+      "id": "selftalk",
+      "text": "Self-talk using your own name also led to better speeches and less distress.",
+      "start": 16.1,
+      "end": 20.753,
+      "pauses": [
+        [
+          17.703,
+          17.991
+        ],
+        [
+          19.602,
+          19.724
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So when you're stuck, ask yourself by name: Alex, what would you tell a friend?",
+      "start": 21.0,
+      "end": 25.013,
+      "pauses": [
+        [
+          22.467,
+          22.539
+        ],
+        [
+          23.043,
+          23.466
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.8,
+      "end": 28.52,
+      "pauses": []
+    }
+  ]
+}
