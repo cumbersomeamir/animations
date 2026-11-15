@@ -1,0 +1,174 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.59,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.266,
+      "text": "That hole is on purpose.",
+      "words": 5,
+      "words_per_s": 4.11,
+      "voice_over_bed_db": 19.2
+    },
+    {
+      "id": "l02",
+      "start": 1.55,
+      "end": 3.738,
+      "text": "It decides which layer holds the cabin in.",
+      "words": 8,
+      "words_per_s": 3.66,
+      "voice_over_bed_db": 17.5
+    },
+    {
+      "id": "l03",
+      "start": 4.65,
+      "end": 8.341,
+      "text": "Up high, cabin air pushes out much harder than the thin air outside.",
+      "words": 13,
+      "words_per_s": 3.52,
+      "voice_over_bed_db": 17.3
+    },
+    {
+      "id": "l04",
+      "start": 8.75,
+      "end": 10.476,
+      "text": "The thick outer layer takes that push.",
+      "words": 7,
+      "words_per_s": 4.05,
+      "voice_over_bed_db": 18.8
+    },
+    {
+      "id": "l05",
+      "start": 10.9,
+      "end": 14.002,
+      "text": "The hole lets cabin air into the gap behind the middle layer.",
+      "words": 12,
+      "words_per_s": 3.87,
+      "voice_over_bed_db": 16.0
+    },
+    {
+      "id": "l06",
+      "start": 14.45,
+      "end": 19.335,
+      "text": "Equal pressure on both sides means that layer carries no load. It's the backup.",
+      "words": 14,
+      "words_per_s": 2.87,
+      "voice_over_bed_db": 15.7
+    },
+    {
+      "id": "l07",
+      "start": 20.6,
+      "end": 25.014,
+      "text": "See fog between the layers? That's moist cabin air that came in through the hole.",
+      "words": 15,
+      "words_per_s": 3.4,
+      "voice_over_bed_db": 16.0
+    },
+    {
+      "id": "l08",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 16.9
+    }
+  ],
+  "narration_words": 83,
+  "speech_s": 24.5,
+  "overall_words_per_s": 2.77,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "cabin ambience (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "the hole glints (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 1.75,
+      "beat": 3.5,
+      "sfx": "leans toward the window"
+    },
+    {
+      "t": 4.33,
+      "beat": 8.66,
+      "sfx": "cut to the window section (ends before l03)"
+    },
+    {
+      "t": 4.75,
+      "beat": 9.5,
+      "sfx": "climb: outside air thins"
+    },
+    {
+      "t": 8.9,
+      "beat": 17.8,
+      "sfx": "outer layer takes the load"
+    },
+    {
+      "t": 11.05,
+      "beat": 22.1,
+      "sfx": "air through the hole"
+    },
+    {
+      "t": 14.75,
+      "beat": 29.5,
+      "sfx": "balanced push"
+    },
+    {
+      "t": 18.68,
+      "beat": 37.36,
+      "sfx": "backup"
+    },
+    {
+      "t": 20.28,
+      "beat": 40.56,
+      "sfx": "cut back to the window (ends before l07)"
+    },
+    {
+      "t": 20.53,
+      "beat": 41.06,
+      "sfx": "cabin ambience"
+    },
+    {
+      "t": 20.8,
+      "beat": 41.6,
+      "sfx": "fog spreads"
+    },
+    {
+      "t": 22.98,
+      "beat": 45.96,
+      "sfx": "moist air drifts in"
+    },
+    {
+      "t": 25.1,
+      "beat": 50.2,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.555,
+  "voice_gain": 1.0
+}

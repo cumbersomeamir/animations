@@ -1,0 +1,425 @@
+{
+  "file": "production/30s/2026-11-15-english-17/recall-30s-english17-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2752277"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "192910"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 11079293,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.4,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.834176778793335,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "That hole is on purpose. It decides which layer holds the cabin in. Up high, cabin air pushes out much harder than the thin air outside. The thick outer layer takes that push. The hole lets cabin air into the gap, behind the middle layer. Equal pressure on both sides means that layer carries no load. It's the backup. See fog between the layers. That's moist cabin air that came in through the hole. Download recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "That",
+        "t": 0.0
+      },
+      {
+        "w": "hole",
+        "t": 0.14
+      },
+      {
+        "w": "is",
+        "t": 0.34
+      },
+      {
+        "w": "on",
+        "t": 0.52
+      },
+      {
+        "w": "purpose.",
+        "t": 0.62
+      },
+      {
+        "w": "It",
+        "t": 1.6
+      },
+      {
+        "w": "decides",
+        "t": 1.62
+      },
+      {
+        "w": "which",
+        "t": 1.9
+      },
+      {
+        "w": "layer",
+        "t": 2.28
+      },
+      {
+        "w": "holds",
+        "t": 2.56
+      },
+      {
+        "w": "the",
+        "t": 2.88
+      },
+      {
+        "w": "cabin",
+        "t": 3.08
+      },
+      {
+        "w": "in.",
+        "t": 3.32
+      },
+      {
+        "w": "Up",
+        "t": 4.54
+      },
+      {
+        "w": "high,",
+        "t": 4.74
+      },
+      {
+        "w": "cabin",
+        "t": 5.34
+      },
+      {
+        "w": "air",
+        "t": 5.64
+      },
+      {
+        "w": "pushes",
+        "t": 5.86
+      },
+      {
+        "w": "out",
+        "t": 6.16
+      },
+      {
+        "w": "much",
+        "t": 6.46
+      },
+      {
+        "w": "harder",
+        "t": 6.6
+      },
+      {
+        "w": "than",
+        "t": 6.88
+      },
+      {
+        "w": "the",
+        "t": 7.1
+      },
+      {
+        "w": "thin",
+        "t": 7.18
+      },
+      {
+        "w": "air",
+        "t": 7.38
+      },
+      {
+        "w": "outside.",
+        "t": 7.66
+      },
+      {
+        "w": "The",
+        "t": 8.7
+      },
+      {
+        "w": "thick",
+        "t": 8.82
+      },
+      {
+        "w": "outer",
+        "t": 8.96
+      },
+      {
+        "w": "layer",
+        "t": 9.12
+      },
+      {
+        "w": "takes",
+        "t": 9.44
+      },
+      {
+        "w": "that",
+        "t": 9.72
+      },
+      {
+        "w": "push.",
+        "t": 9.96
+      },
+      {
+        "w": "The",
+        "t": 10.84
+      },
+      {
+        "w": "hole",
+        "t": 10.96
+      },
+      {
+        "w": "lets",
+        "t": 11.16
+      },
+      {
+        "w": "cabin",
+        "t": 11.42
+      },
+      {
+        "w": "air",
+        "t": 11.68
+      },
+      {
+        "w": "into",
+        "t": 12.06
+      },
+      {
+        "w": "the",
+        "t": 12.24
+      },
+      {
+        "w": "gap,",
+        "t": 12.38
+      },
+      {
+        "w": "behind",
+        "t": 12.88
+      },
+      {
+        "w": "the",
+        "t": 13.14
+      },
+      {
+        "w": "middle",
+        "t": 13.32
+      },
+      {
+        "w": "layer.",
+        "t": 13.48
+      },
+      {
+        "w": "Equal",
+        "t": 14.64
+      },
+      {
+        "w": "pressure",
+        "t": 14.66
+      },
+      {
+        "w": "on",
+        "t": 14.9
+      },
+      {
+        "w": "both",
+        "t": 15.2
+      },
+      {
+        "w": "sides",
+        "t": 15.34
+      },
+      {
+        "w": "means",
+        "t": 15.76
+      },
+      {
+        "w": "that",
+        "t": 16.26
+      },
+      {
+        "w": "layer",
+        "t": 16.52
+      },
+      {
+        "w": "carries",
+        "t": 16.76
+      },
+      {
+        "w": "no",
+        "t": 17.22
+      },
+      {
+        "w": "load.",
+        "t": 17.46
+      },
+      {
+        "w": "It's",
+        "t": 18.54
+      },
+      {
+        "w": "the",
+        "t": 18.64
+      },
+      {
+        "w": "backup.",
+        "t": 18.74
+      },
+      {
+        "w": "See",
+        "t": 20.28
+      },
+      {
+        "w": "fog",
+        "t": 20.76
+      },
+      {
+        "w": "between",
+        "t": 21.02
+      },
+      {
+        "w": "the",
+        "t": 21.38
+      },
+      {
+        "w": "layers.",
+        "t": 21.6
+      },
+      {
+        "w": "That's",
+        "t": 22.58
+      },
+      {
+        "w": "moist",
+        "t": 22.78
+      },
+      {
+        "w": "cabin",
+        "t": 22.92
+      },
+      {
+        "w": "air",
+        "t": 23.32
+      },
+      {
+        "w": "that",
+        "t": 23.66
+      },
+      {
+        "w": "came",
+        "t": 23.88
+      },
+      {
+        "w": "in",
+        "t": 24.1
+      },
+      {
+        "w": "through",
+        "t": 24.24
+      },
+      {
+        "w": "the",
+        "t": 24.44
+      },
+      {
+        "w": "hole.",
+        "t": 24.58
+      },
+      {
+        "w": "Download",
+        "t": 25.84
+      },
+      {
+        "w": "Recall",
+        "t": 26.6
+      },
+      {
+        "w": "to",
+        "t": 27.08
+      },
+      {
+        "w": "turn",
+        "t": 27.7
+      },
+      {
+        "w": "your",
+        "t": 27.92
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.64
+      },
+      {
+        "w": "lessons.",
+        "t": 29.02
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 202.60787963867188,
+    "right": 877.3921203613281,
+    "top": 341.5,
+    "bottom": 572.38
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 1.534,
+    "min_frame_diff": 0.0278,
+    "longest_static_run_frames": 15,
+    "max_frame_diff": 105.35,
+    "max_diff_at_s": 1.5
+  },
+  "luma_min_mean_max": [
+    84.3,
+    130.0,
+    218.7
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

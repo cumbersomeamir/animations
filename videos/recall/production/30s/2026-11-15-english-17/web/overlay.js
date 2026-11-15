@@ -112,7 +112,7 @@ export function drawThumbnail(g, W, H, icon) {   // frame 0 (the window with its
   if (!icon) return;
   g.save(); g.scale(W / 1080, H / 1920);
   g.font = `700 36px ${BRAND_FONT}`;
-  const tw = g.measureText('Recall').width, w = 14 + 46 + 14 + tw + 26, x = 540 - w / 2, y = 1400;
+  const tw = g.measureText('Recall').width, w = 14 + 46 + 14 + tw + 26, x = 540 - w / 2, y = 1730;   // english-17: below the window, clear of the glowing hole
   rr(g, x + 4, y + 5, w, 64, 32); g.fillStyle = SHADE; g.fill();
   rr(g, x, y, w, 64, 32); g.fillStyle = PAPER; g.fill(); g.lineWidth = 3; g.strokeStyle = LIME; g.stroke();
   g.save(); rr(g, x + 12, y + 9, 46, 46, 11); g.clip(); g.drawImage(icon, x + 12, y + 9, 46, 46); g.restore();

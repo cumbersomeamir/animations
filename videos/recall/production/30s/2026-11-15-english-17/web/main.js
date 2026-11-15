@@ -137,7 +137,7 @@ function applyFrame(f, forceT) {
   if (id === 'giant_equal') pin('noLoad', W(-0.28, 2.9, 0), W(-0.28, 3.15, 0));
   if (id === 'giant_backup') pin('backup', W(-0.28, 2.9, 0), W(-0.4, 3.25, 0));
   if (id === 'payoff_fog') pin('fog', V(HOLE[0] + 0.005, HOLE[1] + 0.06, 0), V(HOLE[0], HOLE[1] + 0.11, -0.04));
-  if (id === 'payoff_moist') pin('moist', hole, V(HOLE[0], HOLE[1] - 0.03, -0.02));
+  if (id === 'payoff_moist') pin('moist', hole, V(HOLE[0], HOLE[1] + 0.022, -0.02));   // above the hole (below it, the camera push drove the label past y 1460)
   const safe = { shot: id };
   return { t, shot, P, safe };
 }

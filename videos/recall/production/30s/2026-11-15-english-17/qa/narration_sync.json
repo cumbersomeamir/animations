@@ -1,0 +1,82 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.05,
+  "measured_start": 0.05,
+  "error_ms": -0.1,
+  "corr": 0.86,
+  "end": 1.266,
+  "shot_at_start": "hook_window",
+  "shot_at_end": "hook_window"
+ },
+ {
+  "id": "l02",
+  "planned_start": 1.55,
+  "measured_start": 1.55,
+  "error_ms": 0.0,
+  "corr": 0.858,
+  "end": 3.738,
+  "shot_at_start": "react_point",
+  "shot_at_end": "react_point"
+ },
+ {
+  "id": "l03",
+  "planned_start": 4.65,
+  "measured_start": 4.65,
+  "error_ms": 0.0,
+  "corr": 0.837,
+  "end": 8.341,
+  "shot_at_start": "giant_climb",
+  "shot_at_end": "giant_climb"
+ },
+ {
+  "id": "l04",
+  "planned_start": 8.75,
+  "measured_start": 8.75,
+  "error_ms": 0.0,
+  "corr": 0.837,
+  "end": 10.476,
+  "shot_at_start": "giant_outer",
+  "shot_at_end": "giant_outer"
+ },
+ {
+  "id": "l05",
+  "planned_start": 10.9,
+  "measured_start": 10.9,
+  "error_ms": 0.0,
+  "corr": 0.836,
+  "end": 14.002,
+  "shot_at_start": "giant_hole",
+  "shot_at_end": "giant_hole"
+ },
+ {
+  "id": "l06",
+  "planned_start": 14.45,
+  "measured_start": 14.45,
+  "error_ms": 0.0,
+  "corr": 0.838,
+  "end": 19.335,
+  "shot_at_start": "giant_equal",
+  "shot_at_end": "giant_backup"
+ },
+ {
+  "id": "l07",
+  "planned_start": 20.6,
+  "measured_start": 20.6,
+  "error_ms": 0.0,
+  "corr": 0.833,
+  "end": 25.014,
+  "shot_at_start": "payoff_fog",
+  "shot_at_end": "payoff_moist"
+ },
+ {
+  "id": "l08",
+  "planned_start": 26.45,
+  "measured_start": 26.45,
+  "error_ms": 0.0,
+  "corr": 0.838,
+  "end": 29.733,
+  "shot_at_start": "cabin_cta",
+  "shot_at_end": "cabin_cta"
+ }
+]
