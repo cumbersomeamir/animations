@@ -47,5 +47,10 @@ Every take transcribed exactly by Whisper medium before use ("the web pulls", he
 | S8 | 22.41–25.92 | a three-rod tensegrity prism grows from the desk | TENSEGRITY |
 | S9 | 25.92–30 | Media Diet sign, robot resting on top | — |
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 a848fb2ec7ed20ddaa520a5c02cc3274f4f67a381a974bbb3fa3326693d98a30; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 340–516, x 195–885; labels x 193–888,
+y 1359–1456; 0 violations; caption↔speech 11/11; Whisper-medium per-line recall 1.0 on every line; single full pass 0.988 ("ducts" → "ducks";
+the per-line decode hears "ducts"). Thumbnail = frame 0 (SHA-256 c640420a…2a8b), mean abs diff vs encoded frame 0 = 1.6/255.
+Limits: date 11 Nov is just outside 72 h (disclosed); generic reconstruction (no CSU footage); "load spreads" is the general tensegrity
+principle, not a TeCoBot measurement; actuation not claimed; nobody has listened to or watched the final file yet.

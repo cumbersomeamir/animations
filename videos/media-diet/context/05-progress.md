@@ -324,3 +324,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 85 words / 26.2 s, every take heard exactly by Whisper. Stills checked (stands hidden, diagonal pipe for frame 0, prism and CTA
   robot clear of the caption band). Running: three render_chunks workers (0…240, 300…540, 600…840); next
   `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english17-01.png`, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-15 — english-17 / batch 17 delivered
+- production/30s/2026-11-15-english-17/media-diet-30s-english17-01.mp4 (SHA-256 a848fb2ec7ed20ddaa520a5c02cc3274f4f67a381a974bbb3fa3326693d98a30)
+  + thumbnail-english17-01.png (= frame 0); record context/32; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 340–516, x 195–885; labels y 1359–1456; 0 violations; caption↔speech 11/11; Whisper per-line 1.0, full pass 0.988 ("ducks").
+- Unresolved: not yet watched or listened to by a human; no review folder in this container; date 11 Nov just outside 72 h (disclosed).
+  Earlier outputs untouched.

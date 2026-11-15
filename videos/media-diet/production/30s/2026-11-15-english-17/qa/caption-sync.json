@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "No joints. / Just tension.",
+  "cue": [
+   0.0,
+   1.95
+  ],
+  "speech": [
+   0.07,
+   1.683
+  ],
+  "lead_s": 0.07,
+  "tail_s": 0.267,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Colorado State's new robots / link up by their claws.",
+  "cue": [
+   1.97,
+   5.35
+  ],
+  "speech": [
+   2.072,
+   5.083
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.267,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "So how does a body with / no joints hold its shape?",
+  "cue": [
+   5.37,
+   8.2
+  ],
+  "speech": [
+   5.474,
+   7.816
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.383,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Six stiff rods hang / in a stretchy web,",
+  "cue": [
+   8.22,
+   10.69
+  ],
+  "speech": [
+   8.326,
+   10.529
+  ],
+  "lead_s": 0.106,
+  "tail_s": 0.161,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "pushing out while it pulls in.",
+  "cue": [
+   10.71,
+   12.584
+  ],
+  "speech": [
+   10.887,
+   12.234
+  ],
+  "lead_s": 0.177,
+  "tail_s": 0.35,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Squash it, and the load spreads,",
+  "cue": [
+   12.77,
+   14.615
+  ],
+  "speech": [
+   12.874,
+   14.483
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.132,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "so it bends instead of breaking.",
+  "cue": [
+   14.635,
+   16.6
+  ],
+  "speech": [
+   14.785,
+   16.318
+  ],
+  "lead_s": 0.15,
+  "tail_s": 0.282,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Linked up, they loop / around pipes and climb ducts.",
+  "cue": [
+   16.62,
+   19.4
+  ],
+  "speech": [
+   16.721,
+   19.148
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.252,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "The catch: for now, / a human still pilots them.",
+  "cue": [
+   19.42,
+   22.4
+  ],
+  "speech": [
+   19.527,
+   22.138
+  ],
+  "lead_s": 0.107,
+  "tail_s": 0.262,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "That's tensegrity: / strength from pull, not from joints.",
+  "cue": [
+   22.42,
+   25.914
+  ],
+  "speech": [
+   22.52,
+   25.571
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.343,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.153,
+   29.177
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]
