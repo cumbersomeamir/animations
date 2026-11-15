@@ -4,6 +4,65 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-15 (english-15): can your employer keep your original certificates? (one Madras HC case)
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at d62f13a. No job was running: english-14
+  was delivered.
+- The proposed topic is new (no overlap with 01–14). Record:
+  `context/episodes/2026-11-15-english15-employer-certificates.md`.
+- The new "FIRST FRAME IS CRITICAL" directive is persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-15-english-15/notes/LEGAL-SOURCES.md`)
+- **Madras HC, *A. John Paul v. State* (Crl.OP 9920/2012, 10.07.2012):**
+  - a school kept teachers' originals after they resigned, citing a "repay three months' salary" clause
+  - certificates are "only entrusted" and "cannot be retained like a ransom"
+  - the management may sue for money owed
+  - police were directed to register a s.406 IPC case
+- **Delhi HC, *Tomar v. UoI* (2018):** degrees cannot be held "by way of ransom" absent a bond clause. Supporting, not
+  narrated.
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - the degree locked in an office glass drawer (HR plate, padlock, lit well, glass sheen) on a desk
+  - "YOUR DEGREE. THEIR LOCK?"
+  - `renderThumb` = `render(0)` + chip
+  - voice onset 0.08 s
+- **Beats:**
+  - glass sheen + padlock rattle
+  - resignation letter + "PAY UP FIRST" tag
+  - degree handed to the HR tray (CUSTODY / WITH CONSENT)
+  - MADRAS HIGH COURT · 2012 stamp
+  - tag torn off: "NOT A RANSOM"
+  - ₹ coin → courthouse: "SUE FOR IT"
+  - police shield + case file "REGISTERED" / "BREACH OF TRUST"
+  - three evidence steps
+  - CTA
+- Mix gain is 6.3 dB (−16.4 LUFS measured at 5.9 dB on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-15-english-15/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st15 <times>
+node render.cjs thumb .. courtlens-30s-english15-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build15 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english15-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english15-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The drawer read like a screen, so a desk surface and an "HR" plate were added to make it an office drawer.
+- The custody scene was small and its tick collided with "WITH CONSENT", so the scene was enlarged and the tick moved.
+- The falling ransom tag crossed "NOT A RANSOM", so the label moved above the cabinet.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build15/frames`.
+
 ## Round 2026-11-14 (english-14): can the electricity company cut your power over a bill you dispute? (India)
 
 ### Status

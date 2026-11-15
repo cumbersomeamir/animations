@@ -60,3 +60,11 @@ narrator voice and the "Is this legal in India?" identity stay as in `08-series-
 - Report limitations honestly. Never claim a watched or listened check that was not performed. In this cloud session,
   "listening" is an ASR proxy and must be described as such.
 - This app channel is educational and separate from any unrelated Discover short-film request.
+
+## Addendum 2026-11-15: first frame is critical [USER DIRECTIVE, batch english-15]
+- No logo intro, fade from black or empty setup. **Frame zero** must be a beautifully composed, surprising subject that
+  is readable on a phone, plus at most **2–5 truthful curiosity words**.
+- The first image should work as the thumbnail. Implementation: `renderThumb` = `render(t = 0)` + series chip.
+- Click-worthy never means misleading.
+- Hook audio starts immediately (narration at ≤ 0.1 s). Promise a specific useful answer and deliver it.
+- Keep the app's approved aesthetic.

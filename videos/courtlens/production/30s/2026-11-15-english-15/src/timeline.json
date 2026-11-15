@@ -1,0 +1,168 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 1.75
+  },
+  {
+   "id": "l3",
+   "start": 4.6
+  },
+  {
+   "id": "l4",
+   "start": 8.95
+  },
+  {
+   "id": "l5",
+   "start": 14.55
+  },
+  {
+   "id": "l6",
+   "start": 21.2
+  },
+  {
+   "id": "l7",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.7,
+   "text": "YOUR DEGREE. THEIR LOCK?",
+   "hl": [
+    "THEIR",
+    "LOCK?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 1.7,
+   "end": 4.45,
+   "text": "You resign. They say: pay up, or it stays.",
+   "hl": [
+    "pay",
+    "up,"
+   ]
+  },
+  {
+   "start": 4.45,
+   "end": 6.72,
+   "text": "Handing originals over when you join?",
+   "hl": [
+    "originals"
+   ]
+  },
+  {
+   "start": 6.72,
+   "end": 8.85,
+   "text": "That's custody, with your consent.",
+   "hl": [
+    "custody,",
+    "consent."
+   ]
+  },
+  {
+   "start": 8.85,
+   "end": 11.5,
+   "text": "But in 2012, the Madras High Court",
+   "hl": [
+    "Madras",
+    "High",
+    "Court"
+   ]
+  },
+  {
+   "start": 11.5,
+   "end": 14.45,
+   "text": "said an employer can't hold them like a ransom.",
+   "hl": [
+    "like",
+    "a",
+    "ransom."
+   ]
+  },
+  {
+   "start": 14.45,
+   "end": 17.15,
+   "text": "Money owed? The employer can sue.",
+   "hl": [
+    "can",
+    "sue."
+   ]
+  },
+  {
+   "start": 17.15,
+   "end": 21.05,
+   "text": "The court told police to register a breach of trust case.",
+   "hl": [
+    "breach",
+    "of",
+    "trust"
+   ]
+  },
+  {
+   "start": 21.05,
+   "end": 22.78,
+   "text": "So get a signed receipt,",
+   "hl": [
+    "signed",
+    "receipt,"
+   ]
+  },
+  {
+   "start": 22.78,
+   "end": 26.75,
+   "text": "ask for them back in writing, and keep every reply.",
+   "hl": [
+    "in",
+    "writing,"
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "sweep": 0.15,
+  "rattle": 0.98,
+  "v2c": 1.7,
+  "letter": 1.95,
+  "tag": 3.05,
+  "v3": 4.45,
+  "pass": 4.65,
+  "custody": 7.2,
+  "consent": 8.05,
+  "v4": 8.85,
+  "stamp": 9.25,
+  "sub": 10.45,
+  "v4b": 11.5,
+  "tear": 13.6,
+  "v5": 14.45,
+  "coin": 14.6,
+  "sue": 16.5,
+  "v5b": 17.15,
+  "police": 17.8,
+  "file": 18.5,
+  "trust": 19.3,
+  "v6": 21.05,
+  "s1": 21.95,
+  "s2": 23.3,
+  "s3": 24.55,
+  "v8": 26.75
+ }
+}
