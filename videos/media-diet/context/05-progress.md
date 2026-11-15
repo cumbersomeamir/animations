@@ -283,3 +283,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Lesson kept for future builds: captions are centred at x 540 → caption lines auto-fit to ≤ 700 px (english-14 film.js); copy this head forward.
 - Superseded first encode (caption x 913) kept only in the session scratchpad, not committed.
 - Unresolved: not yet watched or listened to by a human; no review folder exists in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-15 — english-15 (topic + sources recorded; rendering)
+- Reread CLAUDE.md + this file; start state 6df6aac = remote, no jobs. Topic (8–15 Nov 2026): SpaceX Starship Flight 15 — Ship 42 caught by
+  the Starbase tower on 14 Nov 2026 (first upper-stage catch). Official SpaceX X post + webcast; corroboration Ars (×2), Verge, Engadget, IE.
+  Record context/30; sources + rocket-equation estimate: production/30s/2026-11-15-english-15/SOURCES.md; log row in context/11.
+- NEW first-frame rule applied: frame 0 = the caught ship + "How do you / catch this?" (V1 caption shown at full size from frame 0 via a
+  `hook` flag in timeline → cues.py → captions()); voice from 0.05 s; thumbnail = frame 0.
+- Narration 87 words / 26.6 s, every take heard exactly by Whisper. Running: three render_chunks workers; next build.sh, thumb, QA, commit.

@@ -1,0 +1,195 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "How do you catch this?",
+   "cues": [
+    [
+     "How do you",
+     "catch this?"
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.4,
+   "say": "On November 14th, SpaceX's tower caught a Starship back from orbit.",
+   "cues": [
+    [
+     "On November 14th, SpaceX's",
+     "tower caught a Starship"
+    ],
+    [
+     "back from orbit."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.1,
+   "say": "Braking on engines alone would need about seven kilos of fuel per kilo of ship.",
+   "cues": [
+    [
+     "Braking on engines alone",
+     "would need about seven kilos"
+    ],
+    [
+     "of fuel per kilo of ship."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 11.45,
+   "say": "So the air does the braking: it falls on its belly, heat shield forward.",
+   "cues": [
+    [
+     "So the air does the braking:"
+    ],
+    [
+     "it falls on its belly,",
+     "heat shield forward."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 15.85,
+   "say": "Then it flips upright and lights its engines.",
+   "cues": [
+    [
+     "Then it flips upright",
+     "and lights its engines."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 18.35,
+   "say": "The arms close on two pins that stick out about a foot.",
+   "cues": [
+    [
+     "The arms close on two pins",
+     "that stick out about a foot."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 21.45,
+   "say": "So coming home is a heat problem: the shield must survive every trip.",
+   "cues": [
+    [
+     "So coming home is a heat problem:"
+    ],
+    [
+     "the shield must survive",
+     "every trip."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.31,
+   "beat": "first frame / hook: the caught ship held in the tower arms at dusk + the question"
+  },
+  {
+   "id": "S2",
+   "in": 1.31,
+   "out": 6.01,
+   "beat": "escalation: the ship circles a paper Earth, then heads home"
+  },
+  {
+   "id": "S3",
+   "in": 6.01,
+   "out": 11.36,
+   "beat": "first principles: braking on engines alone would need ~7 kg of propellant per kg of ship (rocket-equation estimate)"
+  },
+  {
+   "id": "S4",
+   "in": 11.36,
+   "out": 15.76,
+   "beat": "mechanism: belly-first fall, heat shield forward, the air brakes it"
+  },
+  {
+   "id": "S5",
+   "in": 15.76,
+   "out": 18.26,
+   "beat": "mechanism: flip upright, engines light"
+  },
+  {
+   "id": "S6",
+   "in": 18.26,
+   "out": 21.36,
+   "beat": "the catch: arms close on two pins about a foot long"
+  },
+  {
+   "id": "S7",
+   "in": 21.36,
+   "out": 26.0,
+   "beat": "constraint/payoff: heat shield tiles glow \u2014 a heat problem, not a fuel problem"
+  },
+  {
+   "id": "S8",
+   "in": 26.0,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "orbit": 1.4,
+  "home": 5.0,
+  "shipCube": 6.25,
+  "fuel": 7.75,
+  "labFuel": 9.84,
+  "air": 11.85,
+  "labAir": 12.43,
+  "belly": 13.6,
+  "flip": 16.13,
+  "labFlip": 16.13,
+  "engines": 17.07,
+  "arms": 18.61,
+  "pins": 19.57,
+  "labPins": 19.6,
+  "heat": 22.57,
+  "labHeat": 22.6,
+  "cool": 24.3,
+  "sign": 26.3
+ }
+}

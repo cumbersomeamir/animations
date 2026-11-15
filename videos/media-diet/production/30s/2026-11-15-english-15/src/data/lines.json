@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "How do you catch this?",
+  "duration": 1.057,
+  "words": 5
+ },
+ {
+  "id": "V2",
+  "say": "On November 14th, SpaceX's tower caught a Starship back from orbit.",
+  "duration": 4.383,
+  "words": 11
+ },
+ {
+  "id": "V3",
+  "say": "Braking on engines alone would need about seven kilos of fuel per kilo of ship.",
+  "duration": 5.023,
+  "words": 15
+ },
+ {
+  "id": "V4",
+  "say": "So the air does the braking: it falls on its belly, heat shield forward.",
+  "duration": 4.064,
+  "words": 14
+ },
+ {
+  "id": "V5",
+  "say": "Then it flips upright and lights its engines.",
+  "duration": 2.167,
+  "words": 8
+ },
+ {
+  "id": "V6",
+  "say": "The arms close on two pins that stick out about a foot.",
+  "duration": 2.784,
+  "words": 12
+ },
+ {
+  "id": "V7",
+  "say": "So coming home is a heat problem: the shield must survive every trip.",
+  "duration": 3.997,
+  "words": 13
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]
