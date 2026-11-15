@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.05, "text": "In ten days, cholera killed over 500 people near one London pump.", "tts": "In ten days, cholera killed over 500 people near one London pump."},
+    {"id": "S2", "start": 4.85, "text": "Many doctors blamed bad air. How did John Snow find the cause?", "tts": "Many doctors blamed bad air. How did John Snow find the cause?"},
+    {"id": "S3", "start": 9.25, "text": "He traced where the dead had lived: nearly all near the Broad Street pump.", "tts": "He traced where the dead had lived: nearly all near the Broad Street pump."},
+    {"id": "S4", "start": 13.50, "text": "Brewery workers drinking beer escaped; a workhouse with its own well barely suffered.", "tts": "Brewery workers drinking beer escaped; a workhouse with its own well barely suffered."},
+    {"id": "S5", "start": 18.85, "text": "The handle came off, but attacks were already falling.", "tts": "The handle came off, but attacks were already falling."},
+    {"id": "S6", "start": 22.20, "text": "Lesson: map who got sick, then ask who was spared.", "tts": "Lesson: map who got sick, then ask who was spared."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

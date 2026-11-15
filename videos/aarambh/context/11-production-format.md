@@ -338,3 +338,11 @@ Changes to the recipe above:
 - **Licences:** CC BY-SA portraits (Science History Institute) need the photographer and institution credited in the publishing caption; CC0 museum objects (Industriemuseum Gent) make good real "object" pages.
 
 - 19 (2026-11-15, english-17): Stephanie Kwolek and Kevlar, "A THREAD THAT SAVED LIVES": a thin, cloudy liquid spun into fibre in 1965; rod-like chains lie side by side like dry spaghetti and share the load; by weight five times stronger than steel; strong isn't bulletproof, so ask which threats a vest is rated for (SHI; NIHF; Lemelson-MIT; U.S. Patent 3,671,542; NIJ). Record: `31-production-30s-english17-01.md`
+
+## English-18 notes, 2026-11-15
+- **Myth-check stories:** when a famous story has an oversimplified version (here, "removing the handle ended the outbreak"), use the subject's own data and caveat on screen (Snow's Table 1 and "attacks had so far diminished before the use of the water was stopped"). Don't add a disclaimer card.
+- **A real map as a stage:** keep the print unrotated so map points (pump, brewery, workhouse) map exactly to screen positions. Check rings at full resolution. A 'screen'-composited gold glow tints the printed death bars near the pump without altering the scan.
+- **Wikimedia downloads:** original-size files now return 429 for scripts; request the standard thumbnail sizes (1280 px, 3840 px) instead.
+- **Wellcome Collection scans on the Internet Archive** give clean title pages and full text for exact quotes (`/download/<id>/<id>_djvu.txt`).
+
+- 20 (2026-11-15, english-18): John Snow and the 1854 Broad Street outbreak, "ONE HANDLE. MANY LIVES.": over 500 died in ten days near one pump; many doctors blamed bad air; nearly all the dead lived near the Broad Street pump; brewery workers drinking beer escaped and the workhouse with its own well barely suffered; the handle came off on 8 Sept, but attacks were already falling (his Table 1); lesson: map who got sick, then ask who was spared (Snow 1855; HistData; London Museum). Record: `32-production-30s-english18-01.md`

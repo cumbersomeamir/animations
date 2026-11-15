@@ -1,0 +1,386 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "In",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "10",
+   "start": 0.32,
+   "end": 0.54
+  },
+  {
+   "w": "days,",
+   "start": 0.54,
+   "end": 1.26
+  },
+  {
+   "w": "cholera",
+   "start": 1.46,
+   "end": 1.7
+  },
+  {
+   "w": "killed",
+   "start": 1.7,
+   "end": 2.0
+  },
+  {
+   "w": "over",
+   "start": 2.0,
+   "end": 2.28
+  },
+  {
+   "w": "500",
+   "start": 2.28,
+   "end": 2.76
+  },
+  {
+   "w": "people",
+   "start": 2.76,
+   "end": 3.22
+  },
+  {
+   "w": "near",
+   "start": 3.22,
+   "end": 3.52
+  },
+  {
+   "w": "one",
+   "start": 3.52,
+   "end": 3.8
+  },
+  {
+   "w": "London",
+   "start": 3.8,
+   "end": 4.1
+  },
+  {
+   "w": "pump.",
+   "start": 4.1,
+   "end": 4.54
+  },
+  {
+   "w": "Many",
+   "start": 4.94,
+   "end": 5.16
+  },
+  {
+   "w": "doctors",
+   "start": 5.16,
+   "end": 5.6
+  },
+  {
+   "w": "blamed",
+   "start": 5.6,
+   "end": 6.02
+  },
+  {
+   "w": "bad",
+   "start": 6.02,
+   "end": 6.38
+  },
+  {
+   "w": "air.",
+   "start": 6.38,
+   "end": 6.72
+  },
+  {
+   "w": "How",
+   "start": 7.0,
+   "end": 7.14
+  },
+  {
+   "w": "did",
+   "start": 7.14,
+   "end": 7.3
+  },
+  {
+   "w": "John",
+   "start": 7.3,
+   "end": 7.6
+  },
+  {
+   "w": "Snow",
+   "start": 7.6,
+   "end": 7.98
+  },
+  {
+   "w": "find",
+   "start": 7.98,
+   "end": 8.2
+  },
+  {
+   "w": "the",
+   "start": 8.2,
+   "end": 8.44
+  },
+  {
+   "w": "cause?",
+   "start": 8.44,
+   "end": 8.78
+  },
+  {
+   "w": "He",
+   "start": 9.26,
+   "end": 9.5
+  },
+  {
+   "w": "traced",
+   "start": 9.5,
+   "end": 9.78
+  },
+  {
+   "w": "where",
+   "start": 9.78,
+   "end": 9.96
+  },
+  {
+   "w": "the",
+   "start": 9.96,
+   "end": 10.12
+  },
+  {
+   "w": "dead",
+   "start": 10.12,
+   "end": 10.26
+  },
+  {
+   "w": "had",
+   "start": 10.26,
+   "end": 10.52
+  },
+  {
+   "w": "lived,",
+   "start": 10.52,
+   "end": 10.9
+  },
+  {
+   "w": "nearly",
+   "start": 11.22,
+   "end": 11.56
+  },
+  {
+   "w": "all",
+   "start": 11.56,
+   "end": 11.82
+  },
+  {
+   "w": "near",
+   "start": 11.82,
+   "end": 11.96
+  },
+  {
+   "w": "the",
+   "start": 11.96,
+   "end": 12.18
+  },
+  {
+   "w": "broad",
+   "start": 12.18,
+   "end": 12.44
+  },
+  {
+   "w": "street",
+   "start": 12.44,
+   "end": 12.78
+  },
+  {
+   "w": "pump.",
+   "start": 12.78,
+   "end": 13.18
+  },
+  {
+   "w": "Brewery",
+   "start": 13.9,
+   "end": 13.9
+  },
+  {
+   "w": "workers",
+   "start": 13.9,
+   "end": 14.32
+  },
+  {
+   "w": "drinking",
+   "start": 14.32,
+   "end": 14.82
+  },
+  {
+   "w": "beer",
+   "start": 14.82,
+   "end": 15.1
+  },
+  {
+   "w": "escaped.",
+   "start": 15.1,
+   "end": 15.62
+  },
+  {
+   "w": "A",
+   "start": 16.12,
+   "end": 16.32
+  },
+  {
+   "w": "workhouse",
+   "start": 16.32,
+   "end": 16.74
+  },
+  {
+   "w": "with",
+   "start": 16.74,
+   "end": 16.9
+  },
+  {
+   "w": "its",
+   "start": 16.9,
+   "end": 17.1
+  },
+  {
+   "w": "own",
+   "start": 17.1,
+   "end": 17.38
+  },
+  {
+   "w": "well",
+   "start": 17.38,
+   "end": 17.7
+  },
+  {
+   "w": "barely",
+   "start": 17.7,
+   "end": 18.08
+  },
+  {
+   "w": "suffered.",
+   "start": 18.08,
+   "end": 18.46
+  },
+  {
+   "w": "The",
+   "start": 18.88,
+   "end": 19.1
+  },
+  {
+   "w": "handle",
+   "start": 19.1,
+   "end": 19.28
+  },
+  {
+   "w": "came",
+   "start": 19.28,
+   "end": 19.68
+  },
+  {
+   "w": "off,",
+   "start": 19.68,
+   "end": 20.06
+  },
+  {
+   "w": "but",
+   "start": 20.22,
+   "end": 20.38
+  },
+  {
+   "w": "attacks",
+   "start": 20.38,
+   "end": 20.7
+  },
+  {
+   "w": "were",
+   "start": 20.7,
+   "end": 21.0
+  },
+  {
+   "w": "already",
+   "start": 21.0,
+   "end": 21.26
+  },
+  {
+   "w": "falling.",
+   "start": 21.26,
+   "end": 21.7
+  },
+  {
+   "w": "Lesson,",
+   "start": 22.42,
+   "end": 22.86
+  },
+  {
+   "w": "map",
+   "start": 23.06,
+   "end": 23.12
+  },
+  {
+   "w": "who",
+   "start": 23.12,
+   "end": 23.24
+  },
+  {
+   "w": "got",
+   "start": 23.24,
+   "end": 23.52
+  },
+  {
+   "w": "sick,",
+   "start": 23.52,
+   "end": 23.8
+  },
+  {
+   "w": "then",
+   "start": 24.02,
+   "end": 24.16
+  },
+  {
+   "w": "ask",
+   "start": 24.16,
+   "end": 24.36
+  },
+  {
+   "w": "who",
+   "start": 24.36,
+   "end": 24.52
+  },
+  {
+   "w": "was",
+   "start": 24.52,
+   "end": 24.7
+  },
+  {
+   "w": "spared.",
+   "start": 24.7,
+   "end": 25.08
+  },
+  {
+   "w": "Download",
+   "start": 26.58,
+   "end": 27.56
+  },
+  {
+   "w": "RM",
+   "start": 27.56,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.58
+  },
+  {
+   "w": "support",
+   "start": 28.58,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "In 10 days, cholera killed over 500 people near one London pump. Many doctors blamed bad air. How did John Snow find the cause? He traced where the dead had lived, nearly all near the broad street pump. Brewery workers drinking beer escaped. A workhouse with its own well barely suffered. The handle came off, but attacks were already falling. Lesson, map who got sick, then ask who was spared. Download RM to support livelihood tools."
+}

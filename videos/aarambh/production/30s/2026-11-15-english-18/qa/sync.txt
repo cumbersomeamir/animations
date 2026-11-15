@@ -1,0 +1,25 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+In | 0.05 (In, placed) | 0.00 (In) | FRAME 0 (complete, = thumbnail): real 1856 portrait of John Snow + cast-iron pump with its gold-lit handle + "ONE HANDLE. MANY LIVES."; narration audible from 0.09 s; slow push | 0.00
+In | 0.05 (In, placed) | 0.00 (In) | light sweep across the portrait | 0.40
+Many | 4.94 (Many) | 4.94 (Many) | HARD CUT (flash) -> drifting fog (the "bad air" belief) | 4.79
+bad | 6.02 (bad) | 6.02 (bad) | "bad air?" | 5.87
+How | 7.00 (How) | 7.00 (How) | the fog clears to the real 1855 title page of his book | 6.80
+John | 7.30 (John) | 7.30 (John) | gold underline under JOHN SNOW, M.D. | 7.20
+He | 9.26 (He) | 9.28 (He) | WHIP PAN (9.05-9.25) -> his real map of the deaths around Broad Street; slow push toward the pump | 9.05
+nearly | 11.22 (nearly) | 11.22 (nearly) | the cluster around the pump glows gold | 11.07
+broad | 12.18 (broad) | 12.16 (broad) | ring on the Broad Street pump + "Broad Street pump" | 12.03
+Brewery | 13.90 (Brewery) | 13.90 (Brewery) | PUSH (13.20-13.45) -> closer map view; ring on the brewery | 13.70
+drinking | 14.32 (drinking) | 14.32 (drinking) | plate: BREWERY / beer, not pump water | 14.17
+A | 16.12 (A) | 16.12 (A) | pan across the map to the workhouse | 15.67
+workhouse | 16.32 (workhouse) | 16.32 (workhouse) | ring on the workhouse | 16.12
+well | 17.38 (well) | 17.38 (well) | plate: WORKHOUSE / own well: 5 of 535 died | 17.23
+The | 18.88 (The) | 18.88 (The) | PUSH (18.55-18.85) -> the pump and his Table 1 (fatal attacks per day); bars grow | 18.55
+came | 19.28 (came) | 19.28 (came) | the handle comes off and drops | 19.18
+off | 19.68 (off,) | 19.68 (off,) | gold marker on 8 Sept: "handle off · Sept 8" | 19.58
+already | 21.00 (already) | 21.00 (already) | 1-8 Sept bars turn gold, arrow down, "already falling" | 20.80
+Lesson | 22.42 (Lesson,) | 22.42 (Lesson,) | PAGE TURN (21.85-22.20) -> lesson page: circular portrait, JOHN SNOW | 21.85
+map | 23.06 (map) | 23.06 (map) | card 1: map who got sick | 22.86
+ask | 24.16 (ask) | 24.16 (asked) | card 2: ask who was spared (+ chime) | 23.96
+Download | 27.10 (Download, placed) | 27.52 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 22 events; for word-triggered events, event minus word start ranges -0.57 to -0.10 s (negative = event leads the word). Pacing: hook 0.05-4.49 (complete first frame, audio from 0.09 s), escalation/question 4.85-8.84, explanation/proof 9.25-21.73 with scene changes at 9.25, 13.45, 18.85 and a pan at 15.7-16.4, payoff 22.20-25.04, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 4.85 S3 9.25 S4 13.5 S5 18.85 S6 22.2 S7 27.1 (audio/script.json); ASR stamps "In" at 0.00 (placed 0.05), "Brewery" at 13.90 (placed 13.50) and "Download" early (26.58; placed 27.10); ASR writes "ten" as "10"; it hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

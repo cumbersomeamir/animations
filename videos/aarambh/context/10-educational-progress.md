@@ -236,3 +236,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Strength vs bulletproof:** narrated as "strong isn't bulletproof; ask which threats a vest is rated for". No firefighting claim, despite the topic line.
 - **Verification:** both ASR models match the script except the surname (a close variant), the app name and small slips; there was no human listening. One post-render re-render: a sequential swap and nested-fade fixes.
 - No automation; no other episode started; earlier outputs, batch 16 included, untouched.
+
+## 2026-11-15: english-18 #01 (COMPLETE; fourth under the first-frame addendum to context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-15-english-18/aarambh-30s-english18-01.mp4`, sha256 `90166fbac1f41adbe3720210c343f1275c7508c393265f0eaf83d888eafe5586`, plus the thumbnail `aarambh-30s-english18-01-thumbnail.png` (= frame 0, "ONE HANDLE. MANY LIVES."). John Snow and the Broad Street pump (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** Snow's own 1855 text: over 500 fatal attacks in ten days; nearly all of the 83 deaths he traced near the pump; brewery (70+ workers, none severely ill, malt liquor and their own well); workhouse (5 of 535, its own well); the handle removed on 8 Sept; attacks had diminished before. Also his Table 1 (via HistData) and the London Museum on miasma.
+- **Myth vs evidence:** the narration and the chart show the handle came off after attacks were already falling. No claim that the handle alone ended the outbreak.
+- **Verification:** both ASR models match the script except the app name (and tiny.en's "asked"); there was no human listening. One full render, no post-render re-render.
+- No automation; no other episode started; earlier outputs, batch 17 included, untouched.

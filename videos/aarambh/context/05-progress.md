@@ -127,3 +127,11 @@
 - **Topic line mismatch** ("firefighters harder to burn") recorded in 31; not used.
 - **Open:** a human listen (surname respelling "Kwo-leck").
 - **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 31.
+
+## 2026-11-15: english-18 #01 (English; fourth under the first-frame addendum)
+- `videos/aarambh/production/30s/2026-11-15-english-18/aarambh-30s-english18-01.mp4` (sha256 `90166fbac1f41adbe3720210c343f1275c7508c393265f0eaf83d888eafe5586`) and thumbnail = frame 0: John Snow and the Broad Street pump.
+  - Frame 0: the real 1856 portrait plus the pump with its gold-lit handle, "ONE HANDLE. MANY LIVES."
+  - Story: over 500 died in ten days → bad-air fog clears to his 1855 book → his real map, with the cluster around the pump glowing → the brewery and workhouse exceptions → the handle comes off over his Table 1, already falling → lesson "map who got sick, then ask who was spared" → Aarambh CTA.
+- **Session note:** the worker restarted once after the export QA; the files were re-verified and the work continued.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 32.
