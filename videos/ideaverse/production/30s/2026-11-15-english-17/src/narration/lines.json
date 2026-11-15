@@ -1,0 +1,9 @@
+[
+  {"id": "s1", "text": "You pressed too late, but your phone still caught the jump. How?"},
+  {"id": "s2", "text": "The camera starts shooting when you open it, keeping recent frames in a loop."},
+  {"id": "s3", "text": "The shutter just picks frames it already took."},
+  {"id": "s4", "text": "Live Photos and Top Shot keep a second and a half on each side."},
+  {"id": "s5", "text": "Top Shot even has a model suggest a sharper frame."},
+  {"id": "s6", "text": "Missed it? Open the photo's motion frames and pick the jump yourself."},
+  {"id": "s7", "text": "Download the Ideaverse app."}
+]

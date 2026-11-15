@@ -1,0 +1,9 @@
+s1 placed  0.20s  heard [ 0.05.. 3.07]  MATCH: You pressed too late, but your phone still caught the jump. How?
+s2 placed  3.95s  heard [ 3.80.. 7.80]  MATCH: The camera starts shooting when you open it, keeping recent frames in a loop.
+s3 placed  8.40s  heard [ 8.25..10.27]  MATCH: The shutter just picks frames it already took.
+s4 placed 10.95s  heard [10.80..14.58]  MATCH: Live photos and top shot, keep a second and a half on each side.
+s5 placed 15.35s  heard [15.20..18.22]  MATCH: Top shot, even has a model, suggest a sharper frame.
+s6 placed 20.00s  heard [19.85..23.59]  MATCH: Missed it? Open the photo's motion frames and pick the jump yourself.
+s7 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

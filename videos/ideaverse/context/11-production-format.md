@@ -255,3 +255,8 @@ Episodes 09–11 were already in production before this note and keep the earlie
   nothing sent until close enough, measured TV-show misactivations, lower the sensitivity). Wake phrases are shown only
   as text, never spoken in the narration, so the video cannot wake viewers' speakers.
 
+## Batch 2026-11-15-english-17 (batch17) — rules as english-15/16
+- Proposed topic (zero shutter lag / frame buffer, best-shot selection) is new → used. The general buffer mechanism
+  (documented for Pixel) is kept separate from the AI best-shot feature (Top Shot only). DOCKET's mitten hands hold the
+  phone; touches are shown as an on-screen touch dot (clearer than a fingertip at this scale).
+

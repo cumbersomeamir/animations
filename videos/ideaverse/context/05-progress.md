@@ -170,3 +170,15 @@
 - Commands: build.sh, qa.sh (ASRPY=<python with faster-whisper>). Frames: 900 in 1078 s (3 workers) + re-render 381–392.
 - Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 21 earlier MP4s unchanged. Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-17 (2026-11-15, batch17) — DELIVERED
+- Proposed topic (photo from before the shutter press: frame buffer / zero shutter lag; Top Shot / Live Photos) is new →
+  used (record context/32). Icon re-checked against the Play listing: unchanged.
+- New scene `src/stage/shutter.js` (original dog-and-hurdle illustration, frame ring, ±1.5 s card, frame-picker phone).
+- production/30s/2026-11-15-english-17/ideaverse-30s-english17-01.mp4 (sha256 3b16f0c9…98f0) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1017 s (3 workers; the session worker restarted after the render — frames intact) + re-render 28–47
+  (first caption boundary moved to 1.05 s after ASR showed "but your" under the previous caption).
+- Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS; 22 earlier MP4s unchanged.
+- Next: await user review. No further episode, no automation.
+
