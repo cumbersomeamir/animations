@@ -16,10 +16,10 @@
     "minLeft": 124,
     "maxRight": 876,
     "minTop": 562,
-    "maxBottom": 1453
+    "maxBottom": 1456
   },
   "headline": {
-    "frames": 5,
+    "frames": 13,
     "minLeft": 152,
     "maxRight": 848,
     "minTop": 330,
@@ -31,5 +31,5 @@
   "labelUnderCaption": [],
   "labelOverlaps": [],
   "multiBig": [],
-  "samples": 300
+  "samples": 900
 }
