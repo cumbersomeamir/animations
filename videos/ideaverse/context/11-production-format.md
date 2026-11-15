@@ -250,3 +250,8 @@ Episodes 09–11 were already in production before this note and keep the earlie
   (burst + alignment + averaging + neural denoise; moving subjects blur). Mechanism attributed to Pixel's documented Night
   Sight only; generic phone UI labelled EXAMPLE; Ideaverse CTA kept separate (lights-up cut).
 
+## Batch 2026-11-15-english-16 (batch16) — rules as english-15
+- Proposed topic (hum to search) repeats english11-01 → replaced by smart-speaker wake words (on-device snippet check,
+  nothing sent until close enough, measured TV-show misactivations, lower the sensitivity). Wake phrases are shown only
+  as text, never spoken in the narration, so the video cannot wake viewers' speakers.
+

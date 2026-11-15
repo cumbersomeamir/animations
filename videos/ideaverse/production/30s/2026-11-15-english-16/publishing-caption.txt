@@ -1,0 +1,20 @@
+Nobody said the wake word. So why did the speaker wake up? 🔊❓
+
+On standby, a tiny on-device model checks short snippets of sound for the wake word.
+Nothing is sent until a snippet sounds close enough.
+Researchers played TV at smart speakers, and every show woke one up.
+"Maybe I don't like the cold" woke a Google speaker.
+So if a Google speaker wakes too often, lower its sensitivity in the Home app.
+
+Download the Ideaverse app.
+
+(The room, TV, speaker, meter and phone screen in the video are illustrations.)
+
+Sources:
+• Google Assistant Help, How Google Assistant is designed for your privacy: https://support.google.com/assistant/answer/11091714
+• Google Nest Help, Adjust the "Hey Google" sensitivity of your speaker or display: https://support.google.com/googlenest/answer/16765977
+• Dubois et al., When Speakers Are All Ears: Characterizing Misactivations of IoT Smart Speakers (PETS 2020): https://petsymposium.org/popets/2020/popets-2020-0072.php
+• Northeastern Mon(IoT)r Lab, study summary: https://moniotrlab.khoury.northeastern.edu/publications/smart-speakers-study-pets20/
+• Chen, Parada, Heigold, Small-footprint keyword spotting using deep neural networks (ICASSP 2014)
+
+#EverydayAI #AI #SmartSpeaker #Privacy #Ideaverse

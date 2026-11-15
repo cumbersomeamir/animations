@@ -1,0 +1,9 @@
+[
+  {"id": "s1", "text": "Nobody said the wake word. So why did the speaker wake up?"},
+  {"id": "s2", "text": "On standby, a tiny on-device model checks short snippets of sound for the wake word."},
+  {"id": "s3", "text": "Nothing is sent until a snippet sounds close enough."},
+  {"id": "s4", "text": "Researchers played TV at smart speakers, and every show woke one up."},
+  {"id": "s5", "text": "\"Maybe I don't like the cold\" woke a Google speaker."},
+  {"id": "s6", "text": "So if a Google speaker wakes too often, lower its sensitivity in the Home app."},
+  {"id": "s7", "text": "Download the Ideaverse app."}
+]
