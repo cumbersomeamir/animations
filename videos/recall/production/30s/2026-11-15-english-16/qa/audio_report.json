@@ -1,0 +1,192 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.73,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 0.973,
+      "text": "That is my voice?",
+      "words": 4,
+      "words_per_s": 4.33,
+      "voice_over_bed_db": 20.0
+    },
+    {
+      "id": "l02",
+      "start": 1.3,
+      "end": 3.094,
+      "text": "Your friends hear this voice every day.",
+      "words": 7,
+      "words_per_s": 3.9,
+      "voice_over_bed_db": 18.6
+    },
+    {
+      "id": "l03",
+      "start": 4.45,
+      "end": 5.725,
+      "text": "You hear yourself two ways.",
+      "words": 5,
+      "words_per_s": 3.92,
+      "voice_over_bed_db": 20.3
+    },
+    {
+      "id": "l04",
+      "start": 6.1,
+      "end": 8.229,
+      "text": "Through the air, from your mouth to your ears.",
+      "words": 9,
+      "words_per_s": 4.23,
+      "voice_over_bed_db": 17.7
+    },
+    {
+      "id": "l05",
+      "start": 8.6,
+      "end": 12.679,
+      "text": "And through bone: your skull carries the vibrations to your inner ears.",
+      "words": 12,
+      "words_per_s": 2.94,
+      "voice_over_bed_db": 15.9
+    },
+    {
+      "id": "l06",
+      "start": 13.1,
+      "end": 16.019,
+      "text": "That inner path changes the sound, and only you get it.",
+      "words": 11,
+      "words_per_s": 3.77,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l07",
+      "start": 16.5,
+      "end": 20.544,
+      "text": "A microphone only catches the air path, like everyone else's ears.",
+      "words": 11,
+      "words_per_s": 2.72,
+      "voice_over_bed_db": 16.6
+    },
+    {
+      "id": "l08",
+      "start": 21.15,
+      "end": 22.257,
+      "text": "Plug your ears and hum.",
+      "words": 5,
+      "words_per_s": 4.52,
+      "voice_over_bed_db": 18.3
+    },
+    {
+      "id": "l09",
+      "start": 23.6,
+      "end": 25.636,
+      "text": "It gets louder: that's the bone path.",
+      "words": 7,
+      "words_per_s": 3.44,
+      "voice_over_bed_db": 15.7
+    },
+    {
+      "id": "l10",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 80,
+  "speech_s": 23.59,
+  "overall_words_per_s": 2.67,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "voice-note play tap (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "phone playback sparkle"
+    },
+    {
+      "t": 3.2,
+      "beat": 6.4,
+      "sfx": "deadpan beat (one small comic sting)"
+    },
+    {
+      "t": 4.12,
+      "beat": 8.24,
+      "sfx": "cut to the head cross-section (ends before l03)"
+    },
+    {
+      "t": 6.35,
+      "beat": 12.7,
+      "sfx": "air wave-fronts"
+    },
+    {
+      "t": 8.85,
+      "beat": 17.7,
+      "sfx": "bone pulses thrum"
+    },
+    {
+      "t": 15.0,
+      "beat": 30.0,
+      "sfx": "only you"
+    },
+    {
+      "t": 16.7,
+      "beat": 33.4,
+      "sfx": "record beep"
+    },
+    {
+      "t": 20.8,
+      "beat": 41.6,
+      "sfx": "cut to the performer (ends before l08)"
+    },
+    {
+      "t": 21.63,
+      "beat": 43.26,
+      "sfx": "fingers into the ears"
+    },
+    {
+      "t": 22.38,
+      "beat": 44.76,
+      "sfx": "hum"
+    },
+    {
+      "t": 22.85,
+      "beat": 45.7,
+      "sfx": "ears plugged: the hum gets louder and boomier (illustrative)"
+    },
+    {
+      "t": 24.3,
+      "beat": 48.6,
+      "sfx": "cut to the plugged model"
+    },
+    {
+      "t": 24.85,
+      "beat": 49.7,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.492,
+  "voice_gain": 1.0
+}

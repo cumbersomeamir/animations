@@ -1,0 +1,413 @@
+{
+  "file": "production/30s/2026-11-15-english-16/recall-30s-english16-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "3051097"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "190461"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 12190738,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.8,
+    "lra_lu": 2.5,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8378621935844421,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "That is my voice. Your friends hear this voice every day. You hear yourself two ways. Through the air, from your mouth to your ears. And through bone, your skull carries the vibrations to your inner ears. That inner path changes the sound, and only you get it. A microphone only catches the air path, like everyone else's ears. Plug your ears and hum. It gets louder. That's the bone path. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "That",
+        "t": 0.0
+      },
+      {
+        "w": "is",
+        "t": 0.16
+      },
+      {
+        "w": "my",
+        "t": 0.26
+      },
+      {
+        "w": "voice.",
+        "t": 0.4
+      },
+      {
+        "w": "Your",
+        "t": 1.36
+      },
+      {
+        "w": "friends",
+        "t": 1.36
+      },
+      {
+        "w": "hear",
+        "t": 1.6
+      },
+      {
+        "w": "this",
+        "t": 1.86
+      },
+      {
+        "w": "voice",
+        "t": 2.06
+      },
+      {
+        "w": "every",
+        "t": 2.3
+      },
+      {
+        "w": "day.",
+        "t": 2.54
+      },
+      {
+        "w": "You",
+        "t": 4.24
+      },
+      {
+        "w": "hear",
+        "t": 4.52
+      },
+      {
+        "w": "yourself",
+        "t": 4.64
+      },
+      {
+        "w": "two",
+        "t": 4.94
+      },
+      {
+        "w": "ways.",
+        "t": 5.14
+      },
+      {
+        "w": "Through",
+        "t": 6.16
+      },
+      {
+        "w": "the",
+        "t": 6.22
+      },
+      {
+        "w": "air,",
+        "t": 6.36
+      },
+      {
+        "w": "from",
+        "t": 6.92
+      },
+      {
+        "w": "your",
+        "t": 7.06
+      },
+      {
+        "w": "mouth",
+        "t": 7.16
+      },
+      {
+        "w": "to",
+        "t": 7.38
+      },
+      {
+        "w": "your",
+        "t": 7.6
+      },
+      {
+        "w": "ears.",
+        "t": 7.68
+      },
+      {
+        "w": "And",
+        "t": 8.62
+      },
+      {
+        "w": "through",
+        "t": 8.68
+      },
+      {
+        "w": "bone,",
+        "t": 8.88
+      },
+      {
+        "w": "your",
+        "t": 9.84
+      },
+      {
+        "w": "skull",
+        "t": 9.98
+      },
+      {
+        "w": "carries",
+        "t": 10.22
+      },
+      {
+        "w": "the",
+        "t": 10.74
+      },
+      {
+        "w": "vibrations",
+        "t": 10.92
+      },
+      {
+        "w": "to",
+        "t": 11.3
+      },
+      {
+        "w": "your",
+        "t": 11.78
+      },
+      {
+        "w": "inner",
+        "t": 11.88
+      },
+      {
+        "w": "ears.",
+        "t": 12.06
+      },
+      {
+        "w": "That",
+        "t": 13.08
+      },
+      {
+        "w": "inner",
+        "t": 13.2
+      },
+      {
+        "w": "path",
+        "t": 13.36
+      },
+      {
+        "w": "changes",
+        "t": 13.62
+      },
+      {
+        "w": "the",
+        "t": 13.94
+      },
+      {
+        "w": "sound,",
+        "t": 14.24
+      },
+      {
+        "w": "and",
+        "t": 14.98
+      },
+      {
+        "w": "only",
+        "t": 15.1
+      },
+      {
+        "w": "you",
+        "t": 15.38
+      },
+      {
+        "w": "get",
+        "t": 15.54
+      },
+      {
+        "w": "it.",
+        "t": 15.74
+      },
+      {
+        "w": "A",
+        "t": 16.48
+      },
+      {
+        "w": "microphone",
+        "t": 16.56
+      },
+      {
+        "w": "only",
+        "t": 16.92
+      },
+      {
+        "w": "catches",
+        "t": 17.44
+      },
+      {
+        "w": "the",
+        "t": 17.74
+      },
+      {
+        "w": "air",
+        "t": 18.02
+      },
+      {
+        "w": "path,",
+        "t": 18.22
+      },
+      {
+        "w": "like",
+        "t": 18.92
+      },
+      {
+        "w": "everyone",
+        "t": 19.12
+      },
+      {
+        "w": "else's",
+        "t": 19.48
+      },
+      {
+        "w": "ears.",
+        "t": 19.94
+      },
+      {
+        "w": "Plug",
+        "t": 21.2
+      },
+      {
+        "w": "your",
+        "t": 21.26
+      },
+      {
+        "w": "ears",
+        "t": 21.44
+      },
+      {
+        "w": "and",
+        "t": 21.62
+      },
+      {
+        "w": "hum.",
+        "t": 21.84
+      },
+      {
+        "w": "It",
+        "t": 23.18
+      },
+      {
+        "w": "gets",
+        "t": 23.66
+      },
+      {
+        "w": "louder.",
+        "t": 23.82
+      },
+      {
+        "w": "That's",
+        "t": 24.62
+      },
+      {
+        "w": "the",
+        "t": 24.78
+      },
+      {
+        "w": "bone",
+        "t": 24.88
+      },
+      {
+        "w": "path.",
+        "t": 25.04
+      },
+      {
+        "w": "Download",
+        "t": 25.38
+      },
+      {
+        "w": "Recall",
+        "t": 26.72
+      },
+      {
+        "w": "to",
+        "t": 27.14
+      },
+      {
+        "w": "turn",
+        "t": 27.72
+      },
+      {
+        "w": "your",
+        "t": 27.9
+      },
+      {
+        "w": "study",
+        "t": 28.04
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.62
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 212.57159423828125,
+    "right": 866.6964721679688,
+    "top": 341.5,
+    "bottom": 590.58
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.545,
+    "min_frame_diff": 0.0521,
+    "longest_static_run_frames": 7,
+    "max_frame_diff": 73.27,
+    "max_diff_at_s": 21.1
+  },
+  "luma_min_mean_max": [
+    66.8,
+    101.3,
+    127.8
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}
