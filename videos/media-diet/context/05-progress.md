@@ -305,3 +305,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   (Xinhua citing COMAC; Global Times; IE; AIN/TWZ configuration). Energy: ICCT (~50x), NASA (~2x). Rejected KIMM display (6 Oct release).
   Record context/31; sources production/30s/2026-11-15-english-16/SOURCES.md; log row in context/11. Frame 0 = airliner + "Ten fans. No jet fuel."
 - Narration 72 words / 26.0 s, every take heard exactly by Whisper. Running: three render_chunks workers; next build.sh, thumb, QA, commit.
+
+## Checkpoint 2026-11-15 — english-16 / batch 16 delivered
+- production/30s/2026-11-15-english-16/media-diet-30s-english16-01.mp4 (SHA-256 e6bef02fc5aaaebaf892dec2300a1451a47b091dba7cd73e11cb10a7e4ae6717)
+  + thumbnail-english16-01.png (= frame 0); record context/31; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.2 LUFS / −1.9 dBTP;
+  captions y 342–534, x 193–887; 0 violations; caption↔speech 11/11; Whisper per-line 1.0 (full single pass 0.861: CTA dropped by Whisper's
+  one-window decode; CTA alone decodes exactly).
+- Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.

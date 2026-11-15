@@ -1,0 +1,89 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Ten fans know jet fuel. On November 14th, China's electric airliner flew its first crew. So why only about 400 kilometers? Jet fuel packs about 50 times more energy per kilo than batteries. Electric motors waste less, winning back only about twice. And a battery never gets lighter while fuel burns off. Energy per kilo sets the range. So electric planes start short. You",
+ "recall_full_pass": 0.861,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.85
+   ],
+   "transcript": "Ten fans, no jet fuel.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    2.15,
+    6.21
+   ],
+   "transcript": "On November 14th, China's electric airliner flew its first crew.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.5,
+    8.8
+   ],
+   "transcript": "So why only about 400 kilometers?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    9.1,
+    13.25
+   ],
+   "transcript": "Jet fuel packs about 50 times more energy per kilo than batteries.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    13.55,
+    17.07
+   ],
+   "transcript": "Electric motors waste less, winning back only about twice.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    17.4,
+    20.38
+   ],
+   "transcript": "And a battery never gets lighter, while fuel burns off.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    20.7,
+    24.73
+   ],
+   "transcript": "Energy per kilo sets the range, so electric planes start short.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Ten fans, no jet fuel. On November 14th, China's electric airliner flew its first crew. So why only about 400 kilometers? Jet fuel packs about 50 times more energy per kilo than batteries. Electric motors waste less, winning back only about twice. And a battery never gets lighter, while fuel burns off. Energy per kilo sets the range, so electric planes start short. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

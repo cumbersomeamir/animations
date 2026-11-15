@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "Ten fans. / No jet fuel.",
+  "cue": [
+   0.0,
+   2.05
+  ],
+  "speech": [
+   0.071,
+   1.807
+  ],
+  "lead_s": 0.071,
+  "tail_s": 0.243,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "On November 14th, China's / electric airliner",
+  "cue": [
+   2.07,
+   4.32
+  ],
+  "speech": [
+   2.171,
+   4.294
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.026,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "flew its first crew.",
+  "cue": [
+   4.34,
+   6.4
+  ],
+  "speech": [
+   4.383,
+   6.152
+  ],
+  "lead_s": 0.043,
+  "tail_s": 0.248,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "So why only / about 400 kilometers?",
+  "cue": [
+   6.42,
+   9.0
+  ],
+  "speech": [
+   6.525,
+   8.754
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.246,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Jet fuel packs about fifty times / more energy per kilo",
+  "cue": [
+   9.02,
+   12.405
+  ],
+  "speech": [
+   9.121,
+   12.391
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.014,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "than batteries.",
+  "cue": [
+   12.425,
+   13.45
+  ],
+  "speech": [
+   12.479,
+   13.207
+  ],
+  "lead_s": 0.054,
+  "tail_s": 0.243,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Electric motors waste less, / winning back only about twice.",
+  "cue": [
+   13.47,
+   17.3
+  ],
+  "speech": [
+   13.571,
+   17.024
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.276,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "And a battery never gets lighter, / while fuel burns off.",
+  "cue": [
+   17.32,
+   20.6
+  ],
+  "speech": [
+   17.42,
+   20.313
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.287,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Energy per kilo sets the range,",
+  "cue": [
+   20.62,
+   22.665
+  ],
+  "speech": [
+   20.721,
+   22.518
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.147,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "so electric planes start short.",
+  "cue": [
+   22.685,
+   25.03
+  ],
+  "speech": [
+   22.853,
+   24.683
+  ],
+  "lead_s": 0.168,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.153,
+   29.177
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]

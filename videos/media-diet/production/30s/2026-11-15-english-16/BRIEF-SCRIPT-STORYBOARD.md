@@ -43,5 +43,11 @@ Every take transcribed exactly by Whisper medium before use.
 | S7 | 20.61–26.0 | short hops drawn inside the ring; a small airliner flies one | short hops first |
 | S8 | 26.0–30 | Media Diet sign under the airliner | — |
 
-## QA / limits
-Filled after render (see the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 e6bef02fc5aaaebaf892dec2300a1451a47b091dba7cd73e11cb10a7e4ae6717; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.2 LUFS / −1.9 dBTP; captions ink y 342–534, x 193–887; labels x 203–876,
+y 1358–1456; 0 violations; caption↔speech 11/11; Whisper-medium per-line recall 1.0 on every line; single full pass 0.861 because Whisper
+dropped the final CTA sentence in its one-window decode (the CTA alone decodes exactly; CTA level equals the previous line). Thumbnail = frame 0
+(SHA-256 9f8bfb2c…8fda), mean abs diff vs encoded frame 0 = 1.49/255.
+Limits: generic reconstruction (no COMAC footage); ~50×/~2× are published estimates, ~25× derived; flight testing, not certified;
+nobody has listened to or watched the final file yet.
