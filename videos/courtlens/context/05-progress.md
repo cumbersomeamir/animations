@@ -12,8 +12,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   not repeated.
 - The proposed topic is new (no overlap with 01–17). Record:
   `context/episodes/2026-11-15-english18-cinema-outside-food.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- CHECKPOINT (before the full render, commit 0ca9e30): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-15-english-18/courtlens-30s-english18-01.mp4`
+    sha256 `60feee0992051e7b5c50696e8855f20e282ddc26bbe295f75e5d5977983b540b`
+  - `courtlens-30s-english18-01-thumbnail.png`
+    sha256 `cc535470b202d501ac9294e2717fe31cd33b56eb67b733d4c9998281c4b5dcfb`
+  - QA: `production/30s/2026-11-15-english-18/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-15-english-18/notes/LEGAL-SOURCES.md`)
 - **SC, K C Cinema (K C Theatre) v. State of J&K, CA 77/2023, 3 Jan 2023 (official PDF):**
@@ -57,6 +63,35 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - **Child-food beat:** a ~0.85 s empty start, so the items now enter at 11.75.
 - **Narration:** trimmed from 28.2 s to 25.2 s (the year moved onto the stamp). The WER normaliser now maps "twenty
   twenty three".
+
+### Fixed after the full render (frame review)
+- Two near-blank beats: the stamp moved 4.55 → 4.3 s; the DIET note moved 16.3 → 15.95 s (with "On a medical diet?").
+- Only the affected frames were re-rendered, then re-muxed:
+  ```bash
+  node render.cjs range $S/build18/frames 118-181
+  node render.cjs range $S/build18/frames 475-503
+  SKIP_TTS=1 SKIP_FRAMES=1 PY=$S/tts/venv/bin/python WORK=$S/build18 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+  ```
+- Neighbour frames 112–117, 182–186, 469–474 and 504–505 were bit-identical on a fresh render. 501–503 differed, so
+  the range was extended to 503.
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.2 LUFS, true peak −2.5 dBFS; 8/8 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.013 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 107..892, y 330..518; top zone darkest pixel 204.
+- Frame 0 vs thumbnail mean abs diff 1.93/255 outside the chip band.
+
+### Unresolved
+- Listening is ASR-only. Nobody listened to it or watched it in real time.
+- Water and child food are the cinemas' statements recorded by the Court (para 33), not directions. The video words
+  them that way.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+- The thumbnail's marquee bulbs are at a slightly different chase phase from frame 0 (99th-percentile diff 11.3/255).
+
+### Next
+- Await the next batch request.
 
 ### Next
 - Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build18/frames`.
