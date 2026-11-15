@@ -1,0 +1,83 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Sixty-three cookies, packed in sevens. How many packs?",
+      "seconds": 3.141,
+      "frames": 94.2
+    },
+    "v02": {
+      "text": "That's one pack. Seven cookies in each.",
+      "seconds": 2.159,
+      "frames": 64.8
+    },
+    "v03": {
+      "text": "Can you guess how many packs?",
+      "seconds": 1.319,
+      "frames": 39.6
+    },
+    "c2": {
+      "text": "Two!",
+      "seconds": 0.466,
+      "frames": 14.0
+    },
+    "c3": {
+      "text": "Three!",
+      "seconds": 0.502,
+      "frames": 15.1
+    },
+    "c4": {
+      "text": "Four!",
+      "seconds": 0.493,
+      "frames": 14.8
+    },
+    "c5": {
+      "text": "Five!",
+      "seconds": 0.5,
+      "frames": 15.0
+    },
+    "c6": {
+      "text": "Six!",
+      "seconds": 0.524,
+      "frames": 15.7
+    },
+    "c7": {
+      "text": "Seven!",
+      "seconds": 0.534,
+      "frames": 16.0
+    },
+    "c8": {
+      "text": "Eight!",
+      "seconds": 0.47,
+      "frames": 14.1
+    },
+    "c9": {
+      "text": "Nine!",
+      "seconds": 0.514,
+      "frames": 15.4
+    },
+    "v05": {
+      "text": "Nine packs! So sixty-three divided by seven is nine.",
+      "seconds": 3.542,
+      "frames": 106.3
+    },
+    "v06": {
+      "text": "Now unpack them: nine sevens make sixty-three.",
+      "seconds": 2.966,
+      "frames": 89.0
+    },
+    "v07": {
+      "text": "To divide, ask: what times seven makes sixty-three?",
+      "seconds": 2.987,
+      "frames": 89.6
+    },
+    "v08": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}

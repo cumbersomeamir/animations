@@ -1,0 +1,5 @@
+# Targeted ASR (faster-whisper base.en, local) on windows cut from the delivered MP4 — 2026-11-15
+# command: <asr-venv>/bin/python -I qa/asr_windows.py <model-cache> c2_8.4-9.6.wav count_8.4-14.2.wav cta_27.4-30.wav
+c2_8.4-9.6.wav -> two@0.00 | three@0.52
+count_8.4-14.2.wav -> 2,@0.00 | 3,@0.90 | 4,@1.62 | 5,@2.24 | 6,@2.50 | 7,@3.66 | 8,@4.22 | 9@4.52
+cta_27.4-30.wav -> Play@0.00 | and@0.48 | learn@0.66 | tables@0.82 | with@1.20 | Tableverse.@1.50

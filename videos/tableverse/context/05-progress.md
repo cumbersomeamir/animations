@@ -97,7 +97,7 @@ Brief, episode history table, script, sources: 11-episode-nine-hides-inside-ten.
   transcript of the final MP4 matches the script; 80-cookie count checked on contact sheet + 42 frames. Machine-only
   listening check.
 
-## 2026-11-15 batch english-15 — "Two Equal Groups" (ACTIVE)
+## 2026-11-15 batch english-15 — "Two Equal Groups" (delivered)
 Brief, topic decision, history table, script, sources: 12-episode-two-equal-groups.md.
 - Topic decision: requested 6 × 7 = 42 repeats english13-01's fact (7 × 6 = 42) → kept the requested doubling
   strategy, structure and first frame but used 6 × 8 = 24 + 24 = 48.
@@ -110,5 +110,26 @@ Brief, topic decision, history table, script, sources: 12-episode-two-equal-grou
 - Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.9 LUFS, −1.5 dBTP; ASR
   transcript matches script; 48-donut count on contact sheet + 41 frames. Machine-only listening check.
 
+## 2026-11-15 batch english-16 — "Pack in Sevens" (ACTIVE)
+Brief, topic decision, history table, script, sources: 13-episode-pack-in-sevens.md.
+- Topic decision: requested 9 × 7 = 70 − 7 ("ten groups, a creature steals one") repeats english14-01's strategy
+  (9 × 8 = 80 − 8) → kept the creature, nine groups of exactly seven, the reversible story, format and CTA; taught
+  division as the reverse of multiplication (63 ÷ 7 = 9 ⇔ 9 × 7 = 63). Hook words "HOW MANY PACKS?" (truthful;
+  nothing escapes in this story).
+- Facts: CCSS 3.OA.A.2, 3.OA.A.4, 3.OA.B.6, 3.OA.C.7 (official PDF, re-read 2026-11-15).
+- Creative: 9 × 7 golden star-cookie tray (63); see-through hinged pack lids (cookies always visible); original
+  cut-paper mouse on split pins pulls each lid shut by a ribbon; tags 1–9; card 63 ÷ 7 = ? → 63 ÷ 7 = 9 →
+  9 × 7 = 63 → ? × 7 = 63 → 9 × 7 = 63; lids open in a wave and pack again; lamp moved to the window side;
+  music in B-flat. Same narrator recipe; frame 0 = pack 1 closed + mouse pulling pack 2 (thumbnail).
+- Commands: see production/30s/2026-11-15-english-16/README.md (npm ci; tts.py; render --timeline;
+  build_audio.py; render --video --workers 4; render --thumb; bash qa/run_qa.sh <asr-python>).
+- Paths: production/30s/2026-11-15-english-16/ — tableverse-30s-english16-01.mp4 (sha256 a648d835fc14c0ac9e6c3e442dc62345b4dd4fbd724470dec09f09a22ac594f5) +
+  tableverse-30s-english16-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.9 LUFS, −1.5 dBTP; ASR
+  transcript matches script (count and CTA confirmed by window ASR); 63-cookie count on contact sheet + 45 frames.
+  Machine-only listening check.
+- QA fixes: opaque wraps hid cookies → clear lids; lilac-looking stars → golden; mouse enlarged, lamp moved, ribbon;
+  frame 0 restaged; long caption split; softer glow (details in qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english15-01. No further episode started.
+- Await user review of english16-01. No further episode started.
