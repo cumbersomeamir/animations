@@ -164,16 +164,9 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-16 (2026-11-15, batch16) — RENDERING
-## Facts
-- Brief: one new English lesson after the finished batch15; proposed topic = hum to search = repeat of english11-01 →
-  fresh topic: smart-speaker wake words (record context/31). Icon re-checked against the Play listing: unchanged.
-## Decisions
-- Renderer/style/voice/caption treatment from english-15 unchanged; new scene `src/stage/wakeword.js` (TV + subtitles,
-  generic speaker with x-ray chip and light ring, snippet tiles, illustrative match meter + wake line, cloud, 12-show card,
-  settings phone). The narration never speaks a real wake phrase.
-- Layout re-done twice from test stills (DOCKET blocked the hook; TV, meter and cloud were cut off; grid row under label).
-## Status
-- Frames rendering (3 SwiftShader workers): `node render.mjs --frames --workers=3`. Then encode, score, master, mux, qa.sh.
-- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
-
+# CURRENT — english-16 (2026-11-15, batch16) — DELIVERED
+- Proposed hum-to-search topic = repeat of english11-01 → smart-speaker wake words (record context/31).
+  production/30s/2026-11-15-english-16/ideaverse-30s-english16-01.mp4 (sha256 8ee36342…8520) + thumbnail; QA.md + qa/.
+- Commands: build.sh, qa.sh (ASRPY=<python with faster-whisper>). Frames: 900 in 1078 s (3 workers) + re-render 381–392.
+- Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 21 earlier MP4s unchanged. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.

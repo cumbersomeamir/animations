@@ -57,4 +57,9 @@ values and both threshold positions, the settings screen (EXAMPLE).
 8. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "WHO / WOKE IT?".
 
-## QA / status — IN PROGRESS (rendering)
+## QA / status — DELIVERED 2026-11-15
+- Output: production/30s/2026-11-15-english-16/ideaverse-30s-english16-01.mp4 · sha256 8ee36342…8520, plus
+  ideaverse-30s-english16-01-thumbnail.png ("WHO / WOKE IT?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.4 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

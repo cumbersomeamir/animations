@@ -1,0 +1,9 @@
+s1 placed  0.20s  heard [ 0.05.. 3.43]  MATCH: Nobody said the wake word, so why did the speaker wake up?
+s2 placed  4.00s  heard [ 3.85.. 8.87]  MATCH: On standby, a tiny on -device model checks short snippets of sound for the wake word.
+s3 placed  9.55s  heard [ 9.40..12.12]  MATCH: Nothing is sent, until a snippet sounds close enough.
+s4 placed 12.85s  heard [12.70..16.92]  MATCH: Researchers played TV at smart speakers, and every show woke one up.
+s5 placed 17.55s  heard [17.40..20.24]  MATCH: Maybe I don't like the cold, woke a Google speaker.
+s6 placed 21.00s  heard [20.85..25.27]  MATCH: So if a Google speaker wakes too often, lower its sensitivity in the home app.
+s7 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

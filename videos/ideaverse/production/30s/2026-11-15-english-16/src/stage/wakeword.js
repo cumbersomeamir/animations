@@ -204,7 +204,7 @@ let cardKey = '';
 function cardState(t) { return { tiles: q20(inv(Hh.tiles[0], Hh.tiles[1], t)), badges: q20(inv(Hh.badges[0], Hh.badges[1], t)) }; }
 function drawCard(g, s) {
   g.fillStyle = '#0E1424'; g.fillRect(0, 0, NW, NH);
-  if (!(s.tiles > 0)) { g.strokeStyle = 'rgba(108,218,126,0.5)'; g.lineWidth = 10; g.beginPath(); g.arc(NW / 2, 420, 150, 0, 7); g.stroke(); return; }
+  if (!(s.tiles > 0)) return;                                          // plain card until the show tiles arrive (no decorative ring)
   const cols = ['#7B6F9A', '#5E86A8', '#A0705E', '#5E9A7B'];
   for (let i = 0; i < 12; i++) {
     const a = clamp(s.tiles * 12 - i), b = clamp(s.badges * 12 - i); if (!(a > 0)) continue;
