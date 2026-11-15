@@ -74,3 +74,7 @@
   + thumbnail (space-to-product ratio / negative space; proposed topic kept, not covered before; Sevilla & Townsend 2016;
   frame 0 = thumbnail: overcrowded shelf with one lit bottle; render 2 after a frame review removed a near-empty transition;
   sha256 2b2d5d43; context/33).
+- English-18 (batch18 2026-11-15-english-18) IN PROGRESS `production/30s/2026-11-15-english-18/werbens-30s-english18-01.mp4`
+  + thumbnail (proposed packaging-taste topic covered by the pilot + #14 → switched to sound cues and perceived carbonation,
+  "SAME DRINK. DIFFERENT FIZZ?"; Zampini & Spence 2005; frame 0 = thumbnail; context/34). Done: topic check, research, brand
+  re-check, script, narration + word timing. Next: scene, audio, render, QA.
