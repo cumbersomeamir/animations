@@ -81,3 +81,16 @@ These are Claude's implementation of the rules above, recorded so later episodes
 - `context/11-production-format.md` → "Update — approved feedback rules (2026-11-11)" points here.
 - `context/05-progress.md` → pointer line.
 - Episode notes from english-12 on (`context/28-…`) state how each rule was met.
+
+## 5. Addendum 2026-11-15 — first-frame rule (approved brief, batch 2026-11-15; applies from english-15 on)
+> FIRST FRAME IS CRITICAL: no logo intro, fade from black or empty setup. Frame zero must be a beautifully composed surprising
+> subject, readable on a phone, plus at most 2–5 truthful curiosity words. The first image should work as the thumbnail.
+> Click-worthy does not mean misleading. Hook audio immediately, promise a specific useful answer and deliver it. Maintain
+> app-specific approved aesthetic.
+
+Implementation defaults:
+- Frame 0 is a fully composed, lit set. Objects are already in place: no drop-ins or fades at t = 0.
+- A 2–5-word headline (Space Grotesk 700, hero gradient) sits in the caption band, inside x 100–900 and y ≥ 300.
+- Narration starts at about 0.12 s. The headline clears (by about 0.4 s) before the first caption group appears, so the two never
+  coexist; `qa_dom.mjs` checks this on every frame.
+- The thumbnail PNG is rendered from frame 0, with the logo/wordmark row added.

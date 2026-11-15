@@ -90,3 +90,7 @@ in every scene; rendered values in context/29 §3. Amber unused.
 ## Re-check for english-14 (2026-11-14)
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to 2026-11-13; wordmark styling, hero-headline gradient
 and Login button #316879 unchanged; logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/30 §3).
+
+## Re-check for english-15 (2026-11-15)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to 2026-11-14; wordmark styling, hero-headline gradient
+and Login button #316879 unchanged; logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/31 §3).
