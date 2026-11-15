@@ -1,0 +1,7 @@
+# Targeted ASR (faster-whisper base.en, local) on windows cut from the delivered MP4 (file name = window start, s) — 2026-11-15
+# command: <asr-venv>/bin/python -I qa/asr_windows.py <model-cache> cta_27.4.wav gap_25.3.wav tens_5.6.wav twelve_16.0.wav
+# windows: cta 27.4-30.0 s, gap 25.3-27.7 s (no narration; VO stem peak there = 0.00000), tens 5.6-8.2 s, twelve 16.0-17.4 s
+cta_27.4.wav -> Play@0.00 | and@0.56 | learn@0.72 | tables@0.88 | with@1.26 | Tableverse.@1.56
+gap_25.3.wav -> .@0.00 | .@0.44
+tens_5.6.wav -> 10.@0.00 | 20.@1.00 | 30.@1.78
+twelve_16.0.wav -> 12@0.00 | -10s@0.48

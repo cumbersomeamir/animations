@@ -110,7 +110,7 @@ Brief, topic decision, history table, script, sources: 12-episode-two-equal-grou
 - Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.9 LUFS, −1.5 dBTP; ASR
   transcript matches script; 48-donut count on contact sheet + 41 frames. Machine-only listening check.
 
-## 2026-11-15 batch english-16 — "Pack in Sevens" (ACTIVE)
+## 2026-11-15 batch english-16 — "Pack in Sevens" (delivered)
 Brief, topic decision, history table, script, sources: 13-episode-pack-in-sevens.md.
 - Topic decision: requested 9 × 7 = 70 − 7 ("ten groups, a creature steals one") repeats english14-01's strategy
   (9 × 8 = 80 − 8) → kept the creature, nine groups of exactly seven, the reversible story, format and CTA; taught
@@ -131,5 +131,26 @@ Brief, topic decision, history table, script, sources: 13-episode-pack-in-sevens
 - QA fixes: opaque wraps hid cookies → clear lids; lilac-looking stars → golden; mouse enlarged, lamp moved, ribbon;
   frame 0 restaged; long caption split; softer glow (details in qa/QA.md).
 
+## 2026-11-15 batch english-17 — "The Robot That Packs in Tens" (ACTIVE)
+Brief, topic decision, history table, script, sources: 14-episode-robot-packs-in-tens.md.
+- Topic decision: requested 6 × 4 = 3 × 4 doubled repeats english15-01's strategy (six fact = three fact doubled)
+  → as the brief allows, a fresh alternate in the same genre: child-robot mini-story, identical rows packed fast,
+  the brief's 3 × 4 = 12 fact, teaching multiplication by a multiple of ten: 4 × 30 = 4 × 3 tens = 12 tens = 120
+  (ten tens make a hundred). Frame-0 words "TOO MANY TO COUNT?" (truthful; no doubling in this story).
+- Facts: CCSS 3.NBT.A.3, 2.NBT.A.1a, 3.OA.B.5, 3.OA.A.1 (official PDF, re-read 2026-11-15).
+- Creative: original cut-paper robot (wheels, screen face, antenna bulb, split-pin arms) — dizzy at frame 0, light
+  bulb, zooms through rows 2–4, scratches its head in the pause, dances, rolls aside for the CTA; 120 chocolate-chip
+  cookies (4 rows × 2 × 15) → 12 clear tubes of 10 (all ten slices visible); tags 1–12; pop-up hundred crate (10
+  tubes, "100") + "20"; card 4 × 30 = ? → 120 → 4 × 3 = 12 → 4 × 30 = 120; music in A. Same narrator recipe.
+- Commands: see production/30s/2026-11-15-english-17/README.md (npm ci; tts.py; render --timeline;
+  build_audio.py; render --video --workers 4; render --thumb; bash qa/run_qa.sh <asr-python>).
+- Paths: production/30s/2026-11-15-english-17/ — tableverse-30s-english17-01.mp4 (sha256 b7f6fd402c25f901c14ac802afde336f76ae43f27baf34e0472d338f42247005) +
+  tableverse-30s-english17-01-thumbnail.png (= frame 0); src/ (robot.mjs new), audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.4 LUFS, −1.5 dBTP; ASR
+  transcript matches script (one hallucinated "Ten tens." in a narration-free gap, VO stem silent there; counts and
+  CTA confirmed by window ASR); 120-cookie / 10-per-tube count on contact sheet + 53 frames. Machine-only listening.
+- QA fixes: arm angle wrap; arms in front of head; belly gauge removed; robot enlarged; tube caps hid end slices →
+  respaced; robot cleared the CTA badge; end-card pop masked "Play" → moved (details in qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english16-01. No further episode started.
+- Await user review of english17-01. No further episode started.

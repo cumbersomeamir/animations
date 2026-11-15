@@ -1,0 +1,756 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 104,
+      "name": "Frame 0: overwhelmed robot counting 120 cookies one by one; \"TOO MANY TO COUNT?\"; card 4 × 30 = ?"
+    },
+    {
+      "id": "S2-idea",
+      "from": 104,
+      "to": 156,
+      "name": "Light-bulb: the robot packs them in tens"
+    },
+    {
+      "id": "S3-row",
+      "from": 156,
+      "to": 284,
+      "name": "Row 1: ten cookies hop into each tube — ten, twenty, thirty; one row is three tens"
+    },
+    {
+      "id": "S4-fast",
+      "from": 284,
+      "to": 362,
+      "name": "Rows 2–4 packed at top speed: four rows, three tens in each"
+    },
+    {
+      "id": "S5-count",
+      "from": 362,
+      "to": 520,
+      "name": "How many tens in all? quiet pause; tubes counted 1–12: twelve tens"
+    },
+    {
+      "id": "S6-hundred",
+      "from": 520,
+      "to": 646,
+      "name": "Ten tubes jump into the hundred crate; two more tens; card 4 × 30 = 120"
+    },
+    {
+      "id": "S7-takeaway",
+      "from": 646,
+      "to": 810,
+      "name": "Tubes hop back: 4 × 3 = 12, so 4 × 30 = 12 tens; robot dance"
+    },
+    {
+      "id": "S8-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 106,
+    "c10": 176,
+    "c20": 200,
+    "c30": 224,
+    "v04": 244,
+    "v05": 290,
+    "v06": 364,
+    "v07": 490,
+    "v08": 522,
+    "v09": 650,
+    "v10": 834
+  },
+  "captions": [
+    [
+      [
+        "So the robot packs",
+        "them in tens."
+      ],
+      106,
+      160
+    ],
+    [
+      [
+        "Ten!"
+      ],
+      176,
+      200
+    ],
+    [
+      [
+        "Ten! Twenty!"
+      ],
+      200,
+      224
+    ],
+    [
+      [
+        "Ten! Twenty! Thirty!"
+      ],
+      224,
+      240
+    ],
+    [
+      [
+        "One row is 3 tens."
+      ],
+      244,
+      284
+    ],
+    [
+      [
+        "4 rows, 3 tens in each."
+      ],
+      290,
+      358
+    ],
+    [
+      [
+        "How many tens in all?"
+      ],
+      364,
+      486
+    ],
+    [
+      [
+        "12 tens!"
+      ],
+      490,
+      518
+    ],
+    [
+      [
+        "10 tens make 100."
+      ],
+      522,
+      584
+    ],
+    [
+      [
+        "10 tens make 100.",
+        "2 more tens make…"
+      ],
+      584,
+      611
+    ],
+    [
+      [
+        "10 tens make 100.",
+        "2 more tens make 120."
+      ],
+      611,
+      646
+    ],
+    [
+      [
+        "4 × 3 = 12,"
+      ],
+      650,
+      703
+    ],
+    [
+      [
+        "4 × 3 = 12,",
+        "so 4 × 30 = 12 tens."
+      ],
+      703,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      832,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "tick",
+      0,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      8,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      16,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      24,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      32,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      40,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      48,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      56,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      64,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      72,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      80,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "tick",
+      88,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "flap",
+      84,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "glint",
+      108,
+      {}
+    ],
+    [
+      "light",
+      110,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "pop",
+      156,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "tick",
+      162,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      164,
+      {
+        "pitch": 1.28
+      }
+    ],
+    [
+      "tick",
+      166,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "tick",
+      168,
+      {
+        "pitch": 1.44
+      }
+    ],
+    [
+      "tick",
+      170,
+      {
+        "pitch": 1.52
+      }
+    ],
+    [
+      "click",
+      175,
+      {
+        "soft": false
+      }
+    ],
+    [
+      "pop",
+      180,
+      {
+        "pitch": 1.1500000000000001
+      }
+    ],
+    [
+      "tick",
+      186,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      188,
+      {
+        "pitch": 1.28
+      }
+    ],
+    [
+      "tick",
+      190,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "tick",
+      192,
+      {
+        "pitch": 1.44
+      }
+    ],
+    [
+      "tick",
+      194,
+      {
+        "pitch": 1.52
+      }
+    ],
+    [
+      "click",
+      199,
+      {
+        "soft": false
+      }
+    ],
+    [
+      "pop",
+      204,
+      {
+        "pitch": 1.2000000000000002
+      }
+    ],
+    [
+      "tick",
+      210,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      212,
+      {
+        "pitch": 1.28
+      }
+    ],
+    [
+      "tick",
+      214,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "tick",
+      216,
+      {
+        "pitch": 1.44
+      }
+    ],
+    [
+      "tick",
+      218,
+      {
+        "pitch": 1.52
+      }
+    ],
+    [
+      "click",
+      223,
+      {
+        "soft": false
+      }
+    ],
+    [
+      "pop",
+      286,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "click",
+      305,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      292,
+      {
+        "pitch": 1.1500000000000001
+      }
+    ],
+    [
+      "click",
+      311,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      298,
+      {
+        "pitch": 1.2000000000000002
+      }
+    ],
+    [
+      "click",
+      317,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      304,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "click",
+      323,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      310,
+      {
+        "pitch": 1.1500000000000001
+      }
+    ],
+    [
+      "click",
+      329,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      316,
+      {
+        "pitch": 1.2000000000000002
+      }
+    ],
+    [
+      "click",
+      335,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      322,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "click",
+      341,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      328,
+      {
+        "pitch": 1.1500000000000001
+      }
+    ],
+    [
+      "click",
+      347,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "pop",
+      334,
+      {
+        "pitch": 1.2000000000000002
+      }
+    ],
+    [
+      "click",
+      353,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "whoosh",
+      284,
+      {
+        "dur": 72
+      }
+    ],
+    [
+      "chime",
+      256,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "tick",
+      440,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      444,
+      {
+        "pitch": 1.04
+      }
+    ],
+    [
+      "tick",
+      448,
+      {
+        "pitch": 1.08
+      }
+    ],
+    [
+      "tick",
+      452,
+      {
+        "pitch": 1.12
+      }
+    ],
+    [
+      "tick",
+      456,
+      {
+        "pitch": 1.16
+      }
+    ],
+    [
+      "tick",
+      460,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      464,
+      {
+        "pitch": 1.24
+      }
+    ],
+    [
+      "tick",
+      468,
+      {
+        "pitch": 1.28
+      }
+    ],
+    [
+      "tick",
+      472,
+      {
+        "pitch": 1.32
+      }
+    ],
+    [
+      "tick",
+      476,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "tick",
+      480,
+      {
+        "pitch": 1.4
+      }
+    ],
+    [
+      "tick",
+      484,
+      {
+        "pitch": 1.44
+      }
+    ],
+    [
+      "hinge",
+      506,
+      {
+        "dur": 14,
+        "soft": true
+      }
+    ],
+    [
+      "whoosh",
+      522,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "chime",
+      548,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "light",
+      586,
+      {
+        "step": 3
+      }
+    ],
+    [
+      "flap",
+      604,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      669,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      730,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "sparkle",
+      612,
+      {}
+    ],
+    [
+      "whoosh",
+      650,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "hinge",
+      690,
+      {
+        "dur": 14,
+        "soft": true
+      }
+    ],
+    [
+      "chime",
+      772,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "sparkle",
+      778,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    398,
+    440
+  ]
+}

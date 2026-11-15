@@ -1,0 +1,68 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Four rows of thirty cookies! Too many to count one by one?",
+      "seconds": 3.349,
+      "frames": 100.5
+    },
+    "v02": {
+      "text": "So the robot packs them in tens.",
+      "seconds": 1.724,
+      "frames": 51.7
+    },
+    "c10": {
+      "text": "Ten!",
+      "seconds": 0.474,
+      "frames": 14.2
+    },
+    "c20": {
+      "text": "Twenty!",
+      "seconds": 0.633,
+      "frames": 19.0
+    },
+    "c30": {
+      "text": "Thirty!",
+      "seconds": 0.516,
+      "frames": 15.5
+    },
+    "v04": {
+      "text": "One row is three tens.",
+      "seconds": 1.237,
+      "frames": 37.1
+    },
+    "v05": {
+      "text": "Four rows, three tens in each.",
+      "seconds": 1.607,
+      "frames": 48.2
+    },
+    "v06": {
+      "text": "How many tens in all?",
+      "seconds": 1.093,
+      "frames": 32.8
+    },
+    "v07": {
+      "text": "Twelve tens!",
+      "seconds": 0.859,
+      "frames": 25.8
+    },
+    "v08": {
+      "text": "Ten tens make one hundred. Two more tens make one hundred twenty.",
+      "seconds": 4.005,
+      "frames": 120.1
+    },
+    "v09": {
+      "text": "Four times three is twelve, so four times thirty is twelve tens.",
+      "seconds": 3.804,
+      "frames": 114.1
+    },
+    "v10": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
