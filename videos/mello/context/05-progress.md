@@ -589,3 +589,38 @@ Episode record: `25-episode-future-self.md`. New durable rule: `10-format-and-st
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-16, 2026-11-15: episode english16-01 "why feel small on purpose" (awe walks, English)
+Episode record: `26-episode-awe-walks.md`. Durable rules: `10-format-and-style-rules.md` sections 8 and 9. The latest feedback (store palette, soothing bed, psychology insight with a demonstration) is retained.
+
+## Verified facts (this round)
+- The proposed topic ("why a tiny unfinished task keeps interrupting your evening") is already covered by english12-01 (`22`), so a fresh same-genre topic was chosen: awe walks. Not covered in context 11–25.
+- Sources (PubMed abstracts):
+  - Sturm et al. 2022 (PMID 32955293): 60 older adults, weekly 15-min walks for 8 weeks, randomized to awe vs control walks. Awe walkers showed a smaller self and bigger smiles in their selfies, and greater decreases in daily distress. Anxiety, depression and life satisfaction did not change.
+  - Piff et al. 2015 (PMID 25984788): background for the "small self" and the grove; not spoken.
+
+## Creative decisions (this round)
+- English only, 68 words, hook audio at 0.15 s.
+- Frame 0 = the thumbnail composition: a tiny figure on a dusk hill under a big moon, "Why feel small / on purpose?".
+- Outdoors with the same rig (room hidden, sky dome, stars, grove, a far skyline band). A study card and a photo card hang in the sky. The payoff is a walk that stops under the tallest tree.
+- Captions are white with gold key words on the dark sky. `BED_GAIN` 0.39 (13.0 dB under the voice).
+- Thumbnail "WHY FEEL SMALL?".
+
+## Completed (this round)
+- Render 1 passed 16/16, but ASR heard "It's called awe" as "It's cold awe" on the mix. The line was reworded to "That feeling is awe: what you feel near something vast, like a night sky." and the video was fully re-rendered. Render 1 is not in the repo.
+- Final (render 2): `videos/mello/production/30s/2026-11-15-english-16/mello-30s-english16-01.mp4`
+  - sha256 `97bd8f9999c1a412dae3cb1948ce61c27cce99cb327f99cb7fdc3fb6575c0b39`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english16-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-15-english-16/qa/QA.md`):
+  - full decode clean; −16.1 LUFS, −1.3 dBTP;
+  - cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+- From 2.25 s to about 3.0 s the gold "awe" sits on the moon's halo (legible; the colon is faint).
+
+## Next
+- Wait for the next request or feedback.
