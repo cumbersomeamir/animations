@@ -46,7 +46,7 @@ function track(t, keys, ease = sm) {
 // ------------------------------------------------------------------ shot list (5 distinct shots) and beats
 const PS = l => TL[l].pauses;
 // word starts measured with faster-whisper word timestamps on generated/narration.wav (see notes): "small" 0.53,
-// "awe" 2.84, "vast" 4.34, "night sky" 5.22, "older adults" 7.18, "weekly" 8.22, "fifteen-minute" 8.64, "eight weeks" 9.92,
+// "awe" 2.71, "what you feel" 3.31, "vast" 4.33, "night sky" 5.27, "older adults" 7.18, "weekly" 8.22, "fifteen-minute" 8.64, "eight weeks" 9.92,
 // "looking for awe" 11.42, "more scenery" 12.98, "less self" 14.07, "bigger smiles" 15.04, "less daily distress" 17.31,
 // "next walk" 19.66, "one vast thing" 20.72, "a sky" 21.82, "a tree" 22.66, "a skyline" 23.36, "pause for it" 24.16
 const S = { s1: 0.0, s2: 2.25, s3: 6.05, s4: 10.95, s5: 19.15, end: 30.0 };
@@ -594,12 +594,12 @@ const hl = s => `<span class="hl">${s}</span>`;
 const sg = (html, t = null) => ({ html, t });
 const C2 = 96, C1 = 108, C0 = 132;
 const aweP = PS('awe')[0][1], studyP = PS('study')[0][1], selfP = PS('selfies')[0][1], payP1 = PS('payoff')[0][1], payP3 = PS('payoff')[2][1];
-const W_LIKE = 4.78, W_FOR = 9.68;
+const W_LIKE = 4.82, W_FOR = 9.68;
 const CAPS = [
   // frame 0: the curiosity words are the first caption, already fully on screen
   { a: -1, b: TL.awe.start - 0.12, size: C0, lines: [[sg('Why feel small')], [sg(`${hl('on purpose?')}`)]] },
-  { a: TL.awe.start - 0.06, b: aweP - 0.12, size: C1, lines: [[sg(`It’s called ${hl('awe')}:`)]] },
-  { a: aweP - 0.06, b: W_LIKE - 0.12, size: C2, lines: [[sg('the feeling near')], [sg(`something ${hl('vast')},`, 4.25)]] },
+  { a: TL.awe.start - 0.06, b: aweP - 0.12, size: C1, lines: [[sg(`That feeling is ${hl('awe')}:`)]] },
+  { a: aweP - 0.06, b: W_LIKE - 0.12, size: C2, lines: [[sg('what you feel near')], [sg(`something ${hl('vast')},`, 3.98)]] },
   { a: W_LIKE - 0.06, b: TL.study.start - 0.12, size: C1, lines: [[sg(`like a ${hl('night sky')}.`)]] },
   { a: TL.study.start - 0.06, b: studyP - 0.12, size: C1, lines: [[sg('In one study,')]] },
   { a: studyP - 0.06, b: W_FOR - 0.12, size: C2, lines: [[sg('older adults took weekly')], [sg(`${hl('fifteen-minute walks')}`, 8.55)]] },

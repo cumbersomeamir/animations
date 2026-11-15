@@ -30,7 +30,7 @@ PHONEME_FIX = {}
 # id, spoken text, start (s), latest allowed end (s)
 LINES = [
     ("hook", "Why feel small on purpose?", 0.15, 2.10),
-    ("awe", "It's called awe: the feeling near something vast, like a night sky.", 2.40, 6.00),
+    ("awe", "That feeling is awe: what you feel near something vast, like a night sky.", 2.05, 6.10),
     ("study", "In one study, older adults took weekly fifteen-minute walks for eight weeks.", 6.20, 10.90),
     ("selfies", "Those looking for awe took selfies with more scenery, less self, and bigger smiles.", 11.20, 16.20),
     ("distress", "They also reported less daily distress.", 16.45, 18.90),

@@ -32,7 +32,7 @@ Durable rules: `10-format-and-style-rules.md` sections 8 (2026-11-11) and 9 (fir
    - Used as background for the "small self" and the grove setting, not spoken.
 
 How the script uses them (measured / definition / illustrative):
-- **Definition (Sturm 2022):** "It's called awe: the feeling near something vast, like a night sky."
+- **Definition (Sturm 2022):** "That feeling is awe: what you feel near something vast, like a night sky."
 - **Measured (Sturm 2022, one randomized study of 60 healthy older adults):** "In one study, older adults took weekly fifteen-minute walks for eight weeks. Those looking for awe took selfies with more scenery, less self, and bigger smiles. They also reported less daily distress."
   - "Less daily distress" means a greater decrease in daily distress than the control walkers.
   - Anxiety, depression and life satisfaction did not change; the script makes no claim about them.
@@ -42,17 +42,19 @@ How the script uses them (measured / definition / illustrative):
 ## Voice and verification
 - Kokoro-82M v1.0, 0.7 × af_bella + 0.3 × am_puck, en-us, speed 0.98, local CPU, synthesized fresh.
 - ASR fixes:
-  - "That's awe:" was heard as "That's all". The line became "It's called awe: the feeling near something vast, like a night sky."
+  - "That's awe:" was heard as "That's all".
+  - "It's called awe: …" was exact on the clean narration. On render 1's final mix, though, it was heard as "It's cold awe" (that line CER 0.057; the file still passed overall at 0.009).
+  - Several mix tweaks (removing a glide, moving a note and a chord change, lowering the ambience, deeper ducking) did not make it robust. The two words are close in this voice.
+  - The line became "That feeling is awe: what you feel near something vast, like a night sky.", which is exact on the narration and on the final mix. The video was re-rendered (render 2) because the captions changed.
   - Digits "15" are mapped to "fifteen".
-  - ASR is then exact on all 7 lines.
-- Measured word starts: "small" 0.53 s, "awe" 2.84, "vast" 4.34, "night sky" 5.22, "older adults" 7.18, "weekly" 8.22, "fifteen-minute" 8.64, "eight weeks" 9.92, "looking for awe" 11.42, "more scenery" 12.98, "less self" 14.07, "bigger smiles" 15.04, "less daily distress" 17.31, "next walk" 19.66, "one vast thing" 20.72, "a sky" 21.82, "a tree" 22.66, "a skyline" 23.36, "pause for it" 24.16.
+- Measured word starts: "small" 0.53 s, "awe" 2.71, "what you feel" 3.31, "vast" 4.33, "night sky" 5.27, "older adults" 7.18, "weekly" 8.22, "fifteen-minute" 8.64, "eight weeks" 9.92, "looking for awe" 11.42, "more scenery" 12.98, "less self" 14.07, "bigger smiles" 15.04, "less daily distress" 17.31, "next walk" 19.66, "one vast thing" 20.72, "a sky" 21.82, "a tree" 22.66, "a skyline" 23.36, "pause for it" 24.16.
 - I can't listen to audio. The check is an ASR round-trip plus loudness and stem measurements.
 
-## Final script (English, as recorded; 66 words)
+## Final script (English, as recorded; 68 words)
 | line | text | start | end |
 |---|---|---|---|
 | hook | Why feel small on purpose? | 0.15 | 1.54 |
-| awe | It's called awe: the feeling near something vast, like a night sky. | 2.40 | 5.95 |
+| awe | That feeling is awe: what you feel near something vast, like a night sky. | 2.05 | 6.03 |
 | study | In one study, older adults took weekly fifteen-minute walks for eight weeks. | 6.20 | 10.66 |
 | selfies | Those looking for awe took selfies with more scenery, less self, and bigger smiles. | 11.20 | 15.99 |
 | distress | They also reported less daily distress. | 16.45 | 18.60 |

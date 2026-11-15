@@ -5,7 +5,7 @@ Thumbnail: `../mello-30s-english16-01-thumbnail.png` ("WHY FEEL SMALL?"; the sam
 ## Post caption (ready to paste)
 Why feel small on purpose?
 
-It's called awe: the feeling near something vast, like a night sky. In one study, older adults took weekly fifteen-minute walks for eight weeks. Those looking for awe took selfies with more scenery, less self, and bigger smiles. They also reported less daily distress.
+That feeling is awe: what you feel near something vast, like a night sky. In one study, older adults took weekly fifteen-minute walks for eight weeks. Those looking for awe took selfies with more scenery, less self, and bigger smiles. They also reported less daily distress.
 
 So on your next walk, find one vast thing, a sky, a tree, a skyline, and pause for it.
 

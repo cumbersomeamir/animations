@@ -4,7 +4,7 @@ Same synth, ducking and master chain as the accepted episodes; only the chord pl
 Reads generated/narration.wav (English, Kokoro blend), timeline.json and events.json (scene beats exported by
 render.mjs) and writes generated/mix.wav + audio_stats.json. Latest feedback: an original, gentle, soothing bed (slow
 filtered "air" swells) sits under the pad, below speech. SFX are only for on-screen actions:
-a soft glide as the camera rises into the sky, and footsteps on the garden path until he stops.
+footsteps on the garden path until he stops.
 -16 LUFS master; music kept quiet under the voice (about 13 dB).
 """
 import json
@@ -22,6 +22,7 @@ SR = 48000
 DUR = 30.0
 N = int(SR * DUR)
 RNG = np.random.default_rng(1102)
+TL_AWE_END = 3.05   # end of "That feeling is awe" (word timestamps): no chord change under those words
 BED_GAIN = 0.39  # re-measured for this narration + the soothing bed: keeps the bed about 13 dB under the voice
 
 
@@ -194,8 +195,8 @@ def step(d=0.16):
 def music(T, S):
     buf = np.zeros((N, 2))
     plan = [
-        (0.0, S["s2"] + 0.3, ["D3", "A3", "E4", "F#4"], 1100, 1.0),                              # Dadd9: the vast sky
-        (S["s2"] - 0.2, S["s3"] + 0.3, ["B2", "F#3", "A3", "D4"], 1300, 1.0),                    # Bm7: awe
+        (0.0, TL_AWE_END + 0.5, ["D3", "A3", "E4", "F#4"], 1100, 1.0),                          # Dadd9: the vast sky
+        (TL_AWE_END, S["s3"] + 0.3, ["B2", "F#3", "A3", "D4"], 1300, 1.0),                      # Bm7: awe (enters after "called awe")
         (S["s3"] - 0.2, S["s4"] + 0.3, ["G2", "D3", "A3", "B3"], 1300, 0.95),                    # Gadd9: the study
         (S["s4"] - 0.2, S["s5"] + 0.3, ["E2", "B2", "G3", "D4"], 1400, 0.95),                    # Em7: selfies, distress
         (S["s5"] - 0.2, DUR + 1, ["D3", "A3", "C#4", "F#4", "E5"], 1800, 1.0),                   # Dmaj9: the walk, the pause
@@ -203,7 +204,7 @@ def music(T, S):
     for a, b, notes, cut, g in plan:
         place(buf, pad_chord(notes, b - a, att=2.4, rel=3.2, cutoff=cut, gain=0.05 * g), a)
     place(buf, np.stack([ambience(DUR), ambience(DUR)[::-1]], 1) * 1.0, 0.0)                    # soothing evening air (stereo)
-    for t0, nm, pan in ((T["lookUp"], "A5", 0.15), (2.85, "F#5", -0.1), (T["cWeekly"], "D5", -0.15), (T["c15"], "E5", 0.0), (T["c8"], "F#5", 0.15),
+    for t0, nm, pan in ((T["lookUp"], "A5", 0.15), (3.15, "F#5", -0.1), (T["cWeekly"], "D5", -0.15), (T["c15"], "E5", 0.0), (T["c8"], "F#5", 0.15),
                         (T["ph1"], "A4", -0.2), (T["ph2"], "B4", -0.1), (T["ph3"], "D5", 0.1), (T["ph4"], "F#5", 0.2), (T["smile"], "A5", 0.0),
                         (T["distB"], "D5", 0.0), (T["stop"], "A5", -0.1), (T["lockA"] + 0.1, "D5", 0.0), (T["lockA"] + 0.6, "F#5", -0.1)):
         place(buf, ep_note(hz(nm), 3.4, bright=0.75), t0, 0.72, pan)
@@ -212,7 +213,7 @@ def music(T, S):
 
 def sfx(T, S):
     buf = np.zeros((N, 2))
-    place(buf, glide(S["s3"] - S["s2"]), S["s2"], 0.6, 0.0)                                 # the crane up into the sky
+    # (no glide under the "awe" line: it masked "called" in the ASR check of render 1)
     k, t = 1, T["walkA"] + 0.25                                                               # footsteps along the path until he stops
     while t < T["stop"] - 0.1:
         place(buf, step(), t, 0.85, 0.1 if k % 2 else -0.1); t += 0.52; k += 1

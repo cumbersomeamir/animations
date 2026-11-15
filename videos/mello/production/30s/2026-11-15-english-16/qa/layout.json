@@ -596,19 +596,9 @@
     1189
    ],
    "desk": null,
-   "caption": [
-    100,
-    340,
-    900,
-    520
-   ],
-   "captionText": [
-    180,
-    306,
-    820,
-    554
-   ],
-   "captionLines": 2,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
    "shot": 1
   },
   {
@@ -626,18 +616,18 @@
    ],
    "desk": null,
    "caption": [
-    100,
-    340,
-    900,
-    520
+    103,
+    341,
+    897,
+    519
    ],
    "captionText": [
-    180,
-    306,
-    820,
-    554
+    145,
+    380,
+    855,
+    480
    ],
-   "captionLines": 2,
+   "captionLines": 1,
    "shot": 1
   },
   {
@@ -661,12 +651,12 @@
     520
    ],
    "captionText": [
-    180,
-    306,
-    820,
-    554
+    142,
+    379,
+    858,
+    481
    ],
-   "captionLines": 2,
+   "captionLines": 1,
    "shot": 1
   },
   {
@@ -683,9 +673,19 @@
     1468
    ],
    "desk": null,
-   "caption": null,
-   "captionText": null,
-   "captionLines": 0,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    142,
+    379,
+    858,
+    481
+   ],
+   "captionLines": 1,
    "shot": 2
   },
   {
@@ -703,16 +703,16 @@
    ],
    "desk": null,
    "caption": [
-    105,
-    341,
-    895,
-    519
+    100,
+    340,
+    900,
+    520
    ],
    "captionText": [
-    232,
-    380,
-    768,
-    480
+    142,
+    379,
+    858,
+    481
    ],
    "captionLines": 1,
    "shot": 2
@@ -732,15 +732,15 @@
    ],
    "desk": null,
    "caption": [
-    101,
+    100,
     340,
-    899,
+    900,
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -767,9 +767,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -796,9 +796,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -825,9 +825,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -854,9 +854,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -883,9 +883,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -912,9 +912,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -941,9 +941,9 @@
     520
    ],
    "captionText": [
-    229,
+    142,
     379,
-    771,
+    858,
     481
    ],
    "captionLines": 1,
@@ -963,19 +963,9 @@
     1793
    ],
    "desk": null,
-   "caption": [
-    100,
-    340,
-    900,
-    520
-   ],
-   "captionText": [
-    229,
-    379,
-    771,
-    481
-   ],
-   "captionLines": 1,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
    "shot": 2
   },
   {
@@ -992,9 +982,19 @@
     1854
    ],
    "desk": null,
-   "caption": null,
-   "captionText": null,
-   "captionLines": 0,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    209,
+    341,
+    791,
+    519
+   ],
+   "captionLines": 2,
    "shot": 2
   },
   {
@@ -1012,16 +1012,16 @@
    ],
    "desk": null,
    "caption": [
-    105,
-    341,
-    895,
-    519
+    101,
+    340,
+    899,
+    520
    ],
    "captionText": [
-    238,
-    341,
-    762,
-    519
+    206,
+    340,
+    794,
+    520
    ],
    "captionLines": 2,
    "shot": 2
@@ -1041,15 +1041,15 @@
    ],
    "desk": null,
    "caption": [
-    101,
+    100,
     340,
-    899,
+    900,
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1076,9 +1076,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1105,9 +1105,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1134,9 +1134,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1163,9 +1163,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1192,9 +1192,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1221,9 +1221,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1250,9 +1250,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1279,9 +1279,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1308,9 +1308,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1337,9 +1337,9 @@
     520
    ],
    "captionText": [
-    235,
+    205,
     340,
-    765,
+    795,
     520
    ],
    "captionLines": 2,
@@ -1379,15 +1379,15 @@
    ],
    "desk": null,
    "caption": [
-    104,
+    106,
     341,
-    896,
+    894,
     519
    ],
    "captionText": [
-    208,
+    209,
     380,
-    792,
+    791,
     480
    ],
    "captionLines": 1,
@@ -1408,15 +1408,15 @@
    ],
    "desk": null,
    "caption": [
-    100,
+    102,
     340,
-    900,
+    898,
     520
    ],
    "captionText": [
-    205,
+    206,
     379,
-    795,
+    794,
     481
    ],
    "captionLines": 1,
