@@ -49,5 +49,11 @@ Every take transcribed exactly by Whisper medium before use (the first, longer d
 | S8 | 21.75–25.92 | the board glides off the copper edge onto paving slabs and drops | motion + metal |
 | S9 | 25.92–30 | Media Diet sign; the board hovers over a copper strip behind it | — |
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 37e16aacef61f1ea52974f9bc7941c587e8ec770393fd1e267fcb8bf10a72f4c; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 340–534, x 196–885; labels x 152–839,
+y 1350–1483; 0 violations; caption↔speech 13/13; Whisper-medium per-line recall 1.0 on every line; single full pass 0.974 (numbers spelled
+out + a trailing "You"; every word heard). Thumbnail = frame 0 (SHA-256 dee3e66a…62f6), mean abs diff vs encoded frame 0 = 1.41/255.
+Render note: the disk allowance filled during the render; pip/uv/npm caches were cleared and the three missing chunks re-rendered.
+Limits: generic reconstruction (no creator footage; the video itself was not played here); "6 kilos" is the creator's estimate, labelled;
+gap exaggerated, spin slowed, current loops schematic; nobody has listened to or watched the final file yet.

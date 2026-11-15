@@ -1,0 +1,197 @@
+[
+ {
+  "line": "V1",
+  "text": "Copper isn't / magnetic.",
+  "cue": [
+   0.0,
+   1.58
+  ],
+  "speech": [
+   0.073,
+   1.208
+  ],
+  "lead_s": 0.073,
+  "tail_s": 0.372,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Yet this hoverboard by / Jake Rogers floats over it.",
+  "cue": [
+   1.67,
+   5.0
+  ],
+  "speech": [
+   1.772,
+   4.745
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.255,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "So what pushes it up?",
+  "cue": [
+   5.02,
+   6.35
+  ],
+  "speech": [
+   5.125,
+   6.08
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.27,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Two rings of magnets spin,",
+  "cue": [
+   6.37,
+   8.175
+  ],
+  "speech": [
+   6.472,
+   8.01
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.165,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "driving swirling currents / in the copper.",
+  "cue": [
+   8.195,
+   10.699
+  ],
+  "speech": [
+   8.377,
+   10.342
+  ],
+  "lead_s": 0.182,
+  "tail_s": 0.357,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Those currents make / their own magnet,",
+  "cue": [
+   10.82,
+   12.805
+  ],
+  "speech": [
+   10.921,
+   12.675
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.13,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "and it pushes back.",
+  "cue": [
+   12.825,
+   14.2
+  ],
+  "speech": [
+   12.978,
+   13.895
+  ],
+  "lead_s": 0.153,
+  "tail_s": 0.305,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Stop spinning, and it drops.",
+  "cue": [
+   14.22,
+   15.95
+  ],
+  "speech": [
+   14.326,
+   15.681
+  ],
+  "lead_s": 0.106,
+  "tail_s": 0.269,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "The catch: at 8,000 rpm,",
+  "cue": [
+   15.97,
+   18.36
+  ],
+  "speech": [
+   16.073,
+   18.261
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.099,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "a 4-gram magnet pulls / outward like 6 kilos.",
+  "cue": [
+   18.38,
+   21.725
+  ],
+  "speech": [
+   18.498,
+   21.378
+  ],
+  "lead_s": 0.118,
+  "tail_s": 0.347,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "So the lift needs / motion and metal:",
+  "cue": [
+   21.77,
+   23.775
+  ],
+  "speech": [
+   21.875,
+   23.613
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.162,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "no copper, no hover.",
+  "cue": [
+   23.795,
+   25.601
+  ],
+  "speech": [
+   23.982,
+   25.242
+  ],
+  "lead_s": 0.187,
+  "tail_s": 0.359,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.154,
+   29.176
+  ],
+  "lead_s": 0.134,
+  "tail_s": 0.347,
+  "ok": true
+ }
+]

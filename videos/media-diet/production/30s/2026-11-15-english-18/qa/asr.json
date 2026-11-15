@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Copper isn't magnetic. Yet this hoverboard by Jake Rogers floats over it. So what pushes it up? Two rings of magnets spin, driving swirling currents in the copper. Those currents make their own magnet, and it pushes back. Stop spinning and it drops. The catch, at 8,000 RPM, a four-gram magnet pulls outward like six kilos. So the lift needs motion and metal. No copper, no hover. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 0.974,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.28
+   ],
+   "transcript": "Copper isn't magnetic.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.75,
+    4.79
+   ],
+   "transcript": "Yet this hoverboard by Jake Rogers floats over it.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    5.1,
+    6.13
+   ],
+   "transcript": "So what pushes it up?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    6.45,
+    10.4
+   ],
+   "transcript": "Two rings of magnets spin, driving swirling currents in the copper.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    10.9,
+    13.96
+   ],
+   "transcript": "Those currents make their own magnet, and it pushes back.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    14.3,
+    15.73
+   ],
+   "transcript": "Stop spinning and it drops.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    16.05,
+    21.43
+   ],
+   "transcript": "The catch, at 8,000 rpm, a 4-gram magnet pulls outward like 6 kilos.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    21.85,
+    25.3
+   ],
+   "transcript": "So the lift needs motion and metal. No copper, no hover.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Copper isn't magnetic. Yet this hoverboard by Jake Rogers floats over it. So what pushes it up? Two rings of magnets spin, driving swirling currents in the copper. Those currents make their own magnet, and it pushes back. Stop spinning and it drops. The catch, at 8,000 rpm, a 4-gram magnet pulls outward like 6 kilos. So the lift needs motion and metal. No copper, no hover. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

@@ -343,3 +343,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 76 words / 25.7 s, every take heard exactly by Whisper. Stills checked (cameras pulled back for portrait, shell fades fully in
   S4, single-rotor shot clear of the caption band, 6 kg weight beside the label). Running: three render_chunks workers; next
   `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english18-01.png`, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-15 — english-18 / batch 18 delivered
+- production/30s/2026-11-15-english-18/media-diet-30s-english18-01.mp4 (SHA-256 37e16aacef61f1ea52974f9bc7941c587e8ec770393fd1e267fcb8bf10a72f4c)
+  + thumbnail-english18-01.png (= frame 0); record context/33; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 340–534, x 196–885; labels y 1350–1483; 0 violations; caption↔speech 13/13; Whisper per-line 1.0, full pass 0.974 (number spelling).
+- Operational: disk allowance filled mid-render (all workers died on their last chunk); `pip cache purge`, `uv cache clean`,
+  `npm cache clean --force` freed ~430 MB; chunks 240/540/840 re-rendered. Deleting other episodes' gitignored frames/ was blocked by the
+  permission system — if space runs out again, the user may need to allow clearing old frames/ caches (all gitignored; MP4s committed).
+- Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
