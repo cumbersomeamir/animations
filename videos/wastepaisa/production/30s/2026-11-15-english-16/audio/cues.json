@@ -1,0 +1,53 @@
+{
+ "sfx_cues": [
+  [
+   0.0,
+   "tyres settle at frame 0 (low thud, before \"Same\")"
+  ],
+  [
+   1.95,
+   "fresh tread wraps the left tyre (between lines)"
+  ],
+  [
+   4.55,
+   "shredder grinds the right tyre (after \"crumb\", before \"India\")"
+  ],
+  [
+   7.42,
+   "to the X-ray sections (between lines)"
+  ],
+  [
+   11.48,
+   "inspection starts (between lines)"
+  ],
+  [
+   15.32,
+   "last tyre lands on its stack (between lines)"
+  ],
+  [
+   22.95,
+   "LEFT \u2248 \u20b91,300 (after the line)"
+  ],
+  [
+   26.0,
+   "the loss bar settles (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.10",
+  "input_tp": "-3.10",
+  "input_lra": "3.60",
+  "input_thresh": "-27.89",
+  "output_i": "-15.65",
+  "output_tp": "-1.50",
+  "output_lra": "3.00",
+  "output_thresh": "-26.43",
+  "normalization_type": "dynamic",
+  "target_offset": "0.65"
+ }
+}

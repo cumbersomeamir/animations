@@ -1,0 +1,77 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.177,
+  "words": 70,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Same tyre. Different buyer.",
+      "start": 0.1,
+      "phonemes": "sˈeɪm tˈaɪɚ. dˈɪfɹənt bˈaɪɚ.",
+      "duration": 1.768,
+      "end": 1.868
+    },
+    {
+      "id": "L2",
+      "text": "One rolls again; the other becomes crumb.",
+      "start": 2.2,
+      "phonemes": "wˈʌn ɹˈoʊlz ɐɡˈɛn; ðɪ ˈʌðɚ bɪkˌʌmz kɹˈʌm.",
+      "duration": 2.319,
+      "end": 4.519
+    },
+    {
+      "id": "L3",
+      "text": "India retreads about ten million tyres a year.",
+      "tts": "India retreads about ten million tires a year.",
+      "start": 4.9,
+      "phonemes": "ˈɪndiɚ ɹᵻtɹˈɛdz ɐbˌaʊt tˈɛn mˈɪliən tˈaɪɚz ɐ jˈɪɹ.",
+      "duration": 2.47,
+      "end": 7.37
+    },
+    {
+      "id": "L4",
+      "text": "Retreaders need a sound casing: no cuts or separations.",
+      "start": 7.7,
+      "phonemes": "ɹᵻtɹˈɛdɚz nˈiːd ɐ sˈaʊnd kˈeɪsɪŋ: nˈoʊ kˈʌts ɔːɹ sˌɛpɚɹˈeɪʃənz.",
+      "duration": 3.721,
+      "end": 11.421
+    },
+    {
+      "id": "L5",
+      "text": "So inspect each tyre, and sort casings from crumb tyres.",
+      "tts": "So inspect each tire, and sort casings from crumb tires.",
+      "start": 11.8,
+      "phonemes": "sˌoʊ ɪnspˈɛkt ˈiːtʃ tˈaɪɚ, ænd sˈɔːɹt kˈeɪsɪŋz fɹʌm kɹˈʌm tˈaɪɚz.",
+      "duration": 3.492,
+      "end": 15.292
+    },
+    {
+      "id": "L6",
+      "text": "Say ten tyres give six casings: after buying, sorting and transport, about ₹1,300 is left.",
+      "tts": "Say ten tires give six casings: after buying, sorting and transport, about thirteen hundred rupees is left.",
+      "start": 15.65,
+      "phonemes": "sˈeɪ tˈɛn tˈaɪɚz ɡˈɪv sˈɪks kˈeɪsɪŋz: ˈæftɚ bˈaɪɪŋ, sˈɔːɹɾɪŋ ænd tɹˈænspɔːɹt, ɐbˌaʊt θˈɜːtiːn hˈʌndɹɪd ɹˈuːpiːz ɪz lˈɛft.",
+      "duration": 7.235,
+      "end": 22.885
+    },
+    {
+      "id": "L7",
+      "text": "Sold all as crumb, the same ten lose money.",
+      "start": 23.25,
+      "phonemes": "sˈoʊld ˈɔːl æz kɹˈʌm, ðə sˈeɪm tˈɛn lˈuːz mˈʌni.",
+      "duration": 2.687,
+      "end": 25.937
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

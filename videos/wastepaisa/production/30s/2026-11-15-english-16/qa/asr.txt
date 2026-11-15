@@ -1,0 +1,29 @@
+English intelligibility and timing evidence: wastepaisa-30s-english16-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.75 | onset plan 0.10 heard 0.12 | offset plan 1.87 heard 1.86 | heard: same tire different buyer
+   L2 word acc 0.86 | onset plan 2.20 heard 2.17 | offset plan 4.52 heard 4.51 | heard: one rose again the other becomes crumb
+   L3 word acc 1.00 | onset plan 4.90 heard 4.90 | offset plan 7.37 heard 7.39 | heard: india retreads about ten million tires a year
+   L4 word acc 0.89 | onset plan 7.70 heard 7.67 | offset plan 11.42 heard 11.42 | heard: retractors need a sound casing no cuts or separations
+   L5 word acc 0.90 | onset plan 11.80 heard 11.77 | offset plan 15.29 heard 15.31 | heard: so inspect each tire and sort casings from chrome tires
+   L6 word acc 1.00 | onset plan 15.65 heard 15.65 | offset plan 22.89 heard 22.88 | heard: say ten tires give six casings after buying sorting and transport about thirteen hundred rupees is left
+   L7 word acc 0.89 | onset plan 23.25 heard 23.25 | offset plan 25.94 heard 25.95 | heard: sold all his crumb the same ten lose money
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.897; every onset/offset within 0.03 s of plan (full record in qa/asr-english-vosk.json)
+   Misses:
+   - L1 "tyre" vs heard "tire" is spelling only (the reference keeps the caption spelling; the voice says "tire").
+   - "retreaders" -> "retractors" and "crumb" -> "chrome" are recogniser confusions already seen on the dry narration (draft stage),
+     where faster-whisper heard both correctly; the wording was kept because they are the precise trade terms.
+   - "rolls" -> "rose" (L2) and "as" -> "his" (L7) appear only on the export; the dry narration pass heard "rolls" correctly and
+     faster-whisper hears both words correctly on the export. No SFX sits on either word (audio/cues.json); the pad is ducked under speech.
+   - The brand is out of the Vosk vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Same tire, different buyer. One rolls again, the other becomes crumb. India retreads about 10 million tires a year. Retreaders need a sound casing. No cuts or separations. So inspect each tire and sort casings from crumb tires. Say 10 tires give 6 casings. After buying, sorting and transport, about 1300 rupees is left. Sold all as crumb, the same 10 lose money. Join Waste PISAW and put your scrap to use.
+   Matches the script word for word apart from the brand spelling (US "tire" is the TTS spelling; captions show "tyre").
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.4 dBFS (AAC encode adds 0.1 dB over the -1.5 dBTP
+   loudnorm target), sample peak -1.42 dBFS, flat factor 0 (no clipped runs). The frame-0 thud is low and short; whoosh, grind, scan,
+   tick, landing thud, ping and loss thud all sit between lines (audio/cues.json).

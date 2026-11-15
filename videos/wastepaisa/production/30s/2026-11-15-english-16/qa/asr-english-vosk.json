@@ -1,0 +1,118 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Same tyre. Different buyer.",
+   "heard": "same tire different buyer",
+   "word_acc": 0.75,
+   "plan_on": 0.1,
+   "heard_on": 0.12,
+   "plan_off": 1.868,
+   "heard_off": 1.86,
+   "missed": [
+    [
+     "tyre"
+    ]
+   ]
+  },
+  {
+   "id": "L2",
+   "ref": "One rolls again; the other becomes crumb.",
+   "heard": "one rose again the other becomes crumb",
+   "word_acc": 0.857,
+   "plan_on": 2.2,
+   "heard_on": 2.17,
+   "plan_off": 4.519,
+   "heard_off": 4.51,
+   "missed": [
+    [
+     "rolls"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "India retreads about ten million tires a year.",
+   "heard": "india retreads about ten million tires a year",
+   "word_acc": 1.0,
+   "plan_on": 4.9,
+   "heard_on": 4.9,
+   "plan_off": 7.37,
+   "heard_off": 7.39,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Retreaders need a sound casing: no cuts or separations.",
+   "heard": "retractors need a sound casing no cuts or separations",
+   "word_acc": 0.889,
+   "plan_on": 7.7,
+   "heard_on": 7.67,
+   "plan_off": 11.421,
+   "heard_off": 11.42,
+   "missed": [
+    [
+     "retreaders"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "So inspect each tire, and sort casings from crumb tires.",
+   "heard": "so inspect each tire and sort casings from chrome tires",
+   "word_acc": 0.9,
+   "plan_on": 11.8,
+   "heard_on": 11.77,
+   "plan_off": 15.292,
+   "heard_off": 15.31,
+   "missed": [
+    [
+     "crumb"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Say ten tires give six casings: after buying, sorting and transport, about thirteen hundred rupees is left.",
+   "heard": "say ten tires give six casings after buying sorting and transport about thirteen hundred rupees is left",
+   "word_acc": 1.0,
+   "plan_on": 15.65,
+   "heard_on": 15.65,
+   "plan_off": 22.885,
+   "heard_off": 22.88,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Sold all as crumb, the same ten lose money.",
+   "heard": "sold all his crumb the same ten lose money",
+   "word_acc": 0.889,
+   "plan_on": 23.25,
+   "heard_on": 23.25,
+   "plan_off": 25.937,
+   "heard_off": 25.95,
+   "missed": [
+    [
+     "as"
+    ]
+   ]
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

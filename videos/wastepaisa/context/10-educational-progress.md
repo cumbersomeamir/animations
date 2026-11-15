@@ -416,6 +416,39 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixed during QA:** "stamped test weights" (ASR) → "verified test weights" with re-timing; small scales enlarged; one caption group
   split to stay inside x 100–900; an empty beat at the start of the example filled.
 
+## english-16 (2026-11-15-english-16) episode 01: COMPLETE (English)
+- **Topic:**
+  - The proposed mixed-plastic topic ("The scrap business mistake hiding inside mixed plastic") repeated english-14 (polymer sorting)
+    and english-07 (sorted vs mixed plastic).
+  - Replacement with the same genre, story criteria and hook shape: truck tyre casings. The same worn tyre goes to a retreader (sound
+    casing) or to crumb. India retreads about 10 million tyres a year; retreaders need casings with no cuts or separations, so inspect
+    and sort before sale.
+  - The payoff is a transparent HYPOTHETICAL ledger that includes buying, sorting/labour and transport.
+- **First-frame rule:** frame 0 shows two identical worn tyres (warm vs cool rim light) with "Same tyre. Different buyer." on screen
+  and the voice at 0.10 s; the thumbnail is the same composition.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-15-english-16/wastepaisa-30s-english16-01.mp4`,
+  SHA-256 `30368bd1ff6889fe8470ed392e4895aceb012f76aa48400743a4f7adcefefce5`; thumbnail `wastepaisa-30s-english16-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 135.5–864.5, y 343.5–516.5; hook caption at frame 0.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.897 (trade terms "retreaders"/"crumb" are recogniser confusions; brand); Whisper word for word apart from the brand.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - NITI Aayog, "Enhancing Circular Economy of Waste Tyres in India" (Jan 2026): ~10 million retreads a year, mostly truck and bus;
+    retreads keep 50–70 % of performance; crumb is a separate end market.
+  - BIS IS 15731:2018 (selection and inspection of retreadable casings).
+  - Apollo Tyres guide: a casing must be sound, with no cuts or separations.
+  - Hypothetical ledger: 6 casings × ₹1,500 + 4 crumb tyres 200 kg × ₹5 = ₹10,000; buying −₹5,000, sorting −₹700, transport
+    −₹3,000; left ≈ ₹1,300. All as crumb: −₹5,500.
+  - Episode record: `context/29-english-16-01.md`. No automation.
+- **Fixed during QA:**
+  - Scene continuity: the two-fates jump; the hook→split dissolve dimming (now one continuous scene).
+  - The "≈0 MILLION" count-up, the sorting queue (read as one tyre) and small compare bars.
+  - The loss corrected to −₹5,500 (no sorting cost when nothing is sorted).
+- **Renderer:** labels now fade with their scene.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
