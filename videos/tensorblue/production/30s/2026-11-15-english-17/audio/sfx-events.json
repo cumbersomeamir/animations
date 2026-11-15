@@ -1,0 +1,214 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 2.925,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 3.646,
+   "type": "wipe"
+  },
+  {
+   "t": 3.846,
+   "type": "clack"
+  },
+  {
+   "t": 5.817,
+   "type": "wipe"
+  },
+  {
+   "t": 6.061,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 7.399,
+   "type": "blip"
+  },
+  {
+   "t": 7.699,
+   "type": "tap"
+  },
+  {
+   "t": 9.73,
+   "type": "wipe"
+  },
+  {
+   "t": 9.98,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 10.33,
+   "type": "tap"
+  },
+  {
+   "t": 10.902,
+   "type": "slot"
+  },
+  {
+   "t": 11.352,
+   "type": "slot"
+  },
+  {
+   "t": 12.778,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 13.663,
+   "type": "wipe"
+  },
+  {
+   "t": 14.013,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 15.038,
+   "type": "match"
+  },
+  {
+   "t": 16.418,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 16.963,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 17.698,
+   "type": "wipe"
+  },
+  {
+   "t": 18.812,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 19.412,
+   "type": "tap"
+  },
+  {
+   "t": 19.862,
+   "type": "slot"
+  },
+  {
+   "t": 20.045,
+   "type": "match"
+  },
+  {
+   "t": 20.412,
+   "type": "slot"
+  },
+  {
+   "t": 20.437,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 21.233,
+   "type": "wipe"
+  },
+  {
+   "t": 22.229,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 23.917,
+   "type": "type"
+  },
+  {
+   "t": 24.629,
+   "type": "type"
+  },
+  {
+   "t": 26.052,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.182,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "two": 0.1,
+  "drag1": 0.625,
+  "once": 1.55,
+  "why": 2.275,
+  "file": 2.713,
+  "brk": 3.025,
+  "figmas": 3.796,
+  "cofounder": 4.17,
+  "trick": 5.27,
+  "your": 5.967,
+  "drag3": 6.061,
+  "screen": 6.986,
+  "instantly": 7.399,
+  "before": 8.286,
+  "answers": 8.986,
+  "then": 9.88,
+  "every": 10.115,
+  "edit": 10.452,
+  "server4": 11.265,
+  "puts": 12.178,
+  "one4": 12.778,
+  "order4": 13.028,
+  "same": 13.813,
+  "property": 14.063,
+  "last": 15.088,
+  "server5": 15.925,
+  "wins": 16.538,
+  "everywhere": 16.963,
+  "different": 17.848,
+  "like": 18.7,
+  "position": 18.862,
+  "color": 19.462,
+  "both": 20.125,
+  "survive": 20.437,
+  "figma7": 21.383,
+  "not": 22.229,
+  "crdt": 22.767,
+  "one7": 23.967,
+  "server7": 24.267,
+  "orders": 24.679,
+  "change": 25.392,
+  "follow": 27,
+  "tb": 27.282,
+  "chime": 26.052000000000003,
+  "scenes": [
+   0,
+   3.646,
+   5.816999999999999,
+   9.73,
+   13.663,
+   17.698,
+   21.233,
+   26.6,
+   30.01
+  ]
+ }
+}

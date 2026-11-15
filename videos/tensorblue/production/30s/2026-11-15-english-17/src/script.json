@@ -1,0 +1,71 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "Figma": "fˈɪɡmə (not in the misaki lexicon); Figma's = fˈɪɡməz"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "Two people drag one shape at once. Why doesn't the file break?",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "[Figma's](/fˈɪɡməz/) co-founder explained the trick.",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Your drag shows on your screen instantly, before the server answers.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Then every edit goes to the server, which puts them in one order.",
+   "after": 0.3
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "Same property? The last value the server gets wins, everywhere.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Different properties, like position and color? Both survive.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "[Figma](/fˈɪɡmə/) says that's not a true CRDT: one server orders every change.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

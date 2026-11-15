@@ -1,0 +1,243 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Two people drag",
+    "one shape at once."
+   ],
+   "t0": 0.04,
+   "tEnd": 2.21,
+   "frame": 19,
+   "box": {
+    "x0": 255,
+    "x1": 742,
+    "y0": 373,
+    "y1": 486,
+    "n": 15080
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Why doesn't the file break?"
+   ],
+   "t0": 2.21,
+   "tEnd": 3.74,
+   "frame": 84,
+   "box": {
+    "x0": 144,
+    "x1": 854,
+    "y0": 404,
+    "y1": 456,
+    "n": 11858
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Figma's co-founder",
+    "explained the trick."
+   ],
+   "t0": 3.74,
+   "tEnd": 5.91,
+   "frame": 130,
+   "box": {
+    "x0": 246,
+    "x1": 756,
+    "y0": 371,
+    "y1": 487,
+    "n": 16653
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Your drag shows on your",
+    "screen instantly,"
+   ],
+   "t0": 5.91,
+   "tEnd": 8.23,
+   "frame": 195,
+   "box": {
+    "x0": 177,
+    "x1": 823,
+    "y0": 374,
+    "y1": 487,
+    "n": 17370
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "before the server answers."
+   ],
+   "t0": 8.23,
+   "tEnd": 9.82,
+   "frame": 265,
+   "box": {
+    "x0": 152,
+    "x1": 846,
+    "y0": 409,
+    "y1": 450,
+    "n": 11065
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Then every edit",
+    "goes to the server,"
+   ],
+   "t0": 9.82,
+   "tEnd": 11.92,
+   "frame": 313,
+   "box": {
+    "x0": 259,
+    "x1": 738,
+    "y0": 371,
+    "y1": 488,
+    "n": 14160
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "which puts them",
+    "in one order."
+   ],
+   "t0": 11.92,
+   "tEnd": 13.71,
+   "frame": 376,
+   "box": {
+    "x0": 285,
+    "x1": 712,
+    "y0": 372,
+    "y1": 477,
+    "n": 12051
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Same property?"
+   ],
+   "t0": 13.71,
+   "tEnd": 14.9,
+   "frame": 429,
+   "box": {
+    "x0": 294,
+    "x1": 705,
+    "y0": 405,
+    "y1": 454,
+    "n": 7097
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The last value the server",
+    "gets wins, everywhere."
+   ],
+   "t0": 14.9,
+   "tEnd": 17.79,
+   "frame": 465,
+   "box": {
+    "x0": 180,
+    "x1": 820,
+    "y0": 374,
+    "y1": 488,
+    "n": 19731
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Different properties,",
+    "like position and color?"
+   ],
+   "t0": 17.79,
+   "tEnd": 20.07,
+   "frame": 552,
+   "box": {
+    "x0": 203,
+    "x1": 797,
+    "y0": 372,
+    "y1": 488,
+    "n": 19069
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Both survive."
+   ],
+   "t0": 20.07,
+   "tEnd": 21.32,
+   "frame": 620,
+   "box": {
+    "x0": 331,
+    "x1": 668,
+    "y0": 409,
+    "y1": 450,
+    "n": 5463
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Figma says that's",
+    "not a true CRDT:"
+   ],
+   "t0": 21.32,
+   "tEnd": 23.91,
+   "frame": 658,
+   "box": {
+    "x0": 275,
+    "x1": 726,
+    "y0": 371,
+    "y1": 476,
+    "n": 14275
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "one server orders",
+    "every change."
+   ],
+   "t0": 23.91,
+   "tEnd": 26.95,
+   "frame": 735,
+   "box": {
+    "x0": 270,
+    "x1": 729,
+    "y0": 373,
+    "y1": 487,
+    "n": 13113
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

@@ -129,6 +129,21 @@ Practical system design · useful new GitHub tools · research explained through
   - **Colour rule clarified:** semantic colours are allowed when tensorblue.com's own stylesheet uses them. The site's Tailwind tokens red-500 `#FB2C36`, cyan-400 `#00D3F2` and green-400 `#05DF72` (checked 2026-11-15) are site colours; colours the site does not use stay out.
   - Notes: `29-production-30s-english16-01.md`.
 
+- **2026-11-15 english-17 (batch17; latest approved feedback retained):** topic "how Figma lets two people move the same shape without destroying the file".
+  - New to the channel. english-12 covered offline CRDT sync and episode 02 one user's optimistic like; this one covers two people at once through one central server.
+  - Frame zero: one blue shape on a 3D canvas, tugged both ways by Ana's (cyan) and Ben's (green) cursors, with **TWO HANDS. ONE FILE.**; it doubles as the thumbnail.
+  - Mechanism, from Figma's own 2019 engineering post:
+    - your edit shows instantly;
+    - edits go to the server, which orders them;
+    - the same property ends with the last value the server gets, on every copy;
+    - different properties both survive;
+    - "not a true CRDT".
+  - Proof: our event simulation of those rules (not Figma's code).
+  - Each person's own screen is a translucent copy shown only where it differs from the file; edit cards dock in the server in arrival order.
+  - Sources stay off screen (a "FIGMA BLOG, 2019" tag was removed in QA).
+  - Colours: amber-400 `#FFB900` (defined and used on tensorblue.com) joins the allowed site tokens; it is the recolour, distinct from both cursor colours.
+  - Notes: `30-production-30s-english17-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

@@ -1,0 +1,14 @@
+Two people drag one shape at once. Why doesn't the file break?
+
+Figma's co-founder explained the trick. Your drag shows on your screen instantly, before the server answers. Then every edit goes to the server, which puts them in one order. Same property? The last value the server gets wins, everywhere. Different properties, like position and color? Both survive.
+
+Figma says that's not a true CRDT: one server orders every change.
+
+Figma described this design in 2019; details may have changed since. Ana, Ben and the shape are made up. We ran a small simulation of the rules Figma describes (our model, not Figma's code): when both people moved the shape at once, the edit that reached the server last won on every screen, and a move plus a colour change both survived.
+
+Source:
+- Figma Blog, Evan Wallace (Co-founder, Figma), How Figma's multiplayer technology works (16 Oct 2019): https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+
+Follow Tensorblue for software explained simply.
+
+#Figma #AppDevelopment #SoftwareExplained

@@ -1,0 +1,138 @@
+{
+ "model": "our simulation of the described design (not Figma's code); latencies/values illustrative",
+ "latency_ms": {
+  "Ana": 40,
+  "Ben": 60
+ },
+ "server_arrival_order": [
+  [
+   40,
+   "Ana",
+   "x",
+   -2
+  ],
+  [
+   65,
+   "Ben",
+   "x",
+   2
+  ],
+  [
+   240,
+   "Ana",
+   "fill",
+   "amber"
+  ],
+  [
+   262,
+   "Ben",
+   "x",
+   0
+  ]
+ ],
+ "final_server": {
+  "shape.x": 0,
+  "shape.fill": "amber"
+ },
+ "final_views": {
+  "Ana": {
+   "shape.x": 0,
+   "shape.fill": "amber"
+  },
+  "Ben": {
+   "shape.x": 0,
+   "shape.fill": "amber"
+  }
+ },
+ "all_copies_identical": true,
+ "same_property_winner": "Ben (x = 2): his edit reached the server last",
+ "different_properties_both_kept": true,
+ "logs": {
+  "Ana": [
+   [
+    0,
+    "x",
+    -2,
+    "local"
+   ],
+   [
+    105,
+    "x",
+    2,
+    "from server"
+   ],
+   [
+    200,
+    "fill",
+    "amber",
+    "local"
+   ],
+   [
+    302,
+    "x",
+    0,
+    "from server"
+   ]
+  ],
+  "Ben": [
+   [
+    5,
+    "x",
+    2,
+    "local"
+   ],
+   [
+    100,
+    "x",
+    -2,
+    "discarded (unacked local change)"
+   ],
+   [
+    202,
+    "x",
+    0,
+    "local"
+   ],
+   [
+    300,
+    "fill",
+    "amber",
+    "from server"
+   ]
+  ]
+ },
+ "ben_flickers_with_discard_rule": 0,
+ "ben_flickers_naive_client": 1,
+ "naive_ben_log": [
+  [
+   5,
+   "x",
+   2,
+   "local"
+  ],
+  [
+   100,
+   "x",
+   -2,
+   "from server"
+  ],
+  [
+   125,
+   "x",
+   2,
+   "from server (own echo)"
+  ],
+  [
+   202,
+   "x",
+   0,
+   "local"
+  ],
+  [
+   300,
+   "fill",
+   "amber",
+   "from server"
+  ]
+ ]
+}
