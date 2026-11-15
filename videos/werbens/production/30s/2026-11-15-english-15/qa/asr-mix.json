@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.28
+      ],
+      "script": "Why can a free sample sell what a perfect ad can't?",
+      "heard": "Why can a free sample cell? What a perfect ad can't.",
+      "words": "10/11"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.1,
+        6.46
+      ],
+      "script": "An ad asks you to believe; a sample lets you check.",
+      "heard": "An ad asks you to believe. A sample lets you check.",
+      "words": "11/11"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.45,
+        12.8
+      ],
+      "script": "In a 1983 study, opinions from trying predicted buying better than opinions from ads.",
+      "heard": "In a 1983 study, opinions from trying predicted buying better than opinions from ads.",
+      "words": "13/13"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        12.75,
+        17.98
+      ],
+      "script": "Field tests found samples brought in new buyers, with effects up to a year later.",
+      "heard": "Field tests found samples brought in new buyers, with effects up to a year later.",
+      "words": "15/15"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        17.85,
+        20.39
+      ],
+      "script": "Results varied widely between brands.",
+      "heard": "Results varied widely between brands.",
+      "words": "5/5"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        20.35,
+        23.22
+      ],
+      "script": "So if one taste proves it, let people try.",
+      "heard": "So if one taste proves it, let people try.",
+      "words": "9/9"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        23.15,
+        25.34
+      ],
+      "script": "Make the sample prove your main claim.",
+      "heard": "Make the sample prove your main claim.",
+      "words": "7/7"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why can a free sample sell what a perfect ad can't? An ad asks you to believe a sample lets you check. In a 1983 study, opinions from trying predicted buying better than opinions from ads. Field tests found samples brought in new buyers with effects up to a year later. Results varied widely between brands. So if one taste proves it, let people try. Make the sample prove your main claim. Follow Warbins to decode how brands sell."
+}

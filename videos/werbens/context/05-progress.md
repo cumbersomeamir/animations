@@ -66,5 +66,5 @@
 - English-14 (batch 2026-11-14-english-14) delivered `production/30s/2026-11-14-english-14/werbens-30s-english14-01.mp4`
   + thumbnail (unit pricing + unit effect; CMA mayo snapshot; Pandelaere et al. 2011; dark-navy app.werbens.com theme; context/30).
 - 2026-11-15: first-frame rule persisted as context/27 §5.
-- English-15 (batch 2026-11-15-english-15) IN PROGRESS (final render running) `production/30s/2026-11-15-english-15/werbens-30s-english15-01.mp4`
+- English-15 (batch 2026-11-15-english-15) delivered `production/30s/2026-11-15-english-15/werbens-30s-english15-01.mp4`
   + thumbnail (free samples vs ads; Smith & Swinyard 1983; Bawa & Shoemaker 2004; frame 0 = thumbnail; dark-navy app.werbens.com theme; context/31).

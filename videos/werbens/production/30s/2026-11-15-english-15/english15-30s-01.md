@@ -152,7 +152,38 @@ The publishing caption (`publishing-caption.txt`) is this transcript verbatim pl
 | CTA | 25.9–30 s | pull back | booth parts; logo tile pops up 26.38 s; wordmark 27.55 s | slide, tile thud, D-major spread |
 
 ## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
-To be filled in after the final render.
+Final export is **render 1** (no defects found on the final-video review).
+
+| Check | Result |
+|---|---|
+| Video | 900 frames; video/audio/format 30.000000 s; H.264 High yuv420p 30/1 bt709 |
+| Audio | AAC-LC 48 kHz stereo; full decode 0 errors; −15.1 LUFS; true peak −1.9 dBTP; flat factor 0 |
+| Frame 0 | composed booth + "TRY BEATS TELL?" (`qa/frames/f000-firstframe.png`), identical to the thumbnail |
+| Hook audio | starts at 0.15 s |
+
+Narration on air:
+
+| Line | On air (s) |
+|---|---|
+| L1 | 0.15–2.93 |
+| L2 | 3.28–5.98 |
+| L3 | 6.63–12.46 |
+| L4 | 12.98–17.62 |
+| L5 | 18.03–20.04 |
+| L6 | 20.54–22.86 |
+| L7 | 23.33–25.00 |
+| L8 | 27.07–29.28 |
+
+- **English ASR on the final mix:** the whole transcript matches the script except "Warbins" (Whisper's spelling of
+  "Werbens"). This is ASR only; no human listening was done.
+- **Every-frame DOM check:**
+  - Caption ink x 175–825 / y 369–489; pill x 145–855 / y 353–507.
+  - Headline (13 frames) x 152–848 / y 330–652, never together with a caption or label.
+  - Labels x 124–876 / y 562–1456.
+  - Nothing in y 0–300; 0 overlaps; one big label at a time; no page errors.
+- **Transitions:** no empty frames.
+- **Thumbnail:** 1080×1920.
+- **MP4 sha256:** `f860c0db6a349f974099837d3f85255f91276469155b6dec948acde153c8a07c`. Earlier MP4s verified unchanged.
 
 ## 10. Progress / provenance log (this round)
 1. Checked repo/branch/account and earlier jobs; re-read CLAUDE.md and 05-progress.
