@@ -95,7 +95,7 @@ const topPools = KEEP.map(() => { const m = new THREE.Mesh(new THREE.PlaneGeomet
 
 // ------------------------------------------------------------------ set B (X2): two display plinths, same bottle, same count (3 vs 3).
 // Left = packed tight on a small plinth; right = given room on a wide plinth. Value columns (direction only), glints, store arch.
-const X2 = 0.5, LX = X2 - 0.085, RX = X2 + 0.085, R0 = 0.048, R1 = 0.072, PLH = 0.03;
+const X2 = 0.42, LX = X2 - 0.085, RX = X2 + 0.085, R0 = 0.048, R1 = 0.072, PLH = 0.03;
 const plateTex = (txt) => canvasTex(720, 200, (k, w, h) => { k.fillStyle = "#F4FBFA"; k.beginPath(); k.roundRect(0, 0, w, h, 50); k.fill(); k.fillStyle = C.ink; fitText(k, txt, "IDBK", w * 0.86, 140); k.textAlign = "center"; k.textBaseline = "middle"; k.fillText(txt, w / 2, h * 0.55); });
 const plinthGeo = new THREE.LatheGeometry([[0, 0], [0.96, 0], [1, 0.12], [1, 0.88], [0.96, 1], [0, 1]].map(([r, y]) => new THREE.Vector2(r, y * PLH)), 64);
 const plinths = [[LX, R0, "PACKED"], [RX, R1, "ROOM"]].map(([x, r, txt]) => { const m = new THREE.Mesh(plinthGeo, mat(C3.ink, { roughness: 0.36, clearcoat: 0.7 })); m.position.set(x, 0, 0); m.scale.set(r, 1, r); m.castShadow = true; m.receiveShadow = true; scene.add(m);
