@@ -14,8 +14,28 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   checkout instrument, so a fresh same-genre question was chosen. Record:
   `context/episodes/2026-11-15-english17-short-weight-pack.md`.
 - A worker restart and a "Try again" happened mid-research. Work resumed from the scratchpad, with nothing lost.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- Checkpoint commit 72e683d was made before the full render.
+- DELIVERED: `production/30s/2026-11-15-english-17/courtlens-30s-english17-01.mp4`
+  (sha256 759e4aee5821d171fcefcb7a3568458e63f8bcd05d1dccf1a31715889098db28) and the thumbnail
+  `courtlens-30s-english17-01-thumbnail.png` (sha256 8a450791f2b5f5f323173b07334c4e6726b03d92540df3fbf32d902ec4ef6b00;
+  = frame-zero composition + chip).
+
+### Verification (final MP4)
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −15.9 LUFS / −2.4 dBTP.
+- Narration 8/8 at +3 ms; CTA 26.95–29.90 s.
+- Frame 0 = the thumbnail composition (mean diff 1.6/255); voice at 0.05 s.
+- Caption ink x 108..892, y 347..514; y<300 clear.
+- English ASR on the final mix: WER 0.014 (only "Courtlands"); all words fall in caption windows.
+- The frame review found no defects needing a re-render.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-15-english-17/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- The principal Rules are a scanned Gazette PDF read visually (no text layer, no OCR here). The quoted passages were
+  transcribed from pp.43, 63–64 and 72.
+- The review folder is not reachable from this cloud session, so the MP4 and thumbnail are attached in chat.
 
 ### Verified facts (details: `production/30s/2026-11-15-english-17/notes/LEGAL-SOURCES.md`)
 - **Packaged Commodities Rules 2011** (DoCA Gazette scan):
@@ -64,7 +84,8 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
   - Speech was trimmed from 27.5 s to 25.6 s.
 
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build17/frames`.
+- Await the next request. No automation and no further episode unless asked. `$S/build17/frames` was deleted after
+  delivery.
 
 ## Round 2026-11-15 (english-16, batch 16): "Their city, or yours?": file a consumer complaint where you live
 
