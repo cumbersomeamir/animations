@@ -1,0 +1,376 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "This",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "thread",
+   "start": 0.36,
+   "end": 0.6
+  },
+  {
+   "w": "has",
+   "start": 0.6,
+   "end": 0.92
+  },
+  {
+   "w": "helped",
+   "start": 0.92,
+   "end": 1.12
+  },
+  {
+   "w": "save",
+   "start": 1.12,
+   "end": 1.44
+  },
+  {
+   "w": "police",
+   "start": 1.44,
+   "end": 1.78
+  },
+  {
+   "w": "lives,",
+   "start": 1.78,
+   "end": 2.28
+  },
+  {
+   "w": "and",
+   "start": 2.56,
+   "end": 2.7
+  },
+  {
+   "w": "it",
+   "start": 2.7,
+   "end": 2.82
+  },
+  {
+   "w": "began",
+   "start": 2.82,
+   "end": 3.18
+  },
+  {
+   "w": "as",
+   "start": 3.18,
+   "end": 3.46
+  },
+  {
+   "w": "a",
+   "start": 3.46,
+   "end": 3.6
+  },
+  {
+   "w": "cloudy",
+   "start": 3.6,
+   "end": 3.9
+  },
+  {
+   "w": "liquid.",
+   "start": 3.9,
+   "end": 4.32
+  },
+  {
+   "w": "How",
+   "start": 4.78,
+   "end": 4.92
+  },
+  {
+   "w": "did",
+   "start": 4.92,
+   "end": 5.04
+  },
+  {
+   "w": "a",
+   "start": 5.04,
+   "end": 5.16
+  },
+  {
+   "w": "liquid",
+   "start": 5.16,
+   "end": 5.3
+  },
+  {
+   "w": "get",
+   "start": 5.3,
+   "end": 5.56
+  },
+  {
+   "w": "that",
+   "start": 5.56,
+   "end": 5.88
+  },
+  {
+   "w": "strong?",
+   "start": 5.88,
+   "end": 6.34
+  },
+  {
+   "w": "In",
+   "start": 6.68,
+   "end": 6.86
+  },
+  {
+   "w": "1965,",
+   "start": 6.86,
+   "end": 7.98
+  },
+  {
+   "w": "Stephanie",
+   "start": 8.82,
+   "end": 8.98
+  },
+  {
+   "w": "Quolek",
+   "start": 8.98,
+   "end": 9.46
+  },
+  {
+   "w": "had",
+   "start": 9.46,
+   "end": 9.62
+  },
+  {
+   "w": "its",
+   "start": 9.62,
+   "end": 9.88
+  },
+  {
+   "w": "spun",
+   "start": 9.88,
+   "end": 10.06
+  },
+  {
+   "w": "into",
+   "start": 10.06,
+   "end": 10.34
+  },
+  {
+   "w": "fiber.",
+   "start": 10.34,
+   "end": 10.7
+  },
+  {
+   "w": "Its",
+   "start": 11.24,
+   "end": 11.46
+  },
+  {
+   "w": "rod",
+   "start": 11.46,
+   "end": 11.76
+  },
+  {
+   "w": "-like",
+   "start": 11.76,
+   "end": 12.04
+  },
+  {
+   "w": "chains",
+   "start": 12.04,
+   "end": 12.42
+  },
+  {
+   "w": "lyside",
+   "start": 12.42,
+   "end": 13.02
+  },
+  {
+   "w": "by",
+   "start": 13.02,
+   "end": 13.3
+  },
+  {
+   "w": "side,",
+   "start": 13.3,
+   "end": 13.7
+  },
+  {
+   "w": "like",
+   "start": 14.08,
+   "end": 14.34
+  },
+  {
+   "w": "dry",
+   "start": 14.34,
+   "end": 14.66
+  },
+  {
+   "w": "spaghetti,",
+   "start": 14.66,
+   "end": 15.04
+  },
+  {
+   "w": "not",
+   "start": 15.46,
+   "end": 15.46
+  },
+  {
+   "w": "a",
+   "start": 15.46,
+   "end": 15.58
+  },
+  {
+   "w": "tangle.",
+   "start": 15.58,
+   "end": 15.88
+  },
+  {
+   "w": "Pull",
+   "start": 16.58,
+   "end": 16.84
+  },
+  {
+   "w": "and",
+   "start": 16.84,
+   "end": 17.02
+  },
+  {
+   "w": "they",
+   "start": 17.02,
+   "end": 17.22
+  },
+  {
+   "w": "share",
+   "start": 17.22,
+   "end": 17.38
+  },
+  {
+   "w": "the",
+   "start": 17.38,
+   "end": 17.56
+  },
+  {
+   "w": "load.",
+   "start": 17.56,
+   "end": 17.84
+  },
+  {
+   "w": "By",
+   "start": 18.26,
+   "end": 18.44
+  },
+  {
+   "w": "weight,",
+   "start": 18.44,
+   "end": 18.76
+  },
+  {
+   "w": "five",
+   "start": 19.02,
+   "end": 19.34
+  },
+  {
+   "w": "times",
+   "start": 19.34,
+   "end": 19.64
+  },
+  {
+   "w": "stronger",
+   "start": 19.64,
+   "end": 20.02
+  },
+  {
+   "w": "than",
+   "start": 20.02,
+   "end": 20.32
+  },
+  {
+   "w": "steel.",
+   "start": 20.32,
+   "end": 20.76
+  },
+  {
+   "w": "Lesson,",
+   "start": 21.34,
+   "end": 21.78
+  },
+  {
+   "w": "strong",
+   "start": 21.86,
+   "end": 22.2
+  },
+  {
+   "w": "isn't",
+   "start": 22.2,
+   "end": 22.46
+  },
+  {
+   "w": "bulletproof.",
+   "start": 22.46,
+   "end": 23.1
+  },
+  {
+   "w": "Ask",
+   "start": 23.64,
+   "end": 23.7
+  },
+  {
+   "w": "which",
+   "start": 23.7,
+   "end": 23.96
+  },
+  {
+   "w": "threats",
+   "start": 23.96,
+   "end": 24.22
+  },
+  {
+   "w": "a",
+   "start": 24.22,
+   "end": 24.36
+  },
+  {
+   "w": "vest",
+   "start": 24.36,
+   "end": 24.56
+  },
+  {
+   "w": "is",
+   "start": 24.56,
+   "end": 24.9
+  },
+  {
+   "w": "rated",
+   "start": 24.9,
+   "end": 25.08
+  },
+  {
+   "w": "for.",
+   "start": 25.08,
+   "end": 25.64
+  },
+  {
+   "w": "Download",
+   "start": 25.64,
+   "end": 27.52
+  },
+  {
+   "w": "RM",
+   "start": 27.52,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.54
+  },
+  {
+   "w": "support",
+   "start": 28.54,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "This thread has helped save police lives, and it began as a cloudy liquid. How did a liquid get that strong? In 1965, Stephanie Quolek had its spun into fiber. Its rod -like chains lyside by side, like dry spaghetti, not a tangle. Pull and they share the load. By weight, five times stronger than steel. Lesson, strong isn't bulletproof. Ask which threats a vest is rated for. Download RM to support livelihood tools."
+}

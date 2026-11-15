@@ -1,0 +1,27 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+This | 0.05 (This, placed) | 0.00 (This) | FRAME 0 (complete, = thumbnail): real Kalish portrait + enormous thread holding a weight + "A THREAD THAT SAVED LIVES"; narration audible from 0.09 s; slow push; thread sways | 0.00
+This | 0.05 (This, placed) | 0.00 (This) | light sweep across the portrait | 0.40
+cloudy | 3.58 (cloudy) | 3.60 (cloudy) | HARD CUT (flash) -> beaker of thin, cloudy, shimmering liquid being stirred | 3.46
+How | 4.76 (How) | 4.78 (How) | big gold "?" | 4.61
+In | 6.70 (In) | 6.68 (In) | WHIP PAN (6.45-6.65) -> real first page of U.S. Patent 3,671,542 (optically anisotropic dopes) | 6.45
+Stephanie | 8.82 (Stephanie) | 8.82 (Stephanie) | gold underline under "Stephanie Louise Kwolek" | 8.67
+had | 9.46 (had) | 9.46 (had) | spinneret rises in | 9.11
+spun | 9.88 (spun) | 9.88 (spun) | dope flows through the holes; filaments merge into one yarn; "spun" | 9.73
+Its | 11.22 (Its) | 11.24 (Its) | PUSH (10.85-11.10) -> real museum sample of 100% Kevlar yarn | 10.85
+rod | 11.46 (rod) | 11.46 (rod) | zoom inside a strand (camera dives into the yarn) | 11.31
+chains | 12.04 (chains) | 12.04 (chains) | rod-like chains slide in side by side, one by one | 11.99
+dry | 14.32 (dry) | 14.34 (dry) | "dry spaghetti" | 14.12
+not | 15.44 (not) | 15.46 (not) | grey tangle + "not a tangle" | 15.24
+tangle | 15.60 (tangle.) | 15.58 (tangle.) | gold strike through the tangle | 15.55
+Pull | 16.58 (Pull) | 16.58 (Pull) | PUSH (16.20-16.50) -> pull test: clamps pull outward, arrows | 16.48
+share | 17.22 (share) | 17.22 (share) | every chain glows in turn: "load shared" | 17.02
+By | 18.24 (By) | 18.26 (By) | pull diagram leaves, then the bars arrive: "same weight", steel 1x | 17.92
+five | 19.04 (five) | 19.02 (five) | Kevlar bar grows from 1x to 5x | 18.94
+times | 19.32 (times) | 19.34 (times) | "5×" | 19.27
+Lesson | 21.32 (Lesson,) | 21.34 (Lesson,) | PAGE TURN (20.75-21.10) -> lesson page: circular portrait, STEPHANIE KWOLEK, vest | 20.75
+strong | 21.86 (strong) | 21.86 (strong) | STRONG ISN'T | 21.71
+bulletproof | 22.46 (bulletproof.) | 22.46 (bulletproof.) | BULLETPROOF | 22.31
+Ask | 23.64 (Ask) | 23.64 (Ask) | tag swings in: "RATED FOR which threats?" (+ chime) | 23.44
+Download | 27.10 (Download, placed) | 27.52 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 24 events; for word-triggered events, event minus word start ranges -0.57 to -0.05 s (negative = event leads the word). Pacing: hook 0.05-4.36 (complete first frame, audio from 0.09 s; the cut to the cloudy liquid at 3.46), question 4.70-6.32, explanation/proof 6.65-20.72 with scene changes at 6.65, 11.10, 16.50 and a sequential swap at 17.92-18.36, payoff 21.10-25.60, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 4.7 S3 6.65 S4 11.15 S5 16.5 S6 21.1 S7 27.1 (audio/script.json); ASR stamps "This" at 0.00 (placed 0.05) and "Download" early (25.68; placed 27.10); the surname is TTS-spelled "Kwo-leck" (heard as "Quolek"/"Kowlek"; caption and patent show Kwolek); ASR hears the app name as "RM"/"RUMB" (TTS spelling "Aa-rumbh"; caption and card show Aarambh); "rod-like" is tokens 31-32.

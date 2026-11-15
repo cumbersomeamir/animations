@@ -328,3 +328,13 @@ Changes to the recipe above:
 - **Useful sources:** HistData datasets via Rdatasets CSV; Wellcome Collection books on the Internet Archive (`/download/<id>/page/nN_w900.jpg`; the first pages may be blank); SORT/idescat PDFs.
 
 - 18 (2026-11-15, english-16): Florence Nightingale and the polar-area chart, "NOT THE WOUNDS": blue = preventable disease; after the 1855 Sanitary Commission flushed sewers, disease deaths fell, even the next winter (Jan 1855 2,761 vs Jan 1856 42); strong evidence, not certainty (Friendly & Andrews 2021; 1857 Panmure report; HistData `Nightingale`; real 1858 diagram and Hering portrait). Record: `30-production-30s-english16-01.md`
+
+## English-17 notes, 2026-11-15
+- **Topic lines can again disagree with the brief** ("made firefighters harder to burn" vs a strength and bullet-resistance brief). Follow the detailed, verifiable brief; don't add an unsupported framing.
+- **Safety-equipment topics:** use the regulator's wording ("no such thing as bulletproof armor"; armour is rated to threat levels). Prefer an actionable takeaway ("ask which threats a vest is rated for") over an absolute ("stops only…"), which can overstate.
+- **Group fades:** `label()`, `rod()` and `photo()` set their own globalAlpha, so a parent fade does not reach them. Pass the fade into each call. Make in-scene swaps sequential (out, then in), never overlapping.
+- **Patent pages as archival pages:** crop to the column with the title and inventor so it reads on a phone; check the printed name (a related Kwolek patent misprints it "Kwoleck").
+- **Names:** test TTS respellings of surnames ("Kwolek" → "Kwo-leck" for KWO-lek).
+- **Licences:** CC BY-SA portraits (Science History Institute) need the photographer and institution credited in the publishing caption; CC0 museum objects (Industriemuseum Gent) make good real "object" pages.
+
+- 19 (2026-11-15, english-17): Stephanie Kwolek and Kevlar, "A THREAD THAT SAVED LIVES": a thin, cloudy liquid spun into fibre in 1965; rod-like chains lie side by side like dry spaghetti and share the load; by weight five times stronger than steel; strong isn't bulletproof, so ask which threats a vest is rated for (SHI; NIHF; Lemelson-MIT; U.S. Patent 3,671,542; NIJ). Record: `31-production-30s-english17-01.md`

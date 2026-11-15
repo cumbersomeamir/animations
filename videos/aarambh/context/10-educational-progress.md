@@ -229,3 +229,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Correlation vs certainty:** narrated as "Strong evidence, not certainty: one chart can't rule out other changes." No percentage-drop or sole-cause claim.
 - **Verification:** both ASR models match the script except the app name and tiny.en's "1 ,855" tokenisation; there was no human listening. One pre-render crop fix; no post-render re-render.
 - No automation; no other episode started; earlier outputs untouched.
+
+## 2026-11-15: english-17 #01 (COMPLETE; third under the first-frame addendum to context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-15-english-17/aarambh-30s-english17-01.mp4`, sha256 `b2b0f2bd7d411d9a4f3400aa2e4e7f07ac84c266d20a16e60e3ba10818a8c2b0`, plus the thumbnail `aarambh-30s-english17-01-thumbnail.png` (= frame 0, "A THREAD THAT SAVED LIVES"). Stephanie Kwolek and Kevlar (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** SHI (1965, the thin, cloudy liquid; rod-like molecules lined up in parallel → very high strength and stiffness; five times stronger than steel), Lemelson-MIT (fluid and cloudy; she insisted on spinning it), NIHF (five times stronger than the same weight of steel; material of choice for bullet-resistant vests), U.S. Patent 3,671,542 (shown) and NIJ (no such thing as bulletproof armour; armour rated to threat levels; more than 3,000/3,100 officers saved by body armour).
+- **Strength vs bulletproof:** narrated as "strong isn't bulletproof; ask which threats a vest is rated for". No firefighting claim, despite the topic line.
+- **Verification:** both ASR models match the script except the surname (a close variant), the app name and small slips; there was no human listening. One post-render re-render: a sequential swap and nested-fade fixes.
+- No automation; no other episode started; earlier outputs, batch 16 included, untouched.

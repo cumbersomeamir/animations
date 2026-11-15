@@ -119,3 +119,11 @@
 - **Isolation note:** one `git log --all` call printed other app branches' commit titles; nothing from them was opened or used.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 30.
+
+## 2026-11-15: english-17 #01 (English; third under the first-frame addendum)
+- `videos/aarambh/production/30s/2026-11-15-english-17/aarambh-30s-english17-01.mp4` (sha256 `b2b0f2bd7d411d9a4f3400aa2e4e7f07ac84c266d20a16e60e3ba10818a8c2b0`) and thumbnail = frame 0: Stephanie Kwolek and Kevlar.
+  - Frame 0: the real Kalish portrait plus an enormous thread holding a weight, "A THREAD THAT SAVED LIVES".
+  - Story: "how did a liquid get that strong?" → her real 1972 patent for the cloudy (optically anisotropic) dopes plus spinning → the real museum yarn, then inside a strand: rod-like chains side by side, like dry spaghetti → pull: the load is shared; by weight 5× steel → lesson "strong isn't bulletproof; ask which threats a vest is rated for" → Aarambh CTA.
+- **Topic line mismatch** ("firefighters harder to burn") recorded in 31; not used.
+- **Open:** a human listen (surname respelling "Kwo-leck").
+- **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 31.

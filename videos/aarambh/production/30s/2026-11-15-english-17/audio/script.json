@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.05, "text": "This thread has helped save police lives, and it began as a cloudy liquid.", "tts": "This thread has helped save police lives, and it began as a cloudy liquid."},
+    {"id": "S2", "start": 4.70, "text": "How did a liquid get that strong?", "tts": "How did a liquid get that strong?"},
+    {"id": "S3", "start": 6.65, "text": "In 1965, Stephanie Kwolek had it spun into fibre.", "tts": "In 1965, Stephanie Kwo-leck had it spun into fibre."},
+    {"id": "S4", "start": 11.15, "text": "Its rod-like chains lie side by side, like dry spaghetti, not a tangle.", "tts": "Its rod-like chains lie side by side, like dry spaghetti, not a tangle."},
+    {"id": "S5", "start": 16.50, "text": "Pull, and they share the load: by weight, five times stronger than steel.", "tts": "Pull, and they share the load: by weight, five times stronger than steel."},
+    {"id": "S6", "start": 21.10, "text": "Lesson: strong isn't bulletproof; ask which threats a vest is rated for.", "tts": "Lesson: strong isn't bulletproof; ask which threats a vest is rated for."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}
