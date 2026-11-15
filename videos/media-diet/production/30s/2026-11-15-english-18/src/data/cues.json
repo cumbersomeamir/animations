@@ -1,0 +1,114 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Copper isn't",
+   "magnetic."
+  ],
+  "in": 0.0,
+  "out": 1.58,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Yet this hoverboard by",
+   "Jake Rogers floats over it."
+  ],
+  "in": 1.67,
+  "out": 5.0
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "So what pushes it up?"
+  ],
+  "in": 5.02,
+  "out": 6.35
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Two rings of magnets spin,"
+  ],
+  "in": 6.37,
+  "out": 8.175
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "driving swirling currents",
+   "in the copper."
+  ],
+  "in": 8.195,
+  "out": 10.699
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Those currents make",
+   "their own magnet,"
+  ],
+  "in": 10.82,
+  "out": 12.805
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "and it pushes back."
+  ],
+  "in": 12.825,
+  "out": 14.2
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Stop spinning, and it drops."
+  ],
+  "in": 14.22,
+  "out": 15.95
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "The catch: at 8,000 rpm,"
+  ],
+  "in": 15.97,
+  "out": 18.36
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "a 4-gram magnet pulls",
+   "outward like 6 kilos."
+  ],
+  "in": 18.38,
+  "out": 21.725
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "So the lift needs",
+   "motion and metal:"
+  ],
+  "in": 21.77,
+  "out": 23.775
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "no copper, no hover."
+  ],
+  "in": 23.795,
+  "out": 25.601
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

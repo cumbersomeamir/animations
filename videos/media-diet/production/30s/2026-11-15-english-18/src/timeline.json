@@ -1,0 +1,210 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "Copper isn't magnetic.",
+   "cues": [
+    [
+     "Copper isn't",
+     "magnetic."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.75,
+   "say": "Yet this hoverboard by Jake Rogers floats over it.",
+   "cues": [
+    [
+     "Yet this hoverboard by",
+     "Jake Rogers floats over it."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.1,
+   "say": "So what pushes it up?",
+   "cues": [
+    [
+     "So what pushes it up?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 6.45,
+   "say": "Two rings of magnets spin, driving swirling currents in the copper.",
+   "cues": [
+    [
+     "Two rings of magnets spin,"
+    ],
+    [
+     "driving swirling currents",
+     "in the copper."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 10.9,
+   "say": "Those currents make their own magnet, and it pushes back.",
+   "cues": [
+    [
+     "Those currents make",
+     "their own magnet,"
+    ],
+    [
+     "and it pushes back."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 14.3,
+   "say": "Stop spinning, and it drops.",
+   "cues": [
+    [
+     "Stop spinning, and it drops."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 16.05,
+   "say": "The catch: at 8,000 rpm, a 4-gram magnet pulls outward like 6 kilos.",
+   "cues": [
+    [
+     "The catch: at 8,000 rpm,"
+    ],
+    [
+     "a 4-gram magnet pulls",
+     "outward like 6 kilos."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 21.85,
+   "say": "So the lift needs motion and metal: no copper, no hover.",
+   "cues": [
+    [
+     "So the lift needs",
+     "motion and metal:"
+    ],
+    [
+     "no copper, no hover."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.66,
+   "beat": "first frame / hook: a pink paper hoverboard floating over a copper plate + \"Copper isn't magnetic.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.66,
+   "out": 5.0,
+   "beat": "the news: the board glides over the copper; source chip"
+  },
+  {
+   "id": "S3",
+   "in": 5.0,
+   "out": 6.36,
+   "beat": "the question: camera drops to the gap under the board"
+  },
+  {
+   "id": "S4",
+   "in": 6.36,
+   "out": 10.8,
+   "beat": "cutaway: the shell lifts, two magnet rings spin in opposite directions, swirling currents appear in the copper"
+  },
+  {
+   "id": "S5",
+   "in": 10.8,
+   "out": 14.2,
+   "beat": "the currents act as an opposing magnet: push-back arrows lift the rotors"
+  },
+  {
+   "id": "S6",
+   "in": 14.2,
+   "out": 15.95,
+   "beat": "proof: the rotors stop, the currents fade, the board drops onto the copper"
+  },
+  {
+   "id": "S7",
+   "in": 15.95,
+   "out": 21.75,
+   "beat": "the limit: one rotor close up, a single magnet flung outward; a 6 kg weight for scale (creator estimate)"
+  },
+  {
+   "id": "S8",
+   "in": 21.75,
+   "out": 25.92,
+   "beat": "takeaway: the board glides off the copper onto paving and drops"
+  },
+  {
+   "id": "S9",
+   "in": 25.92,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign, the board hovering over copper behind it"
+  }
+ ],
+ "events": {
+  "glide": 2.0,
+  "reveal": 6.5,
+  "curr": 8.55,
+  "labCurr": 9.4,
+  "own": 11.8,
+  "push": 13.2,
+  "labPush": 13.3,
+  "stop": 14.35,
+  "drop": 15.25,
+  "labDrop": 15.3,
+  "spinup": 16.9,
+  "mag": 18.55,
+  "fling": 19.5,
+  "kg": 20.5,
+  "labKg": 20.6,
+  "labMM": 22.65,
+  "edge": 24.0,
+  "sign": 26.2
+ }
+}

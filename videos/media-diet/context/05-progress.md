@@ -332,3 +332,14 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   captions y 340–516, x 195–885; labels y 1359–1456; 0 violations; caption↔speech 11/11; Whisper per-line 1.0, full pass 0.988 ("ducks").
 - Unresolved: not yet watched or listened to by a human; no review folder in this container; date 11 Nov just outside 72 h (disclosed).
   Earlier outputs untouched.
+
+## Checkpoint 2026-11-15 — english-18 / batch 18 (topic + sources recorded; rendering)
+- Batch 17 delivered first (1a69bf0 = remote); batch 18 not a repeat. Topic: Jake Rogers' 3D-printed mini hoverboard over copper —
+  YouTube video published **2026-11-13 02:17 UTC** (channel RSS; inside 72 h); Hackster/TechEBlog 14 Nov, IE 15 Nov. Physics: copper
+  diamagnetic (OpenStax 12.7), Faraday/Lenz/eddy currents (OpenStax 13.1/13.2/13.5), F = mω²r check of the creator's 61 N estimate.
+  Footage not licensed → reconstruction. Rejected candidates listed in SOURCES.md (solar drone 11 Nov, A350 record 11 Nov, etc.).
+- Record context/33; sources production/30s/2026-11-15-english-18/SOURCES.md; log row in context/11 (in progress).
+  Frame 0 = board hovering over copper + "Copper isn't / magnetic." Bean benchmark: contradiction → mechanism → constraint → takeaway.
+- Narration 76 words / 25.7 s, every take heard exactly by Whisper. Stills checked (cameras pulled back for portrait, shell fades fully in
+  S4, single-rotor shot clear of the caption band, 6 kg weight beside the label). Running: three render_chunks workers; next
+  `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english18-01.png`, QA.md, commit, push, attach.

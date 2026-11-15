@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "Copper isn't magnetic.",
+  "duration": 1.23,
+  "words": 3
+ },
+ {
+  "id": "V2",
+  "say": "Yet this hoverboard by Jake Rogers floats over it.",
+  "duration": 3.045,
+  "words": 9
+ },
+ {
+  "id": "V3",
+  "say": "So what pushes it up?",
+  "duration": 1.03,
+  "words": 5
+ },
+ {
+  "id": "V4",
+  "say": "Two rings of magnets spin, driving swirling currents in the copper.",
+  "duration": 3.949,
+  "words": 11
+ },
+ {
+  "id": "V5",
+  "say": "Those currents make their own magnet, and it pushes back.",
+  "duration": 3.056,
+  "words": 10
+ },
+ {
+  "id": "V6",
+  "say": "Stop spinning, and it drops.",
+  "duration": 1.426,
+  "words": 5
+ },
+ {
+  "id": "V7",
+  "say": "The catch: at 8,000 rpm, a 4-gram magnet pulls outward like 6 kilos.",
+  "duration": 5.375,
+  "words": 13
+ },
+ {
+  "id": "V8",
+  "say": "So the lift needs motion and metal: no copper, no hover.",
+  "duration": 3.451,
+  "words": 11
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]
