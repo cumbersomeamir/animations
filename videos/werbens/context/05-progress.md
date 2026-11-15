@@ -70,3 +70,6 @@
   + thumbnail (free samples vs ads; Smith & Swinyard 1983; Bawa & Shoemaker 2004; frame 0 = thumbnail; dark-navy app.werbens.com theme; context/31).
 - English-16 (batch16 2026-11-15-english-16) delivered `production/30s/2026-11-15-english-16/werbens-30s-english16-01.mp4`
   + thumbnail (compromise effect; proposed decoy topic replaced as a duplicate of #03; Simonson & Tversky 1992; frame 0 = thumbnail; render 2 after a frame review moved in-world text off the platform icon rail; sha256 f074b38a; context/32).
+- English-17 (batch17 2026-11-15-english-17) IN PROGRESS `production/30s/2026-11-15-english-17/werbens-30s-english17-01.mp4`
+  + thumbnail (space-to-product ratio / negative space; proposed topic kept, not covered before; Sevilla & Townsend 2016;
+  frame 0 = thumbnail; context/33). Done: research, brand re-check, script, narration + word timing. Next: scene, audio, render, QA.
