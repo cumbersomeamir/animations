@@ -44,6 +44,8 @@ The source is a copy of `../2026-11-15-english-16/project/` (renderer, audit, au
    - Final: a near-vertical flat-lay rotated by 40°, so the writing arm enters from the side. The other hand rests in his lap, and the card is turned to the camera so "Thank you," reads.
 5. Labels: "writer" sat past the left margin and in the bottom zone, and "recipient" touched the right rail and was hidden by desk props. Both now sit above the heads (the writer's fades before the "?" bubble). The writer's sits in the S3 shot that was moved 0.04 m left.
 6. ASR was exact on the first takes and on the pre-render mix; no rewording was needed. `BED_GAIN` was lowered from 0.39 to 0.37 (12.5 → 12.9 dB).
+7. Final render: all 16 checks passed on the first full render (0 safe-zone issues, ASR CER 0).
+8. Thumbnail: the mid-air draft touched the bottom of "WORDS?". The words moved up (top 175 px, 190 px type).
 
 ## Commands
 ```bash

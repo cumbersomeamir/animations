@@ -1,0 +1,11626 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    628,
+    720,
+    842,
+    935
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    627,
+    720,
+    842,
+    934
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    627,
+    719,
+    841,
+    934
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    626,
+    719,
+    841,
+    934
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    626,
+    718,
+    841,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    625,
+    717,
+    841,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    624,
+    716,
+    841,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    623,
+    716,
+    840,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    622,
+    715,
+    840,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    622,
+    714,
+    840,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    621,
+    713,
+    840,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    620,
+    713,
+    839,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    619,
+    712,
+    839,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    619,
+    712,
+    839,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    618,
+    711,
+    839,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    617,
+    711,
+    839,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    617,
+    711,
+    839,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    617,
+    711,
+    839,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    616,
+    711,
+    839,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    616,
+    711,
+    839,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    164,
+    306,
+    836,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    715,
+    671,
+    978,
+    935
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    715,
+    671,
+    979,
+    935
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    162,
+    340,
+    838,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    715,
+    672,
+    979,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    714,
+    671,
+    979,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    714,
+    671,
+    979,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    714,
+    671,
+    978,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    713,
+    671,
+    978,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    712,
+    670,
+    978,
+    936
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    711,
+    669,
+    977,
+    935
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    710,
+    668,
+    977,
+    935
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    709,
+    667,
+    976,
+    934
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    707,
+    666,
+    975,
+    934
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    706,
+    665,
+    974,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    705,
+    664,
+    973,
+    933
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    703,
+    663,
+    972,
+    932
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    701,
+    661,
+    972,
+    931
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    700,
+    660,
+    971,
+    931
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    699,
+    658,
+    970,
+    930
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    697,
+    657,
+    969,
+    929
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    696,
+    656,
+    968,
+    928
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    695,
+    655,
+    967,
+    927
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    694,
+    654,
+    967,
+    927
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    693,
+    653,
+    966,
+    926
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    159,
+    340,
+    841,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    140,
+    933,
+    310,
+    1104
+   ],
+   "mateHead": [
+    801,
+    713,
+    973,
+    886
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    140,
+    933,
+    310,
+    1103
+   ],
+   "mateHead": [
+    801,
+    713,
+    974,
+    885
+   ],
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    219,
+    380,
+    781,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    140,
+    933,
+    310,
+    1103
+   ],
+   "mateHead": [
+    801,
+    713,
+    974,
+    885
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    140,
+    933,
+    310,
+    1103
+   ],
+   "mateHead": [
+    802,
+    712,
+    974,
+    885
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    139,
+    932,
+    310,
+    1103
+   ],
+   "mateHead": [
+    802,
+    712,
+    974,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    139,
+    932,
+    310,
+    1103
+   ],
+   "mateHead": [
+    802,
+    711,
+    974,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    139,
+    932,
+    310,
+    1103
+   ],
+   "mateHead": [
+    802,
+    711,
+    975,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    139,
+    932,
+    310,
+    1103
+   ],
+   "mateHead": [
+    802,
+    711,
+    975,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    138,
+    932,
+    310,
+    1104
+   ],
+   "mateHead": [
+    802,
+    711,
+    975,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    138,
+    933,
+    310,
+    1104
+   ],
+   "mateHead": [
+    803,
+    711,
+    976,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    137,
+    940,
+    309,
+    1112
+   ],
+   "mateHead": [
+    803,
+    711,
+    976,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    137,
+    940,
+    309,
+    1113
+   ],
+   "mateHead": [
+    803,
+    711,
+    977,
+    884
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    217,
+    379,
+    783,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    136,
+    941,
+    309,
+    1113
+   ],
+   "mateHead": [
+    803,
+    711,
+    977,
+    885
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    136,
+    941,
+    309,
+    1114
+   ],
+   "mateHead": [
+    804,
+    711,
+    977,
+    885
+   ],
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    211,
+    340,
+    789,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     126,
+     797,
+     314,
+     872
+    ],
+    "recipient": null
+   },
+   "head": [
+    136,
+    941,
+    309,
+    1114
+   ],
+   "mateHead": [
+    804,
+    711,
+    978,
+    885
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     108,
+     790,
+     330,
+     879
+    ],
+    "recipient": null
+   },
+   "head": [
+    135,
+    942,
+    308,
+    1115
+   ],
+   "mateHead": [
+    804,
+    712,
+    979,
+    886
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     102,
+     788,
+     336,
+     882
+    ],
+    "recipient": null
+   },
+   "head": [
+    135,
+    942,
+    308,
+    1116
+   ],
+   "mateHead": [
+    805,
+    712,
+    979,
+    886
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     101,
+     788,
+     336,
+     882
+    ],
+    "recipient": null
+   },
+   "head": [
+    135,
+    943,
+    308,
+    1116
+   ],
+   "mateHead": [
+    805,
+    712,
+    980,
+    887
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     101,
+     788,
+     336,
+     882
+    ],
+    "recipient": null
+   },
+   "head": [
+    134,
+    943,
+    308,
+    1117
+   ],
+   "mateHead": [
+    805,
+    712,
+    980,
+    887
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     104,
+     782,
+     338,
+     875
+    ],
+    "recipient": null
+   },
+   "head": [
+    137,
+    936,
+    310,
+    1108
+   ],
+   "mateHead": [
+    806,
+    713,
+    981,
+    888
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     111,
+     779,
+     345,
+     872
+    ],
+    "recipient": null
+   },
+   "head": [
+    145,
+    933,
+    317,
+    1105
+   ],
+   "mateHead": [
+    806,
+    713,
+    981,
+    888
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     119,
+     775,
+     352,
+     868
+    ],
+    "recipient": null
+   },
+   "head": [
+    152,
+    928,
+    324,
+    1100
+   ],
+   "mateHead": [
+    807,
+    713,
+    982,
+    889
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     122,
+     772,
+     354,
+     865
+    ],
+    "recipient": null
+   },
+   "head": [
+    155,
+    925,
+    326,
+    1096
+   ],
+   "mateHead": [
+    807,
+    713,
+    983,
+    889
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     121,
+     771,
+     353,
+     864
+    ],
+    "recipient": null
+   },
+   "head": [
+    154,
+    924,
+    325,
+    1095
+   ],
+   "mateHead": [
+    807,
+    714,
+    983,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     121,
+     771,
+     353,
+     864
+    ],
+    "recipient": null
+   },
+   "head": [
+    154,
+    924,
+    325,
+    1095
+   ],
+   "mateHead": [
+    808,
+    714,
+    984,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    209,
+    340,
+    791,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     120,
+     771,
+     352,
+     864
+    ],
+    "recipient": null
+   },
+   "head": [
+    153,
+    924,
+    324,
+    1096
+   ],
+   "mateHead": [
+    808,
+    714,
+    985,
+    890
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     119,
+     771,
+     352,
+     864
+    ],
+    "recipient": null
+   },
+   "head": [
+    152,
+    924,
+    324,
+    1096
+   ],
+   "mateHead": [
+    809,
+    714,
+    985,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    179,
+    341,
+    821,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     125,
+     773,
+     345,
+     862
+    ],
+    "recipient": null
+   },
+   "head": [
+    152,
+    924,
+    323,
+    1096
+   ],
+   "mateHead": [
+    809,
+    714,
+    986,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": [
+     141,
+     780,
+     328,
+     855
+    ],
+    "recipient": null
+   },
+   "head": [
+    151,
+    924,
+    323,
+    1096
+   ],
+   "mateHead": [
+    809,
+    714,
+    987,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    150,
+    924,
+    322,
+    1096
+   ],
+   "mateHead": [
+    810,
+    714,
+    987,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     252,
+     747,
+     386,
+     848
+    ],
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    150,
+    924,
+    322,
+    1096
+   ],
+   "mateHead": [
+    810,
+    714,
+    988,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     231,
+     734,
+     406,
+     865
+    ],
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    149,
+    924,
+    321,
+    1096
+   ],
+   "mateHead": [
+    810,
+    713,
+    988,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     210,
+     720,
+     426,
+     882
+    ],
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    148,
+    923,
+    321,
+    1096
+   ],
+   "mateHead": [
+    811,
+    713,
+    989,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     208,
+     720,
+     427,
+     885
+    ],
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    148,
+    923,
+    320,
+    1095
+   ],
+   "mateHead": [
+    811,
+    713,
+    989,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     207,
+     721,
+     427,
+     886
+    ],
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    147,
+    922,
+    320,
+    1095
+   ],
+   "mateHead": [
+    811,
+    712,
+    990,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     207,
+     721,
+     427,
+     886
+    ],
+    "writer": null,
+    "recipient": [
+     684,
+     560,
+     974,
+     638
+    ]
+   },
+   "head": [
+    147,
+    922,
+    320,
+    1095
+   ],
+   "mateHead": [
+    812,
+    712,
+    990,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     207,
+     722,
+     427,
+     887
+    ],
+    "writer": null,
+    "recipient": [
+     656,
+     552,
+     999,
+     645
+    ]
+   },
+   "head": [
+    146,
+    924,
+    320,
+    1097
+   ],
+   "mateHead": [
+    810,
+    711,
+    989,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     204,
+     723,
+     426,
+     889
+    ],
+    "writer": null,
+    "recipient": [
+     641,
+     549,
+     1004,
+     647
+    ]
+   },
+   "head": [
+    144,
+    926,
+    318,
+    1100
+   ],
+   "mateHead": [
+    805,
+    711,
+    984,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     198,
+     723,
+     421,
+     890
+    ],
+    "writer": null,
+    "recipient": [
+     634,
+     549,
+     998,
+     648
+    ]
+   },
+   "head": [
+    138,
+    929,
+    313,
+    1103
+   ],
+   "mateHead": [
+    798,
+    711,
+    978,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     192,
+     723,
+     415,
+     890
+    ],
+    "writer": null,
+    "recipient": [
+     629,
+     549,
+     993,
+     647
+    ]
+   },
+   "head": [
+    132,
+    930,
+    307,
+    1106
+   ],
+   "mateHead": [
+    793,
+    711,
+    973,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     189,
+     721,
+     413,
+     888
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     548,
+     991,
+     647
+    ]
+   },
+   "head": [
+    129,
+    931,
+    305,
+    1106
+   ],
+   "mateHead": [
+    791,
+    711,
+    971,
+    891
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     189,
+     718,
+     413,
+     886
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     548,
+     991,
+     646
+    ]
+   },
+   "head": [
+    129,
+    930,
+    305,
+    1106
+   ],
+   "mateHead": [
+    791,
+    710,
+    971,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     189,
+     715,
+     413,
+     883
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     547,
+     991,
+     646
+    ]
+   },
+   "head": [
+    129,
+    929,
+    304,
+    1105
+   ],
+   "mateHead": [
+    791,
+    710,
+    971,
+    890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     189,
+     712,
+     413,
+     880
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     546,
+     992,
+     645
+    ]
+   },
+   "head": [
+    128,
+    929,
+    304,
+    1105
+   ],
+   "mateHead": [
+    791,
+    709,
+    972,
+    889
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     188,
+     710,
+     413,
+     878
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     545,
+     992,
+     644
+    ]
+   },
+   "head": [
+    128,
+    928,
+    304,
+    1104
+   ],
+   "mateHead": [
+    791,
+    708,
+    972,
+    889
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     188,
+     709,
+     413,
+     877
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     544,
+     992,
+     644
+    ]
+   },
+   "head": [
+    128,
+    928,
+    304,
+    1104
+   ],
+   "mateHead": [
+    791,
+    708,
+    972,
+    888
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     188,
+     708,
+     413,
+     876
+    ],
+    "writer": null,
+    "recipient": [
+     627,
+     544,
+     992,
+     643
+    ]
+   },
+   "head": [
+    128,
+    928,
+    304,
+    1104
+   ],
+   "mateHead": [
+    792,
+    707,
+    972,
+    888
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": [
+     188,
+     708,
+     412,
+     876
+    ],
+    "writer": null,
+    "recipient": [
+     626,
+     543,
+     992,
+     642
+    ]
+   },
+   "head": [
+    128,
+    927,
+    304,
+    1104
+   ],
+   "mateHead": [
+    792,
+    707,
+    972,
+    887
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    175,
+    340,
+    825,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1322
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    454,
+    990,
+    629,
+    1164
+   ],
+   "mateHead": [
+    1140,
+    768,
+    1320,
+    948
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1322
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    453,
+    990,
+    628,
+    1164
+   ],
+   "mateHead": [
+    1139,
+    767,
+    1319,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    108,
+    345,
+    892,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1322
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    452,
+    990,
+    627,
+    1164
+   ],
+   "mateHead": [
+    1138,
+    767,
+    1318,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    103,
+    344,
+    897,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1322
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    451,
+    990,
+    626,
+    1165
+   ],
+   "mateHead": [
+    1137,
+    767,
+    1317,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1323
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    450,
+    991,
+    625,
+    1165
+   ],
+   "mateHead": [
+    1136,
+    767,
+    1316,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1323
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    449,
+    991,
+    623,
+    1166
+   ],
+   "mateHead": [
+    1135,
+    766,
+    1315,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     739,
+     918,
+     1323
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    447,
+    991,
+    622,
+    1166
+   ],
+   "mateHead": [
+    1134,
+    766,
+    1314,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     739,
+     919,
+     1323
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    446,
+    992,
+    621,
+    1167
+   ],
+   "mateHead": [
+    1133,
+    766,
+    1313,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     738,
+     919,
+     1323
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    444,
+    993,
+    619,
+    1168
+   ],
+   "mateHead": [
+    1131,
+    766,
+    1312,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     738,
+     919,
+     1324
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    442,
+    993,
+    617,
+    1168
+   ],
+   "mateHead": [
+    1130,
+    767,
+    1310,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     738,
+     919,
+     1324
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    440,
+    994,
+    616,
+    1169
+   ],
+   "mateHead": [
+    1128,
+    767,
+    1309,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     738,
+     920,
+     1324
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    438,
+    995,
+    614,
+    1170
+   ],
+   "mateHead": [
+    1127,
+    767,
+    1307,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     738,
+     920,
+     1324
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    436,
+    995,
+    612,
+    1171
+   ],
+   "mateHead": [
+    1125,
+    767,
+    1305,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     738,
+     920,
+     1325
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    434,
+    996,
+    610,
+    1172
+   ],
+   "mateHead": [
+    1123,
+    768,
+    1303,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     737,
+     921,
+     1325
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    432,
+    997,
+    607,
+    1173
+   ],
+   "mateHead": [
+    1121,
+    768,
+    1301,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     737,
+     921,
+     1325
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    429,
+    998,
+    605,
+    1174
+   ],
+   "mateHead": [
+    1119,
+    768,
+    1299,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     737,
+     921,
+     1326
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    427,
+    998,
+    603,
+    1174
+   ],
+   "mateHead": [
+    1117,
+    769,
+    1297,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     737,
+     922,
+     1326
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    424,
+    999,
+    600,
+    1175
+   ],
+   "mateHead": [
+    1115,
+    769,
+    1295,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     737,
+     922,
+     1326
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    422,
+    999,
+    598,
+    1176
+   ],
+   "mateHead": [
+    1112,
+    770,
+    1293,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     736,
+     923,
+     1327
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    419,
+    1000,
+    595,
+    1176
+   ],
+   "mateHead": [
+    1110,
+    770,
+    1291,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     736,
+     923,
+     1327
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    416,
+    1000,
+    593,
+    1177
+   ],
+   "mateHead": [
+    1108,
+    770,
+    1289,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     736,
+     923,
+     1327
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    414,
+    1001,
+    590,
+    1177
+   ],
+   "mateHead": [
+    1105,
+    771,
+    1286,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    344,
+    898,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     736,
+     924,
+     1328
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    411,
+    1001,
+    588,
+    1177
+   ],
+   "mateHead": [
+    1103,
+    771,
+    1284,
+    952
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     735,
+     924,
+     1328
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    408,
+    1001,
+    585,
+    1177
+   ],
+   "mateHead": [
+    1101,
+    771,
+    1282,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    159,
+    380,
+    841,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     735,
+     924,
+     1329
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    406,
+    1001,
+    583,
+    1177
+   ],
+   "mateHead": [
+    1099,
+    771,
+    1280,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    156,
+    379,
+    844,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     735,
+     925,
+     1329
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    403,
+    1000,
+    580,
+    1177
+   ],
+   "mateHead": [
+    1096,
+    771,
+    1277,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     735,
+     925,
+     1329
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    401,
+    1000,
+    578,
+    1177
+   ],
+   "mateHead": [
+    1094,
+    771,
+    1275,
+    953
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     735,
+     926,
+     1330
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    398,
+    1000,
+    576,
+    1177
+   ],
+   "mateHead": [
+    1092,
+    771,
+    1273,
+    953
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     734,
+     926,
+     1330
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    396,
+    999,
+    573,
+    1176
+   ],
+   "mateHead": [
+    1090,
+    771,
+    1271,
+    953
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     734,
+     926,
+     1330
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    394,
+    999,
+    571,
+    1176
+   ],
+   "mateHead": [
+    1088,
+    771,
+    1270,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     734,
+     927,
+     1331
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    392,
+    998,
+    569,
+    1175
+   ],
+   "mateHead": [
+    1087,
+    771,
+    1268,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     734,
+     927,
+     1331
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    390,
+    997,
+    567,
+    1175
+   ],
+   "mateHead": [
+    1085,
+    771,
+    1266,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     734,
+     927,
+     1331
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    388,
+    997,
+    566,
+    1174
+   ],
+   "mateHead": [
+    1083,
+    770,
+    1265,
+    952
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     734,
+     927,
+     1331
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    387,
+    996,
+    564,
+    1173
+   ],
+   "mateHead": [
+    1082,
+    770,
+    1263,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1331
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    385,
+    995,
+    563,
+    1173
+   ],
+   "mateHead": [
+    1080,
+    769,
+    1262,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    384,
+    994,
+    561,
+    1172
+   ],
+   "mateHead": [
+    1079,
+    769,
+    1261,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    382,
+    993,
+    560,
+    1171
+   ],
+   "mateHead": [
+    1078,
+    768,
+    1259,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    381,
+    993,
+    559,
+    1170
+   ],
+   "mateHead": [
+    1077,
+    768,
+    1258,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    380,
+    992,
+    558,
+    1170
+   ],
+   "mateHead": [
+    1076,
+    767,
+    1257,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     733,
+     928,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    379,
+    991,
+    557,
+    1169
+   ],
+   "mateHead": [
+    1075,
+    767,
+    1256,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     733,
+     929,
+     1332
+    ],
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    378,
+    991,
+    556,
+    1169
+   ],
+   "mateHead": [
+    1074,
+    766,
+    1256,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    305,
+    991,
+    480,
+    1165
+   ],
+   "mateHead": [
+    984,
+    769,
+    1160,
+    945
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    155,
+    379,
+    845,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    306,
+    990,
+    481,
+    1165
+   ],
+   "mateHead": [
+    985,
+    768,
+    1160,
+    944
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    307,
+    990,
+    481,
+    1165
+   ],
+   "mateHead": [
+    985,
+    768,
+    1161,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    169,
+    380,
+    831,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    307,
+    990,
+    482,
+    1164
+   ],
+   "mateHead": [
+    986,
+    767,
+    1162,
+    943
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    308,
+    990,
+    483,
+    1165
+   ],
+   "mateHead": [
+    987,
+    767,
+    1163,
+    943
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    308,
+    990,
+    483,
+    1165
+   ],
+   "mateHead": [
+    987,
+    766,
+    1164,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    309,
+    990,
+    484,
+    1165
+   ],
+   "mateHead": [
+    988,
+    766,
+    1165,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    310,
+    991,
+    485,
+    1165
+   ],
+   "mateHead": [
+    989,
+    766,
+    1165,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     162,
+     708,
+     918,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    311,
+    991,
+    486,
+    1166
+   ],
+   "mateHead": [
+    990,
+    765,
+    1166,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1353
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    311,
+    992,
+    486,
+    1166
+   ],
+   "mateHead": [
+    991,
+    765,
+    1168,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    166,
+    379,
+    834,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 5
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    312,
+    992,
+    487,
+    1167
+   ],
+   "mateHead": [
+    992,
+    765,
+    1169,
+    942
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    313,
+    993,
+    488,
+    1168
+   ],
+   "mateHead": [
+    993,
+    765,
+    1170,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    157,
+    341,
+    843,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    314,
+    994,
+    489,
+    1169
+   ],
+   "mateHead": [
+    995,
+    765,
+    1171,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    153,
+    340,
+    847,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    315,
+    994,
+    490,
+    1170
+   ],
+   "mateHead": [
+    996,
+    765,
+    1172,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     161,
+     707,
+     919,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    316,
+    995,
+    492,
+    1171
+   ],
+   "mateHead": [
+    997,
+    765,
+    1174,
+    942
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     160,
+     707,
+     920,
+     1354
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    317,
+    996,
+    493,
+    1172
+   ],
+   "mateHead": [
+    999,
+    766,
+    1175,
+    943
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     160,
+     707,
+     920,
+     1355
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    319,
+    997,
+    494,
+    1173
+   ],
+   "mateHead": [
+    1000,
+    766,
+    1177,
+    943
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     160,
+     707,
+     920,
+     1355
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    320,
+    998,
+    495,
+    1173
+   ],
+   "mateHead": [
+    1002,
+    766,
+    1179,
+    943
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     160,
+     706,
+     920,
+     1355
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    321,
+    999,
+    497,
+    1174
+   ],
+   "mateHead": [
+    1003,
+    767,
+    1180,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     160,
+     706,
+     920,
+     1355
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    322,
+    999,
+    498,
+    1175
+   ],
+   "mateHead": [
+    1005,
+    767,
+    1182,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     159,
+     706,
+     921,
+     1355
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    324,
+    1000,
+    500,
+    1176
+   ],
+   "mateHead": [
+    1007,
+    768,
+    1184,
+    945
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     159,
+     706,
+     921,
+     1356
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    325,
+    1000,
+    501,
+    1176
+   ],
+   "mateHead": [
+    1008,
+    768,
+    1186,
+    946
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     159,
+     706,
+     921,
+     1356
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    326,
+    1001,
+    503,
+    1177
+   ],
+   "mateHead": [
+    1010,
+    769,
+    1188,
+    946
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     159,
+     706,
+     921,
+     1356
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    328,
+    1001,
+    504,
+    1177
+   ],
+   "mateHead": [
+    1012,
+    769,
+    1190,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     159,
+     706,
+     921,
+     1356
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    329,
+    1001,
+    506,
+    1178
+   ],
+   "mateHead": [
+    1014,
+    770,
+    1192,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     158,
+     705,
+     922,
+     1357
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    331,
+    1002,
+    507,
+    1178
+   ],
+   "mateHead": [
+    1016,
+    770,
+    1194,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     158,
+     705,
+     922,
+     1357
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    333,
+    1002,
+    509,
+    1178
+   ],
+   "mateHead": [
+    1018,
+    770,
+    1196,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     158,
+     705,
+     922,
+     1357
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    334,
+    1001,
+    511,
+    1178
+   ],
+   "mateHead": [
+    1020,
+    771,
+    1198,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     158,
+     705,
+     922,
+     1357
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    336,
+    1001,
+    512,
+    1178
+   ],
+   "mateHead": [
+    1022,
+    771,
+    1200,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     157,
+     705,
+     923,
+     1358
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    337,
+    1001,
+    514,
+    1177
+   ],
+   "mateHead": [
+    1024,
+    771,
+    1202,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     157,
+     705,
+     923,
+     1358
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    339,
+    1000,
+    516,
+    1177
+   ],
+   "mateHead": [
+    1026,
+    772,
+    1205,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     157,
+     704,
+     923,
+     1358
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    341,
+    1000,
+    517,
+    1176
+   ],
+   "mateHead": [
+    1028,
+    772,
+    1207,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     156,
+     704,
+     924,
+     1359
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    342,
+    999,
+    519,
+    1176
+   ],
+   "mateHead": [
+    1030,
+    772,
+    1209,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     156,
+     704,
+     924,
+     1359
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    344,
+    998,
+    521,
+    1175
+   ],
+   "mateHead": [
+    1032,
+    772,
+    1211,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     156,
+     704,
+     924,
+     1359
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    346,
+    998,
+    522,
+    1174
+   ],
+   "mateHead": [
+    1034,
+    772,
+    1213,
+    951
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    152,
+    340,
+    848,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     156,
+     704,
+     924,
+     1359
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    347,
+    997,
+    524,
+    1174
+   ],
+   "mateHead": [
+    1036,
+    771,
+    1216,
+    951
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     155,
+     703,
+     925,
+     1360
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    349,
+    996,
+    526,
+    1173
+   ],
+   "mateHead": [
+    1038,
+    771,
+    1218,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    216,
+    341,
+    784,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     155,
+     703,
+     925,
+     1360
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    351,
+    995,
+    527,
+    1172
+   ],
+   "mateHead": [
+    1040,
+    771,
+    1220,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     155,
+     703,
+     925,
+     1360
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    352,
+    994,
+    529,
+    1171
+   ],
+   "mateHead": [
+    1042,
+    770,
+    1222,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     155,
+     703,
+     925,
+     1360
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    354,
+    993,
+    531,
+    1170
+   ],
+   "mateHead": [
+    1044,
+    770,
+    1224,
+    950
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     154,
+     703,
+     926,
+     1361
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    355,
+    993,
+    532,
+    1170
+   ],
+   "mateHead": [
+    1046,
+    770,
+    1226,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     154,
+     703,
+     926,
+     1361
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    357,
+    992,
+    534,
+    1169
+   ],
+   "mateHead": [
+    1048,
+    769,
+    1228,
+    949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     154,
+     703,
+     926,
+     1361
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    358,
+    991,
+    535,
+    1168
+   ],
+   "mateHead": [
+    1050,
+    768,
+    1230,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     154,
+     702,
+     926,
+     1361
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    360,
+    991,
+    537,
+    1168
+   ],
+   "mateHead": [
+    1052,
+    768,
+    1232,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     154,
+     702,
+     926,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    361,
+    990,
+    538,
+    1167
+   ],
+   "mateHead": [
+    1053,
+    767,
+    1234,
+    948
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     153,
+     702,
+     927,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    362,
+    990,
+    539,
+    1167
+   ],
+   "mateHead": [
+    1055,
+    767,
+    1235,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     153,
+     702,
+     927,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    364,
+    990,
+    541,
+    1167
+   ],
+   "mateHead": [
+    1056,
+    766,
+    1237,
+    947
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     153,
+     702,
+     927,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    365,
+    990,
+    542,
+    1167
+   ],
+   "mateHead": [
+    1058,
+    765,
+    1238,
+    946
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     153,
+     702,
+     927,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    366,
+    990,
+    543,
+    1167
+   ],
+   "mateHead": [
+    1059,
+    765,
+    1240,
+    946
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     153,
+     702,
+     927,
+     1362
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    367,
+    990,
+    544,
+    1167
+   ],
+   "mateHead": [
+    1061,
+    764,
+    1241,
+    945
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    368,
+    990,
+    545,
+    1168
+   ],
+   "mateHead": [
+    1062,
+    764,
+    1243,
+    945
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    369,
+    991,
+    546,
+    1168
+   ],
+   "mateHead": [
+    1063,
+    763,
+    1244,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    370,
+    991,
+    547,
+    1168
+   ],
+   "mateHead": [
+    1064,
+    763,
+    1245,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    371,
+    992,
+    548,
+    1169
+   ],
+   "mateHead": [
+    1065,
+    763,
+    1246,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    372,
+    992,
+    549,
+    1170
+   ],
+   "mateHead": [
+    1066,
+    762,
+    1248,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1363
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    372,
+    993,
+    550,
+    1171
+   ],
+   "mateHead": [
+    1067,
+    762,
+    1249,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     152,
+     701,
+     928,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    373,
+    994,
+    551,
+    1171
+   ],
+   "mateHead": [
+    1068,
+    762,
+    1250,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     151,
+     701,
+     929,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    374,
+    995,
+    552,
+    1172
+   ],
+   "mateHead": [
+    1069,
+    762,
+    1251,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     151,
+     701,
+     929,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    374,
+    995,
+    552,
+    1173
+   ],
+   "mateHead": [
+    1070,
+    762,
+    1251,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     151,
+     701,
+     929,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    375,
+    996,
+    553,
+    1174
+   ],
+   "mateHead": [
+    1071,
+    762,
+    1252,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     151,
+     701,
+     929,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    376,
+    997,
+    554,
+    1175
+   ],
+   "mateHead": [
+    1072,
+    763,
+    1253,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": [
+     151,
+     701,
+     929,
+     1364
+    ],
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    376,
+    998,
+    554,
+    1176
+   ],
+   "mateHead": [
+    1072,
+    763,
+    1254,
+    944
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1153,
+    -1251,
+    91,
+    -7
+   ],
+   "mateHead": [
+    4518,
+    -7511,
+    6649,
+    -5380
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    212,
+    340,
+    788,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1150,
+    -1245,
+    94,
+    -1
+   ],
+   "mateHead": [
+    4516,
+    -7519,
+    6648,
+    -5387
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 6
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1148,
+    -1239,
+    96,
+    5
+   ],
+   "mateHead": [
+    4514,
+    -7527,
+    6647,
+    -5394
+   ],
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    108,
+    385,
+    892,
+    475
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1146,
+    -1233,
+    99,
+    11
+   ],
+   "mateHead": [
+    4511,
+    -7534,
+    6645,
+    -5400
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    104,
+    384,
+    896,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1145,
+    -1229,
+    101,
+    17
+   ],
+   "mateHead": [
+    4508,
+    -7542,
+    6643,
+    -5407
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1144,
+    -1225,
+    102,
+    21
+   ],
+   "mateHead": [
+    4504,
+    -7551,
+    6641,
+    -5414
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1145,
+    -1222,
+    103,
+    26
+   ],
+   "mateHead": [
+    4501,
+    -7562,
+    6640,
+    -5423
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1146,
+    -1220,
+    104,
+    29
+   ],
+   "mateHead": [
+    4499,
+    -7574,
+    6640,
+    -5433
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1149,
+    -1220,
+    103,
+    32
+   ],
+   "mateHead": [
+    4497,
+    -7590,
+    6641,
+    -5446
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1152,
+    -1221,
+    103,
+    34
+   ],
+   "mateHead": [
+    4495,
+    -7608,
+    6643,
+    -5460
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1157,
+    -1222,
+    101,
+    35
+   ],
+   "mateHead": [
+    4495,
+    -7630,
+    6647,
+    -5478
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1162,
+    -1226,
+    99,
+    36
+   ],
+   "mateHead": [
+    4495,
+    -7655,
+    6652,
+    -5498
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1169,
+    -1230,
+    96,
+    35
+   ],
+   "mateHead": [
+    4496,
+    -7685,
+    6660,
+    -5522
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1177,
+    -1236,
+    92,
+    34
+   ],
+   "mateHead": [
+    4499,
+    -7719,
+    6669,
+    -5548
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1187,
+    -1242,
+    88,
+    32
+   ],
+   "mateHead": [
+    4502,
+    -7757,
+    6681,
+    -5579
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1197,
+    -1250,
+    83,
+    29
+   ],
+   "mateHead": [
+    4507,
+    -7800,
+    6695,
+    -5612
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    384,
+    897,
+    476
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1208,
+    -1259,
+    77,
+    26
+   ],
+   "mateHead": [
+    4514,
+    -7848,
+    6712,
+    -5650
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 6
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1221,
+    -1269,
+    70,
+    21
+   ],
+   "mateHead": [
+    4521,
+    -7900,
+    6731,
+    -5691
+   ],
+   "desk": null,
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    210,
+    341,
+    790,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1234,
+    -1280,
+    63,
+    16
+   ],
+   "mateHead": [
+    4530,
+    -7958,
+    6752,
+    -5735
+   ],
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    207,
+    340,
+    793,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1248,
+    -1292,
+    55,
+    11
+   ],
+   "mateHead": [
+    4540,
+    -8019,
+    6776,
+    -5784
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1262,
+    -1304,
+    46,
+    5
+   ],
+   "mateHead": [
+    4552,
+    -8086,
+    6803,
+    -5835
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1277,
+    -1316,
+    37,
+    -2
+   ],
+   "mateHead": [
+    4565,
+    -8157,
+    6831,
+    -5890
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1292,
+    -1329,
+    28,
+    -9
+   ],
+   "mateHead": [
+    4579,
+    -8232,
+    6862,
+    -5949
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1308,
+    -1342,
+    18,
+    -15
+   ],
+   "mateHead": [
+    4595,
+    -8310,
+    6895,
+    -6010
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1324,
+    -1355,
+    9,
+    -22
+   ],
+   "mateHead": [
+    4611,
+    -8392,
+    6930,
+    -6073
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1339,
+    -1367,
+    -1,
+    -29
+   ],
+   "mateHead": [
+    4628,
+    -8478,
+    6966,
+    -6139
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1355,
+    -1379,
+    -11,
+    -35
+   ],
+   "mateHead": [
+    4646,
+    -8565,
+    7004,
+    -6207
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1370,
+    -1390,
+    -21,
+    -41
+   ],
+   "mateHead": [
+    4665,
+    -8655,
+    7043,
+    -6277
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1384,
+    -1401,
+    -30,
+    -47
+   ],
+   "mateHead": [
+    4684,
+    -8746,
+    7083,
+    -6347
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1398,
+    -1410,
+    -39,
+    -52
+   ],
+   "mateHead": [
+    4704,
+    -8838,
+    7123,
+    -6418
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1411,
+    -1419,
+    -48,
+    -57
+   ],
+   "mateHead": [
+    4723,
+    -8930,
+    7164,
+    -6489
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1422,
+    -1427,
+    -56,
+    -61
+   ],
+   "mateHead": [
+    4743,
+    -9021,
+    7204,
+    -6560
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    206,
+    340,
+    794,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1433,
+    -1433,
+    -64,
+    -63
+   ],
+   "mateHead": [
+    4762,
+    -9111,
+    7243,
+    -6629
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1443,
+    -1438,
+    -70,
+    -65
+   ],
+   "mateHead": [
+    4780,
+    -9198,
+    7281,
+    -6697
+   ],
+   "desk": null,
+   "caption": [
+    102,
+    341,
+    898,
+    519
+   ],
+   "captionText": [
+    191,
+    340,
+    809,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1452,
+    -1442,
+    -76,
+    -67
+   ],
+   "mateHead": [
+    4798,
+    -9283,
+    7318,
+    -6763
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1459,
+    -1445,
+    -81,
+    -67
+   ],
+   "mateHead": [
+    4814,
+    -9364,
+    7353,
+    -6825
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1465,
+    -1446,
+    -85,
+    -66
+   ],
+   "mateHead": [
+    4830,
+    -9441,
+    7386,
+    -6885
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1470,
+    -1447,
+    -89,
+    -65
+   ],
+   "mateHead": [
+    4844,
+    -9513,
+    7416,
+    -6940
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1474,
+    -1446,
+    -91,
+    -63
+   ],
+   "mateHead": [
+    4856,
+    -9579,
+    7443,
+    -6992
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1477,
+    -1444,
+    -92,
+    -59
+   ],
+   "mateHead": [
+    4867,
+    -9640,
+    7468,
+    -7039
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1479,
+    -1441,
+    -93,
+    -55
+   ],
+   "mateHead": [
+    4876,
+    -9694,
+    7489,
+    -7081
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1480,
+    -1438,
+    -93,
+    -51
+   ],
+   "mateHead": [
+    4883,
+    -9742,
+    7507,
+    -7118
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1480,
+    -1433,
+    -92,
+    -46
+   ],
+   "mateHead": [
+    4889,
+    -9784,
+    7522,
+    -7151
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1479,
+    -1428,
+    -91,
+    -40
+   ],
+   "mateHead": [
+    4893,
+    -9819,
+    7533,
+    -7179
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1477,
+    -1423,
+    -89,
+    -34
+   ],
+   "mateHead": [
+    4895,
+    -9849,
+    7542,
+    -7202
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1476,
+    -1417,
+    -86,
+    -28
+   ],
+   "mateHead": [
+    4895,
+    -9873,
+    7547,
+    -7221
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1473,
+    -1412,
+    -83,
+    -21
+   ],
+   "mateHead": [
+    4894,
+    -9891,
+    7550,
+    -7236
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1471,
+    -1406,
+    -80,
+    -15
+   ],
+   "mateHead": [
+    4892,
+    -9906,
+    7551,
+    -7248
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    -1469,
+    -1401,
+    -76,
+    -8
+   ],
+   "mateHead": [
+    4889,
+    -9917,
+    7550,
+    -7257
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    88,
+    982,
+    271,
+    1165
+   ],
+   "mateHead": [
+    794,
+    745,
+    985,
+    935
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    88,
+    982,
+    271,
+    1165
+   ],
+   "mateHead": [
+    794,
+    745,
+    984,
+    935
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    98,
+    974,
+    279,
+    1155
+   ],
+   "mateHead": [
+    794,
+    746,
+    984,
+    936
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    970,
+    289,
+    1151
+   ],
+   "mateHead": [
+    794,
+    748,
+    984,
+    937
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    117,
+    966,
+    297,
+    1146
+   ],
+   "mateHead": [
+    794,
+    749,
+    983,
+    939
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    121,
+    964,
+    300,
+    1143
+   ],
+   "mateHead": [
+    793,
+    751,
+    983,
+    940
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    123,
+    964,
+    301,
+    1142
+   ],
+   "mateHead": [
+    793,
+    753,
+    982,
+    941
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    123,
+    964,
+    301,
+    1143
+   ],
+   "mateHead": [
+    793,
+    755,
+    981,
+    943
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    124,
+    965,
+    302,
+    1143
+   ],
+   "mateHead": [
+    792,
+    757,
+    980,
+    945
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    124,
+    966,
+    302,
+    1144
+   ],
+   "mateHead": [
+    791,
+    759,
+    978,
+    947
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    125,
+    968,
+    302,
+    1145
+   ],
+   "mateHead": [
+    791,
+    762,
+    977,
+    948
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    126,
+    969,
+    302,
+    1145
+   ],
+   "mateHead": [
+    790,
+    764,
+    976,
+    950
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    126,
+    970,
+    303,
+    1146
+   ],
+   "mateHead": [
+    789,
+    767,
+    974,
+    952
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    127,
+    971,
+    303,
+    1147
+   ],
+   "mateHead": [
+    788,
+    769,
+    973,
+    954
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    127,
+    973,
+    303,
+    1148
+   ],
+   "mateHead": [
+    788,
+    771,
+    972,
+    955
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    128,
+    974,
+    303,
+    1149
+   ],
+   "mateHead": [
+    786,
+    774,
+    969,
+    957
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    128,
+    975,
+    303,
+    1149
+   ],
+   "mateHead": [
+    781,
+    776,
+    964,
+    959
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    129,
+    976,
+    303,
+    1150
+   ],
+   "mateHead": [
+    774,
+    779,
+    956,
+    961
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    129,
+    978,
+    302,
+    1151
+   ],
+   "mateHead": [
+    767,
+    781,
+    949,
+    963
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    129,
+    981,
+    302,
+    1154
+   ],
+   "mateHead": [
+    762,
+    783,
+    944,
+    965
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    126,
+    985,
+    300,
+    1158
+   ],
+   "mateHead": [
+    761,
+    785,
+    942,
+    966
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    120,
+    990,
+    294,
+    1163
+   ],
+   "mateHead": [
+    761,
+    786,
+    941,
+    966
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    113,
+    994,
+    287,
+    1168
+   ],
+   "mateHead": [
+    760,
+    787,
+    940,
+    967
+   ],
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    997,
+    282,
+    1171
+   ],
+   "mateHead": [
+    760,
+    787,
+    939,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    998,
+    281,
+    1171
+   ],
+   "mateHead": [
+    759,
+    788,
+    939,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    998,
+    282,
+    1172
+   ],
+   "mateHead": [
+    759,
+    788,
+    938,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    999,
+    282,
+    1172
+   ],
+   "mateHead": [
+    759,
+    787,
+    938,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    999,
+    282,
+    1172
+   ],
+   "mateHead": [
+    759,
+    787,
+    938,
+    966
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    109,
+    999,
+    282,
+    1172
+   ],
+   "mateHead": [
+    759,
+    786,
+    938,
+    966
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    109,
+    999,
+    282,
+    1173
+   ],
+   "mateHead": [
+    759,
+    786,
+    938,
+    965
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    109,
+    1000,
+    282,
+    1173
+   ],
+   "mateHead": [
+    759,
+    785,
+    938,
+    965
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    109,
+    1000,
+    282,
+    1173
+   ],
+   "mateHead": [
+    759,
+    785,
+    938,
+    964
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    109,
+    1001,
+    282,
+    1174
+   ],
+   "mateHead": [
+    759,
+    785,
+    938,
+    964
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    1001,
+    282,
+    1174
+   ],
+   "mateHead": [
+    759,
+    784,
+    938,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    1002,
+    282,
+    1175
+   ],
+   "mateHead": [
+    759,
+    784,
+    939,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    108,
+    1002,
+    281,
+    1176
+   ],
+   "mateHead": [
+    759,
+    783,
+    939,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    107,
+    1003,
+    281,
+    1176
+   ],
+   "mateHead": [
+    759,
+    783,
+    939,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    107,
+    1003,
+    281,
+    1177
+   ],
+   "mateHead": [
+    760,
+    783,
+    939,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    106,
+    1004,
+    280,
+    1178
+   ],
+   "mateHead": [
+    760,
+    783,
+    940,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    105,
+    1004,
+    280,
+    1178
+   ],
+   "mateHead": [
+    760,
+    782,
+    940,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    104,
+    1004,
+    279,
+    1179
+   ],
+   "mateHead": [
+    760,
+    782,
+    941,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    104,
+    1005,
+    279,
+    1180
+   ],
+   "mateHead": [
+    761,
+    782,
+    941,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    103,
+    1005,
+    278,
+    1180
+   ],
+   "mateHead": [
+    761,
+    782,
+    942,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    102,
+    1005,
+    277,
+    1181
+   ],
+   "mateHead": [
+    761,
+    782,
+    942,
+    963
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    101,
+    1006,
+    277,
+    1182
+   ],
+   "mateHead": [
+    762,
+    782,
+    943,
+    964
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    100,
+    1006,
+    276,
+    1182
+   ],
+   "mateHead": [
+    762,
+    783,
+    943,
+    964
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    99,
+    1006,
+    276,
+    1183
+   ],
+   "mateHead": [
+    762,
+    783,
+    944,
+    964
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    98,
+    1006,
+    275,
+    1183
+   ],
+   "mateHead": [
+    763,
+    783,
+    944,
+    965
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    98,
+    1006,
+    275,
+    1183
+   ],
+   "mateHead": [
+    763,
+    783,
+    945,
+    965
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    97,
+    1006,
+    274,
+    1183
+   ],
+   "mateHead": [
+    763,
+    784,
+    945,
+    966
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    96,
+    1006,
+    274,
+    1183
+   ],
+   "mateHead": [
+    763,
+    784,
+    945,
+    966
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    96,
+    1006,
+    274,
+    1183
+   ],
+   "mateHead": [
+    764,
+    785,
+    946,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    96,
+    1006,
+    273,
+    1183
+   ],
+   "mateHead": [
+    764,
+    785,
+    946,
+    967
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    95,
+    1005,
+    273,
+    1183
+   ],
+   "mateHead": [
+    764,
+    785,
+    946,
+    968
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    95,
+    1005,
+    273,
+    1183
+   ],
+   "mateHead": [
+    764,
+    786,
+    946,
+    968
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    95,
+    1005,
+    273,
+    1183
+   ],
+   "mateHead": [
+    764,
+    786,
+    946,
+    969
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "wording": null,
+    "guess": null,
+    "writer": null,
+    "recipient": null
+   },
+   "head": [
+    95,
+    1005,
+    273,
+    1183
+   ],
+   "mateHead": [
+    764,
+    786,
+    946,
+    969
+   ],
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  }
+ ]
+}

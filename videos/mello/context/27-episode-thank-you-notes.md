@@ -96,6 +96,17 @@ How the script uses it (measured / hedged / advice / illustrative):
   - The card is turned to the camera so the heading reads, a staging cheat.
 - **S7, 24.3–30:** wide. He hands it over; the recipient opens it and glows a little. Lock-up from 26.3 s.
 
+## Result
+- Final: `videos/mello/production/30s/2026-11-15-english-17/mello-30s-english17-01.mp4`
+  - sha256 `01155602871dd0f31dc91680b3334c5a3ac59a5ead1784d2984717725c0bfb44`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 (`production/30s/2026-11-15-english-17/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.4 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- No listen-through (ASR and measurements only).
+
 ## Skill / scene adjustments for future episodes
 - **Writing close-ups:** an over-the-shoulder camera is blocked by the rig's head and arms. A near-vertical flat-lay, rotated so the writing arm enters from the side, keeps the caption band over the desk.
   - Rest the other hand in the lap, out of view.

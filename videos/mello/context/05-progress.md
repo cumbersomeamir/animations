@@ -624,3 +624,37 @@ Episode record: `26-episode-awe-walks.md`. Durable rules: `10-format-and-style-r
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-17, 2026-11-15: episode english17-01 "waiting for the perfect words" (undervaluing gratitude, English)
+Episode record: `27-episode-thank-you-notes.md`. Durable rules: `10-format-and-style-rules.md` sections 8 and 9. The latest feedback (store palette, soothing bed, psychology insight with a demonstration) is retained.
+
+## Verified facts (this round)
+- The proposed topic ("why a tiny first step can beat waiting for motivation": implementation intentions, shoes by the door) is already covered: hindi04-01 (`14`), and shoes by the door in english15 (`25`). A fresh same-genre topic was chosen that keeps the "stop waiting to feel ready" spirit: people undervalue a thank-you. Not covered in context 11–26.
+- Source: Kumar & Epley 2018, *Psychological Science* 29(9), doi 10.1177/0956797618772506, read in full (PDF copy, DOI matched; PubMed and SAGE refused automated access, so no PMID).
+  - Experiments 1, 2 and 4: recipients felt more positive and less awkward than writers predicted.
+  - Experiment 4: wording rated 9.28 vs a predicted 6.99 out of 10.
+  - Willingness to write is correlated with these expectations.
+
+## Creative decisions (this round)
+- English only, 70 words, hook audio at 0.15 s.
+- Frame 0 = the thumbnail composition: the writer at his desk beside a heap of crumpled drafts taller than his head, pen over a blank card, "Waiting for the / perfect words?".
+- Seven shots: the drafts, the toss, the handover with a "?" guess, the feelings card (guess vs actual), the wording card (7 → 9.3), a flat-lay of him writing "Thank you," and the handover with the lock-up.
+- `BED_GAIN` 0.37 (12.9 dB under the voice). Thumbnail "PERFECT WORDS?".
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-15-english-17/mello-30s-english17-01.mp4`
+  - sha256 `01155602871dd0f31dc91680b3334c5a3ac59a5ead1784d2984717725c0bfb44`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english17-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-15-english-17/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.4 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+- About 2 frames of a faint grey card fade-in before the 9.05 s cut. In the flat-lay the card is turned to the camera (staging).
+
+## Next
+- Wait for the next request or feedback.

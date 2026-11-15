@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Waiting for the perfect words? That worry can keep a thank-you unsent. In experiments, people wrote thank-you letters and guessed the recipient's reaction. Recipients felt better than the writers expected, and less awkward. And the wording? Writers guessed about seven out of ten. Recipients rated it over nine. Don't wait to feel ready. Write one thank-you today: what they did, and how it helped. Take a mindful break with Mello.",
+  "transcript": "Waiting for the perfect words. That worry can keep a thank you unsent. In experiments, people wrote thank you letters and guessed the recipient's reaction. Recipients felt better than the writers expected and less awkward. And the wording? Writers guessed about 7 out of 10. Recipients rated it over 9. Don't wait to feel ready. Write one thank you today, what they did and how it helped. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.59,
+      "text": "Waiting for the perfect words.",
+      "cer": 0.0
+    },
+    {
+      "id": "worry",
+      "start": 2.05,
+      "end": 3.852,
+      "text": "That worry can keep a thank you unsent.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 4.35,
+      "end": 8.751,
+      "text": "In experiments, people wrote thank you letters and guessed the recipient's reaction.",
+      "cer": 0.0
+    },
+    {
+      "id": "felt",
+      "start": 9.2,
+      "end": 12.847,
+      "text": "Recipients felt better than the writers expected and less awkward.",
+      "cer": 0.0
+    },
+    {
+      "id": "words",
+      "start": 13.35,
+      "end": 18.546,
+      "text": "And the wording? Writers guessed about 7 out of 10. Recipients rated it over 9.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 19.6,
+      "end": 24.297,
+      "text": "Don't wait to feel ready. Write one thank you today, what they did and how it helped.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
