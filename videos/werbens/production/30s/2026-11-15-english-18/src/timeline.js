@@ -45,11 +45,11 @@ export const KNOB = {
 };
 // caption groups: word index ranges into each line (br = index of the first word of line 2); the first group waits for the headline
 export const CAPTIONS = [
-  { line: "L1", from: 0, to: 3, t0: 0.42 }, { line: "L1", from: 3, to: 9, br: 6 },
+  { line: "L1", from: 0, to: 9, br: 6, t0: 0.42 },
   { line: "L2", from: 0, to: 4, br: 2 }, { line: "L2", from: 4, to: 8 },
   { line: "L3", from: 0, to: 3 }, { line: "L3", from: 3, to: 7 }, { line: "L3", from: 7, to: 13, br: 10 },
   { line: "L4", from: 0, to: 5, br: 2 }, { line: "L4", from: 5, to: 10, br: 8 },
-  { line: "L5", from: 0, to: 4 }, { line: "L5", from: 4, to: 7 }, { line: "L5", from: 7, to: 12, br: 10 },
+  { line: "L5", from: 0, to: 7, br: 4 }, { line: "L5", from: 7, to: 12, br: 10 },
   { line: "L6", from: 0, to: 5, br: 3 }, { line: "L6", from: 5, to: 9 },
   { line: "L7", from: 0, to: 5, br: 3 }, { line: "L7", from: 5, to: 11, br: 8 },
   { line: "L8", from: 0, to: 7, br: 2 },
