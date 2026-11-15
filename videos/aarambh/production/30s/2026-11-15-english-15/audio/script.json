@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.05, "text": "In 1960, an FDA reviewer refused a pill sold in dozens of countries.", "tts": "In 1960, an FDA reviewer refused a pill sold in dozens of countries."},
+    {"id": "S2", "start": 6.05, "text": "It was thalidomide. Why did she say no?", "tts": "It was thalidomide. Why did she say no?"},
+    {"id": "S3", "start": 8.75, "text": "Frances Kelsey found its safety evidence too thin.", "tts": "Frances Kelsey found its safety evidence too thin."},
+    {"id": "S4", "start": 11.95, "text": "The company kept pressing; she kept asking for reliable evidence.", "tts": "The company kept pressing; she kept asking for reliable evidence."},
+    {"id": "S5", "start": 16.15, "text": "Then researchers linked it to severe birth defects; it was never marketed in the U.S.", "tts": "Then researchers linked it to severe birth defects; it was never marketed in the U.S."},
+    {"id": "S6", "start": 21.85, "text": "Lesson: popularity isn't proof of safety; ask what the evidence shows.", "tts": "Lesson: popularity isn't proof of safety; ask what the evidence shows."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

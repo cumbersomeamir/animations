@@ -1,0 +1,28 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+In | 0.05 (In, placed) | 0.00 (In) | FRAME 0 (complete, = thumbnail): real NLM portrait + real Kevadon bottle + "STOPPED AT THE DOOR"; narration audible from 0.09 s; slow push begins | 0.00
+In | 0.05 (In, placed) | 0.00 (In) | light sweep across the bottle print (0.30) and portrait (0.50) | 0.30
+refused | 3.10 (refused) | 3.10 (refused) | gold "door" bar rises between her and the bottle | 3.00
+It | 6.18 (It) | 6.18 (was) | HARD CUT (flash) -> close-up of the real Kevadon label | 5.99
+thaladomide | 6.42 (thaladomide.) | 6.42 (thalidomide.) | gold underline under "thalidomide" on the label | 6.32
+Why | 7.42 (Why) | 7.40 (Why) | big gold "?" | 7.22
+Frances | 9.00 (Frances) | 8.88 (Francis) | WHIP PAN (8.55-8.75) -> real FDA photo of Kelsey (1960s) at a desk with stacks of documents; name label FRANCES KELSEY | 8.90
+safety | 10.22 (safety) | 10.22 (safety) | EVIDENCE gauge appears, fills to ~22% and stalls below the "needed" line | 9.92
+too | 10.92 (too) | 10.92 (too) | label "too thin" | 10.82
+The | 12.06 (The) | 12.02 (The) | PAGE TURN (11.60-11.95) -> pressure page: the company building and her portrait | 11.60
+company | 12.16 (company) | 12.16 (company) | letters fly from the company and land at her desk (5 arrivals) | 11.96
+kept | 12.44 (kept) | 12.44 (kept) | label "pressing" | 12.34
+asking | 14.00 (asking) | 14.02 (asking) | a "?" goes back to the company (three times: 13.90, 14.67, 14.82) | 13.90
+reliable | 14.72 (reliable) | 14.74 (reliable) | stamp RELIABLE EVIDENCE? | 14.62
+Then | 16.18 (Then) | 16.16 (Then) | PUSH (15.90-16.15) -> timeline; 1960 application | 15.90
+researchers | 16.44 (researchers) | 16.44 (researchers) | timeline line draws toward 1961 | 16.14
+linked | 16.92 (linked) | 16.92 (linked) | 1961 marker | 16.82
+severe | 17.72 (severe) | 17.72 (severe) | card "severe birth defects" at 1961 | 17.62
+was | 19.30 (was) | 19.30 (was) | the real bottle returns | 18.90
+marketed | 19.72 (marketed) | 19.72 (marketed) | stamp NEVER MARKETED IN THE U.S. | 19.62
+Lesson | 21.96 (Lesson) | 21.94 (Lesson) | PUSH (21.55-21.85) -> lesson: portrait and a scale tilted toward "popular" | 21.55
+popularity | 22.48 (popularity) | 22.46 (popularity) | labels popular / evidence | 22.28
+Ask | 24.76 (Ask) | 24.76 (Ask) | the scale tips toward evidence | 24.56
+evidence | 25.68 (evidence) | 25.66 (evidence) | label "ask for the evidence" (+ chime) | 25.48
+Download | 27.10 (Download, placed) | 27.54 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 25 events; for word-triggered events, event minus word start ranges -0.46 to -0.10 s (negative = event leads the word). Pacing: hook 0.05-5.72 (complete first frame, audio from 0.09 s), escalation/question 6.05-8.42, explanation/proof 8.75-21.50 with scene changes at 5.99, 8.75, 11.95, 16.15, payoff 21.85-26.22, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 6.05 S3 8.75 S4 11.95 S5 16.15 S6 21.85 S7 27.1 (audio/script.json); ASR stamps "In" at 0.00 (placed 0.05) and "Download" early (26.22; placed 27.10); ASR spells Frances as "Francis" (homophone) and tiny.en writes "thaladomide" in the narration pass; ASR hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

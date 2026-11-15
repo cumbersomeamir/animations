@@ -64,3 +64,11 @@ Source: the user's brief of 2026-11-11 ("NEXT EDUCATIONAL EPISODE — updated fr
 - Inspect transitions and frames.
 - Check English narration, caption sync, clipping and missing assets.
 - Report limitations honestly. **Do not claim a watched or listened check that was not performed:** in this cloud container, listening means ASR-based checks only, and it must be reported that way.
+
+## Addendum 2026-11-15 — FIRST FRAME IS CRITICAL (approved; applies to every future episode)
+- **No logo intro, fade from black, flicker, empty setup or elements fading in at frame 0.** Frame 0 must be a beautifully composed, surprising subject that reads on a phone.
+- **Frame-0 words:** at most 2–5 truthful curiosity words on screen.
+- **The first image must work as the thumbnail.** Click-worthy never means misleading.
+- **Hook audio starts immediately** (narration from about 0.05 s), promises a specific useful answer, and the episode delivers it.
+- **Keep the app's approved aesthetic.**
+- **QA:** extract frame 0 (`-frames:v 1` at t = 0) and check it as a standalone image.

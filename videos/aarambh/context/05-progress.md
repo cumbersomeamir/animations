@@ -103,3 +103,10 @@
   - Hook (chief engineer away 11 years) → "how did his plans reach the builders?" → caissons and the bends (real 1867 drawing) → dictation, writing and relay to the assistant engineers → learned the engineering, treated like the chief engineer → lesson "to translate expert knowledge, learn enough to answer the next question" → Aarambh CTA.
 - **Read first next time:** 25 (current rules), then 11 and 28.
 - **Clarification (2026-11-14):** the english-14 topic title ("bridge collapse") was a draft error. The intended topic is Emily Warren Roebling helping complete the Brooklyn Bridge, which the delivered MP4 already follows; it was not re-rendered (record note in 28).
+
+## 2026-11-15: english-15 #01 (English; first under the first-frame addendum)
+- **Rule persisted:** "FIRST FRAME IS CRITICAL" (addendum in 25, summary in 11).
+- `videos/aarambh/production/30s/2026-11-15-english-15/aarambh-30s-english15-01.mp4` (sha256 `86d5532a47693f9b085d26c0912653be425f364867108f2c3134034776764a29`) and thumbnail = frame 0: Frances Oldham Kelsey and thalidomide.
+  - Frame 0: real portrait plus the real Kevadon bottle, "STOPPED AT THE DOOR".
+  - Story: "why did she say no?" → evidence too thin → company pressure vs her demand for reliable evidence → linked to severe birth defects; never marketed in the U.S. → lesson "popularity isn't proof of safety; ask what the evidence shows" → Aarambh CTA.
+- **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 29.

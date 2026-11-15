@@ -305,3 +305,17 @@ Changes to the recipe above:
 - **`photo()` sets its own globalAlpha,** so pass fades as its `a` argument, never via a parent `globalAlpha`.
 
 - 16 (2026-11-14, english-14): Emily Warren Roebling and the Brooklyn Bridge: she wrote down and carried the bedridden chief engineer's instructions and learned the engineering (Linda Hall Library; Brooklyn Museum portraits; RPI 1867 caisson drawing). Record: `28-production-30s-english14-01.md`
+
+## First-frame rule, 2026-11-15 (addendum to `25`; supersedes the spotlight-flicker opening)
+- Frame 0 is a finished composition: the real portrait, the key object and 2–5 truthful words, already in place.
+- No fade-in, no flicker, no logo intro.
+- Narration starts at about 0.05 s.
+- Frame 0 doubles as the thumbnail.
+
+## English-15 notes, 2026-11-15
+- **First frame done right:** draw the scene's first state already complete (no alpha ramps at t = 0), remove the opening flicker, and render the thumbnail from `drawFrame(0)`. Verify with `qa/first_frame.txt`: frame 0 against the thumbnail, mean luminance, and audio onset.
+- **Sensitive medical history:** name harms in text only (no graphic imagery). Use the regulator's exact wording for scope ("never marketed in the U.S."), and don't claim sole credit or numbers saved.
+- **Real objects make strong first frames:** FDA's history photos on Flickr/Commons are public-domain U.S. government works (here the real 1960 Kevadon bottle).
+- **Measure caption lines before the first full render** (≤ 700 px at Inter 800 54 px).
+
+- 17 (2026-11-15, english-15): Frances Oldham Kelsey and thalidomide, "STOPPED AT THE DOOR": she refused approval for lack of reliable evidence despite company pressure; never marketed in the U.S. (FDA; NLM; real Kevadon bottle). First episode under the first-frame addendum. Record: `29-production-30s-english15-01.md`

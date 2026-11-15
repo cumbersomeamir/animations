@@ -1,0 +1,366 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "In",
+   "start": 0.0,
+   "end": 0.28
+  },
+  {
+   "w": "1960,",
+   "start": 0.28,
+   "end": 1.32
+  },
+  {
+   "w": "an",
+   "start": 1.86,
+   "end": 2.16
+  },
+  {
+   "w": "FDA",
+   "start": 2.16,
+   "end": 2.5
+  },
+  {
+   "w": "reviewer",
+   "start": 2.5,
+   "end": 3.1
+  },
+  {
+   "w": "refused",
+   "start": 3.1,
+   "end": 3.52
+  },
+  {
+   "w": "a",
+   "start": 3.52,
+   "end": 3.8
+  },
+  {
+   "w": "pill",
+   "start": 3.8,
+   "end": 3.98
+  },
+  {
+   "w": "sold",
+   "start": 3.98,
+   "end": 4.44
+  },
+  {
+   "w": "in",
+   "start": 4.44,
+   "end": 4.66
+  },
+  {
+   "w": "dozens",
+   "start": 4.66,
+   "end": 4.9
+  },
+  {
+   "w": "of",
+   "start": 4.9,
+   "end": 5.16
+  },
+  {
+   "w": "countries.",
+   "start": 5.16,
+   "end": 5.76
+  },
+  {
+   "w": "It",
+   "start": 6.16,
+   "end": 6.18
+  },
+  {
+   "w": "was",
+   "start": 6.18,
+   "end": 6.42
+  },
+  {
+   "w": "thalidomide.",
+   "start": 6.42,
+   "end": 7.14
+  },
+  {
+   "w": "Why",
+   "start": 7.4,
+   "end": 7.58
+  },
+  {
+   "w": "did",
+   "start": 7.58,
+   "end": 7.7
+  },
+  {
+   "w": "she",
+   "start": 7.7,
+   "end": 7.84
+  },
+  {
+   "w": "say",
+   "start": 7.84,
+   "end": 8.08
+  },
+  {
+   "w": "no?",
+   "start": 8.08,
+   "end": 8.52
+  },
+  {
+   "w": "Francis",
+   "start": 8.88,
+   "end": 9.16
+  },
+  {
+   "w": "Kelsey",
+   "start": 9.16,
+   "end": 9.64
+  },
+  {
+   "w": "found",
+   "start": 9.64,
+   "end": 9.98
+  },
+  {
+   "w": "its",
+   "start": 9.98,
+   "end": 10.22
+  },
+  {
+   "w": "safety",
+   "start": 10.22,
+   "end": 10.56
+  },
+  {
+   "w": "evidence",
+   "start": 10.56,
+   "end": 10.92
+  },
+  {
+   "w": "too",
+   "start": 10.92,
+   "end": 11.28
+  },
+  {
+   "w": "thin.",
+   "start": 11.28,
+   "end": 11.6
+  },
+  {
+   "w": "The",
+   "start": 12.02,
+   "end": 12.16
+  },
+  {
+   "w": "company",
+   "start": 12.16,
+   "end": 12.44
+  },
+  {
+   "w": "kept",
+   "start": 12.44,
+   "end": 12.84
+  },
+  {
+   "w": "pressing.",
+   "start": 12.84,
+   "end": 13.18
+  },
+  {
+   "w": "She",
+   "start": 13.58,
+   "end": 13.76
+  },
+  {
+   "w": "kept",
+   "start": 13.76,
+   "end": 14.02
+  },
+  {
+   "w": "asking",
+   "start": 14.02,
+   "end": 14.44
+  },
+  {
+   "w": "for",
+   "start": 14.44,
+   "end": 14.74
+  },
+  {
+   "w": "reliable",
+   "start": 14.74,
+   "end": 15.1
+  },
+  {
+   "w": "evidence.",
+   "start": 15.1,
+   "end": 15.74
+  },
+  {
+   "w": "Then",
+   "start": 16.16,
+   "end": 16.44
+  },
+  {
+   "w": "researchers",
+   "start": 16.44,
+   "end": 16.92
+  },
+  {
+   "w": "linked",
+   "start": 16.92,
+   "end": 17.26
+  },
+  {
+   "w": "it",
+   "start": 17.26,
+   "end": 17.48
+  },
+  {
+   "w": "to",
+   "start": 17.48,
+   "end": 17.72
+  },
+  {
+   "w": "severe",
+   "start": 17.72,
+   "end": 17.98
+  },
+  {
+   "w": "birth",
+   "start": 17.98,
+   "end": 18.3
+  },
+  {
+   "w": "defects.",
+   "start": 18.3,
+   "end": 18.72
+  },
+  {
+   "w": "It",
+   "start": 19.2,
+   "end": 19.3
+  },
+  {
+   "w": "was",
+   "start": 19.3,
+   "end": 19.46
+  },
+  {
+   "w": "never",
+   "start": 19.46,
+   "end": 19.72
+  },
+  {
+   "w": "marketed",
+   "start": 19.72,
+   "end": 20.06
+  },
+  {
+   "w": "in",
+   "start": 20.06,
+   "end": 20.36
+  },
+  {
+   "w": "the",
+   "start": 20.36,
+   "end": 20.54
+  },
+  {
+   "w": "U",
+   "start": 20.54,
+   "end": 20.96
+  },
+  {
+   "w": ".S.",
+   "start": 20.96,
+   "end": 21.48
+  },
+  {
+   "w": "Lesson",
+   "start": 21.94,
+   "end": 22.46
+  },
+  {
+   "w": "popularity",
+   "start": 22.46,
+   "end": 23.06
+  },
+  {
+   "w": "isn't",
+   "start": 23.06,
+   "end": 23.48
+  },
+  {
+   "w": "proof",
+   "start": 23.48,
+   "end": 23.68
+  },
+  {
+   "w": "of",
+   "start": 23.68,
+   "end": 23.88
+  },
+  {
+   "w": "safety.",
+   "start": 23.88,
+   "end": 24.4
+  },
+  {
+   "w": "Ask",
+   "start": 24.76,
+   "end": 25.04
+  },
+  {
+   "w": "what",
+   "start": 25.04,
+   "end": 25.22
+  },
+  {
+   "w": "the",
+   "start": 25.22,
+   "end": 25.66
+  },
+  {
+   "w": "evidence",
+   "start": 25.66,
+   "end": 25.66
+  },
+  {
+   "w": "shows.",
+   "start": 25.66,
+   "end": 26.22
+  },
+  {
+   "w": "Download",
+   "start": 26.22,
+   "end": 27.54
+  },
+  {
+   "w": "RM",
+   "start": 27.54,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.54
+  },
+  {
+   "w": "support",
+   "start": 28.54,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "In 1960, an FDA reviewer refused a pill sold in dozens of countries. It was thalidomide. Why did she say no? Francis Kelsey found its safety evidence too thin. The company kept pressing. She kept asking for reliable evidence. Then researchers linked it to severe birth defects. It was never marketed in the U .S. Lesson popularity isn't proof of safety. Ask what the evidence shows. Download RM to support livelihood tools."
+}

@@ -215,3 +215,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Images:** Brooklyn Museum portraits (PD-Art), the RPI 1867 caisson drawing and the LOC 1883 print.
 - **Verification:** small ASR matches the script word for word except the name spelling and the app name; there was no human listening. One post-render caption fix (video only).
 - No automation; no other episode started; earlier renders untouched.
+
+## 2026-11-15: english-15 #01 (COMPLETE; first under the first-frame addendum to context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-15-english-15/aarambh-30s-english15-01.mp4`, sha256 `86d5532a47693f9b085d26c0912653be425f364867108f2c3134034776764a29`, plus the thumbnail `aarambh-30s-english15-01-thumbnail.png` (= frame 0, "STOPPED AT THE DOOR"). Frances Oldham Kelsey and thalidomide (English). 30.000 s, 900 frames, −14.8 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** FDA history page (dozens of countries, inadequate evidence, constant pressure, reliable evidence, the link found about a year later, never marketed in the U.S.), NLM (1960, first month at FDA) and FDA's Kevadon photo caption. No sole-saviour or "saved" statistic.
+- **First frame:** the real portrait plus the real bottle plus 4 words at t = 0; audio from 0.09 s; no fade.
+- **Verification:** both ASR models match the script except the app name and homophones; there was no human listening. Two video-only fixes (label width, caption split).
+- No automation; no other episode started; earlier outputs untouched.
