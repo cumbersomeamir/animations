@@ -110,3 +110,12 @@
   - Frame 0: real portrait plus the real Kevadon bottle, "STOPPED AT THE DOOR".
   - Story: "why did she say no?" → evidence too thin → company pressure vs her demand for reliable evidence → linked to severe birth defects; never marketed in the U.S. → lesson "popularity isn't proof of safety; ask what the evidence shows" → Aarambh CTA.
 - **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 29.
+
+## 2026-11-15: english-16 #01 (English; second under the first-frame addendum)
+- **Path:** the user's clarification fixed the batch-16 path as `2026-11-15-english-16` (my earlier "2026-11-16" suggestion was wrong and was not used).
+- `videos/aarambh/production/30s/2026-11-15-english-16/aarambh-30s-english16-01.mp4` (sha256 `7198a45442f00b446e957304fadf4dff0e4c2e0886b7f91849d4e7213e0d388f`) and thumbnail = frame 0: Florence Nightingale and the polar-area chart.
+  - Frame 0: real Hering portrait plus a crop of the real 1858 rose diagram, "NOT THE WOUNDS".
+  - Story: "so what killed them?" → blue = preventable disease → the Sanitary Commission flushed sewers in 1855 → the blue shrank, even the next winter (redrawn roses) → "strong evidence, not certainty" → lesson "before calling it proof, ask what else changed" → Aarambh CTA.
+- **Isolation note:** one `git log --all` call printed other app branches' commit titles; nothing from them was opened or used.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 30.

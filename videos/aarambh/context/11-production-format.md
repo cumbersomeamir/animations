@@ -319,3 +319,12 @@ Changes to the recipe above:
 - **Measure caption lines before the first full render** (≤ 700 px at Inter 800 54 px).
 
 - 17 (2026-11-15, english-15): Frances Oldham Kelsey and thalidomide, "STOPPED AT THE DOOR": she refused approval for lack of reliable evidence despite company pressure; never marketed in the U.S. (FDA; NLM; real Kevadon bottle). First episode under the first-frame addendum. Record: `29-production-30s-english15-01.md`
+
+## English-16 notes, 2026-11-15
+- **Data stories need an honest causal line.** When a chart shows a before/after drop, say what was measured, show it (here, her own monthly figures), then say plainly what one chart cannot rule out. Use "strong evidence, not certainty", not a disclaimer card.
+- **Real charts as the first frame:** a crop of the real printed diagram beside the real portrait makes a complete, truthful frame 0 ("NOT THE WOUNDS").
+- **Redrawn data must be labelled** on screen (one short line, e.g. "redrawn from her 1858 figures") and drawn area-true (radius ∝ sqrt(value)) when the original is area-true.
+- **Where sources disagree on a date** (commission arrival March vs around April 1855), narrate only the year.
+- **Useful sources:** HistData datasets via Rdatasets CSV; Wellcome Collection books on the Internet Archive (`/download/<id>/page/nN_w900.jpg`; the first pages may be blank); SORT/idescat PDFs.
+
+- 18 (2026-11-15, english-16): Florence Nightingale and the polar-area chart, "NOT THE WOUNDS": blue = preventable disease; after the 1855 Sanitary Commission flushed sewers, disease deaths fell, even the next winter (Jan 1855 2,761 vs Jan 1856 42); strong evidence, not certainty (Friendly & Andrews 2021; 1857 Panmure report; HistData `Nightingale`; real 1858 diagram and Hering portrait). Record: `30-production-30s-english16-01.md`

@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.05, "text": "Most British soldiers who died in the Crimean War weren't killed by wounds.", "tts": "Most British soldiers who died in the Crimean War weren't killed by wounds."},
+    {"id": "S2", "start": 4.80, "text": "So what killed them?", "tts": "So what killed them?"},
+    {"id": "S3", "start": 6.10, "text": "In Florence Nightingale's chart, blue is death from preventable disease.", "tts": "In Florence Nightingale's chart, blue is death from preventable disease."},
+    {"id": "S4", "start": 10.60, "text": "After a sanitary commission flushed sewers in 1855, the blue shrank, even the next winter.", "tts": "After a sanitary commission flushed sewers in 1855, the blue shrank, even the next winter."},
+    {"id": "S5", "start": 18.45, "text": "Strong evidence, not certainty: one chart can't rule out other changes.", "tts": "Strong evidence, not certainty: one chart can't rule out other changes."},
+    {"id": "S6", "start": 23.20, "text": "Lesson: before calling it proof, ask what else changed.", "tts": "Lesson: before calling it proof, ask what else changed."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}

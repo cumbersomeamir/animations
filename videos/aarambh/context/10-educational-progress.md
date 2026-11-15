@@ -222,3 +222,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **First frame:** the real portrait plus the real bottle plus 4 words at t = 0; audio from 0.09 s; no fade.
 - **Verification:** both ASR models match the script except the app name and homophones; there was no human listening. Two video-only fixes (label width, caption split).
 - No automation; no other episode started; earlier outputs untouched.
+
+## 2026-11-15: english-16 #01 (COMPLETE; second under the first-frame addendum to context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-15-english-16/aarambh-30s-english16-01.mp4`, sha256 `7198a45442f00b446e957304fadf4dff0e4c2e0886b7f91849d4e7213e0d388f`, plus the thumbnail `aarambh-30s-english16-01-thumbnail.png` (= frame 0, "NOT THE WOUNDS"). Florence Nightingale and the polar-area chart (English). 30.000 s, 900 frames, −14.9 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** her monthly figures (HistData `Nightingale`: 81% of 17,982 deaths from disease; 11,157 vs 3,319 disease deaths before/after; Jan 1855 2,761 vs Jan 1856 42), the diagram's own legend (blue = preventable zymotic disease), the 1857 Panmure report ("trapping and flushing sewers and privies") and Friendly & Andrews 2021 (commission formed around April 1855; area-true wedges).
+- **Correlation vs certainty:** narrated as "Strong evidence, not certainty: one chart can't rule out other changes." No percentage-drop or sole-cause claim.
+- **Verification:** both ASR models match the script except the app name and tiny.en's "1 ,855" tokenisation; there was no human listening. One pre-render crop fix; no post-render re-render.
+- No automation; no other episode started; earlier outputs untouched.

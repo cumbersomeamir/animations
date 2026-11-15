@@ -1,0 +1,351 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Most",
+   "start": 0.0,
+   "end": 0.4
+  },
+  {
+   "w": "British",
+   "start": 0.4,
+   "end": 0.74
+  },
+  {
+   "w": "soldiers",
+   "start": 0.74,
+   "end": 1.18
+  },
+  {
+   "w": "who",
+   "start": 1.18,
+   "end": 1.46
+  },
+  {
+   "w": "died",
+   "start": 1.46,
+   "end": 1.76
+  },
+  {
+   "w": "in",
+   "start": 1.76,
+   "end": 1.94
+  },
+  {
+   "w": "the",
+   "start": 1.94,
+   "end": 2.06
+  },
+  {
+   "w": "Crimean",
+   "start": 2.06,
+   "end": 2.36
+  },
+  {
+   "w": "War",
+   "start": 2.36,
+   "end": 2.96
+  },
+  {
+   "w": "weren't",
+   "start": 2.96,
+   "end": 3.4
+  },
+  {
+   "w": "killed",
+   "start": 3.4,
+   "end": 3.72
+  },
+  {
+   "w": "by",
+   "start": 3.72,
+   "end": 4.04
+  },
+  {
+   "w": "wounds,",
+   "start": 4.04,
+   "end": 4.48
+  },
+  {
+   "w": "so",
+   "start": 4.88,
+   "end": 5.06
+  },
+  {
+   "w": "what",
+   "start": 5.06,
+   "end": 5.28
+  },
+  {
+   "w": "killed",
+   "start": 5.28,
+   "end": 5.5
+  },
+  {
+   "w": "them?",
+   "start": 5.5,
+   "end": 6.0
+  },
+  {
+   "w": "In",
+   "start": 6.32,
+   "end": 6.4
+  },
+  {
+   "w": "Florence",
+   "start": 6.4,
+   "end": 6.74
+  },
+  {
+   "w": "Nightingale's",
+   "start": 6.74,
+   "end": 7.58
+  },
+  {
+   "w": "chart,",
+   "start": 7.58,
+   "end": 8.02
+  },
+  {
+   "w": "blue",
+   "start": 8.4,
+   "end": 8.44
+  },
+  {
+   "w": "is",
+   "start": 8.44,
+   "end": 8.68
+  },
+  {
+   "w": "death",
+   "start": 8.68,
+   "end": 8.96
+  },
+  {
+   "w": "from",
+   "start": 8.96,
+   "end": 9.2
+  },
+  {
+   "w": "preventable",
+   "start": 9.2,
+   "end": 9.7
+  },
+  {
+   "w": "disease.",
+   "start": 9.7,
+   "end": 10.26
+  },
+  {
+   "w": "After",
+   "start": 10.78,
+   "end": 10.96
+  },
+  {
+   "w": "a",
+   "start": 10.96,
+   "end": 11.2
+  },
+  {
+   "w": "sanitary",
+   "start": 11.2,
+   "end": 11.68
+  },
+  {
+   "w": "commission",
+   "start": 11.68,
+   "end": 12.22
+  },
+  {
+   "w": "flushed",
+   "start": 12.22,
+   "end": 12.66
+  },
+  {
+   "w": "sewers",
+   "start": 12.66,
+   "end": 13.12
+  },
+  {
+   "w": "in",
+   "start": 13.12,
+   "end": 13.48
+  },
+  {
+   "w": "1",
+   "start": 13.48,
+   "end": 14.1
+  },
+  {
+   "w": ",855,",
+   "start": 14.1,
+   "end": 14.78
+  },
+  {
+   "w": "the",
+   "start": 15.7,
+   "end": 15.74
+  },
+  {
+   "w": "blue",
+   "start": 15.74,
+   "end": 16.0
+  },
+  {
+   "w": "shrank",
+   "start": 16.0,
+   "end": 16.44
+  },
+  {
+   "w": "even",
+   "start": 16.44,
+   "end": 16.98
+  },
+  {
+   "w": "the",
+   "start": 16.98,
+   "end": 17.14
+  },
+  {
+   "w": "next",
+   "start": 17.14,
+   "end": 17.38
+  },
+  {
+   "w": "winter.",
+   "start": 17.38,
+   "end": 17.8
+  },
+  {
+   "w": "Strong",
+   "start": 18.6,
+   "end": 18.94
+  },
+  {
+   "w": "evidence",
+   "start": 18.94,
+   "end": 19.38
+  },
+  {
+   "w": "not",
+   "start": 19.38,
+   "end": 19.84
+  },
+  {
+   "w": "certainty.",
+   "start": 19.84,
+   "end": 20.34
+  },
+  {
+   "w": "One",
+   "start": 20.82,
+   "end": 21.02
+  },
+  {
+   "w": "chart",
+   "start": 21.02,
+   "end": 21.32
+  },
+  {
+   "w": "can't",
+   "start": 21.32,
+   "end": 21.68
+  },
+  {
+   "w": "rule",
+   "start": 21.68,
+   "end": 21.84
+  },
+  {
+   "w": "out",
+   "start": 21.84,
+   "end": 22.06
+  },
+  {
+   "w": "other",
+   "start": 22.06,
+   "end": 22.26
+  },
+  {
+   "w": "changes.",
+   "start": 22.26,
+   "end": 22.86
+  },
+  {
+   "w": "Lesson,",
+   "start": 23.38,
+   "end": 23.84
+  },
+  {
+   "w": "before",
+   "start": 24.08,
+   "end": 24.16
+  },
+  {
+   "w": "calling",
+   "start": 24.16,
+   "end": 24.42
+  },
+  {
+   "w": "it",
+   "start": 24.42,
+   "end": 24.64
+  },
+  {
+   "w": "proof,",
+   "start": 24.64,
+   "end": 25.0
+  },
+  {
+   "w": "ask",
+   "start": 25.18,
+   "end": 25.28
+  },
+  {
+   "w": "what",
+   "start": 25.28,
+   "end": 25.38
+  },
+  {
+   "w": "else",
+   "start": 25.38,
+   "end": 25.6
+  },
+  {
+   "w": "changed.",
+   "start": 25.6,
+   "end": 26.16
+  },
+  {
+   "w": "Download",
+   "start": 26.16,
+   "end": 27.6
+  },
+  {
+   "w": "RM",
+   "start": 27.6,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "Most British soldiers who died in the Crimean War weren't killed by wounds, so what killed them? In Florence Nightingale's chart, blue is death from preventable disease. After a sanitary commission flushed sewers in 1 ,855, the blue shrank even the next winter. Strong evidence not certainty. One chart can't rule out other changes. Lesson, before calling it proof, ask what else changed. Download RM to support livelihood tools."
+}

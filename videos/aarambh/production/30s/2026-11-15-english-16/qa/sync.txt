@@ -1,0 +1,23 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+Most | 0.05 (Most, placed) | 0.00 (Most) | FRAME 0 (complete, = thumbnail): real Hering portrait + real 1858 rose (Apr 1854-Mar 1855) + "NOT THE WOUNDS"; narration audible from 0.08 s; slow push | 0.00
+Most | 0.05 (Most, placed) | 0.00 (Most) | light sweep across the rose (0.30) and portrait (0.50) | 0.30
+so | 4.88 (so) | 4.76 (so) | HARD CUT (flash) -> the full real 1858 diagram; slow push toward the big rose | 4.74
+so | 4.88 (so) | 4.76 (so) | big gold "?" | 4.73
+blue | 8.40 (blue) | 8.44 (is) | legend chip: preventable disease (blue) | 8.25
+preventable | 9.20 (preventable) | 9.20 (preventable) | legend chip: wounds (red) | 9.05
+After | 10.78 (After) | 10.78 (After) | WHIP PAN (10.40-10.60) -> real 1857 Sanitary Commission report title page | 10.40
+sanitary | 11.20 (sanitary) | 11.20 (sanitary) | gold underline under THE SANITARY COMMISSION | 11.10
+flushed | 12.22 (flushed) | 12.22 (flushed) | pipe appears; water flushes the sludge through (12.22-13.52); label "sewers flushed" | 11.92
+1 | 13.48 (1) | 13.48 (1) | stamp 1855 | 13.38
+the | 15.70 (the) | 15.70 (the) | PUSH (15.40-15.65) -> both roses redrawn from her monthly rates grow month by month (15.65-16.55): BEFORE large, AFTER small | 15.40
+even | 16.44 (even) | 16.82 (even) | Dec-Feb wedges outlined in gold on both roses (winter) | 16.24
+next | 17.14 (next) | 17.14 (next) | Jan 1855: 2,761 vs Jan 1856: 42 disease deaths | 16.94
+Strong | 18.60 (Strong) | 18.58 (Strong) | PUSH (18.15-18.45) -> caveat: mini roses + arrow "sewers flushed"; STRONG EVIDENCE | 18.15
+not | 19.38 (not) | 19.32 (not) | NOT CERTAINTY | 19.23
+out | 21.84 (out) | 21.84 (out) | three grey "?" land on the arrow: "other changes?" | 21.64
+Lesson | 23.38 (Lesson,) | 23.42 (Lesson,) | PAGE TURN (22.85-23.20) -> lesson page; circular portrait | 22.85
+before | 24.08 (before) | 24.16 (calling) | card 1: before vs after | 23.88
+ask | 25.18 (ask) | 25.20 (ask) | card 2: what else changed? (+ chime) | 24.98
+Download | 27.10 (Download, placed) | 27.54 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 20 events; for word-triggered events, event minus word start ranges -0.53 to -0.10 s (negative = event leads the word). Pacing: hook 0.05-4.53 (complete first frame, audio from 0.08 s), question 4.80-5.82, explanation/proof 6.10-22.91 with scene changes at 4.74, 10.60, 15.65, 18.45, payoff 23.20-26.17, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 4.8 S3 6.1 S4 10.6 S5 18.45 S6 23.2 S7 27.1 (audio/script.json); ASR stamps "Most" at 0.00 (placed 0.05) and "Download" early (26.16; placed 27.10); tiny.en splits "1855" into "1" + ",855" (tokens 34-35); ASR hears the app name as "RM"/"RUMB" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).
