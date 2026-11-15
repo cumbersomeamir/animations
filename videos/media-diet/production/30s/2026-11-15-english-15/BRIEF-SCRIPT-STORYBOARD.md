@@ -49,5 +49,10 @@ Every take transcribed exactly by Whisper medium before use ("belly-first" was h
 Layered Tech Cutaway paper diorama (accepted renderer core) + dusk fill/sunset lights; steel hull with a stylised environment map;
 hexagonal tile texture with a glow mask. Captions: accepted treatment, auto-fit ≤ 700 px; hook caption 2 lines up to 100 px.
 
-## QA / limits
-Filled after render (see the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 0cc0c57b3e7e4a0607597fba8ba4ac78a9ec4cd91ec6ab36d85376a7ab72525b; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 342–516, x 191–888; labels x 237–844,
+y 1353–1485; 0 violations; caption↔speech 12/12 (hook cue from frame 0); Whisper-medium word recall 1.0 full pass, 0.989 per line (V4 homophone
+"breaking"). Thumbnail = frame 0 (SHA-256 1f22f130…9ced), mean abs diff vs encoded frame 0 = 1.45/255.
+Limits: generic reconstruction (no SpaceX footage); "~7 kg per kg" is an estimate; S7 holds dark tiles ≈ 1.1 s before they glow;
+nobody has listened to or watched the final file yet.

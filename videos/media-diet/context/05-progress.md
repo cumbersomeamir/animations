@@ -291,3 +291,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - NEW first-frame rule applied: frame 0 = the caught ship + "How do you / catch this?" (V1 caption shown at full size from frame 0 via a
   `hook` flag in timeline → cues.py → captions()); voice from 0.05 s; thumbnail = frame 0.
 - Narration 87 words / 26.6 s, every take heard exactly by Whisper. Running: three render_chunks workers; next build.sh, thumb, QA, commit.
+
+## Checkpoint 2026-11-15 — english-15 delivered
+- production/30s/2026-11-15-english-15/media-diet-30s-english15-01.mp4 (SHA-256 0cc0c57b3e7e4a0607597fba8ba4ac78a9ec4cd91ec6ab36d85376a7ab72525b)
+  + thumbnail-english15-01.png (= frame 0); record context/30; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 342–516, x 191–888; labels x 237–844; 0 violations; caption↔speech 12/12; Whisper recall 1.0 full / 0.989 per line (homophone).
+- First-frame rule now built in (english-15 film.js head + cues.py `hook` flag): carry forward for later episodes.
+- Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.

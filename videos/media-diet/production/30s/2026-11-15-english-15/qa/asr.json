@@ -1,0 +1,89 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "How do you catch this? On November 14th, SpaceX's tower caught a starship back from orbit. Braking on engines alone would need about seven kilos of fuel per kilo of ship. So the air does the braking. It falls on its belly heat shield forward. Then it flips upright and lights its engines. The arms close on two pins that stick out about a foot. So coming home is a heat problem. The shield must survive every trip. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.11
+   ],
+   "transcript": "How do you catch this?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.4,
+    5.78
+   ],
+   "transcript": "On November 14th, SpaceX's tower caught a starship back from orbit.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.1,
+    11.12
+   ],
+   "transcript": "Braking on engines alone would need about 7 kilos of fuel per kilo of ship.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    11.45,
+    15.51
+   ],
+   "transcript": "So the air does the breaking. It falls on its belly heat shield forward.",
+   "recall": 0.929,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    15.85,
+    18.02
+   ],
+   "transcript": "Then it flips upright and lights its engines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    18.35,
+    21.13
+   ],
+   "transcript": "The arms close on two pins that stick out about a foot.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    21.45,
+    25.45
+   ],
+   "transcript": "So coming home is a heat problem. The shield must survive every trip.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "How do you catch this? On November 14th, SpaceX's tower caught a starship back from orbit. Braking on engines alone would need about 7 kilos of fuel per kilo of ship. So the air does the breaking. It falls on its belly heat shield forward. Then it flips upright and lights its engines. The arms close on two pins that stick out about a foot. So coming home is a heat problem. The shield must survive every trip. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 0.989
+}
