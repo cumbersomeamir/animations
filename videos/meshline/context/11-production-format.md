@@ -265,4 +265,11 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Still unused planned titles:** what 5G changes; how a phone picks a tower.
 - **On-screen truth:** if a narration line says "only a few", the visual must show only a few. Model intermittent interference as bursts, not solid blocks.
 - **Slowed visuals:** label any slowed visual of a real rate, and show the real rate separately (here a real-time hop counter).
+| 19 | 2026-11-15-english-17 | Why one message can fill the air (flooding, hop count, seen-it list; retry backoff), **English** + thumbnail | `production/30s/2026-11-15-english-17/meshline-30s-english17-01.mp4` |
+
+## Production notes 2026-11-15, batch english-17 (specific adjustments only; the standing briefs still apply)
+- **Topics now taken:** flood control / TTL / duplicate suppression (19). Acks, retries and backoff are covered across 08, 17 and 19; don't make them the core again.
+- **Still unused planned titles:** what 5G changes; how a phone picks a tower.
+- **TTS wording:** "copies" is misheard at the start of a line ("cop is"); prefer "repeats".
+- **Simulated counters:** when a counter shows a count, derive it from the same simulation that drives the visuals, and state in `claims.md` that it is illustrative.
 

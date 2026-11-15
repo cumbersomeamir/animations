@@ -1,0 +1,9 @@
+{
+ "l1": [[["One message, sent once."], "One"], [["So why is the air", "suddenly full?"], "so"]],
+ "l2": [[["In a flooding mesh,"], "In"], [["every device that hears it", "repeats it."], "every"]],
+ "l3": [[["Repeats bounce", "back and forth,"], "Repeats"], [["and each one", "costs airtime."], "each"]],
+ "l4": [[["So every copy carries", "a hop count"], "So"], [["that drops by one", "at each relay."], "that"]],
+ "l5": [[["At zero it stops,"], "At"], [["and devices drop any copy", "they have already seen."], "devices"]],
+ "l6": [[["No reply yet?"], "No"], [["Good senders wait longer", "before each retry."], "good"]],
+ "l7": [[["For private nearby messaging,", "even offline, try Meshline."], "for"]]
+}

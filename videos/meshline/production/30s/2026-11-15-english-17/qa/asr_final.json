@@ -1,0 +1,56 @@
+{
+ "reference": "One message, sent once. So why is the air suddenly full? In a flooding mesh, every device that hears it repeats it. Repeats bounce back and forth, and each one costs airtime. So every copy carries a hop count that drops by one at each relay. At zero it stops, and devices drop any copy they have already seen. No reply yet? Good senders wait longer before each retry. For private nearby messaging, even offline, try Meshline.",
+ "asr": "One message sent once, so why is the air suddenly full? In a flooding mesh, every device that hears it repeats it. Repeats bounce back and forth, and each one costs airtime. So every copy carries a hop count that drops by one at each relay. At zero it stops, and devices drop any copy they have already seen. No reply yet. Good senders wait longer before each retry. Private nearby messaging. Even offline tri-meshline.",
+ "wer": 0.026,
+ "segments": [
+  [
+   0.0,
+   4.0,
+   "One message sent once, so why is the air suddenly full?"
+  ],
+  [
+   4.0,
+   8.0,
+   "In a flooding mesh, every device that hears it repeats it."
+  ],
+  [
+   8.0,
+   12.0,
+   "Repeats bounce back and forth, and each one costs airtime."
+  ],
+  [
+   12.0,
+   16.0,
+   "So every copy carries a hop count that drops by one at each relay."
+  ],
+  [
+   16.0,
+   21.0,
+   "At zero it stops, and devices drop any copy they have already seen."
+  ],
+  [
+   21.0,
+   23.0,
+   "No reply yet."
+  ],
+  [
+   23.0,
+   26.0,
+   "Good senders wait longer before each retry."
+  ],
+  [
+   26.0,
+   30.0,
+   "Private nearby messaging. Even offline tri-meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.013,
+ "normalization": "hyphen split only (\"tri-meshline\"\u2192\"try meshline\"); no digits in this script",
+ "remaining_diffs": [
+  [
+   "for",
+   ""
+  ]
+ ],
+ "audio_pcm_sha256_prefix": "06210075a291d0b0"
+}

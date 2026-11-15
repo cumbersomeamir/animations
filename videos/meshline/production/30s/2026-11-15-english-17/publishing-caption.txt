@@ -1,0 +1,9 @@
+One message, sent once. So why is the air suddenly full?
+
+In a flooding mesh, every device that hears it repeats it. Repeats bounce back and forth, and each one costs airtime. So every copy carries a hop count that drops by one at each relay. At zero it stops, and devices drop any copy they have already seen.
+
+No reply yet? Good senders wait longer before each retry.
+
+For private nearby messaging, even offline, try Meshline.
+
+#mesh #networking #techtips #Meshline

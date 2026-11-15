@@ -108,3 +108,7 @@
 ## Production 2026-11-15-english-16 (English, why Bluetooth hops 1,600 times a second): complete
 - See `29-production-30s-english16-01.md`; output sha256 `6f408725fa78379813d681fbaaae7d248d1938e3c7768d9aa2b1fdddb4c57a1d`; thumbnail = frame-zero composition.
 - The proposed store-carry-forward topic repeats episode 03, so the batch covers frequency hopping (79 × 1 MHz, ~1,600 hops/s, adaptive hopping, 20 MHz router tip).
+
+## Production 2026-11-15-english-17 (English, why one message can fill the air): complete
+- See `30-production-30s-english17-01.md`; output sha256 `7c3afa1eaa68f90eb66d61c781da7dd68c5ca39b3b8d825cb068261160b43d99`; thumbnail = frame-zero composition.
+- Core topic flood control (hop count + seen-it list, simulated 111 vs 11 transmissions); ack/retry kept to one beat since 08/17 partly covered it.

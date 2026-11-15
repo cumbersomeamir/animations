@@ -73,3 +73,6 @@
 
 ## Production 2026-11-15-english-16 (English, frequency hopping)
 - Done. Output `production/30s/2026-11-15-english-16/meshline-30s-english16-01.mp4`, sha256 `6f408725…7a1d`, plus a thumbnail equal to frame zero. The worker restarted after a usage-limit pause and the job resumed from the batch folder. Details are in `29-production-30s-english16-01.md`.
+
+## Production 2026-11-15-english-17 (English, flood control)
+- Done. Output `production/30s/2026-11-15-english-17/meshline-30s-english17-01.mp4`, sha256 `7c3afa1e…3d99`, plus a thumbnail equal to frame zero. Details are in `30-production-30s-english17-01.md`.

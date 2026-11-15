@@ -1,0 +1,289 @@
+{
+ "rule": "ink y in [350,470], ink and plate x in [100,900], plate y in [230,1500]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 1.92,
+   "lines": [
+    "One message, sent once."
+   ],
+   "ink": {
+    "x0": 202,
+    "x1": 797,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 169,
+    "x1": 831,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 1.96,
+   "b": 4.217,
+   "lines": [
+    "So why is the air",
+    "suddenly full?"
+   ],
+   "ink": {
+    "x0": 307,
+    "x1": 693,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 274,
+    "x1": 726,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 4.39,
+   "b": 5.53,
+   "lines": [
+    "In a flooding mesh,"
+   ],
+   "ink": {
+    "x0": 278,
+    "x1": 722,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 243,
+    "x1": 757,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 5.57,
+   "b": 8.019,
+   "lines": [
+    "every device that hears it",
+    "repeats it."
+   ],
+   "ink": {
+    "x0": 200,
+    "x1": 800,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 167,
+    "x1": 833,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.18,
+   "b": 10.08,
+   "lines": [
+    "Repeats bounce",
+    "back and forth,"
+   ],
+   "ink": {
+    "x0": 308,
+    "x1": 692,
+    "y0": 360,
+    "y1": 465
+   },
+   "plate": {
+    "x0": 274,
+    "x1": 726,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 10.12,
+   "b": 11.891,
+   "lines": [
+    "and each one",
+    "costs airtime."
+   ],
+   "ink": {
+    "x0": 338,
+    "x1": 660,
+    "y0": 360,
+    "y1": 458
+   },
+   "plate": {
+    "x0": 305,
+    "x1": 695,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 12.07,
+   "b": 13.83,
+   "lines": [
+    "So every copy carries",
+    "a hop count"
+   ],
+   "ink": {
+    "x0": 243,
+    "x1": 756,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 210,
+    "x1": 790,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 13.87,
+   "b": 16.546,
+   "lines": [
+    "that drops by one",
+    "at each relay."
+   ],
+   "ink": {
+    "x0": 291,
+    "x1": 707,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 259,
+    "x1": 741,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 16.71,
+   "b": 18.31,
+   "lines": [
+    "At zero it stops,"
+   ],
+   "ink": {
+    "x0": 314,
+    "x1": 683,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 282,
+    "x1": 718,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 18.35,
+   "b": 21.203,
+   "lines": [
+    "and devices drop any copy",
+    "they have already seen."
+   ],
+   "ink": {
+    "x0": 183,
+    "x1": 818,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 149,
+    "x1": 851,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 21.37,
+   "b": 22.63,
+   "lines": [
+    "No reply yet?"
+   ],
+   "ink": {
+    "x0": 344,
+    "x1": 656,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 309,
+    "x1": 691,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l6b",
+   "a": 22.67,
+   "b": 25.537,
+   "lines": [
+    "Good senders wait longer",
+    "before each retry."
+   ],
+   "ink": {
+    "x0": 195,
+    "x1": 805,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 162,
+    "x1": 838,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.79,
+   "b": 29.852,
+   "lines": [
+    "For private nearby messaging,",
+    "even offline, try Meshline."
+   ],
+   "ink": {
+    "x0": 140,
+    "x1": 859,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 106,
+    "x1": 894,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "One message, sent once. So why is the air suddenly full?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 3.667,
+      "end": 3.917
+    },
+    {
+      "id": "l2",
+      "start": 4.44,
+      "text": "In a flooding mesh, every device that hears it repeats it.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.279,
+      "end": 7.719
+    },
+    {
+      "id": "l3",
+      "start": 8.23,
+      "text": "Repeats bounce back and forth, and each one costs airtime.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.361,
+      "end": 11.591
+    },
+    {
+      "id": "l4",
+      "start": 12.12,
+      "text": "So every copy carries a hop count that drops by one at each relay.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 4.126,
+      "end": 16.246
+    },
+    {
+      "id": "l5",
+      "start": 16.76,
+      "text": "At zero it stops, and devices drop any copy they have already seen.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 4.143,
+      "end": 20.903
+    },
+    {
+      "id": "l6",
+      "start": 21.42,
+      "text": "No reply yet? Good senders wait longer before each retry.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.817,
+      "end": 25.237
+    },
+    {
+      "id": "l7",
+      "start": 25.84,
+      "text": "For private nearby messaging, even offline, try Meshline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.712,
+      "end": 29.552
+    }
+  ]
+}
