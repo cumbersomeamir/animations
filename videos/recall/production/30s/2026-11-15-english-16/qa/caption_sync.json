@@ -1,0 +1,137 @@
+{
+ "ok": true,
+ "spoken_groups": 13,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "THAT IS / MY VOICE?",
+   "start": 0.0,
+   "end": 1.23,
+   "first_word_s": 0.05,
+   "last_word_s": 0.39,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Your friends hear / this voice every day.",
+   "start": 1.23,
+   "end": 4.38,
+   "first_word_s": 1.3,
+   "last_word_s": 2.64,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "You hear yourself / two ways.",
+   "start": 4.38,
+   "end": 6.03,
+   "first_word_s": 4.45,
+   "last_word_s": 5.13,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Through the air, / from your mouth to your ears.",
+   "start": 6.03,
+   "end": 8.53,
+   "first_word_s": 6.1,
+   "last_word_s": 7.68,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "And through bone: / your skull carries",
+   "start": 8.53,
+   "end": 10.67,
+   "first_word_s": 8.6,
+   "last_word_s": 10.24,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "the vibrations to / your inner ears.",
+   "start": 10.67,
+   "end": 13.03,
+   "first_word_s": 10.74,
+   "last_word_s": 12.04,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "That inner path / changes the sound,",
+   "start": 13.03,
+   "end": 14.89,
+   "first_word_s": 13.1,
+   "last_word_s": 14.24,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "and only you / get it.",
+   "start": 14.89,
+   "end": 16.43,
+   "first_word_s": 14.96,
+   "last_word_s": 15.72,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "A microphone only catches / the air path,",
+   "start": 16.43,
+   "end": 18.93,
+   "first_word_s": 16.5,
+   "last_word_s": 18.2,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "like everyone / else's ears.",
+   "start": 18.93,
+   "end": 21.08,
+   "first_word_s": 19.0,
+   "last_word_s": 19.94,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Plug your ears / and hum.",
+   "start": 21.08,
+   "end": 23.53,
+   "first_word_s": 21.15,
+   "last_word_s": 21.83,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "It gets louder: / that's the bone path.",
+   "start": 23.53,
+   "end": 26.38,
+   "first_word_s": 23.6,
+   "last_word_s": 25.04,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.38,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

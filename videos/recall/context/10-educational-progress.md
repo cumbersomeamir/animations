@@ -150,3 +150,7 @@ a distinct topic was chosen (reason in context 27); deliverable `videos/recall/p
 Episode E15 "Where's this water from?" (why a cold drink sweats; English). The suggested microwave food-vs-plate topic was
 already E11, so a distinct topic was chosen (reason in context 28). New first-frame rule: frame 0 is the thumbnail
 composition. Deliverable `videos/recall/production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4` + thumbnail.
+
+## Update 2026-11-15 batch 16 — english-16
+Episode E16 "That is my voice?" (why your voice sounds different in a recording; English). The topic was new (nearest: F05,
+noise cancelling), so it was kept; record in context 29; deliverable `videos/recall/production/30s/2026-11-15-english-16/recall-30s-english16-01.mp4` + thumbnail.

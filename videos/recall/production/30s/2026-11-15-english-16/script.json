@@ -1,0 +1,17 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+    {"id": "l01", "text": "That is my voice?"},
+    {"id": "l02", "text": "Your friends hear this voice every day."},
+    {"id": "l03", "text": "You hear yourself two ways."},
+    {"id": "l04", "text": "Through the air, from your mouth to your ears."},
+    {"id": "l05", "text": "And through bone: your skull carries the vibrations to your inner ears."},
+    {"id": "l06", "text": "That inner path changes the sound, and only you get it."},
+    {"id": "l07", "text": "A microphone only catches the air path, like everyone else's ears."},
+    {"id": "l08", "text": "Plug your ears and hum."},
+    {"id": "l09", "text": "It gets louder: that's the bone path."},
+    {"id": "l10", "text": "Download Recall to turn your study material into lessons."}
+ ]
+}

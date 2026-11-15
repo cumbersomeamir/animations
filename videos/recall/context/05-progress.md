@@ -73,3 +73,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   + `recall-30s-english14-01-thumbnail.png` (30.000 s; heat pump, Q_h = Q_c + W, AC hot side outdoors; record, topic-change reason, sources + QA in 27).
 - English-15 2026-11-15 batch (English; suggested microwave plate topic already E11 → why a cold drink sweats; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4`
   + `recall-30s-english15-01-thumbnail.png` (30.000 s; condensation below the dew point, humidity, insulated cup; record, topic-change reason, sources + QA in 28).
+- English-16 2026-11-15 batch 16 (English; topic kept, not covered before; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-16/recall-30s-english16-01.mp4`
+  + `recall-30s-english16-01-thumbnail.png` (30.000 s; air vs bone conduction, recordings lack the bone part, occlusion test; record, sources + QA in 29).
