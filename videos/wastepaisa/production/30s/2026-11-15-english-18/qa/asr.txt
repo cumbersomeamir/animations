@@ -1,0 +1,27 @@
+English intelligibility and timing evidence: wastepaisa-30s-english18-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.09 | offset plan 0.97 heard 0.99 | heard: banner to bag
+   L2 word acc 0.89 | onset plan 1.27 heard 1.24 | offset plan 3.62 heard 3.61 | heard: can an old banner become a bag people by
+   L3 word acc 1.00 | onset plan 3.92 heard 3.92 | offset plan 8.32 heard 8.33 | heard: bags cut from used truck tarps have sold in zurich since nineteen ninety three
+   L4 word acc 0.83 | onset plan 8.62 heard 8.62 | offset plan 12.29 heard 12.28 | heard: cutaway faded or torn parts then cut and stitch the panels
+   L5 word acc 0.91 | onset plan 12.59 heard 12.62 | offset plan 17.43 heard 17.42 | heard: assume twenty totes banner labor and handles costs seventeen hundred rupees
+   L6 word acc 0.93 | onset plan 17.73 heard 17.73 | offset plan 22.24 heard 22.23 | heard: if sixteen sell for one hundred and fifty each about seven hundred is left
+   L7 word acc 1.00 | onset plan 22.54 heard 22.54 | offset plan 26.57 heard 26.53 | heard: the banner is cheap labor and unsold bags decide the margin
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.931; every onset/offset within 0.04 s of plan (full record in qa/asr-english-vosk.json)
+   Misses are spelling or normalisation only: buy -> "by", "cut away" -> "cutaway", cost -> "costs", "a hundred" -> "one hundred";
+   the brand is out of the Vosk vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Banner to bag. Can an old banner become a bag people buy? Bags cut from used truck tarps have sold in Zurich since 1993. Cut away faded or torn parts, then cut and stitch the panels. Assume 20 totes. Banner, labor and handles cost 1700 rupees. If 16 sell for 150 each, about 700 is left. The banner is cheap. Labor and unsold bags decide the margin. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word apart from the brand spelling (US "labor" is the TTS spelling; captions show "labour").
+
+3) Draft-stage fixes found by ASR: "Sell sixteen at ..." was heard as "Cell 16 are ..." and "work and unsold bags set the margin" as
+   "work in unsold bags at the margin"; both lines were reworded ("If sixteen sell for ...", "labour and unsold bags decide ...").
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.49 dBFS, flat factor 0
+   (no clipped runs). The tote thud, whoosh, scissor snip, sewing burst, cost pop, profit ping and coin clink all sit between lines
+   (audio/cues.json).

@@ -1,0 +1,115 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Banner to bag.",
+   "heard": "banner to bag",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 0.972,
+   "heard_off": 0.99,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Can an old banner become a bag people buy?",
+   "heard": "can an old banner become a bag people by",
+   "word_acc": 0.889,
+   "plan_on": 1.27,
+   "heard_on": 1.24,
+   "plan_off": 3.617,
+   "heard_off": 3.61,
+   "missed": [
+    [
+     "buy"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "Bags cut from used truck tarps have sold in Zurich since nineteen ninety-three.",
+   "heard": "bags cut from used truck tarps have sold in zurich since nineteen ninety three",
+   "word_acc": 1.0,
+   "plan_on": 3.92,
+   "heard_on": 3.92,
+   "plan_off": 8.323,
+   "heard_off": 8.33,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Cut away faded or torn parts, then cut and stitch the panels.",
+   "heard": "cutaway faded or torn parts then cut and stitch the panels",
+   "word_acc": 0.833,
+   "plan_on": 8.62,
+   "heard_on": 8.62,
+   "plan_off": 12.289,
+   "heard_off": 12.28,
+   "missed": [
+    [
+     "cut",
+     "away"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Assume twenty totes; banner, labor and handles cost seventeen hundred rupees.",
+   "heard": "assume twenty totes banner labor and handles costs seventeen hundred rupees",
+   "word_acc": 0.909,
+   "plan_on": 12.59,
+   "heard_on": 12.62,
+   "plan_off": 17.43,
+   "heard_off": 17.42,
+   "missed": [
+    [
+     "cost"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "If sixteen sell for a hundred and fifty each, about seven hundred is left.",
+   "heard": "if sixteen sell for one hundred and fifty each about seven hundred is left",
+   "word_acc": 0.929,
+   "plan_on": 17.73,
+   "heard_on": 17.73,
+   "plan_off": 22.244,
+   "heard_off": 22.23,
+   "missed": [
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "The banner is cheap; labor and unsold bags decide the margin.",
+   "heard": "the banner is cheap labor and unsold bags decide the margin",
+   "word_acc": 1.0,
+   "plan_on": 22.54,
+   "heard_on": 22.54,
+   "plan_off": 26.565,
+   "heard_off": 26.53,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

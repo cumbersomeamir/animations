@@ -138,6 +138,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     for retreaders vs crumb (english-16; replaced a proposed mixed-plastic topic that repeated english-14/english-07). Plastic sorting
     (colour, polymer, mixed vs separated) is now fully taken. Broken ceramic tile made into mosaic coasters and tabletops (english-17;
     the first make-and-sell value-addition episode; no verified prices, so the unit economics show an illustrative split without numbers).
+    Old flex banners cut and stitched into tote bags (english-18; second make-and-sell episode; assumed per-batch economics with
+    material, labour, handles, unsold stock and margin, all labelled ASSUMED).
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

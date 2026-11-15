@@ -1,0 +1,49 @@
+{
+ "sfx_cues": [
+  [
+   1.0,
+   "the tote settles (after \"bag\", before \"Can\")"
+  ],
+  [
+   3.66,
+   "to the truck (between lines)"
+  ],
+  [
+   8.36,
+   "scissors snip (between lines)"
+  ],
+  [
+   12.33,
+   "sewing machine burst (between lines)"
+  ],
+  [
+   17.47,
+   "cost total settles (between lines)"
+  ],
+  [
+   22.28,
+   "LEFT \u2248 \u20b9700 (after the line)"
+  ],
+  [
+   26.62,
+   "coins: the margin (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.26",
+  "input_tp": "-3.09",
+  "input_lra": "2.80",
+  "input_thresh": "-27.78",
+  "output_i": "-15.31",
+  "output_tp": "-1.50",
+  "output_lra": "2.40",
+  "output_thresh": "-25.80",
+  "normalization_type": "dynamic",
+  "target_offset": "0.31"
+ }
+}

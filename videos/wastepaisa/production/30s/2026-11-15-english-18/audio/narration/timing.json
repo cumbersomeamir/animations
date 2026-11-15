@@ -1,0 +1,78 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 27.155,
+  "words": 74,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Banner to bag.",
+      "start": 0.1,
+      "phonemes": "bˈænɚ tə bˈæɡ.",
+      "duration": 0.872,
+      "end": 0.972
+    },
+    {
+      "id": "L2",
+      "text": "Can an old banner become a bag people buy?",
+      "start": 1.27,
+      "phonemes": "kæn ɐn ˈoʊld bˈænɚ bɪkˌʌm ɐ bˈæɡ pˈiːpəl bˈaɪ?",
+      "duration": 2.347,
+      "end": 3.617
+    },
+    {
+      "id": "L3",
+      "text": "Bags cut from used truck tarps have sold in Zurich since 1993.",
+      "tts": "Bags cut from used truck tarps have sold in Zurich since nineteen ninety-three.",
+      "start": 3.92,
+      "phonemes": "bˈæɡz kˈʌt fɹʌm jˈuːzd tɹˈʌk tˈɑːɹps hæv sˈoʊld ɪn zjˈʊɹɪk sˈɪns nˈaɪntiːn nˈaɪntiθɹˈiː.",
+      "duration": 4.403,
+      "end": 8.323
+    },
+    {
+      "id": "L4",
+      "text": "Cut away faded or torn parts, then cut and stitch the panels.",
+      "start": 8.62,
+      "phonemes": "kˈʌt ɐwˈeɪ fˈeɪdᵻd ɔːɹ tˈɔːɹn pˈɑːɹts, ðˈɛn kˈʌt ænd stˈɪtʃ ðə pˈænəlz.",
+      "duration": 3.669,
+      "end": 12.289
+    },
+    {
+      "id": "L5",
+      "text": "Assume twenty totes; banner, labour and handles cost ₹1,700.",
+      "tts": "Assume twenty totes; banner, labor and handles cost seventeen hundred rupees.",
+      "start": 12.59,
+      "phonemes": "ɐsˈuːm twˈɛnti tˈoʊts; bˈænɚ, lˈeɪbɚɹ ænd hˈændəlz kˈɔst sˈɛvəntˌiːn hˈʌndɹɪd ɹˈuːpiːz.",
+      "duration": 4.84,
+      "end": 17.43
+    },
+    {
+      "id": "L6",
+      "text": "If sixteen sell for ₹150 each, about ₹700 is left.",
+      "tts": "If sixteen sell for a hundred and fifty each, about seven hundred is left.",
+      "start": 17.73,
+      "phonemes": "ɪf sˈɪkstiːn sˈɛl fɚɹə hˈʌndɹɪd ænd fˈɪfti ˈiːtʃ, ɐbˌaʊt sˈɛvən hˈʌndɹɪd ɪz lˈɛft.",
+      "duration": 4.514,
+      "end": 22.244
+    },
+    {
+      "id": "L7",
+      "text": "The banner is cheap; labour and unsold bags decide the margin.",
+      "start": 22.54,
+      "tts": "The banner is cheap; labor and unsold bags decide the margin.",
+      "phonemes": "ðə bˈænɚɹ ɪz tʃˈiːp; lˈeɪbɚɹ ænd ʌnsˈoʊld bˈæɡz dᵻsˈaɪd ðə mˈɑːɹdʒɪn.",
+      "duration": 4.025,
+      "end": 26.565
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

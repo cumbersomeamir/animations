@@ -479,6 +479,35 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - The thumbnail words.
   - The "Chandigarh's" pronunciation (phoneme fix, +0.12 s re-timing).
 
+## english-18 (2026-11-15-english-18) episode 01: COMPLETE (English)
+- **Topic (fresh):** an old flex banner cut and stitched into tote bags, the second make-and-sell episode (after english-17's mosaic).
+  - Spine: can an old banner become a bag people buy? Proof: bags cut from used truck tarps have sold in Zurich since 1993. Method: cut
+    away faded or torn parts, mark the usable area, cut and stitch.
+  - Assumed economics: 20 totes per banner; banner ₹200 + labour ₹1,000 + handles ₹500 = ₹1,700; 16 sold at ₹150 = ₹2,400 with
+    4 unsold; ≈ ₹700 left.
+  - Takeaway: the banner is cheap; labour and unsold bags decide the margin.
+- **First-frame rule:** frame 0 shows the banner with a cut-out hole and the tote cut from it settling in front, with "Banner to bag."
+  on screen and the voice at 0.10 s; the thumbnail is the same composition with "BANNER TO BAG".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-15-english-18/wastepaisa-30s-english18-01.mp4`,
+  SHA-256 `1e68744201149c3a1b34dca323cacd176a9a4793b0097bc3e565eb449821a374`; thumbnail `wastepaisa-30s-english18-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 116–884, y 345.5–514.5; hook caption at frame 0.
+  - Timing within ±0.04 s.
+  - Vosk mean 0.931 (spelling and normalisation only, plus the brand); Whisper word for word apart from the brand.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - FREITAG's own site (1993, discarded truck tarps; staff dismantle, wash and cut tarps).
+  - The Better India on Project ReFlex (2025: banners checked, faded or torn sections cut away, washed, tailored, sold at local events;
+    totes "a big hit").
+  - Flex banners are PVC-coated polyester scrim (data sheets). Vinyl-sewing practice (longer stitch) kept in the notes.
+  - No verified prices, so every rupee figure is labelled ASSUMED.
+  - Episode record: `context/31-english-18-01.md`. No automation.
+- **Fixed during QA:**
+  - Script length and two Whisper mishearings.
+  - The hook hole drawn as cream, the tarp bag overlapping the truck, and crowded takeaway blocks.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

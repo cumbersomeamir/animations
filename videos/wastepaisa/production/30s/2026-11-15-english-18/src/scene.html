@@ -1,0 +1,340 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-18 episode 01 "Banner to bag." (an old flex banner cut and stitched into tote bags; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-15-english-17/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes only: CTA at 27-30 s, captions centred at x 500
+// inside x 100-900, large brief labels, a soft key light behind each subject, depth-push scene transitions and a separate thumbnail.
+// New: banner props (generic printed flex banner with no text or brand, eyelets, tote cut from it, roll, generic truck with tarp,
+// usable-area panels, to-scale cost blocks, coins) and scene functions; the hook words show from frame 0; labels fade with their scene;
+// English captions use the accepted 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph).
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-15-english-18';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [1.25, [0, 1.6, 2.4]], [3.85, [0.25, 1.5, 2.0]], [8.5, [0, 1.85, 3.1]], [12.45, [-0.3, 1.7, 2.6]], [17.6, [0, 2.35, 3.7]], [22.4, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- banner props (solid foreground objects): printed flex banner (generic graphics, no text or brand), eyelets, tote bag cut from it, roll, truck with tarp, panels, cost blocks ----------
+const BN = { navy: '#1d2b64', yellow: '#ffd23f', magenta: '#c2185b', cyan: '#1fb5c9', white: '#f7f4ec', hem: '#e9e6df', tarp: '#2f7d6d', tarpHi: '#3d9a86', strap: '#22262b', web: '#2a2f35' };
+const BW = 780, BH = 380, HOLE = [230, 50, 260, 280]; // banner art size and the region the hero tote is cut from
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function bannerArt() { // generic advertising graphics in banner space (0..BW, 0..BH): bands, discs, a starburst and bar 'text' blocks, no words
+  g.fillStyle = BN.navy; g.fillRect(0, 0, BW, BH);
+  g.fillStyle = BN.yellow; g.beginPath(); g.moveTo(0, 250); g.lineTo(BW, 110); g.lineTo(BW, 200); g.lineTo(0, 340); g.closePath(); g.fill();
+  g.fillStyle = BN.magenta; g.beginPath(); g.arc(340, 175, 120, 0, 7); g.fill();
+  g.fillStyle = 'rgba(255,255,255,0.18)'; for (let i = -6; i <= 6; i++) for (let j = -6; j <= 6; j++) { const x = 340 + i * 18, y = 175 + j * 18; if (Math.hypot(x - 340, y - 175) < 110) { g.beginPath(); g.arc(x, y, 4 + (j + 6) * 0.35, 0, 7); g.fill(); } }
+  g.fillStyle = BN.cyan; for (const [x, y, r] of [[120, 300, 46], [560, 70, 34], [700, 310, 52], [455, 300, 22]]) { g.beginPath(); g.arc(x, y, r, 0, 7); g.fill(); }
+  g.fillStyle = BN.white; g.beginPath(); for (let i = 0; i < 24; i++) { const a = i / 24 * Math.PI * 2, r = i % 2 ? 52 : 92; g.lineTo(640 + Math.cos(a) * r, 150 + Math.sin(a) * r); } g.closePath(); g.fill();
+  g.fillStyle = BN.magenta; g.beginPath(); g.arc(640, 150, 40, 0, 7); g.fill();
+  g.fillStyle = BN.white; [[40, 60, 170, 26], [40, 102, 120, 16], [40, 130, 140, 16], [300, 330, 150, 14]].forEach(([x, y, w, h]) => { rr(x, y, w, h, h / 2); g.fill(); });
+}
+function banner(x, y, w, o = {}) { // hanging banner: hem, eyelets, optional hole (the cut-out tote panel), optional faded / torn regions
+  const s = w / BW, h = BH * s; g.save(); g.translate(x, y);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14; g.shadowBlur = 24; rr(-10 * s, -10 * s, w + 20 * s, h + 20 * s, 6); g.fillStyle = BN.hem; g.fill(); g.restore();
+  g.save(); g.beginPath(); g.rect(0, 0, w, h); if (o.hole) { const [hx, hy, hw, hh] = HOLE; g.rect(hx * s, (hy + hh) * s, hw * s, -hh * s); } g.clip('evenodd'); g.scale(s, s); bannerArt();
+  if (o.fade) { const gr = g.createLinearGradient(560, 0, BW, 0); gr.addColorStop(0, 'rgba(240,236,228,0)'); gr.addColorStop(1, `rgba(240,236,228,${0.72 * o.fade})`); g.fillStyle = gr; g.fillRect(560, 0, BW - 560, BH); }
+  g.restore();
+  if (o.hole) { const [hx, hy, hw, hh] = HOLE; const hg = g.createLinearGradient(0, hy * s, 0, (hy + hh) * s); hg.addColorStop(0, '#05070a'); hg.addColorStop(1, '#141a20'); g.fillStyle = hg; g.fillRect(hx * s, hy * s, hw * s, hh * s); }
+  if (o.hole) { const [hx, hy, hw, hh] = HOLE; g.save(); g.setLineDash([10, 8]); g.strokeStyle = 'rgba(254,247,238,0.75)'; g.lineWidth = 3; g.strokeRect(hx * s, hy * s, hw * s, hh * s); g.restore(); }
+  if (o.tear) { g.save(); g.globalAlpha *= o.tear; g.fillStyle = '#07090b'; g.beginPath(); g.moveTo(40 * s, h); const R = rng(9); for (let i = 0; i <= 8; i++) g.lineTo((40 + i * 22) * s, h - (i % 2 ? 70 : 30) * s * (0.6 + R() * 0.6)); g.lineTo(220 * s, h); g.closePath(); g.fill(); g.restore(); }
+  if (o.notch) { g.save(); g.globalAlpha *= o.notch; g.fillStyle = '#0b0e11'; g.fillRect(30 * s, h - 90 * s, 200 * s, 90 * s + 12 * s); g.setLineDash([8, 6]); g.strokeStyle = 'rgba(254,247,238,0.6)'; g.lineWidth = 2; g.strokeRect(30 * s, h - 90 * s, 200 * s, 90 * s); g.restore(); }
+  g.fillStyle = '#b9bec4'; for (let i = 0; i <= 5; i++) for (const yy of [8 * s, h - 8 * s]) { g.beginPath(); g.arc(8 * s + i * (w - 16 * s) / 5, yy, 7 * s + 2, 0, 7); g.fill(); g.fillStyle = '#2a2f35'; g.beginPath(); g.arc(8 * s + i * (w - 16 * s) / 5, yy, 3.5 * s + 1, 0, 7); g.fill(); g.fillStyle = '#b9bec4'; }
+  g.restore(); return h; }
+function tote(x, base, w, h, o = {}) { // tote bag standing on base: front face printed with the banner region, side gusset, webbing handles growing, stitches running
+  const hk = o.handles ?? 1, sk = o.stitch ?? 1, gs = o.gusset ?? 1, rot = o.rot || 0, top = base - h, gw = w * 0.16 * gs;
+  g.save(); g.translate(x, base); g.rotate(rot); g.translate(-x, -base);
+  g.fillStyle = 'rgba(0,0,0,0.38)'; g.beginPath(); g.ellipse(x + gw / 2, base + 6, w * 0.62, 18, 0, 0, 7); g.fill();
+  const handle = (off, col, ap, endY) => { const k = clamp(hk); g.save(); g.lineCap = 'round'; g.lineWidth = w * 0.055; g.strokeStyle = col; g.beginPath(); g.moveTo(x - w * 0.2 + off, endY);
+    g.bezierCurveTo(x - w * 0.2 + off, top - h * ap * k, x + w * 0.2 + off, top - h * ap * k, x + w * 0.2 + off, endY); g.stroke(); g.restore(); };
+  if (hk > 0) handle(gw * 0.7, '#15181c', 0.6, top + 4);
+  if (gw > 1) { g.beginPath(); g.moveTo(x + w / 2, top); g.lineTo(x + w / 2 + gw, top + gw * 0.5); g.lineTo(x + w / 2 + gw, base - gw * 0.2); g.lineTo(x + w / 2, base); g.closePath(); g.fillStyle = '#141a3a'; g.fill(); }
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 12; g.shadowBlur = 22; rr(x - w / 2, top, w, h, 6); g.fillStyle = BN.navy; g.fill(); g.restore();
+  g.save(); rr(x - w / 2, top, w, h, 6); g.clip(); const [hx, hy, hw, hh] = o.region || HOLE, sc = Math.max(w / hw, h / hh); g.translate(x - w / 2, top); g.scale(sc, sc); g.translate(-hx, -hy); bannerArt(); g.restore();
+  g.save(); rr(x - w / 2, top, w, h, 6); g.clip(); const sh = g.createLinearGradient(x - w / 2, 0, x + w / 2, 0); sh.addColorStop(0, 'rgba(255,255,255,0.10)'); sh.addColorStop(0.6, 'rgba(0,0,0,0)'); sh.addColorStop(1, 'rgba(0,0,0,0.25)'); g.fillStyle = sh; g.fillRect(x - w / 2, top, w, h);
+  g.fillStyle = 'rgba(0,0,0,0.22)'; g.fillRect(x - w / 2, top, w, h * 0.07); g.restore();
+  if (hk > 0) { handle(0, BN.web, 0.55, top + h * 0.12); g.fillStyle = BN.web; for (const sx of [-1, 1]) g.fillRect(x + sx * w * 0.2 - w * 0.04, top + h * 0.06, w * 0.08, h * 0.1); }
+  if (sk > 0) { const per = 2 * (w + h) - 24, L = per * clamp(sk); g.save(); g.setLineDash([9, 7]); g.lineDashOffset = 0; g.strokeStyle = 'rgba(254,247,238,0.85)'; g.lineWidth = 3; g.beginPath(); const P = [[x - w / 2 + 10, top + h * 0.09], [x + w / 2 - 10, top + h * 0.09], [x + w / 2 - 10, base - 10], [x - w / 2 + 10, base - 10]]; let rem = L;
+    g.moveTo(...P[0]); for (let i = 1; i <= 4 && rem > 0; i++) { const a = P[i - 1], b = P[i % 4], d = Math.hypot(b[0] - a[0], b[1] - a[1]), u = Math.min(1, rem / d); g.lineTo(a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u); rem -= d; } g.stroke(); g.restore(); }
+  g.restore(); }
+function roll(x, base, len, r, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.fillStyle = 'rgba(0,0,0,0.35)'; g.beginPath(); g.ellipse(x, base + 4, len / 2 + 20, 16, 0, 0, 7); g.fill();
+  rr(x - len / 2, base - 2 * r, len, 2 * r, r); g.fillStyle = BN.hem; g.fill(); g.save(); rr(x - len / 2, base - 2 * r, len, 2 * r, r); g.clip(); g.fillStyle = BN.navy; g.fillRect(x - len / 2, base - 2 * r + r * 0.5, len, r * 0.9); g.fillStyle = BN.magenta; g.fillRect(x - len * 0.1, base - 2 * r + r * 0.5, len * 0.25, r * 0.9); g.restore();
+  g.beginPath(); g.ellipse(x + len / 2 - r * 0.3, base - r, r * 0.35, r, 0, 0, 7); g.fillStyle = '#d6d2ca'; g.fill(); g.beginPath(); g.ellipse(x + len / 2 - r * 0.3, base - r, r * 0.12, r * 0.4, 0, 0, 7); g.fillStyle = '#7a756d'; g.fill(); g.restore(); }
+function truck(x, base, s, peel) { // generic truck side view with a tarp-covered load; peel: a tarp panel lifts away
+  g.save(); g.translate(x, base); g.scale(s, s);
+  g.fillStyle = 'rgba(0,0,0,0.4)'; g.beginPath(); g.ellipse(0, 6, 420, 26, 0, 0, 7); g.fill();
+  rr(-400, -300, 560, 230, 14); g.fillStyle = BN.tarp; g.fill(); g.fillStyle = BN.tarpHi; g.fillRect(-400, -300, 560, 26);
+  g.strokeStyle = BN.strap; g.lineWidth = 8; for (let i = 0; i < 6; i++) { g.beginPath(); g.moveTo(-370 + i * 100, -300); g.lineTo(-370 + i * 100, -70); g.stroke(); }
+  if (peel > 0) { g.save(); g.fillStyle = '#07090b'; g.fillRect(-250, -250, 200, 140); g.restore(); }
+  g.fillStyle = '#59616b'; g.fillRect(-410, -70, 600, 24); rr(170, -250, 190, 204, 18); g.fillStyle = '#c4c9cf'; g.fill(); rr(250, -228, 92, 80, 10); g.fillStyle = '#20343c'; g.fill();
+  g.fillStyle = '#c4c9cf'; g.fillRect(170, -70, 190, 24);
+  for (const wx of [-320, -180, 270]) { g.beginPath(); g.arc(wx, -40, 44, 0, 7); g.fillStyle = '#1a1d21'; g.fill(); g.beginPath(); g.arc(wx, -40, 18, 0, 7); g.fillStyle = '#8f969e'; g.fill(); }
+  g.restore(); }
+function tarpBag(x, base, w, h, k) { // messenger bag with a flap, made from the peeled tarp panel
+  if (k <= 0) return; g.save(); g.globalAlpha *= clamp(k * 2); const t0 = base - h;
+  g.fillStyle = 'rgba(0,0,0,0.38)'; g.beginPath(); g.ellipse(x, base + 6, w * 0.6, 16, 0, 0, 7); g.fill();
+  g.strokeStyle = BN.strap; g.lineWidth = w * 0.07; g.beginPath(); g.moveTo(x - w * 0.42, t0 + 10); g.bezierCurveTo(x - w * 0.5, t0 - h * 0.9 * k, x + w * 0.5, t0 - h * 0.9 * k, x + w * 0.42, t0 + 10); g.stroke();
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(x - w / 2, t0, w, h, 14); g.fillStyle = BN.tarp; g.fill(); g.restore();
+  rr(x - w / 2, t0, w, h * 0.55, 14); g.fillStyle = BN.tarpHi; g.fill(); g.fillStyle = BN.strap; g.fillRect(x - w * 0.05, t0 + h * 0.4, w * 0.1, h * 0.28);
+  g.save(); g.setLineDash([8, 6]); g.strokeStyle = 'rgba(254,247,238,0.7)'; g.lineWidth = 3; g.strokeRect(x - w / 2 + 10, t0 + 10, w - 20, h - 20); g.restore(); g.restore(); }
+function heroTote(t) { // the frame-zero composition: banner with the cut-out hole behind, the tote cut from it settling in front
+  spot(540, 1150, 740); const k = easeOut(prog(t, 0, 0.9));
+  banner(150, 600, 780, { hole: true });
+  g.save(); g.strokeStyle = 'rgba(254,247,238,0.35)'; g.lineWidth = 3; for (const rx of [190, 890]) { g.beginPath(); g.moveTo(rx, 600); g.lineTo(rx + (rx < 540 ? -60 : 60), 300); g.stroke(); } g.restore();
+  tote(540, lerp(1440, 1500, back(k)), 380, 400, { rot: lerp(-0.12, 0, k), handles: lerp(0.45, 1, k), stitch: lerp(0.35, 1, prog(t, 0, 1.1)), gusset: lerp(0.5, 1, k) }); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 1.25: frame zero: a printed tote bag settling in front of the banner it was cut from
+  g.save(); g.globalAlpha = a; heroTote(t); g.restore(); }
+function sAsk(t, a) { // 1.25 - 3.85: an old banner comes down and rolls up; a ghost tote with a price question appears
+  g.save(); g.globalAlpha = a;
+  spot(540, 1200, 720); const dn = ease(prog(t, 1.35, 1.9)), up = ease(prog(t, 1.9, 2.5)), y0 = lerp(620, 1060, dn), h = BH * 780 / BW;
+  if (up < 1) { g.save(); g.beginPath(); g.rect(0, y0 + h * up, W, 2000); g.clip(); banner(150, y0, 780); g.restore(); }
+  if (up > 0) { const r = lerp(16, 40, up); roll(540, y0 + h * up + r, 800, r, clamp(up * 4)); }
+  const gk = ease(prog(t, 2.59, 2.9)); if (gk > 0) { g.save(); g.globalAlpha *= gk; g.setLineDash([14, 10]); g.strokeStyle = 'rgba(254,247,238,0.75)'; g.lineWidth = 4; rr(640, 950, 260, 280, 8); g.stroke();
+    g.beginPath(); g.moveTo(700, 955); g.bezierCurveTo(700, 820, 840, 820, 840, 955); g.stroke(); g.restore(); }
+  const tg = back(prog(t, 3.22, 3.5)); if (tg > 0) { g.save(); g.translate(560, 980); g.scale(tg, tg); priceTag(0, 0, 'PRICE', '₹ ?', 1, Math.sin(t * 3) * 0.06); g.restore(); }
+  mascot(160, 1640, 0.48, { armL: [-0.5, 110], armR: [1.2, 60], look: [0.9, -0.2], lid: -0.5 });
+  g.restore();
+}
+function sProof(t, a) { // 3.85 - 8.5: proof of demand: bags cut from used truck tarps have sold in Zurich since 1993 (generic truck)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 720); const tin = easeOut(prog(t, 3.9, 4.6)); truck(lerp(-300, 470, tin), 1330, 0.95, prog(t, 5.33, 5.5));
+  const pk = prog(t, 5.33, 6.2); if (pk > 0 && pk < 1) { const [fx, fy] = fly(470 - 150 * 0.95, 1330 - 180 * 0.95, 850, 1480, ease(pk), 200); g.save(); g.translate(fx, fy); g.rotate(pk * 1.2); rr(-95 * (1 - pk * 0.3), -66, 190 * (1 - pk * 0.3), 132, 8); g.fillStyle = BN.tarp; g.fill(); g.strokeStyle = BN.strap; g.lineWidth = 6; g.beginPath(); g.moveTo(-40, -66); g.lineTo(-40, 66); g.stroke(); g.restore(); }
+  tarpBag(850, 1610, 250, 190, prog(t, 6.0, 6.6));
+  label('USED TRUCK TARPS', 540, 790, prog(t, 5.06, 5.3) * (1 - prog(t, 6.2, 6.35)), { size: 46 });
+  label('ZURICH · SINCE 1993', 540, 790, prog(t, 6.35, 6.6), { size: 48, warm: true });
+  g.restore();
+}
+function sCut(t, a) { // 8.5 - 12.45: inspect: cut away faded and torn parts, mark the usable area (20 panels), cut and stitch one panel into a tote
+  g.save(); g.globalAlpha = a;
+  spot(540, 1100, 720); const bx = 90, by = 820, bw = 900, s = bw / BW, bh = BH * s;
+  const cutF = ease(prog(t, 9.97, 10.45)), cutX = bx + bw * 560 / BW, fadeK = prog(t, 9.04, 9.3), tearK = prog(t, 9.64, 9.85) * (1 - cutF);
+  g.save(); g.beginPath(); g.rect(0, 0, cutX, 2000); g.clip(); banner(bx, by, bw, { fade: fadeK, tear: tearK, notch: cutF }); g.restore();
+  if (cutF < 1) { g.save(); g.globalAlpha *= 1 - cutF; g.translate(180 * cutF, 60 * cutF); g.beginPath(); g.rect(cutX, 0, 2000, 2000); g.clip(); banner(bx, by, bw, { fade: fadeK }); g.restore(); }
+  if (t > 9.04 && cutF < 1) { g.save(); g.globalAlpha *= 1 - cutF; g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 4; g.strokeRect(bx + bw * 560 / BW, by, bw * 220 / BW, bh); if (t > 9.64) g.strokeRect(bx + 30 * s, by + bh - 90 * s, 200 * s, 90 * s); g.restore(); }
+  label('FADED', bx + bw * 670 / BW, by - 50, prog(t, 9.04, 9.25) * (1 - cutF), { size: 44 }); label('TORN', bx + 130 * s, by + bh + 50, prog(t, 9.64, 9.85) * (1 - cutF), { size: 44 });
+  const gk = prog(t, 10.3, 10.7); if (gk > 0) { const cols = 5, rows = 4, uw = bw * 540 / BW, uh = bh - 120 * s, ux = bx + 10 * s, uy = by + 18 * s;
+    g.save(); g.strokeStyle = `rgba(254,247,238,${0.9 * gk})`; g.lineWidth = 3; g.setLineDash([8, 6]); for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) { if (i * rows + j > gk * 20) continue; const lift = (i === 1 && j === 1) ? ease(prog(t, 10.87, 11.3)) : 0; if (lift > 0) continue; g.strokeRect(ux + i * uw / cols + 4, uy + j * uh / rows + 4, uw / cols - 8, uh / rows - 8); } g.restore();
+    label('USABLE AREA', bx + bw * 0.3, by - 50, gk * (1 - prog(t, 10.85, 10.95)), { size: 44, warm: true });
+    const lk = ease(prog(t, 10.87, 11.35)); if (lk > 0) { const px = lerp(ux + 1.5 * uw / cols, 540, lk), pb = lerp(uy + 2 * uh / rows, 1520, lk), pw = lerp(uw / cols - 8, 300, lk), ph = lerp(uh / rows - 8, 320, lk);
+      tote(px, pb, pw, ph, { handles: prog(t, 11.6, 12.1), stitch: prog(t, 11.35, 12.0), gusset: prog(t, 11.5, 12.0), region: [HOLE[0], HOLE[1], HOLE[2], HOLE[3]] }); } }
+  label('CUT + STITCH', 540, 1610, prog(t, 10.87, 11.1), { size: 46, warm: true });
+  g.restore();
+}
+function miniTotes(cx, cy, n, cols, w, h, gapX, gapY, kOf, styleOf) { for (let i = 0; i < n; i++) { const k = kOf(i); if (k <= 0) continue; const c = i % cols, r = Math.floor(i / cols), x = cx + (c - (cols - 1) / 2) * gapX, b = cy + r * gapY;
+  g.save(); g.translate(x, b); g.scale(k, k); g.translate(-x, -b); const st = styleOf ? styleOf(i) : {}; g.globalAlpha *= st.alpha ?? 1; tote(x + (st.dx || 0), b + (st.dy || 0), w, h, { region: [HOLE[0] + (i % 3) * 60, HOLE[1], HOLE[2], HOLE[3]] }); if (st.after) st.after(x + (st.dx || 0), b + (st.dy || 0)); g.restore(); } }
+function sCost(t, a) { // 12.45 - 17.6: assumed: 20 totes from one banner; banner, labour and handles to scale (the banner is the small block)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1100, 700);
+  const tagK = back(prog(t, 12.68, 13.0)); if (tagK > 0) { g.save(); g.translate(540, 640); g.scale(tagK, tagK); rr(-140, -40, 280, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('ASSUMED', 0, 4, 42, C.warm, 800); g.restore(); }
+  const gOut = ease(prog(t, 13.85, 14.1));
+  if (gOut < 1) { g.save(); g.globalAlpha *= 1 - gOut; miniTotes(540, 900, 20, 5, 110, 115, 160, 170, (i) => back(prog(t, 12.98 + i * 0.025, 13.25 + i * 0.025))); g.restore();
+    const xk = back(prog(t, 13.28, 13.55)); if (xk > 0) { g.save(); g.globalAlpha *= 1 - gOut; g.translate(540, 1640); g.scale(xk, xk); textC('×20 TOTES', 0, 0, 72, C.warm, 800); g.restore(); } }
+  const x0 = 330, w = 200, bot = 1480, px = 0.4; const parts = [['BANNER', 200, BN.magenta, 14.09], ['LABOUR', 1000, '#7a5129', 14.69], ['HANDLES', 500, '#59616b', 15.23]]; let y = bot;
+  parts.forEach(([name, v, col, ts], i) => { const h = v * px, k = easeOut(prog(t, ts, ts + 0.35)); if (k > 0) { g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(x0, y - h * k, w, h * k, 8); g.fillStyle = col; g.fill(); g.restore(); }
+    label(`${name} ₹${v.toLocaleString('en-IN')}`, 790, y - h / 2, prog(t, ts, ts + 0.25), { size: 44, warm: t > ts && t < (parts[i + 1] ? parts[i + 1][3] : 16.07), to: [x0 + w - 4, y - h / 2] }); y -= h; });
+  const tk = back(prog(t, 16.07, 16.4)); if (tk > 0) { g.save(); g.translate(x0 + w / 2, y - 60); g.scale(tk, tk); rr(-150, -44, 300, 88, 44); g.fillStyle = C.cream; g.fill(); textC('₹1,700', 0, 4, 54, C.ink, 800); g.restore(); }
+  mascot(150, 1660, 0.42, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5 });
+  g.restore();
+}
+function sSell(t, a) { // 17.6 - 22.4: 16 of 20 sell at ₹150 (assumed), 4 unsold; sales ₹2,400 minus costs ₹1,700 leaves about ₹700
+  g.save(); g.globalAlpha = a;
+  spot(540, 1100, 700); const gOut = ease(prog(t, 20.2, 20.45));
+  if (gOut < 1) { g.save(); g.globalAlpha *= 1 - gOut;
+    miniTotes(540, 880, 20, 5, 110, 115, 160, 170, () => 1, (i) => { const unsold = i >= 16, k = prog(t, 18.36 + i * 0.04, 18.6 + i * 0.04), uk = ease(prog(t, 19.0, 19.5));
+      return unsold ? { alpha: lerp(1, 0.35, uk), after: null } : { after: (x, b) => { if (k > 0) { const kk = back(k); g.save(); g.translate(x + 40, b - 100); g.scale(kk, kk); g.beginPath(); g.arc(0, 0, 24, 0, 7); g.fillStyle = C.warm; g.fill(); g.strokeStyle = '#1d130e'; g.lineWidth = 6; g.lineCap = 'round'; g.beginPath(); g.moveTo(-10, 0); g.lineTo(-2, 9); g.lineTo(12, -9); g.stroke(); g.restore(); } } }; });
+    label('16 SOLD × ₹150', 540, 1600, prog(t, 18.87, 19.1), { size: 46, warm: true });     const uk = prog(t, 19.0, 19.3); if (uk > 0) label('4 UNSOLD', 540, 1440, uk, { size: 42 }); g.restore(); }
+  const x0 = 330, w = 200, bot = 1480, px = 0.27, rise = easeOut(prog(t, 20.3, 20.75));
+  if (rise > 0) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bot - 2400 * px * rise, w, 2400 * px * rise, 10); g.fillStyle = C.cream; g.fill(); g.restore();
+    label('SALES ₹2,400', 790, bot - 2400 * px + 40, prog(t, 20.35, 20.55), { size: 44, to: [x0 + w - 4, bot - 2400 * px + 40] });
+    const ck = prog(t, 20.55, 20.9); if (ck > 0) { g.save(); rr(x0, bot - 2400 * px, w, 2400 * px, 10); g.clip(); g.fillStyle = '#3a4048'; g.fillRect(x0, bot - 1700 * px * ck, w, 1700 * px * ck); g.restore();
+      label('COSTS −₹1,700', 790, bot - 1700 * px / 2, ck, { size: 44, to: [x0 + w - 4, bot - 1700 * px / 2] }); }
+    const lk = prog(t, 20.91, 21.2); if (lk > 0) { g.save(); rr(x0, bot - 2400 * px, w, 2400 * px, 10); g.clip(); g.fillStyle = C.warm; g.fillRect(x0, bot - 2400 * px, w, 700 * px * lk); g.restore();
+      const k = back(prog(t, 20.91, 21.3)); g.save(); g.translate(790, bot - 2400 * px - 70); g.scale(k, k); rr(-170, -44, 340, 88, 44); g.fillStyle = C.warm; g.fill(); textC('LEFT ≈ ₹700', 0, 4, 48, '#1d130e', 800); g.restore(); } }
+  mascot(150, 1660, 0.42, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5 });
+  g.restore();
+}
+function coins(x, base, n, k) { if (k <= 0) return; for (let i = 0; i < n; i++) { const kk = clamp(k * n - i); if (kk <= 0) continue; const y = base - i * 16 - (1 - kk) * 60; g.save(); g.globalAlpha *= kk; g.beginPath(); g.ellipse(x, y, 62, 20, 0, 0, 7); g.fillStyle = '#c98d1f'; g.fill(); g.beginPath(); g.ellipse(x, y - 4, 62, 20, 0, 0, 7); g.fillStyle = '#f2b93b'; g.fill(); g.strokeStyle = '#a8701a'; g.lineWidth = 2; g.stroke(); g.restore(); } }
+function sTake(t, a) { // 22.4 - 27.0: the banner is the cheap part: ₹200 banner -> ₹2,400 of totes -> about ₹700 left once labour and unsold bags are paid for
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 700); const Y = 1200;
+  const k1 = back(prog(t, 22.66, 23.0)); if (k1 > 0) { g.save(); g.translate(190, Y); g.scale(k1, k1); roll(0, 0, 230, 34); g.restore(); textC('₹200', 190, Y + 80, 60, `rgba(254,247,238,${clamp(k1)})`, 800); }
+  const a1 = prog(t, 23.0, 23.3); if (a1 > 0) { g.save(); g.globalAlpha *= a1; g.fillStyle = C.cream; g.beginPath(); g.moveTo(320, Y - 40); g.lineTo(380, Y - 40); g.lineTo(380, Y - 58); g.lineTo(412, Y - 30); g.lineTo(380, Y - 2); g.lineTo(380, Y - 20); g.lineTo(320, Y - 20); g.closePath(); g.fill(); g.restore(); }
+  const k2 = back(prog(t, 23.17, 23.5)); if (k2 > 0) { g.save(); g.translate(540, Y); g.scale(k2, k2); tote(-40, 0, 130, 140, {}); tote(40, 10, 130, 140, { region: [HOLE[0] + 90, HOLE[1], HOLE[2], HOLE[3]] }); g.restore(); textC('₹2,400', 540, Y + 80, 60, `rgba(254,247,238,${clamp(k2)})`, 800); }
+  const a2 = prog(t, 23.6, 23.9); if (a2 > 0) { g.save(); g.globalAlpha *= a2; g.fillStyle = C.cream; g.beginPath(); g.moveTo(670, Y - 40); g.lineTo(730, Y - 40); g.lineTo(730, Y - 58); g.lineTo(762, Y - 30); g.lineTo(730, Y - 2); g.lineTo(730, Y - 20); g.lineTo(670, Y - 20); g.closePath(); g.fill(); g.restore(); }
+  const w1 = easeOut(prog(t, 23.89, 24.2)), w2 = easeOut(prog(t, 24.49, 24.8));
+  if (w1 > 0) { g.save(); g.translate(735, lerp(820, Y - 150, w1)); rr(-95, -40, 190, 80, 14); g.fillStyle = '#7a5129'; g.fill(); textC('LABOUR', 0, 4, 40, C.cream, 800); g.restore(); }
+  if (w2 > 0) { g.save(); g.translate(735, lerp(760, Y - 240, w2)); rr(-95, -40, 190, 80, 14); g.fillStyle = '#3a4048'; g.fill(); textC('UNSOLD', 0, 4, 40, C.cream, 800); g.restore(); }
+  const k3 = prog(t, 25.0, 25.5); coins(890, Y + 10, 4, k3); if (k3 > 0) textC('≈ ₹700', 890, Y + 80, 60, `rgba(244,109,18,${clamp(k3 * 2)})`, 800);
+  const mk = back(prog(t, 25.99, 26.3)); if (mk > 0) { g.save(); g.translate(890, Y + 170); g.scale(mk, mk); rr(-120, -38, 240, 76, 38); g.fillStyle = C.warm; g.fill(); textC('MARGIN', 0, 4, 42, '#1d130e', 800); g.restore(); }
+  textC('ASSUMED NUMBERS', 540, 700, 32, `rgba(254,247,238,${0.85 * prog(t, 22.7, 23.0)})`, 700);
+  mascot(540, 1680, 0.45, { armL: [-1.0 + Math.sin(t * 5) * 0.12, 110], armR: [1.2, 60], look: [0.8, -0.4], lid: -0.5, hop: t > 25.99 && t < 26.8 ? Math.abs(Math.sin((t - 25.99) * 6)) * 8 : 0 });
+  g.restore();
+}
+// ---------- thumbnail (separate vertical image = the frame-zero composition; 3 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0, 1); heroTote(1.2);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('BANNER', 540, 300, 140, C.cream, 800); textC('TO BAG', 540, 450, 140, C.warm, 800); g.restore();
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 1.25], [sAsk, 1.25, 3.85], [sProof, 3.85, 8.5], [sCut, 8.5, 12.45], [sCost, 12.45, 17.6], [sSell, 17.6, 22.4], [sTake, 22.4, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Banner|[to bag.]'],
+  L2: ['Can an old banner|become [a bag people buy?]'],
+  L3: ['Bags cut from|[used truck tarps]', ['have sold in [Zurich]|[since 1993.]', 1.77]],
+  L4: ['Cut away [faded]|or [torn] parts,', ['then [cut and stitch]|the panels.', 2.04]],
+  L5: ['Assume [twenty totes;]', ['banner, labour and handles|cost [₹1,700.]', 1.50]],
+  L6: ['If [sixteen] sell|for [₹150] each,', ['about [₹700 is left.]', 2.82]],
+  L7: ['The banner is [cheap;]', ['labour and unsold bags|decide [the margin.]', 1.35]],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+CAPS[0].a = -0.2; // english-15..18: the hook words are fully visible at frame 0
+function caption(c, t) {
+  const big = c.L.id === 'L1', fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>
