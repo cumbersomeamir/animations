@@ -1,0 +1,64 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "An empty seat, an empty lunchbox: they're connected.",
+   "dur": 2.975,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Fictional example: on no-lunch days, Asha stays home.",
+   "dur": 3.278,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "What brings her back, ready to learn?",
+   "dur": 1.686,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "India's midday meal: a free hot lunch in government schools.",
+   "dur": 3.702,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Two studies found cooked school meals raised attendance, most for the youngest.",
+   "dur": 4.392,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "And years of these meals are linked to better reading and maths.",
+   "dur": 3.176,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Not a lunchbox for one child, but a daily meal for the whole class.",
+   "dur": 3.999,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

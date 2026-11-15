@@ -1,0 +1,71 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.1,
+  3.4,
+  7.0,
+  9.05,
+  13.1,
+  17.85,
+  21.5,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_empty_seat": [
+   0.0,
+   3.25
+  ],
+  "B_stays_home": [
+   3.25,
+   6.85
+  ],
+  "C_question": [
+   6.85,
+   8.9
+  ],
+  "D_midday_meal": [
+   8.9,
+   12.95
+  ],
+  "E_attendance": [
+   12.95,
+   17.7
+  ],
+  "F_learning": [
+   17.7,
+   21.3
+  ],
+  "G_whole_class": [
+   21.3,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "connected": 2.4,
+  "noLunch": 4.75,
+  "staysHome": 5.85,
+  "q": 7.0,
+  "learn": 7.85,
+  "serve": 10.7,
+  "govt": 11.7,
+  "dTick": 12.2,
+  "raised": 15.0,
+  "youngest": 16.25,
+  "eTick": 16.9,
+  "years": 17.95,
+  "reading": 19.95,
+  "fTick": 20.5,
+  "notOne": 21.55,
+  "whole": 23.6,
+  "done": 25.9,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Story map (2026-11-15 first-frame rule): frame 0 = composed hook image + THE EMPTY SEAT, lamps full, voice at 0.1 s; 0-3.25 hook, 3.25-6.85 escalation (fictional Asha), 6.85-8.9 open question, 8.9-21.3 proof (3 scene changes), 21.3-26.9 payoff, 26.9-30 CTA. Cues aligned to per-sentence English ASR word times. Tick SFX only in pauses; nothing under the first word."
+}

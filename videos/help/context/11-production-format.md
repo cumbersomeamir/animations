@@ -251,3 +251,16 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
 - Caption timing: one spurious ASR token inside a sentence ("India's as one", "share air") is now dropped automatically in tools_captions.py
   instead of falling back to proportional timing.
 
+## Update 2026-11-15 — FIRST FRAME rule (user brief) + english-15 lessons (2026-11-11 feedback retained)
+- **First frame is critical:** no logo intro, no fade from black (lamps at full from frame 0 — the old 0.55 → 1 lamp ramp is removed), no empty
+  set-up or slide-in at frame 0. Frame 0 = a composed, surprising, phone-readable subject + at most 2–5 truthful curiosity words; it must work as the
+  thumbnail (the thumbnail = frame 0 + its words in the top band). No caption on frame 0 (first card ≥ 0.07 s). Hook narration starts ≈ 0.10 s and
+  must promise a specific useful answer that the episode delivers; nothing (gong/SFX) under the first word. Check `qa/frame-000.png` every round.
+- Topic gate: school meals / India's midday meal (hunger → attendance → learning) covered by english-15.
+- Indian government hosts (pmposhan.education.gov.in, eparlib.sansad.in) can drop connections through the proxy relay; when that happens, describe
+  the programme from peer-reviewed sources and leave unverified scheme details (current name, class range) out of the script.
+- A study known only from another paper's literature review is not scripted ("focus" claim dropped).
+- AAC can add ~0.2–0.3 dB of true peak over the WAV: if the final MP4 measures above −1.5 dBTP, re-encode audio only (−0.3 dB) and prove the video
+  stream is unchanged (stream MD5).
+- Steel lunchbox props must read at a glance: a round dabba with a dark empty inside and the lid leaning beside it (a tall propped lid reads as a laptop).
+

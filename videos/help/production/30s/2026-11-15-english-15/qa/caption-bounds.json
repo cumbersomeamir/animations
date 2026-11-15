@@ -1,0 +1,148 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 30,
+ "extent": {
+  "x0": 164,
+  "x1": 836,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "An empty / seat, an empty",
+   "fs": 56,
+   "x0": 294,
+   "x1": 706,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 18
+  },
+  {
+   "text": "lunchbox: they're / connected.",
+   "fs": 56,
+   "x0": 255,
+   "x1": 745,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 67
+  },
+  {
+   "text": "Fictional example:",
+   "fs": 66,
+   "x0": 202,
+   "x1": 798,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 116
+  },
+  {
+   "text": "on no-lunch days, / Asha stays home.",
+   "fs": 56,
+   "x0": 249,
+   "x1": 751,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 168
+  },
+  {
+   "text": "What brings her / back, ready to learn?",
+   "fs": 56,
+   "x0": 209,
+   "x1": 791,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 235
+  },
+  {
+   "text": "India's midday meal:",
+   "fs": 66,
+   "x0": 164,
+   "x1": 836,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 291
+  },
+  {
+   "text": "a free hot lunch in / government schools.",
+   "fs": 56,
+   "x0": 206,
+   "x1": 794,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 351
+  },
+  {
+   "text": "Two studies found / cooked school meals",
+   "fs": 56,
+   "x0": 209,
+   "x1": 791,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 417
+  },
+  {
+   "text": "raised attendance, / most for the youngest.",
+   "fs": 56,
+   "x0": 185,
+   "x1": 815,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 489
+  },
+  {
+   "text": "And years of / these meals are",
+   "fs": 56,
+   "x0": 282,
+   "x1": 718,
+   "y0": 377,
+   "y1": 484,
+   "firstFrame": 553
+  },
+  {
+   "text": "linked to better / reading and maths.",
+   "fs": 56,
+   "x0": 233,
+   "x1": 767,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 607
+  },
+  {
+   "text": "Not a lunchbox / for one child,",
+   "fs": 56,
+   "x0": 293,
+   "x1": 707,
+   "y0": 379,
+   "y1": 495,
+   "firstFrame": 672
+  },
+  {
+   "text": "but a daily meal for / the whole class.",
+   "fs": 56,
+   "x0": 237,
+   "x1": 763,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 740
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}
