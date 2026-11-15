@@ -1,0 +1,167 @@
+{
+ "ok": true,
+ "spoken_groups": 16,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "A MIRROR / FOR HEAT",
+   "start": 0.0,
+   "end": 1.13,
+   "first_word_s": 0.05,
+   "last_word_s": 0.53,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "That's the shiny wall / inside a thermos.",
+   "start": 1.13,
+   "end": 3.69,
+   "first_word_s": 1.2,
+   "last_word_s": 2.8,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Why does it / need one?",
+   "start": 3.69,
+   "end": 4.93,
+   "first_word_s": 3.76,
+   "last_word_s": 4.22,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Heat escapes / three ways:",
+   "start": 4.93,
+   "end": 6.59,
+   "first_word_s": 5.0,
+   "last_word_s": 5.72,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "through solids, / through air,",
+   "start": 6.59,
+   "end": 8.01,
+   "first_word_s": 6.66,
+   "last_word_s": 7.52,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "and as infrared light.",
+   "start": 8.01,
+   "end": 9.38,
+   "first_word_s": 8.08,
+   "last_word_s": 8.54,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "A thermos has / two walls",
+   "start": 9.38,
+   "end": 10.6,
+   "first_word_s": 9.45,
+   "last_word_s": 10.35,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "with a vacuum / between them.",
+   "start": 10.6,
+   "end": 12.28,
+   "first_word_s": 10.67,
+   "last_word_s": 11.71,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "With almost / no air there,",
+   "start": 12.28,
+   "end": 13.64,
+   "first_word_s": 12.35,
+   "last_word_s": 13.15,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "heat can barely / conduct or flow across.",
+   "start": 13.64,
+   "end": 16.38,
+   "first_word_s": 13.71,
+   "last_word_s": 15.43,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "But infrared / crosses a vacuum,",
+   "start": 16.38,
+   "end": 18.2,
+   "first_word_s": 16.45,
+   "last_word_s": 17.47,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "like sunlight / through space.",
+   "start": 18.2,
+   "end": 20.03,
+   "first_word_s": 18.27,
+   "last_word_s": 19.17,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So the walls are shiny, / bouncing it back.",
+   "start": 20.03,
+   "end": 22.53,
+   "first_word_s": 20.1,
+   "last_word_s": 21.86,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "That leaves the top / as the weak spot,",
+   "start": 22.53,
+   "end": 24.51,
+   "first_word_s": 22.6,
+   "last_word_s": 23.82,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so keep / the lid on.",
+   "start": 24.51,
+   "end": 26.38,
+   "first_word_s": 24.58,
+   "last_word_s": 25.28,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.38,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

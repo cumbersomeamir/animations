@@ -1,0 +1,519 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 1.2
+  },
+  {
+   "id": "l03",
+   "start": 5.0
+  },
+  {
+   "id": "l04",
+   "start": 9.45
+  },
+  {
+   "id": "l05",
+   "start": 12.35
+  },
+  {
+   "id": "l06",
+   "start": 16.45
+  },
+  {
+   "id": "l07",
+   "start": 20.1
+  },
+  {
+   "id": "l08",
+   "start": 22.6
+  },
+  {
+   "id": "l09",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_mirror",
+   "t0": 0,
+   "t1": 1.13
+  },
+  {
+   "id": "react_peek",
+   "t0": 1.13,
+   "t1": 4.93
+  },
+  {
+   "id": "giant_ways",
+   "t0": 4.93,
+   "t1": 9.38
+  },
+  {
+   "id": "giant_walls",
+   "t0": 9.38,
+   "t1": 12.28
+  },
+  {
+   "id": "giant_noair",
+   "t0": 12.28,
+   "t1": 16.38
+  },
+  {
+   "id": "giant_ir",
+   "t0": 16.38,
+   "t1": 20.03
+  },
+  {
+   "id": "giant_mirror",
+   "t0": 20.03,
+   "t1": 22.53
+  },
+  {
+   "id": "giant_top",
+   "t0": 22.53,
+   "t1": 26.38
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.38,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "solids": 6.7,
+  "air": 7.52,
+  "irWays": 8.26,
+  "wallsIn": 9.5,
+  "vacTag": 11.09,
+  "pump": 11.2,
+  "noAir": 12.4,
+  "block": 13.6,
+  "ir": 16.5,
+  "irTag": 16.55,
+  "mirror": 20.25,
+  "mirrorTag": 20.72,
+  "weakTag": 23.7,
+  "lidOn": 24.92,
+  "peek": 1.4,
+  "why": 3.76,
+  "cta": 26.38,
+  "smile": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.13,
+   "lines": [
+    [
+     [
+      "A MIRROR",
+      0
+     ]
+    ],
+    [
+     [
+      "FOR HEAT",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 1.13,
+   "end": 3.69,
+   "lines": [
+    [
+     [
+      "That's the ",
+      0
+     ],
+     [
+      "shiny wall",
+      1
+     ]
+    ],
+    [
+     [
+      "inside a thermos.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 3.69,
+   "end": 4.93,
+   "lines": [
+    [
+     [
+      "Why does it",
+      0
+     ]
+    ],
+    [
+     [
+      "need one?",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.93,
+   "end": 6.59,
+   "lines": [
+    [
+     [
+      "Heat escapes",
+      0
+     ]
+    ],
+    [
+     [
+      "three ways:",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.59,
+   "end": 8.01,
+   "lines": [
+    [
+     [
+      "through ",
+      0
+     ],
+     [
+      "solids,",
+      1
+     ]
+    ],
+    [
+     [
+      "through ",
+      0
+     ],
+     [
+      "air,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.01,
+   "end": 9.38,
+   "lines": [
+    [
+     [
+      "and as ",
+      0
+     ],
+     [
+      "infrared light.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.38,
+   "end": 10.6,
+   "lines": [
+    [
+     [
+      "A thermos has",
+      0
+     ]
+    ],
+    [
+     [
+      "two walls",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 10.6,
+   "end": 12.28,
+   "lines": [
+    [
+     [
+      "with a ",
+      0
+     ],
+     [
+      "vacuum",
+      1
+     ]
+    ],
+    [
+     [
+      "between them.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.28,
+   "end": 13.64,
+   "lines": [
+    [
+     [
+      "With almost",
+      0
+     ]
+    ],
+    [
+     [
+      "no air",
+      1
+     ],
+     [
+      " there,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 13.64,
+   "end": 16.38,
+   "lines": [
+    [
+     [
+      "heat can barely",
+      0
+     ]
+    ],
+    [
+     [
+      "conduct or flow across.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.38,
+   "end": 18.2,
+   "lines": [
+    [
+     [
+      "But ",
+      0
+     ],
+     [
+      "infrared",
+      1
+     ]
+    ],
+    [
+     [
+      "crosses a vacuum,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.2,
+   "end": 20.03,
+   "lines": [
+    [
+     [
+      "like sunlight",
+      0
+     ]
+    ],
+    [
+     [
+      "through space.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.03,
+   "end": 22.53,
+   "lines": [
+    [
+     [
+      "So the walls are ",
+      0
+     ],
+     [
+      "shiny,",
+      1
+     ]
+    ],
+    [
+     [
+      "bouncing it back.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.53,
+   "end": 24.51,
+   "lines": [
+    [
+     [
+      "That leaves the top",
+      0
+     ]
+    ],
+    [
+     [
+      "as the ",
+      0
+     ],
+     [
+      "weak spot,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 24.51,
+   "end": 26.38,
+   "lines": [
+    [
+     [
+      "so keep",
+      0
+     ]
+    ],
+    [
+     [
+      "the ",
+      0
+     ],
+     [
+      "lid on.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.38,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   4.93,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.93,
+   9.38,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   9.38,
+   16.38,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   16.38,
+   20.03,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   20.03,
+   22.53,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   22.53,
+   26.38,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.38,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

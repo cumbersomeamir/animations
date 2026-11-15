@@ -1,0 +1,198 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.56,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 0.986,
+      "text": "A mirror for heat.",
+      "words": 4,
+      "words_per_s": 4.27,
+      "voice_over_bed_db": 20.8
+    },
+    {
+      "id": "l02",
+      "start": 1.2,
+      "end": 4.737,
+      "text": "That's the shiny wall inside a thermos. Why does it need one?",
+      "words": 12,
+      "words_per_s": 3.39,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l03",
+      "start": 5.0,
+      "end": 9.192,
+      "text": "Heat escapes three ways: through solids, through air, and as infrared light.",
+      "words": 12,
+      "words_per_s": 2.86,
+      "voice_over_bed_db": 17.0
+    },
+    {
+      "id": "l04",
+      "start": 9.45,
+      "end": 12.095,
+      "text": "A thermos has two walls with a vacuum between them.",
+      "words": 10,
+      "words_per_s": 3.78,
+      "voice_over_bed_db": 18.9
+    },
+    {
+      "id": "l05",
+      "start": 12.35,
+      "end": 16.196,
+      "text": "With almost no air there, heat can barely conduct or flow across.",
+      "words": 12,
+      "words_per_s": 3.12,
+      "voice_over_bed_db": 17.6
+    },
+    {
+      "id": "l06",
+      "start": 16.45,
+      "end": 19.838,
+      "text": "But infrared crosses a vacuum, like sunlight through space.",
+      "words": 9,
+      "words_per_s": 2.66,
+      "voice_over_bed_db": 17.2
+    },
+    {
+      "id": "l07",
+      "start": 20.1,
+      "end": 22.312,
+      "text": "So the walls are shiny, bouncing it back.",
+      "words": 8,
+      "words_per_s": 3.62,
+      "voice_over_bed_db": 15.9
+    },
+    {
+      "id": "l08",
+      "start": 22.6,
+      "end": 25.744,
+      "text": "That leaves the top as the weak spot, so keep the lid on.",
+      "words": 13,
+      "words_per_s": 4.13,
+      "voice_over_bed_db": 17.2
+    },
+    {
+      "id": "l09",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.6
+    }
+  ],
+  "narration_words": 89,
+  "speech_s": 27.18,
+  "overall_words_per_s": 2.97,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "mirror glint (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.05,
+      "beat": 0.1,
+      "sfx": "soft steam"
+    },
+    {
+      "t": 1.23,
+      "beat": 2.46,
+      "sfx": "steam from the open flask"
+    },
+    {
+      "t": 4.68,
+      "beat": 9.36,
+      "sfx": "cut to the flask section (ends before l03)"
+    },
+    {
+      "t": 6.75,
+      "beat": 13.5,
+      "sfx": "conduction into the counter"
+    },
+    {
+      "t": 7.47,
+      "beat": 14.94,
+      "sfx": "warm air rises"
+    },
+    {
+      "t": 8.31,
+      "beat": 16.62,
+      "sfx": "infrared zings"
+    },
+    {
+      "t": 9.5,
+      "beat": 19.0,
+      "sfx": "outer wall slides down"
+    },
+    {
+      "t": 10.6,
+      "beat": 21.2,
+      "sfx": "outer wall in place"
+    },
+    {
+      "t": 11.2,
+      "beat": 22.4,
+      "sfx": "air pumped out of the gap"
+    },
+    {
+      "t": 13.1,
+      "beat": 26.2,
+      "sfx": "conduction stops at the empty gap"
+    },
+    {
+      "t": 16.65,
+      "beat": 33.3,
+      "sfx": "infrared crosses the vacuum"
+    },
+    {
+      "t": 20.25,
+      "beat": 40.5,
+      "sfx": "walls turn to mirrors"
+    },
+    {
+      "t": 20.85,
+      "beat": 41.7,
+      "sfx": "infrared bounces back"
+    },
+    {
+      "t": 22.28,
+      "beat": 44.56,
+      "sfx": "cut to the top"
+    },
+    {
+      "t": 25.37,
+      "beat": 50.74,
+      "sfx": "lid clicks on"
+    },
+    {
+      "t": 25.95,
+      "beat": 51.9,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.457,
+  "voice_gain": 1.0
+}

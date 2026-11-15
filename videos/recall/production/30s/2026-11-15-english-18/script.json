@@ -1,0 +1,16 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+    {"id": "l01", "text": "A mirror for heat."},
+    {"id": "l02", "text": "That's the shiny wall inside a thermos. Why does it need one?"},
+    {"id": "l03", "text": "Heat escapes three ways: through solids, through air, and as infrared light."},
+    {"id": "l04", "text": "A thermos has two walls with a vacuum between them."},
+    {"id": "l05", "text": "With almost no air there, heat can barely conduct or flow across."},
+    {"id": "l06", "text": "But infrared crosses a vacuum, like sunlight through space."},
+    {"id": "l07", "text": "So the walls are shiny, bouncing it back."},
+    {"id": "l08", "text": "That leaves the top as the weak spot, so keep the lid on."},
+    {"id": "l09", "text": "Download Recall to turn your study material into lessons."}
+ ]
+}

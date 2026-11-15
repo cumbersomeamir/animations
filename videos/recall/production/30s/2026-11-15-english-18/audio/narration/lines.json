@@ -1,0 +1,79 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "A mirror for heat.",
+      "file": "l01.wav",
+      "duration": 0.936,
+      "sr": 24000,
+      "words_per_s": 4.27
+    },
+    {
+      "id": "l02",
+      "text": "That's the shiny wall inside a thermos. Why does it need one?",
+      "file": "l02.wav",
+      "duration": 3.537,
+      "sr": 24000,
+      "words_per_s": 3.39
+    },
+    {
+      "id": "l03",
+      "text": "Heat escapes three ways: through solids, through air, and as infrared light.",
+      "file": "l03.wav",
+      "duration": 4.192,
+      "sr": 24000,
+      "words_per_s": 2.86
+    },
+    {
+      "id": "l04",
+      "text": "A thermos has two walls with a vacuum between them.",
+      "file": "l04.wav",
+      "duration": 2.645,
+      "sr": 24000,
+      "words_per_s": 3.78
+    },
+    {
+      "id": "l05",
+      "text": "With almost no air there, heat can barely conduct or flow across.",
+      "file": "l05.wav",
+      "duration": 3.846,
+      "sr": 24000,
+      "words_per_s": 3.12
+    },
+    {
+      "id": "l06",
+      "text": "But infrared crosses a vacuum, like sunlight through space.",
+      "file": "l06.wav",
+      "duration": 3.388,
+      "sr": 24000,
+      "words_per_s": 2.66
+    },
+    {
+      "id": "l07",
+      "text": "So the walls are shiny, bouncing it back.",
+      "file": "l07.wav",
+      "duration": 2.212,
+      "sr": 24000,
+      "words_per_s": 3.62
+    },
+    {
+      "id": "l08",
+      "text": "That leaves the top as the weak spot, so keep the lid on.",
+      "file": "l08.wav",
+      "duration": 3.144,
+      "sr": 24000,
+      "words_per_s": 4.13
+    },
+    {
+      "id": "l09",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l09.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

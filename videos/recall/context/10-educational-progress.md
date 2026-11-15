@@ -158,3 +158,7 @@ noise cancelling), so it was kept; record in context 29; deliverable `videos/rec
 ## Update 2026-11-15 batch 17 — english-17
 Episode E17 "That hole is on purpose" (why a tiny hole in an airplane window matters; English). The topic was new, so it was
 kept; record in context 30; deliverable `videos/recall/production/30s/2026-11-15-english-17/recall-30s-english17-01.mp4` + thumbnail.
+
+## Update 2026-11-15 batch 18 — english-18
+Episode E18 "A mirror for heat" (why a thermos has shiny walls inside; English). The topic was new, so it was kept; record in
+context 31; deliverable `videos/recall/production/30s/2026-11-15-english-18/recall-30s-english18-01.mp4` + thumbnail.
