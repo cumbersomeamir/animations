@@ -1,0 +1,99 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "No joints.",
+   "Just tension."
+  ],
+  "in": 0.0,
+  "out": 1.95,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Colorado State's new robots",
+   "link up by their claws."
+  ],
+  "in": 1.97,
+  "out": 5.35
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "So how does a body with",
+   "no joints hold its shape?"
+  ],
+  "in": 5.37,
+  "out": 8.2
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Six stiff rods hang",
+   "in a stretchy web,"
+  ],
+  "in": 8.22,
+  "out": 10.69
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "pushing out while it pulls in."
+  ],
+  "in": 10.71,
+  "out": 12.584
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Squash it, and the load spreads,"
+  ],
+  "in": 12.77,
+  "out": 14.615
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "so it bends instead of breaking."
+  ],
+  "in": 14.635,
+  "out": 16.6
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Linked up, they loop",
+   "around pipes and climb ducts."
+  ],
+  "in": 16.62,
+  "out": 19.4
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "The catch: for now,",
+   "a human still pilots them."
+  ],
+  "in": 19.42,
+  "out": 22.4
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "That's tensegrity:",
+   "strength from pull, not from joints."
+  ],
+  "in": 22.42,
+  "out": 25.914
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

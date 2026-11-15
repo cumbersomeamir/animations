@@ -1,0 +1,200 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "No joints. Just tension.",
+   "cues": [
+    [
+     "No joints.",
+     "Just tension."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 2.05,
+   "say": "Colorado State's new robots link up by their claws.",
+   "cues": [
+    [
+     "Colorado State's new robots",
+     "link up by their claws."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.45,
+   "say": "So how does a body with no joints hold its shape?",
+   "cues": [
+    [
+     "So how does a body with",
+     "no joints hold its shape?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.3,
+   "say": "Six stiff rods hang in a stretchy web, pushing out while it pulls in.",
+   "cues": [
+    [
+     "Six stiff rods hang",
+     "in a stretchy web,"
+    ],
+    [
+     "pushing out while it pulls in."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 12.85,
+   "say": "Squash it, and the load spreads, so it bends instead of breaking.",
+   "cues": [
+    [
+     "Squash it, and the load spreads,"
+    ],
+    [
+     "so it bends instead of breaking."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 16.7,
+   "say": "Linked up, they loop around pipes and climb ducts.",
+   "cues": [
+    [
+     "Linked up, they loop",
+     "around pipes and climb ducts."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 19.5,
+   "say": "The catch: for now, a human still pilots them.",
+   "cues": [
+    [
+     "The catch: for now,",
+     "a human still pilots them."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 22.5,
+   "say": "That's tensegrity: strength from pull, not from joints.",
+   "cues": [
+    [
+     "That's tensegrity:",
+     "strength from pull, not from joints."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.96,
+   "beat": "first frame / hook: two linked tensegrity robots looped around a pipe + \"No joints. Just tension.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.96,
+   "out": 5.36,
+   "beat": "the news: two robots inch together on the floor and lock claws; source chip"
+  },
+  {
+   "id": "S3",
+   "in": 5.36,
+   "out": 8.21,
+   "beat": "question: slow orbit around one robot body \u2014 rods and web, no joints"
+  },
+  {
+   "id": "S4",
+   "in": 8.21,
+   "out": 12.6,
+   "beat": "mechanism: rods alone, then the web appears; RODS PUSH \u2192 WEB PULLS"
+  },
+  {
+   "id": "S5",
+   "in": 12.6,
+   "out": 16.61,
+   "beat": "mechanism: a weight squashes the body, the web lights up (load spread), it springs back"
+  },
+  {
+   "id": "S6",
+   "in": 16.61,
+   "out": 19.41,
+   "beat": "proof: two linked robots wrap a vertical pipe and climb it"
+  },
+  {
+   "id": "S7",
+   "in": 19.41,
+   "out": 22.41,
+   "beat": "constraint: a handheld controller pilots the robot"
+  },
+  {
+   "id": "S8",
+   "in": 22.41,
+   "out": 25.92,
+   "beat": "takeaway: a three-rod tensegrity prism \u2014 rods never touch, cords hold them"
+  },
+  {
+   "id": "S9",
+   "in": 25.92,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "link": 4.6,
+  "web": 9.9,
+  "push": 11.0,
+  "pull": 11.72,
+  "squash": 13.0,
+  "labLoad": 13.9,
+  "release": 15.1,
+  "climb": 16.8,
+  "labClimb": 17.6,
+  "pilot": 20.9,
+  "tens": 22.6,
+  "labTens": 22.9,
+  "sign": 26.2
+ }
+}

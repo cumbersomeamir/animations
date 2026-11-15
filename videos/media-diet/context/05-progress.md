@@ -313,3 +313,14 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   captions y 342–534, x 193–887; 0 violations; caption↔speech 11/11; Whisper per-line 1.0 (full single pass 0.861: CTA dropped by Whisper's
   one-window decode; CTA alone decodes exactly).
 - Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-15 — english-17 / batch 17 (topic + sources recorded; rendering)
+- Batch 16 delivered first (64070c5 = remote); batch 17 not a repeat. Topic: Colorado State's TeCoBot tensegrity robots — Nature Machine
+  Intelligence + CSU release **11 Nov 2026** (PopSci 12 Nov). Disclosed: 11 Nov is just outside the requested 72 h; nothing stronger inside
+  the window verified (rejections listed in SOURCES.md). Physics: rods in compression, web in tension; load diffuses through the network
+  (SUPERball ICRA 2015 / NASA NTRS). Constraint: human-piloted for now (CSU quote). Actuation not claimed (paper body paywalled).
+- Record context/32; sources production/30s/2026-11-15-english-17/SOURCES.md; log row in context/11 (in progress).
+  Frame 0 = two robots around a pipe + "No joints. / Just tension." Bean-episode benchmark: question → stakes → first principles.
+- Narration 85 words / 26.2 s, every take heard exactly by Whisper. Stills checked (stands hidden, diagonal pipe for frame 0, prism and CTA
+  robot clear of the caption band). Running: three render_chunks workers (0…240, 300…540, 600…840); next
+  `SKIP_FRAMES=1 bash build/build.sh`, `node build/thumb.mjs thumbnail-english17-01.png`, QA.md, commit, push, attach.
