@@ -70,3 +70,6 @@
 
 ## Production 2026-11-15-english-15 (English, one channel, many routers)
 - Done. Output `production/30s/2026-11-15-english-15/meshline-30s-english15-01.mp4`, sha256 `c5ee6def…5d46`, plus a thumbnail equal to frame zero. The new first-frame rule is persisted in `11-production-format.md`. Details are in `28-production-30s-english15-01.md`.
+
+## Production 2026-11-15-english-16 (English, frequency hopping)
+- Done. Output `production/30s/2026-11-15-english-16/meshline-30s-english16-01.mp4`, sha256 `6f408725…7a1d`, plus a thumbnail equal to frame zero. The worker restarted after a usage-limit pause and the job resumed from the batch folder. Details are in `29-production-30s-english16-01.md`.

@@ -1,0 +1,51 @@
+{
+ "reference": "Classic Bluetooth hops about sixteen hundred times a second. Why? Its band is crowded with Wi-Fi and other gadgets. So connected devices hop together across seventy-nine channels. Each stop is so brief that interference spoils only a few hops. Adaptive hopping also spots busy channels and skips them. Keep your router's two point four gigahertz band at twenty megahertz, to leave Bluetooth room. Message people nearby, even offline, with Meshline.",
+ "asr": "Classic Bluetooth hops about 1,600 times a second. Why? Its band is crowded with Wi-Fi and other gadgets. So connected devices hop together across 79 channels. Each stop is so brief that interference spoils only a few hops. Adaptive hopping also spots busy channels and skips them. Keep your routers 2.4 GHz band at 20 MHz to leave Bluetooth room. Message people nearby, even offline with meshline.",
+ "wer": 0.153,
+ "segments": [
+  [
+   0.0,
+   3.5,
+   "Classic Bluetooth hops about 1,600 times a second."
+  ],
+  [
+   3.5,
+   4.5,
+   "Why?"
+  ],
+  [
+   4.5,
+   7.7,
+   "Its band is crowded with Wi-Fi and other gadgets."
+  ],
+  [
+   7.7,
+   12.0,
+   "So connected devices hop together across 79 channels."
+  ],
+  [
+   12.0,
+   16.3,
+   "Each stop is so brief that interference spoils only a few hops."
+  ],
+  [
+   16.3,
+   20.1,
+   "Adaptive hopping also spots busy channels and skips them."
+  ],
+  [
+   20.1,
+   26.0,
+   "Keep your routers 2.4 GHz band at 20 MHz to leave Bluetooth room."
+  ],
+  [
+   26.0,
+   29.8,
+   "Message people nearby, even offline with meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "digits\u2192words (1,600, 79, 2.4, 20), GHz/MHz spelled out, apostrophe in router's ignored",
+ "remaining_diffs": [],
+ "audio_pcm_sha256_prefix": "8ea9fd5239e4e021"
+}

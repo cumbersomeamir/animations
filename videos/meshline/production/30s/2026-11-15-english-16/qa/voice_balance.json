@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 4.29,
+  "text": "Classic Bluetooth hops about sixteen hundred times a second. Why?",
+  "speech_band_db": 26.3
+ },
+ {
+  "id": "l2",
+  "start": 4.71,
+  "end": 7.497,
+  "text": "Its band is crowded with Wi-Fi and other gadgets.",
+  "speech_band_db": 24.2
+ },
+ {
+  "id": "l3",
+  "start": 7.92,
+  "end": 11.784,
+  "text": "So connected devices hop together across seventy-nine channels.",
+  "speech_band_db": 25.4
+ },
+ {
+  "id": "l4",
+  "start": 12.2,
+  "end": 16.117,
+  "text": "Each stop is so brief that interference spoils only a few hops.",
+  "speech_band_db": 26.8
+ },
+ {
+  "id": "l5",
+  "start": 16.54,
+  "end": 19.912,
+  "text": "Adaptive hopping also spots busy channels and skips them.",
+  "speech_band_db": 21.3
+ },
+ {
+  "id": "l6",
+  "start": 20.33,
+  "end": 25.691,
+  "text": "Keep your router's two point four gigahertz band at twenty megahertz, to leave Bluetooth room.",
+  "speech_band_db": 22.4
+ },
+ {
+  "id": "l7",
+  "start": 26.29,
+  "end": 29.555,
+  "text": "Message people nearby, even offline, with Meshline.",
+  "speech_band_db": 18.4
+ }
+]

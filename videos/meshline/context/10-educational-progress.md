@@ -104,3 +104,7 @@
 ## Production 2026-11-15-english-15 (English, one channel, many routers: who talks next?): complete
 - See `28-production-30s-english15-01.md`; output sha256 `c5ee6defda4f6c164d64ced9a8b908530529a8b64293edba96c065564f315d46`; thumbnail = frame-zero composition.
 - Stadium/full-bars framing rejected as a repeat; the requested contention mechanism (listen-before-talk, random backoff, doubling window) kept, framed as the unused planned title "home Wi-Fi slowing at peak".
+
+## Production 2026-11-15-english-16 (English, why Bluetooth hops 1,600 times a second): complete
+- See `29-production-30s-english16-01.md`; output sha256 `6f408725fa78379813d681fbaaae7d248d1938e3c7768d9aa2b1fdddb4c57a1d`; thumbnail = frame-zero composition.
+- The proposed store-carry-forward topic repeats episode 03, so the batch covers frequency hopping (79 × 1 MHz, ~1,600 hops/s, adaptive hopping, 20 MHz router tip).

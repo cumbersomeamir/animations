@@ -258,4 +258,11 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - The words sit in the caption band at frame 0 and hand over to the first caption (whose start is clamped to ≥ 0.55 s), so they never compete with the caption.
 - **Topics now taken:** CSMA-style contention / backoff (17). Stadium, concert, crowd and full-bars stories are repeats; don't use them as framing again.
 - **Still unused planned titles:** what 5G changes; how a phone picks a tower.
+| 18 | 2026-11-15-english-16 | Why Bluetooth hops 1,600 times a second (79 channels, 625 µs stops, adaptive hopping, 20 MHz router tip), **English** + thumbnail | `production/30s/2026-11-15-english-16/meshline-30s-english16-01.mp4` |
+
+## Production notes 2026-11-15, batch english-16 (specific adjustments only; the standing briefs still apply)
+- **Topic rule applied:** store-carry-forward / DTN is episode 03; don't propose it again. Frequency hopping is now taken (18).
+- **Still unused planned titles:** what 5G changes; how a phone picks a tower.
+- **On-screen truth:** if a narration line says "only a few", the visual must show only a few. Model intermittent interference as bursts, not solid blocks.
+- **Slowed visuals:** label any slowed visual of a real rate, and show the real rate separately (here a real-time hop counter).
 

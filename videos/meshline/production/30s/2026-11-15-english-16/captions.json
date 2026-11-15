@@ -1,0 +1,97 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 1.2,
+  "l": [
+   "Classic Bluetooth hops"
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 1.24,
+  "b": 4.59,
+  "l": [
+   "about 1,600 times a second.",
+   "Why?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 4.66,
+  "b": 7.797,
+  "l": [
+   "Its band is crowded",
+   "with Wi-Fi and other gadgets."
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 7.87,
+  "b": 9.73,
+  "l": [
+   "So connected devices",
+   "hop together"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.77,
+  "b": 12.084,
+  "l": [
+   "across 79 channels."
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 12.15,
+  "b": 13.27,
+  "l": [
+   "Each stop is so brief"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 13.31,
+  "b": 16.417,
+  "l": [
+   "that interference spoils",
+   "only a few hops."
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 16.49,
+  "b": 20.212,
+  "l": [
+   "Adaptive hopping also spots",
+   "busy channels and skips them."
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 20.28,
+  "b": 23.52,
+  "l": [
+   "Keep your router's",
+   "2.4 GHz band at 20 MHz,"
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 23.56,
+  "b": 25.991,
+  "l": [
+   "to leave Bluetooth room."
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 26.24,
+  "b": 29.855,
+  "l": [
+   "Message people nearby,",
+   "even offline, with Meshline."
+  ]
+ }
+]

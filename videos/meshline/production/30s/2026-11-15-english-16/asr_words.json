@@ -1,0 +1,361 @@
+{
+ "l1": [
+  {
+   "w": "Classic",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "Bluetooth",
+   "start": 0.32,
+   "end": 0.56
+  },
+  {
+   "w": "hops",
+   "start": 0.56,
+   "end": 1.04
+  },
+  {
+   "w": "about",
+   "start": 1.04,
+   "end": 1.38
+  },
+  {
+   "w": "1",
+   "start": 1.38,
+   "end": 1.6
+  },
+  {
+   "w": ",600",
+   "start": 1.6,
+   "end": 1.88
+  },
+  {
+   "w": "times",
+   "start": 1.88,
+   "end": 2.38
+  },
+  {
+   "w": "a",
+   "start": 2.38,
+   "end": 2.58
+  },
+  {
+   "w": "second.",
+   "start": 2.58,
+   "end": 2.86
+  }
+ ],
+ "l2": [
+  {
+   "w": "Its",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "band",
+   "start": 0.12,
+   "end": 0.28
+  },
+  {
+   "w": "is",
+   "start": 0.28,
+   "end": 0.52
+  },
+  {
+   "w": "crowded",
+   "start": 0.52,
+   "end": 0.78
+  },
+  {
+   "w": "with",
+   "start": 0.78,
+   "end": 1.04
+  },
+  {
+   "w": "Wi",
+   "start": 1.04,
+   "end": 1.24
+  },
+  {
+   "w": "-Fi",
+   "start": 1.24,
+   "end": 1.56
+  },
+  {
+   "w": "and",
+   "start": 1.56,
+   "end": 1.9
+  },
+  {
+   "w": "other",
+   "start": 1.9,
+   "end": 2.02
+  },
+  {
+   "w": "gadgets.",
+   "start": 2.02,
+   "end": 2.3
+  }
+ ],
+ "l3": [
+  {
+   "w": "So",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "connected",
+   "start": 0.12,
+   "end": 0.42
+  },
+  {
+   "w": "devices",
+   "start": 0.42,
+   "end": 0.96
+  },
+  {
+   "w": "hop",
+   "start": 0.96,
+   "end": 1.54
+  },
+  {
+   "w": "together",
+   "start": 1.54,
+   "end": 1.9
+  },
+  {
+   "w": "across",
+   "start": 1.9,
+   "end": 2.34
+  },
+  {
+   "w": "79",
+   "start": 2.34,
+   "end": 2.84
+  },
+  {
+   "w": "channels.",
+   "start": 2.84,
+   "end": 3.54
+  }
+ ],
+ "l4": [
+  {
+   "w": "Each",
+   "start": 0.0,
+   "end": 0.2
+  },
+  {
+   "w": "stop",
+   "start": 0.2,
+   "end": 0.4
+  },
+  {
+   "w": "is",
+   "start": 0.4,
+   "end": 0.66
+  },
+  {
+   "w": "so",
+   "start": 0.66,
+   "end": 0.84
+  },
+  {
+   "w": "brief",
+   "start": 0.84,
+   "end": 1.16
+  },
+  {
+   "w": "that",
+   "start": 1.16,
+   "end": 1.68
+  },
+  {
+   "w": "interference",
+   "start": 1.68,
+   "end": 1.96
+  },
+  {
+   "w": "spoils",
+   "start": 1.96,
+   "end": 2.78
+  },
+  {
+   "w": "only",
+   "start": 2.78,
+   "end": 3.06
+  },
+  {
+   "w": "a",
+   "start": 3.06,
+   "end": 3.14
+  },
+  {
+   "w": "few",
+   "start": 3.14,
+   "end": 3.3
+  },
+  {
+   "w": "hops.",
+   "start": 3.3,
+   "end": 3.56
+  }
+ ],
+ "l5": [
+  {
+   "w": "Adaptive",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "hopping",
+   "start": 0.42,
+   "end": 0.7
+  },
+  {
+   "w": "also",
+   "start": 0.7,
+   "end": 1.16
+  },
+  {
+   "w": "spots",
+   "start": 1.16,
+   "end": 1.54
+  },
+  {
+   "w": "busy",
+   "start": 1.54,
+   "end": 1.9
+  },
+  {
+   "w": "channels",
+   "start": 1.9,
+   "end": 2.34
+  },
+  {
+   "w": "and",
+   "start": 2.34,
+   "end": 2.64
+  },
+  {
+   "w": "skips",
+   "start": 2.64,
+   "end": 3.0
+  },
+  {
+   "w": "them.",
+   "start": 3.0,
+   "end": 3.16
+  }
+ ],
+ "l6": [
+  {
+   "w": "Keep",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "w": "your",
+   "start": 0.14,
+   "end": 0.3
+  },
+  {
+   "w": "routers",
+   "start": 0.3,
+   "end": 0.54
+  },
+  {
+   "w": "2",
+   "start": 0.54,
+   "end": 1.02
+  },
+  {
+   "w": ".4",
+   "start": 1.02,
+   "end": 1.7
+  },
+  {
+   "w": "GHz",
+   "start": 1.7,
+   "end": 1.9
+  },
+  {
+   "w": "band",
+   "start": 1.9,
+   "end": 2.5
+  },
+  {
+   "w": "at",
+   "start": 2.5,
+   "end": 2.78
+  },
+  {
+   "w": "20",
+   "start": 2.78,
+   "end": 3.02
+  },
+  {
+   "w": "MHz",
+   "start": 3.02,
+   "end": 3.28
+  },
+  {
+   "w": "to",
+   "start": 3.28,
+   "end": 4.12
+  },
+  {
+   "w": "leave",
+   "start": 4.12,
+   "end": 4.34
+  },
+  {
+   "w": "Bluetooth",
+   "start": 4.34,
+   "end": 4.62
+  },
+  {
+   "w": "room.",
+   "start": 4.62,
+   "end": 5.08
+  }
+ ],
+ "l7": [
+  {
+   "w": "Message",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "w": "people",
+   "start": 0.26,
+   "end": 0.58
+  },
+  {
+   "w": "nearby,",
+   "start": 0.58,
+   "end": 0.96
+  },
+  {
+   "w": "even",
+   "start": 1.76,
+   "end": 1.76
+  },
+  {
+   "w": "offline",
+   "start": 1.76,
+   "end": 2.08
+  },
+  {
+   "w": "with",
+   "start": 2.08,
+   "end": 2.54
+  },
+  {
+   "w": "meshline.",
+   "start": 2.54,
+   "end": 2.96
+  }
+ ]
+}
