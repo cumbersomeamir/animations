@@ -1,0 +1,65 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Same sun, same home. Why is one room hotter?",
+   "dur": 2.785,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "A dark roof soaks up sunlight and passes heat inside.",
+   "dur": 3.06,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Can white paint change that?",
+   "dur": 1.391,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "A cool roof reflects more sunlight, so less heat gets in.",
+   "dur": 3.383,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "In Ahmedabad, Mahila Housing Trust coats low-income homes with white reflective paint.",
+   "tts": "In Ahmedabad, Mahilaa Housing Trust coats low-income homes with white reflective paint.",
+   "dur": 5.471,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "The city added cool roofs to its heat action plan.",
+   "dur": 2.588,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Results vary, but suitable paint and labour are practical to fund.",
+   "dur": 3.867,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

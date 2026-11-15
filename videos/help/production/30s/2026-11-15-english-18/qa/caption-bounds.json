@@ -1,0 +1,121 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 24,
+ "extent": {
+  "x0": 122,
+  "x1": 878,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Same sun, same home.",
+   "fs": 66,
+   "x0": 122,
+   "x1": 878,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 23
+  },
+  {
+   "text": "Why is one / room hotter?",
+   "fs": 56,
+   "x0": 322,
+   "x1": 678,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 69
+  },
+  {
+   "text": "A dark roof soaks up sunlight / and passes heat inside.",
+   "fs": 52,
+   "x0": 124,
+   "x1": 876,
+   "y0": 379,
+   "y1": 489,
+   "firstFrame": 141
+  },
+  {
+   "text": "Can white paint / change that?",
+   "fs": 56,
+   "x0": 285,
+   "x1": 715,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 218
+  },
+  {
+   "text": "A cool roof reflects more / sunlight, so less heat gets in.",
+   "fs": 52,
+   "x0": 125,
+   "x1": 875,
+   "y0": 380,
+   "y1": 490,
+   "firstFrame": 300
+  },
+  {
+   "text": "In Ahmedabad, / Mahila Housing Trust",
+   "fs": 56,
+   "x0": 205,
+   "x1": 795,
+   "y0": 379,
+   "y1": 496,
+   "firstFrame": 391
+  },
+  {
+   "text": "coats low-income homes / with white reflective paint.",
+   "fs": 56,
+   "x0": 130,
+   "x1": 870,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 479
+  },
+  {
+   "text": "The city added cool roofs / to its heat action plan.",
+   "fs": 56,
+   "x0": 150,
+   "x1": 850,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 577
+  },
+  {
+   "text": "Results vary, but",
+   "fs": 66,
+   "x0": 224,
+   "x1": 776,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 654
+  },
+  {
+   "text": "suitable paint and labour / are practical to fund.",
+   "fs": 56,
+   "x0": 158,
+   "x1": 842,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 721
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

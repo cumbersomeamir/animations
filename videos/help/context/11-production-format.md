@@ -284,3 +284,10 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
 - Indian standards: Public.Resource.Org's Internet Archive copies of BIS standards are readable when gov.in hosts are not; never bypass TLS failures
   on gov hosts (divyangjan.depwd.gov.in, mowr.nic.in, financialservices.gov.in) — use another primary text or drop the claim.
 
+## Update 2026-11-15 (batch 18) — english-18 lessons
+- Topic gate: cool roofs / roof heat / reflective coatings covered by english-18.
+- When a stage uses camera zooms, draw its plaques in screen space (setTransform) — world-space labels at y 700 leave the frame at 1.3×.
+- Contrast for "split" comparisons must survive the multiplied hide texture: give the key surface (white roof) a solid fill and the hot side an
+  explicit glow; judge it on frame 0 at phone size.
+- Temperature/energy figures stay out of the script unless the brief allows them; note the source ranges in the record only.
+
