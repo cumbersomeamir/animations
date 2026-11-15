@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.42
+      ],
+      "script": "Why can empty space make a product look more premium?",
+      "heard": "Why can empty space make a product look more premium?",
+      "words": "10/10"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.35,
+        7.16
+      ],
+      "script": "Same bottle, two displays: packed tight, or given room.",
+      "heard": "Same bottle two displays, packed tight or given room.",
+      "words": "9/9"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        7.1,
+        11.7
+      ],
+      "script": "In lab and field studies, more space made products seem more valuable.",
+      "heard": "In lab and field studies, more space-made products seem more valuable.",
+      "words": "12/12"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.65,
+        15.52
+      ],
+      "script": "Items looked more attractive, and the store more prestigious.",
+      "heard": "Items looked more attractive, and the store more prestigious.",
+      "words": "9/9"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        15.45,
+        18.76
+      ],
+      "script": "Not scarcity, not tidiness: the space itself.",
+      "heard": "not scarcity, not tidiness, the space itself.",
+      "words": "7/7"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        18.65,
+        22.06
+      ],
+      "script": "Less can look like more, but it's no guaranteed sale.",
+      "heard": "Less can look like more, but it's no guaranteed sale.",
+      "words": "10/10"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        21.95,
+        25.85
+      ],
+      "script": "Give your best product room: fewer items, space around each.",
+      "heard": "Give your best product room, fewer items space around each.",
+      "words": "10/10"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why can empty space make a product look more premium? Same bottle two displays, packed tight or given room. In lab and field studies, more space-made products seem more valuable. Items looked more attractive and the store more prestigious. Not scarcity, not tidiness, the space itself. Less can look like more, but it's no guaranteed sale. Give your best product room, fewer items space around each. Follow Wurbens to decode how brands sell."
+}

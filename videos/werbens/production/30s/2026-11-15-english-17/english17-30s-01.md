@@ -1,0 +1,191 @@
+# 33 — English-17 (batch17, 2026-11-15) 30 s #01: "LESS SELLS MORE?" (space-to-product ratio / negative space)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-15-english-17`.
+
+Pre-edit checks:
+- Repo/branch confirmed: origin = github.com/cumbersomeamir/animations, branch claude-video/werbens, local a17926b == origin,
+  clean tree.
+- Batch 16 (english-16) was finished, pushed and attached first, and is not repeated here. No jobs were running.
+- CLAUDE.md and `05-progress.md` were re-read; topic history read from `context/11` (episode log rows 01–18) and episode notes.
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-15-english-17/werbens-30s-english17-01.mp4`.
+- Thumbnail: `werbens-30s-english17-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references:
+- **`context/27`** incl. **§5 first-frame rule**.
+- Style: `context/11` "Satisfying Product Theatre" on the live app.werbens.com dark-navy theme (context/28 §3).
+- Voice: context/11 + context/16 (Meshline/Recall).
+- Brand: `context/17` (re-checked today).
+- Copy in the output folder: `english17-30s-01.md`.
+
+## 1. Brief (user-approved, batch17 on 15 November 2026; latest feedback retained)
+- Proposed topic: **why an empty space can make a product feel premium**.
+- Visual isolation / negative space in marketing: the same object in a crowded vs a sparse display. Careful, researched
+  interpretation, not guaranteed conversion.
+- Exact app.werbens.com colours and logo; no substitute palette.
+- Frame 0: an overcrowded shelf collapses into a single illuminated object. Hook: **LESS SELLS MORE?**
+- Teach a practical layout principle.
+- If the topic is already covered, choose a genuinely different topic in the same genre. Create one new episode; never repeat
+  batch16.
+
+## 2. Topic check against the episode history → not covered; proposed topic kept
+No earlier episode is about negative space or display spacing:
+- **#02** (VW "Think small.") named white space as one feature of a 1959 ad layout. The topic was an ad that admits a weakness.
+- **#14** (english-12, "Same product. New perception.") staged one tub on a lit plinth. The mechanism was brand naming and
+  positioning, not space.
+- **#10** (english-08, scarcity) is about fewer items signalling demand. The study used here explicitly rules out scarcity as
+  the explanation, and the script says so.
+
+The mechanism here — more space devoted to a display raises perceived value, aesthetic appeal and store prestige — is new to
+the series.
+
+## 3. Brand re-check (facts; 2026-11-15, batch17)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, headless Chromium, scratchpad `appweb-dl-1115c`):
+- The top-40 computed colour list is identical to the batch-16 check the same day (`appweb-dl-1115b`).
+- Wordmark: Space Grotesk 700, 30.4 px, −1.216 px, 135° #7FE7DC→#316879.
+- Logo `https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… is unchanged (= `assets/brand/app-werbens-logo.svg`).
+
+## 4. Facts used (verified 2026-11-15) — tagged measured / advice / illustration
+Primary source: Sevilla, J., & Townsend, C. (2016). The space-to-product ratio effect: How interstitial space influences
+product aesthetic appeal, store perceptions, and product preference. *Journal of Marketing Research*, 53(5), 665–681.
+https://doi.org/10.1509/jmr.13.0601 — abstract as deposited by the publisher (Crossref API, read 2026-11-15):
+
+> "The authors identify and examine the effect of space-to-product ratio on consumer response; very generally, consumers
+> perceive products as more valuable when more space is devoted to their display. In both lab and field studies, the authors
+> find that this phenomenon influences total sales, purchase likelihood, and even perceived product experience (taste
+> perceptions). More interstitial space increases perceptions of individual products as more aesthetically pleasing and the
+> store as more prestigious. The authors find these effects across a variety of product categories and rule out a number of
+> competing alternative explanations that are based on perceptions of product popularity, scarcity, assortment search
+> difficulty, and messiness."
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Why can empty space make a product look more premium?" | **Question framed by the finding** | Abstract: products seem more valuable with more display space. |
+| L2 | "Same bottle, two displays: packed tight, or given room." | **Illustrative assumption** (unbranded made-up bottle; no prices) | — |
+| L3 | "In lab and field studies, more space made products seem more valuable." | **Measured finding** (direction only) | Abstract: "In both lab and field studies…"; "consumers perceive products as more valuable when more space is devoted to their display." |
+| L4 | "Items looked more attractive, and the store more prestigious." | **Measured finding** (direction only) | Abstract: "More interstitial space increases perceptions of individual products as more aesthetically pleasing and the store as more prestigious." |
+| L5 | "Not scarcity, not tidiness: the space itself." | **Measured** (alternative explanations ruled out by the authors) | Abstract: "rule out … explanations … based on perceptions of product popularity, scarcity, assortment search difficulty, and messiness." ("tidiness" = the messiness explanation.) |
+| L6 | "Less can look like more, but it's no guaranteed sale." | **Careful interpretation** | The abstract reports effects on sales and purchase likelihood, but no size is used here, and an effect in studies is not a guarantee for any one shop. |
+| L7 | "Give your best product room: fewer items, space around each." | **Practical advice** derived from the finding (not a measured rule) | — |
+| — | shelf unit, plinths, bottle counts, value columns, arch | **Illustration** | Columns show direction only, not study values. Bottle counts are illustrative (3 vs 3 keeps the count equal, to show the "not scarcity" point). |
+
+Background, not narrated: Pracejus, J. W., Olsen, G. D., & O'Guinn, T. C. (2006). How nothing became something: White space,
+rhetoric, history, and meaning. *Journal of Consumer Research*, 33(1), 82–90. https://doi.org/10.1086/504138. The abstract
+(publisher page) says white space carries a meaning shaped by its history, shared by creative directors and consumers; it does
+not state which meanings in the abstract, so nothing in the script depends on it. The follow-up experiment (Olsen, Pracejus &
+O'Guinn 2012, *Journal of Business Research* 65(6), 855–860, doi 10.1016/j.jbusres.2011.01.007) could not be read (publisher
+403), so it is not used.
+
+Sources not reachable in this session: OpenAlex (shared free budget used up; the key offer needs the user's email, which was
+not sent), Semantic Scholar (abstracts elided by the publisher), SAGE and ScienceDirect pages (403).
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), **af_bella 0.7 + am_puck 0.3**, speed 0.98, en-us,
+  newly synthesised. Hook audio starts at 0.15 s.
+- Script fixes: the first draft ran 27.2 s of speech (lines touching at 6.86/6.90 s), so L5–L7 were tightened ("the space itself
+  made the difference" → "the space itself"; "clear space" → "space"; "So less…" → "Less…").
+- Whisper base.en per line (clean narration): L1 10/10 · L2 9/9 · L3 12/12 · L4 9/9 · L5 7/7 · L6 10/10 · L7 10/10 ·
+  L8 6/7 ("Werbens" → "Warbins", known limit).
+- Caption timing: Whisper word times plus `WORD_FIX` pins for L1, L2, L5, L6 and L7, read from the voiced segments of the
+  narration envelope (e.g. "bottle" 4.07 → 3.86 s, "scarcity" 16.06 → 15.79 s, "space" 24.34 → 24.55 s).
+
+## 6. Final script (= final transcript) — 74 words, 25.4 s of speech
+| Part (context/27) | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: LESS SELLS / MORE?) | L1 | 0.15–3.09 | Why can empty space make a product look more premium? |
+| Build-up | L2 | 3.53–6.83 | Same bottle, two displays: packed tight, or given room. |
+| Proof | L3 | 7.28–11.37 | In lab and field studies, more space made products seem more valuable. |
+| Proof | L4 | 11.83–15.19 | Items looked more attractive, and the store more prestigious. |
+| Proof (mechanism) | L5 | 15.63–18.43 | Not scarcity, not tidiness: the space itself. |
+| Payoff (answer) | L6 | 18.83–21.73 | Less can look like more, but it's no guaranteed sale. |
+| Payoff (layout principle) | L7 | 22.13–25.52 | Give your best product room: fewer items, space around each. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail.** A two-shelf display unit on the navy stage (deep-teal back panel, ink shelves), crammed with 34
+  identical unbranded bottles in two rows per shelf. One of them, bottom shelf centre, stands slightly forward in a spotlight
+  (whiter body, soft mint glow); the crowd sits in the unit's shade. The headline reads "LESS SELLS / MORE?" (Space Grotesk 700;
+  the second line uses the hero gradient), x 128–872, y 330–652. No intro, no fade. The headline clears by 0.42 s as the first
+  caption appears.
+- **The collapse is real empty space, not a fade.** From 0.5 s the crowd sinks into its shelves (clipping planes at each shelf
+  top) in a wave from the edges inward, leaving the lone lit bottle by ~2.4 s, on "look more premium".
+- **One real question:** "why can empty space make a product look more premium?"
+  - Build-up: the same bottle on two plinths, packed tight vs given room. The count is equal (3 vs 3).
+  - Proof: the measured outcomes (value, attractiveness, store prestige), then the alternatives the authors ruled out.
+  - Payoff: the honest answer (less can look like more, no guarantee), then a practical layout principle.
+- **One visual idea at a time:**
+  1. The crowd sinks away; the lone bottle stays lit.
+  2. Lateral move to two plinths: one bottle each on "same bottle"; two more packed tight (PACKED chip, bottles slightly
+     jumbled); two more with room (ROOM chip).
+  3. Value columns rise behind both displays: the roomy one higher ("MORE VALUABLE"). Direction only.
+  4. Glints run across the roomy display on "more attractive"; a store arch rises behind it on "store more prestigious"
+     ("MORE PRESTIGE").
+  5. Equal counts hop on "scarcity"; the packed bottles straighten on "tidiness" (column unchanged); then the packed plinth
+     widens and its bottles spread on "the space itself" — its column rises to match ("SPACE ITSELF").
+  6. Back to the shelf unit: the top-shelf crowd has returned; the lone lit bottle's light pool widens on "look like more"
+     and settles on "no guaranteed sale".
+  7. A light pool spreads around the lone bottle on "room" ("GIVE IT ROOM"); six of the top-shelf crowd sink on "fewer
+     items"; the last three slide apart, each with its own light pool, on "space around each".
+  8. The bottles clear and the unit sinks; the logo tile pops up; wordmark on "Werbens".
+- **Labels:** MORE VALUABLE / MORE PRESTIGE / SPACE ITSELF / GIVE IT ROOM. All large and brief, one at a time, y ≥ 574.
+- **Small in-world plates:** PACKED, ROOM (inside x 100–900).
+- **Excluded:** no prices, no currency, no brand on the bottle, no source chips, no decorative lines.
+- **Reusable lessons:**
+  1. Clipping planes make objects sink *into* a surface, so "empty space" appears without fades or pops.
+  2. Two displays side by side in portrait need the whole pair inside about ±0.17 of the frame's half-width; check the outer
+     chip against x 900 in the close shot, not only in the wide one.
+  3. Keep the backdrop structure (arch) below the label line (y ≈ 700) by sizing it, not by moving labels.
+  4. Start the CTA tile while the set is still sinking, so no near-empty frame appears between them.
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.35 s | shelf unit, slow push | headline; crowd sinks in a wave; lone bottle lit | 9 soft clacks, shimmer, piano |
+| Build-up | 3.35–7.2 s | lateral move to the plinths (close) | same bottle on both; packed tight (PACKED); given room (ROOM) | whoosh, plops, clinks, tags, piano |
+| Proof 1–2 | 7.2–15.6 s | pull back with the columns | value columns (MORE VALUABLE); glints; store arch (MORE PRESTIGE) | riser, tag, chimes, riser + thud, piano |
+| Proof 3 | 15.6–18.45 s | settle | equal-count hops; tidy; packed display widens, column matches (SPACE ITSELF) | ticks, clack, slide, tag, piano |
+| Payoff | 18.45–26.25 s | back to the shelf unit, slow push | crowd returned on top; lone bottle's light pool widens/settles; GIVE IT ROOM; six sink; three spread with pools | whoosh, shimmer, glow, tag, clacks, slide, chimes |
+| CTA | 26.25–30 s | pull back | bottles clear, unit sinks; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, D-major spread |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-15-english-17/werbens-30s-english17-01.mp4`, sha256 `2b2d5d43…a5d3`, 4,612,395 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `0b64c9b2…`) and `.jpg` (sha256 `ba145307…`).
+
+Verification results (2026-11-15):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1 bt709; AAC-LC
+  48 kHz stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean.
+- **Audio:** −15.0 LUFS integrated, true peak −1.9 dBTP, LRA 2.2 LU, flat factor 0. Stems: voice −20.8, music −31.6, foley
+  −35.7 LUFS.
+- **ASR of the final mix (Whisper base.en):** whole-mix transcript matches the script except "Werbens" → "Wurbens". Line
+  windows L1–L7 are full; L8 is 6/7 ("Warbins"). ASR only, no human listen.
+- **DOM, every frame (900):** caption ink x 166–834 / y 369–489; pill x 136–864 / y 353–507; headline 13 frames x 128–872 /
+  y 330–652; labels x 146–854 / y 574–1456. 0 headline conflicts, 0 outside, 0 overlaps, 0 in y < 300, never two big labels.
+- **In-world text:** the ROOM chip ends at x ≈ 877 at most (full-size crops of frames 250, 400, 540).
+- **Visual review:** the transition sheet (30 beats), the contact sheet and frame 0 were inspected. No empty frames, no stray
+  props under the CTA tile, no missing assets.
+- **Render 1 was rejected after frame review:** ~0.3 s of near-empty frames at 3.7–3.9 s on the move to the plinths. The proof
+  set was moved closer (X2 0.5 → 0.42, `src/scene.js`) and render 2 is the delivered file.
+- **Earlier outputs:** 19 earlier MP4s were re-hashed and are unchanged; nothing earlier was overwritten.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 16 was finished; re-read CLAUDE.md and 05-progress; read the topic history.
+2. Sources: Crossref (abstract + DOIs), publisher page for Pracejus et al. (abstract summary only).
+3. app.werbens.com re-inspection (`tools/app.cjs`, `tools/appwm.cjs` → `appweb-dl-1115c`).
+4. Project created from the english-16 skeleton (`src/` tools, fonts, node_modules); outputs, QA and words.json not copied.
+5. `node src/tts.mjs` (2 passes) → `node src/words.mjs` → `node src/words_fix.mjs`.
+6. Stills (6 passes, `node src/render.mjs --stills … --scale 0.5`):
+   - headline touching the shelf top → camera retargeted;
+   - lone bottle not distinct at frame 0 → stronger spot, forward placement, crowd body slightly greyer;
+   - close plinth shot cut the ROOM display and put its chip at x ≈ 923 → displays tightened, camera widened;
+   - store arch top touching the MORE PRESTIGE / SPACE ITSELF labels → arch and columns lowered;
+   - near-empty frame at 26.45 s → CTA tile starts at 26.38 s.
+7. `node src/audio.mjs` → `node src/qa_dom.mjs 3` (PASS) → checkpoint commit e7b9d44.
+8. `node src/render.mjs --video` → ffmpeg mux → `node src/render.mjs --thumb --stills 0 --out build/thumb` → `bash qa.sh` →
+   `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english17-01.mp4`.
+9. Render 1 review → X2 0.5 → 0.42 (stills 3.6–4.25 s, 18.7–19.0 s) → render 2 (720.2 s) → mux → thumbnail → `bash qa.sh` →
+   `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english17-01.mp4`, all PASS (§9).
+10. QA.md written; context/05 marked delivered; committed and pushed; MP4 + thumbnail attached in chat.
+
+Next step: none for this batch (one episode only; no automation).
