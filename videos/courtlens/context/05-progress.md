@@ -4,6 +4,71 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-15 (english-16, batch 16): "Their city, or yours?": file a consumer complaint where you live
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at 6b7b006. Batch 15 was finished and was
+  not repeated.
+- The proposed topic (a shop refusing a refund for a defective product) duplicates Episodes 01 and 04, so a fresh
+  same-genre topic was chosen. Record: `context/episodes/2026-11-15-english16-consumer-court-your-city.md`.
+- A usage-limit pause and a worker restart happened mid-research. Work resumed from the scratchpad
+  (`$S/legal16`), with nothing lost.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-15-english-16/notes/LEGAL-SOURCES.md`)
+- **CPA 2019:**
+  - s.34(2)(d): file where the complainant resides or personally works for gain
+  - s.35(1)(a): the consumer files, and may file electronically
+  - s.39(1): remove the defect, replace, refund with interest, compensation
+  - s.69: two years, with condonation possible
+- **Jurisdiction Rules 2021:** District Commission up to ₹50 lakh.
+- **NCDRC Procedure Regulations 2020, reg. 3(4):** appear in person, through an agent or through counsel.
+- **PIB 23 Dec 2025:** e-Jagriti (from 1 Jan 2025) is operational in all states and UTs.
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - your home in front, their HQ tower far away, YOURS/THEIRS pins
+  - "THEIR CITY, OR YOURS?"
+  - the pins bounce on their words; voice at 0.05 s
+- **Beats:**
+  - phone cracks, NO REPLY, ANOTHER STATE
+  - the CPA stamp
+  - a commission rises by your home while the tower fades ("WHERE YOU LIVE")
+  - the generic e-Jagriti form: FILE → FILED ✓
+  - YOU vs LAWYER "OPTIONAL"
+  - a 2-year bar with a PROBLEM pin
+  - four remedy tiles
+  - bill + replies → folder → district commission
+  - CTA
+- Mix gain is 6.8 dB (−16.5 LUFS measured at 6.3 dB on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-15-english-16/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st16 <times>
+node render.cjs thumb .. courtlens-30s-english16-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build16 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english16-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english16-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Frame zero:** the pins were missing (they popped in later), so they are now present at t=0 and bounce on their
+  words. Frame 0 now equals the thumbnail composition.
+- **"THEIRS" label:** it touched the series chip, so the tower moved right.
+- **YOU/LAWYER labels:** they were overlapped by the figures' legs, so they moved down.
+- **Evidence folder:** it flew into the caption band, so it now scales about its own centre and lands on the
+  commission.
+- **Narration:** trimmed from 28.9 s to 27.4 s of speech. "Keep the bill and every reply" became "Keep your bill, and
+  every reply," (ASR heard "in").
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build16/frames`.
+
 ## Round 2026-11-15 (english-15): can your employer keep your original certificates? (one Madras HC case)
 
 ### Status

@@ -1,0 +1,182 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 1.45
+  },
+  {
+   "id": "l3",
+   "start": 5.25
+  },
+  {
+   "id": "l4",
+   "start": 9.55
+  },
+  {
+   "id": "l5",
+   "start": 14.55
+  },
+  {
+   "id": "l6",
+   "start": 17.65
+  },
+  {
+   "id": "l7",
+   "start": 22.45
+  },
+  {
+   "id": "l8",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.4,
+   "text": "THEIR CITY, OR YOURS?",
+   "hl": [
+    "YOURS?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 1.4,
+   "end": 5.2,
+   "text": "Faulty phone, no reply, and the company's in another state.",
+   "hl": [
+    "another",
+    "state."
+   ]
+  },
+  {
+   "start": 5.2,
+   "end": 7.3,
+   "text": "Under the Consumer Protection Act,",
+   "hl": [
+    "Consumer",
+    "Protection",
+    "Act,"
+   ]
+  },
+  {
+   "start": 7.3,
+   "end": 9.5,
+   "text": "you can file where you live or work.",
+   "hl": [
+    "where",
+    "you",
+    "live"
+   ]
+  },
+  {
+   "start": 9.5,
+   "end": 12.75,
+   "text": "File it yourself on e-Jagriti, and appear in person.",
+   "hl": [
+    "yourself"
+   ]
+  },
+  {
+   "start": 12.75,
+   "end": 14.5,
+   "text": "A lawyer is optional.",
+   "hl": [
+    "optional."
+   ]
+  },
+  {
+   "start": 14.5,
+   "end": 17.6,
+   "text": "The deadline: two years from when the problem arose.",
+   "hl": [
+    "two",
+    "years"
+   ]
+  },
+  {
+   "start": 17.6,
+   "end": 19.62,
+   "text": "The commission can order a repair,",
+   "hl": [
+    "repair,"
+   ]
+  },
+  {
+   "start": 19.62,
+   "end": 22.4,
+   "text": "replacement, refund or compensation.",
+   "hl": [
+    "replacement,",
+    "refund"
+   ]
+  },
+  {
+   "start": 22.4,
+   "end": 24.45,
+   "text": "Keep your bill, and every reply,",
+   "hl": [
+    "every",
+    "reply,"
+   ]
+  },
+  {
+   "start": 24.45,
+   "end": 26.75,
+   "text": "then file with your district commission.",
+   "hl": [
+    "district",
+    "commission."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "pinHQ": 0.3,
+  "pinHome": 0.82,
+  "v2c": 1.4,
+  "phone": 1.95,
+  "noreply": 2.65,
+  "state": 4.25,
+  "v3": 5.2,
+  "stamp": 5.75,
+  "sub": 6.55,
+  "v3b": 7.3,
+  "near": 8.3,
+  "v4": 9.5,
+  "screen": 9.6,
+  "file": 10.6,
+  "filed": 11.2,
+  "inperson": 12.0,
+  "v4b": 12.75,
+  "optional": 13.6,
+  "v5": 14.5,
+  "bar": 15.5,
+  "problem": 16.45,
+  "v6": 17.6,
+  "r1": 18.9,
+  "r2": 19.65,
+  "r3": 20.7,
+  "r4": 21.35,
+  "v7": 22.4,
+  "bill": 22.9,
+  "replies": 23.75,
+  "fly": 25.55,
+  "v8": 26.75
+ }
+}
