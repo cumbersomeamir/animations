@@ -1,0 +1,76 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 27.3,
+  "words": 78,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Same sack. Which weight?",
+      "start": 0.1,
+      "phonemes": "sˈeɪm sˈæk. wˌɪtʃ wˈeɪt?",
+      "duration": 1.436,
+      "end": 1.536
+    },
+    {
+      "id": "L2",
+      "text": "One kilo short on fifty is two percent of your money.",
+      "start": 1.84,
+      "phonemes": "wˈʌn kˈiːloʊ ʃˈɔːɹt ˌɔn fˈɪfti ɪz tˈuː pɚsˈɛnt ʌv jʊɹ mˈʌni.",
+      "duration": 3.2,
+      "end": 5.04
+    },
+    {
+      "id": "L3",
+      "text": "By law, a scale used in trade must be verified and stamped.",
+      "start": 5.32,
+      "phonemes": "baɪ lˈɔː, ɐ skˈeɪl jˈuːzd ɪn tɹˈeɪd mˈʌst biː vˈɛɹᵻfˌaɪd ænd stˈæmpt.",
+      "duration": 3.477,
+      "end": 8.797
+    },
+    {
+      "id": "L4",
+      "text": "Check the stamp's year, the certificate, and the verified test weights traders must keep.",
+      "start": 9.08,
+      "phonemes": "tʃˈɛk ðə stˈæmps jˈɪɹ, ðə sɚtˈɪfɪkət, ænd ðə vˈɛɹᵻfˌaɪd tˈɛst wˈeɪts tɹˈeɪdɚz mˈʌst kˈiːp.",
+      "duration": 5.005,
+      "end": 14.085
+    },
+    {
+      "id": "L5",
+      "text": "Say 500 kilos sell for ₹15,000; after buying and transport, ₹900 is left.",
+      "tts": "Say five hundred kilos sell for fifteen thousand rupees; after buying and transport, nine hundred is left.",
+      "start": 14.36,
+      "phonemes": "sˈeɪ fˈaɪv hˈʌndɹɪd kˈiːloʊz sˈɛl fɔːɹ fˈɪftiːn θˈaʊzənd ɹˈuːpiːz; ˈæftɚ bˈaɪɪŋ ænd tɹˈænspɔːɹt, nˈaɪn hˈʌndɹɪd ɪz lˈɛft.",
+      "duration": 7.135,
+      "end": 21.495
+    },
+    {
+      "id": "L6",
+      "text": "A 2% light scale takes ₹300 of that.",
+      "tts": "A two percent light scale takes three hundred of that.",
+      "start": 21.77,
+      "phonemes": "ɐ tˈuː pɚsˈɛnt lˈaɪt skˈeɪl tˈeɪks θɹˈiː hˈʌndɹɪd ʌv ðˈæt.",
+      "duration": 2.566,
+      "end": 24.336
+    },
+    {
+      "id": "L7",
+      "text": "Check the scale before you check the price.",
+      "start": 24.62,
+      "phonemes": "tʃˈɛk ðə skˈeɪl bᵻfˌɔːɹ juː tʃˈɛk ðə pɹˈaɪs.",
+      "duration": 1.996,
+      "end": 26.616
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

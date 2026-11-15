@@ -1,0 +1,28 @@
+English intelligibility and timing evidence: wastepaisa-30s-english15-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.75 | onset plan 0.10 heard 0.12 | offset plan 1.54 heard 1.53 | heard: same sack which wait
+   L2 word acc 0.91 | onset plan 1.84 heard 1.81 | offset plan 5.04 heard 5.02 | heard: one kilos short on fifty is two percent of your money
+   L3 word acc 1.00 | onset plan 5.32 heard 5.32 | offset plan 8.80 heard 8.77 | heard: by law a scale used in trade must be verified and stamped
+   L4 word acc 0.86 | onset plan 9.08 heard 9.05 | offset plan 14.09 heard 14.09 | heard: check the stamps year the certificate and the verified test weights traitors must keep
+   L5 word acc 1.00 | onset plan 14.36 heard 14.39 | offset plan 21.50 heard 21.47 | heard: say five hundred kilos sell for fifteen thousand rupees after buying and transport nine hundred is left
+   L6 word acc 1.00 | onset plan 21.77 heard 21.80 | offset plan 24.34 heard 24.32 | heard: a two percent light scale takes three hundred of that
+   L7 word acc 1.00 | onset plan 24.62 heard 24.59 | offset plan 26.62 heard 26.60 | heard: check the scale before you check the price
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.926; every onset/offset within 0.03 s of plan (reference = the TTS spelling, numbers as words; full record in
+   qa/asr-english-vosk.json)
+   Misses are homophones or normalisation: weight -> "wait", kilo -> "kilos", traders -> "traitors", "stamp's" -> "stamps"
+   (apostrophe), brand out of vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Same sack, which weight? One kilo short on 50 is 2% of your money. By law, a scale used in trade must be verified and stamped. Check the stamp's year, the certificate, and the verified test weight's traders must keep. Say 500 kilos sell for 15,000 rupees. After buying and transport, 900 is left. A 2% light scale takes 300 of that. Check the scale before you check the price. Join Waste PISAW and put your scrap to use.
+   Matches the script word for word apart from the brand spelling (and an apostrophe in "weight's").
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.49 dBFS, flat factor 0
+   (no clipped runs). The frame-0 thud is low and short; the stamp, weights and ₹300 chunk sounds sit between lines (audio/cues.json).
+
+4) Fix found by ASR: "stamped test weights" was heard as "stamp test weights" by both engines (the -ed swallowed before "test"), so L4
+   now says "verified test weights" (Rule 21's own wording is "duly verified and stamped weights"); L5-L7 moved 0.22 s later to keep
+   the gaps. Both engines now hear "verified test weights".

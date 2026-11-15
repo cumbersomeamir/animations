@@ -1,0 +1,113 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Same sack. Which weight?",
+   "heard": "same sack which wait",
+   "word_acc": 0.75,
+   "plan_on": 0.1,
+   "heard_on": 0.12,
+   "plan_off": 1.536,
+   "heard_off": 1.53,
+   "missed": [
+    [
+     "weight"
+    ]
+   ]
+  },
+  {
+   "id": "L2",
+   "ref": "One kilo short on fifty is two percent of your money.",
+   "heard": "one kilos short on fifty is two percent of your money",
+   "word_acc": 0.909,
+   "plan_on": 1.84,
+   "heard_on": 1.81,
+   "plan_off": 5.04,
+   "heard_off": 5.02,
+   "missed": [
+    [
+     "kilo"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "By law, a scale used in trade must be verified and stamped.",
+   "heard": "by law a scale used in trade must be verified and stamped",
+   "word_acc": 1.0,
+   "plan_on": 5.32,
+   "heard_on": 5.32,
+   "plan_off": 8.797,
+   "heard_off": 8.77,
+   "missed": []
+  },
+  {
+   "id": "L4",
+   "ref": "Check the stamp's year, the certificate, and the verified test weights traders must keep.",
+   "heard": "check the stamps year the certificate and the verified test weights traitors must keep",
+   "word_acc": 0.857,
+   "plan_on": 9.08,
+   "heard_on": 9.05,
+   "plan_off": 14.085,
+   "heard_off": 14.09,
+   "missed": [
+    [
+     "stamp's"
+    ],
+    [
+     "traders"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Say five hundred kilos sell for fifteen thousand rupees; after buying and transport, nine hundred is left.",
+   "heard": "say five hundred kilos sell for fifteen thousand rupees after buying and transport nine hundred is left",
+   "word_acc": 1.0,
+   "plan_on": 14.36,
+   "heard_on": 14.39,
+   "plan_off": 21.495,
+   "heard_off": 21.47,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "A two percent light scale takes three hundred of that.",
+   "heard": "a two percent light scale takes three hundred of that",
+   "word_acc": 1.0,
+   "plan_on": 21.77,
+   "heard_on": 21.8,
+   "plan_off": 24.336,
+   "heard_off": 24.32,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Check the scale before you check the price.",
+   "heard": "check the scale before you check the price",
+   "word_acc": 1.0,
+   "plan_on": 24.62,
+   "heard_on": 24.59,
+   "plan_off": 26.616,
+   "heard_off": 26.6,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

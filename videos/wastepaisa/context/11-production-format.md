@@ -59,6 +59,10 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
   show gross revenue against collection, sorting and transport costs; otherwise a clearly labelled illustrative calculation. Never
   guaranteed profit or "₹10 to lakhs" claims; no hazardous extraction instructions. Improve purposeful motion.
 - **Content references:** use a referenced post only after actually viewing it; if it can't be opened, say so and don't describe it.
+- **FIRST FRAME (2026-11-15, user rule):** no logo intro, fade from black or empty setup. Frame zero is a beautifully composed, surprising
+  subject readable on a phone, plus at most 2–5 truthful curiosity words; the first image must work as the thumbnail (english-15 renders
+  the hook caption from frame 0 and uses the same composition for the thumbnail). Hook audio starts immediately and promises a specific
+  useful answer that the episode delivers. Click-worthy never means misleading.
 
 ## User feedback log (latest overrides earlier)
 - **batch-02 (2026-11-02):** "Keep the open-lid can mascot, simplified to one clear cylinder, lid, eyes and two
@@ -129,7 +133,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     (english-11), stainless steel offcuts by grade (english-12; replaced a proposed aluminium-offcut topic that repeated hindi-03), steel scrap grades by
     thickness/rust and furnace yield (english-13; replaced a proposed cardboard 'air in your load' topic that repeated english-07's
     density lesson and feedback-05's cardboard grading). Density/baling, colour sorting, moisture and alloy content are now all taken. Hard-plastic polymer sorting by float/sink
-    and resin code (english-14; replaced a proposed clear-vs-coloured PET topic that repeated english-07).
+    and resin code (english-14; replaced a proposed clear-vs-coloured PET topic that repeated english-07); verified trade scales and
+    short weight (english-15; replaced a proposed dry-vs-wet cardboard topic that repeated feedback-05).
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

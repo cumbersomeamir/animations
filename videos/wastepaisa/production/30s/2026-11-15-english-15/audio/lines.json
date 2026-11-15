@@ -1,0 +1,10 @@
+[
+ {"id": "L1", "text": "Same sack. Which weight?", "start": 0.1},
+ {"id": "L2", "text": "One kilo short on fifty is two percent of your money.", "start": 1.84},
+ {"id": "L3", "text": "By law, a scale used in trade must be verified and stamped.", "start": 5.32},
+ {"id": "L4", "text": "Check the stamp's year, the certificate, and the verified test weights traders must keep.", "start": 9.08},
+ {"id": "L5", "text": "Say 500 kilos sell for ₹15,000; after buying and transport, ₹900 is left.", "tts": "Say five hundred kilos sell for fifteen thousand rupees; after buying and transport, nine hundred is left.", "start": 14.36},
+ {"id": "L6", "text": "A 2% light scale takes ₹300 of that.", "tts": "A two percent light scale takes three hundred of that.", "start": 21.77},
+ {"id": "L7", "text": "Check the scale before you check the price.", "start": 24.62},
+ {"id": "L8", "text": "Join WastePaisa and put your scrap to use.", "start": 27.2}
+]

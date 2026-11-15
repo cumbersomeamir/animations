@@ -1,0 +1,57 @@
+{
+ "sfx_cues": [
+  [
+   0.0,
+   "sacks settle at frame 0 (low thud, before \"Same\")"
+  ],
+  [
+   1.6,
+   "the light scale beeps (between lines)"
+  ],
+  [
+   5.1,
+   "to the law scene (between lines)"
+  ],
+  [
+   8.85,
+   "VERIFIED stamp (after \"stamped\")"
+  ],
+  [
+   13.9,
+   "test weights read true (after the line)"
+  ],
+  [
+   14.2,
+   "EXAMPLE tag (before \"Say\")"
+  ],
+  [
+   21.54,
+   "LEFT \u20b9900 (after the line)"
+  ],
+  [
+   24.4,
+   "the \u20b9300 chunk drops (after the line)"
+  ],
+  [
+   26.67,
+   "price tag after the check (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.40",
+  "input_tp": "-3.08",
+  "input_lra": "3.10",
+  "input_thresh": "-27.92",
+  "output_i": "-15.39",
+  "output_tp": "-1.50",
+  "output_lra": "3.50",
+  "output_thresh": "-25.90",
+  "normalization_type": "dynamic",
+  "target_offset": "0.39"
+ }
+}

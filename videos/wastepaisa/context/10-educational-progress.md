@@ -397,6 +397,25 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixed during QA:** empty first frame, overlapping density labels, bags at the right edge, hidden GAP label, a near-empty rates beat,
   and a bar accidentally disabled by an edit (caught in frame review, re-rendered).
 
+## english-15 (2026-11-15-english-15) episode 01: COMPLETE (English)
+- **Topic:** the proposed dry-vs-wet cardboard "mistake" topic was already feedback-05 (moisture deduction, contamination downgrade, sorted
+  vs unsorted net). Replacement with the same story criteria and an equally strong opening: the weighing part of the brief. The same
+  sack reads 50.0 vs 49.0 kg; 1 kg in 50 = 2 %; trade scales must be verified and stamped; check the stamp's year, the certificate and
+  the verified test weights; an illustrative load where a 2 % light scale takes ₹300 of a ₹900 profit.
+- **First-frame rule (new, 2026-11-15):** frame 0 is the composed hook (two sacks, two readouts) with "Same sack. Which weight?" on screen
+  and the voice at 0.10 s; the thumbnail is the same composition. Saved in context 11.
+- **Output:** `videos/wastepaisa/production/30s/2026-11-15-english-15/wastepaisa-30s-english15-01.mp4`,
+  SHA-256 `640ddc89b7d0a03f99c8f47282343f03afd0c4f9db27eca586d39071abb006e5`; thumbnail `wastepaisa-30s-english15-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:** caption ink x 117.9–882.1, y 343–517, hook caption at frame 0; timing within ±0.03 s; Vosk mean 0.926 (homophones,
+  apostrophes, brand); Whisper word for word apart from the brand. ASR and meters only: no listening in the cloud.
+- **Research:** Legal Metrology Act 2009 s.24; Delhi Weights & Measures FAQs 38/42 (stamp shows officer ID, year, quarter; certificate
+  displayed, with next due date and MPE; Rule 21 verified test weights = one-tenth of capacity; complaints). Illustrative load: ₹15,000
+  sale − ₹13,500 buying − ₹600 transport = ₹900; −₹300 for a 2 % light scale. Episode record: `context/28-english-15-01.md`. No automation.
+- **Fixed during QA:** "stamped test weights" (ASR) → "verified test weights" with re-timing; small scales enlarged; one caption group
+  split to stay inside x 100–900; an empty beat at the start of the example filled.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
