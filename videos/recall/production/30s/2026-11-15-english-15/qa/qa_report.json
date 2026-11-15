@@ -1,0 +1,425 @@
+{
+  "file": "production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "3671567"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "192553"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 14525249,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 2.4,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8388020396232605,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Where's this water from? It isn't leaking. The drink is orange, but the drops are clear. The air around you contains invisible water vapor. Near the icy glass, that air cools below its dew point. Vapor molecules then stick to the cold glass faster than they escape, forming drops. More humid air means more vapor, so muggy days mean a sweatier glass. An insulated cup stays dry. Its outer wall doesn't get that cold. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "Where's",
+        "t": 0.0
+      },
+      {
+        "w": "this",
+        "t": 0.2
+      },
+      {
+        "w": "water",
+        "t": 0.32
+      },
+      {
+        "w": "from?",
+        "t": 0.54
+      },
+      {
+        "w": "It",
+        "t": 1.4
+      },
+      {
+        "w": "isn't",
+        "t": 1.42
+      },
+      {
+        "w": "leaking.",
+        "t": 1.66
+      },
+      {
+        "w": "The",
+        "t": 2.46
+      },
+      {
+        "w": "drink",
+        "t": 2.46
+      },
+      {
+        "w": "is",
+        "t": 2.64
+      },
+      {
+        "w": "orange,",
+        "t": 2.84
+      },
+      {
+        "w": "but",
+        "t": 3.2
+      },
+      {
+        "w": "the",
+        "t": 3.58
+      },
+      {
+        "w": "drops",
+        "t": 3.66
+      },
+      {
+        "w": "are",
+        "t": 3.94
+      },
+      {
+        "w": "clear.",
+        "t": 4.2
+      },
+      {
+        "w": "The",
+        "t": 5.1
+      },
+      {
+        "w": "air",
+        "t": 5.12
+      },
+      {
+        "w": "around",
+        "t": 5.28
+      },
+      {
+        "w": "you",
+        "t": 5.64
+      },
+      {
+        "w": "contains",
+        "t": 5.84
+      },
+      {
+        "w": "invisible",
+        "t": 6.36
+      },
+      {
+        "w": "water",
+        "t": 7.02
+      },
+      {
+        "w": "vapor.",
+        "t": 7.48
+      },
+      {
+        "w": "Near",
+        "t": 8.36
+      },
+      {
+        "w": "the",
+        "t": 8.54
+      },
+      {
+        "w": "icy",
+        "t": 8.72
+      },
+      {
+        "w": "glass,",
+        "t": 8.88
+      },
+      {
+        "w": "that",
+        "t": 9.74
+      },
+      {
+        "w": "air",
+        "t": 9.88
+      },
+      {
+        "w": "cools",
+        "t": 10.04
+      },
+      {
+        "w": "below",
+        "t": 10.52
+      },
+      {
+        "w": "its",
+        "t": 10.74
+      },
+      {
+        "w": "dew",
+        "t": 10.94
+      },
+      {
+        "w": "point.",
+        "t": 11.12
+      },
+      {
+        "w": "Vapor",
+        "t": 11.96
+      },
+      {
+        "w": "molecules",
+        "t": 12.1
+      },
+      {
+        "w": "then",
+        "t": 12.62
+      },
+      {
+        "w": "stick",
+        "t": 13.2
+      },
+      {
+        "w": "to",
+        "t": 13.48
+      },
+      {
+        "w": "the",
+        "t": 13.68
+      },
+      {
+        "w": "cold",
+        "t": 13.76
+      },
+      {
+        "w": "glass",
+        "t": 13.98
+      },
+      {
+        "w": "faster",
+        "t": 14.38
+      },
+      {
+        "w": "than",
+        "t": 14.7
+      },
+      {
+        "w": "they",
+        "t": 15.14
+      },
+      {
+        "w": "escape,",
+        "t": 15.28
+      },
+      {
+        "w": "forming",
+        "t": 16.12
+      },
+      {
+        "w": "drops.",
+        "t": 16.4
+      },
+      {
+        "w": "More",
+        "t": 17.58
+      },
+      {
+        "w": "humid",
+        "t": 17.58
+      },
+      {
+        "w": "air",
+        "t": 17.82
+      },
+      {
+        "w": "means",
+        "t": 18.22
+      },
+      {
+        "w": "more",
+        "t": 18.42
+      },
+      {
+        "w": "vapor,",
+        "t": 18.7
+      },
+      {
+        "w": "so",
+        "t": 19.52
+      },
+      {
+        "w": "muggy",
+        "t": 19.7
+      },
+      {
+        "w": "days",
+        "t": 19.98
+      },
+      {
+        "w": "mean",
+        "t": 20.16
+      },
+      {
+        "w": "a",
+        "t": 20.44
+      },
+      {
+        "w": "sweatier",
+        "t": 20.56
+      },
+      {
+        "w": "glass.",
+        "t": 20.94
+      },
+      {
+        "w": "An",
+        "t": 22.0
+      },
+      {
+        "w": "insulated",
+        "t": 22.02
+      },
+      {
+        "w": "cup",
+        "t": 22.46
+      },
+      {
+        "w": "stays",
+        "t": 22.76
+      },
+      {
+        "w": "dry.",
+        "t": 23.1
+      },
+      {
+        "w": "Its",
+        "t": 24.1
+      },
+      {
+        "w": "outer",
+        "t": 24.16
+      },
+      {
+        "w": "wall",
+        "t": 24.34
+      },
+      {
+        "w": "doesn't",
+        "t": 24.66
+      },
+      {
+        "w": "get",
+        "t": 25.06
+      },
+      {
+        "w": "that",
+        "t": 25.18
+      },
+      {
+        "w": "cold.",
+        "t": 25.38
+      },
+      {
+        "w": "Download",
+        "t": 25.66
+      },
+      {
+        "w": "Recall",
+        "t": 26.58
+      },
+      {
+        "w": "to",
+        "t": 27.14
+      },
+      {
+        "w": "turn",
+        "t": 27.72
+      },
+      {
+        "w": "your",
+        "t": 27.9
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.62
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 203.2003173828125,
+    "right": 876.7996826171875,
+    "top": 341.5,
+    "bottom": 565
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.032,
+    "min_frame_diff": 0.0346,
+    "longest_static_run_frames": 11,
+    "max_frame_diff": 84.45,
+    "max_diff_at_s": 5.0
+  },
+  "luma_min_mean_max": [
+    106.2,
+    142.2,
+    173.0
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

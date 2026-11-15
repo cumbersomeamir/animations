@@ -1,0 +1,90 @@
+{
+  "cues": {
+    "drip": 0.0,
+    "wipe": 1.9,
+    "wipeEnd": 2.8,
+    "orangeTag": 2.0,
+    "clearTag": 3.15,
+    "vapor": 5.2,
+    "cool": 8.6,
+    "stick": 12.1,
+    "grow": 12.4,
+    "humid": 17.6,
+    "cupIn": 22.0,
+    "lift": 24.1,
+    "cta": 26.35,
+    "smile": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_glass",
+      "t0": 0,
+      "t1": 4.98
+    },
+    {
+      "id": "giant_air",
+      "t0": 4.98,
+      "t1": 8.33
+    },
+    {
+      "id": "giant_cool",
+      "t0": 8.33,
+      "t1": 11.88
+    },
+    {
+      "id": "giant_stick",
+      "t0": 11.88,
+      "t1": 17.38
+    },
+    {
+      "id": "giant_humid",
+      "t0": 17.38,
+      "t1": 21.88
+    },
+    {
+      "id": "payoff_cup",
+      "t0": 21.88,
+      "t1": 26.35
+    },
+    {
+      "id": "cafe_wide",
+      "t0": 26.35,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.05
+    },
+    {
+      "id": "l02",
+      "start": 1.35
+    },
+    {
+      "id": "l03",
+      "start": 5.05
+    },
+    {
+      "id": "l04",
+      "start": 8.4
+    },
+    {
+      "id": "l05",
+      "start": 11.95
+    },
+    {
+      "id": "l06",
+      "start": 17.45
+    },
+    {
+      "id": "l07",
+      "start": 21.95
+    },
+    {
+      "id": "l08",
+      "start": 26.45
+    }
+  ]
+}

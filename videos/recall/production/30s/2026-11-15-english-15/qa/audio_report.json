@@ -1,0 +1,164 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.62,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.04,
+      "text": "Where's this water from?",
+      "words": 4,
+      "words_per_s": 4.04,
+      "voice_over_bed_db": 20.6
+    },
+    {
+      "id": "l02",
+      "start": 1.35,
+      "end": 4.717,
+      "text": "It isn't leaking: the drink is orange, but the drops are clear.",
+      "words": 12,
+      "words_per_s": 3.56,
+      "voice_over_bed_db": 17.1
+    },
+    {
+      "id": "l03",
+      "start": 5.05,
+      "end": 8.094,
+      "text": "The air around you contains invisible water vapor.",
+      "words": 8,
+      "words_per_s": 2.63,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l04",
+      "start": 8.4,
+      "end": 11.622,
+      "text": "Near the icy glass, that air cools below its dew point.",
+      "words": 11,
+      "words_per_s": 3.41,
+      "voice_over_bed_db": 18.0
+    },
+    {
+      "id": "l05",
+      "start": 11.95,
+      "end": 17.139,
+      "text": "Vapor molecules then stick to the cold glass faster than they escape, forming drops.",
+      "words": 14,
+      "words_per_s": 2.7,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l06",
+      "start": 17.45,
+      "end": 21.635,
+      "text": "More humid air means more vapor, so muggy days mean a sweatier glass.",
+      "words": 13,
+      "words_per_s": 3.11,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l07",
+      "start": 21.95,
+      "end": 26.001,
+      "text": "An insulated cup stays dry: its outer wall doesn't get that cold.",
+      "words": 12,
+      "words_per_s": 2.96,
+      "voice_over_bed_db": 16.4
+    },
+    {
+      "id": "l08",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 83,
+  "speech_s": 27.33,
+  "overall_words_per_s": 2.77,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "ice clinks in the glass (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.05,
+      "beat": 0.1,
+      "sfx": "soft fizz"
+    },
+    {
+      "t": 1.9,
+      "beat": 3.8,
+      "sfx": "drip runs down"
+    },
+    {
+      "t": 4.72,
+      "beat": 9.44,
+      "sfx": "cut to the giant glass wall (ends before l03)"
+    },
+    {
+      "t": 5.6,
+      "beat": 11.2,
+      "sfx": "vapor molecules zing"
+    },
+    {
+      "t": 8.6,
+      "beat": 17.2,
+      "sfx": "air cools near the glass"
+    },
+    {
+      "t": 12.4,
+      "beat": 24.8,
+      "sfx": "molecules stick: drops grow"
+    },
+    {
+      "t": 17.6,
+      "beat": 35.2,
+      "sfx": "muggy air"
+    },
+    {
+      "t": 18.4,
+      "beat": 36.8,
+      "sfx": "more drops"
+    },
+    {
+      "t": 21.6,
+      "beat": 43.2,
+      "sfx": "cut to the cups (ends before l07)"
+    },
+    {
+      "t": 22.4,
+      "beat": 44.8,
+      "sfx": "tumbler lid"
+    },
+    {
+      "t": 24.1,
+      "beat": 48.2,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.65,
+      "beat": 53.3,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.429,
+  "voice_gain": 1.0
+}
