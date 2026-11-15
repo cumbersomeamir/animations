@@ -1,0 +1,66 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "One step can stop a wheelchair. Here's the fix.",
+   "dur": 2.698,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "So how gentle must the ramp be?",
+   "dur": 1.712,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "India's accessibility standard: at most 1 in 12 for short ramps.",
+   "tts": "India's accessibility standard: at most one in twelve for short ramps.",
+   "dur": 4.294,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Every centimetre up needs twelve centimetres along.",
+   "dur": 2.93,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "A fifteen-centimetre step needs about 1.8 metres of ramp.",
+   "tts": "A fifteen-centimetre step needs about one point eight metres of ramp.",
+   "dur": 4.191,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "With handrails, a non-slip surface and a level landing.",
+   "dur": 3.209,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Giving a wheelchair? Check the doorstep: funding a proper ramp may be the real gift.",
+   "dur": 4.835,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

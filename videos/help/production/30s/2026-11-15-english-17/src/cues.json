@@ -1,0 +1,24 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.1, 3.1, 5.1, 9.7, 12.95, 17.45, 21.0, 27.1],
+ "scenes": {
+  "A_hook_step": [0.0, 2.95],
+  "B_how_gentle": [2.95, 4.95],
+  "C_standard": [4.95, 9.55],
+  "D_one_in_twelve": [9.55, 12.8],
+  "E_fifteen_cm": [12.8, 17.3],
+  "F_details": [17.3, 20.85],
+  "G_payoff": [20.85, 26.9],
+  "I_cta": [26.9, 30.0]
+ },
+ "cues": {
+  "bump": 0.85, "gentle": 3.25, "steep": 3.5,
+  "std": 5.6, "one": 7.6, "twelve": 7.9,
+  "along": 11.2,
+  "step15": 13.0, "unroll": 14.7, "metres": 15.3,
+  "rail": 17.55, "slip": 18.6, "landing": 19.8,
+  "check": 22.2, "fund": 23.5, "rollUp": 23.5, "open": 25.0, "done": 26.0,
+  "logo": 27.0, "lucknow": 28.2, "dimEnd": 29.3
+ },
+ "notes": "Story map (first-frame rule): frame 0 = close-up of a wheelchair user at one step + ONE STEP. ZERO ACCESS., lamps full, voice at 0.1 s; 0-2.95 hook, 2.95-4.95 escalation/question, 4.95-20.85 proof (to-scale 1-in-12 diagram, 15 cm step -> ~1.8 m ramp, handrails/non-slip/landing), 20.85-26.9 payoff, 26.9-30 CTA. World scale 4 px/cm. Tick SFX only in pauses; nothing under the first word."
+}

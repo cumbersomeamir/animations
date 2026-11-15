@@ -1,0 +1,148 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 30,
+ "extent": {
+  "x0": 129,
+  "x1": 871,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "One step can stop / a wheelchair.",
+   "fs": 56,
+   "x0": 251,
+   "x1": 749,
+   "y0": 378,
+   "y1": 484,
+   "firstFrame": 27
+  },
+  {
+   "text": "Here's the fix.",
+   "fs": 66,
+   "x0": 271,
+   "x1": 729,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 71
+  },
+  {
+   "text": "So how gentle / must the ramp be?",
+   "fs": 56,
+   "x0": 243,
+   "x1": 757,
+   "y0": 378,
+   "y1": 495,
+   "firstFrame": 118
+  },
+  {
+   "text": "India's accessibility / standard:",
+   "fs": 56,
+   "x0": 224,
+   "x1": 776,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 181
+  },
+  {
+   "text": "at most 1 in 12 / for short ramps.",
+   "fs": 56,
+   "x0": 276,
+   "x1": 724,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 250
+  },
+  {
+   "text": "Every centimetre up needs / twelve centimetres along.",
+   "fs": 56,
+   "x0": 129,
+   "x1": 871,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 335
+  },
+  {
+   "text": "A fifteen-centimetre / step",
+   "fs": 56,
+   "x0": 216,
+   "x1": 784,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 411
+  },
+  {
+   "text": "needs about 1.8 / metres of ramp.",
+   "fs": 56,
+   "x0": 280,
+   "x1": 720,
+   "y0": 378,
+   "y1": 495,
+   "firstFrame": 477
+  },
+  {
+   "text": "With handrails, a / non-slip surface",
+   "fs": 56,
+   "x0": 266,
+   "x1": 734,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 552
+  },
+  {
+   "text": "and a level landing.",
+   "fs": 66,
+   "x0": 186,
+   "x1": 814,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 605
+  },
+  {
+   "text": "Giving a wheelchair?",
+   "fs": 66,
+   "x0": 160,
+   "x1": 840,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 643
+  },
+  {
+   "text": "Check the doorstep:",
+   "fs": 66,
+   "x0": 168,
+   "x1": 832,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 682
+  },
+  {
+   "text": "funding a proper ramp / may be the real gift.",
+   "fs": 56,
+   "x0": 193,
+   "x1": 807,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 744
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

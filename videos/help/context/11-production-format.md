@@ -276,3 +276,11 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
   rule). Draw frames as bars and give readable plates a plain (non-multiplied) fill.
 - Word every count against the source: "most proofs of address" overstated the list → "many" (re-voiced and re-rendered).
 
+## Update 2026-11-15 (batch 17) — english-17 lessons
+- Topic gate: wheelchair access / doorstep ramps (1 in 12) covered by english-17.
+- For a "giant" first-frame subject that is small in reality (a 15 cm step), push the camera on the subject (1.4×), light it with a warm spot and keep
+  the plaque clear of heads — compute the head's screen position from the camera before rendering.
+- Draw quantities to one world scale (english-17: 4 px/cm) when the lesson is a ratio; the flat 1:12 wedge *is* the explanation.
+- Indian standards: Public.Resource.Org's Internet Archive copies of BIS standards are readable when gov.in hosts are not; never bypass TLS failures
+  on gov hosts (divyangjan.depwd.gov.in, mowr.nic.in, financialservices.gov.in) — use another primary text or drop the claim.
+

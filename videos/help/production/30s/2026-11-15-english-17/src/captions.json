@@ -1,0 +1,124 @@
+{
+ "cards": [
+  {
+   "a": 0.07,
+   "lines": [
+    "One step can stop a wheelchair."
+   ],
+   "timing": "asr",
+   "b": 1.76
+  },
+  {
+   "a": 1.83,
+   "lines": [
+    "Here's the fix."
+   ],
+   "timing": "asr",
+   "b": 2.9
+  },
+  {
+   "a": 2.97,
+   "lines": [
+    "So how gentle must the ramp be?"
+   ],
+   "timing": "asr",
+   "b": 4.91
+  },
+  {
+   "a": 4.98,
+   "lines": [
+    "India's accessibility standard:"
+   ],
+   "timing": "asr",
+   "b": 7.1
+  },
+  {
+   "a": 7.17,
+   "lines": [
+    "at most 1 in 12 for short ramps."
+   ],
+   "timing": "asr",
+   "b": 9.5
+  },
+  {
+   "a": 9.57,
+   "lines": [
+    "Every centimetre up needs twelve centimetres along."
+   ],
+   "timing": "asr",
+   "b": 12.77
+  },
+  {
+   "a": 12.84,
+   "lines": [
+    "A fifteen-centimetre step"
+   ],
+   "timing": "asr (aligned 6/9 words)",
+   "b": 14.54
+  },
+  {
+   "a": 14.61,
+   "lines": [
+    "needs about 1.8 metres of ramp."
+   ],
+   "timing": "asr (aligned 6/9 words)",
+   "b": 17.21
+  },
+  {
+   "a": 17.28,
+   "lines": [
+    "With handrails, a non-slip surface"
+   ],
+   "timing": "asr (dropped extra token 'non')",
+   "b": 19.49
+  },
+  {
+   "a": 19.56,
+   "lines": [
+    "and a level landing."
+   ],
+   "timing": "asr (dropped extra token 'non')",
+   "b": 20.78
+  },
+  {
+   "a": 20.85,
+   "lines": [
+    "Giving a wheelchair?"
+   ],
+   "timing": "asr (aligned 13/15 words)",
+   "b": 22.04
+  },
+  {
+   "a": 22.11,
+   "lines": [
+    "Check the doorstep:"
+   ],
+   "timing": "asr (aligned 13/15 words)",
+   "b": 23.33
+  },
+  {
+   "a": 23.4,
+   "lines": [
+    "funding a proper ramp may be the real gift."
+   ],
+   "timing": "asr (aligned 13/15 words)",
+   "b": 26.185
+  },
+  {
+   "a": 26.97,
+   "lines": [
+    "To donate essentials in Lucknow,"
+   ],
+   "timing": "asr",
+   "b": 28.67
+  },
+  {
+   "a": 28.74,
+   "lines": [
+    "download Help."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}

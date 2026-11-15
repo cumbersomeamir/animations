@@ -154,3 +154,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-15 (batch 16) — english-16, 30 s #01 (English; "No address, no access?" — Aadhaar address certificate) — DONE
 - Output `videos/help/production/30s/2026-11-15-english-16/help-30s-english16-01.mp4`, SHA-256 `aa258415ebb7acb5d7c6c6a0c29412bbc45e9e9d3ec19268a06f33f6af75b7aa`; thumbnail `help-30s-english16-thumbnail.png`.
 - Topic + production notes: `29-production-30s-english16-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-15, batch 16). No automation created.
+
+## 2026-11-15 (batch 17) — english-17, 30 s #01 (English; "One step. Zero access." — 1-in-12 ramps) — DONE
+- Output `videos/help/production/30s/2026-11-15-english-17/help-30s-english17-01.mp4`, SHA-256 `b1463217e515bc69c1d630f426ec9808c2826cc1fc19895e94227a6ddd664fe5`; thumbnail `help-30s-english17-thumbnail.png`.
+- Topic + production notes: `30-production-30s-english17-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-15, batch 17). No automation created.
