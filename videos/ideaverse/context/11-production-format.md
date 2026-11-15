@@ -242,3 +242,11 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Proposed topic (robot vacuum: avoids a sock, still eats a cable) is new → used. Model-specific capabilities are taken only
   from manufacturers' own support pages; the episode shows one demonstration per beat (camera boxes, laser points).
 - Caption checker (since english-13) fails if caption TEXT leaves x 100..900, not only the pill.
+
+## Batch 2026-11-15-english-15 — 2026-11-11 rules retained + first-frame rule
+- First frame: no logo/fade/empty setup; frame 0 = the finished composition (dark room, bright phone photo) + at most 2–5
+  truthful curiosity words (IT WAS THIS DARK?), usable as the thumbnail.
+- Proposed topic (camera menu translation) repeats round02-01 (photo OCR + menu ES → EN) → replaced by Night Sight
+  (burst + alignment + averaging + neural denoise; moving subjects blur). Mechanism attributed to Pixel's documented Night
+  Sight only; generic phone UI labelled EXAMPLE; Ideaverse CTA kept separate (lights-up cut).
+
