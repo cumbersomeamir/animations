@@ -4,6 +4,68 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-15 (english-17, batch 17): "30 grams missing. Legal?": short net quantity in a sealed pack
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at d9f80f0. Batch 16 was delivered and is
+  not repeated.
+- The proposed topic (a delivery app charging above MRP) repeats Episode 02's MRP ceiling and overlaps Episode 05's
+  checkout instrument, so a fresh same-genre question was chosen. Record:
+  `context/episodes/2026-11-15-english17-short-weight-pack.md`.
+- A worker restart and a "Try again" happened mid-research. Work resumed from the scratchpad, with nothing lost.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-15-english-17/notes/LEGAL-SOURCES.md`)
+- **Packaged Commodities Rules 2011** (DoCA Gazette scan):
+  - r.6(1)(c): net quantity = the commodity contained in the package
+  - First Schedule Table I: 500–1000 g → maximum permissible error 15 g
+  - r.21: a complaint triggers a test at the retailer; short beyond the error → seize and act against the dealer;
+    "when packed" proviso for environmental loss; within the error → may be sold
+- No amendment through 21 Sep 2026 changes these.
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - the big sealed "RICE · NET QTY 1 kg" pack, a bowl of contents on the scale at 970 g, and a "−30 g" tag
+  - "30 GRAMS MISSING. LEGAL?"
+  - the tag pulses on "missing"; voice at 0.05 s
+- **Beats:**
+  - the label glows and the scale blinks
+  - a gram gauge with the 15 g allowed band, then the needle drops to 970 ("30 g SHORT = 2×")
+  - the officer badge, tested at the shop, the SEIZED stamp
+  - the WHEN PACKED caveat (sun and moisture, "MAY BE EXCUSED")
+  - three steps
+  - CTA
+- Mix gain is 6.0 dB (−15.2 LUFS measured at 6.8 dB on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-15-english-17/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st17 <times>
+node render.cjs thumb .. courtlens-30s-english17-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build17 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english17-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english17-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Frame zero:** the "−30 g" tag and the label highlight only appeared later, so they are now present at t=0 (= the
+  thumbnail) and pulse on their words.
+- **"When packed" beat:** the strip on the pack was too small, so a large "WHEN PACKED" label was added. "MAY BE
+  EXCUSED" moved clear of the pack.
+- **A caption overflowed two lines and threw in the renderer:** "Marked 'when packed'? Environmental loss can be
+  excused." was split at the pause.
+- **Narration:**
+  - "Complain, and a Legal Metrology officer" was heard as "an illegal metrology officer", so it became "Complain. A
+    Legal Metrology officer".
+  - Speech was trimmed from 27.5 s to 25.6 s.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build17/frames`.
+
 ## Round 2026-11-15 (english-16, batch 16): "Their city, or yours?": file a consumer complaint where you live
 
 ### Status

@@ -1,0 +1,408 @@
+{
+ "l1": {
+  "script": "Thirty grams missing. Legal?",
+  "heard": "30 grams missing. Legal.",
+  "wer": 0.0,
+  "words": [
+   [
+    "30",
+    0.0,
+    0.36
+   ],
+   [
+    "grams",
+    0.36,
+    0.66
+   ],
+   [
+    "missing.",
+    0.66,
+    1.06
+   ],
+   [
+    "Legal.",
+    1.48,
+    1.74
+   ]
+  ]
+ },
+ "l2": {
+  "script": "Your one kilo pack holds nine hundred seventy grams.",
+  "heard": "Your 1 kilo pack holds 970 grams.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Your",
+    0.0,
+    0.24
+   ],
+   [
+    "1",
+    0.24,
+    0.54
+   ],
+   [
+    "kilo",
+    0.54,
+    0.84
+   ],
+   [
+    "pack",
+    0.84,
+    1.22
+   ],
+   [
+    "holds",
+    1.22,
+    1.6
+   ],
+   [
+    "970",
+    1.6,
+    2.48
+   ],
+   [
+    "grams.",
+    2.48,
+    2.92
+   ]
+  ]
+ },
+ "l3": {
+  "script": "The rules allow a small error: fifteen grams for a one kilo pack.",
+  "heard": "The rules allow a small error. 15 grams for a one kilo pack.",
+  "wer": 0.0,
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "rules",
+    0.22,
+    0.52
+   ],
+   [
+    "allow",
+    0.52,
+    0.84
+   ],
+   [
+    "a",
+    0.84,
+    1.12
+   ],
+   [
+    "small",
+    1.12,
+    1.3
+   ],
+   [
+    "error.",
+    1.3,
+    1.68
+   ],
+   [
+    "15",
+    2.06,
+    2.46
+   ],
+   [
+    "grams",
+    2.46,
+    2.88
+   ],
+   [
+    "for",
+    2.88,
+    3.1
+   ],
+   [
+    "a",
+    3.1,
+    3.26
+   ],
+   [
+    "one",
+    3.26,
+    3.46
+   ],
+   [
+    "kilo",
+    3.46,
+    3.76
+   ],
+   [
+    "pack.",
+    3.76,
+    4.04
+   ]
+  ]
+ },
+ "l4": {
+  "script": "This is double that.",
+  "heard": "This is Double That.",
+  "wer": 0.0,
+  "words": [
+   [
+    "This",
+    0.0,
+    0.2
+   ],
+   [
+    "is",
+    0.2,
+    0.44
+   ],
+   [
+    "Double",
+    0.44,
+    0.68
+   ],
+   [
+    "That.",
+    0.68,
+    0.98
+   ]
+  ]
+ },
+ "l5": {
+  "script": "Complain. A Legal Metrology officer can test it at the shop and seize short packs.",
+  "heard": "Complain. A legal metrology officer can test it at the shop and seize short packs.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Complain.",
+    0.0,
+    0.88
+   ],
+   [
+    "A",
+    1.14,
+    1.22
+   ],
+   [
+    "legal",
+    1.22,
+    1.5
+   ],
+   [
+    "metrology",
+    1.5,
+    2.26
+   ],
+   [
+    "officer",
+    2.26,
+    2.6
+   ],
+   [
+    "can",
+    2.6,
+    2.88
+   ],
+   [
+    "test",
+    2.88,
+    3.08
+   ],
+   [
+    "it",
+    3.08,
+    3.22
+   ],
+   [
+    "at",
+    3.22,
+    3.3
+   ],
+   [
+    "the",
+    3.3,
+    3.5
+   ],
+   [
+    "shop",
+    3.5,
+    3.76
+   ],
+   [
+    "and",
+    3.76,
+    4.06
+   ],
+   [
+    "seize",
+    4.06,
+    4.26
+   ],
+   [
+    "short",
+    4.26,
+    4.62
+   ],
+   [
+    "packs.",
+    4.62,
+    4.94
+   ]
+  ]
+ },
+ "l6": {
+  "script": "Marked 'when packed'? Environmental loss can be excused.",
+  "heard": "Marked when packed, environmental loss can be excused.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Marked",
+    0.0,
+    0.4
+   ],
+   [
+    "when",
+    0.4,
+    0.56
+   ],
+   [
+    "packed,",
+    0.56,
+    1.1
+   ],
+   [
+    "environmental",
+    1.66,
+    1.98
+   ],
+   [
+    "loss",
+    1.98,
+    2.32
+   ],
+   [
+    "can",
+    2.32,
+    2.52
+   ],
+   [
+    "be",
+    2.52,
+    2.76
+   ],
+   [
+    "excused.",
+    2.76,
+    3.22
+   ]
+  ]
+ },
+ "l7": {
+  "script": "Weigh just the contents, keep the bill, and complain to Legal Metrology.",
+  "heard": "Weigh just the contents, keep the bill, and complain to legal metrology.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Weigh",
+    0.0,
+    0.38
+   ],
+   [
+    "just",
+    0.38,
+    0.56
+   ],
+   [
+    "the",
+    0.56,
+    0.9
+   ],
+   [
+    "contents,",
+    0.9,
+    1.28
+   ],
+   [
+    "keep",
+    1.7,
+    1.82
+   ],
+   [
+    "the",
+    1.82,
+    2.02
+   ],
+   [
+    "bill,",
+    2.02,
+    2.24
+   ],
+   [
+    "and",
+    2.44,
+    2.6
+   ],
+   [
+    "complain",
+    2.6,
+    2.96
+   ],
+   [
+    "to",
+    2.96,
+    3.22
+   ],
+   [
+    "legal",
+    3.22,
+    3.48
+   ],
+   [
+    "metrology.",
+    3.48,
+    4.22
+   ]
+  ]
+ },
+ "l8": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}

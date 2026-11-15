@@ -1,0 +1,173 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 2.35
+  },
+  {
+   "id": "l3",
+   "start": 5.75
+  },
+  {
+   "id": "l4",
+   "start": 10.25
+  },
+  {
+   "id": "l5",
+   "start": 11.7
+  },
+  {
+   "id": "l6",
+   "start": 17.25
+  },
+  {
+   "id": "l7",
+   "start": 21.2
+  },
+  {
+   "id": "l8",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.2,
+   "text": "30 GRAMS MISSING. LEGAL?",
+   "hl": [
+    "MISSING."
+   ],
+   "hook": true
+  },
+  {
+   "start": 2.2,
+   "end": 5.6,
+   "text": "Your 1 kilo pack holds 970 grams.",
+   "hl": [
+    "970",
+    "grams."
+   ]
+  },
+  {
+   "start": 5.6,
+   "end": 7.6,
+   "text": "The rules allow a small error:",
+   "hl": [
+    "small",
+    "error:"
+   ]
+  },
+  {
+   "start": 7.6,
+   "end": 10.1,
+   "text": "15 grams for a 1 kilo pack.",
+   "hl": [
+    "15",
+    "grams"
+   ]
+  },
+  {
+   "start": 10.1,
+   "end": 11.55,
+   "text": "This is double that.",
+   "hl": [
+    "double"
+   ]
+  },
+  {
+   "start": 11.55,
+   "end": 14.27,
+   "text": "Complain. A Legal Metrology officer",
+   "hl": [
+    "Legal",
+    "Metrology"
+   ]
+  },
+  {
+   "start": 14.27,
+   "end": 17.1,
+   "text": "can test it at the shop and seize short packs.",
+   "hl": [
+    "seize",
+    "short",
+    "packs."
+   ]
+  },
+  {
+   "start": 17.1,
+   "end": 18.85,
+   "text": "Marked 'when packed'?",
+   "hl": [
+    "'when",
+    "packed'?"
+   ]
+  },
+  {
+   "start": 18.85,
+   "end": 21.05,
+   "text": "Environmental loss can be excused.",
+   "hl": [
+    "excused."
+   ]
+  },
+  {
+   "start": 21.05,
+   "end": 23.55,
+   "text": "Weigh just the contents, keep the bill,",
+   "hl": [
+    "contents,"
+   ]
+  },
+  {
+   "start": 23.55,
+   "end": 26.75,
+   "text": "and complain to Legal Metrology.",
+   "hl": [
+    "Legal",
+    "Metrology."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "tag": 0.7,
+  "v2c": 2.2,
+  "label": 2.6,
+  "pulse": 3.95,
+  "v3": 5.6,
+  "gauge": 5.8,
+  "band": 6.85,
+  "fifteen": 7.8,
+  "needle": 10.2,
+  "double": 10.68,
+  "v5": 11.55,
+  "badge": 12.85,
+  "test": 14.55,
+  "seize": 15.75,
+  "v6": 17.1,
+  "wp": 17.65,
+  "env": 18.9,
+  "excused": 20.0,
+  "v7": 21.05,
+  "s1": 21.2,
+  "s2": 22.9,
+  "s3": 23.8,
+  "v8": 26.75
+ }
+}
