@@ -81,7 +81,7 @@ caption window x 100–900 / y 230–1500, thumbnail, depth).
   ASR transcript of the final MP4 matches the script; 42-cupcake count checked across contact sheet + 42 frames.
   Listening check is machine-only (ASR + meters).
 
-## 2026-11-14 batch english-14 — "Nine Hides Inside Ten" (ACTIVE)
+## 2026-11-14 batch english-14 — "Nine Hides Inside Ten" (delivered)
 Brief, episode history table, script, sources: 11-episode-nine-hides-inside-ten.md.
 - Topic check: new strategy (take one group away from a ten-fact, 9 × 8 = 10 × 8 − 8); prior episodes taught equal
   groups/rearrangement (feedback-01) and split-and-add (english13-01). Visual variation: cookies, backward fold,
@@ -97,5 +97,18 @@ Brief, episode history table, script, sources: 11-episode-nine-hides-inside-ten.
   transcript of the final MP4 matches the script; 80-cookie count checked on contact sheet + 42 frames. Machine-only
   listening check.
 
+## 2026-11-15 batch english-15 — "Two Equal Groups" (ACTIVE)
+Brief, topic decision, history table, script, sources: 12-episode-two-equal-groups.md.
+- Topic decision: requested 6 × 7 = 42 repeats english13-01's fact (7 × 6 = 42) → kept the requested doubling
+  strategy, structure and first frame but used 6 × 8 = 24 + 24 = 48.
+- New rule applied: frame 0 = finished hook image + "SPLIT IT. SOLVE IT." (also the thumbnail); hook audio at 0.07 s.
+- Creative: 6 × 8 donut sheet (48) split after row 3 on a hinge strip; ghost outline proves the groups are equal;
+  flaps "3 × 8 = 24" ×2; card 6 × 8 = ? → 24 + 24 = 48 → 6 × 8 = 48; "× 2" on "double it"; groups close into one
+  sheet; music in D. Macarons rejected in QA (unreadable at phone size) → donuts.
+- Paths: production/30s/2026-11-15-english-15/ — tableverse-30s-english15-01.mp4 (sha256 43b526afaa20e074c810759b7bdf3e900cd0198978d7ee5cd6e9ddc95c5a5c76) +
+  tableverse-30s-english15-01-thumbnail.png (= frame 0).
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.9 LUFS, −1.5 dBTP; ASR
+  transcript matches script; 48-donut count on contact sheet + 41 frames. Machine-only listening check.
+
 ## Unresolved / next
-- Await user review of english14-01. No further episode started.
+- Await user review of english15-01. No further episode started.

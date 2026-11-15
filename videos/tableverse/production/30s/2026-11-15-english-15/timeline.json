@@ -1,0 +1,416 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 78,
+      "name": "Frame 0: split six-row sheet + \"SPLIT IT. SOLVE IT.\"; headline folds away, halves close"
+    },
+    {
+      "id": "S2-array",
+      "from": 78,
+      "to": 146,
+      "name": "Six rows of eight donuts: row tags 1–6, numbers 1–8"
+    },
+    {
+      "id": "S3-split",
+      "from": 146,
+      "to": 226,
+      "name": "Baker pulls the tab: the sheet splits after row 3 into two groups"
+    },
+    {
+      "id": "S4-same",
+      "from": 226,
+      "to": 402,
+      "name": "Are the two groups the same? quiet pause; a ghost outline of the top half slides down and fits"
+    },
+    {
+      "id": "S5-proof",
+      "from": 402,
+      "to": 590,
+      "name": "3 × 8 = 24 on each half; card flips to 24 + 24 = 48"
+    },
+    {
+      "id": "S6-payoff",
+      "from": 590,
+      "to": 806,
+      "name": "6 × 8 = 48; find the three fact, then double it; halves close into one sheet"
+    },
+    {
+      "id": "S7-cta",
+      "from": 806,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 78,
+    "v03": 146,
+    "v04": 226,
+    "v05": 340,
+    "v06": 402,
+    "v07": 460,
+    "v08": 510,
+    "v09": 590,
+    "v10": 656,
+    "v11": 828
+  },
+  "captions": [
+    [
+      [
+        "6 rows of 8 donuts."
+      ],
+      78,
+      140
+    ],
+    [
+      [
+        "Split the 6 rows into",
+        "2 equal groups."
+      ],
+      146,
+      222
+    ],
+    [
+      [
+        "Are the 2 groups the same?"
+      ],
+      226,
+      336
+    ],
+    [
+      [
+        "Yes: 3 rows of 8 in each."
+      ],
+      340,
+      396
+    ],
+    [
+      [
+        "3 rows of 8 make 24."
+      ],
+      402,
+      456
+    ],
+    [
+      [
+        "The other group is the same."
+      ],
+      460,
+      506
+    ],
+    [
+      [
+        "24 and 24 make…"
+      ],
+      510,
+      554
+    ],
+    [
+      [
+        "24 and 24 make 48."
+      ],
+      554,
+      586
+    ],
+    [
+      [
+        "So 6 × 8 = 48."
+      ],
+      590,
+      650
+    ],
+    [
+      [
+        "For a 6 fact: find the 3 fact,"
+      ],
+      656,
+      716
+    ],
+    [
+      [
+        "For a 6 fact: find the 3 fact,",
+        "then double it."
+      ],
+      716,
+      804
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      828,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "flap",
+      60,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "hinge",
+      66,
+      {
+        "dur": 24,
+        "soft": true
+      }
+    ],
+    [
+      "click",
+      90,
+      {}
+    ],
+    [
+      "tick",
+      92,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      97,
+      {
+        "pitch": 1.05
+      }
+    ],
+    [
+      "tick",
+      102,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "tick",
+      107,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "tick",
+      112,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      117,
+      {
+        "pitch": 1.25
+      }
+    ],
+    [
+      "tick",
+      110,
+      {
+        "pitch": 1.4
+      }
+    ],
+    [
+      "tick",
+      114,
+      {
+        "pitch": 1.45
+      }
+    ],
+    [
+      "tick",
+      118,
+      {
+        "pitch": 1.5
+      }
+    ],
+    [
+      "tick",
+      122,
+      {
+        "pitch": 1.5499999999999998
+      }
+    ],
+    [
+      "tick",
+      126,
+      {
+        "pitch": 1.5999999999999999
+      }
+    ],
+    [
+      "tick",
+      130,
+      {
+        "pitch": 1.65
+      }
+    ],
+    [
+      "tick",
+      134,
+      {
+        "pitch": 1.7
+      }
+    ],
+    [
+      "tick",
+      138,
+      {
+        "pitch": 1.75
+      }
+    ],
+    [
+      "glint",
+      150,
+      {}
+    ],
+    [
+      "slide",
+      166,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "hinge",
+      170,
+      {
+        "dur": 34
+      }
+    ],
+    [
+      "whoosh",
+      306,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "click",
+      336,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "light",
+      338,
+      {
+        "step": 3
+      }
+    ],
+    [
+      "flap",
+      410,
+      {
+        "pitch": 0.95
+      }
+    ],
+    [
+      "chime",
+      428,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "flap",
+      466,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      482,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "flap",
+      548,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      616,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "chime",
+      556,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "sparkle",
+      623,
+      {}
+    ],
+    [
+      "light",
+      684,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "chime",
+      718,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "hinge",
+      748,
+      {
+        "dur": 24,
+        "soft": true
+      }
+    ],
+    [
+      "click",
+      772,
+      {}
+    ],
+    [
+      "page",
+      806,
+      {
+        "dur": 24
+      }
+    ],
+    [
+      "pop",
+      828,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      832,
+      {}
+    ]
+  ],
+  "pause": [
+    264,
+    306
+  ]
+}

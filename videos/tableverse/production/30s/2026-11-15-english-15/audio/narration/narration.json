@@ -1,0 +1,63 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Six times eight? Split it. Solve it.",
+      "seconds": 1.973,
+      "frames": 59.2
+    },
+    "v02": {
+      "text": "Here are six rows of eight donuts.",
+      "seconds": 1.701,
+      "frames": 51.0
+    },
+    "v03": {
+      "text": "Split the six rows into two equal groups.",
+      "seconds": 2.34,
+      "frames": 70.2
+    },
+    "v04": {
+      "text": "Are the two groups the same?",
+      "seconds": 1.258,
+      "frames": 37.8
+    },
+    "v05": {
+      "text": "Yes. Three rows of eight in each.",
+      "seconds": 1.683,
+      "frames": 50.5
+    },
+    "v06": {
+      "text": "Three rows of eight make twenty-four.",
+      "seconds": 1.593,
+      "frames": 47.8
+    },
+    "v07": {
+      "text": "The other group is the same.",
+      "seconds": 1.283,
+      "frames": 38.5
+    },
+    "v08": {
+      "text": "Twenty-four and twenty-four make forty-eight.",
+      "seconds": 2.293,
+      "frames": 68.8
+    },
+    "v09": {
+      "text": "So six times eight is forty-eight.",
+      "seconds": 1.755,
+      "frames": 52.7
+    },
+    "v10": {
+      "text": "For a six fact, find the three fact, then double it.",
+      "seconds": 2.753,
+      "frames": 82.6
+    },
+    "v11": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
