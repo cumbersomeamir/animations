@@ -35,3 +35,8 @@ thumbnail → hook → optional super hook → build-up + proof → payoff → C
 ## QA before delivery
 - Render, full FFmpeg decode, check duration and codecs, inspect transitions and frames, check English narration, caption sync, clipping and missing assets. Attach the finished MP4 and the thumbnail; report limitations honestly. Never claim a watched or listened check that was not performed (ASR and frame sheets are machine checks, not a human listen).
 - CTA invites tracking nutrition with CalMeter (never "NutriAI" branding in copy).
+
+## Addendum 2026-11-15: first frame is critical (approved with the 15 November batch)
+- No logo intro, fade from black or empty setup. Frame 0 must be a beautifully composed, surprising subject that is readable on a phone, with at most 2–5 truthful curiosity words; the first image should work as the thumbnail.
+- Click-worthy never means misleading. Hook audio starts immediately, promises a specific useful answer, and the episode delivers it. Keep the app-specific approved aesthetic.
+- Applied first in english-15 (honey vs sugar): frame 0 = two tablespoons (honey dripping, sugar sparkling) with "WHICH SPOON?" plus the two food names; the thumbnail is the same composition.

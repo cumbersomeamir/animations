@@ -1,0 +1,289 @@
+{
+ "_doc": "CalMeter English 30 s english-15 (2026-11-15): a spoon of honey vs a spoon of sugar (the requested avocado vs apple overlapped english-09; switched per the overlap rule). Story per context/25; frame 0 is the thumbnail composition. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.75
+  },
+  {
+   "id": "T2",
+   "at": 5.65
+  },
+  {
+   "id": "T3",
+   "at": 11.15
+  },
+  {
+   "id": "T4",
+   "at": 16.25
+  },
+  {
+   "id": "T5",
+   "at": 21.05
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 64,
+   "lines": [
+    [
+     "A tablespoon of honey",
+     5
+    ],
+    [
+     "or of sugar:",
+     35
+    ]
+   ]
+  },
+  {
+   "in": 66,
+   "out": 108,
+   "lines": [
+    [
+     "which adds more calories?",
+     72
+    ]
+   ]
+  },
+  {
+   "in": 110,
+   "out": 166,
+   "lines": [
+    [
+     "Gram for gram,",
+     113
+    ],
+    [
+     "honey is lower.",
+     143
+    ]
+   ]
+  },
+  {
+   "in": 168,
+   "out": 270,
+   "lines": [
+    [
+     "It's partly water:",
+     170
+    ],
+    [
+     "304 kcal per 100 g,",
+     210
+    ]
+   ]
+  },
+  {
+   "in": 272,
+   "out": 328,
+   "lines": [
+    [
+     "sugar 387",
+     288
+    ]
+   ]
+  },
+  {
+   "in": 332,
+   "out": 436,
+   "lines": [
+    [
+     "But spoons measure volume.",
+     335
+    ],
+    [
+     "Thick honey fills every gap;",
+     394
+    ]
+   ]
+  },
+  {
+   "in": 439,
+   "out": 482,
+   "lines": [
+    [
+     "sugar crystals trap air.",
+     442
+    ]
+   ]
+  },
+  {
+   "in": 485,
+   "out": 626,
+   "lines": [
+    [
+     "1 tbsp of honey: 21 g;",
+     488
+    ],
+    [
+     "sugar: about 12.5 g",
+     572
+    ]
+   ]
+  },
+  {
+   "in": 629,
+   "out": 732,
+   "lines": [
+    [
+     "So per spoon:",
+     632
+    ],
+    [
+     "honey ≈ 64 kcal, sugar 48.",
+     666
+    ]
+   ]
+  },
+  {
+   "in": 735,
+   "out": 806,
+   "lines": [
+    [
+     "Log the spoon you use.",
+     764
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "drip": -20,
+  "qk": 72,
+  "burnish": 108,
+  "jars": 110,
+  "lower": 143,
+  "water": 170,
+  "k304": 212,
+  "k387": 288,
+  "burnish2": 324,
+  "spoons": 326,
+  "vol": 335,
+  "noGap": 394,
+  "air": 442,
+  "burnish3": 482,
+  "scales": 484,
+  "g21": 488,
+  "g12": 572,
+  "kSpoon": 666,
+  "diff": 694,
+  "logIt": 764,
+  "cta": 806,
+  "ctaWord": 813,
+  "sfx0": 0,
+  "pageA": 92,
+  "pageB": 308,
+  "pageC": 470
+ },
+ "sfx": [
+  {
+   "ev": "sfx0",
+   "type": "juice",
+   "gain": -22
+  },
+  {
+   "ev": "qk",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pageA",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "water",
+   "type": "juice",
+   "gain": -26
+  },
+  {
+   "ev": "k304",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k387",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageB",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "noGap",
+   "type": "pour",
+   "dur": 0.6,
+   "gain": -28
+  },
+  {
+   "ev": "air",
+   "type": "sprinkle",
+   "dur": 0.6,
+   "gain": -25
+  },
+  {
+   "ev": "pageC",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "g21",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "g12",
+   "type": "thud",
+   "gain": -27
+  },
+  {
+   "ev": "kSpoon",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "diff",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "logIt",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

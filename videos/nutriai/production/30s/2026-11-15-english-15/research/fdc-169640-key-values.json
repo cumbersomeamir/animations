@@ -1,0 +1,82 @@
+{
+ "fdcId": 169640,
+ "ndbNumber": 19296,
+ "description": "Honey",
+ "dataType": "SR Legacy",
+ "publicationDate": "4/1/2019",
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (official USDA bulk download)",
+ "per": "100 g",
+ "nutrients": [
+  {
+   "name": "Protein",
+   "amount": 0.3,
+   "unit": "g",
+   "dataPoints": 508
+  },
+  {
+   "name": "Total lipid (fat)",
+   "amount": 0.0,
+   "unit": "g",
+   "dataPoints": 3
+  },
+  {
+   "name": "Carbohydrate, by difference",
+   "amount": 82.4,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Energy",
+   "amount": 304,
+   "unit": "kcal",
+   "dataPoints": 0
+  },
+  {
+   "name": "Water",
+   "amount": 17.1,
+   "unit": "g",
+   "dataPoints": 509
+  },
+  {
+   "name": "Sugars, total including NLEA",
+   "amount": 82.1,
+   "unit": "g",
+   "dataPoints": 0
+  },
+  {
+   "name": "Sucrose",
+   "amount": 0.89,
+   "unit": "g",
+   "dataPoints": 9
+  },
+  {
+   "name": "Glucose",
+   "amount": 35.8,
+   "unit": "g",
+   "dataPoints": 1
+  },
+  {
+   "name": "Fructose",
+   "amount": 40.9,
+   "unit": "g",
+   "dataPoints": 1
+  }
+ ],
+ "portions": [
+  {
+   "description": "cup",
+   "amount": null,
+   "gramWeight": 339.0
+  },
+  {
+   "description": "tbsp",
+   "amount": null,
+   "gramWeight": 21.0
+  },
+  {
+   "description": "packet (0.5 oz)",
+   "amount": null,
+   "gramWeight": 14.0
+  }
+ ]
+}

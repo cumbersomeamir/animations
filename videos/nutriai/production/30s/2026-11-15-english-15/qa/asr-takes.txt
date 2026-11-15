@@ -1,0 +1,14 @@
+T0.wav | a tablespoon of honey or of sugar, which adds more calories.
+    [('a', 0.0, 0.08), ('tablespoon', 0.08, 0.44), ('of', 0.44, 0.76), ('honey', 0.76, 1.0), ('or', 1.0, 1.3), ('of', 1.3, 1.46), ('sugar,', 1.46, 1.8), ('which', 2.24, 2.4), ('adds', 2.4, 2.62), ('more', 2.62, 2.86), ('calories.', 2.86, 3.24)]
+T1.wav | Gram for gram, honey is lower.
+    [('Gram', 0.0, 0.12), ('for', 0.12, 0.38), ('gram,', 0.38, 0.6), ('honey', 1.02, 1.1), ('is', 1.1, 1.34), ('lower.', 1.34, 1.6)]
+T2.wav | It's partly water, 304 calories per 100 grams, sugar 387.
+    [("It's", 0.0, 0.18), ('partly', 0.18, 0.38), ('water,', 0.38, 0.84), ('304', 1.88, 1.88), ('calories', 1.88, 2.44), ('per', 2.44, 2.86), ('100', 2.86, 3.14), ('grams,', 3.14, 3.56), ('sugar', 3.96, 4.24), ('387.', 4.24, 4.98)]
+T3.wav | but spoons measure volume. Thick honey fills every gap, sugar crystals trap air.
+    [('but', 0.0, 0.08), ('spoons', 0.08, 0.5), ('measure', 0.5, 0.82), ('volume.', 0.82, 1.3), ('Thick', 1.98, 2.04), ('honey', 2.04, 2.32), ('fills', 2.32, 2.6), ('every', 2.6, 2.94), ('gap,', 2.94, 3.28), ('sugar', 3.58, 3.76), ('crystals', 3.76, 4.16), ('trap', 4.16, 4.52), ('air.', 4.52, 4.82)]
+T4.wav | A tablespoon of honey weighs 21 grams, sugar, about 12 and a half.
+    [('A', 0.0, 0.08), ('tablespoon', 0.08, 0.38), ('of', 0.38, 0.78), ('honey', 0.78, 0.98), ('weighs', 0.98, 1.24), ('21', 1.24, 1.72), ('grams,', 1.72, 2.18), ('sugar,', 2.82, 3.16), ('about', 3.48, 3.68), ('12', 3.68, 3.98), ('and', 3.98, 4.18), ('a', 4.18, 4.22), ('half.', 4.22, 4.46)]
+T5.wav | So per spoon, honey about 64 calories sugar 48, log the spoon you use.
+    [('So', 0.0, 0.16), ('per', 0.16, 0.32), ('spoon,', 0.32, 0.62), ('honey', 1.16, 1.34), ('about', 1.34, 1.6), ('64', 1.6, 2.02), ('calories', 2.02, 2.5), ('sugar', 2.5, 3.02), ('48,', 3.02, 3.56), ('log', 4.4, 4.4), ('the', 4.4, 4.64), ('spoon', 4.64, 4.86), ('you', 4.86, 5.12), ('use.', 5.12, 5.52)]
+T6.wav | Track your food and nutrition with calmetre.
+    [('Track', 0.0, 0.16), ('your', 0.16, 0.36), ('food', 0.36, 0.64), ('and', 0.64, 1.0), ('nutrition', 1.0, 1.26), ('with', 1.26, 1.6), ('calmetre.', 1.6, 2.16)]

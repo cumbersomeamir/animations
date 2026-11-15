@@ -143,3 +143,11 @@ PAUSED (2026-11-02). Status: 30 s campaign source in progress (rig, props, phone
 - Commands: as in section 9, from `production/30s/2026-11-14-english-14/source/`, output `../nutriai-30s-english14-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english14-thumbnail.png`; ASR on the final mix with base.en (VAD) and small.en.
 - Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events (also strict); captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980 and above y 1500; small.en verbatim on the full mix. Machine checks only; no human watch/listen. See `production/30s/2026-11-14-english-14/QA.md`.
 - Unresolved: none blocking. Next step: none requested.
+
+## 22. Batch 2026-11-15, english-15 honey vs sugar by the tablespoon (CalMeter; English)
+- Pre-check: repo/branch confirmed, origin at a659dcc, no running or unfinished job. Requested avocado vs apple overlapped english-09 (avocado, fat ≈ 9 kcal/g, "neither is bad") → honey vs sugar chosen (never covered). New "first frame is critical" feedback persisted as an addendum in `context/25-feedback-rules-2026-11-11.md`.
+- Facts: USDA SR Legacy FDC 169640 honey (304 kcal, 17.1 g water / 100 g; tbsp 21 g; cup 339 g) and FDC 169655 granulated sugar (387 kcal / 100 g; tsp 4.2 g; cup 200 g → tbsp 12.5 g); per tablespoon ≈ 64 vs ≈ 48 kcal. Details: `context/29-production-30s-english15-honey.md`.
+- Decisions: frame 0 = thumbnail composition with "WHICH SPOON?"; mirrored spoons; T1 reworded ("Gram for gram") for intelligibility; T3–T5 spaced so "But" is heard.
+- Commands: as in section 9, from `production/30s/2026-11-15-english-15/source/`, output `../nutriai-30s-english15-01.mp4`; thumbnail `node render.mjs --thumb` → `../nutriai-30s-english15-thumbnail.png`; ASR base.en (VAD) + small.en text-only (word-timestamp alignment crashed on this file).
+- Verification: 900 frames / 30.000 s / H.264 High yuv420p / AAC 48 kHz stereo; decode clean; −15.0 LUFS, −1.5 dBTP; 0 freeze events (also strict); captions 0 outside x 100–900 / y 230–1500; labels inside x 100–980 and above y 1500; small.en verbatim. Machine checks only; no human watch/listen. See `production/30s/2026-11-15-english-15/QA.md`.
+- Unresolved: none blocking. Next step: none requested.
