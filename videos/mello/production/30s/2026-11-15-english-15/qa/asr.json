@@ -4,7 +4,7 @@
   "cer": 0.0,
   "wer": 0.0,
   "reference": "Who is tomorrow-you, and why do they feel like a stranger? In one experiment about drinking something disgusting, people's choices for future-them looked like choices for a stranger. That distance helps a small reward now beat a bigger one later. In studies, picturing specific future events made people's choices more patient. So picture tomorrow-you clearly, and set one specific step tonight, like shoes by the door. Take a mindful break with Mello.",
-  "transcript": "Who is tomorrow you, and why do they feel like a stranger? In one experiment about drinking something disgusting, people's choices for future them looked like choices for a stranger. That distance helps a small reward, now beat a bigger one later. In studies, picturing specific future events made people's choices more patient. So picture tomorrow you clearly, and set one specific step tonight, like shoes by the door. Take a mindful break with Mello.",
+  "transcript": "Who is tomorrow you, and why do they feel like a stranger? In one experiment about drinking something disgusting, people's choices for future them looked like choices for a stranger. That distance helps a small reward now beat a bigger one later. In studies, picturing specific future events made people's choices more patient. So picture tomorrow you clearly and set one specific step tonight, like shoes by the door. Take a mindful break with Mello.",
   "segments": [
     {
       "id": "hook",
@@ -24,7 +24,7 @@
       "id": "gap",
       "start": 10.85,
       "end": 14.652,
-      "text": "That distance helps a small reward, now beat a bigger one later.",
+      "text": "That distance helps a small reward now beat a bigger one later.",
       "cer": 0.0
     },
     {
@@ -38,7 +38,7 @@
       "id": "payoff",
       "start": 20.15,
       "end": 25.385,
-      "text": "So picture tomorrow you clearly, and set one specific step tonight, like shoes by the door.",
+      "text": "So picture tomorrow you clearly and set one specific step tonight, like shoes by the door.",
       "cer": 0.0
     },
     {

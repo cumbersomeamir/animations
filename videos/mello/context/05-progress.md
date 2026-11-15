@@ -556,3 +556,36 @@ Episode record: `24-episode-solomons-paradox.md`. The 2026-11-11 rules and the l
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-15, 2026-11-15: episode english15-01 "why tomorrow-you feels like a different person" (English)
+Episode record: `25-episode-future-self.md`. New durable rule: `10-format-and-style-rules.md` section 9 (first frame). The 2026-11-11 rules and the latest feedback are retained.
+
+## Verified facts (this round)
+- Not covered before (checked context 11–24). Sources (PubMed abstracts):
+  - Pronin et al. 2008 (PMID 18156588): decisions for future selves resemble decisions for others; the experiments include a disgusting drink.
+  - Peters & Büchel 2010 (PMID 20399735): episodic cues gave more future-minded choices.
+  - Hershfield et al. 2011 (PMID 24634544): age-progressed future selves gave more later-reward choices.
+  - Rung & Madden 2018 (PMID 30148386): most methods reduced discounting, with effects varying.
+
+## Creative decisions (this round)
+- English only, 70 words, hook audio at 0.15 s.
+- Frame 0 = the thumbnail composition: two versions of the character across TODAY | TOMORROW, "Who is tomorrow-you?".
+- The card shows future-you = a stranger. A balance shows now vs later. Tomorrow's page fills in. Shoes by the door.
+- `BED_GAIN` 0.50 (13.2 dB under the voice).
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-15-english-15/mello-30s-english15-01.mp4`
+  - sha256 `3f732e1ae600849119494d8f761f4abdd91b303d025cc1e885a3933ba7133b13`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english15-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-15-english-15/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.7 dBTP;
+  - cuts on plan;
+  - 0 safe-zone issues in 300 samples (both heads checked);
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.
