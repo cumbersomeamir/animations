@@ -14,8 +14,34 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   same-genre topic was chosen. Record: `context/episodes/2026-11-15-english16-consumer-court-your-city.md`.
 - A usage-limit pause and a worker restart happened mid-research. Work resumed from the scratchpad
   (`$S/legal16`), with nothing lost.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- Checkpoint commit b1e936d was made before the full render.
+- DELIVERED: `production/30s/2026-11-15-english-16/courtlens-30s-english16-01.mp4`
+  (sha256 38f107c106022de6cd70b369b6f9a01ff7261448fc6ced2ed8e36e9853966ad9) and the thumbnail
+  `courtlens-30s-english16-01-thumbnail.png` (sha256 3f469b9c11244e39cb101b2df8484d2da617ffe5cfee57e045d8eee47729e6b1;
+  = frame-zero composition + chip).
+
+### Verification (final MP4)
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.1 LUFS / −2.4 dBTP.
+- Narration 8/8 at +3 ms; CTA 26.95–29.90 s.
+- Frame 0 = the thumbnail composition (mean diff 1.5/255); voice at 0.05 s.
+- Caption ink x 106..894, y 330..518; y<300 clear.
+- English ASR on the final mix: WER 0.051. The only misses are spellings: "companies" for "company's", "EJGreedy" for
+  "e-Jagriti", and "Courtlands". All words fall in caption windows.
+- **Frame review fixes:** remedy placeholders (17.6–18.9 s), a DEADLINE label, the stamp moved to 5.5 s, and
+  sequential payoff labels.
+  - Frames 150–210 and 430–805 were re-rendered in place and the file re-muxed.
+  - Neighbouring frames were verified bit-identical.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-15-english-16/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- **Fee rule:** the nil fee up to ₹5 lakh (2023 amendment) is in the notes only, from a legal-database reproduction.
+  The e-Gazette was unreachable (TLS failure / 503).
+- **Regulation 3(4):** read via a reproduction (taxguru), not the NCDRC PDF.
+- **e-Jagriti screens:** not fetched. The video shows a generic form with the portal name only.
+- **Review folder:** not reachable from this cloud session, so the MP4 and thumbnail are attached in chat.
 
 ### Verified facts (details: `production/30s/2026-11-15-english-16/notes/LEGAL-SOURCES.md`)
 - **CPA 2019:**
@@ -67,7 +93,8 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
   every reply," (ASR heard "in").
 
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build16/frames`.
+- Await the next request. No automation and no further episode unless asked. `$S/build16/frames` was deleted after
+  delivery.
 
 ## Round 2026-11-15 (english-15): can your employer keep your original certificates? (one Madras HC case)
 

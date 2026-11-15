@@ -368,6 +368,7 @@
         if (k > 0) { ctx.save(); ctx.globalAlpha *= k; rr(ctx, x0 + (x1 - x0) * f - 4, y - 46, 8, 92, 4); ctx.fillStyle = C.navy; ctx.fill(); txt(ctx, s, x0 + (x1 - x0) * f, y + 100, { f: '900 44px Inter', a: f === 1 ? 'right' : 'center' }); ctx.restore(); }
       }
       pin(ctx, x0 + 10, y - 30, eob(P(t, E.problem, E.problem + 0.35), 1.2), C.red, 'PROBLEM');
+      label(ctx, 'DEADLINE', CX, 840, eo(P(t, E.v5 + 0.15, E.v5 + 0.5)) * (1 - P(t, E.bar - 0.15, E.bar + 0.05)), { f: '900 96px Inter', ls: 4, c: C.red });
       label(ctx, '2 YEARS', CX, 840, eo(P(t, E.bar + 0.1, E.bar + 0.45)), { f: '900 96px Inter', ls: 4 });
     });
   }
@@ -377,8 +378,13 @@
       spotlight(ctx, CX, 1100, 760, 0.6);
       const items = [[E.r1, iconWrench, 'REPAIR'], [E.r2, iconSwap, 'REPLACE'], [E.r3, iconCoinBack, 'REFUND'], [E.r4, iconScales, 'COMPENSATION']];
       items.forEach(([te, icon, lab], i) => {
-        if (t < te) return;
-        const k = spring(t - te, 1.8, 0.55), x = i % 2 ? 690 : 310, y = 900 + Math.floor(i / 2) * 380;
+        const x = i % 2 ? 690 : 310, y = 900 + Math.floor(i / 2) * 380;
+        if (t < te) {                                   // four empty slots: the remedies still to come
+          ctx.save(); ctx.globalAlpha *= 0.55; rr(ctx, x - 110, y - 110, 220, 220, 48); ctx.strokeStyle = C.navyFaint; ctx.lineWidth = 6; ctx.setLineDash([]); ctx.stroke();
+          txt(ctx, '?', x, y + 34, { f: '900 96px Inter', a: 'center', c: C.navyFaint }); ctx.restore();
+          return;
+        }
+        const k = spring(t - te, 1.8, 0.55);
         ctx.save(); ctx.translate(x, y); ctx.scale(clamp(k) * 1.0, clamp(k) * 1.0);
         card(ctx, -110, -110, 220, 220, 48, C.card, { blur: 30, oy: 12 });
         ctx.save(); ctx.scale(1.25, 1.25); icon(ctx); ctx.restore();
@@ -399,7 +405,7 @@
       if (bk > 0) billDoc(ctx, lerp(150, 290, bk), lerp(900, 1180, bk), 1.1, lerp(-0.4, -0.12, bk));
       if (rk > 0) replyDoc(ctx, lerp(560, 400, rk), lerp(900, 1200, rk), 1.1, lerp(0.4, 0.1, rk));
       ctx.restore();
-      label(ctx, 'BILL + REPLIES', 330, 1460, eo(P(t, E.replies + 0.2, E.replies + 0.55)) * (1 - fl), { f: '900 58px Inter' });
+      label(ctx, 'BILL + REPLIES', 330, 1460, eo(P(t, E.replies + 0.2, E.replies + 0.55)) * (1 - P(t, E.fly - 0.35, E.fly - 0.05)), { f: '900 58px Inter' });
       if (t >= E.fly - 0.2) { const ck = eo(P(t, E.fly - 0.2, E.fly + 0.3)); ctx.save(); ctx.globalAlpha *= ck; commission(ctx, 720, 1180, 0.6, eo(P(t, E.fly + 0.5, E.fly + 0.9))); ctx.restore(); }
       label(ctx, 'DISTRICT COMMISSION', CX, 1440, eo(P(t, E.fly + 0.4, E.fly + 0.8)), { f: '900 62px Inter', c: C.cyanDark });
     });
