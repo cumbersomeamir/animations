@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.74
+      ],
+      "script": "Why can one option you'll probably skip change what you pick?",
+      "heard": "Why can one option you'll probably skip, change what you pick.",
+      "words": "11/11"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.6,
+        6.67
+      ],
+      "script": "Here are two made-up plans: Basic and Plus.",
+      "heard": "Here are two made-up plans, basic and plus.",
+      "words": "9/9"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.6,
+        10.7
+      ],
+      "script": "Add a more expensive Premium, and Plus becomes the middle choice.",
+      "heard": "Add a more expensive premium, and plus becomes the middle choice.",
+      "words": "11/11"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        10.45,
+        13.77
+      ],
+      "script": "We judge options against their neighbors, not alone.",
+      "heard": "We judge options against their neighbors, not alone.",
+      "words": "8/8"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        13.75,
+        18.49
+      ],
+      "script": "In consumer studies, middle options gained appeal; extremes lost it.",
+      "heard": "In consumer studies, middle options gained appeal. Extremes lost it.",
+      "words": "10/10"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19.55,
+        22.42
+      ],
+      "script": "So one extra tier reshapes the whole menu.",
+      "heard": "So one extra tier reshapes the whole menu.",
+      "words": "8/8"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        22.25,
+        26.92
+      ],
+      "script": "Use it honestly: build every tier for a real customer, not as bait.",
+      "heard": "You sit honestly. Build every tier for a real customer, not as bait.",
+      "words": "11/13"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why can one option you'll probably skip, change what you pick? Here are two made-up plans, basic and plus. Add a more expensive premium, and plus becomes the middle choice. We judge options against their neighbors, not alone. In consumer studies, middle options gained appeal, extremes lost it. So one extra tier reshapes the whole menu. Use it honestly. Build every tier for a real customer, not as bait. Follow Warbins to decode how brands sell."
+}

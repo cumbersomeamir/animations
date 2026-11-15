@@ -68,5 +68,5 @@
 - 2026-11-15: first-frame rule persisted as context/27 §5.
 - English-15 (batch 2026-11-15-english-15) delivered `production/30s/2026-11-15-english-15/werbens-30s-english15-01.mp4`
   + thumbnail (free samples vs ads; Smith & Swinyard 1983; Bawa & Shoemaker 2004; frame 0 = thumbnail; dark-navy app.werbens.com theme; context/31).
-- English-16 (batch16 2026-11-15-english-16) IN PROGRESS (final render running) `production/30s/2026-11-15-english-16/werbens-30s-english16-01.mp4`
-  + thumbnail (compromise effect; proposed decoy topic replaced as a duplicate of #03; Simonson & Tversky 1992; frame 0 = thumbnail; context/32).
+- English-16 (batch16 2026-11-15-english-16) delivered `production/30s/2026-11-15-english-16/werbens-30s-english16-01.mp4`
+  + thumbnail (compromise effect; proposed decoy topic replaced as a duplicate of #03; Simonson & Tversky 1992; frame 0 = thumbnail; render 2 after a frame review moved in-world text off the platform icon rail; sha256 f074b38a; context/32).

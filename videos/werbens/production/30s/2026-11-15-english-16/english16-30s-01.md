@@ -127,7 +127,8 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + one i
      sink ("EXTREMES LOSE").
   5. Back to the plans: a ripple runs through the menu.
   6. One real customer steps onto each tier ("REAL CUSTOMERS").
-  7. The stage parts as the logo tile pops up.
+  7. On "bait" the shoppers shrink away and Plus sinks into the floor; Basic and Premium slide apart as the logo tile pops up
+     in Plus's place.
 - **Labels:** MADE-UP PLANS / MIDDLE GAINS / EXTREMES LOSE / REAL CUSTOMERS. All large and brief, one at a time, y ≥ 574.
 - **Small in-world plates:** BASIC, PLUS, PREMIUM, EXTREME, MIDDLE.
 - **Excluded:** no prices, no currency, no source chips, no decorative lines.
@@ -136,6 +137,9 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + one i
   2. Place the proof set close enough that mid-move frames show both sets.
   3. Centre props must leave the stage too: they sink or shrink for the CTA.
   4. Check homophones and spellings that break caption alignment ("pricier", "neighbours").
+  5. Keep in-world text plates inside x ≈ 100–900 as well: the first bar framing put the right EXTREME chip at x 920–1060,
+     y ≈ 1390, under the TikTok/Reels icon rail. The fix was narrower bars and chips plus a wider camera.
+  6. Clear the centre props before the CTA tile grows. Otherwise sinking boxes and shrinking pawns show as specks under the tile.
 
 ## 8. Storyboard (as built; `src/timeline.js`)
 | Section | Time | Camera | Action | Sound |
@@ -145,10 +149,28 @@ Publishing caption (`publishing-caption.txt`) = this transcript verbatim + one i
 | Neighbors | 10.6–13.3 s | closer | Basic + Premium lean in; Plus pulses | slide, tick |
 | Proof | 13.3–18.6 s | lateral move to the diagram | middle bar rises (MIDDLE GAINS); extremes sink (EXTREMES LOSE) | whoosh, riser, tag, sinks, piano |
 | Payoff | 18.6–26.5 s | back to the plans | ripple; real customers step up (REAL CUSTOMERS) | whoosh, clacks, plops, tag, piano |
-| CTA | 26.45–30 s | pull back | stage parts / sinks; logo tile pops up 26.84 s; wordmark 27.55 s | slide, tile thud, D-major spread |
+| CTA | 26.3–30 s | pull back | shoppers shrink + Plus sinks from 26.3 s; Basic/Premium slide apart; logo tile pops up, lands 26.84 s; wordmark 27.55 s | slide, tile thud, D-major spread |
 
 ## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
-To be filled in after the final render.
+**Output:** `production/30s/2026-11-15-english-16/werbens-30s-english16-01.mp4`, sha256 `f074b38a…6171`, 4,319,948 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `ec6a02fb…`) and `.jpg` (sha256 `45cc2933…`).
+
+Verification results (2026-11-15):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1 bt709; AAC-LC
+  48 kHz stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean.
+- **Audio:** −15.0 LUFS integrated, true peak −1.8 dBTP, LRA 3.1 LU, flat factor 0. Stems: voice −20.7, music −31.3, foley
+  −34.5 LUFS.
+- **ASR of the final mix (Whisper base.en):** whole-mix transcript matches the script except "Werbens" → "Warbins". Line
+  windows L1–L6 are full; L7 is 11/13 ("Use it" → "You sit" in the window only; correct in the whole-mix pass); L8 is 6/7.
+  ASR only, no human listen.
+- **DOM, every frame (900):** caption ink x 137–863 / y 369–489; pill x 107–893 / y 353–507; headline 13 frames x 120–880 /
+  y 330–569; labels x 118–882 / y 574–1456. 0 headline conflicts, 0 outside, 0 overlaps, 0 in y < 300, never two big labels.
+- **In-world text:** the right EXTREME chip ends at x 881.
+- **Visual review:** the transition sheet (30 beats), the contact sheet and frame 0 were inspected, plus full-size frames
+  515, 555, 793 and 796. No empty frames, no stray props under the CTA tile, no missing assets.
+- **Render 1 was rejected after frame review.** The right bar and chip sat under the platform icon rail, and pawn/box specks
+  showed under the CTA tile for about 3 frames. Both were fixed (`src/scene.js`) and render 2 is the delivered file.
+- **Earlier outputs:** 18 earlier MP4s were re-hashed and are unchanged; nothing earlier was overwritten.
 
 ## 10. Progress / provenance log (this round)
 1. Checked repo/branch/account; confirmed batch 15 was finished; re-read CLAUDE.md and 05-progress.
@@ -163,5 +185,11 @@ To be filled in after the final render.
 6. Stills (3 passes).
 7. `node src/audio.mjs` → `node src/qa_dom.mjs 3` → `node src/render.mjs --thumb --stills 0 --out build/thumb`.
 8. `node src/render.mjs --video` → ffmpeg mux → `bash qa.sh` → `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs <mp4>`.
+9. Render 1 review: the right EXTREME chip sat under the icon rail, and specks showed under the CTA tile. Fix: narrower bars and
+   chips with a wider camera, and the Plus sink plus shopper clear moved to 26.3 s. Checked on stills 13.8–19.0 s and
+   26.3–26.7 s.
+10. Render 2: `node src/render.mjs --video` (784.8 s) → mux → `node src/render.mjs --thumb --stills 0 --out build/thumb` →
+    `bash qa.sh` → `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english16-01.mp4`, all PASS (§9).
+11. QA.md written; context/05 marked delivered; committed and pushed; MP4 + thumbnail attached in chat.
 
 Next step: none for this batch (one episode only; no automation).
