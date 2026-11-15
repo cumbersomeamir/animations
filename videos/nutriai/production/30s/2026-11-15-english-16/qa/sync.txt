@@ -1,0 +1,23 @@
+caption line | caption on (s) | first word heard | word start (s) | caption - word (s)  [small.en word timestamps on the exported MP4]
+Dark chocolate | 0.17 | Dark | 0.00 | +0.17
+or milk chocolate: | 0.83 | or | 0.88 | -0.05
+which has more calories? | 2.13 | which | 2.22 | -0.09
+Dark does: 598 per 100 g, | 3.73 | Dark | 3.82 | -0.09
+milk 535. | 6.50 | milk | 6.64 | -0.14
+Yet it has less than | 8.43 | Yet | 8.36 | +0.07
+half the sugar: | 9.10 | half | 9.22 | -0.12
+24 g, against 52. | 10.23 | 24 | 10.32 | -0.09
+More cacao means | 12.90 | More | 12.84 | +0.06
+more cocoa butter: | 13.63 | more | 13.76 | -0.13
+43 g of fat, | 15.20 | 43 | 15.20 | +0.00
+against 30. | 16.47 | against | 16.54 | -0.07
+And fat has 9 kcal a gram, | 17.90 | And | 17.82 | +0.08
+sugar only 4. | 19.80 | sugar | 19.90 | -0.10
+30 g each: | 21.37 | 30 | 21.32 | +0.05
+about 180 versus 160. | 22.63 | about | 22.64 | -0.01
+Log the grams, | 24.97 | Log | 25.16 | -0.19
+not the shade. | 25.53 | not | 25.74 | -0.21
+Track your food and nutrition | 27.10 | Track | 26.46 | +0.64
+with CalMeter | 28.37 | with | 28.50 | -0.13
+lines 20; within ±0.10 s: 12; within ±0.20 s: 18; max |diff| 0.64 s
+Note on "Track your food and nutrition" (+0.64): both models stretch the word "Track" back over the silence before the CTA (small.en 26.46-?; base.en 26.32-27.26, a 0.94 s "word"). The voice-only mix track (source/build/voice.wav, not committed) is silent from 26.65 s to 27.10 s and the CTA take starts at 27.10 s (rms -34 dB in 27.1-27.2, -15 dB in 27.2-27.3), the same frame the caption appears; the offset is Whisper word-start drift after a pause, not a caption error. Same cached CTA take and placement as english-15.

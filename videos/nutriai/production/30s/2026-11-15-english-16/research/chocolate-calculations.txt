@@ -1,0 +1,30 @@
+CalMeter english-16 — calculations (2026-11-15). Inputs: USDA SR Legacy FDC 170273 "Chocolate, dark, 70-85% cacao solids" (dark) and FDC 167587 "Candies, milk chocolate" (milk), per 100 g.
+
+MEASURED (USDA, per 100 g)            dark 70-85%   milk
+  energy (kcal)                             598      535
+  sugars, total (g)                        24.0     51.5
+  total fat (g)                            42.6     29.7
+  carbohydrate, by difference (g)          45.9     59.4
+  fibre (g)                                10.9      3.4
+  protein (g)                              7.79     7.65
+
+CALCULATED
+  sugar ratio dark/milk = 24.0/51.5 = 0.466  -> "less than half the sugar" (on screen 24 g vs 52 g; 51.5 rounded to 52)
+  fat: 42.6 g vs 29.7 g -> "about forty-three ... against thirty" (on screen 43 g vs 30 g)
+  energy difference per 100 g = 598 - 535 = 63 kcal
+  rough check with Atwater general factors (fat 9 kcal/g, protein and carbohydrate 4 kcal/g; FAO FNP 77, 2003):
+     extra fat   +12.9 g x 9 = +116 kcal
+     carbohydrate -13.5 g x 4 = -54 kcal
+     protein     +0.14 g x 4 = +0.6 kcal
+     total ≈ +63 kcal (USDA: +63) -> the extra fat explains the higher energy despite less sugar.
+     (USDA's own energy values use food-specific factors; the general factors are used only for this explanation.)
+  30 g each (illustrative piece; USDA lists 1 oz = 28.35 g for the dark item):
+     dark 598 x 0.30 = 179.4 kcal -> "about 180"
+     milk 535 x 0.30 = 160.5 kcal -> "about 160"
+     difference ≈ 19 kcal per 30 g
+
+ILLUSTRATIVE (drawing conventions, not measurements)
+  sugar cubes drawn as ≈ 4 g units: dark 24/4 = 6 cubes, milk 51.5/4 ≈ 13 cubes
+  cocoa-butter blocks: height proportional to grams of fat (7.5 px per g: 322 px vs 225 px); the blocks stand for total fat (dark-chocolate fat is mostly cocoa butter; milk-chocolate fat also includes milk fat)
+  energy tokens: one coin per kcal per gram (9 for fat, 4 for sugar)
+  "DARK 70-85%" and "MILK" wrappers are generic drawings, not brands

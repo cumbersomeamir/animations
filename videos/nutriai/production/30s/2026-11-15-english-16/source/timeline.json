@@ -1,0 +1,358 @@
+{
+ "_doc": "CalMeter English 30 s english-16 (2026-11-15, batch 16): dark vs milk chocolate, 'MORE CALORIES?' (the requested grapes vs raisins was already english-08; switched per the overlap rule). Story per context/25 incl. the first-frame addendum; frame 0 is the thumbnail composition. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.7
+  },
+  {
+   "id": "T2",
+   "at": 8.4
+  },
+  {
+   "id": "T3",
+   "at": 12.85
+  },
+  {
+   "id": "T4",
+   "at": 17.85
+  },
+  {
+   "id": "T5",
+   "at": 21.35
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 62,
+   "lines": [
+    [
+     "Dark chocolate",
+     5
+    ],
+    [
+     "or milk chocolate:",
+     25
+    ]
+   ]
+  },
+  {
+   "in": 64,
+   "out": 106,
+   "lines": [
+    [
+     "which has more calories?",
+     64
+    ]
+   ]
+  },
+  {
+   "in": 111,
+   "out": 236,
+   "lines": [
+    [
+     "Dark does: 598 per 100 g,",
+     112
+    ],
+    [
+     "milk 535.",
+     195
+    ]
+   ]
+  },
+  {
+   "in": 252,
+   "out": 304,
+   "lines": [
+    [
+     "Yet it has less than",
+     253
+    ],
+    [
+     "half the sugar:",
+     273
+    ]
+   ]
+  },
+  {
+   "in": 306,
+   "out": 372,
+   "lines": [
+    [
+     "24 g, against 52.",
+     307
+    ]
+   ]
+  },
+  {
+   "in": 386,
+   "out": 452,
+   "lines": [
+    [
+     "More cacao means",
+     387
+    ],
+    [
+     "more cocoa butter:",
+     409
+    ]
+   ]
+  },
+  {
+   "in": 455,
+   "out": 522,
+   "lines": [
+    [
+     "43 g of fat,",
+     456
+    ],
+    [
+     "against 30.",
+     494
+    ]
+   ]
+  },
+  {
+   "in": 536,
+   "out": 625,
+   "lines": [
+    [
+     "And fat has 9 kcal a gram,",
+     537
+    ],
+    [
+     "sugar only 4.",
+     594
+    ]
+   ]
+  },
+  {
+   "in": 640,
+   "out": 744,
+   "lines": [
+    [
+     "30 g each:",
+     641
+    ],
+    [
+     "about 180 versus 160.",
+     679
+    ]
+   ]
+  },
+  {
+   "in": 747,
+   "out": 806,
+   "lines": [
+    [
+     "Log the grams,",
+     749
+    ],
+    [
+     "not the shade.",
+     766
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "sfx0": 0,
+  "qk": 79,
+  "pageA": 92,
+  "burnish": 104,
+  "bars100": 106,
+  "dark": 111,
+  "k598": 136,
+  "k535": 200,
+  "pageB": 236,
+  "burnish2": 240,
+  "sugar": 242,
+  "half": 274,
+  "cubesD": 262,
+  "k24": 307,
+  "cubesM": 290,
+  "k52": 347,
+  "pageC": 369,
+  "burnish3": 372,
+  "pod": 374,
+  "crack": 390,
+  "butter": 420,
+  "k43": 456,
+  "k30": 505,
+  "pageD": 520,
+  "burnish4": 522,
+  "gram": 524,
+  "fat": 538,
+  "nine": 548,
+  "sugarC": 594,
+  "four": 613,
+  "pageE": 623,
+  "burnish5": 626,
+  "scales": 628,
+  "p1": 641,
+  "p2": 650,
+  "k180": 684,
+  "k160": 707,
+  "logIt": 750,
+  "cta": 806,
+  "ctaWord": 813
+ },
+ "sfx": [
+  {
+   "ev": "sfx0",
+   "type": "snap",
+   "gain": -21
+  },
+  {
+   "ev": "qk",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pageA",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "k598",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k535",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageB",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "cubesD",
+   "type": "clack",
+   "dur": 0.6,
+   "gain": -27
+  },
+  {
+   "ev": "k24",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "cubesM",
+   "type": "clack",
+   "dur": 1.3,
+   "gain": -27
+  },
+  {
+   "ev": "k52",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageC",
+   "type": "page",
+   "gain": -27
+  },
+  {
+   "ev": "crack",
+   "type": "tear",
+   "gain": -26
+  },
+  {
+   "ev": "butter",
+   "type": "pour",
+   "dur": 1.2,
+   "gain": -29
+  },
+  {
+   "ev": "k43",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k30",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageD",
+   "type": "page",
+   "gain": -28
+  },
+  {
+   "ev": "nine",
+   "type": "ticks",
+   "dur": 0.6,
+   "gain": -27
+  },
+  {
+   "ev": "four",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageE",
+   "type": "page",
+   "gain": -28
+  },
+  {
+   "ev": "p1",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "p2",
+   "type": "thud",
+   "gain": -27
+  },
+  {
+   "ev": "k180",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k160",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "logIt",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

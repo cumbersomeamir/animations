@@ -1,0 +1,66 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights",
+ "fdcId": 170273,
+ "ndbNumber": 19904,
+ "description": "Chocolate, dark, 70-85% cacao solids",
+ "per_100_g": {
+  "Total lipid (fat)": {
+   "amount": 42.6,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 45.9,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 598,
+   "unit": "kcal"
+  },
+  "Water": {
+   "amount": 1.37,
+   "unit": "g"
+  },
+  "Caffeine": {
+   "amount": 80.0,
+   "unit": "mg"
+  },
+  "Theobromine": {
+   "amount": 802,
+   "unit": "mg"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 24.0,
+   "unit": "g"
+  },
+  "Protein": {
+   "amount": 7.79,
+   "unit": "g"
+  },
+  "Fatty acids, total saturated": {
+   "amount": 24.5,
+   "unit": "g"
+  },
+  "Fiber, total dietary": {
+   "amount": 10.9,
+   "unit": "g"
+  },
+  "Iron, Fe": {
+   "amount": 11.9,
+   "unit": "mg"
+  },
+  "Magnesium, Mg": {
+   "amount": 228,
+   "unit": "mg"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "oz",
+   "gramWeight": 28.35
+  },
+  {
+   "modifier": "bar",
+   "gramWeight": 101.0
+  }
+ ]
+}

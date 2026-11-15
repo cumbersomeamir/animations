@@ -1,0 +1,70 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights",
+ "fdcId": 167587,
+ "ndbNumber": 19120,
+ "description": "Candies, milk chocolate",
+ "per_100_g": {
+  "Fatty acids, total saturated": {
+   "amount": 18.5,
+   "unit": "g"
+  },
+  "Water": {
+   "amount": 1.5,
+   "unit": "g"
+  },
+  "Caffeine": {
+   "amount": 20.0,
+   "unit": "mg"
+  },
+  "Theobromine": {
+   "amount": 205,
+   "unit": "mg"
+  },
+  "Total lipid (fat)": {
+   "amount": 29.7,
+   "unit": "g"
+  },
+  "Fiber, total dietary": {
+   "amount": 3.4,
+   "unit": "g"
+  },
+  "Iron, Fe": {
+   "amount": 2.35,
+   "unit": "mg"
+  },
+  "Magnesium, Mg": {
+   "amount": 63.0,
+   "unit": "mg"
+  },
+  "Protein": {
+   "amount": 7.65,
+   "unit": "g"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 51.5,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 59.4,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 535,
+   "unit": "kcal"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "bar, miniature",
+   "gramWeight": 7.0
+  },
+  {
+   "modifier": "cup chips",
+   "gramWeight": 168.0
+  },
+  {
+   "modifier": "bar (1.55 oz)",
+   "gramWeight": 44.0
+  }
+ ]
+}

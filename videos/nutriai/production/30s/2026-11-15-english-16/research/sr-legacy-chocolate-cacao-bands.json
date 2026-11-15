@@ -1,0 +1,46 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights",
+ "note": "context only (not narrated): every USDA dark-chocolate band has more energy per 100 g than milk chocolate, and energy rises with cacao % as sugar falls and fat rises",
+ "rows": [
+  {
+   "fdcId": 167587,
+   "description": "Candies, milk chocolate",
+   "energy_kcal": 535,
+   "sugars_g": 51.5,
+   "fat_g": 29.7,
+   "carbohydrate_g": 59.4,
+   "fiber_g": 3.4,
+   "protein_g": 7.65
+  },
+  {
+   "fdcId": 170271,
+   "description": "Chocolate, dark, 45- 59% cacao solids",
+   "energy_kcal": 546,
+   "sugars_g": 47.9,
+   "fat_g": 31.3,
+   "carbohydrate_g": 61.2,
+   "fiber_g": 7.0,
+   "protein_g": 4.88
+  },
+  {
+   "fdcId": 170272,
+   "description": "Chocolate, dark, 60-69% cacao solids",
+   "energy_kcal": 579,
+   "sugars_g": 36.7,
+   "fat_g": 38.3,
+   "carbohydrate_g": 52.4,
+   "fiber_g": 8.0,
+   "protein_g": 6.12
+  },
+  {
+   "fdcId": 170273,
+   "description": "Chocolate, dark, 70-85% cacao solids",
+   "energy_kcal": 598,
+   "sugars_g": 24.0,
+   "fat_g": 42.6,
+   "carbohydrate_g": 45.9,
+   "fiber_g": 10.9,
+   "protein_g": 7.79
+  }
+ ]
+}
