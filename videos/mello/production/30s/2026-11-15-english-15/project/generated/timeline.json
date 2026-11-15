@@ -1,0 +1,103 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Who is tomorrow-you, and why do they feel like a stranger?",
+      "start": 0.15,
+      "end": 3.164,
+      "pauses": [
+        [
+          1.175,
+          1.452
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one experiment about drinking something disgusting, people's choices for future-them looked like choices for a stranger.",
+      "start": 3.5,
+      "end": 10.505,
+      "pauses": [
+        [
+          6.421,
+          6.8
+        ],
+        [
+          8.706,
+          8.817
+        ],
+        [
+          8.96,
+          9.053
+        ]
+      ]
+    },
+    {
+      "id": "gap",
+      "text": "That distance helps a small reward now beat a bigger one later.",
+      "start": 10.85,
+      "end": 14.652,
+      "pauses": [
+        [
+          12.765,
+          13.129
+        ]
+      ]
+    },
+    {
+      "id": "fix",
+      "text": "In studies, picturing specific future events made people's choices more patient.",
+      "start": 15.0,
+      "end": 19.816,
+      "pauses": [
+        [
+          15.689,
+          15.95
+        ],
+        [
+          16.899,
+          16.999
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So picture tomorrow-you clearly, and set one specific step tonight, like shoes by the door.",
+      "start": 20.15,
+      "end": 25.385,
+      "pauses": [
+        [
+          21.798,
+          22.145
+        ],
+        [
+          23.439,
+          23.529
+        ],
+        [
+          23.949,
+          24.145
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.8,
+      "end": 28.52,
+      "pauses": []
+    }
+  ]
+}

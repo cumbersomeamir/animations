@@ -1,0 +1,13656 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     698,
+     765,
+     1005
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    138,
+    739,
+    320,
+    922
+   ],
+   "mateHead": [
+    768,
+    735,
+    950,
+    917
+   ],
+   "desk": [
+    -1739,
+    1222,
+    -633,
+    1344
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     698,
+     765,
+     1005
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    142,
+    739,
+    325,
+    921
+   ],
+   "mateHead": [
+    768,
+    735,
+    950,
+    917
+   ],
+   "desk": [
+    -1740,
+    1222,
+    -633,
+    1344
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     697,
+     766,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    147,
+    739,
+    329,
+    921
+   ],
+   "mateHead": [
+    768,
+    734,
+    951,
+    917
+   ],
+   "desk": [
+    -1741,
+    1222,
+    -633,
+    1345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     697,
+     766,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    150,
+    738,
+    333,
+    921
+   ],
+   "mateHead": [
+    768,
+    734,
+    951,
+    917
+   ],
+   "desk": [
+    -1742,
+    1222,
+    -634,
+    1345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     697,
+     767,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    152,
+    738,
+    335,
+    921
+   ],
+   "mateHead": [
+    768,
+    734,
+    951,
+    917
+   ],
+   "desk": [
+    -1743,
+    1222,
+    -634,
+    1345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     697,
+     767,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    152,
+    737,
+    336,
+    920
+   ],
+   "mateHead": [
+    769,
+    734,
+    952,
+    917
+   ],
+   "desk": [
+    -1745,
+    1222,
+    -634,
+    1345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     315,
+     696,
+     767,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    151,
+    736,
+    335,
+    920
+   ],
+   "mateHead": [
+    769,
+    733,
+    952,
+    917
+   ],
+   "desk": [
+    -1746,
+    1222,
+    -635,
+    1345
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     696,
+     768,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    149,
+    736,
+    332,
+    919
+   ],
+   "mateHead": [
+    769,
+    733,
+    952,
+    917
+   ],
+   "desk": [
+    -1748,
+    1222,
+    -635,
+    1346
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     696,
+     768,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    144,
+    734,
+    328,
+    918
+   ],
+   "mateHead": [
+    769,
+    733,
+    953,
+    917
+   ],
+   "desk": [
+    -1749,
+    1222,
+    -636,
+    1346
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     695,
+     769,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    139,
+    733,
+    324,
+    918
+   ],
+   "mateHead": [
+    769,
+    733,
+    953,
+    917
+   ],
+   "desk": [
+    -1751,
+    1222,
+    -637,
+    1346
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     695,
+     770,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    134,
+    732,
+    318,
+    917
+   ],
+   "mateHead": [
+    769,
+    733,
+    954,
+    918
+   ],
+   "desk": [
+    -1753,
+    1222,
+    -637,
+    1346
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     694,
+     770,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    128,
+    732,
+    313,
+    916
+   ],
+   "mateHead": [
+    770,
+    733,
+    955,
+    918
+   ],
+   "desk": [
+    -1756,
+    1222,
+    -638,
+    1347
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     694,
+     771,
+     1006
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    123,
+    731,
+    308,
+    916
+   ],
+   "mateHead": [
+    770,
+    733,
+    955,
+    918
+   ],
+   "desk": [
+    -1758,
+    1222,
+    -639,
+    1347
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     693,
+     772,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    118,
+    730,
+    304,
+    916
+   ],
+   "mateHead": [
+    771,
+    733,
+    956,
+    919
+   ],
+   "desk": [
+    -1761,
+    1222,
+    -640,
+    1348
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    132,
+    306,
+    868,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     693,
+     773,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    115,
+    730,
+    301,
+    915
+   ],
+   "mateHead": [
+    771,
+    733,
+    957,
+    919
+   ],
+   "desk": [
+    -1763,
+    1222,
+    -641,
+    1348
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     692,
+     774,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    113,
+    730,
+    299,
+    916
+   ],
+   "mateHead": [
+    772,
+    733,
+    958,
+    920
+   ],
+   "desk": [
+    -1766,
+    1222,
+    -641,
+    1348
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    170,
+    340,
+    830,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     692,
+     775,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    113,
+    729,
+    299,
+    916
+   ],
+   "mateHead": [
+    772,
+    733,
+    959,
+    920
+   ],
+   "desk": [
+    -1768,
+    1222,
+    -642,
+    1349
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     314,
+     691,
+     775,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    113,
+    730,
+    300,
+    916
+   ],
+   "mateHead": [
+    773,
+    733,
+    960,
+    921
+   ],
+   "desk": [
+    -1771,
+    1222,
+    -643,
+    1349
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     690,
+     776,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    116,
+    730,
+    303,
+    917
+   ],
+   "mateHead": [
+    773,
+    733,
+    961,
+    921
+   ],
+   "desk": [
+    -1774,
+    1222,
+    -644,
+    1350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     690,
+     777,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    119,
+    730,
+    306,
+    918
+   ],
+   "mateHead": [
+    774,
+    734,
+    963,
+    922
+   ],
+   "desk": [
+    -1776,
+    1222,
+    -645,
+    1350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     689,
+     778,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    122,
+    731,
+    311,
+    919
+   ],
+   "mateHead": [
+    775,
+    734,
+    964,
+    922
+   ],
+   "desk": [
+    -1779,
+    1222,
+    -646,
+    1350
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     689,
+     779,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    126,
+    731,
+    315,
+    920
+   ],
+   "mateHead": [
+    775,
+    734,
+    965,
+    923
+   ],
+   "desk": [
+    -1781,
+    1222,
+    -647,
+    1351
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     688,
+     780,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    130,
+    732,
+    319,
+    921
+   ],
+   "mateHead": [
+    776,
+    734,
+    966,
+    923
+   ],
+   "desk": [
+    -1784,
+    1222,
+    -648,
+    1351
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     688,
+     780,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    133,
+    732,
+    323,
+    922
+   ],
+   "mateHead": [
+    777,
+    733,
+    967,
+    924
+   ],
+   "desk": [
+    -1786,
+    1222,
+    -648,
+    1352
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     687,
+     781,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    135,
+    733,
+    325,
+    923
+   ],
+   "mateHead": [
+    777,
+    733,
+    968,
+    924
+   ],
+   "desk": [
+    -1788,
+    1222,
+    -649,
+    1352
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     687,
+     782,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    136,
+    733,
+    326,
+    923
+   ],
+   "mateHead": [
+    778,
+    733,
+    968,
+    924
+   ],
+   "desk": [
+    -1790,
+    1222,
+    -650,
+    1352
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     686,
+     783,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    135,
+    733,
+    325,
+    924
+   ],
+   "mateHead": [
+    778,
+    733,
+    969,
+    924
+   ],
+   "desk": [
+    -1792,
+    1222,
+    -650,
+    1353
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     686,
+     783,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    132,
+    733,
+    323,
+    924
+   ],
+   "mateHead": [
+    778,
+    733,
+    970,
+    924
+   ],
+   "desk": [
+    -1794,
+    1222,
+    -651,
+    1353
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     686,
+     784,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    128,
+    733,
+    319,
+    924
+   ],
+   "mateHead": [
+    778,
+    732,
+    970,
+    924
+   ],
+   "desk": [
+    -1796,
+    1222,
+    -651,
+    1353
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     313,
+     685,
+     784,
+     1008
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    124,
+    732,
+    315,
+    923
+   ],
+   "mateHead": [
+    778,
+    732,
+    971,
+    924
+   ],
+   "desk": [
+    -1797,
+    1222,
+    -652,
+    1353
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     312,
+     685,
+     785,
+     1009
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    118,
+    732,
+    310,
+    923
+   ],
+   "mateHead": [
+    779,
+    731,
+    971,
+    924
+   ],
+   "desk": [
+    -1798,
+    1222,
+    -652,
+    1354
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     312,
+     685,
+     785,
+     1009
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    113,
+    731,
+    304,
+    922
+   ],
+   "mateHead": [
+    779,
+    731,
+    971,
+    923
+   ],
+   "desk": [
+    -1799,
+    1222,
+    -653,
+    1354
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     312,
+     684,
+     785,
+     1009
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    108,
+    730,
+    299,
+    922
+   ],
+   "mateHead": [
+    779,
+    730,
+    971,
+    923
+   ],
+   "desk": [
+    -1800,
+    1222,
+    -653,
+    1354
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     312,
+     684,
+     786,
+     1009
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    104,
+    730,
+    295,
+    921
+   ],
+   "mateHead": [
+    779,
+    730,
+    972,
+    923
+   ],
+   "desk": [
+    -1801,
+    1222,
+    -653,
+    1354
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    167,
+    340,
+    833,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    84,
+    807,
+    303,
+    1026
+   ],
+   "mateHead": [
+    860,
+    808,
+    1084,
+    1032
+   ],
+   "desk": [
+    -1949,
+    1342,
+    -686,
+    1502
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    82,
+    806,
+    301,
+    1025
+   ],
+   "mateHead": [
+    860,
+    807,
+    1083,
+    1031
+   ],
+   "desk": [
+    -1951,
+    1342,
+    -687,
+    1502
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    117,
+    363,
+    883,
+    497
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     677,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    82,
+    806,
+    301,
+    1025
+   ],
+   "mateHead": [
+    859,
+    806,
+    1083,
+    1030
+   ],
+   "desk": [
+    -1953,
+    1343,
+    -688,
+    1502
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     676,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    84,
+    805,
+    302,
+    1024
+   ],
+   "mateHead": [
+    859,
+    806,
+    1083,
+    1030
+   ],
+   "desk": [
+    -1954,
+    1343,
+    -689,
+    1503
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     676,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    86,
+    805,
+    305,
+    1024
+   ],
+   "mateHead": [
+    859,
+    805,
+    1083,
+    1029
+   ],
+   "desk": [
+    -1956,
+    1343,
+    -690,
+    1503
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     676,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    90,
+    805,
+    309,
+    1024
+   ],
+   "mateHead": [
+    859,
+    804,
+    1083,
+    1028
+   ],
+   "desk": [
+    -1958,
+    1343,
+    -690,
+    1503
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": [
+     162,
+     676,
+     918,
+     1240
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    95,
+    804,
+    315,
+    1024
+   ],
+   "mateHead": [
+    859,
+    804,
+    1083,
+    1028
+   ],
+   "desk": [
+    -1959,
+    1344,
+    -692,
+    1503
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    100,
+    804,
+    320,
+    1024
+   ],
+   "mateHead": [
+    859,
+    803,
+    1083,
+    1027
+   ],
+   "desk": [
+    -1961,
+    1344,
+    -693,
+    1504
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    105,
+    804,
+    325,
+    1024
+   ],
+   "mateHead": [
+    859,
+    802,
+    1083,
+    1026
+   ],
+   "desk": [
+    -1963,
+    1344,
+    -694,
+    1504
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    110,
+    804,
+    330,
+    1024
+   ],
+   "mateHead": [
+    858,
+    802,
+    1083,
+    1026
+   ],
+   "desk": [
+    -1966,
+    1344,
+    -695,
+    1504
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    113,
+    804,
+    333,
+    1024
+   ],
+   "mateHead": [
+    858,
+    801,
+    1083,
+    1025
+   ],
+   "desk": [
+    -1968,
+    1345,
+    -696,
+    1505
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    115,
+    803,
+    335,
+    1023
+   ],
+   "mateHead": [
+    858,
+    801,
+    1083,
+    1025
+   ],
+   "desk": [
+    -1970,
+    1345,
+    -697,
+    1505
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    114,
+    802,
+    335,
+    1023
+   ],
+   "mateHead": [
+    858,
+    800,
+    1083,
+    1024
+   ],
+   "desk": [
+    -1973,
+    1345,
+    -699,
+    1505
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    112,
+    802,
+    333,
+    1022
+   ],
+   "mateHead": [
+    858,
+    800,
+    1083,
+    1024
+   ],
+   "desk": [
+    -1975,
+    1346,
+    -700,
+    1506
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    109,
+    801,
+    329,
+    1021
+   ],
+   "mateHead": [
+    858,
+    799,
+    1082,
+    1024
+   ],
+   "desk": [
+    -1978,
+    1346,
+    -702,
+    1506
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     161,
+     676,
+     919,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    104,
+    800,
+    324,
+    1020
+   ],
+   "mateHead": [
+    858,
+    799,
+    1082,
+    1024
+   ],
+   "desk": [
+    -1981,
+    1347,
+    -703,
+    1507
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    98,
+    799,
+    318,
+    1019
+   ],
+   "mateHead": [
+    857,
+    799,
+    1082,
+    1024
+   ],
+   "desk": [
+    -1984,
+    1347,
+    -705,
+    1507
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1241
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    91,
+    798,
+    312,
+    1018
+   ],
+   "mateHead": [
+    857,
+    799,
+    1082,
+    1024
+   ],
+   "desk": [
+    -1987,
+    1348,
+    -707,
+    1508
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    85,
+    797,
+    306,
+    1018
+   ],
+   "mateHead": [
+    857,
+    799,
+    1081,
+    1024
+   ],
+   "desk": [
+    -1990,
+    1348,
+    -708,
+    1508
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    80,
+    797,
+    300,
+    1017
+   ],
+   "mateHead": [
+    856,
+    799,
+    1081,
+    1024
+   ],
+   "desk": [
+    -1993,
+    1348,
+    -710,
+    1509
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    76,
+    797,
+    296,
+    1017
+   ],
+   "mateHead": [
+    856,
+    799,
+    1080,
+    1024
+   ],
+   "desk": [
+    -1997,
+    1349,
+    -712,
+    1509
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     160,
+     675,
+     920,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    73,
+    797,
+    294,
+    1017
+   ],
+   "mateHead": [
+    855,
+    800,
+    1080,
+    1024
+   ],
+   "desk": [
+    -2000,
+    1350,
+    -714,
+    1510
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     675,
+     921,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    72,
+    797,
+    293,
+    1017
+   ],
+   "mateHead": [
+    855,
+    800,
+    1080,
+    1025
+   ],
+   "desk": [
+    -2004,
+    1350,
+    -716,
+    1510
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     675,
+     921,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    73,
+    797,
+    293,
+    1018
+   ],
+   "mateHead": [
+    854,
+    801,
+    1079,
+    1025
+   ],
+   "desk": [
+    -2008,
+    1351,
+    -718,
+    1511
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    75,
+    798,
+    295,
+    1019
+   ],
+   "mateHead": [
+    854,
+    801,
+    1079,
+    1026
+   ],
+   "desk": [
+    -2012,
+    1351,
+    -721,
+    1511
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1242
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    78,
+    799,
+    299,
+    1020
+   ],
+   "mateHead": [
+    854,
+    802,
+    1079,
+    1026
+   ],
+   "desk": [
+    -2016,
+    1352,
+    -723,
+    1512
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     159,
+     674,
+     921,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    82,
+    800,
+    303,
+    1021
+   ],
+   "mateHead": [
+    853,
+    802,
+    1078,
+    1027
+   ],
+   "desk": [
+    -2020,
+    1352,
+    -725,
+    1513
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    87,
+    801,
+    308,
+    1022
+   ],
+   "mateHead": [
+    853,
+    803,
+    1078,
+    1028
+   ],
+   "desk": [
+    -2024,
+    1353,
+    -727,
+    1513
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    92,
+    802,
+    313,
+    1024
+   ],
+   "mateHead": [
+    853,
+    803,
+    1078,
+    1028
+   ],
+   "desk": [
+    -2028,
+    1354,
+    -730,
+    1514
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    96,
+    803,
+    318,
+    1025
+   ],
+   "mateHead": [
+    852,
+    804,
+    1078,
+    1029
+   ],
+   "desk": [
+    -2033,
+    1354,
+    -732,
+    1515
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     674,
+     922,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    99,
+    805,
+    321,
+    1027
+   ],
+   "mateHead": [
+    852,
+    804,
+    1077,
+    1030
+   ],
+   "desk": [
+    -2037,
+    1355,
+    -735,
+    1515
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     158,
+     673,
+     922,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    101,
+    806,
+    323,
+    1028
+   ],
+   "mateHead": [
+    852,
+    805,
+    1077,
+    1030
+   ],
+   "desk": [
+    -2042,
+    1356,
+    -737,
+    1516
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1243
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    100,
+    806,
+    323,
+    1029
+   ],
+   "mateHead": [
+    852,
+    806,
+    1077,
+    1031
+   ],
+   "desk": [
+    -2046,
+    1356,
+    -740,
+    1517
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    112,
+    362,
+    888,
+    498
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    98,
+    807,
+    321,
+    1029
+   ],
+   "mateHead": [
+    851,
+    806,
+    1077,
+    1032
+   ],
+   "desk": [
+    -2051,
+    1357,
+    -742,
+    1518
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    94,
+    807,
+    317,
+    1030
+   ],
+   "mateHead": [
+    851,
+    806,
+    1077,
+    1032
+   ],
+   "desk": [
+    -2056,
+    1358,
+    -745,
+    1518
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    232,
+    341,
+    768,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    89,
+    807,
+    312,
+    1030
+   ],
+   "mateHead": [
+    851,
+    807,
+    1077,
+    1033
+   ],
+   "desk": [
+    -2060,
+    1358,
+    -747,
+    1519
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     673,
+     923,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    83,
+    807,
+    306,
+    1029
+   ],
+   "mateHead": [
+    851,
+    807,
+    1077,
+    1033
+   ],
+   "desk": [
+    -2065,
+    1359,
+    -750,
+    1520
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     672,
+     924,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    77,
+    806,
+    299,
+    1029
+   ],
+   "mateHead": [
+    850,
+    807,
+    1076,
+    1033
+   ],
+   "desk": [
+    -2070,
+    1360,
+    -752,
+    1521
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     672,
+     924,
+     1244
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    70,
+    806,
+    293,
+    1029
+   ],
+   "mateHead": [
+    850,
+    807,
+    1076,
+    1033
+   ],
+   "desk": [
+    -2074,
+    1360,
+    -755,
+    1521
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     672,
+     924,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    64,
+    806,
+    287,
+    1028
+   ],
+   "mateHead": [
+    850,
+    807,
+    1076,
+    1033
+   ],
+   "desk": [
+    -2079,
+    1361,
+    -758,
+    1522
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     672,
+     924,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    60,
+    805,
+    283,
+    1028
+   ],
+   "mateHead": [
+    849,
+    807,
+    1075,
+    1033
+   ],
+   "desk": [
+    -2084,
+    1362,
+    -760,
+    1523
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     672,
+     925,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    56,
+    805,
+    279,
+    1028
+   ],
+   "mateHead": [
+    849,
+    807,
+    1075,
+    1033
+   ],
+   "desk": [
+    -2089,
+    1363,
+    -763,
+    1523
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     672,
+     925,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    55,
+    805,
+    278,
+    1028
+   ],
+   "mateHead": [
+    848,
+    807,
+    1074,
+    1033
+   ],
+   "desk": [
+    -2093,
+    1363,
+    -765,
+    1524
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     671,
+     925,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    55,
+    804,
+    278,
+    1028
+   ],
+   "mateHead": [
+    847,
+    806,
+    1074,
+    1033
+   ],
+   "desk": [
+    -2098,
+    1364,
+    -768,
+    1525
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     671,
+     925,
+     1245
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    56,
+    804,
+    280,
+    1027
+   ],
+   "mateHead": [
+    847,
+    806,
+    1073,
+    1032
+   ],
+   "desk": [
+    -2102,
+    1365,
+    -770,
+    1526
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     671,
+     925,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    59,
+    804,
+    283,
+    1027
+   ],
+   "mateHead": [
+    846,
+    805,
+    1073,
+    1032
+   ],
+   "desk": [
+    -2107,
+    1365,
+    -773,
+    1526
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     671,
+     926,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    63,
+    803,
+    287,
+    1027
+   ],
+   "mateHead": [
+    846,
+    804,
+    1072,
+    1031
+   ],
+   "desk": [
+    -2111,
+    1366,
+    -775,
+    1527
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     671,
+     926,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    68,
+    803,
+    292,
+    1027
+   ],
+   "mateHead": [
+    845,
+    804,
+    1072,
+    1030
+   ],
+   "desk": [
+    -2116,
+    1367,
+    -777,
+    1528
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     671,
+     926,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    73,
+    803,
+    298,
+    1027
+   ],
+   "mateHead": [
+    845,
+    803,
+    1071,
+    1030
+   ],
+   "desk": [
+    -2120,
+    1367,
+    -780,
+    1528
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    229,
+    340,
+    771,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     670,
+     926,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    78,
+    803,
+    302,
+    1027
+   ],
+   "mateHead": [
+    844,
+    802,
+    1071,
+    1029
+   ],
+   "desk": [
+    -2124,
+    1368,
+    -782,
+    1529
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     670,
+     926,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    82,
+    802,
+    306,
+    1027
+   ],
+   "mateHead": [
+    844,
+    802,
+    1071,
+    1028
+   ],
+   "desk": [
+    -2128,
+    1369,
+    -784,
+    1530
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    205,
+    341,
+    795,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1246
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    84,
+    802,
+    309,
+    1027
+   ],
+   "mateHead": [
+    843,
+    801,
+    1070,
+    1028
+   ],
+   "desk": [
+    -2132,
+    1369,
+    -786,
+    1530
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    84,
+    801,
+    310,
+    1026
+   ],
+   "mateHead": [
+    843,
+    800,
+    1070,
+    1027
+   ],
+   "desk": [
+    -2136,
+    1370,
+    -788,
+    1531
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    83,
+    801,
+    308,
+    1026
+   ],
+   "mateHead": [
+    843,
+    799,
+    1070,
+    1026
+   ],
+   "desk": [
+    -2140,
+    1370,
+    -791,
+    1532
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    80,
+    800,
+    305,
+    1025
+   ],
+   "mateHead": [
+    843,
+    799,
+    1070,
+    1026
+   ],
+   "desk": [
+    -2143,
+    1371,
+    -792,
+    1532
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    75,
+    798,
+    301,
+    1024
+   ],
+   "mateHead": [
+    842,
+    798,
+    1070,
+    1025
+   ],
+   "desk": [
+    -2147,
+    1371,
+    -794,
+    1533
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     670,
+     927,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    70,
+    797,
+    295,
+    1023
+   ],
+   "mateHead": [
+    842,
+    797,
+    1070,
+    1025
+   ],
+   "desk": [
+    -2150,
+    1372,
+    -796,
+    1533
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    63,
+    796,
+    289,
+    1022
+   ],
+   "mateHead": [
+    842,
+    797,
+    1070,
+    1024
+   ],
+   "desk": [
+    -2153,
+    1372,
+    -798,
+    1534
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    57,
+    795,
+    282,
+    1021
+   ],
+   "mateHead": [
+    842,
+    796,
+    1070,
+    1024
+   ],
+   "desk": [
+    -2157,
+    1373,
+    -800,
+    1534
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    51,
+    795,
+    276,
+    1020
+   ],
+   "mateHead": [
+    842,
+    796,
+    1069,
+    1023
+   ],
+   "desk": [
+    -2160,
+    1373,
+    -801,
+    1535
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1247
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    46,
+    794,
+    272,
+    1020
+   ],
+   "mateHead": [
+    842,
+    796,
+    1069,
+    1023
+   ],
+   "desk": [
+    -2162,
+    1374,
+    -803,
+    1535
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    43,
+    794,
+    268,
+    1019
+   ],
+   "mateHead": [
+    842,
+    795,
+    1069,
+    1023
+   ],
+   "desk": [
+    -2165,
+    1374,
+    -804,
+    1536
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    41,
+    794,
+    266,
+    1019
+   ],
+   "mateHead": [
+    841,
+    795,
+    1069,
+    1023
+   ],
+   "desk": [
+    -2168,
+    1375,
+    -806,
+    1536
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    41,
+    794,
+    266,
+    1020
+   ],
+   "mateHead": [
+    841,
+    795,
+    1069,
+    1023
+   ],
+   "desk": [
+    -2170,
+    1375,
+    -807,
+    1536
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     669,
+     928,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    42,
+    795,
+    268,
+    1020
+   ],
+   "mateHead": [
+    841,
+    795,
+    1068,
+    1023
+   ],
+   "desk": [
+    -2173,
+    1375,
+    -808,
+    1537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     669,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    46,
+    795,
+    271,
+    1021
+   ],
+   "mateHead": [
+    840,
+    795,
+    1068,
+    1023
+   ],
+   "desk": [
+    -2175,
+    1376,
+    -809,
+    1537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     669,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    50,
+    796,
+    276,
+    1022
+   ],
+   "mateHead": [
+    840,
+    796,
+    1068,
+    1024
+   ],
+   "desk": [
+    -2177,
+    1376,
+    -811,
+    1537
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     669,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    55,
+    797,
+    281,
+    1023
+   ],
+   "mateHead": [
+    840,
+    796,
+    1067,
+    1024
+   ],
+   "desk": [
+    -2179,
+    1376,
+    -812,
+    1538
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     668,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    61,
+    798,
+    287,
+    1025
+   ],
+   "mateHead": [
+    839,
+    796,
+    1067,
+    1024
+   ],
+   "desk": [
+    -2181,
+    1377,
+    -813,
+    1538
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     668,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    66,
+    800,
+    292,
+    1026
+   ],
+   "mateHead": [
+    839,
+    797,
+    1067,
+    1025
+   ],
+   "desk": [
+    -2183,
+    1377,
+    -814,
+    1538
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     668,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    70,
+    801,
+    297,
+    1027
+   ],
+   "mateHead": [
+    839,
+    797,
+    1066,
+    1025
+   ],
+   "desk": [
+    -2185,
+    1377,
+    -815,
+    1539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     668,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    73,
+    802,
+    300,
+    1029
+   ],
+   "mateHead": [
+    838,
+    798,
+    1066,
+    1026
+   ],
+   "desk": [
+    -2187,
+    1377,
+    -816,
+    1539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     668,
+     929,
+     1248
+    ],
+    "calendar": null,
+    "shoes by the door": null
+   },
+   "head": [
+    75,
+    803,
+    301,
+    1030
+   ],
+   "mateHead": [
+    838,
+    799,
+    1066,
+    1027
+   ],
+   "desk": [
+    -2188,
+    1378,
+    -817,
+    1539
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     295,
+     623,
+     897,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    23,
+    660,
+    272,
+    910
+   ],
+   "mateHead": [
+    887,
+    657,
+    1140,
+    910
+   ],
+   "desk": [
+    -2342,
+    1301,
+    -869,
+    1467
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    202,
+    340,
+    798,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     294,
+     623,
+     897,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    22,
+    661,
+    272,
+    910
+   ],
+   "mateHead": [
+    887,
+    657,
+    1140,
+    910
+   ],
+   "desk": [
+    -2346,
+    1301,
+    -871,
+    1467
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     294,
+     623,
+     896,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    22,
+    662,
+    271,
+    911
+   ],
+   "mateHead": [
+    887,
+    658,
+    1140,
+    911
+   ],
+   "desk": [
+    -2350,
+    1302,
+    -873,
+    1468
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    192,
+    340,
+    808,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     293,
+     623,
+     896,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    21,
+    662,
+    270,
+    912
+   ],
+   "mateHead": [
+    886,
+    658,
+    1140,
+    912
+   ],
+   "desk": [
+    -2355,
+    1302,
+    -875,
+    1469
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     292,
+     623,
+     895,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    20,
+    662,
+    270,
+    912
+   ],
+   "mateHead": [
+    886,
+    659,
+    1140,
+    913
+   ],
+   "desk": [
+    -2359,
+    1303,
+    -877,
+    1469
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     291,
+     622,
+     894,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    19,
+    663,
+    269,
+    913
+   ],
+   "mateHead": [
+    886,
+    659,
+    1140,
+    913
+   ],
+   "desk": [
+    -2364,
+    1303,
+    -880,
+    1470
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     290,
+     622,
+     894,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    18,
+    663,
+    268,
+    913
+   ],
+   "mateHead": [
+    886,
+    660,
+    1140,
+    914
+   ],
+   "desk": [
+    -2370,
+    1304,
+    -883,
+    1471
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     288,
+     622,
+     893,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    17,
+    663,
+    267,
+    913
+   ],
+   "mateHead": [
+    885,
+    660,
+    1139,
+    914
+   ],
+   "desk": [
+    -2376,
+    1305,
+    -886,
+    1472
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     287,
+     622,
+     892,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    15,
+    663,
+    266,
+    913
+   ],
+   "mateHead": [
+    885,
+    660,
+    1139,
+    915
+   ],
+   "desk": [
+    -2383,
+    1306,
+    -889,
+    1472
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     286,
+     621,
+     891,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    14,
+    662,
+    265,
+    913
+   ],
+   "mateHead": [
+    885,
+    661,
+    1139,
+    915
+   ],
+   "desk": [
+    -2390,
+    1307,
+    -893,
+    1473
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     284,
+     621,
+     890,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    13,
+    662,
+    264,
+    913
+   ],
+   "mateHead": [
+    884,
+    660,
+    1139,
+    915
+   ],
+   "desk": [
+    -2398,
+    1307,
+    -897,
+    1475
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     282,
+     621,
+     889,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    11,
+    661,
+    263,
+    913
+   ],
+   "mateHead": [
+    884,
+    660,
+    1139,
+    915
+   ],
+   "desk": [
+    -2406,
+    1308,
+    -901,
+    1476
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     281,
+     620,
+     888,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    10,
+    661,
+    262,
+    913
+   ],
+   "mateHead": [
+    883,
+    660,
+    1138,
+    915
+   ],
+   "desk": [
+    -2415,
+    1310,
+    -905,
+    1477
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     279,
+     620,
+     887,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    8,
+    660,
+    260,
+    912
+   ],
+   "mateHead": [
+    883,
+    660,
+    1138,
+    915
+   ],
+   "desk": [
+    -2425,
+    1311,
+    -910,
+    1478
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     277,
+     620,
+     886,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    6,
+    659,
+    259,
+    912
+   ],
+   "mateHead": [
+    882,
+    659,
+    1138,
+    915
+   ],
+   "desk": [
+    -2435,
+    1312,
+    -915,
+    1480
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     275,
+     619,
+     884,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    4,
+    658,
+    257,
+    911
+   ],
+   "mateHead": [
+    882,
+    659,
+    1137,
+    914
+   ],
+   "desk": [
+    -2445,
+    1313,
+    -920,
+    1481
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     272,
+     619,
+     883,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    2,
+    657,
+    256,
+    910
+   ],
+   "mateHead": [
+    881,
+    658,
+    1137,
+    914
+   ],
+   "desk": [
+    -2456,
+    1314,
+    -926,
+    1483
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     270,
+     618,
+     882,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    0,
+    655,
+    254,
+    909
+   ],
+   "mateHead": [
+    880,
+    657,
+    1137,
+    913
+   ],
+   "desk": [
+    -2468,
+    1316,
+    -931,
+    1484
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     268,
+     618,
+     880,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -2,
+    654,
+    253,
+    908
+   ],
+   "mateHead": [
+    880,
+    656,
+    1136,
+    913
+   ],
+   "desk": [
+    -2479,
+    1317,
+    -937,
+    1486
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     266,
+     618,
+     879,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -4,
+    653,
+    251,
+    908
+   ],
+   "mateHead": [
+    879,
+    655,
+    1136,
+    912
+   ],
+   "desk": [
+    -2491,
+    1319,
+    -943,
+    1488
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     263,
+     617,
+     877,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -6,
+    651,
+    250,
+    907
+   ],
+   "mateHead": [
+    878,
+    654,
+    1136,
+    911
+   ],
+   "desk": [
+    -2503,
+    1320,
+    -949,
+    1489
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     261,
+     617,
+     876,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -8,
+    650,
+    248,
+    906
+   ],
+   "mateHead": [
+    878,
+    653,
+    1135,
+    910
+   ],
+   "desk": [
+    -2515,
+    1322,
+    -955,
+    1491
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     258,
+     616,
+     874,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -10,
+    649,
+    246,
+    905
+   ],
+   "mateHead": [
+    877,
+    651,
+    1135,
+    909
+   ],
+   "desk": [
+    -2528,
+    1323,
+    -961,
+    1493
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    189,
+    340,
+    811,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     256,
+     616,
+     873,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -12,
+    648,
+    245,
+    904
+   ],
+   "mateHead": [
+    876,
+    650,
+    1134,
+    908
+   ],
+   "desk": [
+    -2540,
+    1325,
+    -967,
+    1494
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     254,
+     615,
+     871,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -14,
+    646,
+    243,
+    904
+   ],
+   "mateHead": [
+    875,
+    649,
+    1134,
+    907
+   ],
+   "desk": [
+    -2552,
+    1326,
+    -973,
+    1496
+   ],
+   "caption": [
+    106,
+    341,
+    894,
+    519
+   ],
+   "captionText": [
+    206,
+    341,
+    794,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     251,
+     615,
+     870,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -16,
+    645,
+    241,
+    903
+   ],
+   "mateHead": [
+    875,
+    648,
+    1134,
+    907
+   ],
+   "desk": [
+    -2564,
+    1327,
+    -979,
+    1498
+   ],
+   "caption": [
+    102,
+    340,
+    898,
+    520
+   ],
+   "captionText": [
+    203,
+    340,
+    797,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     249,
+     614,
+     868,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -18,
+    644,
+    240,
+    902
+   ],
+   "mateHead": [
+    874,
+    646,
+    1133,
+    906
+   ],
+   "desk": [
+    -2576,
+    1329,
+    -985,
+    1499
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     247,
+     614,
+     867,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -20,
+    643,
+    238,
+    902
+   ],
+   "mateHead": [
+    873,
+    645,
+    1133,
+    905
+   ],
+   "desk": [
+    -2587,
+    1330,
+    -990,
+    1501
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     245,
+     614,
+     865,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -22,
+    643,
+    237,
+    902
+   ],
+   "mateHead": [
+    873,
+    644,
+    1133,
+    904
+   ],
+   "desk": [
+    -2599,
+    1332,
+    -996,
+    1502
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     243,
+     613,
+     864,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -24,
+    642,
+    235,
+    902
+   ],
+   "mateHead": [
+    872,
+    643,
+    1132,
+    903
+   ],
+   "desk": [
+    -2609,
+    1333,
+    -1001,
+    1504
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     241,
+     613,
+     863,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -26,
+    642,
+    234,
+    901
+   ],
+   "mateHead": [
+    872,
+    642,
+    1132,
+    903
+   ],
+   "desk": [
+    -2619,
+    1334,
+    -1006,
+    1505
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     239,
+     613,
+     862,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -27,
+    642,
+    233,
+    902
+   ],
+   "mateHead": [
+    871,
+    641,
+    1132,
+    902
+   ],
+   "desk": [
+    -2629,
+    1335,
+    -1010,
+    1507
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     237,
+     612,
+     861,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -29,
+    641,
+    232,
+    902
+   ],
+   "mateHead": [
+    870,
+    641,
+    1131,
+    901
+   ],
+   "desk": [
+    -2638,
+    1336,
+    -1015,
+    1508
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     236,
+     612,
+     860,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -30,
+    641,
+    230,
+    902
+   ],
+   "mateHead": [
+    870,
+    640,
+    1131,
+    901
+   ],
+   "desk": [
+    -2646,
+    1337,
+    -1019,
+    1509
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     234,
+     612,
+     859,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -32,
+    642,
+    229,
+    903
+   ],
+   "mateHead": [
+    870,
+    640,
+    1131,
+    901
+   ],
+   "desk": [
+    -2654,
+    1338,
+    -1022,
+    1510
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     233,
+     611,
+     858,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -33,
+    642,
+    228,
+    903
+   ],
+   "mateHead": [
+    869,
+    639,
+    1131,
+    901
+   ],
+   "desk": [
+    -2662,
+    1339,
+    -1026,
+    1511
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     232,
+     611,
+     857,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -34,
+    642,
+    227,
+    904
+   ],
+   "mateHead": [
+    869,
+    639,
+    1130,
+    901
+   ],
+   "desk": [
+    -2668,
+    1340,
+    -1029,
+    1512
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     231,
+     611,
+     856,
+     1039
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -35,
+    643,
+    227,
+    905
+   ],
+   "mateHead": [
+    868,
+    639,
+    1130,
+    901
+   ],
+   "desk": [
+    -2674,
+    1341,
+    -1032,
+    1513
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     230,
+     611,
+     856,
+     1040
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -36,
+    644,
+    226,
+    905
+   ],
+   "mateHead": [
+    868,
+    639,
+    1130,
+    901
+   ],
+   "desk": [
+    -2680,
+    1341,
+    -1035,
+    1514
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     229,
+     610,
+     855,
+     1040
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -37,
+    644,
+    225,
+    906
+   ],
+   "mateHead": [
+    868,
+    639,
+    1130,
+    901
+   ],
+   "desk": [
+    -2685,
+    1342,
+    -1037,
+    1515
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     228,
+     610,
+     854,
+     1040
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -38,
+    645,
+    224,
+    907
+   ],
+   "mateHead": [
+    868,
+    639,
+    1130,
+    902
+   ],
+   "desk": [
+    -2690,
+    1343,
+    -1039,
+    1515
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     227,
+     610,
+     854,
+     1040
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -39,
+    646,
+    224,
+    908
+   ],
+   "mateHead": [
+    867,
+    640,
+    1130,
+    902
+   ],
+   "desk": [
+    -2695,
+    1343,
+    -1042,
+    1516
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    201,
+    340,
+    799,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     144,
+     605,
+     826,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -186,
+    653,
+    100,
+    939
+   ],
+   "mateHead": [
+    804,
+    646,
+    1096,
+    937
+   ],
+   "desk": [
+    -2826,
+    1347,
+    -1120,
+    1560
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     144,
+     605,
+     825,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -187,
+    653,
+    100,
+    940
+   ],
+   "mateHead": [
+    804,
+    647,
+    1096,
+    938
+   ],
+   "desk": [
+    -2831,
+    1348,
+    -1122,
+    1561
+   ],
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    317,
+    380,
+    683,
+    480
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     143,
+     605,
+     825,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -187,
+    654,
+    99,
+    940
+   ],
+   "mateHead": [
+    805,
+    647,
+    1096,
+    939
+   ],
+   "desk": [
+    -2835,
+    1348,
+    -1124,
+    1561
+   ],
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     143,
+     604,
+     825,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -188,
+    655,
+    99,
+    941
+   ],
+   "mateHead": [
+    805,
+    648,
+    1096,
+    940
+   ],
+   "desk": [
+    -2840,
+    1349,
+    -1126,
+    1562
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     142,
+     604,
+     825,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -188,
+    655,
+    99,
+    942
+   ],
+   "mateHead": [
+    805,
+    649,
+    1097,
+    940
+   ],
+   "desk": [
+    -2845,
+    1350,
+    -1128,
+    1563
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     141,
+     604,
+     824,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -189,
+    656,
+    98,
+    943
+   ],
+   "mateHead": [
+    805,
+    649,
+    1097,
+    941
+   ],
+   "desk": [
+    -2851,
+    1350,
+    -1131,
+    1564
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     141,
+     604,
+     824,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -189,
+    656,
+    98,
+    943
+   ],
+   "mateHead": [
+    806,
+    650,
+    1098,
+    942
+   ],
+   "desk": [
+    -2856,
+    1351,
+    -1134,
+    1565
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     140,
+     604,
+     824,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -190,
+    656,
+    97,
+    943
+   ],
+   "mateHead": [
+    806,
+    651,
+    1098,
+    943
+   ],
+   "desk": [
+    -2863,
+    1352,
+    -1136,
+    1566
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     139,
+     603,
+     823,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -191,
+    656,
+    97,
+    944
+   ],
+   "mateHead": [
+    806,
+    651,
+    1098,
+    944
+   ],
+   "desk": [
+    -2869,
+    1353,
+    -1139,
+    1567
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     138,
+     603,
+     823,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -192,
+    656,
+    96,
+    944
+   ],
+   "mateHead": [
+    806,
+    652,
+    1099,
+    944
+   ],
+   "desk": [
+    -2877,
+    1354,
+    -1143,
+    1568
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    315,
+    379,
+    685,
+    481
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     137,
+     603,
+     823,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -192,
+    655,
+    96,
+    943
+   ],
+   "mateHead": [
+    807,
+    652,
+    1099,
+    945
+   ],
+   "desk": [
+    -2884,
+    1355,
+    -1146,
+    1569
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     136,
+     603,
+     822,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -193,
+    655,
+    95,
+    943
+   ],
+   "mateHead": [
+    807,
+    653,
+    1100,
+    946
+   ],
+   "desk": [
+    -2893,
+    1356,
+    -1150,
+    1571
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    216,
+    340,
+    784,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     135,
+     602,
+     822,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -194,
+    654,
+    95,
+    943
+   ],
+   "mateHead": [
+    807,
+    653,
+    1100,
+    946
+   ],
+   "desk": [
+    -2901,
+    1357,
+    -1154,
+    1572
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     134,
+     602,
+     821,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -195,
+    653,
+    94,
+    942
+   ],
+   "mateHead": [
+    807,
+    653,
+    1101,
+    946
+   ],
+   "desk": [
+    -2911,
+    1358,
+    -1158,
+    1573
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     132,
+     602,
+     821,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -196,
+    652,
+    94,
+    942
+   ],
+   "mateHead": [
+    808,
+    653,
+    1101,
+    947
+   ],
+   "desk": [
+    -2921,
+    1360,
+    -1162,
+    1575
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     131,
+     601,
+     820,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -197,
+    651,
+    93,
+    941
+   ],
+   "mateHead": [
+    808,
+    653,
+    1102,
+    947
+   ],
+   "desk": [
+    -2931,
+    1361,
+    -1167,
+    1577
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     130,
+     601,
+     820,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -198,
+    650,
+    92,
+    940
+   ],
+   "mateHead": [
+    808,
+    653,
+    1102,
+    947
+   ],
+   "desk": [
+    -2942,
+    1363,
+    -1171,
+    1578
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     128,
+     601,
+     819,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -199,
+    649,
+    92,
+    940
+   ],
+   "mateHead": [
+    809,
+    652,
+    1103,
+    947
+   ],
+   "desk": [
+    -2953,
+    1364,
+    -1176,
+    1580
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     127,
+     600,
+     819,
+     1075
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -200,
+    647,
+    91,
+    939
+   ],
+   "mateHead": [
+    809,
+    652,
+    1104,
+    946
+   ],
+   "desk": [
+    -2965,
+    1366,
+    -1181,
+    1582
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     125,
+     600,
+     818,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -202,
+    646,
+    90,
+    938
+   ],
+   "mateHead": [
+    809,
+    651,
+    1104,
+    946
+   ],
+   "desk": [
+    -2977,
+    1367,
+    -1187,
+    1584
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     599,
+     817,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -203,
+    644,
+    90,
+    937
+   ],
+   "mateHead": [
+    810,
+    650,
+    1105,
+    946
+   ],
+   "desk": [
+    -2990,
+    1369,
+    -1192,
+    1586
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     122,
+     599,
+     817,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -204,
+    643,
+    89,
+    936
+   ],
+   "mateHead": [
+    810,
+    649,
+    1106,
+    945
+   ],
+   "desk": [
+    -3003,
+    1371,
+    -1198,
+    1588
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     121,
+     599,
+     816,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -205,
+    642,
+    88,
+    935
+   ],
+   "mateHead": [
+    810,
+    648,
+    1106,
+    944
+   ],
+   "desk": [
+    -3016,
+    1373,
+    -1204,
+    1590
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     119,
+     598,
+     815,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -207,
+    640,
+    87,
+    934
+   ],
+   "mateHead": [
+    811,
+    647,
+    1107,
+    943
+   ],
+   "desk": [
+    -3030,
+    1374,
+    -1209,
+    1592
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     117,
+     598,
+     815,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -208,
+    639,
+    87,
+    934
+   ],
+   "mateHead": [
+    811,
+    646,
+    1108,
+    943
+   ],
+   "desk": [
+    -3043,
+    1376,
+    -1215,
+    1594
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     116,
+     597,
+     814,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -209,
+    638,
+    86,
+    933
+   ],
+   "mateHead": [
+    811,
+    645,
+    1108,
+    942
+   ],
+   "desk": [
+    -3057,
+    1378,
+    -1221,
+    1597
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    213,
+    340,
+    787,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     114,
+     597,
+     813,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -211,
+    637,
+    85,
+    933
+   ],
+   "mateHead": [
+    812,
+    643,
+    1109,
+    941
+   ],
+   "desk": [
+    -3071,
+    1380,
+    -1227,
+    1599
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     112,
+     596,
+     813,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -212,
+    636,
+    84,
+    932
+   ],
+   "mateHead": [
+    812,
+    642,
+    1110,
+    940
+   ],
+   "desk": [
+    -3085,
+    1382,
+    -1233,
+    1601
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    153,
+    340,
+    847,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     111,
+     596,
+     812,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -213,
+    635,
+    84,
+    932
+   ],
+   "mateHead": [
+    812,
+    641,
+    1110,
+    939
+   ],
+   "desk": [
+    -3099,
+    1384,
+    -1239,
+    1603
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     109,
+     595,
+     811,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -215,
+    635,
+    83,
+    932
+   ],
+   "mateHead": [
+    813,
+    639,
+    1111,
+    938
+   ],
+   "desk": [
+    -3113,
+    1386,
+    -1245,
+    1606
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     107,
+     595,
+     811,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -216,
+    634,
+    82,
+    932
+   ],
+   "mateHead": [
+    813,
+    638,
+    1112,
+    937
+   ],
+   "desk": [
+    -3127,
+    1388,
+    -1251,
+    1608
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     106,
+     595,
+     810,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -217,
+    634,
+    81,
+    932
+   ],
+   "mateHead": [
+    813,
+    637,
+    1112,
+    936
+   ],
+   "desk": [
+    -3141,
+    1389,
+    -1257,
+    1610
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     104,
+     594,
+     809,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -219,
+    634,
+    80,
+    933
+   ],
+   "mateHead": [
+    814,
+    635,
+    1113,
+    935
+   ],
+   "desk": [
+    -3155,
+    1391,
+    -1263,
+    1612
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     103,
+     594,
+     809,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -220,
+    634,
+    80,
+    933
+   ],
+   "mateHead": [
+    814,
+    634,
+    1114,
+    934
+   ],
+   "desk": [
+    -3168,
+    1393,
+    -1268,
+    1614
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     101,
+     593,
+     808,
+     1076
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -221,
+    634,
+    79,
+    934
+   ],
+   "mateHead": [
+    814,
+    633,
+    1114,
+    933
+   ],
+   "desk": [
+    -3181,
+    1395,
+    -1274,
+    1616
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     100,
+     593,
+     807,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -222,
+    634,
+    78,
+    935
+   ],
+   "mateHead": [
+    814,
+    632,
+    1115,
+    933
+   ],
+   "desk": [
+    -3194,
+    1397,
+    -1279,
+    1618
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     98,
+     593,
+     807,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -223,
+    635,
+    77,
+    935
+   ],
+   "mateHead": [
+    815,
+    631,
+    1115,
+    932
+   ],
+   "desk": [
+    -3206,
+    1398,
+    -1284,
+    1620
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     97,
+     592,
+     806,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -225,
+    635,
+    77,
+    936
+   ],
+   "mateHead": [
+    815,
+    631,
+    1116,
+    932
+   ],
+   "desk": [
+    -3217,
+    1400,
+    -1289,
+    1622
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     96,
+     592,
+     806,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -226,
+    636,
+    76,
+    937
+   ],
+   "mateHead": [
+    815,
+    630,
+    1116,
+    931
+   ],
+   "desk": [
+    -3229,
+    1401,
+    -1293,
+    1624
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     94,
+     591,
+     805,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -227,
+    636,
+    75,
+    938
+   ],
+   "mateHead": [
+    815,
+    630,
+    1117,
+    931
+   ],
+   "desk": [
+    -3239,
+    1402,
+    -1298,
+    1627
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     93,
+     591,
+     805,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -228,
+    637,
+    75,
+    939
+   ],
+   "mateHead": [
+    816,
+    629,
+    1117,
+    931
+   ],
+   "desk": [
+    -3250,
+    1403,
+    -1302,
+    1629
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     92,
+     591,
+     804,
+     1077
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -229,
+    638,
+    74,
+    941
+   ],
+   "mateHead": [
+    816,
+    629,
+    1118,
+    931
+   ],
+   "desk": [
+    -3259,
+    1404,
+    -1306,
+    1631
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     91,
+     590,
+     804,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -229,
+    639,
+    74,
+    942
+   ],
+   "mateHead": [
+    816,
+    629,
+    1118,
+    931
+   ],
+   "desk": [
+    -3269,
+    1405,
+    -1310,
+    1633
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     90,
+     590,
+     803,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -230,
+    639,
+    73,
+    943
+   ],
+   "mateHead": [
+    816,
+    629,
+    1119,
+    932
+   ],
+   "desk": [
+    -3277,
+    1406,
+    -1313,
+    1635
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     89,
+     590,
+     803,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -231,
+    640,
+    73,
+    944
+   ],
+   "mateHead": [
+    817,
+    630,
+    1119,
+    932
+   ],
+   "desk": [
+    -3285,
+    1406,
+    -1317,
+    1637
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     88,
+     590,
+     803,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -232,
+    640,
+    72,
+    944
+   ],
+   "mateHead": [
+    817,
+    630,
+    1119,
+    933
+   ],
+   "desk": [
+    -3293,
+    1407,
+    -1320,
+    1639
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     88,
+     589,
+     802,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -232,
+    641,
+    72,
+    945
+   ],
+   "mateHead": [
+    817,
+    631,
+    1120,
+    933
+   ],
+   "desk": [
+    -3300,
+    1408,
+    -1323,
+    1640
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     87,
+     589,
+     802,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -233,
+    641,
+    71,
+    946
+   ],
+   "mateHead": [
+    817,
+    631,
+    1120,
+    934
+   ],
+   "desk": [
+    -3306,
+    1408,
+    -1325,
+    1642
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     86,
+     589,
+     802,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -234,
+    642,
+    71,
+    946
+   ],
+   "mateHead": [
+    817,
+    632,
+    1120,
+    935
+   ],
+   "desk": [
+    -3313,
+    1409,
+    -1328,
+    1643
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     85,
+     589,
+     802,
+     1078
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -234,
+    642,
+    71,
+    947
+   ],
+   "mateHead": [
+    818,
+    632,
+    1121,
+    936
+   ],
+   "desk": [
+    -3319,
+    1409,
+    -1330,
+    1644
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     85,
+     589,
+     801,
+     1079
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -235,
+    642,
+    70,
+    947
+   ],
+   "mateHead": [
+    818,
+    633,
+    1121,
+    937
+   ],
+   "desk": [
+    -3324,
+    1410,
+    -1332,
+    1646
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     84,
+     589,
+     801,
+     1079
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    -235,
+    641,
+    70,
+    947
+   ],
+   "mateHead": [
+    818,
+    634,
+    1121,
+    937
+   ],
+   "desk": [
+    -3330,
+    1411,
+    -1335,
+    1647
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    150,
+    340,
+    850,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    400,
+    630,
+    621,
+    850
+   ],
+   "mateHead": [
+    1064,
+    613,
+    1268,
+    817
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    400,
+    630,
+    621,
+    850
+   ],
+   "mateHead": [
+    1064,
+    613,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    128,
+    340,
+    872,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    400,
+    629,
+    621,
+    850
+   ],
+   "mateHead": [
+    1064,
+    614,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    400,
+    629,
+    621,
+    849
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    400,
+    628,
+    621,
+    849
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    628,
+    621,
+    848
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    627,
+    621,
+    848
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    627,
+    621,
+    847
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    626,
+    621,
+    846
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    821
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    625,
+    621,
+    846
+   ],
+   "mateHead": [
+    1064,
+    617,
+    1268,
+    821
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    624,
+    621,
+    845
+   ],
+   "mateHead": [
+    1064,
+    617,
+    1268,
+    821
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    624,
+    621,
+    844
+   ],
+   "mateHead": [
+    1064,
+    617,
+    1268,
+    821
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    623,
+    621,
+    843
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    821
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    622,
+    621,
+    843
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    622,
+    621,
+    842
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    621,
+    622,
+    842
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    621,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    620,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    620,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    614,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    620,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    614,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    125,
+    340,
+    875,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    620,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    613,
+    1268,
+    817
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    620,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    612,
+    1268,
+    817
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    163,
+    340,
+    837,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    621,
+    622,
+    841
+   ],
+   "mateHead": [
+    1064,
+    612,
+    1268,
+    816
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    401,
+    621,
+    621,
+    842
+   ],
+   "mateHead": [
+    1064,
+    611,
+    1268,
+    815
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    395,
+    622,
+    617,
+    844
+   ],
+   "mateHead": [
+    1064,
+    611,
+    1268,
+    815
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    376,
+    623,
+    599,
+    846
+   ],
+   "mateHead": [
+    1064,
+    610,
+    1268,
+    814
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    362,
+    624,
+    585,
+    847
+   ],
+   "mateHead": [
+    1064,
+    609,
+    1268,
+    814
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    356,
+    625,
+    579,
+    848
+   ],
+   "mateHead": [
+    1064,
+    609,
+    1268,
+    813
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    355,
+    626,
+    578,
+    849
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    813
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    354,
+    640,
+    577,
+    864
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    346,
+    706,
+    572,
+    933
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    336,
+    812,
+    566,
+    1042
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    328,
+    896,
+    561,
+    1129
+   ],
+   "mateHead": [
+    1064,
+    607,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    916,
+    560,
+    1150
+   ],
+   "mateHead": [
+    1064,
+    607,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    917,
+    560,
+    1150
+   ],
+   "mateHead": [
+    1064,
+    607,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    917,
+    560,
+    1151
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    918,
+    560,
+    1151
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    918,
+    560,
+    1151
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    812
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    918,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    608,
+    1268,
+    813
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    919,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    609,
+    1268,
+    813
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    919,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    609,
+    1268,
+    813
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    102,
+    341,
+    898,
+    519
+   ],
+   "captionText": [
+    296,
+    340,
+    704,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    919,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    610,
+    1268,
+    814
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    327,
+    919,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    610,
+    1268,
+    815
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     203,
+     1388,
+     553,
+     1460
+    ]
+   },
+   "head": [
+    327,
+    918,
+    560,
+    1152
+   ],
+   "mateHead": [
+    1064,
+    611,
+    1268,
+    815
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     171,
+     1381,
+     585,
+     1466
+    ]
+   },
+   "head": [
+    327,
+    918,
+    560,
+    1151
+   ],
+   "mateHead": [
+    1064,
+    612,
+    1268,
+    816
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    327,
+    912,
+    561,
+    1145
+   ],
+   "mateHead": [
+    1064,
+    612,
+    1268,
+    816
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    330,
+    883,
+    562,
+    1115
+   ],
+   "mateHead": [
+    1064,
+    613,
+    1268,
+    817
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    334,
+    827,
+    565,
+    1058
+   ],
+   "mateHead": [
+    1064,
+    613,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    341,
+    759,
+    569,
+    987
+   ],
+   "mateHead": [
+    1064,
+    614,
+    1268,
+    818
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    347,
+    696,
+    573,
+    922
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    352,
+    652,
+    576,
+    876
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    819
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    355,
+    631,
+    578,
+    854
+   ],
+   "mateHead": [
+    1064,
+    615,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     568,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     159,
+     1379,
+     596,
+     1469
+    ]
+   },
+   "head": [
+    355,
+    626,
+    578,
+    849
+   ],
+   "mateHead": [
+    1064,
+    616,
+    1268,
+    820
+   ],
+   "desk": [
+    -2476,
+    1289,
+    -875,
+    1638
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     459,
+     569,
+     935,
+     940
+    ],
+    "shoes by the door": [
+     158,
+     1379,
+     594,
+     1468
+    ]
+   },
+   "head": [
+    355,
+    627,
+    577,
+    849
+   ],
+   "mateHead": [
+    1063,
+    617,
+    1267,
+    821
+   ],
+   "desk": [
+    -2469,
+    1289,
+    -873,
+    1636
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     458,
+     573,
+     932,
+     942
+    ],
+    "shoes by the door": [
+     154,
+     1378,
+     587,
+     1467
+    ]
+   },
+   "head": [
+    352,
+    630,
+    574,
+    851
+   ],
+   "mateHead": [
+    1059,
+    621,
+    1262,
+    824
+   ],
+   "desk": [
+    -2447,
+    1287,
+    -868,
+    1630
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     457,
+     578,
+     929,
+     945
+    ],
+    "shoes by the door": [
+     158,
+     1379,
+     565,
+     1462
+    ]
+   },
+   "head": [
+    349,
+    635,
+    568,
+    854
+   ],
+   "mateHead": [
+    1053,
+    627,
+    1254,
+    829
+   ],
+   "desk": [
+    -2413,
+    1286,
+    -859,
+    1620
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     455,
+     586,
+     924,
+     949
+    ],
+    "shoes by the door": [
+     180,
+     1384,
+     519,
+     1453
+    ]
+   },
+   "head": [
+    344,
+    642,
+    561,
+    859
+   ],
+   "mateHead": [
+    1044,
+    635,
+    1244,
+    834
+   ],
+   "desk": [
+    -2367,
+    1283,
+    -846,
+    1606
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    295,
+    340,
+    705,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     452,
+     595,
+     918,
+     953
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    338,
+    651,
+    552,
+    864
+   ],
+   "mateHead": [
+    1034,
+    644,
+    1231,
+    841
+   ],
+   "desk": [
+    -2312,
+    1280,
+    -827,
+    1590
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     449,
+     606,
+     911,
+     959
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    331,
+    661,
+    542,
+    871
+   ],
+   "mateHead": [
+    1021,
+    654,
+    1216,
+    849
+   ],
+   "desk": [
+    -2250,
+    1277,
+    -805,
+    1573
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     445,
+     618,
+     903,
+     964
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    324,
+    672,
+    530,
+    878
+   ],
+   "mateHead": [
+    1007,
+    666,
+    1199,
+    858
+   ],
+   "desk": [
+    -2184,
+    1273,
+    -782,
+    1554
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     441,
+     630,
+     894,
+     970
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    315,
+    684,
+    517,
+    886
+   ],
+   "mateHead": [
+    992,
+    678,
+    1181,
+    867
+   ],
+   "desk": [
+    -2116,
+    1269,
+    -758,
+    1535
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     436,
+     642,
+     884,
+     976
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    306,
+    696,
+    504,
+    894
+   ],
+   "mateHead": [
+    975,
+    690,
+    1161,
+    876
+   ],
+   "desk": [
+    -2048,
+    1265,
+    -733,
+    1515
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     431,
+     655,
+     874,
+     982
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    297,
+    708,
+    491,
+    901
+   ],
+   "mateHead": [
+    958,
+    702,
+    1141,
+    885
+   ],
+   "desk": [
+    -1981,
+    1261,
+    -708,
+    1497
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     426,
+     667,
+     864,
+     988
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    288,
+    719,
+    478,
+    909
+   ],
+   "mateHead": [
+    941,
+    713,
+    1121,
+    893
+   ],
+   "desk": [
+    -1917,
+    1257,
+    -684,
+    1479
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     421,
+     679,
+     853,
+     993
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    279,
+    730,
+    465,
+    916
+   ],
+   "mateHead": [
+    924,
+    724,
+    1101,
+    901
+   ],
+   "desk": [
+    -1858,
+    1254,
+    -662,
+    1463
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     416,
+     690,
+     843,
+     998
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    271,
+    741,
+    453,
+    923
+   ],
+   "mateHead": [
+    908,
+    734,
+    1082,
+    908
+   ],
+   "desk": [
+    -1803,
+    1250,
+    -640,
+    1448
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 5
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     411,
+     699,
+     833,
+     1003
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    263,
+    750,
+    442,
+    929
+   ],
+   "mateHead": [
+    893,
+    744,
+    1064,
+    915
+   ],
+   "desk": [
+    -1754,
+    1247,
+    -621,
+    1434
+   ],
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     407,
+     708,
+     825,
+     1007
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    256,
+    759,
+    431,
+    934
+   ],
+   "mateHead": [
+    879,
+    752,
+    1048,
+    921
+   ],
+   "desk": [
+    -1711,
+    1244,
+    -604,
+    1423
+   ],
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     403,
+     716,
+     817,
+     1010
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    250,
+    766,
+    423,
+    939
+   ],
+   "mateHead": [
+    866,
+    759,
+    1033,
+    926
+   ],
+   "desk": [
+    -1674,
+    1242,
+    -589,
+    1413
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     399,
+     722,
+     810,
+     1013
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    245,
+    772,
+    415,
+    943
+   ],
+   "mateHead": [
+    856,
+    764,
+    1021,
+    930
+   ],
+   "desk": [
+    -1643,
+    1240,
+    -577,
+    1405
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     397,
+     727,
+     805,
+     1015
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    240,
+    777,
+    410,
+    946
+   ],
+   "mateHead": [
+    848,
+    769,
+    1011,
+    933
+   ],
+   "desk": [
+    -1619,
+    1238,
+    -567,
+    1399
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     395,
+     730,
+     801,
+     1016
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    237,
+    781,
+    405,
+    949
+   ],
+   "mateHead": [
+    841,
+    772,
+    1004,
+    935
+   ],
+   "desk": [
+    -1602,
+    1237,
+    -560,
+    1394
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     394,
+     733,
+     798,
+     1017
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    236,
+    783,
+    403,
+    950
+   ],
+   "mateHead": [
+    838,
+    773,
+    1000,
+    936
+   ],
+   "desk": [
+    -1592,
+    1237,
+    -556,
+    1392
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     393,
+     733,
+     797,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    784,
+    402,
+    951
+   ],
+   "mateHead": [
+    836,
+    773,
+    999,
+    936
+   ],
+   "desk": [
+    -1588,
+    1236,
+    -554,
+    1391
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     393,
+     733,
+     797,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    785,
+    402,
+    952
+   ],
+   "mateHead": [
+    836,
+    773,
+    999,
+    935
+   ],
+   "desk": [
+    -1588,
+    1236,
+    -554,
+    1391
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     393,
+     733,
+     797,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    785,
+    402,
+    952
+   ],
+   "mateHead": [
+    836,
+    773,
+    999,
+    935
+   ],
+   "desk": [
+    -1588,
+    1236,
+    -554,
+    1391
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     393,
+     733,
+     798,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    786,
+    402,
+    953
+   ],
+   "mateHead": [
+    837,
+    773,
+    999,
+    935
+   ],
+   "desk": [
+    -1588,
+    1236,
+    -554,
+    1390
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     393,
+     733,
+     798,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    786,
+    402,
+    953
+   ],
+   "mateHead": [
+    837,
+    772,
+    999,
+    935
+   ],
+   "desk": [
+    -1588,
+    1236,
+    -554,
+    1390
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     394,
+     733,
+     798,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    787,
+    402,
+    954
+   ],
+   "mateHead": [
+    837,
+    772,
+    999,
+    935
+   ],
+   "desk": [
+    -1587,
+    1236,
+    -553,
+    1390
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     394,
+     733,
+     799,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    235,
+    787,
+    402,
+    954
+   ],
+   "mateHead": [
+    837,
+    772,
+    1000,
+    935
+   ],
+   "desk": [
+    -1587,
+    1236,
+    -553,
+    1389
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     395,
+     733,
+     800,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    234,
+    787,
+    402,
+    954
+   ],
+   "mateHead": [
+    838,
+    772,
+    1001,
+    935
+   ],
+   "desk": [
+    -1586,
+    1235,
+    -552,
+    1388
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     395,
+     733,
+     801,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    234,
+    787,
+    402,
+    954
+   ],
+   "mateHead": [
+    838,
+    772,
+    1001,
+    935
+   ],
+   "desk": [
+    -1586,
+    1235,
+    -551,
+    1387
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     396,
+     733,
+     802,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    234,
+    787,
+    401,
+    954
+   ],
+   "mateHead": [
+    839,
+    772,
+    1002,
+    935
+   ],
+   "desk": [
+    -1585,
+    1235,
+    -550,
+    1386
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     396,
+     732,
+     804,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    233,
+    786,
+    401,
+    954
+   ],
+   "mateHead": [
+    840,
+    772,
+    1003,
+    936
+   ],
+   "desk": [
+    -1584,
+    1234,
+    -549,
+    1385
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     397,
+     732,
+     805,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    233,
+    786,
+    401,
+    954
+   ],
+   "mateHead": [
+    840,
+    772,
+    1004,
+    936
+   ],
+   "desk": [
+    -1582,
+    1234,
+    -547,
+    1384
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     398,
+     732,
+     807,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    233,
+    785,
+    401,
+    954
+   ],
+   "mateHead": [
+    841,
+    772,
+    1005,
+    936
+   ],
+   "desk": [
+    -1581,
+    1233,
+    -546,
+    1383
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     399,
+     732,
+     808,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    232,
+    785,
+    400,
+    953
+   ],
+   "mateHead": [
+    842,
+    773,
+    1006,
+    937
+   ],
+   "desk": [
+    -1580,
+    1233,
+    -544,
+    1381
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     400,
+     731,
+     810,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    232,
+    784,
+    400,
+    953
+   ],
+   "mateHead": [
+    843,
+    773,
+    1007,
+    937
+   ],
+   "desk": [
+    -1579,
+    1232,
+    -543,
+    1380
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     400,
+     731,
+     811,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    231,
+    784,
+    400,
+    952
+   ],
+   "mateHead": [
+    844,
+    773,
+    1008,
+    938
+   ],
+   "desk": [
+    -1577,
+    1232,
+    -541,
+    1379
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     401,
+     731,
+     813,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    231,
+    783,
+    400,
+    952
+   ],
+   "mateHead": [
+    844,
+    774,
+    1010,
+    939
+   ],
+   "desk": [
+    -1576,
+    1232,
+    -540,
+    1378
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     402,
+     731,
+     814,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    230,
+    782,
+    400,
+    951
+   ],
+   "mateHead": [
+    845,
+    774,
+    1010,
+    939
+   ],
+   "desk": [
+    -1575,
+    1231,
+    -539,
+    1377
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     403,
+     731,
+     815,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    230,
+    781,
+    399,
+    951
+   ],
+   "mateHead": [
+    846,
+    774,
+    1011,
+    940
+   ],
+   "desk": [
+    -1574,
+    1231,
+    -537,
+    1376
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     403,
+     730,
+     817,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    230,
+    781,
+    399,
+    950
+   ],
+   "mateHead": [
+    846,
+    775,
+    1012,
+    940
+   ],
+   "desk": [
+    -1573,
+    1231,
+    -536,
+    1375
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     404,
+     730,
+     817,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    230,
+    780,
+    399,
+    949
+   ],
+   "mateHead": [
+    847,
+    775,
+    1013,
+    941
+   ],
+   "desk": [
+    -1572,
+    1230,
+    -535,
+    1374
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     404,
+     730,
+     818,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    229,
+    779,
+    399,
+    949
+   ],
+   "mateHead": [
+    847,
+    776,
+    1013,
+    942
+   ],
+   "desk": [
+    -1571,
+    1230,
+    -535,
+    1373
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     404,
+     730,
+     819,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    229,
+    779,
+    399,
+    948
+   ],
+   "mateHead": [
+    847,
+    776,
+    1014,
+    942
+   ],
+   "desk": [
+    -1571,
+    1230,
+    -534,
+    1373
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     405,
+     730,
+     819,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    229,
+    778,
+    399,
+    948
+   ],
+   "mateHead": [
+    848,
+    776,
+    1014,
+    943
+   ],
+   "desk": [
+    -1570,
+    1230,
+    -534,
+    1373
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     405,
+     730,
+     819,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    229,
+    777,
+    399,
+    947
+   ],
+   "mateHead": [
+    848,
+    777,
+    1014,
+    943
+   ],
+   "desk": [
+    -1570,
+    1230,
+    -534,
+    1373
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     405,
+     730,
+     819,
+     1018
+    ],
+    "shoes by the door": null
+   },
+   "head": [
+    229,
+    777,
+    399,
+    947
+   ],
+   "mateHead": [
+    848,
+    777,
+    1014,
+    943
+   ],
+   "desk": [
+    -1570,
+    1230,
+    -533,
+    1372
+   ],
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 5
+  }
+ ]
+}

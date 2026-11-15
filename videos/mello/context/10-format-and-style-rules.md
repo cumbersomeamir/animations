@@ -101,3 +101,11 @@ Source: "Published apps, Satisfied? column", read 11 November 2026. These **add 
 - Only finished MP4s go to the user's review folder; source, citations, prompts and QA stay in the repo.
 - Render, full-decode, check duration/codecs, inspect transitions and frames, check narration, caption sync, clipping and missing assets. Attach the MP4 and the thumbnail.
 - Report limitations honestly. Never claim a watched or listened check that wasn't performed (here: the audio check is an ASR round-trip plus measurements).
+
+## 9. First frame (user rule, 2026-11-15 batch on)
+- **Frame 0 is critical.** No logo intro, no fade from black, no empty set-up.
+- Frame 0 must be a beautifully composed, surprising subject, readable on a phone, with at most 2–5 truthful curiosity words.
+- The first image should work as the thumbnail. Click-worthy, never misleading.
+- The hook audio starts immediately (english15: at 0.15 s) and promises a specific useful answer that the episode delivers.
+- Keep the app's approved aesthetic.
+- Mello implementation: the opening caption *is* the curiosity words (e.g. "Who is / tomorrow-you?" at 132 px), fully visible at frame 0. The audit accepts captions anywhere in x 100–900, y 300–1500 and checks crucial objects against the caption itself.
