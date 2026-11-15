@@ -1,0 +1,15 @@
+Ten seconds in a noisy cafe, and Shazam names the song.
+
+The trick? Turn sound into stars. Shazam's 2003 paper keeps only the loudest frequency peaks. Pairs of peaks become hashes: two frequencies and the gap between. Look them up, and noise makes random hits, but in the right recording, the hits share one time offset.
+
+So it matches that exact recording. Humming needs a melody-based search.
+
+We built a small version of the method from the paper (our code, not Shazam's) and tested it on made-up songs. A 10-second clip buried in cafe noise as loud as the music found the right song: 21 hits lined up at 37 seconds in, against at most 4 for any other song. A hummed version of the same tune found no match.
+
+Sources:
+- Avery Li-Chun Wang (Shazam Entertainment), An Industrial-Strength Audio Search Algorithm, ISMIR 2003: https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
+- Google Blog, Song stuck in your head? Just hum to search (15 Oct 2020): https://blog.google/products/search/hum-to-search/
+
+Follow Tensorblue for software explained simply.
+
+#Shazam #AppDevelopment #SoftwareExplained

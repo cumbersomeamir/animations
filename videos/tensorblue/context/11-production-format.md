@@ -144,6 +144,18 @@ Practical system design · useful new GitHub tools · research explained through
   - Colours: amber-400 `#FFB900` (defined and used on tensorblue.com) joins the allowed site tokens; it is the recolour, distinct from both cursor colours.
   - Notes: `30-production-30s-english17-01.md`.
 
+- **2026-11-15 english-18 (batch18; latest approved feedback retained):** topic "how Shazam recognizes a song in a noisy café", new to the channel.
+  - Frame zero: a café table (black coffee, a phone at "0:10") under a floating dark-glass "sound shard" whose spectrogram stands up as glowing 3D terrain, with **TEN SECONDS. ONE SONG.**; it doubles as the thumbnail.
+  - Mechanism, from Shazam's own 2003 paper (Wang, ISMIR 2003):
+    - spectrogram peaks become a star map (the paper's own "constellation" image);
+    - peak pairs become hashes (two frequencies + gap);
+    - lookups give random hits, but the right recording's hits share one time offset;
+    - the sample's stars line up on the song like the paper's transparency on a strip chart.
+  - Proof: our own implementation on made-up songs and café noise at 0 dB SNR (21 aligned hits vs 4). A hummed version finds no match.
+  - Humming vs fingerprinting is kept accurate: the paper says the method is version-specific; the melody-based method is attributed to Google's hum-to-search post, not to Shazam.
+  - Two worlds (café → database) are joined by a purposeful wipe. Peaks are drawn as small beads on dark glass so they read as stars, not bristles.
+  - Notes: `31-production-30s-english18-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

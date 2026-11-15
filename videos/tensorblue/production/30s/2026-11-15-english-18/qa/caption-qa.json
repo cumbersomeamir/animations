@@ -1,0 +1,243 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Ten seconds in",
+    "a noisy cafe,"
+   ],
+   "t0": 0.04,
+   "tEnd": 2.03,
+   "frame": 19,
+   "box": {
+    "x0": 305,
+    "x1": 692,
+    "y0": 372,
+    "y1": 488,
+    "n": 11221
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and Shazam",
+    "names the song."
+   ],
+   "t0": 2.03,
+   "tEnd": 3.7,
+   "frame": 79,
+   "box": {
+    "x0": 287,
+    "x1": 711,
+    "y0": 373,
+    "y1": 487,
+    "n": 12520
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The trick?"
+   ],
+   "t0": 3.7,
+   "tEnd": 4.25,
+   "frame": 123,
+   "box": {
+    "x0": 371,
+    "x1": 627,
+    "y0": 409,
+    "y1": 450,
+    "n": 4081
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Turn sound into stars."
+   ],
+   "t0": 4.25,
+   "tEnd": 5.95,
+   "frame": 146,
+   "box": {
+    "x0": 217,
+    "x1": 780,
+    "y0": 409,
+    "y1": 450,
+    "n": 8659
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Shazam's 2003 paper"
+   ],
+   "t0": 5.95,
+   "tEnd": 8.15,
+   "frame": 196,
+   "box": {
+    "x0": 215,
+    "x1": 786,
+    "y0": 405,
+    "y1": 454,
+    "n": 9794
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "keeps only the loudest",
+    "frequency peaks."
+   ],
+   "t0": 8.15,
+   "tEnd": 10.54,
+   "frame": 263,
+   "box": {
+    "x0": 209,
+    "x1": 793,
+    "y0": 375,
+    "y1": 488,
+    "n": 17593
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Pairs of peaks",
+    "become hashes:"
+   ],
+   "t0": 10.54,
+   "tEnd": 12.44,
+   "frame": 334,
+   "box": {
+    "x0": 288,
+    "x1": 710,
+    "y0": 372,
+    "y1": 477,
+    "n": 13359
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "two frequencies",
+    "and the gap between."
+   ],
+   "t0": 12.44,
+   "tEnd": 14.79,
+   "frame": 391,
+   "box": {
+    "x0": 219,
+    "x1": 778,
+    "y0": 371,
+    "y1": 488,
+    "n": 16562
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Look them up, and noise",
+    "makes random hits,"
+   ],
+   "t0": 14.79,
+   "tEnd": 17.18,
+   "frame": 462,
+   "box": {
+    "x0": 185,
+    "x1": 816,
+    "y0": 372,
+    "y1": 487,
+    "n": 18388
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "but in the right recording,"
+   ],
+   "t0": 17.18,
+   "tEnd": 18.46,
+   "frame": 533,
+   "box": {
+    "x0": 172,
+    "x1": 826,
+    "y0": 403,
+    "y1": 456,
+    "n": 10918
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "the hits share",
+    "one time offset."
+   ],
+   "t0": 18.46,
+   "tEnd": 20.58,
+   "frame": 572,
+   "box": {
+    "x0": 298,
+    "x1": 699,
+    "y0": 377,
+    "y1": 482,
+    "n": 12362
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "So it matches that",
+    "exact recording."
+   ],
+   "t0": 20.58,
+   "tEnd": 22.81,
+   "frame": 636,
+   "box": {
+    "x0": 268,
+    "x1": 733,
+    "y0": 371,
+    "y1": 488,
+    "n": 14707
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Humming needs a",
+    "melody-based search."
+   ],
+   "t0": 22.81,
+   "tEnd": 26.95,
+   "frame": 702,
+   "box": {
+    "x0": 210,
+    "x1": 788,
+    "y0": 371,
+    "y1": 487,
+    "n": 17455
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

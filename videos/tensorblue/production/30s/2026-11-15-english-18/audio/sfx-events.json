@@ -1,0 +1,222 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 1.216,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 3.003,
+   "type": "tap"
+  },
+  {
+   "t": 3.607,
+   "type": "wipe"
+  },
+  {
+   "t": 4.963,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 5.213,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 5.856,
+   "type": "wipe"
+  },
+  {
+   "t": 8.936,
+   "type": "tap"
+  },
+  {
+   "t": 10.454,
+   "type": "wipe"
+  },
+  {
+   "t": 10.604,
+   "type": "tap"
+  },
+  {
+   "t": 11.51,
+   "type": "slot"
+  },
+  {
+   "t": 13.635,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 13.935,
+   "type": "type",
+   "soft": true
+  },
+  {
+   "t": 14.697,
+   "type": "wipe"
+  },
+  {
+   "t": 14.998,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 15.398,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 15.798,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 16.198,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 16.223,
+   "type": "blip",
+   "lo": true
+  },
+  {
+   "t": 16.598,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 17.141,
+   "type": "wipe"
+  },
+  {
+   "t": 18.582,
+   "type": "type"
+  },
+  {
+   "t": 19.182,
+   "type": "type"
+  },
+  {
+   "t": 19.644,
+   "type": "match"
+  },
+  {
+   "t": 20.644,
+   "type": "slot"
+  },
+  {
+   "t": 20.86,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 20.96,
+   "type": "wipe"
+  },
+  {
+   "t": 21.448,
+   "type": "type"
+  },
+  {
+   "t": 22.873,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 23.473,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 23.873,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 24.173,
+   "type": "type"
+  },
+  {
+   "t": 24.885,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.179,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "ten": 0.1,
+  "cafe": 1.216,
+  "and1": 2.091,
+  "shazam": 2.216,
+  "song": 3.003,
+  "trick": 3.812,
+  "turn": 4.313,
+  "sound": 4.612,
+  "stars": 5.113,
+  "shazams": 6.036,
+  "paper": 7.773,
+  "keeps": 8.211,
+  "loudest": 8.936,
+  "peaks3": 9.861,
+  "pairs": 10.604,
+  "hashes": 11.61,
+  "two": 12.497,
+  "frequencies": 12.722,
+  "gap": 13.635,
+  "between": 13.935,
+  "look": 14.848,
+  "noise": 15.648,
+  "random": 16.223,
+  "hits5": 16.648,
+  "right": 17.469,
+  "recording6": 17.682,
+  "the6": 18.519,
+  "share": 18.882,
+  "one": 19.119,
+  "offset": 19.644,
+  "so": 20.66,
+  "matches": 20.86,
+  "exact": 21.498,
+  "humming": 22.873,
+  "melody": 23.56,
+  "search": 24.273,
+  "follow": 27,
+  "tb": 27.279,
+  "chime": 24.885,
+  "scenes": [
+   0,
+   3.607,
+   5.856,
+   10.453999999999999,
+   14.697,
+   17.141,
+   20.96,
+   26.6,
+   30.01
+  ]
+ }
+}

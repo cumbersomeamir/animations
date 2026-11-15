@@ -1,0 +1,488 @@
+{
+ "model": "base.en",
+ "transcript": "10 seconds in a noisy cafe, and Shazam names the song. The trick turns sound into stars. Shazam's 2003, paper keeps only the loudest frequency peeks. Pairs of peeks become hashes, two frequencies, and the gap between. Look them up, and noise makes random hits. But in the right recording, the hits share one time offset. So it matches that exact recording. Humming needs a melody-based search. search. Follow TensorBlue for software explained simply.",
+ "reference": "Ten seconds in a noisy cafe, and Shazam names the song. The trick? Turn sound into stars. Shazam's 2003 paper keeps only the loudest frequency peaks. Pairs of peaks become hashes: two frequencies and the gap between. Look them up, and noise makes random hits, but in the right recording, the hits share one time offset. So it matches that exact recording. Humming needs a melody-based search. Follow Tensorblue for software explained simply.",
+ "wer": 0.0676,
+ "matched_words": 68,
+ "scripted_words": 73,
+ "mean_abs_start_drift_s": 0.083,
+ "max_abs_start_drift_s": 0.333,
+ "low_confidence_words": [
+  {
+   "w": "10",
+   "t0": 0.0,
+   "t1": 0.24,
+   "p": 0.489
+  },
+  {
+   "w": "peeks.",
+   "t0": 9.52,
+   "t1": 10.14,
+   "p": 0.521
+  },
+  {
+   "w": "time",
+   "t0": 19.24,
+   "t1": 19.56,
+   "p": 0.592
+  },
+  {
+   "w": "search.",
+   "t0": 24.48,
+   "t1": 24.7,
+   "p": 0.087
+  }
+ ],
+ "words": [
+  {
+   "w": "10",
+   "t0": 0.0,
+   "t1": 0.24,
+   "p": 0.489
+  },
+  {
+   "w": "seconds",
+   "t0": 0.24,
+   "t1": 0.6,
+   "p": 0.96
+  },
+  {
+   "w": "in",
+   "t0": 0.6,
+   "t1": 0.78,
+   "p": 0.972
+  },
+  {
+   "w": "a",
+   "t0": 0.78,
+   "t1": 0.86,
+   "p": 0.992
+  },
+  {
+   "w": "noisy",
+   "t0": 0.86,
+   "t1": 1.04,
+   "p": 0.971
+  },
+  {
+   "w": "cafe,",
+   "t0": 1.04,
+   "t1": 1.4,
+   "p": 0.771
+  },
+  {
+   "w": "and",
+   "t0": 2.14,
+   "t1": 2.2,
+   "p": 0.99
+  },
+  {
+   "w": "Shazam",
+   "t0": 2.2,
+   "t1": 2.54,
+   "p": 0.871
+  },
+  {
+   "w": "names",
+   "t0": 2.54,
+   "t1": 2.86,
+   "p": 0.988
+  },
+  {
+   "w": "the",
+   "t0": 2.86,
+   "t1": 3.0,
+   "p": 0.997
+  },
+  {
+   "w": "song.",
+   "t0": 3.0,
+   "t1": 3.22,
+   "p": 0.999
+  },
+  {
+   "w": "The",
+   "t0": 3.78,
+   "t1": 3.82,
+   "p": 0.974
+  },
+  {
+   "w": "trick",
+   "t0": 3.82,
+   "t1": 4.0,
+   "p": 0.994
+  },
+  {
+   "w": "turns",
+   "t0": 4.0,
+   "t1": 4.56,
+   "p": 0.897
+  },
+  {
+   "w": "sound",
+   "t0": 4.56,
+   "t1": 4.82,
+   "p": 0.944
+  },
+  {
+   "w": "into",
+   "t0": 4.82,
+   "t1": 5.0,
+   "p": 0.992
+  },
+  {
+   "w": "stars.",
+   "t0": 5.0,
+   "t1": 5.28,
+   "p": 0.98
+  },
+  {
+   "w": "Shazam's",
+   "t0": 6.1,
+   "t1": 6.52,
+   "p": 0.99
+  },
+  {
+   "w": "2003,",
+   "t0": 6.52,
+   "t1": 7.26,
+   "p": 0.993
+  },
+  {
+   "w": "paper",
+   "t0": 7.78,
+   "t1": 8.06,
+   "p": 0.93
+  },
+  {
+   "w": "keeps",
+   "t0": 8.06,
+   "t1": 8.34,
+   "p": 0.998
+  },
+  {
+   "w": "only",
+   "t0": 8.34,
+   "t1": 8.74,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 8.74,
+   "t1": 8.9,
+   "p": 0.999
+  },
+  {
+   "w": "loudest",
+   "t0": 8.9,
+   "t1": 9.28,
+   "p": 0.997
+  },
+  {
+   "w": "frequency",
+   "t0": 9.28,
+   "t1": 9.52,
+   "p": 0.987
+  },
+  {
+   "w": "peeks.",
+   "t0": 9.52,
+   "t1": 10.14,
+   "p": 0.521
+  },
+  {
+   "w": "Pairs",
+   "t0": 10.56,
+   "t1": 10.8,
+   "p": 0.793
+  },
+  {
+   "w": "of",
+   "t0": 10.8,
+   "t1": 10.98,
+   "p": 0.997
+  },
+  {
+   "w": "peeks",
+   "t0": 10.98,
+   "t1": 11.24,
+   "p": 0.905
+  },
+  {
+   "w": "become",
+   "t0": 11.24,
+   "t1": 11.56,
+   "p": 0.998
+  },
+  {
+   "w": "hashes,",
+   "t0": 11.56,
+   "t1": 11.82,
+   "p": 0.968
+  },
+  {
+   "w": "two",
+   "t0": 12.58,
+   "t1": 12.62,
+   "p": 0.95
+  },
+  {
+   "w": "frequencies,",
+   "t0": 12.62,
+   "t1": 13.08,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "t0": 13.34,
+   "t1": 13.52,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 13.52,
+   "t1": 13.64,
+   "p": 0.995
+  },
+  {
+   "w": "gap",
+   "t0": 13.64,
+   "t1": 13.82,
+   "p": 0.996
+  },
+  {
+   "w": "between.",
+   "t0": 13.82,
+   "t1": 14.18,
+   "p": 0.995
+  },
+  {
+   "w": "Look",
+   "t0": 14.92,
+   "t1": 14.94,
+   "p": 0.973
+  },
+  {
+   "w": "them",
+   "t0": 14.94,
+   "t1": 15.1,
+   "p": 0.989
+  },
+  {
+   "w": "up,",
+   "t0": 15.1,
+   "t1": 15.28,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "t0": 15.54,
+   "t1": 15.62,
+   "p": 0.998
+  },
+  {
+   "w": "noise",
+   "t0": 15.62,
+   "t1": 15.8,
+   "p": 0.977
+  },
+  {
+   "w": "makes",
+   "t0": 15.8,
+   "t1": 16.12,
+   "p": 0.999
+  },
+  {
+   "w": "random",
+   "t0": 16.12,
+   "t1": 16.4,
+   "p": 0.998
+  },
+  {
+   "w": "hits.",
+   "t0": 16.4,
+   "t1": 16.82,
+   "p": 0.997
+  },
+  {
+   "w": "But",
+   "t0": 17.26,
+   "t1": 17.3,
+   "p": 0.993
+  },
+  {
+   "w": "in",
+   "t0": 17.3,
+   "t1": 17.4,
+   "p": 0.98
+  },
+  {
+   "w": "the",
+   "t0": 17.4,
+   "t1": 17.46,
+   "p": 0.999
+  },
+  {
+   "w": "right",
+   "t0": 17.46,
+   "t1": 17.62,
+   "p": 0.993
+  },
+  {
+   "w": "recording,",
+   "t0": 17.62,
+   "t1": 17.94,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "t0": 18.6,
+   "t1": 18.62,
+   "p": 0.998
+  },
+  {
+   "w": "hits",
+   "t0": 18.62,
+   "t1": 18.76,
+   "p": 0.982
+  },
+  {
+   "w": "share",
+   "t0": 18.76,
+   "t1": 19.04,
+   "p": 0.992
+  },
+  {
+   "w": "one",
+   "t0": 19.04,
+   "t1": 19.24,
+   "p": 0.992
+  },
+  {
+   "w": "time",
+   "t0": 19.24,
+   "t1": 19.56,
+   "p": 0.592
+  },
+  {
+   "w": "offset.",
+   "t0": 19.56,
+   "t1": 19.82,
+   "p": 0.967
+  },
+  {
+   "w": "So",
+   "t0": 20.64,
+   "t1": 20.78,
+   "p": 0.994
+  },
+  {
+   "w": "it",
+   "t0": 20.78,
+   "t1": 20.84,
+   "p": 0.957
+  },
+  {
+   "w": "matches",
+   "t0": 20.84,
+   "t1": 21.08,
+   "p": 0.999
+  },
+  {
+   "w": "that",
+   "t0": 21.08,
+   "t1": 21.48,
+   "p": 0.994
+  },
+  {
+   "w": "exact",
+   "t0": 21.48,
+   "t1": 21.64,
+   "p": 1.0
+  },
+  {
+   "w": "recording.",
+   "t0": 21.64,
+   "t1": 22.2,
+   "p": 0.999
+  },
+  {
+   "w": "Humming",
+   "t0": 23.0,
+   "t1": 23.16,
+   "p": 0.973
+  },
+  {
+   "w": "needs",
+   "t0": 23.16,
+   "t1": 23.4,
+   "p": 0.993
+  },
+  {
+   "w": "a",
+   "t0": 23.4,
+   "t1": 23.56,
+   "p": 0.999
+  },
+  {
+   "w": "melody",
+   "t0": 23.56,
+   "t1": 23.76,
+   "p": 0.995
+  },
+  {
+   "w": "-based",
+   "t0": 23.76,
+   "t1": 24.1,
+   "p": 0.876
+  },
+  {
+   "w": "search.",
+   "t0": 24.1,
+   "t1": 24.48,
+   "p": 0.998
+  },
+  {
+   "w": "search.",
+   "t0": 24.48,
+   "t1": 24.7,
+   "p": 0.087
+  },
+  {
+   "w": "Follow",
+   "t0": 27.22,
+   "t1": 27.22,
+   "p": 0.945
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 27.22,
+   "t1": 27.74,
+   "p": 0.806
+  },
+  {
+   "w": "for",
+   "t0": 27.74,
+   "t1": 28.0,
+   "p": 0.986
+  },
+  {
+   "w": "software",
+   "t0": 28.0,
+   "t1": 28.2,
+   "p": 0.941
+  },
+  {
+   "w": "explained",
+   "t0": 28.2,
+   "t1": 28.76,
+   "p": 0.971
+  },
+  {
+   "w": "simply.",
+   "t0": 28.76,
+   "t1": 29.32,
+   "p": 0.978
+  }
+ ]
+}

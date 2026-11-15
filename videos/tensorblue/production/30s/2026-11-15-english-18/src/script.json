@@ -1,0 +1,70 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "Ten seconds in a noisy cafe, and Shazam names the song.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "The trick? Turn sound into stars.",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Shazam's 2003 paper keeps only the loudest frequency peaks.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Pairs of peaks become hashes: two frequencies and the gap between.",
+   "after": 0.3
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "Look them up, and noise makes random hits,",
+   "after": 0.15
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "but in the right recording, the hits share one time offset.",
+   "after": 0.35
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "So it matches that exact recording. Humming needs a melody-based search.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}
