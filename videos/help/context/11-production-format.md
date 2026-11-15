@@ -264,3 +264,15 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
   stream is unchanged (stream MD5).
 - Steel lunchbox props must read at a glance: a round dabba with a dark empty inside and the lid leaning beside it (a tall propped lid reads as a laptop).
 
+## Update 2026-11-15 (batch 16) — english-16 lessons
+- Topic gate: homelessness / address-proof barriers / Aadhaar address certificate covered by english-16.
+- Indian terms: Vosk English ASR cannot judge them ("Aadhaar" → "fraud hard"). Choose pronunciations from Kokoro's phoneme output
+  (`k.tokenizer.phonemize(text, 'en-us')`) and use the per-sentence `tts` field (voice only; captions keep the official spelling):
+  "Aadhar" for Aadhaar, "tehseeldar" for tehsildar; write years as words ("twenty twenty-four"); never speak dotted acronyms (pauses) — put
+  them on screen.
+- tools_captions.py now aligns script words to ASR tokens (difflib) when Indian terms or numbers split into several tokens; matched words keep ASR
+  times, unmatched ones are interpolated — no more proportional cards running ahead of the voice.
+- piece() multiplies: a wood fill drawn over a dark fill renders near-black, and frame shapes built as outer+inner rects fill the opening (nonzero
+  rule). Draw frames as bars and give readable plates a plain (non-multiplied) fill.
+- Word every count against the source: "most proofs of address" overstated the list → "many" (re-voiced and re-rendered).
+

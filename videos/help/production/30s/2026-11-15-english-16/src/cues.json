@@ -1,0 +1,23 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.1, 3.9, 5.95, 9.0, 10.95, 16.3, 21.3, 27.1],
+ "scenes": {
+  "A_hook_no_address": [0.0, 3.75],
+  "B_home_proofs": [3.75, 8.85],
+  "C_shelter_q": [8.85, 10.8],
+  "D_certificate": [10.8, 16.15],
+  "E_signed": [16.15, 21.45],
+  "G_payoff": [21.45, 26.9],
+  "I_cta": [26.9, 30.0]
+ },
+ "cues": {
+  "official": 2.6,
+  "home": 5.2, "bill1": 6.05, "bill2": 7.15, "bill3": 7.85,
+  "q": 9.1,
+  "cert": 14.0, "format": 15.35,
+  "seal1": 17.4, "seal2": 18.45, "seal3": 19.55, "stamp": 20.15, "slot": 20.6,
+  "notAuto": 21.5, "real": 22.6, "ask": 23.65, "done": 25.9,
+  "logo": 27.0, "lucknow": 28.2, "dimEnd": 29.3
+ },
+ "notes": "Story map (first-frame rule): frame 0 = composed hook image + NO ADDRESS, NO ACCESS?, lamps full, voice at 0.1 s; 0-3.75 hook, 3.75-8.85 escalation (home-based proofs), 8.85-10.8 open question, 10.8-21.45 proof (2 scene changes), 21.45-26.9 payoff, 26.9-30 CTA. Cues from per-sentence English ASR word times. Tick SFX only in pauses; nothing under the first word."
+}

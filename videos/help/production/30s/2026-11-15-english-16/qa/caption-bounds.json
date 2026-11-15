@@ -1,0 +1,130 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 26,
+ "extent": {
+  "x0": 152,
+  "x1": 848,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "No address, / no access?",
+   "fs": 56,
+   "x0": 333,
+   "x1": 667,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 26
+  },
+  {
+   "text": "For Aadhaar, there's / an official route.",
+   "fs": 56,
+   "x0": 218,
+   "x1": 782,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 81
+  },
+  {
+   "text": "Many proofs of address / assume a home:",
+   "fs": 56,
+   "x0": 173,
+   "x1": 827,
+   "y0": 377,
+   "y1": 484,
+   "firstFrame": 143
+  },
+  {
+   "text": "an electricity bill, a water / bill, a rent agreement.",
+   "fs": 56,
+   "x0": 152,
+   "x1": 848,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 219
+  },
+  {
+   "text": "So what if you / sleep in a shelter?",
+   "fs": 56,
+   "x0": 250,
+   "x1": 750,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 294
+  },
+  {
+   "text": "The 2024 / Aadhaar list also",
+   "fs": 56,
+   "x0": 269,
+   "x1": 731,
+   "y0": 378,
+   "y1": 484,
+   "firstFrame": 362
+  },
+  {
+   "text": "accepts a certificate / on its standard format,",
+   "fs": 56,
+   "x0": 185,
+   "x1": 815,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 443
+  },
+  {
+   "text": "signed by a / municipal councillor,",
+   "fs": 56,
+   "x0": 210,
+   "x1": 790,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 516
+  },
+  {
+   "text": "a tehsildar or a / gazetted officer.",
+   "fs": 56,
+   "x0": 272,
+   "x1": 728,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 589
+  },
+  {
+   "text": "It's not automatic, / but it's a real route:",
+   "fs": 56,
+   "x0": 233,
+   "x1": 767,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 670
+  },
+  {
+   "text": "ask the / councillor's office.",
+   "fs": 56,
+   "x0": 238,
+   "x1": 762,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 739
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}
