@@ -1,0 +1,186 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "Ten fans. No jet fuel.",
+   "cues": [
+    [
+     "Ten fans.",
+     "No jet fuel."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 2.15,
+   "say": "On November 14th, China's electric airliner flew its first crew.",
+   "cues": [
+    [
+     "On November 14th, China's",
+     "electric airliner"
+    ],
+    [
+     "flew its first crew."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.5,
+   "say": "So why only about 400 kilometers?",
+   "cues": [
+    [
+     "So why only",
+     "about 400 kilometers?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 9.1,
+   "say": "Jet fuel packs about fifty times more energy per kilo than batteries.",
+   "cues": [
+    [
+     "Jet fuel packs about fifty times",
+     "more energy per kilo"
+    ],
+    [
+     "than batteries."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 13.55,
+   "say": "Electric motors waste less, winning back only about twice.",
+   "cues": [
+    [
+     "Electric motors waste less,",
+     "winning back only about twice."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 17.4,
+   "say": "And a battery never gets lighter, while fuel burns off.",
+   "cues": [
+    [
+     "And a battery never gets lighter,",
+     "while fuel burns off."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 20.7,
+   "say": "Energy per kilo sets the range, so electric planes start short.",
+   "cues": [
+    [
+     "Energy per kilo sets the range,"
+    ],
+    [
+     "so electric planes start short."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.06,
+   "beat": "first frame / hook: generic paper 19-seat airliner with ten wing-top fans, in flight above clouds + \"Ten fans. No jet fuel.\""
+  },
+  {
+   "id": "S2",
+   "in": 2.06,
+   "out": 6.41,
+   "beat": "the flight: the airliner over patchwork fields; source chip"
+  },
+  {
+   "id": "S3",
+   "in": 6.41,
+   "out": 9.01,
+   "beat": "question: a 400 km ring grows on a schematic map"
+  },
+  {
+   "id": "S4",
+   "in": 9.01,
+   "out": 13.46,
+   "beat": "first principles: one kilo of jet fuel stacks ~50 energy tiles; one kilo of battery pack, one"
+  },
+  {
+   "id": "S5",
+   "in": 13.46,
+   "out": 17.31,
+   "beat": "efficiency: half the fuel tiles burn off as waste heat \u2014 still ~25x"
+  },
+  {
+   "id": "S6",
+   "in": 17.31,
+   "out": 20.61,
+   "beat": "weight: on two scales, the fuel block shrinks during the flight, the battery block stays"
+  },
+  {
+   "id": "S7",
+   "in": 20.61,
+   "out": 26.0,
+   "beat": "payoff: short hops inside the ring; a small airliner flies one"
+  },
+  {
+   "id": "S8",
+   "in": 26.0,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign under the airliner"
+  }
+ ],
+ "events": {
+  "ring": 6.9,
+  "lab400": 7.6,
+  "fuel": 9.4,
+  "lab50": 10.5,
+  "batt": 12.3,
+  "waste": 14.4,
+  "twice": 999,
+  "lab25": 16.6,
+  "burn": 17.5,
+  "labW": 18.3,
+  "hops": 22.2,
+  "labHop": 23.6,
+  "sign": 26.3
+ }
+}

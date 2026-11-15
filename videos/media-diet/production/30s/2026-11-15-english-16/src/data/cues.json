@@ -1,0 +1,98 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Ten fans.",
+   "No jet fuel."
+  ],
+  "in": 0.0,
+  "out": 2.05,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "On November 14th, China's",
+   "electric airliner"
+  ],
+  "in": 2.07,
+  "out": 4.32
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "flew its first crew."
+  ],
+  "in": 4.34,
+  "out": 6.4
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "So why only",
+   "about 400 kilometers?"
+  ],
+  "in": 6.42,
+  "out": 9.0
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Jet fuel packs about fifty times",
+   "more energy per kilo"
+  ],
+  "in": 9.02,
+  "out": 12.405
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "than batteries."
+  ],
+  "in": 12.425,
+  "out": 13.45
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Electric motors waste less,",
+   "winning back only about twice."
+  ],
+  "in": 13.47,
+  "out": 17.3
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "And a battery never gets lighter,",
+   "while fuel burns off."
+  ],
+  "in": 17.32,
+  "out": 20.6
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Energy per kilo sets the range,"
+  ],
+  "in": 20.62,
+  "out": 22.665
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "so electric planes start short."
+  ],
+  "in": 22.685,
+  "out": 25.03
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

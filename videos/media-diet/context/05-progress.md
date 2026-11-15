@@ -299,3 +299,9 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   captions y 342–516, x 191–888; labels x 237–844; 0 violations; caption↔speech 12/12; Whisper recall 1.0 full / 0.989 per line (homophone).
 - First-frame rule now built in (english-15 film.js head + cues.py `hook` flag): carry forward for later episodes.
 - Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-15 — english-16 / batch 16 (topic + sources recorded; rendering)
+- Batch 15 finished first (9dea382 = remote); batch 16 not a repeat. Topic: COMAC CE-25A first crewed flight, **14 Nov 2026**, Binzhou
+  (Xinhua citing COMAC; Global Times; IE; AIN/TWZ configuration). Energy: ICCT (~50x), NASA (~2x). Rejected KIMM display (6 Oct release).
+  Record context/31; sources production/30s/2026-11-15-english-16/SOURCES.md; log row in context/11. Frame 0 = airliner + "Ten fans. No jet fuel."
+- Narration 72 words / 26.0 s, every take heard exactly by Whisper. Running: three render_chunks workers; next build.sh, thumb, QA, commit.
