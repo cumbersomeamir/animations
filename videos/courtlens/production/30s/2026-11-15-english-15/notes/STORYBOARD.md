@@ -35,7 +35,7 @@ Timing source: `src/timeline.json`. Word times: `audio/lines/word_times.json`.
 | Proof 3 | 11.50–14.45 | l4 →14.07 "…said an employer can't hold them like a ransom." | The drawer again with its PAY UP FIRST tag. On "ransom" (13.6) the tag is **torn off and falls**, ✕, and "NOT A RANSOM" appears. |
 | Proof 4 | 14.45–17.15 | l5a 14.55→16.9 "Money owed? The employer can sue." | A ₹ coin **pops** with "MONEY OWED?" (14.6). It **slides** left as an arrow points to a courthouse that lights up: "SUE FOR IT" (16.5). |
 | Proof 5 | 17.15–21.05 | l5b 17.25→20.19 "The court told police to register a breach of trust case." | A police shield **pops** with "POLICE CASE" (17.8). A case file **slides** in (18.5) and a "REGISTERED" stamp lands with "BREACH OF TRUST" (19.3). |
-| Payoff | 21.05–26.75 | l6 21.20→25.52 "So get a signed receipt, ask for them back in writing, and keep every reply." | Three evidence steps **slide in one at a time** with ✓: "SIGNED RECEIPT" (21.95), "ASK IN WRITING" (23.3), "KEEP REPLIES" (24.55). |
+| Payoff | 21.05–26.75 | l6 21.20→25.52 "So get a signed receipt, ask for them back in writing, and keep every reply." | Three evidence steps **slide in one at a time** with ✓: "SIGNED RECEIPT" (21.35), "ASK IN WRITING" (23.3), "KEEP REPLIES" (24.55). |
 | CTA | 26.75–30.00 | l7 26.95→29.90 "Follow Courtlens for everyday Indian law explained." | The Courtlens icon **pops**, the arc **draws**: "Follow Courtlens / Everyday Indian law, explained". |
 
 - **Narration:** 80 spoken words; speech 25.7 s.

@@ -13,8 +13,32 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - The proposed topic is new (no overlap with 01–14). Record:
   `context/episodes/2026-11-15-english15-employer-certificates.md`.
 - The new "FIRST FRAME IS CRITICAL" directive is persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
-  committed. Next: the full render → QA → delivery.
+- Checkpoint commit 3026771 was made before the full render.
+- DELIVERED: `production/30s/2026-11-15-english-15/courtlens-30s-english15-01.mp4`
+  (sha256 c85d0109e5530db43a653d7b7bd29dc419f921e9c47202f9bf2cc32f549720bb) and the thumbnail
+  `courtlens-30s-english15-01-thumbnail.png` (sha256 04cedb68e587a5f7329fb3223cd87a776bc3df156892292ec17f96ba684c4f02;
+  = frame zero + chip).
+
+### Verification (final MP4)
+- 30.000000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz; full decode clean.
+- Loudness −16.0 LUFS / −2.4 dBTP.
+- Narration 7/7 at +3 ms; CTA 26.95–29.90 s.
+- Frame 0 = the hero composition (matches the thumbnail, mean diff 1.6/255); voice onset 0.08 s.
+- Caption ink x 109..889, y 330..518; y<300 clear.
+- English ASR on the final mix: WER 0.013 (only "Courtlands"); all words fall in caption windows.
+- Frame review found a ~0.9 s near-empty beat at 21.05–21.95 s. The first payoff step moved to 21.35, frames 630–805
+  were re-rendered in place (`node render.cjs range $S/build15/frames 630-805`), and the file was re-muxed with
+  `SKIP_FRAMES=1`. Neighbouring frames were verified bit-identical.
+- Not performed: an actual listen-through or real-time watch.
+- Details: `production/30s/2026-11-15-english-15/qa/QA.md`.
+
+### Unresolved
+- ASR-only listening; a human listen and watch is recommended.
+- The judgment text was read from Indian Kanoon's reproduction; the Madras HC's own copy was not fetched.
+- The BNS s.316 mapping is per secondary concordances (the video cites no section number).
+- The scope is one single-judge HC order (TN). Other HCs (Kerala, Madras 2008) were cited in the Delhi 2018 judgment
+  but not read.
+- The desktop review folder is not reachable from this cloud session, so the MP4 and thumbnail are attached in chat.
 
 ### Verified facts (details: `production/30s/2026-11-15-english-15/notes/LEGAL-SOURCES.md`)
 - **Madras HC, *A. John Paul v. State* (Crl.OP 9920/2012, 10.07.2012):**
@@ -61,7 +85,8 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - The falling ransom tag crossed "NOT A RANSOM", so the label moved above the cabinet.
 
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build15/frames`.
+- Await the next request. No automation and no further episode unless asked. `$S/build15/frames` was deleted after
+  delivery.
 
 ## Round 2026-11-14 (english-14): can the electricity company cut your power over a bill you dispute? (India)
 
