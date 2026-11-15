@@ -94,3 +94,7 @@ and Login button #316879 unchanged; logo SVG sha256 816c1761… unchanged. Dark-
 ## Re-check for english-15 (2026-11-15)
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to 2026-11-14; wordmark styling, hero-headline gradient
 and Login button #316879 unchanged; logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/31 §3).
+
+## Re-check for english-16 (batch16, 2026-11-15)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-15 check; wordmark styling unchanged;
+logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/32 §3).
