@@ -1,0 +1,205 @@
+# 34 — English-18 (batch18, 2026-11-15) 30 s #01: "SAME DRINK. DIFFERENT FIZZ?" (sound cues and perceived carbonation)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-15-english-18`.
+
+Pre-edit checks:
+- Repo/branch confirmed: origin = github.com/cumbersomeamir/animations, branch claude-video/werbens, local 4defe7a == origin,
+  clean tree.
+- Batch 17 (english-17) was finished, pushed and attached first, and is not repeated here. No jobs were running.
+- CLAUDE.md and `05-progress.md` were re-read; topic history read from `context/11` (episode log rows 01–19), `context/09`
+  (pilot) and `context/28` (english-12).
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-15-english-18/werbens-30s-english18-01.mp4`.
+- Thumbnail: `werbens-30s-english18-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references:
+- **`context/27`** incl. **§5 first-frame rule**.
+- Style: `context/11` "Satisfying Product Theatre" on the live app.werbens.com dark-navy theme (context/28 §3).
+- Voice: context/11 + context/16 (Meshline/Recall).
+- Brand: `context/17` (re-checked today).
+- Copy in the output folder: `english18-30s-01.md`.
+
+## 1. Brief (user-approved, batch18 on 15 November 2026; latest feedback retained)
+- Proposed topic: **why the same drink can taste different in a different package**.
+- Packaging colour and expectation effects on perceived flavour, with research evidence and limitations. Same liquid in two
+  neutral fictional packages; reveal unchanged contents. No unverified brand experiment.
+- Exact app.werbens.com palette/logo only; sparse premium 3D product demonstration. Hook: **SAME DRINK. DIFFERENT TASTE?**
+- If covered, choose a genuinely different topic in the same genre. One new episode; never repeat batch17.
+
+## 2. Topic check against the episode history → covered; fresh alternative chosen
+**The proposed topic is already covered.**
+- The **educational pilot** (`education/pilot-01`, context/09) was titled "Why identical products can feel different in
+  different packaging". Its narration: "Packaging is a clue. It sets an expectation, and expectations can tilt the taste."
+  Sources included Deliza & MacFie 1996 and Piqueras-Fiszman & Spence 2012/2015 (packaging cues and sensory expectations).
+- **#14 english-12** ("Same product. New perception.") used the same-cola taste test where a brand cue changed preference
+  (McClure et al. 2004).
+- Packaging colour → flavour expectation is a sub-case of the pilot's thesis, with the same takeaway ("make the packaging
+  promise what's inside").
+
+**Chosen instead: sound cues and perceived carbonation.** Same genre (a sensory cue that changes how the same product is judged)
+and the same story criteria (same drink, two identical glasses, unchanged contents), but a mechanism the series has not used
+(hearing, not sight, brand or price), with a measured limitation built in:
+- the same sparkling water seemed more carbonated when its fizz sounded louder or had boosted high frequencies;
+- it seemed fizzier when held closer to the ear;
+- **but in the mouth, the sound manipulation changed nothing** — touch and irritation cues dominated.
+
+The hook changes to **SAME DRINK. DIFFERENT FIZZ?** (4 words, truthful: the drink is identical; only the perceived fizz differs).
+No brand experiment is shown; the glasses and water are unbranded and fictional.
+
+## 3. Brand re-check (facts; 2026-11-15, batch18)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, headless Chromium, scratchpad `appweb-dl-1115d`):
+- The top-40 computed colour list is identical to the batch-17 check the same day (`appweb-dl-1115c`).
+- Wordmark: Space Grotesk 700, 30.4 px, −1.216 px, `linear-gradient(135deg, rgb(127,231,220), rgb(49,104,121))`.
+- Logo `https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… is unchanged (= `assets/brand/app-werbens-logo.svg`).
+
+## 4. Facts used (verified 2026-11-15) — tagged measured / advice / illustration
+Primary source: Zampini, M., & Spence, C. (2005). Modifying the multisensory perception of a carbonated beverage using auditory
+cues. *Food Quality and Preference*, 16(7), 632–641. https://doi.org/10.1016/j.foodqual.2004.11.004 — abstract read from the
+Europe PMC record (AGRICOLA, id IND43735176) on 2026-11-15:
+
+> "In Experiment 1, participants rated a series of sparkling water samples in terms of their perceived carbonation using a
+> visual analogue scale. The water sounds were modified by changing the loudness and/or frequency composition of the auditory
+> feedback emitted by the water samples. The carbonated water samples were judged to be more carbonated when the overall sound
+> level was increased and/or when the high frequency components (2-20 kHz) of the water sound were amplified. In Experiment 2,
+> … The sparkling water samples were evaluated as being more carbonated when they were held close to the ear rather than
+> further away. In Experiment 3, we investigated whether the auditory manipulations reported in Experiment 1 might also
+> influence the perception of the level of carbonation and oral irritation of water samples in the mouth. The results revealed
+> that neither perceived carbonation nor the perceived oral irritation were influenced by variations in the level of auditory
+> feedback. Taken together, these results highlight the significant role that auditory cues play in modulating our perception
+> of the carbonation of beverages in the hand, and the dominance of oral-somatosensory and nociceptive cues over auditory cues
+> in the perceptio[n of carbonation in the mouth]."
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Can a sound make the same drink seem fizzier?" | **Question framed by the finding** | Exp. 1 |
+| L2 | "Same water, two glasses. Only the sound changes." | **Illustration** of the design (same samples, sound modified) | Exp. 1 design |
+| L3 | "In lab tests, turning the fizz up made the water seem more carbonated." | **Measured finding** (direction only) | Exp. 1: judged more carbonated when the sound level was increased (and/or high frequencies amplified). |
+| L4 | "Held closer to the ear, the same water seemed fizzier." | **Measured finding** (direction only) | Exp. 2: sparkling samples rated more carbonated when held close to the ear. |
+| L5 | "But in the mouth, sound changed nothing; touch and tingle took over." | **Measured finding** (limitation) | Exp. 3 + conclusion: no effect in the mouth; oral-somatosensory ("touch") and nociceptive ("tingle") cues dominate. |
+| L6 | "So sound sets the promise before the first sip." | **Interpretation** of Exp. 1–3 (sound shapes the judgement in the hand, before tasting) | — |
+| L7 | "Let them hear the fizz, then make the drink deliver it." | **Practical advice** (not a measured effect) | — |
+| — | glasses, water, bubbles, sound bars, rating sliders, straws | **Illustration** | Sliders and bars show direction only, not study values. The bubbles are identical in both glasses throughout (unchanged contents). |
+
+Background, not narrated: Spence, C. (2015). Eating with our ears. *Flavour* 4:3 (doi 10.1186/2044-7248-4-3) and Spence & Wang
+(2015), *Flavour* 4:35 (doi 10.1186/s13411-015-0044-y), both open-access reviews. Their full text was not read in this session
+(publisher sign-in redirect), so nothing in the script depends on them.
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), **af_bella 0.7 + am_puck 0.3**, speed 0.98, en-us,
+  newly synthesised. Hook audio starts at 0.15 s.
+- Script fixes:
+  - "touch and tingle won" was heard as "one" (homophone, as in english-15), so it became "took over".
+  - L2/L3 touched in the first pass, so the lines were re-spaced (gaps 0.30–1.03 s; the 1.03 s gap after the hook lets the two
+    different fizz sounds be heard).
+- Whisper base.en per line (clean narration): L1 8/9 · L2 7/8 · L3 13/13 · L4 9/10 · L5 12/12 · L6 9/9 · L7 11/11 · L8 6/7.
+  The misses are spellings only: "fizzier" written "fisier" (L1, L4) and "two" written "to" (L2); "Werbens" → "Warbins" (known).
+  `WORD_TEXT_FIX` restores the script spellings so captions align.
+- Caption timing: Whisper word times plus `WORD_FIX` pins for L3, L5, L6 and L7, read from the voiced segments of the narration
+  envelope (e.g. "sound" 15.91 → 15.63 s, "took" 17.87 → 17.98 s, "promise" 20.07 → 19.89 s, "fizz" 22.86 → 22.65 s).
+
+## 6. Final script (= final transcript) — 79 words, 23.7 s of speech
+| Part (context/27) | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: SAME DRINK. / DIFFERENT FIZZ?) | L1 | 0.15–2.24 | Can a sound make the same drink seem fizzier? |
+| Build-up | L2 | 3.33–6.47 | Same water, two glasses. Only the sound changes. |
+| Proof | L3 | 6.98–11.02 | In lab tests, turning the fizz up made the water seem more carbonated. |
+| Proof | L4 | 11.48–14.38 | Held closer to the ear, the same water seemed fizzier. |
+| Proof (limitation) | L5 | 14.88–18.55 | But in the mouth, sound changed nothing; touch and tingle took over. |
+| Payoff (answer) | L6 | 18.93–21.25 | So sound sets the promise before the first sip. |
+| Payoff (takeaway) | L7 | 22.08–24.89 | Let them hear the fizz, then make the drink deliver it. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail.** Two identical, unbranded tall glasses of sparkling water on a low ink plinth, each on a speaker
+  coaster. Their bubble streams are identical (same seeds), so the contents visibly match. The right glass is "loud": its
+  coaster ring glows and its four-bar sound meter stands high; the left glass's meter is low. The headline reads
+  "SAME DRINK. / DIFFERENT FIZZ?" (Space Grotesk 700; the second line uses the hero gradient), x 118–882, y 330–565. No
+  intro, no fade. The headline clears by 0.42 s as the first caption appears.
+- **Sound is in the soundtrack too.** A synthesised fizz bed per glass (bubble-pop clicks + hiss) follows each glass's level:
+  left quiet and panned left, right louder and brighter and panned right (measured in the hook gap 2.3–3.3 s: right
+  −38.3 LUFS vs left −43.3 LUFS on the SFX stem). The 1.03 s gap after the hook lets it be heard.
+- **One real question:** "can a sound make the same drink seem fizzier?"
+  - Build-up: same water, two glasses; only the sound changes.
+  - Proof: the lab result (louder fizz → rated more carbonated), the ear result (closer → fizzier), then the limitation (no
+    effect in the mouth).
+  - Payoff: the answer (sound sets the promise before the first sip), then the takeaway (let them hear the fizz, then make
+    the drink deliver it).
+- **One visual idea at a time:**
+  1. Frame 0: same glasses, one loud.
+  2. SAME WATER; then the left glass goes quiet and the right louder.
+  3. Pull back: rating sliders (flat disc ↔ three bubbles, no text) appear; the right sound is turned up; its slider moves
+     toward fizzy ("SEEMS FIZZIER").
+  4. Sounds and sliders equalise; the right glass is lifted toward the viewer; its slider moves up ("CLOSER, FIZZIER"); it
+     returns.
+  5. Straws drop into both glasses; the right sound pumps, but both sliders end level ("NO CHANGE"); both glasses' bubbles
+     shimmer on "touch and tingle".
+  6. Straws fade out; the right slider moves ahead again on "sound sets the promise" ("BEFORE THE SIP").
+  7. Both glasses get sound on "hear the fizz"; on "deliver" the real bubbles in both glasses become denser and both
+     sliders rise ("THEN DELIVER").
+  8. The stage sinks; the logo tile pops up; wordmark on "Werbens".
+- **Unchanged contents.** The real bubbles are identical in both glasses throughout; only the payoff's "deliver" raises the
+  real fizz, and it does so in both glasses equally.
+- **Labels:** SAME WATER / SEEMS FIZZIER / CLOSER, FIZZIER / NO CHANGE / BEFORE THE SIP / THEN DELIVER. All large and brief,
+  one at a time, y ≥ 574. No in-world text.
+- **Excluded:** no brand, no package claim, no prices, no source chips, no decorative lines.
+- **Reusable lessons:**
+  1. Transparent props: keep meters and other objects beside, not behind, a glass, or they read as being inside it.
+  2. Keep moving props (straws) below the caption/label band: fade them out instead of flying them away.
+  3. Check every SFX type's required parameters (`cupLand` needs `size`); a missing one silently produced NaN audio until
+     the loudnorm pass failed.
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.3 s | two glasses, slow push | headline; same bubbles; right glass loud | fizz bed (L quiet / R loud), piano |
+| Build-up | 3.3–6.9 s | push | SAME WATER; left quieter, right louder | tag, slide, piano |
+| Proof 1 (lab) | 6.9–11.3 s | pull back to the sliders | sliders appear; right turned up; right slider → fizzy (SEEMS FIZZIER) | whoosh, ticks, riser, slide, tag |
+| Proof 2 (ear) | 11.3–14.45 s | slight reframe | equalise; right glass lifted toward the viewer; slider up (CLOSER, FIZZIER); returns | whoosh, slide, tag, cup landing |
+| Proof 3 (mouth) | 14.45–18.55 s | higher angle | straws in; right sound pumps; sliders end level (NO CHANGE); tingle shimmer | clinks, tag, shimmer |
+| Payoff | 18.55–26.25 s | settle, slow push | straws fade; right slider ahead (BEFORE THE SIP); both sound; real fizz up in both (THEN DELIVER) | slides, tag, riser, fizz bed |
+| CTA | 26.25–30 s | pull back | stage sinks; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, D-major spread |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-15-english-18/werbens-30s-english18-01.mp4`, sha256 `ba78e2b4…49e7`, 7,400,084 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `cbe71a36…`) and `.jpg` (sha256 `30adc144…`).
+
+Verification results (2026-11-15):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1 bt709; AAC-LC
+  48 kHz stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean.
+- **Audio:** −15.0 LUFS integrated, true peak −1.9 dBTP, LRA 3.2 LU, flat factor 0. Stems: voice −20.6, music −31.6, foley
+  −34.2 LUFS. Fizz difference in the hook gap (SFX stem 2.3–3.3 s): right −38.3 vs left −43.3 LUFS (measured, not listened).
+- **ASR of the final mix (Whisper base.en):** same as the clean narration; all words recognised, misses are spellings only
+  ("fisier", "to", "Warbins"). ASR only, no human listen.
+- **DOM, every frame (900):** caption ink x 158–842 / y 369–489; pill x 128–872 / y 353–507; headline 13 frames x 118–882 /
+  y 330–565; labels x 160–840 / y 574–1456. 0 headline conflicts, 0 outside, 0 overlaps, 0 in y < 300, never two big labels.
+- **Visual review:** the transition sheet (30 beats), the contact sheet and frame 0 were inspected. Identical bubbles in both
+  glasses throughout; no empty frames; nothing crossing the caption/label band; no missing assets.
+- **Render 1 was rejected after review:** the hook caption "Can a sound" showed for 0.27 s and "But in the mouth," for 0.73 s.
+  The caption groups were merged (`src/timeline.js`); render 2 is the delivered file (shortest group 0.94 s).
+- **Earlier outputs:** 20 earlier MP4s were re-hashed and are unchanged; nothing earlier was overwritten.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 17 was finished; re-read CLAUDE.md and 05-progress; read the topic history.
+2. Topic check → covered (pilot + #14); switched to sound cues (§2).
+3. Sources: Crossref (DOIs), Europe PMC REST API (abstract). The Springer pages for the two *Flavour* reviews redirect through a
+   sign-in service; that route was not pursued.
+4. app.werbens.com re-inspection (`tools/app.cjs`, `tools/appwm.cjs` → `appweb-dl-1115d`).
+5. Project created from the english-17 skeleton (`src/` tools, fonts, node_modules); outputs, QA and words.json not copied.
+6. `node src/tts.mjs` (3 passes) → `node src/words.mjs` → `node src/words_fix.mjs`.
+7. Stills (5 passes, `node src/render.mjs --stills … --scale 0.5`):
+   - camera too close (glasses into the headline) → pulled back;
+   - sound bars read as inside the glasses → meters moved beside each glass;
+   - water too milky → deeper teal, lower opacity;
+   - glass tops / straws / lifted glass touching the labels → every framing lowered, straws shortened, ear lift mostly forward;
+   - straws flying out through the caption band → they fade out in place.
+8. `node src/audio.mjs` (NaN from a missing `cupLand` size fixed; fizz bed +5 dB) → `node src/qa_dom.mjs 3` (PASS) →
+   checkpoint commit a7a1fe9.
+9. `node src/render.mjs --video` → ffmpeg mux → `node src/render.mjs --thumb --stills 0 --out build/thumb` → `bash qa.sh` →
+   `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english18-01.mp4`.
+10. Render 1 review → caption groups merged → render 2 → mux → thumbnail → `bash qa.sh` → `node src/qa_dom.mjs 1` →
+    `node src/asr_mix.mjs werbens-30s-english18-01.mp4`, all PASS (§9).
+11. QA.md written; context/05 marked delivered; committed and pushed; MP4 + thumbnail attached in chat.
+
+Next step: none for this batch (one episode only; no automation).

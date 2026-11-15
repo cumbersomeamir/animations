@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        2.57
+      ],
+      "script": "Can a sound make the same drink seem fizzier?",
+      "heard": "Can a sound make the same drink seem fisier?",
+      "words": "8/9"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.15,
+        6.8
+      ],
+      "script": "Same water, two glasses. Only the sound changes.",
+      "heard": "Same water to glasses. Only the sound changes.",
+      "words": "7/8"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.8,
+        11.35
+      ],
+      "script": "In lab tests, turning the fizz up made the water seem more carbonated.",
+      "heard": "In lab tests, turning the fizz up made the water seem more carbonated.",
+      "words": "13/13"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.3,
+        14.71
+      ],
+      "script": "Held closer to the ear, the same water seemed fizzier.",
+      "heard": "Held closer to the ear, the same water seemed fisier.",
+      "words": "9/10"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.7,
+        18.88
+      ],
+      "script": "But in the mouth, sound changed nothing; touch and tingle took over.",
+      "heard": "But in the mouth, sound changed nothing. Touch and tingle took over.",
+      "words": "12/12"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        18.75,
+        21.58
+      ],
+      "script": "So sound sets the promise before the first sip.",
+      "heard": "So Sound sets the promise before the first sip.",
+      "words": "9/9"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        21.9,
+        25.22
+      ],
+      "script": "Let them hear the fizz, then make the drink deliver it.",
+      "heard": "Let them hear the fizz, then make the drink deliver it.",
+      "words": "11/11"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Can a sound make the same drink seem fisier? Same water to glasses, only the sound changes. In lab tests, turning the fizz up made the water seem more carbonated. Held closer to the ear, the same water seemed fisier. But in the mouth, sound changed nothing. Touch and tingle took over. So sound sets the promise before the first sip. Let them hear the fizz, then make the drink deliver it. Follow Warbins to decode how brands sell."
+}

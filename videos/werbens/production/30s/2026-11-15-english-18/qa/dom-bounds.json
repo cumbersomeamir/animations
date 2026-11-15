@@ -3,23 +3,23 @@
   "caption": {
     "minTop": 369,
     "maxBottom": 489,
-    "minLeft": 175,
-    "maxRight": 825,
+    "minLeft": 158,
+    "maxRight": 842,
     "maxLines": 2,
     "pillTop": 353,
     "pillBottom": 507,
-    "pillLeft": 145,
-    "pillRight": 855
+    "pillLeft": 128,
+    "pillRight": 872
   },
   "captionOutside": [],
   "labels": {
     "minLeft": 160,
     "maxRight": 840,
     "minTop": 574,
-    "maxBottom": 1453
+    "maxBottom": 1456
   },
   "headline": {
-    "frames": 5,
+    "frames": 13,
     "minLeft": 118,
     "maxRight": 882,
     "minTop": 330,
@@ -31,5 +31,5 @@
   "labelUnderCaption": [],
   "labelOverlaps": [],
   "multiBig": [],
-  "samples": 300
+  "samples": 900
 }
