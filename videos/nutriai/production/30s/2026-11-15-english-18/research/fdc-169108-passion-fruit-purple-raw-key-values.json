@@ -1,0 +1,54 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights (edible portion, refuse excluded)",
+ "fdcId": 169108,
+ "ndbNumber": 9231,
+ "description": "Passion-fruit, (granadilla), purple, raw",
+ "per_100_g": {
+  "Sugars, total including NLEA": {
+   "amount": 11.2,
+   "unit": "g"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.7,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 23.4,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 97.0,
+   "unit": "kcal"
+  },
+  "Water": {
+   "amount": 72.9,
+   "unit": "g"
+  },
+  "Potassium, K": {
+   "amount": 348,
+   "unit": "mg"
+  },
+  "Fiber, total dietary": {
+   "amount": 10.4,
+   "unit": "g"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 30.0,
+   "unit": "mg"
+  },
+  "Protein": {
+   "amount": 2.2,
+   "unit": "g"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "fruit without refuse",
+   "gramWeight": 18.0
+  },
+  {
+   "modifier": "cup",
+   "gramWeight": 236.0
+  }
+ ]
+}

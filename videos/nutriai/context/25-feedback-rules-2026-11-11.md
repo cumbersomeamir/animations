@@ -40,3 +40,8 @@ thumbnail → hook → optional super hook → build-up + proof → payoff → C
 - No logo intro, fade from black or empty setup. Frame 0 must be a beautifully composed, surprising subject that is readable on a phone, with at most 2–5 truthful curiosity words; the first image should work as the thumbnail.
 - Click-worthy never means misleading. Hook audio starts immediately, promises a specific useful answer, and the episode delivers it. Keep the app-specific approved aesthetic.
 - Applied first in english-15 (honey vs sugar): frame 0 = two tablespoons (honey dripping, sugar sparkling) with "WHICH SPOON?" plus the two food names; the thumbnail is the same composition.
+
+## Addendum 2026-11-15 (batch 18): full-frame, no cream card (approved)
+- The cream boxed card / chart-only diagram style (batches 12–17) does not fulfil the feedback. Do not use cream chart-only layouts or rigid boxed cards.
+- Restore the fun, varied full-frame style: every scene full-bleed on its own bright background, one big playful engraved food hero with personality, real transformations, one nutrient reveal at a time, large bright outlined typography; captions white with a dark outline (second line yellow) inside x 100–900 / y 230–1500; the CalMeter wordmark white on colour.
+- No health-cure claims. Applied first in english-18 (passion fruit).

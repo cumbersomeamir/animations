@@ -1,0 +1,74 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights (edible portion, refuse excluded)",
+ "fdcId": 171688,
+ "ndbNumber": 9003,
+ "description": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+ "per_100_g": {
+  "Carbohydrate, by difference": {
+   "amount": 13.8,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 52.0,
+   "unit": "kcal"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.17,
+   "unit": "g"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 10.4,
+   "unit": "g"
+  },
+  "Potassium, K": {
+   "amount": 107,
+   "unit": "mg"
+  },
+  "Water": {
+   "amount": 85.6,
+   "unit": "g"
+  },
+  "Fiber, total dietary": {
+   "amount": 2.4,
+   "unit": "g"
+  },
+  "Protein": {
+   "amount": 0.26,
+   "unit": "g"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 4.6,
+   "unit": "mg"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "cup slices",
+   "gramWeight": 109.0
+  },
+  {
+   "modifier": "medium (3\" dia)",
+   "gramWeight": 182.0
+  },
+  {
+   "modifier": "small (2-3/4\" dia)",
+   "gramWeight": 149.0
+  },
+  {
+   "modifier": "NLEA serving",
+   "gramWeight": 242.0
+  },
+  {
+   "modifier": "cup, quartered or chopped",
+   "gramWeight": 125.0
+  },
+  {
+   "modifier": "extra small (2-1/2\" dia)",
+   "gramWeight": 101.0
+  },
+  {
+   "modifier": "large (3-1/4\" dia)",
+   "gramWeight": 223.0
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+CalMeter english-18 — calculations (2026-11-15). Inputs: USDA SR Legacy FDC 169108 "Passion-fruit, (granadilla), purple, raw" and FDC 171688 "Apples, raw, with skin", per 100 g edible portion, plus SR28 household weight and refuse.
+
+MEASURED (USDA)
+  passion fruit pulp with seeds: 97 kcal, fibre 10.4 g, vitamin C 30.0 mg, water 72.9 g per 100 g
+  refuse (SR28 FOOD_DES, NDB 09231): "Shell", 48 %
+  household weight (SR28 WEIGHT): "1 fruit without refuse" = 18 g
+  apple, raw, with skin: fibre 2.4 g per 100 g (refuse: core and stem, 10 %)
+
+CALCULATED
+  one fruit's pulp: 18 g x 97/100 = 17.5 kcal  -> "about seventeen"
+  one fruit's fibre: 18 g x 10.4/100 = 1.87 g  -> "about two grams"
+  whole fruit with shell ≈ 18 / (1 - 0.48) = 34.6 g (so the shell ≈ 16.6 g, "about half")
+  fibre ratio passion fruit / apple = 10.4/2.4 = 4.33  -> "four times an apple" (per 100 g)
+  100 g of pulp ≈ 5.6 fruits
+
+ILLUSTRATIVE (drawing conventions)
+  fruit halves, floating seed sacs, the scoop arc and the spoonful are drawings; the 100 g bowl and the 18 g bowl are not to scale with each other
+  "SEEDS TOO": the seeds are part of USDA's edible portion (only the shell is refuse); the episode does not claim how much of the fibre comes from the seeds

@@ -1,0 +1,10 @@
+T0.wav | Jewels you can eat. What's really inside a passion fruit.
+    [('Jewels', 0.0, 0.28), ('you', 0.28, 0.42), ('can', 0.42, 0.58), ('eat.', 0.58, 0.74), ("What's", 1.2, 1.34), ('really', 1.34, 1.5), ('inside', 1.5, 1.84), ('a', 1.84, 2.08), ('passion', 2.08, 2.4), ('fruit.', 2.4, 2.74)]
+T1.wav | About half is shell. One fruit gives just 18 grams of pulp and seeds.
+    [('About', 0.0, 0.18), ('half', 0.18, 0.4), ('is', 0.4, 0.6), ('shell.', 0.6, 0.82), ('One', 1.62, 1.62), ('fruit', 1.62, 1.88), ('gives', 1.88, 2.2), ('just', 2.2, 2.4), ('18', 2.4, 2.74), ('grams', 2.74, 3.14), ('of', 3.14, 3.4), ('pulp', 3.4, 3.58), ('and', 3.58, 3.82), ('seeds.', 3.82, 4.02)]
+T2.wav | per hundred grams, that's 97 calories, so one fruit has about 17.
+    [('per', 0.0, 0.1), ('hundred', 0.1, 0.44), ('grams,', 0.44, 0.78), ("that's", 1.24, 1.44), ('97', 1.44, 1.7), ('calories,', 1.7, 2.28), ('so', 3.04, 3.18), ('one', 3.18, 3.36), ('fruit', 3.36, 3.66), ('has', 3.66, 3.92), ('about', 3.92, 4.14), ('17.', 4.14, 4.52)]
+T3.wav | The seeds are eaten too, and the pulp carries 10 grams of fiber per hundred, four times an apple.
+    [('The', 0.0, 0.08), ('seeds', 0.08, 0.28), ('are', 0.28, 0.56), ('eaten', 0.56, 0.74), ('too,', 0.74, 1.12), ('and', 1.56, 1.72), ('the', 1.72, 1.8), ('pulp', 1.8, 1.94), ('carries', 1.94, 2.34), ('10', 2.34, 2.68), ('grams', 2.68, 2.94), ('of', 2.94, 3.24), ('fiber', 3.24, 3.46), ('per', 3.46, 3.76), ('hundred,', 3.76, 4.12), ('four', 4.52, 4.82), ('times', 4.82, 5.2), ('an', 5.2, 5.42), ('apple.', 5.42, 5.64)]
+T4.wav | So one fruit adds about 17 calories and 2 grams of fiber. Log the pulp, not the shell.
+    [('So', 0.0, 0.14), ('one', 0.14, 0.3), ('fruit', 0.3, 0.56), ('adds', 0.56, 0.96), ('about', 0.96, 1.18), ('17', 1.18, 1.6), ('calories', 1.6, 2.04), ('and', 2.04, 2.52), ('2', 2.52, 2.7), ('grams', 2.7, 2.98), ('of', 2.98, 3.2), ('fiber.', 3.2, 3.5), ('Log', 4.36, 4.36), ('the', 4.36, 4.58), ('pulp,', 4.58, 4.76), ('not', 5.1, 5.24), ('the', 5.24, 5.38), ('shell.', 5.38, 5.58)]

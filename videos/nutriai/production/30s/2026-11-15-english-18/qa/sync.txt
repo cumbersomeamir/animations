@@ -1,0 +1,23 @@
+caption line | caption on (s) | first word heard | word start (s) | caption - word (s)  [base.en (VAD) word timestamps on the exported MP4; small.en word timestamps unavailable for this file]
+(frame-0 headline "JEWELS / YOU CAN EAT" carries the first spoken words, 0.15-0.9 s; captions start at "what's")
+what's really inside | 1.37 | What's | 1.40 | -0.03
+a passion fruit? | 2.23 | a | 2.00 | +0.23
+About half is shell. | 3.53 | About | 3.62 | -0.09
+One fruit gives just 18 g | 4.97 | One | 5.12 | -0.15
+of pulp and seeds. | 6.63 | of | 6.62 | +0.01
+Per 100 g, | 8.37 | Per | 8.40 | -0.03
+that's 97 kcal, | 9.60 | that's | 9.56 | +0.04
+so one fruit has about 17. | 11.40 | So | 11.42 | -0.02
+The seeds are eaten too, | 13.77 | The | 13.70 | +0.07
+and the pulp carries | 15.30 | and | 15.30 | +0.00
+10 g of fibre per 100 g: | 16.10 | 10 | 16.08 | +0.02
+four times an apple. | 18.27 | Four | 18.44 | -0.17
+So one fruit adds | 20.57 | So | 20.62 | -0.05
+about 17 kcal | 21.50 | about | 21.48 | +0.02
+and 2 g of fibre: | 22.60 | and | 22.70 | -0.10
+log the pulp, not the shell. | 24.77 | Log | 24.80 | -0.03
+Track your food and nutrition | 27.10 | Track | 26.72 | +0.38
+with CalMeter | 28.37 | with | 28.34 | +0.03
+lines 18; within ±0.10 s: 14; within ±0.25 s: 17; largest offset +0.38 s
+Note on "Track your food and nutrition" (+0.38): the voice-only mix track (source/build/voice.wav, not committed) is silent from 26.7 s to 27.1 s and the cached CTA take starts at 27.10 s (rms -34 dB in 27.1-27.2, -15 dB in 27.2-27.3), the frame the caption appears; the offset is ASR word-start drift after a pause.
+Note on the small.en transcript tail ("For more information, visit www.calmeter.com"): the voice track is silent from 29.4 s to 30.0 s (rms below -88 dB); nothing is spoken after the CTA. The phrase is a Whisper hallucination over the closing music bed, not audio content.

@@ -1,0 +1,321 @@
+{
+ "_doc": "CalMeter English 30 s english-18 (2026-11-15, batch 18): what's inside a passion fruit, 'JEWELS YOU CAN EAT' (the requested pomegranate was already production #03; switched per the overlap rule). Full-frame bright scenes, no card. Frame 0 is the thumbnail composition; the frame-0 headline carries the first spoken words, captions start at 'what's'. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.5
+  },
+  {
+   "id": "T2",
+   "at": 8.35
+  },
+  {
+   "id": "T3",
+   "at": 13.75
+  },
+  {
+   "id": "T4",
+   "at": 20.55
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 40,
+   "out": 100,
+   "lines": [
+    [
+     "what's really inside",
+     41
+    ],
+    [
+     "a passion fruit?",
+     67
+    ]
+   ]
+  },
+  {
+   "in": 105,
+   "out": 146,
+   "lines": [
+    [
+     "About half is shell.",
+     106
+    ]
+   ]
+  },
+  {
+   "in": 148,
+   "out": 238,
+   "lines": [
+    [
+     "One fruit gives just 18 g",
+     149
+    ],
+    [
+     "of pulp and seeds.",
+     199
+    ]
+   ]
+  },
+  {
+   "in": 251,
+   "out": 338,
+   "lines": [
+    [
+     "Per 100 g,",
+     251
+    ],
+    [
+     "that's 97 kcal,",
+     288
+    ]
+   ]
+  },
+  {
+   "in": 341,
+   "out": 398,
+   "lines": [
+    [
+     "so one fruit has about 17.",
+     342
+    ]
+   ]
+  },
+  {
+   "in": 413,
+   "out": 456,
+   "lines": [
+    [
+     "The seeds are eaten too,",
+     413
+    ]
+   ]
+  },
+  {
+   "in": 459,
+   "out": 545,
+   "lines": [
+    [
+     "and the pulp carries",
+     459
+    ],
+    [
+     "10 g of fibre per 100 g:",
+     483
+    ]
+   ]
+  },
+  {
+   "in": 547,
+   "out": 592,
+   "lines": [
+    [
+     "four times an apple.",
+     548
+    ]
+   ]
+  },
+  {
+   "in": 617,
+   "out": 676,
+   "lines": [
+    [
+     "So one fruit adds",
+     617
+    ],
+    [
+     "about 17 kcal",
+     645
+    ]
+   ]
+  },
+  {
+   "in": 678,
+   "out": 740,
+   "lines": [
+    [
+     "and 2 g of fibre:",
+     678
+    ]
+   ]
+  },
+  {
+   "in": 743,
+   "out": 806,
+   "lines": [
+    [
+     "log the pulp, not the shell.",
+     743
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "sfx0": 0,
+  "hookOut": 40,
+  "pageA": 93,
+  "burnish": 96,
+  "half": 110,
+  "scoop": 150,
+  "land": 166,
+  "g18": 177,
+  "pulp": 207,
+  "pageB": 240,
+  "burnish2": 240,
+  "per100": 252,
+  "k97": 294,
+  "spoon": 342,
+  "k17": 375,
+  "pageC": 401,
+  "burnish3": 400,
+  "seeds": 415,
+  "k10": 483,
+  "apple": 548,
+  "x4": 558,
+  "pageD": 596,
+  "burnish4": 596,
+  "k17b": 652,
+  "k2": 692,
+  "logIt": 742,
+  "cta": 806,
+  "ctaWord": 813
+ },
+ "sfx": [
+  {
+   "ev": "sfx0",
+   "type": "juice",
+   "gain": -22
+  },
+  {
+   "ev": "pageA",
+   "type": "page",
+   "dur": 0.3,
+   "gain": -28
+  },
+  {
+   "ev": "half",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "scoop",
+   "type": "pour",
+   "dur": 0.6,
+   "gain": -29
+  },
+  {
+   "ev": "land",
+   "type": "patter",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "g18",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pulp",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pageB",
+   "type": "page",
+   "dur": 0.3,
+   "gain": -28
+  },
+  {
+   "ev": "k97",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "spoon",
+   "type": "clink",
+   "gain": -29
+  },
+  {
+   "ev": "k17",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageC",
+   "type": "page",
+   "dur": 0.35,
+   "gain": -28
+  },
+  {
+   "ev": "seeds",
+   "type": "sprinkle",
+   "dur": 0.5,
+   "gain": -27
+  },
+  {
+   "ev": "k10",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "apple",
+   "type": "thud",
+   "gain": -27
+  },
+  {
+   "ev": "x4",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageD",
+   "type": "page",
+   "gain": -28
+  },
+  {
+   "ev": "k17b",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k2",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "logIt",
+   "type": "tear",
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}
