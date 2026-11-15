@@ -1,0 +1,110 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Waiting for the perfect words?",
+      "start": 0.15,
+      "end": 1.59,
+      "pauses": []
+    },
+    {
+      "id": "worry",
+      "text": "That worry can keep a thank-you unsent.",
+      "start": 2.05,
+      "end": 3.852,
+      "pauses": [
+        [
+          2.896,
+          2.973
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In experiments, people wrote thank-you letters and guessed the recipient's reaction.",
+      "start": 4.35,
+      "end": 8.751,
+      "pauses": [
+        [
+          5.252,
+          5.543
+        ],
+        [
+          6.077,
+          6.225
+        ]
+      ]
+    },
+    {
+      "id": "felt",
+      "text": "Recipients felt better than the writers expected, and less awkward.",
+      "start": 9.2,
+      "end": 12.847,
+      "pauses": [
+        [
+          11.326,
+          11.419
+        ],
+        [
+          11.605,
+          11.938
+        ]
+      ]
+    },
+    {
+      "id": "words",
+      "text": "And the wording? Writers guessed about seven out of ten. Recipients rated it over nine.",
+      "start": 13.35,
+      "end": 18.546,
+      "pauses": [
+        [
+          13.998,
+          14.312
+        ],
+        [
+          16.329,
+          16.784
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Don't wait to feel ready. Write one thank-you today: what they did, and how it helped.",
+      "start": 19.6,
+      "end": 24.297,
+      "pauses": [
+        [
+          20.685,
+          21.119
+        ],
+        [
+          22.416,
+          22.639
+        ],
+        [
+          24.08,
+          24.198
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
