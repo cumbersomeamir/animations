@@ -98,3 +98,8 @@ and Login button #316879 unchanged; logo SVG sha256 816c1761… unchanged. Dark-
 ## Re-check for english-16 (batch16, 2026-11-15)
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-15 check; wordmark styling unchanged;
 logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/32 §3).
+
+## Re-check for english-17 (batch17, 2026-11-15)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-16 check; wordmark styling unchanged;
+logo SVG sha256 816c1761… unchanged (re-downloaded from https://app.werbens.com/app/werbens-logo.svg). Dark-navy hero theme kept
+in every scene (context/33 §3).
