@@ -154,3 +154,7 @@ composition. Deliverable `videos/recall/production/30s/2026-11-15-english-15/rec
 ## Update 2026-11-15 batch 16 — english-16
 Episode E16 "That is my voice?" (why your voice sounds different in a recording; English). The topic was new (nearest: F05,
 noise cancelling), so it was kept; record in context 29; deliverable `videos/recall/production/30s/2026-11-15-english-16/recall-30s-english16-01.mp4` + thumbnail.
+
+## Update 2026-11-15 batch 17 — english-17
+Episode E17 "That hole is on purpose" (why a tiny hole in an airplane window matters; English). The topic was new, so it was
+kept; record in context 30; deliverable `videos/recall/production/30s/2026-11-15-english-17/recall-30s-english17-01.mp4` + thumbnail.

@@ -1,0 +1,39 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "That hole is on purpose."
+  },
+  {
+   "id": "l02",
+   "text": "It decides which layer holds the cabin in."
+  },
+  {
+   "id": "l03",
+   "text": "Up high, cabin air pushes out much harder than the thin air outside."
+  },
+  {
+   "id": "l04",
+   "text": "The thick outer layer takes that push."
+  },
+  {
+   "id": "l05",
+   "text": "The hole lets cabin air into the gap behind the middle layer."
+  },
+  {
+   "id": "l06",
+   "text": "Equal pressure on both sides means that layer carries no load. It's the backup."
+  },
+  {
+   "id": "l07",
+   "text": "See fog between the layers? That's moist cabin air that came in through the hole."
+  },
+  {
+   "id": "l08",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}

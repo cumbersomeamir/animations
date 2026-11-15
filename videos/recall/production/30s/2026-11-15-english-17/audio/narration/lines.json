@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "That hole is on purpose.",
+      "file": "l01.wav",
+      "duration": 1.216,
+      "sr": 24000,
+      "words_per_s": 4.11
+    },
+    {
+      "id": "l02",
+      "text": "It decides which layer holds the cabin in.",
+      "file": "l02.wav",
+      "duration": 2.188,
+      "sr": 24000,
+      "words_per_s": 3.66
+    },
+    {
+      "id": "l03",
+      "text": "Up high, cabin air pushes out much harder than the thin air outside.",
+      "file": "l03.wav",
+      "duration": 3.691,
+      "sr": 24000,
+      "words_per_s": 3.52
+    },
+    {
+      "id": "l04",
+      "text": "The thick outer layer takes that push.",
+      "file": "l04.wav",
+      "duration": 1.726,
+      "sr": 24000,
+      "words_per_s": 4.05
+    },
+    {
+      "id": "l05",
+      "text": "The hole lets cabin air into the gap behind the middle layer.",
+      "file": "l05.wav",
+      "duration": 3.102,
+      "sr": 24000,
+      "words_per_s": 3.87
+    },
+    {
+      "id": "l06",
+      "text": "Equal pressure on both sides means that layer carries no load. It's the backup.",
+      "file": "l06.wav",
+      "duration": 4.885,
+      "sr": 24000,
+      "words_per_s": 2.87
+    },
+    {
+      "id": "l07",
+      "text": "See fog between the layers? That's moist cabin air that came in through the hole.",
+      "file": "l07.wav",
+      "duration": 4.414,
+      "sr": 24000,
+      "words_per_s": 3.4
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

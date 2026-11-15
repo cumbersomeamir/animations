@@ -75,3 +75,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   + `recall-30s-english15-01-thumbnail.png` (30.000 s; condensation below the dew point, humidity, insulated cup; record, topic-change reason, sources + QA in 28).
 - English-16 2026-11-15 batch 16 (English; topic kept, not covered before; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-16/recall-30s-english16-01.mp4`
   + `recall-30s-english16-01-thumbnail.png` (30.000 s; air vs bone conduction, recordings lack the bone part, occlusion test; record, sources + QA in 29).
+- English-17 2026-11-15 batch 17 (English; topic kept, not covered before; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-17/recall-30s-english17-01.mp4`
+  + `recall-30s-english17-01-thumbnail.png` (30.000 s; airliner window layers, breather hole, fail-safe middle layer, fog; record, sources + QA in 30).
