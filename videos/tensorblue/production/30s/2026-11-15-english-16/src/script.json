@@ -1,0 +1,70 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "Your route just changed, and you haven't even reached the jam.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "How did the app know first?",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "To the app, streets are a graph. Each segment costs its travel time now.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Live traffic just raised this one from two minutes to seven.",
+   "after": 0.3
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "It reruns a shortest-time search from your spot: old route fourteen, detour ten.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Google says Maps reroutes using live and predicted traffic.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "So a reroute is fresh travel times plus a fast search, rerun as you drive.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+Your route just changed, and you haven't even reached the jam. How did the app know first?
+
+To the app, streets are a graph. Each segment costs its travel time now. Live traffic just raised this one from two minutes to seven. It reruns a shortest-time search from your spot: old route fourteen, detour ten. Google says Maps reroutes using live and predicted traffic.
+
+So a reroute is fresh travel times plus a fast search, rerun as you drive.
+
+Our test city is made up: we ran Dijkstra's shortest-path search on it before and after one street's time went from 2 to 7 minutes. The old route became 14 minutes and the search switched to a 10-minute detour. Real apps don't publish their exact routing algorithms; this shows the general idea.
+
+Sources:
+- Google Blog, Google Maps 101: How AI helps predict traffic and determine routes: https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
+- Google Blog, Back to school doesn't have to mean back to traffic: https://blog.google/products-and-platforms/products/maps/back-school-doesnt-have-mean-back-traffic/
+- NIST Dictionary of Algorithms and Data Structures, Dijkstra's algorithm: https://xlinux.nist.gov/dads/HTML/dijkstraalgo.html
+- OSRM (open-source routing engine) wiki, Traffic: https://github.com/Project-OSRM/osrm-backend/wiki/Traffic
+
+Follow Tensorblue for software explained simply.
+
+#Maps #AppDevelopment #SoftwareExplained

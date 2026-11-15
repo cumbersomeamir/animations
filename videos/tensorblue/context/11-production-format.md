@@ -121,6 +121,14 @@ Practical system design · useful new GitHub tools · research explained through
   - Real proof: a SQLite app-crash test (honestly an app crash, not a power cut).
   - Notes: `28-production-30s-english15-01.md`.
 
+- **2026-11-15 english-16 (batch16; latest approved feedback retained):** topic "how a maps app reroutes before you reach the traffic jam", new to the channel.
+  - Frame zero: a miniature 3D city with **YOUR ROUTE JUST CHANGED.**, a red jam on the old (blue) route and the new cyan detour; it doubles as the thumbnail.
+  - Mechanism: streets as a graph with minute costs → live traffic raises one cost → a shortest-time search from the car, lit in the real settle order → the detour.
+  - Proof: a real Dijkstra run on a made-up city (9 → old 14 vs detour 10).
+  - Attribution: Google is cited only for what its own blog says (fastest routes from current traffic, automatic rerouting, predicted traffic); no claim about its secret algorithm.
+  - **Colour rule clarified:** semantic colours are allowed when tensorblue.com's own stylesheet uses them. The site's Tailwind tokens red-500 `#FB2C36`, cyan-400 `#00D3F2` and green-400 `#05DF72` (checked 2026-11-15) are site colours; colours the site does not use stay out.
+  - Notes: `29-production-30s-english16-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

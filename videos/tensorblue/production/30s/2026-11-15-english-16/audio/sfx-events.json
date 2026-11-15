@@ -1,0 +1,216 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 2.606,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 3.241,
+   "type": "wipe"
+  },
+  {
+   "t": 3.341,
+   "type": "type"
+  },
+  {
+   "t": 3.921,
+   "type": "type"
+  },
+  {
+   "t": 4.812,
+   "type": "wipe"
+  },
+  {
+   "t": 5.937,
+   "type": "slot"
+  },
+  {
+   "t": 7.312,
+   "type": "blip"
+  },
+  {
+   "t": 9.07,
+   "type": "wipe"
+  },
+  {
+   "t": 9.17,
+   "type": "clack"
+  },
+  {
+   "t": 9.47,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 12.032,
+   "type": "carve"
+  },
+  {
+   "t": 12.711,
+   "type": "wipe"
+  },
+  {
+   "t": 12.902,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 13.122,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 13.342,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 13.562,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 13.782,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 14.002,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 14.222,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 14.442,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 15.54,
+   "type": "blip"
+  },
+  {
+   "t": 16.727,
+   "type": "slide"
+  },
+  {
+   "t": 17.202,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 17.744,
+   "type": "wipe"
+  },
+  {
+   "t": 19.578,
+   "type": "blip"
+  },
+  {
+   "t": 20.19,
+   "type": "blip"
+  },
+  {
+   "t": 21.43,
+   "type": "wipe"
+  },
+  {
+   "t": 22.093,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 22.243,
+   "type": "type"
+  },
+  {
+   "t": 23.605,
+   "type": "type"
+  },
+  {
+   "t": 26.063,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.179,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "your": 0.1,
+  "changed": 0.706,
+  "reached": 2.243,
+  "jam": 2.606,
+  "how": 3.391,
+  "know": 3.971,
+  "first": 4.146,
+  "to": 4.962,
+  "streets": 5.512,
+  "graph": 5.987,
+  "each": 6.775,
+  "costs": 7.412,
+  "travel": 7.837,
+  "now": 8.587,
+  "live": 9.22,
+  "traffic4": 9.52,
+  "raised": 10.457,
+  "two": 11.432,
+  "seven": 12.082,
+  "it5": 12.861,
+  "reruns": 12.952,
+  "search5": 14.19,
+  "spot": 14.752,
+  "old": 15.59,
+  "fourteen": 16.102,
+  "detour": 16.827,
+  "ten": 17.202,
+  "google": 17.894,
+  "maps": 18.453,
+  "live6": 19.628,
+  "predicted": 20.24,
+  "so": 21.58,
+  "fresh": 22.293,
+  "fast": 23.655,
+  "search7": 23.993,
+  "rerun": 24.743,
+  "drive": 25.43,
+  "follow": 27,
+  "tb": 27.279,
+  "chime": 26.063000000000002,
+  "scenes": [
+   0,
+   3.241,
+   4.811999999999999,
+   9.07,
+   12.711,
+   17.744,
+   21.43,
+   26.6,
+   30.01
+  ]
+ }
+}

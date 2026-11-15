@@ -1,0 +1,159 @@
+{
+ "inputs": "illustrative travel times (minutes); computation is real Dijkstra (heapq)",
+ "streets": [
+  [
+   "C",
+   "A1",
+   2
+  ],
+  [
+   "A1",
+   "A2",
+   2
+  ],
+  [
+   "A2",
+   "A3",
+   3
+  ],
+  [
+   "A3",
+   "D",
+   2
+  ],
+  [
+   "C",
+   "B1",
+   3
+  ],
+  [
+   "B1",
+   "B2",
+   2
+  ],
+  [
+   "B2",
+   "B3",
+   3
+  ],
+  [
+   "B3",
+   "D",
+   2
+  ],
+  [
+   "A1",
+   "B1",
+   2
+  ],
+  [
+   "A2",
+   "B2",
+   2
+  ],
+  [
+   "A3",
+   "B3",
+   2
+  ]
+ ],
+ "jam": {
+  "segment": [
+   "A1",
+   "A2"
+  ],
+  "minutes_before": 2,
+  "minutes_after": 7
+ },
+ "before": {
+  "route": [
+   "C",
+   "A1",
+   "A2",
+   "A3",
+   "D"
+  ],
+  "minutes": 9,
+  "settle_order": [
+   [
+    "C",
+    0
+   ],
+   [
+    "A1",
+    2
+   ],
+   [
+    "B1",
+    3
+   ],
+   [
+    "A2",
+    4
+   ],
+   [
+    "B2",
+    5
+   ],
+   [
+    "A3",
+    7
+   ],
+   [
+    "B3",
+    8
+   ],
+   [
+    "D",
+    9
+   ]
+  ]
+ },
+ "after": {
+  "route": [
+   "C",
+   "B1",
+   "B2",
+   "B3",
+   "D"
+  ],
+  "minutes": 10,
+  "settle_order": [
+   [
+    "C",
+    0
+   ],
+   [
+    "A1",
+    2
+   ],
+   [
+    "B1",
+    3
+   ],
+   [
+    "B2",
+    5
+   ],
+   [
+    "A2",
+    7
+   ],
+   [
+    "B3",
+    8
+   ],
+   [
+    "A3",
+    10
+   ],
+   [
+    "D",
+    10
+   ]
+  ],
+  "old_route_now_minutes": 14
+ },
+ "rerouted": true,
+ "search_microseconds_this_machine": 11.0
+}

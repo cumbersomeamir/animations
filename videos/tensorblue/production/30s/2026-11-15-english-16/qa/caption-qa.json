@@ -1,0 +1,243 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Your route just changed,"
+   ],
+   "t0": 0.04,
+   "tEnd": 1.52,
+   "frame": 19,
+   "box": {
+    "x0": 181,
+    "x1": 814,
+    "y0": 403,
+    "y1": 456,
+    "n": 10319
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and you haven't even",
+    "reached the jam."
+   ],
+   "t0": 1.46,
+   "tEnd": 3.39,
+   "frame": 62,
+   "box": {
+    "x0": 223,
+    "x1": 774,
+    "y0": 375,
+    "y1": 488,
+    "n": 15786
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "How did the app know first?"
+   ],
+   "t0": 3.33,
+   "tEnd": 4.96,
+   "frame": 118,
+   "box": {
+    "x0": 140,
+    "x1": 860,
+    "y0": 404,
+    "y1": 456,
+    "n": 11950
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "To the app,",
+    "streets are a graph."
+   ],
+   "t0": 4.9,
+   "tEnd": 6.78,
+   "frame": 165,
+   "box": {
+    "x0": 249,
+    "x1": 748,
+    "y0": 373,
+    "y1": 487,
+    "n": 12838
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Each segment costs",
+    "its travel time now."
+   ],
+   "t0": 6.72,
+   "tEnd": 9.21,
+   "frame": 219,
+   "box": {
+    "x0": 241,
+    "x1": 760,
+    "y0": 374,
+    "y1": 476,
+    "n": 16550
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Live traffic just",
+    "raised this one"
+   ],
+   "t0": 9.15,
+   "tEnd": 11.24,
+   "frame": 293,
+   "box": {
+    "x0": 310,
+    "x1": 692,
+    "y0": 372,
+    "y1": 477,
+    "n": 12671
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "from 2 minutes to 7."
+   ],
+   "t0": 11.18,
+   "tEnd": 12.86,
+   "frame": 354,
+   "box": {
+    "x0": 244,
+    "x1": 752,
+    "y0": 409,
+    "y1": 450,
+    "n": 7772
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "It reruns a shortest-time",
+    "search from your spot:"
+   ],
+   "t0": 12.8,
+   "tEnd": 15.59,
+   "frame": 402,
+   "box": {
+    "x0": 188,
+    "x1": 813,
+    "y0": 372,
+    "y1": 488,
+    "n": 19150
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "old route 14, detour 10."
+   ],
+   "t0": 15.53,
+   "tEnd": 17.89,
+   "frame": 484,
+   "box": {
+    "x0": 206,
+    "x1": 791,
+    "y0": 406,
+    "y1": 454,
+    "n": 9035
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Google says",
+    "Maps reroutes"
+   ],
+   "t0": 17.83,
+   "tEnd": 19.32,
+   "frame": 553,
+   "box": {
+    "x0": 315,
+    "x1": 685,
+    "y0": 373,
+    "y1": 486,
+    "n": 12247
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "using live and",
+    "predicted traffic."
+   ],
+   "t0": 19.26,
+   "tEnd": 21.56,
+   "frame": 596,
+   "box": {
+    "x0": 285,
+    "x1": 714,
+    "y0": 371,
+    "y1": 487,
+    "n": 13529
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "So a reroute is",
+    "fresh travel times"
+   ],
+   "t0": 21.5,
+   "tEnd": 23.36,
+   "frame": 663,
+   "box": {
+    "x0": 273,
+    "x1": 724,
+    "y0": 377,
+    "y1": 482,
+    "n": 13290
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "plus a fast search,",
+    "rerun as you drive."
+   ],
+   "t0": 23.3,
+   "tEnd": 26.95,
+   "frame": 717,
+   "box": {
+    "x0": 259,
+    "x1": 739,
+    "y0": 372,
+    "y1": 488,
+    "n": 14868
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
