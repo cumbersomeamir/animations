@@ -156,16 +156,9 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-15 (2026-11-15) — RENDERING
-## Facts
-- Brief: one new English lesson, batch 2026-11-15-english-15; proposed topic = live camera translation of a menu.
-  Covered by round02-01 (photo OCR + Spanish menu → English insert) → fresh topic: Night Sight / night mode (record context/30).
-- Icon re-checked against the Play listing: unchanged (context/03-assets.json).
-## Decisions
-- Renderer/style/voice/caption treatment from english-14 unchanged; new scene `src/stage/nightsight.js` (dark-room lighting,
-  phone "photos" rendered from the phone's position, simulated grain + exact averaging, burst cards).
-- Line 2 reworded after ASR ("Nightside") → "Night Sight, on a Pixel, takes a burst, not one photo."
-## Status
-- Frames rendering (3 SwiftShader workers): `node render.mjs --frames --workers=3`. Then encode, score, master, mux, qa.sh.
-- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
-
+# CURRENT — english-15 (2026-11-15) — DELIVERED
+- Proposed menu-translation topic = repeat of round02-01 → Night Sight (record context/30).
+  production/30s/2026-11-15-english-15/ideaverse-30s-english15-01.mp4 (sha256 e6d03c9b…c35c) + thumbnail; QA.md + qa/.
+- Commands: build.sh, qa.sh (ASRPY=<python with faster-whisper>). Frames: 900 in 1062 s (3 workers). Icon re-checked (unchanged).
+- Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 20 earlier MP4s unchanged.
+- Next: await user review. No further episode, no automation.

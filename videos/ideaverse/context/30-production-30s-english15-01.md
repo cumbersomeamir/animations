@@ -60,4 +60,9 @@ those renders (8 noisy frames; 10 arm positions).
 7. 26.85–30 CTA: lights up; DOCKET waves; "Download the / [icon] Ideaverse app."
 Thumbnail: the dark room + bright phone photo + "IT WAS / THIS DARK?".
 
-## QA / status — IN PROGRESS (rendering)
+## QA / status — DELIVERED 2026-11-15
+- Output: production/30s/2026-11-15-english-15/ideaverse-30s-english15-01.mp4 · sha256 e6d03c9b…c35c, plus
+  ideaverse-30s-english15-01-thumbnail.png ("IT WAS / THIS DARK?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.8 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

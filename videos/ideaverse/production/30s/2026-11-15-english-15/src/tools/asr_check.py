@@ -16,8 +16,9 @@ dur = lambda i: (lambda w: w.getnframes() / w.getframerate())(wave.open(f'src/na
 x = np.frombuffer(subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-i', mp4, '-ac', '1', '-ar', '16000', '-f', 'f32le', '-'], capture_output=True, check=True).stdout, np.float32)
 m = WhisperModel('base.en', device='cpu', compute_type='int8')
 allok, bad = True, []
-for i, t in narr:
-    a, b = max(0, t - 0.15), t + dur(i) + 0.45
+for n_, (i, t) in enumerate(narr):
+    nxt = narr[n_ + 1][1] - 0.05 if n_ + 1 < len(narr) else 1e9               # window stops before the next line starts
+    a, b = max(0, t - 0.15), min(t + dur(i) + 0.45, nxt)
     segs, _ = m.transcribe(x[int(a * 16000):int(b * 16000)], beam_size=5, word_timestamps=True)
     ws = [w for s in segs for w in s.words]
     heard = ' '.join(w.word.strip() for w in ws); exp = lines[i]
