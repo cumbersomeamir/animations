@@ -131,7 +131,7 @@ Brief, topic decision, history table, script, sources: 13-episode-pack-in-sevens
 - QA fixes: opaque wraps hid cookies → clear lids; lilac-looking stars → golden; mouse enlarged, lamp moved, ribbon;
   frame 0 restaged; long caption split; softer glow (details in qa/QA.md).
 
-## 2026-11-15 batch english-17 — "The Robot That Packs in Tens" (ACTIVE)
+## 2026-11-15 batch english-17 — "The Robot That Packs in Tens" (delivered)
 Brief, topic decision, history table, script, sources: 14-episode-robot-packs-in-tens.md.
 - Topic decision: requested 6 × 4 = 3 × 4 doubled repeats english15-01's strategy (six fact = three fact doubled)
   → as the brief allows, a fresh alternate in the same genre: child-robot mini-story, identical rows packed fast,
@@ -152,5 +152,27 @@ Brief, topic decision, history table, script, sources: 14-episode-robot-packs-in
 - QA fixes: arm angle wrap; arms in front of head; belly gauge removed; robot enlarged; tube caps hid end slices →
   respaced; robot cleared the CTA badge; end-card pop masked "Play" → moved (details in qa/QA.md).
 
+## 2026-11-15 batch english-18 — "All in Pairs" (ACTIVE)
+Brief, topic decision, history table, script, sources: 15-episode-all-in-pairs.md.
+- Topic decision: requested 7 × 6 = 5 × 6 + 2 × 6 = 30 + 12 = 42 is english13-01 exactly (same fact, split, totals)
+  → as the brief allows, a fresh alternate in the same genre: pirate rescue with seven boats, visible counts and the
+  approved robot as Captain Robot, teaching the table pattern "4 × any number is even" (every four is two pairs),
+  shown as 4 × 7 = 28 = 14 pairs. Frame-0 words "SEVEN BOATS. ALL IN PAIRS?".
+- Facts: CCSS 3.OA.D.9, 2.OA.C.3, 3.OA.A.1 (official PDF, re-read 2026-11-15).
+- Creative: paper sea; seven rowboats × four identical sailor friends (28); pairs step together and get waist rope
+  loops; boats counted by pairs with "2" badges (2…14); 14 pairs jump aboard the rescue ship (yellow-"×" flag); empty
+  boats sink; ship sails closer; deck = 7 columns of four (two pairs each); card 4 × 7 = ? → 28 → "4 × any = even";
+  robot puppet with a new pirate hat option; no bakery floor props; music in E-flat. Same narrator recipe.
+- Commands: see production/30s/2026-11-15-english-18/README.md (npm ci; tts.py; render --timeline;
+  build_audio.py; render --video --workers 4; render --thumb; bash qa/run_qa.sh <asr-python>).
+- Paths: production/30s/2026-11-15-english-18/ — tableverse-30s-english18-01.mp4 (sha256 dc5bbbbfcdcf19d23ed6ecb240020353b4b96155f412ede3e365ee9dff8e4b19) +
+  tableverse-30s-english18-01-thumbnail.png (= frame 0); src/ (pirates.mjs new, robot.mjs + hat), audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −15.8 LUFS, −1.5 dBTP; ASR
+  transcript matches script (hook, count and CTA confirmed by window ASR); 28-friend / 4-per-boat / 14-pair counts on
+  contact sheet + 45 frames. Machine-only listening.
+- QA fixes: friends enlarged; cloud-like crests → low waves; empty boats sink; ship sails closer and deck regrouped
+  into columns of four; hand ropes → waist loops with pairs stepping together; ship shifted inside x ≈ 970.
+- Session note: the worker restarted mid-build; work resumed from the files on disk (nothing lost).
+
 ## Unresolved / next
-- Await user review of english17-01. No further episode started.
+- Await user review of english18-01. No further episode started.

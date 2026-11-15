@@ -1,0 +1,78 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Seven boats, four friends in each. Can every friend climb aboard with a buddy?",
+      "seconds": 4.501,
+      "frames": 135.0
+    },
+    "v02": {
+      "text": "Look: four friends make two pairs.",
+      "seconds": 1.672,
+      "frames": 50.1
+    },
+    "v03": {
+      "text": "Will anyone be left alone?",
+      "seconds": 1.292,
+      "frames": 38.8
+    },
+    "c2": {
+      "text": "Two!",
+      "seconds": 0.466,
+      "frames": 14.0
+    },
+    "c4": {
+      "text": "Four!",
+      "seconds": 0.493,
+      "frames": 14.8
+    },
+    "c6": {
+      "text": "Six!",
+      "seconds": 0.524,
+      "frames": 15.7
+    },
+    "c8": {
+      "text": "Eight!",
+      "seconds": 0.47,
+      "frames": 14.1
+    },
+    "c10": {
+      "text": "Ten!",
+      "seconds": 0.474,
+      "frames": 14.2
+    },
+    "c12": {
+      "text": "Twelve!",
+      "seconds": 0.536,
+      "frames": 16.1
+    },
+    "c14": {
+      "text": "Fourteen!",
+      "seconds": 0.661,
+      "frames": 19.8
+    },
+    "v05": {
+      "text": "Fourteen pairs. Nobody is alone!",
+      "seconds": 2.028,
+      "frames": 60.8
+    },
+    "v06": {
+      "text": "Fourteen pairs make twenty-eight, so four times seven is twenty-eight.",
+      "seconds": 3.831,
+      "frames": 114.9
+    },
+    "v07": {
+      "text": "Every four is two pairs, so four times any number is even.",
+      "seconds": 3.601,
+      "frames": 108.0
+    },
+    "v08": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
