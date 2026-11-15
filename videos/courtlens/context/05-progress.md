@@ -4,6 +4,63 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-15 (english-18, batch 18): "Your snack. Their rule?": cinema outside food
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at d849161. Batch 17 was delivered and is
+  not repeated.
+- The proposed topic is new (no overlap with 01–17). Record:
+  `context/episodes/2026-11-15-english18-cinema-outside-food.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail are
+  committed. Next: the full render → QA → delivery.
+
+### Verified facts (details: `production/30s/2026-11-15-english-18/notes/LEGAL-SOURCES.md`)
+- **SC, K C Cinema (K C Theatre) v. State of J&K, CA 77/2023, 3 Jan 2023 (official PDF):**
+  - paras 23/32/35: cinemas are private property and may set entry conditions, including no outside food
+  - para 33: the cinemas' recorded statements of free hygienic drinking water, and reasonable food for an infant or
+    young child in practice
+  - para 34: the Court requests owners to consider medical/dietary cases case by case
+- No later change was found.
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - a giant foil snack bag stopped (✕) at a lit cinema entrance with "NO OUTSIDE FOOD", a rope and a red carpet
+  - "YOUR SNACK. THEIR RULE?"
+  - voice at 0.05 s
+- **Beats:**
+  - the SUPREME COURT · 2023 stamp
+  - the door ✓ "THEIR ENTRY RULES"
+  - a glass fills with water + FREE
+  - bottle + lunchbox ✓ "CHILD'S FOOD / REASONABLE AMOUNT"
+  - DIET note + ASK bubble "CASE BY CASE"
+  - three steps
+  - CTA
+- **Strength-accurate wording:** "cinemas told the court", "they also said", "the court asked".
+- Mix gain is 6.0 dB (−16.1 LUFS measured on the pre-render mix).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-15-english-18/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st18 <times>
+node render.cjs thumb .. courtlens-30s-english18-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build18 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english18-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english18-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Frame zero:** the ✕ on the bag covered the "N" of "NO OUTSIDE FOOD", so the sign moved right and the ✕ moved to
+  the bag's other corner.
+- **Child-food beat:** a ~0.85 s empty start, so the items now enter at 11.75.
+- **Narration:** trimmed from 28.2 s to 25.2 s (the year moved onto the stamp). The WER normaliser now maps "twenty
+  twenty three".
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail, then delete `$S/build18/frames`.
+
 ## Round 2026-11-15 (english-17, batch 17): "30 grams missing. Legal?": short net quantity in a sealed pack
 
 ### Status
