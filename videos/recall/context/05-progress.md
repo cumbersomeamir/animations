@@ -71,3 +71,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   + `recall-30s-english13-01-thumbnail.png` (30.000 s; normal force vs mass; CTA from the verified listing; record, sources + QA in 26).
 - English-14 2026-11-14 batch (English; suggested ANC topic already F05 → open fridge warms the kitchen): `videos/recall/production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4`
   + `recall-30s-english14-01-thumbnail.png` (30.000 s; heat pump, Q_h = Q_c + W, AC hot side outdoors; record, topic-change reason, sources + QA in 27).
+- English-15 2026-11-15 batch (English; suggested microwave plate topic already E11 → why a cold drink sweats; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4`
+  + `recall-30s-english15-01-thumbnail.png` (30.000 s; condensation below the dew point, humidity, insulated cup; record, topic-change reason, sources + QA in 28).

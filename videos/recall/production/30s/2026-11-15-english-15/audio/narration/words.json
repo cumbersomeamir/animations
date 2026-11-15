@@ -1,0 +1,484 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Where's this water from?",
+   "asr": "Where's this water from?",
+   "duration": 0.99,
+   "words": [
+    {
+     "w": "Where's",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "this",
+     "start": 0.14,
+     "end": 0.26
+    },
+    {
+     "w": "water",
+     "start": 0.26,
+     "end": 0.48
+    },
+    {
+     "w": "from?",
+     "start": 0.48,
+     "end": 0.8
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "It isn't leaking: the drink is orange, but the drops are clear.",
+   "asr": "It isn't leaking, the drink is orange but the drops are clear.",
+   "duration": 3.367,
+   "words": [
+    {
+     "w": "It",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "isn't",
+     "start": 0.08,
+     "end": 0.32
+    },
+    {
+     "w": "leaking,",
+     "start": 0.32,
+     "end": 0.54
+    },
+    {
+     "w": "the",
+     "start": 0.96,
+     "end": 1.1
+    },
+    {
+     "w": "drink",
+     "start": 1.1,
+     "end": 1.28
+    },
+    {
+     "w": "is",
+     "start": 1.28,
+     "end": 1.5
+    },
+    {
+     "w": "orange",
+     "start": 1.5,
+     "end": 1.86
+    },
+    {
+     "w": "but",
+     "start": 1.86,
+     "end": 2.22
+    },
+    {
+     "w": "the",
+     "start": 2.22,
+     "end": 2.32
+    },
+    {
+     "w": "drops",
+     "start": 2.32,
+     "end": 2.54
+    },
+    {
+     "w": "are",
+     "start": 2.54,
+     "end": 2.84
+    },
+    {
+     "w": "clear.",
+     "start": 2.84,
+     "end": 3.08
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "The air around you contains invisible water vapor.",
+   "asr": "The air around you contains invisible water vapor.",
+   "duration": 3.044,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "air",
+     "start": 0.08,
+     "end": 0.22
+    },
+    {
+     "w": "around",
+     "start": 0.22,
+     "end": 0.64
+    },
+    {
+     "w": "you",
+     "start": 0.64,
+     "end": 0.82
+    },
+    {
+     "w": "contains",
+     "start": 0.82,
+     "end": 1.32
+    },
+    {
+     "w": "invisible",
+     "start": 1.32,
+     "end": 1.96
+    },
+    {
+     "w": "water",
+     "start": 1.96,
+     "end": 2.44
+    },
+    {
+     "w": "vapor.",
+     "start": 2.44,
+     "end": 2.76
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "Near the icy glass, that air cools below its dew point.",
+   "asr": "near the icy glass that air cools below its dew point.",
+   "duration": 3.222,
+   "words": [
+    {
+     "w": "near",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "w": "the",
+     "start": 0.16,
+     "end": 0.32
+    },
+    {
+     "w": "icy",
+     "start": 0.32,
+     "end": 0.48
+    },
+    {
+     "w": "glass",
+     "start": 0.48,
+     "end": 0.94
+    },
+    {
+     "w": "that",
+     "start": 0.94,
+     "end": 1.48
+    },
+    {
+     "w": "air",
+     "start": 1.48,
+     "end": 1.64
+    },
+    {
+     "w": "cools",
+     "start": 1.64,
+     "end": 2.12
+    },
+    {
+     "w": "below",
+     "start": 2.12,
+     "end": 2.34
+    },
+    {
+     "w": "its",
+     "start": 2.34,
+     "end": 2.58
+    },
+    {
+     "w": "dew",
+     "start": 2.58,
+     "end": 2.74
+    },
+    {
+     "w": "point.",
+     "start": 2.74,
+     "end": 3.0
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "Vapor molecules then stick to the cold glass faster than they escape, forming drops.",
+   "asr": "Vapor molecules then stick to the cold glass faster than they escape, forming drops.",
+   "duration": 5.189,
+   "words": [
+    {
+     "w": "Vapor",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "w": "molecules",
+     "start": 0.16,
+     "end": 0.78
+    },
+    {
+     "w": "then",
+     "start": 0.78,
+     "end": 1.24
+    },
+    {
+     "w": "stick",
+     "start": 1.24,
+     "end": 1.52
+    },
+    {
+     "w": "to",
+     "start": 1.52,
+     "end": 1.74
+    },
+    {
+     "w": "the",
+     "start": 1.74,
+     "end": 1.82
+    },
+    {
+     "w": "cold",
+     "start": 1.82,
+     "end": 1.98
+    },
+    {
+     "w": "glass",
+     "start": 1.98,
+     "end": 2.4
+    },
+    {
+     "w": "faster",
+     "start": 2.4,
+     "end": 2.76
+    },
+    {
+     "w": "than",
+     "start": 2.76,
+     "end": 3.22
+    },
+    {
+     "w": "they",
+     "start": 3.22,
+     "end": 3.3
+    },
+    {
+     "w": "escape,",
+     "start": 3.3,
+     "end": 3.64
+    },
+    {
+     "w": "forming",
+     "start": 4.08,
+     "end": 4.46
+    },
+    {
+     "w": "drops.",
+     "start": 4.46,
+     "end": 4.78
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "More humid air means more vapor, so muggy days mean a sweatier glass.",
+   "asr": "More humid air means more vapor, so muggy days mean a sweatier glass.",
+   "duration": 4.185,
+   "words": [
+    {
+     "w": "More",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "humid",
+     "start": 0.14,
+     "end": 0.38
+    },
+    {
+     "w": "air",
+     "start": 0.38,
+     "end": 0.72
+    },
+    {
+     "w": "means",
+     "start": 0.72,
+     "end": 0.98
+    },
+    {
+     "w": "more",
+     "start": 0.98,
+     "end": 1.24
+    },
+    {
+     "w": "vapor,",
+     "start": 1.24,
+     "end": 1.5
+    },
+    {
+     "w": "so",
+     "start": 2.14,
+     "end": 2.24
+    },
+    {
+     "w": "muggy",
+     "start": 2.24,
+     "end": 2.54
+    },
+    {
+     "w": "days",
+     "start": 2.54,
+     "end": 2.72
+    },
+    {
+     "w": "mean",
+     "start": 2.72,
+     "end": 3.0
+    },
+    {
+     "w": "a",
+     "start": 3.0,
+     "end": 3.1
+    },
+    {
+     "w": "sweatier",
+     "start": 3.1,
+     "end": 3.5
+    },
+    {
+     "w": "glass.",
+     "start": 3.5,
+     "end": 3.8
+    }
+   ]
+  },
+  {
+   "id": "l07",
+   "text": "An insulated cup stays dry: its outer wall doesn't get that cold.",
+   "asr": "An insulated cup stays dry, its outer wall doesn't get that cold.",
+   "duration": 4.051,
+   "words": [
+    {
+     "w": "An",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "insulated",
+     "start": 0.08,
+     "end": 0.44
+    },
+    {
+     "w": "cup",
+     "start": 0.44,
+     "end": 0.82
+    },
+    {
+     "w": "stays",
+     "start": 0.82,
+     "end": 1.16
+    },
+    {
+     "w": "dry,",
+     "start": 1.16,
+     "end": 1.52
+    },
+    {
+     "w": "its",
+     "start": 2.0,
+     "end": 2.2
+    },
+    {
+     "w": "outer",
+     "start": 2.2,
+     "end": 2.4
+    },
+    {
+     "w": "wall",
+     "start": 2.4,
+     "end": 2.7
+    },
+    {
+     "w": "doesn't",
+     "start": 2.7,
+     "end": 3.1
+    },
+    {
+     "w": "get",
+     "start": 3.1,
+     "end": 3.24
+    },
+    {
+     "w": "that",
+     "start": 3.24,
+     "end": 3.42
+    },
+    {
+     "w": "cold.",
+     "start": 3.42,
+     "end": 3.68
+    }
+   ]
+  },
+  {
+   "id": "l08",
+   "text": "Download Recall to turn your study material into lessons.",
+   "asr": "Download Recall to turn your study material into lessons.",
+   "duration": 3.283,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "w": "Recall",
+     "start": 0.26,
+     "end": 0.64
+    },
+    {
+     "w": "to",
+     "start": 0.64,
+     "end": 1.26
+    },
+    {
+     "w": "turn",
+     "start": 1.26,
+     "end": 1.46
+    },
+    {
+     "w": "your",
+     "start": 1.46,
+     "end": 1.6
+    },
+    {
+     "w": "study",
+     "start": 1.6,
+     "end": 1.78
+    },
+    {
+     "w": "material",
+     "start": 1.78,
+     "end": 2.18
+    },
+    {
+     "w": "into",
+     "start": 2.18,
+     "end": 2.58
+    },
+    {
+     "w": "lessons.",
+     "start": 2.58,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

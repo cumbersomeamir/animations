@@ -59,6 +59,10 @@ sheet, a static page or a page with camera bobbing is never the deliverable.
 a separate vertical thumbnail with 2–4 large words; marketing structure thumbnail → hook → super hook → build-up + proof →
 payoff → CTA; CTA wording from the verified listing ("Download Recall to turn your study material into lessons."). See 26.
 
+**Batch note (2026-11-15, E15):** FIRST FRAME IS CRITICAL — no logo intro, fade from black or empty setup; frame 0 is a
+composed, surprising subject readable on a phone with at most 2–5 truthful curiosity words, and it doubles as the thumbnail;
+hook audio starts immediately. The y 0–230 band stays clear and caption ink stays inside y 230–1500 (QA checks both). See 28.
+
 **Renderer note (2026-11-08, E09):** the overlay 2D canvas must be a software canvas (`willReadFrequently`) flushed before
 each capture, and frames are written from an explicit in-page composite of the 3D and overlay canvases; see context 23.
 
@@ -102,3 +106,4 @@ decode, loudness, ASR, caption bounds and representative/transition frames.
 | E11 | Why is the food steaming but the plate still cool? (English; dielectric heating of water vs conduction into the plate; pottery that heats itself; dish test) — distinct from R02 (cold patches) | `production/30s/2026-11-09-english-11/recall-30s-english11-01.mp4` | 25 |
 | E13 | Why an elevator feels heavier as it starts rising (English; normal force vs mass; scale readings; separate thumbnail; CTA from the verified listing) | `production/30s/2026-11-13-english-13/recall-30s-english13-01.mp4` | 26 |
 | E14 | Why an open fridge makes the kitchen warmer (English; a fridge pumps heat, Q_h = Q_c + W; AC hot side outdoors; thumbnail) — the suggested ANC topic was already F05 | `production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4` | 27 |
+| E15 | Where's this water from? Why a cold drink "sweats" (English; condensation below the dew point, humidity, insulated cup stays dry; frame 0 = thumbnail) — the suggested microwave plate topic was already E11 | `production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4` | 28 |

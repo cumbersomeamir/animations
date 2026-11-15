@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Where's this water from?",
+      "file": "l01.wav",
+      "duration": 0.99,
+      "sr": 24000,
+      "words_per_s": 4.04
+    },
+    {
+      "id": "l02",
+      "text": "It isn't leaking: the drink is orange, but the drops are clear.",
+      "file": "l02.wav",
+      "duration": 3.367,
+      "sr": 24000,
+      "words_per_s": 3.56
+    },
+    {
+      "id": "l03",
+      "text": "The air around you contains invisible water vapor.",
+      "file": "l03.wav",
+      "duration": 3.044,
+      "sr": 24000,
+      "words_per_s": 2.63
+    },
+    {
+      "id": "l04",
+      "text": "Near the icy glass, that air cools below its dew point.",
+      "file": "l04.wav",
+      "duration": 3.222,
+      "sr": 24000,
+      "words_per_s": 3.41
+    },
+    {
+      "id": "l05",
+      "text": "Vapor molecules then stick to the cold glass faster than they escape, forming drops.",
+      "file": "l05.wav",
+      "duration": 5.189,
+      "sr": 24000,
+      "words_per_s": 2.7
+    },
+    {
+      "id": "l06",
+      "text": "More humid air means more vapor, so muggy days mean a sweatier glass.",
+      "file": "l06.wav",
+      "duration": 4.185,
+      "sr": 24000,
+      "words_per_s": 3.11
+    },
+    {
+      "id": "l07",
+      "text": "An insulated cup stays dry: its outer wall doesn't get that cold.",
+      "file": "l07.wav",
+      "duration": 4.051,
+      "sr": 24000,
+      "words_per_s": 2.96
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

@@ -145,3 +145,8 @@ video). New batch rules (marketing structure, thumbnail, captions x 100–900, v
 ## Update 2026-11-14 batch — english-14
 Episode E14 "Why an open fridge makes the kitchen warmer" (English). The suggested noise-cancelling topic was already F05, so
 a distinct topic was chosen (reason in context 27); deliverable `videos/recall/production/30s/2026-11-14-english-14/recall-30s-english14-01.mp4` + thumbnail.
+
+## Update 2026-11-15 batch — english-15
+Episode E15 "Where's this water from?" (why a cold drink sweats; English). The suggested microwave food-vs-plate topic was
+already E11, so a distinct topic was chosen (reason in context 28). New first-frame rule: frame 0 is the thumbnail
+composition. Deliverable `videos/recall/production/30s/2026-11-15-english-15/recall-30s-english15-01.mp4` + thumbnail.

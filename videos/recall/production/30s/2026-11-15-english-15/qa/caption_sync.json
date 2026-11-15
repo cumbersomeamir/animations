@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "spoken_groups": 12,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "WHERE'S THIS / WATER FROM?",
+   "start": 0.0,
+   "end": 1.28,
+   "first_word_s": 0.05,
+   "last_word_s": 0.53,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "It isn't leaking: / the drink is orange,",
+   "start": 1.28,
+   "end": 3.14,
+   "first_word_s": 1.35,
+   "last_word_s": 2.85,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "but the drops are clear.",
+   "start": 3.14,
+   "end": 4.98,
+   "first_word_s": 3.21,
+   "last_word_s": 4.19,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "The air around you contains / invisible water vapor.",
+   "start": 4.98,
+   "end": 8.33,
+   "first_word_s": 5.05,
+   "last_word_s": 7.49,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Near the icy glass, that air / cools below its dew point.",
+   "start": 8.33,
+   "end": 11.88,
+   "first_word_s": 8.4,
+   "last_word_s": 11.14,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Vapor molecules then / stick to the cold glass",
+   "start": 11.88,
+   "end": 14.28,
+   "first_word_s": 11.95,
+   "last_word_s": 13.93,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "faster than they escape, / forming drops.",
+   "start": 14.28,
+   "end": 17.38,
+   "first_word_s": 14.35,
+   "last_word_s": 16.41,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "More humid air means / more vapor,",
+   "start": 17.38,
+   "end": 19.52,
+   "first_word_s": 17.45,
+   "last_word_s": 18.69,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so muggy days mean / a sweatier glass.",
+   "start": 19.52,
+   "end": 21.88,
+   "first_word_s": 19.59,
+   "last_word_s": 20.95,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "An insulated cup / stays dry:",
+   "start": 21.88,
+   "end": 23.88,
+   "first_word_s": 21.95,
+   "last_word_s": 23.11,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "its outer wall / doesn't get that cold.",
+   "start": 23.88,
+   "end": 26.35,
+   "first_word_s": 23.95,
+   "last_word_s": 25.37,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.35,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.1,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}
