@@ -1,0 +1,71 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "SQLite": "ˌɛskjuˌɛlˈIt (ess-cue-ell-ite; not in the misaki lexicon)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "It said saved. Then the power died. Is your note still there?",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Good databases write it down first.",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Each change goes into a log on disk, then the app says saved.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "The main file is updated later. After a crash, the log is replayed.",
+   "after": 0.3
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "In our test, [SQLite](/ˌɛskjuˌɛlˈIt/) crashed mid-save. Both committed notes came back.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Faster settings can lose the last few commits in a power cut.",
+   "after": 0.25
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "So saved means logged. For data you can't lose, keep full sync.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

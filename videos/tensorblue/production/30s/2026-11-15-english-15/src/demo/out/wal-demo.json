@@ -1,0 +1,35 @@
+{
+ "sqlite_version": "3.53.1",
+ "python": "3.13.18",
+ "journal_mode": "wal",
+ "synchronous": "FULL",
+ "child_killed_by_signal": 9,
+ "on_disk_after_crash": {
+  "main_file_has": {
+   "Pay rent Fri": false,
+   "Call Sam": false,
+   "Buy milk": false
+  },
+  "wal_log_has": {
+   "Pay rent Fri": true,
+   "Call Sam": true,
+   "Buy milk": false
+  },
+  "wal_bytes": 8272
+ },
+ "notes_after_restart": [
+  "Pay rent Fri",
+  "Call Sam"
+ ],
+ "checkpoint_result": [
+  0,
+  0,
+  0
+ ],
+ "main_file_has_after_checkpoint": {
+  "Pay rent Fri": true,
+  "Call Sam": true,
+  "Buy milk": false
+ },
+ "note": "application crash (SIGKILL), not a power cut"
+}

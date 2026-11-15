@@ -1,0 +1,17 @@
+It said saved. Then the power died. Is your note still there?
+
+Good databases write it down first. Each change goes into a log on disk, then the app says saved. The main file is updated later. After a crash, the log is replayed. In our test, SQLite crashed mid-save. Both committed notes came back. Faster settings can lose the last few commits in a power cut.
+
+So saved means logged. For data you can't lose, keep full sync.
+
+Our test: SQLite 3.53.1 in WAL mode with synchronous=FULL. An app committed two made-up notes, started a third and was killed mid-save. Right after the crash the main file held neither committed note, but the write-ahead log held both. On reopening, both were back and the unfinished one was gone. This was an app crash, not a power cut. SQLite's docs say commits survive app crashes whatever the sync setting; in WAL mode with synchronous=NORMAL, the last commits can roll back after a power loss.
+
+Sources:
+- SQLite, Write-Ahead Logging: https://www.sqlite.org/wal.html
+- SQLite, PRAGMA synchronous: https://www.sqlite.org/pragma.html#pragma_synchronous
+- PostgreSQL docs, Write-Ahead Logging (WAL): https://www.postgresql.org/docs/current/wal-intro.html
+- PostgreSQL docs, Asynchronous Commit: https://www.postgresql.org/docs/current/wal-async-commit.html
+
+Follow Tensorblue for software explained simply.
+
+#Databases #AppDevelopment #SoftwareExplained

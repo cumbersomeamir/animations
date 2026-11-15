@@ -1,0 +1,248 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.429,
+   "type": "blip"
+  },
+  {
+   "t": 1.771,
+   "type": "carve"
+  },
+  {
+   "t": 3.436,
+   "type": "wipe"
+  },
+  {
+   "t": 3.536,
+   "type": "match"
+  },
+  {
+   "t": 4.429,
+   "type": "type"
+  },
+  {
+   "t": 4.954,
+   "type": "type"
+  },
+  {
+   "t": 5.646,
+   "type": "wipe"
+  },
+  {
+   "t": 5.998,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 6.748,
+   "type": "clack"
+  },
+  {
+   "t": 7.235,
+   "type": "tap"
+  },
+  {
+   "t": 8.673,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 9.342,
+   "type": "wipe"
+  },
+  {
+   "t": 12.018,
+   "type": "carve"
+  },
+  {
+   "t": 12.518,
+   "type": "match"
+  },
+  {
+   "t": 13.043,
+   "type": "slide"
+  },
+  {
+   "t": 13.843,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.94,
+   "type": "wipe"
+  },
+  {
+   "t": 14.09,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.34,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.59,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 15.413,
+   "type": "carve"
+  },
+  {
+   "t": 16.55,
+   "type": "match"
+  },
+  {
+   "t": 16.9,
+   "type": "slide"
+  },
+  {
+   "t": 17.2,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 17.888,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 18.673,
+   "type": "wipe"
+  },
+  {
+   "t": 18.773,
+   "type": "tap"
+  },
+  {
+   "t": 19.307,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 19.657,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 21.707,
+   "type": "carve"
+  },
+  {
+   "t": 22.157,
+   "type": "match"
+  },
+  {
+   "t": 22.307,
+   "type": "wipe"
+  },
+  {
+   "t": 22.594,
+   "type": "type"
+  },
+  {
+   "t": 25.282,
+   "type": "type"
+  },
+  {
+   "t": 25.482,
+   "type": "tap"
+  },
+  {
+   "t": 25.982,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.366,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.178,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "said": 0.216,
+  "saved1": 0.479,
+  "then": 1.216,
+  "power1": 1.466,
+  "died": 1.791,
+  "is": 2.229,
+  "note": 2.454,
+  "good": 3.586,
+  "databases": 3.754,
+  "write": 4.479,
+  "first": 5.004,
+  "each": 5.796,
+  "change": 5.998,
+  "log3": 6.835,
+  "disk": 7.235,
+  "then3": 7.936,
+  "says": 8.436,
+  "saved3": 8.723,
+  "the4": 9.492,
+  "main": 9.543,
+  "updated": 10.406,
+  "later": 10.943,
+  "after": 11.731,
+  "crash4": 12.068,
+  "replayed": 13.143,
+  "in5": 14.09,
+  "test": 14.35,
+  "sqlite": 14.813,
+  "crashed": 15.463,
+  "both": 16.9,
+  "committed": 17.213,
+  "came": 17.888,
+  "faster": 18.823,
+  "settings": 19.207,
+  "lose6": 19.982,
+  "last": 20.332,
+  "commits": 20.907,
+  "power6": 21.457,
+  "cut": 21.807,
+  "so": 22.457,
+  "means": 23.032,
+  "logged": 23.319,
+  "for7": 24.107,
+  "keep": 25.332,
+  "full": 25.582,
+  "sync": 25.832,
+  "follow": 27,
+  "tb": 27.278,
+  "chime": 26.366,
+  "scenes": [
+   0,
+   3.436,
+   5.646,
+   9.342,
+   13.94,
+   18.673000000000002,
+   22.307000000000002,
+   26.6,
+   30.01
+  ]
+ }
+}

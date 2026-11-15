@@ -17,6 +17,12 @@ Durable context for future rounds and any later automation. **No automation exis
 
 **Thumbnail:** a separate, attractive vertical thumbnail (1080×1920 PNG) tied to the hook, with 2–4 large words. Deliver it with the MP4.
 
+**Frame zero (approved 2026-11-15):**
+- No logo intro, fade from black or empty setup.
+- Frame 0 is a beautifully composed, surprising subject, readable on a phone, with at most 2–5 truthful curiosity words fully on screen.
+- It should work as the thumbnail. Click-worthy, never misleading.
+- Hook audio starts immediately, promises a specific useful answer, and the episode delivers it.
+
 **One visual idea at a time:**
 - No paragraph cards. On-screen labels are large and brief; the voice explains the detail.
 - Never show the caption, diagram labels and an explanatory paragraph competing at the same time.
@@ -104,6 +110,16 @@ Practical system design · useful new GitHub tools · research explained through
   - Real proof measured in Chromium (row counts only; timings are machine-specific and not narrated).
   - The idempotency / pay-twice subject must not be proposed again without a genuinely new angle.
   - Notes: `27-production-30s-english14-01.md`.
+
+- **2026-11-15 english-15 (latest approved feedback retained) — NEW STANDING RULE: frame zero is critical.**
+  - No logo intro, fade from black or empty setup.
+  - Frame 0 must be a beautifully composed, surprising subject, readable on a phone, plus at most 2–5 truthful curiosity words already fully on screen (no animate-in).
+  - The first image should work as the thumbnail. Click-worthy never means misleading.
+  - Hook audio starts immediately (narration lead 0.1 s, a sound on frame 0), promises a specific useful answer, and the episode delivers it.
+  - Applied here: a phone glowing "Saved ✓" at 1% in a blacked-out room with **WAS IT REALLY SAVED?**. The thumbnail is frame 0 plus the wordmark.
+  - Topic: write-ahead logs and durability ("your app says saved but the power just went out"), new to the channel. Tactile 3D: a LOG notebook of receipt slips (stamped COMMIT once on disk), a MAIN FILE cabinet updated later, crash → replay, a FULL/FAST sync switch.
+  - Real proof: a SQLite app-crash test (honestly an app crash, not a power cut).
+  - Notes: `28-production-30s-english15-01.md`.
 
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
