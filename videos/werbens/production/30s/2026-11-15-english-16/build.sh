@@ -9,11 +9,11 @@ node src/tts.mjs                 # Kokoro-82M English, Meshline/Recall blend af_
 node src/words.mjs               # Whisper base.en word timing + per-line intelligibility -> src/words.json
 node src/words_fix.mjs           # pin drifted word onsets (WORD_FIX in src/narration.js, read from the voiced segments)
 node src/audio.mjs               # accepted non-looping score + foley + narration -> build/audio/mix.wav (-15 LUFS)
-node src/render.mjs --thumb --stills 2.25 --out build/thumb   # separate vertical thumbnail (context/27)
+node src/render.mjs --thumb --stills 0 --out build/thumb      # thumbnail = frame 0 + logo row (context/27 §5)
 node src/render.mjs --video      # deterministic Three.js frames (SwiftShader WebGL2) in headless Chromium -> build/video.mp4
 ffmpeg -y -loglevel error -i build/video.mp4 -i build/audio/mix.wav -map 0:v:0 -map 1:a:0 \
   -c:v copy -c:a aac -b:a 192k -ar 48000 -ac 2 -t 30 -movflags +faststart werbens-30s-english16-01.mp4
-cp build/thumb/t_2.25.png werbens-30s-english16-01-thumbnail.png
+cp build/thumb/t_0.00.png werbens-30s-english16-01-thumbnail.png
 ffmpeg -y -loglevel error -i werbens-30s-english16-01-thumbnail.png -q:v 2 werbens-30s-english16-01-thumbnail.jpg
 bash qa.sh
 node src/qa_dom.mjs 1            # caption + label bounds / overlaps on every frame -> qa/dom-bounds.json

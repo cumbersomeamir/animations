@@ -65,10 +65,11 @@ const slotsFor = (S) => { const cnt = [0, 0, 0]; return S.map((k) => slotPos(k, 
 const P0 = slotsFor(S0), P1 = slotsFor(S1);
 const pawnGlow = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); scene.add(pawnGlow);
 // ------------------------------------------------------------------ proof set (X2): appeal of extreme / middle / extreme options (direction only)
-const X2 = 0.46, barGeo = new RoundedBoxGeometry(0.05, 1, 0.05, 2, 0.01); barGeo.translate(0, 0.5, 0);
-const apBars = [-0.085, 0, 0.085].map((dx, i) => { const m = new THREE.Mesh(barGeo, mat(i === 1 ? C3.mint : "#3A8195", { roughness: 0.25, emissive: i === 1 ? C.mint : C.teal, emissiveIntensity: i === 1 ? 0.3 : 0.15 })); m.position.set(X2 + dx, 0, 0); m.castShadow = true; scene.add(m); return m; });
-const apChips = ["EXTREME", "MIDDLE", "EXTREME"].map((txt, i) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(0.07, 0.019), new THREE.MeshBasicMaterial({ toneMapped: false, transparent: true, map: plateTex(txt) })); m.position.set(X2 + (i - 1) * 0.085, 0.004, 0.05); m.rotation.x = -HALF + 0.45; scene.add(m); return m; });
-const apBase = new THREE.Mesh(new RoundedBoxGeometry(0.27, 0.01, 0.1, 2, 0.004), mat(C3.ink, { roughness: 0.3 })); apBase.position.set(X2, -0.003, 0.01); apBase.receiveShadow = true; scene.add(apBase);
+// bars/chips kept narrow and the camera further back so the right chip stays clear of the platform's right-hand icon rail (x ≤ 900)
+const X2 = 0.46, BS = 0.068, barGeo = new RoundedBoxGeometry(0.044, 1, 0.044, 2, 0.01); barGeo.translate(0, 0.5, 0);
+const apBars = [-BS, 0, BS].map((dx, i) => { const m = new THREE.Mesh(barGeo, mat(i === 1 ? C3.mint : "#3A8195", { roughness: 0.25, emissive: i === 1 ? C.mint : C.teal, emissiveIntensity: i === 1 ? 0.3 : 0.15 })); m.position.set(X2 + dx, 0, 0); m.castShadow = true; scene.add(m); return m; });
+const apChips = ["EXTREME", "MIDDLE", "EXTREME"].map((txt, i) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(0.062, 0.0172), new THREE.MeshBasicMaterial({ toneMapped: false, transparent: true, map: plateTex(txt) })); m.position.set(X2 + (i - 1) * BS, 0.004, 0.045); m.rotation.x = -HALF + 0.45; scene.add(m); return m; });
+const apBase = new THREE.Mesh(new RoundedBoxGeometry(0.215, 0.01, 0.09, 2, 0.004), mat(C3.ink, { roughness: 0.3 })); apBase.position.set(X2, -0.003, 0.01); apBase.receiveShadow = true; scene.add(apBase);
 const aura = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); scene.add(aura);
 
 // ------------------------------------------------------------------ CTA tile: app.werbens.com logo (SVG unchanged, drawn to a canvas, not tone-mapped)
@@ -86,7 +87,7 @@ const drop = (t, [t0, t1], h) => (t < t1 ? h * (1 - clamp((t - t0) / (t1 - t0)) 
 
 // ------------------------------------------------------------------ camera (slow dolly between hero framings; no bobbing)
 const F0 = [[0.0, 0.21, 0.95], [0.0, 0.112, 0.03]], F1 = [[0.0, 0.205, 0.9], [0.0, 0.11, 0.03]], NB = [[0.0, 0.2, 0.82], [0.0, 0.105, 0.03]];
-const BARS = [[X2, 0.17, 0.72], [X2, 0.1, 0.0]], BARS2 = [[X2, 0.17, 0.68], [X2, 0.1, 0.0]], PAY = [[0.0, 0.225, 0.93], [0.0, 0.132, 0.03]], PAY2 = [[0.0, 0.22, 0.88], [0.0, 0.13, 0.03]];
+const BARS = [[X2, 0.185, 0.88], [X2, 0.1, 0.0]], BARS2 = [[X2, 0.185, 0.84], [X2, 0.1, 0.0]], PAY = [[0.0, 0.225, 0.93], [0.0, 0.132, 0.03]], PAY2 = [[0.0, 0.22, 0.88], [0.0, 0.13, 0.03]];
 const CTAV = [[0, 0.28, 1.3], [0, 0.098, 0]], CTAV2 = [[0, 0.28, 1.26], [0, 0.098, 0]];
 const CAMS = [[0, ...F0], [3.5, ...F1], [10.6, ...F1], [11.6, ...NB], [13.3, ...NB], [14.2, ...BARS], [18.5, ...BARS2], [19.6, ...PAY], [26.3, ...PAY2], [27.1, ...CTAV], [30, ...CTAV2]];
 function cameraAt(t) { if (THUMB) return { pos: v3(...F0[0]), tgt: v3(...F0[1]) };
@@ -122,12 +123,12 @@ function frame(t) {
   if (THUMB) t = 0; // the thumbnail IS frame 0
   const cam = cameraAt(t); camera.position.copy(cam.pos); camera.lookAt(cam.tgt); camera.updateMatrixWorld();
   key_.position.set(cam.tgt.x - 0.95, 2.35, 1.75); key_.target.position.set(cam.tgt.x, 0.05, 0); key_.target.updateMatrixWorld();
-  const cl = ramp(t, ...T.ctaClear, E.inOut), off = 0.8 * cl;
+  const cl = ramp(t, ...T.ctaClear, E.inOut), off = 0.8 * cl, pk = ramp(t, T.ctaClear[0] - 0.15, T.ctaClear[0] + 0.1, E.in); // Plus sinks before the tile is up
   // --- plans: Premium sinks away and returns; neighbours lean in; ripple on "reshapes"; the stage parts for the CTA
   const pOut = ramp(t, ...T.premiumOut, E.in) * (1 - ramp(t, ...T.premiumIn, E.out)), lean = win(t, T.lean[0], T.lean[1] + 0.5, 0.25, 0.3);
   plans.forEach((p, k) => { const side = k - 1, rip = 0.06 * pulse(t, T.reshape[0] + k * 0.12, 0.35) + 0.05 * pulse(t, T.alone, 0.4) * (k === 1 ? 1 : 0);
     const sq = (k === 2 ? squash(t, T.premiumIn[1], -0.12) : 0);
-    p.g.position.set(PX[k] + side * off - side * 0.012 * lean, (k === 2 ? -(PH[2] + 0.06) * pOut : 0) - (k === 1 ? (PH[1] + 0.06) * cl : 0), 0); p.g.rotation.z = -side * 0.06 * lean;
+    p.g.position.set(PX[k] + side * off - side * 0.012 * lean, (k === 2 ? -(PH[2] + 0.06) * pOut : 0) - (k === 1 ? (PH[1] + 0.06) * pk : 0), 0); p.g.rotation.z = -side * 0.06 * lean;
     p.g.scale.set(1 - sq * 0.4, (1 + sq) * (1 + rip), 1 - sq * 0.4); p.g.visible = cl < 1 && !(k === 2 && pOut > 0.995);
     if (k === 2) p.m.emissiveIntensity = 0.12 + 0.35 * win(t, ...T.premiumGlow, 0.4, 0.5) * (THUMB ? 1 : 1);
     placeShadow(p.sh, PX[k] + side * off, 0, 0, 0.06, 0.06, p.g.visible ? 0.9 * (k === 2 ? 1 - pOut : 1) : 0); });
@@ -137,13 +138,14 @@ function frame(t) {
     let p = P0[i];
     const u1 = ramp(t, T.split[0] + st, T.split[0] + st + 0.45, E.inOut); if (u1 > 0) p = hopTo(P0[i], P1[i], u1);
     const u2 = ramp(t, T.toMiddle[0] + st * 1.4, T.toMiddle[0] + st * 1.4 + 0.5, E.inOut); if (u2 > 0) p = hopTo(P1[i], P0[i], u2);
-    const ci = CUST.indexOf(i); if (ci >= 0) { const k = S0[i], top = [PX[k], PH[k] + 0.0035 + COINS[k] * 0.0055, 0], u3 = ramp(t, T.realCust[0] + ci * 0.2, T.realCust[0] + ci * 0.2 + 0.45, E.inOut); if (u3 > 0) p = hopTo(P0[i], top, u3, 0.06); }
+    const ci = CUST.indexOf(i); if (ci >= 0) { const k = S0[i], top = [PX[k], PH[k] + 0.0035 + COINS[k] * 0.0055, 0], u3 = ramp(t, T.realCust[0] + ci * 0.2, T.realCust[0] + ci * 0.2 + 0.45, E.inOut); if (u3 > 0) p = hopTo(P0[i], top, u3, 0.06); if (k === 1 && u3 > 0) p = [p[0], p[1] - (PH[1] + 0.06) * pk, p[2]]; }
     const side = Math.sign(p[0] + 1e-6) * (Math.abs(p[0]) > 0.05 ? 1 : 0), rip = 0.012 * pulse(t, T.reshape[0] + (S0[i]) * 0.12, 0.35);
-    g.position.set(p[0] + side * off, p[1] + rip, p[2]); g.visible = cl < 0.98; g.scale.setScalar(Math.max(0.001, 1 - cl)); });
+    const pc = ramp(t, T.ctaClear[0] - 0.15, T.ctaClear[0] + 0.05, E.in); // shoppers clear before the tile is up (no specks under it)
+    g.position.set(p[0] + side * off, p[1] + rip, p[2]); g.visible = pc < 0.98; g.scale.setScalar(Math.max(0.001, 1 - pc)); });
   { const a = ramp(t, T.realCust[0] + 0.4, T.realCust[0] + 1.0, E.out) * (1 - cl); pawnGlow.visible = a > 0.01; pawnGlow.material.opacity = 0.5 * a; pawnGlow.scale.set(0.42, 0.18, 1); pawnGlow.position.set(0, 0.16, -0.03); }
   // --- proof diagram: middle gains appeal, extremes lose it (direction only)
-  { const vis = t > 12.9 && t < 19.9, mu = ramp(t, ...T.middleUp, E.out), ed = ramp(t, ...T.extremesDown, E.inOut), base = 0.085;
-    apBars.forEach((m, i) => { const h = i === 1 ? base + 0.06 * mu : base - 0.035 * ed; m.scale.set(1, h, 1); m.visible = vis; });
+  { const vis = t > 12.9 && t < 19.9, mu = ramp(t, ...T.middleUp, E.out), ed = ramp(t, ...T.extremesDown, E.inOut), base = 0.094;
+    apBars.forEach((m, i) => { const h = i === 1 ? base + 0.066 * mu : base - 0.038 * ed; m.scale.set(1, h, 1); m.visible = vis; });
     apChips.forEach((m) => { m.visible = vis; }); apBase.visible = vis;
     aura.visible = vis && mu > 0.01; aura.material.opacity = 0.5 * mu; aura.scale.set(0.2, 0.2, 1); aura.position.set(X2, 0.12, -0.05); }
   // --- lights: hero spot on Premium in the hook ("the option you won't buy"), on Plus as the middle choice, on the middle bar
