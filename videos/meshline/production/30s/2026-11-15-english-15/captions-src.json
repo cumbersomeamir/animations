@@ -1,0 +1,9 @@
+{
+ "l1": [[["Every router here", "shares one channel."], "Every"], [["So who gets to talk?"], "so"]],
+ "l2": [[["When two transmit together,"], "When"], [["both get scrambled."], "both"]],
+ "l3": [[["So Wi-Fi listens first,"], "So"], [["then waits a random", "number of tiny slots."], "then"]],
+ "l4": [[["Pick the same number?"], "Pick"], [["They clash, and each", "doubles its waiting range."], "They"]],
+ "l5": [[["More neighbours on your", "channel means more waiting,"], "More"], [["whatever your internet plan."], "whatever"]],
+ "l6": [[["Pick a quieter channel,"], "Pick"], [["or move to 5 GHz,", "with far more room."], "or"]],
+ "l7": [[["For private nearby messaging,", "even offline, try Meshline."], "For"]]
+}

@@ -250,4 +250,12 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Computed visuals:** when a diagram shows a physical field (here the interference map), compute it from a simple stated model and say in `claims.md` that it is illustrative. Drive the phone's live bars and the instrument from the same model.
 - **Framing guard:** check every camera key numerically against the sheet's edges (0 and SHEET.w). Extend SHEET.h when strips sit below the main plan.
 - **TTS wording:** "copies… out of step" was garbled in ASR; prefer common words ("echoes", "out of sync") for key mechanism lines.
+| 17 | 2026-11-15-english-15 | One channel, many routers: who talks next? (listen-before-talk, random backoff, doubling window; internet vs air), **English** + thumbnail | `production/30s/2026-11-15-english-15/meshline-30s-english15-01.mp4` |
+
+## Standing rule added 2026-11-15: FIRST FRAME
+- Frame 0 must be a composed, surprising subject that reads on a phone, plus at most 2–5 truthful curiosity words. No logo intro, no fade from black and no empty setup. Frame 0 doubles as the thumbnail (`drawThumb` renders the frame-zero world + the same words + the signature).
+- The hook audio starts immediately (~0.25 s) and promises a specific answer that the episode delivers.
+- The words sit in the caption band at frame 0 and hand over to the first caption (whose start is clamped to ≥ 0.55 s), so they never compete with the caption.
+- **Topics now taken:** CSMA-style contention / backoff (17). Stadium, concert, crowd and full-bars stories are repeats; don't use them as framing again.
+- **Still unused planned titles:** what 5G changes; how a phone picks a tower.
 

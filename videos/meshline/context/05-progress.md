@@ -67,3 +67,6 @@
 
 ## Production 2026-11-14-english-14 (English, multipath dead spots)
 - Done. Output `production/30s/2026-11-14-english-14/meshline-30s-english14-01.mp4`, sha256 `9a9802da…5a31`, plus a thumbnail. The topic change, sources, computed signal map and QA are in `27-production-30s-english14-01.md`.
+
+## Production 2026-11-15-english-15 (English, one channel, many routers)
+- Done. Output `production/30s/2026-11-15-english-15/meshline-30s-english15-01.mp4`, sha256 `c5ee6def…5d46`, plus a thumbnail equal to frame zero. The new first-frame rule is persisted in `11-production-format.md`. Details are in `28-production-30s-english15-01.md`.

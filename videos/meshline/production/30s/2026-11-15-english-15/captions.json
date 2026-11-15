@@ -1,0 +1,112 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 2.3,
+  "l": [
+   "Every router here",
+   "shares one channel."
+  ]
+ },
+ {
+  "id": "l1b",
+  "a": 2.34,
+  "b": 3.849,
+  "l": [
+   "So who gets to talk?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 4.05,
+  "b": 5.45,
+  "l": [
+   "When two transmit together,"
+  ]
+ },
+ {
+  "id": "l2b",
+  "a": 5.49,
+  "b": 7.05,
+  "l": [
+   "both get scrambled."
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 7.26,
+  "b": 9.02,
+  "l": [
+   "So Wi-Fi listens first,"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 9.06,
+  "b": 11.883,
+  "l": [
+   "then waits a random",
+   "number of tiny slots."
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 12.08,
+  "b": 13.5,
+  "l": [
+   "Pick the same number?"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 13.54,
+  "b": 16.363,
+  "l": [
+   "They clash, and each",
+   "doubles its waiting range."
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 16.57,
+  "b": 19.03,
+  "l": [
+   "More neighbours on your",
+   "channel means more waiting,"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 19.07,
+  "b": 20.977,
+  "l": [
+   "whatever your internet plan."
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 21.18,
+  "b": 22.46,
+  "l": [
+   "Pick a quieter channel,"
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 22.5,
+  "b": 25.541,
+  "l": [
+   "or move to 5 GHz,",
+   "with far more room."
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 25.79,
+  "b": 29.852,
+  "l": [
+   "For private nearby messaging,",
+   "even offline, try Meshline."
+  ]
+ }
+]

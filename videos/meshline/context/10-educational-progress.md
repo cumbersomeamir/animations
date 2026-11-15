@@ -100,3 +100,7 @@
 ## Production 2026-11-14-english-14 (English, why a hand's width can bring the signal back): complete
 - See `27-production-30s-english14-01.md`; output sha256 `9a9802da9e1ff16183d139faee5bfc43d152eed3ab7fe9081c33c48639c05a31`; thumbnail `meshline-30s-english14-01-thumbnail.png`.
 - Topic change: the proposed obstruction/clearer-path angle repeats 07/14/15, so the episode covers multipath dead spots (echoes add or cancel; strong and weak spots centimetres apart).
+
+## Production 2026-11-15-english-15 (English, one channel, many routers: who talks next?): complete
+- See `28-production-30s-english15-01.md`; output sha256 `c5ee6defda4f6c164d64ced9a8b908530529a8b64293edba96c065564f315d46`; thumbnail = frame-zero composition.
+- Stadium/full-bars framing rejected as a repeat; the requested contention mechanism (listen-before-talk, random backoff, doubling window) kept, framed as the unused planned title "home Wi-Fi slowing at peak".

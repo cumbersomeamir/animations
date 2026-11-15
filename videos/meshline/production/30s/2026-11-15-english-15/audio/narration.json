@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character. Numbers spelled out in TTS text; captions show digits."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Every router here shares one channel. So who gets to talk?"
+    },
+    {
+      "id": "l2",
+      "start": 4.1,
+      "text": "When two transmit together, both get scrambled."
+    },
+    {
+      "id": "l3",
+      "start": 7.31,
+      "text": "So Wi-Fi listens first, then waits a random number of tiny slots."
+    },
+    {
+      "id": "l4",
+      "start": 12.13,
+      "text": "Pick the same number? They clash, and each doubles its waiting range."
+    },
+    {
+      "id": "l5",
+      "start": 16.62,
+      "text": "More neighbours on your channel means more waiting, whatever your internet plan."
+    },
+    {
+      "id": "l6",
+      "start": 21.23,
+      "text": "Pick a quieter channel, or move to five gigahertz, with far more room."
+    },
+    {
+      "id": "l7",
+      "start": 25.84,
+      "text": "For private nearby messaging, even offline, try Meshline."
+    }
+  ]
+}

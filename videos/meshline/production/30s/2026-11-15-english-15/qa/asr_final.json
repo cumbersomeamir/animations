@@ -1,0 +1,51 @@
+{
+ "reference": "Every router here shares one channel. So who gets to talk? When two transmit together, both get scrambled. So Wi-Fi listens first, then waits a random number of tiny slots. Pick the same number? They clash, and each doubles its waiting range. More neighbours on your channel means more waiting, whatever your internet plan. Pick a quieter channel, or move to five gigahertz, with far more room. For private nearby messaging, even offline, try Meshline.",
+ "asr": "Every router here shares one channel, so who gets to talk? When two transmit together, both get scrambled. So Wi-Fi listens first, then waits a random number of tiny slots. Pick the same number, they clash, and each doubles its waiting range. More neighbors on your channel means more waiting, whatever your internet plan. Pick a quieter channel, or move to five gigahertz with far more room. Get private nearby messaging, even offline tri-meshline.",
+ "wer": 0.039,
+ "segments": [
+  [
+   0.0,
+   4.0,
+   "Every router here shares one channel, so who gets to talk?"
+  ],
+  [
+   4.0,
+   7.0,
+   "When two transmit together, both get scrambled."
+  ],
+  [
+   7.0,
+   12.0,
+   "So Wi-Fi listens first, then waits a random number of tiny slots."
+  ],
+  [
+   12.0,
+   16.0,
+   "Pick the same number, they clash, and each doubles its waiting range."
+  ],
+  [
+   16.0,
+   21.0,
+   "More neighbors on your channel means more waiting, whatever your internet plan."
+  ],
+  [
+   21.0,
+   26.0,
+   "Pick a quieter channel, or move to five gigahertz with far more room."
+  ],
+  [
+   26.0,
+   30.0,
+   "Get private nearby messaging, even offline tri-meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.013,
+ "normalization": "digits\u2192words, US\u2192UK spelling (neighbors\u2192neighbours), hyphen split (\"tri-meshline\"\u2192\"try meshline\")",
+ "remaining_diffs": [
+  [
+   "for",
+   "get"
+  ]
+ ],
+ "audio_pcm_sha256_prefix": "407bb36311f8f8a8"
+}

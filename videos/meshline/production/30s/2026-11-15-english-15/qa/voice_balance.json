@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 3.549,
+  "text": "Every router here shares one channel. So who gets to talk?",
+  "speech_band_db": 22.6
+ },
+ {
+  "id": "l2",
+  "start": 4.1,
+  "end": 6.75,
+  "text": "When two transmit together, both get scrambled.",
+  "speech_band_db": 21.4
+ },
+ {
+  "id": "l3",
+  "start": 7.31,
+  "end": 11.583,
+  "text": "So Wi-Fi listens first, then waits a random number of tiny slots.",
+  "speech_band_db": 22.2
+ },
+ {
+  "id": "l4",
+  "start": 12.13,
+  "end": 16.063,
+  "text": "Pick the same number? They clash, and each doubles its waiting range.",
+  "speech_band_db": 28.8
+ },
+ {
+  "id": "l5",
+  "start": 16.62,
+  "end": 20.677,
+  "text": "More neighbours on your channel means more waiting, whatever your internet plan.",
+  "speech_band_db": 22.9
+ },
+ {
+  "id": "l6",
+  "start": 21.23,
+  "end": 25.241,
+  "text": "Pick a quieter channel, or move to five gigahertz, with far more room.",
+  "speech_band_db": 20.7
+ },
+ {
+  "id": "l7",
+  "start": 25.84,
+  "end": 29.552,
+  "text": "For private nearby messaging, even offline, try Meshline.",
+  "speech_band_db": 21.5
+ }
+]
