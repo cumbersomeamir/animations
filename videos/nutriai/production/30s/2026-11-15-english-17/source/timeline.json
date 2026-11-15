@@ -1,0 +1,330 @@
+{
+ "_doc": "CalMeter English 30 s english-17 (2026-11-15, batch 17): a huge watermelon wedge vs a few raisins, 'SIZE LIES'. Watermelon never covered (the 'water has no calories' idea also appeared with cucumber in english-09; raisins appeared in english-08). Story per context/25 incl. the first-frame addendum; frame 0 is the thumbnail composition. 30 fps, 900 frames. The wedge weight is USDA's edible portion (flesh without rind), said in T2 and labelled FLESH ONLY. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 4.35
+  },
+  {
+   "id": "T2",
+   "at": 6.6
+  },
+  {
+   "id": "T3",
+   "at": 12.15
+  },
+  {
+   "id": "T4",
+   "at": 16.55
+  },
+  {
+   "id": "T5",
+   "at": 21.85
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 80,
+   "lines": [
+    [
+     "Huge watermelon wedge,",
+     5
+    ],
+    [
+     "tiny raisins:",
+     49
+    ]
+   ]
+  },
+  {
+   "in": 82,
+   "out": 128,
+   "lines": [
+    [
+     "which has more calories?",
+     84
+    ]
+   ]
+  },
+  {
+   "in": 131,
+   "out": 194,
+   "lines": [
+    [
+     "Neither:",
+     131
+    ],
+    [
+     "both are about 85 kcal.",
+     147
+    ]
+   ]
+  },
+  {
+   "in": 198,
+   "out": 296,
+   "lines": [
+    [
+     "Yet the wedge holds",
+     199
+    ],
+    [
+     "286 g of flesh;",
+     221
+    ]
+   ]
+  },
+  {
+   "in": 298,
+   "out": 357,
+   "lines": [
+    [
+     "60 raisins: just 28 g.",
+     300
+    ]
+   ]
+  },
+  {
+   "in": 364,
+   "out": 487,
+   "lines": [
+    [
+     "Watermelon is 91% water,",
+     365
+    ],
+    [
+     "and water has no calories.",
+     440
+    ]
+   ]
+  },
+  {
+   "in": 497,
+   "out": 606,
+   "lines": [
+    [
+     "Per 100 g:",
+     498
+    ],
+    [
+     "raisins, 299 kcal;",
+     537
+    ]
+   ]
+  },
+  {
+   "in": 608,
+   "out": 648,
+   "lines": [
+    [
+     "watermelon, 30.",
+     612
+    ]
+   ]
+  },
+  {
+   "in": 656,
+   "out": 751,
+   "lines": [
+    [
+     "So a small handful of raisins",
+     657
+    ],
+    [
+     "counts like a whole wedge:",
+     700
+    ]
+   ]
+  },
+  {
+   "in": 753,
+   "out": 806,
+   "lines": [
+    [
+     "log grams, not size.",
+     757
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "sfx0": 0,
+  "qk": 100,
+  "k85": 161,
+  "same": 168,
+  "pageA": 188,
+  "burnish": 188,
+  "scales": 190,
+  "wedgeLand": 205,
+  "g286": 206,
+  "raisins": 298,
+  "g28": 310,
+  "x10": 340,
+  "pageB": 357,
+  "burnish2": 357,
+  "water": 359,
+  "squeeze": 377,
+  "w91": 388,
+  "zero": 460,
+  "pageC": 487,
+  "burnish3": 487,
+  "per100": 489,
+  "rais100": 504,
+  "k299": 550,
+  "cube": 604,
+  "k30": 624,
+  "x10b": 634,
+  "pageD": 646,
+  "burnish4": 646,
+  "pay": 648,
+  "handful": 661,
+  "ghost": 705,
+  "oneWedge": 722,
+  "logIt": 757,
+  "cta": 806,
+  "ctaWord": 813,
+  "flesh": 273
+ },
+ "sfx": [
+  {
+   "ev": "sfx0",
+   "type": "juice",
+   "gain": -22
+  },
+  {
+   "ev": "qk",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "k85",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "same",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "pageA",
+   "type": "page",
+   "dur": 0.33,
+   "gain": -28
+  },
+  {
+   "ev": "wedgeLand",
+   "type": "thud",
+   "gain": -25
+  },
+  {
+   "ev": "raisins",
+   "type": "patter",
+   "dur": 0.9,
+   "gain": -27
+  },
+  {
+   "ev": "x10",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageB",
+   "type": "page",
+   "dur": 0.25,
+   "gain": -28
+  },
+  {
+   "ev": "squeeze",
+   "type": "pour",
+   "dur": 2.4,
+   "gain": -28
+  },
+  {
+   "ev": "zero",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageC",
+   "type": "page",
+   "dur": 0.3,
+   "gain": -28
+  },
+  {
+   "ev": "rais100",
+   "type": "patter",
+   "dur": 0.7,
+   "gain": -27
+  },
+  {
+   "ev": "k299",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "cube",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "k30",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageD",
+   "type": "page",
+   "dur": 0.3,
+   "gain": -28
+  },
+  {
+   "ev": "handful",
+   "type": "patter",
+   "dur": 0.4,
+   "gain": -28
+  },
+  {
+   "ev": "oneWedge",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "logIt",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

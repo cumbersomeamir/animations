@@ -1,0 +1,70 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights",
+ "fdcId": 168165,
+ "ndbNumber": 9298,
+ "description": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+ "per_100_g": {
+  "Fiber, total dietary": {
+   "amount": 4.5,
+   "unit": "g"
+  },
+  "Protein": {
+   "amount": 3.3,
+   "unit": "g"
+  },
+  "Potassium, K": {
+   "amount": 744,
+   "unit": "mg"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.25,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 79.3,
+   "unit": "g"
+  },
+  "Water": {
+   "amount": 15.5,
+   "unit": "g"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 65.2,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 299,
+   "unit": "kcal"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 2.3,
+   "unit": "mg"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "oz (60 raisins)",
+   "gramWeight": 28.35
+  },
+  {
+   "modifier": "miniature box (.5 oz)",
+   "gramWeight": 14.0
+  },
+  {
+   "modifier": "small box (1.5 oz)",
+   "gramWeight": 43.0
+  },
+  {
+   "modifier": "raisins",
+   "gramWeight": 26.0
+  },
+  {
+   "modifier": "cup (not packed)",
+   "gramWeight": 145.0
+  },
+  {
+   "modifier": "cup, packed",
+   "gramWeight": 165.0
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+USDA SR28 (sr28asc.zip, files dated 2015-09/2016-03), extracts used for english-17.
+
+sr28_doc.pdf, 'Weights and Measures':
+Weights and Measures
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and
+so forth. The Weight file contains the gram weights and measure descriptions for each
+
+FOOD_DES.txt (NDB 09326 watermelon: refuse 'Rind, seeds, and cutting loss' 48 %; NDB 09298 raisins, seedless):
+~09298~^~0900~^~Raisins, seedless~^~RAISINS,SEEDLESS~^~~^~~^~Y~^~~^0^~Vitis vinifera~^6.25^3.36^8.37^3.60
+~09326~^~0900~^~Watermelon, raw~^~WATERMELON,RAW~^~~^~~^~Y~^~Rind, seeds, and cutting loss~^48^~Citrullus lanatus~^6.25^3.36^8.37^3.60
+
+WEIGHT.txt (NDB 09326, 09298; fields: NDB, seq, amount, measure, gram weight):
+~09298~^1^1^~cup, packed~^165^^
+~09298~^2^1^~cup (not packed)~^145^^
+~09298~^3^1^~miniature box (.5 oz)~^14.0^^
+~09298~^4^1^~small box (1.5 oz)~^43^^
+~09298~^5^50^~raisins~^26^^
+~09298~^6^1^~oz (60 raisins)~^28.35^1^
+~09326~^1^1^~cup, balls~^154^^
+~09326~^2^1^~cup, diced~^152^^
+~09326~^3^1^~melon (15" long x 7-1/2" dia)~^4518^^
+~09326~^4^1^~wedge (approx 1/16 of melon)~^286^^
+~09326~^5^10^~watermelon balls~^122^^
+~09326~^6^1^~NLEA serving~^280^^

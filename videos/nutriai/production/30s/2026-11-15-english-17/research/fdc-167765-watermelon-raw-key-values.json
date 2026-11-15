@@ -1,0 +1,70 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights",
+ "fdcId": 167765,
+ "ndbNumber": 9326,
+ "description": "Watermelon, raw",
+ "per_100_g": {
+  "Protein": {
+   "amount": 0.61,
+   "unit": "g"
+  },
+  "Fiber, total dietary": {
+   "amount": 0.4,
+   "unit": "g"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 8.1,
+   "unit": "mg"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 6.2,
+   "unit": "g"
+  },
+  "Water": {
+   "amount": 91.4,
+   "unit": "g"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.15,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 7.55,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 30.0,
+   "unit": "kcal"
+  },
+  "Potassium, K": {
+   "amount": 112,
+   "unit": "mg"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "NLEA serving",
+   "gramWeight": 280.0
+  },
+  {
+   "modifier": "cup, diced",
+   "gramWeight": 152.0
+  },
+  {
+   "modifier": "watermelon balls",
+   "gramWeight": 122.0
+  },
+  {
+   "modifier": "cup, balls",
+   "gramWeight": 154.0
+  },
+  {
+   "modifier": "wedge (approx 1/16 of melon)",
+   "gramWeight": 286.0
+  },
+  {
+   "modifier": "melon (15\" long x 7-1/2\" dia)",
+   "gramWeight": 4518.0
+  }
+ ]
+}

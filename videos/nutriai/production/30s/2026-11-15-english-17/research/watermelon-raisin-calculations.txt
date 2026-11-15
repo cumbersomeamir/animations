@@ -1,0 +1,21 @@
+CalMeter english-17 — calculations (2026-11-15). Inputs: USDA SR Legacy FDC 167765 "Watermelon, raw" and FDC 168165 "Raisins, dark, seedless", per 100 g, plus their USDA household weights.
+
+MEASURED (USDA)
+  watermelon, raw: 30 kcal, water 91.4 g, sugars 6.2 g per 100 g; "wedge (approx 1/16 of melon)" = 286 g; "cup, diced" = 152 g
+  raisins, dark, seedless: 299 kcal, water 15.5 g, sugars 65.2 g per 100 g; "oz (60 raisins)" = 28.35 g; "small box (1.5 oz)" = 43 g
+
+CALCULATED
+  one wedge: 286 g x 30/100 = 85.8 kcal  -> "about 85"
+  one ounce of raisins (USDA: 60 raisins): 28.35 g x 299/100 = 84.8 kcal  -> "about 85"
+  (raisins with the same energy as the wedge: 28.7 g)
+  weight ratio wedge / raisins = 286 / 28.35 = 10.1  -> "≈ 10×" on screen
+  energy density ratio = 299 / 30 = 9.97  -> "× 10" on screen
+  water in the wedge = 286 x 91.4/100 = 261 g (91.4 % -> "91 % water")
+  water in the 28 g of raisins = 4.4 g
+  one raisin ≈ 0.47 g (USDA 60 per ounce)
+
+ASSUMPTIONS / ILLUSTRATIVE
+  "a few raisins" / "a small handful" = the USDA ounce (28.35 g, 60 raisins); hands differ, so the grams are the point.
+  The wedge drawing stands for USDA's 1/16-melon wedge (286 g, rind not eaten; values are for the edible flesh).
+  On screen the raisin piles are drawn with fewer raisins than 60 / ≈ 210 (100 g); the 100 g raisin heap and the 100 g watermelon cube are drawn at similar size (raisin bulk density ≈ 145 g per cup ≈ 0.61 g/mL, so 100 g of raisins is roughly 160 mL; 100 g of watermelon flesh ≈ 100 mL).
+  Water leaving the wedge into a glass is a diagram of the water share, not a juicing procedure.
