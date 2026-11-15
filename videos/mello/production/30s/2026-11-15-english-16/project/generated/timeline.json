@@ -1,0 +1,109 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Why feel small on purpose?",
+      "start": 0.15,
+      "end": 1.542,
+      "pauses": []
+    },
+    {
+      "id": "awe",
+      "text": "It's called awe: the feeling near something vast, like a night sky.",
+      "start": 2.4,
+      "end": 5.951,
+      "pauses": [
+        [
+          3.163,
+          3.499
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one study, older adults took weekly fifteen-minute walks for eight weeks.",
+      "start": 6.2,
+      "end": 10.663,
+      "pauses": [
+        [
+          6.981,
+          7.312
+        ],
+        [
+          8.183,
+          8.265
+        ],
+        [
+          10.393,
+          10.482
+        ]
+      ]
+    },
+    {
+      "id": "selfies",
+      "text": "Those looking for awe took selfies with more scenery, less self, and bigger smiles.",
+      "start": 11.2,
+      "end": 15.993,
+      "pauses": [
+        [
+          13.735,
+          14.07
+        ],
+        [
+          14.692,
+          14.965
+        ]
+      ]
+    },
+    {
+      "id": "distress",
+      "text": "They also reported less daily distress.",
+      "start": 16.45,
+      "end": 18.597,
+      "pauses": []
+    },
+    {
+      "id": "payoff",
+      "text": "So on your next walk, find one vast thing, a sky, a tree, a skyline, and pause for it.",
+      "start": 19.3,
+      "end": 24.931,
+      "pauses": [
+        [
+          20.302,
+          20.514
+        ],
+        [
+          21.345,
+          21.452
+        ],
+        [
+          22.396,
+          22.657
+        ],
+        [
+          23.265,
+          23.351
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}

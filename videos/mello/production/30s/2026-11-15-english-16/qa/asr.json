@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Why feel small on purpose? It's called awe: the feeling near something vast, like a night sky. In one study, older adults took weekly fifteen-minute walks for eight weeks. Those looking for awe took selfies with more scenery, less self, and bigger smiles. They also reported less daily distress. So on your next walk, find one vast thing, a sky, a tree, a skyline, and pause for it. Take a mindful break with Mello.",
+  "transcript": "Why feel small on purpose? It's called awe, the feeling near something vast like a night sky. In one study, older adults took weekly 15-minute walks for eight weeks. Those looking for awe took selfies with more scenery, less self, and bigger smiles. They also reported less daily distress. So on your next walk, find one vast thing, a sky, a tree, a skyline, and pause for it. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.542,
+      "text": "Why feel small on purpose?",
+      "cer": 0.0
+    },
+    {
+      "id": "awe",
+      "start": 2.4,
+      "end": 5.951,
+      "text": "It's called awe, the feeling near something vast like a night sky.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 6.2,
+      "end": 10.663,
+      "text": "In one study, older adults took weekly 15-minute walks for eight weeks.",
+      "cer": 0.0
+    },
+    {
+      "id": "selfies",
+      "start": 11.2,
+      "end": 15.993,
+      "text": "Those looking for awe took selfies with more scenery, less self, and bigger smiles.",
+      "cer": 0.0
+    },
+    {
+      "id": "distress",
+      "start": 16.45,
+      "end": 18.597,
+      "text": "They also reported less daily distress.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 19.3,
+      "end": 24.931,
+      "text": "So on your next walk, find one vast thing, a sky, a tree, a skyline, and pause for it.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}
