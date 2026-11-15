@@ -1,0 +1,127 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "From broken to bought.",
+   "heard": "from broke into bot",
+   "word_acc": 0.25,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 1.279,
+   "heard_off": 1.26,
+   "missed": [
+    [
+     "broken",
+     "to",
+     "bought"
+    ]
+   ]
+  },
+  {
+   "id": "L2",
+   "ref": "Broken tile looks like rubble. So how does it become something people buy?",
+   "heard": "broken tile looks like rebel so how does it become something people by",
+   "word_acc": 0.846,
+   "plan_on": 1.62,
+   "heard_on": 1.59,
+   "plan_off": 5.789,
+   "heard_off": 5.79,
+   "missed": [
+    [
+     "rubble"
+    ],
+    [
+     "buy"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "Chandigarh's Rock Garden is studded with broken crockery and tile.",
+   "heard": "sunday gars rock garden is studded with broken crockery and tile",
+   "word_acc": 0.9,
+   "plan_on": 6.14,
+   "heard_on": 6.17,
+   "plan_off": 10.243,
+   "heard_off": 10.25,
+   "missed": [
+    [
+     "chandigarh's"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Sort the shards by color, glue them on a base, and grout the gaps.",
+   "heard": "sort the shards by color glue them on a base and grout the gaps",
+   "word_acc": 1.0,
+   "plan_on": 10.59,
+   "heard_on": 10.59,
+   "plan_off": 14.164,
+   "heard_off": 14.16,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Seal it, add felt, and it's a coaster set or a small tabletop.",
+   "heard": "zealot add felt and it's a coaster set or a small table top",
+   "word_acc": 0.769,
+   "plan_on": 14.51,
+   "heard_on": 14.51,
+   "plan_off": 18.279,
+   "heard_off": 18.29,
+   "missed": [
+    [
+     "seal",
+     "it"
+    ],
+    [
+     "tabletop"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Its price must cover materials, your labor and selling costs; the rest is profit.",
+   "heard": "it's price must cover materials your labor and selling costs the rest is profit",
+   "word_acc": 0.929,
+   "plan_on": 18.63,
+   "heard_on": 18.63,
+   "plan_off": 23.61,
+   "heard_off": 23.61,
+   "missed": [
+    [
+     "its"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "So price one set before you make ten.",
+   "heard": "so price one set before you make ten",
+   "word_acc": 1.0,
+   "plan_on": 23.96,
+   "heard_on": 23.96,
+   "plan_off": 25.938,
+   "heard_off": 25.91,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

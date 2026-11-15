@@ -136,7 +136,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     and resin code (english-14; replaced a proposed clear-vs-coloured PET topic that repeated english-07); verified trade scales and
     short weight (english-15; replaced a proposed dry-vs-wet cardboard topic that repeated feedback-05); truck tyre casings sorted
     for retreaders vs crumb (english-16; replaced a proposed mixed-plastic topic that repeated english-14/english-07). Plastic sorting
-    (colour, polymer, mixed vs separated) is now fully taken.
+    (colour, polymer, mixed vs separated) is now fully taken. Broken ceramic tile made into mosaic coasters and tabletops (english-17;
+    the first make-and-sell value-addition episode; no verified prices, so the unit economics show an illustrative split without numbers).
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

@@ -1,0 +1,33 @@
+English intelligibility and timing evidence: wastepaisa-30s-english17-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 0.25 | onset plan 0.10 heard 0.09 | offset plan 1.28 heard 1.26 | heard: from broke into bot
+   L2 word acc 0.85 | onset plan 1.62 heard 1.59 | offset plan 5.79 heard 5.79 | heard: broken tile looks like rebel so how does it become something people by
+   L3 word acc 0.90 | onset plan 6.14 heard 6.17 | offset plan 10.24 heard 10.25 | heard: sunday gars rock garden is studded with broken crockery and tile
+   L4 word acc 1.00 | onset plan 10.59 heard 10.59 | offset plan 14.16 heard 14.16 | heard: sort the shards by color glue them on a base and grout the gaps
+   L5 word acc 0.77 | onset plan 14.51 heard 14.51 | offset plan 18.28 heard 18.29 | heard: zealot add felt and it's a coaster set or a small table top
+   L6 word acc 0.93 | onset plan 18.63 heard 18.63 | offset plan 23.61 heard 23.61 | heard: it's price must cover materials your labor and selling costs the rest is profit
+   L7 word acc 1.00 | onset plan 23.96 heard 23.96 | offset plan 25.94 heard 25.91 | heard: so price one set before you make ten
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.823; every onset/offset within 0.03 s of plan (full record in qa/asr-english-vosk.json)
+   Misses:
+   - Near-homophones and word splits: "broken to" -> "broke into", rubble -> "rebel", buy -> "by", "seal it" -> "zealot",
+     tabletop -> "table top", its -> "it's".
+   - "bought" -> "bot": Vosk heard "bot" in every phoneme variant tested at draft stage (dry narration, no music); faster-whisper hears
+     "bought" in all of them, so it looks like a bias in this small-LM model rather than the voice.
+   - The city name and the brand are out of the Vosk vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   From broken to bought, broken tile looks like rubble, so how does it become something people buy? Chundy Gar's rock garden is studded with broken crockery and tile. Sort the shards by color, glue them on a base and grout the gaps. Seal it, add felt, and it's a coaster set or a small tabletop. Its price must cover materials, your labor and selling costs. The rest is profit, so price one set before you make ten. Join Waste PISAW and put your scrap to use.
+   Matches the script word for word apart from two spellings: the brand, and the city written phonetically as "Chundy Gar's" (Chandi-garh's).
+   On the isolated L3 narration, the same engine writes "Chandigarh's".
+
+3) Pronunciation fix found by ASR: the synthesiser first said "Chandigarh's" as /tʃʌndɪˈɡɜːz/ ("Chun-di-GURZ"; Whisper: "Chundegur's").
+   The G2P phonemes were replaced with /tʃʌndiːˈɡɑːrz/ ("Chun-dee-GARZ") through audio/lines.json ph_sub; L3 grew by 0.12 s and L4-L7
+   moved 0.12 s later.
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.51 dBFS, flat factor 0
+   (no clipped runs). The shard click, whooshes, tray clink, grout pass, profit ping and the ten-sets pop all sit between lines
+   (audio/cues.json).

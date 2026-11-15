@@ -449,6 +449,36 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - The loss corrected to −₹5,500 (no sorting cost when nothing is sorted).
 - **Renderer:** labels now fade with their scene.
 
+## english-17 (2026-11-15-english-17) episode 01: COMPLETE (English)
+- **Topic (fresh):** broken ceramic tile made into mosaic coasters and tabletops, the first make-and-sell value-addition episode.
+  - Ceramics appeared before only as a glass-cullet contaminant (english-08).
+  - Spine: broken tile looks like rubble, so how does it become something people buy? Proof: Chandigarh's Rock Garden is studded with
+    broken crockery and tile. Method: sort by colour, glue, grout, seal, felt. Buyer use: coaster set with a glass of tea, small tabletop.
+  - Money: one price split into materials, labour, selling costs and profit. Takeaway: price one set before you make ten.
+- **First-frame rule:** frame 0 shows shards mid-flight clicking into a finished coaster, with "From broken to bought." on screen and
+  the voice at 0.10 s; the thumbnail is the same composition with "BROKEN TO BOUGHT".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-15-english-17/wastepaisa-30s-english17-01.mp4`,
+  SHA-256 `5f1402fc8d555773d7b3468678e0514e5214c9d94b601fd02b9c6ddaa5d4a2c8`; thumbnail `wastepaisa-30s-english17-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 131.6–868.4, y 345.5–514.5; hook caption at frame 0.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.823 (near-homophones; "bought" heard as "bot" in every variant; city and brand out of vocabulary).
+  - Whisper word for word apart from the brand and a phonetic spelling of the city.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - Nek Chand Foundation: broken crockery and tiles were brought to the Rock Garden for recycling.
+  - WheatonArts mosaic coaster lesson: sort, adhesive, grout, sponge. Seal and felt from craft tutorials.
+  - Park Güell's tile-shard bench (official site) kept as background.
+  - No verified prices, so the unit economics have no numbers (per the brief).
+  - Episode record: `context/30-english-17-01.md`. No automation.
+- **Fixed during QA:**
+  - The hook wording ("bot" → "From broken to bought").
+  - Rubble fog, the Rock Garden light bar, a label repeating the caption (now a magnifier), the glass size and the tag overlap.
+  - The thumbnail words.
+  - The "Chandigarh's" pronunciation (phoneme fix, +0.12 s re-timing).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

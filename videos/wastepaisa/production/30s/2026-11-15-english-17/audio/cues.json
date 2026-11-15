@@ -1,0 +1,49 @@
+{
+ "sfx_cues": [
+  [
+   1.32,
+   "the last shards click in, gloss (after \"bought\", before \"Broken\")"
+  ],
+  [
+   5.86,
+   "to the Rock Garden (between lines)"
+  ],
+  [
+   10.32,
+   "shards start to sort (between lines)"
+  ],
+  [
+   14.22,
+   "grout float finishes its pass (between lines)"
+  ],
+  [
+   18.34,
+   "to the price split (between lines)"
+  ],
+  [
+   23.67,
+   "PROFIT (after the line)"
+  ],
+  [
+   26.0,
+   "ten sets pop in (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-16.81",
+  "input_tp": "-3.10",
+  "input_lra": "3.90",
+  "input_thresh": "-27.52",
+  "output_i": "-15.42",
+  "output_tp": "-1.50",
+  "output_lra": "4.20",
+  "output_thresh": "-26.15",
+  "normalization_type": "dynamic",
+  "target_offset": "0.42"
+ }
+}

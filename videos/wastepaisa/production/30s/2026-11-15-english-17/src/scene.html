@@ -1,0 +1,345 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-17 episode 01 "From broken to bought." (broken ceramic tile made into mosaic coasters and tabletops; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-15-english-16/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes only: CTA at 27-30 s, captions centred at x 500
+// inside x 100-900, large brief labels, a soft key light behind each subject, depth-push scene transitions and a separate thumbnail.
+// New: mosaic props (Voronoi-cut shards, coaster on a wooden base, grout wipe, rubble heap, colour trays, stylised crockery figures,
+// coaster set, glass, round tabletop) and scene functions; the hook words show from frame 0; labels fade with their scene;
+// English captions use the accepted 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph).
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-15-english-17';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [1.6, [0, 1.6, 2.4]], [6.0, [0.25, 1.5, 2.0]], [10.3, [0, 1.85, 3.1]], [14.37, [-0.3, 1.7, 2.6]], [18.47, [0, 2.35, 3.7]], [23.82, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- mosaic props (solid foreground objects): shards cut as Voronoi cells, coaster on a wooden base, grout, rubble heap, trays, stylised crockery figures, coaster set, glass, tabletop ----------
+const TC = { teal: '#1f8f8c', blue: '#2f62a8', terra: '#c8613a', mustard: '#e3a72b', cream: '#efe5cf', white: '#f7f4ec', grout: '#ddd5c4', bed: '#3b2a1c', wood: '#5a3d26', woodHi: '#7d5637', felt: '#9a6a44' };
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function clipPoly(P, nx, ny, d) { const out = []; for (let i = 0; i < P.length; i++) { const a = P[i], b = P[(i + 1) % P.length], da = nx * a[0] + ny * a[1] - d, db = nx * b[0] + ny * b[1] - d;
+  if (da <= 0) out.push(a); if ((da <= 0) !== (db <= 0)) { const u = da / (da - db); out.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u]); } } return out; }
+function voronoi(n, seed, jit = 0.38) { // cells of the square [-1,1]^2 from a jittered n x n grid, each shrunk about its centroid so grout lines show
+  const R = rng(seed), S = []; for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) S.push([-1 + (i + 0.5 + (R() - 0.5) * 2 * jit) * 2 / n, -1 + (j + 0.5 + (R() - 0.5) * 2 * jit) * 2 / n]);
+  return S.map((s, k) => { let P = [[-1, -1], [1, -1], [1, 1], [-1, 1]];
+    for (let m = 0; m < S.length && P.length; m++) { if (m === k) continue; const o = S[m], nx = o[0] - s[0], ny = o[1] - s[1]; P = clipPoly(P, nx, ny, (nx * (o[0] + s[0]) + ny * (o[1] + s[1])) / 2); }
+    let cx = 0, cy = 0; P.forEach((p) => { cx += p[0]; cy += p[1]; }); cx /= P.length; cy /= P.length; const dm = P.reduce((a, p) => a + Math.hypot(p[0] - cx, p[1] - cy), 0) / P.length, sh = Math.max(0.6, 1 - 0.034 / dm);
+    return { rel: P.map((p) => [(p[0] - cx) * sh, (p[1] - cy) * sh]), c: [cx, cy], r: Math.hypot(cx, cy), a: Math.atan2(cy, cx), rnd: R(), rnd2: R(), i: k }; });
+}
+const COAST = voronoi(6, 21), TOP = voronoi(8, 33), FIG = voronoi(5, 41, 0.42);
+const designCol = (c) => c.r < 0.42 ? TC.mustard : c.r < 0.82 ? ((Math.floor((c.a + Math.PI) / (Math.PI / 4)) % 2) ? TC.teal : TC.blue) : (c.rnd < 0.55 ? TC.terra : TC.cream);
+const trayOf = (c) => { const k = designCol(c); return k === TC.mustard ? 1 : (k === TC.teal || k === TC.blue) ? 0 : 2; };
+function shard(rel, x, y, s, col, rot = 0, a = 1, sc = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.scale(sc, sc);
+  g.beginPath(); rel.forEach(([u, v], i) => (i ? g.lineTo(u * s, v * s) : g.moveTo(u * s, v * s))); g.closePath(); g.fillStyle = col; g.fill();
+  const gr = g.createLinearGradient(-s * 0.25, -s * 0.25, s * 0.25, s * 0.25); gr.addColorStop(0, 'rgba(255,255,255,0.38)'); gr.addColorStop(0.45, 'rgba(255,255,255,0.06)'); gr.addColorStop(1, 'rgba(0,0,0,0.2)'); g.fillStyle = gr; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.28)'; g.lineWidth = 1.5; g.stroke(); g.restore(); }
+function coasterBase(half, groutK = 1, groutDir = 1) { // wooden base, bare bed, grout filling left to right
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 0.07 * half; g.shadowBlur = 0.12 * half; rr(-half * 1.07, -half * 1.07, half * 2.14, half * 2.14, half * 0.09); g.fillStyle = TC.wood; g.fill(); g.restore();
+  g.fillStyle = TC.woodHi; rr(-half * 1.07, -half * 1.07, half * 2.14, half * 0.05, half * 0.04); g.fill();
+  rr(-half, -half, 2 * half, 2 * half, half * 0.03); g.fillStyle = TC.bed; g.fill();
+  if (groutK > 0) { g.save(); rr(-half, -half, 2 * half, 2 * half, half * 0.03); g.clip(); g.fillStyle = TC.grout; g.fillRect(-half, -half, 2 * half * groutK, 2 * half); g.restore(); } }
+function gloss(half, k) { if (k <= 0 || k >= 1) return; g.save(); rr(-half, -half, 2 * half, 2 * half, half * 0.03); g.clip(); const p = lerp(-2.2, 2.2, k) * half;
+  const gr = g.createLinearGradient(p - half * 0.5, p - half * 0.5, p + half * 0.5, p + half * 0.5); gr.addColorStop(0, 'rgba(255,255,255,0)'); gr.addColorStop(0.5, 'rgba(255,255,255,0.45)'); gr.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = gr; g.fillRect(-half, -half, 2 * half, 2 * half); g.restore(); }
+function coaster(x, y, half, o = {}) { // finished or assembling coaster; o.k: 0 = shards exploded outward (frame zero), 1 = all clicked in (inner first)
+  const k = o.k ?? 1, col = o.col || designCol; g.save(); g.translate(x, y); g.rotate(o.rot || 0); coasterBase(half, o.grout ?? 1);
+  const flying = [];
+  COAST.forEach((c) => { const d = c.r / 1.42 * 0.5, e = clamp((k - d) / 0.5); if (e >= 1) shard(c.rel, c.c[0] * half, c.c[1] * half, half, col(c), 0); else flying.push([c, e]); });
+  flying.sort((p, q) => q[1] - p[1]).forEach(([c, e]) => { const f = 1 - easeOut(e), len = Math.hypot(c.c[0], c.c[1]) + 0.25, dx = c.c[0] / len, dy = c.c[1] / len;
+    const px = (c.c[0] + dx * 1.25 * f + (c.rnd - 0.5) * 0.3 * f) * half, py = (c.c[1] + dy * 1.25 * f - 0.25 * f + (c.rnd2 - 0.5) * 0.3 * f) * half;
+    g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 22 * f; g.shadowBlur = 24 * f; shard(c.rel, px, py, half, col(c), (c.rnd - 0.5) * 2.4 * f, 1, 1 + 0.35 * f); g.restore(); });
+  gloss(half, o.gloss ?? 0); g.restore(); }
+function feltBack(x, y, half, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowOffsetY = 0.07 * half; g.shadowBlur = 0.12 * half;
+  rr(-half * 1.07, -half * 1.07, half * 2.14, half * 2.14, half * 0.09); g.fillStyle = TC.woodHi; g.fill(); g.restore();
+  g.strokeStyle = 'rgba(0,0,0,0.18)'; g.lineWidth = 3; for (let i = -3; i <= 3; i++) { g.beginPath(); g.moveTo(-half, i * half * 0.28); g.bezierCurveTo(-half * 0.3, i * half * 0.28 + 8, half * 0.3, i * half * 0.28 - 8, half, i * half * 0.28); g.stroke(); }
+  for (const [u, v] of [[-1, -1], [1, -1], [1, 1], [-1, 1]]) { g.beginPath(); g.arc(u * half * 0.72, v * half * 0.72, half * 0.16, 0, 7); g.fillStyle = TC.felt; g.fill(); g.strokeStyle = 'rgba(0,0,0,0.25)'; g.lineWidth = 2; g.stroke(); }
+  g.restore(); }
+function heap(cx, base, w, h, n, seed, a = 1) { // mound of broken tile shards (muted, dusty)
+  if (a <= 0) return; const R = rng(seed), P = [], pal = [TC.teal, TC.blue, TC.terra, TC.mustard, TC.cream, '#8d8a84', '#6e6a64'];
+  for (let i = 0; i < n; i++) { const u = (R() * 2 - 1), hh = (1 - u * u) * h, v = R(); P.push([cx + u * w / 2, base - v * hh, COAST[Math.floor(R() * COAST.length)], pal[Math.floor(R() * pal.length)], R() * 6.28, 0.7 + R() * 0.5]); }
+  P.sort((p, q) => p[1] - q[1]); g.save(); g.globalAlpha *= a; g.fillStyle = 'rgba(0,0,0,0.4)'; g.beginPath(); g.ellipse(cx, base + 10, w * 0.55, 34, 0, 0, 7); g.fill();
+  P.forEach(([x, y, c, col, r, s]) => shard(c.rel, x, y, 120 * s, col, r)); g.restore(); }
+function figure(x, base, s, seed, k) { // stylised crockery-encrusted figure (generic, not a copy of any sculpture): head and bell body covered in shards
+  if (k <= 0) return; const kk = back(clamp(k)); g.save(); g.translate(x, base); g.scale(s, s * kk);
+  g.fillStyle = 'rgba(0,0,0,0.4)'; g.beginPath(); g.ellipse(0, 4, 78, 16, 0, 0, 7); g.fill();
+  const path = () => { g.beginPath(); g.moveTo(-70, 0); g.bezierCurveTo(-64, -80, -40, -150, -26, -175); g.lineTo(26, -175); g.bezierCurveTo(40, -150, 64, -80, 70, 0); g.closePath(); g.moveTo(40, -222); g.arc(0, -222, 40, 0, 7); };
+  path(); g.fillStyle = '#e9e4da'; g.fill(); g.save(); path(); g.clip(); g.fillStyle = '#4a4744'; g.fillRect(-80, -270, 160, 272);
+  const pal = ['#f4f1ea', '#f4f1ea', TC.blue, '#8a5a3c', '#4f7a4a', TC.cream, TC.teal], R = rng(seed);
+  for (const yo of [-60, -175]) FIG.forEach((c) => shard(c.rel, c.c[0] * 75, yo + c.c[1] * 60, 75, pal[Math.floor(R() * pal.length)], 0, 1, 1.05));
+  g.restore(); path(); g.strokeStyle = 'rgba(0,0,0,0.5)'; g.lineWidth = 3; g.stroke(); g.restore(); }
+function tray(x, y, w, h) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16; rr(x - w / 2, y - h / 2, w, h, 18); g.fillStyle = '#2b3036'; g.fill(); g.restore(); rr(x - w / 2 + 8, y - h / 2 + 8, w - 16, h - 16, 12); g.fillStyle = '#1a1d21'; g.fill(); }
+function glass(x, y, s, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.scale(s, s);
+  g.fillStyle = 'rgba(0,0,0,0.35)'; g.beginPath(); g.ellipse(0, 4, 30, 9, 0, 0, 7); g.fill();
+  const path = () => { g.beginPath(); g.moveTo(-24, 0); g.lineTo(-32, -96); g.lineTo(32, -96); g.lineTo(24, 0); g.closePath(); }; path(); g.fillStyle = 'rgba(230,240,245,0.18)'; g.fill();
+  g.save(); path(); g.clip(); g.fillStyle = '#b8742a'; g.fillRect(-40, -66, 80, 70); g.fillStyle = '#e8c79a'; g.fillRect(-40, -70, 80, 6); g.restore();
+  path(); g.strokeStyle = 'rgba(240,248,250,0.8)'; g.lineWidth = 3; g.stroke(); g.fillStyle = 'rgba(255,255,255,0.35)'; g.fillRect(-22, -88, 6, 80); g.restore(); }
+function tabletop(x, y, rx, k) { // small round side table with a mosaic top, rising into view
+  if (k <= 0) return; const ry = rx * 0.42, kk = easeOut(clamp(k)); g.save(); g.globalAlpha *= clamp(k * 2); g.translate(x, y + (1 - kk) * 120);
+  g.fillStyle = 'rgba(0,0,0,0.4)'; g.beginPath(); g.ellipse(0, 330, rx * 0.8, 26, 0, 0, 7); g.fill();
+  g.strokeStyle = '#3b2a1c'; g.lineWidth = 16; g.lineCap = 'round'; for (const lx of [-0.55, 0.55, -0.2, 0.2]) { g.beginPath(); g.moveTo(lx * rx, 20); g.lineTo(lx * rx * 1.25, 325 - Math.abs(lx) * 30); g.stroke(); }
+  g.beginPath(); g.ellipse(0, 14, rx + 12, ry + 10, 0, 0, 7); g.fillStyle = TC.wood; g.fill();
+  g.save(); g.beginPath(); g.ellipse(0, 0, rx, ry, 0, 0, 7); g.clip(); g.fillStyle = TC.grout; g.fillRect(-rx, -ry, 2 * rx, 2 * ry); g.scale(1, ry / rx);
+  TOP.forEach((c) => { const r = c.r, col = r < 0.3 ? TC.mustard : r < 0.62 ? TC.terra : r < 0.9 ? (c.rnd < 0.5 ? TC.teal : TC.blue) : TC.cream; shard(c.rel, c.c[0] * rx, c.c[1] * rx, rx, col); });
+  g.restore(); g.beginPath(); g.ellipse(0, 0, rx, ry, 0, 0, 7); g.strokeStyle = TC.woodHi; g.lineWidth = 6; g.stroke(); g.restore(); }
+function hookComp(t) { spot(540, 1150, 720); g.save(); g.fillStyle = 'rgba(0,0,0,0.35)'; g.beginPath(); g.ellipse(540, 1450, 360, 34, 0, 0, 7); g.fill(); g.restore();
+  coaster(540, 1150, 250, { k: 0.3 + 0.7 * easeOut(prog(t, 0, 1.2)), rot: -0.05, gloss: prog(t, 1.15, 1.55) }); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 1.6: frame zero: broken shards mid-flight, clicking into a finished mosaic coaster
+  g.save(); g.globalAlpha = a; hookComp(t); g.restore(); }
+function sRubble(t, a) { // 1.6 - 6.0: broken tile looks like rubble; one shard lifts: who pays for this? (price tag with a question mark)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1250, 700); heap(560, 1500, 760, 300, 150, 7);
+  mascot(150, 1640, 0.48, { armL: [-0.5, 110], armR: [1.2, 60], look: [0.9, 0.2], lid: -0.5 });
+  label('RUBBLE?', 560, 1040, prog(t, 2.94, 3.15) * (1 - prog(t, 3.6, 3.75)), { size: 52 });
+  const up = ease(prog(t, 3.63, 4.4)), c = COAST[14]; if (up > 0) { const x = lerp(600, 520, up), y = lerp(1330, 1060, up);
+    g.save(); g.shadowColor = `rgba(244,109,18,${0.7 * up})`; g.shadowBlur = 40 * up; shard(c.rel, x, y, 260, TC.teal, (1 - up) * 1.5 + Math.sin(t * 2) * 0.05); g.restore(); }
+  const tg = back(prog(t, 5.31, 5.6)); if (tg > 0) { g.save(); g.translate(790, 1010); g.scale(tg, tg); priceTag(0, 0, 'PRICE', '₹ ?', 1, Math.sin(t * 3) * 0.06); g.restore(); }
+  g.restore();
+}
+function sRock(t, a) { // 6.0 - 10.3: proof: Chandigarh's Rock Garden figures are studded with broken crockery and tile (stylised)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1250, 720); g.save(); g.fillStyle = 'rgba(120,110,95,0.22)'; g.beginPath(); g.ellipse(560, 1440, 520, 120, 0, 0, 7); g.fill(); g.restore();
+  const F = [[880, 1270, 0.66, 5], [750, 1300, 0.76, 4], [600, 1345, 0.9, 3], [430, 1400, 1.06, 2], [235, 1470, 1.26, 1]];
+  F.forEach(([x, b, s, sd], i) => figure(x, b, s, 50 + sd, prog(t, 6.3 + (4 - i) * 0.18, 6.75 + (4 - i) * 0.18)));
+  label('ROCK GARDEN · CHANDIGARH', 540, 780, prog(t, 6.77, 7.0), { size: 46, warm: true });
+  const lk = back(prog(t, 8.45, 8.85)); if (lk > 0) { // magnifier on the front figure: the shards are broken crockery and tile
+    g.save(); g.strokeStyle = 'rgba(254,247,238,0.7)'; g.lineWidth = 4; g.globalAlpha *= clamp(lk); g.beginPath(); g.moveTo(275, 1250); g.lineTo(560, 1110); g.stroke(); g.restore();
+    g.save(); g.translate(700, 1030); g.scale(lk, lk); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 30; g.beginPath(); g.arc(0, 0, 170, 0, 7); g.fillStyle = '#4a4744'; g.fill(); g.shadowColor = 'transparent';
+    g.save(); g.beginPath(); g.arc(0, 0, 160, 0, 7); g.clip(); const pal = ['#f4f1ea', TC.blue, '#8a5a3c', TC.cream, TC.teal, '#4f7a4a', TC.terra], R = rng(77); FIG.forEach((c) => shard(c.rel, c.c[0] * 190, c.c[1] * 190, 190, pal[Math.floor(R() * pal.length)]));
+    g.strokeStyle = TC.blue; g.lineWidth = 7; g.beginPath(); g.arc(-60, 40, 26, 0, Math.PI * 2); g.stroke(); g.strokeStyle = TC.blue; g.lineWidth = 3; g.beginPath(); g.moveTo(-120, -90); g.bezierCurveTo(-80, -110, -40, -70, 0, -95); g.stroke(); g.restore();
+    g.beginPath(); g.arc(0, 0, 165, 0, 7); g.strokeStyle = C.cream; g.lineWidth = 10; g.stroke(); g.restore(); }
+  g.restore();
+}
+function sMake(t, a) { // 10.3 - 14.37: sort the same shards by colour into trays, glue them onto a base, grout the gaps (one step at a time)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 720); const TX = [270, 540, 810], TY = 880, BX = 540, BY = 1300, HF = 200;
+  TX.forEach((x) => tray(x, TY, 230, 130));
+  const gk = prog(t, 13.23, 13.97); g.save(); g.translate(BX, BY); coasterBase(HF, gk); g.restore();
+  const order = COAST.map((c) => c).sort((p, q) => p.r - q.r);
+  COAST.forEach((c) => { const R = rng(100 + c.i), hx = 160 + R() * 120 - 60 + (c.i % 6) * 6, hy = 1500 - R() * 70, tr = trayOf(c), tx = TX[tr] + (R() - 0.5) * 150, ty = TY + (R() - 0.5) * 60;
+    const s0 = 10.67 + c.i * 0.03, ks = ease(prog(t, s0, s0 + 0.45)), p0 = 12.17 + order.indexOf(c) * 0.026, kp = ease(prog(t, p0, p0 + 0.42));
+    let x, y, sc, rot; if (kp > 0) { [x, y] = fly(tx, ty, BX + c.c[0] * HF, BY + c.c[1] * HF, kp, 110); sc = lerp(0.55, 1, kp); rot = (R() - 0.5) * 2 * (1 - kp); }
+    else { [x, y] = fly(hx, hy, tx, ty, ks, 140); sc = 0.55; rot = (R() - 0.5) * 2; }
+    shard(c.rel, x, y, HF, designCol(c), rot, 1, sc); });
+  if (gk > 0 && gk < 1) { const fx = BX - HF + 2 * HF * gk; g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowBlur = 16; rr(fx - 18, BY - HF - 30, 36, 2 * HF + 60, 10); g.fillStyle = '#d9d4cc'; g.fill(); rr(fx - 10, BY - 60, 70, 120, 14); g.fillStyle = C.warm; g.fill(); g.restore(); }
+  label('SORT', TX[1], 760, prog(t, 10.65, 10.87) * (1 - prog(t, 12.07, 12.17)), { size: 50, warm: true });
+  label('GLUE ON A BASE', BX, 1600, prog(t, 12.15, 12.37) * (1 - prog(t, 13.12, 13.23)), { size: 46 });
+  label('GROUT', BX, 1600, prog(t, 13.23, 13.42), { size: 50, warm: true });
+  mascot(920, 1680, 0.42, { armL: [-0.6, 110], armR: [1.4 - 0.5 * Math.sin(t * 4) * (t > 10.62 && t < 14.02 ? 1 : 0), 70], look: [-0.7, -0.5], lid: -0.5 });
+  g.restore();
+}
+function sUse(t, a) { // 14.37 - 18.47: seal (gloss), felt underneath (flip), then the buyer's use: a coaster set with a glass, and a small mosaic tabletop
+  g.save(); g.globalAlpha = a;
+  spot(540, 1180, 720);
+  const flip1 = prog(t, 15.02, 15.27), flip2 = prog(t, 15.72, 15.97), mv = ease(prog(t, 16.07, 16.57));
+  const SL = [[240, 1060], [440, 1060], [240, 1260], [440, 1260]], hx = lerp(540, SL[0][0], mv), hy = lerp(1180, SL[0][1], mv), hh = lerp(220, 86, mv);
+  const sy = flip1 < 1 ? Math.cos(Math.PI / 2 * flip1) : flip2 > 0 ? Math.sin(Math.PI / 2 * flip2) : 0, under = flip1 >= 1 && flip2 <= 0;
+  g.save(); g.translate(hx, hy); g.scale(1, Math.max(0.02, under ? 1 : sy)); if (under) feltBack(0, 0, hh); else coaster(0, 0, hh, { gloss: prog(t, 14.57, 15.07) }); g.restore();
+  for (let i = 1; i < 4; i++) { const k = back(prog(t, 16.25 + i * 0.08, 16.52 + i * 0.08)); if (k <= 0) continue; g.save(); g.translate(SL[i][0], SL[i][1]); g.scale(k, k); g.rotate(i * Math.PI / 2); coaster(0, 0, 86); g.restore(); }
+  const gl = ease(prog(t, 16.72, 17.07)); glass(440, lerp(1060, 1290, gl), 1.6, gl);
+  tabletop(770, 1100, 190, prog(t, 17.12, 17.57));
+  label('SEAL', 540, 1500, prog(t, 14.57, 14.77) * (1 - prog(t, 14.97, 15.07)), { size: 50, warm: true });
+  label('FELT', 540, 1500, prog(t, 15.26, 15.42) * (1 - prog(t, 15.97, 16.07)), { size: 50, warm: true });
+  label('COASTER SET', 340, 1450, prog(t, 16.25, 16.47), { size: 44 }); label('TABLETOP', 770, 1520, prog(t, 17.48, 17.67), { size: 44 });
+  g.restore();
+}
+function sPrice(t, a) { // 18.47 - 23.82: illustrative unit economics, no numbers: one price split into materials, labour, selling costs and the rest = profit
+  g.save(); g.globalAlpha = a;
+  spot(540, 1120, 680);
+  const tagK = back(prog(t, 18.67, 19.02)); if (tagK > 0) { g.save(); g.translate(760, 640); g.scale(tagK, tagK); rr(-170, -40, 340, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('ILLUSTRATIVE', 0, 4, 40, C.warm, 800); g.restore(); }
+  const x0 = 330, w = 200, top = 760, H = 680, rise = easeOut(prog(t, 18.84, 19.32));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, top + H * (1 - rise), w, H * rise, 12); g.fillStyle = C.cream; g.fill(); g.restore();
+  label('PRICE', x0 + w / 2, top - 50, prog(t, 18.84, 19.07), { size: 46, warm: t > 18.84 && t < 19.68 });
+  const parts = [['MATERIALS', 0.18, '#59616b', 19.68], ['LABOUR', 0.34, '#7a5129', 20.64], ['SELLING COSTS', 0.2, '#2a2f35', 21.18]]; let y = top;
+  parts.forEach(([name, f, col, ts], i) => { const h = f * H, k = prog(t, ts, ts + 0.3); if (k > 0) { g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = col; g.fillRect(x0, y, w, h * k); g.restore(); }
+    label(name, 790, y + h / 2, prog(t, ts, ts + 0.25), { size: 44, warm: t > ts && t < (parts[i + 1] ? parts[i + 1][3] : 23.01), to: [x0 + w - 4, y + h / 2] }); y += h; });
+  const pk = prog(t, 23.01, 23.27); if (pk > 0) { g.save(); rr(x0, top, w, H, 12); g.clip(); g.fillStyle = C.warm; g.fillRect(x0, y, w, (top + H - y) * pk); g.restore();
+    const k = back(prog(t, 23.01, 23.37)); g.save(); g.translate(790, y + (top + H - y) / 2); g.scale(k, k); rr(-130, -44, 260, 88, 44); g.fillStyle = C.warm; g.fill(); textC('PROFIT', 0, 4, 50, '#1d130e', 800); g.restore();
+    g.save(); g.globalAlpha *= pk; g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(660, y + (top + H - y) / 2); g.lineTo(x0 + w - 4, y + (top + H - y) / 2); g.stroke(); g.restore(); }
+  mascot(150, 1640, 0.45, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5 });
+  g.restore();
+}
+function setOf4(x, y, half, k = 1) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(k, k); const d = half * 1.2; [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([u, v], i) => { g.save(); g.translate(u * d, v * d); g.rotate(i * Math.PI / 2); coaster(0, 0, half); g.restore(); }); g.restore(); }
+function sTake(t, a) { // 23.82 - 27.0: price one set (tag with a tick), then make ten
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 680);
+  const sh = ease(prog(t, 25.27, 25.72)), sx = lerp(400, 220, sh), sy = lerp(1100, 1180, sh), sHalf = lerp(92, 34, sh);
+  setOf4(sx, sy, sHalf);
+  const tg = back(prog(t, 24.14, 24.52)) * (1 - prog(t, 25.17, 25.32)); if (tg > 0) { g.save(); g.translate(810, 1000); g.scale(tg, tg); g.rotate(Math.sin(t * 3) * 0.05); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14;
+    rr(-150, -70, 300, 140, 20); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(-118, -38, 10, 0, 7); g.fillStyle = '#07090b'; g.fill(); textC('1 SET', 10, -18, 44, C.ink, 800); textC('PRICED', 10, 32, 40, C.warm, 800); g.restore();
+    tick(810, 1150, 1.1, prog(t, 24.74, 25.07)); }
+  for (let i = 1; i < 10; i++) { const k = back(prog(t, 25.52 + i * 0.05, 25.77 + i * 0.05)); setOf4(220 + (i % 5) * 160, 1180 + Math.floor(i / 5) * 190, 34, k); }
+  const tk = back(prog(t, 25.52, 25.87)); if (tk > 0) { g.save(); g.translate(540, 900); g.scale(tk, tk); textC('×10', 0, 0, 130, C.warm, 800); g.restore(); }
+  mascot(130, 1660, 0.42, { armL: [-1.0 + Math.sin(t * 5) * 0.15, 110], armR: [1.2, 60], look: [0.8, -0.4], lid: -0.5, hop: t > 25.52 && t < 26.52 ? Math.abs(Math.sin((t - 25.52) * 6)) * 10 : 0 });
+  g.restore();
+}
+function tick(x, y, s, k, col = C.warm) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 14; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(-34, 0); const k1 = clamp(k * 2), k2 = clamp(k * 2 - 1); g.lineTo(-34 + 24 * k1, 26 * k1); if (k2 > 0) g.lineTo(-10 + 54 * k2, 26 - 66 * k2); g.stroke(); g.restore(); }
+// ---------- thumbnail (separate vertical image = the frame-zero composition; 3 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0, 1); hookComp(0);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('BROKEN', 540, 330, 140, C.cream, 800); textC('TO BOUGHT', 540, 480, 130, C.warm, 800); g.restore();
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 1.6], [sRubble, 1.6, 6.0], [sRock, 6.0, 10.3], [sMake, 10.3, 14.37], [sUse, 14.37, 18.47], [sPrice, 18.47, 23.82], [sTake, 23.82, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['From broken|[to bought.]'],
+  L2: ['Broken tile looks|like [rubble.]', ['So how does it become|[something people buy?]', 2.01]],
+  L3: ["[Chandigarh's Rock Garden]|is studded with", ['[broken crockery]|and tile.', 2.31]],
+  L4: ['[Sort] the shards|by colour,', ['[glue] them on a base,|and [grout] the gaps.', 1.56]],
+  L5: ['[Seal] it, add [felt,]', ["and it's a [coaster set]|or a [small tabletop.]", 1.44]],
+  L6: ['Its price must cover|[materials,]', ['[your labour]|and [selling costs;]', 1.80], ['the rest is [profit.]', 3.75]],
+  L7: ['So [price one set]|before you [make ten.]'],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+CAPS[0].a = -0.2; // english-15/16/17: the hook words are fully visible at frame 0
+function caption(c, t) {
+  const big = c.L.id === 'L1', fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>
