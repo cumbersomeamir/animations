@@ -658,3 +658,37 @@ Episode record: `27-episode-thank-you-notes.md`. Durable rules: `10-format-and-s
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-18, 2026-11-17 (batch18 dated 15 November): episode english18-01 "can they tell you're nervous?" (illusion of transparency, English)
+Episode record: `28-episode-illusion-of-transparency.md`. Durable rules: `10-format-and-style-rules.md` sections 8 and 9. The latest feedback (store palette, soothing bed, psychology insight with a demonstration) is retained.
+
+## Verified facts (this round)
+- The requested topic (the illusion of transparency in public speaking) is new. hindi03-01's spotlight effect (`13`) is a sibling about appearance, kept separate.
+- Sources:
+  - Gilovich, Savitsky & Medvec 1998 (PMID 9731312, PubMed abstract): the definition, and anchoring on one's own experience.
+  - MacInnis, Mackinnon & MacIntyre 2010 (*CRSP* 15(4), full text): class speeches. Speakers felt 24.0, expected the audience to rate 23.3, the audience rated 17.3 (6–42 scale).
+  - Savitsky & Gilovich 2003: not readable here (403, archive host blocked, dead link). Its finding that telling speakers about the illusion helped is used only as described by MacInnis et al.
+
+## Creative decisions (this round)
+- English only, 70 words, hook audio at 0.15 s. "Rated their nerves" → "scored their own nerves" (an ASR fix).
+- Frame 0 = the thumbnail composition: the speaker at a lectern beside a giant thought bubble with a pounding heart, "Can they tell / you're nervous?".
+- The card draws the three averages to scale with no numbers. A camera swing from behind him to the audience's side fades the bubble out. In the payoff the heart slows and shrinks.
+- A muffled heartbeat follows the on-screen heart. `BED_GAIN` 0.50 (13.1 dB under the voice). Thumbnail "CAN THEY TELL?".
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-15-english-18/mello-30s-english18-01.mp4`
+  - sha256 `3555be7c9d2651c58d399efbfb3f8a6f84ee3565e5c126b6e5ce9b761a1340db`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english18-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-15-english-18/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.6 dBTP;
+  - five cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+- The 2003 paper's full text was not accessible.
+
+## Next
+- Wait for the next request or feedback.

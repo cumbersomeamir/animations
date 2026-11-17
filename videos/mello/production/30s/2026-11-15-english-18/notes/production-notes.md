@@ -43,6 +43,8 @@ The source is a copy of `../2026-11-15-english-17/project/` (renderer, audit, au
 5. Card labels became "speakers felt / they guessed / audience saw".
 6. The S3→S4 cut was on the same card, so S4 moved to a clearly different angle (az −14°, el 6°, closer). Cut frame changes measured on stills are 20–35.
 7. The bed was quieter than usual (15.7 dB under), so `BED_GAIN` went from 0.37 to 0.50 (13.1 dB).
+8. A pre-render audit (on the earlier S4 camera) flagged the card touching the right rail in S4. S4 moved back to 3.45→3.35 m (az −14°→−10°, el 7°); the cut contrast stayed at 24.
+9. Final render: all 16 checks passed on the first full render (0 safe-zone issues, ASR CER 0).
 
 ## Commands
 ```bash

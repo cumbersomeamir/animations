@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Can they tell you're nervous? Psychologists call that worry the illusion of transparency. After class speeches, students scored their own nerves and guessed what the audience saw. They expected the audience to see nearly all of it. Audiences rated them clearly calmer. You feel your nerves from the inside. They only see the outside. In another study, knowing this helped speakers. So remind yourself: they see less than you feel. Take a mindful break with Mello.",
+  "transcript": "Can they tell you're nervous? Psychologists call that worry the illusion of transparency. After class speeches, students scored their own nerves and guessed what the audience saw. They expected the audience to see nearly all of it. Audiences rated them clearly calmer. You feel your nerves from the inside. They only see the outside. In another study, knowing this helped speakers. So remind yourself, they see less than you feel. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.308,
+      "text": "Can they tell you're nervous?",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 1.7,
+      "end": 5.057,
+      "text": "Psychologists call that worry the illusion of transparency.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 5.35,
+      "end": 10.11,
+      "text": "After class speeches, students scored their own nerves and guessed what the audience saw.",
+      "cer": 0.0
+    },
+    {
+      "id": "result",
+      "start": 10.75,
+      "end": 15.834,
+      "text": "They expected the audience to see nearly all of it. Audiences rated them clearly calmer.",
+      "cer": 0.0
+    },
+    {
+      "id": "why",
+      "start": 16.2,
+      "end": 19.676,
+      "text": "You feel your nerves from the inside. They only see the outside.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 20.05,
+      "end": 25.462,
+      "text": "In another study, knowing this helped speakers. So remind yourself, they see less than you feel.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

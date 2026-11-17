@@ -89,3 +89,19 @@ How the script uses them (measured / reported / gloss / advice / illustrative):
 - **S4, 10.5–16.0:** closer on the card. A gold "≈" between the first two bars on "nearly all of it", then "audience saw" (gold, shorter) on "clearly calmer".
 - **S5, 16.0–19.85:** behind him, the bubble fills the view ("from the inside"). On "they only see the outside" the camera swings round to the audience's side, and the bubble and heartbeat fade out.
 - **S6, 19.85–30:** front three-quarter. The bubble returns; the heart slows and shrinks. He looks up and opens a hand; two audience members nod. Lock-up from 26.3 s.
+
+## Result
+- Final: `videos/mello/production/30s/2026-11-15-english-18/mello-30s-english18-01.mp4`
+  - sha256 `3555be7c9d2651c58d399efbfb3f8a6f84ee3565e5c126b6e5ce9b761a1340db`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 (`production/30s/2026-11-15-english-18/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.6 dBTP;
+  - five cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- No listen-through (ASR and measurements only).
+
+## Skill / scene adjustments for future episodes
+- **Thought bubbles:** place them beside the head, not above it, so they stay below the caption band in portrait framing.
+- **Hiding an object from one viewpoint:** drive its opacity from the camera's side of the subject; a camera swing then shows "they can't see it" without extra text.
+- **Cuts on the same card:** change the angle and elevation clearly (about 14° and 3°), not just the distance, or the cut check will not see a cut.
