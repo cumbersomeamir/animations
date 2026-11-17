@@ -373,3 +373,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Operational: frames/stills/qa_frames on /dev/shm/md-e19 (RAM; lost on container restart, regenerable); ~110 MB disk free after this
   commit — the next episode will need the same RAM-disk approach or the user's permission to clear old gitignored frames/ caches.
 - Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-17 — english-20 / batch 20 (topic + sources recorded; rendering)
+- Batch 19 delivered first (c9f3305 = remote). Latest feedback (trendier, stronger, not hit-or-miss) recorded as an addendum in context/26.
+- Candidates compared: Vulcan/Amazon Leo failure (15 Nov; cause unreleased → rejected) vs Voyager 1 one light-day (NASA: 18 Nov 2026,
+  5:16 a.m. EST; Shine Bright event 17 Nov) → chosen. Physics: inverse square, Friis estimate 2–4 × 10⁻¹⁹ W, 3.7 m vs 70 m dishes,
+  RTG −4 W/yr (NASA). Record context/35; SOURCES.md in the output folder; log row in context/11 (in progress).
+- Narration 85 words / 27.3 s, every take heard exactly by Whisper; starts re-spaced for the 0.25 s gap rule (CTA ends 29.47).
+- Operational: ~200 MB disk; scratch research caches moved to /dev/shm/scratch-archive; frames/stills/qa_frames/audio WAVs on
+  /dev/shm/md-e20 via gitignored symlinks. Running: three render_chunks workers; next build, thumbnail, QA.md, commit, push, attach.

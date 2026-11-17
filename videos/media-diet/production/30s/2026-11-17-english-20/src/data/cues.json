@@ -1,0 +1,99 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "24 hours",
+   "to say hello."
+  ],
+  "in": 0.0,
+  "out": 1.85,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "On November 18th, Voyager 1",
+   "hits one light-day from Earth."
+  ],
+  "in": 1.87,
+  "out": 5.98
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "So how do we still hear",
+   "its fridge-bulb radio?"
+  ],
+  "in": 6.0,
+  "out": 8.69
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Radio spreads out like light:"
+  ],
+  "in": 8.71,
+  "out": 10.62
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "twice as far,",
+   "a quarter of the power."
+  ],
+  "in": 10.64,
+  "out": 12.88
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "By Earth, less than a",
+   "billion-billionth of a watt arrives."
+  ],
+  "in": 12.9,
+  "out": 16.25
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "Its dish narrows the beam,"
+  ],
+  "in": 16.27,
+  "out": 17.77
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "and 70-meter dishes catch it."
+  ],
+  "in": 17.79,
+  "out": 19.85
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "The catch: its nuclear power",
+   "drops about 4 watts every year."
+  ],
+  "in": 19.87,
+  "out": 23.83
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Out there, bigger ears",
+   "beat a louder voice."
+  ],
+  "in": 23.85,
+  "out": 26.25
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.27,
+  "out": 29.773
+ }
+]

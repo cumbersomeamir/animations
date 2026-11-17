@@ -54,3 +54,9 @@ editorial reconstruction; build the mechanism, proof and the key engineering con
 - Render; full-decode; check duration/codecs; inspect transitions/frames; check English narration, caption sync, clipping and
   missing assets. Attach the finished MP4 and thumbnail; report limitations honestly; never claim a watched/listened check that was
   not performed (this container cannot play audio — use ASR + stem levels and say so).
+
+## Addendum 2026-11-17 — latest "Satisfied?" feedback (Media Diet only)
+"No, topic can be more powerful, trendy like the one I created about Chicago Bean. It should not be a hit or miss. Content is weak."
+Rule from batch 20 on: pick a trending, widely recognisable headline with one clear physical question and real stakes; compare at least two
+dated candidates and reject any whose mechanism is unverified; explain with first principles (one number per beat, estimates labelled);
+end on a useful, concrete takeaway. Style, palette, narrator and CTA unchanged.

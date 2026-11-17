@@ -1,0 +1,213 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "24 hours to say hello.",
+   "cues": [
+    [
+     "24 hours",
+     "to say hello."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.95,
+   "say": "On November 18th, Voyager 1 hits one light-day from Earth.",
+   "cues": [
+    [
+     "On November 18th, Voyager 1",
+     "hits one light-day from Earth."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.08,
+   "say": "So how do we still hear its fridge-bulb radio?",
+   "cues": [
+    [
+     "So how do we still hear",
+     "its fridge-bulb radio?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.79,
+   "say": "Radio spreads out like light: twice as far, a quarter of the power.",
+   "cues": [
+    [
+     "Radio spreads out like light:"
+    ],
+    [
+     "twice as far,",
+     "a quarter of the power."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 12.98,
+   "say": "By Earth, less than a billion-billionth of a watt arrives.",
+   "cues": [
+    [
+     "By Earth, less than a",
+     "billion-billionth of a watt arrives."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 16.35,
+   "say": "Its dish narrows the beam, and 70-meter dishes catch it.",
+   "cues": [
+    [
+     "Its dish narrows the beam,"
+    ],
+    [
+     "and 70-meter dishes catch it."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 19.95,
+   "say": "The catch: its nuclear power drops about 4 watts every year.",
+   "cues": [
+    [
+     "The catch: its nuclear power",
+     "drops about 4 watts every year."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 23.93,
+   "say": "Out there, bigger ears beat a louder voice.",
+   "cues": [
+    [
+     "Out there, bigger ears",
+     "beat a louder voice."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.35,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.88,
+   "beat": "first frame / hook: paper Voyager 1 with a golden radio ring arriving from tiny Earth + \"24 hours / to say hello.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.88,
+   "out": 6.0,
+   "beat": "one light-day: a pulse leaves Earth and needs one full sweep of a 24-hour dial to reach Voyager; NASA date chip"
+  },
+  {
+   "id": "S3",
+   "in": 6.0,
+   "out": 8.72,
+   "beat": "the question: over Voyager's shoulder toward a tiny Earth; a fridge bulb for the radio's scale"
+  },
+  {
+   "id": "S4",
+   "in": 8.72,
+   "out": 12.9,
+   "beat": "inverse square: same light over one tile at distance 1, four tiles at distance 2"
+  },
+  {
+   "id": "S5",
+   "in": 12.9,
+   "out": 16.27,
+   "beat": "at Earth: a beam footprint far wider than the planet, a few faint sparks"
+  },
+  {
+   "id": "S6",
+   "in": 16.27,
+   "out": 17.79,
+   "beat": "Voyager's dish squeezes the radio into a narrow cone"
+  },
+  {
+   "id": "S7",
+   "in": 17.79,
+   "out": 19.87,
+   "beat": "a 70-meter Deep Space Network dish catches the sparks (person for scale)"
+  },
+  {
+   "id": "S8",
+   "in": 19.87,
+   "out": 23.85,
+   "beat": "the constraint: the nuclear power source glows; a power gauge drops"
+  },
+  {
+   "id": "S9",
+   "in": 23.85,
+   "out": 26.27,
+   "beat": "takeaway: a big dish beside a small one — the big one catches far more"
+  },
+  {
+   "id": "S10",
+   "in": 26.27,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign, a small paper Voyager on a stick behind it"
+  }
+ ],
+ "events": {
+  "pulse": 2.25,
+  "arrive": 5.55,
+  "labDay": 4.85,
+  "bulb": 7.38,
+  "rays": 8.89,
+  "tile1": 9.79,
+  "tile4": 10.94,
+  "labIS": 10.99,
+  "foot": 13.08,
+  "spark": 14.08,
+  "labW": 14.23,
+  "cone": 16.75,
+  "dsn": 18.2,
+  "labDSN": 18.25,
+  "rtg": 21.0,
+  "drop": 22.3,
+  "labRTG": 22.4,
+  "ears": 24.58,
+  "labEars": 24.68,
+  "sign": 26.45
+ }
+}

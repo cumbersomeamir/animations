@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "24 hours to say hello.",
+  "duration": 1.632,
+  "words": 5
+ },
+ {
+  "id": "V2",
+  "say": "On November 18th, Voyager 1 hits one light-day from Earth.",
+  "duration": 3.856,
+  "words": 10
+ },
+ {
+  "id": "V3",
+  "say": "So how do we still hear its fridge-bulb radio?",
+  "duration": 2.443,
+  "words": 9
+ },
+ {
+  "id": "V4",
+  "say": "Radio spreads out like light: twice as far, a quarter of the power.",
+  "duration": 3.915,
+  "words": 13
+ },
+ {
+  "id": "V5",
+  "say": "By Earth, less than a billion-billionth of a watt arrives.",
+  "duration": 3.099,
+  "words": 10
+ },
+ {
+  "id": "V6",
+  "say": "Its dish narrows the beam, and 70-meter dishes catch it.",
+  "duration": 3.326,
+  "words": 10
+ },
+ {
+  "id": "V7",
+  "say": "The catch: its nuclear power drops about 4 watts every year.",
+  "duration": 3.708,
+  "words": 11
+ },
+ {
+  "id": "V8",
+  "say": "Out there, bigger ears beat a louder voice.",
+  "duration": 2.145,
+  "words": 8
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]
