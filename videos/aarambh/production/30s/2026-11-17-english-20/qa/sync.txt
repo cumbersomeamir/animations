@@ -1,0 +1,24 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+At | 0.05 (At, placed) | 0.00 (At) | FRAME 0 (complete, = thumbnail): real 1915 portrait + a glowing drop of oil hanging from a syringe needle + "HER METHOD. HIS NAME."; narration audible from 0.08 s; the drop swells | 0.00
+At | 0.05 (At, placed) | 0.00 (At) | light sweep across the portrait | 0.40
+Swallowed | 5.38 (Swallowed) | 5.36 (Swallowed) | HARD CUT (flash) -> a spoon of thick oil; a slow, heavy drip | 5.14
+nausea | 6.24 (nausea,) | 6.24 (nausea,) | queasy waves (nausea) | 6.09
+injected | 7.54 (injected) | 7.54 (injected) | switch to tissue layers; the needle goes in from above | 7.49
+hurt | 7.98 (hurt) | 7.98 (hurt) | the oil sits as a lump; red pain pulse | 7.88
+She | 9.66 (She) | 9.66 (She) | WHIP PAN (9.40-9.60) -> the oil molecule: three fatty-acid chains on a backbone | 9.40
+fatty | 10.28 (fatty) | 10.28 (fatty) | the chains split off; "fatty acids" | 10.08
+ethyl | 11.32 (ethyl) | 11.30 (ethyl) | a teal ethyl cap snaps onto each chain; "ethyl esters" | 11.22
+then | 12.52 (then) | 12.50 (thin) | tissue and syringe return; thin droplets flow in and spread out (absorbed) | 12.42
+She | 14.72 (She) | 14.72 (She) | PUSH (14.32-14.57) -> her portrait and plate "ALICE BALL 1892–1916" | 14.32
+published | 16.96 (published) | 16.96 (published) | pages slide over her name plate | 16.76
+without | 17.88 (without) | 17.88 (without) | her name plate dims | 17.68
+crediting | 18.22 (crediting) | 18.22 (crediting) | "Dean's derivatives" appears on the pages | 18.07
+A | 19.46 (A) | 19.42 (A) | PUSH (19.06-19.36) -> Hollmann's real 1922 page; plate "Dr. Harry Hollmann, 1922" | 19.06
+1922 | 19.72 (1922) | 19.74 (1922) | gold underline: "Miss Alice Ball" | 19.62
+Ball's | 21.76 (Ball's) | 21.78 (Ball's) | gold underline: "BALL'S METHOD" | 21.56
+Lesson | 23.06 (Lesson,) | 23.04 (Lesson,) | PAGE TURN (22.49-22.84) -> lesson page: circular portrait, ALICE BALL | 22.49
+patients | 24.90 (patients) | 24.90 (patients) | card "make it usable" | 24.70
+take | 25.52 (take) | 25.52 (take) | a small glowing drop | 25.32
+Download | 27.10 (Download, placed) | 27.52 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 21 events; for word-triggered events, event minus word start ranges -0.57 to -0.05 s (negative = event leads the word). Pacing: hook 0.05-4.94 (complete first frame, audio from 0.08 s), the obstacle 5.20-9.32, explanation/proof 9.60-22.54 with scene changes at 9.60, 14.57, 19.36, payoff 22.84-25.91, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 5.2 S3 9.6 S4 14.62 S5 19.36 S6 22.84 S7 27.1 (audio/script.json); ASR stamps "At" at 0.00 (placed 0.05) and "Download" early (26.18; placed 27.10); the app name is heard as "RM"/"RUMB" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

@@ -354,3 +354,16 @@ Changes to the recipe above:
 - **Frame 0 with a caption above:** keep frame-0 prints below about y 545 so the 0.22 s caption plate (y 330–490) never overlaps them, and leave about 60 px between prints and the big words.
 
 - 21 (2026-11-17, english-19): Mary Anning and her first ichthyosaur, "A MONSTER IN THE CLIFF?": as a girl she dug a five-metre skeleton from a cliff; locals said monster, scientists guessed crocodile; Joseph found the skull, Mary freed the body; named Ichthyosaurus, an extinct sea reptile; her finds inspired Duria Antiquior (1830), the first scene of ancient life drawn from fossils; papers often skipped her name; lesson: credit the finder (NHM; UCMP; Home 1814; De la Beche 1830; her 1823 letter). Record: `33-production-30s-english19-01.md`
+
+## Feedback 2026-11-17 (summary; full text in the `25` addendum)
+- Less at once: one moving idea per scene, at most one 2–3-word label.
+- More appealing, explanatory motion.
+- A bold, high-contrast frame-0 thumbnail with 2–4 huge words.
+
+## English-20 notes, 2026-11-17
+- **Chemistry without text:** show the obstacle and the fix as objects that move. Thick oil drips slowly and sits as a painful lump; the molecule's chains split, gain ethyl caps, and the thin droplets spread and fade into tissue. Two single-word labels ("fatty acids", then "ethyl esters") are enough.
+- **Small portraits:** the 1915 Ball portrait is only 269x381. Use a 2x Lanczos copy (no added detail) at about 400–420 px, and let a large illustrated hero object carry the thumbnail.
+- **Precise underlines on scanned papers:** read word boxes with `pdftotext -bbox` and convert them to fractions of the page crop, rather than guessing from previews.
+- **Wording discipline:** say "her supervisor published the work without crediting her" (documented) and name Dean only through the documented term "Dean's derivatives". Avoid "water-soluble" (the esters were thin oils, per Parascandola) and "cure" (a treatment, replaced by sulfones in the 1940s).
+
+- 22 (2026-11-17, english-20): Alice Ball and chaulmoogra oil, "HER METHOD. HIS NAME.": swallowed it caused nausea; injected it hurt and barely absorbed; she turned its fatty acids into ethyl esters, thin oils the body absorbs; she died at 24; her supervisor published the work without crediting her; Hollmann's 1922 paper called it Ball's Method; lesson: a remedy only helps if patients can take it (Parascandola/NLM; Hollmann 1922; University of Hawaiʻi). Record: `34-production-30s-english20-01.md`

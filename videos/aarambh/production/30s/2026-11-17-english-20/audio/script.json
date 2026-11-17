@@ -1,0 +1,48 @@
+{
+ "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+ "language": "English narration and English captions",
+ "sentences": [
+  {
+   "id": "S1",
+   "start": 0.05,
+   "text": "At 23, Alice Ball made a leprosy oil usable, then lost the credit.",
+   "tts": "At 23, Alice Ball made a leprosy oil usable, then lost the credit."
+  },
+  {
+   "id": "S2",
+   "start": 5.2,
+   "text": "Swallowed, it caused nausea; injected, it hurt and barely absorbed.",
+   "tts": "Swallowed, it caused nausea; injected, it hurt and barely absorbed."
+  },
+  {
+   "id": "S3",
+   "start": 9.6,
+   "text": "She turned its fatty acids into ethyl esters: thin oils the body absorbs.",
+   "tts": "She turned its fatty acids into ethyl esters: thin oils the body absorbs."
+  },
+  {
+   "id": "S4",
+   "start": 14.62,
+   "text": "She died at 24; her supervisor published the work without crediting her.",
+   "tts": "She died at 24; her supervisor published the work without crediting her."
+  },
+  {
+   "id": "S5",
+   "start": 19.36,
+   "text": "A 1922 paper called it Ball's Method.",
+   "tts": "A 1922 paper called it Ball's Method."
+  },
+  {
+   "id": "S6",
+   "start": 22.84,
+   "text": "Lesson: a remedy only helps if patients can take it.",
+   "tts": "Lesson: a remedy only helps if patients can take it."
+  },
+  {
+   "id": "S7",
+   "start": 27.1,
+   "text": "Download Aarambh to support livelihood tools.",
+   "tts": "Download Aa-rumbh, to support livelihood tools."
+  }
+ ]
+}

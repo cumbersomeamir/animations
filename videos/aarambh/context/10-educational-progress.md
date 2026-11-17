@@ -250,3 +250,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Credit:** the skull is credited to Joseph and the body to Mary, on screen and in the narration. No "first ichthyosaur ever" or "nobody believed" claim; Cuvier's plesiosaur doubt was not voiced.
 - **Verification:** both ASR models match the script word for word except the app name and spelling; there was no human listening. Two video-only re-renders for the frame-0 layout.
 - No automation; no other episode started; earlier outputs, batch 18 included, untouched.
+
+## 2026-11-17: english-20 #01 (COMPLETE; first under the 2026-11-17 feedback addendum in context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-17-english-20/aarambh-30s-english20-01.mp4`, sha256 `4725b3937de045c986a7fefc0a589447021a0087d9883f78c0613e284c3f4d4a`, plus the thumbnail `aarambh-30s-english20-01-thumbnail.png` (= frame 0, "HER METHOD. HIS NAME."). Alice Ball and chaulmoogra oil (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** Parascandola (NLM PDF: nausea, painful poorly absorbed injections, the esters "thin fluid oils … readily absorbed", Dean's uncredited 1920–22 papers, "Dean's derivatives", her death at 24, sulfones replacing chaulmoogra), Hollmann 1922 ("Miss Ball solved the problem…", "Ball's Method"; real page shown), and University of Hawaiʻi pages.
+- **Feedback applied:** one moving idea per scene, at most one short label, chemistry shown by motion, a bold frame-0 thumbnail.
+- **Verification:** both ASR models match the script word for word except the app name; there was no human listening. One video-only re-render for frame-0 spacing.
+- No automation; no other episode started; earlier outputs, batch 19 included, untouched.

@@ -1,0 +1,361 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "At",
+   "start": 0.0,
+   "end": 0.28
+  },
+  {
+   "w": "23,",
+   "start": 0.28,
+   "end": 1.0
+  },
+  {
+   "w": "Alice",
+   "start": 1.34,
+   "end": 1.52
+  },
+  {
+   "w": "Ball",
+   "start": 1.52,
+   "end": 1.78
+  },
+  {
+   "w": "made",
+   "start": 1.78,
+   "end": 2.02
+  },
+  {
+   "w": "a",
+   "start": 2.02,
+   "end": 2.16
+  },
+  {
+   "w": "leprosy",
+   "start": 2.16,
+   "end": 2.56
+  },
+  {
+   "w": "oil",
+   "start": 2.56,
+   "end": 2.9
+  },
+  {
+   "w": "usable,",
+   "start": 2.9,
+   "end": 3.26
+  },
+  {
+   "w": "then",
+   "start": 3.64,
+   "end": 3.9
+  },
+  {
+   "w": "lost",
+   "start": 3.9,
+   "end": 4.18
+  },
+  {
+   "w": "the",
+   "start": 4.18,
+   "end": 4.82
+  },
+  {
+   "w": "credit.",
+   "start": 4.82,
+   "end": 4.82
+  },
+  {
+   "w": "Swallowed",
+   "start": 5.38,
+   "end": 5.72
+  },
+  {
+   "w": "it",
+   "start": 5.72,
+   "end": 5.96
+  },
+  {
+   "w": "caused",
+   "start": 5.96,
+   "end": 6.24
+  },
+  {
+   "w": "nausea,",
+   "start": 6.24,
+   "end": 6.82
+  },
+  {
+   "w": "injected",
+   "start": 7.54,
+   "end": 7.6
+  },
+  {
+   "w": "it",
+   "start": 7.6,
+   "end": 7.98
+  },
+  {
+   "w": "hurt",
+   "start": 7.98,
+   "end": 8.2
+  },
+  {
+   "w": "and",
+   "start": 8.2,
+   "end": 8.38
+  },
+  {
+   "w": "barely",
+   "start": 8.38,
+   "end": 8.66
+  },
+  {
+   "w": "absorbed.",
+   "start": 8.66,
+   "end": 9.2
+  },
+  {
+   "w": "She",
+   "start": 9.66,
+   "end": 9.84
+  },
+  {
+   "w": "turned",
+   "start": 9.84,
+   "end": 10.04
+  },
+  {
+   "w": "its",
+   "start": 10.04,
+   "end": 10.28
+  },
+  {
+   "w": "fatty",
+   "start": 10.28,
+   "end": 10.6
+  },
+  {
+   "w": "acids",
+   "start": 10.6,
+   "end": 10.96
+  },
+  {
+   "w": "into",
+   "start": 10.96,
+   "end": 11.32
+  },
+  {
+   "w": "ethyl",
+   "start": 11.32,
+   "end": 11.58
+  },
+  {
+   "w": "esters,",
+   "start": 11.58,
+   "end": 12.04
+  },
+  {
+   "w": "then",
+   "start": 12.52,
+   "end": 12.78
+  },
+  {
+   "w": "oils",
+   "start": 12.78,
+   "end": 13.1
+  },
+  {
+   "w": "the",
+   "start": 13.1,
+   "end": 13.4
+  },
+  {
+   "w": "body",
+   "start": 13.4,
+   "end": 13.64
+  },
+  {
+   "w": "absorbs.",
+   "start": 13.64,
+   "end": 14.12
+  },
+  {
+   "w": "She",
+   "start": 14.72,
+   "end": 14.86
+  },
+  {
+   "w": "died",
+   "start": 14.86,
+   "end": 15.14
+  },
+  {
+   "w": "at",
+   "start": 15.14,
+   "end": 15.42
+  },
+  {
+   "w": "24,",
+   "start": 15.42,
+   "end": 15.84
+  },
+  {
+   "w": "her",
+   "start": 16.32,
+   "end": 16.56
+  },
+  {
+   "w": "supervisor",
+   "start": 16.56,
+   "end": 16.96
+  },
+  {
+   "w": "published",
+   "start": 16.96,
+   "end": 17.48
+  },
+  {
+   "w": "the",
+   "start": 17.48,
+   "end": 17.7
+  },
+  {
+   "w": "work",
+   "start": 17.7,
+   "end": 17.88
+  },
+  {
+   "w": "without",
+   "start": 17.88,
+   "end": 18.22
+  },
+  {
+   "w": "crediting",
+   "start": 18.22,
+   "end": 18.58
+  },
+  {
+   "w": "her.",
+   "start": 18.58,
+   "end": 19.16
+  },
+  {
+   "w": "A",
+   "start": 19.46,
+   "end": 19.72
+  },
+  {
+   "w": "1922",
+   "start": 19.72,
+   "end": 20.54
+  },
+  {
+   "w": "paper",
+   "start": 20.54,
+   "end": 21.16
+  },
+  {
+   "w": "called",
+   "start": 21.16,
+   "end": 21.54
+  },
+  {
+   "w": "it",
+   "start": 21.54,
+   "end": 21.76
+  },
+  {
+   "w": "Ball's",
+   "start": 21.76,
+   "end": 22.2
+  },
+  {
+   "w": "method.",
+   "start": 22.2,
+   "end": 22.58
+  },
+  {
+   "w": "Lesson,",
+   "start": 23.06,
+   "end": 23.42
+  },
+  {
+   "w": "a",
+   "start": 23.7,
+   "end": 23.76
+  },
+  {
+   "w": "remedy",
+   "start": 23.76,
+   "end": 24.02
+  },
+  {
+   "w": "only",
+   "start": 24.02,
+   "end": 24.4
+  },
+  {
+   "w": "helps",
+   "start": 24.4,
+   "end": 24.66
+  },
+  {
+   "w": "if",
+   "start": 24.66,
+   "end": 24.9
+  },
+  {
+   "w": "patients",
+   "start": 24.9,
+   "end": 25.2
+  },
+  {
+   "w": "can",
+   "start": 25.2,
+   "end": 25.52
+  },
+  {
+   "w": "take",
+   "start": 25.52,
+   "end": 25.72
+  },
+  {
+   "w": "it.",
+   "start": 25.72,
+   "end": 26.18
+  },
+  {
+   "w": "Download",
+   "start": 26.18,
+   "end": 27.6
+  },
+  {
+   "w": "RM",
+   "start": 27.6,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "At 23, Alice Ball made a leprosy oil usable, then lost the credit. Swallowed it caused nausea, injected it hurt and barely absorbed. She turned its fatty acids into ethyl esters, then oils the body absorbs. She died at 24, her supervisor published the work without crediting her. A 1922 paper called it Ball's method. Lesson, a remedy only helps if patients can take it. Download RM to support livelihood tools."
+}

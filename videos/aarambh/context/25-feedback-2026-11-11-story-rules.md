@@ -72,3 +72,10 @@ Source: the user's brief of 2026-11-11 ("NEXT EDUCATIONAL EPISODE — updated fr
 - **Hook audio starts immediately** (narration from about 0.05 s), promises a specific useful answer, and the episode delivers it.
 - **Keep the app's approved aesthetic.**
 - **QA:** extract frame 0 (`-frames:v 1` at t = 0) and check it as a standalone image.
+
+## Addendum 2026-11-17 — live "Satisfied?" feedback: "no, too much information being displayed at once, too much text, motion graphics can be more appealing also need a super cool thumbnail" (applies to this app only)
+- **Less at once:** each scene carries one moving idea and at most one short on-screen label (2–3 words), or none. The caption already carries the words, so don't repeat sentences on screen. Avoid two-line plates when one word will do.
+- **Fewer scene elements:** no name plates plus labels plus chips together. If a scene needs a second element, bring it in only after the first has done its job.
+- **More appealing motion:** explain with things that move and transform (a drop that swells, a molecule that splits and changes, droplets that spread, pages that slide over a name), with depth (shadows, glow), not text appearing.
+- **Super cool thumbnail (= frame 0):** one bold hero object plus the real portrait; 2–4 huge words in two colours; strong glow and contrast; nothing in the caption zone that the 0.22 s caption would overlap.
+- **Keep:** real sourced portraits, distinct real pages, the approved narrator, palette and CTA, captions inside the safe area.

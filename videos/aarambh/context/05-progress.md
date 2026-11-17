@@ -143,3 +143,12 @@
 - **Topic line** ("nobody believed it existed") narrowed to what the sources support; recorded in 33.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 33.
+
+## 2026-11-17: english-20 #01 (English; first under the 2026-11-17 feedback addendum)
+- **Feedback persisted:** "too much information at once, too much text, more appealing motion, super cool thumbnail" (addendum in 25, summary in 11).
+- `videos/aarambh/production/30s/2026-11-17-english-20/aarambh-30s-english20-01.mp4` (sha256 `4725b3937de045c986a7fefc0a589447021a0087d9883f78c0613e284c3f4d4a`) and thumbnail = frame 0: Alice Ball and chaulmoogra oil.
+  - Frame 0: the real 1915 portrait plus a glowing drop on a syringe needle, "HER METHOD. HIS NAME."
+  - Story: thick oil drips and sits as a painful lump → the chains split and gain ethyl caps; thin droplets absorb → pages slide over her name, "Dean's derivatives" → Hollmann's real 1922 page, "Ball's Method" underlined → lesson "a remedy only helps if patients can take it" → Aarambh CTA.
+- **Isolation:** the other apps' style notes in the brief were ignored.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. both addenda), then 11 and 34.
