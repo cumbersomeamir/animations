@@ -32,9 +32,9 @@ export const T = {
   ctaClear: [26.25, 26.6], tile: [26.38, 26.74], lockup: 27.55,
 };
 // split-flap digit tiles: per sign, the 4 back-face slots [d0, ".", d1, d2] and their changes over time ([t, digit])
-export const FLAPS = {
-  L: [[[0, 3], [T.drop, 2], [T.to359, 3], [T.reset, 3], [T.flips + 0.16, 2]], null, [[0, 0], [T.cent, 9], [T.to359 + 0.08, 5], [T.reset + 0.08, 0], [T.flips, 9]], [[0, 0], [T.cent + 0.08, 9], [T.reset + 0.16, 0], [T.flips + 0.08, 9]]],
-  R: [[[0, 3]], null, [[0, 0], [T.to360, 6], [T.flips, 5]], [[0, 0], [T.flips + 0.08, 9]]],
+export const FLAPS = { // all tiles of one price change flip together (tiny stagger), so no wrong intermediate price ever shows
+  L: [[[0, 3], [T.cent, 2], [T.to359, 3], [T.reset, 3], [T.flips, 2]], null, [[0, 0], [T.cent + 0.03, 9], [T.to359 + 0.03, 5], [T.reset + 0.03, 0], [T.flips + 0.03, 9]], [[0, 0], [T.cent + 0.06, 9], [T.reset + 0.06, 0], [T.flips + 0.06, 9]]],
+  R: [[[0, 3]], null, [[0, 0], [T.to360, 6], [T.flips, 5]], [[0, 0], [T.flips + 0.03, 9]]],
 };
 // how far each spring stretches (perceived size; illustrative, exaggerated for legibility): [t, drop]
 export const DROP = {

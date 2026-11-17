@@ -198,7 +198,7 @@ function frame(t) {
     giftGlow.visible = g > 0.01 && cl < 0.99; giftGlow.material.opacity = 0.45 * ramp(t, T.gift[1] - 0.2, T.gift[1] + 0.5) * (1 - cl); giftGlow.position.set(SXS[1], 0.11 - 0.3 * cl, -0.04); giftGlow.scale.set(0.2, 0.2, 1); }
   // --- set B: field test
   stageB.visible = showB; placeShadow(stageBSh, X2, 0, 0, 0.15, 0.1, showB ? 0.8 : 0);
-  products.forEach((P, k) => { P.tt.forEach((tl, i) => { if (!tl) return; const ks = i === 0 ? [[0, 3], [T.tags9 + k * 0.1, 2]] : [[0, 0], [T.tags9 + k * 0.1 + i * 0.04, 9]]; const st = flapState(ks, t); tl.f.material.map = DIGIT_TEX[st.digit]; tl.g.rotation.x = st.angle; }); });
+  products.forEach((P, k) => { P.tt.forEach((tl, i) => { if (!tl) return; const ks = i === 0 ? [[0, 3], [T.tags9 + k * 0.1, 2]] : [[0, 0], [T.tags9 + k * 0.1 + i * 0.015, 9]]; const st = flapState(ks, t); tl.f.material.map = DIGIT_TEX[st.digit]; tl.g.rotation.x = st.angle; }); });
   { const sp = win(t, T.newMore[0] - 0.1, T.newLab[1], 0.25, 0.4) + 0.4 * win(t, T.tags9 - 0.5, T.newMore[0], 0.3, 0.2); sparkle.visible = showB && sp > 0.01; sparkle.material.opacity = 0.5 * clamp(sp); sparkle.position.set(0.065, 0.09, -0.06); sparkle.scale.set(0.14, 0.14, 1); }
   queues.forEach((Q, k) => { const n = queueLen(k, t); Q.forEach((g, j) => { const v = clamp(n - j); g.visible = showB && v > 0.01; g.scale.setScalar(Math.max(0.001, v));
     g.position.set(products[k].g.position.x + (k ? 1 : -1) * (0.01 + j * 0.0125), PLT + 0.02 * (1 - v), 0.045 + j * 0.019); }); });
