@@ -1,0 +1,140 @@
+{
+ "cards": [
+  {
+   "a": 0.07,
+   "lines": [
+    "Past forty-five,"
+   ],
+   "timing": "asr (dropped extra token 'forty')",
+   "b": 1.16
+  },
+  {
+   "a": 1.23,
+   "lines": [
+    "the needle's eye starts to blur."
+   ],
+   "timing": "asr (dropped extra token 'forty')",
+   "b": 3.05
+  },
+  {
+   "a": 3.12,
+   "lines": [
+    "For close-up work,"
+   ],
+   "timing": "asr (dropped extra token 'close')",
+   "b": 4.13
+  },
+  {
+   "a": 4.2,
+   "lines": [
+    "that blur can cost income."
+   ],
+   "timing": "asr (dropped extra token 'close')",
+   "b": 5.84
+  },
+  {
+   "a": 5.91,
+   "lines": [
+    "Can glasses really fix that?"
+   ],
+   "timing": "asr",
+   "b": 7.67
+  },
+  {
+   "a": 7.74,
+   "lines": [
+    "An Assam trial gave tea pickers"
+   ],
+   "timing": "asr (dropped extra token 'near')",
+   "b": 9.92
+  },
+  {
+   "a": 9.99,
+   "lines": [
+    "over forty near-vision glasses."
+   ],
+   "timing": "asr (dropped extra token 'near')",
+   "b": 12.05
+  },
+  {
+   "a": 12.12,
+   "lines": [
+    "They picked about a fifth more tea"
+   ],
+   "timing": "asr",
+   "b": 13.79
+  },
+  {
+   "a": 13.86,
+   "lines": [
+    "than those still waiting."
+   ],
+   "timing": "asr",
+   "b": 15.26
+  },
+  {
+   "a": 15.33,
+   "lines": [
+    "Presbyopia is a focusing error;"
+   ],
+   "timing": "asr (aligned 9/10 words)",
+   "b": 17.36
+  },
+  {
+   "a": 17.43,
+   "lines": [
+    "the right lens corrects it."
+   ],
+   "timing": "asr (aligned 9/10 words)",
+   "b": 19.04
+  },
+  {
+   "a": 19.11,
+   "lines": [
+    "Simple community eye tests"
+   ],
+   "timing": "asr",
+   "b": 20.75
+  },
+  {
+   "a": 20.82,
+   "lines": [
+    "find who needs which power."
+   ],
+   "timing": "asr",
+   "b": 22.55
+  },
+  {
+   "a": 22.62,
+   "lines": [
+    "So give the test and the right glasses,"
+   ],
+   "timing": "asr",
+   "b": 24.92
+  },
+  {
+   "a": 24.99,
+   "lines": [
+    "not just any pair."
+   ],
+   "timing": "asr",
+   "b": 26.474
+  },
+  {
+   "a": 26.97,
+   "lines": [
+    "To donate essentials in Lucknow,"
+   ],
+   "timing": "asr",
+   "b": 28.67
+  },
+  {
+   "a": 28.74,
+   "lines": [
+    "download Help."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}

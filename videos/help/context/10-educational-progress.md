@@ -166,3 +166,8 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-17 (batch 19) — english-19, 30 s #01 (English; "Why this grain?" — fortified rice kernels; proposed school-meal topic was covered) — DONE
 - Output `videos/help/production/30s/2026-11-17-english-19/help-30s-english19-01.mp4`, SHA-256 `d691315b9a668f133542f6680e2cb740a13d823078012fe1d435d97b1a56727b`; thumbnail `help-30s-english19-thumbnail.png`.
 - Topic + production notes: `32-production-30s-english19-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-17). No automation created.
+
+## 2026-11-17 (batch 20) — english-20, 30 s #01 (English; "The needle blurs" — reading glasses, presbyopia and vision screening; first episode under the broad-genre LIVE feedback) — DONE
+- Output `videos/help/production/30s/2026-11-17-english-20/help-30s-english20-01.mp4`, SHA-256 `c8900740b40451ae245368c4751a392ccaa6684c4cb19fb3e1c650c877533de8`; thumbnail `help-30s-english20-thumbnail.png`.
+- Topic + production notes: `33-production-30s-english20-01.md`; LIVE feedback, new genre rule and lessons in `11-production-format.md` (Update 2026-11-17, batch 20). No automation created.
+

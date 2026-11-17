@@ -1,0 +1,72 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Past forty-five, the needle's eye starts to blur.",
+   "dur": 2.851,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "For close-up work, that blur can cost income.",
+   "dur": 2.48,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Can glasses really fix that?",
+   "dur": 1.486,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "An Assam trial gave tea pickers over forty near-vision glasses.",
+   "dur": 4.063,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "They picked about a fifth more tea than those still waiting.",
+   "dur": 2.823,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Presbyopia is a focusing error; the right lens corrects it.",
+   "tts": "prez-bee-opia is a focusing error; the right lens corrects it.",
+   "dur": 3.522,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Simple community eye tests find who needs which power.",
+   "dur": 3.146,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "So give the test and the right glasses, not just any pair.",
+   "dur": 3.364,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

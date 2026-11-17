@@ -5,6 +5,7 @@ No automation was created; this file is the reusable spec.
 
 ## Channel genre (locked)
 Practical helping poor people through donations that match actual needs. Educational, respectful, useful without the app.
+**Superseded in part by "Update 2026-11-17 (batch 20) — LIVE feedback" at the end of this file: the genre is now broad, informative and tied to Help.**
 Never: pity spectacle, fabricated beneficiary/testimonial, invented statistics or impact, fraud/scam-channel framing, app ads.
 
 ## Visual skill (exact)
@@ -297,4 +298,27 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
 - Every scene needs a visible anchor from its slide-in: objects that scale in on a voice cue leave an empty frame at the boundary (english-19 schemes
   scene) — keep one prop present from the start and reveal the rest.
 - Re-verify the store icon on the day of each episode before writing "re-downloaded" in QA/records.
+
+## Update 2026-11-17 (batch 20) — LIVE "Published apps / Satisfied?" feedback (user-given; SUPERSEDES the narrower niche above)
+Verbatim: "Style is good, content is shit - still not happy with genre. Genre should be broad and informative and relaed to our app Also latest app
+icon should be taken from play store or app store"
+- **Keep the style:** shadow-puppet stage, palette, Meshline narrator, caption look, first-frame rule, Theory of Marketing beats, approved CTA.
+- **Genre (new):** broad and informative, related to Help. Help = donating food and everyday essentials to verified communities in Lucknow. Each
+  episode teaches a fact that most viewers can use or find surprising about an **everyday essential or basic need** (food, water, clothing, hygiene,
+  sight, warmth, shelter, safety) and shows **how giving the right thing helps**. Avoid narrow scheme or paperwork detail as the main subject; one
+  documented study or system is the proof, not the topic.
+- **Tie to the app** through the payoff (a giving rule for that essential) and the CTA; never claim Help does the documented programme.
+- **Icon:** take the latest icon from the Google Play listing (or the App Store when a listing exists) **every round**; record the date, "Updated on",
+  the image hash and whether it matches `assets/icon.png`. If it changes, replace the asset and say so in the record.
+- english-20 is the first episode made under this rule (spectacles / presbyopia: everyone's near vision fades after about 45; a measured livelihood
+  result; how screening finds the right power; "give the test and the right glasses, not just any pair").
+
+## Update 2026-11-17 (batch 20) — english-20 lessons
+- Topic gate: spectacles / reading glasses / presbyopia / refractive error / vision screening covered by english-20.
+- Run ASR on the **full mix**, not just the voice: "community eye screening" passed alone but was heard as "community ice cream eating" under music →
+  reworded ("community eye tests").
+- Medical words: check Kokoro phonemes first; "presbyopia" came out as "frisbee opiate" → `tts` spelling "prez-bee-opia" (caption keeps the real word).
+- Frame-0 props must read at phone size: a thin dark needle on the multiplied hide texture became a smear → light steel fill, shorter, angled, its eye
+  clear of the plaque. Check `qa/frame-000.png` at 25% before the full render.
+- Two labels must not share the screen: end the old label before the next one appears (COSTS INCOME → "?").
 

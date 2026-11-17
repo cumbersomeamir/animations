@@ -1,0 +1,73 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.1,
+  3.27,
+  6.07,
+  7.88,
+  12.26,
+  15.4,
+  19.24,
+  22.76,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_needle": [
+   0.0,
+   3.1
+  ],
+  "B_income": [
+   3.1,
+   5.9
+  ],
+  "C_question": [
+   5.9,
+   7.7
+  ],
+  "D_trial": [
+   7.7,
+   15.25
+  ],
+  "E_focus": [
+   15.25,
+   19.35
+  ],
+  "F_screening": [
+   19.35,
+   22.6
+  ],
+  "G_payoff": [
+   22.6,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "costs": 4.75,
+  "income": 5.2,
+  "q": 6.1,
+  "pickers": 9.2,
+  "glasses": 11.0,
+  "pick": 12.3,
+  "fifth": 12.85,
+  "groups": 14.2,
+  "lens": 17.6,
+  "lensTick": 18.7,
+  "which": 21.7,
+  "power": 21.85,
+  "powerTick": 22.1,
+  "test": 23.2,
+  "right": 23.85,
+  "notAny": 25.05,
+  "thread": 25.7,
+  "done": 26.4,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Story map (first-frame rule; 2026-11-17 live feedback: broad, informative, tied to donating essentials): frame 0 = blurred needle eye, thread missing it + THE NEEDLE BLURS, lamps full, voice at 0.1 s; 0-3.1 hook, 3.1-5.9 superhook (income), 5.9-7.7 question, 7.7-22.6 proof (Assam trial, focusing error, community screening), 22.6-26.9 payoff, 26.9-30 CTA. Tick SFX only in pauses; nothing under the first word."
+}
