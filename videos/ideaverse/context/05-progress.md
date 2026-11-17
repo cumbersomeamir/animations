@@ -182,3 +182,11 @@
 - Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS; 22 earlier MP4s unchanged.
 - Next: await user review. No further episode, no automation.
 
+---
+# CURRENT — english-18 (batch18, worked 2026-11-17) — RENDERING
+- Proposed phishing/spam topic = repeat of feedback-01 (spam filters) → card-payment fraud scoring: why your own card gets
+  declined on holiday (record context/33). Icon re-checked against the Play listing: unchanged.
+- New scene `src/stage/declined.js` (café counter + terminal, DOCKET's card, suitcase, score card, bank-alert phone).
+- Note: the web-search quota was exhausted on 2026-11-15 and reset on 2026-11-17; work resumed then (no job was running).
+- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
+

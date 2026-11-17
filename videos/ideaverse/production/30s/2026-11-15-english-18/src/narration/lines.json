@@ -1,0 +1,9 @@
+[
+  {"id": "s1", "text": "Your card works fine at home, then gets declined on holiday. Why?"},
+  {"id": "s2", "text": "Your card network scores each payment for fraud, using hundreds of clues."},
+  {"id": "s3", "text": "A new country. A new shop. A bigger amount than usual."},
+  {"id": "s4", "text": "Each alone looks fine. Together, the score climbs past your bank's line."},
+  {"id": "s5", "text": "So sometimes a real payment gets blocked."},
+  {"id": "s6", "text": "If that happens, open your bank's app, confirm it was you, then pay again."},
+  {"id": "s7", "text": "Download the Ideaverse app."}
+]

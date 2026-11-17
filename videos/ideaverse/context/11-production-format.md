@@ -260,3 +260,8 @@ Episodes 09–11 were already in production before this note and keep the earlie
   (documented for Pixel) is kept separate from the AI best-shot feature (Top Shot only). DOCKET's mitten hands hold the
   phone; touches are shown as an on-screen touch dot (clearer than a fingertip at this scale).
 
+## Batch 2026-11-15-english-18 (batch18) — rules as english-15/16/17
+- Proposed topic (email phishing detection) repeats feedback-01 (spam filters) → replaced by card-payment fraud scoring
+  (combined clues → risk score → the bank's line → false declines → confirm in the bank's own app). The payoff points to
+  the bank's app, not to replying to texts (lookalike scam texts exist); no scam procedure is shown.
+
