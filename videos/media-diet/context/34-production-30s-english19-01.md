@@ -50,5 +50,10 @@ Every take transcribed exactly by Whisper medium before use ("taped a box" was h
 | S8 | 23.75–25.92 | corner lifted, then pulled steep: the label comes off | corner, then steep |
 | S9 | 25.92–30 | Media Diet sign; the box behind it | — |
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 4b9a8f877de20a0a693ab896fb8a429bce1a820bcc2634051ac7ffd01445419b; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 340–534, x 194–887; labels x 204–875,
+y 1354–1484; 0 violations; caption↔speech 11/11; Whisper-medium recall 1.0 full pass and 1.0 per line. Thumbnail = frame 0
+(SHA-256 d9f44118…67d8), mean abs diff vs encoded frame 0 = 1.78/255.
+Limits: generic reconstruction (no Genesis footage); cause of the rerun trouble not reported — the peel law is general physics (ideal film);
+"hands wear out in weeks" is a company statement; nobody has listened to or watched the final file yet.

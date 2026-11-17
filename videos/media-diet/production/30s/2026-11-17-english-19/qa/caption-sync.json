@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "Tiny label. / Big problem.",
+  "cue": [
+   0.0,
+   1.9
+  ],
+  "speech": [
+   0.071,
+   1.676
+  ],
+  "lead_s": 0.071,
+  "tail_s": 0.224,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "Robot arms run by Genesis AI / packed a box and taped it shut.",
+  "cue": [
+   1.92,
+   6.5
+  ],
+  "speech": [
+   2.022,
+   6.253
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.247,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "On a rerun, the tiny / label fought back.",
+  "cue": [
+   6.52,
+   9.1
+  ],
+  "speech": [
+   6.623,
+   8.811
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.289,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "So why is a sticker / harder than a box?",
+  "cue": [
+   9.12,
+   11.4
+  ],
+  "speech": [
+   9.225,
+   11.134
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.266,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Pull it nearly flat, and it takes",
+  "cue": [
+   11.42,
+   12.82
+  ],
+  "speech": [
+   11.521,
+   12.651
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.169,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "dozens of times more force / than pulling straight up.",
+  "cue": [
+   12.84,
+   16.4
+  ],
+  "speech": [
+   13.031,
+   16.05
+  ],
+  "lead_s": 0.191,
+  "tail_s": 0.35,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "So the hard part is / lifting that first edge.",
+  "cue": [
+   16.42,
+   19.05
+  ],
+  "speech": [
+   16.525,
+   18.796
+  ],
+  "lead_s": 0.105,
+  "tail_s": 0.254,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "Genesis trains touch / with sensor gloves,",
+  "cue": [
+   19.07,
+   21.56
+  ],
+  "speech": [
+   19.182,
+   21.378
+  ],
+  "lead_s": 0.112,
+  "tail_s": 0.182,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "but its hands wear out / in weeks.",
+  "cue": [
+   21.58,
+   23.75
+  ],
+  "speech": [
+   21.778,
+   23.449
+  ],
+  "lead_s": 0.199,
+  "tail_s": 0.301,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Lift a corner, then pull steep.",
+  "cue": [
+   23.77,
+   25.848
+  ],
+  "speech": [
+   23.872,
+   25.5
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.348,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.02,
+   29.523
+  ],
+  "speech": [
+   26.155,
+   29.176
+  ],
+  "lead_s": 0.135,
+  "tail_s": 0.347,
+  "ok": true
+ }
+]

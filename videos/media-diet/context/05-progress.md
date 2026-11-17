@@ -364,3 +364,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   cutaway centred, edge-lift and steep-peel visible).
 - Operational: disk allowance nearly full (~158 MB free); frames/stills/qa_frames on the RAM disk /dev/shm/md-e19 via gitignored symlinks;
   nothing deleted. Running: three render_chunks workers; next `SKIP_FRAMES=1 bash build/build.sh`, thumbnail, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-17 — english-19 / batch 19 delivered
+- production/30s/2026-11-17-english-19/media-diet-30s-english19-01.mp4 (SHA-256 4b9a8f877de20a0a693ab896fb8a429bce1a820bcc2634051ac7ffd01445419b)
+  + thumbnail-english19-01.png (= frame 0); record context/34; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 340–534, x 194–887; labels y 1354–1484; 0 violations; caption↔speech 11/11; Whisper 1.0 full pass and per line.
+- Operational: frames/stills/qa_frames on /dev/shm/md-e19 (RAM; lost on container restart, regenerable); ~110 MB disk free after this
+  commit — the next episode will need the same RAM-disk approach or the user's permission to clear old gitignored frames/ caches.
+- Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.

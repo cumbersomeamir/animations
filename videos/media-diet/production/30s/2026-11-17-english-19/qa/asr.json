@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Tiny label, big problem. Robot arms run by Genesis, AI packed a box and taped it shut. On a rerun, the tiny label fought back. So why is a sticker harder than a box? Pull it nearly flat, and it takes dozens of times more force than pulling straight up. So the hard part is lifting that first edge. Genesis trains touch with sensor gloves, but its hands wear out in weeks. Lift a corner, then pull steep. Follow media diet for the physics behind the headlines.",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.72
+   ],
+   "transcript": "Tiny label. Big problem.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    2.0,
+    6.3
+   ],
+   "transcript": "Robot arms run by Genesis. AI packed a box and taped it shut.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.6,
+    8.88
+   ],
+   "transcript": "On a rerun, the tiny label fought back.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    9.2,
+    11.19
+   ],
+   "transcript": "So why is a sticker harder than a box?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    11.5,
+    16.19
+   ],
+   "transcript": "Pull it nearly flat, and it takes dozens of times more force than pulling straight up.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    16.5,
+    18.85
+   ],
+   "transcript": "So the hard part is lifting that first edge.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    19.15,
+    23.5
+   ],
+   "transcript": "Genesis trains touch with sensor gloves, but its hands wear out in weeks.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    23.85,
+    25.55
+   ],
+   "transcript": "Lift a corner, then pull steep.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.1,
+    29.22
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Tiny label. Big problem. Robot arms run by Genesis. AI packed a box and taped it shut. On a rerun, the tiny label fought back. So why is a sticker harder than a box? Pull it nearly flat, and it takes dozens of times more force than pulling straight up. So the hard part is lifting that first edge. Genesis trains touch with sensor gloves, but its hands wear out in weeks. Lift a corner, then pull steep. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}
