@@ -1,0 +1,207 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "Tiny label. Big problem.",
+   "cues": [
+    [
+     "Tiny label.",
+     "Big problem."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 2.0,
+   "say": "Robot arms run by Genesis AI packed a box and taped it shut.",
+   "cues": [
+    [
+     "Robot arms run by Genesis AI",
+     "packed a box and taped it shut."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.6,
+   "say": "On a rerun, the tiny label fought back.",
+   "cues": [
+    [
+     "On a rerun, the tiny",
+     "label fought back."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 9.2,
+   "say": "So why is a sticker harder than a box?",
+   "cues": [
+    [
+     "So why is a sticker",
+     "harder than a box?"
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 11.5,
+   "say": "Pull it nearly flat, and it takes dozens of times more force than pulling straight up.",
+   "cues": [
+    [
+     "Pull it nearly flat, and it takes"
+    ],
+    [
+     "dozens of times more force",
+     "than pulling straight up."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 16.5,
+   "say": "So the hard part is lifting that first edge.",
+   "cues": [
+    [
+     "So the hard part is",
+     "lifting that first edge."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 19.15,
+   "say": "Genesis trains touch with sensor gloves, but its hands wear out in weeks.",
+   "cues": [
+    [
+     "Genesis trains touch",
+     "with sensor gloves,"
+    ],
+    [
+     "but its hands wear out",
+     "in weeks."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 23.85,
+   "say": "Lift a corner, then pull steep.",
+   "cues": [
+    [
+     "Lift a corner, then pull steep."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.1,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.9,
+   "beat": "first frame / hook: a gloved robot fingertip on the corner of a tiny label, taped box behind + \"Tiny label. Big problem.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.9,
+   "out": 6.5,
+   "beat": "the news: two robot hands close the box flaps and run tape along the seam; source chip"
+  },
+  {
+   "id": "S3",
+   "in": 6.5,
+   "out": 9.1,
+   "beat": "the rerun: the fingertip slides over the label, which stays flat"
+  },
+  {
+   "id": "S4",
+   "in": 9.1,
+   "out": 11.4,
+   "beat": "the question: big box vs tiny label"
+  },
+  {
+   "id": "S5",
+   "in": 11.4,
+   "out": 16.4,
+   "beat": "physics cutaway: peeling a film nearly flat needs a huge force; straight up needs little (ideal thin-film peel)"
+  },
+  {
+   "id": "S6",
+   "in": 16.4,
+   "out": 19.05,
+   "beat": "the hard part: a fingertip pushes and lifts the first edge"
+  },
+  {
+   "id": "S7",
+   "in": 19.05,
+   "out": 23.75,
+   "beat": "mechanism + constraint: the same sensor glove on a worker's hand and the robot hand; the robot hand wears out"
+  },
+  {
+   "id": "S8",
+   "in": 23.75,
+   "out": 25.92,
+   "beat": "takeaway: lift a corner, then pull steep — the label peels cleanly"
+  },
+  {
+   "id": "S9",
+   "in": 25.92,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign in front of the labelled box"
+  }
+ ],
+ "events": {
+  "pack": 4.75,
+  "flaps": 5.05,
+  "tape": 5.5,
+  "slip": 7.95,
+  "labRerun": 7.0,
+  "flat": 11.85,
+  "labFlat": 12.1,
+  "grow": 13.5,
+  "steep": 15.35,
+  "lift": 17.5,
+  "labLift": 17.6,
+  "glove": 20.6,
+  "labGlove": 20.7,
+  "wear": 22.35,
+  "labWear": 22.45,
+  "corner": 23.9,
+  "pull": 24.85,
+  "labTake": 24.0,
+  "sign": 26.2
+ }
+}

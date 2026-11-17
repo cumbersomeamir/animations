@@ -1,0 +1,100 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "Tiny label.",
+   "Big problem."
+  ],
+  "in": 0.0,
+  "out": 1.9,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "Robot arms run by Genesis AI",
+   "packed a box and taped it shut."
+  ],
+  "in": 1.92,
+  "out": 6.5
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "On a rerun, the tiny",
+   "label fought back."
+  ],
+  "in": 6.52,
+  "out": 9.1
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "So why is a sticker",
+   "harder than a box?"
+  ],
+  "in": 9.12,
+  "out": 11.4
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Pull it nearly flat, and it takes"
+  ],
+  "in": 11.42,
+  "out": 12.82
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "dozens of times more force",
+   "than pulling straight up."
+  ],
+  "in": 12.84,
+  "out": 16.4
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "So the hard part is",
+   "lifting that first edge."
+  ],
+  "in": 16.42,
+  "out": 19.05
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Genesis trains touch",
+   "with sensor gloves,"
+  ],
+  "in": 19.07,
+  "out": 21.56
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "but its hands wear out",
+   "in weeks."
+  ],
+  "in": 21.58,
+  "out": 23.75
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Lift a corner, then pull steep."
+  ],
+  "in": 23.77,
+  "out": 25.848
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.02,
+  "out": 29.523
+ }
+]

@@ -353,3 +353,14 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   `npm cache clean --force` freed ~430 MB; chunks 240/540/840 re-rendered. Deleting other episodes' gitignored frames/ was blocked by the
   permission system — if space runs out again, the user may need to allow clearing old frames/ caches (all gitignored; MP4s committed).
 - Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-17 — english-19 / batch 19 (topic + sources recorded; rendering)
+- Batch 18 delivered first (0c3e43a = remote); batch 19 not a repeat. Topic: Genesis AI demo reported by TechCrunch **17 Nov 2026** — two
+  off-the-shelf arms run by Genesis's model packed, taped and labelled a box; on a rerun it fumbled a box and struggled to peel a tiny label.
+  Mechanism: sensor gloves (force data) on workers and robots; constraint: hands last a few weeks. Physics: Kendall 1975 peel law.
+  Rejected: Penn CoilLCE (paper 7 Sep), NC State Howl (simulation), Skydio F10 (announced 24 Sep), Remedy (January visit).
+- Record context/34; sources production/30s/2026-11-17-english-19/SOURCES.md; log row in context/11 (in progress).
+- Narration 87 words / 26.5 s, every take heard exactly by Whisper. Stills checked (light glove for contrast, cameras pulled back, peel
+  cutaway centred, edge-lift and steep-peel visible).
+- Operational: disk allowance nearly full (~158 MB free); frames/stills/qa_frames on the RAM disk /dev/shm/md-e19 via gitignored symlinks;
+  nothing deleted. Running: three render_chunks workers; next `SKIP_FRAMES=1 bash build/build.sh`, thumbnail, QA.md, commit, push, attach.
