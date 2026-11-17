@@ -12,8 +12,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   not repeated.
 - The proposed topic ("Can a shop charge more than MRP?") repeats episode 02. The replacement is a carry bag charged at
   the billing counter. Record: `context/episodes/2026-11-17-english19-carry-bag-charge.md`.
-- IN PROGRESS: sources, narration, audio lines, timeline, scene, notes and thumbnail are done; the full render is
-  running.
+- CHECKPOINT (before the full render, commit fafd99d): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-17-english-19/courtlens-30s-english19-01.mp4`
+    sha256 `fee5078b4f9cf67d500ce9dd0b359207201535dfd2138a2a21b673146997ecac`
+  - `courtlens-30s-english19-01-thumbnail.png`
+    sha256 `7265fd8c64460c19b8253807d4509b6710cf577f4cef809efe8c41ecab049343`
+  - QA: `production/30s/2026-11-17-english-19/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-17-english-19/notes/LEGAL-SOURCES.md`)
 - **NCDRC, Bata India Ltd v. Dinesh Parshad Raturi, RP 1715/2019 with RP 774/2020, 27 Nov 2024 (full text read):**
@@ -64,6 +70,26 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - The counter front was too heavy, so it now fades earlier. The receipt was enlarged so "CARRY BAG ₹18" reads.
 - The bag stage was raised so "YOUR CHOICE" clears the bottom overlay zone.
 - Per-line ASR before the render: lines 1–8 word-perfect; brand heard as "Courtlands" (as in all episodes).
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.3 LUFS, true peak −2.4 dBFS; 9/9 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.012 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 106..892, y 330..518; top zone darkest pixel 154 (the bag dropping in at 6.3 s).
+- Frame 0 vs thumbnail mean abs diff 1.56/255 outside the chip band.
+- Render: 900/900 frames in one pass, no retries. Frame review found no defect needing a re-render.
+
+### Unresolved
+- Listening is ASR-only. Nobody listened to it or watched it in real time.
+- The conditions are NCDRC directions in the Bata case (copied to all State Commissions), not a statute. The video
+  attributes them ("The National Consumer Commission said:"). State orders vary in detail (notes only).
+- A Hindustan Times snippet about the Supreme Court and a commission judgment could not be opened (403) or
+  identified. No Supreme Court carry-bag ruling was found.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
+### Next
+- Await the next batch request.
 
 ## Round 2026-11-15 (english-18, batch 18): "Your snack. Their rule?": cinema outside food
 
