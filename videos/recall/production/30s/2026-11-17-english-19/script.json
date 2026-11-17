@@ -1,0 +1,43 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Hotter than boiling water."
+  },
+  {
+   "id": "l02",
+   "text": "A pressure cooker keeps water liquid above 100 degrees."
+  },
+  {
+   "id": "l03",
+   "text": "Water boils when its vapor pushes as hard as the air above it."
+  },
+  {
+   "id": "l04",
+   "text": "At sea level, that's 100 degrees."
+  },
+  {
+   "id": "l05",
+   "text": "Lock the lid, and steam can't escape, so the pressure rises."
+  },
+  {
+   "id": "l06",
+   "text": "So the water must reach about 120 degrees to boil."
+  },
+  {
+   "id": "l07",
+   "text": "Hotter water cooks food faster."
+  },
+  {
+   "id": "l08",
+   "text": "On a mountain it's the reverse: water boils cooler, so food cooks slower."
+  },
+  {
+   "id": "l09",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}

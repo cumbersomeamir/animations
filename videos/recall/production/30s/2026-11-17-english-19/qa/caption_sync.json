@@ -1,0 +1,147 @@
+{
+ "ok": true,
+ "spoken_groups": 14,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "HOTTER THAN / BOILING WATER",
+   "start": 0.0,
+   "end": 1.38,
+   "first_word_s": 0.05,
+   "last_word_s": 0.61,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "A pressure cooker / keeps water liquid",
+   "start": 1.38,
+   "end": 3.06,
+   "first_word_s": 1.45,
+   "last_word_s": 2.73,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "above 100 degrees.",
+   "start": 3.06,
+   "end": 5.03,
+   "first_word_s": 3.13,
+   "last_word_s": 3.93,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Water boils when / its vapor pushes",
+   "start": 5.03,
+   "end": 6.87,
+   "first_word_s": 5.1,
+   "last_word_s": 6.56,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "as hard as the air / above it.",
+   "start": 6.87,
+   "end": 8.83,
+   "first_word_s": 6.94,
+   "last_word_s": 8.36,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "At sea level, / that's 100 degrees.",
+   "start": 8.83,
+   "end": 11.13,
+   "first_word_s": 8.9,
+   "last_word_s": 10.1,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Lock the lid, / and steam can't escape,",
+   "start": 11.13,
+   "end": 13.31,
+   "first_word_s": 11.2,
+   "last_word_s": 12.66,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so the pressure rises.",
+   "start": 13.31,
+   "end": 14.78,
+   "first_word_s": 13.38,
+   "last_word_s": 13.76,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So the water must reach / about 120 degrees",
+   "start": 14.78,
+   "end": 17.36,
+   "first_word_s": 14.85,
+   "last_word_s": 16.79,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "to boil.",
+   "start": 17.36,
+   "end": 18.43,
+   "first_word_s": 17.43,
+   "last_word_s": 17.73,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Hotter water / cooks food faster.",
+   "start": 18.43,
+   "end": 20.63,
+   "first_word_s": 18.5,
+   "last_word_s": 19.4,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "On a mountain / it's the reverse:",
+   "start": 20.63,
+   "end": 22.63,
+   "first_word_s": 20.7,
+   "last_word_s": 21.58,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "water boils cooler, / so food cooks slower.",
+   "start": 22.63,
+   "end": 26.38,
+   "first_word_s": 22.7,
+   "last_word_s": 24.24,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.38,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.07,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

@@ -79,3 +79,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   + `recall-30s-english17-01-thumbnail.png` (30.000 s; airliner window layers, breather hole, fail-safe middle layer, fog; record, sources + QA in 30).
 - English-18 2026-11-15 batch 18 (English; topic kept, not covered before; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-15-english-18/recall-30s-english18-01.mp4`
   + `recall-30s-english18-01-thumbnail.png` (30.000 s; vacuum flask: conduction/convection vs vacuum, infrared vs silver walls, lid; record, sources + QA in 31).
+- English-19 2026-11-17 batch 19 (English; suggested induction topic already H04 → pressure cooker; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-17-english-19/recall-30s-english19-01.mp4`
+  + `recall-30s-english19-01-thumbnail.png` (30.000 s; boiling point vs pressure, ~120 °C in a cooker, altitude; record, topic-change reason, sources + QA in 32).

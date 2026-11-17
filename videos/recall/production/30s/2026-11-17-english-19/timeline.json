@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 1.45
+  },
+  {
+   "id": "l03",
+   "start": 5.1
+  },
+  {
+   "id": "l04",
+   "start": 8.9
+  },
+  {
+   "id": "l05",
+   "start": 11.2
+  },
+  {
+   "id": "l06",
+   "start": 14.85
+  },
+  {
+   "id": "l07",
+   "start": 18.5
+  },
+  {
+   "id": "l08",
+   "start": 20.7
+  },
+  {
+   "id": "l09",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_cooker",
+   "t0": 0,
+   "t1": 1.38
+  },
+  {
+   "id": "react_valve",
+   "t0": 1.38,
+   "t1": 5.03
+  },
+  {
+   "id": "giant_open",
+   "t0": 5.03,
+   "t1": 8.83
+  },
+  {
+   "id": "giant_100",
+   "t0": 8.83,
+   "t1": 11.13
+  },
+  {
+   "id": "giant_lid",
+   "t0": 11.13,
+   "t1": 14.78
+  },
+  {
+   "id": "giant_hot",
+   "t0": 14.78,
+   "t1": 18.43
+  },
+  {
+   "id": "giant_food",
+   "t0": 18.43,
+   "t1": 20.63
+  },
+  {
+   "id": "payoff_mountain",
+   "t0": 20.63,
+   "t1": 22.63
+  },
+  {
+   "id": "payoff_cool",
+   "t0": 22.63,
+   "t1": 26.38
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.38,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "vaporTag": 6.32,
+  "airTag": 7.88,
+  "bubble": 8.45,
+  "t100": 9.92,
+  "lid": 11.35,
+  "lidLock": 11.75,
+  "pressureTag": 13.56,
+  "heatUp": 15.2,
+  "t120": 16.31,
+  "reboil": 17.6,
+  "food": 18.6,
+  "fasterTag": 19.4,
+  "mountainTag": 21.0,
+  "coolerTag": 22.9,
+  "slowerTag": 24.24,
+  "cta": 26.38,
+  "smile": 27.0,
+  "end": 29.0,
+  "why": 3.6
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.38,
+   "lines": [
+    [
+     [
+      "HOTTER THAN",
+      0
+     ]
+    ],
+    [
+     [
+      "BOILING WATER",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 1.38,
+   "end": 3.06,
+   "lines": [
+    [
+     [
+      "A ",
+      0
+     ],
+     [
+      "pressure cooker",
+      1
+     ]
+    ],
+    [
+     [
+      "keeps water liquid",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 3.06,
+   "end": 5.03,
+   "lines": [
+    [
+     [
+      "above ",
+      0
+     ],
+     [
+      "100 degrees.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 5.03,
+   "end": 6.87,
+   "lines": [
+    [
+     [
+      "Water ",
+      0
+     ],
+     [
+      "boils",
+      1
+     ],
+     [
+      " when",
+      0
+     ]
+    ],
+    [
+     [
+      "its vapor pushes",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 6.87,
+   "end": 8.83,
+   "lines": [
+    [
+     [
+      "as hard as the ",
+      0
+     ],
+     [
+      "air",
+      1
+     ]
+    ],
+    [
+     [
+      "above it.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.83,
+   "end": 11.13,
+   "lines": [
+    [
+     [
+      "At sea level,",
+      0
+     ]
+    ],
+    [
+     [
+      "that's ",
+      0
+     ],
+     [
+      "100 degrees.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 11.13,
+   "end": 13.31,
+   "lines": [
+    [
+     [
+      "Lock the ",
+      0
+     ],
+     [
+      "lid",
+      1
+     ],
+     [
+      ",",
+      0
+     ]
+    ],
+    [
+     [
+      "and steam can't escape,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 13.31,
+   "end": 14.78,
+   "lines": [
+    [
+     [
+      "so the ",
+      0
+     ],
+     [
+      "pressure",
+      1
+     ],
+     [
+      " rises.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.78,
+   "end": 17.36,
+   "lines": [
+    [
+     [
+      "So the water must reach",
+      0
+     ]
+    ],
+    [
+     [
+      "about ",
+      0
+     ],
+     [
+      "120 degrees",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 17.36,
+   "end": 18.43,
+   "lines": [
+    [
+     [
+      "to boil.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 18.43,
+   "end": 20.63,
+   "lines": [
+    [
+     [
+      "Hotter water",
+      0
+     ]
+    ],
+    [
+     [
+      "cooks food ",
+      0
+     ],
+     [
+      "faster.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.63,
+   "end": 22.63,
+   "lines": [
+    [
+     [
+      "On a ",
+      0
+     ],
+     [
+      "mountain",
+      1
+     ]
+    ],
+    [
+     [
+      "it's the reverse:",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.63,
+   "end": 26.38,
+   "lines": [
+    [
+     [
+      "water boils ",
+      0
+     ],
+     [
+      "cooler,",
+      1
+     ]
+    ],
+    [
+     [
+      "so food cooks slower.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.38,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0.0,
+   5.03,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   5.03,
+   11.13,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   11.13,
+   14.78,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   14.78,
+   18.43,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   18.43,
+   20.63,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   20.63,
+   26.38,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.38,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

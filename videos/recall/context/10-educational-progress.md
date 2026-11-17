@@ -162,3 +162,7 @@ kept; record in context 30; deliverable `videos/recall/production/30s/2026-11-15
 ## Update 2026-11-15 batch 18 — english-18
 Episode E18 "A mirror for heat" (why a thermos has shiny walls inside; English). The topic was new, so it was kept; record in
 context 31; deliverable `videos/recall/production/30s/2026-11-15-english-18/recall-30s-english18-01.mp4` + thumbnail.
+
+## Update 2026-11-17 batch 19 — english-19
+Episode E19 "Hotter than boiling water" (why a pressure cooker cooks faster; English). The suggested induction topic was already
+H04, so a distinct kitchen-physics topic was chosen (reason in context 32); deliverable `videos/recall/production/30s/2026-11-17-english-19/recall-30s-english19-01.mp4` + thumbnail.
