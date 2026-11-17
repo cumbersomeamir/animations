@@ -1,0 +1,93 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Can they tell you're nervous?",
+      "start": 0.15,
+      "end": 1.308,
+      "pauses": []
+    },
+    {
+      "id": "name",
+      "text": "Psychologists call that worry the illusion of transparency.",
+      "start": 1.7,
+      "end": 5.057,
+      "pauses": []
+    },
+    {
+      "id": "study",
+      "text": "After class speeches, students scored their own nerves and guessed what the audience saw.",
+      "start": 5.35,
+      "end": 10.11,
+      "pauses": [
+        [
+          6.475,
+          6.81
+        ]
+      ]
+    },
+    {
+      "id": "result",
+      "text": "They expected the audience to see nearly all of it. Audiences rated them clearly calmer.",
+      "start": 10.75,
+      "end": 15.834,
+      "pauses": [
+        [
+          11.221,
+          11.3
+        ],
+        [
+          13.234,
+          13.683
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "You feel your nerves from the inside. They only see the outside.",
+      "start": 16.2,
+      "end": 19.676,
+      "pauses": [
+        [
+          17.945,
+          18.333
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "In another study, knowing this helped speakers. So remind yourself: they see less than you feel.",
+      "start": 20.05,
+      "end": 25.462,
+      "pauses": [
+        [
+          22.375,
+          22.855
+        ],
+        [
+          23.931,
+          24.161
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
