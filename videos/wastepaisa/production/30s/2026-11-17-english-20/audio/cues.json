@@ -1,0 +1,49 @@
+{
+ "sfx_cues": [
+  [
+   1.55,
+   "soft bell as the cones settle (after \"twice\", before \"First\")"
+  ],
+  [
+   4.27,
+   "second coin: the incense sale (between lines)"
+  ],
+  [
+   10.5,
+   "to the workbench (between lines)"
+  ],
+  [
+   14.26,
+   "cones pop out of the mould (between lines)"
+  ],
+  [
+   18.45,
+   "packs counted (between lines)"
+  ],
+  [
+   23.21,
+   "LEFT \u2248 \u20b91,300 (after the line)"
+  ],
+  [
+   26.5,
+   "+\u20b92,700 (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.23",
+  "input_tp": "-3.08",
+  "input_lra": "2.40",
+  "input_thresh": "-27.72",
+  "output_i": "-15.41",
+  "output_tp": "-1.50",
+  "output_lra": "2.20",
+  "output_thresh": "-25.90",
+  "normalization_type": "dynamic",
+  "target_offset": "0.41"
+ }
+}

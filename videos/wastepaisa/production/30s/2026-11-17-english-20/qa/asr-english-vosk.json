@@ -1,0 +1,122 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "These flowers sell twice.",
+   "heard": "these flowers sell twice",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 1.496,
+   "heard_off": 1.47,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "First as offerings. Then as incense.",
+   "heard": "first is offerings then as incense",
+   "word_acc": 0.833,
+   "plan_on": 1.82,
+   "heard_on": 1.79,
+   "plan_off": 4.208,
+   "heard_off": 4.19,
+   "missed": [
+    [
+     "as"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "At Ujjain's Mahakal temple, women turned its flowers into over thirty million incense sticks.",
+   "heard": "at uci jane's maha call temple women turned its flowers into over thirty million incense sticks",
+   "word_acc": 0.857,
+   "plan_on": 4.53,
+   "heard_on": 4.56,
+   "plan_off": 10.451,
+   "heard_off": 10.44,
+   "missed": [
+    [
+     "ujjain's",
+     "mahakal"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Dry the flowers, grind them, add a binder, and mold cones.",
+   "heard": "dry the flowers grind them at a binder and mold cones",
+   "word_acc": 0.909,
+   "plan_on": 10.77,
+   "heard_on": 10.74,
+   "plan_off": 14.205,
+   "heard_off": 14.19,
+   "missed": [
+    [
+     "add"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Assume a hundred kilos of free flowers make three hundred packs.",
+   "heard": "assume one hundred kilos of free flours make three hundred packs",
+   "word_acc": 0.818,
+   "plan_on": 14.53,
+   "heard_on": 14.56,
+   "plan_off": 18.403,
+   "heard_off": 18.4,
+   "missed": [
+    [
+     "a"
+    ],
+    [
+     "flowers"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "After binder, packing and labor, about thirteen hundred rupees is left.",
+   "heard": "after binder packing and labor about thirteen hundred rupees is left",
+   "word_acc": 1.0,
+   "plan_on": 18.72,
+   "heard_on": 18.72,
+   "plan_off": 23.165,
+   "heard_off": 23.13,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "Ten rupees more per pack adds twenty-seven hundred.",
+   "heard": "ten rupees more per pack ads twenty seven hundred",
+   "word_acc": 0.889,
+   "plan_on": 23.44,
+   "heard_on": 23.44,
+   "plan_off": 26.428,
+   "heard_off": 26.44,
+   "missed": [
+    [
+     "adds"
+    ]
+   ]
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

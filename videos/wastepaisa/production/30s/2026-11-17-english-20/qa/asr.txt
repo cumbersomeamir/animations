@@ -1,0 +1,27 @@
+English intelligibility and timing evidence: wastepaisa-30s-english20-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.09 | offset plan 1.50 heard 1.47 | heard: these flowers sell twice
+   L2 word acc 0.83 | onset plan 1.82 heard 1.79 | offset plan 4.21 heard 4.19 | heard: first is offerings then as incense
+   L3 word acc 0.86 | onset plan 4.53 heard 4.56 | offset plan 10.45 heard 10.44 | heard: at uci jane's maha call temple women turned its flowers into over thirty million incense sticks
+   L4 word acc 0.91 | onset plan 10.77 heard 10.74 | offset plan 14.21 heard 14.19 | heard: dry the flowers grind them at a binder and mold cones
+   L5 word acc 0.82 | onset plan 14.53 heard 14.56 | offset plan 18.40 heard 18.40 | heard: assume one hundred kilos of free flours make three hundred packs
+   L6 word acc 1.00 | onset plan 18.72 heard 18.72 | offset plan 23.16 heard 23.13 | heard: after binder packing and labor about thirteen hundred rupees is left
+   L7 word acc 0.89 | onset plan 23.44 heard 23.44 | offset plan 26.43 heard 26.44 | heard: ten rupees more per pack ads twenty seven hundred
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.899; every onset/offset within 0.04 s of plan (full record in qa/asr-english-vosk.json)
+   Misses are homophones or near-homophones (as/"is", add/"at", flowers/"flours", adds/"ads", "a hundred"/"one hundred") and
+   out-of-vocabulary names (Ujjain's, Mahakal, the brand).
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   These flowers sell twice. First as offerings, then as incense. At Ujjjain's Mahakal Temple, women turned its flowers into over 30 million incense sticks. Dry the flowers, grind them, add a binder and mold cones. Assume 100 kilos of free flowers, make 300 packs. After binder, packing and labor, about 1300 rupees is left. 10 rupees more per pack adds, 2700. Join Waste PISAW and put your scrap to use.
+   Matches the script word for word apart from two spellings: the brand, and "Ujjjain's" (an extra j, reflecting the doubled-j
+   phoneme fix that brings it closer to the Indian pronunciation "uj-JAIN").
+
+3) Pronunciation fixes (audio/lines.json ph_sub): "Ujjain's" /ʊdʒˈdʒeɪnz/ and "Mahakal" /mʌhɑːˈkɑːl/ ("ma-ha-KAAL") instead of the
+   G2P defaults /ˈʌdʒeɪnz/ and /ˈmæhækəl/ ("MA-ha-kel").
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.53 dBFS, flat factor 0
+   (no clipped runs). The soft bell, coin clinks, whoosh, mould pop, pack pop and profit ping all sit between lines (audio/cues.json).

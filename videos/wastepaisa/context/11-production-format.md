@@ -64,6 +64,19 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
   the hook caption from frame 0 and uses the same composition for the thumbnail). Hook audio starts immediately and promises a specific
   useful answer that the episode delivers. Click-worthy never means misleading.
 
+- **LIVE PUBLISHED-APPS FEEDBACK (2026-11-17, "Satisfied?" = No; latest, applies to WastePaisa only):**
+  - **Keep:** the CTA ("call to action is good now") and the style ("style is perfect").
+  - **Opportunity, not disposal:** pivot hard to how scrap makes money, made evident as an opportunity. No disposal instructions.
+  - **No warnings at all:** the user was emphatic about the earlier burning-copper-wire remark. Never include warnings or disclaimers in
+    narration or on screen; keep the script clean. (english-12 onward already had none; keep it that way.)
+  - **Reference:** content "like this exactly": https://www.instagram.com/p/DfX3COQhs7s/ ("Make Money ! From Hair").
+    - The user suggested downloading it with fastdl. On 17 Nov fastdl.app loaded a Google reCAPTCHA and returned nothing, and the
+      captcha was not bypassed, so the reel is still unviewed.
+    - Apply its pattern: an everyday waste → a surprising money angle → proof that buyers exist → steps → the money.
+  - **Motion:** motion graphics "can be so much better". Every beat shows a moving transformation: objects fly, morph, fill and stack.
+  - **Brief form for WastePaisa:** realistic business economics with the simple open-can mascot and a clean script.
+  - Applied first in english-20 (temple flowers → dhoop cones).
+
 ## User feedback log (latest overrides earlier)
 - **batch-02 (2026-11-02):** "Keep the open-lid can mascot, simplified to one clear cylinder, lid, eyes and two
   limbs; no bolts or complicated rig." "Paper-cut scrap shop unfolds into sorting tray, shredder, furnace
@@ -142,6 +155,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     material, labour, handles, unsold stock and margin, all labelled ASSUMED).
     Old denim into patchwork bags and repair patches (english-19; third make-and-sell episode; sourced ₹20/kg denim price kept apart
     from ASSUMED reject rate, yields, labour and prices; distinct from english-09's wiping rags).
+    Temple flower waste into dhoop cones (english-20; replaced a proposed pallet-to-planter repair-and-cut topic that repeated hindi-04's
+    pallet repair business; PIB 2024 Ujjain proof; assumed batch with labour, unsold packs and a price lever).
   - **Counters:** pop the final rounded figure (e.g. ≈3,000) instead of counting up, so no frame shows an invented exact number
     (english-16 '≈0 MILLION', english-19 '≈2,989').
   - **Never insert a `//` comment mid-line in scene code;** use `/* */` (english-14 and english-19 both broke a line this way).

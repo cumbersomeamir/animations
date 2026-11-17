@@ -1,0 +1,89 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.931,
+  "words": 69,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "These flowers sell twice.",
+      "start": 0.1,
+      "phonemes": "ðiːz flˈaʊɚz sˈɛl twˈaɪs.",
+      "duration": 1.396,
+      "end": 1.496
+    },
+    {
+      "id": "L2",
+      "text": "First as offerings. Then as incense.",
+      "start": 1.82,
+      "phonemes": "fˈɜːst æz ˈɔfɚɹɪŋz. ðˈɛn æz ˈɪnsɛns.",
+      "duration": 2.388,
+      "end": 4.208
+    },
+    {
+      "id": "L3",
+      "text": "At Ujjain's Mahakal temple, women turned its flowers into over 30 million incense sticks.",
+      "tts": "At Ujjain's Mahakal temple, women turned its flowers into over thirty million incense sticks.",
+      "start": 4.53,
+      "ph_sub": [
+        [
+          "ˈʌdʒeɪnz",
+          "ʊdʒdʒˈeɪnz"
+        ],
+        [
+          "mˈæhækəl",
+          "mˌʌhɑːkˈɑːl"
+        ]
+      ],
+      "phonemes": "æɾ ʊdʒdʒˈeɪnz mˌʌhɑːkˈɑːl tˈɛmpəl, wˈɪmɪn tˈɜːnd ɪts flˈaʊɚz ˌɪntʊ ˌoʊvɚ θˈɜːɾi mˈɪliən ˈɪnsɛns stˈɪks.",
+      "duration": 5.921,
+      "end": 10.451
+    },
+    {
+      "id": "L4",
+      "text": "Dry the flowers, grind them, add a binder, and mould cones.",
+      "tts": "Dry the flowers, grind them, add a binder, and mold cones.",
+      "start": 10.77,
+      "phonemes": "dɹˈaɪ ðə flˈaʊɚz, ɡɹˈaɪnd ðˌɛm, ˈæd ɐ bˈaɪndɚ, ænd mˈoʊld kˈoʊnz.",
+      "duration": 3.435,
+      "end": 14.205
+    },
+    {
+      "id": "L5",
+      "text": "Assume a hundred kilos of free flowers make 300 packs.",
+      "tts": "Assume a hundred kilos of free flowers make three hundred packs.",
+      "start": 14.53,
+      "phonemes": "ɐsˈuːm ɐ hˈʌndɹɪd kˈiːloʊz ʌv fɹˈiː flˈaʊɚz mˌeɪk θɹˈiː hˈʌndɹɪd pˈæks.",
+      "duration": 3.873,
+      "end": 18.403
+    },
+    {
+      "id": "L6",
+      "text": "After binder, packing and labour, about ₹1,300 is left.",
+      "tts": "After binder, packing and labor, about thirteen hundred rupees is left.",
+      "start": 18.72,
+      "phonemes": "ˈæftɚ bˈaɪndɚ, pˈækɪŋ ænd lˈeɪbɚ, ɐbˌaʊt θˈɜːtiːn hˈʌndɹɪd ɹˈuːpiːz ɪz lˈɛft.",
+      "duration": 4.445,
+      "end": 23.165
+    },
+    {
+      "id": "L7",
+      "text": "Ten rupees more per pack adds ₹2,700.",
+      "tts": "Ten rupees more per pack adds twenty-seven hundred.",
+      "start": 23.44,
+      "phonemes": "tˈɛn ɹˈuːpiːz mˈɔːɹ pɜː pˈæk ˈædz twˈɛntisˈɛvən hˈʌndɹɪd.",
+      "duration": 2.988,
+      "end": 26.428
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

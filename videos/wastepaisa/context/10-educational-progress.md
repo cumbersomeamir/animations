@@ -540,6 +540,37 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Cords crossing the thumbnail words (now a clothes rail).
   - A count-up showing "≈2,989" (now pops at ≈3,000).
 
+## english-20 (2026-11-17-english-20) episode 01: COMPLETE (English)
+- **Topic:** the proposed pallet-to-planter "repair-and-cut" unit repeated hindi-04's pallet repair business. Hair (the reference reel's
+  subject) was rejected again: thin price data and DGFT export rules. Chosen instead: temple flower waste dried, ground and moulded into
+  dhoop cones.
+  - Spine: these flowers sell twice, first as offerings and then as incense. Proof: at Ujjain's Mahakal temple, women turned its
+    flowers into over 30 million incense sticks (PIB, 2024). Method: dry, grind, add a binder, mould cones.
+  - Assumed batch: 100 kg of free flowers → 300 packs; 270 sold at ₹40, 30 unsold; binder, packing and labour ₹9,500; ≈ ₹1,300 left.
+  - Lever: ₹10 more per pack adds ₹2,700.
+- **Live feedback 2026-11-17 applied and saved in context 11:**
+  - Opportunity-first and zero warnings; CTA and style kept; stronger motion.
+  - The reference reel could not be downloaded: fastdl showed a reCAPTCHA, which was not bypassed.
+- **First-frame rule:** frame 0 shows marigolds falling from a garland into a smoking pyramid of dhoop cones beside a pack, with "These
+  flowers sell twice." on screen and the voice at 0.10 s; the thumbnail is the same composition with "THESE FLOWERS SELL TWICE".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-17-english-20/wastepaisa-30s-english20-01.mp4`,
+  SHA-256 `1665089698bc4de13f72ae66fb4ac3fe09ebf18ac11760cb24a9949e1eff6249`; thumbnail `wastepaisa-30s-english20-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 135.5–864.5, y 351–509; hook caption at frame 0.
+  - Timing within ±0.04 s.
+  - Vosk mean 0.899 (homophones and names); Whisper word for word apart from the brand and the Ujjain spelling.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - PIB / Ministry of Housing & Urban Affairs, 20 Sep 2024 (Ujjain 5–6 t/day, 3 TPD plant, SHG over 30 million sticks; Phool 21 t/week).
+  - CSIR-CIMAP flower-to-incense technology (PSA portal).
+  - The Better India 2024 on Aaruhi (sort, sun-dry, pulverise; ~1,000 kg/month; products ₹50–350).
+  - The Tribune 2019 (Jammu unit).
+  - Episode record: `context/33-english-20-01.md`. No automation.
+- **Fixed during QA:** script length, place-name pronunciation, a sparse frame 0 (now a visible flower stream) and the price-flip
+  timing.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
