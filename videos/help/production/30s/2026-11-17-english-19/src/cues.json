@@ -1,0 +1,24 @@
+{
+ "fps": 30, "duration": 30.0,
+ "voiceStarts": [0.1, 3.55, 5.47, 6.55, 11.31, 14.93, 20.35, 23.64, 27.1],
+ "scenes": {
+  "A_hook_grain": [0.0, 3.4],
+  "B_viral": [3.4, 6.4],
+  "D_kernel": [6.4, 11.15],
+  "E_nutrients": [11.15, 14.8],
+  "F_lab": [14.8, 20.2],
+  "G_schemes": [20.2, 23.5],
+  "H_payoff": [23.5, 26.9],
+  "I_cta": [26.9, 30.0]
+ },
+ "cues": {
+  "q": 5.5,
+  "flour": 8.0, "nutri": 8.85, "shaped": 9.75,
+  "iron": 11.7, "folic": 12.4, "b12": 13.9,
+  "sample": 16.6, "result": 17.85, "notPlastic": 19.1,
+  "s1": 20.4, "s2": 21.75, "s3": 22.6,
+  "back": 23.8, "cook": 24.85, "done": 26.2,
+  "logo": 27.0, "lucknow": 28.2, "dimEnd": 29.3
+ },
+ "notes": "Story map (first-frame rule): frame 0 = plate of rice, a hand pinching one odd-looking (fortified) kernel + WHY THIS GRAIN?, lamps full, voice at 0.1 s; 0-3.4 hook, 3.4-6.4 escalation + question, 6.4-20.2 proof (how a kernel is made, nutrients, Nagaland lab test), 20.2-23.5 scale, 23.5-26.9 payoff, 26.9-30 CTA. Tick SFX only in pauses; nothing under the first word."
+}

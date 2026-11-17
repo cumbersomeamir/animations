@@ -1,0 +1,139 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 124,
+  "x1": 876,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "That odd-looking grain",
+   "fs": 66,
+   "x0": 127,
+   "x1": 873,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 16
+  },
+  {
+   "text": "in your ration / rice isn't plastic.",
+   "fs": 56,
+   "x0": 269,
+   "x1": 731,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 66
+  },
+  {
+   "text": "Viral videos / claimed it was.",
+   "fs": 56,
+   "x0": 293,
+   "x1": 707,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 130
+  },
+  {
+   "text": "So what is it?",
+   "fs": 66,
+   "x0": 285,
+   "x1": 715,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 175
+  },
+  {
+   "text": "A fortified kernel:",
+   "fs": 66,
+   "x0": 212,
+   "x1": 788,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 215
+  },
+  {
+   "text": "rice flour plus nutrients, / shaped like a grain.",
+   "fs": 56,
+   "x0": 165,
+   "x1": 835,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 286
+  },
+  {
+   "text": "It adds iron, folic / acid and vitamin B12.",
+   "fs": 56,
+   "x0": 208,
+   "x1": 792,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 389
+  },
+  {
+   "text": "Nagaland's food lab / tested a viral sample:",
+   "fs": 56,
+   "x0": 205,
+   "x1": 795,
+   "y0": 377,
+   "y1": 495,
+   "firstFrame": 488
+  },
+  {
+   "text": "fortified rice, / not plastic.",
+   "fs": 56,
+   "x0": 317,
+   "x1": 683,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 569
+  },
+  {
+   "text": "Since 2024, government / schemes supply it.",
+   "fs": 56,
+   "x0": 158,
+   "x1": 842,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 655
+  },
+  {
+   "text": "So don't pick them out:",
+   "fs": 66,
+   "x0": 124,
+   "x1": 876,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 723
+  },
+  {
+   "text": "cook them / with the rest.",
+   "fs": 56,
+   "x0": 317,
+   "x1": 683,
+   "y0": 379,
+   "y1": 484,
+   "firstFrame": 767
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

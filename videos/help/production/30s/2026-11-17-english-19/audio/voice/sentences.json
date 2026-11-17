@@ -1,0 +1,74 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "That odd-looking grain in your ration rice isn't plastic.",
+   "dur": 3.153,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Viral videos claimed it was.",
+   "dur": 1.616,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "So what is it?",
+   "dur": 0.78,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "A fortified kernel: rice flour plus nutrients, shaped like a grain.",
+   "dur": 4.459,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "It adds iron, folic acid and vitamin B12.",
+   "tts": "It adds iron, folic acid and vitamin B twelve.",
+   "dur": 3.322,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Nagaland's food lab tested a viral sample: fortified rice, not plastic.",
+   "tts": "Naagaaland's food lab tested a viral sample: fortified rice, not plastic.",
+   "dur": 5.122,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Since 2024, government schemes supply it.",
+   "tts": "Since twenty twenty-four, government schemes supply it.",
+   "dur": 2.989,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "So don't pick them out: cook them with the rest.",
+   "dur": 2.421,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

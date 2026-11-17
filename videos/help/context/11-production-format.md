@@ -291,3 +291,10 @@ Each episode explains a documented, real model or mechanism (not a vague appeal,
   explicit glow; judge it on frame 0 at phone size.
 - Temperature/energy figures stay out of the script unless the brief allows them; note the source ranges in the record only.
 
+## Update 2026-11-17 (batch 19) — english-19 lessons
+- Topic gate: school meals stay covered (english-15) — a "procurement to plate" retelling counts as the same subject. Fortified rice kernels
+  ("not plastic") now covered by english-19.
+- Every scene needs a visible anchor from its slide-in: objects that scale in on a voice cue leave an empty frame at the boundary (english-19 schemes
+  scene) — keep one prop present from the start and reveal the rest.
+- Re-verify the store icon on the day of each episode before writing "re-downloaded" in QA/records.
+

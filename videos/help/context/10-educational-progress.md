@@ -162,3 +162,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 ## 2026-11-15 (batch 18) — english-18, 30 s #01 (English; "Same sun. Two roofs." — cool roofs) — DONE
 - Output `videos/help/production/30s/2026-11-15-english-18/help-30s-english18-01.mp4`, SHA-256 `198bd1a31888e452fff08ad137bfafed2ea36e6a2aa3e14bfff06b2a82ab466e`; thumbnail `help-30s-english18-thumbnail.png`.
 - Topic + production notes: `31-production-30s-english18-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-15, batch 18). No automation created.
+
+## 2026-11-17 (batch 19) — english-19, 30 s #01 (English; "Why this grain?" — fortified rice kernels; proposed school-meal topic was covered) — DONE
+- Output `videos/help/production/30s/2026-11-17-english-19/help-30s-english19-01.mp4`, SHA-256 `d691315b9a668f133542f6680e2cb740a13d823078012fe1d435d97b1a56727b`; thumbnail `help-30s-english19-thumbnail.png`.
+- Topic + production notes: `32-production-30s-english19-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-17). No automation created.
