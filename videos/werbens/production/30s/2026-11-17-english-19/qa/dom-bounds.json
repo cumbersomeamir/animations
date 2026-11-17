@@ -1,0 +1,35 @@
+{
+  "rules": "caption + frame-0 headline x100-900 y230-1500; labels x100-900 y560-1500; nothing in y<300; one big label at a time; headline never with caption/label",
+  "caption": {
+    "minTop": 369,
+    "maxBottom": 489,
+    "minLeft": 152,
+    "maxRight": 848,
+    "maxLines": 2,
+    "pillTop": 353,
+    "pillBottom": 507,
+    "pillLeft": 122,
+    "pillRight": 878
+  },
+  "captionOutside": [],
+  "labels": {
+    "minLeft": 173,
+    "maxRight": 827,
+    "minTop": 574,
+    "maxBottom": 1453
+  },
+  "headline": {
+    "frames": 5,
+    "minLeft": 117,
+    "maxRight": 883,
+    "minTop": 330,
+    "maxBottom": 573
+  },
+  "headlineConflicts": [],
+  "labelInTop300": [],
+  "labelOutsideSafe": [],
+  "labelUnderCaption": [],
+  "labelOverlaps": [],
+  "multiBig": [],
+  "samples": 300
+}
