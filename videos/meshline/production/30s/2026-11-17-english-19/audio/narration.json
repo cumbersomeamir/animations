@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Two radios listen first, hear silence, and still collide. How?"
+    },
+    {
+      "id": "l2",
+      "start": 4.95,
+      "text": "The left and right phones both reach the middle one, but not each other."
+    },
+    {
+      "id": "l3",
+      "start": 9.43,
+      "text": "So both hear silence, send, and their signals clash in the middle."
+    },
+    {
+      "id": "l4",
+      "start": 13.94,
+      "text": "Listening happens at the sender. Collisions happen at the receiver."
+    },
+    {
+      "id": "l5",
+      "start": 18.14,
+      "text": "So Wi-Fi can ask first, and the middle replies: clear to send."
+    },
+    {
+      "id": "l6",
+      "start": 22.33,
+      "text": "The far side catches that reply too, and waits its turn."
+    },
+    {
+      "id": "l7",
+      "start": 26.29,
+      "text": "Message people nearby, even offline, with Meshline."
+    }
+  ]
+}

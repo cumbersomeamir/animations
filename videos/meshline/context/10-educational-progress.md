@@ -116,3 +116,6 @@
 ## Production 2026-11-15-english-18 (English, why a route that worked a minute ago can fail now): complete
 - See `31-production-30s-english18-01.md`; output sha256 `3b5950838589f3ccb697e93b170eeaabbd2faf39efc0724c469dc878f4153394`; thumbnail = frame-zero composition.
 - New topic: mobility breaks mesh routes; hellos (RFC 3561 defaults), stale route, route error, route request/reply; generic principle, no Meshline routing claim.
+
+## Production 2026-11-17-english-19 (English, why two nearby radios can collide without hearing each other): complete
+- See `32-production-30s-english19-01.md`; output sha256 `504cd9325ebab6061f1717b6fc2fa8810bb5a7c20bdccdbe0ae3cda7a9340ae4`; thumbnail = frame-zero composition.

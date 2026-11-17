@@ -79,3 +79,6 @@
 
 ## Production 2026-11-15-english-18 (English, route breaks and rediscovery)
 - Done. Output `production/30s/2026-11-15-english-18/meshline-30s-english18-01.mp4`, sha256 `3b595083…3394`, plus a thumbnail equal to frame zero. Details are in `31-production-30s-english18-01.md`.
+
+## Production 2026-11-17-english-19 (English, hidden-terminal collisions and turn-taking)
+- Done. Output `production/30s/2026-11-17-english-19/meshline-30s-english19-01.mp4`, sha256 `504cd932…0ae4`, plus a thumbnail equal to frame zero. Details are in `32-production-30s-english19-01.md`.

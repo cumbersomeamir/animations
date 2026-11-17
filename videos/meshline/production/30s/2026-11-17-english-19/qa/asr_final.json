@@ -1,0 +1,55 @@
+{
+ "reference": "Two radios listen first, hear silence, and still collide. How? The left and right phones both reach the middle one, but not each other. So both hear silence, send, and their signals clash in the middle. Listening happens at the sender. Collisions happen at the receiver. So Wi-Fi can ask first, and the middle replies: clear to send. The far side catches that reply too, and waits its turn. Message people nearby, even offline, with Meshline.",
+ "asr": "Two radios listen first, hear silence and still collide. How? The left and right phones both reach the middle one, but not each other. So both hear silence, send, and their signals clash in the middle. Listening happens at the sender. Collisions happen at the receiver. So Wi-Fi can ask first and the middle replies, clear to send. The far side catches that reply too and waits its turn. Message people nearby, even offline with meshline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.7,
+   "Two radios listen first, hear silence and still collide."
+  ],
+  [
+   3.7,
+   4.7,
+   "How?"
+  ],
+  [
+   4.7,
+   9.2,
+   "The left and right phones both reach the middle one, but not each other."
+  ],
+  [
+   9.2,
+   13.7,
+   "So both hear silence, send, and their signals clash in the middle."
+  ],
+  [
+   13.7,
+   15.7,
+   "Listening happens at the sender."
+  ],
+  [
+   15.7,
+   18.0,
+   "Collisions happen at the receiver."
+  ],
+  [
+   18.0,
+   22.1,
+   "So Wi-Fi can ask first and the middle replies, clear to send."
+  ],
+  [
+   22.1,
+   26.0,
+   "The far side catches that reply too and waits its turn."
+  ],
+  [
+   26.0,
+   29.9,
+   "Message people nearby, even offline with meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "none needed (no digits; lower-case, punctuation stripped)",
+ "audio_pcm_sha256_prefix": "5c4f5e4bf9ff99cc"
+}

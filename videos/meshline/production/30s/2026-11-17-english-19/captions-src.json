@@ -1,0 +1,9 @@
+{
+ "l1": [[["Two radios listen first,", "hear silence,"], "Two"], [["and still collide.", "How?"], "and"]],
+ "l2": [[["The left and right phones", "both reach the middle one,"], "The"], [["but not each other."], "but"]],
+ "l3": [[["So both hear silence,", "send,"], "So"], [["and their signals", "clash in the middle."], "and"]],
+ "l4": [[["Listening happens", "at the sender."], "Listening"], [["Collisions happen", "at the receiver."], "Collisions"]],
+ "l5": [[["So Wi-Fi can ask first,"], "So"], [["and the middle replies:", "clear to send."], "and"]],
+ "l6": [[["The far side catches", "that reply too,"], "The"], [["and waits its turn."], "and"]],
+ "l7": [[["Message people nearby,", "even offline, with Meshline."], "Message"]]
+}

@@ -1,0 +1,77 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "Two radios listen first, hear silence, and still collide. How?",
+      "file": "l1.wav",
+      "sr": 24000,
+      "duration": 4.122,
+      "end": 4.372
+    },
+    {
+      "id": "l2",
+      "start": 4.95,
+      "text": "The left and right phones both reach the middle one, but not each other.",
+      "file": "l2.wav",
+      "sr": 24000,
+      "duration": 3.906,
+      "end": 8.857
+    },
+    {
+      "id": "l3",
+      "start": 9.43,
+      "text": "So both hear silence, send, and their signals clash in the middle.",
+      "file": "l3.wav",
+      "sr": 24000,
+      "duration": 3.93,
+      "end": 13.36
+    },
+    {
+      "id": "l4",
+      "start": 13.94,
+      "text": "Listening happens at the sender. Collisions happen at the receiver.",
+      "file": "l4.wav",
+      "sr": 24000,
+      "duration": 3.623,
+      "end": 17.563
+    },
+    {
+      "id": "l5",
+      "start": 18.14,
+      "text": "So Wi-Fi can ask first, and the middle replies: clear to send.",
+      "file": "l5.wav",
+      "sr": 24000,
+      "duration": 3.617,
+      "end": 21.757
+    },
+    {
+      "id": "l6",
+      "start": 22.33,
+      "text": "The far side catches that reply too, and waits its turn.",
+      "file": "l6.wav",
+      "sr": 24000,
+      "duration": 3.361,
+      "end": 25.691
+    },
+    {
+      "id": "l7",
+      "start": 26.29,
+      "text": "Message people nearby, even offline, with Meshline.",
+      "file": "l7.wav",
+      "sr": 24000,
+      "duration": 3.265,
+      "end": 29.555
+    }
+  ]
+}

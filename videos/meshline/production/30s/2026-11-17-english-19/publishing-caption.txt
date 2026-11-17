@@ -1,0 +1,9 @@
+Two radios listen first, hear silence, and still collide. How?
+
+The left and right phones both reach the middle one, but not each other. So both hear silence, send, and their signals clash in the middle. Listening happens at the sender. Collisions happen at the receiver.
+
+So Wi-Fi can ask first, and the middle replies: clear to send. The far side catches that reply too, and waits its turn.
+
+Message people nearby, even offline, with Meshline.
+
+#wireless #networking #techtips #Meshline
