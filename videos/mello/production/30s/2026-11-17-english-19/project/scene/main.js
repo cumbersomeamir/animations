@@ -465,6 +465,7 @@ function setEpisode(t) {
   if (M_FLIPF.map !== fl.t) { M_FLIPF.map = fl.t; M_FLIPF.needsUpdate = true; }
   flipPivot.visible = flipOn && fa < 0.999; flipPivot.rotation.y = -1.95 * eio(fa);
   calG.visible = !(t >= S.s3 && t < S.s5);   // the cards get a clean background
+  fig.visible = calG.visible; footBlobs.forEach(b => { b.visible = calG.visible; });
   // S6: the old page with its slip-ups drifts away behind the calendar
   const d = t >= S.s6 && t < S.s7 ? clamp(remap(t, T.driftA, T.driftB)) : -1;
   drift.visible = d >= 0; if (drift.visible) { calG.updateMatrixWorld(true);
@@ -492,7 +493,7 @@ const SHOTS = [
   // S3 the card: one study, a week strip, March 20
   { a: S.s3, b: S.s4, k0: [V(0.1, 1.56, 0.15), 4, 4, 3.4, 30], k1: [V(0.1, 1.56, 0.15), 0, 4, 3.3, 30] },
   // S4 the card from a new angle: third Thursday 7% vs first day of spring 26%
-  { a: S.s4, b: S.s5, k0: [V(0.1, 1.55, 0.15), -14, 7, 3.45, 30], k1: [V(0.1, 1.55, 0.15), -9, 7, 3.35, 30] },
+  { a: S.s4, b: S.s5, k0: [V(0.17, 1.6, 0.15), -30, -5, 3.35, 30], k1: [V(0.17, 1.6, 0.15), -24, -5, 3.3, 30] },
   // S5 the calendar swings to SUMMER BREAK, DAY 1
   { a: S.s5, b: S.s6, k0: [V(0.29, 1.5, -0.7), 14, 5, 4.45, 30], k1: [V(0.29, 1.5, -0.7), 9, 5, 4.25, 30] },
   // S6 the old page with its slip-ups drifts away into the back of the room

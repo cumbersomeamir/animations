@@ -40,6 +40,11 @@ The source is a copy of `../../2026-11-15-english-18/project/` (renderer, audit,
 5. The calendar was hidden in the card shots for a clean background.
 6. Audit (pre-render): the page's text area was 1–15 px past the left margin in S2/S5 and 8 px into the right rail early in S7. The cameras were nudged 0.03–0.04 m.
 7. `BED_GAIN` went from 0.50 to 0.44 (11.8 → 12.9 dB). ASR is exact on the narration and on the mix ("20th" normalised).
+8. Render 1 (sha256 `2ff4ef92…`, superseded and overwritten at the same path) passed 15 of 16 checks. `cuts_on_plan` failed: the S3→S4 cut (frame 237) changed the frame by only 8.8 (it needs more than 10), because both shots were the same card on a plain background, only 5° apart.
+   - S4 now looks up at the card from a low angle (el −5°, az −30°→−24°); the cut contrast measured on stills is 19.4.
+   - S4's target moved to x 0.17 to keep the card clear of the right rail (dark card x 82–894).
+   - The performer is hidden during the two card shots (his head peeked in at the frame edge).
+   - Render 2 is the final.
 
 ## Commands
 ```bash
