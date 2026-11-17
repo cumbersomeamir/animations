@@ -112,3 +112,7 @@
 ## Production 2026-11-15-english-17 (English, why one message can fill the air): complete
 - See `30-production-30s-english17-01.md`; output sha256 `7c3afa1eaa68f90eb66d61c781da7dd68c5ca39b3b8d825cb068261160b43d99`; thumbnail = frame-zero composition.
 - Core topic flood control (hop count + seen-it list, simulated 111 vs 11 transmissions); ack/retry kept to one beat since 08/17 partly covered it.
+
+## Production 2026-11-15-english-18 (English, why a route that worked a minute ago can fail now): complete
+- See `31-production-30s-english18-01.md`; output sha256 `3b5950838589f3ccb697e93b170eeaabbd2faf39efc0724c469dc878f4153394`; thumbnail = frame-zero composition.
+- New topic: mobility breaks mesh routes; hellos (RFC 3561 defaults), stale route, route error, route request/reply; generic principle, no Meshline routing claim.

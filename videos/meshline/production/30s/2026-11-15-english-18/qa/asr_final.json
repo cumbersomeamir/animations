@@ -1,0 +1,60 @@
+{
+ "reference": "This route worked a minute ago. Now the message is stuck. Why? In a mesh, a route is a chain of phones, and phones move. Neighbours often say hello every second. Miss two, and the link is treated as lost. The route is now stale, so the break is reported back. Then a route request spreads, and a reply returns along a fresh path. A route is a snapshot, not a promise. For private nearby messaging, even offline, try Meshline.",
+ "asr": "This route worked a minute ago. Now the message is stuck. Why? In a mesh, a route is a chain of phones, and phones move. Neighbors often say hello every second. Miss two, and the link is treated as lost. The route is now stale, so the break is reported back. Then a route requests spreads, and a reply returns along a fresh path. A route is a snapshot, not a promise. Private nearby messaging, even offline tri-meshline.",
+ "wer": 0.05,
+ "segments": [
+  [
+   0.0,
+   4.0,
+   "This route worked a minute ago. Now the message is stuck. Why?"
+  ],
+  [
+   4.0,
+   8.0,
+   "In a mesh, a route is a chain of phones, and phones move."
+  ],
+  [
+   8.0,
+   11.0,
+   "Neighbors often say hello every second."
+  ],
+  [
+   11.0,
+   14.0,
+   "Miss two, and the link is treated as lost."
+  ],
+  [
+   14.0,
+   18.0,
+   "The route is now stale, so the break is reported back."
+  ],
+  [
+   18.0,
+   23.0,
+   "Then a route requests spreads, and a reply returns along a fresh path."
+  ],
+  [
+   23.0,
+   26.0,
+   "A route is a snapshot, not a promise."
+  ],
+  [
+   26.0,
+   30.0,
+   "Private nearby messaging, even offline tri-meshline."
+  ]
+ ],
+ "wer_number_normalized": 0.025,
+ "normalization": "US\u2192UK spelling (neighbors\u2192neighbours), hyphen split (\"tri-meshline\"\u2192\"try meshline\"); no digits in this script",
+ "remaining_diffs": [
+  [
+   "request",
+   "requests"
+  ],
+  [
+   "for",
+   ""
+  ]
+ ],
+ "audio_pcm_sha256_prefix": "c2016fc81d48c2e9"
+}

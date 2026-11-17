@@ -1,0 +1,9 @@
+This route worked a minute ago. Now the message is stuck. Why?
+
+In a mesh, a route is a chain of phones, and phones move. Neighbours often say hello every second. Miss two, and the link is treated as lost. The route is now stale, so the break is reported back. Then a route request spreads, and a reply returns along a fresh path.
+
+A route is a snapshot, not a promise.
+
+For private nearby messaging, even offline, try Meshline.
+
+#mesh #networking #techtips #Meshline

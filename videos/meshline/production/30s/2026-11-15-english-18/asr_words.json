@@ -1,0 +1,411 @@
+{
+ "l1": [
+  {
+   "w": "This",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "route",
+   "start": 0.16,
+   "end": 0.32
+  },
+  {
+   "w": "worked",
+   "start": 0.32,
+   "end": 0.66
+  },
+  {
+   "w": "a",
+   "start": 0.66,
+   "end": 0.82
+  },
+  {
+   "w": "minute",
+   "start": 0.82,
+   "end": 0.94
+  },
+  {
+   "w": "ago.",
+   "start": 0.94,
+   "end": 1.18
+  },
+  {
+   "w": "Now",
+   "start": 1.8,
+   "end": 1.8
+  },
+  {
+   "w": "the",
+   "start": 1.8,
+   "end": 1.96
+  },
+  {
+   "w": "message",
+   "start": 1.96,
+   "end": 2.22
+  },
+  {
+   "w": "is",
+   "start": 2.22,
+   "end": 2.42
+  },
+  {
+   "w": "stuck.",
+   "start": 2.42,
+   "end": 2.68
+  }
+ ],
+ "l2": [
+  {
+   "w": "In",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "a",
+   "start": 0.08,
+   "end": 0.12
+  },
+  {
+   "w": "mesh,",
+   "start": 0.12,
+   "end": 0.38
+  },
+  {
+   "w": "a",
+   "start": 0.62,
+   "end": 0.66
+  },
+  {
+   "w": "route",
+   "start": 0.66,
+   "end": 0.86
+  },
+  {
+   "w": "is",
+   "start": 0.86,
+   "end": 1.08
+  },
+  {
+   "w": "a",
+   "start": 1.08,
+   "end": 1.14
+  },
+  {
+   "w": "chain",
+   "start": 1.14,
+   "end": 1.34
+  },
+  {
+   "w": "of",
+   "start": 1.34,
+   "end": 1.48
+  },
+  {
+   "w": "phones,",
+   "start": 1.48,
+   "end": 1.78
+  },
+  {
+   "w": "and",
+   "start": 2.3,
+   "end": 2.38
+  },
+  {
+   "w": "phones",
+   "start": 2.38,
+   "end": 2.64
+  },
+  {
+   "w": "move.",
+   "start": 2.64,
+   "end": 2.98
+  }
+ ],
+ "l3": [
+  {
+   "w": "Neighbors",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "often",
+   "start": 0.32,
+   "end": 0.54
+  },
+  {
+   "w": "say",
+   "start": 0.54,
+   "end": 0.96
+  },
+  {
+   "w": "hello",
+   "start": 0.96,
+   "end": 1.28
+  },
+  {
+   "w": "every",
+   "start": 1.28,
+   "end": 1.64
+  },
+  {
+   "w": "second.",
+   "start": 1.64,
+   "end": 2.06
+  },
+  {
+   "w": "Miss",
+   "start": 2.78,
+   "end": 2.8
+  },
+  {
+   "w": "Two",
+   "start": 2.8,
+   "end": 3.04
+  },
+  {
+   "w": "and",
+   "start": 3.04,
+   "end": 3.56
+  },
+  {
+   "w": "the",
+   "start": 3.56,
+   "end": 3.66
+  },
+  {
+   "w": "link",
+   "start": 3.66,
+   "end": 3.8
+  },
+  {
+   "w": "is",
+   "start": 3.8,
+   "end": 4.04
+  },
+  {
+   "w": "treated",
+   "start": 4.04,
+   "end": 4.3
+  },
+  {
+   "w": "as",
+   "start": 4.3,
+   "end": 4.6
+  },
+  {
+   "w": "lost.",
+   "start": 4.6,
+   "end": 4.84
+  }
+ ],
+ "l4": [
+  {
+   "w": "The",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "route",
+   "start": 0.08,
+   "end": 0.2
+  },
+  {
+   "w": "is",
+   "start": 0.2,
+   "end": 0.5
+  },
+  {
+   "w": "now",
+   "start": 0.5,
+   "end": 0.68
+  },
+  {
+   "w": "stale,",
+   "start": 0.68,
+   "end": 0.98
+  },
+  {
+   "w": "so",
+   "start": 1.48,
+   "end": 1.66
+  },
+  {
+   "w": "the",
+   "start": 1.66,
+   "end": 1.76
+  },
+  {
+   "w": "break",
+   "start": 1.76,
+   "end": 1.92
+  },
+  {
+   "w": "is",
+   "start": 1.92,
+   "end": 2.16
+  },
+  {
+   "w": "reported",
+   "start": 2.16,
+   "end": 2.4
+  },
+  {
+   "w": "back.",
+   "start": 2.4,
+   "end": 2.84
+  }
+ ],
+ "l5": [
+  {
+   "w": "Then",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "a",
+   "start": 0.1,
+   "end": 0.16
+  },
+  {
+   "w": "route",
+   "start": 0.16,
+   "end": 0.34
+  },
+  {
+   "w": "requests",
+   "start": 0.34,
+   "end": 0.78
+  },
+  {
+   "w": "spreads,",
+   "start": 0.78,
+   "end": 1.14
+  },
+  {
+   "w": "and",
+   "start": 1.8,
+   "end": 1.86
+  },
+  {
+   "w": "a",
+   "start": 1.86,
+   "end": 1.94
+  },
+  {
+   "w": "reply",
+   "start": 1.94,
+   "end": 2.22
+  },
+  {
+   "w": "returns",
+   "start": 2.22,
+   "end": 2.7
+  },
+  {
+   "w": "along",
+   "start": 2.7,
+   "end": 3.06
+  },
+  {
+   "w": "a",
+   "start": 3.06,
+   "end": 3.28
+  },
+  {
+   "w": "fresh",
+   "start": 3.28,
+   "end": 3.48
+  },
+  {
+   "w": "path.",
+   "start": 3.48,
+   "end": 3.9
+  }
+ ],
+ "l6": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.04
+  },
+  {
+   "w": "route",
+   "start": 0.04,
+   "end": 0.2
+  },
+  {
+   "w": "is",
+   "start": 0.2,
+   "end": 0.42
+  },
+  {
+   "w": "a",
+   "start": 0.42,
+   "end": 0.5
+  },
+  {
+   "w": "snapshot,",
+   "start": 0.5,
+   "end": 0.74
+  },
+  {
+   "w": "not",
+   "start": 1.18,
+   "end": 1.26
+  },
+  {
+   "w": "a",
+   "start": 1.26,
+   "end": 1.32
+  },
+  {
+   "w": "promise.",
+   "start": 1.32,
+   "end": 1.54
+  }
+ ],
+ "l7": [
+  {
+   "w": "for",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "private",
+   "start": 0.1,
+   "end": 0.44
+  },
+  {
+   "w": "nearby",
+   "start": 0.44,
+   "end": 0.66
+  },
+  {
+   "w": "messaging,",
+   "start": 0.66,
+   "end": 1.26
+  },
+  {
+   "w": "even",
+   "start": 1.74,
+   "end": 2.04
+  },
+  {
+   "w": "offline",
+   "start": 2.04,
+   "end": 2.42
+  },
+  {
+   "w": "tri",
+   "start": 2.42,
+   "end": 2.9
+  },
+  {
+   "w": "-meshline.",
+   "start": 2.9,
+   "end": 3.46
+  }
+ ]
+}

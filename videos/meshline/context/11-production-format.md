@@ -272,4 +272,10 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Still unused planned titles:** what 5G changes; how a phone picks a tower.
 - **TTS wording:** "copies" is misheard at the start of a line ("cop is"); prefer "repeats".
 - **Simulated counters:** when a counter shows a count, derive it from the same simulation that drives the visuals, and state in `claims.md` that it is illustrative.
+| 20 | 2026-11-15-english-18 | Why a route that worked a minute ago can fail now (mobility, hellos, stale route, route request/reply), **English** + thumbnail | `production/30s/2026-11-15-english-18/meshline-30s-english18-01.mp4` |
+
+## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
+- **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
+- **Brief tweak applied:** brighten the frame-zero hook and enlarge only the essential labels (no redesign).
+- **Layout guard:** keep beat labels above the instrument (their screen y must stay < 1400 at the beat's zoom), and give a static, veiled CTA a slow camera push so the freeze check stays clean.
 

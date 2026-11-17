@@ -1,0 +1,268 @@
+{
+ "rule": "ink y in [350,470], ink and plate x in [100,900], plate y in [230,1500]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 1.96,
+   "lines": [
+    "This route worked",
+    "a minute ago."
+   ],
+   "ink": {
+    "x0": 284,
+    "x1": 713,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 252,
+    "x1": 748,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 2,
+   "b": 4.159,
+   "lines": [
+    "Now the message is stuck.",
+    "Why?"
+   ],
+   "ink": {
+    "x0": 183,
+    "x1": 817,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 149,
+    "x1": 851,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 4.51,
+   "b": 6.77,
+   "lines": [
+    "In a mesh, a route",
+    "is a chain of phones,"
+   ],
+   "ink": {
+    "x0": 259,
+    "x1": 739,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 226,
+    "x1": 774,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l2b",
+   "a": 6.81,
+   "b": 8.182,
+   "lines": [
+    "and phones move."
+   ],
+   "ink": {
+    "x0": 283,
+    "x1": 715,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 250,
+    "x1": 750,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 8.53,
+   "b": 11.27,
+   "lines": [
+    "Neighbours often say",
+    "hello every second."
+   ],
+   "ink": {
+    "x0": 247,
+    "x1": 754,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 213,
+    "x1": 787,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 11.31,
+   "b": 14.18,
+   "lines": [
+    "Miss two, and the link",
+    "is treated as lost."
+   ],
+   "ink": {
+    "x0": 245,
+    "x1": 757,
+    "y0": 360,
+    "y1": 458
+   },
+   "plate": {
+    "x0": 210,
+    "x1": 790,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 14.52,
+   "b": 15.96,
+   "lines": [
+    "The route is now stale,"
+   ],
+   "ink": {
+    "x0": 232,
+    "x1": 766,
+    "y0": 360,
+    "y1": 405
+   },
+   "plate": {
+    "x0": 199,
+    "x1": 801,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 16,
+   "b": 18.034,
+   "lines": [
+    "so the break",
+    "is reported back."
+   ],
+   "ink": {
+    "x0": 301,
+    "x1": 698,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 267,
+    "x1": 733,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 18.38,
+   "b": 20.14,
+   "lines": [
+    "Then a route request spreads,"
+   ],
+   "ink": {
+    "x0": 142,
+    "x1": 855,
+    "y0": 360,
+    "y1": 408
+   },
+   "plate": {
+    "x0": 110,
+    "x1": 890,
+    "y0": 334,
+    "y1": 426
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 20.18,
+   "b": 22.903,
+   "lines": [
+    "and a reply returns",
+    "along a fresh path."
+   ],
+   "ink": {
+    "x0": 277,
+    "x1": 723,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 243,
+    "x1": 757,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 23.25,
+   "b": 25.536,
+   "lines": [
+    "A route is a snapshot,",
+    "not a promise."
+   ],
+   "ink": {
+    "x0": 242,
+    "x1": 754,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 211,
+    "x1": 789,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.79,
+   "b": 29.852,
+   "lines": [
+    "For private nearby messaging,",
+    "even offline, try Meshline."
+   ],
+   "ink": {
+    "x0": 140,
+    "x1": 859,
+    "y0": 360,
+    "y1": 468
+   },
+   "plate": {
+    "x0": 106,
+    "x1": 894,
+    "y0": 334,
+    "y1": 486
+   },
+   "pass": true
+  }
+ ]
+}

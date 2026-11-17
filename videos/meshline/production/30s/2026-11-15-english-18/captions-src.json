@@ -1,0 +1,9 @@
+{
+ "l1": [[["This route worked", "a minute ago."], "This"], [["Now the message is stuck.", "Why?"], "Now"]],
+ "l2": [[["In a mesh, a route", "is a chain of phones,"], "In"], [["and phones move."], "and"]],
+ "l3": [[["Neighbours often say", "hello every second."], "Neighbours"], [["Miss two, and the link", "is treated as lost."], "Miss"]],
+ "l4": [[["The route is now stale,"], "The"], [["so the break", "is reported back."], "so"]],
+ "l5": [[["Then a route request spreads,"], "Then"], [["and a reply returns", "along a fresh path."], "and"]],
+ "l6": [[["A route is a snapshot,", "not a promise."], "A"]],
+ "l7": [[["For private nearby messaging,", "even offline, try Meshline."], "for"]]
+}

@@ -76,3 +76,6 @@
 
 ## Production 2026-11-15-english-17 (English, flood control)
 - Done. Output `production/30s/2026-11-15-english-17/meshline-30s-english17-01.mp4`, sha256 `7c3afa1e…3d99`, plus a thumbnail equal to frame zero. Details are in `30-production-30s-english17-01.md`.
+
+## Production 2026-11-15-english-18 (English, route breaks and rediscovery)
+- Done. Output `production/30s/2026-11-15-english-18/meshline-30s-english18-01.mp4`, sha256 `3b595083…3394`, plus a thumbnail equal to frame zero. Details are in `31-production-30s-english18-01.md`.

@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "name": "Meshline blend",
+    "blend": {
+      "af_bella": 0.7,
+      "am_puck": 0.3
+    },
+    "speed": 0.98,
+    "lang": "en-us",
+    "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "start": 0.25,
+      "text": "This route worked a minute ago. Now the message is stuck. Why?"
+    },
+    {
+      "id": "l2",
+      "start": 4.56,
+      "text": "In a mesh, a route is a chain of phones, and phones move."
+    },
+    {
+      "id": "l3",
+      "start": 8.58,
+      "text": "Neighbours often say hello every second. Miss two, and the link is treated as lost."
+    },
+    {
+      "id": "l4",
+      "start": 14.57,
+      "text": "The route is now stale, so the break is reported back."
+    },
+    {
+      "id": "l5",
+      "start": 18.43,
+      "text": "Then a route request spreads, and a reply returns along a fresh path."
+    },
+    {
+      "id": "l6",
+      "start": 23.3,
+      "text": "A route is a snapshot, not a promise."
+    },
+    {
+      "id": "l7",
+      "start": 25.84,
+      "text": "For private nearby messaging, even offline, try Meshline."
+    }
+  ]
+}
