@@ -1,0 +1,134 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Why do Mondays feel new?",
+      "start": 0.15,
+      "end": 1.402,
+      "pauses": []
+    },
+    {
+      "id": "name",
+      "text": "Psychologists call it the fresh start effect.",
+      "start": 1.85,
+      "end": 4.147,
+      "pauses": [
+        [
+          3.979,
+          4.094
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "In one study, people picked a day for a goal reminder.",
+      "start": 4.55,
+      "end": 7.722,
+      "pauses": [
+        [
+          5.316,
+          5.639
+        ],
+        [
+          6.125,
+          6.205
+        ]
+      ]
+    },
+    {
+      "id": "result",
+      "text": "When March twentieth was labeled the first day of spring, over three times as many chose it.",
+      "start": 8.1,
+      "end": 13.3,
+      "pauses": [
+        [
+          9.787,
+          9.876
+        ],
+        [
+          10.545,
+          10.617
+        ],
+        [
+          10.922,
+          11.291
+        ],
+        [
+          11.508,
+          11.581
+        ]
+      ]
+    },
+    {
+      "id": "again",
+      "text": "A second study found the same for the first day of summer break.",
+      "start": 13.65,
+      "end": 16.953,
+      "pauses": [
+        [
+          14.5,
+          14.681
+        ],
+        [
+          15.649,
+          15.738
+        ],
+        [
+          16.82,
+          16.9
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "A new beginning can make past slip-ups feel further away.",
+      "start": 17.3,
+      "end": 20.144,
+      "pauses": [
+        [
+          18.227,
+          18.322
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So when starting feels hard, pick a nearby day that feels like day one, and begin there.",
+      "start": 20.6,
+      "end": 25.441,
+      "pauses": [
+        [
+          22.028,
+          22.381
+        ],
+        [
+          23.989,
+          24.091
+        ],
+        [
+          24.603,
+          24.678
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}

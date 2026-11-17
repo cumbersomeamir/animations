@@ -1,0 +1,5 @@
+node_modules/
+generated/stills/
+generated/video_silent.mp4
+generated/mix.wav
+generated/_*.wav
