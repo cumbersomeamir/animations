@@ -26,5 +26,5 @@ Batch 19. Follows the 11 Nov rules and the 15 Nov first-frame addendum. Built on
 | Payoff | 20.90–26.75 | l8 21.00→25.18 "Logo bag? Ask for it free. Plain bag? Say no, or bring your own." | Three steps **slide in one at a time** with ✓: "LOGO BAG: FREE" (21.0), "PLAIN BAG: SAY NO" (23.15), "BRING YOUR OWN" (24.45). |
 | CTA | 26.75–30.00 | l9 26.95→29.90 "Follow Courtlens for everyday Indian law explained." | The Courtlens icon **pops**, the arc **draws**: "Follow Courtlens / Everyday Indian law, explained". |
 
-- **Narration:** 83 spoken words; speech 24.7 s.
+- **Narration:** 84 spoken words; speech 24.7 s.
 - **Sources and scope:** `LEGAL-SOURCES.md`.
