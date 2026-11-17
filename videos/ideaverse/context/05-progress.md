@@ -183,10 +183,10 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-18 (batch18, worked 2026-11-17) — RENDERING
-- Proposed phishing/spam topic = repeat of feedback-01 (spam filters) → card-payment fraud scoring: why your own card gets
-  declined on holiday (record context/33). Icon re-checked against the Play listing: unchanged.
-- New scene `src/stage/declined.js` (café counter + terminal, DOCKET's card, suitcase, score card, bank-alert phone).
-- Note: the web-search quota was exhausted on 2026-11-15 and reset on 2026-11-17; work resumed then (no job was running).
-- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
-
+# CURRENT — english-18 (batch18, worked 2026-11-17) — DELIVERED
+- Proposed phishing/spam topic = repeat of feedback-01 → card-payment fraud scoring (record context/33).
+  production/30s/2026-11-15-english-18/ideaverse-30s-english18-01.mp4 (sha256 d4f5e176…ba6a) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1446 s (3 workers) + re-render 550–899 (card blank-state canvas fix) + 142–179 (card from the cut).
+- Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 23 earlier MP4s unchanged. Icon re-checked (unchanged).
+- Note: web-search quota ran out on 2026-11-15 and reset on 2026-11-17; the job resumed then.
+- Next: await user review. No further episode, no automation.

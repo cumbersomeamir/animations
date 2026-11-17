@@ -55,4 +55,10 @@ Illustrative: the café, terminal, card, amount (€24.80), the clue icons, bar 
 8. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "DECLINED / ON HOLIDAY?".
 
-## QA / status — IN PROGRESS (rendering)
+## QA / status — DELIVERED 2026-11-17
+- Output: production/30s/2026-11-15-english-18/ideaverse-30s-english18-01.mp4 · sha256 d4f5e176…ba6a, plus
+  ideaverse-30s-english18-01-thumbnail.png ("DECLINED / ON HOLIDAY?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.9 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Re-renders after review: 550–899 (background card stuck on the chart; Chromium canvas quirk) and 142–179 (empty card after cut).
+- Limitation: ASR-only listening check (no by-ear listen possible here).

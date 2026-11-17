@@ -1,0 +1,9 @@
+s1 placed  0.20s  heard [ 0.05.. 4.31]  MATCH: Your card works fine at home, then gets declined on holiday. Why?
+s2 placed  5.00s  heard [ 4.85.. 9.09]  MATCH: Your card network scores each payment for fraud, using hundreds of clues.
+s3 placed  9.95s  heard [ 9.80..13.00]  MATCH: A new country, a new shop, a bigger amount than usual.
+s4 placed 13.75s  heard [13.60..17.86]  MATCH: Each alone looks fine. Together, the score climbs past your bank's line.
+s5 placed 18.55s  heard [18.40..20.34]  MATCH: So sometimes a real payment gets blocked.
+s6 placed 21.10s  heard [20.95..24.93]  MATCH: If that happens, open your bank's app, confirm it was you, then pay again.
+s7 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

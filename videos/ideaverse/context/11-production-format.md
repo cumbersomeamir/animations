@@ -264,4 +264,6 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Proposed topic (email phishing detection) repeats feedback-01 (spam filters) → replaced by card-payment fraud scoring
   (combined clues → risk score → the bank's line → false declines → confirm in the bank's own app). The payoff points to
   the bank's app, not to replying to texts (lookalike scam texts exist); no scam procedure is shown.
+- Renderer lesson (english-18): in headless Chromium a canvas redraw consisting only of one full-canvas opaque fill can be
+  dropped (the old picture stays). Cards that return to a blank state paint the background as two partial fills.
 

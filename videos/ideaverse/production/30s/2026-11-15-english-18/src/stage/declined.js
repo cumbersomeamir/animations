@@ -165,7 +165,7 @@ function drawTerm(t) {
 let cardKey = '';
 function cardState(t) {
   if (t >= Hh.cut3) return { blank: 1 };                          // the card is only used for the explanation
-  return { dots: q20(inv(Hh.dots[0], Hh.dots[1], t)), dfade: q20(inv(Hh.line[0], Hh.line[0] + 0.4, t)), line: q20(inv(Hh.line[0], Hh.line[1], t)),
+  return { card: q20(inv(Hh.cut1, Hh.cut1 + 0.3, t)), dots: q20(inv(Hh.dots[0], Hh.dots[1], t)), dfade: q20(inv(Hh.line[0], Hh.line[0] + 0.4, t)), line: q20(inv(Hh.line[0], Hh.line[1], t)),
     cols: Hh.col.map((c) => q20(inv(c, c + 0.4, t))), fine: [0, 1, 2].map((i) => q20(inv(Hh.fine + i * 0.15, Hh.fine + i * 0.15 + 0.25, t))),
     stack: q20(E.inOutCubic(inv(Hh.stack[0], Hh.stack[1], t))), over: q20(inv(Hh.over, Hh.over + 0.25, t)), stamp: q20(inv(Hh.stamp, Hh.stamp + 0.25, t)) };
 }
@@ -178,10 +178,10 @@ function icon(g, i, x, y, k = 1) {
   g.restore();
 }
 function drawCard(g, s) {
-  g.fillStyle = '#0E1424'; g.fillRect(0, 0, NW, NH); if (s.blank) return;
+  g.fillStyle = '#0E1424'; g.fillRect(0, 0, NW, NH - 1); g.fillRect(0, NH - 1, NW, 1); if (s.blank) return;   // two partial fills: a single full-canvas opaque fill was dropped on redraw (Chromium canvas)
   // B · the payment card + hundreds of clue dots lighting up
-  if (s.dfade < 1 && s.dots > 0) {
-    g.save(); g.globalAlpha = 1 - s.dfade;
+  if (s.dfade < 1 && s.card > 0) {
+    g.save(); g.globalAlpha = (1 - s.dfade) * s.card;
     g.fillStyle = AMBER; rr(g, 230, 96, 140, 88, 14); g.fill(); g.fillStyle = '#D9A63A'; rr(g, 248, 122, 32, 24, 5); g.fill();
     const n = 15 * 12, lit = Math.round(s.dots * n);
     for (let i = 0; i < n; i++) { const x = 90 + (i % 15) * 30, y = 250 + Math.floor(i / 15) * 30, on = i < lit; g.fillStyle = on ? (i % 23 === 7 ? AMBER : P.mint) : 'rgba(244,247,251,0.14)'; g.beginPath(); g.arc(x, y, on ? 8 : 6, 0, 7); g.fill(); }
