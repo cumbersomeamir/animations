@@ -382,3 +382,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 85 words / 27.3 s, every take heard exactly by Whisper; starts re-spaced for the 0.25 s gap rule (CTA ends 29.47).
 - Operational: ~200 MB disk; scratch research caches moved to /dev/shm/scratch-archive; frames/stills/qa_frames/audio WAVs on
   /dev/shm/md-e20 via gitignored symlinks. Running: three render_chunks workers; next build, thumbnail, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-17 — english-20 / batch 20 delivered
+- production/30s/2026-11-17-english-20/media-diet-30s-english20-01.mp4 (SHA-256 4540f6819232b5dfa0fb1d946d6f0a228d8c15300b542860fb764168595a5eeb)
+  + thumbnail-english20-01.png (= frame 0); record context/35; context/11 log row → delivered; feedback addendum in context/26.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −2.0 dBTP;
+  captions y 340–534, x 192–886; labels y 1350–1483; 0 violations; caption↔speech 11/11; Whisper per-line 1.0, full pass 0.989.
+- Fixed before sharing: frames 597/600 (RTG shot start) rendered the desk because the camera read an unposed Voyager; code fixed, frames
+  re-rendered, MP4 re-encoded, QA re-run.
+- Operational: RAM-disk caches /dev/shm/md-e20 (lost on restart); scratch research moved to /dev/shm/scratch-archive; ~170 MB disk before
+  commit. Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.

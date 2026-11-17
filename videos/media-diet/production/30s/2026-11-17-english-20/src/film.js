@@ -270,7 +270,7 @@ const SHOTS = {
   S5: (t) => { const u = U('S5', t); return SH(L3(S(0.2, 0.25, 3.2), S(0.15, 0.25, 3.0), u), V3(0, SY - 0.1, 0), 40); },
   S6: (t) => { const u = U('S6', t); const c = VPOS.clone().addScaledVector(EDIR, 0.9); return SH(c.clone().addScaledVector(PERP, -3.3).add(V3(0, 1.1 - 0.1 * u, 0)).addScaledVector(EDIR, -0.6), c, 40); },
   S7: (t) => { const u = U('S7', t); return SH(L3([-8.4, SY + 2.3, 4.0], [-8.5, SY + 2.2, 3.85], u), V3(-9, SY + 0.1, 0), 40); },
-  S8: (t) => { const u = U('S8', t); voy.updateMatrixWorld(true); const r = voy.userData.rtgs[1].getWorldPosition(V3(0, 0, 0)); return SH(r.clone().addScaledVector(EDIR, -1.9 + 0.1 * u).add(V3(0, 0.55, 0)).addScaledVector(PERP, -0.5), r.clone().add(V3(0, -0.18, 0)), 40); },
+  S8: (t) => { const u = U('S8', t); aimVoy(voy, VPOS, EDIR, 0.4 + 0.04 * Math.sin(t * 0.5)); voy.scale.setScalar(1); voy.updateMatrixWorld(true); const r = voy.userData.rtgs[1].getWorldPosition(V3(0, 0, 0)); return SH(r.clone().addScaledVector(EDIR, -1.9 + 0.1 * u).add(V3(0, 0.55, 0)).addScaledVector(PERP, -0.5), r.clone().add(V3(0, -0.18, 0)), 40); },
   S9: (t) => { const u = U('S9', t); return SH(L3([-8.6, SY + 3.1, 5.4], [-8.65, SY + 3.0, 5.25], u), V3(-8.85, SY + 0.15, 0.2), 40); },
   S10: (t) => { const u = U('S10', t); return SH(L3([0.3, 1.75, 6.6], [0.25, 1.95, 7.0], u), L3([0, 0.85, 0.4], [0, 0.9, 0.35], u), 42); },
 };

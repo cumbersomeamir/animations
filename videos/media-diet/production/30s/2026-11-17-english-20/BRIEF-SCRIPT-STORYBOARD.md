@@ -55,5 +55,10 @@ Every take transcribed exactly by Whisper medium before use. Lines re-spaced to 
 Disk allowance ~200 MB free: frames, stills, QA frames and intermediate audio WAVs live on the RAM disk /dev/shm/md-e20 via gitignored
 symlinks. Earlier scratch research caches were moved (not deleted) to /dev/shm/scratch-archive. No earlier project files touched.
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 4540f6819232b5dfa0fb1d946d6f0a228d8c15300b542860fb764168595a5eeb; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 340–534, x 192–886; labels x 206–875,
+y 1350–1483; 0 violations; caption↔speech 11/11; Whisper per-line 1.0, full pass 0.989 ("four" spelled out, trailing "You").
+Frame defect at the RTG-shot start (frames 597, 600) found on the cut sheet, fixed in code, re-rendered, re-encoded, QA re-run.
+Thumbnail = frame 0 (SHA-256 94f615f6…1082), mean abs diff vs encoded frame 0 = 1.22/255.
+Limits: crossing is 18 Nov (produced 17 Nov; date stated); received power is an estimate; generic paper models; not yet watched/listened to by a human.

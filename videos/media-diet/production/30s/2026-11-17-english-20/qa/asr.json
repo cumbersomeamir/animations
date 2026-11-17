@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "24 hours to say hello. On November 18th, Voyager 1 hits one light day from Earth. So how do we still hear its fridge bulb radio? Radio spreads out like light, twice as far a quarter of the power. By Earth, less than a billion-billionth of a watt arrives. Its dish narrows the beam, and 70-meter dishes catch it. The catch? Its nuclear power drops about four watts every year. Out there, bigger ears beat a louder voice. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 0.989,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.68
+   ],
+   "transcript": "24 hours to say hello.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.95,
+    5.81
+   ],
+   "transcript": "On November 18th, Voyager 1 hits one light day from Earth.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.08,
+    8.52
+   ],
+   "transcript": "So how do we still hear its fridge bulb radio?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    8.79,
+    12.7
+   ],
+   "transcript": "Radio spreads out like light, twice as far a quarter of the power.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    12.98,
+    16.08
+   ],
+   "transcript": "By Earth, less than a billion-billionth of a watt arrives.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    16.35,
+    19.68
+   ],
+   "transcript": "Its dish narrows the beam, and 70-meter dishes catch it.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    19.95,
+    23.66
+   ],
+   "transcript": "The catch, its nuclear power drops about 4 watts every year.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    23.93,
+    26.07
+   ],
+   "transcript": "Out there, bigger ears beat a louder voice.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.35,
+    29.47
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "24 hours to say hello. On November 18th, Voyager 1 hits one light day from Earth. So how do we still hear its fridge bulb radio? Radio spreads out like light, twice as far a quarter of the power. By Earth, less than a billion-billionth of a watt arrives. Its dish narrows the beam, and 70-meter dishes catch it. The catch, its nuclear power drops about 4 watts every year. Out there, bigger ears beat a louder voice. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

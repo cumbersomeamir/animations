@@ -1,0 +1,167 @@
+[
+ {
+  "line": "V1",
+  "text": "24 hours / to say hello.",
+  "cue": [
+   0.0,
+   1.85
+  ],
+  "speech": [
+   0.071,
+   1.629
+  ],
+  "lead_s": 0.071,
+  "tail_s": 0.221,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "On November 18th, Voyager 1 / hits one light-day from Earth.",
+  "cue": [
+   1.87,
+   5.98
+  ],
+  "speech": [
+   1.971,
+   5.69
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.29,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "So how do we still hear / its fridge-bulb radio?",
+  "cue": [
+   6.0,
+   8.69
+  ],
+  "speech": [
+   6.104,
+   8.478
+  ],
+  "lead_s": 0.104,
+  "tail_s": 0.212,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Radio spreads out like light:",
+  "cue": [
+   8.71,
+   10.62
+  ],
+  "speech": [
+   8.81,
+   10.461
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.159,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "twice as far, / a quarter of the power.",
+  "cue": [
+   10.64,
+   12.88
+  ],
+  "speech": [
+   10.824,
+   12.657
+  ],
+  "lead_s": 0.184,
+  "tail_s": 0.223,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "By Earth, less than a / billion-billionth of a watt arrives.",
+  "cue": [
+   12.9,
+   16.25
+  ],
+  "speech": [
+   13.0,
+   16.03
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.22,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "Its dish narrows the beam,",
+  "cue": [
+   16.27,
+   17.77
+  ],
+  "speech": [
+   16.371,
+   17.641
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.129,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "and 70-meter dishes catch it.",
+  "cue": [
+   17.79,
+   19.85
+  ],
+  "speech": [
+   17.944,
+   19.569
+  ],
+  "lead_s": 0.154,
+  "tail_s": 0.281,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "The catch: its nuclear power / drops about 4 watts every year.",
+  "cue": [
+   19.87,
+   23.83
+  ],
+  "speech": [
+   19.972,
+   23.612
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.218,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Out there, bigger ears / beat a louder voice.",
+  "cue": [
+   23.85,
+   26.25
+  ],
+  "speech": [
+   23.953,
+   26.032
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.218,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.27,
+   29.773
+  ],
+  "speech": [
+   26.403,
+   29.427
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]
