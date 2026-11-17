@@ -192,9 +192,9 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-19 (2026-11-17, batch19) — RENDERING
-- Proposed topic (remove a stranger from a photo) = repeat of hindi03-01 (Magic Eraser) → Samsung Galaxy moon photos:
-  recognize, merge 10+ shots, AI detail; picture-vs-real confusion; turn Scene Optimizer off (record context/34).
-- New scene `src/stage/moon.js` (procedural moons, night window, merge + detail card, phone screens). Icon unchanged.
-- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
-
+# CURRENT — english-19 (2026-11-17, batch19) — DELIVERED
+- Proposed object-removal topic = repeat of hindi03-01 → Samsung Galaxy moon photos (record context/34).
+  production/30s/2026-11-17-english-19/ideaverse-30s-english19-01.mp4 (sha256 27b5d769…3146) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1147 s (3 workers) + re-render 291–340 (shots start at the cut); score re-mixed.
+- Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 24 earlier MP4s unchanged. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.

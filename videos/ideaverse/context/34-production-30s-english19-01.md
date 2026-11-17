@@ -52,4 +52,9 @@ shots and their grain, the detection boxes, the monitor, the settings screen (EX
 7. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "DETAIL / FROM WHERE?".
 
-## QA / status — IN PROGRESS (rendering)
+## QA / status — DELIVERED 2026-11-17
+- Output: production/30s/2026-11-17-english-19/ideaverse-30s-english19-01.mp4 · sha256 27b5d769…3146, plus
+  ideaverse-30s-english19-01-thumbnail.png ("DETAIL / FROM WHERE?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −2.0 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

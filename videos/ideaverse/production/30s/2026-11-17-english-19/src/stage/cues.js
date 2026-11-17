@@ -10,7 +10,7 @@ const CUES = {
     // B · viewfinder: "Scene Optimizer" 6.87–7.77 · "first recognizes the moon" 7.77–9.3 → detection box
     cut1: 4.6, optLbl: 6.85, recog: 8.05,
     // C · card: "more than 10 shots" 10.27–11.15 → 12 noisy shots; "cut the noise" 11.47–12.2 → merge
-    cut2: 9.75, shots: [10.2, 11.0], merge: [11.4, 12.25],
+    cut2: 9.75, shots: [9.85, 10.9], merge: [11.4, 12.25],
     // D · "a deep learning engine" 12.93–13.99 → label; "enhances the details even further" 13.99–16.3 → sweep
     aiLbl: 12.95, sweep: [14.0, 15.5],
     // E · "between the real moon and a picture of it" 19.12–21.7 → a moon on a screen gets the same MOON box
