@@ -78,7 +78,7 @@
   + thumbnail (proposed packaging-taste topic covered by the pilot + #14 → switched to sound cues and perceived carbonation,
   "SAME DRINK. DIFFERENT FIZZ?"; Zampini & Spence 2005; frame 0 = thumbnail; panned synthesised fizz bed; render 2 after a
   review merged two too-short caption groups; sha256 ba78e2b4; context/34).
-- English-19 (batch19 2026-11-17-english-19) IN PROGRESS `production/30s/2026-11-17-english-19/werbens-30s-english19-01.mp4`
+- English-19 (batch19 2026-11-17-english-19) delivered `production/30s/2026-11-17-english-19/werbens-30s-english19-01.mp4`
   + thumbnail (proposed decoy topic covered by #03 → switched to subtractive vs additive option framing, "SAME OPTIONS. BIGGER
-  ORDER?"; Park, Jun & MacInnis 2000; UK CCR 2013 reg. 40 for paid extras; frame 0 = thumbnail; context/35). Done: topic
-  check, research, brand re-check, script, narration + word timing. Next: scene, audio, render, QA.
+  ORDER?"; Park, Jun & MacInnis 2000; UK CCR 2013 reg. 40 for paid extras; frame 0 = thumbnail; render 1 passed review;
+  sha256 b468d260; context/35).

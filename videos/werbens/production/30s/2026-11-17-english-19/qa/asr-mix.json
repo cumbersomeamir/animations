@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.21
+      ],
+      "script": "Why do shoppers keep more extras when they start full?",
+      "heard": "Why do shoppers keep more extras when they start full?",
+      "words": "10/10"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.2,
+        6.89
+      ],
+      "script": "One builds up from basic. One trims down from full.",
+      "heard": "One builds up from basic. One trims down from full.",
+      "words": "10/10"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.85,
+        11.82
+      ],
+      "script": "In three studies, trimming down kept more options, at a higher total price.",
+      "heard": "In three studies, trimming down kept more options at a higher total price.",
+      "words": "13/13"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.8,
+        14.23
+      ],
+      "script": "Across price levels and product types.",
+      "heard": "across price levels and product types.",
+      "words": "6/6"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.2,
+        18.24
+      ],
+      "script": "But for shoppers barely set on buying, starting full put them off.",
+      "heard": "But for shoppers barely set on buying, starting full put them off.",
+      "words": "12/12"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        18.2,
+        20.45
+      ],
+      "script": "Where a choice starts steers where it ends.",
+      "heard": "where a choice starts steers where it ends.",
+      "words": "8/8"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        20.55,
+        25.07
+      ],
+      "script": "Start committed buyers full, but every paid extra needs their own yes.",
+      "heard": "Start committed buyers full, but every paid extra needs their own yes.",
+      "words": "12/12"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why do shoppers keep more extras when they start full? One builds up from basic, one trims down from full. In three studies, trimming down kept more options at a higher total price. Across price levels and product types. But for shoppers barely set on buying, starting full put them off. Where a choice starts steers where it ends. Start committed buyers full, but every paid extra needs their own yes. Follow Wurbens to decode how brands sell."
+}
