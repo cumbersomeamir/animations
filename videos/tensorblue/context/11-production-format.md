@@ -156,6 +156,17 @@ Practical system design · useful new GitHub tools · research explained through
   - Two worlds (café → database) are joined by a purposeful wipe. Peaks are drawn as small beads on dark glass so they read as stars, not bristles.
   - Notes: `31-production-30s-english18-01.md`.
 
+- **2026-11-17 english-19 (batch19; latest approved feedback retained):** the proposed topic (a database surviving a power cut: WAL, commit, replay) duplicated english-15, so a different same-genre topic was chosen. That follows the brief's own rule.
+  - Topic: why a video turns blurry for a moment instead of freezing (adaptive bitrate streaming), new to the channel.
+  - Frame zero: a phone playing a visibly blurry "SD" film beside a glass buffer tower of chunk tiles, with **BLURRY, NOT FROZEN.**; it doubles as the thumbnail.
+  - Mechanism:
+    - chunks stored in several qualities (RFC 8216 HLS);
+    - the next chunk chosen from buffer level (Stanford/Netflix SIGCOMM 2014, BBA-0);
+    - a weak signal drains the buffer and the player picks smaller chunks.
+  - Proof: our stdlib simulation on a made-up network: always-HD froze 11.6 s, adaptive 0 s. The notes also report the rate-map settings that froze 2.6 s or never reached HD.
+  - Tiles carry quality as colour, sharpness and size; height stays 4 s of buffer. The tower's back wall shows the rate-map bands. A red-500 counter shows frozen time live.
+  - Notes: `32-production-30s-english19-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

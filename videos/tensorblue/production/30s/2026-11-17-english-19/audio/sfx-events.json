@@ -1,0 +1,203 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 1.422,
+   "type": "tap",
+   "soft": true
+  },
+  {
+   "t": 3.496,
+   "type": "wipe"
+  },
+  {
+   "t": 3.93,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 4.38,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 5.218,
+   "type": "wipe"
+  },
+  {
+   "t": 6.084,
+   "type": "carve"
+  },
+  {
+   "t": 8.822,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 9.159,
+   "type": "tap"
+  },
+  {
+   "t": 9.946,
+   "type": "wipe"
+  },
+  {
+   "t": 10.123,
+   "type": "slot"
+  },
+  {
+   "t": 11.586,
+   "type": "slot"
+  },
+  {
+   "t": 12.486,
+   "type": "slot"
+  },
+  {
+   "t": 13.097,
+   "type": "wipe"
+  },
+  {
+   "t": 13.197,
+   "type": "drop"
+  },
+  {
+   "t": 14.595,
+   "type": "slot"
+  },
+  {
+   "t": 15.481,
+   "type": "tap"
+  },
+  {
+   "t": 16.553,
+   "type": "slot"
+  },
+  {
+   "t": 16.708,
+   "type": "wipe"
+  },
+  {
+   "t": 17.438,
+   "type": "strike"
+  },
+  {
+   "t": 18.511,
+   "type": "slot"
+  },
+  {
+   "t": 18.776,
+   "type": "slot"
+  },
+  {
+   "t": 20.734,
+   "type": "slot"
+  },
+  {
+   "t": 20.981,
+   "type": "match"
+  },
+  {
+   "t": 22.165,
+   "type": "wipe"
+  },
+  {
+   "t": 22.22,
+   "type": "slot"
+  },
+  {
+   "t": 22.442,
+   "type": "type"
+  },
+  {
+   "t": 22.9,
+   "type": "slot"
+  },
+  {
+   "t": 23.58,
+   "type": "slot"
+  },
+  {
+   "t": 24.092,
+   "type": "type"
+  },
+  {
+   "t": 25.064,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.182,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "blurry": 0.747,
+  "freezing": 1.422,
+  "the1": 2.247,
+  "chose1": 2.634,
+  "but": 3.646,
+  "switch": 4.13,
+  "mid": 4.405,
+  "streaming": 5.384,
+  "cut": 6.084,
+  "chunks3": 7.222,
+  "each3": 8.022,
+  "several": 8.822,
+  "qualities": 9.159,
+  "player": 10.152,
+  "picks": 10.502,
+  "next": 10.952,
+  "by": 11.527,
+  "full": 11.864,
+  "buffer4": 12.202,
+  "weak": 13.247,
+  "drains": 13.819,
+  "so5": 14.969,
+  "grabs": 15.194,
+  "smaller": 15.581,
+  "test": 17.093,
+  "alwayshd": 17.656,
+  "froze1": 18.393,
+  "for6": 18.806,
+  "twelve": 19.231,
+  "adaptive": 20.493,
+  "never": 21.031,
+  "so7": 22.342,
+  "blurry7": 22.492,
+  "the7": 23.404,
+  "keep": 24.192,
+  "playing": 24.442,
+  "follow": 27,
+  "tb": 27.282,
+  "chime": 25.064,
+  "scenes": [
+   0,
+   3.496,
+   5.218,
+   9.946,
+   13.097,
+   16.708000000000002,
+   22.165000000000003,
+   26.6,
+   30.01
+  ]
+ }
+}
