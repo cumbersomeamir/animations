@@ -1,0 +1,49 @@
+{
+ "sfx_cues": [
+  [
+   1.38,
+   "the last panel lands in the bag (after \"bag\", before \"But\")"
+  ],
+  [
+   3.18,
+   "scissors snip (between lines)"
+  ],
+  [
+   8.52,
+   "to the sort (between lines)"
+  ],
+  [
+   13.3,
+   "squares cut (between lines)"
+  ],
+  [
+   18.88,
+   "sewing machine burst (between lines)"
+  ],
+  [
+   24.78,
+   "the balance settles (between lines)"
+  ],
+  [
+   26.55,
+   "then cut: snip (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.03",
+  "input_tp": "-3.10",
+  "input_lra": "3.80",
+  "input_thresh": "-27.58",
+  "output_i": "-15.53",
+  "output_tp": "-1.50",
+  "output_lra": "3.10",
+  "output_thresh": "-26.09",
+  "normalization_type": "dynamic",
+  "target_offset": "0.53"
+ }
+}

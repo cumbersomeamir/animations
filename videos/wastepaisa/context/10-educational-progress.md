@@ -508,6 +508,38 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Script length and two Whisper mishearings.
   - The hook hole drawn as cream, the tarp bag overlapping the truck, and crowded takeaway blocks.
 
+## english-19 (2026-11-17-english-19) episode 01: COMPLETE (English)
+- **Topic (fresh):** old denim sorted, washed, cut and stitched into patchwork bags plus repair patches from the offcuts. It is
+  different from english-09, which sold cotton garments by the kilo as wiping rags.
+  - Spine: which pairs are worth cutting? Proof: a Mumbai start-up sold almost 3,000 products from old jeans in its first year.
+    Method: reject thin or stretchy pairs, sort by shade, wash, cut squares.
+  - Economics: 10 pairs ≈ 6 kg at a reported ₹20/kg = ₹120 of denim; 3 rejects; 3 bags + 30 patches; sales ₹1,650 − labour ₹900 −
+    supplies ₹330 − denim ₹120 ≈ ₹300 left. The patches (₹300) pay for the denim.
+  - Takeaway: sort first, then cut.
+- **First-frame rule:** frame 0 shows jeans on a rail with one leg's panels flying into a patchwork tote, with "Old jeans, new bag." on
+  screen and the voice at 0.10 s; the thumbnail is the same composition with "OLD JEANS NEW BAG".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-17-english-19/wastepaisa-30s-english19-01.mp4`,
+  SHA-256 `5ac1e6cb6497569214a36408815a23ee145955c47a151a8542ca41e54965a358`; thumbnail `wastepaisa-30s-english19-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 133.8–866.2, y 343–517; hook caption at frame 0.
+  - Timing within ±0.05 s.
+  - Vosk mean 0.971; Whisper word for word apart from the brand.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - The Better India (2019) on Dwij, Mumbai: quality segregation, industrial cleaning, cutting and tailoring; denim at ₹20/kg; more
+    than 2,500 jeans upcycled and almost 3,000 products sold in year one.
+  - Britannica: denim is a durable cotton twill, sometimes a cotton-synthetic blend.
+  - IndiaMART denim-waste listings (₹18–25/kg) as context.
+  - Reject rate, yields, labour, supplies and prices are assumptions, labelled ASSUMED.
+  - Episode record: `context/32-english-19-01.md`. No automation.
+- **Fixed during QA:**
+  - A reject-table crash, an empty bag at frame 0, folded jeans that read as bars, the mascot hiding the tray and an unlabelled tint.
+  - One caption at x 99.9–900.1.
+  - Cords crossing the thumbnail words (now a clothes rail).
+  - A count-up showing "≈2,989" (now pops at ≈3,000).
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

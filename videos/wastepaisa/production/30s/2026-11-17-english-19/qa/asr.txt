@@ -1,0 +1,22 @@
+English intelligibility and timing evidence: wastepaisa-30s-english19-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.12 | offset plan 1.34 heard 1.35 | heard: old jeans new bag
+   L2 word acc 1.00 | onset plan 1.66 heard 1.63 | offset plan 3.12 heard 3.07 | heard: but which pairs are worth cutting
+   L3 word acc 0.94 | onset plan 3.47 heard 3.50 | offset plan 8.47 heard 8.48 | heard: a mumbai up sold almost three thousand products from old jeans in its first year
+   L4 word acc 1.00 | onset plan 8.82 heard 8.79 | offset plan 13.25 heard 13.23 | heard: reject thin or stretchy pairs sort by shade then wash and cut squares
+   L5 word acc 0.94 | onset plan 13.60 heard 13.60 | offset plan 18.82 heard 18.82 | heard: ten pairs about one hundred and twenty rupees of denim make three bags and thirty patches
+   L6 word acc 1.00 | onset plan 19.17 heard 19.17 | offset plan 24.72 heard 24.69 | heard: after labor and supplies about three hundred rupees is left the patches pay for the denim
+   L7 word acc 1.00 | onset plan 25.07 heard 25.07 | offset plan 26.47 heard 26.48 | heard: so sort first then cut
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.971; every onset/offset within 0.05 s of plan (full record in qa/asr-english-vosk.json)
+   Misses: "start-up" split by the hyphen (heard "up"), "a hundred" normalised to "one hundred", and the brand (out of vocabulary).
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Old Jeans New Bag But which pairs are worth cutting? A Mumbai startup sold almost 3,000 products from old jeans in its first year. Reject thin or stretchy pairs, sort by shade, then wash and cut squares. 10 pairs, about 120 rupees of denim, make 3 bags and 30 patches. After labor and supplies, about 300 rupees is left. The patches pay for the denim. So sort first, then cut. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word apart from the brand spelling (US "labor" is the TTS spelling; captions show "labour").
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.5 dBFS, sample peak -1.47 dBFS, flat factor 0
+   (no clipped runs). The bag thud, scissor snips, whoosh, sewing burst and balance tink all sit between lines (audio/cues.json).

@@ -1,0 +1,334 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-19 episode 01 "Old jeans, new bag." (old denim sorted, washed, cut and stitched into patchwork bags and repair patches; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-15-english-18/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes only: CTA at 27-30 s, captions centred at x 500
+// inside x 100-900, large brief labels, a soft key light behind each subject, depth-push scene transitions and a separate thumbnail.
+// New: denim props (hanging jeans with a leg cut into panels, folded pairs, scissors, patchwork tote, patches, reject crate, bubbles,
+// balance) and scene functions; the hook words show from frame 0; labels fade with their scene; English captions use the accepted
+// 70 px line spacing (Devanagari faces stay loaded only for the ₹ glyph).
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-17-english-19';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [1.5, [0, 1.6, 2.4]], [3.35, [0.25, 1.5, 2.0]], [8.65, [0, 1.85, 3.1]], [13.45, [-0.3, 1.7, 2.6]], [19.0, [0, 2.35, 3.7]], [23.05, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- denim props (solid foreground objects): hanging jeans with a leg cut into panels, folded pairs, scissors, patchwork tote, patches, reject crate, bubbles, balance ----------
+const DN = { dark: '#1f3d6e', mid: '#3e6ea8', light: '#86acd6', black: '#2b2f36', stitch: '#e8a33d', rivet: '#c9a35a', lining: '#e9e4da' };
+const SHADES = [DN.light, '#6b93c4', DN.mid, '#2f578e', DN.dark, DN.black];
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function twill(x, y, w, h, a = 0.13) { g.save(); g.beginPath(); g.rect(x, y, w, h); g.clip(); g.strokeStyle = `rgba(255,255,255,${a})`; g.lineWidth = 1.5; for (let d = -h; d < w; d += 9) { g.beginPath(); g.moveTo(x + d, y + h); g.lineTo(x + d + h, y); g.stroke(); } g.restore(); }
+function stitchLine(pts, a = 1) { g.save(); g.globalAlpha *= a; g.setLineDash([9, 7]); g.strokeStyle = DN.stitch; g.lineWidth = 3; g.beginPath(); pts.forEach(([px, py], i) => (i ? g.lineTo(px, py) : g.moveTo(px, py))); g.stroke(); g.restore(); }
+function swatch(x, y, w, h, col, rot = 0, a = 1, stitched = true) { // one cut denim square, centred on (x, y)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.fillStyle = col; g.fillRect(-w / 2, -h / 2, w, h); twill(-w / 2, -h / 2, w, h, 0.12);
+  g.fillStyle = 'rgba(255,255,255,0.07)'; g.fillRect(-w / 2, -h / 2, w, h * 0.12); if (stitched) { g.setLineDash([7, 6]); g.strokeStyle = DN.stitch; g.lineWidth = 2.5; g.strokeRect(-w / 2 + 5, -h / 2 + 5, w - 10, h - 10); } g.restore(); }
+// the hanging pair: waistband top at (x, top), height H; the right leg is cut into a 2 x 8 grid of panels; gone(i) says which panels have left
+const LEGR = (x, top, H) => { const wb = H * 0.07, lx = x + 6, lw = H * 0.19, ly = top + wb + H * 0.18, lh = H - wb - H * 0.18; return { lx, ly, lw, lh, cw: lw / 2, ch: lh / 8 }; };
+function jeans(x, top, H, col, gone = () => false) {
+  const W = H * 0.42, wb = H * 0.07; g.save();
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 14; g.shadowBlur = 24;
+  g.beginPath(); g.moveTo(x - W / 2, top); g.lineTo(x + W / 2, top); g.lineTo(x + W / 2 + 10, top + H * 0.3); g.lineTo(x + 6, top + H * 0.3); g.lineTo(x - 6, top + H * 0.3); g.lineTo(x - W / 2 - 10, top + H * 0.3); g.closePath(); g.fillStyle = col; g.fill();
+  g.beginPath(); g.moveTo(x - W / 2 - 10, top + H * 0.25); g.lineTo(x - 6, top + H * 0.25); g.lineTo(x - 12, top + H); g.lineTo(x - W / 2 - 2, top + H); g.closePath(); g.fill(); g.restore();
+  twill(x - W / 2 - 12, top, W / 2 + 12, H); twill(x, top, W / 2 + 12, H * 0.3);
+  const R = LEGR(x, top, H); for (let i = 0; i < 16; i++) { const c = i % 2, r = Math.floor(i / 2), px = R.lx + c * R.cw, py = R.ly + r * R.ch;
+    if (gone(i)) { g.save(); g.setLineDash([6, 6]); g.strokeStyle = 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.strokeRect(px + 2, py + 2, R.cw - 4, R.ch - 4); g.restore(); }
+    else { g.fillStyle = col; g.fillRect(px, py, R.cw + 0.5, R.ch + 0.5); twill(px, py, R.cw, R.ch); } }
+  g.fillStyle = 'rgba(0,0,0,0.18)'; g.fillRect(x - W / 2, top, W, wb); stitchLine([[x - W / 2 + 6, top + wb - 4], [x + W / 2 - 6, top + wb - 4]]);
+  for (const bx of [-0.36, -0.12, 0.12, 0.36]) { g.fillStyle = 'rgba(0,0,0,0.25)'; g.fillRect(x + bx * W - 5, top - 4, 10, wb + 6); }
+  g.beginPath(); g.arc(x - W * 0.08, top + wb + 4, 7, 0, 7); g.fillStyle = DN.rivet; g.fill();
+  stitchLine([[x - W * 0.08, top + wb], [x - W * 0.08, top + H * 0.2], [x - 4, top + H * 0.26]]);
+  for (const s of [-1, 1]) stitchLine([[x + s * W * 0.46, top + wb + 6], [x + s * W * 0.22, top + wb + H * 0.07], [x + s * W * 0.1, top + wb + 6]]);
+  g.restore(); return R; }
+function folded(x, y, w, col, o = {}) { // folded pair seen from the front of a stack
+  const h = w * 0.3; g.save(); g.globalAlpha *= o.a ?? 1; g.translate(x, y); g.rotate(o.rot || 0);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.45)'; g.shadowOffsetY = 6; g.shadowBlur = 10; rr(-w / 2, -h / 2, w, h, h * 0.35); g.fillStyle = col; g.fill(); g.restore();
+  twill(-w / 2, -h / 2, w, h); g.fillStyle = 'rgba(0,0,0,0.2)'; g.fillRect(-w / 2, h * 0.08, w, 3); stitchLine([[-w / 2 + 10, -h / 2 + 7], [w / 2 - 10, -h / 2 + 7]]);
+  g.beginPath(); g.arc(w * 0.36, 0, 4.5, 0, 7); g.fillStyle = DN.rivet; g.fill();
+  const pw = w * 0.2, pxx = -w * 0.12; g.save(); g.setLineDash([6, 5]); g.strokeStyle = DN.stitch; g.lineWidth = 2; g.beginPath(); g.moveTo(pxx - pw / 2, -h * 0.28); g.lineTo(pxx + pw / 2, -h * 0.28); g.lineTo(pxx + pw / 2, h * 0.12); g.lineTo(pxx, h * 0.3); g.lineTo(pxx - pw / 2, h * 0.12); g.closePath(); g.stroke(); g.restore(); g.restore(); }
+function scissors(x, y, s, open, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); const a = 0.08 + 0.32 * open;
+  for (const sd of [-1, 1]) { g.save(); g.rotate(sd * a); g.fillStyle = '#c4c9cf'; g.beginPath(); g.moveTo(0, -6); g.lineTo(150, -2); g.lineTo(150, 4); g.lineTo(0, 8); g.closePath(); g.fill();
+    g.strokeStyle = C.warm; g.lineWidth = 12; g.beginPath(); g.ellipse(-50, sd * 22, 30, 20, 0, 0, 7); g.stroke(); g.restore(); }
+  g.beginPath(); g.arc(0, 0, 7, 0, 7); g.fillStyle = '#59616b'; g.fill(); g.restore(); }
+const PATCH = Array.from({ length: 16 }, (_, i) => SHADES[[0, 2, 4, 1, 3, 5, 2, 0, 4, 1, 5, 3, 1, 4, 0, 2][i]]);
+function patchBag(x, base, w, h, o = {}) { // patchwork tote: 4 x 4 denim squares, contrast seams, denim-strip handles; o.cells(i) -> null (placed) | [x, y, rot, scale] (flying)
+  const top = base - h, cw = w / 4, ch = h / 4, hk = o.handles ?? 1, sk = o.seams ?? 1; g.save();
+  g.fillStyle = 'rgba(0,0,0,0.38)'; g.beginPath(); g.ellipse(x, base + 6, w * 0.6, 18, 0, 0, 7); g.fill();
+  if (hk > 0) { g.save(); g.lineCap = 'round'; for (const [off, col] of [[10, '#16294a'], [0, DN.dark]]) { g.strokeStyle = col; g.lineWidth = w * 0.07; g.beginPath(); g.moveTo(x - w * 0.22 + off, top + 6); g.bezierCurveTo(x - w * 0.22 + off, top - h * 0.55 * hk, x + w * 0.22 + off, top - h * 0.55 * hk, x + w * 0.22 + off, top + 6); g.stroke(); }
+    g.setLineDash([7, 6]); g.strokeStyle = DN.stitch; g.lineWidth = 2; g.beginPath(); g.moveTo(x - w * 0.22, top + 4); g.bezierCurveTo(x - w * 0.22, top - h * 0.55 * hk, x + w * 0.22, top - h * 0.55 * hk, x + w * 0.22, top + 4); g.stroke(); g.restore(); }
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 12; g.shadowBlur = 22; rr(x - w / 2, top, w, h, 8); g.fillStyle = 'rgba(20,30,50,0.85)'; g.fill(); g.restore();
+  const flying = []; for (let i = 0; i < 16; i++) { const c = i % 4, r = Math.floor(i / 4), cx = x - w / 2 + (c + 0.5) * cw, cy = top + (r + 0.5) * ch, f = o.cells ? o.cells(i, cx, cy) : null; if (f) flying.push([i, f]); else swatch(cx, cy, cw + 0.5, ch + 0.5, PATCH[i], 0, 1, false); }
+  if (sk > 0) { g.save(); g.globalAlpha *= clamp(sk); for (let c = 1; c < 4; c++) stitchLine([[x - w / 2 + c * cw, top + 4], [x - w / 2 + c * cw, base - 4]]); for (let r = 1; r < 4; r++) stitchLine([[x - w / 2 + 4, top + r * ch], [x + w / 2 - 4, top + r * ch]]); g.restore(); }
+  g.save(); rr(x - w / 2, top, w, h, 8); g.clip(); const sh = g.createLinearGradient(x - w / 2, 0, x + w / 2, 0); sh.addColorStop(0, 'rgba(255,255,255,0.08)'); sh.addColorStop(0.6, 'rgba(0,0,0,0)'); sh.addColorStop(1, 'rgba(0,0,0,0.25)'); g.fillStyle = sh; g.fillRect(x - w / 2, top, w, h); g.restore();
+  flying.forEach(([i, [fx, fy, fr, fs]]) => { g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 16; g.shadowBlur = 18; swatch(fx, fy, cw * fs, ch * fs, PATCH[i], fr, 1, false); g.restore(); });
+  g.restore(); }
+function heroJeans(t) { // frame zero: the right leg's panels fly across and stitch into a patchwork tote
+  spot(560, 1150, 760); const JX = 290, JT = 590, JH = 900, BX = 740, BB = 1560, BW2 = 380, BH2 = 400;
+  const k = (i) => clamp((0.62 + 0.67 * easeOut(prog(t, 0, 1.15)) - i / 16) / 0.35);
+  const R = jeans(JX, JT, JH, DN.mid, (i) => k(i) > 0);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 6; g.shadowBlur = 10; rr(40, JT - 34, 520, 16, 8); g.fillStyle = '#9aa2aa'; g.fill(); g.restore(); // clothes rail
+  for (const cx of [JX - 150, JX - 50, JX + 50, JX + 150]) { rr(cx - 9, JT - 30, 18, 44, 4); g.fillStyle = '#c4c9cf'; g.fill(); }
+  patchBag(BX, BB, BW2, BH2, { handles: lerp(0.5, 1, easeOut(prog(t, 0.2, 1.1))), seams: prog(t, 0.6, 1.2), cells: (i, cx, cy) => { const e = k(i); if (e >= 1) return null; const c = i % 2, r = Math.floor(i / 2), sx = R.lx + (c + 0.5) * R.cw, sy = R.ly + (r + 0.5) * R.ch, ee = easeOut(e);
+    const [fx, fy] = fly(sx, sy, cx, cy, ee, 160); return [fx, fy, (1 - ee) * ((i % 3) - 1) * 0.5, lerp(R.cw / (BW2 / 4), 1, ee) * (1 + 0.25 * Math.sin(Math.PI * ee))]; } }); }
+
+// ---------- scenes ----------
+function sHook(t, a) { // 0 - 1.5: frame zero: old jeans become a patchwork bag
+  g.save(); g.globalAlpha = a; heroJeans(t); g.restore(); }
+function sAsk(t, a) { // 1.5 - 3.35: a stack of old jeans; scissors hover: which pairs are worth cutting?
+  g.save(); g.globalAlpha = a;
+  spot(560, 1250, 700); const cols = [DN.light, DN.dark, DN.mid, DN.black, '#6b93c4'];
+  for (let s = 0; s < 2; s++) for (let i = 0; i < 5; i++) { const k = back(prog(t, 1.55 + (s * 5 + i) * 0.04, 1.8 + (s * 5 + i) * 0.04)); if (k <= 0) continue; folded(420 + s * 280, 1440 - i * 58 - (1 - k) * 80, 250, cols[(i + s * 2) % 5], { rot: ((i + s) % 3 - 1) * 0.03, a: clamp(k) }); }
+  const hx = lerp(420, 700, 0.5 + 0.5 * Math.sin((t - 1.9) * 3)); scissors(hx, 1050 + Math.sin(t * 5) * 8, 1.1, 0.5 + 0.5 * Math.sin(t * 9), -0.5);
+  const qk = back(prog(t, 2.38, 2.65)); if (qk > 0) { g.save(); g.translate(hx + 150, 960); g.scale(qk, qk); g.beginPath(); g.arc(0, 0, 44, 0, 7); g.fillStyle = C.warm; g.fill(); textC('?', 0, 4, 60, '#1d130e', 800); g.restore(); }
+  mascot(150, 1640, 0.48, { armL: [-0.5, 110], armR: [1.2, 60], look: [0.9, -0.3], lid: -0.5 });
+  g.restore();
+}
+function sProof(t, a) { // 3.35 - 8.65: proof of demand: a Mumbai start-up sold almost 3,000 products from old jeans in its first year
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 720);
+  label('MUMBAI · FIRST YEAR', 540, 780, prog(t, 3.56, 3.8), { size: 48, warm: true });
+  for (let i = 0; i < 6; i++) { const k = back(prog(t, 3.7 + i * 0.07, 3.95 + i * 0.07)); if (k > 0) folded(200, 1460 - i * 50, 200, SHADES[i], { a: clamp(k) }); }
+  const ak = prog(t, 4.7, 5.0); if (ak > 0) { g.save(); g.globalAlpha *= ak; g.fillStyle = C.cream; g.beginPath(); g.moveTo(330, 1300); g.lineTo(420, 1300); g.lineTo(420, 1278); g.lineTo(460, 1312); g.lineTo(420, 1346); g.lineTo(420, 1324); g.lineTo(330, 1324); g.closePath(); g.fill(); g.restore(); }
+  for (let i = 0; i < 12; i++) { const k = back(prog(t, 5.0 + i * 0.09, 5.25 + i * 0.09)); if (k <= 0) continue; const c = i % 4, r = Math.floor(i / 4), x = 560 + c * 110, b = 1250 + r * 130;
+    g.save(); g.translate(x, b); g.scale(k * 0.26, k * 0.26); patchBag(0, 0, 300, 300, { handles: 1 }); g.restore(); }
+  const n = 3000; /* pops in at the reported 'almost 3,000': no count-up, so no frame shows an invented exact figure */ if (t > 5.4) { const kk = back(prog(t, 5.45, 5.75)); g.save(); g.translate(720, 1000); g.scale(kk, kk); textC(`≈${n.toLocaleString('en-IN')}`, 0, 0, 120, C.warm, 800); g.restore();
+    textC('PRODUCTS SOLD', 720, 1090, 44, `rgba(254,247,238,${prog(t, 6.14, 6.4)})`, 800); }
+  g.restore();
+}
+function sSort(t, a) { // 8.65 - 13.45: reject thin or stretchy pairs (3 of 10, assumed), sort the rest by shade, wash, cut squares
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 720); const P = [[2, 0], [5, 0], [1, 1], [4, 2], [0, 0], [3, 1], [2, 0], [5, 0], [1, 0], [4, 0]]; // [shade index, reject type 0 none 1 thin 2 stretch]
+  const keep = P.map((p, i) => i).filter((i) => !P[i][1]).sort((p, q) => P[p][0] - P[q][0]), rejs = P.map((p, i) => i).filter((i) => P[i][1]);
+  const rj = prog(t, 9.3, 10.1), so = ease(prog(t, 10.56, 11.4)), ct = prog(t, 12.42, 13.2);
+  tray(860, 1560, 300, 120); textC('3 REJECTS', 860, 1640, 40, `rgba(254,247,238,${prog(t, 9.9, 10.2)})`, 800);
+  P.forEach(([sh, rejT], i) => { const c = i % 5, r = Math.floor(i / 5), x0 = 220 + c * 160, y0 = 1000 + r * 120; let x = x0, y = y0, rot = 0, al = 1 - ct;
+    const ro = rejs.indexOf(i) * 0.28;
+    if (rejT) { const ek = ease(prog(t, 9.3 + ro, 9.75 + ro)); [x, y] = fly(x0, y0, 820 + (i % 3) * 30, 1555 - (i % 2) * 18, ek, 120); rot = ek * 0.3; al = 1; }
+    else { const ki = keep.indexOf(i); x = lerp(x0, 150 + ki * 130, so); y = lerp(y0, 1180, so); }
+    folded(x, y, rejT ? 150 : lerp(150, 120, so), SHADES[sh], { rot, a: al });
+    if (rejT && t > 9.3 + ro && t < 10.3) { const lk = prog(t, 9.3 + ro, 9.45 + ro); label(rejT === 1 ? 'THIN' : 'STRETCHY', x0, y0 - 70, lk * (1 - prog(t, 10.1, 10.3)), { size: 38 }); } });
+  label('SORT BY SHADE', 540, 1360, prog(t, 10.98, 11.2) * (1 - prog(t, 11.8, 11.91)), { size: 44, warm: true });
+  const wk = prog(t, 11.91, 12.5); if (wk > 0 && wk < 1) { const R = rng(31); g.save(); for (let i = 0; i < 40; i++) { const bx = 120 + R() * 860, by = 1250 - ((R() + wk * 1.6) % 1) * 280, br = 6 + R() * 14; g.globalAlpha = 0.5 * Math.sin(Math.PI * wk); g.strokeStyle = '#dff3fb'; g.lineWidth = 3; g.beginPath(); g.arc(bx, by, br, 0, 7); g.stroke(); } g.restore(); label('WASH', 540, 1360, Math.sin(Math.PI * wk), { size: 44 }); }
+  if (ct > 0) { for (let i = 0; i < 21; i++) { const k = back(prog(t, 12.42 + i * 0.03, 12.67 + i * 0.03)); if (k <= 0) continue; const c = i % 7, r = Math.floor(i / 7); swatch(150 + c * 130, 1060 + r * 120, 104 * k, 104 * k, SHADES[P[keep[c]][0]], ((i % 3) - 1) * 0.06); }
+    label('CUT SQUARES', 540, 1440, prog(t, 12.66, 12.85), { size: 44, warm: true }); }
+  mascot(140, 1720, 0.4, { armL: [-0.6, 110], armR: [1.2, 60], look: [0.8, -0.5], lid: -0.5 });
+  g.restore();
+}
+function tray(x, y, w, h) { g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 16; rr(x - w / 2, y - h / 2, w, h, 18); g.fillStyle = '#2b3036'; g.fill(); g.restore(); rr(x - w / 2 + 8, y - h / 2 + 8, w - 16, h - 16, 12); g.fillStyle = '#1a1d21'; g.fill(); }
+function sMake(t, a) { // 13.45 - 19.0: ten pairs (~6 kg at a reported ₹20/kg = ₹120 of denim) make three patchwork bags and thirty patches (assumed yield)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 720);
+  const tagK = back(prog(t, 13.66, 13.95)); if (tagK > 0) { g.save(); g.translate(540, 640); g.scale(tagK, tagK); rr(-140, -40, 280, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('ASSUMED', 0, 4, 42, C.warm, 800); g.restore(); }
+  const out = ease(prog(t, 16.5, 16.8));
+  if (out < 1) { g.save(); g.globalAlpha *= 1 - out; for (let i = 0; i < 10; i++) { const k = back(prog(t, 13.66 + i * 0.03, 13.9 + i * 0.03)); if (k > 0) folded(540 + ((i % 2) ? 120 : -120), 1420 - Math.floor(i / 2) * 56, 220, SHADES[i % 6], { a: clamp(k) }); }
+    label('10 PAIRS ≈ 6 KG', 540, 800, prog(t, 13.87, 14.1) * (1 - prog(t, 14.6, 14.65)), { size: 44 });
+    label('₹20/KG REPORTED', 540, 800, prog(t, 14.65, 14.85), { size: 44 });
+    const dk = back(prog(t, 16.03, 16.3)); if (dk > 0) { g.save(); g.translate(540, 920); g.scale(dk, dk); rr(-150, -44, 300, 88, 44); g.fillStyle = C.cream; g.fill(); textC('₹120 DENIM', 0, 4, 46, C.ink, 800); g.restore(); } g.restore(); }
+  for (let b = 0; b < 3; b++) { const k = back(prog(t, 16.72 + b * 0.18, 17.0 + b * 0.18)); if (k <= 0) continue; const x = 230 + b * 310; g.save(); g.translate(x, 1180); g.scale(k * 0.62, k * 0.62); patchBag(0, 0, 360, 380, { seams: prog(t, 16.8 + b * 0.18, 17.3 + b * 0.18) }); g.restore(); }
+  label('3 BAGS', 540, 1250, prog(t, 17.26, 17.45), { size: 46, warm: true });
+  for (let i = 0; i < 30; i++) { const k = back(prog(t, 17.86 + i * 0.02, 18.1 + i * 0.02)); if (k <= 0) continue; const c = i % 10, r = Math.floor(i / 10); swatch(135 + c * 90, 1380 + r * 82, 68 * k, 68 * k, SHADES[(i * 7) % 6], 0, 1, true); }
+  label('30 PATCHES', 540, 1660, prog(t, 18.16, 18.35), { size: 46, warm: true });
+  g.restore();
+}
+function sMoney(t, a) { // 19.0 - 23.05: sales (3 bags × ₹450 + 30 patches × ₹10 = ₹1,650, assumed) minus labour ₹900, supplies ₹330, denim ₹120 leaves about ₹300
+  g.save(); g.globalAlpha = a;
+  spot(540, 1120, 680);
+  const tagK = back(prog(t, 19.1, 19.4)); if (tagK > 0) { g.save(); g.translate(790, 650); g.scale(tagK, tagK); rr(-140, -40, 280, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('ASSUMED', 0, 4, 42, C.warm, 800); g.restore(); }
+  const x0 = 330, w = 200, bot = 1490, px = 0.42, rise = easeOut(prog(t, 19.17, 19.5)), top = bot - 1650 * px;
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bot - 1650 * px * rise, w, 1650 * px * rise, 10); g.fillStyle = C.cream; g.fill(); g.restore();
+  label('SALES ₹1,650', x0 + w / 2, top - 50, prog(t, 19.25, 19.45), { size: 44 });
+  const parts = [['LABOUR', 900, '#7a5129', 19.5], ['SUPPLIES', 330, '#59616b', 19.98], ['DENIM', 120, DN.mid, 20.4]]; let y = bot;
+  parts.forEach(([name, v, col, ts], i) => { const h = v * px, k = prog(t, ts, ts + 0.3); if (k > 0) { g.save(); rr(x0, top, w, 1650 * px, 10); g.clip(); g.fillStyle = col; g.fillRect(x0, y - h * k, w, h * k); g.restore(); }
+    label(`${name} −₹${v.toLocaleString('en-IN')}`, 790, y - h / 2 - (i === 2 ? 30 : 0), prog(t, ts, ts + 0.25), { size: 42, warm: t > ts && t < (parts[i + 1] ? parts[i + 1][3] : 21.12), to: [x0 + w - 4, y - h / 2] }); y -= h; });
+  const lk = prog(t, 21.12, 21.4); if (lk > 0) { g.save(); rr(x0, top, w, 1650 * px, 10); g.clip(); g.fillStyle = C.warm; g.fillRect(x0, top, w, (y - top) * lk); g.restore();
+    const k = back(prog(t, 21.12, 21.5)); g.save(); g.translate(790, top + (y - top) / 2 - 20); g.scale(k, k); rr(-170, -44, 340, 88, 44); g.fillStyle = C.warm; g.fill(); textC('LEFT ≈ ₹300', 0, 4, 48, '#1d130e', 800); g.restore(); }
+  mascot(150, 1660, 0.42, { armL: [-0.55, 110], armR: [1.2, 60], look: [0.8, -0.3], lid: -0.5 });
+  g.restore();
+}
+function sTake(t, a) { // 23.05 - 27.0: the patches (₹300) outweigh the denim (₹120); then: sort first, then cut
+  g.save(); g.globalAlpha = a;
+  spot(540, 1150, 700); const tilt = 0.16 * ease(prog(t, 23.76, 24.3)), cx = 540, cy = 980, L = 300;
+  const fade = 1 - prog(t, 24.95, 25.2);
+  if (fade > 0) { g.save(); g.globalAlpha *= fade; g.fillStyle = '#59616b'; g.fillRect(cx - 10, cy, 20, 380); rr(cx - 120, cy + 370, 240, 30, 10); g.fill();
+    g.save(); g.translate(cx, cy); g.rotate(-tilt); g.fillStyle = '#c4c9cf'; rr(-L, -10, 2 * L, 20, 10); g.fill(); g.restore();
+    const lx = cx - L * Math.cos(tilt), ly = cy + L * Math.sin(tilt), rx = cx + L * Math.cos(tilt), ry = cy - L * Math.sin(tilt);
+    for (const [px2, py2] of [[lx, ly], [rx, ry]]) { g.strokeStyle = 'rgba(196,201,207,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(px2, py2); g.lineTo(px2 - 90, py2 + 150); g.moveTo(px2, py2); g.lineTo(px2 + 90, py2 + 150); g.stroke(); rr(px2 - 120, py2 + 150, 240, 22, 10); g.fillStyle = '#8f969e'; g.fill(); }
+    const pk = prog(t, 23.25, 23.6); for (let i = 0; i < 6; i++) { if (pk * 6 <= i) continue; swatch(lx - 60 + (i % 3) * 60, ly + 120 - Math.floor(i / 3) * 56, 54, 54, SHADES[(i * 5) % 6]); }
+    const dk = prog(t, 24.24, 24.5); if (dk > 0) folded(rx, ry + 125, 150, DN.mid, { a: dk });
+    textC('PATCHES ₹300', lx, ly + 230, 44, `rgba(244,109,18,${pk})`, 800); textC('DENIM ₹120', rx, ry + 230, 44, `rgba(254,247,238,${dk})`, 800); g.restore(); }
+  const sk = prog(t, 25.25, 25.5); if (sk > 0) { g.save(); g.globalAlpha *= sk; for (let i = 0; i < 5; i++) folded(380, 1420 - i * 52, 220, SHADES[i]); tick(380, 1080, 1.2, prog(t, 25.46, 25.8)); g.restore();
+    label('SORT', 380, 1500, sk, { size: 46, warm: true }); }
+  const ck = prog(t, 25.88, 26.2); if (ck > 0) { scissors(720, 1250, 1.2, Math.abs(Math.cos((t - 25.88) * 8)) * (1 - ck * 0.5), -0.4); for (let i = 0; i < 4; i++) swatch(660 + (i % 2) * 120, 1420 - Math.floor(i / 2) * 110, 100 * back(clamp(ck * 1.4 - i * 0.1)), 100 * back(clamp(ck * 1.4 - i * 0.1)), SHADES[i + 1]);
+    label('THEN CUT', 720, 1600, ck, { size: 46 }); }
+  textC('ASSUMED NUMBERS', 540, 700, 32, `rgba(254,247,238,${0.85 * prog(t, 23.1, 23.4) * fade})`, 700);
+  g.restore();
+}
+function tick(x, y, s, k, col = C.warm) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 14; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(-34, 0); const k1 = clamp(k * 2), k2 = clamp(k * 2 - 1); g.lineTo(-34 + 24 * k1, 26 * k1); if (k2 > 0) g.lineTo(-10 + 54 * k2, 26 - 66 * k2); g.stroke(); g.restore(); }
+// ---------- thumbnail (separate vertical image = the frame-zero composition; 4 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0, 1); heroJeans(0);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('OLD JEANS', 540, 300, 130, C.cream, 800); textC('NEW BAG', 540, 445, 130, C.warm, 800); g.restore();
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 1.5], [sAsk, 1.5, 3.35], [sProof, 3.35, 8.65], [sSort, 8.65, 13.45], [sMake, 13.45, 19.0], [sMoney, 19.0, 23.05], [sTake, 23.05, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Old jeans,|[new bag.]'],
+  L2: ['But which pairs are|[worth cutting?]'],
+  L3: ['A [Mumbai start-up] sold|[almost 3,000] products', ['from old jeans|in its [first year.]', 3.18]],
+  L4: ['Reject [thin] or|[stretchy] pairs,', ['[sort by shade,] then|[wash] and [cut squares.]', 1.74]],
+  L5: ['Ten pairs, about|[₹120 of denim,]', ['make [three bags]|and [thirty patches.]', 3.12]],
+  L6: ['After labour and supplies,|about [₹300 is left;]', ['the [patches pay]|for the denim.', 3.96]],
+  L7: ['So [sort first,]|then [cut.]'],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+CAPS[0].a = -0.2; // english-15..18: the hook words are fully visible at frame 0
+function caption(c, t) {
+  const big = c.L.id === 'L1', fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 430 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

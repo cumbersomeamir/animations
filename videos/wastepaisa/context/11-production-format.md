@@ -140,6 +140,11 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     the first make-and-sell value-addition episode; no verified prices, so the unit economics show an illustrative split without numbers).
     Old flex banners cut and stitched into tote bags (english-18; second make-and-sell episode; assumed per-batch economics with
     material, labour, handles, unsold stock and margin, all labelled ASSUMED).
+    Old denim into patchwork bags and repair patches (english-19; third make-and-sell episode; sourced ₹20/kg denim price kept apart
+    from ASSUMED reject rate, yields, labour and prices; distinct from english-09's wiping rags).
+  - **Counters:** pop the final rounded figure (e.g. ≈3,000) instead of counting up, so no frame shows an invented exact number
+    (english-16 '≈0 MILLION', english-19 '≈2,989').
+  - **Never insert a `//` comment mid-line in scene code;** use `/* */` (english-14 and english-19 both broke a line this way).
   - **Spellings ASR mishears** (english-11: flapped "liters" heard as "leaders"): fix with the optional `ph_sub` phoneme replacement
     in `audio/tts.py` / `lines.json` rather than rewording the line.
   - **No-earnings briefs:** when the brief forbids earnings, make the payoff a sourced cost comparison (e.g. per-litre route cost) with

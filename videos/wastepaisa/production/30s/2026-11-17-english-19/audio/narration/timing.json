@@ -1,0 +1,77 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.782,
+  "words": 76,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Old jeans, new bag.",
+      "start": 0.1,
+      "phonemes": "ˈoʊld dʒˈiːnz, nˈuː bˈæɡ.",
+      "duration": 1.236,
+      "end": 1.336
+    },
+    {
+      "id": "L2",
+      "text": "But which pairs are worth cutting?",
+      "start": 1.66,
+      "phonemes": "bˌʌt wˌɪtʃ pˈɛɹz ɑːɹ wˈɜːθ kˈʌɾɪŋ?",
+      "duration": 1.457,
+      "end": 3.117
+    },
+    {
+      "id": "L3",
+      "text": "A Mumbai start-up sold almost 3,000 products from old jeans in its first year.",
+      "tts": "A Mumbai start-up sold almost three thousand products from old jeans in its first year.",
+      "start": 3.47,
+      "phonemes": "ɐ mʊmbˈaɪ stˈɑːɹtˌʌp sˈoʊld ˈɔːlmoʊst θɹˈiː θˈaʊzənd pɹˈɑːdʌkts fɹʌm ˈoʊld dʒˈiːnz ɪn ɪts fˈɜːst jˈɪɹ.",
+      "duration": 5.001,
+      "end": 8.471
+    },
+    {
+      "id": "L4",
+      "text": "Reject thin or stretchy pairs, sort by shade, then wash and cut squares.",
+      "start": 8.82,
+      "phonemes": "ɹᵻdʒˈɛkt θˈɪn ɔːɹ stɹˈɛtʃi pˈɛɹz, sˈɔːɹt baɪ ʃˈeɪd, ðˈɛn wˈɑːʃ ænd kˈʌt skwˈɛɹz.",
+      "duration": 4.428,
+      "end": 13.248
+    },
+    {
+      "id": "L5",
+      "text": "Ten pairs, about ₹120 of denim, make three bags and thirty patches.",
+      "tts": "Ten pairs, about a hundred and twenty rupees of denim, make three bags and thirty patches.",
+      "start": 13.6,
+      "phonemes": "tˈɛn pˈɛɹz, ɐbˌaʊt ɐ hˈʌndɹɪd ænd twˈɛnti ɹˈuːpiːz ʌv dˈɛnɪm, mˌeɪk θɹˈiː bˈæɡz ænd θˈɜːɾi pˈætʃᵻz.",
+      "duration": 5.22,
+      "end": 18.82
+    },
+    {
+      "id": "L6",
+      "text": "After labour and supplies, about ₹300 is left; the patches pay for the denim.",
+      "tts": "After labor and supplies, about three hundred rupees is left; the patches pay for the denim.",
+      "start": 19.17,
+      "phonemes": "ˈæftɚ lˈeɪbɚ ænd səplˈaɪz, ɐbˌaʊt θɹˈiː hˈʌndɹɪd ɹˈuːpiːz ɪz lˈɛft; ðə pˈætʃᵻz pˈeɪ fɚðə dˈɛnɪm.",
+      "duration": 5.554,
+      "end": 24.724
+    },
+    {
+      "id": "L7",
+      "text": "So sort first, then cut.",
+      "start": 25.07,
+      "phonemes": "sˌoʊ sˈɔːɹt fˈɜːst, ðˈɛn kˈʌt.",
+      "duration": 1.401,
+      "end": 26.471
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

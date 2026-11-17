@@ -1,0 +1,106 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Old jeans, new bag.",
+   "heard": "old jeans new bag",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.12,
+   "plan_off": 1.336,
+   "heard_off": 1.35,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "But which pairs are worth cutting?",
+   "heard": "but which pairs are worth cutting",
+   "word_acc": 1.0,
+   "plan_on": 1.66,
+   "heard_on": 1.63,
+   "plan_off": 3.117,
+   "heard_off": 3.07,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "A Mumbai start-up sold almost three thousand products from old jeans in its first year.",
+   "heard": "a mumbai up sold almost three thousand products from old jeans in its first year",
+   "word_acc": 0.938,
+   "plan_on": 3.47,
+   "heard_on": 3.5,
+   "plan_off": 8.471,
+   "heard_off": 8.48,
+   "missed": [
+    [
+     "start"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Reject thin or stretchy pairs, sort by shade, then wash and cut squares.",
+   "heard": "reject thin or stretchy pairs sort by shade then wash and cut squares",
+   "word_acc": 1.0,
+   "plan_on": 8.82,
+   "heard_on": 8.79,
+   "plan_off": 13.248,
+   "heard_off": 13.23,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Ten pairs, about a hundred and twenty rupees of denim, make three bags and thirty patches.",
+   "heard": "ten pairs about one hundred and twenty rupees of denim make three bags and thirty patches",
+   "word_acc": 0.938,
+   "plan_on": 13.6,
+   "heard_on": 13.6,
+   "plan_off": 18.82,
+   "heard_off": 18.82,
+   "missed": [
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "After labor and supplies, about three hundred rupees is left; the patches pay for the denim.",
+   "heard": "after labor and supplies about three hundred rupees is left the patches pay for the denim",
+   "word_acc": 1.0,
+   "plan_on": 19.17,
+   "heard_on": 19.17,
+   "plan_off": 24.724,
+   "heard_off": 24.69,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "So sort first, then cut.",
+   "heard": "so sort first then cut",
+   "word_acc": 1.0,
+   "plan_on": 25.07,
+   "heard_on": 25.07,
+   "plan_off": 26.471,
+   "heard_off": 26.48,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}
