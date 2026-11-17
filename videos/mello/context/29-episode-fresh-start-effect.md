@@ -90,6 +90,19 @@ How the script uses them (measured / reported / gloss / advice / illustrative):
 - **S6, 17.15–20.45:** the old Sunday page with its slip-ups drifts away into the back of the room and fades.
 - **S7, 20.45–30:** a month view (today the 10th, ringed). He sets a gold DAY 1 tag on the coming Monday, steps back and turns. Lock-up from 26.3 s.
 
+## Result
+- Final (render 2): `videos/mello/production/30s/2026-11-17-english-19/mello-30s-english19-01.mp4`
+  - sha256 `a075e8c6c7e8025ec10a290c01bd6a35bf7a5bb57b6c732e73213b17e6a0b533`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 (`production/30s/2026-11-17-english-19/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- Render 1 failed only the cut check (8.8 at the card-to-card cut); it was fixed with a low-angle S4.
+- No listen-through (ASR and measurements only).
+
 ## Skill / scene adjustments for future episodes
 - **Big props with text:** audit only the text area (here an invisible plane over the header, numeral and grid rows). Keep the prop at 4.1 m or more so it clears the right rail and the bottom zone.
 - **Page flips:** a door-style swing (hinged on one side, opening toward a three-quarter camera on the other side) reads at a glance. An up-flip seen from the front is edge-on and invisible.
+- **Two shots of the same card on a plain background:** change both elevation and azimuth substantially (here el +4° → −5°, az 0° → −30°). The cut check needs a frame change above 10.

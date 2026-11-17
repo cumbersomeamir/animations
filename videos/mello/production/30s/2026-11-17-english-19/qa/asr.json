@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Why do Mondays feel new? Psychologists call it the fresh start effect. In one study, people picked a day for a goal reminder. When March twentieth was labeled the first day of spring, over three times as many chose it. A second study found the same for the first day of summer break. A new beginning can make past slip-ups feel further away. So when starting feels hard, pick a nearby day that feels like day one, and begin there. Take a mindful break with Mello.",
+  "transcript": "Why do Mondays feel new? Psychologists call it the fresh start effect. In one study, people picked a day for a goal reminder. When March 20th was labeled the first day of spring, over three times as many chose it. A second study found the same for the first day of summer break. A new beginning can make past slip-ups feel further away. So when starting feels hard, pick a nearby day that feels like day one and begin there. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.402,
+      "text": "Why do Mondays feel new?",
+      "cer": 0.0
+    },
+    {
+      "id": "name",
+      "start": 1.85,
+      "end": 4.147,
+      "text": "Psychologists call it the fresh start effect.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 4.55,
+      "end": 7.722,
+      "text": "In one study, people picked a day for a goal reminder.",
+      "cer": 0.0
+    },
+    {
+      "id": "result",
+      "start": 8.1,
+      "end": 13.3,
+      "text": "When March 20th was labeled the first day of spring, over three times as many chose it.",
+      "cer": 0.0
+    },
+    {
+      "id": "again",
+      "start": 13.65,
+      "end": 16.953,
+      "text": "A second study found the same for the first day of summer break.",
+      "cer": 0.0
+    },
+    {
+      "id": "why",
+      "start": 17.3,
+      "end": 20.144,
+      "text": "A new beginning can make past slip-ups feel further away.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 20.6,
+      "end": 25.441,
+      "text": "So when starting feels hard, pick a nearby day that feels like day one and begin there.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

@@ -692,3 +692,38 @@ Episode record: `28-episode-illusion-of-transparency.md`. Durable rules: `10-for
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-19, 2026-11-17: episode english19-01 "why do Mondays feel new?" (the fresh start effect, English)
+Episode record: `29-episode-fresh-start-effect.md`. Durable rules: `10-format-and-style-rules.md` sections 8 and 9. The latest feedback (store palette, soothing bed, psychology insight with a demonstration) is retained.
+
+## Verified facts (this round)
+- The proposed topic (if-then plans, implementation intentions) is already covered: hindi04-01 (`14`), swapped in english10 and english17, and shoes by the door in english15. A fresh same-genre topic was chosen: the fresh start effect.
+- Source: Dai, Milkman & Riis 2015 (*Psychological Science*, PMID 26546079, PMC full text):
+  - Study 1A: "first day of spring" vs "third Thursday": 25.61% vs 7.23% chose March 20 for a goal reminder.
+  - Study 1B: "first day of summer break" vs "administrative day": 28.57% vs 4.35%.
+  - Study 4: the effect works in part through distance from the "imperfect past self".
+- The effect's name comes from Dai et al. 2014 (*Management Science*), with the citation verified in the 2015 reference list.
+
+## Creative decisions (this round)
+- English only, 86 words, hook audio at 0.15 s.
+- Frame 0 = the thumbnail composition: SUNDAY's page with slip-ups swinging open like a door onto MONDAY 1, "Why do Mondays / feel new?".
+- The card shows real figures (7% vs 26%). The calendar swings to SUMMER BREAK, DAY 1, the old page drifts away, and a gold DAY 1 tag goes on a nearby Monday.
+- `BED_GAIN` 0.44 (12.9 dB under the voice). Thumbnail "WHY MONDAYS FEEL NEW?".
+
+## Completed (this round)
+- Render 1 failed only `cuts_on_plan` (8.8 at the card-to-card cut). S4 moved to a low angle; render 2 is final.
+- Final: `videos/mello/production/30s/2026-11-17-english-19/mello-30s-english19-01.mp4`
+  - sha256 `a075e8c6c7e8025ec10a290c01bd6a35bf7a5bb57b6c732e73213b17e6a0b533`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `…/mello-30s-english19-01-thumbnail.png`.
+- QA: 16/16 checks passed (`production/30s/2026-11-17-english-19/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.

@@ -1,0 +1,10191 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     122,
+     730,
+     804,
+     1419
+    ]
+   },
+   "head": [
+    812,
+    978,
+    1000,
+    1166
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     122,
+     729,
+     804,
+     1419
+    ]
+   },
+   "head": [
+    813,
+    977,
+    1000,
+    1165
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     121,
+     729,
+     804,
+     1419
+    ]
+   },
+   "head": [
+    813,
+    976,
+    1001,
+    1164
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     120,
+     729,
+     804,
+     1420
+    ]
+   },
+   "head": [
+    814,
+    975,
+    1002,
+    1163
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     119,
+     729,
+     805,
+     1421
+    ]
+   },
+   "head": [
+    815,
+    974,
+    1003,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     117,
+     728,
+     805,
+     1421
+    ]
+   },
+   "head": [
+    816,
+    973,
+    1005,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     116,
+     728,
+     805,
+     1422
+    ]
+   },
+   "head": [
+    817,
+    972,
+    1006,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     114,
+     727,
+     805,
+     1423
+    ]
+   },
+   "head": [
+    819,
+    972,
+    1008,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     112,
+     727,
+     805,
+     1424
+    ]
+   },
+   "head": [
+    820,
+    971,
+    1010,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     110,
+     726,
+     806,
+     1425
+    ]
+   },
+   "head": [
+    821,
+    971,
+    1012,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     108,
+     726,
+     806,
+     1426
+    ]
+   },
+   "head": [
+    823,
+    970,
+    1014,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     106,
+     725,
+     806,
+     1427
+    ]
+   },
+   "head": [
+    824,
+    970,
+    1015,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     105,
+     725,
+     806,
+     1428
+    ]
+   },
+   "head": [
+    825,
+    970,
+    1017,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     103,
+     724,
+     806,
+     1428
+    ]
+   },
+   "head": [
+    826,
+    970,
+    1018,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     102,
+     724,
+     807,
+     1429
+    ]
+   },
+   "head": [
+    827,
+    971,
+    1020,
+    1163
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     101,
+     724,
+     807,
+     1430
+    ]
+   },
+   "head": [
+    828,
+    971,
+    1021,
+    1164
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     100,
+     724,
+     807,
+     1430
+    ]
+   },
+   "head": [
+    829,
+    972,
+    1021,
+    1165
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     97,
+     671,
+     921,
+     1473
+    ]
+   },
+   "head": [
+    1047,
+    926,
+    1265,
+    1144
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    121,
+    306,
+    879,
+    554
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     97,
+     671,
+     921,
+     1474
+    ]
+   },
+   "head": [
+    1048,
+    927,
+    1266,
+    1145
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     96,
+     670,
+     921,
+     1474
+    ]
+   },
+   "head": [
+    1049,
+    928,
+    1267,
+    1146
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    162,
+    340,
+    838,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     96,
+     670,
+     921,
+     1475
+    ]
+   },
+   "head": [
+    1049,
+    929,
+    1268,
+    1147
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     96,
+     670,
+     922,
+     1475
+    ]
+   },
+   "head": [
+    1050,
+    930,
+    1269,
+    1149
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     95,
+     670,
+     922,
+     1476
+    ]
+   },
+   "head": [
+    1051,
+    931,
+    1270,
+    1150
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     94,
+     669,
+     922,
+     1477
+    ]
+   },
+   "head": [
+    1052,
+    932,
+    1271,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     94,
+     669,
+     922,
+     1477
+    ]
+   },
+   "head": [
+    1054,
+    933,
+    1273,
+    1152
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     93,
+     668,
+     923,
+     1478
+    ]
+   },
+   "head": [
+    1055,
+    934,
+    1275,
+    1154
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     92,
+     668,
+     923,
+     1479
+    ]
+   },
+   "head": [
+    1057,
+    935,
+    1276,
+    1155
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     91,
+     667,
+     924,
+     1480
+    ]
+   },
+   "head": [
+    1058,
+    936,
+    1278,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     90,
+     667,
+     924,
+     1482
+    ]
+   },
+   "head": [
+    1060,
+    937,
+    1280,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     89,
+     666,
+     924,
+     1483
+    ]
+   },
+   "head": [
+    1062,
+    937,
+    1283,
+    1158
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     89,
+     666,
+     925,
+     1484
+    ]
+   },
+   "head": [
+    1064,
+    938,
+    1285,
+    1159
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     88,
+     665,
+     925,
+     1485
+    ]
+   },
+   "head": [
+    1066,
+    938,
+    1287,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     87,
+     665,
+     926,
+     1486
+    ]
+   },
+   "head": [
+    1067,
+    938,
+    1289,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     86,
+     664,
+     926,
+     1488
+    ]
+   },
+   "head": [
+    1069,
+    938,
+    1291,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     85,
+     664,
+     927,
+     1489
+    ]
+   },
+   "head": [
+    1071,
+    938,
+    1293,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     84,
+     663,
+     927,
+     1490
+    ]
+   },
+   "head": [
+    1073,
+    938,
+    1295,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     83,
+     663,
+     928,
+     1491
+    ]
+   },
+   "head": [
+    1074,
+    937,
+    1297,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     82,
+     662,
+     928,
+     1492
+    ]
+   },
+   "head": [
+    1075,
+    937,
+    1299,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     82,
+     662,
+     928,
+     1493
+    ]
+   },
+   "head": [
+    1077,
+    936,
+    1300,
+    1159
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     81,
+     661,
+     929,
+     1494
+    ]
+   },
+   "head": [
+    1078,
+    935,
+    1302,
+    1158
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     81,
+     661,
+     929,
+     1494
+    ]
+   },
+   "head": [
+    1079,
+    934,
+    1303,
+    1158
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     80,
+     661,
+     929,
+     1495
+    ]
+   },
+   "head": [
+    1080,
+    933,
+    1304,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     80,
+     660,
+     929,
+     1496
+    ]
+   },
+   "head": [
+    1081,
+    931,
+    1305,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     79,
+     660,
+     929,
+     1496
+    ]
+   },
+   "head": [
+    1081,
+    930,
+    1306,
+    1154
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     715,
+     923,
+     1327
+    ],
+    "calendar": null
+   },
+   "head": [
+    1261,
+    930,
+    1482,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    160,
+    340,
+    840,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     157,
+     715,
+     923,
+     1327
+    ],
+    "calendar": null
+   },
+   "head": [
+    1260,
+    928,
+    1482,
+    1150
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     715,
+     924,
+     1328
+    ],
+    "calendar": null
+   },
+   "head": [
+    1260,
+    927,
+    1482,
+    1149
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    105,
+    348,
+    895,
+    512
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     715,
+     924,
+     1328
+    ],
+    "calendar": null
+   },
+   "head": [
+    1260,
+    926,
+    1481,
+    1147
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     714,
+     924,
+     1328
+    ],
+    "calendar": null
+   },
+   "head": [
+    1259,
+    925,
+    1481,
+    1146
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     714,
+     924,
+     1328
+    ],
+    "calendar": null
+   },
+   "head": [
+    1259,
+    924,
+    1480,
+    1145
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": [
+     156,
+     714,
+     924,
+     1328
+    ],
+    "calendar": null
+   },
+   "head": [
+    1258,
+    923,
+    1480,
+    1144
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     714,
+     925,
+     1329
+    ],
+    "calendar": null
+   },
+   "head": [
+    1258,
+    922,
+    1479,
+    1143
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     714,
+     925,
+     1329
+    ],
+    "calendar": null
+   },
+   "head": [
+    1257,
+    921,
+    1479,
+    1143
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     155,
+     714,
+     925,
+     1329
+    ],
+    "calendar": null
+   },
+   "head": [
+    1256,
+    920,
+    1478,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     713,
+     926,
+     1330
+    ],
+    "calendar": null
+   },
+   "head": [
+    1256,
+    920,
+    1478,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     713,
+     926,
+     1330
+    ],
+    "calendar": null
+   },
+   "head": [
+    1255,
+    920,
+    1477,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     154,
+     713,
+     926,
+     1330
+    ],
+    "calendar": null
+   },
+   "head": [
+    1254,
+    919,
+    1476,
+    1141
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     713,
+     927,
+     1331
+    ],
+    "calendar": null
+   },
+   "head": [
+    1253,
+    919,
+    1475,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     153,
+     712,
+     927,
+     1331
+    ],
+    "calendar": null
+   },
+   "head": [
+    1252,
+    920,
+    1474,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     712,
+     928,
+     1332
+    ],
+    "calendar": null
+   },
+   "head": [
+    1251,
+    920,
+    1473,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     152,
+     712,
+     928,
+     1332
+    ],
+    "calendar": null
+   },
+   "head": [
+    1250,
+    920,
+    1472,
+    1143
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     711,
+     929,
+     1332
+    ],
+    "calendar": null
+   },
+   "head": [
+    1249,
+    921,
+    1472,
+    1144
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     151,
+     711,
+     929,
+     1333
+    ],
+    "calendar": null
+   },
+   "head": [
+    1248,
+    922,
+    1471,
+    1144
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     711,
+     930,
+     1333
+    ],
+    "calendar": null
+   },
+   "head": [
+    1247,
+    923,
+    1470,
+    1145
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     150,
+     711,
+     930,
+     1334
+    ],
+    "calendar": null
+   },
+   "head": [
+    1246,
+    924,
+    1469,
+    1146
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     710,
+     931,
+     1334
+    ],
+    "calendar": null
+   },
+   "head": [
+    1245,
+    925,
+    1468,
+    1147
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     710,
+     931,
+     1335
+    ],
+    "calendar": null
+   },
+   "head": [
+    1244,
+    926,
+    1467,
+    1149
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     149,
+     710,
+     931,
+     1335
+    ],
+    "calendar": null
+   },
+   "head": [
+    1243,
+    927,
+    1466,
+    1150
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     148,
+     709,
+     932,
+     1335
+    ],
+    "calendar": null
+   },
+   "head": [
+    1242,
+    928,
+    1465,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     148,
+     709,
+     932,
+     1336
+    ],
+    "calendar": null
+   },
+   "head": [
+    1241,
+    929,
+    1464,
+    1152
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     147,
+     709,
+     933,
+     1336
+    ],
+    "calendar": null
+   },
+   "head": [
+    1240,
+    930,
+    1463,
+    1153
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     147,
+     709,
+     933,
+     1336
+    ],
+    "calendar": null
+   },
+   "head": [
+    1239,
+    931,
+    1463,
+    1154
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     147,
+     708,
+     933,
+     1337
+    ],
+    "calendar": null
+   },
+   "head": [
+    1239,
+    932,
+    1462,
+    1155
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     146,
+     708,
+     934,
+     1337
+    ],
+    "calendar": null
+   },
+   "head": [
+    1238,
+    932,
+    1461,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     146,
+     708,
+     934,
+     1337
+    ],
+    "calendar": null
+   },
+   "head": [
+    1237,
+    933,
+    1461,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     146,
+     708,
+     934,
+     1338
+    ],
+    "calendar": null
+   },
+   "head": [
+    1237,
+    933,
+    1460,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     146,
+     708,
+     934,
+     1338
+    ],
+    "calendar": null
+   },
+   "head": [
+    1236,
+    934,
+    1460,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     146,
+     708,
+     934,
+     1338
+    ],
+    "calendar": null
+   },
+   "head": [
+    1236,
+    934,
+    1459,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     145,
+     708,
+     935,
+     1338
+    ],
+    "calendar": null
+   },
+   "head": [
+    1235,
+    934,
+    1459,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     78,
+     750,
+     868,
+     1383
+    ],
+    "calendar": null
+   },
+   "head": [
+    797,
+    1066,
+    1001,
+    1271
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    102,
+    347,
+    898,
+    513
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     78,
+     750,
+     868,
+     1383
+    ],
+    "calendar": null
+   },
+   "head": [
+    797,
+    1066,
+    1002,
+    1271
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     78,
+     750,
+     868,
+     1383
+    ],
+    "calendar": null
+   },
+   "head": [
+    798,
+    1065,
+    1003,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    108,
+    367,
+    892,
+    493
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1383
+    ],
+    "calendar": null
+   },
+   "head": [
+    799,
+    1065,
+    1004,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    104,
+    366,
+    896,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    800,
+    1064,
+    1005,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    800,
+    1063,
+    1006,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    801,
+    1062,
+    1007,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    802,
+    1061,
+    1008,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    803,
+    1060,
+    1009,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    804,
+    1059,
+    1010,
+    1264
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    806,
+    1058,
+    1011,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    807,
+    1057,
+    1012,
+    1262
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    808,
+    1055,
+    1014,
+    1261
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    810,
+    1054,
+    1015,
+    1260
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1384
+    ],
+    "calendar": null
+   },
+   "head": [
+    811,
+    1053,
+    1017,
+    1259
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    813,
+    1052,
+    1019,
+    1258
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     750,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    814,
+    1052,
+    1020,
+    1258
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     750,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    816,
+    1051,
+    1022,
+    1257
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     750,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    818,
+    1050,
+    1024,
+    1257
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     750,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    820,
+    1050,
+    1026,
+    1256
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     749,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    822,
+    1050,
+    1028,
+    1256
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     749,
+     868,
+     1385
+    ],
+    "calendar": null
+   },
+   "head": [
+    824,
+    1050,
+    1030,
+    1256
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    826,
+    1050,
+    1032,
+    1256
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    828,
+    1050,
+    1034,
+    1257
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    830,
+    1050,
+    1037,
+    1257
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    832,
+    1051,
+    1039,
+    1258
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    834,
+    1052,
+    1041,
+    1259
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    836,
+    1052,
+    1043,
+    1260
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     749,
+     868,
+     1386
+    ],
+    "calendar": null
+   },
+   "head": [
+    838,
+    1053,
+    1046,
+    1261
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    841,
+    1054,
+    1048,
+    1262
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    843,
+    1055,
+    1050,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    845,
+    1056,
+    1053,
+    1264
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    847,
+    1057,
+    1055,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    103,
+    366,
+    897,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    849,
+    1059,
+    1057,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     749,
+     869,
+     1387
+    ],
+    "calendar": null
+   },
+   "head": [
+    851,
+    1060,
+    1059,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    110,
+    345,
+    890,
+    515
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     749,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    853,
+    1061,
+    1061,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    106,
+    344,
+    894,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     749,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    855,
+    1062,
+    1063,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     749,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    857,
+    1062,
+    1065,
+    1271
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     748,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    859,
+    1063,
+    1067,
+    1272
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     748,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    861,
+    1064,
+    1069,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     748,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    862,
+    1064,
+    1071,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     748,
+     869,
+     1388
+    ],
+    "calendar": null
+   },
+   "head": [
+    864,
+    1065,
+    1073,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    866,
+    1065,
+    1075,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    867,
+    1065,
+    1076,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    868,
+    1065,
+    1078,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    870,
+    1065,
+    1079,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    871,
+    1064,
+    1080,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    872,
+    1064,
+    1081,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    873,
+    1063,
+    1083,
+    1272
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    874,
+    1062,
+    1084,
+    1272
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    875,
+    1061,
+    1085,
+    1271
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    876,
+    1060,
+    1086,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    877,
+    1059,
+    1086,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1389
+    ],
+    "calendar": null
+   },
+   "head": [
+    878,
+    1058,
+    1087,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1390
+    ],
+    "calendar": null
+   },
+   "head": [
+    878,
+    1057,
+    1088,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     748,
+     869,
+     1390
+    ],
+    "calendar": null
+   },
+   "head": [
+    879,
+    1056,
+    1089,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     113,
+     676,
+     902,
+     1456
+    ]
+   },
+   "head": [
+    954,
+    940,
+    1169,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    105,
+    344,
+    895,
+    516
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     112,
+     676,
+     902,
+     1456
+    ]
+   },
+   "head": [
+    954,
+    939,
+    1170,
+    1155
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     112,
+     676,
+     902,
+     1456
+    ]
+   },
+   "head": [
+    955,
+    938,
+    1171,
+    1154
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    341,
+    897,
+    519
+   ],
+   "captionText": [
+    110,
+    367,
+    890,
+    493
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     111,
+     676,
+     902,
+     1456
+    ]
+   },
+   "head": [
+    956,
+    937,
+    1172,
+    1153
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     111,
+     676,
+     903,
+     1457
+    ]
+   },
+   "head": [
+    957,
+    936,
+    1173,
+    1152
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     110,
+     675,
+     903,
+     1457
+    ]
+   },
+   "head": [
+    958,
+    935,
+    1174,
+    1152
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     109,
+     675,
+     903,
+     1457
+    ]
+   },
+   "head": [
+    959,
+    935,
+    1175,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     109,
+     675,
+     903,
+     1457
+    ]
+   },
+   "head": [
+    960,
+    934,
+    1177,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     108,
+     674,
+     904,
+     1458
+    ]
+   },
+   "head": [
+    961,
+    934,
+    1178,
+    1150
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     107,
+     674,
+     904,
+     1458
+    ]
+   },
+   "head": [
+    963,
+    933,
+    1180,
+    1150
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     106,
+     674,
+     904,
+     1459
+    ]
+   },
+   "head": [
+    964,
+    933,
+    1182,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     105,
+     673,
+     905,
+     1459
+    ]
+   },
+   "head": [
+    966,
+    933,
+    1183,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     104,
+     673,
+     905,
+     1460
+    ]
+   },
+   "head": [
+    968,
+    934,
+    1185,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     103,
+     673,
+     905,
+     1460
+    ]
+   },
+   "head": [
+    970,
+    934,
+    1188,
+    1152
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     101,
+     672,
+     906,
+     1461
+    ]
+   },
+   "head": [
+    971,
+    934,
+    1190,
+    1153
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     100,
+     672,
+     906,
+     1461
+    ]
+   },
+   "head": [
+    973,
+    935,
+    1192,
+    1154
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     99,
+     671,
+     907,
+     1462
+    ]
+   },
+   "head": [
+    975,
+    936,
+    1194,
+    1155
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     98,
+     671,
+     907,
+     1463
+    ]
+   },
+   "head": [
+    977,
+    937,
+    1196,
+    1156
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     96,
+     670,
+     908,
+     1463
+    ]
+   },
+   "head": [
+    979,
+    938,
+    1199,
+    1157
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     95,
+     670,
+     908,
+     1464
+    ]
+   },
+   "head": [
+    981,
+    939,
+    1201,
+    1158
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     94,
+     669,
+     908,
+     1464
+    ]
+   },
+   "head": [
+    983,
+    940,
+    1203,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     93,
+     669,
+     909,
+     1465
+    ]
+   },
+   "head": [
+    985,
+    941,
+    1206,
+    1161
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     91,
+     668,
+     909,
+     1466
+    ]
+   },
+   "head": [
+    987,
+    942,
+    1208,
+    1162
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     90,
+     668,
+     909,
+     1466
+    ]
+   },
+   "head": [
+    989,
+    942,
+    1210,
+    1164
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     89,
+     667,
+     910,
+     1467
+    ]
+   },
+   "head": [
+    991,
+    943,
+    1212,
+    1165
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     88,
+     667,
+     910,
+     1467
+    ]
+   },
+   "head": [
+    992,
+    944,
+    1214,
+    1166
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     87,
+     666,
+     911,
+     1468
+    ]
+   },
+   "head": [
+    994,
+    945,
+    1216,
+    1167
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     86,
+     666,
+     911,
+     1468
+    ]
+   },
+   "head": [
+    995,
+    946,
+    1218,
+    1168
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     85,
+     666,
+     911,
+     1469
+    ]
+   },
+   "head": [
+    997,
+    946,
+    1219,
+    1168
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     84,
+     665,
+     911,
+     1469
+    ]
+   },
+   "head": [
+    998,
+    946,
+    1221,
+    1169
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     83,
+     665,
+     912,
+     1469
+    ]
+   },
+   "head": [
+    999,
+    947,
+    1222,
+    1169
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     83,
+     665,
+     912,
+     1470
+    ]
+   },
+   "head": [
+    1000,
+    947,
+    1223,
+    1170
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     82,
+     664,
+     912,
+     1470
+    ]
+   },
+   "head": [
+    1001,
+    947,
+    1224,
+    1170
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     81,
+     664,
+     912,
+     1470
+    ]
+   },
+   "head": [
+    1002,
+    946,
+    1225,
+    1170
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     81,
+     664,
+     912,
+     1470
+    ]
+   },
+   "head": [
+    1003,
+    946,
+    1226,
+    1169
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     80,
+     664,
+     912,
+     1471
+    ]
+   },
+   "head": [
+    1004,
+    945,
+    1227,
+    1169
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     80,
+     664,
+     913,
+     1471
+    ]
+   },
+   "head": [
+    1004,
+    945,
+    1228,
+    1168
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    366,
+    893,
+    494
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1508,
+    1016,
+    1762,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 6
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1510,
+    1015,
+    1764,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    111,
+    361,
+    889,
+    499
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1512,
+    1015,
+    1766,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    107,
+    361,
+    893,
+    499
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1515,
+    1014,
+    1769,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1518,
+    1013,
+    1771,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1521,
+    1012,
+    1774,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1524,
+    1012,
+    1778,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1528,
+    1011,
+    1781,
+    1264
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1532,
+    1010,
+    1785,
+    1264
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1536,
+    1010,
+    1790,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1541,
+    1010,
+    1795,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1547,
+    1010,
+    1800,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1552,
+    1010,
+    1805,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1558,
+    1010,
+    1811,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1564,
+    1010,
+    1817,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1570,
+    1011,
+    1823,
+    1264
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1576,
+    1012,
+    1829,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1583,
+    1013,
+    1835,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1589,
+    1014,
+    1842,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1595,
+    1016,
+    1848,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1602,
+    1017,
+    1854,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1607,
+    1019,
+    1860,
+    1271
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1613,
+    1020,
+    1865,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1619,
+    1022,
+    1871,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1624,
+    1024,
+    1875,
+    1276
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1628,
+    1026,
+    1880,
+    1278
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1633,
+    1028,
+    1884,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1636,
+    1030,
+    1888,
+    1282
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1640,
+    1032,
+    1892,
+    1283
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1643,
+    1034,
+    1895,
+    1285
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1646,
+    1035,
+    1897,
+    1287
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1649,
+    1037,
+    1900,
+    1288
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": null
+   },
+   "head": [
+    1651,
+    1038,
+    1902,
+    1290
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    360,
+    894,
+    500
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     670,
+     919,
+     1444
+    ]
+   },
+   "head": [
+    -345,
+    924,
+    -142,
+    1128
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     670,
+     919,
+     1444
+    ]
+   },
+   "head": [
+    -345,
+    925,
+    -141,
+    1129
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    115,
+    391,
+    885,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     670,
+     919,
+     1444
+    ]
+   },
+   "head": [
+    -345,
+    926,
+    -141,
+    1130
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    340,
+    899,
+    520
+   ],
+   "captionText": [
+    111,
+    391,
+    889,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     671,
+     919,
+     1444
+    ]
+   },
+   "head": [
+    -344,
+    927,
+    -141,
+    1130
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     124,
+     671,
+     919,
+     1444
+    ]
+   },
+   "head": [
+    -344,
+    928,
+    -140,
+    1131
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     125,
+     672,
+     919,
+     1445
+    ]
+   },
+   "head": [
+    -343,
+    929,
+    -140,
+    1132
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     125,
+     673,
+     919,
+     1445
+    ]
+   },
+   "head": [
+    -342,
+    930,
+    -139,
+    1133
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     126,
+     674,
+     919,
+     1446
+    ]
+   },
+   "head": [
+    -341,
+    931,
+    -138,
+    1134
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     126,
+     676,
+     919,
+     1446
+    ]
+   },
+   "head": [
+    -340,
+    931,
+    -137,
+    1134
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     127,
+     677,
+     918,
+     1447
+    ]
+   },
+   "head": [
+    -339,
+    932,
+    -136,
+    1135
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     127,
+     679,
+     918,
+     1447
+    ]
+   },
+   "head": [
+    -337,
+    933,
+    -135,
+    1136
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     128,
+     680,
+     918,
+     1448
+    ]
+   },
+   "head": [
+    -336,
+    934,
+    -134,
+    1136
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     129,
+     682,
+     917,
+     1449
+    ]
+   },
+   "head": [
+    -334,
+    935,
+    -132,
+    1137
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     129,
+     684,
+     917,
+     1449
+    ]
+   },
+   "head": [
+    -333,
+    936,
+    -131,
+    1137
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     130,
+     686,
+     917,
+     1450
+    ]
+   },
+   "head": [
+    -331,
+    937,
+    -130,
+    1138
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     131,
+     688,
+     916,
+     1451
+    ]
+   },
+   "head": [
+    -329,
+    938,
+    -128,
+    1139
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     132,
+     691,
+     916,
+     1452
+    ]
+   },
+   "head": [
+    -327,
+    939,
+    -126,
+    1140
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     133,
+     693,
+     916,
+     1453
+    ]
+   },
+   "head": [
+    -325,
+    940,
+    -124,
+    1140
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    110,
+    391,
+    890,
+    469
+   ],
+   "captionLines": 1,
+   "shot": 7
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     134,
+     696,
+     915,
+     1454
+    ]
+   },
+   "head": [
+    -323,
+    941,
+    -123,
+    1141
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     135,
+     698,
+     915,
+     1455
+    ]
+   },
+   "head": [
+    -320,
+    943,
+    -121,
+    1142
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    341,
+    895,
+    519
+   ],
+   "captionText": [
+    111,
+    358,
+    889,
+    502
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     136,
+     701,
+     914,
+     1456
+    ]
+   },
+   "head": [
+    -317,
+    944,
+    -118,
+    1143
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    107,
+    357,
+    893,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     137,
+     704,
+     914,
+     1457
+    ]
+   },
+   "head": [
+    -313,
+    946,
+    -114,
+    1145
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     138,
+     707,
+     913,
+     1458
+    ]
+   },
+   "head": [
+    -307,
+    948,
+    -109,
+    1146
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     140,
+     710,
+     913,
+     1459
+    ]
+   },
+   "head": [
+    -301,
+    950,
+    -104,
+    1147
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     141,
+     713,
+     912,
+     1460
+    ]
+   },
+   "head": [
+    -296,
+    952,
+    -98,
+    1149
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     142,
+     716,
+     911,
+     1462
+    ]
+   },
+   "head": [
+    -290,
+    954,
+    -93,
+    1151
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     143,
+     719,
+     911,
+     1463
+    ]
+   },
+   "head": [
+    -286,
+    957,
+    -89,
+    1153
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     144,
+     722,
+     910,
+     1464
+    ]
+   },
+   "head": [
+    -282,
+    959,
+    -86,
+    1155
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     146,
+     725,
+     910,
+     1465
+    ]
+   },
+   "head": [
+    -279,
+    962,
+    -84,
+    1158
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     147,
+     729,
+     909,
+     1466
+    ]
+   },
+   "head": [
+    -277,
+    965,
+    -82,
+    1160
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     148,
+     732,
+     908,
+     1468
+    ]
+   },
+   "head": [
+    -274,
+    968,
+    -80,
+    1163
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     149,
+     735,
+     908,
+     1469
+    ]
+   },
+   "head": [
+    -271,
+    971,
+    -77,
+    1165
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     150,
+     738,
+     907,
+     1470
+    ]
+   },
+   "head": [
+    -269,
+    975,
+    -75,
+    1168
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     152,
+     741,
+     907,
+     1471
+    ]
+   },
+   "head": [
+    -266,
+    978,
+    -73,
+    1171
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     153,
+     745,
+     906,
+     1472
+    ]
+   },
+   "head": [
+    -264,
+    982,
+    -71,
+    1175
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     154,
+     748,
+     905,
+     1474
+    ]
+   },
+   "head": [
+    -261,
+    985,
+    -69,
+    1178
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     155,
+     751,
+     905,
+     1475
+    ]
+   },
+   "head": [
+    -258,
+    989,
+    -67,
+    1181
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     156,
+     754,
+     904,
+     1476
+    ]
+   },
+   "head": [
+    -256,
+    993,
+    -64,
+    1184
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     158,
+     757,
+     903,
+     1477
+    ]
+   },
+   "head": [
+    -253,
+    997,
+    -62,
+    1188
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     159,
+     760,
+     903,
+     1478
+    ]
+   },
+   "head": [
+    -251,
+    1000,
+    -61,
+    1191
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     160,
+     763,
+     902,
+     1479
+    ]
+   },
+   "head": [
+    -250,
+    1004,
+    -60,
+    1194
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     161,
+     766,
+     901,
+     1481
+    ]
+   },
+   "head": [
+    -251,
+    1008,
+    -61,
+    1197
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     162,
+     769,
+     901,
+     1482
+    ]
+   },
+   "head": [
+    -251,
+    1011,
+    -62,
+    1200
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     163,
+     772,
+     900,
+     1483
+    ]
+   },
+   "head": [
+    -252,
+    1014,
+    -63,
+    1203
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     164,
+     774,
+     900,
+     1484
+    ]
+   },
+   "head": [
+    -253,
+    1018,
+    -64,
+    1206
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     165,
+     777,
+     899,
+     1485
+    ]
+   },
+   "head": [
+    -255,
+    1021,
+    -67,
+    1209
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     166,
+     780,
+     898,
+     1486
+    ]
+   },
+   "head": [
+    -267,
+    1025,
+    -78,
+    1214
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     167,
+     782,
+     898,
+     1487
+    ]
+   },
+   "head": [
+    -290,
+    1030,
+    -101,
+    1220
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     784,
+     897,
+     1488
+    ]
+   },
+   "head": [
+    -323,
+    1036,
+    -131,
+    1227
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     787,
+     897,
+     1489
+    ]
+   },
+   "head": [
+    -355,
+    1042,
+    -163,
+    1234
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     169,
+     789,
+     896,
+     1490
+    ]
+   },
+   "head": [
+    -381,
+    1047,
+    -187,
+    1240
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     170,
+     791,
+     896,
+     1491
+    ]
+   },
+   "head": [
+    -392,
+    1050,
+    -199,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     171,
+     793,
+     895,
+     1492
+    ]
+   },
+   "head": [
+    -393,
+    1052,
+    -199,
+    1245
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     171,
+     795,
+     895,
+     1493
+    ]
+   },
+   "head": [
+    -391,
+    1053,
+    -198,
+    1246
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    106,
+    357,
+    894,
+    503
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     172,
+     796,
+     894,
+     1494
+    ]
+   },
+   "head": [
+    -389,
+    1054,
+    -196,
+    1247
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     172,
+     798,
+     894,
+     1494
+    ]
+   },
+   "head": [
+    -388,
+    1055,
+    -195,
+    1248
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     173,
+     799,
+     894,
+     1495
+    ]
+   },
+   "head": [
+    -386,
+    1056,
+    -193,
+    1248
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     173,
+     801,
+     893,
+     1496
+    ]
+   },
+   "head": [
+    -385,
+    1056,
+    -192,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     174,
+     802,
+     893,
+     1496
+    ]
+   },
+   "head": [
+    -383,
+    1057,
+    -191,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     174,
+     803,
+     893,
+     1497
+    ]
+   },
+   "head": [
+    -382,
+    1057,
+    -190,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     804,
+     893,
+     1497
+    ]
+   },
+   "head": [
+    -381,
+    1057,
+    -189,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     805,
+     892,
+     1498
+    ]
+   },
+   "head": [
+    -380,
+    1057,
+    -188,
+    1248
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    104,
+    341,
+    896,
+    519
+   ],
+   "captionText": [
+    159,
+    341,
+    841,
+    519
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     806,
+     892,
+     1498
+    ]
+   },
+   "head": [
+    -379,
+    1056,
+    -188,
+    1248
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     806,
+     892,
+     1498
+    ]
+   },
+   "head": [
+    -379,
+    1056,
+    -187,
+    1247
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1055,
+    -187,
+    1247
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1055,
+    -186,
+    1246
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1054,
+    -186,
+    1246
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -377,
+    1054,
+    -186,
+    1245
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -377,
+    1053,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -377,
+    1052,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1052,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     176,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1052,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     807,
+     892,
+     1499
+    ]
+   },
+   "head": [
+    -378,
+    1052,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     807,
+     892,
+     1500
+    ]
+   },
+   "head": [
+    -378,
+    1052,
+    -186,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     807,
+     892,
+     1500
+    ]
+   },
+   "head": [
+    -379,
+    1052,
+    -187,
+    1245
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     175,
+     807,
+     893,
+     1501
+    ]
+   },
+   "head": [
+    -379,
+    1053,
+    -187,
+    1245
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     174,
+     807,
+     893,
+     1501
+    ]
+   },
+   "head": [
+    -380,
+    1054,
+    -187,
+    1246
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     174,
+     806,
+     893,
+     1502
+    ]
+   },
+   "head": [
+    -380,
+    1055,
+    -187,
+    1247
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     173,
+     806,
+     894,
+     1503
+    ]
+   },
+   "head": [
+    -381,
+    1056,
+    -188,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     173,
+     806,
+     894,
+     1504
+    ]
+   },
+   "head": [
+    -382,
+    1057,
+    -188,
+    1250
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     172,
+     806,
+     894,
+     1505
+    ]
+   },
+   "head": [
+    -382,
+    1058,
+    -188,
+    1252
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     172,
+     806,
+     895,
+     1506
+    ]
+   },
+   "head": [
+    -383,
+    1059,
+    -189,
+    1254
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     171,
+     805,
+     895,
+     1507
+    ]
+   },
+   "head": [
+    -384,
+    1060,
+    -189,
+    1255
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     171,
+     805,
+     896,
+     1508
+    ]
+   },
+   "head": [
+    -385,
+    1062,
+    -190,
+    1257
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     170,
+     805,
+     896,
+     1508
+    ]
+   },
+   "head": [
+    -385,
+    1063,
+    -190,
+    1259
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     170,
+     805,
+     896,
+     1509
+    ]
+   },
+   "head": [
+    -386,
+    1065,
+    -190,
+    1260
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     169,
+     804,
+     897,
+     1510
+    ]
+   },
+   "head": [
+    -387,
+    1066,
+    -190,
+    1262
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     169,
+     804,
+     897,
+     1511
+    ]
+   },
+   "head": [
+    -387,
+    1067,
+    -191,
+    1263
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     169,
+     804,
+     897,
+     1511
+    ]
+   },
+   "head": [
+    -388,
+    1068,
+    -191,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     897,
+     1512
+    ]
+   },
+   "head": [
+    -388,
+    1069,
+    -191,
+    1266
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     898,
+     1512
+    ]
+   },
+   "head": [
+    -388,
+    1070,
+    -191,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     898,
+     1513
+    ]
+   },
+   "head": [
+    -389,
+    1070,
+    -191,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     898,
+     1513
+    ]
+   },
+   "head": [
+    -389,
+    1071,
+    -191,
+    1268
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     898,
+     1513
+    ]
+   },
+   "head": [
+    -389,
+    1071,
+    -192,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "calendar": [
+     168,
+     804,
+     898,
+     1513
+    ]
+   },
+   "head": [
+    -389,
+    1071,
+    -192,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    340,
+    900,
+    520
+   ],
+   "captionText": [
+    156,
+    340,
+    844,
+    520
+   ],
+   "captionLines": 2,
+   "shot": 7
+  }
+ ]
+}
