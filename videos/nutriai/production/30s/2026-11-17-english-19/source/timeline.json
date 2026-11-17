@@ -1,0 +1,304 @@
+{
+ "_doc": "CalMeter English 30 s english-19 (2026-11-17, batch 19): what's really inside a kiwi, 'WHAT'S INSIDE?' (the requested guava was already production #02; switched per the overlap rule). Full-frame bright scenes per the 2026-11-15 full-frame addendum; frame 0 is the thumbnail composition. 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.5
+  },
+  {
+   "id": "T2",
+   "at": 9.4
+  },
+  {
+   "id": "T3",
+   "at": 15.9
+  },
+  {
+   "id": "T4",
+   "at": 20.7
+  },
+  {
+   "id": "T6",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 50,
+   "lines": [
+    [
+     "Fuzzy brown outside:",
+     5
+    ]
+   ]
+  },
+  {
+   "in": 52,
+   "out": 100,
+   "lines": [
+    [
+     "what's really inside a kiwi?",
+     52
+    ]
+   ]
+  },
+  {
+   "in": 105,
+   "out": 216,
+   "lines": [
+    [
+     "100 g of the green flesh",
+     106
+    ],
+    [
+     "has just 61 kcal",
+     152
+    ]
+   ]
+  },
+  {
+   "in": 218,
+   "out": 266,
+   "lines": [
+    [
+     "and 3 g of fibre.",
+     221
+    ]
+   ]
+  },
+  {
+   "in": 282,
+   "out": 340,
+   "lines": [
+    [
+     "Its standout is vitamin C:",
+     283
+    ]
+   ]
+  },
+  {
+   "in": 343,
+   "out": 444,
+   "lines": [
+    [
+     "93 mg,",
+     347
+    ],
+    [
+     "more than an orange's 53.",
+     392
+    ]
+   ]
+  },
+  {
+   "in": 477,
+   "out": 560,
+   "lines": [
+    [
+     "One peeled kiwi",
+     477
+    ],
+    [
+     "is about 69 g:",
+     505
+    ]
+   ]
+  },
+  {
+   "in": 563,
+   "out": 606,
+   "lines": [
+    [
+     "about 42 kcal,",
+     564
+    ]
+   ]
+  },
+  {
+   "in": 621,
+   "out": 651,
+   "lines": [
+    [
+     "and about 70%",
+     621
+    ]
+   ]
+  },
+  {
+   "in": 653,
+   "out": 726,
+   "lines": [
+    [
+     "of the daily value",
+     653
+    ],
+    [
+     "for vitamin C.",
+     680
+    ]
+   ]
+  },
+  {
+   "in": 729,
+   "out": 806,
+   "lines": [
+    [
+     "Log the grams you eat.",
+     733
+    ]
+   ]
+  },
+  {
+   "in": 810,
+   "out": 899,
+   "lines": [
+    [
+     "Track your food and nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "sfx0": 0,
+  "hookOut": 52,
+  "pageA": 94,
+  "burnish": 96,
+  "slices": 108,
+  "flesh": 142,
+  "k61": 172,
+  "fib": 229,
+  "pageB": 268,
+  "burnish2": 268,
+  "vitc": 307,
+  "pour": 332,
+  "k93": 347,
+  "k53": 421,
+  "pageC": 452,
+  "burnish3": 450,
+  "oneK": 477,
+  "land": 476,
+  "g69": 513,
+  "k42": 568,
+  "pageD": 606,
+  "burnish4": 607,
+  "k70": 628,
+  "dv": 660,
+  "logIt": 735,
+  "cta": 806,
+  "ctaWord": 813
+ },
+ "sfx": [
+  {
+   "ev": "sfx0",
+   "type": "slice",
+   "gain": -23
+  },
+  {
+   "ev": "pageA",
+   "type": "page",
+   "dur": 0.3,
+   "gain": -28
+  },
+  {
+   "ev": "slices",
+   "type": "patter",
+   "dur": 0.6,
+   "gain": -27
+  },
+  {
+   "ev": "k61",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "fib",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageB",
+   "type": "page",
+   "dur": 0.4,
+   "gain": -28
+  },
+  {
+   "ev": "vitc",
+   "type": "sprinkle",
+   "dur": 0.4,
+   "gain": -28
+  },
+  {
+   "ev": "pour",
+   "type": "pour",
+   "dur": 0.6,
+   "gain": -29
+  },
+  {
+   "ev": "k93",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "k53",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageC",
+   "type": "page",
+   "dur": 0.5,
+   "gain": -28
+  },
+  {
+   "ev": "land",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "g69",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "k42",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "pageD",
+   "type": "page",
+   "dur": 0.45,
+   "gain": -28
+  },
+  {
+   "ev": "k70",
+   "type": "ticks",
+   "dur": 1.0,
+   "gain": -27
+  },
+  {
+   "ev": "logIt",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -27
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ]
+}

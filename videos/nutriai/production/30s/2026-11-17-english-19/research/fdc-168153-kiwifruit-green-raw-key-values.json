@@ -1,0 +1,58 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights (edible portion, refuse excluded)",
+ "fdcId": 168153,
+ "ndbNumber": 9148,
+ "description": "Kiwifruit, green, raw",
+ "per_100_g": {
+  "Protein": {
+   "amount": 1.14,
+   "unit": "g"
+  },
+  "Fiber, total dietary": {
+   "amount": 3.0,
+   "unit": "g"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 92.7,
+   "unit": "mg"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.52,
+   "unit": "g"
+  },
+  "Water": {
+   "amount": 83.1,
+   "unit": "g"
+  },
+  "Sugars, total including NLEA": {
+   "amount": 8.99,
+   "unit": "g"
+  },
+  "Potassium, K": {
+   "amount": 312,
+   "unit": "mg"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 14.7,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 61.0,
+   "unit": "kcal"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "fruit (2\" dia)",
+   "gramWeight": 69.0
+  },
+  {
+   "modifier": "NLEA serving",
+   "gramWeight": 148.0
+  },
+  {
+   "modifier": "cup, sliced",
+   "gramWeight": 180.0
+  }
+ ]
+}

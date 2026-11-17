@@ -1,0 +1,20 @@
+CalMeter english-19 — calculations (2026-11-17). Inputs: USDA SR Legacy FDC 168153 "Kiwifruit, green, raw" and FDC 169097 "Oranges, raw, all commercial varieties", per 100 g edible portion; SR28 household weight and refuse; 21 CFR 101.9(c)(8)(iv) Daily Value for vitamin C.
+
+MEASURED (USDA)
+  kiwi flesh: 61 kcal, fibre 3.0 g, vitamin C 92.7 mg, water 83.1 g per 100 g
+  kiwi refuse (SR28 FOOD_DES, NDB 09148): "Skin", 24 %
+  kiwi household weight (SR28 WEIGHT): "fruit (2\" dia)" = 69 g edible
+  orange, raw: vitamin C 53.2 mg per 100 g
+REGULATION
+  vitamin C Daily Value (RDI, adults and children 4 years and older): 90 mg
+
+CALCULATED
+  one kiwi: 69 g x 61/100 = 42.1 kcal  -> "about forty-two"
+  one kiwi: 69 g x 3.0/100 = 2.07 g fibre (not narrated; ≈ 2 g)
+  one kiwi: 69 g x 92.7/100 = 64.0 mg vitamin C
+  share of the Daily Value: 64.0 / 90 = 71.1 %  -> "about seventy percent" (ring fills to 71 %, label "≈ 70%")
+  kiwi vs orange per 100 g: 92.7 vs 53.2 mg (1.74x)  -> "more than an orange's fifty-three"
+  93 on screen/voice = 92.7 rounded
+
+ILLUSTRATIVE (drawing conventions)
+  the vitamin C tubes are drawn to 93 % and 53 % of one height (a mg scale, not volume); slices, the peeled kiwi and the ring are drawings

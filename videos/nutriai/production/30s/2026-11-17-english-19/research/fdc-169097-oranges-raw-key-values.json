@@ -1,0 +1,62 @@
+{
+ "source": "USDA FoodData Central, SR Legacy bulk JSON FoodData_Central_sr_legacy_food_json_2021-10-28 (downloaded from fdc.nal.usda.gov); values per 100 g edible portion; foodPortions = USDA household weights (edible portion, refuse excluded)",
+ "fdcId": 169097,
+ "ndbNumber": 9200,
+ "description": "Oranges, raw, all commercial varieties",
+ "per_100_g": {
+  "Sugars, total including NLEA": {
+   "amount": 9.35,
+   "unit": "g"
+  },
+  "Potassium, K": {
+   "amount": 181,
+   "unit": "mg"
+  },
+  "Total lipid (fat)": {
+   "amount": 0.12,
+   "unit": "g"
+  },
+  "Carbohydrate, by difference": {
+   "amount": 11.8,
+   "unit": "g"
+  },
+  "Energy": {
+   "amount": 47.0,
+   "unit": "kcal"
+  },
+  "Water": {
+   "amount": 86.8,
+   "unit": "g"
+  },
+  "Vitamin C, total ascorbic acid": {
+   "amount": 53.2,
+   "unit": "mg"
+  },
+  "Fiber, total dietary": {
+   "amount": 2.4,
+   "unit": "g"
+  },
+  "Protein": {
+   "amount": 0.94,
+   "unit": "g"
+  }
+ },
+ "portions": [
+  {
+   "modifier": "small (2-3/8\" dia)",
+   "gramWeight": 96.0
+  },
+  {
+   "modifier": "large (3-1/16\" dia)",
+   "gramWeight": 184.0
+  },
+  {
+   "modifier": "cup, sections",
+   "gramWeight": 180.0
+  },
+  {
+   "modifier": "fruit (2-5/8\" dia)",
+   "gramWeight": 131.0
+  }
+ ]
+}
