@@ -152,7 +152,7 @@ Brief, topic decision, history table, script, sources: 14-episode-robot-packs-in
 - QA fixes: arm angle wrap; arms in front of head; belly gauge removed; robot enlarged; tube caps hid end slices →
   respaced; robot cleared the CTA badge; end-card pop masked "Play" → moved (details in qa/QA.md).
 
-## 2026-11-15 batch english-18 — "All in Pairs" (ACTIVE)
+## 2026-11-15 batch english-18 — "All in Pairs" (delivered)
 Brief, topic decision, history table, script, sources: 15-episode-all-in-pairs.md.
 - Topic decision: requested 7 × 6 = 5 × 6 + 2 × 6 = 30 + 12 = 42 is english13-01 exactly (same fact, split, totals)
   → as the brief allows, a fresh alternate in the same genre: pirate rescue with seven boats, visible counts and the
@@ -174,5 +174,27 @@ Brief, topic decision, history table, script, sources: 15-episode-all-in-pairs.m
   into columns of four; hand ropes → waist loops with pairs stepping together; ship shifted inside x ≈ 970.
 - Session note: the worker restarted mid-build; work resumed from the files on disk (nothing lost).
 
+## 2026-11-17 batch english-19 — "Seven or Zero?" (ACTIVE)
+Brief, topic decision, history table, script, sources: 16-episode-seven-or-zero.md.
+- Topic decision: requested 9 × 6 = 10 × 6 − 6 repeats english14-01's "ten groups minus one" (9 × 8 = 80 − 8) → a
+  genuinely different topic in the same genre: groups of one and groups of zero (7 × 1 = 7, 7 × 0 = 0; any number × 0
+  = 0), with visibly counted equal groups. Frame-0 words "SEVEN OR ZERO?".
+- Facts: CCSS 3.OA.A.1, 3.OA.D.9, Glossary Table 3 (multiplicative identity); zero case from the equal-groups meaning
+  (no named zero property in Table 3 — noted).
+- Creative: seven cut-paper gift boxes on two shelves, one star cookie each, "1" badges; the approved english-16 mouse
+  (new belly / sleepy / chewing options) leaps from a mouse hole and eats each cookie in three bites (badge 1 → 0);
+  card 7 × 0 = ? → 7 × 1 = 7 → 7 × 0 = ? → 7 × 0 = 0 → any × 0 = 0; hinged box fronts fold down to show every box is
+  empty; mouse naps; approved baker and floor props; music in E major. Same narrator recipe.
+- Commands: see production/30s/2026-11-17-english-19/README.md (npm ci; tts.py; render --timeline;
+  build_audio.py; render --video --workers 4; render --thumb; bash qa/run_qa.sh <asr-python>).
+- Paths: production/30s/2026-11-17-english-19/ — tableverse-30s-english19-01.mp4 (sha256 78ffd877c2dc4a6a4df3d209a2b06f94fde1dc8d7a343404a2a8aca80bb7058f) +
+  tableverse-30s-english19-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.5 LUFS, −1.4 dBTP; ASR
+  transcript matches script (a repeated phrase hallucinated in the narration-free nap; VO stem silent there, window
+  ASR hears no script words); hook, payoff and CTA confirmed by window ASR; 7 boxes / 1 → 0 per box checked on contact
+  sheet + 50 frames. Machine-only listening.
+- QA fixes: shorter boxes + bigger cookies; mouse hole fills the lower stage; mouse mirrored beside the cookie so
+  bites show; hinged fronts give the takeaway visible proof (details in qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english18-01. No further episode started.
+- Await user review of english19-01. No further episode started.

@@ -1,0 +1,602 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 136,
+      "name": "Frame 0: seven boxes × one cookie, hungry mouse; \"SEVEN OR ZERO?\"; card 7 × 0 = ?"
+    },
+    {
+      "id": "S2-ones",
+      "from": 136,
+      "to": 242,
+      "name": "One cookie in each box: badges 1 ×7; card 7 × 1 = 7"
+    },
+    {
+      "id": "S3-chomp",
+      "from": 242,
+      "to": 384,
+      "name": "The mouse hops box to box and eats every cookie; badges flip to 0"
+    },
+    {
+      "id": "S4-question",
+      "from": 384,
+      "to": 520,
+      "name": "Each box has zero; how many in all? card back to 7 × 0 = ?; quiet pause"
+    },
+    {
+      "id": "S5-payoff",
+      "from": 520,
+      "to": 596,
+      "name": "Zero! seven zeros make zero; card 7 × 0 = 0"
+    },
+    {
+      "id": "S6-takeaway",
+      "from": 596,
+      "to": 810,
+      "name": "Box fronts fold down: every box is empty; zero in all; card any × 0 = 0; the full mouse naps"
+    },
+    {
+      "id": "S7-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 136,
+    "v03": 198,
+    "v04": 242,
+    "v05": 384,
+    "v06": 520,
+    "v07": 596,
+    "v08": 836
+  },
+  "captions": [
+    [
+      [
+        "7 boxes,",
+        "1 cookie in each."
+      ],
+      136,
+      196
+    ],
+    [
+      [
+        "7 ones make 7."
+      ],
+      198,
+      238
+    ],
+    [
+      [
+        "The mouse eats the cookie",
+        "in every box!"
+      ],
+      242,
+      310
+    ],
+    [
+      [
+        "Each box: 0 cookies."
+      ],
+      384,
+      446
+    ],
+    [
+      [
+        "Each box: 0 cookies.",
+        "How many in all?"
+      ],
+      446,
+      516
+    ],
+    [
+      [
+        "Zero!"
+      ],
+      520,
+      530
+    ],
+    [
+      [
+        "Zero!",
+        "7 zeros make 0."
+      ],
+      530,
+      590
+    ],
+    [
+      [
+        "0 in every group",
+        "means 0 in all."
+      ],
+      596,
+      674
+    ],
+    [
+      [
+        "Any number × 0 = 0."
+      ],
+      677,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      836,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "flap",
+      118,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      146,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      152,
+      {
+        "pitch": 1.05
+      }
+    ],
+    [
+      "tick",
+      158,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "tick",
+      164,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "tick",
+      170,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      176,
+      {
+        "pitch": 1.25
+      }
+    ],
+    [
+      "tick",
+      182,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "chime",
+      218,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "swing",
+      246,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      256,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      259,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      262,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      263,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      263,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      273,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      276,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      279,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      280,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      280,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      290,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      293,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      296,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      297,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      297,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      307,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      310,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      313,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      314,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      314,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      324,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      327,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      330,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      331,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      331,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      341,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      344,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      347,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      348,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      348,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      358,
+      {
+        "pitch": 0.5833333333333334
+      }
+    ],
+    [
+      "pop",
+      361,
+      {
+        "pitch": 0.6333333333333334
+      }
+    ],
+    [
+      "pop",
+      364,
+      {
+        "pitch": 0.6833333333333333
+      }
+    ],
+    [
+      "tick",
+      365,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "swing",
+      360,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "click",
+      368,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "flap",
+      210,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      442,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      513,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      670,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "chime",
+      520,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "sparkle",
+      522,
+      {}
+    ],
+    [
+      "tick",
+      530,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "tick",
+      533,
+      {
+        "pitch": 1.34
+      }
+    ],
+    [
+      "tick",
+      536,
+      {
+        "pitch": 1.3800000000000001
+      }
+    ],
+    [
+      "tick",
+      539,
+      {
+        "pitch": 1.42
+      }
+    ],
+    [
+      "tick",
+      542,
+      {
+        "pitch": 1.46
+      }
+    ],
+    [
+      "tick",
+      545,
+      {
+        "pitch": 1.5
+      }
+    ],
+    [
+      "tick",
+      548,
+      {
+        "pitch": 1.54
+      }
+    ],
+    [
+      "hinge",
+      604,
+      {
+        "dur": 36,
+        "soft": true
+      }
+    ],
+    [
+      "hinge",
+      786,
+      {
+        "dur": 30,
+        "soft": true
+      }
+    ],
+    [
+      "light",
+      677,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "glint",
+      740,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    476,
+    518
+  ]
+}

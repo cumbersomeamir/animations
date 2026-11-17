@@ -1,0 +1,48 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Seven times zero: is it seven, or zero? Let's ask a hungry mouse!",
+      "seconds": 4.341,
+      "frames": 130.2
+    },
+    "v02": {
+      "text": "Seven boxes, one cookie in each.",
+      "seconds": 1.922,
+      "frames": 57.7
+    },
+    "v03": {
+      "text": "Seven ones make seven.",
+      "seconds": 1.214,
+      "frames": 36.4
+    },
+    "v04": {
+      "text": "Then the mouse eats the cookie in every box!",
+      "seconds": 2.173,
+      "frames": 65.2
+    },
+    "v05": {
+      "text": "Now each box has zero cookies. How many in all?",
+      "seconds": 3.024,
+      "frames": 90.7
+    },
+    "v06": {
+      "text": "Zero! Seven zeros make zero.",
+      "seconds": 2.137,
+      "frames": 64.1
+    },
+    "v07": {
+      "text": "Zero in every group means zero in all. Any number times zero is zero.",
+      "seconds": 4.496,
+      "frames": 134.9
+    },
+    "v08": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
