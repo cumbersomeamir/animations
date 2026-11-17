@@ -135,3 +135,11 @@
 - **Session note:** the worker restarted once after the export QA; the files were re-verified and the work continued.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 32.
+
+## 2026-11-17: english-19 #01 (English; fifth under the first-frame addendum)
+- `videos/aarambh/production/30s/2026-11-17-english-19/aarambh-30s-english19-01.mp4` (sha256 `b75dd5278810de64499fb4179985f17de5e608304dd7ff99d6e5024e10a24d7e`) and thumbnail = frame 0: Mary Anning and her first ichthyosaur.
+  - Frame 0: the real portrait plus the real 1814 skull plate, "A MONSTER IN THE CLIFF?"
+  - Story: monster or crocodile? → JOSEPH skull 1811, MARY body 1812 (rock chipped away) → named Ichthyosaurus, turns to stone: EXTINCT SEA REPTILE → Duria Antiquior (1830), drawn from fossils → her own 1823 letter; name struck out, then restored: "credit the finder" → Aarambh CTA.
+- **Topic line** ("nobody believed it existed") narrowed to what the sources support; recorded in 33.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. the first-frame addendum), then 11 and 33.

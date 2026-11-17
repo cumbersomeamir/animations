@@ -1,0 +1,23 @@
+word | narration-pass ASR start | export ASR nearest | event | event time
+As | 0.05 (As, placed) | 0.00 (As) | FRAME 0 (complete, = thumbnail): real portrait of Mary Anning + the real 1814 skull plate + "A MONSTER IN THE CLIFF?"; narration audible from 0.09 s; slow push | 0.00
+As | 0.05 (As, placed) | 0.00 (As) | light sweeps across the portrait (0.4) and the skull (0.8) | 0.40
+Locals | 5.10 (Locals) | 5.10 (Locals) | HARD CUT (flash) -> the real 1814 skull plate, close | 4.79
+monster | 5.88 (monster,) | 5.88 (monster,) | plate "monster?" | 5.73
+crocodile | 7.72 (crocodile.) | 7.72 (crocodile.) | plate "crocodile?" | 7.57
+What | 8.66 (What) | 8.66 (What) | the plates give way to a big "?" | 8.46
+Her | 9.52 (Her) | 9.54 (Her) | WHIP PAN (9.30-9.50) -> the dig: skull plate above, the skeleton plate under rock | 9.30
+brother | 9.72 (brother) | 9.74 (brother) | plate "JOSEPH · skull · 1811" | 9.57
+She | 11.10 (She) | 11.10 (She) | plate "MARY · body · 1812" | 10.95
+spent | 11.24 (spent) | 11.24 (spent) | the rock is chipped away, freeing the body (chisel taps) | 11.04
+Experts | 13.28 (Experts) | 13.30 (Experts) | PUSH (12.70-12.95) -> a stylised ichthyosaur glides in | 12.70
+ichthyosaurus | 14.38 (ichthyosaurus,) | 14.38 (ichthyosaurus,) | "Ichthyosaurus" / "fish lizard" | 14.23
+extinct | 15.78 (extinct) | 15.78 (extinct) | the animal turns to stone; stamp EXTINCT / SEA REPTILE | 15.63
+Her | 17.38 (Her) | 17.38 (Her) | PUSH (17.00-17.30) -> Duria Antiquior (1830), slow push toward the ichthyosaur | 17.00
+first | 18.82 (first) | 18.82 (first) | ring on the ichthyosaur in the painting | 18.67
+life | 19.74 (life,) | 19.72 (life,) | plate "Duria Antiquior · 1830 / drawn from fossils" | 19.64
+Yet | 22.24 (Yet) | 22.22 (Yet) | PAGE TURN (21.80-22.15) -> her own 1823 letter and sketch; circular portrait; MARY ANNING | 21.80
+skipped | 23.28 (skipped) | 23.30 (skipped) | her name dims and is struck through ("skipped her name") | 23.13
+credit | 25.04 (credit) | 25.04 (credit) | her name restored in gold + card "credit the finder" (+ chime) | 24.84
+Download | 27.10 (Download, placed) | 27.52 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 20 events; for word-triggered events, event minus word start ranges -0.58 to -0.10 s (negative = event leads the word). Pacing: hook 0.05-4.55 (complete first frame, audio from 0.09 s), escalation/question 4.85-9.20, explanation/proof 9.50-21.82 with scene changes at 9.50, 12.95, 17.30, payoff 22.15-25.97, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 4.85 S3 9.5 S4 13.0 S5 17.3 S6 22.15 S7 27.1 (audio/script.json); ASR stamps "As" at 0.00 (placed 0.05) and "Download" early (26.38; placed 27.10); tiny.en writes the name as "Mary, anning" (token 6); both models write "meter" for "metre"; the app name is heard as "RM"/"RUM" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

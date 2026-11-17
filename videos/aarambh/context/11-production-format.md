@@ -346,3 +346,11 @@ Changes to the recipe above:
 - **Wellcome Collection scans on the Internet Archive** give clean title pages and full text for exact quotes (`/download/<id>/<id>_djvu.txt`).
 
 - 20 (2026-11-15, english-18): John Snow and the 1854 Broad Street outbreak, "ONE HANDLE. MANY LIVES.": over 500 died in ten days near one pump; many doctors blamed bad air; nearly all the dead lived near the Broad Street pump; brewery workers drinking beer escaped and the workhouse with its own well barely suffered; the handle came off on 8 Sept, but attacks were already falling (his Table 1); lesson: map who got sick, then ask who was spared (Snow 1855; HistData; London Museum). Record: `32-production-30s-english18-01.md`
+
+## English-19 notes, 2026-11-17
+- **"Nobody believed" titles:** check which find the doubt belongs to. Here Cuvier's suspicion of a fake was about the 1823 plesiosaur, not the first ichthyosaur, so the narration used what the sources say about the ichthyosaur (locals: a monster; scientists: a crocodile).
+- **Credit inside the story:** when two people share a find, show who found what on screen (JOSEPH · skull · 1811; MARY · body · 1812). A struck-through name restored at the lesson makes "credit the finder" visible without a paragraph.
+- **Small archival plates** (e.g. 1814 Phil. Trans. engravings, under 900 px) work at the 960 px standard thumbnail size; keep them at or below about 920 px on screen.
+- **Frame 0 with a caption above:** keep frame-0 prints below about y 545 so the 0.22 s caption plate (y 330–490) never overlaps them, and leave about 60 px between prints and the big words.
+
+- 21 (2026-11-17, english-19): Mary Anning and her first ichthyosaur, "A MONSTER IN THE CLIFF?": as a girl she dug a five-metre skeleton from a cliff; locals said monster, scientists guessed crocodile; Joseph found the skull, Mary freed the body; named Ichthyosaurus, an extinct sea reptile; her finds inspired Duria Antiquior (1830), the first scene of ancient life drawn from fossils; papers often skipped her name; lesson: credit the finder (NHM; UCMP; Home 1814; De la Beche 1830; her 1823 letter). Record: `33-production-30s-english19-01.md`

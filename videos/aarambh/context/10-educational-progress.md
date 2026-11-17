@@ -243,3 +243,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Myth vs evidence:** the narration and the chart show the handle came off after attacks were already falling. No claim that the handle alone ended the outbreak.
 - **Verification:** both ASR models match the script except the app name (and tiny.en's "asked"); there was no human listening. One full render, no post-render re-render.
 - No automation; no other episode started; earlier outputs, batch 17 included, untouched.
+
+## 2026-11-17: english-19 #01 (COMPLETE; fifth under the first-frame addendum to context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-17-english-19/aarambh-30s-english19-01.mp4`, sha256 `b75dd5278810de64499fb4179985f17de5e608304dd7ff99d6e5024e10a24d7e`, plus the thumbnail `aarambh-30s-english19-01-thumbnail.png` (= frame 0, "A MONSTER IN THE CLIFF?"). Mary Anning and her first ichthyosaur (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Verified facts:** NHM (a fossil-collecting "sidekick" from five or six; Joseph's skull in 1811; Mary's months-long dig of the five-metre skeleton in 1812; the town thought it a monster, scientists a crocodile; named Ichthyosaurus by 1820, an extinct marine reptile; Duria Antiquior 1830, the first picture of prehistoric life based on fossils; papers often didn't credit her) and UCMP.
+- **Credit:** the skull is credited to Joseph and the body to Mary, on screen and in the narration. No "first ichthyosaur ever" or "nobody believed" claim; Cuvier's plesiosaur doubt was not voiced.
+- **Verification:** both ASR models match the script word for word except the app name and spelling; there was no human listening. Two video-only re-renders for the frame-0 layout.
+- No automation; no other episode started; earlier outputs, batch 18 included, untouched.

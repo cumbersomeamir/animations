@@ -1,0 +1,13 @@
+{
+  "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+  "language": "English narration and English captions",
+  "sentences": [
+    {"id": "S1", "start": 0.05, "text": "As a girl, fossil hunter Mary Anning dug a five-metre skeleton from a cliff.", "tts": "As a girl, fossil hunter Mary Anning dug a five-metre skeleton from a cliff."},
+    {"id": "S2", "start": 4.85, "text": "Locals called it a monster; scientists guessed a crocodile. What was it?", "tts": "Locals called it a monster; scientists guessed a crocodile. What was it?"},
+    {"id": "S3", "start": 9.50, "text": "Her brother found the skull; she spent months freeing the body.", "tts": "Her brother found the skull; she spent months freeing the body."},
+    {"id": "S4", "start": 13.00, "text": "Experts later named it Ichthyosaurus: an extinct sea reptile.", "tts": "Experts later named it Ichthyosaurus: an extinct sea reptile."},
+    {"id": "S5", "start": 17.30, "text": "Her finds inspired the first scene of ancient life drawn from fossils.", "tts": "Her finds inspired the first scene of ancient life drawn from fossils."},
+    {"id": "S6", "start": 22.15, "text": "Yet papers often skipped her name. Lesson: credit the finder.", "tts": "Yet papers often skipped her name. Lesson: credit the finder."},
+    {"id": "S7", "start": 27.10, "text": "Download Aarambh to support livelihood tools.", "tts": "Download Aa-rumbh, to support livelihood tools."}
+  ]
+}
