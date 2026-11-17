@@ -145,7 +145,7 @@ function applyFrame(f, forceT) {
   const W = (x, y, z = 0.25) => org.clone().add(V(x, y, z));
   const pin = (k, p, qq) => { P[k] = project(p); P[k + 'T'] = project(qq); };
   if (id === 'giant_open') { pin('vapor', W(0, bigY), W(0.55, 0.75)); pin('air', W(0, PC.waterTop + 0.3), W(-0.35, 2.05)); }
-  if (id === 'giant_100') pin('sea', W(0.66, 2.75, 0.4), W(0.66, 2.05, 0.4));
+  if (id === 'giant_100') pin('sea', W(0.66, 2.75, 0.4), W(0.66, 2.2, 0.4));
   if (id === 'giant_lid') pin('pressure', W(-0.45, K.lid.position.y + 0.42, 0.3), W(-0.45, K.lid.position.y + 1.05, 0.3));
   if (id === 'giant_hot') pin('hot', W(0.66, 2.75, 0.4), W(0.75, 2.0, 0.4));
   if (id === 'giant_food') pin('faster', W(0, 0.6), W(0.25, 1.15));

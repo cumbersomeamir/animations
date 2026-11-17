@@ -71,7 +71,7 @@ function tag(g, text, x, y, a, { color = LIME, size = 46, pointTo = null } = {})
   if (a <= 0.01 || !x) return null;
   g.save(); g.globalAlpha = a; g.font = `700 ${size}px ${FONT}`;
   const w = g.measureText(text).width + 34, h = size + 22;
-  x = clamp(x, 110 + w / 2, 886 - w / 2); y = clamp(y, 600, 1420);
+  x = clamp(x, 110 + w / 2, 886 - w / 2); y = clamp(y, 600, 1410);   // english-19: 1410 keeps a 76 px tag's box (+5 shadow) inside y 1460
   if (pointTo) { g.strokeStyle = INK; g.lineWidth = 8; g.lineCap = 'round'; g.beginPath(); g.moveTo(x, y); g.lineTo(pointTo.x, pointTo.y); g.stroke();
     g.strokeStyle = color; g.lineWidth = 4; g.stroke(); g.beginPath(); g.arc(pointTo.x, pointTo.y, 8, 0, Math.PI * 2); g.fillStyle = color; g.fill(); }
   rr(g, x - w / 2 + 4, y - h / 2 + 5, w, h, h / 2); g.fillStyle = SHADE; g.fill();

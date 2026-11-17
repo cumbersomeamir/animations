@@ -1,0 +1,198 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.64,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.271,
+      "text": "Hotter than boiling water.",
+      "words": 4,
+      "words_per_s": 3.28,
+      "voice_over_bed_db": 17.1
+    },
+    {
+      "id": "l02",
+      "start": 1.45,
+      "end": 4.878,
+      "text": "A pressure cooker keeps water liquid above 100 degrees.",
+      "words": 9,
+      "words_per_s": 2.63,
+      "voice_over_bed_db": 17.7
+    },
+    {
+      "id": "l03",
+      "start": 5.1,
+      "end": 8.661,
+      "text": "Water boils when its vapor pushes as hard as the air above it.",
+      "words": 13,
+      "words_per_s": 3.65,
+      "voice_over_bed_db": 17.8
+    },
+    {
+      "id": "l04",
+      "start": 8.9,
+      "end": 10.97,
+      "text": "At sea level, that's 100 degrees.",
+      "words": 6,
+      "words_per_s": 2.9,
+      "voice_over_bed_db": 18.7
+    },
+    {
+      "id": "l05",
+      "start": 11.2,
+      "end": 14.606,
+      "text": "Lock the lid, and steam can't escape, so the pressure rises.",
+      "words": 11,
+      "words_per_s": 3.23,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l06",
+      "start": 14.85,
+      "end": 18.23,
+      "text": "So the water must reach about 120 degrees to boil.",
+      "words": 10,
+      "words_per_s": 2.96,
+      "voice_over_bed_db": 18.8
+    },
+    {
+      "id": "l07",
+      "start": 18.5,
+      "end": 20.135,
+      "text": "Hotter water cooks food faster.",
+      "words": 5,
+      "words_per_s": 3.06,
+      "voice_over_bed_db": 19.0
+    },
+    {
+      "id": "l08",
+      "start": 20.7,
+      "end": 24.97,
+      "text": "On a mountain it's the reverse: water boils cooler, so food cooks slower.",
+      "words": 13,
+      "words_per_s": 3.04,
+      "voice_over_bed_db": 17.4
+    },
+    {
+      "id": "l09",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.6
+    }
+  ],
+  "narration_words": 80,
+  "speech_s": 26.25,
+  "overall_words_per_s": 2.67,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "valve hiss (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "valve weight jiggles (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 1.43,
+      "beat": 2.86,
+      "sfx": "caf\u00e9 cooker hissing"
+    },
+    {
+      "t": 4.78,
+      "beat": 9.56,
+      "sfx": "cut to the cooker section (ends before l03)"
+    },
+    {
+      "t": 6.12,
+      "beat": 12.24,
+      "sfx": "bubble grows"
+    },
+    {
+      "t": 8.7,
+      "beat": 17.4,
+      "sfx": "bubble breaks away"
+    },
+    {
+      "t": 8.95,
+      "beat": 17.9,
+      "sfx": "boiling at 100"
+    },
+    {
+      "t": 9.97,
+      "beat": 19.94,
+      "sfx": "dial: 100"
+    },
+    {
+      "t": 11.75,
+      "beat": 23.5,
+      "sfx": "lid locks"
+    },
+    {
+      "t": 12.35,
+      "beat": 24.7,
+      "sfx": "steam builds up"
+    },
+    {
+      "t": 13.86,
+      "beat": 27.72,
+      "sfx": "gauge rises"
+    },
+    {
+      "t": 15.2,
+      "beat": 30.4,
+      "sfx": "temperature climbs"
+    },
+    {
+      "t": 17.6,
+      "beat": 35.2,
+      "sfx": "boiling again at 120"
+    },
+    {
+      "t": 19.35,
+      "beat": 38.7,
+      "sfx": "cooks faster"
+    },
+    {
+      "t": 20.63,
+      "beat": 41.26,
+      "sfx": "mountain wind"
+    },
+    {
+      "t": 22.83,
+      "beat": 45.66,
+      "sfx": "boiling cooler"
+    },
+    {
+      "t": 25.3,
+      "beat": 50.6,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.483,
+  "voice_gain": 1.0
+}
