@@ -9,7 +9,7 @@
 - **Language:** English narration and English captions only; the established Meshline/Recall narrator (Kokoro-82M, 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98). No earlier narration was reused.
 - **Pre-flight (2026-11-17):** repo `cumbersomeamir/animations`, branch `claude-video/aarambh`, in sync with origin at `c658329` (english-19), clean tree; account checked against CLAUDE.md. Disk had 21 GB free, so no RAM frame cache was needed. The batch folder was created after `test ! -e`. Batch 19 and all earlier outputs are untouched.
 - **Topic:** fresh. A grep for "alice ball", chaulmoogra, leprosy, hansen, "arthur dean" and hollmann over `videos/aarambh` found nothing, so the brief's subject was used.
-- **Isolation:** the brief also listed style notes for other apps (Ideaverse, Werbens, Tensorblue, Mello, CalMeter, WastePaisa). None was used; only Aarambh's own context, skill, palette, narrator and CTA were applied.
+- **Isolation:** the brief also contained style notes for other apps. They were not used or recorded here; only Aarambh's own context, skill, palette, narrator and CTA were applied.
 - **Feedback applied:** "too much information being displayed at once, too much text, motion graphics can be more appealing also need a super cool thumbnail". It is persisted as the 2026-11-17 addendum in `25` (summary in `11`) and applied as follows:
   - every scene has one moving idea and at most one short label (several scenes have none);
   - the chemistry is shown by moving objects;
