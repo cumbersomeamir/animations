@@ -190,3 +190,11 @@
 - Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 23 earlier MP4s unchanged. Icon re-checked (unchanged).
 - Note: web-search quota ran out on 2026-11-15 and reset on 2026-11-17; the job resumed then.
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-19 (2026-11-17, batch19) — RENDERING
+- Proposed topic (remove a stranger from a photo) = repeat of hindi03-01 (Magic Eraser) → Samsung Galaxy moon photos:
+  recognize, merge 10+ shots, AI detail; picture-vs-real confusion; turn Scene Optimizer off (record context/34).
+- New scene `src/stage/moon.js` (procedural moons, night window, merge + detail card, phone screens). Icon unchanged.
+- Next: QA, QA.md, commit + push, attach MP4 + thumbnail. No further episode, no automation.
+

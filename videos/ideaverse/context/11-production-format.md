@@ -267,3 +267,7 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Renderer lesson (english-18): in headless Chromium a canvas redraw consisting only of one full-canvas opaque fill can be
   dropped (the old picture stays). Cards that return to a blank state paint the background as two partial fills.
 
+## Batch 2026-11-17-english-19 (batch19) — rules as before
+- Proposed topic (object removal) repeats hindi03-01 for the fourth time → replaced by Samsung Galaxy moon photos (scene
+  recognition + multi-frame + deep-learning detail; documented picture-vs-real confusion; Scene Optimizer off).
+
