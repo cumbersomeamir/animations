@@ -107,3 +107,7 @@ in every scene (context/33 §3).
 ## Re-check for english-18 (batch18, 2026-11-15)
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-17 check; wordmark styling unchanged;
 logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/34 §3).
+
+## Re-check for english-19 (batch19, 2026-11-17)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-18 check; wordmark styling unchanged;
+logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene (context/35 §3).
