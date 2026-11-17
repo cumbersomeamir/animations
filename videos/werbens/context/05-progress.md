@@ -82,7 +82,7 @@
   + thumbnail (proposed decoy topic covered by #03 → switched to subtractive vs additive option framing, "SAME OPTIONS. BIGGER
   ORDER?"; Park, Jun & MacInnis 2000; UK CCR 2013 reg. 40 for paid extras; frame 0 = thumbnail; render 1 passed review;
   sha256 b468d260; context/35).
-- English-20 (batch20 2026-11-17-english-20) IN PROGRESS `production/30s/2026-11-17-english-20/werbens-30s-english20-01.mp4`
+- English-20 (batch20 2026-11-17-english-20) delivered `production/30s/2026-11-17-english-20/werbens-30s-english20-01.mp4`
   + thumbnail (left-digit effect, "WHY 99, NOT 100?"; topic not covered before; Thomas & Morwitz 2005, Anderson & Simester 2003,
-  Wadhwa & Zhang 2015; frame 0 = thumbnail; context/36). Done: research, brand re-check, script, narration + word timing.
-  Next: scene, audio, render, QA.
+  Wadhwa & Zhang 2015; frame 0 = thumbnail; live feedback applied (app.werbens.com colours/logo); render 2 after a review
+  removed a false intermediate "3.99"; sha256 23ab87bc; context/36).

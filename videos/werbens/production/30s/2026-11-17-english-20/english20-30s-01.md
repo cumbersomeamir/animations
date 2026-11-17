@@ -1,0 +1,177 @@
+# 36 — English-20 (batch20, 2026-11-17) 30 s #01: "WHY 99, NOT 100?" (the left-digit effect and where it stops)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-17-english-20`.
+
+Pre-edit checks:
+- Repo/branch confirmed: origin = github.com/cumbersomeamir/animations, branch claude-video/werbens, local db22881 == origin,
+  clean tree.
+- Batch 19 (english-19) was finished, pushed and attached first, and is not repeated here. No jobs were running.
+- CLAUDE.md and `05-progress.md` were re-read; topic history read from `context/11` (episode log rows 01–21) and episode notes.
+- The brief's notes about other apps (Ideaverse, Aarambh, Tensorblue, Mello, CalMeter, WastePaisa) do not apply to this app's
+  branch; only the Werbens line (exact app.werbens.com colours/logo) is applied.
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-17-english-20/werbens-30s-english20-01.mp4`.
+- Thumbnail: `werbens-30s-english20-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references:
+- **`context/27`** incl. **§5 first-frame rule**.
+- Style: `context/11` "Satisfying Product Theatre" on the live app.werbens.com dark-navy theme (context/28 §3).
+- Voice: context/11 + context/16 (Meshline/Recall).
+- Brand: `context/17` (re-checked today).
+- Copy in the output folder: `english20-30s-01.md`.
+
+## 1. Brief (batch20, 17 November 2026; latest live feedback retained)
+- Topic: **why a 99-price changes perception differently from a 100-price** — the left-digit effect, the evidence, one clean
+  visual pricing experiment, and the boundary where it fails.
+- Live feedback for this app: "No, only color theme and logo needs to be changed, take from app.werbens.com". Applied
+  explicitly: colours and logo come from the live app.werbens.com (re-checked today, §3); everything else stays the approved
+  style, narrator and CTA.
+- Frame 0 striking, truthful, legible, 2–5 curiosity words; hook (0–3), optional super hook (3–5), proof (5–21), payoff
+  (21–27), CTA (27–30). Upper captions inside the mobile safe area. Sources in the project, not the narration.
+
+## 2. Topic check against the episode history → not covered; topic kept
+No earlier episode covers price endings or the left-digit effect:
+- **#09** (english-07) is anchoring (a premium reference item), not digit perception.
+- **#16** (english-14) is unit pricing (per pack vs per 100 g), not endings.
+- **#03 / #18 / #21** (decoy, compromise, option framing) are about menu structure, not price digits.
+Nothing in `context/` mentions left digits, 9-endings, charm pricing or round prices.
+
+## 3. Brand re-check (facts; 2026-11-17, batch20)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, headless Chromium, scratchpad `appweb-dl-1117b`):
+- The top-40 computed colour list is identical to the batch-19 check the same day (`appweb-dl-1117`).
+- Wordmark: Space Grotesk 700, 30.4 px, −1.216 px, `linear-gradient(135deg, rgb(127,231,220), rgb(49,104,121))`.
+- Logo `https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… is unchanged (= `assets/brand/app-werbens-logo.svg`).
+
+## 4. Facts used (verified 2026-11-17) — tagged measured / advice / illustration
+1. **Thomas, M., & Morwitz, V. (2005).** Penny wise and pound foolish: The left-digit effect in price cognition. *Journal of
+   Consumer Research*, 32(1), 54–64. https://doi.org/10.1086/429600 — abstract read on the publisher page
+   (academic.oup.com): nine-ending prices "are perceived to be smaller than a price one cent higher" — only when the leftmost
+   digits differ (e.g. $2.99 vs $3.00); "The closer the two prices being compared, the more likely is the left-digit effect";
+   five experiments; also with other multidigit numbers.
+2. **Anderson, E. T., & Simester, D. I. (2003).** Effects of $9 price endings on retail sales: Evidence from field
+   experiments. *Quantitative Marketing and Economics*, 1(1), 93–110. https://doi.org/10.1023/A:1023581927405 — abstract read
+   on RePEc/IDEAS: "use of a $9 price ending increased demand in all three experiments"; "the increase in demand was stronger
+   for new items than for items that the retailer had sold in previous years"; some evidence that "$9 price endings are less
+   effective when retailers use 'Sale' cues".
+3. **Wadhwa, M., & Zhang, K. (2015).** This number just feels right: The impact of roundedness of price numbers on product
+   evaluations. *Journal of Consumer Research*, 41(5), 1172–1185. https://doi.org/10.1086/678484 — abstract read on the
+   publisher page: rounded prices (e.g. $200.00) are processed more fluently and fit feelings-driven decisions; non-rounded
+   prices fit cognition-driven ones; the fit ("feeling right") intensifies reactions; five studies.
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Why do prices end in 99, not a round number?" | **Question** | — |
+| L2 | "Only a cent less, and the first digit drops." | **Illustration** of the 3.00 → 2.99 change | Thomas & Morwitz example ($2.99 vs $3.00) |
+| L3 | "In studies, 2.99 felt smaller than 3.00." | **Measured finding** (direction only) | Thomas & Morwitz: perceived smaller than a price one cent higher |
+| L4 | "But 3.59 versus 3.60? No effect: same first digit." | **Measured boundary** (the effect requires the leftmost digit to differ); 3.59/3.60 is an illustrative pair of that condition | Thomas & Morwitz |
+| L5 | "In field tests, nine endings lifted demand, most for new items." | **Measured field finding** (direction only) | Anderson & Simester |
+| L6 | "So use a nine where it flips the first digit." | **Practical advice** derived from L3–L4 | — |
+| L7 | "For feel-good purchases, a round price can feel right." | **Measured boundary** (round prices fit feelings-driven decisions) | Wadhwa & Zhang |
+| — | price tags, digit blocks, demand stacks | **Illustration** | Tags carry the studies' example numbers with no currency symbol; demand stacks show direction only (no sales figures). |
+
+Not used in the narration: the "Sale cue" moderator (stated as "some evidence" in the abstract) and Manning & Sprott (2009,
+*JCR* 36(2), 328–335, doi 10.1086/597215; abstract not read).
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), **af_bella 0.7 + am_puck 0.3**, speed 0.98, en-us,
+  newly synthesised. Hook audio starts at 0.15 s.
+- Price readings: Kokoro read "2.99" as "two point nine nine" and "3.00" as "three point zero zero". Phoneme overrides make
+  them "two ninety-nine", "three", "three fifty-nine", "three sixty"; the captions keep the digits.
+- Script fixes: speech was ~28 s in the first draft → lines tightened. "One cent less" was transcribed "1.0 less" → "Only a
+  cent less". "feel-good buys" was heard as "feel goodbyes" → "feel-good purchases".
+- Whisper base.en per line (clean narration): L1 9/9 · L2 9/9 · L3 5/5 (digits written "299", "3") · L4 6/7 ("versus" written
+  "vs.") · L5 11/11 · L6 9/10 ("nine" written "9") · L7 10/10 · L8 6/7 ("Werbens" → "Warbins", known). `WORD_TEXT_FIX`
+  restores "versus" and "nine" so captions align.
+- Caption timing: Whisper word times plus `WORD_FIX` pins for L2, L3, L4 and L6, read from the voiced segments of the narration
+  envelope (L4's tokens were bunched at 9.88 s by Whisper; e.g. "3.59" → 10.04 s, "versus" → 10.91 s, "No" → 12.49 s).
+
+## 6. Final script (= final transcript) — 70 words, 23.6 s of speech
+| Part (context/27) | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: WHY 99, / NOT 100?) | L1 | 0.15–3.15 | Why do prices end in 99, not a round number? |
+| Super hook | L2 | 3.58–6.14 | Only a cent less, and the first digit drops. |
+| Proof (lab) | L3 | 6.58–9.38 | In studies, 2.99 felt smaller than 3.00. |
+| Proof (boundary) | L4 | 9.88–14.69 | But 3.59 versus 3.60? No effect: same first digit. |
+| Proof (field) | L5 | 15.13–19.37 | In field tests, nine endings lifted demand, most for new items. |
+| Payoff (rule) | L6 | 19.83–22.10 | So use a nine where it flips the first digit. |
+| Payoff (boundary) | L7 | 22.58–25.74 | For feel-good purchases, a round price can feel right. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail.** A price rail on a low ink base with two signs hanging from spring scales. "99" barely stretches its
+  spring; "100" stretches its spring far, so how big a price *feels* is a physical drop (illustrative, exaggerated for
+  legibility). The digits are split-flap tiles (Space Grotesk 700, ink on mint-white). The headline reads "WHY 99, / NOT 100?"
+  (Space Grotesk 700; the second line uses the hero gradient), x 193–807, y 330–652. No intro, no fade. The headline clears by
+  0.42 s as the first caption appears.
+- **One clean visual experiment.** The signs spin round on their hangers to the studies' example: both read "3.00". On "a cent
+  less" the left sign's last two tiles flip to 99; on "the first digit drops" its first tile flips 3 → 2 and its spring jumps
+  up ("FIRST DIGIT"), so 2.99 visibly "feels smaller" next to 3.00 ("FELT SMALLER").
+- **The boundary where it fails** is shown with the same apparatus: 3.59 vs 3.60 hang level ("NO EFFECT"), and both first tiles
+  glow on "same first digit". The payoff repeats the contrast as a rule: 3.00 → 2.99 flips the first digit (spring jumps,
+  check), 3.60 → 3.59 changes only the last digits (nothing moves) ("ONLY IF IT FLIPS").
+- **Field evidence (scene change):** a shelf with two unbranded products, one new (mint band, glow). Their small tags flip from
+  3.00 to 2.99; queues of shoppers grow, more for the new item ("MOST FOR NEW"). Queue lengths show direction only.
+- **Second boundary:** the right sign spins back to a round "100" and a gift box rises under it ("FEELS RIGHT"): round prices
+  can fit feelings-driven purchases.
+- **Labels:** FIRST DIGIT / FELT SMALLER / NO EFFECT / MOST FOR NEW / ONLY IF IT FLIPS / FEELS RIGHT. All large and brief, one
+  at a time, y ≥ 574. In-world numbers are the studies' example prices without currency; the only other mark is a check icon.
+- **Excluded:** no currency symbol, no brand, no sales figures, no source chips, no decorative lines.
+- **Reusable lessons:**
+  1. Keep digits in the caption script and fix the spoken reading with phoneme overrides ("2.99" → "two ninety-nine").
+  2. Two signs side by side need the camera at ~1.0 distance in portrait; the first pass cropped them and pushed the rail into
+     the label band.
+  3. Queues in front of products hide small tags: put tags on the box face above head height and fan queues outward.
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.4 s | price rail | headline; 99 hangs high, 100 low; each sign pulses on its number | ticks, piano |
+| Super hook | 3.4–6.3 s | slight push | signs spin to 3.00; left flips to 2.99 (last tiles, then first); its spring jumps (FIRST DIGIT) | whoosh, flips, bloop, tag |
+| Proof 1 | 6.3–9.7 s | hold | FELT SMALLER | tag, piano |
+| Proof 2 (boundary) | 9.7–14.75 s | slight push | left → 3.59, right → 3.60; springs level (NO EFFECT); first tiles glow | flips, tag, chime |
+| Proof 3 (field) | 14.75–19.35 s | lateral move to the shelf | tags flip to 2.99; queues grow; more for the new item (MOST FOR NEW) | whoosh, flips, plops, tag |
+| Payoff (rule) | 19.35–22.5 s | back to the rail | reset 3.00 / 3.60; left flips its first digit (spring jumps, check); right does not (ONLY IF IT FLIPS) | whoosh, flips, bloop, chime |
+| Payoff (boundary) | 22.5–26.25 s | slight drift right | right sign spins to round 100; gift box rises (FEELS RIGHT) | whoosh, thud, shimmer |
+| CTA | 26.25–30 s | pull back | stage sinks; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, D-major spread |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-17-english-20/werbens-30s-english20-01.mp4`, sha256 `23ab87bc…1931`, 4,660,052 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `5de14ba4…`) and `.jpg` (sha256 `76beab44…`).
+
+Verification results (2026-11-17):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1 bt709; AAC-LC
+  48 kHz stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean.
+- **Audio:** −15.0 LUFS integrated, true peak −2.0 dBTP, LRA 2.0 LU, flat factor 0. Stems: voice −20.8, music −31.6, foley
+  −34.4 LUFS.
+- **ASR of the final mix (Whisper base.en):** every word recognised; the whole-mix pass writes the spoken prices as "$2.99",
+  "$3.59 versus $3.60". Misses are number formatting and "Werbens" only. ASR only, no human listen.
+- **DOM, every frame (900):** caption ink x 164–836 / y 369–489; pill x 134–866 / y 353–507; headline 13 frames x 193–807 /
+  y 330–652; labels x 173–827 / y 574–1456. 0 headline conflicts, 0 outside, 0 overlaps, 0 in y < 300, never two big labels.
+  Caption groups: 10, shortest 1.54 s.
+- **Visual review:** every cut and every price change inspected in the final MP4 (`qa/flips-1.png`, `qa/flips-2.png`); each
+  change happens in one move, no false intermediate price; no empty frames; no missing assets.
+- **Render 1 was rejected after review:** the split-flap tiles changed one at a time, so 3.00 showed a false "3.99" for ~1.2 s.
+  All tiles of one price now flip together (`src/timeline.js`, `src/scene.js`); render 2 is the delivered file.
+- **Earlier outputs:** 22 earlier MP4s were re-hashed and are unchanged; nothing was deleted or overwritten.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 19 was finished; re-read CLAUDE.md and 05-progress; read the topic history.
+2. Topic check → not covered; kept (§2).
+3. Sources: Crossref (DOIs; no deposited abstracts), academic.oup.com (Thomas & Morwitz, Wadhwa & Zhang abstracts), RePEc/IDEAS
+   (Anderson & Simester abstract).
+4. app.werbens.com re-inspection (`tools/app.cjs`, `tools/appwm.cjs` → `appweb-dl-1117b`).
+5. Project created from the english-19 skeleton (`src/` tools, fonts, node_modules); outputs, QA and words.json not copied.
+6. `node src/tts.mjs` (5 passes) → `node src/words.mjs` → `node src/words_fix.mjs`.
+7. Stills (4 passes): camera too close (signs cropped, rail in the label band) → pulled back, signs spaced; field queues hid the
+   tags → tags on the box face, queues fanned; queues off-frame → tighter spacing, camera shifted.
+8. `node src/audio.mjs` → `node src/qa_dom.mjs 3` (PASS) → caption durations checked (shortest 1.54 s) → checkpoint commit
+   e663613.
+9. `node src/render.mjs --video` → ffmpeg mux → `node src/render.mjs --thumb --stills 0 --out build/thumb` → `bash qa.sh` →
+   `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english20-01.mp4`.
+10. Render 1 review → digits flip together → render 2 → mux → thumbnail → `bash qa.sh` → `node src/qa_dom.mjs 1` →
+    `node src/asr_mix.mjs werbens-30s-english20-01.mp4`, all PASS; every price change cropped from the final MP4 (§9).
+11. QA.md written; context/05 marked delivered; committed and pushed; MP4 + thumbnail attached in chat.
+
+Next step: none for this batch (one episode only; no automation).

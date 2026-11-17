@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.48
+      ],
+      "script": "Why do prices end in 99, not a round number?",
+      "heard": "Why do prices end in 99, not a round number?",
+      "words": "9/9"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.4,
+        6.47
+      ],
+      "script": "Only a cent less, and the first digit drops.",
+      "heard": "only a cent less, and the first digit drops.",
+      "words": "9/9"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.4,
+        9.71
+      ],
+      "script": "In studies, 2.99 felt smaller than 3.00.",
+      "heard": "In studies, 299 felt smaller than 3.",
+      "words": "5/5"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        9.7,
+        15.02
+      ],
+      "script": "But 3.59 versus 3.60? No effect: same first digit.",
+      "heard": "but 359 vs 360. No effect, same first digit.",
+      "words": "6/7"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.95,
+        19.7
+      ],
+      "script": "In field tests, nine endings lifted demand, most for new items.",
+      "heard": "In field tests, nine endings lifted demand, most for new items.",
+      "words": "11/11"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19.65,
+        22.43
+      ],
+      "script": "So use a nine where it flips the first digit.",
+      "heard": "So use a 9 where it flips the first digit.",
+      "words": "9/10"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        22.4,
+        26.07
+      ],
+      "script": "For feel-good purchases, a round price can feel right.",
+      "heard": "For feel-good purchases, a round price can feel right.",
+      "words": "10/10"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why do prices end in 99, not a round number? Only a cent less and the first digit drops. In studies, $2.99 felt smaller than 3. But $3.59 versus $3.60, no effect, same first digit. In field tests, nine endings lifted demand, most for new items. So use a 9 where it flips the first digit. For feel-good purchases, a round price can feel right. Follow Warbans to decode how brands sell."
+}
