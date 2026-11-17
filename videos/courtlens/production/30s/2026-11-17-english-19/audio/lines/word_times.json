@@ -1,0 +1,485 @@
+{
+ "l1": {
+  "script": "Eighteen rupees for their bag?",
+  "heard": "18 rupees for their bag.",
+  "wer": 0.0,
+  "words": [
+   [
+    "18",
+    0.0,
+    0.38
+   ],
+   [
+    "rupees",
+    0.38,
+    0.72
+   ],
+   [
+    "for",
+    0.72,
+    0.96
+   ],
+   [
+    "their",
+    0.96,
+    1.1
+   ],
+   [
+    "bag.",
+    1.1,
+    1.34
+   ]
+  ]
+ },
+ "l2": {
+  "script": "The billing counter just added it to your bill.",
+  "heard": "The Billing Counter just added it to your bill.",
+  "wer": 0.0,
+  "words": [
+   [
+    "The",
+    0.0,
+    0.2
+   ],
+   [
+    "Billing",
+    0.2,
+    0.56
+   ],
+   [
+    "Counter",
+    0.56,
+    0.9
+   ],
+   [
+    "just",
+    0.9,
+    1.28
+   ],
+   [
+    "added",
+    1.28,
+    1.52
+   ],
+   [
+    "it",
+    1.52,
+    1.72
+   ],
+   [
+    "to",
+    1.72,
+    1.8
+   ],
+   [
+    "your",
+    1.8,
+    1.94
+   ],
+   [
+    "bill.",
+    1.94,
+    2.1
+   ]
+  ]
+ },
+ "l3": {
+  "script": "The National Consumer Commission said:",
+  "heard": "the National Consumer Commission said.",
+  "wer": 0.0,
+  "words": [
+   [
+    "the",
+    0.0,
+    0.22
+   ],
+   [
+    "National",
+    0.22,
+    0.6
+   ],
+   [
+    "Consumer",
+    0.6,
+    0.96
+   ],
+   [
+    "Commission",
+    0.96,
+    1.34
+   ],
+   [
+    "said.",
+    1.34,
+    1.62
+   ]
+  ]
+ },
+ "l4": {
+  "script": "Shops can sell bags, but buying one must be your choice.",
+  "heard": "Shops can sell bags, but buying one must be your choice.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Shops",
+    0.0,
+    0.44
+   ],
+   [
+    "can",
+    0.44,
+    0.66
+   ],
+   [
+    "sell",
+    0.66,
+    0.88
+   ],
+   [
+    "bags,",
+    0.88,
+    1.28
+   ],
+   [
+    "but",
+    1.62,
+    1.78
+   ],
+   [
+    "buying",
+    1.78,
+    2.08
+   ],
+   [
+    "one",
+    2.08,
+    2.26
+   ],
+   [
+    "must",
+    2.26,
+    2.46
+   ],
+   [
+    "be",
+    2.46,
+    2.6
+   ],
+   [
+    "your",
+    2.6,
+    2.8
+   ],
+   [
+    "choice.",
+    2.8,
+    3.08
+   ]
+  ]
+ },
+ "l5": {
+  "script": "Printed with the shop's name or logo? Then they can't charge for it.",
+  "heard": "printed with the shop's name or logo, then they can't charge for it.",
+  "wer": 0.0,
+  "words": [
+   [
+    "printed",
+    0.0,
+    0.34
+   ],
+   [
+    "with",
+    0.34,
+    0.58
+   ],
+   [
+    "the",
+    0.58,
+    0.76
+   ],
+   [
+    "shop's",
+    0.76,
+    1.18
+   ],
+   [
+    "name",
+    1.18,
+    1.4
+   ],
+   [
+    "or",
+    1.4,
+    1.62
+   ],
+   [
+    "logo,",
+    1.62,
+    2.06
+   ],
+   [
+    "then",
+    2.5,
+    2.56
+   ],
+   [
+    "they",
+    2.56,
+    2.72
+   ],
+   [
+    "can't",
+    2.72,
+    3.12
+   ],
+   [
+    "charge",
+    3.12,
+    3.36
+   ],
+   [
+    "for",
+    3.36,
+    3.6
+   ],
+   [
+    "it.",
+    3.6,
+    3.72
+   ]
+  ]
+ },
+ "l6": {
+  "script": "They can't stop you bringing your own empty bag.",
+  "heard": "They can't stop you bringing your own empty bag.",
+  "wer": 0.0,
+  "words": [
+   [
+    "They",
+    0.0,
+    0.16
+   ],
+   [
+    "can't",
+    0.16,
+    0.54
+   ],
+   [
+    "stop",
+    0.54,
+    0.7
+   ],
+   [
+    "you",
+    0.7,
+    0.9
+   ],
+   [
+    "bringing",
+    0.9,
+    1.08
+   ],
+   [
+    "your",
+    1.08,
+    1.32
+   ],
+   [
+    "own",
+    1.32,
+    1.56
+   ],
+   [
+    "empty",
+    1.56,
+    1.8
+   ],
+   [
+    "bag.",
+    1.8,
+    2.18
+   ]
+  ]
+ },
+ "l7": {
+  "script": "And notices at the entrance must tell you before you shop.",
+  "heard": "and notices at the entrance must tell you before you shop.",
+  "wer": 0.0,
+  "words": [
+   [
+    "and",
+    0.0,
+    0.3
+   ],
+   [
+    "notices",
+    0.3,
+    0.62
+   ],
+   [
+    "at",
+    0.62,
+    0.88
+   ],
+   [
+    "the",
+    0.88,
+    1.14
+   ],
+   [
+    "entrance",
+    1.14,
+    1.46
+   ],
+   [
+    "must",
+    1.46,
+    1.98
+   ],
+   [
+    "tell",
+    1.98,
+    2.18
+   ],
+   [
+    "you",
+    2.18,
+    2.34
+   ],
+   [
+    "before",
+    2.34,
+    2.56
+   ],
+   [
+    "you",
+    2.56,
+    2.78
+   ],
+   [
+    "shop.",
+    2.78,
+    3.04
+   ]
+  ]
+ },
+ "l8": {
+  "script": "Logo bag? Ask for it free. Plain bag? Say no, or bring your own.",
+  "heard": "Logo bag, ask for it free. Plain bag, say no, or bring your own.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Logo",
+    0.0,
+    0.52
+   ],
+   [
+    "bag,",
+    0.52,
+    0.78
+   ],
+   [
+    "ask",
+    0.86,
+    1.14
+   ],
+   [
+    "for",
+    1.14,
+    1.3
+   ],
+   [
+    "it",
+    1.3,
+    1.46
+   ],
+   [
+    "free.",
+    1.46,
+    1.72
+   ],
+   [
+    "Plain",
+    2.16,
+    2.42
+   ],
+   [
+    "bag,",
+    2.42,
+    2.68
+   ],
+   [
+    "say",
+    2.94,
+    3.06
+   ],
+   [
+    "no,",
+    3.06,
+    3.32
+   ],
+   [
+    "or",
+    3.44,
+    3.58
+   ],
+   [
+    "bring",
+    3.58,
+    3.7
+   ],
+   [
+    "your",
+    3.7,
+    3.9
+   ],
+   [
+    "own.",
+    3.9,
+    4.04
+   ]
+  ]
+ },
+ "l9": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}

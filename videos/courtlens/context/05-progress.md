@@ -4,6 +4,67 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-17 (english-19, batch 19): "₹18 for their bag?": carry bag charges
+
+### Status
+- Confirmed before edits: repo cumbersomeamir/animations, branch claude-video/courtlens, assigned account
+  info@tensorblue.com. The working tree was clean and in sync with origin at 464b92f. Batch 18 was delivered and is
+  not repeated.
+- The proposed topic ("Can a shop charge more than MRP?") repeats episode 02. The replacement is a carry bag charged at
+  the billing counter. Record: `context/episodes/2026-11-17-english19-carry-bag-charge.md`.
+- IN PROGRESS: sources, narration, audio lines, timeline, scene, notes and thumbnail are done; the full render is
+  running.
+
+### Verified facts (details: `production/30s/2026-11-17-english-19/notes/LEGAL-SOURCES.md`)
+- **NCDRC, Bata India Ltd v. Dinesh Parshad Raturi, RP 1715/2019 with RP 774/2020, 27 Nov 2024 (full text read):**
+  - 23.1: no obligation to give bags free
+  - 23.2: purchase optional
+  - 23.3: a bag with the seller's name or logo can't be charged for
+  - 23.4: empty own bags allowed (unless local law prohibits)
+  - 23.5: notices incl. at the entrance; invoice notice not enough
+- **NCDRC, Big Bazaar v. Ashok Kumar, RP 975/2020, 22 Dec 2020:** prior notice before choosing the shop and goods.
+- **Later orders, consistent:**
+  - Uttarakhand State Commission, 30 Oct 2026: informed purchase, no law mandates free bags
+  - South Delhi District Commission, 26 May 2026
+- No Supreme Court ruling was found.
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - their "S · SHOP" logo bag with a red ₹18 tag on a lit billing counter, the receipt showing "CARRY BAG ₹18"
+  - "₹18 FOR THEIR BAG?"
+  - voice at 0.05 s
+- **Beats:**
+  - receipt line marked red
+  - NATIONAL CONSUMER COMMISSION · 2024 stamp
+  - the same bag returns plain: ✓/✕ "YOUR CHOICE"
+  - the logo slams on and the tag flips to FREE: "LOGO BAG = FREE"
+  - a tote swings in: "BRING YOUR OWN"
+  - shopfront notice board "CARRY BAGS / ₹ EXTRA / OPTIONAL": "BEFORE YOU SHOP"
+  - three steps
+  - CTA
+- **Attribution:** the conditions are "The National Consumer Commission said:" (directions in the Bata case).
+- **Not narrated (no blanket "illegal" claim):** state orders, plain-bag pricing, local-law limits.
+- **Narration:** trimmed from 29.0 s to 24.7 s (year moved to the stamp; "So at the counter" dropped).
+
+### Exact commands
+```bash
+cd videos/courtlens/production/30s/2026-11-17-english-19/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st19 <times>
+node render.cjs thumb .. courtlens-30s-english19-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build19 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english19-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english19-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- The logo's rubber-stamp prop entered the caption band and pressed at the wrong spot. It was replaced by the
+  series' slam-in of the logo itself (11.15 s, on "name or logo").
+- The counter front was too heavy, so it now fades earlier. The receipt was enlarged so "CARRY BAG ₹18" reads.
+- The bag stage was raised so "YOUR CHOICE" clears the bottom overlay zone.
+- Per-line ASR before the render: lines 1–8 word-perfect; brand heard as "Courtlands" (as in all episodes).
+
 ## Round 2026-11-15 (english-18, batch 18): "Your snack. Their rule?": cinema outside food
 
 ### Status
