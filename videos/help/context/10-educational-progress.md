@@ -171,3 +171,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Output `videos/help/production/30s/2026-11-17-english-20/help-30s-english20-01.mp4`, SHA-256 `c8900740b40451ae245368c4751a392ccaa6684c4cb19fb3e1c650c877533de8`; thumbnail `help-30s-english20-thumbnail.png`.
 - Topic + production notes: `33-production-30s-english20-01.md`; LIVE feedback, new genre rule and lessons in `11-production-format.md` (Update 2026-11-17, batch 20). No automation created.
 
+## 2026-11-18 (batch 21) — english-21, 30 s #01 (English; "Free for 21 days" — birth registration: free within 21 days, late = magistrate's order, proof of age for school admission, who reports, name later; payoff: help with one form, on time) — DONE
+- Output `videos/help/production/30s/2026-11-18-english-21/help-30s-english21-01.mp4`, SHA-256 `b0fde7277ccc8099f332dd12a2f9d9f4eaef81f4dbedd6765aea9eb53b14750a`; thumbnail `help-30s-english21-thumbnail.png`.
+- Topic + production notes: `34-production-30s-english21-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-18, batch 21). No automation created.
+

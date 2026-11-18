@@ -1,0 +1,157 @@
+{
+ "rule": "ink x 100-900, y 230-1500 (2026-11-11 feedback)",
+ "framesChecked": 32,
+ "extent": {
+  "x0": 128,
+  "x1": 872,
+  "y0": 376,
+  "y1": 496
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "Register a birth within / twenty-one days,",
+   "fs": 56,
+   "x0": 196,
+   "x1": 804,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 35
+  },
+  {
+   "text": "and it's free.",
+   "fs": 66,
+   "x0": 294,
+   "x1": 706,
+   "y0": 404,
+   "y1": 457,
+   "firstFrame": 83
+  },
+  {
+   "text": "Wait over a year,",
+   "fs": 66,
+   "x0": 229,
+   "x1": 771,
+   "y0": 404,
+   "y1": 470,
+   "firstFrame": 116
+  },
+  {
+   "text": "and you'll need a / magistrate's order.",
+   "fs": 56,
+   "x0": 236,
+   "x1": 764,
+   "y0": 379,
+   "y1": 496,
+   "firstFrame": 165
+  },
+  {
+   "text": "So why does this / one paper matter?",
+   "fs": 56,
+   "x0": 248,
+   "x1": 752,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 221
+  },
+  {
+   "text": "For children born / since late 2023,",
+   "fs": 56,
+   "x0": 264,
+   "x1": 736,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 293
+  },
+  {
+   "text": "it proves age for / school admission.",
+   "fs": 56,
+   "x0": 248,
+   "x1": 752,
+   "y0": 376,
+   "y1": 484,
+   "firstFrame": 370
+  },
+  {
+   "text": "Hospitals must / report births;",
+   "fs": 56,
+   "x0": 292,
+   "x1": 708,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 436
+  },
+  {
+   "text": "at home, the family / tells the registrar.",
+   "fs": 56,
+   "x0": 234,
+   "x1": 766,
+   "y0": 376,
+   "y1": 496,
+   "firstFrame": 511
+  },
+  {
+   "text": "No name yet?",
+   "fs": 66,
+   "x0": 278,
+   "x1": 722,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 569
+  },
+  {
+   "text": "Register the birth now;",
+   "fs": 66,
+   "x0": 128,
+   "x1": 872,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 606
+  },
+  {
+   "text": "add the name later.",
+   "fs": 66,
+   "x0": 188,
+   "x1": 812,
+   "y0": 407,
+   "y1": 457,
+   "firstFrame": 643
+  },
+  {
+   "text": "So the most useful gift",
+   "fs": 66,
+   "x0": 134,
+   "x1": 866,
+   "y0": 404,
+   "y1": 471,
+   "firstFrame": 679
+  },
+  {
+   "text": "may be help with / one form, on time.",
+   "fs": 56,
+   "x0": 247,
+   "x1": 753,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 741
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 376,
+   "y1": 495,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 407,
+   "y1": 470,
+   "firstFrame": 877
+  }
+ ]
+}

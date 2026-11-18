@@ -1,0 +1,132 @@
+{
+ "cards": [
+  {
+   "a": 0.07,
+   "lines": [
+    "Register a birth within twenty-one days,"
+   ],
+   "timing": "asr (dropped extra token 'twenty')",
+   "b": 2.27
+  },
+  {
+   "a": 2.34,
+   "lines": [
+    "and it's free."
+   ],
+   "timing": "asr (dropped extra token 'twenty')",
+   "b": 3.2
+  },
+  {
+   "a": 3.27,
+   "lines": [
+    "Wait over a year,"
+   ],
+   "timing": "asr",
+   "b": 4.49
+  },
+  {
+   "a": 4.56,
+   "lines": [
+    "and you'll need a magistrate's order."
+   ],
+   "timing": "asr",
+   "b": 6.41
+  },
+  {
+   "a": 6.48,
+   "lines": [
+    "So why does this one paper matter?"
+   ],
+   "timing": "asr",
+   "b": 8.27
+  },
+  {
+   "a": 8.34,
+   "lines": [
+    "For children born since late 2023,"
+   ],
+   "timing": "asr (aligned 11/12 words)",
+   "b": 11.21
+  },
+  {
+   "a": 11.28,
+   "lines": [
+    "it proves age for school admission."
+   ],
+   "timing": "asr (aligned 11/12 words)",
+   "b": 13.4
+  },
+  {
+   "a": 13.47,
+   "lines": [
+    "Hospitals must report births;"
+   ],
+   "timing": "asr",
+   "b": 15.62
+  },
+  {
+   "a": 15.69,
+   "lines": [
+    "at home, the family tells the registrar."
+   ],
+   "timing": "asr",
+   "b": 18.35
+  },
+  {
+   "a": 18.42,
+   "lines": [
+    "No name yet?"
+   ],
+   "timing": "asr (dropped extra token 'or')",
+   "b": 19.52
+  },
+  {
+   "a": 19.59,
+   "lines": [
+    "Register the birth now;"
+   ],
+   "timing": "asr (dropped extra token 'or')",
+   "b": 20.81
+  },
+  {
+   "a": 20.88,
+   "lines": [
+    "add the name later."
+   ],
+   "timing": "asr (dropped extra token 'or')",
+   "b": 21.98
+  },
+  {
+   "a": 22.05,
+   "lines": [
+    "So the most useful gift"
+   ],
+   "timing": "asr (aligned 11/13 words)",
+   "b": 23.215
+  },
+  {
+   "a": 23.285,
+   "lines": [
+    "may be help with one form, on time."
+   ],
+   "timing": "asr (aligned 11/13 words)",
+   "b": 26.116
+  },
+  {
+   "a": 26.97,
+   "lines": [
+    "To donate essentials in Lucknow,"
+   ],
+   "timing": "asr",
+   "b": 28.67
+  },
+  {
+   "a": 28.74,
+   "lines": [
+    "download Help."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "Register a birth within twenty-one days, and it's free.",
+   "dur": 3.096,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Wait over a year, and you'll need a magistrate's order.",
+   "dur": 2.995,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "So why does this one paper matter?",
+   "dur": 1.662,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "For children born since late 2023, it proves age for school admission.",
+   "tts": "For children born since late twenty twenty-three, it proves age for school admission.",
+   "dur": 4.888,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Hospitals must report births; at home, the family tells the registrar.",
+   "dur": 4.716,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "No name yet? Register the birth now; add the name later.",
+   "dur": 3.405,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "So the most useful gift may be help with one form, on time.",
+   "dur": 3.566,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

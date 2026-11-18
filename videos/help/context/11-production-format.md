@@ -322,3 +322,14 @@ icon should be taken from play store or app store"
   clear of the plaque. Check `qa/frame-000.png` at 25% before the full render.
 - Two labels must not share the screen: end the old label before the next one appears (COSTS INCOME → "?").
 
+## Update 2026-11-18 (batch 21) — english-21 lessons (LIVE feedback of 2026-11-17 still applies, re-applied)
+- Topic gate: birth registration / birth certificates / the 21-day rule / delayed registration covered by english-21. Identity-paperwork topics are
+  now english-14 (ration card), english-16 (Aadhaar address) and english-21 — prefer a non-paperwork essential next time unless the brief asks.
+- Check a brief's framing against the law before scripting: "keeps a child out of school" would be false (RTE s.14(2) bars refusing admission for
+  lack of age proof) → say what the document does, not what it blocks.
+- Laws change: a 2026 amendment rewrote the late-registration rule mid-year. Read the newest gazette text and narrate only what holds under every
+  version in force (here "after a year, a magistrate's order").
+- Survey figures: check that the newest round still reports the indicator (NFHS-6 dropped birth registration) before using an older number; if not,
+  keep it out of narration.
+- Kokoro joins a final "r" to the next vowel ("register anyway" → "register or anyway"); end such a word before a consonant ("register the birth").
+
