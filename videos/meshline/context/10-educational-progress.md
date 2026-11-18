@@ -122,3 +122,6 @@
 
 ## Production 2026-11-17-english-20 (English, why your phone skips the nearest tower): complete
 - See `33-production-30s-english20-01.md`; output sha256 `34cd0eaf8a0f82ab5c100eefc29788cc1146b46c28b5f0c2a234fb83e7a97d18`; thumbnail = frame-zero composition.
+
+## Production 2026-11-18-english-21 (English, why pairing shows the same six digits on both phones): complete
+- See `34-production-30s-english21-01.md`; output sha256 `ef433d2c7ac8e7c85e7b132ca46a61e1b9e7acf4de822eccef50dc80575d8b03`; thumbnail = frame-zero composition.

@@ -1,0 +1,9 @@
+When two phones pair, both show the same six digits. Why?
+
+Because someone in the middle could pose as each phone. Each phone sends its public key, and both build one shared secret. Then each turns what it received into a six-digit check. A middleman must swap in its own keys, so the numbers would almost surely differ.
+
+So only tap pair when both screens show the same number.
+
+Download Meshline for private nearby messages, even offline.
+
+#bluetooth #privacy #techtips #Meshline

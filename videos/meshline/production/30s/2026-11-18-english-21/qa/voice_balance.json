@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 3.734,
+  "text": "When two phones pair, both show the same six digits. Why?",
+  "speech_band_db": 24.8
+ },
+ {
+  "id": "l2",
+  "start": 4.6,
+  "end": 7.114,
+  "text": "Because someone in the middle could pose as each phone.",
+  "speech_band_db": 23.1
+ },
+ {
+  "id": "l3",
+  "start": 7.98,
+  "end": 11.921,
+  "text": "Each phone sends its public key, and both build one shared secret.",
+  "speech_band_db": 19.9
+ },
+ {
+  "id": "l4",
+  "start": 12.79,
+  "end": 15.797,
+  "text": "Then each turns what it received into a six-digit check.",
+  "speech_band_db": 24.7
+ },
+ {
+  "id": "l5",
+  "start": 16.67,
+  "end": 21.183,
+  "text": "A middleman must swap in its own keys, so the numbers would almost surely differ.",
+  "speech_band_db": 21.8
+ },
+ {
+  "id": "l6",
+  "start": 22.05,
+  "end": 24.989,
+  "text": "So only tap pair when both screens show the same number.",
+  "speech_band_db": 23.6
+ },
+ {
+  "id": "l7",
+  "start": 25.61,
+  "end": 29.546,
+  "text": "Download Meshline for private nearby messages, even offline.",
+  "speech_band_db": 22.9
+ }
+]

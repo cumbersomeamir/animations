@@ -1,0 +1,13 @@
+# Licence notes: batch 2026-11-18-english-21
+- **Visuals:** original Canvas2D code (`src/pair.mjs`). Art direction comes from the Transit Map STYLE.md (lemomo-ai/lemo-opuscar), which was read only; nothing from it was copied or executed.
+  - Generic phone glyphs, phones with a generic pairing prompt, a masked middleman device, key and padlock glyphs, and tap ripples (code-drawn; no third-party logos) are generic code-drawn shapes. There is no app UI or screenshot, and no third-party logo or trademark artwork.
+- **Palette and signature icon:** `videos/meshline/assets/icon.png` (an approved app asset).
+- **Fonts:** Inter / Inter Display (OFL-1.1), from `videos/meshline/project/fonts`.
+- **Voice:** Kokoro-82M ONNX (Apache-2.0), approved Meshline English blend 0.7 af_bella + 0.3 am_puck, speed 0.98, en-us, run locally. It imitates no person, and no Hindi audio is reused.
+- **Music and SFX:** synthesised from scratch (`audio/mix_e21.py` plus `education/pilot-01/audio/mix.py` helpers). No samples.
+- **ASR check:** faster-whisper 1.1.1 (MIT) with Systran faster-whisper-base.en and faster-whisper-small (MIT), local, QA only.
+- **Tools:** `@napi-rs/canvas` 1.0.11 (MIT), FFmpeg 6.1, numpy, scipy.
+- **Research documents:** NIST SP 800-121 Rev. 2 Upd. 1 and the Bluetooth SIG numeric-comparison blog post (2017). Only short attributed quotes appear in `research/claims.md`.
+- **Thumbnail:** `meshline-30s-english21-01-thumbnail.png` (1080x1920) is rendered by the same scene code (`node src/render.mjs --thumb <file>`) with the official icon. No stock art.
+- **CTA button:** "Download free · Android" is plain text on a code-drawn blue pill (listing facts: price 0, Android). No store badge or third-party logo.
+- **Trademarks:** the word "Bluetooth" appears only in research notes and the caption hashtags; no Bluetooth logo or rune is drawn, and the screens are a generic prompt, not any vendor UI.

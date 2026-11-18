@@ -1,0 +1,6 @@
+{
+ "model": "whisper-small",
+ "asr": "When two phones pair, both show the same six digits. Why? Because someone in the middle could pose as each phone. Each phone sends its public key, and both build one shared secret. Then each turns what it received into a six-digit check. A middleman must swap in its own keys, so the numbers would almost surely differ. So only tap pair when both screens show the same number. Download MeshLine for private nearby messages, even offline.",
+ "wer_normalized": 0.0,
+ "audio_pcm_sha256_prefix": "1c84921de7df5066"
+}

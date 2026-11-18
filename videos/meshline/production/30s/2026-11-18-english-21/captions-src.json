@@ -1,0 +1,109 @@
+{
+ "l1": [
+  [
+   [
+    "When two phones pair,",
+    "both show the same six digits."
+   ],
+   "When"
+  ],
+  [
+   [
+    "Why?"
+   ],
+   "Why"
+  ]
+ ],
+ "l2": [
+  [
+   [
+    "Because someone",
+    "in the middle"
+   ],
+   "Because"
+  ],
+  [
+   [
+    "could pose as each phone."
+   ],
+   "could"
+  ]
+ ],
+ "l3": [
+  [
+   [
+    "Each phone sends",
+    "its public key,"
+   ],
+   "Each"
+  ],
+  [
+   [
+    "and both build",
+    "one shared secret."
+   ],
+   "and"
+  ]
+ ],
+ "l4": [
+  [
+   [
+    "Then each turns",
+    "what it received"
+   ],
+   "Then"
+  ],
+  [
+   [
+    "into a six-digit check."
+   ],
+   "into"
+  ]
+ ],
+ "l5": [
+  [
+   [
+    "A middleman must swap",
+    "in its own keys,"
+   ],
+   "A"
+  ],
+  [
+   [
+    "so the numbers would",
+    "almost surely differ."
+   ],
+   "so"
+  ]
+ ],
+ "l6": [
+  [
+   [
+    "So only tap pair"
+   ],
+   "So"
+  ],
+  [
+   [
+    "when both screens",
+    "show the same number."
+   ],
+   "when"
+  ]
+ ],
+ "l7": [
+  [
+   [
+    "Download Meshline for",
+    "private nearby messages,"
+   ],
+   "Download"
+  ],
+  [
+   [
+    "even offline."
+   ],
+   "even"
+  ]
+ ]
+}

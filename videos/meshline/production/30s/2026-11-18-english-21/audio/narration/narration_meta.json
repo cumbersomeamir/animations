@@ -1,0 +1,77 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "When two phones pair, both show the same six digits. Why?",
+   "file": "l1.wav",
+   "sr": 24000,
+   "duration": 3.484,
+   "end": 3.734
+  },
+  {
+   "id": "l2",
+   "start": 4.6,
+   "text": "Because someone in the middle could pose as each phone.",
+   "file": "l2.wav",
+   "sr": 24000,
+   "duration": 2.514,
+   "end": 7.114
+  },
+  {
+   "id": "l3",
+   "start": 7.98,
+   "text": "Each phone sends its public key, and both build one shared secret.",
+   "file": "l3.wav",
+   "sr": 24000,
+   "duration": 3.941,
+   "end": 11.921
+  },
+  {
+   "id": "l4",
+   "start": 12.79,
+   "text": "Then each turns what it received into a six-digit check.",
+   "file": "l4.wav",
+   "sr": 24000,
+   "duration": 3.007,
+   "end": 15.797
+  },
+  {
+   "id": "l5",
+   "start": 16.67,
+   "text": "A middleman must swap in its own keys, so the numbers would almost surely differ.",
+   "file": "l5.wav",
+   "sr": 24000,
+   "duration": 4.513,
+   "end": 21.183
+  },
+  {
+   "id": "l6",
+   "start": 22.05,
+   "text": "So only tap pair when both screens show the same number.",
+   "file": "l6.wav",
+   "sr": 24000,
+   "duration": 2.939,
+   "end": 24.989
+  },
+  {
+   "id": "l7",
+   "start": 25.61,
+   "text": "Download Meshline for private nearby messages, even offline.",
+   "file": "l7.wav",
+   "sr": 24000,
+   "duration": 3.936,
+   "end": 29.546
+  }
+ ]
+}

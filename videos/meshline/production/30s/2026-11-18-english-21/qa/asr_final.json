@@ -1,0 +1,50 @@
+{
+ "reference": "When two phones pair, both show the same six digits. Why? Because someone in the middle could pose as each phone. Each phone sends its public key, and both build one shared secret. Then each turns what it received into a six-digit check. A middleman must swap in its own keys, so the numbers would almost surely differ. So only tap pair when both screens show the same number. Download Meshline for private nearby messages, even offline.",
+ "asr": "When two phones pair, both show the same six digits. Why? Because someone in the middle could pose as each phone. Each phone sends its public key, and both build one shared secret. Then each turns what it received into a six-digit check. A middleman must swap in its own keys, so the numbers would almost surely differ. So only tap pair when both screens show the same number. Download Meshline for private nearby messages, even offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.0,
+   "When two phones pair, both show the same six digits."
+  ],
+  [
+   3.0,
+   4.0,
+   "Why?"
+  ],
+  [
+   4.0,
+   7.0,
+   "Because someone in the middle could pose as each phone."
+  ],
+  [
+   7.0,
+   12.0,
+   "Each phone sends its public key, and both build one shared secret."
+  ],
+  [
+   12.0,
+   16.0,
+   "Then each turns what it received into a six-digit check."
+  ],
+  [
+   16.0,
+   21.0,
+   "A middleman must swap in its own keys, so the numbers would almost surely differ."
+  ],
+  [
+   21.0,
+   25.0,
+   "So only tap pair when both screens show the same number."
+  ],
+  [
+   25.0,
+   29.0,
+   "Download Meshline for private nearby messages, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "none needed (lower-case, punctuation and hyphens stripped)",
+ "audio_pcm_sha256_prefix": "1c84921de7df5066"
+}
