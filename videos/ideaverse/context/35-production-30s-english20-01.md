@@ -54,5 +54,11 @@ all phone screens (EXAMPLE; generic, not Apple's UI).
 8. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "1 IN A / MILLION?".
 
-## QA / status
-- IN PROGRESS (2026-11-18): full frame render running; score events written; icon re-checked.
+## QA / status — DELIVERED 2026-11-18
+- Output: production/30s/2026-11-17-english-20/ideaverse-30s-english20-01.mp4 · sha256 089ada07…5b39, plus
+  ideaverse-30s-english20-01-thumbnail.png ("1 IN A / MILLION?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −2.0 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Frames: 900 in 1432 s (3 workers) + re-renders 297–312 (caption boundary), 597–659 (no easel in the mask shot), 303–325 (saved
+  row from the card cut).
+- Limitation: ASR-only listening check (no by-ear listen possible here).

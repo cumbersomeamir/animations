@@ -22,14 +22,14 @@ for n_, (i, t) in enumerate(narr):
     segs, _ = m.transcribe(x[int(a * 16000):int(b * 16000)], beam_size=5, word_timestamps=True)
     ws = [w for s in segs for w in s.words]
     heard = ' '.join(w.word.strip() for w in ws); exp = lines[i]
-    NUM = {'13': 'thirteen', '3d': '3d', '10': 'ten', '15': 'fifteen', '315': 'three fifteen', '350': 'three fifty', '3:15': 'three fifteen', '3:50': 'three fifty', '6': 'six', '8': 'eight', '8?': 'eight'}
+    NUM = {'1': 'one', '13': 'thirteen', '3d': '3d', '10': 'ten', '15': 'fifteen', '315': 'three fifteen', '350': 'three fifty', '3:15': 'three fifteen', '3:50': 'three fifty', '6': 'six', '8': 'eight', '8?': 'eight'}
     heard_w = ' '.join(NUM.get(w.strip('.,'), w) for w in heard.split())
     ok = norm(heard_w) == norm(exp); allok &= ok
     print(f'{i} placed {t:5.2f}s  heard [{a + ws[0].start:5.2f}..{a + ws[-1].end:5.2f}]  {"MATCH" if ok else "DIFF"}: {heard}')
     if not ok: print(f'   expected: {exp}')
     for w in ws:
         mid = a + (w.start + w.end) / 2; cap = [c for c in caps if c[0] <= mid < c[1]]
-        tok = norm({'6': 'six', '8': 'eight', '8?': 'eight'}.get(w.word.strip(), w.word))
-        if not cap or not all(k in norm(cap[0][2]) for k in tok): bad.append((round(mid, 2), w.word.strip(), cap[0][2] if cap else None))
+        toks = (norm(w.word), norm(NUM.get(w.word.strip().strip('.,?'), w.word)))   # raw ("13") or spelled ("one")
+        if not cap or not any(all(k in norm(cap[0][2]) for k in tok) for tok in toks): bad.append((round(mid, 2), w.word.strip(), cap[0][2] if cap else None))
 print('all lines match script:', allok)
 print('words outside a caption that shows them:', bad if bad else 'none')

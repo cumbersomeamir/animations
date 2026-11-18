@@ -271,3 +271,16 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Proposed topic (object removal) repeats hindi03-01 for the fourth time → replaced by Samsung Galaxy moon photos (scene
   recognition + multi-frame + deep-learning detail; documented picture-vs-real confusion; Scene Optimizer off).
 
+
+## Batch 2026-11-17-english-20 (batch20) — rules as before + latest LIVE feedback
+- Feedback (LIVE, Satisfied? = Yes): CTA "Download the Ideaverse app." (kept), icon re-checked against the live Play listing
+  each episode (unchanged), and no "obvious how to use AI" or "good to know but nothing special" topics → each episode needs a
+  non-obvious mechanism plus a surprising, checkable consequence and a concrete decision.
+- Proposed topic (handwritten shopping list from a photo) repeats english07-01 → replaced by Face ID's look-alike caveat
+  (published 1-in-a-million odds do not hold for twins/siblings/kids under 13; worse with mask mode; passcode or mask off).
+- QA lesson: a caption must start before the ASR start of its first word, not on it (boundary 10.08 s, not 10.15 s).
+
+## Batch 2026-11-18-english-21 (batch21) — rules as before
+- Proposed topic (an AI voice clone can copy a loved one but not prove who is calling) repeats english12-01 → replaced by
+  invisible AI watermarks (SynthID): hidden in the pixels, found by a jointly trained model after edits, checked by Gemini;
+  the trap — no mark only rules out Google's AI — and the payoff: find where the photo first appeared.

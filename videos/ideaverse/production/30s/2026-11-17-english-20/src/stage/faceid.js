@@ -189,7 +189,7 @@ const bg = (g, w, h, col) => { g.fillStyle = col; g.fillRect(0, 0, w, h - 1); g.
 const NB = 14, VEC = (() => { const r = mulberry(31); return Array.from({ length: NB }, () => 0.25 + 0.7 * r()); })();
 const NOWV = VEC.map((v, i) => v + 0.025 * Math.sin(i * 2.3)), TWINV = VEC.map((v, i) => v + 0.06 * Math.sin(i * 1.7 + 1));
 let cardKey = '';
-function cardState(t) { return { bars: q20(inv(Hh.bars[0], Hh.bars[1], t)), cmp: q20(E.inOutCubic(inv(Hh.compare[0], Hh.compare[1], t))), ok: q20(inv(Hh.match, Hh.match + 0.25, t)),
+function cardState(t) { return { on: t >= Hh.cut2 ? 1 : 0, bars: q20(inv(Hh.bars[0], Hh.bars[1], t)), cmp: q20(E.inOutCubic(inv(Hh.compare[0], Hh.compare[1], t))), ok: q20(inv(Hh.match, Hh.match + 0.25, t)),
   twin: q20(inv(Hh.twinRow[0], Hh.twinRow[1], t)), close: q20(inv(Hh.close, Hh.close + 0.25, t)), chips: Hh.chips.map((c) => q20(inv(c, c + 0.3, t))) }; }
 function barRow(g, y, vec, col, a, label, h = 110) {
   g.save(); g.globalAlpha = a; g.fillStyle = 'rgba(244,247,251,0.75)'; g.font = `800 26px ${HI}`; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText(label, 48, y - h - 26);
@@ -198,7 +198,7 @@ function barRow(g, y, vec, col, a, label, h = 110) {
 }
 function drawCard(g, s) {
   bg(g, NW, NH, '#0E1424');
-  if (!(s.bars > 0)) { g.fillStyle = 'rgba(244,247,251,0.2)'; g.font = `800 30px ${HI}`; g.textAlign = 'center'; g.fillText('· · ·', NW / 2, 400); return; }
+  if (!s.on) { g.fillStyle = 'rgba(244,247,251,0.2)'; g.font = `800 30px ${HI}`; g.textAlign = 'center'; g.fillText('· · ·', NW / 2, 400); return; }
   const yS = 250, yN = lerp(400, 250, s.cmp);
   barRow(g, yS, VEC, P.mint, 1, 'SAVED (YOU)');
   barRow(g, yN, NOWV, 'rgba(244,247,251,0.75)', s.bars, s.cmp > 0.5 ? '' : 'NOW');
@@ -327,6 +327,7 @@ function stageAt(t) {
   solveArm(0, p, on ? onPhone(-0.19, -0.06, 0) : null, on ? 1 : 0); solveArm(1, p, on ? onPhone(0.19, -0.06, 0) : null, on ? 1 : 0);
   scene.updateMatrixWorld(true);
   const cardShot = t >= Hh.cut2 && t < Hh.cut3; busts.forEach((b) => { b.grp.visible = !cardShot; });
+  board.visible = !(t >= Hh.cut3 && t < Hh.cut4);                                      // the mask shot: no card behind the bust
   // the twin lights up on "Your twin's?"
   const tw = t < Hh.cut1 ? clamp(inv(Hh.twin, Hh.twin + 0.3, t)) : 0; busts[1].head.material.emissive.set(AMBER); busts[1].head.material.emissiveIntensity = 0.25 * tw;
   // scan: phone in front of bust A, beam, depth colours, dots, mask

@@ -198,3 +198,17 @@
 - Frames: 900 in 1147 s (3 workers) + re-render 291–340 (shots start at the cut); score re-mixed.
 - Checks: full decode OK; ASR all 7 lines MATCH; caption SPEC PASS; 24 earlier MP4s unchanged. Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-20 (2026-11-17 batch20, worked 2026-11-18) — DELIVERED
+- Proposed handwritten-list topic = repeat of english07-01 → Face ID odds for look-alikes (record context/35).
+  production/30s/2026-11-17-english-20/ideaverse-30s-english20-01.mp4 (sha256 089ada07…5b39) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1432 s (3 workers) + re-renders 297–312, 597–659, 303–325 (see QA.md).
+- Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS; 25 earlier MP4s unchanged.
+  Icon re-checked (unchanged). ASR checker: "1" → "one" + digit-or-word caption test (also copied to english-21).
+
+---
+# CURRENT — english-21 (2026-11-18, batch21) — IN PROGRESS
+- Proposed voice-clone topic = repeat of english12-01 → SynthID invisible watermarks / "no mark ≠ real" (record context/36).
+- Stage src/stage/synthid.js; narration ASR-verified; score written; frames rendered (900); next: encode, caplog, thumb,
+  mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
