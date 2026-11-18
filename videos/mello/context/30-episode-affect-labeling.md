@@ -87,3 +87,15 @@ How the script uses them (measured / reported / advice / illustrative):
 - **S5, 14.4–17.85:** a translucent brain. A "anxious" tag appears, and the gold amygdala glow dims; "amygdala" label below.
 - **S6, 17.85–22.6:** he lowers the phone and puts a hand to his chest; a gold "I feel anxious" tag appears by the storm.
 - **S7, 22.6–30:** wider. The storm stays but is smaller, rounder and lilac. Lock-up from 26.3 s.
+
+## Result
+- Final (render 3): `videos/mello/production/30s/2026-11-17-english-20/mello-30s-english20-01.mp4`
+  - sha256 `edd65fef19664df77080972df35ab73cb4c2ca762b06e7cb8ba488481ec9e3fc`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 (`production/30s/2026-11-17-english-20/qa/QA.md`):
+  - full decode clean; −16.1 LUFS, −1.5 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- Render 1 failed safe zones and one cut. Render 2 passed but hid part of the payoff tag. Both were fixed.
+- No listen-through (ASR and measurements only).

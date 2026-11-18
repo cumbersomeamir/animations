@@ -1,0 +1,66 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Does naming a feeling help? Many people expect it to make things worse. But in studies, putting feelings into words while viewing upsetting images lowered reported distress. It worked about as well as reframing or distraction. Brain scans showed less amygdala activity, too. So when a tense message lands, pause and name it: I feel anxious. The feeling stays, but often a little softer. Take a mindful break with Mello.",
+  "transcript": "Does naming a feeling help? Many people expect it to make things worse. But in studies, putting feelings into words while viewing upsetting images lowered reported distress. It worked about as well as reframing or distraction. Brain scans showed less amygdala activity, too. So when a tense message lands, pause and name it, I feel anxious. The feeling stays, but often a little softer. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.451,
+      "text": "Does naming a feeling help?",
+      "cer": 0.0
+    },
+    {
+      "id": "expect",
+      "start": 1.9,
+      "end": 4.145,
+      "text": "Many people expect it to make things worse.",
+      "cer": 0.0
+    },
+    {
+      "id": "study",
+      "start": 4.55,
+      "end": 10.543,
+      "text": "But in studies, putting feelings into words while viewing upsetting images lowered reported distress.",
+      "cer": 0.0
+    },
+    {
+      "id": "compare",
+      "start": 11.0,
+      "end": 13.751,
+      "text": "It worked about as well as reframing or distraction.",
+      "cer": 0.0
+    },
+    {
+      "id": "brain",
+      "start": 14.6,
+      "end": 17.404,
+      "text": "Brain scans showed less amygdala activity, too.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 18.2,
+      "end": 22.118,
+      "text": "So when a tense message lands, pause and name it, I feel anxious.",
+      "cer": 0.0
+    },
+    {
+      "id": "qual",
+      "start": 22.8,
+      "end": 25.238,
+      "text": "The feeling stays, but often a little softer.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

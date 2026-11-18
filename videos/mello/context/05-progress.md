@@ -727,3 +727,62 @@ Episode record: `29-episode-fresh-start-effect.md`. Durable rules: `10-format-an
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-20, 2026-11-17/18: episode english20-01 "does naming a feeling help?" (affect labeling, English)
+Episode record: `30-episode-affect-labeling.md`. Live feedback for this app ("No, match the colors of the published app, soothing audio also add") is applied explicitly: the store-sampled palette (`22`) and an original soothing bed about 13 dB under the voice.
+
+## Verified facts (this round)
+- Topic as requested. It is distinct from feedback-01's cognitive defusion of a thought (`11`): this is putting a feeling into words.
+- Sources (PubMed abstracts):
+  - Lieberman et al. 2011 (*Emotion*, PMID 21534661): labeling lowered self-reported distress vs passive watching, similar to reappraisal and distraction. People predicted it would increase distress.
+  - Lieberman et al. 2007 (*Psych Sci*, PMID 17576282): labeling diminished the amygdala response.
+  - Kircanski et al. 2012: mixed results; background only.
+
+## Creative decisions (this round)
+- English only, 70 words. Frame 0: a spiky storm over him and "We need to talk."; caption "Does naming / a feeling help?".
+- A ghost storm for "worse?"; two direction-only cards; a brain whose amygdala glow dims; the "I feel anxious" tag; the storm softens but stays.
+- `BED_GAIN` 0.37 (13.1 dB). Thumbnail "DOES NAMING HELP?".
+
+## Completed (this round)
+- Render 1 failed 2 checks (the message screen in the right rail in S2; the card fade-out softening the S4→S5 cut). Render 2 passed but hid part of the payoff tag. Render 3 is final.
+- Final: `videos/mello/production/30s/2026-11-17-english-20/mello-30s-english20-01.mp4`
+  - sha256 `edd65fef19664df77080972df35ab73cb4c2ca762b06e7cb8ba488481ec9e3fc`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed (`production/30s/2026-11-17-english-20/qa/QA.md`):
+  - full decode clean; −16.1 LUFS, −1.5 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through. The video-review folder is not reachable from this cloud session.
+
+# English-21, 2026-11-18: episode english21-01 "keep good news to yourself?" (capitalization, English)
+Episode record: `31-episode-sharing-good-news.md`. The same live feedback is applied (store palette + soothing bed).
+
+## Verified facts (this round)
+- The proposed topic (an unfinished task interrupting the evening + a next-action plan; Zeigarnik vs plan evidence) is english12-01 (`22`), and was swapped out twice since. A genuinely different evening insight was chosen: sharing good news (capitalization).
+- Sources (PubMed abstracts):
+  - Gable et al. 2004 (*JPSP*, PMID 15301629): sharing was associated with more daily positive affect beyond the event itself; active-constructive responses enhanced this.
+  - Reis et al. 2010 (*JPSP*, PMID 20658846): in 4 experiments, sharing increased the perceived value of good news, especially with enthusiastic responses.
+
+## Creative decisions (this round)
+- English only, 66 words. Frame 0: him holding a small gold orb by the closed laptop while his friend looks at her phone; caption "Keep good news / to yourself?".
+- The orb grows when shared, most with her enthusiasm. A diary card (kept vs shared, direction only). The roles swap: he responds with real interest.
+- `BED_GAIN` 0.44 (13.1 dB). Thumbnail "KEEP GOOD NEWS QUIET?".
+
+## Completed (this round)
+- Final: `videos/mello/production/30s/2026-11-18-english-21/mello-30s-english21-01.mp4`
+  - sha256 `9ca227ded90f1a900665a0c31c407131c420591a945179d930e1576bd27ea682`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 checks passed on the first full render (`production/30s/2026-11-18-english-21/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.6 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues;
+  - English ASR CER 0.000 / WER 0.000.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.
