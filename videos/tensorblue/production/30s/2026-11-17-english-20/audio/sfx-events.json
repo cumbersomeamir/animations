@@ -1,0 +1,235 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 1.668,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 3.048,
+   "type": "wipe"
+  },
+  {
+   "t": 3.509,
+   "type": "hop"
+  },
+  {
+   "t": 3.847,
+   "type": "hop"
+  },
+  {
+   "t": 4.683,
+   "type": "wipe"
+  },
+  {
+   "t": 4.703,
+   "type": "rewind"
+  },
+  {
+   "t": 5.226,
+   "type": "pop"
+  },
+  {
+   "t": 5.938,
+   "type": "hop"
+  },
+  {
+   "t": 6.288,
+   "type": "fall"
+  },
+  {
+   "t": 6.996,
+   "type": "wipe"
+  },
+  {
+   "t": 7.05,
+   "type": "hop"
+  },
+  {
+   "t": 7.35,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 7.6,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 7.8,
+   "type": "stamp"
+  },
+  {
+   "t": 8.363,
+   "type": "tap"
+  },
+  {
+   "t": 10.925,
+   "type": "slot"
+  },
+  {
+   "t": 11.838,
+   "type": "clack"
+  },
+  {
+   "t": 12.852,
+   "type": "wipe"
+  },
+  {
+   "t": 13.317,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 13.504,
+   "type": "hop"
+  },
+  {
+   "t": 14.154,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 15.867,
+   "type": "match"
+  },
+  {
+   "t": 16.067,
+   "type": "unpop"
+  },
+  {
+   "t": 17.199,
+   "type": "wipe"
+  },
+  {
+   "t": 17.665,
+   "type": "fall",
+   "soft": true
+  },
+  {
+   "t": 17.908,
+   "type": "fall",
+   "soft": true
+  },
+  {
+   "t": 18.273,
+   "type": "fall",
+   "soft": true
+  },
+  {
+   "t": 18.64,
+   "type": "fall",
+   "soft": true
+  },
+  {
+   "t": 19.819,
+   "type": "reject"
+  },
+  {
+   "t": 20.61,
+   "type": "fall",
+   "soft": true
+  },
+  {
+   "t": 21.782,
+   "type": "match"
+  },
+  {
+   "t": 22.452,
+   "type": "wipe"
+  },
+  {
+   "t": 23.665,
+   "type": "type"
+  },
+  {
+   "t": 25.562,
+   "type": "type"
+  },
+  {
+   "t": 26.558,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.179,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "gray": 0.343,
+  "tick1": 0.618,
+  "two1": 1.081,
+  "where": 1.668,
+  "now": 2.568,
+  "each": 3.188,
+  "marks": 3.609,
+  "handoff": 3.897,
+  "clock": 4.851,
+  "still": 5.326,
+  "phone3": 5.763,
+  "not3": 6.088,
+  "sent3": 6.301,
+  "one4": 7.15,
+  "sent4": 7.813,
+  "friend": 8.2,
+  "offline": 8.475,
+  "whatsapps": 9.538,
+  "keep": 10.475,
+  "encrypted": 10.975,
+  "up": 11.538,
+  "thirty": 11.838,
+  "phone5": 12.967,
+  "on5": 13.467,
+  "two5": 14.054,
+  "delivered5": 14.867,
+  "and5": 15.454,
+  "server5": 15.654,
+  "deletes": 16.067,
+  "copy": 16.567,
+  "our": 17.339,
+  "send6": 18.569,
+  "three": 19.819,
+  "twenty1": 20.132,
+  "saf": 20.769,
+  "all": 21.594,
+  "twenty2": 21.782,
+  "building": 22.612,
+  "hold": 23.745,
+  "until": 24.795,
+  "next": 25.107,
+  "confirms": 25.682,
+  "follow": 27,
+  "tb": 27.279,
+  "chime": 26.558,
+  "scenes": [
+   0,
+   3.048,
+   4.683000000000001,
+   6.996,
+   12.852,
+   17.198999999999998,
+   22.451999999999998,
+   26.6,
+   30.01
+  ]
+ }
+}

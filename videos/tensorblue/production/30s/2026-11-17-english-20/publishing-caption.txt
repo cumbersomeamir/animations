@@ -1,0 +1,18 @@
+One gray tick, not two. Where's your message right now?
+
+Each tick marks a hand-off. A clock: still on your phone, not sent yet. One tick: sent. Friend offline? WhatsApp's servers keep it, encrypted, up to thirty days. Phone back on? Two ticks: delivered, and the server deletes its copy.
+
+Our bad-link test: send-once delivered three of twenty; store-and-forward, all twenty. Building chat? Hold every message until the next stop confirms it.
+
+Our test is a small model we wrote (not WhatsApp's code) on real network sockets on one computer: 20 messages over a link set to drop about a third of packets, to a friend whose phone was off at first. Sending each message once with nowhere to keep it, 3 of 20 arrived. When the phone kept each message until the server confirmed it, and the server kept it until the friend's phone confirmed it, all 20 arrived and the server held no copies at the end.
+
+Sources:
+- WhatsApp Help Center, How to check read receipts: https://faq.whatsapp.com/665923838265756
+- WhatsApp Privacy Policy (undelivered and delivered messages): https://www.whatsapp.com/legal/privacy-policy
+- XMPP Standards Foundation, XEP-0198 Stream Management (acknowledgements; unacknowledged stanzas stay the sender's responsibility): https://xmpp.org/extensions/xep-0198.html
+- XMPP Standards Foundation, XEP-0184 Message Delivery Receipts: https://xmpp.org/extensions/xep-0184.html
+- RFC 5321, Simple Mail Transfer Protocol, section 6.1 (a server that accepts a message takes responsibility for it): https://www.rfc-editor.org/rfc/rfc5321.txt
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #SystemDesign #SoftwareExplained

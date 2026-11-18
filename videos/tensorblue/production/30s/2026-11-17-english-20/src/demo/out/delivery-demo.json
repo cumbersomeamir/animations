@@ -1,0 +1,2098 @@
+{
+ "what": "Our own model on real UDP sockets (127.0.0.1); not WhatsApp code. Bad link drops ~1/3 of packets both ways (hash-decided).",
+ "params": {
+  "messages": 20,
+  "gap_s": 0.05,
+  "friend_phone_on_at_s": 0.6,
+  "resend_timeout_s": 0.12,
+  "drop_pct": 33
+ },
+ "python": "3.13.18",
+ "send_once": {
+  "design": "send_once",
+  "sent": 20,
+  "friend_received": 3,
+  "friend_received_ids": [
+   14,
+   16,
+   18
+  ],
+  "lost": 17,
+  "lost_on_link_first_try": [
+   0,
+   2,
+   3,
+   9,
+   10,
+   12,
+   13,
+   15,
+   17,
+   19
+  ],
+  "lost_ids": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   15,
+   17,
+   19
+  ],
+  "send_attempts": 20,
+  "packets_dropped_by_link": 10,
+  "server_nowhere_to_keep": [
+   1,
+   4,
+   5,
+   6,
+   7,
+   8,
+   11
+  ],
+  "server_max_held": 0,
+  "server_copies_at_end": 0,
+  "duplicates_shown_to_friend": 0,
+  "final_ticks": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "events": [
+   {
+    "t": 0.0004,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 0
+   },
+   {
+    "t": 0.0005,
+    "who": "link",
+    "what": "dropped",
+    "id": 0,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.0509,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 1
+   },
+   {
+    "t": 0.0511,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 1
+   },
+   {
+    "t": 0.1016,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 2
+   },
+   {
+    "t": 0.1017,
+    "who": "link",
+    "what": "dropped",
+    "id": 2,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.1521,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 3
+   },
+   {
+    "t": 0.1522,
+    "who": "link",
+    "what": "dropped",
+    "id": 3,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.2026,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 4
+   },
+   {
+    "t": 0.2029,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 4
+   },
+   {
+    "t": 0.2533,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.2535,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 5
+   },
+   {
+    "t": 0.3039,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.3041,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 6
+   },
+   {
+    "t": 0.3545,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 7
+   },
+   {
+    "t": 0.3547,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 7
+   },
+   {
+    "t": 0.4051,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 8
+   },
+   {
+    "t": 0.4053,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 8
+   },
+   {
+    "t": 0.4557,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 9
+   },
+   {
+    "t": 0.4559,
+    "who": "link",
+    "what": "dropped",
+    "id": 9,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.5063,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 0.5064,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.5568,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 11
+   },
+   {
+    "t": 0.5571,
+    "who": "server",
+    "what": "nowhere_to_keep",
+    "id": 11
+   },
+   {
+    "t": 0.6075,
+    "who": "friend",
+    "what": "phone_on",
+    "id": null
+   },
+   {
+    "t": 0.6076,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 0.6077,
+    "who": "link",
+    "what": "dropped",
+    "id": 12,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.6581,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 13
+   },
+   {
+    "t": 0.6583,
+    "who": "link",
+    "what": "dropped",
+    "id": 13,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.7088,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 14
+   },
+   {
+    "t": 0.709,
+    "who": "server",
+    "what": "forwarded",
+    "id": 14
+   },
+   {
+    "t": 0.709,
+    "who": "friend",
+    "what": "received",
+    "id": 14
+   },
+   {
+    "t": 0.7595,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 15
+   },
+   {
+    "t": 0.7596,
+    "who": "link",
+    "what": "dropped",
+    "id": 15,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.81,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 16
+   },
+   {
+    "t": 0.8102,
+    "who": "server",
+    "what": "forwarded",
+    "id": 16
+   },
+   {
+    "t": 0.8103,
+    "who": "friend",
+    "what": "received",
+    "id": 16
+   },
+   {
+    "t": 0.8607,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 17
+   },
+   {
+    "t": 0.8608,
+    "who": "link",
+    "what": "dropped",
+    "id": 17,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.921,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 18
+   },
+   {
+    "t": 0.9212,
+    "who": "server",
+    "what": "forwarded",
+    "id": 18
+   },
+   {
+    "t": 0.9212,
+    "who": "friend",
+    "what": "received",
+    "id": 18
+   },
+   {
+    "t": 0.9716,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 19
+   },
+   {
+    "t": 0.9718,
+    "who": "link",
+    "what": "dropped",
+    "id": 19,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   }
+  ]
+ },
+ "store_and_forward": {
+  "design": "store_and_forward",
+  "sent": 20,
+  "friend_received": 20,
+  "friend_received_ids": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "lost": 0,
+  "lost_on_link_first_try": [
+   0,
+   2,
+   3,
+   9,
+   10,
+   12,
+   13,
+   15,
+   17,
+   19
+  ],
+  "lost_ids": [],
+  "send_attempts": 57,
+  "packets_dropped_by_link": 56,
+  "server_nowhere_to_keep": [],
+  "server_max_held": 19,
+  "server_copies_at_end": 0,
+  "duplicates_shown_to_friend": 0,
+  "final_ticks": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "events": [
+   {
+    "t": 0.0004,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 0
+   },
+   {
+    "t": 0.0005,
+    "who": "link",
+    "what": "dropped",
+    "id": 0,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.0509,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 1
+   },
+   {
+    "t": 0.0512,
+    "who": "server",
+    "what": "stored",
+    "id": 1,
+    "held": 1
+   },
+   {
+    "t": 0.0512,
+    "who": "link",
+    "what": "dropped",
+    "id": 1,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.1016,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 2
+   },
+   {
+    "t": 0.1018,
+    "who": "link",
+    "what": "dropped",
+    "id": 2,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.1523,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 0
+   },
+   {
+    "t": 0.1523,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 3
+   },
+   {
+    "t": 0.1525,
+    "who": "link",
+    "what": "dropped",
+    "id": 3,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.1525,
+    "who": "server",
+    "what": "stored",
+    "id": 0,
+    "held": 2
+   },
+   {
+    "t": 0.1525,
+    "who": "link",
+    "what": "dropped",
+    "id": 0,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.203,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 1
+   },
+   {
+    "t": 0.2031,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 4
+   },
+   {
+    "t": 0.2033,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 1
+   },
+   {
+    "t": 0.2034,
+    "who": "server",
+    "what": "stored",
+    "id": 4,
+    "held": 3
+   },
+   {
+    "t": 0.2034,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 1
+   },
+   {
+    "t": 0.2034,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 4
+   },
+   {
+    "t": 0.2539,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 2
+   },
+   {
+    "t": 0.2539,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.2541,
+    "who": "link",
+    "what": "dropped",
+    "id": 2,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 2
+   },
+   {
+    "t": 0.2542,
+    "who": "server",
+    "what": "stored",
+    "id": 5,
+    "held": 4
+   },
+   {
+    "t": 0.2542,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.3046,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 0
+   },
+   {
+    "t": 0.3046,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 3
+   },
+   {
+    "t": 0.3046,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.3049,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 0
+   },
+   {
+    "t": 0.3049,
+    "who": "server",
+    "what": "stored",
+    "id": 3,
+    "held": 5
+   },
+   {
+    "t": 0.3049,
+    "who": "link",
+    "what": "dropped",
+    "id": 0,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 0.305,
+    "who": "server",
+    "what": "stored",
+    "id": 6,
+    "held": 6
+   },
+   {
+    "t": 0.305,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.305,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 3
+   },
+   {
+    "t": 0.3558,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 7
+   },
+   {
+    "t": 0.356,
+    "who": "server",
+    "what": "stored",
+    "id": 7,
+    "held": 7
+   },
+   {
+    "t": 0.3561,
+    "who": "link",
+    "what": "dropped",
+    "id": 7,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.4066,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 2
+   },
+   {
+    "t": 0.4066,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.4066,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 8
+   },
+   {
+    "t": 0.4068,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 2
+   },
+   {
+    "t": 0.4068,
+    "who": "server",
+    "what": "stored",
+    "id": 2,
+    "held": 8
+   },
+   {
+    "t": 0.4069,
+    "who": "server",
+    "what": "stored",
+    "id": 8,
+    "held": 9
+   },
+   {
+    "t": 0.407,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 2
+   },
+   {
+    "t": 0.407,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 8
+   },
+   {
+    "t": 0.4574,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 0
+   },
+   {
+    "t": 0.4574,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.4575,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 9
+   },
+   {
+    "t": 0.4577,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 2
+   },
+   {
+    "t": 0.4577,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 0
+   },
+   {
+    "t": 0.4578,
+    "who": "link",
+    "what": "dropped",
+    "id": 9,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.4578,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 0
+   },
+   {
+    "t": 0.5082,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 7
+   },
+   {
+    "t": 0.5083,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 0.5085,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.5085,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 7
+   },
+   {
+    "t": 0.5085,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 7
+   },
+   {
+    "t": 0.559,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.559,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 11
+   },
+   {
+    "t": 0.5592,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 3
+   },
+   {
+    "t": 0.5593,
+    "who": "server",
+    "what": "stored",
+    "id": 11,
+    "held": 10
+   },
+   {
+    "t": 0.5593,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 11
+   },
+   {
+    "t": 0.6099,
+    "who": "friend",
+    "what": "phone_on",
+    "id": null
+   },
+   {
+    "t": 0.61,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.61,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 9
+   },
+   {
+    "t": 0.61,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 0.6102,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 6
+   },
+   {
+    "t": 0.6103,
+    "who": "link",
+    "what": "dropped",
+    "id": 12,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.6103,
+    "who": "server",
+    "what": "stored",
+    "id": 9,
+    "held": 11
+   },
+   {
+    "t": 0.6103,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 0.6104,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 9
+   },
+   {
+    "t": 0.6608,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 0.6608,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 13
+   },
+   {
+    "t": 0.661,
+    "who": "link",
+    "what": "dropped",
+    "id": 13,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.661,
+    "who": "server",
+    "what": "stored",
+    "id": 10,
+    "held": 12
+   },
+   {
+    "t": 0.6611,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.7118,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.7118,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 14
+   },
+   {
+    "t": 0.712,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 4
+   },
+   {
+    "t": 0.7121,
+    "who": "server",
+    "what": "stored",
+    "id": 14,
+    "held": 13
+   },
+   {
+    "t": 0.7121,
+    "who": "link",
+    "what": "dropped",
+    "id": 14,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.7625,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.7625,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 0.7625,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 15
+   },
+   {
+    "t": 0.7626,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 4
+   },
+   {
+    "t": 0.7627,
+    "who": "link",
+    "what": "dropped",
+    "id": 15,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.7627,
+    "who": "server",
+    "what": "stored",
+    "id": 12,
+    "held": 14
+   },
+   {
+    "t": 0.7628,
+    "who": "link",
+    "what": "dropped",
+    "id": 12,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.8132,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 0.8132,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 13
+   },
+   {
+    "t": 0.8132,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 16
+   },
+   {
+    "t": 0.8134,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 3
+   },
+   {
+    "t": 0.8135,
+    "who": "server",
+    "what": "stored",
+    "id": 13,
+    "held": 15
+   },
+   {
+    "t": 0.8135,
+    "who": "server",
+    "what": "stored",
+    "id": 16,
+    "held": 16
+   },
+   {
+    "t": 0.8136,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 13
+   },
+   {
+    "t": 0.8136,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 16
+   },
+   {
+    "t": 0.864,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 5
+   },
+   {
+    "t": 0.8641,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 14
+   },
+   {
+    "t": 0.8641,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 17
+   },
+   {
+    "t": 0.8643,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 5
+   },
+   {
+    "t": 0.8644,
+    "who": "link",
+    "what": "dropped",
+    "id": 17,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.8644,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 14
+   },
+   {
+    "t": 0.8644,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 5
+   },
+   {
+    "t": 0.8645,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 14
+   },
+   {
+    "t": 0.9148,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 0.9148,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 0.9148,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 15
+   },
+   {
+    "t": 0.9148,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 18
+   },
+   {
+    "t": 0.915,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 5
+   },
+   {
+    "t": 0.9151,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 12
+   },
+   {
+    "t": 0.9152,
+    "who": "server",
+    "what": "stored",
+    "id": 15,
+    "held": 17
+   },
+   {
+    "t": 0.9152,
+    "who": "link",
+    "what": "dropped",
+    "id": 12,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 0.9152,
+    "who": "server",
+    "what": "stored",
+    "id": 18,
+    "held": 18
+   },
+   {
+    "t": 0.9153,
+    "who": "link",
+    "what": "dropped",
+    "id": 15,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 0.9153,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 18
+   },
+   {
+    "t": 0.9659,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 0.9659,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 19
+   },
+   {
+    "t": 0.9662,
+    "who": "link",
+    "what": "dropped",
+    "id": 19,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 0.9662,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 10
+   },
+   {
+    "t": 0.9663,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 1.0167,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 17
+   },
+   {
+    "t": 1.0169,
+    "who": "server",
+    "what": "stored",
+    "id": 17,
+    "held": 19
+   },
+   {
+    "t": 1.0169,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 17
+   },
+   {
+    "t": 1.0373,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 1.0373,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 1.0373,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 15
+   },
+   {
+    "t": 1.0376,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 6
+   },
+   {
+    "t": 1.0376,
+    "who": "friend",
+    "what": "received",
+    "id": 0
+   },
+   {
+    "t": 1.0376,
+    "who": "link",
+    "what": "dropped",
+    "id": 12,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 4
+   },
+   {
+    "t": 1.0377,
+    "who": "friend",
+    "what": "received",
+    "id": 1
+   },
+   {
+    "t": 1.0377,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 0,
+    "held": 18
+   },
+   {
+    "t": 1.0378,
+    "who": "friend",
+    "what": "received",
+    "id": 2
+   },
+   {
+    "t": 1.0378,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 1,
+    "held": 17
+   },
+   {
+    "t": 1.0378,
+    "who": "friend",
+    "what": "received",
+    "id": 3
+   },
+   {
+    "t": 1.0379,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 15
+   },
+   {
+    "t": 1.0379,
+    "who": "friend",
+    "what": "received",
+    "id": 4
+   },
+   {
+    "t": 1.0379,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 2,
+    "held": 16
+   },
+   {
+    "t": 1.0379,
+    "who": "friend",
+    "what": "received",
+    "id": 5
+   },
+   {
+    "t": 1.038,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 3,
+    "held": 15
+   },
+   {
+    "t": 1.038,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 15
+   },
+   {
+    "t": 1.038,
+    "who": "friend",
+    "what": "received",
+    "id": 6
+   },
+   {
+    "t": 1.038,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 4,
+    "held": 14
+   },
+   {
+    "t": 1.038,
+    "who": "friend",
+    "what": "received",
+    "id": 7
+   },
+   {
+    "t": 1.038,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 5,
+    "held": 13
+   },
+   {
+    "t": 1.0381,
+    "who": "friend",
+    "what": "received",
+    "id": 8
+   },
+   {
+    "t": 1.0381,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 6,
+    "held": 12
+   },
+   {
+    "t": 1.0381,
+    "who": "friend",
+    "what": "received",
+    "id": 9
+   },
+   {
+    "t": 1.0381,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 7,
+    "held": 11
+   },
+   {
+    "t": 1.0382,
+    "who": "friend",
+    "what": "received",
+    "id": 10
+   },
+   {
+    "t": 1.0382,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 8,
+    "held": 10
+   },
+   {
+    "t": 1.0382,
+    "who": "friend",
+    "what": "received",
+    "id": 11
+   },
+   {
+    "t": 1.0382,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 9,
+    "held": 9
+   },
+   {
+    "t": 1.0382,
+    "who": "friend",
+    "what": "received",
+    "id": 12
+   },
+   {
+    "t": 1.0382,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 10,
+    "held": 8
+   },
+   {
+    "t": 1.0383,
+    "who": "friend",
+    "what": "received",
+    "id": 13
+   },
+   {
+    "t": 1.0383,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 11,
+    "held": 7
+   },
+   {
+    "t": 1.0383,
+    "who": "friend",
+    "what": "received",
+    "id": 14
+   },
+   {
+    "t": 1.0383,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 12,
+    "held": 6
+   },
+   {
+    "t": 1.0383,
+    "who": "friend",
+    "what": "received",
+    "id": 15
+   },
+   {
+    "t": 1.0383,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 13,
+    "held": 5
+   },
+   {
+    "t": 1.0384,
+    "who": "friend",
+    "what": "received",
+    "id": 16
+   },
+   {
+    "t": 1.0384,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 14,
+    "held": 4
+   },
+   {
+    "t": 1.0384,
+    "who": "friend",
+    "what": "received",
+    "id": 17
+   },
+   {
+    "t": 1.0384,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 15,
+    "held": 3
+   },
+   {
+    "t": 1.0384,
+    "who": "friend",
+    "what": "received",
+    "id": 18
+   },
+   {
+    "t": 1.0384,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 16,
+    "held": 2
+   },
+   {
+    "t": 1.0384,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 17,
+    "held": 1
+   },
+   {
+    "t": 1.0385,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 18,
+    "held": 0
+   },
+   {
+    "t": 1.0581,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 0
+   },
+   {
+    "t": 1.0582,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 1
+   },
+   {
+    "t": 1.0582,
+    "who": "link",
+    "what": "dropped",
+    "id": 0,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.0583,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 2
+   },
+   {
+    "t": 1.0583,
+    "who": "link",
+    "what": "dropped",
+    "id": 4,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 1.0583,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 3
+   },
+   {
+    "t": 1.0584,
+    "who": "link",
+    "what": "dropped",
+    "id": 2,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.0584,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 1.0585,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 5
+   },
+   {
+    "t": 1.0585,
+    "who": "link",
+    "what": "dropped",
+    "id": 7,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 1.0585,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.0586,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 8
+   },
+   {
+    "t": 1.0586,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 1
+   },
+   {
+    "t": 1.0586,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 9
+   },
+   {
+    "t": 1.0586,
+    "who": "link",
+    "what": "dropped",
+    "id": 9,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.0587,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 11
+   },
+   {
+    "t": 1.0587,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 12
+   },
+   {
+    "t": 1.0588,
+    "who": "link",
+    "what": "dropped",
+    "id": 11,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.0588,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 13
+   },
+   {
+    "t": 1.0588,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 14
+   },
+   {
+    "t": 1.0589,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 15
+   },
+   {
+    "t": 1.059,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 16
+   },
+   {
+    "t": 1.059,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 17
+   },
+   {
+    "t": 1.0591,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 18
+   },
+   {
+    "t": 1.0989,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 1.0989,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 19
+   },
+   {
+    "t": 1.0992,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 10
+   },
+   {
+    "t": 1.0992,
+    "who": "server",
+    "what": "stored",
+    "id": 19,
+    "held": 1
+   },
+   {
+    "t": 1.0992,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 3
+   },
+   {
+    "t": 1.0993,
+    "who": "phone",
+    "what": "one_tick",
+    "id": 19
+   },
+   {
+    "t": 1.1242,
+    "who": "friend",
+    "what": "received",
+    "id": 19
+   },
+   {
+    "t": 1.1243,
+    "who": "server",
+    "what": "deleted_copy",
+    "id": 19,
+    "held": 0
+   },
+   {
+    "t": 1.1449,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 19
+   },
+   {
+    "t": 1.1654,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 1.1654,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 12
+   },
+   {
+    "t": 1.1657,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 6
+   },
+   {
+    "t": 1.1658,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 12
+   },
+   {
+    "t": 1.1658,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 3
+   },
+   {
+    "t": 1.1863,
+    "who": "link",
+    "what": "dropped",
+    "id": 2,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 1.1864,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 0
+   },
+   {
+    "t": 1.1865,
+    "who": "link",
+    "what": "dropped",
+    "id": 5,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 1.1865,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 4
+   },
+   {
+    "t": 1.1866,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 6
+   },
+   {
+    "t": 1.1866,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 7
+   },
+   {
+    "t": 1.1867,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.1867,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 9
+   },
+   {
+    "t": 1.1867,
+    "who": "link",
+    "what": "dropped",
+    "id": 11,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 2
+   },
+   {
+    "t": 1.1867,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 10
+   },
+   {
+    "t": 1.1868,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 1
+   },
+   {
+    "t": 1.1869,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 12
+   },
+   {
+    "t": 1.2277,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 1.2279,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "msg",
+    "direction": "up",
+    "attempt": 6
+   },
+   {
+    "t": 1.2888,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 1.289,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 6
+   },
+   {
+    "t": 1.2891,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "ack",
+    "direction": "down",
+    "attempt": 4
+   },
+   {
+    "t": 1.3098,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 2
+   },
+   {
+    "t": 1.3098,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 3
+   },
+   {
+    "t": 1.3098,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 5
+   },
+   {
+    "t": 1.31,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 10
+   },
+   {
+    "t": 1.31,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 11
+   },
+   {
+    "t": 1.3507,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 10
+   },
+   {
+    "t": 1.351,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 10
+   },
+   {
+    "t": 1.3717,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "delivered",
+    "direction": "down",
+    "attempt": 4
+   },
+   {
+    "t": 1.4124,
+    "who": "phone",
+    "what": "sent_attempt",
+    "id": 6
+   },
+   {
+    "t": 1.4127,
+    "who": "server",
+    "what": "duplicate_ignored",
+    "id": 6
+   },
+   {
+    "t": 1.4334,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 6
+   },
+   {
+    "t": 1.4335,
+    "who": "link",
+    "what": "dropped",
+    "id": 6,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 2
+   },
+   {
+    "t": 1.4949,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 10
+   },
+   {
+    "t": 1.4949,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 3
+   },
+   {
+    "t": 1.5564,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 6
+   },
+   {
+    "t": 1.618,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 10
+   },
+   {
+    "t": 1.6181,
+    "who": "link",
+    "what": "dropped",
+    "id": 10,
+    "kind": "delivered_ack",
+    "direction": "up",
+    "attempt": 4
+   },
+   {
+    "t": 1.7404,
+    "who": "phone",
+    "what": "two_ticks",
+    "id": 10
+   }
+  ]
+ }
+}

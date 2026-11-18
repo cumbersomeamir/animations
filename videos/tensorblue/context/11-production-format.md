@@ -167,6 +167,18 @@ Practical system design · useful new GitHub tools · research explained through
   - Tiles carry quality as colour, sharpness and size; height stays 4 s of buffer. The tower's back wall shows the rate-map bands. A red-500 counter shows frozen time live.
   - Notes: `32-production-30s-english19-01.md`.
 
+- **2026-11-18 account move + NEW FEEDBACK (Published apps "Satisfied?", Tensorblue only): "No, content is shit, make it about app development or something cool that some app did in the past, motion graphics lack 3d depth and are not fun at all."** The app moved to a new account (app-isolated continuation, same repo and branch; see `35-continuation-2026-11-18.md`). Standing response from english-20 on:
+  - **Content:** a documented thing a real app did (cited only from its own help, policy or engineering pages), or a practical app-development insight, ending with a payoff an app builder can use. No dry repository or paper diagrams.
+  - **3D depth (`toy3d.mjs`, new):**
+    - every story object is a thick extruded toy with lit side walls and a glossy, textured front;
+    - distance fog and a horizon fade;
+    - stops laid out in a **zigzag into depth** so the vertical frame is filled from near to far;
+    - big foreground objects framing shots, and the camera travelling through space;
+    - no large empty dark areas.
+  - **Fun:** hops with squash-and-stretch; things fall, bounce, pop, scramble and wake up; confirmations fly back as tokens; playful hop/fall/pop SFX. Physical comedy must still explain the mechanism.
+  - **Texture seam:** two clipped texture triangles leave a faint diagonal line, so the first triangle paints the whole face.
+  - english-20 (batch20): how WhatsApp's ticks map a store-and-forward journey. Frame zero **ONE TICK. / WHERE IS IT?**; proof from a real UDP model, send-once 3/20 vs store-and-forward 20/20. Notes: `33-production-30s-english20-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

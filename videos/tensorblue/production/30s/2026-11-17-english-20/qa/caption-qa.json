@@ -1,0 +1,290 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "One gray tick, not two."
+   ],
+   "t0": 0.04,
+   "tEnd": 1.61,
+   "frame": 19,
+   "box": {
+    "x0": 207,
+    "x1": 790,
+    "y0": 403,
+    "y1": 456,
+    "n": 9159
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Where's your message",
+    "right now?"
+   ],
+   "t0": 1.61,
+   "tEnd": 3.13,
+   "frame": 66,
+   "box": {
+    "x0": 201,
+    "x1": 797,
+    "y0": 374,
+    "y1": 488,
+    "n": 14631
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Each tick marks",
+    "a hand-off."
+   ],
+   "t0": 3.13,
+   "tEnd": 4.72,
+   "frame": 112,
+   "box": {
+    "x0": 297,
+    "x1": 704,
+    "y0": 377,
+    "y1": 482,
+    "n": 11353
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A clock: still on your phone,",
+    "not sent yet."
+   ],
+   "t0": 4.72,
+   "tEnd": 7.08,
+   "frame": 160,
+   "box": {
+    "x0": 140,
+    "x1": 856,
+    "y0": 372,
+    "y1": 488,
+    "n": 16118
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "One tick: sent."
+   ],
+   "t0": 7.08,
+   "tEnd": 8.14,
+   "frame": 230,
+   "box": {
+    "x0": 314,
+    "x1": 684,
+    "y0": 409,
+    "y1": 450,
+    "n": 5781
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Friend offline?"
+   ],
+   "t0": 8.14,
+   "tEnd": 9.48,
+   "frame": 262,
+   "box": {
+    "x0": 316,
+    "x1": 684,
+    "y0": 409,
+    "y1": 450,
+    "n": 6293
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "WhatsApp's servers",
+    "keep it, encrypted,"
+   ],
+   "t0": 9.48,
+   "tEnd": 11.48,
+   "frame": 302,
+   "box": {
+    "x0": 235,
+    "x1": 763,
+    "y0": 375,
+    "y1": 488,
+    "n": 17012
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "up to thirty days."
+   ],
+   "t0": 11.48,
+   "tEnd": 12.9,
+   "frame": 362,
+   "box": {
+    "x0": 282,
+    "x1": 716,
+    "y0": 404,
+    "y1": 456,
+    "n": 7009
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Phone back on?"
+   ],
+   "t0": 12.9,
+   "tEnd": 13.99,
+   "frame": 405,
+   "box": {
+    "x0": 296,
+    "x1": 705,
+    "y0": 411,
+    "y1": 449,
+    "n": 6663
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Two ticks: delivered,"
+   ],
+   "t0": 13.99,
+   "tEnd": 15.39,
+   "frame": 438,
+   "box": {
+    "x0": 232,
+    "x1": 764,
+    "y0": 404,
+    "y1": 455,
+    "n": 8563
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and the server",
+    "deletes its copy."
+   ],
+   "t0": 15.39,
+   "tEnd": 17.28,
+   "frame": 480,
+   "box": {
+    "x0": 289,
+    "x1": 708,
+    "y0": 375,
+    "y1": 488,
+    "n": 13066
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Our bad-link test:"
+   ],
+   "t0": 17.28,
+   "tEnd": 18.51,
+   "frame": 536,
+   "box": {
+    "x0": 274,
+    "x1": 723,
+    "y0": 409,
+    "y1": 450,
+    "n": 7378
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "send-once delivered",
+    "three of twenty;"
+   ],
+   "t0": 18.51,
+   "tEnd": 20.71,
+   "frame": 573,
+   "box": {
+    "x0": 232,
+    "x1": 765,
+    "y0": 372,
+    "y1": 488,
+    "n": 15564
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "store-and-forward,",
+    "all twenty."
+   ],
+   "t0": 20.71,
+   "tEnd": 22.55,
+   "frame": 639,
+   "box": {
+    "x0": 250,
+    "x1": 746,
+    "y0": 372,
+    "y1": 488,
+    "n": 12398
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Building chat?"
+   ],
+   "t0": 22.55,
+   "tEnd": 23.69,
+   "frame": 695,
+   "box": {
+    "x0": 319,
+    "x1": 681,
+    "y0": 403,
+    "y1": 456,
+    "n": 6753
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Hold every message until",
+    "the next stop confirms it."
+   ],
+   "t0": 23.69,
+   "tEnd": 26.95,
+   "frame": 729,
+   "box": {
+    "x0": 174,
+    "x1": 825,
+    "y0": 371,
+    "y1": 487,
+    "n": 21142
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
