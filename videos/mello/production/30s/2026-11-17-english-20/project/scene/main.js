@@ -459,7 +459,7 @@ function setEpisode(t) {
   const sceneShot = t < S.s3 || t >= S.s6, brainShot = t >= S.s5 && t < S.s6, cardShot = t >= S.s3 && t < S.s5;
   // performer, message, storm only in the scene shots
   fig.visible = sceneShot; footBlobs.forEach(b => { b.visible = sceneShot; }); phone.visible = sceneShot;
-  msg.visible = sceneShot; msg.position.copy(MSG_POS); msg.rotation.set(0, camYaw(MSG_POS) * 0.6 - 0.25, 0);
+  msg.visible = sceneShot && !(t >= S.s2 && t < S.s3); msg.position.copy(MSG_POS);   // hidden in S2 (the ghost-storm shot; it would sit in the right rail) msg.rotation.set(0, camYaw(MSG_POS) * 0.6 - 0.25, 0);
   msg.userData.border.material.opacity = 1; msg.userData.panel.material.opacity = 1; msgTx.m.material.opacity = 1;
   const soft = sm(remap(t, T.softA, T.softB));
   storm.visible = sceneShot; ghost.visible = false;
@@ -471,7 +471,7 @@ function setEpisode(t) {
   lab(worseTag, t >= S.s2 && t < S.s3 ? sm(remap(t, T.ghostB - 0.4, T.ghostB)) : 0, STORM_AT.clone().add(V(-0.2, -0.3, 0.12)), 1.1);
   lab(nameTag, t >= S.s6 ? sm(remap(t, T.tagA, T.tagB)) : 0, storm.position.clone().add(V(0.2, -0.22, 0.16)), 1.1);
   // the card (S3-S4)
-  const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25)) * (1 - sm(remap(t, S.s5 - 0.3, S.s5 - 0.02)));
+  const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25));   // no fade-out: a clean cut from the dark card to the brain
   card.visible = cardShot && v > 0.003; card.position.copy(CARD_POS); card.rotation.set(0, camYaw(CARD_POS), 0);
   card.userData.border.material.opacity = v; card.userData.panel.material.opacity = v; cardTx.m.material.opacity = v;
   if (card.visible) drawCard(t);

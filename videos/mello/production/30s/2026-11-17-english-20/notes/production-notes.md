@@ -40,7 +40,12 @@ The source is a copy of `../../2026-11-17-english-19/project/` (renderer, audit,
      - the message screen became a compact, legible bubble and was raised to y 1.72;
      - the brain camera moved back to 3.2 m, with labels above and below it;
      - the tags moved inward.
-2. ASR was exact on the first takes (all 8 lines).
+2. Pre-render audit: the message screen sat 5–8 px into the right rail, and "worse?" was past the left margin. The screen was narrowed to 0.32 m and moved to x 0.26, and the tag moved inward.
+3. ASR was exact on the first takes (all 8 lines), and on the mix after `BED_GAIN` went from 0.44 to 0.37 (11.6 → 13.1 dB).
+4. Render 1 (sha256 `5e689860…`, kept out of the repo) failed 2 of 16 checks:
+   - `safe_zones`: the message screen was in the right rail during S2 (x up to 1048, from the other camera side). It is now hidden in S2, where it is not needed.
+   - `cuts_on_plan`: the S4→S5 cut changed the frame by only 6.5, because the card faded out to the empty room before the cut. The fade-out was removed, and the card now cuts straight to the brain (53.1 on stills).
+   - Render 2 is the final.
 
 ## Commands
 ```bash

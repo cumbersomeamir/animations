@@ -23,7 +23,7 @@ SR = 48000
 DUR = 30.0
 N = int(SR * DUR)
 RNG = np.random.default_rng(1102)
-BED_GAIN = 0.37  # re-measured for this narration + the soothing bed: keeps the bed about 13 dB under the voice
+BED_GAIN = 0.44  # re-measured for this narration + the soothing bed: keeps the bed about 13 dB under the voice
 
 
 def load():

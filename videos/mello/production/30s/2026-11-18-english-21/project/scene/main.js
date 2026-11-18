@@ -481,7 +481,7 @@ function setProps(t) { nbBlob.material.opacity = 0; ink.forEach(ln => { ln.visib
 function setEpisode(t) {
   const camYaw = p => Math.atan2(camera.position.x - p.x, camera.position.z - p.z);
   const cardShot = t >= S.s3 && t < S.s4;
-  const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25)) * (1 - sm(remap(t, S.s4 - 0.3, S.s4 - 0.02)));
+  const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25));   // no fade-out: a clean cut back to the scene
   card.visible = cardShot && v > 0.003; card.position.copy(CARD_POS); card.rotation.set(0, camYaw(CARD_POS), 0);
   card.userData.border.material.opacity = v; card.userData.panel.material.opacity = v; cardTx.m.material.opacity = v;
   if (card.visible) drawCard(t);
