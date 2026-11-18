@@ -1,0 +1,93 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "More boxes, more cookies? This sneaky mouse thinks so!",
+      "seconds": 3.229,
+      "frames": 96.9
+    },
+    "v02": {
+      "text": "Four boxes of six: twenty-four cookies.",
+      "seconds": 2.409,
+      "frames": 72.3
+    },
+    "v03": {
+      "text": "Out comes the saw!",
+      "seconds": 1.002,
+      "frames": 30.1
+    },
+    "zip": {
+      "text": "Zip!",
+      "seconds": 0.457,
+      "frames": 13.7
+    },
+    "v05": {
+      "text": "Eight boxes! More cookies?",
+      "seconds": 1.54,
+      "frames": 46.2
+    },
+    "v06": {
+      "text": "Let's count in threes!",
+      "seconds": 1.161,
+      "frames": 34.8
+    },
+    "c03": {
+      "text": "Three!",
+      "seconds": 0.502,
+      "frames": 15.1
+    },
+    "c06": {
+      "text": "Six!",
+      "seconds": 0.524,
+      "frames": 15.7
+    },
+    "c09": {
+      "text": "Nine!",
+      "seconds": 0.514,
+      "frames": 15.4
+    },
+    "c12": {
+      "text": "Twelve!",
+      "seconds": 0.536,
+      "frames": 16.1
+    },
+    "c15": {
+      "text": "Fifteen!",
+      "seconds": 0.636,
+      "frames": 19.1
+    },
+    "c18": {
+      "text": "Eighteen!",
+      "seconds": 0.583,
+      "frames": 17.5
+    },
+    "c21": {
+      "text": "Twenty-one!",
+      "seconds": 0.685,
+      "frames": 20.5
+    },
+    "c24": {
+      "text": "Twenty-four!",
+      "seconds": 0.723,
+      "frames": 21.7
+    },
+    "v07": {
+      "text": "Still twenty-four! Eight threes, same as four sixes!",
+      "seconds": 3.097,
+      "frames": 92.9
+    },
+    "v08": {
+      "text": "Double the boxes, cut each box in half: same total!",
+      "seconds": 3.31,
+      "frames": 99.3
+    },
+    "v09": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}

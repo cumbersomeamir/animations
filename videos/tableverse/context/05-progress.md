@@ -174,7 +174,7 @@ Brief, topic decision, history table, script, sources: 15-episode-all-in-pairs.m
   into columns of four; hand ropes → waist loops with pairs stepping together; ship shifted inside x ≈ 970.
 - Session note: the worker restarted mid-build; work resumed from the files on disk (nothing lost).
 
-## 2026-11-17 batch english-19 — "Seven or Zero?" (ACTIVE)
+## 2026-11-17 batch english-19 — "Seven or Zero?" (delivered)
 Brief, topic decision, history table, script, sources: 16-episode-seven-or-zero.md.
 - Topic decision: requested 9 × 6 = 10 × 6 − 6 repeats english14-01's "ten groups minus one" (9 × 8 = 80 − 8) → a
   genuinely different topic in the same genre: groups of one and groups of zero (7 × 1 = 7, 7 × 0 = 0; any number × 0
@@ -196,5 +196,32 @@ Brief, topic decision, history table, script, sources: 16-episode-seven-or-zero.
 - QA fixes: shorter boxes + bigger cookies; mouse hole fills the lower stage; mouse mirrored beside the cookie so
   bites show; hinged fronts give the takeaway visible proof (details in qa/QA.md).
 
+## 2026-11-18 continuation session (account load-balancing) — see 17-continuation-2026-11-18.md
+- User expressly moved TableVerse to a new isolated Code session (info account exhausted). Same repo/branch/workspace.
+  Remote tip was english-19; no batch-20/21 output existed → both start fresh. Toolchain re-created in the scratchpad
+  (Kokoro model hashes re-verified). New standing feedback: "Not happy with genre at all, has to entertain the child."
+
+## 2026-11-17 batch english-20 — "More Boxes, More Cookies?" (delivered 2026-11-18)
+Brief, topic decision, history table, script, sources: 18-episode-more-boxes-more-cookies.md.
+- Topic decision: requested "8 × 3 as twice 4 × 3" = english15-01's doubling strategy (also rejected for batch 17) →
+  kept the cookie-shop mouse, 4 → 8 boxes, 8 × 3 and the 24-cookie payoff; taught double-and-halve (8 × 3 = 4 × 6:
+  double the boxes, cut each box in half, same total). Frame-0 words "MORE BOXES, MORE COOKIES?".
+- Facts: CCSS 3.OA.A.1, 3.OA.B.5 (associative), 3.OA.C.7; England NC KS1–2 PDF (sha256 cfae407f…a1e4) Y3/Y6 notes.
+- Creative (entertainment first): sneaky mouse with a giant cut-paper saw; tiptoe, glint, super-leap, sawing with
+  sawdust and "Zip!" ×4, halves slide into two columns, drumroll, count 3…24 (card shows one number at a time), cartoon
+  take (eyes pop, dizzy, topples), halves rejoin as four sixes and split again, wink; approved baker laughs; G-major
+  plucked score; boing / saw / crack / drumroll / slide-whistle / whirl / thud SFX. Same narrator recipe.
+- Commands: see production/30s/2026-11-17-english-20/README.md (npm ci; tts.py; render --timeline; build_audio.py;
+  render --video --workers 4; render --thumb; ASR_CACHE=… bash qa/run_qa.sh <asr-python>).
+- Paths: production/30s/2026-11-17-english-20/ — tableverse-30s-english20-01.mp4 (sha256 97237a184b918a4845e1447fec1a9c0cd9eaddcab6197acb5d72dd0083dcda22) +
+  tableverse-30s-english20-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.5 LUFS, −2.2 dBTP; ASR
+  transcript matches script (window ASR: hook, saw, 4 zips, count 3…24, takeaway, CTA); VO stem silent in gaps;
+  captions x 129–871 / y 240–396; 24 cookies on contact sheet + 55 frames. Machine-only listening.
+- QA fixes: bigger mouse; saw grip/tilt; wider column gap; hook motion; "halve" → "cut … in half" (homophone of
+  "have"); rasp/glint moved off words; card raised + in front of shelves; zoom capped; mux headroom (qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english19-01. No further episode started.
+- Batch english-21 (2026-11-18): octopus brief "7 × 4 = 28 with seven picnic baskets of four oranges" — repeats
+  english18-01 (seven boats × four friends, 4 × 7 = 28) → genuinely different topic needed (planned: square numbers,
+  4 × 4 = 16 as a square array). Await user review of english20-01.

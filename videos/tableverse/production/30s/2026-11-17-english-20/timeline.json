@@ -1,0 +1,581 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 104,
+      "name": "Frame 0: 4 boxes x 6 cookies, sneaky mouse with a saw; \"MORE BOXES, MORE COOKIES?\"; card 4 × 6 = 24"
+    },
+    {
+      "id": "S2-boxes",
+      "from": 104,
+      "to": 182,
+      "name": "Four boxes of six bounce in turn; twenty-four cookies"
+    },
+    {
+      "id": "S3-saw",
+      "from": 182,
+      "to": 320,
+      "name": "Out comes the saw! Leap, saw, zip x4: every box splits in half; halves slide apart"
+    },
+    {
+      "id": "S4-question",
+      "from": 320,
+      "to": 438,
+      "name": "Eight boxes! More cookies? drumroll pause; let's count in threes; card 8 × 3 = ?"
+    },
+    {
+      "id": "S5-count",
+      "from": 438,
+      "to": 592,
+      "name": "Count in threes: 3 ... 24, each small box hops"
+    },
+    {
+      "id": "S6-take",
+      "from": 592,
+      "to": 692,
+      "name": "Still 24! the mouse's jaw drops, dizzy flop; halves rejoin as four sixes; card 8 × 3 = 24"
+    },
+    {
+      "id": "S7-takeaway",
+      "from": 692,
+      "to": 810,
+      "name": "Double the boxes, halve each box: same total; card 8 × 3 = 4 × 6; mouse laughs and winks"
+    },
+    {
+      "id": "S8-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 104,
+    "v03": 182,
+    "z1": 236,
+    "z2": 254,
+    "z3": 272,
+    "z4": 290,
+    "v05": 320,
+    "v06": 398,
+    "c03": 438,
+    "c06": 457,
+    "c09": 476,
+    "c12": 495,
+    "c15": 514,
+    "c18": 534,
+    "c21": 553,
+    "c24": 575,
+    "v07": 600,
+    "v08": 698,
+    "v09": 838
+  },
+  "vo_clip": {
+    "z1": "zip",
+    "z2": "zip",
+    "z3": "zip",
+    "z4": "zip"
+  },
+  "captions": [
+    [
+      [
+        "4 boxes of 6:",
+        "24 cookies."
+      ],
+      104,
+      178
+    ],
+    [
+      [
+        "Out comes the saw!"
+      ],
+      182,
+      230
+    ],
+    [
+      [
+        "Zip!"
+      ],
+      236,
+      254
+    ],
+    [
+      [
+        "Zip! Zip!"
+      ],
+      254,
+      272
+    ],
+    [
+      [
+        "Zip! Zip! Zip!"
+      ],
+      272,
+      290
+    ],
+    [
+      [
+        "Zip! Zip! Zip! Zip!"
+      ],
+      290,
+      316
+    ],
+    [
+      [
+        "8 boxes!",
+        "More cookies?"
+      ],
+      320,
+      396
+    ],
+    [
+      [
+        "Let's count in 3s!"
+      ],
+      398,
+      596
+    ],
+    [
+      [
+        "Still 24!"
+      ],
+      600,
+      640
+    ],
+    [
+      [
+        "Still 24!",
+        "8 threes = 4 sixes!"
+      ],
+      640,
+      694
+    ],
+    [
+      [
+        "Double the boxes,",
+        "cut each in half: same total!"
+      ],
+      698,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      838,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "flap",
+      100,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      108,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      114,
+      {
+        "pitch": 1.06
+      }
+    ],
+    [
+      "tick",
+      120,
+      {
+        "pitch": 1.12
+      }
+    ],
+    [
+      "tick",
+      126,
+      {
+        "pitch": 1.18
+      }
+    ],
+    [
+      "chime",
+      142,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "tick",
+      40,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      49,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      58,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      67,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      76,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      85,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "tick",
+      94,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "glint",
+      66,
+      {}
+    ],
+    [
+      "glint",
+      212,
+      {}
+    ],
+    [
+      "boing",
+      214,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "saw",
+      229,
+      {
+        "dur": 7
+      }
+    ],
+    [
+      "crack",
+      240,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "boing",
+      245,
+      {
+        "pitch": 1.33,
+        "soft": true
+      }
+    ],
+    [
+      "saw",
+      249,
+      {
+        "dur": 5
+      }
+    ],
+    [
+      "crack",
+      258,
+      {
+        "pitch": 1.05
+      }
+    ],
+    [
+      "boing",
+      263,
+      {
+        "pitch": 1.41,
+        "soft": true
+      }
+    ],
+    [
+      "saw",
+      267,
+      {
+        "dur": 5
+      }
+    ],
+    [
+      "crack",
+      276,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "boing",
+      281,
+      {
+        "pitch": 1.49,
+        "soft": true
+      }
+    ],
+    [
+      "saw",
+      285,
+      {
+        "dur": 5
+      }
+    ],
+    [
+      "crack",
+      294,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "boing",
+      294,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "thud",
+      306,
+      {}
+    ],
+    [
+      "whoosh",
+      300,
+      {
+        "dur": 22
+      }
+    ],
+    [
+      "flap",
+      318,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      598,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "flap",
+      696,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "drumroll",
+      366,
+      {
+        "dur": 66
+      }
+    ],
+    [
+      "pop",
+      438,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      457,
+      {
+        "pitch": 0.96
+      }
+    ],
+    [
+      "pop",
+      476,
+      {
+        "pitch": 1.02
+      }
+    ],
+    [
+      "pop",
+      495,
+      {
+        "pitch": 1.08
+      }
+    ],
+    [
+      "pop",
+      514,
+      {
+        "pitch": 1.1400000000000001
+      }
+    ],
+    [
+      "pop",
+      534,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "pop",
+      553,
+      {
+        "pitch": 1.26
+      }
+    ],
+    [
+      "pop",
+      575,
+      {
+        "pitch": 1.32
+      }
+    ],
+    [
+      "chime",
+      579,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "take",
+      602,
+      {}
+    ],
+    [
+      "whirl",
+      620,
+      {
+        "dur": 28
+      }
+    ],
+    [
+      "slidedown",
+      640,
+      {}
+    ],
+    [
+      "thud",
+      656,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "slide",
+      652,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "light",
+      668,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "light",
+      675,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "light",
+      682,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "light",
+      689,
+      {
+        "step": 3
+      }
+    ],
+    [
+      "slide",
+      712,
+      {
+        "dur": 28
+      }
+    ],
+    [
+      "sparkle",
+      770,
+      {}
+    ],
+    [
+      "swing",
+      728,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "glint",
+      798,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    366,
+    398
+  ]
+}
