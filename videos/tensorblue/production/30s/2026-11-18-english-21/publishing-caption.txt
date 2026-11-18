@@ -1,0 +1,16 @@
+It raced to ninety-nine percent. Now it's stuck. Why?
+
+The bar only counted the download. But an update still verifies the file, unpacks thousands of pieces, and installs them. A bar shouldn't say a hundred until it's all done, so it waits.
+
+Our test hit ninety-nine in three seconds, then sat there almost two more. Microsoft's design guide calls that particularly uninformative and annoying. Building one? Give every stage its share of the bar.
+
+Our test was a real four-stage update on one computer (not any app's installer): download a 37.7 MB package at 100 Mb/s from a local server, check its SHA-256, unzip 2,401 files, and install each file safely to disk. A bar that counted only downloaded bytes reached 99% at 3.0 s and stayed there for 1.8 s, 37% of the wait. A bar where every stage had a share sized from a previous run was never more than 6 points away from the time actually elapsed (the bytes-only bar was up to 36 points away). Timings are from this one machine.
+
+Sources:
+- Microsoft, Windows app design guidelines, Progress bars: https://learn.microsoft.com/en-us/windows/win32/uxguide/progress-bars
+- Apple Developer Documentation, Progress (sub-operations share a parent's pending units): https://developer.apple.com/documentation/foundation/progress
+- Harrison, Amento, Kuznetsov, Bell, "Rethinking the Progress Bar", ACM UIST 2007: https://chrisharrison.net/projects/progressbars/ProgBarHarrison.pdf
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #UXDesign #SoftwareExplained

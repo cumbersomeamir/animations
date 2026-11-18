@@ -1,0 +1,13 @@
+{
+  "name": "tensorblue-30s-english21-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Original Blue Receipt Theatre canvas renderer + toy3d depth module for Tensorblue 30s english-21 episode 01 (why a progress bar races to 99% and then waits).",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.1.0"
+  }
+}

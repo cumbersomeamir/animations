@@ -1,0 +1,261 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "It raced to ninety-nine",
+    "percent."
+   ],
+   "t0": 0.04,
+   "tEnd": 1.87,
+   "frame": 19,
+   "box": {
+    "x0": 216,
+    "x1": 785,
+    "y0": 372,
+    "y1": 488,
+    "n": 12510
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Now it's stuck. Why?"
+   ],
+   "t0": 1.87,
+   "tEnd": 3.52,
+   "frame": 74,
+   "box": {
+    "x0": 229,
+    "x1": 771,
+    "y0": 404,
+    "y1": 456,
+    "n": 8707
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The bar only counted",
+    "the download."
+   ],
+   "t0": 3.52,
+   "tEnd": 5.37,
+   "frame": 124,
+   "box": {
+    "x0": 224,
+    "x1": 773,
+    "y0": 373,
+    "y1": 475,
+    "n": 15044
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "But an update still",
+    "verifies the file,"
+   ],
+   "t0": 5.37,
+   "tEnd": 7.75,
+   "frame": 179,
+   "box": {
+    "x0": 271,
+    "x1": 729,
+    "y0": 372,
+    "y1": 487,
+    "n": 14547
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "unpacks thousands",
+    "of pieces,"
+   ],
+   "t0": 7.75,
+   "tEnd": 9.47,
+   "frame": 250,
+   "box": {
+    "x0": 247,
+    "x1": 753,
+    "y0": 375,
+    "y1": 488,
+    "n": 12879
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and installs them."
+   ],
+   "t0": 9.47,
+   "tEnd": 10.74,
+   "frame": 302,
+   "box": {
+    "x0": 272,
+    "x1": 725,
+    "y0": 409,
+    "y1": 450,
+    "n": 7522
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "A bar shouldn't say",
+    "a hundred"
+   ],
+   "t0": 10.74,
+   "tEnd": 11.97,
+   "frame": 340,
+   "box": {
+    "x0": 249,
+    "x1": 750,
+    "y0": 373,
+    "y1": 475,
+    "n": 12627
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "until it's all done,",
+    "so it waits."
+   ],
+   "t0": 11.97,
+   "tEnd": 14.11,
+   "frame": 377,
+   "box": {
+    "x0": 282,
+    "x1": 716,
+    "y0": 372,
+    "y1": 477,
+    "n": 11286
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Our test hit ninety-nine",
+    "in three seconds,"
+   ],
+   "t0": 14.11,
+   "tEnd": 16.55,
+   "frame": 441,
+   "box": {
+    "x0": 201,
+    "x1": 798,
+    "y0": 372,
+    "y1": 487,
+    "n": 16698
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "then sat there",
+    "almost two more."
+   ],
+   "t0": 16.55,
+   "tEnd": 18.49,
+   "frame": 515,
+   "box": {
+    "x0": 276,
+    "x1": 721,
+    "y0": 379,
+    "y1": 481,
+    "n": 13007
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Microsoft's design guide",
+    "calls that"
+   ],
+   "t0": 18.49,
+   "tEnd": 20.55,
+   "frame": 573,
+   "box": {
+    "x0": 180,
+    "x1": 820,
+    "y0": 371,
+    "y1": 476,
+    "n": 15560
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "particularly uninformative",
+    "and annoying."
+   ],
+   "t0": 20.55,
+   "tEnd": 23.28,
+   "frame": 635,
+   "box": {
+    "x0": 165,
+    "x1": 835,
+    "y0": 371,
+    "y1": 488,
+    "n": 17791
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Building one?"
+   ],
+   "t0": 23.28,
+   "tEnd": 24.24,
+   "frame": 716,
+   "box": {
+    "x0": 327,
+    "x1": 673,
+    "y0": 403,
+    "y1": 456,
+    "n": 6173
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Give every stage",
+    "its share of the bar."
+   ],
+   "t0": 24.24,
+   "tEnd": 26.95,
+   "frame": 745,
+   "box": {
+    "x0": 252,
+    "x1": 746,
+    "y0": 371,
+    "y1": 476,
+    "n": 15131
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 372,
+    "y1": 488,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}

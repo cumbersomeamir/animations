@@ -37,3 +37,11 @@ The latest Published apps "Satisfied?" feedback for Tensorblue: "No, content is 
 - **Content:** a real app's documented behaviour or a practical app-development insight, with an app-builder payoff.
 - **Depth:** the new `toy3d.mjs` (thick lit extruded toys, fog, depth layouts, foreground framing).
 - **Fun:** hops with squash-and-stretch, falls, pops, tokens flying back, and playful SFX.
+
+## Status at the end of this continuation (18 Nov 2026)
+| batch | folder | output | context | commit |
+|---|---|---|---|---|
+| batch20 (finished first) | `production/30s/2026-11-17-english-20/` | `tensorblue-30s-english20-01.mp4` + thumbnail, attached in chat | `33-production-30s-english20-01.md` | `b9b2699` |
+| batch21 | `production/30s/2026-11-18-english-21/` | `tensorblue-30s-english21-01.mp4` + thumbnail, attached in chat | `34-production-30s-english21-01.md` | the commit that adds this section |
+
+There are no pending, queued or checkpointed jobs, and no scheduled automations. The next round starts by reading `00`, `11` and the latest round file (34), then this note. Toolchain restore steps are above.

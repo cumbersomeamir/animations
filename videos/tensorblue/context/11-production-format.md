@@ -178,6 +178,13 @@ Practical system design · useful new GitHub tools · research explained through
   - **Fun:** hops with squash-and-stretch; things fall, bounce, pop, scramble and wake up; confirmations fly back as tokens; playful hop/fall/pop SFX. Physical comedy must still explain the mechanism.
   - **Texture seam:** two clipped texture triangles leave a faint diagonal line, so the first triangle paints the whole face.
   - english-20 (batch20): how WhatsApp's ticks map a store-and-forward journey. Frame zero **ONE TICK. / WHERE IS IT?**; proof from a real UDP model, send-once 3/20 vs store-and-forward 20/20. Notes: `33-production-30s-english20-01.md`.
+  - english-21 (batch21): why a progress bar races to 99 % and then waits.
+    - Frame zero: **WHY STUCK?** over a 3D scoreboard bar at 99 %.
+    - The world is a parcel pipeline on a conveyor into depth: hopper → glowing VERIFY gate → UNPACK burst → INSTALL into a phone.
+    - Proof is a real four-stage update run: the bytes-only bar hit 99 % at 3.0 s and was stuck for 1.8 s, while the staged bar stayed within 6 points of elapsed time.
+    - Microsoft's own design guide is quoted ("particularly uninformative and annoying").
+    - Layout lesson: put a story's key indicator where every shot looks (here a scoreboard at the far end of the belt), and draw large base objects (belts, floors) first rather than sorting them as one object.
+    - Notes: `34-production-30s-english21-01.md`.
 
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/

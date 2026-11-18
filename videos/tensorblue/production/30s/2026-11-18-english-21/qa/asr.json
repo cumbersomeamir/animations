@@ -1,0 +1,494 @@
+{
+ "model": "base.en",
+ "transcript": "It raced to 99%. Now it's stuck. Why? The bar only counted the download. But an update still verifies the file, unpacks thousands of pieces, and installs them. A bar shouldn't say a hundred until it's all done, so it waits. Our test hit 99 in three seconds, then sat there almost two more. Microsoft's design guide calls that particularly uninformative and annoying. Building one, give every stage its share of the bar. Follow TensorBlue for software explained simply.",
+ "reference": "It raced to ninety-nine percent. Now it's stuck. Why? The bar only counted the download. But an update still verifies the file, unpacks thousands of pieces, and installs them. A bar shouldn't say a hundred until it's all done, so it waits. Our test hit ninety-nine in three seconds, then sat there almost two more. Microsoft's design guide calls that particularly uninformative and annoying. Building one? Give every stage its share of the bar. Follow Tensorblue for software explained simply.",
+ "wer": 0.061,
+ "matched_words": 77,
+ "scripted_words": 80,
+ "mean_abs_start_drift_s": 0.098,
+ "max_abs_start_drift_s": 0.394,
+ "low_confidence_words": [
+  {
+   "w": "a",
+   "t0": 11.54,
+   "t1": 11.66,
+   "p": 0.551
+  }
+ ],
+ "words": [
+  {
+   "w": "It",
+   "t0": 0.0,
+   "t1": 0.18,
+   "p": 0.888
+  },
+  {
+   "w": "raced",
+   "t0": 0.18,
+   "t1": 0.36,
+   "p": 0.837
+  },
+  {
+   "w": "to",
+   "t0": 0.36,
+   "t1": 0.64,
+   "p": 0.994
+  },
+  {
+   "w": "99%.",
+   "t0": 0.64,
+   "t1": 1.7,
+   "p": 0.752
+  },
+  {
+   "w": "Now",
+   "t0": 1.7,
+   "t1": 2.08,
+   "p": 0.989
+  },
+  {
+   "w": "it's",
+   "t0": 2.08,
+   "t1": 2.28,
+   "p": 0.944
+  },
+  {
+   "w": "stuck.",
+   "t0": 2.28,
+   "t1": 2.46,
+   "p": 0.997
+  },
+  {
+   "w": "Why?",
+   "t0": 2.96,
+   "t1": 3.04,
+   "p": 0.987
+  },
+  {
+   "w": "The",
+   "t0": 3.58,
+   "t1": 3.64,
+   "p": 0.988
+  },
+  {
+   "w": "bar",
+   "t0": 3.64,
+   "t1": 3.78,
+   "p": 0.96
+  },
+  {
+   "w": "only",
+   "t0": 3.78,
+   "t1": 4.04,
+   "p": 0.999
+  },
+  {
+   "w": "counted",
+   "t0": 4.04,
+   "t1": 4.38,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "t0": 4.38,
+   "t1": 4.56,
+   "p": 0.996
+  },
+  {
+   "w": "download.",
+   "t0": 4.56,
+   "t1": 4.82,
+   "p": 0.993
+  },
+  {
+   "w": "But",
+   "t0": 5.4,
+   "t1": 5.48,
+   "p": 0.996
+  },
+  {
+   "w": "an",
+   "t0": 5.48,
+   "t1": 5.58,
+   "p": 0.995
+  },
+  {
+   "w": "update",
+   "t0": 5.58,
+   "t1": 5.9,
+   "p": 0.998
+  },
+  {
+   "w": "still",
+   "t0": 5.9,
+   "t1": 6.24,
+   "p": 0.999
+  },
+  {
+   "w": "verifies",
+   "t0": 6.24,
+   "t1": 6.74,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "t0": 6.74,
+   "t1": 7.0,
+   "p": 0.999
+  },
+  {
+   "w": "file,",
+   "t0": 7.0,
+   "t1": 7.3,
+   "p": 0.999
+  },
+  {
+   "w": "unpacks",
+   "t0": 7.88,
+   "t1": 8.24,
+   "p": 0.907
+  },
+  {
+   "w": "thousands",
+   "t0": 8.24,
+   "t1": 8.78,
+   "p": 0.993
+  },
+  {
+   "w": "of",
+   "t0": 8.78,
+   "t1": 8.94,
+   "p": 0.999
+  },
+  {
+   "w": "pieces,",
+   "t0": 8.94,
+   "t1": 9.18,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "t0": 9.18,
+   "t1": 9.62,
+   "p": 0.997
+  },
+  {
+   "w": "installs",
+   "t0": 9.62,
+   "t1": 10.02,
+   "p": 0.998
+  },
+  {
+   "w": "them.",
+   "t0": 10.02,
+   "t1": 10.36,
+   "p": 0.998
+  },
+  {
+   "w": "A",
+   "t0": 10.78,
+   "t1": 10.86,
+   "p": 0.996
+  },
+  {
+   "w": "bar",
+   "t0": 10.86,
+   "t1": 11.04,
+   "p": 0.996
+  },
+  {
+   "w": "shouldn't",
+   "t0": 11.04,
+   "t1": 11.38,
+   "p": 0.997
+  },
+  {
+   "w": "say",
+   "t0": 11.38,
+   "t1": 11.54,
+   "p": 0.985
+  },
+  {
+   "w": "a",
+   "t0": 11.54,
+   "t1": 11.66,
+   "p": 0.551
+  },
+  {
+   "w": "hundred",
+   "t0": 11.66,
+   "t1": 11.94,
+   "p": 0.946
+  },
+  {
+   "w": "until",
+   "t0": 11.94,
+   "t1": 12.22,
+   "p": 0.983
+  },
+  {
+   "w": "it's",
+   "t0": 12.22,
+   "t1": 12.36,
+   "p": 0.996
+  },
+  {
+   "w": "all",
+   "t0": 12.36,
+   "t1": 12.5,
+   "p": 0.997
+  },
+  {
+   "w": "done,",
+   "t0": 12.5,
+   "t1": 12.72,
+   "p": 0.999
+  },
+  {
+   "w": "so",
+   "t0": 13.02,
+   "t1": 13.3,
+   "p": 0.993
+  },
+  {
+   "w": "it",
+   "t0": 13.3,
+   "t1": 13.4,
+   "p": 0.995
+  },
+  {
+   "w": "waits.",
+   "t0": 13.4,
+   "t1": 13.56,
+   "p": 0.979
+  },
+  {
+   "w": "Our",
+   "t0": 14.22,
+   "t1": 14.26,
+   "p": 0.996
+  },
+  {
+   "w": "test",
+   "t0": 14.26,
+   "t1": 14.46,
+   "p": 0.985
+  },
+  {
+   "w": "hit",
+   "t0": 14.46,
+   "t1": 14.74,
+   "p": 0.974
+  },
+  {
+   "w": "99",
+   "t0": 14.74,
+   "t1": 15.04,
+   "p": 0.987
+  },
+  {
+   "w": "in",
+   "t0": 15.04,
+   "t1": 15.5,
+   "p": 0.993
+  },
+  {
+   "w": "three",
+   "t0": 15.5,
+   "t1": 15.7,
+   "p": 0.758
+  },
+  {
+   "w": "seconds,",
+   "t0": 15.7,
+   "t1": 16.1,
+   "p": 0.996
+  },
+  {
+   "w": "then",
+   "t0": 16.58,
+   "t1": 16.78,
+   "p": 0.995
+  },
+  {
+   "w": "sat",
+   "t0": 16.78,
+   "t1": 16.98,
+   "p": 0.917
+  },
+  {
+   "w": "there",
+   "t0": 16.98,
+   "t1": 17.2,
+   "p": 0.998
+  },
+  {
+   "w": "almost",
+   "t0": 17.2,
+   "t1": 17.48,
+   "p": 0.998
+  },
+  {
+   "w": "two",
+   "t0": 17.48,
+   "t1": 17.82,
+   "p": 0.993
+  },
+  {
+   "w": "more.",
+   "t0": 17.82,
+   "t1": 18.1,
+   "p": 1.0
+  },
+  {
+   "w": "Microsoft's",
+   "t0": 18.7,
+   "t1": 19.26,
+   "p": 0.996
+  },
+  {
+   "w": "design",
+   "t0": 19.26,
+   "t1": 19.6,
+   "p": 0.895
+  },
+  {
+   "w": "guide",
+   "t0": 19.6,
+   "t1": 19.9,
+   "p": 0.992
+  },
+  {
+   "w": "calls",
+   "t0": 19.9,
+   "t1": 20.26,
+   "p": 0.999
+  },
+  {
+   "w": "that",
+   "t0": 20.26,
+   "t1": 20.58,
+   "p": 0.981
+  },
+  {
+   "w": "particularly",
+   "t0": 20.58,
+   "t1": 20.92,
+   "p": 0.973
+  },
+  {
+   "w": "uninformative",
+   "t0": 20.92,
+   "t1": 21.92,
+   "p": 0.979
+  },
+  {
+   "w": "and",
+   "t0": 21.92,
+   "t1": 22.44,
+   "p": 0.893
+  },
+  {
+   "w": "annoying.",
+   "t0": 22.44,
+   "t1": 22.62,
+   "p": 0.996
+  },
+  {
+   "w": "Building",
+   "t0": 23.26,
+   "t1": 23.62,
+   "p": 0.974
+  },
+  {
+   "w": "one,",
+   "t0": 23.62,
+   "t1": 23.88,
+   "p": 0.872
+  },
+  {
+   "w": "give",
+   "t0": 24.26,
+   "t1": 24.42,
+   "p": 0.992
+  },
+  {
+   "w": "every",
+   "t0": 24.42,
+   "t1": 24.66,
+   "p": 0.998
+  },
+  {
+   "w": "stage",
+   "t0": 24.66,
+   "t1": 25.02,
+   "p": 0.999
+  },
+  {
+   "w": "its",
+   "t0": 25.02,
+   "t1": 25.18,
+   "p": 0.931
+  },
+  {
+   "w": "share",
+   "t0": 25.18,
+   "t1": 25.44,
+   "p": 0.996
+  },
+  {
+   "w": "of",
+   "t0": 25.44,
+   "t1": 25.58,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "t0": 25.58,
+   "t1": 25.68,
+   "p": 0.999
+  },
+  {
+   "w": "bar.",
+   "t0": 25.68,
+   "t1": 25.9,
+   "p": 0.998
+  },
+  {
+   "w": "Follow",
+   "t0": 26.8,
+   "t1": 27.18,
+   "p": 0.975
+  },
+  {
+   "w": "TensorBlue",
+   "t0": 27.18,
+   "t1": 27.74,
+   "p": 0.817
+  },
+  {
+   "w": "for",
+   "t0": 27.74,
+   "t1": 28.0,
+   "p": 0.988
+  },
+  {
+   "w": "software",
+   "t0": 28.0,
+   "t1": 28.16,
+   "p": 0.958
+  },
+  {
+   "w": "explained",
+   "t0": 28.16,
+   "t1": 28.8,
+   "p": 0.982
+  },
+  {
+   "w": "simply.",
+   "t0": 28.8,
+   "t1": 29.32,
+   "p": 0.986
+  }
+ ]
+}
