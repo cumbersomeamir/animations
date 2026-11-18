@@ -1,0 +1,17 @@
+Coconut calculations (CalMeter english-21, 2026-11-18). Inputs: USDA SR Legacy FDC 170174 (NDB 12119) 'Nuts, coconut water (liquid from coconuts)'
+and FDC 170169 (NDB 12104) 'Nuts, coconut meat, raw'; SR28 WEIGHT household weights (edible material): water 'coconut yields' 206 g, '1 cup' 240 g;
+meat 'medium' 397 g, 'piece (2" x 2" x 1/2")' 45 g. Calorie factors (both): protein 3.47, fat 8.37, carbohydrate 4.07.
+
+Per 100 g: water 19 kcal (95.0 g water, 3.71 g carbohydrate, sugars 2.61 g); meat 354 kcal (47.0 g water, 33.5 g fat, 3.33 g protein, 15.2 g carbohydrate incl. 9.0 g fibre)
+energy-density ratio meat / water: 18.6x ('about 18 times')
+meat energy from fat: 33.5*8.37 = 280 of 354 kcal = 79 %; check sum 354 kcal
+'half water' = 47.0 %; 'a third is fat' = 33.5 %
+
+Per coconut (USDA household weights, mature coconut): water 206 g -> 39.1 kcal ('about 40'); meat 397 g -> 1405 kcal ('about 1,400')
+consistency: meat record refuse 48 % ('Shells (brown), skin, water') -> as purchased 763 g; minus 397 g meat and 206 g water leaves 160 g shell + skin
+
+Practical portion: 1 glass = 1 cup = 240 g water -> 45.6 kcal; 1 piece 2x2x1/2 in = 45 g meat -> 159.3 kcal ('about 160')
+piece / glass = 3.49 glasses ('three and a half glasses')
+
+Not used: FDC 174831 'Beverages, Coconut water, ready-to-drink, unsweetened' (18 kcal / 100 g) agrees within 1 kcal; potassium/sodium of coconut water rest on n = 1 and are not shown.
+The meat record describes a mature coconut ("Shells (brown)"); no claim is made about young (green) coconuts.

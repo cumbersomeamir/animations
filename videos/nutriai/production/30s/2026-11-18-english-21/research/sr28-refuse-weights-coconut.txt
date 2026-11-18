@@ -1,0 +1,25 @@
+USDA SR28 (sr28asc.zip sha256 8308fd1d224ef1e5331093748007180da01a7ac713cbac6a1f5bc2a03e1ee70a), https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28asc.zip, retrieved 2026-11-18
+FOOD_DES fields: NDB~FdGrp~Long_Desc~Shrt_Desc~ComName~ManufacName~Survey~Ref_desc~Refuse~SciName~N_Factor~Pro_Factor~Fat_Factor~CHO_Factor
+~12104~^~1200~^~Nuts, coconut meat, raw~^~COCONUT MEAT,RAW~^~~^~~^~Y~^~Shells (brown), skin, water~^48^~Cocos nucifera~^5.30^3.47^8.37^4.07
+~12119~^~1200~^~Nuts, coconut water (liquid from coconuts)~^~COCONUT H2O (LIQ FROM COCONUTS)~^~~^~~^~Y~^~~^0^~~^5.30^3.47^8.37^4.07
+~14090~^~1400~^~Beverages, Coconut water, ready-to-drink, unsweetened~^~BEVERAGES,COCNT H2O,RTD,UNSWTND~^~~^~~^~Y~^~~^0^~~^^^^
+
+WEIGHT fields: NDB~Seq~Amount~Msre_Desc~Gm_Wgt~Num_Data_Pts~Std_Dev
+~12104~^1^1^~cup, shredded~^80^^
+~12104~^2^1^~medium~^397^^
+~12104~^3^1^~piece (2" x 2" x 1/2")~^45^^
+~12119~^1^1^~cup~^240^^
+~12119~^2^1^~tbsp~^15.0^^
+~12119~^3^1^~coconut yields~^206^^
+~14090~^1^1^~cup~^245^19^7.599
+
+Verbatim excerpts from sr28_doc.pdf (USDA SR28 documentation):
+The refuse and refuse description fields contain amounts and descriptions of inedible
+material (for example, seeds, bone, and skin) for applicable foods. These amounts are
+expressed as a percentage of the total weight of the item as purchased, and they are
+used to compute the weight of the edible portion. Refuse data were obtained from
+NFNAP and other USDA-sponsored contracts and US Department of Agriculture
+
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and

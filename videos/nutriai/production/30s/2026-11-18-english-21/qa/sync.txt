@@ -1,0 +1,33 @@
+One coconut,                 caption   0.13s  speech   0.00s  diff +0.13
+two foods.                   caption   0.67s  speech   0.78s  diff -0.11
+Which part packs             caption   1.93s  speech   1.90s  diff +0.03
+the calories?                caption   2.60s  speech   2.68s  diff -0.08
+Its water:                   caption   3.73s  speech   3.82s  diff -0.09
+about 40 kcal.               caption   4.17s  speech   4.10s  diff +0.07
+Its meat:                    caption   6.07s  speech   6.04s  diff +0.03
+about 1,400!                 caption   6.70s  speech   6.68s  diff +0.02
+Per 100 g,                   caption   8.33s  speech   8.24s  diff +0.09
+coconut water                caption   9.53s  speech   9.56s  diff -0.03
+is 95% water:                caption  10.27s  speech  10.22s  diff +0.05
+just 19 kcal.                caption  12.47s  speech  12.56s  diff -0.09
+The meat is only             caption  14.27s  speech  14.28s  diff -0.01
+half water,                  caption  14.87s  speech  14.90s  diff -0.03
+and a third                  caption  15.90s  speech  15.84s  diff +0.06
+of it is fat:                caption  16.30s  speech  16.28s  diff +0.02
+354 kcal.                    caption  17.60s  speech  17.96s  diff -0.36
+So one small piece,          caption  19.20s  speech  19.18s  diff +0.02
+45 grams,                    caption  20.17s  speech  20.34s  diff -0.17
+is about 160:                caption  21.70s  speech  21.64s  diff +0.06
+as much as 3½                caption  23.07s  speech  22.96s  diff +0.11
+glasses                      caption  24.23s  speech  24.22s  diff +0.01
+of coconut water.            caption  24.60s  speech  24.50s  diff +0.10
+Track your food              caption  27.10s  speech  26.60s  diff +0.50
+and nutrition                caption  27.73s  speech  28.06s  diff -0.33
+with CalMeter                caption  28.37s  speech  28.36s  diff +0.01
+23 of 26 caption lines within ±0.25 s of the spoken word (base.en word timestamps)
+
+Stem check for the 3 lines outside ±0.25 s (voice-only stem build/voice.wav, 10 ms RMS windows, first energy above -40 dBFS after silence):
+- "354 kcal."      voice onset 17.52 s; caption 17.60 s (+0.08 s). small.en word timestamp 17.64 s; base.en 17.96 s is late.
+- "Track your food" voice onset 27.14 s (the voice track is silent from 26.02 s until the CTA take placed at 27.10 s); caption 27.10 s (-0.04 s). base.en 26.60 s / small.en 26.68 s fall before any voice exists (ASR drift after the pause).
+- "and nutrition"  take word time 0.64 s + 27.10 s = 27.74 s (qa/asr-takes.txt, T9); caption 27.73 s (-0.01 s). base.en 28.06 s / small.en 27.84 s.
+Result: 26 of 26 caption lines within ±0.25 s of the speech (23 by base.en word timestamps on the final MP4, 3 by the stem/take checks above).

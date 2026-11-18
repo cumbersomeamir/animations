@@ -1,0 +1,235 @@
+{
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (sha256 789240d42d51640b931782310403c415eb4aa03383d8f0a52f6315db80f96bc7), https://fdc.nal.usda.gov/download-datasets",
+ "retrieved": "2026-11-18",
+ "foods": [
+  {
+   "fdcId": 170169,
+   "ndbNumber": 12104,
+   "description": "Nuts, coconut meat, raw",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Fiber, total dietary": {
+     "amount": 9.0,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 20.0,
+     "unit": "mg",
+     "dataPoints": 2
+    },
+    "Protein": {
+     "amount": 3.33,
+     "unit": "g",
+     "dataPoints": 12
+    },
+    "Fatty acids, total saturated": {
+     "amount": 29.7,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Total lipid (fat)": {
+     "amount": 33.5,
+     "unit": "g",
+     "dataPoints": 12
+    },
+    "Carbohydrate, by difference": {
+     "amount": 15.2,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 354,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Water": {
+     "amount": 47.0,
+     "unit": "g",
+     "dataPoints": 15
+    },
+    "Potassium, K": {
+     "amount": 356,
+     "unit": "mg",
+     "dataPoints": 2
+    },
+    "Sugars, total including NLEA": {
+     "amount": 6.23,
+     "unit": "g",
+     "dataPoints": 0
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "cup, shredded",
+     "gramWeight": 80.0
+    },
+    {
+     "amount": null,
+     "modifier": "medium",
+     "gramWeight": 397.0
+    },
+    {
+     "amount": null,
+     "modifier": "piece (2\" x 2\" x 1/2\")",
+     "gramWeight": 45.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.47,
+    "fat": 8.37,
+    "carbohydrate": 4.07
+   }
+  },
+  {
+   "fdcId": 170174,
+   "ndbNumber": 12119,
+   "description": "Nuts, coconut water (liquid from coconuts)",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Fatty acids, total saturated": {
+     "amount": 0.176,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Protein": {
+     "amount": 0.72,
+     "unit": "g",
+     "dataPoints": 4
+    },
+    "Fiber, total dietary": {
+     "amount": 1.1,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 105,
+     "unit": "mg",
+     "dataPoints": 1
+    },
+    "Total lipid (fat)": {
+     "amount": 0.2,
+     "unit": "g",
+     "dataPoints": 6
+    },
+    "Carbohydrate, by difference": {
+     "amount": 3.71,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 19.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Water": {
+     "amount": 95.0,
+     "unit": "g",
+     "dataPoints": 7
+    },
+    "Potassium, K": {
+     "amount": 250,
+     "unit": "mg",
+     "dataPoints": 1
+    },
+    "Sugars, total including NLEA": {
+     "amount": 2.61,
+     "unit": "g",
+     "dataPoints": 0
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "coconut yields",
+     "gramWeight": 206.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup",
+     "gramWeight": 240.0
+    },
+    {
+     "amount": null,
+     "modifier": "tbsp",
+     "gramWeight": 15.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.47,
+    "fat": 8.37,
+    "carbohydrate": 4.07
+   }
+  },
+  {
+   "fdcId": 174831,
+   "ndbNumber": 14090,
+   "description": "Beverages, Coconut water, ready-to-drink, unsweetened",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Fatty acids, total saturated": {
+     "amount": 0.0,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Protein": {
+     "amount": 0.22,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Fiber, total dietary": {
+     "amount": 0.0,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 26.0,
+     "unit": "mg",
+     "dataPoints": 9
+    },
+    "Total lipid (fat)": {
+     "amount": 0.0,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Carbohydrate, by difference": {
+     "amount": 4.24,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 18.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Water": {
+     "amount": 95.0,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Sugars, total including NLEA": {
+     "amount": 3.92,
+     "unit": "g",
+     "dataPoints": 5
+    },
+    "Potassium, K": {
+     "amount": 165,
+     "unit": "mg",
+     "dataPoints": 9
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "cup",
+     "gramWeight": 245.0
+    }
+   ],
+   "calorieConversionFactor": null
+  }
+ ]
+}

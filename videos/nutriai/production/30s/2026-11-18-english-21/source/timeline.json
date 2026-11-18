@@ -1,0 +1,381 @@
+{
+ "_doc": "CalMeter English 30 s english-21 (batch 21, 2026-11-18): one coconut, two foods: coconut water vs coconut meat, 'WATER OR MEAT?'. The requested roasted vs cooked chickpeas was english-10, so this genuinely different same-genre topic was chosen (context/36). Full-frame scenes, playful coconut character, 84 px captions and whip-pan motion per the 2026-11-18 feedback (context/34). 30 fps, 900 frames. Voice starts (s) and word frames from the ASR timing pass on the takes (qa/asr-takes.txt); T3 '354' placed at 17.60 s from the take's energy envelope and small.en on the final mix (its base.en take timestamp collapsed).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.75
+  },
+  {
+   "id": "T2",
+   "at": 8.35
+  },
+  {
+   "id": "T3",
+   "at": 14.25
+  },
+  {
+   "id": "T4",
+   "at": 19.2
+  },
+  {
+   "id": "T5",
+   "at": 23.05
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 52,
+   "lines": [
+    [
+     "One coconut,",
+     4
+    ],
+    [
+     "two foods.",
+     20
+    ]
+   ]
+  },
+  {
+   "in": 55,
+   "out": 100,
+   "lines": [
+    [
+     "Which part packs",
+     58
+    ],
+    [
+     "the calories?",
+     78
+    ]
+   ]
+  },
+  {
+   "in": 110,
+   "out": 178,
+   "lines": [
+    [
+     "Its water:",
+     112
+    ],
+    [
+     "about 40 kcal.",
+     125
+    ]
+   ]
+  },
+  {
+   "in": 180,
+   "out": 240,
+   "lines": [
+    [
+     "Its meat:",
+     182
+    ],
+    [
+     "about 1,400!",
+     201
+    ]
+   ]
+  },
+  {
+   "in": 248,
+   "out": 304,
+   "lines": [
+    [
+     "Per 100 g,",
+     250
+    ],
+    [
+     "coconut water",
+     286
+    ]
+   ]
+  },
+  {
+   "in": 306,
+   "out": 370,
+   "lines": [
+    [
+     "is 95% water:",
+     308
+    ]
+   ]
+  },
+  {
+   "in": 372,
+   "out": 420,
+   "lines": [
+    [
+     "just 19 kcal.",
+     374
+    ]
+   ]
+  },
+  {
+   "in": 426,
+   "out": 474,
+   "lines": [
+    [
+     "The meat is only",
+     428
+    ],
+    [
+     "half water,",
+     446
+    ]
+   ]
+  },
+  {
+   "in": 475,
+   "out": 518,
+   "lines": [
+    [
+     "and a third",
+     477
+    ],
+    [
+     "of it is fat:",
+     489
+    ]
+   ]
+  },
+  {
+   "in": 526,
+   "out": 570,
+   "lines": [
+    [
+     "354 kcal.",
+     528
+    ]
+   ]
+  },
+  {
+   "in": 574,
+   "out": 646,
+   "lines": [
+    [
+     "So one small piece,",
+     576
+    ],
+    [
+     "45 grams,",
+     605
+    ]
+   ]
+  },
+  {
+   "in": 648,
+   "out": 690,
+   "lines": [
+    [
+     "is about 160:",
+     651
+    ]
+   ]
+  },
+  {
+   "in": 691,
+   "out": 736,
+   "lines": [
+    [
+     "as much as 3½",
+     692
+    ],
+    [
+     "glasses",
+     727
+    ]
+   ]
+  },
+  {
+   "in": 737,
+   "out": 790,
+   "lines": [
+    [
+     "of coconut water.",
+     738
+    ]
+   ]
+  },
+  {
+   "in": 812,
+   "out": 848,
+   "lines": [
+    [
+     "Track your food",
+     813
+    ],
+    [
+     "and nutrition",
+     832
+    ]
+   ]
+  },
+  {
+   "in": 850,
+   "out": 906,
+   "lines": [
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "whipAB": 100,
+  "crackB": 112,
+  "pour": 116,
+  "k40": 128,
+  "meatOut": 182,
+  "k1400": 203,
+  "whipBC": 240,
+  "fill100": 252,
+  "w95": 317,
+  "k19": 380,
+  "whipCD": 414,
+  "chunk": 428,
+  "halfWater": 446,
+  "fatOut": 483,
+  "thirdFat": 498,
+  "k354": 528,
+  "whipDE": 566,
+  "piece": 584,
+  "g45": 605,
+  "k160": 656,
+  "glass1": 704,
+  "glass2": 711,
+  "glass3": 718,
+  "glassH": 724,
+  "level": 730,
+  "eq": 738,
+  "cta": 806,
+  "ctaWord": 851,
+  "s95": 312,
+  "sW": 460,
+  "sF": 506
+ },
+ "sfx": [
+  {
+   "ev": "crackB",
+   "type": "crack",
+   "gain": -22
+  },
+  {
+   "ev": "pour",
+   "type": "pour",
+   "dur": 0.9,
+   "gain": -28
+  },
+  {
+   "ev": "meatOut",
+   "type": "clack",
+   "dur": 0.5,
+   "gain": -27
+  },
+  {
+   "ev": "whipAB",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "whipBC",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "fill100",
+   "type": "pour",
+   "dur": 0.7,
+   "gain": -29
+  },
+  {
+   "ev": "s95",
+   "type": "tick",
+   "gain": -25
+  },
+  {
+   "ev": "whipCD",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "chunk",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "sW",
+   "type": "juice",
+   "gain": -27
+  },
+  {
+   "ev": "sF",
+   "type": "juice",
+   "gain": -28
+  },
+  {
+   "ev": "whipDE",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "piece",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "glass1",
+   "type": "clink",
+   "gain": -33
+  },
+  {
+   "ev": "glass2",
+   "type": "clink",
+   "gain": -33
+  },
+  {
+   "ev": "glass3",
+   "type": "clink",
+   "gain": -33
+  },
+  {
+   "ev": "glassH",
+   "type": "clink",
+   "gain": -33
+  },
+  {
+   "ev": "level",
+   "type": "creak",
+   "gain": -33
+  },
+  {
+   "ev": "cta",
+   "type": "boing",
+   "gain": -30
+  },
+  {
+   "ev": "ctaWord",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -29
+  }
+ ],
+ "_sfx_note": "no foley lands on a spoken number; number pops are visual only in this episode"
+}

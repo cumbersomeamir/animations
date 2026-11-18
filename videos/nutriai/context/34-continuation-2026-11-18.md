@@ -20,4 +20,8 @@ How it is applied from english-20 on (creative decisions, recorded here so later
 
 ## Topic decisions
 - Batch 20, pistachios (shell weight vs edible weight, per-100 g kernel breakdown, practical portion): never covered (peanuts were english-06; no pistachio anywhere in this app) → requested topic used. Details: `35-production-30s-english20-pistachios.md`.
-- Batch 21, "roasted chickpeas vs cooked chickpeas: same food, water changes calories per gram": already produced as english-10 (`23-production-30s-english10-chickpeas.md`, 2026-11-09: same USDA records, same water-removal mechanism, same snack-portion payoff). Water-per-gram stories also carried english-08 (raisins), english-13 (rice) and english-17 (watermelon). Replacement chosen and explained in `36-production-30s-english21-*.md`.
+- Batch 21, "roasted chickpeas vs cooked chickpeas: same food, water changes calories per gram": already produced as english-10 (`23-production-30s-english10-chickpeas.md`, 2026-11-09: same USDA records, same water-removal mechanism, same snack-portion payoff). Water-per-gram stories also carried english-08 (raisins), english-13 (rice) and english-17 (watermelon). Replacement: coconut water vs coconut meat (one coconut, two foods; never covered), explained in `36-production-30s-english21-coconut.md`.
+
+## Outcome (2026-11-18)
+- english-20 pistachios: committed and pushed at `8f755ff`, MP4 + thumbnail attached in chat.
+- english-21 coconut: see `05-progress.md` section 28 for the commit.
