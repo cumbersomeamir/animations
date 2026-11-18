@@ -17,8 +17,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - **Topic:** new (no deposit or wear-and-tear episode in 01–19). Record:
   `context/episodes/2026-11-17-english20-deposit-wear-and-tear-tn.md`.
 - **18 Nov feedback** persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit c5772d2): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-17-english-20/courtlens-30s-english20-01.mp4`
+    sha256 `6b8d5ca09fa636e4fae6cd4635f2b6e204676b06f8e4b884d5b7e6bbf5bb6d14`
+  - `courtlens-30s-english20-01-thumbnail.png`
+    sha256 `e324e28eb87b1f325b04d0002ad460c55d1c18d0e3f5d6a432e69e342496dd24`
+  - QA: `production/30s/2026-11-17-english-20/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-17-english-20/notes/LEGAL-SOURCES.md`)
 - **TN Act 42 of 2017** (Gazette copy via PRS, sha256 09a11942…cc1a91; extends to the state's urban areas, s.1(2)):
@@ -74,8 +80,25 @@ PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-e
 - **Narration:** trimmed from 28.4 s to 26.4 s. "Tamil Nadu's tenancy law draws the line" was heard with a break, so
   it became "…says:".
 
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −15.9 LUFS, true peak −2.4 dBFS; 9/9 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.013 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 104..897, y 358..516 (`src/capcheck.py`); top zone darkest pixel 205.
+- Frame 0 vs thumbnail mean abs diff 1.52/255 outside the chip band.
+- Render: 900/900 frames in one pass (107 s), no retries. Frame review found no defect needing a re-render.
+
+### Unresolved
+- Listening is ASR-only. Nobody listened to it or watched it in real time.
+- **Interpretation:** a cost the Act excludes (normal wear and tear) or assigns to the landlord (repainting) is not a
+  "liability of the tenant" for s.11(2). No court ruling on this point was read.
+- The commencement of Act 19 of 2022 is unconfirmed; it doesn't touch the sections used. The principal Act's
+  22 Feb 2019 commencement rests on secondary sources plus the G.O. reference.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail. Then batch 21.
+- Batch 21 (English) in this session. `$S/build20/frames` is deleted after delivery.
 
 ## Round 2026-11-17 (english-19, batch 19): "₹18 for their bag?": carry bag charges
 
