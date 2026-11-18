@@ -221,7 +221,28 @@ Brief, topic decision, history table, script, sources: 18-episode-more-boxes-mor
 - QA fixes: bigger mouse; saw grip/tilt; wider column gap; hook motion; "halve" → "cut … in half" (homophone of
   "have"); rasp/glint moved off words; card raised + in front of shelves; zoom capped; mux headroom (qa/QA.md).
 
+## 2026-11-18 batch english-21 — "The Octopus's Square Picnic" (delivered)
+Brief, topic decision, history table, script, sources: 19-episode-octopus-square-picnic.md.
+- Topic decision: requested 7 × 4 = 28 (seven picnic baskets of four oranges) = english18-01 (seven boats of four
+  friends, 4 × 7 = 28) → a genuinely different subject in the same genre: square numbers (4 × 4 = 16; rows = columns;
+  a number times itself makes a square). Kept octopus, picnic baskets, four oranges each, grouping, clear count, funny
+  payoff, one number at a time. Frame-0 words "A SQUARE OF ORANGES?".
+- Facts: Oak National Academy KS2 "Represent a square number" (definitions quoted); England NC KS1–2 Y5; CCSS 2.G.A.2,
+  3.OA.A.3, 3.OA.A.4, 3.OA.D.9.
+- Creative (entertainment first): new cut-paper octopus (src/octopus.mjs) on a paper seaside page with a gingham
+  blanket; holds 4 baskets, tips them, oranges roll into two piles on the sand, a basket lands on its head as a hat
+  (bonk, dizzy, camera bump); arms carry four oranges per row; hat-scratch pause; arms measure 4 across / 4 down with
+  rings; dashed square pops; count 4/8/12/16 in the caption; card 4 × 4 = 16; square dance + wink; C-major score.
+- Commands: see production/30s/2026-11-18-english-21/README.md (same pipeline as english-20; render ≈ 1.5 min).
+- Paths: production/30s/2026-11-18-english-21/ — tableverse-30s-english21-01.mp4 (sha256 df97c821845d7ee7c7bb31f4ea13cabf2be1fd56adc35ae348c783881d57f21f) +
+  tableverse-30s-english21-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.1 LUFS, −2.2 dBTP; ASR
+  transcript matches script (window ASR: hook, "Uh oh", measure + count, payoff, CTA; one hallucinated "Square." in the
+  narration-free dance, VO stem silent there); captions x 206–794 / y 240–396; 16 oranges on contact sheet + 58 frames.
+  Machine-only listening.
+- QA fixes: mess moved to the sand (no hidden oranges); baskets resized/spaced; across-arm route; measuring rings;
+  bigger octopus + visible dance arms; "Uh-oh" → "Uh oh" (narrator read "Oh") (details in qa/QA.md).
+
 ## Unresolved / next
-- Batch english-21 (2026-11-18): octopus brief "7 × 4 = 28 with seven picnic baskets of four oranges" — repeats
-  english18-01 (seven boats × four friends, 4 × 7 = 28) → genuinely different topic needed (planned: square numbers,
-  4 × 4 = 16 as a square array). Await user review of english20-01.
+- Await user review of english20-01 and english21-01 (both attached in chat and pushed). No further episode started.
+- Both briefs this session repeated covered topics; the replacements are documented in context/18 and 19.

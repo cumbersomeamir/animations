@@ -1,0 +1,73 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Can sixteen oranges make a perfect square? Ask this silly octopus!",
+      "seconds": 4.101,
+      "frames": 123.0
+    },
+    "v02": {
+      "text": "Four baskets, four oranges in each.",
+      "seconds": 2.016,
+      "frames": 60.5
+    },
+    "v03": {
+      "text": "Uh oh! It tips them all out. What a mess!",
+      "seconds": 2.152,
+      "frames": 64.6
+    },
+    "v04": {
+      "text": "Tidy up, octopus! Four in every row.",
+      "seconds": 2.464,
+      "frames": 73.9
+    },
+    "v05": {
+      "text": "Four rows of four. Is it a square?",
+      "seconds": 1.859,
+      "frames": 55.8
+    },
+    "v06": {
+      "text": "Four across, four down. The same both ways!",
+      "seconds": 2.699,
+      "frames": 81.0
+    },
+    "c04": {
+      "text": "Four!",
+      "seconds": 0.493,
+      "frames": 14.8
+    },
+    "c08": {
+      "text": "Eight!",
+      "seconds": 0.47,
+      "frames": 14.1
+    },
+    "c12": {
+      "text": "Twelve!",
+      "seconds": 0.536,
+      "frames": 16.1
+    },
+    "c16": {
+      "text": "Sixteen!",
+      "seconds": 0.674,
+      "frames": 20.2
+    },
+    "v07": {
+      "text": "Four times four is sixteen. It's a square number!",
+      "seconds": 2.725,
+      "frames": 81.8
+    },
+    "v08": {
+      "text": "A number times itself makes a square.",
+      "seconds": 1.809,
+      "frames": 54.3
+    },
+    "v09": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
