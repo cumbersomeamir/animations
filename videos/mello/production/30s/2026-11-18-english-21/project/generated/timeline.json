@@ -1,0 +1,106 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Keep good news to yourself?",
+      "start": 0.15,
+      "end": 1.476,
+      "pauses": [
+        [
+          0.325,
+          0.408
+        ]
+      ]
+    },
+    {
+      "id": "super",
+      "text": "Telling someone might make it bigger.",
+      "start": 1.95,
+      "end": 3.537,
+      "pauses": []
+    },
+    {
+      "id": "diary",
+      "text": "In diary studies, days when people shared good news had more positive mood, beyond the event itself.",
+      "start": 4.25,
+      "end": 10.678,
+      "pauses": [
+        [
+          5.42,
+          5.759
+        ],
+        [
+          8.86,
+          9.3
+        ]
+      ]
+    },
+    {
+      "id": "exp",
+      "text": "In experiments, sharing made good news feel more valuable, especially when the listener was enthusiastic.",
+      "start": 11.15,
+      "end": 17.496,
+      "pauses": [
+        [
+          12.068,
+          12.244
+        ],
+        [
+          14.558,
+          14.953
+        ],
+        [
+          16.585,
+          16.675
+        ],
+        [
+          17.368,
+          17.447
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So tonight, tell one person about one small win.",
+      "start": 18.55,
+      "end": 21.412,
+      "pauses": [
+        [
+          19.143,
+          19.329
+        ]
+      ]
+    },
+    {
+      "id": "back",
+      "text": "And when someone shares theirs, respond with real interest.",
+      "start": 21.95,
+      "end": 25.222,
+      "pauses": [
+        [
+          23.233,
+          23.516
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
