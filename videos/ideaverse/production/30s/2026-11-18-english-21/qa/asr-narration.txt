@@ -1,0 +1,9 @@
+s1 placed  0.20s  heard [ 0.05.. 4.33]  MATCH: Two photos. One was made by AI and the proof is hidden inside it.
+s2 placed  4.65s  heard [ 4.50.. 8.58]  MATCH: Google's AI hides a watermark in the pixels as it makes the image.
+s3 placed  9.05s  heard [ 8.90..13.60]  MATCH: A second model trained with it can still find it after crops, filters, or compression.
+s4 placed 14.20s  heard [14.05..15.53]  MATCH: That's what Gemini checks for.
+s5 placed 16.00s  heard [15.85..20.53]  MATCH: But no mark only means Google's AI didn't make it. Another AI could have.
+s6 placed 21.00s  heard [20.85..24.81]  MATCH: So no mark isn't proof it's real. Find where the photo first appeared.
+s7 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

@@ -59,5 +59,10 @@ Illustrative (not measured): both photos, the mark pattern and enlarged pixels, 
 8. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "WHICH ONE / IS AI?".
 
-## QA / status
-- IN PROGRESS (2026-11-18): stage, narration, score written; stills checked; full render queued after english-20.
+## QA / status — DELIVERED 2026-11-18
+- Output: production/30s/2026-11-18-english-21/ideaverse-30s-english21-01.mp4 · sha256 164a40c2…5309, plus
+  ideaverse-30s-english21-01-thumbnail.png ("WHICH ONE / IS AI?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.6 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption text inside x 100..900; top band text-free.
+- Frames: 900 in 1723 s (3 workers) + re-renders 63–93, 135–172, 309–329; score re-mixed after the build cue moved to the cut.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

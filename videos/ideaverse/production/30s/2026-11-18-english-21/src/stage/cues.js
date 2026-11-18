@@ -8,7 +8,7 @@ const CUES = {
     // A · hook: two framed photos, WHICH ONE IS AI? from frame 0; "made by AI" 2.04 · "hidden inside it" 3.36–4.32 → push in
     ai: 2.0, hidden: 3.35,
     // B · card: "Google's AI hides" 4.65–5.95 → the image builds; "a watermark" 6.03 → zoom box; "in the pixels" 6.79 → marks
-    cut1: 4.5, gen: [4.65, 5.75], lens: 6.0, marks: [6.6, 7.3],
+    cut1: 4.5, gen: [4.5, 5.6], lens: 6.0, marks: [6.6, 7.3],
     // C · "A second model" 9.11–9.63 → FINDER; "trained with it" 9.63–10.43 → linked; "can still find it" 10.77–11.69 → scan, ✓
     finder: 9.15, together: 9.7, findScan: [10.8, 11.4], found1: 11.45,
     // D · the print: "crops" 11.83 · "filters" 12.57 · "compression" 13.25 → each edit, the mark still found
@@ -29,12 +29,12 @@ const CUES = {
   // caption safe area: x 100..900, y 230..1500 (pill centred at x 500, max width 800)
   captions: [
     { t0: 0.15, t1: 1.25, lines: [[['Two photos.', 1]]] },
-    { t0: 1.25, t1: 2.85, lines: [[['One was made', 0]], [['by ', 0], ['AI,', 2]]] },
-    { t0: 2.85, t1: 4.5, lines: [[['and the proof is', 0]], [['hidden inside it.', 1]]] },
+    { t0: 1.25, t1: 2.3, lines: [[['One was made', 0]], [['by ', 0], ['AI,', 2]]] },
+    { t0: 2.3, t1: 4.5, lines: [[['and the proof is', 0]], [['hidden inside it.', 1]]] },
     { t0: 4.6, t1: 6.53, lines: [[['Google’s AI hides', 0]], [['a ', 0], ['watermark', 1]]] },
     { t0: 6.53, t1: 8.95, lines: [[['in the ', 0], ['pixels', 1], [' as it', 0]], [['makes the image.', 0]]] },
-    { t0: 9.0, t1: 10.72, lines: [[['A ', 0], ['second model,', 1]], [['trained with it,', 0]]] },
-    { t0: 10.72, t1: 12.5, lines: [[['can still find it', 0]], [['after ', 0], ['crops,', 1]]] },
+    { t0: 9.0, t1: 10.5, lines: [[['A ', 0], ['second model,', 1]], [['trained with it,', 0]]] },
+    { t0: 10.5, t1: 12.5, lines: [[['can still find it', 0]], [['after ', 0], ['crops,', 1]]] },
     { t0: 12.5, t1: 14.1, lines: [[['filters', 1], [' or', 0]], [['compression.', 1]]] },
     { t0: 14.15, t1: 15.9, lines: [[['That’s what', 0]], [['Gemini', 1], [' checks for.', 0]]] },
     { t0: 15.95, t1: 18.95, lines: [[['But ', 0], ['no mark', 2], [' only means', 0]], [['Google’s AI didn’t make it.', 0]]] },

@@ -208,7 +208,10 @@
   Icon re-checked (unchanged). ASR checker: "1" → "one" + digit-or-word caption test (also copied to english-21).
 
 ---
-# CURRENT — english-21 (2026-11-18, batch21) — IN PROGRESS
+# CURRENT — english-21 (2026-11-18, batch21) — DELIVERED
 - Proposed voice-clone topic = repeat of english12-01 → SynthID invisible watermarks / "no mark ≠ real" (record context/36).
-- Stage src/stage/synthid.js; narration ASR-verified; score written; frames rendered (900); next: encode, caplog, thumb,
-  mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
+  production/30s/2026-11-18-english-21/ideaverse-30s-english21-01.mp4 (sha256 164a40c2…5309) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1723 s (3 workers) + re-renders 63–93, 135–172, 309–329; score re-mixed.
+- Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS; 26 earlier MP4s unchanged.
+  Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.
