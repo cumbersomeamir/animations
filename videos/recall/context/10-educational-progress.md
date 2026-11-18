@@ -170,3 +170,8 @@ H04, so a distinct kitchen-physics topic was chosen (reason in context 32); deli
 ## Update 2026-11-17 batch 20 — english-20
 Episode E20 "This straw isn't broken" (why a straw looks broken in water; refraction and apparent depth; English). The suggested
 noise-cancelling topic was already F05, so a distinct everyday-science topic was chosen (reason in context 33); deliverable `videos/recall/production/30s/2026-11-17-english-20/recall-30s-english20-01.mp4` + thumbnail.
+
+## Update 2026-11-18 batch 21 — english-21
+Episode E21 "This drop is floating" (why a water drop skates on a very hot pan; the Leidenfrost effect and the pan water test;
+English). The suggested microwave frozen-centre topic was already R02, so a distinct kitchen-physics topic was chosen (reason in
+context 34); deliverable `videos/recall/production/30s/2026-11-18-english-21/recall-30s-english21-01.mp4` + thumbnail.
