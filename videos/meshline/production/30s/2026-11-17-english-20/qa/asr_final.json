@@ -1,0 +1,50 @@
+{
+ "reference": "Your phone is beside a tower, yet it uses a farther one. Why? That tower may not belong to your network. Among your network's towers, measured signal counts, not distance. And when a stronger tower appears, the switch still waits. It must win by a margin, for a set time, to avoid bouncing back and forth. So the nearest tower is not always yours, and switches take a moment. Download Meshline for nearby messages, even offline.",
+ "asr": "Your phone is beside a tower, yet it uses a farther one. Why? That tower may not belong to your network. Among your network's towers, measured signal counts not distance. And when a stronger tower appears, the switch still waits. It must win by a margin for a set time to avoid bouncing back and forth. So the nearest tower is not always yours, and switches take a moment. Download Meshline for nearby messages, even offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.5,
+   "Your phone is beside a tower, yet it uses a farther one."
+  ],
+  [
+   3.5,
+   4.5,
+   "Why?"
+  ],
+  [
+   4.5,
+   7.5,
+   "That tower may not belong to your network."
+  ],
+  [
+   7.5,
+   12.0,
+   "Among your network's towers, measured signal counts not distance."
+  ],
+  [
+   12.0,
+   15.5,
+   "And when a stronger tower appears, the switch still waits."
+  ],
+  [
+   15.5,
+   21.5,
+   "It must win by a margin for a set time to avoid bouncing back and forth."
+  ],
+  [
+   21.5,
+   26.0,
+   "So the nearest tower is not always yours, and switches take a moment."
+  ],
+  [
+   26.0,
+   30.0,
+   "Download Meshline for nearby messages, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "none needed (no digits; lower-case, punctuation stripped)",
+ "audio_pcm_sha256_prefix": "3bfd89cbce7336a7"
+}

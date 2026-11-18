@@ -119,3 +119,6 @@
 
 ## Production 2026-11-17-english-19 (English, why two nearby radios can collide without hearing each other): complete
 - See `32-production-30s-english19-01.md`; output sha256 `504cd9325ebab6061f1717b6fc2fa8810bb5a7c20bdccdbe0ae3cda7a9340ae4`; thumbnail = frame-zero composition.
+
+## Production 2026-11-17-english-20 (English, why your phone skips the nearest tower): complete
+- See `33-production-30s-english20-01.md`; output sha256 `34cd0eaf8a0f82ab5c100eefc29788cc1146b46c28b5f0c2a234fb83e7a97d18`; thumbnail = frame-zero composition.

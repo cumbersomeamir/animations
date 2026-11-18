@@ -274,6 +274,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Simulated counters:** when a counter shows a count, derive it from the same simulation that drives the visuals, and state in `claims.md` that it is illustrative.
 | 20 | 2026-11-15-english-18 | Why a route that worked a minute ago can fail now (mobility, hellos, stale route, route request/reply), **English** + thumbnail | `production/30s/2026-11-15-english-18/meshline-30s-english18-01.mp4` |
 | 21 | 2026-11-17-english-19 | Why two nearby radios can collide without hearing each other (hidden terminal, sensing at sender vs collision at receiver, RTS/CTS turn-taking), **English** + thumbnail | `production/30s/2026-11-17-english-19/meshline-30s-english19-01.mp4` |
+| 22 | 2026-11-17-english-20 | Why your phone skips the nearest tower (network membership, ranking by measured signal, margin + set time against ping-pong), **English** + thumbnail | `production/30s/2026-11-17-english-20/meshline-30s-english20-01.mp4` |
 
 ## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
 - **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
@@ -284,3 +285,9 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Topics now taken:** hidden terminal and RTS/CTS (21). Still unused planned titles: what 5G changes; how a phone picks a tower.
 - **TTS/ASR wording:** single-letter node names ("A and C") are misheard; name devices by position or role.
 - **Frame zero:** open on the outcome itself (here, the collision burst), then replay the cause inside the hook.
+
+## Production notes 2026-11-17, batch english-20 (specific adjustments only; the standing briefs still apply)
+- **Topic rule applied:** "crowd kills the connection despite full bars" repeats 01/12/17; swapped to how a phone picks a tower (22). Still unused planned title: what 5G changes.
+- **CTA feedback ("No, call to action needed"), now standing:** start the spoken CTA with an action verb ("Download Meshline for nearby messages, even offline.") and show an explicit button under the icon and wordmark ("Download free · Android", listing facts only). Keep the CTA in the last ~3.5 s.
+- **TTS/ASR wording:** "wins" was heard as "winds"; prefer "counts".
+- **Model-driven labels:** labels that announce a state change ("stronger", the switch) are timed from the same model that draws the bars (computed crossings), not hand-placed.

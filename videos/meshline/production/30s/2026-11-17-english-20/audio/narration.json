@@ -1,0 +1,49 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "Your phone is beside a tower, yet it uses a farther one. Why?"
+  },
+  {
+   "id": "l2",
+   "start": 4.67,
+   "text": "That tower may not belong to your network."
+  },
+  {
+   "id": "l3",
+   "start": 7.66,
+   "text": "Among your network's towers, measured signal counts, not distance."
+  },
+  {
+   "id": "l4",
+   "start": 12.1,
+   "text": "And when a stronger tower appears, the switch still waits."
+  },
+  {
+   "id": "l5",
+   "start": 15.86,
+   "text": "It must win by a margin, for a set time, to avoid bouncing back and forth."
+  },
+  {
+   "id": "l6",
+   "start": 21.56,
+   "text": "So the nearest tower is not always yours, and switches take a moment."
+  },
+  {
+   "id": "l7",
+   "start": 26.09,
+   "text": "Download Meshline for nearby messages, even offline."
+  }
+ ]
+}
