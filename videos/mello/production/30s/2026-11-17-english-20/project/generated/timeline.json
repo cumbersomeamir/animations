@@ -1,0 +1,123 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Does naming a feeling help?",
+      "start": 0.15,
+      "end": 1.451,
+      "pauses": [
+        [
+          1.321,
+          1.401
+        ]
+      ]
+    },
+    {
+      "id": "expect",
+      "text": "Many people expect it to make things worse.",
+      "start": 1.9,
+      "end": 4.145,
+      "pauses": [
+        [
+          2.864,
+          2.944
+        ],
+        [
+          3.365,
+          3.445
+        ]
+      ]
+    },
+    {
+      "id": "study",
+      "text": "But in studies, putting feelings into words while viewing upsetting images lowered reported distress.",
+      "start": 4.55,
+      "end": 10.543,
+      "pauses": [
+        [
+          5.365,
+          5.728
+        ],
+        [
+          7.147,
+          7.311
+        ]
+      ]
+    },
+    {
+      "id": "compare",
+      "text": "It worked about as well as reframing or distraction.",
+      "start": 11.0,
+      "end": 13.751,
+      "pauses": [
+        [
+          11.289,
+          11.362
+        ]
+      ]
+    },
+    {
+      "id": "brain",
+      "text": "Brain scans showed less amygdala activity, too.",
+      "start": 14.6,
+      "end": 17.404,
+      "pauses": [
+        [
+          16.463,
+          16.545
+        ],
+        [
+          16.889,
+          17.04
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So when a tense message lands, pause and name it: I feel anxious.",
+      "start": 18.2,
+      "end": 22.118,
+      "pauses": [
+        [
+          19.714,
+          19.83
+        ],
+        [
+          20.721,
+          21.159
+        ]
+      ]
+    },
+    {
+      "id": "qual",
+      "text": "The feeling stays, but often a little softer.",
+      "start": 22.8,
+      "end": 25.238,
+      "pauses": [
+        [
+          23.737,
+          23.985
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
