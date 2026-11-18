@@ -1,0 +1,182 @@
+[
+ {
+  "line": "V1",
+  "text": "This drill / has no bit.",
+  "cue": [
+   0.0,
+   1.46
+  ],
+  "speech": [
+   0.072,
+   1.2
+  ],
+  "lead_s": 0.072,
+  "tail_s": 0.26,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "This week, Google signed to / buy power from its maker.",
+  "cue": [
+   1.48,
+   4.65
+  ],
+  "speech": [
+   1.582,
+   4.39
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.26,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Why burn rock / instead of drilling?",
+  "cue": [
+   4.67,
+   6.58
+  ],
+  "speech": [
+   4.771,
+   6.3
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.28,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "Every kilometer down adds / about 25 degrees,",
+  "cue": [
+   6.6,
+   9.725
+  ],
+  "speech": [
+   6.701,
+   9.579
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.146,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "enough to wreck drill bits.",
+  "cue": [
+   9.745,
+   11.52
+  ],
+  "speech": [
+   9.913,
+   11.279
+  ],
+  "lead_s": 0.168,
+  "tail_s": 0.241,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "But super-hot water / carries far more energy.",
+  "cue": [
+   11.54,
+   14.12
+  ],
+  "speech": [
+   11.642,
+   13.852
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.268,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "So a fusion-style beam / vaporizes rock,",
+  "cue": [
+   14.14,
+   16.775
+  ],
+  "speech": [
+   14.242,
+   16.629
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.146,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "and gas blows it out.",
+  "cue": [
+   16.795,
+   18.38
+  ],
+  "speech": [
+   16.963,
+   18.11
+  ],
+  "lead_s": 0.168,
+  "tail_s": 0.27,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "The catch: the first wells / will still use ordinary drills.",
+  "cue": [
+   18.4,
+   22.04
+  ],
+  "speech": [
+   18.502,
+   21.801
+  ],
+  "lead_s": 0.102,
+  "tail_s": 0.239,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "If beams scale, Earth's heat / could run data centers",
+  "cue": [
+   22.06,
+   24.999
+  ],
+  "speech": [
+   22.16,
+   24.999
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.0,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "day and night.",
+  "cue": [
+   25.019,
+   26.02
+  ],
+  "speech": [
+   25.019,
+   25.764
+  ],
+  "lead_s": 0.0,
+  "tail_s": 0.256,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.04,
+   29.543
+  ],
+  "speech": [
+   26.173,
+   29.197
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "frames": 900,
+ "frames_with_captions": 877,
+ "caption_ink_y_min": 340,
+ "caption_ink_y_max": 516,
+ "caption_x_min": 196,
+ "caption_x_max": 885,
+ "label_x_min": 204,
+ "label_x_max": 876,
+ "label_y_min": 1350,
+ "label_y_max": 1482,
+ "violations": []
+}

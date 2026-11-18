@@ -400,3 +400,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Narration 82 words / 26.7 s, every take checked by Whisper ("Quaise" → on-screen only; unverifiable 118 m line dropped).
 - Operational: RAM disk /dev/shm/md-e21 (frames, stills, qa_frames, audio WAVs); ~137 MB disk. Running: three render_chunks workers; next
   build, chunk-start frame check, thumbnail, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-18 — english-21 / batch 21 delivered
+- production/30s/2026-11-18-english-21/media-diet-30s-english21-01.mp4 (SHA-256 8d9c424ed53d46d6887628fce23f50cfff2470140f15be8536380c8b3933769a)
+  + thumbnail-english21-01.png (= frame 0); record context/36; context/11 log row → delivered.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS / −1.8 dBTP;
+  captions y 340–516, x 196–885; labels y 1350–1482; 0 violations; caption↔speech 12/12; Whisper 1.0 full and per line; chunk starts continuous.
+- Operational: RAM disk /dev/shm/md-e21 (lost on restart); ~88 MB disk before this commit (MP4 39 MB). Disk is the bottleneck for future
+  episodes: each delivered MP4 + its git object costs ~50–80 MB.
+- Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.

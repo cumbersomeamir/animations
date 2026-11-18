@@ -51,5 +51,10 @@ limitation line ("its record hole is 118 meters") was dropped because the curren
 Disk ~137 MB free; frames, stills, QA frames and intermediate audio WAVs on the RAM disk /dev/shm/md-e21 via gitignored symlinks (the RAM
 disk was empty after a container restart; nothing on disk was deleted).
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 8d9c424ed53d46d6887628fce23f50cfff2470140f15be8536380c8b3933769a; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −1.8 dBTP; captions ink y 340–516, x 196–885; labels x 204–876,
+y 1350–1482; 0 violations; caption↔speech 12/12; Whisper 1.0 full pass and per line; chunk-start continuity checked (no glitches).
+Thumbnail = frame 0 (SHA-256 f4cfc5ba…173b), mean abs diff vs encoded frame 0 = 1.67/255.
+Limits: power from 2030, first wells conventional (stated); 25 °C/km rule of thumb; 10× is a company estimate; generic paper models; not
+yet watched or listened to by a human.

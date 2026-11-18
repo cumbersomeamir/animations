@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "This drill has no bit. This week, Google signed to buy power from its maker. Why burn rock instead of drilling? Every kilometer down adds about 25 degrees, enough to wreck drill bits. But super hot water carries far more energy, so a fusion-style beam vaporizes rock and gas blows it out. The catch, the first wells will still use ordinary drills. If beams scale, Earth's heat could run data centers day and night. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.25
+   ],
+   "transcript": "This drill has no bit.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.56,
+    4.44
+   ],
+   "transcript": "This week, Google signed to buy power from its maker.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    4.75,
+    6.35
+   ],
+   "transcript": "Why burn rock instead of drilling?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    6.68,
+    11.33
+   ],
+   "transcript": "Every kilometer down adds about 25 degrees, enough to wreck drill bits.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    11.62,
+    13.9
+   ],
+   "transcript": "But super hot water carries far more energy.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    14.22,
+    18.16
+   ],
+   "transcript": "So a fusion-style beam vaporizes rock, and gas blows it out.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    18.48,
+    21.85
+   ],
+   "transcript": "The catch, the first wells will still use ordinary drills.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    22.14,
+    25.81
+   ],
+   "transcript": "If beams scale, Earth's heat could run data centers day and night.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.12,
+    29.24
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "This drill has no bit. This week, Google signed to buy power from its maker. Why burn rock instead of drilling? Every kilometer down adds about 25 degrees, enough to wreck drill bits. But super hot water carries far more energy. So a fusion-style beam vaporizes rock, and gas blows it out. The catch, the first wells will still use ordinary drills. If beams scale, Earth's heat could run data centers day and night. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}
