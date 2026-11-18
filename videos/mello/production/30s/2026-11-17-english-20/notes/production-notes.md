@@ -45,7 +45,9 @@ The source is a copy of `../../2026-11-17-english-19/project/` (renderer, audit,
 4. Render 1 (sha256 `5e689860…`, kept out of the repo) failed 2 of 16 checks:
    - `safe_zones`: the message screen was in the right rail during S2 (x up to 1048, from the other camera side). It is now hidden in S2, where it is not needed.
    - `cuts_on_plan`: the S4→S5 cut changed the frame by only 6.5, because the card faded out to the empty room before the cut. The fade-out was removed, and the card now cuts straight to the brain (53.1 on stills).
-   - Render 2 is the final.
+5. Render 2 (sha256 `bcd818f8…`, kept out of the repo) passed all 16 checks. But in S6–S7 the gold "I feel anxious" tag sat behind the message screen and was cut to "I feel a…".
+   - The tag now floats in front of the screen (z +0.48) and reads in full.
+   - Render 3 is the final.
 
 ## Commands
 ```bash

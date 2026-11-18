@@ -469,7 +469,7 @@ function setEpisode(t) {
     if (t >= S.s2 && t < S.s3) { const gA = sm(remap(t, T.ghostA, T.ghostB)); ghost.visible = gA > 0.01; ghost.position.copy(storm.position); ghost.rotation.copy(storm.rotation); ghost.scale.setScalar(sc * lerp(1.0, 1.35, gA)); ghost.material.opacity = 0.3 * gA; } }
   const lab = (L, a, pos, s) => { L.visible = a > 0.003; if (!L.visible) return; L.position.copy(pos); L.quaternion.copy(camera.quaternion); L.scale.setScalar(s * lerp(0.75, 1, a)); L.userData.body.material.opacity = a; L.userData.txt.material.opacity = a; };
   lab(worseTag, t >= S.s2 && t < S.s3 ? sm(remap(t, T.ghostB - 0.4, T.ghostB)) : 0, STORM_AT.clone().add(V(-0.2, -0.3, 0.12)), 1.1);
-  lab(nameTag, t >= S.s6 ? sm(remap(t, T.tagA, T.tagB)) : 0, storm.position.clone().add(V(0.2, -0.22, 0.16)), 1.1);
+  lab(nameTag, t >= S.s6 ? sm(remap(t, T.tagA, T.tagB)) : 0, storm.position.clone().add(V(0.1, -0.26, 0.48)), 1.0);   // in front of the message screen, so the tag is never cut
   // the card (S3-S4)
   const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25));   // no fade-out: a clean cut from the dark card to the brain
   card.visible = cardShot && v > 0.003; card.position.copy(CARD_POS); card.rotation.set(0, camYaw(CARD_POS), 0);
