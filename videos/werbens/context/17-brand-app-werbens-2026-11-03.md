@@ -116,3 +116,8 @@ logo SVG sha256 816c1761… unchanged. Dark-navy hero theme kept in every scene 
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-19 check; wordmark styling unchanged;
 logo SVG sha256 816c1761… unchanged. Live feedback "only color theme and logo needs to be changed, take from app.werbens.com"
 applied: dark-navy hero theme and the unchanged logo SVG in every scene (context/36 §3).
+
+## Re-check for english-21 (batch21, 2026-11-18)
+Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-20 check; wordmark styling unchanged;
+logo SVG sha256 816c1761… unchanged. Live feedback "only color theme and logo needs to be changed, take from app.werbens.com"
+applied: dark-navy hero theme and the unchanged logo SVG in every scene (context/37 §3).
