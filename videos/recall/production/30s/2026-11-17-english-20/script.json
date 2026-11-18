@@ -1,0 +1,35 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "This straw isn't broken."
+  },
+  {
+   "id": "l02",
+   "text": "So why does it snap at the water's surface?"
+  },
+  {
+   "id": "l03",
+   "text": "Light from the straw speeds up as it leaves the water, and changes direction."
+  },
+  {
+   "id": "l04",
+   "text": "Like a mower rolling from grass to pavement: one side speeds up first."
+  },
+  {
+   "id": "l05",
+   "text": "Your brain traces the light back in a straight line, so the underwater part looks higher."
+  },
+  {
+   "id": "l06",
+   "text": "That's why a pool looks shallower from above: about three quarters of its real depth."
+  },
+  {
+   "id": "l07",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}

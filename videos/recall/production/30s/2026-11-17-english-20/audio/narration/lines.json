@@ -1,0 +1,63 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This straw isn't broken.",
+      "file": "l01.wav",
+      "duration": 1.241,
+      "sr": 24000,
+      "words_per_s": 3.22
+    },
+    {
+      "id": "l02",
+      "text": "So why does it snap at the water's surface?",
+      "file": "l02.wav",
+      "duration": 2.011,
+      "sr": 24000,
+      "words_per_s": 4.48
+    },
+    {
+      "id": "l03",
+      "text": "Light from the straw speeds up as it leaves the water, and changes direction.",
+      "file": "l03.wav",
+      "duration": 4.164,
+      "sr": 24000,
+      "words_per_s": 3.36
+    },
+    {
+      "id": "l04",
+      "text": "Like a mower rolling from grass to pavement: one side speeds up first.",
+      "file": "l04.wav",
+      "duration": 4.33,
+      "sr": 24000,
+      "words_per_s": 3.0
+    },
+    {
+      "id": "l05",
+      "text": "Your brain traces the light back in a straight line, so the underwater part looks higher.",
+      "file": "l05.wav",
+      "duration": 4.716,
+      "sr": 24000,
+      "words_per_s": 3.39
+    },
+    {
+      "id": "l06",
+      "text": "That's why a pool looks shallower from above: about three quarters of its real depth.",
+      "file": "l06.wav",
+      "duration": 4.595,
+      "sr": 24000,
+      "words_per_s": 3.26
+    },
+    {
+      "id": "l07",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l07.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}
