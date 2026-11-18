@@ -1,0 +1,17 @@
+Pistachio calculations (CalMeter english-20, 2026-11-18). Inputs: USDA SR Legacy FDC 170185 (NDB 12152) 'Nuts, pistachio nuts, dry roasted, without salt added';
+cross-check FDC 170184 (NDB 12151) raw; SR28 FOOD_DES refuse 'Shells' 47 % (both); SR28 WEIGHT '1 oz (49 kernels) = 28.35 g' (edible kernels).
+
+100 g in shell -> shell 47 g, kernels 53 g (refuse is a % of as-purchased weight)
+kcal of the 53 g kernels: roasted 303.2 kcal; raw 296.8 kcal -> 'about 300'
+if the in-shell weight were logged as kernels: 572 kcal ('not 570'); overcount x1.89
+
+Per 100 g roasted kernels: 572 kcal ('about 570'), fat 45.8 g ('46'), protein 21.0 g ('21'), fibre 10.3 g ('10'), carbohydrate 28.3 g, water 1.85 g
+energy split with USDA factors (fat 8.37, protein 3.47, carb 4.07): fat 383, protein 73, carb 115, sum 571 kcal (not narrated)
+
+1 oz = 49 kernels = 28.35 g kernels -> roasted 162.2 kcal, raw 158.8 kcal -> 'about 160'
+in-shell weight that yields 28.35 g kernels: 53.5 g ('about 54 g in shell')
+per 49 kernels: fat 13.0 g, protein 6.0 g, fibre 2.9 g (not narrated)
+
+Note: SR28 also lists '1 kernel = 0.7 g' (n = 82); 49 x 0.7 = 34.3 g, which does not match the 1 oz = 49 kernels measure (0.58 g each).
+The video uses only the '1 oz (49 kernels) = 28.35 g' household measure; kernel size varies.
+Shell share varies by nut and lot; 47 % is the USDA refuse value; shown with '~'/'about' wording where rounded.

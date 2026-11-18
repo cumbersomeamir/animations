@@ -1,0 +1,249 @@
+{
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (sha256 789240d42d51640b931782310403c415eb4aa03383d8f0a52f6315db80f96bc7), https://fdc.nal.usda.gov/download-datasets",
+ "retrieved": "2026-11-18",
+ "foods": [
+  {
+   "fdcId": 169426,
+   "ndbNumber": 12652,
+   "description": "Nuts, pistachio nuts, dry roasted, with salt added",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Total lipid (fat)": {
+     "amount": 45.8,
+     "unit": "g",
+     "dataPoints": 17
+    },
+    "Carbohydrate, by difference": {
+     "amount": 27.6,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 569,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Fiber, total dietary": {
+     "amount": 10.3,
+     "unit": "g",
+     "dataPoints": 20
+    },
+    "Protein": {
+     "amount": 21.0,
+     "unit": "g",
+     "dataPoints": 14
+    },
+    "Fatty acids, total saturated": {
+     "amount": 5.64,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Water": {
+     "amount": 1.79,
+     "unit": "g",
+     "dataPoints": 8
+    },
+    "Sugars, total including NLEA": {
+     "amount": 7.74,
+     "unit": "g",
+     "dataPoints": 13
+    },
+    "Potassium, K": {
+     "amount": 1010.0,
+     "unit": "mg",
+     "dataPoints": 12
+    },
+    "Sodium, Na": {
+     "amount": 428,
+     "unit": "mg",
+     "dataPoints": 17
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "oz (49 kernels)",
+     "gramWeight": 28.35
+    },
+    {
+     "amount": null,
+     "modifier": "cup",
+     "gramWeight": 123.0
+    },
+    {
+     "amount": null,
+     "modifier": "kernel",
+     "gramWeight": 0.7
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.47,
+    "fat": 8.37,
+    "carbohydrate": 4.07
+   }
+  },
+  {
+   "fdcId": 170184,
+   "ndbNumber": 12151,
+   "description": "Nuts, pistachio nuts, raw",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Potassium, K": {
+     "amount": 1020.0,
+     "unit": "mg",
+     "dataPoints": 8
+    },
+    "Sodium, Na": {
+     "amount": 1.0,
+     "unit": "mg",
+     "dataPoints": 2
+    },
+    "Sugars, total including NLEA": {
+     "amount": 7.66,
+     "unit": "g",
+     "dataPoints": 9
+    },
+    "Water": {
+     "amount": 4.37,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Total lipid (fat)": {
+     "amount": 45.3,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Carbohydrate, by difference": {
+     "amount": 27.2,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 560,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Fatty acids, total saturated": {
+     "amount": 5.91,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Fiber, total dietary": {
+     "amount": 10.6,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Protein": {
+     "amount": 20.2,
+     "unit": "g",
+     "dataPoints": 11
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "oz (49 kernels)",
+     "gramWeight": 28.35
+    },
+    {
+     "amount": null,
+     "modifier": "cup",
+     "gramWeight": 123.0
+    },
+    {
+     "amount": null,
+     "modifier": "kernel",
+     "gramWeight": 0.7
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.47,
+    "fat": 8.37,
+    "carbohydrate": 4.07
+   }
+  },
+  {
+   "fdcId": 170185,
+   "ndbNumber": 12152,
+   "description": "Nuts, pistachio nuts, dry roasted, without salt added",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Fatty acids, total saturated": {
+     "amount": 5.64,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Protein": {
+     "amount": 21.0,
+     "unit": "g",
+     "dataPoints": 14
+    },
+    "Fiber, total dietary": {
+     "amount": 10.3,
+     "unit": "g",
+     "dataPoints": 20
+    },
+    "Total lipid (fat)": {
+     "amount": 45.8,
+     "unit": "g",
+     "dataPoints": 17
+    },
+    "Carbohydrate, by difference": {
+     "amount": 28.3,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 572,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 6.0,
+     "unit": "mg",
+     "dataPoints": 5
+    },
+    "Water": {
+     "amount": 1.85,
+     "unit": "g",
+     "dataPoints": 15
+    },
+    "Sugars, total including NLEA": {
+     "amount": 7.74,
+     "unit": "g",
+     "dataPoints": 13
+    },
+    "Potassium, K": {
+     "amount": 1010.0,
+     "unit": "mg",
+     "dataPoints": 12
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "kernel",
+     "gramWeight": 0.7
+    },
+    {
+     "amount": null,
+     "modifier": "oz (49 kernels)",
+     "gramWeight": 28.35
+    },
+    {
+     "amount": null,
+     "modifier": "cup",
+     "gramWeight": 123.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.47,
+    "fat": 8.37,
+    "carbohydrate": 4.07
+   }
+  }
+ ]
+}

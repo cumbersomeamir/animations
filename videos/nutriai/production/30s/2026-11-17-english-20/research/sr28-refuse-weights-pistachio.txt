@@ -1,0 +1,34 @@
+USDA SR28 (sr28asc.zip sha256 8308fd1d224ef1e5331093748007180da01a7ac713cbac6a1f5bc2a03e1ee70a), https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/SR/sr28/dnload/sr28asc.zip, retrieved 2026-11-18
+FOOD_DES fields: NDB~FdGrp~Long_Desc~Shrt_Desc~ComName~ManufacName~Survey~Ref_desc~Refuse~SciName~N_Factor~Pro_Factor~Fat_Factor~CHO_Factor
+~12151~^~1200~^~Nuts, pistachio nuts, raw~^~PISTACHIO NUTS,RAW~^~~^~~^~~^~Shells~^47^~Pistacia vera~^5.30^3.47^8.37^4.07
+~12152~^~1200~^~Nuts, pistachio nuts, dry roasted, without salt added~^~PISTACHIO NUTS,DRY RSTD,WO/SALT~^~~^~~^~Y~^~Shells~^47^~~^5.30^3.47^8.37^4.07
+~12652~^~1200~^~Nuts, pistachio nuts, dry roasted, with salt added~^~PISTACHIO NUTS,DRY RSTD,W/SALT~^~~^~~^~Y~^~Shells~^47^~~^5.30^3.47^8.37^4.07
+
+WEIGHT fields: NDB~Seq~Amount~Msre_Desc~Gm_Wgt~Num_Data_Pts~Std_Dev
+~12151~^1^1^~cup~^123^^
+~12151~^2^1^~oz (49 kernels)~^28.35^^
+~12151~^3^1^~kernel~^0.7^^
+~12152~^1^1^~cup~^123^24^8.47
+~12152~^2^1^~oz (49 kernels)~^28.35^^
+~12152~^3^1^~kernel~^0.7^82^.141
+~12652~^1^1^~cup~^123^24^8.47
+~12652~^2^1^~oz (49 kernels)~^28.35^^
+~12652~^3^1^~kernel~^0.7^82^.141
+
+
+Verbatim excerpts from sr28_doc.pdf (USDA SR28 documentation):
+The refuse and refuse description fields contain amounts and descriptions of inedible
+material (for example, seeds, bone, and skin) for applicable foods. These amounts are
+expressed as a percentage of the total weight of the item as purchased, and they are
+used to compute the weight of the edible portion. Refuse data were obtained from
+NFNAP and other USDA-sponsored contracts and US Department of Agriculture
+Handbooks 102 (Matthews and Garrison, 1975) and 456 (Adams, 1975). To calculate
+the “amount of nutrient in edible portion of 1 pound (453.6 grams) as purchased,” use
+the following formula:
+
+       Y = V*4.536*[(100-R)/100]
+
+
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and

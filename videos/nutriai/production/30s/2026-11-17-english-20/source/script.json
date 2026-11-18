@@ -1,0 +1,37 @@
+[
+ {
+  "id": "T0",
+  "text": "Pistachios in the shell: how much do you really eat?"
+ },
+ {
+  "id": "T1",
+  "text": "Let's crack open a hundred grams."
+ },
+ {
+  "id": "T2",
+  "text": "Forty-seven grams of that is shell. Just fifty-three grams of kernels.",
+  "_note": "chosen from 4 phrasings: the first take ('... are shell') was heard as '47 grams or shell'; this one is verbatim on base.en and small.en"
+ },
+ {
+  "id": "T3",
+  "text": "Per hundred grams of kernels: about five seventy calories,"
+ },
+ {
+  "id": "T4",
+  "text": "forty-six grams of fat, twenty-one of protein, and ten of fibre."
+ },
+ {
+  "id": "T5",
+  "text": "So a hundred grams in the shell is about three hundred calories, not five seventy."
+ },
+ {
+  "id": "T6",
+  "text": "A handful of forty-nine kernels: about a hundred sixty."
+ },
+ {
+  "id": "T9",
+  "text": "Track your food and nutrition with CalMeter.",
+  "phonemes": "tɹˈæk jʊɹ fˈuːd ænd njuːtɹˈɪʃən wɪð kˈælmˌiːtɚ.",
+  "_note": "cached accepted CTA take (byte-identical to english-06 to 19, there stored as T6.wav); brand stress CAL-meter with a clear t"
+ }
+]

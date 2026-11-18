@@ -1,0 +1,396 @@
+{
+ "_doc": "CalMeter English 30 s english-20 (batch 20, delivered 2026-11-18 in the dated folder the brief named): pistachios, shell weight vs edible kernels, 'HALF IS SHELL?'. Full-frame bright scenes, playful character, larger text and whip-pan motion per the 2026-11-18 live feedback (context/34). 30 fps, 900 frames. Voice starts (s) and word-synced frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.2
+  },
+  {
+   "id": "T2",
+   "at": 5.25
+  },
+  {
+   "id": "T3",
+   "at": 9.5
+  },
+  {
+   "id": "T4",
+   "at": 13.1
+  },
+  {
+   "id": "T5",
+   "at": 17.35
+  },
+  {
+   "id": "T6",
+   "at": 22.7
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 50,
+   "lines": [
+    [
+     "Pistachios",
+     4
+    ],
+    [
+     "in the shell:",
+     23
+    ]
+   ]
+  },
+  {
+   "in": 52,
+   "out": 92,
+   "lines": [
+    [
+     "How much do you",
+     53
+    ],
+    [
+     "really eat?",
+     69
+    ]
+   ]
+  },
+  {
+   "in": 96,
+   "out": 146,
+   "lines": [
+    [
+     "Let's crack open",
+     96
+    ],
+    [
+     "100 grams.",
+     119
+    ]
+   ]
+  },
+  {
+   "in": 157,
+   "out": 214,
+   "lines": [
+    [
+     "47 g of that",
+     158
+    ],
+    [
+     "is shell.",
+     195
+    ]
+   ]
+  },
+  {
+   "in": 218,
+   "out": 276,
+   "lines": [
+    [
+     "Just 53 g",
+     219
+    ],
+    [
+     "of kernels.",
+     253
+    ]
+   ]
+  },
+  {
+   "in": 284,
+   "out": 334,
+   "lines": [
+    [
+     "Per 100 g",
+     285
+    ],
+    [
+     "of kernels:",
+     305
+    ]
+   ]
+  },
+  {
+   "in": 337,
+   "out": 388,
+   "lines": [
+    [
+     "about 570 kcal,",
+     337
+    ]
+   ]
+  },
+  {
+   "in": 392,
+   "out": 438,
+   "lines": [
+    [
+     "46 g of fat,",
+     393
+    ]
+   ]
+  },
+  {
+   "in": 440,
+   "out": 466,
+   "lines": [
+    [
+     "21 g protein,",
+     441
+    ]
+   ]
+  },
+  {
+   "in": 467,
+   "out": 512,
+   "lines": [
+    [
+     "and 10 g fibre.",
+     469
+    ]
+   ]
+  },
+  {
+   "in": 519,
+   "out": 618,
+   "lines": [
+    [
+     "So 100 g in the shell",
+     520
+    ],
+    [
+     "is about 300 kcal,",
+     562
+    ]
+   ]
+  },
+  {
+   "in": 622,
+   "out": 672,
+   "lines": [
+    [
+     "not 570.",
+     625
+    ]
+   ]
+  },
+  {
+   "in": 680,
+   "out": 742,
+   "lines": [
+    [
+     "A handful of",
+     681
+    ],
+    [
+     "49 kernels:",
+     702
+    ]
+   ]
+  },
+  {
+   "in": 746,
+   "out": 800,
+   "lines": [
+    [
+     "about 160 kcal.",
+     747
+    ]
+   ]
+  },
+  {
+   "in": 812,
+   "out": 848,
+   "lines": [
+    [
+     "Track your food",
+     813
+    ],
+    [
+     "and nutrition",
+     832
+    ]
+   ]
+  },
+  {
+   "in": 850,
+   "out": 906,
+   "lines": [
+    [
+     "with CalMeter",
+     851
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "whipAB": 88,
+  "pourIn": 100,
+  "g100": 119,
+  "tremble": 124,
+  "crack": 140,
+  "shellsLand": 165,
+  "g47": 182,
+  "shellWord": 200,
+  "kernLand": 172,
+  "g53": 226,
+  "kernWord": 253,
+  "whipBC": 276,
+  "title": 287,
+  "k570": 342,
+  "fat": 393,
+  "protein": 441,
+  "fibre": 481,
+  "whipCD": 510,
+  "inShell": 527,
+  "ghost": 556,
+  "k300": 576,
+  "not570": 625,
+  "slash": 634,
+  "whipDE": 674,
+  "drops": 684,
+  "count49": 702,
+  "g28": 728,
+  "k160": 752,
+  "peek": 760,
+  "cta": 806,
+  "ctaWord": 851,
+  "k570s": 335,
+  "k160s": 744
+ },
+ "sfx": [
+  {
+   "ev": "pourIn",
+   "type": "patter",
+   "dur": 0.8,
+   "gain": -26
+  },
+  {
+   "ev": "tremble",
+   "type": "creak",
+   "gain": -31
+  },
+  {
+   "ev": "crack",
+   "type": "crack",
+   "gain": -20
+  },
+  {
+   "ev": "shellsLand",
+   "type": "clack",
+   "dur": 0.6,
+   "gain": -27
+  },
+  {
+   "ev": "kernLand",
+   "type": "patter",
+   "dur": 0.6,
+   "gain": -27
+  },
+  {
+   "ev": "g47",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "g53",
+   "type": "tick",
+   "gain": -24
+  },
+  {
+   "ev": "whipAB",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "whipBC",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "k570s",
+   "type": "pop",
+   "gain": -24
+  },
+  {
+   "ev": "fat",
+   "type": "juice",
+   "gain": -27
+  },
+  {
+   "ev": "protein",
+   "type": "clack",
+   "dur": 0.5,
+   "gain": -27
+  },
+  {
+   "ev": "fibre",
+   "type": "sprinkle",
+   "dur": 0.4,
+   "gain": -29
+  },
+  {
+   "ev": "whipCD",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "inShell",
+   "type": "thud",
+   "gain": -26
+  },
+  {
+   "ev": "k300",
+   "type": "tick",
+   "gain": -23
+  },
+  {
+   "ev": "slash",
+   "type": "slash",
+   "gain": -24
+  },
+  {
+   "ev": "whipDE",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "drops",
+   "type": "patter",
+   "dur": 1.2,
+   "gain": -27
+  },
+  {
+   "ev": "k160s",
+   "type": "pop",
+   "gain": -24
+  },
+  {
+   "ev": "peek",
+   "type": "boing",
+   "gain": -29
+  },
+  {
+   "ev": "cta",
+   "type": "pencil",
+   "dur": 0.8,
+   "gain": -28
+  }
+ ],
+ "_sfx_note": "number pops (k570s, k160s) sit just before 'about ...' so no foley lands on a spoken number"
+}
