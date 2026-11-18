@@ -1,0 +1,205 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "This drill has no bit.",
+   "cues": [
+    [
+     "This drill",
+     "has no bit."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.56,
+   "say": "This week, Google signed to buy power from its maker.",
+   "cues": [
+    [
+     "This week, Google signed to",
+     "buy power from its maker."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 4.75,
+   "say": "Why burn rock instead of drilling?",
+   "cues": [
+    [
+     "Why burn rock",
+     "instead of drilling?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 6.68,
+   "say": "Every kilometer down adds about 25 degrees, enough to wreck drill bits.",
+   "cues": [
+    [
+     "Every kilometer down adds",
+     "about 25 degrees,"
+    ],
+    [
+     "enough to wreck drill bits."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 11.62,
+   "say": "But super-hot water carries far more energy.",
+   "cues": [
+    [
+     "But super-hot water",
+     "carries far more energy."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 14.22,
+   "say": "So a fusion-style beam vaporizes rock, and gas blows it out.",
+   "cues": [
+    [
+     "So a fusion-style beam",
+     "vaporizes rock,"
+    ],
+    [
+     "and gas blows it out."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 18.48,
+   "say": "The catch: the first wells will still use ordinary drills.",
+   "cues": [
+    [
+     "The catch: the first wells",
+     "will still use ordinary drills."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 22.14,
+   "say": "If beams scale, Earth's heat could run data centers day and night.",
+   "cues": [
+    [
+     "If beams scale, Earth's heat",
+     "could run data centers"
+    ],
+    [
+     "day and night."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.12,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.48,
+   "beat": "first frame / hook: crust cutaway, a glowing beam boring down from a rig + \"This drill / has no bit.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.48,
+   "out": 4.67,
+   "beat": "the news: surface view — geothermal plant powers a data center through a new power line; deal chip"
+  },
+  {
+   "id": "S3",
+   "in": 4.67,
+   "out": 6.6,
+   "beat": "the question: an ordinary tri-cone bit grinding beside the beam"
+  },
+  {
+   "id": "S4",
+   "in": 6.6,
+   "out": 11.54,
+   "beat": "heat with depth: camera descends the strata, the thermometer climbs, the bit glows and breaks"
+  },
+  {
+   "id": "S5",
+   "in": 11.54,
+   "out": 14.14,
+   "beat": "super-hot water: drops go down blue and come back glowing gold"
+  },
+  {
+   "id": "S6",
+   "in": 14.14,
+   "out": 18.4,
+   "beat": "mechanism: the beam vaporizes rock at the bottom; purge gas carries it out"
+  },
+  {
+   "id": "S7",
+   "in": 18.4,
+   "out": 22.06,
+   "beat": "the limitation: the Oregon well site by a paper volcano, an ordinary rig and bit"
+  },
+  {
+   "id": "S8",
+   "in": 22.06,
+   "out": 26.04,
+   "beat": "payoff: day turns to night, the plant keeps powering the data center"
+  },
+  {
+   "id": "S9",
+   "in": 26.04,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign, a small derrick behind it"
+  }
+ ],
+ "events": {
+  "deal": 2.45,
+  "burn": 5.0,
+  "labKm": 8.45,
+  "crack": 10.4,
+  "water": 11.8,
+  "labWater": 12.3,
+  "beam": 15.1,
+  "vapor": 15.55,
+  "gas": 17.1,
+  "labBeam": 15.6,
+  "labOrd": 20.75,
+  "night": 24.4,
+  "labDay": 24.95,
+  "sign": 26.2
+ }
+}

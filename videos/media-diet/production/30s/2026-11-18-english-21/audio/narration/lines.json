@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "This drill has no bit.",
+  "duration": 1.196,
+  "words": 5
+ },
+ {
+  "id": "V2",
+  "say": "This week, Google signed to buy power from its maker.",
+  "duration": 2.876,
+  "words": 10
+ },
+ {
+  "id": "V3",
+  "say": "Why burn rock instead of drilling?",
+  "duration": 1.599,
+  "words": 6
+ },
+ {
+  "id": "V4",
+  "say": "Every kilometer down adds about 25 degrees, enough to wreck drill bits.",
+  "duration": 4.646,
+  "words": 12
+ },
+ {
+  "id": "V5",
+  "say": "But super-hot water carries far more energy.",
+  "duration": 2.284,
+  "words": 7
+ },
+ {
+  "id": "V6",
+  "say": "So a fusion-style beam vaporizes rock, and gas blows it out.",
+  "duration": 3.936,
+  "words": 11
+ },
+ {
+  "id": "V7",
+  "say": "The catch: the first wells will still use ordinary drills.",
+  "duration": 3.367,
+  "words": 10
+ },
+ {
+  "id": "V8",
+  "say": "If beams scale, Earth's heat could run data centers day and night.",
+  "duration": 3.67,
+  "words": 12
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]

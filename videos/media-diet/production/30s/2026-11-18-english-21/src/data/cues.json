@@ -1,0 +1,108 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "This drill",
+   "has no bit."
+  ],
+  "in": 0.0,
+  "out": 1.46,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "This week, Google signed to",
+   "buy power from its maker."
+  ],
+  "in": 1.48,
+  "out": 4.65
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Why burn rock",
+   "instead of drilling?"
+  ],
+  "in": 4.67,
+  "out": 6.58
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Every kilometer down adds",
+   "about 25 degrees,"
+  ],
+  "in": 6.6,
+  "out": 9.725
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "enough to wreck drill bits."
+  ],
+  "in": 9.745,
+  "out": 11.52
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "But super-hot water",
+   "carries far more energy."
+  ],
+  "in": 11.54,
+  "out": 14.12
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "So a fusion-style beam",
+   "vaporizes rock,"
+  ],
+  "in": 14.14,
+  "out": 16.775
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "and gas blows it out."
+  ],
+  "in": 16.795,
+  "out": 18.38
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "The catch: the first wells",
+   "will still use ordinary drills."
+  ],
+  "in": 18.4,
+  "out": 22.04
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "If beams scale, Earth's heat",
+   "could run data centers"
+  ],
+  "in": 22.06,
+  "out": 24.999
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "day and night."
+  ],
+  "in": 25.019,
+  "out": 26.02
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.04,
+  "out": 29.543
+ }
+]

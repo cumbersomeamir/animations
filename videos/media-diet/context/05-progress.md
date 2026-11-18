@@ -392,3 +392,11 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   re-rendered, MP4 re-encoded, QA re-run.
 - Operational: RAM-disk caches /dev/shm/md-e20 (lost on restart); scratch research moved to /dev/shm/scratch-archive; ~170 MB disk before
   commit. Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-18 — english-21 / batch 21 (topic + sources recorded; rendering)
+- Batch 20 delivered first (70fa3b3 = remote; no unfinished checkpoint). Candidates compared: Quaise × Google 50 MW superhot-geothermal
+  PPA (Quaise release 17 Nov 2026; New Atlas 17 Nov) → chosen; Tesla Powercore (17 Nov; operating 2027) → rejected as less visual/everyday.
+  Record context/36; SOURCES.md in the output folder; log row in context/11 (in progress). Latest feedback (trendier, stronger) applied.
+- Narration 82 words / 26.7 s, every take checked by Whisper ("Quaise" → on-screen only; unverifiable 118 m line dropped).
+- Operational: RAM disk /dev/shm/md-e21 (frames, stills, qa_frames, audio WAVs); ~137 MB disk. Running: three render_chunks workers; next
+  build, chunk-start frame check, thumbnail, QA.md, commit, push, attach.
