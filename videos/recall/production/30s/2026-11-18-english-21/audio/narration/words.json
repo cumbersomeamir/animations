@@ -1,0 +1,466 @@
+{
+ "model": "faster-whisper base.en int8",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "This drop is floating.",
+   "asr": "This drop is floating.",
+   "duration": 1.131,
+   "words": [
+    {
+     "w": "This",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "drop",
+     "start": 0.14,
+     "end": 0.32
+    },
+    {
+     "w": "is",
+     "start": 0.32,
+     "end": 0.52
+    },
+    {
+     "w": "floating.",
+     "start": 0.52,
+     "end": 0.76
+    }
+   ]
+  },
+  {
+   "id": "l02",
+   "text": "Make the pan hotter, and it lasts longer, not shorter.",
+   "asr": "Make the pan hotter, and it lasts longer, not shorter.",
+   "duration": 2.903,
+   "words": [
+    {
+     "w": "Make",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "the",
+     "start": 0.14,
+     "end": 0.26
+    },
+    {
+     "w": "pan",
+     "start": 0.26,
+     "end": 0.44
+    },
+    {
+     "w": "hotter,",
+     "start": 0.44,
+     "end": 0.78
+    },
+    {
+     "w": "and",
+     "start": 1.2,
+     "end": 1.32
+    },
+    {
+     "w": "it",
+     "start": 1.32,
+     "end": 1.4
+    },
+    {
+     "w": "lasts",
+     "start": 1.4,
+     "end": 1.58
+    },
+    {
+     "w": "longer,",
+     "start": 1.58,
+     "end": 1.96
+    },
+    {
+     "w": "not",
+     "start": 2.22,
+     "end": 2.36
+    },
+    {
+     "w": "shorter.",
+     "start": 2.36,
+     "end": 2.6
+    }
+   ]
+  },
+  {
+   "id": "l03",
+   "text": "On a warm pan, water touches the metal and sizzles away in seconds.",
+   "asr": "On a warm pan, water touches the metal and sizzles away in seconds.",
+   "duration": 4.079,
+   "words": [
+    {
+     "w": "On",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "a",
+     "start": 0.08,
+     "end": 0.14
+    },
+    {
+     "w": "warm",
+     "start": 0.14,
+     "end": 0.32
+    },
+    {
+     "w": "pan,",
+     "start": 0.32,
+     "end": 0.74
+    },
+    {
+     "w": "water",
+     "start": 1.16,
+     "end": 1.44
+    },
+    {
+     "w": "touches",
+     "start": 1.44,
+     "end": 1.84
+    },
+    {
+     "w": "the",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "w": "metal",
+     "start": 2.08,
+     "end": 2.3
+    },
+    {
+     "w": "and",
+     "start": 2.3,
+     "end": 2.54
+    },
+    {
+     "w": "sizzles",
+     "start": 2.54,
+     "end": 2.98
+    },
+    {
+     "w": "away",
+     "start": 2.98,
+     "end": 3.22
+    },
+    {
+     "w": "in",
+     "start": 3.22,
+     "end": 3.42
+    },
+    {
+     "w": "seconds.",
+     "start": 3.42,
+     "end": 3.66
+    }
+   ]
+  },
+  {
+   "id": "l04",
+   "text": "But on a very hot pan, the underside flashes into steam.",
+   "asr": "but on a very hot pan, the underside flashes into steam.",
+   "duration": 3.437,
+   "words": [
+    {
+     "w": "but",
+     "start": 0.0,
+     "end": 0.08
+    },
+    {
+     "w": "on",
+     "start": 0.08,
+     "end": 0.16
+    },
+    {
+     "w": "a",
+     "start": 0.16,
+     "end": 0.22
+    },
+    {
+     "w": "very",
+     "start": 0.22,
+     "end": 0.4
+    },
+    {
+     "w": "hot",
+     "start": 0.4,
+     "end": 0.68
+    },
+    {
+     "w": "pan,",
+     "start": 0.68,
+     "end": 1.02
+    },
+    {
+     "w": "the",
+     "start": 1.42,
+     "end": 1.56
+    },
+    {
+     "w": "underside",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "flashes",
+     "start": 1.88,
+     "end": 2.52
+    },
+    {
+     "w": "into",
+     "start": 2.52,
+     "end": 2.84
+    },
+    {
+     "w": "steam.",
+     "start": 2.84,
+     "end": 3.12
+    }
+   ]
+  },
+  {
+   "id": "l05",
+   "text": "That steam cushion holds it up, and steam carries heat poorly, so the drop skates instead of boiling.",
+   "asr": "That steam cushion holds it up, and steam carries heat poorly, so the drop skates instead of boiling.",
+   "duration": 5.882,
+   "words": [
+    {
+     "w": "That",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "w": "steam",
+     "start": 0.14,
+     "end": 0.32
+    },
+    {
+     "w": "cushion",
+     "start": 0.32,
+     "end": 0.72
+    },
+    {
+     "w": "holds",
+     "start": 0.72,
+     "end": 1.06
+    },
+    {
+     "w": "it",
+     "start": 1.06,
+     "end": 1.3
+    },
+    {
+     "w": "up,",
+     "start": 1.3,
+     "end": 1.44
+    },
+    {
+     "w": "and",
+     "start": 1.82,
+     "end": 1.86
+    },
+    {
+     "w": "steam",
+     "start": 1.86,
+     "end": 2.08
+    },
+    {
+     "w": "carries",
+     "start": 2.08,
+     "end": 2.52
+    },
+    {
+     "w": "heat",
+     "start": 2.52,
+     "end": 2.84
+    },
+    {
+     "w": "poorly,",
+     "start": 2.84,
+     "end": 3.2
+    },
+    {
+     "w": "so",
+     "start": 3.82,
+     "end": 3.92
+    },
+    {
+     "w": "the",
+     "start": 3.92,
+     "end": 4.04
+    },
+    {
+     "w": "drop",
+     "start": 4.04,
+     "end": 4.28
+    },
+    {
+     "w": "skates",
+     "start": 4.28,
+     "end": 4.8
+    },
+    {
+     "w": "instead",
+     "start": 4.8,
+     "end": 5.1
+    },
+    {
+     "w": "of",
+     "start": 5.1,
+     "end": 5.26
+    },
+    {
+     "w": "boiling.",
+     "start": 5.26,
+     "end": 5.46
+    }
+   ]
+  },
+  {
+   "id": "l06",
+   "text": "Kitchen test on an empty pan: sizzling means not yet; skating beads mean ready to sear.",
+   "asr": "Kitchen test on an empty pan, sizzling means not yet, skating beads mean ready to sear.",
+   "duration": 5.746,
+   "words": [
+    {
+     "w": "Kitchen",
+     "start": 0.0,
+     "end": 0.18
+    },
+    {
+     "w": "test",
+     "start": 0.18,
+     "end": 0.5
+    },
+    {
+     "w": "on",
+     "start": 0.5,
+     "end": 0.86
+    },
+    {
+     "w": "an",
+     "start": 0.86,
+     "end": 0.96
+    },
+    {
+     "w": "empty",
+     "start": 0.96,
+     "end": 1.18
+    },
+    {
+     "w": "pan,",
+     "start": 1.18,
+     "end": 1.62
+    },
+    {
+     "w": "sizzling",
+     "start": 2.18,
+     "end": 2.58
+    },
+    {
+     "w": "means",
+     "start": 2.58,
+     "end": 2.74
+    },
+    {
+     "w": "not",
+     "start": 2.74,
+     "end": 3.16
+    },
+    {
+     "w": "yet,",
+     "start": 3.16,
+     "end": 3.42
+    },
+    {
+     "w": "skating",
+     "start": 4.18,
+     "end": 4.18
+    },
+    {
+     "w": "beads",
+     "start": 4.18,
+     "end": 4.58
+    },
+    {
+     "w": "mean",
+     "start": 4.58,
+     "end": 4.88
+    },
+    {
+     "w": "ready",
+     "start": 4.88,
+     "end": 5.08
+    },
+    {
+     "w": "to",
+     "start": 5.08,
+     "end": 5.3
+    },
+    {
+     "w": "sear.",
+     "start": 5.3,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "id": "l07",
+   "text": "Download Recall to turn your study material into lessons.",
+   "asr": "Download Recall to turn your study material into lessons.",
+   "duration": 3.283,
+   "words": [
+    {
+     "w": "Download",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "w": "Recall",
+     "start": 0.26,
+     "end": 0.64
+    },
+    {
+     "w": "to",
+     "start": 0.64,
+     "end": 1.26
+    },
+    {
+     "w": "turn",
+     "start": 1.26,
+     "end": 1.46
+    },
+    {
+     "w": "your",
+     "start": 1.46,
+     "end": 1.6
+    },
+    {
+     "w": "study",
+     "start": 1.6,
+     "end": 1.78
+    },
+    {
+     "w": "material",
+     "start": 1.78,
+     "end": 2.18
+    },
+    {
+     "w": "into",
+     "start": 2.18,
+     "end": 2.58
+    },
+    {
+     "w": "lessons.",
+     "start": 2.58,
+     "end": 2.82
+    }
+   ]
+  }
+ ]
+}

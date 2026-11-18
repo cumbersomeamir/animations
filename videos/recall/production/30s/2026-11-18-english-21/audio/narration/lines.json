@@ -1,0 +1,63 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This drop is floating.",
+      "file": "l01.wav",
+      "duration": 1.131,
+      "sr": 24000,
+      "words_per_s": 3.54
+    },
+    {
+      "id": "l02",
+      "text": "Make the pan hotter, and it lasts longer, not shorter.",
+      "file": "l02.wav",
+      "duration": 2.903,
+      "sr": 24000,
+      "words_per_s": 3.45
+    },
+    {
+      "id": "l03",
+      "text": "On a warm pan, water touches the metal and sizzles away in seconds.",
+      "file": "l03.wav",
+      "duration": 4.079,
+      "sr": 24000,
+      "words_per_s": 3.19
+    },
+    {
+      "id": "l04",
+      "text": "But on a very hot pan, the underside flashes into steam.",
+      "file": "l04.wav",
+      "duration": 3.437,
+      "sr": 24000,
+      "words_per_s": 3.2
+    },
+    {
+      "id": "l05",
+      "text": "That steam cushion holds it up, and steam carries heat poorly, so the drop skates instead of boiling.",
+      "file": "l05.wav",
+      "duration": 5.882,
+      "sr": 24000,
+      "words_per_s": 3.06
+    },
+    {
+      "id": "l06",
+      "text": "Kitchen test on an empty pan: sizzling means not yet; skating beads mean ready to sear.",
+      "file": "l06.wav",
+      "duration": 5.746,
+      "sr": 24000,
+      "words_per_s": 2.78
+    },
+    {
+      "id": "l07",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l07.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

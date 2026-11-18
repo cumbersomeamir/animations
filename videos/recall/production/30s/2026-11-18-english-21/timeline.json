@@ -1,0 +1,466 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 1.45
+  },
+  {
+   "id": "l03",
+   "start": 4.6
+  },
+  {
+   "id": "l04",
+   "start": 8.9
+  },
+  {
+   "id": "l05",
+   "start": 12.55
+  },
+  {
+   "id": "l06",
+   "start": 20.45
+  },
+  {
+   "id": "l07",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_drop",
+   "t0": 0,
+   "t1": 1.38
+  },
+  {
+   "id": "react_pan",
+   "t0": 1.38,
+   "t1": 4.53
+  },
+  {
+   "id": "giant_warm",
+   "t0": 4.53,
+   "t1": 8.83
+  },
+  {
+   "id": "giant_hot",
+   "t0": 8.83,
+   "t1": 12.48
+  },
+  {
+   "id": "cushion_lift",
+   "t0": 12.48,
+   "t1": 14.3
+  },
+  {
+   "id": "cushion_heat",
+   "t0": 14.3,
+   "t1": 16.3
+  },
+  {
+   "id": "giant_skate",
+   "t0": 16.3,
+   "t1": 18.55
+  },
+  {
+   "id": "proof_pan",
+   "t0": 18.55,
+   "t1": 20.38
+  },
+  {
+   "id": "test_sizzle",
+   "t0": 20.38,
+   "t1": 24.56
+  },
+  {
+   "id": "test_skate",
+   "t0": 24.56,
+   "t1": 26.38
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.38,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "flick": 1.75,
+  "why": 2.9,
+  "warmTag": 4.7,
+  "dropWarm": 5.2,
+  "land": 5.8,
+  "sizzleTag": 7.05,
+  "hotTag": 9.0,
+  "dropHot": 9.7,
+  "flash": 10.75,
+  "steamTag": 10.95,
+  "liftTag": 13.3,
+  "heatTag": 14.75,
+  "skate": 16.6,
+  "skateTag": 16.85,
+  "proofTag": 18.9,
+  "sprinkle1": 21.8,
+  "notYetTag": 22.75,
+  "sprinkle2": 24.62,
+  "readyTag": 25.05,
+  "cta": 26.38,
+  "smile": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.38,
+   "lines": [
+    [
+     [
+      "THIS DROP",
+      0
+     ]
+    ],
+    [
+     [
+      "IS FLOATING",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 1.38,
+   "end": 2.58,
+   "lines": [
+    [
+     [
+      "Make the pan ",
+      0
+     ],
+     [
+      "hotter,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.58,
+   "end": 4.53,
+   "lines": [
+    [
+     [
+      "and it lasts ",
+      0
+     ],
+     [
+      "longer,",
+      1
+     ]
+    ],
+    [
+     [
+      "not shorter.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.53,
+   "end": 5.69,
+   "lines": [
+    [
+     [
+      "On a ",
+      0
+     ],
+     [
+      "warm pan,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 5.69,
+   "end": 8.83,
+   "lines": [
+    [
+     [
+      "water touches the metal",
+      0
+     ]
+    ],
+    [
+     [
+      "and ",
+      0
+     ],
+     [
+      "sizzles away",
+      1
+     ],
+     [
+      " in seconds.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.83,
+   "end": 10.25,
+   "lines": [
+    [
+     [
+      "But on a ",
+      0
+     ],
+     [
+      "very hot pan,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 10.25,
+   "end": 12.48,
+   "lines": [
+    [
+     [
+      "the underside",
+      0
+     ]
+    ],
+    [
+     [
+      "flashes into ",
+      0
+     ],
+     [
+      "steam.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.48,
+   "end": 14.3,
+   "lines": [
+    [
+     [
+      "That steam cushion",
+      0
+     ]
+    ],
+    [
+     [
+      "holds it up,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.3,
+   "end": 16.3,
+   "lines": [
+    [
+     [
+      "and steam carries",
+      0
+     ]
+    ],
+    [
+     [
+      "heat poorly,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.3,
+   "end": 20.38,
+   "lines": [
+    [
+     [
+      "so the drop ",
+      0
+     ],
+     [
+      "skates",
+      1
+     ]
+    ],
+    [
+     [
+      "instead of boiling.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.38,
+   "end": 22.56,
+   "lines": [
+    [
+     [
+      "Kitchen test",
+      1
+     ]
+    ],
+    [
+     [
+      "on an empty pan:",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.56,
+   "end": 24.56,
+   "lines": [
+    [
+     [
+      "sizzling means ",
+      0
+     ],
+     [
+      "not yet;",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 24.56,
+   "end": 26.38,
+   "lines": [
+    [
+     [
+      "skating beads mean",
+      0
+     ]
+    ],
+    [
+     [
+      "ready to sear.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.38,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0,
+   4.53,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.53,
+   8.83,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   8.83,
+   12.48,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   12.48,
+   18.55,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   18.55,
+   20.38,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   20.38,
+   26.38,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.38,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

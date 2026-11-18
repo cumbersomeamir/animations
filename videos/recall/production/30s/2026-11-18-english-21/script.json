@@ -1,0 +1,35 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "This drop is floating."
+  },
+  {
+   "id": "l02",
+   "text": "Make the pan hotter, and it lasts longer, not shorter."
+  },
+  {
+   "id": "l03",
+   "text": "On a warm pan, water touches the metal and sizzles away in seconds."
+  },
+  {
+   "id": "l04",
+   "text": "But on a very hot pan, the underside flashes into steam."
+  },
+  {
+   "id": "l05",
+   "text": "That steam cushion holds it up, and steam carries heat poorly, so the drop skates instead of boiling."
+  },
+  {
+   "id": "l06",
+   "text": "Kitchen test on an empty pan: sizzling means not yet; skating beads mean ready to sear."
+  },
+  {
+   "id": "l07",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}
