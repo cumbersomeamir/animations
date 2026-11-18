@@ -11,8 +11,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - **The proposed topic repeats episodes 01/04:** the change-of-mind return vs faulty product vs disclosed policy was
   the core split of both, and batches 08, 13 and 16 rejected it as a repeat. The replacement is loan pre-payment charges
   (new in 01–20). Record: `context/episodes/2026-11-18-english21-loan-prepayment-charges.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit 4d6631c): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-18-english-21/courtlens-30s-english21-01.mp4`
+    sha256 `85523e0101cbc99c948f365609ce2a5a3bddd03a91859dc1cf304450604f537e`
+  - `courtlens-30s-english21-01-thumbnail.png`
+    sha256 `ea23b446272937fba3722132397977fe3004ddf2874c7c8f9a242c533350a1e6`
+  - QA: `production/30s/2026-11-18-english-21/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-18-english-21/notes/LEGAL-SOURCES.md`)
 - **RBI Commercial Banks – Responsible Business Conduct Directions 2025** (updated 1 Oct 2026):
@@ -59,8 +65,40 @@ $S/tts/venv/bin/python capcheck.py ../courtlens-30s-english21-01.mp4 ../courtlen
   - the concrete block's slam started at y≈496, so it now starts at 860
 - **Fixed-rate beat:** the loan papers sat near the right edge, so they moved in (x 735) and the concrete moved left.
 
+### Fixed after the full render (frame review)
+- **"ANY SOURCE" too late:** the ✓ and pill appeared only as the tower scene faded. newLender/arc/anySrc moved to
+  15.55/16.0/16.5, and the tower window was extended to 17.5.
+- **Near-blank beat (8.7–9.1 s):** the icons now start at 8.95, and the buoy fades later.
+- **Re-render and re-mux:**
+  ```bash
+  node render.cjs range $S/build21/frames 250-310
+  node render.cjs range $S/build21/frames 460-526
+  SKIP_TTS=1 SKIP_FRAMES=1 PY=$S/tts/venv/bin/python WORK=$S/build21 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+  ```
+- Neighbour frames 247–249, 311–313, 457–459 and 527–529 were bit-identical on a fresh render.
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.0 LUFS, true peak −2.3 dBFS; 9/9 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.012 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 117..884, y 331..518; top zone darkest pixel 205.
+- Frame 0 vs thumbnail mean abs diff 1.61/255 outside the chip band.
+
+### Unresolved
+- Listening is ASR-only. Nobody listened to it or watched it in real time.
+- **Lender coverage:** Small Finance Banks, Payments Banks, RRBs, Local Area Banks and co-operative banks have
+  separate consolidated directions, which were not read. The July 2025 Directions covered co-operative banks and all
+  commercial banks except payments banks.
+- **Loans before 2026:** the older-loan rule (paras 352/33) has no explicit "source of funds / part or full" wording.
+  The narration's wording is in the new-loan text and is consistent with the unconditional older ban.
+- **Crossfade dips:** brief dips to paper (≈0.2–0.3 s at 5.55, 9.0 and 21.5 s) remain; this is the established
+  style.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+- Await the next batch request. No automation and no further episode unless asked. `$S/build21/frames` is deleted
+  after delivery.
 
 ## Round 2026-11-18 (english-20, batch 20): "Deposit gone for wear and tear?": security deposit (Tamil Nadu)
 

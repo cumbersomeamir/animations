@@ -409,7 +409,7 @@
   }
   // V4 — floating rate: a "%" bobbing on water
   function floatScene(ctx, t) {
-    withScene(ctx, win(t, E.v4, E.v4b), () => {
+    withScene(ctx, win(t, E.v4, E.v4b + 0.2), () => {
       spotlight(ctx, CX, 980, 760, 0.6);
       const rise = spring(t - E.float, 1.1, 0.5), by = lerp(1500, 1120, clamp(rise, 0, 1.2));
       waves(ctx, t, 1230, 1);
@@ -433,7 +433,7 @@
   }
   // V6 — part or full, even with money from a new lender
   function towerScene(ctx, t) {
-    withScene(ctx, win(t, E.v6, E.v7), () => {
+    withScene(ctx, win(t, E.v6, E.v7 + 0.2), () => {
       spotlight(ctx, CX, 1060, 780, 0.6);
       const baseY = 1400, bx = 380;
       floorShadow(ctx, bx, baseY + 10, 230, 1);
