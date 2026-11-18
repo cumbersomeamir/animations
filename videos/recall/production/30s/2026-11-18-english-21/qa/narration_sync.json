@@ -1,0 +1,72 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.05,
+  "measured_start": 0.05,
+  "error_ms": 0.0,
+  "corr": 0.868,
+  "end": 1.181,
+  "shot_at_start": "hook_drop",
+  "shot_at_end": "hook_drop"
+ },
+ {
+  "id": "l02",
+  "planned_start": 1.45,
+  "measured_start": 1.45,
+  "error_ms": 0.0,
+  "corr": 0.836,
+  "end": 4.353,
+  "shot_at_start": "react_pan",
+  "shot_at_end": "react_pan"
+ },
+ {
+  "id": "l03",
+  "planned_start": 4.6,
+  "measured_start": 4.6,
+  "error_ms": 0.0,
+  "corr": 0.859,
+  "end": 8.679,
+  "shot_at_start": "giant_warm",
+  "shot_at_end": "giant_warm"
+ },
+ {
+  "id": "l04",
+  "planned_start": 8.9,
+  "measured_start": 8.9,
+  "error_ms": 0.0,
+  "corr": 0.854,
+  "end": 12.337,
+  "shot_at_start": "giant_hot",
+  "shot_at_end": "giant_hot"
+ },
+ {
+  "id": "l05",
+  "planned_start": 12.55,
+  "measured_start": 12.55,
+  "error_ms": 0.0,
+  "corr": 0.851,
+  "end": 18.432,
+  "shot_at_start": "cushion_lift",
+  "shot_at_end": "giant_skate"
+ },
+ {
+  "id": "l06",
+  "planned_start": 20.45,
+  "measured_start": 20.45,
+  "error_ms": 0.0,
+  "corr": 0.845,
+  "end": 26.196,
+  "shot_at_start": "test_sizzle",
+  "shot_at_end": "test_skate"
+ },
+ {
+  "id": "l07",
+  "planned_start": 26.45,
+  "measured_start": 26.45,
+  "error_ms": 0.0,
+  "corr": 0.842,
+  "end": 29.733,
+  "shot_at_start": "cafe_cta",
+  "shot_at_end": "cafe_cta"
+ }
+]

@@ -1,0 +1,417 @@
+{
+  "file": "production/30s/2026-11-18-english-21/recall-30s-english21-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2248871"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "191200"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 9185072,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.3,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.834597647190094,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "This drop is floating. Make the pan hotter, and it lasts longer, not shorter. On a warm pan, water touches the metal and sizzles away in seconds. But on a very hot pan, the underside flashes into steam. That steam cushion holds it up, and steam carries heat poorly. So the drop skates instead of boiling. Kitchen test on an empty pan. Sizzling means not yet. Skating beads mean ready to sear. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "This",
+        "t": 0.0
+      },
+      {
+        "w": "drop",
+        "t": 0.14
+      },
+      {
+        "w": "is",
+        "t": 0.4
+      },
+      {
+        "w": "floating.",
+        "t": 0.6
+      },
+      {
+        "w": "Make",
+        "t": 1.56
+      },
+      {
+        "w": "the",
+        "t": 1.56
+      },
+      {
+        "w": "pan",
+        "t": 1.72
+      },
+      {
+        "w": "hotter,",
+        "t": 1.9
+      },
+      {
+        "w": "and",
+        "t": 2.6
+      },
+      {
+        "w": "it",
+        "t": 2.76
+      },
+      {
+        "w": "lasts",
+        "t": 2.86
+      },
+      {
+        "w": "longer,",
+        "t": 3.02
+      },
+      {
+        "w": "not",
+        "t": 3.66
+      },
+      {
+        "w": "shorter.",
+        "t": 3.8
+      },
+      {
+        "w": "On",
+        "t": 4.64
+      },
+      {
+        "w": "a",
+        "t": 4.66
+      },
+      {
+        "w": "warm",
+        "t": 4.74
+      },
+      {
+        "w": "pan,",
+        "t": 4.92
+      },
+      {
+        "w": "water",
+        "t": 5.7
+      },
+      {
+        "w": "touches",
+        "t": 6.02
+      },
+      {
+        "w": "the",
+        "t": 6.4
+      },
+      {
+        "w": "metal",
+        "t": 6.68
+      },
+      {
+        "w": "and",
+        "t": 6.92
+      },
+      {
+        "w": "sizzles",
+        "t": 7.14
+      },
+      {
+        "w": "away",
+        "t": 7.54
+      },
+      {
+        "w": "in",
+        "t": 7.8
+      },
+      {
+        "w": "seconds.",
+        "t": 8.02
+      },
+      {
+        "w": "But",
+        "t": 8.9
+      },
+      {
+        "w": "on",
+        "t": 8.96
+      },
+      {
+        "w": "a",
+        "t": 9.04
+      },
+      {
+        "w": "very",
+        "t": 9.12
+      },
+      {
+        "w": "hot",
+        "t": 9.32
+      },
+      {
+        "w": "pan,",
+        "t": 9.56
+      },
+      {
+        "w": "the",
+        "t": 10.28
+      },
+      {
+        "w": "underside",
+        "t": 10.48
+      },
+      {
+        "w": "flashes",
+        "t": 10.82
+      },
+      {
+        "w": "into",
+        "t": 11.38
+      },
+      {
+        "w": "steam.",
+        "t": 11.74
+      },
+      {
+        "w": "That",
+        "t": 12.54
+      },
+      {
+        "w": "steam",
+        "t": 12.66
+      },
+      {
+        "w": "cushion",
+        "t": 12.92
+      },
+      {
+        "w": "holds",
+        "t": 13.22
+      },
+      {
+        "w": "it",
+        "t": 13.62
+      },
+      {
+        "w": "up,",
+        "t": 13.86
+      },
+      {
+        "w": "and",
+        "t": 14.3
+      },
+      {
+        "w": "steam",
+        "t": 14.4
+      },
+      {
+        "w": "carries",
+        "t": 14.64
+      },
+      {
+        "w": "heat",
+        "t": 15.06
+      },
+      {
+        "w": "poorly.",
+        "t": 15.4
+      },
+      {
+        "w": "So",
+        "t": 16.48
+      },
+      {
+        "w": "the",
+        "t": 16.48
+      },
+      {
+        "w": "drop",
+        "t": 16.58
+      },
+      {
+        "w": "skates",
+        "t": 16.82
+      },
+      {
+        "w": "instead",
+        "t": 17.28
+      },
+      {
+        "w": "of",
+        "t": 17.6
+      },
+      {
+        "w": "boiling.",
+        "t": 17.82
+      },
+      {
+        "w": "Kitchen",
+        "t": 20.7
+      },
+      {
+        "w": "test",
+        "t": 20.7
+      },
+      {
+        "w": "on",
+        "t": 20.96
+      },
+      {
+        "w": "an",
+        "t": 21.32
+      },
+      {
+        "w": "empty",
+        "t": 21.42
+      },
+      {
+        "w": "pan.",
+        "t": 21.62
+      },
+      {
+        "w": "Sizzling",
+        "t": 22.76
+      },
+      {
+        "w": "means",
+        "t": 22.96
+      },
+      {
+        "w": "not",
+        "t": 23.2
+      },
+      {
+        "w": "yet.",
+        "t": 23.62
+      },
+      {
+        "w": "Skating",
+        "t": 24.52
+      },
+      {
+        "w": "beads",
+        "t": 24.74
+      },
+      {
+        "w": "mean",
+        "t": 25.04
+      },
+      {
+        "w": "ready",
+        "t": 25.32
+      },
+      {
+        "w": "to",
+        "t": 25.52
+      },
+      {
+        "w": "sear.",
+        "t": 25.74
+      },
+      {
+        "w": "Download",
+        "t": 25.9
+      },
+      {
+        "w": "Recall",
+        "t": 26.6
+      },
+      {
+        "w": "to",
+        "t": 27.12
+      },
+      {
+        "w": "turn",
+        "t": 27.72
+      },
+      {
+        "w": "your",
+        "t": 27.88
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.64
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 200.34036254882812,
+    "right": 879.6596374511719,
+    "top": 341.5,
+    "bottom": 583.2
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.643,
+    "min_frame_diff": 0.037,
+    "longest_static_run_frames": 12,
+    "max_frame_diff": 86.05,
+    "max_diff_at_s": 18.567
+  },
+  "luma_min_mean_max": [
+    54.3,
+    96.5,
+    153.6
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

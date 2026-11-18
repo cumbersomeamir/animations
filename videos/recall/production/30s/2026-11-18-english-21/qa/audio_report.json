@@ -1,0 +1,220 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.58,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.181,
+      "text": "This drop is floating.",
+      "words": 4,
+      "words_per_s": 3.54,
+      "voice_over_bed_db": 20.5
+    },
+    {
+      "id": "l02",
+      "start": 1.45,
+      "end": 4.353,
+      "text": "Make the pan hotter, and it lasts longer, not shorter.",
+      "words": 10,
+      "words_per_s": 3.45,
+      "voice_over_bed_db": 17.0
+    },
+    {
+      "id": "l03",
+      "start": 4.6,
+      "end": 8.679,
+      "text": "On a warm pan, water touches the metal and sizzles away in seconds.",
+      "words": 13,
+      "words_per_s": 3.19,
+      "voice_over_bed_db": 17.8
+    },
+    {
+      "id": "l04",
+      "start": 8.9,
+      "end": 12.337,
+      "text": "But on a very hot pan, the underside flashes into steam.",
+      "words": 11,
+      "words_per_s": 3.2,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l05",
+      "start": 12.55,
+      "end": 18.432,
+      "text": "That steam cushion holds it up, and steam carries heat poorly, so the drop skates instead of boiling.",
+      "words": 18,
+      "words_per_s": 3.06,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l06",
+      "start": 20.45,
+      "end": 26.196,
+      "text": "Kitchen test on an empty pan: sizzling means not yet; skating beads mean ready to sear.",
+      "words": 16,
+      "words_per_s": 2.78,
+      "voice_over_bed_db": 16.3
+    },
+    {
+      "id": "l07",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 81,
+  "speech_s": 26.46,
+  "overall_words_per_s": 2.7,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "steam hissing out under the hovering drop (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.02,
+      "beat": 0.04,
+      "sfx": "drop wobble (frame 0)"
+    },
+    {
+      "t": 1.97,
+      "beat": 3.94,
+      "sfx": "flicked drops land on the hot pan"
+    },
+    {
+      "t": 2.05,
+      "beat": 4.1,
+      "sfx": "beads skitter"
+    },
+    {
+      "t": 4.28,
+      "beat": 8.56,
+      "sfx": "cut to the giant pan section (ends before l03)"
+    },
+    {
+      "t": 5.2,
+      "beat": 10.4,
+      "sfx": "drop falls"
+    },
+    {
+      "t": 5.8,
+      "beat": 11.6,
+      "sfx": "drop hits the warm pan"
+    },
+    {
+      "t": 5.9,
+      "beat": 11.8,
+      "sfx": "sizzle"
+    },
+    {
+      "t": 5.95,
+      "beat": 11.9,
+      "sfx": "boiling inside the drop"
+    },
+    {
+      "t": 8.93,
+      "beat": 17.86,
+      "sfx": "coil heats up"
+    },
+    {
+      "t": 10.0,
+      "beat": 20.0,
+      "sfx": "drop falls"
+    },
+    {
+      "t": 10.75,
+      "beat": 21.5,
+      "sfx": "underside flashes into steam"
+    },
+    {
+      "t": 10.8,
+      "beat": 21.6,
+      "sfx": "drop bounces on the cushion"
+    },
+    {
+      "t": 11.05,
+      "beat": 22.1,
+      "sfx": "steady steam hiss under the drop"
+    },
+    {
+      "t": 13.35,
+      "beat": 26.7,
+      "sfx": "holds it up"
+    },
+    {
+      "t": 14.8,
+      "beat": 29.6,
+      "sfx": "slows heat"
+    },
+    {
+      "t": 16.6,
+      "beat": 33.2,
+      "sfx": "drop skates across"
+    },
+    {
+      "t": 18.55,
+      "beat": 37.1,
+      "sfx": "real beads skitter"
+    },
+    {
+      "t": 18.95,
+      "beat": 37.9,
+      "sfx": "lasts longer"
+    },
+    {
+      "t": 22.04,
+      "beat": 44.08,
+      "sfx": "sprinkled drops hit the warm pan"
+    },
+    {
+      "t": 22.08,
+      "beat": 44.16,
+      "sfx": "sizzle"
+    },
+    {
+      "t": 22.8,
+      "beat": 45.6,
+      "sfx": "not yet"
+    },
+    {
+      "t": 24.86,
+      "beat": 49.72,
+      "sfx": "sprinkled drops bead up"
+    },
+    {
+      "t": 24.97,
+      "beat": 49.94,
+      "sfx": "beads skate"
+    },
+    {
+      "t": 25.15,
+      "beat": 50.3,
+      "sfx": "ready to sear (takeaway)"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.427,
+  "voice_gain": 1.0
+}

@@ -1,0 +1,113 @@
+{
+  "cues": {
+    "flick": 1.75,
+    "why": 2.9,
+    "warmTag": 4.7,
+    "dropWarm": 5.2,
+    "land": 5.8,
+    "sizzleTag": 7.05,
+    "hotTag": 9.0,
+    "dropHot": 9.7,
+    "flash": 10.75,
+    "steamTag": 10.95,
+    "liftTag": 13.3,
+    "heatTag": 14.75,
+    "skate": 16.6,
+    "skateTag": 16.85,
+    "proofTag": 18.9,
+    "sprinkle1": 21.8,
+    "notYetTag": 22.75,
+    "sprinkle2": 24.62,
+    "readyTag": 25.05,
+    "cta": 26.38,
+    "smile": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_drop",
+      "t0": 0,
+      "t1": 1.38
+    },
+    {
+      "id": "react_pan",
+      "t0": 1.38,
+      "t1": 4.53
+    },
+    {
+      "id": "giant_warm",
+      "t0": 4.53,
+      "t1": 8.83
+    },
+    {
+      "id": "giant_hot",
+      "t0": 8.83,
+      "t1": 12.48
+    },
+    {
+      "id": "cushion_lift",
+      "t0": 12.48,
+      "t1": 14.3
+    },
+    {
+      "id": "cushion_heat",
+      "t0": 14.3,
+      "t1": 16.3
+    },
+    {
+      "id": "giant_skate",
+      "t0": 16.3,
+      "t1": 18.55
+    },
+    {
+      "id": "proof_pan",
+      "t0": 18.55,
+      "t1": 20.38
+    },
+    {
+      "id": "test_sizzle",
+      "t0": 20.38,
+      "t1": 24.56
+    },
+    {
+      "id": "test_skate",
+      "t0": 24.56,
+      "t1": 26.38
+    },
+    {
+      "id": "cafe_cta",
+      "t0": 26.38,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.05
+    },
+    {
+      "id": "l02",
+      "start": 1.45
+    },
+    {
+      "id": "l03",
+      "start": 4.6
+    },
+    {
+      "id": "l04",
+      "start": 8.9
+    },
+    {
+      "id": "l05",
+      "start": 12.55
+    },
+    {
+      "id": "l06",
+      "start": 20.45
+    },
+    {
+      "id": "l07",
+      "start": 26.45
+    }
+  ]
+}
