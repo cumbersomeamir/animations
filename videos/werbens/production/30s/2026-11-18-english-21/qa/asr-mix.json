@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        3.04
+      ],
+      "script": "Why can free pull people away from the better treat?",
+      "heard": "Why can free pull people away from the better treat?",
+      "words": "10/10"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.35,
+        7.4
+      ],
+      "script": "Two scoops, one coin apart. Now cut both by one coin.",
+      "heard": "Two scoops, one coin apart. Now cut both by one coin.",
+      "words": "11/11"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        7.35,
+        10.38
+      ],
+      "script": "The gap stays the same, but one is now free.",
+      "heard": "The gap stays the same, but one is now free.",
+      "words": "10/10"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        10.3,
+        15.08
+      ],
+      "script": "In experiments, far more chose the free one, and far fewer the better one.",
+      "heard": "In experiments, far more chose the free one, and far fewer the better one.",
+      "words": "14/14"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.85,
+        18.1
+      ],
+      "script": "Free didn't just cost less; it seemed to add value.",
+      "heard": "\"Free\" didn't just cost less, it seemed to add value.",
+      "words": "10/10"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        18.15,
+        22.42
+      ],
+      "script": "The effect was strongest for treats, weaker for practical items.",
+      "heard": "The effect was strongest for treats, weaker for practical items.",
+      "words": "10/10"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        22.25,
+        26.38
+      ],
+      "script": "So save free for things people enjoy, where it pulls hardest.",
+      "heard": "So save free for things people enjoy, where it pulls hardest.",
+      "words": "11/11"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why can free pull people away from the better treat? Two scoops one coin apart, now cut both by one coin. The gap stays the same, but one is now free. In experiments, far more chose the free one, and far fewer the better one. Free didn't just cost less, it seemed to add value. The effect was strongest for treats, weaker for practical items. So save free for things people enjoy, where it pulls hardest. Follow Warbins to decode how brands sell."
+}

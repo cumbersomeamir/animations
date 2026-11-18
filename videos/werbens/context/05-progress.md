@@ -86,7 +86,7 @@
   + thumbnail (left-digit effect, "WHY 99, NOT 100?"; topic not covered before; Thomas & Morwitz 2005, Anderson & Simester 2003,
   Wadhwa & Zhang 2015; frame 0 = thumbnail; live feedback applied (app.werbens.com colours/logo); render 2 after a review
   removed a false intermediate "3.99"; sha256 23ab87bc; context/36).
-- English-21 (batch21 2026-11-18-english-21) IN PROGRESS `production/30s/2026-11-18-english-21/werbens-30s-english21-01.mp4`
+- English-21 (batch21 2026-11-18-english-21) delivered `production/30s/2026-11-18-english-21/werbens-30s-english21-01.mp4`
   + thumbnail (proposed decoy-vs-compromise topic covered by #03 + #18 → switched to the zero-price effect, "FREE BEATS
-  BETTER?"; Shampanier, Mazar & Ariely 2007; Hossain & Saini 2015 limit; frame 0 = thumbnail; context/37). Done: topic check,
-  research, brand re-check, script, narration + word timing. Next: scene, audio, render, QA.
+  BETTER?"; Shampanier, Mazar & Ariely 2007; Hossain & Saini 2015 limit; frame 0 = thumbnail; live feedback applied
+  (app.werbens.com colours/logo); render 2 after a review removed a near-empty lateral move; sha256 87d77b67; context/37).

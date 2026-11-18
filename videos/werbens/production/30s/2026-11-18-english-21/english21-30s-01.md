@@ -1,0 +1,179 @@
+# 37 — English-21 (batch21, 2026-11-18) 30 s #01: "FREE BEATS BETTER?" (the zero-price effect and its limit)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-18-english-21`.
+
+Pre-edit checks:
+- Repo/branch confirmed: origin = github.com/cumbersomeamir/animations, branch claude-video/werbens, local 7942394 == origin,
+  clean tree.
+- Batch 20 (english-20) was finished, pushed and attached; no checkpointed unfinished work and no jobs running. Not repeated.
+- CLAUDE.md and `05-progress.md` were re-read; topic history read from `context/11` (episode log rows 01–22) and episode notes.
+- The brief's notes about other apps (Ideaverse, Aarambh, Tensorblue, Mello, CalMeter, WastePaisa) do not apply to this app's
+  branch; only the Werbens line (exact app.werbens.com colours/logo) is applied.
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-18-english-21/werbens-30s-english21-01.mp4`.
+- Thumbnail: `werbens-30s-english21-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references:
+- **`context/27`** incl. **§5 first-frame rule**.
+- Style: `context/11` "Satisfying Product Theatre" on the live app.werbens.com dark-navy theme (context/28 §3).
+- Voice: context/11 + context/16 (Meshline/Recall).
+- Brand: `context/17` (re-checked today).
+- Copy in the output folder: `english21-30s-01.md`.
+
+## 1. Brief (batch21, expressly authorised 18 November 2026; latest live feedback retained)
+- Proposed topic: **why three price options can steer buyers towards the middle** — decoy versus compromise effect,
+  distinguished through one ice-cream menu with an intentionally unattractive option, with evidence and a limit.
+- If already covered, choose a genuinely different subject in the same genre and explain the choice.
+- Live feedback for this app: "No, only color theme and logo needs to be changed, take from app.werbens.com". Applied
+  explicitly: colours and logo from the live app.werbens.com (§3); everything else stays the approved style, narrator and CTA.
+
+## 2. Topic check against the episode history → covered; fresh alternative chosen
+**Both halves of the proposed topic are already covered:**
+- **Decoy effect** — **#03** (`production/30s/2026-11-02-feedback-round/`, context/14): a three-size coffee menu with an
+  asymmetrically dominated medium (the "intentionally unattractive option").
+- **Compromise effect** — **#18** (`production/30s/2026-11-15-english-16/`, context/32): three made-up plans; adding an
+  extreme option makes the middle the sensible choice (Simonson & Tversky 1992 — the paper that also names the attraction and
+  compromise effects).
+- Distinguishing the two would re-teach both mechanisms with the same three-option menu structure; batch16 (#18) and batch19
+  (#21) were already redirected away from the decoy for the same reason.
+
+**Chosen instead: the zero-price effect** — same genre (how the price options on a menu steer choice), new mechanism, a
+before/after with a constant price gap, and a documented limit:
+- two treats one price unit apart; cut both prices by the same amount so the cheaper one becomes **free**; the gap is
+  unchanged, yet choices swing towards the free option and away from the better one;
+- the limit: the free "bounce" is strongest for hedonic options (treats) and more subdued for utilitarian (practical) ones.
+The ice-cream setting from the brief is kept (scoops are hedonic treats). Hook: **FREE BEATS BETTER?** (3 words; truthful as a
+question: in the experiments the better option lost choices when the cheaper one became free).
+
+## 3. Brand re-check (facts; 2026-11-18, batch21)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, headless Chromium, scratchpad `appweb-dl-1118`):
+- The top-40 computed colour list is identical to the batch-20 check (`appweb-dl-1117b`).
+- Wordmark: Space Grotesk 700, 30.4 px, −1.216 px, `linear-gradient(135deg, rgb(127,231,220), rgb(49,104,121))`.
+- Logo `https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… is unchanged (= `assets/brand/app-werbens-logo.svg`).
+
+## 4. Facts used (verified 2026-11-18) — tagged measured / advice / illustration
+1. **Shampanier, K., Mazar, N., & Ariely, D. (2007).** Zero as a special price: The true value of free products. *Marketing
+   Science*, 26(6), 742–757. https://doi.org/10.1287/mksc.1060.0254 — abstract as deposited by the publisher (Crossref API,
+   read 2026-11-18): "We test this proposal by contrasting demand for two products across conditions that maintain the price
+   difference between the goods, but vary the prices such that the cheaper good in the set is priced at either a low positive
+   or zero price. In contrast with a standard cost–benefit perspective, in the zero-price condition, dramatically more
+   participants choose the cheaper option, whereas dramatically fewer participants choose the more expensive option. Thus,
+   people appear to act as if zero pricing of a good not only decreases its cost, but also adds to its benefits. … Affect
+   emerges as the most likely account for the effect."
+2. **Hossain, M. T., & Saini, R. (2015).** Free indulgences: Enhanced zero-price effect for hedonic options. *International
+   Journal of Research in Marketing*, 32(4), 457–460. https://doi.org/10.1016/j.ijresmar.2015.10.001 — abstract read on
+   RePEc/IDEAS: relative preference for hedonic products is "disproportionately enhanced" when offered free (the "free price
+   bounce"), which is "more subdued for utilitarian products".
+3. Background, not narrated: **Palmeira, M. M., & Srivastava, J. (2013).** Free offer ≠ cheap product. *Journal of Consumer
+   Research*, 40(4), 644–656. https://doi.org/10.1086/671565 — abstract (publisher page): after a promotion ends, willingness to
+   pay is higher when the product was offered free than at a low discount.
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Why can free pull people away from the better treat?" | **Question framed by the finding** | Shampanier et al. |
+| L2 | "Two scoops, one coin apart. Now cut both by one coin." | **Illustration** of the design (constant price gap; cheaper good at a low positive vs zero price) | Shampanier et al. design |
+| L3 | "The gap stays the same, but one is now free." | **Illustration** of the design | Shampanier et al. design |
+| L4 | "In experiments, far more chose the free one, and far fewer the better one." | **Measured finding** (direction only) | "dramatically more … choose the cheaper option, whereas dramatically fewer … choose the more expensive option" |
+| L5 | "Free didn't just cost less; it seemed to add value." | **Measured interpretation by the authors** | "act as if zero pricing … not only decreases its cost, but also adds to its benefits" |
+| L6 | "The effect was strongest for treats, weaker for practical items." | **Measured moderator** (the limit) | Hossain & Saini: enhanced for hedonic, more subdued for utilitarian |
+| L7 | "So save free for things people enjoy, where it pulls hardest." | **Practical advice** derived from L4–L6 (not a measured rule) | — |
+| — | ice-cream cups, coins, FREE chip, shopper pawns, practical item | **Illustration** | The studies' products were not ice cream; coins are price units (no currency, no real prices); pawn counts (7/3 → 3/7, and the treat-vs-practical split) are illustrative, not study shares. |
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), **af_bella 0.7 + am_puck 0.3**, speed 0.98, en-us,
+  newly synthesised. Hook audio starts at 0.15 s.
+- Script fixes: "The pull was strongest" was heard as "The poll" → "The effect was strongest"; lines re-spaced (L2→L3 and
+  L6→L7 were 0.2 / 0.13 s apart).
+- Whisper base.en per line (clean narration): L1 10/10 · L2 11/11 · L3 10/10 · L4 14/14 · L5 10/10 · L6 10/10 · L7 11/11 ·
+  L8 6/7 ("Werbens" → "Warbins", known limit).
+- Caption timing: Whisper word times plus `WORD_FIX` pins for L4 ("and far fewer" 13.17/13.41/13.76 s) and L6 ("for treats"
+  19.53/19.64 s, "for" 20.70 s), read from the voiced segments of the narration envelope.
+
+## 6. Final script (= final transcript) — 78 words, 23.4 s of speech
+| Part (context/27) | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: FREE BEATS / BETTER?) | L1 | 0.15–2.71 | Why can free pull people away from the better treat? |
+| Super hook | L2 | 3.53–7.07 | Two scoops, one coin apart. Now cut both by one coin. |
+| Build-up | L3 | 7.53–10.04 | The gap stays the same, but one is now free. |
+| Proof | L4 | 10.48–14.74 | In experiments, far more chose the free one, and far fewer the better one. |
+| Proof | L5 | 15.03–17.77 | Free didn't just cost less; it seemed to add value. |
+| Proof (limit) | L6 | 18.33–22.09 | The effect was strongest for treats, weaker for practical items. |
+| Payoff | L7 | 22.43–26.05 | So save free for things people enjoy, where it pulls hardest. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail.** An ice-cream stand on the navy stage: the better treat (a three-scoop sundae with a wafer and a
+  mint "cherry") priced at one upright coin, beside a single scoop whose price tag reads **FREE** — and most of the shoppers
+  (7 of 10) crowd the free scoop. The headline reads "FREE BEATS / BETTER?" (Space Grotesk 700; the second line uses the hero
+  gradient), x 121–879, y 330–652. No intro, no fade. The headline clears by 0.42 s as the first caption appears.
+- **One clean before/after with the price gap held constant** (the study design, illustrated): the stand rewinds to before
+  the cut (sundae 2 coins, scoop 1 coin; shoppers 7/3 for the sundae; the sundae's extra coin glows: "ONE COIN APART"), then
+  one coin pops off each stack, the scoop's tag flips to FREE, the extra coin glows again ("SAME GAP"), and four shoppers hop
+  over ("FREE WINS"); the sundae dims on "far fewer". A value halo and sparkles grow around the free scoop ("ADDS VALUE").
+- **The limit (scene change):** a second stand with a FREE scoop and a FREE practical item (a battery); four undecided
+  shoppers hop to the scoop, only one to the battery ("BEST ON TREATS").
+- **Payoff:** the battery's FREE chip flips back to a coin (priced honestly), the scoop's FREE chip glows and its shoppers
+  bounce on "where it pulls hardest" ("FREE FOR TREATS").
+- **Labels:** ONE COIN APART / SAME GAP / FREE WINS / ADDS VALUE / BEST ON TREATS / FREE FOR TREATS. All large and brief, one
+  at a time, y ≥ 574. In-world text: only the FREE chips; prices are coins (no currency, no numbers).
+- **Excluded:** brand names (the studies' products are not shown), real prices, study shares, source chips, decorative lines.
+- **Reusable lessons:**
+  1. Price stacks must sit in front of the crowd: coins upright on tags at the stand's front edge, shoppers between cups and
+     tags.
+  2. Check label widths with the DOM QA before rendering: "TREATS PULL MOST" (824 px) overflowed x 900; "BEST ON TREATS" fits.
+  3. When the final set is off-centre, aim the CTA camera and tile at that set, and start the pull-back before the tile pops.
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.45 s | stand, wide | headline; sundae 1 coin vs FREE scoop, shoppers 3/7; sundae glows on "better treat" | shimmer, piano |
+| Super hook | 3.45–7.5 s | slight push | rewind: 2 vs 1 coins, shoppers 7/3 (ONE COIN APART); one coin off each; scoop flips to FREE | whoosh, clacks, tag, coin drops, flip |
+| Build-up | 7.5–10.6 s | push | the extra coin glows (SAME GAP); FREE chip pops on "now free" | tag, chime |
+| Proof 1 | 10.6–15.2 s | wider | four shoppers hop to the free scoop (FREE WINS); sundae dims on "fewer" | plops, tag, sink |
+| Proof 2 | 15.2–18.15 s | close on the free scoop | value halo + sparkles (ADDS VALUE) | riser, tag |
+| Limit | 18.15–22.3 s | lateral move to the second stand | FREE scoop vs FREE battery; four shoppers to the scoop, one to the battery (BEST ON TREATS) | whoosh, plops, tag |
+| Payoff | 22.3–26.25 s | slight push | battery repriced (coin back); FREE scoop glows; shoppers bounce (FREE FOR TREATS) | flip, coin drop, chime, shimmer |
+| CTA | 25.5–30 s | pull back | stage sinks 26.25 s; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, D-major spread |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-18-english-21/werbens-30s-english21-01.mp4`, sha256 `87d77b67…f4bd`, 4,172,206 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `7653fb6a…`) and `.jpg` (sha256 `c25841af…`).
+
+Verification results (2026-11-18):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1 bt709; AAC-LC
+  48 kHz stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean.
+- **Audio:** −15.0 LUFS integrated, true peak −1.8 dBTP, LRA 2.1 LU, flat factor 0. Stems: voice −20.8, music −31.6, foley
+  −35.4 LUFS.
+- **ASR of the final mix (Whisper base.en):** whole-mix transcript matches the script except "Werbens" → "Warbins". ASR only,
+  no human listen.
+- **DOM, every frame (900):** caption ink x 132–868 / y 369–489; pill x 102–898 / y 353–507; headline 13 frames x 121–879 /
+  y 330–652; labels x 133–867 / y 574–1456. 0 headline conflicts, 0 outside, 0 overlaps, 0 in y < 300, never two big labels.
+  Caption groups: 11, shortest 1.84 s.
+- **Visual review:** every cut and move inspected in the final MP4 (`qa/cuts.png`); no empty frames; no missing assets.
+- **Render 1 was rejected after review:** ~0.4 s of near-empty frames on the move between the stands. The second stand was
+  moved closer (`src/scene.js`, X2 0.4 → 0.3); render 2 is the delivered file.
+- **Earlier outputs:** 23 earlier MP4s were re-hashed and are unchanged; nothing was deleted or overwritten.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 20 was finished (no checkpointed work, no jobs); re-read CLAUDE.md and
+   05-progress; read the topic history.
+2. Topic check → decoy (#03) and compromise (#18) both covered; switched to the zero-price effect (§2).
+3. Sources: Crossref (Shampanier et al. abstract; DOIs), RePEc/IDEAS (Hossain & Saini abstract), academic.oup.com (Palmeira &
+   Srivastava abstract, background). Europe PMC had no record of Hossain & Saini.
+4. app.werbens.com re-inspection (`tools/app.cjs`, `tools/appwm.cjs` → `appweb-dl-1118`).
+5. Project created from the english-20 skeleton (`src/` tools, fonts, node_modules); outputs, QA and words.json not copied.
+6. `node src/tts.mjs` (3 passes) → `node src/words.mjs` → `node src/words_fix.mjs`.
+7. Stills (5 passes): coin stacks hidden behind the shoppers → upright coins on front-edge tags; set too small → camera
+   closer; then too tight (FREE chips cut, logo tile filling the frame) → stations closer together, framings rebalanced,
+   CTA pull-back from 25.5 s.
+8. `node src/audio.mjs` (0 NaN) → `node src/qa_dom.mjs 3`: FAIL ("TREATS PULL MOST" x 110–934) → "BEST ON TREATS" → PASS →
+   caption durations checked (shortest 1.84 s) → checkpoint commit bbd77ea.
+9. `node src/render.mjs --video` → ffmpeg mux → `node src/render.mjs --thumb --stills 0 --out build/thumb` → `bash qa.sh` →
+   `node src/qa_dom.mjs 1` → `node src/asr_mix.mjs werbens-30s-english21-01.mp4`.
+10. Render 1 review → stand moved closer → render 2 → mux → thumbnail → `bash qa.sh` → `node src/qa_dom.mjs 1` →
+    `node src/asr_mix.mjs werbens-30s-english21-01.mp4`, all PASS; every cut checked in the final MP4 (§9).
+11. QA.md written; context/05 marked delivered; committed and pushed; MP4 + thumbnail attached in chat.
+
+Next step: none for this batch (one episode only; no automation).
