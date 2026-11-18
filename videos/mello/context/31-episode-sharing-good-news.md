@@ -83,3 +83,18 @@ How the script uses them (associational / measured / advice / illustrative):
 - **S5, 18.2–21.7:** close from the front: he holds out one small win, and the orb is at its biggest.
 - **S6, 21.7–25.5:** the roles swap. She holds her own orb and shares; he leans in with open hands, and her orb grows.
 - **S7, 25.5–30:** wide, both orbs glowing; lock-up.
+
+## Result
+- Final: `videos/mello/production/30s/2026-11-18-english-21/mello-30s-english21-01.mp4`
+  - sha256 `9ca227ded90f1a900665a0c31c407131c420591a945179d930e1576bd27ea682`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 16/16 on the first full render (`production/30s/2026-11-18-english-21/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.6 dBTP;
+  - six cuts on plan;
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- No listen-through (ASR and measurements only).
+
+## Skill / scene adjustments for future episodes
+- **Glowing objects on the light stage:** a saturated core with a small, low-opacity glow sprite. Large glows wash out nearby figures.
+- **Cards:** never fade a card out before its cut; cut straight from the card. A fade to the empty room makes the cut itself too soft for `cuts_on_plan` (english20, render 1).

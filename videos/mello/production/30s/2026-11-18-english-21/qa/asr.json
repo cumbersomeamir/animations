@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Keep good news to yourself? Telling someone might make it bigger. In diary studies, days when people shared good news had more positive mood, beyond the event itself. In experiments, sharing made good news feel more valuable, especially when the listener was enthusiastic. So tonight, tell one person about one small win. And when someone shares theirs, respond with real interest. Take a mindful break with Mello.",
+  "transcript": "Keep good news to yourself. Telling someone might make it bigger. In diary studies, days when people shared good news had more positive mood, beyond the event itself. In experiments, sharing made good news feel more valuable, especially when the listener was enthusiastic. So tonight, tell one person about one small win. And when someone shares theirs, respond with real interest. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.476,
+      "text": "Keep good news to yourself.",
+      "cer": 0.0
+    },
+    {
+      "id": "super",
+      "start": 1.95,
+      "end": 3.537,
+      "text": "Telling someone might make it bigger.",
+      "cer": 0.0
+    },
+    {
+      "id": "diary",
+      "start": 4.25,
+      "end": 10.678,
+      "text": "In diary studies, days when people shared good news had more positive mood, beyond the event itself.",
+      "cer": 0.0
+    },
+    {
+      "id": "exp",
+      "start": 11.15,
+      "end": 17.496,
+      "text": "In experiments, sharing made good news feel more valuable, especially when the listener was enthusiastic.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 18.55,
+      "end": 21.412,
+      "text": "So tonight, tell one person about one small win.",
+      "cer": 0.0
+    },
+    {
+      "id": "back",
+      "start": 21.95,
+      "end": 25.222,
+      "text": "And when someone shares theirs, respond with real interest.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

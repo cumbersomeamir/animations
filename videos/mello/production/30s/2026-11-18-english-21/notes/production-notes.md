@@ -27,7 +27,9 @@ The source is a copy of `../../2026-11-17-english-20/project/` (renderer, audit,
    - The orb was pale and small in frame 0, and its large glow sprite washed over the friend in S4–S5.
    - S5 looked at his back, and S6 lost him at the edge.
    - Fixes: a saturated gold core (emissive 0.55–1.0), a tighter glow (3.4–4.6× radius, opacity 0.35–0.65) and a closer frame 0. S5 is reframed from the front-right, and S6 is wider.
-2. ASR is exact on the first takes.
+2. ASR is exact on the first takes, and on the mix after `BED_GAIN` went from 0.37 to 0.44 (14.6 → 13.1 dB).
+3. The card's fade-out before the S3→S4 cut was removed pre-emptively (the lesson from english20's render 1). Cut contrasts on stills were 15–59, and the pre-render audit found 0 issues.
+4. Final render: all 16 checks passed on the first full render.
 
 ## Commands
 ```bash
