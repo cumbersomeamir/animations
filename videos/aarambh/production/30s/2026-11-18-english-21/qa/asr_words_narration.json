@@ -1,0 +1,381 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Blue",
+   "start": 0.0,
+   "end": 0.34
+  },
+  {
+   "w": "babies",
+   "start": 0.34,
+   "end": 0.7
+  },
+  {
+   "w": "lacked",
+   "start": 0.7,
+   "end": 1.1
+  },
+  {
+   "w": "oxygen.",
+   "start": 1.1,
+   "end": 1.72
+  },
+  {
+   "w": "Vivian",
+   "start": 2.3,
+   "end": 2.54
+  },
+  {
+   "w": "Thomas",
+   "start": 2.54,
+   "end": 2.9
+  },
+  {
+   "w": "helped",
+   "start": 2.9,
+   "end": 3.32
+  },
+  {
+   "w": "fix",
+   "start": 3.32,
+   "end": 3.56
+  },
+  {
+   "w": "it,",
+   "start": 3.56,
+   "end": 3.9
+  },
+  {
+   "w": "then",
+   "start": 3.9,
+   "end": 4.12
+  },
+  {
+   "w": "went",
+   "start": 4.12,
+   "end": 4.4
+  },
+  {
+   "w": "uncredited.",
+   "start": 4.4,
+   "end": 4.92
+  },
+  {
+   "w": "Too",
+   "start": 5.46,
+   "end": 5.54
+  },
+  {
+   "w": "little",
+   "start": 5.54,
+   "end": 5.7
+  },
+  {
+   "w": "of",
+   "start": 5.7,
+   "end": 5.82
+  },
+  {
+   "w": "their",
+   "start": 5.82,
+   "end": 6.02
+  },
+  {
+   "w": "blood",
+   "start": 6.02,
+   "end": 6.26
+  },
+  {
+   "w": "reached",
+   "start": 6.26,
+   "end": 6.52
+  },
+  {
+   "w": "the",
+   "start": 6.52,
+   "end": 6.72
+  },
+  {
+   "w": "lungs.",
+   "start": 6.72,
+   "end": 7.04
+  },
+  {
+   "w": "A",
+   "start": 7.48,
+   "end": 7.68
+  },
+  {
+   "w": "shunt",
+   "start": 7.68,
+   "end": 7.92
+  },
+  {
+   "w": "rerouted",
+   "start": 7.92,
+   "end": 8.32
+  },
+  {
+   "w": "an",
+   "start": 8.32,
+   "end": 8.62
+  },
+  {
+   "w": "artery",
+   "start": 8.62,
+   "end": 8.84
+  },
+  {
+   "w": "to",
+   "start": 8.84,
+   "end": 9.08
+  },
+  {
+   "w": "the",
+   "start": 9.08,
+   "end": 9.22
+  },
+  {
+   "w": "lungs,",
+   "start": 9.22,
+   "end": 9.58
+  },
+  {
+   "w": "so",
+   "start": 9.98,
+   "end": 10.16
+  },
+  {
+   "w": "more",
+   "start": 10.16,
+   "end": 10.44
+  },
+  {
+   "w": "blood",
+   "start": 10.44,
+   "end": 10.84
+  },
+  {
+   "w": "picked",
+   "start": 10.84,
+   "end": 11.04
+  },
+  {
+   "w": "up",
+   "start": 11.04,
+   "end": 11.28
+  },
+  {
+   "w": "oxygen.",
+   "start": 11.28,
+   "end": 11.74
+  },
+  {
+   "w": "Thomas",
+   "start": 12.76,
+   "end": 12.76
+  },
+  {
+   "w": "perfected",
+   "start": 12.76,
+   "end": 13.24
+  },
+  {
+   "w": "it",
+   "start": 13.24,
+   "end": 13.46
+  },
+  {
+   "w": "on",
+   "start": 13.46,
+   "end": 13.6
+  },
+  {
+   "w": "about",
+   "start": 13.6,
+   "end": 13.9
+  },
+  {
+   "w": "200",
+   "start": 13.9,
+   "end": 14.44
+  },
+  {
+   "w": "dogs,",
+   "start": 14.44,
+   "end": 14.94
+  },
+  {
+   "w": "then",
+   "start": 15.34,
+   "end": 15.62
+  },
+  {
+   "w": "coached",
+   "start": 15.62,
+   "end": 15.88
+  },
+  {
+   "w": "the",
+   "start": 15.88,
+   "end": 16.14
+  },
+  {
+   "w": "surgeon.",
+   "start": 16.14,
+   "end": 16.52
+  },
+  {
+   "w": "On",
+   "start": 17.04,
+   "end": 17.32
+  },
+  {
+   "w": "paper,",
+   "start": 17.32,
+   "end": 17.66
+  },
+  {
+   "w": "he",
+   "start": 17.9,
+   "end": 17.98
+  },
+  {
+   "w": "was",
+   "start": 17.98,
+   "end": 18.18
+  },
+  {
+   "w": "a",
+   "start": 18.18,
+   "end": 18.32
+  },
+  {
+   "w": "janitor.",
+   "start": 18.32,
+   "end": 18.66
+  },
+  {
+   "w": "The",
+   "start": 19.18,
+   "end": 19.58
+  },
+  {
+   "w": "1945",
+   "start": 19.58,
+   "end": 20.2
+  },
+  {
+   "w": "report",
+   "start": 20.2,
+   "end": 21.06
+  },
+  {
+   "w": "left",
+   "start": 21.06,
+   "end": 21.3
+  },
+  {
+   "w": "out",
+   "start": 21.3,
+   "end": 21.52
+  },
+  {
+   "w": "his",
+   "start": 21.52,
+   "end": 21.68
+  },
+  {
+   "w": "name.",
+   "start": 21.68,
+   "end": 22.3
+  },
+  {
+   "w": "Lesson,",
+   "start": 22.8,
+   "end": 23.22
+  },
+  {
+   "w": "practice",
+   "start": 23.46,
+   "end": 23.58
+  },
+  {
+   "w": "where",
+   "start": 23.58,
+   "end": 23.84
+  },
+  {
+   "w": "mistakes",
+   "start": 23.84,
+   "end": 24.06
+  },
+  {
+   "w": "are",
+   "start": 24.06,
+   "end": 24.36
+  },
+  {
+   "w": "safe,",
+   "start": 24.36,
+   "end": 24.76
+  },
+  {
+   "w": "then",
+   "start": 24.98,
+   "end": 25.3
+  },
+  {
+   "w": "guide",
+   "start": 25.3,
+   "end": 25.6
+  },
+  {
+   "w": "the",
+   "start": 25.6,
+   "end": 25.8
+  },
+  {
+   "w": "real",
+   "start": 25.8,
+   "end": 25.98
+  },
+  {
+   "w": "thing.",
+   "start": 25.98,
+   "end": 26.48
+  },
+  {
+   "w": "Download",
+   "start": 26.48,
+   "end": 27.62
+  },
+  {
+   "w": "RM",
+   "start": 27.62,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.32
+  },
+  {
+   "w": "tools.",
+   "start": 29.32,
+   "end": 29.78
+  }
+ ],
+ "text": "Blue babies lacked oxygen. Vivian Thomas helped fix it, then went uncredited. Too little of their blood reached the lungs. A shunt rerouted an artery to the lungs, so more blood picked up oxygen. Thomas perfected it on about 200 dogs, then coached the surgeon. On paper, he was a janitor. The 1945 report left out his name. Lesson, practice where mistakes are safe, then guide the real thing. Download RM to support livelihood tools."
+}

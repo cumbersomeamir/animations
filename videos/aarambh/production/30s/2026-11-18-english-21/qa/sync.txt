@@ -1,0 +1,20 @@
+word | narration-pass start used | export ASR nearest | event | event time
+Blue | 0.05 (Blue, placed) | 0.00 (Blue) | FRAME 0 (complete, = thumbnail): real portrait + a heart + a blue blood bead stranded outside it + "THE HANDS THEY FORGOT"; narration audible from 0.08 s; the heart beats | 0.00
+Blue | 0.05 (Blue, placed) | 0.00 (Blue) | light sweep across the portrait | 0.40
+Too | 5.46 (Too) | 5.42 (Too) | HARD CUT (flash) -> the circulation: lungs, heart, baby; few beads reach the lungs | 5.24
+little | 5.54 (little) | 5.54 (little) | the narrowed lung artery glows (too little gets through) | 5.44
+shunt | 7.68 (shunt) | 7.68 (shunt) | a gold shunt grows from the body artery to the lung artery; "shunt" | 7.53
+so | 9.98 (so) | 9.94 (so) | more beads reach the lungs and come back red; the baby turns from blue to pink | 9.78
+Thomas | 12.40 (Thomas, placed+0.1, ASR mis-stamp) | 12.76 (Thomas) | WHIP PAN (12.10-12.30) -> his portrait | 12.10
+about | 13.60 (about) | 13.58 (about) | the count runs up to about 200 | 13.50
+then | 15.34 (then) | 15.34 (then) | his print rises onto a stepstool behind the surgeon | 14.99
+On | 17.04 (On) | 17.04 (On) | PUSH (16.72-16.97) -> a blank card with his photo | 16.72
+janitor | 18.32 (janitor.) | 18.30 (janitor.) | stamp JANITOR | 18.17
+The | 19.18 (The) | 19.14 (The) | PUSH (18.88-19.13) -> the 1945 byline: BLALOCK · TAUSSIG | 18.88
+report | 20.20 (report) | 20.30 (report) | an empty dashed slot, "THOMAS" | 20.00
+left | 21.06 (left) | 21.06 (left) | his name fades from the slot | 20.96
+Lesson | 22.80 (Lesson,) | 22.78 (Lesson,) | PAGE TURN (22.20-22.55) -> lesson page: circular portrait, VIVIEN THOMAS; the heart, now with a red bead inside | 22.20
+then | 24.98 (then) | 25.00 (then) | card "rehearse, then guide" | 24.78
+Download | 27.20 (Download, placed+0.1, ASR mis-stamp) | 27.56 (RM) | CTA slides in (26.70-27.10) | 26.70
+summary: 17 events; for word-triggered events, event minus word start ranges -0.60 to -0.10 s (negative = event leads the word). Pacing: hook 0.05-5.02 (complete first frame, audio from 0.08 s), the problem 5.30-7.11, proof 7.40-22.29 with scene changes at 5.24, 12.30, 16.97, 19.13, payoff 22.55-26.58, CTA 27.10-29.87.
+note: placed sentence starts S1 0.05 S2 5.3 S3 7.4 S4 12.3 S5 17.0 S6 22.55 S7 27.1 (audio/script.json). On the second alignment pass ASR stamped "Thomas" (token 34) as zero-length at 12.76 although S4 is placed at 12.30; captions and this table therefore use the placed start + 0.1 s when ASR and placement differ by more than 0.25 s. ASR also stamps "Download" early (26.48; placed 27.10), writes "Vivian" for Vivien and "practice" for practise (homophones), and hears the app name as "RM"/"RUM" (TTS spelling "Aa-rumbh"; caption and card show Aarambh).

@@ -1,0 +1,48 @@
+{
+ "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+ "language": "English narration and English captions",
+ "sentences": [
+  {
+   "id": "S1",
+   "start": 0.05,
+   "text": "Blue babies lacked oxygen. Vivien Thomas helped fix it, then went uncredited.",
+   "tts": "Blue babies lacked oxygen. Vivien Thomas helped fix it, then went uncredited."
+  },
+  {
+   "id": "S2",
+   "start": 5.3,
+   "text": "Too little of their blood reached the lungs.",
+   "tts": "Too little of their blood reached the lungs."
+  },
+  {
+   "id": "S3",
+   "start": 7.4,
+   "text": "A shunt rerouted an artery to the lungs, so more blood picked up oxygen.",
+   "tts": "A shunt rerouted an artery to the lungs, so more blood picked up oxygen."
+  },
+  {
+   "id": "S4",
+   "start": 12.3,
+   "text": "Thomas perfected it on about 200 dogs, then coached the surgeon.",
+   "tts": "Thomas perfected it on about 200 dogs, then coached the surgeon."
+  },
+  {
+   "id": "S5",
+   "start": 17.0,
+   "text": "On paper he was a janitor; the 1945 report left out his name.",
+   "tts": "On paper he was a janitor; the 1945 report left out his name."
+  },
+  {
+   "id": "S6",
+   "start": 22.55,
+   "text": "Lesson: practise where mistakes are safe, then guide the real thing.",
+   "tts": "Lesson: practise where mistakes are safe, then guide the real thing."
+  },
+  {
+   "id": "S7",
+   "start": 27.1,
+   "text": "Download Aarambh to support livelihood tools.",
+   "tts": "Download Aa-rumbh, to support livelihood tools."
+  }
+ ]
+}

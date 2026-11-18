@@ -152,3 +152,13 @@
 - **Isolation:** the other apps' style notes in the brief were ignored.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. both addenda), then 11 and 34.
+
+## 2026-11-18: english-21 #01 (English; second under the 2026-11-17 feedback addendum)
+- **Pre-flight:** batch 20 was already complete, with nothing unfinished.
+- `videos/aarambh/production/30s/2026-11-18-english-21/aarambh-30s-english21-01.mp4` (sha256 `e132744578a44a691b074beee86056e1ab6c1af4cc37b55e7dad911e3be78439`) and thumbnail = frame 0: Vivien Thomas and the blue-baby shunt.
+  - Frame 0: portrait plus a heart with a blue bead stranded outside it, "THE HANDS THEY FORGOT".
+  - Story: one circulation diagram, before (a trickle to the lungs) and after (the gold shunt; beads turn red; the baby turns pink) → ≈ 200 dogs, then his print on a stepstool behind the surgeon → JANITOR stamp → the 1945 byline without THOMAS → lesson "practise where mistakes are safe, then guide the real thing" (the heart returns with a red bead) → Aarambh CTA.
+- **Open:**
+  - confirm the portrait's rights (Commons "PD-because"; possible Vanderbilt-held photograph) before release;
+  - a human listen.
+- **Read first next time:** 25 (incl. both addenda), then 11 and 35.

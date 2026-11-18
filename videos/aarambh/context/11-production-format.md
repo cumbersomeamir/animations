@@ -367,3 +367,12 @@ Changes to the recipe above:
 - **Wording discipline:** say "her supervisor published the work without crediting her" (documented) and name Dean only through the documented term "Dean's derivatives". Avoid "water-soluble" (the esters were thin oils, per Parascandola) and "cure" (a treatment, replaced by sulfones in the 1940s).
 
 - 22 (2026-11-17, english-20): Alice Ball and chaulmoogra oil, "HER METHOD. HIS NAME.": swallowed it caused nausea; injected it hurt and barely absorbed; she turned its fatty acids into ethyl esters, thin oils the body absorbs; she died at 24; her supervisor published the work without crediting her; Hollmann's 1922 paper called it Ball's Method; lesson: a remedy only helps if patients can take it (Parascandola/NLM; Hollmann 1922; University of Hawaiʻi). Record: `34-production-30s-english20-01.md`
+
+## English-21 notes, 2026-11-18
+- **Correct a brief's job title before scripting:** Vivien Thomas was a surgical technician, not a surgeon. Say what the person did ("coached the surgeon"), not what the title line claims.
+- **Portrait licensing:** when the only portrait has a weak public-domain basis (a Commons "PD-because" tag) or conflicting rights statements, use it only with a clear caveat in the record and in the report, and keep the asset filename explicit (`…-pd-claimed`) so it can be swapped.
+- **Before/after physiology as one live diagram:** one circulation diagram that changes (a narrowed artery, then a gold shunt growing, beads turning red, the figure turning pink) explains better than two separate pages, and needs only two single-word labels.
+- **ASR can mis-stamp a sentence's first word** (zero-length "Thomas" at 12.76 against a 12.30 placement). Caption starts now fall back to the placed sentence start (+0.1 s) when the two differ by more than 0.25 s. Check each sentence's first caption on stills.
+- **Close the loop visually:** bring the frame-0 object back in the payoff, resolved (here the stranded blue bead becomes a red bead inside the heart).
+
+- 23 (2026-11-18, english-21): Vivien Thomas and the blue-baby shunt, "THE HANDS THEY FORGOT": blue babies lacked oxygen because too little blood reached the lungs; a shunt rerouted an artery to the lungs; Thomas perfected it on about 200 dogs and coached the surgeon; classed as a janitor and left out of the 1945 report; lesson: practise where mistakes are safe, then guide the real thing (PBS; ACC; JAMA 2008; J Med Biogr 2017; StatPearls). Portrait licence caveat in the record. Record: `35-production-30s-english21-01.md`

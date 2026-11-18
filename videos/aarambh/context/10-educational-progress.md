@@ -257,3 +257,11 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Feedback applied:** one moving idea per scene, at most one short label, chemistry shown by motion, a bold frame-0 thumbnail.
 - **Verification:** both ASR models match the script word for word except the app name; there was no human listening. One video-only re-render for frame-0 spacing.
 - No automation; no other episode started; earlier outputs, batch 19 included, untouched.
+
+## 2026-11-18: english-21 #01 (COMPLETE; second under the 2026-11-17 feedback addendum in context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-18-english-21/aarambh-30s-english21-01.mp4`, sha256 `e132744578a44a691b074beee86056e1ab6c1af4cc37b55e7dad911e3be78439`, plus the thumbnail `aarambh-30s-english21-01-thumbnail.png` (= frame 0, "THE HANDS THEY FORGOT"). Vivien Thomas and the blue-baby shunt (English). 30.000 s, 900 frames, −15.0 LUFS, −1.7 dBTP, full decode OK.
+- **Verified facts:** PBS (his role; testing in animals; advising over Blalock's shoulder), ACC (about 200 dogs; the stepstool; classed as a janitor; the 1976 doctorate), JAMA 2008 (the 1945 Blalock–Taussig paper "did not acknowledge" him), J Med Biogr 2017 (a laboratory technician without a college education) and StatPearls (the subclavian-to-pulmonary shunt improves lung blood flow and reduces cyanosis).
+- **Brief correction:** Thomas is not called a surgeon.
+- **Portrait:** the only portrait found carries a weak public-domain basis (Commons "PD-because"); this is flagged in 35, with a recommendation to confirm before release.
+- **Verification:** both ASR models match the script word for word except homophone spellings and the app name; there was no human listening. Two video-only re-renders (counter fade; caption start after an ASR mis-stamp).
+- No automation; no other episode started; earlier outputs, batch 20 included, untouched.
