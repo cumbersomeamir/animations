@@ -92,7 +92,7 @@ const STAR_TEX = canvasTex(128, 128, (k, w) => { const c = w / 2; const g = k.cr
 const sparks = [0, 1, 2].map(() => { const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: STAR_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); s.renderOrder = 7; stageA.add(s); return s; });
 
 // ------------------------------------------------------------------ set B (X2): the limit — a FREE scoop (treat) vs a FREE battery (practical)
-const X2 = 0.4, stageB = new THREE.Group(); stageB.position.x = X2; scene.add(stageB); const stageBSh = contactShadow();
+const X2 = 0.3, stageB = new THREE.Group(); stageB.position.x = X2; scene.add(stageB); const stageBSh = contactShadow();
 { const base = new THREE.Mesh(new RoundedBoxGeometry(0.3, PLT, 0.2, 3, 0.006), mat(C3.ink, { roughness: 0.5, clearcoat: 0.3 })); base.position.set(0, PLT / 2, 0.05); base.castShadow = true; base.receiveShadow = true; stageB.add(base); }
 const treatB = makeCup(stageB, { h: 0.03, r0: 0.014, r1: 0.021, scoops: [[C3.mint, 0.019, 0, 0.011, 0]] }); treatB.g.position.set(SX[0], PLT, 0);
 const battery = new THREE.Group(); battery.position.set(SX[1], PLT, 0); stageB.add(battery);
