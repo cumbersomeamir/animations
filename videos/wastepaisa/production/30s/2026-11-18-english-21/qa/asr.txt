@@ -1,0 +1,24 @@
+English intelligibility and timing evidence: wastepaisa-30s-english21-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.12 | offset plan 1.97 heard 1.95 | heard: scrap price ride price
+   L2 word acc 1.00 | onset plan 2.30 heard 2.27 | offset plan 4.02 heard 3.98 | heard: which old cycles are worth fixing
+   L3 word acc 0.90 | onset plan 4.35 heard 4.38 | offset plan 7.63 heard 7.62 | heard: a mumbai shop has sold over one hundred refurbished cycles
+   L4 word acc 1.00 | onset plan 7.96 heard 7.93 | offset plan 11.21 heard 11.20 | heard: fix the ones with straight frames strip the rest for parts
+   L5 word acc 1.00 | onset plan 11.55 heard 11.55 | offset plan 17.44 heard 17.43 | heard: say ten scrap cycles cost forty five hundred rupees fixing seven costs seven thousand
+   L6 word acc 0.93 | onset plan 17.77 heard 17.80 | offset plan 23.26 heard 23.23 | heard: seven sold at two thousand plus scrap from three rex about thirty five hundred left
+   L7 word acc 0.78 | onset plan 23.59 heard 23.62 | offset plan 25.70 heard 25.72 | heard: in every wreck as a cheap spare parts shop
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.938; every onset/offset within 0.04 s of plan (full record in qa/asr-english-vosk.json)
+   Misses are homophones or normalisation only: wrecks -> "rex", and -> "in", is -> "as", "a hundred" -> "one hundred"; the brand is
+   out of vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Scrap price, ride price, which old cycles are worth fixing. A Mumbai shop has sold over 100 refurbished cycles. Fix the ones with straight frames, strip the rest for parts. Say 10 scrap cycles cost 4,500 rupees, fixing 7 costs 7,000. 7 sold at 2,000 plus scrap from 3 wrecks, about 3,500 left. And every wreck is a cheap spare parts shop. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word apart from the brand spelling.
+
+3) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.4 dBFS (the AAC encode adds 0.1 dB over the -1.5 dBTP
+   loudnorm target), sample peak -1.47 dBFS, flat factor 0 (no clipped runs). The bicycle bells, whoosh, freewheel click, spanner clank,
+   pop and profit ping all sit between lines (audio/cues.json).

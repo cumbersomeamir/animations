@@ -571,6 +571,38 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixed during QA:** script length, place-name pronunciation, a sparse frame 0 (now a visible flower stream) and the price-flip
   timing.
 
+## english-21 (2026-11-18-english-21) episode 01: COMPLETE (English)
+- **Topic:** the proposed broken-terracotta mosaic planter repeated english-17's broken-ceramic mosaic (same technique, supplies and
+  margin story). Tamarind seeds and jar candles were checked and dropped for weak price data. Chosen instead: old bicycles bought at
+  scrap rates, sorted by frame, repaired or stripped for parts, and resold.
+  - Spine: scrap price vs ride price; which old cycles are worth fixing? Proof: a Mumbai shop has sold over 100 refurbished cycles
+    (₹250–₹2,500 each; new ≈ ₹7,000; FPJ 2024). Method: fix straight frames, strip the rest for parts.
+  - Assumed batch: ten scrap cycles ₹4,500; fixing seven ₹7,000 (parts ₹4,900 + labour ₹2,100); seven sold at ₹2,000 plus ₹1,000 of
+    scrap; ≈ ₹3,500 left.
+  - Takeaway: every wreck is a cheap spare-parts shop.
+- **Start state:** batch20 complete and pushed; no unfinished or running job, so nothing was cancelled or duplicated.
+- **Live feedback 2026-11-17:** applied (opportunity-first, zero warnings, CTA and style kept, stronger motion).
+- **First-frame rule:** frame 0 shows a cycle split rusty/shiny on a scale with SCRAP ₹ ? and RIDE ₹ ? tags and "Scrap price. Ride
+  price." on screen, voice at 0.10 s; the thumbnail is the same composition with "SCRAP PRICE RIDE PRICE".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-18-english-21/wastepaisa-30s-english21-01.mp4`,
+  SHA-256 `40d830c99b7290a4b16f18728202bfc3dedb2de846baac210b177cb4f5dba57a`; thumbnail `wastepaisa-30s-english21-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 135.5–864.5, y 343.5–516.5; hook caption at frame 0.
+  - Timing within ±0.04 s.
+  - Vosk mean 0.938 (homophones and brand); Whisper word for word apart from the brand.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - Free Press Journal, 5 Jan 2024 (Cycle Revolution, Andheri: over 100 sold at ₹250–₹2,500; new ≈ ₹7,000; unfixable cycles stripped
+    for parts).
+  - Household iron rate ₹35–42/kg (context 26) as the anchor for an assumed ₹30/kg.
+  - Episode record: `context/34-english-21-01.md`. No automation.
+- **Fixed during QA:**
+  - The sort scene's overlap, the cost stack hitting the ASSUMED tag, the FIX ₹7,000 bracket, refit-wheel positions and the scale
+    readout.
+  - Two over-wide caption groups.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts

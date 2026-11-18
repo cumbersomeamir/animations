@@ -157,6 +157,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     from ASSUMED reject rate, yields, labour and prices; distinct from english-09's wiping rags).
     Temple flower waste into dhoop cones (english-20; replaced a proposed pallet-to-planter repair-and-cut topic that repeated hindi-04's
     pallet repair business; PIB 2024 Ujjain proof; assumed batch with labour, unsold packs and a price lever).
+    Scrap bicycles sorted, repaired or stripped for parts, and resold (english-21; replaced a proposed broken-terracotta mosaic planter that
+    repeated english-17's broken-ceramic mosaic; FPJ 2024 Mumbai proof; assumed batch with buying, parts, labour and scrap back).
   - **Counters:** pop the final rounded figure (e.g. ≈3,000) instead of counting up, so no frame shows an invented exact number
     (english-16 '≈0 MILLION', english-19 '≈2,989').
   - **Never insert a `//` comment mid-line in scene code;** use `/* */` (english-14 and english-19 both broke a line this way).

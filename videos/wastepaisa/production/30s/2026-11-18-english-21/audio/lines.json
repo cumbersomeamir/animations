@@ -1,0 +1,10 @@
+[
+ {"id": "L1", "text": "Scrap price. Ride price.", "start": 0.1},
+ {"id": "L2", "text": "Which old cycles are worth fixing?", "start": 2.3},
+ {"id": "L3", "text": "A Mumbai shop has sold over 100 refurbished cycles.", "tts": "A Mumbai shop has sold over a hundred refurbished cycles.", "start": 4.35},
+ {"id": "L4", "text": "Fix the ones with straight frames; strip the rest for parts.", "start": 7.96},
+ {"id": "L5", "text": "Say ten scrap cycles cost ₹4,500; fixing seven costs ₹7,000.", "tts": "Say ten scrap cycles cost forty-five hundred rupees; fixing seven costs seven thousand.", "start": 11.55},
+ {"id": "L6", "text": "Seven sold at ₹2,000, plus scrap from three wrecks: about ₹3,500 left.", "tts": "Seven sold at two thousand, plus scrap from three wrecks: about thirty-five hundred left.", "start": 17.77},
+ {"id": "L7", "text": "And every wreck is a cheap spare-parts shop.", "start": 23.59},
+ {"id": "L8", "text": "Join WastePaisa and put your scrap to use.", "start": 27.2}
+]

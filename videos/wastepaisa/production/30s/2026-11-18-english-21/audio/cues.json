@@ -1,0 +1,53 @@
+{
+ "sfx_cues": [
+  [
+   2.02,
+   "bicycle bell (after \"Ride price\", before \"Which\")"
+  ],
+  [
+   2.16,
+   "second ring"
+  ],
+  [
+   4.08,
+   "to the Mumbai shop (between lines)"
+  ],
+  [
+   7.68,
+   "freewheel click (between lines)"
+  ],
+  [
+   11.26,
+   "spanner clank (between lines)"
+  ],
+  [
+   17.49,
+   "fix cost settles (between lines)"
+  ],
+  [
+   23.31,
+   "LEFT \u2248 \u20b93,500 (after the line)"
+  ],
+  [
+   25.78,
+   "the refitted cycle rings (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.12",
+  "input_tp": "-3.09",
+  "input_lra": "2.80",
+  "input_thresh": "-27.82",
+  "output_i": "-15.60",
+  "output_tp": "-1.50",
+  "output_lra": "1.90",
+  "output_thresh": "-26.29",
+  "normalization_type": "dynamic",
+  "target_offset": "0.60"
+ }
+}

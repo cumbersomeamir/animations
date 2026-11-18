@@ -1,0 +1,113 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Scrap price. Ride price.",
+   "heard": "scrap price ride price",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.12,
+   "plan_off": 1.97,
+   "heard_off": 1.95,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Which old cycles are worth fixing?",
+   "heard": "which old cycles are worth fixing",
+   "word_acc": 1.0,
+   "plan_on": 2.3,
+   "heard_on": 2.27,
+   "plan_off": 4.023,
+   "heard_off": 3.98,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "A Mumbai shop has sold over a hundred refurbished cycles.",
+   "heard": "a mumbai shop has sold over one hundred refurbished cycles",
+   "word_acc": 0.9,
+   "plan_on": 4.35,
+   "heard_on": 4.38,
+   "plan_off": 7.63,
+   "heard_off": 7.62,
+   "missed": [
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Fix the ones with straight frames; strip the rest for parts.",
+   "heard": "fix the ones with straight frames strip the rest for parts",
+   "word_acc": 1.0,
+   "plan_on": 7.96,
+   "heard_on": 7.93,
+   "plan_off": 11.215,
+   "heard_off": 11.2,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Say ten scrap cycles cost forty-five hundred rupees; fixing seven costs seven thousand.",
+   "heard": "say ten scrap cycles cost forty five hundred rupees fixing seven costs seven thousand",
+   "word_acc": 1.0,
+   "plan_on": 11.55,
+   "heard_on": 11.55,
+   "plan_off": 17.444,
+   "heard_off": 17.43,
+   "missed": []
+  },
+  {
+   "id": "L6",
+   "ref": "Seven sold at two thousand, plus scrap from three wrecks: about thirty-five hundred left.",
+   "heard": "seven sold at two thousand plus scrap from three rex about thirty five hundred left",
+   "word_acc": 0.933,
+   "plan_on": 17.77,
+   "heard_on": 17.8,
+   "plan_off": 23.261,
+   "heard_off": 23.23,
+   "missed": [
+    [
+     "wrecks"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "And every wreck is a cheap spare-parts shop.",
+   "heard": "in every wreck as a cheap spare parts shop",
+   "word_acc": 0.778,
+   "plan_on": 23.59,
+   "heard_on": 23.62,
+   "plan_off": 25.698,
+   "heard_off": 25.72,
+   "missed": [
+    [
+     "and"
+    ],
+    [
+     "is"
+    ]
+   ]
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

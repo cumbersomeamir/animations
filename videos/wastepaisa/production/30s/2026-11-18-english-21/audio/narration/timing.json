@@ -1,0 +1,77 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.106,
+  "words": 68,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Scrap price. Ride price.",
+      "start": 0.1,
+      "phonemes": "skɹˈæp pɹˈaɪs. ɹˈaɪd pɹˈaɪs.",
+      "duration": 1.87,
+      "end": 1.97
+    },
+    {
+      "id": "L2",
+      "text": "Which old cycles are worth fixing?",
+      "start": 2.3,
+      "phonemes": "wˌɪtʃ ˈoʊld sˈaɪkəlz ɑːɹ wˈɜːθ fˈɪksɪŋ?",
+      "duration": 1.723,
+      "end": 4.023
+    },
+    {
+      "id": "L3",
+      "text": "A Mumbai shop has sold over 100 refurbished cycles.",
+      "tts": "A Mumbai shop has sold over a hundred refurbished cycles.",
+      "start": 4.35,
+      "phonemes": "ɐ mʊmbˈaɪ ʃˈɑːp hɐz sˈoʊld ˌoʊvɚɹ ɐ hˈʌndɹɪd ɹᵻfˈɜːbɪʃt sˈaɪkəlz.",
+      "duration": 3.28,
+      "end": 7.63
+    },
+    {
+      "id": "L4",
+      "text": "Fix the ones with straight frames; strip the rest for parts.",
+      "start": 7.96,
+      "phonemes": "fˈɪks ðə wˈʌnz wɪð stɹˈeɪt fɹˈeɪmz; stɹˈɪp ðə ɹˈɛst fɔːɹ pˈɑːɹts.",
+      "duration": 3.255,
+      "end": 11.215
+    },
+    {
+      "id": "L5",
+      "text": "Say ten scrap cycles cost ₹4,500; fixing seven costs ₹7,000.",
+      "tts": "Say ten scrap cycles cost forty-five hundred rupees; fixing seven costs seven thousand.",
+      "start": 11.55,
+      "phonemes": "sˈeɪ tˈɛn skɹˈæp sˈaɪkəlz kˈɔst fˈɔːɹɾifˈaɪv hˈʌndɹɪd ɹˈuːpiːz; fˈɪksɪŋ sˈɛvən kˈɔsts sˈɛvən θˈaʊzənd.",
+      "duration": 5.894,
+      "end": 17.444
+    },
+    {
+      "id": "L6",
+      "text": "Seven sold at ₹2,000, plus scrap from three wrecks: about ₹3,500 left.",
+      "tts": "Seven sold at two thousand, plus scrap from three wrecks: about thirty-five hundred left.",
+      "start": 17.77,
+      "phonemes": "sˈɛvən sˈoʊld æt tˈuː θˈaʊzənd, plˈʌs skɹˈæp fɹʌm θɹˈiː ɹˈɛks: ɐbˌaʊt θˈɜːɾifˈaɪv hˈʌndɹɪd lˈɛft.",
+      "duration": 5.491,
+      "end": 23.261
+    },
+    {
+      "id": "L7",
+      "text": "And every wreck is a cheap spare-parts shop.",
+      "start": 23.59,
+      "phonemes": "ænd ˈɛvɹi ɹˈɛk ɪz ɐ tʃˈiːp spˈɛɹpˈɑːɹts ʃˈɑːp.",
+      "duration": 2.108,
+      "end": 25.698
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}
