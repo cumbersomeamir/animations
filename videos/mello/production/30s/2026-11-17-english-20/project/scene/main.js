@@ -336,13 +336,13 @@ for (const o of scene.children) if (o.isMesh && o.material && o.material.map ===
 plant.position.set(-1.3, 0, -1.5); blob(0.6, 0.6, 0.5).position.set(-1.3, 0.002, -1.5);
 
 // ---- the giant message screen (a phone, scaled up) and the phone in his hand
-const MSG_POS = V(0.3, 1.72, 0.25);
-const msg = makeCard(0.36, 0.44, '#FFFDF7', PAL.lilac); const msgTx = cardCanvas(msg, 0.34, 0.42, 680, 840);
+const MSG_POS = V(0.26, 1.72, 0.25);
+const msg = makeCard(0.32, 0.44, '#FFFDF7', PAL.lilac); const msgTx = cardCanvas(msg, 0.3, 0.42, 600, 840);
 function drawMsg() { const { c, g, t } = msgTx; g.clearRect(0, 0, c.width, c.height); g.textBaseline = 'middle'; g.textAlign = 'center';
-  rr(g, 280, 40, 120, 120, 60, '#DCD3F2'); g.fillStyle = PAL.deep; g.font = `600 60px ${UI}`; g.fillText('S', 340, 104);
-  g.fillStyle = '#8E86AE'; g.font = `600 44px ${UI}`; g.fillText('9:41 PM', 340, 210);
-  rr(g, 30, 290, 620, 360, 70, '#ECE7F7'); g.textAlign = 'left'; g.fillStyle = INK; g.font = `400 150px ${SERIF}`; g.fillText('We need', 80, 395); g.fillText('to talk.', 80, 545);
-  g.fillStyle = '#8E86AE'; g.font = `500 40px ${UI}`; g.fillText('Read', 50, 720);
+  rr(g, 240, 40, 120, 120, 60, '#DCD3F2'); g.fillStyle = PAL.deep; g.font = `600 60px ${UI}`; g.fillText('S', 300, 104);
+  g.fillStyle = '#8E86AE'; g.font = `600 44px ${UI}`; g.fillText('9:41 PM', 300, 210);
+  rr(g, 24, 290, 552, 360, 70, '#ECE7F7'); g.textAlign = 'left'; g.fillStyle = INK; g.font = `400 140px ${SERIF}`; g.fillText('We need', 64, 395); g.fillText('to talk.', 64, 545);
+  g.fillStyle = '#8E86AE'; g.font = `500 40px ${UI}`; g.fillText('Read', 40, 720);
   t.needsUpdate = true; }
 drawMsg();
 const phone = new THREE.Group(); scene.add(phone);
@@ -468,7 +468,7 @@ function setEpisode(t) {
     M_STORM.color.set('#3B2F6E').lerp(new THREE.Color('#B9A4FF'), soft); M_STORM.emissive.set('#2A1F66').lerp(new THREE.Color('#6E5BC4'), soft);
     if (t >= S.s2 && t < S.s3) { const gA = sm(remap(t, T.ghostA, T.ghostB)); ghost.visible = gA > 0.01; ghost.position.copy(storm.position); ghost.rotation.copy(storm.rotation); ghost.scale.setScalar(sc * lerp(1.0, 1.35, gA)); ghost.material.opacity = 0.3 * gA; } }
   const lab = (L, a, pos, s) => { L.visible = a > 0.003; if (!L.visible) return; L.position.copy(pos); L.quaternion.copy(camera.quaternion); L.scale.setScalar(s * lerp(0.75, 1, a)); L.userData.body.material.opacity = a; L.userData.txt.material.opacity = a; };
-  lab(worseTag, t >= S.s2 && t < S.s3 ? sm(remap(t, T.ghostB - 0.4, T.ghostB)) : 0, STORM_AT.clone().add(V(-0.3, -0.3, 0.12)), 1.1);
+  lab(worseTag, t >= S.s2 && t < S.s3 ? sm(remap(t, T.ghostB - 0.4, T.ghostB)) : 0, STORM_AT.clone().add(V(-0.2, -0.3, 0.12)), 1.1);
   lab(nameTag, t >= S.s6 ? sm(remap(t, T.tagA, T.tagB)) : 0, storm.position.clone().add(V(0.2, -0.22, 0.16)), 1.1);
   // the card (S3-S4)
   const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25)) * (1 - sm(remap(t, S.s5 - 0.3, S.s5 - 0.02)));
