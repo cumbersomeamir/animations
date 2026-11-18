@@ -4,6 +4,79 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-18 (english-20, batch 20): "Deposit gone for wear and tear?": security deposit (Tamil Nadu)
+
+### Status
+- **Continuation:** new app-isolated Code session (account load-balancing, expressly authorised 18 Nov). Context:
+  `context/10-continuation-2026-11-18.md`.
+- **Confirmed before edits:**
+  - repo cumbersomeamir/animations, branch claude-video/courtlens
+  - working tree clean and in sync with origin at 8ac97e0
+  - no batch-20/21 folder locally or on the remote (nothing to resume or duplicate)
+  - caches restored, with model hashes matching
+- **Topic:** new (no deposit or wear-and-tear episode in 01–19). Record:
+  `context/episodes/2026-11-17-english20-deposit-wear-and-tear-tn.md`.
+- **18 Nov feedback** persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-17-english-20/notes/LEGAL-SOURCES.md`)
+- **TN Act 42 of 2017** (Gazette copy via PRS, sha256 09a11942…cc1a91; extends to the state's urban areas, s.1(2)):
+  - s.11(2) as amended by Act 39 of 2018 s.9: refund "at the time of taking over of possession of the vacant premises
+    by the landlord, after making due deduction of any liability of the tenant"
+  - s.15(1): "Notwithstanding any contract in writing to the contrary… as good a condition as at the commencement…
+    except for normal wear and tear"
+  - s.16(a): no intentional or negligent damage
+  - Second Schedule Part A item 2: whitewashing walls / painting doors and windows = landlord
+- No 2023–2026 amendment found. Act 19 of 2022 doesn't touch these sections, and its commencement is unconfirmed.
+
+### Creative decisions (18 Nov feedback applied)
+- **One continuous rented-flat diorama** in one-point perspective with a keyframed camera (dolly/zoom to the back
+  wall, the window and the door). No slides.
+- **One short label per beat:** NORMAL WEAR, LANDLORD'S JOB, DEDUCTED, AT HANDOVER, IN WRITING.
+- **Frame zero = thumbnail:**
+  - the padlocked ₹45,000 envelope in the worn flat, with a red ring on a stain
+  - "DEPOSIT GONE FOR WEAR & TEAR?"
+  - voice at 0.05 s
+- **Motion beats:**
+  - keys drop
+  - rewind to move-in day, then a day/night time-lapse
+  - roller wipe and a struck agreement line
+  - a cricket ball cracks the window; notes fly as the amount rolls ₹45,000 → ₹43,500
+  - the envelope returns; keys arc onto the peg
+  - phone flashes with polaroids IN/OUT; a pen writes
+- Amounts are illustrative. No forum is named (it would need the s.4-A registration caveat, and the feedback asked for
+  less information).
+- Mix gain is 6.0 dB (−15.9 LUFS / −2.4 dBTP measured on the pre-render mix).
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-17-english-20/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st20 <times>
+node render.cjs thumb .. courtlens-30s-english20-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build20 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english20-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english20-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+```
+
+### Fixed before the full render (stills review)
+- **Phone viewfinder:** it rendered as a solid navy block because the even-odd path was reset by `rr()`. It is now
+  one see-through path.
+- **Frame zero:**
+  - the worn layer was too faint, so the stains are stronger and the inner vignette deeper
+  - a picture "ghost" plus the key hook read as a face, so the ghost was removed and the hook became a peg
+  - two red rings overlapped, so there is now one at t=0 and a second drawn on "faded"
+- **Keys:** they were hidden behind the envelope, so they moved left.
+- **Window beat:** the crack was small, so a cricket ball now flies in, with a tighter zoom (1.65).
+- **Odometer:** it now rolls in ₹100 steps. The chip moved up to y=548, off the room frame.
+- **Narration:** trimmed from 28.4 s to 26.4 s. "Tamil Nadu's tenancy law draws the line" was heard with a break, so
+  it became "…says:".
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail. Then batch 21.
+
 ## Round 2026-11-17 (english-19, batch 19): "₹18 for their bag?": carry bag charges
 
 ### Status

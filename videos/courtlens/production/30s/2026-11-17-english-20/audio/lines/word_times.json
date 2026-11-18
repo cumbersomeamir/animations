@@ -1,0 +1,460 @@
+{
+ "l1": {
+  "script": "Deposit gone, for wear and tear?",
+  "heard": "Deposit gone for wear and tear.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Deposit",
+    0.0,
+    0.46
+   ],
+   [
+    "gone",
+    0.46,
+    0.86
+   ],
+   [
+    "for",
+    0.86,
+    1.16
+   ],
+   [
+    "wear",
+    1.16,
+    1.32
+   ],
+   [
+    "and",
+    1.32,
+    1.56
+   ],
+   [
+    "tear.",
+    1.56,
+    1.7
+   ]
+  ]
+ },
+ "l2": {
+  "script": "You moved out. The landlord blames faded paint.",
+  "heard": "You moved out. The landlord blames faded paint.",
+  "wer": 0.0,
+  "words": [
+   [
+    "You",
+    0.0,
+    0.2
+   ],
+   [
+    "moved",
+    0.2,
+    0.44
+   ],
+   [
+    "out.",
+    0.44,
+    0.78
+   ],
+   [
+    "The",
+    1.06,
+    1.28
+   ],
+   [
+    "landlord",
+    1.28,
+    1.54
+   ],
+   [
+    "blames",
+    1.54,
+    2.04
+   ],
+   [
+    "faded",
+    2.04,
+    2.36
+   ],
+   [
+    "paint.",
+    2.36,
+    2.66
+   ]
+  ]
+ },
+ "l3": {
+  "script": "Tamil Nadu's tenancy law says:",
+  "heard": "Tamil Nadu's tenancy law says.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Tamil",
+    0.0,
+    0.34
+   ],
+   [
+    "Nadu's",
+    0.34,
+    0.82
+   ],
+   [
+    "tenancy",
+    0.82,
+    1.12
+   ],
+   [
+    "law",
+    1.12,
+    1.3
+   ],
+   [
+    "says.",
+    1.3,
+    1.58
+   ]
+  ]
+ },
+ "l4": {
+  "script": "Keep the flat as you got it, except normal wear and tear.",
+  "heard": "Keep the flat as you got it, except normal wear and tear.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Keep",
+    0.0,
+    0.24
+   ],
+   [
+    "the",
+    0.24,
+    0.5
+   ],
+   [
+    "flat",
+    0.5,
+    0.62
+   ],
+   [
+    "as",
+    0.62,
+    0.76
+   ],
+   [
+    "you",
+    0.76,
+    0.94
+   ],
+   [
+    "got",
+    0.94,
+    1.14
+   ],
+   [
+    "it,",
+    1.14,
+    1.46
+   ],
+   [
+    "except",
+    1.74,
+    1.94
+   ],
+   [
+    "normal",
+    1.94,
+    2.34
+   ],
+   [
+    "wear",
+    2.34,
+    2.56
+   ],
+   [
+    "and",
+    2.56,
+    2.84
+   ],
+   [
+    "tear.",
+    2.84,
+    3.0
+   ]
+  ]
+ },
+ "l5": {
+  "script": "Repainting? The landlord's job, whatever the agreement says.",
+  "heard": "repainting, the landlord's job, whatever the agreement says.",
+  "wer": 0.0,
+  "words": [
+   [
+    "repainting,",
+    0.0,
+    0.76
+   ],
+   [
+    "the",
+    1.06,
+    1.2
+   ],
+   [
+    "landlord's",
+    1.2,
+    1.84
+   ],
+   [
+    "job,",
+    1.84,
+    2.12
+   ],
+   [
+    "whatever",
+    2.16,
+    2.46
+   ],
+   [
+    "the",
+    2.46,
+    2.78
+   ],
+   [
+    "agreement",
+    2.78,
+    3.06
+   ],
+   [
+    "says.",
+    3.06,
+    3.36
+   ]
+  ]
+ },
+ "l6": {
+  "script": "Damage you cause, like a broken window, can be deducted.",
+  "heard": "Damage you cause, like a broken window, can be deducted.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Damage",
+    0.0,
+    0.44
+   ],
+   [
+    "you",
+    0.44,
+    0.64
+   ],
+   [
+    "cause,",
+    0.64,
+    1.0
+   ],
+   [
+    "like",
+    1.18,
+    1.38
+   ],
+   [
+    "a",
+    1.38,
+    1.56
+   ],
+   [
+    "broken",
+    1.56,
+    1.8
+   ],
+   [
+    "window,",
+    1.8,
+    2.26
+   ],
+   [
+    "can",
+    2.36,
+    2.52
+   ],
+   [
+    "be",
+    2.52,
+    2.66
+   ],
+   [
+    "deducted.",
+    2.66,
+    3.12
+   ]
+  ]
+ },
+ "l7": {
+  "script": "The rest is due when the landlord takes the empty flat back.",
+  "heard": "The rest is due when the landlord takes the empty flat back.",
+  "wer": 0.0,
+  "words": [
+   [
+    "The",
+    0.0,
+    0.22
+   ],
+   [
+    "rest",
+    0.22,
+    0.46
+   ],
+   [
+    "is",
+    0.46,
+    0.76
+   ],
+   [
+    "due",
+    0.76,
+    0.98
+   ],
+   [
+    "when",
+    0.98,
+    1.32
+   ],
+   [
+    "the",
+    1.32,
+    1.54
+   ],
+   [
+    "landlord",
+    1.54,
+    1.82
+   ],
+   [
+    "takes",
+    1.82,
+    2.12
+   ],
+   [
+    "the",
+    2.12,
+    2.36
+   ],
+   [
+    "empty",
+    2.36,
+    2.66
+   ],
+   [
+    "flat",
+    2.66,
+    2.92
+   ],
+   [
+    "back.",
+    2.92,
+    3.28
+   ]
+  ]
+ },
+ "l8": {
+  "script": "Photograph every room, moving in and out. Get deductions in writing.",
+  "heard": "Photograph every room, moving in and out. Get deductions in writing.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Photograph",
+    0.0,
+    0.62
+   ],
+   [
+    "every",
+    0.62,
+    0.92
+   ],
+   [
+    "room,",
+    0.92,
+    1.26
+   ],
+   [
+    "moving",
+    1.42,
+    1.64
+   ],
+   [
+    "in",
+    1.64,
+    1.9
+   ],
+   [
+    "and",
+    1.9,
+    2.06
+   ],
+   [
+    "out.",
+    2.06,
+    2.34
+   ],
+   [
+    "Get",
+    2.74,
+    2.86
+   ],
+   [
+    "deductions",
+    2.86,
+    3.44
+   ],
+   [
+    "in",
+    3.44,
+    3.74
+   ],
+   [
+    "writing.",
+    3.74,
+    3.98
+   ]
+  ]
+ },
+ "l9": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}

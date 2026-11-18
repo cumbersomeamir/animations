@@ -1,5 +1,6 @@
 # Courtlens series format (durable — supersedes conflicting parts of 02 and 04)
 
+> **Update 2026-11-18:** `09-feedback-rules-2026-11-11.md` now also carries the 18 Nov "too much text / more appealing motion / super cool thumbnail" addendum, and `10-continuation-2026-11-18.md` records the account load-balancing continuation.
 > **Update 2026-11-11:** `09-feedback-rules-2026-11-11.md` holds newer approved feedback rules (story structure, pacing, thumbnail, one-visual-at-a-time, captions within x 100–900 / y 230–1500). Where they conflict with this file, they win.
 
 Set by user feedback on 2026-11-02 ("feedback round"). Read after 00–05. Sections are labelled

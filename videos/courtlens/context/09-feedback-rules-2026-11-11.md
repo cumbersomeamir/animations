@@ -68,3 +68,12 @@ narrator voice and the "Is this legal in India?" identity stay as in `08-series-
 - Click-worthy never means misleading.
 - Hook audio starts immediately (narration at ≤ 0.1 s). Promise a specific useful answer and deliver it.
 - Keep the app's approved aesthetic.
+
+## Addendum 2026-11-18: "Published apps" Satisfied? = no [USER DIRECTIVE, batches english-20/21]
+- Feedback: "too much information being displayed at once, too much text, motion graphics can be more appealing also
+  need a super cool thumbnail".
+- Apply explicitly:
+  - fewer simultaneous elements; one short label (1–3 words) per beat; no sub-lines or law text on screen
+  - motion that explains: camera moves through one central set, physical props, wipes, time-lapse, flying objects
+  - frame zero / thumbnail as a bold, high-contrast, truthful composition with 2–5 curiosity words
+- Preserve the approved palette, narrator, branding, logo, CTA and caption layout.
