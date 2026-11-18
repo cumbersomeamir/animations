@@ -1,0 +1,72 @@
+[
+ {
+  "id": "l01",
+  "planned_start": 0.05,
+  "measured_start": 0.05,
+  "error_ms": 0.0,
+  "corr": 0.862,
+  "end": 1.291,
+  "shot_at_start": "hook_glass",
+  "shot_at_end": "hook_glass"
+ },
+ {
+  "id": "l02",
+  "planned_start": 1.5,
+  "measured_start": 1.5,
+  "error_ms": 0.0,
+  "corr": 0.849,
+  "end": 3.511,
+  "shot_at_start": "react_look",
+  "shot_at_end": "react_look"
+ },
+ {
+  "id": "l03",
+  "planned_start": 4.75,
+  "measured_start": 4.75,
+  "error_ms": 0.0,
+  "corr": 0.84,
+  "end": 8.914,
+  "shot_at_start": "giant_rays",
+  "shot_at_end": "giant_rays"
+ },
+ {
+  "id": "l04",
+  "planned_start": 9.2,
+  "measured_start": 9.2,
+  "error_ms": -0.1,
+  "corr": 0.85,
+  "end": 13.529,
+  "shot_at_start": "mower",
+  "shot_at_end": "mower"
+ },
+ {
+  "id": "l05",
+  "planned_start": 13.85,
+  "measured_start": 13.85,
+  "error_ms": 0.0,
+  "corr": 0.855,
+  "end": 18.566,
+  "shot_at_start": "giant_trace",
+  "shot_at_end": "giant_trace"
+ },
+ {
+  "id": "l06",
+  "planned_start": 20.4,
+  "measured_start": 20.4,
+  "error_ms": 0.0,
+  "corr": 0.834,
+  "end": 24.995,
+  "shot_at_start": "pool_wide",
+  "shot_at_end": "pool_depth"
+ },
+ {
+  "id": "l07",
+  "planned_start": 26.45,
+  "measured_start": 26.45,
+  "error_ms": 0.0,
+  "corr": 0.841,
+  "end": 29.733,
+  "shot_at_start": "cafe_cta",
+  "shot_at_end": "cafe_cta"
+ }
+]

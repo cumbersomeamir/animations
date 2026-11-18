@@ -1,0 +1,99 @@
+{
+  "cues": {
+    "why": 2.02,
+    "rays": 4.9,
+    "fasterTag": 5.53,
+    "bendTag": 7.75,
+    "mowerGo": 9.3,
+    "cross": 11.6,
+    "sideTag": 11.72,
+    "trace": 14.3,
+    "straightTag": 15.63,
+    "ghost": 16.9,
+    "higherTag": 17.73,
+    "proofRise": 18.9,
+    "shallowTag": 21.46,
+    "rise": 22.9,
+    "quarterTag": 23.16,
+    "cta": 26.38,
+    "smile": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_glass",
+      "t0": 0,
+      "t1": 1.43
+    },
+    {
+      "id": "react_look",
+      "t0": 1.43,
+      "t1": 4.68
+    },
+    {
+      "id": "giant_rays",
+      "t0": 4.68,
+      "t1": 9.13
+    },
+    {
+      "id": "mower",
+      "t0": 9.13,
+      "t1": 13.78
+    },
+    {
+      "id": "giant_trace",
+      "t0": 13.78,
+      "t1": 18.75
+    },
+    {
+      "id": "proof_glass",
+      "t0": 18.75,
+      "t1": 20.33
+    },
+    {
+      "id": "pool_wide",
+      "t0": 20.33,
+      "t1": 22.89
+    },
+    {
+      "id": "pool_depth",
+      "t0": 22.89,
+      "t1": 26.38
+    },
+    {
+      "id": "cafe_cta",
+      "t0": 26.38,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.05
+    },
+    {
+      "id": "l02",
+      "start": 1.5
+    },
+    {
+      "id": "l03",
+      "start": 4.75
+    },
+    {
+      "id": "l04",
+      "start": 9.2
+    },
+    {
+      "id": "l05",
+      "start": 13.85
+    },
+    {
+      "id": "l06",
+      "start": 20.4
+    },
+    {
+      "id": "l07",
+      "start": 26.45
+    }
+  ]
+}

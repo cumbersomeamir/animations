@@ -1,0 +1,195 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.62,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.291,
+      "text": "This straw isn't broken.",
+      "words": 4,
+      "words_per_s": 3.22,
+      "voice_over_bed_db": 19.8
+    },
+    {
+      "id": "l02",
+      "start": 1.5,
+      "end": 3.511,
+      "text": "So why does it snap at the water's surface?",
+      "words": 9,
+      "words_per_s": 4.48,
+      "voice_over_bed_db": 19.3
+    },
+    {
+      "id": "l03",
+      "start": 4.75,
+      "end": 8.914,
+      "text": "Light from the straw speeds up as it leaves the water, and changes direction.",
+      "words": 14,
+      "words_per_s": 3.36,
+      "voice_over_bed_db": 17.9
+    },
+    {
+      "id": "l04",
+      "start": 9.2,
+      "end": 13.529,
+      "text": "Like a mower rolling from grass to pavement: one side speeds up first.",
+      "words": 13,
+      "words_per_s": 3.0,
+      "voice_over_bed_db": 16.9
+    },
+    {
+      "id": "l05",
+      "start": 13.85,
+      "end": 18.566,
+      "text": "Your brain traces the light back in a straight line, so the underwater part looks higher.",
+      "words": 16,
+      "words_per_s": 3.39,
+      "voice_over_bed_db": 17.5
+    },
+    {
+      "id": "l06",
+      "start": 20.4,
+      "end": 24.995,
+      "text": "That's why a pool looks shallower from above: about three quarters of its real depth.",
+      "words": 15,
+      "words_per_s": 3.26,
+      "voice_over_bed_db": 15.5
+    },
+    {
+      "id": "l07",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 80,
+  "speech_s": 24.34,
+  "overall_words_per_s": 2.67,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "straw taps the glass (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 0.05,
+      "beat": 0.1,
+      "sfx": "water swirls in the glass"
+    },
+    {
+      "t": 1.92,
+      "beat": 3.84,
+      "sfx": "performer leans in"
+    },
+    {
+      "t": 4.43,
+      "beat": 8.86,
+      "sfx": "cut to the giant water section (ends before l03)"
+    },
+    {
+      "t": 4.9,
+      "beat": 9.8,
+      "sfx": "light leaves the straw"
+    },
+    {
+      "t": 5.58,
+      "beat": 11.16,
+      "sfx": "speeds up"
+    },
+    {
+      "t": 7.8,
+      "beat": 15.6,
+      "sfx": "bends at the surface"
+    },
+    {
+      "t": 9.13,
+      "beat": 18.26,
+      "sfx": "mower engine (speeds up on the pavement)"
+    },
+    {
+      "t": 11.6,
+      "beat": 23.2,
+      "sfx": "first wheel reaches the pavement"
+    },
+    {
+      "t": 11.77,
+      "beat": 23.54,
+      "sfx": "one side first"
+    },
+    {
+      "t": 13.53,
+      "beat": 27.06,
+      "sfx": "cut back to the water section"
+    },
+    {
+      "t": 14.3,
+      "beat": 28.6,
+      "sfx": "brain traces the light back"
+    },
+    {
+      "t": 15.68,
+      "beat": 31.36,
+      "sfx": "straight line"
+    },
+    {
+      "t": 16.9,
+      "beat": 33.8,
+      "sfx": "image appears higher"
+    },
+    {
+      "t": 19.0,
+      "beat": 38.0,
+      "sfx": "back to the glass"
+    },
+    {
+      "t": 20.33,
+      "beat": 40.66,
+      "sfx": "pool water ambience"
+    },
+    {
+      "t": 20.38,
+      "beat": 40.76,
+      "sfx": "pool"
+    },
+    {
+      "t": 22.9,
+      "beat": 45.8,
+      "sfx": "floor appears to rise"
+    },
+    {
+      "t": 23.21,
+      "beat": 46.42,
+      "sfx": "about three quarters"
+    },
+    {
+      "t": 25.3,
+      "beat": 50.6,
+      "sfx": "takeaway"
+    },
+    {
+      "t": 26.68,
+      "beat": 53.36,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.487,
+  "voice_gain": 1.0
+}
