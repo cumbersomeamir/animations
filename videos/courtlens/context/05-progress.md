@@ -4,6 +4,64 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-18 (english-21, batch 21): "Pay early, get fined?": loan pre-payment charges (RBI)
+
+### Status
+- Started after batch 20 was delivered, pushed (cba0f5e) and attached in this same continuation session.
+- **The proposed topic repeats episodes 01/04:** the change-of-mind return vs faulty product vs disclosed policy was
+  the core split of both, and batches 08, 13 and 16 rejected it as a repeat. The replacement is loan pre-payment charges
+  (new in 01–20). Record: `context/episodes/2026-11-18-english21-loan-prepayment-charges.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-18-english-21/notes/LEGAL-SOURCES.md`)
+- **RBI Commercial Banks – Responsible Business Conduct Directions 2025** (updated 1 Oct 2026):
+  - para 352: no pre-payment charge on existing floating-rate non-business term loans to individuals
+  - para 353: from 1 Jan 2026, none on floating-rate loans to individuals (non-business and business) and MSEs; any
+    source of funds, part or full, no lock-in; other cases per policy, but only if disclosed in the sanction letter,
+    agreement and KFS
+- **RBI NBFC – Responsible Business Conduct Directions 2025** (updated 1 Jul 2026), paras 33–34: the same for
+  non-business loans; business loans depend on the layer.
+- **RBI (Pre-payment Charges on Loans) Directions 2025** (2 Jul 2025): applies to commercial banks (except payments
+  banks), co-operative banks, NBFCs and AIFIs.
+
+### Creative decisions (18 Nov feedback applied)
+- **Central object:** the padlocked LOAN ball and chain with a red "2% FEE" tag (2% is illustrative). It is blocked in
+  the escalation and springs open in the answer.
+- **Inserts, one condition each:** a "%" buoy on waves (floating); home/studies/wallet tiles (not for business); a
+  debt tower plus a new lender (part or full, any source); a "%" in concrete with the papers (fixed, if disclosed); the
+  sanction letter and a magnifier (payoff).
+- **Text:** one 1–3-word pill per beat.
+- **Frame zero = thumbnail:** "PAY EARLY. GET FINED?" with a soft cyan halo; voice at 0.05 s.
+- **Narration:** "NBFCs" was heard as "NBFC" (the plural dropped), so it became "banks and finance companies". The
+  normaliser maps "two percent".
+- Mix gain is 6.0 dB (−16.0 LUFS / −2.2 dBTP measured on the pre-render mix).
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-18-english-21/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st21 <times>
+node render.cjs thumb .. courtlens-30s-english21-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build21 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english21-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english21-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+$S/tts/venv/bin/python capcheck.py ../courtlens-30s-english21-01.mp4 ../courtlens-30s-english21-01-thumbnail.png ../qa/frame-zero.jpg
+```
+
+### Fixed before the full render (stills review)
+- **Frame zero:** the lock and ball were enlarged, the chain made longer and visible, and a brand-cyan halo added.
+- **Caption band:**
+  - the opened shackle grazed the band at ~13.6 s, so the lift and rotation were reduced and the unlock scene lowered
+    28 px
+  - the torn tag's path would have crossed the band, so it now exits right
+  - the concrete block's slam started at y≈496, so it now starts at 860
+- **Fixed-rate beat:** the loan papers sat near the right edge, so they moved in (x 735) and the concrete moved left.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+
 ## Round 2026-11-18 (english-20, batch 20): "Deposit gone for wear and tear?": security deposit (Tamil Nadu)
 
 ### Status

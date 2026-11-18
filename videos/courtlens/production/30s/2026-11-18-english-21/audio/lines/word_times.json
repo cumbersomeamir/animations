@@ -1,0 +1,475 @@
+{
+ "l1": {
+  "script": "Pay early, get fined?",
+  "heard": "Pay early, get fined.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Pay",
+    0.0,
+    0.26
+   ],
+   [
+    "early,",
+    0.26,
+    0.52
+   ],
+   [
+    "get",
+    0.64,
+    0.78
+   ],
+   [
+    "fined.",
+    0.78,
+    1.16
+   ]
+  ]
+ },
+ "l2": {
+  "script": "You want to close your loan early. The lender adds a two percent charge.",
+  "heard": "You want to close your loan early. The lender adds a 2 % charge.",
+  "wer": 0.0,
+  "words": [
+   [
+    "You",
+    0.0,
+    0.16
+   ],
+   [
+    "want",
+    0.16,
+    0.36
+   ],
+   [
+    "to",
+    0.36,
+    0.56
+   ],
+   [
+    "close",
+    0.56,
+    0.72
+   ],
+   [
+    "your",
+    0.72,
+    0.96
+   ],
+   [
+    "loan",
+    0.96,
+    1.1
+   ],
+   [
+    "early.",
+    1.1,
+    1.5
+   ],
+   [
+    "The",
+    1.86,
+    2.0
+   ],
+   [
+    "lender",
+    2.0,
+    2.26
+   ],
+   [
+    "adds",
+    2.26,
+    2.56
+   ],
+   [
+    "a",
+    2.56,
+    2.78
+   ],
+   [
+    "2",
+    2.78,
+    3.02
+   ],
+   [
+    "%",
+    3.02,
+    3.3
+   ],
+   [
+    "charge.",
+    3.3,
+    3.7
+   ]
+  ]
+ },
+ "l3": {
+  "script": "RBI rules say:",
+  "heard": "RBI rules say.",
+  "wer": 0.0,
+  "words": [
+   [
+    "RBI",
+    0.0,
+    0.5
+   ],
+   [
+    "rules",
+    0.5,
+    0.72
+   ],
+   [
+    "say.",
+    0.72,
+    1.04
+   ]
+  ]
+ },
+ "l4": {
+  "script": "on a floating rate loan you took for anything but business,",
+  "heard": "on a floating rate loan you took for anything but business.",
+  "wer": 0.0,
+  "words": [
+   [
+    "on",
+    0.0,
+    0.22
+   ],
+   [
+    "a",
+    0.22,
+    0.34
+   ],
+   [
+    "floating",
+    0.34,
+    0.6
+   ],
+   [
+    "rate",
+    0.6,
+    0.88
+   ],
+   [
+    "loan",
+    0.88,
+    1.18
+   ],
+   [
+    "you",
+    1.18,
+    1.58
+   ],
+   [
+    "took",
+    1.58,
+    1.78
+   ],
+   [
+    "for",
+    1.78,
+    2.0
+   ],
+   [
+    "anything",
+    2.0,
+    2.28
+   ],
+   [
+    "but",
+    2.28,
+    2.56
+   ],
+   [
+    "business.",
+    2.56,
+    2.9
+   ]
+  ]
+ },
+ "l5": {
+  "script": "banks and finance companies can't charge you for paying early.",
+  "heard": "Banks and finance companies can't charge you for paying early.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Banks",
+    0.0,
+    0.38
+   ],
+   [
+    "and",
+    0.38,
+    0.66
+   ],
+   [
+    "finance",
+    0.66,
+    1.04
+   ],
+   [
+    "companies",
+    1.04,
+    1.58
+   ],
+   [
+    "can't",
+    1.58,
+    2.3
+   ],
+   [
+    "charge",
+    2.3,
+    2.48
+   ],
+   [
+    "you",
+    2.48,
+    2.7
+   ],
+   [
+    "for",
+    2.7,
+    2.88
+   ],
+   [
+    "paying",
+    2.88,
+    3.1
+   ],
+   [
+    "early.",
+    3.1,
+    3.46
+   ]
+  ]
+ },
+ "l6": {
+  "script": "Part or full, even with money from a new lender.",
+  "heard": "Part or full, even with money from a new lender.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Part",
+    0.0,
+    0.4
+   ],
+   [
+    "or",
+    0.4,
+    0.66
+   ],
+   [
+    "full,",
+    0.66,
+    0.96
+   ],
+   [
+    "even",
+    1.36,
+    1.5
+   ],
+   [
+    "with",
+    1.5,
+    1.7
+   ],
+   [
+    "money",
+    1.7,
+    1.96
+   ],
+   [
+    "from",
+    1.96,
+    2.14
+   ],
+   [
+    "a",
+    2.14,
+    2.26
+   ],
+   [
+    "new",
+    2.26,
+    2.38
+   ],
+   [
+    "lender.",
+    2.38,
+    2.6
+   ]
+  ]
+ },
+ "l7": {
+  "script": "Fixed rate? A charge may apply, if your loan papers disclose it.",
+  "heard": "Fixed rate, a charge may apply if your loan papers disclose it.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Fixed",
+    0.0,
+    0.44
+   ],
+   [
+    "rate,",
+    0.44,
+    0.64
+   ],
+   [
+    "a",
+    1.0,
+    1.18
+   ],
+   [
+    "charge",
+    1.18,
+    1.42
+   ],
+   [
+    "may",
+    1.42,
+    1.64
+   ],
+   [
+    "apply",
+    1.64,
+    2.06
+   ],
+   [
+    "if",
+    2.06,
+    2.28
+   ],
+   [
+    "your",
+    2.28,
+    2.48
+   ],
+   [
+    "loan",
+    2.48,
+    2.68
+   ],
+   [
+    "papers",
+    2.68,
+    3.06
+   ],
+   [
+    "disclose",
+    3.06,
+    3.56
+   ],
+   [
+    "it.",
+    3.56,
+    3.76
+   ]
+  ]
+ },
+ "l8": {
+  "script": "Before you prepay, check floating or fixed in your sanction letter.",
+  "heard": "Before you prepay, check floating or fixed in your sanction letter.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Before",
+    0.0,
+    0.28
+   ],
+   [
+    "you",
+    0.28,
+    0.5
+   ],
+   [
+    "prepay,",
+    0.5,
+    1.08
+   ],
+   [
+    "check",
+    1.3,
+    1.42
+   ],
+   [
+    "floating",
+    1.42,
+    1.76
+   ],
+   [
+    "or",
+    1.76,
+    2.08
+   ],
+   [
+    "fixed",
+    2.08,
+    2.34
+   ],
+   [
+    "in",
+    2.34,
+    2.48
+   ],
+   [
+    "your",
+    2.48,
+    2.64
+   ],
+   [
+    "sanction",
+    2.64,
+    2.96
+   ],
+   [
+    "letter.",
+    2.96,
+    3.24
+   ]
+  ]
+ },
+ "l9": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}
