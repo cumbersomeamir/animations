@@ -115,6 +115,12 @@ def main():
     rep["detected_cut_frames"] = [int(x) for x in sorted(np.argsort(diffs)[-len(cuts):] + 1)]
     rep["max_non_cut_frame_diff"] = round(float(np.delete(diffs, [f - 1 for f in rep["planned_cut_frames"]]).max()), 2)
     checks["cuts_on_plan"] = bool(ok)
+    # added for english22 (render 1 strobed at 3.1-3.6 s yet passed cuts_on_plan): no change between cuts may be
+    # as large as the softest planned cut, otherwise motion jumps like a cut (strobing / a phase jump)
+    nc = np.delete(diffs, [f - 1 for f in rep["planned_cut_frames"]])
+    keep = [i for i in range(len(diffs)) if i not in {f - 1 for f in rep["planned_cut_frames"]}]
+    rep["max_non_cut_frame"] = int(keep[int(np.argmax(nc))] + 1)
+    checks["no_jump_between_cuts"] = rep["max_non_cut_frame_diff"] < min(rep["cut_frame_diff"])
 
     # ---- contact sheet: one frame per second
     cols, tw, th = 6, 180, 320

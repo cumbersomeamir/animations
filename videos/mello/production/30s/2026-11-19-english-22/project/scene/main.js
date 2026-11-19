@@ -343,7 +343,7 @@ const scarf = mesh(new THREE.TorusGeometry(0.06, 0.022, 12, 28), std(PAL.gold, 0
 const scarfTail = mesh(new RoundedBoxGeometry(0.05, 0.13, 0.018, 2, 0.008), std(PAL.gold, 0.6)); scarfTail.position.set(0.035, -0.06, -0.075); scarfTail.rotation.z = 0.15; neckG.add(scarfTail);
 
 // ---- her oversized thought: a huge outlined cloud behind her (a camera-facing billboard), with racing scribbles around her
-const BUBBLE_C = V(0.0, 2.05, -0.9), BUBBLE_SMALL = V(-0.34, 2.12, -0.05);
+const BUBBLE_C = V(0.0, 2.05, -0.9), BUBBLE_SMALL = V(-0.2, 2.12, -0.05);
 const cloudTx = (() => { const c = document.createElement('canvas'); c.width = 1024; c.height = 1180; const g = c.getContext('2d');
   const circles = [[512, 520, 330], [250, 640, 230], [775, 640, 235], [330, 340, 220], [690, 330, 225], [512, 790, 250], [512, 250, 200]];
   g.strokeStyle = '#B9A4FF'; g.lineWidth = 26; circles.forEach(([x, y, r]) => { g.beginPath(); g.arc(x, y, r, 0, 7); g.stroke(); });
@@ -361,6 +361,10 @@ const scribbles = [], scrGroup = new THREE.Group(); scene.add(scrGroup);
     const geo = new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts, false, 'catmullrom', 0.05), 40, 0.024, 6, false);
     const m = new THREE.Mesh(geo, M_SCR); m.userData = { a: r() * Math.PI * 2, rad: 0.75 + 0.55 * r(), y: 0.5 + 2.4 * r(), sp: 0.45 + 0.5 * r(), tilt: r() * 2 - 1 };
     scrGroup.add(m); scribbles.push(m); } }
+// speed is integrated into a phase (never multiply absolute time by a changing speed: that makes a jump)
+const S1_LIFT = 0.4;
+const scribSpeed = x => (x < S.s3 ? 1 + 1.0 * sm(remap(x, T.harsh - 0.3, T.harsh + 0.4)) : 1) * (1 - 0.8 * sm(remap(x, T.softA, T.softB)));
+function scribPhase(t) { const dt = 1 / 240; let p = 0, x = 0; for (; x + dt <= t; x += dt) p += scribSpeed(x + dt / 2) * dt; return p + scribSpeed((x + t) / 2) * (t - x); }
 const softs = scribbles.map((s, i) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.06, 20, 14), std(i % 2 ? PAL.lilac : '#FFE7A8', 0.6)); m.visible = false; scene.add(m); return m; });
 
 // ---- the message screen (her sent message, then her short apology)
@@ -371,7 +375,7 @@ function drawMsg(t) {
   const key = [rd, typed, sent2].map(x => x.toFixed(3)).join('|'); if (key === msgTx.key) return; msgTx.key = key;
   const { c, g, t: tex } = msgTx; g.clearRect(0, 0, c.width, c.height); g.textBaseline = 'middle'; g.textAlign = 'left';
   // her earlier message (outgoing, right-aligned, violet)
-  rr(g, 150, 120, 420, 150, 50, PAL.violet); g.fillStyle = '#FFFFFF'; g.font = `400 84px ${SERIF}`; g.fillText('fine. whatever.', 180, 196);
+  g.font = `400 78px ${SERIF}`; const fw = g.measureText('fine. whatever.').width; rr(g, 570 - fw - 64, 120, fw + 64, 150, 50, PAL.violet); g.fillStyle = '#FFFFFF'; g.fillText('fine. whatever.', 570 - fw - 32, 196);
   if (rd > 0) { g.globalAlpha = rd; g.fillStyle = '#8E86AE'; g.font = `500 34px ${UI}`; g.textAlign = 'right'; g.fillText('Read 9:12 PM', 560, 305); g.textAlign = 'left'; g.globalAlpha = 1; }
   // the apology, typed in the box, then sent as a second bubble
   const txt = 'Sorry, that came out wrong.';
@@ -399,7 +403,7 @@ function drawCard(t) {
   if (!test) { g.textAlign = 'center';
     g.globalAlpha = m; g.fillStyle = '#FFFFFF'; g.font = `400 92px ${SERIF}`; g.fillText('other groups', 330, 300); arrowUp(g, 330, 960, 330, 170, '#B9A4FF', m);
     if (k > 0) { g.globalAlpha = m * k; g.fillStyle = '#FFFFFF'; g.font = `400 92px ${SERIF}`; g.fillText('kind view', 890, 300); }
-    if (am > 0) arrowUp(g, 890, 960, 330 + 260 * am, 170, PAL.gold, m * Math.min(1, am * 2));
+    if (am > 0) arrowUp(g, 890, 960, 330 + 260 * am, 170, PAL.gold, m * lerp(0.9 * k, 1, am));
     else if (k > 0) arrowUp(g, 890, 960, 330, 170, PAL.gold, m * k * 0.9);
   } else { const X = 60, Wb = 1100;
     const row = (y, lab, a, v, col, solid) => { if (a <= 0) return; g.globalAlpha = m * a; g.fillStyle = '#FFFFFF'; g.font = `400 100px ${SERIF}`; g.textAlign = 'left'; g.fillText(lab, X, y);
@@ -460,18 +464,19 @@ function setEpisode(t) {
   const cardShot = t >= S.s3 && t < S.s5, sceneShot = !cardShot;
   fig.visible = sceneShot; footBlobs.forEach(b => { b.visible = sceneShot; }); phone.visible = sceneShot;
   // the oversized thought: huge and racing (S1-S2), softening and shrinking (S5), small and calm beside her (S6-S7)
-  const soft = sm(remap(t, T.softA, T.softB)), race = t < S.s3 ? 1 + 1.4 * sm(remap(t, T.harsh - 0.3, T.harsh + 0.4)) : 1;
-  bubble.visible = sceneShot; bubble.position.copy(vl(BUBBLE_C, BUBBLE_SMALL, soft)); bubble.quaternion.copy(camera.quaternion);
+  const soft = sm(remap(t, T.softA, T.softB)), ph = scribPhase(t), s6 = t >= S.s6 && t < S.s7;
+  // S1: the cloud sits higher so the opening words read on its white fill; S6: hidden (only an edge sliver would show)
+  bubble.visible = sceneShot && !s6; bubble.position.copy(vl(BUBBLE_C, BUBBLE_SMALL, soft)); if (t < S.s2) bubble.position.y += S1_LIFT; bubble.quaternion.copy(camera.quaternion);
   bubble.scale.setScalar(lerp(1, 0.13, soft) * (1 + 0.01 * Math.sin(t * 1.3)));
-  const outro = sm(remap(t, T.lockA - 0.3, T.lockA + 0.3));   // the calm thought fades as the lock-up arrives
+  const outro = sm(remap(t, T.lockA - 0.9, T.lockA - 0.2));   // the calm thought fades just before the lock-up arrives
   M_THOUGHT.opacity = 1 - outro;
   scrGroup.visible = sceneShot && soft < 0.95;
-  scribbles.forEach((s, i) => { const u = s.userData, a = u.a + t * u.sp * race * (1 - 0.8 * soft);
+  scribbles.forEach((s, i) => { const u = s.userData, a = u.a + u.sp * ph;
     const close = t >= S.s2 && t < S.s3;   // in the close shot keep the scribbles around her, below the caption band
-    const p = close ? V(Math.cos(a) * u.rad * 0.55, 0.95 + (u.y - 0.5) * 0.42, Math.sin(a) * u.rad * 0.3 - 0.35) : V(Math.cos(a) * u.rad, u.y, Math.sin(a) * u.rad * 0.55 - 0.1);
-    s.position.copy(vl(p, BUBBLE_SMALL.clone().add(V(0.25 * Math.cos(a), 0.12 * Math.sin(a), 0)), soft)); s.rotation.set(0.3 * u.tilt, -a, u.tilt * 0.8 + t * 0.6 * race);
+    const p = close ? V(Math.cos(a) * u.rad * 0.55, 0.95 + (u.y - 0.5) * 0.42, Math.sin(a) * u.rad * 0.3 - 0.45) : V(Math.cos(a) * u.rad, u.y, Math.sin(a) * u.rad * 0.55 - 0.1);
+    s.position.copy(vl(p, BUBBLE_SMALL.clone().add(V(0.25 * Math.cos(a), 0.12 * Math.sin(a), 0)), soft)); s.rotation.set(0.3 * u.tilt, -a, u.tilt * 0.8 + 0.6 * ph);
     s.scale.setScalar(Math.max(0.001, 1 - soft));
-    const o = softs[i]; o.visible = sceneShot && soft > 0.3; o.position.copy(BUBBLE_SMALL).add(V(0.12 * Math.cos(i * 0.7 + t * 0.4), 0.08 * Math.sin(i * 1.3 + t * 0.5), 0.05)); o.scale.setScalar(Math.max(0.001, lerp(0.2, 0.55, soft) * (1 - outro))); });
+    const o = softs[i]; o.visible = sceneShot && soft > 0.3 && !s6; o.position.copy(BUBBLE_SMALL).add(V(0.12 * Math.cos(i * 0.7 + t * 0.4), 0.08 * Math.sin(i * 1.3 + t * 0.5), 0.05)); o.scale.setScalar(Math.max(0.001, lerp(0.2, 0.55, soft) * (1 - outro))); });
   // the message screen
   msg.visible = sceneShot && t >= S.s2 && !(t >= S.s5 && t < S.s6); msg.position.copy(MSG_POS); msg.rotation.set(0, camYaw(MSG_POS) * 0.7 - 0.2, 0);
   msg.userData.border.material.opacity = 1; msg.userData.panel.material.opacity = 1; msgTx.m.material.opacity = 1; if (msg.visible) drawMsg(t);
@@ -497,7 +502,7 @@ const SHOTS = [
   // S5 the thought softens and shrinks around her (camera eases in)
   { a: S.s5, b: S.s6, k0: [V(0.0, 1.85, -0.3), -10, 5, 8.0, 30], k1: [V(0.0, 1.75, -0.2), -6, 5, 4.6, 30] },
   // S6 close: she types a short apology and sends it
-  { a: S.s6, b: S.s7, k0: [V(0.3, 1.62, 0.15), 4, 4, 3.1, 30], k1: [V(0.3, 1.62, 0.15), 0, 4, 2.95, 30] },
+  { a: S.s6, b: S.s7, k0: [V(0.26, 1.62, 0.15), 4, 4, 3.1, 30], k1: [V(0.26, 1.62, 0.15), 0, 4, 2.95, 30] },
   // S7 wider: calm, the small thought beside her; lock-up
   { a: S.s7, b: S.end, m: [S.s7, 27.2], ease: 'sine', k0: [V(0.12, 1.76, 0.0), 6, 5, 3.9, 30], k1: [V(0.12, 1.86, 0.0), 2, 5, 4.4, 30], k2: [V(0.12, 1.86, 0.0), 0, 5, 4.3, 30] },
 ];

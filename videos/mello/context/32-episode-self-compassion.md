@@ -74,13 +74,13 @@ How the script uses it (measured / gloss / advice / illustrative):
 | cta | Take a mindful break with Mello. | 26.60 | 28.32 |
 
 ## Storyboard (7 shots)
-- **S1, 0–1.55, frame 0 = thumbnail:** wide; the small figure inside her huge outlined thought, dark scribbles racing around her.
+- **S1, 0–1.55, frame 0 = thumbnail:** wide; the small figure inside her huge outlined thought, dark scribbles racing around her. The opening words sit on the cloud's white fill.
 - **S2, 1.55–4.85:** close on her phone: "fine. whatever." then "Read 9:12 PM"; the scribbles race faster ("harsh").
 - **S3, 4.85–12.8:** dark card "ONE EXPERIMENT / motivation to make amends": "other groups" vs "kind view" arrows; the kind-view arrow grows on "make amends".
 - **S4, 12.8–16.1:** the card from a low angle: "AFTER FAILING A TEST / time spent studying for the retest"; equal bars, then the kind-view bar grows on "studied longer".
-- **S5, 16.1–19.4:** the camera eases in; the thought shrinks to a small cloud beside her head and the scribbles turn into soft lilac and gold balls; she straightens.
-- **S6, 19.4–24.7:** close: she types "Sorry, that came out wrong." and sends it (gold "Sent").
-- **S7, 24.7–30:** wider and calm, the small thought beside her; lock-up from 26.3 s.
+- **S5, 16.1–19.4:** the camera eases in; the thought shrinks to a small cloud above her head and the scribbles turn into soft lilac and gold balls; she straightens.
+- **S6, 19.4–24.7:** close: she types "Sorry, that came out wrong." and sends it (gold "Sent"). The small cloud is out of shot.
+- **S7, 24.7–30:** wider and calm, the small, soft thought above her (it fades over 25.4–26.1 s); lock-up from 26.3 s.
 
 ## Result
 (filled in after the final render; see below)

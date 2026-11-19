@@ -27,6 +27,15 @@ The source is a copy of `../../2026-11-18-english-21/project/` (renderer, audit,
 1. **Framing iterations on stills:** the cloud first sat inside the caption band and read as a washed-out translucent shape; it became an outlined, near-opaque billboard placed lower and behind her. Scribbles and message were kept clear of the caption band and the right rail.
 2. The pre-render audit (300 samples) found 0 issues. Cut contrasts on stills: 45.4 / 49.9 / 17.7 / 70.3 / 26.3 / 28.8.
 3. ASR is exact on all 7 lines, on the narration and on the mix.
+4. **Render 1 passed all 16 automated checks but had visible defects**, found by frame-by-frame review (not by the checks). It was not delivered (kept outside the repo):
+   - **Strobing scribbles at 3.1–3.6 s ("harsh"):** frame-to-frame change 20–28 (as big as a cut) for half a second. Cause: the orbit angle was `t × speed × race`, so while `race` ramped up, absolute time multiplied the ramp (about 9 rad/s). Fix: the speed is integrated into a phase (`scribPhase`), and the peak speed is lowered (2.4× → 2.0×).
+   - **Kind-view arrow blinked out at 10.4–10.8 s:** when it started to grow, its opacity restarted from 0. Fix: the opacity stays continuous (`lerp(0.9·k, 1, am)`).
+   - **Frame 0:** the cloud's lilac outline ran through "Too hard / on yourself?", and the floor clipped a trail circle. Fix: in S1 only, the cloud sits 0.4 m higher (`S1_LIFT`), so the words read on its white fill.
+   - **S2:** scribbles sometimes passed in front of the message screen. Fix: in the close shot they orbit 0.1 m further back.
+   - **"fine. whatever." bubble** clipped its last letter and the full stop. Fix: the bubble is sized to the measured text (78 px).
+   - **S6:** only a cut-off sliver of the small cloud showed at the top-left edge. Fix: the cloud and soft balls are hidden in S6, and the camera target moves 4 cm toward her.
+   - **S7:** the small cloud's left lobes were cut by the frame edge. Fix: its resting place moved 0.14 m toward her (`BUBBLE_SMALL` x −0.34 → −0.2), and it now fades before the lock-up (25.4–26.1 s) instead of during it.
+5. **Render 2** (this file): see `../qa/QA.md`.
 
 ## Commands
 ```bash
