@@ -94,3 +94,11 @@ Implementation defaults:
 - Narration starts at about 0.12 s. The headline clears (by about 0.4 s) before the first caption group appears, so the two never
   coexist; `qa_dom.mjs` checks this on every frame.
 - The thumbnail PNG is rendered from frame 0, with the logo/wordmark row added.
+
+## 6. Addendum 2026-11-19 — caption band (batch22 brief; applies from english-22 on)
+> Upper captions below platform account UI, approximately y280-460 at 1080x1920 with horizontal safe margins; keep other vital
+> information away from the right-side/bottom platform controls. Typography spare and readable, no more than one short headline
+> plus current spoken caption.
+
+Implementation: `#cap` box moved from top 330 / height 200 to **top 280 / height 180** (pill measured y 293–447, x 100–900);
+labels stay one at a time at y ≈ 574–686 (below the caption band, above the bottom controls) and inside x 100–900.
