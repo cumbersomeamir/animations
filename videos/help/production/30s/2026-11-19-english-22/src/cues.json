@@ -1,0 +1,74 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.1,
+  3.2,
+  5.2,
+  7.3,
+  12.15,
+  17.85,
+  21.45,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_free": [
+   0.0,
+   3.05
+  ],
+  "B_wage": [
+   3.05,
+   5.05
+  ],
+  "C_question": [
+   5.05,
+   7.15
+  ],
+  "D_survey": [
+   7.15,
+   11.95
+  ],
+  "E_jssk": [
+   11.95,
+   17.65
+  ],
+  "F_charity": [
+   17.65,
+   21.25
+  ],
+  "G_payoff": [
+   21.25,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "free": 1.1,
+  "bus": 1.85,
+  "wages": 3.6,
+  "q": 5.2,
+  "care": 6.5,
+  "poorest": 8.15,
+  "third": 9.35,
+  "transport": 10.3,
+  "pregnant": 12.1,
+  "infants": 13.5,
+  "freeT": 14.2,
+  "hospitals": 15.55,
+  "home": 16.6,
+  "charities": 18.1,
+  "travel": 19.2,
+  "stay": 20.15,
+  "things": 22.6,
+  "ask": 23.4,
+  "travel2": 25.3,
+  "done": 26.45,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Storymap (first-frame rule; 2026-11-17 LIVE feedback: broad, informative, tied to giving): frame0 = free-care ticket TREATMENT 0 with a second hidden-cost stub (bus fare) peeking out + FREE. BUT NOT FREE., lamps full, voice at 0.1 s; 0-3.05 hook, 3.05-4.9 superhook (lost wage), 4.9-7.0 question, 7.0-21.05 proof (NFHS-5 transport barrier, JSSK free transport, charities), 21.05-26.9 payoff (ask a verified local group about travel help before donating more things), 26.9-30 CTA. Tick SFX only in pauses; nothing under the first word."
+}

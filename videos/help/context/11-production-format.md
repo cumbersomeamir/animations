@@ -333,3 +333,15 @@ icon should be taken from play store or app store"
   keep it out of narration.
 - Kokoro joins a final "r" to the next vowel ("register anyway" → "register or anyway"); end such a word before a consonant ("register the birth").
 
+## Update 2026-11-19 (batch 22) — english-22 lessons + caption zone
+- **Caption zone (2026-11-19 brief, supersedes y 230–1500 when a brief states it):** upper captions approximately **y 280–460** at 1080×1920 with
+  horizontal margins x 100–900; english-22 baselines: one line 400 (66 px), two lines 360 (56 px) → ink y 316–436. `render.mjs --capbounds` checks
+  y 280–460. Keep vital elements left of x 900 and off the bottom strip (platform controls).
+- One short headline at a time plus the spoken caption; split long headlines into two beats (PREGNANT WOMEN → + SICK INFANTS).
+- Topic gate: hospital travel costs / lost wages / JSSK free transport / patient-support travel help covered by english-22.
+- The carved `piece()` fill multiplies, so props do not hide what is behind them; give a foreground card an opaque backing fill when it must cover
+  another prop (english-22 receipt over the hidden stub).
+- A prop that drives into its scene must wait until the scene has slid in, or it crosses the previous scene during the slide (van over the chart).
+- Mirrored props (vehicles driving back) need their text drawn unmirrored.
+- ASR traps: "lost" ↔ "last", "a place" ↔ "apply", "So before" ↔ "sober for" — reword before rendering; test alternatives in isolation.
+

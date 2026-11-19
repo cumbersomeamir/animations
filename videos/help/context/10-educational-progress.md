@@ -175,3 +175,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Output `videos/help/production/30s/2026-11-18-english-21/help-30s-english21-01.mp4`, SHA-256 `b0fde7277ccc8099f332dd12a2f9d9f4eaef81f4dbedd6765aea9eb53b14750a`; thumbnail `help-30s-english21-thumbnail.png`.
 - Topic + production notes: `34-production-30s-english21-01.md`; topic gate and lessons in `11-production-format.md` (Update 2026-11-18, batch 21). No automation created.
 
+## 2026-11-19 (batch 22) — english-22, 30 s #01 (English; "Free. But not free." — free hospital care still costs the trip and a day's wages; NFHS-5 transport barrier 36.6% poorest vs 8.7% richest; JSSK free transport; charities that cover travel or lodging; payoff: ask a verified local group about travel help before donating more things) — DONE
+- Output `videos/help/production/30s/2026-11-19-english-22/help-30s-english22-01.mp4`, SHA-256 `4405191782759b8b68769bea14ec7d31240b3983d8d800ea714b4f6035e813df`; thumbnail `help-30s-english22-thumbnail.png`.
+- Topic + production notes (incl. the brief): `35-production-30s-english22-01.md`; caption zone y 280–460 and lessons in `11-production-format.md` (Update 2026-11-19). No automation created.
+

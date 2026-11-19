@@ -1,0 +1,132 @@
+{
+ "cards": [
+  {
+   "a": 0.07,
+   "lines": [
+    "Even when treatment is free,"
+   ],
+   "timing": "asr",
+   "b": 1.55
+  },
+  {
+   "a": 1.62,
+   "lines": [
+    "the bus fare isn't."
+   ],
+   "timing": "asr",
+   "b": 2.99
+  },
+  {
+   "a": 3.06,
+   "lines": [
+    "Nor is losing a day's wages."
+   ],
+   "timing": "asr",
+   "b": 5.0
+  },
+  {
+   "a": 5.07,
+   "lines": [
+    "So what really gets people to care?"
+   ],
+   "timing": "asr",
+   "b": 7.1
+  },
+  {
+   "a": 7.17,
+   "lines": [
+    "Among India's poorest,"
+   ],
+   "timing": "asr",
+   "b": 8.9
+  },
+  {
+   "a": 8.97,
+   "lines": [
+    "over a third of women"
+   ],
+   "timing": "asr",
+   "b": 9.83
+  },
+  {
+   "a": 9.9,
+   "lines": [
+    "call transport a big problem."
+   ],
+   "timing": "asr",
+   "b": 11.93
+  },
+  {
+   "a": 12.0,
+   "lines": [
+    "Pregnant women and sick infants"
+   ],
+   "timing": "asr",
+   "b": 13.82
+  },
+  {
+   "a": 13.89,
+   "lines": [
+    "get free transport to public hospitals,"
+   ],
+   "timing": "asr",
+   "b": 16.37
+  },
+  {
+   "a": 16.44,
+   "lines": [
+    "and home again."
+   ],
+   "timing": "asr",
+   "b": 17.63
+  },
+  {
+   "a": 17.7,
+   "lines": [
+    "Some charities also cover travel,"
+   ],
+   "timing": "asr (dropped extra token 'so')",
+   "b": 19.73
+  },
+  {
+   "a": 19.8,
+   "lines": [
+    "or somewhere to stay."
+   ],
+   "timing": "asr (dropped extra token 'so')",
+   "b": 21.23
+  },
+  {
+   "a": 21.3,
+   "lines": [
+    "Before you donate more things,"
+   ],
+   "timing": "asr",
+   "b": 23.24
+  },
+  {
+   "a": 23.31,
+   "lines": [
+    "ask a verified local group about travel help."
+   ],
+   "timing": "asr",
+   "b": 26.384
+  },
+  {
+   "a": 26.97,
+   "lines": [
+    "To donate essentials in Lucknow,"
+   ],
+   "timing": "asr",
+   "b": 28.67
+  },
+  {
+   "a": 28.74,
+   "lines": [
+    "download Help."
+   ],
+   "timing": "asr",
+   "b": 29.7
+  }
+ ]
+}
