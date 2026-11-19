@@ -11,8 +11,8 @@ export const NARRATION = [
   { id: "L3", start: 7.55, text: "Pay 46 as it is, or add a 10 item and pay 50." },
   { id: "L4", start: 11.6, text: "Four more, and you get an item instead of a fee." },
   { id: "L5", start: 14.55, text: "In one retailer's data, threshold offers drove extra sales." },
-  { id: "L6", start: 18.6, text: "But lost shipping revenue made them unprofitable there." },
-  { id: "L7", start: 21.85, text: "So add only what you'd buy anyway. Sellers: check the margin." },
+  { id: "L6", start: 18.8, text: "But lost shipping revenue made them unprofitable there." },
+  { id: "L7", start: 22.05, text: "So add only what you'd buy anyway. Sellers: check the margin." },
   { id: "L8", start: 27.0, text: "Follow Werbens to decode how brands sell." },
 ];
 // Word-onset corrections (seconds, absolute; keys = Whisper token index) where Whisper's cross-attention times drift: read

@@ -25,12 +25,12 @@ export const T = {
   toB: [11.25, 12.0], build: [11.4, 12.2], four: [11.63, 12.5], swap: [13.09, 13.9], itemLab: [13.0, 14.4],
   // proof (study): lateral move to a retailer counter (orders, fees, profit stacks); extra order baskets stack up on "drove extra
   // sales" ("EXTRA SALES")
-  toC: [14.3, 15.1], orders: [17.09, 18.2], salesLab: [17.09, 18.55],
+  toC: [14.3, 15.1], orders: [17.09, 18.2], salesLab: [17.09, 18.7],
   // proof (limit): the fee parcels pop away on "lost shipping revenue"; the profit coin stack sinks on "unprofitable" ("LOST FEES")
-  lose: [19.17, 19.9], sink: [20.52, 21.3], loseLab: [19.0, 21.55],
+  lose: [19.37, 20.1], sink: [20.72, 21.5], loseLab: [19.2, 21.75],
   // payoff: lateral move to a final basket; an unwanted extra drifts toward the gap and back out on "only what you'd buy anyway";
   // the wanted item gets a check ("ONLY IF WANTED"); the seller's margin stack gets a check on "check the margin"
-  toD: [21.6, 22.4], tempt: [22.31, 23.55], keep: 23.22, payLab: [22.46, 23.95], margin: [24.69, 25.3],
+  toD: [21.8, 22.6], tempt: [22.51, 23.75], keep: 23.42, payLab: [22.66, 24.15], margin: [24.89, 25.5],
   // CTA: the stage sinks; app.werbens.com logo tile pops up; wordmark on "Werbens"
   ctaClear: [26.25, 26.6], tile: [26.38, 26.74], lockup: 27.55,
 };

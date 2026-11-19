@@ -121,7 +121,7 @@ const diff = new THREE.Mesh(new RoundedBoxGeometry(0.054, 4 * U, 0.054, 2, 0.002
 const diffTile = makeTile(stageB, 0.032, 0.02); diffTile.g.position.set(0.105, PLT + 48 * U, 0.01); setTile(diffTile, "+4");
 
 // ------------------------------------------------------------------ set C (0.6): retailer counter — orders (mini baskets), fee parcels, profit coins
-const XC = 0.6, stageC = new THREE.Group(); stageC.position.x = XC; scene.add(stageC); const shC = contactShadow(); base(stageC, 0.26, 0.14);
+const XC = 0.55, stageC = new THREE.Group(); stageC.position.x = XC; scene.add(stageC); const shC = contactShadow(); base(stageC, 0.26, 0.14);
 const miniBaskets = Array.from({ length: 8 }, () => { const b = makeBasket(stageC, 0.32); b.g.position.x = -0.075; return b; });
 const feeParcels = Array.from({ length: 5 }, () => { const p = makeParcel(stageC); p.scale.setScalar(0.7); p.position.x = 0; return p; });
 const coinGeo = new THREE.CylinderGeometry(0.016, 0.016, 0.0058, 40), coinMat = mat(C3.mint, { roughness: 0.28, emissive: C.mint, emissiveIntensity: 0.15, metalness: 0.2 });
@@ -129,7 +129,7 @@ const coins = Array.from({ length: 9 }, () => { const c = new THREE.Mesh(coinGeo
 
 // ------------------------------------------------------------------ set D (0.9): final basket (with the wanted item), an unwanted
 // extra that drifts away, and the seller's margin coins
-const XD = 0.9, stageD = new THREE.Group(); stageD.position.x = XD; scene.add(stageD); const shD = contactShadow(); base(stageD, 0.27, 0.16);
+const XD = 0.8, stageD = new THREE.Group(); stageD.position.x = XD; scene.add(stageD); const shD = contactShadow(); base(stageD, 0.27, 0.16);
 const basketD = makeBasket(stageD); basketD.g.position.set(-0.03, PLT, 0);
 product(basketD.g, "box", -0.045, 0, 0.004); product(basketD.g, "jar", -0.008, 0.008, 0.004); product(basketD.g, "bottle", 0.018, -0.012, 0.004);
 const wantedD = product(basketD.g, "item", 0.045, 0.01, 0.004); const checkD = makeCheck(stageD, 0.022);
@@ -184,7 +184,7 @@ const FB = cam(XB, 0.25, 0.72, 0.13), FB2 = cam(XB, 0.245, 0.69, 0.128);
 const FC = cam(XC, 0.23, 0.66, 0.1), FC2 = cam(XC, 0.225, 0.63, 0.098);
 const FD = cam(XD, 0.25, 0.74, 0.115), FD2 = cam(XD, 0.245, 0.71, 0.113);
 const CTAV = [[XD, 0.28, 1.3], [XD, 0.098, 0]], CTAV2 = [[XD, 0.28, 1.26], [XD, 0.098, 0]];
-const CAMS = [[0, ...FA0], [3.3, ...FA0], [4.2, ...FA1], [7.5, ...FA1], [8.4, ...FA2], [11.25, ...FA2], [12.0, ...FB], [12.5, ...FB], [14.2, ...FB2], [14.3, ...FB2], [15.1, ...FC], [17.0, ...FC], [21.5, ...FC2], [21.6, ...FC2], [22.4, ...FD], [25.5, ...FD2], [26.75, ...CTAV], [30, ...CTAV2]];
+const CAMS = [[0, ...FA0], [3.3, ...FA0], [4.2, ...FA1], [7.5, ...FA1], [8.4, ...FA2], [11.25, ...FA2], [12.0, ...FB], [12.5, ...FB], [14.2, ...FB2], [14.3, ...FB2], [15.1, ...FC], [17.0, ...FC], [21.7, ...FC2], [21.8, ...FC2], [22.6, ...FD], [25.5, ...FD2], [26.75, ...CTAV], [30, ...CTAV2]];
 function cameraAt(t) { if (THUMB) return { pos: v3(...FA0[0]), tgt: v3(...FA0[1]) };
   let i = CAMS.findIndex((k) => k[0] > t); if (i < 0) i = CAMS.length; if (i === 0) i = 1;
   const a = CAMS[Math.min(i - 1, CAMS.length - 1)], b = CAMS[Math.min(i, CAMS.length - 1)], u = a === b ? 0 : E.inOut(clamp((t - a[0]) / (b[0] - a[0])));
@@ -199,7 +199,7 @@ function frame(t) {
   key_.position.set(c.tgt.x - 0.95, 2.35, 1.75); key_.target.position.set(c.tgt.x, 0.05, 0); key_.target.updateMatrixWorld();
   const cl = ramp(t, ...T.ctaClear, E.inOut);
   const vis = (x) => Math.abs(c.tgt.x - x) < 0.42;
-  stageA.visible = vis(0) && t < 12.5; stageB.visible = vis(XB) && t > 10.8 && t < 15.6; stageC.visible = vis(XC) && t > 13.8 && t < 22.6; stageD.visible = vis(XD) && cl < 0.999; stageD.position.y = -0.27 * cl;
+  stageA.visible = vis(0) && t < 12.5; stageB.visible = vis(XB) && t > 10.8 && t < 15.6; stageC.visible = vis(XC) && t > 13.8 && t < 22.8; stageD.visible = vis(XD) && cl < 0.999; stageD.position.y = -0.27 * cl;
   placeShadow(shA, 0, 0, 0, 0.14, 0.08, stageA.visible ? 0.8 : 0); placeShadow(shB, XB, 0, 0, 0.12, 0.06, stageB.visible ? 0.8 : 0);
   placeShadow(shC, XC, 0, 0, 0.13, 0.07, stageC.visible ? 0.8 : 0); placeShadow(shD, XD, 0, 0, 0.14, 0.08, stageD.visible ? 0.8 * (1 - cl) : 0);
 
