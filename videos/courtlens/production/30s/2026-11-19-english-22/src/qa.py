@@ -72,9 +72,9 @@ rep['cta'] = {'starts': last['measured_start'], 'ends': last['end'], 'final_seco
 caps = tl['captions']
 rep['captions'] = {'count': len(caps), 'non_overlapping': all(caps[i]['end'] <= caps[i + 1]['start'] + 1e-9 for i in range(len(caps) - 1))}
 
-# 5. safe zone: y<300 must hold no dark (text/diagram) pixels — sampled every 5th frame
-buf = subprocess.run(['ffmpeg', '-hide_banner', '-v', 'error', '-i', mp4, '-vf', "select='not(mod(n\\,5))',crop=1080:300:0:0,format=gray", '-vsync', '0', '-f', 'rawvideo', '-'], capture_output=True).stdout
-fr = np.frombuffer(buf, np.uint8).reshape(-1, 300, 1080)
+# 5. safe zone: y<280 must hold no dark (text/diagram) pixels — sampled every 5th frame (19 Nov brief: captions y≈280–460)
+buf = subprocess.run(['ffmpeg', '-hide_banner', '-v', 'error', '-i', mp4, '-vf', "select='not(mod(n\\,5))',crop=1080:280:0:0,format=gray", '-vsync', '0', '-f', 'rawvideo', '-'], capture_output=True).stdout
+fr = np.frombuffer(buf, np.uint8).reshape(-1, 280, 1080)
 mins = fr.reshape(len(fr), -1).min(axis=1)
 rep['top_safe_zone'] = {'frames_checked': int(len(fr)), 'darkest_pixel': int(mins.min()), 'pass': bool(mins.min() > 150)}
 

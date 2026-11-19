@@ -38,7 +38,7 @@ changed from the restaurant service charge, which repeats episode 06 (see `LEGAL
 | Payoff | 23.05–26.75 | l9 23.15→26.55 "Keep the ticket. Report any damage right away, in writing." | The ticket **rises** ✓ (23.3); a note slides in and a pen **writes** (24.3): ✓ "IN WRITING". |
 | CTA | 26.75–30.00 | l10 26.95→29.90 "Follow Courtlens for everyday Indian law explained." | The Courtlens icon **pops**, the arc **draws**: "Follow Courtlens / Everyday Indian law, explained". |
 
-- **Narration:** 83 spoken words; speech 27.2 s (l1–l9: 24.3 s); gaps ≈0.27 s for a comfortable pace.
+- **Narration:** 84 spoken words; speech 27.2 s (l1–l9: 24.3 s); gaps ≈0.27 s for a comfortable pace.
 - **Kept:**
   - palette, Inter, grain, keyword-marker captions centred in x 100..900, series chip
   - stamp slam, icon CTA

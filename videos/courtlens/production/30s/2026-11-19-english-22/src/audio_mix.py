@@ -232,8 +232,8 @@ def main():
     music[:, 0] *= tail; music[:, 1] *= tail
 
     fx = np.zeros((total, 2))
-    place(fx, paper(0.35), 0.08, 0.04, 0.0)                             # the valet ticket
-    place(fx, jingle(0.4), E['swing'], 0.035, 0.4)                      # keys swing on the ticket
+    place(fx, paper(0.3), 0.0, 0.015, 0.0)                              # the valet ticket (soft: under the hook line)
+    place(fx, jingle(0.4), E['swing'], 0.03, 0.4)                       # keys swing on the ticket (in the pause after l1)
     place(fx, pluck([N['E5']], 0.3), E['pulse'] + 0.25, 0.03, 0.0)      # the owner's-risk line glows
     place(fx, whoosh(0.4, 300, 2200), E['v3'], 0.025, 0.0)
     place(fx, thud(), E['stamp'], 0.08, 0.0)                            # SUPREME COURT · 14 NOV 2019 stamp

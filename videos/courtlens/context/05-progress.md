@@ -13,8 +13,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
 - **The proposed topic (restaurant service charge) repeats episode 06.** The replacement is the valet "owner's risk"
   ticket (new in 01–21). Record: `context/episodes/2026-11-19-english22-valet-owners-risk.md`.
 - The 19 Nov layout brief is persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit 9d03229): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-19-english-22/courtlens-30s-english22-01.mp4`
+    sha256 `592900abd62ccd2c60e44b0ac1ad98049d98270f4cbd0720940c0bffd0a44fc2`
+  - `courtlens-30s-english22-01-thumbnail.png`
+    sha256 `5716faf1c11dd39ce256f7416cf18bde761503c36201c52eff5dbb6dcb2577a3`
+  - QA: `production/30s/2026-11-19-english-22/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-19-english-22/notes/LEGAL-SOURCES.md`)
 - **SC, Taj Mahal Hotel v. United India Insurance Co. Ltd., CA 8611/2019, 14 Nov 2019** (official PDF, sha256
@@ -55,9 +61,37 @@ $S/tts/venv/bin/python capcheck.py ../courtlens-30s-english22-01.mp4 ../courtlen
   outside the card), "No." was removed, and VALET shrank slightly.
 - **FREE tag:** it covered the stand's VALET sign, so it moved up between the post and the podium.
 
+### Fixed after the full render (decoded review and final-mix ASR)
+- **Hook caption:** the ink reached y 277, so it is now 90 px, centred at y 400 (ink ≥ 285). qa.py's top zone is now
+  y<280, per the brief.
+- **Transitions:** dips became cross-fades (incoming scenes start 0.18 s early). The self-park figure now appears
+  after the car parks. The episode was fully re-rendered.
+- **Masked hook word:** the final-mix ASR heard l1 as "Your car at your risk" because the key jingle at 0.3 s masked
+  it. The swing and jingle moved to 1.2 s and the rustle was softened. Re-render, verify and re-mux:
+  ```bash
+  node render.cjs range $S/build22/frames 0-125
+  SKIP_TTS=1 SKIP_FRAMES=1 PY=$S/tts/venv/bin/python WORK=$S/build22 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+  ```
+  Neighbours 126–128 were bit-identical.
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.2 LUFS, true peak −2.4 dBFS; 10/10 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.012 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 117..884, y 285..452 (band y≈280–460); y<280 clear (darkest pixel 205).
+- Frame 0 vs thumbnail mean abs diff 1.67/255.
+
+### Unresolved
+- Listening is ASR-only. Nobody watched or listened in real time.
+- **Scope:** the ruling is limited to hotels (para 28). The narration says "a hotel's valet". Restaurant and other
+  applications by consumer commissions are in the notes only, not read in full.
+- **Brief light frames:** about 4.0–4.2 s and 23.0–23.3 s, while the stamp and ticket spring in.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA (incl. caption-band check for y≈280–460), QA.md, delivery commit and push, attach the MP4 and
-  thumbnail.
+- Await the next batch request. No automation and no further episode unless asked. `$S/build22/frames` is deleted
+  after delivery.
 
 ## Round 2026-11-18 (english-21, batch 21): "Pay early, get fined?": loan pre-payment charges (RBI)
 

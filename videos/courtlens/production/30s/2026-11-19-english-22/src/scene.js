@@ -356,7 +356,7 @@
 
   // ---------- scene windows (scale crossfades, as in the approved episodes) ----------
   function win(t, a, b, fin = 0.35, fout = 0.35) {
-    const i = a <= 0 ? 1 : eo(P(t, a, a + fin)), o = 1 - eio(P(t, b - fout, b));
+    const i = a <= 0 ? 1 : eo(P(t, a - 0.18, a + fin - 0.18)), o = 1 - eio(P(t, b - fout, b));   // incoming overlaps the outgoing fade: crossfade, no empty dip
     return { a: Math.min(i, o), i, o };
   }
   function withScene(ctx, w, fn, push = 0, zoomIn = 0.94, zoomOut = 1.05) {
@@ -454,8 +454,8 @@
       parkingBay(ctx, 560, 1240);
       const k = eio(P(t, E.park, E.park + 0.8));
       car(ctx, lerp(-260, 560, k), 1250, 0.8, {});
-      person(ctx, 175, 1300, 0.95);
-      if (t >= E.keysStay - 0.3) { const kk = spring(t - E.keysStay + 0.3, 1.5, 0.55); keys(ctx, 238, 1150 - (1 - clamp(kk)) * 120, 0.8, 1.2 + wobble(t - E.keysStay, 0.2, 1.3, 2)); badge(ctx, 175, 960, spring(t - E.keysStay, 2, 0.5), true, 36); }
+      if (t >= E.keysStay) { ctx.save(); const pk = spring(t - E.keysStay, 1.6, 0.6); ctx.globalAlpha *= clamp(pk * 2); person(ctx, 175, 1300 + (1 - clamp(pk)) * 40, 0.95); ctx.restore(); }
+      if (t >= E.keysStay) { const kk = spring(t - E.keysStay, 1.5, 0.55); keys(ctx, 238, 1150 - (1 - clamp(kk)) * 120, 0.8, 1.2 + wobble(t - E.keysStay, 0.2, 1.3, 2)); badge(ctx, 175, 960, spring(t - E.keysStay - 0.2, 2, 0.5), true, 36); }
       if (t >= E.noHand - 0.4) {                                                          // the care shield can't form
         const k = P(t, E.noHand - 0.4, E.noHand + 0.2);
         ctx.save(); ctx.globalAlpha *= (1 - P(t, E.noHand + 0.2, E.noHand + 0.6)) * 0.9;
@@ -514,7 +514,7 @@
     const key0 = cp.text + (cp.hook ? '#h' : '');
     if (capCache.has(key0)) return capCache.get(key0);
     const words = cp.text.split(' ');
-    let size = cp.hook ? 92 : CAP.size, lines; const minS = cp.hook ? 64 : CAP.minSize;
+    let size = cp.hook ? 90 : CAP.size, lines; const minS = cp.hook ? 64 : CAP.minSize;
     for (; size >= minS; size -= 2) {
       setFont(ctx, `${cp.hook ? 900 : 800} ${size}px Inter`, 0);
       const sp = ctx.measureText(' ').width, ws = words.map(w => ctx.measureText(w).width);
@@ -534,7 +534,7 @@
       const ws = words.slice(a, b);
       const total = ws.reduce((s, w) => s + ctx.measureText(w).width, 0) + sp * (ws.length - 1);
       let x = 500 - total / 2;
-      const y = lines.length === 1 ? CAP.y1 : (li === 0 ? 394 - gap / 2 : 394 + gap / 2);
+      const y = lines.length === 1 ? CAP.y1 : (li === 0 ? (cp.hook ? 400 : 394) - gap / 2 : (cp.hook ? 400 : 394) + gap / 2);
       return ws.map(w => {
         const ww = ctx.measureText(w).width, core = w.replace(/[.,;:?!”]+$/, '');
         const it = { w, x, y, ww, hw: ctx.measureText(core).width, hl: hl.has(w) }; x += ww + sp; return it;

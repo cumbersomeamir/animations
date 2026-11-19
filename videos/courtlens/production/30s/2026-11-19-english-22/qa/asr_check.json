@@ -1,0 +1,485 @@
+{
+ "full_wer": 0.012,
+ "heard": "Your car, your risk. The valet ticket says, parked at owner's risk. The Supreme Court ruled in 2019. Once a hotel's valet takes your keys, the car is in its care. even if the valet service is free. Lost or damaged, the hotel must prove it took proper care. An owner's risk line can't excuse its own negligence. Parked it yourself, then this rule doesn't apply. Keep the ticket. Report any damage right away in writing. Follow Courtlands for everyday Indian law explained.",
+ "per_line": [
+  {
+   "id": "l1",
+   "script": "Your car. Your risk?",
+   "heard": "Your car, your risk.",
+   "wer": 0.0
+  },
+  {
+   "id": "l2",
+   "script": "The valet ticket says: parked at owner's risk.",
+   "heard": "The valet ticket says, parked at owner's risk.",
+   "wer": 0.0
+  },
+  {
+   "id": "l3",
+   "script": "The Supreme Court ruled in twenty nineteen:",
+   "heard": "The Supreme Court ruled in 2019.",
+   "wer": 0.0
+  },
+  {
+   "id": "l4",
+   "script": "once a hotel's valet takes your keys, the car is in its care,",
+   "heard": "Once a hotel's valet takes your keys, the car is in its care.",
+   "wer": 0.0
+  },
+  {
+   "id": "l5",
+   "script": "even if the valet service is free.",
+   "heard": "even if the valet service is free.",
+   "wer": 0.0
+  },
+  {
+   "id": "l6",
+   "script": "Lost or damaged? The hotel must prove it took proper care.",
+   "heard": "Lost or damaged, the hotel must prove it took proper care.",
+   "wer": 0.0
+  },
+  {
+   "id": "l7",
+   "script": "An owner's risk line can't excuse its own negligence.",
+   "heard": "An owner's risk line can't excuse its own negligence.",
+   "wer": 0.0
+  },
+  {
+   "id": "l8",
+   "script": "Parked it yourself? Then this rule doesn't apply.",
+   "heard": "Parked it yourself, then this rule doesn't apply.",
+   "wer": 0.0
+  },
+  {
+   "id": "l9",
+   "script": "Keep the ticket. Report any damage right away, in writing.",
+   "heard": "Keep the ticket. Report any damage right away in writing.",
+   "wer": 0.0
+  },
+  {
+   "id": "l10",
+   "script": "Follow Courtlens for everyday Indian law explained.",
+   "heard": "Follow Courtlands for everyday Indian law explained.",
+   "wer": 0.143
+  }
+ ],
+ "words": [
+  [
+   "Your",
+   0.0,
+   0.24
+  ],
+  [
+   "car,",
+   0.24,
+   0.54
+  ],
+  [
+   "your",
+   0.64,
+   0.78
+  ],
+  [
+   "risk.",
+   0.78,
+   1.06
+  ],
+  [
+   "The",
+   1.15,
+   1.57
+  ],
+  [
+   "valet",
+   1.57,
+   1.89
+  ],
+  [
+   "ticket",
+   1.89,
+   2.17
+  ],
+  [
+   "says,",
+   2.17,
+   2.55
+  ],
+  [
+   "parked",
+   2.79,
+   3.07
+  ],
+  [
+   "at",
+   3.07,
+   3.29
+  ],
+  [
+   "owner's",
+   3.29,
+   3.65
+  ],
+  [
+   "risk.",
+   3.65,
+   3.89
+  ],
+  [
+   "The",
+   4.0,
+   4.4
+  ],
+  [
+   "Supreme",
+   4.4,
+   4.76
+  ],
+  [
+   "Court",
+   4.76,
+   5.16
+  ],
+  [
+   "ruled",
+   5.16,
+   5.54
+  ],
+  [
+   "in",
+   5.54,
+   5.78
+  ],
+  [
+   "2019.",
+   5.78,
+   6.32
+  ],
+  [
+   "Once",
+   6.55,
+   7.01
+  ],
+  [
+   "a",
+   7.01,
+   7.21
+  ],
+  [
+   "hotel's",
+   7.21,
+   7.69
+  ],
+  [
+   "valet",
+   7.69,
+   7.95
+  ],
+  [
+   "takes",
+   7.95,
+   8.19
+  ],
+  [
+   "your",
+   8.19,
+   8.41
+  ],
+  [
+   "keys,",
+   8.41,
+   8.73
+  ],
+  [
+   "the",
+   9.15,
+   9.23
+  ],
+  [
+   "car",
+   9.23,
+   9.47
+  ],
+  [
+   "is",
+   9.47,
+   9.67
+  ],
+  [
+   "in",
+   9.67,
+   9.77
+  ],
+  [
+   "its",
+   9.77,
+   9.99
+  ],
+  [
+   "care.",
+   9.99,
+   10.21
+  ],
+  [
+   "even",
+   10.3,
+   10.74
+  ],
+  [
+   "if",
+   10.74,
+   10.94
+  ],
+  [
+   "the",
+   10.94,
+   11.1
+  ],
+  [
+   "valet",
+   11.1,
+   11.42
+  ],
+  [
+   "service",
+   11.42,
+   11.74
+  ],
+  [
+   "is",
+   11.74,
+   12.0
+  ],
+  [
+   "free.",
+   12.0,
+   12.22
+  ],
+  [
+   "Lost",
+   12.4,
+   13.1
+  ],
+  [
+   "or",
+   13.1,
+   13.32
+  ],
+  [
+   "damaged,",
+   13.32,
+   13.88
+  ],
+  [
+   "the",
+   14.32,
+   14.42
+  ],
+  [
+   "hotel",
+   14.42,
+   14.68
+  ],
+  [
+   "must",
+   14.68,
+   14.94
+  ],
+  [
+   "prove",
+   14.94,
+   15.18
+  ],
+  [
+   "it",
+   15.18,
+   15.32
+  ],
+  [
+   "took",
+   15.32,
+   15.5
+  ],
+  [
+   "proper",
+   15.5,
+   15.82
+  ],
+  [
+   "care.",
+   15.82,
+   16.14
+  ],
+  [
+   "An",
+   16.3,
+   16.76
+  ],
+  [
+   "owner's",
+   16.76,
+   17.22
+  ],
+  [
+   "risk",
+   17.22,
+   17.42
+  ],
+  [
+   "line",
+   17.42,
+   17.76
+  ],
+  [
+   "can't",
+   17.76,
+   18.48
+  ],
+  [
+   "excuse",
+   18.48,
+   18.66
+  ],
+  [
+   "its",
+   18.66,
+   18.94
+  ],
+  [
+   "own",
+   18.94,
+   19.18
+  ],
+  [
+   "negligence.",
+   19.18,
+   19.72
+  ],
+  [
+   "Parked",
+   19.85,
+   20.41
+  ],
+  [
+   "it",
+   20.41,
+   20.51
+  ],
+  [
+   "yourself,",
+   20.51,
+   20.99
+  ],
+  [
+   "then",
+   21.43,
+   21.55
+  ],
+  [
+   "this",
+   21.55,
+   21.85
+  ],
+  [
+   "rule",
+   21.85,
+   22.09
+  ],
+  [
+   "doesn't",
+   22.09,
+   22.47
+  ],
+  [
+   "apply.",
+   22.47,
+   22.79
+  ],
+  [
+   "Keep",
+   22.95,
+   23.41
+  ],
+  [
+   "the",
+   23.41,
+   23.67
+  ],
+  [
+   "ticket.",
+   23.67,
+   24.01
+  ],
+  [
+   "Report",
+   24.33,
+   24.71
+  ],
+  [
+   "any",
+   24.71,
+   24.95
+  ],
+  [
+   "damage",
+   24.95,
+   25.31
+  ],
+  [
+   "right",
+   25.31,
+   25.55
+  ],
+  [
+   "away",
+   25.55,
+   25.89
+  ],
+  [
+   "in",
+   25.89,
+   26.19
+  ],
+  [
+   "writing.",
+   26.19,
+   26.41
+  ],
+  [
+   "Follow",
+   26.75,
+   27.37
+  ],
+  [
+   "Courtlands",
+   27.37,
+   27.87
+  ],
+  [
+   "for",
+   27.87,
+   28.19
+  ],
+  [
+   "everyday",
+   28.19,
+   28.63
+  ],
+  [
+   "Indian",
+   28.63,
+   29.01
+  ],
+  [
+   "law",
+   29.01,
+   29.27
+  ],
+  [
+   "explained.",
+   29.27,
+   29.85
+  ]
+ ],
+ "words_outside_captions": [],
+ "caption_alignment_pass": true
+}
