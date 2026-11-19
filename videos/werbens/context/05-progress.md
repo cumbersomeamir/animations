@@ -90,3 +90,7 @@
   + thumbnail (proposed decoy-vs-compromise topic covered by #03 + #18 → switched to the zero-price effect, "FREE BEATS
   BETTER?"; Shampanier, Mazar & Ariely 2007; Hossain & Saini 2015 limit; frame 0 = thumbnail; live feedback applied
   (app.werbens.com colours/logo); render 2 after a review removed a near-empty lateral move; sha256 87d77b67; context/37).
+- English-22 (batch22 2026-11-19-english-22) IN PROGRESS `production/30s/2026-11-19-english-22/werbens-30s-english22-01.mp4`
+  + thumbnail (free-shipping threshold, "THE FREE SHIPPING TRAP"; topic not covered before; Lewis, Singh & Fay 2006; exact
+  illustrative math 40+6=46 vs 40+10=50; captions moved to ~y 280–460 per the brief; frame 0 = thumbnail; context/38).
+  Done: research, brand re-check, script, narration + word timing. Next: scene, audio, render, QA.
