@@ -243,6 +243,34 @@ Brief, topic decision, history table, script, sources: 19-episode-octopus-square
 - QA fixes: mess moved to the sand (no hidden oranges); baskets resized/spaced; across-arm route; measuring rings;
   bigger octopus + visible dance arms; "Uh-oh" → "Uh oh" (narrator read "Oh") (details in qa/QA.md).
 
+## 2026-11-19 batch english-22 — "Too Many Aliens!" (delivered)
+Brief (verbatim essentials), topic decision, history table, script, sources: 20-episode-too-many-aliens.md.
+- Session check first: batch 20 and 21 were complete and pushed (116ab82); nothing checkpointed or pending; no
+  batch-22 output existed. Toolchain still in the session scratchpad (Kokoro hashes as before).
+- Topic decision: requested "three lifts with four aliens in each, 3 × 4 = 12" = feedback-01's "three groups of four
+  still make twelve" → kept moon hotel, three lifts of four seats, the squashed impatient tiny alien, "TOO MANY ALIENS!"
+  frame 0, twelve aliens counted once, 3 × 4 = 12 only at the payoff; the tiny alien is the 13th, so the new idea is
+  the leftover (remainder): 12 seats for 13 aliens leaves 1 over.
+- Facts: CCSS 3.OA.A.1, 3.OA.C.7, 4.OA.A.3 (remainders interpreted), 4.NBT.B.6; England NC KS1–2 Y5 (interpret
+  remainders).
+- Creative (entertainment first): new cut-paper alien puppet (src/alien.mjs); moon-hotel lobby; sliding-door lifts;
+  rule-of-three squeeze gags (pop, belly-bounce, antenna stretch + twang); foot taps on the beat; dings tuned to an
+  A-flat chord; reveal + count with group outlines; spotlight on number thirteen; payoff sign + left-over ring; the
+  empty lift comes back and the tiny alien sprawls across the seats. Hard cuts on the 100 bpm beat grid; 2.0×
+  close-ups drawn straight at camera scale (2× textures); baker folds flat in close-ups; moon-rock foreground.
+- New format rules from this brief (apply from now on): captions centred y 372 (band ≈ 280–460); at most one short
+  headline + the current caption — no persistent equation card, the equation only at the payoff; hard cuts on the
+  beat; music ducked −11 dB under speech.
+- Commands: see production/30s/2026-11-19-english-22/README.md (render ≈ 70 s).
+- Paths: production/30s/2026-11-19-english-22/ — tableverse-30s-english22-01.mp4 (sha256 13ddac27c48d047c017b94ec7feba5fd5b7e51ea8e1558ab21d6245a57aac856) +
+  tableverse-30s-english22-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.5 LUFS, −2.2 dBTP; whole-file
+  ASR matches the script exactly; nine window ASR cuts match; VO stem silent in all gaps; captions x 156–844 /
+  y 294–450; 12 + 1 aliens on contact sheet + 68 frames. Machine-only listening; frame-based viewing.
+- QA fixes: sharper/closer close-ups; packed frame 0; baker folds in close-ups; group outlines on the count;
+  "Four aliens in each lift" → "Each lift has four aliens" (heard as "left"); deeper ducking (details in qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english20-01 and english21-01 (both attached in chat and pushed). No further episode started.
-- Both briefs this session repeated covered topics; the replacements are documented in context/18 and 19.
+- Await user review of english20-01, english21-01 and english22-01 (all attached in chat and pushed). No further
+  episode started.
+- Briefs 20, 21 and 22 each repeated covered maths; replacements are documented in context/18, 19 and 20.

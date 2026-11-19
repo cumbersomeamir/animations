@@ -1,0 +1,496 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-lift1",
+      "from": 0,
+      "to": 90,
+      "name": "Close-up: tiny alien squashed in the full lift 1; \"TOO MANY ALIENS!\"; pops out"
+    },
+    {
+      "id": "S2-lift2",
+      "from": 90,
+      "to": 144,
+      "name": "Cut: lift 2 — full! belly-bounce, pops out"
+    },
+    {
+      "id": "S3-lift3",
+      "from": 144,
+      "to": 216,
+      "name": "Cut: lift 3 — full again! doors catch its antenna, twang, lands on its bottom"
+    },
+    {
+      "id": "S4-question",
+      "from": 216,
+      "to": 306,
+      "name": "Cut wide: three closed lifts; the tiny alien taps its foot: why is there never room?"
+    },
+    {
+      "id": "S5-reveal",
+      "from": 306,
+      "to": 474,
+      "name": "Ding, ding, ding: all three lifts open; four aliens in each; count 4, 8, 12"
+    },
+    {
+      "id": "S6-thirteen",
+      "from": 474,
+      "to": 570,
+      "name": "Push-in: twelve seats; one more alien makes thirteen (spotlight)"
+    },
+    {
+      "id": "S7-payoff",
+      "from": 570,
+      "to": 720,
+      "name": "Wide: sign 3 × 4 = 12; groups outlined; one left over; lifts go up and lift 1 comes back empty"
+    },
+    {
+      "id": "S8-gag",
+      "from": 720,
+      "to": 810,
+      "name": "Close-up lift 1: the next lift is all yours — the tiny alien sprawls across the seats, winks"
+    },
+    {
+      "id": "S9-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 94,
+    "v03": 148,
+    "v04": 222,
+    "v05": 306,
+    "v06": 364,
+    "c04": 414,
+    "c08": 432,
+    "c12": 450,
+    "v07": 474,
+    "v08": 576,
+    "v09": 720,
+    "v10": 838
+  },
+  "vo_clip": {},
+  "captions": [
+    [
+      [
+        "Lift 2? Full!"
+      ],
+      94,
+      140
+    ],
+    [
+      [
+        "Lift 3? Full again!"
+      ],
+      148,
+      214
+    ],
+    [
+      [
+        "Why is there never room?"
+      ],
+      222,
+      304
+    ],
+    [
+      [
+        "Let's peek inside!"
+      ],
+      306,
+      362
+    ],
+    [
+      [
+        "Each lift has 4 aliens."
+      ],
+      364,
+      410
+    ],
+    [
+      [
+        "4!"
+      ],
+      414,
+      432
+    ],
+    [
+      [
+        "4, 8!"
+      ],
+      432,
+      450
+    ],
+    [
+      [
+        "4, 8, 12!"
+      ],
+      450,
+      470
+    ],
+    [
+      [
+        "12 seats."
+      ],
+      474,
+      500
+    ],
+    [
+      [
+        "12 seats.",
+        "One more alien makes 13!"
+      ],
+      500,
+      566
+    ],
+    [
+      [
+        "3 times 4 is 12,"
+      ],
+      576,
+      610
+    ],
+    [
+      [
+        "3 times 4 is 12,",
+        "so 1 is left over."
+      ],
+      610,
+      660
+    ],
+    [
+      [
+        "The next lift is all yours,",
+        "little one!"
+      ],
+      720,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      838,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "squeak",
+      6,
+      {
+        "dur": 40
+      }
+    ],
+    [
+      "boing",
+      54,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "thud",
+      72,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "clunk",
+      66,
+      {}
+    ],
+    [
+      "flap",
+      80,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "whoosh",
+      92,
+      {
+        "dur": 12
+      }
+    ],
+    [
+      "squish",
+      106,
+      {}
+    ],
+    [
+      "clunk",
+      116,
+      {}
+    ],
+    [
+      "boing",
+      120,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "thud",
+      134,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "whoosh",
+      146,
+      {
+        "dur": 12
+      }
+    ],
+    [
+      "squish",
+      160,
+      {}
+    ],
+    [
+      "clunk",
+      172,
+      {}
+    ],
+    [
+      "stretch",
+      174,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "twang",
+      186,
+      {}
+    ],
+    [
+      "thud",
+      200,
+      {}
+    ],
+    [
+      "tok",
+      252,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "tok",
+      270,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "tok",
+      288,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "tok",
+      228,
+      {
+        "pitch": 0.6
+      }
+    ],
+    [
+      "tok",
+      236,
+      {
+        "pitch": 0.65
+      }
+    ],
+    [
+      "ding",
+      324,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "slide",
+      325,
+      {
+        "dur": 14
+      }
+    ],
+    [
+      "ding",
+      342,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "slide",
+      343,
+      {
+        "dur": 14
+      }
+    ],
+    [
+      "ding",
+      360,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "slide",
+      361,
+      {
+        "dur": 14
+      }
+    ],
+    [
+      "pop",
+      414,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      432,
+      {
+        "pitch": 1.02
+      }
+    ],
+    [
+      "pop",
+      450,
+      {
+        "pitch": 1.1400000000000001
+      }
+    ],
+    [
+      "light",
+      478,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "boing",
+      510,
+      {
+        "pitch": 1.5,
+        "soft": true
+      }
+    ],
+    [
+      "sparkle",
+      516,
+      {}
+    ],
+    [
+      "flap",
+      578,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      586,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "light",
+      618,
+      {
+        "step": 4
+      }
+    ],
+    [
+      "slide",
+      666,
+      {
+        "dur": 16
+      }
+    ],
+    [
+      "clunk",
+      684,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "whoosh",
+      684,
+      {
+        "dur": 22
+      }
+    ],
+    [
+      "ding",
+      724,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "slide",
+      726,
+      {
+        "dur": 14
+      }
+    ],
+    [
+      "whoosh",
+      738,
+      {
+        "dur": 14
+      }
+    ],
+    [
+      "squish",
+      756,
+      {}
+    ],
+    [
+      "glint",
+      794,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    252,
+    306
+  ]
+}

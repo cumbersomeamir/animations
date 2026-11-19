@@ -1,0 +1,73 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Too many aliens! The little one can't squeeze in!",
+      "seconds": 2.584,
+      "frames": 77.5
+    },
+    "v02": {
+      "text": "Lift two? Full!",
+      "seconds": 1.072,
+      "frames": 32.2
+    },
+    "v03": {
+      "text": "Lift three? Full again!",
+      "seconds": 1.461,
+      "frames": 43.8
+    },
+    "v04": {
+      "text": "Why is there never room?",
+      "seconds": 1.073,
+      "frames": 32.2
+    },
+    "v05": {
+      "text": "Let's peek inside!",
+      "seconds": 1.063,
+      "frames": 31.9
+    },
+    "v06": {
+      "text": "Each lift has four aliens.",
+      "seconds": 1.434,
+      "frames": 43.0
+    },
+    "c04": {
+      "text": "Four!",
+      "seconds": 0.493,
+      "frames": 14.8
+    },
+    "c08": {
+      "text": "Eight!",
+      "seconds": 0.47,
+      "frames": 14.1
+    },
+    "c12": {
+      "text": "Twelve!",
+      "seconds": 0.536,
+      "frames": 16.1
+    },
+    "v07": {
+      "text": "Twelve seats. But one more alien makes thirteen!",
+      "seconds": 2.838,
+      "frames": 85.1
+    },
+    "v08": {
+      "text": "Three times four is twelve, so one is left over.",
+      "seconds": 2.683,
+      "frames": 80.5
+    },
+    "v09": {
+      "text": "The next lift is all yours, little one!",
+      "seconds": 1.94,
+      "frames": 58.2
+    },
+    "v10": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
