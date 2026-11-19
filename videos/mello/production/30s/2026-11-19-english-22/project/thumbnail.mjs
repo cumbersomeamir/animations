@@ -22,8 +22,8 @@ await page.evaluate(() => {
   window.renderAt(0.0);
   document.getElementById('cap').style.display = 'none'; document.getElementById('lock').style.display = 'none';
   const d = document.createElement('div');
-  d.style.cssText = 'position:absolute;left:100px;top:175px;width:800px;text-align:center;font-family:"Instrument Serif",serif;color:#191632;line-height:0.86;letter-spacing:-0.01em;';
-  d.innerHTML = '<div style="font-size:160px">TOO HARD ON</div><div style="font-size:160px;color:#633BFE">YOURSELF?</div>';
+  d.style.cssText = 'position:absolute;left:100px;top:300px;width:800px;text-align:center;font-family:"Instrument Serif",serif;color:#191632;line-height:0.86;letter-spacing:-0.01em;';
+  d.innerHTML = '<div style="font-size:124px">TOO HARD ON</div><div style="font-size:150px;color:#633BFE">YOURSELF?</div>';
   document.getElementById('stage').appendChild(d);
 });
 await page.waitForTimeout(150);

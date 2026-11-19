@@ -1,0 +1,9421 @@
+{
+ "sampled_every_frames": 3,
+ "issues": [],
+ "rows": [
+  {
+   "t": 0,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    467,
+    1098,
+    542,
+    1173
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    467,
+    1097,
+    542,
+    1172
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    467,
+    1097,
+    543,
+    1173
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    467,
+    1097,
+    543,
+    1173
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1097,
+    543,
+    1173
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1098,
+    544,
+    1174
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1098,
+    544,
+    1174
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1099,
+    544,
+    1175
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1099,
+    545,
+    1176
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 0.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1100,
+    545,
+    1177
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1101,
+    546,
+    1178
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1101,
+    546,
+    1179
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1102,
+    547,
+    1181
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1103,
+    547,
+    1182
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1104,
+    547,
+    1182
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1104,
+    547,
+    1183
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    282,
+    276,
+    718,
+    464
+   ],
+   "captionLines": 2,
+   "shot": 1
+  },
+  {
+   "t": 1.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     474,
+     740,
+     838,
+     1267
+    ]
+   },
+   "head": [
+    145,
+    1033,
+    379,
+    1267
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 1.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     474,
+     740,
+     838,
+     1267
+    ]
+   },
+   "head": [
+    145,
+    1034,
+    379,
+    1269
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    281,
+    897,
+    459
+   ],
+   "captionText": [
+    109,
+    331,
+    891,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 1.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     475,
+     740,
+     839,
+     1267
+    ]
+   },
+   "head": [
+    144,
+    1036,
+    379,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 1.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     475,
+     740,
+     840,
+     1267
+    ]
+   },
+   "head": [
+    144,
+    1037,
+    379,
+    1272
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     475,
+     740,
+     840,
+     1268
+    ]
+   },
+   "head": [
+    144,
+    1039,
+    378,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     476,
+     739,
+     841,
+     1268
+    ]
+   },
+   "head": [
+    143,
+    1040,
+    378,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     476,
+     739,
+     842,
+     1268
+    ]
+   },
+   "head": [
+    143,
+    1041,
+    378,
+    1276
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     477,
+     739,
+     843,
+     1268
+    ]
+   },
+   "head": [
+    142,
+    1042,
+    378,
+    1277
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     477,
+     739,
+     844,
+     1269
+    ]
+   },
+   "head": [
+    142,
+    1043,
+    377,
+    1278
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     478,
+     738,
+     845,
+     1269
+    ]
+   },
+   "head": [
+    141,
+    1043,
+    377,
+    1279
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     478,
+     738,
+     846,
+     1270
+    ]
+   },
+   "head": [
+    140,
+    1043,
+    377,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     479,
+     738,
+     847,
+     1270
+    ]
+   },
+   "head": [
+    139,
+    1043,
+    376,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     479,
+     737,
+     849,
+     1271
+    ]
+   },
+   "head": [
+    138,
+    1043,
+    375,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 2.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     480,
+     737,
+     850,
+     1271
+    ]
+   },
+   "head": [
+    137,
+    1042,
+    375,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     481,
+     736,
+     852,
+     1272
+    ]
+   },
+   "head": [
+    136,
+    1042,
+    374,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     482,
+     736,
+     853,
+     1272
+    ]
+   },
+   "head": [
+    135,
+    1041,
+    373,
+    1279
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    106,
+    331,
+    894,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     482,
+     735,
+     855,
+     1273
+    ]
+   },
+   "head": [
+    133,
+    1040,
+    373,
+    1279
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 2
+  },
+  {
+   "t": 3.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     483,
+     735,
+     856,
+     1273
+    ]
+   },
+   "head": [
+    132,
+    1038,
+    372,
+    1278
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    104,
+    281,
+    896,
+    459
+   ],
+   "captionText": [
+    107,
+    326,
+    893,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     484,
+     735,
+     858,
+     1274
+    ]
+   },
+   "head": [
+    131,
+    1037,
+    371,
+    1278
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     484,
+     734,
+     859,
+     1274
+    ]
+   },
+   "head": [
+    130,
+    1036,
+    370,
+    1277
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     485,
+     734,
+     861,
+     1275
+    ]
+   },
+   "head": [
+    128,
+    1035,
+    370,
+    1276
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     486,
+     733,
+     862,
+     1275
+    ]
+   },
+   "head": [
+    127,
+    1034,
+    369,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     486,
+     733,
+     863,
+     1276
+    ]
+   },
+   "head": [
+    126,
+    1033,
+    368,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 3.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     487,
+     733,
+     865,
+     1276
+    ]
+   },
+   "head": [
+    125,
+    1032,
+    368,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     488,
+     732,
+     866,
+     1277
+    ]
+   },
+   "head": [
+    124,
+    1031,
+    367,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     488,
+     732,
+     867,
+     1277
+    ]
+   },
+   "head": [
+    123,
+    1031,
+    366,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     489,
+     732,
+     868,
+     1278
+    ]
+   },
+   "head": [
+    122,
+    1031,
+    366,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     489,
+     731,
+     869,
+     1278
+    ]
+   },
+   "head": [
+    121,
+    1031,
+    365,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     489,
+     731,
+     870,
+     1278
+    ]
+   },
+   "head": [
+    121,
+    1031,
+    365,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     490,
+     731,
+     870,
+     1278
+    ]
+   },
+   "head": [
+    120,
+    1032,
+    365,
+    1276
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     490,
+     731,
+     871,
+     1279
+    ]
+   },
+   "head": [
+    119,
+    1033,
+    364,
+    1277
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     490,
+     730,
+     871,
+     1279
+    ]
+   },
+   "head": [
+    119,
+    1034,
+    364,
+    1279
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     491,
+     730,
+     872,
+     1279
+    ]
+   },
+   "head": [
+    118,
+    1035,
+    364,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    103,
+    326,
+    897,
+    414
+   ],
+   "captionLines": 1,
+   "shot": 2
+  },
+  {
+   "t": 4.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1348
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 5,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1348
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    281,
+    895,
+    459
+   ],
+   "captionText": [
+    200,
+    325,
+    800,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1348
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    280,
+    899,
+    460
+   ],
+   "captionText": [
+    197,
+    325,
+    803,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1348
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     114,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 5.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     881,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     672,
+     882,
+     1349
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    196,
+    325,
+    804,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 3
+  },
+  {
+   "t": 6.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     113,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 6.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    104,
+    281,
+    896,
+    459
+   ],
+   "captionText": [
+    111,
+    288,
+    889,
+    452
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 6.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     112,
+     671,
+     882,
+     1350
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     671,
+     882,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     671,
+     883,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     671,
+     883,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     670,
+     883,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     111,
+     670,
+     883,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     670,
+     883,
+     1351
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     670,
+     883,
+     1352
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     670,
+     884,
+     1352
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    108,
+    287,
+    892,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 7.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     670,
+     884,
+     1352
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 3
+  },
+  {
+   "t": 7.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     110,
+     670,
+     884,
+     1352
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    104,
+    281,
+    896,
+    459
+   ],
+   "captionText": [
+    109,
+    312,
+    891,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     669,
+     884,
+     1352
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     669,
+     884,
+     1353
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     669,
+     884,
+     1353
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     109,
+     669,
+     885,
+     1353
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     669,
+     885,
+     1353
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     669,
+     885,
+     1353
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     668,
+     885,
+     1354
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     108,
+     668,
+     885,
+     1354
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     107,
+     668,
+     886,
+     1354
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 8.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     107,
+     668,
+     886,
+     1354
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9,
+   "card": null,
+   "crucial": {
+    "card": [
+     107,
+     668,
+     886,
+     1355
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     107,
+     668,
+     886,
+     1355
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     668,
+     886,
+     1355
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     667,
+     887,
+     1355
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     667,
+     887,
+     1355
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     667,
+     887,
+     1356
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     106,
+     667,
+     887,
+     1356
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     667,
+     887,
+     1356
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     667,
+     887,
+     1356
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 9.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10,
+   "card": null,
+   "crucial": {
+    "card": [
+     105,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     666,
+     888,
+     1357
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     104,
+     666,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     666,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     665,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     665,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 10.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     665,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     665,
+     889,
+     1358
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     103,
+     665,
+     889,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     665,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     665,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     665,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     665,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     664,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     664,
+     890,
+     1359
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     102,
+     664,
+     890,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 11.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     890,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     890,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     890,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     101,
+     664,
+     891,
+     1360
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 3
+  },
+  {
+   "t": 12.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     718,
+     869,
+     1416
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    105,
+    312,
+    895,
+    428
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 12.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     718,
+     869,
+     1416
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    281,
+    897,
+    459
+   ],
+   "captionText": [
+    323,
+    325,
+    677,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    322,
+    325,
+    678,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     77,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    322,
+    325,
+    678,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    322,
+    325,
+    678,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    322,
+    325,
+    678,
+    415
+   ],
+   "captionLines": 1,
+   "shot": 4
+  },
+  {
+   "t": 13.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 4
+  },
+  {
+   "t": 13.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     76,
+     718,
+     869,
+     1417
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    281,
+    895,
+    459
+   ],
+   "captionText": [
+    200,
+    288,
+    800,
+    452
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     718,
+     869,
+     1418
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     718,
+     869,
+     1418
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 13.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     75,
+     717,
+     869,
+     1418
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     717,
+     869,
+     1418
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     74,
+     717,
+     869,
+     1419
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     717,
+     869,
+     1419
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     717,
+     869,
+     1419
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     73,
+     717,
+     869,
+     1420
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     717,
+     869,
+     1420
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     72,
+     717,
+     869,
+     1420
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     717,
+     869,
+     1420
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     71,
+     716,
+     869,
+     1421
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 14.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     716,
+     869,
+     1421
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     716,
+     869,
+     1421
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.1,
+   "card": null,
+   "crucial": {
+    "card": [
+     70,
+     716,
+     869,
+     1422
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.2,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     716,
+     869,
+     1422
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.3,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     716,
+     869,
+     1422
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.4,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     716,
+     869,
+     1422
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.5,
+   "card": null,
+   "crucial": {
+    "card": [
+     69,
+     716,
+     869,
+     1422
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.6,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     716,
+     869,
+     1423
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.7,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     716,
+     869,
+     1423
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.8,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     716,
+     869,
+     1423
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 15.9,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     716,
+     869,
+     1423
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16,
+   "card": null,
+   "crucial": {
+    "card": [
+     68,
+     716,
+     869,
+     1423
+    ],
+    "message": null
+   },
+   "head": null,
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 4
+  },
+  {
+   "t": 16.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    480,
+    1124,
+    592,
+    1236
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    197,
+    287,
+    803,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    479,
+    1124,
+    592,
+    1237
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    478,
+    1125,
+    592,
+    1238
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    281,
+    897,
+    459
+   ],
+   "captionText": [
+    114,
+    293,
+    886,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    477,
+    1125,
+    592,
+    1239
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    477,
+    1125,
+    592,
+    1240
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    476,
+    1124,
+    592,
+    1241
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    475,
+    1124,
+    593,
+    1242
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    474,
+    1123,
+    593,
+    1242
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 16.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    472,
+    1122,
+    593,
+    1243
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    471,
+    1121,
+    594,
+    1243
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    470,
+    1119,
+    594,
+    1244
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    468,
+    1118,
+    595,
+    1245
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    467,
+    1117,
+    596,
+    1246
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    465,
+    1116,
+    597,
+    1248
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    463,
+    1115,
+    598,
+    1249
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    461,
+    1114,
+    598,
+    1252
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    459,
+    1114,
+    599,
+    1254
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    457,
+    1114,
+    600,
+    1258
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 17.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    454,
+    1114,
+    601,
+    1261
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    451,
+    1115,
+    602,
+    1265
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    448,
+    1116,
+    603,
+    1270
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    446,
+    1117,
+    604,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    442,
+    1118,
+    605,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    440,
+    1125,
+    605,
+    1290
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    437,
+    1125,
+    606,
+    1295
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    434,
+    1126,
+    607,
+    1299
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    431,
+    1127,
+    608,
+    1303
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    429,
+    1127,
+    608,
+    1307
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 18.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    426,
+    1128,
+    609,
+    1310
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    424,
+    1128,
+    610,
+    1313
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    422,
+    1128,
+    610,
+    1316
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    420,
+    1128,
+    611,
+    1319
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": null
+   },
+   "head": [
+    418,
+    1128,
+    611,
+    1321
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 5
+  },
+  {
+   "t": 19.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     702,
+     861,
+     1307
+    ]
+   },
+   "head": [
+    75,
+    1012,
+    338,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    111,
+    293,
+    889,
+    447
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 19.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     702,
+     862,
+     1308
+    ]
+   },
+   "head": [
+    74,
+    1011,
+    338,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 6
+  },
+  {
+   "t": 19.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     702,
+     862,
+     1308
+    ]
+   },
+   "head": [
+    74,
+    1011,
+    337,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    105,
+    281,
+    895,
+    459
+   ],
+   "captionText": [
+    108,
+    332,
+    892,
+    408
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     702,
+     862,
+     1308
+    ]
+   },
+   "head": [
+    74,
+    1010,
+    337,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    101,
+    280,
+    899,
+    460
+   ],
+   "captionText": [
+    103,
+    332,
+    897,
+    408
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     702,
+     863,
+     1308
+    ]
+   },
+   "head": [
+    73,
+    1010,
+    337,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 19.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     701,
+     863,
+     1308
+    ]
+   },
+   "head": [
+    73,
+    1009,
+    337,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     441,
+     701,
+     864,
+     1309
+    ]
+   },
+   "head": [
+    72,
+    1009,
+    337,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     442,
+     701,
+     864,
+     1309
+    ]
+   },
+   "head": [
+    72,
+    1009,
+    336,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     442,
+     701,
+     864,
+     1309
+    ]
+   },
+   "head": [
+    72,
+    1008,
+    336,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     442,
+     701,
+     865,
+     1309
+    ]
+   },
+   "head": [
+    71,
+    1008,
+    336,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     442,
+     701,
+     865,
+     1309
+    ]
+   },
+   "head": [
+    70,
+    1008,
+    335,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     442,
+     700,
+     866,
+     1310
+    ]
+   },
+   "head": [
+    70,
+    1008,
+    335,
+    1273
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     443,
+     700,
+     867,
+     1310
+    ]
+   },
+   "head": [
+    69,
+    1009,
+    334,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     443,
+     700,
+     867,
+     1310
+    ]
+   },
+   "head": [
+    69,
+    1009,
+    334,
+    1274
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     443,
+     700,
+     868,
+     1311
+    ]
+   },
+   "head": [
+    68,
+    1009,
+    334,
+    1275
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 20.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     443,
+     699,
+     869,
+     1311
+    ]
+   },
+   "head": [
+    67,
+    1010,
+    333,
+    1276
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     443,
+     699,
+     870,
+     1311
+    ]
+   },
+   "head": [
+    66,
+    1010,
+    333,
+    1277
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     444,
+     699,
+     870,
+     1312
+    ]
+   },
+   "head": [
+    65,
+    1011,
+    332,
+    1278
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     444,
+     698,
+     871,
+     1312
+    ]
+   },
+   "head": [
+    65,
+    1012,
+    332,
+    1279
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     444,
+     698,
+     872,
+     1313
+    ]
+   },
+   "head": [
+    64,
+    1013,
+    331,
+    1280
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     445,
+     698,
+     873,
+     1313
+    ]
+   },
+   "head": [
+    63,
+    1014,
+    331,
+    1281
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     445,
+     697,
+     874,
+     1313
+    ]
+   },
+   "head": [
+    62,
+    1014,
+    330,
+    1283
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    102,
+    331,
+    898,
+    409
+   ],
+   "captionLines": 1,
+   "shot": 6
+  },
+  {
+   "t": 21.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     445,
+     697,
+     875,
+     1314
+    ]
+   },
+   "head": [
+    61,
+    1015,
+    329,
+    1284
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     446,
+     697,
+     876,
+     1314
+    ]
+   },
+   "head": [
+    60,
+    1016,
+    329,
+    1285
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    103,
+    281,
+    897,
+    459
+   ],
+   "captionText": [
+    137,
+    288,
+    863,
+    452
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     446,
+     696,
+     877,
+     1315
+    ]
+   },
+   "head": [
+    59,
+    1017,
+    328,
+    1286
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 21.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     446,
+     696,
+     878,
+     1315
+    ]
+   },
+   "head": [
+    58,
+    1018,
+    327,
+    1288
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     447,
+     695,
+     879,
+     1316
+    ]
+   },
+   "head": [
+    57,
+    1019,
+    327,
+    1289
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     447,
+     695,
+     880,
+     1316
+    ]
+   },
+   "head": [
+    56,
+    1020,
+    326,
+    1290
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     447,
+     695,
+     880,
+     1317
+    ]
+   },
+   "head": [
+    55,
+    1020,
+    326,
+    1291
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     448,
+     694,
+     881,
+     1317
+    ]
+   },
+   "head": [
+    54,
+    1021,
+    325,
+    1292
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     448,
+     694,
+     882,
+     1317
+    ]
+   },
+   "head": [
+    53,
+    1022,
+    324,
+    1293
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     448,
+     693,
+     883,
+     1318
+    ]
+   },
+   "head": [
+    52,
+    1022,
+    324,
+    1294
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     449,
+     693,
+     884,
+     1318
+    ]
+   },
+   "head": [
+    51,
+    1022,
+    323,
+    1295
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     449,
+     693,
+     885,
+     1319
+    ]
+   },
+   "head": [
+    50,
+    1023,
+    322,
+    1295
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     449,
+     692,
+     886,
+     1319
+    ]
+   },
+   "head": [
+    49,
+    1023,
+    322,
+    1296
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 22.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     449,
+     692,
+     887,
+     1320
+    ]
+   },
+   "head": [
+    48,
+    1023,
+    321,
+    1296
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     450,
+     692,
+     888,
+     1320
+    ]
+   },
+   "head": [
+    47,
+    1023,
+    321,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     450,
+     691,
+     889,
+     1320
+    ]
+   },
+   "head": [
+    46,
+    1023,
+    320,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     450,
+     691,
+     890,
+     1321
+    ]
+   },
+   "head": [
+    45,
+    1023,
+    320,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     451,
+     691,
+     890,
+     1321
+    ]
+   },
+   "head": [
+    44,
+    1022,
+    319,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     451,
+     690,
+     891,
+     1322
+    ]
+   },
+   "head": [
+    43,
+    1022,
+    319,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     451,
+     690,
+     892,
+     1322
+    ]
+   },
+   "head": [
+    43,
+    1021,
+    318,
+    1297
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     451,
+     690,
+     892,
+     1322
+    ]
+   },
+   "head": [
+    42,
+    1021,
+    318,
+    1296
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     451,
+     690,
+     893,
+     1322
+    ]
+   },
+   "head": [
+    41,
+    1020,
+    317,
+    1296
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     689,
+     894,
+     1323
+    ]
+   },
+   "head": [
+    41,
+    1019,
+    317,
+    1295
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 23.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     689,
+     894,
+     1323
+    ]
+   },
+   "head": [
+    40,
+    1019,
+    316,
+    1295
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     689,
+     895,
+     1323
+    ]
+   },
+   "head": [
+    39,
+    1018,
+    316,
+    1294
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     689,
+     895,
+     1323
+    ]
+   },
+   "head": [
+    39,
+    1017,
+    316,
+    1294
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     689,
+     896,
+     1324
+    ]
+   },
+   "head": [
+    38,
+    1016,
+    315,
+    1293
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     452,
+     688,
+     896,
+     1324
+    ]
+   },
+   "head": [
+    38,
+    1016,
+    315,
+    1293
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     453,
+     688,
+     896,
+     1324
+    ]
+   },
+   "head": [
+    38,
+    1015,
+    315,
+    1292
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     453,
+     688,
+     897,
+     1324
+    ]
+   },
+   "head": [
+    37,
+    1014,
+    315,
+    1292
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     453,
+     688,
+     897,
+     1324
+    ]
+   },
+   "head": [
+    37,
+    1014,
+    314,
+    1291
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 6
+  },
+  {
+   "t": 24.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     576,
+     906,
+     921,
+     1405
+    ]
+   },
+   "head": [
+    270,
+    1137,
+    489,
+    1356
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    134,
+    287,
+    866,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 24.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     576,
+     906,
+     921,
+     1405
+    ]
+   },
+   "head": [
+    270,
+    1137,
+    489,
+    1356
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 24.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     577,
+     907,
+     921,
+     1405
+    ]
+   },
+   "head": [
+    271,
+    1138,
+    489,
+    1356
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     577,
+     910,
+     920,
+     1406
+    ]
+   },
+   "head": [
+    271,
+    1139,
+    489,
+    1357
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     578,
+     912,
+     919,
+     1407
+    ]
+   },
+   "head": [
+    272,
+    1141,
+    489,
+    1358
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     578,
+     916,
+     918,
+     1408
+    ]
+   },
+   "head": [
+    273,
+    1143,
+    490,
+    1359
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     579,
+     920,
+     917,
+     1409
+    ]
+   },
+   "head": [
+    275,
+    1146,
+    490,
+    1361
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     580,
+     925,
+     916,
+     1411
+    ]
+   },
+   "head": [
+    276,
+    1149,
+    490,
+    1363
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     581,
+     930,
+     914,
+     1412
+    ]
+   },
+   "head": [
+    278,
+    1152,
+    490,
+    1365
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     582,
+     935,
+     913,
+     1414
+    ]
+   },
+   "head": [
+    280,
+    1156,
+    491,
+    1367
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     583,
+     941,
+     911,
+     1416
+    ]
+   },
+   "head": [
+    282,
+    1160,
+    491,
+    1370
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     584,
+     947,
+     909,
+     1418
+    ]
+   },
+   "head": [
+    283,
+    1165,
+    492,
+    1373
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 25.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     585,
+     953,
+     908,
+     1419
+    ]
+   },
+   "head": [
+    285,
+    1169,
+    492,
+    1375
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     586,
+     958,
+     906,
+     1421
+    ]
+   },
+   "head": [
+    287,
+    1173,
+    492,
+    1378
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     587,
+     964,
+     905,
+     1423
+    ]
+   },
+   "head": [
+    289,
+    1177,
+    493,
+    1381
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     588,
+     970,
+     903,
+     1425
+    ]
+   },
+   "head": [
+    291,
+    1182,
+    493,
+    1384
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     589,
+     975,
+     901,
+     1426
+    ]
+   },
+   "head": [
+    293,
+    1186,
+    493,
+    1386
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     590,
+     979,
+     900,
+     1428
+    ]
+   },
+   "head": [
+    294,
+    1189,
+    494,
+    1389
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 0,
+   "shot": 7
+  },
+  {
+   "t": 26.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     590,
+     984,
+     899,
+     1429
+    ]
+   },
+   "head": [
+    296,
+    1193,
+    494,
+    1391
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": null,
+   "captionText": null,
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     591,
+     988,
+     898,
+     1430
+    ]
+   },
+   "head": [
+    297,
+    1196,
+    494,
+    1393
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    104,
+    281,
+    896,
+    459
+   ],
+   "captionText": [
+    187,
+    288,
+    813,
+    452
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     592,
+     991,
+     897,
+     1431
+    ]
+   },
+   "head": [
+    298,
+    1199,
+    495,
+    1395
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     592,
+     994,
+     896,
+     1432
+    ]
+   },
+   "head": [
+    299,
+    1201,
+    495,
+    1397
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 26.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     996,
+     895,
+     1433
+    ]
+   },
+   "head": [
+    300,
+    1203,
+    495,
+    1398
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     998,
+     895,
+     1433
+    ]
+   },
+   "head": [
+    301,
+    1205,
+    495,
+    1399
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     895,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1206,
+    495,
+    1400
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     894,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1206,
+    495,
+    1400
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     894,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1206,
+    495,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     895,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    495,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     895,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    495,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     593,
+     999,
+     895,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    495,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     594,
+     999,
+     895,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    495,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     594,
+     999,
+     896,
+     1434
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    496,
+    1401
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 27.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     594,
+     999,
+     896,
+     1435
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    496,
+    1402
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     595,
+     999,
+     897,
+     1435
+    ]
+   },
+   "head": [
+    301,
+    1207,
+    495,
+    1402
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     595,
+     999,
+     898,
+     1436
+    ]
+   },
+   "head": [
+    300,
+    1207,
+    495,
+    1402
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     596,
+     999,
+     899,
+     1436
+    ]
+   },
+   "head": [
+    300,
+    1207,
+    495,
+    1402
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     597,
+     999,
+     900,
+     1437
+    ]
+   },
+   "head": [
+    300,
+    1207,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     597,
+     999,
+     902,
+     1437
+    ]
+   },
+   "head": [
+    299,
+    1207,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     598,
+     999,
+     903,
+     1438
+    ]
+   },
+   "head": [
+    299,
+    1207,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     599,
+     999,
+     904,
+     1439
+    ]
+   },
+   "head": [
+    299,
+    1207,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     600,
+     999,
+     906,
+     1439
+    ]
+   },
+   "head": [
+    298,
+    1207,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     601,
+     999,
+     907,
+     1440
+    ]
+   },
+   "head": [
+    298,
+    1206,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 28.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     601,
+     999,
+     908,
+     1441
+    ]
+   },
+   "head": [
+    298,
+    1206,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     602,
+     999,
+     909,
+     1441
+    ]
+   },
+   "head": [
+    297,
+    1206,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.1,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     603,
+     999,
+     910,
+     1442
+    ]
+   },
+   "head": [
+    297,
+    1206,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.2,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     603,
+     999,
+     911,
+     1442
+    ]
+   },
+   "head": [
+    297,
+    1206,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.3,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     604,
+     999,
+     912,
+     1443
+    ]
+   },
+   "head": [
+    297,
+    1205,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.4,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     604,
+     999,
+     913,
+     1443
+    ]
+   },
+   "head": [
+    296,
+    1205,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.5,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     605,
+     999,
+     913,
+     1443
+    ]
+   },
+   "head": [
+    296,
+    1205,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.6,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     605,
+     999,
+     914,
+     1444
+    ]
+   },
+   "head": [
+    296,
+    1205,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.7,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     605,
+     999,
+     914,
+     1444
+    ]
+   },
+   "head": [
+    296,
+    1205,
+    495,
+    1404
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.8,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     605,
+     999,
+     914,
+     1444
+    ]
+   },
+   "head": [
+    296,
+    1204,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  },
+  {
+   "t": 29.9,
+   "card": null,
+   "crucial": {
+    "card": null,
+    "message": [
+     605,
+     999,
+     914,
+     1444
+    ]
+   },
+   "head": [
+    296,
+    1204,
+    495,
+    1403
+   ],
+   "mateHead": null,
+   "desk": null,
+   "caption": [
+    100,
+    280,
+    900,
+    460
+   ],
+   "captionText": [
+    185,
+    287,
+    815,
+    453
+   ],
+   "captionLines": 2,
+   "shot": 7
+  }
+ ]
+}

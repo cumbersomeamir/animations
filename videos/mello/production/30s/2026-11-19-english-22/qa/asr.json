@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Too hard on yourself? After an awkward message, the replay can get harsh. In one experiment, people who took a kind, understanding view of something they regretted felt more motivated to make amends. In another, after failing a test, they studied longer. Kindness led to more effort, not less. So answer the replay kindly, then take one calm step, like a short apology. Take a mindful break with Mello.",
+  "transcript": "Too hard on yourself. After an awkward message, the replay can get harsh. In one experiment, people who took a kind, understanding view of something they regretted felt more motivated to make amends. In another, after failing a test, they studied longer. Kindness led to more effort, not less. So answer the replay kindly, then take one calm step, like a short apology. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.219,
+      "text": "Too hard on yourself.",
+      "cer": 0.0
+    },
+    {
+      "id": "super",
+      "start": 1.65,
+      "end": 4.544,
+      "text": "After an awkward message, the replay can get harsh.",
+      "cer": 0.0
+    },
+    {
+      "id": "p1",
+      "start": 5.0,
+      "end": 12.424,
+      "text": "In one experiment, people who took a kind, understanding view of something they regretted felt more motivated to make amends.",
+      "cer": 0.0
+    },
+    {
+      "id": "p2",
+      "start": 12.95,
+      "end": 15.695,
+      "text": "In another, after failing a test, they studied longer.",
+      "cer": 0.0
+    },
+    {
+      "id": "why",
+      "start": 16.25,
+      "end": 18.309,
+      "text": "Kindness led to more effort, not less.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 19.6,
+      "end": 24.36,
+      "text": "So answer the replay kindly, then take one calm step, like a short apology.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

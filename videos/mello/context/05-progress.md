@@ -786,3 +786,37 @@ Episode record: `31-episode-sharing-good-news.md`. The same live feedback is app
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-22, 2026-11-19: episode english22-01 "too hard on yourself?" (self-compassion after a mistake, English)
+Episode record: `32-episode-self-compassion.md`. The same live feedback is applied (store palette + soothing bed). New durable caption rule: `10-format-and-style-rules.md` section 10 (captions inside x 100–900, y 280–460).
+
+## Verified facts (this round)
+- The proposed topic (talk to yourself as if advising a friend; third-person self-talk, "What should Alex do next?") is english14-01 (`24`): self-distancing, own-name self-talk, "Alex, what would you tell a friend?". A genuinely different subject was chosen: self-compassion after a mistake.
+- Source (PubMed abstract; full text closed access): Breines & Chen 2012 (*PSPB*, PMID 22645164). Compared with a self-esteem control and a no-intervention or positive-distraction control, self-compassion led to:
+  - more motivation to make amends (Exp 2);
+  - more time studying after an initial failure (Exp 3).
+
+## Creative decisions (this round)
+- English only, 69 words.
+- **New character:** lilac figure, indigo bun, gold scarf.
+- **Frame 0:** she stands small inside her own huge outlined thought, with racing scribbles around her; caption "Too hard / on yourself?". The brief's words "BORROW YOUR OWN ADVICE" were dropped because they name the swapped-out technique; the brief's image is kept.
+- **Story:** the snippy message → a dark card (amends, then study time; direction only) → the thought shrinks and softens → she types and sends a short apology.
+- **Audio and thumbnail:** `BED_GAIN` 0.36 (13.0 dB). Thumbnail "TOO HARD ON / YOURSELF?".
+
+## Completed (this round)
+- Final (render 2): `videos/mello/production/30s/2026-11-19-english-22/mello-30s-english22-01.mp4`
+  - sha256 `7b01d3bfbda895f08dbb53f67dc5e81fd16af8cfac4f3ee818b2f29920a6a8b3`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 17/17 checks passed (`production/30s/2026-11-19-english-22/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.0 dBTP;
+  - six cuts on plan; no non-cut jump;
+  - 0 safe-zone issues;
+  - English ASR CER 0.000 / WER 0.000.
+- Render 1 passed the automated checks but strobed at 3.1–3.6 s (a scribble phase jump) and had framing faults. All were fixed; `qa.py` gained `no_jump_between_cuts`.
+- Commands: `production/30s/2026-11-19-english-22/notes/production-notes.md`.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The hook was transcribed with a full stop; whether it sounds like a question needs a human ear. The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.

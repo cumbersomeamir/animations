@@ -35,7 +35,8 @@ The source is a copy of `../../2026-11-18-english-21/project/` (renderer, audit,
    - **"fine. whatever." bubble** clipped its last letter and the full stop. Fix: the bubble is sized to the measured text (78 px).
    - **S6:** only a cut-off sliver of the small cloud showed at the top-left edge. Fix: the cloud and soft balls are hidden in S6, and the camera target moves 4 cm toward her.
    - **S7:** the small cloud's left lobes were cut by the frame edge. Fix: its resting place moved 0.14 m toward her (`BUBBLE_SMALL` x −0.34 → −0.2), and it now fades before the lock-up (25.4–26.1 s) instead of during it.
-5. **Render 2** (this file): see `../qa/QA.md`.
+5. **Render 2** (this file): all 17 checks passed (`no_jump_between_cuts` added to `qa.py`). The largest non-cut frame change is 12.6, and the six largest changes are the six cuts. See `../qa/QA.md`.
+6. **Thumbnail:** at 160 px the words "TOO HARD ON" crossed the cloud outline. They are now 124 px / 150 px at top 300, on the cloud's white fill.
 
 ## Commands
 ```bash

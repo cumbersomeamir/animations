@@ -83,4 +83,20 @@ How the script uses it (measured / gloss / advice / illustrative):
 - **S7, 24.7–30:** wider and calm, the small, soft thought above her (it fades over 25.4–26.1 s); lock-up from 26.3 s.
 
 ## Result
-(filled in after the final render; see below)
+- Final (render 2): `videos/mello/production/30s/2026-11-19-english-22/mello-30s-english22-01.mp4`
+  - sha256 `7b01d3bfbda895f08dbb53f67dc5e81fd16af8cfac4f3ee818b2f29920a6a8b3`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `mello-30s-english22-01-thumbnail.png`, sha256 `18439afe4f1559935e642d102bdc92f376f4fbdac2bc08cd702ac36825713294`.
+- QA: 17/17 (`production/30s/2026-11-19-english-22/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.0 dBTP;
+  - six cuts on plan, and no non-cut jump (12.6 max vs 17.8 softest cut);
+  - 0 safe-zone issues in 300 samples (captions inside x 100–900, y 280–460);
+  - ASR CER 0.000 / WER 0.000.
+- Render 1 passed the 16 automated checks then in use, but frame review found a scribble phase jump (strobing at 3.1–3.6 s), a blinking arrow and framing faults. All were fixed in render 2.
+- No listen-through (ASR and measurements only). ASR punctuated the hook as a statement; whether it sounds like a question needs a human ear.
+
+## Skill / scene adjustments for future episodes
+- **Never multiply absolute time by a changing speed** (`a = t × speed(t)`): when the speed ramps, the angle jumps. Integrate the speed into a phase. `qa.py` now has `no_jump_between_cuts`: no change between cuts may be as large as the softest planned cut.
+- **Passing automated checks is not enough:** look at frame strips around every beat where motion speeds up, and around every element that animates in.
+- **Text bubbles on canvases:** size the bubble from `measureText`, never a fixed width.
+- **Captions over a big outlined prop:** keep the outline out of the caption band (here the cloud sits higher in S1 so the words read on its white fill). Check the thumbnail's larger words separately.
