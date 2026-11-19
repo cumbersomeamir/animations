@@ -77,6 +77,15 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
   - **Brief form for WastePaisa:** realistic business economics with the simple open-can mascot and a clean script.
   - Applied first in english-20 (temple flowers → dhoop cones).
 
+- **BRIEF LAYOUT RULES (2026-11-19, batch22; WastePaisa):**
+  - Upper captions sit in **y ~280–460** at 1080×1920, below the platform account UI. The caption centre is y 375 (was 430); ink is
+    ~288–462 with 2 lines.
+  - Captions keep horizontal margins (x 100–900).
+  - At most one short headline besides the current spoken caption; diagram labels are revealed sequentially.
+  - Keep vital information away from the right-side and bottom platform controls (right rail roughly x > 900, y 900–1700); price tags
+    and labels sit left of it.
+  - Comfortable pacing, beat-synced accents and strong foreground depth.
+
 ## User feedback log (latest overrides earlier)
 - **batch-02 (2026-11-02):** "Keep the open-lid can mascot, simplified to one clear cylinder, lid, eyes and two
   limbs; no bolts or complicated rig." "Paper-cut scrap shop unfolds into sorting tray, shredder, furnace
@@ -159,6 +168,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     pallet repair business; PIB 2024 Ujjain proof; assumed batch with labour, unsold packs and a price lever).
     Scrap bicycles sorted, repaired or stripped for parts, and resold (english-21; replaced a proposed broken-terracotta mosaic planter that
     repeated english-17's broken-ceramic mosaic; FPJ 2024 Mumbai proof; assumed batch with buying, parts, labour and scrap back).
+    Coconut shell into a hanging planter (english-22; kept: english-06 sold shells for charcoal, a different product; PIB 2026 and
+    Onmanorama 2023 proof; assumed unit with revenue vs margin shown separately).
   - **Counters:** pop the final rounded figure (e.g. ≈3,000) instead of counting up, so no frame shows an invented exact number
     (english-16 '≈0 MILLION', english-19 '≈2,989').
   - **Never insert a `//` comment mid-line in scene code;** use `/* */` (english-14 and english-19 both broke a line this way).

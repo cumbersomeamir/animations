@@ -1,0 +1,122 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "Trash with a buyer.",
+   "heard": "trash with a buyer",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 1.066,
+   "heard_off": 1.05,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "India grows about twenty billion coconuts a year. Which shells sell?",
+   "heard": "india grows about twenty billion coconuts a year which shall sell",
+   "word_acc": 0.909,
+   "plan_on": 1.37,
+   "heard_on": 1.37,
+   "plan_off": 5.286,
+   "heard_off": 5.27,
+   "missed": [
+    [
+     "shells"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "A Kerala shell craft firm exported forty thousand pieces to Denmark.",
+   "heard": "a careless shell craft from exported forty thousand pieces to denmark",
+   "word_acc": 0.818,
+   "plan_on": 5.58,
+   "heard_on": 5.61,
+   "plan_off": 9.761,
+   "heard_off": 9.78,
+   "missed": [
+    [
+     "kerala"
+    ],
+    [
+     "firm"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Sand an uncracked half, polish it with coconut oil, drill a drain, add a rope.",
+   "heard": "sand and untracked half polish it with coconut oil driller drain add a rope",
+   "word_acc": 0.733,
+   "plan_on": 10.06,
+   "heard_on": 10.06,
+   "plan_off": 14.733,
+   "heard_off": 14.77,
+   "missed": [
+    [
+     "an",
+     "uncracked"
+    ],
+    [
+     "drill",
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "A plant shop pays a hundred and ninety-nine rupees: revenue, not profit.",
+   "heard": "a plant shop pays one hundred and ninety nine rupees revenue not profit",
+   "word_acc": 0.923,
+   "plan_on": 15.04,
+   "heard_on": 15.07,
+   "plan_off": 19.584,
+   "heard_off": 19.57,
+   "missed": [
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "After shell, oil, rope, tools and labor, about seventy rupees is left.",
+   "heard": "after shell oil rope tools and labor about seventy rupees is left",
+   "word_acc": 1.0,
+   "plan_on": 19.88,
+   "heard_on": 19.88,
+   "plan_off": 24.424,
+   "heard_off": 24.41,
+   "missed": []
+  },
+  {
+   "id": "L7",
+   "ref": "The finish is what the buyer pays for.",
+   "heard": "the finish is what the buyer pays for",
+   "word_acc": 1.0,
+   "plan_on": 24.72,
+   "heard_on": 24.69,
+   "plan_off": 26.718,
+   "heard_off": 26.73,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

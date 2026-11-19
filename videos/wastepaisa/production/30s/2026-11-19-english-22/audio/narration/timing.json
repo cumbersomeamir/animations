@@ -1,0 +1,78 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 27.307,
+  "words": 74,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Trash with a buyer.",
+      "start": 0.1,
+      "phonemes": "tɹˈæʃ wɪð ɐ bˈaɪɚ.",
+      "duration": 0.966,
+      "end": 1.066
+    },
+    {
+      "id": "L2",
+      "text": "India grows about 20 billion coconuts a year. Which shells sell?",
+      "tts": "India grows about twenty billion coconuts a year. Which shells sell?",
+      "start": 1.37,
+      "phonemes": "ˈɪndiə ɡɹˈoʊz ɐbˌaʊt twˈɛnti bˈɪliən kˈoʊkənˌʌts ɐ jˈɪɹ. wˌɪtʃ ʃˈɛlz sˈɛl?",
+      "duration": 3.916,
+      "end": 5.286
+    },
+    {
+      "id": "L3",
+      "text": "A Kerala shell-craft firm exported 40,000 pieces to Denmark.",
+      "tts": "A Kerala shell craft firm exported forty thousand pieces to Denmark.",
+      "start": 5.58,
+      "phonemes": "ɐ kˈɛɹələ ʃˈɛl kɹˈæft fˈɜːm ɛkspˈɔːɹɾᵻd fˈɔːɹɾi θˈaʊzənd pˈiːsᵻz tə dˈɛnmɑːɹk.",
+      "duration": 4.181,
+      "end": 9.761
+    },
+    {
+      "id": "L4",
+      "text": "Sand an uncracked half, polish it with coconut oil, drill a drain, add a rope.",
+      "start": 10.06,
+      "phonemes": "sˈænd ɐn ʌŋkɹˈækt hˈæf, pˈɑːlɪʃ ɪt wɪð kˈoʊkənˌʌt ˈɔɪl, dɹˈɪl ɐ dɹˈeɪn, ˈæd ɐ ɹˈoʊp.",
+      "duration": 4.673,
+      "end": 14.733
+    },
+    {
+      "id": "L5",
+      "text": "A plant shop pays ₹199: revenue, not profit.",
+      "tts": "A plant shop pays a hundred and ninety-nine rupees: revenue, not profit.",
+      "start": 15.04,
+      "phonemes": "ɐ plˈænt ʃˈɑːp pˈeɪz ɐ hˈʌndɹɪd ænd nˈaɪntinˈaɪn ɹˈuːpiːz: ɹˈɛvənˌuː, nˌɑːt pɹˈɑːfɪt.",
+      "duration": 4.544,
+      "end": 19.584
+    },
+    {
+      "id": "L6",
+      "text": "After shell, oil, rope, tools and labour, about ₹70 is left.",
+      "tts": "After shell, oil, rope, tools and labor, about seventy rupees is left.",
+      "start": 19.88,
+      "phonemes": "ˈæftɚ ʃˈɛl, ˈɔɪl, ɹˈoʊp, tˈuːlz ænd lˈeɪbɚ, ɐbˌaʊt sˈɛvənti ɹˈuːpiːz ɪz lˈɛft.",
+      "duration": 4.544,
+      "end": 24.424
+    },
+    {
+      "id": "L7",
+      "text": "The finish is what the buyer pays for.",
+      "start": 24.72,
+      "phonemes": "ðə fˈɪnɪʃ ɪz wʌt ðə bˈaɪɚ pˈeɪz fɔːɹ.",
+      "duration": 1.998,
+      "end": 26.718
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

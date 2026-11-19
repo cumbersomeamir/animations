@@ -1,0 +1,26 @@
+English intelligibility and timing evidence: wastepaisa-30s-english22-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.09 | offset plan 1.07 heard 1.05 | heard: trash with a buyer
+   L2 word acc 0.91 | onset plan 1.37 heard 1.37 | offset plan 5.29 heard 5.27 | heard: india grows about twenty billion coconuts a year which shall sell
+   L3 word acc 0.82 | onset plan 5.58 heard 5.61 | offset plan 9.76 heard 9.78 | heard: a careless shell craft from exported forty thousand pieces to denmark
+   L4 word acc 0.73 | onset plan 10.06 heard 10.06 | offset plan 14.73 heard 14.77 | heard: sand and untracked half polish it with coconut oil driller drain add a rope
+   L5 word acc 0.92 | onset plan 15.04 heard 15.07 | offset plan 19.58 heard 19.57 | heard: a plant shop pays one hundred and ninety nine rupees revenue not profit
+   L6 word acc 1.00 | onset plan 19.88 heard 19.88 | offset plan 24.42 heard 24.41 | heard: after shell oil rope tools and labor about seventy rupees is left
+   L7 word acc 1.00 | onset plan 24.72 heard 24.69 | offset plan 26.72 heard 26.73 | heard: the finish is what the buyer pays for
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.909; every onset/offset within 0.04 s of plan (full record in qa/asr-english-vosk.json)
+   Misses are near-homophones and out-of-vocabulary words: shells -> "shall", Kerala -> "careless", firm -> "from",
+   "an uncracked" -> "and untracked", "drill a" -> "driller", "a hundred" -> "one hundred"; the brand is out of vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   Trash with a buyer. India grows about 20 billion coconuts a year, which shells sell. A Kerala Shellcraft firm exported 40,000 pieces to Denmark. Sand an uncracked half, polish it with coconut oil, drill a drain, add a rope. A plant shop pays 199 rupees. Revenue, not profit. After shell, oil, rope, tools and labor, about 70 rupees is left. The finish is what the buyer pays for. Join Waste PISAW and put your scrap to use.
+   Matches the script word for word apart from the brand spelling (and "shell-craft" written as one word).
+
+3) Draft-stage fix found by ASR: "Sold to a plant shop at ₹199, that's revenue, not profit" was transcribed as "$199"; the line was
+   reworded to "A plant shop pays ₹199: revenue, not profit.", which both engines transcribe as rupees.
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.1 LUFS integrated, true peak -1.5 dBFS, sample peak -1.46 dBFS, flat factor 0
+   (no clipped runs). The shell knock, whoosh, container thud, rope swing, pop, ping and finish gleam all sit between lines (audio/cues.json).

@@ -1,0 +1,308 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Baloo 2'; font-weight: 800; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-800-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+@font-face { font-family: 'Baloo 2'; font-weight: 700; src: url('/education/pilot-01/node_modules/@fontsource/baloo-2/files/baloo-2-devanagari-700-normal.woff2') format('woff2'); unicode-range: U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09; }
+html,body{margin:0;background:#000} canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// WastePaisa english-22 episode 01 "Trash with a buyer." (a discarded coconut shell sanded, oiled, drilled and roped into a hanging planter; English).
+// Accepted 'Scrap Shop X-ray' renderer copied from 2026-11-18-english-21/src/scene.html (round-02 lineage), kept as-is (point-cloud shop,
+// camera grammar, mascot, caption panel and CTA layout). 2026-11-11 feedback changes, plus the 2026-11-19 brief: captions centred at x 500
+// with ink in y ~290-460 (upper safe band below account UI), vital labels kept left of the right-side platform controls.
+// New: coconut-shell props (half shell rough -> sanded -> oiled, drain hole, jute hanger, plant, spotlight wall shadow, coconuts, crates,
+// container) and scene functions; the hook words show from frame 0; labels fade with their scene; counters pop to their final figure.
+// Every frame is a pure function of t.
+const W = 1080, H = 1920, BASE = '/production/30s/2026-11-19-english-22';
+const cv = document.getElementById('c'); const g = cv.getContext('2d');
+const C = { bg: '#07090b', dot: '233,241,242', cyan: '143,211,224', warm: '#f46d12', warmRGB: '244,109,18', cream: '#fef7ee', green: '#1a6535', ink: '#1d130e',
+  tin: '#c4c9cf', tinLight: '#dde1e5', tinDark: '#959ca4', copper: '#d9822b', copperDark: '#a85a1c', alu: '#cfd4da', aluDark: '#8f969e', glove: '#ee7a1e',
+  sheath: '#3a4048', panel: 'rgba(8,10,12,0.74)' };
+const timing = await (await fetch(`${BASE}/audio/narration/timing.json`)).json();
+const icon = new Image(); icon.src = '/assets/icon.png'; await icon.decode();
+await document.fonts.load('800 58px "Baloo 2"'); await document.fonts.load('700 30px "Baloo 2"');
+await document.fonts.load('800 62px "Baloo 2"', 'कबाड़ ₹'); await document.fonts.load('700 40px "Baloo 2"', 'कबाड़ ₹');
+if (!document.fonts.check('800 62px "Baloo 2"', 'कबाड़') || !document.fonts.check('700 40px "Baloo 2"', 'कबाड़')) throw new Error('Devanagari Baloo 2 face not loaded');
+
+// ---------- helpers ----------
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let r = Math.imul(a ^ (a >>> 15), 1 | a); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = (k) => k * k * (3 - 2 * k);
+const easeOut = (k) => 1 - Math.pow(1 - k, 3);
+const back = (k) => { const s = 1.6; return 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+function rr(x, y, w, h, r) { g.beginPath(); g.roundRect(x, y, w, h, r); }
+function textC(s, x, y, size, col, weight = 800) { g.font = `${weight} ${size}px "Baloo 2"`; g.fillStyle = col; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y); }
+function label(s, x, y, a, o = {}) { // short readable label on a dark chip, optional leader line to a point
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; g.font = `700 ${o.size || 32}px "Baloo 2"`; const w = g.measureText(s).width + 36, h = (o.size || 32) + 20;
+  if (o.to) { g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.8)'; g.lineWidth = 3; g.beginPath(); g.moveTo(x, y); g.lineTo(o.to[0], o.to[1]); g.stroke(); g.beginPath(); g.arc(o.to[0], o.to[1], 7, 0, 7); g.fillStyle = o.warm ? C.warm : C.cream; g.fill(); }
+  rr(x - w / 2, y - h / 2, w, h, h / 2); g.fillStyle = o.warm ? C.warm : 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = o.warm ? C.warm : 'rgba(254,247,238,0.35)'; g.lineWidth = 2; g.stroke();
+  g.fillStyle = o.warm ? '#1d130e' : C.cream; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(s, x, y + 2); g.restore();
+}
+
+// ---------- point-cloud scrap shop (world space, seeded once, never re-randomised) ----------
+const PTS = [];
+function line3(a, b, step, warm = false, cyan = false) { const d = Math.hypot(b[0] - a[0], b[1] - a[1], b[2] - a[2]); const n = Math.max(2, Math.round(d / step));
+  for (let i = 0; i <= n; i++) { const u = i / n; PTS.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, warm ? 2 : cyan ? 1 : 0]); } }
+function box3(x0, y0, z0, x1, y1, z1, step, warm, cyan) { const P = [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]];
+  [[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]].forEach(([i, j]) => line3(P[i], P[j], step, warm, cyan)); }
+function coil3(cx, cy, z, r, step) { const n = Math.round(2 * Math.PI * r / step); for (let k = 0; k < 2; k++) for (let i = 0; i < n; i++) { const a = i / n * 6.283; PTS.push([cx + Math.cos(a) * (r - k * 0.05), cy + Math.sin(a) * (r - k * 0.05), z, 1]); } }
+(() => {
+  const S = 0.075;
+  for (let x = -4.5; x <= 4.5; x += 1.0) line3([x, 0, -1.5], [x, 0, -9], S * 1.4); // floor plan grid
+  for (let z = -1.5; z >= -9; z -= 1.0) line3([-4.5, 0, z], [4.5, 0, z], S * 1.4);
+  box3(-4.5, 0, -9, 4.5, 3.4, -9, S); // back wall outline
+  for (const side of [-1, 1]) { const xa = side * 1.7, xb = side * 4.2; // shelving units with scrap on them
+    for (const y of [0.05, 0.75, 1.45, 2.15, 2.85]) line3([Math.min(xa, xb), y, -7.6], [Math.max(xa, xb), y, -7.6], S), line3([Math.min(xa, xb), y, -6.9], [Math.max(xa, xb), y, -6.9], S);
+    for (const x of [xa, (xa + xb) / 2, xb]) line3([x, 0, -7.6], [x, 2.85, -7.6], S), line3([x, 0, -6.9], [x, 2.85, -6.9], S);
+    const r = rng(side > 0 ? 7 : 9);
+    for (const y of [0.05, 0.75, 1.45, 2.15]) for (let i = 0; i < 3; i++) { const x = Math.min(xa, xb) + 0.4 + i * 0.8 + r() * 0.2;
+      if (r() < 0.5) coil3(x, y + 0.28, -7.25, 0.24, S * 0.8); else box3(x - 0.25, y, -7.5, x + 0.25, y + 0.45, -7.0, S); } }
+  box3(-2.3, 0, -3.6, 2.3, 1.0, -2.6, S * 0.9); // the X-ray counter (warm top edge = the small accent)
+  line3([-2.3, 1.0, -2.6], [2.3, 1.0, -2.6], S * 0.5, true); line3([-2.3, 1.0, -3.6], [2.3, 1.0, -3.6], S * 0.5, true);
+  box3(-0.4, 3.0, -4.6, 0.4, 3.1, -4.2, S * 0.6, true); // hanging scan lamp
+})();
+const CAM = [[0, [0, 1.95, 3.6]], [1.25, [0, 1.6, 2.4]], [5.45, [0.25, 1.5, 2.0]], [9.95, [0, 1.85, 3.1]], [14.9, [-0.3, 1.7, 2.6]], [19.75, [0, 2.35, 3.7]], [24.55, [0, 2.0, 3.2]], [27.0, [0, 2.05, 5.0]], [30, [0, 2.05, 5.5]]]; // same moves, re-timed to this episode
+function camAt(t) { for (let i = 1; i < CAM.length; i++) if (t <= CAM[i][0]) { const [ta, a] = CAM[i - 1], [tb, b] = CAM[i]; const k = ease(clamp((t - ta) / (tb - ta))); return a.map((v, j) => lerp(v, b[j], k)); } return CAM[CAM.length - 1][1]; }
+function pointCloud(t, dim) {
+  const [cx, cy, cz] = camAt(t), f = 1050;
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const vg = g.createRadialGradient(W / 2, H * 0.55, 100, W / 2, H * 0.55, 1200); vg.addColorStop(0, 'rgba(30,40,46,0.55)'); vg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  for (const [x, y, z, k] of PTS) {
+    const d = cz - z; if (d < 0.4) continue;
+    const sx = W / 2 + f * (x - cx) / d, sy = H * 0.56 - f * (y - cy) / d;
+    if (sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) continue;
+    const a = clamp(3.4 / d, 0.24, 0.85) * dim, r = clamp(4.2 / d + 0.9, 1.2, 2.7);
+    g.fillStyle = k === 2 ? `rgba(${C.warmRGB},${Math.min(1, a * 1.6)})` : k === 1 ? `rgba(${C.cyan},${a})` : `rgba(${C.dot},${a * 0.8})`;
+    g.beginPath(); g.arc(sx, sy, r, 0, 6.283); g.fill();
+  }
+}
+
+// ---------- the accepted simplified open-lid can mascot (cylinder, lid, two eyes, two arms) ----------
+function mascot(x, base, s, p) {
+  const bw = 170 * s, bh = 215 * s, X = x, Y = base - (p.hop || 0), top = Y - bh;
+  const shoulder = (side) => [X + side * bw / 2, top + bh * 0.56];
+  const hand = (side, a) => { const [sx, sy] = shoulder(side); return [sx + Math.cos(a[0]) * a[1] * s * side, sy + Math.sin(a[0]) * a[1] * s]; };
+  const arm = (side, a, white) => { const [sx, sy] = shoulder(side), [hx, hy] = hand(side, a); g.beginPath(); g.moveTo(sx, sy);
+    g.quadraticCurveTo(sx + side * 40 * s, (sy + hy) / 2 + 30 * s, hx, hy); g.strokeStyle = white ? '#fff6e8' : '#c47a42'; g.lineWidth = (white ? 24 : 11) * s; g.lineCap = 'round'; g.stroke();
+    g.beginPath(); g.arc(hx, hy, (white ? 25 : 17) * s, 0, 7); g.fillStyle = white ? '#fff6e8' : C.glove; g.fill(); };
+  const lidA = p.lid ?? -0.5;
+  const drawLid = (white) => { g.save(); g.translate(X - bw * 0.06, top - 4 * s); g.rotate(lidA); g.beginPath(); g.ellipse(0, -bw * 0.42, bw * 0.47 + (white ? 10 : 0), bw * 0.47 + (white ? 10 : 0), 0, 0, 7); g.fillStyle = white ? '#fff6e8' : C.tinLight; g.fill();
+    if (!white) { g.strokeStyle = C.tinDark; g.lineWidth = 6 * s; g.stroke(); } g.restore(); };
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 14 * s; g.shadowBlur = 24 * s;
+  drawLid(true); arm(-1, p.armR, true); arm(1, p.armL, true); rr(X - bw / 2 - 10 * s, top - 14 * s, bw + 20 * s, bh + 24 * s, 26 * s); g.fillStyle = '#fff6e8'; g.fill();
+  g.shadowColor = 'transparent'; drawLid(false);
+  rr(X - bw / 2, top, bw, bh, 18 * s); g.fillStyle = C.tin; g.fill();
+  g.fillStyle = C.tinLight; g.fillRect(X - bw / 2 + 12 * s, top + 6 * s, 22 * s, bh - 12 * s); g.fillStyle = 'rgba(0,0,0,0.12)'; g.fillRect(X + bw / 2 - 30 * s, top + 6 * s, 22 * s, bh - 12 * s);
+  g.beginPath(); g.ellipse(X, top + 3 * s, bw / 2 - 4 * s, 13 * s, 0, 0, 7); g.fillStyle = C.tinDark; g.fill(); g.beginPath(); g.ellipse(X, top + 5 * s, bw / 2 - 16 * s, 8 * s, 0, 0, 7); g.fillStyle = '#5c6168'; g.fill();
+  const ly = top + bh * 0.52; g.fillStyle = C.cream; g.fillRect(X - bw / 2, ly, bw, bh * 0.34); g.fillStyle = C.warm; g.fillRect(X - bw / 2, ly, bw, 10 * s); g.fillStyle = C.green; g.fillRect(X - bw / 2, ly + bh * 0.34 - 7 * s, bw, 7 * s);
+  for (const side of [-1, 1]) { const ex = X + side * bw * 0.22, ey = top + bh * 0.3; g.beginPath(); g.ellipse(ex, ey, 27 * s, 30 * s, 0, 0, 7); g.fillStyle = '#fffaf0'; g.fill();
+    const [lx, lyy] = p.look || [0, 0]; g.beginPath(); g.arc(ex + lx * 9 * s, ey + lyy * 9 * s, 12 * s, 0, 7); g.fillStyle = C.ink; g.fill(); g.beginPath(); g.arc(ex + lx * 9 * s + 4 * s, ey + lyy * 9 * s - 5 * s, 3.5 * s, 0, 7); g.fillStyle = '#fff'; g.fill();
+    if (p.blink) { g.fillStyle = C.tin; g.fillRect(ex - 30 * s, ey - 32 * s, 60 * s, 62 * s * p.blink); }
+    if (p.stern) { g.strokeStyle = C.ink; g.lineWidth = 6 * s; g.beginPath(); g.moveTo(ex - 22 * s, ey - 38 * s - side * 6 * s); g.lineTo(ex + 22 * s, ey - 38 * s + side * 6 * s); g.stroke(); } }
+  arm(-1, p.armR, false); arm(1, p.armL, false);
+  g.restore();
+  return { hand: (side) => hand(side, side > 0 ? p.armL : p.armR) };
+}
+
+// ---------- shared props ----------
+function xrayClip(x0, y0, x1, y1, reveal, draw) { // draw() inside the part of the box the scan has passed, plus scan bar
+  if (reveal <= 0) return; const rx = x0 + (x1 - x0) * reveal; g.save(); g.beginPath(); g.rect(x0, y0, rx - x0, y1 - y0); g.clip(); draw(); g.restore();
+  if (reveal < 1) { g.fillStyle = 'rgba(143,211,224,0.35)'; g.fillRect(rx - 10, y0, 20, y1 - y0); g.fillStyle = 'rgba(200,240,250,0.95)'; g.fillRect(rx - 2, y0, 4, y1 - y0); }
+}
+function ticket(x, y, rot, title, value, a, w = 320) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(rot); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 10; g.shadowBlur = 18;
+  rr(-w / 2, -96, w, 192, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; g.beginPath(); g.arc(0, -72, 9, 0, 7); g.fillStyle = '#07090b'; g.fill();
+  textC(title, 0, -26, 38, C.ink, 800); textC(value, 0, 40, 62, C.warm, 800); g.restore(); }
+function priceTag(x, y, line1, line2, a, sway = 0) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.rotate(sway); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; rr(-120, -60, 240, 120, 18); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent'; textC(line1, 0, -20, 32, C.ink, 800); textC(line2, 0, 28, 50, C.warm, 800); g.restore(); }
+function stamp(x, y, text, k, rot = -0.12, size = 48) { if (k <= 0) return; const kk = back(k); g.save(); g.translate(x, y); g.rotate(rot); g.scale(kk, kk); g.font = `800 ${size}px "Baloo 2"`; const w = g.measureText(text).width + 44;
+  rr(-w / 2, -size * 0.75, w, size * 1.5, 14); g.fillStyle = 'rgba(18,22,26,0.85)'; g.fill(); g.strokeStyle = C.warm; g.lineWidth = 5; g.stroke(); textC(text, 0, 4, size, C.warm, 800); g.restore(); }
+const fly = (x0, y0, x1, y1, k, arc = 120) => [lerp(x0, x1, k), lerp(y0, y1, k) - Math.sin(Math.PI * k) * arc];
+// ---------- coconut-shell props (solid foreground objects): half shell (rough -> sanded -> oiled), drain hole, jute hanger, plant, spotlight wall shadow, coconuts, crates, container, price tag ----------
+const CS = { rough: '#7a5536', fibre: '#a7845c', dark: '#2a160b', polish: '#5a3218', polishHi: '#9a5a2c', inner: '#1d120a', soil: '#3a2a1e', jute: '#c9a86a', leaf: '#3f8f4f', leafHi: '#62b56b', husk: '#6b4a2e' };
+function spot(x, y, r, a = 1) { // soft key light pooling behind the subject (depth + lighting)
+  if (a <= 0) return; g.save(); g.globalAlpha *= a; const gr = g.createRadialGradient(x, y, 10, x, y, r); gr.addColorStop(0, 'rgba(255,236,214,0.16)'); gr.addColorStop(0.55, 'rgba(255,236,214,0.06)'); gr.addColorStop(1, 'rgba(255,236,214,0)');
+  g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r); g.restore(); }
+function plant(x, y, s, k, t = 0) { // trailing leaves growing out of the bowl
+  if (k <= 0) return; const L = [[-0.9, -1.3, 1.0], [-0.3, -1.7, 1.1], [0.35, -1.6, 1.05], [0.95, -1.2, 0.95], [-1.25, -0.2, 0.9], [1.3, 0.1, 0.85], [-0.05, -1.05, 0.9]];
+  g.save(); g.translate(x, y); g.scale(s, s); L.forEach(([u, v, z], i) => { const kk = clamp(k * 1.6 - i * 0.09); if (kk <= 0) return; const sw = Math.sin(t * 1.5 + i) * 0.04;
+    g.save(); g.rotate(Math.atan2(v, u) + Math.PI / 2 + sw); g.scale(kk, kk); g.strokeStyle = '#2f6b3a'; g.lineWidth = 4; g.beginPath(); g.moveTo(0, 0); g.lineTo(0, -60 * z); g.stroke();
+    g.beginPath(); g.ellipse(0, -78 * z, 22 * z, 34 * z, 0, 0, 7); g.fillStyle = i % 2 ? CS.leaf : CS.leafHi; g.fill(); g.strokeStyle = 'rgba(0,0,0,0.18)'; g.lineWidth = 2; g.beginPath(); g.moveTo(0, -48 * z); g.lineTo(0, -108 * z); g.stroke(); g.restore(); });
+  g.restore(); }
+function shell(x, y, r, o = {}) { // half coconut shell, open side up; o.rough 1 = fibrous scrap, 0 = sanded; o.polish 0..1 oil gloss; o.hole; o.rope 0..1; o.plant 0..1; o.crack; o.rot
+  const rough = o.rough ?? 0, pol = o.polish ?? 0, ry = r * 0.3; g.save(); g.translate(x, y); g.rotate(o.rot || 0); g.globalAlpha *= o.a ?? 1;
+  if ((o.rope || 0) > 0) { const k = clamp(o.rope), top = -r * 2.4; g.save(); g.strokeStyle = CS.jute; g.lineWidth = Math.max(3, r * 0.05); g.lineCap = 'round';
+    for (const ax of [-0.86, 0, 0.86]) { g.beginPath(); g.moveTo(ax * r, ax === 0 ? -ry * 0.9 : 0); g.lineTo(lerp(ax * r, 0, k), lerp(0, top, k)); g.stroke(); }
+    if (k > 0.9) { g.beginPath(); g.arc(0, top - r * 0.12, r * 0.12, 0, 7); g.stroke(); g.fillStyle = CS.jute; g.beginPath(); g.arc(0, top + r * 0.05, r * 0.07, 0, 7); g.fill(); } g.restore(); }
+  g.fillStyle = 'rgba(0,0,0,0.35)'; if (!o.hang) { g.beginPath(); g.ellipse(0, r * 0.98, r * 0.85, r * 0.12, 0, 0, 7); g.fill(); }
+  const body = () => { g.beginPath(); g.moveTo(-r, 0); g.bezierCurveTo(-r, r * 0.75, -r * 0.45, r, 0, r); g.bezierCurveTo(r * 0.45, r, r, r * 0.75, r, 0); g.ellipse(0, 0, r, ry, 0, 0, Math.PI, false); g.closePath(); };
+  body(); const gr = g.createLinearGradient(-r, 0, r, r); gr.addColorStop(0, lerpC(CS.rough, CS.polishHi, pol)); gr.addColorStop(0.55, lerpC(CS.rough, CS.polish, pol)); gr.addColorStop(1, lerpC('#4a3220', CS.dark, pol)); g.fillStyle = gr; g.fill();
+  if (rough > 0) { g.save(); body(); g.clip(); const R = rng(9); g.strokeStyle = `rgba(167,132,92,${0.8 * rough})`; g.lineWidth = 2; for (let i = 0; i < 90; i++) { const u = R() * 2 - 1, v = R() * r * 0.95, len = 10 + R() * 22; g.beginPath(); g.moveTo(u * r, v); g.lineTo(u * r + (R() - 0.5) * 8, v + len); g.stroke(); } g.restore(); }
+  if (pol > 0) { g.save(); body(); g.clip(); g.globalAlpha *= pol; const hl = g.createLinearGradient(-r * 0.6, 0, -r * 0.2, r); hl.addColorStop(0, 'rgba(255,240,220,0.0)'); hl.addColorStop(0.5, 'rgba(255,240,220,0.45)'); hl.addColorStop(1, 'rgba(255,240,220,0)'); g.fillStyle = hl; g.fillRect(-r * 0.75, 0, r * 0.4, r); g.restore(); }
+  if (o.hole) { g.beginPath(); g.ellipse(0, r * 0.82, r * 0.07 * o.hole, r * 0.035 * o.hole, 0, 0, 7); g.fillStyle = '#0b0705'; g.fill(); }
+  if (o.crack) { g.save(); g.strokeStyle = '#140b06'; g.lineWidth = 4; g.beginPath(); g.moveTo(r * 0.3, ry * 0.2); g.lineTo(r * 0.42, r * 0.35); g.lineTo(r * 0.33, r * 0.55); g.lineTo(r * 0.45, r * 0.75); g.stroke(); g.restore(); }
+  g.beginPath(); g.ellipse(0, 0, r, ry, 0, 0, 7); g.fillStyle = lerpC('#8a6a4a', '#7a4a26', pol); g.fill(); g.beginPath(); g.ellipse(0, ry * 0.12, r * 0.9, ry * 0.8, 0, 0, 7); g.fillStyle = (o.plant || 0) > 0 ? CS.soil : CS.inner; g.fill();
+  if ((o.plant || 0) > 0) plant(0, ry * 0.1, r / 110, o.plant, o.t || 0);
+  g.restore(); }
+function lerpC(a, b, k) { const p = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16)); const A = p(a), B = p(b); return `rgb(${A.map((v, i) => Math.round(v + (B[i] - v) * k)).join(',')})`; }
+function coconut(x, y, r, a = 1) { if (a <= 0) return; g.save(); g.globalAlpha *= a; g.translate(x, y); g.shadowColor = 'rgba(0,0,0,0.4)'; g.shadowOffsetY = r * 0.15; g.shadowBlur = r * 0.3; g.beginPath(); g.ellipse(0, 0, r, r * 0.92, 0, 0, 7); g.fillStyle = CS.husk; g.fill(); g.shadowColor = 'transparent';
+  const R = rng(Math.round(x + y)); g.strokeStyle = 'rgba(167,132,92,0.6)'; g.lineWidth = 2; for (let i = 0; i < 12; i++) { const a2 = R() * 6.28, d = R() * r * 0.8; g.beginPath(); g.moveTo(Math.cos(a2) * d, Math.sin(a2) * d); g.lineTo(Math.cos(a2) * d + 6, Math.sin(a2) * d + 10); g.stroke(); }
+  g.fillStyle = '#2a1a10'; for (const [u, v] of [[-0.2, -0.45], [0.12, -0.5], [-0.04, -0.28]]) { g.beginPath(); g.arc(u * r, v * r, r * 0.08, 0, 7); g.fill(); } g.restore(); }
+function heroShell(t) { // frame zero: a scrap shell on the floor, lit from low left, casts the shadow of a premium hanging planter on the wall
+  const wall = g.createRadialGradient(470, 1160, 60, 560, 1000, 640); wall.addColorStop(0, 'rgba(255,214,170,0.42)'); wall.addColorStop(0.6, 'rgba(255,190,140,0.14)'); wall.addColorStop(1, 'rgba(255,190,140,0)');
+  g.save(); g.fillStyle = wall; g.fillRect(0, 0, W, H); g.restore();
+  const sw = Math.sin(t * 1.6) * 0.03; g.save(); g.translate(620, 760); g.rotate(sw); g.translate(-620, -760); g.globalAlpha = 0.62; g.filter = 'blur(3px)';
+  const sil = '#1a0f08'; g.strokeStyle = sil; g.fillStyle = sil; g.lineWidth = 9; g.lineCap = 'round'; const cx = 620, cy = 1130, r = 220;
+  for (const ax of [-0.86, 0, 0.86]) { g.beginPath(); g.moveTo(cx + ax * r, cy - (ax === 0 ? 50 : 0)); g.lineTo(cx, cy - r * 2.0); g.stroke(); } g.beginPath(); g.arc(cx, cy - r * 2.0 - 26, 24, 0, 7); g.stroke();
+  g.beginPath(); g.moveTo(cx - r, cy); g.bezierCurveTo(cx - r, cy + r * 0.75, cx - r * 0.45, cy + r, cx, cy + r); g.bezierCurveTo(cx + r * 0.45, cy + r, cx + r, cy + r * 0.75, cx + r, cy); g.closePath(); g.fill();
+  [[-0.9, -1.3, 1.0], [-0.3, -1.7, 1.1], [0.35, -1.6, 1.05], [0.95, -1.2, 0.95], [-1.25, -0.2, 0.9], [1.3, 0.1, 0.85], [-0.05, -1.05, 0.9]].forEach(([u, v, z]) => { g.save(); g.translate(cx, cy); g.scale(2, 2); g.rotate(Math.atan2(v, u) + Math.PI / 2); g.beginPath(); g.ellipse(0, -78 * z, 22 * z, 34 * z, 0, 0, 7); g.fill(); g.lineWidth = 4; g.beginPath(); g.moveTo(0, 0); g.lineTo(0, -60 * z); g.stroke(); g.restore(); });
+  g.restore(); g.filter = 'none';
+  g.save(); const beam = g.createRadialGradient(80, 1700, 20, 80, 1700, 700); beam.addColorStop(0, 'rgba(255,220,170,0.55)'); beam.addColorStop(1, 'rgba(255,220,170,0)'); g.fillStyle = beam; g.beginPath(); g.moveTo(80, 1700); g.lineTo(700, 1260); g.lineTo(560, 1720); g.closePath(); g.fill(); g.restore();
+  g.save(); g.beginPath(); g.arc(80, 1700, 26, 0, 7); g.fillStyle = '#fff4dc'; g.shadowColor = '#ffd9a0'; g.shadowBlur = 40; g.fill(); g.restore();
+  shell(470, 1500, 110, { rough: 1, rot: -0.12 });
+  const tk = clamp(0.4 + prog(t, 0.61, 0.9) * 0.6); if (tk > 0) { g.save(); g.translate(790, 760); g.scale(back(tk), back(tk)); priceTag(0, 0, 'BUYER PAYS', '₹ ?', 1, Math.sin(t * 2.5) * 0.06); g.restore(); } }
+
+// ---------- scenes ----------
+function sHook(t, a) { g.save(); g.globalAlpha = a; heroShell(t); g.restore(); } // 0 - 1.25
+function sScale(t, a) { // 1.25 - 5.45: India grows about 20 billion coconuts a year (PIB 2026); which shells sell? (cracked vs uncracked)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1250, 720); const out = ease(prog(t, 4.0, 4.3));
+  if (out < 1) { g.save(); g.globalAlpha *= 1 - out; const R = rng(21); for (let i = 0; i < 26; i++) { const k = back(prog(t, 1.35 + i * 0.03, 1.6 + i * 0.03)); if (k <= 0) continue; const row = Math.floor(i / 7), c = i % 7; coconut(240 + c * 100 + (row % 2) * 50, 1500 - row * 82, 52 * k); }
+    const nk = back(prog(t, 2.27, 2.6)); if (nk > 0) { g.save(); g.translate(540, 900); g.scale(nk, nk); textC('≈20 BILLION', 0, 0, 108, C.warm, 800); g.restore(); textC('COCONUTS A YEAR · INDIA', 540, 1000, 40, `rgba(254,247,238,${prog(t, 2.93, 3.2)})`, 800); }
+    g.restore(); }
+  const sk = prog(t, 4.1, 4.4); if (sk > 0) { const P = [[250, 1, 0], [430, 0, 1], [610, 1, 0], [790, 0, 0]]; P.forEach(([x, crack, good], i) => { const k = back(prog(t, 4.1 + i * 0.07, 4.4 + i * 0.07)); if (k <= 0) return; g.save(); g.translate(x, 1360); g.scale(k, k); shell(0, 0, 75, { rough: 1, crack: !!crack }); g.restore();
+      const qk = prog(t, 4.79, 5.0); if (qk > 0 && crack) { g.save(); g.globalAlpha *= qk; g.strokeStyle = '#ff5a4a'; g.lineWidth = 9; g.lineCap = 'round'; g.beginPath(); g.moveTo(x - 30, 1220); g.lineTo(x + 30, 1280); g.moveTo(x + 30, 1220); g.lineTo(x - 30, 1280); g.stroke(); g.restore(); }
+      if (qk > 0 && !crack) tick(x + 6, 1250, 0.7, qk); });
+  }
+  mascot(140, 1700, 0.4, { armL: [-0.5, 110], armR: [1.2, 60], look: [0.9, -0.3], lid: -0.5 });
+  g.restore();
+}
+function crate(x, base, w, k) { if (k <= 0) return; const h = w * 0.55; g.save(); g.translate(x, base); g.scale(k, k); g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 8; g.shadowBlur = 14; g.fillStyle = '#a77a4a'; g.fillRect(-w / 2, -h, w, h); g.restore();
+  g.strokeStyle = '#7a5530'; g.lineWidth = 4; for (let i = 1; i < 3; i++) { g.beginPath(); g.moveTo(-w / 2, -h * i / 3); g.lineTo(w / 2, -h * i / 3); g.stroke(); }
+  for (let i = 0; i < 3; i++) shell(-w * 0.3 + i * w * 0.3, -h - 6, w * 0.13, { polish: 1, rough: 0 }); g.restore(); }
+function sProof(t, a) { // 5.45 - 9.95: a Kerala shell-craft firm exported 40,000 pieces to Denmark (Onmanorama 2023)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1200, 740);
+  label('KERALA · SHELL-CRAFT FIRM', 520, 760, prog(t, 6.1, 6.35) * (1 - prog(t, 7.6, 7.8)), { size: 44, warm: true });
+  for (let i = 0; i < 9; i++) { const k = back(prog(t, 5.8 + i * 0.12, 6.1 + i * 0.12)), c = i % 3, r = Math.floor(i / 3); const go = ease(prog(t, 8.9, 9.6)); crate(lerp(230 + c * 200, 640 + c * 40, go), lerp(1500 - r * 110, 1300 - r * 30, go), 170 * (1 - 0.6 * go), k * (1 - go * 0.9)); }
+  const ck = easeOut(prog(t, 8.7, 9.2)); if (ck > 0) { g.save(); g.translate(lerp(1200, 640, ck), 1330); g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(-230, -190, 460, 190, 8); g.fillStyle = '#2f7d8a'; g.fill(); g.restore();
+    g.strokeStyle = 'rgba(0,0,0,0.2)'; g.lineWidth = 4; for (let i = -4; i <= 4; i++) { g.beginPath(); g.moveTo(i * 50, -184); g.lineTo(i * 50, -6); g.stroke(); } textC('→ DENMARK', 0, -95, 46, C.cream, 800); g.restore(); }
+  const nk = back(prog(t, 7.8, 8.15)); if (nk > 0) { g.save(); g.translate(500, 960); g.scale(nk, nk); textC('40,000 PIECES', 0, 0, 92, C.warm, 800); g.restore(); textC('EXPORTED', 500, 1045, 40, `rgba(254,247,238,${prog(t, 8.0, 8.3)})`, 800); }
+  g.restore();
+}
+function sMake(t, a) { // 9.95 - 14.9: one shell, one step at a time: sand (fibre off), oil polish (gloss), drill a drain, add a jute rope; a plant grows in
+  g.save(); g.globalAlpha = a;
+  spot(520, 1200, 740); const sand = prog(t, 10.4, 11.3), pol = prog(t, 11.6, 12.9), hole = prog(t, 13.3, 13.6), rope = ease(prog(t, 14.08, 14.5)), plantK = prog(t, 14.4, 14.9);
+  const hang = ease(prog(t, 14.2, 14.7)), y = lerp(1330, 1250, hang);
+  shell(500, y, 170, { rough: 1 - sand, polish: pol, hole, rope, plant: plantK, t, hang: hang > 0.5 });
+  if (sand > 0 && sand < 1) { const bx = 500 + Math.sin(t * 22) * 90; g.save(); g.translate(bx, y + 120); g.rotate(-0.2); rr(-70, -26, 140, 52, 10); g.fillStyle = '#d8c39a'; g.fill(); g.fillStyle = '#7a5129'; g.fillRect(-70, 10, 140, 16); g.restore();
+    const R = rng(Math.floor(t * 30)); for (let i = 0; i < 14; i++) { g.fillStyle = 'rgba(167,132,92,0.7)'; g.beginPath(); g.arc(bx + (R() - 0.5) * 160, y + 150 + R() * 80, 3 + R() * 3, 0, 7); g.fill(); } }
+  if (pol > 0 && pol < 1) { const dk = (t * 2) % 1; g.save(); g.fillStyle = '#e8c35a'; g.beginPath(); g.ellipse(330, lerp(1000, y - 20, dk), 10, 16, 0, 0, 7); g.fill(); g.restore(); g.save(); g.translate(330, 980); g.fillStyle = '#c9b48a'; rr(-40, -110, 80, 110, 16); g.fill(); g.fillStyle = '#e8c35a'; g.fillRect(-40, -60, 80, 50); g.restore(); }
+  if (hole > 0 && hole < 1) { g.save(); g.translate(500, y + 300 - 80 * hole); g.fillStyle = '#59616b'; rr(-40, 40, 80, 120, 14); g.fill(); g.fillStyle = '#c4c9cf'; g.fillRect(-6, -10, 12, 60); g.restore(); }
+  const steps = [['SAND', 10.12, 11.4], ['OIL POLISH', 11.47, 13.15], ['DRILL A DRAIN', 13.21, 14.0], ['ADD A ROPE', 14.08, 15.2]];
+  steps.forEach(([n, a0, a1]) => label(n, 500, 1640, prog(t, a0, a0 + 0.2) * (1 - prog(t, a1 - 0.08, a1)), { size: 48, warm: true }));
+  mascot(890, 1700, 0.4, { armL: [-0.9, 110], armR: [1.2 + 0.3 * Math.sin(t * 8) * (sand > 0 && sand < 1 ? 1 : 0), 70], look: [-0.9, -0.4], lid: -0.5 });
+  g.restore();
+}
+function sSale(t, a) { // 14.9 - 19.75: a plant shop pays ₹199 (assumed); online example ₹650 (Brown Living listing); ₹199 is revenue, not profit
+  g.save(); g.globalAlpha = a;
+  spot(480, 1150, 720);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.5)'; g.shadowOffsetY = 10; g.shadowBlur = 18; rr(150, 1500, 700, 40, 10); g.fillStyle = '#7a5129'; g.fill(); g.restore();
+  g.strokeStyle = '#59616b'; g.lineWidth = 10; g.beginPath(); g.moveTo(240, 1500); g.lineTo(240, 700); g.lineTo(560, 700); g.stroke();
+  g.strokeStyle = '#3a4048'; g.lineWidth = 4; g.beginPath(); g.moveTo(560, 700); g.lineTo(560, 1180 - 140 * 2.4 - 30); g.stroke();
+  shell(560, 1180, 140, { polish: 1, rough: 0, hole: 1, rope: 1, plant: 1, t, hang: true, rot: Math.sin(t * 1.4) * 0.03 });
+  for (let i = 0; i < 3; i++) shell(330 + i * 150, 1480, 52, { polish: 1, rough: 0, plant: 1, t });
+  const tk = back(prog(t, 15.79, 16.15)); if (tk > 0) { g.save(); g.translate(300, 960); g.scale(tk * 1.15, tk * 1.15); priceTag(0, 0, 'PLANT SHOP', '₹199', 1, Math.sin(t * 2.5) * 0.05); g.restore(); }
+  label('ONLINE LISTING SEEN AT ₹650', 470, 1610, prog(t, 16.6, 16.85) * 0.92, { size: 32 });
+  const rk = back(prog(t, 18.13, 18.45)); if (rk > 0) { g.save(); g.translate(560, 800); g.scale(rk, rk); rr(-140, -40, 280, 80, 40); g.fillStyle = C.cream; g.fill(); textC('REVENUE', 0, 4, 44, C.ink, 800); g.restore(); }
+  const nk = back(prog(t, 18.73, 19.05)); if (nk > 0) { g.save(); g.translate(560, 890); g.scale(nk, nk); rr(-150, -36, 300, 72, 36); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.strokeStyle = '#ff7a64'; g.lineWidth = 3; g.stroke(); textC('≠ PROFIT', 0, 4, 40, '#ff9a84', 800); g.restore(); }
+  g.restore();
+}
+function sMargin(t, a) { // 19.75 - 24.55: assumed unit: shell ₹10, oil + sandpaper ₹15, rope ₹25, tools ₹5, labour ₹75 = ₹130 -> about ₹70 left of ₹199
+  g.save(); g.globalAlpha = a;
+  spot(560, 1120, 680);
+  const tagK = back(prog(t, 19.9, 20.2)); if (tagK > 0) { g.save(); g.translate(330, 640); g.scale(tagK, tagK); rr(-140, -40, 280, 80, 40); g.fillStyle = 'rgba(18,22,26,0.92)'; g.fill(); g.setLineDash([12, 8]); g.strokeStyle = C.warm; g.lineWidth = 3; g.stroke(); g.setLineDash([]); textC('ASSUMED', 0, 4, 42, C.warm, 800); g.restore(); }
+  const x0 = 620, w = 180, bot = 1500, px = 4.0, top = bot - 199 * px, rise = easeOut(prog(t, 19.9, 20.25));
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.55)'; g.shadowOffsetY = 12; g.shadowBlur = 20; rr(x0, bot - 199 * px * rise, w, 199 * px * rise, 10); g.fillStyle = C.cream; g.fill(); g.restore();
+  textC('₹199', x0 + w / 2, top - 44, 52, `rgba(254,247,238,${rise})`, 800);
+  const parts = [['SHELL', 10, '#7a5536', 20.18], ['OIL + SANDPAPER', 15, '#c9a14a', 20.69], ['ROPE', 25, CS.jute, 21.2], ['TOOLS SHARE', 5, '#8f969e', 21.65], ['LABOUR ~1 HR', 75, '#7a5129', 22.22]]; let y = bot;
+  parts.forEach(([name, v, col, ts], i) => { const h = v * px, k = prog(t, ts, ts + 0.3); if (k > 0) { g.save(); rr(x0, top, w, 199 * px, 10); g.clip(); g.fillStyle = col; g.fillRect(x0, y - h * k, w, h * k); g.restore(); }
+    const ly = i < 4 ? 1450 - i * 72 : y - h / 2; label(`${name} ₹${v}`, 330, ly, prog(t, ts, ts + 0.25), { size: 36, warm: t > ts && t < (parts[i + 1] ? parts[i + 1][3] : 23.03), to: [x0 + 4, y - h / 2] }); y -= h; });
+  const lk = prog(t, 23.03, 23.3); if (lk > 0) { g.save(); rr(x0, top, w, 199 * px, 10); g.clip(); g.fillStyle = C.warm; g.fillRect(x0, top, w, (y - top) * lk); g.restore();
+    const k = back(prog(t, 23.03, 23.4)); g.save(); g.translate(330, top + (y - top) / 2); g.scale(k, k); rr(-160, -44, 320, 88, 44); g.fillStyle = C.warm; g.fill(); textC('LEFT ≈ ₹70', 0, 4, 48, '#1d130e', 800); g.restore();
+    g.save(); g.globalAlpha *= lk; g.strokeStyle = C.warm; g.lineWidth = 3; g.beginPath(); g.moveTo(490, top + (y - top) / 2); g.lineTo(x0 + 4, top + (y - top) / 2); g.stroke(); g.restore(); }
+  g.restore();
+}
+function sTake(t, a) { // 24.55 - 27.0: the finish is what the buyer pays for: ₹10 raw shell -> ₹199 finished planter (assumed numbers)
+  g.save(); g.globalAlpha = a;
+  spot(540, 1200, 720);
+  const k1 = back(prog(t, 24.62, 24.9)); if (k1 > 0) { g.save(); g.translate(260, 1380); g.scale(k1, k1); shell(0, 0, 100, { rough: 1 }); g.restore(); textC('₹10', 260, 1560, 56, `rgba(254,247,238,${clamp(k1)})`, 800); }
+  const ak = prog(t, 24.84, 25.1); if (ak > 0) { g.save(); g.globalAlpha *= ak; g.fillStyle = C.cream; g.beginPath(); g.moveTo(400, 1330); g.lineTo(500, 1330); g.lineTo(500, 1306); g.lineTo(546, 1345); g.lineTo(500, 1384); g.lineTo(500, 1360); g.lineTo(400, 1360); g.closePath(); g.fill(); g.restore(); }
+  const k2 = back(prog(t, 25.0, 25.35)); if (k2 > 0) { g.save(); g.translate(720, 1260); g.scale(k2, k2); shell(0, 0, 120, { polish: 1, rough: 0, hole: 1, rope: 1, plant: 1, t, hang: true }); g.restore(); textC('₹199', 720, 1560, 56, `rgba(244,109,18,${clamp(k2)})`, 800); }
+  const fk = back(prog(t, 25.47, 25.8)); if (fk > 0) { g.save(); g.translate(720, 860); g.scale(fk, fk); rr(-130, -40, 260, 80, 40); g.fillStyle = C.warm; g.fill(); textC('FINISH', 0, 4, 46, '#1d130e', 800); g.restore(); }
+  textC('ASSUMED NUMBERS', 470, 700, 30, `rgba(254,247,238,${0.7 * prog(t, 24.7, 25.0)})`, 700);
+  mascot(140, 1710, 0.42, { armL: [-1.0 + Math.sin(t * 5) * 0.12, 110], armR: [1.2, 60], look: [0.9, -0.4], lid: -0.5, hop: t > 25.7 && t < 26.6 ? Math.abs(Math.sin((t - 25.7) * 6)) * 8 : 0 });
+  g.restore();
+}
+function tick(x, y, s, k, col = C.warm) { if (k <= 0) return; g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 14; g.lineCap = 'round'; g.lineJoin = 'round';
+  g.beginPath(); g.moveTo(-34, 0); const k1 = clamp(k * 2), k2 = clamp(k * 2 - 1); g.lineTo(-34 + 24 * k1, 26 * k1); if (k2 > 0) g.lineTo(-10 + 54 * k2, 26 - 66 * k2); g.stroke(); g.restore(); }
+// ---------- thumbnail (separate vertical image = the frame-zero composition; 4 large words) ----------
+window.renderThumb = () => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent'; pointCloud(0, 1); heroShell(0);
+  g.save(); g.shadowColor = 'rgba(0,0,0,0.6)'; g.shadowBlur = 24; textC('TRASH WITH', 520, 300, 128, C.cream, 800); textC('A BUYER', 520, 445, 136, C.warm, 800); g.restore();
+};
+function sCTA(t, a) { // 25.95 - 30: accepted English CTA card
+  g.save(); g.globalAlpha = a;
+  const k = back(prog(t, 27.05, 27.5));
+  g.save(); g.translate(540, 900); g.scale(k, k); g.shadowColor = 'rgba(244,109,18,0.45)'; g.shadowBlur = 60; rr(-130, -130, 260, 260, 56); g.fillStyle = C.cream; g.fill(); g.shadowColor = 'transparent';
+  g.save(); rr(-120, -120, 240, 240, 50); g.clip(); g.drawImage(icon, -120, -120, 240, 240); g.restore(); g.restore();
+  textC('WastePaisa', 540, 1110, 80, C.cream, 800);
+  textC('Put your scrap to use', 540, 1190, 46, C.warm, 700);
+  mascot(895, 1465, 0.85, { armL: [-1.15 + Math.sin(t * 6) * 0.22, 95], armR: [1.2, 65], look: [-0.5, -0.3], lid: -0.5, hop: Math.max(0, Math.sin((t - 27) * 5)) * 8 * (t > 27 && t < 28.3 ? 1 : 0) });
+  g.restore();
+}
+const SCENES = [[sHook, 0, 1.25], [sScale, 1.25, 5.45], [sProof, 5.45, 9.95], [sMake, 9.95, 14.9], [sSale, 14.9, 19.75], [sMargin, 19.75, 24.55], [sTake, 24.55, 27.0], [sCTA, 27.0, 30.1]];
+const XF = 0.35; // dissolve plus a depth push between scenes (incoming grows from 94 %, outgoing grows past 100 %), camera travel carries the move
+
+// ---------- captions (English): centred at x 500 so ink stays inside x 100-900 (clear of the right-side action rail), y ~350-520, max 2 lines ----------
+// A group is 'text' (onset by character share) or ['text', onset-in-seconds-from-line-start] taken from English ASR word times.
+const GROUPS = {
+  L1: ['Trash with|[a buyer.]'],
+  L2: ['India grows about|[20 billion coconuts] a year.', ['[Which shells sell?]', 2.85]],
+  L3: ['A [Kerala] shell-craft firm', ['exported [40,000 pieces]|to Denmark.', 1.62]],
+  L4: ['[Sand] an uncracked half,|[polish] it with coconut oil,', ['[drill] a drain,|add a [rope.]', 3.15]],
+  L5: ['A plant shop pays [₹199:]', ['[revenue,] not profit.', 3.09]],
+  L6: ['After shell, oil, rope,|tools and labour,', ['about [₹70 is left.]', 2.82]],
+  L7: ['The [finish] is what|the buyer pays for.'],
+  L8: ['Join [WastePaisa]|and put your scrap to use.'],
+};
+const plain = (s) => s.replace(/[\[\]|]/g, ' ').replace(/\s+/g, ' ').trim();
+const CAPS = [];
+timing.lines.forEach((L) => { const gs = GROUPS[L.id].map((e) => (Array.isArray(e) ? e : [e, null])), tot = gs.reduce((a, [s]) => a + plain(s).length, 0); let acc = 0;
+  gs.forEach(([s, at], gi) => { const a = gi === 0 ? L.start - 0.1 : at != null ? L.start + at - 0.06 : L.start + L.duration * (acc / tot) - 0.06; acc += plain(s).length; CAPS.push({ id: `${L.id}.${gi}`, text: s, a, L }); }); });
+CAPS.forEach((c, i) => { const n = CAPS[i + 1]; c.b = n ? (n.L.id === c.L.id ? n.a : Math.min(n.a - 0.08, c.L.end + 0.9)) : 29.85; });
+CAPS[0].a = -0.2; // english-15..18: the hook words are fully visible at frame 0
+function caption(c, t) {
+  const big = c.L.id === 'L1', fs = big ? 86 : 62, CX = 500; g.font = `800 ${fs}px "Baloo 2"`; const lines = c.text.split('|'), lh = big ? 94 : 70, ms = lines.map((l) => g.measureText(l.replace(/[\[\]]/g, '')));
+  const asc = Math.max(...ms.map((m) => m.actualBoundingBoxAscent)), desc = Math.max(...ms.map((m) => m.actualBoundingBoxDescent));
+  const inkH = asc + desc + (lines.length - 1) * lh, top = 375 - inkH / 2, wMax = Math.max(...ms.map((m) => m.width));
+  const a = Math.min(clamp((t - c.a) / 0.12), clamp((c.b - t) / 0.1));
+  g.save(); g.globalAlpha = a; rr(CX - wMax / 2 - 30, top - 20, wMax + 60, inkH + 40, 26); g.fillStyle = C.panel; g.fill();
+  lines.forEach((l, i) => { const parts = l.split(/(\[[^\]]+\])/).filter(Boolean); let x = CX - ms[i].width / 2; const y = top + asc + i * lh; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+    for (const p of parts) { const hl = p.startsWith('['); const s = p.replace(/[\[\]]/g, ''); g.fillStyle = hl ? C.warm : C.cream; g.fillText(s, x, y); x += g.measureText(s).width; } });
+  g.restore();
+  return { id: c.id, inkTop: +top.toFixed(1), inkBottom: +(top + inkH).toFixed(1), x0: +(CX - wMax / 2).toFixed(1), x1: +(CX + wMax / 2).toFixed(1), lines: lines.length };
+}
+
+window.renderAt = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.shadowColor = 'transparent';
+  const dim = t < 26.9 ? 1 : lerp(1, 0.5, prog(t, 26.9, 27.6));
+  pointCloud(t, dim);
+  const active = [];
+  for (const [f, a, b] of SCENES) { const fadeIn = a === 0 ? 1 : clamp((t - a) / XF), fadeOut = clamp((b + XF - t) / XF); const al = Math.min(fadeIn, fadeOut); if (t >= a - 0.001 && t < b + XF && al > 0) { const sc = fadeIn < 1 ? lerp(0.94, 1, ease(fadeIn)) : fadeOut < 1 ? lerp(1.06, 1, ease(fadeOut)) : 1; g.save(); g.translate(540, 1100); g.scale(sc, sc); g.translate(-540, -1100); f(t, al); g.restore(); active.push(f.name); } }
+  let cap = null; for (const c of CAPS) if (t >= c.a && t < c.b) cap = caption(c, t);
+  return { cap, scenes: active };
+};
+window.__ready = true;
+</script></body></html>

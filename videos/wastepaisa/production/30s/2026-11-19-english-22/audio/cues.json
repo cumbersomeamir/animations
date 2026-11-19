@@ -1,0 +1,49 @@
+{
+ "sfx_cues": [
+  [
+   1.12,
+   "shell knocks on the floor (after \"buyer\", before \"India\")"
+  ],
+  [
+   5.36,
+   "to the Kerala firm (between lines)"
+  ],
+  [
+   9.85,
+   "container doors close (between lines)"
+  ],
+  [
+   14.79,
+   "planter swings on its rope (between lines)"
+  ],
+  [
+   19.66,
+   "price bar appears (between lines)"
+  ],
+  [
+   24.5,
+   "LEFT \u2248 \u20b970 (after the line)"
+  ],
+  [
+   26.8,
+   "finish gleam (after the line)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.16",
+  "input_tp": "-3.10",
+  "input_lra": "3.50",
+  "input_thresh": "-27.69",
+  "output_i": "-15.94",
+  "output_tp": "-1.50",
+  "output_lra": "2.70",
+  "output_thresh": "-26.46",
+  "normalization_type": "dynamic",
+  "target_offset": "0.94"
+ }
+}

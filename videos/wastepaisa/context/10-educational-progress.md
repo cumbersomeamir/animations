@@ -603,6 +603,38 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
     readout.
   - Two over-wide caption groups.
 
+## english-22 (2026-11-19-english-22) episode 01: COMPLETE (English)
+- **Topic kept:** a discarded coconut shell made into a hanging planter. english-06 sold shells to the charcoal-briquette trade, a
+  different product and business, so the precise subject was not covered.
+  - Spine: trash with a buyer; which shells sell? Proof: India grows about 20 billion coconuts a year (PIB 2026), and a Kerala
+    shell-craft firm exported 40,000 pieces to Denmark (Onmanorama 2023). Method: sand an uncracked half, oil-polish, drill a drain, add
+    a rope.
+  - Assumed unit: shell ₹10 + oil and sandpaper ₹15 + rope ₹25 + tools share ₹5 + labour ₹75 = ₹130. A plant shop pays ₹199
+    (revenue), leaving about ₹70 (margin). One online listing was seen at ₹650.
+  - Takeaway: the finish is what the buyer pays for.
+- **Start state:** batch20 and batch21 complete and pushed; no checkpointed or running work.
+- **Brief rules (19 Nov), saved in context 11:**
+  - Caption ink moved to y ~290–460 (centre y 375).
+  - One headline at a time besides the spoken caption.
+  - Vital labels kept left of the right-side platform controls.
+- **First-frame rule:** frame 0 shows a rough scrap shell under a low lamp casting the shadow of a premium hanging planter, with "BUYER
+  PAYS ₹ ?" and "Trash with a buyer." on screen; the thumbnail is the same composition with "TRASH WITH A BUYER".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-19-english-22/wastepaisa-30s-english22-01.mp4`,
+  SHA-256 `e5900b7db56fb737d2a768237eae07ce72f98170d8c57393cd68b7568bcd8019`; thumbnail `wastepaisa-30s-english22-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.1 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 135–865, y 288.5–461.5; hook caption at frame 0.
+  - Timing within ±0.04 s.
+  - Vosk mean 0.909; Whisper word for word apart from the brand.
+  - ASR and meters only: no listening in the cloud.
+- **Research:**
+  - PIB, 18 Aug 2026 (about 20,301 million nuts in 2024-25).
+  - Onmanorama, 26 Sep 2023 (Thenga: sanding, buffing, coconut oil; 40,000 pieces to Denmark).
+  - Brown Living listing at ₹650 (retrieved 19 Nov).
+  - Shell prices up to ₹38/kg (context 19).
+  - Episode record: `context/35-english-22-01.md`. No automation.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
