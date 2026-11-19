@@ -215,3 +215,9 @@
 - Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS; 26 earlier MP4s unchanged.
   Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-22 (2026-11-19, batch22) — IN PROGRESS
+- Topic as briefed (AI slow-mo interpolation; record context/37). Stage src/stage/slowmo.js; 8 narration clips ASR-verified;
+  score written; caption band moved to y 282–458 (checker updated); full frame render running.
+- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.

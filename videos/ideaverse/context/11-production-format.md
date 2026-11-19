@@ -284,3 +284,9 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Proposed topic (an AI voice clone can copy a loved one but not prove who is calling) repeats english12-01 → replaced by
   invisible AI watermarks (SynthID): hidden in the pixels, found by a jointly trained model after edits, checked by Gemini;
   the trap — no mark only rules out Google's AI — and the payoff: find where the photo first appeared.
+
+## Batch 2026-11-19-english-22 (batch22) — 2026-11-19 brief
+- Proposed topic (AI slow motion / frame interpolation, "a frame that never happened") is new → used as briefed (context/37).
+- Caption band moved to the brief's upper band: pill y 282–458 (CAP_TOP 282), x 100..900; tools/caption_check.py now checks
+  pill y 270..470 and text ink inside x 100..900 / y 280..460; the top-band strip is y 0..270. Keep vital information away from
+  the right-side and bottom platform controls (labels stay centred, above y ≈ 1500).

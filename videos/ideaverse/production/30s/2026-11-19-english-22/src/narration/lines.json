@@ -1,0 +1,10 @@
+[
+  {"id": "s1", "text": "This frame never happened: one ball, two places."},
+  {"id": "s2", "text": "AI slow motion made it up."},
+  {"id": "s3", "text": "It takes two real frames and guesses how each pixel moved."},
+  {"id": "s4", "text": "Then it moves both frames to the middle and blends them into a new one."},
+  {"id": "s5", "text": "But on a fast bounce, that guess can fail, and the blend shows both balls."},
+  {"id": "s6", "text": "Neither real frame shows this."},
+  {"id": "s7", "text": "Smooth isn't proof. To judge a real moment, step through the original frames."},
+  {"id": "s8", "text": "Download the Ideaverse app."}
+]

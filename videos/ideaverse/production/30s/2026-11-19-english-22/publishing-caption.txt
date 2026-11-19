@@ -1,0 +1,21 @@
+This frame never happened: one ball, two places. 🏀🎞️
+
+AI slow motion made it up.
+It takes two real frames and guesses how each pixel moved.
+Then it moves both frames to the middle and blends them into a new one.
+But on a fast bounce, that guess can fail, and the blend shows both balls.
+Neither real frame shows this.
+Smooth isn't proof. To judge a real moment, step through the original frames.
+
+Download the Ideaverse app.
+
+(The ball, frames and screens in the video are illustrations.)
+
+Sources:
+• Samsung Newsroom, Galaxy S24 camera features (Instant Slow-mo, AI Frame Rate Conversion): https://news.samsung.com/global/finally-a-mobile-camera-that-ensures-you-never-miss-a-moment
+• Samsung Community CamCyclopedia, Instant Slow-mo: https://r2.community.samsung.com/t5/CamCyclopedia/Instant-Slow-mo/ba-p/19981063
+• Jiang et al., Super SloMo (CVPR 2018): https://openaccess.thecvf.com/content_cvpr_2018/papers/Jiang_Super_SloMo_High_CVPR_2018_paper.pdf
+• Reda et al., FILM: Frame Interpolation for Large Motion (ECCV 2022): https://arxiv.org/abs/2202.04901
+• Xu et al., Quadratic Video Interpolation (NeurIPS 2019): https://arxiv.org/abs/1911.00627
+
+#EverydayAI #AI #SlowMotion #Video #Ideaverse
