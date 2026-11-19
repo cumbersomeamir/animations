@@ -1,0 +1,110 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Too hard on yourself?",
+      "start": 0.15,
+      "end": 1.219,
+      "pauses": []
+    },
+    {
+      "id": "super",
+      "text": "After an awkward message, the replay can get harsh.",
+      "start": 1.65,
+      "end": 4.544,
+      "pauses": [
+        [
+          2.966,
+          3.264
+        ]
+      ]
+    },
+    {
+      "id": "p1",
+      "text": "In one experiment, people who took a kind, understanding view of something they regretted felt more motivated to make amends.",
+      "start": 5.0,
+      "end": 12.424,
+      "pauses": [
+        [
+          6.019,
+          6.367
+        ],
+        [
+          7.009,
+          7.082
+        ],
+        [
+          7.637,
+          7.878
+        ],
+        [
+          10.467,
+          10.539
+        ]
+      ]
+    },
+    {
+      "id": "p2",
+      "text": "In another, after failing a test, they studied longer.",
+      "start": 12.95,
+      "end": 15.695,
+      "pauses": [
+        [
+          13.462,
+          13.585
+        ],
+        [
+          14.642,
+          14.783
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "Kindness led to more effort, not less.",
+      "start": 16.25,
+      "end": 18.309,
+      "pauses": [
+        [
+          17.49,
+          17.683
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So answer the replay kindly, then take one calm step, like a short apology.",
+      "start": 19.6,
+      "end": 24.36,
+      "pauses": [
+        [
+          21.298,
+          21.644
+        ],
+        [
+          22.962,
+          23.219
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}

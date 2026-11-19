@@ -109,3 +109,8 @@ Source: "Published apps, Satisfied? column", read 11 November 2026. These **add 
 - The hook audio starts immediately (english15: at 0.15 s) and promises a specific useful answer that the episode delivers.
 - Keep the app's approved aesthetic.
 - Mello implementation: the opening caption *is* the curiosity words (e.g. "Who is / tomorrow-you?" at 132 px), fully visible at frame 0. The audit accepts captions anywhere in x 100–900, y 300–1500 and checks crucial objects against the caption itself.
+
+## 10. Caption band (user rule, 2026-11-19 batch22 on)
+- "Upper captions below platform account UI, approximately y280-460 at 1080x1920 with horizontal safe margins; keep other vital information away from the right-side/bottom platform controls."
+- Mello implementation (english22 on): `#cap` is an 800 × 180 px box at x 100–900, top 280. `render.mjs --layout` checks the caption text box inside x 100–900, y 280–460. Crucial objects (cards, screens, tags) are audited against the caption text, the right rail (x > 936, y 900–1700), the bottom zone (y > 1560) and the left margin (x < 60).
+- To fit two lines in 180 px: 100 px for the frame-0 words, 96 px for one-line captions, 88 px for two-line captions. This supersedes the earlier "x 100–900, y 300–1500" caption zone and the 132 px opening caption in section 9.
