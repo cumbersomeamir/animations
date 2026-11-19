@@ -1,0 +1,15 @@
+Your phone has springs.
+
+Microscopic ones. So how do they know which way is down? In a chip, a tiny weight hangs on springs. Gravity tugs on it, so it shifts slightly. Its fingers move closer to one set of plates, and the chip measures that change. Turn the phone sideways, and the weight shifts another way, so the screen turns. Reading in bed on your side? The weight still feels gravity, so lock rotation.
+
+Download Recall to turn your study material into lessons.
+
+The chip is drawn as a simplified, giant model; real layouts vary and the weight's movement is greatly exaggerated.
+
+Sources:
+NXP AN3461, Tilt Sensing Using a Three-Axis Accelerometer: https://www.nxp.com/docs/en/application-note/AN3461.pdf
+Agliolo Gallitto & Lupo, A mechanical model of the smartphone's accelerometer (arXiv:1507.02224): https://arxiv.org/abs/1507.02224
+Android Developers, Motion sensors: https://developer.android.com/develop/sensors-and-location/sensors/sensors_motion
+Apple Support, Rotate the screen on your iPhone or iPod touch: https://support.apple.com/en-us/118226
+
+#howitworks #technology #science

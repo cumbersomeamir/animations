@@ -175,3 +175,8 @@ noise-cancelling topic was already F05, so a distinct everyday-science topic was
 Episode E21 "This drop is floating" (why a water drop skates on a very hot pan; the Leidenfrost effect and the pan water test;
 English). The suggested microwave frozen-centre topic was already R02, so a distinct kitchen-physics topic was chosen (reason in
 context 34); deliverable `videos/recall/production/30s/2026-11-18-english-21/recall-30s-english21-01.mp4` + thumbnail.
+
+## Update 2026-11-19 batch 22 — english-22
+Episode E22 "Your phone has springs" (how a phone knows which way is down: MEMS accelerometer, auto-rotate, rotation lock in bed;
+English). The suggested QR error-correction topic was already F01, so a distinct how-technology-works topic was chosen (reason in
+context 35); deliverable `videos/recall/production/30s/2026-11-19-english-22/recall-30s-english22-01.mp4` + thumbnail.

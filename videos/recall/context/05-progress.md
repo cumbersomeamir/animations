@@ -85,3 +85,5 @@ qa/QA.md, qa/qa_report.json, qa/ffprobe.json, qa/contact_sheet.png, qa/boundarie
   + `recall-30s-english20-01-thumbnail.png` (30.000 s; refraction, mower picture, straight-back trace, pool ~3/4 depth; record, topic-change reason, sources + QA in 33).
 - English-21 2026-11-18 batch 21 (English; suggested microwave topic already R02 → why a water drop skates on a very hot pan; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-18-english-21/recall-30s-english21-01.mp4`
   + `recall-30s-english21-01-thumbnail.png` (30.000 s; Leidenfrost steam cushion, slows heat, empty-pan water test; record, topic-change reason, sources + QA in 34).
+- English-22 2026-11-19 batch 22 (English; suggested QR topic already F01 → how a phone knows which way is down; frame 0 = thumbnail): `videos/recall/production/30s/2026-11-19-english-22/recall-30s-english22-01.mp4`
+  + `recall-30s-english22-01-thumbnail.png` (30.000 s; MEMS accelerometer springs, capacitive fingers, auto-rotate, rotation lock; record, topic-change reason, sources + QA in 35).
