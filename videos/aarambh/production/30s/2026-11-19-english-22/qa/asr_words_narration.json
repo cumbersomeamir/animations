@@ -1,0 +1,351 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "Smuggler's",
+   "start": 0.0,
+   "end": 0.88
+  },
+  {
+   "w": "radioed",
+   "start": 0.88,
+   "end": 1.32
+  },
+  {
+   "w": "orders",
+   "start": 1.32,
+   "end": 1.62
+  },
+  {
+   "w": "in",
+   "start": 1.62,
+   "end": 1.94
+  },
+  {
+   "w": "secret",
+   "start": 1.94,
+   "end": 2.14
+  },
+  {
+   "w": "code.",
+   "start": 2.14,
+   "end": 2.84
+  },
+  {
+   "w": "Elizabeth",
+   "start": 3.52,
+   "end": 3.52
+  },
+  {
+   "w": "Friedman",
+   "start": 3.52,
+   "end": 4.02
+  },
+  {
+   "w": "read",
+   "start": 4.02,
+   "end": 4.4
+  },
+  {
+   "w": "them",
+   "start": 4.4,
+   "end": 4.6
+  },
+  {
+   "w": "anyway.",
+   "start": 4.6,
+   "end": 5.08
+  },
+  {
+   "w": "How",
+   "start": 5.46,
+   "end": 5.66
+  },
+  {
+   "w": "without",
+   "start": 5.66,
+   "end": 5.86
+  },
+  {
+   "w": "the",
+   "start": 5.86,
+   "end": 6.08
+  },
+  {
+   "w": "key?",
+   "start": 6.08,
+   "end": 6.54
+  },
+  {
+   "w": "Their",
+   "start": 6.84,
+   "end": 7.08
+  },
+  {
+   "w": "code",
+   "start": 7.08,
+   "end": 7.46
+  },
+  {
+   "w": "swapped",
+   "start": 7.46,
+   "end": 7.78
+  },
+  {
+   "w": "each",
+   "start": 7.78,
+   "end": 8.12
+  },
+  {
+   "w": "letter",
+   "start": 8.12,
+   "end": 8.34
+  },
+  {
+   "w": "the",
+   "start": 8.34,
+   "end": 8.58
+  },
+  {
+   "w": "same",
+   "start": 8.58,
+   "end": 8.8
+  },
+  {
+   "w": "way",
+   "start": 8.8,
+   "end": 9.04
+  },
+  {
+   "w": "every",
+   "start": 9.04,
+   "end": 9.32
+  },
+  {
+   "w": "time,",
+   "start": 9.32,
+   "end": 9.78
+  },
+  {
+   "w": "so",
+   "start": 10.14,
+   "end": 10.28
+  },
+  {
+   "w": "patterns",
+   "start": 10.28,
+   "end": 10.54
+  },
+  {
+   "w": "showed.",
+   "start": 10.54,
+   "end": 11.1
+  },
+  {
+   "w": "She",
+   "start": 11.64,
+   "end": 11.78
+  },
+  {
+   "w": "and",
+   "start": 11.78,
+   "end": 11.86
+  },
+  {
+   "w": "an",
+   "start": 11.86,
+   "end": 12.04
+  },
+  {
+   "w": "aide",
+   "start": 12.04,
+   "end": 12.34
+  },
+  {
+   "w": "cracked",
+   "start": 12.34,
+   "end": 12.66
+  },
+  {
+   "w": "over",
+   "start": 12.66,
+   "end": 12.88
+  },
+  {
+   "w": "12",
+   "start": 12.88,
+   "end": 13.4
+  },
+  {
+   "w": ",000",
+   "start": 13.4,
+   "end": 13.62
+  },
+  {
+   "w": "messages.",
+   "start": 13.62,
+   "end": 14.18
+  },
+  {
+   "w": "Nazi",
+   "start": 14.94,
+   "end": 15.08
+  },
+  {
+   "w": "spies",
+   "start": 15.08,
+   "end": 15.66
+  },
+  {
+   "w": "used",
+   "start": 15.66,
+   "end": 16.06
+  },
+  {
+   "w": "enigma,",
+   "start": 16.06,
+   "end": 16.46
+  },
+  {
+   "w": "which",
+   "start": 16.76,
+   "end": 17.0
+  },
+  {
+   "w": "changed",
+   "start": 17.0,
+   "end": 17.36
+  },
+  {
+   "w": "the",
+   "start": 17.36,
+   "end": 17.62
+  },
+  {
+   "w": "swap",
+   "start": 17.62,
+   "end": 17.86
+  },
+  {
+   "w": "every",
+   "start": 17.86,
+   "end": 18.22
+  },
+  {
+   "w": "key",
+   "start": 18.22,
+   "end": 18.48
+  },
+  {
+   "w": "press.",
+   "start": 18.48,
+   "end": 18.88
+  },
+  {
+   "w": "Her",
+   "start": 19.2,
+   "end": 19.38
+  },
+  {
+   "w": "team",
+   "start": 19.38,
+   "end": 19.7
+  },
+  {
+   "w": "still",
+   "start": 19.7,
+   "end": 20.0
+  },
+  {
+   "w": "broke",
+   "start": 20.0,
+   "end": 20.26
+  },
+  {
+   "w": "it.",
+   "start": 20.26,
+   "end": 20.86
+  },
+  {
+   "w": "Lesson",
+   "start": 21.34,
+   "end": 21.74
+  },
+  {
+   "w": "patterns",
+   "start": 21.74,
+   "end": 22.18
+  },
+  {
+   "w": "that",
+   "start": 22.18,
+   "end": 22.52
+  },
+  {
+   "w": "repeat",
+   "start": 22.52,
+   "end": 22.82
+  },
+  {
+   "w": "leaked",
+   "start": 22.82,
+   "end": 23.1
+  },
+  {
+   "w": "secrets",
+   "start": 23.1,
+   "end": 23.62
+  },
+  {
+   "w": "never",
+   "start": 23.62,
+   "end": 24.28
+  },
+  {
+   "w": "reuse",
+   "start": 24.28,
+   "end": 24.54
+  },
+  {
+   "w": "a",
+   "start": 24.54,
+   "end": 24.92
+  },
+  {
+   "w": "password.",
+   "start": 24.92,
+   "end": 25.3
+  },
+  {
+   "w": "Download",
+   "start": 26.58,
+   "end": 27.56
+  },
+  {
+   "w": "RM",
+   "start": 27.56,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.78
+  }
+ ],
+ "text": "Smuggler's radioed orders in secret code. Elizabeth Friedman read them anyway. How without the key? Their code swapped each letter the same way every time, so patterns showed. She and an aide cracked over 12 ,000 messages. Nazi spies used enigma, which changed the swap every key press. Her team still broke it. Lesson patterns that repeat leaked secrets never reuse a password. Download RM to support livelihood tools."
+}

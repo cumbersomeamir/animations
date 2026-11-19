@@ -162,3 +162,13 @@
   - confirm the portrait's rights (Commons "PD-because"; possible Vanderbilt-held photograph) before release;
   - a human listen.
 - **Read first next time:** 25 (incl. both addenda), then 11 and 35.
+
+## 2026-11-19: english-22 #01 (English; third under the 2026-11-17 feedback addendum)
+- **Pre-flight:** batches 20 and 21 were already complete, with nothing unfinished.
+- **Topic replacement:** Hedy Lamarr & Antheil (suggested again) is covered by episodes 04 and 07, so the episode uses Elizebeth Friedman with the brief's lesson (changing a pattern protects a signal) and its frame-0 idea (portrait beside one luminous radio dial).
+- `videos/aarambh/production/30s/2026-11-19-english-22/aarambh-30s-english22-01.mp4` (sha256 `0a8731d84956ce6b8f34604c875123f0bf5bcf1ca1639bf38826ea83b6485db7`) and thumbnail = frame 0.
+  - Frame 0: the NSA portrait, one luminous radio dial and coded letters on the air, "SHE READ THEIR SECRETS".
+  - Story: coded letters turn gold as she reads them → "How, without the key?" (padlock, missing key) → E becomes Q every time; Q piles up and flips to E → slips pile up, "12,000+" → Enigma's rotor steps: E becomes Q, X, M, which all flip to E → lesson "patterns that repeat leak secrets; never reuse a password" (one red key opens every lock; then one key per lock) → Aarambh CTA.
+- **Captions:** plate moved to y 300–460, per the brief.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. both addenda), then 11 and 36.

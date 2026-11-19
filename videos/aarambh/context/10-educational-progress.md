@@ -265,3 +265,10 @@ The user changed direction: Aarambh's content is now **famous people, achievemen
 - **Portrait:** the only portrait found carries a weak public-domain basis (Commons "PD-because"); this is flagged in 35, with a recommendation to confirm before release.
 - **Verification:** both ASR models match the script word for word except homophone spellings and the app name; there was no human listening. Two video-only re-renders (counter fade; caption start after an ASR mis-stamp).
 - No automation; no other episode started; earlier outputs, batch 20 included, untouched.
+
+## 2026-11-19: english-22 #01 (COMPLETE; third under the 2026-11-17 feedback addendum in context/25)
+- **Output:** `videos/aarambh/production/30s/2026-11-19-english-22/aarambh-30s-english22-01.mp4`, sha256 `0a8731d84956ce6b8f34604c875123f0bf5bcf1ca1639bf38826ea83b6485db7`, plus the thumbnail `aarambh-30s-english22-01-thumbnail.png` (= frame 0, "SHE READ THEIR SECRETS"). Elizebeth Friedman, codebreaker (English). 30.000 s, 900 frames, −15.0 LUFS, −1.5 dBTP, full decode OK.
+- **Topic:** the brief's Hedy Lamarr subject was already covered (04 English, 07 Hindi), so a fresh person was chosen with the same lesson; reasons in 36.
+- **Verified facts:** Marshall Foundation (simple encryptions; mono-alphabetic ciphers; she and her aide solved more than 12,000 coded messages, 1928–1930; her team broke the Enigma), PBS (spies' Enigma radio traffic from 1942; three Enigma machines broken), Smithsonian Magazine and National Geographic (the smugglers' coded radio messages), Cambridge (Enigma's substitution changes on every key press) and Oxford (frequency analysis cracks substitution ciphers). NSA, USCG and Smithsonian institutional pages were blocked (403).
+- **Verification:** whisper small matches the script word for word except the TTS spelling and the app name; there was no human listening. One video-only re-render (empty page during the push into Enigma; early counter).
+- No automation; no other episode started; earlier outputs, batch 21 included, untouched.
