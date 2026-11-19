@@ -77,3 +77,15 @@ narrator voice and the "Is this legal in India?" identity stay as in `08-series-
   - motion that explains: camera moves through one central set, physical props, wipes, time-lapse, flying objects
   - frame zero / thumbnail as a bold, high-contrast, truthful composition with 2–5 curiosity words
 - Preserve the approved palette, narrator, branding, logo, CTA and caption layout.
+
+## Addendum 2026-11-19: batch english-22 layout and structure [USER DIRECTIVE]
+- **Typography:** at most one short headline plus the current spoken caption.
+- **Captions:** upper captions below the platform account UI, at about **y 280–460**, with horizontal safe margins.
+  - Implementation from english-22: one line at baseline y=396; two lines at y≈354/434; hook up to 92 px; the chip at
+    y 478–536.
+- **Placement:** vital information stays away from the right-side and bottom controls. Pills sit at y≈1356–1456 and
+  stage content within x≈100–900 where it matters.
+- **Structure:** hook 0–3 s, optional superhook 3–5 s, proof 5–21 s, payoff 21–27 s, CTA 27–30 s; one idea per shot;
+  one tangible object transformation; one accurate practical action.
+- If a proposed hook can't be supported, use a specifically verified current ruling and its date. Never universalise a
+  disputed rule.

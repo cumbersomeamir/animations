@@ -1,0 +1,223 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 1.35
+  },
+  {
+   "id": "l3",
+   "start": 4.2
+  },
+  {
+   "id": "l4",
+   "start": 6.75
+  },
+  {
+   "id": "l5",
+   "start": 10.5
+  },
+  {
+   "id": "l6",
+   "start": 12.6
+  },
+  {
+   "id": "l7",
+   "start": 16.5
+  },
+  {
+   "id": "l8",
+   "start": 20.05
+  },
+  {
+   "id": "l9",
+   "start": 23.15
+  },
+  {
+   "id": "l10",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.25,
+   "text": "YOUR CAR. YOUR RISK?",
+   "hl": [
+    "RISK?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 1.25,
+   "end": 2.75,
+   "text": "The valet ticket says:",
+   "hl": [
+    "valet",
+    "ticket"
+   ]
+  },
+  {
+   "start": 2.75,
+   "end": 4.1,
+   "text": "parked at owner's risk.",
+   "hl": [
+    "owner's",
+    "risk."
+   ]
+  },
+  {
+   "start": 4.1,
+   "end": 6.65,
+   "text": "The Supreme Court ruled in 2019:",
+   "hl": [
+    "Supreme",
+    "Court"
+   ]
+  },
+  {
+   "start": 6.65,
+   "end": 8.85,
+   "text": "Once a hotel's valet takes your keys,",
+   "hl": [
+    "takes",
+    "your",
+    "keys,"
+   ]
+  },
+  {
+   "start": 8.85,
+   "end": 10.4,
+   "text": "the car is in its care,",
+   "hl": [
+    "its",
+    "care,"
+   ]
+  },
+  {
+   "start": 10.4,
+   "end": 12.45,
+   "text": "even if the valet service is free.",
+   "hl": [
+    "free."
+   ]
+  },
+  {
+   "start": 12.45,
+   "end": 14.3,
+   "text": "Lost or damaged?",
+   "hl": [
+    "Lost",
+    "or",
+    "damaged?"
+   ]
+  },
+  {
+   "start": 14.3,
+   "end": 16.4,
+   "text": "The hotel must prove it took proper care.",
+   "hl": [
+    "must",
+    "prove"
+   ]
+  },
+  {
+   "start": 16.4,
+   "end": 18.3,
+   "text": "An owner's risk line",
+   "hl": [
+    "owner's",
+    "risk"
+   ]
+  },
+  {
+   "start": 18.3,
+   "end": 19.95,
+   "text": "can't excuse its own negligence.",
+   "hl": [
+    "negligence."
+   ]
+  },
+  {
+   "start": 19.95,
+   "end": 21.3,
+   "text": "Parked it yourself?",
+   "hl": [
+    "yourself?"
+   ]
+  },
+  {
+   "start": 21.3,
+   "end": 23.05,
+   "text": "Then this rule doesn't apply.",
+   "hl": [
+    "doesn't",
+    "apply."
+   ]
+  },
+  {
+   "start": 23.05,
+   "end": 24.25,
+   "text": "Keep the ticket.",
+   "hl": [
+    "ticket."
+   ]
+  },
+  {
+   "start": 24.25,
+   "end": 26.75,
+   "text": "Report any damage right away, in writing.",
+   "hl": [
+    "in",
+    "writing."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "swing": 0.3,
+  "v2c": 1.25,
+  "pulse": 2.83,
+  "v3": 4.1,
+  "stamp": 4.35,
+  "v4": 6.65,
+  "keysFly": 7.95,
+  "shield": 9.3,
+  "careLab": 9.6,
+  "freeTag": 11.55,
+  "freeLab": 12.0,
+  "lost": 12.6,
+  "damaged": 13.34,
+  "v6": 14.3,
+  "weight": 14.9,
+  "proveLab": 15.25,
+  "v7": 16.4,
+  "strike": 17.76,
+  "noExcLab": 18.45,
+  "crumble": 19.1,
+  "v8": 19.95,
+  "park": 20.1,
+  "keysStay": 20.85,
+  "noHand": 22.05,
+  "v9": 23.05,
+  "keep": 23.3,
+  "write": 24.3,
+  "writeLab": 25.0,
+  "v10": 26.75
+ }
+}

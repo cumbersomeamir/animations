@@ -4,6 +4,61 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-19 (english-22, batch 22): "Your car. Your risk?": valet "owner's risk" ticket (SC, 2019)
+
+### Status
+- **Confirmed before edits:** CLAUDE.md and this file reread; branch claude-video/courtlens clean and in sync at
+  94beeff. Batches 20 and 21 were delivered, so nothing was pending or duplicated. Scratchpad caches (Kokoro, whisper)
+  were intact.
+- **The proposed topic (restaurant service charge) repeats episode 06.** The replacement is the valet "owner's risk"
+  ticket (new in 01–21). Record: `context/episodes/2026-11-19-english22-valet-owners-risk.md`.
+- The 19 Nov layout brief is persisted as an addendum in `context/09-feedback-rules-2026-11-11.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-19-english-22/notes/LEGAL-SOURCES.md`)
+- **SC, Taj Mahal Hotel v. United India Insurance Co. Ltd., CA 8611/2019, 14 Nov 2019** (official PDF, sha256
+  44b4453a…db26104):
+  - paras 18.2–18.3: valet custody = bailment; a mere parking licence is not
+  - paras 18.7–18.8: even if complimentary
+  - para 19: failure to return = prima facie negligence; the burden is on the hotel
+  - paras 28–30: the s.151 care can't be contracted out of; "owner's risk" clauses don't rescue a negligent hotel
+- **Scope:** limited to hotels (para 28). Later commission orders (2023, 2024) follow it (notes only). No later SC
+  change was found.
+
+### Creative decisions
+- **Central object:** a thick 3D valet ticket with keys. Its red fine-print line "PARKED AT OWNER'S RISK" glows at
+  frame zero, is struck on "can't excuse" and tears off on "negligence".
+- **Beats:** keys to the valet → care shield; FREE tag; car lost (dashed) then scratched; a PROOF weight on the
+  hotel's pan; a self-park bay with no handover ✕; payoff: keep the ticket + write.
+- **Layout:** captions raised to y≈280–460 (baselines 396 or 354/434; hook 92 px); chip at y 478; pills at
+  y≈1356–1456.
+- **Narration:** l9 reordered to end on "in writing" (the ASR heard "in riding"). The normaliser maps "twenty
+  nineteen".
+- Mix gain is 6.0 dB (−16.1 LUFS / −2.4 dBTP measured on the pre-render mix).
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-19-english-22/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st22 <times>
+node render.cjs thumb .. courtlens-30s-english22-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build22 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english22-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english22-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+$S/tts/venv/bin/python capcheck.py ../courtlens-30s-english22-01.mp4 ../courtlens-30s-english22-01-thumbnail.png ../qa/frame-zero.jpg
+```
+
+### Fixed before the full render (stills review)
+- **Frame zero:** the keys covered "VALET" and "No." collided with "047". The key ring moved to the corner (keys hang
+  outside the card), "No." was removed, and VALET shrank slightly.
+- **FREE tag:** it covered the stand's VALET sign, so it moved up between the post and the podium.
+
+### Next
+- Full render, QA (incl. caption-band check for y≈280–460), QA.md, delivery commit and push, attach the MP4 and
+  thumbnail.
+
 ## Round 2026-11-18 (english-21, batch 21): "Pay early, get fined?": loan pre-payment charges (RBI)
 
 ### Status
