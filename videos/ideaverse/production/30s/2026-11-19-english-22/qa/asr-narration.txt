@@ -1,0 +1,10 @@
+s1 placed  0.20s  heard [ 0.05.. 2.69]  MATCH: This frame never happened. One ball two places.
+s2 placed  3.35s  heard [ 3.20.. 4.80]  MATCH: AI slow -motion made it up.
+s3 placed  5.25s  heard [ 5.10.. 8.32]  MATCH: It takes two real frames and guesses how each pixel moved.
+s4 placed  8.90s  heard [ 8.75..12.49]  MATCH: Then it moves both frames to the middle and blends them into a new one.
+s5 placed 12.95s  heard [12.80..16.72]  MATCH: But on a fast bounce, that guess can fail, and the blend shows both balls.
+s6 placed 17.45s  heard [17.30..18.84]  MATCH: Neither real frame shows this.
+s7 placed 20.85s  heard [20.70..25.00]  MATCH: Smooth isn't proof. To judge a real moment, step through the original frames.
+s8 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

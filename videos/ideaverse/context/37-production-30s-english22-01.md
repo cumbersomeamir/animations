@@ -56,5 +56,12 @@ Illustrative (not measured): the ball and positions, the arrows, the timeline (9
 8. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "NEVER / HAPPENED".
 
-## QA / status
-- IN PROGRESS (2026-11-19): stage, narration, score written; stills checked; full render running.
+## QA / status — DELIVERED 2026-11-19
+- Output: production/30s/2026-11-19-english-22/ideaverse-30s-english22-01.mp4 · sha256 4ba2ea80…a7a5, plus
+  ideaverse-30s-english22-01-thumbnail.png ("NEVER / HAPPENED"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −2.3 dBTP.
+- English ASR on the final MP4: all eight lines MATCH, no word outside its caption; caption band y 282–458 inside x 100..900
+  (SPEC PASS); text-free above the band.
+- Frames: 900 in 1453 s (3 workers) + re-renders 98–170 (card content at the cut) and 620–805 (no easel in the phone shots);
+  score re-mixed.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

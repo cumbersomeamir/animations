@@ -386,7 +386,7 @@ function stageAt(t) {
   scene.updateMatrixWorld(true);
   // the ball shots: the hook (both ghosts) and the bounce (the real ball, then the blend)
   const hook = t < Hh.cut1, bnc = t >= Hh.cut3 && t < Hh.cut4;
-  board.visible = !(hook || bnc); ovl.visible = hook || bnc;
+  board.visible = !(hook || bnc || on); ovl.visible = hook || bnc;                     // easel only in the card shots (+ CTA)
   const bl = bnc ? E.inOutCubic(inv(Hh.both[0], Hh.both[1], t)) : 0;
   ball.visible = bnc && bl < 1; if (ball.visible) { ball.position.copy(ballAt(t)); ball.rotation.z = 0.2 - 6 * inv(Hh.bounce[0], Hh.bounce[1], t); ball.material.transparent = bl > 0; ball.material.opacity = 1 - bl; }
   const ghostOn = hook || (bnc && bl > 0); ghostA.visible = ghostB.visible = ghostOn;
@@ -425,11 +425,11 @@ function cameraAt(t) {
 }
 // separate vertical thumbnail tied to the hook: the ball in two places + "NEVER / HAPPENED"
 window.renderThumb = () => {
-  const t = 0.0; cameraAt(t); stageAt(t); labelL.visible = false; renderer.render(scene, cam);
+  const t = 0.0; cameraAt(t); stageAt(t); labelL.visible = false; labelH.visible = false; renderer.render(scene, cam);
   const c = octx; c.setTransform(1, 0, 0, 1, 0, 0); c.drawImage(glCanvas, 0, 0);
   const gr = c.createLinearGradient(0, 0, 0, 760); gr.addColorStop(0, 'rgba(8,11,22,0.9)'); gr.addColorStop(1, 'rgba(8,11,22,0)'); c.fillStyle = gr; c.fillRect(0, 0, W, 760);
   c.textAlign = 'center'; c.textBaseline = 'middle'; c.lineJoin = 'round';
-  [['NEVER', '#F4F7FB', 330], ['HAPPENED', AMBER, 490]].forEach(([w, col, y]) => { let S = 170; c.font = `800 ${S}px ${HI}`; while (c.measureText(w).width > 780) { S -= 4; c.font = `800 ${S}px ${HI}`; } c.lineWidth = 22; c.strokeStyle = '#080B16'; c.strokeText(w, 500, y); c.fillStyle = col; c.fillText(w, 500, y); });
+  [['NEVER', '#F4F7FB', 300], ['HAPPENED', AMBER, 455]].forEach(([w, col, y]) => { let S = 170; c.font = `800 ${S}px ${HI}`; while (c.measureText(w).width > 780) { S -= 4; c.font = `800 ${S}px ${HI}`; } c.lineWidth = 22; c.strokeStyle = '#080B16'; c.strokeText(w, 500, y); c.fillStyle = col; c.fillText(w, 500, y); });
   const v = c.createRadialGradient(W / 2, H * 0.48, H * 0.3, W / 2, H * 0.48, H * 0.78); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.35)'); c.fillStyle = v; c.fillRect(0, 0, W, H);
   return true;
 };

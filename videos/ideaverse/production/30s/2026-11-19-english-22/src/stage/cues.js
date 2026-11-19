@@ -11,7 +11,7 @@ const CUES = {
     // B · phone: "AI slow motion made it up" 3.35–4.75 → made-up frames pop in between the real ones
     cut1: 3.28, aiTiles: [4.2, 4.75],
     // C · card: "two real frames" 5.53–6.49 → REAL 1, REAL 2; "guesses how each pixel moved" 6.85–8.31 → motion arrows
-    cut2: 5.15, slotA: 5.2, slotB: 5.6, slotN: 6.0, arrows: [6.85, 8.0],
+    cut2: 5.15, slotA: 4.95, slotB: 5.6, slotN: 6.0, arrows: [6.85, 8.0],
     // D · "moves both frames to the middle" 9.14–10.74 → both slide in; "blends" 11.18 → one ball; "a new one" 12.08 → AI-MADE
     move: [9.15, 10.45], blend: [11.15, 11.6], newTag: 12.05,
     // E · 3D: "a fast bounce" 13.17–13.71 → the ball drops out of frame and back; "that guess" 14.21 → arrow; "fail" 14.69 → ✗;

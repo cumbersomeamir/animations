@@ -68,7 +68,7 @@ tick(SFX, 0.02, 0.4, 3100, 0.1); clunk(0.03, 0.12); tick2(H.one, 2600, 0.25); ti
 // B · phone: the made-up frames pop in between the real ones
 thump(H.cut1, 0.12); for (let i = 0; i < 6; i++) tick2(H.aiTiles[0] + i * (H.aiTiles[1] - H.aiTiles[0]) / 6, 2300 + (i % 3) * 200, 0.16);
 // C · card: REAL 1 / REAL 2 land, the empty slot, the motion arrows (a quiet glide)
-paper(H.cut2, 0.15, 0.35); tick2(H.slotA, 2400, 0.25); tick2(H.slotB, 2600, 0.25); tick2(H.slotN, 1800, 0.18); glideTone(SFX, H.arrows[0], H.arrows[1] - H.arrows[0], 600, 1000, 0.04);
+paper(H.cut2, 0.15, 0.35); tick2(Math.max(H.slotA, H.cut2) + 0.03, 2400, 0.25); tick2(H.slotB, 2600, 0.25); tick2(H.slotN, 1800, 0.18); glideTone(SFX, H.arrows[0], H.arrows[1] - H.arrows[0], 600, 1000, 0.04);
 // D · both frames slide to the middle (whoosh) and blend (soft chime); AI-MADE tag
 whoosh(H.move[0], H.move[1] - H.move[0], 0.14); bell(SFX, H.blend[0] + 0.2, 76, 0.18, 0.2, 0.9); tick2(H.newTag, 3000, 0.25);
 // E · the fast bounce: a whoosh down and up with a thud at the floor; the guess (tick), the ✗ (low notes), the blend (shimmer)

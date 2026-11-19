@@ -217,7 +217,10 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-22 (2026-11-19, batch22) — IN PROGRESS
-- Topic as briefed (AI slow-mo interpolation; record context/37). Stage src/stage/slowmo.js; 8 narration clips ASR-verified;
-  score written; caption band moved to y 282–458 (checker updated); full frame render running.
-- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
+# CURRENT — english-22 (2026-11-19, batch22) — DELIVERED
+- Topic as briefed: AI slow-mo frame interpolation — "a frame that never happened" (record context/37).
+  production/30s/2026-11-19-english-22/ideaverse-30s-english22-01.mp4 (sha256 4ba2ea80…a7a5) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1453 s (3 workers) + re-renders 98–170, 620–805; score re-mixed.
+- Checks: full decode OK; ASR all 8 lines MATCH, no word outside its caption; caption SPEC PASS in the new y 282–458 band;
+  27 earlier MP4s unchanged. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.
