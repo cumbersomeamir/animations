@@ -1,0 +1,376 @@
+{
+ "l1": [
+  {
+   "w": "Why",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "w": "can",
+   "start": 0.16,
+   "end": 0.32
+  },
+  {
+   "w": "a",
+   "start": 0.32,
+   "end": 0.4
+  },
+  {
+   "w": "detour",
+   "start": 0.4,
+   "end": 0.72
+  },
+  {
+   "w": "through",
+   "start": 0.72,
+   "end": 0.94
+  },
+  {
+   "w": "another",
+   "start": 0.94,
+   "end": 1.14
+  },
+  {
+   "w": "phone",
+   "start": 1.14,
+   "end": 1.52
+  },
+  {
+   "w": "beat",
+   "start": 1.52,
+   "end": 1.86
+  },
+  {
+   "w": "the",
+   "start": 1.86,
+   "end": 2.04
+  },
+  {
+   "w": "direct",
+   "start": 2.04,
+   "end": 2.26
+  },
+  {
+   "w": "path?",
+   "start": 2.26,
+   "end": 2.58
+  }
+ ],
+ "l2": [
+  {
+   "w": "Radio",
+   "start": 0.0,
+   "end": 0.28
+  },
+  {
+   "w": "signals",
+   "start": 0.28,
+   "end": 0.64
+  },
+  {
+   "w": "weaken",
+   "start": 0.64,
+   "end": 1.14
+  },
+  {
+   "w": "quickly",
+   "start": 1.14,
+   "end": 1.52
+  },
+  {
+   "w": "with",
+   "start": 1.52,
+   "end": 1.82
+  },
+  {
+   "w": "distance.",
+   "start": 1.82,
+   "end": 2.04
+  }
+ ],
+ "l3": [
+  {
+   "w": "Cut",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "each",
+   "start": 0.12,
+   "end": 0.22
+  },
+  {
+   "w": "hop",
+   "start": 0.22,
+   "end": 0.48
+  },
+  {
+   "w": "in",
+   "start": 0.48,
+   "end": 0.64
+  },
+  {
+   "w": "half,",
+   "start": 0.64,
+   "end": 0.92
+  },
+  {
+   "w": "and",
+   "start": 1.32,
+   "end": 1.46
+  },
+  {
+   "w": "the",
+   "start": 1.46,
+   "end": 1.54
+  },
+  {
+   "w": "signal",
+   "start": 1.54,
+   "end": 1.8
+  },
+  {
+   "w": "arrives",
+   "start": 1.8,
+   "end": 2.2
+  },
+  {
+   "w": "about",
+   "start": 2.2,
+   "end": 2.58
+  },
+  {
+   "w": "four",
+   "start": 2.58,
+   "end": 2.86
+  },
+  {
+   "w": "times",
+   "start": 2.86,
+   "end": 3.22
+  },
+  {
+   "w": "stronger.",
+   "start": 3.22,
+   "end": 3.54
+  }
+ ],
+ "l4": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "weak",
+   "start": 0.08,
+   "end": 0.24
+  },
+  {
+   "w": "link",
+   "start": 0.24,
+   "end": 0.44
+  },
+  {
+   "w": "drops",
+   "start": 0.44,
+   "end": 0.86
+  },
+  {
+   "w": "packets,",
+   "start": 0.86,
+   "end": 1.18
+  },
+  {
+   "w": "so",
+   "start": 1.78,
+   "end": 1.94
+  },
+  {
+   "w": "each",
+   "start": 1.94,
+   "end": 2.12
+  },
+  {
+   "w": "one",
+   "start": 2.12,
+   "end": 2.34
+  },
+  {
+   "w": "is",
+   "start": 2.34,
+   "end": 2.42
+  },
+  {
+   "w": "sent",
+   "start": 2.42,
+   "end": 2.6
+  },
+  {
+   "w": "again",
+   "start": 2.6,
+   "end": 2.88
+  },
+  {
+   "w": "and",
+   "start": 2.88,
+   "end": 3.08
+  },
+  {
+   "w": "again.",
+   "start": 3.08,
+   "end": 3.4
+  }
+ ],
+ "l5": [
+  {
+   "w": "Two",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "strong",
+   "start": 0.1,
+   "end": 0.38
+  },
+  {
+   "w": "hops",
+   "start": 0.38,
+   "end": 0.68
+  },
+  {
+   "w": "need",
+   "start": 0.68,
+   "end": 0.96
+  },
+  {
+   "w": "fewer",
+   "start": 0.96,
+   "end": 1.22
+  },
+  {
+   "w": "sends",
+   "start": 1.22,
+   "end": 1.56
+  },
+  {
+   "w": "in",
+   "start": 1.56,
+   "end": 1.8
+  },
+  {
+   "w": "total.",
+   "start": 1.8,
+   "end": 2.04
+  }
+ ],
+ "l6": [
+  {
+   "w": "But",
+   "start": 0.0,
+   "end": 0.08
+  },
+  {
+   "w": "a",
+   "start": 0.08,
+   "end": 0.14
+  },
+  {
+   "w": "relay",
+   "start": 0.14,
+   "end": 0.3
+  },
+  {
+   "w": "also",
+   "start": 0.3,
+   "end": 0.66
+  },
+  {
+   "w": "takes",
+   "start": 0.66,
+   "end": 1.14
+  },
+  {
+   "w": "airtime,",
+   "start": 1.14,
+   "end": 1.68
+  },
+  {
+   "w": "so",
+   "start": 2.24,
+   "end": 2.26
+  },
+  {
+   "w": "a",
+   "start": 2.26,
+   "end": 2.36
+  },
+  {
+   "w": "decent",
+   "start": 2.36,
+   "end": 2.64
+  },
+  {
+   "w": "direct",
+   "start": 2.64,
+   "end": 3.0
+  },
+  {
+   "w": "link",
+   "start": 3.0,
+   "end": 3.3
+  },
+  {
+   "w": "still",
+   "start": 3.3,
+   "end": 3.68
+  },
+  {
+   "w": "wins.",
+   "start": 3.68,
+   "end": 3.88
+  }
+ ],
+ "l7": [
+  {
+   "w": "Download",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "Meshline",
+   "start": 0.32,
+   "end": 0.9
+  },
+  {
+   "w": "for",
+   "start": 0.9,
+   "end": 1.14
+  },
+  {
+   "w": "private",
+   "start": 1.14,
+   "end": 1.46
+  },
+  {
+   "w": "nearby",
+   "start": 1.46,
+   "end": 1.7
+  },
+  {
+   "w": "messages,",
+   "start": 1.7,
+   "end": 2.26
+  },
+  {
+   "w": "even",
+   "start": 2.84,
+   "end": 3.14
+  },
+  {
+   "w": "offline.",
+   "start": 3.14,
+   "end": 3.4
+  }
+ ]
+}

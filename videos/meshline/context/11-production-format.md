@@ -276,6 +276,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 | 21 | 2026-11-17-english-19 | Why two nearby radios can collide without hearing each other (hidden terminal, sensing at sender vs collision at receiver, RTS/CTS turn-taking), **English** + thumbnail | `production/30s/2026-11-17-english-19/meshline-30s-english19-01.mp4` |
 | 22 | 2026-11-17-english-20 | Why your phone skips the nearest tower (network membership, ranking by measured signal, margin + set time against ping-pong), **English** + thumbnail | `production/30s/2026-11-17-english-20/meshline-30s-english20-01.mp4` |
 | 23 | 2026-11-18-english-21 | Why pairing shows the same six digits on both phones (numeric comparison: public keys, shared secret, middleman makes numbers differ, tap pair only on a match), **English** + thumbnail | `production/30s/2026-11-18-english-21/meshline-30s-english21-01.mp4` |
+| 24 | 2026-11-19-english-22 | Why two short wireless hops can beat one long hop (distance loss, half hop ≈ 4×, retries/ETX, relay airtime, decent direct link wins), **English** + thumbnail | `production/30s/2026-11-19-english-22/meshline-30s-english22-01.mp4` |
 
 ## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
 - **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
@@ -297,3 +298,9 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Topic rule applied:** "Bluetooth through your own body" is obstruction + placement again (07/14/16); swapped to Bluetooth numeric comparison (23). Body, pocket, hand and lift blocking stories all count as obstruction repeats.
 - **Topics now taken:** pairing / numeric comparison / MITM (23). Unused nearby-privacy angles still open: changing Bluetooth addresses (privacy), Just Works vs passkey (only as a different core).
 - **Readouts:** never show a value before the visual computes it.
+
+## Standing brief update 2026-11-19 (batch english-22)
+- **Upper captions:** keep caption ink and plate in about **y 280–460** at 1080x1920, with x 100–900. Plate top 306, baselines 370/430; `captions_check.mjs` enforces the band. The frame-zero title sits in the same band.
+- **Platform controls:** keep vital information away from the right side and bottom. Instrument plate x 96–864, counts right-aligned at about 830, key scene objects left of about x 880.
+- **Each brief:** at most one short headline plus the current spoken caption; one idea per shot; beat-synced sound accents.
+- **Topics now taken:** multi-hop vs one long hop (24). The ETX / airtime trade-off is used; don't make it the core again.

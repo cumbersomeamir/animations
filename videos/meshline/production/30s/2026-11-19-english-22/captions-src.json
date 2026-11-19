@@ -1,0 +1,9 @@
+{
+ "l1": [[["Why can a detour", "through another phone"], "Why"], [["beat the direct path?"], "beat"]],
+ "l2": [[["Radio signals weaken", "quickly with distance."], "Radio"]],
+ "l3": [[["Cut each hop in half,"], "Cut"], [["and the signal arrives", "about four times stronger."], "and"]],
+ "l4": [[["A weak link drops packets,"], "A"], [["so each one is sent", "again and again."], "so"]],
+ "l5": [[["Two strong hops need", "fewer sends in total."], "Two"]],
+ "l6": [[["But a relay also", "takes airtime,"], "But"], [["so a decent direct link", "still wins."], "so"]],
+ "l7": [[["Download Meshline for", "private nearby messages,"], "Download"], [["even offline."], "even"]]
+}

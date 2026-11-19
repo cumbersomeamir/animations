@@ -1,0 +1,6 @@
+{
+ "model": "whisper-small",
+ "asr": "Why can a detour through another phone beat the direct path? Radio signals weaken quickly with distance. Cut each hop in half, and the signal arrives about four times stronger. A weak link drops packets, so each one is sent again and again. Two strong hops need fewer sends in total. But a relay also takes airtime, so a decent direct link still wins. Download MeshLine for private nearby messages, even offline.",
+ "wer_normalized": 0.0,
+ "audio_pcm_sha256_prefix": "52cbc3e525648f3f"
+}

@@ -88,3 +88,6 @@
 
 ## Production 2026-11-18-english-21 (English, Bluetooth numeric comparison; requested body-blocking topic swapped as an obstruction repeat)
 - Done after batch 20 was delivered. Output `production/30s/2026-11-18-english-21/meshline-30s-english21-01.mp4`, sha256 `ef433d2c…8b03`, plus a thumbnail equal to frame zero. CTA feedback applied (action verb + button). Details are in `34-production-30s-english21-01.md`.
+
+## Production 2026-11-19-english-22 (English, two short hops vs one long hop; kept, overlap with english-12 noted)
+- Done. Output `production/30s/2026-11-19-english-22/meshline-30s-english22-01.mp4`, sha256 `16754269…d0db`, plus a thumbnail equal to frame zero. Captions raised to y 280–460 per the brief; CTA feedback applied (action verb + button). Details are in `35-production-30s-english22-01.md`.

@@ -1,0 +1,49 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "Why can a detour through another phone beat the direct path?"
+  },
+  {
+   "id": "l2",
+   "start": 3.95,
+   "text": "Radio signals weaken quickly with distance."
+  },
+  {
+   "id": "l3",
+   "start": 7.25,
+   "text": "Cut each hop in half, and the signal arrives about four times stronger."
+  },
+  {
+   "id": "l4",
+   "start": 12.05,
+   "text": "A weak link drops packets, so each one is sent again and again."
+  },
+  {
+   "id": "l5",
+   "start": 16.6,
+   "text": "Two strong hops need fewer sends in total."
+  },
+  {
+   "id": "l6",
+   "start": 20.1,
+   "text": "But a relay also takes airtime, so a decent direct link still wins."
+  },
+  {
+   "id": "l7",
+   "start": 25.61,
+   "text": "Download Meshline for private nearby messages, even offline."
+  }
+ ]
+}

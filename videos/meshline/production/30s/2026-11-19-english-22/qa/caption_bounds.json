@@ -1,0 +1,267 @@
+{
+ "rule": "ink and plate y in [280,460] (ink >= 290), ink and plate x in [100,900]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 1.68,
+   "lines": [
+    "Why can a detour",
+    "through another phone"
+   ],
+   "ink": {
+    "x0": 224,
+    "x1": 774,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 192,
+    "x1": 808,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 1.72,
+   "b": 3.51,
+   "lines": [
+    "beat the direct path?"
+   ],
+   "ink": {
+    "x0": 252,
+    "x1": 748,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 218,
+    "x1": 782,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 3.9,
+   "b": 6.746,
+   "lines": [
+    "Radio signals weaken",
+    "quickly with distance."
+   ],
+   "ink": {
+    "x0": 240,
+    "x1": 759,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 207,
+    "x1": 793,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 7.2,
+   "b": 8.48,
+   "lines": [
+    "Cut each hop in half,"
+   ],
+   "ink": {
+    "x0": 258,
+    "x1": 740,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 225,
+    "x1": 775,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 8.52,
+   "b": 11.533,
+   "lines": [
+    "and the signal arrives",
+    "about four times stronger."
+   ],
+   "ink": {
+    "x0": 190,
+    "x1": 808,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 157,
+    "x1": 843,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 12,
+   "b": 13.74,
+   "lines": [
+    "A weak link drops packets,"
+   ],
+   "ink": {
+    "x0": 181,
+    "x1": 816,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 149,
+    "x1": 851,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 13.78,
+   "b": 15.978,
+   "lines": [
+    "so each one is sent",
+    "again and again."
+   ],
+   "ink": {
+    "x0": 273,
+    "x1": 726,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 241,
+    "x1": 759,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 16.55,
+   "b": 19.267,
+   "lines": [
+    "Two strong hops need",
+    "fewer sends in total."
+   ],
+   "ink": {
+    "x0": 235,
+    "x1": 762,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 203,
+    "x1": 797,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 20.05,
+   "b": 22.25,
+   "lines": [
+    "But a relay also",
+    "takes airtime,"
+   ],
+   "ink": {
+    "x0": 322,
+    "x1": 679,
+    "y0": 332,
+    "y1": 437
+   },
+   "plate": {
+    "x0": 287,
+    "x1": 713,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l6b",
+   "a": 22.29,
+   "b": 24.696,
+   "lines": [
+    "so a decent direct link",
+    "still wins."
+   ],
+   "ink": {
+    "x0": 239,
+    "x1": 761,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 206,
+    "x1": 794,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.56,
+   "b": 28.36,
+   "lines": [
+    "Download Meshline for",
+    "private nearby messages,"
+   ],
+   "ink": {
+    "x0": 194,
+    "x1": 805,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 160,
+    "x1": 840,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7b",
+   "a": 28.4,
+   "b": 29.846,
+   "lines": [
+    "even offline."
+   ],
+   "ink": {
+    "x0": 356,
+    "x1": 643,
+    "y0": 332,
+    "y1": 369
+   },
+   "plate": {
+    "x0": 323,
+    "x1": 677,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  }
+ ]
+}

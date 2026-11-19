@@ -125,3 +125,6 @@
 
 ## Production 2026-11-18-english-21 (English, why pairing shows the same six digits on both phones): complete
 - See `34-production-30s-english21-01.md`; output sha256 `ef433d2c7ac8e7c85e7b132ca46a61e1b9e7acf4de822eccef50dc80575d8b03`; thumbnail = frame-zero composition.
+
+## Production 2026-11-19-english-22 (English, why two short wireless hops can beat one long hop): complete
+- See `35-production-30s-english22-01.md`; output sha256 `167542696ac408796c09b5e4a676cb65ec8361dd592f8934bee8a84f42bed0db`; thumbnail = frame-zero composition.
