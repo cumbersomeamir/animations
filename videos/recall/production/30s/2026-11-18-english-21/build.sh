@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Reproducible build: Recall 30 s english-21 "why a straw looks broken in water" (English) (30.000 s, 1080x1920, 30 fps, 900 frames, H.264 yuv420p + AAC 48 kHz stereo) + the thumbnail (frame 0 + Recall pill).
+# Reproducible build: Recall 30 s english-21 "why a water drop skates on a very hot pan" (English) (30.000 s, 1080x1920, 30 fps, 900 frames, H.264 yuv420p + AAC 48 kHz stereo) + the thumbnail (frame 0 + Recall pill).
 #   ./build.sh               # uses committed narration WAVs
 #   TTS=1 ./build.sh         # regenerate narration (reuses the cached Kokoro model; see audio/tts.py)
 #   WORKERS=3 ./build.sh     # parallel headless-Chromium render workers

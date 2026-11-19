@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Your phone has springs.",
+      "file": "l01.wav",
+      "duration": 1.111,
+      "sr": 24000,
+      "words_per_s": 3.6
+    },
+    {
+      "id": "l02",
+      "text": "Microscopic ones. So how do they know which way is down?",
+      "file": "l02.wav",
+      "duration": 3.402,
+      "sr": 24000,
+      "words_per_s": 3.23
+    },
+    {
+      "id": "l03",
+      "text": "In a chip, a tiny weight hangs on springs.",
+      "file": "l03.wav",
+      "duration": 2.346,
+      "sr": 24000,
+      "words_per_s": 3.84
+    },
+    {
+      "id": "l04",
+      "text": "Gravity tugs on it, so it shifts slightly.",
+      "file": "l04.wav",
+      "duration": 2.204,
+      "sr": 24000,
+      "words_per_s": 3.63
+    },
+    {
+      "id": "l05",
+      "text": "Its fingers move closer to one set of plates, and the chip measures that change.",
+      "file": "l05.wav",
+      "duration": 4.373,
+      "sr": 24000,
+      "words_per_s": 3.43
+    },
+    {
+      "id": "l06",
+      "text": "Turn the phone sideways, and the weight shifts another way, so the screen turns.",
+      "file": "l06.wav",
+      "duration": 4.319,
+      "sr": 24000,
+      "words_per_s": 3.24
+    },
+    {
+      "id": "l07",
+      "text": "Reading in bed on your side? The weight still feels gravity, so lock rotation.",
+      "file": "l07.wav",
+      "duration": 4.596,
+      "sr": 24000,
+      "words_per_s": 3.05
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

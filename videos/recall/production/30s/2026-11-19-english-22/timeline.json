@@ -1,0 +1,470 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 1.4
+  },
+  {
+   "id": "l03",
+   "start": 5.0
+  },
+  {
+   "id": "l04",
+   "start": 7.55
+  },
+  {
+   "id": "l05",
+   "start": 9.95
+  },
+  {
+   "id": "l06",
+   "start": 14.55
+  },
+  {
+   "id": "l07",
+   "start": 20.45
+  },
+  {
+   "id": "l08",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_mems",
+   "t0": 0,
+   "t1": 1.33
+  },
+  {
+   "id": "react_pov",
+   "t0": 1.33,
+   "t1": 3.95
+  },
+  {
+   "id": "react_face",
+   "t0": 3.95,
+   "t1": 4.93
+  },
+  {
+   "id": "giant_mass",
+   "t0": 4.93,
+   "t1": 7.48
+  },
+  {
+   "id": "giant_gravity",
+   "t0": 7.48,
+   "t1": 9.88
+  },
+  {
+   "id": "giant_fingers",
+   "t0": 9.88,
+   "t1": 14.48
+  },
+  {
+   "id": "giant_turn",
+   "t0": 14.48,
+   "t1": 17.45
+  },
+  {
+   "id": "proof_pov",
+   "t0": 17.45,
+   "t1": 20.38
+  },
+  {
+   "id": "bed_flip",
+   "t0": 20.38,
+   "t1": 23.86
+  },
+  {
+   "id": "bed_lock",
+   "t0": 23.86,
+   "t1": 26.38
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.38,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "flip1": 2.95,
+  "why": 4.1,
+  "springsTag": 6.7,
+  "gravityTag": 7.62,
+  "sag": 8.55,
+  "gapTag": 10.75,
+  "measure": 12.5,
+  "turn": 15.0,
+  "shift2": 16.2,
+  "screenTag": 17.95,
+  "flip2": 17.55,
+  "bedFlip": 21.5,
+  "gravTag2": 22.3,
+  "lockTap": 24.0,
+  "lockTag": 24.15,
+  "cta": 26.38,
+  "smile": 27.0,
+  "end": 29.0,
+  "shiftTag": 16.35,
+  "back2": 19.3
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.33,
+   "lines": [
+    [
+     [
+      "YOUR PHONE",
+      0
+     ]
+    ],
+    [
+     [
+      "HAS SPRINGS",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 1.33,
+   "end": 2.71,
+   "lines": [
+    [
+     [
+      "Microscopic",
+      1
+     ],
+     [
+      " ones.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.71,
+   "end": 4.93,
+   "lines": [
+    [
+     [
+      "So how do they know",
+      0
+     ]
+    ],
+    [
+     [
+      "which way is down?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.93,
+   "end": 7.48,
+   "lines": [
+    [
+     [
+      "In a chip, a tiny weight",
+      0
+     ]
+    ],
+    [
+     [
+      "hangs on ",
+      0
+     ],
+     [
+      "springs.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.48,
+   "end": 8.58,
+   "lines": [
+    [
+     [
+      "Gravity",
+      1
+     ],
+     [
+      " tugs on it,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.58,
+   "end": 9.88,
+   "lines": [
+    [
+     [
+      "so it ",
+      0
+     ],
+     [
+      "shifts",
+      1
+     ],
+     [
+      " slightly.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 9.88,
+   "end": 12.42,
+   "lines": [
+    [
+     [
+      "Its fingers move ",
+      0
+     ],
+     [
+      "closer",
+      1
+     ]
+    ],
+    [
+     [
+      "to one set of plates,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.42,
+   "end": 14.48,
+   "lines": [
+    [
+     [
+      "and the chip ",
+      0
+     ],
+     [
+      "measures",
+      1
+     ]
+    ],
+    [
+     [
+      "that change.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.48,
+   "end": 16.18,
+   "lines": [
+    [
+     [
+      "Turn the phone ",
+      0
+     ],
+     [
+      "sideways,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.18,
+   "end": 20.38,
+   "lines": [
+    [
+     [
+      "and the weight shifts another way,",
+      0
+     ]
+    ],
+    [
+     [
+      "so the ",
+      0
+     ],
+     [
+      "screen turns.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.38,
+   "end": 22.2,
+   "lines": [
+    [
+     [
+      "Reading in bed",
+      0
+     ]
+    ],
+    [
+     [
+      "on your side?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.2,
+   "end": 23.86,
+   "lines": [
+    [
+     [
+      "The weight still",
+      0
+     ]
+    ],
+    [
+     [
+      "feels ",
+      0
+     ],
+     [
+      "gravity,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.86,
+   "end": 26.38,
+   "lines": [
+    [
+     [
+      "so ",
+      0
+     ],
+     [
+      "lock rotation.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.38,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0,
+   4.93,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.93,
+   9.88,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   9.88,
+   14.48,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   14.48,
+   18.9,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   18.9,
+   20.38,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   20.38,
+   26.38,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   26.38,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

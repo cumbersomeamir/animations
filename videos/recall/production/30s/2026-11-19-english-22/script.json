@@ -1,0 +1,39 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Your phone has springs."
+  },
+  {
+   "id": "l02",
+   "text": "Microscopic ones. So how do they know which way is down?"
+  },
+  {
+   "id": "l03",
+   "text": "In a chip, a tiny weight hangs on springs."
+  },
+  {
+   "id": "l04",
+   "text": "Gravity tugs on it, so it shifts slightly."
+  },
+  {
+   "id": "l05",
+   "text": "Its fingers move closer to one set of plates, and the chip measures that change."
+  },
+  {
+   "id": "l06",
+   "text": "Turn the phone sideways, and the weight shifts another way, so the screen turns."
+  },
+  {
+   "id": "l07",
+   "text": "Reading in bed on your side? The weight still feels gravity, so lock rotation."
+  },
+  {
+   "id": "l08",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+# Optional QA only: speech-to-text check of the final narration.
+faster-whisper==1.2.1
