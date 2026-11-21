@@ -40,7 +40,7 @@ was pending.
 can show it in electronic form, in DigiLocker, or the mParivahan app. Those count like the original papers. Once an
 officer verifies it electronically, the paper can't be demanded, even if there's an offence and documents need seizing.
 So add your licence to DigiLocker before you drive. Follow Courtlens for everyday Indian law explained."
-- **TTS spellings:** "Diji Locker" and "M Pari-vaahan" ("DigiLocker" was voiced as "Diggy Locker").
+- **TTS spellings:** "Diji Locker" and "em Puh-ree-vaa-hun" ("DigiLocker" was voiced as "Diggy Locker"; on the final mix, "M Pari-vaahan" was transcribed as "M. Perry Vaughan", so the spelling changed before delivery).
 - **Rewording:** "Stopped at a traffic check" became "You're stopped at…" (the ASR heard "Stop to").
 
 ## Citations [VERIFIED; full text in production notes/LEGAL-SOURCES.md]

@@ -7,7 +7,7 @@ WORDNUM = [("two percent", "2 percent"), ("twenty nineteen", "2019"), ("twenty t
 ALIAS = {"adhar": "aadhaar", "aadhar": "aadhaar", "aadhaars": "aadhaars", "license": "licence", "licenses": "licences", "offense": "offence"}
 # phonetic TTS spellings (narration input) and common ASR spellings, mapped to one token
 PHRASE = [("diji locker", "digilocker"), ("digi locker", "digilocker"), ("digital locker", "digilocker"),
-          ("m pari vaahan", "mparivahan"), ("m parivahan", "mparivahan"), ("m perivahan", "mparivahan"), ("m paravehan", "mparivahan"), ("m parivaahan", "mparivahan")]
+          ("m pari vaahan", "mparivahan"), ("m parivahan", "mparivahan"), ("m perivahan", "mparivahan"), ("m paravehan", "mparivahan"), ("m parivaahan", "mparivahan"), ("em puh ree vaa hun", "mparivahan"), ("m parivahan", "mparivahan")]
 
 def tokens(s):
     s = s.lower().replace("%", " percent").replace("₹", " ")

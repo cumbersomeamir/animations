@@ -248,7 +248,7 @@
     for (let i = 0; i < 5; i++) { const u = ((i + sp) / 5), u2 = Math.min(1, u + 0.08), y1 = lerp(vy, B, u * u), y2 = lerp(vy, B, u2 * u2), w1 = lerp(2, 16, u * u), w2 = lerp(2, 16, u2 * u2);
       ctx.beginPath(); ctx.moveTo(vx - w1, y1); ctx.lineTo(vx + w1, y1); ctx.lineTo(vx + w2, y2); ctx.lineTo(vx - w2, y2); ctx.closePath(); ctx.fillStyle = 'rgba(246,217,160,0.7)'; ctx.fill(); }
     // flashing police lights: red / cyan alternate (brand red and cyan)
-    const ph = thumb ? 0.25 : t * 2.2, red = 0.5 + 0.5 * Math.sin(ph * Math.PI * 2), cy = 1 - red;
+    const ph = 0.25 + t * 2.2, red = 0.5 + 0.5 * Math.sin(ph * Math.PI * 2), cy = 1 - red;
     const flare = thumb ? 0 : Math.max(0, 1 - Math.abs(t - E.check) / 0.6);
     for (const [lx, a, rgb] of [[380, red, '181,67,47'], [620, cy, '18,170,211']]) {
       const g = ctx.createRadialGradient(lx, 930, 4, lx, 930, 300 + 120 * flare); g.addColorStop(0, `rgba(${rgb},${0.55 * a + 0.2})`); g.addColorStop(1, `rgba(${rgb},0)`);
@@ -271,7 +271,7 @@
     const dg = ctx.createLinearGradient(0, 1130, 0, 1480); dg.addColorStop(0, '#22324F'); dg.addColorStop(0.62, '#0F213F'); dg.addColorStop(1, 'rgba(11,26,51,0)'); ctx.fillStyle = dg; ctx.fill(); ctx.restore();   // fades into the paper (no hard edge)
     ctx.save(); ctx.beginPath(); ctx.rect(0, 1100, W, 360); ctx.clip(); ctx.beginPath(); ctx.arc(170, 1640, 330, Math.PI * 1.22, Math.PI * 1.78); ctx.strokeStyle = '#060F21'; ctx.lineWidth = 48; ctx.lineCap = 'round'; ctx.stroke(); ctx.restore();   // steering wheel
     // the wallet on the dash: licence slot empty
-    const hk = thumb ? 1 : 0.6 + 0.4 * Math.sin(t * 4) + 0.8 * Math.max(0, 1 - Math.abs(t - E.home) / 0.6);
+    const hk = 0.6 + 0.4 * Math.cos(t * 4) + 0.8 * Math.max(0, 1 - Math.abs(t - E.home) / 0.6);   // t=0 equals the thumbnail
     ctx.save(); ctx.translate(300, 1300); ctx.rotate(-0.06);
     rr(ctx, -150, -86, 300, 172, 22); ctx.fillStyle = '#7A4E2A'; ctx.fill();
     rr(ctx, -130, -66, 260, 132, 14); ctx.fillStyle = '#5E3B1F'; ctx.fill();
@@ -280,7 +280,7 @@
     ctx.restore();
     // the phone in its dash mount, glowing with the licence
     rr(ctx, 640, 1300, 24, 90, 8); ctx.fillStyle = '#060F21'; ctx.fill();
-    phone(ctx, 652, 1180, 0.62, 0.04, { screen: 'card', cardK: 1, glow: thumb ? 1 : 0.8 + 0.2 * Math.sin(t * 3), cardGlow: 0.6 });
+    phone(ctx, 652, 1180, 0.62, 0.04, { screen: 'card', cardK: 1, glow: 0.8 + 0.2 * Math.cos(t * 3), cardGlow: 0.6 });
   }
 
   // ---------- scene windows (crossfades) ----------

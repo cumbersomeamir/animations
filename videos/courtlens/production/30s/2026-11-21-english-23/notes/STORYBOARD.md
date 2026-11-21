@@ -38,6 +38,6 @@ proposed "NO RETURNS vs defective" repeats episodes 01 and 04 (see `LEGAL-SOURCE
 | CTA | 26.75–30.00 | l10 26.95→29.90 "Follow Courtlens for everyday Indian law explained." | The Courtlens icon pops and the arc draws: "Follow Courtlens / Everyday Indian law, explained". |
 
 - **Narration:** 78 spoken words (TTS spelling count); speech 25.0 s (l1–l9: 22.0 s); gaps of about 0.35–0.5 s for a comfortable pace.
-- **TTS input** spells "Diji Locker" and "M Pari-vaahan" for correct pronunciation ("DigiLocker" was voiced as
+- **TTS input** spells "Diji Locker" and "em Puh-ree-vaa-hun" for correct pronunciation ("DigiLocker" was voiced as
   "Diggy"). Captions show DigiLocker and mParivahan.
 - **Mix gain:** 7.4 dB (fewer spoken words → −16.2 LUFS on the pre-render mix).

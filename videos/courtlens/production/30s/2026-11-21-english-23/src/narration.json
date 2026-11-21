@@ -1,12 +1,42 @@
 [
- {"id": "l1", "text": "Paper or phone?"},
- {"id": "l2", "text": "You're stopped at a traffic check, and your licence is at home."},
- {"id": "l3", "text": "India's motor vehicle rules say:"},
- {"id": "l4", "text": "you can show it in electronic form,"},
- {"id": "l5", "text": "in Diji Locker, or the M Pari-vaahan app."},
- {"id": "l6", "text": "Those count like the original papers."},
- {"id": "l7", "text": "Once an officer verifies it electronically, the paper can't be demanded,"},
- {"id": "l8", "text": "even if there's an offence and documents need seizing."},
- {"id": "l9", "text": "So add your licence to Diji Locker before you drive."},
- {"id": "l10", "text": "Follow Courtlens for everyday Indian law explained."}
+ {
+  "id": "l1",
+  "text": "Paper or phone?"
+ },
+ {
+  "id": "l2",
+  "text": "You're stopped at a traffic check, and your licence is at home."
+ },
+ {
+  "id": "l3",
+  "text": "India's motor vehicle rules say:"
+ },
+ {
+  "id": "l4",
+  "text": "you can show it in electronic form,"
+ },
+ {
+  "id": "l5",
+  "text": "in Diji Locker, or the em Puh-ree-vaa-hun app."
+ },
+ {
+  "id": "l6",
+  "text": "Those count like the original papers."
+ },
+ {
+  "id": "l7",
+  "text": "Once an officer verifies it electronically, the paper can't be demanded,"
+ },
+ {
+  "id": "l8",
+  "text": "even if there's an offence and documents need seizing."
+ },
+ {
+  "id": "l9",
+  "text": "So add your licence to Diji Locker before you drive."
+ },
+ {
+  "id": "l10",
+  "text": "Follow Courtlens for everyday Indian law explained."
+ }
 ]

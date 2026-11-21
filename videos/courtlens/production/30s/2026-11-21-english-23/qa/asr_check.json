@@ -1,0 +1,450 @@
+{
+ "full_wer": 0.013,
+ "heard": "Paper or phone. You're stopped at a traffic check, and your license is at home. India's motor vehicle rules say. You can show it in electronic form. in DigiLocker or the M. Parivahan app. Those count like the original papers. Once an officer verifies it electronically, the paper can't be demanded. even if there's an offense and documents need seizing. So add your license to DigiLocker before you drive. Follow Courtlands for everyday Indian law explained.",
+ "per_line": [
+  {
+   "id": "l1",
+   "script": "Paper or phone?",
+   "heard": "Paper or phone.",
+   "wer": 0.0
+  },
+  {
+   "id": "l2",
+   "script": "You're stopped at a traffic check, and your licence is at home.",
+   "heard": "You're stopped at a traffic check, and your license is at home.",
+   "wer": 0.0
+  },
+  {
+   "id": "l3",
+   "script": "India's motor vehicle rules say:",
+   "heard": "India's motor vehicle rules say.",
+   "wer": 0.0
+  },
+  {
+   "id": "l4",
+   "script": "you can show it in electronic form,",
+   "heard": "You can show it in electronic form.",
+   "wer": 0.0
+  },
+  {
+   "id": "l5",
+   "script": "in Diji Locker, or the em Puh-ree-vaa-hun app.",
+   "heard": "in DigiLocker or the M. Parivahan app.",
+   "wer": 0.0
+  },
+  {
+   "id": "l6",
+   "script": "Those count like the original papers.",
+   "heard": "Those count like the original papers.",
+   "wer": 0.0
+  },
+  {
+   "id": "l7",
+   "script": "Once an officer verifies it electronically, the paper can't be demanded,",
+   "heard": "Once an officer verifies it electronically, the paper can't be demanded.",
+   "wer": 0.0
+  },
+  {
+   "id": "l8",
+   "script": "even if there's an offence and documents need seizing.",
+   "heard": "even if there's an offense and documents need seizing.",
+   "wer": 0.0
+  },
+  {
+   "id": "l9",
+   "script": "So add your licence to Diji Locker before you drive.",
+   "heard": "So add your license to DigiLocker before you drive.",
+   "wer": 0.0
+  },
+  {
+   "id": "l10",
+   "script": "Follow Courtlens for everyday Indian law explained.",
+   "heard": "Follow Courtlands for everyday Indian law explained.",
+   "wer": 0.143
+  }
+ ],
+ "words": [
+  [
+   "Paper",
+   0.0,
+   0.4
+  ],
+  [
+   "or",
+   0.4,
+   0.66
+  ],
+  [
+   "phone.",
+   0.66,
+   0.96
+  ],
+  [
+   "You're",
+   1.2,
+   1.78
+  ],
+  [
+   "stopped",
+   1.78,
+   1.98
+  ],
+  [
+   "at",
+   1.98,
+   2.08
+  ],
+  [
+   "a",
+   2.08,
+   2.24
+  ],
+  [
+   "traffic",
+   2.24,
+   2.5
+  ],
+  [
+   "check,",
+   2.5,
+   2.82
+  ],
+  [
+   "and",
+   3.14,
+   3.26
+  ],
+  [
+   "your",
+   3.26,
+   3.44
+  ],
+  [
+   "license",
+   3.44,
+   3.82
+  ],
+  [
+   "is",
+   3.82,
+   4.04
+  ],
+  [
+   "at",
+   4.04,
+   4.2
+  ],
+  [
+   "home.",
+   4.2,
+   4.46
+  ],
+  [
+   "India's",
+   4.75,
+   5.51
+  ],
+  [
+   "motor",
+   5.51,
+   5.69
+  ],
+  [
+   "vehicle",
+   5.69,
+   5.99
+  ],
+  [
+   "rules",
+   5.99,
+   6.23
+  ],
+  [
+   "say.",
+   6.23,
+   6.55
+  ],
+  [
+   "You",
+   6.7,
+   7.04
+  ],
+  [
+   "can",
+   7.04,
+   7.24
+  ],
+  [
+   "show",
+   7.24,
+   7.44
+  ],
+  [
+   "it",
+   7.44,
+   7.64
+  ],
+  [
+   "in",
+   7.64,
+   7.76
+  ],
+  [
+   "electronic",
+   7.76,
+   8.18
+  ],
+  [
+   "form.",
+   8.18,
+   8.58
+  ],
+  [
+   "in",
+   8.75,
+   9.21
+  ],
+  [
+   "DigiLocker",
+   9.21,
+   10.01
+  ],
+  [
+   "or",
+   10.01,
+   10.27
+  ],
+  [
+   "the",
+   10.27,
+   10.45
+  ],
+  [
+   "M.",
+   10.45,
+   10.67
+  ],
+  [
+   "Parivahan",
+   10.79,
+   11.31
+  ],
+  [
+   "app.",
+   11.31,
+   11.65
+  ],
+  [
+   "Those",
+   11.7,
+   12.16
+  ],
+  [
+   "count",
+   12.16,
+   12.44
+  ],
+  [
+   "like",
+   12.44,
+   12.66
+  ],
+  [
+   "the",
+   12.66,
+   12.84
+  ],
+  [
+   "original",
+   12.84,
+   13.18
+  ],
+  [
+   "papers.",
+   13.18,
+   13.66
+  ],
+  [
+   "Once",
+   13.95,
+   14.47
+  ],
+  [
+   "an",
+   14.47,
+   14.77
+  ],
+  [
+   "officer",
+   14.77,
+   15.11
+  ],
+  [
+   "verifies",
+   15.11,
+   15.71
+  ],
+  [
+   "it",
+   15.71,
+   16.01
+  ],
+  [
+   "electronically,",
+   16.01,
+   16.51
+  ],
+  [
+   "the",
+   17.01,
+   17.11
+  ],
+  [
+   "paper",
+   17.11,
+   17.41
+  ],
+  [
+   "can't",
+   17.41,
+   17.79
+  ],
+  [
+   "be",
+   17.79,
+   17.95
+  ],
+  [
+   "demanded.",
+   17.95,
+   18.33
+  ],
+  [
+   "even",
+   18.6,
+   19.08
+  ],
+  [
+   "if",
+   19.08,
+   19.28
+  ],
+  [
+   "there's",
+   19.28,
+   19.56
+  ],
+  [
+   "an",
+   19.56,
+   19.72
+  ],
+  [
+   "offense",
+   19.72,
+   20.08
+  ],
+  [
+   "and",
+   20.08,
+   20.46
+  ],
+  [
+   "documents",
+   20.46,
+   20.9
+  ],
+  [
+   "need",
+   20.9,
+   21.28
+  ],
+  [
+   "seizing.",
+   21.28,
+   21.62
+  ],
+  [
+   "So",
+   22.0,
+   22.42
+  ],
+  [
+   "add",
+   22.42,
+   22.7
+  ],
+  [
+   "your",
+   22.7,
+   22.9
+  ],
+  [
+   "license",
+   22.9,
+   23.26
+  ],
+  [
+   "to",
+   23.26,
+   23.46
+  ],
+  [
+   "DigiLocker",
+   23.46,
+   24.24
+  ],
+  [
+   "before",
+   24.24,
+   24.54
+  ],
+  [
+   "you",
+   24.54,
+   24.8
+  ],
+  [
+   "drive.",
+   24.8,
+   25.14
+  ],
+  [
+   "Follow",
+   26.75,
+   27.35
+  ],
+  [
+   "Courtlands",
+   27.35,
+   27.87
+  ],
+  [
+   "for",
+   27.87,
+   28.19
+  ],
+  [
+   "everyday",
+   28.19,
+   28.63
+  ],
+  [
+   "Indian",
+   28.63,
+   29.01
+  ],
+  [
+   "law",
+   29.01,
+   29.27
+  ],
+  [
+   "explained.",
+   29.27,
+   29.85
+  ]
+ ],
+ "words_outside_captions": [],
+ "caption_alignment_pass": true
+}

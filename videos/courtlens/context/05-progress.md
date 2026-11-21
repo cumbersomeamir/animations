@@ -13,8 +13,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   21 rejected it too.
 - **Replacement (unrelated, and different from batch 22's valet in question, setting and mechanism):** a licence on
   your phone at a traffic check. Record: `context/episodes/2026-11-21-english23-licence-digilocker.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit 8587172): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-21-english-23/courtlens-30s-english23-01.mp4`
+    sha256 `8ac285b09c85f9d5eedea53e37fe659eac4884ea2ced5f0ede1c70b80546ffe4`
+  - `courtlens-30s-english23-01-thumbnail.png`
+    sha256 `3971a769b510b8fff6687d06f7c0d58ca175b7a57c2f2857f198160bb523f6fd`
+  - QA: `production/30s/2026-11-21-english-23/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-21-english-23/notes/LEGAL-SOURCES.md`)
 - **CMVR r.139 as amended by G.S.R. 1081(E), 2 Nov 2018:** "in physical or electronic form". Read via a reproduction;
@@ -63,8 +69,36 @@ $S/tts/venv/bin/python capcheck.py ../courtlens-30s-english23-01.mp4 ../courtlen
 - The dashboard ended in a hard horizontal edge at y≈1480. It now fades into the paper, and the steering wheel is
   clipped.
 
+### Fixed after the full render
+- **Frame 0 vs thumbnail:** they differed (2.81/255) because of the light phase, glow and wallet pulse. The t=0 values
+  now equal the thumbnail's; frames 0–150 were re-rendered (neighbours 151–153, 600 and 899 bit-identical).
+- **Proper noun on the final mix:** "M Pari-vaahan" was transcribed as "M. Perry Vaughan". The TTS spelling became
+  "em Puh-ree-vaa-hun" (tested: "M. Parivahan"); l5 was re-synthesised.
+- **Re-render and re-mux:**
+  ```bash
+  node render.cjs range $S/build23/frames 0-150
+  SKIP_TTS=1 SKIP_FRAMES=1 PY=$S/tts/venv/bin/python WORK=$S/build23 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+  ```
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.3 LUFS, true peak −2.4 dBFS; 10/10 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.013 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 113..885, y 285..449; y<280 clear.
+- Frame 0 vs thumbnail mean abs diff 1.55/255.
+
+### Unresolved
+- Listening is ASR-only. Nobody watched or listened in real time.
+- **G.S.R. 1081(E):** the amending text was read via a reproduction. The MoRTH PDF was not retrievable here, so re-read
+  the Gazette when reachable. The core "not demanded" claim rests on the official PIB release and MoRTH's letter.
+- **Proper nouns:** "DigiLocker" and "mParivahan" use phonetic TTS spellings. A native listen is recommended to
+  confirm they sound natural.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+- Await the next batch request. No automation and no further episode unless asked. `$S/build23/frames` is deleted
+  after delivery.
 
 ## Round 2026-11-19 (english-22, batch 22): "Your car. Your risk?": valet "owner's risk" ticket (SC, 2019)
 
