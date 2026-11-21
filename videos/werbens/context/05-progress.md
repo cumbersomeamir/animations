@@ -95,3 +95,10 @@
   illustrative math 40+6=46 vs 40+10=50; captions y 293–447 per the brief (now standard, context/27 §6); frame 0 = thumbnail;
   live feedback applied (app.werbens.com colours/logo); render 2 after a review (denser move, longer pause); sha256 434afd8b;
   context/38).
+- English-23 (batch23 2026-11-21-english-23) IN PROGRESS `production/30s/2026-11-21-english-23/werbens-30s-english23-01.mp4`
+  + thumbnail (Spotify Wrapped as an identity-sharing distribution format, "THE CUSTOMER BECAME THE CHANNEL"; not covered
+  before; Spotify Newsroom 2018/2025, Berger 2014, Toubia & Stephen 2013; original illustrative card, no metrics; frame 0 =
+  thumbnail; context/39). Done: research, brand re-check, script, narration + word timing, audio mix, scene (card + 6-level
+  share tree of 1,092 paths, pawns, ad board; push-in/orbit/crane/descend cameras), stills passes (labels/framing/ad/lean fixed),
+  thumbnail (logo row on a backing pill), `node src/qa_dom.mjs 3` = 0 issues; checkpoint commit. Next: full render
+  (`node src/render.mjs --video`), mux, qa.sh, frame review of every cut, ASR, docs, push, attach.
