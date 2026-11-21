@@ -126,3 +126,9 @@ applied: dark-navy hero theme and the unchanged logo SVG in every scene (context
 Re-loaded again (HTTP 200 → /app): top-40 computed colour list identical to the batch-21 check; wordmark styling unchanged;
 logo SVG sha256 816c1761… unchanged. Live feedback "only color theme and logo needs to be changed, take from app.werbens.com"
 applied: dark-navy hero theme and the unchanged logo SVG in every scene (context/38 §3).
+
+## Re-check for english-23 (batch23, 2026-11-21)
+Re-loaded again (HTTP 200 → /app, scratchpad `appweb-dl-1121`): top-40 computed colour list identical to the batch-22 check;
+wordmark styling unchanged (Space Grotesk 700, 135° #7FE7DC→#316879); logo SVG sha256 816c1761… unchanged. Live feedback
+"only color theme and logo needs to be changed, take from app.werbens.com" applied: dark-navy hero theme, the card face uses
+the app's 135° gradient, and the unchanged logo SVG is on the CTA tile and the thumbnail (context/39 §3).
