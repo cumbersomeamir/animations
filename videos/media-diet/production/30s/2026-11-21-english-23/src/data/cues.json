@@ -1,0 +1,92 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "KICKED FLAT.",
+   "HOW DOES IT GET UP?"
+  ],
+  "in": 0.0,
+  "out": 1.85,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "In a new study, researchers",
+   "kicked this robot 47 times."
+  ],
+  "in": 1.87,
+  "out": 6.14
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "To stand, its center of mass",
+   "must be over its feet."
+  ],
+  "in": 6.16,
+  "out": 9.32
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "So it plants its hands,",
+   "shifts its weight over its feet,"
+  ],
+  "in": 9.34,
+  "out": 12.245
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "then lets go."
+  ],
+  "in": 12.265,
+  "out": 13.56
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "In training, an invisible lift",
+   "held its head, then faded out."
+  ],
+  "in": 13.58,
+  "out": 17.56
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "On the real robot:",
+   "34 falls, 34 get-ups."
+  ],
+  "in": 17.58,
+  "out": 21.38
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "It proves recovery,",
+   "not toughness:"
+  ],
+  "in": 21.4,
+  "out": 23.475
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "kick strength was",
+   "never measured."
+  ],
+  "in": 23.495,
+  "out": 25.532
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 25.97,
+  "out": 29.473
+ }
+]

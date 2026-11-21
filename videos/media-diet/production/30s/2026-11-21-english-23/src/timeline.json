@@ -1,0 +1,190 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "Kicked flat. How does it get up?",
+   "cues": [
+    [
+     "KICKED FLAT.",
+     "HOW DOES IT GET UP?"
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.95,
+   "say": "In a new study, researchers kicked this robot 47 times.",
+   "cues": [
+    [
+     "In a new study, researchers",
+     "kicked this robot 47 times."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.24,
+   "say": "To stand, its center of mass must be over its feet.",
+   "cues": [
+    [
+     "To stand, its center of mass",
+     "must be over its feet."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 9.42,
+   "say": "So it plants its hands, shifts its weight over its feet, then lets go.",
+   "cues": [
+    [
+     "So it plants its hands,",
+     "shifts its weight over its feet,"
+    ],
+    [
+     "then lets go."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 13.66,
+   "say": "In training, an invisible lift held its head, then faded out.",
+   "cues": [
+    [
+     "In training, an invisible lift",
+     "held its head, then faded out."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 17.66,
+   "say": "On the real robot: 34 falls, 34 get-ups.",
+   "cues": [
+    [
+     "On the real robot:",
+     "34 falls, 34 get-ups."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 21.48,
+   "say": "It proves recovery, not toughness: kick strength was never measured.",
+   "cues": [
+    [
+     "It proves recovery,",
+     "not toughness:"
+    ],
+    [
+     "kick strength was",
+     "never measured."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.05,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.85,
+   "beat": "first frame / hook: a humanoid kicked flat on a paper test lawn, pushing up; centre-of-mass marker + plumb line; \"KICKED FLAT. / HOW DOES IT GET UP?\""
+  },
+  {
+   "id": "S2",
+   "in": 1.85,
+   "out": 6.14,
+   "beat": "the study: the robot stands, a boot kicks it from behind, it falls forward (prone); \"47 kicks\" counter + dated chip"
+  },
+  {
+   "id": "S3",
+   "in": 6.14,
+   "out": 9.32,
+   "beat": "principle: centre of mass far from the feet (red); a ghost standing over its feet shows the goal"
+  },
+  {
+   "id": "S4",
+   "in": 9.32,
+   "out": 13.56,
+   "beat": "mechanism: plants hands (wide support), steps feet in, shifts weight back; hand force falls to 0 N, lets go, stands (live statics readout)"
+  },
+  {
+   "id": "S5",
+   "in": 13.56,
+   "out": 17.56,
+   "beat": "training trick: in a simulation grid world a 400 N lift on the head helps, then fades to 0 N (20 N steps)"
+  },
+  {
+   "id": "S6",
+   "in": 17.56,
+   "out": 21.38,
+   "beat": "hardware result: 47 tiles; 34 falls flip to get-ups; 5 no-fall + 8 safety cut-outs; stopwatch 2.64 s mean"
+  },
+  {
+   "id": "S7",
+   "in": 21.38,
+   "out": 25.95,
+   "beat": "payoff: the robot walks on (task resumed); a kick-force meter reads \"?\" — proves recovery, not toughness"
+  },
+  {
+   "id": "S8",
+   "in": 25.95,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign flips up; the robot waves behind it"
+  }
+ ],
+ "events": {
+  "kick": 3.62,
+  "labKick": 4.55,
+  "labCom": 7.15,
+  "ghost": 8.3,
+  "plant": 9.75,
+  "plank": 10.3,
+  "labLift": 14.6,
+  "reset": 15.62,
+  "liftFade": 16.45,
+  "liftZero": 17.05,
+  "tiles": 17.75,
+  "green": 18.95,
+  "labTally": 20.0,
+  "flags": 20.35,
+  "walk": 21.6,
+  "labProof": 21.75,
+  "dial": 23.75,
+  "sign": 26.15
+ }
+}

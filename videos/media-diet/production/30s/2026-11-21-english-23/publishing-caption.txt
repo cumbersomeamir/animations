@@ -1,0 +1,7 @@
+Kicked flat. How does it get up? In a new study, researchers kicked this robot 47 times. To stand, its center of mass must be over its feet. So it plants its hands, shifts its weight over its feet, then lets go. In training, an invisible lift held its head, then faded out. On the real robot: 34 falls, 34 get-ups. It proves recovery, not toughness: kick strength was never measured.
+
+Follow Media Diet for the physics behind the headlines.
+
+ReLoco (Huazhong University of Science and Technology + Beijing Innovation Center of Humanoid Robots), arXiv preprint 2611.23916, 18 Nov 2026, not yet peer-reviewed: one learned policy on the 1.70 m, 64.5 kg Tiangong 3.0 humanoid. Of 47 kicks while standing, 34 caused falls with control active and all 34 ended in autonomous get-ups (mean 2.64 s); 5 caused no fall and 8 tripped the robot's safety cut-out; kick forces were not measured. The 400 N head lift was used only in simulation training. Visuals: illustrative 3D recreation; force readouts are illustrative statics.
+
+#Robotics #Humanoid #Physics #MediaDiet

@@ -426,3 +426,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Commands: `bash build/render_chunks.sh …` (3 workers) → `SKIP_FRAMES=1 bash build/build.sh` → `node build/thumb.mjs thumbnail-english22-01.png`
   → JPEG q2; QA first/last frames converted to JPEG (PNG copies of this episode's own fresh outputs removed for disk).
 - Unresolved: not yet watched or listened to by a human. Earlier outputs untouched. Next: batch 23.
+
+## Checkpoint 2026-11-21 — english-23 / batch 23 (topic + sources recorded; rendering)
+- Batch 22 delivered first (8d061f2). All prior topic records read (context/11 rows english06…22; batch 22's actual subject = BYD flash
+  charging). Candidates: ReLoco humanoid fall recovery (arXiv 2611.23916, 18 Nov 2026) → chosen; 151-humanoid Guinness dance (17 Nov,
+  press only) → rejected (no recovery mechanism/measurement). Record context/38; SOURCES.md; log row in context/11 (in progress).
+- Script 80 words / 26.0 s (Whisper-exact takes). Scene: new outdoor paper test lawn + holographic simulation pad; IK paper humanoid; CoM
+  from an illustrative mass split; live 2-D statics readout (labelled illustrative); 400 N → 0 N training lift; 47-tile tally; kick-force
+  meter. Stills inspected in four framing passes (subjects lifted above the label band, three-quarter angles for depth, boot visible).
+- Operational: CRF 23 + JPEG QA/thumbnail for disk (~65 MB free); RAM disk /dev/shm/md-e23. Running: three render_chunks workers.
+  Next: chunk-start check, `SKIP_FRAMES=1 bash build/build.sh`, sheets, thumbnail, QA.md, commit, push, attach.

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "Kicked flat. How does it get up?",
+  "duration": 1.523,
+  "words": 7
+ },
+ {
+  "id": "V2",
+  "say": "In a new study, researchers kicked this robot 47 times.",
+  "duration": 3.907,
+  "words": 10
+ },
+ {
+  "id": "V3",
+  "say": "To stand, its center of mass must be over its feet.",
+  "duration": 2.799,
+  "words": 11
+ },
+ {
+  "id": "V4",
+  "say": "So it plants its hands, shifts its weight over its feet, then lets go.",
+  "duration": 3.848,
+  "words": 14
+ },
+ {
+  "id": "V5",
+  "say": "In training, an invisible lift held its head, then faded out.",
+  "duration": 3.613,
+  "words": 11
+ },
+ {
+  "id": "V6",
+  "say": "On the real robot: 34 falls, 34 get-ups.",
+  "duration": 3.425,
+  "words": 8
+ },
+ {
+  "id": "V7",
+  "say": "It proves recovery, not toughness: kick strength was never measured.",
+  "duration": 3.752,
+  "words": 10
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]
