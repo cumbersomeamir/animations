@@ -1,0 +1,71 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "Waze": "wˈAz (not in the misaki lexicon)"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "No GPS in this tunnel. Why is the dot still moving?",
+   "after": 0.25
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Your map is guessing, on purpose.",
+   "after": 0.25
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "It keeps your last speed and heading. That's dead reckoning.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Sensors can catch curves, and map matching keeps it on the road.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "But guesses drift. In our simulation, the dot ran ninety meters ahead.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Some tunnels add [Waze](/wˈAz/) beacons, so phones still get location.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "Building a map? Grow the blue circle while guessing, then snap back to GPS.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

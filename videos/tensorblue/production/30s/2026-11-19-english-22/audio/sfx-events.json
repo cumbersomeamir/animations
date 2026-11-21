@@ -1,0 +1,177 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 1.113,
+   "type": "drop"
+  },
+  {
+   "t": 3.514,
+   "type": "wipe"
+  },
+  {
+   "t": 3.81,
+   "type": "slide"
+  },
+  {
+   "t": 4.31,
+   "type": "pop"
+  },
+  {
+   "t": 5.431,
+   "type": "wipe"
+  },
+  {
+   "t": 6.964,
+   "type": "reject"
+  },
+  {
+   "t": 7.633,
+   "type": "type"
+  },
+  {
+   "t": 8.705,
+   "type": "wipe"
+  },
+  {
+   "t": 10.524,
+   "type": "type"
+  },
+  {
+   "t": 11.729,
+   "type": "slot"
+  },
+  {
+   "t": 12.425,
+   "type": "wipe"
+  },
+  {
+   "t": 12.425,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 16.497,
+   "type": "match"
+  },
+  {
+   "t": 17.027,
+   "type": "wipe"
+  },
+  {
+   "t": 17.364,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 17.816,
+   "type": "type"
+  },
+  {
+   "t": 17.95,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 18.517,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 19.142,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 19.912,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 20.681,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 20.91,
+   "type": "wipe"
+  },
+  {
+   "t": 22.02,
+   "type": "type"
+  },
+  {
+   "t": 23.975,
+   "type": "match"
+  },
+  {
+   "t": 25.549,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.182,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "gps": 0.325,
+  "tunnel": 1.163,
+  "why": 1.875,
+  "moving": 2.888,
+  "guessing": 4.11,
+  "purpose": 4.685,
+  "keeps3": 5.626,
+  "speed": 6.301,
+  "heading": 6.726,
+  "dead": 7.713,
+  "sensors": 8.828,
+  "curves": 9.728,
+  "map4": 10.604,
+  "road": 11.829,
+  "drift": 13.074,
+  "simulation": 14.211,
+  "ninety": 15.649,
+  "ahead": 16.411,
+  "tunnels6": 17.366,
+  "waze": 17.916,
+  "beacons": 18.241,
+  "location": 20.016,
+  "building": 21.03,
+  "grow": 22.1,
+  "circle": 22.7,
+  "snap": 23.925,
+  "gps7": 24.687,
+  "follow": 27,
+  "tb": 27.282,
+  "chime": 25.549,
+  "scenes": [
+   0,
+   3.514,
+   5.431,
+   8.705,
+   12.425,
+   17.026999999999997,
+   20.91,
+   26.6,
+   30.01
+  ]
+ }
+}

@@ -186,6 +186,20 @@ Practical system design · useful new GitHub tools · research explained through
     - Layout lesson: put a story's key indicator where every shot looks (here a scoreboard at the far end of the belt), and draw large base objects (belts, floors) first rather than sorting them as one object.
     - Notes: `34-production-30s-english21-01.md`.
 
+- **2026-11-19 brief (batch22) — NEW STANDING LAYOUT RULES (apply from english-22 on):**
+  - **Captions** sit in the upper band at about **y 280–460**, centred x 500, ≤ 760 px lines. `qa.mjs` checks ink inside x 100–900 / y 280–460, the top 0–280 clean, and no stage pixels in y 280–479. The stage starts at **y 480**.
+  - **Text density:** no more than **one short headline plus the spoken caption** at any moment. Use one kinetic headline per shot, not stacked tags.
+  - **Placement:** keep vital information away from the right-side and bottom platform controls. Measure key elements on frame 0; for example, the english-22 phone dot sits at y ≈ 1460.
+  - **Interfaces:** an interface shown must be accurate, or visibly illustrative and internally consistent. **No fictional buttons.**
+  - **QA:** "watch fully" means a 2-frames-per-second review of the whole exported file, plus full-resolution crops, and the notes say so honestly. Check the silent render has 900 frames **before** muxing; an english-22 crash once produced a 798-frame export.
+  - **Audio:** if the AAC export overshoots, lower `TP_CEIL_DB` in `mix.py`. english-22 used −3.0, because −1.6 overshot to +0.5 dBTP after encoding.
+  - english-22: how a map keeps the blue dot moving in a tunnel.
+    - Frame zero: **GPS IS GONE. WHY MOVE?**
+    - Our simulation shows straight-line dead reckoning leaving the road, and turn sensor + map matching staying on the road but drifting 92 m ahead until the next fix.
+    - Waze Beacons appear as the real thing an app did.
+    - The payoff is the Google Maps blue accuracy circle.
+    - Notes: `36-production-30s-english22-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

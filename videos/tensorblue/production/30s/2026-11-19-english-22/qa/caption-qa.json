@@ -1,0 +1,259 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "No GPS in this tunnel."
+   ],
+   "t0": 0.04,
+   "tEnd": 1.81,
+   "frame": 19,
+   "box": {
+    "x0": 222,
+    "x1": 777,
+    "y0": 349,
+    "y1": 390,
+    "n": 9120
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Why is the dot",
+    "still moving?"
+   ],
+   "t0": 1.81,
+   "tEnd": 3.57,
+   "frame": 72,
+   "box": {
+    "x0": 314,
+    "x1": 685,
+    "y0": 311,
+    "y1": 428,
+    "n": 11811
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Your map is guessing,",
+    "on purpose."
+   ],
+   "t0": 3.57,
+   "tEnd": 5.47,
+   "frame": 125,
+   "box": {
+    "x0": 213,
+    "x1": 782,
+    "y0": 311,
+    "y1": 427,
+    "n": 14349
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "It keeps your last",
+    "speed and heading."
+   ],
+   "t0": 5.47,
+   "tEnd": 7.37,
+   "frame": 182,
+   "box": {
+    "x0": 245,
+    "x1": 752,
+    "y0": 314,
+    "y1": 428,
+    "n": 16132
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "That's dead reckoning."
+   ],
+   "t0": 7.37,
+   "tEnd": 8.74,
+   "frame": 239,
+   "box": {
+    "x0": 201,
+    "x1": 796,
+    "y0": 343,
+    "y1": 396,
+    "n": 9814
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Sensors can",
+    "catch curves,"
+   ],
+   "t0": 8.74,
+   "tEnd": 10.42,
+   "frame": 280,
+   "box": {
+    "x0": 324,
+    "x1": 673,
+    "y0": 314,
+    "y1": 426,
+    "n": 10673
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and map matching",
+    "keeps it on the road."
+   ],
+   "t0": 10.42,
+   "tEnd": 12.46,
+   "frame": 331,
+   "box": {
+    "x0": 238,
+    "x1": 760,
+    "y0": 311,
+    "y1": 427,
+    "n": 16692
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "But guesses drift."
+   ],
+   "t0": 12.46,
+   "tEnd": 13.89,
+   "frame": 392,
+   "box": {
+    "x0": 274,
+    "x1": 725,
+    "y0": 343,
+    "y1": 396,
+    "n": 7831
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "In our simulation, the dot",
+    "ran ninety meters ahead."
+   ],
+   "t0": 13.89,
+   "tEnd": 17.09,
+   "frame": 435,
+   "box": {
+    "x0": 178,
+    "x1": 822,
+    "y0": 312,
+    "y1": 428,
+    "n": 20718
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Some tunnels add",
+    "Waze beacons,"
+   ],
+   "t0": 17.09,
+   "tEnd": 18.98,
+   "frame": 531,
+   "box": {
+    "x0": 268,
+    "x1": 730,
+    "y0": 314,
+    "y1": 426,
+    "n": 14545
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "so phones still",
+    "get location."
+   ],
+   "t0": 18.98,
+   "tEnd": 20.97,
+   "frame": 587,
+   "box": {
+    "x0": 314,
+    "x1": 683,
+    "y0": 311,
+    "y1": 428,
+    "n": 11707
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Building a map?"
+   ],
+   "t0": 20.97,
+   "tEnd": 22.04,
+   "frame": 647,
+   "box": {
+    "x0": 297,
+    "x1": 703,
+    "y0": 343,
+    "y1": 396,
+    "n": 7208
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Grow the blue circle",
+    "while guessing,"
+   ],
+   "t0": 22.04,
+   "tEnd": 23.67,
+   "frame": 679,
+   "box": {
+    "x0": 243,
+    "x1": 757,
+    "y0": 311,
+    "y1": 428,
+    "n": 15598
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "then snap back to GPS."
+   ],
+   "t0": 23.67,
+   "tEnd": 26.95,
+   "frame": 728,
+   "box": {
+    "x0": 197,
+    "x1": 798,
+    "y0": 345,
+    "y1": 394,
+    "n": 9746
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 312,
+    "y1": 428,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "pass": true,
+ "checkedFrames": 90
+}
