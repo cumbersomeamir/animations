@@ -277,6 +277,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 | 22 | 2026-11-17-english-20 | Why your phone skips the nearest tower (network membership, ranking by measured signal, margin + set time against ping-pong), **English** + thumbnail | `production/30s/2026-11-17-english-20/meshline-30s-english20-01.mp4` |
 | 23 | 2026-11-18-english-21 | Why pairing shows the same six digits on both phones (numeric comparison: public keys, shared secret, middleman makes numbers differ, tap pair only on a match), **English** + thumbnail | `production/30s/2026-11-18-english-21/meshline-30s-english21-01.mp4` |
 | 24 | 2026-11-19-english-22 | Why two short wireless hops can beat one long hop (distance loss, half hop ≈ 4×, retries/ETX, relay airtime, decent direct link wins), **English** + thumbnail | `production/30s/2026-11-19-english-22/meshline-30s-english22-01.mp4` |
+| 25 | 2026-11-21-english-23 | Why your phone keeps changing its Bluetooth address (fixed address = tracked; Android RPA rotation ≤ 15 min; paired devices resolve with the shared key; keep the device name plain), **English** + thumbnail | `production/30s/2026-11-21-english-23/meshline-30s-english23-01.mp4` |
 
 ## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
 - **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
@@ -304,3 +305,8 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Platform controls:** keep vital information away from the right side and bottom. Instrument plate x 96–864, counts right-aligned at about 830, key scene objects left of about x 880.
 - **Each brief:** at most one short headline plus the current spoken caption; one idea per shot; beat-synced sound accents.
 - **Topics now taken:** multi-hop vs one long hop (24). The ETX / airtime trade-off is used; don't make it the core again.
+
+## Production notes 2026-11-21, batch english-23 (specific adjustments only; the standing briefs still apply)
+- **Topic rule applied:** "elevator / metal lift swallows the signal" is an obstruction repeat (07/14/16; lift explicitly listed). It was replaced with Bluetooth LE address privacy (25). Metal boxes, cars, basements and lifts all count as obstruction repeats.
+- **Topics now taken:** address rotation / RPA / tracking privacy (25). Bluetooth security angles used so far: pairing MITM (23) and address privacy (25); pick a non-Bluetooth-security core next unless the user asks.
+- **Walking shots:** pan the camera with the subject so tags and labels stay left of about 890 px; close-ups hide unneeded stops.

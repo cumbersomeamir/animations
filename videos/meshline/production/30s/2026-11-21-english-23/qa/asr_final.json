@@ -1,0 +1,46 @@
+{
+ "reference": "Why does your phone keep changing its Bluetooth address? A fixed address would let scanners follow you around. So Android swaps in a new random address at least every fifteen minutes. To a stranger's scanner, it is a new device each time. But paired devices share a secret key, so they still know it is you. Your device name can still give you away, so keep it plain. Download Meshline for private nearby messages, even offline.",
+ "asr": "Why does your phone keep changing its Bluetooth address? A fixed address would let scanners follow you around. So Android swaps in a new random address, at least every 15 minutes. To a stranger's scanner, it is a new device each time. But paired devices share a secret key, so they still know it is you. Your device name can still give you away, so keep it plain. Download Meshline for private nearby messages, even offline.",
+ "wer": 0.013,
+ "segments": [
+  [
+   0.0,
+   3.4,
+   "Why does your phone keep changing its Bluetooth address?"
+  ],
+  [
+   3.4,
+   6.8,
+   "A fixed address would let scanners follow you around."
+  ],
+  [
+   6.8,
+   11.8,
+   "So Android swaps in a new random address, at least every 15 minutes."
+  ],
+  [
+   11.8,
+   15.8,
+   "To a stranger's scanner, it is a new device each time."
+  ],
+  [
+   15.8,
+   20.8,
+   "But paired devices share a secret key, so they still know it is you."
+  ],
+  [
+   20.8,
+   25.4,
+   "Your device name can still give you away, so keep it plain."
+  ],
+  [
+   25.4,
+   30.0,
+   "Download Meshline for private nearby messages, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "number words: ASR writes \"15\" for the spoken \"fifteen\"; with that mapped, no differences remain",
+ "remaining_diffs": [],
+ "audio_pcm_sha256_prefix": "02a9054b1afacbae"
+}

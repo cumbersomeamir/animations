@@ -1,0 +1,77 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "Why does your phone keep changing its Bluetooth address?",
+   "file": "l1.wav",
+   "sr": 24000,
+   "duration": 2.666,
+   "end": 2.916
+  },
+  {
+   "id": "l2",
+   "start": 3.6,
+   "text": "A fixed address would let scanners follow you around.",
+   "file": "l2.wav",
+   "sr": 24000,
+   "duration": 2.587,
+   "end": 6.187
+  },
+  {
+   "id": "l3",
+   "start": 7.0,
+   "text": "So Android swaps in a new random address at least every fifteen minutes.",
+   "file": "l3.wav",
+   "sr": 24000,
+   "duration": 4.204,
+   "end": 11.204
+  },
+  {
+   "id": "l4",
+   "start": 12.0,
+   "text": "To a stranger's scanner, it is a new device each time.",
+   "file": "l4.wav",
+   "sr": 24000,
+   "duration": 3.242,
+   "end": 15.242
+  },
+  {
+   "id": "l5",
+   "start": 16.1,
+   "text": "But paired devices share a secret key, so they still know it is you.",
+   "file": "l5.wav",
+   "sr": 24000,
+   "duration": 3.892,
+   "end": 19.992
+  },
+  {
+   "id": "l6",
+   "start": 21.1,
+   "text": "Your device name can still give you away, so keep it plain.",
+   "file": "l6.wav",
+   "sr": 24000,
+   "duration": 3.217,
+   "end": 24.317
+  },
+  {
+   "id": "l7",
+   "start": 25.61,
+   "text": "Download Meshline for private nearby messages, even offline.",
+   "file": "l7.wav",
+   "sr": 24000,
+   "duration": 3.936,
+   "end": 29.546
+  }
+ ]
+}

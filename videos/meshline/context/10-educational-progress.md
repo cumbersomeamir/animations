@@ -128,3 +128,6 @@
 
 ## Production 2026-11-19-english-22 (English, why two short wireless hops can beat one long hop): complete
 - See `35-production-30s-english22-01.md`; output sha256 `167542696ac408796c09b5e4a676cb65ec8361dd592f8934bee8a84f42bed0db`; thumbnail = frame-zero composition.
+
+## Production 2026-11-21-english-23 (English, why your phone keeps changing its Bluetooth address): complete
+- See `36-production-30s-english23-01.md`; output sha256 `cbd8e290b46b76efc36aa48075e3045fcba7d5815c984316dc983175f571f3a5`; thumbnail = frame-zero composition.

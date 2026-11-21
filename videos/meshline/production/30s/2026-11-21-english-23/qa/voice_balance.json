@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 2.916,
+  "text": "Why does your phone keep changing its Bluetooth address?",
+  "speech_band_db": 29.0
+ },
+ {
+  "id": "l2",
+  "start": 3.6,
+  "end": 6.187,
+  "text": "A fixed address would let scanners follow you around.",
+  "speech_band_db": 24.8
+ },
+ {
+  "id": "l3",
+  "start": 7.0,
+  "end": 11.204,
+  "text": "So Android swaps in a new random address at least every fifteen minutes.",
+  "speech_band_db": 22.6
+ },
+ {
+  "id": "l4",
+  "start": 12.0,
+  "end": 15.242,
+  "text": "To a stranger's scanner, it is a new device each time.",
+  "speech_band_db": 25.9
+ },
+ {
+  "id": "l5",
+  "start": 16.1,
+  "end": 19.992,
+  "text": "But paired devices share a secret key, so they still know it is you.",
+  "speech_band_db": 22.1
+ },
+ {
+  "id": "l6",
+  "start": 21.1,
+  "end": 24.317,
+  "text": "Your device name can still give you away, so keep it plain.",
+  "speech_band_db": 24.5
+ },
+ {
+  "id": "l7",
+  "start": 25.61,
+  "end": 29.546,
+  "text": "Download Meshline for private nearby messages, even offline.",
+  "speech_band_db": 22.2
+ }
+]
