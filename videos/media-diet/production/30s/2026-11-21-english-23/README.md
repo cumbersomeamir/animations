@@ -17,5 +17,6 @@ feet until the hands carry 0 N, then let go and stand — learned in simulation 
 | `audio/narration/` · `build/` | committed Kokoro English takes · build, render, audio, QA scripts |
 
 Rebuild: `bash build/build.sh`; `SKIP_FRAMES=1` reuses `frames/` (RAM-disk symlink `/dev/shm/md-e23`; recreate after a restart).
-Parallel render: `bash build/render_chunks.sh 0 60 120 180 240` (and 300…540, 600…840 in two more shells).
+Parallel render: `TMPDIR=/dev/shm/md-e23/tmp bash build/render_chunks.sh 0 60 120 180 240` (and 300…540, 600…840 in two more shells);
+keep Chromium's temp files on the RAM disk — with little disk free they spike by ~8 MB and a worker died with "Unable to capture screenshot".
 Thumbnail: `node build/thumb.mjs thumbnail-english23-01.png`, then `ffmpeg -i thumbnail-english23-01.png -q:v 2 thumbnail-english23-01.jpg` (JPEG kept for disk).

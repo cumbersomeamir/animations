@@ -436,3 +436,6 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   meter. Stills inspected in four framing passes (subjects lifted above the label band, three-quarter angles for depth, boot visible).
 - Operational: CRF 23 + JPEG QA/thumbnail for disk (~65 MB free); RAM disk /dev/shm/md-e23. Running: three render_chunks workers.
   Next: chunk-start check, `SKIP_FRAMES=1 bash build/build.sh`, sheets, thumbnail, QA.md, commit, push, attach.
+- 2026-11-21 (batch 23, rendering): a render worker died with "Unable to capture screenshot" while free disk swung by ~8 MB (Chromium
+  temp files in /tmp with ~20–40 MB free). All workers restarted with `TMPDIR=/dev/shm/md-e23/tmp`; disk then steady at ~60 MB.
+  Use TMPDIR on the RAM disk for all future renders. README updated.
