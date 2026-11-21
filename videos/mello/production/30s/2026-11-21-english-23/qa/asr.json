@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Stop pushing the idea. A stuck problem can loosen when you step away. But what kind of break? In one study, people listed new uses for everyday objects, then tried again. An easy task in between beat a hard task, rest, or no break. The easy task let minds wander, but later studies often haven't found that edge. So note the problem, water a plant, then come back. Take a mindful break with Mello.",
+  "transcript": "Stop pushing the idea. A stuck problem can loosen when you step away. But what kind of break? In one study, people listed new uses for everyday objects, then tried again. An easy task in between beat a hard task, rest, or no break. The easy task let minds wander, but later studies often haven't found that edge. So note the problem, water a plant, then come back. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.349,
+      "text": "Stop pushing the idea.",
+      "cer": 0.0
+    },
+    {
+      "id": "super",
+      "start": 1.75,
+      "end": 5.609,
+      "text": "A stuck problem can loosen when you step away. But what kind of break?",
+      "cer": 0.0
+    },
+    {
+      "id": "p1",
+      "start": 6.05,
+      "end": 10.969,
+      "text": "In one study, people listed new uses for everyday objects, then tried again.",
+      "cer": 0.0
+    },
+    {
+      "id": "p2",
+      "start": 11.45,
+      "end": 15.451,
+      "text": "An easy task in between beat a hard task, rest, or no break.",
+      "cer": 0.0
+    },
+    {
+      "id": "why",
+      "start": 15.95,
+      "end": 20.749,
+      "text": "The easy task let minds wander, but later studies often haven't found that edge.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 21.15,
+      "end": 24.014,
+      "text": "So note the problem, water a plant, then come back.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

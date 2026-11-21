@@ -27,8 +27,8 @@ The source is a copy of `../../2026-11-19-english-22/project/` (renderer, audit,
   - "ONE STUDY / new uses for everyday objects": chips TRY 1 (mug icon, list), "in between ?", TRY 2 ("same problems");
   - then, from a low angle, "IMPROVEMENT ON TRY 2": the gold "easy task" bar pulls ahead of "hard task, rest, or no break";
   - direction only, no values; no fade-out before the cut.
-- **S5:** an easy task (a ball tossed hand to hand) and a gold dotted trail drifting from her head; on the caveat it greys and a "?" appears inside its loop.
-- **S6–S7:** a "?" sticky note on piece A; she waters the desk plant; she turns B around and it clicks in (a small radial glow at the seam).
+- **S5:** an easy task (a ball tossed hand to hand) and a gold dotted trail drifting from his head; on the caveat it greys and a "?" appears inside its loop.
+- **S6–S7:** a "?" sticky note on piece A; he waters the desk plant; he turns B around and it clicks in (a small radial glow at the seam).
 - **Sound:**
   - Dm9 (stuck) → Fmaj7 → Am7 → Cadd9, with felt-piano notes;
   - SFX: soft bumps on each shove, two knocks as the pieces are set down, card ticks, ball pats, a faint airy rise (wandering) and settle (doubt), a paper tap, a water trickle, a soft click and a glass note;
@@ -37,8 +37,8 @@ The source is a copy of `../../2026-11-19-english-22/project/` (renderer, audit,
 ## Fix log (stills and audit before the full render)
 1. **First stills:**
    - The wall shape was huge and behind the caption, and it was cut off.
-   - The arms crossed: at yaw π her left is world +x, so the hand targets were swapped.
-   - Her head sat under the caption in the close shots, and the seam glow was a flat rectangle.
+   - The arms crossed: at yaw π his left is world +x, so the hand targets were swapped.
+   - His head sat under the caption in the close shots, and the seam glow was a flat rectangle.
    - The wall shape sat behind the lock-up, and the final pieces were in the bottom zone.
    - Fixes: the wall shape is smaller, lower and only in S1; the hands are swapped; the shots are reframed with the distance and aim computed against the y 280–460 band; the glow is a radial sprite.
 2. **S5:** the "?" first rose into the top UI area; it now sits inside the trail's loop. A stray first trail dot showed before the wandering began (`f <= 0`); it is fixed.

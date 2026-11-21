@@ -6,8 +6,8 @@
 // (section 9), the caption band y 280-460 (section 10), the store-sampled palette (context/22) and a soothing original
 // bed under the voice (live feedback: published colours + soothing audio).
 // New: the approved performer forcing two stubborn puzzle pieces together (tab against tab) while the wall shows the third
-// shape they could make; two evidence cards (direction only); an easy task lets her mind wander (and the doubt about it);
-// she notes the problem, waters a plant, comes back, turns one piece around and it clicks.
+// shape they could make; two evidence cards (direction only); an easy task lets his mind wander (and the doubt about it);
+// he notes the problem, waters a plant, comes back, turns one piece around and it clicks.
 // Deterministic: window.renderAt(t) draws the frame at time t.
 
 import * as THREE from 'three';
@@ -54,7 +54,7 @@ const PS = l => TL[l].pauses;
 // "edge" 20.31, "note the problem" 21.31, "water a plant" 22.25, "come back" 23.35, "take a mindful break" 26.50
 const S = { s1: 0.0, s2: 1.6, s3: 5.85, s4: 11.25, s5: 15.75, s6: 21.0, s7: 23.3, end: 30.0 };
 const T = {
-  loosen: 2.85, release: 3.55, look: 4.75,                    // S2: pushing, the pieces ease apart, she steps back, looks up
+  loosen: 2.85, release: 3.55, look: 4.75,                    // S2: pushing, the pieces ease apart, he steps back, looks up
   try1: 7.4, objects: 8.6, between: 9.9, try2: 10.3,          // S3: one study: try 1 (uses for objects), a break, try again
   easy: 11.65, beat: 12.6, hard: 13.1, rest: 14.1, none: 14.9,  // S4: easy task beat a hard task, rest, or no break
   toss: 15.9, wander: 17.1, wanderB: 18.2, doubt: 19.25,      // S5: an easy task, the mind wanders; later studies: doubt
@@ -458,7 +458,7 @@ const can = new THREE.Group(); scene.add(can);
 const CAN_REST = V(-0.38, DESK_Y + 0.043, 0.08);
 const drops = [...Array(14)].map(() => { const d = new THREE.Mesh(new THREE.SphereGeometry(0.011, 12, 8), new THREE.MeshBasicMaterial({ color: '#5E9BE0', transparent: true, toneMapped: false })); scene.add(d); return d; });
 
-// ---- her pose
+// ---- his pose
 const R_ME = { group: fig, torso, neckG, head, limbs, J, feet, footBlobs };
 function poseStanding(R, p) {
   const { pel, yaw, lean, headPitch, headYaw, hL, hR, br, gy } = p;
@@ -535,7 +535,7 @@ function placeFigure(t, P) {
     const canHold = V(-0.33, 1.2 + 0.03 * pour, -0.3);   // spout above the leaves, so the water is seen falling
     if (t > T.note + 0.25) hR = vl(hR, vl(CAN_REST.clone().add(V(0.02, 0.06, -0.02)), canHold, sm(remap(t, T.water - 0.6, T.water - 0.1))), reach);
     yaw = YAW_ME + 0.45 * sm(remap(t, T.water - 0.6, T.water - 0.1)); lean = 0.12; headPitch = -0.3; headYaw = 0.2 * reach;
-  } else if (t >= S.s7) {   // S7: back to the pieces; both hands turn B around; then she steps back, relaxed
+  } else if (t >= S.s7) {   // S7: back to the pieces; both hands turn B around; then he steps back, relaxed
     pel.z -= 0.12 * (1 - sm(remap(t, T.back - 0.2, T.back + 0.3))) + 0.08 * sm(remap(t, T.click + 0.4, T.click + 1.2));
     const grab = sm(remap(t, T.back, T.lift)) * (1 - sm(remap(t, T.click + 0.1, T.click + 0.6)));
     const bL = pz.b.clone().add(V(-PS_S * 0.7, PS_S * 0.95, 0.0)), bR = pz.b.clone().add(V(PS_S * 0.7, PS_S * 0.95, 0.0));
@@ -594,15 +594,15 @@ function setEpisode(t) {
 // ---------------------------------------------------------------- cameras
 const D2R = Math.PI / 180;
 const SHOTS = [
-  // S1 frame 0 = the thumbnail: tab against tab, she forces the pieces; the wall shows the third shape they could make
+  // S1 frame 0 = the thumbnail: tab against tab, he forces the pieces; the wall shows the third shape they could make
   { a: S.s1, b: S.s2, k0: [V(0.0, 1.45, -0.6), 0, 5, 4.6, 30], k1: [V(0.0, 1.45, -0.6), 2, 5, 4.4, 30] },
-  // S2 three-quarter: shoving, tab against tab; they ease apart; she sets them down and steps back (the camera pulls back)
+  // S2 three-quarter: shoving, tab against tab; they ease apart; he sets them down and steps back (the camera pulls back)
   { a: S.s2, b: S.s3, k0: [V(0.09, 1.3, -0.3), 22, 6, 3.6, 30], k1: [V(0.04, 1.28, -0.3), 14, 6, 4.0, 30] },
   // S3 the card: try 1, in between, try 2 (same problems)
   { a: S.s3, b: S.s4, k0: [V(0.14, 1.6, 0.5), 4, 4, 3.4, 30], k1: [V(0.14, 1.6, 0.5), 0, 4, 3.3, 30] },
   // S4 the card from a low angle: improvement on try 2
   { a: S.s4, b: S.s5, k0: [V(0.17, 1.65, 0.5), -30, -5, 3.35, 30], k1: [V(0.17, 1.65, 0.5), -24, -5, 3.3, 30] },
-  // S5 side: an easy task; her mind wanders (the dotted trail), then the doubt
+  // S5 side: an easy task; his mind wanders (the dotted trail), then the doubt
   { a: S.s5, b: S.s6, k0: [V(0.02, 1.76, -0.75), -28, 6, 3.4, 30], k1: [V(0.02, 1.76, -0.75), -22, 6, 3.2, 30] },
   // S6 front-left: note on piece A; watering the plant
   { a: S.s6, b: S.s7, k0: [V(-0.3, 1.3, -0.35), -22, 8, 3.0, 30], k1: [V(-0.3, 1.3, -0.35), -16, 8, 2.9, 30] },
@@ -680,7 +680,7 @@ function unionBox(objs) {
 
 window.layoutReport = t => {
   renderAt(t);
-  // crucial: the card and both puzzle pieces, each audited by its own oriented box; her head
+  // crucial: the card and both puzzle pieces, each audited by its own oriented box; his head
   const onScreen = b => b && b[2] > 0 && b[0] < W && b[3] > 0 && b[1] < H;
   const keep = b => (onScreen(b) ? b : null);
   const crucial = { card: card.visible ? keep(textBox(card)) : null,

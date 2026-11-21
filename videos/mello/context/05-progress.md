@@ -820,3 +820,40 @@ Episode record: `32-episode-self-compassion.md`. The same live feedback is appli
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-23, 2026-11-21: episode english23-01 "stop pushing the idea" (creative incubation, English)
+Episode record: `33-episode-incubation.md`. The same live feedback is applied (store palette + soothing bed). Captions: `10-format-and-style-rules.md` section 10.
+
+## Verified facts (this round)
+- Prior topic records 11–32 were all read. Incubation and mind-wandering were not covered.
+  - Batch22's actual replacement subject was self-compassion after a mistake (`32`).
+  - This episode differs in core question, setting (puzzle desk) and mechanism (incubation), so it was made as requested.
+- Sources:
+  - Baird et al. 2012 (*Psych Sci*, PMID 22941876; abstract): an undemanding task during incubation beat a demanding task, rest or no break on previously encountered Unusual Uses problems.
+  - Sio & Ormerod 2009 meta-analysis (PMID 19210055): a positive incubation effect overall; high-demand fillers gave smaller effects.
+  - Limits: Murray et al. 2021 (N = 443, no evidence); Teng & Lien 2022 (PMC9053813: the 0-back group did not beat control); McDaniel et al. 2025 (no task differences; mind wandering predicted improvement on the same prompt).
+
+## Creative decisions (this round)
+- English only, 74 words.
+- **Character:** the approved performer (english20/21 tones).
+- **Frame 0:** he forces violet and gold puzzle pieces together, tab against tab, while the wall shows the third shape they make once one is turned; caption "Stop pushing / the idea.".
+- **Story:** pushing → set down → study card (try 1 / in between / try 2; then the easy-task bar pulls ahead, direction only) → ball toss with a wandering dotted trail that greys with a "?" for the limit → note on the piece, water a plant → back, turn B, click.
+- **Audio and thumbnail:** Dm9 → Fmaj7 → Am7 → Cadd9; `BED_GAIN` 0.375 (13.0 dB). Thumbnail "STOP PUSHING / THE IDEA".
+
+## Completed (this round)
+- Final (render 2): `videos/mello/production/30s/2026-11-21-english-23/mello-30s-english23-01.mp4`
+  - sha256 `41b85ca99502eca2e22f8cfd4842cb873d671a909535feeaf4606af29b0960b4`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 17/17 checks passed (`production/30s/2026-11-21-english-23/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - six cuts on plan; no non-cut jump;
+  - 0 safe-zone issues;
+  - English ASR CER 0.000 / WER 0.000.
+- Render 1 passed all checks; its watering beat was made readable in render 2.
+- Commands: `production/30s/2026-11-21-english-23/notes/production-notes.md`.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.

@@ -31,7 +31,7 @@ Durable rules: `10-format-and-style-rules.md` sections 8 (2026-11-11), 9 (first 
 
 ## User instructions applied
 - **Feedback (explicit):** the store-sampled palette (`22`): stage, ink, violet key words, lilac, deep violet, the dark UI card, gold. Piece A is store violet and piece B store gold. The audio is original and soothing: a pad, felt piano and slow air swells, about 13 dB under the voice.
-- **First frame:** she forces two big puzzle pieces together, tab against tab. On the wall behind her is a large lilac "shadow" with a gold outline: the third shape, the one bigger piece they make once one piece is turned around. The words "Stop pushing / the idea." (4 words) are on screen at frame 0, and the hook audio starts at 0.15 s. The thumbnail is the same composition.
+- **First frame:** he forces two big puzzle pieces together, tab against tab. On the wall behind him is a large lilac "shadow" with a gold outline: the third shape, the one bigger piece they make once one piece is turned around. The words "Stop pushing / the idea." (4 words) are on screen at frame 0, and the hook audio starts at 0.15 s. The thumbnail is the same composition.
 - **One insight, one small action:** "So note the problem, water a plant, then come back."
 - **No guided meditation, no guarantee:** "can loosen", "In one study", and the limits are stated ("later studies often haven't found that edge").
 - **Captions:** inside x 100–900, y 280–460. The card and the pieces are audited against the caption, the right rail and the bottom zone (the pieces in S1, S2 and S7, where they are the subject).
@@ -114,13 +114,29 @@ How the script uses them (measured / reported / advice / illustrative):
 | cta | Take a mindful break with Mello. | 26.60 | 28.32 |
 
 ## Storyboard (7 shots)
-- **S1, 0–1.6, frame 0 = thumbnail:** front, wide. She forces violet piece A and gold piece B together, tab against tab. The wall shows the third shape (lilac, gold outline).
-- **S2, 1.6–5.85:** three-quarter, pulling back. Rhythmic shoves; on "loosen" the pieces ease apart; on "step away" she sets them on the desk and steps back; on "what kind of break" she looks aside.
+- **S1, 0–1.6, frame 0 = thumbnail:** front, wide. He forces violet piece A and gold piece B together, tab against tab. The wall shows the third shape (lilac, gold outline).
+- **S2, 1.6–5.85:** three-quarter, pulling back. Rhythmic shoves; on "loosen" the pieces ease apart; on "step away" he sets them on the desk and steps back; on "what kind of break" he looks aside.
 - **S3, 5.85–11.25:** dark card "ONE STUDY / new uses for everyday objects". The chips appear on their words: TRY 1 (a mug icon, a growing list), then "in between ?", then TRY 2 ("same problems").
 - **S4, 11.25–15.75:** the card from a low angle, "IMPROVEMENT ON TRY 2". The gold "easy task" bar pulls ahead on "beat". The other bar's label builds: "hard task, rest, or no break" (direction only).
-- **S5, 15.75–21.0:** side. She tosses a ball hand to hand; a gold dotted trail drifts out from her head ("let minds wander"). On "later studies often haven't found that edge" the trail greys and a "?" appears inside its loop.
-- **S6, 21.0–23.3:** front-left. She sticks a "?" note on piece A ("note the problem"), then waters the desk plant ("water a plant").
-- **S7, 23.3–30:** "come back". Close: she lifts gold piece B, turns it around and it clicks into A (a soft glow at the seam). The camera pulls back; lock-up from 26.3 s.
+- **S5, 15.75–21.0:** side. He tosses a ball hand to hand; a gold dotted trail drifts out from his head ("let minds wander"). On "later studies often haven't found that edge" the trail greys and a "?" appears inside its loop.
+- **S6, 21.0–23.3:** front-left. He sticks a "?" note on piece A ("note the problem"), then waters the desk plant ("water a plant").
+- **S7, 23.3–30:** "come back". Close: he lifts gold piece B, turns it around and it clicks into A (a soft glow at the seam). The camera pulls back; lock-up from 26.3 s.
 
 ## Result
-(filled in after the final render)
+- Final (render 2): `videos/mello/production/30s/2026-11-21-english-23/mello-30s-english23-01.mp4`
+  - sha256 `41b85ca99502eca2e22f8cfd4842cb873d671a909535feeaf4606af29b0960b4`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `mello-30s-english23-01-thumbnail.png`, sha256 `0fc6a0f09ec3d464d83a818efe7051077bd8527c6c3fc3482b649a7c96ec8f14` ("STOP PUSHING / THE IDEA").
+- QA: 17/17 (`production/30s/2026-11-21-english-23/qa/QA.md`):
+  - full decode clean; −16.0 LUFS, −1.5 dBTP;
+  - six cuts on plan; no non-cut jump (12.8 max vs 18.6 softest cut);
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- Render 1 passed all checks, but its watering beat was weak (spout in the leaves, near-invisible drops). It was fixed in render 2.
+- No listen-through (ASR and measurements only).
+
+## Skill / scene adjustments for future episodes
+- **Rig handedness:** at yaw π (facing the camera) the performer's left is world +x. Assign hand targets by side, or the arms cross.
+- **Wall graphics behind the action:** a large shape on the back wall reads well in a wide frame 0, but in closer shots it lands behind the captions. Show it only where it is the point.
+- **Rotating props and the audit:** oriented boxes of a spinning piece are conservative at 45°. Leave about 10% margin, or widen the shot during the turn.
+- **Small actions (pouring):** keep the action above the clutter line (the spout above the leaves), and make particles saturated enough to read against the lilac wall.
