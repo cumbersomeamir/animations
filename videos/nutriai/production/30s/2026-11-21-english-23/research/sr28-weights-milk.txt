@@ -1,0 +1,20 @@
+USDA SR28 (sr28asc.zip sha256 8308fd1d224ef1e5331093748007180da01a7ac713cbac6a1f5bc2a03e1ee70a), retrieved 2026-11-21 (same verified archive as english-20/21/22)
+FOOD_DES:
+~01053~^~0100~^~Cream, fluid, heavy whipping~^~CREAM,FLUID,HVY WHIPPING~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01077~^~0100~^~Milk, whole, 3.25% milkfat, with added vitamin D~^~MILK,WHL,3.25% MILKFAT,W/ ADDED VITAMIN D~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+~01085~^~0100~^~Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)~^~MILK,NONFAT,FLUID,W/ ADDED VIT A & VIT D (FAT FREE OR SKIM)~^~~^~~^~Y~^~~^0^~~^6.38^4.27^8.79^3.87
+
+WEIGHT fields: NDB~Seq~Amount~Msre_Desc~Gm_Wgt~Num_Data_Pts~Std_Dev
+~01077~^1^1^~cup~^244^^
+~01077~^2^1^~fl oz~^30.5^^
+~01077~^3^1^~tbsp~^15^^
+~01077~^4^1^~quart~^976^^
+~01085~^1^1^~cup~^245^^
+~01085~^2^1^~fl oz~^30.6^^
+~01085~^3^1^~quart~^980^^
+
+Verbatim excerpt from sr28_doc.pdf:
+
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and

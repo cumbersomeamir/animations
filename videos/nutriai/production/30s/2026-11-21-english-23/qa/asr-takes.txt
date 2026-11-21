@@ -1,0 +1,16 @@
+T0.wav skim milk loses its fat. Does it lose its calcium too?
+    [('skim', 0.0, 0.22), ('milk', 0.22, 0.48), ('loses', 0.48, 0.8), ('its', 0.8, 1.06), ('fat.', 1.06, 1.34), ('Does', 1.84, 1.9), ('it', 1.9, 2.0), ('lose', 2.0, 2.14), ('its', 2.14, 2.3), ('calcium', 2.3, 2.58), ('too?', 2.58, 3.1)]
+T1.wav Let's skim a glass and see.
+    [("Let's", 0.0, 0.22), ('skim', 0.22, 0.32), ('a', 0.32, 0.4), ('glass', 0.4, 0.62), ('and', 0.62, 0.84), ('see.', 0.84, 1.04)]
+T2.wav The cream rises and is lifted off, but the calcium stays in the milk.
+    [('The', 0.0, 0.08), ('cream', 0.08, 0.32), ('rises', 0.32, 0.74), ('and', 0.74, 1.18), ('is', 1.18, 1.28), ('lifted', 1.28, 1.46), ('off,', 1.46, 1.82), ('but', 2.28, 2.44), ('the', 2.44, 2.52), ('calcium', 2.52, 2.76), ('stays', 2.76, 3.3), ('in', 3.3, 3.58), ('the', 3.58, 3.66), ('milk.', 3.66, 3.88)]
+T3.wav A cup of whole milk has about 280 milligrams of calcium.
+    [('A', 0.0, 0.06), ('cup', 0.06, 0.2), ('of', 0.2, 0.34), ('whole', 0.34, 0.52), ('milk', 0.52, 0.88), ('has', 0.88, 1.3), ('about', 1.3, 1.52), ('280', 1.52, 2.08), ('milligrams', 2.08, 2.82), ('of', 2.82, 3.0), ('calcium.', 3.0, 3.26)]
+T4.wav SKIM has about 300.
+    [('SKIM', 0.0, 0.3), ('has', 0.3, 0.44), ('about', 0.44, 0.66), ('300.', 0.66, 1.0)]
+T5.wav Calcium helps build and maintain healthy bones and teeth.
+    [('Calcium', 0.0, 0.36), ('helps', 0.36, 0.62), ('build', 0.62, 0.96), ('and', 0.96, 1.16), ('maintain', 1.16, 1.32), ('healthy', 1.32, 1.96), ('bones', 1.96, 2.28), ('and', 2.28, 2.64), ('teeth.', 2.64, 2.84)]
+T6.wav So either cup gives more than a fifth of a day's calcium.
+    [('So', 0.0, 0.12), ('either', 0.12, 0.3), ('cup', 0.3, 0.6), ('gives', 0.6, 0.94), ('more', 0.94, 1.22), ('than', 1.22, 1.42), ('a', 1.42, 1.5), ('fifth', 1.5, 1.72), ('of', 1.72, 1.94), ('a', 1.94, 2.0), ("day's", 2.0, 2.36), ('calcium.', 2.36, 2.6)]
+T9.wav Track your nutrition with calmeter.
+    [('Track', 0.0, 0.18), ('your', 0.18, 0.36), ('nutrition', 0.36, 0.62), ('with', 0.62, 0.92), ('calmeter.', 0.92, 1.36)]

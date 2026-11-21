@@ -1,0 +1,336 @@
+{
+ "_doc": "CalMeter English 30 s english-23 (batch 23, 2026-11-21): does skim milk lose its calcium? 'LESS CALCIUM?'. The requested popcorn topic was english-12 (2026-11-11), and batch 22 was the pineapple, so an unrelated same-genre subject was chosen (context/38): whole vs skim milk calcium (USDA FDC 171265 / 171269). Dairy world, carton mascots, milk-wave transitions, captions 80 px in y 280-460, one headline at a time, two numbers (280 mg, 300 mg). 30 fps, 900 frames. Voice starts (s) and word frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.85
+  },
+  {
+   "id": "T2",
+   "at": 5.6
+  },
+  {
+   "id": "T3",
+   "at": 10.4
+  },
+  {
+   "id": "T4",
+   "at": 14.6
+  },
+  {
+   "id": "T5",
+   "at": 17.0
+  },
+  {
+   "id": "T6",
+   "at": 22.0
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 57,
+   "lines": [
+    [
+     "Skim milk",
+     4
+    ],
+    [
+     "loses its fat.",
+     19
+    ]
+   ]
+  },
+  {
+   "in": 58,
+   "out": 108,
+   "lines": [
+    [
+     "Does it lose",
+     60
+    ],
+    [
+     "its calcium too?",
+     73
+    ]
+   ]
+  },
+  {
+   "in": 114,
+   "out": 160,
+   "lines": [
+    [
+     "Let's skim a glass",
+     116
+    ],
+    [
+     "and see.",
+     134
+    ]
+   ]
+  },
+  {
+   "in": 166,
+   "out": 232,
+   "lines": [
+    [
+     "The cream rises",
+     168
+    ],
+    [
+     "and is lifted off,",
+     190
+    ]
+   ]
+  },
+  {
+   "in": 234,
+   "out": 300,
+   "lines": [
+    [
+     "but the calcium",
+     236
+    ],
+    [
+     "stays in the milk.",
+     251
+    ]
+   ]
+  },
+  {
+   "in": 310,
+   "out": 394,
+   "lines": [
+    [
+     "A cup of whole milk",
+     312
+    ],
+    [
+     "has about 280 mg",
+     338
+    ]
+   ]
+  },
+  {
+   "in": 395,
+   "out": 428,
+   "lines": [
+    [
+     "of calcium.",
+     397
+    ]
+   ]
+  },
+  {
+   "in": 436,
+   "out": 480,
+   "lines": [
+    [
+     "Skim has about 300.",
+     438
+    ]
+   ]
+  },
+  {
+   "in": 508,
+   "out": 566,
+   "lines": [
+    [
+     "Calcium helps build",
+     510
+    ],
+    [
+     "and maintain healthy",
+     539
+    ]
+   ]
+  },
+  {
+   "in": 567,
+   "out": 612,
+   "lines": [
+    [
+     "bones and teeth.",
+     569
+    ]
+   ]
+  },
+  {
+   "in": 658,
+   "out": 710,
+   "lines": [
+    [
+     "So either cup gives",
+     660
+    ],
+    [
+     "more than a fifth",
+     688
+    ]
+   ]
+  },
+  {
+   "in": 711,
+   "out": 760,
+   "lines": [
+    [
+     "of a day's calcium.",
+     712
+    ]
+   ]
+  },
+  {
+   "in": 811,
+   "out": 906,
+   "lines": [
+    [
+     "Track your nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     832
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "waveAB": 104,
+  "creamUp": 166,
+  "lift": 206,
+  "liftLbl": 206,
+  "calc": 244,
+  "stays": 251,
+  "whipBC": 296,
+  "towerW": 330,
+  "k280": 358,
+  "towerS": 440,
+  "k300": 458,
+  "whipCD": 482,
+  "stream": 512,
+  "bones": 569,
+  "teeth": 589,
+  "waveDE": 630,
+  "pour": 662,
+  "fifth": 705,
+  "cta": 800,
+  "ctaWord": 841,
+  "sCream": 172,
+  "sLift": 214,
+  "sCalc": 240,
+  "s280": 354,
+  "s300": 455,
+  "sBones": 566,
+  "sFifth": 742,
+  "sBoing": 858
+ },
+ "sfx": [
+  {
+   "ev": "waveAB",
+   "type": "pour",
+   "dur": 0.7,
+   "gain": -26
+  },
+  {
+   "ev": "sCream",
+   "type": "juice",
+   "gain": -31
+  },
+  {
+   "ev": "sLift",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "sCalc",
+   "type": "chime",
+   "gain": -31
+  },
+  {
+   "ev": "whipBC",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "towerW",
+   "type": "clack",
+   "dur": 0.8,
+   "gain": -32
+  },
+  {
+   "ev": "s280",
+   "type": "tick",
+   "gain": -27
+  },
+  {
+   "ev": "towerS",
+   "type": "clack",
+   "dur": 0.6,
+   "gain": -33
+  },
+  {
+   "ev": "s300",
+   "type": "tick",
+   "gain": -27
+  },
+  {
+   "ev": "whipCD",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "stream",
+   "type": "sprinkle",
+   "dur": 1.0,
+   "gain": -33
+  },
+  {
+   "ev": "sBones",
+   "type": "chime",
+   "gain": -30
+  },
+  {
+   "ev": "waveDE",
+   "type": "pour",
+   "dur": 0.7,
+   "gain": -26
+  },
+  {
+   "ev": "pour",
+   "type": "pour",
+   "dur": 1.2,
+   "gain": -34
+  },
+  {
+   "ev": "sFifth",
+   "type": "ticks",
+   "dur": 0.6,
+   "gain": -32
+  },
+  {
+   "ev": "cta",
+   "type": "pour",
+   "dur": 0.8,
+   "gain": -26
+  },
+  {
+   "ev": "sBoing",
+   "type": "boing",
+   "gain": -30
+  }
+ ],
+ "_sfx_note": "no foley lands on a spoken number; ticks sit just before '280' and '300'"
+}

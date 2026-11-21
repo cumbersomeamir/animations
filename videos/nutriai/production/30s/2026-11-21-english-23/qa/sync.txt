@@ -1,0 +1,27 @@
+Skim milk                    caption   0.13s  speech   0.00s  diff +0.13
+loses its fat.               caption   0.63s  speech   0.60s  diff +0.03
+Does it lose                 caption   2.00s  speech   2.04s  diff -0.04
+its calcium too?             caption   2.43s  speech   2.28s  diff +0.15
+Let's skim a glass           caption   3.87s  speech   3.82s  diff +0.05
+and see.                     caption   4.47s  speech   4.42s  diff +0.05
+The cream rises              caption   5.60s  speech   5.66s  diff -0.06
+and is lifted off,           caption   6.33s  speech   6.34s  diff -0.01
+but the calcium              caption   7.87s  speech   7.86s  diff +0.01
+stays in the milk.           caption   8.37s  speech   8.32s  diff +0.05
+A cup of whole milk          caption  10.40s  speech  10.46s  diff -0.06
+has about 280 mg             caption  11.27s  speech  11.22s  diff +0.05
+of calcium.                  caption  13.23s  speech  13.24s  diff -0.01
+Skim has about 300.          caption  14.60s  speech  14.76s  diff -0.16
+Calcium helps build          caption  17.00s  speech  16.88s  diff +0.12
+and maintain healthy         caption  17.97s  speech  17.94s  diff +0.03
+bones and teeth.             caption  18.97s  speech  18.90s  diff +0.07
+So either cup gives          caption  22.00s  speech  22.11s  diff -0.11
+more than a fifth            caption  22.93s  speech  22.93s  diff +0.00
+of a day's calcium.          caption  23.73s  speech  23.73s  diff +0.00
+Track your nutrition         caption  27.10s  speech  24.53s  diff +2.57
+with CalMeter                caption  27.73s  speech  27.71s  diff +0.02
+21 of 22 caption lines within ±0.25 s of the spoken word (base.en word timestamps)
+
+Stem check for the 1 line outside ±0.25 s by base.en (voice-only stem build/voice.wav, 10 ms RMS onsets):
+- "Track your nutrition" caption 27.10 s; the voice track is silent from 24.98 s until the CTA take placed at 27.10 s; first onset 27.14 s (-0.04 s). base.en's 24.53 s falls before any voice exists (ASR drift after the pause).
+Result: 22 of 22 caption lines within ±0.25 s of the speech (21 by base.en word timestamps, 1 by the stem check above).
