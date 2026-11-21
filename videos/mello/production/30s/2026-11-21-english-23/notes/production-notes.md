@@ -48,6 +48,9 @@ The source is a copy of `../../2026-11-19-english-22/project/` (renderer, audit,
    - Fixes: S2 reframed; B no longer drifts right and forward while turning; S7 opens at 4.1 m.
 4. **Cut contrasts on stills:** 22.6 / 22.9 / 18.6 / 65.1 / 32.4 / 33.2. In-shot motion: 3.8 (set-down), 1.1 (spin), 0.1 (click).
 5. **ASR:** exact on all 7 lines (narration and mix).
+6. **Render 1** passed all 17 checks, and the frame review found the payoff's watering beat weak: the spout poked into the leaves and the light-blue drops were almost invisible. It was not delivered (kept outside the repo).
+   Fix: the can is held higher (`canHold` y 1.02 → 1.2, within reach), and the 14 drops are larger (r 0.011) and saturated blue (`#5E9BE0`), so the water is seen falling onto the plant.
+7. **Render 2:** see `../qa/QA.md`.
 
 ## Commands
 ```bash

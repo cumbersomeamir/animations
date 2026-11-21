@@ -456,7 +456,7 @@ const can = new THREE.Group(); scene.add(can);
   const spout = mesh(new THREE.CylinderGeometry(0.007, 0.01, 0.14, 12), M_CAN); spout.position.set(0.075, 0.03, 0); spout.rotation.z = -1.0; can.add(spout);
   const hd = mesh(new THREE.TorusGeometry(0.03, 0.007, 8, 20, Math.PI), M_CAN); hd.position.set(-0.05, 0.02, 0); hd.rotation.z = Math.PI / 2; can.add(hd); }
 const CAN_REST = V(-0.38, DESK_Y + 0.043, 0.08);
-const drops = [...Array(10)].map(() => { const d = new THREE.Mesh(new THREE.SphereGeometry(0.008, 10, 8), new THREE.MeshBasicMaterial({ color: '#9FC2E8', transparent: true, toneMapped: false })); scene.add(d); return d; });
+const drops = [...Array(14)].map(() => { const d = new THREE.Mesh(new THREE.SphereGeometry(0.011, 12, 8), new THREE.MeshBasicMaterial({ color: '#5E9BE0', transparent: true, toneMapped: false })); scene.add(d); return d; });
 
 // ---- her pose
 const R_ME = { group: fig, torso, neckG, head, limbs, J, feet, footBlobs };
@@ -532,7 +532,7 @@ function placeFigure(t, P) {
     const noteSpot = pz.a.clone().add(V(0, 0.02, PIECE_D / 2 + 0.02));
     hR = vl(pel.clone().add(V(-0.18, 0.05, 0.1)), noteSpot.clone().add(V(0, 0, 0.03)), nt * (1 - back));
     const reach = sm(remap(t, T.note + 0.4, T.water - 0.25)), pour = sm(remap(t, T.water - 0.1, T.water + 0.35)) * (1 - sm(remap(t, T.waterB, T.waterB + 0.3)));
-    const canHold = V(-0.36, 1.02 + 0.04 * pour, -0.32);
+    const canHold = V(-0.33, 1.2 + 0.03 * pour, -0.3);   // spout above the leaves, so the water is seen falling
     if (t > T.note + 0.25) hR = vl(hR, vl(CAN_REST.clone().add(V(0.02, 0.06, -0.02)), canHold, sm(remap(t, T.water - 0.6, T.water - 0.1))), reach);
     yaw = YAW_ME + 0.45 * sm(remap(t, T.water - 0.6, T.water - 0.1)); lean = 0.12; headPitch = -0.3; headYaw = 0.2 * reach;
   } else if (t >= S.s7) {   // S7: back to the pieces; both hands turn B around; then she steps back, relaxed
@@ -582,7 +582,7 @@ function setEpisode(t) {
   const hand = figRef.p ? figRef.p.handR.clone().add(V(0.0, -0.03, 0.0)) : CAN_REST;
   can.position.copy(vl(CAN_REST, hand, pick)); can.rotation.set(0, Math.PI, -0.75 * pour);
   drops.forEach((d, i) => { const ph = ((t - T.water) * 1.8 + i / drops.length) % 1, on = pour > 0.6 && t > T.water;
-    d.visible = sceneShot && on; const tip = can.localToWorld(V(0.13, 0.08, 0)); d.position.copy(tip).add(V(0.01 * Math.sin(i), -0.35 * ph * ph - 0.03 * ph, 0)); d.material.opacity = 0.9 * (1 - ph); });
+    d.visible = sceneShot && on; const tip = can.localToWorld(V(0.13, 0.08, 0)); d.position.copy(tip).add(V(0.008 * Math.sin(i * 2.3), -0.3 * ph * ph - 0.05 * ph, 0)); d.material.opacity = 0.95 * (1 - 0.7 * ph); });
   // the card (S3-S4): no fade-out before its cut
   const v = sm(remap(t, S.s3 - 0.05, S.s3 + 0.25));
   card.visible = cardShot && v > 0.003; card.position.copy(CARD_POS); card.rotation.set(0, camYaw(CARD_POS), 0);
