@@ -409,3 +409,10 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Operational: RAM disk /dev/shm/md-e21 (lost on restart); ~88 MB disk before this commit (MP4 39 MB). Disk is the bottleneck for future
   episodes: each delivered MP4 + its git object costs ~50–80 MB.
 - Unresolved: not yet watched or listened to by a human; no review folder in this container. Earlier outputs untouched.
+
+## Checkpoint 2026-11-21 — english-22 / batch 22 resumed after a worker restart (sources recorded; rendering)
+- Batch 22 (authorised 19 Nov) was interrupted before its first commit; its local source survived. Resumed 21 Nov before batch 23 as the
+  batch-23 brief requires. Subject: BYD Flash Charging — Tai 9 (Ti 9) launch 19 Nov 2026 claim + Abu Dhabi press demo (5:17 / 8:57).
+  Tesla Megacharger (18 Nov) compared and rejected. Record context/37; SOURCES.md; log row in context/11 (in progress).
+- Disk ~108 MB for two episodes: CRF 20 and JPEG QA sheets for batches 22 and 23 (recorded in QA). RAM disk /dev/shm/md-e22.
+- Next: build, chunk-start check, thumbnail, QA.md, commit, push, attach; then batch 23 (robot recovery demo, 18–21 Nov).

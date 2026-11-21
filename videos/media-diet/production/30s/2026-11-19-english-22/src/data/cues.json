@@ -1,0 +1,92 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "FIVE MINUTES.",
+   "WHAT'S THE CATCH?"
+  ],
+  "in": 0.0,
+  "out": 1.76,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "BYD's new SUV claims 10 to",
+   "70 percent in five minutes."
+  ],
+  "in": 1.78,
+  "out": 6.36
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "Why not just pour",
+   "in a megawatt?"
+  ],
+  "in": 6.38,
+  "out": 8.17
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "But in a demo, the last 27",
+   "percent took almost four minutes."
+  ],
+  "in": 8.19,
+  "out": 12.41
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Lithium ions must squeeze",
+   "into the anode;"
+  ],
+  "in": 12.43,
+  "out": 15.005
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "rushed, they plate as metal."
+  ],
+  "in": 15.025,
+  "out": 17.177
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "And heat grows",
+   "with current squared."
+  ],
+  "in": 17.31,
+  "out": 19.22
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "So the battery sets the pace,",
+   "slowing when full or cold."
+  ],
+  "in": 19.24,
+  "out": 22.89
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Five-minute claims mean",
+   "the middle, not empty to full."
+  ],
+  "in": 22.91,
+  "out": 26.13
+ },
+ {
+  "line": "V9",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 26.15,
+  "out": 29.653
+ }
+]

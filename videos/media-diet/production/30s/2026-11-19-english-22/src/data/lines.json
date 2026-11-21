@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "Five minutes. What's the catch?",
+  "duration": 1.475,
+  "words": 5
+ },
+ {
+  "id": "V2",
+  "say": "BYD's new SUV claims 10 to 70 percent in five minutes.",
+  "duration": 4.292,
+  "words": 11
+ },
+ {
+  "id": "V3",
+  "say": "Why not just pour in a megawatt?",
+  "duration": 1.512,
+  "words": 7
+ },
+ {
+  "id": "V4",
+  "say": "But in a demo, the last 27 percent took almost four minutes.",
+  "duration": 3.939,
+  "words": 12
+ },
+ {
+  "id": "V5",
+  "say": "Lithium ions must squeeze into the anode; rushed, they plate as metal.",
+  "duration": 4.367,
+  "words": 12
+ },
+ {
+  "id": "V6",
+  "say": "And heat grows with current squared.",
+  "duration": 1.601,
+  "words": 6
+ },
+ {
+  "id": "V7",
+  "say": "So the battery sets the pace, slowing when full or cold.",
+  "duration": 3.315,
+  "words": 11
+ },
+ {
+  "id": "V8",
+  "say": "Five-minute claims mean the middle, not empty to full.",
+  "duration": 2.906,
+  "words": 9
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]

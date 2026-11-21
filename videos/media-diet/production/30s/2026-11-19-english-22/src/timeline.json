@@ -1,0 +1,200 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "Five minutes. What's the catch?",
+   "cues": [
+    [
+     "FIVE MINUTES.",
+     "WHAT'S THE CATCH?"
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.86,
+   "say": "BYD's new SUV claims 10 to 70 percent in five minutes.",
+   "cues": [
+    [
+     "BYD's new SUV claims 10 to",
+     "70 percent in five minutes."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.46,
+   "say": "Why not just pour in a megawatt?",
+   "cues": [
+    [
+     "Why not just pour",
+     "in a megawatt?"
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.27,
+   "say": "But in a demo, the last 27 percent took almost four minutes.",
+   "cues": [
+    [
+     "But in a demo, the last 27",
+     "percent took almost four minutes."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 12.51,
+   "say": "Lithium ions must squeeze into the anode; rushed, they plate as metal.",
+   "cues": [
+    [
+     "Lithium ions must squeeze",
+     "into the anode;"
+    ],
+    [
+     "rushed, they plate as metal."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 17.39,
+   "say": "And heat grows with current squared.",
+   "cues": [
+    [
+     "And heat grows",
+     "with current squared."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 19.32,
+   "say": "So the battery sets the pace, slowing when full or cold.",
+   "cues": [
+    [
+     "So the battery sets the pace,",
+     "slowing when full or cold."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 22.99,
+   "say": "Five-minute claims mean the middle, not empty to full.",
+   "cues": [
+    [
+     "Five-minute claims mean",
+     "the middle, not empty to full."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.23,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.78,
+   "beat": "first frame / hook: a huge charging nozzle facing a tiny battery gate + \"FIVE MINUTES. / WHAT'S THE CATCH?\""
+  },
+  {
+   "id": "S2",
+   "in": 1.78,
+   "out": 6.38,
+   "beat": "the claim: generic SUV at a flash charger, pulses in the cable, a big gauge sweeps 10 → 70 %"
+  },
+  {
+   "id": "S3",
+   "in": 6.38,
+   "out": 8.19,
+   "beat": "the question: pour in a megawatt? the pulses jam at the port"
+  },
+  {
+   "id": "S4",
+   "in": 8.19,
+   "out": 12.43,
+   "beat": "proof: the measured demo curve — steep to 70 % at 5:17, bending to 97 % at 8:57"
+  },
+  {
+   "id": "S5",
+   "in": 12.43,
+   "out": 17.31,
+   "beat": "cell cross-section: ions cross the separator and slide between graphite sheets; rushed, they plate as metal"
+  },
+  {
+   "id": "S6",
+   "in": 17.31,
+   "out": 19.24,
+   "beat": "the same cell heats up; thermometer climbs"
+  },
+  {
+   "id": "S7",
+   "in": 19.24,
+   "out": 22.91,
+   "beat": "the battery sets the pace: the slow tail of the curve glows; frost for the cold claim"
+  },
+  {
+   "id": "S8",
+   "in": 22.91,
+   "out": 26.15,
+   "beat": "payoff: gauge with the fast middle band highlighted"
+  },
+  {
+   "id": "S9",
+   "in": 26.15,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign"
+  }
+ ],
+ "events": {
+  "fill": 3.9,
+  "labClaim": 4.3,
+  "jam": 7.3,
+  "curve": 8.6,
+  "labDemo": 10.0,
+  "rush": 15.25,
+  "plate": 15.9,
+  "labPlate": 16.0,
+  "heat": 17.5,
+  "labHeat": 18.3,
+  "labPace": 19.9,
+  "cold": 21.95,
+  "band": 24.05,
+  "labMid": 24.25,
+  "sign": 26.35
+ }
+}
