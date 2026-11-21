@@ -1,0 +1,152 @@
+[
+ {
+  "line": "V1",
+  "text": "FIVE MINUTES. / WHAT'S THE CATCH?",
+  "cue": [
+   0.0,
+   1.76
+  ],
+  "speech": [
+   0.101,
+   1.478
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.282,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "BYD's new SUV claims 10 to / 70 percent in five minutes.",
+  "cue": [
+   1.78,
+   6.36
+  ],
+  "speech": [
+   1.881,
+   6.101
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.259,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "Why not just pour / in a megawatt?",
+  "cue": [
+   6.38,
+   8.17
+  ],
+  "speech": [
+   6.481,
+   7.923
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.247,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "But in a demo, the last 27 / percent took almost four minutes.",
+  "cue": [
+   8.19,
+   12.41
+  ],
+  "speech": [
+   8.291,
+   12.16
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.25,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "Lithium ions must squeeze / into the anode;",
+  "cue": [
+   12.43,
+   15.005
+  ],
+  "speech": [
+   12.531,
+   14.809
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.196,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "rushed, they plate as metal.",
+  "cue": [
+   15.025,
+   17.177
+  ],
+  "speech": [
+   15.244,
+   16.827
+  ],
+  "lead_s": 0.219,
+  "tail_s": 0.35,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "And heat grows / with current squared.",
+  "cue": [
+   17.31,
+   19.22
+  ],
+  "speech": [
+   17.413,
+   18.937
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.283,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "So the battery sets the pace, / slowing when full or cold.",
+  "cue": [
+   19.24,
+   22.89
+  ],
+  "speech": [
+   19.343,
+   22.583
+  ],
+  "lead_s": 0.103,
+  "tail_s": 0.307,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Five-minute claims mean / the middle, not empty to full.",
+  "cue": [
+   22.91,
+   26.13
+  ],
+  "speech": [
+   23.036,
+   25.849
+  ],
+  "lead_s": 0.126,
+  "tail_s": 0.281,
+  "ok": true
+ },
+ {
+  "line": "V9",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   26.15,
+   29.653
+  ],
+  "speech": [
+   26.284,
+   29.306
+  ],
+  "lead_s": 0.134,
+  "tail_s": 0.347,
+  "ok": true
+ }
+]

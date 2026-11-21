@@ -1,7 +1,7 @@
 # 37 · English episode 22 (30 s) — "Five minutes. What's the catch?" (the physical bottleneck behind a five-minute EV charge)
 
 Output: `videos/media-diet/production/30s/2026-11-19-english-22/media-diet-30s-english22-01.mp4` (30.000 s, 1080×1920, 30 fps,
-H.264 yuv420p + AAC). Thumbnail `…/thumbnail-english22-01.png` = frame 0. Batch 22 (authorised 19 Nov 2026), started 19 Nov, interrupted
+H.264 yuv420p + AAC). Thumbnail `…/thumbnail-english22-01.jpg` = frame 0. Batch 22 (authorised 19 Nov 2026), started 19 Nov, interrupted
 by a worker restart before its first commit, finished 21 Nov before batch 23 (brief: "finish any checkpointed prior batch22 work first").
 Session user videos2@tensorblue.com (CLAUDE.md lists info@tensorblue.com; noted, unchanged).
 
@@ -38,5 +38,11 @@ Every take checked by Whisper medium ("Tai 9" was heard as "TI-9", so the model 
 Disk ~108 MB at the start of 21 Nov with two episodes due, so this and the next episode are encoded at x264 CRF 20 (was 17) and the QA
 contact sheets are saved as JPEG; frames/stills/QA frames/intermediate WAVs on the RAM disk /dev/shm/md-e22. Nothing on disk deleted.
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 093ffc82e6d85cd7209bb9eb998307901ef8399eceb48d2da07b38d2cf79cb91; 900 frames; video/audio/container 30.000 s; H.264 High yuv420p
+1080×1920 30 fps (CRF 20 for disk); AAC-LC 48 kHz stereo (eng); full decode clean; −15.2 LUFS / −1.9 dBTP; captions ink y 360–488,
+x 194–886; labels x 203–877, y 1344–1478; 0 violations; caption↔speech 10/10; Whisper full pass 0.976, per line 0.988 (V4 0.917: "27%"
+vs "27 percent"); chunk-start continuity checked (no glitches). Thumbnail = frame 0 as JPEG (SHA-256 d5888ea1…d829), mean abs diff vs
+encoded frame 0 = 2.05/255.
+Limits: 10→70 % in 5 min is BYD's claim; measured times from a press demo of an unnamed test vehicle; interpolated curve; generic paper
+models; not yet watched or listened to by a human.

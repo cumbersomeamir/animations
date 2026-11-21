@@ -416,3 +416,13 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   Tesla Megacharger (18 Nov) compared and rejected. Record context/37; SOURCES.md; log row in context/11 (in progress).
 - Disk ~108 MB for two episodes: CRF 20 and JPEG QA sheets for batches 22 and 23 (recorded in QA). RAM disk /dev/shm/md-e22.
 - Next: build, chunk-start check, thumbnail, QA.md, commit, push, attach; then batch 23 (robot recovery demo, 18–21 Nov).
+
+## Checkpoint 2026-11-21 — english-22 / batch 22 delivered
+- production/30s/2026-11-19-english-22/media-diet-30s-english22-01.mp4 (SHA-256 093ffc82e6d85cd7209bb9eb998307901ef8399eceb48d2da07b38d2cf79cb91,
+  30.4 MB) + thumbnail-english22-01.jpg (= frame 0, JPEG q2); record context/37; context/11 log row → delivered; QA.md written.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps (CRF 20), AAC 48 kHz (eng); decode clean;
+  −15.2 LUFS / −1.9 dBTP; captions y 360–488, x 194–886; labels y 1344–1478; 0 violations; caption↔speech 10/10; Whisper full 0.976,
+  per line 0.988; 14 chunk starts continuous; contact sheets inspected (JPEG previews).
+- Commands: `bash build/render_chunks.sh …` (3 workers) → `SKIP_FRAMES=1 bash build/build.sh` → `node build/thumb.mjs thumbnail-english22-01.png`
+  → JPEG q2; QA first/last frames converted to JPEG (PNG copies of this episode's own fresh outputs removed for disk).
+- Unresolved: not yet watched or listened to by a human. Earlier outputs untouched. Next: batch 23.

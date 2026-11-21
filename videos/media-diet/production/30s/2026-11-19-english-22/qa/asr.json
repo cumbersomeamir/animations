@@ -1,0 +1,99 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Five minutes, what's the catch? BYD's new SUV claims 10 to 70% in five minutes. Why not just pour in a megawatt? But in a demo, the last 27% took almost four minutes. Lithium ions must squeeze into the anode. Rushed, they plate as metal. And heat grows with current squared. So the battery sets the pace, slowing when full or cold. Five minute claims mean the middle, not empty to full. Follow media diet for the physics behind the headlines. You",
+ "recall_full_pass": 0.976,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.53
+   ],
+   "transcript": "Five minutes, what's the catch?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.86,
+    6.15
+   ],
+   "transcript": "BYD's new SUV claims 10 to 70 percent in five minutes.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.46,
+    7.97
+   ],
+   "transcript": "Why not just pour in a megawatt?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    8.27,
+    12.21
+   ],
+   "transcript": "But in a demo, the last 27% took almost four minutes.",
+   "recall": 0.917,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    12.51,
+    16.88
+   ],
+   "transcript": "Lithium ions must squeeze into the anode. Rushed, they plate as metal.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    17.39,
+    18.99
+   ],
+   "transcript": "and heat grows with current squared.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    19.32,
+    22.64
+   ],
+   "transcript": "So the battery sets the pace, slowing when full or cold.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    22.99,
+    25.9
+   ],
+   "transcript": "Five-minute claims mean the middle, not empty to full.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V9",
+   "window": [
+    26.23,
+    29.35
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Five minutes, what's the catch? BYD's new SUV claims 10 to 70 percent in five minutes. Why not just pour in a megawatt? But in a demo, the last 27% took almost four minutes. Lithium ions must squeeze into the anode. Rushed, they plate as metal. and heat grows with current squared. So the battery sets the pace, slowing when full or cold. Five-minute claims mean the middle, not empty to full. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 0.988
+}
