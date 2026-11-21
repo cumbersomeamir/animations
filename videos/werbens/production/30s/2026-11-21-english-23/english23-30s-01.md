@@ -1,0 +1,195 @@
+# 39 — English-23 (batch23, 2026-11-21) 30 s #01: "THE CUSTOMER BECAME THE CHANNEL" (Spotify Wrapped: identity worth sharing)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-21-english-23`.
+
+Pre-edit checks:
+- Repo/branch confirmed: origin = github.com/cumbersomeamir/animations, branch claude-video/werbens, local af86ad6 == origin,
+  clean tree.
+- Batch 22 (english-22, free-shipping thresholds) was finished, pushed and attached; no checkpointed unfinished work and no jobs
+  running. Not repeated.
+- CLAUDE.md and `05-progress.md` were re-read; ALL topic records read from `context/11` (episode log rows 01–24), including the
+  actual batch22 subject (free-shipping threshold).
+- This brief is submitted once as the next episode; no chat was created or renamed; nothing is published to social media.
+- Disk: the project's `node_modules` is a symlink to english-22's identical copy (gitignored), saving 1.5 GB.
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-21-english-23/werbens-30s-english23-01.mp4`.
+- Thumbnail: `werbens-30s-english23-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references: **`context/27`** incl. §5 (first frame) and §6 (caption band y 280–460) · style `context/11` "Satisfying
+Product Theatre" on the live app.werbens.com dark-navy theme · voice context/11 + context/16 · brand `context/17` (re-checked
+today) · copy in the output folder: `english23-30s-01.md`.
+
+## 1. Brief (batch23, authorised 21 November 2026; latest live feedback retained)
+- Topic: **Spotify Wrapped makes the audience the distribution channel.** Personalised year-end listening cards invite users to
+  share their own identity, taking the brand with them. Research Wrapped as an established format; no invented launch date,
+  metrics or fake real users. Original, clearly illustrative music-year card; branching share paths; the insight: give viewers
+  a story about themselves worth sharing.
+- Frame zero: one personal card becoming a thousand little paths, **THE CUSTOMER BECAME THE CHANNEL**.
+- Not another pricing / discount / zero-price example; different core question, visual setting and mechanism from batch22; vary
+  scene choreography while keeping the visual identity.
+- Live feedback: "No, only color theme and logo needs to be changed, take from app.werbens.com" — applied (§3).
+
+## 2. Topic check against ALL prior records → not covered; topic kept
+No earlier episode covers sharing, word of mouth, user-generated distribution, personalised recaps or Spotify (searched
+`context/` for wrapped, spotify, word of mouth, viral, referral, sharing, user-generated, self-presentation). The last five
+episodes were pricing mechanisms (left digit, zero price, free-shipping threshold, option framing, compromise) — this one is a
+**distribution / self-presentation** mechanism with no prices at all.
+- Core question: why would anyone post a brand's card for free? (not "why does this price feel different")
+- Visual setting: a single personal music-year card and a branching tree of share paths among friends (not a shop, shelf or
+  basket)
+- Mechanism: impression management / image-related motivation → shared identity content carries the brand to new audiences.
+
+## 3. Brand re-check (facts; 2026-11-21, batch23)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, scratchpad `appweb-dl-1121`): top-40 computed colour list identical to the
+batch-22 check; wordmark Space Grotesk 700, 30.4 px, −1.216 px, 135° #7FE7DC→#316879; logo
+`https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… unchanged.
+
+## 4. Facts used (verified 2026-11-21) — tagged measured / documented / interpretation / advice / illustration
+1. **Spotify Newsroom (2018-12-06), "Relive Your Year in Music With Spotify Wrapped 2018"**
+   (https://newsroom.spotify.com/2018-12-06/relive-your-year-in-music-with-spotify-wrapped-2018/): Wrapped lets users
+   "rediscover and share the music and podcasts that formed your personal soundtrack"; it shows total minutes streamed,
+   most-played songs and artists and top genres; results can be shared to Instagram, Twitter and Facebook using a personal
+   Wrapped share card.
+2. **Spotify Newsroom (2025-12-03), "The Simple Truth About How Your Wrapped Comes to Life"**
+   (https://newsroom.spotify.com/2025-12-03/how-your-wrapped-is-made/): Wrapped reflects listening from "January until mid
+   November", launched that year on December 3; it is "as personal as your playlists". (Newsroom posts on Wrapped exist for
+   2018, 2019, 2021–2025, supporting "each year".)
+3. **Berger, J. (2014).** Word of mouth and interpersonal communication: A review and directions for future research. *Journal of
+   Consumer Psychology*, 24(4), 586–607. https://doi.org/10.1016/j.jcps.2014.05.002 — abstract (Crossref): word of mouth is goal
+   driven and serves five functions (impression management, emotion regulation, information acquisition, social bonding,
+   persuasion); "these motivations are predominantly self- (rather than other) serving".
+4. **Toubia, O., & Stephen, A. T. (2013).** Intrinsic vs. image-related utility in social media: Why do people contribute content
+   to Twitter? *Marketing Science*, 32(3), 368–392. https://doi.org/10.1287/mksc.2013.0773 — abstract (Crossref): a field
+   experiment adding followers; "image-related utility is larger for most users".
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Why would anyone post a brand's card for free?" | **Question** | — |
+| L2 | "Each year, Spotify Wrapped turns your listening into your story." | **Documented** (annual personal recap) | Spotify Newsroom 2018, 2025 |
+| L3 | "Top songs, top artists, minutes played, on a ready-to-share card." | **Documented** | Spotify Newsroom 2018 (most-played songs/artists, minutes streamed, personal share card) |
+| L4 | "You're not posting an ad. You're posting you." | **Interpretation** (the card's content is the user's identity) | — |
+| L5 | "Studies suggest we often share to shape how others see us." | **Measured / review** (hedged: "suggest", "often") | Berger 2014 (impression management; self-serving motives); Toubia & Stephen 2013 (image-related utility larger for most users) |
+| L6 | "Each card carries the brand to that person's friends." | **Interpretation** (a shared card is seen by the sharer's audience; no reach figures) | — |
+| L7 | "Give customers a story about themselves worth sharing." | **Practical advice** (not a measured rule) | — |
+| — | music-year card, share paths, friends, mini cards, brand tab | **Illustration** | Original card (no Spotify logo, colours or UI; no real user data; abstract bars instead of song names; no numbers). Path counts are illustrative, not reach data. |
+
+Not used / not claimed: any 2026 Wrapped launch date, number of shares, users or reach, revenue or "free advertising" value.
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), af_bella 0.7 + am_puck 0.3, speed 0.98, en-us, newly
+  synthesised. Hook audio starts at 0.15 s. Pauses between lines 0.36–0.91 s, 2.36 s before the CTA (comfortable pacing,
+  first pass).
+- Whisper base.en per line (clean narration): L1 9/9 · L2 9/10 ("Wrapped turns" written "Wrap turns": the final t merges with
+  "turns"; `WORD_TEXT_FIX` restores the caption word) · L3 12/12 · L4 8/8 · L5 11/11 · L6 9/9 · L7 8/8 · L8 6/7 ("Werbens" →
+  "Warbins", known).
+- Caption timing: Whisper word times plus `WORD_FIX` pins for L3 ("top" 8.07 s), L5 ("we often" 15.45/15.76 s) and L7 ("a story"
+  22.90/22.98 s), read from the voiced segments of the narration envelope.
+
+## 6. Final script (= final transcript) — 73 words, 22.4 s of speech
+| Part | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: THE CUSTOMER / BECAME THE CHANNEL) | L1 | 0.15–2.55 | Why would anyone post a brand's card for free? |
+| Super hook | L2 | 3.33–6.58 | Each year, Spotify Wrapped turns your listening into your story. |
+| Build-up | L3 | 7.13–10.87 | Top songs, top artists, minutes played, on a ready-to-share card. |
+| Proof (insight) | L4 | 11.23–13.55 | You're not posting an ad. You're posting you. |
+| Proof (research) | L5 | 14.43–17.45 | Studies suggest we often share to shape how others see us. |
+| Proof (distribution) | L6 | 18.33–21.02 | Each card carries the brand to that person's friends. |
+| Payoff | L7 | 21.93–24.67 | Give customers a story about themselves worth sharing. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail (per the brief).** One personal music-year card (app.werbens.com 135° #7FE7DC→#316879 face, avatar,
+  three artist discs, five song bars, a minutes ring, a share arrow, a mint brand tab) stands on an ink stand; from it a tree of
+  glowing dotted paths branches across the floor (6 levels, 3 per node: 3 + 9 + 27 + 81 + 243 + 729 = **1,092 little paths**,
+  illustrative), carrying tiny copies of the card to friend pawns. The headline reads "THE CUSTOMER / BECAME THE CHANNEL" (Space
+  Grotesk 700; second line in the hero gradient), x 119–881, y 330–502. No intro, no fade. The paths keep growing during the
+  hook; the headline clears by 0.42 s as the first caption appears.
+- **Original, clearly illustrative card:** no Spotify logo, colours, fonts or UI; no song names, artist names, minutes or other
+  numbers; no real user. Discs and bars are abstract. The card exists only to show the format's ingredients from the source
+  (top songs, top artists, minutes, a share card).
+- **Different from batch22 (free-shipping threshold):** core question (why share a brand's card?) vs (why add an item?);
+  setting (one card + share network among friends) vs (basket + meter + retailer counter); mechanism (self-presentation →
+  distribution) vs (threshold pricing). No prices anywhere.
+- **Choreography varied, identity kept:** this episode's camera grammar is push-in → slow arc → orbit around the turning card →
+  crane to a top-down view of the share tree → descend back to the card → pull back for the CTA (earlier episodes used lateral
+  plinth-to-plinth moves). Same studio, lighting, materials, palette, captions, logo tile and lockup.
+- **One idea per shot:** super hook = the year becomes the card (paths retract, face empties, eight small records spiral into
+  the card through "Spotify Wrapped turns your listening", avatar on "your story"); build = the card's ingredients appear on their words; proof 1 = a generic ad board (grey megaphone) covers the
+  card and sinks on "an ad", the avatar glows (IT'S YOU); proof 2 = friends appear, the card turns past all of them and ends
+  facing the viewer, they lean in (HOW WE LOOK); proof 3 = top-down: copies of the card travel the paths 3 → 9 → 27 → 81 → 243 (BRAND TRAVELS); payoff = the
+  face empties and refills with the person's story, the share arrow pulses on "worth sharing" and the first paths regrow
+  (THEIR STORY).
+- **Caption band (context/27 §6):** pill measured y 293–447, ink y 309–429, x 100–900. Labels at y ≥ 574 above the card; card
+  close-ups framed so the card top sits below the label band.
+- **Thumbnail:** frame 0 + the app.werbens.com logo/wordmark row on a navy backing pill (added after the first thumbnail showed a
+  pawn behind the wordmark).
+- **Excluded:** no Spotify branding, no screenshots or footage, no launch date, no share counts, reach or revenue, no source
+  chips.
+- **Reusable lessons:**
+  1. For a hero object that fills the frame, compute the camera so the object's top sits below the label band (y ≥ ~700) when a
+     label is due; between labels it may rise to just under the caption pill (≥ ~480).
+  2. An object that must be "replaced" (the ad) reads best sliding in front of the hero and sinking through the floor, instead
+     of standing beside it at the frame edge.
+  3. For a lean-toward-centre rotation about axis k, use k = (−z, 0, x)/r (k × up points to the centre).
+  4. `render.mjs --out` is joined to the project root; pass a project-relative directory, then move the stills to the scratchpad.
+  5. Never append a `//` comment in the middle of a one-line statement chain with sed: it silently disables the rest of the line
+     (it switched off the records' rotation in a test pass; caught in stills).
+  6. Small props seen edge-on vanish: keep flying props face-on to the camera and large enough (records 0.032 wide = 35 % of the
+     card).
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.3 s | high three-quarter over the card | headline; share paths keep growing (level 5 → 6) with a flowing glow; mini cards travel to friends | plinks, pads |
+| Super hook | 3.3–7.1 s | push in to the card | paths retract 3.3–3.95 s; face empties; eight records spiral into the card 4.3–6.11 s (one tick per landing); avatar pops on "your story" (6.19 s) | whoosh, ticks, chime |
+| Build-up | 7.1–11.1 s | slow arc to the right | song bars on "Top songs" (7.13 s); artist discs on "top artists" (8.07 s); minutes ring sweeps on "minutes played"; share arrow pops (10.31 s); card turns to the viewer | clacks, plops, riser, pop, slide |
+| Proof (insight) | 11.1–14.3 s | medium front | ad board slides in front of the card (11.2 s), sinks on "an ad" (12.12 s); avatar glows, card lifts, sparkles (IT'S YOU, 12.86 s) | slide, sink, shimmer, tag |
+| Proof (research) | 14.3–18.3 s | orbit left around the card | friend pawns pop up (14.3 s); the card turns slowly past them 15.0–17.45 s and ends facing the viewer; friends lean in on "how others see us" (HOW WE LOOK, 16.37 s) | plops, slide, tag |
+| Proof (distribution) | 18.3–21.3 s | crane up to top-down | paths grow from the card 0 → 5 levels with mini cards (18.81–21.0 s); brand tabs glow on "brand" (BRAND TRAVELS, 19.64 s) | plinks, chime, tag |
+| Payoff | 21.3–26.25 s | descend to the card | paths retract, face empties (21.3–21.85 s); story refills on "a story about themselves" (avatar 23.59 s; THEIR STORY); share arrow pulses on "worth sharing" (24.25 s); first paths regrow | whoosh, clacks, chime, tag, pop, plinks |
+| CTA | 25.6–30 s | pull back | stage sinks 26.25 s; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, closing chord |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-21-english-23/werbens-30s-english23-01.mp4`, sha256 `5b58d498…a228`, 8,047,846 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `75acb253…`) and `.jpg` (sha256 `a6547883…`).
+
+Verification results (2026-11-21):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1; AAC-LC 48 kHz
+  stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean (no console errors or warnings).
+- **Audio:** −15.0 LUFS integrated, true peak −1.9 dBTP, LRA 3.1 LU, flat factor 0. Stems: voice −21.1, music −31.6, foley
+  −36.2 LUFS.
+- **ASR of the final mix (Whisper base.en):** whole-mix transcript matches the script except "Spotify Wrap(ped)" and "Werbens".
+  ASR only, no human listen.
+- **DOM, every frame (900):** caption pill x 100–900 / **y 293–447** (brief: y 280–460); ink x 130–870 / y 309–429; headline 13
+  frames x 119–881 / y 330–502; labels x 153–847 / y 574–1456. 0 conflicts, 0 outside, 0 overlaps, never two big labels.
+  Caption groups: 11, shortest 1.41 s.
+- **Visual review:** every move, transition and the ending inspected in the final MP4 (`qa/cuts.png`, `qa/cuts-b.png`); objects
+  in frame through every move; no missing assets.
+- **Render 1 was rejected after review:** a nearly static empty card at 3.9–6.2 s with small edge-on discs, and the card ending
+  its spin turned away from the camera at 17.4–18.4 s. Records enlarged and spiralled in face-on from 4.3 s; spin now ends facing
+  the viewer. Render 2 is the delivered file.
+- **Earlier outputs:** 25 earlier MP4s were re-hashed and are unchanged; nothing was deleted or overwritten.
+- **Not performed:** human listening, real-time viewing, on-device/platform-app test.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 22 finished (no checkpointed work, no jobs); re-read CLAUDE.md and 05-progress;
+   read all topic records incl. batch22's actual subject.
+2. Topic check → not covered; kept (§2).
+3. Sources: Spotify Newsroom (2018 and 2025 Wrapped posts, read directly), Crossref (Berger 2014; Toubia & Stephen 2013
+   abstracts). newsroom.spotify.com/wrapped/ is only a 2019 media-kit page — not used.
+4. app.werbens.com re-inspection (`appweb-dl-1121`).
+5. Project created from the english-22 skeleton; `node_modules` symlinked (gitignored); outputs, QA and words.json not copied.
+6. `node src/tts.mjs` (1 pass) → `node src/words.mjs` → `node src/words_fix.mjs`.
+7. Timeline, `src/audio.mjs` PADS/KEYS → `node src/audio.mjs` (mix NaN check 0).
+8. Scene: `src/scene_props.part.js` + `src/scene_frame.part.js` assembled into `src/scene.js` with the english-22 skeleton
+   (header, CTA tile, motion helpers, captions, tail); `scene.html` labels and headline replaced.
+9. Stills passes (`node src/render.mjs --stills … --scale 0.5 --out build/stills_*`, moved to the scratchpad): pass 1 → denser,
+   brighter 6-level tree; card framed below the label band; ad board moved in front of the card; pawn lean axis fixed. Pass 2–3
+   → C3w/O1/O2 targets nudged. Thumbnail (`--thumb`) → logo row given a backing pill. `node src/qa_dom.mjs 3` = 0 issues;
+   checkpoint commit 83acd8e.
+10. Render 1 (`node src/render.mjs --video`, mux, `bash qa.sh`, `qa_dom.mjs 1`, `asr_mix.mjs`): all automated checks passed;
+    frame review rejected it (§9). Outputs moved to the scratchpad (`english23-render1-superseded`), not committed.
+11. Render 2 after the disc/spin fixes (commit c424b4b): same chain incl. audio (new record ticks) and thumbnail; frame review
+    clean; QA.md written; delivered.

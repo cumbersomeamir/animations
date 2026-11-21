@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        2.88
+      ],
+      "script": "Why would anyone post a brand's card for free?",
+      "heard": "Why would anyone post a brand's card for free?",
+      "words": "9/9"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        3.15,
+        6.91
+      ],
+      "script": "Each year, Spotify Wrapped turns your listening into your story.",
+      "heard": "Each year, Spotify Wrap turns your listening into your story.",
+      "words": "9/10"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        6.95,
+        11.2
+      ],
+      "script": "Top songs, top artists, minutes played, on a ready-to-share card.",
+      "heard": "Top songs, top artists, minutes played on a ready-to-share card.",
+      "words": "12/12"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        11.05,
+        13.88
+      ],
+      "script": "You're not posting an ad. You're posting you.",
+      "heard": "You're not posting an ad. You're posting you.",
+      "words": "8/8"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.25,
+        17.78
+      ],
+      "script": "Studies suggest we often share to shape how others see us.",
+      "heard": "Studies suggest we often share to shape how others see us.",
+      "words": "11/11"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        18.15,
+        21.35
+      ],
+      "script": "Each card carries the brand to that person's friends.",
+      "heard": "Each card carries the brand to that person's friends.",
+      "words": "9/9"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        21.75,
+        25
+      ],
+      "script": "Give customers a story about themselves worth sharing.",
+      "heard": "Give customers a story about themselves worth sharing.",
+      "words": "8/8"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why would anyone post a brand's card for free? Each year, Spotify wrap turns your listening into your story. Top songs, top artists, minutes played on a ready-to-share card. You're not posting an ad, you're posting you. Studies suggest we often share to shape how others see us. Each card carries the brand to that person's friends. Give customers a story about themselves worth sharing. Follow Wurbens to decode how brands sell."
+}
