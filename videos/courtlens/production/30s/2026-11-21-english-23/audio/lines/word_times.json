@@ -1,0 +1,452 @@
+{
+ "l1": {
+  "script": "Paper or phone?",
+  "heard": "paper or phone.",
+  "wer": 0.0,
+  "words": [
+   [
+    "paper",
+    0.0,
+    0.36
+   ],
+   [
+    "or",
+    0.36,
+    0.6
+   ],
+   [
+    "phone.",
+    0.6,
+    0.88
+   ]
+  ]
+ },
+ "l2": {
+  "script": "You're stopped at a traffic check, and your licence is at home.",
+  "heard": "You're stopped at a traffic check, and your license is at home.",
+  "wer": 0.0,
+  "words": [
+   [
+    "You're",
+    0.0,
+    0.36
+   ],
+   [
+    "stopped",
+    0.36,
+    0.58
+   ],
+   [
+    "at",
+    0.58,
+    0.68
+   ],
+   [
+    "a",
+    0.68,
+    0.84
+   ],
+   [
+    "traffic",
+    0.84,
+    1.08
+   ],
+   [
+    "check,",
+    1.08,
+    1.42
+   ],
+   [
+    "and",
+    1.7,
+    1.86
+   ],
+   [
+    "your",
+    1.86,
+    2.06
+   ],
+   [
+    "license",
+    2.06,
+    2.42
+   ],
+   [
+    "is",
+    2.42,
+    2.64
+   ],
+   [
+    "at",
+    2.64,
+    2.8
+   ],
+   [
+    "home.",
+    2.8,
+    3.02
+   ]
+  ]
+ },
+ "l3": {
+  "script": "India's motor vehicle rules say:",
+  "heard": "India's motor vehicle rules say.",
+  "wer": 0.0,
+  "words": [
+   [
+    "India's",
+    0.0,
+    0.54
+   ],
+   [
+    "motor",
+    0.54,
+    0.74
+   ],
+   [
+    "vehicle",
+    0.74,
+    1.04
+   ],
+   [
+    "rules",
+    1.04,
+    1.28
+   ],
+   [
+    "say.",
+    1.28,
+    1.58
+   ]
+  ]
+ },
+ "l4": {
+  "script": "you can show it in electronic form,",
+  "heard": "You can show it in electronic form.",
+  "wer": 0.0,
+  "words": [
+   [
+    "You",
+    0.0,
+    0.14
+   ],
+   [
+    "can",
+    0.14,
+    0.34
+   ],
+   [
+    "show",
+    0.34,
+    0.54
+   ],
+   [
+    "it",
+    0.54,
+    0.74
+   ],
+   [
+    "in",
+    0.74,
+    0.86
+   ],
+   [
+    "electronic",
+    0.86,
+    1.28
+   ],
+   [
+    "form.",
+    1.28,
+    1.7
+   ]
+  ]
+ },
+ "l5": {
+  "script": "in Diji Locker, or the M Pari-vaahan app.",
+  "heard": "in DigiLocker or the M. Perivahan app.",
+  "wer": 0.0,
+  "words": [
+   [
+    "in",
+    0.0,
+    0.28
+   ],
+   [
+    "DigiLocker",
+    0.28,
+    1.06
+   ],
+   [
+    "or",
+    1.06,
+    1.3
+   ],
+   [
+    "the",
+    1.3,
+    1.52
+   ],
+   [
+    "M.",
+    1.52,
+    1.7
+   ],
+   [
+    "Perivahan",
+    1.8,
+    2.24
+   ],
+   [
+    "app.",
+    2.24,
+    2.56
+   ]
+  ]
+ },
+ "l6": {
+  "script": "Those count like the original papers.",
+  "heard": "Those count like the original papers.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Those",
+    0.0,
+    0.3
+   ],
+   [
+    "count",
+    0.3,
+    0.54
+   ],
+   [
+    "like",
+    0.54,
+    0.76
+   ],
+   [
+    "the",
+    0.76,
+    0.94
+   ],
+   [
+    "original",
+    0.94,
+    1.28
+   ],
+   [
+    "papers.",
+    1.28,
+    1.64
+   ]
+  ]
+ },
+ "l7": {
+  "script": "Once an officer verifies it electronically, the paper can't be demanded,",
+  "heard": "Once an officer verifies it electronically, the paper can't be demanded.",
+  "wer": 0.0,
+  "words": [
+   [
+    "Once",
+    0.0,
+    0.32
+   ],
+   [
+    "an",
+    0.32,
+    0.62
+   ],
+   [
+    "officer",
+    0.62,
+    0.96
+   ],
+   [
+    "verifies",
+    0.96,
+    1.54
+   ],
+   [
+    "it",
+    1.54,
+    1.84
+   ],
+   [
+    "electronically,",
+    1.84,
+    2.36
+   ],
+   [
+    "the",
+    2.86,
+    2.96
+   ],
+   [
+    "paper",
+    2.96,
+    3.26
+   ],
+   [
+    "can't",
+    3.26,
+    3.64
+   ],
+   [
+    "be",
+    3.64,
+    3.8
+   ],
+   [
+    "demanded.",
+    3.8,
+    4.14
+   ]
+  ]
+ },
+ "l8": {
+  "script": "even if there's an offence and documents need seizing.",
+  "heard": "even if there's an offense and documents need seizing.",
+  "wer": 0.111,
+  "words": [
+   [
+    "even",
+    0.0,
+    0.28
+   ],
+   [
+    "if",
+    0.28,
+    0.46
+   ],
+   [
+    "there's",
+    0.46,
+    0.76
+   ],
+   [
+    "an",
+    0.76,
+    0.92
+   ],
+   [
+    "offense",
+    0.92,
+    1.26
+   ],
+   [
+    "and",
+    1.26,
+    1.66
+   ],
+   [
+    "documents",
+    1.66,
+    2.1
+   ],
+   [
+    "need",
+    2.1,
+    2.46
+   ],
+   [
+    "seizing.",
+    2.46,
+    2.78
+   ]
+  ]
+ },
+ "l9": {
+  "script": "So add your licence to Diji Locker before you drive.",
+  "heard": "So add your license to DigiLocker before you drive.",
+  "wer": 0.0,
+  "words": [
+   [
+    "So",
+    0.0,
+    0.26
+   ],
+   [
+    "add",
+    0.26,
+    0.48
+   ],
+   [
+    "your",
+    0.48,
+    0.68
+   ],
+   [
+    "license",
+    0.68,
+    1.04
+   ],
+   [
+    "to",
+    1.04,
+    1.26
+   ],
+   [
+    "DigiLocker",
+    1.26,
+    2.04
+   ],
+   [
+    "before",
+    2.04,
+    2.32
+   ],
+   [
+    "you",
+    2.32,
+    2.58
+   ],
+   [
+    "drive.",
+    2.58,
+    2.94
+   ]
+  ]
+ },
+ "l10": {
+  "script": "Follow Courtlens for everyday Indian law explained.",
+  "heard": "Follow Courtlands for everyday Indian law explained.",
+  "wer": 0.143,
+  "words": [
+   [
+    "Follow",
+    0.0,
+    0.44
+   ],
+   [
+    "Courtlands",
+    0.44,
+    0.92
+   ],
+   [
+    "for",
+    0.92,
+    1.24
+   ],
+   [
+    "everyday",
+    1.24,
+    1.68
+   ],
+   [
+    "Indian",
+    1.68,
+    2.04
+   ],
+   [
+    "law",
+    2.04,
+    2.32
+   ],
+   [
+    "explained.",
+    2.32,
+    2.92
+   ]
+  ]
+ }
+}

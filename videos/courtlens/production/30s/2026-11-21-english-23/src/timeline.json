@@ -1,0 +1,197 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 1.4
+  },
+  {
+   "id": "l3",
+   "start": 4.95
+  },
+  {
+   "id": "l4",
+   "start": 6.9
+  },
+  {
+   "id": "l5",
+   "start": 8.95
+  },
+  {
+   "id": "l6",
+   "start": 11.9
+  },
+  {
+   "id": "l7",
+   "start": 14.15
+  },
+  {
+   "id": "l8",
+   "start": 18.8
+  },
+  {
+   "id": "l9",
+   "start": 22.2
+  },
+  {
+   "id": "l10",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.3,
+   "text": "PAPER OR PHONE?",
+   "hl": [
+    "PHONE?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 1.3,
+   "end": 2.9,
+   "text": "You're stopped at a traffic check,",
+   "hl": [
+    "traffic",
+    "check,"
+   ]
+  },
+  {
+   "start": 2.9,
+   "end": 4.8,
+   "text": "and your licence is at home.",
+   "hl": [
+    "at",
+    "home."
+   ]
+  },
+  {
+   "start": 4.8,
+   "end": 6.8,
+   "text": "India's motor vehicle rules say:",
+   "hl": [
+    "motor",
+    "vehicle",
+    "rules"
+   ]
+  },
+  {
+   "start": 6.8,
+   "end": 8.85,
+   "text": "you can show it in electronic form,",
+   "hl": [
+    "electronic",
+    "form,"
+   ]
+  },
+  {
+   "start": 8.85,
+   "end": 11.8,
+   "text": "in DigiLocker, or the mParivahan app.",
+   "hl": [
+    "DigiLocker,",
+    "mParivahan"
+   ]
+  },
+  {
+   "start": 11.8,
+   "end": 14.05,
+   "text": "Those count like the original papers.",
+   "hl": [
+    "original",
+    "papers."
+   ]
+  },
+  {
+   "start": 14.05,
+   "end": 16.75,
+   "text": "Once an officer verifies it electronically,",
+   "hl": [
+    "verifies"
+   ]
+  },
+  {
+   "start": 16.75,
+   "end": 18.7,
+   "text": "the paper can't be demanded,",
+   "hl": [
+    "can't",
+    "be",
+    "demanded,"
+   ]
+  },
+  {
+   "start": 18.7,
+   "end": 20.3,
+   "text": "even if there's an offence",
+   "hl": [
+    "offence"
+   ]
+  },
+  {
+   "start": 20.3,
+   "end": 22.1,
+   "text": "and documents need seizing.",
+   "hl": [
+    "seizing."
+   ]
+  },
+  {
+   "start": 22.1,
+   "end": 26.75,
+   "text": "So add your licence to DigiLocker before you drive.",
+   "hl": [
+    "DigiLocker"
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "v2c": 1.3,
+  "check": 2.24,
+  "home": 3.46,
+  "v3": 4.8,
+  "stamp": 5.0,
+  "v4": 6.8,
+  "flip": 7.2,
+  "intoPhone": 7.75,
+  "elLab": 8.25,
+  "v5": 8.85,
+  "tile1": 9.2,
+  "tile2": 10.7,
+  "v6": 11.8,
+  "eq": 12.8,
+  "sameLab": 13.1,
+  "v7": 14.05,
+  "scan": 15.05,
+  "verified": 15.95,
+  "ghost": 17.05,
+  "noPaper": 17.45,
+  "v8": 18.7,
+  "offence": 19.65,
+  "seize": 20.45,
+  "record": 21.2,
+  "recLab": 21.4,
+  "v9": 22.1,
+  "add": 22.45,
+  "slide": 23.4,
+  "addLab": 23.8,
+  "v10": 26.75
+ }
+}

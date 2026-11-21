@@ -4,6 +4,68 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-21 (english-23, batch 23): "Paper or phone?": driving licence in DigiLocker at a traffic check
+
+### Status
+- **Confirmed before edits:** CLAUDE.md and this file reread; branch clean and in sync at 9d17ffb. Batch 22 was
+  delivered, so nothing was pending or duplicated. Caches were intact.
+- **The proposed topic (a NO RETURNS bill vs a defective toaster) repeats episodes 04 and 01.** Batches 08, 13, 16 and
+  21 rejected it too.
+- **Replacement (unrelated, and different from batch 22's valet in question, setting and mechanism):** a licence on
+  your phone at a traffic check. Record: `context/episodes/2026-11-21-english23-licence-digilocker.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-21-english-23/notes/LEGAL-SOURCES.md`)
+- **CMVR r.139 as amended by G.S.R. 1081(E), 2 Nov 2018:** "in physical or electronic form". Read via a reproduction;
+  the MoRTH PDF was not retrievable here (checkpoint).
+- **MoRTH letter RT-11036/64/2017-MVL, 8 Aug 2018** (official copy in Kerala Police Circular 25/2018):
+  - DigiLocker/mParivahan records are "at par with the original documents"
+  - impounding is reflected electronically via eChallan, with no physical seizure
+- **PIB 26 Sep 2020 (ID 1659408; G.S.R. 584(E), w.e.f. 1 Oct 2020):** physical forms "shall not be demanded" once an
+  officer validates electronically, "including in cases where there is an offence made out necessitating seizure".
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - a windshield view of a night POLICE checkpoint with red/cyan glow, road, cone and a fading dashboard (an empty
+    wallet slot "?" and the phone glowing with a licence)
+  - "PAPER OR PHONE?"
+  - voice at 0.05 s
+- **Beats:**
+  - card → phone (ELECTRONIC FORM)
+  - app tiles
+  - card = phone (SAME AS ORIGINAL)
+  - device scan → VERIFIED, paper ✕ (NO PAPER DEMANDED)
+  - OFFENCE → record to database (RECORDED ONLINE)
+  - + ADD (ADD IT NOW)
+- **Narration:**
+  - TTS spells "Diji Locker" and "M Pari-vaahan"; the normaliser maps phonetic/ASR spellings and licence/offence
+    variants
+  - "Stopped at…" became "You're stopped at…"
+- **Mix gain:** 7.4 dB (−16.2 LUFS on the pre-render mix; fewer words than earlier episodes).
+- **Self-check during research:** a retry of the MoRTH PDF with a browser user agent was blocked by the session's
+  permission policy. It was not worked around; official copies via the Kerala Police and PIB were used instead.
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-21-english-23/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st23 <times>
+node render.cjs thumb .. courtlens-30s-english23-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build23 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english23-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english23-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+$S/tts/venv/bin/python capcheck.py ../courtlens-30s-english23-01.mp4 ../courtlens-30s-english23-01-thumbnail.png ../qa/frame-zero.jpg 230 470 470 545
+```
+
+### Fixed before the full render (stills review)
+- The dashboard ended in a hard horizontal edge at y≈1480. It now fades into the paper, and the steering wheel is
+  clipped.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+
 ## Round 2026-11-19 (english-22, batch 22): "Your car. Your risk?": valet "owner's risk" ticket (SC, 2019)
 
 ### Status
