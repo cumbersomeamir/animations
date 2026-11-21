@@ -1,0 +1,113 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "This scrap has a market.",
+   "heard": "this scrap has a market",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 1.329,
+   "heard_off": 1.32,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Playgrounds need cushioned floors. Can a scrap tire become one?",
+   "heard": "playgrounds need cushioned floors can a scrap tire become one",
+   "word_acc": 1.0,
+   "plan_on": 1.65,
+   "heard_on": 1.62,
+   "plan_off": 5.469,
+   "heard_off": 5.46,
+   "missed": []
+  },
+  {
+   "id": "L3",
+   "ref": "Crumb rubber already goes into playground floors and tiles.",
+   "heard": "crumb rubber already goes into play ground floors and tiles",
+   "word_acc": 0.889,
+   "plan_on": 5.79,
+   "heard_on": 5.76,
+   "plan_off": 8.99,
+   "heard_off": 8.97,
+   "missed": [
+    [
+     "playground"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "Shred tires, pull steel with magnets, blow off fiber, sieve the crumb.",
+   "heard": "shred tires pull steel with magnets blow off fiber sieve the crumb",
+   "word_acc": 1.0,
+   "plan_on": 9.31,
+   "heard_on": 9.31,
+   "plan_off": 13.385,
+   "heard_off": 13.36,
+   "missed": []
+  },
+  {
+   "id": "L5",
+   "ref": "Mix the crumb with a binder and press it into tiles.",
+   "heard": "mix the chrome with a binder and press it into tiles",
+   "word_acc": 0.909,
+   "plan_on": 13.7,
+   "heard_on": 13.67,
+   "plan_off": 16.511,
+   "heard_off": 16.49,
+   "missed": [
+    [
+     "crumb"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Say fifty tires make a hundred tiles that sell for thirty-five thousand rupees.",
+   "heard": "save fifty tires make one hundred tiles that sell for thirty five thousand rupees",
+   "word_acc": 0.857,
+   "plan_on": 16.83,
+   "heard_on": 16.83,
+   "plan_off": 21.868,
+   "heard_off": 21.87,
+   "missed": [
+    [
+     "say"
+    ],
+    [
+     "a"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "After crumb, binder, labor and press costs, about nine thousand is left.",
+   "heard": "after crumb binder labor and press costs about nine thousand is left",
+   "word_acc": 1.0,
+   "plan_on": 22.19,
+   "heard_on": 22.19,
+   "plan_off": 26.748,
+   "heard_off": 26.72,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

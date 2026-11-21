@@ -1,0 +1,45 @@
+{
+ "sfx_cues": [
+  [
+   1.4,
+   "tyre settles on its tile shadow (after \"market\", before \"Playgrounds\")"
+  ],
+  [
+   5.53,
+   "to the report card (between lines)"
+  ],
+  [
+   9.06,
+   "tyre drops into the shredder (between lines)"
+  ],
+  [
+   13.44,
+   "sieve settles, crumb heap done (between lines)"
+  ],
+  [
+   16.57,
+   "pressed tile lands, cut to the batch (between lines)"
+  ],
+  [
+   21.93,
+   "cost bar appears (between lines)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.17",
+  "input_tp": "-3.10",
+  "input_lra": "2.60",
+  "input_thresh": "-27.60",
+  "output_i": "-15.51",
+  "output_tp": "-1.50",
+  "output_lra": "2.80",
+  "output_thresh": "-25.91",
+  "normalization_type": "dynamic",
+  "target_offset": "0.51"
+ }
+}

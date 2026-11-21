@@ -18,6 +18,8 @@ open.
 - 2026-11-02: Educational pilot 01 "Why a paper cup is not just paper" (15 s), under
   `videos/wastepaisa/education/pilot-01/`. Status, QA and the next action are tracked in
   `context/10-educational-progress.md`.
+- 2026-11-02 onward: 30-second English/Hindi educational episodes under `videos/wastepaisa/production/30s/`, each logged in
+  context 10 with its own record (latest: english-23, 2026-11-21, `context/36-english-23-01.md`).
 
 ## Next
 - Educational: see `context/10-educational-progress.md`.

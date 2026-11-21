@@ -1,0 +1,78 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 27.215,
+  "words": 77,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "This scrap has a market.",
+      "start": 0.1,
+      "phonemes": "ðɪs skɹˈæp hɐz ɐ mˈɑːɹkɪt.",
+      "duration": 1.229,
+      "end": 1.329
+    },
+    {
+      "id": "L2",
+      "text": "Playgrounds need cushioned floors. Can a scrap tyre become one?",
+      "tts": "Playgrounds need cushioned floors. Can a scrap tire become one?",
+      "start": 1.65,
+      "phonemes": "plˈeɪɡɹaʊndz nˈiːd kˈʊʃənd flˈɔːɹz. kæn ɐ skɹˈæp tˈaɪɚ bɪkˈʌm wˌʌn?",
+      "duration": 3.819,
+      "end": 5.469
+    },
+    {
+      "id": "L3",
+      "text": "Crumb rubber already goes into playground floors and tiles.",
+      "start": 5.79,
+      "phonemes": "kɹˈʌm ɹˈʌbɚɹ ɔːlɹˌɛdi ɡoʊz ˌɪntʊ plˈeɪɡɹaʊnd flˈɔːɹz ænd tˈaɪlz.",
+      "duration": 3.2,
+      "end": 8.99
+    },
+    {
+      "id": "L4",
+      "text": "Shred tyres, pull steel with magnets, blow off fibre, sieve the crumb.",
+      "tts": "Shred tires, pull steel with magnets, blow off fiber, sieve the crumb.",
+      "start": 9.31,
+      "phonemes": "ʃɹˈɛd tˈaɪɚz, pˈʊl stˈiːl wɪð mˈæɡnɪts, blˈoʊ ˈɔf fˈaɪbɚ, sˈɪv ðə kɹˈʌm.",
+      "duration": 4.075,
+      "end": 13.385
+    },
+    {
+      "id": "L5",
+      "text": "Mix the crumb with a binder and press it into tiles.",
+      "start": 13.7,
+      "phonemes": "mˈɪks ðə kɹˈʌm wɪð ɐ bˈaɪndɚ ænd pɹˈɛs ɪɾ ˌɪntʊ tˈaɪlz.",
+      "duration": 2.811,
+      "end": 16.511
+    },
+    {
+      "id": "L6",
+      "text": "Say fifty tyres make a hundred tiles that sell for ₹35,000.",
+      "tts": "Say fifty tires make a hundred tiles that sell for thirty-five thousand rupees.",
+      "start": 16.83,
+      "phonemes": "sˈeɪ fˈɪfti tˈaɪɚz mˌeɪk ɐ hˈʌndɹɪd tˈaɪlz ðæt sˈɛl fɔːɹ θˈɜːɾifˈaɪv θˈaʊzənd ɹˈuːpiːz.",
+      "duration": 5.038,
+      "end": 21.868
+    },
+    {
+      "id": "L7",
+      "text": "After crumb, binder, labour and press costs, about ₹9,000 is left.",
+      "tts": "After crumb, binder, labor and press costs, about nine thousand is left.",
+      "start": 22.19,
+      "phonemes": "ˈæftɚ kɹˈʌm, bˈaɪndɚ, lˈeɪbɚɹ ænd pɹˈɛs kˈɔsts, ɐbˌaʊt nˈaɪn θˈaʊzənd ɪz lˈɛft.",
+      "duration": 4.558,
+      "end": 26.748
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

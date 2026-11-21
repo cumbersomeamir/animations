@@ -1,0 +1,28 @@
+English intelligibility and timing evidence: wastepaisa-30s-english23-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.09 | offset plan 1.33 heard 1.32 | heard: this scrap has a market
+   L2 word acc 1.00 | onset plan 1.65 heard 1.62 | offset plan 5.47 heard 5.46 | heard: playgrounds need cushioned floors can a scrap tire become one
+   L3 word acc 0.89 | onset plan 5.79 heard 5.76 | offset plan 8.99 heard 8.97 | heard: crumb rubber already goes into play ground floors and tiles
+   L4 word acc 1.00 | onset plan 9.31 heard 9.31 | offset plan 13.38 heard 13.36 | heard: shred tires pull steel with magnets blow off fiber sieve the crumb
+   L5 word acc 0.91 | onset plan 13.70 heard 13.67 | offset plan 16.51 heard 16.49 | heard: mix the chrome with a binder and press it into tiles
+   L6 word acc 0.86 | onset plan 16.83 heard 16.83 | offset plan 21.87 heard 21.87 | heard: save fifty tires make one hundred tiles that sell for thirty five thousand rupees
+   L7 word acc 1.00 | onset plan 22.19 heard 22.19 | offset plan 26.75 heard 26.72 | heard: after crumb binder labor and press costs about nine thousand is left
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.943; every onset/offset within 0.03 s of plan (full record in qa/asr-english-vosk.json)
+   Misses: "playground" split into "play ground" (same words), crumb -> "chrome" in L5 (heard correctly in L3, L4 and L7),
+   say -> "save", "a hundred" -> "one hundred"; the brand is out of vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   This scrap has a market. Playgrounds need cushioned floors. Can a scrap tire become one? Crumb rubber already goes into playground floors and tiles. Shred tires, pull steel with magnets, blow off fiber, sift the crumb. Mix the crumb with a binder and press it into tiles. Say 50 tires make 100 tiles that sell for 35,000 rupees. After crumb, binder, labor and press costs, about 9,000 is left. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word except "sieve" written as "sift" (Vosk hears "sieve"; same meaning) and the brand spelling.
+   US spellings (tire, fiber, labor) are the engines' output; captions use tyre, fibre, labour.
+
+3) Draft-stage fixes found by ASR: "Mix in binder, press tiles" was transcribed as "Mix and Binder Press Tiles" and was reworded to
+   "Mix the crumb with a binder and press it into tiles."; the money line was split into a revenue line and a profit line.
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.1 LUFS integrated, true peak -1.5 dBFS, LRA 2.5 LU, sample peak -1.47 dBFS,
+   flat factor 0 (no clipped runs). The tyre thud, whoosh, shredder clank, sieve ticks, press thud and pops all sit between
+   lines (audio/cues.json).

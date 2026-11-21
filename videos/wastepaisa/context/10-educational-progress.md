@@ -635,6 +635,34 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
   - Shell prices up to ₹38/kg (context 19).
   - Episode record: `context/35-english-22-01.md`. No automation.
 
+## english-23 (2026-11-21-english-23) episode 01: COMPLETE (English)
+- **Topic kept:** discarded tyres made into rubber playground tiles. english-16 asked which casings a retreader buys (crumb only as the
+  low-value exit); this episode asks whether scrap tyres can become a manufactured product with its own buyer, through industrial
+  crumbing and binder-bound pressing. It also differs from batch22's actual subject (a hand-finished coconut-shell planter) in question,
+  setting and mechanism.
+  - Spine: this scrap has a market; can a scrap tyre become a cushioned playground floor? Proof: crumb rubber already goes into
+    playground surfaces and flooring tiles (NITI Aayog, Jan 2026). Method: shred, pull steel with magnets, blow off fibre, sieve
+    (Gradeall); mix with a PU binder and press into tiles.
+  - Assumed batch (100 tiles, 500 × 500 × 25 mm): crumb ≈ 500 kg ₹11,000 + binder ≈ 45 kg ₹9,000 + labour ₹3,000 + press, power and
+    colour ₹3,000 = ₹26,000. Sales 100 × ₹350 = ₹35,000 (revenue), leaving about ₹9,000. Inputs come from listed asking prices.
+- **Start state:** batch22 complete and pushed (ee33424); no checkpointed or running work.
+- **First-frame rule:** frame 0 shows a back-lit worn tyre whose shadow on the floor is a colourful speckled playground tile, with
+  "This scrap has a market." on screen; the thumbnail is the same composition with "THIS SCRAP HAS A MARKET".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-21-english-23/wastepaisa-30s-english23-01.mp4`,
+  SHA-256 `c4a3126bc8afba8751004dd4ac0aea9ef167d231a3dfefb3049ded3dce43568c`; thumbnail `wastepaisa-30s-english23-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.1 LUFS / −1.5 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 135.5–864.5, y 288.5–461.5; hook caption at frame 0.
+  - Timing within ±0.03 s.
+  - Vosk mean 0.943; Whisper word for word apart from "sieve" → "sift" and the brand.
+  - ASR, meters and decoded frames only: no listening in the cloud.
+- **Research:** NITI Aayog waste-tyre report (Jan 2026); Gradeall crumbing process and tyre-to-crumb ratio; crumb, PU binder and rubber
+  tile asking prices (IndiaMART, TradeIndia, ExportersIndia; retrieved 21 Nov 2026). Episode record: `context/36-english-23-01.md`.
+  No automation.
+- **Fixed during QA:** the hook tile now sits under the tyre as its shadow; steel bits redrawn as wire; the crumbing line, proof and
+  press shots rebuilt for clearer 3D forms; tyre stacks given rim light; the ASSUMED tag no longer doubles across the batch → profit cut.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
