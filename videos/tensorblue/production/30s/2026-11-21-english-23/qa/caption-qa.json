@@ -1,0 +1,244 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "This password leaked."
+   ],
+   "t0": 0.04,
+   "tEnd": 1.34,
+   "frame": 19,
+   "box": {
+    "x0": 209,
+    "x1": 788,
+    "y0": 344,
+    "y1": 396,
+    "n": 9757
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Your app knows,",
+    "but never sent it."
+   ],
+   "t0": 1.34,
+   "tEnd": 3.31,
+   "frame": 58,
+   "box": {
+    "x0": 284,
+    "x1": 715,
+    "y0": 315,
+    "y1": 417,
+    "n": 13659
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Apps like 1Password",
+    "do this. How?"
+   ],
+   "t0": 3.31,
+   "tEnd": 5.76,
+   "frame": 117,
+   "box": {
+    "x0": 235,
+    "x1": 762,
+    "y0": 312,
+    "y1": 417,
+    "n": 14866
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "First, the password becomes",
+    "a forty-character hash."
+   ],
+   "t0": 5.76,
+   "tEnd": 8.81,
+   "frame": 191,
+   "box": {
+    "x0": 126,
+    "x1": 874,
+    "y0": 312,
+    "y1": 428,
+    "n": 21627
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Only the first five characters",
+    "leave your phone."
+   ],
+   "t0": 8.81,
+   "tEnd": 11.36,
+   "frame": 282,
+   "box": {
+    "x0": 130,
+    "x1": 869,
+    "y0": 312,
+    "y1": 428,
+    "n": 19519
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The breach list returns",
+    "every hash"
+   ],
+   "t0": 11.36,
+   "tEnd": 13.16,
+   "frame": 359,
+   "box": {
+    "x0": 207,
+    "x1": 792,
+    "y0": 312,
+    "y1": 428,
+    "n": 14097
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "that starts the same,"
+   ],
+   "t0": 13.16,
+   "tEnd": 14.51,
+   "frame": 413,
+   "box": {
+    "x0": 232,
+    "x1": 763,
+    "y0": 346,
+    "y1": 394,
+    "n": 8695
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and your phone compares."
+   ],
+   "t0": 14.51,
+   "tEnd": 16.08,
+   "frame": 453,
+   "box": {
+    "x0": 152,
+    "x1": 844,
+    "y0": 345,
+    "y1": 394,
+    "n": 11107
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Our test got two",
+    "thousand look-alikes,"
+   ],
+   "t0": 16.08,
+   "tEnd": 18.42,
+   "frame": 501,
+   "box": {
+    "x0": 220,
+    "x1": 775,
+    "y0": 314,
+    "y1": 426,
+    "n": 16276
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "and password123 appeared",
+    "over two million times."
+   ],
+   "t0": 18.42,
+   "tEnd": 21.97,
+   "frame": 571,
+   "box": {
+    "x0": 142,
+    "x1": 856,
+    "y0": 315,
+    "y1": 417,
+    "n": 21777
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Building sign-up?"
+   ],
+   "t0": 21.97,
+   "tEnd": 23.11,
+   "frame": 677,
+   "box": {
+    "x0": 275,
+    "x1": 725,
+    "y0": 343,
+    "y1": 396,
+    "n": 8166
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Check this way, and the",
+    "password never"
+   ],
+   "t0": 23.11,
+   "tEnd": 25.13,
+   "frame": 711,
+   "box": {
+    "x0": 191,
+    "x1": 808,
+    "y0": 312,
+    "y1": 428,
+    "n": 17015
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "leaves the phone."
+   ],
+   "t0": 25.13,
+   "tEnd": 26.95,
+   "frame": 772,
+   "box": {
+    "x0": 272,
+    "x1": 726,
+    "y0": 345,
+    "y1": 394,
+    "n": 7501
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 312,
+    "y1": 428,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "headline": [],
+ "headlineWorstPropPixels": 0,
+ "pass": true,
+ "checkedFrames": 90
+}

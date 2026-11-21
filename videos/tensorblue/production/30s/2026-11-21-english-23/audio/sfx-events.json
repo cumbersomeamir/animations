@@ -1,0 +1,245 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.702,
+   "type": "reject"
+  },
+  {
+   "t": 2.277,
+   "type": "slot"
+  },
+  {
+   "t": 3.254,
+   "type": "wipe"
+  },
+  {
+   "t": 5.077,
+   "type": "type"
+  },
+  {
+   "t": 5.701,
+   "type": "wipe"
+  },
+  {
+   "t": 5.776,
+   "type": "stamp"
+  },
+  {
+   "t": 6.026,
+   "type": "tap"
+  },
+  {
+   "t": 6.206,
+   "type": "tap"
+  },
+  {
+   "t": 6.386,
+   "type": "tap"
+  },
+  {
+   "t": 6.566,
+   "type": "tap"
+  },
+  {
+   "t": 6.746,
+   "type": "tap"
+  },
+  {
+   "t": 6.926,
+   "type": "tap"
+  },
+  {
+   "t": 7.106,
+   "type": "tap"
+  },
+  {
+   "t": 7.286,
+   "type": "tap"
+  },
+  {
+   "t": 7.466,
+   "type": "tap"
+  },
+  {
+   "t": 7.646,
+   "type": "tap"
+  },
+  {
+   "t": 8.773,
+   "type": "wipe"
+  },
+  {
+   "t": 9.38,
+   "type": "pop"
+  },
+  {
+   "t": 10.355,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 11.321,
+   "type": "wipe"
+  },
+  {
+   "t": 11.646,
+   "type": "slot"
+  },
+  {
+   "t": 12.46,
+   "type": "slide"
+  },
+  {
+   "t": 13.01,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.297,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.584,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 13.871,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.157,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.444,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 14.731,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 15.018,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 15.305,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 15.346,
+   "type": "reject"
+  },
+  {
+   "t": 16.024,
+   "type": "wipe"
+  },
+  {
+   "t": 17.04,
+   "type": "type"
+  },
+  {
+   "t": 19.832,
+   "type": "type"
+  },
+  {
+   "t": 21.906,
+   "type": "wipe"
+  },
+  {
+   "t": 22.074,
+   "type": "stamp"
+  },
+  {
+   "t": 23.324,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 25.187,
+   "type": "match"
+  },
+  {
+   "t": 26.178,
+   "type": "chime"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.175,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "leaked": 0.752,
+  "knows": 1.777,
+  "never": 2.327,
+  "sent1": 2.614,
+  "apps": 3.374,
+  "one": 3.799,
+  "how": 5.137,
+  "first3": 5.826,
+  "becomes": 6.913,
+  "forty": 7.363,
+  "hash3": 8.126,
+  "only": 8.873,
+  "five": 9.53,
+  "leave": 10.405,
+  "phone4": 10.718,
+  "breach": 11.472,
+  "returns": 12.046,
+  "every": 12.56,
+  "same": 13.834,
+  "compares": 15.196,
+  "test": 16.27,
+  "thousand": 17.12,
+  "lookalikes": 17.532,
+  "pw6": 18.607,
+  "appeared": 19.932,
+  "million": 20.732,
+  "building": 22.026,
+  "signup": 22.374,
+  "check": 23.174,
+  "never7": 24.887,
+  "leaves7": 25.187,
+  "follow": 27,
+  "tb": 27.275,
+  "chime": 26.177999999999997,
+  "scenes": [
+   0,
+   3.254,
+   5.701,
+   8.773,
+   11.321,
+   16.023999999999997,
+   21.906,
+   26.6,
+   30.01
+  ]
+ }
+}

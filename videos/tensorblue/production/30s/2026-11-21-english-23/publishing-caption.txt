@@ -1,0 +1,19 @@
+LEAKED. NEVER SENT. How does your app know?
+
+This password leaked. Your app knows, but never sent it. Apps like 1Password do this. How? First, the password becomes a forty-character hash. Only the first five characters leave your phone. The breach list returns every hash that starts the same, and your phone compares.
+
+Our test got two thousand look-alikes, and password123 appeared over two million times. Building sign-up? Check this way, and the password never leaves the phone.
+
+Our test (real queries to the free Have I Been Pwned "Pwned Passwords" range API, 21 Nov 2026, 11:45 UTC, using only public sample passwords): password123 hashes (SHA-1) to CBFDAC6008F9CAB4083784CBD1874F76618D2A97. We sent only "CBFDA". The API returned 2,078 hash endings: 1,972 real leaked ones plus 106 padding decoys (count 0) that hide the true list size. The rest of password123's hash was in the list with a count of 2,266,677. A fresh random 20-character password sent only "DE4AD" and was not found. These counts change as breaches are added.
+
+Honest limit: the password itself never leaves the device, but 5 hash characters do. 1Password notes that if you use several similar weak passwords, the service could in theory learn them if it acted maliciously. Strong, unique passwords avoid that. The phone screen in the video is our own illustration, not 1Password's app.
+
+Sources:
+- 1Password Support, About Watchtower privacy: https://support.1password.com/watchtower-privacy/
+- 1Password blog, Finding compromised passwords with 1Password (2018): https://1password.com/blog/finding-pwned-passwords-with-1password
+- Have I Been Pwned API v3, Pwned Passwords range search and padding: https://haveibeenpwned.com/API/v3
+- Cloudflare blog, Validating Leaked Passwords with k-Anonymity (2018): https://blog.cloudflare.com/validating-leaked-passwords-with-k-anonymity/
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #Privacy #SoftwareExplained

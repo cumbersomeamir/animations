@@ -1,0 +1,45 @@
+{
+ "what": "Real queries to the public HIBP Pwned Passwords range API (k-anonymity) with two public sample passwords; nothing personal.",
+ "queried_utc": "2026-11-21 11:45 UTC",
+ "api": "https://api.pwnedpasswords.com/range/{prefix}",
+ "header": "Add-Padding: true",
+ "possible_prefixes": 1048576,
+ "weak": {
+  "label": "weak sample: password123",
+  "hash_length": 40,
+  "sent_to_service": "CBFDA",
+  "sent_characters": 5,
+  "kept_on_device_characters": 35,
+  "http_status": 200,
+  "returned_suffixes_total": 2078,
+  "returned_real_leaked_suffixes": 1972,
+  "returned_padding_entries": 106,
+  "found": true,
+  "times_seen_in_breaches": 2266677,
+  "example_returned_lines": [
+   "000DD0BFD801860C09116B9AAD880B125F1:53",
+   "00791BB54CC9122C70C1156FD97134EB83E:5",
+   "0088D3EFF796511B3833D74664B042D531A:1"
+  ],
+  "shown_hash": "CBFDAC6008F9CAB4083784CBD1874F76618D2A97"
+ },
+ "strong": {
+  "label": "strong sample: fresh random 20 characters (not stored)",
+  "hash_length": 40,
+  "sent_to_service": "DE4AD",
+  "sent_characters": 5,
+  "kept_on_device_characters": 35,
+  "http_status": 200,
+  "returned_suffixes_total": 2047,
+  "returned_real_leaked_suffixes": 1966,
+  "returned_padding_entries": 81,
+  "found": false,
+  "times_seen_in_breaches": 0,
+  "example_returned_lines": [
+   "00152975BD30EC90D91FB1467FC32F4F460:1",
+   "002FB9F5DEAE52A665645E45CC148EAC0DF:1",
+   "0067CE06E044CF70FD24E2859C8C57BDDD3:5"
+  ],
+  "shown_hash": "DE4AD\u2026"
+ }
+}

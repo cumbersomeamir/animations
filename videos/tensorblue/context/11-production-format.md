@@ -200,6 +200,17 @@ Practical system design · useful new GitHub tools · research explained through
     - The payoff is the Google Maps blue accuracy circle.
     - Notes: `36-production-30s-english22-01.md`.
 
+- **2026-11-21 brief (batch23) — english-23:**
+  - **Topic replaced (third time).** The proposal ("How an app avoids charging you twice after a retry", idempotency) duplicated episode 14 and had already been declined in english-07 and english-14. Following the brief, an unrelated subject was chosen. It also differs from batch22 (a map tunnel; positioning) in its question, setting and mechanism.
+  - **Subject:** how an app checks whether your password leaked without sending it. 1Password Watchtower uses the Have I Been Pwned range API, which is k-anonymity with a SHA-1 prefix. The test made real API queries with public sample passwords only.
+  - **Frame zero:** **LEAKED. NEVER SENT.**
+  - **New standing checks (from english-23 on):**
+    - **Headlines must never sit on a 3D prop or a flying object.** The 2-fps watch-through missed a capsule crossing a headline for about 6 frames. `qa.mjs` check 4 now compares every 2nd frame before the CTA: inside each headline's ink box (+12 px), the world without headline must match the bare background (RGB-sum threshold 90; 45 trips on the lit floor itself).
+    - Headlines are centred on the caption axis (x 500) and fitted to ≤ 700 px. If a prop sits on the right, shorten the words instead of shrinking the text.
+    - Time a headline out before an object flies through its zone (one visual idea at a time).
+    - Screen textures throw if a line overflows its card.
+  - Notes: `37-production-30s-english23-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/
