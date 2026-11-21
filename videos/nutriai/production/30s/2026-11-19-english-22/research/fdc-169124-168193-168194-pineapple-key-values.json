@@ -1,0 +1,284 @@
+{
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (sha256 789240d42d51640b931782310403c415eb4aa03383d8f0a52f6315db80f96bc7), https://fdc.nal.usda.gov/download-datasets",
+ "retrieved": "2026-11-18",
+ "foods": [
+  {
+   "fdcId": 168193,
+   "ndbNumber": 9429,
+   "description": "Pineapple, raw, traditional varieties",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Carbohydrate, by difference": {
+     "amount": 11.8,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 45.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 1.0,
+     "unit": "mg",
+     "dataPoints": 0
+    },
+    "Protein": {
+     "amount": 0.55,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Total lipid (fat)": {
+     "amount": 0.13,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Water": {
+     "amount": 87.2,
+     "unit": "g",
+     "dataPoints": 11
+    },
+    "Sugars, total including NLEA": {
+     "amount": 8.29,
+     "unit": "g",
+     "dataPoints": 3
+    },
+    "Potassium, K": {
+     "amount": 125,
+     "unit": "mg",
+     "dataPoints": 12
+    },
+    "Manganese, Mn": {
+     "amount": 1.59,
+     "unit": "mg",
+     "dataPoints": 12
+    },
+    "Vitamin C, total ascorbic acid": {
+     "amount": 16.9,
+     "unit": "mg",
+     "dataPoints": 11
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "fruit",
+     "gramWeight": 1002.0
+    },
+    {
+     "amount": null,
+     "modifier": "NLEA serving",
+     "gramWeight": 112.0
+    },
+    {
+     "amount": null,
+     "modifier": "slice (4-2/3\" dia x 3/4\" thick)",
+     "gramWeight": 175.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup, chunks",
+     "gramWeight": 165.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.36,
+    "fat": 8.37,
+    "carbohydrate": 3.6
+   }
+  },
+  {
+   "fdcId": 168194,
+   "ndbNumber": 9430,
+   "description": "Pineapple, raw, extra sweet variety",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Carbohydrate, by difference": {
+     "amount": 13.5,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 51.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Protein": {
+     "amount": 0.53,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Fiber, total dietary": {
+     "amount": 1.4,
+     "unit": "g",
+     "dataPoints": 6
+    },
+    "Water": {
+     "amount": 85.7,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Sugars, total including NLEA": {
+     "amount": 10.3,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Potassium, K": {
+     "amount": 108,
+     "unit": "mg",
+     "dataPoints": 10
+    },
+    "Total lipid (fat)": {
+     "amount": 0.11,
+     "unit": "g",
+     "dataPoints": 10
+    },
+    "Sodium, Na": {
+     "amount": 1.0,
+     "unit": "mg",
+     "dataPoints": 0
+    },
+    "Manganese, Mn": {
+     "amount": 0.818,
+     "unit": "mg",
+     "dataPoints": 10
+    },
+    "Vitamin C, total ascorbic acid": {
+     "amount": 56.4,
+     "unit": "mg",
+     "dataPoints": 10
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "slice (4-2/3\" dia x 3/4\" thick)",
+     "gramWeight": 166.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup, chunks",
+     "gramWeight": 165.0
+    },
+    {
+     "amount": null,
+     "modifier": "fruit",
+     "gramWeight": 905.0
+    },
+    {
+     "amount": null,
+     "modifier": "NLEA serving",
+     "gramWeight": 112.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.36,
+    "fat": 8.37,
+    "carbohydrate": 3.6
+   }
+  },
+  {
+   "fdcId": 169124,
+   "ndbNumber": 9266,
+   "description": "Pineapple, raw, all varieties",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Protein": {
+     "amount": 0.54,
+     "unit": "g",
+     "dataPoints": 21
+    },
+    "Sodium, Na": {
+     "amount": 1.0,
+     "unit": "mg",
+     "dataPoints": 11
+    },
+    "Sugars, total including NLEA": {
+     "amount": 9.85,
+     "unit": "g",
+     "dataPoints": 13
+    },
+    "Potassium, K": {
+     "amount": 109,
+     "unit": "mg",
+     "dataPoints": 22
+    },
+    "Water": {
+     "amount": 86.0,
+     "unit": "g",
+     "dataPoints": 21
+    },
+    "Total lipid (fat)": {
+     "amount": 0.12,
+     "unit": "g",
+     "dataPoints": 21
+    },
+    "Fiber, total dietary": {
+     "amount": 1.4,
+     "unit": "g",
+     "dataPoints": 6
+    },
+    "Fatty acids, total saturated": {
+     "amount": 0.009,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Carbohydrate, by difference": {
+     "amount": 13.1,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 50.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Vitamin C, total ascorbic acid": {
+     "amount": 47.8,
+     "unit": "mg",
+     "dataPoints": 21
+    },
+    "Manganese, Mn": {
+     "amount": 0.927,
+     "unit": "mg",
+     "dataPoints": 22
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "slice, thin (3-1/2\" dia x 1/2\" thick)",
+     "gramWeight": 56.0
+    },
+    {
+     "amount": null,
+     "modifier": "slice (4-2/3\" dia x 3/4\" thick)",
+     "gramWeight": 166.0
+    },
+    {
+     "amount": null,
+     "modifier": "fruit",
+     "gramWeight": 905.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup, chunks",
+     "gramWeight": 165.0
+    },
+    {
+     "amount": null,
+     "modifier": "slice (3-1/2\" dia x 3/4\" thick)",
+     "gramWeight": 84.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 3.36,
+    "fat": 8.37,
+    "carbohydrate": 3.6
+   }
+  }
+ ]
+}

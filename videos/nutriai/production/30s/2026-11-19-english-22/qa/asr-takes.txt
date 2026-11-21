@@ -1,0 +1,14 @@
+T0.wav Sweet sure, but what's really inside a pineapple?
+    [('Sweet', 0.0, 0.26), ('sure,', 0.26, 0.6), ('but', 1.02, 1.2), ("what's", 1.2, 1.44), ('really', 1.44, 1.64), ('inside', 1.64, 1.92), ('a', 1.92, 2.6), ('pineapple?', 2.6, 2.6)]
+T1.wav Skip the crown, peel and core and step inside.
+    [('Skip', 0.0, 0.18), ('the', 0.18, 0.32), ('crown,', 0.32, 0.6), ('peel', 0.84, 0.94), ('and', 0.94, 1.14), ('core', 1.14, 1.38), ('and', 1.38, 1.62), ('step', 1.62, 1.82), ('inside.', 1.82, 2.14)]
+T2.wav First, a fiber path, 1 .4 grams per 100, and fiber aids digestion.
+    [('First,', 0.0, 0.32), ('a', 0.56, 0.58), ('fiber', 0.58, 0.82), ('path,', 0.82, 1.24), ('1', 1.8, 1.96), ('.4', 1.96, 2.62), ('grams', 2.62, 2.94), ('per', 2.94, 3.26), ('100,', 3.26, 3.52), ('and', 3.86, 3.96), ('fiber', 3.96, 4.24), ('aids', 4.24, 4.54), ('digestion.', 4.54, 5.1)]
+T3.wav Next, the star, 48 milligrams of vitamin C.
+    [('Next,', 0.0, 0.24), ('the', 0.44, 0.46), ('star,', 0.46, 0.76), ('48', 1.18, 1.56), ('milligrams', 1.56, 2.2), ('of', 2.2, 2.36), ('vitamin', 2.36, 2.58), ('C.', 2.58, 3.04)]
+T4.wav Your body uses it to make collagen for skin and blood vessels, and to absorb iron.
+    [('Your', 0.0, 0.1), ('body', 0.1, 0.4), ('uses', 0.4, 0.72), ('it', 0.72, 0.94), ('to', 0.94, 1.08), ('make', 1.08, 1.2), ('collagen', 1.2, 1.64), ('for', 1.64, 2.0), ('skin', 2.0, 2.34), ('and', 2.34, 2.56), ('blood', 2.56, 2.8), ('vessels,', 2.8, 3.18), ('and', 3.7, 3.88), ('to', 3.88, 4.02), ('absorb', 4.02, 4.24), ('iron.', 4.24, 4.88)]
+T5.wav One cup of chunks, about 80 milligrams, nearly a full day's vitamin C.
+    [('One', 0.0, 0.18), ('cup', 0.18, 0.38), ('of', 0.38, 0.5), ('chunks,', 0.5, 0.68), ('about', 1.26, 1.48), ('80', 1.48, 1.76), ('milligrams,', 1.76, 2.4), ('nearly', 2.66, 2.78), ('a', 2.78, 3.02), ('full', 3.02, 3.24), ("day's", 3.24, 3.68), ('vitamin', 3.68, 3.92), ('C.', 3.92, 4.4)]
+T9.wav Track your nutrition with calmeter.
+    [('Track', 0.0, 0.18), ('your', 0.18, 0.36), ('nutrition', 0.36, 0.62), ('with', 0.62, 0.92), ('calmeter.', 0.92, 1.36)]

@@ -1,0 +1,23 @@
+USDA SR28 (sr28asc.zip sha256 8308fd1d224ef1e5331093748007180da01a7ac713cbac6a1f5bc2a03e1ee70a), retrieved 2026-11-19 (same verified archive as english-20/21)
+FOOD_DES fields: NDB~FdGrp~Long_Desc~Shrt_Desc~ComName~ManufacName~Survey~Ref_desc~Refuse~SciName~N_Factor~Pro_Factor~Fat_Factor~CHO_Factor
+~09266~^~0900~^~Pineapple, raw, all varieties~^~PINEAPPLE,RAW,ALL VAR~^~~^~~^~Y~^~8% core, 16% crown, 26% parings~^49^~Ananas comosus~^6.25^3.36^8.37^3.60
+~09429~^~0900~^~Pineapple, raw, traditional varieties~^~PINEAPPLE,RAW,TRADITIONAL VAR~^~~^~~^~~^~8% core, 13% crown, 22% parings~^42^~Ananas comosus~^^3.36^8.37^3.60
+~09430~^~0900~^~Pineapple, raw, extra sweet variety~^~PINEAPPLE,RAW,EX SWT VAR~^~~^~~^~~^~8% core, 16% crown, 26% parings~^49^~Ananas comosus~^^3.36^8.37^3.60
+
+WEIGHT fields: NDB~Seq~Amount~Msre_Desc~Gm_Wgt~Num_Data_Pts~Std_Dev
+~09266~^1^1^~cup, chunks~^165^34^19.149
+~09266~^2^1^~fruit~^905^26^165.33
+~09266~^3^1^~slice (4-2/3" dia x 3/4" thick)~^166^11^45.494
+~09266~^4^1^~slice (3-1/2" dia x 3/4" thick)~^84^^
+~09266~^5^1^~slice, thin (3-1/2" dia x 1/2" thick)~^56^^
+
+Verbatim excerpts from sr28_doc.pdf:
+The refuse and refuse description fields contain amounts and descriptions of inedible
+material (for example, seeds, bone, and skin) for applicable foods. These amounts are
+expressed as a percentage of the total weight of the item as purchased, and they are
+used to compute the weight of the edible portion. Refuse data were obtained from
+NFNAP and other USDA-sponsored contracts and US Department of Agriculture
+
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and

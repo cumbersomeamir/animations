@@ -1,0 +1,8 @@
+Source: eCFR point-in-time API, 21 CFR 101.9 as of 2026-11-01, https://www.ecfr.gov/api/versioner/v1/full/2026-11-01/title-21.xml?part=101&section=101.9 (sha256 of the downloaded XML: fe7c26d546fb886db2f67908e1033cf1dd42169c13bbf5862585440bce4d8c35)
+Web page: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9
+
+Excerpt (start of the RDI table in 101.9(c)(8)(iv)):
+(iv) The following RDIs, nomenclature, and units of measure are established for the following vitamins and minerals which are essential in human nutrition: RDI Nutrient Unit of measure Adults and children ≥ 4 years Infants 1 through 12 months Children 1 through 3 years Pregnant women and lactating women Vitamin D Micrograms (mcg) 2 20 10 15 15 Calcium Milligrams (mg) 1,300 260 700 1,300 Iron Milligrams (mg) 18 11 7 27 Potassium Milligrams (mg) 4,700 700 3,000 5,100 Vitamin A Micrograms RAE 3 (mcg) 900 500 300 1,300 Vitamin C Milligrams (mg) 90 50 15 120 Vitamin E Milligrams (mg) 4 15 5 6 19 Vitamin K Micrograms (mcg) 120 2.5 30 90 Thiamin Milligrams (mg) 1.2 0.3 0.5 1.4 Riboflavin Milligrams
+
+Vitamin C row (columns: adults and children ≥ 4 years; infants 1-12 months; children 1-3 years; pregnant and lactating women):
+Vitamin C Milligrams (mg) 90 50 15 120 V

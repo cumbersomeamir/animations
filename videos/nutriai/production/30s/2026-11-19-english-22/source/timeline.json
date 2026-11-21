@@ -1,0 +1,354 @@
+{
+ "_doc": "CalMeter English 30 s english-22 (batch 22, 2026-11-19): what's really inside a pineapple, 'MORE THAN SWEET'. The requested 'What is really inside a mango?' was production #01 (2026-11-02), so a genuinely different same-genre fruit was chosen (context/37). Playful mascot theatre, captions 80 px in the y 280-460 band, one headline at a time, three numbers (1.4 g, 48 mg, 80 mg), CTA 'Track your nutrition with CalMeter.' 30 fps, 900 frames. Voice starts (s) and word frames from the ASR timing pass on the takes (qa/asr-takes.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.2
+  },
+  {
+   "id": "T2",
+   "at": 6.05
+  },
+  {
+   "id": "T3",
+   "at": 11.95
+  },
+  {
+   "id": "T4",
+   "at": 15.6
+  },
+  {
+   "id": "T5",
+   "at": 21.3
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 33,
+   "lines": [
+    [
+     "Sweet, sure.",
+     4
+    ]
+   ]
+  },
+  {
+   "in": 34,
+   "out": 92,
+   "lines": [
+    [
+     "But what's really",
+     35
+    ],
+    [
+     "inside a pineapple?",
+     54
+    ]
+   ]
+  },
+  {
+   "in": 95,
+   "out": 140,
+   "lines": [
+    [
+     "Skip the crown,",
+     96
+    ],
+    [
+     "peel and core,",
+     121
+    ]
+   ]
+  },
+  {
+   "in": 141,
+   "out": 175,
+   "lines": [
+    [
+     "and step inside.",
+     142
+    ]
+   ]
+  },
+  {
+   "in": 181,
+   "out": 232,
+   "lines": [
+    [
+     "First, a fibre path:",
+     182
+    ]
+   ]
+  },
+  {
+   "in": 234,
+   "out": 295,
+   "lines": [
+    [
+     "1.4 g per 100 g,",
+     236
+    ]
+   ]
+  },
+  {
+   "in": 296,
+   "out": 345,
+   "lines": [
+    [
+     "and fibre aids",
+     297
+    ],
+    [
+     "digestion.",
+     318
+    ]
+   ]
+  },
+  {
+   "in": 356,
+   "out": 390,
+   "lines": [
+    [
+     "Next, the star:",
+     358
+    ]
+   ]
+  },
+  {
+   "in": 392,
+   "out": 455,
+   "lines": [
+    [
+     "48 mg of vitamin C.",
+     394
+    ]
+   ]
+  },
+  {
+   "in": 466,
+   "out": 514,
+   "lines": [
+    [
+     "Your body uses it",
+     468
+    ],
+    [
+     "to make collagen",
+     496
+    ]
+   ]
+  },
+  {
+   "in": 515,
+   "out": 576,
+   "lines": [
+    [
+     "for skin and",
+     517
+    ],
+    [
+     "blood vessels,",
+     545
+    ]
+   ]
+  },
+  {
+   "in": 577,
+   "out": 620,
+   "lines": [
+    [
+     "and to absorb iron.",
+     579
+    ]
+   ]
+  },
+  {
+   "in": 636,
+   "out": 712,
+   "lines": [
+    [
+     "One cup of chunks:",
+     639
+    ],
+    [
+     "about 80 mg,",
+     677
+    ]
+   ]
+  },
+  {
+   "in": 714,
+   "out": 778,
+   "lines": [
+    [
+     "nearly a full day's",
+     719
+    ],
+    [
+     "vitamin C.",
+     749
+    ]
+   ]
+  },
+  {
+   "in": 811,
+   "out": 906,
+   "lines": [
+    [
+     "Track your nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     832
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "crown": 106,
+  "peel": 121,
+  "core": 130,
+  "dive": 150,
+  "path": 182,
+  "k14": 236,
+  "digest": 309,
+  "curtain": 336,
+  "starUp": 360,
+  "k48": 394,
+  "bowS": 425,
+  "whipDE": 454,
+  "helix": 470,
+  "collagen": 504,
+  "skin": 528,
+  "vessel": 545,
+  "iron": 589,
+  "whipEF": 622,
+  "chunks": 640,
+  "k80": 680,
+  "ring": 719,
+  "peekP": 730,
+  "cta": 806,
+  "ctaWord": 841,
+  "bowC": 860,
+  "sTick14": 230,
+  "sChime48": 386,
+  "sBoing": 858,
+  "sHelix": 476
+ },
+ "sfx": [
+  {
+   "ev": "crown",
+   "type": "pop",
+   "gain": -27
+  },
+  {
+   "ev": "peel",
+   "type": "tear",
+   "gain": -27
+  },
+  {
+   "ev": "core",
+   "type": "pop",
+   "gain": -29
+  },
+  {
+   "ev": "dive",
+   "type": "whoosh",
+   "dur": 0.6,
+   "gain": -26
+  },
+  {
+   "ev": "path",
+   "type": "sprinkle",
+   "dur": 0.6,
+   "gain": -31
+  },
+  {
+   "ev": "sTick14",
+   "type": "tick",
+   "gain": -26
+  },
+  {
+   "ev": "digest",
+   "type": "pour",
+   "dur": 0.8,
+   "gain": -32
+  },
+  {
+   "ev": "curtain",
+   "type": "swish",
+   "dur": 0.6,
+   "gain": -25
+  },
+  {
+   "ev": "starUp",
+   "type": "chime",
+   "gain": -29
+  },
+  {
+   "ev": "sChime48",
+   "type": "chime",
+   "gain": -28
+  },
+  {
+   "ev": "whipDE",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "sHelix",
+   "type": "sprinkle",
+   "dur": 0.8,
+   "gain": -34
+  },
+  {
+   "ev": "iron",
+   "type": "clack",
+   "dur": 0.5,
+   "gain": -31
+  },
+  {
+   "ev": "whipEF",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "chunks",
+   "type": "clack",
+   "dur": 0.8,
+   "gain": -32
+  },
+  {
+   "ev": "ring",
+   "type": "ticks",
+   "dur": 1.0,
+   "gain": -32
+  },
+  {
+   "ev": "cta",
+   "type": "swish",
+   "dur": 0.7,
+   "gain": -25
+  },
+  {
+   "ev": "sBoing",
+   "type": "boing",
+   "gain": -30
+  }
+ ],
+ "_sfx_note": "no foley lands on a spoken number; ticks/chimes sit just before '1.4' and '48'"
+}

@@ -1,0 +1,30 @@
+Sweet, sure.                 caption   0.13s  speech   0.00s  diff +0.13
+But what's really            caption   1.17s  speech   1.20s  diff -0.03
+inside a pineapple?          caption   1.80s  speech   1.74s  diff +0.06
+Skip the crown,              caption   3.20s  speech   3.36s  diff -0.16
+peel and core,               caption   4.03s  speech   4.04s  diff -0.01
+and step inside.             caption   4.73s  speech   4.16s  diff +0.57
+First, a fibre path:         caption   6.07s  speech   6.20s  diff -0.13
+1.4 g per 100 g,             caption   7.87s  speech   7.86s  diff +0.01
+and fibre aids               caption   9.90s  speech   9.86s  diff +0.04
+digestion.                   caption  10.60s  speech  10.58s  diff +0.02
+Next, the star:              caption  11.93s  speech  12.04s  diff -0.11
+48 mg of vitamin C.          caption  13.13s  speech  13.62s  diff -0.49
+Your body uses it            caption  15.60s  speech  15.60s  diff +0.00
+to make collagen             caption  16.53s  speech  16.54s  diff -0.01
+for skin and                 caption  17.23s  speech  17.22s  diff +0.01
+blood vessels,               caption  18.17s  speech  18.16s  diff +0.01
+and to absorb iron.          caption  19.30s  speech  19.26s  diff +0.04
+One cup of chunks:           caption  21.30s  speech  21.36s  diff -0.06
+about 80 mg,                 caption  22.57s  speech  22.50s  diff +0.07
+nearly a full day's          caption  23.97s  speech  23.94s  diff +0.03
+vitamin C.                   caption  24.97s  speech  24.96s  diff +0.01
+Track your nutrition         caption  27.10s  speech  25.74s  diff +1.36
+with CalMeter                caption  27.73s  speech  27.70s  diff +0.03
+20 of 23 caption lines within ±0.25 s of the spoken word (base.en word timestamps)
+
+Stem / word-list check for the 3 lines outside ±0.25 s by base.en (voice-only stem build/voice.wav, 10 ms RMS onsets; base.en word list of the final MP4):
+- "and step inside." caption 4.73 s; the second "and" (before "step") is spoken at 4.76 s in the word list, stem onset 4.73 s (+0.00 s). The aligner matched the earlier "and" in "peel and core" (4.16 s).
+- "48 mg of vitamin C." caption 13.13 s; voice stem: silence 12.90-13.20 s after "star,", onset of "forty-eight" 13.28 s (-0.15 s). base.en's 13.62 s on this run is late (the previous run of the same voice placement gave 13.20 s).
+- "Track your nutrition" caption 27.10 s; voice stem onset 27.14 s (-0.04 s); the voice track is silent from 26.01 s until the CTA take placed at 27.10 s, so base.en's 25.74 s is drift after the pause.
+Result: 23 of 23 caption lines within ±0.25 s of the speech (20 by base.en word timestamps, 3 by the stem/word-list checks above).

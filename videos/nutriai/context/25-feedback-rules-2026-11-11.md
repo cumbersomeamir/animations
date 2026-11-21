@@ -45,3 +45,11 @@ thumbnail → hook → optional super hook → build-up + proof → payoff → C
 - The cream boxed card / chart-only diagram style (batches 12–17) does not fulfil the feedback. Do not use cream chart-only layouts or rigid boxed cards.
 - Restore the fun, varied full-frame style: every scene full-bleed on its own bright background, one big playful engraved food hero with personality, real transformations, one nutrient reveal at a time, large bright outlined typography; captions white with a dark outline (second line yellow) inside x 100–900 / y 230–1500; the CalMeter wordmark white on colour.
 - No health-cure claims. Applied first in english-18 (passion fruit).
+
+## Addendum 2026-11-19 (batch 22 brief; applies to every next episode)
+- CTA wording is now **"Track your nutrition with CalMeter."** (spoken and shown). Cached take: `production/30s/2026-11-19-english-22/source/audio/voice-takes/T9.wav` (same Meshline voice, CalMeter phoneme override).
+- Captions sit below the platform account UI: ink inside **y 280–460**, horizontal margins x 100–900 (80 px, auto-fit ≥ 60 px, at most two lines).
+- Typography: **at most one short headline plus the current spoken caption** on screen at any time; two or three clear large numbers per episode.
+- Keep vital information (headlines, numbers, CTA) away from the right-side and bottom platform controls (checked inside x 100–940, y 480–1450).
+- Structure: hook 0–3 s, optional superhook 3–5 s, proof/build 5–21 s, payoff 21–27 s, CTA 27–30 s; one idea per shot; strong foreground depth; distinct scene changes; beat-synced foley under a clear voice.
+- Watch/listen requirement: do the densest machine review possible (frame sheets at ≥ 5 frames/s, ASR, voice-stem onsets, audio-balance check) and state plainly that no human watched or listened.
