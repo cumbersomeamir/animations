@@ -1,0 +1,115 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Stop pushing the idea.",
+      "start": 0.15,
+      "end": 1.349,
+      "pauses": [
+        [
+          0.416,
+          0.493
+        ]
+      ]
+    },
+    {
+      "id": "super",
+      "text": "A stuck problem can loosen when you step away. But what kind of break?",
+      "start": 1.75,
+      "end": 5.609,
+      "pauses": [
+        [
+          4.197,
+          4.627
+        ]
+      ]
+    },
+    {
+      "id": "p1",
+      "text": "In one study, people listed new uses for everyday objects, then tried again.",
+      "start": 6.05,
+      "end": 10.969,
+      "pauses": [
+        [
+          6.846,
+          7.069
+        ],
+        [
+          9.482,
+          9.562
+        ],
+        [
+          9.7,
+          10.036
+        ]
+      ]
+    },
+    {
+      "id": "p2",
+      "text": "An easy task in between beat a hard task, rest, or no break.",
+      "start": 11.45,
+      "end": 15.451,
+      "pauses": [
+        [
+          13.865,
+          14.126
+        ],
+        [
+          14.536,
+          14.73
+        ],
+        [
+          15.31,
+          15.391
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "The easy task let minds wander, but later studies often haven't found that edge.",
+      "start": 15.95,
+      "end": 20.749,
+      "pauses": [
+        [
+          18.067,
+          18.466
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So note the problem, water a plant, then come back.",
+      "start": 21.15,
+      "end": 24.014,
+      "pauses": [
+        [
+          22.995,
+          23.209
+        ],
+        [
+          23.872,
+          23.945
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
