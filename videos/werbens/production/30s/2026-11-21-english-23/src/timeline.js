@@ -13,17 +13,17 @@ export const SECTIONS = [
 export const T = {
   // frame 0: the tree of share paths is mostly grown (level 5 of 6) and keeps growing through the hook; headline until caption
   headline: [0, 0.42], grow0: [0, 2.6],
-  // super hook: the paths retract into the card and the card's face empties; camera pushes in; listening discs fly into the card
-  // on "turns your listening"; the avatar pops on "your story"
-  retract: [3.3, 3.95], faceOut: [3.35, 3.8], discs: [5.0, 6.15], avatar: 6.19,
+  // super hook: the paths retract into the card and the card's face empties; camera pushes in; eight listening discs spiral into
+  // the card through "Spotify Wrapped turns your listening"; the avatar pops on "your story"
+  retract: [3.3, 3.95], faceOut: [3.35, 3.8], discs: [4.3, 6.11], avatar: 6.19,
   // build: song bars grow on "Top songs"; artist discs pop on "top artists"; the minutes ring sweeps on "minutes played"; the share
   // arrow pops and the card turns to the viewer on "ready-to-share card"
   bars: 7.13, artists: 8.07, ring: [8.75, 9.6], arrow: 10.31, turn: [10.0, 10.87],
   // proof 1: a generic ad board slides in on "You're not posting"; it dims and sinks on "an ad"; the card's avatar glows and the
   // card lifts on "You're posting you" ("IT'S YOU")
   adIn: [11.2, 11.75], adOut: [12.12, 12.75], you: 12.86, youLab: [12.86, 14.25],
-  // proof 2: friends (pawns) pop up around the card; the card turns slowly to face each of them on "how others see us"; they lean
-  // in ("HOW WE LOOK")
+  // proof 2: friends (pawns) pop up around the card; the card turns slowly past each of them and ends facing the viewer on "how
+  // others see us"; they lean in ("HOW WE LOOK")
   friends: [14.3, 14.85], spin: [15.0, 17.45], lean: [16.37, 17.6], lookLab: [16.37, 17.95],
   // proof 3: crane to top-down; copies of the card travel the share paths, 3 → 9 → 27 → 81 → 243, each carrying the brand tab, on
   // "carries the brand to that person's friends" ("BRAND TRAVELS")
@@ -53,7 +53,7 @@ export const HIGHLIGHT = ["brands", "free", "spotify", "wrapped", "story", "song
 export const SFX = [
   ...[0, 1, 2].map((i) => ({ t: 0.6 + i * 0.6, type: "plink", gain: 0.03, pan: i % 2 ? 0.3 : -0.3 })),
   { t: T.retract[0], type: "whoosh", dur: 0.6, gain: 0.05 },
-  ...Array.from({ length: 6 }, (_, i) => ({ t: T.discs[0] + 0.15 + i * 0.17, type: "tick", freq: 1318 + i * 110, gain: 0.035, pan: -0.3 + i * 0.12 })),
+  ...Array.from({ length: 8 }, (_, i) => ({ t: T.discs[0] + i * 0.18 + 0.55, type: "tick", freq: 1175 + i * 98, gain: 0.032, pan: -0.32 + i * 0.09 })),
   { t: T.avatar + 0.05, type: "chime", gain: 0.05 },
   ...Array.from({ length: 5 }, (_, i) => ({ t: T.bars + 0.05 + i * 0.08, type: "clack", gain: 0.04, pan: -0.2 + i * 0.1 })),
   ...[0, 1, 2].map((i) => ({ t: T.artists + 0.08 + i * 0.1, type: "plop", gain: 0.06, pan: -0.2 + i * 0.2 })),

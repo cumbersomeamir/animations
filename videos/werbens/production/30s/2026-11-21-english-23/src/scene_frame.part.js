@@ -38,7 +38,7 @@ function frame(t) {
     ringSegs.forEach((s, i) => { s.visible = i / 20 < sweep - 0.001; }); }
   arrow.scale.setScalar(Math.max(0.001, pw * (1 + 0.25 * pulse(t, T.worth, 0.5) + 0.2 * pulse(t, T.arrow, 0.4)))); arrow.visible = pw > 0.003;
   const turn = win(t, T.turn[0], T.adIn[0] + 0.2, 0.3, 0.4), spin = ramp(t, ...T.spin, E.inOut), lift = 0.008 * win(t, T.you, T.youLab[1], 0.2, 0.4);
-  cardG.rotation.y = 0.35 * turn + Math.PI * 2 * spin; cardG.position.y = lift;
+  cardG.rotation.y = 0.35 * turn + (Math.PI * 2 - 1.0) * spin + 1.0 * ramp(t, T.reset[0], T.reset[0] + 0.9, E.inOut); // spin ends facing the orbit camera, turns back on the descend cardG.position.y = lift;
   tabM.emissiveIntensity = 0.2 + 0.6 * win(t, T.brand, T.travelLab[1], 0.15, 0.3);
   sparks.forEach((s, j) => { const p = pulse(t, T.you + 0.1 + j * 0.22, 0.5) + pulse(t, T.self + 0.1 + j * 0.2, 0.5); s.visible = p > 0.01; s.material.opacity = Math.min(1, p); const sc = 0.012 + 0.01 * p; s.scale.set(sc, sc, 1); s.position.set([-0.05, 0.05, 0.035][j], CARD_Y + [0.05, 0.03, 0.075][j], 0.01); });
 
@@ -59,9 +59,12 @@ function frame(t) {
     FRIENDS.forEach((f, k) => { const n = f.userData.n, v = clamp(vis - k * 0.02); f.visible = v > 0.01; f.scale.setScalar(Math.max(0.001, Math.min(1.1, v))); f.position.set(n.x, 0, n.z);
       const r = Math.hypot(n.x, n.z) || 1; AX.set(-n.z / r, 0, n.x / r); f.quaternion.setFromAxisAngle(AX.normalize(), ln); }); }
 
-  // --- listening discs fly into the card (super hook)
-  discs.forEach((d, i) => { const t0 = T.discs[0] + i * 0.17, u = ramp(t, t0, t0 + 0.55, E.in), vis = t > t0 - 0.35 && u < 1; d.visible = vis;
-    const f = d.userData.from, a = ramp(t, t0 - 0.35, t0, E.out); d.position.set(lerp(f[0], 0, u), lerp(f[1], CARD_Y, u), lerp(f[2], 0.004, u)); d.scale.setScalar(Math.max(0.001, a * (1 - 0.7 * u))); d.rotation.z = t * 6 + i; });
+  // --- listening discs spiral into the card (super hook); the card face brightens a touch as each one lands
+  discs.forEach((d, i) => { const t0 = T.discs[0] + i * 0.18, u = ramp(t, t0, t0 + 0.55, E.in), vis = t > t0 - 0.35 && u < 1; d.visible = vis; if (!vis) return;
+    const a = ramp(t, t0 - 0.35, t0, E.out), { a0, z0 } = d.userData, ang = a0 + 1.6 * u, R = 0.115 * (1 - u);
+    d.position.set(R * Math.cos(ang), CARD_Y - 0.018 + 0.45 * R * Math.sin(ang), lerp(z0, 0.006, u)); d.rotation.set(HALF - 0.45 * (1 - u), 0, 0.25 * (1 - u)); // spiral kept below the caption band
+    d.children[0].rotation.y = t * 9 + i; d.scale.setScalar(Math.max(0.001, a * (1 - 0.65 * u))); });
+  { let fl = 0; for (let i = 0; i < discs.length; i++) fl += pulse(t, T.discs[0] + i * 0.18 + 0.5, 0.3); front.material.color.setScalar(1 + 0.12 * Math.min(1, fl)); }
 
   // --- ad board (proof 1): slides in, dims and sinks on "an ad"
   { const ain = ramp(t, ...T.adIn, E.out), aout = ramp(t, ...T.adOut, E.in); adG.visible = ain > 0.01 && aout < 0.99; const ax = 0.22 * (1 - ain); adG.position.set(ax, -0.125 * aout, 0.055); adG.rotation.y = -0.5 * (1 - ain);

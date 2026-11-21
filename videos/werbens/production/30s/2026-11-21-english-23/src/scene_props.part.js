@@ -54,9 +54,14 @@ const minis = new THREE.Points(miniGeo, new THREE.PointsMaterial({ size: 0.026, 
 // friends: pawns at level-1 and level-2 nodes (12)
 const pawnGeoB = new THREE.CylinderGeometry(0.0072, 0.0092, 0.019, 20), pawnGeoH = new THREE.SphereGeometry(0.0072, 20, 14), pawnMat = mat("#EEF7F1", { roughness: 0.4, clearcoat: 0.4, emissive: C.mint, emissiveIntensity: 0 });
 const FRIENDS = NODES.map((n, i) => [n, i]).filter(([n]) => n.L === 1 || n.L === 2).map(([n, i]) => { const g = new THREE.Group(); const b = new THREE.Mesh(pawnGeoB, pawnMat); b.position.y = 0.0095; b.castShadow = true; g.add(b); const h = new THREE.Mesh(pawnGeoH, pawnMat); h.position.y = 0.0248; h.castShadow = true; g.add(h); stage.add(g); g.userData = { n, i }; return g; });
-// listening discs (super hook)
-const discGeo = new THREE.CylinderGeometry(0.011, 0.011, 0.0016, 36), labelGeo = new THREE.CylinderGeometry(0.0042, 0.0042, 0.0018, 24);
-const discs = Array.from({ length: 6 }, (_, i) => { const g = new THREE.Group(); const d = new THREE.Mesh(discGeo, mat(C3.ink, { roughness: 0.25, clearcoat: 1 })); d.castShadow = true; g.add(d); const lb = new THREE.Mesh(labelGeo, mat(i % 2 ? C3.mint : C3.mintw, { roughness: 0.3 })); g.add(lb); g.rotation.x = HALF; stage.add(g); const a = (i / 6) * Math.PI * 2 + 0.4; g.userData = { from: [0.12 * Math.cos(a), CARD_Y + 0.05 * Math.sin(a * 1.7), 0.06 + 0.05 * Math.sin(a)] }; return g; });
+// listening discs (super hook): 8 small records (groove ring + off-centre label dot so the spin reads) spiral into the card
+const discGeo = new THREE.CylinderGeometry(0.016, 0.016, 0.0018, 48), labelGeo = new THREE.CylinderGeometry(0.0058, 0.0058, 0.002, 32);
+const grooveGeo = new THREE.TorusGeometry(0.011, 0.00045, 6, 48); grooveGeo.rotateX(HALF); const dotGeoS = new THREE.CylinderGeometry(0.0011, 0.0011, 0.0022, 12);
+const discMat = mat(C3.ink, { roughness: 0.22, clearcoat: 1 }), grooveMat = mat("#64748B", { roughness: 0.4 });
+const discs = Array.from({ length: 8 }, (_, i) => { const g = new THREE.Group(), sp = new THREE.Group(); g.add(sp);
+  const d = new THREE.Mesh(discGeo, discMat); d.castShadow = true; sp.add(d); const gr = new THREE.Mesh(grooveGeo, grooveMat); gr.position.y = 0.0009; sp.add(gr);
+  const lb = new THREE.Mesh(labelGeo, mat(i % 2 ? C3.mint : C3.mintw, { roughness: 0.3 })); sp.add(lb); const dt = new THREE.Mesh(dotGeoS, mat(C3.ink, { roughness: 0.4 })); dt.position.set(0.0034, 0.0001, 0); sp.add(dt);
+  stage.add(g); g.userData = { a0: (i / 8) * Math.PI * 2 + 0.3 + (i % 2) * 2.4, z0: 0.07 + 0.03 * Math.sin(i * 1.9) }; return g; });
 // a generic ad board (proof 1): ink panel with a grey megaphone, on a post
 const adG = new THREE.Group(); stage.add(adG);
 { const panel = new THREE.Mesh(new RoundedBoxGeometry(0.104, 0.068, 0.005, 2, 0.004), mat(C3.ink, { roughness: 0.45 })); panel.position.y = 0.1; panel.castShadow = true; adG.add(panel);
