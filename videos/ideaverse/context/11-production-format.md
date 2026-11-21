@@ -290,3 +290,11 @@ Episodes 09–11 were already in production before this note and keep the earlie
 - Caption band moved to the brief's upper band: pill y 282–458 (CAP_TOP 282), x 100..900; tools/caption_check.py now checks
   pill y 270..470 and text ink inside x 100..900 / y 280..460; the top-band strip is y 0..270. Keep vital information away from
   the right-side and bottom platform controls (labels stay centred, above y ≈ 1500).
+
+## Batch 2026-11-21-english-23 (batch23) — 2026-11-21 brief
+- Read all topic records first (batch22 = AI slow-mo interpolation). Proposed Project Green Light is new (english10-01 was the
+  map's jam/ETA prediction — different question, mechanism and setting) → used as briefed (context/38).
+- Measured results carry their scope in the narration ("In Boston's pilot, one crossing …") and their source/date on the card
+  and in the notes; illustrative values (timings, "+6 s") are never presented as measured.
+- Choreography varied inside the same identity: a 3D tiny-city diorama with a deterministic traffic simulation (pure function of
+  t via a per-frame record computed at load), three camera heights (high, top-down, street level), phone shots, one card.

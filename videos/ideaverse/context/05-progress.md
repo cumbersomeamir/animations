@@ -224,3 +224,9 @@
 - Checks: full decode OK; ASR all 8 lines MATCH, no word outside its caption; caption SPEC PASS in the new y 282–458 band;
   27 earlier MP4s unchanged. Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-23 (2026-11-21, batch23) — IN PROGRESS
+- Topic as briefed: Google Project Green Light (record context/38). Stage src/stage/greenwave.js (tiny city + traffic sim);
+  7 narration clips ASR-verified; score written; icon re-checked (unchanged); full frame render running.
+- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
