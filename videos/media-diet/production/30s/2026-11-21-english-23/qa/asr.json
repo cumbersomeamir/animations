@@ -1,0 +1,89 @@
+{
+ "engine": "faster-whisper 1.1.1, model Systran/faster-whisper-medium (int8, CPU), language=en",
+ "transcript_full_pass": "Kicked flat, how does it get up? In a new study, researchers kicked this robot 47 times. To stand, its center of mass must be over its feet. So it plants its hands, shifts its weight over its feet, then lets go. In training, an invisible lift held its head, then faded out. On the real robot, 34 falls, 34 get-ups. It proves recovery, not toughness. Kick strength was never measured. Follow Media Diet for the physics behind the headlines. You",
+ "recall_full_pass": 1.0,
+ "lines": [
+  {
+   "id": "V1",
+   "window": [
+    0.05,
+    1.57
+   ],
+   "transcript": "Kicked flat, how does it get up?",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V2",
+   "window": [
+    1.95,
+    5.86
+   ],
+   "transcript": "In a new study, researchers kicked this robot 47 times.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V3",
+   "window": [
+    6.24,
+    9.04
+   ],
+   "transcript": "To stand, its center of mass must be over its feet.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V4",
+   "window": [
+    9.42,
+    13.27
+   ],
+   "transcript": "So it plants its hands, shifts its weight over its feet, then lets go.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V5",
+   "window": [
+    13.66,
+    17.27
+   ],
+   "transcript": "In training, an invisible lift held its head, then faded out.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V6",
+   "window": [
+    17.66,
+    21.09
+   ],
+   "transcript": "On the real robot, 34 falls, 34 get-ups.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V7",
+   "window": [
+    21.48,
+    25.23
+   ],
+   "transcript": "It proves recovery, not toughness. Kick strength was never measured.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  },
+  {
+   "id": "V8",
+   "window": [
+    26.05,
+    29.17
+   ],
+   "transcript": "Follow Media Diet for the physics behind the headlines.",
+   "recall": 1.0,
+   "heard_in_own_slice": true
+  }
+ ],
+ "transcript": "Kicked flat, how does it get up? In a new study, researchers kicked this robot 47 times. To stand, its center of mass must be over its feet. So it plants its hands, shifts its weight over its feet, then lets go. In training, an invisible lift held its head, then faded out. On the real robot, 34 falls, 34 get-ups. It proves recovery, not toughness. Kick strength was never measured. Follow Media Diet for the physics behind the headlines.",
+ "recall_overall": 1.0
+}

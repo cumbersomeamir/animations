@@ -71,5 +71,10 @@ Disk ~65 MB free after batch 22's commit, so this episode is encoded at x264 **C
 18–20 MB (each committed MP4 costs ~2× its size on disk); QA contact sheets, first/last frames and the thumbnail are JPEG. Frames, stills,
 QA frames and intermediate WAVs on the RAM disk /dev/shm/md-e23. Nothing on disk from earlier episodes deleted.
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 ae3400bcb5608462f9901af740752704587f013e382c85733a11954f100e60f9 (17.95 MB, CRF 23 for disk); 900 frames; video/audio/container
+30.000 s; H.264 High yuv420p 1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink
+y 364–488, x 196–885; labels x 204–878, y 1341–1476; 0 violations; caption↔speech 10/10; Whisper 1.0 full pass and per line; 14 chunk
+starts continuous. Thumbnail = frame 0 as JPEG (SHA-256 2a5016c6…16c7), mean abs diff vs encoded frame 0 = 2.08/255.
+Limits: preprint (not peer-reviewed); get-up choreography and newton readouts are illustrative first principles; 47 = standing-kick
+trials only; generic paper models; not yet watched or listened to by a human.

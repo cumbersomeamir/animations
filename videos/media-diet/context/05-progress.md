@@ -439,3 +439,16 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - 2026-11-21 (batch 23, rendering): a render worker died with "Unable to capture screenshot" while free disk swung by ~8 MB (Chromium
   temp files in /tmp with ~20–40 MB free). All workers restarted with `TMPDIR=/dev/shm/md-e23/tmp`; disk then steady at ~60 MB.
   Use TMPDIR on the RAM disk for all future renders. README updated.
+
+## Checkpoint 2026-11-21 — english-23 / batch 23 delivered
+- production/30s/2026-11-21-english-23/media-diet-30s-english23-01.mp4 (SHA-256 ae3400bcb5608462f9901af740752704587f013e382c85733a11954f100e60f9,
+  17.95 MB, CRF 23) + thumbnail-english23-01.jpg (= frame 0); record context/38; context/11 log row → delivered; QA.md written.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −2.0 dBTP; captions y 364–488, x 196–885; labels y 1341–1476; 0 violations; caption↔speech 10/10; Whisper 1.0 full + per line;
+  14 chunk starts continuous; contact sheets inspected (JPEG previews).
+- Commands: `TMPDIR=/dev/shm/md-e23/tmp bash build/render_chunks.sh …` (3 workers) → `SKIP_FRAMES=1 bash build/build.sh` →
+  `node build/thumb.mjs /dev/shm/md-e23/thumbnail-english23-01.png` → JPEG q2 in the folder.
+- Decisions: ReLoco (18 Nov preprint) over the Guinness dance record; first principles = CoM over support + force sharing + fading
+  training aid; payoff = "proves recovery, not toughness" (authors: kick force not measured).
+- Unresolved: not yet watched or listened to by a human. Disk ~20 MB after this commit: the next episode needs disk freed by the owner
+  (or a fresh session) before rendering — each delivered MP4 + git object costs ~2× its size. Earlier outputs untouched.

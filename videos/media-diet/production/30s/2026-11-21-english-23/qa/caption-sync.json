@@ -1,0 +1,152 @@
+[
+ {
+  "line": "V1",
+  "text": "KICKED FLAT. / HOW DOES IT GET UP?",
+  "cue": [
+   0.0,
+   1.85
+  ],
+  "speech": [
+   0.07,
+   1.525
+  ],
+  "lead_s": 0.07,
+  "tail_s": 0.325,
+  "ok": true
+ },
+ {
+  "line": "V2",
+  "text": "In a new study, researchers / kicked this robot 47 times.",
+  "cue": [
+   1.87,
+   6.14
+  ],
+  "speech": [
+   1.97,
+   5.811
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.329,
+  "ok": true
+ },
+ {
+  "line": "V3",
+  "text": "To stand, its center of mass / must be over its feet.",
+  "cue": [
+   6.16,
+   9.32
+  ],
+  "speech": [
+   6.26,
+   8.989
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.331,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "So it plants its hands, / shifts its weight over its feet,",
+  "cue": [
+   9.34,
+   12.245
+  ],
+  "speech": [
+   9.441,
+   12.156
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.089,
+  "ok": true
+ },
+ {
+  "line": "V4",
+  "text": "then lets go.",
+  "cue": [
+   12.265,
+   13.56
+  ],
+  "speech": [
+   12.383,
+   13.223
+  ],
+  "lead_s": 0.118,
+  "tail_s": 0.337,
+  "ok": true
+ },
+ {
+  "line": "V5",
+  "text": "In training, an invisible lift / held its head, then faded out.",
+  "cue": [
+   13.58,
+   17.56
+  ],
+  "speech": [
+   13.681,
+   17.222
+  ],
+  "lead_s": 0.101,
+  "tail_s": 0.338,
+  "ok": true
+ },
+ {
+  "line": "V6",
+  "text": "On the real robot: / 34 falls, 34 get-ups.",
+  "cue": [
+   17.58,
+   21.38
+  ],
+  "speech": [
+   17.68,
+   21.039
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.341,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "It proves recovery, / not toughness:",
+  "cue": [
+   21.4,
+   23.475
+  ],
+  "speech": [
+   21.5,
+   23.313
+  ],
+  "lead_s": 0.1,
+  "tail_s": 0.162,
+  "ok": true
+ },
+ {
+  "line": "V7",
+  "text": "kick strength was / never measured.",
+  "cue": [
+   23.495,
+   25.532
+  ],
+  "speech": [
+   23.681,
+   25.182
+  ],
+  "lead_s": 0.186,
+  "tail_s": 0.35,
+  "ok": true
+ },
+ {
+  "line": "V8",
+  "text": "Follow Media Diet for the / physics behind the headlines.",
+  "cue": [
+   25.97,
+   29.473
+  ],
+  "speech": [
+   26.103,
+   29.127
+  ],
+  "lead_s": 0.133,
+  "tail_s": 0.346,
+  "ok": true
+ }
+]
