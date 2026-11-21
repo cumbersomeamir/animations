@@ -61,5 +61,12 @@ report screens.
 7. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "GREEN / WAVE".
 
-## QA / status
-- IN PROGRESS (2026-11-21): stage, narration, score written; stills checked; full render running.
+## QA / status — DELIVERED 2026-11-21
+- Output: production/30s/2026-11-21-english-23/ideaverse-30s-english23-01.mp4 · sha256 09057c0a…881f, plus
+  ideaverse-30s-english23-01-thumbnail.png ("GREEN / WAVE"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.9 dBTP.
+- English ASR on the final MP4: all seven lines MATCH, no word outside its caption; caption band y 282–458 inside x 100..900
+  (SPEC PASS); text-free above the band.
+- Frames: 900 in 1427 s (3 workers) + re-renders 298–312 (suggestion at the cut) and 483–580 (result card "?" placeholder, AFTER
+  bar grows); score re-mixed.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

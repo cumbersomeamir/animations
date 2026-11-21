@@ -226,7 +226,11 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-23 (2026-11-21, batch23) — IN PROGRESS
-- Topic as briefed: Google Project Green Light (record context/38). Stage src/stage/greenwave.js (tiny city + traffic sim);
-  7 narration clips ASR-verified; score written; icon re-checked (unchanged); full frame render running.
-- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
+# CURRENT — english-23 (2026-11-21, batch23) — DELIVERED
+- Topic as briefed: Google Project Green Light — anonymous driving trends → timing suggestions → engineers; Boston pilot, one
+  crossing, −33% unnecessary stops (record context/38).
+  production/30s/2026-11-21-english-23/ideaverse-30s-english23-01.mp4 (sha256 09057c0a…881f) + thumbnail; QA.md + qa/.
+- Frames: 900 in 1427 s (3 workers) + re-renders 298–312, 483–580; score re-mixed.
+- Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS (y 282–458); 28 earlier MP4s
+  unchanged. Icon re-checked (unchanged).
+- Next: await user review. No further episode, no automation.

@@ -13,7 +13,7 @@ const CUES = {
     //     "Where cars keep stopping" 8.58–9.64 → the worst crossing pulses
     dots: [5.6, 7.4], cols: [7.35, 8.0], worst: 9.1,
     // C · phone: "it suggests new timing to city engineers" 10.1–11.9 → a suggestion card; the engineer taps Accept
-    cut2: 9.95, rec: 10.25, tap: 11.62,
+    cut2: 9.95, rec: 9.8, tap: 11.62,
     // D · side view: "A little more green" 12.95–13.43 → crossing 2 turns green early (+6 s); "turn green in a wave" 14.03–15.57
     cut3: 12.55, wave: 13.0, waveLbl: 14.5,
     // E · card: "In Boston's pilot" 16.3 · "one crossing saw 33% fewer unnecessary stops" 17.64–20.98 → bar shrinks, −33%

@@ -69,7 +69,7 @@ const tick2 = (t, f = 2400, v = 0.6) => add(SFX, t, 0.05, (lt) => v * 0.25 * Mat
 thump(H.cut1, 0.12); for (let i = 0; i < 12; i++) tick2(H.dots[0] + i * (H.dots[1] - H.dots[0]) / 12, 1900 + (i % 4) * 120, 0.1);
 glideTone(SFX, H.cols[0], H.cols[1] - H.cols[0], 300, 520, 0.05); marimba(H.worst + 0.03, 57, 0.28); marimba(H.worst + 0.16, 56, 0.26);
 // C · phone: the suggestion pops in; the engineer taps Accept (tick + soft chime)
-thump(H.cut2, 0.12); tick2(H.rec, 2400, 0.25); tick(SFX, H.tap, 0.45, 2600, 0.1); bell(SFX, H.tap + 0.18, 76, 0.18, 0.2, 0.9);
+thump(H.cut2, 0.12); tick2(Math.max(H.rec, H.cut2) + 0.03, 2400, 0.25); tick(SFX, H.tap, 0.45, 2600, 0.1); bell(SFX, H.tap + 0.18, 76, 0.18, 0.2, 0.9);
 // D · street level: crossing 2 turns green (+6 s), cars roll, crossing 3 turns green as they arrive
 thump(H.cut3, 0.12); tick2(H.wave, 2900, 0.3); bell(SFX, H.wave + 0.05, 79, 0.16, 0.2, 0.8); whoosh(H.wave + 0.2, 1.4, 0.1); tick2(15.0, 3100, 0.28); bell(SFX, 15.02, 83, 0.16, -0.2, 0.9);
 // E · card: BOSTON PILOT, the number counts up (ticks), the bar shrinks (falling glide), the source line

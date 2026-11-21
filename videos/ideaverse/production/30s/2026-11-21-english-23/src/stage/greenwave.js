@@ -240,13 +240,13 @@ function drawCard(g, s) {
   g.textBaseline = 'middle';
   chip(g, 40, 56, 'BOSTON PILOT', Math.max(0.35, s.p), AMBER, 28);
   g.fillStyle = 'rgba(244,247,251,0.85)'; g.font = `700 26px ${HI}`; g.textAlign = 'left'; g.fillText('one crossing (Atlantic Ave & Richmond St)', 40, 112);
-  g.fillStyle = s.n > 0 ? P.mint : 'rgba(244,247,251,0.25)'; g.font = `800 150px ${HI}`; g.textAlign = 'center'; g.fillText(`−${s.n}%`, NW / 2, 222);
+  g.fillStyle = s.n > 0 ? P.mint : 'rgba(244,247,251,0.35)'; g.font = `800 150px ${HI}`; g.textAlign = 'center'; g.fillText(s.n > 0 ? `−${s.n}%` : '?', NW / 2, 222);
   g.fillStyle = '#F4F7FB'; g.font = `800 34px ${HI}`; g.fillText('unnecessary stops', NW / 2, 314);
   // before / after bars
   g.textAlign = 'left'; g.font = `800 24px ${HI}`;
   g.fillStyle = 'rgba(244,247,251,0.7)'; g.fillText('BEFORE', 40, 366); g.fillText('AFTER', 40, 424);
   g.fillStyle = RED2; rr(g, 160, 350, 390, 32, 10); g.fill();
-  g.fillStyle = P.mint; rr(g, 160, 408, 390 * (1 - 0.33 * s.b), 32, 10); g.fill();
+  if (s.b > 0) { g.fillStyle = P.mint; rr(g, 160, 408, Math.max(20, 390 * 0.67 * s.b), 32, 10); g.fill(); }
   if (s.s > 0) { g.save(); g.globalAlpha = s.s; g.fillStyle = 'rgba(244,247,251,0.65)'; g.font = `700 21px ${HI}`; g.textAlign = 'left'; g.fillText('Source: City of Boston, May 2025 (evaluated with INRIX)', 40, 478); g.restore(); }
 }
 function updateCard(t) {
