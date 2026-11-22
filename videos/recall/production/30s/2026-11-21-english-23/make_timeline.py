@@ -19,7 +19,7 @@ for lid, s in START.items():   # no overlaps
     assert not nxt or s + lines[lid]["duration"] < min(nxt) - 0.15, lid
 
 T = {k: at(*v) for k, v in {"screams": ("l02", 4), "but": ("l02", 5), "light": ("l03", 9), "sensor": ("l04", 6), "so": ("l04", 7),
-                             "particles": ("l05", 4), "some": ("l05", 9), "alarm": ("l06", 4), "even": ("l07", 7), "testb": ("l08", 8),
+                             "particles": ("l05", 4), "some": ("l05", 9), "and5": ("l05", 8), "alarm": ("l06", 4), "even": ("l07", 7), "testb": ("l08", 8),
                              "nothing": ("l04", 10)}.items()}
 shots = [("hook_alarm", 0, 1.45), ("toast_react", 1.45, T["but"]), ("face_q", T["but"], 5.25), ("giant_open", 5.25, 8.45),
          ("giant_miss", 8.45, 12.35), ("giant_scatter", 12.35, T["some"]), ("giant_hit", T["some"], T["alarm"]), ("alarm_blare", T["alarm"], 18.85),
@@ -38,8 +38,8 @@ caps = [
     C(8.45, T["so"], [("The light aims ", 0), ("away", 1)], [("from the sensor,", 0)]),
     C(T["so"], 12.35, [("so normally it", 0)], [("sees ", 0), ("nothing.", 1)]),
     C(12.35, T["particles"], [("When ", 0), ("smoke", 1), (" drifts in,", 0)]),
-    C(T["particles"], T["some"], [("particles ", 0), ("scatter", 1)], [("the light,", 0)]),
-    C(T["some"], 16.6, [("and some ", 0), ("hits", 1)], [("the ", 0), ("sensor.", 1)]),
+    C(T["particles"], T["and5"], [("particles ", 0), ("scatter", 1)], [("the light,", 0)]),
+    C(T["and5"], 16.6, [("and some ", 0), ("hits", 1)], [("the ", 0), ("sensor.", 1)]),
     C(16.6, 18.85, [("Enough light,", 1), (" and", 0)], [("the alarm sounds.", 0)]),
     C(18.85, T["even"], [("Thick ", 0), ("steam", 1), (" can", 0)], [("set it off too,", 0)]),
     C(T["even"], 22.2, [("even with ", 0), ("no fire.", 1)]),

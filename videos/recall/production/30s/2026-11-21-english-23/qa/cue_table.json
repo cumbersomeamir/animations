@@ -1,0 +1,131 @@
+{
+  "cues": {
+    "toastPop": 1.55,
+    "screams": 2.37,
+    "lookUp": 3.3,
+    "coverLift": 5.45,
+    "lightTag": 7.49,
+    "sensorTag": 9.65,
+    "nothing": 11.21,
+    "smokeIn": 12.4,
+    "smokeTag": 12.7,
+    "scatter": 13.65,
+    "hit": 15.11,
+    "enough": 16.6,
+    "blare2": 17.46,
+    "steamIn": 18.9,
+    "steamTag": 19.1,
+    "deadpan": 20.75,
+    "broomUp": 22.45,
+    "press": 24.299999999999997,
+    "smile": 25.0,
+    "cta": 26.45,
+    "smile2": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_alarm",
+      "t0": 0,
+      "t1": 1.45
+    },
+    {
+      "id": "toast_react",
+      "t0": 1.45,
+      "t1": 3.25
+    },
+    {
+      "id": "face_q",
+      "t0": 3.25,
+      "t1": 5.25
+    },
+    {
+      "id": "giant_open",
+      "t0": 5.25,
+      "t1": 8.45
+    },
+    {
+      "id": "giant_miss",
+      "t0": 8.45,
+      "t1": 12.35
+    },
+    {
+      "id": "giant_scatter",
+      "t0": 12.35,
+      "t1": 15.11
+    },
+    {
+      "id": "giant_hit",
+      "t0": 15.11,
+      "t1": 17.46
+    },
+    {
+      "id": "alarm_blare",
+      "t0": 17.46,
+      "t1": 18.85
+    },
+    {
+      "id": "steam_giant",
+      "t0": 18.85,
+      "t1": 20.65
+    },
+    {
+      "id": "react_deadpan",
+      "t0": 20.65,
+      "t1": 22.2
+    },
+    {
+      "id": "test_wide",
+      "t0": 22.2,
+      "t1": 24.0
+    },
+    {
+      "id": "test_press",
+      "t0": 24.0,
+      "t1": 26.45
+    },
+    {
+      "id": "cafe_cta",
+      "t0": 26.45,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.05
+    },
+    {
+      "id": "l02",
+      "start": 1.45
+    },
+    {
+      "id": "l03",
+      "start": 5.25
+    },
+    {
+      "id": "l04",
+      "start": 8.45
+    },
+    {
+      "id": "l05",
+      "start": 12.35
+    },
+    {
+      "id": "l06",
+      "start": 16.6
+    },
+    {
+      "id": "l07",
+      "start": 18.85
+    },
+    {
+      "id": "l08",
+      "start": 22.2
+    },
+    {
+      "id": "l09",
+      "start": 26.45
+    }
+  ]
+}

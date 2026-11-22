@@ -19,7 +19,7 @@ export const KETTLE = [-0.46, 0.95, -0.12];
 const SMOKE = (() => { const r = rng(2311); return Array.from({ length: 60 }, (_, i) => ({ t0: i * 0.055 + r() * 0.04, x: -1.3 + r() * 1.5, y: 0.12 + r() * 0.7, ph: r() * 6.28, sp: 0.62 + r() * 0.25, rad: 0.05 + r() * 0.045, dir: r() })); })();
 const STEAM = (() => { const r = rng(919); return Array.from({ length: 40 }, (_, i) => ({ t0: i * 0.04 + r() * 0.03, x: -1.3 + r() * 1.5, y: 0.15 + r() * 0.65, ph: r() * 6.28, sp: 0.8 + r() * 0.25, rad: 0.085 + r() * 0.05, dir: r() })); })();
 const PUFF = (() => { const r = rng(77); return Array.from({ length: 130 }, (_, i) => ({ t0: -3.75 + i * 0.07 + r() * 0.04, ox: (r() - 0.5) * 0.08, oz: (r() - 0.5) * 0.06, ph: r() * 6.28, s: 0.05 + r() * 0.035 })); })();
-const VAPOR = (() => { const r = rng(5); return Array.from({ length: 60 }, (_, i) => ({ t0: 18.2 + i * 0.045 + r() * 0.03, ox: (r() - 0.5) * 0.05, oz: (r() - 0.5) * 0.05, ph: r() * 6.28, s: 0.05 + r() * 0.04 })); })();
+const VAPOR = (() => { const r = rng(5); return Array.from({ length: 60 }, (_, i) => ({ t0: 18.6 + i * 0.025 + r() * 0.02, ox: (r() - 0.5) * 0.05, oz: (r() - 0.5) * 0.05, ph: r() * 6.28, s: 0.05 + r() * 0.04 })); })();
 
 export function makeChoreo(tl) {
   const C = tl.cues;
@@ -82,14 +82,14 @@ export function makeChoreo(tl) {
   function puffs(t) {
     const out = [], top = ALARM.y - 0.12;
     const rise = (P, src, kind, t0off = 0) => {
-      const age = t - P.t0 - t0off, life = kind === 'steam' ? 3.2 : 6; if (age < 0 || age > life) return;
+      const age = t - P.t0 - t0off, life = kind === 'steam' ? 2.1 : 6; if (age < 0 || age > life) return;
       const vy = kind === 'steam' ? 0.75 : 0.55;
       const tUnder = Math.max(0, age - (top - src[1] - 0.18) / vy);
       const toAlarm = V(ALARM.x - src[0], 0, ALARM.z - src[2]);
       const spread = Math.min(1, tUnder * 0.6);
       const y = Math.min(src[1] + 0.18 + age * vy, top - 0.02 * (1 + Math.sin(age * 2 + P.ph)));   // rises, then spreads just under the ceiling
       const p = V(src[0] + P.ox + toAlarm.x * spread + Math.sin(age * 1.7 + P.ph) * 0.04 * (1 + age), y, src[2] + P.oz + toAlarm.z * spread + Math.cos(age * 1.3 + P.ph) * 0.035 * (1 + age));
-      const s = P.s * (1 + age * 0.55) * (kind === 'steam' ? 1.1 : 1);
+      const s = P.s * (1 + age * 0.55) * (kind === 'steam' ? 0.9 * (1 - Math.min(1, Math.max(0, (age - life + 0.5) / 0.5))) : 1);   // steam shrinks away at the end of its life
       const a = Math.min(1, age * 3) * (1 - Math.max(0, (age - 4.5) / 1.5));
       out.push({ p, s, a, kind });
     };
@@ -111,7 +111,7 @@ export function makeChoreo(tl) {
     list.forEach((P, i) => {
       const age = t - tin - P.t0; if (age < 0) return;
       const x = 2.5 - age * P.sp, z = P.x + 0.15 * Math.sin(age * 1.1 + P.ph), y = P.y + 0.08 * Math.sin(age * 1.7 + P.ph * 2);
-      if (x < -2.3) return;
+      if (x < -2.3 || (shot === 'giant_hit' && z > 0.6)) return;   // no huge foreground blobs in the close shot
       const d = Math.hypot(y - CH.led.y, z - CH.led.z), inBeam = x > CH.led.x + 0.2 && x < CH.trap.x - 0.25 ? clamp(1 - (d - 0.12) / 0.22) : 0;
       const p = V(x, y, z);
       parts.push({ p, r: P.rad * (steamy ? 1 : 1), kind: steamy ? 'steam' : 'smoke', lit: inBeam });

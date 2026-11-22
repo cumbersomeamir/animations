@@ -1,0 +1,147 @@
+{
+ "ok": true,
+ "spoken_groups": 14,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "HOW DOES IT / SEE SMOKE?",
+   "start": 0.0,
+   "end": 1.45,
+   "first_word_s": 0.05,
+   "last_word_s": 0.51,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Burnt toast, and / it screams.",
+   "start": 1.45,
+   "end": 3.25,
+   "first_word_s": 1.45,
+   "last_word_s": 2.37,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "But what's in that / plastic box?",
+   "start": 3.25,
+   "end": 5.25,
+   "first_word_s": 3.25,
+   "last_word_s": 4.17,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Many alarms hide a small / chamber with a tiny light.",
+   "start": 5.25,
+   "end": 8.45,
+   "first_word_s": 5.25,
+   "last_word_s": 7.49,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "The light aims away / from the sensor,",
+   "start": 8.45,
+   "end": 10.49,
+   "first_word_s": 8.45,
+   "last_word_s": 9.65,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so normally it / sees nothing.",
+   "start": 10.49,
+   "end": 12.35,
+   "first_word_s": 10.49,
+   "last_word_s": 11.39,
+   "caption_lead_s": -0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "When smoke drifts in,",
+   "start": 12.35,
+   "end": 13.65,
+   "first_word_s": 12.35,
+   "last_word_s": 13.13,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "particles scatter / the light,",
+   "start": 13.65,
+   "end": 14.85,
+   "first_word_s": 13.65,
+   "last_word_s": 14.65,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "and some hits / the sensor.",
+   "start": 14.85,
+   "end": 16.6,
+   "first_word_s": 14.85,
+   "last_word_s": 15.73,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Enough light, and / the alarm sounds.",
+   "start": 16.6,
+   "end": 18.85,
+   "first_word_s": 16.6,
+   "last_word_s": 17.64,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Thick steam can / set it off too,",
+   "start": 18.85,
+   "end": 20.65,
+   "first_word_s": 18.85,
+   "last_word_s": 20.11,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "even with no fire.",
+   "start": 20.65,
+   "end": 22.2,
+   "first_word_s": 20.65,
+   "last_word_s": 21.21,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So test yours once a month, / using the test button.",
+   "start": 22.2,
+   "end": 26.45,
+   "first_word_s": 22.2,
+   "last_word_s": 24.38,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.45,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

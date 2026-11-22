@@ -1,0 +1,441 @@
+{
+  "file": "production/30s/2026-11-21-english-23/recall-30s-english23-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2900012"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "191405"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 11627383,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.6,
+    "lra_lu": 3.0,
+    "true_peak_dbfs": -1.6
+  },
+  "decoded_audio_peak": 0.8345946073532104,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "How does it see smoke? Burnt toast and it screams. But what's in that plastic box? Many alarms hide a small chamber with a tiny light. The light aims away from the sensor, so normally it sees nothing. When smoke drifts in, particles scatter the light and some hits the sensor. Enough light and the alarm sounds. Thick steam can set it off, too, even with no fire. So test yours once a month using the test button. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "How",
+        "t": 0.0
+      },
+      {
+        "w": "does",
+        "t": 0.16
+      },
+      {
+        "w": "it",
+        "t": 0.26
+      },
+      {
+        "w": "see",
+        "t": 0.34
+      },
+      {
+        "w": "smoke?",
+        "t": 0.5
+      },
+      {
+        "w": "Burnt",
+        "t": 1.6
+      },
+      {
+        "w": "toast",
+        "t": 1.74
+      },
+      {
+        "w": "and",
+        "t": 1.96
+      },
+      {
+        "w": "it",
+        "t": 2.28
+      },
+      {
+        "w": "screams.",
+        "t": 2.36
+      },
+      {
+        "w": "But",
+        "t": 3.4
+      },
+      {
+        "w": "what's",
+        "t": 3.42
+      },
+      {
+        "w": "in",
+        "t": 3.68
+      },
+      {
+        "w": "that",
+        "t": 3.76
+      },
+      {
+        "w": "plastic",
+        "t": 3.86
+      },
+      {
+        "w": "box?",
+        "t": 4.2
+      },
+      {
+        "w": "Many",
+        "t": 5.24
+      },
+      {
+        "w": "alarms",
+        "t": 5.44
+      },
+      {
+        "w": "hide",
+        "t": 5.7
+      },
+      {
+        "w": "a",
+        "t": 6.14
+      },
+      {
+        "w": "small",
+        "t": 6.3
+      },
+      {
+        "w": "chamber",
+        "t": 6.5
+      },
+      {
+        "w": "with",
+        "t": 6.88
+      },
+      {
+        "w": "a",
+        "t": 7.2
+      },
+      {
+        "w": "tiny",
+        "t": 7.26
+      },
+      {
+        "w": "light.",
+        "t": 7.54
+      },
+      {
+        "w": "The",
+        "t": 8.46
+      },
+      {
+        "w": "light",
+        "t": 8.52
+      },
+      {
+        "w": "aims",
+        "t": 8.74
+      },
+      {
+        "w": "away",
+        "t": 8.98
+      },
+      {
+        "w": "from",
+        "t": 9.26
+      },
+      {
+        "w": "the",
+        "t": 9.52
+      },
+      {
+        "w": "sensor,",
+        "t": 9.64
+      },
+      {
+        "w": "so",
+        "t": 10.44
+      },
+      {
+        "w": "normally",
+        "t": 10.64
+      },
+      {
+        "w": "it",
+        "t": 10.92
+      },
+      {
+        "w": "sees",
+        "t": 11.2
+      },
+      {
+        "w": "nothing.",
+        "t": 11.4
+      },
+      {
+        "w": "When",
+        "t": 12.42
+      },
+      {
+        "w": "smoke",
+        "t": 12.44
+      },
+      {
+        "w": "drifts",
+        "t": 12.72
+      },
+      {
+        "w": "in,",
+        "t": 13.12
+      },
+      {
+        "w": "particles",
+        "t": 13.68
+      },
+      {
+        "w": "scatter",
+        "t": 14.0
+      },
+      {
+        "w": "the",
+        "t": 14.36
+      },
+      {
+        "w": "light",
+        "t": 14.66
+      },
+      {
+        "w": "and",
+        "t": 14.84
+      },
+      {
+        "w": "some",
+        "t": 15.1
+      },
+      {
+        "w": "hits",
+        "t": 15.28
+      },
+      {
+        "w": "the",
+        "t": 15.52
+      },
+      {
+        "w": "sensor.",
+        "t": 15.74
+      },
+      {
+        "w": "Enough",
+        "t": 16.78
+      },
+      {
+        "w": "light",
+        "t": 16.78
+      },
+      {
+        "w": "and",
+        "t": 17.02
+      },
+      {
+        "w": "the",
+        "t": 17.36
+      },
+      {
+        "w": "alarm",
+        "t": 17.46
+      },
+      {
+        "w": "sounds.",
+        "t": 17.66
+      },
+      {
+        "w": "Thick",
+        "t": 18.94
+      },
+      {
+        "w": "steam",
+        "t": 18.94
+      },
+      {
+        "w": "can",
+        "t": 19.22
+      },
+      {
+        "w": "set",
+        "t": 19.46
+      },
+      {
+        "w": "it",
+        "t": 19.66
+      },
+      {
+        "w": "off,",
+        "t": 19.78
+      },
+      {
+        "w": "too,",
+        "t": 20.1
+      },
+      {
+        "w": "even",
+        "t": 20.6
+      },
+      {
+        "w": "with",
+        "t": 20.88
+      },
+      {
+        "w": "no",
+        "t": 21.02
+      },
+      {
+        "w": "fire.",
+        "t": 21.22
+      },
+      {
+        "w": "So",
+        "t": 22.26
+      },
+      {
+        "w": "test",
+        "t": 22.34
+      },
+      {
+        "w": "yours",
+        "t": 22.58
+      },
+      {
+        "w": "once",
+        "t": 22.86
+      },
+      {
+        "w": "a",
+        "t": 23.18
+      },
+      {
+        "w": "month",
+        "t": 23.32
+      },
+      {
+        "w": "using",
+        "t": 23.5
+      },
+      {
+        "w": "the",
+        "t": 23.98
+      },
+      {
+        "w": "test",
+        "t": 24.22
+      },
+      {
+        "w": "button.",
+        "t": 24.38
+      },
+      {
+        "w": "Download",
+        "t": 25.86
+      },
+      {
+        "w": "Recall",
+        "t": 26.62
+      },
+      {
+        "w": "to",
+        "t": 27.08
+      },
+      {
+        "w": "turn",
+        "t": 27.7
+      },
+      {
+        "w": "your",
+        "t": 27.92
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.66
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 205.847900390625,
+    "right": 874.152099609375,
+    "top": 341.5,
+    "bottom": 572.38
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 3.555,
+    "min_frame_diff": 0.0144,
+    "longest_static_run_frames": 48,
+    "max_frame_diff": 124.22,
+    "max_diff_at_s": 18.867
+  },
+  "luma_min_mean_max": [
+    39.6,
+    93.2,
+    160.3
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}
