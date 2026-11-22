@@ -1,0 +1,58 @@
+{
+ "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+ "language": "English narration and English captions",
+ "phoneme_overrides": {
+  "ɪndʒˈiː lˈeɪmən": "ˈɪŋə lˈeɪmən",
+  "ɪz sˈɑːlɪd": "ˈɪz sˈɑːlɪd"
+ },
+ "sentences": [
+  {
+   "id": "S1",
+   "start": 0.05,
+   "text": "Earthquake waves arrived where they shouldn't. Inge Lehmann noticed.",
+   "tts": "Earthquake waves arrived where they shouldn't. Inge Lehmann noticed."
+  },
+  {
+   "id": "S2",
+   "start": 4.0,
+   "text": "What was hiding inside?",
+   "tts": "What was hiding inside?"
+  },
+  {
+   "id": "S3",
+   "start": 5.6,
+   "text": "The core slows waves and bends them away, leaving a quiet band.",
+   "tts": "The core slows waves and bends them away, leaving a quiet band."
+  },
+  {
+   "id": "S4",
+   "start": 9.95,
+   "text": "Yet in 1929, stations there recorded quake waves.",
+   "tts": "Yet in nineteen twenty-nine, stations there recorded quake waves."
+  },
+  {
+   "id": "S5",
+   "start": 14.2,
+   "text": "In 1936, she proposed an inner core where waves speed up, sending some there.",
+   "tts": "In nineteen thirty-six, she proposed an inner core where waves speed up, sending some there."
+  },
+  {
+   "id": "S6",
+   "start": 19.95,
+   "text": "Later evidence showed it is solid.",
+   "tts": "Later evidence showed it is solid."
+  },
+  {
+   "id": "S7",
+   "start": 21.95,
+   "text": "Lesson: a measurement that disagrees with a prediction can reveal hidden structure.",
+   "tts": "Lesson: a measurement that disagrees with a prediction can reveal hidden structure."
+  },
+  {
+   "id": "S8",
+   "start": 27.1,
+   "text": "Download Aarambh to support livelihood tools.",
+   "tts": "Download Aa-rumbh, to support livelihood tools."
+  }
+ ]
+}

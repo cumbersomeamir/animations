@@ -172,3 +172,15 @@
 - **Captions:** plate moved to y 300–460, per the brief.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. both addenda), then 11 and 36.
+
+## 2026-11-22: english-23 #01 (English; fourth under the 2026-11-17 feedback addendum)
+- **Pre-flight:**
+  - batches 20–22 were already complete;
+  - this chat's unpushed work from superseded briefs (an unfinished 30 s campaign attempt and an unfinished 15 s painted-animation test) was checkpointed and rebased onto the remote without dropping commits. Details in 37.
+- **Topic check:** Inge Lehmann was not covered before. It differs from batch 22's Elizebeth Friedman in its question, setting and mechanism.
+- `videos/aarambh/production/30s/2026-11-21-english-23/aarambh-30s-english23-01.mp4` (sha256 `e27374258072ebabdddec024b9113e23da9b887414d7378a2af3da72aa04082b`) and thumbnail = frame 0: Inge Lehmann and the inner core.
+  - Frame 0: the real 1932 portrait beside a 3D Earth sliced open with a station pinging in the shadow band, "SHE HEARD THE IMPOSSIBLE".
+  - Story: "what was hiding inside?" → one PKP ray slowed and bent by the core; SHADOW ZONE → a drum seismograph, "1929", a strong arrival → "1936", INNER CORE; one ray reflects into the band → SOLID (later evidence) → lesson "a measurement that disagrees with a prediction can reveal hidden structure" → Aarambh CTA.
+- **Correction recorded:** the topic line's "solid" was not her finding; the narration separates her inference from the later evidence.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. both addenda), then 11 and 37.

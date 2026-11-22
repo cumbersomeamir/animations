@@ -1,0 +1,13 @@
+{
+  "name": "aarambh-30s-english23-01",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aarambh English 30 s english-23 #01: Inge Lehmann and the inner core (1936).",
+  "type": "module",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/fraunces": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@napi-rs/canvas": "1.0.11"
+  }
+}
