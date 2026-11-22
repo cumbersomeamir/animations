@@ -1,0 +1,79 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "How does it see smoke?",
+      "file": "l01.wav",
+      "duration": 1.104,
+      "sr": 24000,
+      "words_per_s": 4.53
+    },
+    {
+      "id": "l02",
+      "text": "Burnt toast, and it screams. But what's in that plastic box?",
+      "file": "l02.wav",
+      "duration": 3.488,
+      "sr": 24000,
+      "words_per_s": 3.15
+    },
+    {
+      "id": "l03",
+      "text": "Many alarms hide a small chamber with a tiny light.",
+      "file": "l03.wav",
+      "duration": 2.913,
+      "sr": 24000,
+      "words_per_s": 3.43
+    },
+    {
+      "id": "l04",
+      "text": "The light aims away from the sensor, so normally it sees nothing.",
+      "file": "l04.wav",
+      "duration": 3.6,
+      "sr": 24000,
+      "words_per_s": 3.33
+    },
+    {
+      "id": "l05",
+      "text": "When smoke drifts in, particles scatter the light, and some hits the sensor.",
+      "file": "l05.wav",
+      "duration": 3.989,
+      "sr": 24000,
+      "words_per_s": 3.26
+    },
+    {
+      "id": "l06",
+      "text": "Enough light, and the alarm sounds.",
+      "file": "l06.wav",
+      "duration": 1.817,
+      "sr": 24000,
+      "words_per_s": 3.3
+    },
+    {
+      "id": "l07",
+      "text": "Thick steam can set it off too, even with no fire.",
+      "file": "l07.wav",
+      "duration": 2.951,
+      "sr": 24000,
+      "words_per_s": 3.73
+    },
+    {
+      "id": "l08",
+      "text": "So test yours once a month, using the test button.",
+      "file": "l08.wav",
+      "duration": 2.864,
+      "sr": 24000,
+      "words_per_s": 3.49
+    },
+    {
+      "id": "l09",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l09.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

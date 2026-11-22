@@ -1,0 +1,43 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "How does it see smoke?"
+  },
+  {
+   "id": "l02",
+   "text": "Burnt toast, and it screams. But what's in that plastic box?"
+  },
+  {
+   "id": "l03",
+   "text": "Many alarms hide a small chamber with a tiny light."
+  },
+  {
+   "id": "l04",
+   "text": "The light aims away from the sensor, so normally it sees nothing."
+  },
+  {
+   "id": "l05",
+   "text": "When smoke drifts in, particles scatter the light, and some hits the sensor."
+  },
+  {
+   "id": "l06",
+   "text": "Enough light, and the alarm sounds."
+  },
+  {
+   "id": "l07",
+   "text": "Thick steam can set it off too, even with no fire."
+  },
+  {
+   "id": "l08",
+   "text": "So test yours once a month, using the test button."
+  },
+  {
+   "id": "l09",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}
