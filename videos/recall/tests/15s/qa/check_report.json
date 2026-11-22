@@ -1,0 +1,91 @@
+{
+ "video": {
+  "codec": "h264",
+  "profile": "High",
+  "size": "1080x1920",
+  "fps": "30/1",
+  "pix_fmt": "yuv420p",
+  "frames": 450,
+  "duration": 15.0
+ },
+ "audio": {
+  "codec": "aac",
+  "rate": 48000,
+  "channels": 2,
+  "duration": 15.0
+ },
+ "duration_s": 15.0,
+ "timeline_s": 15.0,
+ "delta_s": 0.0,
+ "duration_ok_pm0.1": true,
+ "full_decode_errors": "none",
+ "loudness": {
+  "integrated": "-16.2 LUFS",
+  "true_peak": "-0.8 dBFS",
+  "lra": "3.3 LU"
+ },
+ "audio_levels": {
+  "peak_dBFS": 0.8,
+  "rms_dBFS": -16.4,
+  "clipped_samples": 4
+ },
+ "hits": [
+  {
+   "name": "blast",
+   "t": 2.27,
+   "dB": 0.8,
+   "before_dB": -0.7
+  },
+  {
+   "name": "icon_land",
+   "t": 3.87,
+   "dB": -0.5,
+   "before_dB": -6.9
+  },
+  {
+   "name": "catch1",
+   "t": 7.0,
+   "dB": -4.6,
+   "before_dB": -6.4
+  },
+  {
+   "name": "catch2",
+   "t": 7.8,
+   "dB": -0.3,
+   "before_dB": -5.4
+  },
+  {
+   "name": "catch3_punch",
+   "t": 8.6,
+   "dB": -1.6,
+   "before_dB": -3.0
+  },
+  {
+   "name": "review_stamp",
+   "t": 10.93,
+   "dB": -4.9,
+   "before_dB": -1.8
+  },
+  {
+   "name": "cta_click",
+   "t": 13.27,
+   "dB": -2.9,
+   "before_dB": -2.2
+  }
+ ],
+ "asr_transcript": "Read it, forgot it, meet Recall, turn steady material into lessons and process, then come back for space reviews, recall, explore on Google Play.",
+ "asr_segments": [
+  {
+   "start": 0.0,
+   "end": 9.76,
+   "text": "Read it, forgot it, meet Recall, turn steady material into lessons and process, then come"
+  },
+  {
+   "start": 9.76,
+   "end": 14.52,
+   "text": "back for space reviews, recall, explore on Google Play."
+  }
+ ],
+ "asr_matches_script": false,
+ "script": "Read it. Forgot it? Meet Recall. Turn study material into lessons and practice. Then come back for spaced reviews. Recall. Explore on Google Play."
+}

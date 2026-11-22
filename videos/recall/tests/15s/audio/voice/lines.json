@@ -1,0 +1,60 @@
+{
+ "voice": "am_michael",
+ "model": "Kokoro-82M v1.0 ONNX",
+ "lines": [
+  {
+   "id": "c0",
+   "start": 1.4,
+   "text": "Read it.",
+   "file": "audio/voice/c0.wav",
+   "duration": 0.678,
+   "sr": 24000,
+   "wps": 2.95
+  },
+  {
+   "id": "c1",
+   "start": 2.28,
+   "text": "Forgot it?",
+   "file": "audio/voice/c1.wav",
+   "duration": 0.816,
+   "sr": 24000,
+   "wps": 2.45
+  },
+  {
+   "id": "c2",
+   "start": 3.95,
+   "text": "Meet Recall.",
+   "file": "audio/voice/c2.wav",
+   "duration": 1.021,
+   "sr": 24000,
+   "wps": 1.96
+  },
+  {
+   "id": "c3",
+   "start": 5.55,
+   "text": "Turn study material into lessons and practice.",
+   "file": "audio/voice/c3.wav",
+   "duration": 2.762,
+   "sr": 24000,
+   "wps": 2.53
+  },
+  {
+   "id": "c4",
+   "start": 9.3,
+   "text": "Then come back for spaced reviews.",
+   "file": "audio/voice/c4.wav",
+   "duration": 2.065,
+   "sr": 24000,
+   "wps": 2.91
+  },
+  {
+   "id": "c5",
+   "start": 12.35,
+   "text": "Recall. Explore on Google Play.",
+   "file": "audio/voice/c5.wav",
+   "duration": 2.256,
+   "sr": 24000,
+   "wps": 2.22
+  }
+ ]
+}
