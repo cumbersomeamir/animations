@@ -270,7 +270,32 @@ Brief (verbatim essentials), topic decision, history table, script, sources: 20-
 - QA fixes: sharper/closer close-ups; packed frame 0; baker folds in close-ups; group outlines on the count;
   "Four aliens in each lift" → "Each lift has four aliens" (heard as "left"); deeper ducking (details in qa/QA.md).
 
+## 2026-11-21 batch english-23 — "Is It Time Yet?" (delivered 2026-11-22)
+Brief (verbatim essentials), topic decision, history table with core questions, script, sources:
+21-episode-is-it-time-yet.md.
+- Session check first: batch 22 complete and pushed (e5bd16e); nothing checkpointed or pending; no batch-23 output
+  existed. Toolchain still in the session scratchpad (Kokoro hashes unchanged).
+- Topic decision: proposal "five carriages × three pillows = 15" = equal groups (feedback-01; also counted in batch 22)
+  → unrelated subject in the genre: telling time in fives on a clock (each number the big hand passes = 5 more minutes;
+  three jumps = 3 × 5 = 15). Differs from batch 22 in core question ("Is it time yet?" vs "Why is there never room?"),
+  setting (enchanted cloud station + station clock vs moon-hotel lifts) and mechanism (time interval on a clock face vs
+  grouping with a remainder). Kept: sleepy dragon, cloud train, giant pillow gag, frame-0 dragon under the huge pillow,
+  15 only at the payoff (sign 3 × 5 = 15 to match "three jumps of five"), CTA. Frame-0 words "IS IT TIME YET?".
+- Facts: CCSS 2.MD.C.7, 3.MD.A.1, 3.OA.A.1, 3.OA.C.7; England NC KS1–2 Y2 (time to five minutes; minutes in an hour).
+- Creative (entertainment first): new cut-paper sleepy dragon + giant pillow (src/dragon.mjs); approved robot as station
+  conductor (new cap option); cloud-station page; station clock with springing big hand and five-minute wedges; snore,
+  yawn, early rush and pillow jam (boing), whistle, toothpaste squeeze and cork pop, window wave, train departs; payoff
+  sign; "each number is five more" demo; beat-synced hard cuts; D-flat score that drops out for the snore.
+- Commands: see production/30s/2026-11-21-english-23/README.md (render ≈ 80 s).
+- Paths: production/30s/2026-11-21-english-23/ — tableverse-30s-english23-01.mp4 (sha256 63d6cab83c4af8e823236f5e1d198d6568ee491efd94178d8f07f7cdf3e43b8d) +
+  tableverse-30s-english23-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −17.0 LUFS, −2.2 dBTP; whole-file
+  ASR matches the script exactly; eight window ASR cuts match; VO stem silent in all gaps; captions x 125–875 /
+  y 294–450; clock times and wedges checked on contact sheet + 59 frames. Machine-only listening; frame-based viewing.
+- QA fixes: close-shot opening for frame 0; baker folds in close shots; dragon face framing; wide framing for the jam
+  and boarding shots (clock clear of captions); whistle after "aboard"; pause after "Wake up" (details in qa/QA.md).
+
 ## Unresolved / next
-- Await user review of english20-01, english21-01 and english22-01 (all attached in chat and pushed). No further
-  episode started.
-- Briefs 20, 21 and 22 each repeated covered maths; replacements are documented in context/18, 19 and 20.
+- Await user review of english20-01 … english23-01 (all attached in chat and pushed). No further episode started.
+- Briefs 20–23 each repeated covered maths; replacements are documented in context/18–21. Any next brief must also differ
+  from batch 23's clock/time subject (core question, setting, mechanism).

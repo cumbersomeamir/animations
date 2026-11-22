@@ -1,0 +1,588 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 126,
+      "name": "Close: dragon squashed under a giant pillow, \"IS IT TIME YET?\"; cut to the station: clock at :00, train waiting"
+    },
+    {
+      "id": "S2-wake",
+      "from": 126,
+      "to": 162,
+      "name": "Close-up dragon: one eye opens, yawn"
+    },
+    {
+      "id": "S3-five",
+      "from": 162,
+      "to": 234,
+      "name": "Clock close-up: the big hand jumps to 1 — five minutes, not yet"
+    },
+    {
+      "id": "S4-snore",
+      "from": 234,
+      "to": 270,
+      "name": "Close-up dragon: flops back under the pillow, snores"
+    },
+    {
+      "id": "S5-ten",
+      "from": 270,
+      "to": 306,
+      "name": "Clock close-up: the big hand jumps to 2 — ten minutes"
+    },
+    {
+      "id": "S6-jam",
+      "from": 306,
+      "to": 396,
+      "name": "Wide: the dragon rushes the pillow at the door — jammed! the conductor robot wags a finger"
+    },
+    {
+      "id": "S7-fifteen",
+      "from": 396,
+      "to": 432,
+      "name": "Clock close-up: the big hand jumps to 3 — fifteen minutes"
+    },
+    {
+      "id": "S8-board",
+      "from": 432,
+      "to": 558,
+      "name": "Wide: whistle, the pillow squeezes through the door with a pop, the train puffs away"
+    },
+    {
+      "id": "S9-payoff",
+      "from": 558,
+      "to": 810,
+      "name": "Clock close-up: three jumps of five; sign 5 × 3 = 15; each number is five more minutes"
+    },
+    {
+      "id": "S10-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 127,
+    "v03": 174,
+    "v04": 274,
+    "v05": 400,
+    "v06": 562,
+    "v07": 648,
+    "v08": 712,
+    "v09": 838
+  },
+  "vo_clip": {},
+  "captions": [
+    [
+      [
+        "The cloud train leaves when",
+        "the big hand reaches 3!"
+      ],
+      54,
+      124
+    ],
+    [
+      [
+        "Wake up, sleepy dragon!"
+      ],
+      127,
+      166
+    ],
+    [
+      [
+        "5 minutes. Not yet!"
+      ],
+      174,
+      232
+    ],
+    [
+      [
+        "10 minutes."
+      ],
+      274,
+      300
+    ],
+    [
+      [
+        "10 minutes.",
+        "Still not yet!"
+      ],
+      300,
+      340
+    ],
+    [
+      [
+        "15 minutes."
+      ],
+      400,
+      428
+    ],
+    [
+      [
+        "15 minutes.",
+        "All aboard!"
+      ],
+      428,
+      468
+    ],
+    [
+      [
+        "3 jumps of 5 minutes."
+      ],
+      562,
+      640
+    ],
+    [
+      [
+        "3 times 5 is 15."
+      ],
+      648,
+      704
+    ],
+    [
+      [
+        "Each number on the clock",
+        "is 5 more minutes!"
+      ],
+      712,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      838,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "tick",
+      0,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      18,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      36,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      54,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      72,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      90,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      108,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      126,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      144,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      162,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      180,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      198,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      216,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      234,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      252,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      270,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      288,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      306,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      324,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      342,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      360,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      378,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      396,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      414,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      432,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      450,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      468,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "tick",
+      486,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "tick",
+      504,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "clockjump",
+      162,
+      {}
+    ],
+    [
+      "clockjump",
+      270,
+      {}
+    ],
+    [
+      "clockjump",
+      396,
+      {}
+    ],
+    [
+      "snore",
+      4,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "snore",
+      60,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "flap",
+      36,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "yawn",
+      140,
+      {
+        "dur": 20
+      }
+    ],
+    [
+      "flop",
+      244,
+      {}
+    ],
+    [
+      "snore",
+      254,
+      {
+        "dur": 16
+      }
+    ],
+    [
+      "whoosh",
+      312,
+      {
+        "dur": 20
+      }
+    ],
+    [
+      "boing",
+      340,
+      {
+        "pitch": 0.8
+      }
+    ],
+    [
+      "thud",
+      372,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "tok",
+      350,
+      {
+        "pitch": 1.4
+      }
+    ],
+    [
+      "tok",
+      359,
+      {
+        "pitch": 1.4
+      }
+    ],
+    [
+      "tok",
+      368,
+      {
+        "pitch": 1.4
+      }
+    ],
+    [
+      "whistle",
+      448,
+      {}
+    ],
+    [
+      "squish",
+      458,
+      {}
+    ],
+    [
+      "stretch",
+      468,
+      {
+        "pitch": 0.7
+      }
+    ],
+    [
+      "cork",
+      486,
+      {}
+    ],
+    [
+      "clunk",
+      508,
+      {
+        "soft": true
+      }
+    ],
+    [
+      "chug",
+      510,
+      {
+        "dur": 60
+      }
+    ],
+    [
+      "light",
+      574,
+      {
+        "step": 0
+      }
+    ],
+    [
+      "light",
+      592,
+      {
+        "step": 1
+      }
+    ],
+    [
+      "light",
+      610,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "flap",
+      650,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      658,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "tick",
+      720,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      738,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      756,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      774,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    234,
+    270
+  ]
+}

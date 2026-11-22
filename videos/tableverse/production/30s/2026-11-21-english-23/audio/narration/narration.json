@@ -1,0 +1,53 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "Is it time yet? The cloud train leaves when the big hand reaches three!",
+      "seconds": 4.003,
+      "frames": 120.1
+    },
+    "v02": {
+      "text": "Wake up, sleepy dragon!",
+      "seconds": 1.242,
+      "frames": 37.3
+    },
+    "v03": {
+      "text": "Five minutes. Not yet!",
+      "seconds": 1.278,
+      "frames": 38.3
+    },
+    "v04": {
+      "text": "Ten minutes. Still not yet!",
+      "seconds": 1.529,
+      "frames": 45.9
+    },
+    "v05": {
+      "text": "Fifteen minutes. All aboard!",
+      "seconds": 1.502,
+      "frames": 45.0
+    },
+    "v06": {
+      "text": "The big hand made three jumps of five minutes.",
+      "seconds": 2.291,
+      "frames": 68.7
+    },
+    "v07": {
+      "text": "Three times five is fifteen.",
+      "seconds": 1.518,
+      "frames": 45.5
+    },
+    "v08": {
+      "text": "Each number on the clock is five more minutes!",
+      "seconds": 2.195,
+      "frames": 65.8
+    },
+    "v09": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}
