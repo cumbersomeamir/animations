@@ -1,0 +1,139 @@
+{
+ "rule": "ink x 100-900, y 280-460 (2026-11-19 brief)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 126,
+  "x1": 874,
+  "y0": 316,
+  "y1": 436
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "A free wheelchair can / still be the wrong gift.",
+   "fs": 56,
+   "x0": 199,
+   "x1": 801,
+   "y0": 316,
+   "y1": 436,
+   "firstFrame": 37
+  },
+  {
+   "text": "Too wide, and they / lean to one side.",
+   "fs": 56,
+   "x0": 239,
+   "x1": 761,
+   "y0": 316,
+   "y1": 424,
+   "firstFrame": 108
+  },
+  {
+   "text": "Too deep, and they / can't sit upright.",
+   "fs": 56,
+   "x0": 237,
+   "x1": 763,
+   "y0": 319,
+   "y1": 436,
+   "firstFrame": 178
+  },
+  {
+   "text": "So what makes / a chair fit?",
+   "fs": 56,
+   "x0": 292,
+   "x1": 708,
+   "y0": 318,
+   "y1": 424,
+   "firstFrame": 239
+  },
+  {
+   "text": "WHO guidance: assess / each person first,",
+   "fs": 56,
+   "x0": 179,
+   "x1": 821,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 313
+  },
+  {
+   "text": "then fit the chair.",
+   "fs": 66,
+   "x0": 222,
+   "x1": 778,
+   "y0": 348,
+   "y1": 401,
+   "firstFrame": 382
+  },
+  {
+   "text": "The seat should be / as wide as the hips.",
+   "fs": 56,
+   "x0": 229,
+   "x1": 771,
+   "y0": 319,
+   "y1": 435,
+   "firstFrame": 435
+  },
+  {
+   "text": "Behind the knee,",
+   "fs": 66,
+   "x0": 226,
+   "x1": 774,
+   "y0": 348,
+   "y1": 414,
+   "firstFrame": 483
+  },
+  {
+   "text": "leave about two / fingers of space.",
+   "fs": 56,
+   "x0": 265,
+   "x1": 735,
+   "y0": 319,
+   "y1": 436,
+   "firstFrame": 530
+  },
+  {
+   "text": "Then train the user, / and check back later.",
+   "fs": 56,
+   "x0": 206,
+   "x1": 794,
+   "y0": 316,
+   "y1": 424,
+   "firstFrame": 603
+  },
+  {
+   "text": "Before donating one,",
+   "fs": 66,
+   "x0": 159,
+   "x1": 841,
+   "y0": 348,
+   "y1": 415,
+   "firstFrame": 668
+  },
+  {
+   "text": "ask a verified programme what / size and condition they need.",
+   "fs": 49,
+   "x0": 126,
+   "x1": 874,
+   "y0": 322,
+   "y1": 426,
+   "firstFrame": 750
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 351,
+   "y1": 414,
+   "firstFrame": 877
+  }
+ ]
+}

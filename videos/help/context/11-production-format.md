@@ -345,3 +345,15 @@ icon should be taken from play store or app store"
 - Mirrored props (vehicles driving back) need their text drawn unmirrored.
 - ASR traps: "lost" ↔ "last", "a place" ↔ "apply", "So before" ↔ "sober for" — reword before rendering; test alternatives in isolation.
 
+## Update 2026-11-21 (batch 23) — english-23 lessons
+- Topic gate: wheelchair fit / WHO assessment-fitting-training-follow-up / seat width = hip width / two-finger knee gap covered by english-23
+  (english-17 remains the ramp/access episode). Assistive-device topics now: spectacles (20), ramps (17), wheelchair fit (23).
+- Before each batch, read every record's title + core question (records 12–36) and state how the new core question, setting and mechanism differ
+  from the nearest episode and from the previous batch's actual subject.
+- Seated puppets: `sitSide` / `sitFront` + `chairBack` / `chairWheels` / `chairFront` (english-23) give side and front wheelchair views; layer
+  chair back → person → near wheels. A magnifier lens (clip circle + re-draw the scene scaled ×2.3) shows a small detail without zooming the whole
+  stage under the headline.
+- ASR traps: "hip width sets the seat width" → "have websites the seat with"; "follow up" → "fall low up". Prefer plain words ("as wide as the
+  hips", "check back later"); spell acronyms for the voice only ("W H O"), keep the caption as written ("WHO").
+- Run the Play icon check before writing QA/records (repeat of the batch-19 lesson: it was nearly skipped this batch).
+

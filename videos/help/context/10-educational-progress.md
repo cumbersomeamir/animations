@@ -179,3 +179,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Output `videos/help/production/30s/2026-11-19-english-22/help-30s-english22-01.mp4`, SHA-256 `4405191782759b8b68769bea14ec7d31240b3983d8d800ea714b4f6035e813df`; thumbnail `help-30s-english22-thumbnail.png`.
 - Topic + production notes (incl. the brief): `35-production-30s-english22-01.md`; caption zone y 280–460 and lessons in `11-production-format.md` (Update 2026-11-19). No automation created.
 
+## 2026-11-21 (batch 23) — english-23, 30 s #01 (English; "A gift that doesn't fit" — a donated wheelchair must be assessed and fitted: too wide → leans, too deep → can't sit upright; WHO assess then fit; seat as wide as the hips; two fingers behind the knee; train and follow up; payoff: ask a verified programme what size and condition is needed) — DONE
+- Output `videos/help/production/30s/2026-11-21-english-23/help-30s-english23-01.mp4`, SHA-256 `105172870ef95a9ca62f9e08d75085616e13adff93952445f5cf2fb8f706dbf8`; thumbnail `help-30s-english23-thumbnail.png`.
+- Topic + production notes (incl. the brief and the topic-history check): `36-production-30s-english23-01.md`; lessons in `11-production-format.md` (Update 2026-11-21). No automation created.
+

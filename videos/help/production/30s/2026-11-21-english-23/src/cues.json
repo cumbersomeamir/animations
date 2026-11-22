@@ -1,0 +1,75 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.1,
+  2.65,
+  7.3,
+  8.95,
+  13.6,
+  15.8,
+  18.88,
+  21.68,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_gift": [
+   0.0,
+   2.47
+  ],
+  "B_misfit": [
+   2.47,
+   7.12
+  ],
+  "C_question": [
+   7.12,
+   8.8
+  ],
+  "D_assess": [
+   8.8,
+   13.42
+  ],
+  "E_width": [
+   13.42,
+   15.6
+  ],
+  "F_knee": [
+   15.6,
+   18.7
+  ],
+  "G_train": [
+   18.7,
+   21.47
+  ],
+  "H_payoff": [
+   21.47,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "gift": 1.77,
+  "lean": 3.48,
+  "deep": 5.13,
+  "upright": 6.35,
+  "q": 7.3,
+  "assess": 10.65,
+  "fitChair": 12.35,
+  "hips": 14.9,
+  "knee": 16.2,
+  "fingers": 17.45,
+  "train": 19.0,
+  "later": 20.75,
+  "ask": 23.15,
+  "size": 24.85,
+  "condition": 25.5,
+  "done": 26.8,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Storymap (first-frame rule; 2026-11-17 LIVE feedback: broad, informative, tied to giving): frame0 = a gift-wrapped wheelchair with a bow against a measuring tape + A GIFT THAT DOESN'T FIT, lamps full, voice at 0.1 s; 0-2.55 hook, 2.55-7.2 superhook (too wide: leans; too deep: can't sit upright), 7.2-8.9 question, 8.9-20.85 proof (WHO assess then fit; hip width = seat width; two fingers behind the knee; train + follow up), 20.85-26.9 payoff (ask a verified programme for size and condition), 26.9-30 CTA. Setting: a fitting room with tape measures (not english-17's doorstep, not english-22's hospital road)."
+}

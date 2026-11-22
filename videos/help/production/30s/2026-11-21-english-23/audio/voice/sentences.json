@@ -1,0 +1,73 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "A free wheelchair can still be the wrong gift.",
+   "dur": 2.134,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "Too wide, and they lean to one side. Too deep, and they can't sit upright.",
+   "dur": 4.23,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "So what makes a chair fit?",
+   "dur": 1.239,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "WHO guidance: assess each person first, then fit the chair.",
+   "tts": "W H O guidance: assess each person first, then fit the chair.",
+   "dur": 4.195,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "The seat should be as wide as the hips.",
+   "dur": 1.749,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Behind the knee, leave about two fingers of space.",
+   "dur": 2.643,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "Then train the user, and check back later.",
+   "dur": 2.324,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "Before donating one, ask a verified programme what size and condition they need.",
+   "tts": "Before donating one, ask a verified program what size and condition they need.",
+   "dur": 4.993,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}
