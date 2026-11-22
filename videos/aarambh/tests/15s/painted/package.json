@@ -1,0 +1,16 @@
+{
+  "name": "aarambh-15s-painted",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aarambh 15s painted-animation style test: own p5.js + p5.brush engine rendered frame by frame in headless Chromium",
+  "scripts": {
+    "sheet": "node render.mjs --sheet=0.5,2,4,6,8,10,12,14 --cols=4 --w=270 --out=out/check/sheet.jpg",
+    "frames": "node render.mjs --frames --workers=4",
+    "encode": "node render.mjs --encode"
+  },
+  "dependencies": {
+    "@fontsource/kalam": "5.3.0",
+    "p5": "2.3.3",
+    "p5.brush": "2.2.3"
+  }
+}
