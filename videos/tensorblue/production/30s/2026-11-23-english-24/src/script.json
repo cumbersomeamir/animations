@@ -1,0 +1,78 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "IDs": "misaki gives ˌIdˈiz (eye-DEEZ); no override needed",
+  "2010": "misaki reads 'twenty ten'; no override needed"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "Twitter needed ten thousand IDs a second.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "No repeats, without servers coordinating. How?",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "In 2010 they built Snowflake: one number, three parts.",
+   "after": 0.3
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "First, the time, to the millisecond.",
+   "after": 0.25
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "Then, which machine made it.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "Then a counter, for IDs in the same millisecond.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "Our test: three machines, the same millisecond, nine IDs, zero repeats.",
+   "after": 0.35
+  },
+  {
+   "id": "L8",
+   "at": 0.0,
+   "text": "In JavaScript, keep IDs as strings, or different IDs can become one number.",
+   "after": 0.3
+  },
+  {
+   "id": "L9",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

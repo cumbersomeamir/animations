@@ -1,0 +1,19 @@
+SAME MILLISECOND. NO REPEATS. How did Twitter number every tweet without a central counter?
+
+Twitter needed ten thousand IDs a second. No repeats, without servers coordinating. How? In 2010 they built Snowflake: one number, three parts. First, the time, to the millisecond. Then, which machine made it. Then a counter, for IDs in the same millisecond.
+
+Our test: three machines, the same millisecond, nine IDs, zero repeats. In JavaScript, keep IDs as strings, or different IDs can become one number.
+
+Our test (our own Python re-implementation of the layout in Twitter's open-source 2010 README, not Twitter's code; run 23 Nov 2026): 41 bits of milliseconds since Twitter's epoch (4 Nov 2010, 01:42:54.657 UTC), 10 bits of machine ID and a 12-bit counter. Three machines made three IDs each in one shared millisecond, then one more each: 12 IDs, all different, and sorting the numbers sorted them by time. In Node.js, the same 12 IDs became only 6 values as JavaScript Numbers. For example, 2124849866982035456 and 2124849866982035457 turned into the same number, because Numbers are exact only up to 2^53. As strings or BigInt they all stayed different.
+
+Notes: "ten thousand IDs a second" is the README's stated requirement per process, not a measured figure. Uniqueness depends on every machine having its own ID, and Snowflake refuses to make IDs while the clock runs backwards. Twitter later rewrote Snowflake internally; Discord's API docs say Discord uses Twitter's snowflake format and returns IDs as strings. The servers, counter block and plates in the video are our own illustration.
+
+Sources:
+- Twitter Snowflake repository (2010 release, README and IdWorker.scala): https://github.com/twitter-archive/snowflake/tree/snowflake-2010
+- Twitter Snowflake repository README (release history): https://github.com/twitter-archive/snowflake
+- X API documentation, X IDs (Snowflake format, use string IDs in JavaScript): https://docs.x.com/fundamentals/x-ids
+- Discord API reference, Snowflakes: https://docs.discord.com/developers/reference
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #SystemDesign #SoftwareExplained

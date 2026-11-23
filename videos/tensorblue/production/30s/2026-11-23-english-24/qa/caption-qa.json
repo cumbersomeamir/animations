@@ -1,0 +1,197 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Twitter needed ten",
+    "thousand IDs a second."
+   ],
+   "t0": 0.04,
+   "tEnd": 2.63,
+   "frame": 19,
+   "box": {
+    "x0": 195,
+    "x1": 801,
+    "y0": 317,
+    "y1": 422,
+    "n": 17931
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "No repeats, without",
+    "servers coordinating. How?"
+   ],
+   "t0": 2.63,
+   "tEnd": 5.82,
+   "frame": 97,
+   "box": {
+    "x0": 143,
+    "x1": 856,
+    "y0": 311,
+    "y1": 428,
+    "n": 20241
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "In 2010 they built Snowflake:",
+    "one number, three parts."
+   ],
+   "t0": 5.82,
+   "tEnd": 9.6,
+   "frame": 193,
+   "box": {
+    "x0": 128,
+    "x1": 870,
+    "y0": 312,
+    "y1": 428,
+    "n": 22722
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "First, the time,",
+    "to the millisecond."
+   ],
+   "t0": 9.6,
+   "tEnd": 11.68,
+   "frame": 306,
+   "box": {
+    "x0": 261,
+    "x1": 734,
+    "y0": 312,
+    "y1": 417,
+    "n": 13668
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Then, which",
+    "machine made it."
+   ],
+   "t0": 11.68,
+   "tEnd": 13.25,
+   "frame": 369,
+   "box": {
+    "x0": 280,
+    "x1": 718,
+    "y0": 312,
+    "y1": 417,
+    "n": 12210
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Then a counter, for IDs",
+    "in the same millisecond."
+   ],
+   "t0": 13.25,
+   "tEnd": 16.26,
+   "frame": 416,
+   "box": {
+    "x0": 188,
+    "x1": 809,
+    "y0": 312,
+    "y1": 417,
+    "n": 19260
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Our test: three machines,",
+    "the same millisecond,"
+   ],
+   "t0": 16.26,
+   "tEnd": 18.82,
+   "frame": 506,
+   "box": {
+    "x0": 172,
+    "x1": 825,
+    "y0": 312,
+    "y1": 427,
+    "n": 19816
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "nine IDs, zero repeats."
+   ],
+   "t0": 18.82,
+   "tEnd": 21.15,
+   "frame": 583,
+   "box": {
+    "x0": 211,
+    "x1": 787,
+    "y0": 344,
+    "y1": 396,
+    "n": 9110
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "In JavaScript, keep",
+    "IDs as strings,"
+   ],
+   "t0": 21.15,
+   "tEnd": 23.9,
+   "frame": 653,
+   "box": {
+    "x0": 254,
+    "x1": 746,
+    "y0": 311,
+    "y1": 428,
+    "n": 14343
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "or different IDs can",
+    "become one number."
+   ],
+   "t0": 23.9,
+   "tEnd": 26.95,
+   "frame": 735,
+   "box": {
+    "x0": 228,
+    "x1": 771,
+    "y0": 317,
+    "y1": 422,
+    "n": 16809
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 312,
+    "y1": 428,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "headline": [],
+ "headlineWorstPropPixels": 0,
+ "pass": true,
+ "checkedFrames": 90
+}

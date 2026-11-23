@@ -1,0 +1,335 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.15,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 0.45,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 0.75,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 1.05,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 2.569,
+   "type": "wipe"
+  },
+  {
+   "t": 2.619,
+   "type": "pop"
+  },
+  {
+   "t": 3.449,
+   "type": "slide"
+  },
+  {
+   "t": 5.113,
+   "type": "type"
+  },
+  {
+   "t": 6.182,
+   "type": "wipe"
+  },
+  {
+   "t": 6.282,
+   "type": "hop"
+  },
+  {
+   "t": 6.929,
+   "type": "type"
+  },
+  {
+   "t": 8.539,
+   "type": "stamp"
+  },
+  {
+   "t": 8.777,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 9.536,
+   "type": "wipe"
+  },
+  {
+   "t": 10.154,
+   "type": "type"
+  },
+  {
+   "t": 10.214,
+   "type": "tick"
+  },
+  {
+   "t": 10.366,
+   "type": "tick"
+  },
+  {
+   "t": 10.518,
+   "type": "tick"
+  },
+  {
+   "t": 10.671,
+   "type": "tick"
+  },
+  {
+   "t": 10.823,
+   "type": "tick"
+  },
+  {
+   "t": 10.975,
+   "type": "tick"
+  },
+  {
+   "t": 11.624,
+   "type": "wipe"
+  },
+  {
+   "t": 12.201,
+   "type": "pop"
+  },
+  {
+   "t": 13.31,
+   "type": "wipe"
+  },
+  {
+   "t": 13.406,
+   "type": "clack"
+  },
+  {
+   "t": 13.556,
+   "type": "hop"
+  },
+  {
+   "t": 14.969,
+   "type": "clack"
+  },
+  {
+   "t": 15.119,
+   "type": "hop"
+  },
+  {
+   "t": 15.231,
+   "type": "clack"
+  },
+  {
+   "t": 15.381,
+   "type": "hop"
+  },
+  {
+   "t": 16.197,
+   "type": "wipe"
+  },
+  {
+   "t": 16.795,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 17.12,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 17.295,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 17.445,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 17.62,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 17.77,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 17.945,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 18.095,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 18.27,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 18.42,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 18.595,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 18.745,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 18.822,
+   "type": "type"
+  },
+  {
+   "t": 18.92,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 19.07,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 19.245,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 19.395,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 19.57,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 19.87,
+   "type": "chime"
+  },
+  {
+   "t": 19.895,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 21.09,
+   "type": "wipe"
+  },
+  {
+   "t": 21.14,
+   "type": "pop"
+  },
+  {
+   "t": 22.161,
+   "type": "type"
+  },
+  {
+   "t": 23.046,
+   "type": "swish2",
+   "soft": true
+  },
+  {
+   "t": 23.296,
+   "type": "confirm"
+  },
+  {
+   "t": 24.796,
+   "type": "swish2",
+   "soft": true
+  },
+  {
+   "t": 26.129,
+   "type": "reject"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.179,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "twitter": 0.1,
+  "thousand": 0.986,
+  "ids1": 1.361,
+  "repeats": 2.911,
+  "without": 3.399,
+  "servers": 3.686,
+  "how": 5.173,
+  "built": 6.702,
+  "snowflake": 6.989,
+  "one3": 7.964,
+  "three3": 8.589,
+  "parts": 8.827,
+  "first": 9.664,
+  "time": 10.214,
+  "ms4": 10.777,
+  "machine5": 12.261,
+  "made": 12.598,
+  "counter": 13.456,
+  "ids6": 14.294,
+  "same6": 15.019,
+  "ms6": 15.281,
+  "test": 16.445,
+  "machines7": 17.295,
+  "same7": 17.945,
+  "nine": 18.882,
+  "zero": 19.92,
+  "repeats7": 20.282,
+  "js": 21.333,
+  "keep": 22.221,
+  "strings": 23.196,
+  "or8": 23.958,
+  "different": 24.108,
+  "become": 25.046,
+  "number8": 25.633,
+  "follow": 27,
+  "tb": 27.279,
+  "scenes": [
+   0,
+   2.569,
+   6.1819999999999995,
+   9.536000000000001,
+   11.624,
+   13.31,
+   16.197,
+   21.09,
+   26.6,
+   30.01
+  ],
+  "ctaAt": 26.6
+ }
+}

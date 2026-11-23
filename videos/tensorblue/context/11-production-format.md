@@ -211,6 +211,20 @@ Practical system design · useful new GitHub tools · research explained through
     - Screen textures throw if a line overflows its card.
   - Notes: `37-production-30s-english23-01.md`.
 
+- **2026-11-23 brief (batch24) — english-24:**
+  - **Topic replaced.** The proposal ("Why deleting an app does not always delete its data": uninstall vs separate account-deletion request) overlapped english-08. That episode asked the same question ("deleted here, why does it still exist there?") with the same mechanism: local copy vs server copy, a separate delete path, retention.
+  - **Chosen instead:** Twitter's Snowflake (2010, GitHub): unique, time-sorted IDs from many servers with no central counter. It is new to the channel and differs from batch23 in question, setting and mechanism. Payoff: keep 64-bit IDs as strings in JavaScript (X and Discord docs; our test shows 12 IDs → 6 Numbers).
+  - **Frame zero:** **SAME MILLISECOND. NO REPEATS.**
+  - **Choreography varied, identity kept:** a toy server room, flying ID plates, blocks sized by their bits, a sorted wall and a flip/merge payoff, with the same palette, type, captions and end card.
+  - **New standing practices (from english-24 on):**
+    - **Watch sheets sample exact frame numbers** (`select=not(mod(n,15))`, labelled with source pts). The old `fps=2` + pts-label sheets led the content by ~0.23 s (a labelled 21.0 s frame was really 21.23 s), and that applies to earlier rounds' sheets.
+    - **`mix.py` raises on unknown SFX types.** Before, an unknown type was silently dropped.
+    - Every scene texture measures its text and throws on overflow (not only phone screens).
+    - **A headline's exit finishes before its shot cuts** (`HEAD_OUT` 0.32 s). If that leaves a headline under ~0.7 s, move the cut or the entry cue rather than overlapping the next shot.
+    - **Keep SFX impacts off the narration.** A buzz on the tail of "number" made ASR hear a phantom "4". Put impacts just after the word ends.
+    - The camera screen centre (`camera(..., cx, cy)`) can move content into the lower stage. english-24 used cy 1250 so the frame isn't half empty floor; keep vital items above y ≈ 1650 and away from the right edge.
+  - Notes: `38-production-30s-english24-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/

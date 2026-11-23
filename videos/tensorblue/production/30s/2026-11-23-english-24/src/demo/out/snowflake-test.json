@@ -1,0 +1,158 @@
+{
+ "what": "Our own re-implementation of the documented 2010 Snowflake layout (41-bit time, 10-bit machine, 12-bit sequence); not Twitter code.",
+ "run_utc": "2026-11-23 12:57:40.747 UTC",
+ "epoch_ms": 1288834974657,
+ "epoch_utc": "2010-11-04 01:42:54.657 UTC",
+ "layout_bits": {
+  "sign": 1,
+  "time": 41,
+  "machine": 10,
+  "sequence": 12
+ },
+ "capacity": {
+  "ids_per_ms_per_machine": 4096,
+  "machines": 1024,
+  "years_of_time_field": 69.7,
+  "time_field_runs_out_utc": "2080-07-10 17:30:30.208 UTC"
+ },
+ "ids": [
+  {
+   "id": "2124849866982035456",
+   "ms": 1795438660747,
+   "machine": 1,
+   "seq": 0
+  },
+  {
+   "id": "2124849866982035457",
+   "ms": 1795438660747,
+   "machine": 1,
+   "seq": 1
+  },
+  {
+   "id": "2124849866982035458",
+   "ms": 1795438660747,
+   "machine": 1,
+   "seq": 2
+  },
+  {
+   "id": "2124849866982039552",
+   "ms": 1795438660747,
+   "machine": 2,
+   "seq": 0
+  },
+  {
+   "id": "2124849866982039553",
+   "ms": 1795438660747,
+   "machine": 2,
+   "seq": 1
+  },
+  {
+   "id": "2124849866982039554",
+   "ms": 1795438660747,
+   "machine": 2,
+   "seq": 2
+  },
+  {
+   "id": "2124849866982043648",
+   "ms": 1795438660747,
+   "machine": 3,
+   "seq": 0
+  },
+  {
+   "id": "2124849866982043649",
+   "ms": 1795438660747,
+   "machine": 3,
+   "seq": 1
+  },
+  {
+   "id": "2124849866982043650",
+   "ms": 1795438660747,
+   "machine": 3,
+   "seq": 2
+  },
+  {
+   "id": "2124849866986229760",
+   "ms": 1795438660748,
+   "machine": 1,
+   "seq": 0
+  },
+  {
+   "id": "2124849866986233856",
+   "ms": 1795438660748,
+   "machine": 2,
+   "seq": 0
+  },
+  {
+   "id": "2124849866986237952",
+   "ms": 1795438660748,
+   "machine": 3,
+   "seq": 0
+  }
+ ],
+ "count": 12,
+ "distinct": 12,
+ "sorted_by_number_is_time_order": true,
+ "decode_round_trip_ok": true,
+ "clock_backwards_test": "clock moved backwards by 6 ms: refusing to make an id",
+ "sample": {
+  "id": "2124849866982039552",
+  "digits": 19,
+  "bits_used": 61,
+  "binary_time": "00111010111110011111011101100100011001010",
+  "binary_machine": "0000000010",
+  "binary_seq": "000000000000",
+  "ms_since_epoch": 506603686090,
+  "machine": 2,
+  "seq": 0,
+  "time_utc": "2026-11-23 12:57:40.747 UTC"
+ },
+ "js": {
+  "node": "v22.23.5",
+  "max_safe_integer": 9007199254740991,
+  "id_string": "2124849866982039552",
+  "number_toString": "2124849866982039600",
+  "json_parse_number_toString": "2124849866982039600",
+  "number_exact_integer": "2124849866982039552",
+  "number_equals_id": true,
+  "off_by": "0",
+  "bigint_equals_id": true,
+  "test_ids": 12,
+  "distinct_as_strings": 12,
+  "distinct_after_Number": 6,
+  "collisions": [
+   {
+    "number_exact_integer": "2124849866982035456",
+    "ids": [
+     "2124849866982035456",
+     "2124849866982035457",
+     "2124849866982035458"
+    ]
+   },
+   {
+    "number_exact_integer": "2124849866982039552",
+    "ids": [
+     "2124849866982039552",
+     "2124849866982039553",
+     "2124849866982039554"
+    ]
+   },
+   {
+    "number_exact_integer": "2124849866982043648",
+    "ids": [
+     "2124849866982043648",
+     "2124849866982043649",
+     "2124849866982043650"
+    ]
+   }
+  ],
+  "showcase": {
+   "a": "2124849866982035456",
+   "b": "2124849866982035457",
+   "a_differs_from_b": true,
+   "number_a": "2124849866982035456",
+   "number_b": "2124849866982035456",
+   "numbers_equal": true,
+   "bigint_equal": false
+  }
+ }
+}
