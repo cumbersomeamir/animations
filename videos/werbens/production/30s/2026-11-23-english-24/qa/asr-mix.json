@@ -1,0 +1,86 @@
+{
+  "model": "onnx-community/whisper-base.en_timestamped",
+  "lines": [
+    {
+      "id": "L1",
+      "window_s": [
+        0,
+        2.43
+      ],
+      "script": "Why does IKEA walk you through rooms first?",
+      "heard": "Why does IKEA walk you through rooms first?",
+      "words": "8/8"
+    },
+    {
+      "id": "L2",
+      "window_s": [
+        2.85,
+        5.68
+      ],
+      "script": "Its store guide says: start with the showroom.",
+      "heard": "Its store guide says, \"Start with the showroom.\"",
+      "words": "8/8"
+    },
+    {
+      "id": "L3",
+      "window_s": [
+        5.7,
+        9.48
+      ],
+      "script": "Whole rooms, furniture in action. Flat packs come later.",
+      "heard": "Whole rooms furniture in action. Flat packs come later.",
+      "words": "9/9"
+    },
+    {
+      "id": "L4",
+      "window_s": [
+        9.55,
+        14.29
+      ],
+      "script": "Alone, a sofa is a size and a price. In a room, it's your evening.",
+      "heard": "Alone, a sofa is a size and a price. In a room, it's your evening.",
+      "words": "15/15"
+    },
+    {
+      "id": "L5",
+      "window_s": [
+        14.35,
+        18.97
+      ],
+      "script": "Studies suggest picturing yourself using a product can make you want it more.",
+      "heard": "Studies suggest picturing yourself using a product can make you want it more.",
+      "words": "13/13"
+    },
+    {
+      "id": "L6",
+      "window_s": [
+        19,
+        21.2
+      ],
+      "script": "At the shelves, you're finishing a room.",
+      "heard": "At the shelves, you're finishing a room.",
+      "words": "7/7"
+    },
+    {
+      "id": "L7",
+      "window_s": [
+        21.45,
+        24.62
+      ],
+      "script": "Don't just show the product. Show the life around it.",
+      "heard": "Don't just show the product. Show the life around it.",
+      "words": "10/10"
+    },
+    {
+      "id": "L8",
+      "window_s": [
+        26.85,
+        29.62
+      ],
+      "script": "Follow Werbens to decode how brands sell.",
+      "heard": "Follow Warbins to decode how brands sell.",
+      "words": "6/7"
+    }
+  ],
+  "full": "Why does IKEA walk you through rooms first? Its door guide says, \"Start with the showroom. Whole rooms furniture in action. Flat packs come later. Alone, a sofa is a size and a price. In a room, it's your evening.\" Studies suggest picturing yourself using a product can make you want it more. At the shelves, you're finishing a room. Don't just show the product. Show the life around it. Follow Wurbins to decode how brands sell."
+}

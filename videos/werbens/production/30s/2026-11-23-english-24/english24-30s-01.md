@@ -1,0 +1,197 @@
+# 40 — English-24 (batch24, 2026-11-23) 30 s #01: "WHY ROOMS COME FIRST?" (IKEA's showroom: show the life around the product)
+
+App Werbens · com.werbens.app · repo cumbersomeamir/animations · branch `claude-video/werbens` · assigned account
+info@tensorblue.com (CLAUDE.md) · batch `2026-11-23-english-24`.
+
+Pre-edit checks:
+- Repo/branch confirmed: branch claude-video/werbens, local 5821551 == origin, clean tree.
+- Batch 23 (english-23, Spotify Wrapped) was finished, pushed and attached; no checkpointed unfinished work and no jobs
+  running. Not repeated.
+- CLAUDE.md and `05-progress.md` were re-read; ALL topic records read from `context/11` (episode log rows 01–25), including the
+  actual batch23 subject (Spotify Wrapped as identity sharing / audience as distribution channel).
+- This brief is submitted once as the next episode; no chat was created or renamed; nothing is published to social media.
+- Disk: the project's `node_modules` is a symlink to english-22's identical copy (gitignored).
+
+Output:
+- Video: `videos/werbens/production/30s/2026-11-23-english-24/werbens-30s-english24-01.mp4`.
+- Thumbnail: `werbens-30s-english24-01-thumbnail.png` (and `.jpg`) = **frame 0 plus the app.werbens.com logo/wordmark**.
+
+Rules and references: **`context/27`** incl. §5 (first frame) and §6 (caption band y 280–460) · style `context/11` "Satisfying
+Product Theatre" on the live app.werbens.com dark-navy theme · voice context/11 + context/16 · brand `context/17` (re-checked
+today) · copy in the output folder: `english24-30s-01.md`.
+
+## 1. Brief (batch24, authorised 23 November 2026; latest live feedback retained)
+- Topic: **Why IKEA makes you walk through a story before you buy.** Marketing case: room-context merchandising — the customer
+  imagines use before comparing isolated products. Verify actual practice; no invented conversion statistics. Original
+  miniature room unfolds from flat products. Insight: demonstrate the life around the product.
+- Different core question, visual setting and mechanism from batch23; vary choreography while keeping the visual identity.
+- Live feedback: "No, only color theme and logo needs to be changed, take from app.werbens.com" — applied (§3).
+
+## 2. Topic check against ALL prior records → not covered; topic kept
+Searched `context/` for showroom, room setting, mental simulation, imagine, visualise, lifestyle, in context, IKEA. No earlier
+episode covers room-context merchandising, store paths or picturing use. Nearest records and why this is different:
+- **#15 (english-13) the IKEA effect** — same brand, different mechanism: effort/assembly raises valuation (bids for a box you
+  built). Here: the store's sequence (showroom rooms before flat-pack shelves) and mental simulation of use. No assembly, no
+  bids, no boxes as heroes; the flat products here are cut-out pieces that stand up into rooms, not packaging.
+- **#19 (english-17) space-to-product ratio** — empty space around one product signals value; here the opposite tool, filling
+  the space with the life the product belongs to, for a different goal (imagining use).
+- **#01 feature vs benefit / #05 show it working** — message content (copy, demo of function); here a retail-space and
+  sequencing mechanism (context display before isolated comparison).
+- **vs batch23 (english-23)**: core question (why walk through rooms first? vs why share a brand's card?); visual setting
+  (miniature store floor with pop-up rooms on a one-way path and flat-pack shelves vs one card and a share tree); mechanism
+  (contextual display → mental simulation vs self-presentation → distribution).
+
+## 3. Brand re-check (facts; 2026-11-23, batch24)
+Live `https://app.werbens.com/` (HTTP 200 → `/app`, scratchpad `appweb-dl-1123`): top-40 computed colour list identical to the
+batch-23 check; wordmark Space Grotesk 700, 30.4 px, 135° #7FE7DC→#316879; logo
+`https://app.werbens.com/app/werbens-logo.svg` sha256 816c1761… unchanged (= `assets/brand/app-werbens-logo.svg`).
+
+## 4. Facts used (verified 2026-11-23) — tagged measured / documented / interpretation / advice / illustration
+1. **IKEA New Zealand, "How to shop at IKEA Sylvia Park"**
+   (https://www.ikea.com/nz/en/customer-service/shopping-at-ikea/how-to-shop-at-ikea-store-pubfc695340/): section order
+   "Start with the Showroom", "Head to the Markethall", "Take it home today" (Self-serve area), "Check-out and head home";
+   "Discover rooms of ideas and inspiration." "Explore kitchens, living rooms, bedrooms, workspaces and more to see furniture and
+   accessories in action." "Head to the Self-serve area to collect larger items." "Most IKEA furniture is flat-packed".
+2. **IKEA Australia, "What is the layout of an IKEA store?"**
+   (https://www.ikea.com/au/en/customer-service/knowledge/articles/873gg66g-gcec-4bc0-b07c-6e34d29d6111.html): "Our stores are
+   designed to be large, sprawling spaces with winding pathways that encourage our customers to explore and continue shopping."
+   Showroom "showcases some of our popular furniture pieces within room displays"; "Self serve area for you to pick up any flat
+   pack furniture items".
+3. **IKEA India, "What are the ways to shop at IKEA?"** (https://www.ikea.com/in/en/customer-service/knowledge/articles/dgc55b05-
+   8789-468b-b611-37b8744cg980.html): "Explore IKEA products displayed in inspiring home settings." "Explore the different rooms
+   in IKEA stores and try out products before buying." (Lists Market Hall before Show Room — layouts differ by store, so the
+   narration quotes the store guide that says "start with the showroom", not a universal rule.)
+4. **Escalas, J. E. (2004).** Imagine yourself in the product: Mental simulation, narrative transportation, and persuasion.
+   *Journal of Advertising*, 33(2), 37–48. https://doi.org/10.1080/00913367.2004.10639163 — abstract (OpenAlex): an experiment
+   on "the favorable effect of ad-encouraged mental simulation on ad attitudes and brand evaluations"; simulation persuades via
+   narrative transportation (immersion into a story).
+5. **Elder, R. S., & Krishna, A. (2012).** The "visual depiction effect" in advertising: Facilitating embodied mental simulation
+   through product orientation. *Journal of Consumer Research*, 38(6), 988–1003. https://doi.org/10.1086/661531 — abstract
+   (IDEAS/OpenAlex): "Four studies show that visually depicting a product that facilitates more (vs. less) embodied mental
+   simulation results in heightened purchase intentions"; boundary: "For negatively valenced products, facilitation of embodied
+   mental simulation decreases purchase intentions."
+
+| Line | Claim | Tag | Source |
+|---|---|---|---|
+| L1 | "Why does IKEA walk you through rooms first?" | **Question** (store practice per 1–2) | IKEA NZ, AU |
+| L2 | "Its store guide says: start with the showroom." | **Documented** | IKEA NZ store guide ("Start with the Showroom") |
+| L3 | "Whole rooms, furniture in action. Flat packs come later." | **Documented** | IKEA NZ ("kitchens, living rooms, bedrooms … furniture and accessories in action"; Self-serve after Showroom/Markethall; flat-packed) |
+| L4 | "Alone, a sofa is a size and a price. In a room, it's your evening." | **Interpretation / illustration** | — |
+| L5 | "Studies suggest picturing yourself using a product can make you want it more." | **Measured (ad studies), hedged** ("suggest", "can") | Escalas 2004 (brand evaluations); Elder & Krishna 2012 (purchase intentions; positive products) |
+| L6 | "At the shelves, you're finishing a room." | **Interpretation** | — |
+| L7 | "Don't just show the product. Show the life around it." | **Practical advice** (not a measured rule) | — |
+| — | pop-up rooms, path, pawns, flat-pack shelves, isolated sofa, imagined (ghost) pawn | **Illustration** | Original miniature store in Werbens colours; no IKEA logo, colours, products or store photos; no prices or numbers. |
+
+Not used / not claimed: conversion rates, sales uplift, "x % of purchases are unplanned", any claim that the path is designed to
+make people buy more than they intended, or that every IKEA store has the same order.
+
+## 5. English voice + checks
+- Voice: the established Meshline/Recall narrator — Kokoro-82M v1.0 (q8), af_bella 0.7 + am_puck 0.3, speed 0.98, en-us, newly
+  synthesised. "IKEA" is read aɪkˈiːə ("eye-KEE-uh"), as in english-13. Hook audio starts at 0.15 s. Pauses between lines
+  0.47–0.87 s (2.68 s before the CTA).
+- Whisper base.en per line (clean narration): L1 8/8 · L2 8/8 ("Its" written "It's", homophone; captions use the script text)
+  · L3 9/9 · L4 15/15 · L5 13/13 · L6 7/7 · L7 10/10 · L8 6/7 ("Werbens" → "Warbins", known).
+- Caption timing: Whisper word times plus `WORD_FIX` pins (L1 "does", L2 "store guide", L4 "a sofa" / "it's", L5 "can make",
+  L6 "you're finishing"), read from the voiced segments of the narration envelope.
+
+## 6. Final script (= final transcript) — 77 words
+| Part | Line | On air (s) | Text |
+|---|---|---|---|
+| Hook (frame 0: WHY ROOMS / COME FIRST?) | L1 | 0.15–2.13 | Why does IKEA walk you through rooms first? |
+| Super hook | L2 | 3.03–5.38 | Its store guide says: start with the showroom. |
+| Build-up | L3 | 5.88–9.18 | Whole rooms, furniture in action. Flat packs come later. |
+| Proof (contrast) | L4 | 9.73–13.96 | Alone, a sofa is a size and a price. In a room, it's your evening. |
+| Proof (research) | L5 | 14.53–18.64 | Studies suggest picturing yourself using a product can make you want it more. |
+| Proof (the shelves) | L6 | 19.18–20.87 | At the shelves, you're finishing a room. |
+| Payoff | L7 | 21.63–24.29 | Don't just show the product. Show the life around it. |
+| CTA | L8 | 27.03–29.29 | Follow Werbens to decode how brands sell. |
+
+## 7. How the rules were applied (creative decisions)
+- **Frame 0 = thumbnail (per the brief).** An original miniature living room caught mid-unfold on a store floor: walls hinging
+  up from flat, a rug unrolling, a sofa lifting, the lamp, coffee table, side table and plant still lying flat as cut-outs;
+  the next room lies flat in the background and a faint arrow path runs past. Headline "WHY ROOMS / COME FIRST?" (Space
+  Grotesk 700; second line in the hero gradient), y 330–619. No intro, no fade. The room finishes unfolding during the hook and
+  its lamp lights on "rooms"; the headline clears by 0.42 s.
+- **Original, clearly illustrative store:** no IKEA logo, colours, products, store photos or names; no prices or numbers (the
+  "size and price" tag shows a ruler icon and a tag glyph only). Rooms, racks and pawns are procedural Werbens-palette props.
+- **Different from #15 (IKEA effect) and batch23:** no assembly, no bids, no boxes as heroes; the mechanism is the store's
+  sequence (rooms before flat packs) and picturing use. Flat products here are cut-outs that stand up into rooms.
+- **Choreography varied, identity kept:** this episode's camera grammar is a **follow-cam that walks the store path** behind a
+  shopper (rooms pop up on either side), then a turn into the lone-sofa set, an over-the-shoulder "picture it" shot, a straight
+  aisle view at the shelves, a high overview of the whole path, and a push back into the frame-0 room (bookend). Same studio,
+  materials, palette, captions, logo tile and lockup.
+- **One idea per shot:** hook = a room unfolds from flat products; super hook = the path lights from the entrance into the
+  showroom (SHOWROOM FIRST); build = rooms pop up as the shopper walks, flat packs slide onto racks at the end; proof 1 = a lone
+  sofa on a plinth under a cold spot gets a size bar and a plain tag, then a room unfolds around it, lamp and window light
+  (YOUR EVENING); proof 2 = a dotted thought arc and an imagined (ghost) shopper sitting on the sofa reaching for the cup
+  (PICTURE IT); proof 3 = at the racks a flat pack slides onto the cart and a small ghost of the finished room rises above it
+  (FINISH THE ROOM); payoff = every room's context folds flat (products alone), then walls, rugs, lamps and people pop back
+  (SHOW THE LIFE), and the camera pushes into the first room, now lived in.
+- **Caption band (context/27 §6):** pill measured y 293–447, ink y 309–429. Labels at y ≥ 574; every label beat framed so the
+  key object sits below it (payoff overview solved by projecting room corners: room C below the label, room A above y ≈ 1680).
+- **Excluded:** conversion or sales figures, claims about the maze making people buy more, IKEA branding, source chips.
+- **Reusable lessons:**
+  1. A pop-up/hinge prop reads as "flat product" only if its depth is squashed while flat (hinge scale.z 0.1 → 1).
+  2. `E.outBack` is front-loaded (≈ 0.7 at 20 % of the time): to freeze a piece mid-rise on frame 0, start it only ~0.1 s
+     before t = 0.
+  3. Follow-cams in a corridor of props: lift the camera as the subject enters tall props (racks), or the props fill the frame.
+  4. For a wide overview in a vertical frame, solve the framing numerically (project the key corners with three.js in Node)
+     instead of guessing.
+  5. Matte walls (clearcoat 0) avoid a specular hotspot when a wall tilts through the key light.
+  6. Gradient-clipped labels have no shadow: check every label beat for light props under the label band; render 1 put
+     "SHOWROOM" over a light floor plate (low contrast) — fixed by solving the overview camera so no plate sits in y 560–700.
+
+## 8. Storyboard (as built; `src/timeline.js`)
+| Section | Time | Camera | Action | Sound |
+|---|---|---|---|---|
+| Frame 0 + hook | 0–3.0 s | 3/4 on room A, slow push | headline; room A finishes unfolding (walls, rug, sofa, table, lamp, plant, side table); lamp lights on "rooms" (1.59 s) | flap, roll, plops, clack, glow |
+| Super hook | 3.0–5.85 s | crane up over the entrance | shopper pops in at the entrance (3.41 s); arrows light from the entrance into the showroom on "start with the showroom" (SHOWROOM FIRST, 4.32 s) | whoosh, bloop, ticks, tag |
+| Build-up | 5.85–9.7 s | follow-cam down the path | room B pops up on "Whole rooms", room C on "in action"; flat packs slide onto the racks on "Flat packs" (7.89 s); camera rises over the racks | flaps, plops, slide, clacks |
+| Proof (contrast) | 9.7–14.4 s | the lone sofa | cold spot on "Alone"; size bar on "size" (11.14 s); plain tag on "price" (11.77 s); room D unfolds around it on "In a room" (12.53 s); lamp + night window on "evening" (YOUR EVENING) | hollow, zip, flip, flap, roll, plops, glow, tag |
+| Proof (research) | 14.4–18.8 s | over the shopper's shoulder | thought arc; imagined shopper on the sofa on "picturing yourself" (15.41 s), reaches for the cup on "using" (16.36 s); shopper steps forward on "want" (PICTURE IT) | plink, shimmer, clink, bloop, tag |
+| Proof (the shelves) | 18.85–21.3 s | down the aisle | flat pack slides onto the cart on "shelves" (19.63 s); ghost of the finished room rises on "finishing a room" (FINISH THE ROOM) | whoosh, slide, thud, shimmer, tag |
+| Payoff | 21.3–26.25 s | crane to the whole path, then push into room A | context folds flat on "Don't just show the product" (21.63 s); walls, rugs, lamps and people pop back on "Show the life around it" (23.13 s; SHOW THE LIFE); push into room A (24.05–25.7 s) | whoosh, flaps, plops, chime, tag |
+| CTA | 25.7–30 s | pull back | stage sinks 26.25 s; logo tile pops up 26.38–26.74 s; wordmark 27.55 s | slide, tile thud, closing chord |
+
+## 9. QA (final export) — details and evidence in the output folder's `QA.md` and `qa/`
+**Output:** `production/30s/2026-11-23-english-24/werbens-30s-english24-01.mp4`, sha256 `1835159a…b338`, 9,826,679 bytes
+(render 2). Thumbnail `…-thumbnail.png` (sha256 `fa6c48ee…`) and `.jpg` (sha256 `df956df1…`).
+
+Verification results (2026-11-23):
+- **Streams:** 30.000000 s for format, video and audio; 900 decoded frames; h264 High 1080×1920 yuv420p 30/1; AAC-LC 48 kHz
+  stereo ~193 kb/s; full decode with `-xerror` gives 0 errors; render log clean (no console errors or warnings).
+- **Audio:** −15.0 LUFS integrated, true peak −1.9 dBTP, LRA 2.6 LU, flat factor 0. Stems: voice −20.7, music −31.7, foley
+  −36.0 LUFS; float mix/stems 0 NaN/Inf.
+- **ASR of the final mix (Whisper base.en):** per-line windows match the script except "Werbens"; the single whole-mix pass
+  wrote "door" for "store" once (per-line window correct). ASR only, no human listen.
+- **DOM, every frame (900):** caption pill x 145–855 / **y 293–447** (brief: y 280–460); ink x 175–825 / y 309–429; headline 13
+  frames x 118–882 / y 330–619; labels x 110–890 / y 574–1456. 0 conflicts, 0 outside, 0 overlaps, never two big labels.
+  Caption groups: 12, shortest 1.48 s.
+- **Visual review:** every move, transition and the ending inspected in the final MP4 (`qa/cuts.png`, `qa/cuts-b.png`, full-size
+  checks of the label beats); objects in frame through every move; no missing assets.
+- **Render 1 was rejected after review:** "SHOWROOM" over a light floor plate at 4.3–5.75 s (low contrast). Super-hook overview
+  re-solved by projection; ghost room opacity raised. Render 2 is the delivered file.
+- **Earlier outputs:** 26 earlier MP4s were re-hashed and are unchanged; nothing was deleted or overwritten.
+- **Not performed:** human listening, real-time viewing, on-device/platform-app test.
+
+## 10. Progress / provenance log (this round)
+1. Checked repo/branch/account; confirmed batch 23 finished (no checkpointed work, no jobs); re-read CLAUDE.md and 05-progress;
+   read all topic records incl. batch23's actual subject.
+2. Topic check → not covered; kept (§2).
+3. Sources: IKEA NZ/AU/IN store pages (read via a fetch agent; verbatim quotes), Crossref + OpenAlex + IDEAS (Escalas 2004;
+   Elder & Krishna 2012 abstracts).
+4. app.werbens.com re-inspection (`appweb-dl-1123`).
+5. Project created from the english-23 skeleton; `node_modules` symlinked (gitignored); outputs, QA and words.json not copied.
+6. `node src/tts.mjs` (2 passes: line starts rebalanced after L3→L4 0.17 s and L5→L6 0.03 s pauses) → `node src/words.mjs` →
+   `node src/words_fix.mjs`.
+7. Timeline + `src/audio.mjs` PADS/KEYS → `node src/audio.mjs` (float mix/stems scanned: 0 NaN/Inf).
+8. Scene: `src/scene_props.part.js` (pop-up room builder, store layout, racks, pawns, ghosts) + `src/scene_frame.part.js`
+   (follow-cam, part progress, beats) assembled into `src/scene.js` with the english-23 skeleton (scratchpad `e24_asm.py`);
+   `scene.html` labels and headline replaced.
+9. Stills passes (13): rooms moved closer to the path; frame-0 starts for room A; arch lintel removed; racks narrowed and the
+   follow-cam raised over them; tag moved; over-the-shoulder PICTURE IT shot; aisle shot for the shelves; payoff overview
+   solved by projection + push into room A; matte walls. `node src/qa_dom.mjs 3` = 0 issues; checkpoint 941e6c9.
+10. Render 1 → frame review rejected the SHOWROOM FIRST beat (§9); outputs moved to the scratchpad
+    (`english24-render1-superseded`); fix d9c1eda.
+11. Render 2: audio, thumbnail, video, mux, `bash qa.sh`, `node src/qa_dom.mjs 1`, `node src/asr_mix.mjs`; frame review clean;
+    QA.md written; delivered.
