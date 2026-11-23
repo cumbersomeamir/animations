@@ -132,3 +132,9 @@ Re-loaded again (HTTP 200 → /app, scratchpad `appweb-dl-1121`): top-40 compute
 wordmark styling unchanged (Space Grotesk 700, 135° #7FE7DC→#316879); logo SVG sha256 816c1761… unchanged. Live feedback
 "only color theme and logo needs to be changed, take from app.werbens.com" applied: dark-navy hero theme, the card face uses
 the app's 135° gradient, and the unchanged logo SVG is on the CTA tile and the thumbnail (context/39 §3).
+
+## Re-check for english-24 (batch24, 2026-11-23)
+Re-loaded again (HTTP 200 → /app, scratchpad `appweb-dl-1123`): top-40 computed colour list identical to the batch-23 check;
+wordmark styling unchanged (Space Grotesk 700, 30.4 px, 135° #7FE7DC→#316879); logo SVG sha256 816c1761… unchanged. Live
+feedback "only color theme and logo needs to be changed, take from app.werbens.com" applied: dark-navy hero theme, app palette
+on every prop, and the unchanged logo SVG on the CTA tile and the thumbnail (context/40 §3).
