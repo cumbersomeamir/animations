@@ -345,6 +345,10 @@
   function eventsScene(ctx, t) {
     withScene(ctx, win(t, E.v4, E.v5), () => {
       spotlight(ctx, CX, 1000, 760, 0.6);
+      for (const [x, te] of [[210, E.theft], [500, E.fire], [790, E.collapse]]) {              // empty slots, filled on each word
+        const fa = 1 - P(t, te, te + 0.2);
+        if (fa > 0) { ctx.save(); ctx.globalAlpha *= 0.5 * fa; ctx.setLineDash([16, 12]); rr(ctx, x - 100, 910, 200, 200, 44); ctx.strokeStyle = C.navySoft; ctx.lineWidth = 5; ctx.stroke(); ctx.setLineDash([]); ctx.restore(); }
+      }
       icon(ctx, 210, 1010 + Math.sin(t * 2) * 6, clamp(spring(t - E.theft, 1.8, 0.55), 0, 1.15), 'theft');
       icon(ctx, 500, 1010 + Math.sin(t * 2 + 1) * 6, clamp(spring(t - E.fire, 1.8, 0.55), 0, 1.15), 'fire');
       icon(ctx, 790, 1010 + Math.sin(t * 2 + 2) * 6, clamp(spring(t - E.collapse, 1.8, 0.55), 0, 1.15), 'collapse');

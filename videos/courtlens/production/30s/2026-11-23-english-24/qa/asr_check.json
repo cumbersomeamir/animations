@@ -1,0 +1,475 @@
+{
+ "full_wer": 0.012,
+ "heard": "Locker robbed. Who pays? thieves break into the bank's vault, and your jewelry is gone. RBI's locker rules say. for theft, robbery, fire, or a building collapse. or fraud by the bank's own staff. The bank pays 100 times your yearly locker rent. Floods or earthquakes, the bank isn't liable for those. And banks can't sell you insurance for what's inside. So check your yearly rent and buy your own insurance for costly valuables. Follow Courtlands for everyday Indian law explained.",
+ "per_line": [
+  {
+   "id": "l1",
+   "script": "Locker robbed. Who pays?",
+   "heard": "Locker robbed. Who pays?",
+   "wer": 0.0
+  },
+  {
+   "id": "l2",
+   "script": "Thieves break into the bank's vault, and your jewellery is gone.",
+   "heard": "thieves break into the bank's vault, and your jewelry is gone.",
+   "wer": 0.0
+  },
+  {
+   "id": "l3",
+   "script": "RBI's locker rules say:",
+   "heard": "RBI's locker rules say.",
+   "wer": 0.0
+  },
+  {
+   "id": "l4",
+   "script": "for theft, robbery, fire or a building collapse,",
+   "heard": "for theft, robbery, fire, or a building collapse.",
+   "wer": 0.0
+  },
+  {
+   "id": "l5",
+   "script": "or fraud by the bank's own staff,",
+   "heard": "or fraud by the bank's own staff.",
+   "wer": 0.0
+  },
+  {
+   "id": "l6",
+   "script": "the bank pays one hundred times your yearly locker rent.",
+   "heard": "The bank pays 100 times your yearly locker rent.",
+   "wer": 0.0
+  },
+  {
+   "id": "l7",
+   "script": "Floods or earthquakes? The bank isn't liable for those.",
+   "heard": "Floods or earthquakes, the bank isn't liable for those.",
+   "wer": 0.0
+  },
+  {
+   "id": "l8",
+   "script": "And banks can't sell you insurance for what's inside.",
+   "heard": "And banks can't sell you insurance for what's inside.",
+   "wer": 0.0
+  },
+  {
+   "id": "l9",
+   "script": "So check your yearly rent, and buy your own insurance for costly valuables.",
+   "heard": "So check your yearly rent and buy your own insurance for costly valuables.",
+   "wer": 0.0
+  },
+  {
+   "id": "l10",
+   "script": "Follow Courtlens for everyday Indian law explained.",
+   "heard": "Follow Courtlands for everyday Indian law explained.",
+   "wer": 0.143
+  }
+ ],
+ "words": [
+  [
+   "Locker",
+   0.0,
+   0.56
+  ],
+  [
+   "robbed.",
+   0.56,
+   0.78
+  ],
+  [
+   "Who",
+   0.96,
+   1.08
+  ],
+  [
+   "pays?",
+   1.08,
+   1.42
+  ],
+  [
+   "thieves",
+   1.65,
+   2.27
+  ],
+  [
+   "break",
+   2.27,
+   2.61
+  ],
+  [
+   "into",
+   2.61,
+   2.81
+  ],
+  [
+   "the",
+   2.81,
+   3.01
+  ],
+  [
+   "bank's",
+   3.01,
+   3.39
+  ],
+  [
+   "vault,",
+   3.39,
+   3.55
+  ],
+  [
+   "and",
+   3.85,
+   4.03
+  ],
+  [
+   "your",
+   4.03,
+   4.19
+  ],
+  [
+   "jewelry",
+   4.19,
+   4.51
+  ],
+  [
+   "is",
+   4.51,
+   4.81
+  ],
+  [
+   "gone.",
+   4.81,
+   5.07
+  ],
+  [
+   "RBI's",
+   5.25,
+   6.17
+  ],
+  [
+   "locker",
+   6.17,
+   6.37
+  ],
+  [
+   "rules",
+   6.37,
+   6.61
+  ],
+  [
+   "say.",
+   6.61,
+   6.93
+  ],
+  [
+   "for",
+   7.0,
+   7.46
+  ],
+  [
+   "theft,",
+   7.46,
+   7.8
+  ],
+  [
+   "robbery,",
+   8.14,
+   8.34
+  ],
+  [
+   "fire,",
+   8.56,
+   8.82
+  ],
+  [
+   "or",
+   8.96,
+   9.06
+  ],
+  [
+   "a",
+   9.06,
+   9.16
+  ],
+  [
+   "building",
+   9.16,
+   9.4
+  ],
+  [
+   "collapse.",
+   9.4,
+   9.82
+  ],
+  [
+   "or",
+   9.95,
+   10.41
+  ],
+  [
+   "fraud",
+   10.41,
+   10.61
+  ],
+  [
+   "by",
+   10.61,
+   10.81
+  ],
+  [
+   "the",
+   10.81,
+   10.97
+  ],
+  [
+   "bank's",
+   10.97,
+   11.23
+  ],
+  [
+   "own",
+   11.23,
+   11.39
+  ],
+  [
+   "staff.",
+   11.39,
+   11.69
+  ],
+  [
+   "The",
+   11.85,
+   12.23
+  ],
+  [
+   "bank",
+   12.23,
+   12.47
+  ],
+  [
+   "pays",
+   12.47,
+   12.83
+  ],
+  [
+   "100",
+   12.83,
+   13.27
+  ],
+  [
+   "times",
+   13.27,
+   13.69
+  ],
+  [
+   "your",
+   13.69,
+   13.89
+  ],
+  [
+   "yearly",
+   13.89,
+   14.19
+  ],
+  [
+   "locker",
+   14.19,
+   14.53
+  ],
+  [
+   "rent.",
+   14.53,
+   14.83
+  ],
+  [
+   "Floods",
+   15.0,
+   15.66
+  ],
+  [
+   "or",
+   15.66,
+   15.88
+  ],
+  [
+   "earthquakes,",
+   15.88,
+   16.44
+  ],
+  [
+   "the",
+   16.92,
+   17.0
+  ],
+  [
+   "bank",
+   17.0,
+   17.22
+  ],
+  [
+   "isn't",
+   17.22,
+   17.58
+  ],
+  [
+   "liable",
+   17.58,
+   17.94
+  ],
+  [
+   "for",
+   17.94,
+   18.16
+  ],
+  [
+   "those.",
+   18.16,
+   18.54
+  ],
+  [
+   "And",
+   18.7,
+   19.1
+  ],
+  [
+   "banks",
+   19.1,
+   19.36
+  ],
+  [
+   "can't",
+   19.36,
+   19.78
+  ],
+  [
+   "sell",
+   19.78,
+   19.88
+  ],
+  [
+   "you",
+   19.88,
+   20.16
+  ],
+  [
+   "insurance",
+   20.16,
+   20.54
+  ],
+  [
+   "for",
+   20.54,
+   20.76
+  ],
+  [
+   "what's",
+   20.76,
+   21.12
+  ],
+  [
+   "inside.",
+   21.12,
+   21.46
+  ],
+  [
+   "So",
+   21.7,
+   22.2
+  ],
+  [
+   "check",
+   22.2,
+   22.48
+  ],
+  [
+   "your",
+   22.48,
+   22.72
+  ],
+  [
+   "yearly",
+   22.72,
+   22.92
+  ],
+  [
+   "rent",
+   22.92,
+   23.28
+  ],
+  [
+   "and",
+   23.28,
+   23.8
+  ],
+  [
+   "buy",
+   23.8,
+   24.02
+  ],
+  [
+   "your",
+   24.02,
+   24.24
+  ],
+  [
+   "own",
+   24.24,
+   24.46
+  ],
+  [
+   "insurance",
+   24.46,
+   24.92
+  ],
+  [
+   "for",
+   24.92,
+   25.22
+  ],
+  [
+   "costly",
+   25.22,
+   25.72
+  ],
+  [
+   "valuables.",
+   25.72,
+   26.26
+  ],
+  [
+   "Follow",
+   26.75,
+   27.35
+  ],
+  [
+   "Courtlands",
+   27.35,
+   27.87
+  ],
+  [
+   "for",
+   27.87,
+   28.19
+  ],
+  [
+   "everyday",
+   28.19,
+   28.63
+  ],
+  [
+   "Indian",
+   28.63,
+   29.01
+  ],
+  [
+   "law",
+   29.01,
+   29.27
+  ],
+  [
+   "explained.",
+   29.27,
+   29.85
+  ]
+ ],
+ "words_outside_captions": [],
+ "caption_alignment_pass": true
+}

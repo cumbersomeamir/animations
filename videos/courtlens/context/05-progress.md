@@ -13,8 +13,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   and 20 used the same Act.
 - **Replacement (unrelated, and different from batch 23's licence in question, setting and mechanism):** bank locker
   liability. Record: `context/episodes/2026-11-23-english24-bank-locker-liability.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit 8c03998): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-23-english-24/courtlens-30s-english24-01.mp4`
+    sha256 `ff23f4c838fb125c9099267acfd3a6ce68795a139975239576f769eeb3ea11a5`
+  - `courtlens-30s-english24-01-thumbnail.png`
+    sha256 `6df8176563c4048ca572d95070b3d7b49f6a346fe2e171b1793d401ca9911f58`
+  - QA: `production/30s/2026-11-23-english-24/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-23-english-24/notes/LEGAL-SOURCES.md`)
 - **RBI Commercial Banks – Responsible Business Conduct Directions 2025** (RBI/2025-26/170, updated 1 Oct 2026; HTML
@@ -66,8 +72,33 @@ $S/tts/venv/bin/python capcheck.py ../courtlens-30s-english24-01.mp4 ../courtlen
 - **Flood:** the floodwater had a hard flat bottom edge, so it now fades out.
 - **Rent slip:** the "×100" chip covered "RENT", so it moved outside the slip.
 
+### Fixed after the full render (decoded review)
+- The events shot was near-empty for about 0.5 s (7.0–7.5 s), so dashed placeholder slots now fill on each word.
+- **Re-render and re-mux:**
+  ```bash
+  node render.cjs range $S/build24/frames 200-305
+  SKIP_TTS=1 SKIP_FRAMES=1 PY=$S/tts/venv/bin/python WORK=$S/build24 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+  ```
+- Neighbours 197–199, 306–308, 0 and 899 were bit-identical.
+
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.1 LUFS, true peak −2.4 dBFS; 10/10 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.012 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 104..894, y 285..449; y<280 clear.
+- Frame 0 vs thumbnail mean abs diff 1.68/255.
+
+### Unresolved
+- Listening is ASR-only. Nobody watched or listened in real time.
+- **Scope:** commercial banks only (SFBs, payments banks, LABs and co-operative banks have separate directions, not
+  read). The narration says "RBI's locker rules"; the scope is in the notes.
+- **Brief light frames:** about 5.35 s and 11.95 s, each under 0.3 s.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+- Await the next batch request. No automation and no further episode unless asked. `$S/build24/frames` is deleted
+  after delivery.
 
 ## Round 2026-11-21 (english-23, batch 23): "Paper or phone?": driving licence in DigiLocker at a traffic check
 
