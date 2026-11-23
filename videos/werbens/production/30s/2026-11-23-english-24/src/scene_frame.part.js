@@ -13,7 +13,7 @@ function shopperAt(t) {
 }
 const FOLLOW = (t) => { const [sx, sz] = shopperAt(t), k = E.inOut(clamp((-sz - 0.55) / 0.6)); return K([0.45 * sx, 0.24 + 0.13 * k, sz + 0.46 + 0.12 * k], [0.5 * sx, 0.04, sz - 0.3]); }; // rises over the racks near the end
 const F0 = K([0.06, 0.25, 0.36], [-0.14, 0.04, -0.03]), H1 = K([0.05, 0.235, 0.33], [-0.14, 0.04, -0.03]);
-const OV1 = K([0.03, 0.72, 0.98], [0, 0, -0.32]);
+const OV1 = K([0.03, 0.55, 1.1], [0, 0, -0.45]); // solved by projection: no room plate under the SHOWROOM FIRST label (y 560–700)
 const D1 = K([-0.02, 0.155, -1.1], [-0.01, 0.05, -1.52]), D1b = K([-0.02, 0.152, -1.13], [-0.01, 0.05, -1.52]), D2 = K([0.02, 0.2, -1.02], [0.0, 0.075, -1.55]);
 const S1 = K([0.2, 0.2, -1.2], [-0.01, 0.05, -1.52]), S2 = K([0.19, 0.195, -1.22], [-0.01, 0.05, -1.52]);
 const R1 = K([0.0, 0.26, -0.76], [0.01, 0.1, -1.0]), R2 = K([0.0, 0.255, -0.78], [0.01, 0.1, -1.0]);
@@ -86,7 +86,7 @@ function frame(t) {
   { const cv = E.outBack(ramp(t, T.shelves[0] + 0.2, T.shelves[0] + 0.55)); cart.visible = cv > 0.01 && cl < 1; cart.scale.setScalar(Math.max(0.001, cv)); cart.position.set(CART_AT[0], 0, CART_AT[1]);
     const mv = ramp(t, T.packOn, T.packOn + 0.35, E.inOut); cartPack.visible = t >= T.packOn; const from = [0.08, 0.0115, RACK_Z + 0.072], to = [CART_AT[0], 0.0165, CART_AT[1]];
     cartPack.position.set(lerp(from[0], to[0], mv), lerp(from[1], to[1], mv) + 0.02 * Math.sin(Math.PI * mv), lerp(from[2], to[2], mv));
-    const gr = win(t, T.ghostRoom[0], T.payCrane[0] + 0.4, 0.4, 0.4); GHOST_ROOM.opacity = 0.55 * gr; ghostRoom.visible = gr > 0.01;
+    const gr = win(t, T.ghostRoom[0], T.payCrane[0] + 0.4, 0.4, 0.4); GHOST_ROOM.opacity = 0.7 * gr; ghostRoom.visible = gr > 0.01;
     ghostRoom.position.set(CART_AT[0], 0.035 + 0.035 * E.out(ramp(t, ...T.ghostRoom)) + 0.002 * Math.sin(t * 2.5), CART_AT[1]); ghostRoom.rotation.y = 0.5 + 0.05 * t; ghostRoom.scale.setScalar(0.2 + 0.1 * E.outBack(ramp(t, ...T.ghostRoom))); }
   // --- life: people in every room on "Show the life around it"
   for (const L of life) { const v = E.outBack(clamp((t - (T.popAll[0] + 0.25 + L.room.delay)) / 0.35)); L.o.scale.setScalar(Math.max(0.001, v)); L.o.visible = v > 0.01; }
