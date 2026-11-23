@@ -172,6 +172,8 @@ Approved by the user on 11 Nov 2026 for every following educational episode. App
     Onmanorama 2023 proof; assumed unit with revenue vs margin shown separately).
     Scrap tyres crumbed and pressed into rubber playground tiles (english-23; kept: english-16 sorted casings for retreaders, a
     different question and mechanism; NITI Aayog 2026 and Gradeall proof; assumed 100-tile batch with revenue vs profit shown separately).
+    Waste paper pulped, vacuum-formed and dried into moulded-fibre egg trays (english-24; kept: paper was only cup lining, cardboard
+    grading and box reuse before; UP MSME 1-Connect, BioResources 2022 and Hartmann India proof; assumed shift with revenue vs profit).
   - **Counters:** pop the final rounded figure (e.g. ≈3,000) instead of counting up, so no frame shows an invented exact number
     (english-16 '≈0 MILLION', english-19 '≈2,989').
   - **Never insert a `//` comment mid-line in scene code;** use `/* */` (english-14 and english-19 both broke a line this way).

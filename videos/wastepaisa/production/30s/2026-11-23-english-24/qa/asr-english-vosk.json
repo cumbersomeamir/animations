@@ -1,0 +1,119 @@
+{
+ "model": "vosk-model-en-us-0.22-lgraph",
+ "normalisation": "lowercase, punctuation removed, labour=labor, coloured=colored, colour=color, tonnes=tons (US spelling), 'per cent' = 'percent', reference = the TTS spelling (numbers as words); weight=wait counted as a homophone miss, WastePaisa compared as 'waste paisa'",
+ "lines": [
+  {
+   "id": "L1",
+   "ref": "This egg tray was old newspaper.",
+   "heard": "this egg tray was old newspaper",
+   "word_acc": 1.0,
+   "plan_on": 0.1,
+   "heard_on": 0.09,
+   "plan_off": 1.815,
+   "heard_off": 1.8,
+   "missed": []
+  },
+  {
+   "id": "L2",
+   "ref": "Egg farms buy these by the thousand. How does wet paper get this strong?",
+   "heard": "egg farms by these by the thousand how does wet paper get this strong",
+   "word_acc": 0.929,
+   "plan_on": 2.16,
+   "heard_on": 2.19,
+   "plan_off": 6.5,
+   "heard_off": 6.48,
+   "missed": [
+    [
+     "buy"
+    ]
+   ]
+  },
+  {
+   "id": "L3",
+   "ref": "Factories beat waste paper into a watery pulp.",
+   "heard": "factories beat wastepaper into a watery pulp",
+   "word_acc": 0.75,
+   "plan_on": 6.84,
+   "heard_on": 6.84,
+   "plan_off": 9.497,
+   "heard_off": 9.51,
+   "missed": [
+    [
+     "waste",
+     "paper"
+    ]
+   ]
+  },
+  {
+   "id": "L4",
+   "ref": "A mesh mold dips in, and suction pulls fiber onto it.",
+   "heard": "a mesh mold dips in and suction polls fiber onto it",
+   "word_acc": 0.909,
+   "plan_on": 9.84,
+   "heard_on": 9.87,
+   "plan_off": 13.156,
+   "heard_off": 13.14,
+   "missed": [
+    [
+     "pulls"
+    ]
+   ]
+  },
+  {
+   "id": "L5",
+   "ref": "Drying bonds the fibers into a stiff, cushioned tray.",
+   "heard": "drying bonds the fibers into a stiff cushion tray",
+   "word_acc": 0.889,
+   "plan_on": 13.5,
+   "heard_on": 13.44,
+   "plan_off": 16.636,
+   "heard_off": 16.65,
+   "missed": [
+    [
+     "cushioned"
+    ]
+   ]
+  },
+  {
+   "id": "L6",
+   "ref": "Suppose one shift's eight thousand trays sell for twenty-eight thousand rupees.",
+   "heard": "suppose one shifts eight thousand trays sell for twenty eight thousand rupees",
+   "word_acc": 0.917,
+   "plan_on": 16.98,
+   "heard_on": 16.98,
+   "plan_off": 21.433,
+   "heard_off": 21.42,
+   "missed": [
+    [
+     "shift's"
+    ]
+   ]
+  },
+  {
+   "id": "L7",
+   "ref": "After paper, drying, labor and machine costs, about four thousand is left.",
+   "heard": "after paper drying labor and machine costs about four thousand is left",
+   "word_acc": 1.0,
+   "plan_on": 21.77,
+   "heard_on": 21.77,
+   "plan_off": 26.399,
+   "heard_off": 26.42,
+   "missed": []
+  },
+  {
+   "id": "L8",
+   "ref": "Join WastePaisa and put your scrap to use.",
+   "heard": "join waste python and put your scrap to use",
+   "word_acc": 0.889,
+   "plan_on": 27.2,
+   "heard_on": 27.2,
+   "plan_off": 29.685,
+   "heard_off": 29.69,
+   "missed": [
+    [
+     "paisa"
+    ]
+   ]
+  }
+ ]
+}

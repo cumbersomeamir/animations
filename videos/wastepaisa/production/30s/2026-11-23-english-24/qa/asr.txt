@@ -1,0 +1,28 @@
+English intelligibility and timing evidence: wastepaisa-30s-english24-01.mp4 (all passes run on the exported AAC audio)
+Listening: not possible in this cloud session (no audio output); evidence is ASR plus level meters, from two independent engines.
+No watched or listened check was performed.
+
+1) Vosk vosk-model-en-us-0.22-lgraph (Apache-2.0), one pass per narration window [start-0.15 s, end+0.25 s]:
+   L1 word acc 1.00 | onset plan 0.10 heard 0.09 | offset plan 1.81 heard 1.80 | heard: this egg tray was old newspaper
+   L2 word acc 0.93 | onset plan 2.16 heard 2.19 | offset plan 6.50 heard 6.48 | heard: egg farms by these by the thousand how does wet paper get this strong
+   L3 word acc 0.75 | onset plan 6.84 heard 6.84 | offset plan 9.50 heard 9.51 | heard: factories beat wastepaper into a watery pulp
+   L4 word acc 0.91 | onset plan 9.84 heard 9.87 | offset plan 13.16 heard 13.14 | heard: a mesh mold dips in and suction polls fiber onto it
+   L5 word acc 0.89 | onset plan 13.50 heard 13.44 | offset plan 16.64 heard 16.65 | heard: drying bonds the fibers into a stiff cushion tray
+   L6 word acc 0.92 | onset plan 16.98 heard 16.98 | offset plan 21.43 heard 21.42 | heard: suppose one shifts eight thousand trays sell for twenty eight thousand rupees
+   L7 word acc 1.00 | onset plan 21.77 heard 21.77 | offset plan 26.40 heard 26.42 | heard: after paper drying labor and machine costs about four thousand is left
+   L8 word acc 0.89 | onset plan 27.20 heard 27.20 | offset plan 29.68 heard 29.69 | heard: join waste python and put your scrap to use
+   mean word accuracy 0.910; every onset/offset within 0.06 s of plan (full record in qa/asr-english-vosk.json)
+   Misses: "waste paper" written as one word (same sounds; this halves L3's score), buy -> "by" (homophone), pulls -> "polls",
+   cushioned -> "cushion", shift's -> "shifts" (apostrophe only); the brand is out of vocabulary.
+
+2) Second engine, faster-whisper 'small' (MIT), whole export, language=en:
+   This egg tray was old newspaper. Egg farms buy these by the thousand. How does wet paper get this strong? Factories beat waste paper into a watery pulp. A mesh mold dips in and suction pulls fiber onto it. Drying bonds the fibers into a stiff, cushioned tray. Suppose one shifts 8,000 trays sell for 28,000 rupees. After paper, drying, labor and machine costs about 4,000 is left. Join Waste Pisa and put your scrap to use.
+   Matches the script word for word except the missing apostrophe in "shift's" and the brand spelling.
+   US spellings (mold, fiber, labor) are the engines' output; captions use mould, fibre, labour.
+
+3) Draft-stage fix: the first money lines made the speech 2.7 s too long; the per-tray price moved on screen and power is shown
+   with the machine cost, so the voice now ends at 26.40 s before the 27.20 s CTA.
+
+4) Levels (qa/loudness.txt, qa/clipping.txt): -15.0 LUFS integrated, true peak -1.4 dBFS, LRA 3.4 LU, sample peak -1.39 dBFS,
+   flat factor 0 (no clipped runs). The rustle, pulper whoosh, mould-arm thud, release whoosh, bundle thud and pops all sit between
+   lines (audio/cues.json).

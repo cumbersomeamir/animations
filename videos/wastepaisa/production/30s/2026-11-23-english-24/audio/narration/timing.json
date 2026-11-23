@@ -1,0 +1,78 @@
+{
+  "engine": "Kokoro-82M v1.0 ONNX via kokoro-onnx 0.6.1",
+  "voice": "af_bella*0.7 + am_puck*0.3 (Meshline)",
+  "speed": 0.98,
+  "lang": "en-us",
+  "speech_seconds": 26.731,
+  "words": 75,
+  "lines": [
+    {
+      "id": "L1",
+      "text": "This egg tray was old newspaper.",
+      "start": 0.1,
+      "phonemes": "ðɪs ˈɛɡ tɹˈeɪ wʌz ˈoʊld nˈuːzpeɪpɚ.",
+      "duration": 1.715,
+      "end": 1.815
+    },
+    {
+      "id": "L2",
+      "text": "Egg farms buy these by the thousand. How does wet paper get this strong?",
+      "start": 2.16,
+      "phonemes": "ˈɛɡ fˈɑːɹmz bˈaɪ ðiːz baɪ ðə θˈaʊzənd. hˌaʊ dˈʌz wˈɛt pˈeɪpɚ ɡɛt ðɪs stɹˈɔŋ?",
+      "duration": 4.34,
+      "end": 6.5
+    },
+    {
+      "id": "L3",
+      "text": "Factories beat waste paper into a watery pulp.",
+      "start": 6.84,
+      "phonemes": "fˈæktɚɹiz bˈiːt wˈeɪst pˈeɪpɚɹ ˌɪntʊ ɐ wˈɔːɾɚɹi pˈʌlp.",
+      "duration": 2.657,
+      "end": 9.497
+    },
+    {
+      "id": "L4",
+      "text": "A mesh mould dips in, and suction pulls fibre onto it.",
+      "tts": "A mesh mold dips in, and suction pulls fiber onto it.",
+      "start": 9.84,
+      "phonemes": "ɐ mˈɛʃ mˈoʊld dˈɪps ˈɪn, ænd sˈʌkʃən pˈʊlz fˈaɪbɚɹ ˈɑːntʊ ɪt.",
+      "duration": 3.316,
+      "end": 13.156
+    },
+    {
+      "id": "L5",
+      "text": "Drying bonds the fibres into a stiff, cushioned tray.",
+      "tts": "Drying bonds the fibers into a stiff, cushioned tray.",
+      "start": 13.5,
+      "phonemes": "dɹˈaɪɪŋ bˈɑːndz ðə fˈaɪbɚz ˌɪntʊ ɐ stˈɪf, kˈʊʃənd tɹˈeɪ.",
+      "duration": 3.136,
+      "end": 16.636
+    },
+    {
+      "id": "L6",
+      "text": "Suppose one shift's 8,000 trays sell for ₹28,000.",
+      "tts": "Suppose one shift's eight thousand trays sell for twenty-eight thousand rupees.",
+      "start": 16.98,
+      "phonemes": "səpˈoʊz wˈʌn ʃˈɪfts ˈeɪt θˈaʊzənd tɹˈeɪz sˈɛl fɔːɹ twˈɛntiˈeɪt θˈaʊzənd ɹˈuːpiːz.",
+      "duration": 4.453,
+      "end": 21.433
+    },
+    {
+      "id": "L7",
+      "text": "After paper, drying, labour and machine costs, about ₹4,000 is left.",
+      "tts": "After paper, drying, labor and machine costs, about four thousand is left.",
+      "start": 21.77,
+      "phonemes": "ˈæftɚ pˈeɪpɚ, dɹˈaɪɪŋ, lˈeɪbɚɹ ænd məʃˈiːn kˈɔsts, ɐbˌaʊt fˈɔːɹ θˈaʊzənd ɪz lˈɛft.",
+      "duration": 4.629,
+      "end": 26.399
+    },
+    {
+      "id": "L8",
+      "text": "Join WastePaisa and put your scrap to use.",
+      "start": 27.2,
+      "phonemes": "dʒˈɔɪn wˈeɪst pˈaɪsɑː ænd pˌʊt jʊɹ skɹˈæp tə jˈuːz.",
+      "duration": 2.485,
+      "end": 29.685
+    }
+  ]
+}

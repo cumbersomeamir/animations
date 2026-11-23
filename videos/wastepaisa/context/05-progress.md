@@ -19,7 +19,7 @@ open.
   `videos/wastepaisa/education/pilot-01/`. Status, QA and the next action are tracked in
   `context/10-educational-progress.md`.
 - 2026-11-02 onward: 30-second English/Hindi educational episodes under `videos/wastepaisa/production/30s/`, each logged in
-  context 10 with its own record (latest: english-23, 2026-11-21, `context/36-english-23-01.md`).
+  context 10 with its own record (latest: english-24, 2026-11-23, `context/37-english-24-01.md`).
 
 ## Next
 - Educational: see `context/10-educational-progress.md`.

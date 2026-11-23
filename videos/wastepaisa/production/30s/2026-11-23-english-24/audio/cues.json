@@ -1,0 +1,45 @@
+{
+ "sfx_cues": [
+  [
+   1.88,
+   "last cups form, trays start stacking (after \"newspaper\", before \"Egg farms\")"
+  ],
+  [
+   6.56,
+   "paper drops into the pulper (between lines)"
+  ],
+  [
+   9.57,
+   "mould arm settles over the tank (between lines)"
+  ],
+  [
+   13.22,
+   "wet tray released, into the dryer (between lines)"
+  ],
+  [
+   16.7,
+   "first tray bundle lands (between lines)"
+  ],
+  [
+   21.5,
+   "cost bar appears (between lines)"
+  ],
+  [
+   27.05,
+   "WastePaisa icon pops"
+  ]
+ ],
+ "samples": 1440000,
+ "loudnorm_first_pass": {
+  "input_i": "-17.71",
+  "input_tp": "-3.07",
+  "input_lra": "3.50",
+  "input_thresh": "-28.36",
+  "output_i": "-15.22",
+  "output_tp": "-1.50",
+  "output_lra": "3.30",
+  "output_thresh": "-25.88",
+  "normalization_type": "dynamic",
+  "target_offset": "0.22"
+ }
+}

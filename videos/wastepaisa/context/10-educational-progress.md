@@ -663,6 +663,41 @@ S11 paper-cut motion in Tinku's scrap shop (new source, new render; the 15 s pil
 - **Fixed during QA:** the hook tile now sits under the tyre as its shadow; steel bits redrawn as wire; the crumbing line, proof and
   press shots rebuilt for clearer 3D forms; tyre stacks given rim light; the ASSUMED tag no longer doubles across the batch → profit cut.
 
+## english-24 (2026-11-23-english-24) episode 01: COMPLETE (English)
+- **Topic kept:** waste paper into moulded-fibre egg trays (protective packaging). Paper appeared only as cup lining (30s-01), cardboard
+  grading (feedback-05) and box reuse (english-10), never as a moulded product. It also differs from batch23's actual subject (tyres
+  crumbed and pressed into playground tiles) in question, setting and mechanism.
+  - Spine: this egg tray was old newspaper; egg farms buy these by the thousand; how does wet paper get this strong? Proof and method:
+    beat into a ~4 % pulp, vacuum-form on a mesh mould, dry so the fibres bond (UP MSME 1-Connect; BioResources 2022; Hartmann India).
+  - Assumed shift: 8,000 trays × ₹3.50 = ₹28,000 sales (revenue). Paper ₹9,000 + drying fuel ₹5,000 + labour ₹4,000 + machine and
+    power ₹6,000 = ₹24,000, leaving about ₹4,000. Inputs come from listed asking prices.
+- **Start state:** batch23 complete and pushed (5e3ab55); no checkpointed or running work.
+- **First-frame rule:** frame 0 shows a fibre tray full of eggs whose back corner is still flat newsprint ("DAILY NEWS") and turns into
+  cups during the hook, with "This egg tray was old newspaper." on screen. The thumbnail is the same composition with "THIS TRAY WAS
+  OLD NEWSPAPER".
+- **Output:** `videos/wastepaisa/production/30s/2026-11-23-english-24/wastepaisa-30s-english24-01.mp4`,
+  SHA-256 `d05194b220c980cfde8cc6b1fb8a3e53c80d82f52fa67c292ab640b8a5c0201b`; thumbnail `wastepaisa-30s-english24-01-thumbnail.png`.
+- **Specs:** 30.000 s · 1080×1920 · H.264 yuv420p 30/1 · 900 frames · AAC-LC 48 kHz stereo (1,440,000 samples) · clean decode ·
+  −15.0 LUFS / −1.4 dBTP · no clipping.
+- **Checks:**
+  - Caption ink x 114.6–885.4, y 288–462; hook caption at frame 0.
+  - Timing within ±0.06 s.
+  - Vosk mean 0.910; Whisper word for word apart from the apostrophe in "shift's" and the brand.
+  - ASR, meters and decoded frames only: no listening in the cloud.
+- **Research:**
+  - Hartmann India "About Us" (recycled paper into protective packaging for egg producers).
+  - UP MSME 1-Connect "Egg Tray" (process, buyers, machinery).
+  - Debnath et al., BioResources 2022 (vacuum forming, ~4 % consistency, oven drying, egg trays and electronics).
+  - Waste-paper, tray and machine asking prices (retrieved 23 Nov 2026).
+  - The KVIC PMEGP egg-tray profile could not be opened from the container.
+  - Episode record: `context/37-english-24-01.md`. No automation.
+- **Fixed during QA:**
+  - Stills: a misaligned mesh overlay; the mould vanished underwater, so the tank became a glass cutaway with converging fibres; the
+    sparse dryer was rebuilt at full width; a bare pipe bar; a white-egg stripe; an egg that fell through the caption band; labels too
+    low.
+  - The newsprint was hidden under the cups, so the hook became a newspaper corner turning into cups.
+  - Export: the empty start of the sales shot.
+
 ## Next action
 User review of pilot 01. If approved, research and claim-map episode 02 ("The magnet test")
 from the list in context 08, reusing the rig, lab and audio pipeline with new staging. Make no app posts
