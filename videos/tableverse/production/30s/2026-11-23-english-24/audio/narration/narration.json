@@ -1,0 +1,63 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "How far around? This little star wants to hop one lap of the roof!",
+      "seconds": 4.102,
+      "frames": 123.1
+    },
+    "v02": {
+      "text": "One side is eight hops.",
+      "seconds": 1.347,
+      "frames": 40.4
+    },
+    "v03": {
+      "text": "Oof! Does it have to count every side?",
+      "seconds": 1.844,
+      "frames": 55.3
+    },
+    "v04": {
+      "text": "No! It's a square, so all four sides are the same.",
+      "seconds": 2.893,
+      "frames": 86.8
+    },
+    "c08": {
+      "text": "Eight!",
+      "seconds": 0.47,
+      "frames": 14.1
+    },
+    "c16": {
+      "text": "Sixteen!",
+      "seconds": 0.674,
+      "frames": 20.2
+    },
+    "c24": {
+      "text": "Twenty-four!",
+      "seconds": 0.723,
+      "frames": 21.7
+    },
+    "c32": {
+      "text": "Thirty-two!",
+      "seconds": 0.713,
+      "frames": 21.4
+    },
+    "v05": {
+      "text": "Four times eight is thirty-two hops.",
+      "seconds": 1.921,
+      "frames": 57.6
+    },
+    "v06": {
+      "text": "The distance around is the perimeter: four times one side!",
+      "seconds": 3.225,
+      "frames": 96.7
+    },
+    "v07": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}

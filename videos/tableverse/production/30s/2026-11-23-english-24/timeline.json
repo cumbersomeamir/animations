@@ -1,0 +1,423 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 54,
+      "name": "Close: the star at the roof corner looking along the edge; \"HOW FAR AROUND?\""
+    },
+    {
+      "id": "S2-city",
+      "from": 54,
+      "to": 126,
+      "name": "Wide: the square rooftop on top of the vertical city; the mouse raises the start flag"
+    },
+    {
+      "id": "S3-side",
+      "from": 126,
+      "to": 252,
+      "name": "Tracking: the star hops the top side, 8 hops; one side is eight hops"
+    },
+    {
+      "id": "S4-oof",
+      "from": 252,
+      "to": 342,
+      "name": "Close: flops at the corner — does it have to count every side? pull back to the long way round"
+    },
+    {
+      "id": "S5-square",
+      "from": 342,
+      "to": 450,
+      "name": "Wide: it is a square — the measured side rotates onto the other three sides; equal-side ticks"
+    },
+    {
+      "id": "S6-lap",
+      "from": 450,
+      "to": 600,
+      "name": "Speed lap: 8, 16, 24, 32; finish with confetti and the flag"
+    },
+    {
+      "id": "S7-payoff",
+      "from": 600,
+      "to": 810,
+      "name": "Sign 4 × 8 = 32; the perimeter glows around; four times one side"
+    },
+    {
+      "id": "S8-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 204,
+    "v03": 256,
+    "v04": 342,
+    "c08": 456,
+    "c16": 480,
+    "c24": 504,
+    "c32": 528,
+    "v05": 618,
+    "v06": 690,
+    "v07": 838
+  },
+  "vo_clip": {},
+  "captions": [
+    [
+      [
+        "This little star wants to",
+        "hop one lap of the roof!"
+      ],
+      54,
+      124
+    ],
+    [
+      [
+        "One side is 8 hops."
+      ],
+      204,
+      250
+    ],
+    [
+      [
+        "Oof! Does it have to",
+        "count every side?"
+      ],
+      256,
+      336
+    ],
+    [
+      [
+        "No! It's a square:",
+        "all 4 sides are the same."
+      ],
+      342,
+      448
+    ],
+    [
+      [
+        "8!"
+      ],
+      456,
+      480
+    ],
+    [
+      [
+        "8, 16!"
+      ],
+      480,
+      504
+    ],
+    [
+      [
+        "8, 16, 24!"
+      ],
+      504,
+      528
+    ],
+    [
+      [
+        "8, 16, 24, 32!"
+      ],
+      528,
+      600
+    ],
+    [
+      [
+        "4 times 8 is 32 hops."
+      ],
+      618,
+      686
+    ],
+    [
+      [
+        "The distance around is the",
+        "perimeter: 4 times one side!"
+      ],
+      690,
+      806
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      838,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "flap",
+      38,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "swing",
+      70,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tok",
+      80,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "hop",
+      135,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "hop",
+      144,
+      {
+        "pitch": 1.05
+      }
+    ],
+    [
+      "hop",
+      153,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "hop",
+      162,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "hop",
+      171,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "hop",
+      180,
+      {
+        "pitch": 1.25
+      }
+    ],
+    [
+      "hop",
+      189,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "hop",
+      198,
+      {
+        "pitch": 1.35
+      }
+    ],
+    [
+      "flop",
+      262,
+      {}
+    ],
+    [
+      "puff",
+      266,
+      {}
+    ],
+    [
+      "whoosh",
+      300,
+      {
+        "dur": 30
+      }
+    ],
+    [
+      "slide",
+      366,
+      {
+        "dur": 12
+      }
+    ],
+    [
+      "tick",
+      378,
+      {
+        "pitch": 1.1
+      }
+    ],
+    [
+      "slide",
+      384,
+      {
+        "dur": 12
+      }
+    ],
+    [
+      "tick",
+      396,
+      {
+        "pitch": 1.2000000000000002
+      }
+    ],
+    [
+      "slide",
+      402,
+      {
+        "dur": 12
+      }
+    ],
+    [
+      "tick",
+      414,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "light",
+      432,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "zoom",
+      438,
+      {
+        "dur": 96
+      }
+    ],
+    [
+      "pop",
+      452,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      476,
+      {
+        "pitch": 1.02
+      }
+    ],
+    [
+      "pop",
+      500,
+      {
+        "pitch": 1.1400000000000001
+      }
+    ],
+    [
+      "pop",
+      524,
+      {
+        "pitch": 1.26
+      }
+    ],
+    [
+      "sparkle",
+      540,
+      {}
+    ],
+    [
+      "swing",
+      542,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "flap",
+      618,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      626,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "whoosh",
+      690,
+      {
+        "dur": 90
+      }
+    ],
+    [
+      "tick",
+      736,
+      {
+        "pitch": 1.2
+      }
+    ],
+    [
+      "tick",
+      748,
+      {
+        "pitch": 1.28
+      }
+    ],
+    [
+      "tick",
+      760,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "tick",
+      772,
+      {
+        "pitch": 1.44
+      }
+    ],
+    [
+      "glint",
+      794,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    270,
+    300
+  ]
+}

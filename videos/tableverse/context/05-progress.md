@@ -295,7 +295,32 @@ Brief (verbatim essentials), topic decision, history table with core questions, 
 - QA fixes: close-shot opening for frame 0; baker folds in close shots; dragon face framing; wide framing for the jam
   and boarding shots (clock clear of captions); whistle after "aboard"; pause after "Wake up" (details in qa/QA.md).
 
+## 2026-11-23 batch english-24 — "How Far Around?" (delivered)
+Brief (verbatim essentials), topic decision, history table with core questions and settings, script, sources:
+22-episode-how-far-around.md.
+- Session check first: remote = local e730cfb (batch 23 complete); nothing checkpointed or pending; no batch-24 output
+  existed. Toolchain still in the session scratchpad.
+- Topic decision: proposal "a tiny lift delivers twelve stars, three trips of four (3 × 4 = 12)" = feedback-01's three
+  groups of four AND batch 22's three lifts of four → unrelated subject in the genre: the perimeter of a square (one side
+  8 hops, four equal sides, 4 × 8 = 32; "the distance around is the perimeter: four times one side"). Differs from
+  batch 23 in core question ("How far around?" vs "Is it time yet?"), setting (vertical-city rooftop vs cloud station) and
+  mechanism (length around a shape with equal sides vs time interval on a clock). Kept: the funny star hero, the
+  enchanted vertical city, the approved mouse (starter) and baker, a tiny-lift cameo. Frame-0 words "HOW FAR AROUND?".
+- Facts: Oak National Academy Y4 perimeter lessons (definition; multiply side by number of sides for regular polygons,
+  applied to a square); CCSS 3.MD.D.8, 4.MD.A.3, 3.OA.C.7; England NC KS1–2 Y3–Y4.
+- Creative (entertainment first): new cut-paper star character (src/star.mjs); vertical-city page; square roof garden
+  with 32 hop stones; hops with springs, "Oof!" flop, the measured side rotating about the centre onto the other sides,
+  equal-side ticks, cartwheel speed lap with afterimages + counts by eights, confetti, payoff sign, perimeter light,
+  wink; B-major score; beat-synced cuts.
+- Commands: see production/30s/2026-11-23-english-24/README.md (render ≈ 90 s).
+- Paths: production/30s/2026-11-23-english-24/ — tableverse-30s-english24-01.mp4 (sha256 70cffa76a3a01aaa6dc90cf3d04246c7a541d169b0709e2079e4a008d27a1d80) +
+  tableverse-30s-english24-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 High yuv420p, AAC 48 kHz, 0 decode errors, −16.6 LUFS, −2.2 dBTP; whole-file
+  ASR matches the script; eight window ASR cuts match; VO stem silent in all gaps; captions x 135–865 / y 294–450;
+  geometry checked on contact sheet + 56 frames. Machine-only listening; frame-based viewing.
+- QA fixes: decluttered frame 0 (mouse on a balcony, flag away from the star, balloons moved); "Phew!" → "Oof!".
+
 ## Unresolved / next
-- Await user review of english20-01 … english23-01 (all attached in chat and pushed). No further episode started.
-- Briefs 20–23 each repeated covered maths; replacements are documented in context/18–21. Any next brief must also differ
-  from batch 23's clock/time subject (core question, setting, mechanism).
+- Await user review of english20-01 … english24-01 (all attached in chat and pushed). No further episode started.
+- Briefs 20–24 each repeated covered maths; replacements are documented in context/18–22. Any next brief must also differ
+  from batch 24's perimeter/rooftop subject (core question, setting, mechanism).
