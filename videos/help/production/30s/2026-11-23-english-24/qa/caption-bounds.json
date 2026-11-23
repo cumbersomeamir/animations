@@ -1,0 +1,148 @@
+{
+ "rule": "ink x 100-900, y 280-460 (2026-11-19 brief)",
+ "framesChecked": 30,
+ "extent": {
+  "x0": 183,
+  "x1": 817,
+  "y0": 316,
+  "y1": 435
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "One heavy coat, or / several thin layers:",
+   "fs": 56,
+   "x0": 237,
+   "x1": 763,
+   "y0": 318,
+   "y1": 435,
+   "firstFrame": 38
+  },
+  {
+   "text": "which is warmer?",
+   "fs": 66,
+   "x0": 213,
+   "x1": 787,
+   "y0": 348,
+   "y1": 401,
+   "firstFrame": 94
+  },
+  {
+   "text": "And one common way / to keep warm can kill.",
+   "fs": 56,
+   "x0": 194,
+   "x1": 806,
+   "y0": 319,
+   "y1": 435,
+   "firstFrame": 152
+  },
+  {
+   "text": "Health advisories / pick layers:",
+   "fs": 56,
+   "x0": 257,
+   "x1": 743,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 219
+  },
+  {
+   "text": "they keep body / heat trapped inside.",
+   "fs": 56,
+   "x0": 223,
+   "x1": 777,
+   "y0": 319,
+   "y1": 435,
+   "firstFrame": 284
+  },
+  {
+   "text": "Stay dry:",
+   "fs": 66,
+   "x0": 352,
+   "x1": 648,
+   "y0": 351,
+   "y1": 414,
+   "firstFrame": 335
+  },
+  {
+   "text": "wet clothes pull / heat from the body.",
+   "fs": 56,
+   "x0": 229,
+   "x1": 771,
+   "y0": 319,
+   "y1": 435,
+   "firstFrame": 384
+  },
+  {
+   "text": "Cover the head, / hands and feet.",
+   "fs": 56,
+   "x0": 280,
+   "x1": 720,
+   "y0": 318,
+   "y1": 424,
+   "firstFrame": 448
+  },
+  {
+   "text": "And never burn coal or / wood in a closed room.",
+   "fs": 56,
+   "x0": 183,
+   "x1": 817,
+   "y0": 319,
+   "y1": 424,
+   "firstFrame": 521
+  },
+  {
+   "text": "It makes carbon / monoxide,",
+   "fs": 56,
+   "x0": 279,
+   "x1": 721,
+   "y0": 319,
+   "y1": 435,
+   "firstFrame": 591
+  },
+  {
+   "text": "a gas you can't / see or smell.",
+   "fs": 56,
+   "x0": 292,
+   "x1": 708,
+   "y0": 319,
+   "y1": 424,
+   "firstFrame": 649
+  },
+  {
+   "text": "So for winter / donations,",
+   "fs": 56,
+   "x0": 323,
+   "x1": 677,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 704
+  },
+  {
+   "text": "give layers, / caps and socks.",
+   "fs": 56,
+   "x0": 276,
+   "x1": 724,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 763
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 351,
+   "y1": 414,
+   "firstFrame": 877
+  }
+ ]
+}

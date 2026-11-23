@@ -1,0 +1,71 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "One heavy coat, or several thin layers: which is warmer?",
+   "dur": 3.392,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "And one common way to keep warm can kill.",
+   "dur": 2.251,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "Health advisories pick layers: they keep body heat trapped inside.",
+   "dur": 3.857,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "Stay dry: wet clothes pull heat from the body.",
+   "dur": 2.821,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Cover the head, hands and feet.",
+   "dur": 1.564,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "And never burn coal or wood in a closed room.",
+   "dur": 2.462,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "It makes carbon monoxide, a gas you can't see or smell.",
+   "dur": 3.468,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "So for winter donations, give layers, caps and socks.",
+   "dur": 3.358,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  },
+  {
+   "i": 8,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s08.wav",
+   "sr": 24000
+  }
+ ]
+}

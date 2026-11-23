@@ -183,3 +183,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Output `videos/help/production/30s/2026-11-21-english-23/help-30s-english23-01.mp4`, SHA-256 `105172870ef95a9ca62f9e08d75085616e13adff93952445f5cf2fb8f706dbf8`; thumbnail `help-30s-english23-thumbnail.png`.
 - Topic + production notes (incl. the brief and the topic-history check): `36-production-30s-english23-01.md`; lessons in `11-production-format.md` (Update 2026-11-21). No automation created.
 
+## 2026-11-23 (batch 24) — english-24, 30 s #01 (English; "Which is warmer?" — proposal (school bag / attendance costs) replaced as a repeat of hindi-04 + english-06; cold-wave warmth and safety: thin layers trap heat, stay dry, cover head/hands/feet, never burn coal or wood in a closed room (carbon monoxide); payoff: winter donations = layers, caps, socks) — DONE
+- Output `videos/help/production/30s/2026-11-23-english-24/help-30s-english24-01.mp4`, SHA-256 `e16c983d4cb54474b45a785c02733cc51016fbaddf5bddc01912a11661f52dc2`; thumbnail `help-30s-english24-thumbnail.png`.
+- Topic + production notes (incl. the brief and why the proposal was replaced): `37-production-30s-english24-01.md`; lessons in `11-production-format.md` (Update 2026-11-23). No automation created.
+

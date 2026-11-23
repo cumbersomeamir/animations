@@ -357,3 +357,14 @@ icon should be taken from play store or app store"
   hips", "check back later"); spell acronyms for the voice only ("W H O"), keep the caption as written ("WHO").
 - Run the Play icon check before writing QA/records (repeat of the batch-19 lesson: it was nearly skipped this batch).
 
+## Update 2026-11-23 (batch 24) — english-24 lessons
+- Topic gate: the school-attendance cost proposal ("school bag donated but the child still cannot attend") is COVERED by hindi-04 (record 17) and
+  english-06 (record 19) — replace such proposals, don't rework them. Cold-wave warmth/safety (layers, staying dry, head/hands/feet, no coal or wood
+  fire in a closed room, carbon monoxide) now covered by english-24.
+- Keep a one-line index of every record's core question in mind (records 12–37) and compare a proposal's *core question and donor action*, not just
+  its object: the same question with a new object is still a repeat.
+- Keep the approved palette: no global colour washes for mood (english-24 dropped a blue "night" multiply); use props (a moonlit window) instead.
+- New prop names can clash with older helpers in the stage head (`sock` existed) — grep the head before naming; quote titles with apostrophes safely
+  in the assembler.
+- Icon check done before writing QA this time (per batch-23 lesson).
+
