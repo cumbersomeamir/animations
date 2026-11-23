@@ -100,4 +100,10 @@
   before; first non-pricing topic after five pricing episodes; Spotify Newsroom 2018/2025, Berger 2014, Toubia & Stephen 2013;
   original illustrative card, no metrics; new camera grammar push-in/orbit/crane/descend; frame 0 = thumbnail; captions
   y 293–447; render 2 after a review (records spiral in face-on, spin ends facing the viewer); sha256 5b58d498; context/39).
-  Next: wait for the next brief; re-read CLAUDE.md, this file and ALL topic records (context/11 rows 01–25) first.
+- English-24 (batch24 2026-11-23-english-24) IN PROGRESS `production/30s/2026-11-23-english-24/werbens-30s-english24-01.mp4`
+  + thumbnail (IKEA's showroom-first store guide + mental simulation of use, "WHY ROOMS COME FIRST?"; not covered before —
+  distinct from #15 IKEA effect and #19 space-to-product ratio; IKEA NZ/AU/IN pages, Escalas 2004, Elder & Krishna 2012; original
+  miniature store with pop-up rooms, no numbers; context/40). Done: research, brand re-check, script, narration + timing, audio
+  mix (0 NaN/Inf), scene (follow-cam path, pop-up rooms A–D, racks, lone sofa, ghost shopper, ghost room, payoff fold/pop +
+  push into room A), 12 stills passes, thumbnail, `node src/qa_dom.mjs 3` = 0 issues; checkpoint commit. Next: full render
+  (`node src/render.mjs --video`), mux, qa.sh, frame review of every move, ASR, docs, push, attach.
