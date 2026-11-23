@@ -298,3 +298,9 @@ Episodes 09–11 were already in production before this note and keep the earlie
   and in the notes; illustrative values (timings, "+6 s") are never presented as measured.
 - Choreography varied inside the same identity: a 3D tiny-city diorama with a deterministic traffic simulation (pure function of
   t via a per-frame record computed at load), three camera heights (high, top-down, street level), phone shots, one card.
+
+## Batch 2026-11-23-english-24 (batch24) — 2026-11-23 brief
+- Proposed menu camera translation repeats round02-01 (and was already replaced once in english-15) → replaced with an unrelated
+  everyday subject: Optimized Battery Charging (why an iPhone pauses at 80% overnight; Charge Now) — context/39.
+- Play listing now shows "Updated on Nov 23, 2026" but the icon image is unchanged (pixel-identical) — keep checking each batch.
+- New choreography inside the same identity: a bedside set with a night→dawn time-lapse; cards only for the two abstract ideas.

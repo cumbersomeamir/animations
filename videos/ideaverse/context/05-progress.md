@@ -234,3 +234,9 @@
 - Checks: full decode OK; ASR all 7 lines MATCH, no word outside its caption; caption SPEC PASS (y 282–458); 28 earlier MP4s
   unchanged. Icon re-checked (unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-24 (2026-11-23, batch24) — IN PROGRESS
+- Proposed menu translation = repeat of round02-01 (+ already replaced in english-15) → Optimized Battery Charging (record
+  context/39). Stage src/stage/charging.js; 8 narration clips ASR-verified; score written; icon re-checked; full render running.
+- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.

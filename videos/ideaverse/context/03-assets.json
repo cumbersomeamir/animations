@@ -65,6 +65,10 @@
         {
           "date": "2026-11-21 (english-23)",
           "result": "Play listing og:image unchanged (5TopfIwT…, 'Updated on Oct 26, 2026'); =s512 PNG pixel-identical (max abs diff 0) to assets/icon.png — no replacement needed"
+        },
+        {
+          "date": "2026-11-23 (english-24)",
+          "result": "Play listing now 'Updated on Nov 23, 2026' (was Oct 26), but og:image unchanged (5TopfIwT…); =s512 PNG pixel-identical (max abs diff 0) to assets/icon.png — icon still current, no replacement needed"
         }
       ]
     }
