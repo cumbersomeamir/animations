@@ -4,6 +4,71 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-23 (english-24, batch 24): "Locker robbed. Who pays?": bank locker liability (RBI)
+
+### Status
+- **Confirmed before edits:** CLAUDE.md and this file reread; current remote branch fetched; clean and in sync at
+  9e7008d. Batch 23 was delivered, so nothing was pending or duplicated. Only english-24 is generated.
+- **The proposed topic (landlord entry) repeats episode 12** (TN s.17; 24-h written notice; 7 am–8 pm). Episodes 11
+  and 20 used the same Act.
+- **Replacement (unrelated, and different from batch 23's licence in question, setting and mechanism):** bank locker
+  liability. Record: `context/episodes/2026-11-23-english24-bank-locker-liability.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-23-english-24/notes/LEGAL-SOURCES.md`)
+- **RBI Commercial Banks – Responsible Business Conduct Directions 2025** (RBI/2025-26/170, updated 1 Oct 2026; HTML
+  sha256 bfcd0d09…120c8):
+  - para 258: fire, theft / burglary / robbery, dacoity, building collapse or employee fraud → liability = 100 × the
+    prevailing annual locker rent
+  - para 257: no liability for acts of God (earthquake, floods, lightning, thunderstorm) or the customer's sole
+    negligence; appropriate care still required
+  - para 260: no record of contents; the bank may not offer contents insurance
+- **Scope:** commercial banks (excluding SFBs, payments banks and LABs). Other bank types have separate directions
+  (not read).
+
+### Creative decisions
+- **Frame zero = thumbnail:**
+  - a dark vault with a wall of two-key steel lockers, locker 212 hanging open and empty, a red alarm sweep (clipped to
+    the vault), and an empty red velvet jewellery box in the foreground
+  - "LOCKER ROBBED. WHO PAYS?"
+  - voice at 0.05 s
+- **Beats:**
+  - RBI LOCKER RULES stamp
+  - theft / fire / collapse icons
+  - staff badge stamped FRAUD
+  - one rent coin → ×100 stack (100 × RENT)
+  - storm, flood and quake ✕ (NOT LIABLE)
+  - bank policy pushed back ✕ (NOT FROM THE BANK)
+  - payoff: rent slip ×100 + own insurance shield (OWN INSURANCE)
+- **Narration:**
+  - "RBI rules for banks say" (heard "banksay") became "RBI's locker rules say"
+  - "insure" (heard "ensure") became "buy your own insurance"
+  - the normaliser maps "one hundred times" and "jewelry"
+- **Mix gain:** 6.3 dB (−16.1 LUFS on the pre-render mix).
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-23-english-24/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st24 <times>
+node render.cjs thumb .. courtlens-30s-english24-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build24 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english24-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english24-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+$S/tts/venv/bin/python capcheck.py ../courtlens-30s-english24-01.mp4 ../courtlens-30s-english24-01-thumbnail.png ../qa/frame-zero.jpg 230 470 470 545
+```
+
+### Fixed before the full render (stills review)
+- **Alarm sweep:** the red beam crossed the hook caption and the y<280 zone, so it is now clipped inside a new dark
+  vault backdrop. The backdrop also gives frame zero more contrast.
+- **Flood:** the floodwater had a hard flat bottom edge, so it now fades out.
+- **Rent slip:** the "×100" chip covered "RENT", so it moved outside the slip.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+
 ## Round 2026-11-21 (english-23, batch 23): "Paper or phone?": driving licence in DigiLocker at a traffic check
 
 ### Status
