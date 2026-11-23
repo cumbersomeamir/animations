@@ -1,0 +1,35 @@
+A carrot's orange            caption   0.13s  speech   0.00s  diff +0.13
+isn't just colour.           caption   0.93s  speech   0.88s  diff +0.05
+What does it                 caption   2.37s  speech   2.38s  diff -0.01
+turn into?                   caption   2.60s  speech   2.58s  diff +0.02
+Part of the answer           caption   3.53s  speech   3.54s  diff -0.01
+is in your eyes.             caption   4.13s  speech   4.22s  diff -0.09
+The orange is                caption   5.60s  speech   5.62s  diff -0.02
+beta-carotene,               caption   6.33s  speech    n/as  diff n/a
+and your body                caption   7.77s  speech   7.72s  diff +0.05
+converts it                  caption   8.27s  speech   8.36s  diff -0.09
+into vitamin A.              caption   9.03s  speech   9.02s  diff +0.01
+Vitamin A,                   caption  10.70s  speech   9.20s  diff +1.50
+in turn,                     caption  11.73s  speech  11.44s  diff +0.29
+makes pigments               caption  12.43s  speech  12.46s  diff -0.03
+in your eyes                 caption  13.13s  speech  13.12s  diff +0.01
+that help you see            caption  13.67s  speech  13.70s  diff -0.03
+in low light.                caption  14.47s  speech  14.48s  diff -0.01
+100 g of raw carrot          caption  16.00s  speech  16.40s  diff -0.40
+gives more than 90%          caption  17.73s  speech  17.62s  diff +0.11
+of a day's vitamin A.        caption  19.33s  speech  19.34s  diff -0.01
+And one medium-sized         caption  21.47s  speech  21.40s  diff +0.07
+carrot, about 60 g,          caption  22.50s  speech  22.42s  diff +0.08
+covers more than half.       caption  24.67s  speech  24.56s  diff +0.11
+Track your nutrition         caption  27.10s  speech  26.72s  diff +0.38
+with CalMeter                caption  27.73s  speech  27.72s  diff +0.01
+20 of 25 caption lines within ±0.25 s of the spoken word (base.en word timestamps)
+
+Stem / word-list check for the 5 lines the aligner flags (voice-only stem build/voice.wav, 10 ms RMS onsets; base.en word list of the final MP4):
+- "beta-carotene," caption 6.33 s; word "beta" 6.32 s in the word list (+0.01 s). The aligner cannot match the hyphenated caption token.
+- "Vitamin A," caption 10.70 s; stem onset 10.72 s (-0.02 s). The aligner matched the earlier "vitamin" of "into vitamin A" (9.20 s); base.en collapsed this word's timestamp to 10.98 s.
+- "in turn," caption 11.73 s; stem onset after the pause 11.72 s (+0.01 s); base.en places "in" at the end of the preceding pause (11.44 s).
+- "100 g of raw carrot" caption 16.00 s; the line is spoken "A hundred grams…", stem onset 16.02 s (-0.02 s); base.en drops the "A" and times "100" at 16.40 s.
+- "Track your nutrition" caption 27.10 s; voice silent from 25.90 s until the CTA take placed at 27.10 s; stem onset 27.14 s (-0.04 s); base.en's 26.72 s is drift after the pause.
+Fixed during QA: "covers more than half." was 0.5 s early (take-level ASR timing); moved to the stem onset (24.65 s) → caption 24.67 s.
+Result: 25 of 25 caption lines within ±0.25 s of the speech (20 by base.en word timestamps, 5 by the stem/word-list checks above).

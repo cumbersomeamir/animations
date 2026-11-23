@@ -1,0 +1,362 @@
+{
+ "_doc": "CalMeter English 30 s english-24 (batch 24, 2026-11-23): carrots, what does the orange turn into? 'ORANGE INTO WHAT?'. The requested 'same potato: boiled, baked and fried' overlapped english-11 (potato + butter) and the water-loss (english-08/10/13/17) and added-oil (english-07/11/12) mechanisms, and batch 23 was milk calcium, so an unrelated same-genre subject was chosen (context/39): carrot beta-carotene -> vitamin A (USDA FDC 170393; MedlinePlus vitamin A). Garden cross-section, pigment conversion, night eye, day battery; captions 80 px in y 280-460; one headline at a time. 30 fps, 900 frames. Voice starts (s) and word frames from the ASR timing pass on the takes (qa/asr-takes.txt). The payoff caption and 'OVER HALF A DAY' were retimed from the voice stem (silence 24.40-24.60 s, 'covers' 24.65 s, 'half' ~25.22 s), because the take-level ASR placed 'covers' 0.5 s early.",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.55
+  },
+  {
+   "id": "T2",
+   "at": 5.6
+  },
+  {
+   "id": "T3",
+   "at": 10.7
+  },
+  {
+   "id": "T4",
+   "at": 16.0
+  },
+  {
+   "id": "T5",
+   "at": 21.45
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 66,
+   "lines": [
+    [
+     "A carrot's orange",
+     4
+    ],
+    [
+     "isn't just colour.",
+     28
+    ]
+   ]
+  },
+  {
+   "in": 68,
+   "out": 100,
+   "lines": [
+    [
+     "What does it",
+     71
+    ],
+    [
+     "turn into?",
+     78
+    ]
+   ]
+  },
+  {
+   "in": 104,
+   "out": 160,
+   "lines": [
+    [
+     "Part of the answer",
+     106
+    ],
+    [
+     "is in your eyes.",
+     124
+    ]
+   ]
+  },
+  {
+   "in": 166,
+   "out": 230,
+   "lines": [
+    [
+     "The orange is",
+     168
+    ],
+    [
+     "beta-carotene,",
+     190
+    ]
+   ]
+  },
+  {
+   "in": 231,
+   "out": 268,
+   "lines": [
+    [
+     "and your body",
+     233
+    ],
+    [
+     "converts it",
+     248
+    ]
+   ]
+  },
+  {
+   "in": 269,
+   "out": 305,
+   "lines": [
+    [
+     "into vitamin A.",
+     271
+    ]
+   ]
+  },
+  {
+   "in": 318,
+   "out": 371,
+   "lines": [
+    [
+     "Vitamin A,",
+     321
+    ],
+    [
+     "in turn,",
+     352
+    ]
+   ]
+  },
+  {
+   "in": 372,
+   "out": 408,
+   "lines": [
+    [
+     "makes pigments",
+     373
+    ],
+    [
+     "in your eyes",
+     394
+    ]
+   ]
+  },
+  {
+   "in": 409,
+   "out": 462,
+   "lines": [
+    [
+     "that help you see",
+     410
+    ],
+    [
+     "in low light.",
+     434
+    ]
+   ]
+  },
+  {
+   "in": 478,
+   "out": 530,
+   "lines": [
+    [
+     "100 g of raw carrot",
+     480
+    ]
+   ]
+  },
+  {
+   "in": 531,
+   "out": 578,
+   "lines": [
+    [
+     "gives more than 90%",
+     532
+    ]
+   ]
+  },
+  {
+   "in": 579,
+   "out": 630,
+   "lines": [
+    [
+     "of a day's vitamin A.",
+     580
+    ]
+   ]
+  },
+  {
+   "in": 642,
+   "out": 735,
+   "lines": [
+    [
+     "And one medium-sized",
+     644
+    ],
+    [
+     "carrot, about 60 g,",
+     675
+    ]
+   ]
+  },
+  {
+   "in": 737,
+   "out": 775,
+   "lines": [
+    [
+     "covers more than half.",
+     740
+    ]
+   ]
+  },
+  {
+   "in": 811,
+   "out": 906,
+   "lines": [
+    [
+     "Track your nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     832
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "pop": 102,
+  "skyEye": 136,
+  "dive": 160,
+  "beta": 190,
+  "convert": 248,
+  "vitA": 275,
+  "whipCD": 305,
+  "pigments": 380,
+  "lowLight": 428,
+  "iris": 462,
+  "sticks": 482,
+  "charge": 532,
+  "k90": 559,
+  "oneCarrot": 646,
+  "half": 755,
+  "cta": 800,
+  "ctaWord": 841,
+  "sPop": 100,
+  "sLand": 120,
+  "sEye": 132,
+  "sBeta": 184,
+  "sSnip": 250,
+  "sVitA": 286,
+  "sPig": 384,
+  "sLow": 450,
+  "sSticks": 484,
+  "sCharge": 534,
+  "s90": 555,
+  "sCarrot": 636,
+  "sHalf": 766,
+  "sBoing": 858
+ },
+ "sfx": [
+  {
+   "ev": "sPop",
+   "type": "pop",
+   "gain": -27
+  },
+  {
+   "ev": "sLand",
+   "type": "thud",
+   "gain": -29
+  },
+  {
+   "ev": "sEye",
+   "type": "chime",
+   "gain": -31
+  },
+  {
+   "ev": "dive",
+   "type": "whoosh",
+   "dur": 0.6,
+   "gain": -26
+  },
+  {
+   "ev": "sBeta",
+   "type": "sprinkle",
+   "dur": 0.5,
+   "gain": -32
+  },
+  {
+   "ev": "sSnip",
+   "type": "clack",
+   "dur": 0.9,
+   "gain": -33
+  },
+  {
+   "ev": "sVitA",
+   "type": "chime",
+   "gain": -30
+  },
+  {
+   "ev": "whipCD",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "sPig",
+   "type": "ticks",
+   "dur": 0.8,
+   "gain": -34
+  },
+  {
+   "ev": "sLow",
+   "type": "chime",
+   "gain": -30
+  },
+  {
+   "ev": "iris",
+   "type": "whoosh",
+   "dur": 0.5,
+   "gain": -27
+  },
+  {
+   "ev": "sSticks",
+   "type": "patter",
+   "dur": 0.8,
+   "gain": -33
+  },
+  {
+   "ev": "sCharge",
+   "type": "ticks",
+   "dur": 1.2,
+   "gain": -33
+  },
+  {
+   "ev": "s90",
+   "type": "tick",
+   "gain": -27
+  },
+  {
+   "ev": "sCarrot",
+   "type": "boing",
+   "gain": -30
+  },
+  {
+   "ev": "sHalf",
+   "type": "tick",
+   "gain": -27
+  },
+  {
+   "ev": "cta",
+   "type": "swish",
+   "dur": 0.7,
+   "gain": -26
+  },
+  {
+   "ev": "sBoing",
+   "type": "boing",
+   "gain": -30
+  }
+ ],
+ "_sfx_note": "no foley lands on a spoken number; the tick for 'half' sits after the word"
+}

@@ -1,0 +1,14 @@
+T0.wav A carrot's orange isn't just color. What does it turn into?
+    [('A', 0.0, 0.08), ("carrot's", 0.08, 0.48), ('orange', 0.48, 0.78), ("isn't", 0.78, 1.18), ('just', 1.18, 1.3), ('color.', 1.3, 1.56), ('What', 2.22, 2.24), ('does', 2.24, 2.32), ('it', 2.32, 2.44), ('turn', 2.44, 2.62), ('into?', 2.62, 2.88)]
+T1.wav Part of the answer is in your eyes.
+    [('Part', 0.0, 0.16), ('of', 0.16, 0.26), ('the', 0.26, 0.34), ('answer', 0.34, 0.58), ('is', 0.58, 0.94), ('in', 0.94, 1.06), ('your', 1.06, 1.2), ('eyes.', 1.2, 1.44)]
+T2.wav The orange is beta -carotene, and your body converts it into vitamin A.
+    [('The', 0.0, 0.08), ('orange', 0.08, 0.36), ('is', 0.36, 0.72), ('beta', 0.72, 0.96), ('-carotene,', 0.96, 1.84), ('and', 2.16, 2.32), ('your', 2.32, 2.44), ('body', 2.44, 2.68), ('converts', 2.68, 3.04), ('it', 3.04, 3.42), ('into', 3.42, 3.58), ('vitamin', 3.58, 3.88), ('A.', 3.88, 4.36)]
+T3.wav Vitamin A, in turn, makes pigments in your eyes that help you see in low light.
+    [('Vitamin', 0.0, 0.32), ('A,', 0.32, 0.74), ('in', 1.02, 1.08), ('turn,', 1.08, 1.36), ('makes', 1.72, 1.96), ('pigments', 1.96, 2.44), ('in', 2.44, 2.58), ('your', 2.58, 2.68), ('eyes', 2.68, 2.96), ('that', 2.96, 3.24), ('help', 3.24, 3.4), ('you', 3.4, 3.58), ('see', 3.58, 3.78), ('in', 3.78, 3.98), ('low', 3.98, 4.16), ('light.', 4.16, 4.48)]
+T4.wav 100 grams of raw carrot gives more than 90 % of a day's vitamin A.
+    [('100', 0.0, 0.4), ('grams', 0.4, 0.72), ('of', 0.72, 1.06), ('raw', 1.06, 1.24), ('carrot', 1.24, 1.72), ('gives', 1.72, 2.22), ('more', 2.22, 2.5), ('than', 2.5, 2.64), ('90', 2.64, 2.9), ('%', 2.9, 3.34), ('of', 3.34, 3.52), ('a', 3.52, 3.58), ("day's", 3.58, 3.92), ('vitamin', 3.92, 4.18), ('A.', 4.18, 4.68)]
+T5.wav and one medium -sized carrot, about 60 grams, covers more than half.
+    [('and', 0.0, 0.1), ('one', 0.1, 0.28), ('medium', 0.28, 0.62), ('-sized', 0.62, 1.06), ('carrot,', 1.06, 1.38), ('about', 1.74, 1.86), ('60', 1.86, 2.26), ('grams,', 2.26, 2.6), ('covers', 2.6, 3.34), ('more', 3.34, 3.62), ('than', 3.62, 3.76), ('half.', 3.76, 4.0)]
+T9.wav Track your nutrition with calmeter.
+    [('Track', 0.0, 0.18), ('your', 0.18, 0.36), ('nutrition', 0.36, 0.62), ('with', 0.62, 0.92), ('calmeter.', 0.92, 1.36)]

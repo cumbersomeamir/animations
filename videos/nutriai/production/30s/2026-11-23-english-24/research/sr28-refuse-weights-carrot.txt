@@ -1,0 +1,21 @@
+USDA SR28 (sr28asc.zip sha256 8308fd1d224ef1e5331093748007180da01a7ac713cbac6a1f5bc2a03e1ee70a), retrieved 2026-11-23 (same verified archive as english-20 to 23)
+FOOD_DES fields: NDB~FdGrp~Long_Desc~Shrt_Desc~ComName~ManufacName~Survey~Ref_desc~Refuse~SciName~...
+~11124~^~1100~^~Carrots, raw~^~CARROTS,RAW~^~Includes USDA commodity food A099~^~~^~Y~^~Crown, tops and scrapings~^11^~Daucus carota~^6.25^2.78^8.37^3.84
+~11960~^~1100~^~Carrots, baby, raw~^~CARROTS,BABY,RAW~^~~^~~^~~^~~^0^~Daucus carota~^6.25^2.78^8.37^3.84
+
+WEIGHT fields: NDB~Seq~Amount~Msre_Desc~Gm_Wgt~Num_Data_Pts~Std_Dev
+~11124~^1^1^~cup chopped~^128^^
+~11124~^2^1^~cup grated~^110^^
+~11124~^3^1^~cup strips or slices~^122^^
+~11124~^4^1^~large (7-1/4" to 8-/1/2" long)~^72^^
+~11124~^5^1^~medium~^61^^
+~11124~^6^1^~small (5-1/2" long)~^50^^
+~11124~^7^1^~slice~^3.0^^
+~11124~^8^1^~strip large (3" long)~^7.0^^
+~11124~^9^1^~strip medium~^4.0^^
+
+Verbatim excerpt from sr28_doc.pdf:
+
+Information is provided on household measures for food items (for example, 1 cup, 1
+tablespoon, 1 fruit, 1 leg). Weights are given for edible material without refuse, that is,
+the weight of an apple without the core or stem, or a chicken leg without the bone, and

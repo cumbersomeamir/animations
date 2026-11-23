@@ -1,0 +1,5 @@
+Audio balance (pre-master stems build/mix.wav and build/voice.wav; background = mix - voice = ambient bed + foley), 50 ms windows
+speech windows: 435 of 600 (21.8 s); median voice -24.8 dBFS; median background while speaking -39.7 dBFS
+median voice-to-background ratio while speaking: 15.1 dB; windows with voice > -32 dBFS and ratio < 6 dB: 8
+background between lines: median -36.0 dBFS, max -32.9 dBFS; mix sample peak -3.0 dBFS (pre-master), clipped samples 0
+tight windows (s): [4.4, 15.1, 17.8, 22.65, 22.95, 23.65, 27.15, 28.5]

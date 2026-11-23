@@ -1,0 +1,238 @@
+{
+ "source": "FoodData_Central_sr_legacy_food_json_2021-10-28.zip (sha256 789240d42d51640b931782310403c415eb4aa03383d8f0a52f6315db80f96bc7), https://fdc.nal.usda.gov/download-datasets",
+ "retrieved": "2026-11-18",
+ "foods": [
+  {
+   "fdcId": 168568,
+   "ndbNumber": 11960,
+   "description": "Carrots, baby, raw",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Sugars, total including NLEA": {
+     "amount": 4.76,
+     "unit": "g",
+     "dataPoints": 4
+    },
+    "Carbohydrate, by difference": {
+     "amount": 8.24,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 35.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Fiber, total dietary": {
+     "amount": 2.9,
+     "unit": "g",
+     "dataPoints": 8
+    },
+    "Fatty acids, total saturated": {
+     "amount": 0.023,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 78.0,
+     "unit": "mg",
+     "dataPoints": 8
+    },
+    "Protein": {
+     "amount": 0.64,
+     "unit": "g",
+     "dataPoints": 8
+    },
+    "Water": {
+     "amount": 90.4,
+     "unit": "g",
+     "dataPoints": 8
+    },
+    "Total lipid (fat)": {
+     "amount": 0.13,
+     "unit": "g",
+     "dataPoints": 8
+    },
+    "Potassium, K": {
+     "amount": 237,
+     "unit": "mg",
+     "dataPoints": 8
+    },
+    "Vitamin A, IU": {
+     "amount": 13800.0,
+     "unit": "IU",
+     "dataPoints": 0
+    },
+    "Vitamin A, RAE": {
+     "amount": 690,
+     "unit": "\u00b5g",
+     "dataPoints": 0
+    },
+    "Carotene, beta": {
+     "amount": 6390.0,
+     "unit": "\u00b5g",
+     "dataPoints": 7
+    },
+    "Carotene, alpha": {
+     "amount": 3770.0,
+     "unit": "\u00b5g",
+     "dataPoints": 7
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "NLEA serving",
+     "gramWeight": 85.0
+    },
+    {
+     "amount": null,
+     "modifier": "medium",
+     "gramWeight": 10.0
+    },
+    {
+     "amount": null,
+     "modifier": "large",
+     "gramWeight": 15.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 2.78,
+    "fat": 8.37,
+    "carbohydrate": 3.84
+   }
+  },
+  {
+   "fdcId": 170393,
+   "ndbNumber": 11124,
+   "description": "Carrots, raw",
+   "dataType": "SR Legacy",
+   "basis": "per 100 g edible portion",
+   "nutrients": {
+    "Fatty acids, total saturated": {
+     "amount": 0.032,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Sodium, Na": {
+     "amount": 69.0,
+     "unit": "mg",
+     "dataPoints": 81
+    },
+    "Protein": {
+     "amount": 0.93,
+     "unit": "g",
+     "dataPoints": 19
+    },
+    "Total lipid (fat)": {
+     "amount": 0.24,
+     "unit": "g",
+     "dataPoints": 26
+    },
+    "Water": {
+     "amount": 88.3,
+     "unit": "g",
+     "dataPoints": 33
+    },
+    "Potassium, K": {
+     "amount": 320,
+     "unit": "mg",
+     "dataPoints": 76
+    },
+    "Sugars, total including NLEA": {
+     "amount": 4.74,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Carbohydrate, by difference": {
+     "amount": 9.58,
+     "unit": "g",
+     "dataPoints": 0
+    },
+    "Energy": {
+     "amount": 41.0,
+     "unit": "kcal",
+     "dataPoints": 0
+    },
+    "Fiber, total dietary": {
+     "amount": 2.8,
+     "unit": "g",
+     "dataPoints": 4
+    },
+    "Carotene, beta": {
+     "amount": 8280.0,
+     "unit": "\u00b5g",
+     "dataPoints": 197
+    },
+    "Carotene, alpha": {
+     "amount": 3480.0,
+     "unit": "\u00b5g",
+     "dataPoints": 190
+    },
+    "Vitamin A, RAE": {
+     "amount": 835,
+     "unit": "\u00b5g",
+     "dataPoints": 0
+    },
+    "Vitamin A, IU": {
+     "amount": 16700.0,
+     "unit": "IU",
+     "dataPoints": 0
+    }
+   },
+   "portions": [
+    {
+     "amount": null,
+     "modifier": "cup grated",
+     "gramWeight": 110.0
+    },
+    {
+     "amount": null,
+     "modifier": "slice",
+     "gramWeight": 3.0
+    },
+    {
+     "amount": null,
+     "modifier": "strip large (3\" long)",
+     "gramWeight": 7.0
+    },
+    {
+     "amount": null,
+     "modifier": "small (5-1/2\" long)",
+     "gramWeight": 50.0
+    },
+    {
+     "amount": null,
+     "modifier": "medium",
+     "gramWeight": 61.0
+    },
+    {
+     "amount": null,
+     "modifier": "large (7-1/4\" to 8-/1/2\" long)",
+     "gramWeight": 72.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup chopped",
+     "gramWeight": 128.0
+    },
+    {
+     "amount": null,
+     "modifier": "strip medium",
+     "gramWeight": 4.0
+    },
+    {
+     "amount": null,
+     "modifier": "cup strips or slices",
+     "gramWeight": 122.0
+    }
+   ],
+   "calorieConversionFactor": {
+    "protein": 2.78,
+    "fat": 8.37,
+    "carbohydrate": 3.84
+   }
+  }
+ ]
+}

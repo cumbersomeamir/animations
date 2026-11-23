@@ -1,0 +1,34 @@
+[
+ {
+  "id": "T0",
+  "text": "A carrot's orange isn't just colour. What does it turn into?"
+ },
+ {
+  "id": "T1",
+  "text": "Part of the answer is in your eyes."
+ },
+ {
+  "id": "T2",
+  "text": "The orange is beta-carotene, and your body converts it into vitamin A."
+ },
+ {
+  "id": "T3",
+  "text": "Vitamin A, in turn, makes pigments in your eyes that help you see in low light.",
+  "_note": "'Vitamin A makes…' lost the 'A' on both ASR models; 3 phrasings tested, this one verbatim on base.en and small.en"
+ },
+ {
+  "id": "T4",
+  "text": "A hundred grams of raw carrot gives more than ninety percent of a day's vitamin A."
+ },
+ {
+  "id": "T5",
+  "text": "And one medium-sized carrot, about sixty grams, covers more than half.",
+  "_note": "'One medium carrot' was heard as 'carat' by base.en; this phrasing verbatim on both models"
+ },
+ {
+  "id": "T9",
+  "text": "Track your nutrition with CalMeter.",
+  "phonemes": "tɹˈæk jʊɹ njuːtɹˈɪʃən wɪð kˈælmˌiːtɚ.",
+  "_note": "cached CTA take from english-22 (byte-identical)"
+ }
+]
