@@ -94,3 +94,6 @@
 
 ## Production 2026-11-21-english-23 (English, Bluetooth address privacy; requested elevator topic replaced as an obstruction repeat)
 - Done. Output `production/30s/2026-11-21-english-23/meshline-30s-english23-01.mp4`, sha256 `cbd8e290…f3a5`, plus a thumbnail equal to frame zero. CTA feedback applied (action verb + button). Details are in `36-production-30s-english23-01.md`.
+
+## Production 2026-11-23-english-24 (English, weak signal drains the battery; requested collision/backoff topic replaced as a repeat of 17)
+- Done. Output `production/30s/2026-11-23-english-24/meshline-30s-english24-01.mp4`, sha256 `d5e777b2…66d8`, plus a thumbnail equal to frame zero. CTA feedback applied (action verb + button). Details are in `37-production-30s-english24-01.md`.

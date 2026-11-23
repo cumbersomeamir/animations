@@ -131,3 +131,6 @@
 
 ## Production 2026-11-21-english-23 (English, why your phone keeps changing its Bluetooth address): complete
 - See `36-production-30s-english23-01.md`; output sha256 `cbd8e290b46b76efc36aa48075e3045fcba7d5815c984316dc983175f571f3a5`; thumbnail = frame-zero composition.
+
+## Production 2026-11-23-english-24 (English, why a weak signal drains your battery faster): complete
+- See `37-production-30s-english24-01.md`; output sha256 `d5e777b2f64410e96fc4307dfa25999d211c5b647a1d112899938f61c52366d8`; thumbnail = frame-zero composition.

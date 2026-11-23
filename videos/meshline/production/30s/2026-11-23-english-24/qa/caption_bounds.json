@@ -1,0 +1,266 @@
+{
+ "rule": "ink and plate y in [280,460] (ink >= 290), ink and plate x in [100,900]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 3.01,
+   "lines": [
+    "Why does a weak signal",
+    "drain your battery faster?"
+   ],
+   "ink": {
+    "x0": 197,
+    "x1": 802,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 164,
+    "x1": 836,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 3.4,
+   "b": 6.336,
+   "lines": [
+    "The radio has to work",
+    "harder for every message."
+   ],
+   "ink": {
+    "x0": 190,
+    "x1": 810,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 155,
+    "x1": 845,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 6.85,
+   "b": 8.83,
+   "lines": [
+    "Weak links get",
+    "slower data rates,"
+   ],
+   "ink": {
+    "x0": 288,
+    "x1": 710,
+    "y0": 332,
+    "y1": 437
+   },
+   "plate": {
+    "x0": 255,
+    "x1": 745,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 8.87,
+   "b": 10.785,
+   "lines": [
+    "so each send takes longer."
+   ],
+   "ink": {
+    "x0": 185,
+    "x1": 813,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 152,
+    "x1": 848,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 11.3,
+   "b": 13.1,
+   "lines": [
+    "Lost pieces are sent again,"
+   ],
+   "ink": {
+    "x0": 184,
+    "x1": 815,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 150,
+    "x1": 850,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 13.14,
+   "b": 15.594,
+   "lines": [
+    "and the phone may transmit",
+    "at higher power."
+   ],
+   "ink": {
+    "x0": 166,
+    "x1": 833,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 133,
+    "x1": 867,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 16.1,
+   "b": 18.36,
+   "lines": [
+    "In one study,",
+    "the same download used"
+   ],
+   "ink": {
+    "x0": 201,
+    "x1": 796,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 169,
+    "x1": 831,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 18.4,
+   "b": 20.809,
+   "lines": [
+    "about 50% more energy."
+   ],
+   "ink": {
+    "x0": 207,
+    "x1": 791,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 174,
+    "x1": 826,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 21.4,
+   "b": 23.52,
+   "lines": [
+    "So save big uploads",
+    "for a stronger signal"
+   ],
+   "ink": {
+    "x0": 260,
+    "x1": 737,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 228,
+    "x1": 772,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l6b",
+   "a": 23.56,
+   "b": 24.823,
+   "lines": [
+    "when you can."
+   ],
+   "ink": {
+    "x0": 328,
+    "x1": 670,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 296,
+    "x1": 704,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.56,
+   "b": 28.36,
+   "lines": [
+    "Download Meshline for",
+    "private nearby messages,"
+   ],
+   "ink": {
+    "x0": 194,
+    "x1": 805,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 160,
+    "x1": 840,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7b",
+   "a": 28.4,
+   "b": 29.846,
+   "lines": [
+    "even offline."
+   ],
+   "ink": {
+    "x0": 356,
+    "x1": 643,
+    "y0": 332,
+    "y1": 369
+   },
+   "plate": {
+    "x0": 323,
+    "x1": 677,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  }
+ ]
+}

@@ -278,6 +278,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 | 23 | 2026-11-18-english-21 | Why pairing shows the same six digits on both phones (numeric comparison: public keys, shared secret, middleman makes numbers differ, tap pair only on a match), **English** + thumbnail | `production/30s/2026-11-18-english-21/meshline-30s-english21-01.mp4` |
 | 24 | 2026-11-19-english-22 | Why two short wireless hops can beat one long hop (distance loss, half hop ≈ 4×, retries/ETX, relay airtime, decent direct link wins), **English** + thumbnail | `production/30s/2026-11-19-english-22/meshline-30s-english22-01.mp4` |
 | 25 | 2026-11-21-english-23 | Why your phone keeps changing its Bluetooth address (fixed address = tracked; Android RPA rotation ≤ 15 min; paired devices resolve with the shared key; keep the device name plain), **English** + thumbnail | `production/30s/2026-11-21-english-23/meshline-30s-english23-01.mp4` |
+| 26 | 2026-11-23-english-24 | Why a weak signal drains your battery faster (slower rate = longer airtime, resends, higher transmit power; +52% energy for the same 3G download in one study; save big uploads for a stronger signal), **English** + thumbnail | `production/30s/2026-11-23-english-24/meshline-30s-english24-01.mp4` |
 
 ## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
 - **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
@@ -310,3 +311,8 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Topic rule applied:** "elevator / metal lift swallows the signal" is an obstruction repeat (07/14/16; lift explicitly listed). It was replaced with Bluetooth LE address privacy (25). Metal boxes, cars, basements and lifts all count as obstruction repeats.
 - **Topics now taken:** address rotation / RPA / tracking privacy (25). Bluetooth security angles used so far: pairing MITM (23) and address privacy (25); pick a non-Bluetooth-security core next unless the user asks.
 - **Walking shots:** pan the camera with the subject so tags and labels stay left of about 890 px; close-ups hide unneeded stops.
+
+## Production notes 2026-11-23, batch english-24 (specific adjustments only; the standing briefs still apply)
+- **Topic rule applied:** "two radios talking at once / collision and random backoff" repeats 17 (and 19/21); replaced with battery drain under weak signal (26). Collision, backoff, turn-taking and contention stories are all repeats.
+- **Topics now taken:** signal strength vs energy (26). Rate adaptation, retransmissions and power control are used as a battery explanation; don't make them the core again.
+- **Sheet edges:** keep world content at y ≥ about 11 so wide shots never expose the sheet's top edge (screen top = cam.y − 1000/(60·z) ≥ 0).

@@ -1,0 +1,105 @@
+[
+ {
+  "id": "l1a",
+  "a": 0.2,
+  "b": 3.01,
+  "l": [
+   "Why does a weak signal",
+   "drain your battery faster?"
+  ]
+ },
+ {
+  "id": "l2a",
+  "a": 3.4,
+  "b": 6.336,
+  "l": [
+   "The radio has to work",
+   "harder for every message."
+  ]
+ },
+ {
+  "id": "l3a",
+  "a": 6.85,
+  "b": 8.83,
+  "l": [
+   "Weak links get",
+   "slower data rates,"
+  ]
+ },
+ {
+  "id": "l3b",
+  "a": 8.87,
+  "b": 10.785,
+  "l": [
+   "so each send takes longer."
+  ]
+ },
+ {
+  "id": "l4a",
+  "a": 11.3,
+  "b": 13.1,
+  "l": [
+   "Lost pieces are sent again,"
+  ]
+ },
+ {
+  "id": "l4b",
+  "a": 13.14,
+  "b": 15.594,
+  "l": [
+   "and the phone may transmit",
+   "at higher power."
+  ]
+ },
+ {
+  "id": "l5a",
+  "a": 16.1,
+  "b": 18.36,
+  "l": [
+   "In one study,",
+   "the same download used"
+  ]
+ },
+ {
+  "id": "l5b",
+  "a": 18.4,
+  "b": 20.809,
+  "l": [
+   "about 50% more energy."
+  ]
+ },
+ {
+  "id": "l6a",
+  "a": 21.4,
+  "b": 23.52,
+  "l": [
+   "So save big uploads",
+   "for a stronger signal"
+  ]
+ },
+ {
+  "id": "l6b",
+  "a": 23.56,
+  "b": 24.823,
+  "l": [
+   "when you can."
+  ]
+ },
+ {
+  "id": "l7a",
+  "a": 25.56,
+  "b": 28.36,
+  "l": [
+   "Download Meshline for",
+   "private nearby messages,"
+  ]
+ },
+ {
+  "id": "l7b",
+  "a": 28.4,
+  "b": 29.846,
+  "l": [
+   "even offline."
+  ]
+ }
+]

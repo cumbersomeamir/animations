@@ -1,0 +1,77 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "Why does a weak signal drain your battery faster?",
+   "file": "l1.wav",
+   "sr": 24000,
+   "duration": 2.46,
+   "end": 2.71
+  },
+  {
+   "id": "l2",
+   "start": 3.45,
+   "text": "The radio has to work harder for every message.",
+   "file": "l2.wav",
+   "sr": 24000,
+   "duration": 2.586,
+   "end": 6.036
+  },
+  {
+   "id": "l3",
+   "start": 6.9,
+   "text": "Weak links get slower data rates, so each send takes longer.",
+   "file": "l3.wav",
+   "sr": 24000,
+   "duration": 3.585,
+   "end": 10.485
+  },
+  {
+   "id": "l4",
+   "start": 11.35,
+   "text": "Lost pieces are sent again, and the phone may transmit at higher power.",
+   "file": "l4.wav",
+   "sr": 24000,
+   "duration": 3.944,
+   "end": 15.294
+  },
+  {
+   "id": "l5",
+   "start": 16.15,
+   "text": "In one study, the same download used about fifty percent more energy.",
+   "file": "l5.wav",
+   "sr": 24000,
+   "duration": 4.359,
+   "end": 20.509
+  },
+  {
+   "id": "l6",
+   "start": 21.45,
+   "text": "So save big uploads for a stronger signal when you can.",
+   "file": "l6.wav",
+   "sr": 24000,
+   "duration": 3.073,
+   "end": 24.523
+  },
+  {
+   "id": "l7",
+   "start": 25.61,
+   "text": "Download Meshline for private nearby messages, even offline.",
+   "file": "l7.wav",
+   "sr": 24000,
+   "duration": 3.936,
+   "end": 29.546
+  }
+ ]
+}

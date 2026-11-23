@@ -1,0 +1,51 @@
+[
+ {
+  "id": "l1",
+  "start": 0.25,
+  "end": 2.71,
+  "text": "Why does a weak signal drain your battery faster?",
+  "speech_band_db": 27.0
+ },
+ {
+  "id": "l2",
+  "start": 3.45,
+  "end": 6.036,
+  "text": "The radio has to work harder for every message.",
+  "speech_band_db": 22.5
+ },
+ {
+  "id": "l3",
+  "start": 6.9,
+  "end": 10.485,
+  "text": "Weak links get slower data rates, so each send takes longer.",
+  "speech_band_db": 22.7
+ },
+ {
+  "id": "l4",
+  "start": 11.35,
+  "end": 15.294,
+  "text": "Lost pieces are sent again, and the phone may transmit at higher power.",
+  "speech_band_db": 22.2
+ },
+ {
+  "id": "l5",
+  "start": 16.15,
+  "end": 20.509,
+  "text": "In one study, the same download used about fifty percent more energy.",
+  "speech_band_db": 24.4
+ },
+ {
+  "id": "l6",
+  "start": 21.45,
+  "end": 24.523,
+  "text": "So save big uploads for a stronger signal when you can.",
+  "speech_band_db": 20.2
+ },
+ {
+  "id": "l7",
+  "start": 25.61,
+  "end": 29.546,
+  "text": "Download Meshline for private nearby messages, even offline.",
+  "speech_band_db": 22.4
+ }
+]

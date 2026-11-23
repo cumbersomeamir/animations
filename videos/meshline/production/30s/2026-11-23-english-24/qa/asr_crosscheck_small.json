@@ -1,0 +1,8 @@
+{
+ "model": "whisper-small",
+ "asr": "Why does a weak signal drain your battery faster? The radio has to work harder for every message. Weak links get slower data rates, so each send takes longer. Lost pieces are sent again, and the phone may transmit at higher power. In one study, the same download used about 50% more energy. So save big uploads for a stronger signal when you can. Download MeshLine for private nearby messages, even offline.",
+ "wer_normalized": 0.027,
+ "audio_pcm_sha256_prefix": "c0ca8f6a7b8047b1",
+ "wer_number_normalized": 0.0,
+ "note": "the only difference is 50% vs fifty percent"
+}

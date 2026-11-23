@@ -1,0 +1,46 @@
+{
+ "reference": "Why does a weak signal drain your battery faster? The radio has to work harder for every message. Weak links get slower data rates, so each send takes longer. Lost pieces are sent again, and the phone may transmit at higher power. In one study, the same download used about fifty percent more energy. So save big uploads for a stronger signal when you can. Download Meshline for private nearby messages, even offline.",
+ "asr": "Why does a weak signal drain your battery faster? The radio has to work harder for every message. Weak links get slower data rates, so each send takes longer. Lost pieces are sent again, and the phone may transmit at higher power. In one study, the same download used about 50% more energy. So save big uploads for a stronger signal when you can. Download Meshline for private nearby messages, even offline.",
+ "wer": 0.027,
+ "segments": [
+  [
+   0.0,
+   3.0,
+   "Why does a weak signal drain your battery faster?"
+  ],
+  [
+   3.0,
+   7.0,
+   "The radio has to work harder for every message."
+  ],
+  [
+   7.0,
+   11.0,
+   "Weak links get slower data rates, so each send takes longer."
+  ],
+  [
+   11.0,
+   16.0,
+   "Lost pieces are sent again, and the phone may transmit at higher power."
+  ],
+  [
+   16.0,
+   21.0,
+   "In one study, the same download used about 50% more energy."
+  ],
+  [
+   21.0,
+   25.0,
+   "So save big uploads for a stronger signal when you can."
+  ],
+  [
+   25.0,
+   30.0,
+   "Download Meshline for private nearby messages, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "number words: ASR writes \"50%\" for the spoken \"fifty percent\" (2 tokens); with that mapped, no differences remain",
+ "remaining_diffs": [],
+ "audio_pcm_sha256_prefix": "c0ca8f6a7b8047b1"
+}
