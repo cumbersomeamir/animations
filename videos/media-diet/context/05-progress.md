@@ -464,3 +464,16 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Script 77 words / 26.5 s (Whisper-exact). Scene: paper server floor + cutaway + stylised world map; illustrative load numbers; CRF 20.
 - Next: render (3 workers, TMPDIR in RAM), chunk-start check, `SKIP_FRAMES=1 bash build/build.sh`, sheets, thumbnail, QA.md, commit,
   push from /dev/shm/repo24, attach.
+
+## Checkpoint 2026-11-25 — english-24 / batch 24 delivered (produced and staged in RAM)
+- production/30s/2026-11-23-english-24/media-diet-30s-english24-01.mp4 (SHA-256 9d95b22ec133a4a3bc4251ef52d81b905a89f7985392148ffd3613f2fb13b9d7,
+  15.8 MB, CRF 20) + thumbnail-english24-01.jpg (= frame 0); record context/39; context/11 log row → delivered; QA.md written.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −2.0 dBTP; captions y 360–488, x 192–888; labels y 1342–1476; 0 violations; caption↔speech 10/10; Whisper 1.0 full + per line;
+  14 chunk starts continuous; contact sheets inspected (JPEG previews).
+- Commands (in /dev/shm/repo24/videos/media-diet/production/30s/2026-11-23-english-24): `TMPDIR=/dev/shm/md-e24/tmp bash build/render_chunks.sh …`
+  (3 workers) → `SKIP_FRAMES=1 bash build/build.sh` → `node build/thumb.mjs /dev/shm/md-e24/thumbnail-english24-01.png` → JPEG q2;
+  commits pushed from the RAM clone.
+- Unresolved: not yet watched or listened to by a human. The disk checkout /home/user/animations is untouched and behind the remote
+  (root disk 19–20 MB free; pulling needs ≈ the new MP4's size). /dev/shm is wiped on restart, so a resumed session should re-clone
+  (sparse, blob-less) into RAM or run on a fresh machine. Earlier outputs and caches untouched.

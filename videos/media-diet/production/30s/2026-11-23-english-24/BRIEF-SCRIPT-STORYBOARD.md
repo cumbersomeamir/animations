@@ -64,5 +64,10 @@ context, assets and this folder checked out; shared three.js, fonts, voice model
 audio, encode, QA and Git staging/push from that clone. Encoded at the usual CRF 20. The disk checkout at /home/user/animations is left
 untouched and is behind the remote after this push; updating it would need ≈ the MP4's size in free disk.
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 9d95b22ec133a4a3bc4251ef52d81b905a89f7985392148ffd3613f2fb13b9d7 (15.8 MB, CRF 20); 900 frames; video/audio/container 30.000 s;
+H.264 High yuv420p 1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 360–488,
+x 192–888; labels x 201–877, y 1342–1476; 0 violations; caption↔speech 10/10; Whisper 1.0 full pass and per line; 14 chunk starts
+continuous. Thumbnail = frame 0 as JPEG (SHA-256 6ead15aa…bfa4), mean abs diff vs encoded frame 0 = 1.37/255.
+Limits: illustrative load numbers; stylised map; Microsoft's fixes are planned; generic paper models; not yet watched or listened to by a
+human.
