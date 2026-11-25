@@ -1,0 +1,7 @@
+The safety net spread the crash. Microsoft just explained how Outlook went down worldwide. A hidden bug froze servers that got too busy. When one froze, its traffic shifted to the others. The neighbors overloaded, froze, and passed it on. In two hours, over 80 percent of North American servers froze. Then traffic spilled into every other region. Rerouting needs spare room, so Microsoft plans walled-off server pools.
+
+Follow Media Diet for the physics behind the headlines.
+
+Source: Microsoft's Post Incident Report for Microsoft 365 (dated 20 Nov 2026) on the 12–13 Nov 2026 outage: a latent Windows defect (lock contention) made busy network-gateway servers unresponsive; automatic traffic redistribution spread the failure until more than 80% of North American servers were unresponsive, then to every region. Planned fixes include partitioned gateway pools, smaller fault zones and more headroom. Load numbers in the animation are illustrative; visuals are an editorial reconstruction (no logos).
+
+#Outlook #Microsoft365 #CloudOutage #MediaDiet

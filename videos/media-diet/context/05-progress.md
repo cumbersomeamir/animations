@@ -452,3 +452,15 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   training aid; payoff = "proves recovery, not toughness" (authors: kick force not measured).
 - Unresolved: not yet watched or listened to by a human. Disk ~20 MB after this commit: the next episode needs disk freed by the owner
   (or a fresh session) before rendering — each delivered MP4 + git object costs ~2× its size. Earlier outputs untouched.
+
+## Checkpoint 2026-11-25 — english-24 / batch 24 (authorised 23 Nov; topic + sources recorded; rendering in RAM)
+- Start state: batch 23 complete (62dc6a7 = remote); no batch-24 output or checkpoint anywhere (local, remote); root disk 20 MB free;
+  container restarted (RAM disk empty). The owner asked to preserve all caches and prior work and to use a RAM-backed or alternate volume:
+  only /dev/shm (16 GB) qualifies, so batch 24 is produced in a sparse partial clone at /dev/shm/repo24 and pushed from there; the disk
+  checkout is left untouched (it will be behind the remote).
+- Candidates: Microsoft 365 PIR (dated 20 Nov 2026) on the 12 Nov Outlook outage → chosen (verified cascade mechanism + planned fixes);
+  Amazon Prime Air drone cable strike (20 Nov) → rejected (cause under FAA investigation); Zoox/VT pedestrian sounds → not fresh (Sept).
+  Record context/39; SOURCES.md; log row in context/11 (in progress).
+- Script 77 words / 26.5 s (Whisper-exact). Scene: paper server floor + cutaway + stylised world map; illustrative load numbers; CRF 20.
+- Next: render (3 workers, TMPDIR in RAM), chunk-start check, `SKIP_FRAMES=1 bash build/build.sh`, sheets, thumbnail, QA.md, commit,
+  push from /dev/shm/repo24, attach.

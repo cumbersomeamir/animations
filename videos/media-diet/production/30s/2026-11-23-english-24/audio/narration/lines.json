@@ -1,0 +1,56 @@
+[
+ {
+  "id": "V1",
+  "say": "The safety net spread the crash.",
+  "duration": 1.53,
+  "words": 6
+ },
+ {
+  "id": "V2",
+  "say": "Microsoft just explained how Outlook went down worldwide.",
+  "duration": 3.357,
+  "words": 8
+ },
+ {
+  "id": "V3",
+  "say": "A hidden bug froze servers that got too busy.",
+  "duration": 2.479,
+  "words": 9
+ },
+ {
+  "id": "V4",
+  "say": "When one froze, its traffic shifted to the others.",
+  "duration": 2.712,
+  "words": 9
+ },
+ {
+  "id": "V5",
+  "say": "The neighbors overloaded, froze, and passed it on.",
+  "duration": 2.655,
+  "words": 8
+ },
+ {
+  "id": "V6",
+  "say": "In two hours, over 80 percent of North American servers froze.",
+  "duration": 4.016,
+  "words": 11
+ },
+ {
+  "id": "V7",
+  "say": "Then traffic spilled into every other region.",
+  "duration": 2.226,
+  "words": 7
+ },
+ {
+  "id": "V8",
+  "say": "Rerouting needs spare room, so Microsoft plans walled-off server pools.",
+  "duration": 4.39,
+  "words": 10
+ },
+ {
+  "id": "V9",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]

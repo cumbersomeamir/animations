@@ -1,0 +1,209 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "The safety net spread the crash.",
+   "cues": [
+    [
+     "THE SAFETY NET",
+     "SPREAD THE CRASH."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 1.9,
+   "say": "Microsoft just explained how Outlook went down worldwide.",
+   "cues": [
+    [
+     "Microsoft just explained how",
+     "Outlook went down worldwide."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 5.57,
+   "say": "A hidden bug froze servers that got too busy.",
+   "cues": [
+    [
+     "A hidden bug froze servers",
+     "that got too busy."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 8.36,
+   "say": "When one froze, its traffic shifted to the others.",
+   "cues": [
+    [
+     "When one froze, its traffic",
+     "shifted to the others."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 11.38,
+   "say": "The neighbors overloaded, froze, and passed it on.",
+   "cues": [
+    [
+     "The neighbors overloaded,",
+     "froze, and passed it on."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 14.35,
+   "say": "In two hours, over 80 percent of North American servers froze.",
+   "cues": [
+    [
+     "In two hours, over 80% of",
+     "North American servers froze."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 18.68,
+   "say": "Then traffic spilled into every other region.",
+   "cues": [
+    [
+     "Then traffic spilled into",
+     "every other region."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 21.22,
+   "say": "Rerouting needs spare room, so Microsoft plans walled-off server pools.",
+   "cues": [
+    [
+     "Rerouting needs spare room,"
+    ],
+    [
+     "so Microsoft plans",
+     "walled-off server pools."
+    ]
+   ]
+  },
+  {
+   "id": "V9",
+   "start": 26.0,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.8,
+   "beat": "first frame / hook: a perspective row of paper gateway servers freezing one after another through a glowing red rerouting net; \"THE SAFETY NET / SPREAD THE CRASH.\""
+  },
+  {
+   "id": "S2",
+   "in": 1.8,
+   "out": 5.47,
+   "beat": "superhook: a generic paper laptop stuck on \"Can't connect\" while queued mail piles up; \"≈ 24 hours of disruption\" + report date chip"
+  },
+  {
+   "id": "S3",
+   "in": 5.47,
+   "out": 8.26,
+   "beat": "the bug: one server in cutaway; requests queue at a one-at-a-time lock (turnstile) that jams under load; the server frosts over"
+  },
+  {
+   "id": "S4",
+   "in": 8.26,
+   "out": 11.28,
+   "beat": "rerouting: ten servers fed by one mail stream; one freezes and its traffic shifts to the rest (same traffic ÷ fewer servers)"
+  },
+  {
+   "id": "S5",
+   "in": 11.28,
+   "out": 14.25,
+   "beat": "cascade: the neighbours cross the limit line one by one and freeze, passing their load on (illustrative numbers)"
+  },
+  {
+   "id": "S6",
+   "in": 14.25,
+   "out": 18.58,
+   "beat": "North America: stylised paper world map, server sites going dark outward from US East until over 80% are unresponsive"
+  },
+  {
+   "id": "S7",
+   "in": 18.58,
+   "out": 21.12,
+   "beat": "worldwide: traffic arcs spill from North America to every other region and their sites go dark"
+  },
+  {
+   "id": "S8",
+   "in": 21.12,
+   "out": 22.74,
+   "beat": "payoff 1: with spare servers the same failure is absorbed (gauges stay under the limit)"
+  },
+  {
+   "id": "S9",
+   "in": 22.74,
+   "out": 25.9,
+   "beat": "payoff 2: paper walls rise between pools; a failure stays inside one pool (Microsoft's planned fix)"
+  },
+  {
+   "id": "S10",
+   "in": 25.9,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign flips up"
+  }
+ ],
+ "events": {
+  "labDown": 4.6,
+  "jam": 6.25,
+  "labBusy": 7.45,
+  "fail1": 8.65,
+  "labShift": 9.75,
+  "casc": 11.9,
+  "labLoad": 11.5,
+  "naWave": 14.5,
+  "lab80": 15.6,
+  "arcs": 18.85,
+  "world": 19.3,
+  "labWorld": 20.0,
+  "spareFail": 21.45,
+  "labSpare": 21.75,
+  "walls": 23.0,
+  "poolFail": 24.0,
+  "labPools": 24.2,
+  "sign": 26.15
+ }
+}
