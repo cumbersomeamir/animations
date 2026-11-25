@@ -1,0 +1,71 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "This window is a metal net.",
+      "file": "l01.wav",
+      "duration": 1.462,
+      "sr": 24000,
+      "words_per_s": 4.11
+    },
+    {
+      "id": "l02",
+      "text": "Light gets through. So why don't the microwaves?",
+      "file": "l02.wav",
+      "duration": 2.666,
+      "sr": 24000,
+      "words_per_s": 3.0
+    },
+    {
+      "id": "l03",
+      "text": "Microwaves are waves about twelve centimeters long.",
+      "file": "l03.wav",
+      "duration": 2.943,
+      "sr": 24000,
+      "words_per_s": 2.38
+    },
+    {
+      "id": "l04",
+      "text": "The holes are only about a millimeter wide, over a hundred times smaller.",
+      "file": "l04.wav",
+      "duration": 4.14,
+      "sr": 24000,
+      "words_per_s": 3.14
+    },
+    {
+      "id": "l05",
+      "text": "To waves that long, the net is like solid metal, so they bounce back inside.",
+      "file": "l05.wav",
+      "duration": 4.462,
+      "sr": 24000,
+      "words_per_s": 3.36
+    },
+    {
+      "id": "l06",
+      "text": "Light waves are about two thousand times smaller than the holes, so they slip through.",
+      "file": "l06.wav",
+      "duration": 4.59,
+      "sr": 24000,
+      "words_per_s": 3.27
+    },
+    {
+      "id": "l07",
+      "text": "So if the door is bent, or won't close firmly, stop using it.",
+      "file": "l07.wav",
+      "duration": 3.509,
+      "sr": 24000,
+      "words_per_s": 3.7
+    },
+    {
+      "id": "l08",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l08.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}

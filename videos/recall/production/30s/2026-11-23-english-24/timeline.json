@@ -1,0 +1,452 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 1.75
+  },
+  {
+   "id": "l03",
+   "start": 4.75
+  },
+  {
+   "id": "l04",
+   "start": 7.95
+  },
+  {
+   "id": "l05",
+   "start": 12.35
+  },
+  {
+   "id": "l06",
+   "start": 17.05
+  },
+  {
+   "id": "l07",
+   "start": 21.9
+  },
+  {
+   "id": "l08",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_mesh",
+   "t0": 0,
+   "t1": 1.6
+  },
+  {
+   "id": "peer_react",
+   "t0": 1.6,
+   "t1": 4.6
+  },
+  {
+   "id": "giant_wave",
+   "t0": 4.6,
+   "t1": 7.95
+  },
+  {
+   "id": "giant_holes",
+   "t0": 7.95,
+   "t1": 12.35
+  },
+  {
+   "id": "giant_solid",
+   "t0": 12.35,
+   "t1": 15.25
+  },
+  {
+   "id": "giant_bounce",
+   "t0": 15.25,
+   "t1": 17.05
+  },
+  {
+   "id": "light_rays",
+   "t0": 17.05,
+   "t1": 20.4
+  },
+  {
+   "id": "peer_pov",
+   "t0": 20.4,
+   "t1": 21.9
+  },
+  {
+   "id": "door_gap",
+   "t0": 21.9,
+   "t1": 23.8
+  },
+  {
+   "id": "unplug",
+   "t0": 23.8,
+   "t1": 26.45
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.45,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "turnToCam": 2.94,
+  "waveTag": 6.37,
+  "mmTag": 9.23,
+  "over": 10.49,
+  "solidTag": 13.73,
+  "bounce": 15.49,
+  "lightTag": 17.97,
+  "gapTag": 22.62,
+  "gapOpen": 22.2,
+  "notice": 24.0,
+  "unplug": 24.6,
+  "cta": 26.45,
+  "smile2": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.6,
+   "lines": [
+    [
+     [
+      "THIS WINDOW",
+      0
+     ]
+    ],
+    [
+     [
+      "IS A METAL NET",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 1.75,
+   "end": 2.89,
+   "lines": [
+    [
+     [
+      "Light ",
+      1
+     ],
+     [
+      "gets through.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 2.89,
+   "end": 4.75,
+   "lines": [
+    [
+     [
+      "So why don't",
+      0
+     ]
+    ],
+    [
+     [
+      "the ",
+      0
+     ],
+     [
+      "microwaves?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 4.75,
+   "end": 7.95,
+   "lines": [
+    [
+     [
+      "Microwaves are waves",
+      0
+     ]
+    ],
+    [
+     [
+      "about ",
+      0
+     ],
+     [
+      "12 centimeters",
+      1
+     ],
+     [
+      " long.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 7.95,
+   "end": 10.49,
+   "lines": [
+    [
+     [
+      "The holes are only about",
+      0
+     ]
+    ],
+    [
+     [
+      "a ",
+      0
+     ],
+     [
+      "millimeter",
+      1
+     ],
+     [
+      " wide,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 10.49,
+   "end": 12.35,
+   "lines": [
+    [
+     [
+      "over a hundred",
+      0
+     ]
+    ],
+    [
+     [
+      "times ",
+      0
+     ],
+     [
+      "smaller.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 12.35,
+   "end": 15.25,
+   "lines": [
+    [
+     [
+      "To waves that long, the net",
+      0
+     ]
+    ],
+    [
+     [
+      "is like ",
+      0
+     ],
+     [
+      "solid metal,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 15.25,
+   "end": 17.05,
+   "lines": [
+    [
+     [
+      "so they ",
+      0
+     ],
+     [
+      "bounce back",
+      1
+     ]
+    ],
+    [
+     [
+      "inside.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 17.05,
+   "end": 20.53,
+   "lines": [
+    [
+     [
+      "Light waves are about ",
+      0
+     ],
+     [
+      "2,000",
+      1
+     ]
+    ],
+    [
+     [
+      "times smaller than the holes,",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 20.53,
+   "end": 21.9,
+   "lines": [
+    [
+     [
+      "so they ",
+      0
+     ],
+     [
+      "slip through.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 21.9,
+   "end": 23.16,
+   "lines": [
+    [
+     [
+      "So if the door is ",
+      0
+     ],
+     [
+      "bent,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.16,
+   "end": 26.45,
+   "lines": [
+    [
+     [
+      "or won't close firmly,",
+      0
+     ]
+    ],
+    [
+     [
+      "stop using it.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.45,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0,
+   4.6,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   4.6,
+   12.35,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   12.35,
+   17.05,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   17.05,
+   21.9,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   21.9,
+   26.45,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   26.45,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

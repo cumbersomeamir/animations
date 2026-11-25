@@ -1,0 +1,179 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.59,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.512,
+      "text": "This window is a metal net.",
+      "words": 6,
+      "words_per_s": 4.11,
+      "voice_over_bed_db": 17.6
+    },
+    {
+      "id": "l02",
+      "start": 1.75,
+      "end": 4.416,
+      "text": "Light gets through. So why don't the microwaves?",
+      "words": 8,
+      "words_per_s": 3.0,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l03",
+      "start": 4.75,
+      "end": 7.693,
+      "text": "Microwaves are waves about twelve centimeters long.",
+      "words": 7,
+      "words_per_s": 2.38,
+      "voice_over_bed_db": 18.3
+    },
+    {
+      "id": "l04",
+      "start": 7.95,
+      "end": 12.09,
+      "text": "The holes are only about a millimeter wide, over a hundred times smaller.",
+      "words": 13,
+      "words_per_s": 3.14,
+      "voice_over_bed_db": 17.5
+    },
+    {
+      "id": "l05",
+      "start": 12.35,
+      "end": 16.812,
+      "text": "To waves that long, the net is like solid metal, so they bounce back inside.",
+      "words": 15,
+      "words_per_s": 3.36,
+      "voice_over_bed_db": 16.8
+    },
+    {
+      "id": "l06",
+      "start": 17.05,
+      "end": 21.64,
+      "text": "Light waves are about two thousand times smaller than the holes, so they slip through.",
+      "words": 15,
+      "words_per_s": 3.27,
+      "voice_over_bed_db": 16.5
+    },
+    {
+      "id": "l07",
+      "start": 21.9,
+      "end": 25.409,
+      "text": "So if the door is bent, or won't close firmly, stop using it.",
+      "words": 13,
+      "words_per_s": 3.7,
+      "voice_over_bed_db": 16.9
+    },
+    {
+      "id": "l08",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 86,
+  "speech_s": 27.06,
+  "overall_words_per_s": 2.87,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "microwave hum + turntable (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 2.94,
+      "beat": 5.88,
+      "sfx": "head turns to camera"
+    },
+    {
+      "t": 4.35,
+      "beat": 8.7,
+      "sfx": "cut to the giant door (ends before l03)"
+    },
+    {
+      "t": 4.6,
+      "beat": 9.2,
+      "sfx": "the long wave travelling (low hum, giant shots)"
+    },
+    {
+      "t": 6.42,
+      "beat": 12.84,
+      "sfx": "12 cm ruler"
+    },
+    {
+      "t": 9.28,
+      "beat": 18.56,
+      "sfx": "1 mm ruler"
+    },
+    {
+      "t": 10.59,
+      "beat": 21.18,
+      "sfx": "over a hundred times smaller"
+    },
+    {
+      "t": 13.73,
+      "beat": 27.46,
+      "sfx": "the net acts like solid metal"
+    },
+    {
+      "t": 15.49,
+      "beat": 30.98,
+      "sfx": "the wave bounces back inside"
+    },
+    {
+      "t": 17.1,
+      "beat": 34.2,
+      "sfx": "light slips through the holes"
+    },
+    {
+      "t": 18.02,
+      "beat": 36.04,
+      "sfx": "light ~0.0005 mm"
+    },
+    {
+      "t": 20.4,
+      "beat": 40.8,
+      "sfx": "microwave hum (POV through the door)"
+    },
+    {
+      "t": 22.2,
+      "beat": 44.4,
+      "sfx": "bent door: the gap opens"
+    },
+    {
+      "t": 22.67,
+      "beat": 45.34,
+      "sfx": "gap"
+    },
+    {
+      "t": 24.6,
+      "beat": 49.2,
+      "sfx": "plug pulled out"
+    },
+    {
+      "t": 26.75,
+      "beat": 53.5,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.475,
+  "voice_gain": 1.0
+}

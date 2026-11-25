@@ -1,0 +1,137 @@
+{
+ "ok": true,
+ "spoken_groups": 13,
+ "onscreen_only": [],
+ "rows": [
+  {
+   "caption": "THIS WINDOW / IS A METAL NET",
+   "start": 0.0,
+   "end": 1.6,
+   "first_word_s": 0.05,
+   "last_word_s": 0.99,
+   "caption_lead_s": 0.05,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Light gets through.",
+   "start": 1.75,
+   "end": 2.89,
+   "first_word_s": 1.75,
+   "last_word_s": 2.15,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So why don't / the microwaves?",
+   "start": 2.89,
+   "end": 4.75,
+   "first_word_s": 2.89,
+   "last_word_s": 3.53,
+   "caption_lead_s": -0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Microwaves are waves / about 12 centimeters long.",
+   "start": 4.75,
+   "end": 7.95,
+   "first_word_s": 4.75,
+   "last_word_s": 7.01,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "The holes are only about / a millimeter wide,",
+   "start": 7.95,
+   "end": 10.49,
+   "first_word_s": 7.95,
+   "last_word_s": 9.65,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "over a hundred / times smaller.",
+   "start": 10.49,
+   "end": 12.35,
+   "first_word_s": 10.49,
+   "last_word_s": 11.39,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "To waves that long, the net / is like solid metal,",
+   "start": 12.35,
+   "end": 15.25,
+   "first_word_s": 12.35,
+   "last_word_s": 14.57,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so they bounce back / inside.",
+   "start": 15.25,
+   "end": 17.05,
+   "first_word_s": 15.25,
+   "last_word_s": 16.05,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Light waves are about 2,000 / times smaller than the holes,",
+   "start": 17.05,
+   "end": 20.53,
+   "first_word_s": 17.05,
+   "last_word_s": 19.79,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "so they slip through.",
+   "start": 20.53,
+   "end": 21.9,
+   "first_word_s": 20.53,
+   "last_word_s": 21.09,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "So if the door is bent,",
+   "start": 21.9,
+   "end": 23.16,
+   "first_word_s": 21.9,
+   "last_word_s": 22.62,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "or won't close firmly, / stop using it.",
+   "start": 23.16,
+   "end": 26.45,
+   "first_word_s": 23.16,
+   "last_word_s": 25.02,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  },
+  {
+   "caption": "Download Recall to turn your / study material into lessons.",
+   "start": 26.45,
+   "end": 30.0,
+   "first_word_s": 26.45,
+   "last_word_s": 29.03,
+   "caption_lead_s": 0.0,
+   "ok": true,
+   "spoken": true
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {"id": "l01", "text": "This window is a metal net."},
+  {"id": "l02", "text": "Light gets through. So why don't the microwaves?"},
+  {"id": "l03", "text": "Microwaves are waves about twelve centimeters long."},
+  {"id": "l04", "text": "The holes are only about a millimeter wide, over a hundred times smaller."},
+  {"id": "l05", "text": "To waves that long, the net is like solid metal, so they bounce back inside."},
+  {"id": "l06", "text": "Light waves are about two thousand times smaller than the holes, so they slip through."},
+  {"id": "l07", "text": "So if the door is bent, or won't close firmly, stop using it."},
+  {"id": "l08", "text": "Download Recall to turn your study material into lessons."}
+ ]
+}

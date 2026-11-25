@@ -1,0 +1,109 @@
+{
+  "cues": {
+    "turnToCam": 2.94,
+    "waveTag": 6.37,
+    "mmTag": 9.23,
+    "over": 10.49,
+    "solidTag": 13.73,
+    "bounce": 15.49,
+    "lightTag": 17.97,
+    "gapTag": 22.62,
+    "gapOpen": 22.2,
+    "notice": 24.0,
+    "unplug": 24.6,
+    "cta": 26.45,
+    "smile2": 27.0,
+    "end": 29.0
+  },
+  "shots": [
+    {
+      "id": "hook_mesh",
+      "t0": 0,
+      "t1": 1.6
+    },
+    {
+      "id": "peer_react",
+      "t0": 1.6,
+      "t1": 4.6
+    },
+    {
+      "id": "giant_wave",
+      "t0": 4.6,
+      "t1": 7.95
+    },
+    {
+      "id": "giant_holes",
+      "t0": 7.95,
+      "t1": 12.35
+    },
+    {
+      "id": "giant_solid",
+      "t0": 12.35,
+      "t1": 15.25
+    },
+    {
+      "id": "giant_bounce",
+      "t0": 15.25,
+      "t1": 17.05
+    },
+    {
+      "id": "light_rays",
+      "t0": 17.05,
+      "t1": 20.4
+    },
+    {
+      "id": "peer_pov",
+      "t0": 20.4,
+      "t1": 21.9
+    },
+    {
+      "id": "door_gap",
+      "t0": 21.9,
+      "t1": 23.8
+    },
+    {
+      "id": "unplug",
+      "t0": 23.8,
+      "t1": 26.45
+    },
+    {
+      "id": "cafe_cta",
+      "t0": 26.45,
+      "t1": 30.0
+    }
+  ],
+  "narration": [
+    {
+      "id": "l01",
+      "start": 0.05
+    },
+    {
+      "id": "l02",
+      "start": 1.75
+    },
+    {
+      "id": "l03",
+      "start": 4.75
+    },
+    {
+      "id": "l04",
+      "start": 7.95
+    },
+    {
+      "id": "l05",
+      "start": 12.35
+    },
+    {
+      "id": "l06",
+      "start": 17.05
+    },
+    {
+      "id": "l07",
+      "start": 21.9
+    },
+    {
+      "id": "l08",
+      "start": 26.45
+    }
+  ]
+}
