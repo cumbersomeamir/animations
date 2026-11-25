@@ -1,0 +1,115 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Still rereading your notes?",
+      "start": 0.15,
+      "end": 1.465,
+      "pauses": [
+        [
+          1.238,
+          1.316
+        ]
+      ]
+    },
+    {
+      "id": "super",
+      "text": "It feels like learning. But will it stick?",
+      "start": 1.85,
+      "end": 3.955,
+      "pauses": [
+        [
+          2.939,
+          3.194
+        ],
+        [
+          3.793,
+          3.869
+        ]
+      ]
+    },
+    {
+      "id": "p1",
+      "text": "In one study, students reread a passage, or tried recalling it.",
+      "start": 5.0,
+      "end": 8.75,
+      "pauses": [
+        [
+          5.773,
+          6.03
+        ]
+      ]
+    },
+    {
+      "id": "p2",
+      "text": "Five minutes later, rereading looked better. A week later, recalling did better.",
+      "start": 9.25,
+      "end": 13.793,
+      "pauses": [
+        [
+          10.92,
+          10.999
+        ],
+        [
+          11.405,
+          11.906
+        ],
+        [
+          12.621,
+          12.7
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "Rereading felt more certain, but recall lasted. Many studies agree, though not all.",
+      "start": 14.55,
+      "end": 19.448,
+      "pauses": [
+        [
+          17.066,
+          17.573
+        ],
+        [
+          18.692,
+          18.821
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So close your notes, write what you remember, then check what you missed.",
+      "start": 20.5,
+      "end": 24.016,
+      "pauses": [
+        [
+          21.521,
+          21.772
+        ],
+        [
+          22.796,
+          22.882
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
