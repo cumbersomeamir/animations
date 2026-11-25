@@ -153,9 +153,9 @@ def main():
 
     # ---- key beat frames
     T = ev["T"]
-    beats = {"open_frame0": 0.0, "pushing": 1.1, "set_down": T["release"] + 0.4, "card_try2": T["try2"] + 0.6, "easy_beats": T["none"] + 0.5,
-             "mind_wanders": T["wanderB"] + 0.2, "doubt": T["doubt"] + 0.8, "note_stuck": T["note"] + 0.4, "watering": T["water"] + 0.4,
-             "turning": (T["spinA"] + T["spinB"]) / 2, "click": T["click"] + 0.15, "cta_lockup": 28.5, "last_frame": 29.98}
+    beats = {"open_frame0": 0.0, "pages_glow": T["feels"] + 0.6, "lines_drift": T["stick"] + 0.5, "card_groups": T["recall"] + 0.8,
+             "five_minutes": T["five"] + 0.9, "one_week": T["weekWin"] + 1.0, "felt_certain": T["certain"] + 0.9, "recall_lasted": T["lasted"] + 1.2,
+             "notes_closed": T["close"] + 0.5, "writing": (T["writeA"] + T["writeB"]) / 2, "gap_filled": T["fill"] + 0.4, "cta_lockup": 28.5, "last_frame": 29.98}
     for k, t in beats.items():
         frame_at(video, t).save(os.path.join(QA, "frames", f"beat_{k}_t{t:05.2f}.jpg"), quality=90)
 

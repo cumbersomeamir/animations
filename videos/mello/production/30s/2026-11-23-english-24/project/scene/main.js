@@ -553,8 +553,8 @@ function setEpisode(t) {
   // recall card and pencil (S6-S7): the card lies on the closed notebook's cover
   const cardOn = t >= S.s6 ? sm(remap(t, T.writeA - 0.6, T.writeA - 0.2)) : 0;
   recall.visible = sceneShot && t >= S.s6 && cardOn > 0.003;
-  if (recall.visible) { const spot = nbk.localToWorld(V(PAGE_W / 2 + 0.003, 0, 0.014)); const from = spot.clone().add(V(0.03, -0.12, 0.06));   // slides up onto the cover from just below (stays clear of the right rail)
-    recall.position.copy(vl(from, spot, cardOn)); recall.quaternion.copy(nbk.quaternion); recall.rotateZ(0.04);
+  if (recall.visible) { const spot = nbk.localToWorld(V(PAGE_W / 2 + 0.003, 0, 0.014)); const from = spot.clone().add(V(0.0, 0.04, 0.07));   // settles onto the cover from just above and in front (clear of the right rail and bottom zone)
+    recall.position.copy(vl(from, spot, cardOn)); recall.quaternion.copy(nbk.quaternion); recall.rotateZ(0.04); recall.scale.setScalar(lerp(0.7, 1, cardOn));
     recall.userData.border.material.opacity = 1; recall.userData.panel.material.opacity = 1; recTx.m.material.opacity = 1; drawRecall(t); }
   pencil2.visible = sceneShot && t >= S.s6 && t > T.writeA - 0.5;
   if (pencil2.visible && figRef.p) { pencil2.position.copy(figRef.p.handL).add(V(-0.01, 0.03, 0.02)); pencil2.rotation.set(0.5, 0, 0.6); }
