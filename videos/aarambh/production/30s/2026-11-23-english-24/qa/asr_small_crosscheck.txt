@@ -1,0 +1,9 @@
+faster-whisper small.en (int8), final export, no prompt:
+An extract against malaria kept failing. Two yo-yo found out why. What was ruining it? It was made with heat. An ancient recipe said, soak the herb, bring out the juice, no boiling. Her team extracted it cool in ether. In 1971, it cleared parasites and mice. That led to artemisinin and a 2015 Nobel Prize. Lesson, when a good idea fails, test the step you assumed was harmless. Download R.U.M.B to support Livelihood tools.
+same model with a name prompt ("Tu Youyou, artemisinin. Aarambh."):
+An extract against malaria kept failing. Tu Youyou found out why. What was ruining it? It was made with heat. An ancient recipe said, Soak the herb, ring out the juice, no boiling. Her team extracted it cool in ether. In 1971, it cleared parasites in mice. That led to artemisinin and a 2015 Nobel Prize. Lesson, when a good idea fails, test the step you assumed was harmless. Download Aarambh to support Livelihood tools.
+
+2026-11-25 follow-up on "parasites and mice" (small.en, no prompt):
+- the S5 narration WAV on its own is heard as "parasites in mice" by both small.en and tiny.en; the mishearing occurs only on the full mix;
+- a stressed "in" (phoneme override ɪn mˈaɪs -> ˈɪn mˈaɪs) was tried: isolated S5 passed both models, but tiny.en on the placed narration track then heard "parasites and mice" and dropped two words elsewhere (77 -> 75), so the override was rejected and the original S5 restored (md5 d05f02989215b7694beeaa6f81cdda96, identical to the exported narration);
+- tiny.en on the final export and small.en with the name prompt both hear "parasites in mice".

@@ -184,3 +184,14 @@
 - **Correction recorded:** the topic line's "solid" was not her finding; the narration separates her inference from the later evidence.
 - **Open:** a human listen.
 - **Read first next time:** 25 (incl. both addenda), then 11 and 37.
+
+## 2026-11-23 / 2026-11-25: english-24 #01 (English; fifth under the 2026-11-17 feedback addendum)
+- **Pre-flight:** batch 23 was complete and pushed (`14322cc`); the remote branch had no english-24 files.
+- **Topic check:** Tu Youyou was not covered before. It differs from batch 23's Inge Lehmann in its question, setting and mechanism (details in 38).
+- `videos/aarambh/production/30s/2026-11-23-english-24/aarambh-30s-english24-01.mp4` (sha256 `4c10d9aef8cfb950cdbe222fb77adcc5cb46e376a3e66707872038f41cd44720`) and thumbnail = frame 0 (sha256 `bac439f439e8585b002efe53daae63b2b0fbdef4754267beb217e7f8dc84033b`): Tu Youyou and the low-temperature clue.
+  - Frame 0: the real 2015 portrait beside a flask of glowing extract on a burner with a thermometer, "THE CLUE WAS THE TEMPERATURE".
+  - Story: sparks die ("What was ruining it?") → the flame, "HEAT" → the real Ge Hong recipe page, highlighted; the herb soaks and is wrung; "NO BOILING" → ice bath, 35°, "ETHER"; dive into a microscope, "1971 / extract 191", parasites clear → crystals, "ARTEMISININ", "NOBEL 2015" → lesson "test the step you assumed was harmless" (spotlight on heat; heat flips to cool) → Aarambh CTA.
+- **Resume (2026-11-25):** the render made on 2026-11-23 had not been committed. Narration and cues were regenerated and reproduced byte-identical, so the verified MP4 was reused; the sync table was added; a stressed-"in" fix for "parasites in mice" was tried and rejected (see 38).
+- **Commands:** see the batch `README.md` ("Rebuild"); QA via `node src/render.mjs --capbounds && bash tools/qa.sh && python tools/sync_table.py`.
+- **Open:** a human listen ("in mice" under the music).
+- **Read first next time:** 25 (incl. both addenda), then 11 and 38.

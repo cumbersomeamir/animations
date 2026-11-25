@@ -1,0 +1,391 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "An",
+   "start": 0.0,
+   "end": 0.3
+  },
+  {
+   "w": "extract",
+   "start": 0.3,
+   "end": 0.64
+  },
+  {
+   "w": "against",
+   "start": 0.64,
+   "end": 1.08
+  },
+  {
+   "w": "malaria",
+   "start": 1.08,
+   "end": 1.48
+  },
+  {
+   "w": "kept",
+   "start": 1.48,
+   "end": 1.92
+  },
+  {
+   "w": "failing.",
+   "start": 1.92,
+   "end": 2.36
+  },
+  {
+   "w": "Two",
+   "start": 2.8,
+   "end": 2.94
+  },
+  {
+   "w": "yoyo",
+   "start": 2.94,
+   "end": 3.32
+  },
+  {
+   "w": "found",
+   "start": 3.32,
+   "end": 3.56
+  },
+  {
+   "w": "out",
+   "start": 3.56,
+   "end": 3.78
+  },
+  {
+   "w": "why.",
+   "start": 3.78,
+   "end": 4.24
+  },
+  {
+   "w": "What",
+   "start": 4.54,
+   "end": 4.64
+  },
+  {
+   "w": "was",
+   "start": 4.64,
+   "end": 4.84
+  },
+  {
+   "w": "ruining",
+   "start": 4.84,
+   "end": 5.08
+  },
+  {
+   "w": "it?",
+   "start": 5.08,
+   "end": 5.62
+  },
+  {
+   "w": "It",
+   "start": 5.82,
+   "end": 5.9
+  },
+  {
+   "w": "was",
+   "start": 5.9,
+   "end": 6.02
+  },
+  {
+   "w": "made",
+   "start": 6.02,
+   "end": 6.2
+  },
+  {
+   "w": "with",
+   "start": 6.2,
+   "end": 6.46
+  },
+  {
+   "w": "heat.",
+   "start": 6.46,
+   "end": 6.8
+  },
+  {
+   "w": "An",
+   "start": 7.14,
+   "end": 7.32
+  },
+  {
+   "w": "ancient",
+   "start": 7.32,
+   "end": 7.66
+  },
+  {
+   "w": "recipe",
+   "start": 7.66,
+   "end": 8.02
+  },
+  {
+   "w": "said,",
+   "start": 8.02,
+   "end": 8.76
+  },
+  {
+   "w": "soak",
+   "start": 8.8,
+   "end": 9.0
+  },
+  {
+   "w": "the",
+   "start": 9.0,
+   "end": 9.2
+  },
+  {
+   "w": "herb,",
+   "start": 9.2,
+   "end": 9.44
+  },
+  {
+   "w": "ring",
+   "start": 9.6,
+   "end": 9.64
+  },
+  {
+   "w": "out",
+   "start": 9.64,
+   "end": 9.8
+  },
+  {
+   "w": "the",
+   "start": 9.8,
+   "end": 10.02
+  },
+  {
+   "w": "juice,",
+   "start": 10.02,
+   "end": 10.4
+  },
+  {
+   "w": "no",
+   "start": 10.7,
+   "end": 10.92
+  },
+  {
+   "w": "biling.",
+   "start": 10.92,
+   "end": 11.34
+  },
+  {
+   "w": "Her",
+   "start": 11.92,
+   "end": 12.06
+  },
+  {
+   "w": "team",
+   "start": 12.06,
+   "end": 12.26
+  },
+  {
+   "w": "extracted",
+   "start": 12.26,
+   "end": 12.78
+  },
+  {
+   "w": "it",
+   "start": 12.78,
+   "end": 13.14
+  },
+  {
+   "w": "cool",
+   "start": 13.14,
+   "end": 13.52
+  },
+  {
+   "w": "in",
+   "start": 13.52,
+   "end": 13.82
+  },
+  {
+   "w": "ether.",
+   "start": 13.82,
+   "end": 14.14
+  },
+  {
+   "w": "In",
+   "start": 14.7,
+   "end": 14.9
+  },
+  {
+   "w": "1971,",
+   "start": 14.9,
+   "end": 15.78
+  },
+  {
+   "w": "it",
+   "start": 15.78,
+   "end": 16.26
+  },
+  {
+   "w": "cleared",
+   "start": 16.26,
+   "end": 16.52
+  },
+  {
+   "w": "parasites",
+   "start": 16.52,
+   "end": 16.96
+  },
+  {
+   "w": "in",
+   "start": 16.96,
+   "end": 17.34
+  },
+  {
+   "w": "mice.",
+   "start": 17.34,
+   "end": 17.74
+  },
+  {
+   "w": "That",
+   "start": 18.18,
+   "end": 18.36
+  },
+  {
+   "w": "led",
+   "start": 18.36,
+   "end": 18.56
+  },
+  {
+   "w": "to",
+   "start": 18.56,
+   "end": 18.74
+  },
+  {
+   "w": "art",
+   "start": 18.74,
+   "end": 18.94
+  },
+  {
+   "w": "amissin'",
+   "start": 18.94,
+   "end": 19.3
+  },
+  {
+   "w": "in,",
+   "start": 19.62,
+   "end": 19.76
+  },
+  {
+   "w": "and",
+   "start": 19.8,
+   "end": 19.96
+  },
+  {
+   "w": "a",
+   "start": 19.96,
+   "end": 20.24
+  },
+  {
+   "w": "2015",
+   "start": 20.24,
+   "end": 20.66
+  },
+  {
+   "w": "Nobel",
+   "start": 20.66,
+   "end": 21.08
+  },
+  {
+   "w": "Prize.",
+   "start": 21.08,
+   "end": 21.76
+  },
+  {
+   "w": "Lesson,",
+   "start": 22.28,
+   "end": 22.7
+  },
+  {
+   "w": "when",
+   "start": 22.84,
+   "end": 22.94
+  },
+  {
+   "w": "a",
+   "start": 22.94,
+   "end": 23.02
+  },
+  {
+   "w": "good",
+   "start": 23.02,
+   "end": 23.24
+  },
+  {
+   "w": "idea",
+   "start": 23.24,
+   "end": 23.52
+  },
+  {
+   "w": "fails,",
+   "start": 23.52,
+   "end": 24.04
+  },
+  {
+   "w": "test",
+   "start": 24.34,
+   "end": 24.58
+  },
+  {
+   "w": "the",
+   "start": 24.58,
+   "end": 24.78
+  },
+  {
+   "w": "step",
+   "start": 24.78,
+   "end": 24.96
+  },
+  {
+   "w": "you",
+   "start": 24.96,
+   "end": 25.16
+  },
+  {
+   "w": "assumed",
+   "start": 25.16,
+   "end": 25.5
+  },
+  {
+   "w": "was",
+   "start": 25.5,
+   "end": 25.76
+  },
+  {
+   "w": "harmless.",
+   "start": 25.76,
+   "end": 26.2
+  },
+  {
+   "w": "Download",
+   "start": 26.2,
+   "end": 27.6
+  },
+  {
+   "w": "RM",
+   "start": 27.6,
+   "end": 28.08
+  },
+  {
+   "w": "to",
+   "start": 28.08,
+   "end": 28.56
+  },
+  {
+   "w": "support",
+   "start": 28.56,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.3
+  },
+  {
+   "w": "tools.",
+   "start": 29.3,
+   "end": 29.8
+  }
+ ],
+ "text": "An extract against malaria kept failing. Two yoyo found out why. What was ruining it? It was made with heat. An ancient recipe said, soak the herb, ring out the juice, no biling. Her team extracted it cool in ether. In 1971, it cleared parasites in mice. That led to art amissin' in, and a 2015 Nobel Prize. Lesson, when a good idea fails, test the step you assumed was harmless. Download RM to support livelihood tools."
+}

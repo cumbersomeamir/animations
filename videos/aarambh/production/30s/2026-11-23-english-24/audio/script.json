@@ -1,0 +1,57 @@
+{
+ "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+ "language": "English narration and English captions",
+ "phoneme_overrides": {
+  "tˈuː jˈaʊjuː": "tˈuː jˈoʊjˈoʊ"
+ },
+ "sentences": [
+  {
+   "id": "S1",
+   "start": 0.05,
+   "text": "An extract against malaria kept failing. Tu Youyou found out why.",
+   "tts": "An extract against malaria kept failing. Tu Youyou found out why."
+  },
+  {
+   "id": "S2",
+   "start": 4.45,
+   "text": "What was ruining it?",
+   "tts": "What was ruining it?"
+  },
+  {
+   "id": "S3",
+   "start": 5.75,
+   "text": "It was made with heat.",
+   "tts": "It was made with heat."
+  },
+  {
+   "id": "S4",
+   "start": 7.1,
+   "text": "An ancient recipe said: soak the herb, wring out the juice. No boiling.",
+   "tts": "An ancient recipe said: soak the herb, wring out the juice. No boiling."
+  },
+  {
+   "id": "S5",
+   "start": 11.8,
+   "text": "Her team extracted it cool, in ether. In 1971, it cleared parasites in mice.",
+   "tts": "Her team extracted it cool, in ether. In nineteen seventy-one, it cleared parasites in mice."
+  },
+  {
+   "id": "S6",
+   "start": 18.1,
+   "text": "That led to artemisinin, and a 2015 Nobel Prize.",
+   "tts": "That led to artemisinin, and a twenty fifteen Nobel Prize."
+  },
+  {
+   "id": "S7",
+   "start": 22.1,
+   "text": "Lesson: when a good idea fails, test the step you assumed was harmless.",
+   "tts": "Lesson: when a good idea fails, test the step you assumed was harmless."
+  },
+  {
+   "id": "S8",
+   "start": 27.1,
+   "text": "Download Aarambh to support livelihood tools.",
+   "tts": "Download Aa-rumbh, to support livelihood tools."
+  }
+ ]
+}
