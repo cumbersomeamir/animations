@@ -336,7 +336,7 @@ const onPhone = (x, y, z = 0.02) => phone.localToWorld(V(x, y, z));
 function labelAt(t) {
   if (t >= Hh.shield && t < Hh.cut2) return ['NOT BROKEN', P.mint, NAVY];
   if (t >= 7.3 && t < Hh.cut3) return ['FULL = FASTER AGING', AMBER, NAVY];
-  if (t >= Hh.nights[0] && t < Hh.chk[0] - 0.4) return ['LEARNS YOUR ROUTINE', P.mint, NAVY];
+  if (t >= 10.85 && t < Hh.chk[0] - 0.4) return ['LEARNS YOUR ROUTINE', P.mint, NAVY];
   if (t >= 15.95 && t < Hh.fill[0]) return ['HOLDS AT 80%', AMBER, NAVY];
   if (t >= 18.4 && t < Hh.cut5) return ['FULL WHEN YOU WAKE', P.mint, NAVY];
   if (t >= 21.1 && t < Hh.tap) return ['NEED IT NOW?', AMBER, NAVY];

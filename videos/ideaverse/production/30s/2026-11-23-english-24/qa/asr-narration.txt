@@ -1,0 +1,10 @@
+s1 placed  0.20s  heard [ 0.05.. 4.61]  MATCH: Your iPhone charges to 80 % overnight, then waits. Why does it stop?
+s2 placed  5.10s  heard [ 4.95.. 6.11]  MATCH: It's protecting the battery.
+s3 placed  6.70s  heard [ 6.55.. 8.99]  MATCH: Batteries age faster when they sit at full charge.
+s4 placed  9.60s  heard [ 9.45..12.57]  MATCH: Machine learning on the phone learns your charging routine.
+s5 placed 13.10s  heard [12.95..17.13]  MATCH: After two weeks of long charges in one place, it holds at 80%.
+s6 placed 17.62s  heard [17.47..20.09]  MATCH: and finishes shortly before you usually need it.
+s7 placed 21.10s  heard [20.95..24.99]  MATCH: Need it full now? Touch and hold the notification then tap charge now.
+s8 placed 27.20s  heard [27.05..28.35]  MATCH: Download the ideaverse app.
+all lines match script: True
+words outside a caption that shows them: none

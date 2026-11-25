@@ -63,5 +63,12 @@ their times, the lock screen and notification wording (EXAMPLE; generic, not App
 7. 26.85–30 CTA "Download the / [icon] Ideaverse app."
 Thumbnail: the hook scene + "STUCK AT / 80%?".
 
-## QA / status
-- IN PROGRESS (2026-11-23): stage, narration, score written; stills checked; full render running.
+## QA / status — DELIVERED 2026-11-25
+- Output: production/30s/2026-11-23-english-24/ideaverse-30s-english24-01.mp4 · sha256 ae8236f5…dff6, plus
+  ideaverse-30s-english24-01-thumbnail.png ("STUCK AT / 80%?"). QA.md in that folder.
+- 30.000 s, 900 frames, H.264 High yuv420p 1080x1920 30 fps, AAC-LC 48 kHz stereo; full decode clean; −15.0 LUFS / −1.4 dBTP.
+- English ASR on the final MP4: all eight lines MATCH, no word outside its caption; caption band y 282–458 inside x 100..900
+  (SPEC PASS); text-free above the band.
+- Frames: 900 in 1267 s (3 workers; verified intact after a container restart) + re-renders 283–375 (routine card content at the
+  cut) and 700–722 (caption boundary 23.6 s); score re-mixed.
+- Limitation: ASR-only listening check (no by-ear listen possible here).

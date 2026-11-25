@@ -70,7 +70,7 @@ thump(H.cut1, 0.1); glideTone(SFX, H.shield, 0.4, 600, 1100, 0.05); bell(SFX, H.
 // C · card: hours tick at 100%, the aging bar grows (low rising glide)
 paper(H.cut2, 0.15, 0.35); for (let i = 0; i < 8; i++) tick2(H.hours[0] + i * (H.hours[1] - H.hours[0]) / 8, 2000, 0.14); glideTone(SFX, H.hours[0], H.hours[1] - H.hours[0], 300, 450, 0.04);
 // D · card: ON THE PHONE, fourteen nights (quick ticks), usual unplug time, three checks (rising)
-paper(H.cut3, 0.15, 0.3); tick2(H.onPhone, 2400, 0.22); for (let i = 0; i < 14; i++) tick2(H.nights[0] + i * (H.nights[1] - H.nights[0]) / 14, 1800 + (i % 4) * 150, 0.1);
+paper(H.cut3, 0.15, 0.3); tick2(10.15, 2400, 0.22);   // accent on the spoken "on the phone" for (let i = 0; i < 14; i++) tick2(H.nights[0] + i * (H.nights[1] - H.nights[0]) / 14, 1800 + (i % 4) * 150, 0.1);
 tick2(H.unplug, 1600, 0.2); H.chk.forEach((t, i) => tick2(t, 2600 + i * 300, 0.26));
 // E/F · the night: slow ticks while it holds, a rising glide as it fills, a gentle alarm at 7:00
 thump(H.cut4, 0.1); for (let i = 0; i < 4; i++) tick2(H.hold[0] + 0.2 + i * 0.45, 1500, 0.08); glideTone(SFX, H.fill[0], H.fill[1] - H.fill[0], 500, 1000, 0.05);

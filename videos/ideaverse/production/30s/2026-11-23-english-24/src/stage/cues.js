@@ -13,7 +13,7 @@ const CUES = {
     // C · card: "Batteries age faster when they sit at full charge" 6.7–8.98 → hours tick at 100%, the age bar grows
     cut2: 6.55, hours: [7.0, 8.9],
     // D · card: "Machine learning on the phone" 9.6–10.84 → ON THE PHONE; "learns your charging routine" 10.84–12.34 → 14 nights
-    cut3: 9.45, onPhone: 10.15, nights: [10.85, 12.35], unplug: 12.45,
+    cut3: 9.45, onPhone: 9.3, nights: [10.0, 12.3], unplug: 12.45,
     //     "After two weeks · of long charges · in one place" 13.5 · 14.1 · 15.0 → three checks
     chk: [13.5, 14.15, 15.05],
     // E · night time-lapse: "it holds at 80%" 15.98–17.14 → clock runs, battery stays; F · "finishes shortly before you usually
@@ -38,8 +38,8 @@ const CUES = {
     { t0: 15.6, t1: 17.55, lines: [[['it holds at ', 0], ['80%,', 1]]] },
     { t0: 17.55, t1: 20.5, lines: [[['and finishes shortly', 0]], [['before you usually ', 0], ['need it.', 1]]] },
     { t0: 21.0, t1: 22.25, lines: [[['Need it full now?', 2]]] },
-    { t0: 22.25, t1: 23.8, lines: [[['Touch and hold', 1]], [['the notification,', 0]]] },
-    { t0: 23.8, t1: 25.7, lines: [[['then tap', 0]], [['Charge Now.', 1]]] },
+    { t0: 22.25, t1: 23.6, lines: [[['Touch and hold', 1]], [['the notification,', 0]]] },
+    { t0: 23.6, t1: 25.7, lines: [[['then tap', 0]], [['Charge Now.', 1]]] },
     { t0: 26.9, t1: 30.2, lines: [[['Download the', 0]], [['@icon', 0], ['Ideaverse app.', 1]]], cta: true },
   ],
 };

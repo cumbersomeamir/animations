@@ -236,7 +236,12 @@
 - Next: await user review. No further episode, no automation.
 
 ---
-# CURRENT — english-24 (2026-11-23, batch24) — IN PROGRESS
-- Proposed menu translation = repeat of round02-01 (+ already replaced in english-15) → Optimized Battery Charging (record
-  context/39). Stage src/stage/charging.js; 8 narration clips ASR-verified; score written; icon re-checked; full render running.
-- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.
+# CURRENT — english-24 (2026-11-23 batch24, finished 2026-11-25) — DELIVERED
+- Proposed menu translation = repeat of round02-01 (+ already replaced in english-15) → Optimized Battery Charging: why an iPhone
+  pauses at 80% overnight; Charge Now (record context/39).
+  production/30s/2026-11-23-english-24/ideaverse-30s-english24-01.mp4 (sha256 ae8236f5…dff6) + thumbnail; QA.md + qa/.
+- Resumed after a container restart: the checkpoint (6c13a69) and all 900 rendered frames were intact and reused; then encode,
+  mix/master/mux, QA, re-renders 283–375 and 700–722.
+- Checks: full decode OK; ASR all 8 lines MATCH, no word outside its caption; caption SPEC PASS (y 282–458); 29 earlier MP4s
+  unchanged. Icon re-checked 2026-11-23 (listing updated Nov 23, icon unchanged).
+- Next: await user review. No further episode, no automation.
