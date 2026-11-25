@@ -857,3 +857,39 @@ Episode record: `33-episode-incubation.md`. The same live feedback is applied (s
 
 ## Next
 - Wait for the next request or feedback.
+
+# English-24, 2026-11-23 → 25: episode english24-01 "still rereading your notes?" (the testing effect, English)
+Episode record: `34-episode-testing-effect.md`. The same live feedback is applied (store palette + soothing bed). Captions: `10-format-and-style-rules.md` section 10.
+
+## Verified facts (this round)
+- The proposed topic (affect labelling: naming "frustrated") is english20-01 (`30`), so an unrelated subject in the same genre was chosen: the testing effect / retrieval practice.
+  - It is not covered in 11–33. It differs from batch23 (incubation, `33`) in question, setting (a reading corner, no desk) and mechanism.
+- Sources:
+  - Roediger & Karpicke 2006 (*Psych Sci*, PMID 16507066; abstract): restudy was better at 5 min; testing was substantially better at 2 days and 1 week; restudy raised confidence.
+  - Karpicke & Roediger 2008 (*Science*); Rowland 2014 meta-analysis; Dunlosky et al. 2013 (practice testing high utility, rereading low).
+  - Limit: Sigayret et al. 2026 (PMC12894256), no testing effect online.
+
+## Creative decisions (this round)
+- English only, 68 words.
+- **Character:** the approved performer.
+- **Frame 0:** he rereads an open notebook while lilac lines lift off and fade; caption "Still rereading / your notes?".
+- **Story:** the pages glow, then the lines drift away → study cards (reread vs tried recalling; 5-minute vs 1-week bars, direction only) → lilac strips fade while the gold ones last → close the notes, write on a gold card, peek, fill the missed line.
+- **Audio and thumbnail:** Fmaj7 → Dm7 → Am7 → Cadd9; `BED_GAIN` 0.375 (13.1 dB). Thumbnail "STILL REREADING / YOUR NOTES?".
+
+## Completed (this round)
+- Resumed on 2026-11-25 from the checkpointed sources (commits c2e24f5, da3a5a3). The recall card's entrance was fixed (audit 2 → 0 issues).
+- Final: `videos/mello/production/30s/2026-11-23-english-24/mello-30s-english24-01.mp4`
+  - sha256 `15d5a3f957408b4d0e531557716e533a129c4da0523035bbd0f7ef9f0eba8d77`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- QA: 17/17 on the first full render (`production/30s/2026-11-23-english-24/qa/QA.md`):
+  - full decode clean; −16.1 LUFS, −1.4 dBTP;
+  - six cuts on plan; no non-cut jump;
+  - 0 safe-zone issues;
+  - English ASR CER 0.000 / WER 0.000.
+- Commands: `production/30s/2026-11-23-english-24/notes/production-notes.md`.
+
+## Unresolved
+- No listen-through (ASR and measurements only). The hook may sound like a statement rather than a question (ASR punctuation). The video-review folder is not reachable from this cloud session.
+
+## Next
+- Wait for the next request or feedback.

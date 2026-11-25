@@ -1,0 +1,59 @@
+{
+  "model": "large-v3-turbo",
+  "language": "en",
+  "cer": 0.0,
+  "wer": 0.0,
+  "reference": "Still rereading your notes? It feels like learning. But will it stick? In one study, students reread a passage, or tried recalling it. Five minutes later, rereading looked better. A week later, recalling did better. Rereading felt more certain, but recall lasted. Many studies agree, though not all. So close your notes, write what you remember, then check what you missed. Take a mindful break with Mello.",
+  "transcript": "Still rereading your notes. It feels like learning, but will it stick? In one study, students reread a passage or tried recalling it. Five minutes later, re-reading looked better. A week later, recalling did better. Rereading felt more certain, but recall lasted. Many studies agree, though not all. So close your notes, write what you remember, then check what you missed. Take a mindful break with Mello.",
+  "segments": [
+    {
+      "id": "hook",
+      "start": 0.15,
+      "end": 1.465,
+      "text": "Still rereading your notes.",
+      "cer": 0.0
+    },
+    {
+      "id": "super",
+      "start": 1.85,
+      "end": 3.955,
+      "text": "It feels like learning, but will it stick?",
+      "cer": 0.0
+    },
+    {
+      "id": "p1",
+      "start": 5.0,
+      "end": 8.75,
+      "text": "In one study, students reread a passage or tried recalling it.",
+      "cer": 0.0
+    },
+    {
+      "id": "p2",
+      "start": 9.25,
+      "end": 13.793,
+      "text": "Five minutes later, re-reading looked better. A week later, recalling did better.",
+      "cer": 0.0
+    },
+    {
+      "id": "why",
+      "start": 14.55,
+      "end": 19.448,
+      "text": "Rereading felt more certain, but recall lasted. Many studies agree, though not all.",
+      "cer": 0.0
+    },
+    {
+      "id": "payoff",
+      "start": 20.5,
+      "end": 24.016,
+      "text": "So close your notes, write what you remember, then check what you missed.",
+      "cer": 0.0
+    },
+    {
+      "id": "cta",
+      "start": 26.6,
+      "end": 28.32,
+      "text": "Take a mindful break with Mello.",
+      "cer": 0.0
+    }
+  ]
+}

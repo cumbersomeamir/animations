@@ -120,4 +120,19 @@ How the script uses them (measured / reported / advice / illustrative):
 - **S7, 24.6–30:** wider: the finished card on the closed notebook; lock-up from 26.3 s.
 
 ## Result
-(filled in after the final render)
+- Final: `videos/mello/production/30s/2026-11-23-english-24/mello-30s-english24-01.mp4`
+  - sha256 `15d5a3f957408b4d0e531557716e533a129c4da0523035bbd0f7ef9f0eba8d77`
+  - 1080x1920, 30/1 fps, 900 frames, H.264 High yuv420p + AAC-LC 48 kHz, 30.000 s.
+- Thumbnail: `mello-30s-english24-01-thumbnail.png`, sha256 `1a48b7b779d8c707f25fa83db5ce7042dba9886f04c70822e5e7a8b8aa2855d7` ("STILL REREADING / YOUR NOTES?").
+- QA: 17/17 on the first full render (`production/30s/2026-11-23-english-24/qa/QA.md`):
+  - full decode clean; −16.1 LUFS, −1.4 dBTP;
+  - six cuts on plan; no non-cut jump (12.6 max vs 18.5 softest cut);
+  - 0 safe-zone issues in 300 samples;
+  - ASR CER 0.000 / WER 0.000.
+- No listen-through (ASR and measurements only).
+- The work was resumed on 2026-11-25 from the checkpointed sources. The only change after the checkpoint was the recall card's entrance, which now stays clear of the safe zones.
+
+## Skill / scene adjustments for future episodes
+- **Homophones and swallowed endings in Kokoro:** test risky phrases with a quick synth + ASR round-trip before placing ("won" → "one", "every one" → "everyone", "tried to" → "try to").
+- **Props entering the frame:** anything vital that animates in (a card) must start inside the safe area. Settle it in place (a small offset plus a scale-up) rather than sliding it from a hand near the rail or from below.
+- **Floating graphics near the head:** in close shots, let them drift sideways rather than up, or they land behind the captions.

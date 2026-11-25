@@ -43,6 +43,8 @@ The source is a copy of `../../2026-11-21-english-23/project/` (renderer, audit,
    - It now settles onto the cover from just above and in front, growing from 70 % size.
 4. **Cut contrasts on stills:** 35.8 / 41.2 / 18.5 / 67.9 / 36.6 / 25.5. In-shot motion: 0.9 (clap), 1.1 (card arrival), 0.7 (fill).
 5. **ASR on the mix:** exact on all 7 lines (punctuation and the hyphen aside). Voice 13.1 dB over the bed.
+6. **Full render (2026-11-25, resumed from the checkpoint):** all 17 checks passed on the first render; the frame review found no defect. See `../qa/QA.md`.
+7. **Thumbnail:** at 130 px "STILL REREADING" wrapped to two lines and pushed "YOUR NOTES?" onto a drifting strip. It is now 112 px across 960 px, two lines, clear of the strips.
 
 ## Commands
 ```bash

@@ -22,8 +22,8 @@ await page.evaluate(() => {
   window.renderAt(0.0);
   document.getElementById('cap').style.display = 'none'; document.getElementById('lock').style.display = 'none';
   const d = document.createElement('div');
-  d.style.cssText = 'position:absolute;left:100px;top:200px;width:800px;text-align:center;font-family:"Instrument Serif",serif;color:#191632;line-height:0.86;letter-spacing:-0.01em;';
-  d.innerHTML = '<div style="font-size:130px">STILL REREADING</div><div style="font-size:130px;color:#633BFE">YOUR NOTES?</div>';
+  d.style.cssText = 'position:absolute;left:60px;top:200px;width:960px;text-align:center;font-family:"Instrument Serif",serif;color:#191632;line-height:0.86;letter-spacing:-0.01em;';
+  d.innerHTML = '<div style="font-size:112px">STILL REREADING</div><div style="font-size:112px;color:#633BFE">YOUR NOTES?</div>';
   document.getElementById('stage').appendChild(d);
 });
 await page.waitForTimeout(150);
