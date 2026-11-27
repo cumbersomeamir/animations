@@ -71,10 +71,16 @@ Same verified wording as E13–E24: "Download Recall to turn your study material
 
 ## Progress
 - 2026-11-27: setup + disk check; topic kept; sources verified; narration (ASR matched); timeline generator; giant zipper, nest demo,
-  pencil case; three preview passes; mix −14.62 LUFS, −1.6 dBTP, voice +16.1…+18.9 dB; checkpoint pushed; full render.
+  pencil case; three preview passes; mix −14.62 LUFS, −1.6 dBTP, voice +16.1…+18.9 dB; checkpoint pushed; full render (all checks passed); visual review → two framing fixes via partial re-render; final QA passed; committed.
 
 ## QA summary (verification results; details in the output folder's qa/QA.md)
-- (filled in after the full render)
+- Final MP4 sha256 `cfe9aada…e459`, 9,099,173 bytes; thumbnail sha256 `bd75319f…30a0`.
+- 25/25 automated checks pass; narration sync (all 9 lines within 0.2 ms) and caption sync (13 groups, lead 0.00–0.05 s) pass.
+- H.264 High 1080x1920 yuv420p 30 fps, 900 decoded frames, video/audio/container 30.000000 s, full decode clean; AAC-LC 48 kHz stereo.
+- −14.7 LUFS, −1.5 dBTP, LRA 2.0, 0 clipped samples; ASR WER 0.0; caption ink x 204–876, y 342–557; longest static run 10 frames.
+- Frame 0 = thumbnail (pill rows excluded: mean abs diff 1.76/255).
+- Visual review fixes: `pouch_react` caption over the face (camera pulled back/aimed higher) and `pull_tab` arm-dominated close-up
+  (higher view down on the case); partial re-render of frames 60–172 and 720–793, untouched neighbours md5-identical, re-mux, QA re-run.
 
 ## Publishing caption
 `production/30s/2026-11-27-english-25/publishing-caption.txt` (from `script.json`; exact transcript + illustration note + 2 sources +

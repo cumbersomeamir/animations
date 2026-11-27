@@ -71,7 +71,7 @@ export function makeChoreo(tl) {
     const Lp = (a, b, e = E.io) => a.clone().lerp(b, e(u)), g = (x, y, z) => G.clone().add(V(x, y, z)), n = (x, y, z) => Nn.clone().add(V(x, y, z));
     switch (s.id) {
       case 'hook_giant': return { pos: Lp(g(2.6, 0.6, 12.0), g(2.4, 0.7, 11.2)), target: g(0, 0.8, 0), fov: 46 };
-      case 'pouch_react': return { pos: Lp(V(-0.42, 1.52, 1.08), V(-0.37, 1.53, 0.96)), target: Lp(V(0.08, 1.3, -0.35), V(0.07, 1.31, -0.37)), fov: 46 };
+      case 'pouch_react': return { pos: Lp(V(-0.5, 1.55, 1.25), V(-0.45, 1.56, 1.12)), target: Lp(V(0.08, 1.45, -0.35), V(0.07, 1.46, -0.37)), fov: 52 };
       case 'giant_y': return { pos: Lp(g(1.8, 2.6, 6.2), g(1.4, 2.3, 5.4)), target: g(0, 0.5, 0), fov: 46 };
       case 'giant_close': return { pos: Lp(g(-2.1, 1.4, 5.4), g(-1.8, 1.2, 4.8)), target: g(0, 0.1, 0), fov: 46 };
       case 'tooth_parts': return { pos: Lp(n(2.3, -3.2, 4.4), n(2.0, -2.9, 4.0)), target: n(0, 0.3, 0), fov: 44 };
@@ -79,7 +79,7 @@ export function makeChoreo(tl) {
       case 'pull_test': return { pos: Lp(g(0.7, -4.2, 8.2), g(0.6, -4.3, 7.6)), target: g(0, -4.4, 0), fov: 46 };
       case 'giant_open': return { pos: Lp(g(1.9, 2.2, 5.2), g(1.6, 1.9, 4.6)), target: g(0, 0.7, 0), fov: 46 };
       case 'lock_catch': return { pos: Lp(g(1.3, -1.7, 3.7), g(1.15, -1.6, 3.4)), target: g(0, -1.2, 0), fov: 46 };
-      case 'pull_tab': { const c = caseL(0, 0.08, 0); return { pos: Lp(c.clone().add(V(-0.24, 0.38, 0.62)), c.clone().add(V(-0.2, 0.34, 0.55))), target: c.clone().add(V(0.0, 0.03, 0)), fov: 44 }; }
+      case 'pull_tab': { const c = caseL(0, 0.08, 0); return { pos: Lp(c.clone().add(V(0.04, 0.66, 0.46)), c.clone().add(V(0.03, 0.6, 0.42))), target: c.clone().add(V(0.0, 0.02, -0.03)), fov: 40 }; }
       case 'cafe_cta': return { pos: Lp(V(0.0, 1.72, 2.4), V(0.02, 1.82, 2.8)), target: Lp(V(-0.02, 1.36, -0.35), V(0.0, 1.4, -0.42)), fov: 46 };
       default: return { pos: V(0, 1.5, 1.5), target: V(0, 1.2, 0), fov: 35 };
     }

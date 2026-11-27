@@ -1,0 +1,208 @@
+{
+  "duration_s": 30.0,
+  "integrated_lufs": -14.62,
+  "true_peak_dbtp_est": -1.6,
+  "sample_peak_dbfs": -1.61,
+  "lines": [
+    {
+      "id": "l01",
+      "start": 0.05,
+      "end": 1.944,
+      "text": "Same slider, opposite jobs.",
+      "words": 4,
+      "words_per_s": 2.11,
+      "voice_over_bed_db": 17.1
+    },
+    {
+      "id": "l02",
+      "start": 2.15,
+      "end": 5.589,
+      "text": "Pull it one way, the teeth lock. Pull it back, they open. How?",
+      "words": 13,
+      "words_per_s": 3.78,
+      "voice_over_bed_db": 16.5
+    },
+    {
+      "id": "l03",
+      "start": 5.82,
+      "end": 8.475,
+      "text": "Inside, the slider's channel is shaped like a Y.",
+      "words": 9,
+      "words_per_s": 3.39,
+      "voice_over_bed_db": 18.9
+    },
+    {
+      "id": "l04",
+      "start": 8.7,
+      "end": 11.752,
+      "text": "Closing, its slanted walls squeeze both rows together.",
+      "words": 8,
+      "words_per_s": 2.62,
+      "voice_over_bed_db": 18.2
+    },
+    {
+      "id": "l05",
+      "start": 11.98,
+      "end": 16.27,
+      "text": "Each tooth has a bump and a hollow, so each bump nests in the next hollow.",
+      "words": 16,
+      "words_per_s": 3.73,
+      "voice_over_bed_db": 17.1
+    },
+    {
+      "id": "l06",
+      "start": 16.5,
+      "end": 18.799,
+      "text": "Nested, they hardly pull apart sideways.",
+      "words": 6,
+      "words_per_s": 2.61,
+      "voice_over_bed_db": 17.7
+    },
+    {
+      "id": "l07",
+      "start": 19.03,
+      "end": 21.998,
+      "text": "Opening, a wedge between the arms splits them apart.",
+      "words": 9,
+      "words_per_s": 3.03,
+      "voice_over_bed_db": 17.7
+    },
+    {
+      "id": "l08",
+      "start": 22.25,
+      "end": 25.122,
+      "text": "And many sliders hold still until you pull the tab.",
+      "words": 10,
+      "words_per_s": 3.48,
+      "voice_over_bed_db": 16.1
+    },
+    {
+      "id": "l09",
+      "start": 26.45,
+      "end": 29.733,
+      "text": "Download Recall to turn your study material into lessons.",
+      "words": 9,
+      "words_per_s": 2.74,
+      "voice_over_bed_db": 17.7
+    }
+  ],
+  "narration_words": 84,
+  "speech_s": 26.75,
+  "overall_words_per_s": 2.8,
+  "bpm": null,
+  "sfx_events": [
+    {
+      "t": 0.0,
+      "beat": 0.0,
+      "sfx": "giant slider closing (frame 0)"
+    },
+    {
+      "t": 0.0,
+      "sfx": "music: warm pad, chord per story beat (F maj7, D m9, Bb maj7, G m7, C sus, F maj7, Bb 6/9), sparse varied plucks; no loop"
+    },
+    {
+      "t": 2.35,
+      "beat": 4.7,
+      "sfx": "pencil case zipped shut"
+    },
+    {
+      "t": 3.95,
+      "beat": 7.9,
+      "sfx": "pencil case zipped open"
+    },
+    {
+      "t": 5.19,
+      "beat": 10.38,
+      "sfx": "How?"
+    },
+    {
+      "t": 5.5,
+      "beat": 11.0,
+      "sfx": "cut to the giant slider (ends before l03)"
+    },
+    {
+      "t": 6.0,
+      "beat": 12.0,
+      "sfx": "cover lifts away"
+    },
+    {
+      "t": 8.05,
+      "beat": 16.1,
+      "sfx": "Y channel"
+    },
+    {
+      "t": 8.7,
+      "beat": 17.4,
+      "sfx": "rows squeezed together (closing)"
+    },
+    {
+      "t": 9.89,
+      "beat": 19.78,
+      "sfx": "slanted walls"
+    },
+    {
+      "t": 12.85,
+      "beat": 25.7,
+      "sfx": "bump"
+    },
+    {
+      "t": 13.43,
+      "beat": 26.86,
+      "sfx": "hollow"
+    },
+    {
+      "t": 14.63,
+      "beat": 29.26,
+      "sfx": "teeth nest"
+    },
+    {
+      "t": 17.15,
+      "beat": 34.3,
+      "sfx": "pulled sideways"
+    },
+    {
+      "t": 17.5,
+      "beat": 35.0,
+      "sfx": "holds"
+    },
+    {
+      "t": 19.03,
+      "beat": 38.06,
+      "sfx": "wedge splits the rows (opening)"
+    },
+    {
+      "t": 19.82,
+      "beat": 39.64,
+      "sfx": "wedge"
+    },
+    {
+      "t": 22.77,
+      "beat": 45.54,
+      "sfx": "lock catch holds the slider"
+    },
+    {
+      "t": 24.11,
+      "beat": 48.22,
+      "sfx": "tab pulled"
+    },
+    {
+      "t": 24.33,
+      "beat": 48.66,
+      "sfx": "case unzips"
+    },
+    {
+      "t": 26.75,
+      "beat": 53.5,
+      "sfx": "Recall mark"
+    },
+    {
+      "t": 27.1,
+      "beat": 54.2,
+      "sfx": "smile"
+    }
+  ],
+  "music": "original subtle score synthesised in mix.py: warm pad changing chord per story beat + sparse, irregular plucks (no repeating loop)",
+  "ducking": "music -11 dB, foley -6 dB under voice",
+  "unused_scale": 1.45,
+  "voice_gain": 1.0
+}

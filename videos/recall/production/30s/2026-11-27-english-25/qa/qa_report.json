@@ -1,0 +1,429 @@
+{
+  "file": "production/30s/2026-11-27-english-25/recall-30s-english25-01.mp4",
+  "video": {
+    "codec_name": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_read_frames": "900",
+    "bit_rate": "2221810"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "30.000000",
+    "bit_rate": "195348"
+  },
+  "container_duration": "30.000000",
+  "size_bytes": 9099173,
+  "full_decode_stderr": "",
+  "loudness": {
+    "integrated_lufs": -14.7,
+    "lra_lu": 2.0,
+    "true_peak_dbfs": -1.5
+  },
+  "decoded_audio_peak": 0.8438452482223511,
+  "clipped_samples": 0,
+  "asr": {
+    "model": "faster-whisper base.en (int8, CPU)",
+    "transcript": "Same slider, opposite jobs, pull it one way the teeth lock, pull it back they open, how. Inside, the slider's channel is shaped like a Y. Closing, it's slanted walls squeeze both rows together. Each tooth has a bump and a hollow, so each bump nests in the next hollow. Nested, they hardly pull apart sideways. Opening, a wedge between the arms splits them apart, and many sliders hold still, until you pull the tab. Download Recall to turn your study material into lessons.",
+    "wer": 0.0,
+    "words": [
+      {
+        "w": "Same",
+        "t": 0.0
+      },
+      {
+        "w": "slider,",
+        "t": 0.24
+      },
+      {
+        "w": "opposite",
+        "t": 0.94
+      },
+      {
+        "w": "jobs,",
+        "t": 1.2
+      },
+      {
+        "w": "pull",
+        "t": 2.06
+      },
+      {
+        "w": "it",
+        "t": 2.28
+      },
+      {
+        "w": "one",
+        "t": 2.38
+      },
+      {
+        "w": "way",
+        "t": 2.54
+      },
+      {
+        "w": "the",
+        "t": 2.76
+      },
+      {
+        "w": "teeth",
+        "t": 2.92
+      },
+      {
+        "w": "lock,",
+        "t": 3.1
+      },
+      {
+        "w": "pull",
+        "t": 3.76
+      },
+      {
+        "w": "it",
+        "t": 3.94
+      },
+      {
+        "w": "back",
+        "t": 4.04
+      },
+      {
+        "w": "they",
+        "t": 4.24
+      },
+      {
+        "w": "open,",
+        "t": 4.44
+      },
+      {
+        "w": "how.",
+        "t": 5.2
+      },
+      {
+        "w": "Inside,",
+        "t": 6.24
+      },
+      {
+        "w": "the",
+        "t": 6.36
+      },
+      {
+        "w": "slider's",
+        "t": 6.46
+      },
+      {
+        "w": "channel",
+        "t": 6.84
+      },
+      {
+        "w": "is",
+        "t": 7.18
+      },
+      {
+        "w": "shaped",
+        "t": 7.38
+      },
+      {
+        "w": "like",
+        "t": 7.6
+      },
+      {
+        "w": "a",
+        "t": 7.9
+      },
+      {
+        "w": "Y.",
+        "t": 8.0
+      },
+      {
+        "w": "Closing,",
+        "t": 9.0
+      },
+      {
+        "w": "it's",
+        "t": 9.34
+      },
+      {
+        "w": "slanted",
+        "t": 9.52
+      },
+      {
+        "w": "walls",
+        "t": 9.8
+      },
+      {
+        "w": "squeeze",
+        "t": 10.08
+      },
+      {
+        "w": "both",
+        "t": 10.4
+      },
+      {
+        "w": "rows",
+        "t": 10.8
+      },
+      {
+        "w": "together.",
+        "t": 11.04
+      },
+      {
+        "w": "Each",
+        "t": 12.0
+      },
+      {
+        "w": "tooth",
+        "t": 12.08
+      },
+      {
+        "w": "has",
+        "t": 12.4
+      },
+      {
+        "w": "a",
+        "t": 12.68
+      },
+      {
+        "w": "bump",
+        "t": 12.8
+      },
+      {
+        "w": "and",
+        "t": 13.04
+      },
+      {
+        "w": "a",
+        "t": 13.26
+      },
+      {
+        "w": "hollow,",
+        "t": 13.4
+      },
+      {
+        "w": "so",
+        "t": 14.06
+      },
+      {
+        "w": "each",
+        "t": 14.28
+      },
+      {
+        "w": "bump",
+        "t": 14.5
+      },
+      {
+        "w": "nests",
+        "t": 14.76
+      },
+      {
+        "w": "in",
+        "t": 15.02
+      },
+      {
+        "w": "the",
+        "t": 15.36
+      },
+      {
+        "w": "next",
+        "t": 15.46
+      },
+      {
+        "w": "hollow.",
+        "t": 15.66
+      },
+      {
+        "w": "Nested,",
+        "t": 16.56
+      },
+      {
+        "w": "they",
+        "t": 17.12
+      },
+      {
+        "w": "hardly",
+        "t": 17.22
+      },
+      {
+        "w": "pull",
+        "t": 17.4
+      },
+      {
+        "w": "apart",
+        "t": 17.7
+      },
+      {
+        "w": "sideways.",
+        "t": 18.0
+      },
+      {
+        "w": "Opening,",
+        "t": 19.08
+      },
+      {
+        "w": "a",
+        "t": 19.62
+      },
+      {
+        "w": "wedge",
+        "t": 19.78
+      },
+      {
+        "w": "between",
+        "t": 20.0
+      },
+      {
+        "w": "the",
+        "t": 20.38
+      },
+      {
+        "w": "arms",
+        "t": 20.54
+      },
+      {
+        "w": "splits",
+        "t": 20.8
+      },
+      {
+        "w": "them",
+        "t": 21.14
+      },
+      {
+        "w": "apart,",
+        "t": 21.44
+      },
+      {
+        "w": "and",
+        "t": 22.12
+      },
+      {
+        "w": "many",
+        "t": 22.32
+      },
+      {
+        "w": "sliders",
+        "t": 22.48
+      },
+      {
+        "w": "hold",
+        "t": 22.92
+      },
+      {
+        "w": "still,",
+        "t": 23.22
+      },
+      {
+        "w": "until",
+        "t": 23.98
+      },
+      {
+        "w": "you",
+        "t": 24.08
+      },
+      {
+        "w": "pull",
+        "t": 24.3
+      },
+      {
+        "w": "the",
+        "t": 24.48
+      },
+      {
+        "w": "tab.",
+        "t": 24.64
+      },
+      {
+        "w": "Download",
+        "t": 25.84
+      },
+      {
+        "w": "Recall",
+        "t": 26.6
+      },
+      {
+        "w": "to",
+        "t": 27.08
+      },
+      {
+        "w": "turn",
+        "t": 27.7
+      },
+      {
+        "w": "your",
+        "t": 27.92
+      },
+      {
+        "w": "study",
+        "t": 28.06
+      },
+      {
+        "w": "material",
+        "t": 28.26
+      },
+      {
+        "w": "into",
+        "t": 28.68
+      },
+      {
+        "w": "lessons.",
+        "t": 29.0
+      }
+    ],
+    "word_timestamps_error": null
+  },
+  "caption_non_latin_chars": [],
+  "caption_ink_px": {
+    "left": 204.47598266601562,
+    "right": 875.5240173339844,
+    "top": 341.5,
+    "bottom": 556.62
+  },
+  "caption_max_lines": 2,
+  "top_230_violations": [],
+  "label_region_violations": [],
+  "overlay_overlaps": [],
+  "layout_frames_logged": 900,
+  "motion": {
+    "mean_frame_diff": 2.91,
+    "min_frame_diff": 0.0087,
+    "longest_static_run_frames": 10,
+    "max_frame_diff": 89.62,
+    "max_diff_at_s": 12.0
+  },
+  "luma_min_mean_max": [
+    72.7,
+    102.8,
+    145.4
+  ],
+  "checks": {
+    "h264": true,
+    "aac": true,
+    "1080x1920": true,
+    "30fps": true,
+    "900_frames": true,
+    "video_30.000s": true,
+    "audio_30.000s": true,
+    "container_30.000s": true,
+    "yuv420p": true,
+    "audio_48k_stereo": true,
+    "full_decode_clean": true,
+    "loudness_-16_to_-14": true,
+    "true_peak_le_-1dBTP": true,
+    "no_clipping": true,
+    "asr_wer_le_0.1": true,
+    "captions_english_only": true,
+    "layout_logged_every_frame": true,
+    "caption_ink_y_230_1500": true,
+    "caption_ink_x_100_900": true,
+    "caption_max_2_lines": true,
+    "top_0_230_clear": true,
+    "labels_in_central_region": true,
+    "no_overlay_overlaps": true,
+    "no_static_run_over_2s": true,
+    "no_black_frames": true
+  },
+  "all_checks_pass": true
+}

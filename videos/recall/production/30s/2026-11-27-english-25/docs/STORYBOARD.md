@@ -14,5 +14,5 @@ One idea per shot; hard cuts on narration beats; every shot moves. Timings from 
 | 7 | pull_test | 16.50–19.03 | locked chain, the tapes pulled sideways (lime arrows): the teeth hold · tag "holds" | l06 "Nested, they hardly pull apart sideways." | whoosh, thunk |
 | 8 | giant_open | 19.03–22.25 | opening: the chain runs back, the wedge (glowing lime) splits the rows into the arms · tag "wedge" | l07 "Opening, a wedge between the arms splits them apart." | ratchet (falling), tick |
 | 9 | lock_catch | 22.25–24.00 | ghosted cover: a small lime catch sits between two teeth; the tapes are pulled but the slider stays · tag "lock" | l08a "And many sliders hold still" | click, thunk |
-| 10 | pull_tab | 24.00–26.45 | café close-up: the performer pulls the tab and the case unzips | l08b "until you pull the tab." | click, zip |
+| 10 | pull_tab | 24.00–26.45 | café close-up from above the counter: the performer pulls the tab, the slider travels and the gap opens behind it | l08b "until you pull the tab." | click, zip |
 | 11 | cafe_cta | 26.45–30.00 | café: performer smiles; Recall pill | l09 "Download Recall to turn your study material into lessons." | pop, dings |
