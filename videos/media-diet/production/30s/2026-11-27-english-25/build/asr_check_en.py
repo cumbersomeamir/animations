@@ -7,7 +7,7 @@ import numpy as np
 from faster_whisper import WhisperModel
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TL = json.load(open(os.path.join(ROOT, 'src', 'timeline.json'))); DUR = {l['id']: l['duration'] for l in json.load(open(os.path.join(ROOT, 'src', 'data', 'lines.json')))}
-NUM = {'six kilometers': '6 km', '%': ' percent'}
+NUM = {'six': '6', 'kilometers': 'km', '%': ' percent'}
 def words(s):
     s = s.lower().replace('u.s.', 'us').replace('’', "'"); s = re.sub(r'(?<=\d),(?=\d)', '', s)
     for a, b in NUM.items(): s = s.replace(a, b)

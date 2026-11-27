@@ -57,5 +57,9 @@ failed fetch), restoring the pre-fetch state; `git fsck --connectivity-only` cle
 episode is produced entirely in RAM (/dev/shm, 16 GB): a sparse partial clone at /dev/shm/repo25 (context, assets, this folder), frames,
 audio, encode (CRF 20), QA and Git push from that clone; Chromium temp files in RAM. The disk checkout stays at 62dc6a7 (behind).
 
-## QA / limits
-Pending — filled in after the render (details will be in the output folder's QA.md).
+## QA / limits (final export; details in the output folder's QA.md)
+SHA-256 102d27f0b6da2bb8adf2fd673d88c42308f9479a0020a9892e63ed3a2356a29c (16.7 MB, CRF 20); 900 frames; video/audio/container 30.000 s;
+H.264 High yuv420p 1080×1920 30 fps; AAC-LC 48 kHz stereo (eng); full decode clean; −15.1 LUFS / −2.0 dBTP; captions ink y 362–488,
+x 191–888; labels x 205–877, y 1340–1478; 0 violations; caption↔speech 9/9; Whisper 1.0 full pass and per line (after fixing the
+check's "6 km" number map); 14 chunk starts continuous. Thumbnail = frame 0 as JPEG (SHA-256 2635a946…1a31), mean abs diff vs encoded
+frame 0 = 1.47/255. Limits: β depends on Dimorphos's density (2.2–4.9); illustrative paper models; not yet watched or listened to by a human.

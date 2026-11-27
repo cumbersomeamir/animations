@@ -486,3 +486,16 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
   2023); FCC 1-million-satellite authorisation (25 Nov) → rejected (regulatory, speculative). Record context/40; SOURCES.md; log row.
 - Script 80 words / 25.8 s (Whisper-exact). Scene: paper deep-space diorama (Dimorphos crater face, Hera, DART, plume, arrows, bars,
   paper Earth). CRF 20. Next: render (3 workers), chunk-start check, build, sheets, thumbnail, QA.md, commit, push, attach.
+
+## Checkpoint 2026-11-27 — english-25 / batch 25 delivered (produced and staged in RAM)
+- production/30s/2026-11-27-english-25/media-diet-30s-english25-01.mp4 (SHA-256 102d27f0b6da2bb8adf2fd673d88c42308f9479a0020a9892e63ed3a2356a29c,
+  16.7 MB, CRF 20) + thumbnail-english25-01.jpg (= frame 0); record context/40; context/11 log row → delivered; QA.md written.
+- Checks: 900 frames, 30.000 s video/audio/container, H.264 High yuv420p 1080×1920 30 fps, AAC 48 kHz (eng); decode clean; −15.1 LUFS /
+  −2.0 dBTP; captions y 362–488, x 191–888; labels y 1340–1478; 0 violations; caption↔speech 9/9; Whisper 1.0 full + per line (after
+  correcting the ASR number map for "6 kilometers"); 14 chunk starts continuous; contact sheets inspected (JPEG previews).
+- Commands (in /dev/shm/repo25/videos/media-diet/production/30s/2026-11-27-english-25): `TMPDIR=/dev/shm/md-e25/tmp bash build/render_chunks.sh …`
+  (3 workers) → `SKIP_FRAMES=1 bash build/build.sh` → `build/asr_check_en.py media-diet-30s-english25-01.mp4 qa/asr.json` (re-run) →
+  `node build/thumb.mjs /dev/shm/md-e25/thumbnail-english25-01.png` → JPEG q2; commits pushed from the RAM clone.
+- Unresolved: not yet watched or listened to by a human. The disk checkout /home/user/animations stays at 62dc6a7 (behind the remote;
+  root disk ~17 MB free; never fetch into it — a fetch fills the disk). /dev/shm is wiped on restart: resume by re-cloning (sparse,
+  blob-less) into RAM. Earlier outputs and caches untouched.
