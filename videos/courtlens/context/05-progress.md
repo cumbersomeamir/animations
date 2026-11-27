@@ -4,6 +4,62 @@ Rounds are listed newest first. Earlier rounds are preserved verbatim from previ
 Context files: 06-style-test.md + 07-test-progress.md (2026-11-01 15 s style test), 08-series-format.md (durable
 series format from 2026-11-02, newest direction), episodes/ (per-episode briefs; 2026-11-03 hindi-03 is Hindi).
 
+## Round 2026-11-27 (english-25, batch 25): "Flight cancelled. Voucher only?": DGCA refunds vs vouchers
+
+### Status
+- **Confirmed before edits:**
+  - resumed after a usage-limit pause; CLAUDE.md and this file reread; remote fetched
+  - clean and in sync at 1375737
+  - **no batch-25 folder locally or remotely and no batch-25 scratch files**, so nothing was lost or duplicated
+- **Topic:** new (no flight episode in 01–24; episode 08 was a late train) and used as given. Record:
+  `context/episodes/2026-11-27-english25-flight-voucher-refund.md`.
+- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
+  committed.
+
+### Verified facts (details: `production/30s/2026-11-27-english-25/notes/LEGAL-SOURCES.md`)
+- **DGCA CAR S3 Series M Part IV, Rev. 4** (25 Jan 2023, effective 15 Feb 2023; official PDF, sha256 3b4b5084…3ff4a):
+  - 3.3.1 alternate flight or refund "as acceptable to the passenger"
+  - 3.3.2 under 24 h notice: an acceptable alternate flight, or compensation (₹5,000 / 7,500 / 10,000 by block time,
+    or fare + fuel if less) in addition to the full refund
+  - 3.3.4 / 1.5 no compensation for causes beyond control, incl. meteorological conditions
+  - 3.7.1 compensation in cash or bank transfer; vouchers only with the passenger's signed agreement
+- **Part II clause 3(f):** the credit shell is the passenger's prerogative, not the airline's default. It comes from
+  the DGCA portal copy, apparently the Nov 2025 draft; the **final 24 Feb 2026 revision was not retrieved
+  (checkpoint)**. The SC (1 Oct 2020) records the clause as the petitioners' description; 2026 reports are consistent.
+
+### Creative decisions
+- **Frame zero = thumbnail:** an airport gate at dusk (plane at the gate, "FL 214 BOM CANCELLED" screen), the boarding
+  pass stamped CANCELLED with a gold VOUCHER card pushed over its corner; "FLIGHT CANCELLED. VOUCHER ONLY?"
+- **Mechanism:** the voucher flips into NEW FLIGHT / FULL REFUND (YOUR CHOICE).
+- **Conditions:** credit shell switch, DEFAULT struck (YOUR CALL); < 24h ring + unsuitable alternate ✕ (< 24 HOURS);
+  refund + ₹ bars by flight length → bank (CASH OR BANK); weather: compensation ✕, refund ✓ (NO COMPENSATION).
+- **Payoff:** the voucher pushed away + a written request (REFUND, IN WRITING).
+- **Narration:** trimmed from 30.6 s to 26.9 s of speech; "D.G.C.A." for the TTS.
+- **Mix gain:** 6.6 dB (−16.2 LUFS on the pre-render mix).
+
+### Exact commands (S = session scratchpad)
+```bash
+cd videos/courtlens/production/30s/2026-11-27-english-25/src
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python tts.py --model-dir $S/tts --lines narration.json --out ../audio/lines
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python align.py ../audio/lines narration.json $S/asr
+node render.cjs stills $S/st25 <times>
+node render.cjs thumb .. courtlens-30s-english25-01-thumbnail.png
+SKIP_TTS=1 PY=$S/tts/venv/bin/python WORK=$S/build25 PYTHONDONTWRITEBYTECODE=1 ./build.sh
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python qa.py ../courtlens-30s-english25-01.mp4 timeline.json ../audio/lines ../qa
+PYTHONDONTWRITEBYTECODE=1 $S/tts/venv/bin/python asr_check.py ../courtlens-30s-english25-01.mp4 narration.json timeline.json $S/asr ../qa/asr_check.json
+$S/tts/venv/bin/python capcheck.py ../courtlens-30s-english25-01.mp4 ../courtlens-30s-english25-01-thumbnail.png ../qa/frame-zero.jpg 230 470 470 545
+```
+
+### Fixed before the full render (stills review)
+- The departures-screen "CANCELLED" chip covered "BOM", so the font and chip were resized.
+- The boarding-pass stamp overflowed the card, so it was resized and lowered; the voucher now overlaps only the corner.
+- A ghost-money cue was removed as clutter.
+- The DEFAULT stamp collided with the CREDIT SHELL title, so it moved.
+- The bank icon overlapped the ₹10,000 label, so the icon and arrow moved up.
+
+### Next
+- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+
 ## Round 2026-11-23 (english-24, batch 24): "Locker robbed. Who pays?": bank locker liability (RBI)
 
 ### Status

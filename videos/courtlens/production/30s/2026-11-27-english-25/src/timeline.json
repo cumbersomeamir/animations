@@ -1,0 +1,195 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l1",
+   "start": 0.05
+  },
+  {
+   "id": "l2",
+   "start": 2.3
+  },
+  {
+   "id": "l3",
+   "start": 5.25
+  },
+  {
+   "id": "l4",
+   "start": 7.1
+  },
+  {
+   "id": "l5",
+   "start": 9.8
+  },
+  {
+   "id": "l6",
+   "start": 12.45
+  },
+  {
+   "id": "l7",
+   "start": 16.1
+  },
+  {
+   "id": "l8",
+   "start": 20.55
+  },
+  {
+   "id": "l9",
+   "start": 23.65
+  },
+  {
+   "id": "l10",
+   "start": 26.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.15,
+   "text": "FLIGHT CANCELLED. VOUCHER ONLY?",
+   "hl": [
+    "VOUCHER",
+    "ONLY?"
+   ],
+   "hook": true
+  },
+  {
+   "start": 2.15,
+   "end": 5.15,
+   "text": "The airline offers a voucher instead of your money.",
+   "hl": [
+    "your",
+    "money."
+   ]
+  },
+  {
+   "start": 5.15,
+   "end": 6.95,
+   "text": "DGCA rules say:",
+   "hl": [
+    "DGCA"
+   ]
+  },
+  {
+   "start": 6.95,
+   "end": 9.65,
+   "text": "you choose: another flight, or a full refund.",
+   "hl": [
+    "you",
+    "choose:"
+   ]
+  },
+  {
+   "start": 9.65,
+   "end": 12.3,
+   "text": "A credit shell is your call, not their default.",
+   "hl": [
+    "your",
+    "call,"
+   ]
+  },
+  {
+   "start": 12.3,
+   "end": 14.3,
+   "text": "Cancelled with under a day's notice,",
+   "hl": [
+    "under",
+    "a",
+    "day's"
+   ]
+  },
+  {
+   "start": 14.3,
+   "end": 15.95,
+   "text": "and no flight that suits you?",
+   "hl": [
+    "no",
+    "flight"
+   ]
+  },
+  {
+   "start": 15.95,
+   "end": 18.6,
+   "text": "Refund plus up to ₹10,000,",
+   "hl": [
+    "₹10,000,"
+   ]
+  },
+  {
+   "start": 18.6,
+   "end": 20.4,
+   "text": "in cash or bank transfer.",
+   "hl": [
+    "cash",
+    "or",
+    "bank",
+    "transfer."
+   ]
+  },
+  {
+   "start": 20.4,
+   "end": 23.5,
+   "text": "Except for causes beyond their control, like weather.",
+   "hl": [
+    "beyond",
+    "their",
+    "control,"
+   ]
+  },
+  {
+   "start": 23.5,
+   "end": 26.75,
+   "text": "Offered a voucher? Ask for your refund in writing.",
+   "hl": [
+    "in",
+    "writing."
+   ]
+  },
+  {
+   "start": 26.75,
+   "end": 30.0,
+   "text": "Follow Courtlens for everyday Indian law, explained.",
+   "hl": [
+    "Courtlens"
+   ]
+  }
+ ],
+ "events": {
+  "stampC": 0.4,
+  "v2c": 2.15,
+  "offer": 3.3,
+  "money": 4.6,
+  "v3": 5.15,
+  "stamp": 5.35,
+  "v4": 6.95,
+  "flip": 7.3,
+  "opt1": 7.7,
+  "opt2": 8.85,
+  "choiceLab": 9.15,
+  "v5": 9.65,
+  "toggle": 10.7,
+  "noDefault": 11.6,
+  "v6": 12.3,
+  "clock": 13.0,
+  "noFit": 14.5,
+  "noticeLab": 13.75,
+  "v7": 15.95,
+  "refund": 16.1,
+  "bars": 17.2,
+  "bank": 18.85,
+  "cashLab": 19.4,
+  "v8": 20.4,
+  "storm": 20.6,
+  "noComp": 21.9,
+  "ncLab": 22.3,
+  "v9": 23.5,
+  "push": 24.15,
+  "write": 24.95,
+  "writeLab": 25.6,
+  "v10": 26.75
+ }
+}
