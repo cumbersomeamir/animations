@@ -1,0 +1,84 @@
+[
+ {
+  "line": "V1",
+  "lines": [
+   "WE HIT AN ASTEROID.",
+   "HERE'S THE SCAR."
+  ],
+  "in": 0.0,
+  "out": 2.3,
+  "hook": true
+ },
+ {
+  "line": "V2",
+  "lines": [
+   "A European probe just found",
+   "a stadium-sized crater on it."
+  ],
+  "in": 2.32,
+  "out": 6.05
+ },
+ {
+  "line": "V3",
+  "lines": [
+   "A NASA probe had hit it at",
+   "six kilometers per second."
+  ],
+  "in": 6.07,
+  "out": 9.23
+ },
+ {
+  "line": "V4",
+  "lines": [
+   "Its orbit got 33 minutes",
+   "shorter, far more than predicted."
+  ],
+  "in": 9.25,
+  "out": 13.2
+ },
+ {
+  "line": "V5",
+  "lines": [
+   "Why? The blast threw rubble",
+   "backward, like rocket exhaust."
+  ],
+  "in": 13.22,
+  "out": 16.85
+ },
+ {
+  "line": "V6",
+  "lines": [
+   "That recoil multiplied the push",
+   "about three and a half times."
+  ],
+  "in": 16.87,
+  "out": 20.518
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "So the rubble did most",
+   "of the pushing."
+  ],
+  "in": 20.92,
+  "out": 23.05
+ },
+ {
+  "line": "V7",
+  "lines": [
+   "Good news for",
+   "planetary defense."
+  ],
+  "in": 23.07,
+  "out": 25.543
+ },
+ {
+  "line": "V8",
+  "lines": [
+   "Follow Media Diet for the",
+   "physics behind the headlines."
+  ],
+  "in": 25.92,
+  "out": 29.423
+ }
+]

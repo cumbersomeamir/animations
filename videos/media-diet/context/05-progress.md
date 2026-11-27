@@ -477,3 +477,12 @@ Read context in numbered order, storyboard, implement, render, inspect, fix and 
 - Unresolved: not yet watched or listened to by a human. The disk checkout /home/user/animations is untouched and behind the remote
   (root disk 19–20 MB free; pulling needs ≈ the new MP4's size). /dev/shm is wiped on restart, so a resumed session should re-clone
   (sparse, blob-less) into RAM or run on a fresh machine. Earlier outputs and caches untouched.
+
+## Checkpoint 2026-11-27 — english-25 / batch 25 (authorised 27 Nov; topic + sources recorded; rendering in RAM)
+- Start state: remote tip 68323bc (batch 24 delivered); no batch-25 output or checkpoint anywhere. Container restarted; root disk ~17 MB.
+  A fetch into the disk checkout failed (disk full) and left 43 unreachable partial objects (17.4 MB) + a temp file; only those were
+  removed (pre-fetch state restored, fsck clean). Episode produced in a RAM sparse clone (/dev/shm/repo25), pushed from there.
+- Candidates: ESA Hera's Dimorphos images (25 Nov 2026) → chosen (dramatic, primary-sourced, mechanism measured: β = 3.61, Cheng et al.
+  2023); FCC 1-million-satellite authorisation (25 Nov) → rejected (regulatory, speculative). Record context/40; SOURCES.md; log row.
+- Script 80 words / 25.8 s (Whisper-exact). Scene: paper deep-space diorama (Dimorphos crater face, Hera, DART, plume, arrows, bars,
+  paper Earth). CRF 20. Next: render (3 workers), chunk-start check, build, sheets, thumbnail, QA.md, commit, push, attach.

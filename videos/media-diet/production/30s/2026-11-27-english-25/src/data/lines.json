@@ -1,0 +1,50 @@
+[
+ {
+  "id": "V1",
+  "say": "We hit an asteroid. Here's the scar.",
+  "duration": 2.02,
+  "words": 7
+ },
+ {
+  "id": "V2",
+  "say": "A European probe just found a stadium-sized crater on it.",
+  "duration": 3.409,
+  "words": 10
+ },
+ {
+  "id": "V3",
+  "say": "A NASA probe had hit it at six kilometers per second.",
+  "duration": 2.838,
+  "words": 11
+ },
+ {
+  "id": "V4",
+  "say": "Its orbit got 33 minutes shorter, far more than predicted.",
+  "duration": 3.61,
+  "words": 10
+ },
+ {
+  "id": "V5",
+  "say": "Why? The blast threw rubble backward, like rocket exhaust.",
+  "duration": 3.265,
+  "words": 9
+ },
+ {
+  "id": "V6",
+  "say": "That recoil multiplied the push about three and a half times.",
+  "duration": 3.268,
+  "words": 11
+ },
+ {
+  "id": "V7",
+  "say": "So the rubble did most of the pushing. Good news for planetary defense.",
+  "duration": 4.243,
+  "words": 13
+ },
+ {
+  "id": "V8",
+  "say": "Follow Media Diet for the physics behind the headlines.",
+  "duration": 3.123,
+  "words": 9
+ }
+]

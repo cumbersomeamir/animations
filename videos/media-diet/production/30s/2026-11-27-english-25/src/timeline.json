@@ -1,0 +1,190 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "width": 1080,
+ "height": 1920,
+ "language": "en",
+ "voice": {
+  "engine": "kokoro-onnx 0.6.1 + Kokoro-82M v1.0 (cached)",
+  "blend": [
+   [
+    "af_bella",
+    0.7
+   ],
+   [
+    "am_puck",
+    0.3
+   ]
+  ],
+  "speed": 0.98,
+  "lang": "en-us"
+ },
+ "narration": [
+  {
+   "id": "V1",
+   "start": 0.05,
+   "say": "We hit an asteroid. Here's the scar.",
+   "cues": [
+    [
+     "WE HIT AN ASTEROID.",
+     "HERE'S THE SCAR."
+    ]
+   ],
+   "hook": true
+  },
+  {
+   "id": "V2",
+   "start": 2.4,
+   "say": "A European probe just found a stadium-sized crater on it.",
+   "cues": [
+    [
+     "A European probe just found",
+     "a stadium-sized crater on it."
+    ]
+   ]
+  },
+  {
+   "id": "V3",
+   "start": 6.15,
+   "say": "A NASA probe had hit it at six kilometers per second.",
+   "cues": [
+    [
+     "A NASA probe had hit it at",
+     "six kilometers per second."
+    ]
+   ]
+  },
+  {
+   "id": "V4",
+   "start": 9.33,
+   "say": "Its orbit got 33 minutes shorter, far more than predicted.",
+   "cues": [
+    [
+     "Its orbit got 33 minutes",
+     "shorter, far more than predicted."
+    ]
+   ]
+  },
+  {
+   "id": "V5",
+   "start": 13.3,
+   "say": "Why? The blast threw rubble backward, like rocket exhaust.",
+   "cues": [
+    [
+     "Why? The blast threw rubble",
+     "backward, like rocket exhaust."
+    ]
+   ]
+  },
+  {
+   "id": "V6",
+   "start": 16.95,
+   "say": "That recoil multiplied the push about three and a half times.",
+   "cues": [
+    [
+     "That recoil multiplied the push",
+     "about three and a half times."
+    ]
+   ]
+  },
+  {
+   "id": "V7",
+   "start": 21.0,
+   "say": "So the rubble did most of the pushing. Good news for planetary defense.",
+   "cues": [
+    [
+     "So the rubble did most",
+     "of the pushing."
+    ],
+    [
+     "Good news for",
+     "planetary defense."
+    ]
+   ]
+  },
+  {
+   "id": "V8",
+   "start": 26.0,
+   "say": "Follow Media Diet for the physics behind the headlines.",
+   "cues": [
+    [
+     "Follow Media Diet for the",
+     "physics behind the headlines."
+    ]
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.3,
+   "beat": "first frame / hook: illustration of Hera's view — Dimorphos with one face flattened into a stadium-sized crater, tumbling, boulders orbiting; \"WE HIT AN ASTEROID. / HERE'S THE SCAR.\""
+  },
+  {
+   "id": "S2",
+   "in": 2.3,
+   "out": 6.05,
+   "beat": "Hera (paper orbiter) photographs the moonlet; a paper stadium slides in beside the crater for scale; \"stadium-sized crater\" + ESA date chip"
+  },
+  {
+   "id": "S3",
+   "in": 6.05,
+   "out": 9.23,
+   "beat": "flashback 26 Sep 2022: NASA DART streaks in and hits the round, pre-impact Dimorphos; flash and first ejecta; \"6.1 km/s\""
+  },
+  {
+   "id": "S4",
+   "in": 9.23,
+   "out": 13.2,
+   "beat": "orbit: Dimorphos circles Didymos; the path tightens (gap exaggerated); \"orbit: 33 min shorter\""
+  },
+  {
+   "id": "S5",
+   "in": 13.2,
+   "out": 16.85,
+   "beat": "mechanism: slow-motion plume of rubble blasted back out of the impact face like rocket exhaust; the asteroid recoils the other way; \"rubble recoil\""
+  },
+  {
+   "id": "S6",
+   "in": 16.85,
+   "out": 20.9,
+   "beat": "sum of pushes: DART arrow (1×) + rubble recoil (≈2.6×) = ≈3.6× (β = 3.61, Cheng et al. 2023)"
+  },
+  {
+   "id": "S7",
+   "in": 20.9,
+   "out": 23.05,
+   "beat": "payoff: paper bars, DART vs rubble — the rubble did most of the pushing"
+  },
+  {
+   "id": "S8",
+   "in": 23.05,
+   "out": 25.9,
+   "beat": "planetary defence illustration: a generic incoming asteroid nudged by a probe misses a paper Earth"
+  },
+  {
+   "id": "S9",
+   "in": 25.9,
+   "out": 30.0,
+   "beat": "CTA: Media Diet sign flips up"
+  }
+ ],
+ "events": {
+  "stadium": 4.3,
+  "impact": 7.18,
+  "labSpeed": 7.6,
+  "orbit": 10.1,
+  "plume": 13.95,
+  "labRecoil": 14.5,
+  "exhaust": 15.6,
+  "arrowDart": 17.25,
+  "arrowRub": 17.65,
+  "labPush": 19.1,
+  "bars": 21.3,
+  "labMost": 21.5,
+  "hit": 23.6,
+  "labDefense": 23.4,
+  "sign": 26.15
+ }
+}
