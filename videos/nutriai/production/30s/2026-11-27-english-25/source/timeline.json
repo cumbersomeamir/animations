@@ -1,0 +1,406 @@
+{
+ "_doc": "CalMeter English 30 s english-25 (batch 25, 2026-11-27): apple peel fibre, 'WHAT'S IN THE PEEL?'. The requested 'why a spoon of tahini packs so much energy' overlapped english-06 (peanuts vs peanut butter, same 30 g, level vs heaped spoon) and the fat-density mechanism (english-09/16/20/21), so an unrelated same-genre subject was chosen (context/40): peeling an apple removes about half its fibre (USDA SR Legacy FDC 171688 with skin 2.4 g / 100 g vs FDC 171689 without skin 1.3 g; medium 3-inch apple 182 g vs 161 g -> 4.4 g vs 2.1 g; MedlinePlus Fiber). Barbershop, weigh-in, skin close-up, digestion slide, kitchen payoff; captions 80 px in y 280-460; one headline at a time. 30 fps, 900 frames. Caption frames from the take pauses (voice-stem RMS) plus ASR word times (qa/asr-takes.txt); the five lines the final-MP4 aligner flagged start within 0.04 s of the voice-stem onset (qa/sync.txt).",
+ "fps": 30,
+ "frames": 900,
+ "voice": [
+  {
+   "id": "T0",
+   "at": 0.15
+  },
+  {
+   "id": "T1",
+   "at": 3.45
+  },
+  {
+   "id": "T2",
+   "at": 5.55
+  },
+  {
+   "id": "T3",
+   "at": 10.5
+  },
+  {
+   "id": "T4",
+   "at": 14.55
+  },
+  {
+   "id": "T5",
+   "at": 17.1
+  },
+  {
+   "id": "T6",
+   "at": 20.9
+  },
+  {
+   "id": "T9",
+   "at": 27.1
+  }
+ ],
+ "captions": [
+  {
+   "in": 3,
+   "out": 47,
+   "lines": [
+    [
+     "Peeling an apple?",
+     5
+    ],
+    [
+     "Wait.",
+     35
+    ]
+   ]
+  },
+  {
+   "in": 52,
+   "out": 95,
+   "lines": [
+    [
+     "What are you",
+     55
+    ],
+    [
+     "throwing away?",
+     66
+    ]
+   ]
+  },
+  {
+   "in": 103,
+   "out": 152,
+   "lines": [
+    [
+     "Let's compare,",
+     104
+    ],
+    [
+     "gram for gram.",
+     116
+    ]
+   ]
+  },
+  {
+   "in": 166,
+   "out": 226,
+   "lines": [
+    [
+     "100 g of apple",
+     168
+    ],
+    [
+     "with its skin",
+     198
+    ]
+   ]
+  },
+  {
+   "in": 234,
+   "out": 296,
+   "lines": [
+    [
+     "has 2.4 g",
+     236
+    ],
+    [
+     "of fibre.",
+     272
+    ]
+   ]
+  },
+  {
+   "in": 314,
+   "out": 368,
+   "lines": [
+    [
+     "The same 100 g,",
+     316
+    ],
+    [
+     "peeled,",
+     344
+    ]
+   ]
+  },
+  {
+   "in": 374,
+   "out": 418,
+   "lines": [
+    [
+     "has just 1.3.",
+     376
+    ]
+   ]
+  },
+  {
+   "in": 436,
+   "out": 500,
+   "lines": [
+    [
+     "Much of the fibre",
+     437
+    ],
+    [
+     "sits in that thin skin.",
+     453
+    ]
+   ]
+  },
+  {
+   "in": 513,
+   "out": 566,
+   "lines": [
+    [
+     "And fibre aids",
+     514
+    ],
+    [
+     "digestion,",
+     535
+    ]
+   ]
+  },
+  {
+   "in": 570,
+   "out": 612,
+   "lines": [
+    [
+     "helping keep",
+     571
+    ],
+    [
+     "you regular.",
+     586
+    ]
+   ]
+  },
+  {
+   "in": 627,
+   "out": 678,
+   "lines": [
+    [
+     "So peel a",
+     628
+    ],
+    [
+     "medium apple,",
+     644
+    ]
+   ]
+  },
+  {
+   "in": 680,
+   "out": 718,
+   "lines": [
+    [
+     "and about half",
+     681
+    ],
+    [
+     "its fibre goes",
+     697
+    ]
+   ]
+  },
+  {
+   "in": 719,
+   "out": 760,
+   "lines": [
+    [
+     "with the peel.",
+     721
+    ]
+   ]
+  },
+  {
+   "in": 811,
+   "out": 906,
+   "lines": [
+    [
+     "Track your nutrition",
+     813
+    ],
+    [
+     "with CalMeter",
+     832
+    ]
+   ]
+  }
+ ],
+ "events": {
+  "wait": 35,
+  "binOpen": 60,
+  "spin": 103,
+  "whipAB": 150,
+  "wedgesL": 168,
+  "fibL": 224,
+  "k24": 238,
+  "wedgesR": 316,
+  "fibR": 366,
+  "k13": 387,
+  "dive": 430,
+  "skin": 455,
+  "whipCD": 505,
+  "aids": 525,
+  "regular": 586,
+  "ribbon": 612,
+  "peel2": 632,
+  "drain": 650,
+  "half": 693,
+  "binLand": 742,
+  "cta": 800,
+  "ctaWord": 841,
+  "sWait": 36,
+  "sZip": 103,
+  "sTear": 112,
+  "sBin": 138,
+  "sPatL": 172,
+  "sTicksL": 178,
+  "sFibL": 224,
+  "sTick24": 296,
+  "sPatR": 320,
+  "sTicksR": 326,
+  "sFibR": 366,
+  "sTick13": 418,
+  "sSkin": 500,
+  "sBump": 562,
+  "sReg": 606,
+  "sZip2": 631,
+  "sThud": 746,
+  "sBoing": 858
+ },
+ "sfx": [
+  {
+   "ev": "sWait",
+   "type": "pop",
+   "gain": -31
+  },
+  {
+   "ev": "binOpen",
+   "type": "creak",
+   "gain": -36
+  },
+  {
+   "ev": "sZip",
+   "type": "zip",
+   "dur": 0.8,
+   "gain": -29
+  },
+  {
+   "ev": "sTear",
+   "type": "tear",
+   "gain": -31
+  },
+  {
+   "ev": "sBin",
+   "type": "thud",
+   "gain": -31
+  },
+  {
+   "ev": "whipAB",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "sPatL",
+   "type": "patter",
+   "dur": 0.5,
+   "gain": -33
+  },
+  {
+   "ev": "sTicksL",
+   "type": "ticks",
+   "dur": 0.6,
+   "gain": -35
+  },
+  {
+   "ev": "sFibL",
+   "type": "sprinkle",
+   "dur": 0.35,
+   "gain": -33
+  },
+  {
+   "ev": "sTick24",
+   "type": "tick",
+   "gain": -28
+  },
+  {
+   "ev": "sPatR",
+   "type": "patter",
+   "dur": 0.5,
+   "gain": -33
+  },
+  {
+   "ev": "sTicksR",
+   "type": "ticks",
+   "dur": 0.6,
+   "gain": -35
+  },
+  {
+   "ev": "sFibR",
+   "type": "sprinkle",
+   "dur": 0.3,
+   "gain": -33
+  },
+  {
+   "ev": "sTick13",
+   "type": "tick",
+   "gain": -28
+  },
+  {
+   "ev": "dive",
+   "type": "whoosh",
+   "dur": 0.6,
+   "gain": -28
+  },
+  {
+   "ev": "sSkin",
+   "type": "chime",
+   "gain": -31
+  },
+  {
+   "ev": "whipCD",
+   "type": "whoosh",
+   "dur": 0.4,
+   "gain": -27
+  },
+  {
+   "ev": "sBump",
+   "type": "boing",
+   "gain": -32
+  },
+  {
+   "ev": "sReg",
+   "type": "tick",
+   "gain": -29
+  },
+  {
+   "ev": "ribbon",
+   "type": "tear",
+   "gain": -29
+  },
+  {
+   "ev": "sZip2",
+   "type": "zip",
+   "dur": 0.6,
+   "gain": -32
+  },
+  {
+   "ev": "sThud",
+   "type": "thud",
+   "gain": -29
+  },
+  {
+   "ev": "cta",
+   "type": "swish",
+   "dur": 0.7,
+   "gain": -26
+  },
+  {
+   "ev": "sBoing",
+   "type": "boing",
+   "gain": -30
+  }
+ ],
+ "_sfx_note": "no foley lands on a spoken number; fibre sprinkles sit in the pauses before '2.4' and '1.3', the ticks after each number"
+}

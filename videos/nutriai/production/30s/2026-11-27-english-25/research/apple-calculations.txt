@@ -1,0 +1,17 @@
+Apple peel fibre: calculations (2026-11-27). Inputs: USDA SR Legacy (FDC 171688 / NDB 09003 "Apples, raw, with skin"; FDC 171689 / NDB 09004 "Apples, raw, without skin"), per 100 g edible portion; SR28 household weights and refuse.
+
+Fibre, total dietary (g / 100 g edible):   with skin 2.4 (n = 29, range 1.4-3.5)   without skin 1.3 (n = 4, range 1.1-1.5)
+Equal weights (100 g vs 100 g):            peeled keeps 1.3 / 2.4 = 54 %; skin-on has 2.4 / 1.3 = 1.85x ("2.4 g" vs "1.3 g" on screen)
+
+Medium apple (USDA household measure "medium (3\" dia)", same size for both records):
+  with skin   182 g edible x 2.4 / 100 = 4.368 g  -> "4.4 g"
+  peeled      161 g edible x 1.3 / 100 = 2.093 g  -> "2.1 g"
+  removed by peeling: 4.368 - 2.093 = 2.275 g = 52.1 % of the whole apple's fibre -> "about half its fibre goes with the peel" ("HALF THE FIBRE")
+
+Peel share of weight (not narrated; supports "that thin skin"):
+  household weights: 182 - 161 = 21 g = 11.5 % of the skin-on edible apple
+  SR28 refuse: with skin 10 % (core and stem); without skin 23 % (10 % core and stem, 13 % skin) -> skin = 13 / 90 = 14 % of the skin-on edible portion
+  so roughly an eighth of the eaten apple (by weight) carries about half of its fibre -> "Much of the fibre sits in that thin skin"
+
+Gauges drawn to scale: weigh-in tubes full = 3 g (2.4 g -> 80 %, 1.3 g -> 43 %); kitchen tube full = 5 g with 5 ticks (4.4 g -> 88 %, 2.1 g -> 42 %).
+Caveats: USDA averages; the two records come from different sample sets (n = 29 vs n = 4); varieties and sizes vary.

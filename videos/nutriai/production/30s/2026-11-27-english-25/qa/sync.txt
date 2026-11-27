@@ -1,0 +1,36 @@
+Peeling an apple?            caption   0.17s  speech   0.00s  diff +0.17
+Wait.                        caption   1.17s  speech   1.22s  diff -0.05
+What are you                 caption   1.83s  speech   1.60s  diff +0.23
+throwing away?               caption   2.20s  speech   2.08s  diff +0.12
+Let's compare,               caption   3.47s  speech   3.34s  diff +0.13
+gram for gram.               caption   3.87s  speech   3.94s  diff -0.07
+100 g of apple               caption   5.60s  speech    n/as  diff n/a
+with its skin                caption   6.60s  speech   6.62s  diff -0.02
+has 2.4 g                    caption   7.87s  speech   7.30s  diff +0.57
+of fibre.                    caption   9.07s  speech   9.04s  diff +0.03
+The same 100 g,              caption  10.53s  speech  10.48s  diff +0.05
+peeled,                      caption  11.47s  speech  11.52s  diff -0.05
+has just 1.3.                caption  12.53s  speech  11.86s  diff +0.67
+Much of the fibre            caption  14.57s  speech  14.54s  diff +0.03
+sits in that thin skin.      caption  15.10s  speech  15.12s  diff -0.02
+And fibre aids               caption  17.13s  speech  16.82s  diff +0.31
+digestion,                   caption  17.83s  speech  17.80s  diff +0.03
+helping keep                 caption  19.03s  speech  18.90s  diff +0.13
+you regular.                 caption  19.53s  speech  19.44s  diff +0.09
+So peel a                    caption  20.93s  speech  21.00s  diff -0.07
+medium apple,                caption  21.47s  speech  21.48s  diff -0.01
+and about half               caption  22.70s  speech  22.60s  diff +0.10
+its fibre goes               caption  23.23s  speech  23.12s  diff +0.11
+with the peel.               caption  24.03s  speech  23.94s  diff +0.09
+Track your nutrition         caption  27.10s  speech  24.56s  diff +2.54
+with CalMeter                caption  27.73s  speech  27.69s  diff +0.04
+21 of 26 caption lines within ±0.25 s of the spoken word (base.en word timestamps)
+
+Voice-stem check (build/voice.wav, 10 ms RMS, speech = above -40 dBFS):
+  Peeling an apple?        caption  0.17s  stem onset  0.18s (silence 0.00-0.18s)  diff -0.01
+  100 g of apple           caption  5.60s  stem onset  5.59s (silence 5.30-5.59s)  diff +0.01
+  has 2.4 g                caption  7.87s  stem onset  7.84s (silence 7.55-7.84s)  diff +0.03
+  has just 1.3.            caption 12.53s  stem onset 12.54s (silence 12.25-12.54s)  diff -0.01
+  And fibre aids           caption 17.13s  stem onset 17.14s (silence 16.80-17.14s)  diff -0.01
+  Track your nutrition     caption 27.10s  stem onset 27.14s (silence 26.00-27.14s)  diff -0.04
+Result: 21 of 26 caption lines within ±0.25 s by base.en word timestamps; the other 5 ('100 g of apple' spoken 'A hundred', the post-pause 'has 2.4 g', 'has just 1.3.', 'And fibre aids', and the post-pause CTA where the ASR stretched 'Track' back over the 2.3 s silence) start within ±0.03 s of the voice-stem onset -> 26 of 26 within ±0.25 s.

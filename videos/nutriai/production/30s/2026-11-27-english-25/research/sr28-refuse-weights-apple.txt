@@ -1,0 +1,22 @@
+USDA SR28 ASCII release (sr28asc.zip, sha256 8308fd1d…ee70a), extracted 2026-11-27 from FOOD_DES.txt and WEIGHT.txt (fields: NDB, Seq, Amount, Msre_Desc, Gm_Wgt, Num_Data_Pts, Std_Dev).
+
+FOOD_DES (NDB, group, description, ..., refuse description, refuse %):
+~09003~^~0900~^~Apples, raw, with skin~^~APPLES,RAW,WITH SKIN~^~Includes USDA commodity food A343~^~~^~Y~^~Core and stem~^10^~Malus domestica~^6.25^3.36^8.37^3.60
+~09004~^~0900~^~Apples, raw, without skin~^~APPLES,RAW,WITHOUT SKIN~^~~^~~^~Y~^~10% core and stem, 13% skin~^23^~Malus domestica~^6.25^3.36^8.37^3.60
+
+WEIGHT:
+~09003~^1^1^~cup, quartered or chopped~^125^^
+~09003~^2^1^~cup slices~^109^60^6.953
+~09003~^3^1^~large (3-1/4" dia)~^223^113^32.277
+~09003~^4^1^~medium (3" dia)~^182^113^20.572
+~09003~^5^1^~small (2-3/4" dia)~^149^113^17.362
+~09003~^6^1^~extra small (2-1/2" dia)~^101^^
+~09003~^7^1^~NLEA serving~^242^^
+~09004~^1^1^~cup slices~^110^^
+~09004~^2^1^~large (3-1/4" dia)~^216^20^29.845
+~09004~^3^1^~medium (3" dia)~^161^19^20.523
+~09004~^4^1^~small (2-3/4" dia)~^132^19^14.449
+
+NUT_DATA 291 (fibre, total dietary; g / 100 g; value, n, std error, ..., min, max):
+~09003~^~291~^2.4^29^0.276^~1~^~A~^~~^~~^3^1.4^3.5^4^1.584^3.118^~2~^06/2003^
+~09004~^~291~^1.3^4^0.090^~1~^~A~^~~^~~^1^1.1^1.5^1^0.382^2.181^~2, 3~^09/2002^
