@@ -1,0 +1,43 @@
+{
+ "voice": "af_bella:0.7+am_puck:0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "lines": [
+  {
+   "id": "l01",
+   "text": "Same slider, opposite jobs."
+  },
+  {
+   "id": "l02",
+   "text": "Pull it one way, the teeth lock. Pull it back, they open. How?"
+  },
+  {
+   "id": "l03",
+   "text": "Inside, the slider's channel is shaped like a Y."
+  },
+  {
+   "id": "l04",
+   "text": "Closing, its slanted walls squeeze both rows together."
+  },
+  {
+   "id": "l05",
+   "text": "Each tooth has a bump and a hollow, so each bump nests in the next hollow."
+  },
+  {
+   "id": "l06",
+   "text": "Nested, they hardly pull apart sideways."
+  },
+  {
+   "id": "l07",
+   "text": "Opening, a wedge between the arms splits them apart."
+  },
+  {
+   "id": "l08",
+   "text": "And many sliders hold still until you pull the tab."
+  },
+  {
+   "id": "l09",
+   "text": "Download Recall to turn your study material into lessons."
+  }
+ ]
+}

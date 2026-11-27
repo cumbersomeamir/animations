@@ -1,0 +1,463 @@
+{
+ "fps": 30,
+ "frames": 900,
+ "duration": 30.0,
+ "language": "en",
+ "narration": [
+  {
+   "id": "l01",
+   "start": 0.05
+  },
+  {
+   "id": "l02",
+   "start": 2.15
+  },
+  {
+   "id": "l03",
+   "start": 5.82
+  },
+  {
+   "id": "l04",
+   "start": 8.7
+  },
+  {
+   "id": "l05",
+   "start": 11.98
+  },
+  {
+   "id": "l06",
+   "start": 16.5
+  },
+  {
+   "id": "l07",
+   "start": 19.03
+  },
+  {
+   "id": "l08",
+   "start": 22.25
+  },
+  {
+   "id": "l09",
+   "start": 26.45
+  }
+ ],
+ "shots": [
+  {
+   "id": "hook_giant",
+   "t0": 0,
+   "t1": 2.0
+  },
+  {
+   "id": "pouch_react",
+   "t0": 2.0,
+   "t1": 5.75
+  },
+  {
+   "id": "giant_y",
+   "t0": 5.75,
+   "t1": 8.7
+  },
+  {
+   "id": "giant_close",
+   "t0": 8.7,
+   "t1": 11.98
+  },
+  {
+   "id": "tooth_parts",
+   "t0": 11.98,
+   "t1": 14.2
+  },
+  {
+   "id": "tooth_nest",
+   "t0": 14.2,
+   "t1": 16.5
+  },
+  {
+   "id": "pull_test",
+   "t0": 16.5,
+   "t1": 19.03
+  },
+  {
+   "id": "giant_open",
+   "t0": 19.03,
+   "t1": 22.25
+  },
+  {
+   "id": "lock_catch",
+   "t0": 22.25,
+   "t1": 24.0
+  },
+  {
+   "id": "pull_tab",
+   "t0": 24.0,
+   "t1": 26.45
+  },
+  {
+   "id": "cafe_cta",
+   "t0": 26.45,
+   "t1": 30.0
+  }
+ ],
+ "cues": {
+  "zipClose": 2.3,
+  "lockWord": 3.09,
+  "zipOpen": 3.9499999999999997,
+  "how": 5.19,
+  "coverLift": 6.0,
+  "yTag": 8.0,
+  "wallsTag": 9.84,
+  "squeeze": 10.06,
+  "bumpTag": 12.8,
+  "hollowTag": 13.38,
+  "nest": 14.51,
+  "pullApart": 17.4,
+  "wedgeTag": 19.77,
+  "split": 20.79,
+  "catchTag": 22.97,
+  "tabPull": 24.31,
+  "cta": 26.45,
+  "smile2": 27.0,
+  "end": 29.0
+ },
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "lines": [
+    [
+     [
+      "SAME SLIDER,",
+      0
+     ]
+    ],
+    [
+     [
+      "OPPOSITE JOBS",
+      1
+     ]
+    ]
+   ],
+   "title": true
+  },
+  {
+   "start": 2.15,
+   "end": 3.73,
+   "lines": [
+    [
+     [
+      "Pull it one way,",
+      0
+     ]
+    ],
+    [
+     [
+      "the teeth ",
+      0
+     ],
+     [
+      "lock.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 3.73,
+   "end": 5.19,
+   "lines": [
+    [
+     [
+      "Pull it back,",
+      0
+     ]
+    ],
+    [
+     [
+      "they ",
+      0
+     ],
+     [
+      "open.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 5.19,
+   "end": 5.82,
+   "lines": [
+    [
+     [
+      "How?",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 5.82,
+   "end": 8.7,
+   "lines": [
+    [
+     [
+      "Inside, the slider's channel",
+      0
+     ]
+    ],
+    [
+     [
+      "is shaped like a ",
+      0
+     ],
+     [
+      "Y.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 8.7,
+   "end": 11.98,
+   "lines": [
+    [
+     [
+      "Closing, its ",
+      0
+     ],
+     [
+      "slanted walls",
+      1
+     ]
+    ],
+    [
+     [
+      "squeeze both rows together.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 11.98,
+   "end": 14.2,
+   "lines": [
+    [
+     [
+      "Each tooth has a ",
+      0
+     ],
+     [
+      "bump",
+      1
+     ]
+    ],
+    [
+     [
+      "and a ",
+      0
+     ],
+     [
+      "hollow,",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 14.2,
+   "end": 16.5,
+   "lines": [
+    [
+     [
+      "so each bump ",
+      0
+     ],
+     [
+      "nests",
+      1
+     ]
+    ],
+    [
+     [
+      "in the next hollow.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 16.5,
+   "end": 19.03,
+   "lines": [
+    [
+     [
+      "Nested, they ",
+      0
+     ],
+     [
+      "hardly",
+      1
+     ]
+    ],
+    [
+     [
+      "pull apart sideways.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 19.03,
+   "end": 22.25,
+   "lines": [
+    [
+     [
+      "Opening, a ",
+      0
+     ],
+     [
+      "wedge",
+      1
+     ],
+     [
+      " between",
+      0
+     ]
+    ],
+    [
+     [
+      "the arms splits them apart.",
+      0
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 22.25,
+   "end": 23.57,
+   "lines": [
+    [
+     [
+      "And many sliders",
+      0
+     ]
+    ],
+    [
+     [
+      "hold still",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 23.57,
+   "end": 26.45,
+   "lines": [
+    [
+     [
+      "until you ",
+      0
+     ],
+     [
+      "pull the tab.",
+      1
+     ]
+    ]
+   ]
+  },
+  {
+   "start": 26.45,
+   "end": 30.0,
+   "lines": [
+    [
+     [
+      "Download ",
+      0
+     ],
+     [
+      "Recall",
+      1
+     ],
+     [
+      " to turn your",
+      0
+     ]
+    ],
+    [
+     [
+      "study material into lessons.",
+      0
+     ]
+    ]
+   ]
+  }
+ ],
+ "music_sections": [
+  [
+   0,
+   5.75,
+   [
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   5.75,
+   11.98,
+   [
+    50,
+    53,
+    57,
+    60,
+    64
+   ]
+  ],
+  [
+   11.98,
+   16.5,
+   [
+    48,
+    53,
+    55,
+    58
+   ]
+  ],
+  [
+   16.5,
+   22.25,
+   [
+    46,
+    50,
+    53,
+    57
+   ]
+  ],
+  [
+   22.25,
+   26.45,
+   [
+    45,
+    48,
+    52,
+    57
+   ]
+  ],
+  [
+   26.45,
+   30.0,
+   [
+    46,
+    50,
+    53,
+    55,
+    62
+   ]
+  ]
+ ]
+}

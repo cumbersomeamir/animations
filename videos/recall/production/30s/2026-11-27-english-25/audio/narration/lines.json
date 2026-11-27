@@ -1,0 +1,79 @@
+{
+  "voice": "af_bella:0.7+am_puck:0.3",
+  "speed": 0.98,
+  "model": "Kokoro-82M v1.0 ONNX (onnx-community, Apache-2.0)",
+  "lines": [
+    {
+      "id": "l01",
+      "text": "Same slider, opposite jobs.",
+      "file": "l01.wav",
+      "duration": 1.893,
+      "sr": 24000,
+      "words_per_s": 2.11
+    },
+    {
+      "id": "l02",
+      "text": "Pull it one way, the teeth lock. Pull it back, they open. How?",
+      "file": "l02.wav",
+      "duration": 3.439,
+      "sr": 24000,
+      "words_per_s": 3.78
+    },
+    {
+      "id": "l03",
+      "text": "Inside, the slider's channel is shaped like a Y.",
+      "file": "l03.wav",
+      "duration": 2.655,
+      "sr": 24000,
+      "words_per_s": 3.39
+    },
+    {
+      "id": "l04",
+      "text": "Closing, its slanted walls squeeze both rows together.",
+      "file": "l04.wav",
+      "duration": 3.052,
+      "sr": 24000,
+      "words_per_s": 2.62
+    },
+    {
+      "id": "l05",
+      "text": "Each tooth has a bump and a hollow, so each bump nests in the next hollow.",
+      "file": "l05.wav",
+      "duration": 4.29,
+      "sr": 24000,
+      "words_per_s": 3.73
+    },
+    {
+      "id": "l06",
+      "text": "Nested, they hardly pull apart sideways.",
+      "file": "l06.wav",
+      "duration": 2.299,
+      "sr": 24000,
+      "words_per_s": 2.61
+    },
+    {
+      "id": "l07",
+      "text": "Opening, a wedge between the arms splits them apart.",
+      "file": "l07.wav",
+      "duration": 2.967,
+      "sr": 24000,
+      "words_per_s": 3.03
+    },
+    {
+      "id": "l08",
+      "text": "And many sliders hold still until you pull the tab.",
+      "file": "l08.wav",
+      "duration": 2.872,
+      "sr": 24000,
+      "words_per_s": 3.48
+    },
+    {
+      "id": "l09",
+      "text": "Download Recall to turn your study material into lessons.",
+      "file": "l09.wav",
+      "duration": 3.283,
+      "sr": 24000,
+      "words_per_s": 2.74
+    }
+  ]
+}
