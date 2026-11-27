@@ -1,18 +1,18 @@
-# Storyboard — Recall english-24 "This window is a metal net" (30.000 s, 1080x1920)
+# Storyboard — Recall english-25 "Same slider, opposite jobs" (30.000 s, 1080x1920)
 
-Structure (brief): hook 0–3 · superhook 3–5 · proof 5–21 · payoff 21–27 · CTA 27–30 (CTA starts 26.45, as E13–E23).
+Structure (brief): hook 0–3 · build-up/proof to 21 · payoff by 27 · CTA (starts 26.45, as E13–E24).
 One idea per shot; hard cuts on narration beats; every shot moves. Timings from `timeline.json`.
 
 | # | shot | time (s) | picture | narration / caption | foley |
 |---|---|---|---|---|---|
-| 1 | hook_mesh | 0.00–1.60 | **Frame 0 = thumbnail:** macro on the microwave door — a perforated metal net with a lit terracotta mug (lime band) turning behind it; title "THIS WINDOW / IS A METAL NET" (fades by the cut) | l01 "This window is a metal net." (title = speech) | oven hum, tick |
-| 2 | peer_react | 1.60–4.60 | the performer leans in and peers through the door (profile), then turns to camera with a raised brow | l02 "Light gets through. / So why don't the microwaves?" | hum, tick on the head turn |
-| 3 | giant_wave | 4.60–7.95 | giant door cut-away from behind and above: a lime microwave snakes toward the perforated sheet; a ruler marks one wavelength · tag "~12 cm wave" | l03 "Microwaves are waves about twelve centimeters long." | cut whoosh, low wave hum, tick |
-| 4 | giant_holes | 7.95–12.35 | close on the sheet: holes drawn at the same scale (1 mm vs the 120 mm wave); a ruler across one hole · tag "~1 mm hole" | l04 "The holes are only about a millimeter wide, over a hundred times smaller." | tick, blip |
-| 5 | giant_solid | 12.35–15.25 | the wave reaches the sheet; the sheet tints lime as one solid surface · tag "like solid metal" | l05a "To waves that long, the net is like solid metal," | metal thunk |
-| 6 | giant_bounce | 15.25–17.05 | a paler reflected wave heads back inside; nothing passes · tag "bounces back" | l05b "so they bounce back inside." | boing, reverse whoosh |
-| 7 | light_rays | 17.05–20.40 | outside, close on the holes: warm light rays stream through them · tag "light ~0.0005 mm" | l06a "Light waves are about two thousand times smaller than the holes," | shimmer, ping |
-| 8 | peer_pov | 20.40–21.90 | the performer's view through the door: the lit mug, clearly visible through the net | l06b "so they slip through." | hum |
-| 9 | door_gap | 21.90–23.80 | overhead on the giant door's edge: the bent door lifts off the oven body, leaving a gap; a wave squeezes out · tag "gap" | l07a "So if the door is bent," | creak, whoosh, tick |
-| 10 | unplug | 23.80–26.45 | café: the door sits ajar, oven off; the performer notices, frowns, and pulls the plug from the power strip | l07b "or won't close firmly, stop using it." | plug clunk |
-| 11 | cafe_cta | 26.45–30.00 | the café: performer smiles; Recall pill | l08 "Download Recall to turn your study material into lessons." | pop, dings |
+| 1 | hook_giant | 0.00–2.00 | **Frame 0 = thumbnail:** a giant zipper slider (lime pull tab): two separate rows of teeth enter its top, locked teeth leave its bottom; title "SAME SLIDER, / OPPOSITE JOBS" | l01 "Same slider, opposite jobs." (title = speech) | slow zipper ratchet |
+| 2 | pouch_react | 2.00–5.75 | café: the performer zips a pencil case shut, then open again, and looks up with a raised brow | l02 "Pull it one way, the teeth lock. / Pull it back, they open. / How?" | zip, unzip, tick |
+| 3 | giant_y | 5.75–8.70 | the slider's cover lifts away: inside, a Y-shaped channel with a wedge between the arms · tag "Y channel" | l03 "Inside, the slider's channel is shaped like a Y." | cut whoosh, cover whoosh, tick |
+| 4 | giant_close | 8.70–11.98 | closing: the slanted walls (glowing lime) steer the two rows together as the chain runs through · tag "slanted walls" | l04 "Closing, its slanted walls squeeze both rows together." | ratchet (rising), tick |
+| 5 | tooth_parts | 11.98–14.20 | four big teeth from alternating tapes, apart: lime bumps on top, rimmed hollows underneath · tags "bump", "hollow" | l05a "Each tooth has a bump and a hollow," | blips |
+| 6 | tooth_nest | 14.20–16.50 | the teeth slide together; each bump disappears into the next tooth's hollow · tag "nested" | l05b "so each bump nests in the next hollow." | three clacks |
+| 7 | pull_test | 16.50–19.03 | locked chain, the tapes pulled sideways (lime arrows): the teeth hold · tag "holds" | l06 "Nested, they hardly pull apart sideways." | whoosh, thunk |
+| 8 | giant_open | 19.03–22.25 | opening: the chain runs back, the wedge (glowing lime) splits the rows into the arms · tag "wedge" | l07 "Opening, a wedge between the arms splits them apart." | ratchet (falling), tick |
+| 9 | lock_catch | 22.25–24.00 | ghosted cover: a small lime catch sits between two teeth; the tapes are pulled but the slider stays · tag "lock" | l08a "And many sliders hold still" | click, thunk |
+| 10 | pull_tab | 24.00–26.45 | café close-up: the performer pulls the tab and the case unzips | l08b "until you pull the tab." | click, zip |
+| 11 | cafe_cta | 26.45–30.00 | café: performer smiles; Recall pill | l09 "Download Recall to turn your study material into lessons." | pop, dings |

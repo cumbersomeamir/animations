@@ -1,62 +1,53 @@
-# Sources and claim check — Recall english-24 "This window is a metal net" (why a microwave door has a metal mesh you can see through)
+# Sources and claim check — Recall english-25 "Same slider, opposite jobs" (why a zipper locks one way and opens the other)
 
-Read on 2026-11-23 (public pages via curl, page text extracted). Quotes are verbatim (whitespace normalised). Not cited: an FDA
-"Microwave Ovens" product page URL that returned HTTP 404.
+Read on 2026-11-27. S1 was read as page text from Google Patents (OCR of the 1917 patent; quotes below are cleaned of obvious OCR
+artefacts such as broken words, without changing wording). S2/S3 were read through the session's web-fetch tool (YKK's site refuses
+plain curl). Not cited: the Smithsonian object record for the patent model (HTTP 403 to curl; only seen via search snippets).
 
 ## Topic check → topic kept (why)
-The suggested subject — why a microwave door's metal mesh lets you see in but keeps microwaves inside (wavelength vs hole size,
-conductive shielding) — is **not** in the topic history. Earlier microwave episodes covered *heating*: R02 (context 16, cold patches /
-standing waves), H04's request (turntable, declined → induction), E07's and E21's suggestions (heating / frozen centres, declined as
-R02) and E11 (context 25, dielectric heating of water vs the plate). None covers the door screen, shielding or the wavelength-vs-hole
-mechanism, so the topic was kept. It differs from batch 23 (E23, smoke alarm) in question (why a see-through metal net blocks
-microwaves vs how an alarm detects smoke), setting (counter microwave + a giant perforated door sheet vs café ceiling + optical chamber)
-and mechanism (wavelength vs aperture / reflection by conductive metal vs light scattering by particles).
+No delivered episode covers zippers, sliders or interlocking teeth (F01–E24; checked against context 11's table and all records).
+It differs from batch 24 (E24, microwave door screen: wavelength vs hole size) in question (why one slider both joins and splits teeth),
+setting (café pencil case + a giant slider cut-away) and mechanism (a Y-shaped channel and wedge acting on staggered, nesting teeth —
+mechanics, not waves).
 
 ## Sources read
 | # | source | used for |
 |---|---|---|
-| S1 | HyperPhysics, "Microwave Ovens" (R. Nave, Georgia State University), http://hyperphysics.phy-astr.gsu.edu/hbase/Waves/mwoven.html | holes ~1 mm vs a 120 mm wavelength (~120×), waves can't get out; 2,450 MHz → ~12 cm; visible light ~2000× smaller than the holes, so you can see through |
-| S2 | NASA Science, "Microwaves", https://science.nasa.gov/ems/06_microwaves/ | oven microwaves about 12 cm long |
-| S3 | NASA Science, "Visible Light", https://science.nasa.gov/ems/09_visiblelight/ | the eye detects ~380–700 nm (label "~0.0005 mm" = 500 nm) |
-| S4 | U.S. FDA, "Microwave Oven Radiation", https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-oven-radiation | microwaves are reflected by metal; leakage is limited (not zero) by a federal standard; damaged hinges/latches/seals can leak; don't operate an oven whose door doesn't close firmly or is bent, warped or damaged; interlocks stop microwaves when the door opens |
-| S5 | 21 CFR 1030.10 (eCFR), https://www.ecfr.gov/current/title-21/part-1030 | leakage limit 1 mW/cm² (new) and 5 mW/cm² thereafter at 5 cm; two interlocks → nothing here claims zero leakage, and the oven is never shown running with its door open |
+| S1 | G. Sundback, US Patent 1,219,881 "Separable fastener" (filed 1914, granted 20 March 1917), https://patents.google.com/patent/US1219881A/en | the slider's Y-shaped channel and the point/tongue between the diverging channels; inclined side walls; moving the slide one way unlocks/opens, the other way closes; staggered members each with a recess on one side and a projection on the other; the outside of one nests in the recess of the next; engaged stringers have practically no movement of separation |
+| S2 | YKK Americas, "The Difference Between Pin Lock Sliders and Auto Lock Sliders for Zippers", https://ykkamericas.com/difference-between-pin-lock-sliders-and-auto-lock-sliders/ | an auto-lock slider stays in place unless the tab is pulled; it prevents the slider moving on its own when the tape is forced apart; pin-lock pins pushed into the elements |
+| S3 | YKK Americas, "FAQs", https://ykkamericas.com/faq/ | (context) forcing a slider that doesn't run smoothly can damage the elements — not used in the narration |
 
 ## Verbatim quotes
-- **S1:** "the microwaves are effectively blocked from getting out into the room because the holes in the metal screen on the microwave
-  oven door are about 1 mm in diameter compared to a 120 mm wavelength for the microwaves. The wavelength of the microwaves is about 120
-  times the size of the holes, and can't "see" the holes to get out." "You can see through the holes because at 500 nm wavelength, the
-  visible light wavelengths are about 2000 times smaller than the holes." "Considering the frequency of 2,450 MHz, the wavelength of
-  microwave oven radiation is about 12 cm".
-- **S2:** "Microwave ovens work by using microwave about 12 centimeters in length".
-- **S3:** "Typically, the human eye can detect wavelengths from 380 to 700 nanometers."
-- **S4:** "Microwaves have three characteristics that allow them to be used in cooking: they are reflected by metal; they pass through
-  glass, paper, plastic, and similar materials; and they are absorbed by foods." "A Federal standard (21 CFR 1030.10) limits the amount of
-  microwaves that can leak from an oven throughout its lifetime to 5 milliwatts (mW) of microwave radiation per square centimeter at
-  approximately 2 inches from the oven surface." "Don't operate a microwave oven if the door does not close firmly or is bent, warped, or
-  otherwise damaged." "The standard also requires all ovens to have two independent interlock systems that stop the production of
-  microwaves the moment the latch is released or the door is opened."
-- **S5:** "shall not exceed 1 milliwatt per square centimeter at any point 5 centimeters or more from the external surface of the oven,
-  measured prior to acquisition by a purchaser, and, thereafter, 5 milliwatts per square centimeter".
+- **S1:** "two stamped sides 7 each having a Y-shaped channel forming a tongue" … "a cap having a point to fit between the diverging
+  channels". Claim: "a manually controlled slide having a chamber open at one end for the passage of the interlocking members … a tongue
+  disposed in said chamber near the other end of the slide and separating the chamber into sidewise extending branch channels … the side
+  walls of said chamber having inclined faces". "adapted to engage the said interlocking members on moving the slide in one direction to
+  unlock and open the said members, the said slide when moved in the opposite direction closing the said members". "interlocking members
+  secured thereto in staggered relation, each member having a recess on one side and a projection of similar shape on the other".
+  "projecting locking portions of elongated cup shape, so that the outside of one member nests within the recess of an adjoining member
+  when in locked relation". "the shape of the projections and recesses is such that when engaged, the stringers have practically no
+  movement of separation".
+- **S2:** "The slider has a small locking mechanism in it that keeps the slider in place unless the slider's tab is pulled" (", which
+  releases the locking mechanism."). "In other words, the lock automatically locks when no force is placed on the tab-pull." "This prevents
+  the slider from moving on its own if the zipper tape is forced apart". "The slider is locked in place when the pins on the puller are
+  pushed down into the elements of the zipper."
 
 ## Claim map (narration → source)
 | line | claim | source |
 |---|---|---|
-| l01 | the window is a metal net (perforated metal screen) | S1 |
-| l02 | light gets through; why not microwaves? | S1 |
-| l03 | microwaves about twelve centimeters long | S1, S2 |
-| l04 | holes about a millimeter wide, over a hundred times smaller | S1 (~1 mm vs 120 mm, ~120×) |
-| l05 | to waves that long the net is like solid metal, so they bounce back inside | S1 ("can't 'see' the holes"), S4 ("reflected by metal") |
-| l06 | light waves about two thousand times smaller than the holes, so they slip through | S1 (500 nm, ~2000×), S3 |
-| l07 | if the door is bent or won't close firmly, stop using it | S4 |
-| l08 | CTA "Download Recall to turn your study material into lessons." | app listing (`videos/recall/assets/listing.json`), as E13–E23 |
+| l01 | "Same slider, opposite jobs." | S1 (one slide opens one way, closes the other) |
+| l02 | pull one way the teeth lock, pull it back they open | S1 |
+| l03 | the slider's channel is shaped like a Y | S1 ("Y-shaped channel", branch channels) |
+| l04 | closing, its slanted walls squeeze both rows together | S1 ("side walls … inclined faces"; closing when moved the opposite way) |
+| l05 | each tooth has a bump and a hollow; each bump nests in the next hollow | S1 (projection/recess, staggered, nests) |
+| l06 | nested, they hardly pull apart sideways | S1 ("practically no movement of separation") |
+| l07 | opening, a wedge between the arms splits them apart | S1 (tongue/point between the diverging channels; unlocks and opens) |
+| l08 | many sliders hold still until you pull the tab | S2 (auto-lock; "many" because not every slider locks) |
+| l09 | CTA "Download Recall to turn your study material into lessons." | app listing, as E13–E24 |
 
 ## Facts vs assumptions (illustrative choices, not claims)
-- Giant sheet: holes and wave drawn **to scale with each other** (hole 0.05 units = 1 mm, wavelength 6.0 units = 120 mm, 120 : 1);
-  hole pitch 1.6 mm and the hex pattern are illustrative (S1 gives only the ~1 mm hole size). The café door uses 1.2 mm holes on a 2.2 mm pitch.
-- Light is drawn as straight rays through the holes, **not** as waves at scale (500 nm cannot be drawn next to a 1 mm hole); its size is
-  stated in the label "~0.0005 mm".
-- The wave is a single sinusoidal ribbon (a schematic of the field), shown travelling and reflecting at an illustrative speed; the
-  "like solid metal" tint is a visual metaphor for what the long wave effectively meets.
-- The bent-door gap and the wave squeezing out of it are illustrative (S4: damage to hinges, latches or seals may let energy leak); no
-  amount is shown or claimed. The oven is never shown running with the door open (S4/S5 interlocks).
-- No experiment for viewers is suggested; the payoff is FDA's advice only.
+- The giant slider and teeth are a simplified generic model of a metal zipper (box-shaped heads, round bumps and hollows, flanges that
+  leave a slit for the tape); real sliders, teeth (metal, moulded plastic, coil) and proportions vary by maker.
+- The drawn lock catch is an illustration of "a small locking mechanism" (S2); real auto-lock mechanisms differ in shape.
+- Chain speed, the arms' angle, the sideways-pull arrows and the exploded nest animation are illustrative.
+- The patent describes one early design; the narration only states the general mechanism it describes.
