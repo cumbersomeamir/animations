@@ -1,0 +1,78 @@
+{
+  "engine": "kokoro-onnx 0.6.1 / Kokoro-82M v1.0 (Apache-2.0)",
+  "voice": "af_bella*0.7 + am_puck*0.3",
+  "lang": "en-us",
+  "speed": 0.98,
+  "clips": {
+    "v01": {
+      "text": "When's the big boom? Two frog drummers want to hit together!",
+      "seconds": 3.302,
+      "frames": 99.0
+    },
+    "v02": {
+      "text": "Big Frog drums every two beats.",
+      "seconds": 1.797,
+      "frames": 53.9
+    },
+    "v03": {
+      "text": "Little Frog drums every three beats.",
+      "seconds": 1.93,
+      "frames": 57.9
+    },
+    "n1": {
+      "text": "One!",
+      "seconds": 0.41,
+      "frames": 12.3
+    },
+    "n2": {
+      "text": "Two!",
+      "seconds": 0.466,
+      "frames": 14.0
+    },
+    "n3": {
+      "text": "Three!",
+      "seconds": 0.502,
+      "frames": 15.1
+    },
+    "n4": {
+      "text": "Four!",
+      "seconds": 0.493,
+      "frames": 14.8
+    },
+    "n5": {
+      "text": "Five!",
+      "seconds": 0.5,
+      "frames": 15.0
+    },
+    "n6": {
+      "text": "Six!",
+      "seconds": 0.524,
+      "frames": 15.7
+    },
+    "v04": {
+      "text": "Why six? Big Frog plays two, four, six.",
+      "seconds": 2.389,
+      "frames": 71.7
+    },
+    "v05": {
+      "text": "Little Frog plays three, six.",
+      "seconds": 1.5,
+      "frames": 45.0
+    },
+    "v06": {
+      "text": "Six is in the twos and the threes: two times three is six!",
+      "seconds": 3.439,
+      "frames": 103.2
+    },
+    "v07": {
+      "text": "So they boom again on twelve!",
+      "seconds": 1.412,
+      "frames": 42.4
+    },
+    "v08": {
+      "text": "Play and learn tables with Table Verse.",
+      "seconds": 2.0,
+      "frames": 60.0
+    }
+  }
+}

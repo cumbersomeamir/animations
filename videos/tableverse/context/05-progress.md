@@ -320,7 +320,33 @@ Brief (verbatim essentials), topic decision, history table with core questions a
   geometry checked on contact sheet + 56 frames. Machine-only listening; frame-based viewing.
 - QA fixes: decluttered frame 0 (mouse on a balcony, flag away from the star, balloons moved); "Phew!" → "Oof!".
 
+## 2026-11-27 batch english-25 — "When's the Big Boom?" (delivered)
+Brief (verbatim essentials), duplicate check, topic decision, history table with core questions and settings, script,
+sources: 23-episode-whens-the-big-boom.md.
+- Session check first: remote = local d9a02d6 (batch 24 complete); no 2026-11-27-english-25 path locally or remotely;
+  nothing checkpointed. Toolchain still in the session scratchpad.
+- Topic decision: proposal "three frogs × four drumbeats = 12 before the lily-pad stage sinks" = equal groups 3 × 4
+  (feedback-01, batch 22) → unrelated subject in the genre: common multiples heard as rhythm (Big Frog every 2 beats,
+  Little Frog every 3 beats; together on 6 = 2 × 3, again on 12). Differs from batch 24 in core question ("When do they
+  hit together?" vs "How far around?"), setting (dusk frog pond vs vertical-city rooftop) and mechanism (two
+  skip-counting patterns on a beat line vs equal sides × length). Kept: frog band, lily-pad stage, twelve audible and
+  visible beats, the stage sinking after beat 12. Frame-0 words "WHEN'S THE BIG BOOM?".
+- Facts: CCSS 4.OA.B.4; England NC Y2 (steps of 2 and 3), Y5–Y6 (multiples, common multiples). Arithmetic checked.
+- Creative (entertainment first): cut-paper frog drummers + drums (src/frog.mjs); dusk-pond page; lily-pad stage with a
+  paper wave in front; twelve numbered pads with a firefly landing one pad per beat; orange/cyan hit-dot rows and glowing
+  "together" columns; BOOM starburst, leap, splash; payoff sign; dashed prediction dots under 12; the stage sinks with
+  bubbles and pops up; F#-major score whose bars start on counted beat 1; drum/boom/splash/gurgle foley.
+- Commands: see production/30s/2026-11-27-english-25/README.md (render ≈ 70 s).
+- Paths: production/30s/2026-11-27-english-25/ — tableverse-30s-english25-01.mp4 (sha256 0d824a8dd60d1070568734470ceace90d96ff3712d06ed211a0fd07c54ba4660) +
+  tableverse-30s-english25-01-thumbnail.png (= frame 0); src/, audio/, qa/, README.md.
+- Verified: 30.000 s, 900 frames, H.264 yuv420p, AAC 48 kHz, 0 decode errors, −16.5 LUFS, −2.2 dBTP; whole-file ASR
+  matches the script; nine window ASR cuts match (the "Why six?" cut is spelled "Y6" by the transcriber; full file and
+  isolated VO say "Why six?"); VO stem silent in all 15 gaps; captions x 120–880 / y 294–450; beat placement and hit
+  dots checked on contact sheet + 62 frames + stills. Machine-only listening; frame-based viewing.
+- QA fixes: v03 moved 4 frames; overlapping hit rings → dot rows; count captions update in place; reframed wide shots,
+  hook and beat-line close-up (dots higher in frame); drums −2–3 dB; payoff caption condensed to fit the box.
+
 ## Unresolved / next
-- Await user review of english20-01 … english24-01 (all attached in chat and pushed). No further episode started.
-- Briefs 20–24 each repeated covered maths; replacements are documented in context/18–22. Any next brief must also differ
-  from batch 24's perimeter/rooftop subject (core question, setting, mechanism).
+- Await user review of english20-01 … english25-01 (all attached in chat and pushed). No further episode started.
+- Briefs 20–25 each repeated covered maths; replacements are documented in context/18–23. Any next brief must also differ
+  from batch 25's common-multiples/frog-pond subject (core question, setting, mechanism).

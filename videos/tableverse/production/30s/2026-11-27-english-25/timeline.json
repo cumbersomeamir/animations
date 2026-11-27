@@ -1,0 +1,436 @@
+{
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "S1-hook",
+      "from": 0,
+      "to": 54,
+      "name": "Close: two frog drummers, sticks raised; \"WHEN'S THE BIG BOOM?\""
+    },
+    {
+      "id": "S2-pond",
+      "from": 54,
+      "to": 108,
+      "name": "Wide: the dusk pond, the lily-pad stage and the numbered beat track"
+    },
+    {
+      "id": "S3-big",
+      "from": 108,
+      "to": 162,
+      "name": "Close: Big Frog drums every two beats"
+    },
+    {
+      "id": "S4-little",
+      "from": 162,
+      "to": 216,
+      "name": "Close: Little Frog drums every three beats"
+    },
+    {
+      "id": "S5-count",
+      "from": 216,
+      "to": 360,
+      "name": "Wide: beats 1–6 with the firefly; hits on 2, 3, 4 — BOOM together on 6"
+    },
+    {
+      "id": "S6-why",
+      "from": 360,
+      "to": 498,
+      "name": "Beat-track close-up: orange dots under 2, 4, 6; cyan dots under 3, 6"
+    },
+    {
+      "id": "S7-payoff",
+      "from": 498,
+      "to": 604,
+      "name": "Six is in the twos and the threes: sign 2 × 3 = 6"
+    },
+    {
+      "id": "S8-twelve",
+      "from": 604,
+      "to": 810,
+      "name": "Beats 7–12; BOOM together on 12 — the lily-pad stage sinks, the frogs pop up"
+    },
+    {
+      "id": "S9-cta",
+      "from": 810,
+      "to": 900,
+      "name": "Page turns to the TableVerse card"
+    }
+  ],
+  "vo": {
+    "v01": 2,
+    "v02": 110,
+    "v03": 168,
+    "n1": 234,
+    "n2": 252,
+    "n3": 270,
+    "n4": 288,
+    "n5": 306,
+    "n6": 324,
+    "v04": 364,
+    "v05": 446,
+    "v06": 500,
+    "v07": 610,
+    "v08": 838
+  },
+  "vo_clip": {},
+  "captions": [
+    [
+      [
+        "Two frog drummers want",
+        "to hit together!"
+      ],
+      44,
+      104
+    ],
+    [
+      [
+        "Big Frog drums",
+        "every 2 beats."
+      ],
+      110,
+      162
+    ],
+    [
+      [
+        "Little Frog drums",
+        "every 3 beats."
+      ],
+      168,
+      228
+    ],
+    [
+      [
+        "1!"
+      ],
+      234,
+      252
+    ],
+    [
+      [
+        "1, 2!"
+      ],
+      252,
+      270
+    ],
+    [
+      [
+        "1, 2, 3!"
+      ],
+      270,
+      288
+    ],
+    [
+      [
+        "1, 2, 3, 4!"
+      ],
+      288,
+      306
+    ],
+    [
+      [
+        "1, 2, 3, 4, 5!"
+      ],
+      306,
+      324
+    ],
+    [
+      [
+        "1, 2, 3, 4, 5, 6!"
+      ],
+      324,
+      356
+    ],
+    [
+      [
+        "Why 6? Big Frog plays 2, 4, 6."
+      ],
+      364,
+      440
+    ],
+    [
+      [
+        "Little Frog plays 3, 6."
+      ],
+      446,
+      494
+    ],
+    [
+      [
+        "6 is in the twos and threes:",
+        "2 times 3 is 6!"
+      ],
+      500,
+      600
+    ],
+    [
+      [
+        "So they boom again on 12!"
+      ],
+      610,
+      760
+    ],
+    [
+      [
+        "Play and learn tables",
+        "with TableVerse."
+      ],
+      838,
+      900
+    ]
+  ],
+  "sfx": [
+    [
+      "flap",
+      30,
+      {
+        "pitch": 1
+      }
+    ],
+    [
+      "bigdrum",
+      126,
+      {}
+    ],
+    [
+      "smalldrum",
+      180,
+      {}
+    ],
+    [
+      "beat",
+      234,
+      {
+        "pitch": 1.03
+      }
+    ],
+    [
+      "beat",
+      252,
+      {
+        "pitch": 1.06
+      }
+    ],
+    [
+      "bigdrum",
+      252,
+      {}
+    ],
+    [
+      "beat",
+      270,
+      {
+        "pitch": 1.09
+      }
+    ],
+    [
+      "smalldrum",
+      270,
+      {}
+    ],
+    [
+      "beat",
+      288,
+      {
+        "pitch": 1.12
+      }
+    ],
+    [
+      "bigdrum",
+      288,
+      {}
+    ],
+    [
+      "beat",
+      306,
+      {
+        "pitch": 1.15
+      }
+    ],
+    [
+      "beat",
+      324,
+      {
+        "pitch": 1.18
+      }
+    ],
+    [
+      "boom",
+      324,
+      {}
+    ],
+    [
+      "splash",
+      328,
+      {}
+    ],
+    [
+      "beat",
+      666,
+      {
+        "pitch": 1.21
+      }
+    ],
+    [
+      "beat",
+      684,
+      {
+        "pitch": 1.24
+      }
+    ],
+    [
+      "bigdrum",
+      684,
+      {}
+    ],
+    [
+      "beat",
+      702,
+      {
+        "pitch": 1.27
+      }
+    ],
+    [
+      "smalldrum",
+      702,
+      {}
+    ],
+    [
+      "beat",
+      720,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "bigdrum",
+      720,
+      {}
+    ],
+    [
+      "beat",
+      738,
+      {
+        "pitch": 1.33
+      }
+    ],
+    [
+      "beat",
+      756,
+      {
+        "pitch": 1.3599999999999999
+      }
+    ],
+    [
+      "boom",
+      756,
+      {}
+    ],
+    [
+      "splash",
+      760,
+      {}
+    ],
+    [
+      "pop",
+      402,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      412,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      420,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "pop",
+      464,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "pop",
+      474,
+      {
+        "pitch": 1.3
+      }
+    ],
+    [
+      "light",
+      504,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "flap",
+      566,
+      {
+        "pitch": 0.9
+      }
+    ],
+    [
+      "chime",
+      574,
+      {
+        "step": 2
+      }
+    ],
+    [
+      "gurgle",
+      762,
+      {
+        "dur": 32
+      }
+    ],
+    [
+      "boing",
+      788,
+      {
+        "pitch": 1.4,
+        "soft": true
+      }
+    ],
+    [
+      "splash",
+      790,
+      {}
+    ],
+    [
+      "page",
+      810,
+      {
+        "dur": 18
+      }
+    ],
+    [
+      "pop",
+      822,
+      {
+        "pitch": 0.75
+      }
+    ],
+    [
+      "sparkle",
+      826,
+      {}
+    ]
+  ],
+  "pause": [
+    0,
+    0
+  ]
+}
