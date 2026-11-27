@@ -1,0 +1,78 @@
+{
+ "duration": 30.0,
+ "lead": 0.1,
+ "lang_code": "a",
+ "voices": [
+  [
+   "af_bella",
+   0.7
+  ],
+  [
+   "am_puck",
+   0.3
+  ]
+ ],
+ "speed": 0.98,
+ "language": "en-us",
+ "pronunciation_overrides": {
+  "Tensorblue": "tˈɛnsəɹblˌu (not in the misaki lexicon; accepted CTA)",
+  "Spotify": "spˈɑtɪfˌI / Spotify's spˈɑtɪfˌIz (not in the misaki lexicon; the brand's own 'SPAH-tih-fye')",
+  "2025": "misaki reads 'twenty twenty-five'; no override needed"
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "at": 0.1,
+   "text": "[Spotify's](/spˈɑtɪfˌIz/) shuffle was truly random. It felt repetitive.",
+   "after": 0.3
+  },
+  {
+   "id": "L2",
+   "at": 0.0,
+   "text": "Five heads in a row is random too. So what changed?",
+   "after": 0.3
+  },
+  {
+   "id": "L3",
+   "at": 0.0,
+   "text": "Since 2025, it makes several random orders.",
+   "after": 0.25
+  },
+  {
+   "id": "L4",
+   "at": 0.0,
+   "text": "Each gets a freshness score.",
+   "after": 0.2
+  },
+  {
+   "id": "L5",
+   "at": 0.0,
+   "text": "Songs you just played lose points near the top.",
+   "after": 0.25
+  },
+  {
+   "id": "L6",
+   "at": 0.0,
+   "text": "The freshest order wins.",
+   "after": 0.3
+  },
+  {
+   "id": "L7",
+   "at": 0.0,
+   "text": "Our test: just-played songs came first one time in four. Freshest of ten: one in twelve.",
+   "after": 0.3
+  },
+  {
+   "id": "L8",
+   "at": 0.0,
+   "text": "Building a feed? Keep it random, then pick the freshest of a few.",
+   "after": 0.3
+  },
+  {
+   "id": "L9",
+   "at": 27.0,
+   "text": "Follow [Tensorblue](/tˈɛnsəɹblˌu/) for software explained simply.",
+   "after": 0.3
+  }
+ ]
+}

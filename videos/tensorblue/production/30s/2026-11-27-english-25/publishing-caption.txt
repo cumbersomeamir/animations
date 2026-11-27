@@ -1,0 +1,17 @@
+JUST PLAYED. UP AGAIN? Why Spotify made shuffle "less random", without breaking the randomness.
+
+Spotify's shuffle was truly random. It felt repetitive. Five heads in a row is random too. So what changed? Since 2025, it makes several random orders. Each gets a freshness score. Songs you just played lose points near the top. The freshest order wins.
+
+Our test: just-played songs came first one time in four. Freshest of ten: one in twelve. Building a feed? Keep it random, then pick the freshest of a few.
+
+Our test (our own Python model of the method Spotify described, not Spotify's code; Spotify hasn't published how many orders it draws or its exact scoring): a 20-song playlist where 5 songs were just played, 20,000 shuffles. A pure shuffle opened with a just-played song 24.6% of the time. Drawing 10 random orders and keeping the one with the fewest recent songs near the top cut that to 8.1%. The candidate counts and weights are our own choices.
+
+Notes: "Fewer Repeats" is the default for Spotify Premium users, and Standard Shuffle stays purely random. Each candidate order is a normal random shuffle; only the pick between them is guided by freshness. The queues, songs, coins, cards and die in the video are our own illustration, not Spotify's app.
+
+Sources:
+- Spotify Engineering, "Shuffle: Making Random Feel More Human" (13 Nov 2025): https://engineering.atspotify.com/2025/11/shuffle-making-random-feel-more-human
+- Python documentation, random module (Mersenne Twister, used in our test): https://docs.python.org/3/library/random.html
+
+Follow Tensorblue for software explained simply.
+
+#AppDevelopment #SoftwareEngineering #SoftwareExplained

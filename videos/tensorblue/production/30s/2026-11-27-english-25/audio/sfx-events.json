@@ -1,0 +1,282 @@
+{
+ "sfx": [
+  {
+   "t": 0,
+   "type": "blip",
+   "hi": true
+  },
+  {
+   "t": 0.05,
+   "type": "slide",
+   "soft": true
+  },
+  {
+   "t": 2.895,
+   "type": "pop"
+  },
+  {
+   "t": 3.774,
+   "type": "wipe"
+  },
+  {
+   "t": 4.083,
+   "type": "type"
+  },
+  {
+   "t": 4.093,
+   "type": "clack",
+   "soft": false
+  },
+  {
+   "t": 4.333,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 4.573,
+   "type": "clack",
+   "soft": false
+  },
+  {
+   "t": 4.813,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 5.053,
+   "type": "clack",
+   "soft": false
+  },
+  {
+   "t": 7.044,
+   "type": "wipe"
+  },
+  {
+   "t": 8.778,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 8.898,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 8.968,
+   "type": "type"
+  },
+  {
+   "t": 9.018,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 9.138,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 9.258,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 10.549,
+   "type": "wipe"
+  },
+  {
+   "t": 10.992,
+   "type": "pop"
+  },
+  {
+   "t": 11.112,
+   "type": "pop"
+  },
+  {
+   "t": 11.232,
+   "type": "pop"
+  },
+  {
+   "t": 11.352,
+   "type": "pop"
+  },
+  {
+   "t": 12.045,
+   "type": "wipe"
+  },
+  {
+   "t": 12.982,
+   "type": "tick"
+  },
+  {
+   "t": 13.157,
+   "type": "tick"
+  },
+  {
+   "t": 13.332,
+   "type": "tick"
+  },
+  {
+   "t": 13.507,
+   "type": "tick"
+  },
+  {
+   "t": 13.682,
+   "type": "tick"
+  },
+  {
+   "t": 13.857,
+   "type": "tick"
+  },
+  {
+   "t": 14.349,
+   "type": "wipe"
+  },
+  {
+   "t": 14.471,
+   "type": "swish2",
+   "soft": true
+  },
+  {
+   "t": 15.763,
+   "type": "chime"
+  },
+  {
+   "t": 15.913,
+   "type": "wipe"
+  },
+  {
+   "t": 16.117,
+   "type": "slot"
+  },
+  {
+   "t": 16.267,
+   "type": "tap"
+  },
+  {
+   "t": 16.537,
+   "type": "tap"
+  },
+  {
+   "t": 16.807,
+   "type": "tap"
+  },
+  {
+   "t": 17.077,
+   "type": "tap"
+  },
+  {
+   "t": 18.717,
+   "type": "type"
+  },
+  {
+   "t": 19.605,
+   "type": "slot"
+  },
+  {
+   "t": 22.108,
+   "type": "wipe"
+  },
+  {
+   "t": 22.208,
+   "type": "hop"
+  },
+  {
+   "t": 22.908,
+   "type": "clack"
+  },
+  {
+   "t": 23.625,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 23.745,
+   "type": "hop",
+   "hi": true
+  },
+  {
+   "t": 23.865,
+   "type": "hop",
+   "hi": false
+  },
+  {
+   "t": 24.45,
+   "type": "swish2",
+   "soft": true
+  },
+  {
+   "t": 25.95,
+   "type": "confirm"
+  },
+  {
+   "t": 26.6,
+   "type": "wipe"
+  },
+  {
+   "t": 26.65,
+   "type": "clack",
+   "soft": true
+  },
+  {
+   "t": 26.95,
+   "type": "tap"
+  },
+  {
+   "t": 27.182,
+   "type": "type",
+   "soft": true
+  }
+ ],
+ "cues": {
+  "spotify": 0.133,
+  "random1": 1.708,
+  "felt": 2.658,
+  "repetitive": 2.895,
+  "five": 3.894,
+  "heads": 4.143,
+  "random2": 4.893,
+  "so": 5.955,
+  "changed": 6.255,
+  "since": 7.191,
+  "makes": 8.753,
+  "several": 9.028,
+  "orders": 9.841,
+  "each": 10.669,
+  "freshness": 11.092,
+  "score": 11.517,
+  "songs5": 12.207,
+  "played5": 12.732,
+  "lose": 13.032,
+  "top5": 13.782,
+  "freshest6": 14.521,
+  "wins": 15.246,
+  "test": 16.167,
+  "first7": 17.842,
+  "four": 18.817,
+  "freshest7": 19.705,
+  "twelve": 21.355,
+  "building": 22.228,
+  "feed": 22.675,
+  "keep": 23.463,
+  "random8": 23.775,
+  "pick": 24.55,
+  "freshest8": 24.863,
+  "few": 25.463,
+  "follow": 27,
+  "tb": 27.282,
+  "scenes": [
+   0,
+   3.774,
+   7.044,
+   10.549000000000001,
+   12.045,
+   14.349,
+   15.913000000000002,
+   22.108,
+   26.6,
+   30.01
+  ],
+  "ctaAt": 26.6
+ }
+}

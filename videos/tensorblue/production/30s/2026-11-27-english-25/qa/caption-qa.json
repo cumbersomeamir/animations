@@ -1,0 +1,228 @@
+{
+ "captions": [
+  {
+   "lines": [
+    "Spotify's shuffle was",
+    "truly random."
+   ],
+   "t0": 0.04,
+   "tEnd": 2.45,
+   "frame": 19,
+   "box": {
+    "x0": 227,
+    "x1": 772,
+    "y0": 312,
+    "y1": 428,
+    "n": 15017
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "It felt repetitive."
+   ],
+   "t0": 2.45,
+   "tEnd": 3.83,
+   "frame": 91,
+   "box": {
+    "x0": 298,
+    "x1": 701,
+    "y0": 344,
+    "y1": 396,
+    "n": 6936
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Five heads in a row",
+    "is random too."
+   ],
+   "t0": 3.83,
+   "tEnd": 5.9,
+   "frame": 133,
+   "box": {
+    "x0": 254,
+    "x1": 748,
+    "y0": 317,
+    "y1": 422,
+    "n": 13498
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "So what changed?"
+   ],
+   "t0": 5.9,
+   "tEnd": 7.1,
+   "frame": 195,
+   "box": {
+    "x0": 262,
+    "x1": 737,
+    "y0": 345,
+    "y1": 395,
+    "n": 8150
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Since 2025, it makes",
+    "several random orders."
+   ],
+   "t0": 7.1,
+   "tEnd": 10.61,
+   "frame": 231,
+   "box": {
+    "x0": 200,
+    "x1": 797,
+    "y0": 312,
+    "y1": 417,
+    "n": 18562
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Each gets a",
+    "freshness score."
+   ],
+   "t0": 10.61,
+   "tEnd": 12.1,
+   "frame": 336,
+   "box": {
+    "x0": 282,
+    "x1": 714,
+    "y0": 314,
+    "y1": 416,
+    "n": 12052
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Songs you just played",
+    "lose points near the top."
+   ],
+   "t0": 12.1,
+   "tEnd": 14.41,
+   "frame": 381,
+   "box": {
+    "x0": 188,
+    "x1": 810,
+    "y0": 311,
+    "y1": 427,
+    "n": 19859
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "The freshest order wins."
+   ],
+   "t0": 14.41,
+   "tEnd": 15.97,
+   "frame": 450,
+   "box": {
+    "x0": 183,
+    "x1": 814,
+    "y0": 349,
+    "y1": 390,
+    "n": 10011
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Our test: just-played songs",
+    "came first one time in four."
+   ],
+   "t0": 15.97,
+   "tEnd": 19.64,
+   "frame": 497,
+   "box": {
+    "x0": 149,
+    "x1": 851,
+    "y0": 311,
+    "y1": 416,
+    "n": 22407
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Freshest of ten:",
+    "one in twelve."
+   ],
+   "t0": 19.64,
+   "tEnd": 22.17,
+   "frame": 607,
+   "box": {
+    "x0": 299,
+    "x1": 699,
+    "y0": 317,
+    "y1": 422,
+    "n": 12059
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Building a feed?"
+   ],
+   "t0": 22.17,
+   "tEnd": 23.4,
+   "frame": 683,
+   "box": {
+    "x0": 295,
+    "x1": 705,
+    "y0": 343,
+    "y1": 396,
+    "n": 7335
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Keep it random, then pick",
+    "the freshest of a few."
+   ],
+   "t0": 23.4,
+   "tEnd": 26.95,
+   "frame": 720,
+   "box": {
+    "x0": 171,
+    "x1": 832,
+    "y0": 312,
+    "y1": 417,
+    "n": 19631
+   },
+   "pass": true
+  },
+  {
+   "lines": [
+    "Follow Tensorblue for",
+    "software explained simply."
+   ],
+   "t0": 26.94,
+   "tEnd": 29.7,
+   "frame": 826,
+   "box": {
+    "x0": 153,
+    "x1": 844,
+    "y0": 312,
+    "y1": 428,
+    "n": 21189
+   },
+   "pass": true
+  }
+ ],
+ "signature": "n/a (end card is in the stage area)",
+ "top": [],
+ "band": [],
+ "headline": [],
+ "headlineWorstPropPixels": 0,
+ "pass": true,
+ "checkedFrames": 90
+}

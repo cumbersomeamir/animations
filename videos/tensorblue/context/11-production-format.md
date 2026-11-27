@@ -225,6 +225,18 @@ Practical system design · useful new GitHub tools · research explained through
     - The camera screen centre (`camera(..., cx, cy)`) can move content into the lower stage. english-24 used cy 1250 so the frame isn't half empty floor; keep vital items above y ≈ 1650 and away from the right edge.
   - Notes: `38-production-30s-english24-01.md`.
 
+- **2026-11-27 brief (batch25) — english-25:**
+  - **Topic replaced.** The proposal ("How Figma keeps two cursors from overwriting each other") is the same mechanism and sources as english-17: the central server, separate properties both survive, and the same property takes the last value received.
+  - **Chosen instead:** Spotify's 2025 "Fewer Repeats" shuffle (Spotify Engineering, 13 Nov 2025): several random orders, each scored for freshness, the freshest kept. Our model: a just-played song came first 24.6 % → 8.1 %. Payoff: "keep it random, then pick the freshest of a few".
+  - **Frame zero:** **JUST PLAYED. UP AGAIN?**
+  - **Branding re-checked on tensorblue.com (27 Nov):** the core palette is unchanged; amber-400 `#FFB900` (16 homepage uses) for "just played", green-400 `#05DF72` (160 uses) for fresh/winner.
+  - **Practices added:**
+    - Measure the rightmost pixel of any vital coloured label on the hook and moving shots (`amber-extent.mjs`). A lift toward the camera pushed a pill to x 1079; keep it ≤ ~910.
+    - When a shot shows many parallel candidates, stage them in depth (a receding, rising deck) rather than a flat row. Ten flat columns were unreadable; the deck kept every score badge visible.
+    - Start a shot's first object at the cut. Two shots opened with 0.2–1.7 s of empty stage.
+    - Check free disk at the start of a resumed session (27 GB here). Renders stream frames into ffmpeg, so no frame files are written.
+  - Notes: `39-production-30s-english25-01.md`.
+
 ### References (from the user's sheet; borrow spacing, strong type, clean physical forms, purposeful wipes, before/after staging — never their characters or claims)
 - https://www.instagram.com/p/De9jkaXhMo0/
 - https://www.instagram.com/p/DfKmIL6C5vq/
