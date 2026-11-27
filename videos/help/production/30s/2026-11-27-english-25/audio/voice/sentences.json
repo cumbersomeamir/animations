@@ -1,0 +1,66 @@
+{
+ "engine": "kokoro-onnx 0.6.1 / kokoro-v1.0.onnx",
+ "voice": "af_bella*0.7+am_puck*0.3",
+ "speed": 0.98,
+ "lang": "en-us",
+ "sentences": [
+  {
+   "i": 0,
+   "say": "On its own, a new iron pot cooks nothing.",
+   "dur": 2.351,
+   "file": "audio/voice/s00.wav",
+   "sr": 24000
+  },
+  {
+   "i": 1,
+   "say": "The pot lasts for years. Flour, dal and gas run out daily.",
+   "dur": 3.84,
+   "file": "audio/voice/s01.wav",
+   "sr": 24000
+  },
+  {
+   "i": 2,
+   "say": "So what keeps a community kitchen cooking?",
+   "dur": 1.97,
+   "file": "audio/voice/s02.wav",
+   "sr": 24000
+  },
+  {
+   "i": 3,
+   "say": "In Lucknow, Dihadi Kitchen has relied on donated rations and money.",
+   "tts": "In Lucknow, Dee-haa-dee Kitchen has relied on donated rations and money.",
+   "dur": 4.353,
+   "file": "audio/voice/s03.wav",
+   "sr": 24000
+  },
+  {
+   "i": 4,
+   "say": "Amritsar's Golden Temple langar uses about thirty gas refills daily.",
+   "tts": "Amritsar's Golden Temple lunger uses about thirty gas refills daily.",
+   "dur": 4.611,
+   "file": "audio/voice/s04.wav",
+   "sr": 24000
+  },
+  {
+   "i": 5,
+   "say": "Staples can be given in kind; fuel usually needs money.",
+   "dur": 3.512,
+   "file": "audio/voice/s05.wav",
+   "sr": 24000
+  },
+  {
+   "i": 6,
+   "say": "So ask first: staples to drop off, or fuel to fund?",
+   "dur": 3.422,
+   "file": "audio/voice/s06.wav",
+   "sr": 24000
+  },
+  {
+   "i": 7,
+   "say": "To donate essentials in Lucknow, download Help.",
+   "dur": 2.568,
+   "file": "audio/voice/s07.wav",
+   "sr": 24000
+  }
+ ]
+}

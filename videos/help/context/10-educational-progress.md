@@ -187,3 +187,7 @@ approval, research + storyboard episode 02 from the list in `08` (suggested: "Re
 - Output `videos/help/production/30s/2026-11-23-english-24/help-30s-english24-01.mp4`, SHA-256 `e16c983d4cb54474b45a785c02733cc51016fbaddf5bddc01912a11661f52dc2`; thumbnail `help-30s-english24-thumbnail.png`.
 - Topic + production notes (incl. the brief and why the proposal was replaced): `37-production-30s-english24-01.md`; lessons in `11-production-format.md` (Update 2026-11-23). No automation created.
 
+## 2026-11-27 (batch 25) — english-25, 30 s #01 (English; "One pot. No meal." — a donated pot lasts years but staples and fuel run out daily; Lucknow's Dihadi Kitchen relies on donated rations and money; the Golden Temple langar uses ~30 gas refills a day; staples in kind, fuel usually money; payoff: ask first — drop off or fund?) — DONE
+- Output `videos/help/production/30s/2026-11-27-english-25/help-30s-english25-01.mp4`, SHA-256 `542e143b183bd8c5cae216ce8a45a597cb190c098dd539baacdb6c60d7243245`; thumbnail `help-30s-english25-thumbnail.png`.
+- Topic + production notes (incl. the brief and duplicate check): `38-production-30s-english25-01.md`; lessons in `11-production-format.md` (Update 2026-11-27). No automation created.
+

@@ -1,0 +1,69 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voiceStarts": [
+  0.1,
+  2.92,
+  7.22,
+  9.62,
+  14.4,
+  19.42,
+  23.36,
+  27.1
+ ],
+ "scenes": {
+  "A_hook_pot": [
+   0.0,
+   2.7
+  ],
+  "B_daily": [
+   2.7,
+   7.0
+  ],
+  "C_question": [
+   7.0,
+   9.4
+  ],
+  "D_lucknow": [
+   9.4,
+   14.18
+  ],
+  "E_fuel": [
+   14.18,
+   19.2
+  ],
+  "F_split": [
+   19.2,
+   23.15
+  ],
+  "G_payoff": [
+   23.15,
+   26.9
+  ],
+  "I_cta": [
+   26.9,
+   30.0
+  ]
+ },
+ "cues": {
+  "years": 3.7,
+  "flour": 4.5,
+  "q": 7.2,
+  "kitchen": 8.3,
+  "rations": 12.9,
+  "money": 13.59,
+  "thirty": 17.3,
+  "staples": 19.41,
+  "kind": 20.6,
+  "fuel": 21.39,
+  "money2": 22.5,
+  "ask": 23.55,
+  "dropoff": 24.9,
+  "fund": 26.34,
+  "done": 26.85,
+  "logo": 27.0,
+  "lucknow": 28.2,
+  "dimEnd": 29.3
+ },
+ "notes": "Storymap (first-frame rule; 2026-11-17 LIVE feedback: broad, informative, tied to giving): frame0 = a new black iron pot with a red bow on a cold, unlit burner, an empty sack beside it + ONE POT. NO MEAL., lamps full, voice at 0.1 s; 0-2.7 hook, 2.7-6.8 superhook (pot lasts years; flour, dal and gas run out daily), 6.8-9.25 question, 9.25-23.12 proof (Lucknow's Dihadi Kitchen: donated rations + money; Golden Temple langar: ~30 gas refills daily; staples in kind vs fuel needs money), 23.12-26.9 payoff (ask first: staples to drop off, or fuel to fund?), 26.9-30 CTA. Setting: a working kitchen (not english-24's winter room)."
+}

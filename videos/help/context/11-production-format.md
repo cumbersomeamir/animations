@@ -368,3 +368,11 @@ icon should be taken from play store or app store"
   in the assembler.
 - Icon check done before writing QA this time (per batch-23 lesson).
 
+## Update 2026-11-27 (batch 25) — english-25 lessons
+- Duplicate check first: look for the expected output folder locally and on `origin/claude-video/help` before any work (brief asked for it).
+- Topic gate: community kitchens' running needs (staples daily, fuel daily; staples in kind vs fuel funded) covered by english-25.
+- "Verify a real kitchen and what it accepts": official sites of large kitchens list only money (SGPC bank accounts); in-kind acceptance came from a
+  dated feature on a Lucknow kitchen (2024) — narrate with "has relied on" and keep current-tense claims to recent sources (Tribune, Mar 2026).
+- Names outside the ASR vocabulary (Dihadi, langar) need a phoneme check and voice-only spellings ("Dee-haa-dee", "lunger").
+- "X lasts years" can be misheard ("apart last year's"); give the subject a determiner ("The pot lasts for years").
+

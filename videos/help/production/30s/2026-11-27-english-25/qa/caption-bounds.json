@@ -1,0 +1,139 @@
+{
+ "rule": "ink x 100-900, y 280-460 (2026-11-19 brief)",
+ "framesChecked": 28,
+ "extent": {
+  "x0": 124,
+  "x1": 876,
+  "y0": 316,
+  "y1": 436
+ },
+ "violations": [],
+ "cards": [
+  {
+   "text": "On its own, a new iron / pot cooks nothing.",
+   "fs": 56,
+   "x0": 198,
+   "x1": 802,
+   "y0": 316,
+   "y1": 436,
+   "firstFrame": 41
+  },
+  {
+   "text": "The pot lasts for years.",
+   "fs": 66,
+   "x0": 124,
+   "x1": 876,
+   "y0": 349,
+   "y1": 414,
+   "firstFrame": 106
+  },
+  {
+   "text": "Flour, dal and / gas run out daily.",
+   "fs": 56,
+   "x0": 261,
+   "x1": 739,
+   "y0": 319,
+   "y1": 436,
+   "firstFrame": 171
+  },
+  {
+   "text": "So what keeps a community / kitchen cooking?",
+   "fs": 54,
+   "x0": 126,
+   "x1": 874,
+   "y0": 318,
+   "y1": 432,
+   "firstFrame": 247
+  },
+  {
+   "text": "In Lucknow, / Dihadi Kitchen",
+   "fs": 56,
+   "x0": 297,
+   "x1": 703,
+   "y0": 319,
+   "y1": 424,
+   "firstFrame": 314
+  },
+  {
+   "text": "has relied on donated / rations and money.",
+   "fs": 56,
+   "x0": 203,
+   "x1": 797,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 386
+  },
+  {
+   "text": "Amritsar's Golden / Temple langar",
+   "fs": 56,
+   "x0": 247,
+   "x1": 753,
+   "y0": 316,
+   "y1": 436,
+   "firstFrame": 462
+  },
+  {
+   "text": "uses about thirty / gas refills daily.",
+   "fs": 56,
+   "x0": 263,
+   "x1": 737,
+   "y0": 316,
+   "y1": 436,
+   "firstFrame": 537
+  },
+  {
+   "text": "Staples can be / given in kind;",
+   "fs": 56,
+   "x0": 297,
+   "x1": 703,
+   "y0": 318,
+   "y1": 436,
+   "firstFrame": 607
+  },
+  {
+   "text": "fuel usually / needs money.",
+   "fs": 56,
+   "x0": 305,
+   "x1": 695,
+   "y0": 317,
+   "y1": 435,
+   "firstFrame": 666
+  },
+  {
+   "text": "So ask first:",
+   "fs": 66,
+   "x0": 305,
+   "x1": 695,
+   "y0": 348,
+   "y1": 401,
+   "firstFrame": 713
+  },
+  {
+   "text": "staples to drop off, / or fuel to fund?",
+   "fs": 56,
+   "x0": 240,
+   "x1": 760,
+   "y0": 317,
+   "y1": 424,
+   "firstFrame": 769
+  },
+  {
+   "text": "To donate essentials / in Lucknow,",
+   "fs": 56,
+   "x0": 214,
+   "x1": 786,
+   "y0": 316,
+   "y1": 435,
+   "firstFrame": 835
+  },
+  {
+   "text": "download Help.",
+   "fs": 66,
+   "x0": 245,
+   "x1": 755,
+   "y0": 351,
+   "y1": 414,
+   "firstFrame": 877
+  }
+ ]
+}
