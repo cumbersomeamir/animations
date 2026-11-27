@@ -13,8 +13,14 @@ series format from 2026-11-02, newest direction), episodes/ (per-episode briefs;
   - **no batch-25 folder locally or remotely and no batch-25 scratch files**, so nothing was lost or duplicated
 - **Topic:** new (no flight episode in 01–24; episode 08 was a late train) and used as given. Record:
   `context/episodes/2026-11-27-english25-flight-voucher-refund.md`.
-- CHECKPOINT (before the full render): sources, narration, audio lines, timeline, scene, notes and thumbnail were
-  committed.
+- CHECKPOINT (before the full render, commit d065289): sources, narration, audio lines, timeline, scene, notes and
+  thumbnail were committed.
+- DELIVERED:
+  - `production/30s/2026-11-27-english-25/courtlens-30s-english25-01.mp4`
+    sha256 `1644447a6c04307c39db6008a6de7efda651fbad4d2e247305099848e87a64c8`
+  - `courtlens-30s-english25-01-thumbnail.png`
+    sha256 `ee10b3dbf7e08d2498ba9be3e49313bef28ea377bc5d87870c55d86bb08837a2`
+  - QA: `production/30s/2026-11-27-english-25/qa/QA.md`
 
 ### Verified facts (details: `production/30s/2026-11-27-english-25/notes/LEGAL-SOURCES.md`)
 - **DGCA CAR S3 Series M Part IV, Rev. 4** (25 Jan 2023, effective 15 Feb 2023; official PDF, sha256 3b4b5084…3ff4a):
@@ -57,8 +63,26 @@ $S/tts/venv/bin/python capcheck.py ../courtlens-30s-english25-01.mp4 ../courtlen
 - The DEFAULT stamp collided with the CREDIT SHELL title, so it moved.
 - The bank icon overlapped the ₹10,000 label, so the icon and arrow moved up.
 
+### Verification (final MP4, all PASS)
+- 30.000 s; H.264 High 1080x1920 yuv420p 30 fps, 900 frames; AAC-LC 48 kHz stereo; full decode clean.
+- −16.2 LUFS, true peak −2.4 dBFS; 10/10 lines at +3 ms; CTA 26.95–29.90 s.
+- ASR WER 0.013 (only "Courtlens" → "Courtlands"); no words outside caption windows.
+- Caption ink x 108..891, y 303..448; y<280 clear.
+- Frame 0 vs thumbnail mean abs diff 1.67/255.
+- Render: 900/900 frames in one pass, no retries. Frame review found no defect needing a re-render.
+
+### Unresolved
+- Listening is ASR-only. Nobody watched or listened in real time.
+- **Part II final text:** the final 24 Feb 2026 revision was not retrieved. The credit-shell clause rests on the DGCA
+  portal copy (apparently the Nov 2025 draft), the SC's 2020 record and consistent 2026 reports. Re-read the final CAR
+  when reachable.
+- **Part IV:** Rev. 4 (2023) is treated as current. No later official revision was found.
+- The desktop review folder is not reachable from this environment. The MP4 is delivered in the repo and attached in
+  chat.
+
 ### Next
-- Full render, QA, QA.md, delivery commit and push, attach the MP4 and thumbnail.
+- Await the next batch request. No automation and no further episode unless asked. `$S/build25/frames` is deleted
+  after delivery.
 
 ## Round 2026-11-23 (english-24, batch 24): "Locker robbed. Who pays?": bank locker liability (RBI)
 

@@ -1,0 +1,475 @@
+{
+ "full_wer": 0.013,
+ "heard": "Flight cancelled. Voucher only. The airline offers a voucher instead of your money. DGCA rules say. You choose, another flight or a full refund. A credit shell is your call, not their default. cancelled with under a day's notice, and no flight that suits you. Refund plus up to 10 ,000 rupees in cash or bank transfer. except for causes beyond their control, like weather. Offered a voucher ask for your refund in writing Follow Courtlands for everyday Indian law explained.",
+ "per_line": [
+  {
+   "id": "l1",
+   "script": "Flight cancelled. Voucher only?",
+   "heard": "Flight cancelled. Voucher only.",
+   "wer": 0.0
+  },
+  {
+   "id": "l2",
+   "script": "The airline offers a voucher instead of your money.",
+   "heard": "The airline offers a voucher instead of your money.",
+   "wer": 0.0
+  },
+  {
+   "id": "l3",
+   "script": "D.G.C.A. rules say:",
+   "heard": "DGCA rules say.",
+   "wer": 0.0
+  },
+  {
+   "id": "l4",
+   "script": "you choose: another flight, or a full refund.",
+   "heard": "You choose, another flight or a full refund.",
+   "wer": 0.0
+  },
+  {
+   "id": "l5",
+   "script": "A credit shell is your call, not their default.",
+   "heard": "A credit shell is your call, not their default.",
+   "wer": 0.0
+  },
+  {
+   "id": "l6",
+   "script": "Cancelled with under a day's notice, and no flight that suits you?",
+   "heard": "cancelled with under a day's notice, and no flight that suits you.",
+   "wer": 0.0
+  },
+  {
+   "id": "l7",
+   "script": "Refund plus up to ten thousand rupees, in cash or bank transfer.",
+   "heard": "Refund plus up to 10 ,000 rupees in cash or bank transfer.",
+   "wer": 0.0
+  },
+  {
+   "id": "l8",
+   "script": "Except for causes beyond their control, like weather.",
+   "heard": "except for causes beyond their control, like weather.",
+   "wer": 0.0
+  },
+  {
+   "id": "l9",
+   "script": "Offered a voucher? Ask for your refund in writing.",
+   "heard": "Offered a voucher ask for your refund in writing",
+   "wer": 0.0
+  },
+  {
+   "id": "l10",
+   "script": "Follow Courtlens for everyday Indian law explained.",
+   "heard": "Follow Courtlands for everyday Indian law explained.",
+   "wer": 0.143
+  }
+ ],
+ "words": [
+  [
+   "Flight",
+   0.0,
+   0.36
+  ],
+  [
+   "cancelled.",
+   0.36,
+   0.98
+  ],
+  [
+   "Voucher",
+   1.28,
+   1.64
+  ],
+  [
+   "only.",
+   1.64,
+   1.92
+  ],
+  [
+   "The",
+   2.1,
+   2.54
+  ],
+  [
+   "airline",
+   2.54,
+   2.88
+  ],
+  [
+   "offers",
+   2.88,
+   3.24
+  ],
+  [
+   "a",
+   3.24,
+   3.42
+  ],
+  [
+   "voucher",
+   3.42,
+   4.06
+  ],
+  [
+   "instead",
+   4.06,
+   4.4
+  ],
+  [
+   "of",
+   4.4,
+   4.56
+  ],
+  [
+   "your",
+   4.56,
+   4.68
+  ],
+  [
+   "money.",
+   4.68,
+   4.88
+  ],
+  [
+   "DGCA",
+   5.05,
+   6.13
+  ],
+  [
+   "rules",
+   6.13,
+   6.45
+  ],
+  [
+   "say.",
+   6.45,
+   6.77
+  ],
+  [
+   "You",
+   6.9,
+   7.36
+  ],
+  [
+   "choose,",
+   7.36,
+   7.7
+  ],
+  [
+   "another",
+   8.02,
+   8.26
+  ],
+  [
+   "flight",
+   8.26,
+   8.52
+  ],
+  [
+   "or",
+   8.52,
+   8.76
+  ],
+  [
+   "a",
+   8.76,
+   8.86
+  ],
+  [
+   "full",
+   8.86,
+   9.0
+  ],
+  [
+   "refund.",
+   9.0,
+   9.36
+  ],
+  [
+   "A",
+   9.6,
+   10.06
+  ],
+  [
+   "credit",
+   10.06,
+   10.22
+  ],
+  [
+   "shell",
+   10.22,
+   10.42
+  ],
+  [
+   "is",
+   10.42,
+   10.58
+  ],
+  [
+   "your",
+   10.58,
+   10.8
+  ],
+  [
+   "call,",
+   10.8,
+   11.02
+  ],
+  [
+   "not",
+   11.32,
+   11.44
+  ],
+  [
+   "their",
+   11.44,
+   11.64
+  ],
+  [
+   "default.",
+   11.64,
+   12.04
+  ],
+  [
+   "cancelled",
+   12.25,
+   12.91
+  ],
+  [
+   "with",
+   12.91,
+   13.11
+  ],
+  [
+   "under",
+   13.11,
+   13.29
+  ],
+  [
+   "a",
+   13.29,
+   13.41
+  ],
+  [
+   "day's",
+   13.41,
+   13.71
+  ],
+  [
+   "notice,",
+   13.71,
+   14.01
+  ],
+  [
+   "and",
+   14.39,
+   14.53
+  ],
+  [
+   "no",
+   14.53,
+   14.75
+  ],
+  [
+   "flight",
+   14.75,
+   14.99
+  ],
+  [
+   "that",
+   14.99,
+   15.29
+  ],
+  [
+   "suits",
+   15.29,
+   15.49
+  ],
+  [
+   "you.",
+   15.49,
+   15.77
+  ],
+  [
+   "Refund",
+   15.9,
+   16.62
+  ],
+  [
+   "plus",
+   16.62,
+   16.84
+  ],
+  [
+   "up",
+   16.84,
+   16.98
+  ],
+  [
+   "to",
+   16.98,
+   17.3
+  ],
+  [
+   "10",
+   17.3,
+   17.42
+  ],
+  [
+   ",000",
+   17.42,
+   17.8
+  ],
+  [
+   "rupees",
+   17.8,
+   18.3
+  ],
+  [
+   "in",
+   18.3,
+   18.84
+  ],
+  [
+   "cash",
+   18.84,
+   19.22
+  ],
+  [
+   "or",
+   19.22,
+   19.4
+  ],
+  [
+   "bank",
+   19.4,
+   19.66
+  ],
+  [
+   "transfer.",
+   19.66,
+   20.14
+  ],
+  [
+   "except",
+   20.35,
+   20.91
+  ],
+  [
+   "for",
+   20.91,
+   21.13
+  ],
+  [
+   "causes",
+   21.13,
+   21.51
+  ],
+  [
+   "beyond",
+   21.51,
+   21.85
+  ],
+  [
+   "their",
+   21.85,
+   22.15
+  ],
+  [
+   "control,",
+   22.15,
+   22.55
+  ],
+  [
+   "like",
+   22.89,
+   23.03
+  ],
+  [
+   "weather.",
+   23.03,
+   23.27
+  ],
+  [
+   "Offered",
+   23.45,
+   24.05
+  ],
+  [
+   "a",
+   24.05,
+   24.21
+  ],
+  [
+   "voucher",
+   24.21,
+   24.83
+  ],
+  [
+   "ask",
+   24.83,
+   25.19
+  ],
+  [
+   "for",
+   25.19,
+   25.35
+  ],
+  [
+   "your",
+   25.35,
+   25.47
+  ],
+  [
+   "refund",
+   25.47,
+   25.75
+  ],
+  [
+   "in",
+   25.75,
+   26.05
+  ],
+  [
+   "writing",
+   26.05,
+   26.29
+  ],
+  [
+   "Follow",
+   26.75,
+   27.35
+  ],
+  [
+   "Courtlands",
+   27.35,
+   27.87
+  ],
+  [
+   "for",
+   27.87,
+   28.19
+  ],
+  [
+   "everyday",
+   28.19,
+   28.63
+  ],
+  [
+   "Indian",
+   28.63,
+   29.01
+  ],
+  [
+   "law",
+   29.01,
+   29.27
+  ],
+  [
+   "explained.",
+   29.27,
+   29.85
+  ]
+ ],
+ "words_outside_captions": [],
+ "caption_alignment_pass": true
+}
