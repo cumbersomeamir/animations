@@ -245,3 +245,9 @@
 - Checks: full decode OK; ASR all 8 lines MATCH, no word outside its caption; caption SPEC PASS (y 282–458); 29 earlier MP4s
   unchanged. Icon re-checked 2026-11-23 (listing updated Nov 23, icon unchanged).
 - Next: await user review. No further episode, no automation.
+
+---
+# CURRENT — english-25 (2026-11-27, batch25) — IN PROGRESS
+- Proposed object removal = repeat of hindi03-01 (6th time) → Android Theft Detection Lock (record context/40). Stage
+  src/stage/theftlock.js; 7 narration clips ASR-verified; score written; icon re-checked; full render running.
+- Next: encode, caplog, thumb, mix/master/mux, qa.sh, review, QA.md, commit, push, attach.

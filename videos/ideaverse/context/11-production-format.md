@@ -304,3 +304,9 @@ Episodes 09–11 were already in production before this note and keep the earlie
   everyday subject: Optimized Battery Charging (why an iPhone pauses at 80% overnight; Charge Now) — context/39.
 - Play listing now shows "Updated on Nov 23, 2026" but the icon image is unchanged (pixel-identical) — keep checking each batch.
 - New choreography inside the same identity: a bedside set with a night→dawn time-lapse; cards only for the two abstract ideas.
+
+## Batch 2026-11-27-english-25 (batch25) — 2026-11-27 brief
+- Proposed AI object removal ("invents the wall behind a stranger") repeats hindi03-01 for the sixth time → replaced with an
+  unrelated everyday subject: Android Theft Detection Lock (context/40). Treat any future object-removal / Magic Eraser proposal
+  as covered.
+- Free disk is checked before rendering (each 900-frame render ≈ 0.6 GB in build/frames; builds are gitignored).

@@ -1,0 +1,9 @@
+[
+  {"id": "s1", "text": "A thief grabs your phone and runs. The screen locks itself. How?"},
+  {"id": "s2", "text": "Android's Theft Detection Lock uses AI and the motion sensors."},
+  {"id": "s3", "text": "It recognizes the jolt of a grab, then running, biking or driving away."},
+  {"id": "s4", "text": "That pattern locks the screen in a moment."},
+  {"id": "s5", "text": "To avoid false alarms, it may not trigger with a steady Wi-Fi or Bluetooth connection."},
+  {"id": "s6", "text": "Check it's on: Settings, Google, All services, Theft protection."},
+  {"id": "s7", "text": "Download the Ideaverse app."}
+]
