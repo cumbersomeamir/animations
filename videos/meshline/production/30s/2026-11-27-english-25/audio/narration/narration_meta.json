@@ -1,0 +1,77 @@
+{
+ "voice": {
+  "name": "Meshline blend",
+  "blend": {
+   "af_bella": 0.7,
+   "am_puck": 0.3
+  },
+  "speed": 0.98,
+  "lang": "en-us",
+  "note": "Agreed Meshline English voice: local Kokoro-82M ONNX (Apache-2.0). No imitation of any person/character."
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "start": 0.25,
+   "text": "How can sending slower make a message reach farther?",
+   "file": "l1.wav",
+   "sr": 24000,
+   "duration": 2.693,
+   "end": 2.943
+  },
+  {
+   "id": "l2",
+   "start": 3.6,
+   "text": "Far away, the signal sinks into the noise.",
+   "file": "l2.wav",
+   "sr": 24000,
+   "duration": 2.455,
+   "end": 6.055
+  },
+  {
+   "id": "l3",
+   "start": 6.9,
+   "text": "Bluetooth's long range mode spends eight symbols on every bit.",
+   "file": "l3.wav",
+   "sr": 24000,
+   "duration": 3.695,
+   "end": 10.595
+  },
+  {
+   "id": "l4",
+   "start": 11.45,
+   "text": "That extra code lets the receiver fix errors in a weak signal.",
+   "file": "l4.wav",
+   "sr": 24000,
+   "duration": 3.856,
+   "end": 15.306
+  },
+  {
+   "id": "l5",
+   "start": 16.15,
+   "text": "The cost: eight times slower. The gain: about four times the range.",
+   "file": "l5.wav",
+   "sr": 24000,
+   "duration": 4.082,
+   "end": 20.232
+  },
+  {
+   "id": "l6",
+   "start": 21.05,
+   "text": "That is why long range modes suit short messages, not videos.",
+   "file": "l6.wav",
+   "sr": 24000,
+   "duration": 3.926,
+   "end": 24.976
+  },
+  {
+   "id": "l7",
+   "start": 25.61,
+   "text": "Download Meshline for private nearby messages, even offline.",
+   "file": "l7.wav",
+   "sr": 24000,
+   "duration": 3.936,
+   "end": 29.546
+  }
+ ]
+}

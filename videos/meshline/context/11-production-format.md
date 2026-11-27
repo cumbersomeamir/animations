@@ -279,6 +279,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 | 24 | 2026-11-19-english-22 | Why two short wireless hops can beat one long hop (distance loss, half hop ≈ 4×, retries/ETX, relay airtime, decent direct link wins), **English** + thumbnail | `production/30s/2026-11-19-english-22/meshline-30s-english22-01.mp4` |
 | 25 | 2026-11-21-english-23 | Why your phone keeps changing its Bluetooth address (fixed address = tracked; Android RPA rotation ≤ 15 min; paired devices resolve with the shared key; keep the device name plain), **English** + thumbnail | `production/30s/2026-11-21-english-23/meshline-30s-english23-01.mp4` |
 | 26 | 2026-11-23-english-24 | Why a weak signal drains your battery faster (slower rate = longer airtime, resends, higher transmit power; +52% energy for the same 3G download in one study; save big uploads for a stronger signal), **English** + thumbnail | `production/30s/2026-11-23-english-24/meshline-30s-english24-01.mp4` |
+| 27 | 2026-11-27-english-25 | Why a radio can send farther by slowing down (Bluetooth LE Coded S=8: 8 symbols per bit + FEC, decodes at lower SNR; ~4× range at 1/8 the rate; long range suits short messages), **English** + thumbnail | `production/30s/2026-11-27-english-25/meshline-30s-english25-01.mp4` |
 
 ## Production notes 2026-11-15, batch english-18 (specific adjustments only; the standing briefs still apply)
 - **Topics now taken:** route breaks and rediscovery under mobility (20). Still unused planned titles: what 5G changes; how a phone picks a tower.
@@ -316,3 +317,7 @@ This is reference for later rounds. **No automation has been created.** Each rou
 - **Topic rule applied:** "two radios talking at once / collision and random backoff" repeats 17 (and 19/21); replaced with battery drain under weak signal (26). Collision, backoff, turn-taking and contention stories are all repeats.
 - **Topics now taken:** signal strength vs energy (26). Rate adaptation, retransmissions and power control are used as a battery explanation; don't make them the core again.
 - **Sheet edges:** keep world content at y ≥ about 11 so wide shots never expose the sheet's top edge (screen top = cam.y − 1000/(60·z) ≥ 0).
+
+## Production notes 2026-11-27, batch english-25 (specific adjustments only; the standing briefs still apply)
+- **Topics now taken:** symbol rate / coding vs range (27). Rate, coding, FEC and receiver-sensitivity trade-offs are covered (26 battery side, 27 range side); don't make them the core again.
+- **Close-ups:** hide strips, labels and names a close-up would cut; space repeated tokens so they read as units.

@@ -1,0 +1,289 @@
+{
+ "rule": "ink and plate y in [280,460] (ink >= 290), ink and plate x in [100,900]",
+ "allPass": true,
+ "handoffOverlap": false,
+ "rows": [
+  {
+   "id": "l1a",
+   "a": 0.2,
+   "b": 1.14,
+   "lines": [
+    "How can",
+    "sending slower"
+   ],
+   "ink": {
+    "x0": 319,
+    "x1": 680,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 287,
+    "x1": 713,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l1b",
+   "a": 1.18,
+   "b": 3.243,
+   "lines": [
+    "make a message",
+    "reach farther?"
+   ],
+   "ink": {
+    "x0": 302,
+    "x1": 698,
+    "y0": 332,
+    "y1": 429
+   },
+   "plate": {
+    "x0": 268,
+    "x1": 732,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l2a",
+   "a": 3.55,
+   "b": 6.355,
+   "lines": [
+    "Far away, the signal",
+    "sinks into the noise."
+   ],
+   "ink": {
+    "x0": 265,
+    "x1": 734,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 232,
+    "x1": 768,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l3a",
+   "a": 6.85,
+   "b": 8.13,
+   "lines": [
+    "Bluetooth's long range mode"
+   ],
+   "ink": {
+    "x0": 160,
+    "x1": 841,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 125,
+    "x1": 875,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l3b",
+   "a": 8.17,
+   "b": 10.895,
+   "lines": [
+    "spends eight symbols",
+    "on every bit."
+   ],
+   "ink": {
+    "x0": 239,
+    "x1": 760,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 206,
+    "x1": 794,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l4a",
+   "a": 11.4,
+   "b": 13.86,
+   "lines": [
+    "That extra code lets",
+    "the receiver fix errors"
+   ],
+   "ink": {
+    "x0": 244,
+    "x1": 754,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 212,
+    "x1": 788,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l4b",
+   "a": 13.9,
+   "b": 15.606,
+   "lines": [
+    "in a weak signal."
+   ],
+   "ink": {
+    "x0": 307,
+    "x1": 692,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 273,
+    "x1": 727,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l5a",
+   "a": 16.1,
+   "b": 18.16,
+   "lines": [
+    "The cost:",
+    "eight times slower."
+   ],
+   "ink": {
+    "x0": 277,
+    "x1": 722,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 244,
+    "x1": 756,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l5b",
+   "a": 18.2,
+   "b": 20.532,
+   "lines": [
+    "The gain: about",
+    "four times the range."
+   ],
+   "ink": {
+    "x0": 252,
+    "x1": 746,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 220,
+    "x1": 780,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l6a",
+   "a": 21,
+   "b": 22.32,
+   "lines": [
+    "That is why long range modes"
+   ],
+   "ink": {
+    "x0": 144,
+    "x1": 855,
+    "y0": 332,
+    "y1": 380
+   },
+   "plate": {
+    "x0": 111,
+    "x1": 889,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  },
+  {
+   "id": "l6b",
+   "a": 22.36,
+   "b": 25.276,
+   "lines": [
+    "suit short messages,",
+    "not videos."
+   ],
+   "ink": {
+    "x0": 252,
+    "x1": 746,
+    "y0": 332,
+    "y1": 430
+   },
+   "plate": {
+    "x0": 219,
+    "x1": 781,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7a",
+   "a": 25.56,
+   "b": 28.36,
+   "lines": [
+    "Download Meshline for",
+    "private nearby messages,"
+   ],
+   "ink": {
+    "x0": 194,
+    "x1": 805,
+    "y0": 332,
+    "y1": 440
+   },
+   "plate": {
+    "x0": 160,
+    "x1": 840,
+    "y0": 306,
+    "y1": 458
+   },
+   "pass": true
+  },
+  {
+   "id": "l7b",
+   "a": 28.4,
+   "b": 29.846,
+   "lines": [
+    "even offline."
+   ],
+   "ink": {
+    "x0": 356,
+    "x1": 643,
+    "y0": 332,
+    "y1": 369
+   },
+   "plate": {
+    "x0": 323,
+    "x1": 677,
+    "y0": 306,
+    "y1": 398
+   },
+   "pass": true
+  }
+ ]
+}

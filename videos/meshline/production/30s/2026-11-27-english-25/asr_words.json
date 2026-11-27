@@ -1,0 +1,366 @@
+{
+ "l1": [
+  {
+   "w": "How",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "can",
+   "start": 0.1,
+   "end": 0.22
+  },
+  {
+   "w": "sending",
+   "start": 0.22,
+   "end": 0.46
+  },
+  {
+   "w": "slower",
+   "start": 0.46,
+   "end": 0.98
+  },
+  {
+   "w": "make",
+   "start": 0.98,
+   "end": 1.32
+  },
+  {
+   "w": "a",
+   "start": 1.32,
+   "end": 1.46
+  },
+  {
+   "w": "message",
+   "start": 1.46,
+   "end": 1.72
+  },
+  {
+   "w": "reach",
+   "start": 1.72,
+   "end": 2.02
+  },
+  {
+   "w": "farther?",
+   "start": 2.02,
+   "end": 2.32
+  }
+ ],
+ "l2": [
+  {
+   "w": "Far",
+   "start": 0.0,
+   "end": 0.18
+  },
+  {
+   "w": "away,",
+   "start": 0.18,
+   "end": 0.42
+  },
+  {
+   "w": "the",
+   "start": 0.8,
+   "end": 0.9
+  },
+  {
+   "w": "signal",
+   "start": 0.9,
+   "end": 1.16
+  },
+  {
+   "w": "sinks",
+   "start": 1.16,
+   "end": 1.44
+  },
+  {
+   "w": "into",
+   "start": 1.44,
+   "end": 1.78
+  },
+  {
+   "w": "the",
+   "start": 1.78,
+   "end": 1.88
+  },
+  {
+   "w": "noise.",
+   "start": 1.88,
+   "end": 2.08
+  }
+ ],
+ "l3": [
+  {
+   "w": "Bluetooth's",
+   "start": 0.0,
+   "end": 0.44
+  },
+  {
+   "w": "long",
+   "start": 0.44,
+   "end": 0.66
+  },
+  {
+   "w": "-range",
+   "start": 0.66,
+   "end": 0.98
+  },
+  {
+   "w": "mode",
+   "start": 0.98,
+   "end": 1.32
+  },
+  {
+   "w": "spends",
+   "start": 1.32,
+   "end": 1.9
+  },
+  {
+   "w": "eight",
+   "start": 1.9,
+   "end": 2.36
+  },
+  {
+   "w": "symbols",
+   "start": 2.36,
+   "end": 2.64
+  },
+  {
+   "w": "on",
+   "start": 2.64,
+   "end": 2.9
+  },
+  {
+   "w": "every",
+   "start": 2.9,
+   "end": 3.14
+  },
+  {
+   "w": "bit.",
+   "start": 3.14,
+   "end": 3.44
+  }
+ ],
+ "l4": [
+  {
+   "w": "That",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "w": "extra",
+   "start": 0.1,
+   "end": 0.26
+  },
+  {
+   "w": "code",
+   "start": 0.26,
+   "end": 0.84
+  },
+  {
+   "w": "lets",
+   "start": 0.84,
+   "end": 1.36
+  },
+  {
+   "w": "the",
+   "start": 1.36,
+   "end": 1.56
+  },
+  {
+   "w": "receiver",
+   "start": 1.56,
+   "end": 1.8
+  },
+  {
+   "w": "fix",
+   "start": 1.8,
+   "end": 2.24
+  },
+  {
+   "w": "errors",
+   "start": 2.24,
+   "end": 2.5
+  },
+  {
+   "w": "in",
+   "start": 2.5,
+   "end": 2.96
+  },
+  {
+   "w": "a",
+   "start": 2.96,
+   "end": 3.02
+  },
+  {
+   "w": "weak",
+   "start": 3.02,
+   "end": 3.14
+  },
+  {
+   "w": "signal.",
+   "start": 3.14,
+   "end": 3.54
+  }
+ ],
+ "l5": [
+  {
+   "w": "The",
+   "start": 0.0,
+   "end": 0.06
+  },
+  {
+   "w": "cost",
+   "start": 0.06,
+   "end": 0.28
+  },
+  {
+   "w": "eight",
+   "start": 0.28,
+   "end": 0.68
+  },
+  {
+   "w": "times",
+   "start": 0.68,
+   "end": 1.06
+  },
+  {
+   "w": "slower.",
+   "start": 1.06,
+   "end": 1.4
+  },
+  {
+   "w": "The",
+   "start": 2.06,
+   "end": 2.1
+  },
+  {
+   "w": "gain",
+   "start": 2.1,
+   "end": 2.3
+  },
+  {
+   "w": "about",
+   "start": 2.3,
+   "end": 2.7
+  },
+  {
+   "w": "four",
+   "start": 2.7,
+   "end": 2.98
+  },
+  {
+   "w": "times",
+   "start": 2.98,
+   "end": 3.34
+  },
+  {
+   "w": "the",
+   "start": 3.34,
+   "end": 3.48
+  },
+  {
+   "w": "range.",
+   "start": 3.48,
+   "end": 3.7
+  }
+ ],
+ "l6": [
+  {
+   "w": "That",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "w": "is",
+   "start": 0.12,
+   "end": 0.22
+  },
+  {
+   "w": "why",
+   "start": 0.22,
+   "end": 0.4
+  },
+  {
+   "w": "long",
+   "start": 0.4,
+   "end": 0.64
+  },
+  {
+   "w": "-range",
+   "start": 0.64,
+   "end": 1.02
+  },
+  {
+   "w": "modes",
+   "start": 1.02,
+   "end": 1.36
+  },
+  {
+   "w": "suit",
+   "start": 1.36,
+   "end": 1.76
+  },
+  {
+   "w": "short",
+   "start": 1.76,
+   "end": 1.98
+  },
+  {
+   "w": "messages,",
+   "start": 1.98,
+   "end": 2.34
+  },
+  {
+   "w": "not",
+   "start": 3.0,
+   "end": 3.24
+  },
+  {
+   "w": "videos.",
+   "start": 3.24,
+   "end": 3.54
+  }
+ ],
+ "l7": [
+  {
+   "w": "Download",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "w": "Meshline",
+   "start": 0.32,
+   "end": 0.9
+  },
+  {
+   "w": "for",
+   "start": 0.9,
+   "end": 1.14
+  },
+  {
+   "w": "private",
+   "start": 1.14,
+   "end": 1.46
+  },
+  {
+   "w": "nearby",
+   "start": 1.46,
+   "end": 1.7
+  },
+  {
+   "w": "messages,",
+   "start": 1.7,
+   "end": 2.26
+  },
+  {
+   "w": "even",
+   "start": 2.84,
+   "end": 3.14
+  },
+  {
+   "w": "offline.",
+   "start": 3.14,
+   "end": 3.4
+  }
+ ]
+}

@@ -134,3 +134,6 @@
 
 ## Production 2026-11-23-english-24 (English, why a weak signal drains your battery faster): complete
 - See `37-production-30s-english24-01.md`; output sha256 `d5e777b2f64410e96fc4307dfa25999d211c5b647a1d112899938f61c52366d8`; thumbnail = frame-zero composition.
+
+## Production 2026-11-27-english-25 (English, why a radio can send farther by slowing down): complete
+- See `38-production-30s-english25-01.md`; output sha256 `f40fcc89e5479d68568739c1e2c9e77df0f2033f5a9d21d2ecf308e0730f9f4a`; thumbnail = frame-zero composition.

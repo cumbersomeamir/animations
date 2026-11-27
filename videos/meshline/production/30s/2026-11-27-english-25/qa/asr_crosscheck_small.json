@@ -1,0 +1,6 @@
+{
+ "model": "whisper-small",
+ "asr": "How can sending slower make a message reach farther? Far away, the signal sinks into the noise. Bluetooth's long-range mode spends eight symbols on every bit. That extra code lets the receiver fix errors in a weak signal. The cost eight times slower, the gain about four times the range. That is why long-range modes suit short messages, not videos. Download MeshLine for private nearby messages, even offline.",
+ "wer_normalized": 0.0,
+ "audio_pcm_sha256_prefix": "e5faa9f691de0a99"
+}

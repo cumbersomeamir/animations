@@ -1,0 +1,9 @@
+How can sending slower make a message reach farther?
+
+Far away, the signal sinks into the noise. Bluetooth's long range mode spends eight symbols on every bit. That extra code lets the receiver fix errors in a weak signal. The cost: eight times slower. The gain: about four times the range.
+
+That is why long range modes suit short messages, not videos.
+
+Download Meshline for private nearby messages, even offline.
+
+#bluetooth #wireless #techtips #Meshline

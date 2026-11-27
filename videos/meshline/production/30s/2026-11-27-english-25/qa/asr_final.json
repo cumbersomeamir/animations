@@ -1,0 +1,45 @@
+{
+ "reference": "How can sending slower make a message reach farther? Far away, the signal sinks into the noise. Bluetooth's long range mode spends eight symbols on every bit. That extra code lets the receiver fix errors in a weak signal. The cost: eight times slower. The gain: about four times the range. That is why long range modes suit short messages, not videos. Download Meshline for private nearby messages, even offline.",
+ "asr": "How can sending slower make a message reach farther? Far away, the signal sinks into the noise. Bluetooth's long-range mode spends eight symbols on every bit. That extra code lets the receiver fix errors in a weak signal. The cost eight times slower, the gain about four times the range. That is why long-range modes suit short messages, not videos. Download Meshline for private nearby messages, even offline.",
+ "wer": 0.0,
+ "segments": [
+  [
+   0.0,
+   3.4,
+   "How can sending slower make a message reach farther?"
+  ],
+  [
+   3.4,
+   6.6,
+   "Far away, the signal sinks into the noise."
+  ],
+  [
+   6.6,
+   11.2,
+   "Bluetooth's long-range mode spends eight symbols on every bit."
+  ],
+  [
+   11.2,
+   16.0,
+   "That extra code lets the receiver fix errors in a weak signal."
+  ],
+  [
+   16.0,
+   20.8,
+   "The cost eight times slower, the gain about four times the range."
+  ],
+  [
+   20.8,
+   25.4,
+   "That is why long-range modes suit short messages, not videos."
+  ],
+  [
+   25.4,
+   29.8,
+   "Download Meshline for private nearby messages, even offline."
+  ]
+ ],
+ "wer_number_normalized": 0.0,
+ "normalization": "hyphens split (long-range -> long range); no other differences",
+ "audio_pcm_sha256_prefix": "e5faa9f691de0a99"
+}
