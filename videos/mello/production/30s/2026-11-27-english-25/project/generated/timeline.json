@@ -1,0 +1,98 @@
+{
+  "voice_mix": [
+    [
+      "af_bella",
+      0.7
+    ],
+    [
+      "am_puck",
+      0.3
+    ]
+  ],
+  "lang": "en-us",
+  "speed": 0.98,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Stuck halfway through?",
+      "start": 0.15,
+      "end": 1.234,
+      "pauses": []
+    },
+    {
+      "id": "super",
+      "text": "Motivation can sag in the middle of a goal.",
+      "start": 1.7,
+      "end": 4.148,
+      "pauses": [
+        [
+          2.379,
+          2.531
+        ]
+      ]
+    },
+    {
+      "id": "p1",
+      "text": "In one study, proofreaders caught more typos at the start and end than in the middle.",
+      "start": 4.75,
+      "end": 9.235,
+      "pauses": [
+        [
+          5.525,
+          5.86
+        ],
+        [
+          8.523,
+          8.665
+        ]
+      ]
+    },
+    {
+      "id": "p2",
+      "text": "Other studies found people stuck with goals more when they watched the smaller number.",
+      "start": 9.75,
+      "end": 13.952,
+      "pauses": [
+        [
+          10.498,
+          10.63
+        ]
+      ]
+    },
+    {
+      "id": "why",
+      "text": "Early on, that's what's done. Near the end, it's what's left. Progress feels faster.",
+      "start": 14.5,
+      "end": 19.174,
+      "pauses": [
+        [
+          15.86,
+          16.213
+        ],
+        [
+          17.563,
+          17.849
+        ]
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So at first, count what you've done. Past halfway, count what's left.",
+      "start": 20.4,
+      "end": 24.044,
+      "pauses": [
+        [
+          21.986,
+          22.36
+        ]
+      ]
+    },
+    {
+      "id": "cta",
+      "text": "Take a mindful break with Mello.",
+      "start": 26.6,
+      "end": 28.32,
+      "pauses": []
+    }
+  ]
+}
