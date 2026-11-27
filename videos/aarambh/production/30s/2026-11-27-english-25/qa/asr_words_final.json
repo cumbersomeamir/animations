@@ -1,0 +1,406 @@
+{
+ "model": "faster-whisper tiny.en int8",
+ "words": [
+  {
+   "w": "How",
+   "start": 0.0,
+   "end": 0.38
+  },
+  {
+   "w": "far",
+   "start": 0.38,
+   "end": 0.62
+  },
+  {
+   "w": "away",
+   "start": 0.62,
+   "end": 0.78
+  },
+  {
+   "w": "is",
+   "start": 0.78,
+   "end": 1.04
+  },
+  {
+   "w": "a",
+   "start": 1.04,
+   "end": 1.2
+  },
+  {
+   "w": "star?",
+   "start": 1.2,
+   "end": 1.6
+  },
+  {
+   "w": "Henrietta",
+   "start": 2.04,
+   "end": 2.36
+  },
+  {
+   "w": "Levitt",
+   "start": 2.36,
+   "end": 2.68
+  },
+  {
+   "w": "found",
+   "start": 2.68,
+   "end": 2.98
+  },
+  {
+   "w": "a",
+   "start": 2.98,
+   "end": 3.12
+  },
+  {
+   "w": "clue",
+   "start": 3.12,
+   "end": 3.26
+  },
+  {
+   "w": "in",
+   "start": 3.26,
+   "end": 3.38
+  },
+  {
+   "w": "its",
+   "start": 3.38,
+   "end": 3.58
+  },
+  {
+   "w": "blink.",
+   "start": 3.58,
+   "end": 4.08
+  },
+  {
+   "w": "A",
+   "start": 4.58,
+   "end": 4.6
+  },
+  {
+   "w": "faint",
+   "start": 4.6,
+   "end": 4.84
+  },
+  {
+   "w": "star",
+   "start": 4.84,
+   "end": 5.06
+  },
+  {
+   "w": "might",
+   "start": 5.06,
+   "end": 5.24
+  },
+  {
+   "w": "be",
+   "start": 5.24,
+   "end": 5.42
+  },
+  {
+   "w": "weak",
+   "start": 5.42,
+   "end": 5.76
+  },
+  {
+   "w": "or",
+   "start": 5.76,
+   "end": 6.02
+  },
+  {
+   "w": "just",
+   "start": 6.02,
+   "end": 6.3
+  },
+  {
+   "w": "far",
+   "start": 6.3,
+   "end": 6.5
+  },
+  {
+   "w": "away.",
+   "start": 6.5,
+   "end": 6.9
+  },
+  {
+   "w": "She",
+   "start": 7.42,
+   "end": 7.64
+  },
+  {
+   "w": "studied",
+   "start": 7.64,
+   "end": 7.92
+  },
+  {
+   "w": "blinking",
+   "start": 7.92,
+   "end": 8.26
+  },
+  {
+   "w": "stars",
+   "start": 8.26,
+   "end": 8.78
+  },
+  {
+   "w": "in",
+   "start": 8.78,
+   "end": 9.04
+  },
+  {
+   "w": "one",
+   "start": 9.04,
+   "end": 9.3
+  },
+  {
+   "w": "distant",
+   "start": 9.3,
+   "end": 9.62
+  },
+  {
+   "w": "cloud,",
+   "start": 9.62,
+   "end": 10.12
+  },
+  {
+   "w": "all",
+   "start": 10.46,
+   "end": 10.66
+  },
+  {
+   "w": "about",
+   "start": 10.66,
+   "end": 10.94
+  },
+  {
+   "w": "equally",
+   "start": 10.94,
+   "end": 11.32
+  },
+  {
+   "w": "far.",
+   "start": 11.32,
+   "end": 11.8
+  },
+  {
+   "w": "There,",
+   "start": 12.38,
+   "end": 12.58
+  },
+  {
+   "w": "the",
+   "start": 12.72,
+   "end": 12.8
+  },
+  {
+   "w": "brighter",
+   "start": 12.8,
+   "end": 13.0
+  },
+  {
+   "w": "one's",
+   "start": 13.0,
+   "end": 13.36
+  },
+  {
+   "w": "blinked",
+   "start": 13.36,
+   "end": 13.62
+  },
+  {
+   "w": "slower,",
+   "start": 13.62,
+   "end": 13.98
+  },
+  {
+   "w": "so",
+   "start": 14.52,
+   "end": 14.72
+  },
+  {
+   "w": "a",
+   "start": 14.72,
+   "end": 14.8
+  },
+  {
+   "w": "blink",
+   "start": 14.8,
+   "end": 15.02
+  },
+  {
+   "w": "gives",
+   "start": 15.02,
+   "end": 15.34
+  },
+  {
+   "w": "true",
+   "start": 15.34,
+   "end": 15.62
+  },
+  {
+   "w": "brightness",
+   "start": 15.62,
+   "end": 16.02
+  },
+  {
+   "w": "and",
+   "start": 16.02,
+   "end": 16.68
+  },
+  {
+   "w": "faintness",
+   "start": 16.68,
+   "end": 17.1
+  },
+  {
+   "w": "then",
+   "start": 17.1,
+   "end": 17.32
+  },
+  {
+   "w": "gives",
+   "start": 17.32,
+   "end": 17.58
+  },
+  {
+   "w": "distance.",
+   "start": 17.58,
+   "end": 18.12
+  },
+  {
+   "w": "Hubble",
+   "start": 18.74,
+   "end": 18.9
+  },
+  {
+   "w": "later",
+   "start": 18.9,
+   "end": 19.18
+  },
+  {
+   "w": "used",
+   "start": 19.18,
+   "end": 19.42
+  },
+  {
+   "w": "her",
+   "start": 19.42,
+   "end": 19.68
+  },
+  {
+   "w": "rule",
+   "start": 19.68,
+   "end": 19.88
+  },
+  {
+   "w": "to",
+   "start": 19.88,
+   "end": 20.14
+  },
+  {
+   "w": "show",
+   "start": 20.14,
+   "end": 20.4
+  },
+  {
+   "w": "Andromeda",
+   "start": 20.4,
+   "end": 20.86
+  },
+  {
+   "w": "is",
+   "start": 20.86,
+   "end": 21.44
+  },
+  {
+   "w": "another",
+   "start": 21.44,
+   "end": 21.78
+  },
+  {
+   "w": "galaxy.",
+   "start": 21.78,
+   "end": 22.36
+  },
+  {
+   "w": "Lesson",
+   "start": 22.98,
+   "end": 23.32
+  },
+  {
+   "w": "to",
+   "start": 23.32,
+   "end": 23.62
+  },
+  {
+   "w": "see",
+   "start": 23.62,
+   "end": 23.8
+  },
+  {
+   "w": "a",
+   "start": 23.8,
+   "end": 23.9
+  },
+  {
+   "w": "real",
+   "start": 23.9,
+   "end": 24.12
+  },
+  {
+   "w": "pattern",
+   "start": 24.12,
+   "end": 24.66
+  },
+  {
+   "w": "compare",
+   "start": 24.66,
+   "end": 25.04
+  },
+  {
+   "w": "like",
+   "start": 25.04,
+   "end": 25.24
+  },
+  {
+   "w": "with",
+   "start": 25.24,
+   "end": 25.46
+  },
+  {
+   "w": "light.",
+   "start": 25.46,
+   "end": 25.9
+  },
+  {
+   "w": "Download",
+   "start": 25.9,
+   "end": 27.54
+  },
+  {
+   "w": "RM",
+   "start": 27.54,
+   "end": 28.06
+  },
+  {
+   "w": "to",
+   "start": 28.06,
+   "end": 28.54
+  },
+  {
+   "w": "support",
+   "start": 28.54,
+   "end": 28.92
+  },
+  {
+   "w": "livelihood",
+   "start": 28.92,
+   "end": 29.32
+  },
+  {
+   "w": "tools.",
+   "start": 29.32,
+   "end": 29.8
+  }
+ ],
+ "text": "How far away is a star? Henrietta Levitt found a clue in its blink. A faint star might be weak or just far away. She studied blinking stars in one distant cloud, all about equally far. There, the brighter one's blinked slower, so a blink gives true brightness and faintness then gives distance. Hubble later used her rule to show Andromeda is another galaxy. Lesson to see a real pattern compare like with light. Download RM to support livelihood tools."
+}

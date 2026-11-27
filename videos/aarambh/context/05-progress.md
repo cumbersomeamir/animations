@@ -195,3 +195,13 @@
 - **Commands:** see the batch `README.md` ("Rebuild"); QA via `node src/render.mjs --capbounds && bash tools/qa.sh && python tools/sync_table.py`.
 - **Open:** a human listen ("in mice" under the music).
 - **Read first next time:** 25 (incl. both addenda), then 11 and 38.
+
+## 2026-11-27: english-25 #01 (English; sixth under the 2026-11-17 feedback addendum)
+- **Pre-flight:** batch 24 was complete and pushed (`83e117c`); 27 GB free disk; the batch folder was new.
+- **Topic replacement:** Mary Anning's sea monster (suggested) is episode 21's subject and mechanism, so, per the brief, the episode uses Henrietta Leavitt (Cepheid period–luminosity relation). Reasoning in 39.
+- `videos/aarambh/production/30s/2026-11-27-english-25/aarambh-30s-english25-01.mp4` (sha256 `8d3bc0994dab2e64c3aa1d4b7d30532784117a1f63ce62486ec16d207d193aab`) and thumbnail = frame 0 (sha256 `cf10a2c2de3806405f83bd2e7fc120b1f38947d1b867705dedb4f149d3582887`).
+  - Frame 0: the real c. 1898 portrait beside one pulsing star and its light curve, "A BLINK MEASURES SPACE".
+  - Story: two equally faint stars; a camera tilt reveals one weak and near, one bright and far → one distant cloud, her marked stars, SAME DISTANCE → the brighter ones blink slower (dots → line → her real 1912 figure, stamped LEAVITT; a lookup arrow reads true brightness) → the star's faintness gives DISTANCE (tape measure) → the real 1899 Andromeda photograph, 1923 HUBBLE, her rule; pull back: ANOTHER GALAXY → lesson "compare like with like" → Aarambh CTA.
+- **Commands:** see the batch `README.md` ("Rebuild"); QA via `node src/render.mjs --capbounds && bash tools/qa.sh && python tools/sync_table.py`.
+- **Open:** a human listen.
+- **Read first next time:** 25 (incl. both addenda), then 11 and 39.

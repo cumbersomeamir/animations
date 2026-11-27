@@ -1,0 +1,57 @@
+{
+ "voice": "Kokoro-82M ONNX v1.0, Meshline/Recall blend 0.7 af_bella + 0.3 am_puck, en-us, speed 0.98",
+ "language": "English narration and English captions",
+ "phoneme_overrides": {
+  "lˈiːvɪt": "lˈɛvɪt"
+ },
+ "sentences": [
+  {
+   "id": "S1",
+   "start": 0.05,
+   "text": "How far away is a star? Henrietta Leavitt found a clue in its blink.",
+   "tts": "How far away is a star? Henrietta Leavitt found a clue in its blink."
+  },
+  {
+   "id": "S2",
+   "start": 4.35,
+   "text": "A faint star might be weak, or just far away.",
+   "tts": "A faint star might be weak, or just far away."
+  },
+  {
+   "id": "S3",
+   "start": 7.35,
+   "text": "She studied blinking stars in one distant cloud, all about equally far.",
+   "tts": "She studied blinking stars in one distant cloud, all about equally far."
+  },
+  {
+   "id": "S4",
+   "start": 12.3,
+   "text": "There, the brighter ones blinked slower.",
+   "tts": "There, the brighter ones blinked slower."
+  },
+  {
+   "id": "S5",
+   "start": 14.45,
+   "text": "So a blink gives true brightness, and faintness then gives distance.",
+   "tts": "So a blink gives true brightness, and faintness then gives distance."
+  },
+  {
+   "id": "S6",
+   "start": 18.5,
+   "text": "Hubble later used her rule to show Andromeda is another galaxy.",
+   "tts": "Hubble later used her rule to show Andromeda is another galaxy."
+  },
+  {
+   "id": "S7",
+   "start": 22.75,
+   "text": "Lesson: to see a real pattern, compare like with like.",
+   "tts": "Lesson: to see a real pattern, compare like with like."
+  },
+  {
+   "id": "S8",
+   "start": 27.1,
+   "text": "Download Aarambh to support livelihood tools.",
+   "tts": "Download Aa-rumbh, to support livelihood tools."
+  }
+ ]
+}
