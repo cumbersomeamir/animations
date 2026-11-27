@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=1080,height=1920">
-<title>Werbens 30s English-24 01</title>
+<title>Werbens 30s English-25 01</title>
 <style>
   /* captions: Inter Display ExtraBold (OFL, accepted); big labels + wordmark: Space Grotesk 700 (as on app.werbens.com) */
   @font-face { font-family: "IDXB"; src: url(/fonts/InterDisplay-ExtraBold.otf) format("opentype"); }
@@ -26,7 +26,8 @@
   #cap .w { display: inline-block; margin: 0 0.11em; } #cap .w.hi { color: var(--mint); }
   /* big brief labels, one at a time: Space Grotesk 700 with the site's hero-headline gradient */
   .big { position: absolute; font: 700 120px/128px "SG"; letter-spacing: -0.04em; white-space: nowrap; background: var(--hero);
-         -webkit-background-clip: text; background-clip: text; color: transparent; padding: 0 6px 8px; transform-origin: 50% 50%; }
+         -webkit-background-clip: text; background-clip: text; color: transparent; padding: 0 6px 8px; transform-origin: 50% 50%;
+         filter: drop-shadow(0 3px 10px rgba(11,17,32,0.95)) drop-shadow(0 0 3px rgba(11,17,32,0.9)); } /* english-25: labels sit over a busy cooler — dark halo for contrast; colours unchanged */
   .big.sm { font-size: 96px; line-height: 104px; }
   /* official lockup from app.werbens.com: wordmark Space Grotesk 700, −0.04em, 135° #7FE7DC→#316879 gradient text */
   #lockup { position: absolute; left: 540px; top: 1270px; white-space: nowrap; font: 700 104px/118px "SG"; letter-spacing: -0.04em;
@@ -47,18 +48,18 @@
 <body>
 <canvas id="gl" width="1080" height="1920"></canvas>
 <div id="hud">
-  <div class="big sm" id="lShow">SHOWROOM FIRST</div>
-  <div class="big sm" id="lEve">YOUR EVENING</div>
-  <div class="big sm" id="lPic">PICTURE IT</div>
-  <div class="big sm" id="lFin">FINISH THE ROOM</div>
-  <div class="big sm" id="lLife">SHOW THE LIFE</div>
+  <div class="big sm" id="l150">150 NAMES</div>
+  <div class="big sm" id="lSearch">THE SEARCH</div>
+  <div class="big sm" id="lPop">YOUR NAME POPS</div>
+  <div class="big sm" id="lGift">A GIFT</div>
+  <div class="big sm" id="lGive">FIND + GIVE</div>
   <div id="lockup">Werbens</div>
   <div id="tagline">Decoding how brands sell</div>
   <div id="cap"></div>
 </div>
 <div id="thumb">
-  <div class="t" id="th1">WHY ROOMS</div>
-  <div class="t" id="th2">COME FIRST?</div>
+  <div class="t" id="th1">FIND YOUR</div>
+  <div class="t" id="th2">NAME?</div>
   <div id="thLogo"><img src="/assets/brand/app-werbens-logo.svg" alt=""><span>Werbens</span></div>
 </div>
 <script type="module" src="/src/scene.js"></script>

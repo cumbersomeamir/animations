@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Reproducible build of videos/werbens/production/30s/2026-11-23-english-24/werbens-30s-english24-01.mp4
+# Reproducible build of videos/werbens/production/30s/2026-11-27-english-25/werbens-30s-english25-01.mp4
 # Requires Node >= 22, ffmpeg 6.x and the system Playwright + Chromium (pre-installed; not reinstalled). No GPU, no API keys,
 # no Blender. Kokoro + Whisper weights reused from the education/pilot-01 cache.
 set -euo pipefail
@@ -12,9 +12,9 @@ node src/audio.mjs               # accepted non-looping score + foley + narratio
 node src/render.mjs --thumb --stills 0 --out build/thumb      # thumbnail = frame 0 + logo row (context/27 §5)
 node src/render.mjs --video      # deterministic Three.js frames (SwiftShader WebGL2) in headless Chromium -> build/video.mp4
 ffmpeg -y -loglevel error -i build/video.mp4 -i build/audio/mix.wav -map 0:v:0 -map 1:a:0 \
-  -c:v copy -c:a aac -b:a 192k -ar 48000 -ac 2 -t 30 -movflags +faststart werbens-30s-english24-01.mp4
-cp build/thumb/t_0.00.png werbens-30s-english24-01-thumbnail.png
-ffmpeg -y -loglevel error -i werbens-30s-english24-01-thumbnail.png -q:v 2 werbens-30s-english24-01-thumbnail.jpg
+  -c:v copy -c:a aac -b:a 192k -ar 48000 -ac 2 -t 30 -movflags +faststart werbens-30s-english25-01.mp4
+cp build/thumb/t_0.00.png werbens-30s-english25-01-thumbnail.png
+ffmpeg -y -loglevel error -i werbens-30s-english25-01-thumbnail.png -q:v 2 werbens-30s-english25-01-thumbnail.jpg
 bash qa.sh
 node src/qa_dom.mjs 1            # caption + label bounds / overlaps on every frame -> qa/dom-bounds.json
-node src/asr_mix.mjs werbens-30s-english24-01.mp4   # English ASR of the final mix (Whisper base.en) -> qa/asr-mix.json
+node src/asr_mix.mjs werbens-30s-english25-01.mp4   # English ASR of the final mix (Whisper base.en) -> qa/asr-mix.json

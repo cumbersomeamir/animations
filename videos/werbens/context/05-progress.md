@@ -106,4 +106,11 @@
   original miniature store with pop-up rooms, no numbers; new camera grammar: follow-cam along a store path; frame 0 =
   thumbnail; captions y 293–447; render 2 after a review (SHOWROOM FIRST label moved off a light floor plate); sha256 1835159a;
   context/40).
-  Next: wait for the next brief; re-read CLAUDE.md, this file and ALL topic records (context/11 rows 01–26) first.
+- English-25 (batch25 2026-11-27-english-25) IN PROGRESS `production/30s/2026-11-27-english-25/werbens-30s-english25-01.mp4`
+  + thumbnail (Share a Coke: the cooler became a search for your name, a friend's name a gift, "FIND YOUR NAME?"; not covered
+  before — scoped to the shelf purchase mechanism to stay distinct from #25 Spotify Wrapped; Coca-Cola history page + 2014/2015/
+  2025 releases, Shapiro et al. 1997; original generic bottles, illustrative names, no figures; context/41). Done: existence
+  check (no prior batch-25 work), research, brand re-check, script, narration + timing, audio mix (0 NaN/Inf), scene (cooler of
+  150 named bottles, label flip wave, wall of six coolers, search light, name stream, find + gift + hand-over), 6 stills passes
+  (wall + frame-0 framings solved by projection; labels get a dark halo over the busy cooler), thumbnail,
+  `node src/qa_dom.mjs 3` = 0 issues; checkpoint commit. Next: full render, mux, qa.sh, frame review, ASR, docs, push, attach.

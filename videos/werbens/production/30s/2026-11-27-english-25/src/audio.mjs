@@ -1,4 +1,4 @@
-// Original procedural score + foley for English-24 (accepted Satisfying Product Theatre audio recipe; English Meshline narration).
+// Original procedural score + foley for English-25 (accepted Satisfying Product Theatre audio recipe; English Meshline narration).
 // Everything is synthesised here from oscillators/noise (no samples, no third-party audio) → no licensing constraints.
 // Music is deliberately NON-looping: one held, slowly evolving pad chord per scene + a handful of piano notes tied to object
 // events (landings, lift, hop, cut, tile). No beat grid, no hats, no arpeggio or bass pattern that repeats.
@@ -82,16 +82,15 @@ function metal(freq, dur = 0.5, dec = 9) { // inharmonic coin partials
 
 // ------------------------------------------------------------------ score (accepted recipe: one held chord per scene, no grid)
 const PADS = [ // [t0, t1, notes, root] — overlapping so chords crossfade; D major colour as accepted; one chord per story beat
-  [0.0, 3.2, [62, 66, 69, 73], 50], [3.0, 6.0, [59, 62, 66, 71], 47], [5.8, 9.9, [55, 59, 62, 67], 43], [9.7, 12.7, [57, 61, 64, 69], 45],
-  [12.5, 14.7, [62, 66, 69, 74], 50], [14.5, 18.9, [59, 62, 66, 71], 47], [18.7, 21.6, [55, 59, 62, 67], 43], [21.4, 26.4, [62, 66, 69, 74], 50],
-  [26.2, 30.0, [62, 66, 69, 76, 78], 50],
+  [0.0, 3.1, [62, 66, 69, 73], 50], [2.9, 6.4, [59, 62, 66, 71], 47], [6.2, 10.0, [55, 59, 62, 67], 43], [9.8, 13.5, [57, 61, 64, 69], 45],
+  [13.3, 17.7, [59, 62, 66, 71], 47], [17.5, 21.1, [62, 66, 69, 74], 50], [20.9, 26.4, [55, 59, 62, 67, 71], 43], [26.2, 30.0, [62, 66, 69, 76, 78], 50],
 ];
 for (const [t0, t1, notes, root] of PADS) { add(music, t0, pad(notes.map(mtof), t1 - t0), 0.05, 0); add(music, t0, softBass(mtof(root - 12), t1 - t0), 0.05, 0); }
-// event-tied piano notes (each once): the lamp in room A, the path into the showroom, the last room popping up, the evening
-// lamp, the imagined shopper, the ghost room above the cart, the life popping back; CTA spread as accepted
+// event-tied piano notes (each once): the names arrive, the wall of 150, your name pops, found, the gift, the hand-over;
+// CTA spread as accepted
 const KEYS = [
-  [T.lampA + 0.1, 81, 0.18], [T.pathLight[0] + 0.25, 78, 0.2], [T.unfoldC[1], 81, 0.2], [T.evening + 0.2, 86, 0.22], [T.ghost[0] + 0.25, 81, 0.2],
-  [T.ghostRoom[0] + 0.25, 86, 0.22], [T.popAll[0] + 0.3, 81, 0.22], [T.popAll[1], 86, 0.24],
+  [T.swap[1] - 0.1, 81, 0.2], [T.coolers[0] + 0.3, 78, 0.2], [T.samPop + 0.08, 86, 0.22], [T.foundSam[0] + 0.25, 81, 0.2],
+  [T.gift + 0.2, 86, 0.22], [T.handOver[1], 81, 0.22],
   [T.tile[1], 74, 0.45], [T.tile[1] + 0.08, 78, 0.4], [T.tile[1] + 0.16, 81, 0.4], [T.tile[1] + 0.24, 86, 0.4], [29.2, 81, 0.3], [29.3, 86, 0.25],
 ];
 for (const [t, m, v] of KEYS) add(music, t, piano(mtof(m), 2.4, v), 0.11, ((m % 5) - 2) * 0.12);

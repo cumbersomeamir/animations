@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# QA for English-24 30 s #01: metadata, full decode, exact duration/frames, loudness/true peak, contact + transition sheets.
+# QA for English-25 30 s #01: metadata, full decode, exact duration/frames, loudness/true peak, contact + transition sheets.
 set -euo pipefail
 cd "$(dirname "$0")"
-OUT=werbens-30s-english24-01.mp4
+OUT=werbens-30s-english25-01.mp4
 FONT=fonts/Inter-Bold.otf
 mkdir -p qa/frames
 ffprobe -v error -show_format -show_streams -of json "$OUT" > qa/ffprobe.json
@@ -14,12 +14,12 @@ ffmpeg -hide_banner -nostats -i "$OUT" -vn -af ebur128=peak=true -f null - 2>&1 
 ffmpeg -hide_banner -nostats -i "$OUT" -vn -af astats=measure_overall=Peak_level+RMS_level+Flat_factor+Peak_count:measure_perchannel=none -f null - 2>&1 | grep -E "Peak level|RMS level|Flat factor|Peak count" > qa/astats.txt || true
 # full contact sheet: one frame per second (t = 0.5, 1.5, … 29.5)
 ffmpeg -v error -y -i "$OUT" -vf "fps=1:start_time=0.5,scale=216:384,drawtext=fontfile=$FONT:text='%{pts\:hms}':x=6:y=6:fontsize=16:fontcolor=white:box=1:boxcolor=black@0.55,tile=10x3:padding=4:color=white" -frames:v 1 qa/contact-sheet.png
-# transitions + key object beats (frame numbers @30 fps): frame 0 (room A mid-unfold + headline), headline → caption, sofa up,
-# lamp, crane, path light, follow-cam, room B, room C, racks, the lone sofa, size, price, room D, evening, ghost, using, want,
-# pack onto cart, ghost room, crane up, fold, pop + life, push into room A, tile, lockup, last
-B="0 13 36 48 90 120 135 160 190 205 225 240 285 336 356 380 410 465 492 550 592 610 645 668 700 740 770 800 830 899"
+# transitions + key object beats (frame numbers @30 fps): frame 0 (upper shelves + search ring + headline), headline → caption,
+# darting light, labels → logo, swap wave, names, pull-back, coolers rise (150), wall, back to the cooler, search zigzag,
+# stream, SAM pops, slip by, SAM found, MIA glows, MIA out, gift, two-shot, find ring, hand-over, CTA clear, tile, lockup, last
+B="0 13 40 75 95 115 140 165 190 230 248 265 280 300 330 365 400 420 459 490 520 540 556 585 606 640 669 700 800 899"
 SEL=$(for f in $B; do printf "eq(n\\,%s)+" "$f"; done); SEL=${SEL%+}
 ffmpeg -v error -y -i "$OUT" -vf "select='$SEL',scale=216:384,drawtext=fontfile=$FONT:text='f%{n} %{pts\:hms}':x=6:y=6:fontsize=15:fontcolor=white:box=1:boxcolor=black@0.55,tile=10x3:padding=4:color=white" -vsync vfr -frames:v 1 qa/transition-sheet.png
-for f in 0 13 48 120 160 205 240 300 356 410 465 550 592 620 668 720 770 830 899; do ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,$f)" -vsync vfr -frames:v 1 -q:v 3 "qa/frames/f$(printf %03d $f).jpg"; done
+for f in 0 13 60 95 140 175 248 280 330 380 459 500 530 560 606 669 720 800 830 899; do ffmpeg -v error -y -i "$OUT" -vf "select=eq(n\,$f)" -vsync vfr -frames:v 1 -q:v 3 "qa/frames/f$(printf %03d $f).jpg"; done
 ffmpeg -v error -y -i "$OUT" -filter_complex "[0:a]showspectrumpic=s=1800x300:legend=0:scale=log[s];[0:a]showwavespic=s=1800x160:colors=#316879[w];[s][w]vstack=inputs=2" -frames:v 1 qa/audio-spectrogram.png
 cat qa/video-stream.txt qa/audio-stream.txt qa/format.txt; tail -1 qa/decode.log; grep -E "I:|Peak:" qa/loudness.txt

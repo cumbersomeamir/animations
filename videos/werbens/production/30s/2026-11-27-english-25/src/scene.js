@@ -1,7 +1,7 @@
-// Werbens · 30 s English-24 — "WHY ROOMS COME FIRST?" (IKEA's store guide starts customers in the showroom: whole furnished
-// rooms, furniture in action, flat packs later; picturing yourself using a product can raise wanting it — Escalas 2004, Elder &
-// Krishna 2012; show the life around the product), in the accepted 'Satisfying Product Theatre' style on the live app.werbens.com
-// dark-navy theme (context/17 re-checked 2026-11-23). Original illustrative miniature store; no IKEA branding, no numbers.
+// Werbens · 30 s English-25 — "FIND YOUR NAME?" (Share a Coke swapped the logo for popular first names — 150 in Australia at
+// the start — so every cooler became a search for your name, and a friend's name became a gift; Coca-Cola Company history page and
+// 2014/2015/2025 releases; Shapiro, Caldwell & Sorensen 1997), in the accepted 'Satisfying Product Theatre' style on the live
+// app.werbens.com dark-navy theme (context/17 re-checked 2026-11-27). Original generic bottles; no Coca-Cola branding; no figures.
 import * as THREE from "three";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
@@ -10,7 +10,7 @@ import { T, CAPTIONS, HIGHLIGHT } from "./timeline.js";
 
 const W = 1080, H = 1920, $ = (id) => document.getElementById(id);
 const Q = new URLSearchParams(location.search), THUMB = Q.get("thumb") === "1";
-await Promise.all(["52px IDXB", "130px IDBK", "34px ISB", "40px IB", "700 120px SG", "700 104px SG"].map((f) => document.fonts.load(f, "WHY ROOMS COME FIRST? SHOWROOM FIRST YOUR EVENING PICTURE IT FINISH THE ROOM SHOW THE LIFE Werbens")));
+await Promise.all(["52px IDXB", "130px IDBK", "34px ISB", "40px IB", "700 120px SG", "700 104px SG"].map((f) => document.fonts.load(f, "FIND YOUR NAME? 150 NAMES THE SEARCH YOUR NAME POPS A GIFT FIND + GIVE ABCDEFGHIJKLMNOPQRSTUVWXYZ Werbens")));
 const WJ = await (await fetch("/src/words.json")).json();
 // brand tokens measured on app.werbens.com (context/17, re-checked 2026-11-15); C3 = lit 3D bases (pre-compensated for ACES
 // under this lighting; rendered values measured in QA)
@@ -44,129 +44,77 @@ const fitText = (k, txt, font, maxW, px) => { let s = px; k.font = `${s}px ${fon
 const GLOW_TEX = (() => { const cv = document.createElement("canvas"); cv.width = cv.height = 256; const g = cv.getContext("2d"); const grd = g.createRadialGradient(128, 128, 0, 128, 128, 128); grd.addColorStop(0, "rgba(127,231,220,0.85)"); grd.addColorStop(0.35, "rgba(92,224,210,0.35)"); grd.addColorStop(1, "rgba(92,224,210,0)"); g.fillStyle = grd; g.fillRect(0, 0, 256, 256); const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; return t; })();
 const v3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
-// ------------------------------------------------------------------ props (illustration): an ORIGINAL miniature store floor — an
-// entrance arch, a one-way arrow path, three pop-up rooms (living, bedroom, dining) whose pieces unfold from flat cut-outs,
-// flat-pack racks, a lone sofa on a plinth that gets its own room, shopper pawns. No IKEA logo, colours, products or photos; no
-// prices or numbers. Palette from app.werbens.com.
-const HALF = Math.PI / 2, PT = 0.008, WALL_H = 0.1, WT = 0.006;
+// ------------------------------------------------------------------ props (illustration): an ORIGINAL cooler of generic bottles
+// with first-name labels (no Coca-Cola logo, red, contour bottle or typeface; illustrative common first names), a plain logo
+// mark on the reverse of each label, a search light, a stream of name cards, two shopper pawns (SAM, MIA), a ribbon and bow.
+// Palette from app.werbens.com.
+const HALF = Math.PI / 2;
 const stage = new THREE.Group(); scene.add(stage);
-const M = {
-  plate: mat("#BFDCD6", { roughness: 0.75, clearcoat: 0.15 }), wall: mat(C3.teal, { roughness: 0.88, clearcoat: 0 }), sofa: mat(C3.mint, { roughness: 0.55, clearcoat: 0.25 }),
-  rug: mat("#2F7F7B", { roughness: 0.95, clearcoat: 0 }), ink: mat(C3.ink, { roughness: 0.4, clearcoat: 0.6 }), white: mat(C3.mintw, { roughness: 0.45, clearcoat: 0.4 }),
-  slate: mat("#64748B", { roughness: 0.5, clearcoat: 0.3 }), leaf: mat(C3.mint, { roughness: 0.6, clearcoat: 0.1 }), tealD: mat("#24586A", { roughness: 0.6, clearcoat: 0.2 }),
-  pawn: mat("#EEF7F1", { roughness: 0.4, clearcoat: 0.4 }), shopper: mat("#EEF7F1", { roughness: 0.35, clearcoat: 0.5, emissive: C.mint, emissiveIntensity: 0 }),
-  arch: mat(C3.mint, { roughness: 0.35, clearcoat: 0.6, emissive: C.mint, emissiveIntensity: 0.15 }),
-};
-const GHOST = new THREE.MeshBasicMaterial({ color: "#7FE7DC", transparent: true, opacity: 0, depthWrite: false, toneMapped: false });
-const GHOST_ROOM = new THREE.MeshBasicMaterial({ color: "#7FE7DC", transparent: true, opacity: 0, depthWrite: false, toneMapped: false });
-const box = (w, h, d, m, x = 0, y = 0, z = 0, r = 0.0018) => { const o = new THREE.Mesh(new RoundedBoxGeometry(w, h, d, 2, Math.min(r, w / 2.2, h / 2.2, d / 2.2)), m); o.position.set(x, y, z); o.castShadow = true; o.receiveShadow = true; return o; };
-const cyl = (rt, rb, h, m, x = 0, y = 0, z = 0, seg = 20) => { const o = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), m); o.position.set(x, y, z); o.castShadow = true; o.receiveShadow = true; return o; };
-const ball = (r, m, x = 0, y = 0, z = 0) => { const o = new THREE.Mesh(new THREE.SphereGeometry(r, 18, 12), m); o.position.set(x, y, z); o.castShadow = true; return o; };
-// textures (no text, no numbers)
-const ART_TEX = canvasTex(160, 112, (k, w, h) => { k.fillStyle = "#F0FDFA"; k.fillRect(0, 0, w, h); k.fillStyle = "#7FE7DC"; k.fillRect(10, 10, w - 20, h - 20); k.fillStyle = "#316879"; k.beginPath(); k.moveTo(10, h - 10); k.lineTo(60, 44); k.lineTo(92, 72); k.lineTo(118, 52); k.lineTo(w - 10, h - 10); k.fill(); k.fillStyle = "#F0FDFA"; k.beginPath(); k.arc(118, 34, 9, 0, Math.PI * 2); k.fill(); });
-const WIN_TEX = canvasTex(200, 140, (k, w, h) => { k.fillStyle = "#F0FDFA"; k.fillRect(0, 0, w, h); const g = k.createLinearGradient(0, 0, 0, h); g.addColorStop(0, "#0B1120"); g.addColorStop(1, "#24586A"); k.fillStyle = g; k.fillRect(10, 10, w - 20, h - 20); k.fillStyle = "#F0FDFA"; k.fillRect(w / 2 - 3, 10, 6, h - 20); k.fillRect(10, h / 2 - 3, w - 20, 6);
-  k.fillStyle = "#F0FDFA"; k.beginPath(); k.arc(150, 42, 14, 0, Math.PI * 2); k.fill(); k.fillStyle = "#0B1120"; k.beginPath(); k.arc(158, 37, 12, 0, Math.PI * 2); k.fill(); k.fillStyle = "#7FE7DC"; for (const [x, y] of [[40, 30], [70, 50], [130, 95], [50, 100]]) { k.fillRect(x, y, 3, 3); } });
-const TAG_TEX = canvasTex(180, 240, (k, w, h) => { k.fillStyle = "#F0FDFA"; k.beginPath(); k.roundRect(4, 4, w - 8, h - 8, 18); k.fill(); k.strokeStyle = "#0F172A"; k.lineWidth = 8; k.lineCap = "round";
-  // ruler (size) icon
-  k.beginPath(); k.moveTo(34, 70); k.lineTo(w - 34, 70); k.stroke(); for (let i = 0; i <= 5; i++) { const x = 34 + (i * (w - 68)) / 5; k.beginPath(); k.moveTo(x, 70); k.lineTo(x, i % 5 === 0 ? 40 : 54); k.stroke(); }
-  // price-tag glyph
-  k.fillStyle = "#316879"; k.beginPath(); k.moveTo(50, 120); k.lineTo(112, 120); k.lineTo(140, 162); k.lineTo(112, 204); k.lineTo(50, 204); k.closePath(); k.fill(); k.fillStyle = "#F0FDFA"; k.beginPath(); k.arc(112, 162, 9, 0, Math.PI * 2); k.fill(); });
-const CHEV_TEX = canvasTex(128, 128, (k, w) => { k.strokeStyle = "#FFFFFF"; k.lineWidth = 22; k.lineCap = "round"; k.lineJoin = "round"; k.beginPath(); k.moveTo(24, 86); k.lineTo(64, 40); k.lineTo(104, 86); k.stroke(); });
-
-// ------------------------------------------------------------------ furniture builders (origin = back-bottom edge, facing +z)
-function makeSofa(m = M.sofa, mBack = M.tealD) { const g = new THREE.Group(); g.add(box(0.09, 0.044, 0.012, mBack, 0, 0.022, 0.006, 0.003), box(0.074, 0.018, 0.036, m, 0, 0.009, 0.03, 0.003), box(0.01, 0.03, 0.048, mBack, -0.04, 0.015, 0.024, 0.003), box(0.01, 0.03, 0.048, mBack, 0.04, 0.015, 0.024, 0.003), box(0.03, 0.02, 0.006, m, -0.018, 0.03, 0.015, 0.002), box(0.03, 0.02, 0.006, m, 0.018, 0.03, 0.015, 0.002)); return g; }
-function makeBed() { const g = new THREE.Group(); g.add(box(0.075, 0.016, 0.105, M.white, 0, 0.008, 0.0525, 0.003), box(0.076, 0.007, 0.07, M.wall, 0, 0.0195, 0.07, 0.003), box(0.05, 0.008, 0.018, M.sofa, 0, 0.02, 0.021, 0.003), box(0.079, 0.046, 0.006, M.tealD, 0, 0.023, 0.003, 0.002)); return g; }
-function makeTable() { const g = new THREE.Group(); g.add(box(0.075, 0.005, 0.045, M.white, 0, 0.03, 0.0225, 0.002), cyl(0.004, 0.004, 0.028, M.ink, 0, 0.014, 0.0225, 12), cyl(0.012, 0.014, 0.003, M.ink, 0, 0.0015, 0.0225)); return g; }
-function makeChair() { const g = new THREE.Group(); g.add(box(0.02, 0.004, 0.02, M.sofa, 0, 0.017, 0.012, 0.0015), box(0.02, 0.026, 0.003, M.sofa, 0, 0.029, 0.0015, 0.0012), cyl(0.0025, 0.0025, 0.015, M.ink, 0, 0.0075, 0.012, 10)); return g; }
-function makeLamp(scale = 1) { const g = new THREE.Group(); const shadeM = mat(C3.mintw, { roughness: 0.4, clearcoat: 0.2, emissive: "#F0FDFA", emissiveIntensity: 0 });
-  g.add(cyl(0.007, 0.008, 0.002, M.ink, 0, 0.001, 0.008), cyl(0.0015, 0.0015, 0.064, M.ink, 0, 0.033, 0.008, 8)); const sh = cyl(0.008, 0.013, 0.017, shadeM, 0, 0.068, 0.008, 24); g.add(sh);
-  const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); glow.position.set(0, 0.062, 0.012); glow.scale.setScalar(0.11); glow.renderOrder = 6; g.add(glow);
-  g.scale.setScalar(scale); g.userData = { shadeM, glow }; return g; }
-function makePlant() { const g = new THREE.Group(); g.add(cyl(0.008, 0.006, 0.013, M.ink, 0, 0.0065, 0.008), ball(0.011, M.leaf, 0, 0.024, 0.008), ball(0.008, M.leaf, -0.007, 0.033, 0.01), ball(0.007, M.leaf, 0.007, 0.034, 0.006)); return g; }
-function makeShelf() { const g = new THREE.Group(); g.add(box(0.06, 0.07, 0.014, M.white, 0, 0.035, 0.007, 0.002), box(0.054, 0.002, 0.012, M.tealD, 0, 0.026, 0.009, 0.001), box(0.054, 0.002, 0.012, M.tealD, 0, 0.05, 0.009, 0.001), cyl(0.004, 0.004, 0.012, M.sofa, -0.015, 0.033, 0.008), box(0.012, 0.01, 0.008, M.wall, 0.012, 0.032, 0.008, 0.001), ball(0.005, M.sofa, 0.0, 0.057, 0.008)); return g; }
-function makeSideTable() { const g = new THREE.Group(); g.add(cyl(0.012, 0.012, 0.003, M.ink, 0, 0.022, 0.012), cyl(0.002, 0.002, 0.021, M.ink, 0, 0.0105, 0.012, 8), cyl(0.008, 0.009, 0.002, M.ink, 0, 0.001, 0.012)); const cup = cyl(0.0036, 0.003, 0.007, M.white, 0.003, 0.027, 0.012, 14); g.add(cup); g.userData.cup = cup; return g; }
-function makePawn(m, sitting = false) { const g = new THREE.Group(); const h = sitting ? 0.02 : 0.03; const b = new THREE.Mesh(new THREE.CylinderGeometry(0.0075, 0.0095, h, 20), m); b.position.y = h / 2; b.castShadow = true; g.add(b); const hd = new THREE.Mesh(new THREE.SphereGeometry(0.0085, 20, 14), m); hd.position.y = h + 0.008; hd.castShadow = true; g.add(hd); return g; }
-
-// ------------------------------------------------------------------ pop-up room: every piece hinges up from a flat cut-out
-// (hinge.rotation.x = −90° lies it on its back; its depth is squashed while flat). ctx = context (walls, rug, lamp, decor) that
-// folds away in the payoff; products (sofa, bed, table, chairs) stay.
-function hinge(parent, x, z, yaw = 0) { const pv = new THREE.Group(); pv.position.set(x, PT, z); pv.rotation.y = yaw; parent.add(pv); const h = new THREE.Group(); pv.add(h); return h; }
-function makeRoom(kind, cx, cz, side, win, opts = {}) {
-  const W = opts.W || 0.2, D = opts.D || 0.17, g = new THREE.Group(); g.position.set(cx, 0, cz); stage.add(g);
-  const R = { g, kind, win, parts: [], lamps: [], hideFlat: !!opts.hideFlat, delay: opts.delay || 0, W, D, starts: opts.starts, dur: opts.dur };
-  const add = (obj, type, ctx) => { R.parts.push({ obj, type, ctx, k: R.parts.length }); return obj; };
-  const plate = box(W, PT, D, M.plate, 0, PT / 2, 0, 0.003); g.add(plate); if (opts.plateCtx) add(plate, "plate", true);
-  const bw = hinge(g, 0, -D / 2); bw.add(box(W, WALL_H, WT, M.wall, 0, WALL_H / 2, WT / 2, 0.002)); add(bw, "hinge", true);
-  const sw = hinge(g, side * W / 2, 0, -side * HALF); sw.add(box(D, WALL_H, WT, M.wall, 0, WALL_H / 2, WT / 2, 0.002)); add(sw, "hinge", true);
-  const decor = new THREE.Group(); decor.position.set(opts.decorX || 0, WALL_H * 0.62, WT + 0.0012); bw.add(decor);
-  if (opts.window) { decor.add(box(0.056, 0.04, 0.002, M.white, 0, 0, 0, 0.001)); const p = new THREE.Mesh(new THREE.PlaneGeometry(0.052, 0.036), new THREE.MeshBasicMaterial({ map: WIN_TEX, toneMapped: false })); p.position.z = 0.0012; decor.add(p); }
-  else { decor.add(box(0.044, 0.03, 0.002, M.white, 0, 0, 0, 0.001)); const p = new THREE.Mesh(new THREE.PlaneGeometry(0.04, 0.026), new THREE.MeshStandardMaterial({ map: ART_TEX, roughness: 0.7 })); p.position.z = 0.0012; decor.add(p); }
-  add(decor, "pop", true);
-  const rug = new THREE.Group(); rug.position.set(opts.rugX || 0, PT + 0.0008, opts.rugZ || 0.02); rug.add(box(opts.rugW || 0.12, 0.0016, opts.rugD || 0.075, M.rug, 0, 0, 0, 0.0008)); g.add(rug); add(rug, "rug", true);
-  const back = -D / 2 + WT + 0.003, inner = -side * 1;
-  if (kind === "living") {
-    if (!opts.noSofa) { const s = hinge(g, opts.sofaX || 0, back); s.add(makeSofa()); add(s, "hinge", false); R.seat = [opts.sofaX || 0, PT + 0.018, back + 0.03]; }
-    const ct = hinge(g, 0, 0.012); ct.add(box(0.045, 0.012, 0.025, M.ink, 0, 0.006, 0.0125, 0.002)); add(ct, "hinge", true);
-    const lp = hinge(g, side * (W / 2 - 0.024), back + 0.004); const L = makeLamp(); lp.add(L); R.lamps.push(L); add(lp, "hinge", true);
-    const pl = hinge(g, inner * (W / 2 - 0.02), back); pl.add(makePlant()); add(pl, "hinge", true);
-  } else if (kind === "bedroom") {
-    const b = hinge(g, 0.012 * inner, back); b.add(makeBed()); add(b, "hinge", false); R.seat = [0.012 * inner + 0.03, PT + 0.02, back + 0.06];
-    const ns = hinge(g, side * (W / 2 - 0.028), back); ns.add(box(0.022, 0.02, 0.02, M.ink, 0, 0.01, 0.01, 0.002)); const L = makeLamp(0.55); L.position.set(0, 0.02, 0.002); ns.add(L); R.lamps.push(L); add(ns, "hinge", true);
-    const pl = hinge(g, inner * (W / 2 - 0.02), back); pl.add(makePlant()); add(pl, "hinge", true);
-  } else if (kind === "dining") {
-    const t = hinge(g, 0, -0.025); t.add(makeTable()); add(t, "hinge", false);
-    R.chairs = [-1, 1].map((sx) => { const c = hinge(g, sx * 0.06, -0.0025, -sx * HALF); c.add(makeChair()); add(c, "hinge", false); return [sx * 0.048, PT + 0.019, -0.0025]; });
-    const sh = hinge(g, side * 0.02, back); sh.add(makeShelf()); add(sh, "hinge", true);
-    const pl = hinge(g, side * (W / 2 - 0.02), back + 0.01); pl.add(makePlant()); add(pl, "hinge", true);
-  }
-  if (opts.sideTable) { const st = hinge(g, opts.sideTable[0], opts.sideTable[1]); const S = makeSideTable(); st.add(S); R.cup = S.userData.cup; add(st, "hinge", true); }
-  return R;
-}
-// layout: entrance at z +0.36, path along −z (gentle S), rooms alternate sides, flat-pack racks, the lone sofa at the end
-const pathX = (z) => 0.03 * Math.sin(z * 3.3 + 0.4);
-// room A: explicit starts so frame 0 catches it mid-unfold (walls rising, rug unrolling, sofa lifting, the rest still flat)
-const roomA = makeRoom("living", -0.15, 0.0, -1, T.unfoldA, { sideTable: [0.07, -0.03], delay: 0, starts: [-0.13, -0.08, 0.95, -0.15, -0.06, 0.5, 0.7, 1.05, 1.3], dur: 0.9 });
-const roomB = makeRoom("bedroom", 0.15, -0.38, 1, T.unfoldB, { delay: 0.08 });
-const roomC = makeRoom("dining", -0.15, -0.76, -1, T.unfoldC, { delay: 0.16 });
-const roomD = makeRoom("living", 0, -1.52, -1, T.unfoldD, { noSofa: true, hideFlat: true, plateCtx: true, window: true, decorX: 0.03, W: 0.24, D: 0.2, rugZ: 0.03, rugW: 0.14, rugD: 0.08, sideTable: [0.07, -0.04], delay: 0.24 });
-const ROOMS = [roomA, roomB, roomC, roomD];
-// the lone sofa on its plinth (inside room D's footprint)
-const plinth = box(0.12, 0.012, 0.075, M.ink, 0, 0.006, -1.52 + 0.005, 0.003); stage.add(plinth);
-const sofaD = makeSofa(); sofaD.position.set(0, 0.012, -1.52 - 0.032); stage.add(sofaD); roomD.seat = [0, 0.012 + 0.018, -1.52 - 0.002];
-const dimBar = new THREE.Group(); dimBar.position.set(0, 0.075, -1.52 - 0.01); stage.add(dimBar);
-{ const dm = mat(C3.mintw, { emissive: C.mint, emissiveIntensity: 0.6, roughness: 0.3 }); dimBar.add(box(0.09, 0.0022, 0.0022, dm, 0, 0, 0, 0.0008)); for (const sx of [-1, 1]) dimBar.add(box(0.0022, 0.012, 0.0022, dm, sx * 0.045, 0, 0, 0.0008)); }
-const tagG = new THREE.Group(); tagG.position.set(-0.064, 0, -1.462); stage.add(tagG);
-{ tagG.add(cyl(0.0015, 0.0015, 0.05, M.slate, 0, 0.025, 0, 8), cyl(0.006, 0.007, 0.002, M.ink, 0, 0.001, 0)); const card = new THREE.Mesh(new THREE.PlaneGeometry(0.03, 0.04), new THREE.MeshBasicMaterial({ map: TAG_TEX, transparent: true, toneMapped: false, side: THREE.DoubleSide })); card.position.set(0, 0.066, 0.002); tagG.add(card); tagG.userData.card = card; }
-// path arrows (chevrons) from the entrance to room D
-const PATH_Z0 = 0.33, PATH_Z1 = -1.36, NCHEV = 34;
-const chevrons = Array.from({ length: NCHEV }, (_, i) => { const z = lerp(PATH_Z0, PATH_Z1, i / (NCHEV - 1)), x = pathX(z), dz = -0.01, dx = pathX(z + dz) - x; const o = new THREE.Group(); o.position.set(x, 0.0016, z); o.rotation.y = Math.atan2(-dx, -dz);
-  const p = new THREE.Mesh(new THREE.PlaneGeometry(0.03, 0.03), new THREE.MeshBasicMaterial({ map: CHEV_TEX, color: C.mint, transparent: true, opacity: 0.2, depthWrite: false, toneMapped: false })); p.rotation.x = -HALF; p.renderOrder = 2; o.add(p); stage.add(o); o.userData = { m: p.material, s: i / (NCHEV - 1) }; return o; });
-// entrance arch
-const arch = new THREE.Group(); arch.position.set(pathX(0.37), 0, 0.37); stage.add(arch); arch.add(box(0.008, 0.1, 0.008, M.arch, -0.07, 0.05, 0), box(0.008, 0.1, 0.008, M.arch, 0.07, 0.05, 0), ball(0.008, M.arch, -0.07, 0.104, 0), ball(0.008, M.arch, 0.07, 0.104, 0)); // two posts, no lintel (the follow-cam passes over)
-// flat-pack racks (aisle at x ≈ 0, z −1.0 … −1.26)
-const RACK_Z = -1.13, PACKS = [];
-for (const rx of [-0.08, 0.08]) { const r = new THREE.Group(); r.position.set(rx, 0, RACK_Z); stage.add(r);
-  for (const [px, pz] of [[-0.025, -0.11], [0.025, -0.11], [-0.025, 0.11], [0.025, 0.11]]) r.add(box(0.004, 0.15, 0.004, M.slate, px, 0.075, pz, 0.001));
-  [0.004, 0.056, 0.108].forEach((y, li) => { r.add(box(0.054, 0.003, 0.226, M.slate, 0, y, 0, 0.001));
-    [-0.072, 0, 0.072].forEach((pz, pi) => { const pk = box(0.046, 0.011, 0.064, (li + pi) % 2 ? M.white : M.tealD, 0, y + 0.0075, pz, 0.0015); r.add(pk); PACKS.push({ o: pk, rx, x0: 0, y0: y + 0.0075, z0: pz, i: PACKS.length }); }); }); }
-// the shopper (walks the path), the imagined (ghost) shopper, the dotted thought arc, the cart and the ghost room
-const shopper = makePawn(M.shopper); stage.add(shopper);
-const ghostP = makePawn(GHOST, true); ghostP.traverse((o) => { o.castShadow = false; }); stage.add(ghostP);
-const THINK_N = 12, thinkGeo = new THREE.BufferGeometry(); thinkGeo.setAttribute("position", new THREE.Float32BufferAttribute(new Float32Array(THINK_N * 3), 3));
-const thinkDots = new THREE.Points(thinkGeo, new THREE.PointsMaterial({ size: 0.011, map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, toneMapped: false, opacity: 0 })); thinkDots.frustumCulled = false; thinkDots.renderOrder = 7; stage.add(thinkDots);
-const cart = new THREE.Group(); stage.add(cart);
-{ cart.add(box(0.04, 0.004, 0.07, M.slate, 0, 0.009, 0, 0.0015)); for (const [wx, wz] of [[-0.016, -0.028], [0.016, -0.028], [-0.016, 0.028], [0.016, 0.028]]) { const w = cyl(0.0035, 0.0035, 0.003, M.ink, wx, 0.0035, wz, 12); w.rotation.z = HALF; cart.add(w); }
-  cart.add(box(0.003, 0.05, 0.003, M.slate, -0.017, 0.034, 0.033, 0.001), box(0.003, 0.05, 0.003, M.slate, 0.017, 0.034, 0.033, 0.001), box(0.037, 0.003, 0.003, M.slate, 0, 0.058, 0.033, 0.001)); }
-const cartPack = box(0.046, 0.011, 0.064, M.white, 0, 0, 0, 0.0015); stage.add(cartPack);
-const ghostRoom = new THREE.Group(); stage.add(ghostRoom);
-{ const gm = GHOST_ROOM; ghostRoom.add(box(0.2, 0.006, 0.17, gm, 0, 0.003, 0, 0.002), box(0.2, 0.1, 0.005, gm, 0, 0.05, -0.0825, 0.002), box(0.005, 0.1, 0.17, gm, -0.0975, 0.05, 0, 0.002));
-  const s = makeSofa(gm, gm); s.position.set(0, 0.006, -0.07); ghostRoom.add(s); const L = makeLamp(); L.traverse((o) => { if (o.isMesh) o.material = gm; }); L.userData.glow.visible = false; L.position.set(-0.075, 0.006, -0.07); ghostRoom.add(L);
-  ghostRoom.add(box(0.12, 0.002, 0.075, gm, 0, 0.007, 0.02, 0.001)); ghostRoom.traverse((o) => { o.castShadow = false; o.receiveShadow = false; o.renderOrder = 9; }); ghostRoom.scale.setScalar(0.5); }
-// life: people in every room for the payoff (sitting)
-const life = [];
-const sitAt = (room, p) => { const pw = makePawn(M.pawn, true); pw.position.set(p[0], p[1], p[2]); room.g.add(pw); life.push({ o: pw, room }); return pw; };
-sitAt(roomA, roomA.seat); sitAt(roomB, roomB.seat); roomC.chairs.forEach((c) => sitAt(roomC, c));
-{ const pw = makePawn(M.pawn, true); pw.position.set(roomD.seat[0], roomD.seat[1], roomD.seat[2]); stage.add(pw); life.push({ o: pw, room: roomD }); }
+const COLS = 5, ROWS = 5, SPX = 0.07, SHELF0 = 0.085, SHELF_DY = 0.115, CW = 0.4, CD = 0.13, CH = SHELF0 + ROWS * SHELF_DY + 0.02;
+const COOLER_X = [-0.92, -0.46, 0, 0.46, 0.92, 1.38], HERO = 2;
+const HERO_NAMES = ["LEO", "AVA", "NOAH", "ZOE", "MAX", "ELLA", "JACK", "RUBY", "OWEN", "LILY", "ALEX", "SAM", "NINA", "EVAN", "ROSE", "ADAM", "IRIS", "OMAR", "MIA", "JADE", "TOM", "AMY", "BEN", "LUCY", "KAI"]; // row-major from the bottom shelf
+const SAM_I = 11, MIA_I = 18;
+const OTHER_NAMES = ("LIAM EMMA OLIVIA ETHAN GRACE HENRY CHLOE LUCAS SOFIA JAMES ISLA FINN HANNA LEAH LUKE NORA ELI MAYA JOEL TARA ZANE ANNA COLE ERIN DEAN " +
+  "HOLLY IVAN JUNE KYLE LANA MILES NADIA OSCAR PIA QUINN RHYS SARA THEO UMA VERA WADE YARA ZARA ARLO BELLA CARL DAISY EDEN FELIX GIA HUGO INES JUDE KIRA " +
+  "LOLA MARCO NIA OTTO PAIGE RAJ SKYE TESS VICTOR WREN YUSUF ZEKE ALMA BRUNO CLARA DARIO ELENA FAYE GABE HAZEL IGOR JONAH KEIRA LEON MOLLY NICO OLGA PERCY " +
+  "REX STELLA TOBY ULLA VINCE WILLA AIDEN BRYN CORA DREW EVIE FRED GINA HARRY ILSE JASON KATE LIZ MIKE NOEL OLLIE PETRA RENEE SEAN TINA VIOLA WALT AMIR " +
+  "BETH CHRIS DORA EZRA FLORA GREG HEIDI ISAAC JESS").split(" ");
+const ALL_NAMES = [...HERO_NAMES, ...OTHER_NAMES].slice(0, 150);
+// label atlas: 4 × 38 cells of 512 × 64; name centred at u = 0.5 (bottle front), plain logo mark split across u = 0/1 (back)
+const AT_C = 4, AT_R = 38, CELL_W = 512, CELL_H = 64;
+const ATLAS = (() => { const cv = document.createElement("canvas"); cv.width = AT_C * CELL_W; cv.height = AT_R * CELL_H; const k = cv.getContext("2d");
+  ALL_NAMES.forEach((nm, i) => { const x0 = (i % AT_C) * CELL_W, y0 = Math.floor(i / AT_C) * CELL_H; k.save(); k.beginPath(); k.rect(x0, y0, CELL_W, CELL_H); k.clip();
+    k.fillStyle = "#F0FDFA"; k.fillRect(x0, y0, CELL_W, CELL_H); k.fillStyle = "#7FE7DC"; k.fillRect(x0, y0 + 4, CELL_W, 5); k.fillRect(x0, y0 + CELL_H - 9, CELL_W, 5);
+    k.fillStyle = "#0F172A"; k.font = "700 40px SG"; k.textAlign = "center"; k.textBaseline = "middle"; k.fillText(nm, x0 + CELL_W / 2, y0 + CELL_H / 2 + 2);
+    for (const cx of [x0, x0 + CELL_W]) { k.strokeStyle = "#316879"; k.lineWidth = 7; k.beginPath(); k.arc(cx, y0 + CELL_H / 2, 17, 0, Math.PI * 2); k.stroke(); k.fillStyle = "#316879"; k.beginPath(); k.arc(cx, y0 + CELL_H / 2, 6, 0, Math.PI * 2); k.fill(); }
+    k.restore(); });
+  const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; })();
+const labelTex = (i) => { const t = ATLAS.clone(); t.repeat.set(1 / AT_C, 1 / AT_R); t.offset.set((i % AT_C) / AT_C, 1 - (Math.floor(i / AT_C) + 1) / AT_R); t.needsUpdate = true; return t; };
+// bottle: generic lathe profile (straight body, round shoulder, neck), dark teal glass look; mint cap
+const BOTTLE_GEO = new THREE.LatheGeometry([[0, 0], [0.0132, 0], [0.0145, 0.004], [0.0145, 0.055], [0.0128, 0.062], [0.0072, 0.071], [0.006, 0.081], [0.0064, 0.0835], [0, 0.0835]].map(([x, y]) => new THREE.Vector2(x, y)), 36);
+const CAP_GEO = new THREE.CylinderGeometry(0.0068, 0.0068, 0.008, 24), LABEL_GEO = new THREE.CylinderGeometry(0.0152, 0.0152, 0.026, 48, 1, true, Math.PI, Math.PI * 2);
+const M = { glass: mat("#1D5560", { roughness: 0.12, clearcoat: 1, clearcoatRoughness: 0.05 }), cap: mat(C3.mint, { roughness: 0.35 }), frame: mat(C3.ink, { roughness: 0.45, clearcoat: 0.6 }),
+  back: new THREE.MeshStandardMaterial({ color: "#0E2630", emissive: "#7FE7DC", emissiveIntensity: 0.16, roughness: 0.8 }), shelf: mat("#64748B", { roughness: 0.45, clearcoat: 0.4 }),
+  strip: new THREE.MeshBasicMaterial({ color: "#7FE7DC", toneMapped: false }), header: mat(C3.teal, { roughness: 0.5 }), pawn: mat("#EEF7F1", { roughness: 0.4, clearcoat: 0.4, emissive: C.mint, emissiveIntensity: 0 }),
+  pawn2: mat("#EEF7F1", { roughness: 0.4, clearcoat: 0.4, emissive: C.mint, emissiveIntensity: 0 }), ribbon: mat(C3.mint, { roughness: 0.3, emissive: C.mint, emissiveIntensity: 0.25 }) };
+const box = (w, h, d, m, x = 0, y = 0, z = 0, r = 0.002) => { const o = new THREE.Mesh(new RoundedBoxGeometry(w, h, d, 2, Math.min(r, w / 2.2, h / 2.2, d / 2.2)), m); o.position.set(x, y, z); o.castShadow = true; o.receiveShadow = true; return o; };
+// coolers: open-front cabinet, lit back panel, five shelves with a light strip, header
+const COOLERS = COOLER_X.map((cx, ci) => { const g = new THREE.Group(); g.position.set(cx, 0, 0); stage.add(g);
+  g.add(box(CW, CH, 0.012, M.back, 0, CH / 2, -CD / 2, 0.003), box(0.014, CH + 0.04, CD, M.frame, -CW / 2, (CH + 0.04) / 2, 0, 0.004), box(0.014, CH + 0.04, CD, M.frame, CW / 2, (CH + 0.04) / 2, 0, 0.004),
+    box(CW + 0.014, 0.05, CD + 0.01, M.header, 0, CH + 0.025, 0.003, 0.006), box(CW + 0.014, SHELF0 - 0.004, CD, M.frame, 0, (SHELF0 - 0.004) / 2, 0, 0.004));
+  const hs = new THREE.Mesh(new THREE.PlaneGeometry(CW * 0.82, 0.008), M.strip); hs.position.set(0, CH + 0.025, CD / 2 + 0.009); g.add(hs);
+  for (let r = 1; r < ROWS; r++) { g.add(box(CW - 0.014, 0.004, CD - 0.01, M.shelf, 0, SHELF0 + r * SHELF_DY - 0.002, 0, 0.001)); const st = new THREE.Mesh(new THREE.PlaneGeometry(CW - 0.02, 0.0025), M.strip); st.position.set(0, SHELF0 + r * SHELF_DY - 0.002, CD / 2 - 0.004); g.add(st); }
+  g.userData.bottles = []; return g; });
+// 150 bottles (6 coolers × 25), each with its own label (atlas cell); hero cooler bottles are individually animated
+const BOTTLES = [];
+COOLERS.forEach((g, ci) => { for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) { const local = r * COLS + c, idx = ci === HERO ? local : 25 + (ci < HERO ? ci : ci - 1) * 25 + local;
+  const b = new THREE.Group(); b.position.set((c - 2) * SPX, SHELF0 + r * SHELF_DY, 0.012); g.add(b);
+  const body = new THREE.Mesh(BOTTLE_GEO, M.glass); body.castShadow = true; b.add(body); const cap = new THREE.Mesh(CAP_GEO, M.cap); cap.position.y = 0.0875; b.add(cap);
+  const lm = new THREE.MeshStandardMaterial({ map: labelTex(idx), roughness: 0.55, emissive: "#7FE7DC", emissiveMap: null, emissiveIntensity: 0 }); const lab = new THREE.Mesh(LABEL_GEO, lm); lab.position.y = 0.031; b.add(lab);
+  b.userData = { ci, r, c, local, idx, lab, lm, home: b.position.clone() }; g.userData.bottles.push(b); BOTTLES.push(b); } });
+const HERO_B = COOLERS[HERO].userData.bottles, SAM_B = HERO_B[SAM_I], MIA_B = HERO_B[MIA_I];
+const bottleWorld = (b) => { const v = new THREE.Vector3(); b.getWorldPosition(v); return v; };
+// search light: soft additive glow + the hero spot follow it
+const scanGlow = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); scanGlow.renderOrder = 8; scanGlow.scale.setScalar(0.11); stage.add(scanGlow);
+const ringTex = canvasTex(256, 256, (k, w) => { const c = w / 2; k.strokeStyle = "rgba(127,231,220,1)"; k.lineWidth = 12; k.beginPath(); k.arc(c, c, c * 0.8, 0, Math.PI * 2); k.stroke(); });
+const scanRing = new THREE.Sprite(new THREE.SpriteMaterial({ map: ringTex, transparent: true, depthWrite: false, opacity: 0, toneMapped: false })); scanRing.renderOrder = 9; scanRing.scale.setScalar(0.06); stage.add(scanRing);
+// name-card stream (proof 2): cards rush past in front of the cooler; SAM's card stops and pops
+const cardTex = (nm, hi) => canvasTex(320, 96, (k, w, h) => { k.fillStyle = hi ? "#F0FDFA" : "#E2F2EF"; k.beginPath(); k.roundRect(3, 3, w - 6, h - 6, 18); k.fill(); k.fillStyle = "#7FE7DC"; k.fillRect(20, 10, w - 40, 6); k.fillRect(20, h - 16, w - 40, 6);
+  k.fillStyle = "#0F172A"; k.font = "700 50px SG"; k.textAlign = "center"; k.textBaseline = "middle"; k.fillText(nm, w / 2, h / 2 + 2); });
+const STREAM_NAMES = ["LIAM", "EMMA", "NOAH", "ZOE", "OSCAR", "RUBY", "SAM", "LILY", "JACK", "NORA", "MAX", "ELLA", "OWEN", "AVA", "FINN", "ROSE"];
+const STREAM = STREAM_NAMES.map((nm, i) => { const sam = nm === "SAM"; const m = new THREE.Mesh(new THREE.PlaneGeometry(0.12, 0.036), new THREE.MeshBasicMaterial({ map: cardTex(nm, sam), transparent: true, opacity: 0, toneMapped: false, depthWrite: false }));
+  m.renderOrder = sam ? 12 : 11; stage.add(m); m.userData = { i, sam }; return m; });
+const samCardGlow = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW_TEX, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, opacity: 0 })); samCardGlow.renderOrder = 10; stage.add(samCardGlow);
+// shoppers: SAM (finder) and MIA (friend); pawns at shopper scale (taller than the bottles)
+function makePawn(m) { const g = new THREE.Group(); const b = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.038, 0.12, 28), m); b.position.y = 0.06; b.castShadow = true; g.add(b); const hd = new THREE.Mesh(new THREE.SphereGeometry(0.034, 28, 20), m); hd.position.y = 0.155; hd.castShadow = true; g.add(hd); return g; }
+const badgeTex = (nm) => canvasTex(192, 72, (k, w, h) => { k.fillStyle = "#316879"; k.beginPath(); k.roundRect(2, 2, w - 4, h - 4, 14); k.fill(); k.fillStyle = "#F0FDFA"; k.font = "700 44px SG"; k.textAlign = "center"; k.textBaseline = "middle"; k.fillText(nm, w / 2, h / 2 + 2); });
+const shopper = makePawn(M.pawn), friend = makePawn(M.pawn2); stage.add(shopper, friend);
+for (const [p, nm] of [[shopper, "SAM"], [friend, "MIA"]]) { const bd = new THREE.Mesh(new THREE.PlaneGeometry(0.05, 0.019), new THREE.MeshBasicMaterial({ map: badgeTex(nm), transparent: true, toneMapped: false })); bd.position.set(0, 0.085, 0.0355); bd.rotation.x = -0.12; p.add(bd); }
+// gift: ribbon ring round the body + a vertical band + bow at the neck (on MIA's bottle)
+const giftG = new THREE.Group(); MIA_B.add(giftG);
+{ const ring = new THREE.Mesh(new THREE.TorusGeometry(0.0152, 0.0022, 10, 40), M.ribbon); ring.rotation.x = HALF; ring.position.y = 0.045; giftG.add(ring);
+  for (const s of [-1, 1]) { const loop = new THREE.Mesh(new THREE.TorusGeometry(0.008, 0.0024, 10, 24), M.ribbon); loop.position.set(s * 0.008, 0.075, 0.008); loop.rotation.set(0, s * 0.5, s * 0.6); giftG.add(loop); } }
+const findRing = new THREE.Sprite(new THREE.SpriteMaterial({ map: ringTex, transparent: true, depthWrite: false, opacity: 0, toneMapped: false })); findRing.renderOrder = 9; stage.add(findRing);
 
 // ------------------------------------------------------------------ CTA tile: app.werbens.com logo (SVG unchanged, drawn to a canvas, not tone-mapped)
 const tileCTA = new THREE.Group(); scene.add(tileCTA); const tileSh = contactShadow();
@@ -205,98 +153,85 @@ function captions(t) {
 }
 function hudAt(el, xy, o, sc = 1) { el.style.display = o > 0.01 ? "" : "none"; const hw = el.offsetWidth / 2; if (hw > 0) xy = [clamp(xy[0], 110 + hw, 890 - hw), xy[1]]; el.style.left = xy[0] + "px"; el.style.top = xy[1] + "px"; el.style.opacity = String(o); el.style.transform = `translate(-50%, -50%) scale(${sc})`; }
 
-// ------------------------------------------------------------------ camera: follow-cam along the store path (this episode's
-// choreography): hero 3/4 → crane over the entrance → follow the shopper down the path → the lone sofa → side view → turn back to
-// the shelves → high overview of the whole path → CTA
+// ------------------------------------------------------------------ camera: the eye's search (this episode's choreography): wide
+// on the cooler with a darting light → push to the labels → diagonal pull-back along the wall of coolers → shelf-by-shelf scan →
+// static stream of names in front of the lens → close on the friend's bottle → two-shot hand-over → CTA
 const K = (p, t) => [p, t];
-// shopper position along the path (pawn is rotationally symmetric, so no yaw)
-const WALK_Z1 = -1.36, STAND = [0.06, -1.36], CART_AT = [0.025, -1.04], SHOP_AT_CART = [-0.03, -0.98];
-function shopperAt(t) {
-  if (t < T.walk[0]) return [pathX(PATH_Z0), PATH_Z0, 0];
-  if (t < T.walk[1]) { const u = E.inOut((t - T.walk[0]) / (T.walk[1] - T.walk[0])), z = lerp(PATH_Z0, WALK_Z1, u); return [pathX(z), z, Math.abs(Math.sin(t * 13)) * 0.004]; }
-  const st = [lerp(pathX(WALK_Z1), STAND[0], ramp(t, T.walk[1], T.walk[1] + 0.4)), lerp(WALK_Z1, STAND[1], ramp(t, T.walk[1], T.walk[1] + 0.4)) - 0.025 * ramp(t, ...T.want, E.inOut)];
-  const back = ramp(t, T.shelves[0], T.shelves[1] - 0.1, E.inOut); if (back <= 0) return [st[0], st[1], 0];
-  return [lerp(st[0], SHOP_AT_CART[0], back), lerp(st[1], SHOP_AT_CART[1], back), back < 1 ? Math.abs(Math.sin(t * 13)) * 0.004 : 0];
-}
-const FOLLOW = (t) => { const [sx, sz] = shopperAt(t), k = E.inOut(clamp((-sz - 0.55) / 0.6)); return K([0.45 * sx, 0.24 + 0.13 * k, sz + 0.46 + 0.12 * k], [0.5 * sx, 0.04, sz - 0.3]); }; // rises over the racks near the end
-const F0 = K([0.06, 0.25, 0.36], [-0.14, 0.04, -0.03]), H1 = K([0.05, 0.235, 0.33], [-0.14, 0.04, -0.03]);
-const OV1 = K([0.03, 0.55, 1.1], [0, 0, -0.45]); // solved by projection: no room plate under the SHOWROOM FIRST label (y 560–700)
-const D1 = K([-0.02, 0.155, -1.1], [-0.01, 0.05, -1.52]), D1b = K([-0.02, 0.152, -1.13], [-0.01, 0.05, -1.52]), D2 = K([0.02, 0.2, -1.02], [0.0, 0.075, -1.55]);
-const S1 = K([0.2, 0.2, -1.2], [-0.01, 0.05, -1.52]), S2 = K([0.19, 0.195, -1.22], [-0.01, 0.05, -1.52]);
-const R1 = K([0.0, 0.26, -0.76], [0.01, 0.1, -1.0]), R2 = K([0.0, 0.255, -0.78], [0.01, 0.1, -1.0]);
-const OV2 = K([0.0, 1.5, 1.1], [0.0, 0.0, -0.6]), OV2b = K([0.0, 1.48, 1.08], [0.0, 0.0, -0.6]); // framing solved by projection: room C below the label, room A above y ≈ 1680
-const OV3 = K([-0.04, 0.36, 0.4], [-0.145, 0.06, -0.03]); // payoff bookend: push into room A (frame 0's room), now lived in
+const F0 = K([0.13, 0.44, 0.78], [0.0, 0.675, 0]), H1 = K([0.09, 0.45, 0.74], [0.0, 0.66, 0]); // frame 0: upper shelves big, dark space above the cooler for the headline
+const C1 = K([0.05, 0.4, 0.62], [0, 0.38, 0]), C1b = K([0.04, 0.4, 0.58], [0, 0.38, 0]);
+const W1 = K([-3.2, 1.0, 1.2], [-0.15, 0.6, 0]), W1b = K([-3.26, 1.02, 1.24], [-0.15, 0.6, 0]); // solved by projection: all six coolers in x 48–942, y 756–1769 (below the label)
+const S1 = K([0.0, 0.45, 1.12], [0, 0.42, 0]), S1b = K([0.0, 0.44, 1.06], [0, 0.42, 0]);
+const ST = K([0.0, 0.38, 0.95], [0, 0.36, 0.1]), STb = K([0.0, 0.38, 0.9], [0, 0.36, 0.1]);
+const G1 = K([0.08, 0.46, 0.8], [0.02, 0.4, 0.05]), G1b = K([0.07, 0.46, 0.75], [0.02, 0.4, 0.05]);
+const P1 = K([0.01, 0.32, 1.42], [0.01, 0.21, 0.32]), P1b = K([0.01, 0.32, 1.37], [0.01, 0.21, 0.32]);
 const CTAV = K([0, 0.28, 1.3], [0, 0.098, 0]), CTAV2 = K([0, 0.28, 1.26], [0, 0.098, 0]);
-const FOLLOW_W = [6.2, 9.4];
-const CAMS = [[0, ...F0], [2.9, ...H1], [3.0, ...H1], [4.3, ...OV1], [5.5, ...OV1], [FOLLOW_W[0], ...FOLLOW(FOLLOW_W[0])], [FOLLOW_W[1], ...FOLLOW(FOLLOW_W[1])],
-  [10.2, ...D1], [12.4, ...D1b], [13.5, ...D2], [14.3, ...D2], [15.1, ...S1], [18.75, ...S2], [19.6, ...R1], [21.3, ...R2], [22.5, ...OV2], [24.05, ...OV2b], [25.7, ...OV3], [26.75, ...CTAV], [30, ...CTAV2]];
+const CAMS = [[0, ...F0], [2.9, ...H1], [3.9, ...C1], [5.9, ...C1b], [7.4, ...W1], [9.75, ...W1b], [10.8, ...S1], [12.95, ...S1b], [13.7, ...ST], [17.2, ...STb],
+  [18.2, ...G1], [20.6, ...G1b], [21.8, ...P1], [25.6, ...P1b], [26.75, ...CTAV], [30, ...CTAV2]];
 function cameraAt(t) { if (THUMB) return { pos: v3(...F0[0]), tgt: v3(...F0[1]) };
-  if (t > FOLLOW_W[0] && t < FOLLOW_W[1]) { const f = FOLLOW(t); return { pos: v3(...f[0]), tgt: v3(...f[1]) }; }
   let i = CAMS.findIndex((k) => k[0] > t); if (i < 0) i = CAMS.length; if (i === 0) i = 1;
   const a = CAMS[Math.min(i - 1, CAMS.length - 1)], b = CAMS[Math.min(i, CAMS.length - 1)], u = a === b ? 0 : E.inOut(clamp((t - a[0]) / (b[0] - a[0])));
   return { pos: v3(...a[1].map((v, k) => lerp(v, b[1][k], u))), tgt: v3(...a[2].map((v, k) => lerp(v, b[2][k], u))) }; }
-// room part progress: staggered pop-up inside the room's window; context parts fold flat on "Don't just show the product" and
-// pop back on "Show the life around it"
-function partU(R, p, t) { const [a, b] = R.win, n = R.parts.length, st = R.starts ? R.starts[p.k] : a + (b - a) * 0.7 * (p.k / (n - 1)), dur = R.dur || Math.max(0.28, (b - a) * 0.38);
-  let u = E.outBack(clamp((t - st) / dur));
-  if (p.ctx) { const f0 = T.foldAll[0] + R.delay + p.k * 0.03, f = ramp(t, f0, f0 + 0.35, E.inOut), pb = E.outBack(clamp((t - (T.popAll[0] + R.delay + p.k * 0.04)) / 0.4)); u = u * (1 - f) + pb; }
-  return u; }
-const LAMP_ON = new Map([[roomA, () => [T.lampA, T.lampA + 0.3]], [roomB, () => [T.unfoldB[1] - 0.1, T.unfoldB[1] + 0.2]], [roomD, () => [T.evening, T.evening + 0.35]]]);
-for (const R of ROOMS) R.lampPart = R.lamps.map((L) => R.parts.find((p) => p.obj === L.parent || p.obj === L.parent?.parent));
-const CUP_Y = roomD.cup.position.y, CUP_Y_A = roomA.cup.position.y; cartPack.material = PACKS[11].o.material;
-const thinkP = new THREE.Vector3(), tmpA = new THREE.Vector3(), tmpB = new THREE.Vector3();
+// search-light paths (hero cooler indices, row-major from the bottom shelf)
+const HOOK_PATH = [22, 18, 24, 15, 21, 17], SEARCH_PATH = [20, 21, 22, 23, 24, 19, 18, 17, 16, 15, 10];
+const labelFront = (i) => { const b = HERO_B[i]; return v3(b.userData.home.x, b.userData.home.y + 0.031, 0.04); };
+function pathAt(path, t, [t0, t1]) { const n = path.length, u = clamp((t - t0) / (t1 - t0)) * (n - 1), k = Math.min(n - 2, Math.floor(u)), f = E.inOut(u - k); return labelFront(path[k]).lerp(labelFront(path[k + 1]), f); }
+const checkedAt = (t) => { const u = clamp((t - T.search[0]) / (T.search[1] - T.search[0])) * (SEARCH_PATH.length - 1); return new Set(SEARCH_PATH.slice(0, Math.floor(u) + 1)); };
+const S_POS = [-0.13, 0, 0.45], F_POS = [0.155, 0, 0.45], SAM_OUT = v3(-0.07, SHELF0 + 2 * SHELF_DY + 0.01, 0.105), MIA_OUT = v3(0.07, SHELF0 + 3 * SHELF_DY + 0.01, 0.105);
+const SAM_HAND = v3(-0.075, 0.05, 0.47), GIFT_START = v3(-0.035, 0.05, 0.47), GIFT_END = v3(0.105, 0.05, 0.47);
 
 // ------------------------------------------------------------------ frame
 function frame(t) {
   if (THUMB) t = 0; // the thumbnail IS frame 0
   const c = cameraAt(t); camera.position.copy(c.pos); camera.lookAt(c.tgt); camera.updateMatrixWorld();
-  key_.position.set(c.tgt.x - 0.95, 2.35, c.tgt.z + 1.75); key_.target.position.set(c.tgt.x, 0.05, c.tgt.z); key_.target.updateMatrixWorld();
-  const cl = ramp(t, ...T.ctaClear, E.inOut); stage.position.y = -0.4 * cl; stage.visible = cl < 0.999;
-  const alone = win(t, T.alone, T.unfoldD[0] + 0.35, 0.3, 0.5), eve = win(t, T.evening, T.shelves[0] + 0.3, 0.4, 0.5);
-  key_.intensity = 11 * (1 - 0.45 * alone - 0.22 * eve);
+  key_.position.set(c.tgt.x - 0.95, 2.35, c.tgt.z + 1.75); key_.target.position.set(c.tgt.x, 0.2, c.tgt.z); key_.target.updateMatrixWorld();
+  const cl = ramp(t, ...T.ctaClear, E.inOut); stage.position.y = -0.9 * cl; stage.visible = cl < 0.999;
+  const streamDim = win(t, T.stream[0] - 0.2, T.stream[1], 0.4, 0.4); key_.intensity = 11 * (1 - 0.35 * streamDim);
+  M.back.emissiveIntensity = 0.16 * (1 - 0.5 * streamDim);
 
-  // --- rooms: parts pop up from flat cut-outs; lamps light; context folds/pops in the payoff
-  for (const R of ROOMS) {
-    for (const p of R.parts) { const u = partU(R, p, t), o = p.obj;
-      if (p.type === "hinge") { o.rotation.x = -HALF * (1 - Math.min(u, 1.08)); o.scale.z = lerp(0.1, 1, clamp(u)); o.visible = R.hideFlat ? u > 0.02 : true; }
-      else if (p.type === "rug") { o.scale.x = Math.max(0.02, u); o.visible = R.hideFlat ? u > 0.02 : true; }
-      else if (p.type === "pop") { o.scale.setScalar(Math.max(0.001, u)); o.visible = u > 0.01; }
-      else if (p.type === "plate") { o.scale.set(Math.max(0.01, u), 1, Math.max(0.01, u)); o.visible = u > 0.02; } }
-    R.lamps.forEach((L, j) => { const on = LAMP_ON.has(R) ? ramp(t, ...LAMP_ON.get(R)()) : 0, pu = R.lampPart[j] ? partU(R, R.lampPart[j], t) : 1, g = on * clamp((pu - 0.8) / 0.2);
-      L.userData.glow.material.opacity = 0.8 * g; L.userData.glow.visible = g > 0.01; L.userData.shadeM.emissiveIntensity = 0.9 * g; });
-  }
-  // --- the lone sofa: cold spot, dimension bar on "size", plain tag on "price"; both leave when room D unfolds
-  { const gone = 1 - ramp(t, T.unfoldD[0], T.unfoldD[0] + 0.3), ds = E.outBack(ramp(t, T.size, T.size + 0.32)) * gone; dimBar.scale.set(Math.max(0.001, ds), 1, 1); dimBar.visible = ds > 0.01;
-    const tg = E.outBack(ramp(t, T.price, T.price + 0.3)) * gone; tagG.scale.setScalar(Math.max(0.001, tg)); tagG.visible = tg > 0.01; tagG.userData.card.rotation.y = 0.25 * Math.sin(t * 2.2); }
-  hero.intensity = 3.2 * alone; hero.position.set(0.05, 0.9, -1.25); hero.target.position.set(0, 0.03, -1.52); hero.target.updateMatrixWorld(); heroC.intensity = 0;
+  // --- coolers: the five extra coolers rise on "150"; hero cooler always present
+  COOLERS.forEach((g, ci) => { if (ci === HERO) return; const d = Math.abs(ci - HERO) * 0.1, u = E.outBack(ramp(t, T.coolers[0] + d, T.coolers[0] + d + 0.45)), gone = ramp(t, T.search[0] - 0.4, T.search[0]);
+    g.visible = u > 0.01 && gone < 0.99; g.position.y = -CH * (1 - Math.min(1, u)) - 0.9 * gone; });
 
-  // --- path arrows: faint at rest; light from the entrance into the showroom on "start with the showroom", then a flowing wave
-  for (const ch of chevrons) { const s = ch.userData.s, lit = ramp(t, T.pathLight[0] + s * 1.1, T.pathLight[0] + s * 1.1 + 0.15), flow = 0.45 + 0.55 * Math.max(0, Math.sin(s * 9 - t * 2.4)) ** 2;
-    ch.userData.m.opacity = 0.16 + 0.7 * lit * flow * (1 - cl); }
-  M.arch.emissiveIntensity = 0.15 + 0.5 * pulse(t, T.pawnIn, 0.6);
+  // --- hero labels: names at frame 0; spin to the plain logo on "Share a Coke"; spin back to names in a wave on "swapped … names"
+  const checked = t >= T.search[0] && t < T.search[1] + 0.6 ? checkedAt(t) : null;
+  HERO_B.forEach((b, i) => { const { r, c: col, lab, lm } = b.userData;
+    const lp = E.inOut(ramp(t, T.toLogo[0] + col * 0.05 + (4 - r) * 0.02, T.toLogo[0] + col * 0.05 + (4 - r) * 0.02 + 0.3)), sw = E.outBack(ramp(t, T.swap[0] + (col + (4 - r)) * 0.13, T.swap[0] + (col + (4 - r)) * 0.13 + 0.45));
+    lab.rotation.y = Math.PI * lp + Math.PI * sw;
+    const dim = checked && checked.has(i) && i !== SAM_I ? 0.55 : 1; lm.color.setScalar(dim * (1 - 0.3 * streamDim)); });
+  // --- the search light: darting in the hook, zigzag shelf by shelf in proof 1
+  { let p = null, o = 0; if (t >= T.scanHook[0] - 0.2 && t < T.scanHook[1] + 0.3) { p = pathAt(HOOK_PATH, t, T.scanHook); o = win(t, T.scanHook[0] - 0.4, T.scanHook[1] + 0.3, 0.2, 0.3); } // lit from frame 0
+    if (t >= T.search[0] - 0.2 && t < T.search[1] + 0.4) { p = pathAt(SEARCH_PATH, t, T.search); o = win(t, T.search[0] - 0.2, T.search[1] + 0.4, 0.2, 0.3); }
+    if (THUMB) { p = labelFront(HOOK_PATH[0]); o = 1; }
+    scanGlow.visible = scanRing.visible = o > 0.01; if (p) { scanGlow.position.copy(p); scanRing.position.copy(p).setZ(p.z + 0.005); }
+    scanGlow.material.opacity = 0.55 * o; scanRing.material.opacity = 0.9 * o; scanRing.scale.setScalar(0.05 + 0.006 * Math.sin(t * 9));
+    hero.intensity = 1.6 * o; if (p) { hero.position.set(p.x + 0.25, p.y + 0.7, p.z + 0.9); hero.target.position.copy(p); hero.target.updateMatrixWorld(); } heroC.intensity = 0; }
 
-  // --- shopper
-  { const [sx, sz, bob] = shopperAt(t), sp = THUMB ? 0 : E.outBack(ramp(t, T.pawnIn, T.pawnIn + 0.3)); shopper.position.set(sx, bob, sz); shopper.scale.setScalar(Math.max(0.001, sp)); shopper.visible = sp > 0.01;
-    M.shopper.emissiveIntensity = 0.35 * win(t, T.ghost[0], T.pictureLab[1], 0.2, 0.3) + 0.3 * pulse(t, T.want[0], 0.5);
-    // thought arc from the shopper's head to the imagined shopper on the sofa
-    const ta = win(t, T.think[0], T.pictureLab[1], 0.12, 0.35), rev = ramp(t, ...T.think), pos = thinkGeo.attributes.position.array;
-    tmpA.set(sx, 0.052, sz); tmpB.set(roomD.seat[0], roomD.seat[1] + 0.04, roomD.seat[2]);
-    for (let k = 0; k < THINK_N; k++) { const u = (k + 1) / (THINK_N + 1); thinkP.lerpVectors(tmpA, tmpB, u); thinkP.y += 0.045 * Math.sin(Math.PI * u); const on = u <= rev; pos[3 * k] = thinkP.x; pos[3 * k + 1] = on ? thinkP.y : -5; pos[3 * k + 2] = thinkP.z; }
-    thinkGeo.attributes.position.needsUpdate = true; thinkDots.material.opacity = ta; thinkDots.visible = ta > 0.01; }
-  // --- the imagined (ghost) shopper on the sofa; reaches for the cup on "using"; becomes a real person in the payoff
-  { const go = 0.5 * win(t, T.ghost[0], T.popAll[0] + 0.3, 0.3, 0.3); GHOST.opacity = go; ghostP.visible = go > 0.01; ghostP.position.set(roomD.seat[0], roomD.seat[1] + 0.004 * Math.sin(t * 3), roomD.seat[2]);
-    ghostP.scale.setScalar(0.9 + 0.1 * E.outBack(ramp(t, T.ghost[0], T.ghost[1]))); ghostP.rotation.z = -0.25 * win(t, T.using, T.using + 1.3, 0.25, 0.4);
-    roomD.cup.position.y = CUP_Y + 0.01 * win(t, T.using, T.using + 1.3, 0.25, 0.4); roomA.cup.position.y = CUP_Y_A; }
-  // --- racks: flat packs slide onto the shelves on "Flat packs"; one slides onto the cart on "shelves"; a ghost of the finished
-  // room rises above it on "finishing a room"
-  for (const pk of PACKS) { const d = (pk.i % 9) * 0.05 + (pk.rx > 0 ? 0.02 : 0), u = E.out(ramp(t, T.racks[0] + d, T.racks[0] + d + 0.35)); pk.o.position.x = pk.x0 + (pk.rx > 0 ? -1 : 1) * 0.07 * (1 - u); pk.o.visible = u > 0.01 && !(pk.i === 11 && t >= T.packOn); }
-  { const cv = E.outBack(ramp(t, T.shelves[0] + 0.2, T.shelves[0] + 0.55)); cart.visible = cv > 0.01 && cl < 1; cart.scale.setScalar(Math.max(0.001, cv)); cart.position.set(CART_AT[0], 0, CART_AT[1]);
-    const mv = ramp(t, T.packOn, T.packOn + 0.35, E.inOut); cartPack.visible = t >= T.packOn; const from = [0.08, 0.0115, RACK_Z + 0.072], to = [CART_AT[0], 0.0165, CART_AT[1]];
-    cartPack.position.set(lerp(from[0], to[0], mv), lerp(from[1], to[1], mv) + 0.02 * Math.sin(Math.PI * mv), lerp(from[2], to[2], mv));
-    const gr = win(t, T.ghostRoom[0], T.payCrane[0] + 0.4, 0.4, 0.4); GHOST_ROOM.opacity = 0.7 * gr; ghostRoom.visible = gr > 0.01;
-    ghostRoom.position.set(CART_AT[0], 0.035 + 0.035 * E.out(ramp(t, ...T.ghostRoom)) + 0.002 * Math.sin(t * 2.5), CART_AT[1]); ghostRoom.rotation.y = 0.5 + 0.05 * t; ghostRoom.scale.setScalar(0.2 + 0.1 * E.outBack(ramp(t, ...T.ghostRoom))); }
-  // --- life: people in every room on "Show the life around it"
-  for (const L of life) { const v = E.outBack(clamp((t - (T.popAll[0] + 0.25 + L.room.delay)) / 0.35)); L.o.scale.setScalar(Math.max(0.001, v)); L.o.visible = v > 0.01; }
+  // --- name-card stream: cards rush past; SAM's card decelerates, stops centre and pops on "grabs attention"; others slip by dimmed
+  STREAM.forEach((m) => { const { i, sam } = m.userData; const mt = m.material;
+    if (sam) { const t0 = T.samPop - 0.34, u = E.out(ramp(t, t0, T.samPop)), pop = E.outBack(ramp(t, T.samPop, T.samPop + 0.3)), fly = ramp(t, ...T.foundSam, E.inOut);
+      const home = v3(0.3 * (1 - u), 0.36, 0.4); m.position.copy(home.lerp(SAM_OUT.clone().add(v3(0, 0.031, 0.02)), fly)); const sc = (1 + 0.45 * pop) * (1 - 0.75 * fly); m.scale.set(sc, sc, 1);
+      mt.opacity = t < t0 ? 0 : Math.min(ramp(t, t0, t0 + 0.12), 1 - ramp(t, T.foundSam[1] - 0.15, T.foundSam[1])); m.visible = mt.opacity > 0.01;
+      samCardGlow.position.copy(m.position).setZ(m.position.z - 0.005); samCardGlow.scale.set(0.24 * sc, 0.1 * sc, 1); samCardGlow.material.opacity = 0.7 * pop * mt.opacity; samCardGlow.visible = samCardGlow.material.opacity > 0.01; return; }
+    const t0 = T.stream[0] + i * 0.26, u = (t - t0) / 0.85, x = lerp(0.32, -0.32, u), after = ramp(t, T.samPop, T.samPop + 0.3);
+    m.position.set(x, 0.36 + 0.03 * ((i % 3) - 1), 0.37 - 0.012 * (i % 2)); m.scale.set(1 + 0.25 * after, 1, 1);
+    mt.opacity = u <= 0 || u >= 1 || t > T.stream[1] ? 0 : Math.min(clamp(u * 6), clamp((1 - u) * 6)) * (1 - 0.6 * after); m.visible = mt.opacity > 0.01; });
+
+  // --- found: SAM's bottle glows and slides out; the friend's (MIA) glows, slides out, gets a ribbon; payoff: both go to SAM's
+  // hands, a find ring pulses round SAM's bottle, the gift arcs to MIA
+  { const so = E.outBack(ramp(t, ...T.foundSam)), pay = ramp(t, T.payCam[0], T.payCam[1] - 0.1, E.inOut);
+    const sOut = SAM_B.userData.home.clone().lerp(SAM_OUT, Math.min(1, so)); SAM_B.position.copy(sOut.lerp(SAM_HAND, pay)); SAM_B.userData.lm.emissiveIntensity = 0;
+    SAM_B.userData.lab.material.emissive.set("#7FE7DC"); SAM_B.userData.lm.emissiveIntensity = 0.35 * win(t, T.foundSam[0], T.payCam[0] + 0.5, 0.2, 0.5) + 0.4 * pulse(t, T.findMark, 0.6);
+    const mo = E.outBack(ramp(t, ...T.pullMia)), hand = ramp(t, ...T.handOver, E.inOut), mStart = MIA_B.userData.home.clone().lerp(MIA_OUT, Math.min(1, mo)).lerp(GIFT_START, pay);
+    const arc = GIFT_START.clone().lerp(GIFT_END, hand); arc.y += 0.08 * Math.sin(Math.PI * hand); MIA_B.position.copy(hand > 0 ? arc : mStart);
+    MIA_B.userData.lm.emissiveIntensity = 0.45 * win(t, T.friend, T.giftLab[1], 0.15, 0.5) + 0.3 * pulse(t, T.handOver[1], 0.6);
+    const gs = E.outBack(ramp(t, T.gift - 0.15, T.gift + 0.2)); giftG.scale.setScalar(Math.max(0.001, gs)); giftG.visible = gs > 0.01;
+    M.ribbon.emissiveIntensity = 0.25 + 0.5 * pulse(t, T.gift, 0.5) + 0.4 * pulse(t, T.handOver[1], 0.6);
+    findRing.position.copy(SAM_B.position).add(v3(0, 0.042, 0.02)); const fr = pulse(t, T.findMark - 0.05, 0.9); findRing.material.opacity = 0.9 * fr; findRing.visible = fr > 0.01; findRing.scale.setScalar(0.07 + 0.05 * ramp(t, T.findMark - 0.05, T.findMark + 0.85)); }
+  // --- shoppers: SAM and MIA arrive for the payoff two-shot
+  { const sv = THUMB ? 0 : E.outBack(ramp(t, T.payCam[0] + 0.2, T.payCam[0] + 0.6)); // SAM appears for the payoff only (out of frame in the search shot)
+    shopper.visible = sv > 0.01; shopper.scale.setScalar(Math.max(0.001, Math.min(1.1, sv))); shopper.position.set(...S_POS); shopper.rotation.y = 0.25;
+    const fv = THUMB ? 0 : E.outBack(ramp(t, T.payCam[0] + 0.4, T.payCam[0] + 0.8)); friend.visible = fv > 0.01; friend.scale.setScalar(Math.max(0.001, fv)); friend.position.set(...F_POS); friend.rotation.y = -0.25;
+    M.pawn2.emissiveIntensity = 0.35 * pulse(t, T.handOver[1], 0.8); M.pawn.emissiveIntensity = 0.25 * pulse(t, T.findMark, 0.7); }
 
   // --- CTA tile (app.werbens.com logo): pops up as the stage sinks
   const tu = clamp((t - T.tile[0]) / (T.tile[1] - T.tile[0])), ty = t < T.tile[0] ? 6 : tu < 1 ? lerp(0.03, 0, tu * tu) : 0, tg = Math.max(0.001, E.outBack(tu));
@@ -308,8 +243,7 @@ function frame(t) {
   // ------------------------------------------------------------------ HUD: frame-0 headline, then one big brief label at a time
   { const o = THUMB ? 1 : 1 - ramp(t, ...T.headline, E.in); $("thumb").style.display = o > 0.01 ? "block" : "none"; $("thumb").style.opacity = String(o); }
   const lab = (id, w, y = 630) => hudAt($(id), [500, y], THUMB ? 0 : win(t, ...w, 0.18, 0.15), 0.85 + 0.15 * Math.min(1, pop(t, w[0], 0.3)));
-  lab("lShow", T.showLab); lab("lEve", T.eveLab); lab("lPic", T.pictureLab); lab("lFin", T.finishLab);
-  lab("lLife", T.lifeLab);
+  lab("l150", T.lab150); lab("lSearch", T.searchLab); lab("lPop", T.popLab); lab("lGift", T.giftLab); lab("lGive", T.giveLab);
   const wd = THUMB ? 0 : ramp(t, T.lockup - 0.35, T.lockup + 0.15); $("lockup").style.opacity = String(wd); $("lockup").style.transform = `translate(-50%, ${(1 - E.out(wd)) * 20}px)`;
   const tgl = THUMB ? 0 : ramp(t, T.lockup + 0.1, T.lockup + 0.5); $("tagline").style.opacity = String(tgl); $("tagline").style.transform = `translate(-50%, ${(1 - E.out(tgl)) * 14}px)`;
   captions(t);
